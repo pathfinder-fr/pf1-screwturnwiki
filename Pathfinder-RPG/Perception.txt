@@ -1,0 +1,133 @@
+---
+Name: Pathfinder-RPG.Perception
+Title: Perception
+LastModified: 2017-12-02 23:51
+Categories:
+  - 'Compétence'
+---
+{s:MenuCompétences}
+
+'''Caractéristique associée''' : [[Sagesse]]
+
+'''Formation nécessaire''' : non
+
+''Les sens du personnage lui permettent de repérer certains détails et le préviennent des dangers imminents. La compétence de Perception regroupe les cinq sens : la vue, l’ouïe, le toucher, le goût et l’odorat.''
+
+===Test de compétence===
+
+La compétence de Perception peut s’utiliser de différentes manières. Le plus souvent, il s’agit d’un test opposé au test de [[Discrétion]] d’un adversaire et visant à repérer celui-ci avant qu’il puisse surprendre le personnage. En cas de réussite, le personnage peut réagir à la présence de cet adversaire. En cas d’échec, l’adversaire peut accomplir diverses actions, comme se faufiler discrètement ou attaquer le personnage.
+
+La compétence de [[Perception]] permet également de remarquer certains détails dans l’environnement du personnage. Le [[DD]] du test dépend alors de la distance, de l’environnement et de la difficulté à percevoir le détail en question. La table qui suit donne quelques indications pour déterminer le [[DD]] du test.
+
+<center>
+{| CLASS="tablo"
+|+ tests de Perception
+|- CLASS="titre"
+| Détail
+| DD du test de Perception
+|- CLASS="premier"
+| Entendre les bruits d’un combat
+| -10
+|- CLASS="alt"
+| Sentir l’odeur de détritus en putréfaction
+| -10
+|-
+| Sentir l’odeur de la fumée
+| 0
+|- CLASS="alt"
+| Entendre les détails d’une conversation
+| 0
+|-
+| Voir une créature visible
+| 0
+|- CLASS="alt"
+| Déterminer si de la nourriture est avariée
+| 5
+|-
+| Entendre les pas d’une créature
+| 10
+|- CLASS="alt"
+| Entendre les détails d’une conversation à voix basse
+| 15
+|-
+| Trouver une porte cachée de difficulté moyenne
+| 15
+|- CLASS="alt"
+| Entendre le son d’une clef tournant dans une serrure
+| 20
+|-
+| Trouver une porte secrète de difficulté moyenne
+| 20
+|- CLASS="alt"
+| Entendre le son d’un arc dont on tend la corde
+| 25
+|-
+| Percevoir les vibrations d’une créature souterraine passant sous le personnage
+| 25
+|- CLASS="alt"
+| Remarquer un pickpocket
+| opposé au test d’[[Escamotage]]
+|-
+| Remarquer une créature utilisant la compétence de [[Discrétion]]
+| opposé au test de [[Discrétion]]
+|- CLASS="alt"
+| Trouver un [[pièges|piège]] caché
+| variable selon le [[pièges|piège]]
+|-
+| Identifier les effets d’une potion en la goûtant
+| 15 + [[NLS]] de la potion
+|}
+</center>
+
+<center>
+{| CLASS="tablo" WIDTH="80%"
+|+ modificateur des tests de Perception
+|- CLASS="titre"
+| Circonstances
+| Modificateur au DD du test de Perception
+|- CLASS="premier"
+| Distance entre le personnage et la source/l’objet/la créature
+| +1 par 3 m (2 cases)
+|- CLASS="alt"
+| À travers une porte fermée
+| +5
+|-
+| À travers un mur
+| +10 par 30 cm d’épaisseur
+|- CLASS="alt"
+| Conditions favorables<sup>[[Perception#NOTE1|1]]</sup>
+| -2
+|-
+| Conditions défavorables<sup>[[Perception#NOTE1|1]]</sup>
+| +2
+|- CLASS="alt"
+| Conditions exécrables<sup>[[Perception#NOTE2|2]]</sup>
+| +5
+|-
+| Le personnage qui réalise le test de Perception est distrait
+| +5
+|- CLASS="alt"
+| Le personnage qui réalise le test de Perception est endormi
+| +10
+|-
+| La créature/l’objet est invisible
+| +20
+|-
+| COLSPAN="2" CLASS="note" | {s:Reference|NOTE1}''(1) Les conditions favorables et défavorables dépendent du sens qui est employé. Par exemple, une lumière forte peut faciliter les tests liés à la vue alors les tests effectués à la lueur d’une torche ou de la lune seront plus difficiles ; des bruits de fond peuvent augmenter le DD d’un test basé sur l’ouïe ; un mélange d’odeurs peut compliquer les tests relatifs à l’[[odorat]].''
+|-
+| COLSPAN="2" CLASS="note" | {s:Reference|NOTE2}''(2) Il s’agit de conditions plus extrêmes que les conditions défavorables. Par exemple, un test lié à la vue à la lueur d’une bougie, un test lié à l’ouïe à côté d’un dragon qui rugit ou un test lié à l’[[odorat]] dans une zone où règne une puanteur écrasante.''
+|}
+</center>
+===Action===
+
+La plupart des tests de Perception sont faits en réaction à un stimulus observable. Chercher activement un tel stimulus est une action de mouvement.
+
+===Nouvelles tentatives===
+
+Oui. Un personnage peut essayer de percevoir un détail qu’il a raté la première fois, pour autant que le détail en question soit toujours présent.
+
+===Spécial===
+
+Les [[demi-elfe|demi-elfes]], les [[elfe|elfes]], les [[gnome|gnomes]] et les [[halfelin|halfelins]] bénéficient d’un bonus racial de +2 aux tests de Perception. Les créatures qui possèdent la particularité [[odorat]] reçoivent un bonus de +8 aux tests de Perception visant à repérer une odeur. Celles qui possèdent la particularité [[perception des vibrations]] reçoivent un bonus de +8 aux tests de Perception contre les créatures qui touchent le sol et réussissent automatiquement ces tests lorsque ceux-ci se déroulent dans la portée de cette capacité.
+
+Un lanceur de sorts possédant un faucon ou une chouette comme familier gagne un bonus de +3 aux tests de Perception. Un personnage possédant le don [[Vigilance]] bénéficie d’un bonus aux tests de Perception.

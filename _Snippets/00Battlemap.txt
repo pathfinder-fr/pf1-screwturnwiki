@@ -1,0 +1,39 @@
+<script type="text/javascript">
+function initialisation() {
+  /* Constantes */
+  defaultsrc = "/wiki/public/upload/Battlemaps/tetetest.png";
+  dejajoue = true;
+  doitjouer = false;
+  mort = 0;
+  normal = 1;
+  ausol = 2;
+  inconscient = 3;
+  invisible = 4;
+  etatdesc = new Array();
+  arrayset(etatdesc,0,"mort");
+  arrayset(etatdesc,1,"normal");
+  arrayset(etatdesc,2,"au sol");
+  arrayset(etatdesc,3,"inconscient");
+  arrayset(etatdesc,4,"invisible");
+  cercle = 0;
+  cone = 1;
+  rectangle = 2;
+  aura = 3;
+  typezonedesc = new Array();
+  arrayset(typezonedesc,0,"cercle");
+  arrayset(typezonedesc,1,"cone");
+  arrayset(typezonedesc,2,"rectangle");
+  arrayset(typezonedesc,3,"aura");
+  /* Battlemap */
+  battlemap = new Battlemap();
+  battlemap.src = "?1?";
+  battlemap.taillex = ?2?;
+  battlemap.tailley = ?3?;
+  battlemap.njetons = 0;
+  battlemap.nobjets = 0;
+  battlemap.nzones = 0;
+  tridefaut = 0; // 0 par init, 1 par alpha
+  grille = false;
+  zoom = 1;
+  idxmvt = -1;
+  idxzmvt = -1;

@@ -1,0 +1,40 @@
+---
+Name: Pathfinder-RPG.Amnésique (Psychiste)
+Title: Amnésique (Psychiste)
+LastModified: 2019-10-15 02:03
+Categories:
+  - 'Archétype psychiste'
+  - 'Aventures occultes'
+  - 'Règles officielles'
+---
+{s:Menuarchétypepsychiste}{s:AO}''L’amnésique maîtrisait autrefois de grands pouvoirs psychiques mais des blocages mentaux, provoqués par un évènement traumatisant ou par une implantation intentionnelle, ont effacé ce savoir de sa mémoire. La lutte menée par l’amnésique pour contrôler sa magie psychique aboutit à des résultats imprécis et imprévisibles.''
+
+====Souvenirs refoulés==== 
+Tous les souvenirs de l’amnésique sont profondément enfouis, comme si le personnage avait été la cible de plusieurs sorts de ''[[refouler un souvenir]]''. Il est capable de se souvenir des événements se déroulant au cours d’une partie mais il se montre parfois étourdi. Si l’amnésique parvient à recouvrer ses souvenirs, il se débarrasse de cet archétype et redevient un psychiste standard.
+
+====Sorts==== 
+L’aptitude d’incantation des sorts psychiques d’un amnésique est identique à celle des psychistes, à l’exception des indications suivantes.
+
+La mémoire déficiente d’un amnésique complique la mémorisation et l’incantation des sorts mais augmente également ses facultés d’adaptation, ce qui lui confère un avantage certain. Au lieu de choisir son répertoire de sorts connus dont le nombre est indiqué dans la Table "[[psychiste#SORTSCONNUSDUPSYCHISTE|Sorts connus par le psychiste]]", un amnésique accède aux sorts qu’il connaissait la veille, en fouillant dans les recoins de sa mémoire. Cette récupération des sorts nécessite une heure de méditation. Chaque jour, pour chaque niveau de sort que l’amnésique est capable de lancer, il conserve un nombre de sorts connus égal à la moitié, arrondie au supérieur, de celui indiqué dans la Table "[[psychiste#SORTSCONNUSDUPSYCHISTE|Sorts connus par le psychiste]]". Ces sorts doivent être choisis parmi ceux qu’il connaissait la veille (y compris ceux dont il se souvenait en utilisant ses souvenirs de sorts, comme expliqué plus bas). Le reste de ses sorts connus (l’autre moitié du nombre indiqué dans la Table "[[psychiste#SORTSCONNUSDUPSYCHISTE|Sorts connus par le psychiste]]", arrondi à l’inférieur) deviennent des emplacements d’amnésie que le personnage peut utiliser grâce à son aptitude souvenirs des sorts (voir plus bas). Pour déterminer son répertoire de sorts connus au moment où il choisit pour la première fois cet archétype, l’amnésique sélectionne un sort de niveau 1 parmi ceux de la liste de sorts de psychiste.
+
+Cette modification à propos des sorts ne s’applique pas aux astuces (c’est-à-dire, les sorts de niveau 0) ou aux sorts de discipline, qui fonctionnent de la même façon que ceux d’un psychiste standard. Quand l’amnésique peut lancer des sorts de niveau 3, il se souvient de l’ensemble de son répertoire de sorts connus de niveau 1 et n’obtient donc plus d’emplacements d’amnésie de ce niveau. Il obtient à la place le nombre total de sorts connus de niveau 1 indiqué dans la Table "[[psychiste#SORTSCONNUSDUPSYCHISTE|Sorts connus par le psychiste]]" et les lance comme un psychiste standard. 
+
+À partir de ce moment, l’amnésique peut choisir tous ses sorts connus du niveau approprié parmi ceux de la liste de sorts de psychiste, même s’il ne les a jamais préparés auparavant ou n’a jamais utilisé son aptitude de souvenirs des sorts les concernant ; une fois ce choix effectué, l’amnésique ne peut plus en changer, comme les psychistes standards. Chaque fois que le psychiste peut lancer un nouveau niveau de sorts, il se rappelle, de la même façon, de l’ensemble des sorts de 2 niveaux inférieurs (il se rappelle ainsi de l’ensemble des sorts de niveau 2 et les choisit définitivement quand il accède aux sorts de niveau 4, et ainsi de suite). Cette aptitude modifie la capacité d’incantation des sorts de psychiste.
+
+====Souvenirs des sorts (Ext)====
+Une fois par heure et par une [[action libre]], un amnésique peut tenter de se rappeler le sort de son choix d’un des 2 niveaux les plus élevés qu’il est capable de lancer parmi ceux de la liste de sorts de psychiste. Lorsqu’il utilise cette aptitude, il lance 1d100 et applique le résultat indiqué dans la Table "Souvenirs des sorts". Le stress mental provoqué par les situations de combat facilite la remontée des souvenirs à la surface de la mémoire, voilà pourquoi l’amnésique ajoute 1d10 au résultat de son jet s’il est engagé dans un combat au moment où il tente de se rappeler d’un sort. Quel que soit le résultat, l’amnésique dépense un emplacement d’amnésie du niveau correspondant à celui du sort qu’il tente de se remémorer. Il doit lancer le sort remémoré (le cas échéant) en utilisant cet emplacement d’amnésie pendant le même round, sous peine de perdre l’emplacement de sort sans produire d’effet. Une fois un sort mémorisé par ce biais, l’amnésique peut le lancer comme s’il faisait partie de son répertoire de sorts connus pour le reste de la journée (même s’il n’a pas réussi à le lancer pendant le round au cours duquel il a utilisé cette aptitude), sauf si souvenirs des sorts lui a permis de lancer un sort d’un niveau supérieur à ses capacités actuelles d’incantation.
+
+{| CLASS="tablo autoalt centre" WIDTH="80%"
+|+ Souvenir des sorts
+|- CLASS="titre"
+|   d100   || Résultat
+|- CLASS="premier gauche"
+|  1-10   || L’amnésique s’avère incapable de lancer des sorts pendant le round en cours.
+|- CLASS="gauche"
+|  11-35 || L’amnésique ne parvient pas à se rappeler du nouveau sort (mais il peut tout de même lancer des sorts pendant le round en cours).
+|- CLASS="gauche"
+| 36-95 || L’amnésique se rappelle du nouveau sort et peut le lancer.
+|- CLASS="gauche"
+| 96 et + || L’amnésique peut considérer son résultat comme identique à la tranche 36-95. Sinon, une fois par jour, il peut se rappeler temporairement d’un sort de la liste de sorts de psychiste d’un niveau plus élevé que celui du sort qu’il tente de se remémorer. Le cas échéant, il considère que son niveau de lanceur de sorts est le minimum nécessaire pour le lancer. Il
+l’oublie après son incantation. 
+|}

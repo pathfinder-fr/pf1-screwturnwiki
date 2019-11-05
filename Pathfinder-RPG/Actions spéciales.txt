@@ -1,0 +1,117 @@
+---
+Name: Pathfinder-RPG.Actions spéciales
+Title: Actions spéciales
+LastModified: 2018-11-27 09:42
+Categories:
+  - 'Combat'
+---
+{toc}
+
+Cette section parle des diverses manœuvres que le personnage peut effectuer pendant un combat en dehors des attaques ordinaires, des sorts et d’autres aptitudes de classe. Certaines de ces attaques spéciales peuvent être menées en même temps qu’un autre action (telle qu’une attaque), ou en tant qu’[[attaque dopportunité|attaque d’opportunité]].
+
+{s:Reference|AIDERQQN}
+=== Aider quelqu’un ===
+{s:Desambi|Voir aussi [[Compétences#AIDER|Aider quelqu'un]] lors d'un test de compétence.}
+Il est possible d’aider un allié à attaquer ou à se défendre en distrayant ou en gênant son adversaire. Si un personnage se place de manière à attaquer au corps à corps un ennemi qui est engagé au contact avec un de ses compagnons, il peut assister ce dernier par une [[action simple]]. Il fait alors un [[jet dattaque|jet d’attaque]] contre une [[CA]] de 10. S’il réussit, il permet à son allié de bénéficier d’un bonus de +2 à son prochain [[jet dattaque|jet d’attaque]] contre cet adversaire ou un bonus de +2 à la [[CA]] contre la prochaine attaque de cet adversaire (au choix du personnage qui apporte son aide). Ce bonus est valable jusqu’au début du prochain tour de jeu du personnage qui apporte son aide. Plusieurs personnages peuvent aider le même allié, les bonus similaires se cumulant.
+
+Cette [[action simple]] permet également d’aider un ami différemment, par exemple lorsque celui-ci a été affecté par un sort, ou pour l’aider lors d’un test de compétence.
+
+{s:Reference|ARMEIMPACT}
+=== Lancer une arme à impact ===
+On appelle arme à impact toute arme à distance qui se brise ou se déchire au moindre choc, pour répandre son contenu sur sa cible et les créatures ou objets alentours. Le résultat du lancer est déterminé par une [[attaque de contact à distance]] contre la cible. Les armes à impact ne nécessitent aucune formation et le personnage ne subit donc jamais de malus de -4 pour non-formation. Si le coup touche, l’arme à impact inflige les dégâts d’un coup au but à la cible et des dégâts d’aspersion à toutes les créatures distantes de moins de 1,50 mètre. Les armes à impact ne peuvent pas infliger de dégâts basés sur la précision (comme les dégâts d’une [[roublard#ATTAQUESOURNOISE|attaque sournoise]] de [[roublard]]).
+
+Le personnage peut viser l’intersection de plusieurs cases au lieu d’une créature. Dans ce cas, il fait une attaque à distance contre une [[CA]] de 5. Cependant, aucune créature ne reçoit les dégâts d’un coup au but bien que toutes les créatures des cases adjacentes à l’intersection subissent les dégâts d’aspersion. Il est impossible de viser une intersection si elle est occupée par une créature, comme une créature de [[taille G]] ou plus, dans ce cas, il faut viser la créature elle-même.
+
+Si le personnage rate son attaque, qu’elle vise une créature ou une intersection, il lance 1d8 pour déterminer dans quelle direction se produit l’impact par rapport à la cible : sur un 1, le lancer était trop court, sur un 2, trop court et à gauche, et ainsi de suite dans le sens des aiguilles d’une montre. On compte alors un nombre de cases égal au facteur de portée du tir. Par exemple, si un personnage rate un lancer distant de deux facteurs de portée et obtient un 1 sur son d8, l’arme à impact atterrit deux cases en avant du point visé. L’arme à impact inflige des dégâts d’aspersion à toutes les créatures se situant à moins de 1,50 mètre.
+
+{s:Reference|CHARGE}
+=== Charge ===
+{s:Desambi|Charge peut également désigner l'encombrement causé par le [[encombrement|poids transporté]].}
+La charge est une [[action complexe]] particulière qui permet de parcourir une distance égale à deux fois la vitesse de déplacement normale du personnage et de porter une attaque. En contrepartie, elle limite fortement le déplacement.
+
+==== Déplacement durant une charge ====
+Le personnage doit absolument se déplacer avant d’attaquer et non après. Il doit parcourir un minimum de 3 mètres (2 cases), la distance maximale qu’il peut couvrir étant égale à deux fois sa [[vitesse de déplacement]] normale. Le déplacement doit se faire en ligne droite, toujours en direction de l’adversaire ciblé. Si le personnage parcourt une distance égale ou inférieure à sa [[vitesse de déplacement]] de base et qu’il dispose aussi d’un [[bonus de base à lattaque|bonus de base à l’attaque]] de +1 ou plus, il peut tirer son arme tout en chargeant.
+
+Le personnage doit disposer d’un passage dégagé vers l’adversaire et rien ne doit gêner son déplacement (ni [[terrain difficile]], ni obstacle). Il doit tout d’abord se déplacer vers l’espace le plus proche de lui à partir duquel il pourra attaquer l’adversaire ciblé. Si cet espace est occupé ou bloqué, le personnage ne peut pas charger. Ensuite, si n’importe quelle ligne qui relie son espace de départ et son espace d’arrivée passe par une case bloquée, par une case qui ralentit le mouvement ou par un espace occupé par une créature (même un allié), alors le personnage ne peut pas charger. Les créatures [[sans défense]] ne gênent pas la charge.
+
+Pour charger, le personnage doit avoir son adversaire en ligne de mire au début de son tour de jeu.
+
+On ne peut effectuer un pas de placement de 1,50 m dans le même round qu’une charge.
+
+Si l’activité d’un personnage est limitée à une [[action simple]] par round, il peut tout de même charger mais il ne peut se déplacer que de sa vitesse, au lieu de deux fois sa vitesse. Il ne peut pas non plus dégainer une arme à moins de posséder le don [[Arme en main]]. Le personnage ne peut pas utiliser cette option si son activité n’est pas effectivement réduite à une [[action simple]] par round.
+
+
+==== Attaque lors d’une charge ====
+Après s’être déplacé, le personnage peut asséner une unique attaque au corps à corps. La charge offre un bonus de +2 au [[jet dattaque|jet d’attaque]] tandis que le personnage subit un malus de -2 à la [[CA]] jusqu’à son prochain tour.
+
+Une charge offre un bonus de +2 au test opposé de [[Force]] lors d’une [[bousculade]].
+
+Même si le personnage dispose normalement de plusieurs attaques par round (généralement grâce à un [[bonus de base à lattaque|bonus de base à l’attaque]] élevé ou parce qu’il manie plusieurs armes), il ne peut porter qu’une seule attaque à la suite d’une charge.
+
+==== Charge à la lance d’arçon ====
+Une lance d’arçon inflige des dégâts doublés si un personnage monté l’utilise au cours d’une charge.
+
+==== Réception de charge ====
+Certaines armes perforantes, telles que la lance et le trident, infligent des dégâts doublés à un adversaire qui charge si le personnage a préparé une réception de charge en calant l’extrémité de leur hampe ou en la plantant dans le sol.
+
+{s:Reference|COMBAT2ARMES}
+=== Combat à deux armes ===
+Si, en plus de l’arme principale tenue dans la main directrice, un personnage manie une arme secondaire dans sa main non-directrice, celle-ci lui permet de porter une attaque supplémentaire par round. Il subit un malus au [[jet dattaque|jet d’attaque]] de -6 à sa ou ses attaques principales et de -10 à l’attaque secondaire. Il peut réduire ces malus de deux manières. D’une part, s’il utilise une arme secondaire légère, les malus baissent de 2 points chacun (une attaque à mains nues est toujours considérée comme une arme légère). D’autre part, le don [[Combat à deux armes]] réduit le malus de la main directrice de 2 points et celui de la main non-directrice de 6 points.
+
+Les diverses combinaisons possibles sont résumées ci-dessous :
+
+<center>
+{| CLASS="tablo"
+|+ Malus liés au combat à deux armes
+|- CLASS="titre"
+| Circonstances || Main directrice || Main non directrice
+|- CLASS="premier"
+| Malus normaux || -6 || -10
+|- CLASS="alt"
+| Arme légère dans la main non directrice || -4 || -8
+|-
+| Don de [[Combat à deux armes]] || -4 || -4
+|- CLASS="alt"
+| Arme légère dans la main non directrice et don de [[Combat à deux armes]] || -2 || -2
+|}
+</center>
+
+'''Arme double.''' Le personnage peut utiliser une arme double pour porter une attaque supplémentaire avec la tête qu’il tient dans sa main non-directrice, comme s’il utilisait deux armes. Il subit les mêmes malus que s’il utilisait une arme secondaire légère dans sa main non-directrice.
+
+'''Armes de jet.''' Les règles sont les mêmes pour un personnage qui utilise une arme de jet dans chaque main. Les dards et les shuriken sont considérés comme des armes légères, tandis que les bolas, le filet, la fronde et les javelines sont assimilées à des armes à une main.
+
+{s:Reference|COMBATMONTE}
+=== Combat monté ===
+Ces règles parlent du combat à [[cheval]] mais elles s’appliquent aussi à des montures plus inhabituelles, comme des [[griffon|griffons]] ou des [[dragon|dragons]].
+
+'''Les montures au combat.''' On peut utiliser des [[cheval|chevaux]] et des [[poney|poneys]] ainsi que les [[chien de selle|chiens de selle]] comme montures de combat. Les montures qui ne sont pas entraînées au combat (voir la compétence [[Dressage]]) sont effrayées par la bataille. Si le personnage décide de rester en selle, il doit faire un test d’[[Équitation]] [[DD]] 20 au début de chaque round pour contrôler sa monture, ce qui demande une [[action de mouvement]]. En cas de succès, il peut exécuter une [[action simple]] après son [[action de mouvement]], sinon, l’[[action de mouvement]] se transforme en [[action complexe]], ce qui signifie que le personnage ne peut rien faire d’autre avant son tour de jeu suivant.
+
+La monture agit selon les ordres de son cavalier, au moment déterminé par l’[[initiative]] de ce dernier. Le personnage se déplace à la vitesse de sa monture mais cette dernière doit se servir d’une action pour se déplacer.
+
+Contrairement au [[poney]], le [[cheval]] est un animal de taille G. Il occupe un espace de 3 m de large (2 cases). Pour simplifier, on considère que le personnage partage l’espace de sa monture pendant le combat.
+
+'''Combat en selle.''' Si le personnage réussit un test d’[[Équitation]] DD 5, il dirige sa monture avec les jambes afin de garder les mains libre pour attaquer ou se défendre. C’est une [[action libre]].
+
+Face à un adversaire à pied d’une taille inférieure à celle de sa monture, le personnage bénéficie du bonus de +1 au [[jet dattaque|jet d’attaque]] car il se trouve en position surélevée. Si sa monture se déplace de plus de 1,50 m, il est limité à une seule attaque au corps à corps. Cela s’explique par le fait qu’il doive attendre que sa monture atteigne l’ennemi avant de frapper. Il lui est donc impossible d’[[attaque à outrance|attaquer à outrance]]. Même si la monture se déplace à sa vitesse maximale, le cavalier ne subit aucun malus au [[jet dattaque|jet d’attaque]] au corps à corps.
+
+Lorsque sa monture [[charge]], un cavalier subit aussi le malus de [[charge]] à la [[CA]]. S’il effectue son attaque à la fin de la [[charge]], il bénéficie aussi du bonus de [[charge]] au [[jet dattaque|jet d’attaque]]. Si le cavalier [[charge]] avec une lance d’arçon, il inflige des dégâts doublés (voir « [[Charge]] »).
+
+Le personnage peut utiliser une arme à distance pendant que sa monture effectue un double déplacement mais le [[jet dattaque|jet d’attaque]] s’accompagne alors d’un malus de -4. Si le cheval galope ([[vitesse de déplacement]] multipliée par quatre), les [[jet dattaque|jets d’attaque]] à distance du personnage s’accompagnent d’un malus de -8. Dans les deux cas, le [[jet dattaque|jet d’attaque]] s’effectue au moment où la monture a parcouru la moitié de son déplacement. Le personnage peut choisir d’[[attaque à outrance|attaquer à outrance]] avec une arme à distance pendant que sa monture se déplace. Il peut aussi faire ses [[action de mouvement|actions de mouvement]] normalement.
+
+'''Utilisation de sorts en selle.''' Le personnage lance ses sorts normalement si sa monture se déplace normalement (donc à sa [[vitesse de déplacement]]), soit avant, soit après l’incantation. Si le personnage décide de lancer son sort alors que sa monture se déplace, donc s’il la fait avancer avant et après l’incantation, il doit réussir un test de [[Concentration]] ([[DD]] 10 + niveau du sort) pour ne pas perdre son sort. Si le cheval galope (à quatre fois sa [[vitesse de déplacement]]), le personnage peut lancer un sort une fois que sa monture a parcouru deux fois sa [[vitesse de déplacement]] mais sa tâche est plus difficile à cause de la vitesse élevée ([[DD]] 15 + niveau du sort).
+
+'''Chute de la monture.''' Si la monture tombe, le cavalier doit réussir un test d’[[Équitation]] [[DD]] 15 pour amortir sa chute sinon, il reçoit 1d6 points de dégâts.
+
+'''Chute du personnage.''' Si le personnage perd connaissance, il a 50 % de chances de rester en selle (75 % s’il utilise une selle de guerre). Dans le cas contraire, il tombe et subit 1d6 points de dégâts. Si son cavalier n’est plus là pour le diriger, le cheval évite les combats.
+
+{s:Reference|FEINTE}
+=== Feinte ===
+Feinter est une [[action simple]]. Le personnage doit faire un test de [[Bluff]]. Le [[DD]] est égal à 10 + le [[bonus de base à lattaque|BBA]] de l’adversaire + le modificateur de [[Sagesse]] de l’adversaire. Si la cible possède la compétence [[Psychologie]], le [[DD]] est égal à la place à 10 + score de [[Psychologie]] de la cible, si ce total est plus élevé que le premier. Si le personnage réussit sa feinte, sa cible perd son éventuel bonus de [[Dextérité]] à la [[CA]] contre sa prochaine attaque au corps à corps. L’attaque doit impérativement se produire avant ou lors du prochain tour de jeu du personnage.
+
+Contre un ennemi non-humanoïde, le test de [[Bluff]] s’accompagne d’un malus de –4 et contre une créature d’intelligence animale ([[Int]] 1 ou 2) d’un malus de -8. Enfin, il est impossible de faire une feinte contre un monstre dénué d’[[intelligence]]. Feinter ne provoque pas d’[[attaque dopportunité|attaque d’opportunité]].
+
+'''Feinter par une action de mouvement.''' Un personnage possédant le don [[Science de la feinte]] peut faire une feinte lors d’une [[action de mouvement]] plutôt que lors d’une [[action simple]].
+
+{s:Reference|MANCOMBAT}
+=== Manœuvres offensives ===
+Voir la [[Manœuvres offensives|page dédiée]].

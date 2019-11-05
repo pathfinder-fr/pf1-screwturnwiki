@@ -1,0 +1,128 @@
+---
+Name: Pathfinder-RPG.Vol
+Title: Vol
+LastModified: 2014-08-31 01:03
+Categories:
+  - 'Compétence'
+---
+{s:MenuCompétences}
+
+{s:Desambi|Vol est également le nom d'un [[sort vol|sort]] et d'une [[Vol (capacité)|capacité spéciale]].}
+'''Caractéristique associée''' : [[Dextérité]]
+
+'''Formation nécessaire''' : non
+
+'''Malus d’armure''' : oui
+
+''Lorsque le personnage vole (grâce à des ailes ou par magie), il sait le faire avec agilité. Il peut réaliser des manœuvres aériennes complexes ou dangereuses. Cette compétence ne lui donne cependant pas la capacité de voler.''
+
+===Test de compétence===
+
+En règle générale, un test de Vol n’est requis que pour des manœuvres complexes. Une créature volante ne doit pas faire de test pour rester en vol à la fin de son tour, pour autant qu’elle se soit déplacée d’une distance au moins égale à la moitié de sa vitesse. Elle peut également virer à 45° en sacrifiant 1,50 m de mouvement, voler vers le haut selon un angle de 45° à la moitié de sa vitesse ou voler vers le bas (selon n’importe quel angle) à sa vitesse normale. Ces restrictions s’appliquent uniquement aux déplacements effectués au cours d’un tour en combat. Dès le début du tour suivant, la créature peut se déplacer dans une direction différente de celle suivie lors du tour précédent sans devoir faire un test de compétence. Toutes les actions qui violent ces règles nécessitent un test de Vol. Le DD de ce test dépend de la manœuvre que la créature volante tente, comme indiqué dans la table suivante.
+
+<center>
+{| CLASS="tablo"
+|+ Manœuvres aériennes
+|- CLASS="titre"
+| Manœuvre aérienne
+| DD du test de Vol
+|- CLASS="premier"
+| Se déplacer sur une distance inférieure à la moitié de sa vitesse et rester en vol
+| 10
+|- CLASS="alt"
+| Faire du surplace/vol stationnaire
+| 15
+|-
+| Virer de plus de 45° en sacrifiant 1,50 m de mouvement
+| 15
+|- CLASS="alt"
+| Virer à 180° en sacrifiant 3 m de mouvement
+| 20
+|-
+| Voler vers le haut selon un angle de plus de 45°
+| 20
+|}
+</center>
+
+'''Être attaqué en vol.''' Une créature volante n’est pas forcément considérée comme prise au dépourvu lorsqu’elle vole. Si elle utilise des ailes et qu’elle subit des dégâts en vol, elle doit réussir un test de Vol (DD 10) pour éviter de perdre 3 m d’altitude. Ce mouvement vers le bas ne provoque pas d’attaque d’opportunité et ne compte pas dans la limite de mouvement que la créature peut effectuer chaque round.
+
+'''Collision en vol.''' Si une créature utilise des ailes pour voler et entre en collision avec un objet de même taille qu’elle ou plus grand qu’elle, elle doit immédiatement réussir un test de Vol (DD 25) pour éviter de plonger vers le sol et de subir des dégâts en conséquence.
+
+'''Éviter les dégâts dus à une chute.''' Si une créature capable de voler tombe, elle peut tenter d’annuler les dégâts dus à la [[Dangers naturels#CHUTES|chute]] en réussissant un test de Vol (DD 10). Cette option n’est pas disponible si la chute résulte d’un test de Vol raté ou d’une collision.
+
+'''Vents forts.''' Les vents forts imposent des malus aux tests de Vol, comme indiqué dans la table ci-dessous. Les créatures dont la taille est inférieure ou égale à celle indiquée dans la colonne « Créatures stoppées » doivent réussir un test de Vol (DD 20) pour pouvoir se déplacer et ce aussi longtemps que les vents persistent. Les créatures dont la taille est inférieure ou égale à celle indiquée dans la colonne « Créatures emportées » doivent réussir un test de Vol (DD 25) pour éviter d’être emportées par le vent sur 2d6 × 3 m et de subir 2d6 points de dégâts non-létaux. Ces tests se répètent chaque round où la créature reste en vol. Une créature qui est emportée doit également réussir un test de Vol (DD 20) pour éviter d’être stoppée par le vent.
+
+<center>
+{| CLASS="tablo"
+|+ Effet du vent sur les creatures volantes
+|- CLASS="titre"
+| Force du vent
+| Vitesse du vent
+| Créatures stoppées
+| Créatures emportées
+| Malus aux tests de Vol
+|- CLASS="premier"
+| léger
+| 0–15 km/h
+| —
+| —
+| —
+|- CLASS="alt"
+| modéré
+| 15–30 km/h
+| —
+| —
+| —
+|-
+| fort
+| 30–50 km/h
+| TP
+| —
+| -2
+|- CLASS="alt"
+| violent
+| 50–80 km/h
+| P
+| TP
+| -4
+|-
+| tempête
+| 80–120 km/h
+| M
+| P
+| -8
+|- CLASS="alt"
+| ouragan
+| 120–280 km/h
+| G
+| M
+| -12
+|-
+| tornade
+| 280+ km/h
+| TG
+| G
+| -16
+|}
+</center>
+
+===Action===
+
+Aucune. Un test de Vol ne nécessite pas une action propre ; il fait partie d’une autre action ou se produit en réaction à un événement.
+
+===Nouvelles tentatives===
+
+Variable. On peut tenter un test de Vol pour réaliser une manœuvre aérienne chaque round. Cependant, si une créature qui utilise des ailes rate un test de Vol de 5 points ou plus, elle s’écrase et subit des dégâts en conséquence (voir la section sur les [[Dangers naturels#CHUTES|chutes]]).
+
+{s:REFERENCE|SPECIAL}
+===Spécial===
+
+Un lanceur de sorts possédant une chauve-souris comme [[familier]] bénéficie d’un bonus de +3 aux tests de Vol.
+
+La compétence de Vol fonctionne comme une compétence de classe pour les créatures qui possèdent une vitesse de vol. De plus, ces créatures obtiennent un bonus (ou un malus) dépendant de leur manœuvrabilité à leurs tests de Vol: déplorable -8, médiocre -4, moyenne +0, bonne +4, parfaite +8. Lorsqu’aucune manœuvrabilité en vol n’est indiquée, on suppose que la créature possède une manœuvrabilité moyenne.
+
+Les créatures dont la taille n’est pas M reçoivent également un bonus (ou un malus) dépendant de leur taille aux tests de Vol : infime +8, minuscule +6, très petit +4, petit +2, grand -2, très grand -4, gigantesque -6, colossal -8.
+
+Pour pouvoir investir des points de compétence dans la compétence de Vol, une créature doit disposer de moyens naturels lui permettant de voler ou de planer ou encore d’une capacité fiable (un sort ou une aptitude spéciale) qu’elle peut utiliser quotidiennement.
+
+Un personnage possédant le [[Dons|don]] [[Voltigeur]] obtient un bonus aux tests de Vol.

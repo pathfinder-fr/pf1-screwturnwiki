@@ -1,0 +1,291 @@
+---
+Name: Ressources.Tutoriel GiMP2
+Title: Quadrillages et Ombres Portées
+LastModified: 2011-02-13 10:18
+Categories:
+  - 'Cartographie'
+  - 'Logiciel'
+---
+Suite du tutoriel pour la [Tutoriel GiMP|création d'un donjon] à l’ancienne avec Gimp. Ici, nous allons ajouter un élément essentiel à tout plan : le quadrillage.
+
+Le principe est basé sur deux étapes : la création de la grille à l’aide d’un motif spécifique et l’application sélective de ce motif sur le plan.
+
+
+===Etape 1 : Création du motif de grille===
+
+Pour automatiser l’opération, il est important de prendre un peu de temps pour se créer, une fois pour toute, un motif de quadrillage.
+Ce motif sera enregistré comme pattern (.pat) dans un répertoire de bibliothèque de Gimp et deviendra dès lors accessible en permanence.
+
+Pour commencer, créer une nouvelle image basée sur un calque transparent de 100 pixels de côté. Cette taille correspond à la taille d’une case sur le plan.
+
+[imageleft||{UP}/tutogimp/image18.jpg]
+
+
+
+
+
+
+
+Dans le menu '''Affichage''', cocher la case '''Aligner sur la Grille'''. De cette manière, il sera plus facile de tracer des segments droits.
+
+Avec l’outil '''Pinceau (P)''', sélectionner une brosse circulaire de taille 13.
+
+[imageauto||{UP}/tutogimp/image19.jpg]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ensuite, en utilisant la même méthode que décrite dans le tutoriel précédent, il faut tracer l’entourage de l’image de manière à former un carré parfait et régulier.
+
+Pour cela, commencer par cliquer sur le coin supérieur gauche du calque. Un point noir apparait. Si vous cliquez exactement sur le coin, seul un quart du point apparait sur le calque car le reste du cercle se trouve hors de l’image.
+
+[imageright||{UP}/tutogimp/image20.png]
+
+
+
+
+
+
+
+En appuyant sur ''Shift'', cliquer sur le coin situé en bas à gauche. Tout en maintenant Shift enfoncé, faire de même sur le coin inférieur droit, puis continuer pour boucler le tour complet du calque.
+
+
+
+
+
+
+
+
+
+
+
+[imageright||{UP}/tutogimp/image21.png]
+
+
+
+Il est important de cliquer sur chaque coin en ayant le centre de la brosse exactement sur le coin du calque. De cette manière, les segments sont parfaitement réguliers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Avec le menu '''Fichier->Enregistrer sous...'''  sauvegarder cette image en utilisant un suffixe .pat dans le répertoire  Patterns qui se trouve dans le dossier d’installation de Gimp. Par exemple : ''grilletuto.pat''
+
+Le répertoire ''Patterns'' est caché assez loin dans le dossier d’installation. A tout hasard, voici ce que j’ai chez moi :
+ 
+'''/Gimp/Contents/Resources/share/gimp/2.0/patterns'''
+
+mais étant sous OSX il se peut que ce soit différent sur Windows. Une bonne méthode pour trouver rapidement est de lancer une recherche sur *.pat dans le répertoire d’installation et de voir où se trouvent les autres fichiers patterns.
+
+Le logiciel va reconnaître immédiatement cette information et proposer d’ajouter un nom pour le motif afin de le reconnaitre facilement.
+
+[imageleft||{UP}/tutogimp/image22.jpg]
+
+
+
+Le nom de motif est indépendant du nom de fichier et peut être complètement différent.
+
+
+
+
+Ouvrez maintenant la fenêtre Motifs (''Shift+CTRL+P'') et cliquez sur l’icône en forme de flèches circulaires en bas pour actualiser les motifs chargés.
+
+
+
+
+
+
+Si tout fonctionne comme prévu, votre pattern de grille va apparaître dans la liste des motifs disponibles. Si ce n’est pas le cas, vérifiez bien que le fichier .pat est bien présent dans le répertoire Patterns de Gimp.
+
+[imageright||{UP}/tutogimp/image23.jpg]
+
+
+
+Le motif apparait simplement sous la forme d’un angle droit (le coin supérieur gauche du calque en réalité) et son nom est indiqué en haut de la fenêtre, suivi de sa résolution : ''Quadrillage 100 (100 x 100)''.
+
+Voila, maintenant, ouvrez votre fichier .xcf contenant votre plan de donjon, nous allons y ajouter le quadrillage.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===Etape 2 : Dessiner des cases===
+
+L’ajout de cases peut se faire de plusieurs manières différentes mais j’utilise souvent la méthode de placage par bump-mapping, qui donne un léger effet de relief tout en permettant de régler précisément cet effet sur les différents calques où il est appliqué.
+
+Commencez par ajouter un calque appelé ''Grille'' qui recevra le motif de quadrillage.
+
+[imageauto||{UP}/tutogimp/image24.jpg]
+
+
+Assurez vous que le calque est sélectionné et, dans la fenêtre des motifs, choisissez le motif créé dans l’étape 1.
+
+Remplissez le calque avec ce motif en utilisant la commande ''CTRL+;''
+
+L’image se remplit immédiatement avec une grille assez épaisse.
+
+[imageauto||{UP}/tutogimp/donjon2.jpg]
+
+Cette grille ne va nous servir que pour appliquer un effet de relief sur le calque Sol Donjon et ne sera pas visible sur l'image finale.
+Il n’est pas obligatoire d’ajouter des cases sur tout le plan. C’est même, il me semble, beaucoup plus esthétique de ne quadriller que les zones qui pourront être effectivement visitées par les personnages.
+
+
+Sélectionnez le calque Sol Donjon.
+
+Ouvrez le menu '''Filtre->Carte->Repoussage d’après une carte...'''
+
+[imageright||{UP}/tutogimp/image25.jpg]
+
+La fenêtre d’aperçu à droite affiche par défaut le coin supérieur gauche de l’image. Seulement, le calque Sol Donjon est transparent à cet endroit. Il convient donc de déplacer l’Aperçu en le glissant à l’aide de la souris jusqu’à avoir une zone remplie avec la texture de sol. 
+Cela permet de contrôler l’effet du filtre lorsqu’on change les paramètres.
+
+Ensuite, s’assurer que le calque utilisé pour le repoussage est bien le calque Grille. On le sélectionne en utilisant le menu déroulant en haut de la fenêtre de filtre.
+
+
+
+Régler les curseurs pour avoir un effet de case satisfaisant. Les valeurs indiquées ici sont purement indicatives et je laisse chacun appliquer l’effet selon son propre goût.
+
+
+
+
+
+
+Ce filtre est assez complexe à comprendre et il arrive qu’il n’y ait au départ aucun effet de relief. Ne pas hésiter à appliquer pour commencer des valeurs extrêmes aux paramètres ''Ambiant'', ''Niveau de la Mer'' ou ''Profondeur'' pour commencer à voir quelque chose. Puis ensuite, régler l’ensemble finement...
+Autre point important : '''ne touchez surtout pas aux réglages de décalage X/Y sinon vos cases ne seront pas alignées !'''
+
+Une fois que tout est OK, validez...
+
+Visiblement, il ne s’est pas passé grand chose sur la carte. C’est parce que le calque Grille cache le calque Sol Donjon.
+
+Cliquez sur le petit oeil qui est en face du calque Grille dans la fenêtre de calque pour le rendre invisible sans le supprimer... magique !
+
+Cette opération donne tout de suite un aspect un peu plus rôliste au plan non ?
+
+
+[imageauto||{UP}/tutogimp/donjon3.jpg]
+
+
+Il existe quelques variantes intéressantes pour donner un autre aspect aux cases.
+
+Pour avoir des traits plus fins, il faut refaire le pattern de l’étape 1 en utilisant une brosse de diamètre inférieur. La brosse de taille 9 donne de bons résultats pour des cartes à imprimer. Je préfère la taille 13 pour des battlemaps destinées à des tables virtuelles car les cases sont plus lisibles. Rien n’empêche, et c’est même conseillé, de se faire une collection de patterns avec des grilles de différentes épaisseurs, à utiliser selon le contexte.
+
+[imageleft||{UP}/tutogimp/image26.jpg]
+
+
+
+
+
+
+
+
+
+
+Une autre variante consiste à appliquer un filtre ''Flou Gaussien'' d’une vingtaine de pixels sur le calque de Grille avant de lancer le filtre de Repoussage. Cette méthode donne un bel aspect arrondi aux cases comme sur cette image. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Là encore, rien ne vaut le temps passé à essayer différentes méthodes une fois que le principe de départ est assimilé. Ce principe se résume à :
+
+* Créer un calque pour le sol du donjon (voir tutoriel précédent)
+* Créer une grille avec le motif carré
+* Modifier le calque de grille selon les besoins (flous, épaisseurs...)
+* Appliquer le filtre ''Repoussage d'après une carte'' sur le calque de sol de donjon en utilisant le calque de grille comme support.
+* Faire disparaître le calque de grille
+
+
+
+===Etape 3 : Remplir les murs===
+
+Il apparait que l’aspect des murs, de simples traits droits tout noirs, jure désormais un peu avec le reste du dessin texturé. Nous allons arranger ça rapidement.
+
+
+Sélectionnez le calque Murs.
+
+Activez la Baguette Magique (touche ''U'')
+
+Cliquez sur un mur, n’importe où...
+
+Les murs sont entourés d’un pointillé blanc. Cela signifie que toute action sur le calque n’aura d’effet que sur les murs.
+
+Dans la fenêtre Motifs, choisissez le motif ''Crack'', une texture grise traversée de crevasses.
+
+Remplissez les murs avec la commande ''CTRL+;''
+
+Puis appliquez un filtre '''Bruit-> Eparpiller''' de 5 pixels.
+
+Enfin dans le menu '''Sélection''', cliquez sur '''Aucune''' pour désactiver les pointillés blancs.
+
+[imageauto||{UP}/tutogimp/image27.jpg]
+
+Les murs ont pris un aspect rugueux, plus agréable à l’oeil.
+Ici, le filtre '''Eparpiller''' est optionnel et il existe de nombreuse alternatives qui donnent des résultats complètement différents. Essayez les filtres ''Flou Gaussien'' ou ''Peinture à l'Huile'' qui sont aussi très intéressants.
+
+Pour finir, il est possible de régler la luminosité et le contraste du calque Murs selon le rendu voulu. Certains MJ préfèrent avoir des murs plus clairs, d’autres plus foncés...
+
+Nous allons terminer cette étape en appliquant un autre filtre particulièrement puissant, et utile, qui donne aux plans un véritable aspect professionnel : ''l’Ombre Portée''.
+
+Sélectionner le calque Murs si ce n’est déjà fait.
+
+[imageright||{UP}/tutogimp/image28.jpg]
+
+Dans le menu '''Filtres''', aller chercher '''Ombre Portée''' dans la catégorie '''Ombres et Lumières'''.
+
+
+En cliquant sur Valider, Gimp va créer automatiquement un calque appelé ''Drop Shadow'' et  le placer en dessous du calque Murs. Ce calque d'ombrage contient le tracé du calque Mur auquel le logiciel applique un filtre de décalage puis un filtre de flou. Le résultat donne un effet de perspective intéressant.
+
+
+[imageauto||{UP}/tutogimp/donjon4.jpg]
+
+Enregistrez cette image au format .xcf, on s’en resservira plus tard pour les effets de lumière et autres éléments de décoration.

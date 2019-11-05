@@ -1,0 +1,445 @@
+---
+Name: Pathfinder-RPG.Enquêteur
+Title: Enquêteur
+LastModified: 2019-08-30 03:35
+Categories:
+  - 'Classe'
+  - 'Manuel des Classes avancées'
+  - 'Règles officielles'
+---
+{s:menuclasseshybrides}
+<div class="fright">'''''Voir aussi les [[talents (enquêteur)|talents d'enquêteur]]'''''<br/>
+{s:PM0|enquêteur}'''''Voir aussi les archétypes de l'enquêteur'''''&emsp;
+<ul ID="enquêteur" CLASS="listecachée cadrebas">
+  <li>[[Conspirateur (Enquêteur)|Conspirateur]] (MCA)</li>
+  <li>[[Empiriste (Enquêteur)|Empiriste]] (MCA)</li>
+  <li>[[Enquêteur infiltré (Enquêteur)|Enquêteur infiltré]] (MCA)</li>
+  <li>[[Harceleur dacier (Enquêteur)|Harceleur d'acier]] (MCA)</li>
+  <li>[[Limier (Enquêteur)|Limier]] (MCA)</li>
+  <li>[[Spiritualiste (Enquêteur)|Spiritualiste]] (MCA)</li></ul></div>
+
+{s:mca}''Que l’enquêteur soit sur la piste d’un fugitif, d’un trésor perdu ou d’un grand criminel, il est animé d’une immense curiosité vis-à-vis du monde et utilise ses connaissances comme une arme. Mêlant cran et érudition en une alchimie téméraire personnelle, il se montre plein de surprises. Il observe le monde qui l’entoure, en tire de précieuses informations sur sa situation actuelle, analyse ces éléments avec une dose d’inspiration et de déduction et s’attaque directement au coeur du sujet en prenant des raccourcis inattendus. Un enquêteur évalue toujours la situation actuelle, jauge ses adversaires potentiels et guette les dangers cachés, tout en mobilisant ses vastes connaissances et ses perceptions développées pour trouver une solution aux problèmes les plus complexes.''
+
+{s:Reference|TABLEENQUETEUR}
+<center>
+{| CLASS="tablo"
+|+ L'Enquêteur
+|- CLASS="titre"
+| ROWSPAN="2" | Niveau
+| ROWSPAN="2" | BBA
+| ROWSPAN="2" | Réflexes
+| ROWSPAN="2" | Vigueur
+| ROWSPAN="2" | Volonté
+| ROWSPAN="2" | Spécial
+| COLSPAN="6" CLASS="avecsoustitre" | Sorts par jour
+|- CLASS="soustitre"
+| 1er
+| 2e
+| 3e
+| 4e
+| 5e
+| 6e
+|- CLASS="premier"
+
+| 1
+| +0
+| +2
+| +0
+| +2
+| CLASS="gauche" | [[enquêteur#ALCHIMIE|Alchimie]], [[enquêteur#INSPIRATION|inspiration]], [[enquêteur#RECHERCHEDESPIEGES|recherche des pièges]] 
+| 1
+| -
+| -
+| -
+| -
+| -
+
+|- CLASS="alt"
+| 2
+| +1
+| +3
+| +0
+| +3
+| CLASS="gauche" | [[enquêteur#CONNAISSANCEDESPOISONS|Connaissance des poisons]], [[enquêteur#RESISTANCEAUPOISON|résistance aux poisons]] +2
+| 2
+| -
+| -
+| -
+| -
+| -
+
+|-
+| 3
+| +2
+| +3
+| +1
+| +3
+| CLASS="gauche" | [[enquêteur#TALENT|Talent d’enquêteur]], [[enquêteur#SOUVENIRPRECIS|souvenir précis]], [[enquêteur#SENSDESPIEGES|sens des pièges]] +1
+| 3
+| -
+| -
+| -
+| -
+| -
+
+|- CLASS="alt"
+| 4
+| +3
+| +4
+| +1
+| +4
+| CLASS="gauche" | [[enquêteur#COMBATETUDIE|Combat étudié]], [[enquêteur#FRAPPEETUDIEE|frappe étudiée]] +1d6, [[enquêteur#ALCHIMIERAPIDE|alchimie rapide]]
+| 3
+| 1
+| -
+| -
+| -
+| -
+
+|-
+| 5
+| +3
+| +4
+| +1
+| +4
+| CLASS="gauche" | [[enquêteur#TALENT|Talent d’enquêteur]], [[enquêteur#RESISTANCEAUPOISON|résistance aux poisons]] +4
+| 4
+| 2
+| -
+| -
+| -
+| -
+
+|- CLASS="alt"
+| 6
+| +4
+| +5
+| +2
+| +5
+| CLASS="gauche" | [[enquêteur#FRAPPEETUDIEE|Frappe étudiée]] +2d6, [[enquêteur#SENSDESPIEGES|sens des pièges]] +2
+| 4
+| 3
+| -
+| -
+| -
+| -
+
+|-
+| 7
+| +5
+| +5
+| +2
+| +5
+| CLASS="gauche" | [[enquêteur#TALENT|Talent d’enquêteur]]
+| 4
+| 3
+| 1
+| -
+| -
+| -
+
+|- CLASS="alt"
+| 8
+| +6/+1
+| +6
+| +2
+| +6
+| CLASS="gauche" | [[enquêteur#RESISTANCEAUXPOISONS|Résistance aux poisons]] +6, [[enquêteur#FRAPPEETUDIEE|frappe étudiée]] +3d6
+| 4
+| 4
+| 2
+| -
+| -
+| -
+
+|-
+| 9
+| +6/+1
+| +6
+| +3
+| +6
+| CLASS="gauche" | [[enquêteur#TALENT|Talent d’enquêteur]], [[enquêteur#SENSDESPIEGES|sens des pièges]] +3
+| 5
+| 4
+| 3
+| -
+| -
+| -
+
+|- CLASS="alt"
+| 10
+| +7/+2
+| +7
+| +3
+| +7
+| CLASS="gauche" | [[enquêteur#FRAPPEETUDIEE|frappe étudiée]] +4d6
+| 5
+| 4
+| 3
+| 1
+| -
+| -
+
+|-
+| 11
+| +8/+3
+| +7
+| +3
+| +7
+| CLASS="gauche" | [[enquêteur#TALENT|Talent d’enquêteur]], [[enquêteur#IMMUNITEAUPOISON|immunité aux poisons]]
+| 5
+| 4
+| 4
+| 2
+| -
+| -
+
+|- CLASS="alt"
+| 12
+| +9/+4
+| +8
+| +4
+| +8
+| CLASS="gauche" | [[enquêteur#FRAPPEETUDIEE|Frappe étudiée]] +5d6, [[enquêteur#SENSDESPIEGES|sens des pièges]] +4
+| 5
+| 5
+| 4
+| 3
+| -
+| -
+
+|-
+| 13
+| +9/+4
+| +8
+| +4
+| +8
+| CLASS="gauche" | [[enquêteur#TALENT|Talent d’enquêteur]]
+| 5
+| 5
+| 4
+| 3
+| 1
+| -
+
+|- CLASS="alt"
+| 14
+| +10/+5
+| +9
+| +4
+| +9
+| CLASS="gauche" | [[enquêteur#FRAPPEETUDIEE|Frappe étudiée]] +6d6
+| 5
+| 5
+| 4
+| 4
+| 2
+| -
+
+|-
+| 15
+| +11/+6/+1
+| +9
+| +5
+| +9
+| CLASS="gauche" | [[enquêteur#TALENT|Talent d’enquêteur]], [[enquêteur#SENSDESPIEGES|sens des pièges]] +5
+| 5
+| 5
+| 5
+| 4
+| 3
+| -
+
+|- CLASS="alt"
+| 16
+| +12/+7/+2
+| +10
+| +5
+| +10
+| CLASS="gauche" | [[enquêteur#FRAPPEETUDIEE|Frappe étudiée]] +7d6
+| 5
+| 5
+| 5
+| 4
+| 3
+| 1
+|-
+
+| 17
+| +12/+7/+2
+| +10
+| +5
+| +10
+| CLASS="gauche" | [[enquêteur#TALENT|Talent d’enquêteur]]
+| 5
+| 5
+| 5
+| 4
+| 4
+| 2
+
+|- CLASS="alt"
+| 18
+| +13/+8/+3
+| +11
+| +6
+| +11
+| CLASS="gauche" | [[enquêteur#FRAPPEETUDIEE|Frappe étudiée]] +8d6, [[enquêteur#SENSDESPIEGES|sens des pièges]] +6
+| 5
+| 5
+| 5
+| 5
+| 4
+| 3
+
+|-
+| 19
+| +14/+9/+4
+| +11
+| +6
+| +11
+| CLASS="gauche" | [[enquêteur#TALENT|Talent d’enquêteur]]
+| 5
+| 5
+| 5
+| 5
+| 5
+| 4
+
+|- CLASS="alt"
+| 20
+| +15/+10/+5
+| +12
+| +6
+| +12
+| CLASS="gauche" | [[enquêteur#FRAPPEETUDIEE|Frappe étudiée]] +9d6, [[enquêteur#INSPIRATIONSUPREME|inspiration suprême]]
+| 5
+| 5
+| 5
+| 5
+| 5
+| 5
+|}
+</center>
+
+{s:ImageDroite|Illustrations/PNJ/Quinn.jpg|30%}
+
+
+
+
+'''Rôle.'''
+Les enquêteurs aiment résoudre des mystères et trouver
+des solutions inventives à leurs problèmes. Ils servent de
+conseillers et de soutiens au sein de leur groupe mais occupent
+le devant de la scène dès qu’il faut faire preuve de ruse ou d’érudition.
+Ils ne sont pas en reste lors des combats car ils sont particulièrement
+doués pour les attaques surprises et tirent parti
+de leur inspiration pour parvenir à toucher l’ennemi.
+
+'''Alignement.''' Tous.
+
+'''Dé de vie.''' d8.
+
+'''Classes mères.''' Alchimiste et roublard.
+
+===compétences de classe===
+Voici les compétences de classe de l’enquêteur : [[Acrobaties]] (Dex), [[Art de la magie]] (Int), [[Artisanat]] (Int), [[Bluff]] (Cha), [[Connaissances]] (toutes) (Int), [[Déguisement]] (Cha), [[Diplomatie]] (Cha), [[Discrétion]] (Dex), [[Escalade]] (For), [[Escamotage]] (Dex), [[Estimation]] (Int), [[Évasion]] (Dex), [[Intimidation]] (Cha), [[Linguistique]] (Int), [[Perception]] (Sag), [[Premiers secours]] (Sag), [[Profession]] (Sag), [[Psychologie]] (Sag), [[Représentation]] (Cha), [[Sabotage]] (Dex) et [[Utilisation dObjets Magiques|Utilisation d’objets magiques]] (Cha).
+
+'''Rangs de compétence par niveau.''' 6 + modificateur d’[[Intelligence]]
+
+===descriptif de la classe===
+
+Voici les aptitudes de classe de l’enquêteur.
+
+====Armes et armures====
+Un enquêteur est formé au maniement de toutes les armes courantes et de l’arbalète de poing, de la rapière, de la matraque, de l’arc court, de l’épée courte et de la canne épée. 
+
+Il est formé au port des armures légères mais pas au maniement des boucliers.
+
+{s:Reference|ALCHIMIE}
+====Alchimie (Sur)==== 
+Un enquêteur a suivi une formation très poussée en matière de création de substances alchimiques et d’extraits semblables aux potions magiques. Quand il utilise [[Artisanat]] (alchimie) pour créer un objet alchimique, il bénéficie d’un bonus de compétence égal à son niveau de classe lors de son test de compétence. De plus, l’enquêteur peut utiliser [[Artisanat]] (alchimie) pour identifier des potions comme s’il se servait de ''[[détection de la magie]]''. Pour effectuer le test, il doit tenir la potion en main pendant 1 [[round]]. 
+
+Comme l’[[alchimiste]], l’enquêteur prépare ses sorts en mélangeant des ingrédients à une petite partie de sa puissance magique pour créer des extraits. Il lance ensuite le sort en buvant l’extrait. Ce dernier produit de puissants effets mais il est lié à son créateur. Les extraits se comportent comme des sorts distillés sous forme de potion. On peut donc les dissiper avec une ''[[dissipation de la magie]]'' ou des effets similaires en utilisant le niveau d’enquêteur comme [[NLS|niveau de lanceur de sorts]].
+
+Chaque jour, l’enquêteur crée un nombre d’extraits limité. Le nombre d’extraits qu’il peut créer chaque jour est indiqué dans la table ci-dessus. 
+
+De plus, il reçoit des extraits quotidiens supplémentaires s’il possède une valeur d’Intelligence élevée, comme un magicien qui reçoit des sorts quotidiens supplémentaires. 
+
+Quand l’enquêteur distille un extrait, il imprègne les réactifs et les produits chimiques d’une dose de magie puisée en lui. L’extrait devient inerte dès qu’il n’est plus en possession de l’enquêteur et se réactive dès qu’il retourne en sa possession. Normalement, l’enquêteur ne peut pas donner ses extraits à ses alliés pour qu’ils bénéficient de leurs effets. Une fois créé, l’extrait est actif pendant une journée, ensuite, il perd sa magie ; l’enquêteur doit donc en préparer de nouveaux chaque jour. Il faut une minute de travail pour préparer un extrait.
+
+La création d’extraits nécessite des matières premières mais leur coût est négligeable, comme celui des composantes sans valeur de la plupart des sorts. Si le sort exige une composante matérielle onéreuse, l’alchimiste doit dépenser cette composante au moment où il boit l’extrait. L’enquêteur ne peut pas fabriquer un extrait basé sur un sort qui demande un focaliseur. Les extraits qui imitent des sorts divins n’ont jamais besoin de focaliseur divin.
+
+L’enquêteur utilise la [[liste des formules dalchimiste|liste des formules de l’alchimiste]] quand il choisit les extraits qu’il connaît. Il peut préparer un extrait à partir de n’importe quelle formule de sa connaissance.
+
+Pour apprendre ou utiliser un extrait, l’enquêteur doit avoir une [[Intelligence]] au moins égale à 10 + niveau de l’extrait. Le [[DD]] des jets de sauvegarde contre les extraits est de 10 + niveau de l’extrait + modificateur d’Intelligence de l’enquêteur.
+
+Un enquêteur peut apprendre autant de formules qu’il le désire. Il les conserve dans un ouvrage spécial intitulé recueil de formules. Il doit s’y référer à chaque fois qu’il prépare un extrait. Un enquêteur de niveau 1 connaît deux formules de niveau 1 de son choix plus un nombre de formules supplémentaires égal à son modificateur d’Intelligence. À chaque fois qu’il obtient un niveau d’enquêteur, il gagne une nouvelle formule dans chaque niveau accessible. L’enquêteur peut également ajouter des formules à son livre comme un [[magicien]] ajoute des sorts dans son grimoire, en payant le même prix, en utilisant le même nombre de pages et en y passant le même temps. Un recueil de formules coûte le même prix qu’un grimoire. L’enquêteur peut étudier le grimoire d’un magicien pour apprendre n’importe quel sort qu’il renferme et qui équivaut à une formule. En revanche, un magicien ne peut pas apprendre un sort à partir d’un recueil de formules. L’enquêteur peut aussi apprendre de nouvelles formules auprès d’un autre enquêteur ou à partir du recueil de formules d’un alchimiste (et vice versa). L’enquêteur n’a pas besoin de déchiffrer les écrits magiques avant de les recopier.
+
+{s:Reference|INSPIRATION}{s:Reference|RESERVEDINSPIRATION}
+====Inspiration (Ext)====
+L’enquêteur est plus qu’érudit et talentueux, il possède un sens de l’observation et de la déduction bien supérieur à celui des autres. Il met généralement ces compétences à profit pour enquêter mais ses éclairs d’inspiration lui servent aussi en d’autres circonstances. L’enquêteur est capable d’améliorer ses tests de compétence et de caractéristique grâce à ses brillantes inspirations. 
+
+Il dispose d’une réserve d’inspiration égale à la moitié de son niveau d’enquêteur + son modificateur d’[[Intelligence]] (1 au minimum). La réserve d’inspiration se recharge chaque jour, généralement après une nuit de repos. Il peut dépenser une utilisation d’inspiration par une [[action libre]] pour ajouter 1d6 au résultat d’un test, y compris à un test où il a [[faire 10|fait 10]] ou 20. Il doit faire ce choix après avoir lancé le dé mais avant de connaître le résultat du test. L’enquêteur ne peut utiliser qu’une inspiration par test. Il peut profiter de son inspiration sur les tests d’[[Art de la magie]], de [[Connaissances]] et de [[Linguistique]] sans dépenser d’utilisation quotidienne à condition d’être formé dans cette compétence. Il peut aussi utiliser son inspiration lors d’un [[jet dattaque|jet d’attaque]] ou [[JdS|de sauvegarde]] mais cela lui coûte deux utilisations d’inspiration. Pour les jets de sauvegarde, l’inspiration s’utilise par une [[action immédiate]] au lieu d’une action libre.
+
+{s:Reference|RECHERCHEDESPIEGES}
+====Recherche des pièges====
+Un enquêteur ajoute la moitié de son niveau aux tests de [[Perception]] pour repérer un piège et aux tests de [[Sabotage]] (1 au minimum). Il peut utiliser Sabotage pour désarmer des pièges magiques. 
+
+{s:Reference|CONNAISSANCEDESPOISONS}
+====Connaissance des poisons (Ext)====
+Un enquêteur connaît bien les [[poisons]]. Au niveau 2, il n’a aucun risque de s’empoisonner lui-même en appliquant un poison sur une arme. S’il passe une minute à examiner physiquement un poison, il a droit à un test de [[Connaissances]] (nature) pour identifier un poison naturel et à un test de [[Connaissances]] (mystères) pour identifier un poison magique. Le [[DD]] d’identification est égal au DD du jet de sauvegarde pour résister au poison. Enfin, une fois le poison identifié, il peut passer 1 minute à effectuer un test d’[[Artisanat]] (alchimie) (DD égal au DD du jet de sauvegarde contre le poison) pour neutraliser une dose de ce poison. En cas de succès, la dose de poison devient inoffensive. L’enquêteur ne court aucun risque de s’empoisonner quand il examine le poison ou tente de le neutraliser.
+
+{s:Reference|RESISTANCEAUPOISON}{s:Reference|IMMUNITEAUPOISON}{s:Reference|RESISTANCEAUXPOISONS}
+
+====Résistance au poison (Ext)====
+Au niveau 2, l’enquêteur gagne un bonus de résistance de +2 aux jets de sauvegarde contre le poison. Ce bonus passe à +4 au niveau 5 et à +6 au niveau 8. Au niveau 11, l’enquêteur est complètement immunisé contre le poison.
+
+{s:Reference|TALENT}{s:Reference|TALENTS}
+====Talents d’enquêteur (Ext ou Sur)====
+Au niveau 3 puis tous les deux niveaux, le personnage gagne un talent d’enquêteur. Il ne peut pas choisir un même talent plusieurs fois, sauf indication contraire.
+
+Voir les [[Talents (enquêteur)|talents d'enquêteur]]
+
+{s:Reference|SOUVENIRPRECIS}
+====Souvenir précis====
+Au niveau 3, l’enquêteur peut faire un test de [[Connaissances]] même s’il n’est pas formé dans cette compétence.
+
+{s:Reference|SENSDESPIEGES}
+====Sens des pièges (Ext)====
+Au niveau 3, l’intuition de l’enquêteur l’avertit en présence de piège, ce qui lui confère un bonus de +1 aux jets de [[Réflexes]] pour éviter les pièges et un bonus d’esquive de +1 à la [[CA]] contre les attaques des pièges. Au niveau 6 puis
+tous les trois niveaux, ces bonus augmentent de 1 (pour un maximum de +6 au niveau 18).
+
+{s:Reference|COMBATETUDIE}
+====Combat étudié (Ext)====
+Grâce à son oeil perçant et son esprit calculateur, l’enquêteur jauge son adversaire pour tirer parti des lacunes de son entraînement et de ses talents. Au niveau 4, l’enquêteur peut accomplir une [[action de mouvement]] pour étudier un ennemi situé dans son champ de vision. Il ajoute alors la moitié de son niveau d’enquêteur sous forme de bonus d’intuition à ses [[jet dattaque|jets d’attaque]] au corps à corps contre la créature et sous forme de bonus d’intuition à ses jets de dégâts contre elle. 
+
+L’effet dure un nombre de rounds égal à son modificateur d’[[Intelligence]] (1 au minimum) ou jusqu’à ce qu’il inflige des dégâts avec une frappe étudiée, selon ce qui se produit en premier. Le bonus aux dégâts se présente sous forme de dégâts de précision qui ne sont pas multipliés en cas de [[coup critique]].
+
+L’enquêteur ne peut prendre qu’une créature à la fois comme cible du combat étudié. Une fois qu’une créature a été soumise à cette aptitude, elle ne peut plus en être victime de la part du même enquêteur pendant 24 heures, sauf si l’enquêteur dépense une utilisation d’inspiration lors d’une [[action de mouvement]] pour la réutiliser.
+
+{s:Reference|FRAPPEETUDIEE}
+====Frappe étudiée (Ext)====
+Au niveau 4, l’enquêteur peut porter une frappe étudiée contre la cible de son combat étudié par une [[action libre]], quand il réussit à toucher cette cible lors d’une attaque de corps à corps. Il lui inflige alors des dégâts supplémentaires : 1d6 de plus au niveau 4 et encore 1d6 de plus tous les deux niveaux, pour un maximum de 9d6 au niveau 20. 
+
+Les dégâts de la frappe étudiée sont des dégâts de précision non multipliés en cas de coup critique. 
+
+Les créatures immunisées contre les [[Roublard#ATTAQUESOURNOISE|attaques sournoises]] sont aussi immunisées contre la frappe étudiée.
+
+Si l’enquêteur attaque avec une arme qui inflige des dégâts [[non létal|non-létaux]] (comme une matraque, un fouet ou à mains nues), il peut convertir les dégâts supplémentaires de la frappe étudiée en dégâts non-létaux au lieu de létaux. Si l’enquêteur porte une attaque avec une arme létale mais choisit d’infliger des dégâts non-létaux (avec le malus habituel de –4), les dégâts de la frappe étudiée peuvent aussi être de type non-létaux. 
+
+L’enquêteur doit voir la cible assez clairement pour repérer un point vital et il doit être en mesure de l’atteindre.
+
+L’enquêteur ne peut pas utiliser la frappe étudiée contre une cible disposant d’un camouflage.
+
+{s:Reference|ALCHIMIERAPIDE}
+====Alchimie rapide (Ext)====
+À partir du niveau 4, l’enquêteur fabrique des objets alchimiques avec une rapidité époustouflante. Il met deux fois moins de temps que la normale pour fabriquer des objets alchimiques. 
+
+Il peut aussi appliquer un poison sur une arme par une [[action de mouvement]] au lieu d’une [[action simple]].
+
+{s:Reference|INSPIRATIONSUPREME}
+====Inspiration suprême (Ext)====
+Au niveau 20, l’enquêteur peut utiliser son inspiration sur tous les tests de compétence, même pour les compétences auxquelles il n’est pas formé, et pour tous les tests de caractéristiques, sans dépenser d’inspiration. De plus, quand il dépense de l’inspiration sur un test de caractéristique ou de compétence ou sur un jet d’attaque ou de sauvegarde, il ajoute 2d6 au lieu de 1d6 au résultat. 
+
+Certains talents influent sur cela. S’il utilise l’[[Talents (enquêteur)#INCROYABLEINSPIRATION|incroyable inspiration]], il lance à la place 2d8. S’il utilise [[Talents (enquêteur)#EMPATHIE|empathie]], [[Talents (enquêteur)#INSPIRATIONTENACE|inspiration tenace]], [[Talents (enquêteur)#INSPIRATIONDELAPEGRE|inspiration de la pègre]] ou un talent similaire, il lance deux fois les dés d’inspiration et conserve le meilleur résultat.

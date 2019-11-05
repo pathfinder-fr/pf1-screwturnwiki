@@ -1,0 +1,17 @@
+<div style="float:right; padding: 0 0 8px 8px">
+<table>
+<tr style="vertical-align:bottom">
+<td style="display:none; background-color: #f3efe2; border: 1px solid #4b3124; padding: 2px; width:250px; text-align: left">
+<table><tr style="vertical-align: top"><td>
+'''''?1?'''''</td><td style="height:30px"></td></tr></table></td>
+<td><img style="width:30px" src="/images/pathfinder/wiki/ibase.png" title="Cliquez pour afficher/cacher l'information" alt="Cliquez pour afficher/cacher l'information" onclick="
+var cible = this.parentNode.previousSibling.previousSibling;
+if (cible.style.display=='none') {
+  $(cible).show('slide');
+  $(this).fadeTo(500,0.4);
+} else {
+  $(cible).hide('slide');
+  $(this).fadeTo(500,1);
+}" ONMOUSEOVER="this.src = '/images/pathfinder/wiki/ialt.png';"
+ONMOUSEOUT="this.src = '/images/pathfinder/wiki/ibase.png';" /></td>
+</tr></table></div>

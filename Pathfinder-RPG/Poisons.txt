@@ -1,0 +1,262 @@
+---
+Name: Pathfinder-RPG.Poisons
+Title: Les poisons   
+LastModified: 2017-09-28 17:58
+---
+{s:Desambi|Il peut aussi s'agir d'une [[Poison (capacité)|capacité de monstre]].}
+''Aucune affliction n’est plus répandue que le poison. Que ce soit à cause des crocs d’une vipère ou de la lame souillée d’un assassin, c’est une menace constante, que l’on guérit grâce à des jets de sauvegarde réussis ou à des sorts comme ''[[neutralisation du poison]]''.''
+
+{s:Reference|TYPESDEPOISON}Voici les différents types de poison :
+* Les '''poisons de contact''' infectent la victime quand ils entrent en contact avec sa peau nue. Ils sont utilisés pour blesser, et ont en général une période d’incubation et une fréquence d’une minute. 
+* Les '''poisons ingérés''' contaminent la victime quand elle mange ou qu’elle boit. Ils ont en général une incubation de dix minutes et une fréquence d’une minute. 
+* Les '''poisons de blessure''' sont administrés par l’intermédiaire de l’attaque de certaines créatures et par des armes enduites de toxine. Ils n’ont pas de période d’incubation et leur fréquence est d’un round. 
+* Les '''poisons inhalés''' sont administrés quand une créature entre dans une zone qui contient un tel poison. La plupart occupent un espace d’environ 30 cm<sup>3</sup> par dose. Il est possible de tenter de retenir sa respiration quand on se trouve dans une zone contaminée. Dans ce cas, les créatures qui ne respirent pas ont 50 % de chances de ne pas avoir à faire de [[jet de sauvegarde]] à chaque round. Voir les règles de l'[[asphyxie]]. Il est à noter que le personnage recommencera à respirer normalement s’il se met à suffoquer en tentant de retenir sa respiration.
+
+: '''Plusieurs doses.''' Au contraire des autres afflictions, les effets de plusieurs doses du même poison se cumulent. Ceux qui sont inoculés par blessure ou par contact ne peuvent infliger les dégâts de plus d’une dose de poison à la fois, mais ce n’est pas le cas des poisons inhalés ou ingérés, qui peuvent administrer plusieurs doses à la fois. Chaque dose supplémentaire allonge la durée d’action du poison (sous la rubrique « fréquence ») de la moitié de la durée totale, et augmente le DD du jet de sauvegarde de +2, et ce de manière cumulative. Cela n’affecte cependant pas les conditions de guérison, qui mettent fin à l’empoisonnement lorsqu’elles sont réunies. Par exemple, un personnage est mordu trois fois dans le même round par des araignées monstrueuses de taille M, et reçoit donc trois doses de venin. L’infortuné doit réussir un jet de Vigueur de DD 18 pendant les 8 prochains rounds. Heureusement, une seule réussite le guérira des effets du poison.
+
+: '''Arme empoisonnée.''' Enduire une arme ou une munition de poison est une [[action simple]]. Un personnage qui manipule du poison (en enduisant une arme ou en préparant la substance) a 5 % de chances d’y être accidentellement exposé, et doit faire le [[jet de sauvegarde]] correspondant. Cela n’utilise pas la dose de poison. Si le jet d’attaque d’une arme empoisonnée est un 1 naturel, il s’expose au poison. Le poison est consumé dès que l'arme frappe une créature ou que le personnage y est exposé. Un personnage possédant l’aptitude de classe "utilisation du poison" (voir la classe de prestige d'[[assassin]] par exemple) ne risque pas de s’empoisonner lui-même.
+
+: '''Création de poisons.''' La préparation du poison dépend de la compétence [[Artisanat]] (alchimie). Le DD pour créer un poison est équivalent au DD du jet de Vigueur du poison. Un 1 naturel sur le jet de compétence expose celui qui le fabrique, mais pas si celui-ci possède l’aptitude de classe "utilisation du poison" (voir la classe de prestige d'[[assassin]] par exemple).
+
+Les exemples suivants présentent quelques-uns des poisons existants. Pour plus d'informations sur le format des descriptions, voir [[Afflictions|les afflictions]]. Sauf indication contraire, les modifications de caractéristiques sont des [[affaiblissement temporaire|affaiblissements temporaires]].
+==== ====
+{s:Reference|TABLEAUPOISONS}<center>
+{| CLASS="tablo"
+|+ Exemples de poisons
+|- CLASS="titre"
+| Nom || Type || DD Vig || Incubation || Fréquence || Effet || Guérison || Coût
+|- CLASS="premier"
+| Aconit || Ingestion || 16 || 10 mn || 1/mn pdt 6 mn || 1d3 Con || JS réussi || 500 po
+|- CLASS="alt"
+| [[Poisons#Ajoncàfeuillesbleues|Ajonc à feuilles bleues]] || Blessure || 14 || - || 1/rd pdt 2 rd || 1Con/Inconscience 1d3h || JS réussi || 120 po
+|-
+| [[Poisons#Amnésite|Amnésite]] || Ingestion || 14 || 10 mn || 1/mn pdt 6 mn || 1d3 Int || JS réussi || 125 po
+|- CLASS="alt"
+| [[Poisons#Arsenic|Arsenic]] || Ingestion || 13 || 10 mn || 1/min pdt 4 mn || 1d2Con || JS réussi || 120 po
+|-
+| [[Poisons#Belladone|Belladone]] || Ingestion || 14 || 10 mn || 1/mn pdt 6 mn || 1d2 For, voir texte || JS réussi || 100 po
+|- CLASS="alt"
+| [[Poisons#Bilededragon|Bile de dragon]] || Contact || 26 || - || 1/rd pdt 6 rd || 1d3For || - || 1 500 po
+|-
+| Brume de folie || Inhalation || 15 || - || 1/rd pdt 6 rd || 1d3 Sag || JS réussi || 1 500 po
+|- CLASS="alt"
+| Cendre d’ungol || Inhalation || 15 || - || 1/rd pdt 4 rd || 1 Cha permanente/1d2 Cha || JS réussi || 1 000 po
+|- 
+| Cendre de liche || Ingestion || 17 || 10 mn || 1/mn pdt 6 mn || 1d3 For || 2 JS réussis || 400 po
+|- CLASS="alt"
+| [[Poisons#Cigüe|Cigüe]] || Ingestion || 18 || 10 mn || 1/mn pdt 6 mn || 1d6 Dex, voir texte || 2 JS réussis || 2 500 po
+|- 
+| [[Poisons#Éclatdeprismevert|Éclat de prisme vert]] || Sort || Variable || - || 1/rd pdt 6 rd || Mort/1 Con || 2 JS réussis || -
+|- CLASS="alt"
+| Entolome zébré || Ingestion || 11 || 10 mn || 1/mn pdt 4 mn || 1d3 Sag & 1 Int || JS réussi || 180 po
+|-
+| Essence d’ombre || Blessure || 17 || - || 1/rd pdt 6 rd || 1 For permanente/1d2 For || JS réussi || 250 po
+|- CLASS="alt"
+| [[Poisons#Extraitdelotusnoir|Extrait de lotus noir]] || Contact || 20 || 1 mn || 1/rd pdt 6 rd || 1d6 Con || 2 JS réussis || 4 500 po
+|- 
+| [[Poisons#Extraitdesanvert|Extrait de sanvert]] || Blessure || 13 || - || 1/rd pdt 4 rd || 1 Con || JS réussi || 100 po
+|- CLASS="alt"
+| [[Poisons#Herbeàloup|Herbe à loup]] || Ingestion || 16 || 10 mn || 1/mn pdt 6 mn || 1d3 Con || JS réussi || 500 po
+|- 
+| Huile de taggit || Ingestion || 15 || 1 mn || - || Inconscience 1d3h || JS réussi || 90 po
+|- CLASS="alt"
+| Larmes de la mort || Contact || 22 || 1 mn || 1/mn pdt 6 mn || 1d6 Con & paralysie 1 mn || - || 6 500 po
+|- 
+| [[Poisons#Mortelame|Mortelame]] || Blessure || 20 || - || 1/rd pdt 6 rd || 1d3 Con || 2 JS réussis || 1 800 po
+|- CLASS="alt"
+| Nitharite || Contact || 13 || 1 mn || 1/mn pdt 6 mn || 1d3 Con || JS réussi || 650 po
+|- 
+| Pâte de malyasse || Contact || 16 || 1 mn || 1/mn pdt 6 mn || 1d2 Dex || JS réussi || 250 po
+|- CLASS="alt"
+| Poison de devin des marais || Ingestion || 18 || 10 mn || 1/mn pdt 3 mn || 1d4 Sag/ 1d2 Sag & confusion 1 mn || 2 JS réussis || 400 po
+|-
+| Poison de wyverne || Blessure || 17 || - || 1/rd pdt 6 rd || 1d4 Con || 2 JS réussis || 3 000 po
+|- CLASS="alt"
+| [[Poisons#Poisondrow|Poison drow]] || Blessure || 13 || - || 1/mn pdt 2 mn || Inconscience 1mn/2d4h || JS réussi || 75 po
+|- 
+| Pollen de Lys azur || Inhalation || 15 || - || 1/min pdt 2 min || nauséeux 1 mn & paralysie 2d4h || JS réussi || 1500 po
+|- CLASS="alt"
+| Poudre d’assonne || Contact || 16 || 1 mn || 1/mn pdt 6 min || 2d12 PV/1Con || JS réussi || 300 po
+|- 
+| Rêves Indigo || Ingestion || 13 || 10 mn || 1/mn pdt 6 min || 1d3 Sag || 2 JS réussis || 150 po
+|- CLASS="alt"
+| Sommeil du roi || Ingestion || 19 || 1 jour || 1/jour || 1 Con permanente || 2 JS réussis || 5 000 po
+|-
+| [[Poisons#Ténébreuxvireux|Ténébreux vireux]] || Ingestion || 18 || 10 mn || 1/mn pdt 6 mn || 1d3 Con & 1 For || 2 JS réussis || 800 po
+|- CLASS="alt"
+| Terrinave || Contact || 16 || 1 mn || 1/mn pdt 6 mn || 1d3 Dex || JS réussi || 400 po
+|-
+| [[Poisons#Tormentille|Tormentille]] || Blessure || 12 || 1 rd || 1/rd pdt 4 rd || 1 Con & 1 Sag || JS réussi || 100 po
+|- CLASS="alt"
+| [[Poisons#Vapeurdothurbrûlé|Vapeur d’othur brûlé]] || Inhalation || 18 || - || 1/rd pdt 6 rd || 1 Con permanent/1d3 Con || 2 JS réussis || 2 100 po
+|-
+| Vapeur de cauchemar || Inhalation || 20 || - || 1/rd pdt 6 rd || 1 Sag & confus 1 rd || 2 JS réussis || 1 800 po
+|- CLASS="alt"
+| Venin d’araignée || Blessure || 14 || - || 1/rd pdt 4 rd || 1d2 For || JS réussi || 150 po
+|-
+| [[Poisons#Poisondeguêpegéante|Venin de guêpe géante<br/>monstrueuse de taille M]] || Blessure || 18 || - || 1/rd pdt 6 rd || 1d2 Dex || JS réussi || 210 po
+|- CLASS="alt"
+| Venin de petit<br/> mille-pattes monstrueux || Blessure || 11 || - || 1/rd pdt 4 rd || 1 Dex || JS réussi || 90 po
+|-
+| Venin de scorpion géant || Blessure || 17 || - || 1/rd pdt 6 rd || 1d2 For || JS réussi || 200 po
+|- CLASS="alt"
+| Venin de ver pourpre || Blessure || 24 || - || 1/rd pdt 6 rd || 1d3 For || 2 JS réussis || 700 po
+|-
+| [[Poisons#Venindevipèreàtêtenoire|Venin de vipère à tête noire]] || Blessure || 11 || - || 1/rd pdt 6 rd || 1d2 Con || JS réussi || 120 po
+|}
+</center>
+
+<table><tr><td width="49%">
+{s:Reference|Ajoncàfeuillesbleues}
+<div class="BD">
+{s:BDTitre|Ajonc à feuilles bleues|}
+* '''Type''' poison, injection ; '''JdS''' Vigueur (DD 14)
+* '''Fréquence''' 1/round pendant 2 rounds
+* '''Effet initial''' 1 point de [[Constitution]] ; Effets secondaires : inconscient pendant 1d3 heures ; '''Guérison''' 1 JS réussi
+
+</div>
+
+{s:Reference|Amnésite}
+<div class="BD">
+{s:BDTitre|Amnésite|}
+* '''Type''' poison, ingestion ; '''JdS''' Vigueur (DD 14)
+* '''Incubation''' 10 minutes ; '''Fréquence''' 1/minute pendant 6 minutes
+* '''Effet''' 1d3 points d’[[Intelligence]] ; '''Guérison''' 1 JS réussi
+
+</div>
+
+{s:Reference|Arsenic}
+<div class="BD">
+{s:BDTitre|Arsenic|}
+* '''Type''' poison, ingestion ; '''JdS''' Vigueur (DD 13)
+* '''Incubation''' 10 minutes ; '''Fréquence''' 1/minute pendant 4 minutes
+* '''Effet''' 1d2 points de [[Constitution]] ; '''Guérison''' 1 JS réussi
+
+</div>
+
+{s:Reference|Belladone}
+<div class="BD">
+{s:BDTitre|Belladone|}
+* '''Type''' poison, ingestion ; '''JdS''' Vigueur (DD 14)
+* '''Incubation''' 10 minutes ; Fréquence. 1/minute pendant 6 minutes
+* '''Effet''' 1d2 points de [[Force]], la cible peut tenter un JS pour guérir une malédiction lycanthropique contractée dans l’heure précédente ; '''Guérison''' 1 JS réussi
+
+</div>
+
+{s:Reference|Bilededragon}
+<div class="BD">
+{s:BDTitre|Bile de dragon|}
+* '''Type''' poison, contact ; '''Jet de sauvegarde''' Vigueur (DD 26)
+* '''Fréquence''' 1/round pendant 6 rounds
+* '''Effet''' 1d3 points de [[Constitution]] et 1 point de [[Force]]
+
+</div>
+
+{s:Reference|Cigüe}
+<div class="BD">
+{s:BDTitre|Cigüe|}
+* '''Type''' poison, ingestion ; '''JdS''' Vigueur (DD 18)
+* '''Incubation''' 10 minutes ; '''Fréquence''' 1/minute pendant 6 minutes
+* '''Effet''' 1d6 points de [[Dextérité]], [[asphyxie|suffocation]] si 0 en Dextérité ; '''Guérison''' 2 JS consécutifs réussis
+
+</div>
+
+{s:Reference|Éclatdeprismevert}
+<div class="BD">
+{s:BDTitre|Éclat de prisme vert|}
+* '''Type''' poison, sort ; '''JdS''' Vigueur (DD selon le sort)
+* '''Fréquence''' 1/round pendant 6 rounds
+* '''Effet initial''' Mort ; '''Effet secondaire''' 1 point de [[Constitution]] ; '''Guérison''' 2 JS consécutifs réussis (voir ''[[mur prismatique]]'', ''[[rayons prismatiques]]'' et ''[[sphère prismatique]]'' pour plus de détails)
+
+</div>
+
+{s:Reference|Extraitdelotusnoir}
+<div class="BD">
+{s:BDTitre|Extrait de lotus noir|}
+* '''Type''' poison, contact ; '''JdS''' Vigueur (DD 20)
+* '''Incubation''' 1 minute ; '''Fréquence''' 1/round pendant 6 rounds
+* '''Effet''' 1d6 points de [[Constitution]] ; '''Guérison''' 2 JS consécutifs réussis 
+
+</div>
+</td><td width="2%"></td><td width="49%">
+{s:Reference|Extraitdesanvert}
+<div class="BD">
+{s:BDTitre|Extrait de sanvert|}
+* '''Type''' poison, injection ; '''JdS''' Vigueur (DD 13)
+* '''Fréquence''' 1/round pendant 4 rounds
+* '''Effet''' 1 point de [[Constitution]] ; '''Guérison''' 1 JS réussi
+
+</div>
+
+{s:Reference|Herbeàloup}
+<div class="BD">
+{s:BDTitre|Herbe à loup|}
+* '''Type''' poison, ingestion ; '''JdS''' Vigueur (DD 16)
+* '''Incubation''' 10 minute ; '''Fréquence''' 1/minute pendant 6 minutes
+* '''Effet''' 1d3 points de [[Constitution]] ; '''Guérison''' 1 JS réussi
+
+</div>
+
+{s:Reference|Mortelame}
+<div class="BD">
+{s:BDTitre|Mortelame|}
+* '''Type''' poison, injection ; '''JdS''' Vigueur (DD 20)
+* '''Fréquence''' 1/round pendant 6 rounds
+* '''Effet''' 1d3 points de [[Constitution]] ; '''Guérison''' 2 JS consécutifs réussis
+
+</div>
+
+{s:Reference|Poisondeguêpegéante}
+<div class="BD">
+{s:BDTitre|Poison de guêpe géante|}
+* '''Type''' poison, injection ; '''JdS''' Vigueur (DD 18)
+* '''Fréquence''' 1/round pendant 6 rounds
+* '''Effet''' 1d2 points de [[Dextérité]] ; '''Guérison''' 1 JS réussi
+
+</div>
+
+{s:Reference|Poisondrow}
+<div class="BD">
+{s:BDTitre|Poison drow|}
+* '''Type''' poison, injection ; '''JdS''' Vigueur (DD 13)
+* '''Fréquence''' 1/minute pendant 2 minutes
+* '''Effet initial''' inconscient pendant 1 minute ; '''Effet secondaire''' inconscient pendant 2d4 heures ; '''Guérison''' 1 JS réussi
+
+</div>
+
+{s:Reference|Ténébreuxvireux}
+<div class="BD">
+{s:BDTitre|Ténébreux vireux|}
+* '''Type''' poison, ingestion ; '''JdS''' Vigueur (DD 18)
+* '''Incubation''' 10 minutes ; '''Fréquence''' 1/minute pendant 6 minutes
+* '''Effet''' 1d3 points de [[Constitution]] et 1 point de [[Force]] ; '''Guérison''' 2 JS consécutifs réussis
+
+</div>
+
+{s:Reference|Tormentille}
+<div class="BD">
+{s:BDTitre|Tormentille|}
+* '''Type''' poison, injection ; '''JdS''' Vigueur (DD 12)
+* '''Incubation''' 1 round ; '''Fréquence''' 1/round pendant 4 rounds
+* '''Effet''' 1 point de [[Constitution]] et 1 point de [[Sagesse]] ; '''Guérison''' 1 JS réussi
+
+</div>
+
+{s:Reference|Venindevipèreàtêtenoire}
+<div class="BD">
+{s:BDTitre|Venin de vipère à tête noire|}
+* '''Type''' poison, injection ; '''JdS''' Vigueur (DD 11)
+* '''Fréquence''' 1/round pendant 6 rounds
+* '''Effet''' 1d2 points de [[Constitution]] ; '''Guérison''' 1 JS réussi
+
+</div>
+
+{s:Reference|Vapeurdothurbrûlé}
+<div class="BD">
+{s:BDTitre|Vapeur d’othur brûlé|}
+* '''Type''' poison, inhalation ; '''JdS''' Vigueur (DD 18)
+* '''Fréquence''' 1/round pendant 6 rounds
+* '''Effet initial''' 1 point de [[Constitution]] permanent ; '''Effet secondaire''' 1d3 points de [[Constitution]] ; '''Guérison''' 2 JS consécutifs réussis
+
+</div>
+</td></tr></table>

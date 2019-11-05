@@ -1,0 +1,162 @@
+---
+Name: Pathfinder-RPG.Survie
+Title: Survie
+LastModified: 2017-12-02 23:52
+Categories:
+  - 'Compétence'
+---
+{s:MenuCompétences}
+
+'''Caractéristique associée''' : [[Sagesse]]
+
+'''Formation nécessaire''' : non
+
+''Le personnage sait comment survivre et se diriger dans les régions sauvages. Il est également entraîné à suivre les pistes ou les traces laissées par d’autres créatures.''
+
+===Test de compétence===
+
+En pleine nature, le personnage est capable d’assurer sa propre sécurité et sa subsistance ainsi que celles de ses compagnons. La table suivante indique le DD de différentes tâches associées à la compétence de Survie.
+
+<center>
+{| CLASS="tablo" WIDTH="90%"
+|+ tests de survie
+|- CLASS="titre"
+| DD du test de Survie
+| Tâche
+|- CLASS="premier"
+| 10
+| CLASS="gauche" | Le personnage sait se débrouiller en pleine nature sauvage. Il avance à la moitié de sa vitesse de déplacement normale en chassant et en cueillant pour se nourrir (il peut subsister sans réserve d’eau ou de nourriture). En cas de réussite, il trouve suffisamment à boire et à manger pour sustenter une personne de plus par tranche de 2 points de différence entre le résultat du test et le DD (10).
+|- CLASS="alt"
+| 15
+| CLASS="gauche" | Le personnage acquiert un bonus aux jets de Vigueur contre les rigueurs du climat. Celui-ci s’élève à +2 s’il se déplace à demi-vitesse et à +4 s’il reste stationnaire. En cas de réussite, il peut procurer le même bonus à une personne de plus par point de différence entre le résultat du test et le DD (15).
+|-
+| 15
+| CLASS="gauche" | Le personnage ne se perd pas et remarque les dangers naturels (des sables mouvants par exemple).
+|- CLASS="alt"
+| 15
+| CLASS="gauche" | Le personnage peut prédire les conditions climatiques pour les vingt-quatre heures à venir. En cas de réussite, le personnage peut faire des prédictions pour une journée de plus par tranche de 5 points entre le résultat du test et le DD (15).
+|}
+</center>
+
+{s:REFERENCE|SUIVREDESTRACES}
+'''Suivre des traces.''' Un test de Survie permet de repérer des traces ou de les suivre sur une distance de 1,5 km. Un nouveau test est nécessaire chaque fois que la piste devient difficile à suivre. Si le personnage ne possède aucune formation dans cette compétence, il peut quand même tenter de suivre des traces mais son test échoue automatiquement si le DD de la tâche est supérieur à 10. Un personnage peut également choisir d’utiliser la compétence de Perception (contre le même DD) pour repérer une empreinte ou un autre signe du passage de la créature suivie. Cependant, la compétence de Perception ne permet pas de suivre les traces, même si quelqu’un d’autre les a déjà repérées.
+
+Lorsque le personnage suit une piste, il se déplace à la moitié de sa vitesse de déplacement normale (il peut choisir de se déplacer à sa vitesse normale en acceptant un malus de -5 ou au double de sa vitesse normale avec un malus de -20). Le DD du test dépend du type de sol et des conditions en vigueur, comme indiqué dans la table suivante.
+
+<center>
+{| CLASS="tablo"
+|+ Pistage
+|- CLASS="titre"
+| Type de Sol
+| DD du test de Survie
+|- CLASS="premier"
+| très mou
+| 5
+|- CLASS="alt"
+| mou
+| 10
+|-
+| ferme
+| 15
+|- CLASS="alt"
+| dur
+| 20
+|}
+</center>
+
+'''Sol très mou.''' Toute surface dans laquelle les empreintes sont profondes et particulièrement visibles (neige, boue, épaisse couche de poussière, etc.).
+
+'''Sol mou.''' Toute surface assez élastique pour s’enfoncer sous le poids d’un individu, mais plus ferme que la boue ou la neige. Les traces y sont nombreuses mais peu profondes.
+
+'''Sol ferme.''' La plupart des sols en extérieur (pelouse, champ, bois, etc.) et les surfaces extrêmement molles ou sales à l’intérieur (épais tapis, sol crasseux, etc.). La créature suivie peut laisser quelques traces (brindilles cassées, touffes de poils, etc.), mais les empreintes, elles, sont extrêmement rares.
+
+'''Sol dur.''' Toute surface n’imprimant pas la moindre empreinte (roche naturelle, sol en pierre, etc.). La plupart des lits de cours d’eau entrent dans cette catégorie car les traces laissées sont généralement effacées par le courant. La créature suivie ne laisse que quelques indices de son passage (cailloux déplacés, marques de griffures, etc.).
+
+Divers modificateurs s’appliquent au test de Survie, comme indiqué dans la table ci-dessous.
+
+<center>
+{| CLASS="tablo"
+|+ Modificateurs des tests de Pistage
+|- CLASS="titre"
+| Conditions en vigueur
+| Modificateur au<br/> DD du test de Survie
+|- CLASS="premier"
+| Par trois créatures faisant partie du groupe pisté
+| -1
+|- CLASS="alt"
+| COLSPAN="2" | '''Taille des créatures traquées'''<sup>[[Survie#NOTE1|1]]</sup> 
+|-
+| &emsp;Infime (I)
+| +8
+|- CLASS="alt"
+| &emsp;Minuscule (Min)
+| +4
+|-
+| &emsp;Très petite (TP)
+| +2
+|- CLASS="alt"
+| &emsp;Petite (P)
+| +1
+|-
+| &emsp;Moyenne (M)
+| +0
+|- CLASS="alt"
+| &emsp;Grande (G)
+| -1
+|-
+| &emsp;Très grande (TG)
+| -2
+|- CLASS="alt"
+| &emsp;Gigantesque (Gig)
+| -4
+|-
+| &emsp;Colossale (C)
+| -8
+|- CLASS="alt"
+| Par tranche de vingt-quatre heures écoulées depuis que la piste a été laissée
+| +1
+|-
+| Par heure de pluie depuis que la piste a été laissée
+| +1
+|- CLASS="alt"
+| Chute de neige depuis que la piste a été laissée
+| +10
+|-
+| COLSPAN="2" | '''Mauvaise visibilité'''<sup>[[Survie#NOTE2|2]]</sup>
+| 
+|- CLASS="alt"
+| &emsp;Ciel nocturne couvert ou nuit sans lune
+| +6
+|-
+| &emsp;Clair de lune
+| +3
+|- CLASS="alt"
+| &emsp;Brouillard ou précipitations (pluie, neige, etc.)
+| +5
+|-
+| La cible masque sa piste (ce qui réduit sa vitesse de déplacement de moitié)
+| +5
+|-
+| COLSPAN="2" CLASS="note" | {s:Reference|NOTE1}''(1) Si le groupe est composé de créatures de tailles diverses, on prend seulement en compte la taille la plus importante.''
+|-
+| COLSPAN="2" CLASS="note" | {s:Reference|NOTE2}''(2) Ces facteurs ne s’additionnent pas ; seul le plus important est pris en compte.''
+|}
+</center>
+
+===Action===
+
+Variable. Un test de Survie peut représenter une durée allant de plusieurs heures à une journée d’activité. Un test de Survie destiné à trouver une piste nécessite toujours au moins une [[action complexe]], peut-être bien plus.
+
+===Nouvelles tentatives===
+
+Variable. Pour se débrouiller dans les contrées sauvages ou obtenir le bonus aux jets de [[Vigueur]] (comme indiqué dans la première table de la page 107), le personnage effectue un test de Survie toutes les vingt-quatre heures et le résultat s’applique chaque fois jusqu’au test suivant. Pour ne pas se perdre ou pour repérer les dangers naturels, le personnage effectue un test chaque fois que nécessaire, mais chacun de ces tests ne peut être tenté qu’une seule fois. Lorsqu’il s’agit de trouver une piste et que le test échoue, le personnage doit poursuivre sa recherche pendant une heure (dans la nature) ou dix minutes (en intérieur) avant de pouvoir tenter un nouveau test.
+
+===Spécial===
+
+Toute personne possédant une formation (un rang non-nul) dans la compétence de Survie peut déterminer la direction du nord sans devoir faire de test.
+
+Les [[rôdeur|rôdeurs]] bénéficient d’un bonus à leurs tests de Survie visant à trouver ou à suivre les traces laissées par leurs [[ennemi juré|ennemis jurés]].
+
+Un personnage possédant le don [[Autonome]] obtient un bonus aux tests de Survie.
+
+[[Compétences|Retour vers les Compétences]]

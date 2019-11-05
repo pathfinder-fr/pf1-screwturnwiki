@@ -1,0 +1,137 @@
+---
+Name: Pathfinder-RPG.Manœuvres offensives
+Title: Les manœuvres de combat
+LastModified: 2016-11-18 16:29
+Categories:
+  - 'Combat'
+---
+''Lors d’un combat, le personnage peut tenter diverses manœuvres destinées à gêner ou même à estropier son adversaire, qu’il s’agisse de le [[Manœuvres offensives#BOUSCULADE|bousculer]], de le [[Manœuvres offensives#DESARMEMENT|désarmer]], de [[Manœuvres offensives#LUTTE|lutter]] avec lui, de le [[Manœuvres offensives#RENVERSEMENT|renverser]], ou encore [[Manœuvres offensives#DESTRUCTION|briser son arme]] ou de lui faire un [[Manœuvres offensives#CROCENJAMBE|croc-en-jambe]]. Ces manœuvres ont des résultats bien différents mais leur succès est déterminé par des mécanismes similaires.''
+
+{toc}
+
+'''Le bonus de manœuvre offensive.''' Chaque personnage et chaque créature dispose d’un [[Manœuvres offensives#BMO|Bonus de manœuvre offensive]] (BMO). Celui-ci représente la capacité à accomplir une manœuvre offensive et il est déterminé selon la formule suivante :
+
+{s:Reference|BMO}<div class="presentation arrondi recentre ombre"><center>'''BMO''' <br/>=<br/> [[Bonus de base à lattaque|Bonus de base à l’attaque]] + modificateur de [[Force]] + modificateur de taille spécial</center></div>
+
+Les créatures de taille TP ou moins utilisent leur modificateur de [[Dextérité]] au lieu du modificateur de [[Force]] pour déterminer leur BMO. Voici les modificateurs de taille liés au BMO : [[taille I|infime]] -8, [[taille Min|minuscule]] -4, [[taille TP|très petite]] -2, [[Taille P|petite]] -1, [[Taille M|moyenne]] +0, [[Taille G|grande]] +1, [[taille TG|très grande]] +2, [[Taille Gig|gigantesque]] +4, [[taille Col|colossale]] +8. Certains dons et certaines capacités donnent un bonus spécial au BMO quand il s’agit de faire une manœuvre particulière.
+
+'''Réaliser une manœuvre offensive.''' Quand le personnage réalise une manœuvre offensive, il doit choisir une action appropriée à la manœuvre qu’il tente. On peut faire de nombreuses manœuvres de combat au cours d’une attaque, d’une [[action complexe]] ou d’une [[attaque dopportunité|attaque d’opportunité]] (à la place d’une attaque de corps à corps) mais certaines demandent des actions particulières. À moins que cela ne soit précisé autrement, accomplir une manœuvre de combat provoque une [[attaque dopportunité|attaque d’opportunité]] de la part de la cible de la manœuvre. Si cette dernière touche le personnage, il subit les dégâts habituels et applique ce même montant comme malus au [[jet dattaque|jet d’attaque]] de la manœuvre. Si la cible est [[immobilisé|immobilisée]], [[inconscient|inconsciente]] ou incapable d’agir, la manœuvre réussit automatiquement (on considère que le personnage a obtenu un 20 naturel au [[jet dattaque|jet d’attaque]]). Si la cible est [[étourdi|étourdie]], le personnage reçoit un bonus de +4 au [[jet dattaque|jet d’attaque]] de la manœuvre offensive.
+
+Quand le personnage tente une manœuvre offensive, il fait un [[jet dattaque|jet d’attaque]] et y ajoute son BMO au lieu de son bonus d’attaque habituel. Il y ajoute aussi tous les bonus à ses [[jet dattaque|jets d’attaque]] dont il dispose à ce moment (grâce à un sort, un don ou autre). Ces bonus doivent s’appliquer à l’arme ou à l’attaque utilisée lors de la manœuvre. Le [[DD]] de la manœuvre est égal au [[DMD|degré de manœuvre défensive]] de la cible. Les manœuvres offensives sont des [[jet dattaque|jets d’attaque]] et tiennent donc compte du [[camouflage]] et des malus qui affectent les [[jet dattaque|jets d’attaque]].
+
+'''Manœuvre défensive.''' Chaque personnage et chaque créature possède un degré de manœuvre défensive (ou DMD). Celui-ci représente sa capacité à résister à une [[manœuvre offensive]]. Le DMD d’une créature est déterminée selon la formule :
+
+{s:Reference|DMD}<div class="presentation arrondi recentre ombre"><center>'''DMD''' <br/>=<br/> 10 + [[bonus de base à lattaque|bonus de base à l’attaque]] + modificateur de [[Force]] + modificateur de [[Dextérité]] + modificateur de taille spécial</center></div>
+
+Voici les modificateurs de taille liés à la DMD : [[taille I|infime]] -8, [[taille Min|minuscule]] -4, [[taille TP|très petite]] -2, [[Taille P|petite]] -1, [[Taille M|moyenne]] +0, [[Taille G|grande]] +1, [[taille TG|très grande]] +2, [[Taille Gig|gigantesque]] +4, [[taille Col|colossale]] +8. Certains dons et pouvoirs donnent un bonus spécial au DMD quand il s’agit de résister à une manœuvre particulière. Le personnage y ajoute aussi tout bonus de chance, de circonstances, de parade, d’esquive, d’intuition, de moral, de malfaisance ou de sainteté applicable à la [[CA]]. Tout malus qui s’applique à la [[CA]] s’applique aussi au DMD. Une créature [[pris au dépourvu|prise au dépourvu]] n’ajoute pas son bonus de [[Dextérité]] à son DMD.
+
+'''Déterminer le succès.''' Si le [[jet dattaque|jet d’attaque]] du personnage égale ou dépasse le DMD de la cible, il réussit sa manœuvre et en applique les effets. Certaines manœuvres, comme la [[bousculade]], ont divers degrés de succès selon la marge de réussite. Un 20 naturel lors d’une manœuvre de combat est un succès assuré (sauf quand le personnage essaie d’échapper à ses liens) tandis qu’un 1 naturel est toujours synonyme d’échec.
+
+{s:Reference|BOUSCULADE}
+===Bousculade===
+Un personnage peut tenter une bousculade par une [[action simple]] ou dans le cadre d’une [[charge]], à la place de l’attaque. Il peut bousculer un ennemi jusqu'à une catégorie de taille supérieure à la sienne. La bousculade a pour but de repousser l’adversaire en ligne droite sans lui faire de mal. Si le personnage ne dispose pas du don [[Science de la bousculade]] ou d’un pouvoir similaire, il provoque une [[attaque dopportunité|attaque d’opportunité]] de la part de sa cible quand il commence sa bousculade.
+
+Si le personnage réussit sa [[manœuvre offensive]], il repousse sa cible de 1,50 m. La cible recule de 1,50 m supplémentaire par tranche de 5 points de marge de réussite. Le personnage peut se déplacer en même temps que sa cible, s’il le souhaite, et s’il lui reste assez de cases de déplacement pour ce faire. Si l’attaque échoue, le personnage s’arrête devant sa cible.
+
+Le mouvement d’un ennemi repoussé par une bousculade ne provoque pas d’[[AO|attaque d’opportunité]] à moins que le personnage qui le repousse ne possède le don [[Bousculade supérieure]]. Il n’est pas possible de repousser une créature dans une case occupée par un objet solide ou un obstacle. Si une autre créature se trouve sur la trajectoire de la créature bousculée, le personnage doit faire immédiatement un test de [[manœuvre offensive]] pour tenter de bousculer cette créature. Il subit un malus de -4 au test pour chaque créature qu’il repousse en plus de la première. S’il réussit, il repousse les créatures sur la distance qui correspond au résultat le plus faible. 
+* ''Par exemple, si un [[guerrier]] repousse un [[gobelin]] sur un total de 4,50 m mais qu’un deuxième [[gobelin]] se trouve à 1,50 m derrière le premier, le [[guerrier]] doit faire un deuxième test de [[manœuvre offensive]] contre le deuxième [[gobelin]] une fois qu’il a repoussé le premier sur 1,50 m. Si ce test indique qu’il peut pousser le deuxième [[gobelin]] sur 6 m, il pourra repousser les deux monstres sur 3 m supplémentaires (étant donné que le premier [[gobelin]] a déjà parcouru 1,50 m).''
+
+{s:Reference|CROCENJAMBE}
+===Croc-en-jambe===
+{s:Desambi|Il peut aussi s'agir d'une [[Croc-en-jambe (capacité)|capacité de monstre]].}
+Le personnage peut faire un croc-en-jambe au lieu d’une attaque de corps à corps, mais seulement si son adversaire ne fait pas plus d’une catégorie de taille de plus que lui. Si le personnage ne dispose pas du don [[Science du croc-en-jambe]] ou d’un pouvoir similaire, il déclenche une [[AO|attaque d’opportunité]] de la part de sa cible.
+
+Si l’attaque dépasse le [[DMD]] de la cible, cette dernière tombe [[à terre]]. Si le personnage rate son attaque de 10 ou plus, c’est lui qui tombe. Si la cible a plus de deux jambes, ajoutez +2 à son [[DMD|DMD]] pour chaque jambe supplémentaire. Certaines créatures, comme les [[type vase|vases]], les créatures dépourvues de jambes ou les créatures volantes ne peuvent pas être victimes d’un croc-en-jambe.
+
+{s:Reference|DESARMEMENT} 
+===Désarmement===
+Le personnage peut tenter de désarmer son adversaire au lieu de faire une attaque de corps à corps. S’il ne dispose pas du don [[Science du désarmement]] ou d’un pouvoir similaire, il provoque une [[attaque dopportunité|attaque d’opportunité]] de la part de sa cible quand il effectue sa manœuvre. Le personnage subit un malus de -4 s’il tente de désarmer sa cible alors qu’il ne possède lui-même aucune arme.
+
+Si le personnage réussit son attaque, la cible lâche un objet au choix du personnage (même si elle le tenait à deux mains). Si l’attaque dépasse le [[DMD]] de la cible de 10 ou plus, celle-ci lâche les objets qu’elle tenait dans chaque main (deux au maximum si la cible a plus de deux mains). 
+
+Si le personnage rate son attaque de 10 ou plus, c’est lui qui lâche l’arme dont il se sert pour le désarmement. S’il réussit à désarmer son adversaire sans se servir d’une arme, il peut automatiquement ramasser celle que son ennemi a lâchée.
+
+{s:Reference|DESTRUCTION}
+===Destruction===
+{s:Desambi|Destruction est également le nom d'une [[Armes magiques#Destruction|propriété d'armes magiques]] et d'un [[sort destruction|sort]].}
+Le personnage peut essayer de détruire un objet porté ou tenu par son adversaire, lors d’une action d’attaque qui remplace l’attaque de corps à corps. Si le personnage ne dispose pas du don [[Science de la destruction]] ou d’un pouvoir similaire, il provoque une [[AO|attaque d’opportunité]] de la part de la cible quand il tente cette manœuvre.
+
+Si le personnage réussit son attaque, il inflige des dégâts normaux à l’objet. Si ces dégâts dépassent la [[solidité]] de l’objet, on les soustrait à son total de points de vie. Quand un objet n’a plus que la moitié de ses points de vie ou moins, il est [[brisé]]. Si les dégâts que le personnage infligent peuvent réduire l’objet à 0 point de vie, le personnage peut choisir de le détruire. S’il ne fait pas ce choix, l’objet tombe à 1 point de vie et devient [[brisé]].
+
+{s:Reference|ENTRAINEMENT}{s:APG}
+===Entraînement===
+Vous pouvez tenter d’emmener un ennemi avec vous par une [[action simple]]. Cela n’est possible que sur un adversaire
+ayant au plus une [[catégorie de taille]] de plus que vous. Cette manœuvre consiste à traîner un adversaire derrière vous, en ligne droite, sans lui causer aucun mal. Si vous ne possédez pas le don [[Science de lentraînement|Science de l’entraînement]] ou une capacité similaire, tenter cette manœuvre provoque une [[attaque dopportunité|attaque d’opportunité]] de la part de la cible.
+
+Si l’attaque réussit, vous et votre adversaire êtes déplacés de 1,50 m (1 {s:c}) : l’adversaire se retrouve à l’endroit que vous occupiez et vous, dans l’espace situé juste derrière, en ligne droite.
+
+Pour chaque tranche de 5 points dans la marge de réussite entre votre attaque et le [[DMD]] de l’adversaire, vous pouvez l’entraîner sur 1,50 m de plus (1 {s:c}). La distance que vous parcourez ne peut jamais dépasser votre [[VD|vitesse de déplacement]].
+
+Le mouvement de l’ennemi entraîné ne provoque pas d’[[attaque dopportunité|attaque d’opportunité]], à moins que vous ne possédiez le don [[Entraînement supérieur]]. Cette manœuvre ne permet pas de déplacer une créature vers un espace qui est déjà occupé par un objet solide ou un obstacle. Si une autre créature se trouve sur votre chemin, votre déplacement s’arrête juste avant elle.
+
+'''Stabilité.''' Certains personnages et certains types de créatures sont tout spécialement stables, ce qui les rend
+difficiles à renverser et à déplacer sur le champ de bataille.
+
+Toute capacité raciale qui octroie un bonus au [[DMD]] contre les tentatives de [[bousculade]] offre également ce même bonus contre les tentatives d’entraînement.
+
+{s:Reference|LUTTE}
+===Lutte===
+Par une [[action simple]], le personnage peut entamer une lutte et limiter les options de combat de son adversaire. S’il ne dispose pas du don [[Science de la lutte]], d’[[étreinte]] ou d’un pouvoir similaire, il provoque une [[attaque dopportunité|attaque d’opportunité]] de la part de sa cible quand il effectue sa manœuvre. Les créatures humanoïdes qui n’ont pas deux mains libres quand elles entament la lutte contre un adversaire subissent un malus de -4. Si le personnage réussit, lui et sa cible sont en [[Agrippé|situation de lutte]]. Si le personnage parvient à agripper une créature qui ne lui est pas adjacente, il l’entraîne dans une case adjacente libre (s’il n’y en a pas, la lutte échoue). Bien que les deux créatures soient en situation de lutte, seule celle qui a initié la lutte peut se dégager par une [[action libre]], et libérer la cible par la même occasion. Si le personnage ne desserre pas sa prise, il doit faire un nouveau test à chaque round, par une [[action simple]], afin de maintenir sa prise. Si la cible ne brise pas l’étreinte, le personnage bénéficie d’un bonus de circonstances de +5 aux tests de lutte contre cette cible pendant les rounds qui suivent. Une fois que le personnage est en lutte avec un adversaire, il lui suffit de réussir un test supplémentaire pour continuer la lutte et pour accomplir l’une des actions suivantes (au cours de l’action simple qui sert à maintenir la prise).
+
+'''Déplacement.''' Le personnage peut se déplacer, en entraînant sa cible, à la moitié de sa [[vitesse de déplacement]]. À la fin de ce déplacement, il peut placer sa cible sur n’importe quelle case adjacente à la sienne. S’il essaie de mettre son ennemi en danger, en le plaçant dans un mur de feu ou en le poussant dans une fosse par exemple, la cible a droit à une tentative gratuite pour se libérer, avec un bonus de +4.
+
+'''Dégâts.''' Le personnage peut infliger des dégâts à son adversaire comme s’il utilisait une attaque à mains nues, une attaque naturelle, une attaque avec une armure à pointes ou une arme à une main. Ces dégâts peuvent être létaux ou non.
+
+'''Immobiliser.''' Le personnage peut [[immobilisé|immobiliser]] son adversaire. Même dans ce cas un peu particulier, le personnage est toujours en situation de lutte et perd son bonus de [[Dextérité]] à la [[CA]].
+
+'''Attacher.''' Si la cible du personnage est [[immobilisé|immobilisée]], incapable de bouger ou [[inconscient|inconsciente]], le personnage peut utiliser une corde pour l’attacher. Cela fonctionne comme un [[immobilisé|effet d’immobilisation]], mais le [[DD]] pour échapper aux liens est de 20 + [[BMO]] (au lieu du [[DMD]]). Les cordes n’ont pas besoin de faire de test à chaque round pour [[immobilisé|immobiliser]] la cible. Si le personnage est en lutte avec sa cible, il peut tout de même essayer de l’attacher mais il subit alors un malus de -10 à la [[manœuvre offensive]]. Si le [[DD]] pour échapper à ces liens est supérieur à 20 + [[BMO]] de la cible, cette dernière ne peut s’en libérer, même sur un 20 naturel.
+
+'''Si le personnage est [[Agrippé]].''' Si le personnage est [[Agrippé]], il peut tenter de se libérer par une [[action simple]] à l’aide d’un test de [[BMO|manœuvre de combat]] (dont le [[DD]] est égal au [[DMD]] de son adversaire ; cela ne provoque pas d’[[attaque dopportunité|attaque d’opportunité]]) ou d’un test d’[[Évasion]] (dont le [[DD]] est égal au [[DMD]] de l’adversaire). Si le personnage réussit, il brise l’étreinte et peut agir normalement. Il peut aussi choisir de mener la lutte et d’[[agrippé|agripper]] l’autre créature (ce qui signifie que cette dernière ne peut plus abandonner librement la lutte, elle doit pour cela réussir un test de [[manœuvre de combat]], alors que le personnage peut à présent se dégager librement). Au lieu d’essayer de se dégager ou de prendre le contrôle de la lutte, le personnage peut tenter de faire une action qui ne nécessite pas l'utilisation des deux mains, comme lancer un sort ou porter une attaque normale ou à outrance avec une arme légère ou à une main contre une créature à sa portée, y compris celle avec laquelle il lutte. Consultez les conditions des personnages [[agrippé|agrippés]] pour plus d’informations. Si le personnage est [[immobilisé]], ses options sont très réduites.
+
+'''Plusieurs créatures.''' Plusieurs créatures peuvent lutter contre une même cible. La créature qui entame la lutte est la seule à faire le test, avec un bonus de +2 pour chaque créature qui vient l’aider (à l’aide de l’action [[aider quelquun|aider autrui]]). Plusieurs créatures peuvent en aider une autre à échapper à une lutte (toujours à l’aide de l’action [[aider quelquun|aider autrui]]), chacune d’elle offrant un bonus de +2 au test de [[manœuvre offensive]] de la créature [[agrippé|agrippée]].
+
+{s:Reference|RENVERSEMENT}
+===Renversement===
+Par une [[action simple]], entreprise pendant un déplacement ou une [[charge]], le personnage peut essayer de renverser sa cible en se plaçant dans sa case. Il ne peut pas renverser un adversaire de plus d’une catégorie de taille au-dessus de la sienne. S’il ne dispose pas de la [[Science du renversement]] ou d’un pouvoir similaire, il déclenche une [[attaque dopportunité|attaque d’opportunité]] de la part de la cible de la manœuvre. S’il rate sa tentative de renversement, il s’arrête dans la case juste devant sa cible ou dans la case disponible la plus proche si d’autres créatures occupent déjà cet emplacement.
+
+Quand le personnage essaie de renverser une cible, celle-ci peut choisir de l’éviter et le laisser traverser sa case sans qu’il ait besoin de faire une attaque. Si la cible ne l’évite pas, le personnage fait une [[manœuvre offensive]] ordinaire. S’il réussit, il traverse la case de la cible. Si son attaque dépasse le [[DMD]] de la cible de 5 ou plus, le personnage traverse la case de la cible et cette dernière tombe [[à terre]]. Si elle a plus de deux jambes, ajoutez +2 à son [[DMD]] par jambe supplémentaire.
+
+{s:Reference|REPOSITIONNEMENT}{s:APG}
+
+===Repositionnement===
+Vous pouvez tenter de repositionner un ennemi vers un nouvel emplacement par une [[action simple]]. Cette manœuvre
+n’est possible que contre des ennemis possédant au plus une [[catégorie de taille]] de plus que vous. Un repositionnement vise à forcer un ennemi à se déplacer vers un nouvel endroit sans pour autant lui infliger des dégâts. Si vous ne possédez pas le don [[Science du repositionnement]] ou une capacité similaire, tenter un repositionnement provoque une [[AO|attaque d’opportunité]] de la part de la cible de la manœuvre. 
+
+Vous ne pouvez pas utiliser cette manœuvre pour déplacer un ennemi vers un endroit intrinsèquement dangereux (comme
+une fosse ou un ''[[mur de feu]]'').
+
+Si l’attaque réussit, vous pouvez déplacer votre cible de 1,50 m (1 {s:c}) vers un nouvel emplacement.  Pour chaque tranche de 5 points dans la marge de réussite entre votre [[jet dattaque|jet d’attaque]] et le [[DMD]] de la cible, vous pouvez la déplacer de 1,50 m (1 {s:c}) de plus. La cible doit rester dans la zone que vous contrôlez tout au long de ce mouvement, à l’exception du dernier pas de 1,50 m (1 {s:c}), qui peut l’emmener vers un emplacement adjacent à la zone que vous contrôlez.
+
+Le mouvement d’une ennemi repositionné ne provoque pas d’attaque d’opportunité, à moins que vous ne possédiez le don [[Repositionnement supérieur]]. 
+
+Vous ne pouvez pas repositionner une créature dans un emplacement occupé par un objet solide ou un obstacle.
+
+{s:Reference|SALECOUP}{s:APG}
+===Sale coup===
+Vous pouvez tenter de jouer un sale coup à un ennemi au corps à corps par une [[action simple]]. Cette manœuvre recouvre toutes les situations où une attaque impose une pénalité à un ennemi pendant une courte période de temps. Par exemple, il peut s’agir d’envoyer du sable dans les yeux de l’adversaire afin de l’[[aveuglé|aveugler]] pendant 1 round, de lui baisser le pantalon pour diviser sa [[VD|vitesse de déplacement]] par deux ou encore de le frapper à un endroit sensible pour le rendre [[fiévreux]] pendant 1 round. 
+
+C’est au MJ qu’il revient de déterminer ce qu’il est possible d’accomplir avec cette manœuvre, mais celle-ci ne peut résulter en une pénalité permanente et la cible peut en annuler les effets en y consacrant une [[action de mouvement]].
+
+Les créatures qui ne possèdent pas le don [[Science du sale coup]] ou une capacité similaire provoquent une [[AO|attaque d’opportunité]] de la part de leur cible lorsqu’elles tentent de réaliser cette manœuvre.
+
+Si l’attaque réussit, la cible subit une pénalité. Les pénalités possibles sont limitées aux effets préjudiciables
+suivants : [[sourd|assourdi]], [[aveuglé]], [[ébloui]], [[enchevêtré]], [[fiévreux]] ou [[secoué]]. 
+
+L’effet préjudiciable persiste pendant 1 round. Pour chaque tranche de 5 points dans la marge de réussite entre
+le jet d’attaque et le [[DMD]] de la cible, la durée de la pénalité augmente de 1 round. Cette pénalité peut généralement être annulée par la cible si elle y dévoue une [[action de mouvement]]. Si l’attaquant possède le don [[Sale coup supérieur]], la pénalité dure pendant 1d4 rounds plus 1 round par tranche de 5 points dans la marge de réussite. De plus, la cible doit utiliser une action simple pour annuler la pénalité.
+
+{s:Reference|SUBTILISATION}{s:APG}
+===Subtilisation===
+Vous pouvez tenter de subtiliser un objet à un ennemi par une [[action simple]]. Cette manœuvre s’utilise au corps à corps et permet de s’emparer d’un objet qui n’est ni tenu en main, ni caché, ni placé dans un sac ou un autre conteneur. Vous devez avoir au moins une main libre (une main qui ne tient rien) pour tenter cette manœuvre et vous devez choisir l’objet à prendre avant le [[jet dattaque|jet d’attaque]]. Les objets qui sont simplement glissés dans une ceinture ou attachés sans être bien fixés (comme une broche ou un collier) sont les plus aisés à subtiliser. Les
+objets bien attachés aux ennemis (comme les capes, les armes encore dans leur fourreau ou les bourses) sont plus difficiles à saisir et donnent un bonus de +5 (ou plus encore) au [[DMD]] de leur porteur. Cette manœuvre ne permet pas de subtiliser les objets qui sont revêtus (comme les armures, les sacs à dos, les bottes, les habits ou les anneaux). Les objets tenus en mains (comme les armes ou les baguettes magiques brandies) ne peuvent pas non plus être dérobées par cette manœuvre : pour ces objets, il faut utiliser une manœuvre de désarmement. En cas de doute sur la possibilité de subtiliser un objet, la décision finale revient au MJ.
+
+Si vous ne possédez pas le don [[Science de la subtilisation]] ou une capacité similaire, tenter de subtiliser un objet provoque une [[AO|attaque d’opportunité]] de la part de la cible de la manœuvre.
+
+Cette manœuvre n’est possible que si la cible se trouve dans la zone que vous contrôlez. Vous pouvez utiliser un fouet pour subtiliser un objet à une cible se trouvant à portée mais le [[jet dattaque|jet d’attaque]] reçoit alors une pénalité de –4.
+
+Si le jet d’attaque réussit, vous pouvez prendre un objet à votre adversaire. Vous devez être capable d’atteindre l’objet en question (le MJ détermine si c’est le cas ou pas). L’ennemi se rend immédiatement compte du vol, à moins que vous ne possédiez le don [[Subtilisation supérieure]].

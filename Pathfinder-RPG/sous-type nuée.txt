@@ -1,0 +1,51 @@
+---
+Name: Pathfinder-RPG.sous-type nuée
+Title: Nuée (sous-type)
+LastModified: 2018-04-05 14:22
+Categories:
+  - 'Bestiaire'
+  - 'Monstre'
+  - 'Règles officielles'
+---
+{s:MenuTypes}''Source : Bestiaire'' p.314
+
+Les nuées sont des collections de créatures de taille Infime, Minuscule ou Très Petit qui agissent comme une seule entité. Outre les exceptions présentées ci-dessous, les nuées partagent les attributs de leur type. On associe à chaque nuée un seul total de [[DV]] et de points de vie, un seul modificateur d’initiative, une seule vitesse de déplacement et une seule valeur de CA. De même, une nuée réalise ses jets de sauvegarde comme s’il s’agissait d’une créature unique. Une nuée occupe une surface carrée (si elle est constituée de créatures qui ne volent pas) ou un volume cubique (si elle se compose de créatures volantes) de 3 m (2 {s:c}) de côté, mais son allonge est de 0 m (comme celle des créatures qui la composent). Pour attaquer, la nuée doit pénétrer dans l’espace de son adversaire, ce qui provoque une [[attaque dopportunité|attaque d’opportunité]]. Elle peut occuper le même espace qu’un adversaire (quelle que soit la taille de celui-ci) car les créatures qui la composent grimpent partout sur leur proie. Une nuée peut traverser sans problème un espace occupé par un ennemi (et vice versa) mais la nuée provoque alors une attaque d’opportunité. Elle peut également se faufiler à travers des fissures ou des trous suffisamment grands pour laisser passer les créatures qui la composent.
+
+Une nuée de créatures de taille TP se compose de 300 créatures non volantes ou de 1 000 créatures volantes. Une nuée de créatures de taille Minuscule se compose de 1 500 créatures non volantes ou de 5 000 créatures volantes. Une nuée de créatures de taille Infime se compose de 10 000 créatures (volantes ou non). Les nuées de créatures non volantes contiennent un nombre de créatures bien plus grand que celui qu’on obtiendrait en tentant de les caser dans un carré de 3 mètres de côté en utilisant les règles normales ; c’est parce que les créatures qui forment une nuée sont très serrées et grimpent les unes sur les autres (ainsi que sur leurs proies) lorsqu’elles se déplacent ou attaquent. On peut représenter des nuées plus vastes en combinant plusieurs nuées de même type. L’espace occupé par une grande nuée peut prendre n’importe quelle forme, mais il s’agit généralement d’une forme d’un seul tenant. 
+
+{s:Reference|TRAITSNUEES}
+'''Traits des nuées.''' Les nuées ne possèdent ni devant ni derrière et aucune anatomie spécifique. Elles ne sont donc pas sujettes aux coups critiques et ne peuvent pas être prises en tenaille. Les nuées composées de créatures de taille TP ne subissent que la moitié des dégâts infligés par des armes tranchantes ou perforantes. Celles formées par des créatures de taille Minuscule ou Infime sont immunisées contre les dégâts des armes. Lorsque le nombre de points de vie d’une nuée atteint ou passe sous 0, les créatures qui la composent se dispersent mais les dégâts infligés avant cela ne réduisent en rien ses capacités d’attaque ou de défense. Il est impossible de rendre une nuée chancelante ou mourante en lui infligeant des dégâts. Les nuées ne peuvent pas non plus être [[agrippé|agrippées]] (lutte), bousculées (charge à mains nues) ou victimes d’un croc-en-jambe. Une nuée ne peut pas non plus agripper un adversaire. Les nuées sont immunisées contre les sorts et les effets qui prennent pour cibles un nombre précis de créatures (y compris les sorts à cible unique tels que désintégration). Les effets mentaux (charmes, coercitions,
+effets de moral, mirages et fantasmes) font exception à cette règle si la nuée possède une valeur d’[[Intelligence]] et est dotée d’une intelligence (ou conscience) collective. Lorsqu’un sort ou un effet de zone (comme les armes à aspersion et de nombreux sorts d’Évocation) inflige des dégâts à une nuée, ceux-ci sont augmentés de 50%.
+
+Les nuées composées de créatures de taille Minuscule ou Infime sont affectés par les vents forts tels que ceux créés par un sort de ''[[bourrasque]]''. Lorsqu’il s’agit de déterminer les effets du vent sur une nuée, considérez-la comme une créature appartenant à la catégorie de taille des créatures dont elle est constituée. Lorsqu’une nuée devient inconsciente suite à des dégâts non-létaux, elle se disperse et se désorganise. Dans ce cas, elle ne se reforme qu’au moment où son total de points de vie redevient supérieur aux dégâts non-létaux subis.
+
+'''Attaque de nuée.''' Les créatures appartenant au sous-type « nuée » ne portent pas d’attaques au corps à corps standard. Au lieu de cela, elles infligent automatiquement des dégâts à toutes les créatures dont elles occupent l’espace au terme de leur déplacement (sans même avoir à réaliser de [[jet dattaque|jet d’attaque]]). Les chances d’échec découlant d’un camouflage ou d’un abri ne s’appliquent pas aux attaques de nuées. Les profils des nuées contiennent la mention « nuée » après l’en-tête correspondant aux attaques et n’indiquent pas de bonus d’attaque. La quantité de dégâts infligés par une nuée dépend de son nombre de DV (voir le tableau ci-dessous).
+
+<center>
+{| CLASS="tablo" WIDTH="50%"
+|+ Nuée
+|- CLASS="titre"
+| class="gauche" | Nombre de DV de la nuée 
+| Dégâts de base de la nuée
+|- CLASS="premier"
+| class="gauche" | 1-5 
+| 1d6
+|- CLASS="alt"
+| class="gauche" | 6-10
+| 2d6
+|-
+| class="gauche" | 11-15
+| 3d6
+|- CLASS="alt"
+| class="gauche" | 16-20
+| 4d6
+|-
+| class="gauche" | 21 ou plus
+| 5d6
+|}
+</center>
+
+Les attaques de nuées ne sont pas magiques, à moins que le profil n’indique le contraire. Une [[RD|réduction de dégâts]] suffisante pour diminuer les dégâts jusqu’à 0, l’intangibilité ou d’autres capacités spéciales peuvent immuniser une créature aux attaques d’une nuée ou, au moins, l’aider à y résister. Certaines nuées possèdent
+également des attaques spéciales (acide, absorption de sang ou poison par exemple) en plus des dégâts normaux.
+Les nuées ne contrôlent pas l’espace qu’elles occupent (ni aucun autre) et n’effectuent pas d’attaque d’opportunité. Par contre, elles distraient les ennemis dont elles occupent l’espace, comme indiqué ci-dessous.
+Les nuées possèdent la capacité de [[distraction]] (qui fait partie des règles universelles pour les monstres). Lorsqu’un individu situé dans l’espace occupé par une nuée désire lancer un sort ou maintenir sa concentration, il doit réussir un test de [[NLS]] (le DD est égal à 20 + le [[niveau du sort]]). Il est également nécessaire de réussir un jet de [[Volonté]] de [[DD]] 20 pour utiliser des compétences qui requièrent de la patience et de la concentration.

@@ -1,0 +1,83 @@
+---
+Name: Aventures.Guide PNJ
+Title: Guide d'ajout de PNJ
+LastModified: 2010-04-23 18:11
+---
+Tout d'abord, merci. Si vous venez consulter cette page, c'est que vous envisagez de partager un des PNJ que vous avez créés. La partie la plus complexe est la création du PNJ. Une fois que c'est fait, l'encodage est plus simple qu'il n'y paraît, surtout si vous suivez la procédure décrite ci-dessous pas à pas.
+
+=== #1. Créer un lien initial ===
+
+Assurez-vous que vous avez toutes les informations relatives à votre PNJ. La méthode la plus simple pour créer la nouvelle page qui accueillera votre PNJ consiste à d'abord créer un lien vers la future page, puis à utiliser ce lien pour créer la page (c'est un peu comme construire une porte avant de construire la pièce à laquelle elle permet d'accéder).
+
+* Rendez vous sur la page principale de la [Aventures.Liste PNJ|Banque de PNJ].
+* Éditez la page en cliquant sur l'icône du crayon en haut à droite ("Modifier cette page").
+* Vous accédez alors au code de la page. Repérer, dans ce code, le titre qui correspond au FP de votre PNJ (ce titre est précédé et suivi de quatre symboles "''égal''").
+* Votre tâche consiste à ajouter le nom de votre PNJ sous le titre qui correspond à votre FP. S'il n'y a pas encore de PNJ de ce FP, c'est facile à faire. S'il y a déjà une liste de PNJ, placez le vôtre de manière à respecter l'ordre alphabétique de la liste.
+* Une fois que vous avez repéré l'endroit où ajouter votre PNJ, insérez une ligne en suivant le format des exemples suivants (le dernier exemple montre le cas d'une page où le Nom de la page est différent du Titre de la page, car il n'est pas possible de mettre un apostrophe dans un nom) :
+@@* [[Elminster Aumar]]
+* [[orque rôdeur]]
+* [[gendarme-hallebardier]]
+* [[Barbare cor dargent|Barbare cor d'argent]]@@
+* Assurez-vous qu'il y a une ligne blanche entre la fin de la liste et le titre qui suit, c'est-à-dire que la dernière ligne de la liste (une ligne qui commence par une astéristique) soit suivie d'une ligne blanche.
+* Quand vous avez terminé, cliquez sur le bouton "Sauvegarder" en haut à droite de la page d'édition.
+
+=== #2. Créer la page ===
+
+Maintenant que le lien a été créé, c'est très facile de créer la page. Il faut ensuite faire en sorte que celle-ci soit reconnue comme une page présentant un PNJ et donc reprise automatiquement dans la liste alphabétique (la liste par FP est maintenue "à la main" tandis que la liste alphabétique est gérée automatiquement).
+
+* Sur la page de la [Aventures.Liste PNJ|Banque de PNJ], le lien que vous venez d'ajouter est écrit en rouge. Cela signifie qu'il ne conduite nulle part, parce que la page en question n'a pas encore été créée. S'il est indiqué en bleu, cela veut dire que vous avez employé un nom qui est déjà utilisé. Dans ce cas-là, cliquez à nouveau sur le bouton pour modifier la page et changez le nom/descriptif de votre PNJ.
+* Cliquez sur le lien en rouge. Le Wiki indiquera que la page demandée n'existe pas et il vous suggérera une liste de pages qu'il pense être similaires. Ignorez la liste et allez tout en bas, jusqu'à l'option '''Créer cette page''' ; cliquez à cet endroit.
+* Vous arrivez alors dans une page d'édition vide. Le nom/descriptif de votre PNJ est repris deux fois en haut de la page. C'est normal, et vous pouvez laisser tout cela tel quel.
+* Avant de commencer à décrire votre PNJ dans la grande fenêtre au centre, descendez sous celle-ci et repérez le titre '''Catégories de page'''. Cochez la case située devant "PNJ". Cela indique au wiki qu'il s'agit d'une page décrivant un PNJ.
+
+=== #3. Décrire le PNJ ===
+
+Vous pouvez vouloir placer différentes choses dans la description de votre PNJ. Au minimum, il devrait y avoir un bloc descriptif, mais vous pourriez vouloir ajouter un commentaire indiquant comment l'idée de ce PNJ vous est venue ou quelles ont été vos sources d'inspiration. Vous pourriez encore vouloir citer quelques idées d'utilisation de ce PNJ, comme allié, donneur de quête, ou ennemi des PJ. Pour toutes ces choses, le format est libre. Pour le bloc descriptif en lui-même, il est préférable de suivre le format indiqué ci-dessous.
+
+Notez qu'il est possible d'obtenir de plus vastes informations sur la structure des blocs descriptifs en Pathfinder en consultant l'aide de jeu <a class="pagelink" href="Pathfinder-RPG.Aides%20de%20jeu.ashx#CREAMONSTRES" title="Aides de jeu pour Pathfinder-RPG">Tout sur les monstres</a> disponible dans le wiki Pathfinder-RPG. Si vous avez des questions au sujet de l'utilisation du format ou de la meilleure manière de présenter les choses, n'hésitez pas à venir en parler sur le forum !
+
+Voici les instructions à suivre pour écrire un bloc descriptif formaté à la manière de Pathfinder sur une page wiki.
+
+* Tout d'abord, il faut emballer tout le bloc dans une structure qui indique au wiki comment il doit présenter les choses. Pour cela, entrez les deux lignes suivantes. Toutes les composantes du bloc descriptif viendront se placer entre ces deux lignes.
+@@<div class="BD">
+
+</div>@@
+* À l'intérieur d'un bloc descriptif, on trouve d'abord une ligne de titre indiquant le nom et le FP de la créature. Elle prend la forme suivante :
+@@{s:BDTitre|Elminster Aumar|FP 17}@@
+* Pour formater les lignes internes correctement, il faut faire précéder chacune d'entre elles par une astérisque. À l'intérieur, les mots-clefs sont mis en gras en les encadrant dans des triples apostrophes (comme d'habitude).
+@@* '''Init''' +1 ; '''Sens''' odorat, vision nocturne, Perception +10@@
+* Les listes de sorts (préparés ou connus) et de pouvoirs magiques sont plus indentées vers la droite. Elles doivent être précédées de ''deux'' astéristiques.
+@@** À volonté — ''lumière'', ''prestidigitation''@@
+* Enfin, les "sous-titres" comme Défense, Attaque, Tactique, Caractéristiques ou Particularités s'écrivent sur une ligne séparée avec trois parenthèses avant et après :
+<pre><nowiki>(((Défense)))</nowiki></pre>
+
+Pour vous aider, voici un mini-exemple de bloc descriptif.
+
+<div class="BD">
+{s:BDTitre|Elminster Aumar|FP 17}
+* '''Init''' +1 ; '''Sens''' odorat, vision nocturne, Perception +10
+(((Attaque)))
+* '''Sorts préparés''' (NLS 17) :
+** 3 — ''boule de feu'', ''éclair''
+** 0 — ''lumière'', ''prestidigitation''
+(((Capacités spéciales)))
+* '''Élu de la magie (Sur).''' Une fois par jour, Elminster Aumar peut régénerer tous ses sorts préparés. Cela rend les sorts qu'il a déjà lancés prêts à être lancés à nouveau, comme s'il venait juste de terminer sa méditation quotidienne.
+* '''Odorat (Ext).''' Elminster a un fin nez.
+</div>
+
+Et le code qui lui a donné naissance.
+
+<pre><nowiki>&lt;div class="BD"&gt;
+{s:BDTitre|Elminster Aumar|FP 17}
+* '''Init''' +1 ; '''Sens''' odorat, vision nocturne, Perception +10
+(((Attaque)))
+* '''Sorts préparés''' (NLS 17) :
+** 3 — ''boule de feu'', ''éclair''
+** 0 — ''lumière'', ''prestidigitation''
+(((Capacités spéciales)))
+* '''Élu de la magie (Sur).''' Une fois par jour, Elminster Aumar peut régénérer
+tous ses sorts préparés. Cela rend les sorts qu'il a déjà lancés prêts à être
+lancés à nouveau, comme s'il venait juste de terminer sa méditation
+quotidienne.
+* '''Odorat (Ext).''' Elminster a un fin nez.
+&lt;/div&gt;</nowiki></pre>

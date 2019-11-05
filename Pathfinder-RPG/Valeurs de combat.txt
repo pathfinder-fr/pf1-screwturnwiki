@@ -1,0 +1,183 @@
+---
+Name: Pathfinder-RPG.Valeurs de combat
+Title: Valeurs de combat
+LastModified: 2019-02-26 14:08
+Categories:
+  - 'Combat'
+  - 'Manuel des joueurs'
+  - 'Règles officielles'
+---
+{toc}
+
+Cette section résume les statistiques déterminantes du combat et la manière de les utiliser.
+
+{s:Reference|JETDATTAQUE}
+=== Jet d’attaque ===
+Un jet d’attaque représente la tentative que fait le personnage pour frapper son adversaire lors de son tour de jeu dans le round. Pour ce faire, il jette 1d20 auquel il ajoute son [[Valeurs de combat#BONUSDATTAQUE|bonus d’attaque]] (de nombreux modificateurs peuvent s’appliquer à ce jet). Si le résultat final égale ou dépasse la [[Valeurs de combat#CA|CA]] de l’adversaire, le coup touche et inflige des dégâts.
+
+'''Coup automatiquement réussi ou raté.''' On rate automatiquement son coup sur un 1 naturel (c’est-à-dire un 1 au dé) au jet d’attaque. De la même manière, l’attaque réussit toujours sur un 20 naturel (c’est à dire un 20 au dé). Le 20 naturel est également un [[Actions simples#COUPCRITIQUE|coup critique]] possible (voir l’[[Actions simples#ATTAQUE|action d’attaque]]).
+
+{s:Reference|BONUSDATTAQUE}
+=== Bonus d’attaque ===
+Avec une arme de corps à corps, le bonus d’attaque est égal à :
+
+<div class="presentation arrondi recentre ombre"><center>'''Bonus d'attaque au corps à corps''' <br/>=<br/> 
+[[BBA|Bonus de base à l’attaque]] + modificateur de [[Force]] + modificateur de [[Valeurs de combat#TABMODTAILLE|taille]]</center></div>
+
+Avec une arme à distance, le bonus d’attaque est égal à :
+
+<div class="presentation arrondi recentre ombre"><center>'''Bonus d'attaque à distance''' <br/>=<br/> 
+[[BBA|Bonus de base à l’attaque]] + modificateur de [[Dextérité]] + modificateur de [[Valeurs de combat#TABMODTAILLE|taille]] + malus de portée</center></div>
+
+{s:Reference|CA}
+=== Classe d’armure (CA) ===
+La classe d’armure (CA) représente la difficulté que les adversaires ont à toucher le personnage. Elle indique également la valeur que l’ennemi doit atteindre pour porter un coup infligeant des dégâts. La CA se calcule de la façon suivante :
+
+<div class="presentation arrondi recentre ombre"><center>'''CA''' <br/>=<br/>
+10 + [[Caractéristiques des armures#BONUSARMUREBOUCLIER|bonus d’armure]] + [[Caractéristiques des armures#BONUSARMUREBOUCLIER|bonus de bouclier]] + modificateur de [[Dextérité]] + modificateur de [[Valeurs de combat#TABMODTAILLE|taille]]</center></div>
+
+Notez que l’armure limite le [[Caractéristiques des armures#BONUSDEXMAX|bonus de Dextérité]], et qu’un personnage revêtu d’une armure particulièrement encombrante risque fort de ne pas bénéficier de la totalité de son bonus de [[Dextérité]] (voir le "[[Tableau récapitulatif des armures]]").
+
+Dans certains cas de figure, on ne prend pas le [[Caractéristiques des armures#BONUSDEXMAX|bonus de Dextérité]] en compte. En effet, il représente la faculté du personnage a éviter les attaques mais s’il ne les voit pas venir, sa vitesse de réaction n'est d’aucune utilité.
+
+==== Autres modificateurs ====
+
+<div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+{s:Reference|TABMODTAILLE}
+<center>
+{| CLASS="tablo"
+|+ Modificateurs de taille
+|- CLASS="titre"
+| Taille || Modificateur de taille
+|- CLASS="premier"
+| Colossal (C) || –8
+|- CLASS="alt"
+| Gigantesque (Gig) || –4
+|-
+| Très grand (TG) || –2
+|- CLASS="alt"
+| Grand (G) || –1
+|-
+| Moyen (M) || +0
+|- CLASS="alt"
+| Petit (P) || +1
+|-
+| Très petit (TP) || +2
+|- CLASS="alt"
+| Minuscule (Min) || +4
+|-
+| Infime (I) || +8
+|}
+</center></div></div>
+D’autres facteurs peuvent améliorer la [[Valeurs de combat#CA|CA]] d’un combattant.
+
+{s:Reference|BONUSALTERATION}'''Bonus d’altération.''' Ce bonus améliore l’efficacité de l’armure.
+
+{s:Reference|BONUSPARADE}'''Bonus de parade.''' Les effets qui offrent un bonus de parade permettent de détourner les attaques, ce qui améliore la [[CA]].
+
+{s:Reference|BONUSARMURENATURELLE}'''Bonus d’armure naturelle.''' Si la [[races|race]] du personnage possède un cuir, des écailles ou une peau épaisse, il bénéficie d’un bonus à la [[CA]].
+
+{s:Reference|BONUSESQUIVE}'''Bonus d’esquive.''' D’autres bonus représentent l’aisance avec laquelle le personnage évite les coups. Ce bonus est appelé bonus d’esquive et disparait si le personnage perd son [[Caractéristiques des armures#BONUSDEXMAX|bonus de Dextérité]] (par contre, le fait de porter une armure ne réduit pas les bonus d’esquive ; seul le [[Caractéristiques des armures#BONUSDEXMAX|bonus de Dextérité]] est ainsi limité). Contrairement à la plupart des types de bonus, les bonus d’esquive se cumulent entre eux.
+
+{s:Reference|BONUSTAILLE}'''Bonus de taille.''' Le personnage reçoit un bonus ou un malus à la [[CA]] en fonction de sa taille. Voir la Table "[[Valeurs de combat#TABMODTAILLE|Modificateurs de taille]]" ci-contre.
+
+{s:Reference|ATTAQUESDECONTACT}
+==== Attaques de contact ====
+Certaines attaques ne tiennent aucun compte de l’armure, du bouclier ou de l’armure naturelle. L’attaquant doit seulement toucher sa cible pour que son attaque réussisse. Dans ce cas, il effectue un jet d’attaque de contact (soit au corps au corps, soit à distance). Ce jet d’attaque se joue normalement, mais la [[Valeurs de combat#CA|CA]] de la cible n’inclut pas les [[Caractéristiques des armures#BONUSARMUREBOUCLIER|bonus d’armure]], de [[Caractéristiques des armures#BONUSARMUREBOUCLIER|bouclier]] ou d’[[Valeurs de combat#BONUSARMURENATURELLE|armure naturelle]]. En revanche, le [[Valeurs de combat#BONUSTAILLE|modificateur de taille]] s’applique normalement, de même que les éventuels [[Caractéristiques des armures#BONUSDEXMAX|bonus de Dextérité]] et de [[Valeurs de combat#BONUSPARADE|parade]]. 
+
+'''Attaques intangibles.''' Certaines créatures ont la capacité de porter des attaques intangibles. Ces attaques traversent les objets solides comme les armures ou les boucliers. Elles fonctionnent comme des [[attaque de contact|attaques de contact]] mais ne tiennent en plus pas compte des bonus dus aux [[abri|abris]]. En revanche, elles tiennent compte des bonus d’armure apportés par des effets de force comme une ''[[armure de mage]]'' ou des bracelets d’armure.
+
+{s:Reference|DEGATS}
+=== Dégâts ===
+Toute attaque réussie inflige des dégâts déterminés en fonction du type d’arme utilisée.
+
+{s:Reference|DEGATSMINIMAUX}'''Dégâts minimaux.''' Si des malus divers réduisent les dégâts à moins de 1, un coup réussi inflige tout de même 1 point de [[Blessures et mort#DEGATSNONLETAUX|dégâts non-létaux]].
+
+{s:Reference|BONUSFORCE}'''Bonus de Force.''' À chaque coup au but, le personnage applique son modificateur de [[Force]] aux dégâts infligés par une arme de corps à corps ou de jet (ou une fronde). Un malus de [[Force]], mais pas un bonus, s’applique aux dégâts provoqués par un arc qui n'est pas composite.
+
+:: ''Arme utilisée dans la main non-directrice.'' Lorsque le personnage touche avec l’arme qu’il utilise dans sa main non-directrice, il n’ajoute que la moitié de son bonus de [[Force]] aux dégâts infligés. Dans le cas d’un malus de [[Force]], celui-ci s’applique en totalité.
+
+:: ''Arme à deux mains.'' Si le personnage utilise une arme à deux mains, il ajoute une fois et demie son bonus normal (les malus de [[Force]] ne sont pas multipliés). En revanche, si le personnage manie une arme légère à deux mains, il ne bénéficie pas de ce bonus.
+
+'''Multiplication des dégâts.''' Il arrive qu’il faille multiplier les dégâts par un facteur donné, comme par exemple lors d’un [[Actions simples#COUPCRITIQUE|coup critique]]. Dans ce cas, les dés sont lancés à plusieurs reprises (en ajoutant chaque fois les modificateurs correspondants) et on additionne les résultats.
+
+:: ''Remarque'' : Si le personnage doit multiplier ses dégâts plus d’une fois, il multiplie à chaque fois la valeur originelle. Ainsi, si le personnage doit doubler les dégâts deux fois, cela équivaut à tripler la valeur initiale.
+
+:: ''Exception.'' Les bonus aux dégâts exprimés sous la forme de dés supplémentaires ne sont pas multipliés en cas de coup critique.
+
+{s:Reference|DEGATSCARACTERISTIQUE}'''Dégâts aux caractéristiques.''' Certaines créatures et certains effets magiques réduisent temporairement ou définitivement les caractéristiques (ce qui réduit donc leur valeur). Voir lLes règles concernant les [[Capacités spéciales#AFFTEMPDIMPERM|réductions de caractéristiques]].
+
+{s:Reference|POINTSDEVIE}
+
+
+=== Points de vie ===
+Lorsque les points de vie d’un personnage tombent à 0, il est mis [[hors de combat]]. À -1, le personnage est [[mourant]]. Quand les points de vie atteignent une valeur négative égale à la valeur de [[Constitution]] du personnage, celui-ci est mort. Voir « [[Blessures et mort]] » pour plus de détails.
+
+{s:Reference|ATTAQUEDOPPORTUNITE}
+=== Les attaques d’opportunité ===
+Il arrive qu’un combattant au corps à corps baisse sa garde ou se lance dans une action risquée. Dans ce cas, les adversaires à proximité peuvent en profiter pour porter une attaque en plus que leur quota normal : c’est une attaque d’opportunité.
+
+<table><tr style="vertical-align: top">
+<td><img src="http://www.pathfinder-fr.org/images/pathfinder/wiki/PRPG/Ado.jpg"></td><td>
+<div style="background-color: #f3efe2; padding: 6px; margin: 0 0 0 2px">
+Au cours de ce combat, le guerrier et l'ensorceleur combattent un ogre et son sous-fifre gobelin.
+
+'''Cas #1''' : Le guerrier peut s’approcher sans danger de ce côté, sans provoquer d’attaque d’opportunité car il ne traverse pas une case contrôlée par l’ogre (qui a une allonge de 3 m (2{s:c})) ni par le gobelin.
+
+'''Cas #2''' : Si le guerrier s’approche par là, il provoque deux attaques d’opportunités car il traverse une case contrôlée par ses deux ennemis.
+
+'''Cas #3''' : L'ensorceleur bat en [[retraite]]. La case qu’il abandonne n’est pas contrôlée et elle peut donc s’éloigner du gobelin en toute sécurité, mais quand il quitte la case suivante, il provoque une attaque d’opportunité de la part de l’ogre (qui a une allonge de 3 m (2 {s:c})). Il peut à la place se limiter à un déplacement de 1,50 m (1 {s:c}), par une [[action libre]], et, dans ce cas, ne pas provoquer d’attaque d’opportunité.
+</div></td></tr></table>
+
+{s:Reference|ESPACECONTROLE}
+'''Espace contrôlé.''' Un personnage contrôle la zone (ou l’espace) dans laquelle il est capable de porter des attaques de corps à corps et ce même si ce n’est pas à son tour d’agir. En règle générale, l’espace contrôlé se compose des cases adjacentes au personnage (ce qui comprend les diagonales). Si l’un des adversaires du personnage accomplit certaines actions dans cette zone, il s’expose à une attaque d’opportunité de la part du personnage. Un personnage ne portant pas d’arme ne peut normalement pas contrôler les cases adjacentes et ne peut donc pas porter d’attaques d’opportunité.
+
+:: ''Armes à allonge.'' La plupart des créatures de taille M ou plus petites ont une allonge de 1,50 m (1 {s:c}) seulement. Cela signifie qu’elles peuvent frapper leurs ennemis uniquement s’ils se trouvent à 1,50 m (1 {s:c})) ou moins d’eux. Néanmoins, une créature de taille P ou M qui utilise une arme à allonge contrôle plus de cases. De plus, la plupart des créatures de taille G ou plus ont une allonge de 3 m (2 {s:c}) ou plus.
+
+'''Actions provoquant une attaque d’opportunité.''' Deux types d’actions provoquent généralement des attaques d’opportunité : se déplacer hors d’une case contrôlée et entreprendre certaines actions dans une case contrôlée (les tables des "[[Actions au combat]]" dressent la liste de la plupart des actions qui provoquent une attaque d’opportunité).
+
+:: ''Déplacement.'' Sortir d’une case contrôlée (mais pas y entrer) provoque généralement une attaque d’opportunité. Toutefois, deux méthodes permettent d’éviter cela : le pas de placement de 1,50 m (1 {s:c}) et l’action de retraite.
+
+:: ''Actions provoquant de la déconcentration.'' Certaines actions provoquent une attaque d’opportunité lorsqu’elles sont effectuées dans une case contrôlée par un ennemi, car elles obligent le personnage à porter son attention ailleurs que sur la bataille en cours. 
+
+Rappelez-vous qu’il peut y avoir des exceptions, même pour des actions qui provoquent habituellement des attaques d’opportunité.
+
+'''Porter une attaque d’opportunité.''' Une attaque d’opportunité est une attaque de corps à corps normale, mais la majorité des personnages ne peuvent en placer qu’une seule par round. Le personnage n’est pas obligé d’en faire une. Une attaque d’opportunité se fait avec le [[Valeurs de combat#BONUSDATTAQUE|bonus à l’attaque]] normal du personnage, même s’il a déjà agi durant le round.
+
+Une attaque d’opportunité interrompt le flot habituel des actions du round. Lorsqu’un personnage provoque des attaques d’opportunité, celles-ci sont résolues immédiatement, puis l’on reprend le tour de jeu du personnage qui a provoqué l’attaque d’opportunité durant son tour, ou on passe au suivant s’il avait terminé.
+
+:: ''Attaques réflexes et attaques d’opportunité multiples.'' Cela ne permet toutefois pas de porter plus d’une attaque à chaque opportunité, mais, si le même adversaire provoque une attaque d’opportunité à deux reprises, le personnage peut alors porter deux attaques d’opportunité distinctes, une pour chaque opportunité. Sortir de plus d’une case contrôlée par un même adversaire au cours d'un round ne compte que comme une seule opportunité pour l’adversaire. Toutes ces attaques s’effectuent avec le bonus de base maximal.
+
+{s:Reference|VITESSEDEDEPLACEMENT}
+
+=== Vitesse de déplacement ===
+La vitesse de déplacement indique la distance qu’un personnage peut parcourir en un round tout en réalisant malgré tout une action, comme porter une attaque ou en lancer un sort. Elle dépend de la race et de l’armure du personnage.
+
+Les [[gnome|gnomes]], les [[halfelin|halfelins]] et les [[nain|nains]] se déplacent de 6 m (4 {s:c}), ou de 4,50 m (3 {s:c}) s’ils portent une [[armure intermédiaire]] ou [[armure lourde|lourde]] (à l’exception des [[nain|nains]], qui se déplacent de 6 m (4 {s:c}) quelle que soit l’armure qu’ils portent).
+
+Les [[Humain|humains]], les [[elfe|elfes]], les [[demi-elfe|demi-elfes]] et les [[demi-orque|demi-orques]] se déplacent de 9 m (6 {s:c})), ou de 6 m (4 {s:c}) s’ils portent une [[armure intermédiaire]] ou [[armure lourde|lourde]].
+
+Si un personnage effectue deux [[action de mouvement|actions de mouvement]] dans le même round (ce qu’on appelle parfois « double mouvement »), il parcourt deux fois la distance indiquée. En courant pendant tout le round, il parcourt quatre fois la distance normale (trois fois seulement s’il porte une [[armure lourde]]).
+
+{s:Reference|JETDESAUVEGARDE}
+
+=== Jets de sauvegarde ===
+En règle générale, lorsque le personnage est victime d’une attaque magique ou inhabituelle, il a droit à un jet de sauvegarde pour l’annuler, ou du moins pour en amoindrir les effets. Tout comme le [[Valeurs de combat#JETDATTAQUE|jet d’attaque]], le jet de sauvegarde se joue avec 1d20, auquel on ajoute un bonus dépendant de la [[classes|classe du personnage]] et de son niveau ainsi qu’un modificateur de caractéristique. Le modificateur au jet de sauvegarde est égal à :
+
+<div class="presentation arrondi recentre ombre"><center>'''Modificateur du jet de sauvegarde'''<br/>=<br/>Bonus de base au jet de sauvegarde + modificateur de caractéristique.</center></div>
+
+'''Types de jet de sauvegarde.''' Il existe trois types de jets de sauvegarde : Réflexes, Vigueur et Volonté.
+
+{s:Reference|JETDEREFLEXE}
+:: '''''Jet de Réflexes.''''' Ce type de jet de sauvegarde représente la faculté du personnage à esquiver les attaques de zone et les situations inattendues. On y applique le modificateur de [[Dextérité]].
+
+{s:Reference|JETDEVIGUEUR}
+:: '''''Jet de Vigueur.''''' Ce type de jet de sauvegarde reflète la capacité du personnage à résister aux attaques mettant sa vitalité ou sa santé en danger, ainsi qu’à résister à la douleur. On y applique le modificateur de [[Constitution]].
+
+{s:Reference|JETDEVOLONTE}
+:: '''''Jet de Volonté.''''' Ce type de jet de sauvegarde représente la faculté du personnage à se soustraire aux tentatives de domination et à d’autres effets magiques similaires. On y ajoute le modificateur de [[Sagesse]].
+
+'''Degré de difficulté du jet de sauvegarde.''' Le [[DD]] du jet de sauvegarde est déterminé par le type d’attaque.
+
+'''Sauvegarde automatiquement réussie ou ratée.''' On rate automatiquement sa sauvegarde sur un 1 naturel (c’est-à-dire au dé, avant modificateur) au jet de sauvegarde (et l’effet a une chance d’affecter l’un des objets portés par le personnage, voir « [[Présentation des sorts#JETSDESAUVEGARDE|Jets de sauvegarde et objets]] »). De la même manière, un 20 naturel est toujours une réussite.

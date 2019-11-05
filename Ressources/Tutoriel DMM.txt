@@ -1,0 +1,102 @@
+---
+Name: Ressources.Tutoriel DMM
+Title: Une BattleMap en 3 Clics...
+LastModified: 2011-02-13 10:12
+Categories:
+  - 'Cartographie'
+  - 'Logiciel'
+---
+==... avec le script Dungeon Map Maker.==
+
+
+Créer une battle map agréable et lisible peut se révéler bien souvent fastidieux. Voici donc un petit tuto pour réaliser des cartes au look professionnel en quelques clics à l'aide de GimP et du script Dungeon Map Maker.
+
+===Pour commencer...===
+
+Installez le programme gratuit GimP 2 que vous trouverez facilement [http://www.gimp.org/|sur ce site].
+
+Installez le petit script Dungeon Map Maker disponible à cette adresse: [{UP}/tutogimp/dmm.zip]. 
+
+Ce fichier doit être copié dans le répertoire '''Scripts''' de l'arborescence GimP. 
+
+Emplacement sous seven : C:\Program Files (x86)\GIMP-2.0\share\gimp\2.0\scripts
+
+En principe, si le script est correctement installé, vous devriez y avoir accès tout en bas du menu Filtres comme indiqué ici.
+
+[imageauto||{UP}/tutogimp/pict00.png]
+
+Ce script est en fait une série d'instructions automatisées codées par l'un des plus talentueux cartographe du site [http://www.cartographersguild.com/|Cartographers Guild] : RobA. Si vous avez un peu de temps, je vous invite à aller voir ses créations sur [http://www.cartocopia.com/|son site.]
+
+Le script en question est en premier lieu destiné à créer des battlemaps de donjons ou d'environnements clos. Avec un peu de travail, il est possible de retoucher les images produites pour leur donner un look différent, mais le plus gros du boulot sera réalisé automatiquement par le programme.
+
+
+Donc nous voila avec un GimP équipé du script, il est temps de commencer à créer son donjon.
+
+===Dessin du gabarit de base===
+
+Le script Dungeon Map Maker (ou DMM) fonctionne sur le principe d'un calque de départ en noir et blanc. Le blanc représentant les zones ouvertes et le noir les zones pleines.
+
+
+Commençons donc par créer un fichier vierge de 600*600 rempli de blanc à l'aide du menu Fichier->Nouveau...
+
+[imageauto||{UP}/tutogimp/picto01.png]
+
+Puis réglons la grille sur un pas de 50*50 pour avoir quelque chose d'assez grand pour s'y déplacer à l'aide du menu
+'''Image->Configurer la Grille''' et en entrant les valeurs 50 dans les cases Espacement.
+
+En cliquant sur '''Affichage->Afficher la Grille''', un quadrillage (virtuel) apparait sur la zone de travail.
+
+Toujours dans le menu Affichage, cocher la case '''Aligner sur la Grille''' pour permettre de dessiner la battlemap en respectant les écartements sans devoir être trop précis.
+
+
+Choisir l'outil '''Pinceau''' et la Brosse '''Circle 09''' dans la boite à outil.
+
+Il ne reste plus qu'à dessiner le plan général du donjon à l'aide de la méthode habituelle.
+
+
+Commencer par cliquer sur une intersection. Un point apparait.
+
+Puis, __en laissant la touche Shift du clavier enfoncée__, se rendre sur l’intersection qui marque la fin du segment à tracer. Un trait vert apparait pour indiquer la position du segment. Comme vous êtes aligné sur la grille, le curseur saute automatiquement sur les intersections, pas besoin d’être un as de précision....
+
+Une fois le segment positionné cliquer... et, magique, un trait noir, définitif, remplace le trait vert.
+
+Laisser Shift enfoncé, positionner l’extrémité du prochain segment, cliquer... et un nouveau trait, impeccablement relié au premier, apparait...
+
+En quelques minutes, la structure du donjon est tracée...
+
+
+
+[imageauto||{UP}/tutogimp/picto02.png]
+
+
+
+
+Puis, avec l'outil '''Pot de Peinture''', remplir en noir toutes les zones pleines (sans oublier le petit rectangle sur la gauche du donjon). Pour améliorer le rendu du script, un seuil de 100 est acceptable sur le paramétrage du Pot de Peinture.
+
+[imageauto||{UP}/tutogimp/picto06.png]
+
+
+
+
+
+
+===Lancement du Script===
+
+Voila, c'est bon... il ne reste plus qu'à lancer le script DMM en le sélectionnant dans le menu '''Filtres'''. Il y a un tas d'options, permettant de choisir les textures, les niveaux d'ombre... le seul paramètre qui intéressera le débutant pressé est le premier : celui de la taille de la grille.
+__Il faut vérifier que ce paramètre est le même que reglé au départ de ce tutorial, soit 50__.
+
+Cliquer sur Valider et laisser faire la machine...
+
+Quelques secondes plus tard, l'image en noir et blanc s'est transformée en un superbe fond de carte...
+
+
+[imageauto||{UP}/tutogimp/picto07.png]
+
+
+
+
+Facile non ?
+
+
+
+

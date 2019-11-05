@@ -1,0 +1,95 @@
+---
+Name: Pathfinder-RPG.Diplomatie
+Title: Diplomatie
+LastModified: 2017-12-02 23:50
+Categories:
+  - 'Compétence'
+---
+{s:MenuCompétences}
+
+'''Caractéristique associée''' : [[Charisme]]
+
+'''Formation nécessaire''' : non
+
+''Le personnage peut utiliser cette compétence pour persuader quelqu’un de se ranger à son avis, pour résoudre un conflit ou encore pour récolter des informations ou se tenir au courant des rumeurs. Elle est également utile pour mener à bien des négociations tout en respectant l’étiquette et en adoptant les manières qui conviennent à une situation donnée.''
+
+===Test de compétence===
+
+Le personnage peut modifier l’attitude des [[PNJ]] en réussissant un test de Diplomatie. Le [[DD]] du test dépend de l’attitude initiale et du modificateur de [[Charisme]] du PNJ. Si le test réussit, l’attitude du PNJ s’améliore d’une catégorie. Son attitude s’améliore d’une catégorie en plus par tranche de 5 points dans la différence entre le résultat et le [[DD]] du test. Un test de Diplomatie ne peut généralement pas provoquer un changement d’attitude de plus de deux catégories mais le MJ peut ignorer cette règle dans certaines situations. Si le test échoue de 4 points ou moins, l’attitude du PNJ reste inchangée. Mais s’il échoue de 5 points ou plus, elle se détériore d’une catégorie.
+
+Un personnage ne peut pas utiliser la compétence de Diplomatie contre une créature qui ne le comprend pas ou qui possède une [[Intelligence]] inférieure ou égale à 3. En règle générale, cette compétence n’a aucun effet en combat, ni contre des créatures qui ont l’intention de nuire au personnage ou à ses alliés dans les quelques secondes à venir. Les modifications d’attitude résultant d’un test de Diplomatie persistent en moyenne pendant 1d4 heures mais elles peuvent durer plus ou moins longtemps selon les situations (à l’appréciation du MJ).
+
+<center>
+{| CLASS="tablo"
+|+ Test de diplomatie
+|- CLASS="titre"
+| Attitude initiale
+| DD du test de Diplomatie
+|- CLASS="premier"
+| Hostile
+| 25 + modificateur de [[Charisme]] de la créature
+|- CLASS="alt"
+| Inamical
+| 20 + modificateur de [[Charisme]] de la créature
+|-
+| Indifférent
+| 15 + modificateur de [[Charisme]] de la créature
+|- CLASS="alt"
+| Amical
+| 10 + modificateur de [[Charisme]] de la créature
+|-
+| Serviable
+| 0 + modificateur de [[Charisme]] de la créature
+|}
+</center>
+
+Le personnage peut tenter de demander un service à une créature dont l’attitude est indifférente, amicale ou serviable. Cela nécessite un nouveau test de Diplomatie dont on détermine le [[DD]] comme suit : on part du DD correspondant à l’attitude de la créature et on lui applique les modificateurs qui suivent. Une créature à l’attitude serviable acceptera généralement toutes les requêtes du personnage sans qu’un test soit nécessaire, à moins qu'on lui demande de faire quelque chose de contraire à sa nature ou de se mettre en grave danger. Certaines demandes qui vont à l’encontre des valeurs de la créature ou de sa nature échouent automatiquement (à l’appréciation du MJ).
+
+<center>
+{| CLASS="tablo"
+|+ Modificateurs pour obtenir un service
+|- CLASS="titre"
+| Requête || Modificateur au DD<br/> du test de Diplomatie
+|- CLASS="premier"
+| Donner un conseil général ou indiquer le chemin
+| -5
+|- CLASS="alt"
+| Donner des conseils précis
+| +0
+|-
+| Aider (par un acte simple)
+| +0
+|- CLASS="alt"
+| Révéler un secret peu important
+| +5
+|-
+| Aider (par un acte long ou complexe)
+| +5
+|- CLASS="alt"
+| Aider (par un acte dangereux)
+| +10
+|-
+| Révéler un secret important
+| +10 ou plus
+|- CLASS="alt"
+| Aider (par un acte qui risque d’être puni)
+| +15 ou plus
+|-
+| Requêtes supplémentaires
+| +5 par requête
+|}
+</center>
+
+''Renseignements.'' Le personnage peut également utiliser la compétence de Diplomatie pour recueillir des informations sur un sujet ou un individu spécifique. Pour ce faire, il doit visiter les tavernes locales, les marchés et les autres lieux de rencontre pendant 1d4 heures. Le [[DD]] de ce test dépend de l’accessibilité des informations recherchées. Pour les faits ou les rumeurs bien connus, le DD est généralement de 10. Lorsqu’il s’agit de secrets ou de choses peu connues, le DD peut grimper à 20 ou plus encore. Le [[MJ]] est également à même de décider que certains sujets sont tout simplement inconnus des gens du peuple.
+
+===Action===
+
+Modifier l’attitude d’une créature par un test de Diplomatie prend généralement une minute de dialogue. Présenter une requête à un [[PNJ]] nécessite au moins 1 [[round]] de dialogue (la durée totale dépend de la complexité de la requête). Recueillir des informations par un test de Diplomatie requiert 1d4 heures pendant lesquelles le personnage doit rechercher des rumeurs et des informateurs.
+
+===Nouvelles tentatives===
+
+Il n’est pas possible d’utiliser la compétence de Diplomatie pour influencer l’attitude d’une créature donnée plus d’une fois par période de vingt-quatre heures. Si un [[PNJ]] refuse d’accéder à une requête, des tests de Diplomatie supplémentaires ne modifieront pas sa réponse, mais il reste possible de lui adresser d’autres requêtes. Les tests de Diplomatie visant à recueillir des informations peuvent être tentés à nouveau.
+
+===Spécial===
+
+Un personnage possédant le don [[Persuasion]] obtient un bonus aux tests de Diplomatie.

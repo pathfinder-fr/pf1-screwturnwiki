@@ -1,0 +1,217 @@
+---
+Name: Ressources.Concepteur008
+Title: Aide de jeu sur la perception
+LastModified: 2015-08-17 17:22
+---
+<div class="gauche presentation">
+<ul><sub>''Proposé par MarcusS''</sub></ul>
+<ul>Voir la [[http://www.pathfinder-fr.org/Forum/yaf_postsm449481_-AdJ--La-perception.aspx#post449481|discussion]]</ul>
+</div>
+
+Ceci est une aide de jeu pour simplifier les calculs de DD sur les jets de [++Pathfinder-RPG.Perception|Perception].
+
+J'utilise les termes de :{br}
+- __source__ elle représente la source du son, de l'odeur, du monstre ou autre chose que l'on essaye de détecter,{br}
+- __personnage__ il représente le PJ, le PNJ ou le monstre qui essaye de détecter quelque chose.{br}
+- __Imp__ signifie que le jet est impossible, voué à un échec automatique.{br}
+
+
+=== DD ===
+{| CLASS="tablo centre"
+|+ Scores de bases
+|- CLASS="titre"
+| Exemple || Vue || Ouïe || Odorat || Toucher || Goût
+|- CLASS="premier"
+| 
+
+|- CLASS="alt"
+| Entendre les bruits d'un combat || — || -10 || — || — || —
+|-
+| Sentir l'odeur de détritus en putréfaction : || — || — || -10 || — || —
+|-
+|- CLASS="alt"
+| Sentir l’odeur de la fumée || — || — || 0 || — || —
+|-
+| Entendre les détails d’une conversation || — || 0 || — || — || —
+|-
+|- CLASS="alt"
+| Percevoir une créature visible || 0 || — || — || — || —
+|-
+| Déterminer si de la nourriture est avariée || — || — || 5 || — || 5
+|-
+|- CLASS="alt"
+| Entendre les pas d’une créature || — || 10 || — || — || —
+|-
+| Entendre les détails d’une conversation à voix basse || — || 15 || — || — || —
+|-
+|- CLASS="alt"
+| Trouver une porte cachée de difficulté moyenne || 15 || — || — || 15 || —
+|-
+| Entendre le son d’une clef tournant dans une serrure || — || 20 || — || — || —
+|-
+|- CLASS="alt"
+| Trouver une porte secrète de difficulté forte || 20 || — || — || 20 || —
+|-
+| Entendre le son d’un arc dont on tend la corde || — || 25 || — || — || —
+|-
+|- CLASS="alt"
+| Percevoir les vibrations d’une créature souterraine passant sous le personnage || — || — || — || 25 || —
+|-
+| Remarquer un pickpocket 
+| COLSPAN="5" | vue ou toucher opposé au test d’Escamotage
+|-
+|- CLASS="alt"
+| Remarquer une créature qui se cache
+| COLSPAN="5" | vue ou ouïe opposé au test de Discrétion
+|-
+| Trouver un piège caché
+| COLSPAN="5" | vue opposé au DD de perception du piège
+|-
+|- CLASS="alt"
+| Identifier les effets d’une potion en la goûtant
+| COLSPAN="5" | goût 15 + NLS de la potion
+|}
+
+{br}{br}{br}
+
+=== Modificateurs aux DD ===
+{| CLASS="tablo centre"
+|+ Modificateurs
+|- CLASS="titre"
+| Exemple || Vue || Ouïe || Odorat || Toucher || Goût
+|- CLASS="premier"
+| 
+
+|- CLASS="alt"
+| Distance entre le personnage et la source
+| COLSPAN="3" | +1 pour 3m/2c
+| —
+| —
+|-
+| A travers une porte fermé || Imp || +5 || +5 || Imp || Imp
+|-
+|- CLASS="alt"
+| A travers un mur || Imp || +10 || +10 || Imp || Imp
+|-
+| D'une plaine au soleil à une cave éclairée à la bougie || de -2 à +5 || — || — || — || —
+|-
+|- CLASS="alt"
+| D'un silence monacale à une taverne pendant une fête de la bière || — || de -2 à +5 || — || — || —
+|-
+| D'une zone neutre au marchand de poisson || — || — || de 0 à +5 || — || —
+|-
+|- CLASS="alt"
+| Personnage distrait ou faisant autre chose en même temps (en combat, en fuite) || +5 || +5 || +5 || +5 || +5
+|-
+| Personnage endormi || Imp || +10 || +10 || +10 || +10
+|-
+|- CLASS="alt"
+| Tempête de sable || +4 || +4 || +4 || — || —
+|-
+| Distance entre le personnage et la source dans une forêt (bruit de fond) || — || +2 pour 3m/2c || — || — || —
+|-
+|- CLASS="alt"
+| Distance entre le personnage et la source en montagne || — || +1 pour 6m/4c || — || — || —
+|-
+| Pluie ou neige || +4 || +4 || +4 || — || —
+|-
+|- CLASS="alt"
+| Grèle || +4 || — || +4 || — || —
+|-
+| Vent important || — || +2 || — || — || —
+|-
+|- CLASS="alt"
+| Vent violent || — || +4 || — || — || —
+|-
+| Vent de tempète || — || +8 || — || — || —
+|-
+|- CLASS="alt"
+| Tornade || — || Imp || — || — || —
+|-
+| Cyclones, blizzards, ouragans ou tornades || Imp || Imp || Imp || +10 || +10
+|-
+|}
+
+Certaines actions peuvent être facilitées ou compliquées par l'environnement :{br}
+- Un personnage ne vois rien lorsqu'il dort sauf si on lui envoie une lumière forte en plein visage.{br}
+- On ne peut rien voir dans le noir complet sauf pour certaines races et créatures.{br}
+- Les créatures aveugles ne peuvent utiliser la vue.{br}
+- Les règles gérant la perception de créatures invisibles se trouvent [[++Pathfinder-RPG.Capacit%C3%A9s%20sp%C3%A9ciales.ashx#INVISIBILITE|ici]]
+
+=== Portée des tests visuels ===
+
+{| CLASS="tablo centre"
+|+ Portées des visions
+|- CLASS="titre"
+| Milieu || Portée
+|- CLASS="premier"
+| 
+|- CLASS="alt"
+| Sur une colline || 2d10x3m
+|-
+| Dans les collines accidentées || 2d6x3m
+|-
+|- CLASS="alt"
+| Dans le désert || 6d6x3m
+|-
+| Tempète de sable || 1d10x1m50
+|-
+|- CLASS="alt"
+| Forêt clairsemée || 3d6x3m
+|-
+| Forêt intermédiaire || 2d8x3m
+|-
+|- CLASS="alt"
+| Forêt dense || 2d6x3m
+|-
+| Dans une lande || 6d6x3m
+|-
+|- CLASS="alt"
+| Dans un marécage || 2d8x3m
+|-
+| En eau clair ou rivière calme || 4d8x3m
+|-
+|- CLASS="alt"
+| En eau trouble || 1d8x3m
+|-
+| En montagne || 4d10x3m
+|-
+|- CLASS="alt"
+| En plaine || 6d6x40m
+|-
+| Lourde chute de neige et brouillard || Vision à 1m50
+|-
+
+|}
+
+Les lumières modifies les portées des tests visuels, veuillez regarder cette page de wiki pour en savoir plus : [[++Pathfinder-RPG.Exploration#VISIONLUMIERE|La règle complémentaire sur la lumière]].{br}
+
+== Régles maisons ==
+
+=== Faire 5 ===
+
+Pour ne pas donner d'indications aux joueurs, le MJ peut souhaiter savoir si un PJ détecte quelque chose sans lui demander de faire un test de perception, ce qui lui mettrait sûrement la puce à l'oreille.{br}
+Pour rappel, le personnage à 3 options pour faire un test : utiliser son dé 20, utiliser la règle du "[++Pathfinder-RPG.Compétences#FAIRE10|faire 10]", utiliser la règle du "[++Pathfinder-RPG.Compétences.ashx#FAIRE10|faire 20]".{br}
+Ici nous considérons qu'il n'est pas attentif à ce qu'il fait et pour cause le joueur ne pense même pas à faire chercher son personnage. Le MJ peut donc considérer que le joueur aurait eu 5 à son lancer de dé soit la règle du "faire 5".{br}
+exemple :{br}
+- il y a un piège avec un DD de détection de 17,{br}
+- le personnage à un score de 5,{br}
+- c'est une compétence de classe soit +3,{br}
+- il possède 15 en sagesse soit +2{br}
+=> s'il ne précise pas qu'il recherche quelque chose il obtient un score de 15, il ne voie pas le piège.{br}
+=> avec le lancé de dé standard, il aurait du faire au moins 7 pour détecter le piège.{br}
+=> s'il pensait que la zone peut être piégée mais qu'il pouvait être facile de trouver un piège, avec le "faire 10", il aurait eu 20 et donc aurait trouvé le piège.{br}
+=> s'il avait prit tout son temps pour assurer sa recherche , avec le "faire 20", il aurait eu 30 et aurait facilement trouvé le piège.{br}
+
+{br}{br}{br}
+
+
+
+===Informations consultées===
+<sub>[[++Pathfinder-RPG.Perception|La compétence perception]]{br}
+[[++Pathfinder-RPG.Climat|Les pages sur le climat]]{br}
+[[++Pathfinder-RPG.Milieu urbain|Les aides de jeu pour les environnements extérieurs]]{br}
+[[++Pathfinder-RPG.Capacit%C3%A9s%20sp%C3%A9ciales.ashx#INVISIBILITE|Invisibilité]]{br}
+</sub>
+
+</center></div></div>

@@ -1,0 +1,61 @@
+---
+Name: Ressources.Gestionnaire de sorts
+Title: Gestionnaire de sorts
+LastModified: 2018-11-21 10:39
+---
+Cette application permet de gérer la bibliothèque des sorts de Pathfinder via un système d'édition et de recherche rapide.
+
+Vous pouvez aussi imprimer les cartes de sort via les différents canevas disponibles.
+
+Un [[guide gestionnaire de sorts|Guide d'utilisation du gestionnaire de sorts]] est disponible pour vous aider à prendre en main l'application.
+
+==Les liens de téléchargement==
+Version 1.4.3 - 04/11/2011{br}
+{br}
+La version Windows : [/Wiki/Public/Upload/Gestionnaire_Sorts/win32.win32.x86.zip|32 bit]{br}
+La version Linux : [/Wiki/Public/Upload/Gestionnaire_Sorts/linux.gtk.x86.zip|32 bit] - [/Wiki/Public/Upload/Gestionnaire_Sorts/linux.gtk.x86_64.zip|64 bit]{br}
+{br}
+Le pack d'icônes de sorts : [/Wiki/Public/Upload/Gestionnaire_Sorts/spells.icons.zip|pack]
+{br}
+''Les images sont disponibles sur le site de D&D Online et ne peuvent être utilisées qu'à titre personnel.{br}
+Pour installer le pack, il suffit de le dézipper et de coller son contenu dans le répertoire '''datas/french/''' de l'application. (Remplacer le répertoire spells) ''{br}{br}
+Le pack d'objets du cartomancien : [/Wiki/Public/Upload/Gestionnaire_Sorts/cartomancien.zip|pack]{br}
+''Pour installer le pack, il suffit de le dézipper puis d'utiliser la fonction "Deck>Importer" de l'application.''{br}{br}
+Pour discuter de l'application il existe un sujet [[http://www.pathfinder-fr.org/Forum/default.aspx?g=posts&t=276|sur le forum]].
+
+
+==Présentation Rapide==
+===La fiche d'une carte===
+====[anchor|#Presentation]Onglet Présentation====
+Cet onglet permet d'afficher la description d'une carte.{br}
+{br}
+====[anchor|#Edition]Onglet Edition====
+Cet onglet permet de saisir/corriger les informations d'une carte.{br}
+{br}
+Le champ '''Nom d'origine''' est le nom anglais de la carte. Non seulement il doit être unique, mais il est également l'identifiant utilisé dans les balises de lien vers une carte.{br}
+{br}
+La zone description contient le texte de la carte.{br}
+Elle accepte les balises HTML de base pour permettre la mise en forme du texte lors de son affichage dans l'onglet [#Presentation|Présentation] :{br}
+<esc><b></esc> : Mettre en gras{br}
+<esc><i></esc> : Mettre en italique{br}
+<esc><table></esc> : Afficher les données sous forme de table{br}
+<esc><a href="..."></esc> : Permet de faire un lien vers une autre carte. L'attribut href doit contenir le '''nom original''' de la carte de destination. Le nom doit être préfixé de spell# pour une carte sort et magicItem# pour une carte objet.{br}
+<esc><a href="..." target="blank"></esc> : Permet de faire un lien vers un site web. L'application ouvrira le site dans votre navigateur.{br}
+{br}
+====[anchor|#Carte]Onglet Carte====
+Cette page affiche un aperçu de la carte avant son impression.{br}
+L'impression ignore les balises html du bloc [#Edition|Edition] ainsi que le contenu entre les balises table.{br}
+Vous pouvez créer un texte personnalisé pour l'impression en remplissant la zone "Résumé".{br}
+Un R en bas de la carte signifie que c'est un résumé de la carte (Que vous avez rempli la zone "Résumé").{br}
+Un I en bas de la carte signifie que le texte est incomplet (Qu'il n'apparaît pas en entier à l'impression. Il faut donc utiliser la zone "Résumé" ou le réduire).{br}
+{br}
+Le bouton "Ajouter au Deck" permet de mettre la carte dans votre Deck.{br}
+C'est à partir de votre Deck que vous pouvez générer un PDF pour l'impression.
+===Guide d'utilisation plus détaillé===
+[[guide gestionnaire de sorts|en chantier]]
+==Le Deck==
+La zone de Deck (à droite par défaut) permet de gérer un pool de cartes (Ex : Pour un monstre, un PNJ, ou simplement l'impression).{br}
+Vous pouvez aussi faire un glisser-déposer des cartes depuis la liste.{br}
+Le bouton '''Impression''' permet de générer un PDF des cartes de votre deck.{br}
+Le bouton '''Enregistrer''' permet de sauvegarder la liste des cartes.{br}
+Le bouton '''Exporter''' permet l'exportation  de vos modifications afin que d'autres utilisateurs puissent les utiliser.{br}

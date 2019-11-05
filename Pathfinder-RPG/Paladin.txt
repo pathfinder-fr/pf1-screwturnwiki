@@ -1,0 +1,460 @@
+---
+Name: Pathfinder-RPG.Paladin
+Title: Le paladin
+LastModified: 2019-10-14 18:33
+Categories:
+  - 'Art de la Magie'
+  - 'Classe'
+  - 'Manuel des joueurs'
+  - 'Règles officielles'
+---
+{s:MenuClasses}
+<div class="fright">'''''Voir aussi la [[liste des sorts de paladins]].'''''<br/>
+{s:PM0|paladin}'''''Voir les archétypes du paladin'''''&emsp;
+<ul ID="paladin" CLASS="listecachée cadrebas">
+  <li>[[Pathfinder-RPG.Bouclier béni (paladin)|Bouclier béni]] (AG)</li>
+  <li>[[Pathfinder-RPG.Champion du temple (paladin)|Champion du temple]] (MCA)</li>
+  <li>[[Pathfinder-RPG.Chasseur divin (paladin)|Chasseur divin]] (AG)</li>
+  <li>[[Pathfinder-RPG.Chevalier empyréen (paladin)|Chevalier empyréen]] (AG)</li>
+  <li>[[Pathfinder-RPG.Chevalier étincelant (paladin)|Chevalier étincelant]] (MJRA)</li>
+  <li>[[Pathfinder-RPG.Défenseur divin (paladin)|Défenseur divin]] (APG)</li>
+  <li>[[Pathfinder-RPG.Elu (paladin)|Élu]] (Famf)</li>
+  <li>[[Pathfinder-RPG.Épée du courage (paladin)|Épée du courage]] (MMI)</li>
+  <li>[[Pathfinder-RPG.Fléau des morts-vivants (paladin)|Fléau des morts-vivants]] (MJRA)</li>
+  <li>[[Pathfinder-RPG.Guerrier de la lumière sainte (paladin)|Guerrier de la lumière sainte]] (MJRA)</li>
+  <li>[[Pathfinder-RPG.Guide saint (paladin)|Guide saint]] (MCA)</li>
+  <li>[[Pathfinder-RPG.Hospitalier (paladin)|Hospitalier]] (MJRA)</li>
+  <li>[[Pathfinder-RPG.Paladin assermenté (paladin)|Paladin assermenté]] (AM)</li>
+  <li>[[Rédempteur (paladin)|Rédempteur]] ([[demi-orque|Demi-orque]]) (MR)</li>
+  <li>[[Pathfinder-RPG.Saint pistolet (paladin)|Saint pistolet]] (AG)</li>
+  <li>[[Pathfinder-RPG.Saint tacticien (paladin)|Saint tacticien]] (AG)</li>
+  <li>[[Seigneur de pierre (paladin)|Seigneur de pierre]] ([[nain|Nain]]) (MR)</li>
+  <li>[[Pathfinder-RPG.Serviteur sacré (paladin)| Serviteur sacré]] (MJRA)</li>
+  <li>[[Pathfinder-RPG.Sage gardien (paladin)| Sage gardien]] ([[aasimar (race)|Aasimar]]) (MR)</li>
+</ul>
+<br/>
+{s:PM0|antipaladin}'''''Voir aussi l'[[antipaladin]] et ses archétypes.'''''&emsp;
+<ul ID="antipaladin" CLASS="listecachée cadrebas">
+  <li>[[Pathfinder-RPG.Chevalier du sépulcre (paladin)|Chevalier du sépulcre]] (AG)</li>
+  <li>[[Pathfinder-RPG.Insinuateur (paladin)|Insinuateur]] </li>
+  <li>[[Pathfinder-RPG.Saccageur (paladin)|Saccageur]] </li>
+</ul></div><br/>
+
+
+''À travers quelques rares et vertueux élus, on peut voir briller la puissance divine. Ces âmes nobles qu’on appelle paladins dévouent leur épée et leur vie au combat contre le mal. À la fois chevaliers, croisés et justiciers, les paladins ne cherchent pas seulement à propager la justice divine mais également à incarner les enseignements des divinités vertueuses qu’ils servent. Pour atteindre ces objectifs ambitieux, ils adhèrent à un code de moralité et de discipline extrêmement strict. En récompense de leur droiture, ces champions sacrés reçoivent des capacités qui les aident à mener leur quête à bien : le pouvoir de repousser le mal, de soigner les innocents et d’encourager les fidèles. Même si leurs convictions les amènent parfois à entrer en conflit avec ceux qu’ils voudraient sauver, les paladins viennent à bout des incessantes épreuves qui testent leur foi par de viles tentations. Ils mettent leur vie en danger pour faire le bien et se battent pour préparer un avenir meilleur.''
+
+{s:Reference|TABLEPALADIN}
+<center>
+{| CLASS="tablo"
+|+ Le paladin
+|- CLASS="titre"
+| ROWSPAN="2" | Niveau
+| ROWSPAN="2" | BBA
+| ROWSPAN="2" | Réflexes
+| ROWSPAN="2" | Vigueur
+| ROWSPAN="2" | Volonté
+| CLASS="gauche" ROWSPAN="2" | Spécial
+| CLASS="avecsoustitre" COLSPAN="4" | Sorts par jour
+|- CLASS="soustitre"
+| 1e
+| 2e
+| 3e
+| 4e
+|- CLASS="premier"
+| 1
+| +1
+| +0
+| +2
+| +2
+| CLASS="gauche" | [[paladin#AURADUBIEN|aura du bien]], [[paladin#DETECTIONDUMAL|détection du mal]], <br/>[[paladin#CHATIMENTDUMAL|châtiment du mal]] 1/jour
+| -
+| -
+| -
+| -
+|- CLASS="alt"
+| 2
+| +2
+| +0
+| +3
+| +3
+| CLASS="gauche" | [[paladin#GRACEDIVINE|grâce divine]], [[paladin#IMPOSITIONDESMAINS|imposition des mains]]
+| -
+| -
+| -
+| -
+|-
+| 3
+| +3
+| +1
+| +3
+| +3
+| CLASS="gauche" | [[paladin#AURADECOURAGE|aura de courage]], [[paladin#SANTEDIVINE|santé divine]], [[paladin#GRACE|grâce]]
+| -
+| -
+| -
+| -
+|- CLASS="alt"
+| 4
+| +4
+| +1
+| +4
+| +4
+| CLASS="gauche" | [[paladin#CANALISATIONDENERGIEPOSITIVE|canalisation d'énergie positive]], <br/>[[paladin#CHATIMENTDUMAL|châtiment du mal]] 2/jour
+| 0*
+| -
+| -
+| -
+|-
+| 5
+| +5
+| +1
+| +4
+| +4
+| CLASS="gauche" | [[paladin#PACTEDIVIN|pacte divin]]
+| 1
+| -
+| -
+| -
+|- CLASS="alt"
+| 6
+| +6/+1
+| +2
+| +5
+| +5
+| CLASS="gauche" | [[paladin#GRACE|grâce]]
+| 1
+| -
+| -
+| -
+|-
+| 7
+| +7/+2
+| +2
+| +5
+| +5
+| CLASS="gauche" | [[paladin#CHATIMENTDUMAL|châtiment du mal]] 3/jour
+| 1
+| 0*
+| -
+| -
+|- CLASS="alt"
+| 8
+| +8/+3
+| +2
+| +6
+| +6
+| CLASS="gauche" | [[paladin#AURADEFERMETE|aura de fermeté]]
+| 1
+| 1
+| -
+| -
+|-
+| 9
+| +9/+4
+| +3
+| +6
+| +6
+| CLASS="gauche" | [[paladin#GRACE|grâce]]
+| 2
+| 1
+| -
+| -
+|- CLASS="alt"
+| 10
+| +10/+5
+| +3
+| +7
+| +7
+| CLASS="gauche" | [[paladin#CHATIMENTDUMAL|châtiment du mal]] 4/jour
+| 2
+| 1
+| 0*
+| -
+|-
+| 11
+| +11/+6/+1
+| +3
+| +7
+| +7
+| CLASS="gauche" | [[paladin#AURADEJUSTICE|aura de justice]]
+| 2
+| 1
+| 1
+| -
+|- CLASS="alt"
+| 12
+| +12/+7/+2
+| +4
+| +8
+| +8
+| CLASS="gauche" | [[paladin#GRACE|grâce]]
+| 2
+| 2
+| 1
+| -
+|-
+| 13
+| +13/+8/+3
+| +4
+| +8
+| +8
+| CLASS="gauche" | [[paladin#CHATIMENTDUMAL|châtiment du mal]] 5/jour
+| 3
+| 2
+| 1
+| 0*
+|- CLASS="alt"
+| 14
+| +14/+9/+4
+| +4
+| +9
+| +9
+| CLASS="gauche" | [[paladin#AURADEFOI|aura de foi]]
+| 3
+| 2
+| 1
+| 1
+|-
+| 15
+| +15/+10/+5
+| +5
+| +9
+| +9
+| CLASS="gauche" | [[paladin#GRACE|grâce]]
+| 3
+| 2
+| 2
+| 1
+|- CLASS="alt"
+| 16
+| +16/+11/+6/+1
+| +5
+| +10
+| +10
+| CLASS="gauche" | [[paladin#CHATIMENTDUMAL|châtiment du mal]] 6/jour
+| 3
+| 3
+| 2
+| 1
+|-
+| 17
+| +17/+12/+7/+2
+| +5
+| +10
+| +10
+| CLASS="gauche" | [[paladin#AURADEDROITURE|aura de droiture]]
+| 4
+| 3
+| 2
+| 1
+|- CLASS="alt"
+| 18
+| +18/+13/+8/+3
+| +6
+| +11
+| +11
+| CLASS="gauche" | [[paladin#GRACE|grâce]]
+| 4
+| 3
+| 2
+| 2
+|-
+| 19
+| +19/+14/+9/+4
+| +6
+| +11
+| +11
+| CLASS="gauche" | [[paladin#CHATIMENTDUMAL|châtiment du mal]] 7/jour
+| 4
+| 3
+| 3
+| 2
+|- CLASS="alt"
+| 20
+| +20/+15/+10/+5
+| +6
+| +12
+| +12
+| CLASS="gauche" | [[paladin#CHAMPIONSACRE|champion sacré]]
+| 4
+| 4
+| 3
+| 3
+|- CLASS="note"
+| COLSPAN="5" | ''(*) Aucun sort sauf sorts bonus octroyés par un Charisme élevé.''
+|}
+</center>
+
+'''Rôle.''' Les paladins sont pour leurs alliés comme des phares au milieu du chaos de la bataille. Ils sont redoutables quand ils combattent le mal, mais ils peuvent également fortifier les combattants du bien et les aider dans leurs croisades. Leurs capacités magiques et martiales en font également de bons protecteurs et des alliés capables de redonner à ceux qui ont été vaincus la force de continuer à se battre.
+
+'''Alignement.''' Loyal Bon.
+
+'''Dés de vie.''' d10.
+
+'''Argent de départ.''' 5d6 x 10 po (moyenne 175 po).
+
+=== Compétences de classe ===
+Les compétences de classe du paladin sont les suivantes : [[Art de la magie]] (Int), [[Artisanat]] (Int), [[Connaissances]] (noblesse) (Int), [[Connaissances]] (religion) (Int), [[Diplomatie]] (Cha), [[Dressage]] (Cha), [[Équitation]] (Dex), [[Premiers secours]] (Sag), [[Profession]] (Sag) et [[Psychologie]] (Sag).
+
+'''Points de compétence par niveau.''' 2 + modificateur d’[[Intelligence]].
+
+=== Descriptif de la classe ===
+Les aptitudes du paladin sont décrites ci-dessous.
+
+{s:ImageDroite|Illustrations/PNJ/Seelah.jpg|35%}
+====Armes et armures====
+
+Le paladin est formé au maniement de toutes les [[arme courante|armes courantes]] et [[arme de guerre|de guerre]], ainsi qu’au port de toutes les [[tableau récapitulatif des armures|armures]] (légères, intermédiaires et lourdes) et à l’utilisation des boucliers (à l’exception des pavois).
+
+{s:Reference|AURADUBIEN}
+====Aura de Bien (Ext)====
+
+Un paladin génère une aura de Bien (voir le sort ''[[détection|détection du Mal]]''), dont la puissance correspond à son niveau de paladin.
+
+{s:Reference|DETECTIONDUMAL}
+====Détection du Mal (Mag)====
+
+Un paladin peut détecter le Mal à volonté, comme par le sort de ''[[détection|détection du Mal]]''. Par une [[action de mouvement]], le paladin peut se concentrer sur un objet ou un individu unique distant de 18 m (12 cases) ou moins pour déterminer s’il est d’[[alignement]] Mauvais et pour connaître la puissance de son aura comme s’il l’avait étudié pendant trois rounds. Lorsqu’il se concentre sur un objet ou un individu, le paladin ne détecte pas le Mal sur les autres objets ou individus à proximité.
+
+{s:Reference|CHATIMENTDUMAL}
+====Châtiment du Mal (Sur)==== Une fois par jour, un paladin peut faire appel aux pouvoirs du bien dans son combat contre le mal. Par une [[action rapide]], le paladin désigne comme cible de son châtiment du Mal un ennemi qu’il peut voir. Si la cible est d’alignement Mauvais, le paladin ajoute son bonus de [[Charisme]] (s’il en a un) à ses jets d’attaque et son niveau de paladin à tous les jets de dégâts à l’encontre de sa cible. Si la cible est un [[type Extérieur|Extérieur]] du sous-type [[sous-type Mal|Mal]], un dragon d’alignement Mauvais ou un [[type Mort-vivant|mort-vivant]], le bonus aux dégâts passe à 2 points de dégâts par niveau du paladin pour la première attaque qui touche l'adversaire. Dans tous les cas, le châtiment du mal ignore toutes les [[RD|réductions de dégâts]] de la cible.
+
+De plus, lorsqu’un châtiment du Mal est en cours, le paladin gagne un bonus de parade à sa [[CA]] égal à son bonus de [[Charisme]] (s’il en a un) contre les attaques portées par la cible du châtiment du Mal. Si le paladin désigne une créature qui n’est pas d’alignement Mauvais, le châtiment est dépensé mais n’a aucun effet.
+
+L’effet du châtiment du Mal persiste jusqu’à ce que la cible soit morte ou jusqu’à ce que le paladin se repose et récupère son quota d’utilisations de cette capacité. Au niveau 4 et tous les trois niveaux par la suite, le paladin obtient une utilisation quotidienne supplémentaire de ce pouvoir, comme indiqué dans la Table "[[paladin#TABLEPALADIN|Le Paladin]]", avec un maximum de sept utilisations quotidiennes au niveau 19.
+
+{s:Reference|GRACEDIVINE}
+====Grâce divine (Sur)====
+
+Un paladin de niveau 2 ou plus bénéficie d’un bonus à tous ses [[jet de sauvegarde|jets de sauvegarde]] égal à son bonus de [[Charisme]] (s’il en a un).
+
+{s:Reference|IMPOSITIONDESMAINS}
+====Imposition des mains (Sur)====
+
+À partir du niveau 2, un paladin peut soigner ses blessures ou celles de ses camarades d’un simple toucher. Il peut utiliser ce pouvoir un nombre de fois par jour égal à la moitié de son niveau de paladin + son modificateur de [[Charisme]]. Chaque utilisation permet de soigner 1d6 points de vie par tranche de deux niveaux de paladin et nécessite une [[action simple]] (sauf si le paladin soigne ses propres blessures, auquel cas une [[action rapide]] suffit). Contrairement à ce que son nom pourrait laisser penser, cette capacité ne nécessite qu’une seule main de libre pour être utilisée.
+
+Le paladin peut également utiliser ce pouvoir de guérison pour infliger des blessures aux [[type Mort-vivant|morts-vivants]], à hauteur de 1d6 points de dégâts par tranche de deux niveaux de paladin. Cette utilisation du pouvoir nécessite un jet d’[[attaque de contact]] au corps à corps et ne provoque pas d’[[attaque dopportunité|attaque d’opportunité]]. Les morts-vivants ne bénéficient d’aucun jet de sauvegarde contre ces dégâts.
+
+{s:Reference|AURADECOURAGE}
+====Aura de bravoure (Sur)====
+
+Un paladin de niveau 3 est immunisé contre la [Terreur (capacité)|terreur] (magique ou non). De plus, tous ses alliés situés à 3 m (2 cases) ou moins bénéficient d’un bonus de moral de +4 aux jets de sauvegarde contre tous les effets de [Terreur (capacité)|terreur]. Cette aptitude fonctionne tant que le paladin est conscient, mais pas s’il est [[inconscient]] ou mort.
+
+{s:Reference|SANTEDIVINE}
+====Santé divine (Ext)====
+
+Un paladin de niveau 3 est immunisé contre toutes les [[maladies]], y compris celles qui sont d’origine magique ou surnaturelle.
+
+{s:Reference|GRACE}{s:Desambi|Grâce est également le nom d'un [[Grâce (sort)|sort]].}
+====Grâce (Sur)====
+
+Au niveau 3 et tous les trois niveaux par la suite, un paladin peut choisir une grâce. Chaque grâce ajoute un effet supplémentaire à sa capacité d’[[paladin#IMPOSITIONDESMAINS|imposition des mains]]. Chaque fois que le paladin impose les mains pour soigner les blessures d’une créature, celle-ci bénéficie également des effets supplémentaires relatifs à toutes les grâces que le paladin a choisies. Une grâce peut annuler un [[états préjudiciables|état préjudiciable]] infligé par une [[maladie]], une [[malédiction]] ou un [[poison]] sans pour autant soigner l’affliction elle-même. L’[[états préjudiciables|état préjudiciable]] en question réapparaît après une heure, à moins que la grâce ait effectivement supprimé l’affliction qui le causait.
+
+Au niveau 3, le paladin peut sélectionner une des grâces suivantes :
+* '''Fatigué''' : la cible n’est plus [[fatigué|fatiguée]].
+* '''Fiévreux''' : la cible n’est plus [[fiévreux|fiévreuse]].
+* '''Secoué''' : la cible n’est plus [[secoué|secouée]].
+
+Au niveau 6, les choix suivants s’ajoutent à la liste des grâces disponibles :
+* '''Chancelant''' : la cible n’est plus [[chancelant|chancelante]], sauf si elle a exactement 0 point de vie.
+* '''Guérison de la maladie''' : l’imposition des mains du paladin agit également comme un sort de ''[[guérison des maladies]]'' avec un [[NLS]] égal au niveau du paladin.
+* '''Hébété''' : la cible n’est plus [[hébété|hébétée]].
+
+Au niveau 9, les choix suivants s’ajoutent à la liste des grâces disponibles :
+* '''Délivrance de la malédiction''' : l’imposition des mains du paladin agit également comme un sort de ''[[délivrance des malédictions]]'' avec un [[NLS]] égal au niveau du paladin.
+* '''Effrayé''' : la cible n’est plus [[effrayé|effrayée]] (le paladin doit posséder la grâce ''Secoué'' avant de pouvoir choisir cette option).
+* '''Épuisé''' : la cible n’est plus [[épuisé|épuisée]] (le paladin doit posséder la grâce ''Fatigué'' avant de pouvoir choisir cette option).
+* '''Guérison du poison''' : l’imposition des mains du paladin agit également comme un sort de ''[[neutralisation du poison]]'' avec un [[NLS]] égal au niveau du paladin.
+* '''Nauséeux''' : la cible n’est plus [[nauséeux|nauséeuse]] (le paladin doit posséder la grâce ''Fiévreux'' avant de pouvoir choisir cette option).
+
+Au niveau 12, les choix suivants s’ajoutent à la liste des grâces disponibles.
+* '''Aveugle''' : la cible n’est plus [[aveuglé|aveugle]].
+* '''Assourdi''' : la cible n’est plus [[sourd|assourdie]].
+* '''Étourdi''' : la cible n’est plus [[étourdi|étourdie]].
+* '''Paralysé''' : la cible n’est plus [[paralysé|paralysée]].
+
+Ces effets se cumulent. Par exemple, lorsqu’un paladin de niveau 12 impose les mains, il guérit 6d6 points de dégâts et peut également supprimer les [[états préjudiciables]] [[fatigué]] et [[épuisé]] en plus de soigner les maladies et de neutraliser les poisons. Une fois qu’une grâce a été sélectionnée, ce choix ne peut plus être modifié.
+
+{s:Reference|CANALISATIONDENERGIEPOSITIVE}
+====Canalisation d’énergie positive (Sur)====
+
+Lorsque le paladin atteint le niveau 4, il acquiert la capacité surnaturelle de [[prêtre#CANALISATION|canaliser de l’énergie positive]] avec un niveau effectif de [[prêtre]] égal à son niveau de paladin (voir la [[prêtre#CANALISATION|description de cette capacité chez le prêtre]]). Chaque canalisation d’énergie consomme deux utilisations de sa capacité d’imposition des mains. Il s’agit d’une capacité basée sur le [[Charisme]].
+
+{s:um}Voir aussi les [[variantes de canalisation]].
+
+{s:Reference|SORTS}
+====Sorts====
+
+Dès le niveau 4, un paladin peut lancer un petit nombre de sorts divins appartenant à la [[liste des sorts de paladins]]. Un paladin doit choisir et préparer ses sorts à l’avance.
+
+Pour préparer ou lancer un sort, un paladin doit avoir une valeur de [[Charisme]] au moins égale à 10 + le [[niveau de sort|niveau du sort]]. Le [[DD]] des [[jet de sauvegarde|jets de sauvegarde]] contre les sorts du paladin est égal à 10 + le [[niveau de sort|niveau du sort]] + le modificateur de [[Charisme]] du paladin.
+
+Comme les autres lanceurs de sorts, le paladin ne peut lancer qu’un nombre de sorts donné de chaque niveau chaque jour. Son quota de sorts quotidiens est indiqué dans la Table "[[paladin#TABLEPALADIN|Le Paladin]]". En plus de cela, il reçoit des sorts en bonus si sa valeur de [[Charisme]] est suffisamment élevée. Quand la Table "[[paladin#TABLEPALADIN|Le Paladin]]" indique que le paladin peut lancer quotidiennement 0 sort d’un niveau donné, il ne dispose, pour ce niveau de sorts, que des sorts en bonus que peut lui accorder un [[Charisme]] élevé (voir la Table "[[Caractéristiques#TABLEAUCARACTERISTIQUES|Modificateurs de caractéristique et sorts en bonus]]").
+
+Chaque jour, le paladin doit passer une heure à prier et à méditer afin de renouveler son quota journalier de sorts. Le paladin peut préparer et lancer n’importe quel sort de la liste des paladins, pour autant qu’il puisse lancer des sorts de ce niveau. Il doit cependant choisir quels sorts préparer au cours de sa méditation quotidienne.
+
+Jusqu’au niveau 3, le paladin n’a pas de niveau de lanceur de sorts. À partir du niveau 4, son [[NLS|niveau de lanceur de sorts]] est égal son niveau de paladin -3.
+
+{s:Reference|PACTEDIVIN}
+====Pacte divin (Mag)====
+
+Lorsque le paladin atteint le niveau 5, un lien divin se tisse entre lui et son dieu. Celui-ci peut prendre une des deux formes suivantes. Une fois qu’une forme a été choisie, ce choix ne peut plus être modifié.
+
+: '''Arme sacrée.''' La première forme de lien permet à un paladin d’enchanter son arme par une [[action simple]] en faisant appel à un esprit céleste qui lui accorde son aide pendant une minute par niveau de paladin. Lorsqu’il est appelé, l’esprit fait briller l’arme comme une torche. Au niveau 5, cet esprit donne à l’arme un bonus d’altération de +1. Tous les trois niveaux suivants, l’arme gagne un bonus d’altération de +1 supplémentaire, jusqu’à un maximum de +6 au niveau 20. Ces bonus peuvent être ajoutés directement à l’arme et cumulés avec les bonus qu’elle possède déjà et ce jusqu’à un maximum de +5. Ces bonus peuvent également être utilisés pour ajouter l’une des propriétés suivantes à l’arme : [[armes magiques#Acérée|acérée]], [[armes magiques#Axiomatique|axiomatique]], de [[armes magiques#Destruction|destruction]], de [[armes magiques#Feu|feu]], de [[armes magiques#Feuintense|feu intense]], de [[armes magiques#Lumière|lumière]], de [[armes magiques#Rapidité|rapidité]], [[armes magiques#Gardienne|gardienne]], [[armes magiques#Miséricordieuse|miséricordieuse]] ou [[armes magiques#Sainte|sainte]]. Ajouter une de ces propriétés coûte une quantité de bonus équivalente au coût de la propriété (voir [[Armes magiques#DTMSPECIALECAC|ici]]). Ces propriétés s’ajoutent à celles que l’arme possède déjà mais les propriétés en double ne se cumulent pas. Si l’arme n’est pas magique, il faut lui ajouter un bonus d’altération d’au moins +1 avant de pouvoir lui conférer des propriétés. Les bonus et les propriétés donnés par l’esprit sont déterminés lorsqu’il est appelé et ne peuvent donc être modifiés que lorsque l’esprit est appelé à nouveau. L’esprit céleste n’accorde aucun bonus si quelqu’un d’autre que le paladin tient l’arme, mais les bonus réapparaissent si l’arme revient dans la main du paladin. Ces bonus ne s’appliquent qu’à une seule tête si l’arme est une arme double. Un paladin peut utiliser cette capacité une fois par jour au niveau 5 et une fois de plus par jour tous les quatre niveaux suivants, pour un total de quatre utilisations quotidiennes au niveau 17.
+
+: Si une arme est détruite alors qu’elle est liée à un esprit céleste, le paladin doit attendre de gagner un niveau ou que trente jours se soient écoulés avant de pouvoir utiliser cette capacité à nouveau. Pendant cette période d’attente, le paladin subit un malus de -1 à tous les jets d’attaque et de dégâts lorsqu’il combat avec une arme.
+
+: '''Destrier.''' La seconde forme de lien permet à un paladin d’acquérir les services d’un destrier plus intelligent, fort et loyal que la moyenne, qui viendra l’aider dans sa croisade contre le mal. Il s’agit généralement d’un cheval lourd (pour un paladin de taille M) ou d’un poney (pour un paladin de taille P), mais des montures plus exotiques comme un sanglier, un chameau ou un chien sont également possibles. Le destrier suit les mêmes règles que les [[compagnons animaux]] des druides, avec un niveau de druide effectif égal au niveau du paladin. Les montures ainsi liées au paladin possèdent une [[Intelligence]] d’au moins 6.
+
+: Une fois par jour, le paladin peut appeler son destrier auprès de lui en utilisant une [[action complexe]]. Cette capacité est équivalente à un sort d’un niveau égal au tiers du niveau du paladin. Le destrier apparaît immédiatement à côté du paladin. Un paladin peut utiliser ce pouvoir une fois par jour au niveau 5 et une fois de plus chaque jour tous les quatre niveaux par la suite, pour un total de quatre fois par jour au niveau 17.
+
+: Au niveau 11, le destrier acquiert l’archétype [[Céleste, archétype|céleste]] (voir le ''Bestiaire Pathfinder'') et est désormais considéré comme une [[type Créature magique|créature magique]] lorsqu’il s’agit de déterminer les effets des sorts. Au niveau 15, le destrier gagne une [[RM|résistance à la magie]] égale au niveau du paladin + 11.
+
+: Si le destrier vient à mourir, le paladin doit attendre de gagner un niveau ou que trente jours se soient écoulés avant de pouvoir utiliser cette capacité à nouveau. Pendant cette période d’attente, le paladin subit un malus de -1 à tous les [[jet dattaque|jets d’attaque]] et de [[jet de dégâts|dégâts]] lorsqu’il combat avec une arme.
+
+{s:Reference|AURADEFERMETE}
+====Aura de fermeté (Sur)====
+
+Un paladin de niveau 8 est immunisé contre les sorts et les pouvoirs magiques de [[charme]]. De plus, tous ses alliés situés à 3 m ou moins bénéficient d’un bonus de moral de +4 aux jets de sauvegarde contre tous les effets de [[charme]].
+
+Cette aptitude fonctionne tant que le paladin est conscient, mais pas s’il est inconscient ou mort.
+
+{s:Reference|AURADEJUSTICE}
+====Aura de justice (Sur)====
+
+Au niveau 11, un paladin peut sacrifier deux utilisations de sa capacité du [[paladin#CHATIMENTDUMAL|châtiment du Mal]] pour permettre à tous ses alliés situés à 3 m ou moins d’utiliser un [[paladin#CHATIMENTDUMAL|châtiment du Mal]] avec ses propres bonus. Les alliés doivent utiliser ce [[paladin#CHATIMENTDUMAL|châtiment du Mal]] avant que le prochain tour du paladin commence et les bonus persistent pendant une minute. Ce pouvoir s’utilise par une action libre. Les créatures d’alignement Mauvais ne tirent aucun avantage de l’aura de justice.
+
+{s:Reference|AURADEFOI}
+====Aura de foi (Sur)====
+
+Au niveau 14, les armes d’un paladin sont considérées comme dotées de l’alignement Bon lorsqu’il s’agit de déterminer si elles ignorent les réductions de dégâts. De plus, toutes les attaques faites contre un ennemi dans un rayon de 3 m autour du paladin sont également considérées comme dotées de l’alignement Bon lorsqu’il s’agit de déterminer si elles ignorent les réductions de dégâts.
+
+Cette capacité fonctionne tant que le paladin est conscient, mais pas s’il est inconscient ou mort.
+
+{s:Reference|AURADEDROITURE}
+====Aura de droiture (Sur)====
+
+Au niveau 17, un paladin gagne une [[RD]] 5/Mal et est immunisé aux sorts et aux pouvoirs magiques de [[coercition]]. De plus, tous ses alliés situés à 3 m ou moins bénéficient d’un bonus de moral de +4 aux [[jet de sauvegarde|jets de sauvegarde]] contre tous les effets de [[coercition]].
+
+Cette aptitude fonctionne tant que le paladin est conscient, mais pas s’il est [[inconscient]] ou [[mort]].
+
+{s:Reference|CHAMPIONSACRE}
+====Champion sacré (Sur)====
+
+Au niveau 20, un paladin devient un véritable réceptacle de la puissance de son dieu. Sa RD augmente jusqu’à 10/Mal. Chaque fois qu’il utilise un [[paladin#CHATIMENTDUMAL|châtiment du Mal]] et frappe un [[type Extérieur|Extérieur]] d’alignement Mauvais, celui-ci est également soumis à un bannissement dont le NLS est égal au niveau du paladin (l’arme et le symbole sacré du paladin comptent automatiquement comme objets que la cible hait). Le [[paladin#CHATIMENTDUMAL|châtiment du Mal]] se termine immédiatement après que l’effet de bannissement et les dégâts de l’attaque ont été appliqués. De plus, chaque fois que le paladin [[paladin#CANALISATIONDENERGIEPOSITIVE|canalise de l’énergie positive]] ou utilise une [[paladin#IMPOSITIONDESMAINS|imposition des mains]] pour guérir une créature, il soigne toujours le maximum de points de vie.
+
+
+===Code de conduite===
+
+Le paladin est obligatoirement [[alignement|Loyal Bon]]. S’il commet sciemment un acte maléfique, il perd aussitôt son statut et ses pouvoirs, en dehors des compétences de maniement d’armes, de port d’armures et d’utilisation de boucliers.
+
+De plus, son code de conduite l’oblige à respecter l’autorité légitime, à se comporter de façon honorable (c’est-à-dire à ne pas mentir, tricher, utiliser le [[poison]], etc.), à aider les gens dans le besoin (à condition qu’ils ne cherchent pas à utiliser le paladin dans un but chaotique ou maléfique), et à châtier ceux qui menacent ou maltraitent les innocents.
+
+===Compagnons===
+
+Le paladin peut partir à l’aventure avec des alliés d’alignement Bon ou Neutre mais il évitera de collaborer avec des personnes d’alignement Mauvais ou avec ceux qui bafouent sans cesse son code de conduite. Dans des circonstances exceptionnelles, un paladin pourra s’associer avec des créatures d’alignement Mauvais mais seulement avec comme but de venir à bout d’un plus grand mal. Le paladin devrait chercher à recevoir régulièrement un sort de pénitence pendant ce genre d’alliance inhabituelle et il devrait immédiatement mettre un terme à celle-ci s’il a l’impression de faire plus de mal que de bien. Enfin, le paladin ne peut louer les services d’hommes d’armes et accepter les suivants que s’ils sont Bons et Loyaux.
+
+{s:Reference|ANCIENPALADIN}
+=== Anciens paladins===
+
+Un paladin changeant d’alignement, commettant sciemment un acte maléfique ou bafouant son code de conduite perd ses sorts et ses aptitudes (y compris la collaboration de son destrier, mais pas sa formation en matière d’armes, d’armures et de boucliers). Il ne peut plus gagner de niveaux de paladin. Il récupère son statut et ses capacités et peut à nouveau progresser en tant que paladin s’il fait acte de contrition (voir le sort ''[[pénitence]]'').

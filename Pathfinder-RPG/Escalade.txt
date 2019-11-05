@@ -1,0 +1,93 @@
+---
+Name: Pathfinder-RPG.Escalade
+Title: Escalade
+LastModified: 2010-07-30 21:29
+Categories:
+  - 'Compétence'
+---
+{s:MenuCompétences}
+
+'''Caractéristique associée''' : [[Force]]
+
+'''Formation nécessaire''' : non
+
+'''Malus d’armure''' : oui
+
+''Le personnage s’est entraîné à escalader toutes sortes de parois verticales, des murs relativement lisses de la ville jusqu’aux falaises rocailleuses.''
+
+===Test de compétence===
+
+Un test d’Escalade réussi permet de progresser (vers le haut, le bas ou les côtés) le long d’une pente fortement inclinée ou d’un mur (voire d’un plafond muni de prises) au quart de sa vitesse normale. Dans le cadre de cette compétence, on considère comme pente toute paroi inclinée de moins de 60° et comme mur toute paroi inclinée de 60° ou plus.
+
+Un test de compétence raté de 1 à 4 points indique que le personnage ne parvient pas à progresser, alors qu’un test raté de 5 points ou plus implique une [[Dangers naturels#CHUTES|chute]] sur toute la hauteur déjà parcourue.
+
+Le [[DD]] du test dépend des conditions dans lesquelles l’escalade s’effectue, qui sont à comparer à celles de la table ci-après.
+
+Il est nécessaire d’avoir les deux mains libres lors d’une escalade, mais on peut se tenir à un mur d’une main le temps de lancer un sort ou d’effectuer une autre action réalisable d’une seule main. Il est impossible d’esquiver les coups tout en grimpant, ce qui signifie que le personnage perd son bonus de [[Dextérité]] à la [[CA]] (s’il en a un). Il est également impossible d’utiliser un bouclier en grimpant. Chaque fois qu’un personnage subit des dégâts alors qu’il escalade une paroi, il doit réussir un test d’Escalade contre le DD de la paroi pour éviter de tomber. En cas d’échec, les dégâts sont proportionnels à la hauteur de [[Dangers naturels#CHUTES|chute]].
+
+<center>
+{| CLASS="tablo" WIDTH="95%"
+|+ Tests d'escalade
+|- CLASS="titre"
+| DD du test d’Escalade
+| CLASS="gauche" | Exemple de surface ou d’activité
+|- CLASS="premier"
+| 0
+| CLASS="gauche" | une pente trop inclinée pour permettre d’avancer en marchant ou une corde à nœuds accrochée près d’un mur contre lequel on peut s’appuyer
+|- CLASS="alt"
+| 5
+| CLASS="gauche" | une corde accrochée près d’un mur contre lequel on peut s’appuyer, une corde à nœuds ou encore une corde créée par le sort corde enchantée
+|-
+| 10
+| CLASS="gauche" | une surface garnie de corniches où on peut se tenir ou s’accrocher, comme un mur en ruine ou un gréement de navire
+|- CLASS="alt"
+| 15
+| CLASS="gauche" | toute surface comprenant suffisamment de prises (naturelles ou artificielles), comme un rocher escarpé, un arbre ou une corde sans nœuds ou encore tenter de grimper sur un rebord auquel on s’agrippe par les mains
+|-
+| 20
+| CLASS="gauche" | une surface inégale comprenant quelques petites prises pour les mains et les pieds, comme un mur de donjon typique
+|- CLASS="alt"
+| 25
+| CLASS="gauche" | une surface rugueuse, comme une paroi rocheuse naturelle ou un mur de briques
+|-
+| 30
+| CLASS="gauche" | un dévers ou un plafond garnis de prises pour les mains mais pas pour les pieds
+|- CLASS="alt"
+| —
+| CLASS="gauche" | Une surface absolument plate, lisse et verticale ne peut pas être escaladée.
+|- CLASS="titre"
+| Modificateur*
+| CLASS="gauche" | Exemple de surface ou d’activité
+|- CLASS="premier"
+| -10
+| CLASS="gauche" | une cheminée (naturelle ou artificielle) ou n’importe quel autre goulet dans lequel on peut s’appuyer contre deux parois opposées en s’arc-boutant
+|- CLASS="alt"
+| -5
+| CLASS="gauche" | un coin où il est possible de s’appuyer contre deux murs perpendiculaires
+|-
+| +5
+| CLASS="gauche" | surface glissante
+|-
+| COLSPAN="3" CLASS="note" | ''(*) Ces modificateurs se cumulent entre eux. Combinez tous ceux qui s’appliquent.''
+|}
+</center>
+
+'''Escalade accélérée.''' Le personnage peut grimper plus vite que d’habitude. Il peut avancer à la moitié de sa [[vitesse de déplacement]] (au lieu du quart) en acceptant un malus de -5 au test.
+
+'''Créer ses propres prises.''' Le personnage peut créer ses propres prises en plantant des pitons dans un mur. Cela prend une minute par piton et un piton par mètre cinquante. Un mur pitonné se transforme en surface présentant suffisamment de prises (DD 15). De même, un personnage muni d’une hachette ou d’un pic peut tailler des prises dans un mur de glace.
+
+'''Stopper sa chute.''' Il est quasiment impossible d’arrêter sa chute en se retenant à un mur. Pour parvenir à réussir un tel exploit, le personnage doit réussir un test d’Escalade contre un [[DD]] de 20 + le DD de la paroi. C’est un peu plus facile quand on glisse le long d’une pente (le [[DD]] vaut alors 10 + le DD de la pente).
+
+'''Stopper la chute d’une autre personne.''' Un grimpeur peut tenter de rattraper une autre personne qui tombe au-dessus ou à côté de lui si elle passe à sa portée. Pour cela, il doit réussir une [[attaque de contact au corps à corps]] contre la personne qui tombe (qui peut décider de ne pas appliquer son bonus de Dextérité à la CA si elle le désire). Si l’attaque réussit, le grimpeur doit effectuer immédiatement un nouveau test d’Escalade (avec un [[DD]] égal à celui de la surface + 10). En cas de réussite, le grimpeur arrive à rattraper la personne. Cependant, si le poids de celle-ci et de son équipement est supérieur à la limite d’une charge lourde pour le grimpeur, celui-ci est emporté à son tour et les deux chutent. Si le test d’Escalade échoue de 1 à 4 points, le grimpeur n’arrive pas à rattraper la personne, mais il conserve sa propre prise sur la surface. Si le test d’Escalade échoue de 5 points ou plus, non seulement le grimpeur n’arrive pas à interrompre la chute, mais il perd également pied et chute lui aussi.
+
+===Action===
+
+Comme l’escalade s’effectue au cours d’un déplacement, les tests d’Escalade sont donc généralement intégrés dans des [[action de mouvement|actions de mouvement]] (une [[action de mouvement]] peut combiner plusieurs formes de déplacement). Un test d’Escalade distinct est nécessaire pour chaque action de mouvement comprenant une part d’escalade. Stopper sa chute ou celle d’une autre personne ne nécessite pas une action.
+
+===Spécial===
+
+Il est possible de soulever quelqu’un (ou de le faire descendre) à l’aide d’une corde, pour peu qu’on dispose de la force physique nécessaire. Doublez la charge maximale du personnage pour savoir combien il peut porter de la sorte.
+
+Une créature possédant une vitesse d’escalade bénéficie d’un bonus racial de +8 aux tests d’Escalade. Elle doit effectuer un test d’Escalade chaque fois qu’elle tente de grimper un mur ou une pente dont le DD est supérieur à 0, mais elle peut toujours faire 10 sur ses tests d’Escalade, même si elle est menacée ou si elle se presse. Si elle choisit de réaliser une escalade accélérée (voir plus haut), elle peut se déplacer au double de sa vitesse d’escalade (mais jamais plus vite que sa vitesse de déplacement normal) et n’a besoin d’effectuer qu’un seul test d’Escalade avec un malus de -5. Lorsqu’elle réalise une escalade, elle conserve son bonus de [[Dextérité]] à la [[CA]] et ses adversaires ne bénéficient d’aucun bonus spécial lorsqu’ils lui portent une attaque. Il lui est cependant toujours impossible de courir pendant son escalade.
+
+Un personnage possédant le don [[Athlétisme]] obtient un bonus aux tests d’Escalade.

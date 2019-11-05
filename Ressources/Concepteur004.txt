@@ -1,0 +1,42 @@
+---
+Name: Ressources.Concepteur004
+Title: FAQ sur le poison
+LastModified: 2015-07-15 11:58
+Categories:
+  - 'Blog des concepteurs'
+---
+<p class="description">Traduction d'un [[http://paizo.com/paizo/blog/v5748dyo5lc12|article]] de Jason Bulmahn paru sur le blog de Paizo — retour au [[Blog des concepteurs]]</p>
+
+
+<div class="fright"><img src="http://www.pathfinder-fr.org/Media/gs/handler/getmediaobject.ashx?moid=762&dt=2&g=1"/></div>
+Ça fait un bon bout de temps que certains n'ont pas les idées claires au sujet de la manière dont les poisons fonctionnent en Pathfinder. L'utilisation d'une dose unique est relativement simple mais les règles permettent également d'accumuler des poisons et d'ainsi les combiner pour obtenir des effets plus puissants. Et il y a malheureusement quelques petites difficultés dans ces règles qui les rendent ardues à appliquer au cours d'une partie. Comme ce sujet est un peu plus délicat que les sujets usuels des FAQ, l'équipe des concepteurs a pensé que ce serait une bonne idée de développer un peu plus la réponse dans le cadre d'un article.
+
+Les poisons sont un cas particulier des afflictions. Ils possèdent un DD de jet de sauvegarde, une fréquence, un effet et une méthode de guérison. Dans les cas les plus simples, cela signifie que, quand un personnage rentre en contact avec un poison, il bénéficie d'un jet de sauvegarde. Si ce jet réussit, le poison n'a aucun effet, quelle que soit l'indication relative à la méthode de guérison. Si ce jet échoue, le personnage subit les effets et doit continuer à effectuer des jets de sauvegarde (en fonction de la fréquence) et continuer à subir les effets chaque fois qu'un jet de sauvegarde échoue. À partir de ce moment-là, la seule manière de se libérer du poison consiste à remplir les conditions de la mention "guérison", ce qui revient la plupart du temps à réussir un ou plusieurs jets de sauvegarde (qui doivent généralement être successifs s'il y en a plus d'un).
+
+Lorsqu'un personnage est soumis à plus d'une dose du même poison, les choses deviennent plus intéressantes. Chaque dose accroît le DD du jet de sauvegarde par +2 et augmente la durée totale indiquée dans la fréquence de la moitié de la valeur originale. On peut cependant hésiter quant à la manière d'appliquer ces règles dans certains cas. Quand est-ce que l'augmentation du DD se produit ? Quand fait-on des jets de sauvegarde ? Quand est-ce que la durée est augmentée ?
+
+<div class="presentation arrondi recentre ombre">
+Pour que les choses restent simples, utilisez les conseils suivants.
+* Chaque fois qu'un personnage est exposé à un poison (quelle que soit la méthode d'exposition), il effectue un jet de sauvegarde pour tenter d'éviter complètement le poison.
+* Le DD du jet de sauvegarde augmente de +2 pour chaque dose de poison qui affecte actuellement le personnage. Les poisons qui ont été guéris, qui ont épuisé leur durée d'effet (comme indiquée par leur fréquence) ou qui ont été évités grâce au jet de sauvegarde initial n'augmentent pas le DD du jet de sauvegarde.
+* Lors de son tour, le personnage doit effectuer un jet de sauvegarde contre chacun des poisons qui l'affectent mais il peut réaliser ce(s) jet(s) de sauvegarde à n'importe quel moment au cours de son tour. Si le personnage retarde son action, il doit effectuer ce(s) jet(s) de sauvegarde immédiatement : il(s) n'est (ne sont) pas retardé(s).
+* À moins que le poison n'ait un délai (NdT. ou temps d'incubation), le personnage subit les effets du poison chaque fois qu'il rate un jet de sauvegarde, même lorsque le jet de sauvegarde s'effectue lors de l'ajout d'une nouvelle dose de poison.
+* La durée totale du poison (indiquée dans la mention "fréquence") n'est augmentée de la moitié de la valeur originale que lorsque le personnage rate un jet de sauvegarde contre une nouvelle dose. Si le personnage réussit son jet de sauvegarde contre la nouvelle dose, la durée n'est pas accrue.
+* Si un personnage est exposé à plusieurs doses d'un poison par inhalation ou par ingestion simultanément, il n'effectue qu'un seul jet de sauvegarde mais celui-ci se fait contre le DD accru. Si le jet de sauvegarde échoue, le personnage est affecté par toutes les doses mais il ne subit les effets qu'une seule fois suite au jet de sauvegarde raté. Si le jet de sauvegarde réussit, le personnage échappe aux effets de toutes les doses.
+* Enfin, si le personnage est exposé à un poison qui est similaire mais pas identique (un poison avec une fréquence ou un DD légèrement différent par exemple), celui-ci est traité comme une affliction distincte qui prend effet séparément et ce, même si ce nouveau poison a le même nom ou possèdent des valeurs en commun avec un poison déjà en effet.
+</div>
+
+
+Jetons un coup d'œil à quelques scénarios en gardant ces règles en tête pour voir comment les poisons fonctionnent. Dans tous les cas, le personnage est exposé à de l'extrait de sanvert, un poison par blessure avec un DD de 13, une fréquence 1/round pendant 4 rounds, un effet d'affaiblissement temporaire de 1 Con et une méthode de guérison ne demandant qu'un jet de sauvegarde réussi.
+
+<div class="fright"><img src="http://www.pathfinder-fr.org/Media/gs/handler/getmediaobject.ashx?moid=950&dt=2&g=1"/></div>
+'''Scénario A.''' Valéros est touché par une flèche enduite d'huile de sanvert. Il rate le jet de Vigueur de DD 13 et reçoit un affaiblissement temporaire de 1 point de Constitution. À la fin de son tour, il rate un jet de sauvegarde contre le poison et perd un nouveau point de Constitution. Avant le début de son second tour, il est touché à nouveau et doit tenter un jet de sauvegarde contre un DD de 15 (car une dose l'affecte déjà). Il rate également ce jet de sauvegarde, ce qui lui inflige un nouvel affaiblissement de 1 point de Constitution, accroît le DD du jet de sauvegarde qu'il doit effectuer chaque round à 15 et augmente la durée totale de 2 rounds.
+
+
+'''Scénario B.''' Valéros est touché par deux flèches enduites d'huile de sanvert au cours du tour d'un archer ennemi. Il rate le premier jet de Vigueur contre un DD de 13 et subit un affaiblissement temporaire de 1 point de Constitution. Il doit ensuite effectuer un jet de sauvegarde contre un DD de 15 pour la seconde flèche. Il réussit ce jet de sauvegarde et ne subit donc aucun effet supplémentaire. Lors de son tour, il doit effectuer un jet de Vigueur contre un DD de 13 (vu qu'une seule dose l'affecte). Il réussit ce jet de sauvegarde et ne subit aucun effet. De plus, le poison cesse de faire effet. S'il est touché à nouveau au cours de son prochain tour, le DD retombe à la valeur normale de DD 13.
+
+'''Scénario C.''' Valéros est touché par deux flèches enduites d'huile de sanvert. Il rate le jet de Vigueur contre un DD de 13 et subit un affaiblissement temporaire de 1 point de Constitution. Il doit ensuite effectuer un jet de Vigueur contre un DD de 15 contre la seconde flèche. Il rate ce second jet de sauvegarde et perd 1 point de Constitution supplémentaire. Lors de son tour, il doit effectuer un autre jet de Vigueur contre un DD de 15. Il le rate et subit donc un nouvel affaiblissement de 1 point de Constitution. L'archer, lors de son second tour, tire une flèche enduite d'une huile de sanvert spécial avec un DD de 20. La flèche touche le pauvre Valéros, qui rate son jet de sauvegarde et doit désormais subir deux poisons en parallèle (vu que ces poisons ne sont pas identiques). La situation s'empire encore quand Valéros est touché par une nouvelle flèche enduite d'huile de sanvert normal, ce qui le contrait à effectuer un jet de sauvegarde contre un DD de 17, qu'il rate également ; la durée totale passe donc à 8 rounds (dont un round est déjà passé). Valéros a des soucis à se faire !
+
+Comme vous pouvez le constater, les poisons peuvent être mortels. Les monstres qui utilisent du poison infligé par blessure (comme les araignées et les mille-pattes) ne doivent pas être pris à la légère. Il vaut mieux garder un ou deux parchemins de ''neutralisation du poison'' en réserve ou, mieux encore, une baguette de ''neutralisation du poison'' !
+
+

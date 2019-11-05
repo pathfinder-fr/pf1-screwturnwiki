@@ -1,0 +1,69 @@
+<nowiki><script type="text/javascript">
+$(filtrable_init);
+ 
+function filtrable_init() {
+    // Find all tables with class filtrable and make them filtrable
+    $("table.filtrable").each(makeFiltrable);
+}
+ 
+function makeFiltrable() {
+    var table = $(this);
+    var rows = table.find("tr");
+    if (rows.length < 2) {
+        return;
+    }
+    var firstRow = rows.first();
+    var cells = firstRow.children("td,th");
+    table.get()[0].filters = [];
+    cells.each(function (idx) {
+        var contents = $(this).html;
+        var filterLogo = $("<img height='12px' />");
+        filterLogo.attr('src', '/wiki/public/Upload/Battlemaps/Boutons/filter.png');
+        filterLogo.attr('title', 'Cliquez ici pour filtrer les données');
+        filterLogo.css('padding', '0');
+        filterLogo.click(doFilter(idx,filterLogo,table));
+        $(this).prepend(filterLogo);
+        table.get()[0].filters.push(null);
+    });
+}
+
+function doFilter(nCol, logo, table) {
+    return function () {
+        var filter = prompt("Entrez le filtre à appliquer.\nLaisser le cadre vide pour tout afficher; utilisez 'mot1|mot2' pour un choix multiple.", "").trim();
+        if (filter == "") {
+            table.get()[0].filters[nCol] = null;
+            logo.css("background-color", "");
+            logo.attr("title","Filtre actuel : aucun - cliquez pour changer le filtre");
+        } else {
+            table.get()[0].filters[nCol] = new RegExp(filter.trim(),"i");
+            logo.css("background-color", "yellow");
+            logo.attr("title","Filtre actuel : " + (filter == "" ? "aucun" : filter)
+                + " - cliquez pour changer le filtre");
+        }
+        applyFilter(table);
+    };
+}
+
+function applyFilter(table) {
+    var rows = table.find("tr").filter(function (idx) {
+        return idx > 0 && $(this).children("th").length == 0;
+    });
+    rows.each(function () {
+        var keep = mustKeep(this,table.get()[0].filters);
+        $(this).css("display", keep ? "table-row" : "none");
+    });
+}
+
+function mustKeep(row,filters) {
+    var cells = $(row).children("td");
+    var nCols = filters.length;
+    var keep = true;
+    var iCol = 0;
+    while (keep && iCol < nCols) {
+        keep = filters[iCol] === null ||
+            cells.eq(iCol).html().match(filters[iCol]) != null;
+        iCol++;
+    }
+    return keep;
+}
+</script></nowiki>

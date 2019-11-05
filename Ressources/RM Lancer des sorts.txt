@@ -1,0 +1,104 @@
+---
+Name: Ressources.RM Lancer des sorts
+Title: Lancer des sorts (règle alternative)
+LastModified: 2012-02-25 22:19
+Categories:
+  - 'Règles maison'
+---
+<sub>''Proposé par Yshorus.''</sub>
+
+Un pratiquant de la magie peut, à tout instant, tenter de lancer n’importe quel sort dont il a connaissance à condition que la valeur de sa caractéristique primordiale soit au moins égale à 10 + niveau du sort concerné et que ce sort soit d’un niveau auquel il a accès (cf. tableau ci-dessous).
+
+<center>
+{| CLASS="tablo col1centre"
+|+ Niveau de sort maximal accessible
+|- CLASS="titre"
+| Niveau de classe || Barde || Druide || Ensorceleur || Magicien || Paladin || Prêtre || Rôdeur
+|- CLASS="premier"
+| 1 || 1er || 1er || 1er || 1er || - || 1er || -
+|- CLASS="alt"
+| 2 || 1er || 1er || 1er || 1er || - || 1er || -
+|-
+| 3 || 1er || 2e || 1er || 2e || - || 2e || -
+|- CLASS="alt"
+| 4 || 2e || 2e || 2e || 2e || 1er || 2e || 1er
+|-
+| 5 || 2e || 3e || 2e || 3e || 1er || 3e || 1er
+|- CLASS="alt"
+| 6 || 2e || 3e || 3e || 3e || 1er || 3e || 1er
+|-
+| 7 || 3e || 4e || 3e || 4e || 2e || 4e || 2e
+|- CLASS="alt"
+| 8 || 3e || 4e || 4e || 4e || 2e || 4e || 2e
+|-
+| 9 || 3e || 5e || 4e || 5e || 2e || 5e || 2e
+|- CLASS="alt"
+| 10 || 4e || 5e || 5e || 5e || 3e || 5e || 3e
+|-
+| 11 || 4e || 6e || 5e || 6e || 3e || 6e || 3e
+|- CLASS="alt"
+| 12 || 4e || 6e || 6e || 6e || 3e || 6e || 3e
+|-
+| 13 || 5e || 7e || 6e || 7e || 4e || 7e || 4e
+|- CLASS="alt"
+| 14 || 5e || 7e || 7e || 7e || 4e || 7e || 4e
+|-
+| 15 || 5e || 8e || 7e || 8e || 4e || 8e || 4e
+|- CLASS="alt"
+| 16 || 6e || 8e || 8e || 8e || 4e || 8e || 4e
+|-
+| 17 || 6e || 9e || 8e || 9e || 4e || 9e || 4e
+|- CLASS="alt"
+| 18 || 6e || 9e || 9e || 9e || 4e || 9e || 4e
+|-
+| 19 || 6e || 9e || 9e || 9e || 4e || 9e || 4e
+|- CLASS="alt"
+| 20 || 6e || 9e || 9e || 9e || 4e || 9e || 4e
+|}
+</center>
+
+Au terme de l’incantation, le personnage doit effectuer un test de [[++Pathfinder-RPG.Concentration|Concentration]] dont le DD est égal à 5 x niveau du sort qu’il tente de lancer (s’il s’agit d’un sort de niveau 0, un tel test n’est nécessaire que si le modificateur total associé est négatif). En cas de succès, il parvient à lancer le sort ; dans le cas contraire, les conséquences exactes dépendent de la marge d’échec :
+* Résultat inférieur au DD de moins de 5 points : le personnage ne parvient pas à lancer le sort.
+* Résultat inférieur au DD d’au moins 5 points : le personnage ne parvient pas à lancer le sort mais subit tout de même le malus idoine aux tests de Concentration ultérieurs (voir ci-dessous).
+* Résultat inférieur au DD d’au moins 5 points sur un 1 naturel : le personnage ne parvient pas à lancer correctement le sort mais subit tout de même le malus idoine aux tests de Concentration ultérieurs (voir ci-dessous) et un [[++Pathfinder-RPG.Parchemins magiques#INCIDENT|incident magique]] se produit.
+
+À chaque fois qu’un pratiquant de la magie parvient à lancer un sort, la fatigue mentale qui en résulte lui impose un malus dépendant du niveau du sort en question (cf. tableau ci-dessous) à tous les tests de Concentration effectués par la suite. Ce malus se cumule avec tous les malus résultant de l’éventuel lancement d’autres sorts et disparait au bout d’une heure passée sans que le personnage n’ait lancé de sorts.
+
+<center>
+{| CLASS="tablo"
+|-
+| '''Niveau du sort''' || 0 || 1 || 2 || 3 || 4 || 5 || 6 || 7 || 8 || 9
+|- CLASS="alt"
+| '''Malus aux tests de Concentration''' || 0 || -1 || -1 || -1 || -2 || -2 || -2 || -3 || -3 || -3
+|}
+</center>
+
+Un pratiquant de la magie peut accroître ses chances de réussir à un lancer un sort en augmentant volontairement le temps d’incantation de celui-ci : chaque multiplication dudit temps d’incantation par une valeur égale au niveau effectif du sort concerné (minimum 2) confère un bonus de +2 au test de Concentration effectué -une fois cette incantation achevée- afin de lancer le sort en question (dans le cadre de cette règle, la valeur des temps d’incantation inférieurs à un round est considérée comme étant égale à un round). Le personnage doit choisir d’utiliser ou non cette option et, le cas échéant, décider du temps qu’il consacre effectivement à l’incantation au moment d’entamer cette dernière ; une fois ces décisions prises, elles ne peuvent plus être modifiées (mais il demeure possible de s’interrompre volontairement en cours d’incantation).
+
+__Exemples :__ Lancer un sort de niveau 1 dont le temps d’incantation est normalement de 1 action simple en 3 minutes et 2 rounds confère un bonus de +10 au test de Concentration (1 action simple => 1 round x 2<sup>5</sup> = 32 rounds, pour un bonus de 2 x 5 = 10) ; obtenir ce même bonus de +10 afin de lancer un sort de niveau 9 dont le temps d’incantation habituel est également de 1 action simple requiert cette fois d’y consacrer 4 jours, 2 heures, 24 minutes et 9 rounds (1 action simple => 1 round x 9<sup>5</sup> = 59 049 rounds, pour un bonus de 2 x 5 = 10).
+
+Si le personnage n’est pas distrait ou menacé, il peut choisir de faire 10 aux tests de Concentration visant à lancer un sort (ce qui constitue une exception à la [[++Pathfinder-RPG.Compétences#FAIRE10|règle habituelle]]) ; il lui est en revanche impossible de faire 20, puisqu’un échec peut avoir des conséquences néfastes.
+
+En cas de perturbation durant l’incantation, le personnage doit effectuer un autre test de Concentration pour parvenir à poursuivre son œuvre malgré cela (conformément à la [[++Pathfinder-RPG.Concentration|règle habituelle]]).
+
+'''Repos.''' Un pratiquant de la magie profane qui ne se repose pas durant au moins huit heures chaque jour subit un malus aux tests de Concentration visant à lancer des sorts égal au nombre d’heures de repos manquantes le premier jour, au double de ce nombre le second (le cas échéant), etc. Ces malus sont cumulatifs et le malus total diminue d’un point par heure de repos, à condition que la durée totale de ce repos soit d’au moins huit heures.
+
+__Exemple :__ Un magicien qui ne prend que deux heures de repos dans un jour subit un malus de -6 à ses tests de Concentration pour lancer des sorts à partir du lendemain. S’il ne se repose ensuite que quatre heures le jour suivant, ce malus s’aggrave de 8 points pour un total de -14. Le magicien prend dix heures de repos le surlendemain, aussi le malus retombe-t-il à -4. Rechutant le jour d’après, il ne parvient à se reposer que six heures ; son malus empire donc à nouveau, de 2 points, pour arriver à -6.
+
+'''Sorts jetés durant la période de repos.''' Si un pratiquant de la magie profane lance un sort au cours de sa période de repos, le malus qui en découle persiste jusqu’à sa prochaine période de repos.
+
+'''Métamagie.''' La décision de modifier un sort par [[++Pathfinder-RPG.Dons#DONMETAMAGIE|métamagie]] est prise au moment de le lancer mais n’augmente pas son temps d’incantation. Dans le cadre d’un sort modifié par métamagie, c’est le niveau effectif de ce sort (son niveau de base plus l’ajustement dû à la métamagie) qui est pris en compte - tant pour le calcul du DD du test de Concentration visant à le lancer que pour le malus s’appliquant aux tests de Concentration ultérieurs. Le niveau effectif d’un sort modifié par métamagie ne peut pas dépasser 9.
+
+'''Grimoire.''' Un magicien doit compulser régulièrement son [[++Pathfinder-RPG.Magicien#GRIMOIRE|grimoire]] afin de bien conserver à l’esprit les procédés incantatoires lui permettant de lancer ses sorts. Il lui est cependant possible de s’en passer sans que cela n’entraîne de conséquences durant un jour par point de bonus de son modificateur d’Intelligence. Passé ce délai, lorsque le magicien souhaite lancer un sort, il y a niveau du sort x nombre de jours excédentaires % de chances qu’il ne se remémore plus correctement comment procéder pour ce faire (aucun jet n’est nécessaire pour les sorts de niveau 0, si basiques qu’il n’y pas le moindre risque d’oublier quoi que soit les concernant) ; ce jet doit être effectué à chaque tentative de lancement de sort, y compris concernant un sort pour lequel ledit jet a auparavant donné un résultat négatif (le magicien pouvant soudainement se remémorer le détail qui lui échappait tantôt). S’il n’a pas son propre grimoire à disposition, un magicien peut utiliser celui d’autrui afin de se rafraichir la mémoire en cas de besoin mais le résultat n’est alors pas garanti. Il lui faut en effet tout d’abord parvenir à déchiffrer les sorts qui l’intéressent (suivant la [[++Pathfinder-RPG.Magie profane#ECRITS|règle habituelle]]). Cette première condition remplie, le magicien doit ensuite effectuer un test d’[[++Pathfinder-RPG.Art de la magie|Art de la magie]] (DD 15 + niveau maximal des sorts qu’il est capable de lancer). En cas de succès, il peut alors tenter de lancer tous les sorts à la fois connus de lui et figurant dans le grimoire étranger sans se préoccuper du jet de d100 susmentionné pour la durée indiquée ci-avant. En cas d’échec, il peut retenter un test d’Art de la magie contre un DD inférieur d’un point au précédent. Si ce deuxième test est réussi, le résultat précédemment décrit s’applique mais pas aux sorts du niveau maximal que le magicien est capable de lancer. En cas de nouvel échec, il peut tenter un troisième test d’Art de la magie contre un DD à nouveau inférieur d’un point au précédent et ainsi de suite jusqu’à un DD de 16 (correspondant aux sorts de niveau 1). S’il a échoué à certains tests (ou s’il manquait des sorts en commun), le magicien peut éventuellement tenter sa chance avec un autre grimoire ; il lui faut en revanche attendre le lendemain avant de la retenter à partir du même ouvrage.
+
+__Exemple :__ Un magicien de niveau 10 utilisant un grimoire emprunté à un collègue rate ses tests d’Art de la magie de DD 20 et 19 mais réussit celui de DD 18. Il peut donc sans problème tenter d’utiliser tous ses sorts de niveau 0 ainsi que ceux de niveau 1, 2 et 3 dont il partage la connaissance avec le collègue susmentionné mais doit effectuer le jet de d100 adéquat pour tous ceux de niveau 4 et 5 ainsi que ceux de niveau 1, 2 et 3 ne figurant pas dans le grimoire emprunté.
+
+'''Écoles de prédilection et d’opposition.''' Un [[++Pathfinder-RPG.Magicien#ECOLEDEMAGIE|magicien spécialisé]] bénéficie d’un bonus de +2 aux tests de Concentration visant à lancer des sorts qui appartiennent à son école de prédilection et le malus aux tests de Concentration résultant du lancement de tels sorts est divisé par deux (ne pas arrondir ; l’éventuelle partie décimale du malus n’est pas prise en compte lors des tests), tandis qu’il subit un malus de -2 aux tests de Concentration visant à lancer des sorts qui appartiennent à ses écoles d’opposition et que le malus aux tests de Concentration résultant du lancement de tels sorts est doublé.
+
+'''Objet fétiche.''' Une fois par jour, un magicien peut utiliser son [[++Pathfinder-RPG.Magicien#PACTEMAGIQUE|objet fétiche]] afin de lancer un sort (qu’il est capable de lancer selon la procédure ordinaire) sans avoir à effectuer le test de Concentration normalement requis pour ce faire.
+
+'''Magie spontanée.''' Un ensorceleur bénéficie d’un bonus de +2 à tous les tests de Concentration visant à lancer des sorts et le malus aux tests de Concentration résultant du lancement de n’importe quel sort est divisé par deux (ne pas arrondir ; l’éventuelle partie décimale du malus n’est pas prise en compte lors des tests).
+
+'''Domaines.''' Un prêtre bénéficie d’un bonus de +2 aux tests de Concentration visant à lancer des sorts appartenant à ses [[++Pathfinder-RPG.Prêtre#DOMAINES|domaines]] et le malus aux tests de Concentration résultant du lancement de tels sorts est divisé par deux (ne pas arrondir ; l’éventuelle partie décimale du malus n’est pas prise en compte lors des tests).
+
+'''Sorts spontanés.''' Un personnage possédant la capacité d’incantation spontanée bénéficie d’un bonus de +2 aux tests de Concentration visant à lancer les sorts concernés par cette capacité et le malus aux tests de Concentration résultant du lancement de tels sorts est divisé par deux (ne pas arrondir ; l’éventuelle partie décimale du malus n’est pas prise en compte lors des tests).

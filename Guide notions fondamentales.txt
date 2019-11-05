@@ -1,0 +1,80 @@
+---
+Name: Guide notions fondamentales
+Title: Guide de création : notions fondamentales
+LastModified: 2013-03-09 23:36
+---
+<div class="fright">{s:MenuGuide}</div>
+'''Avant toutes choses.''' Si c'est la première fois que vous vous lancez dans la modification du wiki, n'ayez aucune crainte : le système est robuste, ce qui signifie que vous ne pouvez rien endommager de manière permanente. Même si vous effacez complètement le texte d'une page à cause d'une mauvaise manipulation, il reste possible de revenir en arrière pour récupérer la version précédente (et donc retrouver tout le texte effacé). N'ayez donc pas peur de "faire quelque chose de mal" car aucune erreur n'est irrécupérable. Au pire, vous devrez faire appel à un administrateur pour la corriger… mais le bon côté est que vous aurez certainement appris quelque chose de cette aventure ! N'hésitez donc pas à vous lancer et osez !
+
+Pour mieux comprendre les explications qui sont données dans les diverses pages de ce guide, il faut tout d'abord préciser quelques notions fondamentales relatives au wiki. Il peut s'agir de concepts permettant de mieux comprendre comment la chose fonctionne ou de vocabulaire permettant de plus facilement désigner les objets dont on parle.
+
+{s:Reference|WIKI}
+===Qu'est-ce qu'un wiki ?===
+
+Comme l'indique [[http://fr.wikipedia.org/wiki/Wiki|Wikipédia]] (le wiki le plus célèbre du monde), un wiki est ''un site web dont les pages sont modifiables par les visiteurs afin de permettre l'écriture et l'illustration collaboratives des documents numériques qu'il contient''. Il s'agit donc d'un recueil de '''pages''' traitant de divers sujets et regroupées sur un site web.
+
+Jusque là, ça ressemble à un livre qui pourrait être écrit par plusieurs personnes en même temps, chacun s'occupant d'une section différente. Les deux avantages principaux d'un wiki sur un livre sont
+* que le wiki permet d'éditer le contenu (pour le corriger, le modifier ou l'améliorer), et
+* que le wiki autorise des '''hyperliens'''.
+
+Un '''hyperlien''' est simplement un lien vers un autre endroit du web : une autre page du wiki ou un autre site. Ces hyperliens permettent à un lecteur d'obtenir, en un simple clic, les informations associées à un mot ou à un concept. Ainsi, si un sort décrit un effet de [[++Pathfinder-RPG.rayonnement|rayonnement]], d'un simple clic sur ce mot, le lecteur peut voyager vers la page qui décrit de quoi il s'agit exactement.
+
+Ajouter du contenu à un wiki ne signifie donc pas simplement entrer du texte mais aussi "habiller" ce texte en transformant autant de mots que possible en liens vers leur explication. C'est un travail supplémentaire qui peut demander pas mal de boulot (heureusement donc que tout le monde peut aider en mettant la main à la pâte !).
+
+{s:Reference|PAGE}
+===Qu'est-ce qu'une page wiki ?===
+
+Il serait théoriquement possible de rassembler tout le contenu d'un wiki sur une seule et (très) longue page web. On aurait un texte kilométrique reprenant toutes les informations sur tous les sujets. Naturellement, cette option n'est pas très confortable : tout d'abord, bien des lecteurs seraient découragés par la quantité de texte à lire et, ensuite, il faudrait plusieurs minutes (ou heures) pour charger l'entièreté du wiki en une seule fois.
+
+Il vaut donc mieux diviser le contenu en parties plus digestes et plus rapides à charger. Ces parties se nomment '''pages'''. Ainsi, ce guide de création est divisé en plusieurs pages (une par chapitre) ; la page que vous lisez actuellement est celle qui est consacrée aux notions fondamentales. Elle-même est divisée en plusieurs sections qui sont chargées et affichées en même temps : la page est donc en quelque sorte une "unité indivisible" du wiki.
+
+Chaque page possède un '''nom''' qui permet de la distinguer des autres. La page actuelle a pour nom "Guide notions fondamentales" (on peut le voir en regardant l'adresse indiquée par le browser). Ce nom est plutôt un code utilisé par le wiki pour identifier la page ; dans ce cas-ci, c'est une suite de mots compréhensible par un être humain, mais ce n'est pas forcément le cas.
+
+Chaque page possède également un '''titre''' qui peut être identique à son nom ou différent. Contrairement au nom (qui peut être quelque chose d'incompréhensible pour l'être humain), le titre, lui, doit être quelque chose de significatif. C'est le titre qui sera affiché en haut de la page. La page actuelle a pour titre "Guide de création : notions fondamentales".
+
+Chaque page doit avoir un '''nom''' différent (sinon, le wiki ne pourrait pas les différencier), mais deux pages pourraient très bien avoir le même '''titre'''. Par exemple, cette page pourrait avoir pour titre simplement "Notions fondamentales", de même qu'une autre page traitant des notions fondamentales relatives au fonctionnement de la magie dans Pathfinder-RPG.
+
+Généralement, on construit le '''nom''' d'une page sans utiliser d'article "la", "le" ou "une", alors que le '''titre''', lui, peut comporter un article. Par exemple, une page parlant des nains pourra avoir "Nains" comme '''nom''' (ce qui permettra de la classer à la lettre N) et "Les nains" comme '''titre''' (ce qui est plus agréable que simplement "Nains" comme en-tête de page).
+
+On peut également observer la différence entre le nom et le titre d'une page quand on crée un lien vers celle-ci. La description textuelle du lien (c'est-à-dire le texte qui sera visible et sur lequel on pourra cliquer) sera généralement son titre, mais il pourra s'agir d'autre chose aussi. Par contre, le code indiquant vers où le lien mène (et qui ne s'affichera pas), lui, utilisera __toujours__ le nom de la page. Considérez par exemple les liens suivants menant tous à la page décrivant les nains :
+* (voir la page sur [[++Pathfinder-RPG.Nain|les nains]])
+* La hache est une des armes favorites des [[++Pathfinder-RPG.Nain|nains]].
+* Bertha est une [[++Pathfinder-RPG.Nain|naine]] guerrière.
+
+Par abus de langage, dans la suite, on parlera de page nommée "XYZ" ou même intitulée "XYZ" pour désigner son nom. En effet, pour tout ce qui est relatif au code (pour créer des liens par exemple), le titre de la page n'a aucune importance : seul son nom est vraiment utilisé.
+
+{s:Reference|NAMESPACE}
+===Qu'est-ce qu'un namespace ?===
+
+La notion de '''namespace''' n'est pas très compliquée, mais il est important de bien la comprendre pour pouvoir éviter des problèmes par la suite. Un namespace est un groupe de pages caractérisé/étiqueté par un nom (il peut s'agir du thème commun de ces pages par exemple). Le wiki de Pathfinder-FR se divise en 6 namespaces (ou "espaces de nom") :
+* le namespace "Pathfinder-RPG" qui comporte toutes les pages relatives aux règles,
+* le namespace "Golarion" qui comporte toutes les pages relatives au monde,
+* le namespace "Aventures" qui contient toutes les pages relatives aux modules et aventures,
+* le namespace "Informations" qui regroupe toutes les pages au contenu moins officiel ou inclassable,
+* le namespace "Parties" qui renferme les mini-wikis des parties en ligne ou hors ligne,
+* et le namespace racine (ou "root") qui contient 2 ou 3 pages (la page d'accueil des wikis et des pages affichant les textes des licences PCUP et OGL).
+
+{s:Image|Illustrations\Guide\guide01.jpg|80%|centre}
+
+La notion de namespace a plusieurs utilités. Tout d'abord, elle permet de "classer" les choses en décomposant le wiki en diverses sections, ce qui facilite les recherches. Ensuite, l'existence de namespaces différents permet de créer des pages portant "le même nom" mais dans des namespaces différents. Par exemple, la page intitulée "Nains" dans le namespace "Pathfinder-RPG" va décrire les bonus, traits raciaux et autres caractéristiques techniques des nains en Pathfinder RPG alors que la page intitulée "Nains" dans le namespace "Golarion" va parler de la Quête du Ciel et donner d'autres informations relatives aux barbus du monde de Golarion.
+
+Ainsi, bien souvent, parler de la page "Nains" n'est pas suffisamment précis. Encore faut-il indiquer à laquelle on s'intéresse. Le nom complet d'une page est formé du nom du namespace suivi d'un point puis du nom de la page. Cela permet de distinguer les pages "Pathfinder-RPG.Nains" et "Golarion.Nains". Souvent, dans le code, on doit ajouter "++" avant le nom du namespace (c'est simplement une question de syntaxe ; voir les exemples plus bas).
+
+Cette distinction est tout particulièrement importante quand on désire créer un lien. La syntaxe exacte pour les liens est décrite plus loin dans le guide mais, pour l'instant, on peut se contenter de dire qu'un lien se crée en ajoutant des doubles crochets autour du nom de la page visée ; par exemple : {{<nowiki>[[Nains]]</nowiki>}}. Ce lien va "pointer" vers (ou désigner) une page différente selon l'endroit où il se trouve (c'est ce qu'on appelle un lien relatif).
+
+Ainsi, sur une page du namespace "Golarion", le lien {{<nowiki>[[Nains]]</nowiki>}} pointera vers la page "Golarion.Nains". Mais, s'il se trouve sur une page du namespace "Pathfinder-RPG", c'est vers la page "Pathfinder-RPG.Nains" qu'il emmènera le lecteur. Et si ce lien figure sur une page appartenant à un autre namespace (qui ne comporte pas de page nommée "Nains"), il restera rouge (ce qui indique qu'il pointe vers une page qui n'existe pas, ou pas encore).
+
+Si on veut accéder à la page "Pathfinder-RPG.Nains" à partir d'une page qui se trouve dans un autre namespace que Pathfinder-RPG, il faudra obligatoirement en donner le nom complet (ou nom "qualifié"), c'est-à-dire utiliser quelque chose comme {{<nowiki>[[++Pathfinder-RPG.Nains]]</nowiki>}}. Notez que, même si on se trouve à l'intérieur du namespace Pathfinder-RPG, le lien "qualifié" reste utilisable : on peut préciser le namespace, même si ce n'est pas entièrement nécessaire.
+
+{s:Reference|CATEGORIE}
+===Qu'est-ce qu'une catégorie ?===
+
+Les '''catégories''' sont des groupes de page qui ont quelque chose en commun (un thème, une provenance…). Une page peut appartenir à plusieurs catégories. Par exemple, une page parlant d'une classe de prestige créée par un fan appartiendra à la catégorie ''Classe de prestige'' et à la catégorie ''Non-officiel''. Cela permettra de la retrouver à la fois dans la liste des pages qui parlent de classes de prestige et dans la liste des pages dont le contenu n'est pas officiel.
+
+Pourquoi des catégories si on a déjà des namespaces ? Eh bien, il y a plusieurs raisons à cela. D'abord, les catégories permettent de créer une organisation plus fine que les namespaces : on peut classifier les pages d'un même namespace selon plusieurs catégories. De plus, contrairement aux namespaces qui représentent vraiment des groupes de pages distincts (chaque page appartient à un seul namespace), on peut retrouver la même page dans plusieurs catégories. Finalement, si le but des namespaces est d'organiser le wiki en sections distinctes, celui des catégories est plutôt de décrire le contenu des pages pour pouvoir en tirer des listes plus facilement.
+
+Ainsi, on pourra lister toutes les pages provenant du blog de Kobold Quarterly en créant une catégorie "Kobold Quarterly" ou lister toutes les pages décrivant des dons en créant une catégorie "Don". Et les dons provenant du site de Kobold Quarterly se retrouveront dans ces deux catégories et figureront sur les deux listes.
+
+Lors de la création d'une nouvelle page, il est important d'indiquer toutes les catégories auxquelles elle appartient (cela se fait assez facilement en cochant des cases devant le nom des catégories pertinentes). Il est également possible de profiter de l'occasion pour ajouter de nouvelles catégories qui pourront être réemployées par d'autres pages par la suite.
+
+'''Recommandations pour le nom des catégories.''' Le nom d'une catégorie respecte les règles de français et commence par une majuscule. Les mots sont séparés par des espaces et, sauf cas particulier, les mots suivants sont en minuscule. En général, une catégorie doit être écrite '''au singulier'''. On parlera de catégorie ''Classe de prestige'' et non de ''Classes de prestige'' car une catégorie permet d'indiquer ce qui catégorise la page : "Cette page parle d'une Classe de prestige".

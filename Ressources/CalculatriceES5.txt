@@ -1,0 +1,606 @@
+---
+Name: Ressources.CalculatriceES5
+Title: Calculatrice (ancienne version)
+LastModified: 2016-09-30 20:01
+---
+Cette page vous permet de choisir les caractéristiques de votre personnage en utilisant la méthode d'achat de points (version Pathfinder).
+
+===Étape 1===
+Choisissez tout d'abord la race de votre personnage. S'il s'agit d'un humain, d'un demi-elfe ou d'un demi-orque, il vous faudra également choisir la caractéristique qui recevra un bonus de +2. Les personnages des autres races, eux, ont des bonus (et un malus) fixé.
+
+<table width="98%">
+<tr style="vertical-align: top">
+<td style="width:150px"><table style="background-color: #fff3e6; border: 0.5px solid #4b3124">
+<tr><td style="padding: 6px">Race :<br/>
+<select id="race" onchange="changeRace(this.value);">
+</select></td></tr>
+<tr><td style="padding: 6px">Bonus :
+<select id="bonus" onchange="changeMods(this.value);">
+<option value="1">For +2</option>
+<option value="2">Dex +2</option>
+<option value="3">Con +2</option>
+<option value="4">Int +2</option>
+<option value="5">Sag +2</option>
+<option value="6">Cha +2</option>
+</select></td></tr>
+</table></td>
+<td style="width:20px"></td>
+<td style="background-color: #fff3e6; border: 1px solid #e7dfc6; font-size: x-small; padding: 4px">
+<a class="pagelink" id="bwiki" target="_blank" style="float: right; font-weight: bold;">&nbsp;</a>
+<p id="descRace"></p>
+</td>
+</tr>
+</table>
+
+===Étape 2===
+
+Ajustez les valeurs des caractéristiques en gardant un oeil sur le coût en points indiqué à droite. Pour modifier les caractéristiques, utilisez les boutons "plus" et "moins" situés à droite. Vous pouvez encore modifier la race ci-dessus si vous le désirez, ou encore changer la caractéristique qui reçoit un bonus de +2 en la choisissant ci-dessus ou en cliquant directement dans le tableau. Vous pouvez également cliquer sur un des boutons "PNJ simple" ou "PNJ héroïque" pour avoir un point de départ ou utiliser une distribution standard.
+
+<table>
+<tr style="vertical-align: top">
+<td style="background-color: #fff3e6; padding: 6px; border: 0.5px solid #4b3124">
+<table>
+<tr>
+<td></td>
+<td style="width: 24pt; background-color: #4b3124; color: #ffffff; padding: 4pt; text-align: center; border-left: 4px solid #fff3e6; border-right: 4px solid #fff3e6">Base</td>
+<td style="width: 24pt; background-color: #4b3124; color: #ffffff; padding: 4pt; text-align: center; border-left: 4px solid #fff3e6; border-right: 4px solid #fff3e6">Race</td>
+<td style="width: 50pt; background-color: #4b3124; color: #ffffff; padding: 4pt; text-align: center">Valeur</td>
+<td></td>
+</tr>
+<tr style="height: 7px"><td COLSPAN="5"></td></tr>
+<tr>
+<td style="background-color: #4b3124; color: #ffffff; font-size: 12pt; padding: 4pt; vertical-align: middle" onclick="clickRace(1);">FORCE</td>
+<td id="Stat1Val" style="font-size: 12pt; text-align: center; vertical-align: middle" onclick="clickRace(1);">10</td>
+<td id="Stat1Rac" style="font-size: 12pt; text-align: center; vertical-align: middle" onclick="clickRace(1);">+2</td>
+<td id="Stat1" style="background-color: #4b3124; color: #ffffff; font-size: 12pt; text-align: center; vertical-align: middle" onclick="clickRace(1);">12 (+1)</td>
+<td><table>
+<tr><td style="vertical-align: middle; padding: 0 2px 0 2px"><IMG SRC="http://www.pathfinder-fr.org/images/pathfinder/wiki/BoutonP.jpg" STYLE="width: 12px; border: 1px solid black;" onclick="boutonplus(1)"/></td><td id="CommP1" style="font-size: 8pt; font-style: italic"></td></tr>
+<tr><td style="vertical-align: middle; padding: 0 2px 0 2px"><IMG SRC="http://www.pathfinder-fr.org/images/pathfinder/wiki/BoutonM.jpg" STYLE="width: 12px; border: 1px solid black;" onclick="boutonmoins(1)"/></td><td id="CommM1" style="font-size: 8pt; font-style: italic"></td></tr>
+</table></td>
+</tr>
+<tr style="height: 7px"></tr>
+<tr>
+<td style="background-color: #4b3124; color: #ffffff; font-size: 12pt; padding: 4pt; vertical-align: middle" onclick="clickRace(2);">DEXTÉRITÉ</td>
+<td id="Stat2Val" style="font-size: 12pt; text-align: center; vertical-align: middle" onclick="clickRace(2);">10</td>
+<td id="Stat2Rac" style="font-size: 12pt; text-align: center; vertical-align: middle" onclick="clickRace(2);">+0</td>
+<td id="Stat2" style="background-color: #4b3124; color: #ffffff; font-size: 12pt; text-align: center; vertical-align: middle" onclick="clickRace(2);">10 (+0)</td>
+<td><table>
+<tr><td style="vertical-align: middle; padding: 0 2px 0 2px"><IMG SRC="http://www.pathfinder-fr.org/images/pathfinder/wiki/BoutonP.jpg" STYLE="width: 12px; border: 1px solid black;" onclick="boutonplus(2)"/></td><td id="CommP2" style="font-size: 8pt; font-style: italic"></td></tr>
+<tr><td style="vertical-align: middle; padding: 0 2px 0 2px"><IMG SRC="http://www.pathfinder-fr.org/images/pathfinder/wiki/BoutonM.jpg" STYLE="width: 12px; border: 1px solid black;" onclick="boutonmoins(2)"/></td><td id="CommM2" style="font-size: 8pt; font-style: italic"></td></tr>
+</table></td>
+</tr>
+<tr style="height: 7px"></tr>
+<tr>
+<td style="background-color: #4b3124; color: #ffffff; font-size: 12pt; padding: 4pt; vertical-align: middle" onclick="clickRace(3);">CONSTITUTION</td>
+<td id="Stat3Val" style="font-size: 12pt; text-align: center; vertical-align: middle" onclick="clickRace(3);">10</td>
+<td id="Stat3Rac" style="font-size: 12pt; text-align: center; vertical-align: middle" onclick="clickRace(3);">+0</td>
+<td id="Stat3" style="background-color: #4b3124; color: #ffffff; font-size: 12pt; text-align: center; vertical-align: middle" onclick="clickRace(3);">10 (+0)</td>
+<td><table>
+<tr><td style="vertical-align: middle; padding: 0 2px 0 2px"><IMG SRC="http://www.pathfinder-fr.org/images/pathfinder/wiki/BoutonP.jpg" STYLE="width: 12px; border: 1px solid black;" onclick="boutonplus(3)"/></td><td id="CommP3" style="font-size: 8pt; font-style: italic"></td></tr>
+<tr><td style="vertical-align: middle; padding: 0 2px 0 2px"><IMG SRC="http://www.pathfinder-fr.org/images/pathfinder/wiki/BoutonM.jpg" STYLE="width: 12px; border: 1px solid black;" onclick="boutonmoins(3)"/></td><td id="CommM3" style="font-size: 8pt; font-style: italic"></td></tr>
+</table></td>
+</tr>
+<tr style="height: 7px"></tr>
+<tr>
+<td style="background-color: #4b3124; color: #ffffff; font-size: 12pt; padding: 4pt; vertical-align: middle" onclick="clickRace(4);">INTELLIGENCE</td>
+<td id="Stat4Val" style="font-size: 12pt; text-align: center; vertical-align: middle" onclick="clickRace(4);">10</td>
+<td id="Stat4Rac" style="font-size: 12pt; text-align: center; vertical-align: middle" onclick="clickRace(4);">+0</td>
+<td id="Stat4" style="background-color: #4b3124; color: #ffffff; font-size: 12pt; text-align: center; vertical-align: middle" onclick="clickRace(4);">10 (+0)</td>
+<td><table>
+<tr><td style="vertical-align: middle; padding: 0 2px 0 2px"><IMG SRC="http://www.pathfinder-fr.org/images/pathfinder/wiki/BoutonP.jpg" STYLE="width: 12px; border: 1px solid black;" onclick="boutonplus(4)"/></td><td id="CommP4" style="font-size: 8pt; font-style: italic"></td></tr>
+<tr><td style="vertical-align: middle; padding: 0 2px 0 2px"><IMG SRC="http://www.pathfinder-fr.org/images/pathfinder/wiki/BoutonM.jpg" STYLE="width: 12px; border: 1px solid black;" onclick="boutonmoins(4)"/></td><td id="CommM4" style="font-size: 8pt; font-style: italic"></td></tr>
+</table></td>
+</tr>
+<tr style="height: 7px"></tr>
+<tr>
+<td style="background-color: #4b3124; color: #ffffff; font-size: 12pt; padding: 4pt; vertical-align: middle" onclick="clickRace(5);">SAGESSE</td>
+<td id="Stat5Val" style="font-size: 12pt; text-align: center; vertical-align: middle" onclick="clickRace(5);">10</td>
+<td id="Stat5Rac" style="font-size: 12pt; text-align: center; vertical-align: middle" onclick="clickRace(5);">+0</td>
+<td id="Stat5" style="background-color: #4b3124; color: #ffffff; font-size: 12pt; text-align: center; vertical-align: middle" onclick="clickRace(5);">10 (+0)</td>
+<td><table>
+<tr><td style="vertical-align: middle; padding: 0 2px 0 2px"><IMG SRC="http://www.pathfinder-fr.org/images/pathfinder/wiki/BoutonP.jpg" STYLE="width: 12px; border: 1px solid black;" onclick="boutonplus(5)"/></td><td id="CommP5" style="font-size: 8pt; font-style: italic"></td></tr>
+<tr><td style="vertical-align: middle; padding: 0 2px 0 2px"><IMG SRC="http://www.pathfinder-fr.org/images/pathfinder/wiki/BoutonM.jpg" STYLE="width: 12px; border: 1px solid black;" onclick="boutonmoins(5)"/></td><td id="CommM5" style="font-size: 8pt; font-style: italic"></td></tr>
+</table></td>
+</tr>
+<tr style="height: 7px"></tr>
+<tr>
+<td style="background-color: #4b3124; color: #ffffff; font-size: 12pt; padding: 4pt; vertical-align: middle" onclick="clickRace(6);">CHARISME</td>
+<td id="Stat6Val" style="font-size: 12pt; text-align: center; vertical-align: middle" onclick="clickRace(6);">10</td>
+<td id="Stat6Rac" style="font-size: 12pt; text-align: center; vertical-align: middle" onclick="clickRace(6);">+0</td>
+<td id="Stat6" style="background-color: #4b3124; color: #ffffff; font-size: 12pt; text-align: center; vertical-align: middle" onclick="clickRace(6);">10 (+0)</td>
+<td><table>
+<tr><td style="vertical-align: middle; padding: 0 2px 0 2px"><IMG SRC="http://www.pathfinder-fr.org/images/pathfinder/wiki/BoutonP.jpg" STYLE="width: 12px; border: 1px solid black;" onclick="boutonplus(6)"/></td><td id="CommP6" style="font-size: 8pt; font-style: italic"></td></tr>
+<tr><td style="vertical-align: middle; padding: 0 2px 0 2px"><IMG SRC="http://www.pathfinder-fr.org/images/pathfinder/wiki/BoutonM.jpg" STYLE="width: 12px; border: 1px solid black;" onclick="boutonmoins(6)"/></td><td id="CommM6" style="font-size: 8pt; font-style: italic"></td></tr>
+</table></td>
+</tr>
+</table></td>
+  <td style="width:20px"></td>
+  <td style="padding: 0">
+    <table style="padding: 0">
+      <tr>
+        <td style="background-color: #fff3e6; padding: 6px; border: 0.5px solid #4b3124; vertical-align: top">
+          <table style="width:100%">
+            <tr>
+              <td style="background-color: #4b3124; color: #ffffff; font-size: 12pt; padding: 4pt; text-align: center; width: 80px">
+                COÛT
+              </td>
+              <td ROWSPAN="3" style="padding-left: 12px; font-size: x-small; vertical-align: top">
+                <b>Quotas de points selon le type de campagne :</b><br/>
+                &bull; Basse fantaisie : 10 points<br/>
+                &bull; Standard : 15 points<br/>
+                &bull; Haute fantaisie : 20 points<br/>
+                &bull; Épique : 25 points
+              </td>
+            </tr>
+            <tr style="height: 4px"><td COLSPAN="5"></td></tr>
+            <tr>
+              <td id="cout" style="background-color: #4b3124; color: #ffffff; font-size: 12pt; padding: 4pt; text-align: center">
+                0
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr style="height: 20px"><td></td></tr>
+      <tr>
+        <td COLSPAN="3" style="background-color: #fff3e6; padding: 6px; border: 0.5px solid #4b3124; vertical-align: bottom">
+          <table>
+            <tr>
+              <td COLSPAN="5" style="background-color: #4b3124; color: #ffffff; font-size: 12pt; padding: 4pt; text-align: center">
+                PRÉTIRÉS
+              </td>
+            </tr>
+            <tr style="height:8px"><td COLSPAN="5"></td></tr>
+            <tr>
+              <td style="vertical-align: middle"><b>Combattant corps à corps</b></td><td style="width:6px"></td>
+              <td onclick="setVals(13,11,12,9,10,8);" style="background-color: #4b3124; color:#fff; padding: 2pt; border-top: 2px solid #fff3e6; border-bottom: 2px solid #fff3e6;">PNJ simple</td>
+              <td style="width: 10px; text-align: center;"></td>
+              <td onclick="setVals(15,13,14,10,12,8);" style="background-color: #4b3124; color:#fff; padding: 2pt; border-top: 2px solid #fff3e6; border-bottom: 2px solid #fff3e6;">PNJ héroïque</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: middle"><b>Combattant distance</b></td><td style="width:6px"></td>
+              <td onclick="setVals(11,13,12,10,9,8);" style="background-color: #4b3124; color:#fff; padding: 2pt; border-top: 2px solid #fff3e6; border-bottom: 2px solid #fff3e6;">PNJ simple</td>
+              <td style="width: 10px; text-align: center;"></td>
+              <td onclick="setVals(13,15,14,12,10,8);" style="background-color: #4b3124; color:#fff; padding: 2pt; border-top: 2px solid #fff3e6; border-bottom: 2px solid #fff3e6;">PNJ héroïque</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: middle"><b>PNJ divin</b></td><td style="width:6px"></td>
+              <td onclick="setVals(10,8,12,9,13,11);" style="background-color: #4b3124; color:#fff; padding: 2pt; border-top: 2px solid #fff3e6; border-bottom: 2px solid #fff3e6;">PNJ simple</td>
+              <td style="width: 10px; text-align: center;"></td>
+              <td onclick="setVals(12,8,14,10,15,13);" style="background-color: #4b3124; color:#fff; padding: 2pt; border-top: 2px solid #fff3e6; border-bottom: 2px solid #fff3e6;">PNJ héroïque</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: middle"><b>Lanceur de sorts profanes (Int)</b></td><td style="width:6px"></td>
+              <td onclick="setVals(8,12,10,13,9,11);" style="background-color: #4b3124; color:#fff; padding: 2pt; border-top: 2px solid #fff3e6; border-bottom: 2px solid #fff3e6;">PNJ simple</td>
+              <td style="width: 10px; text-align: center;"></td>
+              <td onclick="setVals(8,14,12,15,10,13);" style="background-color: #4b3124; color:#fff; padding: 2pt; border-top: 2px solid #fff3e6; border-bottom: 2px solid #fff3e6;">PNJ héroïque</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: middle"><b>Lanceur de sorts profanes (Cha)</b></td><td style="width:6px"></td>
+              <td onclick="setVals(8,12,10,11,9,13);" style="background-color: #4b3124; color:#fff; padding: 2pt; border-top: 2px solid #fff3e6; border-bottom: 2px solid #fff3e6;">PNJ simple</td>
+              <td style="width: 10px; text-align: center;"></td>
+              <td onclick="setVals(8,14,12,13,10,15);" style="background-color: #4b3124; color:#fff; padding: 2pt; border-top: 2px solid #fff3e6; border-bottom: 2px solid #fff3e6;">PNJ héroïque</td>
+            </tr>
+            <tr>
+              <td style="vertical-align: middle"><b>PNJ à compétences</b></td><td style="width:6px"></td>
+              <td onclick="setVals(10,12,11,13,8,9);" style="background-color: #4b3124; color:#fff; padding: 2pt; border-top: 2px solid #fff3e6; border-bottom: 2px solid #fff3e6;">PNJ simple</td>
+              <td style="width: 10px; text-align: center;"></td>
+              <td onclick="setVals(12,14,13,15,8,10);" style="background-color: #4b3124; color:#fff; padding: 2pt; border-top: 2px solid #fff3e6; border-bottom: 2px solid #fff3e6;">PNJ héroïque</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>
+</table>
+
+<nowiki><script type="text/javascript">
+var val = new Array();
+var mod = new Array();
+var cout = 0;
+initprog();
+raz();
+
+function setAll(a,v1,v2,v3,v4,v5,v6) {
+  arrayset(a,1,v1);
+  arrayset(a,2,v2);
+  arrayset(a,3,v3);
+  arrayset(a,4,v4);
+  arrayset(a,5,v5);
+  arrayset(a,6,v6);
+}
+
+function getModForm(valmod) {
+  if (valmod >= 0) {
+    return ("+" + valmod);
+  } else {
+    return ("" + valmod);
+  }
+}
+
+function getMod(valstat) {
+  var valmod = Math.floor(valstat/2)-5;
+  return (getModForm(valmod));
+}
+
+function changeRace(val) {
+  var r = arrayget(races,parseInt(val));
+  if (r.choix == 1) {
+    document.getElementById("bonus").disabled = false;
+    document.getElementById("bonus").selectedIndex = 0;
+    setAll(mod, 2, 0, 0, 0, 0, 0);
+  }
+  else {
+    document.getElementById("bonus").disabled = true;
+    setAll(mod, r.mod1, r.mod2, r.mod3, r.mod4, r.mod5, r.mod6);
+  }
+  contenu = "";
+  if (r.lien != "")
+  {
+    document.getElementById("bwiki").href = r.lien;
+	document.getElementById("bwiki").innerHTML = "Lien vers le wiki";
+  }
+  else
+	document.getElementById("bwiki").innerHTML = "";
+  document.getElementById("descRace").innerHTML = r.desc;
+  updateVals();
+}
+
+function changeMods(val) {
+  setAll(mod,0,0,0,0,0,0);
+  arrayset(mod,parseInt(val),2);
+  updateVals();
+}
+
+function updateVals() {
+  var i = 1;
+  var statval = 0;
+  var modcout = 0;
+  for (var i = 1; i <= 6; i++) {
+    document.getElementById("Stat"+i+"Val").innerHTML = "" + arrayget(val,i);
+    document.getElementById("Stat"+i+"Rac").innerHTML = getModForm(arrayget(mod,i));
+    statval = arrayget(val,i) + arrayget(mod,i);
+    document.getElementById("Stat"+i).innerHTML = "" + statval + " (" + getMod(statval) + ")";
+    modcout = coutplus(arrayget(val,i));
+    if (modcout > 0) {
+      document.getElementById("CommP"+i).innerHTML = "coût pr augmenter : " + modcout;
+    } else {
+      document.getElementById("CommP"+i).innerHTML = "valeur maximale";
+    }
+    modcout = gainmoins(arrayget(val,i));
+    if (modcout > 0) {
+      document.getElementById("CommM"+i).innerHTML = "gain en diminuant : " + modcout;
+    } else {
+      document.getElementById("CommM"+i).innerHTML = "valeur minimale";
+    }
+  }
+  document.getElementById("cout").innerHTML = "" + cout;
+}
+
+function raz() {
+  setAll(val,10,10,10,10,10,10);
+  setAll(mod,2,0,0,0,0,0);
+  cout = 0;
+  document.getElementById("race").selectedIndex = 0;
+  document.getElementById("bonus").selectedIndex = 0;
+  changeRace(0);
+}
+
+function coutStat(statval) {
+  switch (statval) {
+    case 7:
+      return (-4);
+      break;
+    case 8:
+    case 9:
+    case 10:
+    case 11:
+    case 12:
+    case 13:
+      return (statval-10);
+      break;
+    case 14:
+      return (5);
+      break;
+    case 15:
+      return (7);
+      break;
+    case 16:
+      return (10);
+      break;
+    case 17:
+      return (13);
+      break;
+    case 18:
+      return (17);
+      break;
+  }
+}
+
+function calcCout() {
+  cout = 0;
+  for (var i = 1; i <= 6; i++) {
+    cout += coutStat(arrayget(val,i));
+  }
+}
+
+function setVals(v1,v2,v3,v4,v5,v6) {
+  setAll(val,v1,v2,v3,v4,v5,v6);
+  calcCout();
+  updateVals();
+}
+
+function coutplus(statval) {
+  if (statval == 18) {
+    return (-1);
+  } else {
+    return (coutStat(statval+1) - coutStat(statval));
+  }
+}
+
+function gainmoins(statval) {
+  if (statval == 7) {
+    return (-1);
+  } else {
+    return (coutStat(statval) - coutStat(statval-1));
+  }
+}
+
+function boutonplus(stat) {
+  if (arrayget(val,stat) < 18) {
+    cout += coutplus(arrayget(val,stat));
+    arrayset(val,stat,arrayget(val,stat)+1);
+    updateVals();
+  }
+}
+
+function boutonmoins(stat) {
+  if (arrayget(val,stat) > 7) {
+    cout -= gainmoins(arrayget(val,stat));
+    arrayset(val,stat,arrayget(val,stat)-1);
+    updateVals();
+  }
+}
+
+function clickRace(stat) {
+  if (!document.getElementById("bonus").disabled) {
+    document.getElementById("bonus").selectedIndex = stat-1;
+    changeMods(stat);
+  }
+}
+
+function initprog() {
+  races = new Array();
+  var iraces = 0;
+  arrayset(races, iraces, new Race (
+    "=== RACES DE BASE ===", "AUCUN",
+	"", 0, 0, 0, 0, 0, 0, 0
+  ));
+  iraces++;
+  arrayset(races, iraces, new Race (
+    "Humain", "",
+    "<b>Humains</b><ul><li>+2 à une caractéristique au choix.</li><li>Taille moyenne, vitesse de base 6 cases.</li><li>Don en bonus.</li><li>Compétent (+1 point de compétence à chaque niveau).</li><li>Langues : commun ; langues en bonus : n'importe lesquelles (sauf druidique).</ul>",
+    0, 0, 0, 0, 0, 0, 1
+  ));
+  iraces++;
+  arrayset(races, iraces, new Race (
+    "Demi-elfe", "",
+    "<b>Demi-elfes</b><ul><li>+2 à une caractéristique au choix.</li><li>Taille moyenne, vitesse de base 6 cases.</li><li>Vision nocturne.</li><li>Adaptabilité (un don de Talent en bonus).</li><li>Immunités elfiques (immunité contre le sommeil magique, +2 aux jets de sauvegarde contre les enchantements).</li><li>Sang elfique (fonctionnent à la fois comme des humains et des elfes pour les effets liés à la race).</li><li>Sens aiguisés (Perception +2).</li><li>Talents mulitples (deux classes de prédilection).</li><li>Langues : commun, elfe ; langues en bonus : n'importe lesquelles (sauf druidique).</ul>",
+    0, 0, 0, 0, 0, 0, 1
+  ));
+  iraces++;
+  arrayset(races, iraces, new Race (
+    "Demi-orque", "",
+    "<b>Demi-orques</b><ul><li>+2 à une caractéristique au choix.</li><li>Taille moyenne, vitesse de base 6 cases.</li><li>Vision dans le noir (12 cases).</li><li>Intimidant (Intimidation +2).</li><li>Sang orque (fonctionnent à la fois comme des humains et des orques pour les effets liés à la race).</li><li>Férocité orque (1/jour, peut se battre un round de plus lorsqu'il passe sous 0 point de vie).</li><li>Armes familières : grandes haches, cimeterres à deux mains ; armes orques considérées comme armes de guerre.</li><li>Langues : commun, orque ; langues en bonus : abyssal, draconique, géant, gnoll, gobelin.</ul>",
+    0, 0, 0, 0, 0, 0, 1
+  ));
+  iraces++;
+  arrayset(races, iraces, new Race (
+    "Elfe", "",
+    "<b>Elfes</b><ul><li>Dex +2, Int +2, Con -2.</li><li>Taille moyenne, vitesse de base 6 cases.</li><li>Vision nocturne.</li><li>Immunités elfiques (immunité contre le sommeil magique, +2 aux jets de sauvegarde contre les enchantements).</li><li>Magie elfique (+2 aux tests de NLS pour briser la RM, Art de la magie +2 pour les identifications).</li><li>Sens aiguisés (Perception +2).</li><li>Armes familièes : arcs longs (composites), arcs cours (composites), épées longues, rapières ; armes elfiques considérées comme armes de guerre.</li><li>Langues : commun, elfe ; langues en bonus : céleste, draconique, gnoll, gnome, gobelin, orque, sylvestre.</ul>",
+    0, 2, -2, 2, 0, 0, 0
+  ));
+  iraces++;
+  arrayset(races, iraces, new Race (
+    "Halfelin", "",
+    "<b>Halfelins</b><ul><li>Dex +2, Cha +2, For -2.</li><li>Petite taille (CA +1, attaque +1, BMO -1, DMD -1, Discrétion +4), vitesse de base 4 cases.</li><li>Sans peur (+2 aux jets de sauvegarde contre la terreur).</li><li>Chance des halfelins (+1 à tous les jets de sauvegarde).</li><li>Sens aiguisés (Perception +2).</li><li>Bon équilibre (Acrobaties +2, Escalade +2).</li><li>Armes familières : frondes ; armes hafelines considérées comme armes de guerre.</li><li>Langues : commun, halfelin ; langues en bonus : abyssal, elfe, gnome, gobelin, nain.</ul>",
+    -2, 2, 0, 0, 0, 2, 0
+  ));
+  iraces++;
+  arrayset(races, iraces, new Race (
+    "Gnome", "",
+    "<b>Gnomes</b><ul><li>Con +2, Cha +2, For -2.</li><li>Petite taille (CA +1, attaque +1, BMO -1, DMD -1, Discrétion +4), vitesse de base 4 cases.</li><li>Vision nocturne.</li><li>Entraînement défensif (CA +4 contre les géants).</li><li>Haine (attaque +1 contre les reptiliens et gobelinoïdes).</li><li>Magie gnome (+1 au DD des illusions lancées ; s'ils possèdent un Charisme de 11+ : 1/jour - <i>communication avec les animaux, lumières dansantes, prestidigitation, son imaginaire</i> avec un NLS égal à leur niveau ; DD des jets de sauvegarde égal à 10 + niveau du sort + modificateur de Charisme).</li><li>Obsession (+2 à une compétence d'Artisanat ou de Profession au choix).</li><li>Résistance aux illusions (+2 aux jets de sauvegarde contre les illusions).</li><li>Sens aiguisés (Perception +2).</li><li>Armes familières : armes gnomes considérées comme armes de guerre.</li><li>Langues : commun, gnome ; langues en bonus : draconique, elfe, géant, nain, orque.</ul>",
+    -2, 0, 2, 0, 0, 2, 0
+  ));
+  iraces++;
+  arrayset(races, iraces, new Race (
+    "Nain", "",
+    "<b>Nains</b><ul><li>Con +2, Sag +2, Cha -2.</li><li>Taille moyenne, vitesse de base 4 cases jamais modifiée par l'armure ni par la charge portée.</li><li>Vision dans le noir (12 cases).</li><li>Avarice (Estimation +2 pour déterminer le prix d'objets non magiques comportant des métaux/gemmes).</li><li>Connaissance de la pierre (Perception +2 pour remarquer les irrégularités dans les constructions en pierre ; test automatique en passant à moins de 2 cases d'une porte cachée dans la pierre ou élément similaire).</li><li>Entraînement défensif (CA +4 contre les géants).</li><li>Haine (attaque +1 contre les orques et gobelinoïdes).</li><li>Robuste (+2 aux jets de sauvegarde contre les poisons, les sorts et les pouvoirs magiques).</li><li>Stabilité (DMD +4 pour résister à une bousculade ou à un croc-en-jambe s'ils se trouvent sur le sol).</li><li>Armes familières : haches d'arme, pics de guerre lourds, marteaux de guerre ; armes naines considérées comme armes de guerre.</li><li>Langues : commun, nain ; langues en bonus : commun des profondeurs, élémentaire, géant, gnome, gobelin, orque.</ul>",
+    0, 0, 2, 0, 2, -2, 0
+  ));
+  iraces++;
+  arrayset(races, iraces, new Race (
+    "=== RACES DU BESTIAIRE 1 ===", "AUCUN",
+	"", 0, 0, 0, 0, 0, 0, 0
+  ));
+  iraces++;
+  arrayset(races, iraces, new Race (
+    "Aasimar", "",
+    "<b>Aasimars</b> (Bestiaire 1)<ul><li>Cha +2, Sag +2.</li><li>Taille moyenne, vitesse de base 6 cases.</li><li>Vision dans le noir (12 cases).</li><li>Compétents (+2 Diplomatie, +2 Perception).</li><li>Pouvoir magique (<i>lumière du jour</i>, 1/jour, NLS = DV).</li><li>Résistance céleste (acide 5, électricité 5, froid 5).</li><li>Langues : commun, céleste ; langues en bonus : draconique, elfe, gnome, halfelin, nain, sylvestre.</li></ul>",
+    0, 0, 0, 0, 2, 2, 0
+  ));
+  iraces++;
+  arrayset(races, iraces, new Race (
+    "Drow", "",
+    "<b>Drows</b> (Bestiaire 1)<ul><li>Dex +2, Con -2, Cha +2.</li><li>Taille moyenne, vitesse de base 6 cases.</li><li>Vision dans le noir (24 cases), aveuglés par la lumière.</li><li>Apprentissage martial (arbalète de poing, épée courte, rapière).</li><li>Immunités drow (immunisé contre sommeil magique, +2 aux JdS contre Enchantement).</li><li>Pouvoirs magiques (<i>lueur féerique</i>, <i>lumière dansante</i>, <i>ténèbres</i>, 1/jour, NLS = DV).</li><li>RM = 6 + DV.</li><li>Utilisation des poisons.</li><li>Langues : commun des profondeurs, elfe ; langues en bonus : abyssal, aklo, aquatique, commun, draconique, gnome, gobelin, langue signée des drows.</li><ul>",
+    0, 2, -2, 0, 0, 2, 0
+  ));
+  iraces++;
+  arrayset(races, iraces, new Race (
+    "Duergar", "",
+    "<b>Duergars</b> (Bestiaire 1)<ul><li>Con +2, Sag +2, Cha -4.</li><li>Taille moyenne, vitesse de base 4 cases.</li><li>Lentement mais sûrement (vitesse jamais réduite par l'armure ou la charge portée).</li><li>Vision dans le noir (24 cases), sensibles à la lumière.</li><li>Stabilité (DMD +4 contre bousculade et croc-en-jambe).</li><li>Immunités duergar (immunisés contre paralysie, fantasmes, poisons, +2 aux JdS contre sorts/pouvoirs magiques).</li><li>Pouvoirs magiques (<i>agrandissement</i>, <i>invisibilité</i> sur lui-même, 1/jour, NLS = DV).</li><li>Langues : commun, commun des profondeurs, nain ; langues en bonus : aklo, draconique, géant, gobelin, orque, terreux.</li></ul>",
+    0, 0, 2, 0, 2, -4, 0
+  ));
+  iraces++;
+  arrayset(races, iraces, new Race (
+    "Gobelin", "",
+    "<b>Gobelis</b> (Bestiaire 1)<ul><li>For -2, Dex +4, Cha -2.</li><li>Petite taille (CA +1, attaque +1, BMO -1, DMD -1, Discrétion +4), vitesse de base 6 cases.</li><li>Rapidité (vitesse de base 6 cases malgré taille P).</li><li>Vision dans le noir (12 cases).</li><li>Compétents (+4 Discrétion, +4 Équitation).</li><li>Langues : gobelin ; langues en bonus : commun, draconique, gnoll, gnome, halfelin, nain, orque.</li></ul>",
+    -2, 4, 0, 0, 0, -2, 0
+  ));
+  iraces++;
+  arrayset(races, iraces, new Race (
+    "Hobgobelin", "",
+    "<b>Hobgobelins</b> (Bestiaire 1)<ul><li>Dex +2, Con +2.</li><li>Taille moyenne, vitesse de base 6 cases.</li><li>Vision dans le noir (12 cases).</li><li>Discrets (+4 Discrétion).</li><li>Langues : commun, gobelin ; langues supplémentaires : draconique, infernal, nain, orque.</li></ul>",
+    0, 2, 2, 0, 0, 0, 0
+  ));
+  iraces++;
+  arrayset(races, iraces, new Race (
+    "Homme-poisson", "",
+    "<b>Hommes-poissons</b> (Bestiaire 1)<ul><li>Dex +2, Con +2, Cha +2.</li><li>Taille moyenne, vitesse de déplacement 1 case.</li><li>Aquatique (respirer sous l'eau, amphibie, nage 10 cases).</li><li>Vision nocturne.</li><li>Armure naturelle +2.</li><li>Langues : aquatique, commun ; langues en bonus : aboleth, aklo, draconique, elfe, sahuagin, sylvestre.</li></ul>",
+    0, 2, 2, 0, 0, 2, 0
+  ));
+  iraces++;
+  arrayset(races, iraces, new Race (
+    "Kobold", "",
+    "<b>Kobolds</b> (Bestiaire 1)<ul><li>For -4, Dex +2, Con -2.</li><li>Petite taille (CA +1, attaque +1, BMO -1, DMD -1, Discrétion +4), vitesse de base 6 cases.</li><li>Vision dans le noir (12 cases), sensibles à la lumière.</li><li>Armure naturelle +1.</li><li>Ingénieux (+2 Artisanat (pièges), Perception, Profession (mineur)).</li><li>Artisanat (pièges) et Discrétion sont des compétences de classe.</li><li>Langues : draconique ; langues en bonus : commun, commun des profondeurs, gnome, nain.</li></ul>",
+    -4, 2, 2, 0, 0, 0, 0
+  ));
+  iraces++;
+  arrayset(races, iraces, new Race (
+    "Orque", "",
+    "<b>Orques</b> (Bestiaire 1)<ul><li>For +4, Int -2, Sag -2, Cha -2.</li><li>Taille moyenne, vitesse de base 6 cases.</li><li>Vision dans le noir (12 cases), sensibles à la lumière.</li><li>Apprentissage martial (grande hache, cimeterre à deux mains, armes orques considérées comme de guerre).</li><li>Férocité.</li><li>Langues : commun, orque ; langues en bonus : commun des profondeurs, géant, gnoll, gobelin, nain.</li></ul>",
+    4, 0, 0, -2, -2, -2, 0
+  ));
+  iraces++;
+  arrayset(races, iraces, new Race (
+    "Svirfneblin", "",
+    "<b>Svirnfneblins</b> (Bestiaire 1)<ul><li>For -2, Dex +2, Sag +2, Cha -4.</li><li>Petite taille (CA +1, attaque +1, BMO -1, DMD -1, Discrétion +4), vitesse de base 4 cases.</li><li>Vision dans le noir (24 cases), vision nocturne.</li><li>Compétents (+2 Discrétion, +4 Discrétion sous terre, +2 Artisanat (alchimie), +2 Perception).</li><li>Connaissance de la pierre (Perception +2 pour remarquer les irrégularités dans les constructions en pierre ; test automatique en passant à moins de 2 cases d'une porte cachée dans la pierre ou élément similaire).</li><li>Chanceux (+2 à tous les JdS).</li><li>Entraînement défensif (+2 esquive à la CA).</li><li>Haine (attaque +1 contre reptiliens et nains).</li><li>Magie des svirneblins (+1 au DD des illusion qu'ils lancent, constant—<i>antidétection</i>, 1/jour—<i>cécité/surdité</i>, <i>déguisement</i>,<i>flou</i>).</li><li>RM = 11 + niveau.</li><li>Langues : commun des profondeurs, gnome ; langues en bonus : aklo, commun, draconique, elfe, géant, gobelin, orque, nain, terreux.</li></ul>",
+    -2, 2, 0, 0, 2, -4, 0
+  ));
+  iraces++;
+  arrayset(races, iraces, new Race (
+    "Tengu", "",
+    "<b>Tengus</b> (Bestiaire 1)<ul><li>Dex +2, Con -2, Sag +2.</li><li>Taille moyenne, vitesse de base 6 cases.</li><li>Vision nocturne.</li><li>Sournois (+2 Discrétion, +2 Perception).</li><li>Linguise doué (+4 Linguistique, gagnent 2 nouvelles langues à chaque rang de Linguistique).</li><li>Formation martiale (épées au sens large, y compris cimeterres à deux mains, cimeterres, dagues de poing, dagues, doubles lames, épées à deux mains, épées bâtardes, épées courtes, épées longues, kukris, lames elfiques incurvées, rapières).</li><li>Arme naturelle (morsure, 1d3).</li><li>Langues : commun, tengu ; langues en bonus : toutes.</li></ul>",
+    0, 2, -2, 0, 2, 0, 0
+  ));
+  iraces++;
+  arrayset(races, iraces, new Race (
+    "Tieffelin", "",
+    "<b>Tieffelins</b> (Bestiaire 1)<ul><li>Dex +2, Int +2, Cha -2.</li><li>Taille moyenne, vitesse de base 6 cases.</li><li>Vision dans le noir (12 cases).</li><li>Compétents (+2 Bluff, +2 Discrétion).</li><li>Magie des fiélons (+2 Charisme pour le lignage abyssal ou infernal).</li><li>Pouvoirs magiques (1/jour—<i>ténèbres</i>, NLS = DV).</li><li>Résistances des fiélons (électricité 5, feu 5, froid 5).</li><li>Langues : commun, abyssal (ou infernal) ; langues en bonus : abyssal, draconique, elfe, gnome, gobelin, halfelin, infernal, nain, orque.</li></ul>",
+    0, 2, 0, 2, 0, -2, 0
+  ));
+  iraces++;
+  arrayset(races, iraces, new Race (
+    "=== RACES DU BESTIAIRE 2 ===", "AUCUN",
+	"", 0, 0, 0, 0, 0, 0, 0
+  ));
+  iraces++;
+  arrayset(races, iraces, new Race (
+    "Dhampir", "",
+    "<b>Dhampirs</b> (Bestiaire 2)<ul><li>Dex +2, Con -2, Cha +2.</li><li>Taille moyenne, vitesse de base 6 cases.</li><li>Vision dans le noir (12 cases), vision nocturne, sensibles à la lumière.</li><li>Manipulateur (+2 Bluff, +2 Perception).</li><li>Résistance des morts-vivants (+2 aux JdS contre les maladies et les effets mentaux).</li><li>Résistance à l'absorption d'énergie.</li><li>Affinité avec l'énergie négative.</li><li>Pouvoirs magiques (3/jour—<i>détection des morts-vivants</i>, NLS = niveau).</li><li>Langues : commun ; langues en bonus : toutes.</li></ul>",
+    0, 2, -2, 0, 0, 2, 0
+  ));
+  iraces++;
+  arrayset(races, iraces, new Race (
+    "Fetchelin", "",
+    "<b>Fetchelins</b> (Bestiaire 2)<ul><li>Dex +2, Sag -2, Cha +2.</li><li>Taille moyenne, vitesse de base 6 cases.</li><li>Vision dans le noir (12 cases), vision nocturne.</li><li>Compétents (+2 Connaissances (plans), +2 Discrétion).</li><li>Fusion dans les ombres (50% échec des attaques au lieu de 20% dans la pénombre).</li><li>Résistance des ombres (électricité 5, froid 5).</li><li>Pouvoirs magiques (1/jour—<i>déguisement</i>; au niveau 9 : 1/jour—<i>traversée des ombres</i> ; au niveau 13 : 1/jour—<i>changement de plan</i> entre plan Matériel et plan des Ombres, NLS = niveau).</li><li>Langues : commun ; langues en bonus : aérien, aklo, aquatique, draconique, d'ziriak, igné, terreux, langues humaines régionales.</li></ul>",
+    0, 2, 0, 0, -2, 2, 0
+  ));
+  iraces++;
+  arrayset(races, iraces, new Race (
+    "Grippli", "",
+    "<b>Gripplis</b> (Bestiaire 2)<ul><li>For -2, Dex +2, Sag +2.</li><li>Petite taille (CA +1, attaque +1, BMO -1, DMD -1, Discrétion +4), vitesse de base 6 cases.</li><li>Rapides (vitesse 6 cases, escalade 4 cases).</li><li>Vision dans le noir (12 cases).</li><li>Camouflage (+4 Discrétion dans les forêts et les marais).</li><li>Déplacements facilités (marais).</li><li>Formation martiale (filets).</li><li>Langues : commun, grippli ; langues en bonus : bourbiérin, draconique, elfe, gnome, gobelin, sylvestre.</li></ul>",
+    -2, 2, 0, 0, 2, 0, 0
+  ));
+  iraces++;
+  arrayset(races, iraces, new Race (
+    "Ifrit", "",
+    "<b>Ifrits</b> (Bestiaire 2)<ul><li>Dex +2, Sag -2, Cha +2.</li><li>Taille moyenne, vitesse de base 6 cases.</li><li>Vision dans le noir (12 cases).</li><li>Résistance élémentaire (feu 5).</li><li>Affinité élémentaire (Cha +2 pour le lignage élémentaire du Feu, NLS +1 pour le domaine du Feu).</li><li>Pouvoirs magiques (1/jour—<i>mains brûlantes</i>, NLS = DV).</li><li>Langues : commun, igné ; langues en bonus : aérien, aquatique, elfe, gnome, halfelin, nain, terreux.</li></ul>",
+    0, 2, 0, 0, -2, 2, 0
+  ));
+  iraces++;
+  arrayset(races, iraces, new Race (
+    "Ondine", "",
+    "<b>Ondines</b> (Bestiaire 2)<ul><li>For -2, Dex +2, Sag +2.</li><li>Taille moyenne, vitesse de base 6 cases.</li><li>Vision dans le noir (12 cases).</li><li>Résistance élémentaire (froid 5).</li><li>Affinité élémentaire (Cha +2 pour le lignage élémentaire de l'Eau, NLS +1 pour le domaine de l'Eau).</li><li>Pouvoirs magiques (1/jour—<i>poussée hydraulique</i>, NLS = DV).</li><li>Langues : commun, aquatique ; langues en bonus : aérien, elfe, gnome, halfelin, igné, nain, terreux.</li></ul>",
+    -2, 2, 0, 0, 2, 0, 0
+  ));
+  iraces++;
+  arrayset(races, iraces, new Race (
+    "Oréade", "",
+    "<b>Oréades</b> (Bestiaire 2)<ul><li>For +2, Sag +2, Cha -2.</li><li>Taille moyenne, vitesse de base 6 cases.</li><li>Vision dans le noir (12 cases).</li><li>Résistance élémentaire (acide 5).</li><li>Affinité élémentaire (Cha +2 pour le lignage élémentaire de la Terre, NLS +1 pour le domaine de la terre).</li><li>Pouvoirs magiques (1/jour—<i>pierre magique</i>, NLS = DV).</li><li>Langues : commun, terreux ; langues en bonus : aérien, aquatique, elfe, gnome, halfelin, igné, nain.</li></ul>",
+    2, 0, 0, 0, 2, -2, 0
+  ));  
+  iraces++;
+  arrayset(races, iraces, new Race (
+    "Sylphe", "",
+    "<b>Sylphes</b> (Bestiaire 2)<ul><li>Dex +2, Con -2, Int +2.</li><li>Taille moyenne, vitesse de base 6 cases.</li><li>Vision dans le noir (12 cases).</li><li>Résistance élémentaire (électricité 5).</li><li>Affinité élémentaire (Cha +2 pour le lignage élémentaire de l'Air, NLS +1 pour le domaine de l'Air).</li><li>Pouvoirs magiques (1/jour—<i>feuille morte</i>, NLS = DV).</li><li>Langues : commun, aérien ; langues en bonus : aquatique, elfe, gnome, halfelin, igné, nain, terreux.</li></ul>",
+    0, 2, -2, 2, 0, 0, 0
+  ));
+  iraces++;
+  arrayset(races, iraces, new Race (
+    "=== RACES DU BESTIAIRE 3 ===", "AUCUN",
+	"", 0, 0, 0, 0, 0, 0, 0
+  ));
+  iraces++;
+  arrayset(races, iraces, new Race (
+    "Homme-chat", "",
+    "<b>Hommes-chats</b> (Bestiaire 3)<ul><li>Dex +2, Sag -2, Cha +2.</li><li>Taille moyenne, vitesse de base 6 cases.</li><li>Vision nocturne.</li><li>Chance du félin (1/jour, peut lancer deux jets de Réflexes au lieu d'un et choisir le meilleur).</li><li>Sprinter (+2 cases à la vitesse en cas de charge, de repli ou de course).</li><li>Chasseur né (+2 Perception, Discrétion et Survie).</li><li>Langues : commun, homme-chat ; langues supplémentaires : elfe, gnoll, gnome, gobelin, halfilng, orque, sylvestre.</li></ul>",
+    0, 2, 0, 0, -2, 2, 0
+  ));
+  iraces++;
+  arrayset(races, iraces, new Race (
+    "Homme-rat", "",
+    "<b>Hommes-rats</b> (Bestiaire 3)<ul><li>For -2, Dex +2, Int +2.</li><li>Petite taille (CA +1, attaque +1, BMO -1, DMD -1, Discrétion +4), vitesse de base 6 cases.</li><li>Vision dans le noir (12 cases).</li><li>Bricoleur (+2 Artisanat/Alchimie, Perception et Utilisation d'objets magiques).</li><li>Empathie avec les rongeurs (+4 Dressagepour influencer les rongeurs).</li><li>Attaque en masse (des hommes-rats peuvent partager la même case et bénéficier d'un avantage au combat ; voir Bestaire).</li><li>Langues : commun, homme-rat ; langues supplémentaires : aklo, commun des profondeurs, draconique, gnoll, gnome, gobelin, halfling, nain, orque.</li></ul>",
+    -2, 2, 0, 2, 0, 0, 0
+  )); 
+  iraces++;
+  arrayset(races, iraces, new Race (
+    "Suli", "",
+    "<b>Sulis</b> (Bestiaire 3)<ul><li>For +2, Int -2, Cha +2.</li><li>Taille moyenne, vitesse de base 6 cases.</li><li>Vision nocturne.</li><li>Négociateur (+2 Diplomatie, Psychologie).</li><li>Attaque élémentaire (1/jour, peut ajouter +1d6 dégâts d'énergie aux attaques à mains nues, voir Bestiaire).</li><li>Résistance élémentaire (acide 5, froid 5, feu 5, électricité 5).</li><li>Langues : commun, une langue élémentaire (aérien, terreux, igné ou aquatique) ; langues en bonus : langues élémentaires, draconique.</li></ul>",
+    2, 0, 0, -2, 0, 2, 0
+  ));  
+  iraces++;
+  arrayset(races, iraces, new Race (
+    "Vanara", "",
+    "<b>Vanaras</b> (Bestiaire 3)<ul><li>Dex +2, Sag +2, Cha -2.</li><li>Taille moyenne, vitesse de base 6 cases ; escalade 4 cases.</li><li>Vision nocturne.</li><li>Agile (+2 Acrobaties, Discrétion).</li><li>Queue préhensile (ne peut pas porter d'arme mais peut récupérer des petits objets en une action rapide).</li><li>Langues : commun, vanara ; langues en bonus : aklo, céleste, elfe, gnome, gobelin, sylvestre.</li></ul>",
+    0, 2, 0, 0, 2, -2, 0
+  ));
+  iraces++;
+  arrayset(races, iraces, new Race (
+    "Vishkanya", "",
+    "<b>Vishkanyas</b> (Bestiaire 3)<ul><li>Dex +2, Sag -2, Cha +2.</li><li>Taille moyenne, vitesse de base 6 cases.</li><li>Vision nocturne.</li><li>Sens affûtés (+2 Perception).</li><li>Agile (+2 Évasion et Discrétion).</li><li>Résistance au poison (bonus aux JdS contre le poison = nombre de DV).</li><li>Utilisation de poisons (ne s'empoisonne jamais accidentellement).</li><li>Apprentissage martial (formé à l'utilisation des sarbacanes, des kukris et des shurikens).</li><li>Langues : commun, vishkanya ; langues en bonus : aklo, commun des profondeurs, draconique, elfe, gobelin, sylvestre.</li></ul>",
+    0, 2, 0, 0, -2, 2, 0
+  ));
+  iraces++;
+  
+  var sel = document.getElementById("race");
+
+  for (var i = 0 ; i < races.length ; i++) {
+    $("#race").append("<option value=\"" + i + "\">" + races[i].nom + "</option>");
+    //arrayset(sel.options, i, new Option (races[i].nom, "" + i));
+  }
+}
+
+function Race (nom, lien, desc, mod1, mod2, mod3, mod4, mod5, mod6, choix) {
+  this.nom = nom;
+  if (lien == "AUCUN")
+    this.lien = "";
+  else if (lien == "")
+    this.lien = "http://www.pathfinder-fr.org/Wiki/Pathfinder-RPG." + nom + ".ashx";
+  else
+    this.lien = lien;
+  if (desc == "")
+    this.desc = "Choisissez une race ci-contre.";
+  else
+    this.desc = desc;
+  this.mod1 = mod1;
+  this.mod2 = mod2;
+  this.mod3 = mod3;
+  this.mod4 = mod4;
+  this.mod5 = mod5;
+  this.mod6 = mod6;
+  this.choix = choix;
+}
+
+</script></nowiki>

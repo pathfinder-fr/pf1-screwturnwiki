@@ -1,0 +1,50 @@
+---
+Name: Pathfinder-RPG.Déroulement dun combat
+Title: Le déroulement d'un combat
+LastModified: 2017-11-17 14:12
+Categories:
+  - 'Combat'
+---
+{toc}
+
+Un combat se déroule de manière cyclique. Tous les participants agissent dans le même ordre d’un round sur l’autre. Généralement, voici comment un combat s’organise :
+
+1. Quand le combat commence, tous les combattants font un [[déroulement dun combat#INITIATIVE|test d’initiative]].
+
+2. Il faut savoir quels personnages sont conscients de la présence de l’adversaire car ils peuvent agir durant un [[déroulement dun combat#ROUNDSURPRISE|round de surprise]]. Si tous les personnages sont conscients de la présence de leurs adversaires, le premier round se déroule normalement. Voir la section sur le [[déroulement dun combat#ROUNDSURPRISE|round de surprise]] pour plus de détails.
+
+3. Après le [[déroulement dun combat#ROUNDSURPRISE|round de surprise]] (le cas échéant), tous les combattants sont prêts à entamer le premier round normal de combat
+
+4. Tous les personnages agissent dans l’ordre indiqué par le [[déroulement dun combat#INITIATIVE|test d’initiative]] (du plus grand au plus petit).
+
+5. Une fois que tout le monde a joué son tour de jeu, le nouveau round commence avec celui qui a obtenu la meilleure [[déroulement dun combat#INITIATIVE|initiative]] ; les étapes 3 et 4 se succèdent alternativement jusqu’à la fin du combat.
+
+{s:Reference|ROUNDCOMBAT}
+=== Le round de combat ===
+Dans l’univers du jeu, chaque round correspond environ à 6 secondes et 10 rounds équivalent à une minute de combat. Un round permet à chaque personnage impliqué dans le combat d’agir.
+
+Chaque round commence par le tour de jeu du personnage ayant obtenu l’[[déroulement dun combat#INITIATIVE|initiative]] le plus élevée. Quand c’est au tour d’un personnage, il accomplit alors toutes les actions qui lui sont allouées (pour les exceptions, voir « [[attaque dopportunité|Les attaques d’opportunité]] » et « [[Actions modifiant linitiative|Actions modifiant l’initiative]] »).
+
+Quand les règles se réfèrent à un « round complet », cela signifie généralement une période qui débute à une valeur d’[[déroulement dun combat#INITIATIVE|initiative]] donnée au cours d’un round et se termine quand le round suivant atteint la même valeur. Les effets qui se prolongent sur plusieurs rounds s’achèvent juste avant d’atteindre la valeur d’[[déroulement dun combat#INITIATIVE|initiative]] à laquelle ils ont débuté.
+
+{s:Reference|INITIATIVE}
+=== L’initiative ===
+Au début du combat, chaque participant effectue un test d’initiative. Il s’agit d’un test de [[Dextérité]]. Chaque personnage applique son modificateur de [[Dextérité]] au test, ainsi que tout modificateur pouvant être causé par des dons, des sorts, et tout autre effet. Les personnages et leurs adversaires agissent dans l’ordre des résultats (celui qui obtient le test d’initiative le plus élevé commence, et ainsi de suite jusqu’au plus petit). Le résultat du test d’initiative initial s’applique à tout le combat, sauf si l’un des protagonistes exécute une action modifiant son initiative (voir « [[Actions modifiant linitiative|Actions modifiant l’initiative]] »).
+
+Si deux combattants obtiennent le même résultat au test d’initiative, c’est le combattant qui a le modificateur total d’initiative le plus élevé qui commence. Si cela ne suffit pas à départager les deux protagonistes, déterminez l’initiative à pile ou face
+
+{s:Reference|PRISAUDEPOURVU}'''Pris au dépourvu.''' Tout participant à un combat est pris au dépourvu tant qu’il n’a pas eu le temps d’agir (autrement dit, tant que son tour de jeu n’est pas arrivé, lors du premier round). Un personnage pris au dépourvu perd un éventuel bonus de [[Dextérité]] à la [[CA]]. Le pouvoir extraordinaire d’[[roublard#ESQUIVEINSTINCTIVE|esquive instinctive]] que possèdent [[barbare|barbares]] et [[roublard|roublards]] leur permet de ne pas être pris au dépourvu. Un personnage possédant l’[[roublard#ESQUIVEINSTINCTIVE|esquive instinctive]] ne perd pas son bonus de [[Dextérité]] à la [[CA]] et est à même de lancer des [[attaque dopportunité|attaques d’opportunité]] avant même d’avoir agi durant le premier round de combat. Un personnage pris au dépourvu ne peut pas porter d’[[attaque dopportunité|attaque d’opportunité]], sauf s’il possède le don [[Attaques réflexes]].
+
+'''Inaction.''' Même si un personnage est incapable d’agir, il conserve sa place dans l’ordre d’initiative pour cette rencontre.
+
+{s:Reference|SURPRISE}
+=== La surprise ===
+Au début du combat, les protagonistes qui ne sont pas conscients de la présence de l’ennemi sont automatiquement surpris (à condition d’avoir été repérés par la partie adverse, bien sûr).
+
+Parfois, tous les membres du groupe sont conscients de la présence de l’ennemi, mais il se peut aussi que personne n’ait vu ou entendu quoi que ce soit, ou encore que seuls certains personnages soient surpris. Quand deux groupes adverses se rencontrent, il est tout à fait possible que seuls certains membres de chaque groupe réagissent assez rapidement pour ne pas se laisser surprendre.
+
+On peut faire un test de [[Perception]] pour déterminer si les personnages décèlent la présence de l’ennemi.
+
+{s:Reference|ROUNDSURPRISE}'''Le round de surprise.''' Si une partie des combattants sont conscients de la présence de l’adversaire (mais pas tous), un round de surprise a lieu avant le début du combat proprement dit. Dans l’ordre des [[déroulement dun combat#INITIATIVE|initiatives]] (de la plus grande à la plus petite), les combattants à même d’agir effectuent une [[action simple]] ou de [[action de mouvement|mouvement]], ainsi, éventuellement, que des [[action libre|actions libres]]. Si personne n’est surpris (ou si tout le monde l’est), il n’y a pas de round de surprise.
+
+'''Combattants inconscients du danger.''' Les créatures qui n’ont pas perçu la présence de leurs ennemis sont incapables d’agir lors du [[Déroulement dun combat#ROUNDSURPRISE|round de surprise]]. Elles sont automatiquement [[Déroulement dun combat#PRISAUDEPOURVU|prises au dépourvu]] puisqu’elles n’ont pas encore agi et perdent leur éventuel bonus de [[Dextérité]] à la [[CA]].

@@ -1,0 +1,52 @@
+---
+Name: Pathfinder-RPG.Types dactions
+Title: Les types d'actions
+LastModified: 2010-06-29 19:44
+Categories:
+  - 'Combat'
+---
+{toc}
+
+Pendant un tour, le personnage peut accomplir tout un éventail d’actions, qu’il s’agisse de frapper avec son épée ou de lancer un sort.
+
+Chaque type d’action définit le temps requis pour l’effectuer (dans le cadre des 6 secondes du round de combat) et comment gérer le déplacement. Il y a six types d’actions : l’[[Types dactions#SIMPLE|action simple]], l’[[Types dactions#MOUVEMENT|action de mouvement]], l’[[Types dactions#COMPLEXE|action complexe]], l’[[Types dactions#LIBRE|action libre]], l’[[Types dactions#RAPIDE|action rapide]] et l’[[Types dactions#IMMEDIATE|action instantanée]].
+
+Au cours d’un round ordinaire, un personnage peut effectuer une [[Types dactions#SIMPLE|action simple]] et une [[Types dactions#MOUVEMENT|action de mouvement]] ou bien une seule [[Types dactions#COMPLEXE|action complexe]]. Il peut ajouter une ou plusieurs [[Types dactions#LIBRE|actions libres]] aux actions du tour, ainsi qu’une [[Types dactions#RAPIDE|action rapide]]. Il peut toujours remplacer une action [[Types dactions#SIMPLE|simple]] par une [[Types dactions#MOUVEMENT|action de mouvement]].
+
+Dans certaines situations, comme pendant le [[Déroulement dun combat#SURPRISE|round de surprise]], l’activité d’un personnage peut être restreinte. Celui-ci ne peut alors effectuer qu’une [[Types dactions#SIMPLE|action simple]] ou une [[Types dactions#MOUVEMENT|action de mouvement]].
+
+{s:Reference|SIMPLE}
+=== Action simple ===
+Une action simple permet d’accomplir quelque chose, comme attaquer ou lancer un sort. Voir la [[Actions simples|liste des actions simples]].
+
+{s:Reference|MOUVEMENT}
+=== Action de mouvement ===
+L’action de mouvement permet au personnage de se déplacer sur une distance égale ou inférieure à sa vitesse de base ou d’accomplir une action demandant le même temps. Voir la [[Actions de mouvement|liste des actions de mouvement]].
+
+On peut faire une action de mouvement au lieu d’une [[Types dactions#SIMPLE|action simple]]. Si un personnage ne se déplace pas au cours du round (souvent parce qu’il a troqué son déplacement contre une ou plusieurs actions équivalentes), il peut tout de même accomplir un pas de placement de 1,50 m, pendant, avant ou après son action.
+
+{s:Reference|COMPLEXE}
+=== Action complexe ===
+Une action complexe demande un round entier. Le déplacement du personnage se limite à un pas de placement (avant, pendant ou après son action). Il peut aussi accomplir des [[Types dactions#LIBRE|actions libres]] et des [[Types dactions#RAPIDE|actions rapides]]. Voir la [[Actions complexes|liste des actions complexes]].
+
+Certaines actions complexes ne laissent pas de temps pour un pas de placement.
+
+Le personnage peut effectuer certaines actions complexes en tant qu’[[Types dactions#SIMPLE|actions simples]], mais uniquement s’il réduit son activité à une seule [[types dactions#SIMPLE|action simple]] par round. La [[Actions complexes|description des actions complexes]] indique si cela est possible.
+
+{s:Reference|LIBRE}
+=== Action libre ===
+Les actions libres prennent un temps négligeable et ne demandent presque aucun effort. Le personnage peut en accomplir une ou plusieurs tout en exécutant l’action qu’il a choisie. On peut effectuer plusieurs actions libres au cours d’un round, dans les limites du raisonnable et avec l’accord du [[MJ]]. Voir la [[actions libres|liste des actions libres]].
+
+{s:Reference|RAPIDE}
+=== Action rapide ===
+Une action rapide demande peu de temps mais représente une dépense d’énergie ou un effort plus important qu’une [[Types dactions#LIBRE|action libre]]. On ne peut accomplir qu’une action rapide par tour. Voir la [[actions rapides|liste des actions rapides]].
+
+{s:Reference|IMMEDIATE}
+=== Action immédiate ===
+Une action immédiate ressemble fort à une [[Types dactions#RAPIDE|action rapide]], si ce n’est qu’elle peut être accomplie à n’importe quel moment, même si ce n’est pas le tour du personnage. Voir la [[actions immédiates|liste des actions immédiates]].
+
+=== Ne compte pas comme une action ===
+Certaines activités mineures ne comptent même pas comme des [[Types dactions#LIBRE|actions libres]]. Elles ne prennent pas de temps et on les considère comme partie inhérente d’autre chose, comme encocher une flèche lors d’une attaque à l’arc.
+
+=== Activité restreinte ===
+Dans certains cas, l’activité d’un personnage au cours du round peut être limitée. Dans ce cas, le personnage ne peut effectuer qu’une [[Types dactions#SIMPLE|action simple]] ou une [[Types dactions#MOUVEMENT|action de mouvement]] dans le round (en plus des [[Types dactions#LIBRE|actions libres]] et [[Types dactions#RAPIDE|rapides]] ordinaires). Le personnage ne peut pas entreprendre une [[Types dactions#COMPLEXE|action complexe]] dans cette situation, mais il peut en commencer une ou la terminer à l’aide d’une [[Types dactions#SIMPLE|action simple]].

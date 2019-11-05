@@ -1,0 +1,456 @@
+---
+Name: Guide tableaux
+Title: Guide de création : les tableaux
+LastModified: 2017-05-18 20:04
+---
+<div class="fright">{s:MenuGuide}</div>
+Cette section traite d'un sujet relativement complexe : les tableaux. Alors qu'il est assez facile de composer des tableaux simples, dès qu'on veut peaufiner la présentation et ajouter des sous-titres et d'autres options, le code peut rapidement devenir plus difficile à mettre en place.
+
+'''Note.''' L'usage des tableaux doit être réservé à l'affichage de données. Si vous souhaitez simplement découper du contenu en colonnes, utilisez plutôt les [[guide colonnes|colonnes]].
+
+{s:Reference|SIMPLES}
+===Les tableaux simples===
+
+Pour un lecteur, un tableau est un élément rectangulaire composée de cases qu'il est possible de décomposer en lignes ou en colonnes. Au niveau du code, le tableau n'est vu que comme une succession de lignes placées les unes au-dessus des autres.
+
+La structure générale d'un tableau simple est décrite par le squelette suivant
+
+@@{| CLASS="tablo"
+|- CLASS="titre"
+| Titre A || Titre B
+|- CLASS="premier"
+| Case 1 || Case 2
+|-
+| Case 3 || Case 4
+|}@@
+
+dont le rendu correspond à ceci :
+
+{| CLASS="tablo"
+|- CLASS="titre"
+| Titre A || Titre B
+|- CLASS="premier"
+| Case 1 || Case 2
+|-
+| Case 3 || Case 4
+|}
+
+Si on examine le squelette en détail, on voit qu'il est composé des éléments suivants :
+* Le tableau tout entier est encadré par les symboles {{&#0123;|}} et {{|&#0125;}}. Ce sont les balises qui délimitent le tableau tout entier.
+* La première ligne indique {{CLASS="tablo"}}. Cette mention indique au wiki qu'il doit appliquer toute une série de règles de présentation qui sont décrites dans un fichier annexe sous le titre de "tablo". Il s'agit de la présentation standard de la quasi-totalité des tableaux du wiki Pathfinder-FR. Notez qu'il est possible d'ajouter d'autres indications ici (en plus de "tablo"), mais ces options sont décrites plus loin.
+* Le tableau contient plusieurs lignes. Chaque ligne du tableau est décrite en deux parties :
+** La première partie commence par le symbole {{|-}}. Celui-ci indique qu'une nouvelle ligne commence. Ce symbole peut être suivi d'une annotation {{CLASS="quelquechose"}} (voir ci-dessous).
+** La seconde partie contient le contenu des cases. Cette partie commence par une barre {{|}} et le contenu des différentes cases sont séparés par des doubles barres {{||}}.
+* La ligne contenant les titres est marquée par {{CLASS="titre"}}. Cela indique au wiki qu'il faut écrire le contenu de ces cases en gras.
+* La première ligne de données (en-dessous des titres) est marquée par {{CLASS="premier"}}. Cela indique au wiki qu'il faut ajouter une ligne épaisse au-dessus des données, pour séparer le titre et la première ligne de données.
+
+'''Note.''' Certains pourraient se demander pourquoi la mention {{CLASS="titre"}} ne s'occupe pas à la fois de faire écrire les titres en gras et d'ajouter une ligne épaisse en-dessous des titres. La raison est simple : c'est parce qu'il peut y avoir des sous-titres qui viennent se situer en-dessous des titres et au-dessus de la ligne épaisse. Ainsi, la ligne épaisse n'est pas toujours directement sous les titres. Par contre, elle se trouve toujours au-dessus de la première ligne de données.
+
+'''Note.''' Par défaut (même si ça ne se voit pas vraiment dans l'exemple cité plus haut), le contenu des cases de la première colonne est aligné à gauche alors que le contenu de toutes les autres cases est centré. Il s'agit de l'alignement que la plupart des tables utilisent mais, naturellement, ces choix peuvent être modifiés (voir plus bas).
+
+'''Note.''' Les annotations du style {{CLASS="quelquechose"}} permettent d'indiquer la manière dont on veut que certaines parties du tableau soient présentées. Ces annotations peuvent concerner soit tout le tableau, soit une seule ligne, soit une seule case. Pour qu'une annotation porte sur tout le tableau, on la place juste après la balise de tableau {{&#0123;|}}. Si on désire qu'elle porte sur toute une ligne, on l'écrit juste après la balise de ligne {{|-}}. Si on veut qu'elle ne porte que sur une case, il faut employer le format alternatif décrit dans la section suivante.
+
+'''Note.''' Avec ce format standard, une case vide ne peut pas se résumer seulement à un espace. Ainsi, une ligne comportant une case "1", une case vide, puis une case "2" ne pourra pas s'écrire
+@@| 1 || || 2@@
+Pour "simuler" une case vide, on peut y indiquer {{&amp;nbsp;}}, qui est le code représentant un espace insécable :
+@@| 1 || &nbsp; || 2@@
+
+Une seconde alternative pour illustrer un tableau est de placer les éléments sur la même ligne en faisant débuter chacune des ligne par les caractère suivant: |/
+
+@@{| CLASS="tablo"
+|- CLASS="titre"
+| Titre A || Titre B
+|- CLASS="premier"
+|/ Case 1 || Case 2
+|/ Case 3 || Case 4
+|}@@
+
+dont le rendu correspond à ceci :
+
+{| CLASS="tablo"
+|- CLASS="titre"
+| Titre A || Titre B
+|- CLASS="premier"
+|/ Case 1 || Case 2
+|/ Case 3 || Case 4
+|}
+
+{s:Reference|GRANDTITRE}
+
+===Les tableaux avec un grand titre===
+
+On peut ajouter un grand titre au début d'un tableau. Celui-ci prend toute la largeur du tableau et s'inscrit en blanc sur fond foncé. Pour ce faire, il suffit d'ajouter, à l'intérieur du tableau, une ligne commençant par {{|+}} et reprenant le titre en question.
+
+Ainsi, le code
+
+@@{| CLASS="tablo"
+|+ Titre principal
+|- CLASS="titre"
+| Titre A || Titre B
+|- CLASS="premier"
+| Case 1 || Case 2
+|-
+| Case 3 || Case 4
+|}@@
+
+donnera :
+
+{| CLASS="tablo"
+|+ Titre principal
+|- CLASS="titre"
+| Titre A || Titre B
+|- CLASS="premier"
+| Case 1 || Case 2
+|-
+| Case 3 || Case 4
+|}
+
+{s:Reference|UNECASEPARLIGNE}
+===Format alternatif : une case par ligne===
+
+Dans le format présenté ci-dessus, tous les éléments d'une même ligne du tableau étaient écrits à la suite les uns des autres. On peut également les présenter les uns au-dessus des autres. Notez que, même avec cette présentation "les uns au-dessus des autres", le résultat final reste le même : sur la page wiki, les éléments d'une même ligne seront affichés côte à côte.
+
+Dans ce format alternatif, on écrit un élément par ligne de texte et chacune de ces lignes commence par une barre {{|}}. Ainsi, l'exemple de la section précédente devient
+
+@@{| CLASS="tablo"
+|- CLASS="titre"
+| Titre A
+| Titre B
+|- CLASS="premier"
+| Case 1
+| Case 2
+|-
+| Case 3
+| Case 4
+|}@@
+
+Seule la présentation dans le code du wiki change. En effet, le rendu ne change absolument pas et reste identique à ce qu'on obtenait avant :
+
+{| CLASS="tablo"
+|- CLASS="titre"
+| Titre A
+| Titre B
+|- CLASS="premier"
+| Case 1
+| Case 2
+|-
+| Case 3
+| Case 4
+|}
+
+On peut également choisir de combiner les deux formats sans que cela ne modifie le rendu :
+
+@@{| CLASS="tablo"
+|- CLASS="titre"
+| Titre A || Titre B
+|- CLASS="premier"
+| Case 1
+| Case 2
+|-
+| Case 3 || Case 4
+|}@@
+
+De même, si une ligne comportait trois éléments {{A}}, {{B}} et {{C}}, on pourrait tout à fait écrire
+
+@@| A || B || C@@
+
+ou
+
+@@| A
+| B || C@@
+
+ou encore
+
+@@| A || B
+| C@@
+
+ou bien encore
+
+@@| A
+| B
+| C@@
+
+sans changer le résultat.
+
+Pourquoi ce format alternatif ? Tout d'abord, c'est une question de goût et de facilité. Certains trouvent une des présentations plus claire que l'autre. Ou encore plus pratique (en fonction de la manière dont les données de départ sont présentées). Ensuite, le format alternatif a un avantage sur le précédent : il permet d'ajouter une annotation (comme {{CLASS="quelquechose"}}) sur une seule case. Par exemple :
+
+@@| COLSPAN="2" | A
+| B@@
+
+indique que la case contenant {{A}} s'étend sur 2 colonnes, alors que la case contenant {{B}}, elle, est tout à fait normale. La suite de ce guide contient plus d'informations sur les diverses annotations disponibles.
+
+{s:Reference|ANNTABLEAU}
+===Les annotations ciblant le tableau tout entier===
+
+Les annotations qui portent sur l'entièreté d'un tableau doivent se placer immédiatement après la balise ouvrante {{&#0123;|}} du tableau. Pour l'instant, les seules annotations de tableau utilisées sur Pathfinder-FR sont les suivantes.
+
+{| CLASS="tablo centre autoalt toutgauche"
+|+ Annotations de tableau
+|- CLASS="titre"
+| Annotation || Signification
+|- CLASS="premier"
+| {{<nowiki>CLASS="tablo"</nowiki>}} || Pour appliquer le format standard des tableaux de Pathfinder-FR
+|-
+| {{<nowiki>CLASS="centre"</nowiki>}} || Pour centrer le tableau horizontalement
+|-
+| {{<nowiki>CLASS="fright"</nowiki>}} || Pour que le tableau se colle contre le bord droit et que le texte se mette à gauche
+|-
+| {{<nowiki>CLASS="fleft"</nowiki>}} || Pour que le tableau se colle contre le bord gauche et que le texte se mette à droite
+|-
+| {{<nowiki>CLASS="cadre"</nowiki>}} || Pour ajouter un cadre autour du tableau
+|-
+| {{<nowiki>CLASS="autoalt"</nowiki>}} || Pour qu'une ligne sur deux soit automatiquement colorée (1)
+|-
+| {{<nowiki>CLASS="toutgauche"</nowiki>}} || Pour que toutes les colonnes soient alignées à gauche (2)
+|-
+| {{<nowiki>CLASS="col1centre"</nowiki>}} || Pour que la première colonne soit centrée (2)
+|- CLASS="note"
+| COLSPAN="2" | 1. Seulement utilisable si le tableau n'a pas de sous-titres ; sinon, voir l'annotation de ligne {{ALT}}.<br/>2. Par défaut, la première colonne est alignée à gauche et toutes les autres, centrées.
+|}
+
+Si un tableau porte plusieurs annotations {{CLASS}}, on doit les combiner comme ceci : {{CLASS="tablo centre autoalt toutgauche"}}. C'est d'ailleurs l'annotation du tableau utilisé ci-dessus : il reprend le format standard de Pathfinder-FR ({{tablo}}), il est centré ({{centre}}), une ligne sur deux est colorée ({{autoalt}}) et toutes les colonnes sont alignées à gauche ({{toutgauche}}).
+
+{| CLASS="tablo fright cadre"
+|- CLASS="titre"
+| Titre 1 || Titre 2
+|- CLASS="premier"
+| Longue case || Court
+|-
+| Court || Longue case
+|}
+Les options {{fleft}} et {{fright}} permettent "d'habiller" un tableau, c'est-à-dire de reculer le tableau contre un bord (gauche ou droit) et d'écrire du texte autour de lui. Par exemple, le tableau encadré à droite utilise les annotations {{tablo}}, {{fright}} et {{cadre}} : il est plaqué contre le bord de droite et ce paragraphe vient l'habiller. Pour que le paragraphe commence à la même hauteur que le sommet du tableau, il faut commencer le texte sur la ligne juste après la balise de fermeture {{|&#0125;}} du tableau. Le code du tableau encadré à droite est donné ci-dessous.
+
+@@{| CLASS="tablo fright"
+|- CLASS="titre"
+| Titre 1 || Titre 2
+|- CLASS="premier"
+| Longue case || Court
+|-
+| Court || Longue case
+|}@@
+
+Par défaut, la première colonne est alignée à gauche et toutes les autres sont alignées à droite. Les annotations de tableau offrent deux alternatives : {{toutgauche}} aligne tout à gauche et {{col1centre}} centre toutes les colonnes. Pour des tableaux plus variés, il faut choisir l'une de ces options puis utiliser des annotations de case pour indiquer l'alignement des colonnes qui se distinguent des autres. Ces annotations doivent être répétées pour chacune des cases des colonnes concernées (voir plus bas, les annotations de cases).
+
+{s:Reference|ANNLIGNE}
+===Les annotations ciblant une ligne===
+
+Si les annotations de tableau précisent des règles que l'entièreté du tableau doit respecter, il reste possible d'affiner la présentation en se plaçant au niveau des lignes. Si une annotation de ligne contredit une annotation de tableau, c'est toujours la première (l'annotation de ligne, celle qui est la plus ciblée) qui l'emporte.
+
+{| CLASS="tablo centre autoalt toutgauche"
+|+ Annotations de ligne
+|- CLASS="titre"
+| Annotation || Signification
+|- CLASS="premier"
+| {{<nowiki>CLASS="titre"</nowiki>}} || Indique que la ligne en question contient des titres
+|-
+| {{<nowiki>CLASS="soustitre"</nowiki>}} || Indique que la ligne en question contient des sous-titres
+|-
+| {{<nowiki>CLASS="alt"</nowiki>}} || Indique que la ligne doit être colorée
+|-
+| {{<nowiki>CLASS="premier"</nowiki>}} || Indique que la ligne doit être surmontée d'un trait épais
+|-
+| {{<nowiki>CLASS="note"</nowiki>}} || Indique que la ligne contient une note de bas de tableau
+|-
+| {{<nowiki>CLASS="lignesup"</nowiki>}} || Indique que la ligne contient un trait d'un pixel au dessus
+|}
+
+Les annotations {{titre}} et {{premier}} ont déjà été décrites plus haut dans le format standard. L'annotation {{soustitre}} est décrite de manière plus précise dans la section Tableaux avec sous-titres (elle s'utilise généralement en conjonction avec des annotations de cases).
+
+L'annotation {{alt}} permet de désigner les lignes qui seront colorées. Si le tableau est annoté {{autoalt}}, une ligne sur deux est automatiquement colorée ; mais cette option {{autoalt}} n'est disponible que pour les tableaux qui n'ont pas de sous-titres. Pour les tableaux qui ont des sous-titres, ou pour les tableaux où on veut colorer une ligne sur trois ou encore seulement quelques-unes des lignes, il faut travailler ligne par ligne en ajoutant l'annotation {{alt}} aux lignes qu'on veut colorer.
+
+l'annotation {{note}} est associée au style des notes de bas de tableau, comme celles qu'on retrouve au bas du tableau des annotations de tableau dans la section précédente. Bien souvent, les notes s'étendent sur toute la longueur du tableau, c'est-à-dire que la plupart des lignes marquées {{notes}} ne contiennent qu'une seule et grande case. Celle-ci utilise donc souvent l'annotation de case {{COLSPAN}} (voir plus bas).
+
+l'annotation {{lignesup}} permet de placer une ligne d'un format différent pour sous distinguer certains groupes de lignes, comme par exemple distinguer des chaines de dons.
+
+{s:Reference|ANNCASE}
+===Les annotations ciblant une case===
+
+Après les annotations visant tout le tableau puis celles qui se rapportent à une ligne, il est normal de s'intéresser à celles qui portent seulement sur une case. Comme indiqué plus haut, pour pouvoir annoter une case, il faut absolument l'écrire en utilisant le format alternatif (une case par ligne). Si une annotation de case contredit une annotation associée à sa ligne ou à son tableau, c'est toujours l'annotation de case qui l'emporte. On peut ainsi établir des règles générales grâce à une annotation de tableau ou de ligne puis marquer les cellules qui sortent du rang en leur apposant une annotation particulière qui contredit l'annotation plus générale.
+
+{| CLASS="tablo centre autoalt toutgauche"
+|+ Annotations de case
+|- CLASS="titre"
+| Annotation || Signification
+|- CLASS="premier"
+| {{<nowiki>CLASS="gauche"</nowiki>}} || Indique que le contenu de la case doit être aligné à gauche
+|-
+| {{<nowiki>CLASS="centre"</nowiki>}} || Indique que le contenu de la case doit être centré
+|-
+| {{<nowiki>CLASS="note"</nowiki>}} || Indique que la case contient une note de bas de tableau
+|-
+| {{<nowiki>CLASS="avecsoustitre"</nowiki>}} || Indique que la case peut avoir des sous-titres (1)
+|-
+| {{<nowiki>ROWSPAN="n"</nowiki>}} || Indique que la case recouvre {{n}} (un nombre) lignes
+|-
+| {{<nowiki>COLSPAN="n"</nowiki>}} || Indique que la case recouvre {{n}} (un nombre) colonnes
+|- CLASS="note"
+| COLSPAN="2" | (1) Cette annotation n'a de sens que sur une case figurant sur une ligne annotée {{titre}}.
+|}
+
+Les annotations de case {{gauche}} et {{centre}} permettent de contredire les règles établies au niveau du tableau. Comme elles ne portent que sur une seule case, si on veut modifier l'alignement de toutes les cases d'une colonne donnée, il faut répéter l'annotation sur chacune des cases concernées.
+
+L'annotation {{note}} permet d'indiquer que le contenu d'une case doit être formatée comme une note de bas de tableau. Son effet est similaire à l'annotation {{note}} sur une ligne, sauf que seule une case est concernée.
+
+L'annotation {{avecsoustitre}} est spécifique aux tableaux comportant des sous-titres. Elle permet d'ajuster la distance entre un titre (par exemple "Sorts par niveau") et les sous-titres qui lui correspondent (par exemple "0", "1er", "2e", etc. pour les niveaux de sorts). Plus d'information dans la section sur les tableaux avec des sous-titres.
+
+Comme précédemment, si une case porte plusieurs annotations {{CLASS="quelquechose"}}, il faut les rassembler en {{CLASS="annotation1 annotation2 annotation3 …"}}.
+
+Les annotations {{ROWSPAN="n"}} et {{COLSPAN="n"}} permettent de "grouper plusieurs cases du tableau pour n'en faire qu'une". Les valeurs {{n}} indiquent le nombre de lignes et de colonnes qui sont recouvertes par la case. Par exemple, la dernière ligne du tableau ci-dessus a la code suivant.
+
+@@|- CLASS="note"
+| COLSPAN="2" | (1) Cette annotation n'a de sens que sur une case figurant sur une ligne annotée {{titre}}.@@
+
+On a donc déclaré toute la ligne comme étant de classe {{note}} (on aurait pu tout aussi bien placer l'annotation {{note}} au niveau de la cellule), puis on a indiqué que la case en question recouvrait 2 colonnes. C'est pour cela que la note s'étend sur toute la longueur du tableau. Sans l'annotation {{COLSPAN="2"}}, le texte de la note aurait été restreint à la première colonne.
+
+On peut naturellement combiner plusieurs annotations de cases, comme l'indique l'exemple suivant.
+
+@@| COLSPAN="2" ROWSPAN="3" CLASS="gauche" | texte@@
+
+Dans cet exemple, on crée une case qui va occuper 2 colonnes et 3 rangées et dont le contenu (c'est-à-dire "texte") sera aligné à gauche.
+
+{s:Reference|SOUSTITRES}
+===Les tableaux avec sous-titres===
+
+Dans certains tableaux, un groupe de colonnes partage un même titre tout en se différenciant par des sous-titres. C'est par exemple le cas pour les tableaux d'évolution de sorts, où on peut trouver 10 colonnes (une par niveau de sorts, de 0 à 9) partageant un même titre tel quel "Sorts par jour". Dans ce cas-là, on appelle "Sorts par jour" le titre des colonnes et les numéros de 0 à 9 sont des sous-titres.
+
+Pour obtenir cette structure, il faut suivre les étapes suivantes :
+* La ligne annotée {{titre}} sera suivie d'une ligne annotée {{soustitre}}.
+* Tout d'abord, la case contenant le titre "Sorts par jour" va recouvrir plusieurs colonnes. Dans l'exemple des 10 niveaux de sorts, elle va recouvrir 10 colonnes. Il faut donc l'annoter {{COLSPAN="10"}}.
+* Il faut également indiquer que cette case de la ligne {{titre}} va être accompagnée de sous-titres (c'est nécessaire pour régler l'espacement entre le titre et les sous-titres), c'est-à-dire l'annoter {{CLASS="avecsoustitres"}}.
+* Les cases des autres titres, ceux qui n'ont pas de sous-titre, devront toutes recouvrir 2 lignes de hauteur (c'est-à-dire la ligne des titres et les ligne des sous-titres). Elles seront donc toutes annotées {{ROWSPAN="2"}}.
+
+L'exemple suivant devrait éclaircir ces explications peut-être complexes. Il s'agit d'une classe imaginaire avec des sorts jusqu'au niveau 4. On a ajouté une colonne "Spécial" dont les cases sont alignées à gauche.
+
+@@{| CLASS="tablo centre"
+|+ Le rédacteur (nouvelle classe)
+|- CLASS="titre"
+| ROWSPAN="2" | Niveau
+| ROWSPAN="2" | BBA
+| ROWSPAN="2" CLASS="gauche" | Spécial
+| COLSPAN="5" CLASS="avecsoustitre" | Sorts par jour
+|- CLASS="soustitre"
+| 0
+| 1er
+| 2e
+| 3e
+| 4e
+|- CLASS="premier"
+| 1 || +1
+| CLASS="gauche" | création de page wiki
+| — || — || — || — || —
+|- CLASS="alt"
+| 2 || +2
+| CLASS="gauche" | écriture de listes
+| 2 || 2 || — || — || —
+|-
+| 3 || +3
+| CLASS="gauche" | écriture de tableaux
+| 4 || 4 || 2 || — || —
+|}@@
+
+ce qui donne :
+
+{| CLASS="tablo centre"
+|+ Le rédacteur (nouvelle classe)
+|- CLASS="titre"
+| ROWSPAN="2" | Niveau
+| ROWSPAN="2" | BBA
+| ROWSPAN="2" CLASS="gauche" | Spécial
+| COLSPAN="5" CLASS="avecsoustitre" | Sorts par jour
+|- CLASS="soustitre"
+| 0
+| 1er
+| 2e
+| 3e
+| 4e
+|- CLASS="premier"
+| 1 || +1
+| CLASS="gauche" | création de page wiki
+| — || — || — || — || —
+|- CLASS="alt"
+| 2 || +2
+| CLASS="gauche" | écriture de listes
+| 2 || 2 || — || — || —
+|-
+| 3 || +3
+| CLASS="gauche" | écriture de tableaux
+| 4 || 4 || 2 || — || —
+|}
+
+'''Note.''' L'annotation de tableau {{autoalt}} ne fonctionne pas sur les tableaux qui ont des sous-titres. Il faut donc utiliser l'annotation de ligne {{alt}}.
+
+{s:Reference|TRIABLES}
+==== Les tableaux triables ====
+
+Certaines sections du wiki Pathfinder (comme le [[++Pathfinder-RPG.glossaire des dons|glossaire des dons]]) présentent des tableaux qu'il est possible de trier. Ils utilisent un format bien spécifique qui s'éloigne des tableaux normaux et, d'ailleurs, la plupart des options décrites ci-dessus ne sont pas applicables à ces tableaux.
+
+Plusieurs règles et restrictions s'appliquent dans le cas des tableaux triables :
+* Tout d'abord, il est nécessaire d'ajouter le code {{&#0123;s:SortTable&#0125;}} au début de la page qui contient le tableau triable.
+* Le tableau triable peut avoir un gros titre (ligne commençant par {{|+}}).
+* Pour créer les titres des colonnes, on n'utilise pas une ligne annotée {{titre}} mais le format suivant :
+@@! Titre1 !! Titre2 !! Titre3 !! Titre4@@
+* Le tableau ne peut pas utiliser de ligne annotée {{soustitre}.
+
+Voici par exemple une partie du tableau de glossaire des dons.
+
+@@{s:SortTable}
+{| CLASS="tablo sortable toutgauche centre" ID="tabdons"
+|+ Glossaire des dons
+! Anglais !! Français !! Description !! Catégorie !! Source
+|-
+| Acrobatic steps || [[++Pathfinder-RPG.Déplacement acrobatique|Déplacement acrobatique]] || Ignorer 3 cases supplémentaires de terrain difficile par round || Mouvement || PHB
+|-
+| Acrobatics || [[++Pathfinder-RPG.Voltigeur|Voltigeur]] || +2 en Acrobaties et Vol (+4 si 10+ rangs) || Compétences || PHB
+|-
+| Additional Traits || [[++Pathfinder-RPG.Traits supplémentaires|Traits supplémentaires]] || Deux traits de plus || &nbsp; || APG
+|}@@
+
+{s:SortTable}
+{| CLASS="tablo sortable toutgauche centre" ID="tabdons"
+|+ Glossaire des dons
+! Anglais !! Français !! Description !! Catégorie !! Source
+|-
+| Acrobatic steps || [[++Pathfinder-RPG.Déplacement acrobatique|Déplacement acrobatique]] || Ignorer 3 cases supplémentaires de terrain difficile par round || Mouvement || PHB
+|-
+| Acrobatics || [[++Pathfinder-RPG.Voltigeur|Voltigeur]] || +2 en Acrobaties et Vol (+4 si 10+ rangs) || Compétences || PHB
+|-
+| Additional Traits || [[++Pathfinder-RPG.Traits supplémentaires|Traits supplémentaires]] || Deux traits de plus || &nbsp; || APG
+|}
+
+
+===Importer un tableau généré dans Excel sur une feuille wiki===
+
+Pour illustrer dans votre feuille wiki un tableau générer dans un chiffrier tel Excel, il suffit de définir votre tableau comme illustrer précédemment ex:
+
+@@{s:SortTable}
+{| class="tablo sortable autoalt toutgauche" id="Le trésor" 
+|- 
+! Localisation
+! Description
+! valeur
+! Attribué
+! à vendre @@
+
+Et de concatener les éléments du tableau excel de cette façon 
+
+@@=CONCATENATE("|/ ";C2;" || ";A2;" || ";B2;" || ";D2;" || ";E2)@@
+
+Et de terminer le tableau par le code suivant: @@|}@@
+Les codes @@||@@ doivent être absolument séparé par un espace avant et après.
+
+Pour obtenir le tableau suivant
+
+{s:SortTable}
+{| class="tablo sortable autoalt toutgauche" id="Le trésor" 
+|- 
+! Localisation
+! Description
+! valeur
+! Attribué
+! à vendre
+|/ C2 || A2 || B2 || D2 || E2
+|}
+ 
+Où A2, B2, C2, D2, etx correspondent au contenu des cellules de votre chiffrier.
+
+

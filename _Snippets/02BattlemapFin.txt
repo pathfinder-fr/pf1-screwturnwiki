@@ -1,0 +1,31 @@
+  bdesc = bdesc.replace(/00GUI00/g,"'");
+}
+</script>
+<button type="button" onclick="debut();">Lancer la battlemap</button>
+<button type="button" onclick="fin();">Fermer les fenêtres de la battlemap</button>
+
+<nowiki><script type="text/javascript">
+function loaded(src) {
+  if (src == 0) loaded0 = 1;
+  if (src == 1) loaded1 = 1;
+  if (loaded0 && loaded1) {
+    fcontrol.init();
+    fbmap.init();
+  }
+}
+
+function debut() {
+  initialisation();
+  fbmap = window.open('/Wiki/public/upload/Battlemaps/Battlemap4.html','Battlemap','scrollbars=yes,height=700,width=700,resizable=yes,directories=no,location=no,menubar=no,left=50,top=50');
+  fcontrol = window.open('/Wiki/public/upload/Battlemaps/Controle4.html','Télécommande','scrollbars=yes,height=700,width=520,resizable=yes,directories=no,location=no,menubar=no,left=800,top=100');
+}
+
+function fin() {
+  fbmap.close();
+  fcontrol.close();
+  fbmap = null;
+  fcontrol = null;
+}
+
+</script></nowiki>
+{s:TokenCode}

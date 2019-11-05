@@ -1,0 +1,435 @@
+---
+Name: Pathfinder-RPG.Moine unchained
+Title: Le moine unchained
+LastModified: 2019-10-14 10:14
+Categories:
+  - 'Classe'
+  - 'Pathfinder unchained'
+  - 'Règles officielles'
+---
+''La perfection physique et mentale, voilà l’objectif vital que cherchent à atteindre tous les moines. Pour ces combattants compétents, les prouesses martiales et la lucidité mentale ne font qu’un. Capables de frapper leurs ennemis à la fois avec les poings et des armes, les moines sont probablement les combattants les plus polyvalents de tout champ de bataille. Ils maîtrisent également le ki, une force vitale et spirituelle qu’ils portent en eux et qui leur permet d’accomplir des actions acrobatiques et des démonstrations mystiques prodigieuses. Toutes ces aptitudes sont possibles grâce à la concentration et à la discipline et les moines consacrent leur vie entière à parfaire leur art.''
+
+<div class="fright">'''''Voir aussi les [[pouvoir de ki|pouvoirs de ki]].''''' <br/>
+'''''Voir aussi les [[Frappe spécialisée|frappes spécialisées]].''''' <br/>
+'''''Voir aussi les [[voeux]].'''''<br/>
+===Version unchained===
+La plupart des aptitudes du moine ont été retravaillées, y compris son bonus de base à l’attaque, ses dés de vie, ses sauvegardes et nombre de ses aptitudes spéciales. Le résultat aboutit à une version du moine qui est non seulement plus simple à jouer mais qui bénéficie également de beaucoup plus de polyvalence. Le déluge de coups est bien plus simple à utiliser au cours du jeu. Nombre des aptitudes de moine acquises à haut niveau, comme pas chassé et paume vibratoire, ont été intégrées au nouveau système des pouvoirs de ki. Au fur et à mesure que le moine gagne des niveaux, il peut choisir toute une variété de pouvoirs de ki, ce qui permet au joueur de véritablement personnaliser son personnage. 
+
+{s:Reference|TABLEMOINE}
+<center style="font-size:95%">
+{| CLASS="tablo"
+|+ Le moine
+|- CLASS="titre"
+| Niv
+| BBA
+| Réf
+| Vig
+| Vol
+| CLASS="gauche" | Spécial
+| Déluge de coups
+| Dégâts à mains nues*
+| Bonus <br/>de CA
+| Déplacement accéléré
+|- CLASS="premier"
+| 1
+| +1
+| +2
+| +2
+| +0
+| CLASS="gauche" | [[Moine unchained#DONSUPPLEMENTAIRE|don supplémentaire]], [[Moine unchained#DELUGEDECOUPS|déluge de coups (att supp)]], <br/>[[Moine unchained#COUPETOURDISSANT|coup étourdissant]], [[Moine unchained#COMBATAMAINSNUES|combat à mains nues]]
+| +1/+1
+| 1d6
+| +0
+| +0 m
+|- CLASS="alt"
+| 2
+| +2
+| +3
+| +3
+| +0
+| CLASS="gauche" | [[Moine unchained#DONSUPPLEMENTAIRE|don supplémentaire]], [[Moine unchained#ESQUIVETOTALE|esquive totale]]
+| +2/+2
+| 1d6
+| +0
+| +0 m
+|-
+| 3
+| +3
+| +3
+| +3
+| +1
+| CLASS="gauche" | [[Moine unchained#DEPLACEMENTACCELERE|déplacement accéléré]], [[Moine unchained#RESERVEDEKI| frappe ki (magique)]],</br> [[Moine unchained#RESERVEDEKI|réserve de ki]] 
+| +3/+3
+| 1d6
+| +0
+| +3 m (2 cases)
+|- CLASS="alt"
+| 4
+| +4
+| +4
+| +4
+| +1
+| CLASS="gauche" | [[Moine unchained#POUVOIRSDEKI|pouvoir de ki]], [[Moine unchained#SERENITE|sérénité]] 
+| +4/+4
+| 1d8
+| +1
+| +3 m (2 cases)
+|-
+| 5
+| +5
+| +4
+| +4
+| +1
+| CLASS="gauche" | [[Moine unchained#FRAPPESPECIALISEE|frappe spécialisée (1/round)]], [[Moine unchained#PURETEPHYSIQUE|pureté physique]] 
+| +5/+5
+| 1d8
+| +1
+| +3 m (2 cases)
+|- CLASS="alt"
+| 6
+| +6/+1
+| +5
+| +5
+| +2
+| CLASS="gauche" | [[Moine unchained#DONSUPPLEMENTAIRE|don supplémentaire]], [[Moine unchained#POUVOIRSDEKI|pouvoir de ki]]
+| +6/+6/+1
+| 1d8
+| +1
+| +6 m (4 cases)
+|-
+| 7
+| +7/+2
+| +5
+| +5
+| +2
+| CLASS="gauche" | [[Moine unchained#RESERVEDEKI| frappe ki (argent/fer froid)]]
+| +7/+7/+2
+| 1d8
+| +1
+| +6 m (4 cases)
+|- CLASS="alt"
+| 8
+| +8/+3
+| +6
+| +6
+| +2
+| CLASS="gauche" | [[Moine unchained#POUVOIRSDEKI|pouvoir de ki]]
+| +8/+8/+3
+| 1d10
+| +2
+| +6 m (4 cases)
+|-
+| 9
+| +9/+4
+| +6
+| +6
+| +3
+| CLASS="gauche" | [[Moine unchained#ESQUIVESURNATURELLE|esquive surnaturelle]],</br>
+[[Moine unchained#FRAPPESPECIALISEE|frappe spécialisée]]
+| +9/+9/+4
+| 1d10
+| +2
+| +9 m (6 cases)
+|- CLASS="alt"
+| 10
+| +10/+5
+| +7
+| +7
+| +3
+| CLASS="gauche" | [[Moine unchained#DONSUPPLEMENTAIRE|don supplémentaire]], [[Moine unchained#POUVOIRSDEKI|pouvoir de ki]],</br>[[Moine unchained#RESERVEDEKI| frappe ki (loyale)]]
+| +10/+10/+5
+| 1d10
+| +2
+| +9 m (6 cases)
+|-
+| 11
+| +11/+6/+1
+| +7
+| +7
+| +3
+| CLASS="gauche" | [[Moine unchained#DELUGEDECOUPS|déluge de coups (attaque supplémentaire)]] 
+| +11/+11/+11/+6/+1
+| 1d10
+| +2
+| +9 m (6 cases)
+|- CLASS="alt"
+| 12
+| +12/+7/+2
+| +8
+| +8
+| +4
+| CLASS="gauche" | [[Moine unchained#POUVOIRSDEKI|pouvoir de ki]]
+| +12/+12/+12/+7/+2
+| 2d6
+| +3
+| +12 m (8 cases)
+|-
+| 13
+| +13/+8/+3
+| +8
+| +8
+| +4
+| CLASS="gauche" | [[Moine unchained#FRAPPESPECIALISEE|frappe spécialisée]],</br> [[Moine unchained#LANGUEDUSOLEILETDELALUNE|langue du soleil et de la lune]]
+| +13/+13/+13/+8/+3
+| 2d6
+| +3
+| +12 m (8 cases)
+|- CLASS="alt"
+| 14
+| +14/+9/+4
+| +9
+| +9
+| +4
+| CLASS="gauche" | [[Moine unchained#DONSUPPLEMENTAIRE|don supplémentaire]], [[Moine unchained#POUVOIRSDEKI|pouvoir de ki]]
+| +14/+14/+14/+9/+4
+| 2d6
+| +3
+| +12 m (8 cases)
+|-
+| 15
+| +15/+10/+5
+| +9
+| +9
+| +5
+| CLASS="gauche" | [[Moine unchained#FRAPPESPECIALISEE|frappe spécialisée (2/round)]]
+| +15/+15/+15/+10/+5
+| 2d6
+| +3
+| +15 m (10 cases)
+|- CLASS="alt"
+| 16
+| +16/+11/+6/+1
+| +10
+| +10
+| +5
+| CLASS="gauche" | [[Moine unchained#POUVOIRSDEKI|pouvoir de ki]], [[Moine unchained#RESERVEDEKI| frappe ki (adamantuim)]]
+| +16/+16/+16/+11/+6/+1
+| 2d8
+| +4
+| +15 m (10 cases)
+|-
+| 17
+| +17/+12/+7/+2
+| +10
+| +10
+| +5
+| CLASS="gauche" | [[Moine unchained#FRAPPESPECIALISEE|frappe spécialisée]], [[Moine unchained#ETERNELLEJEUNESSE|éternelle jeunesse]]
+| +17/+17/+17/+12/+7/+2
+| 2d8
+| +4
+| +15 m (10 cases)
+|- CLASS="alt"
+| 18
+| +18/+13/+8/+3
+| +11
+| +11
+| +6
+| CLASS="gauche" | [[Moine unchained#DONSUPPLEMENTAIRE|don supplémentaire]], [[Moine unchained#POUVOIRSDEKI|pouvoir de ki]]
+| +18/+18/+18/+13/+8/+3
+| 2d8
+| +4
+| +18 m (12 cases)
+|-
+| 19
+| +19/+14/+9/+4
+| +11
+| +11
+| +6
+| CLASS="gauche" | [[Moine unchained#PURETEMENTALE|pureté mentale]]
+| +19/+19/+19/+14/+9/+4
+| 2d8
+| +4
+| +18 m (12 cases)
+|- CLASS="alt"
+| 20
+| +20/+15/+10/+5
+| +12
+| +12
+| +6
+| CLASS="gauche" |  [[Moine unchained#POUVOIRSDEKI|pouvoir de ki]], [[Moine unchained#PERFECTIONDELETRE|perfection de l'être]]
+| +20/+20/+20/+15/+10/+5
+| 2d10
+| +5
+| +18 m (12 cases)
+|-
+| CLASS="note" COLSPAN="10" | (*) Il s'agit de la valeur pour les moines de taille M. Voir le texte pour les moines de taille P ou G.
+|}
+</center>
+
+'''Alignement.''' N’importe quel alignement Loyal.
+
+'''Dés de vie.''' d10.
+
+
+===Compétences de classe===
+
+Les compétences de classe du moine sont les suivantes : [[Acrobaties]] (Dex), [[Artisanat]] (Int), [[Connaissances]] (histoire) (Int), [[Connaissances]] (religion)  (Int),  [[Discrétion]] (Dex), [[Équitation]] (Dex), [[Escalade]] (For), [[Évasion]] (Dex), [[Intimidation]] (Cha), [[Natation]] (For), [[Perception]] (Sag), [[Profession]] (Sag), [[Psychologie]] (Sag), [[Représentation]] (Cha).
+
+'''Points de compétence par niveau.''' 4 + modificateur d’[[Intelligence]].
+
+
+===Descriptif de la classe===
+
+Toutes les aptitudes de la classe de moine sont décrites ci-dessous.
+
+{s:ImageDroite|Illustrations/PNJ/Sajan.jpg|35%}
+{s:Reference|ARMESDEMOINE}
+====Armes et armures====
+
+Le moine est formé au maniement des armes suivantes :  arbalète légère et lourde, bâton, dague, épée courte, épieu, fronde, gourdin, hachette, javeline, kama, lance, nunchaku, sai, shuriken, siangham, et toutes les armes spéciales de moine. 
+
+Le moine n’est formé ni au port d’armures ni à l’utilisation de boucliers.
+
+Lorsqu’il porte une armure ou utilise un bouclier, ou encore lorsqu’il transporte une [[charge lourde]] ou [[charge intermédiaire|intermédiaire]], un moine perd son bonus à la [[CA]] ainsi que ses aptitudes de [[Moine unchained#DEPLACEMENTACCELERE|déplacement accéléré]] et de [[Moine unchained#DELUGEDECOUPS|déluge de coups]].
+
+{s:Reference|BONUSCA}
+====Bonus à la CA (Ext)====
+Tant qu’il ne porte pas d’armure et qu’il n’est pas encombré, un moine ajoute son bonus de [[Sagesse]] (s’il en a un) à sa [[CA]] et à son [[DMD]]. De plus, il obtient un bonus de +1 à la [[CA]] et au [[DMD]] au niveau 4. Ce bonus augmente de +1 tous les quatre niveaux de moine par la suite, jusqu’à un maximum de +5 au niveau 20.
+
+Ces bonus à la [[CA]] s’appliquent aussi contre les [[attaque de contact|attaques de contact]] ou lorsque le moine est [[pris au dépourvu]]. Il les perd s’il est [[immobilisé]], s’il est [[sans défense]] ou s’il porte une armure ou un bouclier ou transporte une [[charge intermédiaire]] ou [[charge lourde|lourde]].
+ 
+
+{s:Reference|COMBATAMAINSNUES}
+====Combat à mains nues====
+Un moine de niveau 1 reçoit le don [[Science du combat à mains nues]] comme don supplémentaire. Ses attaques peuvent venir de ses poings, mais aussi de ses pieds, de ses coudes ou de ses genoux. Cela signifie qu’un moine peut même porter des attaques « à mains nues » alors que ses deux mains sont occupées à porter quelque chose. De plus, la notion d’attaque secondaire n’a pas de sens quand il se bat à mains nues. Un moine bénéficie donc toujours de son bonus de [[Force]] entier sur les [[jet de dégâts|jets de dégâts]] à mains nues.
+
+Les attaques à mains nues du moine infligent des [[dégâts létaux]] mais le moine peut choisir d’infliger des [[dégâts non létaux]] sans subir un malus au [[jet dattaque|jet d’attaque]]. Il peut faire de même en situation de [[lutte]].
+
+L’attaque à mains nues du moine est considérée à la fois comme une arme manufacturée et une arme naturelle pour les sorts et effets qui altèrent ou améliorent l’un ou l’autre de ces deux types d’armes. Les attaques à mains nues d’un moine infligent les dégâts indiqués dans la colonne de la Table 1-2 : Le moine. Les dégâts de cette table concernent uniquement les moines de [[taille M]]. Les moines de [[taille P]] ou [[taille G]] infligent les dégâts indiqués dans la table [[Moine unchained#TABLEMOINE|Le Moine]].
+
+<div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+<center>
+{| CLASS="tablo"
+|+ Dégâts à mains nues des moines<br/> de taille P ou G
+|- CLASS="titre"
+| Niveau 
+| Dégâts<br/> (taille P) 
+| Dégâts<br/> (taille G)
+|- CLASS="premier"
+| 1–3 || 1d4 || 1d8
+|- CLASS="alt"
+| 4–7 || 1d6 || 2d6
+|- 
+| 8–11 || 1d8 || 2d8
+|- CLASS="alt"
+| 12–15 || 1d10 || 3d6
+|-
+| 16–19 || 2d6 || 3d8
+|- CLASS="alt"
+| 20 || 2d8 || 4d8
+|}
+</center>
+</div></div>
+
+
+{s:Reference|COUPETOURDISSANT}
+====Coup étourdissant (Ext)====
+Au niveau 1, le moine obtient le don [[Coup étourdissant]] comme don supplémentaire, même s’il ne remplit pas les conditions requises. Au niveau 4 et tous les 4 niveaux par la suite, le moine peut appliquer un nouvel état préjudiciable à la cible de son coup étourdissant. La cible subit l’état choisi pendant un round (au lieu d’être [[étourdi|étourdie]]) et annule toujours l’effet si elle réussit un jet de sauvegarde. Au niveau 4, le moine peut rendre la [[fatigué|fatiguée]]. Au niveau 8, il peut la rendre [[fiévreux|fiévreuse]] pendant 1 minute. Au niveau 12, il peut la rendre [[chancelant|chancelante]] pendant 1d6+1 rounds. Au niveau 16, il peut l’[[aveuglé|aveugler]] ou la rendre [[sourd|sourde]] de manière permanente. Au niveau 20, il peut la [[paralysé|paralyser]] pendant 1d6+1 rounds. Le moine doit choisir l’état préjudiciable qu’il désire infliger avant d’effectuer son jet d’attaque. Ces effets ne se cumulent pas (une créature [[fatigué|fatiguée]] par cette aptitude ne devient pas [[épuisé|épuisée]] si elle est affectée par un nouveau [[Coup étourdissant]]), mais les coups supplémentaires augmentent la durée de l’effet. 
+
+
+{s:Reference|DELUGEDECOUPS}
+====Déluge de coups (Ext)====
+Dès le niveau 1, un moine peut faire pleuvoir un [[Moine unchained#DELUGEDECOUPS|déluge de coups]] lors d’une [[attaque à outrance]]. Dans ce cas, il peut effectuer une attaque supplémentaire en appliquant son bonus de [[BBA|bonus de base à l’attaque]] le plus élevé. Cette attaque vient en plus des éventuelles attaques supplémentaires conférées par un sort de [[rapidité]] ou des effets similaires. Quand il utilise cette aptitude, le moine peut effectuer ses attaques avec n’importe quelle combinaison d’attaques à mains nues et d’attaques avec des [[Groupe darmes#Armesdemoine|armes spéciales de moine]]. Lorsqu’il effectue un [[Moine unchained#DELUGEDECOUPS|déluge de coups]], le moine ne subit des malus normalement occasionnés quand on manie plusieurs armes mais il ne gagne aucune attaque supplémentaire en plus de celles conférées par le déluge de coups s’il manie plusieurs armes (il gagne quand même les attaques supplémentaires conférées par un  [[BBA|bonus de base à l’attaque]] suffisamment élevé, par cette aptitude et par une [[rapidité]] ou des effets similaires). Au niveau 11, un moine peut effectuer une attaque supplémentaire en appliquant son [[BBA|bonus de base à l’attaque]] le plus élevé quand il fait pleuvoir un [[Moine unchained#DELUGEDECOUPS|déluge de coups]]. Cette attaque vient en plus de la première attaque supplémentaire conférée par cette aptitude et en plus des attaques supplémentaires conférées par une [[rapidité]] ou des effets similaires. 
+
+
+{s:Reference|DONSUPPLEMENTAIRE}
+====Dons supplémentaires====
+Au niveau 1, 2 et tous les 4 niveaux par la suite, un moine choisit un don supplémentaire à choisir dans la liste suivante : 
+
+[[Attaques réflexes]], [[École du scorpion]], [[Esquive]], [[Lancer improvisé]], [[Parade de projectiles]], [[Science de la lutte]] et [[Surprise]].
+
+Au niveau 6, les dons suivants s’ajoutent à la liste : [[Poing de la gorgone]], [[Science de la bousculade]], [[Science de la feinte]], [[Science du croc-en-jambe]], [[Science du désarmement]] et [[Souplesse du serpent]]. 
+
+Au niveau 10, les dons suivants s’ajoutent à la liste : [[Attaque éclair]], [[Capture de projectiles]], [[Fureur de la méduse]],[[Science du critique]]. 
+
+Un moine peut choisir ces dons supplémentaires même s’il ne remplit pas les conditions requises. 
+
+
+{s:Reference|ESQUIVETOTALE}
+====Esquive totale (Ext)====
+À partir du niveau 2, le moine peut esquiver de nombreuses attaques de zone. S’il réussit son jet de [[Réflexes]] contre une attaque dont les dégâts sont normalement réduits de moitié en cas de jet de Réflexes réussi, il ne subit pas le moindre dégât. Un moine portant une armure ou une [[charge intermédiaire]] ou [[charge lourde|lourde]] ou qui se trouve [[sans défense]] perd les avantages de l’esquive totale.
+
+
+{s:Reference|DEPLACEMENTACCELERE}
+====Déplacement accéléré (Ext)====
+À partir du niveau 3, un moine obtient un bonus d’altération à sa [[vitesse de déplacement]] au sol, comme indiqué dans la Table "[[Moine unchained#TABLEMOINE|Le Moine]]". Il perd ce bonus s’il porte une armure ou une [[charge intermédiaire]] ou [[charge lourde|lourde]].
+
+
+{s:Reference|RESERVEDEKI}{s:Reference|POINTDEKI}
+====Réserve de ki (Sur)====
+À partir du niveau 3, le moine dispose d’une réserve de points ki, une énergie surnaturelle qu’il peut utiliser pour accomplir des exploits étonnants. Cette réserve contient un nombre de points égal à la moitié du niveau du moine + son modificateur de [[Sagesse]]. Tant qu’il reste au moins 1 point ki dans la réserve du moine, celui-ci peut effectuer une frappe ki. 
+
+Au niveau 3, les attaques à mains nues d’une frappe ki sont considérées comme des [[armes magiques]] pour ce qui est d’ignorer la [[RD|réduction de dégâts]].
+
+Au niveau 7, les attaques à mains nues d’une frappe ki sont également considérées comme des armes en [[fer froid]] ou en [[argent]] pour ce qui est d’ignorer la [[RD|réductions de dégâts]].
+
+Au niveau 10, les attaques à mains nues d’une frappe ki sont également considérées comme des armes [[Loyales]] pour ce qui est d’ignorer la [[RD|réductions de dégâts]].
+
+Au niveau 16, elles sont considérées comme des armes en [[adamantium]] pour déterminer si elles ignorent les [[RD|réductions de dégâts]] ou la [[solidité]] des objets.
+
+En dépensant 1 point de sa réserve de ki par une [[action rapide]], un moine peut effectuer une attaque supplémentaire lors d’un [[Moine unchained#DELUGEDECOUPS|déluge de coups]] en appliquant son [[BBA|bonus de base à l’attaque]] le plus élevé. Cette attaque supplémentaire se cumule avec toutes les autres attaques supplémentaires obtenues grâce au [[Moine#DELUGEDECOUPS|déluge de coups]], ainsi qu’avec celles conférées par [[rapidité]] ou des effets similaires. Un moine gagne des pouvoirs supplémentaires au fur et à mesure qu’il monte en niveaux. Tous ces pouvoirs nécessitent une dépense de [[Moine unchained#POINTDEKI|points de ki]]. La [[Moine unchained#RESERVEDEKI|réserve de ki]] du moine se renouvelle chaque matin après huit heures de repos ou de méditation (ces heures ne doivent pas forcément être consécutives).
+
+'''Voeux.''' {s:um}Un moine peut discipliner son corps pour stocker plus de ki en respectant scrupuleusement un [[voeux|vœu]]. Tant qu’il s’y tient, sa réserve de ki augmente du montant indiqué dans la description du vœu. Tous les [[vœux]] comportent un inconvénient ou une limite pour contrebalancer cette hausse. Un moine peut prononcer un [[voeux|vœu]] à n’importe quel niveau mais il ne peut pas l’appliquer à sa réserve de ki tant qu’il n’a pas gagné une réserve de ki comme pouvoir de classe. Un moine qui prononce un [[voeux|vœu]] ne peut plus jamais bénéficier du pouvoir de classe sérénité, même s’il brise son [[voeux|vœu]].
+
+Si un moine brise volontairement et sciemment un [[voeux|vœu]], sa réserve de ki tombe à 0 (comme s’il avait dépensé tous ses points) et il ne peut plus la remplir ni utiliser de pouvoirs qui exigent du ki tant qu’il ne s’est pas racheté. Cette rédemption exige qu’il reprenne ses [[voeux|vœux]] et subisse un sort de [[pénitence]]. Une fois que le moine s’est racheté, sa réserve de ki revient à la normale (sans le bonus du vœu). S’il respecte le vœu brisé pendant un mois complet, il récupère aussi les points de ki supplémentaires dus au vœu et peut alors choisir de vivre à nouveau en accord avec ce vœu ou d’y renoncer sans malus. Quand un moine renonce ainsi à un [[voeux|vœu]], il ne peut plus jamais bénéficier de points de ki supplémentaires grâce à ce [[voeux|vœu]] précis.
+
+Un moine peut prononcer plusieurs [[voeux|vœux]]. Leurs effets et leur augmentation de réserve de ki se cumulent. Si un moine viole un [[voeux|vœu]], la rédemption lui permet de se servir à nouveau de l’amélioration due aux autres [[voeux|vœux]] mais le ki supplémentaire issu du vœu brisé ne reviendra pas avant un mois de dévotion (en effet, une fois que le moine s’est racheté, la violation du [[voeux|vœu]] n’a plus aucun effet sur les autres).
+
+
+{s:Reference|POUVOIRSDEKI}
+====Pouvoirs de ki (Sur)====
+Au niveau 4 et tous les 2 niveaux par la suite, le moine peut choisir un [[pouvoir de ki]]. Ces pouvoirs lui permettent d’accomplir des exploits incroyables, des prouesses mystiques et des acrobaties époustouflantes en dépensant les points de sa [[Moine unchained#RESERVEDEKI|réserve de ki]]. Une fois un [[pouvoir de ki]] choisi, ce choix est définitif. Le moine doit avoir atteint un niveau minimum avant d’avoir accès à certains [[pouvoir de ki|pouvoirs de ki]]. Sauf indication contraire, un moine ne peut pas choisir un même [[pouvoir de ki]] à plusieurs reprises.
+
+Le moine sélectionne ses pouvoirs de ki dans la [pouvoir de ki|liste des pouvoirs de ki].
+
+
+{s:Reference|SERENITE}
+====Sérénité (Ext)====
+Un moine de niveau 4 bénéficie d’un bonus de +2 aux [[jet de sauvegarde|jets de sauvegarde]] effectués contre les sorts et les [[enchantement|effets d'enchantement]].
+
+
+{s:Reference|PURETEPHYSIQUE}
+====Pureté physique (Ext)====
+Au niveau 5, le moine développe une immunité à toutes les [[maladie|maladies]], même celles qui sont d’origine surnaturelle ou magique.
+
+
+{s:Reference|FRAPPESPECIALISEE}
+====Frappe spécialisée (Ext)==== 
+Au niveau 5, un moine apprend un nouveau type de [[frappe spécialisée]]. À chaque fois qu’il effectue un [[Moine unchained#DELUGEDECOUPS|déluge de coups]], il peut décider que l’une de ses attaques à mains nues est une [[frappe spécialisée]]. Cette attaque est résolue normalement mais elle produit un effet supplémentaire en fonction du type de frappe choisi. Au niveau 9 et tous les 4 niveaux par la suite, un moine apprend une [[frappe spécialisée]] supplémentaire. Il doit choisir quelle [[frappe spécialisée]] il souhaite appliquer avant d’effectuer le jet d’attaque. Au niveau 15, il peut attribuer une [[frappe spécialisée]] à deux de ses attaques à mains nues au maximum à chaque round. Ces deux frappes peuvent être différentes.
+
+Le moine sélectionne ses frappes spécialisées dans la [frappe spécialisée|liste des frappes spécialisées].
+
+
+{s:Reference|ESQUIVESURNATURELLE}
+====Esquive surnaturelle (Ext)====
+Au niveau 9, l’[[Moine unchained#ESQUIVETOTALE|esquive totale]] du moine s’améliore. Face aux attaques qui autorisent un jet de [[Réflexes]] pour réduire les dégâts de moitié, il continue à ne subir aucun dégât en cas de jet de sauvegarde réussi mais, en plus, il ne subit que la moitié des dégâts en cas d’échec du jet de sauvegarde. Le moine ne bénéficie pas de cette aptitude s’il est [[sans défense]].
+
+
+{s:Reference|LANGUEDUSOLEILETDELALUNE}
+====Langues du soleil et de la lune (Ext)====
+À partir du niveau 13, le moine peut communiquer avec toutes les créatures vivantes comme s’il utilisait le sort [[Don des langues]].
+
+
+{s:Reference|ETERNELLEJEUNESSE}
+====Éternelle jeunesse (Ext)====
+À partir du niveau 17, les affaiblissements de caractéristiques dus au [[vieillissement]] n’affectent plus le moine, pas plus que les attaques provoquant un [[vieillissement]] accéléré. Les affaiblissements subis avant d’acquérir cette aptitude ne sont pas annulés pour autant. Le moine continue de vieillir et bénéficie des bonus qui en découlent. Il meurt toujours de vieillesse lorsque son heure est venue.
+
+
+{s:Reference|PURETEMENTALE}
+====Pureté mentale====
+Au niveau 19, un moine maîtrise parfaitement toutes ses facultés mentales. À chaque fois qu’il effectue un jet de [[Volonté]], il peut lancer deux fois le dé et conserver le meilleur résultat. S’il rate un jet de Volonté contre un sort ou un effet dont la durée est supérieure à 1 heure, le moine peut effectuer un nouveau jet de sauvegarde à la fin de chaque heure pour s’en débarrasser.
+
+
+{s:Reference|PERFECTIONDELETRE}
+====Perfection de l’être====
+Au niveau 20, le moine devient une entité magique. À partir de cet instant, il n’est plus considéré comme un humanoïde (ou comme une créature de son type d’origine) mais comme un [[type Extérieur|Extérieur]] pour ce qui est des sorts et des effets magiques. De plus, le moine acquiert une [[RD|réduction de dégâts]] de 10/chaotique, ce qui signifie qu’il ignore les 10 premiers points de dégâts infligés par chaque attaque portée avec une arme non-chaotique ou avec une arme naturelle d’une créature qui ne dispose pas d’une [[RD|réduction de dégâts]] similaire. Contrairement aux autres [[type Extérieur|Extérieurs]], le moine peut être ramené à la vie, comme si son type de créature n’avait pas changé.
+Enfin, le moine peut désormais plonger dans une forme de calme absolu. Le cas échéant, il ne peut entreprendre aucune action mais il regagne du [[Moine unchained#RESERVEDEKI|ki]] au rythme de 1 point par tranche de 10 minutes passées dans cet état. Il ne peut pas utiliser cette aptitude pour gagner plus de points de [[Moine unchained#RESERVEDEKI|ki]] que son total maximum.
+
+
+
+
+=== Anciens moines ===
+Un moine qui cesse d’être Loyal ne peut plus gagner de niveau de moine mais conserve les aptitudes acquises jusque là.
+
+

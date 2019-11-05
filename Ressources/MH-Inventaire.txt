@@ -1,0 +1,53 @@
+---
+Name: Ressources.MH-Inventaire
+Title: Gestion de l'Inventaire
+LastModified: 2014-09-30 17:24
+---
+<div class="chapeau">Cette vue vous permet de gérer l’équipement de votre personnage et de ses alliés. 
+<UL><LI>Inventaire : chaque objet possédé par votre personnage doit être mis dans un entrepôt, soit en l'achetant soit en l'ajoutant sans dépense d'or. Cinq entrepôts sont prédéfinis : sac à dos, dos, ceinture, bottes et monture. Le poids des objets figurant dans les quatre premiers sont pris en compte dans l’encombrement du personnage. Il vous reste de plus cinq entrepôts que vous pouvez nommer et dont vous pouvez décider l’éventuelle influence sur l’encombrement du personnage. Le contenu d'un entrepôt peut être entièrement vendu en un seul clic. En renseignant le bon nombre de parts l'application vous indiquera le montant récupéré par cette vente (au coefficient de vente défini) : vous pourrez ainsi dire aux autres joueurs ce que leur personnage récupère. Notez que l'application ajoutera automatiquement la part de votre personnage dans son inventaire.
+<LI>Objets équipés : chaque objet de l'inventaire de votre personnage lié à un emplacement d'objet magique est répertorié dans le menu déroulant idoine, vous permettant de l'équiper. Vous pouvez faire de même pour vos alliés. Notez que les emplacements disponibles seront fonction du type de corps de celui-ci, comme introduit dans le supplément Animal Archive.
+<LI>Création : vous pouvez créer les objets dont votre personnage a besoin et qui ne figurent pas dans la base de données. Leurs prix et poids seront automatiquement calculés.</UL>
+
+<b>Accès :</b> Mon Personnage/Onglet Inventaire
+
+[My Hero|Retour racine du Manuel]</div>
+
+<table style="width: 100%"><tr style="vertical-align: top"><td style="width: 49%">{s:Image|/Illustrations/P63/My Hero/Slide25.jpg|100%|middle cadre|}{s:Image|/Illustrations/P63/My Hero/Slide26.jpg|100%|middle cadre|}{s:Image|/Illustrations/P63/My Hero/Slide27.jpg|100%|middle cadre|}{s:Image|/Illustrations/P63/My Hero/Slide28.jpg|100%|middle cadre|}{s:Image|/Illustrations/P63/My Hero/Slide29.jpg|100%|middle cadre|}</td><td style="width: 2%"></td><td style="width: 49%">
+<OL><LI>Retour vers [MH-MesPersos|Mes Personnages]
+<LI>Tri des objets de l’entrepôt par ordre alphabétique ou par type.
+<LI>Cinq boutons vous permettant de naviguer dans cette vue.
+<LI>Sélection du type de l’objet à ajouter parmi : Accessoires pour armes et armures, Animaux et harnachement, Anneaux, Armes, Armures, Artefacts, Baguettes, Bâtons, Bijoux, Boucliers, Gemmes, Livres et matériel d’écriture, Matériels d’aventurier, Monnaies, Munitions, Objets d’art, Objets maudits, Objets merveilleux, Objets religieux et jeux, Outils, Parchemins, Poisons, Potions, Sceptres, Substances alchimiques, Véhicules et biens et Vêtements et contenants.
+<LI>Pour certains types d’objets vous devez renseigner une autre information avant de choisir l’objet. Pour les armes, armure et bouclier le type de celui-ci et pour les objets merveilleux l’emplacement pris par celui-ci.
+<LI>Sélection de l’objet à ajouter.
+<LI>Sélection de la quantité. Les boutons gris vous permettent de définir l’incrémentation avec laquelle vous augmentez cette quantité. Le dernier bouton vous permet de ramener celle-ci à « 1 ».
+<LI>Sélection du coefficient d’achat. Vous le laisserez la plupart du temps à « 1 » mais qui sait si un marchand ne vous fera pas un jour une ristourne de 10%, auquel cas vous sélectionnerez « 0.9 ». Le prix de l’objet (multiplié par la quantité achetée) est indiqué à côté ainsi que la richesse de votre personnage en espèce sonnante et trébuchante. Si les moyens de votre personnage ne lui permettent pas de faire l’acquisition traitée alors le fond du prix sera légèrement rosé.
+<LI>Sélection de l’entrepôt de destination de l’objet.
+<LI>Ajout de l’objet. Qu’il ait été donné à votre personnage ou que celui-ci l’ait ramassé sur le corps d’un ennemi, bien des objets sont acquis sans débourser la moindre pièce d’or. Dans ces cas-là, utilisez ce bouton. L’entrepôt sélectionné deviendra celui de destination.
+<LI>Achat de l’objet. La somme sera directement prélevée à votre personnage, ceci en le délestant de ses pièces avec la valeur la plus basse en priorité. L’entrepôt sélectionné deviendra celui de destination.
+<LI>Liste des entrepôts. En sélectionnant l’un d’entre eux, la liste 13) se peuplera avec les objets contenus dans celui-ci. Vous serez également directement diriger vers la partie « Gestion des entrepôts » de cette vue.
+<LI>Liste des objets contenus dans l’entrepôt sélectionné.  En sélectionnant l’un d’entre eux, vous serez automatiquement diriger vers la partie « Gestion des objets » de cette vue.
+<LI>Ce bouton permet de sélectionner tous les objets de ce type possédés.
+<LI>Sélection du coefficient de vente. La vente de la plupart des objets se fait à 50% de leur prix d’achat mais votre personnage pourrait avoir négocié un autre tarif, et c’est là qu’il faut le renseigner.
+<LI>Vente de l’objet. La somme est ajoutée, en pièces d’or, dans votre sac à dos.
+<LI>Abandon de l’objet. Aucune pièce n’est ajoutée à votre inventaire.
+<LI>Utilisez ce bouton pour déplacer le ou les objets vers l’entrepôt sélectionné.
+<LI>Sélection d’un objet parmi les identiques. Lorsque votre personnage possède plusieurs objets identiques dont vous voulez modifier les charges restantes ou les points de résistance, vous pouvez, grâce à ces boutons, sélectionner celui qui vous intéresse.
+<LI>Modification du nombre de charges restantes.
+<LI>Modification des points de résistance restants.
+<LI>Changement du nom d’un entrepôt. Vous pouvez changer le nom des entrepôts non prédéfinis en tapant leur nom ici puis en cliquant sur le bouton.
+<LI>Vous pouvez ici définir si le poids d’un entrepôt non prédéfini est à considérer dans l’encombrement de votre personnage. Par exemple, si vous possédez un trou portable, vous pouvez renommer ainsi l’un des entrepôts.
+<LI>Vous pouvez ici définir si l’entrepôt étudié est contenu dans un autre entrepôt. En poursuivant l’exemple du trou portable, vous pouvez définir l’entrepôt correspondant comme étant contenu dans le sac à dos.
+<LI>Définition du coefficient de vente. Lorsque vous gérer vos entrepôts, vous pouvez décider de vendre tous les objets y figurant. Pour cela vous définissez un coefficient de vente ainsi qu’un nombre de parts. La valeur d’une part est affichée. Notez que les objets d’art, les bijoux et les gemmes sont automatiquement vendus à un coefficient de vente de « 1 ». En poursuivant l’exemple du trou portable, disons que votre personnage est le porteur d’un groupe de quatre personnages. Vous pouvez créer un autre entrepôt « trou portable – trou commun » que vous définissez comme porté dans l’entrepôt trou portable. Lorsque viendra le moment de vendre les objets commun, vous sélectionnerez cet entrepôt et indiquerez qu’il est à vendre en quatre parts.
+<LI>Vente de tous les objets de l’entrepôt. Les objets d’art, les bijoux et les gemmes sont automatiquement vendus à un coefficient de vente de « 1 ». La somme obtenue (une part) est ajoutée à votre sac à dos.
+<LI>Abandon de tous les objets. Aucune pièce d’or n’est ajoutée à votre inventaire et cet entrepôt est vidé.
+<LI>Choix de la cible à équiper parmi le personnage et ses alliés dont vous avez défini une personnalisation possible ([MH-Allies|Gestion des Alliés]). Notez que les emplacements disponibles varieront en fonction du type de corps de l’allié comme défini dans le Player Companion Animal Archive.
+<LI>Définition de l’objet remplissant un emplacement. Seuls les objets que votre personnage possède vous sont proposés.
+<LI>En cochant ces cases vous pouvez définir le bouclier ou l’armure de votre personnage comme brisé(e). Notez qu’un tel objet est automatiquement considéré comme tel si ses points de résistance sont inférieurs à 50% de son total. Si votre personnage possède plusieurs exemplaires de l’objet porté, l’application considérera qu’il porte celui en meilleur état.
+<LI>Définition d’un raccourci d’équipement. L’état actuel de l’équipement du personnage sera défini comme raccourci correspondant au bouton sur lequel vous avez cliqué.
+<LI>Définition du type d’objet à créer parmi : Arme, Armure, Baguette, Bouclier, Gemme, Munition, Objet d’art, Parchemin et Potion. Viendront sûrement plus tard les autres types ainsi que la possibilité d’ajouter un pouvoir spécial.
+<LI>Définition du nom de l’objet. Vous pouvez renseigner cela en français, en anglais ou dans les deux langues. Si une seule des deux langues est renseignée alors l’autre se verra attribuer le même nom.
+<LI>Définition de renseignements complémentaires dépendant du type de l’objet à créer.
+<LI>Pour les armes, les munitions, les boucliers et les armures, vous pouvez sélectionner leurs propriétés spéciales. Le bonus effectif de l’objet est automatiquement calculé. À côté de chaque propriété spéciale est renseigné entre parenthèses le bonus engendré par celle-ci.
+<LI>Validation de l’objet créé. Notez que son prix, son poids et son NLS sont automatiquement calculés. Vous pouvez effacer les objets créés depuis la vue de « Ajouter un objet » ; un bouton avec une croix apparaitra pour ce faire.
+</OL>
+<center></center></td></tr></table>

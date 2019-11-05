@@ -1,0 +1,57 @@
+---
+Name: Pathfinder-RPG.Blasphème
+Title: Blasphème
+LastModified: 2018-07-24 17:24
+Categories:
+  - 'Manuel des joueurs'
+  - 'Règles officielles'
+  - 'Sort'
+  - 'Sort prêtre 7'
+---
+'''École''' [[Évocation]] ([[registre|Mal]], [[registre|son]]) ; '''Niveau''' [[inquisiteur|Inq]] 6, [[prêtre|Prê]] 7<br/>
+'''Temps d'incantation''' 1 [[action simple]]<br/>
+'''Composantes''' [[composantes|V]]<br/>
+'''Portée''' 12 m (8 {s:c})<br/>
+'''Zone d'effet''' créatures non-Mauvaises situées dans une [[étendue]] de 12 m (8 {s:c}) de rayon centrée sur le prêtre<br/>
+'''Durée''' [[instantanée]]<br/>
+'''Jet de sauvegarde''' [[Volonté]], [[Présentation des sorts#JETSDESAUVEGARDE|partiel]] ; '''Résistance à la magie''' oui
+
+Toute créature non-Mauvaise située dans la [[zone deffet|zone d’effet]] d’un ''blasphème'' est victime des effets suivants :
+
+<center>
+{| CLASS="tablo"
+|- CLASS="titre"
+| Nombre de DV
+| CLASS="gauche" | Effet
+|- CLASS="premier"
+| Égaux au niveau du lanceur de sorts
+| CLASS="gauche" | Hébétement
+|- CLASS="alt"
+| Jusqu’au niveau du lanceur de sorts -1
+| CLASS="gauche" | Affaiblissement, hébétement
+|-
+| Jusqu’au niveau du lanceur de sorts -5
+| CLASS="gauche" | Paralysie, affaiblissement, hébétement
+|- CLASS="alt"
+| Jusqu’au niveau du lanceur de sorts -10
+| CLASS="gauche" | Mort, paralysie, affaiblissement, hébétement
+|}
+</center>
+
+Tous ces effets sont cumulatifs. Un jet de [[Volonté]] réussi permet de réduire ou d’annuler ces effets. Les créatures affectées par plusieurs effets font un unique [[jet de sauvegarde]] qui s’applique à tous.
+
+''Hébétement.'' La créature [[hébété|hébétée]] ne peut entreprendre aucune action pendant 1 [[round]], mais elle se défend normalement. [[Jet de sauvegarde]] pour [[Présentation des sorts#JETSDESAUVEGARDE|annuler]].
+
+''Affaiblissement.'' La valeur de [[Force]] de la créature diminue de 2d6 points pour 2d4 [[round|rounds]]. [[Jet de sauvegarde]] pour [[Présentation des sorts#JETSDESAUVEGARDE|réduire de moitié]].
+
+''Paralysie.'' La créature est [[paralysé|paralysée]] et [[sans défense]] pendant 1d10 minutes. [[Jet de sauvegarde]] pour réduire cette durée à 1 [[round]].
+
+''Mort.'' La créature périt sur-le-champ. S’il s’agit d’un [[type mort-vivant|mort-vivant]], ce dernier est détruit. [[Jet de sauvegarde]] pour [[Présentation des sorts#JETSDESAUVEGARDE|annuler]]. En cas de réussite, la victime subit seulement 3d6 points de dégâts +1 par [[NLS|niveau de lanceur de sorts]] (maximum +25).
+
+En outre, si le [[prêtre]] se trouve dans son [[plans|plan]] d’origine durant l’incantation, toutes les créatures extraplanaires d’[[alignement]] autre que Mauvais situées dans la [[zone deffet|zone d’effet]] sont instantanément renvoyées dans leur [[plans|plan]] d’origine. Elles ne peuvent revenir avant vingt-quatre heures une fois bannies de la sorte. Cet effet se produit même si les créatures n’entendent pas prononcer le ''blasphème''. Pour annuler l’effet de bannissement, il faut réussir un jet de [[Volonté]] (avec un malus de -4).
+
+Les créatures dont le nombre de [[dés de vie]] dépasse le [[NLS|niveau du lanceur de sorts]] ne sont pas affectées.
+
+===Mythique===
+{s:CMy}
+Lorsque vous déterminez l’effet du sort sur des créatures [[non-mythiques]], ajoutez le [[grade]] du personnage à son [[NLS|niveau de lanceur de sorts]]. Les créatures non-Mauvaises qui ratent leur jet de sauvegarde subissent un malus de -4 aux jets d’attaque et de sauvegarde et leur résistance à la magie diminue de 5 points tant que durent les autres effets du sort.

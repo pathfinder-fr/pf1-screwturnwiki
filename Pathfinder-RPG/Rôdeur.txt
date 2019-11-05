@@ -1,0 +1,495 @@
+---
+Name: Pathfinder-RPG.Rôdeur
+Title: Le rôdeur
+LastModified: 2019-06-09 14:45
+Categories:
+  - 'Classe'
+---
+{s:MenuClasses}
+<div class="fright">'''''Voir aussi les [[compagnons animaux]].'''''<br/>
+'''''Voir aussi la [[liste des sorts de rôdeurs]]'''''.<br/>
+'''''Voir aussi les [[pièges de rôdeur]].'''''<br/>
+{s:PM0|rôdeur}'''Voir les archétypes du rôdeur'''&emsp; 
+<ul ID="rôdeur" CLASS="listecachée cadrebas">
+  <li>[[Arpenteur des profondeurs (rôdeur)|Arpenteur des profondeurs]] (AG)</li>
+  <li>[[Champion rebelle (rôdeur)|Champion rebelle]] (MCA)</li>
+  <li>[[Changeforme (rôdeur)|Changeforme]] (MJRA)</li>
+  <li>[[Chasseur de trophées (rôdeur)|Chasseur de trophées]] (AG)</li>
+  <li>[[Chasseur sauvage (rôdeur)|Chasseur sauvage]] (MCA)</li>
+  <li>[[Éclaireur de larmée (rôdeur)|Éclaireur de l'armée]] (AG)</li>
+  <li>[[Fauconnier (rôdeur)|Fauconnier]] (AG)</li>
+  <li>[[Gardien (rôdeur)|Gardien]] (AG)</li>
+  <li>[[Gardien des vagues (rôdeur)|Gardien des vagues]] ([[homme-poisson (race)|Homme-poisson]]) (MR)</li>
+  <li>[[Guide (rôdeur)|Guide]] (MJRA)</li>
+  <li>[[Maître des bêtes (rôdeur)|Maître des bêtes]] (MJRA)</li>
+  <li>[[Ombre sauvage (rôdeur)|Ombre sauvage]] ([[demi-elfe|Demi-elfe]]) (MR)</li>
+  <li>[[Pisteur divin (rôdeur)|Pisteur divin]] (MCA)</li>
+  <li>[[Rôdeur infiltré (rôdeur)|Rôdeur infiltré]] (APG)</li>
+  <li>[[Rôdeur libre des forêts (rôdeur)|Rôdeur libre des forêts]] (MMI)</li>
+  <li>[[Rôdeur spirituel (rôdeur)|Rôdeur spirituel]] (APG)</li>
+  <li>[[Rôdeur urbain (rôdeur)|Rôdeur urbain]] (APG)</li>
+  <li>[[Seigneur des chevaux (rôdeur)|Seigneur des chevaux]] (APG)</li>
+  <li>[[Tirailleur (rôdeur)|Tirailleur]] (APG)</li>
+  <li>[[Traqueur du crépuscule (rôdeur)|Traqueur du crépuscule]] ([[fetchelin (race)|Fetchelin]]) (MR)</li>
+  <li>[[Traqueur sauvage (rôdeur)|Traqueur sauvage]] (UC)</li>
+  <li>[[Trappeur (rôdeur)|Trappeur]] (UM)</li>
+</ul></div> 
+
+''Pour ceux qui aiment le frisson de la chasse, seules comptent les notions de prédateurs et de proies. Qu’ils soient éclaireurs, pisteurs ou chasseurs de prime, les rôdeurs partagent de nombreuses particularités : une maîtrise inégalée de certaines armes, une grande habileté pour débusquer le gibier, même le plus inaccessible, et un savoir-faire leur permettant de venir à bout d’une grande variétés de proies. Ces chasseurs allient savoir, patience et habileté pour traquer les hommes, les bêtes ou encore les animaux. Ils développent un instinct de prédateur, un savoir-faire applicable à de multiples environnements et des capacités martiales toujours plus dangereuses. Certains chassent les créatures qui s’attaquent aux humains et protègent les frontières de la civilisation alors que d’autres se lancent à la poursuite d’un gibier plus rusé, et parfois même de fugitifs appartenant à la même communauté qu’eux.''
+
+{s:reference|TABLERODEUR}
+<center>
+{| CLASS="tablo"
+|+ Le rôdeur
+|- CLASS="titre"
+| ROWSPAN="2" | Niveau
+| ROWSPAN="2" | BBA
+| ROWSPAN="2" | Réflexes
+| ROWSPAN="2" | Vigueur
+| ROWSPAN="2" | Volonté
+| ROWSPAN="2" CLASS="gauche" | Spécial
+| COLSPAN="4" CLASS="avecsoustitre" | Sorts par jour
+|- CLASS="soustitre"
+| 1e
+| 2e
+| 3e
+| 4e
+|- CLASS="premier"
+| 1
+| +1
+| +2
+| +2
+| +0
+| CLASS="gauche" | 1er [[rôdeur#ENNEMIJURE|ennemi juré]], [[rôdeur#PISTAGE|pistage]], [[rôdeur#EMPATHIESAUVAGE|empathie sauvage]]
+| -
+| -
+| -
+| -
+|- CLASS="alt"
+| 2
+| +2
+| +3
+| +3
+| +0
+| CLASS="gauche" | [[rôdeur#DONDESTYLEDECOMBAT|don de style de combat]]
+| -
+| -
+| -
+| -
+|-
+| 3
+| +3
+| +3
+| +3
+| +1
+| CLASS="gauche" | [[rôdeur#ENDURANCE|endurance]], 1er [[rôdeur#ENVIRONNEMENTDEPREDILECTION|environnement de prédilection]]
+| -
+| -
+| -
+| -
+|- CLASS="alt"
+| 4
+| +4
+| +4
+| +4
+| +1
+| CLASS="gauche" | [[rôdeur#PACTEDUCHASSEUR|pacte du chasseur]]
+| 0*
+| -
+| -
+| -
+|-
+| 5
+| +5
+| +4
+| +4
+| +1
+| CLASS="gauche" | 2e [[rôdeur#ENNEMIJURE|ennemi juré]]
+| 1
+| -
+| -
+| -
+|- CLASS="alt"
+| 6
+| +6/+1
+| +5
+| +5
+| +2
+| CLASS="gauche" | [[rôdeur#DONDESTYLEDECOMBAT|don de style de combat]]
+| 1
+| -
+| -
+| -
+|-
+| 7
+| +7/+2
+| +5
+| +5
+| +2
+| CLASS="gauche" | [[rôdeur#DEPLACEMENTFACILITE|déplacement facilité]]
+| 1
+| 0*
+| -
+| -
+|- CLASS="alt"
+| 8
+| +8/+3
+| +6
+| +6
+| +2
+| CLASS="gauche" | [[rôdeur#PISTAGEACCELERE|pistage accéléré]], 2e [[rôdeur#ENVIRONNEMENTDEPREDILECTION|environnement de prédilection]]
+| 1
+| 1
+| -
+| -
+|-
+| 9
+| +9/+4
+| +6
+| +6
+| +3
+| CLASS="gauche" | [[rôdeur#ESQUIVETOTALE|esquive totale]]
+| 2
+| 1
+| -
+| -
+|- CLASS="alt"
+| 10
+| +10/+5
+| +7
+| +7
+| +3
+| CLASS="gauche" | 3e [[rôdeur#ENNEMIJURE|ennemi juré]], [[rôdeur#DONDESTYLEDECOMBAT|don de style de combat]]
+| 2
+| 1
+| 0*
+| -
+|-
+| 11
+| +11/+6/+1
+| +7
+| +7
+| +3
+| CLASS="gauche" | [[rôdeur#PROIEDUCHASSEUR|proie du chasseur]]
+| 2
+| 1
+| 1
+| -
+|- CLASS="alt"
+| 12
+| +12/+7/+2
+| +8
+| +8
+| +4
+| CLASS="gauche" | [[rôdeur#CAMOUFLAGE|camouflage]]
+| 2
+| 2
+| 1
+| -
+|-
+| 13
+| +13/+8/+3
+| +8
+| +8
+| +4
+| CLASS="gauche" | 3e [[rôdeur#ENVIRONNEMENTDEPREDILECTION|environnement de prédilection]]
+| 3
+| 2
+| 1
+| 0*
+|- CLASS="alt"
+| 14
+| +14/+9/+4
+| +9
+| +9
+| +4
+| CLASS="gauche" | [[rôdeur#DONDESTYLEDECOMBAT|don de style de combat]]
+| 3
+| 2
+| 1
+| 1
+|-
+| 15
+| +15/+10/+5
+| +9
+| +9
+| +5
+| CLASS="gauche" | 4e [[rôdeur#ENNEMIJURE|ennemi juré]]
+| 3
+| 2
+| 2
+| 1
+|- CLASS="alt"
+| 16
+| +16/+11/+6/+1
+| +10
+| +10
+| +5
+| CLASS="gauche" | [[rôdeur#ESQUIVESURNATURELLE|esquive surnaturelle]]
+| 3
+| 3
+| 2
+| 1
+|-
+| 17
+| +17/+12/+7/+2
+| +10
+| +10
+| +5
+| CLASS="gauche" | [[rôdeur#DISCRETIONTOTALE|discrétion totale]]
+| 4
+| 3
+| 2
+| 1
+|- CLASS="alt"
+| 18
+| +18/+13/+8/+3
+| +11
+| +11
+| +6
+| CLASS="gauche" | 4e [[rôdeur#ENVIRONNEMENTDEPREDILECTION|environnement de prédilection]], [[rôdeur#DONDESTYLEDECOMBAT|don de style de combat]]
+| 4
+| 3
+| 2
+| 2
+|-
+| 19
+| +19/+14/+9/+4
+| +11
+| +11
+| +6
+| CLASS="gauche" | [[rôdeur#PROIEDUMAITRECHASSEUR|proie du maître chasseur]]
+| 4
+| 3
+| 3
+| 2
+|- CLASS="alt"
+| 20
+| +20/+15/+10/+5
+| +12
+| +12
+| +6
+| CLASS="gauche" | 5e [[rôdeur#ENNEMIJURE|ennemi juré]], [[rôdeur#MAITRECHASSEUR|maître chasseur]]
+| 4
+| 4
+| 3
+| 3
+|- CLASS="note"
+| COLSPAN="10" | ''(*) Aucun sort sauf sorts bonus octroyés par une Sagesse élevée.''
+|}
+</center>
+
+'''Rôle.''' Les rôdeurs sont des guérilleros adroits tant au corps à corps qu’à distance et doués pour les attaques éclair. Leurs capacités leur permettent d’infliger de très importantes blessures à certains types d’ennemis, mais elles restent également utiles dans les autres cas.
+
+'''Alignement.''' Au choix.
+
+'''Dés de vie.''' d10.
+
+=== Compétences de classe ===
+Les compétences de classe du rôdeur sont les suivantes : [[Art de la magie]] (Int), [[Artisanat]] (Int), [[Connaissances]] (exploration souterraine) (Int), [[Connaissances]] (géographie) (Int), [[Connaissances]] (nature) (Int), [[Discrétion]] (Dex), [[Dressage]] (Cha), [[Équitation]] (Dex), [[Escalade]] (For), [[Intimidation]] (Cha), [[Natation]] (For), [[Perception]] (Sag), [[Premiers secours]] (Sag), [[Profession]] (Sag) et [[Survie]] (Sag).
+
+'''Points de compétence par niveau.''' 6 + modificateur d’[[Intelligence]].
+
+=== Descriptif de la classe ===
+{s:ImageDroite|Illustrations/PNJ/Harsk.jpg|35%}
+Les aptitudes du rôdeur sont décrites ci-dessous.
+
+====Armes et armures====
+Le rôdeur est formé au maniement de toutes les [[arme courante|armes courantes]] et de [[arme de guerre|guerre]], ainsi qu’au port des [[armure légère|armures légères]] et [[armure intermédiaire|intermédiaires]] et à l’utilisation des boucliers (à l’exception des pavois).
+
+{s:Reference|ENNEMIJURE}
+====Ennemis jurés (Ext)====
+
+Au niveau 1, le rôdeur choisit un type de créatures sur la [[rôdeur#TABLEENNEMISJURES|table des ennemis jurés du rôdeur]]. Il bénéficie d’un bonus de +2 aux tests de [[Bluff]], [[Connaissances]], [[Perception]], [[Psychologie]] et [[Survie]] lorsqu’il les utilise contre des créatures de ce type. Il bénéficie également d’un bonus de +2 aux [[jet dattaque|jets d’attaque]] et de [[jet de dégâts|dégâts]] lorsqu’il utilise une arme contre elles. Enfin, il peut tenter d’utiliser la compétence de [[Connaissances]] pour identifier ces créatures et ce, même s’il ne possède aucun rang dans celle-ci.
+
+Au niveau 5 et tous les cinq niveaux par la suite (aux niveaux 10, 15 et 20), le rôdeur peut choisir un nouvel ennemi juré. En même temps, il peut augmenter de +2 le bonus dont il bénéficie contre l’un de ses ennemis jurés (y compris celui qu’il vient de choisir, s’il le désire).
+
+Lorsqu’un rôdeur choisit les [[type Extérieur|Extérieurs]] ou les [[type humanoïde|humanoïdes]] comme ennemis jurés, il doit aussi sélectionner un sous-type associé, comme l’indique la table (notez que les sous-types d’humanoïdes cités dans la table ne sont que les plus communs, d’autres sous-types, que le rôdeur peut également choisir, sont présentés dans le ''Bestiaire Pathfinder''). Si une créature appartient à deux familles d’ennemis jurés, les bonus ne se cumulent pas : le rôdeur ne profite que du plus élevé des deux.
+
+
+{s:Reference|TABLEENNEMISJURES}
+<center>
+{| CLASS="tablo"
+|+ Choix d'ennemis jurés du rôdeur
+|-
+| WIDTH="25%" | [[type Aberration|Aberration]]
+| WIDTH="25%" CLASS="gauche" | [[type Extérieur|Extérieur]] ([[sous-type Air|Air]])
+| WIDTH="25%" CLASS="gauche" | [[type Humanoïde|Humanoïde]] (autre sous-type)
+| WIDTH="25%" CLASS="gauche" |  [[type Humanoïde|Humanoïde]] ([[sous-type humain|humain]])
+|- CLASS="alt"
+| [[type Animal|Animal]]
+| CLASS="gauche" | [[type Extérieur|Extérieur]] ([[sous-type Bien|Bien]])
+| CLASS="gauche" | [[type Humanoïde monstrueux|Humanoïde monstrueux]]
+| CLASS="gauche" | [[type Humanoïde|Humanoïde]] ([[sous-type nain|nain]])
+|-
+| [[type Créature artificielle|Créature artificielle]]
+| CLASS="gauche" | [[type Extérieur|Extérieur]] ([[sous-type Eau|Eau]])
+| CLASS="gauche" | [[type Humanoïde|Humanoïde]] ([[sous-type aquatique|aquatique]])
+| CLASS="gauche" | [[type Humanoïde|Humanoïde]] ([[sous-type géant|géant]])
+|- CLASS="alt"
+| [[type Créature magique|Créature magique]]
+| CLASS="gauche" | [[type Extérieur|Extérieur]] ([[sous-type Chaos|Chaos]])
+| CLASS="gauche" | [[type Humanoïde|Humanoïde]] ([[sous-type elfe|elfe]])
+| CLASS="gauche" | [[type Humanoïde|Humanoïde]] (orque)
+|-
+| [[type Dragon|Dragon]]
+| CLASS="gauche" | [[type Extérieur|Extérieur]] ([[sous-type Feu|Feu]])
+| CLASS="gauche" | [[type Humanoïde|Humanoïde]] (gnoll)
+| CLASS="gauche" | [[type Humanoïde|Humanoïde]] ([[sous-type gobelinoïde|gobelinoïde]])
+|- CLASS="alt"
+| [[type Fée|Fée]]
+| CLASS="gauche" | [[type Extérieur|Extérieur]] ([[sous-type Loi|Loi]])
+| CLASS="gauche" | [[type Humanoïde|Humanoïde]] ([[sous-type gnome|gnome]])
+| CLASS="gauche" | [[type Humanoïde|Humanoïde]] ([[sous-type reptilien|reptilien]])
+|-
+| [[type Mort-vivant|Mort-vivant]]
+| CLASS="gauche" | [[type Extérieur|Extérieur]] ([[sous-type natif|natif]])
+| CLASS="gauche" | [[type Humanoïde|Humanoïde]] ([[sous-type halfelin|halfelin]])
+| CLASS="gauche" | &emsp;
+|- CLASS="alt"
+| [[type Plante|Plante]]
+| CLASS="gauche" | [[type Extérieur|Extérieur]] ([[sous-type Mal|Mal]])
+| CLASS="gauche" | &emsp;
+| CLASS="gauche" | &emsp;
+|-
+| [[type Vermine|Vermine]]
+| CLASS="gauche" | [[type Extérieur|Extérieur]] ([[sous-type Terre|Terre]])
+| CLASS="gauche" | &emsp;
+| CLASS="gauche" | &emsp;
+|}
+</center>
+
+{s:Reference|PISTAGE}
+====Pistage (Ext)====
+Le rôdeur ajoute la moitié de son niveau (au minimum +1) aux tests de [[Survie]] pour suivre des traces.
+
+{s:Reference|EMPATHIESAUVAGE}
+====Empathie sauvage (Ext)====
+Un rôdeur peut améliorer l’attitude d’un animal. Cette aptitude suit les mêmes règles que les tests de [[Diplomatie]] visant à modifier l’attitude d’une personne. Le résultat d’un test d’empathie sauvage est déterminé par 1d20 + le niveau du rôdeur + son modificateur de [[Charisme]]. L’attitude initiale des animaux domestiques est l’indifférence, tandis que les animaux sauvages sont généralement inamicaux.
+
+Pour utiliser empathie sauvage, le rôdeur et l’animal doivent être à moins de 9 m (6 cases) de distance dans des conditions de visibilité normales. Il faut en moyenne une minute pour influencer un animal de cette façon, mais, comme pour la [[diplomatie]], cela peut parfois prendre plus longtemps ou être plus rapide.
+
+Un rôdeur peut également utiliser cette aptitude pour influencer une [[type Créature magique|créature magique]] dont la valeur d’[[Intelligence]] est de 1 ou 2, mais avec un malus de -4 sur son test.
+
+{s:Reference|DONDESTYLEDECOMBAT}{s:Reference|STYLEDECOMBAT}
+====Style de combat (Ext)====
+Au niveau 2, un rôdeur choisit de se spécialiser dans un des deux styles de combat suivants : ''combat à deux armes'' ou ''combat à distance''. 
+
+{s:apg}Il peut également choisir de se spécialiser dans un des styles de combat suivants : ''arbalète'', ''arme à deux mains'', ''arme et bouclier'', ''arme naturelle ou combat monté''.
+
+Cette spécialisation se traduit par des dons supplémentaires gagnés aux niveaux 2, 6, 10, 14 et 18. Le rôdeur choisit ces dons supplémentaires dans la liste appropriée. Il peut sélectionner un don même s’il ne remplit pas les conditions qui lui sont associées.
+
+Si le rôdeur choisit le style de '''''combat à distance''''', il peut choisir un des dons suivants chaque fois qu’il gagne un don de style de combat : [[Tir à bout portant]], [[Tir de loin]], [[Tir de précision]] et [[Tir rapide]]. Au niveau 6, les dons [[Feu nourri]],[[Maîtrise du tir à bout portant]], [[Science du tir de précision]] et [[Tir avec concentration]] s’ajoutent à la liste. Au niveau 10, les dons [[Tir en mouvement]] et [[Viser juste]] s’ajoutent à la liste.
+
+Si le rôdeur choisit le style de '''''combat à deux armes''''', il peut choisir un des dons suivants chaque fois qu’il gagne un don de style de combat : [[Arme en main]], [[Combat à deux armes]], [[Double frappe]] et [[Science du coup de bouclier]]. Au niveau 6, les dons [[Défense à deux armes]] et [[Science du combat à deux armes]] s’ajoutent à la liste. Au niveau 10, les dons [[Éventration à deux armes]] et [[Combat à deux armes supérieur]] viennent s’ajouter à la liste.
+
+{s:apg} Si le rôdeur choisit le style de combat '''''arbalète''''', il peut choisir un des dons suivants chaque fois qu’il gagne un don de style de combat : [[Rechargement rapide]], [[Tir avec concentration]], [[Tir de précision]] ou [[Viser]]. Au niveau 6, les dons [[Maîtrise des arbalètes]] et [[Science du tir de précision]] s'ajoutent à la liste. Au niveau 10, les dons [[Tir en mouvement]] et [[Viser juste]] viennent s'ajouter à la liste.
+
+{s:apg}Si le rôdeur choisit le style de combat '''''arme à deux mains''''', il peut choisir un des dons suivants chaque fois qu’il gagne un don de style de combat : [[Assaut repoussant]], [[Attaque en puissance]], [[Coups protecteurs]] ou [[Enchaînement]]. Au niveau 6, les dons [[Concentration malgré la fureur]] et [[Succession denchaînements|Succession d’enchaînements]] s'ajoutent à la liste. Au niveau 10, les dons [[Carnage effroyable]] et [[Science de la destruction]] viennent s'ajouter à la liste.
+
+{s:apg}Si le rôdeur choisit le style de combat '''''arme et bouclier''''', il peut choisir un des dons suivants chaque fois qu’il gagne un don de style de combat : [[Art du bouclier]], [[Frappe du bouclier]], [[Combat à deux armes]] ou [[Science du coup de bouclier]]. Au niveau 6, les dons [[Bouclier salvateur]] et [[Maîtrise du bouclier]] s'ajoutent à la liste. Au niveau 10, les dons [[Art du bouclier supérieur]] et [[Coup de bouclier opportuniste]] viennent s'ajouter à la liste.
+
+{s:apg}Si le rôdeur choisit le style de combat '''''arme naturelle''''', il peut choisir un des dons suivants chaque fois qu’il gagne un don de style de combat : [[Arme de prédilection]], [[Arme naturelle supérieure]], [[Aspect bestial]] ou [[Griffes coupantes]]. Au niveau 6, les dons [[Frappe décisive]] et [[Griffes magiques]] s'ajoutent à la liste. Au niveau 10, les dons [[Attaques multiples]] et [[Science de la frappe décisive]] viennent s'ajouter à la liste. 
+
+{s:apg}Si le rôdeur choisit le style de combat '''''combat monté''''', il peut choisir un des dons suivants chaque fois qu’il gagne un don de style de combat : [[Astuce déquitation|Astuce d’équitation]], [[Attaque au galop]], [[Combat monté]] ou [[Tir monté]]. Au niveau 6, les dons [[Bouclier pour la monture]] et [[Charge dévastatrice]] s'ajoutent à la liste. Au niveau 10, les dons [[Désarçonner]] et [[Tirailleur monté]] viennent s'ajouter à la liste.
+
+Le rôdeur ne bénéficie de ses dons de style de combat que s’il porte une armure légère, une armure intermédiaire ou s’il ne porte aucune armure. Il perd leurs avantages s’il porte une armure lourde. Une fois qu’un rôdeur a opté pour un style de combat, ce choix ne peut plus être modifié.
+
+{s:Reference|ENDURANCE}
+
+====Endurance====
+Un rôdeur de niveau 3 reçoit gratuitement le don [[Endurance]] en tant que don supplémentaire.
+
+{s:Reference|ENVIRONNEMENTDEPREDILECTION}
+====Environnements de prédilection (Ext)====
+{s:Reference|TABLEENVIRONNEMENTDEPREDILECTION}<div style="float: right; margin-left: 10px; margin-right: -5px; max-width: 300px;" class="presentation recentre">
+{| CLASS="tablo"
+|+ Environnements de prédilection du rôdeur
+|-
+| Aquatique (sur et sous la surface)
+|- CLASS="alt"
+| Désert (déserts de sable ou étendues désertiques)
+|-
+| Forêt (de conifères ou à feuilles caduques)
+|- CLASS="alt"
+| Froid (territoires enneigés ou gelés, glaciers et toundra)
+|-
+| Jungle
+|- CLASS="alt"
+| Marais
+|-
+| Montagnes (y compris les collines)
+|- CLASS="alt"
+| Plaines
+|-
+| Plans (choisir un plan autre que le plan Matériel)
+|- CLASS="alt"
+| Sous terre (grottes et complexes souterrains)
+|-
+| Urbain (bâtiments, rues et égouts)
+|}
+</div>Au niveau 3, un rôdeur choisit un type d’environnement sur la [[rôdeur#TABLEENVIRONNEMENTDEPREDILECTION|table des environnements de prédilection du rôdeur]]. Il bénéficie d’un bonus de +2 aux jets d’[[initiative]] et aux tests de [[Connaissances]] (géographie), [[Discrétion]], [[Perception]] et [[Survie]] lorsqu’il se trouve dans cet environnement. De plus, lorsqu’il voyage dans son environnement de prédilection, le rôdeur ne laisse aucune trace et ne peut être suivi (il peut cependant laisser des traces s’il le désire).
+
+Au niveau 8 et tous les cinq niveaux par la suite, le rôdeur peut choisir un nouvel environnement de prédilection. En même temps, il peut augmenter de +2 le bonus dont il bénéficie dans l’un de ses environnements de prédilection (y compris celui qu’il vient de choisir, s’il le désire).
+
+Si l’endroit où le rôdeur se trouve entre dans plusieurs catégories d’environnements de prédilection, les bonus ne se cumulent pas : le rôdeur ne bénéficie que du bonus le plus élevé.
+
+{s:Reference|PACTEDUCHASSEUR}
+====Pacte du chasseur (Ext)====
+Au niveau 4, un lien se tisse entre le rôdeur et ses compagnons de chasse. Ce lien peut prendre l’une des deux formes suivantes. Une fois qu’une forme a été choisie, cette décision ne peut plus être modifiée. 
+
+La première forme est un lien entre le rôdeur et ses compagnons qui lui permet, en utilisant une action de mouvement, de faire bénéficier tous ses alliés distants de 9 m (6 cases) ou moins et qui peuvent le voir ou l’entendre de la moitié de son bonus d’[[rôdeur#ENNEMIJURE|ennemi juré]] contre une cible unique (appartenant au type adéquat). Ce bonus persiste pendant un nombre de rounds égal au modificateur de [[Sagesse]] du rôdeur (au minimum 1 round) et ne se cumule pas avec les bonus d’[[rôdeur#ENNEMIJURE|ennemis jurés]] que ses alliés pourraient posséder (ils ne bénéficient que du bonus le plus élevé).
+
+Sous sa seconde forme, le pacte permet au le rôdeur de tisser un lien étroit avec un [[compagnons animaux|compagnon animal]]. Un rôdeur qui opte pour cette forme doit choisir un animal dans la liste suivante : blaireau, chameau, cheval (lourd ou léger), chien, loup, oiseau, petit félin, poney, rat sanguinaire ou serpent (vipère ou serpent constricteur). Si la campagne se déroule en grande partie ou entièrement en milieu aquatique, le rôdeur peut également choisir un requin. Cet animal est un compagnon loyal qui accompagne le rôdeur au cours de ses aventures et l’aide au mieux de ses possibilités. Le compagnon animal partage les bonus d’[[rôdeur#ENNEMIJURE|ennemis jurés]] et d’[[rôdeur#ENVIRONNEMENTDEPREDILECTION|environnements de prédilection]] du rôdeur.
+
+Le compagnon suit les mêmes règles que les [[compagnons animaux]] des [[druide|druides]] (voir la capacité de druide de [[druide#PACTEAVECLANATURE|pacte avec la nature]]), avec un niveau de [[druide]] effectif égal au niveau du rôdeur -3.
+
+{s:reference|SORTS}
+====Sorts====
+Dès le niveau 4, un rôdeur peut lancer un petit nombre de sorts divins appartenant à la [[liste des sorts de rôdeurs]]. Un rôdeur doit choisir et préparer ses sorts à l’avance.
+
+Pour préparer ou lancer un sort, un rôdeur doit avoir une valeur de [[Sagesse]] au moins égale à 10 + le niveau du sort. Le [[DD]] des jets de sauvegarde contre les sorts du rôdeur est égal à 10 + le niveau du sort + le modificateur de [[Sagesse]] du rôdeur.
+
+Comme les autres lanceurs de sorts, le rôdeur ne peut lancer qu’un nombre de sorts donné de chaque niveau chaque jour. Son quota de sorts quotidiens est indiqué dans la Table "[[rôdeur#TABLERODEUR|Le Rôdeur]]". En plus de cela, il reçoit des sorts en bonus si sa valeur de [[Sagesse]] est suffisamment élevée (voir la Table "[[Caractéristiques#TABLEAUCARACTERISTIQUES|Modificateurs de caractéristique et sorts en bonus]]"). Quand la Table "[[rôdeur#TABLERODEUR|Le Rôdeur]]" indique que le rôdeur peut lancer 0 sort d’un niveau de sort par jour, il ne dispose, pour ce niveau de sorts, que des sorts en bonus que peut lui accorder une [[Sagesse]] élevée.
+
+Chaque jour, le rôdeur doit passer une heure à méditer afin de renouveler son quota journalier de sorts. Le rôdeur peut préparer et lancer n’importe quel sort de la [[liste des sorts de rôdeurs]], pour autant qu’il puisse lancer des sorts de ce niveau. Il doit cependant choisir quels sorts préparer au cours de sa méditation quotidienne.
+
+Jusqu’au niveau 3, le rôdeur n’a pas de niveau de lanceur de sorts. À partir du niveau 4, son niveau de lanceur de sorts est égal son niveau de rôdeur -3.
+
+{s:Reference|DEPLACEMENTFACILITE}
+====Déplacement facilité (Ext)====
+Un rôdeur de niveau 7 se déplace sans la moindre gêne dans toutes sortes de taillis, y compris les fourrés, les buissons (même épineux) et les autres zones de végétation dense. Il progresse normalement et ne subit aucun dégât.
+
+La végétation enchantée de manière à restreindre les mouvements continue toutefois à l’affecter.
+
+{s:Reference|PISTAGEACCELERE}
+====Pistage accéléré (Ext)====
+Lorsqu’un rôdeur de niveau 8 suit une piste, il peut se déplacer à vitesse normale sans subir le malus de -5 sur ses tests de [[Survie]]. De plus, il ne subit qu’un malus de -10 (au lieu de -20) sur ses tests de [[Survie]] lorsqu’il suit une piste en se déplaçant au double de sa vitesse.
+
+{s:Reference|ESQUIVETOTALE}
+====Esquive totale (Ext)====
+L’agilité phénoménale d’un rôdeur de niveau 9 lui permet d’esquiver les attaques magiques ou inhabituelles. S’il réussit un jet de [[Réflexes]] contre une attaque dont les dégâts devraient être réduits de moitié en cas de jet de [[Réflexes]] réussi, il évite l’attaque et ne subit pas le moindre dégât. Le rôdeur bénéficie de cet avantage uniquement s’il porte une armure légère, intermédiaire ou aucune armure. Un rôdeur sans défense ne bénéficie pas des avantages de l’esquive totale.
+
+{s:Reference|PROIEDUCHASSEUR}
+====Proie du chasseur (Ext)====
+Au niveau 11, un rôdeur peut choisir une cible dans sa ligne de mire et la désigner comme proie en utilisant une [[action simple]]. Chaque fois qu’il suit les traces de sa proie, le rôdeur peut faire 10 sur ses tests de [[Survie]] tout en se déplaçant à vitesse normale sans pour autant subir de pénalité. De plus, il reçoit un bonus d’intuition de +2 aux jets d’attaque contre sa cible et toutes les possibilités de [[critique]] sont automatiquement confirmées. Le rôdeur ne peut avoir qu’une seule cible à la fois et celle-ci doit appartenir à une de ses catégories d’[[rôdeur#ENNEMIJURE|ennemis jurés]]. Il peut mettre fin à cet effet à n’importe quel moment (par [[action libre]]) mais il doit alors attendre vingt-quatre heures avant de désigner une nouvelle proie. Si le rôdeur a la preuve que sa cible est morte, ce délai d’attente est réduit à une heure.
+
+{s:Reference|CAMOUFLAGE}
+====Camouflage (Ext)====
+Un rôdeur de niveau 12 ou plus peut utiliser la compétence [[Discrétion]] même s’il ne bénéficie pas d’un [[abri]] ou de [[camouflage]], à condition de se trouver dans un de ses [[rôdeur#ENVIRONNEMENTDEPREDILECTION|environnements de prédilection]].
+
+{s:Reference|ESQUIVESURNATURELLE}
+====Esquive surnaturelle (Ext)====
+Au niveau 16, l’[[rôdeur#ESQUIVETOTALE|esquive totale]] du rôdeur s’améliore. Quand il est victime d’un attaque qui autorise un jet de [[Réflexes]] pour réduire les dégâts de moitié, il ne subit aucun dégât en cas de jet de sauvegarde réussi mais, en plus, il ne subit que la moitié des dégâts en cas d’échec du jet de sauvegarde. Un rôdeur sans défense perd les avantages de l’esquive surnaturelle.
+
+{s:Reference|DISCRETIONTOTALE}
+====Discrétion totale (Ext)====
+Un rôdeur de niveau 17 ou plus se trouvant dans un de ses [[rôdeur#ENVIRONNEMENTDEPREDILECTION|environnements de prédilection]] peut utiliser la compétence [[Discrétion]] même s’il est observé.
+
+{s:Reference|PROIEDUMAITRECHASSEUR}
+====Proie du maître chasseur (Ext)====
+Au niveau 19, le rôdeur améliore sa capacité à chasser sa proie. Une [[action libre]] lui suffit désormais pour désigner une proie et il peut faire 20 aux tests de [[Survie]] pour la pister tout en se déplacement à sa vitesse normale sans pour autant subir de pénalité. De plus, son bonus d’intuition aux jets d’attaque passe à +4. Si la cible est tuée ou si le rôdeur décide d’en changer, il ne doit plus attendre que dix minutes avant de pouvoir sélectionner une nouvelle cible.
+
+{s:Reference|MAITRECHASSEUR}
+====Maître chasseur (Ext)====
+Un rôdeur de niveau 20 devient un maître chasseur. Lorsqu’il suit une piste, il peut toujours se déplacer à pleine vitesse sans subir de pénalité aux tests de [[Survie]]. En utilisant une [[action simple]], il peut porter une attaque unique contre un [[rôdeur#ENNEMIJURE|ennemi juré]] en utilisant son bonus d’attaque maximal. Si cette attaque touche, elle inflige des dégâts normaux et la cible doit réussir un jet de [[Vigueur]] pour éviter de mourir. Le [[DD]] de ce jet de sauvegarde est de 10 + la moitié du niveau du rôdeur + le modificateur de [[Sagesse]] du rôdeur. Plutôt que de tuer la cible en cas d’échec du jet de sauvegarde, le rôdeur peut choisir de lui infliger autant de points de [[dégâts non létaux]] que celle-ci possède de points de vie. Un jet de sauvegarde réussi annule ces dégâts. Le rôdeur peut utiliser cette capacité une fois par jour par catégorie d’[[rôdeur#ENNEMIJURE|ennemis jurés]] qu’il possède, mais jamais deux fois contre la même créature au cours d’une période de vingt-quatre heures.

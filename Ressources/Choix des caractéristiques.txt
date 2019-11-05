@@ -1,0 +1,84 @@
+---
+Name: Ressources.Choix des caractéristiques
+Title: Choix des caractéristiques
+LastModified: 2016-09-30 20:00
+---
+Cette page vous permet de choisir les caractéristiques de votre personnage en utilisant la méthode d'achat de points (version Pathfinder). En cas de soucis avec cette nouvelle version de la calculatrice, vous pouvez essayer d'utiliser [[CalculatriceES5|l'ancienne version]].
+
+<script src="public/Upload/Battlemaps/CalcStat.js"></script>
+<link rel="stylesheet" type="text/css" href="public/Upload/Battlemaps/CalcStat.css" />
+<div id="calc">
+<div class="étape">
+  <h2>Étape 1 : choix de la race</h2>
+  <p class="description">
+    Choisissez tout d'abord la race de votre personnage. Dans le cas de certaines races (comme humain, demi-elfe ou demi-orque), il vous faudra également choisir la caractéristique qui recevra un bonus de +2. Les personnages des autres races, eux, ont des bonus (et un malus) fixés.
+  </p>
+  <div id="divChoixRace">
+    <div id="blocRaces">
+      <h3>Race</h3>
+      <select id="selectRaces" onkeyup="changeRace(this.value);" onchange="changeRace(this.value);"></select>
+      <p id="choixBonusCarac">
+        <label for="selectBonusCarac">Bonus :</label>
+        <select id="selectBonusCarac" onkeyup="maj();" onchange="maj();">
+          <option value="0">For +2</option>
+          <option value="1">Dex +2</option>
+          <option value="2">Con +2</option>
+          <option value="3">Int +2</option>
+          <option value="4">Sag +2</option>
+          <option value="5">Cha +2</option>
+        </select>
+      </p>   
+    </div>
+    <div id="descRace">
+      <h3>Description des races</h3>
+      <div>
+        Choisissez une race à gauche.
+      </div>
+    </div>
+  </div>
+</div>
+<div class="étape">
+  <h2>Étape 2 : choix des caractéristiques</h2>
+  <p class="description">
+    Ajustez les valeurs des caractéristiques en gardant un oeil sur le coût en points indiqué à droite. Pour modifier les caractéristiques, utilisez les boutons "plus" et "moins" situés à droite. Vous pouvez encore modifier la race ci-dessus si vous le désirez, ou encore changer la caractéristique qui reçoit un bonus de +2 en la choisissant ci-dessus ou en cliquant directement dans le tableau. Vous pouvez également cliquer sur un des boutons "PNJ simple" ou "PNJ héroïque" pour avoir un point de départ ou utiliser une distribution standard.
+  </p>
+  <div id="divChoixCarac">
+    <div id="tabCarac">
+      <table>
+        <tr>
+          <td></td>
+          <th>Base</th>
+          <th>Race</th>
+          <th>Valeur</th>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+    <div id="infoCarac">
+      <div id="infoCoût">
+        <div id="valCoût">
+          <h3>Coût</h3>
+          <p id="pCout">0</p>
+        </div>
+        <div id="descCoût">
+          <h3>Quota de points selon les campagnes</h3>
+          <ul>
+            <li>Basse fantaisie : 10 points</li>
+            <li>Standard : 15 points</li>
+            <li>Haute fantaisie : 20 points</li>
+            <li>Épique : 25 points</li>
+          </ul>
+        </div>
+      </div>
+      <div id="prétirés">
+        <h3>Prétirés</h3>
+        <p class="description">
+          Cliquez sur une des options de répartition automatique suivantes.
+        </p>
+        <table id="tabPrétirés">
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+</div>

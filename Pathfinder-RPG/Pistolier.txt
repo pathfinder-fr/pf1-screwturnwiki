@@ -1,0 +1,254 @@
+---
+Name: Pathfinder-RPG.Pistolier
+Title: Pistolier
+LastModified: 2018-07-15 10:19
+Categories:
+  - 'Art de la guerre'
+  - 'Classe'
+---
+{s:MenuClasses}
+<div style="float:right; padding-left: 4px"></div>
+{br}
+<div class="fright">'''''Voir aussi les [[exploits]] du pistolier.''''' <br/>
+{s:PM0|Pistoliers}'''Voir les archétypes du pistolier'''&emsp;
+<ul ID="Pistoliers" CLASS="listecachée cadrebas">
+  <li>[[Arbalétrier délite (pistolier)|Arbalétrier d'élite]] (MCA)</li>
+  <li>[[Armure-pistolet (pistolier)|Armure-pistolet]] (AG)</li>
+  <li>[[Boucanier (pistolier)|Boucanier]] ([[humain|Humain]]) (MR)</li>
+  <li>[[Fabricant de pistolets expérimentaux (pistolier)|Fabricant de pistolets expérimentaux]] ([[gnome|Gnome]]) (MR)</li>
+  <li>[[Guérillero (pistolier)|Guérillero]] ([[kobold (race)|Kobold]]) (MR)</li>
+  <li>[[Maître du mousquet (pistolier)|Maître du mousquet]] (AG)</li>
+  <li>[[Mystérieux voyageur (pistolier)|Mystérieux voyageur]] (AG)</li>
+  <li>[[Pistolero (pistolier)|Pistolero]] (AG)</li>
+  <li>[[Tireur des ravins (pistolier)|Tireur des ravins]] ([[homme-rat (race)|Homme-rat]]) (MR)</li>
+</ul></div>
+
+
+
+''Pour certains rebelles, les batailles ne font pas le même bruit que pour un guerrier classique. Le fracas de l’acier et les crépitements d’énergie magiques sont noyés sous le tonnerre des coups de feu qui sont autant de roulements de tambours pour le pistolier.
+Les pistoliers sont des gens téméraires et mystérieux et beaucoup révèrent les secrets de la poudre noire comme un magicien vénère son grimoire, mais ils savent aussi que les mystères des armes à feu ne resteront pas éternellement un secret. Les armes à feu actuelles sont simples et manquent de précision, ce sont même des objets dangereux mais c’est une technologie en pleine évolution qui gagnera en puissance quand elle fusionnera pleinement avec la magie.''
+
+<table width="100%">
+<tr>
+<td width="70%">
+<center>
+{| CLASS="tablo"
+|+ Le pistolier
+|- CLASS="titre"
+| Niveau
+| BBA
+| Réflexes
+| Vigueur
+| Volonté
+| CLASS="gauche" | Spécial
+|- CLASS="premier"
+| 1
+| +1
+| +2
+| +2
+| +0
+| CLASS="gauche" | [[Pistolier#ARMURIER|Armurier]], [[Pistolier#AUDACE|audace]], [[Pistolier#EXPLOITS|exploit]]
+|- CLASS="alt"
+| 2
+| +2
+| +3
+| +3
+| +0
+| CLASS="gauche" | [[Pistolier#DÉROBADE|Dérobade]] +1
+|-
+| 3
+| +3
+| +3
+| +3
+| +1
+| CLASS="gauche" | [[Pistolier#EXPLOITS|Exploit]]
+|- CLASS="alt"
+| 4
+| +4
+| +4
+| +4
+| +1
+| CLASS="gauche" | [[Pistolier#DONSUPPLÉMENTAIRE|Don supplémentaire]]
+|-
+| 5
+| +5
+| +4
+| +4
+| +1
+| CLASS="gauche" | [[Pistolier#ENTRAÎNEMENTAUXARMESÀFEU|Entraînement aux armes à feu]]
+|- CLASS="alt"
+| 6
+| +6/+1
+| +5
+| +5
+| +2
+| CLASS="gauche" | [[Pistolier#DÉROBADE|Dérobade]] +2
+|-
+| 7
+| +7/+2
+| +5
+| +5
+| +2
+| CLASS="gauche" | [[Pistolier#EXPLOITS|Exploit]]
+|- CLASS="alt"
+| 8
+| +8/+3
+| +6
+| +6
+| +2
+| CLASS="gauche" | [[Pistolier#DONSUPPLÉMENTAIRE|Don supplémentaire]]
+|-
+| 9
+| +9/+4
+| +6
+| +6
+| +3
+| CLASS="gauche" | [[Pistolier#ENTRAÎNEMENTAUXARMESÀFEU|Entraînement aux armes à feu]] 2
+|- CLASS="alt"
+| 10
+| +10/+5
+| +7
+| +7
+| +3
+| CLASS="gauche" | [[Pistolier#DÉROBADE|Dérobade]] +3
+|-
+| 11
+| +11/+6/+1
+| +7
+| +7
+| +3
+| CLASS="gauche" | [[Pistolier#EXPLOITS|Exploit]] 
+|- CLASS="alt"
+| 12
+| +12/+7/+2
+| +8
+| +8
+| +4
+| CLASS="gauche" | [[Pistolier#DONSUPPLÉMENTAIRE|Don supplémentaire]]
+|-
+| 13
+| +13/+8/+3
+| +8
+| +8
+| +4
+| CLASS="gauche" | [[Pistolier#ENTRAÎNEMENTAUXARMESÀFEU|Entraînement aux armes à feu]] 3
+|- CLASS="alt"
+| 14
+| +14/+9/+4
+| +9
+| +9
+| +4
+| CLASS="gauche" | [[Pistolier#DÉROBADE|Dérobade]] +4
+|-
+| 15
+| +15/+10/+5
+| +9
+| +9
+| +5
+| CLASS="gauche" | [[Pistolier#EXPLOITS|Exploit]]
+|- CLASS="alt"
+| 16
+| +16/+11/+6/+1
+| +10
+| +10
+| +5
+| CLASS="gauche" | [[Pistolier#DONSUPPLÉMENTAIRE|Don supplémentaire]]
+|-
+| 17
+| +17/+12/+7/+2
+| +10
+| +10
+| +5
+| CLASS="gauche" | [[Pistolier#ENTRAÎNEMENTAUXARMESÀFEU|Entraînement aux armes à feu]] 4
+|- CLASS="alt"
+| 18
+| +18/+13/+8/+3
+| +11
+| +11
+| +6
+| CLASS="gauche" | [[Pistolier#DÉROBADE|Dérobade]] +5
+|-
+| 19
+| +19/+14/+9/+4
+| +11
+| +11
+| +6
+| CLASS="gauche" | [[Pistolier#EXPLOITS|Exploit]]
+|- CLASS="alt"
+| 20
+| +20/+15/+10/+5
+| +12
+| +12
+| +6
+| CLASS="gauche" | [[Pistolier#AUDACEABSOLUE|Audace absolue]], [[Pistolier#DONSUPPLÉMENTAIRE|Don supplémentaire]]
+|}
+</center>
+</td>
+<td width="30%" valign="bottom">
+{s:ImageCentre|Illustrations/PNJ/Lirianne.jpg|100%}
+</td></tr></table>
+
+'''Rôle.''' Les pistoliers forment une artillerie bruyante que l’on trouve généralement au plus fort des combats. Courageux, rusés et souvent inconscients, ils se placent souvent très près de leurs ennemis, en brandissant leurs armes luisantes, pour faucher leurs rangs et les démoraliser. Certains sont passés maîtres dans l’art de tuer de loin et ils éliminent leurs adversaires à distance grâce à des armes aussi étranges que merveilleuses.
+
+'''Alignement.''' Tous.
+
+'''Dés de vie.''' d10.
+
+=== Compétences de classe ===
+Voici les compétences de la classe de pistolier : [[Acrobaties]] (Dex), [[Artisanat]] (Int), [[Bluff]] (Cha), [[Connaissances]] (Ingénierie) (Int), [[Connaissances]] (folklore local) (Int), [[Dressage]] (Cha), [[Équitation]] (Dex), [[Escalade]] (For), [[Escamotage]] (Dex), [[Intimidation]] (Cha), [[Natation]] (For), [[Perception]] (Sag), [[Premiers secours]] (Sag), [[Profession]] (Sag) et [[Survie]] (Sag).
+
+'''Points de compétence par niveau.''' 4 + modificateur d’[[Intelligence]].
+
+=== Descriptif de la classe ===
+Les aptitudes du pistolier sont décrites ci-dessous.
+
+====Armes et armures==== Les pistoliers sont formés au maniement de toutes les [[armes courantes]] et [[armes de guerre|de guerre]] ainsi qu’à celui des [[armes à feu]]. Ils sont aussi formés au port des [[armure légère|armures légères]].
+
+{s:Reference|ARMURIER}
+====Armurier====
+Au [[niveau]] 1, le pistolier obtient l’une des [[armes à feu]] suivantes : le [[Description des armes à feu#Tromblon|tromblon]], le [[Description des armes à feu#Mousquet|mousquet]] ou le [[Description des armes à feu#Pistolet|pistolet]]. Cette arme est usée et il est le seul à savoir l’utiliser correctement, les autres créatures la traitent comme un objet [[brisé]]. Si l’arme est réellement brisée, elle ne fonctionne absolument pas entre les mains d’un autre que son propriétaire. Cette première arme ne vaut rien ( juste 4d10 po à la revente). Le pistolier gagne [[Création darmes à feu|Création d’armes à feu]] comme don supplémentaire.
+
+{s:Reference|AUDACE}
+====Audace (Ext)====
+<div style="float: right; margin-left: 10px; margin-right: -10px; max-width: 300px;" class="presentation recentre">
+=====Acte téméraire=====
+Cette méthode permet de regagner des points d’audace mais elle fait appel au discernement du MJ et reste donc une règle optionnelle.
+
+À chaque fois que le [pistolier] accomplit un acte téméraire, il récupère de l’[[audace]]. C’est une action risquée et théâtrale et, pour la tenter, le [pistolier] doit avoir des tripes car il a peu de chances de succès. S’il réussit, il récupère 1 point d’audace.
+
+Le joueur devrait demander à son MJ si ce qu’il s’apprête à faire est bien un acte téméraire. La décision finale revient au MJ et il peut accorder des points d’audace pour un acte téméraire, même si le PJ n’a pas demandé au préalable si son acte était bien téméraire.
+
+</div>
+Un pistolier devient célèbre grâce à ses [[exploits]] téméraires. Certaines disent suivre la voie mystique du pistolet mais, vu la nature instable des [[armes à feu]], il est plus probable qu’elles éliminent simplement les imprudents et les malchanceux. Tous les pistoliers possèdent ce que l’on appelle l’audace. En termes de jeu, il s’agit d’une mesure variable qui estime le nombre d’actions d’éclat que le pistolier peut accomplir au combat. Chaque jour, il obtient un nombre de points d’audace égal à son modificateur de [[Sagesse]] (1 au minimum). L’audace augmente ou décroît au fil de la journée mais elle ne dépasse généralement pas le modificateur de [[Sagesse]] (1 au minimum). Certains dons et objets magiques influent sur ce maximum. Le pistolier doit dépenser de l’audace pour accomplir ses exploits (voir plus bas) et il en récupère comme suit.
+
+{s:Reference|COUPCRITIQUEAVECUNEARMEÀFEU}
+'''''Coup critique avec une arme à feu''''' : À chaque fois que le pistolier confirme un [[coup critique]] avec une arme à feu en plein combat, il regagne 1 point d’audace. Si le pistolier confirme un [[coup critique]] sur une créature [[sans défense]], ignorante du danger ou sur une dont le total de [[DV]] est inférieur à la moitié du [[niveau]] du pistolier, il ne récupère pas d’audace.
+
+{s:Reference|COUPDEGRÂCEAVECUNEARMEÀFEU} 
+'''''Coup de grâce avec une arme à feu''''' : Quand le pistolier réduit une créature à 0 point de vie ou moins avec une [[armes à feu|arme à feu]] et en plein combat, il regagne 1 point d’audace. Il n’en récupère aucun s’il détruit un objet abandonné, s’il réduit une créature [[sans défense]] ou inconsciente du danger à 0 point de vie ou s’il en fait passer une qui possède un nombre de [[DV]] inférieur à la moitié de son niveau en dessous de 0 point de vie.
+
+{s:Reference|EXPLOITS}
+====Exploits====
+Les pistoliers dépensent des points d’audace pour accomplir des exploits. Ces derniers leur octroient des bonus ou des effets momentanés, mais certains durent plus longtemps et d’autres restent actifs tant que le pistolier possède au moins 1 point d’[[audace]]. Voici la liste des exploits de base. Le pistolier peut seulement accomplir des exploits de son niveau ou moins. Sauf indication contraire, il peut réaliser le même exploit à plusieurs reprises, tant qu’il possède assez d’audace pour cela.
+
+Voir la liste des [[exploits]].
+
+{s:Reference|DÉROBADE}
+====Dérobade (Ext)====
+À partir du niveau 2, le pistolier gagne un bonus d’esquive de +1 à la [[CA]], à condition qu’il porte une [[armure légère]] ou pas d’armure du tout. S’il perd son bonus de [[Dextérité]] à la CA, il perd également ce bonus d’esquive. Ce bonus augmente de +1 tous les quatre niveaux après le 2 (avec un maximum de +5 au niveau 20).
+
+{s:Reference|DONSUPPLÉMENTAIRE}
+====Don supplémentaire====
+Au [[niveau]] 4 puis tous les quatre niveaux, le pistolier gagne un don supplémentaire, en plus de ceux qu’il obtient normalement. Il doit les choisir parmi les [[don de combat|dons de combat]] ou d’audace.
+
+{s:mca}Il peut également dépenser un des dons supplémentaires pour choisir une [[bravades|bravade]] utilisable lorsqu'il n'a plus de point d'audace et qui lui accorde des pouvoirs et lui permet de regagner de l'audace lorsqu'il n'en a plus.
+
+{s:Reference|ENTRAÎNEMENTAUXARMESÀFEU}
+====Entraînement aux armes à feu (Ext)====
+À partir du [[niveau]] 5, le pistolier choisit un type d’[[armes à feu|arme à feu]] (comme la [[Description des armes à feu#Hache mousquet|hache mousquet]], le [[Description des armes à feu#Tromblon|tromblon]], le [[Description des armes à feu#Mousquet|mousquet]] ou le [[Description des armes à feu#Pistolet|pistolet]]).Lorsqu’il tire avec une arme à feu de ce type, il ajoute son modificateur de [[Dextérité]] aux jets de dégâts. De plus, quand son arme fait [[long feu]], sa valeur de long feu augmente de 2 au lieu de 4. Par la suite, tous les quatre niveaux (9, 13 et 17), le pistolier choisit un nouveau type d’arme à laquelle il ajoute ce bonus.
+
+{s:Reference|AUDACEABSOLUE}
+====Audace absolue (Ext)====
+Au niveau 20, le pistolier choisit deux [[exploits]] auxquels il a accès et qui exigent des points d’[[audace]]. Il dépense 1 point de moins pour les accomplir (avec un minimum de 0). S’il pouvait accomplir cet exploit tant qu’il lui restait au moins 1 point d’audace, il peut maintenant le faire même s’il n’en a plus.
+
+{s:Desambi|L’audace du pistolier et le panache du bretteur représentent deux voies d’accès au même réservoir héroïque. Les personnages possédant les pouvoirs de classe d’audace et de panache fusionnent ces deux ressources dans une grande réserve commune contenant à la fois l’audace et le panache.}

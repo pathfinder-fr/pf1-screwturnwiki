@@ -1,0 +1,891 @@
+---
+Name: Pathfinder-RPG.Véhicules aquatiques (véhicules)
+Title: Les véhicules aquatiques
+LastModified: 2019-08-14 22:08
+Categories:
+  - 'Art de la guerre'
+  - 'Règles officielles'
+  - 'Véhicule'
+---
+{s:MenuVehicules}
+{s:UC}''Les règles de base donnent une idée générale du comportement des véhicules durant le round de combat et de leurs différences avec des créatures. Les  parties suivantes approfondissent la manière de les gérer pendant le combat.''
+
+Les véhicules aquatiques se déplacent sur des étendues d'eau aussi petites que des rivières ou aussi vastes que des océans. Ils sont typiquement propulsés par le muscle ou la voile mais peuvent être déplacés par différentes méthodes. Les véhicules terrestres suivants sont les plus communs et incluent tous ceux que les personnages peuvent acheter dans le ''Manuel des joueurs'' (voir la section "[[Moyens de transport]]"). 
+
+{toc}
+
+
+==Les Navires==
+==== Description générale ====
+Une grande variété de bateaux et de navires existe dans le monde réel : depuis les petits radeaux et chaloupes jusqu'aux gallions intimidants et aux galères rapides. Pour représenter la grande disparité de formes et de tailles qui existent entre les différents vaisseaux, les blocs de statistiques qui suivent catégorisent plusieurs types ed bateaux standards. Ces descriptions incluent l'ensemble des véhicules marins que des personnages peuvent acquérir dans le MdJ. Les MJ peuvent utiliser les statistiques telles quelles ou les modifier pour créer de nouveaux bateaux pour les adapter à des environnements culturels ou des races précis. Tous les bateaux contiennent les indications suivantes.
+
+* '''Nom.''' Le nom ou le type de navire.
+* '''Taille et type.''' La taille et le type de navire.
+* '''Cases.''' Le nombre de cases de 9 m de côté qu'occupe le bateau sur la battlemap, suivi par ses dimensions réelles. La largeur d'un navire est toujours considérée égale à 9 m.
+* '''Prix.''' Le prix du bateau en po. Parfois, la section ''Description'' ou la section ''Armes'' donnent des modification spossible pour le bateau. Celles-ci ne sont pas incluent dans le prix du bateau, pas plus que les ajouts tels que les bélier ou les engins de siège.
+* '''CA et solidité.''' La CA de base et la solidité du bateau, basé sur sa taille, ses défenses et ses matériaux de construction (solidité 5 pour la plupart des bateaux en bois). Pour calculer la CA réelle du bateau, on ajoute le modificateur de compétence de marin du pilote actuel (ou son modificateur de Sagesse s'il utilise cette caractéristique pour piloter) à la CA de base du navire. Les attaques de contacts contre un navire ignorent la compétence de marin ou le modificateur de caractéristique du pilote. Ainsi, la CA de contact du bateau est égale à sa CA de base. Un bateau n'est jamais considéré pris au dépourvu. Si le bateau n'est pas en mouvement, il possède une Dextérité effective de 0 (pénalité de -5 à la CA), et un malus additionnel de -2 à sa CA.
+* '''Pv.''' Le nombre total de points de dégâts que peut supporter le bateau. Un navire qui subit plus de la moitié de son total de points de vie devient ''cassé''. S'il est réduit à 0 ou moins points de vie, il est considéré comme ''sombrant''. Un navire qui a complètement sombré est considéré comme ''détruit''. Les navires n'ont pas de caractéristiques et sont immunisés contres les dégâts ou drains de caractéristiques. Ils sont aussi immunisés contre le saignement. Contrairement aux autres objets, les bateaux ne subissent pas de demi-dégâts de la part des attaques d'énergie, mais ils subissent la moitié des dégâts de toutes les attaques d'arme à distance, excepté des engins de siège. Cette ligne liste aussi le nombre total de pv des rames et des voiles (s'ils existent).
+* '''Sauvegarde de base.''' Le modificateur de sauvegarde de base du bateau. Tous les JdS du bateau (Réflexes, Vigueur et Volonté) ont la même valeur. Pour déterminer le modificateur de sauvegarde réel du bateau, ajouter la moitié du modificateur de compétence de marin de son pilote (ou la moitié de son modificateur de Sagesse) à la valeur de base du bateau. Un bateau est immunisé contre la plupart des effets qui nécessitent un JdS Volonté (mais ses pilotes, Ses membres d'équipage et ses passagers ne le sont pas).
+* '''Vitesse maximale.''' Il s'agit de la vitesse maximale à laquelle le bateau peut se déplacer. Lorsqu'un navire possède plus d'un moyen de propulsion, il peut posséder plusieurs vitesses maximales. Si un bateau possède des voiles, il peut se déplacer au double de sa vitesse maximale au moyen du vent lorsqu'il va dans la direction du vent (position largue ou grand largue par rapport au vent).
+* '''Accélération.''' Cela représente l'accélération avec laquelle le bateau augmente sa vitesse à chaque round. Cela permet aussi de définir la décélération normale d'un navire par round.
+* '''BMO et DMD.''' Les BMO et DMD de base du bateau. Pour calculer la BMO et le DMD réels du navire, on ajoute le modificateur de compétence marine du pilote actuel (ou son modificateur de Sagesse le cas échéant) au BMO et au DMD de base du  bateau. Un bateau n'est jamais considéré comme pris au dépourvu. Si le bateau n'est pas en mouvement, il possède une Desxtérité effective de 0 (malus de -5 au DMD) et un malus additionnel de -5 à son DMD.
+* '''Dégâts d'éperonnage.''' Les dégâts de base infligés par un navire lors d'une manoeuvre réussie d'éperonnage (sans bélier).
+* '''Propulsion.''' Les types de propulsion utilisés par le bateau.
+* '''Tests de navigation.''' Les compétences généralement utilisées pour effectuer un test de navigation pour ce type de navire.
+* '''Type de barre.''' Le type de barre utilisé par le pilote pour diriger le navire.
+* '''Moyens de propulsion.''' Les moyens de propulsion réels du navire et leur nombre.
+* '''Equipage.''' Il s'agit du nombre minimal de membres d'équipage nécessaire pour fair naviguer le bateau, en plus du pilote. Si un navire utilie la propulsion musculaire, le nombre et la taille des créatures fournissant la propulsion sont indiqués. Tout membre d'équipage nécessaire à la manipulation des engins de siège du navire n'est pas compris dans ce nombre.
+* '''Ponts.''' Le nombre habituel de ponts sur un bateau et toutes les informations importantes à leur sujet sont indiqués dans cette section.
+* '''Chargement/Passagers.''' Le poids de chargement (en tonnes) qu'un navire peut transporter, ainsi que le nombre de passagers en surplus des membres d'équipage et du pilote.
+
+==== Les différents navires ====
+<table class="page espace-col">
+<tr><td style="width:40%">
+<div class="BD">
+{s:BDTitre|Bateau à rames (rowboat)|}
+* Bateau de taille G
+* '''Cases''' 1 (1,5 m de large sur 3 m de long) ; '''Prix''' 50 po
+(((Défense)))
+* '''CA''' 9 ; '''Solidité''' 5
+* '''pv''' 60 (rames 20)
+* '''Sauvegarde de base''' +1
+(((Attaque)))
+* '''Vitesse maximale''' 9 m (force musculaire) ; '''Accélération''' 9 m
+* '''BMO''' +1 ; '''DMD''' 11
+* '''Eperonnage''' 1d8
+(((Caractéristiques)))
+* '''Propulsion''' force musculaire ou courant
+* '''Test de navigation''' Diplomatie ou Intimidation (en utilisant la force musculaire) ; Profession (marin) (en utilisant le courant)
+* '''Mode de direction''' rames
+* '''Moyens de propulsion''' 2 à 4 rames
+* '''Equipage''' 1 (le pilote, qui est aussi un rameur, plus 1 rameur de taille M)
+* '''Ponts''' 1
+* '''Chargement/Passagers''' 500 kg / jusqu'à 3 passagers (un bateau à rame peut transporer jusqu'à 4 créatures de taille M, rameurs inclus)
+(((description)))
+<p>Ce petit bateau possède de 2 à 4 rames et est principalement utilisé pour transporter quelques passagers sur de courtes distances (comme dans un port, un fleuve ou de petits lacs). Des bateaux plus grands utilisent les bateaux à rames comme ravitailleurs ou canot de sauvetage. Un bateau à rames ne peut être armé. Ce bloc de statistiques peut être utilisé pour représenter n'importe lequel des petits bateaux à rames comme les canots, les doris, les yoles ou les bacs à rames.</p>
+(((Armement)))
+<p>Aucun</p>
+
+</div>
+
+</td><td width="40%">
+<div class="BD">
+{s:BDTitre|Bateau de bord (ship's boat)|}
+* Bateau de taille L
+* '''Cases''' 1 (3 m de large sur 6 m de long) ; '''Prix''' 500 po
+(((Défense)))
+* '''CA''' 9 ; '''Solidité''' 5
+* '''pv''' 120 (rames 60, voiles 40)
+* '''Sauvegarde de base''' +2
+(((Attaque)))
+* '''Vitesse maximale''' 9 m (force musculaire ou vent) ; '''Accélération''' 9 m
+* '''BMO''' +1 ; '''DMD''' 11
+* '''Eperonnage''' 1d8
+(((Caractéristiques)))
+* '''Propulsion''' force musculaire, vent ou courant
+* '''Test de navigation''' Diplomatie ou Intimidation (en utilisant la force musculaire) ; Profession (marin) (en utilisant le vent ou le courant)
+* '''Mode de direction''' Rames
+* '''Moyens de propulsion''' 6 rames, 10 cases (300 m<sup>2</sup>) de voiles (1 mât)
+* '''Equipage''' 4 à 10 rameurs de taille M
+* '''Ponts''' 1
+* '''Chargement/Passagers''' 2 tonnes / jusqu'à 12 passagers (selon sa taille, un bateau de bord peut transporter jusqu'à 16 créatures de taille M, rameurs compris)
+(((description)))
+<p>Les bateaux de bord sont généralement placés sur le pont de bateaux plus grands et sont utilisés comme canots pour transporter les passagers ou les marchandises depuis la berge jusqu'au navire. Certains bateaux de bord sont réservés aux officier, alors que d'autres sont utilisés pour accoster ou pour transporter les équipes de bord. Un bateau de bord moyen a une longueur comprise entre 5 et 7 m (alors que les plus grands peuvent dépasser les 9 m) et possède de 4 à 10 rames ainsi qu'un mât unique avec une voile carrée ou latine. Un bateau de bord a une vitesse de déplacement de 1,7 noeuds (3 km/h) ou 17 milles nautiques (30 km) par jour. Un bateau de bord ne peut être armé. Ce bloc de statistiques peut être utilisé pour représenter plusieurs types de bateaux de bords, tels les cutters, les yoles, les annexes, les vedettes ou les chaloupes, mais aussi d'autres bateaux ouverts comme les faerings, les ampans  ou les baleinières.</p>
+(((Armement)))
+<p>Aucun</p>
+
+</div>
+
+</td></tr>
+<tr><td style="width:40%">
+<div class="BD">
+{s:BDTitre|Bateau de guerre (warship)|}
+* Bateau de taille C
+* '''Cases''' 4 (6 m de large sur 30 m de long) ; '''Prix''' 25 000 po
+(((Défense)))
+* '''CA''' 2 ; '''Solidité''' 10
+* '''pv''' 1 200 (rames 600, voiles 320)
+* '''Sauvegarde de base''' +7
+(((Attaque)))
+* '''Vitesse maximale''' 18 m (force musculaire), 18 m (vent) ou 27 m (force musculaire et vent) ; '''Accélération''' 9 m
+* '''BMO''' +8 ; '''DMD''' 18
+* '''Eperonnage''' 8d8
+(((Caractéristiques)))
+* '''Propulsion''' force musculaire, vent ou courant
+* '''Test de navigation''' Diplomatie ou Intimidation (en utilisant la force musculaire) ; Profession (marin) (en utilisant le vent ou le courant)
+* '''Mode de direction''' timon
+* '''Moyens de propulsion''' 60 rames, 40 cases (90 m<sup>2</sup>) de voiles traitées magiquement (1 mâts)
+* '''Equipage''' 80 (20 + 60 rameurs de taille M)
+* '''Ponts''' 2
+* '''Chargement/Passagers''' 50 tonnes / 160 passagers
+(((description)))
+<p>Ce type de bateau est constitué de bois renforcé et possède un mât unique et des voiles magiquement traitées, même s'il peut aussi être propulsé par des rames. Un bateau de guerre est utilisé pour des assauts ou des déploiement de troupes sur courtes distances car il ne possède pas de cale suffisamment grande pour transporter des biens pour un trop grand nombre de passagers. Comme les galères, les bateaux de guerre ne sont pas fabriqués pour la navigation en haute mer et ont tendance à longer les côtes. Un bateau de guerre n'est pas utilisé pour le transport de marchandises. Les drakkars ainsi que les plus grandes des galères (telles les galleasses ou les vaisseaux amiraux) sont considérés comme des bateaux de guerre.</p>
+(((Armement)))
+<p>Un bateau de guerre peut comporter jusqu'à 20 engins de siège de taille G à tir direct disposés en rangées de 10 pièces sur chaque bord du navire, ou jusqu'à 6 engins de siège à tir direct de taille TG disposés en rangées de 3 sur chaque bord. Ces engins de siège ne peuvent tirer que du côté du bord sur lequel ils sont disposés et ne peuvent tirer vers la poupe ou vers proue du navire. Les engins de siège ne peuvent être utilisés lorsque le bateau se déplace à la rame.</p> 
+<p>Pour 8 000 po de plus, un bateau de guerre peut être équipé d'un bélier et de châteaux comportant une plateforme de tir à la poupe, à la proue ou au milieu du navire. Chacune de ces plateformes de tir peut supporter un engin de siège à tir direct ou indirect de taille G ou TG. Les engins de sièges situés à la proue ou à la poupe peuvent pivoter pour tirer sur les côtés ou vers l'avant ou l'arrière, selon leur position. Un engin de siège situé au milieu du navire peut pivoter pour tirer de chaque côté du navire.</p>
+
+</div>
+
+</td><td width="40%">
+<div class="BD">
+{s:BDTitre|Bateau nordique (longship)|}
+* Bateau de taille C
+* '''Cases''' 3 (4,5 m de large sur 22,5 m de long) ; '''Prix''' 10 000 po
+(((Défense)))
+* '''CA''' 2 ; '''Solidité''' 5
+* '''pv''' 675 (rames 400, voiles 120)
+* '''Sauvegarde de base''' +5
+(((Attaque)))
+* '''Vitesse maximale''' 9 m (force musculaire), 18 m (vent) ou 27 m (force musculaire et vent) ; '''Accélération''' 9 m
+* '''BMO''' +8 ; '''DMD''' 18
+* '''Eperonnage''' 8d8
+(((Caractéristiques)))
+* '''Propulsion''' force musculaire, vent ou courant
+* '''Test de navigation''' Diplomatie ou Intimidation (en utilisant la force musculaire) ; Profession (marin) (en utilisant le vent ou le courant)
+* '''Mode de direction''' timon
+* '''Moyens de propulsion''' 40 rames, 30 cases (67,5 m<sup>2</sup>) de voiles (1 mâts)
+* '''Equipage''' 50 (10 + 40 rameurs de taille M)
+* '''Ponts''' 1 (avec une petite zone de chargement sous le pont)
+* '''Chargement/Passagers''' 50 tonnes / 100 passagers
+(((description)))
+<p>Ce bateau long et relativement étroit possède un seul mât équipé d'une voile carrée et 40 rames. Il peut traverser les lacs, les océans et les rivières profondes. Ce bloc de statistiques peut être utilisé pour représenter des bateaux nordiques (tels que le karvi, le snkkja et le skei) ou des bateaux comme le balinger ou le birlinn.</p>
+(((Armement)))
+<p>Un bateau nordique peut supporter jusqu'à 2 engins de siège à tir direct ou indirect de taille L positionnés l'un à la proue, l'autre à la poupe du navire. Ces engins de siège peuvent pivoter pour tirer de chaque côté et vers l'avant ou l'arrière suivant leur position.</p>
+
+</div>
+
+</td></tr>
+<tr><td style="width:40%">
+<div class="BD">
+{s:BDTitre|Galère (galley)|}
+* Bateau de taille C
+* '''Cases''' 4 (6 m de large sur 39 m de long) ; '''Prix''' 30 000 po
+(((Défense)))
+* '''CA''' 2 ; '''Solidité''' 5
+* '''pv''' 1 560 (rames 1 400, voiles 320)
+* '''Sauvegarde de base''' +8
+(((Attaque)))
+* '''Vitesse maximale''' 18 m (force musculaire), 18 m (vent) ou 36 m (force musculaire et vent) ; '''Accélération''' 9 m
+* '''BMO''' +8 ; '''DMD''' 18
+* '''Eperonnage''' 8d8
+(((Caractéristiques)))
+* '''Propulsion''' force musculaire, vent ou courant
+* '''Test de navigation''' Diplomatie ou Intimidation (en utilisant la force musculaire) ; Profession (marin) (en utilisant le vent ou le courant)
+* '''Mode de direction''' timon
+* '''Moyens de propulsion''' 140 rames, 80 cases (180 m<sup>2</sup>) de voiles (2 mâts)
+* '''Equipage''' 200 (60 + 140 rameurs de taille M)
+* '''Ponts''' 3
+* '''Chargement/Passagers''' 150 tonnes / 250 passagers
+(((description)))
+<p>L'un des plus grand type de navire, une galère possède 70 rames sur chaque bord. Une galère peut être n'importe quel navire de grande taille qui base son déplacement sur les rames et qui posséde aussi un ou deux mâts avec des voiles. Les galères restent généralement très proche des côtes car les longs voyages sur les océans sont dangereux avec de tels vaisseaux. Ce bloc de statistiques peut être utilisé pour représenter diverses galères historiques : depuis les birèmes ou les trirèmes jusqu'au galiotes ou aux dromons</p>
+(((Armement)))
+<p>Une galère peut comporter jusqu'à 40 engins de siège de taille G à tir direct disposés en rangées de 20 pièces sur chaque bord du navire, ou jusqu'à 12 engins de siège à tir direct de taille TG disposés en rangées de 6 sur chaque bord. Ces engins de siège ne peuvent tirer que du côté du bord sur lequel ils sont disposés et ne peuvent tirer vers la poupe ou vers proue du navire. Les engins de siège ne peuvent être utilisés lorsque le bateau se déplace à la rame.</p> 
+<p>Pour 8 000 po de plus, une galère peut être équipée d'un bélier et de châteaux comportant une plateforme de tir à la poupe, à la proue ou au milieu du navire. Chacune de ces plateformes de tir peut supporter un engin de siège à tir direct ou indirect de taille G ou TG. Les engins de sièges situés à la proue ou à la poupe peuvent pivoter pour tirer sur les côtés ou vers l'avant ou l'arrière, selon leur position. Un engin de siège situé au milieu du navire peut pivoter pour tirer de chaque côté du navire.</p>
+
+</div>
+
+</td><td width="40%">
+<div class="BD">
+{s:BDTitre|Jonque (junk)|}
+* Bateau de taille C
+* '''Cases''' 3 (6 m de large sur 22,50 m de long) ; '''Prix''' 15 000 po
+(((Défense)))
+* '''CA''' 2 ; '''Solidité''' 5
+* '''pv''' 900 (voiles 360)
+* '''Sauvegarde de base''' +6
+(((Attaque)))
+* '''Vitesse maximale''' 27 m (vent) ; '''Accélération''' 9 m
+* '''BMO''' +8 ; '''DMD''' 18
+* '''Eperonnage''' 8d8
+(((Caractéristiques)))
+* '''Propulsion''' vent ou courant
+* '''Test de navigation''' Profession (marin)
+* '''Mode de direction''' timon
+* '''Moyens de propulsion''' 90 cases (202,5 m<sup>2</sup>) de voiles (3 mâts)
+* '''Equipage''' 10
+* '''Ponts''' 2
+* '''Chargement/Passagers''' 100 tonnes / 100 passagers
+(((description)))
+<p>Ce bateau à voile à à fond plat est originaire du Tian Xia. Il possède deux ou trois mâts à voiles lattées et compensées (gréé en jonque, la voile est placée à côté du mât et dépasse légèrement en avant de celui-ci), lui permettant d'être manipulé par un équipage restreint. Les jonques ont traditionnellement un pont de dunette et un fond plat sans quille et, pur cette raison, utilisent des dérives axiales ou latérales ainsi qu'un grand gouvernail pour assurer sa stabilité. La coque dune jonque est divisé en compartiments étanches, à l'image des tiges de bambou, qui renforcent la coque et réduisent les voies-d'eau. Les jonques sont capables de traverser les océans et ont une vitesse de 1,75 noeuds (environ 3 km/h) soit environ 70 km par jour.</p>
+(((Armement)))
+<p>Une jonque peut comporter jusqu'à 12 engins de siège à tir direct ou indirect de taille G disposés en rangées de 6 pièces sur chaque bord du navire, ou jusqu'à 4 engins de siège à tir direct de taille TG disposés en rangées de 2 sur chaque bord. Ces engins de siège ne peuvent tirer que du côté du bord sur lequel ils sont disposés et ne peuvent tirer vers la poupe ou vers proue du navire.</p> 
+<p>De plus, il est possible d'ajouter 2 engins de siège à tir direct ou indirect de taille G, l'un à la proue l'autre à la poupe, ou 1 engin de siège à tir direct ou indirect de taille TG à la poupe seulement. Ces engins de siège peuvent pivoter pour tirer de chaque côté du navire ou vers l'avant ou l'arrière (suivant leur position).</p>
+
+</div>
+
+</td></tr>
+<tr><td style="width:40%">
+<div class="BD">
+{s:BDTitre|Quillard (keelboat)|}
+* Bateau de taille Gig
+* '''Cases''' 2 (4,5 m de large sur 15 m de long) ; '''Prix''' 3 000 po
+(((Défense)))
+* '''CA''' 6 ; '''Solidité''' 5
+* '''pv''' 600 (rames 80, voiles 80)
+* '''Sauvegarde de base''' +4
+(((Attaque)))
+* '''Vitesse maximale''' 9 m (force musculaire), 9 m (vent) ou 18 m (force musculaire et vent) ; '''Accélération''' 9 m
+* '''BMO''' +4 ; '''DMD''' 14
+* '''Eperonnage''' 4d8
+(((Caractéristiques)))
+* '''Propulsion''' force musculaire, vent ou courant
+* '''Test de navigation''' Diplomatie ou Intimidation (en utilisant la force musculaire) ; Profession (marin) (en utilisant le vent ou le courant)
+* '''Mode de direction''' timon
+* '''Moyens de propulsion''' 8 rames, 20 cases (45 m<sup>2</sup>) de voiles (1 mâts)
+* '''Equipage''' 15 (7 + 8 rameurs de taille M)
+* '''Ponts''' 1
+* '''Chargement/Passagers''' 50 tonnes / 100 passagers
+(((description)))
+<p>Ce bateau à fond plat possède quelques rames en supplément de son mât unique à voile carrée. Il sert à la fois pour les voyages maritimes ou fluviaux. Les quillard sont construits pour transporter des marchandises plutôt que pour combattre. Les quillards incluent des bateaux tels les cogues, les hoys, les bateaux-pontons, les karves et les knarrs.</p>
+(((Armement)))
+<p>Un seul engin de siège à tir direct ou indirect de taille G peut être placé à la proue ou à la poupe d'un quillard. cet engin de siège peut pivoter pour tirer de chaque côté et vers l'avant ou l'arrière (suivant sa position sur le navire).</p>
+
+</div>
+
+</td><td width="40%">
+<div class="BD">
+{s:BDTitre|Radeau (raft)|}
+* Bateau de taille G
+* '''Cases''' 1 (3 m de large sur 3 m de long) ; '''Prix''' -
+(((Défense)))
+* '''CA''' 9 ; '''Solidité''' 5
+* '''pv''' 30 (rames 20)
+* '''Sauvegarde de base''' +0
+(((Attaque)))
+* '''Vitesse maximale''' 9 m (force musculaire) ; '''Accélération''' 9 m
+* '''BMO''' +1 ; '''DMD''' 11
+* '''Eperonnage''' 1d8
+(((Caractéristiques)))
+* '''Propulsion''' force musculaire ou courant
+* '''Test de navigation''' Diplomatie ou Intimidation (en utilisant la force musculaire) ; Profession (marin) (en utilisant le courant)
+* '''Mode de direction''' rames
+* '''Moyens de propulsion''' 2 rames
+* '''Equipage''' 1 (le pilote, qui est aussi un rameur, et jusqu'à 3 rameurs de taille M) 
+* '''Ponts''' 1
+* '''Chargement/Passagers''' 500 kg / jusqu'à 3 passagers (un radeau peut transporter jusqu'à 4 créatures de taille M, équipage inclus)
+(((description)))
+<p>La forme de bateau la plus basique et la plus primitive. Il s'agit d'un bateau à fond plat, sans coque, souvent fait de rondins de bois liés ensembles, utilisant de 2 à 4 rames pour sa propulsion. Les radeaux ne sont pas désignés pour la navigation océanique. Un radeau ne peut être armé.</p>
+(((Armement)))
+<p>Aucun</p>
+
+</div>
+
+</td></tr>
+<tr><td style="width:40%">
+<div class="BD">
+{s:BDTitre|voilier (sailing ship)|}
+* Bateau de taille C
+* '''Cases''' 3 (9 m de large sur 27 m de long) ; '''Prix''' 10 000 po
+(((Défense)))
+* '''CA''' 2 ; '''Solidité''' 5
+* '''pv''' 1 620 (voiles 360)
+* '''Sauvegarde de base''' +6
+(((Attaque)))
+* '''Vitesse maximale''' 27 m (vent) ; '''Accélération''' 9 m
+* '''BMO''' +8 ; '''DMD''' 18
+* '''Eperonnage''' 8d8
+(((Caractéristiques)))
+* '''Propulsion''' vent ou courant
+* '''Test de navigation''' Profession (marin)
+* '''Mode de direction''' barre à roue
+* '''Moyens de propulsion''' 90 cases (202,5 m<sup>2</sup>) de voiles (3 mâts)
+* '''Equipage''' 20
+* '''Ponts''' 2 ou 3
+* '''Chargement/Passagers''' 150 tonnes / 120 passagers
+(((description)))
+<p>Ce bateau massif possède de 1 à 4 mâts (en général 2 ou 3) avec des voiles carrées ou latines. Ils ont souvent des chateaux de proue et de poupe. Les voiliers sont principalement utilisés pour les voyages océaniques. La plupart des navires marchands, et beaucoup de vaisseaux militaires sont des voiliers d'un type ou d'un autre. Les voiliers existent sous de multiples formes, telles les barques à plusieurs mâts, les brigantins, les caravelles, les caraques, les plus grands cogues, les frégates, les galions, les goélettes, les corvettes et les chébècs. Un voilier à quatre mâts et équipé d'engins de sièges est souvent dénommé man-o'-war.</p>
+(((Armement)))
+<p>Un bateau de guerre peut comporter jusqu'à 20 engins de siège de taille G à tir direct disposés en rangées de 10 pièces sur chaque bord du navire, ou jusqu'à 6 engins de siège à tir direct de taille TG disposés en rangées de 3 sur chaque bord. Ces engins de siège ne peuvent tirer que du côté du bord sur lequel ils sont disposés et ne peuvent tirer vers la poupe ou vers proue du navire. Les engins de siège ne peuvent être utilisés lorsque le bateau se déplace à la rame.</p> 
+<p>Pour 8 000 po de plus, un bateau de guerre peut être équipé d'un bélier et de châteaux comportant une plateforme de tir à la poupe, à la proue ou au milieu du navire. Chacune de ces plateformes de tir peut supporter un engin de siège à tir direct ou indirect de taille G ou TG. Les engins de sièges situés à la proue ou à la poupe peuvent pivoter pour tirer sur les côtés ou vers l'avant ou l'arrière, selon leur position. Un engin de siège situé au milieu du navire peut pivoter pour tirer de chaque côté du navire.</p>
+
+</div>
+
+</td><td width="40%">
+
+</td></tr>
+
+</table>
+
+
+
+===Améliorations des Navires===
+Tous les bateaux ne sont pas identiques. Les joueurs recherchant un navire plus rapide, plus résistant ou plus agile doivent ajouter des modificaions à leurs vaisseaux. Chacune des amélioration suivantes doivt être planifiée, construite ou installée (selon le cas) par un personnage qui possède la compétence Artisanat (bateaux) ou une autre compétence ou don, comme décrit dans la ligne ''Prérequis''. Pour modifier un bateau avec l'une des améliorations suivantes, le constructeur naval doit réussir un jet de compétence dont le DD final dépend de la complexité de la modification apportée. Un échec signifie que ce constructuer naval n'est pas capable de fabriquer l'équipement. De plus, la moitié du coût de l'amélioration est dépensée. Un autre constructeur naval devra être consulté pour cterminer le travail, mais le DD de ce test est augmenté de 2 si au moins une modification a déjà été apportée par un autre constructeur (chaque constructeur possède ses propres techniques).
+
+==== Les améliorations ====
+Les améliorations suivantes peuvent être ajoutées à un bateau.
+
+'''Augmentation de la capacité de chargement (Increased Cargo Capacity).''' Il s'agit d'un réagencement du navire permettant d'avoir plus de place pour les réservers du bateau. La capacité de chargement du bateau augmente de 10%.<br>
+''Prérequis.'' Artisanat (bateaux) DD 22<br>
+''Coût.'' 15% du prix de base du bateau
+
+'''Bélier (Ram).''' Un bélier standard, généralement en bronze ou en fer, est fixé à la proue du bateau. A navire équipé d'un bélier inflige 2D8 points de dégâts additionnels lors d'une manoeuvre d'éperonnage et ignore les dégâts dus à la pénétration dans la première case d'un objet solide ainsi que tous les dégâts d'éperonnage infligés par un créature ou un autre objet (comme un autre navire).<br>
+''Prérequis.'' Artisanat (bateaux) DD 10<br>
+''Coût.'' 100 po (navire de taille L), 100 po (navire de taille TG), 300 po (navire de taille Gig) ou 1 000 po (navire de taille C)
+
+'''Blindage (Armor plating).''' En attachant des plaques de métal au bateau, le nombre de pv de la coque augmente de 15% et sa solidité est augmentée de +4. Cette modification réduit la capacité de chargement du navire de 15%. Le blindage ralentit le bateau, imposant une pénalité de -1 à tous les jets de navigation. La vitesse tactique du navire lors d'un combat bord à bord n'est pas affectée, mais sa vitesse de déplacement est réduite de 20%.<br>
+''Prérequis.'' Artisanat (bateaux) DD 28<br>
+''Coût.'' 30% du prix de base du bateau
+
+'''Blindage en bois (Wooden plating).''' Pour améliorer sa protection lors d'un combat naval, des planches de bois ont été clouées sur la coque du navire. Le nombre de pv de la coque augmentent de 5% et sa solidité augmente de 2. Néanmoins, cette évolution réduit la capacité de chargement de 10% car les madriers utilisés pour les renforts prennent de la place. La vitesse tactique du navire en combat bord-à-bord n'est pas affectée, mais sa vitesse en pleine mer est réduite de 10%.<br>
+''Prérequis.'' Artisanat (bateau)  DD 25<br>
+''Coût.'' 20% du prix de base du bateau
+
+'''Compartiments secrets (Smuggling compartments).''' Les cloisons du navire sont modifiées pour que l'espace ainsi gagné puisse être utilisé comme zone de stockage cachée. Cela ne modifie pas la capacité de chargement du navire. Un compartiment secret peut contenir tout ce qui peut entrer dans un cube d'une case de côté (30 dm<sup>3</sup>) Si vous utilisez les règles sur les butins (voir le chapitre "The life of a pirate" dans l'Adventure Path #55 pour plus de détails sur les butins), en général, deux compartiments secrets sont nécessaire pour obtenir 1 point de buton. Un test de Perception DD 20 est nécessaire pour trouver des compartiments secrets lors de la fouille d'un navire.<br>
+''Prérequis.'' Artisanat (bateau)  DD 19<br>
+''Coût.'' 500 po par cube (27 dm<sup>3</sup>) de compartiment secret
+
+'''Coque effilée (Narrow hull).''' Le bateau a été conçu avec une coque plus fine, lui permettant de se glisser dans des chenaux étroits. La largeur du bateau est diminuée de 20% et sa capacité de chargement est réduite de 1°%. Néanmoins, le bateau gagne un bonus de +2 sur tous les jets de navigation. Cette amélioration doit être installée au moment de la construction du bateau et ne peut être ajoutée par la suite.<br>
+''Prérequis.'' Artisanat (bateaux) DD 22<br>
+''Coût.'' 15% du prix de base du bateau
+
+'''Coque robuste (Sturdy hull).''' Des supports et couches de bois supplémentaires sont ajoutés à la structure du bateau, le rendant plus épais et plus résistant. La solidité de la coque augmente de 2 mais la capacité de chargement du navire diminue de 10%.<br>
+''Prérequis.'' Artisanat (bateau)  DD 16<br>
+''Coût.'' 10% du prix de base du bateau
+
+'''Coque traitée magiquement (Magically treated hull).''' La coque du bateau est traitée magiquement, doublant le nombre de pv et la solidité du bateau. Cette amélioration peut seulement être ajoutée par un lanceur de sorts possédant le don Creation d'Objets Magiques.<br>
+''Prérequis.'' Création d'Objets Magiques, Artisanat (bateaux) DD 15<br>
+''Coût.'' 4 500 po par case (6 m x 6m) de bateau
+
+'''Figure de proue (Figurehead).''' Certains bateaux arborent des sculptures extravagantes sur leur beaupré. Cette modification est strictement décorative, sans réel impact sur le jeu. Les joureurs sont encouragés à déssiner leurs propres figures de proues (comme des dauphins, des sirènes et autres créatures mythiques du même genre).<br>
+''Prérequis.'' Artisanat (sculpture) DD 10<br>
+''Coût.'' 100 à 1 000 po suivant le port et l'artisan
+
+'''Fond de verre (Glass bottom).''' De grandes vitres sont installées au fond du navire, permettant à ceux qui sont à l'intérieur d'observer le fond de l'océan. Cette amélioration n'a aucun effet sur les performances du navire, si ce n'est que le fond de la coque est aussi solide qu'un morceau de verre épais (solidité 1, pv 3, DD pour casser 8).<br>
+''Prérequis.'' Artisanat (verre) DD 19<br>
+''Coût.'' 5% du prix de base du bateau
+
+'''Grand safran (Broad rudder).''' Un safran plus grand rend un navir plus maniable, accordant un bonus de +1 à tous les jets de navigation.
+''Prérequis.'' Artisanat (bateaux) DD 16
+''Coût.'' 500 po
+
+'''Gouverne traitée magiquement (Magically Treated Control Device).''' la barre du bateau (barre à roue ou timon) est traitée magiquement, doublant ses pv et sa solidité. Cette amélioration peut seulement être ajoutée par un lanceur de sorts possédant le don Creation d'Objets Magiques.<br>
+''Prérequis.'' Création d'Objets Magiques, Artisanat (bateaux) DD 15<br>
+''Coût.'' 1 000 po
+
+'''Pont mobile (Movable deck).''' Les éléments du pont du navire sont construits pour être mobiles en vue du déguisement du bateau en un autre bateau. Après avoir retiré des douzaines de chevilles, l'équipage peut faire glisser le chateau arrière sur des rails masqués, réarranger la position des mats, augmenter le plat-bord, baisser le pont de la poupe, déplacer la barre et opérer d'autre modifications décorative comme mettre une nouvelle figure de proue ou changer la couleur de voiles. Les chevilles, leviers et rails nécessaires à tout ce chambardement ne peuvent être découvert qu'à l'aide d'un test de Perception DD 20 effectué lors d'un examen précis du bateau.<br>
+''Prérequis.'' Artisanat (bateaux) DD 28<br>
+''Coût.'' 40% du prix de base du bateau
+
+'''Quartier d'équipage supplémentaire (Aditional crew quarters).''' Les marins ont plus d'espace pour dormir et manger. Le navire peut embarquer 10% de passagers en plus, mais sa capacité de chargement est réduite de 10%.<br>
+''Prérequis.'' Artisanat (bateaux) DD 22<br>
+''Coût.'' 20% du prix de base du bateau.
+
+'''Quille allongée (Extended keel).''' La quille du bateau est plus longue que la normale sur ce type de vaisseau. La longeur totale du navire est 10% plus grande que la norme, bien que la capacité de chargement n'est pas affectée. Le bateau est plus stable et bénéficie d'un bonus de +1 à tous les jets de navigation. Cette amélioration doit être installée au moment de la construstion du bateau (et ne peut pas être ajoutée à un bateau déjà existant).<br>
+''Prérequis.'' Artisanat (bateaux) DD 19<br>
+''Coût.'' 10% du prix de base du bateau
+
+'''Rames traitées magiquement (Magically treated oars).''' Les rames du bateau sont traitées magiquement, doublant leur nombre de pv et leur solidité. Cette amélioration peut seulement être ajoutée par un lanceur de sorts possédant le don Creation d'Objets Magiques.
+''Prérequis.'' Création d'Objets Magiques, Artisanat (bateaux) ou Artisanat (charpenterie) DD 15
+''Coût.'' 100 po par rame
+
+'''Sabord masqué (Concealed weapon port).''' Le pont inférieur subit une transformation majeure pour pouvoir accueillir des engins de siège à tir direct de taille G (comme des ballistes légères ou des cannons, si ces erniers sont présents dans la campagne). Un sabord masqué ne peut se remarquer qu'à l'aide d'un test de Perception DD 15. Chaque sabord masqué réduit la capacité de chargement de 5 tonnes, en plus de l'espace nécessaire à l'arme.<br>
+''Prérequis.'' Artisanat (bateaux) DD 16<br>
+''Coût.'' 100 po par sabord (en plus du coût de l'arme)
+
+'''Voiles à déploiement rapide (Rapid-deploy sails).''' Le gréement subit une transformation complète pour intégrer des évolutions technologiques permettant de lever et baisser les voiles plus rapidement que la normale. Chaque réglage de voile nécessite moitié moins de temps que d'habitude, ce qui accorde un bonus de +1 à tous les jets de navigation.<br>
+''Prérequis.'' Artisanat (voiles) ou Connaissances (ingenierie) DD 25<br>
+''Coût.'' 10% du prix de base du bateau
+
+'''Voiles en soie (Silk sails).''' Peu d'améliorations de navire sont aussi belle que l'ajout de voiles en soie. Ces voiles peuvent être teintées de n'importe quelle couleur, au choix du joueur. Des images remarquables de la vie maritime y sont souvent brodées. De telles voiles sont généralement importées de terres lointaines. Des voiles en soie ntaméliore la vitesse du navire car elles emprisonnent et déplacent l'air de manière plus efficace. Un bateau avec des voiles en soie gagne un bonus de +1 au test de navigation opposé utilisé pour déterminer qui a l'avantage. La vitesse tactique en combat bord-à-bord n'est pas affectée, mais sa vitesse de déplacement en pleine mer est augmentée de 10%.<br>
+''Prérequis.'' Artisanat (voiles) DD 16<br>
+''Coût.'' 15% du prix de base du bateau
+
+'''Voiles traitées magiquement (Magically treated sails).''' Les voiles du bateau sont traitées magiquement, doublant leur nombre de pv et leur solidité. Cette amélioration peut seulement être ajoutée par un lanceur de sorts possédant le don Creation d'Objets Magiques.<br>
+''Prérequis.'' Création d'Objets Magiques, Artisanat (voiles) DD 15<br>
+''Coût.'' 500 po par case (2,25 m<sup>2</sup>) de voile
+
+==Le Combat maritime==
+''Un vaisseau pirate a autant de personnalité que les fripouilles qui l'opèrent et, une fois que les PJs auront fait l'acquisition de leur propre navire, ce dernier sera le témoin d'autant d'aventures que les PJs eux-même. Que les personnages affrontent leurs rivaux au corps à corps sur le pont d’un navire, qu’ils abordent un cargo pour piller ses soutes remplies des richesses ou qu'ils commandent une flotte complète lancée à l'assaut de l'armada ennemie, le combat naval joue un rôle considérable au fil de ''Skull&Schackles''.''
+
+De manière générale, un combat naval appartient à l'une des trois catégories suivantes : la '''Mêlée à Bord''' qui se déroule sur un navire, le '''Combat Bord-à-Bord''' qui à lieu entre deux ou plusieurs vaisseaux pris individuellement ou la '''Bataille Navale''' qui oppose plusieurs flottes composées de multiples bâtiments. Les règles de ces trois catégories de combats maritimes sont précisées ci-après.''
+
+===La Mêlée à Bord===
+Une '''Mêlée à Bord''' est similaire à un combat classique à l'exception notable qu'il se déroule sur le pont d'un navire plutôt que dans un donjon ou sur une route forestière. Pour l’essentiel, ce combat est résolu comme à l'accoutumée. Il faut cependant prendre en compte la taille réduite du champ de bataille (limitée par la taille du vaisseau en lui-même), le risque de chute par-dessus bord et les effets des conditions météorologiques sur le comportement du navire.
+
+Lorsque le combat à lieu au cours d'une tempête ou que la mer est fortement agitée, le pont du navire devra être considéré comme un [[terrain difficile]]. Il faut penser à prendre en compte les [^http://www.pathfinder-fr.org/wiki/Pathfinder-RPG.Lancer%20des%20sorts.ashx#Sort_8|effets des intempéries et du  mouvement du navire] sur la concentration des lanceurs de sorts. Si un participant venait à passer par-dessus bord, il faut utiliser les règles pour les [^http://www.pathfinder-fr.org/wiki/Pathfinder-RPG.Milieu%20aquatique.ashx|terrains aquatiques et leurs dangers]. Dans tous les autres cas de figures, le combat ne se résout pas autrement qu'un combat à terre.
+
+===Le Combat Bord-à-Bord===
+Quand les navires eux-mêmes prennent part à la bataille, le combat n'est plus commun. Les règles décrites par la suite ne visent pas à l’exhaustivité simulationniste de toutes les subtilités du Combat Bord-à-Bord. Il convient de les percevoir comme une tentative de trouver un équilibre entre la simulation véridique et la jouabilité du combat. Elles peuvent être appliquées à toutes les tailles de bâtiments du simple canot à l'imposant vaisseau de ligne. Ces règles sont des versions modifiées des règles de véhicules de ''l'Art de la Guerre'' qui se concentrent uniquement sur la conduite et le combat d’un navire en pleine mer.
+
+Les MJ qui préfèreraient un système plus léger de résolution des '''Combats Bord-à-Bord''' pourront se référer aux règles de résolutions rapides présentées en pages XXX du ''Guide du maître''.
+
+Il faut noter que s’il est possible d’attaquer un navire, il est relativement difficile de l'endommager en raison de sa taille importante. De plus, comme cela rapporte plus de capturer un vaisseau pour ensuite le manœuvrer ou le remorquer à bon port que de l'envoyer par le fond, la plupart de '''Combats Bord-à-Bord''' se termineront lorsque l'équipage d'un des navires engagés abordera pour engager une '''Mêlée à Bord''' du bâtiment adverse (voir Harponnage et Abordage page XXX).
+
+====Notions de bases des navires====
+Le panorama suivant présente les règles de base pour le Combat Bord-à-Bord dans ''Skull&Schackles''. Tous les navires seront régis par ces règles de mouvement et de combat.
+
+=====Pilote=====
+Un navire requière deux choses pour avancer : un pilote et un moyen de propulsion. Un pilote est une créature avec un score d’intelligence de 3 ou plus qui est physiquement capable d’utiliser la gouverne. Le capitaine fait souvent (mais pas toujours) office de pilote. Le pilote utilise la barre et contrôle le navire avec ses compétences de navigation (voir la section sur les tests de navigation page XXX) ou sa Sagesse. Sans pilotage, le bâtiment ne bougera pas ou bien il poursuivra sa course en ligne droite selon l’état dans lequel il se trouvait au moment où il a perdu son pilote.
+
+=====Équipage=====
+La plupart des navires nécessitent la présence à bord d'un équipage. Un vaisseau avec un équipage incomplet, mais où néanmoins plus de la moitié de celui-ci est présent, souffre d’une pénalité de -10 à tous ses '''tests de navigation'''. Un navire dont moins de la moitié de l'équipage est présent n'est pas manœuvrable. Si plus de la moitié de l’équipage est tuée, hébétée, étourdie ou inconsciente, le navire ne peut effectuer que des actions du type '''incontrôlé''' (voir page XXX). Lors du mouvement du navire, les membres d’équipage se consacrent à la manœuvre et ne peuvent entreprendre aucune autre action. Les équipiers nécessaires à l’utilisation des machines de sièges (voir page XXX) sont en supplément des équipiers nécessaires à manœuvrer le navire.
+
+=====Taille et Espace Occupé=====
+Les navires ont des tailles et occupent des espaces différents de ceux des créatures. Lors d’un Combat Bord-à-Bord sur une battlemap, chaque case correspond à 9 m (30 ft) au lieu des 1,5 m (5 ft) habituels. La plupart des navires sont longs et élancés et en conséquence, plutôt que d’occuper un espace carré, un vaisseau occupe un espace large d’une seule case (9 m, 30 ft).
+
+=====Cap et Mouvement=====
+Les navires ne se déplacent pas comme les créatures, même lorsqu'ils sont mû par des créatures. Ils ont tendance à avancer en ligne droite, et à la faire rapidement.
+
+*'''Cap''' : A la différence des créatures, les vaisseaux ont une orientation avec une proue et une poupe. Habituellement, l’avant du bateau correspond à un des côté fin du navire et son cap traduit les effets de l’inertie sur ce véhicule. Un vaisseau évolue plus facilement lorsqu'il le fait dans la direction pointée par sa proue et cela requière du temps et des efforts pour réorienter un navire afin qu'il se déplace dans une autre direction.<br/><br/>Lorsqu'ils sont correctement pilotés, les vaisseaux peuvent se déplacer au cours d'un même mouvement vers l’avant, en diagonale ou suivant une combinaison des deux. Les pilotes chevronnés peuvent aisément faire zigzaguer un bâtiment suivant un cap donné.
+
+*'''Mouvement''' : Les navires sont caractérisés par une '''vitesse maximale''' et une '''accélération'''. La '''vitesse maximale''' correspond à la distance maximale que peut parcourir un navire au cours d’un round. Les voiliers – c'est-à-dire les navires avec le vent comme moyen de propulsion – peuvent doubler cette vitesse en vent arrière. Un vaisseau n'atteint pas immédiatement sa '''vitesse maximale'''. A chaque round, le pilote peut tenter d'accélérer ou de décélérer son navire d'une valeur égale à l''''accélération''' du bateau (voir la section Movement dans Ships in Combat pXXX). A un instant donné, un bateau se déplace à une vitesse appelée '''vitesse instantanée'''.
+
+*'''Bords de la carte''' : Les bords d’une battlemap forment une frontière artificielle qui ne correspond pas à la réalité de l’étendue maritime. En conséquence, si un navire en venait à passer hors les bords de la carte, il conviendra d’agrandir la battlemap.
+
+*'''Voyage maritime''' : Voyager à travers mers et océans sur de longues distances nécessite de se déplacer en bateau. La distance parcourue est mesurée en km par heure ou par jour. Pour les navires propulsés à la force musculaire, une journée de voyage correspond à 10 heures de trajet effectif. Pour les bâtiments propulsés par la force du vent, une journée de voyage correspond à 24 heures de trajet effectif. Les vitesses de voyage des types communs de navires se trouvent pXXX du Manuel des Joueurs ou dans les blocs descriptifs individuels de chaque navire.
+
+=====Tests de Navigation=====
+Pour contrôler un vaisseau lors d’un '''Combat Bord-à-bord''', le pilote doit faire un '''test de navigation''' chaque round afin de déterminer la manœuvrabilité et la vitesse de son véhicule. Le '''type de propulsion''' détermine la compétence utilisée pour réaliser les '''tests de navigation''' (voir Propulsion et Compétences de navigation pXXX). Si un navire utilise deux moyens de propulsions différents au même moment, comme le vent et la force musculaire, le pilote choisit la compétence avec laquelle il effectue son test et applique une pénalité de -5 à tous ses tests de navigation. Un pilote peut toujours choisir de faire un test de Sagesse en lieu et place d’un test de navigation. En dehors des combats, les tests de navigation s’effectuent pour DD de base de 5. En combat, les tests de navigation sont effectués pour un DD de base de 20. Un équipage incomplet mais composé d’au moins la moitié des coéquipiers requis, impose une pénalité de -10 à tous les '''tests de navigation'''.
+
+*'''Aider le pilote''' : à l'instar des autres compétences, un PJ peut aider quelqu'un à utiliser une compétence au prix d'une action simple. Le personnage apporte une paire d'yeux supplémentaire pour guetter l'ennemi, donne des ordres à l’équipage, ou dispense simplement des conseils avisés. Le personnage qui choisit d'aider le pilote doit effectuer un test de navigation de DD 10. En cas de réussite, le pilote bénéficie d’un bonus de +2 sur son prochain test de navigation. Seul un PJ peut utiliser l'action d'aider le pilote et ce pour un test de navigation spécifié.
+
+*'''Contrôler un navire en dehors d’un combat''' : Comme il est facile de piloter un navire en dehors d’un combat en choisissant de « faire 10 » pour le test de navigation, il n'est normalement pas nécessaire de faire de test de navigation. Presque n’importe qui pourra le faire aisément. Les DD sont donnés pour régler les situations spéciales qui peuvent se produire au cours d’une partie.
+
+*'''Contrôler un navire sans la compétence adéquate''' : Si un pilote n'a pas la compétence requise pour contrôler un navire, il peut toujours effectuer un test de Sagesse à la place du test de navigation. Il peut « faire 10 » (en dehors d'un combat) et bénéficier de l'aide d’un autre personnage à son test de Sagesse effectué en remplacement d’un test de navigation avec la compétence requise.
+
+=====Gouvernes=====
+Chaque véhicule nécessite une gouverne particulière pour être manœuvré. Une gouverne est un objet standard avec les immunités et les résistances des objets. Une gouverne a ses propres statistiques. Le tableau ci-dessous présente quelques gouvernes typiques. Lorsqu'une gouverne devient brisée, tous les tests de navigation sont effectués avec une pénalité de -10. Lorsqu'une gouverne est détruite, le navire ne peut plus être manœuvré jusqu’à ce que la gouverne soit réparée.
+{| CLASS="tablo"
+|- CLASS="titre"
+| Gouverne || CA || PV || Solidité
+|- CLASS="premier"
+| Rames<sup>1</sup> || 12 || 10 par rame || 5
+|-
+| Barre à roue || 10 || 25 || 5
+|-
+| Gouvernail || 10 || 25 || 5
+|-
+| Gouverne traitée magiquement<sup>2</sup> || - || x2 || x2
+|- CLASS="note"
+| COLSPAN="4" | 1. Les rames sont considérées comme brisés lorsque plus de la moitié des rames d’un navire sont détruites.<br/>2. Plus d’informations sur les gouvernes traitées magiquement dans la section Ship Modifications.
+|}
+=====Propulsion et compétences de navigation=====
+Chaque véhicule a un mode de propulsion. Les embarcations et les navires sont usuellement propulsés par les courants, la force musculaire, le vent ou par les trois. La propulsion affecte la vitesse et la manœuvrabilité d'un navire. De manière plus importante la propulsion détermine la compétence utilisée pour contrôle le navire. Contrôler un vaisseau nécessite du sens commun, de l'attention, de l'intuition et une dose de maîtrise de la propulsion du navire. Pour la propulsion avec le vent ou le courant, cela consiste à combiner l’action du courant, des voiles, des rames et du gouvernail pour diriger le bateau. Pour une propulsion à la force musculaire, cela consistera principalement à guider les créatures impliquées. Les modes de propulsion génériques des navires ainsi que les compétences requises pour piloter les bateaux utilisant ce mode de propulsion sont présentés si-dessous.
+
+*'''Le courant''' : tous les navires et les embarcations peuvent utiliser les courants maritimes comme mode de propulsion, mais les navires qui ne comptent que sur ce mode de propulsion sont quelque peu limités. Ces véhicules ne se déplacent que dans le sens du courant, à la même vitesse que celui-ci sauf s'ils ont recours à un autre mode de propulsion ou de manœuvre comme la force musculaire pour une chaloupe ou le vent pour un voilier. Un navire propulsé par le courant nécessite d’effectuer des tests de Profession(marin) lorsqu’un test de navigation est nécessaire.
+La vitesse maximale d’un navire propulsé par le courant dépend de la vitesse du courant en lui-même (pouvant aller jusqu’à 36 m). L’accélération de ce type de navire est de 9 m.
+
+*'''Force musculaire''' : Les embarcations propulsées à la force musculaire sont actionnées à la rame par les rameurs nécessaires. Diplomatie, intimidation et dressage sont les compétences de navigation requises pour les navires à force musculaire, le choix entre celles-ci s’effectuant en fonction de l’intelligence et de l’attitude des créatures impliquées.<br/><br/>Pour les créatures intelligentes, le pilote utilisera la compétence Diplomatie lorsque les créatures impliquées sont indifférentes, amicales ou serviables (voir Manuel du Joueur). Quand les créatures impliquées sont amicales ou serviables, le test de navigation bénéficie d’un bonus de +5. Un équipage classique est considéré comme indifférent bien qu’un équipage particulièrement loyal puisse être considéré comme amical. L’intimidation est utilisé pour des rameurs intelligents et dont l’attitude est inamicale ou hostile comme c'est le cas avec des esclaves enchainés sur une galère. Lorsque les créatures impliquées ne sont pas intelligentes, la compétence de dressage est utilisée.<br/><br/>La vitesse maximale et l’accélération d’une embarcation propulsée à la force musculaire dépendent du nombre de créatures impliquées dans la propulsion. Néanmoins, la plupart des navires propulsés à la force musculaire ont une vitesse maximale de 9 mètres et une accélération de 9 m. Les plus grands bâtiments, avec de nombreux rameurs, ont une vitesse maximale de 18 mètres pour une accélération de 9 m.<br/><br/>''Rames'' : Tous les bâtiments propulsés à la force musculaire le sont avec des rames. Les rames ont leurs propres statistiques (voir le tableau ci-dessous).
+
+*'''Vent''' : Les navires propulsés par le vent utilisent des voiles pour dompter la force du vent et se propulser. Un navire propulsé par le vent requière d’utiliser la compétence Profession(Marin) pour effectuer les tests de navigation.<br/><br/>Les petits navires à voiles peuvent atteindre une vitesse maximale de 9 mètres alors que les navires plus imposants, avec une propulsion complémentaire comme la force musculaire, peuvent atteindre une vitesse maximale de 18 mètres. Les plus grands des voiliers, possédant plusieurs mâts et de très nombreuses voiles, peuvent atteindre une vitesse maximale de 24 mètres. L’accélération d’un navire propulsé par le vent est de 9 mètres.<br/><br/>Tous les navires propulsés par le vent peuvent aller au double de leur vitesse maximale lorsqu’ils sont en vent arrière. Un navire utilisant le vent comme mode de propulsion ne peut pas remonter face au vent.<br/><br/>''Voiles et Gréement'' : Tous les navires propulsés par le vent utilisent des voiles et un gréement. Pour aller à pleine vitesse, un navire nécessite 22,5 m<sup>2</sup> (10 cases de 1,5 m de côté) par mât et par case qu’il occupe. Ainsi, un trois mâts occupant trois 3 cases nécessitera 90 cases de voiles (202,5 m<sup>2</sup>). Voiles et gréements ont leurs propres statistiques (voir le tableau ci-dessous).
+
+*'''Propulsion mixte''' : Certains vaisseaux utilisent de multiples formes de propulsion. La combinaison de plusieurs modes de propulsion ajoute de la flexibilité au mouvement du navire et permet d’atteindre des vitesses plus importantes lorsque utilisés de concert. Généralement, quand un navire a deux modes de propulsion, comme le vent et la force musculaire, sa vitesse maximale est la somme des vitesses maximales de chacune de ses propulsions. L’accélération est inchangée. Une troisième forme de propulsion ne procure pas d’avantage autre que la flexibilité d’avoir une propulsion de secours. Un bâtiment avec plusieurs modes de propulsion nécessitera souvent un équipage plus nombreux pour le manœuvrer.
+
+=====Fuite et Poursuite=====
+En pleine mer, on peut repérer un autre navire à des kilomètres de distance, ce qui rend virtuellement impossible de surprendre un autre vaisseau. Si les deux navires souhaitent engager le combat, ils se rapprochent l'un de l'autre et engagent un combat Bord-à-bord normalement. Cependant, si l’un des deux vaisseaux souhaite esquiver l’affrontement, une poursuite s’engage. A la discrétion du MD, un vaisseau plus rapide pourra toujours rattraper un navire plus lent, mais même les navires lents peuvent utiliser les vents, les courants, ou la côte à leur avantage pour s’échapper.
+
+Lors de la première rencontre de deux navires, les pilotes de deux navires doivent faire trois tests de navigation opposés. Le pilote qui remporte deux des trois tests est victorieux. Si c’est le poursuivant qui gagne, son navire rattrape le fuyard et un combat Bord-à-bord s’engage. Si le fuyard gagne, il réussit à s’échapper. En cas d’égalité, les deux pilotes relancent une série de trois tests de navigation en opposition.
+
+De telles poursuites peuvent s’étaler sur plusieurs jours alors que chaque navire manœuvre afin de surclasser son opposant. A la discrétion du MD, la poursuite dure 1d4 jours.
+
+'''Retraite''' : une fois engagé dans un combat Bord-à-Bord, un navire qui se déplace hors des limites de la battlemap met immédiatement fin au combat Bord-à-Bord. A la discrétion du MD, une poursuite peut s’engager selon les règles ci-dessus ou alors on peut considérer que le vaisseau s’est échappé.
+
+{| CLASS="tablo"
+|+ Modes de propulsion
+| COLSPAN="4" | Cet encart présente quelques modes de propulsion typiques. Pour calculer la CA de la propulsion d’un navire, il faut ajouter le modificateur de la compétence de navigation du pilote (ou son modificateur de sagesse le cas échéant) à la CA de base. Quand une propulsion est brisée, la vitesse maximale du navire est réduite de moitié et il ne peut plus gagner l’avantage avant que la propulsion ne soit réparée ou remplacée. Si le navire était en mouvement à une vitesse supérieure à sa nouvelle vitesse maximale, il décélère immédiatement à cette nouvelle vitesse maximale.<br/><br/>''Rames'' : Les rames sont souvent plus fragiles que les navires qu’elles propulsent et sont difficile à remplacer. Détruire les rames d’un navire est une bonne méthode pour le capturer. Les rames sont brisées si plus de la moitié des rames d’un navire sont détruites. Si toutes les rames d’un navire sont détruites, le vaisseau ne peut plus utiliser la force musculaire comme moyen de propulsion et doit compter sur le courant et/ou le vent pour se mouvoir.<br/><br/>''Voiles et gréement'' : Les voiles (y compris le gréement pour les contrôler) sont souvent plus fragiles que les navires qu’elles propulsent bien qu’il soit relativement aisé de les réparer. Détruire les voiles d’un navire est une bonne méthode pour le capturer. Les voiles encaissent le double de dommages par les attaques de feu et d’acide. Les voiles sont brisées si au moins la moitié de la surface de voilure (comptée en case) est détruite. Si toute les voiles d’un navire sont détruites, le vaisseau ne peut plus utiliser la force du vent comme moyen de propulsion et doit compter sur le courant et/ou la force musculaire pour se mouvoir.
+|- CLASS="titre"
+| Propulsion || CA de base || PV || Solidité
+|- CLASS="premier"
+| Rames || 12 || 10 par rames || 5
+|-
+| Voiles || 6 || 4 par case de voilure || 0
+|-
+| Propulsion traitée magiquement<sup>1</sup> || - || x2 || x2
+|- CLASS="note"
+| COLSPAN="4" | 1. la section Ship Modification donne plus d’information sur les propulsions traitées magiquement
+|}
+
+
+
+===Combat Naval===
+
+Les règles suivantes servent à représenter les actions d'un bateau lors d'un round de combat naval.
+
+==== Préparation ====
+Lorsqu'au moins deux bateaux sont prêts à engager le combat, utiliser un grand battle-mat vide pour représenter les eaux dans lesquelles le combat va se dérouler. La quatrième de couverture du "GameMastery Flip-Mat: Ships" contient une grille d'eau vide idéale pour les combats bord-à-bord. Le côté d'une case mesure 9 m (30 pieds) (voir la section "[[Taille et Espace]]")
+
+Déterminez quel navire est l'attaquant et lequel est le défenseur. En tant que pirates, les PJ vont généralement être les attaquants et leur adversaire le défenseur (même si les rôles peuvent être inversés dans des circonstances spécifiques). Représentez chaque navire en utilisant les marqueurs qui contiennent le nombre approprié de cases (ou utilisés les masques fournis page 29 du Player's Guide de la campagne "Skull & Shackles").
+
+Pour déterminer la position des bateaux sur la battlemap, lancez 1d4 pour fixer leur cap (la direction dans laquelle ils vont). Puisque on considère que les deux navires finissent une chasse (l'un pourchasse l'autre pour l'attaquer), ils ont tous les deux le même cap. Un résultat de 1 indique le nord, 2 indique l'est, 3 indique le sud et 4 indique l'ouest. Placez le bateau défenseur aussi proche que possible du centre de la map en respectant son cap.
+
+Ensuite, lancez 1d8 pour déterminer la position du bateau attaquant (par rapport au bateau défenseur). On utilise les mêmes règles que pour les échecs d'attaques avec armes à impacts (P. 202 du ''Manuel du Joueur'') : un 1 représente le nord et on se déplace dans le sens des aiguilles d'une montre. Dans certains cas, cela positionnera l'attaquant devant le défenseur : cela signifie simplement que le bateau attaquant a dépassé sa proie à la fin de la poursuite.
+
+Enfin, lancez 1d4+2 pour déterminer le nombre de cases, sur la battlemap, séparant les deux bateaux. Places l'attaquant sur la carte en tenant compte de son cap et de sa distance par rapport au défenseur.
+
+A moins que cela ne soit détaillé lors d'une rencontre, considérez que chaque navire commence un combat à une vitesse de 9 m (1 case). Chaque engin de siège (voir la section "[[Engins de siège]]") transporté sur le navire sont considérés comme armés au début d'un combat.
+
+'''Le vent.''' Si l'un ou l'autre des navire nécessite des voiles et du vent pour se déplacer, déterminez aléatoirement la direction du vent en lançant 1d4 et en utilisant les mêmes règles que pour déterminer le cap.
+
+==== Initiative ====
+Lorsque le combat commence, le pilote d'un bateau doit lancer l'initiative comme d'habitude (le bateau se déplace au début du tour de son pilote). Si un bateau n'a pas de pilote, il se déplace ou au tour de la dernière créature qui était son pilote ou à un moment déterminé par le MJ. S'ils souhaitent effectuer des actions lors du combat, les PJ (et les PNJ importants impliqués dans le combat), doivent aussi lancer leur initiative.
+
+==== L'avantage ====
+Au début de chaque tour, chaque pilote lance un test opposé de navigation pour déterminer qui possède l'avantage lors du round. Cela représente les caprices de la chance, la compétence et l'environnement (savoir profiter d'une risée favorable, d'un courant rapide, surfer sur une vague haute ou perturber le vent du navire ennemi avec vos propres perturbations d'air...). Le pilote qui gagne ce test gagne l'avantage et peut immédiatement repositionner son bateau d'une case dans n'importe quelle direction en une action libre. Pour tout écart multiple de 5 ou plus, le pilote ayant l'avantage peut repositionner son bateau d'une case en plus. Si les deux pilotes font le même résultat, aucun ne prend l'avantage.
+
+Une alternative est que le pilote qui gagne l'avantage peut changer le cap de son navire de 90°. Pour chaque multiple de 5 ou plus d'écart, le pilote ayant gagné l'avantage peut ajouter 90° à son changement de cap.
+
+On dit d'un bateau qui est au vent (c'est-à-dire qui est le plus proche de la direction du vent) qu'il a "gagné le vent" et il bénéficie d'un bonus de +2 au test opposé de navigation pour déterminer l'avantage.
+
+
+==== Le mouvement ====
+Au début du tour du pilote, il peut entreprendre n'importe laquelle des actions suivantes (sauf l'action "incontrôlé") en faisant un test de navigation pour contrôler son bateau. Le pilote doit effectuer toute action nécessaire avant de faire autre chose durant ce tour. Comme lors d'un combat normal, un pilote peut réaliser une action simple et une action de mouvement. Une fois que le pilote a choisi une action, ou effectue une autre action, rendant ainsi le bateau "incontrolé", le bateau se déplace. Si l'équipage du bateau est moitié moins nombreux que ce dont le navire a besoin, ou n'a pas de pilote, ou si le pilote n'entreprend aucune action, ou entreprend une autre action que celle de piloter ou retarde ou prépare une action, le bateau est "incontrôlé". 
+
+'''A babord toute ! (ou A tribord toute) (Hard to port or Hard to Starboard) - Action simple.''' Le pilote peut faire tourner le bateau pendant qu'il se déplace à sa vitesse actuelle. Une réussite au test de navigation permet au pilote de déplacer l'orientation de la proue du navire de 90° vers la gauche (babord) ou la droite (tribord) lors du mouvement du bateau. Sur la map, le bateau pivote de telle manière que sa poupe se situe sur la case ou était auparavant sa proue. Si la vitesse actuelle du navire est le double de son accélération, le pilote subit un malus de -5 au test de navigation. Si la vitesse actuelle d'un navire est le triple de son accélération, le pilote subit un malus de -10 à son test de navigation. Si la vitesse actuelle du navire est égale ou supérieure à quatre fois son accélération, le pilote subit un malus de -20. Si le pilote échoue à son test, le bateau ne tourne pas mais peut tout de même se déplacer en diagonale vers l'avant durant son mouvement. Note : Un navire propulsé à l'aide du vent qui manque à virer (le bateau se trouve bloqué face au vent lors d'une tentative de virement de bord loupée) doit effectuer l'action "incontrôlé" jusqu'à ce que son pilote le face pivoter pour reprendre le vent.
+
+'''A la cape ! (Heave To) - Action simple.''' Grâce à un test de navigation réussi, la vitesse actuelle du bateau est réduite de 9 m. Si le test est manqué, le bateau ne décélère pas. Dans tous les cas, le navire peut avancer face à lui ou en diagonale. Si la décélération réduit la vitesse du bateau à 0, une partie de son inertie le fait encore avancer sur 1d4x9 m avant qu'il ne s'arrête complètement. Le don Conducteur expérimenté (''Art de la Guerre'', p. 94) réduit cette distance de 9 m (minimum 0).
+
+'''Ecartez-vous ! (Make Way) - Action simple.''' Grâce à un test de navigation réussi, un pilote peut effectuer une manoeuvre compliquée qui force le pilote adverse à réagir. Le résultat du jet de navigation devient alors le DD du prochain jet du pilote adverse. Si le premier test est manqué, la vitesse du bateau reste constante et le bateau peut avancer en ligne droite (mais pas en diagonale). De plus, le prochain jet du pilote adverse est effectué avec un DD normal.
+
+'''En arrière toute ! (Full Astern) - Action complexe.''' Grâce à un test de navigation réussi, le pilote peut déplacer le bateau vers l'arrière (en ligne ou en diagonale et en marche arrière) à une vitesse de 9 m. Si le test est manqué, le bateau ne bouge pas. Un bateau ne peut se déplacer en arrière que s'il est actuellement à l'arrêt (vitesse actuelle = 0).
+
+'''En avant toute ! (Full ahead) - Action simple.''' Avec un jet de navigation réussi, la vitesse actuelle du bateau augmente de son accélération (généralement 9 m), mais ne peut aller plus vite que sa vitesse maximale. Le bateau peut aller en avant ou diagonalement vers l'avant. En d'autre termes, chaque fois qu'un bateau pénètre dans une case de 9 m, il peut choisir n'importe laquelle des cases qui lui font face (celle immédiatement en face, ou l'une de celles en diagonale). Cela permet au bateau de s'écarter. Si le pilote échoue au test, le bateau ne peut que se déplacer dans une case directement face à lui.
+
+'''Incontrôlé (Uncontrolled) - Pas d'action.''' Lorsque le pilote ne fait rien ou que le bateau n'a pas de pilote ou si l'équipage nécessaire à manoeuvreer le bateau est réduit de moitié, le bateau est incontrôlé. Un bateau incontrôlé ne fait rien excepté prendre l'action "Incontrôlé" jusqu'à ce qu'il s'arrête ou que quelqu'un devienne pilote. Un bateau incontrôlése déplace vers l'avant uniquement (il ne peut se déplacer en diagonale) et décélère automatiquement de 9 m. Même si le bateau ne fait rien, il peut effectuer des manoeuvres d'éperonnage (voir le chapitre "Eperonnage").
+
+'''Maintenez le cap ! (Stay the Course) - Action de mouvement.''' Grâce à un test de navigation réussi, le pilote peut déplacer le bateau en avant (face à lui ou en diagonale) à sa vitesse actuelle. Un échec au test conserve la vitesse constante, mais le bateau ne peut que se déplacer vers l'avant (pas en diagonale).
+
+==== Les attaques ====
+Les bateaux n'ont pas d'attaque à proprement parler et ne contrôlent aucun espace autour d'eux. Néanmoins, certains navires sont équipés de béliers (voir la section "[[P47 Améliorations des navires|Améliorations des navires]]" p. 28). D'autres bateaux sont aussi armés d'engins de siège (voir section "[[P 47 Engins de siège|Engins de siège]]" p. 18). A condition que le navire ait un équipage suffisant pour les utiliser, ces engins de siège peuvent être utilisés pour attaquer. Alors que les individus embarqués sur un bateau n'ont généralement pas un rôle significatif à jouer dans les combats bord-à-bord, les personnages importants comme les PJ peuvent être impliqués s'ils souhaitent utiliser les engins de siège ou si un ennemi est à portée de leurs attaques à distance ou de leurs sorts. Lorsque vous attaquez un navire, vous pouvez viser la structure du bateau, ses occupants, ses moyens de propulsion ou sa gouverne. Vous pouvez aussi essayer d'agripper le bateau et de l'aborder. De plus, un bateau peut effectuer une manœuvre d'éperonnage ou d'arrachement dans le cadre de son mouvement.
+
+'''Attaquer la structure.''' Il s'agit d'une attaque contre le bateau lui-même. Si l'attaque est réussie, le bateau subit des dégâts normalement.
+
+'''Attaquer un occupant.''' Il s'agit d'une attaque normale contre l'occupant d'un navire (toute créature qui est passager, pilote, membre d'équipage ou moyen de propulsion d'un navire). Les occupants bénéficient d'un abri partiel (+2 à la CA et +1 aux jets de Réflexes) ou plus contre les attaques provenant de l'extérieur du navire. Les occupants des châteaux arrière ou avant bénéficient d'un abri (+4 à la CA et +2 aux jets de Réflexes) alors que ceux qui sont derrière un sabord ou une écoutille bénéficient d'un abri amélioré (+8 à la CA et +4 aux jets de Réflexes). En général, une fois que le combat entre les occupants de deux navires débute (comme lors d'un abordage), le combat bord-à-bord devrait être remplacé par un combat rapproché à bord de l'un des deux navires.
+
+'''Attaquer un moyen de propulsion.'''Les moyens de propulsion d'un navire ont habituellement leurs propres caractéristiques (voir section "[[XXX]]", p. 11) alors que les créatures propulsant un bateau utilisent leurs propres statistiques. Voir le paragraphe "Attaquer un occupant" de la présente section si des membres d'équipage utilisant les moyens de propulsion sont attaqués. Les statistiques de chaque navire indiquent leurs moyens de propulsion.
+
+'''Attaquer la gouverne.''' La gouverne d'un bateau est un objet avec ses propres statistiques (voir section "[[XXX]]", p. 10). Lorsqu'une gouverne est détruite, le bateau ne peut plus être piloté.
+
+'''Attaquer un engin de siège.''' Les engins de siège embarqués sur un navire ont leurs propres statistiques (voir section "[[P47 Description des navires|Description des navires]]", p. 18). Les engins de siège bénéficient des mêmes condition d'abris qu'un occupant (voir le paragraphe "Attaquer un occupant" de la présente section).
+
+'''Attaquer par bordée.''' Certains navires peuvent embarquer un grand nombre d'engins de siège. Plutôt que de faire un combat bord-à-bord comportant un grand nombre d'attaques individuelles, les engins de siège peuvent tirer par bordée. Tous les engins de siège du même type et situés sur le même flanc du navire peuvent attaquer en même temps. Une attaque par bordée peut seulement être utilisée pour attaquer la structure d'un navire ou un de ses moyens de propulsion. Dans ce cas, ne faites qu'un seul jet d'attaque pour tous les engins de siège de la bordée. Si l'attaque est réussie, toutes les armes touchent leur cible. Si l'attaque échoue, toutes les armes manquent leur coup. En cas de réussite au jet d'attaque, prenez les dégâts moyens d'une arme seule et multipliez le par le nombre d'armes concernées par la bordée pour déterminer le nombre total de dégâts infligés à la cible.
+
+Par exemple, un [[P47 Description des navires|Bateau à voile]] avec 10 balistes légères sur son flanc bâbord tir en bordée. Une seule baliste légère inflige 3d8 points de dégâts pour une moyenne de 13,5 points de dégâts. Si l'attaque touche, la bordée inflige 13,5 x 10 points de dégâts à la cible.
+
+
+==== Agrippement et abordage ====
+Lorsque l'équipage d'un navire souhaite aborder un bateau ennemi et attaquer son équipage, il doit d'abord agripper le navire. Pour pouvoir agripper le navire, les deux bateaux doivent être distants de moins de 9 m l'un de l'autre (en d'autres termes, ils doivent être adjacent sur la battlemap). Si les deux pilotes souhaitent agripper l'opposant, l'agrippement est automatiquement réussi. Les deux équipages lancent les grappins et tirent les bateaux ensembles. Si chaque navire est réduit à une vitesse de 0 suite à une manœuvre d'éperonnage, ils sont considérés comme agrippés.
+
+Si un seul pilote souhaite agripper son opposant, il doit tenter un test de manœuvre contre le DMD du navire ennemi en utilisant la BMO de base du navire plus le modificateur de compétence de navigation (ou son modificateur de Sagesse s'il utilise cette caractéristique pour manœuvrer le bateau) comme BMO totale pour la manœuvre d'agrippement. Si le test est réussi, le bateau cible est agrippé. Lors du round suivant, les deux bateaux sont déplacés pour devenir adjacents et la vitesse de chacun des deux navires est réduite à 0. Si un bateau possède moins que l'équipage nécessaire à sa manœuvre, le pilote subit un malus de -10 à son test de manœuvre d'agrippement.
+
+'''Se libérer d'un agrippement.''' Le pilote du navire agrippé peut tenter de se libérer de l'agrippement en effectuant un test de manœuvre de combat opposé au DMD du bateau qui l'agrippe. Mais il subit un malus de -4 à son test. Si le test est réussi, l'équipage à coupé les lignes de grappins et le bateau ainsi libre peut se déplacer normalement.
+
+'''Abordage.''' Lorsque les deux navires sont agrippés l'un à l'autre, un équipage peut apponter sur l'autre navire. Le pilote ayant la plus haute initiative peut choisir s'il souhaite aborder avec son équipage en premier ou attendre que l'opposant aborde son navire. Les personnages abordant un navire sont considérés comme pris au dépourvu lors du premier round du combat qui s'ensuit, en raison de la difficulté à grimper sur le bastingage et à prendre pied sur le pont principal du bateau abordé. Les personnages qui utilisent un pont d'abordage (corvus, voir section "[[XXX]]", p. 21) ne sont pas considérés comme pris au dépourvus.
+
+
+==== Le combat après l'abordage ====
+Les combats bord-à-bord dans l'AP Skull & Shackles tiennent compte du fait que les PJ seront plus intéressés par la capture d'un navire ennemi plutôt que de le couler. Après tout, si vous coulez un navire, vous ne pourrez plus récupérer son chargement comme butin, prendre son équipage ou ses passagers en otages et vendre (ou utiliser) le navire ennemi... Donc, une fois que le bateau adverse a été abordé, le combat bord-à-bord se termine et le combat à bord commence, sur le bateau sur lequel l'abordage a été fait.
+
+Le combat à bord est normalement un combat entre les personnages importants, c'est-à-dire, dans la plupart des cas, entre les PJ et le capitaine (et autres PNJ importants) du navire adverse. On utilise alors les règles normales pour un combat lors d'une rencontre. Dans le même temps, les deux équipages s'affrontent au second plan.
+
+Le vainqueur du combat principal (les PJ ou les PNJ ennemis) gagne le combat dans son ensemble. En d'autre termes, un équipage est victorieux si son capitaine défait le capitaine adverse. Comme il est plus que probable que l'équipage d'un navire perde des unités lors d'un combat, on considère qu'un nombre équivalent de membres de l'équipage vaincu rejoint le camp vainqueur. Cela permet aux PJ de ne pas avoir à jouer les combattants entre des opposants de bas niveau et que les joueurs n'aient pas à comptabiliser exactement les pertes de leur équipage à chaque rencontre.
+
+Les PJ gagne le nombre de PX correspondant aux adversaires qu'ils ont vaincus lors de combat à bord. Dans la plupart des cas, le combat bord-à-bord sert uniquement de prélude au combat principal. Si, néanmoins, les PJ décident de rester sur un combat bord-à-bord et coulent ou détruisent le bateau ennemi sans combattre directement le capitaine et les PNJ, ils gagnent un nombre de PX équivalent au FP du capitaine (car le capitaine est le seul PNJ à piloter le navire adverse lors d'un combat bord-à-bord).
+
+
+==== L'éperonnage ====
+Pour éperonner une cible, un bateau doit avoir une vitesse de déplacement minimum de 9 m et la case de sa proue doit être adjacente une case de la cible. Le pilote du bateau doit effectuer un test de manoeuvre d'éperonnage contre le DMD de la cible en utilisant la BMO de base de son bateau plus le modificateur de sa compétence de navigation (ou son modificateur de Sagesse s'il utilise cette caractéristique pour manoeuvrer le bateau) comme BMO totale. Si la manoeuvre réussit, le bateau touche sa cible, lui infligeant ses dégâts d'éperonnage. Le bateau qui éperonne subit, lui, la moitié de ces dégâts. Les dégâts de base d'éperonnage d'un bateau sont indiqués dans le bloc de description du bateau (voir section "[[P47 Description des navires|Description des navires]]", p. 22). Si le test de manoeuvre du pilote surpasse le DMD de la cible de 5 ou plus, la cible subit le double des points de dégâts d'éperonnage infligés par le bateau. Si le test de manoeuvre du pilote surpasse le DMD de la cible de 10 ou plus, la cible subit le double des points de dégâts d'éperonnage infligés par le bateau et la vitesse de la cible est immédiatement réduite à 0. Quel que soit le résultat du test, la vitesse de déplacement du bateau qui éperonne est immédiatement réduite à 0.
+
+Si un navire entre en collision avec un autre bateau ou un objet solide (une structure immobile ayant une solidité de 5 ou plus), il effectue une manoeuvre d'éperonnage, quelle que soit l'intention du pilote. Il n'y a alors pas de test de manoeuvre pour ce cas, ces effets s'appliquent automatiquement. Lorsqu'un bateau effectue un manoeuvre d'éperonnage contre un objet solide, et pour déterminer les dégâts infligés au bateau et à l'objet, on autorise le bateau à entrer dans la case de l'objet. Le bateau ne pourra la traverser que si les dégâts sont suffisants pour détruire l'objet. Dans tous les autres cas, le bateau subit les dégâts et sa vitesse est immédiatement réduite à 0 et s'arrête devant l'objet.
+
+Un bateau peut être équipé d'un bélier à la proue. Un navire ainsi équipé inflige 2d8 points de dégâts supplémentaires lors d'une manoeuvre d'éperonnage. De plus, il ignore les dégâts dus à la première case d'un objet solide qu'il rencontre et tous les dégâts d'éperonnage infligés par une créature ou d'autres objets (comme d'autre bateaux). Un bélier peut être ajouté à un bateau de taille G pour 50 po, à un bateau de taille TG pour 100 po, à un bateau de taille Gig pour 300 po et à un bateau de taille C pour 1 000 po.
+
+Si un bateau n'a pas son équipage au complet, mais au moins la moitié de celui-ci, le pilote subit une pénalité de -10 à son test de manoeuvre d'éperonnage. Un bateau ayant moins de la moitié de son équipage nécessaire ne peut pas effectuer de manoeuvre d'éperonnage.
+
+==== Arrachement ====
+Un bateau peut tenter d'arracher les rames d'un autre bateau (si celui-ci utilise la force musculaire pour se déplacer). Pour tenter une manoeuvre d'arrachement, un navire doit être adjacent à la case avant ou arrière de sa cible et se déplacer le long de celle-ci durant un nombre de cases égal à la longueur de sa cible. Le pilote du bateau doit effectuer un test de manoeuvre d'arrachement opposé au DMD de la cible, en utilisant le BMO de base du bateau plus le modificateur de sa compétence de navigation (ou de sa Sagesse s'il utilise cette caractéristique pour piloter). Si le test est réussi, le bateau arrache les rames de sa cible. Les rames de la cible subissent des dégâts qui ramènent leur points de vie à la moitié de leur total maximum et deviennent "cassées". De plus, la vitesse de déplacement maximale du navire cible est réduite de moitié et son capitaine ne peut pas prendre l'avantage. Si le bateau cible est en mouvement et qu'il était à une vitesse supérieure à sa nouvelle vitesse de déplacement, il décélère automatiquement. Un bateau qui n'utilise pas de rames n'est pas affecté par les manoeuvres d'arrachement.
+
+Si un bateau n'a pas son équipage au complet, mais au moins la moitié de celui-ci, le pilote subit une pénalité de -10 à son test de manoeuvre d'arrachement. Un bateau ayant moins de la moitié de son équipage nécessaire ne peut pas effectuer de manoeuvre d'arrachement.
+
+==== Prendre le contrôle d'un bateau ====
+Si un bateau n'a pas de pilote, une autre créature peut en prendre le contrôle tant qu'elle est sur une case adjacente à la gouverne et qu'elle fait ses jets de navigation en action libre. Le pilote d'un bateau peut toujours abandonner le contrôle de son navire à une autre créature adjacente en une action libre. Si ne créature souhaite prendre le contrôe d'un bateau par la force, elle doit tuer le pilore ou écarter celui-ci de la gouverne. Lorsqu'une créature devient pilote, le navire se déplace au tour du nouveau pilote, mais pas durant le tour suivant sa prise de contrôle de la gouverne.
+
+==== Faire des dégâts à un bateau ====
+Les bateaux ont des points de vie et une solidité basés sur les matériaux avec lesquels ils sont principalement construits. La plupart des navires sont fabriqués en bois (15 pv par case de 1.5 m de côté, solidité 5). Lorsqu'une bateau est réduit à la moitié ou moins de ses points de vie, il est "cassé". Lorsqu'il est réduit à 0 pv, il coule.
+
+'''Condition "cassé".''' Le bateaux, et parfois leurs moyens de propulsion, sont des objets et, comme n'importe quels autres objets, lorsqu'ils subissent des dégâts supérieurs à la moitié de leurs points de vie, ils sont "cassés". Lorsqu'un navire est "cassé", il subit un malus de -2 à la CA, aux tests de navigation, aux jets de sauvegarde et aux tests de manoeuvre. Si un navire ou ses moyens de propulsion sont "cassés", la vitesse de déplacement maximale du bateau est réduite de moitié et le bateau ne peut plus gagner l'avantage jusqu'à ce qu'il soit réparé. Si le bateau est en mouvement et se déplace plus rapidement que sa nouvelle de déplacement maximale, il décélère automatiquement à cette nouvelle vitesse.
+
+'''Bateau en train de couler.''' Un bateau réduit à 0 points de vie ou moins coule. Un bateau qui coule ne peut plus se déplacer ou attaquer et sombre complètement 10 rounds après avoir commencé à couler. Chaque attaque réussi après qu'il ai commencé à coulé et qui lui inflige plus de 25 points de dégâts réduit le temps avant qu'il ne sombre de 1 round. Un navire qui a sombré tombe au fond de la mer et est considéré comme détruit. Un bateau détruit ne peut pas être réparé (il est si endommagé qu'il ne peut même plus être utilisé pour ses pièces détachées). La magie (comme ''réparation intégrale'') peut réparer une bateau en train de couler si ses points de vie remontent au dessus de 0. Dans ce cas, il perd la condition "en train de couler". Généralement, les réparation non magiques prennent trop de temps pour éviter au bateau de sombrer complètement à partir du moment où il commence à s'enfoncer dans l'eau.
+
+
+==== Réparer un bateau ====
+Le moyen le plus rapide et le plus simple de réparer un bateau est d'utiliser la magie. ''Réparation'' n'est pas assez puissant pour réellement affecter un objet de la taille d'un navire. Mais ''réparation intégrale'' affecte un navire comme s'il s'agissait d'une créature artificielle, réparant 1d6 points de dégâts par NLS. De plus, il est possible d'user d'autre méthodes plus "classiques" pour réparer un bateau. En raison de leurs construction particulière, les navires (tout comme les rames et les voiles) nécessitent généralement la compétence Artisanat (bateaux) pour être réparés. Selon la nature des dégâts, des compétences comme Artisanat (charpenterie) ou Artisanat (voiles) ou diverses compétences de Profession peuvent être utilisées pour réparer un bateau (après accord avec le MJ). En général, une journée de travail d'une seule personne utilisant la compétence appropriée nécessitent 10 po de matières premières et un test de compétence DD10. Un succès permet de réparer 10 points de dégâts alors qu'un échec n'en répare que 5. ''fabrication'' peut aussi être utilisé pour créer les matières premières nécessaires aux réparations. De nouvelles rames peuvent être achetées pour 2 po chaque (Voir le MdJ p. 159).
+
+
+
+===Les engins de siège===
+
+Les engins de siège attaquent les structures et les personnages a distance en envoyant diverses munitions. Les règles suivantes sont une version modifiée de celles concernant les engins de siège que l'on peut trouver dans l'ouvrage ''l'Art de la Guerre'' (''Pathfinder RGP Ultimate Combat'') et se concentrent uniquement sur les engins de siège qui peuvent être embarqués et utilisés sur des navires.
+
+
+=== Les bases ===
+Tous les engins de siège présents dans l'AP ''Skull & Shackles'' suivent les règles de base suivantes. Les règles particulières de certains engins de siège sont décrites dans leur description.
+
+==== Manipulation ====
+Les engin de siège sont des armes exotiques. Le don Manipulation des armes exotiques permet à un personnage d'utiliser un seul type d'engin de siège sans pénalité. Une créature possédant le don Ingénieur de siège (''Art de la Guerre'', p. 109) sait manipuler tous les engins de siège.
+
+==== Dons ====
+Plusieurs dons présentés dans l<nowiki>'</nowiki>''Art de la Guerre'' peuvent être utiles pour les engins de siège, notamment les suivants : Maître ingénieur de siège, Responsable du siège, Ingénieur de siège et Tireur à l’arme de siège.
+
+==== Equipe de manipulation ====
+La grande taille d'un engin de siège demande souvent que plusieurs personnes soient mobilisées pour l'utiliser. L'une d'entre elles est chef d'équipe. Généralement, le chef d'équipe contrôle le mouvement d'un engin de siège ou désigne ses cibles, parfois les deux. Souvent, le chef d'équipe doit décider des actions et effectuer des tests spécifiques au fonctionnement d'un engin de siège. Les autres membres de l'équipe sont nécessaires pour réaliser l'action et effectuer des tests pour que l'engin de siège fonctionne. L'équipe nécessaire au fonctionnement d'un engin de siège est en plus de l'équipage nécessaire pour manœuvrer un navire.
+
+
+==== Construire un engin de siège ====
+Un engin de siège est un objet complexe dont la construction nécessite un test d'Artisanat (engin de siège) de DD 20.
+
+==== Engins de siège de maître ou magiques ====
+Les engins de siège peuvent être ''de maître'', ce qui augmente le DD nécessaire pour leur construction de 5 et leur coût de 300 po. Un engin de siège de maître peut être enchanté au double du coût normal pour une arme magique. Le bonus d'altération d'un engin de siège s'applique aux jets d'attaque et aux tests de visée (dans le cas d'engins de siège à tir indirect).
+
+==== Désarmer un engin de siège ====
+Un engin de siège est difficile à désarmer, ce qui nécessite 2d4 rounds d'effort et un test de Désamorçage DD 20. Lorsqu'un engin de siège est désarmé, soit il ne fonctionne plus, soit il est saboté et s'arrête de fonctionner au bout de 1d4 minutes d'utilisation.
+
+==== Réparer un engin de siège ====
+Réparer un engin de siège cassé ou désarmé nécessite un test d'Artisanat (engin de siège), de Déqamorçage ou de Connaissances (ingénierie) DD 20. 10 minutes sont nécessaires pour réparer l'objet et le test doit être refait si la réparation échoue.
+
+==== Défense et points de vie ====
+Tous les engins de siège sont des objets, généralement fabriqués en bois. Un engin de siège possède une Dextérité de 0 (malus de -5) et un malus supplémentaire selon sa taille. Chaque type d'engin de siège possède sa propre solidité et ses propres points de vie. Les engins de siège peuvent être armurés (dans ce cas, on prendra le coût correspondant pour une créature de la même taille). Les armures des engins de siège de maître peuvent être enchantées pour le double du prix normal d'un enchantement d'armure. Les engins de siège armurés gagne un bonus à la CA égal à celui donné par l'armure (les boucliers n'ont aucun effet sur les engins de siège), une solidité et un nombre de points de vie égaux à ceux de l'armure et des points de vie supplémentaires égaux à ceux de l'armure x5.
+
+
+==== Assembler un engin de siège ====
+Les engins de siège peuvent être démantelés pour pouvoir être transportés ou stockés et être réassemblés sur le pont d'un bateau. Un engin de siège de taille G nécessite 1 heure d'assemblage et quatre ouvriers. Un engin de siège de taille TG nécessite 2 heures de travail à six. Chaque ouvrier-assembleur doit réaliser un test d'Artisanat (engin de siège) DD 10. Si l'ouvrier ne possède pas cette compétence, il ne peut pas "prendre 10". Un assemblage peut être réalisé par au moins la moitié du nombre d'ouvriers-assembleurs requis, mais dans ce cas le temps d'assemblage est doublé. Si moins de la moitié du nombre d'ouvriers-assembleurs requis est disponible, l'engin de siège ne peut pas être assemblé.
+
+
+
+=== Tirer avec un engin de siège ===
+Les engins de siège lancent des projectiles de grande taille de deux manière différente : en tir direct ou en tir indirect. Chacune des méthodes nécessite un certain nombre d'actions pour le rechargement et la visée dont les règles sont décrites ci-dessous.
+
+==== Chargement des munitions ====
+Pour qu'un engin de siège puisse tirer, il doit être chargé. Charger des munitions nécessite un certain nombre d'actions complexes suivant l'engin de siège (le temps nécessaire au chargement peut être réduit à des actions de mouvement au lieu d'actions complexes si le chef d'équipe possède le don Maître ingénieur de siège (''Art de la Guerre'', p. 111). Par exemple, une baliste légère chargée par deux créatures nécessite 1 round de chargement car chacune des créature exécute l'une des deux actions complexes nécessaire au chargement de la baliste légère.
+
+==== Régler la visée d'un engin de siège ====
+Il faut régler la visée d'un engin de siège pour qu'il puisse atteindre la cible (dans le cas d'engin à tir direct) ou la case (dans le cas d'enin à tir indirect) voulue. Régler la visée nécessite un nombre d'actions complexes différent suivant l'engin de siège. Régler la visée d'un engin de siège avec une équipe réduite double le temps de réglage normal. Chaque fois qu'une nouvelle cible ou une nouvelle case est choisie pour cible de l'engin de siège, la visée de l'engin doit être réglée à nouveau. Par exemple, le réglage de la visée d'une baliste légère par deux créatures s'effectue en un round. Si la même baliste légère était manipulée par trois créatures, deux d'entre elles pourraient régler sa visée en utilisant deux actions complexes et la troisième pourrait tirer en une action simple.
+
+
+==== Engins de siège à tir direct ====
+Les armes à tir direct lancent leurs projectiles sur une trajectoire relativement plate, ce qui leur permet de cibler plus facilement des créatures ou de marteler directement les protections situées devant elles.
+
+Une arme à tir direct effectue un jet d'attaque normal, avec les pénalités normales de non maîtrise si aucun des membres de l'équipe qui la manipule ne sait maîtriser les engins de siège. De plus, une arme à tir direct subit une pénalité au jet d'attaque de -2 par catégorie de taille en plus entre elle et les créatures qui règlent sa visée. Les créatures ayant au moins un rang dans la compétence Connaissances (ingénierie) ne sont pas affectées par la différence de taille lorsqu'ils manipulent des engins de siège à tir direct.
+
+Un plus grand nombre de manipulateurs peut aussi réduire les pénalités dues à la taille. Augmenter le nombre de membres d'une équipe en charge d'un engin de siège d'une créature ou plus peut réduire la pénalité à l'attaque dues à la différence de taille : tant qu'un membre supplémentaire n'a pas une taille de 3 catégories inférieure à celle de l'engin de siège, il peut réduire la pénalité due à la différence de taille de 2. Par exemple, une baliste de taille TG dont le tir est effectué par une créature de taille M faisant partie d'une équipe de quatre manipulateurs (soit 1 de plsu que le nombre minuimum de manipulateurs requis) subit seulement une pénalité de -2 aux jets d'attaque et une équipe de 5 membres annulerait la pénalité.
+
+==== Engins de siège à tir indirect ====
+Les engins de siège à tir indirect lancent des projectiles vers leurs cibles selon une trajectoire en arc. Ils utilisent généralement des munitions bien plus lourds que les armes à tir direct, mais ils est aussi plus difficile de régler leur visée correctement. Les armes à tir indirect peuvent passer par dessus plusieurs types de fortifications, envoyant leurs munitions (objets solides, objets dispersifs ou cadavres de bêtes prteurs de maladies) sur d'autres navires.
+
+Les armes de siège à tir indirect suivent un système de visée et de tir similaire à celui décrit pour les catapultes dans le MdJ. Par la suite, on fera référence à ce type d'attaque sous le terme d'attaque indirecte. Ce qui suit est une évolution de ces règles.
+
+==== Attaques indirectes ====
+Pour effectuer une attaque avec un engin de siège à tir indirect, le chef d'équipe effectue un test de visée contre le DD de l'engin de siège. Ce test utilise sa BBA, son modificateur de Connaissances (ingénierie) (ou son modificateur d'Intelligence s'il n'est pas formé à la compétence), les pénalités de non maîtrise et le modificateur approprié du tableau "Modificateurs d'attaque indirecte" ci-dessous. Si le test est réussi, la munition de l'attaque indirecte touche la case visée par l'engin de siège, infligeant les dégâts indiqués ou les effets à tout objet ou créature situées dans la zone visée. Les créatures peuvent effectuer un jet de sauvegarde pour limiter les effets de l'attaque (le JdS est basé sur le type de munition utilisée).
+
+Si l'attaque échoue, lancez 1d8 pour déterminer la direction vers laquelle le tir a dévié. Un 1 indique que le tir est trop court (sur la ligne entre l'engin et la case ciblée), les autres résultats s'interprétant en déterminant les cases autour de la cible dans le sens des aiguilles d'une montre. Ensuite, lancez 1d4 pour chaque facteur de portée utilisé lors du tir (1d4 si la cible est dans le premier facteur de portée de l'engin de siège, 2d4 s'il est situé dans le deuxième...). Le total de ce jet indique l'erreur de distance (1 point égal 1 case dans la direction donnée par le premier jet). La munition inflige ses dégâts et effets dans la case dans laquelle elle tombe.
+
+<center>
+{| CLASS="tablo"
+|+ Modificateurs d'attaque indirecte
+|- CLASS="titre"
+| Condition || Modificateur
+|- CLASS="premier"
+| Pas de ligne de vue vers la case visée || -6
+|- CLASS="alt"
+| Tirs successifs (l'équipe peut déterminer<br>dans quelle case le dernier échec est tombé)<br>* Bonus cumulatif par tir manqué (max +10) || +2*
+|- 
+| Tirs successifs (l'équipe ne peut pas déterminer <br>dans quelle case le dernier échecest tombé,<br>mais un observateur peut donnerdes informations)<br>* Bonus cumulatif par tir manqué (max +5) || +1*
+|- CLASS="alt"
+| Tirs successifs après un tir réussi || +10
+|}
+</center>
+
+
+==== Touché critique ====
+Lorsqu'un engin de siège à tir direct réussi un jet critique, il confirme le critique et inflige les dégâts critiques comme n'importe qu'elle autre arme. Si un engin de siège à tir indirect réussi un 20 naturel sur son jet de visée, il peut aussi réussir un jet critique. Le chef d'équipe doit relancer le jet de visée pour confirmer le critique. Si le critique est confirmé (jet de visée réussi), l'attaque est considérée comme critique et l'engin de siège multiplie ses dégâts par son multiplicateur de critique. Contrairement aux attaque normales, un engin de siège peut infliger des critiques à des objets. Les engins de siège ne peuvent bénéficier des dons de critique des membres de son équipe ou de son chef d'équipe.
+
+==== Fumble et ratés ====
+Lancer un 1 naturel sur un jet d'attaque avec un engin de siège à tir direct ou sur un jet de visée avec un engin de siège à tir indirect implique un fumble. En général, un fumble implique que l'engin de siège est "cassé". Un engin de siège "cassé" subit une pénalité de -2 aux jets d'attaque, de visée et de dégâts.
+
+Si un chef d'équipe possède le don Ingénieur de siège (''Art de la guerre'', p.109), elle ne provoque pas de fumble sur un 1 naturel lorsqu'il tire avec un engin de siège.
+
+=== Description des engins de siège ===
+<center>
+{| CLASS="tablo"
+|+ Engins de siège
+|- CLASS="titre"
+| Engin de siège || Prix || Dégâts || Critique || Facteur de portée || Type || Equipe || Visée || Rechargement
+|- CLASS="premier"
+| COLSPAN="9" | ''Engins de siège à tir direct de taille G''
+|-
+| &emsp;Baliste légère || 500 po || 3d8 || 19–20/×2 || 36 m (24 {s:c}) || P || 1 || 0 || 2
+|- CLASS="premier"
+| COLSPAN="9" | ''Engins de siège à tir indirect de taille G''
+|-
+| &emsp;Catapulte légère || 550 po || 4d6 || ×2 || 45 m (30 {s:c})<br>(15 m/10 {s:c} min.) || C || 2 || 2 || 3
+|- CLASS="premier"
+| COLSPAN="9" | ''Engins de siège à tir direct de taille Gig''
+|-
+| &emsp;Baliste lourde || 800 po || 4d8 || 19–20/×2 || 54 m (36 {s:c}) || P || 3 || 2 || 3
+|- class="alt"
+| &emsp;Drake de feu || 4 000 po || 6d6 || — || — || feu || 3 || 2 || 5
+|- CLASS="premier"
+| COLSPAN="9" | ''Engins de siège à tir indirect de taille Gig''
+|- CLASS="premier"
+| &emsp;Catapulte standard || 800 po || 6d6 || ×2 || 60 m (40 {s:c})<br>(30 m/20 {s:c} min.) || C || 3 || 2 || 3
+|- class="alt"
+| &emsp;Onagre, flèches || 1 000 po || 3d8 || x3 || 30 m (20 {s:c})<br>(15 m/10 {s:c} min.) || P || 3 || 2 || 3
+|- CLASS="premier"
+| COLSPAN="9" | ''Autres''
+|-
+| &emsp;Corvus (Pont d'abordage) || 100 po || — || — || — || — || 1 || — || —
+|}
+</center>
+
+Les engins de sièges sont décrits selon le format suivant dans le tableau "Engins de siège" :
+* '''Prix.''' Il s'agit du prix en po de l'engin de siège. Le prix inclus l'équipement nécessaire pour faire fonctionner l'engin mais aussi l'équipement nécessaire à son entretien. Le coût des munitions habituelles et leur poids sont décrits dans la description de l'engin de siège.
+* '''Dégâts.''' Cette colonne indique les dégâts généralement infligés par l'engin de siège. Contrairement aux autres armes à distance, les engins de siège infligent la totalité des dégâts aux objets. Les engins de siège n'infligent pas de dégâts d'attaque sournoise ou d'autres dégâts de précision.
+* '''Critique.''' Cette colonne indique la plage et le multiplicateur de critique de l'engin de siège (voir règles sur le critique dans le ''Manuel des Joueurs'', p. 144). Contrairement aux autres armes à distance, les engins de siège peuvent infliger des dégâts critiques aussi bien à des créatures qu'à des objets.
+* '''Facteur de portée.''' Toute attaque effectuée à une distance supérieure à celle listée dans cette colonne est pénalisée. Au delà de cette distance, le jet d'attaque ou de visée subit une pénalité de -2 pour chaque tranche de portée supplémentaire. Certains engins de siège ont une portée minimale d'efficacité, listée entre parenthèse dans la même colonne.
+* '''Type.''' Comme les armes, les engins de siège sont classées selon le type de dégâts qu'ils infligent : C pour contondant, P pour perçant, T pour tranchant. Certains engins de siège infligent de dégâts d'énergie. Dans ce cas, le type d'énergie est indiqué.
+* '''Equipe.''' Cette colonne indique le nombre de créatures de taille M nécessaire pour manipuler correctement l'engin de siège.
+* '''Visée.''' Cette colonne indique le nombre d'actions complètes nécessaires pour régler la visée de l'engin de siège. Si l'engin de siège est contrôlé par moins de créatures qu'elle devrait, le nombre d'actions complexes nécessaires pour la visée est doublé.
+* '''Rechargement.''' Cette colonne indique le nombre d'actions complexes nécessaire pour le rechargement de l'engin de siège.
+
+
+=== Description des engins de siège ===
+Les engins de siège suivants sont disponibles dans la campagne "Un crâne et des Entraves".
+
+==== Baliste ====
+Une baliste ressembles à une énorme arbalète dont la puissance est fournie par des écheveaux de tendons d'animaux utilisés comme ressort à torsion et tendant une pair de bras ajustables. Une corde attachée aux deux bras est tirée vers l'arrière et un projectile est chargé dans une rainure. La tension est relâchée d'un coup et la corde propulse le projectile vers la cible. Les balistes sont des engins de siège à tir direct.
+
+'''Légère.''' Ce type de baliste est le plus commun. Aussi appelée arbalète de siège ou scorpion, elle est de taille G, maniable et souvent armée sur des bateaux. Les balistes légères ont une solidité de 5 et 50 pv. Les carreaux des balistes légères coûtent 10 po et pèsent 5 kg chacun.
+
+'''Lourde.''' Ces engins de siège de taille TG sont généralement utilisés pour la défense des châteaux, ainsi que sur les grands navires. Les balistes lourdes ont une solidité de 5 et 100 pv. Les carreaux des balistes lourdes coûtent 30 po et pèsent 10 kg chacun.
+
+
+==== Catapulte ====
+Les catapultes sont des engins de siègent qui projettent des pierres. Elles sont armées par un bras qui traverse un écheveau de torsion et accueillent leur munition dans un bol qui s'élève autour d'un axe. Les catapultes peuvent lancer diverses types de munitions (les dégâts indiqués sont ceux de projectiles en pierre, d'autres types de munitions peuvent être trouvées dans la section "Munitions spéciales pour engins de siège" ci-dessous). Les catapultes sont des engins de siège à tir indirect.
+
+'''Légère.''' Ces catapultes sont de taille G et sont souvent montées sur roues. Une catapulte légère a un test de visée de DD 15. Les catapultes légères ont une solidité de 4 et 50 pv. Les pierres pour catapultes légères coûtent 10 po et pèsent 25 kg chacune.
+
+'''Standard.''' Ces catapultes de taille TG sont trop grandes pour être transportées en un seul morceau et nécessitent d'être assemblées. Le DD du test de visée d'une catapulte standard et de 20. Les catapultes standards ont une solidité de 5 et 100 pv. Les pierres utilisées pour une catapulte standard coûtent 15 po et pèsent 37,5 kg chacune.
+
+==== Corvus ====
+Un corvus (ou pont d'abordage) est un objet qui utilise un système de contrepoids sur charnière pour relever un pont verticalement sur le bord d'un d'un navire. A l'autre extrémité du pont, un système de crochets permet de le fixer sur le navire ciblé. Un corvus est généralement large de 3 m (2 {s:c}) et long de 4,5 m (3 {s:c}). Il a une solidité de 5 et 10 pv par case. Utiliser un corvus nécessite un test de Profession (ingénieur de siège) DD 10 en une action complexe, à condition que le corvus est dans une position correcte, c'est-à-dire que le navire cible est à une distance inférieure à la longueur du corvus. Si le test échoue, le corvus ne parvient pas à accrocher la cible et doit être relevé (en une action complexe). Lorsqu'un corvus est fixé, il faut un test de Force en une action complexe pour le déloger. Autrement, si le corvus est attaché à un bateau, le pilote de l'un ou l'autre des navires peut tenter un test de navigation en une action simple pour déloger le corvus (une réussite de 5 ou plus détruit le corvus). Le DD de base pour l'une ou l'autre des deux méthodes est 15 et augmente de 5 pour chaque créature de taille S ou M qui se tiennent sur le corvus. Si un corvus est délogé alors que des créatures sont dessus, elles doivent réussir un jet de Réflexe DD 15 ou tomber. Un succès leur permet d'atteindre la zone stable la plus proche, mais un tel mouvement provoques des attaques d'opportunités. Un corvus ne peut pas être blindé. Un corvus ne compte pas dans le nombre maximum d'engins de siège d'un navire.
+
+
+==== Drake de feu ====
+ces engins de siège de taille TG sont souvent montés sur roues. Ces appareils crachent des gouttes de feu grégeois sur une ligne de 18 m (12 {s:c}) ou dans un cône de 9 m (6 {s:c}) (au choix du chef d'équipe). Les cibles situées dans la zone d'effet subissent 6d6 points de dégâts de feu (Réflexes DD 15 pour demi-dégâts). Ceux qui ratent leur jet de sauvegarde prennent feu. Un drake de feu "cassé" qui lance un fumble explose, infligeant ses dégâts à toutes les créatures situées dans un rayon de 6 m (4 {s:c}) (Réflexes DD 15 pour demi-dégâts). Les drakes de feu ont une solidité de 10 et 70 points de vie. Chaque charge d'un drake de feu coûte 200 po et pèse 10 kg.
+
+==== Onagre ====
+Un onagre utilise un système de palettes coudées en composite pour lancer un groupe de flèches qui tombent en pluie sur la case visée et dans un rayon de 4,50 m autour d’elle. Une munition de ce type coûte 20 po et pèse 5 kilos.
+
+=== Munitions spéciales pour engins de siège ===
+Les types de munitions suivants peuvent être utilisés avec certains engins de siège à tir indirect. La description des munitions indique quels engins de siège peuvent utiliser ces munitions. Les coûts et les poid indiqués dans le tableau "Munitions spéciales pour engins de siège" correspondent à une utilisation de la munition.
+
+<center>
+{| CLASS="tablo"
+|+ Munitions spéciales pour engins de siège
+|- CLASS="titre"
+| Munition || Prix || Poids
+|- CLASS="premier"
+| Ballot pestiféré || 80 po || 10 kg
+|- CLASS="alt"
+| Glace liquide || 400 po || 10 kg
+|- 
+| Feu grégeois || 200 po || 5 kg
+|- CLASS="alt"
+| Fumée  || 250 po || 10 kg
+|- 
+| Tir de chaîne || 50 po || 15 kg
+|}
+</center>
+
+==== Ballot pestiféré ====
+Cette boîte en céramique est remplie de charognes et d'abats nocifs et peuvent être utilisés comme munitions pour une catapulte. Un ballot pestiféré n'inflige que la moitié des dégâts, mais chaque créature touchée par son contenant est exposé à la fièvre des marais (''Manuel des Joueurs'', p. 563). Le MJ peut décider qu'un ballot pestiféré inflige une autre maladie. 
+
+==== Feu grégeois ====
+Il s'agit soit d'une boule en céramique contenant du feu grégeois qui peut être utilisée comme munition pour les catapultes, soit un bulbe de feu grégeois monté sur la pointe d'un carreau de baliste. Lorsqu'il touche la case ciblée, il inflige 4d6 points de dégâts de feu à toutes les créatures et aux structures en bois situées à 1,5 m (1 {s:c}) de la case cible. Chaque créature doit réussir un jet de Réflexes DD 20 ou prendre feu (les objets en bois prennent feu automatiquement). Toutes les créatures et objets en bois situées dans une zone comprise entre 1,5 m (1 {s:c}) et 9 m (6 {s:c}) de la case cible doivent réussir un jet de Réflexes DD 20 ou subir la moitié de dégâts, mais ils ne prennent pas feu. Sur un fumble, la munition explose avant qu'elle ne soit lancée, infligeant ses dégâts à l'engin de siège et à toutes les créatures et objets de bois alentour comme si l'une des cases qu'occupe l'engin de siège avait été ciblée (au choix du chef d'équipe). Ce feu grégeois ignore la solidité des objets en bois.
+
+==== Fumée ====
+Cette sphère en céramique contient deux substances alchimiques séparées par une fine barrière, comme une bille fumigène (voir ''Manuel des Joueurs : Règles Avancées'', p. 183) en plus grosse. Elle peut être utilisée comme munition de catapultes. Lorsque la fuée touche la case ciblée, elle inflige 2d6 points de dégâts à toutes les créatures situées sur la case et les substance se mélange, créant une zone de brouillard jaunâtre et fétide (mais inoffensif) de 9 m (6 {s:c}) autour de la case d'impact. Traitez cet effet comme un sort de ''nappe de brouillard''. En cas de fumble, la munition explose avant d'avoir été lancée. Son effet est centré sur l'une des cases qu'occupe l'engin de siège (au choix du chef d'équipe).
+
+==== Glace liquide ====
+Cette boule de céramique est remplie de glace liquide alchimique et peut être utilisée comme munition de catapulte. Lorsqu'elle touche la case ciblée, elle inflige 4d6 points de dégâts de foid à toutes les créatures situées à 1,5 m (1 {s:c}) de la case d'impact et chaque créature doit réussir un jet de Vigueur DD 20 ou être enchevêtrée pendant 1 round. Totues les créatures situées dans une zone comprise entre 1,5 m (1 {s:c}) et 9 m (6 {s:c}) de la case d'impact doivent réussir un jet de Vigueur DD 20 ou subir la moitiée des dégâts. En cas de fumble, la munition explose avant d'avoir été lancée, infligeant ses dégâts à toutes les créatures à proximité comme si l'une des cases occupées par l'engin de siège (au choix du chef d'équipe) avait été ciblée.
+
+==== Tir de chaîne ====
+Constituée de deux petites pierres enchaînées l'une à l'autre, cette munition peut être utilisée comme munition de catapulte. Un tir de chaîne est particulièrement efficace pour déchirer les voiles et le gréement, infligeant le double de dégâts à ce type de propulsion. Il inflige des dégâts normaux à une créature qui doit, si elle est touchée, réussir un jet de Vigueur DD 20 pour ne pas tomber au sol. Le tir de chaîne est relativement inefficace contre les bateaux eux-mêmes, n'infligeant que 2d6 points de dégâts pour une catapulte légère ou 4d6 points de dégâts pour une catapulte standard.
+
+
+=== La Magie et les Navires ===
+
+
+
+* '''Abri, globe d’invulnérabilité, globe d’invulnérabilité partielle, mur d’épines, mur de glace.''' Les effets de ces sorts se déplacent avec un navire.
+
+* '''Affûtage, arme alignée, arme magique, arme magique suprême.''' Ces sorts affectent également les engins de siège ainsi que leurs munitions.
+
+* '''Animation d’objets.''' Un navire contrôlé par un pilote ne peut pas être animé avec ce sort sans le consentement de son pilote. Un navire animé se déplace selon le bon vouloir du lanceur du sort. À l’exception du lanceur de sorts que l’on considère comme le pilote du navire, aucun équipage n’est nécessaire. Les statistiques d’un navire animé (ses points de vie, par exemple) restent les mêmes.
+
+* '''Appel de la foudre, appel de la tempête, éclair, éclair multiple, 
+rayon ardent, tempête vengeresse.''' Ces effets ne provoquent pas de début d’incendie sur un navire.
+
+* '''Barrière de lames, brume de dissimulation, brume mentale, 
+brume mortelle, nappe de brouillard, pyrotechnie,
+nuage nauséabond, tempête vengeresse.''' Les effets créés par ces sorts ne se déplacent pas avec un navire
+
+* ''' Boule de feu, boule de feu à retardement, germes de feu, flammes,
+flèches enflammées, lame de feu, nuée de météores, sphère de feu.''' Ces sorts peuvent provoquer des débuts d’incendie sur un navire.
+
+* '''Brouillard dense, brume acide.''' Les effets créés par ces sorts ne sedéplacent pas avec un navire mais réduisent de moitié la vitesse des navires qui les traversent.
+
+* '''Cage de force, mur de force, sphère d’isolement.''' Les effets de ces sorts se déplacent avec un navire s’ils sont fixés sur celui-ci. Dansle cas contraire, ils ne se déplacent pas avec un navire. De plus,un navire qui les percute effectue une manoeuvre d’éperonnage
+
+* '''Cercle de téléportation, porte dimensionnelle, téléportation,
+téléportation suprême.''' Étant donné que les navires sont toujours en mouvement, les lanceurs des sorts de la branche de téléportation doivent avoir une ligne de mire pour pouvoir se téléporter surun navire. Sinon, ils doivent préalablement scruter par magie un navire en particulier puis se téléporter immédiatement vers le point de destination scruté. Tout retard lors de l’incantation du sort signifie que le navire s’est éloigné de l’endroit scruté, ce qui provoque l’échec du sort.
+
+* '''Colonne de feu, tempête de feu.''' Ces sorts ne peuvent pas provoquer de début d’incendie sur un navire à moins que celui-ci obtienne un 1 naturel à son jet de sauvegarde contre les dégâts de feu.
+
+* '''Contrôle de l’eau.''' Un navire ne peut pas quitter la zone affectée par ce sort et doit effectuer l’action « incontrôlé » pendant toute sa durée.
+
+* '''Contrôle des vents.''' La zone des vents créée par ce sort ne se déplace pas avec un navire.
+
+* '''Corde enchantée, manoir somptueux.''' Les accès aux espaces extradimensionnels créés par ces sorts ne se déplacent pas avec un navire.
+
+* '''Cyclone.''' La plupart des navires sont trop imposants pour que ce sort les affecte, ce qui n’est pas le cas des créatures et objets non arrimés sur le pont d’un navire.
+
+* '''Défense magique, écran, sanctuaire secret.''' On peut lancer ces sorts sur des navires.
+
+* '''Désintégration.''' Ce sort inflige 2d6 points de dégâts par niveau de lanceur de sorts (maximum 40d6) à un navire.
+
+* ''' Distorsion du bois.''' Un navire au bois distordu se fend et subit par conséquent l’état préjudiciable brisé. S’il tombe à moins de la moitié de ses points de vie pendant la durée de la distorsion dont il est victime, il est en plein naufrage.
+
+* ''' Éloignement du bois.''' Un personnage qui se tient debout sur le pont d’un navire considère que celui-ci est un objet fixe par rapport à lui et il n’est donc pas affecté par ce sort. Les objets non arrimés au navire où se tient le personnage, ou ceux dans d’autres navires à portée, sont affectés normalement. Un navire contrôlé par un pilote peut effectuer un jet de Volonté pour annuler les effets de ce sort.
+
+* '''État gazeux.''' Une créature sous état gazeux ne se déplace pas avec un navire.
+
+* '''Explosion de lumière, rayon de soleil.''' Ces sorts infligent la moitié des dégâts seulement aux navires.
+
+* '''Fabrication.''' Les matériaux créés par ce sort peuvent êtreutilisés pour réparer des navires
+
+* ''' Inversion de la gravité.''' La zone d’effet de ce sort doit englober la totalité du navire pour pouvoir l’affecter, même si les créatures et les objets sur le pont du navire sont affectés normalement. Si la totalité d’un navire est affectée et retombe d’une hauteur supérieure 15 mètres, le pilote doit réussir un test de navigation DD 20 à l’impact, sinon, son navire est doté de l’état préjudiciable en plein naufrage.
+
+* '''Métamorphose universelle.''' Un navire est composé de nombreux objets. Par conséquent, les navires de taille TG ou plus grand sont trop imposants pour que ce sort puisse les affecter. Mirage. On considère les navires comme des structures lorsqu’il s’agit de déterminer les effets de ce sort.
+
+* '''Mur de feu.''' Un mur de feu lancé sur le pont d’un navire se déplace avec celui-ci et peut provoquer un début d’incendie à bord. Sinon, le mur ne se déplace pas avec le navire et ne peut pas provoquer de début d’incendie.
+
+* '''Mur de vent.''' Les effets de ce sort se déplacent avec un navire s’ils sont fixés sur celui-ci.
+
+* '''Mur prismatique, rayon prismatique, sphère prismatique.''' Ces sorts ne provoquent pas de débuts d’incendie sur un navire à moins que celui-ci passe à travers l’effet magique et obtienne un 1 naturel à son jet de sauvegarde contre les dégâts de feu. Un mur prismatique et une sphère prismatique se déplacent avec un navire s’ils sont fixés sur celui-ci. Dans le cas contraire, ils ne se déplacent pas avec le navire.
+
+
+* '''Nuage incendiaire.''' Le nuage créé par ce sort ne se déplace pas avec un navire mais le lanceur du sort peut se concentrer pour qu’il le suive. Ce sort peut provoquer un début d’incendie sur un navire.
+
+* '''Passe-muraille.''' Un navire peut effectuer un jet de Vigueur pour annuler les effets de ce sort. Un navire affecté par ce sort est victime des états préjudiciables brisé et en plein naufrage mais il retrouve son état normal dès la fin du sort (bien qu’un navire précédemment en plein naufrage conserve cet état préjudiciable).
+
+* '''Réparation intégrale.''' Ce sort affecte les navires comme s’ils étaient des créatures artificielles.
+
+* '''Résonance.''' On considère un navire comme un édifice lorsqu’il s’agit de déterminer les effets de ce sort.
+
+* '''Sphère glaciale.''' On peut utiliser ce sort pour tenter de piéger un navire dans la glace en ciblant l’eau qui l’entoure au lieu du navire même. Le navire voit sa vitesse réduite à 0 pendant toute la durée du sort à moins que son pilote ne réussisse un test de navigation DD 25 pour le libérer de la glace
+ 
+* '''Tempête de grêle, tempête de neige.''' La neige, la grêle et la glace créées par ces sorts ne se déplacent pas avec un navire mais le pont est considéré comme glissant. Ces sorts permettent également au navire d’effectuer un jet de sauvegarde supplémentaire pour éteindre des flammes.
+
+* '''Tentacules noirs.''' On peut lancer ce sort sur la surface de l’eau ou sur le pont d’un navire. Les tentacules n’attaquent pas les navires.
+
+* '''Tremblement de terre.''' Ce sort ne produit aucun effet dans les eaux profondes de l’océan.

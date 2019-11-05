@@ -1,0 +1,432 @@
+---
+Name: Pathfinder-RPG.Objets maudits
+Title: Les objets maudits
+LastModified: 2019-10-19 18:43
+Categories:
+  - 'Manuel des joueurs'
+  - 'Manuel des joueurs, règles avancées'
+  - 'Objet magique maudit'
+  - 'Règles officielles'
+---
+{toc}
+
+On appelle objet maudit tout objet magique ayant un effet négatif sur son possesseur. Ils mélangent les avantages et ces inconvénients et forcent le personnage à faire des choix difficiles. Ces objets ont presque tous en commun de n’être jamais créés avec l’intention de nuire. Ils sont le résultat d’un travail dans l’urgence, de créateurs inexpérimentés, ou d’un manque de composantes correctes. Si la plupart des objets maudits conservent quelques fonctionnalités, celles-ci n’ont pas les effets escomptés ou provoquent de sérieux contrecoups. Lorsqu’un test de [[création dobjets magiques|création d’objet magique]] échoue d’au moins 5 points, l’objet est maudit, et la Table "[[Objets maudits#DETERMINATION|Malédictions courantes]]" ci-dessous détermine le type de malédiction qui l’affecte.
+
+'''Identifier les objets maudits.''' Les objets maudits sont identifiés de la même manière que les autres objets magiques, à une différence près : si le résultat ne dépasse pas le [[DD]] du test d’au moins 10, la malédiction qui affecte l’objet n’est pas connue. L’identification ne fait alors que révéler l’usage originel de l’objet. Si le personnage sait que l’objet est maudit, le [[DD]] permettant d’identifier la malédiction sera tout à fait normal.
+
+'''Se débarrasser des objets maudits.''' Si l’on peut parfois simplement se débarrasser d’un objet maudit en l’abandonnant sur le bord de la route, il en existe d’autres qui obligent leur porteur à les garder, et ce quel qu’en soit le prix. D’autres encore réapparaissent alors que l’infortuné aventurier s’en était débarrassé, ou bien il est impossible de les jeter. Il est parfois nécessaire d’utiliser des sorts comme ''[[délivrance des malédictions]]'' pour contrer leur influence. Le [[DD]] pour ce faire est égal à 10 + le [[niveau de lanceur de sorts]] de l’objet. En cas de réussite, il est possible de s’en séparer au round suivant, mais la malédiction revient si jamais le personnage se sert de nouveau de l’objet.
+
+=== Malédictions courantes ===
+
+<div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+{s:Reference|DETERMINATION}
+<center>
+{| CLASS="tablo"
+|+ Malédictions courantes
+|- CLASS="titre"
+| 1d100
+| CLASS="gauche" | Malédictions
+|- CLASS="premier"
+| 01-15
+| CLASS="gauche" | [[Objets maudits#POUVOIRIMAGINAIRE|Pouvoir imaginaire]]
+|- CLASS="alt"
+| 16-35
+| CLASS="gauche" | [[Objets maudits#EFFETINVERSE|Effet (ou cible) inversé]]
+|-
+| 36-45
+| CLASS="gauche" | [[Objets maudits#FONCTIONNEMENTINTERMITTENT|Fonctionnement intermittent]]
+|- CLASS="alt"
+| 46-60
+| CLASS="gauche" | [[Objets maudits#CONDITIONSDEFONCTIONNEMENT|Conditions de fonctionnement]]
+|-
+| 61-75
+| CLASS="gauche" | [[Objets maudits#INCONVENIENT|Inconvénient]]
+|- CLASS="alt"
+| 76-90
+| CLASS="gauche" | [[Objets maudits#EFFETRADICALEMENTDIFFERENT|Effet radicalement différent]]
+|-
+| 91-100
+| CLASS="gauche" | Tirer dans la table des [[Objets maudits#DETERMINATION2|objets maudits spécifiques]]
+|}
+</center></div></div>Voici quelques exemples de malédictions parmi les plus courantes. Les [[MJ]] sont tout à fait libres d’en inventer d’autres afin de mieux coller à certains objets.
+
+{s:Reference|POUVOIRIMAGINAIRE}
+==== Pouvoir imaginaire ====
+Le possesseur pense que l’objet est ce qu’il semble être, alors qu’il ne possède en fait aucun autre pouvoir que d’abuser son utilisateur. Ce dernier est certain que l’objet fonctionne normalement et seul le sort ''[[délivrance des malédictions]]'' peut le convaincre du contraire.
+
+{s:Reference|EFFETINVERSE}
+==== Effet (ou cible) inversé ====
+Soit les objets maudits de ce genre ont un effet inverse de celui qui était prévu, soit ils affectent leur possesseur au lieu de ses adversaires. Certains de ces objets peuvent malgré tout présenter un intérêt évident, même si leur fonction est totalement différente de ce qu’elle devrait être. Parmi les objets maudits à effet opposé se trouvent les armes qui s’accompagnent d’un malus aux [[jet dattaque|jets d’attaque]] et de dégâts. De la même façon que les personnages ne connaissent pas immédiatement la valeur exacte du [[bonus daltération|bonus d’altération]] conféré par leurs armes utiles, il n’y a aucune raison qu’ils se rendent compte immédiatement que leur nouvelle arme est maudite. Une fois qu’ils le découvrent, ils peuvent s’en séparer librement, sauf s’il s’avère que l’arme s’accompagne d’un [[enchantement]] poussant son possesseur à vouloir la garder et à l’utiliser. Dans ce cas, le sort ''[[délivrance des malédictions]]'' est indispensable pour s’en débarrasser.
+
+{s:Reference|FONCTIONNEMENTINTERMITTENT}
+==== Fonctionnement intermittent ====
+Il existe trois types d’objets à fonctionnement intermittent. Tous fonctionnent comme ils le devraient, mais pas tout le temps. Certains sont d’une fiabilité douteuse, d’autres dépendent d’une condition extérieure, et les derniers sont incontrôlables.
+
+'''Fiabilité douteuse.''' Chaque fois que l’objet est activé, il y a 5 % de chances (01–05 sur 1d100) qu’il ne fonctionne pas.
+
+'''Dépendant d’une condition extérieure.''' L’objet ne fonctionne que dans une situation bien précise. Pour déterminer la nature de celle-ci, jetez 1d100 et consultez la table suivante (ou choisissez la condition que vous préférez).
+
+<center>
+{| CLASS="tablo"
+|- CLASS="titre"
+| 1d100
+| CLASS="gauche" | Condition
+|- CLASs="premier"
+| 01–03
+| CLASS="gauche" | Température inférieure à 0° C
+|- CLASS="alt"
+| 04–05
+| CLASS="gauche" | Température supérieure à 0° C
+|-
+| 06–10
+| CLASS="gauche" | De jour
+|- CLASS="alt"
+| 11–15
+| CLASS="gauche" | De nuit
+|-
+| 16–20
+| CLASS="gauche" | À la lumière (directe) du soleil
+|- CLASS="alt"
+| 21–25
+| CLASS="gauche" | Loin de la lumière du soleil
+|-
+| 26–34
+| CLASS="gauche" | Sous l’eau
+|- CLASS="alt"
+| 35–37
+| CLASS="gauche" | Hors de l’eau
+|-
+| 38–45
+| CLASS="gauche" | Sous terre
+|- CLASS="alt"
+| 46–55
+| CLASS="gauche" | À la surface
+|-
+| 56–60
+| CLASS="gauche" | À moins de 3 m d’un type de créature déterminé aléatoirement
+|- CLASS="alt"
+| 61–64
+| CLASS="gauche" | À moins de 3 m d’une race ou d’une espèce de créature déterminée aléatoirement
+|-
+| 65–72
+| CLASS="gauche" | À moins de 3 m d’un lanceur de sorts profanes
+|- CLASS="alt"
+| 73–80
+| CLASS="gauche" | À moins de 3 m d’un lanceur de sorts divins
+|-
+| 81–85
+| CLASS="gauche" | Dans les mains d’une créature autre qu’un lanceur de sorts
+|- CLASS="alt"
+| 86–90
+| CLASS="gauche" | Dans les mains d’un lanceur de sorts
+|-
+| 91–95
+| CLASS="gauche" | Dans les mains d’une créature d’un alignement donné
+|- CLASS="alt"
+| 96
+| CLASS="gauche" | Dans les mains d’une créature d’un sexe donné
+|-
+| 97–99
+| CLASS="gauche" | Durant les jours saints (ou inversement) ou en cas d’alignement astrologique donné
+|- CLASS="alt"
+| 100
+| CLASS="gauche" | À moins de 100 km d’un site donné
+|}
+</center>
+
+'''Incontrôlable.''' Un objet incontrôlable fonctionne n’importe quand, et sans que le propriétaire ait le moindre contrôle sur cela. Jetez 1d100 chaque jour. Sur un résultat de 01–05, l’objet se met en marche au cours de la journée (l’instant exact étant déterminé aléatoirement).
+
+{s:Reference|CONDITIONDEFONCTIONNEMENT}
+==== Conditions de fonctionnement ====
+
+Certains objets en ont des conditions de fonctionnement très particulières. Pour qu’un tel objet fonctionne, une ou plusieurs des conditions suivantes doivent être remplies.
+* Manger deux fois plus que la normale.
+* Dormir deux fois plus que la normale.
+* Accomplir une quête bien précise (une fois seulement, après quoi l’objet fonctionne correctement).
+* Sacrifier (détruire) pour 100 po d’objets de valeur chaque jour.
+* Sacrifier (détruire) pour 2 000 po d’objets magiques par semaine.
+* Prêter serment d’allégeance auprès d’un noble donné ou de sa famille.
+* Se débarrasser de tous ses autres objets magiques.
+* Vénérer un dieu particulier.
+* Changer de nom pour en prendre un autre choisi par l’objet (celui-ci ne fonctionne que pour des individus portant ce nom).
+* Changer de classe à dès que possible (à moins que le personnage soit déjà de la seule classe tolérée par l’objet).
+* Avoir atteint un certain degré de maîtrise dans une compétence donnée.
+* Sacrifier (une fois seulement) une partie de son énergie vitale (équivalent à 2 points de [[Constitution]]). Si le personnage récupère les points de [[Constitution]] par le biais d’un sort tel que ''[[restauration]]'', l’objet cesse de fonctionner (par contre, il continue de fonctionner si le personnage augmente sa [[Constitution]] grâce à son niveau, un ''[[souhait]]'' ou un autre objet magique).
+* Purifier l’objet à l’aide d’eau bénite (tous les jours).
+* Utiliser l’objet pour tuer une créature vivante (tous les jours).
+* Tremper l’objet dans la lave d’un volcan (une fois par mois).
+* Utiliser l’objet au moins une fois par jour, sans quoi il cesse de fonctionner pour son propriétaire actuel.
+* Faire en sorte que l’objet fasse couler le sang chaque fois qu’il est utilisé (seulement s’il s’agit d’une arme). L’objet ne peut être rangé ou remplacé par une autre arme tant qu’il n’a pas servi à blesser une créature.
+* Lancer un certain sort sur l’objet, tel que ''[[bénédiction]]'', ''[[pénitence]]'' ou ''[[animation dobjets|animation d’objets]]'' (tous les jours).
+
+Les conditions de fonctionnement influencent l’intérêt de l’objet, aussi est-il conseillé de les choisir avec soin plutôt que de laisser faire le hasard. Si l’objet est également [[objets intelligents|intelligent]], il impose ses conditions en fonction de sa personnalité. Si celles-ci ne sont pas remplies, l’objet cesse de fonctionner. Si elles le sont, l’objet fonctionne une journée à l’issue de laquelle le personnage doit de nouveau satisfaire aux conditions indiquées (certaines conditions peuvent devoir être accomplies une seule fois, d’autres mensuellement et d’autres être respectées en permanence).
+
+{s:Reference|INCONVENIENT}
+==== Inconvénient ====
+
+Ce type d’objet est souvent bénéfique, malgré le désagrément qui l’accompagne. Son possesseur doit donc déterminer si l’avantage procuré compense ou non la gêne encourue. Il arrive que l’inconvénient ne se manifeste que lorsque l’objet est utilisé ou tenu en main (dans le cas d’une arme, par exemple), mais, la plupart du temps, il persiste tant que le personnage conserve l’objet.
+
+Sauf indication contraire, un inconvénient resta en vigueur tant que l’aventurier ne s’est pas débarrassé de l’objet maudit. Le [[DD]] pour résister à n’importe lequel des effets ci-dessous est égal à 10 + le [[niveau de lanceur de sorts]] de l’objet.
+
+<center>
+{| CLASS="tablo"
+|- CLASS="titre"
+| 1d100
+| CLASS="gauche" | Inconvénient
+|- CLASS="premier"
+| 01–04
+| CLASS="gauche" | Les cheveux du personnage poussent d’une trentaine de centimètres (ne se produit qu’une fois).
+|- CLASS="alt"
+| 05–09
+| CLASS="gauche" | Le personnage rapetisse ou grandit d’une quinzaine de centimètres (une chance sur deux ; ne se produit qu’une fois).
+|-
+| 10–13
+| CLASS="gauche" | La température est plus froide autour de l’objet (-5° C).
+|- CLASS="alt"
+| 14–17
+| CLASS="gauche" | La température est plus chaude autour de l’objet (+5° C).
+|-
+| 18–21
+| CLASS="gauche" | Les cheveux du personnage changent de couleur.
+|- CLASS="alt"
+| 22–25
+| CLASS="gauche" | La peau du personnage change de couleur.
+|-
+| 26–29
+| CLASS="gauche" | Le personnage acquiert une marque distinctive (tatouage, aura lumineuse, etc.).
+|- CLASS="alt"
+| 30–32
+| CLASS="gauche" | Le personnage change de sexe.
+|-
+| 33–34
+| CLASS="gauche" | Le personnage change de race ou d’espèce.
+|-
+| 35
+| CLASS="gauche" | Le personnage contracte une [[maladies|maladie]] (déterminée aléatoirement) que rien ni personne ne peut soigner.
+|- CLASS="alt"
+| 36–39
+| CLASS="gauche" | L’objet émet continuellement un bruit gênant (gémissements, pleurs, cris, jurons, insultes, etc.).
+|-
+| 40
+| CLASS="gauche" | L’objet a l’air ridicule (couleur outrancière, forme risible, aura rose bonbon, etc.).
+|- CLASS="alt"
+| 41–45
+| CLASS="gauche" | Le personnage devient extrêmement possessif pour ce qui est de l’objet.
+|-
+| 46–49
+| CLASS="gauche" | Le personnage a une peur panique de perdre l’objet ou qu’il lui arrive quelque chose.
+|- CLASS="alt"
+| 50–51
+| CLASS="gauche" | Le personnage change d’[[alignement]].
+|-
+| 52–54
+| CLASS="gauche" | Le personnage attaque la créature la plus proche (5 % de chances chaque jour, à un moment aléatoire de la journée).
+|- CLASS="alt"
+| 55–57
+| CLASS="gauche" | Le personnage est [[étourdi]] pendant 1d4 rounds dès que l’objet cesse de fonctionner (ou aléatoirement, 1 fois/jour).
+|-
+| 58–60
+| CLASS="gauche" | Le personnage voit trouble en permanence (–2 aux [[jet dattaque|jets d’attaque]], de [[jet de sauvegarde|sauvegarde]] et de compétences nécessitant de voir).
+|- CLASS="alt"
+| 61–64
+| CLASS="gauche" | Le personnage acquiert un [[niveau négatif]].
+|-
+| 65
+| CLASS="gauche" | Le personnage acquiert deux [[niveau négatif|niveaux négatifs]].
+|- CLASS="alt"
+| 66–70
+| CLASS="gauche" | Le personnage doit réussir un jet de [[Volonté]] sous peine de subir un [[affaiblissement temporaire]] de 1 point d’[[Intelligence]] (tous les jours).
+|-
+| 71–75
+| CLASS="gauche" | Le personnage doit réussir un jet de [[Volonté]] sous peine de subir un [[affaiblissement temporaire]] de 1 point de [[Sagesse]] (tous les jours).
+|- CLASS="alt"
+| 76–80
+| CLASS="gauche" | Le personnage doit réussir un jet de [[Volonté]] sous peine de subir un [[affaiblissement temporaire]] de 1 point de [[Charisme]] (tous les jours).
+|-
+| 81–85
+| CLASS="gauche" | Le personnage doit réussir un jet de [[Vigueur]] sous peine de subir un [[affaiblissement temporaire]] de 1 point de [[Constitution]] (tous les jours).
+|- CLASS="alt"
+| 86–90
+| CLASS="gauche" | Le personnage doit réussir un jet de [[Vigueur]] sous peine de subir un [[affaiblissement temporaire]] de 1 point de [[Force]] (tous les jours).
+|-
+| 91–95
+| CLASS="gauche" | Le personnage doit réussir un jet de [[Vigueur]] sous peine de subir un [[affaiblissement temporaire]] de 1 point de [[Dextérité]] (tous les jours).
+|- CLASS="alt"
+| 96
+| CLASS="gauche" | Le personnage se métamorphose en une créature donnée (5 % de chances par jour, toujours la même).
+|-
+| 97
+| CLASS="gauche" | Le personnage ne peut plus lancer de sorts profanes.
+|- CLASS="alt"
+| 98
+| CLASS="gauche" | Le personnage ne peut plus lancer de sorts divins.
+|-
+| 99
+| CLASS="gauche" | Le personnage ne peut plus lancer le moindre sort.
+|- CLASS="alt"
+| 100
+| CLASS="gauche" | Au choix : choisissez un inconvénient qui vous paraisse convenir à la nature de l’objet ou créez-en un autre.
+|}
+</center>
+
+{s:Reference|EFFETRADICALEMENTDIFFERENT}
+==== Effet radicalement différent ====
+
+Choisissez un effet préjudiciable, en vous inspirant éventuellement des objets maudits spéciaux détaillés ci-dessous. L’objet peut commencer à fonctionner normalement, mais ses propriétés changent radicalement à un moment ou un autre.
+
+=== Objets maudits spécifiques ===
+Les plus dangereux et les plus insidieux de tous les objets maudits sont sans doute ceux dont la fonction première a été complètement effacée par une malédiction. Ils ont pourtant leur utilité, en particulier comme pièges ou comme armes. Les objets décrits ci-dessous sont des exemples d’objets maudits spécifiques. Chacun d’entre eux pouvant être le résultat d’une [[création dobjets magiques|création d’objet magique]] ordinaire avortée, ils ont donc été associés avec un ou plusieurs de ces objets. Ils peuvent aussi être vendus en tant que tels si l’acheteur ignore leur véritable nature.
+
+Les armures et les armes maudites ont bien des apparences, et celles qui figurent dans l’inventaire suivant sont les plus courantes. Une épée maudite -2 pourrait aussi bien avoir l’aspect d’une épée courte que d’une dague.
+
+{s:Reference|DETERMINATION2}
+<table width="100%"><tr style="vertical-align"><td width="50%">
+<center>
+{| CLASS="tablo"
+|+ Objets maudits spécifiques
+|- CLASS="titre"
+| 1d100
+| CLASS="gauche" | Objet
+|- CLASS="premier"
+| 01–05
+| CLASS="gauche" | [[Encens dobsession|Encens d’obsession]]
+|- CLASS="alt"
+| 06–15
+| CLASS="gauche" | [[Anneau de gaucherie]]
+|-
+| 16–20
+| CLASS="gauche" | [[Amulette de localisation]]
+|- CLASS="alt"
+| 21–25
+| CLASS="gauche" | [[Pierre de lest]]
+|-
+| 26–30
+| CLASS="gauche" | [[Bracelets de vulnérabilité]]
+|- CLASS="alt"
+| 31–35
+| CLASS="gauche" | [[Gants de maladresse]]
+|-
+| 36–40
+| CLASS="gauche" | [[Épée maudite|Épée -2, maudite]]
+|- CLASS="alt"
+| 41–43
+| CLASS="gauche" | [[Armure de fureur]]
+|-
+| 44–46
+| CLASS="gauche" | [[Médaillon démission de pensées|Médaillon d’émission de pensées]]
+|- CLASS="alt"
+| 47–52
+| CLASS="gauche" | [[Flasque maudite]]
+|-
+| 53–54
+| CLASS="gauche" | [[Poudre à éternuer]]
+|-
+| 55
+| CLASS="gauche" | [[Casque de changement dalignement|Casque de changement d’alignement]]
+|- CLASS="alt"
+| 56–61
+| CLASS="gauche" | [[Potion toxique]]
+|-
+| 62
+| CLASS="gauche" | [[Balai frappeur]]
+|- CLASS="alt"
+| 63–64
+| CLASS="gauche" | [[Robe dimpuissance|Robe d’impuissance]]
+|}
+</center></td><td width="50%">
+<center>
+{| CLASS="tablo"
+|+ Objets maudits spécifiques (suite)
+|- CLASS="titre"
+| 1d100
+| CLASS="gauche" | Objet
+|- CLASS="premier"
+| 65
+| CLASS="gauche" | [[Grimoire de vacuité]]
+|- CLASS="alt"
+| 66–68
+| CLASS="gauche" | [[Lance traîtresse]]
+|-
+| 69–70
+| CLASS="gauche" | [[Armure dattraction des projectiles|Armure d’attraction des projectiles]]
+|- CLASS="alt"
+| 71–72
+| CLASS="gauche" | [[Filet aquatique]]
+|-
+| 73–75
+| CLASS="gauche" | [[Sac dévoreur]]
+|- CLASS="alt"
+| 76–80
+| CLASS="gauche" | [[Masse vampire]]
+|-
+| 81–85
+| CLASS="gauche" | [[Robe de vermine]]
+|- CLASS="alt"
+| 86–88
+| CLASS="gauche" | [[Charme dinfection|Charme d’infection]]
+|-
+| 89–92
+| CLASS="gauche" | [[Épée de berserker]]
+|- CLASS="alt"
+| 93–96
+| CLASS="gauche" | [[Bottes de danse effrénée]]
+|-
+| 97
+| CLASS="gauche" | [[Boule de cristal asservissante]]
+|- CLASS="alt"
+| 98
+| CLASS="gauche" | [[Collier étrangleur]]
+|-
+| 99
+| CLASS="gauche" | [[Cape empoisonnée]]
+|- CLASS="alt"
+| 100
+| CLASS="gauche" | [[Broche du scarabée tueur]]
+|}
+</center>
+</td></tr></table>
+
+{s:APG}Voici quelques objets maudits supplémentaires qui peuvent résulter d’un défaut de fabrication… ou d’une intention délibérée. Il est impossible de se débarrasser de la plupart d’entre eux sans recourir à une ''[[délivrance des malédictions]]'', une ''[[annulation denchantement|annulation d’enchantement]]'' ou une magie similaire.
+
+<div>
+<center>
+{| CLASS="tablo"
+|+ Objets maudits spécifiques (APG)
+|- CLASS="premier"
+| [[anneau de vérité|Anneau de vérité]]
+| CLASS="gauche" | [[anneau du cannibale|Anneau du cannibale]]
+|- CLASS="alt"
+| [[armure des âmes mortes|Armure des âmes mortes]]
+| CLASS="gauche" | [[bouclier de linvasion planaire|Bouclier de l'invasion planaire]]
+|-
+| [[cape dimmolation|Cape d'immolation]]
+| CLASS="gauche" | [[ceinture du sexe opposé|Ceinture du sexe opposé]]
+|- CLASS="alt"
+| [[chapeau de haine|Chapeau de haine]]
+| CLASS="gauche" | [[couronne de cécité|Couronne de cécité]]
+|-
+| [[épée du bouffon|Epée du bouffon]]
+| CLASS="gauche" | [[fenêtre à sens unique|Fenêtre à sens unique]]
+|- CLASS="alt"
+| [[flûte démeutes|Flûte d'émeutes]]
+| CLASS="gauche" | [[sceptre du pyromane|Sceptre du pyromane]]
+|}
+</center>
+</div>
+
+{s:AO} Le manuel des joueurs [[Aventures Occultes]] ajoute 4 nouveaux objets maudits spécifiques suivants les mêmes règles que les autres.
+
+<div>
+<center>
+{| CLASS="tablo"
+|+ Objets maudits spécifiques (AO)
+|- CLASS="premier"
+| [[Main de maniaque]]
+| CLASS="gauche" | [[Miroir de vampirisme des âmes]]
+|- CLASS="alt"
+| [[Patte de singe]]
+| CLASS="gauche" | [[Poupée hantée]]
+|}
+</center>
+</div>

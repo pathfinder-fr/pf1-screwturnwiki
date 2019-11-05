@@ -1,0 +1,113 @@
+---
+Name: Guide création page
+Title: Guide de création : modifier ou créer une page
+LastModified: 2017-04-01 11:42
+---
+<div class="fright">{s:MenuGuide}</div>
+Cette section du guide de création indique pas à pas comment modifier une page wiki existante ou comment en créer une nouvelle. Ce sont des opérations relativement simples mais certains trucs et astuces donnés ci-dessous peuvent se révéler bien pratiques pour éviter des erreurs.
+
+Le texte qui suit utilise le vocabulaire introduit dans la première partie du guide, à savoir : page wiki, namespace, nom d'une page, catégorie.
+
+{s:Reference|MODIFIER}
+===Modifier une page existante===
+
+Pour modifier une page existante, rien de plus simple : il suffit de visiter la page en question puis de cliquer sur l'icône "crayon" située à droite de son titre. Une fois ce clic effectué, votre browser ouvre une page d'édition qui comporte plusieurs parties
+
+Pour suivre les explications de cette section, n'hésitez pas à ouvrir une nouvelle fenêtre de votre browser puis à naviguer vers une des pages du wiki et à cliquer sur le crayon. Vous pourrez simplement utiliser le bouton "Annuler" plus tard pour éviter d'y faire quelque modification que ce soit, mais cela vous permettra de voir à quoi ressemble une page d'édition.
+
+{s:Image|Illustrations/Guide/guide02.jpg|80%|centre}
+
+'''En haut à gauche : le titre de la page.''' Vous pouvez librement modifier le titre de la page en question. Notez qu'il s'agit bien ici du titre de la page et non de son nom. Ce dernier ne peut plus être modifié après la création (sauf par un administrateur). La raison de cette limitation est simple : si le nom d'une page est modifié, tous les liens qui mènent vers cette page deviendront incorrects.
+
+'''En haut à droite : trois boutons.''' Les boutons "Sauvegarder", "Sauvegarder et continuer" et "Annuler" vous permettent d'indiquer ce que vous voulez faire une fois que vous aurez effectué les modifications.
+* Le bouton "Sauvegarder" vous permet d'enregistrer les modifications et de revenir à l'affichage de la page pour contempler votre œuvre.
+* Le bouton "Sauvegarder et continuer" vous permet d'enregistrer vos modifications sans toutefois quitter la page d'édition : vos premières modifications sont sauvegardées mais vous pouvez alors continuer à travailler sur cette page.
+* Le bouton "Annuler" vous permet d'annuler toutes les modifications que vous avez effectuées et de faire comme si rien ne s'était passé (à moins que vous n'ayez "sauvegardé et continué" entre temps).
+
+'''Au milieu : le cadre d'édition.''' Le cadre principal au milieu de la page d'édition reprend le texte (en fait, plus exactement, le code) actuel du contenu de la page. C'est là que vous allez effectuer la plupart des modifications. Une fois ces modifications faites, n'oubliez pas de cliquer sur le bouton "Sauvegarder".
+
+'''Sous le cadre : les catégories.''' En-dessous du cadre, vous pouvez voir la liste des catégories disponibles dans le namespace. D'un simple clic, vous pouvez cocher ou décocher chacune des cases pour indiquer à quelles catégories la page appartient. Vous pouvez également créer une nouvelle catégorie en entrant son nom en-dessous de la liste et en cliquant sur le bouton "Créer". La nouvelle catégorie apparaîtra alors dans la liste (par défaut, la page appartiendra à cette nouvelle catégorie, mais vous pouvez encore décocher la case si vous le désirez).
+
+'''À droite des catégories : les mots-clefs.''' Dans la ligne "méta mots-clefs", vous pouvez citer des mots-clefs décrivant le contenu de la page éditée (ou modifier la liste actuelle). Ces mots-clefs sont utilisés par les moteurs de recherche comme Google pour déterminer le sujet traité par la page. C'est toujours une très bonne idée de les indiquer mais ce n'est pas obligatoire.
+
+'''Les autres options.''' Il existe plusieurs autres options sur la page d'édition mais celles-ci ne sont pas aussi importantes que celles qu'on a décrites plus haut.
+
+Note. Il est également possible d'éditer seulement une partie du texte d'une page en cliquant sur une icône crayon située à côté d'un titre ou d'un sous-titre. En général, il vaut mieux éviter d'utiliser cette option car elle a tendance à ajouter des lignes blanches avant ou après la section éditée, ce qui peut créer des espaces blancs qui viennent gâcher la mise en page de toute la page. En règle général, il vaut donc mieux éditer la page entière plutôt que de cibler une section en particulier.
+
+{s:Reference|CREER}
+===Créer une nouvelle page===
+
+'''Attention. Pour créer une nouvelle page, évitez d'utiliser l'option "Créer une nouvelle page" du menu situé à droite du wiki !!!'''
+<div class="chapeau">
+''Note des administrateurs : Les pages des wikis des parties doivent être toutes créées par les administrateurs du site. Vous pouvez faire votre demande de wiki [^http://www.pathfinder-fr.org/Forum/yaf_topics43_Recrutements-et-discussions-sur-les-parties.aspx|ici].''</div>
+
+Pourquoi ce conseil ? Parce qu'il est facile de créer une nouvelle page à un mauvais endroit en suivant cette technique. En effet, l'option "Créer une nouvelle page" va créer une nouvelle page dans le [[namespace]] dans lequel vous vous trouvez actuellement, ce qui n'est pas forcément ce que vous désirez. En fait, l'effet de cette option a été changée récemment : avant, c'était encore pire car, où que vous vous trouviez, la nouvelle page ainsi créée était placée dans le [[namespace]] "Root".
+
+Quoi qu'il en soit, pour plus de sécurité, il vaut mieux utiliser le procédé suivant pour créer une nouvelle page.
+* Commencez par créer un lien vers la future nouvelle page. Tant qu'à faire, autant placer ce lien à un endroit utile. L'intérêt d'un wiki est qu'il est possible de naviguer d'une page à l'autre en suivant des hyperliens ; votre future nouvelle page devrait donc être accessible à partir d'une page déjà existante. Éditez cette page existante et ajoutez un lien comme si la nouvelle page avait déjà été créée. Pour ce faire, il suffit d'ajouter le code suivant, où "Nom de la page" doit être remplacé par le nom de la future nouvelle page.
+@@[[Nom de la page]]@@
+* Si la future nouvelle page doit se trouver dans un [[namespace]] différent de celui où se trouve la page contenant le lien, il vous faudra utiliser le nom qualifié. Notez que d'autres options sont possibles (voir la section sur les liens).
+@@[[++NamespaceCible.Nom de la page]]@@
+* Sauvegardez la page éditée (celle qui contient le lien). Le lien apparaît en rouge ; c'est normal, car la page cible n'existe pas encore.
+* Cliquez sur le lien en rouge. Le wiki indique que la page n'existe pas. Selon le nom choisi pour la future nouvelle page, le wiki peut vous proposer une liste de pages existantes ayant un nom similaire (au cas vous auriez simplement commis une faute de frappe). Après la fin de cette liste se trouve une option intitulée "Créer la page". Cliquez sur celle-ci. Vous arrivez alors à l'écran de création.
+
+{s:Reference|CREATION}
+
+===L'écran de création d'une nouvelle page===
+
+L'écran de création d'une nouvelle page ressemble fortement à celui de modification mais il donne accès à quelques options supplémentaires.
+
+Pour suivre les explications de cette section, n'hésitez pas à faire comme si vous créiez une nouvelle page : tant que vous ne cliquez pas sur le bouton "Sauvegarder" de l'écran de création, aucune page n'est créé. Cela vous permettra de voir cet écran de création sans pour autant ajouter de page au wiki. Par exemple, vous pouvez cliquer sur ce [[NouvellePage|lien rouge]] (en maintenant Ctrl enfoncé afin de l'ouvrir dans un nouvel onglet ou une nouvelle fenêtre) puis choisir l'option "Créer la page". Évitez simplement de cliquer ensuite sur "Sauvegarder" (car cela créerait effectivement une nouvelle page).
+
+Si vous vous trompez et que vous cliquez sur "Sauvegarder", la page sera créée et le "lien rouge" deviendra bleu… si c'est le cas, contactez simplement un administrateur qui pourra supprimer la nouvelle page ainsi créée afin que d'autres lecteurs puissent eux aussi faire l'exercice. De même, si vous voyez que "ce lien rouge" plus haut est écrit en bleu, contactez un administrateur pour qu'il résolve le problème en supprimant la page en question !
+
+L'écran de création d'une nouvelle page wiki se compose de plusieurs éléments.
+
+'''En haut à gauche : le nom et le titre de la page.''' En haut se trouve le nom de la page. Si vous avez accédé à l'écran de création à partir d'un lien de la forme {{<nowiki>[[Gargamel]]</nowiki>}}, le nom indiqué (Gargamel) est utilisé comme nom par défaut. Cependant, comme la page n'a pas encore été créé à ce moment-ci (elle ne le sera pas tant que vous n'aurez pas utilisé un des boutons "Sauvegarder"), vous pouvez encore en modifier le nom. Une fois la page créée, seul un administrateur pourra encore en modifier le nom (car une modification du nom rend tous les liens vers cette page caduques).
+
+En-dessous se trouve le titre de la page, c'est-à-dire l'en-tête qui sera visible en haut de la page. Par défaut, il contient le même texte que le nom de la page, mais vous pouvez le changer librement. Contrairement au nom de la page, il vous sera toujours possible par la suite de modifier le titre, sans devoir faire appel à un administrateur.
+
+'''En haut à droite : trois boutons.''' Les boutons "Sauvegarder", "Sauvegarder et continuer" et "Annuler" vous permettent d'indiquer ce que vous voulez faire une fois que vous aurez encodé le contenu de la page.
+* Le bouton "Sauvegarder" vous permet d'enregistrer votre travail et d'aller à l'affichage de la page pour contempler votre œuvre.
+* Le bouton "Sauvegarder et continuer" vous permet d'enregistrer votre travail sans toutefois quitter la page de création : vos premières modifications sont sauvegardées mais vous pouvez alors continuer à travailler sur cette page. Notez qu'après avoir cliqué sur "Sauvegarder et continuer", vous accédez à l'écran de modification de la page, ce qui signifie entre autres que le nom ne peut plus être changé.
+* Le bouton "Annuler" vous permet d'annuler toutes les opérations que vous avez effectuées et de faire comme si rien ne s'était passé. La page n'est alors pas créée (à moins que vous n'ayez "sauvegardé et continué" entre temps).
+
+'''Au milieu : le cadre d'édition.''' Le cadre principal au milieu de la page d'édition est destiné à contenir le texte (en fait, plus exactement, le code) actuel du contenu de la page. C'est là que la majorité du travail s'effectue. Une fois le travail accompli, n'oubliez pas de cliquer sur le bouton "Sauvegarder".
+
+'''Sous le cadre : les catégories.''' En-dessous du cadre, vous pouvez voir la liste des catégories disponibles dans le namespace. D'un simple clic, vous pouvez cocher ou décocher chacune des cases pour indiquer à quelles catégories la page appartient. Vous pouvez également créer une nouvelle catégorie en entrant son nom en-dessous de la liste et en cliquant sur le bouton "Créer". La nouvelle catégorie apparaîtra alors dans la liste (par défaut, la page appartiendra à cette nouvelle catégorie, mais vous pouvez encore décocher la case si vous le désirez).
+
+'''À droite des catégories : les mots-clefs.''' Dans la ligne "méta mots-clefs", vous pouvez citer des mots-clefs décrivant le contenu de la page éditée. Ces mots-clefs sont utilisés par les moteurs de recherche comme Google pour déterminer le sujet traité par la page. C'est toujours une très bonne idée de les indiquer mais ce n'est pas obligatoire.
+
+'''Les autres options.''' Il existe plusieurs autres options sur la page d'édition mais celles-ci ne sont pas aussi importantes que celles qu'on a décrites plus haut.
+
+{s:Reference|CONTENU}
+===Travailler sur le contenu d'une page wiki===
+
+Le cadre principal au centre de la page de création ou d'édition est l'endroit où la majorité du travail s'effectue. C'est dans ce cadre que doit se trouver le contenu de la page. La plupart du temps, ce contenu sera du texte mais, ici et là, on pourra rencontrer des bouts de code. Il pourrait par exemple s'agir de balises (un peu comme on rencontre des {{<nowiki>[b]</nowiki>}} et des {{<nowiki>[i]</nowiki>}} au sein du texte d'un message sur le forum), de liens ou de codes plus complexes.
+
+Au-dessus du cadre principal se trouve trois onglets nommés "WikiMarkup", "Visuel" et "Aperçu". "WikiMarkup" est un mot compliqué pour désigner tout simplement "le code utilisé par le wiki". C'est l'option qu'il est préférable d'utiliser. Elle affiche le contenu de la page sous format brut en montrant les codes et les balises.
+
+Les deux autres onglets permettent de voir et d'éditer le contenu de la page sous un format plus proche du résultat final. Cependant, de très nombreuses options ne sont pas affichées correctement et il peut y avoir de grandes différences entre ces aperçus et le rendu final.
+
+Plutôt que d'utiliser ces aperçus approximatifs, il existe une autre option permettant à la fois d'éditer le code et de voir le résultat plus ou moins en temps réel. Cette option consiste à utiliser deux onglets ou deux fenêtre du browser : une première fenêtre affichant l'écran d'édition et l'autre, la page sur laquelle on travaille. Vous pouvez alors travailler sur la fenêtre d'édition puis, une fois que vous avez écrit un paragraphe ou effectué une mise en page, vous pouvez cliquer sur "Sauvegarder et continuer" pour enregistrer vos dernières modifications. Passez alors à l'autre onglet/fenêtre et appuyez sur F5 pour mettre l'affichage à jour ; vous pouvez ainsi voir le rendu final de vos modifications. Si vous utilisez ce mode de fonctionnement, il peut être préférable de cocher l'option "Changements mineurs (pas de copie de sûreté)" pour éviter d'effectuer une copie de sauvegarde à chaque petit bout de modification (voir plus bas).
+
+Au-dessus du cadre d'édition se trouvent également plusieurs boutons permettant d'accéder à des raccourcis pour mettre un bout de texte en gras, en italique ou ajouter des liens etc. Ces boutons peuvent paraître pratiques mais le seul moyen de créer des pages bien construites et précises consiste à maîtriser le code qui se cache derrière le résultat. Il est donc préférable d'ignorer ces boutons et d'utiliser directement les balises et autres codes décrits dans ce guide. De plus, certains de ces boutons créent des codes qui ne sont pas recommandés dans les pages du wiki Pathfinder-FR.
+
+Quoi qu'il en soit, ce ne sera jamais une perte de temps de lire les chapitres suivants et de maîtriser les codes du wiki, ne fût-ce que pour pouvoir déceler et corriger les erreurs plus complexes et pour pouvoir accéder à des options de mise en page plus fines.
+
+{s:Reference|OPTIONS}
+===Les autres options de création ou d'édition===
+
+Les présentations qui précèdent n'ont abordé que les éléments principaux des écrans de création et de modification. On examine ici quelques autres options qui peuvent être utiles pour des utilisations plus avancées. Le but n'est pas d'être exhaustif mais d'épingler quelques options utiles mais moins souvent utilisées.
+
+'''Les gabarits de contenu.''' Pour plus de clarté, il est préférable que toutes les pages qui traitent de sujets similaires soient présentées selon le même format. Par exemple, toutes les races de Pathfinder RPG sont présentées dans des formats similaires, afin que le lecteur puisse retrouver facilement les informations qu'il recherche. Comme ces pages ont la même structure (le même "squelette"), plutôt que d'encoder ce squelette à partir de zéro pour chacune des pages, on peut vouloir le sauvegarder dans un fichier annexe et construire chacune des pages en partant de cette base. Ce type de "squelette" est ce qu'on appelle "gabarit de contenu".
+
+Pour utiliser un gabarit de contenu, cliquez sur l'option "Gabarits de contenu". La page affiche alors la liste de tous les gabarits disponibles. Vous pouvez alors sélectionner un gabarit (le contenu du gabarit s'affiche alors en petit caractère) et, une fois votre choix effectué, cliquer sur "Utiliser un gabarit" (ou "Annuler"). Attention cependant : si vous décidez d'utiliser un gabarit, tout le contenu du cadre d'édition sera remplacé par le contenu du gabarit. Idéalement, il s'agit donc de choisir un gabarit avant de commencer à encoder du contenu.
+
+'''Les options de sauvegarde.''' En haut à droite de l'écran de création/d'édition, sous les trois boutons "Sauvegarder", "Sauvegarder et continuer" et "Annuler" se trouvent trois options que vous pouvez cocher. En temps normal, chaque fois qu'une page est sauvegardée, le wiki crée une copie de sécuritéde l'état précédent de la page (c'est grâce à cette copie de sauvegarde qu'il est toujours possible de "revenir en arrière") avant d'enregistrer vos modifications. De plus, il affiche sur la page de garde que la page en question a été modifiée.
+
+* "Changements mineurs (pas de copie de sûreté)." Cette option permet d'éviter d'accumuler les copies de sécurité. Si vous utilisez l'option décrite plus haut (un onglet pour l'édition, un onglet pour vérifier le rendu) et que vous utiliser "Sauvegarder et continuer" de nombreuses fois, il vaut mieux cocher cette option. Si vous ne le faites pas, à chaque sauvegarde, une copie de sûreté sera créée (et ces copies de sûreté pourraient rapidement s'accumuler si vous sauvez après chaque paragraphe lorsque la page comporte 12 paragraphes par exemple). Si vous cochez cette option, la troisième option se décoche automatiquement.
+
+* "Sauvegarder en brouillon." Cette option vous permet de faire une sauvegarde de votre travail sans toutefois modifier la page finale. A priori, cela n'a pas beaucoup d'utilité.
+
+* "Log Change (notify community)." Cette option indique si oui ou non le fait que la page a été modifiée sera affiché sur la page de garde du wiki. Vous pouvez simplement ignorer cette option également.

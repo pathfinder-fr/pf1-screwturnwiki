@@ -1,0 +1,1176 @@
+}
+</script>
+<button type="button" onclick="debut();">Lancer la battlemap</button>
+<button type="button" onclick="fin();">Fermer les fenêtres de la battlemap</button>
+
+<nowiki><script type="text/javascript">
+
+/*************************/
+/* INITIALISATION ET FIN */
+/*************************/
+
+function debut() {
+  initialisation();
+  fbmap = window.open('','Battlemap','scrollbars=yes,height=700,width=700,resizable=yes,directories=no,location=no,menubar=no,left=50,top=50');
+  docbmap = fbmap.document;
+  fcontrol = window.open('','Contrôle','scrollbars=yes,height=700,width=450,resizable=yes,directories=no,location=no,menubar=no,left=800,top=100');
+  doccontrol = fcontrol.document;
+
+  /* Numérotation des cases dans les marges et contenu bmap */
+  var contenu = "<div style='position: relative; left: 0; top: 0'>";
+  for (var i = 0; i < bmapTaillex ; i++) {
+    contenu += "<div id='ghoriz" + i + "' style='position: absolute; left: " + (i*20+20) + "; top: 0'>";
+    contenu += "<p style='text-align: center; font-size: 11'>" + codeLettre(i) + "</p></div>";
+  }
+  for (var i = 0; i < bmapTailley ; i++) {
+    contenu += "<div id='gvert" + i + "' style='position: absolute; left: 0; top: " + (i*20+20) + "'>";
+    contenu += "<p style='text-align: center; font-size: 11'>" + (i+1) + "</p></div>";
+  }
+  contenu += "<div id='divbmap' style='position: absolute; left: 20; top: 20; background-color: blue'>";
+  contenu += "<img id='imgbmap' style='position: absolute; left: 0; top: 0' />";
+  contenu += "</div>";
+  contenu += "</div>";
+  docbmap.body.innerHTML = contenu;
+  imgbmap = docbmap.getElementById("imgbmap");
+  imgbmap.onload = bmapLoaded;
+  imgbmap.src = bmapSrc;
+  divbmap = docbmap.getElementById("divbmap");
+  
+  /* Contenu de la fenêtre de contrôle */
+  contenu = "<center><table style=' margin: 0 0 10px 0'><tr>";
+  contenu += "<td><button id='bgrille' type='button' title='Afficher/masquer la grille'>Grille</button></td>";
+  contenu += "<td><button id='bliste' type='button' title='Liste des jetons'>Jetons</button></td>";
+  contenu += "<td><button id='bzones' type='button' title='Éditer les zones'>Zones</button></td>";
+  contenu += "<td><button id='bzoom' type='button' title='Changer l'échelle de la battlemap'>Zoom</button></td>";
+  contenu += "<td><button id='bcode' type='button' title='Code équivalent à la battlemap'>Code</button></td>";
+  contenu += "<td><button id='bquit' type='button' title='Fermer les fenêtres de la battlemap'>×</button></td>";
+  contenu += "</tr></table>";
+  contenu += "<div id='divcontrol' style='width:100%'></div></center>";
+  doccontrol.body.innerHTML = contenu;
+  doccontrol.getElementById("bgrille").onclick = grilleAction;
+  doccontrol.getElementById("bliste").onclick = listeJetons;
+  doccontrol.getElementById("bzoom").onclick = choisitZoom;
+  doccontrol.getElementById("bzones").onclick = listeZones;
+  doccontrol.getElementById("bcode").onclick = afficheCode;
+  doccontrol.getElementById("bquit").onclick = fin;
+  divcontrol = doccontrol.getElementById("divcontrol");
+}
+
+function bmapLoaded() {
+  var imgbmap = docbmap.getElementById("imgbmap");
+  bmapHaut = imgbmap.height;
+  bmapLarg = imgbmap.width;
+  haut = bmapHaut/bmapTailley;
+  larg = bmapLarg/bmapTaillex;
+  zoom = calculeZoom();
+  affichebmap();
+  listeJetons();
+}
+
+function affichebmap() {
+  if (grille) grilleAction();
+  imgbmap.style.height = Math.floor(bmapHaut * zoom);
+  imgbmap.style.width = Math.floor(bmapLarg * zoom);
+  for (var i = 0; i < bmapTaillex ; i++) {
+    var target = docbmap.getElementById("ghoriz"+i);
+    target.style.left = Math.floor((i+1) * larg * zoom);
+    target.style.width = Math.floor(larg * zoom);
+    target.style.height = Math.floor(haut * zoom);
+  }
+  for (var i = 0; i < bmapTailley ; i++) {
+    var target = docbmap.getElementById("gvert"+i);
+    target.style.top = Math.floor((i+1) * haut * zoom);
+    target.style.width = Math.floor(larg * zoom);
+    target.style.height = Math.floor(haut * zoom);
+  }
+  divbmap.style.left = Math.floor(larg * zoom);
+  divbmap.style.top = Math.floor(haut * zoom);
+  for (var ei = 0; ei < nzones; ei++) {
+    arrayget(zones,ei).installe();
+  }
+  for (var ei = 0; ei < nelems; ei++) {
+    arrayget(elems,ei).installe();
+  }
+}
+
+function fin() {
+  fbmap.close();
+  fcontrol.close();
+  fbmap = null;
+  fcontrol = null;
+}
+
+/*********/
+/* ZOOM  */
+/*********/
+
+function choisitZoom() {
+  idxmvt = -1;
+  idxzmvt = -1;
+  vide(divcontrol);
+  var contenu = "<table><tr style='vertical-align: middle'><td>Zoom</td>";
+  contenu += "<input id='izoom' type='text' value='" + zoom + "' /><button id='btzoom' type='button'>Go</button></td>";
+  contenu += "<td><button id='btaj' type='button'>Ajuster</button></td></tr>";
+  contenu += "<tr><td colspan='3' style='text-align: center'>";
+  contenu += "<button id='bzoom1' type='button'>Zoom 50%</button>";
+  contenu += "<button id='bzoom2' type='button'>Zoom 100%</button>";
+  contenu += "<button id='bzoom3' type='button'>Zoom 150%</button>";
+  contenu += "<button id='bzoom4' type='button'>Zoom 200%</button></td>";
+  contenu += "<tr><td colspan='3' id='tcomment' style='text-style:italic; text-align: center'></td></tr></table>";
+  divcontrol.innerHTML = contenu;
+  doccontrol.getElementById("btzoom").onclick = ajusteZoom;
+  doccontrol.getElementById("btaj").onclick = new Function ("zoom = calculeZoom(); affichebmap(); choisitZoom();");
+  doccontrol.getElementById("bzoom1").onclick = new Function ("zoom = 0.5; affichebmap(); choisitZoom();");
+  doccontrol.getElementById("bzoom2").onclick = new Function ("zoom = 1.0; affichebmap(); choisitZoom();");
+  doccontrol.getElementById("bzoom3").onclick = new Function ("zoom = 1.5; affichebmap(); choisitZoom();");
+  doccontrol.getElementById("bzoom4").onclick = new Function ("zoom = 2; affichebmap(); choisitZoom();");
+}
+
+function ajusteZoom() {
+  var nzoom = parseFloat(doccontrol.getElementById("izoom").value);
+  if (isNaN(nzoom))
+    doccontrol.getElementById("tcomment").innerHTML = "Valeur incorrecte (on attend un réel)";
+  else {
+    zoom = nzoom;
+    affichebmap();
+  }
+}
+
+function calculeZoom() {
+  var wd = fbmap.innerWidth;
+  var ht = fbmap.innerHeight;
+  if (navigator.appName.indexOf("Microsoft")!=-1) {
+    wd = docbmap.body.offsetWidth;
+    ht = docbmap.body.offsetHeight;
+  }
+  wd = (wd-30)/(bmapLarg*(bmapTaillex+1)/bmapTaillex);
+  ht = (ht-30)/(bmapHaut*(bmapTailley+1)/bmapTailley);
+  if ((wd > 0) && (ht > 0))
+    if (wd > ht)
+      return ht;
+    else
+      return wd;
+  else
+    return 1;
+}
+
+/********/
+/* CODE */
+/********/
+
+function afficheCode() {
+  idxmvt = -1;
+  idxzmvt = -1;
+  vide(divcontrol);
+  var ta = doccontrol.createElement("textarea");
+  ta.style.width="100%";
+  ta.style.height="100%";
+  divcontrol.appendChild(ta);
+  /* Battlemap */
+  var contenu = "{"+"s:Battlemap|" + bmapSrc + "|" + bmapTaillex + "|" + bmapTailley + "}\n";
+  /* Jetons */
+  for (var i = 0; i < nelems; i++) {
+    var currelem = arrayget(elems,i);
+    contenu += "{"+"s:Jeton|" + currelem.nom + "|" + currelem.src + "|" + currelem.posx + "|" + currelem.posy + "|";
+    contenu += currelem.taillex + "|" + currelem.tailley + "|" + currelem.ordre + "|" + currelem.pv + "|";
+    contenu += currelem.pvmax + "|";
+    if (currelem.joue)
+      contenu += "dejajoue|";
+    else
+      contenu += "doitjouer|";
+    contenu += arrayget(etatdesc,currelem.etat).replace(" ","");
+    contenu += "}\n";
+  }
+  /* Zones */
+  for (var i = 0; i < nzones ; i++) {
+    var currzone = arrayget(zones,i);
+    contenu += "{" + "s:Zone|" + currzone.nom + "|" + arrayget(typezonedesc,currzone.type) + "|" + currzone.coul + "|";
+    contenu += currzone.opac + "|" + currzone.posx + "|" + currzone.posy + "|" + currzone.taillex + "|" + currzone.tailley + "|";
+    contenu += currzone.rot + "}\n";
+  }
+  contenu += "{"+"s:BattlemapFin}";
+  ta.innerHTML = contenu;
+}
+
+/**********/
+/* GRILLE */
+/**********/
+
+function grilleAction() {
+  if (grille) {
+    for (var xi = 0; xi < bmapTaillex; xi++) {
+      for (var yi = 0; yi < bmapTailley; yi++) {
+        var olddiv = fbmap.document.getElementById("grille"+xi+"sur"+yi);
+        divbmap.removeChild(olddiv);
+      }
+    }
+    grille = false;
+    idxmvt = -1;
+    idxzmvt = -1;
+  } else {
+    for (var xi = 0; xi < bmapTaillex; xi++) {
+      for (var yi = 0; yi < bmapTailley; yi++) {
+        var ndiv = fbmap.document.createElement('div');
+        ndiv.style.width = Math.floor(larg * zoom);
+        ndiv.style.height = Math.floor(haut * zoom);
+        ndiv.style.position = "absolute";
+        ndiv.style.left = Math.floor(larg * xi * zoom);
+        ndiv.style.top = Math.floor(haut * yi * zoom);
+        if ((xi+yi)%2 == 0) {
+          ndiv.style.backgroundColor = "white";
+        } else {
+          ndiv.style.backgroundColor = "black";
+        }
+        ndiv.style.opacity = 0.25;
+        ndiv.style.zIndex = 100;
+        ndiv.title = codeLettre(xi) + (yi+1);
+        ndiv.id = "grille"+xi+"sur"+yi;
+        ndiv.onclick = new Function ("clickgrille(" + xi + "," + yi + ");");
+        divbmap.appendChild(ndiv);
+      }
+    }
+    grille = true;
+  }
+}
+
+function clickgrille(nx,ny) {
+  if (idxmvt != -1) {
+    var currelem = arrayget(elems,idxmvt);
+    currelem.deplacevers(nx,ny);
+    idxmvt = -1;
+    grilleAction();
+  }
+  if (idxzmvt != -1) {
+    var currzone = arrayget(zones,idxzmvt);
+    currzone.deplacevers(nx,ny);
+    idxzmvt = -1;
+    grilleAction();
+  }
+}
+
+/********************/
+/* LISTE DES JETONS */
+/********************/
+
+function listeJetons() {
+  idxmvt = -1;
+  idxzmvt = -1;
+  var tabordre = new Array();
+  for (var i = 0; i < nelems; i++) arrayset(tabordre,i,i);
+  for (var i = 0; i < nelems-1; i++)
+    for (var j = nelems-1; j > i; j--)
+      if (arrayget(elems,arrayget(tabordre,j-1)).getordre() < arrayget(elems,arrayget(tabordre,j)).getordre()) {
+        var tmp = arrayget(tabordre,j-1);
+        arrayset(tabordre,j-1,arrayget(tabordre,j));
+        arrayset(tabordre,j,tmp);
+      }
+  vide(divcontrol);
+  var ntab = fcontrol.document.createElement('table');
+  ntab.style.border = "1px solid black";
+  ntab.cellspacing = 10;
+  divcontrol.appendChild(ntab);
+  var contenu = "";
+  for (var i = 0; i < nelems; i++) {
+    var currelem = arrayget(elems,arrayget(tabordre,i));
+    contenu += "<tr style='vertical-align: middle'>";
+    contenu += "<td ROWSPAN=2><img style='width:50px; height:50px' id='img" + i + "' src='" + currelem.src + "'/></td>";
+    contenu += "<td style='color:#fff; background-color:";
+    var pvquota = currelem.pv/currelem.pvmax;
+    if (pvquota > .55)
+      contenu += "#339900";
+    else if (pvquota > .25)
+      contenu += "#FF8800";
+    else if (pvquota > 0)
+      contenu += "#FF0033";
+    else
+      contenu += "#330000";
+    contenu += "; padding: 4; font-weight: bold'>" + currelem.nom + "</td>";
+    contenu += "<td style='padding: 4'>Ordre : ";
+    if (currelem.ordre != currelem.getordre())
+      contenu += currelem.getordre() + " (" + currelem.ordre + ")";
+    else
+      contenu += currelem.ordre;
+    contenu += "</td>";
+    contenu += "<td id='joue" + i + "'>";
+    if (currelem.joue)
+      contenu += "<span style='color: gray'>A déjà joué</span>";
+    else
+      contenu += "Doit encore jouer";
+    contenu += "</td>";
+    contenu += "</tr><tr style='vertical-align: middle'>";
+    contenu += "<td style='padding: 4'>pv " + currelem.pv + "/" + currelem.pvmax + "</td>";
+    contenu += "<td style='padding: 4'>État : " + arrayget(etatdesc,currelem.etat) + "</td>";
+    contenu += "<td><button id='bedit" + i + "' type='button' title='Éditer ce jeton'>Éditer</button>";
+    contenu += "<button id='bkill" + i + "' type = 'button' title='Supprimer ce jeton'>Enlever</button></td>";
+    contenu += "</tr>";
+    contenu += "<tr><td colspan=4 style='background-color: black; padding: 1px'></td></tr>";   
+  }
+  contenu += "<tr><td colspan=4><center>";
+  contenu += "<button id='bajout' type='button' title='Ajouter un jeton'>Nouveau jeton</button>";
+  contenu += "</center></td></tr>";
+  ntab.innerHTML = contenu;
+  doccontrol.getElementById("bajout").onclick = new Function ("ajoutJeton();");
+  for (var i = 0; i < nelems; i++) {
+    doccontrol.getElementById("img"+i).onmouseover = new Function ("arrayget(elems,"+arrayget(tabordre,i)+").illumine();");
+    doccontrol.getElementById("img"+i).onmouseout = new Function ("arrayget(elems,"+arrayget(tabordre,i)+").desillumine();");
+    doccontrol.getElementById("joue"+i).onclick = new Function ("modifieJoue("+arrayget(tabordre,i)+","+i+");");
+    doccontrol.getElementById("img"+i).onclick = new Function ("modifJeton("+arrayget(tabordre,i)+");");
+    doccontrol.getElementById("bedit"+i).onclick = new Function ("modifJeton("+arrayget(tabordre,i)+");");
+    doccontrol.getElementById("bkill"+i).onclick = new Function ("supprimeJeton("+arrayget(tabordre,i)+");");
+  }
+}
+
+function modifieJoue(idx,idxcontrol) {
+  var currelem = arrayget(elems,idx);
+  var target = doccontrol.getElementById("joue"+idxcontrol);
+  currelem.joue = !currelem.joue;
+  if (currelem.joue)
+    target.innerHTML = "<span style='color: gray'>A déjà joué</span>";
+  else
+    target.innerHTML = "Doit encore jouer";
+}
+
+function supprimeJeton(idx) {
+  idxmvt = -1;
+  idxzmvt = -1;  
+  var answer = fcontrol.confirm("Voulez-vous vraiment supprimer " + arrayget(elems,idx).nom + " ?");
+  if (answer) {
+    arrayget(elems,idx).efface();
+    for (var i = idx; i < nelems-1; i++) {
+      arrayset(elems,i,arrayget(elems,i+1));
+      arrayget(elems,i).ajusteidx(i);
+    }
+    nelems--;
+  }
+  listeJetons();
+}
+
+/********************/
+/* ÉDITION DE JETON */
+/********************/
+
+function modifJeton(idx) {
+  idxmvt = -1;
+  idxzmvt = -1;
+  var currelem = arrayget(elems,idx);
+  vide(divcontrol);
+  var ntab = fcontrol.document.createElement('table');
+  ntab.style.border = "1px solid black";
+  ntab.cellspacing = 10;
+  divcontrol.appendChild(ntab);
+  var contenu = "<tr style='vertical-align: top'>";
+  contenu += "<td style='width: 50%'>Nom<br/>";
+  contenu += "<input id='inom' type='text' value=\"" + currelem.nom + "\"/></td>";
+  contenu += "<td style='width: 50%; text-align:right'>";
+  contenu += "<img id='iimg' style='width:60px; height: 60px' src='" + currelem.src + "'/>";
+  contenu += "</td></tr>";
+  contenu += "<tr><td colspan=2 style='background-color: black; padding: 1px'></td></tr>";
+  contenu += "<tr style='vertical-align: top'><td>";
+  contenu += "Ordre<br/><input id='iordre' type='text' value='" + currelem.ordre + "'/><br/>";
+  contenu += "Points de vie<br/><input id='ipv' type='text' value='" + currelem.pv + "'/><br/>";
+  contenu += "Points de vie max<br/><input id='ipvmax' type='text' value='" + currelem.pvmax + "'/></td>";
+  contenu += "<td>";
+  if (currelem.joue) {
+    contenu += "<input id='rdejajoue' name='vis' type='radio' value='A déjà joué' checked='checked'/> <span style='color: gray'>A déjà joué</span><br/>";
+    contenu += "<input id='rdoitjouer' name='vis' type='radio' value='Doit encore jouer'/> Doit encore jouer<br/>";
+  } else {
+    contenu += "<input id='rdejajoue' name='vis' type='radio' value='A déjà joué'/> A déjà joué<br/>";
+    contenu += "<input id='rdoitjouer' name='vis' type='radio' value='Doit encore jouer' checked='checked'/> Doit encore jouer<br/>";
+  }
+  contenu += "État actuel<br/><select id='setat'>";
+  contenu += "<option value='Mort'>Mort</option>";
+  contenu += "<option value='Normal'>Normal</option>";
+  contenu += "<option value='Sur le sol'>Sur le sol</option>";
+  contenu += "<option value='Inconscient'>Inconscient</option>";
+  contenu += "<option value='Invisible'>Invisible</option>";
+  contenu += "</select></td></tr>";
+  contenu += "<tr><td colspan=2 style='background-color: black; padding: 1px'></td></tr>";
+  contenu += "<tr><td><center><table>";
+  contenu += "<tr style='vertical-align: center'><td COLSPAN=3 style='text-align: center'>Déplacement</td></tr>";
+  contenu += "<tr><td><button id='poshg' title='vers le haut et la gauche' type='button'>*</button></td>";
+  contenu += "<td><button id='posh' title='vers le haut' type='button'>*</button></td>";
+  contenu += "<td><button id='poshd' title='vers le haut et la droite' type='button'>*</button></td></tr>";
+  contenu += "<tr style='vertical-align: center'><td><button id='posg' title='vers la gauche' type='button'>*</button></td>";
+  contenu += "<td><button id='posdirect' title='vers une case sélectionnée' type='button'>*</button></td>";
+  contenu += "<td><button id='posd' title='vers la droite' type='button'>*</button></td></tr>";
+  contenu += "<tr style='vertical-align: center'><td><button id='posbg' title='vers le bas et la gauche' type='button'>*</button></td>";
+  contenu += "<td><button id='posb' title='vers le bas' type='button'>*</button></td>";
+  contenu += "<td><button id='posbd' title='vers le bas et la droite' type='button'>*</button></td></tr>";
+  contenu += "</table></center></td>";
+  contenu += "<td><center><table>";
+  contenu += "<tr><td COLSPAN=3 style='text-align: center'>Changement de taille</td></tr>";
+  contenu += "<tr><td></td><td><button id='tailleh' type='button'>-</button></td><td></td></tr>";
+  contenu += "<tr><td><button id='tailleg' type='button'>-</button></td><td></td><td><button id='tailled' type='button'>+</button></td></tr>";
+  contenu += "<tr><td></td><td><button id='tailleb' type='button'>+</button></td><td></td></tr>";
+  contenu += "</table></center></td></tr>";
+  contenu += "<tr><td colspan=2 style='background-color: black; padding: 1px'></td></tr>";
+  contenu += "<tr><td colspan=2 id='comment' style='font-style:italic; font-size: small'>Modifiez les valeurs ci-dessous</td></tr>";
+  ntab.innerHTML = contenu;
+  var scurrelem = "arrayget(elems,"+idx+").";
+  doccontrol.getElementById("iimg").onclick = new Function ("modifImage("+idx+");");
+  doccontrol.getElementById("poshg").onclick = new Function (scurrelem+"deplace(-1,-1);");
+  doccontrol.getElementById("posh").onclick = new Function (scurrelem+"deplace(0,-1);");
+  doccontrol.getElementById("poshd").onclick = new Function (scurrelem+"deplace(1,-1);");
+  doccontrol.getElementById("posg").onclick = new Function (scurrelem+"deplace(-1,0);");
+  doccontrol.getElementById("posd").onclick = new Function (scurrelem+"deplace(1,0);");
+  doccontrol.getElementById("posbg").onclick = new Function (scurrelem+"deplace(-1,1);");
+  doccontrol.getElementById("posb").onclick = new Function (scurrelem+"deplace(0,1);");
+  doccontrol.getElementById("posbd").onclick = new Function (scurrelem+"deplace(1,1);");
+  doccontrol.getElementById("posdirect").onclick = new Function ("mvtdirect(" + idx + ");");
+  doccontrol.getElementById("tailleh").onclick = new Function (scurrelem+"taille(0,-1);");
+  doccontrol.getElementById("tailleg").onclick = new Function (scurrelem+"taille(-1,0);");
+  doccontrol.getElementById("tailled").onclick = new Function (scurrelem+"taille(1,0);");
+  doccontrol.getElementById("tailleb").onclick = new Function (scurrelem+"taille(0,1);");
+  doccontrol.getElementById("inom").onchange = new Function ("majJeton("+idx+");");
+  doccontrol.getElementById("iordre").onchange = new Function ("majJeton("+idx+");");
+  doccontrol.getElementById("ipv").onchange = new Function ("majJeton("+idx+");");
+  doccontrol.getElementById("ipvmax").onchange = new Function ("majJeton("+idx+");");;
+  doccontrol.getElementById("rdejajoue").onchange = new Function ("majJeton("+idx+");");
+  doccontrol.getElementById("rdoitjouer").onchange = new Function ("majJeton("+idx+");");
+  doccontrol.getElementById("setat").selectedIndex = currelem.etat;
+  doccontrol.getElementById("setat").onchange = new Function ("majJeton("+idx+");");
+}
+
+function mvtdirect(idx) {
+  fcontrol.document.getElementById("comment").innerHTML = "Cliquez sur la case de la nouvelle position.";
+  if (!grille) grilleAction();
+  idxmvt = idx;
+  idxzmvt = -1;
+}
+
+function modifImage(idx) {
+  idxmvt = -1;
+  idxzmvt = -1;
+  var currelem = arrayget(elems,idx);
+  var nsrc = fcontrol.prompt("Entrez l'adresse de la nouvelle image.",currelem.src);
+  if (nsrc != null) {
+    currelem.src = nsrc;
+    currelem.img.src = nsrc;
+    doccontrol.getElementById("iimg").src = nsrc;
+  }
+}
+
+function majJeton(idx) {
+  idxmvt = -1;
+  idxzmvt = -1;
+  var currelem = arrayget(elems,idx);
+  doccontrol.getElementById("comment").innerHTML = "Modification enregistrée";
+  currelem.ajustenom(doccontrol.getElementById("inom").value);
+  var val = parseFloat(doccontrol.getElementById("iordre").value);
+  if (isNaN(val)) {
+    doccontrol.getElementById("comment").innerHTML = "Ordre incorrect (on attend un réel)";
+    doccontrol.getElementById("iordre").value = "" + currelem.ordre;
+  } else {
+    currelem.ordre = val;
+  }
+  val = parseInt(doccontrol.getElementById("ipv").value);
+  if (isNaN(val)) {
+    doccontrol.getElementById("comment").innerHTML = "Pv incorrect (on attend un entier)";
+    doccontrol.getElementById("ipv").value = "" + currelem.pv;
+  } else {
+    currelem.ajustepv(val);
+  }
+  val = parseInt(doccontrol.getElementById("ipvmax").value);
+  if (isNaN(val)) {
+    doccontrol.getElementById("comment").innerHTML = "Pv max incorrect (on attend un entier)";
+    doccontrol.getElementById("ipvmax").value = "" + currelem.pvmax;
+  } else {
+    currelem.ajustepvmax(val);
+  }
+  currelem.joue = doccontrol.getElementById("rdejajoue").checked;
+  currelem.etat = doccontrol.getElementById("setat").selectedIndex;
+  currelem.ajusteetat()
+}
+
+/******************/
+/* AJOUT DE JETON */
+/******************/
+
+function ajoutJeton() {
+  idxmvt = -1;
+  idxzmvt = -1;
+  vide(divcontrol);
+  var ntab = fcontrol.document.createElement('table');
+  ntab.style.border = "1px solid black";
+  ntab.cellspacing = 10;
+  divcontrol.appendChild(ntab);
+  var contenu = "<tr style='vertical-align: top'>";
+  contenu += "<td style='width: 50%'>Nom<br/>";
+  contenu += "<input id='inom' type='text' value=''/></td>";
+  contenu += "<td style='text-align:right; width: 50%'>";
+  contenu += "<img id='iimg' style='width:60px; height: 60px' src='" + defaultsrc + "'/>";
+  contenu += "</td></tr>";
+  contenu += "<tr><td colspan=2 style='background-color: black; padding: 1px'></td></tr>";
+  contenu += "<tr><td>";
+  contenu += "Ordre<br/><input id='iordre' type='text' value='0'/><br/>";
+  contenu += "Points de vie<br/><input id='ipv' type='text' value='1'/><br/>";
+  contenu += "Points de vie max<br/><input id='ipvmax' type='text' value='1'/>";
+  contenu += "</td><td>";
+  contenu += "<input id='rdejajoue' name='joue' type='radio' value='A déjà joué'/> <span style='color: gray'>A déjà joué</span><br/>";
+  contenu += "<input id='rdoitjouer' name='joue' type='radio' value='Doit jouer' checked='checked'/> Doit encore jouer<br/>";
+  contenu += "État actuel<br/><select id='setat'>";
+  contenu += "<option value='Mort'>Mort</option>";
+  contenu += "<option value='Normal'>Normal</option>";
+  contenu += "<option value='Sur le sol'>Sur le sol</option>";
+  contenu += "<option value='Inconscient'>Inconscient</option>";
+  contenu += "<option value='Invisible'>Invisible</option>";
+  contenu += "</select><br/><br/>";
+  contenu += "<button type='button' id='bajoutok'>Ajouter</button>";
+  contenu += "</td></tr>";
+  contenu += "<tr><td colspan=2 style='background-color: black; padding: 1px'></td></tr>";
+  contenu += "<tr><td colspan=2 id='comment' style='font-style:italic; font-size: small'>Entrez les valeurs ci-dessus</td></tr>";
+  ntab.innerHTML = contenu;
+  fcontrol.document.getElementById("iimg").onclick = chgimgajout;
+  fcontrol.document.getElementById("setat").selectedIndex = 1;
+  fcontrol.document.getElementById("bajoutok").onclick = ajoutok;
+}
+
+function chgimgajout () {
+  var target = doccontrol.getElementById("iimg");
+  var nsrc = fcontrol.prompt("Entrez l'adresse de la nouvelle image.",target.src);
+  if (nsrc != null) {
+    target.src = nsrc;
+  }
+}
+
+function ajoutok() {
+  doccontrol.getElementById("comment").innerHTML = "Entrez les valeurs ci-dessus";
+  ok = true;
+  var enom = fcontrol.document.getElementById("inom").value;
+  var esource = fcontrol.document.getElementById("iimg").src;
+  var eordre = parseFloat(fcontrol.document.getElementById("iordre").value);
+  if (isNaN(eordre)) {
+    doccontrol.getElementById("comment").innerHTML = "Ordre incorrect (on attend un réel)";
+    ok = false;
+  }
+  var epv = parseInt(fcontrol.document.getElementById("ipv").value);
+  if (isNaN(epv)) {
+    doccontrol.getElementById("comment").innerHTML = "Pv incorrect (on attend un entier)";
+    ok = false;
+  }
+  var epvmax = parseInt(fcontrol.document.getElementById("ipvmax").value);
+  if (isNaN(epvmax)) {
+    doccontrol.getElementById("comment").innerHTML = "Pv max incorrect (on attend un entier)";
+    ok = false;
+  }
+  var ejoue = (fcontrol.document.getElementById("rdejajoue").checked);
+  var eetat = fcontrol.document.getElementById("setat").selectedIndex;
+  if (ok) {
+    arrayset(elems,nelems,new Elem (nelems, enom, esource, 0, 0, 1, 1, eordre, epv, epvmax, ejoue, eetat));
+    arrayget(elems,nelems).installe();
+    nelems++;
+    doccontrol.getElementById("comment").innerHTML = "Jeton ajouté";
+  }
+}
+
+/*******************/
+/* LISTE DES ZONES */
+/*******************/
+
+function listeZones() {
+  idxmvt = -1;
+  idxzmvt = -1;
+  vide(divcontrol);
+  var ntab = fcontrol.document.createElement('table');
+  ntab.style.border = "1px solid black";
+  ntab.cellspacing = 10;
+  divcontrol.appendChild(ntab);
+  var contenu = "";
+  for (var i = 0; i < nzones; i++) {
+    var currzone = arrayget(zones,i);
+    contenu += "<tr>";
+    contenu += "<td>Nom</td><td><input id='nom" + i + "' type='text' value='" + currzone.nom + "'/></td>";
+    contenu += "<td ROWSPAN='5' style='background-color: black; padding: 0.5px'></td>";
+    contenu += "<td COLSPAN='3'><center>Déplacement</center></td>";
+    contenu += "<td ROWSPAN='5' style='background-color: black; padding: 0.5px'></td>";
+    contenu += "<td COLSPAN='3'><center>Taille</center></td>";
+    contenu += "</tr><tr>";
+    contenu += "<td id='zone" + i + "' COLSPAN='2' style='background-color: " + currzone.coul + "; opacity:" + currzone.opac + "'>";
+    contenu += "<td><button id='bmovenw" + i + "' type='button' title='vers le haut et la gauche'>*</button></td>";
+    contenu += "<td><button id='bmoven" + i + "' type='button' title='vers le haut'>*</button></td>";
+    contenu += "<td><button id='bmovene" + i + "' type='button' title='vers le haut et la droite'>*</button></td>";
+    contenu += "<td></td>";
+    if (currzone.type == rectangle) {
+      contenu += "<td><center><button id='btailleyp" + i + "' type='button' title='augmenter'>+</button></center></td>";
+    } else {
+      contenu += "<td></td>";
+    }
+    contenu += "<td></td>";
+    contenu += "</tr><tr>";
+    contenu += "<td>Couleur</td><td><input id='coul" + i + "' type='text' value='" + currzone.coul + "'/></td>";
+    contenu += "<td><button id='bmovew" + i + "' type='button' title='vers la gauche'>*</button></td>";
+    contenu += "<td><button id='bmoveg" + i + "' type='button' title='déplacement direct'>*</button></td>";
+    contenu += "<td><button id='bmovee" + i + "' type='button' title='vers la droite'>*</button></td>";
+    contenu += "<td><center><button id='btaillexm" + i + "' type='button' title='diminuer'>–</button></center></td>";
+    if ((currzone.type == cercle) || (currzone.type == cone) || (currzone.type == aura)) {
+      contenu += "<td id='taille" + i + "' align='center'>" + currzone.taillex + "</td>";
+    } else {
+      contenu += "<td id='taille" + i + "' align='center'>" + currzone.taillex + "/" + currzone.tailley + "</td>";
+    }
+    contenu += "<td><center><button id='btaillexp" + i + "' type='button' title='augmenter'>+</button></center></td>";
+    contenu += "</tr><tr>";
+    contenu += "<td>Opacité</td><td><input id='opac" + i + "' type='text' value='" + currzone.opac + "'/></td>";
+    contenu += "<td><button id='bmovesw" + i + "' type='button' title='vers le bas et la gauche'>*</button></td>";
+    contenu += "<td><button id='bmoves" + i + "' type='button' title='vers le bas'>*</button></td>";
+    contenu += "<td><button id='bmovese" + i + "' type='button' title='vers le bas et la droite'>*</button></td>";
+    contenu += "<td></td>";
+    if (currzone.type == rectangle) {
+      contenu += "<td><center><button id='btailleym" + i + "' type='button' title='diminuer'>–</button></center></td>";
+    } else {
+      contenu += "<td></td>";
+    }
+    contenu += "<td></td>";
+    contenu += "</tr><tr>";
+    contenu += "<td>Type</td><td><select id='stype" + i + "'>";
+    contenu += "<option value='cercle'>cercle</option>";
+    contenu += "<option value='cone'>cone</option>";
+    contenu += "<option value='rectangle'>rectangle</option>";
+    contenu += "<option value='aura'>aura</option>";
+    contenu += "</select></td>";
+    if ((currzone.type == cone) || (currzone.type == rectangle)) {
+      contenu += "<td><center><button id='brotm" + i + "' type='button' title='rotation'>–</button></center></td>";
+      contenu += "<td><center>Rot</center></td>";
+      contenu += "<td><center><button id='brotp" + i + "' type='button' title='rotation'>+</button></center></td>";
+    } else {
+      contenu += "<td></td><td></td><td></td>";
+    }
+    contenu += "<td COLSPAN='3'><center><button id='kill" + i + "' type='button' title='supprimer'>Suppr</button></center></td>";
+    contenu += "</tr>";
+    contenu += "<tr><td colspan=10 style='background-color: black; padding: 1px'></td></tr>";
+  }
+  contenu += "<tr><td colspan=10><center><button id='bnzone' type='button' title='nouvelle zone'>Nouvelle zone</button></center></td></tr>";
+  ntab.innerHTML = contenu;
+  doccontrol.getElementById("bnzone").onclick = new Function ("ajoutZone();");
+  for (var i = 0; i < nzones; i++) {
+    var currtype = arrayget(zones,i).type;
+    var scurrzone = "arrayget(zones," + i + ").";
+    var supdtaille = "doccontrol.getElementById('taille" + i + "').innerHTML = " + scurrzone + "taillex";
+    if (currtype == rectangle) {
+      supdtaille += "+'/'+" + scurrzone + "tailley;";
+    } else {
+      supdtaille += ";";
+    }
+    doccontrol.getElementById("stype"+i).selectedIndex = currtype;
+    doccontrol.getElementById("stype"+i).onchange = new Function ("majZone("+i+");");
+    doccontrol.getElementById("zone"+i).onmouseover = new Function (scurrzone+"illumine();");
+    doccontrol.getElementById("zone"+i).onmouseout = new Function (scurrzone+"desillumine();");
+    doccontrol.getElementById("bmovenw"+i).onclick = new Function (scurrzone+"deplace(-1,-1);");
+    doccontrol.getElementById("bmovene"+i).onclick = new Function (scurrzone+"deplace(1,-1);");
+    doccontrol.getElementById("bmovesw"+i).onclick = new Function (scurrzone+"deplace(-1,1);");
+    doccontrol.getElementById("bmovese"+i).onclick = new Function (scurrzone+"deplace(1,1);");
+    doccontrol.getElementById("bmoven"+i).onclick = new Function (scurrzone+"deplace(0,-1);");
+    doccontrol.getElementById("bmovew"+i).onclick = new Function (scurrzone+"deplace(-1,0);");
+    doccontrol.getElementById("bmoves"+i).onclick = new Function (scurrzone+"deplace(0,1);");
+    doccontrol.getElementById("bmovee"+i).onclick = new Function (scurrzone+"deplace(1,0);");
+    doccontrol.getElementById("btaillexp"+i).onclick = new Function (scurrzone+"taille(1,0);"+supdtaille);
+    doccontrol.getElementById("btaillexm"+i).onclick = new Function (scurrzone+"taille(-1,0);"+supdtaille);
+    if (currtype == rectangle) {
+      doccontrol.getElementById("btailleyp"+i).onclick = new Function (scurrzone+"taille(0,1);"+supdtaille);
+      doccontrol.getElementById("btailleym"+i).onclick = new Function (scurrzone+"taille(0,-1);"+supdtaille);
+    }
+    if ((currtype == rectangle) || (currtype == cone)) {
+      doccontrol.getElementById("brotp"+i).onclick = new Function (scurrzone+"ajusterot(1);"+supdtaille);
+      doccontrol.getElementById("brotm"+i).onclick = new Function (scurrzone+"ajusterot(7);"+supdtaille);
+    }
+    doccontrol.getElementById("kill"+i).onclick = new Function ("suppZone("+i+");");
+    doccontrol.getElementById("bmoveg"+i).onclick = new Function ("mvtzonedirect("+i+");");
+    doccontrol.getElementById("nom"+i).onchange = new Function ("majZone("+i+");");
+    doccontrol.getElementById("coul"+i).onchange = new Function ("majZone("+i+");");
+    doccontrol.getElementById("opac"+i).onchange = new Function ("majZone("+i+");");
+  }
+}
+
+function ajoutZone() {
+  arrayset(zones, nzones, new Zone (nzones, "Nouvelle zone", cercle, "red", .5, 0, 0, 2, 2, 2));
+  arrayget(zones, nzones).installe();
+  nzones++;
+  listeZones();
+}
+
+function mvtzonedirect(idx) {
+  if (!grille) grilleAction();
+  idxmvt = -1;
+  idxzmvt = idx;
+}
+
+function majZone(idx) {
+  var enom = doccontrol.getElementById("nom"+idx).value;
+  var ecoul = doccontrol.getElementById("coul"+idx).value;
+  var eopac = parseFloat(fcontrol.document.getElementById("opac"+idx).value);
+  var etype = doccontrol.getElementById("stype"+idx).selectedIndex;
+  if (isNaN(eopac)) {
+    alert("L'opacité doit être un réel entre 0 et 1.");
+    doccontrol.getElementById("opac"+idx).value = arrayget(zones,idx).opac;
+  } else {
+    arrayget(zones,idx).nom = enom;
+    arrayget(zones,idx).coul = ecoul;
+    arrayget(zones,idx).opac = eopac;
+    arrayget(zones,idx).type = etype;
+    arrayget(zones,idx).installe();
+    listeZones();
+  }
+}
+
+function suppZone(idx) {
+  idxmvt = -1;
+  idxzmvt = -1;
+  var answer = fcontrol.confirm("Voulez-vous vraiment supprimer la zone " + arrayget(zones,idx).nom + " ?");
+  if (answer) {
+    arrayget(zones,idx).efface();
+    for (var i = idx; i < nzones-1; i++) {
+      arrayset(zones,i,arrayget(zones,i+1));
+      arrayget(zones,i).idx = i;
+    }
+    nzones--;
+    listeZones();
+  }
+}
+
+/*********************/
+/* FONCTIONS ANNEXES */
+/*********************/
+
+function codeLettre(i) {
+  if ((i >= 0) && (i < 26)) {
+    return (String.fromCharCode(65+i));
+  } else if ((i > 25) && (i <= 675)) {
+    return (String.fromCharCode(64+Math.floor(i/26))+String.fromCharCode(65+(i%26)));
+  } else {
+    return ("");
+  }
+}
+
+function vide(o) {
+  var children = o.childNodes;
+  for (var i = 0; i < children.length; i++) o.removeChild(arrayget(children,i));
+}
+
+function distxcase(x,y,cx,cy) {
+  var dx = Math.abs (x - cx);
+  var dy = Math.abs (y - cy);
+  if (Math.abs((cx+1)-x) > dx) {dx++;}
+  if (Math.abs((cy+1)-y) > dy) {dy++;}
+  if (dx > dy) {
+    var tmp = dy;
+    dy = dx;
+    dx = tmp;
+  }
+  return (Math.floor(dx * 1.5) + (dy - dx));
+}
+
+function distacase(x,y,cx,cy) {
+  var dx = Math.abs (x - cx);
+  var dy = Math.abs (y - cy);
+  if (dx > dy) {
+    var tmp = dy;
+    dy = dx;
+    dx = tmp;
+  }
+  return (Math.floor(dx * 1.5) + (dy - dx));
+}
+
+/**********/
+/* JETONS */
+/**********/
+
+function Elem (idx, nom, src, posx, posy, taillex, tailley, ordre, pv, pvmax, joue, etat) {
+  this.idx = idx;
+  this.nom = nom;
+  this.src = src;
+  this.posx = posx;
+  this.posy = posy;
+  this.taillex = taillex;
+  this.tailley = tailley;
+  this.ordre = ordre;
+  this.pv = pv;
+  this.pvmax = pvmax;
+  this.joue = joue;
+  this.etat = etat;
+  this.img = null;
+  this.ap = null;
+  this.installe = installeElem;
+  this.deplace = deplaceElem;
+  this.deplacevers = deplaceversElem;
+  this.taille = tailleElem;
+  this.efface = effaceElem;
+  this.illumine = illumineElem;
+  this.desillumine = desillumineElem;
+  this.ajusteidx = ajusteidxElem;
+  this.ajusteetat = ajusteetatElem;
+  this.ajustepv = ajustepvElem;
+  this.ajustepvmax = ajustepvmaxElem;
+  this.ajustenom = ajustenomElem;
+  this.getordre = function () {if ((this.etat == inconscient || this.etat == mort)) return (-1); else return (this.ordre);}
+}
+
+function installeElem () {
+  var nap = null;
+  var nimg = null;
+  if (this.img && this.ap) {
+    nap = this.ap;
+    nimg = this.img;
+  } else {
+    nap = docbmap.createElement("div");
+    nimg = docbmap.createElement("img");
+    divbmap.appendChild(nimg);
+    divbmap.appendChild(nap);
+    this.ap = nap;
+    this.img = nimg;
+  }
+  nap.style.position = "absolute";
+  nap.style.opacity = 0.5;
+  nap.title = this.nom + " (" + this.pv + "/" + this.pvmax + ")";
+  nap.style.width = Math.floor(larg * this.taillex * zoom);
+  nap.style.height = Math.floor(haut * this.tailley * zoom);
+  nap.style.left = Math.floor(this.posx * larg * zoom);
+  nap.style.top = Math.floor(this.posy * haut * zoom);
+  nap.onclick = new Function ("modifJeton(" + this.idx + ");");
+  nimg.src = this.src;
+  nimg.style.position = "absolute";
+  nimg.title = this.nom + " (" + this.pv + "/" + this.pvmax + ")";
+  nimg.style.width = Math.floor(larg * this.taillex * zoom)-2;
+  nimg.style.height = Math.floor(haut * this.tailley * zoom)-2;
+  nimg.style.left = Math.floor(this.posx * larg * zoom)+1;
+  nimg.style.top = Math.floor(this.posy * haut * zoom)+1;
+  nimg.onclick = new Function ("modifJeton(" + this.idx + ");");
+  nimg.style.zIndex = 20;
+  nap.style.zIndex = 30;
+  this.ajusteetat();
+}
+
+function ajustenomElem (val) {
+  this.nom = val;
+  if (this.img)
+    this.img.title = this.nom + " (" + this.pv + "/" + this.pvmax + ")";
+  if (this.ap)
+    this.ap.title = this.nom + " (" + this.pv + "/" + this.pvmax + ")";
+}
+
+function ajusteidxElem (val) {
+  this.idx = val;
+  if (this.ap)
+    this.ap.onclick = new Function ("modifJeton(" + this.idx + ");");
+  if (this.img)
+    this.img.onclick = new Function ("modifJeton(" + this.idx + ");");
+}
+
+function ajustepvElem (val) {
+  this.pv = val;
+  if (this.img)
+    this.img.title = this.nom + " (" + this.pv + "/" + this.pvmax + ")";
+  if (this.ap)
+    this.ap.title = this.nom + " (" + this.pv + "/" + this.pvmax + ")";
+}
+
+function ajustepvmaxElem (val) {
+  this.pvmax = val;
+  if (this.img)
+    this.img.title = this.nom + " (" + this.pv + "/" + this.pvmax + ")";
+  if (this.ap)
+    this.ap.title = this.nom + " (" + this.pv + "/" + this.pvmax + ")";
+}
+
+function effaceElem() {
+  divbmap.removeChild(this.img);
+  divbmap.removeChild(this.ap);
+}
+
+function ajusteetatElem () {
+  switch (this.etat) {
+    case 0 :
+      this.ap.style.backgroundColor = 'black';
+      return;
+    case 1 :
+      this.ap.style.backgroundColor = null;
+      return;
+    case 2 :
+      this.ap.style.backgroundColor = 'grey';
+      return;
+    case 3 :
+      this.ap.style.backgroundColor = 'red';
+      return;
+    case 4 :
+      this.ap.style.backgroundColor = 'white';
+      return;
+  }
+}
+
+function illumineElem () {
+  this.ap.style.border = '2px solid white';
+  this.ap.style.opacity = 0.75;
+  setTimeout("arrayget(elems," + this.idx + ").desillumine();",1000);
+}
+
+function desillumineElem () {
+  this.ap.style.border = 0;
+  this.ap.style.opacity = 0.5;
+}
+
+function tailleElem(dx,dy) {
+  var nx = this.taillex + dx;
+  var ny = this.tailley + dy;
+  if ((nx > 0 && nx + this.posx <= bmapTaillex)) {
+    this.taillex = nx;
+    this.img.style.width = Math.floor(larg * this.taillex * zoom) - 2;
+    this.ap.style.width = Math.floor(larg * this.taillex * zoom);
+  }
+  if ((ny > 0 && ny + this.posy <= bmapTailley)) {
+    this.tailley = ny;
+    this.img.style.height = Math.floor(haut * this.tailley * zoom) - 2;
+    this.ap.style.height = Math.floor(haut * this.tailley * zoom);
+  }
+}
+
+function deplaceElem(dx,dy) {
+  var nx = this.posx + dx;
+  var ny = this.posy + dy;
+  if ((nx >= 0) && (nx + this.taillex <= bmapTaillex)) {
+    this.posx = nx;
+    this.img.style.left = Math.floor(this.posx * larg * zoom) + 1;
+    this.ap.style.left = Math.floor(this.posx * larg * zoom);
+  }
+  if ((ny >= 0) && (ny + this.tailley <= bmapTailley)) {
+    this.posy = ny;
+    this.img.style.top = Math.floor(this.posy * haut * zoom) + 1;
+    this.ap.style.top = Math.floor(this.posy * haut * zoom);
+  }
+}
+
+function deplaceversElem(nx,ny) {
+  if ((nx >= 0) && (nx + this.taillex <= bmapTaillex)) {
+    this.posx = nx;
+    this.img.style.left = Math.floor(this.posx * larg * zoom) + 1;
+    this.ap.style.left = Math.floor(this.posx * larg * zoom);
+  }
+  if ((ny >= 0) && (ny + this.tailley <= bmapTailley)) {
+    this.posy = ny;
+    this.img.style.top = Math.floor(this.posy * haut * zoom) + 1;
+    this.ap.style.top = Math.floor(this.posy * haut * zoom);
+  }
+}
+
+/*********/
+/* ZONES */
+/*********/
+
+function Zone (idx, nom, type, coul, opac, posx, posy, taillex, tailley, rot) {
+  this.idx = idx;
+  this.nom = nom;
+  this.type = type;
+  this.coul = coul;
+  this.opac = opac;
+  this.posx = posx;
+  this.posy = posy;
+  this.taillex = taillex;
+  this.tailley = tailley;
+  this.rot = rot;
+  this.ntiles = 0;
+  this.tiles = null;
+  this.installe = installeZone;
+  this.efface = effaceZone;
+  this.illumine = illumineZone;
+  this.desillumine = desillumineZone;
+  this.deplace = deplaceZone;
+  this.taille = tailleZone;
+  this.ajusterot = ajusterotZone;
+  this.deplacevers = deplaceversZone;
+  this.ajustenom = ajustenomZone;
+  this.creetile = creetileZone;
+}
+
+function deplaceversZone(nx,ny) {
+  if ((nx >= 0) && (ny >= 0) && (nx <= bmapTaillex-1) && (ny <= bmapTailley-1)) {
+    this.posx = nx;
+    this.posy = ny;
+    this.installe();
+  }
+}
+
+function deplaceZone(mx, my) {
+  var nx = this.posx + mx;
+  var ny = this.posy + my;
+  if ((nx >= 0) && (ny >= 0) && (nx <= bmapTaillex-1) && (ny <= bmapTailley-1)) {
+    this.posx = nx;
+    this.posy = ny;
+    this.installe();
+  }
+}
+
+function tailleZone(dx,dy) {
+  var ntx = this.taillex + dx;
+  var nty = this.tailley + dy;
+  if (ntx > 0) {
+    this.taillex = ntx;
+  }
+  if (nty > 0) {
+    this.tailley = nty;
+  }
+  this.installe();
+}
+
+function ajustenomZone (val) {
+  this.nom = val;
+  for (var i = 0; i < this.ntiles; i++) {
+    arrayget(this.tiles,i).title = val;
+  }
+}
+
+function ajusterotZone (val) {
+  if (this.type == rectangle) {
+    var tmp = this.taillex;
+    this.taillex = this.tailley;
+    this.tailley = tmp;
+  } else {
+    this.rot = (this.rot + val) % 8;
+  }
+  this.installe();
+}
+
+function installeZone () {
+  var i = 0;
+  var tile = null;
+  if ((this.ntiles > 0) && this.tiles) {
+    while (i < this.ntiles) {
+      divbmap.removeChild(arrayget(this.tiles,i));
+      i++;
+    }
+  }
+  this.ntiles = 0;
+  this.tiles = new Array();
+  switch (this.type) {
+    case 2:
+      this.creetile(this.posx, this.posy, this.taillex, this.tailley);
+      break;
+    case 1:
+      if (this.rot % 2 == 0) {
+        var minx = this.posx;
+        if ((this.rot == 4) || (this.rot == 6)) {
+          minx = this.posx - this.taillex;
+        }
+        var miny = this.posy;
+        if ((this.rot == 0) || (this.rot == 6)) {
+          miny = this.posy - this.taillex;
+        }
+        var maxx = minx + this.taillex - 1;
+        var maxy = miny + this.taillex - 1;
+        for (var x = minx; x <= maxx; x++) {
+          for (var y = miny; y <= maxy; y++) {
+            if (distxcase(this.posx,this.posy,x,y) <= this.taillex) {
+              this.creetile(x, y, 1, 1);
+            }
+          }
+        }
+      } else {
+        var invxy = -1;
+        var droite = this.posx;
+        var haut = this.posy - 1;
+        var croisshaut = -1;
+        if (this.rot == 1) { invxy = 1; droite = this.posy; haut = this.posx; croisshaut = 1; }
+        if (this.rot == 3) { invxy = -1; droite = this.posx - 1; haut = this.posy; croisshaut = 1; }
+        if (this.rot == 5) { invxy = 1; droite = this.posy - 1; haut = this.posx - 1; croisshaut = -1; }
+        var gauche = droite;
+        if (this.taillex % 2 == 0)
+          if (croisshaut * invxy == 1) {
+            gauche = droite - 1;
+          } else {
+            droite = gauche + 1;
+          }
+        var refx = this.posx - croisshaut;
+        var refy = this.posy;
+        if (invxy == 1) {
+          refx = this.posx;
+          refy = this.posy + croisshaut;
+        }
+        var ok = true;
+        for (var dy = 0; dy < this.taillex; dy++) {
+          var y = haut + dy * croisshaut;
+          for (var x = gauche; x <= droite; x++) {
+            var xx = x;
+            var yy = y;
+            if (invxy == 1) { xx = y; yy = x; }
+            ok = distxcase (this.posx, this.posy, xx, yy) <= this.taillex;
+            if (this.taillex % 2 == 1) {
+              ok = ok || (distxcase (refx, refy, xx, yy) <= this.taillex);
+            }
+            if (ok) this.creetile (xx, yy, 1, 1);
+          }
+          gauche--;
+          droite++;
+        }
+      }
+      break;
+    case 0:
+      for (var x = this.posx - this.taillex; x <= this.posx + this.taillex; x++) {
+        for (var y = this.posy - this.taillex; y <= this.posy + this.taillex; y++) {
+          if (distxcase(this.posx,this.posy,x,y) <= this.taillex) {
+            this.creetile(x, y, 1, 1);
+          }
+        }
+      }
+      break;
+    case 3:
+      for (var x = this.posx - this.taillex; x <= this.posx + this.taillex; x++) {
+        for (var y = this.posy - this.taillex; y <= this.posy + this.taillex; y++) {
+          if (distacase(this.posx,this.posy,x,y) <= this.taillex) {
+            this.creetile(x, y, 1, 1);
+          }
+        }
+      }
+  }
+}
+
+function creetileZone (ipx, ipy, itx, ity) {
+  var px = ipx;
+  var py = ipy;
+  var tx = itx;
+  var ty = ity;
+  if (px < 0) { tx = tx + px; px = 0; }
+  if (py < 0) { ty = ty + py; py = 0; }
+  if (px + tx > bmapTaillex) tx = bmapTaillex - px;
+  if (py + ty > bmapTailley) ty = bmapTailley - py;
+  if ((px <= bmapTaillex - 1) && (py <= bmapTailley - 1) && (tx >= 1) && (ty >= 0)) {
+    var tile = docbmap.createElement("div");
+    divbmap.appendChild(tile);
+    tile.title = this.nom;
+    tile.style.position = "absolute";
+    tile.style.opacity = this.opac;
+    tile.style.backgroundColor = this.coul;
+    tile.style.zIndex = 10;
+    tile.onclick = new Function ("listeZones();");
+    tile.style.width = Math.ceil(tx * larg * zoom);
+    tile.style.height = Math.ceil(ty * haut * zoom);
+    tile.style.left = Math.floor(px * larg * zoom);
+    tile.style.top = Math.floor(py * haut * zoom);
+    arrayset(this.tiles,this.ntiles,tile);
+    this.ntiles++;
+  }
+}
+
+function effaceZone () {
+  var i = 0;
+  if (this.tiles) {
+    while (i < this.ntiles) {
+      divbmap.removeChild(arrayget(this.tiles,i));
+      i++;
+    }
+  }
+  this.ntiles = 0;
+  this.tiles = null;
+}
+
+function illumineZone () {
+  for (var i = 0; i < this.ntiles; i++) {
+    arrayget(this.tiles,i).style.border = '2px solid white';
+    arrayget(this.tiles,i).style.opacity = 1;
+  }
+  setTimeout("arrayget(zones," + this.idx + ").desillumine();",1000);
+}
+
+function desillumineZone () {
+  for (var i = 0; i < this.ntiles; i++) {
+    arrayget(this.tiles,i).style.border = 0;
+    arrayget(this.tiles,i).style.opacity = this.opac;
+  }
+}
+
+</script></nowiki>

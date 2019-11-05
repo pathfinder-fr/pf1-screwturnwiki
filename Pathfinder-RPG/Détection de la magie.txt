@@ -1,0 +1,69 @@
+---
+Name: Pathfinder-RPG.Détection de la magie
+Title: Détection de la magie
+LastModified: 2018-02-12 08:11
+Categories:
+  - 'Manuel des joueurs'
+  - 'Règles officielles'
+  - 'Sort'
+  - 'Sort barde 0'
+  - 'sort chaman 0'
+  - 'Sort druide 0'
+  - 'Sort magicien 0'
+  - 'Sort prêtre 0'
+---
+'''École''' [[école divination|Divination]] ; '''Niveau''' [[barde|Bard]] 0, [[druide|Dru]] 0, [[ensorceleur|Ens]]/[[magicien|Mag]] 0, [[prêtre|Prê]] 0, [[conjurateur|Conj]] 0, [[inquisiteur|Inq]] 0, [[Magus]] 0, [[sorcière|Sor]] 0, [[Chaman|Cham]] 0, [[psychiste|Psy]] 0<br/>
+'''Temps d'incantation''' 1 [[action simple]]<br/>
+'''Composantes''' [[composantes|V, G]]<br/>
+'''Portée''' 18 m (12 {s:c})<br/>
+'''Zone d'effet''' [[émanation]] en forme de cône<br/>
+'''Durée''' [[Présentation des sorts#DUREE|concentration]], jusqu’à 1 minute/[[niveau]] (T)<br/>
+'''Jet de sauvegarde''' aucun ; '''Résistance à la magie''' non
+
+Grâce à ce sort, le personnage peut repérer les auras magiques. Les informations fournies par ''détection de la magie'' dépendent du temps que le personnage passe à étudier le sujet et ou la zone.
+
+Premier [[round]] : présence ou absence d’auras magiques.
+
+Deuxième [[round]] : nombre d’auras magiques et intensité de la plus puissante.
+
+Troisième [[round]] : intensité et emplacement précis de chaque aura. Dans le cas d’objets ou de créatures situées dans le champ de vision du lanceur de sort, il est possible de tenter des tests de [[connaissances|connaissances (mystères)]] pour déterminer l’[[école de magie]] associée à chacune des auras (un test par aura ; [[DD]] 15 + [[niveau du sort]], ou 15 + moitié du [[NLS|niveau de lanceur de sorts]] pour un effet qui ne serait pas un sort). Si l’aura émane d’un objet magique, le personnage peut tenter d’identifier ses propriétés (voir [[Art de la magie]]).
+
+Les auras magiques particulièrement puissantes ou encore les [[émanation|émanations]] magiques locales peuvent dissimuler les auras plus discrètes.
+
+'''Intensité de l’aura.''' La force d’une aura dépend du [[niveau du sort]] qui en est à l’origine ou du [[NLS|niveau de lanceur de sorts]] de la créature qui a créé l’objet magique d’où elle émane. Dans le cas d’auras qui correspondent à plusieurs catégories, le sort indique toujours la plus puissante.
+
+<center>
+{| CLASS="tablo"
+|- CLASS="titre"
+| ROWSPAN="2" | Sort ou objet
+| COLSPAN="4" CLASS="avecsoustitre" | Intensité de l'aura
+|- CLASS="soustitre"
+| Faible || Modérée || Puissante || Surpuissante
+|- CLASS="premier"| 
+| Sort actif ([[niveau de sort]]) || 3 ou moins || 4–6 || 7–9 || 10 ou + (puissance divine)
+|- CLASS="alt"
+| Objet magique ([[NLS]]) || 5 ou moins || 6–11 || 12–20 || 21 ou + (artefact)
+|}
+</center>
+
+'''Aura persistante.''' Une aura magique ne disparaît pas immédiatement lorsque sa source est dissipée (s’il s’agit d’un sort) ou détruite (s’il s’agit d’un objet magique) mais persiste pendant un certain temps. Une ''détection de la magie'' dirigée vers la zone en question révélera une aura de puissance ténue (moins puissante encore qu’une aura faible). La période de temps pendant laquelle l’aura persiste dépend de l’intensité d’origine de l’aura.
+
+<center>
+{| CLASS="tablo"
+|- CLASS="titre"
+| Intensité de l’aura || Durée
+|- CLASS="premier"
+| Faible || 1d6 [[round|rounds]]
+|- CLASS="alt"
+| Modérée || 1d6 minutes
+|-
+| Puissante || 1d6x10 minutes
+|- CLASS="alt"
+| Surpuissante || 1d6 jours
+|}
+</center>
+
+Les [[sous-type élémentaire|élémentaires]] et les [[type extérieur|Extérieurs]] ne sont pas magiques de manière inhérente mais, s’ils ont été convoqués par magie, ''détection de la magie'' repère l’aura du sort qui les a invoqués. Le personnage peut pivoter sur lui-même et examiner une nouvelle zone chaque [[round]]. Le sort fonctionne à travers les barrières si celles-ci ne sont pas trop épaisses : il est bloqué par 30 cm de pierre, 2,5 cm de métal, une mince feuille de plomb ou 90 cm de bois ou de terre.
+
+Il est possible d’user de ''[[permanence]]'' sur ''détection de la magie''.
+

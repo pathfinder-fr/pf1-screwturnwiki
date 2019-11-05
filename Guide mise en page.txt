@@ -1,0 +1,187 @@
+---
+Name: Guide mise en page
+Title: Guide de création : mettre le texte en page
+LastModified: 2017-05-16 12:48
+---
+<div class="fright">{s:MenuGuide}</div>
+Cette section du guide aborde les éléments les plus importants de la mise en page : on y traite des styles d'écriture (gras, italique, souligné), des titres, des listes et des liens. Ces informations sont comparables (tant au niveau de leur nature qu'au niveau de la difficulté) à l'utilisation des balises (comme {{<nowiki>[b]</nowiki>}} ou {{<nowiki>[url]</nowiki>}} sur le forum).
+
+{s:Reference|STYLE}
+===Style de texte===
+
+On peut varier le style du texte pour mettre en évidence certains mots ou certaines parties. Cela s'effectue en encadrant le texte à modifier par des balises. Ces dernières sont toutefois différentes de celles qu'on utilise sur le forum (et, la plupart du temps, on utilise la même balise avant et après le texte à modifier). En voici quelques-unes :
+
+{| CLASS="tablo autoalt centre"
+|+ Styles de texte
+|- CLASS="titre"
+| Style || Code || Exemple || Rendu
+|- CLASS="premier"
+| Gras || {{<nowiki>'''</nowiki>}} || {{<nowiki>'''texte'''</nowiki>}} || '''texte'''
+|-
+| Italique || {{<nowiki>''</nowiki>}} || {{<nowiki>''texte''</nowiki>}} || ''texte''
+|-
+| Gras et italique || {{<nowiki>'''''</nowiki>}} || {{<nowiki>'''''texte'''''</nowiki>}} || '''''texte'''''
+|-
+| Souligné || {{<nowiki>__</nowiki>}} || {{<nowiki>__texte__</nowiki>}} || __texte__
+|-
+| Barré || {{<nowiki>--</nowiki>}} || {{<nowiki>--texte--</nowiki>}} || --texte--
+|-
+| Code || {{<nowiki>&#123;&#123; &#125;&#125;</nowiki>}} || {{<nowiki>&#123;&#123;texte&#125;&#125;</nowiki>}} || {{texte}}
+|}
+
+{s:Reference|TITRES}
+===Titres et sous-titres===
+
+On forme les titres en les encadrant de balises formées d'un certain nombre de symboles "=". Le nombre exact dépend de la position du titre dans la hiérarchie : ainsi, si un titre utiliser trois "=", ses sous-titres directs utiliseront quatre "=" et les sous-sous-titres de ces sous-titres seront entourés de cinq "=".
+
+Ainsi,
+
+@@===Titre===
+====Sous-titre====
+=====Sous-sous-titre=====@@
+
+donnera
+
+<div style="margin-left: 40px">
+===Titre===
+====Sous-titre====
+=====Sous-sous-titre=====
+</div>
+
+Le format "titre à 2 =" est utilisé pour le titre de la page (celui qui est affiché en haut, comme "Guide de création : mettre le texte en page" dans le cas de cette page. Il convient donc d'utiliser au plus des "titres à 3 =" dans le contenu de la page.
+
+Note. N'ajoutez pas d'espaces entre les symboles "=" et les titres (l'apparence ne changerait pas, mais les espaces pourraient créer quelques problèmes pour des liens directs vers une section).
+
+Note. Placez exactement une et une seule ligne blanche avant le titre (à moins qu'un code, comme une référence, ne doive être inscrit sur la ligne juste avant le titre). N'écrivez rien d'autre sur la ligne où le titre se trouve (uniquement les "=" qui précèdent le titre, le titre, et les "=" qui le suivent).
+
+{s:Reference|LISTES}
+===Listes===
+
+Pour construire une liste, il suffit de faire précéder ses éléments d'une astérisque. La mise en place des éléments d'une ligne (l'indentation) se fait automatiquement ; inutile donc d'ajouter des espaces pour aligner le texte. Ainsi,
+
+@@* un
+* deux
+* trois@@
+
+donnera
+
+* un
+* deux
+* trois
+
+On peut créer des listes imbriquées en ajoutant d'autres astérisques. Pour un second niveau, on utilise deux astérisques ; trois pour un troisième niveau ; et ainsi de suite. Par exemple,
+
+@@* un
+** second niveau
+*** troisième niveau
+** retour au second niveau
+** encore le second niveau
+* premier niveau@@
+
+donnera
+
+* un
+** second niveau
+*** troisième niveau
+** retour au second niveau
+** encore le second niveau
+* premier niveau
+
+'''Note.''' Le dernier élément d'une liste doit __toujours__ être suivi d'une ligne blanche. Sans cela, le wiki peut mal interpréter le code que vous lui donnez.
+
+{s:Reference|INDENTATIONS}
+===Indentations===
+
+Pour indenter (reculer vers la droite) un paragraphe, il suffit d'ajouter ":" au début. Pour une indentation plus forte, on peut utiliser "::", ":::", etc. Ainsi,
+
+@@: Exemple de paragraphe indenté
+:: Exemple de paragraphe doublement indenté@@
+
+donnera
+
+: Exemple de paragraphe indenté
+
+:: Exemple de paragraphe doublement indenté
+
+{s:Reference|SAUTSDELIGNE}
+===Sauts de ligne===
+
+Deux lignes de texte séparées par un simple retour chariot simple seront affichées sur la même ligne.
+
+@@Une première phrase.
+Une seconde phrase.@@
+
+donnera
+
+:Une première phrase. Une seconde phrase.
+
+Pour effectuer un saut de paragraphe, il suffit d'insérer une ligne vide entre les deux lignes.
+@@Une première phrase.
+
+Une seconde phrase.@@
+
+donnera
+
+:Une première phrase.
+: &nbsp;
+:Une seconde phrase.
+
+Pour effectuer un saut à la ligne simple, il existe plusieurs techniques :
+* Taper au moins deux espaces à la fin de la ligne
+* Terminer une ligne par le caractère \  
+* Utiliser le tag spécial <nowiki>{br}</nowiki> ('''déconseillé sauf si les autres ne fonctionnent pas''')
+* Utiliser directement la balise HTML &lt;br&gt; ('''déconseillé''')
+
+'''Note.''' Pour l'exemple suivant, les caractères espaces seront représentés par des points '.'.
+
+@@Ligne 1{br}
+Ligne 2..
+Ligne 3\
+Ligne 4
+@@
+
+donnera
+
+:Ligne 1
+:Ligne 2  
+:Ligne 3
+:Ligne 4
+
+{s:Reference|LIENS}
+
+
+===Liens vers d'autres pages===
+
+====Liens simples====
+
+Les liens sont un des aspects fondamentaux des wikis, car c'est grâce à eux qu'un lecteur peut passer d'une page à une autre. Pour créer un lien, il suffit d'inscrire le nom de la page vers laquelle le lien doit pointer et de l'entourer de deux paires de crochets.
+
+Par exemple, comme cette page a pour nom "Guide mise en page", on peut créer un lien [[Guide mise en page]] en utilisant le code {{<nowiki>[[Création]]</nowiki>}}.
+
+'''Note.''' Le code wiki accepte également l'utilisation de simples crochets autour du nom du lien, mais cette option est à déconseiller, car les futures versions du wiki pourraient bien ne plus l'accepter.
+
+====Liens avec un texte spécifique====
+
+Chaque lien est composé de deux éléments distincts :
+* une page cible, qui est la page vers laquelle le lien mène, celle qui sera affichée quand le lecteur cliquera sur le lien, et
+* un texte affiché, qui peut être identique au nom de la page cible mais qui peut tout aussi bien être quelque chose de complètement différent.
+
+Par défaut, un lien simple produit un texte qui correspond au nom de la page cible. Mais il est possible de spécifier un texte différent. C'est ce qu'on fait généralement quand on veut inclure le lien dans une phrase et que le mot de la phrase est différent du nom de la page (par exemple "naine" au lieu de "Nains", ou même "guerriers" au lieu de "Guerrier").
+
+Pour créer un lien vers la page "Guide mise en page" en utilisant le texte "mettre en page un texte", on utilise le code {{<nowiki>[[Guide mise en page|mettre en page un texte]]</nowiki>}}, ce qui donne : [[Guide mise en page|mettre en page un texte]].
+
+====Liens et noms qualifiés====
+
+Le wiki Pathfinder-FR est composé de plusieurs [[namespace|namespaces]]. Si la page-cible se trouve dans le même [[namespace]] que la page qui contient le lien, on peut tout simplement ignorer la notion de [[namespace]] et se contenter de faire un lien simple (voir plus haut). Par contre, si on veut créer un lien vers une page qui se trouve dans un autre [[namespace]], il faut absolument préciser le nom de celui-ci. Cela se fait en remplaçant le nom de la page par son "nom qualifié", c'est-à-dire son nom précédé du nom de son [[namespace]] et d'un point.
+
+Ainsi, pour faire un lien vers la page "Guerrier" du namespace Pathfinder-RPG à partir d'une page du namespace Golarion, il faut utiliser la syntaxe suivante : {{<nowiki>[[++Pathfinder-RPG.Guerrier]]</nowiki>}}.
+
+'''Note.''' N'oubliez pas les deux "+" avant le nom du namespace !
+
+'''Note.''' Pour créer un lien vers une page située dans le [[namespace]] "Root", on omet le nom de [[namespace]] et le point mais on conserve les deux "+". Par exemple : {{<nowiki>[[++Guide mise en page]]</nowiki>}}
+
+Lorsqu'un lien utilise un nom quantifié, on spécifie généralement le texte qu'on veut afficher. En effet, à défaut, un lien comme {{<nowiki>[[++Pathfinder-RPG.Guerrier]]</nowiki>}} produira un résultat utilisant le nom qualifié de la cible, c'est-à-dire : [[++Pathfinder-RPG.Guerrier]]. Pour spécifier un texte affiché différent (et moins rébarbatif pour le lecteur), comme ci-dessus, on utilise une barre verticale qu'on fait suivre du texte à afficher.
+
+Par exemple, pour produire la phrase "Les chefs du culte de Barbazul sont des [[++Pathfinder-RPG.Guerrier|guerriers]] de niveau 3." avec un lien vers la page "Guerrier", on a utilisé le code {{<nowiki>[[++Pathfinder-RPG.Guerrier|guerriers]]</nowiki>}}.
+
+{s:Image|Illustrations/Guide/guide03.jpg|90%|centre}

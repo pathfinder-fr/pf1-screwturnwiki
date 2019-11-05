@@ -1,0 +1,123 @@
+---
+Name: Pathfinder-RPG.Connaissances
+Title: Connaissances
+LastModified: 2017-12-02 23:49
+Categories:
+  - 'Compétence'
+---
+{s:MenuCompétences}
+
+'''Caractéristique associée''' : [[Intelligence]]
+
+'''Formation nécessaire''' : oui 
+
+''Le personnage possède des connaissances dans un domaine spécifique, qui lui permettent de répondre à des questions simples ou complexes. Comme les compétences d’Artisanat, de Profession et de Représentation, cette compétence regroupe plusieurs spécialisations. Les plus courantes sont reprises ci-dessous.''
+
+* Mystères ([[type créature artificielle|créatures artificielles]], [[type créature magique|créatures magiques]], [[type dragon|dragons]], mystères anciens, symboles ésotériques, traditions magiques)
+* Exploration souterraine ([[type aberration|aberrations]], cavernes, spéléologie, [[type vase|vases]])
+* Ingénierie (aqueducs, bâtiments, fortifications, ponts)
+* Géographie (climat, pays, peuples, types de terrain)
+* Histoire (colonies, guerres, histoire des villes, migrations)
+* Folklore local (coutumes, habitants, [[type humanoïde|humanoïdes]], légendes, lois et traditions, personnalités)
+* Nature ([[type animal|animaux]], climat, cycles et saisons, [[type fée|fées]], [[type humanoïde monstrueux|humanoïdes monstrueux]], [[type plante|plantes]], [[type vermine|vermines]])
+* Noblesse (lignées, héraldique, personnalités, familles royales)
+* Plans ([[type Extérieur|Extérieurs]], magie des [[plans]], [[plans|plan Astral]], [[plans|plan Éthéré]], [[plans|plans Extérieurs]], [[plans|plans Intérieurs]])
+* Religion (dieux et déesses, [[type mort-vivant|morts-vivants]], mythologie, symboles sacrés, tradition ecclésiastique)
+
+===Test de compétence===
+
+Le personnage parvient à répondre à une question ayant trait à sa spécialité s’il réussit un test de compétence d’un [[DD]] de 10 (pour une question basique), 15 (pour une question facile) ou 20, voire 30 (pour une question difficile ou très difficile).
+
+Le personnage peut également utiliser cette compétence pour reconnaître un monstre et identifier ses particularités ou ses points faibles. En général, le [[DD]] du test vaut 10 + le [[FP]] du monstre. Dans le cas de monstres communs (comme des gobelins), le [[DD]] de ce test vaut 5 + le [[FP]] du monstre. Pour des monstres spécialement rares (comme la tarrasque), le [[DD]] de ce test vaut 15 + le [[FP]] du monstre ou plus encore. Un test réussi permet au personnage de se souvenir d’une information utile se rapportant au monstre. Il se rappelle d’une information utile en plus par tranche de 5 points entre son résultat et le [[DD]] du test. Certaines compétences de Connaissances peuvent également être utilisées pour des tâches spécifiques, comme indiqué dans la table ci-après.
+
+<center>
+{| CLASS="tablo"
+|+ DD des tests de Connaissances
+|- CLASS="titre"
+| Tâche || Domaine d’étude || DD
+|- CLASS="premier"
+| Identifier les auras magiques avec un sort de ''[[détection de la magie]]'' || mystères || 15 + [[niveau de sort|niveau du sort]]
+|- CLASS="alt"
+| Identifier un effet de sort déjà actif || mystères || 20 + [[niveau de sort|niveau du sort]]
+|-
+| Reconnaître des matériaux créés par magie || mystères || 20 + [[niveau de sort|niveau du sort]]
+|- CLASS="alt"
+| Identifier un sort ayant pris le personnage pour cible || mystères || 25 + [[niveau de sort|niveau du sort]]
+|-
+| Identifier un sort lancé en utilisant une composante matérielle || mystères || 20
+|- CLASS="alt"
+| Identifier un danger souterrain || exploration souterraine || 15 + [[FP]] du danger
+|-
+| Identifier un minerai, une roche ou un métal || exploration souterraine || 10
+|- CLASS="alt"
+| Déterminer l’inclinaison d’une pente || exploration souterraine || 15
+|-
+| Déterminer la profondeur à laquelle le personnage se trouve (sous terre) || exploration souterraine || 20
+|- CLASS="alt"
+| Reconnaître une construction dangereuse || ingénierie || 10
+|-
+| Déterminer le style ou l’âge d’un édifice || ingénierie || 15
+|- CLASS="alt"
+| Déterminer les points faibles d’un édifice || ingénierie || 20
+|-
+| Reconnaître l’ethnie ou l’accent d’une créature || géographie || 10
+|- CLASS="alt"
+| Connaître les caractéristiques géographiques d’une région || géographie || 15
+|-
+| Connaître l’emplacement du lieu d’habitation ou du site important le plus proche d’un endroit donné || géographie || 20
+|- CLASS="alt"
+| Connaître un événement récent ou un événement historique important || histoire || 10
+|-
+| Déterminer la date approximative où un événement spécifique a eu lieu || histoire || 15
+|- CLASS="alt"
+| Connaître un événement historique ancien ou mal connu || histoire || 20
+|-
+| Connaître les lois, les dirigeants et les endroits populaires de la région || folklore local || 10
+|- CLASS="alt"
+| Connaître une rumeur assez répandue ou une tradition locale || folklore local || 15
+|-
+| Connaître une organisation secrète, ses dirigeants et savoir comment les rencontrer || folklore local || 20
+|- CLASS="alt"
+| Identifier un danger naturel || nature || 15 + [[FP]] du danger
+|-
+| Identifier une plante ou un animal commun || nature || 10
+|- CLASS="alt"
+| Identifier un phénomène climatique anormal || nature || 15
+|-
+| Reconnaître la main de l’homme dans un élément qui semble naturel || nature || 20
+|- CLASS="alt"
+| Connaître les dirigeants actuels et leurs blasons || noblesse || 10
+|-
+| Connaître les règles de l’étiquette || noblesse || 15
+|- CLASS="alt"
+| Connaître les prétendants au trône || noblesse || 20
+|-
+| Connaître le nom des [[plans]] || plans || 10
+|- CLASS="alt"
+| Reconnaître le [[plans|plan]] sur lequel le personnage se trouve || plans || 15
+|-
+| Identifier l’origine d’une créature provenant d’un autre [[plans|plan]] || plans || 20
+|- CLASS="alt"
+| Reconnaître le symbole d’une divinité courante ou identifier un membre de son clergé || religion || 10
+|-
+| Connaître les grandes lignes de la mythologie et de la doctrine d’une foi || religion || 15
+|- CLASS="alt"
+| Reconnaître le symbole d’une divinité peu connue ou identifier un membre de son clergé || religion || 20
+|-
+| Connaître les capacités et les points faibles d’un monstre || variable || 10 + [[FP]] du monstre
+|}
+</center>
+
+
+===Action===
+
+Généralement, aucune. La plupart du temps, les tests de Connaissances ne prennent pas d’action (voir « [[Connaissances#UTILSANSFOR|Utilisation sans formation]] », ci-dessous).
+
+===Nouvelles tentatives===
+
+Non. Le test de compétence représente ce que le personnage sait ; réfléchir de nouveau à la question ne lui permet pas d’en apprendre davantage sur le sujet.
+
+{s:Reference|UTILSANSFOR}
+===Utilisation sans formation===
+
+Un test sans formation échoue automatiquement lorsque le [[DD]] est supérieur à 10. Si le personnage a accès à une grande bibliothèque consacrée à un domaine particulier, cette restriction ne s’applique pas mais le temps nécessaire pour conduire une recherche passe à 1d4 heures. Dans le cas de bibliothèques très complètes, le personnage pourrait même bénéficier d’un bonus aux tests de Connaissances pour les domaines d’étude qui y sont représentés.

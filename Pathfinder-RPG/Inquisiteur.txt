@@ -1,0 +1,679 @@
+---
+Name: Pathfinder-RPG.Inquisiteur
+Title: L'inquisiteur
+LastModified: 2019-08-30 02:51
+Categories:
+  - 'Classe'
+  - 'Manuel des joueurs, règles avancées'
+---
+{s:MenuClasses}
+<div class="fright">'''''Voir aussi les [[jugements]] d'inquisiteur.'''''<br/>
+'''''Voir aussi la [[liste des sorts dinquisiteur|liste des sorts d'inquisiteur]].'''''<br/>
+'''''Voir aussi la liste des [[inquisitions]].'''''<br/>
+{s:PM0|inquisiteur}'''Voir les archétypes de l'inquisiteur'''&emsp;
+<ul ID="inquisiteur" CLASS="listecachée cadrebas">
+  <li>[[Brise-sortilège (inquisiteur)|Brise-sortilège]] (AG)</li>
+  <li>[[Chasseur de sorcières (inquisiteur)|Chasseur de sorcières]] (AG)</li>
+  <li>[[Chasseur de vampire (inquisiteur)|Chasseur de vampire]] (MMI)</li>
+  <li>[[Exarque (inquisiteur)|Exarque]] ([[nain|Nain]]) (MR)</li>
+  <li>[[Exorciste (inquisiteur)|Exorciste]] (AM)</li>
+  <li>[[Exterminateur sacré (inquisiteur)|Exterminateur sacré]] (MCA)</li>
+  <li>[[Hérétique (inquisiteur)|Hérétique]] (AM)</li>
+  <li>[[Iconoclaste (inquisiteur)|Iconoclaste]] (AG)</li>
+  <li>[[Immolateur (inquisiteur)|Immolateur]] ([[ifrit (race)|Ifrit]]) (MR)</li>
+  <li>[[Infiltrateur (inquisiteur)|Infiltrateur]] (AM)</li>
+  <li>[[Mangeur de pêchés (inquisiteur)|Mangeur de pêchés]] (AM)</li>
+  <li>[[Maître chasseur sacré (inquisiteur)|Maître chasseur sacré]] (MCA)</li>
+  <li>[[Parricide (inquisiteur)|Parricide]] ([[dhampir (race)|Dhampir]]) (MR)</li>
+  <li>[[Prêcheur (inquisiteur)|Prêcheur]] (AM)</li>
+</ul></div>
+
+
+
+
+
+{s:APG}
+''Sombre et déterminé, l'inquisiteur débusque les ennemis de la foi et use de tromperie et de ruse quand la vertu et la pureté ne suffisent pas. Même si les inquisiteurs sont dévoués à une divinité, ils sont au-dessus des règles et des conventions de leur église. Ils répondent de leurs actes devant leur dieu et leur propre sens de la justice seulement, et ils sont prêts à appliquer des mesures extrêmes pour atteindre leurs objectifs.''
+
+{s:Reference|TABLEINQUISITEUR}
+<center>
+{| CLASS="tablo"
+|+ L'Inquisiteur
+|- CLASS="titre"
+| ROWSPAN="2" | Niveau
+| ROWSPAN="2" | BBA
+| ROWSPAN="2" | Réflexes
+| ROWSPAN="2" | Vigueur
+| ROWSPAN="2" | Volonté
+| ROWSPAN="2" CLASS="gauche" | Spécial
+| COLSPAN="9" CLASS="avecsoustitre" | Sorts par jour
+|- CLASS="soustitre"
+| 1er
+| 2e
+| 3e
+| 4e
+| 5e
+| 6e
+| 
+|- CLASS="premier"
+| 1
+| +0
+| +0
+| +2
+| +2
+| CLASS="gauche" | [[Inquisiteur#DOMAINE|domaine ou inquisition]], [[Inquisiteur#JUGEMENT|jugement 1/jour]], [[Inquisiteur#REGARDSEVERE|regard sévère]],<br/>[[Inquisiteur#CONNAISSANCEDESMONSTRES|connaissance des monstres]], [[Inquisiteur#ORAISONS|oraisons]]
+| 1
+| -
+| -
+| -
+| -
+| -
+|- CLASS="alt"
+| 2
+| +1
+| +0
+| +3
+| +3
+| CLASS="gauche" | [[Inquisiteur#INITIATIVERUSEE|initiative rusée]], [[Inquisiteur#PISTAGE|pistage]], <br/>[[Inquisiteur#DETECTIONDALIGNEMENT|détection d'alignement]], 
+| 2
+| -
+| -
+| -
+| -
+| -
+|-
+| 3
+| +2
+| +1
+| +3
+| +3
+| CLASS="gauche" | [[Inquisiteur#TACTIQUESOLITAIRE|tactique solitaire]], [[Inquisiteur#DONDETRAVAILENEQUIPE|don de travail en équipe]]
+| 3
+| -
+| -
+| -
+| -
+| -
+|- CLASS="alt"
+| 4
+| +3
+| +1
+| +4
+| +4
+| CLASS="gauche" |  [[Inquisiteur#JUGEMENT|jugement 2/jour]]
+| 3
+| 1
+| -
+| -
+| -
+| -
+|-
+| 5
+| +3
+| +1
+| +4
+| +4
+| CLASS="gauche" | [[Inquisiteur#TUEUR|tueur]], [[Inquisiteur#DETECTIONDESMENSONGES|détection des mensonges]]
+| 4
+| 2
+| -
+| -
+| -
+| -
+|- CLASS="alt"
+| 6
+| +4
+| +2
+| +5
+| +5
+| CLASS="gauche" | [[Inquisiteur#DONDETRAVAILENEQUIPE|don de travail en équipe]]
+| 4
+| 3
+| -
+| -
+| -
+| -
+|-
+| 7
+| +5
+| +2
+| +5
+| +5
+| CLASS="gauche" | [[Inquisiteur#JUGEMENT|jugement 3/jour]]
+| 4
+| 3
+| 1
+| -
+| -
+| -
+|- CLASS="alt"
+| 8
+| +6/+1
+| +2
+| +6
+| +6
+| CLASS="gauche" | [[Inquisiteur#SECONDJUGEMENT|second jugement]]
+| 4
+| 4
+| 2
+| -
+| -
+| -
+|-
+| 9
+| +6/+1
+| +3
+| +6
+| +6
+| CLASS="gauche" | [[Inquisiteur#DONDETRAVAILENEQUIPE|don de travail en équipe]]
+| 5
+| 4
+| 3
+| -
+| -
+| -
+|- CLASS="alt"
+| 10
+| +7/+2
+| +3
+| +7
+| +7
+| CLASS="gauche" |  [[Inquisiteur#JUGEMENT|jugement 4/jour]] 
+| 5
+| 4
+| 3
+| 1
+| -
+| -
+|-
+| 11
+| +8/+3
+| +3
+| +7
+| +7
+| CLASS="gauche" | [[Inquisiteur#VAILLANT|vaillant]]
+| 5
+| 4
+| 4
+| 2
+| -
+| -
+|- CLASS="alt"
+| 12
+| +9/+4
+| +4
+| +8
+| +8
+| CLASS="gauche" | [[Inquisiteur#TUEURSUPERIEUR|tueur supérieur]], [[Inquisiteur#DONDETRAVAILENEQUIPE|don de travail en équipe]]
+| 5
+| 5
+| 4
+| 3
+| -
+| -
+|-
+| 13
+| +9/+4
+| +4
+| +8
+| +8
+| CLASS="gauche" | [[Inquisiteur#JUGEMENT|jugement 5/jour]]
+| 5
+| 5
+| 4
+| 3
+| 1
+| -
+|- CLASS="alt"
+| 14
+| +10/+5
+| +4
+| +9
+| +9
+| CLASS="gauche" | [[Inquisiteur#EXPLOITERLESFAIBLESSES|exploiter les faiblesses]] 
+| 5
+| 5
+| 4
+| 4
+| 2
+| -
+|-
+| 15
+| +11/+6/+1
+| +5
+| +9
+| +9
+| CLASS="gauche" | [[Inquisiteur#DONDETRAVAILENEQUIPE|don de travail en équipe]]
+| 5
+| 5
+| 5
+| 4
+| 3
+| -
+|- CLASS="alt"
+| 16
+| +12/+7/+2
+| +5
+| +10
+| +10
+| CLASS="gauche" |  [[Inquisiteur#JUGEMENT|jugement 6/jour]], [[Inquisiteur#TROISIEMEJUGEMENT|troisième jugement]]
+| 5
+| 5
+| 5
+| 4
+| 3
+| 1
+|-
+| 17
+| +12/+7/+2
+| +5
+| +10
+| +10
+| CLASS="gauche" | [[Inquisiteur#EXTERMINER|exterminer]]
+| 5
+| 5
+| 5
+| 4
+| 4
+| 2
+|- CLASS="alt"
+| 18
+| +13/+8/+3
+| +6
+| +11
+| +11
+| CLASS="gauche" | [[Inquisiteur#DONDETRAVAILENEQUIPE|don de travail en équipe]]
+| 5
+| 5
+| 5
+| 5
+| 4
+| 3
+|-
+| 19
+| +14/+9/+4
+| +6
+| +11
+| +11
+| CLASS="gauche" | [[Inquisiteur#JUGEMENT|jugement 7/jour]]
+| 5
+| 5
+| 5
+| 5
+| 5
+| 4
+|- CLASS="alt"
+| 20
+| +15/+10/+5
+| +6
+| +12
+| +12
+| CLASS="gauche" | [[Inquisiteur#VERITABLEJUGEMENT|véritable jugement]]
+| 5
+| 5
+| 5
+| 5
+| 5
+| 5
+|}
+</center>
+
+
+{s:ImageDroite|Illustrations/PNJ/Imrijka.jpg|30%}
+
+'''Rôle.''' Les inquisiteurs se déplacent souvent pour traquer leurs ennemis, à l'affût de toute nouvelle menace. Ils voyagent donc beaucoup en compagnie d'autres gens, ne serait-ce que pour masquer leur présence. Quand ils peuvent, les inquisiteurs travaillent avec les autres membres de leur congrégation mais même ces alliés ne sont pas au-dessus de leurs soupçons.
+
+'''Alignement.''' L'[[alignement]] de l'inquisiteur ne doit pas s'éloigner de celui de sa divinité de plus d'un cran, que ce soit sur l'axe [[alignement#LOICHAOS|Loi/Chaos]] ou [[alignement#BIENMAL|Bien/Mal]].
+
+'''Dés de vie.''' d8.
+
+=== Compétences de classe ===
+
+Les compétences de classe de l’inquisiteur sont [[Art de la magie]] (Int), [[Artisanat]] (Int), [[Bluff]] (Cha),  [[Connaissances]] (exploration souterraine) (Int), [[Connaissances]] (mystères) (Int), [[Connaissances]] (nature) (Int), [[Connaissances]] (plans) (Int), [[Connaissances]] (religion) (Int), [[Déguisement]] (Cha), [[Diplomatie]] (Cha), [[Discrétion]] (Dex), [[Équitation]] (Dex), [[Escalade]] (For), [[Intimidation]] (Cha), [[Natation]] (For), [[Perception]] (Sag), [[Premiers secours]] (Sag), [[Profession]] (Sag), [[Psychologie]] (Sag), [[Survie]] (Sag).
+
+'''Rangs de compétence par niveau.''' 6 + modificateur d’[[Intelligence]].
+
+
+===Descriptif de la classe===
+
+Les aptitudes de l'inquisiteur sont décrites ci-dessous.
+
+====Armes et armures====
+
+L'inquisiteur est formé au maniement de toutes les [[armes courantes]], ainsi qu'à celui des arbalètes à répétition, des arbalètes de poing, des arcs courts, des arcs longs et de l'arme de prédilection de son dieu. Il est également formé au port des [[armure légère|armures légères]] et [[armure intermédiaire|intermédiaires]], et à l'utilisation des boucliers (à l'exception des pavois).
+
+<div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+{s:Reference|SORTSCONNUSDELINQUISITEUR}
+<center>
+{| CLASS="tablo"
+|+ Sorts connus par l'inquisiteur
+|- CLASS="titre"
+| ROWSPAN="2" | Niveau
+| COLSPAN="10" CLASS="avecsoustitre gauche" | Sorts connus
+|- CLASS="soustitre"
+| 0
+| 1er
+| 2e
+| 3e
+| 4e
+| 5e
+| 6e
+|- CLASS="premier"
+| 1
+| 4
+| 2
+| -
+| -
+| -
+| -
+| -
+|- CLASS="alt"
+| 2
+| 5
+| 3
+| -
+| -
+| -
+| -
+| -
+|-
+| 3
+| 6
+| 4
+| -
+| -
+| -
+| -
+| -
+|- CLASS="alt"
+| 4
+| 6
+| 4
+| 2
+| -
+| -
+| -
+| -
+|-
+| 5
+| 6
+| 4
+| 3
+| -
+| -
+| -
+| -
+|- CLASS="alt"
+| 6
+| 6
+| 4
+| 4
+| -
+| -
+| -
+| -
+|-
+| 7
+| 6
+| 5
+| 4
+| 2
+| -
+| -
+| -
+|- CLASS="alt"
+| 8
+| 6
+| 5
+| 4
+| 3
+| -
+| -
+| -
+|-
+| 9
+| 6
+| 5
+| 4
+| 4
+| -
+| -
+| -
+|- CLASS="alt"
+| 10
+| 6
+| 5
+| 5
+| 4
+| 2
+| -
+| -
+|-
+| 11
+| 6
+| 6
+| 5
+| 4
+| 3
+| -
+| -
+|- CLASS="alt"
+| 12
+| 6
+| 6
+| 5
+| 4
+| 4
+| -
+| -
+|-
+| 13
+| 6
+| 6
+| 5
+| 5
+| 4
+| 2
+| -
+|- CLASS="alt"
+| 14
+| 6
+| 6
+| 6
+| 5
+| 4
+| 3
+| -
+|-
+| 15
+| 6
+| 6
+| 6
+| 5
+| 4
+| 4
+| -
+|-
+|- CLASS="alt"
+| 16
+| 6
+| 6
+| 6
+| 5
+| 5
+| 4
+| 2
+|-
+| 17
+| 6
+| 6
+| 6
+| 6
+| 5
+| 4
+| 3
+|- CLASS="alt"
+| 18
+| 6
+| 6
+| 6
+| 6
+| 5
+| 4
+| 4
+|-
+| 19
+| 6
+| 6
+| 6
+| 6
+| 5
+| 5
+| 4
+|- CLASS="alt"
+| 20
+| 6
+| 6
+| 6
+| 6
+| 6
+| 5
+| 5
+|}
+</center></div></div>
+====Sorts====
+
+L'inquisiteur lance des sorts divins tirés de la [[Liste des sorts dinquisiteur|liste de sorts de l'inquisiteur]]. Il peut lancer n'importe quel sort de sa connaissance quand il le désire, sans avoir besoin de le préparer à l'avance, en admettant qu'il lui reste des sorts utilisables dans la journée.
+
+Pour apprendre ou lancer un sort, l'inquisiteur doit avoir une valeur de [[Sagesse]] au moins égale à 10 + niveau du sort. Le [[DD]] du [[jet de sauvegarde]] contre les sorts de l'inquisiteur est de 10 + niveau du sort + modificateur de Sagesse de l'inquisiteur.
+
+Un inquisiteur ne peut lancer qu'un certain nombre de sorts par jour. Son nombre de sorts quotidien est donné dans la table "[[Inquisiteur#TABLEINQUISITEUR|L'Inquisiteur]]". De plus, il reçoit des sorts supplémentaires quotidiens s'il a une grande valeur de [[Sagesse]].
+
+La sélection de sorts de l'inquisiteur est extrêmement limitée. L'inquisiteur commence le jeu avec quatre sorts de niveau 0 et deux sorts de niveau 1, de son choix. A chaque nouveau niveau, il gagne un ou plusieurs sorts, comme indiqué sur la table [[Inquisiteur#SORTSCONNUSDELINQUISITEUR|Sorts connus par l'inquisiteur]] (contrairement aux sorts quotidiens, le nombre de sorts connus de l'inquisiteur ne dépend pas de sa [[Sagesse]]. Les données de cette table sont fixes).
+
+Au niveau 5 et par la suite tous les trois niveaux (8, 11, etc.), l'inquisiteur peut apprendre un nouveau sort à la place d'un qu'il connaît déjà. L'inquisiteur "perd" l'ancien sort au profit du nouveau. Le nouveau sort doit être du même niveau que celui contre lequel il l'échange et au moins d'un niveau de moins que le sort de plus haut niveau connu de l'inquisiteur. A chaque niveau possible, l'inquisiteur ne peut échanger qu'un seul sort et doit choisir de le faire ou non au moment où il apprend ses nouveaux sorts de niveau.
+
+{s:Reference|DOMAINE}
+
+====Domaine et inquisition====
+
+La divinité de l'inquisiteur influe, comme celle des prêtres, sur son alignement, sa magie et ses valeurs. L'inquisiteur n'est pas aussi attaché aux préceptes de sa religion qu'un prêtre, mais il doit les tenir en haute estime, même s'ils les enfreint lorsque cela peut servir les intérêts de ses croyances. L'inquisiteur choisit un [[domaines|domaine]] parmi ceux de son dieu mais il ne peut pas choisir un domaine d'[[alignement]] qui ne corresponde pas au sien. Avec l'accord du MJ, l'inquisiteur peut se consacrer à un idéal au lieu d'une divinité et choisir un [[domaines|domaine]] ou une [[inquisitions|inquisition]] qui représente ses inclinaisons et ses aptitudes personnelles. Les restrictions sur les [[domaines]] d'[[alignement]] s'appliquent toujours.
+
+Chaque domaine accorde un certain nombre de pouvoirs de [[domaines|domaine]] qui dépendent du niveau de l'inquisiteur. Ce dernier ne gagne aucun sort supplémentaire lié au [[domaines|domaine]] ni aucun emplacement de sort supplémentaire. Il utilise son niveau comme niveau de [[prêtre]] quand il détermine les pouvoirs et les effets de ses pouvoirs de [[domaines|domaine]]. Si l'inquisiteur a des niveaux de [[prêtre|prêtres]], l'un de ses deux [[domaines]] doit être le même que son domaine d'inquisiteur. Les niveaux de prêtre et d'inquisiteur se cumulent quand il s'agit de déterminer les pouvoirs et aptitudes de [[domaines|domaine]] mais pas pour les sorts supplémentaires.
+
+{s:um}Cependant, comme l’inquisiteur dispose des pouvoirs liés à un domaine mais pas de sorts associés, certains [[domaines]] de prêtre constituent un mauvais choix car ils se basent sur des pouvoirs de prêtre que l’inquisiteur n’a pas. ''Par exemple, le pouvoir de niveau 1 du [[domaine du Soleil]] augmente les effets de la canalisation mais les inquisiteurs n’y ont pas accès et ne bénéficient donc d’aucun avantage lié au choix du domaine avant le niveau 8 où ils obtiennent un second pouvoir.''
+
+C’est pour remédier à ce problème que les inquisiteurs peuvent choisir de bénéficier d'une [[inquisitions|inquisition]]. 
+
+Même si les inquisiteurs adoptent souvent des domaines ouverts aux prêtres de leur religion, ils ont accès à des connaissances spéciales ignorées des prêtres et des autres agents de leur religion. Ces objectifs divins, que l’on appelle des inquisitions, fournissent aux inquisiteurs les outils indispensables à la lutte contre les ennemis de la foi. 
+
+L’inquisiteur peut choisir une [[inquisitions|inquisition]] au lieu d’un domaine.
+
+Si un pouvoir d’inquisition autorise un [[jet de sauvegarde]], le [[DD]] est égal à 10 + 1/2 niveau de l’inquisiteur + modificateur de [[Sagesse]]. Sauf indication contraire, le [[NLS|niveau de lanceur de sorts]] des pouvoirs magiques est égal à son niveau d’inquisiteur.
+
+{s:Reference|JUGEMENT}
+====Jugement (Sur)====
+
+A partir du niveau 1, l'inquisiteur peut juger ses ennemis par une [[action rapide]]. A partir du moment où il prononce ce [[jugements|jugement]], l'inquisiteur reçoit un bonus ou un pouvoir spécial basé sur le type de [[jugements|jugement]] effectué.
+
+Au niveau 1, l'inquisiteur peut utiliser ce pouvoir une fois par jour. Au niveau 4 et, par la suite, tous les trois niveaux, il peut le faire une fois de plus par jour. Une fois activé, ce pouvoir se prolonge jusqu'à la fin du combat, il prend alors immédiatement fin. Pour obtenir le bonus, l'inquisiteur doit participer au combat. S'il est [[États préjudiciables#effrayé|effrayé]], [[États préjudiciables#paniqué|paniqué]], [[États préjudiciables#paralysé|paralysé]], [[États préjudiciables#étourdi|étourdi]], [[États préjudiciables#inconscient|inconscient]] ou s'il ne peut pas combattre, le pouvoir ne se termine pas, mais les bonus disparaissent jusqu'à ce qu'il puisse se battre à nouveau.
+
+Quand l'inquisiteur se sert de ce pouvoir, il doit choisir un type de [[jugements|jugement]]. Il peut changer de type par une [[action rapide]]. Si l'inquisiteur est d'[[alignement]] Mauvais, il reçoit des bonus de malfaisance au lieu de bonus sacrés. Les inquisiteurs Neutres doivent choisir s'ils veulent des bonus sacrés ou de malfaisance et ne peuvent plus en changer par la suite.
+
+{s:Reference|CONNAISSANCEDESMONSTRES}
+====Connaissance des monstres (Ext)====
+
+L'inquisiteur ajoute son modificateur de [[Sagesse]] aux tests de [[Tableau récapitulatif des compétences|compétence]] en plus de son modificateur d'[[Intelligence]] quand il fait un test pour [[Connaissances|identifier les aptitudes et faiblesses d'une créature]].
+
+{s:Reference|ORAISONS}
+====Oraisons====
+
+L'inquisiteur connaît un certain nombre d'oraisons, ou sorts de niveau 0, comme indiqué dans la table [[Inquisiteur#SORTSCONNUSDELINQUISITEUR|Sorts connus par l'inquisiteur]]. Elles se lancent comme les autres mais ne sont pas dépensées au lancer et sont donc réutilisables. Les oraisons qui utilisent d'autres emplacements de sorts, à cause d'un don de métamagie par exemple, sont dépensées de façon normale.
+
+{s:Reference|REGARDSEVERE}
+====Regard sévère (Ext)====
+
+Les inquisiteurs sont doués pour déceler les mensonges et intimider leurs ennemis. Un inquisiteur reçoit un bonus de moral égal à la moitié de son niveau d'inquisiteur (minimum +1) aux tests d'[[Intimidation]] et de [[Psychologie]].
+
+{s:Reference|INITIATIVERUSEE}
+====Initiative rusée (Ext)====
+
+Au niveau 2, l'inquisiteur ajoute son modificateur de [[Sagesse]] à ses tests d'[[initiative]], en plus de modificateur de [[Dextérité]].
+
+{s:Reference|DETECTIONDALIGNEMENT}
+====Détection d’alignement (Mag)====
+
+Au niveau 2, l'inquisiteur peut, à volonté, utiliser [[détection du chaos]], [[détection du mal]], [[détection du bien]] ou [[détection de la loi]]. Il ne peut en utiliser qu'une à la fois.
+
+{s:Reference|PISTAGE}
+====Pistage (Ext)====
+
+Au niveau 2, l'inquisiteur ajoute la moitié de son niveau aux tests de [[Survie]] quand il suit une piste ou identifie des traces.
+
+{s:Reference|TACTIQUESOLITAIRE}
+====Tactique solitaire (Ext)====
+
+Au niveau 3, tous les alliés de l'inquisiteur sont considérés comme possédant le même don de travail en équipe que lui quand il s'agit de déterminer s'il reçoit un bonus grâce à ses dons de travail en équipe. Les alliés ne reçoivent pas le moindre bonus associé à ces dons, à moins qu'ils ne les possèdent eux-mêmes. Le placement et les actions des alliés doivent tout de même remplir les conditions requises par le don pour que l'inquisiteur puisse en profiter.
+
+{s:Reference|DONDETRAVAILENEQUIPE}
+====Don de travail en équipe====
+
+Au niveau 3, et par la suite tous les trois niveaux, l'inquisiteur gagne un don supplémentaire en plus de ceux liés à son évolution normale. Il doit les choisir dans la [[dons déquipe|liste des dons de travail en équipe]] et remplir les conditions requises.
+
+Par une action simple, l'inquisiteur peut choisir un nouveau don de travail en équipe à la place du dernier qu'il a appris. Il perd donc l'ancien don supplémentaire au profit du nouveau. Il ne peut changer que le don qu'il a appris le plus récemment. Quand il apprend un nouveau don, le précédent est fixé et il ne peut plus en changer. Chaque jour, l'inquisiteur peut changer son dernier don de travail en équipe un nombre de fois égal à son modificateur de Sagesse.
+
+{s:Reference|TUEUR}
+====Tueur (Sur)====
+
+Au niveau 5, l'inquisiteur peut appliquer la propriété [[Armes magiques#Tueuse|tueuse]] à son arme par une [[action rapide]]. Il choisit le [[Types de créatures|type de créature]] visé quand il utilise le pouvoir (et le [[Sous-types de créatures|sous-type]] si le type est humanoïde ou extérieur). Une fois le type choisi, il peut en changer par une [[action rapide]]. Ce pouvoir fonctionne tant que l'inquisiteur tient son arme. S'il la lâche ou se la fait prendre, elle ne reprend cette propriété qu'une fois de retour dans les mains de l'inquisiteur, si sa durée n'a pas expirée. Chaque jour, ce pouvoir dure un nombre de rounds égal au niveau de l'inquisiteur. Ces rounds ne sont pas forcément consécutifs.
+
+{s:Reference|DETECTIONDESMENSONGES}
+====Détection des mensonges (Mag)====
+
+Au niveau 5, l'inquisiteur peut chaque jour [[Détection du mensonge|détecter les mensonges]] comme avec le sort pendant un nombre de rounds égal à son niveau de classe. Ces rounds ne sont pas forcément consécutifs. Ce pouvoir s'active par une [[action immédiate]].
+
+{s:Reference|SECONDJUGEMENT}
+
+====Second jugement (Ext)====
+
+Au niveau 8, quand un inquisiteur utilise son [[jugements|jugement]], il en applique deux au lieu d'un seul. Ceci ne consomme qu'une utilisation du [[jugements|jugement]]. Il peut changer un type de [[jugements|jugement]] par une action rapide.
+
+{s:Reference|VAILLANT}
+====Vaillant (Ext)====
+
+Au niveau 11, l'inquisiteur peut utiliser sa résilience physique et mentale pour éviter certaines attaques. S'il réussit un jet de [[Valeurs de combat#JETDESAUVEGARDE|Vigueur]] ou de [[Valeurs de combat#JETDESAUVEGARDE|Volonté]] contre une attaque dont les effets sont réduits en cas de [[jet de sauvegarde]] réussi, il l'évite entièrement. Il peut utiliser ce pouvoir quand il ne porte pas d'armure ou une [[armure légère]] ou [[armure intermédiaire|intermédiaire]]. Un inquisiteur [[états préjudiciables#sans défense|sans défense]] ne bénéficie pas des effets de ce pouvoir.
+
+{s:Reference|TUEURSUPERIEUR}
+====Tueur supérieur (Sur)====
+
+Au niveau 12, quand l'inquisiteur utilise le pouvoir [[Inquisiteur#TUEUR|tueur]], le montant de dégâts que l'arme inflige à la créature du type choisi passe à 4d6.
+
+{s:Reference|EXPLOITERLESFAIBLESSES}
+====Exploiter les faiblesses (Ext)====
+
+Au niveau 14, l'inquisiteur apprend à tirer parti de toutes les opportunités qui se présentent. Quand il réussit un [[coup critique]], il ignore toute [[réduction de dégâts]] éventuelle de sa cible. De plus, si elle peut se [[Régénération (capacité)|régénérer]], elle perd ce pouvoir pendant le round qui suit le critique et risque de mourir normalement. Les créatures dont le pouvoir de [[Régénération (capacité)|régénération]] fonctionne en permanence sont immunisées contre ce pouvoir. Enfin, si l'inquisiteur inflige des dégâts d'énergie à une créature vulnérable à ce type d'énergie, il lui inflige +1 point de dégâts par dé lancé.
+
+{s:Reference|TROISIEMEJUGEMENT}
+====Troisième jugement (Ext)====
+
+Au niveau 16 quand un inquisiteur utilise son [[jugements|jugement]], il en applique trois au lieu de deux. Ceci ne consomme qu'une utilisation du [[jugements|jugement]]. Il peut changer un type de [[jugements|jugement]] par une [[action rapide]].
+
+{s:Reference|EXTERMINER}
+====Exterminer (Ext)====
+
+Au niveau 17, l’inquisiteur apprend à concentrer son [[jugements|jugement]]. Chaque fois qu’un inquisiteur utilise sa capacité de [[jugements|jugement]], il doit choisir un type de [[jugements|jugement]]. Le bonus octroyé par celui-ci est calculé comme si l’inquisiteur avait 5 niveaux de plus. Contrairement à ce qui est possible pour les autres types de [[jugements|jugement]], celui qui est amélioré par cette capacité ne peut pas être changé pendant toute son application.
+
+{s:Reference|VERITABLEJUGEMENT}
+====Véritable jugement (Sur)====
+
+Au niveau 20, un inquisiteur peut porter un véritable jugement sur son ennemi en cours de combat. Quand l'inquisiteur utilise son pouvoir de [[jugements|jugement]], il peut lancer un véritable jugement sur son adversaire par une [[action rapide]]. Une fois qu'il a annoncé cela, il fait une unique attaque au corps à corps contre cette cible (ou à distance si elle se trouve à moins de 9m). S'il touche, il inflige des dégâts normaux et la cible doit faire un jet de [[Vigueur]] ou mourir. le [[DD]] du [[jet de sauvegarde]] est égal à 10 + 1/2 niveau d'inquisiteur + modificateur de [[Sagesse]] de l'inquisiteur. Que la cible ait réussi ou non son [[jet de sauvegarde]], elle est immunisée contre le véritable jugement de l'inquisiteur pendant 24h. Une fois que cette capacité à été utilisée, elle ne peut pas être réutilisée avant 1d4 rounds.
+
+{s:Reference|SORTSALIGNES}
+====Sorts du Bien, du Chaos, de la Loi et du Mal====
+
+L'inquisiteur ne peut pas lancer de sorts appartenant à un [[alignement]] opposé à celui de son dieu (s'il en a un). Les sorts associés à un alignement particulier comportent la mention Chaotique, Mauvais, Bon ou Loyal dans leur description.
+
+===Ex-inquisiteurs===
+
+Un inquisiteur qui se laisse corrompre ou qui adopte un alignement interdit perd tous ses sorts et ses pouvoirs de jugement. Il ne peut plus gagner de niveaux d'inquisiteur tant qu'il n'a pas fait [[pénitence]] (voir la description du sort du même nom).

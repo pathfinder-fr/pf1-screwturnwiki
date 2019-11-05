@@ -1,0 +1,430 @@
+---
+Name: Pathfinder-RPG.Occultiste
+Title: Occultiste
+LastModified: 2019-10-10 16:00
+Categories:
+  - 'Aventures occultes'
+  - 'Règles officielles'
+---
+{s:MenuClasses}
+<div class="fright">'''''Voir aussi les [[Écoles instrumentales|Écoles instrumentales]] de l'occultiste.''''' <br/>
+'''''Voir aussi la [[Sorts doccultiste|Liste des sorts de l'occultiste]].'''''<br/>
+{s:PM0|occultiste}'''Voir les archétypes de l'occultiste'''&emsp;
+<ul ID="occultiste" CLASS="listecachée cadrebas">
+  <li>[[Dévoreur de livres (occultiste)|Dévoreur de livres]] (AO)</li>
+  <li>[[Hôte de guerre (occultiste)|Hôte de guerre]] (AO)</li>
+  <li>[[Nécroccultiste (occultiste)|Nécroccultiste]] (AO)</li>
+  <li>[[Shair (occultiste)|Sha'ir]] (AO)</li>
+</ul></div>
+
+{s:AO}''L’occultiste se focalise sur le monde qui l’entoure et développe une conscience aiguë des énergies qui traversent son environnement. Il étudie la magie qui imprègne toute chose, depuis les résonances psychiques émises par les objets ordinaires jusqu’aux puissantes incantations nécessaires pour activer les sorts les plus redoutables. L’occultiste canalise sa force psychique au travers d’instruments : des objets qui lui permettent de concentrer son pouvoir et de produire d’incroyables effets. Pour lui, les instruments sont bien plus que de simples outils. Ce sont des témoignages et des objets liés aux événements du passé. L’occultiste les utilise pour influencer et modifier le présent en ajoutant sa légende aux leurs. Même si certains de ces instruments sont des objets magiques à part entière, la plupart sont des objets, certes simples, mais néanmoins importants pour l’occultiste sur le plan personnel ou historique.''
+
+{s:Reference|TABLEOCCULTISTE}
+<center>
+{| CLASS="tablo"
+|+ L'occultiste
+|- CLASS="titre"
+| ROWSPAN="2" | Niveau
+| ROWSPAN="2" | BBA
+| ROWSPAN="2" | Vigueur
+| ROWSPAN="2" | Réflexes
+| ROWSPAN="2" | Volonté
+| ROWSPAN="2" | Spécial
+| COLSPAN="4" CLASS="avecsoustitre" | Sorts par jour
+|- CLASS="soustitre"
+| 1er
+| 2e
+| 3e
+| 4e
+| 5e
+| 6e
+|- CLASS="premier"
+| 1
+| +0
+| +2
+| +0
+| +2
+| CLASS="gauche" | [[Occultiste#ASTUCES|Astuces]], [[Occultiste#FOCALISATIONMENTALE|Focalisation mentale]], [[OCCULTISTE#INSTRUMENTS|Instruments 2]], [[Occultiste#POUVOIRDEFOCALISATION|Pouvoir de focalisation]]
+| 1
+| -
+| -
+| -
+| -
+| -
+|- CLASS="alt"
+| 2
+| +1
+| +3
+| +0
+| +3
+| CLASS="gauche" | [[Occultiste#EXPERTDESOBJETSMAGIQUES|Expert des objets magiques]], [[OCCULTISTE#INSTRUMENTS|Instruments 3]], [[Occultiste#LECTUREDOBJET|Lecture d'objet]]
+| 2
+| -
+| -
+| -
+| -
+| -
+|-
+| 3
+| +2
+| +3
+| +1
+| +3
+| CLASS="gauche" | [[Occultiste#POUVOIRDEFOCALISATION|Pouvoir de focalisation]]
+| 3
+| -
+| -
+| -
+| -
+| -
+|- CLASS="alt"
+| 4
+| +3
+| +4
+| +1
+| +4
+| CLASS="gauche" | [[Occultiste#TRANSFERTDEFOCALISATION|Transfert de focalisation]]
+| 3
+| 1
+| -
+| -
+| -
+| -
+|-
+| 5
+| +3
+| +4
+| +1
+| +4
+| CLASS="gauche" | [[Occultiste#POUVOIRDEFOCALISATION|pouvoir de focalisation]], [[Occultiste#VISIONDESAURAS|Vision des auras]]
+| 4
+| 2
+| -
+| -
+| -
+| -
+|- CLASS="alt"
+| 6
+| +4
+| +5
+| +2
+| +5
+| CLASS="gauche" | [[OCCULTISTE#INSTRUMENTS|Instruments 4]]
+| 4
+| 3
+| -
+| -
+| -
+| -
+|-
+| 7
+| +5
+| +5
+| +2
+| +5
+| CLASS="gauche" | [[Occultiste#POUVOIRDEFOCALISATION|Pouvoir de focalisation]]
+| 4
+| 3
+| 1
+| -
+| -
+| -
+|- CLASS="alt"
+| 8
+| +6/+1
+| +6
+| +2
+| +6
+| CLASS="gauche" | [[Occultiste#APPELDEXTERIEUR|Appel d'Extérieur 1]], [[Occultiste#CERCLESMAGIQUES|Cercles magiques]]
+| 4
+| 4
+| 2
+| -
+| -
+| -
+|-
+| 9
+| +6/+1
+| +6
+| +3
+| +6
+| CLASS="gauche" | [[Occultiste#POUVOIRDEFOCALISATION|Pouvoir de focalisation]]
+| 5
+| 4
+| 3
+| -
+| -
+| -
+|- CLASS="alt"
+| 10
+| +7/+2
+| +7
+| +3
+| +7
+| CLASS="gauche" |  [[OCCULTISTE#INSTRUMENTS|Instruments 5]]
+| 5
+| 4
+| 3
+| 1
+| -
+| -
+|-
+| 11
+| +8/+3
+| +7
+| +3
+| +7
+| CLASS="gauche" | [[Occultiste#POUVOIRDEFOCALISATION|Pouvoir de focalisation]]
+| 5
+| 4
+| 4
+| 2
+| -
+| -
+|- CLASS="alt"
+| 12
+| +9/+4
+| +8
+| +4
+| +8
+| CLASS="gauche" | [[Occultiste#APPELDEXTERIEUR|Appel d'Extérieur 2]], [[Occultiste#CERCLEDENTRAVE|Cercle d'entrave]]
+| 5
+| 5
+| 4
+| 3
+| -
+| -
+|-
+| 13
+| +9/+4
+| +8
+| +4
+| +8
+| CLASS="gauche" | [[Occultiste#POUVOIRDEFOCALISATION|Pouvoir de focalisation]]
+| 5
+| 5
+| 4
+| 3
+| 1
+| -
+|- CLASS="alt"
+| 14
+| +10/+5
+| +9
+| +4
+| +9
+| CLASS="gauche" | [[OCCULTISTE#INSTRUMENTS|Instruments 6]]
+| 5
+| 5
+| 4
+| 4
+| 2
+| -
+|-
+| 15
+| +11/+6/+1
+| +9
+| +5
+| +9
+| CLASS="gauche" | [[Occultiste#POUVOIRDEFOCALISATION|Pouvoir de focalisation]]
+| 5
+| 5
+| 5
+| 4
+| 3
+| -
+|- CLASS="alt"
+| 16
+| +12/+7/+2
+| +10
+| +5
+| +10
+| CLASS="gauche" | [[Occultiste#APPELDEXTERIEUR|Appel d'Extérieur 3]], [[Occultiste#TRACAGEDESCERCLESACCÉLÉRÉ|Traçage des cercles accéléré]]
+| 5
+| 5
+| 5
+| 4
+| 3
+| 1
+|-
+| 17
+| +12/+7/+2
+| +10
+| +5
+| +10
+| CLASS="gauche" | [[Occultiste#POUVOIRDEFOCALISATION|Pouvoir de focalisation]]
+| 5
+| 5
+| 5
+| 4
+| 4
+| 2
+|- CLASS="alt"
+| 18
+| +13/+8/+3
+| +11
+| +6
+| +11
+| CLASS="gauche" | [[OCCULTISTE#INSTRUMENTS|Instruments 7]]
+| 5
+| 5
+| 5
+| 5
+| 4
+| 3
+|-
+| 19
+| +14/+9/+4
+| +11
+| +6
+| +11
+| CLASS="gauche" | [[Occultiste#POUVOIRDEFOCALISATION|Pouvoir de focalisation]]
+| 5
+| 5
+| 5
+| 5
+| 5
+| 4
+|- CLASS="alt"
+| 20
+| +15/+10/+5
+| +12
+| +6
+| +12
+| CLASS="gauche" |  [[Occultiste#APPELDEXTERIEUR|Appel d'Extérieur 4]], [[Occultiste#MAITRISEDUNEECOLEINSTRUMENTALE|Maîtrise d'une école instrumentale]] 
+| 5
+| 5
+| 5
+| 5
+| 5
+| 5
+|}
+</center>
+
+'''Rôle.''' Les occultistes sont toujours prêts à voyager en compagnie d’aventuriers, d’explorateurs et d’archéologues, car ces trois catégories d’individus ont un don pour trouver des objets d’une grande importance d’un point de vue historique.
+
+'''Alignement.''' Tous.
+
+'''Dés de vie.''' d8.
+
+'''Richesse de départ.''' 4d6×10 po (140 po en moyenne).
+
+=== Compétences de classe ===
+Les compétences de classe de l'occultiste sont les suivantes : [[Art de la magie]] (Int), [[Artisanat]] (Int),  [[Connaissances]] (histoire) (Int), [[Connaissances]] (ingénierie) (Int), [[Connaissances]] (mystères) (Int), [[Connaissances]] (plans) (Int), [[Connaissances]] (religion) (Int), [[Déguisement]] (Cha), [[Diplomatie]] (Cha), [[Escamotage]] (Dex), [[Estimation]] (Int), [[Linguistique]] (Int), [[Perception]] (Sag), [[Profession]] (Sag), [[Psychologie]] (Sag), [[Sabotage]] (Dex), [[Utilisation dobjets magiques|Utilisation d’objets magiques]] (Cha), [[Vol]] (Dex).
+
+'''Points de compétence par niveau.''' 4 + modificateur d’[[Intelligence]].
+
+=== Descriptif de la classe ===
+Les aptitudes de l'occultiste sont décrites ci-dessous.
+
+==== Armes et armures ====
+Les occultistes sont formés au maniement de toutes les armes courantes et de guerre, ainsi qu’au port des armures légères et intermédiaires. Ils sont également formés au maniement des boucliers (à l’exception des pavois).
+
+{s:Reference|SORTSDOCCULTISTE}
+====Sorts====
+Un occultiste peut lancer les sorts psychiques de la [[sorts doccultiste|liste de sorts d’occultiste]], en prenant en compte les restrictions imposées par les groupes d’instruments qu’il connaît. Il peut lancer les sorts de son répertoire sans devoir les préparer à l’avance. Chaque sort d’occultiste possède une [[Écoles instrumentales|composante instrumentale]].
+
+Pour apprendre ou lancer un sort, l’occultiste doit avoir une valeur d’[[Intelligence]] au moins égale à 10 + le niveau du sort. Le [[DD]] des jets de sauvegarde contre ses sorts est égal à 10 + le niveau du sort + le modificateur d’[[Intelligence]] de l’occultiste.
+
+Un occultiste ne peut lancer qu’un certain nombre de sorts de chaque niveau chaque jour. Son quota quotidien d’emplacements de sort de base est indiqué dans la Table "[[occultiste#TABLEOCCULTISTE|L'occultiste]]". En plus de ce quota, il reçoit des sorts quotidiens en bonus si sa valeur d’[[Intelligence]] est suffisamment élevée (voir la Table "[[caractéristiques#TABLEAUCARACTERISTIQUES|Modificateurs de caractéristique et sorts en bonus]]"). 
+
+L’occultiste possède un répertoire de sorts limité. Pour chaque école instrumentale qu’il apprend à utiliser, il peut ajouter un sort par niveau qu’il est capable de lancer à son répertoire. Il les choisit dans la liste de sorts de cette école. S’il choisit la même école instrumentale plusieurs fois, il ajoute à chaque fois un sort de chaque niveau issu de la liste de cette école.<br>
+Quand l’occultiste apprend à lancer un nouveau niveau de sort, il ajoute immédiatement un sort de ce niveau à son répertoire pour chaque école instrumentale qu’il connaît (en plus des éventuels sorts supplémentaires conférés par les écoles sélectionnées plusieurs fois). 
+
+Lorsqu’il atteint le niveau 5 et tous les trois niveaux par la suite (aux niveaux 8, 11, et ainsi de suite), un occultiste peut apprendre un nouveau sort à la place d’un autre qu’il connaît déjà. {br}
+Dans les faits, l’occultiste perd l’ancien sort qu’il remplace par le nouveau. Le niveau de ce nouveau sort doit être identique à celui du sort remplacé et d’au moins un niveau inférieur au plus haut niveau de sorts que l’occultiste est capable de lancer. Le sort nouvellement appris doit faire partie de la même liste de sorts de l’école instrumentale à laquelle appartenait le sort perdu. L’occultiste ne peut échanger qu’un seul sort de cette façon et doit choisir s’il procède à un échange au moment où il apprend de nouveaux sorts lors du passage de niveau.
+
+Un occultiste n’a pas besoin de préparer ses sorts à l’avance. Il peut lancer n’importe quel sort de son répertoire quand il le souhaite, à condition qu’il lui reste encore les emplacements de sort quotidiens des niveaux appropriés.
+
+{s:Reference|POUVOIRDEFOCALISATION}
+====Pouvoir de focalisation (Sur)====
+Au niveau 1, un occultiste apprend le pouvoir de focalisation de base conféré par chacune de ses deux écoles instrumentales (voir [[Écoles instrumentales|Instruments]]) et peut choisir un pouvoir de focalisation supplémentaire dans la liste de ceux qui lui sont disponibles grâce à ces écoles. Chaque fois que l’occultiste apprend une nouvelle école instrumentale, il obtient le pouvoir de base de cette école. 
+
+De plus, au niveau 3 et tous les 2 niveaux par la suite, il apprend un nouveau pouvoir de focalisation choisi parmi les options proposées par toutes les écoles instrumentales qu’il connaît. L’occultiste peut utiliser les pouvoirs de focalisation uniquement en dépensant de la [[Occultiste#FOCALISATIONMENTALE|focalisation mentale]]. 
+
+Sauf indication contraire, le [[DD]] des jets de sauvegarde effectués pour résister aux pouvoirs de focalisation est égal à 10 + la moitié du niveau d’occultiste + le modificateur d’[[Intelligence]] de l’occultiste. 
+L’occultiste ne peut pas choisir plusieurs fois le même pouvoir de focalisation. L’occultiste doit avoir atteint un niveau spécifique d’occultiste avant de pouvoir choisir certains pouvoirs de focalisation.
+
+{s:Reference|INSTRUMENTS}
+====Instruments (Sur)====
+Au niveau 1, un occultiste apprend à utiliser deux [[Écoles instrumentales|écoles instrumentales]]. Au niveau 2 et tous les 4 niveaux d’occultiste par la suite, il apprend l’utilisation d’une école instrumentale supplémentaire, jusqu’à un maximum de sept écoles au niveau 18. 
+
+Chaque école  instrumentale permet d’ajouter un sort par niveau de sort à la [[Sorts doccultiste|liste des sorts de l'occultiste]]. Aucun des sorts issus des autres écoles n’est considéré comme faisant partie de la [[Sorts doccultiste|liste des sorts de l'occultiste]] tant que celui-ci n’a pas choisi l’école instrumentale. L’occultiste ne peut pas utiliser les objets magiques [[règles relatives aux objets magiques#OBJETSAPOTENTIELMAGIQUE| à potentiel magique]] et [[règles relatives aux objets magiques#OBJETSAFINDINCANTATION|à fin d’incantation]] des écoles qu’il ne connaît pas, à moins qu’il ne réussisse un test d’[[Utilisation dObjets magiques|Utilisation d’objets magiques]] approprié. Un occultiste peut choisir une école instrumentale plusieurs fois afin d’apprendre des sorts supplémentaires de cette école.
+
+Une courte liste d’objets représente chaque école instrumentale.
+Chaque jour, l’occultiste choisit un objet de la liste de chaque école instrumentale qu’il connaît. Ces objets seront ses instruments pour la  journée. L’occultiste a besoin d’un seul de ces objets pour lancer les sorts de l’école correspondante. S’il a choisi plusieurs fois une même école instrumentale, il doit choisir un objet pour chaque ensemble de sorts conférés par cette école instrumentale. Les instruments ne sont pas nécessairement des [[règles relatives aux objets magiques|objets magiques]]  et les instruments non magiques n’occupent aucun emplacement d’[[règles relatives aux objets magiques|objet magique]], même s’ils sont portés. Les instruments non magiques, tels que le doigt squelettique d’un saint, le sceptre brisé d’un roi mort depuis longtemps, le crâne du familier d’un mentor ou l’oeil de verre d’un mystérieux ancêtre, sont souvent importants pour l’occultiste d’un point de vue historique ou personnel.
+
+Chaque fois qu’un occultiste lance un sort, il doit posséder l’instrument correspondant et le pointer vers la [[présentation des sorts#CIBLE|cible]] ou la [[présentation des sorts#ZONEDEFFET|zone d’effet]] du sort. Ce geste fait partie de l’incantation du sort et ne nécessite aucune [[Actions au combat|action]] supplémentaire. Si l’occultiste ne possède pas l’instrument correspondant, il peut tout de même [[lancer des sorts|lancer le sort]] s’il réussit un [[lancer des sorts#TESTCONCENTRATION|test de concentration]] (DD = 20 + le [[présentation des sorts#NIVEAU|niveau du sort]]). Les sorts lancés par un occultiste sans l’instrument approprié sont toujours considérés comme étant lancés au [[NLS|niveau de lanceur de sorts]] minimum ([[NLS|niveau de lanceur de sorts]] de 1 pour les sorts de niveau 1, niveau de lanceur de sorts de 4 pour les sorts de niveau 2, etc.).
+
+Chaque école instrumentale confère également un pouvoir de focalisation de base. Ce pouvoir est ajouté à la liste de [[Occultiste#POUVOIRDEFOCALISATION|pouvoirs de focalisation]] possédés par l’occultiste (voir [[Occultiste#FOCALISATIONMENTALE|Focalisation mentale]], plus bas). En outre, chaque école instrumentale propose un certain nombre de pouvoirs de focalisation supplémentaires que l’occultiste peut sélectionner en utilisant son aptitude de classe de [[Occultiste#FOCALISATIONMENTALE|focalisation mentale]]. 
+
+Voir la section [[Écoles instrumentales]], pour obtenir la liste complète des instruments et des pouvoirs de focalisation qui leur sont associés.
+
+{s:Reference|ASTUCES}
+====Astuces====
+Un occultiste apprend une astuce, ou sort psychique de niveau 0, chaque fois qu’il choisit une école instrumentale (y compris quand il choisit à nouveau une école qu’il sait déjà utiliser).
+Ces sorts se lancent normalement mais peuvent être utilisés autant de fois que souhaité pendant une même journée. Les astuces lancées en utilisant d’autres emplacements de sort, à cause de [[dons de métamagie]] par exemple, dépensent ces emplacements conformément aux règles normales.
+
+{s:Reference|FOCALISATIONMENTALE}
+====Focalisation mentale (Sur)====
+Un occultiste peut investir une partie de ses facultés mentales dans les instruments sélectionnés pour la journée en cours pour pouvoir utiliser divers pouvoirs en fonction des instruments choisis et du montant de focalisation mentale investi dans chacun d’eux. Un occultiste possède un nombre de points de focalisation mentale égal à son niveau d’occultiste + son modificateur d’[[Intelligence]]. L’occultiste récupère ce nombre de points chaque jour. Il peut les répartir comme il l’entend entre ses instruments. Si un instrument est perdu ou détruit, la focalisation mentale investie l’est également, ce qui n’empêche pas l’occultiste de la récupérer normalement.
+
+Une fois la focalisation mentale investie dans un instrument, celui-ci obtient le pouvoir de résonance de son école instrumentale et l’occultiste peut dépenser la focalisation mentale investie dans l’instrument pour activer les [[occultiste#POUVOIRDEFOCALISAION|pouvoirs de focalisation]] associés qu’il connaît. Si un pouvoir de résonance confère un bonus qui varie en fonction du nombre de points de focalisation mentale investis dans l’instrument, on détermine ce bonus au moment de l’investissement et il n’est ni réduit ni modifié par la dépense ultérieure des points dans l’objet. Dès que la totalité des points de focalisation mentale investis dans un instrument sont dépensés, celui-ci perd son pouvoir de résonance tant qu’aucune focalisation mentale n’est à nouveau investie dans l’objet.
+
+L’instrument confère son pouvoir de résonance à quiconque le possède. L’occultiste peut donc le confier à un allié pour l’assister mais, le cas échéant, cela complique l’incantation des sorts de cet instrument (voir [[occultiste#INSTRUMENTS|Instruments]]) et il ne peut pas dépenser la focalisation investie dans l’objet prêté pour utiliser les pouvoirs de focalisation tant qu’il n’a pas récupéré l’instrument ou sa focalisation mentale. L’occultiste récupère ses points de focalisation mentale une fois par jour après avoir dormi huit heures au moins. Une fois ses points récupérés, l’occultiste doit consacrer une heure à la préparation de ses instruments grâce à cette aptitude. Les points de focalisation mentale non utilisés avant la prochaine période de récupération de l’occultiste sont perdus.
+
+L’occultiste peut décider de garder des points de focalisation mentale générique à l’intérieur de son propre corps au lieu d’investir la totalité à chaque fois. Toutefois, la dépense ultérieure de cette focalisation est plus élevée. Un pouvoir de focalisation activé par l’occultiste avec de la focalisation mentale générique coûte deux fois plus de points pour l’utiliser (et pour maintenir son effet, le cas échéant). L’occultiste peut dépenser sa focalisation générique par le biais d’un instrument approprié pour activer un pouvoir de focalisation qu’il connaît mais un instrument dans lequel il n’a investi aucune focalisation mentale au début de la journée ne confère aucun pouvoir de résonance.
+
+{s:Reference|EXPERTDESOBJETSMAGIQUES}
+====Expert des objets magiques (Ext)====
+ Au niveau 2, un occultiste connaît particulièrement bien les objets magiques, ce qui lui confère un bonus quand il tente de les utiliser. Il gagne un bonus égal à la moitié de son niveau d’occultiste aux tests d’[[Utilisation dobjets magiques|Utilisation d’objets magiques]].
+
+{s:Reference|LECTUREDOBJET}
+====Lecture d'objet (Sur)====
+ Au niveau 2, un occultiste apprend à lire les informations contenues dans les objets qu’il examine. Il doit passer une minute à manipuler l’objet pour l’examiner de cette façon.
+Si l’objet est magique, l’occultiste apprend ses propriétés et son mot de commande comme s’il avait réussi à l’examiner à l’aide d’une ''[[détection de la magie]]'' et d’un test d’[[Art de la magie]] réussi. Cette aptitude ne permet pas de savoir si un objet est maudit sauf si le niveau d’occultiste du personnage est au moins égal au niveau de lanceur de sorts de l’objet. Si l’objet est important sur le plan historique, l’occultiste apprend une information à propos de son histoire (le MJ détermine cette information). Enfin, si la dernière utilisation de l’objet remonte à un jour par niveau d’occultiste du personnage ou moins, l’occultiste apprend une information à propos du dernier utilisateur de l’objet.
+
+Cette information peut être une fugace vision de l’apparence de la créature, de son environnement lorsqu’elle utilisait l’objet ou, pourquoi pas, de son état émotionnel la dernière fois où elle l’a utilisé. Le MJ détermine la nature des informations obtenues grâce à cette aptitude. La lecture d’objet fonctionne comme l’extension de compétence occulte [[Extensions de compétences occultes#PSYCHOMÉTRIE|psychométrie]] mais ne nécessite aucun test de compétence et peut être utilisée à volonté.
+
+{s:Reference|TRANSFERTDEFOCALISATION}
+====Transfert de focalisation (Sur)====
+Au niveau 4, un occultiste peut transférer sa [[occultiste#FOCALISATIONMENTALE|focalisation mentale]] d’un instrument à un autre, même si une partie est perdue lors du processus. Le transfert de focalisation mentale retire un certain nombre de points de focalisation mentale d’un instrument et ajoute ce même nombre -1 à un autre instrument.
+
+Le processus requiert une minute de concentration dans un environnement calme pendant laquelle l’occultiste reste en contact physique avec les deux instruments. Il peut transférer sa focalisation mentale uniquement d’un instrument vers un autre instrument et ne peut pas investir de la focalisation générique dans un instrument.
+
+À la différence de la dépense normale de focalisation, ce transfert peut réduire les effets du pouvoir de résonance d’un instrument dans lequel la focalisation a été prélevée. Quoi qu’il en soit, il ne permet pas d’augmenter la puissance du pouvoir de résonance de l’instrument vers lequel la focalisation a été transférée.
+
+{s:Reference|VISIONDESAURAS}
+====Vision des auras (Sur)====
+Au niveau 5, l’occultiste peut lire les auras des créatures alentour par une action simple. Cette aptitude fonctionne comme le sort ''[[vision des auras]]'' et ce, pendant 1 round.
+
+{s:Reference|CERCLESMAGIQUES}
+====Cercles magiques (Sur)====
+Au niveau 8, un occultiste apprend la méthode pour tracer des cercles magiques. Pour ce faire, il doit disposer d’une craie, de sel, de sang, de poudre d’argent ou de toute autre substance appropriée (même s’il peut simplement tracer par pression un cercle magique sur une surface souple telle que de la terre meuble ou de la glaise). Le traçage d’un cercle prend une minute et nécessite la dépense d’un point de [[occultiste#FOCALISATIONMENTALE|focalisation mentale]] de la part de l’occultiste (soit de la focalisation générique, soit de la focalisation prélevée de l’un de ses instruments). Une fois achevé, le cercle fonctionne comme un [[cercle magique]] permanent contre un alignement choisi par l’occultiste.
+
+L’occultiste ne peut pas choisir un alignement identique au sien (s’il est Loyal Bon, par exemple, il ne peut pas tracer un cercle magique contre le Bien ou contre la Loi). Le cercle reste efficace tant qu’on ne tente pas de l’effacer (par exemple, en effaçant la ligne du cercle ou en dispersant le sable utilisé). Seule une créature vivante peut briser le cercle et non les effets simplement produits par l’environnement. Un occultiste ne peut maintenir qu’un seul cercle actif en même temps. S’il en crée un deuxième, le premier perd tous ses pouvoirs magiques. Ce type de cercle magique ne peut normalement pas être dirigé vers l’intérieur pour y enfermer un Extérieur.
+
+{s:Reference|APPELDEXTERIEUR}
+====Appel d'Extérieur (Sur)====
+Au niveau 8, l’occultiste apprend le véritable nom d’un Extérieur précis. Cet Extérieur ne peut pas avoir plus de 3 Dés de Vie. Chaque fois que l’occultiste crée un cercle magique, il peut dépenser 1 point de focalisation mentale supplémentaire pour diriger l’énergie du cercle vers l’intérieur afin d’obliger cet Extérieur à y pénétrer (comme lorsqu’on utilise un sort de ''[[contrat]]''). L’Extérieur reste enfermé pendant un maximum de 10 minutes. Pendant cette période, l’occultiste peut négocier une information avec lui. Cette négociation nécessite un paiement d’au moins 20 po (ou un don d’objet d’une valeur totale équivalente et susceptible d’intéresser l’Extérieur). Durant cette négociation, l’occultiste doit effectuer un test de [[Diplomatie]] ou d’[[Intimidation]] opposé au résultat du test de [[Psychologie]] de l’Extérieur.
+
+Une réussite de 5 points ou plus à ce test réduit le paiement à 10 po. Un échec l’augmente à 30 po, tandis qu’un échec de 5 points ou plus permet à l’Extérieur de s’échapper en ne révélant aucune information (et sans recevoir le paiement). L’information obtenue équivaut à celles que l’on peut apprendre grâce à un sort de ''[[divination]]''. Elle est toujours correcte mais souvent énigmatique. L’Extérieur met généralement 1d3 heures pour obtenir l’information. Au terme de cette période, il revient de lui-même pour la transmettre comme promis. L’Extérieur n’apprécie jamais cette méthode de contrainte forcée, même si son alignement est proche de celui de l’occultiste. Une fois l’échange conclu, le cercle magique perd tout pouvoir et l’Extérieur retourne vers son plan d’origine.
+
+Au niveau 12 et tous les 4 niveaux par la suite, l’occultiste apprend à appeler un Extérieur de plus, d’un type identique ou différent. Il ne peut appeler qu’un seul Extérieur en même temps avec cette méthode mais il peut désormais lui poser une question supplémentaire par appel tous les 4 niveaux d’occultiste possédés au-delà du 8ème (jusqu’à un maximum de quatre questions au niveau 20), sans modifier le paiement de la négociation. Les questions doivent toutes avoir un rapport les unes avec les autres.
+
+Au niveau 16, au lieu de poser des questions, l’occultiste peut exiger de l’Extérieur qu’il délivre un message à une créature amicale de sa connaissance. L’occultiste peut également exiger de l’Extérieur qu’il remette à cette créature un objet dont le poids ne dépasse pas 250 grammes. L’une ou l’autre de ces exigences nécessite la réussite d’un test opposé comme décrit plus haut. La livraison prend généralement 1d4 heures mais cette période est réduite à 1d6 minutes si le destinataire se situe à 1,5 kilomètre ou moins de l’occultiste (et l’Extérieur prend moins de temps encore si le destinataire est à portée de vue). L’occultiste doit être capable de fournir le nom et une description physique précise du destinataire. Cette aptitude ne peut pas être utilisée pour livrer quelque chose à un endroit, ou à des ennemis ou des créatures inamicales envers l’occultiste.
+
+{s:Reference|CERCLEDENTRAVE}
+====Cercle d'entrave (Sur)====
+Au niveau 12, chaque fois que l’occultiste crée un cercle magique, il peut dépenser un point de [[occultiste#FOCALISATIONMENTALE|focalisation mentale]] supplémentaire pour le transformer en cercle d’entrave. Un tel cercle est invisible et fait office de piège. Si une créature vivante de l’alignement correspondant entre dans ce cercle, le piège se déclenche et séquestre la créature à l’intérieur. Elle peut se déplacer à l’intérieur mais ne peut pas le quitter, attaquer des cibles situées à l’extérieur, lancer des sorts qui passent au travers des limites du cercle (le cercle bloque les lignes d’effet depuis l’intérieur) ou utiliser un pouvoir ou une aptitude qui lui permettrait de quitter le cercle ou de le briser d’une façon ou d’une autre. Quand le cercle piège une créature de cette façon, celle-ci peut effectuer un jet de Réflexes pour s’en écarter avant que la magie ne l’emprisonne ([[DD]] = 10 + la moitié du niveau d’occultiste + le modificateur d’[[Intelligence]] de l’occultiste). Une créature qui peut voir le cercle bénéficie d’un bonus de +4 sur son jet de sauvegarde.
+
+Si elle rate ce jet, elle doit rester à l’intérieur du cercle mais peut effectuer un jet de Volonté contre le même [[DD]] à la fin de chaque heure d’emprisonnement pour tenter d’en sortir. Un cercle d’entrave peut être repéré en réussissant un test de [[Perception]] (DD = 25 + la moitié du niveau d’occultiste). Il est également possible de le désamorcer en réussissant un test de [[Sabotage]] contre le même [[DD]]. Toute chose qui traverse les limites du cercle depuis l’extérieur, comme une arme, un effet de sort ou un pouvoir spécial, brise immédiatement le cercle et libère la créature prisonnière.
+
+{s:Reference|TRACAGEDESCERCLESACCÉLÉRÉ}
+====Traçage des cercles accéléré (Sur)====
+Au niveau 16, l’occultiste apprend à tracer des cercles magiques très rapidement. Il peut tracer un cercle magique par une action complexe mais un cercle tracé aussi rapidement voit sa durée réduite à une minute par niveau d’occultiste (à moins qu’il soit tracé en conjonction avec l’aptitude de classe appel d’un Extérieur, auquel cas il dure 10 minutes comme à l’accoutumée). S’il trace un cercle d’entrave de cette façon, sa durée est égale à un round par niveau d’occultiste.
+
+{s:Reference|MAITRISEDUNEECOLEINSTRUMENTALE}
+====Maîtrise d'une école instrumentale (Sur)====
+Au niveau 20, un occultiste apprend à maîtriser toutes les subtilités de l’un de ses instruments. Il choisit une école instrumentale. Chaque fois qu’il utilise un [[occultiste#POUVOIRDEFOCALISATION|pouvoir de focalisation]] d’un instrument de cette école, le [[DD]] pour résister à ses effets augmente de 4, tout comme son niveau d’occultiste lorsqu’il s’agit de déterminer les effets et la durée du pouvoir. En outre, l’occultiste gagne 4 points de [[occultiste#FOCALISATIONMENTALE|focalisation mentale]] supplémentaires mais ceux-ci doivent toujours être investis dans les instruments de l’école maîtrisée.
+Il ne peut conserver ces points ou les dépenser pour utiliser des pouvoirs autres que ceux de ces instruments. La solidité de chaque instrument de l’école maîtrisée par l’occultiste augmente de 20 tant que l’objet contient encore au moins 1 point de [[occultiste#FOCALISATIONMENTALE|focalisation mentale]].

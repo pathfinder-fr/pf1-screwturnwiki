@@ -1,0 +1,448 @@
+---
+Name: Pathfinder-RPG.Créer un sort
+Title: Créer un sort
+LastModified: 2014-08-31 13:21
+Categories:
+  - 'Art de la Magie'
+  - 'Magie'
+  - 'Règles officielles'
+---
+{toc}{s:um}La création de sorts pour Pathfinder JdR est une tâche complexe qui tient autant de l’art que de la science. Cette partie décrit tout ce à quoi vous devez penser pour concevoir des sorts équilibrés et jouables pour votre campagne.
+
+Contrairement aux objets magiques, les sorts ont des niveaux de puissance prédéfinis qui correspondent aux niveaux des
+sorts qui existent déjà. Quand vous créez un sort, vous devez tenir compte de la puissance de ce sort, en le comparant à ceux existants. La puissance du sort doit se classer dans l’un des neuf niveaux de sorts (plus les tours de magie et les oraisons). Au contraire, le prix des objets magiques est très précis, il se calcule à la pièce d’or près en fonction des caractéristiques précises de l’objet. En d’autres termes, il suffit d’augmenter le prix d’un objet magique pour compenser une augmentation de puissance mais si vous voulez faire un sort plus puissant, il faut augmenter son niveau, ce qui implique que vous devrez le comparer à d’autres sorts de référence.
+
+===La règle d'or===
+''Comparez votre sort à d’autres sorts similaires et à d’autres du même niveau.''
+
+Contrairement à l’attribution du prix des objets magiques, il n’y a pas de formule pour déterminer le « prix » d’un sort sans erreur. Il faut simplement comparer le nouveau sort en cours de création avec d’autres et évaluer leur puissance respective, voir s’il est plus faible, plus fort ou équivalent à un sort ou un groupe de sorts. Pour créer un sort, il faut d’abord avoir une excellente maîtrise de toutes les règles du jeu, pas seulement de celles liées aux sorts. De plus, il faut également comprendre quelques principes implicites du jeu, dont nous parlerons dans cette partie.
+
+'''Exemple.''' Si vous regardez la [[Liste des sorts densorceleursmagiciens|liste de sorts]], vous remarquerez qu’il n’y a pas de sort de magicien de niveau 1 qui inflige des dégâts sonores. Vous pouvez donc choisir de créer un sort pour occuper cette niche et prendre ''[[mains brûlantes]]'' pour modèle, sauf que votre sort fera des dégâts sonores et non de feu. Vous pourriez l’appeler ''grincement strident''. Pourtant, il existe une bonne raison pour laquelle le jeu comporte si peu de sorts du [[registre]] du son : c’est un type d’énergie qui a été rajouté tardivement. Ainsi, peu de monstres possèdent une [[résistance]] aux dégâts sonores car ils existaient avant que ce type d’énergie ne voie le jour. Comme il y a moins de créatures avec une [[résistance]] au son qu’avec une [[résistance]] au feu, ''grincement strident'' sera un meilleur sort que ''[[mains brûlantes]]''. Ce qui veut dire que, si vous introduisez ce sort dans votre jeu, les joueurs les plus rusés le choisiront systématiquement à la place de ''[[mains brûlantes]]''. Si un nouveau sort remplace un sort existant dans la sélection de la plupart des lanceurs de sorts, cela veut dire qu’il est plus efficace que les autres choix disponibles et s’il est si efficace qu’il est à l’évidence le meilleur choix, il est probablement trop puissant. Ce n’est qu’en comprenant l’ensemble du système de règles que vous pourrez éviter ce genre d’erreur.
+
+===La recherche de sorts===
+Les règles de jeu qui régissent le processus à suivre pour qu’un lanceur de sorts crée son propre sort sont très vagues (voir [[Magie profane|Les recherches indépendantes]]). C’est parce que, comme pour les objets magiques, les actions détaillées du personnage qui mène ces recherches n’ont pas d’importance pour le déroulement d’une campagne. On n’a pas besoin de savoir si un personnage utilise de l’encre de calamar ou celle d’une plante rare pour fabriquer son parchemin de ''[[mains brûlantes]]'', de même, il n’est pas indispensable de savoir s’il a changé les gestes décrits dans l’''Incunabulum d’Irulark'' ou s’il a modifié la prononciation des mots détaillés dans le ''Grand Grimoire de Murlost'' pour créer un nouveau sort offensif de niveau 1. Vous pouvez intégrer ces éléments pour donner plus de substance à votre histoire, surtout dans une campagne qui met l’accent sur la narration, mais cela n’affecte en rien l’objet fabriqué ou le sort créé. C’est pourquoi ce chapitre traite des mécanismes de jeu destinés au joueur ou au MJ qui crée un nouveau sort et non du processus à suivre pour un personnage qui cherche un nouveau sort dans le jeu.
+
+===Terminologie des sorts===
+Il faut impérativement que vous connaissiez la terminologie utilisée dans ce jeu pour définir les sorts et les effets qu’ils créent. Avant de concevoir un nouveau sort, familiarisez-vous avec [[Lancer des sorts|la magie]]. Et surtout, veillez à maîtriser les [[Présentation des sorts#ECOLES|diverses écoles et branches de magie]] et la [[Présentation des sorts|catégorie des profils de sort]] (les composantes, la portée, etc.).
+
+Les parties suivantes traitent des divers aspects de la création de sort, en commençant par les plus importants et les plus pertinents pour créer des sorts équilibrés. Par exemple, les composantes d’un sort auront peu de choses à
+voir avec sa puissance, à moins d’un [[focaliseur]] ou d’une composante de grande valeur, nous traiterons donc des
+composantes après les dégâts, la portée, la durée et les jets de sauvegarde.
+
+===Niveau souhaité===
+Avant de commencer, vous devez avoir une idée de la puissance générale de votre nouveau sort : vous voulez certainement le donner à un PNJ ou un PJ spécifique qui aimerait l’utiliser et, s’il est de trop bas niveau pour lui être utile ou s’il est trop puissant pour qu’il puisse le lancer, cela ne sert à rien de le créer. Une fois que vous avez une idée de son niveau (une fourchette de deux niveaux suffit à ce stade), vous pouvez passer à la prochaine étape.
+
+===Fonction===
+La fonction prévue pour le sort, voilà le paramètre principal dont vous devez tenir compte quand vous créez un sort. La fonction se rapporte à des effets de jeu tangibles comme infliger des [[Valeurs de combat#DEGATS|dégâts]], appliquer une [[États préjudiciables|condition]] ([[fiévreux]]) ou donner un bonus aux [[jet de sauvegarde|jets de sauvegarde]] ou d’[[Valeurs de combat#JETDATTAQUE|attaque]]. À ce stade, tout le reste n’est qu’accessoire, peu importe s’il s’agit de dégâts tranchants ou de feu, si la cible est [[Fiévreux|fiévreuse]] ou [[Confus|confuse]], si le sort donne un bonus d’intuition aux jets de sauvegarde ou un bonus d’altération aux jets d’attaque ou s’il invoque des licornes ou des démons de feu. Voici quelques exemples de fonctions :
+* Inflige des dégâts à un adversaire
+* Inflige des dégâts à plusieurs adversaires
+* Applique une condition ou un effet à un adversaire
+* Applique une condition ou un effet à plusieurs adversaires
+* Donne un bonus de défense à un allié
+* Donne un bonus de défense à plusieurs alliés
+* Donne un bonus offensif à un allié
+* Donne un bonus offensif à plusieurs alliés
+* Soigne un allié
+* Soigne plusieurs alliés
+
+Un sort peut remplir plusieurs de ces fonctions à la fois ou donner au lanceur de sorts le choix entre plusieurs options, mais il doit alors être toujours moins puissant qu’un sort de même niveau qui ne remplit qu’une fonction. N’oubliez pas cela lorsque vous créez votre sort. Notez que « condition ou effet » est la catégorie la plus vaste et qu’elle comprend de véritables conditions comme [[fiévreux]] ou [[paniqué]] et des effets comme la téléportation.
+
+
+===Dégâts du sort===
+Le meilleur moyen d’évaluer un sort offensif, c’est de regarder les dégâts qu’il fait. Les sorts offensifs sont les plus faciles à créer car on trouve des dizaines d’exemples. Un sort de dégâts type inflige 1 dé de dégâts (généralement un d6) par [[NLS|niveau de lanceur de sorts pour un sort]] de [[magie profane]] (par exemple ''[[décharge électrique]]'' ou ''[[boule de feu]]'') ou 1 dé de dégâts (généralement un d6 mais parfois un d8) par tranche de deux [[NLS|niveaux de lanceur de sorts]] pour les sorts [[Magie divine|divins]] (comme ''[[lumière brûlante]]'').
+
+
+===Cible===
+Les sorts les plus simples n’affectent qu’une [[Présentation des sorts#CIBLE|cible]], que ce soit une créature, un objet ou le lanceur de sorts. Techniquement, un sort qui affecte uniquement le lanceur de sorts (avec une portée « personnelle » ou une cible « le lanceur de sorts ») est légèrement plus faible qu’un autre qui a pour cible « une créature » car un sort que l’on peut lancer sur tout le monde est plus polyvalent et donc plus puissant. Pourtant, cette faible diminution de la puissance du sort qui vise « seulement le lanceur de sorts » ne justifie pas un passage au niveau de sort inférieur. Dans la plupart des cas, ces sorts fonctionnent ainsi car cela a toujours été le cas ou parce qu’ils offrent un bonus avantageux spécifique à une classe, car la situation pourrait déraper si tout le mode pouvait en profiter grâce à une incantation ou une potion. Ces sorts restent réservés au lanceur mais il faut étudier leur puissance comme si on pouvait les lancer sur n’importe qui.
+
+'''Exemple.''' ''[[Bouclier]]'' et ''[[coup au but]]'' sont deux sorts de niveau 1 qui affectent uniquement le lanceur de sorts. Si on pouvait les lancer sur les autres, ils seraient toujours de niveau 1, ce ne sont pas des sorts de niveau 2 que l’on a descendu d’un niveau parce qu’ils étaient réservés au lanceur de sorts.
+''[[Bouclier]]'' a toujours été un sort qui n’affecte que son lanceur et ce pour une bonne raison : comme ce sort donne un bonus de bouclier, si on le lançait sur un combattant au corps à corps, celui-ci pourrait lâcher son bouclier et se battre avec une arme à deux mains pour infliger plus de dégâts. ''[[coup au but]]'' a volontairement été créé comme un sort réservé au lanceur afin qu’un ensorceleur ne puisse pas le lancer sur un guerrier à chaque round, sinon, le guerrier serait sûr de toucher son adversaire, même un monstre puissant, tout en utilisant
+[[Expertise du combat]] (pour augmenter sa CA) et [[Attaque en puissance]] (pour faire des dégâts supplémentaires.) Ce n’est pas parce qu’un sort est réservé à son lanceur qu’il est plus faible mais cela empêche les joueurs d’exploiter certaines combinaisons qui rendraient les rencontres trop faciles.
+
+Un sort qui affecte plusieurs créatures est plus puissant que celui qui en affecte une seule. Les sorts qui touchent
+plusieurs créatures sont des sorts de [[Présentation des sorts#ZONEDEFFET|zone]], comme des cônes ou des sphères (comme une ''[[boule de feu]]'') ou permettent au lanceur de sorts de choisir plusieurs cibles tant qu’elles se trouvent toutes à une certaine distance les unes des autres (comme ''[[rapidité]]''). Un effet de rayonnement comme celui de la ''[[boule de feu]]'' peut éventuellement affecter beaucoup plus d’ennemis qu’un sort qui permet de choisir ses cibles, comme ''[[lenteur]]'', mais les sorts du dernier type ne risquent pas de toucher un allié. Choisissez le type le plus adapté à votre sort mais n’oubliez pas qu’un sort qui permet de choisir ses cibles est plus puissant, sauf à bas niveau où le niveau de lanceur de sorts limite le nombre de cibles par rapport à un sort de zone qui peut en affecter beaucoup.
+
+===Dégâts plafonnés===
+Les sorts de dégâts de bas niveau ne sont pas aussi efficaces que ceux de niveau moyen ou de haut niveau : le jeu est
+conçu pour que les sorts de bas niveau soient plafonnés au niveau des dégâts. En effet, si les dégâts des sorts de bas
+niveau continuaient d’augmenter sans limite maximale, ils rivaliseraient avec certains sorts de haut niveau en termes d’efficacité et le jeu serait moins intéressant si les personnages de niveau 20 continuaient d’utiliser les mêmes
+sorts qu’au niveau 1.
+
+Les dégâts maximaux dépendent du niveau du sort et de sa nature : [[Magie profane|profane]] ou [[Magie divine|divine]], parce que la magie profane est conçue, à dessein, pour infliger plus de dégâts, afin de contrebalancer les capacités de guérison supérieures de la magie divine. Un sort à « cible unique » ne blesse qu’une créature (comme ''[[décharge électrique]]'') ou voit ses dégâts divisés entre plusieurs créatures (comme ''[[mains brûlantes]]'' ou ''[[projectile magique]]''). Un sort à « cibles multiples » applique la totalité de ses dégâts à plusieurs créatures (comme ''[[boule de feu]]'').
+
+Par exemple, un sort de magicien de niveau 1 à cible unique comme ''[[décharge électrique]]'' peut infliger un maximum de 5 dés de dégâts (noté 5d6). On peut utiliser ''[[projectile magique]]'' contre une cible unique ou diviser les projectiles entre plusieurs créatures, ce qui divise également les dégâts. À première vue, on dirait que ''[[mains brûlantes]]'' n’obéit pas au plafond de dégâts car il inflige plusieurs dés de dégâts à plusieurs créatures, mais ceci est contrebalancé par le fait qu’il inflige seulement des d4 au lieu de d6 et qu’il a une zone d’effet très réduite avec une [[Présentation des sorts#PORTEE|courte portée]].
+
+Quand vous consultez les tables des Dégâts maximaux, n’oubliez pas que les sorts profanes utilisent généralement des d6 et les sorts divins des d8. En revanche, les tables sont conçues pour des d6, quand vous regardez le plafond des sorts divins, considérez chaque d8 comme 2d6. ''[[Lumière brûlante]]'' qui est un sort de prêtre de niveau 3 à cible unique inflige jusqu’à 5d8 points de dégâts, en considérant qu’un d8 correspond à 2d6, on a bien un total de 10d6, ce qui est le but pour un sort de prêtre de niveau 3. (Notez que le 1d6 par niveau avec un maximum de 10d6 points de dégâts contre les [[type Mort-vivant|morts-vivants]] est tout de même correct pour un sort de ce niveau et que ses dégâts légèrement élevés contre les [[type Mort-vivant|morts-vivants]] [[Vulnérabilités (capacité)|vulnérables à la lumière]] sont contrebalancés par ses dégâts réduits contre les [[type Créature artificielle|créatures artificielles]].)
+
+<table class="page espace-col deuxcol"><tr><td>
+{| CLASS="tablo toutgauche"
+|+ Dégâts maximaux des sorts profanes
+|- CLASS="titre"
+| Niveau du<br/>sort profane || Dégâts max<br/>(cible unique) || Dégâts max<br/>(cibles multiples)
+|- CLASS="premier"
+| 1 || 5 dés || - 
+|-
+| 2 || 10 dés || 5 dés
+|-
+| 3 || 10 dés || 10 dés
+|-
+| 4 || 15 dés || 10 dés
+|-
+| 5 || 15 dés || 15 dés
+|-
+| 6 || 20 dés || 15 dés
+|-
+| 7 || 20 dés || 20 dés
+|-
+| 8 || 25 dés || 20 dés
+|-
+| 9 || 25 dés || 25 dés
+|}
+</td><td>
+{| CLASS="tablo toutgauche"
+|+ Dégâts maximaux des sorts divins
+|- CLASS="titre"
+| Niveau du<br/>sort divin || Dégâts max<br/>(cible unique) || Dégâts max<br/>(cibles multiples)
+|- CLASS="premier"
+| 1 || 1 dé || - 
+|-
+| 2 || 5 dés || 1 dé
+|-
+| 3 || 10 dés || 5 dés
+|-
+| 4 || 10 dés || 10 dés
+|-
+| 5 || 15 dés || 10 dés
+|-
+| 6 || 15 dés || 15 dés
+|-
+| 7 || 20 dés || 15 dés
+|-
+| 8 || 20 dés || 20 dés
+|-
+| 9 || 25 dés || 20 dés
+|}
+</td></tr></table>
+
+'''Astuce.''' Si votre sort fait plus de dégâts que la quantité définie dans la table, vous devriez réduire ces dégâts ou augmenter le niveau du sort.
+
+'''Astuce.''' Si votre sort fait moins de dégâts que la quantité définie dans la table, vous devriez augmenter ces dégâts ou lui rajouter un effet. ''[[Cacophonie]]'' est un excellent exemple : il n’inflige que 1d8 points de dégâts (sans jamais augmenter) mais peut [[étourdi|étourdir]] les créatures situées dans la zone d’effet.
+
+===Portée===
+La [[Présentation des sorts#PORTEE|portée]] du sort joue un rôle significatif dans sa puissance. Si le lanceur de sorts doit toucher sa cible pour lancer un sort hostile, cela veut dire qu’il est au corps à corps ou presque et qu’il risque d’essuyer une riposte de la part de ses ennemis ou d’être victime d’une [[attaque dopportunité|attaque d’opportunité]] si des adversaires menacent la zone. De même, un sort à courte portée lui laissera un peu de marge mais souvent il suffit à l’adversaire de faire une [[charge]] ou un déplacement pour se rapprocher et l’attaquer : même au niveau 14 un sort de courte portée ne va pas au-delà de 18 mètres (12 {s:c}).
+
+En intérieur, la plupart des sorts de combat de portée moyenne pourraient aussi bien avoir une portée infinie car,
+quand le personnage accède aux sorts de ce niveau, il peut les lancer à 45 mètres (30 {s:c}) ou plus et peu de rencontres se déroulent dans des salles aussi grandes : le lanceur de sort peut toucher tout ce qu’il voit. Même en extérieur, un sort avec une portée de 45 mètres (30 {s:c}) peut toucher presque tout ce que le personnage voit sur un flip-mat ''GameMastery'' Paizo (60 centimètres par 75 revient à 36 mètres par 45). Les sorts à longue portée englobent aussi tout ce qui est en vue, la portée minimale de 120 mètres (80 {s:c}) se traduisant par plus de 2 mètres sur des flip-mats, beaucoup plus que la longueur de la plupart des tables de jeu. La longue portée entre en jeu seulement lors de situations abstraites, comme pour lancer une ''[[boule de feu]]'' sur des ennemis situés de l’autre côté d’une immense prairie, pour utiliser une ''[[porte dimensionnelle]]'' pour retourner dans une partie antérieure (et plus sûre) d’un donjon, etc.
+
+On comprend donc facilement que les sorts de contact sont les plus faibles, les sorts de courte portée valent un peu
+mieux, mais pas de beaucoup, tandis que les sorts de portée moyenne ou longue sont presque équivalents dans la plupart
+des cas. Comme le don [[Extension deffet|Extension d’effet]] double la portée d’un sort au prix d’une hausse d’un niveau d’emplacement de sort et que le don [[Sort éloigné]] augmente la portée d’une catégorie (de contact à courte portée, de courte portée à intermédiaire et d’intermédiaire à longue) au prix d’une hausse d’un niveau d’emplacement de sort, on peut raisonnablement avancer que, pour équilibrer un sort, une augmentation d’une catégorie de portée revient à une hausse d’un niveau d’emplacement de sort. Par exemple, si un sort fonctionne comme ''[[soins légers]]'' (normalement de niveau 1) mais à courte portée au lieu d’au contact, il correspondra à un sort de niveau 2.
+
+===Durée===
+Il n’y a pas de règles fixes pour déterminer la [[Présentation des sorts#DUREE|durée]] que devrait avoir un sort à un niveau donné. Un sort faible peut durer des heures alors qu’un puissant sort peut durer quelques rounds seulement ou être dépensé en une seule action. Le mieux, c’est de comparer l’effet et la durée du sort à ceux de sorts similaires du niveau désiré et à ceux du niveau inférieur et supérieur. Assurez-vous de bien faire la différence entre les sorts « instantanés » et « permanents ».
+
+===Jets de sauvegarde===
+La plupart des sorts qui affectent directement une créature avec un effet magique permettent un [[jet de sauvegarde]]. Les sorts qui créent des matériaux non magiques qui frappent ensuite une créature ou l’entravent (comme ''[[tempête de grêle]]'' ou ''[[tempête de neige]]'') ne nécessitent théoriquement pas de jet de sauvegarde.	
+
+Les sorts qui obligent le lanceur à faire un jet d’attaque pour toucher (même si c’est une attaque de contact à
+distance) peuvent autoriser ou non un jet de sauvegarde (''[[énergie négative]]'' et ''[[lumière brûlante]]'' n’en autorisent pas mais ''[[désintégration]]'' si). Les effets d’attaque qui ne demandent pas de lancer des dés de dégâts devraient toujours autoriser un jet de sauvegarde pour réduire ou annuler un effet, sinon, le sort serait un choix incontournable pour tout personnage ayant le niveau nécessaire pour le lancer.
+
+'''Astuce.''' Quand vous décidez si votre sort autorise un jet de sauvegarde ou pas, réfléchissez à la manière dont vous réagiriez si quelqu’un le lançait sur votre PJ préféré. Si votre PJ n’a aucune chance de résister à ses effets grâce à un jet de sauvegarde ou de l’esquiver entièrement à cause d’un jet d’attaque raté, est-ce que vous seriez ennuyé, embarrassé ou furieux ? Si tel est le cas, vous devriez laisser un jet de sauvegarde ou imposer un jet d’attaque, pour que votre sort ne puisse pas faire mouche à tous les coups.
+
+'''Jet de Vigueur.''' Les sorts qui autorisent un jet de Vigueur transforment généralement la cible au niveau physique, appliquent un effet auquel on résiste habituellement avec un jet de Vigueur (comme une maladie ou un poison) ou représentent une forme d’attaque à laquelle on peut résister grâce à sa seule robustesse. En général, si la cible réussit son jet de sauvegarde, elle est quand même touchée par l’effet mais elle le supporte, comme un ours qui ignore la puanteur d’une moufette. Notez que si votre sort n’affecte que les créatures (et pas les objets), les créatures non vivantes, comme les [[type Créature artificielle|créatures artificielles]] et les [[type Mort-vivant|morts-vivants]] seront immunisés contre lui. Par exemple, ils sont immunisés contre les sorts de métamorphose qui visent les créatures mais pas contre des sorts comme ''[[désintégration]]'' qui affectent aussi les objets.
+
+'''Jet de Réflexes.''' Les sorts qui autorisent un jet de Réflexes créent généralement une manifestation physique de zone, comme une explosion, que la cible pourra éviter à l’aide d’un jet de sauvegarde. En général, quand la cible réussit son jet de Réflexes, cela veut dire qu’elle a esquivé l’effet ou qu’il est passé à côté d’elle ou au-dessus et que ses effets sont donc réduits. Notez qu’il faut éviter de créer un sort qui demande au lanceur de faire un jet d’attaque et qui autorise un jet de Réflexes : la Dextérité entrerait deux fois en jeu pour ce même sort (une fois pour la CA de la cible et une autre au niveau de son modificateur au jet de sauvegarde).
+
+'''Jet de Volonté.''' Les sorts qui autorisent des jets de Volonté sont des attaques mentales auxquelles la cible peut résister par sa puissance intellectuelle, en dispersant ses pensées ou en découvrant les failles de l’assaut mental qui annulent son effet. Le jet de Volonté est une version mentale du jet de Vigueur, l’effet « touche » la cible et son succès dépend de la force de volonté de celle-ci. La plupart des sorts d’attaque directe
+qui autorisent un jet de Volonté (comme ''[[sommeil]]'' ou ''[[assassin imaginaire]]'') sont des effets mentaux (voir les registres, plus bas).
+
+On peut lancer certains sorts sur des objets qui auront droit à un jet de sauvegarde uniquement s’ils sont magiques
+ou s’ils se trouvent dans les mains d’une créature. Dans leur description, on trouve « objet » après le type de jet de
+sauvegarde (voir ''[[réduction dobjet|réduction d’objet]]'').
+
+Les sorts bénéfiques et ceux qui ne blessent pas leur cible, de quelque manière que ce soit, ne devraient pas autoriser de jet de sauvegarde ou comporter la mention « inoffensif » après le type de jet (voir ''[[vol]]'').
+
+Les sorts qui affectent uniquement le lanceur de sorts n’autorisent jamais de jet de sauvegarde (personne n’essaierait de résister à un sort bénéfique qu’il se lance lui-même). N’indiquez donc pas de jet de sauvegarde après ce genre de sorts (voir ''[[coup au but]]'').
+
+===Résistance à la magie===
+L’application de la [[résistance à la magie]] dépend en grande partie de la nature de l’effet magique : instantané ou sur la durée. Elle s’applique aux effets magiques instantanés (comme ''[[boule de feu]]'') et aux effets magiques prolongés (comme ''[[mur de feu]]'') mais pas aux effets non magiques ou aux sorts qui provoquent des effets non magiques, instantanés ou non. Par exemple, un mur de pierre invoque instantanément un ''[[mur de pierre]]'' qu’on ne peut pas dissiper. La résistance à la magie ne permet pas plus de le franchir que si un personnage tentait de traverser le rempart d’un château : ces deux murs n’ont rien de magique et ils restent tous les deux à leur place même si on leur lance ''[[dissipation de la magie]]'' ou ''[[zone dantimagie|zone d’antimagie]]''.
+
+En règle générale, la plupart des sorts sont sensibles à la résistance à la magie. Elle n’intervient pas seulement quand vous créez délibérément un sort qui engendre un objet non magique ou un effet non magique. Vous pouvez utiliser ''[[glissement de terrain]]'' pour créer une colline, la résistance à la magie ne vous aidera pas à arriver au sommet ou à la traverser parce que, même si c’est un sort qui a permis de déplacer la terre, la colline n’a rien de magique. De même, on peut utiliser ce sort pour créer une fosse et la résistance à la magie ne vous empêchera pas de tomber dedans car elle n’a rien de magique, c’est la même chose que si on l’avait creusée à la pelle. ''[[Pierre magique]]'' ajoute des pouvoirs magiques à la roche mais la résistance à la magie n’empêche pas plus de se faire toucher par ces pierres que par une ''flèche'' +1 car la magie se concentre sur la pierre et non sur la créature qui possède une résistance à la magie.
+
+Une astuce très répandue consiste à créer un sort qui interdit la résistance à la magie, pour que le personnage puisse l’utiliser contre des créatures dotées de résistance à la magie. Dans bien des cas, l’idée de base est ridicule, comme de créer une sphère d’huile bouillante et la lancer dans la zone choisie où elle explose dans un déluge de flammes. Le but est évident : créer une ''[[boule de feu]]'' non magique qui ignore la résistance à la magie. Les [[golem|golems]] sont la cible privilégiée de ces inventions car leur immunité à la magie les protège entièrement contre tous les sorts qui autorisent une résistance à la magie. Vous ne devriez pas laisser ce genre de sorts se glisser dans vos campagnes car ils déséquilibrent les rencontres : certains monstres sont conçus afin d’être difficiles à affronter pour un combattant au corps à corps, d’autres pour représenter un défi pour les lanceurs de sorts et d’autres encore sont un cauchemar pour tout le monde.
+
+L’application ou non de la résistance à la magie n’influe pas sur la puissance d’un sort car, dans la plupart des rencontres, la résistance à la magie n’entre pas en ligne de compte.
+
+Si la partie jet de sauvegarde indique « inoffensif » ou « objet » la partie résistance à la magie devrait faire de même.
+
+===Temps d'incantation===
+Les sorts conçus pour se lancer en combat devraient tous avoir un temps d’incantation de « 1 [[action simple]]. » Évitez de céder à la tentation de créer des sorts avec un temps d’incantation de « 1 [[action de mouvement]] » ou « 1 [[action rapide]] » ou « une [[action immédiate]] » car c’est seulement une manière détournée d’autoriser un personnage à lancer deux sorts en un round alors qu’il existe déjà un mécanisme pour cela : le don [[Incantation rapide]]. Ce don perdra beaucoup de sa valeur si vous inventez des sorts de combat à incantation rapide. Même si vous créez le sort de manière similaire à un sort à [[Incantation rapide]] (en incluant l’augmentation de +4 niveaux), vous spoliez les lanceurs de sorts qui ont pris la peine d’apprendre le don et votre sort deviendra une combo classique pour les personnages de haut niveau qui peuvent se permettre de lancer des sorts supplémentaires du niveau requis. Par exemple, si vous créez un sort de ''[[projectile magique]]'' rapide de niveau 5, comme un ''[[projectile magique]]'' couplé à [[Incantation rapide]], tout magicien de niveau 14 (qui dispose au moins de trois emplacements de sorts de niveau 5) sera tenté de l’apprendre juste parce que cela lui permettra d’ajouter 5d4+5 points de dégâts supplémentaires à tout sort de combat de haut niveau qu’il lance, ce qui l’autorise à contourner le plafond de dégâts. De plus, si vous autorisez vos lanceurs de sorts à jeter facilement deux sorts par round, ils auront tendance à vider leurs réserves de sorts plus rapidement et à pousser leurs alliés à monter le camp et se reposer au lieu
+de continuer leur exploration.
+
+Un sort qui permet d’invoquer une créature en cours de combat devrait avoir un temps d’incantation de « 1 [[round]]. » Ceci permet de fixer un coût en action raisonnable pour le personnage qui lance le sort. S’il pouvait convoquer un
+monstre par une [[action simple]] et agir également, ce serait comme si le sort ne lui coûtait aucune action.
+
+Les sorts qui appellent un extérieur qui sert le personnage pendant plus de quelques rounds (comme ''[[allié doutreplan|allié d’outreplan]]'' ou ''[[contrat intermédiaire]]'') devraient demander 10 minutes d’incantation et les sorts plus puissants doivent prendre encore plus longtemps. Notez que l’on peut utiliser portail pour appeler des créatures avec un temps d’incantation de 1 [[action simple]] mais, quand on utilise le sort ainsi, il nécessite une dépense de 10 000 po en composantes. Cette incantation rapide a donc un prix élevé.
+
+===Composantes===
+Dans l’ensemble, les [[Présentation des sorts#COMPOSANTES|composantes]] d’un sort n’ont pas grand-chose à voir avec sa puissance, à moins qu’il ne s’agisse d’un [[focaliseur]] ou d’une composante matérielle coûteuse ou qu’il ne faille pas de composante du tout. La plupart des sorts ont des composantes verbales et gestuelles et les nouveaux sorts devraient suivre ce modèle.
+
+L’avantage des sorts sans composantes verbales, c’est qu’on peut les lancer dans une zone de ''[[silence]]'', on est donc tenté de créer des variantes silencieuses des sorts qui existent déjà. Mais cela diminue l’intérêt du don [[Incantation silencieuse]], tout comme les sorts à [[action rapide]] réduisaient celui de l’[[Incantation rapide]], mais dans une moindre mesure : la possibilité de lancer deux sorts par round représente un problème bien plus grave qu’un sort de secours en cas de silence inattendu. Si un lanceur de sorts décide de préparer ''[[projectile magique]]'' silencieux au lieu de ''[[flèche acide]]'' ou ''[[flèche acide]]'' silencieuse au lieu de ''[[boule de feu]]'', il choisit délibérément une option plus faible et tout va bien.
+
+L’avantage des sorts qui ne nécessitent pas de composante gestuelle, c’est qu’un personnage peut les lancer même s’il est attaché, en lutte ou s’il a les deux mains prises. De plus, le risque d’échec des sorts profanes ne s’applique pas. Comme les versions silencieuses des sorts ordinaires, les sorts sans composantes somatiques dévaluent le don [[Incantation statique]]. Par principe, les sorts du jeu nécessitent des mots et des gestes, et les nouveaux sorts devraient respecter ceci, à moins que leur thème ne justifie l’absence de composante gestuelle ou s’ils sont spécialement conçus pour échapper à des liens ou à une lutte.
+
+L’avantage des sorts qui ne nécessitent pas de composante matérielle, c’est qu’ils n’obligent pas à porter une bourse de composantes (et, dans les rares cas où le personnage est agrippé par un adversaire, il n’a pas besoin d’avoir déjà les composantes en main pour lancer son sort). La plupart des composantes matérielles existent plus pour l’interprétation que pour satisfaire à une règle. Le guano et le soufre de la ''[[boule de feu]]'' sont là parce que la première poudre à canon (la poudre noire) était faite à base de guano et de soufre. La fourrure et le bâton de verre de l’''[[éclair]]'' viennent de la capacité à créer de l’électricité statique en frottant de la fourrure contre un bâton de verre. Le jeu pourrait présenter ces sorts sans composantes matérielles sans effet notable sur les mécanismes ludiques (comme le prouve la [[Matériel de classes et de compétences#Sacocheàcomposantes|sacoche à composantes]] qui « contient tout ce dont vous avez besoin » et la classe d’ensorceleur qui gagne [[Dispense de composantes matérielles]] comme don supplémentaire). Si elles font partie du sort, c’est juste pour le fun. Équilibrez votre sort comme s’il n’avait pas de composantes matérielles ou comme si elles étaient gratuites et ajoutez-les ensuite si cela semble approprié.
+
+Les composantes matérielles coûteuses servent à empêcher des joueurs trop zélés de lancer un sort dès qu’ils le peuvent, soit parce que ce sort rend les aventures trop faciles si tout le monde en bénéficie (comme ''[[peau de pierre]]''), soit parce qu’il permet aux PJ d’éviter des phases de jeu clef comme l’exploration et les enquêtes (comme ''[[augure]]'', ''[[divination]]'' ou ''[[communion]]'') soit parce qu’il les aide à banaliser certains dangers (comme ''[[rappel à la vie]]'' ou ''[[restauration]]''). Équilibrez de préférence votre sort sans recourir à des composantes matérielles coûteuses, généralement en augmentant son niveau s’il est trop puissant pour celui prévu. Parfois, le niveau du sort est fixé volontairement (comme pour ''[[augure]]'' car il paraît normal que les prêtres disposent d’un sort de divination de bas niveau) mais il est assez utile pour que les PJ en abusent s’il est gratuit, c’est pourquoi il s’accompagne d’un prix en po pour limiter son utilisation. Les sorts de défense à long terme (comme ''[[glyphe de garde]]'') entrent aussi dans cette catégorie car, s’ils étaient gratuits, tous les lanceurs de sorts tapisseraient leur repaire avec et en lanceraient un par jour pendant les semaines ou les mois dont ils disposent avant l’arrivée des PJ. Le prix en po qui accompagne le glyphe permet de mener des aventures normales sinon, chaque case dans laquelle les PJ pénètrent pourrait être un piège et le jeu ralentirait au point qu’ils seraient obligés de fouiller soigneusement chaque case pour repérer un glyphe probable. Et étant donné qu’un voleur ordinaire de niveau 5 a une [[Perception]] de +14 contre le DD 28 du glyphe, il ratera automatiquement la majorité de ses tests à moins de choisir de [[Compétences#TESTSDECOMPETENCES|faire 20]].
+
+Les [[focaliseur]] suivent les mêmes règles que les composantes matérielles : dans la plupart des cas, ils sont juste là pour l’ambiance et n’ont pas d’importance à moins de coûter cher. Un [[focaliseur]] onéreux fonctionne comme une composante matérielle onéreuse mais c’est un investissement à long terme, pas une dépense à répéter plusieurs fois, comme une barrière que l’on peut ignorer une fois qu’on l’a franchie. Le [[focaliseur]] coûteux permet de retarder le moment où le personnage accède au sort mais, une fois qu’il a les matériaux requis, il fonctionne comme un sort sans composante onéreuse. Comme pour les composantes matérielles, équilibrez votre sort en fonction de son niveau et ensuite seulement, s’il semble trop efficace et qu’il vaudrait mieux le modérer en retardant son utilisation, vous pouvez ajouter un [[focaliseur]] coûteux.
+
+===Écoles===
+Quand on équilibre un sort, son [[Présentation des sorts#ECOLES|école]] n’a pas beaucoup d’importance : un sort d’[[invocation]] de niveau 6 devrait être aussi puissant qu’un sort d’[[évocation]] de même niveau. Le choix de l’école dépend de ce qui correspond le mieux au thème et aux effets du sort. Les sorts qui infligent des dégâts d’énergie dans une zone sont généralement des sorts d’[[invocation]] ou d’[[évocation]], ceux qui appellent, convoquent ou créent des objets physiques ou des créatures sont des sorts d’[[invocation]] tandis que ceux qui créent des choses à base d’énergie ou de force appartiennent à l’école de l’[[évocation]]. Les sorts qui affectent l’esprit sont des sorts d’[[enchantement]], à moins qu’ils ne causent un effet de peur ou n’affectent les [[type mort-vivant|morts-vivants]], auquel cas ce sont des sorts de [[nécromancie]].
+
+===Types de bonus===
+Il existe de nombreux types de bonus dans le jeu. Il est très tentant de consulter la liste des bonus, de trouver des
+« trous » dans la liste des sorts (des types de bonus qui ne correspondent à aucun sort) et de créer un nouveau sort qui rajoute un de ces types de bonus inutilisés à votre statistique ou votre jet préféré. Résistez à cette envie. Les bonus ne sont pas tous égaux et certains sont réservés à certaines choses. Consultez la table : Les types de bonus et leurs effets.
+
+Un tiret (–) indique qu’il n’existe pas d’exemple de sorts qui offre ce type de bonus. Si vous créez un objet ou un sort et que vous désirez lui ajouter un bonus à une caractéristique ou un pouvoir particulier, consultez d’abord cette table. Si le type de bonus ne s’applique pas à une caractéristique ou une aptitude, choisissez-en un pour lequel ce sera le cas. Cette table existe car certains bonus sont plus avantageux que d’autres (les bonus de parade fonctionnent contre les créatures intangibles et quand le personnage est pris au dépourvu, les bonus d’armure naturelle non). De plus, si l’on autorise n’importe quel bonus à affecter n’importe quel jet ou statistique, il sera très facile de cumuler nombre de bonus faibles qui reviennent moins cher qu’un gros, ce qui diminue l’intérêt des objets magiques puissants comme ''[[anneau de protection]] +5''. Et enfin, certaines de ces combinaisons n’ont simplement aucun sens, comme un bonus de parade à la Force ou un bonus de bouclier sur un test de [[Connaissances]].
+
+{| CLASS="tablo toutgauche"
+|+ Les types de bonus et leurs effets
+|- CLASS="titre"
+| Type de bonus || Peut affecter || Exemple d’objet || Exemple de sort
+|- CLASS="premier"
+| Alchimique || caractéristiques, jets de sauvegarde || antidote || - 
+|-
+| Altération || caractéristique, CA, attaques, dégâts, vitesse || ''[[ceinturon de force de géant]]'' || ''[[arme magique]]''
+|-
+| Armure || CA || ''[[bracelets darmure|bracelets d’armure]]'' || ''[[armure de mage]]''
+|-
+| Armure naturelle || CA || ''[[amulette darmure naturelle|amulette d’armure naturelle]]'' || ''[[peau décorce|peau d’écorce]]''
+|-
+| Bouclier || CA || ''[[anneau de bouclier de force]]'' || ''[[bouclier]]''
+|-
+| Chance || CA, attaques, tests, dégâts, jets de sauvegarde || ''[[pierre porte-bonheur]]'' || ''[[faveur divine]]''
+|-
+| Circonstance || attaques, tests || ''[[robe de mimétisme]]'' || -
+|-
+| Compétence || attaques, tests, jets de sauvegarde || ''[[bottes elfiques]]'' || ''[[assistance divine]]''
+|-
+| Esquive || CA || jamais<sup>*</sup> || jamais<sup>*</sup>
+|-
+| Inné || caractéristique || ''[[manuel de vitalité]]'' || ''[[souhait]]''
+|-
+| Intuition || CA, attaques, tests, jets de sauvegarde || ''[[pierre ioun]] (prisme rose laiteux)'' || ''[[coup au but]]''
+|-
+| Malfaisance || CA, tests, dégâts, DD, jets de sauvegarde || - || ''[[profanation]]''
+|-
+| Moral || attaques, tests, dégâts, jets de sauvegarde, For, Con, Dex || ''[[cierge dinvocation|cierge d’invocation]]'' || ''[[bénédiction]]''
+|-
+| Parade || CA || ''[[anneau de protection]]'' || ''[[bouclier de la foi]]''
+|-
+| Résistance || jets de sauvegarde || ''[[cape de résistance]]'' || ''[[esprit impénétrable]]''
+|-
+| Sacré || CA, tests, dégâts, DD, jets de sauvegarde || - || ''[[consécration]]''
+|-
+| Taille || caractéristique, attaques, CA || - || ''[[agrandissement]]''
+|-
+| COLSPAN="4" | <sup>*</sup> Les sorts et les objets magiques ne devraient jamais donner de bonus d’esquive car ces bonus se cumulent toujours et il serait trop simple d’accumuler des sorts ou des objets de bas niveau qui donnent un bonus d’esquive pour avoir une CA incroyablement élevée à bien moindre coût plutôt qu’en utilisant les bonus d’armure, de parade, d’altération et d’armure naturelle du jeu.
+|}
+
+
+===Description===
+La description est le corps du sort et ce sont les informations que vous donnez ici qui revêtent le plus d’importance.
+
+Assurez-vous que la description de votre sort est claire et concise. Souvenez-vous que, lors de leur tour de combat, les joueurs vont se référer à la description du sort en toute hâte et que, s’ils doivent se frayer un chemin dans les méandres d’un langage fleuri pour trouver les informations qu’ils cherchent, les autres joueurs et le MJ vont s’ennuyer. Si le sort a plusieurs effets complexes, attribuez un paragraphe à chacun. Si le sort permet à son lanceur de choisir entre plusieurs options, elles doivent toutes avoir leur propre ligne avec un intitulé en italique (voir ''[[entrave]]'' par exemple).
+
+Ce qui figure dans le profil du sort n’a pas besoin de réapparaître dans sa description, ce serait redondant. Par
+exemple, la description de la ''[[boule de feu]]'' ne dit pas « Le sort peut se lancer jusqu’à 120 mètres plus 12 mètres par niveau de lanceur de sorts. » Un texte superflu comme celui-ci ne fait qu’encombrer le joueur qui bute dessus alors qu’il cherche quels sont les effets du sort au beau milieu d’un combat.
+
+Évitez d’utiliser un langage qui sous-entend quelque chose que les mécanismes de jeu du sort n’impliquent pas
+forcément. Par exemple, une description de sort ne devrait pas dire « en utilisant le vil pouvoir de la nécromancie » si le sort ne produit pas un effet maléfique ou n’appartient pas au [[registre]] du mal. C’est une erreur courante avec les sorts de nécromancie qui incluent effectivement de nombreux sorts maléfiques mais aussi une bonne part de sorts bienveillants (comme ''[[projection astrale]]'', ''[[préservation des morts]]'' ou ''[[annihilation de mort-vivant]]''). Les gens qui lisent votre description peuvent ignorer vos intentions et ce langage biaisé peut leur faire croire que le sort possède un effet supplémentaire qui n’est pas explicité dans la description.
+
+N’oubliez pas que, même si vous créez un sort pour un personnage particulier ou une classe donnée, la plupart des sorts sont soumis à une utilisation bien plus ouverte. Vous devez imaginer votre sort entre les mains du pire
+optimisateur et utilisé par un personnage complètement différent de celui pour qui vous l’avez créé. Même un simple
+sort d’ensorceleur/magicien est conçu pour plusieurs types de lanceurs de sorts : le [[magicien]], qui peut apprendre de nombreux sorts mais n’en lancer que quelques-uns par jour, et l’[[ensorceleur]] qui connaît peu de sorts mais peut en lancer beaucoup chaque jour. Un sort adapté à un magicien pourrait être trop puissant pour un ensorceleur qui peut le lancer plus souvent chaque jour. De même, réfléchissez à ce qui se passera si les PJ peuvent utiliser ce sort sous forme de potion ou de parchemin : vous pouvez créer un sort rare que les PJ ne sont pas censés avoir la plupart du temps mais un magicien peut très bien créer un parchemin de ce sort et le garder pour une bonne occasion.
+
+Une fois que vous avez fait la description de votre sort, faites-la lire à d’autres. Ils remarqueront ce que vous avez
+négligé, vous poseront des questions auxquelles votre sort doit répondre et trouveront comment on peut abuser de
+votre sort. Profitez de ces retours pour le réviser.
+
+====Les statistiques à vider====
+Les statistiques à vider sont des valeurs comprises dans le profil d’une créature ou d’un objet que l’on peut réduire en l’attaquant et qui neutralisent, tuent ou détruisent cette cible ou cet objet si elles arrivent à une valeur trop basse (en général 0). Les points de vie, les valeurs de caractéristique et les niveaux sont des statistiques à vider : une créature tombe inconsciente quand elle est réduite à 0 point de vie, les objets, les morts-vivants
+et les créatures artificielles sont détruits quand ils tombent à 0 point de vie ; les créatures sont sans défense ou meurent quand une de leurs valeurs de caractéristique atteint 0 ; les créatures meurent quand leur total de niveau négatif égale leur total de dés de vie. Beaucoup d’attaques magiques et la plupart des attaques non magiques réduisent ces statistiques, d’une manière ou d’une autre, jusqu’à ce que la cible soit vaincue.
+
+En revanche, les bonus d’attaque, les bonus aux jets de sauvegarde, la CA, la solidité, le BMO, le DMD, l’initiative, la vitesse, les modificateurs de compétence et la plupart des autres statistiques de jeu ne sont pas des statistiques que l’on peut vider parce que, même si elles descendent très bas, cela n’empêchera pas la créature ou l’objet d’entrer en action. Par exemple, un sort qui impose un malus de -10 à l’attaque a peu d’effet sur un personnage qui lance une ''[[boule de feu]]'', tout comme un sort qui réduirait ses jets de Volonté de -10. Même avec des jets d’attaque et de Volonté minables, il peut toujours réduire ses adversaires en cendres, que ses malus soient de -10 ou de -100. De même, un guerrier avec un malus de -10 aux jets de Vigueur peut toujours manier son épée, tout comme s’il a un malus de -10 à la CA. Même avec ces handicaps, il est toujours viable.
+
+Les « statistiques à vider » ne sont pas un terme de jeu officiel mais c’est un concept bien utile quand on veut comparer la puissance de plusieurs sorts : la diminution des statistiques à vider est une guerre d’attrition qui peut finir par faire tomber la cible alors que l’ajout de malus sur d’autres statistiques peut rester sans effet car la cible a peut-être d’autres attaques qui lui permettent de négliger ces malus.
+
+===Hiérarchie des effets d'attaque===
+La hiérarchie de l’efficacité des effets des sorts d’attaque est très claire. La voici, de l’effet le plus puissant au plus faible, en partant du principe que tous les autres facteurs (les immunités, le nombre de cibles, etc.) sont égaux.
+
+'''Contrôle.''' Un sort de contrôle place l’adversaire sous la domination du personnage. Il en fait un allié ou l’empêche au moins d’être actif en tant qu’ennemi pendant un temps. C’est le meilleur type de sort d’attaque car, non seulement il élimine un adversaire (comme un sort qui le tuerait ou le rendrait impuissant) mais il crée en plus un nouvel allié pour le lanceur de sorts qui peut le retourner contre ses ennemis. La plupart des sorts d’enchantement les plus puissants sont des sorts de contrôle mais ils ont l’inconvénient d’être du genre tout ou rien : si la créature réussit son jet de sauvegarde, le sort ne l’affecte absolument pas. Voici quelques exemples de sorts de contrôle : ''[[charme-monstre]]'', ''[[charme-personne]]'', ''[[confusion]]'', ''[[domination]]'' et ''[[domination universelle]]''.
+
+'''Mort.''' Un sort de mort tue ou détruit immédiatement un adversaire sans avoir besoin de passer par une réduction de statistique (voir l’encadré), généralement à l’aide d’un jet de Vigueur. Les sorts de mort sont plus efficaces que les sorts incapacitants car leurs effets ne se dissipent pas et il n’y a aucun risque qu’un ennemi inverse facilement leur effet (comme ce serait le cas avec une dissipation de la magie). Les sorts de mort les plus puissants infligent des points de dégâts si la cible réussit son jet de sauvegarde, le lanceur est donc sûr qu’il aura un effet. Voici quelques exemples : ''[[assassin imaginaire]]'', ''[[désintégration]]'', ''[[doigt de mort]]'', ''[[exécution]]'', ''[[mot de pouvoir mortel]]'' et ''[[plainte doutre-tombe|plainte d’outre-tombe]]''.
+
+'''Incapacitant.''' Un sort incapacitant empêche la cible d’agir à l’encontre du lanceur de sorts et la retire du combat pendant un certain temps (ou de façon permanente), mais ses alliés peuvent annuler l’effet du sort. Les sorts qui font fuir leur cible comptent comme des sorts incapacitants. Ils valent mieux que les sorts de dégâts car ils permettent de négliger les diminutions de statistiques et mettent parfois un ennemi hors de combat. Ces sorts regroupent ''[[immobilisation de monstre]]'', ''[[immobilisation de personne]]'', ''[[mot de pouvoir étourdissant]]'', ''[[sommeil]]'', ''[[terreur]]'' et ''[[pétrification]]''.
+
+'''Dégâts.''' Un sort de dégâts réduit les statistiques à vider de la cible et la rapproche de l’instant où ces dégâts la mettront hors de combat. Les sorts de dégâts sont des éléments fiables car toutes les créatures possèdent des statistiques à vider, d’une sorte ou d’une autre, et parce que la plupart des attaques non magiques visent ces mêmes statistiques (ce qui veut dire que le guerrier et le roublard alliés au lanceur de sorts l’aident à vaincre son adversaire). Les sorts de dégâts sont mieux que les sorts de malus car les dégâts se cumulent toujours (ce qui n’est pas le cas des malus) et que, si le lanceur de sorts et ses alliés font suffisamment de dégâts, leur adversaire se retrouve hors de combat alors que l’on peut accumuler indéfiniment des malus et rester viable. Voici quelques exemples de sorts de dégâts : ''[[boule de feu]]'', ''[[cacophonie]]'', ''[cône de froid]]'', ''[[éclair]]'', ''[[poison]]'' et ''[[projectile magique]]''.
+
+'''Malus.''' Un sort à malus impose à la cible un handicap qui n’est pas lié à une statistique à vider, comme un malus à l’attaque, à la CA, des restrictions sur les actions possibles, etc. Les sorts à malus sont les plus faibles de tous parce que, dans la plupart des cas, le personnage ne peut pas tuer son adversaire à coups de malus et que ces derniers ne se cumulent pas. Le lanceur de sorts et ses alliés doivent donc se débarrasser autrement de leur
+adversaire (généralement à l’aide de sorts de dégâts et d’attaques non magiques). Voici quelques exemples de sorts à malus : ''[[Cécitésurdité|cécité/surdité]]'', ''[[imprécation]]'', ''[[lenteur]]'' et ''[[rayon affaiblissant]]''.
+
+Il existe des exceptions aux catégories présentées plus haut. Par exemple, si un monstre possède un grand nombre de points de vie et inflige des dégâts conséquents mais qu’il n’a que des chances modérées de toucher les alliés du lanceur de sorts, ce dernier a plus intérêt à lui imposer un malus à l’attaque (pour réduire encore ses chances de toucher) plutôt que d’essayer de réduire son total de points de vie (parce que, pendant ce temps, le monstre risque de faire beaucoup de dégâts aux alliés). Dans ce cas, un sort à malus qui réduit le bonus d’attaque est plus efficace qu’un sort de dégâts. Autre exemple : les PJ doivent interroger un adversaire vaincu. Dans ce cas, un sort incapacitant est plus utile qu’un sort de mort (à moins que les PJ ne possèdent une excellente magie qui leur permette de questionner le mort plus efficacement qu’avec une ''[[communication avec les morts]]'').
+
+Les sorts à effets variables peuvent appartenir à plusieurs types, en fonction du résultat : un sort de confusion peut faire balbutier un monstre comme un sort incapacitant ou lui faire attaquer un de ses alliés, comme un sort de contrôle. De même, un sort de ''[[convocation de monstres III]]'' qui invoque un serpent constricteur fiélon devient un sort incapacitant si le serpent utilise constriction sur son ennemi, mais c’est un sort de dégâts s’il convoque un sanglier fiélon qui ne fait qu’infliger des dégâts et ne possède pas d’attaques spéciales. Il est difficile d’équilibrer ces sorts car il faut tenir compte d’une utilisation optimale.
+
+===Le manuel fait loi===
+Quand vous créez un nouveau sort, vous devez toujours le comparer à ceux du Manuel des Joueurs, pour avoir une idée de sa force ou de sa faiblesse par rapport à son niveau. Vous pouvez aussi le comparer à des sorts issus d’autres ouvrages mais le Manuel des Joueurs doit vous servir de base. Parce que si un sort présent dans un autre livre déborde, même très légèrement, les frontières de ce qui est acceptable et équilibré, il est facile de repousser ces frontières encore plus loin avec votre nouveau sort, ce qui voudra dire qu’au fil du temps, les nouveaux sorts seront de plus en plus puissants que ceux du Manuel des Joueurs. Ceux qui y figurent sont ceux qui ont bénéficié du maximum de playtests, ce sont des versions optimales des sorts du jeu : les nouveaux sorts ne devraient pas être substantiellement plus puissants (voir aussi la section [[Créer un sort#REFERENCES|Références]]).
+
+N’oubliez pas que vous êtes autorisés à créer un sort moins efficace que ceux qui existent. Ce n’est pas parce que ce n’est pas le sort le plus puissant de son niveau que les aventuriers ne l’utiliseront jamais. C’est pour cela que les
+parchemins faciles à fabriquer sont si importants dans le jeu : pour permettre aux groupes de disposer de sorts qu’ils
+ne souhaitent pas apprendre ou préparer mais qu’ils peuvent trouver utiles dans certaines circonstances.
+
+===Les sorts à buts multiples===
+Un sort qui donne au lanceur le choix entre plusieurs options devrait, dans l’ensemble, être plus faible qu’un sort
+qui ne laisse aucun choix. Tout d’abord, un sort efficace pour deux choses est bien meilleur qu’un sort efficace pour
+une, il faut donc réduire la puissance du premier, afin que les deux restent équivalents. Ensuite, comme les [[barde|bardes]], les [[oracle|oracles]] et les [[ensorceleur|ensorceleurs]] n’apprennent qu’un nombre de sorts limités, les sorts qui permettent de faire plusieurs choses représentent un choix plus judicieux pour eux car cela revient presque à apprendre plusieurs sorts.
+
+Voici des exemples de sorts mal conçus avec des options multiples dissemblables.
+
+Un sort « d’émotion » général qui permet au lanceur de sorts de projeter une émotion choisie entre plusieurs qui ont
+toutes un effet différent sur la cible.
+
+Un sort de feu qui permet au personnage de lancer une explosion de feu, d’enflammer plusieurs flèches pour ajouter
+des dégâts de feu ou de créer un bouclier de feu protecteur. Un sort qui fonctionne comme ''[[force de taureau]]'' mais laisse le lanceur choisir quelle caractéristique il affecte.
+
+Un sort qui téléporte le lanceur de sorts ou peut servir à envoyer une cible non consentante au loin.
+
+Un sort qui inflige des dégâts d’énergie du type choisi par le lanceur dans une zone.
+
+Au lieu de créer un sort à effets multiples qui fournit une « liste de courses » au lanceur, concentrez-le sur une ou deux options similaires. Il y a une différence entre un sort qui propose plusieurs options similaires et un autre qui présente des options radicalement différentes. Voici de bons exemples de sorts à effets multiples : ''[[alarme]]'' (une alarme audible ou mentale mais toujours une alarme), ''[[forme bestiale]]'' (animaux [[taille|P]] ou [[taille|M]], avantages spécifiques issus d’une courte liste), ''[[bouclier de feu]]'' (deux options avec un effet mécanique équivalent, qui correspond à ceux des sorts de son niveau), les ''convocations de monstres'' (très polyvalent mais avec une durée limitée et des monstres d’une puissance inférieure à ceux des autres sorts du même niveau).
+
+{s:Reference|REGISTRE}
+===Le choix du registre===
+On oublie souvent de consulter le [[registre]] d’un sort et pourtant, il joue un rôle important dans sa mécanique. L’assignation du bon registre est la clef de la finition du sort. Voici une liste de tous les registres de Pathfinder JdR, y compris les nouveaux présentés dans cet ouvrage.
+
+{s:REFERENCE|ACIDE}'''Acide.''' Les effets d’acide infligent des dégâts grâce à une réaction chimique et non au froid, à l’électricité, à la chaleur ou aux vibrations. Ce registre inclut les véritables acides et leurs opposés chimiques, les bases et les alcalins (comme l’ammoniaque et la soude).
+
+{s:REFERENCE|AIR}'''Air.''' Les sorts qui créent de l’air, le manipulent ou convoquent des créatures venues de [[Plans#PLANSINTERIEURS|plans dominés par l’air]] ou de sous-type air sont du registre de l’air.
+
+{s:REFERENCE|BIEN}'''Bien.''' Les sorts qui puisent leur pouvoir dans la véritable bienveillance ou convoquent des créatures issues de [[Plans#PLANSEXTERIEURS|plans alignés sur le bien]] ou de sous-type bon appartiennent au registre du bien.	
+
+{s:REFERENCE|CHAOS}'''Chaos.''' Les sorts qui puisent leur puissance dans le véritable chaos ou convoquent des créatures venues de [[plans#PLANSEXTERIEURS|plans d’alignement chaotique]] ou de sous-type chaotique appartiennent au registre du chaos.	
+
+{s:REFERENCE|DEPENDANTDULANGAGE}'''Dépendant du langage.''' Un sort dépendant du langage utilise une langue intelligible comme moyen de communication. Si la cible ne comprend pas ou n’entend pas le lanceur de sorts quand il utilise un sort dépendant du langage, le sort n’a aucun effet, même si la cible rate son jet de sauvegarde.	
+
+{s:REFERENCE|DOULEUR}'''Douleur.''' Les effets de douleur provoquent des sensations déplaisantes sans causer de dégâts physiques permanents (en revanche, une cible sensible peut souffrir de répercussions mentales si elle reste trop longtemps exposée à la douleur). Les créatures immunisées contre les effets qui nécessitent un jet de Vigueur (comme les [[type Créature artificielle|créatures artificielles]] ou les [[type Mort-vivant|morts-vivants]]) sont immunisées contre les effets de douleur.	
+
+{s:REFERENCE|EAU}'''Eau.''' Les sorts qui manipulent l’eau ou convoquent des créatures issues de [[plans#PLANSINTERIEURS|plans à dominante eau]] ou de sous-type aquatique appartiennent au registre de l’eau.	
+
+{s:REFERENCE|EFFETMENTAL}'''Effet mental.''' Les créatures sans [[intelligence]] (avec une valeur d’Intelligence de « – ») et les [[type Mort-vivant|morts-vivants]] sont immunisés contre les effets mentaux.	
+
+{s:REFERENCE|ELECTRICITE}'''Électricité.''' Les effets d’électricité impliquent une présence et un flux de charges électriques, qu’il s’exprime en ampères ou en volts. L’électricité blesse les créatures en perturbant leur système biologique. Elle inflige des dégâts aux objets (ainsi qu’aux créatures) en chauffant le matériau qu’elle traverse. Techniquement, la plupart des sorts d’électricité pourraient aussi être traités comme des sorts de feu mais, pour la simplicité du jeu, laissons les sorts d’électricité infliger des dégâts électriques. Les effets de l’électricité peuvent [[Étourdi|étourdir]], [[Paralysé|paralyser]] ou même [[Mort|tuer]].	
+
+{s:REFERENCE|EMOTIONS}'''Émotions.''' Les sorts de ce registre créent des émotions ou manipulent celles qui existent déjà. La plupart des sorts d’émotion sont des sorts d’[[enchantement]], sauf les sorts de peur qui sont généralement liés à la [[nécromancie]].	
+
+{s:REFERENCE|FEU}'''Feu.''' Les effets de feu augmentent la température de la cible en créant du feu qui la chauffe directement, par magie ou par friction. La lave, la vapeur et l’eau bouillante causent des effets de feu. Les effets de feu peuvent aussi provoquer [[Confus|confusion]], [[Étourdi|étourdissement]], [[Épuisé|épuisement]], [[Fatigué|fatigue]], [[Nauséeux|nausée]], [[Inconscient|inconscience]] ou [[mort]]. Les sorts qui manipulent le feu ou convoquent des créatures issues d’un [[plans#PLANSINTERIEURS|plan à dominante feu]] ou de sous-type feu appartiennent au registre du feu.	
+
+{s:REFERENCE|FORCE}'''Force.''' Les sorts du registre de la force créent ou manipulent une force magique. Ils ont un effet normal sur les [[sous-type intangible|créatures intangibles]] (ils agissent sur elles comme sur les créatures normales).	
+
+{s:REFERENCE|FROID}'''Froid.''' Les effets de froid infligent des dégâts en diminuant la température de la cible, généralement en la touchant avec une matière ou une énergie d’un froid surnaturel. Les effets de froid incluent également la glace, la neige ou la neige fondue créées à partir de rien. Ils peuvent provoquer des engelures, un engourdissement, des problèmes de coordination, ralentir les mouvements et les réactions, induire un état d’[[Hébété|hébétement]] ou entraîner la [[mort]].	
+
+{s:REFERENCE|LOYAL}'''Loyal.''' Les sorts qui puisent leur pouvoir dans la loi à l’état pur ou convoquent des créatures issues de [[plans#PLANSEXTERIEURS|plans alignés sur la loi]] ou de sous-type loyal appartiennent au registre de la loi.	
+
+{s:REFERENCE|LUMIERE}'''Lumière.''' Les sorts qui créent une quantité de lumière significative ou qui attaquent les effets de ténèbres sont du registre de la lumière. La présence de ce registre indique si un sort comme ''[[ténèbres]]'' est d’un niveau suffisant pour le dissiper ou le contrer.	
+
+{s:REFERENCE|MAL}'''Mal.''' Les sorts qui tirent leur puissance de pouvoirs maléfiques ou invoquent des créatures de [[plans#PLANSEXTERIEURS|plans alignés sur le mal]] ou sont de sous-type mauvais appartiennent au registre du mal.	
+
+{s:REFERENCE|MALADIE}'''Maladie.''' Les effets de [[Maladies|maladie]] rendent la cible malade, ce qui peut se traduire par une invasion d’organismes comme les bactéries ou les virus, par une condition interne anormale (comme un cancer ou un désordre mental) ou par un effet  magique récurrent qui agit comme l’un des types de maladie précédents. Les créatures qui possèdent une résistance ou une immunité contre les maladies appliquent cette résistance aux jets de sauvegarde et aux effets des sorts de maladie.	
+
+{s:REFERENCE|MALEDICTION}'''Malédiction.''' Ce sont souvent des effets permanents que l’on peut dissiper avec ''[[annulation denchantement|annulation d’enchantement]]'', ''[[délivrance des malédictions]]'', ''[[miracle]]'', ''[[souhait]]'' ou ''[[souhait limité]]''.	
+
+{s:REFERENCE|MORT}'''Mort.''' Les sorts du registre de la mort s’attaquent directement à la force vitale de la créature ou puisent dans
+la puissance d’une créature [[Mort|morte]] ou [[Mourant|mourante]]. Le sort ''[[protection contre la mort]]'' protège contre les effets de mort et certaines créatures sont immunisées contre eux.	
+
+{s:REFERENCE|OMBRE}'''Ombre.''' Les sorts d’ombre manipulent la matière ou l’énergie du [[plans#PLANOMBRE|plan de l’Ombre]] ou permettent de transporter quelqu’un vers ce plan ou d’en revenir.	
+
+{s:REFERENCE|PEUR}'''Peur.''' Les sorts de ce registre créent, amplifient ou manipulent la peur. La plupart des sorts de peur sont des
+sorts de [[nécromancie]] mais quelques-uns appartiennent à l’école de l’[[enchantement]].	
+
+{s:REFERENCE|POISON}'''Poison.''' Les effets de poison utilisent des poisons, des venins, des drogues et autres substances toxiques similaires pour perturber et blesser les créatures vivantes grâce à des réactions chimiques. Techniquement, les acides et les poisons sont tous des réactions chimiques mais ils appartiennent à deux catégories différentes, les acides infligeant des points de dégâts et les poisons provoquant des [[Capacités spéciales#AFFTEMPDIMPERM|affaiblissements]] ou des [[Capacités spéciales#AFFTEMPDIMPERM|diminutions permanentes]] de caractéristique, des [[Saignement|saignements]], de la [[Confus|confusion]], des convulsions, des [[Nauséeux|nausées]], de la [[Paralysé|paralysie]], une réduction de la capacité de guérison, de la suffocation, de l’[[Inconscient|inconscience]] ou la [[mort]]. Les créatures qui résistent au poison (comme les [[Nain|nains]]) appliquent cette résistance à leurs jets de sauvegarde et aux effets des sorts de poison. Les créatures immunisées contre le poison sont immunisées contre les aspects de sort qui relèvent purement de l’empoisonnement mais pas forcément contre tous les effets du sort. Par exemple, même si une créature est immunisée contre le poison, elle peut toujours se faire piéger par un sort qui crée une fosse remplie d’un liquide empoisonné ou s’y noyer.	
+
+{s:REFERENCE|SONORE}'''Sonore.''' Les effets sonores transmettent de l’énergie à la cible via de fréquentes oscillations de pression dans l’air, l’eau ou le sol. Les sons trop graves ou trop aigus pour l’oreille des humanoïdes peuvent tout de même transmettre assez d’énergie pour blesser, ce qui veut dire qu’ils peuvent même affecter les créatures sourdes. Les effets de sons peuvent causer des points de dégâts, une [[Assourdi|surdité]], un [[Hébété|hébétement]], de la [[Nauséeux|nausée]], de la douleur, des difficultés à respirer et une [[Aveuglé|cécité]] temporaire. Ils peuvent aussi permettre de détecter des créatures, comme le sonar des chauves-souris.	
+
+{s:REFERENCE|TENEBRES}'''Ténèbres.''' Les sorts qui créent de l’obscurité ou réduisent la luminosité appartiennent au registre des ténèbres. La présence de ce registre indique si un sort comme ''[[lumière du jour]]'' est d’un niveau suffisant pour le dissiper ou le contrer.	
+
+{s:REFERENCE|TERRE}'''Terre.''' Les sorts qui manipulent la terre ou convoquent des créatures issues de [[plans#PLANSINTERIEURS|plans à dominante terre]] ou de sous-type terre sont du registre de la terre.
+
+{s:Reference|REFERENCES}
+
+
+===Les références===
+Certains sorts à l’évidence, les meilleurs de leur niveau. D’autres sont de parfaits exemples de ce qu’un sort de ce niveau ou de ce type devrait faire. Ce sont des sorts « de référence » et, quand vous créez de nouveaux sorts, vous devriez toujours les comparer à ceux-ci. Si votre sort est meilleur que celui de référence, vous devriez réduire sa puissance ou augmenter son niveau. Voici une liste des sorts de référence pour les [[Magicien|magiciens]]/[[Ensorceleur|ensorceleurs]], accompagnés d’une explication sur leur présence dans cette liste. Si vous créez un sort plus efficace qu’un sort de référence comparable, votre sort est trop puissant.
+
+====Niveau 1====
+''[[Mains brûlantes]]''. C’est le sort d’attaque de référence de niveau 1. Il est encore meilleur que ''[[sommeil]]'' parce qu’il peut affecter jusqu’à six cases (le sommeil n’affecte que 4 DV, ce qui veut dire 4 créatures) et qu’il fonctionne sur les créatures dépourvues d’intelligence et les morts-vivants.	
+
+''[[Projectile magique]]''. C’est probablement le meilleur sort de niveau 1 du jeu car, même s’il n’inflige pas beaucoup de dégâts, il ne demande pas de jet d’attaque, a une portée moyenne, n’autorise pas de jet de sauvegarde et blesse les créatures intangibles. Même si le ''[[projectile magique]]'' était un sort de niveau 2, les lanceurs de sorts intelligents le choisiraient quand même.
+
+====Niveau 2====
+''[[Invisibilité]]''. C’est l’un des meilleurs sorts du jeu et il n’y a que l’''[[invisibilité suprême]]'' qui le surpasse en éliminant l’aspect « cassé par une attaque. » Ce sort est excellent pour partir en éclaireur, pour préparer une attaque et pour les soigneurs (car les soins ne l’annulent pas).	
+
+''[[Résistance aux énergies destructives]]''. Ce sort défensif fonctionne exactement comme la résistance aux énergies des monstres, c’est donc un parfait exemple du niveau de puissance de ce genre de sort. Il gagne en puissance quand le lanceur de sorts monte en niveau et reste donc viable plus tard dans le jeu.	
+
+''[[Toile daraignée|Toile d’araignée]]''. C’est un puissant sort non létal qui reste viable même à des niveaux supérieurs (même une liche qui réussit son jet de sauvegarde doit tenir compte du terrain difficile et risque de rester collée si elle se déplace). Il offre même un abri et on peut l’enflammer pour infliger des dégâts aux créatures situées dans la zone.
+
+====Niveau 3====
+''[[Boule de feu]]''. C’est indiscutablement le meilleur sort d’attaque de zone de bas niveau. C’est en acquérant ce sort que les lanceurs changent le paradigme du jeu et infligent de gros dégâts à de nombreuses cibles qui se situent n’importe où à portée de vue.	
+
+''[[Déplacement]]''. Ce sort de combat de courte durée fait rater 50% des attaques de l’adversaire et définit la norme des sorts défensifs monocibles.	
+
+''[[Dissipation de la magie]]''. Ce sort représente la norme de négation d’une magie sans disposer d’un contre particulier.	
+
+''[[Éclair]]''. Ce sort assure qu’une ligne de cette portée possède environ la même puissance qu’une zone d’un rayon de 6 mètres.	
+
+''[[Nuage nauséabond]]''. Ce sort permet de neutraliser de nombreux ennemis à bonne distance. C’est le meilleur sort multicible non létal de son niveau.	
+
+''[[Suggestion]]''. C’est le sort de plus bas niveau qui permette à un lanceur de sorts d’obliger la cible à agir, mais ce contrôle est limité à des « actions raisonnables. »	
+
+''[[Vol]]''. C’est le sort de déplacement le plus important. Il est très utile en combat et permet de manœuvrer facilement sur le champ de bataille.
+
+====Niveau 4====
+''[[Assassin imaginaire]]''. C’est le sort de plus bas niveau capable de tuer directement une créature, mais il autorise deux jets de sauvegarde pour lui résister.	
+
+''[[Énergie négative]]''. C’est le sort de plus bas niveau à donner des niveaux négatifs.	
+
+''[[Porte dimensionnelle]]''. C’est le sort de plus bas niveau qui permette de se téléporter. Il a une portée réduite et désoriente le personnage jusqu’à son prochain tour.
+
+====Niveau 5====
+''[[Brume mortelle]]''. C’est un sort clef car il permet de tuer automatiquement les créatures faibles et parce qu’il inflige des dégâts de poison permanent aux créatures plus fortes situées dans la zone. Il persiste pendant plusieurs rounds et se déplace.	
+
+''[[Cône de froid]]''. Ce sort est une référence intéressante car il est faible pour son niveau. Quand un personnage peut y accéder, il a aussi accès à ''[[boule de feu]]'' qui inflige autant de dégâts et de plus loin. De plus, le plafond du ''[[cône de froid]]'' n’est qu’à 5 dés de plus que celui de la ''[[boule de feu]]''. Si votre sort d’attaque est plus faible que celui-ci, vous devriez augmenter sa puissance ou envisager d’en faire un sort de niveau 4.	
+
+''[[Domination]]''. C’est le sort de plus bas niveau qui permette de contrôler complètement une créature hostile intelligente (sauf ordre autodestructeur).	
+
+''[[Mur de pierre]]''. C’est le sort de plus bas niveau qui crée un objet permanent (instantané) de grande taille à partir de rien (contrairement à ''[[fabrication]]'' qui transforme des matériaux bruts en produits finis de façon permanente).
+
+====Niveau 6====
+''[[Prévoyance]]''. Ce sort permet au lanceur de définir des conditions pour déclencher un autre effet de sort direct, comme un sort de protection, ou paranoïaque, comme une téléportation pour fuir. Il fonctionne à peu près comme un sort à Incantation rapide d’une action immédiate. Comme la contingence dure 1 jour par niveau, le lanceur peut la préparer un jour et partir à l’aventure le suivant en disposant de tous ses emplacements de sorts.	
+
+''[[Défense magique]]''. Même si les PJ ne l’utilisent pas souvent parce qu’ils n’ont pas de demeure permanente, ce sort a son importance car il affirme qu’un sort défensif qui affecte une large zone peut avoir divers effets pour protéger une maison et tromper les intrus.
+
+====Niveau 7====
+''[[Souhait limité]]''. Ce puissant sort permet au lanceur de choisir entre les effets de nombreux sorts de bas niveau au moment de l’incantation, même parmi les listes de différentes classes.
+
+====Niveau 8====
+''[[Clone]]''. Ce sort est la clef de l’immortalité profane. Il agit comme une ''[[prévoyance]]'' et un ''[[rappel à la vie]]'' mais coûte moins de po et peut sauver un personnage même si tout le groupe se fait tuer.	
+
+''[[Danse irrésistible]]''. Même si ce sort ne peut pas tuer sa cible directement, il l’empêche d’entreprendre la moindre action et lui impose d’énormes malus et (dans un sens) il ne permet pas de jet de sauvegarde (même si le sort permet techniquement de faire un jet, ses effets s’appliquent tout de même pendant 1 round en cas de réussite).
+
+''[[Esprit impénétrable]]''. C’est un exemple d’un sort de défense extrêmement ciblé qui permet de bloquer des sorts de niveau supérieur.	
+
+====Niveau 9====
+''[[Arrêt du temps]]''. C’est le seul sort du jeu qui permette au lanceur de faire l’équivalent de plusieurs rounds d’actions sans permettre à quiconque de l’en empêcher.	
+
+''[[Miracle]]''/''[[souhait]]''. Pinacle de l’incantation, ces sorts sont capables de reproduire les effets de presque n’importe quel sort de niveau inférieur, d’oblitérer de nombreux effets néfastes, de ramener les morts à la vie ou même de remonter le cours du temps. Si votre sort est plus puissant, c’est que vous essayez de jouer un dieu.	
+
+''[[Portail]]''. Ce puissant sort combine les effets d’''[[allié doutreplan|allié d’outreplan]]'' et de ''[[contrat intermédiaire]]''. On peut aussi l’utiliser pour transporter de nombreuses créatures entre les plans.

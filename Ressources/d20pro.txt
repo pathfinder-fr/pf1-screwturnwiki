@@ -1,0 +1,214 @@
+---
+Name: Ressources.d20pro
+Title: Introduction à la Table Virtuelle d20Pro
+LastModified: 2010-06-22 22:35
+---
+'''d20pro''' est un logiciel de Table Virtuelle. C'est à dire que son objectif principal est de permettre à des joueurs éloignés de pouvoir organiser des parties en ligne.
+Une autre utilisation possible est de servir de support visuel pour une table réelle, à l'aide d'un ordinateur relié à un projecteur.
+
+===Principes de base===
+
+d20pro fonctionne sur le principe du client-serveur : un joueur, généralement le MJ, ouvre une session à laquelle les joueurs vont devoir se connecter pour pouvoir jouer.
+
+D'un point de vue license, il existe deux situations : Judge et Player.
+[imageright||{UP}/d20pro/splash.jpg]
+
+La version Player est gratuite, illimitée dans le temps, et permet de se connecter pour jouer à n'importe quel serveur où il reste des places.
+
+La version Judge (MJ) est payante. Elle coute 30$ et contient deux slots pour des joueurs qui voudraient se connecter avec une version Player. En résumé, elle permet à un MJ d'assurer une partie avec deux joueurs.
+
+Ensuite, pour augmenter le nombre de joueurs, il suffit d'acheter des slots supplémentaires à 10$, cela pouvant être fait n'importe quand : il est possible de commencer avec deux slots puis, plus tard, d'en rajouter un si un joueur veut se joindre à la partie... 
+
+Un point important : il est possible de se connecter en tant que joueur avec une licence Judge et de ne pas prendre de slot Player. Le slots sont uniquement destinés aux joueurs qui jouent avec la version gratuite du programme. En revanche, le MJ doit impérativement se connecter en mode Judge.
+
+Par exemple, je possède d20pro avec 3 emplacements et je fait jouer 4 joueurs car l'un d'eux a aussi acheté la version Judge et a donc son propre emplacement. Il lui suffit de se connecter en mode Judge.
+
+
+
+Actuellement il n'y a pas de limite au nombre de joueurs connectés sur une partie, en dehors de la bande passante du joueur qui a le serveur.[imageright||{UP}/d20pro/connect.jpg]
+
+
+La principale différence entre Judge et Player est que la première offre tous les outils pour gérer une partie : import de cartes, gestion des personnages, des effets, des attaques, validation des tirages de dés, brouillard de guerre.... la seconde ne comporte que les options nécessaires pour jouer (déplacer son personnage, lancer des dés, faire des tests ou des attaques...).
+
+
+Il ne évidemment peut y avoir qu'un seul Judge par partie. Si un joueur se connecte en mode Judge pour ne pas utiliser un slot, il n'aura à l'écran que les options Player. 
+
+Pour se connecter en tant que Judge, il est nécessaire de créer une partie en indiquant le port de son routeur qui sera ouvert. Il existe un tas de tutoriels sur le net pour réussir à router correctement un port afin que les joueurs puissent se connecter au serveur. Par défaut, le port est le 10101 mais il est possible d'en choisir un autre et d'ajouter un mot de passe.
+
+
+L'écran de connection des joueurs est plus simple (voir l'image à droite) : il suffit de renseigner l'IP du serveur, le port et, éventuellement le mot de passe. Ne pas oublier de rentrer un pseudo, la plupart du temps le nom de son personnage.
+Quand un joueur essaye de se connecter, le MJ voit apparaître une petite fenêtre lui indiquant qui veut entrer dans le jeu. Tant que le MJ n'a pas validé l'accès, le joueur ne peut pas se connecter.
+
+
+===Points essentiels===
+
+Pour couper court à toute désillusion, il est bon de noter ces points essentiels :
+
+d20pro n'est pas un moteur de MMORPG. C'est une table virtuelle. Cela signifie que le comportement des objets à l'écran est exactement celui de figurines en carton sur une table réelle. Si un joueur décide de déplacer son pion à travers un mur, il peut le faire. De même si il dépasse son déplacement max, rien ne le bloquera. On peut lancer des attaques hors de portée, utiliser une épée bâtarde en arme de jet... jusqu'à ce que le MJ dise : "heu, non, là c'est pas possible".
+Exactement comme en vrai.
+
+Le programme ne propose que des outils pour simplifier la vie des joueurs et du MJ mais ces outils ne décident jamais à la place des joueurs et le MJ a toujours le dernier mot en validant, ou pas, les décisions.
+
+
+===Interface===
+
+L'interface du MJ diffère sensiblement de celle du joueur car elle propose beaucoup plus d'options.
+[imageauto||{UP}/d20pro/mainjudgeok.jpg]
+
+C'est grâce à ces options que le MJ va pouvoir importer les cartes, les personnages (PJ et PNJ), rentrer les stats et gérer ce qui s'affiche effectivement sur l'écran des joueurs.
+
+L'interface du MJ se décompose de cette manière :
+
+En haut de l'écran, on trouve une série de boutons qui permettent d'accéder rapidement aux fonctions de base. Dans l'ordre : 
+
+* le Broadcast qui force le rafraîchissement des données sur les écrans des joueurs.
+* le switch entre le mode Combat et le mode Exploration
+* un bouton pour cacher les résultats des jets de dés réalisés par le MJ
+* un réglet pour mesurer les distances sur la carte (en cases, en mètres ou en inchs)
+* un switch pour afficher ou masquer la grille (ici elle est masquée car la carte est quadrillée)
+
+Sur l'interface des joueurs, seuls apparaissent les deux derniers boutons.
+
+Le gros logo d20pro à gauche permet d'accéder quant à lui aux outils spécifiques comme la Bibliothèque, le Chat, les outils de dessin, les options....
+
+A droite, la barre de Roster regroupe l'ensemble des tokens qui sont en jeu. Cette barre est très importante mais pas forcément évidente à bien utiliser et demande un peu de pratique car TOUS les tokens y sont représentés, même ceux qui sont placés sur d'autres cartes chargées.
+Car si une seule carte peut-être affichée à un instant donné, il est possible d'en préparer plusieurs à l'avance pour accélérer le passage de l'une à l'autre. Cependant (et cela est assez bizarre), les tokens qui sont sur les cartes cachées apparaissent dans le Roster. Méfiance donc si vous souhaitez conserver la surprise des rencontres pour vos joueurs, à ne pas placer les pions des PNJ sur les cartes censées arriver plus tard dans la partie.
+
+Le gros intérêt de la barre de Roster est d'indiquer en permanence le rang d'initiative lors des Combats. Les personnages actifs sont classés automatiquement dans l'ordre, du haut vers le bas.
+Les personnages Passifs (dans la seconde partie du Roster) ne sont pas pris en compte dans le calcul de l'initiative.
+
+Il est possible de passer rapidement un personnage de la zone Active à la zone Passive en glissant son portrait d'une zone à l'autre.
+
+Au centre, il y a la carte active, avec les tokens des joueurs (en vert, mais c'est une décision arbitraire) et quelques bandits (en rouge).
+Les zones en noir sont couvertes par un brouillard de guerre : sur l'écran des joueurs, elles apparaissent totalement opaques. Le bandit à gauche est donc invisible pour les joueurs mais est pris en compte dans l'initiative.
+
+Sur le côté droit de l'écran, j'ai affiché la fenêtre Bibliothèque qui permet de regrouper en un seul endroit les personnages (PJ, PNJ, créatures...), les cartes, les pions neutres (butin, objets) et les documents. Chaque catégorie est accessible par l'intermédiaire des gros boutons en haut de la fenêtre. Sur l'image, c'est la bibliothèque Créature qui est active et je n'ai affiché que celles enregistrées dans le module Kingmaker. Là aussi, tout est paramétrable et on peut se créer autant de modules que souhaité. J'ai, par exemple, un module appelé Invocables qui regroupe les créatures que le Druide peut convoquer. Cela permet de les avoir rapidement sous la main si il faut les faire entrer en jeu...
+
+Enfin, en dessous, on trouve le Gestionnaire de Dés pour pouvoir réaliser tous les jets possibles, avec ou sans modificateurs. Les résultats apparaissent dans la fenêtre de chat.
+
+
+Notez qu'il est possible de déplacer toutes ces fenêtres, de les fermer et d'en ouvrir d'autres (avec les outils de dessin par exemple), pour personnaliser son interface.
+
+===Editeur de Créatures===
+
+[imageauto||{UP}/d20pro/editelo.jpg]
+
+En sélectionnant une créature (en bibliothèque ou sur la zone de jeu) et en tapant "E", on ouvre une fenêtre reprenant les principales données de la feuille de personnage.
+Cette feuille est divisée en onglets : General, Attacks, Feats, Skills...
+
+L'onglet Général regroupe les infos de base : Nom, type, Classe d'Armure, jets de Sauvegarde... Chaque valeur doit être rentrée à la main même si certaines sont automatiquement renseignées comme le bonus de Dex à la CA, récupéré depuis la zone Caractéristiques à gauche.
+
+Il est possible aussi de laisser le logiciel calculer automatiquement le BBA en rentrant les divers niveaux dans la zone prévue ou de le forcer à une valeur donnée. Idem pour l'Initiative.
+
+
+
+[imageleft||{UP}/d20pro/attelo.jpg]
+
+L'onglet Attacks est certainement le plus important pour faciliter la vie du MJ. Ici, il est possible d'enregistrer les attaques classiques du personnage ou de la créature. Tous les cas de figure sont possible et il est rare de ne pas pouvoir réussir à programmer ce que l'on souhaite.[imageright||{UP}/d20pro/selectelo.jpg]
+
+Le jeu prend en compte le BBA, les attaques multiples, les armes à une ou deux mains, les types de dégâts, la classe d'armure visée (bien pratique pour entrer les attaques magiques qui sont basées sur des attaques de contact)... tout se fait à l'aide de menus déroulants, c'est une véritable réussite.
+
+Ainsi, quand un joueur décide d'attaquer, il lui suffit d'appuyer sur la touche "A". Une liste de choix s'affiche, avec toutes les attaques enregistrées et la possibilité de faire d'ultimes petits réglages (par exemple, viser la CA Pris au Dépourvu lors d'un round de surprise). 
+
+Ce système fonctionne bien entendu aussi avec les créatures et le jeu est fourni avec un nombre impressionnant de monstres tirés des bestiaires OGL.
+
+
+
+
+Enfin, l'onglet Skill est lui aussi très pratique car il permet aux joueurs de réaliser des tests en double cliquant simplement sur la compétence à tester. Le résultat apparaît dans la fenêtre de chat, avec un libellé explicite indiquant le nom du personnage, son portrait, le résultat naturel du dé, la compétence testée et le résultat final.
+
+
+
+[imageauto||{UP}/d20pro/skillelo.jpg]
+
+
+Les autres onglets me semblent moins utiles. Ils regroupent les descriptions, les dons et un gestionnaire d'effets assez complexe à utiliser.
+Pour ma part, dès que le moteur de d20pro devient trop compliqué à mettre en oeuvre, je préfère utiliser le Gestionnaire de Dés, accessible immédiatement et permettant de résoudre toutes les situations.
+
+Le gestionnaire d'effets propose de prendre en compte les effets magiques qui s'étalent sur plusieurs rounds ou affectent une zone de jeu, en appliquant automatiquement les modifs sur les tokens concernés. 
+
+Le plus gros défaut actuel de d20pro est de ne pas autoriser les joueurs à modifier leur feuille de personnage, ce qui demande pas mal de travail au MJ lorsqu'il doit appliquer des changements sur l'ensemble du groupe. Mais les développeurs travaillent à changer ça et on peut penser que cette possibilité sera prochainement disponible.
+
+
+
+===Organisation du jeu===
+
+Le système découpe le jeu en deux modes : le mode Exploration et le mode Combat.
+[imageright||{UP}/d20pro/init.jpg]
+
+Dans le premier mode, chacun peut se déplacer à sa guise et le temps n'est pas quantifié : visite d'une salle, d'une ville, déplacement dans la campagne...
+
+Dans le second, le jeu bascule sur une gestion par round et commence par un jet d'Initiative automatique pour toutes les créatures impliquées dans le combat qui se prépare. Le MJ décide de passer d'un mode à l'autre à l'aide du bouton situé en haut de son écran. Une petite alerte sonore retentit chez tous les joueurs...
+
+Comme expliqué plus haut, le MJ peut modifier l'initiative proposée avant de la valider. Chaque joueur ne peut alors déplacer son personnage que lorsque c'est son tour.[imageauto||{UP}/d20pro/fight.jpg]
+
+
+Sur l'image, le combat vient de commencer : c'est au tour du brigand de jouer, son token est entouré de flèches.
+
+Les déplacements se font à la souris, et chaque déplacement est comptabilisé de manière très lisible (sur la carte principale et dans le chat).
+Le feeling global est assez proche de ce qu'on peut trouver autour d'une table avec une battlemap en carton et des figurines.
+
+[imageleft||{UP}/d20pro/atkbrig.jpg]
+Le brigand décide d'attaquer Theodric avec son arc court. Le MJ commence par appuyer sur la touche "A" pour afficher la liste des attaques disponibles.
+
+Puis détermine sa cible à l'aide du viseur.
+[imageright||{UP}/d20pro/targ.jpg]
+
+
+
+
+
+Notez que le programme ne vérifie aucunement les portées, les types d'armes ou la légalité d'une attaque. C'est toujours au MJ de surveiller ce que décide son joueur, quelle attaque il utilise et dans quelle condition.
+
+
+
+
+
+
+Enfin, une fois la cible déterminée, les jets de dés sont réalisés automatiquement en fonction des paramètres programmés.
+
+[imageleft||{UP}/d20pro/resol.jpg]
+
+La fenêtre de résolution apparaît chez le MJ uniquement et à chaque attaque portée. Elle lui permet de vérifier le résultat, de l'ajuster si besoin et de le valider à l'aide des 4 petits boutons situés en bas de la fenêtre.
+Dans l'ordre, de gauche à droite, chaque bouton détermine un résultat d'attaque :
+
+* Echec
+* Réussite
+* Réussite critique non-confirmée
+* Critique confirmé
+
+Immédiatement et si l'attaque a porté, les dégâts sont calculés puis appliqués à la cible, après, toujours, une validation du MJ.
+
+
+Les joueurs, quant à eux, ne voient que le résultat naturel de leur jet d'attaque et les dégâts éventuellement infligés. Toutes ces valeurs s'affichent dans la fenêtre de chat.
+
+
+Toujours dans le même esprit, il est tout à fait possible de résoudre les attaque avec le Gestionnaire de Dés en appliquant les modificateurs et en laissant le MJ appliquer les dégâts manuellement. Mais à l'usage le système de programmation d'attaque est vraiment confortable.
+
+
+
+Il faut aussi noter que même en mode Combat, les joueurs peuvent lancer des attaques, des sorts, faire des tests... ils ne sont pas bridés par leur score d'initiative. Cela permet de gérer les Attaques d'Opportunité ou les actions préparées exactement comme autour d'une vraie table.
+
+
+
+Pour finir, les jets de sauvegarde peuvent être gérées avec le Gestionnaire de Dés ou avec les stats entrées dans la feuille de personnage.
+Dans le premier cas, le joueur paramètre les dés qu'il souhaite lancer, avec les modificateurs, et le résultat s'affiche dans la fenêtre de chat.
+
+Dans le second cas, il faut que le MJ ait rentré les bonnes valeurs dans les bonnes cases et le joueur n'a plus qu'à cliquer dans la zone concernée sur sa feuille. Le test se fait automatiquement. Ce système marche aussi pour les tests liés aux caractéristiques : cliquer sur le libellé STR lance immédiatement un test de Force dont le résultat s'affiche dans le chat.
+
+Il est donc intéressant pour le MJ de préparer sa partie en entrant les stats des personnages en amont de la session de jeu et de sauvegarder les personnages. Cela fait gagner énormément de temps durant le jeu.
+
+
+===En conclusion===
+
+Même si certains systèmes sont encore assez lourds, comme la gestion des effets magiques (et on pourra leur préférer une gestion manuelle), d20pro offre tous les outils nécessaires pour gérer une partie en table virtuelle. Son principal avantage étant de toujours laisser la main au MJ pour les décisions et de ne jamais imposer un quelconque résultat.
+
+Quelques choix d'ergonomie sont aussi assez étranges (la gestion des tokens entre les différentes cartes par exemple) mais les développeurs travaillent à améliorer le système et sont particulièrement à l'écoute des retours des utilisateurs.
+
+Un autre intérêt de d20pro est de permettre l'import des personnages créés dans HeroLab, un gestionnaire de personnages ultrapuissant que je recommande fortement à tout MJ (ne serait-ce que pour créer des PNJ complexes dans les règles de l'art et en quelques minutes).
+
+===Quelques liens===
+
+Le site du développeur : http://www.d20pro.com/
+
+Herolab : http://www.wolflair.com/index.php?context=hero_lab&page=pathfinder_roleplaying_game

@@ -1,0 +1,40 @@
+<script type="text/javascript">
+function initialisation() {
+  /* Constantes */
+  defaultsrc = "/wiki/public/upload/Battlemaps/tetetest.png";
+  dejajoue = true;
+  doitjouer = false;
+  mort = 0;
+  normal = 1;
+  ausol = 2;
+  inconscient = 3;
+  invisible = 4;
+  etatdesc = new Array();
+  arrayset(etatdesc,0,"mort");
+  arrayset(etatdesc,1,"normal");
+  arrayset(etatdesc,2,"au sol");
+  arrayset(etatdesc,3,"inconscient");
+  arrayset(etatdesc,4,"invisible");
+  cercle = 0;
+  cone = 1;
+  rectangle = 2;
+  aura = 3;
+  typezonedesc = new Array();
+  arrayset(typezonedesc,0,"cercle");
+  arrayset(typezonedesc,1,"cone");
+  arrayset(typezonedesc,2,"rectangle");
+  arrayset(typezonedesc,3,"aura");
+  /* Battlemap */
+  bmapSrc = "?1?";
+  bmapTaillex = ?2?;
+  bmapTailley = ?3?;
+  grille = false;
+  zoom = 1;
+  idxmvt = -1;
+  idxzmvt = -1;
+  /* Jetons */
+  nelems = 0;
+  elems = new Array();
+  /* Caches */
+  nzones = 0;
+  zones = new Array();

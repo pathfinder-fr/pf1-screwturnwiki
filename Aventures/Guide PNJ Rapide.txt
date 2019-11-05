@@ -1,0 +1,132 @@
+---
+Name: Aventures.Guide PNJ Rapide
+Title: Guide PNJ Rapide
+LastModified: 2011-09-02 11:18
+---
+
+=== Guide de création rapide de PNJ ===
+
+Qui n'a rêvé de pouvoir obtenir en moins de quelques minutes les caractéristiques d'un PNJ, par exemple parce qu'un combat s'engage là où il n'était pas prévu ? 
+Voici quelques règles simplifiées permettant de donner à tout PNJ l'apparence d'un personnage fini, tout en pifométrant au maximum la procédure.
+
+'''Caractéristiques'''
+Les PNJ simplifiés ont 
+1 caractéristique principale, à 16+1/4niveaux +2 aux niveaux 12,16,20
+2 caractéristiques fortes, à 14
+3 caractéristiques non développées, à 10
+
+Choisir la caractéristique principale selon le type du personnage (For pour un costaud (Forgeron), Dex pour un adroit (Horloger), Cha pour un social (Marchand, maire), etc...)
+Choisir pour les fortes si le PNJ est "physique" FOR - CON, et DEX si la caractéristique principale est FOR ou CON, et si le PNJ est "social" SAG-INT, et CHA si la caractéristique principale est SAG ou INT.
+Les 3 caractéristiques restantes sont non développées
+
+'''JS'''
+Selon la caractéristique : non développée -> JS faible, forte ou principale -> JS fort
+Bonus magique aux JS : +1/6 niveaux
+
+'''BBA''' : choisir fort, intermédiaire, ou faible selon le personnage, ce qui entraîne le choix des DV (d10,d8,d6) et des PV.
+'''Arme''' au choix
+Bonus magique d'arme principale : +1/5 niveaux
+Bonus magique d'arme secondaire : +1/10 niveaux
+
+'''Armure'''
+Lourde : CA+9 ; Intermédiaire CA+6 ; Légère CA+3 ; Aucune CA+0
+Bonus magique total à la CA sans bouclier (y compris classes dans armure): +1/4 niveaux
+Bonus magique totale à la CA avec bouclier : +1/3 niveaux
+
+'''Compétences'''
+Compétence directrice : 3+niveau+mod.car
+Possédée : +4+mod.car.
+Non possédée : 0+mod. car.
+
+Les compétences directrices sont les compétences que possède sûrement le PNJ, étant donné son rôle (Artisanat pour un artisan, Blufff, Estimation pour un marchand filou, Intimidation pour un garde, etc.)
+Les compétences possédées sont celles pour lesquelles le PNJ pourrait être formé, mais pas spécialisé dedans, où celles pour lesquelles le MD estime que ce serait donner un avantage trop grand au PNJ. (ex : Estimation pour un voleur, escalade pour un marin, bluff pour un client de taverne)
+Non possédée : les compétences pour lesquelles il est hautement improbable que le PNJ soit formé. (vol pour un paysan, connaissances/nature pour un citadin, etc.)
+En cas de doute sur une compétence, tirer un d20 : 10 ou plus, elle est possédée, sinon, elle ne l'est pas.
+
+'''Dons'''
+Il faut choisir une des catégories suivantes de dons :
+
+''Arme de mêlée'' : Attaque en puissance, Enchaînement, Arme de prédilection, bba 6 : Frappe décisive, bba 11 : Science de la frappe décisive, bba 16 : Frappe décisive supérieure
+
+''Arme à distance'' : Viser, Tir dans le tas, Tir à bout portant, bba 6 : Feu nourri/tir rapide, bba 11 : science du tir de précision, bba 16 : viser juste
+
+''Combat vicieux'' : Attaque en finesse, Expertise au combat, Science du croc-en jambes, de la Feinte et dui désarmement. Bba 6 : versions supérieures des 3 dernières.
+
+''Compétent'' : +5 aux compétences directrices, +2 aux autres, ces scores sont doublés à partir du niveau 10
+
+''Canalisateur'' : Tous les dons de canalisation
+
+''Lanceur spontané'' : Tous les dons de métamagie
+
+''Mage'' : Magie de guerre, Ecoles renforcées, Efficacité des sorts accrue, + tous dons de création d'objet selon niveau (et envie du MD)
+
+'''Capacités de classe'''
+Inutile de donner aux classes toutes leur capacités, les plus emblématiques suffisent.
+
+''Barbare'' : Rage, DR 1/4niveaux<br />''Barde'' : Inspiration courageuse &amp; talentueuse +1+1/6 niveaux, sorts, toutes les compétences sont considérées comme possédées <br />''Druide'' : Forme Animale, sorts compagnon animal <br />Compagnon : DV 1+3/4niv., BBA 3/4 DV JS Vig+Ref Fort, Vol Faible, Compétences : utiliser les règles pour les PNJ, CA naturelle : +2+1/BBA, Taille M : FOR 13+1/3 niv. CON 14 DEX 16+1/3 niv. INT 2 SAG 12 CHA 6 +modificateurs de taille, morsure 1d6, 2 griffes 1d4 (si approprié à l'animal).<br />''Ensorceleur'' : sorts<br />''Guerrier'' +1 attaque/4 niveaux, +1 dommages/4 niveaux, + dons d'arme de prédilection selon niveau, +science du critique et don pour les critiques selon niveau<br />''Magicien'' : sorts<br />''Moine'' déluge de coup, dons de combat à mains nues, CA +1/4 niv. + mod.sag.<br />''Paladin'' Imposition des mains, Châtiment du mal 1+1/3 niv. Compagnon = niv-4<br />''Prêtre'' : Canalisation 1d6 tous les 2 niveaux (arrondi supérieur), sorts <br />''Rôdeur'' Ennemi favori : +2 +2/5 niveaux, Compagnon animal = niv/ -4<br />''Roublard'' Attaque sournoise : 1D6/2 niveaux (arrondi supérieur), esquive totale, ne peut être pris au dépourvu<br />
+
+Concernant les sorts : inutile de faire une liste, on peut déterminer au vol s'ils sont mémorisés ou non.
+- Les sorts de plus haut niveau accessible : pour un sort donné que le MD aimerait utiliser, il y a 2/6 chances qu'il soit mémorisé - dans la limite du nombre total de sorts disponibles
+- Les sorts de niveau immédiatement inférieur au plus haut niveau : pour un sort donné, il y a 4/6 chances quil soit mémorisé - dans la limite du nombre total de sorts disponibles
+- Les sorts de niveau inférieur : ils sont tous disponibles, soit parce qu'ils sont mémorisés, soit sous forme de parchemin.
+<center>
+{| CLASS="tablo"
+|+ Evolution en fonction du niveau
+|- CLASS="titre"
+| Niveau 
+| Carac.<br />principale 
+| Mod.<br />carac.<br />associé 
+| JS<br />(faible) 
+| JS<br />(fort) 
+| Attaque<br />(faible) 
+| Attaque<br />(moyen) 
+| Attaque<br />(fort) 
+| CA<br />(sans) 
+| CA<br />(légère) 
+| CA<br />(inter.) 
+| CA<br />(lourde) 
+| Bonus<br />bouclier 
+| PV<br />(faibles) 
+| PV<br />(moyens) 
+| PV<br />(forts) 
+|- CLASS="premier"
+| 1 || 16 || +3 || +0 || +2 || +0 || +0 || +1 || 10 || 13 || 16 || 19 || +2 || 7 || 9 || 11
+|- CLASS="alt"
+| 2 || 16 || +3 || +0 || +3 || +1 || +1 || +2 || 10 || 13 || 16 || 19 || +2 || 11 || 14 || 17
+|-
+| 3 || 16 || +3 || +1 || +3 || +1 || +2 || +3 || 10 || 13 || 16 || 19 || +3 || 16 || 20 || 24
+|- CLASS="alt"
+| 4 || 17 || +3 || +1 || +4 || +2 || +3 || +4 || 11 || 14 || 17 || 20 || +2 || 20 || 25 || 30
+|-
+| 5 || 17 || +3 || +1 || +4 || +3 || +4 || +6 || 11 || 14 || 17 || 20 || +2 || 25 || 31 || 37
+|- CLASS="alt"
+| 6 || 17 || +3 || +3 || +6 || +4 || +5 || +7/+2 || 11 || 14 || 17 || 20 || +3 || 29 || 36 || 43
+|-
+| 7 || 17 || +3 || +3 || +6 || +4 || +6 || +8/+3 || 11 || 14 || 17 || 20 || +3 || 34 || 42 || 50
+|- CLASS="alt"
+| 8 || 18 || +4 || +3 || +7 || +5 || +7/+2 || +9/+4 || 12 || 15 || 18 || 21 || +2 || 38 || 47 || 56
+|-
+| 9 || 18 || +4 || +4 || +7 || +5 || +7/+2 || +10/+5 || 12 || 15 || 18 || 21 || +3 || 43 || 53 || 63
+|- CLASS="alt"
+| 10 || 18 || +4 || +4 || +8 || +7 || +9/+4 || +12/+7 || 12 || 15 || 18 || 21 || +3 || 47 || 58 || 69
+|-
+| 11 || 18 || +4 || +4 || +8 || +7 || +10/+5 || +13/+8/+3 || 12 || 15 || 18 || 21 || +3 || 52 || 64 || 76
+|- CLASS="alt"
+| 12 || 21 || +5 || +6 || +10 || +8/+3 || +11/+6 || +14/+9/+4 || 13 || 16 || 19 || 22 || +3 || 56 || 69 || 82
+|-
+| 13 || 21 || +5 || +6 || +10 || +8/+3 || +11/+6 || +15/+10/+5 || 13 || 16 || 19 || 22 || +3 || 61 || 75 || 89
+|- CLASS="alt"
+| 14 || 21 || +5 || +6 || +11 || +9/+4 || +12/+7 || +16/+11/+6 || 13 || 16 || 19 || 22 || +3 || 65 || 80 || 95
+|-
+| 15 || 21 || +5 || +7 || +11 || +10/+5 || +14/+9/+4 || +18/+13/+8 || 13 || 16 || 19 || 22 || +4 || 70 || 86 || 102
+|- CLASS="alt"
+| 16 || 24 || +7 || +7 || +12 || +11/+6 || +15/+10/+5 || +19/+14/+9/+4 || 14 || 17 || 20 || 23 || +3 || 74 || 91 || 108
+|-
+| 17 || 24 || +7 || +7 || +12 || +11/+6 || +15/+10/+5 || +20/+15/+10/+5 || 14 || 17 || 20 || 23 || +3 || 79 || 97 || 115
+|- CLASS="alt"
+| 18 || 24 || +7 || +9 || +14 || +12/+7 || +16/+11/+6 || +21/+16/+11/+6 || 14 || 17 || 20 || 23 || +4 || 83 || 102 || 121
+|-
+| 19 || 24 || +7 || +9 || +14 || +12/+7 || +17/+12/+7 || +22/+17/+12/+7 || 14 || 17 || 20 || 23 || +4 || 88 || 108 || 128
+|- CLASS="alt"
+| 20 || 27 || +8 || +9 || +15 || +14/+9 || +19/+14/+9 || +24/+19/+14/+9 || 15 || 18 || 21 || 24 || +3 || 92 || 113 || 134
+|}

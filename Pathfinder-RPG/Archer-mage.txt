@@ -1,0 +1,128 @@
+---
+Name: Pathfinder-RPG.Archer-mage
+Title: L'archer-mage
+LastModified: 2019-09-04 03:35
+Categories:
+  - 'Classe de prestige'
+---
+{s:MenuClassesDePrestige}
+
+''Les [[elfe|elfes]] et les [[demi-elfe|demi-elfes]] cherchant à parfaire leur maîtrise de l'arc embrassent parfois la voie de l'archer-mage. Ce sont des maîtres du combat à distance, frappant infailliblement leurs adversaires et imprégnant leurs traits de sorts puissants. Les flèches tirées par un archer-mage sont capables de tourner dans un couloir pour toucher leur cible, ou bien de traverser des objets solides pour atteindre ceux qui se pensent bien à l'abri derrière. Au zénith de leur puissance, les archers-mages peuvent abattre l'ennemi le plus redoutable d'un unique trait mortel.
+
+Les personnages qui ont une carrière de [[rôdeur]] et de [[magicien]] excellent dans la voie de l'archer-mage, mais il est tout à fait possible de rencontrer d'autres personnages multiclassés. Les archers-mages sont présents partout où l'on trouve des [[elfe|elfes]], mais ils ne sont pas tous leurs alliés. Nombreux sont ceux, en particulier parmi les [[demi-elfe|demi-elfes]], qui utilisent les traditions elfiques uniquement pour leur profit personnel, ou pire encore, contre les [[elfe|elfes]] avec qui ils les partagent.''
+
+{s:Reference|TABLEARCHERMAGE}
+<center>
+{| CLASS="tablo"
+|+ L'archer-mage
+|- CLASS="titre"
+| Niveau || BBA || Réflexes || Vigueur || Volonté
+| CLASS="gauche" | Spécial
+| CLASS="gauche" | Nombre de sorts par jour
+|- CLASS="premier"
+| 1 || +1 || +1 || +1 || +0
+| CLASS="gauche" | [[archer-mage#FLECHEMAGIQUE|Flèche magique]] (magie)
+| CLASS="gauche" | —
+|- CLASS="alt"
+| 2 || +2 || +1 || +1 || +1
+| CLASS="gauche" | [[archer-mage#FLECHEENCHANTEE|Flèche enchantée]]
+| CLASS="gauche" | [[archer-mage#SORTS|+1 niveau dans la classe existante]]
+|-
+| 3 || +3 || +2 || +2 || +1
+| CLASS="gauche" | [[archer-mage#FLECHEMAGIQUE|Flèche magique]] (élémentaire)
+| CLASS="gauche" | [[archer-mage#SORTS|+1 niveau dans la classe existante]]
+|- CLASS="alt"
+| 4 || +4 || +2 || +2 || +1
+| CLASS="gauche" | [[archer-mage#FLECHEATETECHERCHEUSE|Flèche à tête chercheuse]]
+| CLASS="gauche" | [[archer-mage#SORTS|+1 niveau dans la classe existante]]
+|-
+| 5 || +5 || +3 || +3 || +2
+| CLASS="gauche" | [[archer-mage#FLECHEMAGIQUE|Flèche magique]] (portée longue)
+| CLASS="gauche" | —
+|- CLASS="alt"
+| 6 || +6 || +3 || +3 || +2
+| CLASS="gauche" | [[archer-mage#FLECHEDEPHASE|Flèche de phase]]
+| CLASS="gauche" | [[archer-mage#SORTS|+1 niveau dans la classe existante]]
+|-
+| 7 || +7 || +4 || +4 || +2
+| CLASS="gauche" | [[archer-mage#FLECHEMAGIQUE|Flèche magique]] (rayonnement élémentaire)
+| CLASS="gauche" | [[archer-mage#SORTS|+1 niveau dans la classe existante]]
+|- CLASS="alt"
+| 8 || +8 || +4 || +4 || +3
+| CLASS="gauche" | [[archer-mage#PLUIEDEFLECHES|Pluie de flèches]]
+| CLASS="gauche" | [[archer-mage#SORTS|+1 niveau dans la classe existante]]
+|-
+| 9 || +9 || +5 || +5 || +3
+| CLASS="gauche" | [[archer-mage#FLECHEMAGIQUE|Flèche magique]] (alignement)
+| CLASS="gauche" | —
+|-
+| 10 || +10 || +5 || +5 || +3
+| CLASS="gauche" | [[archer-mage#FLECHEDEMORT|Flèche de mort]]
+| CLASS="gauche" | [[archer-mage#SORTS|+1 niveau dans la classe existante]]
+|}
+</center>
+
+'''Rôle.''' Les archers-mages donnent la mort de loin, fauchant l'ennemi tandis que leurs alliés se ruent au corps à corps. La pluie de flèches qu'ils font s'abattre sur les rangs de leurs adversaires fait d'eux l'incarnation de l'art du combat à distance.
+
+'''Alignement.'''Les archers-mages peuvent choisir n'importe quel alignement. Cependant, les [[elfe|elfes]] et les [[demi-elfe|demi-elfes]], en général des esprits libres, sont rarement [[Loyal|Loyaux]] et tout aussi rarement [[Mauvais]]. La voie de l'archer-mage est donc plus généralement l'affaire de personnages [[Bon|Bons]] ou [[Neutre|Neutres]].
+
+'''Dés de vie.''' d10.
+
+=== Conditions ===
+Pour devenir un archer-mage, il faut satisfaire aux conditions suivantes.
+
+'''Bonus de base à l'attaque.''' +6.
+
+'''Dons.''' [[Arme de prédilection]] (arc court ou arc long), [[Tir à bout portant]], [[Tir de précision]].
+
+'''Sorts.''' Faculté de lancer des sorts profanes de niveau 1.
+
+
+=== Compétences de classe ===
+Les compétences de l'archer-mage (et la caractéristique dont chacune dépend) sont : [[Discrétion]] (Dex), [[Équitation]] (Dex), [[Perception]] (Sag) et [[Survie]] (Sag).
+
+'''Points de compétence par niveau.''' 4 + modificateur d’[[Intelligence]].
+
+
+=== Caractéristiques de la classe ===
+Voici les particularités et aptitudes de la classe de prestige de l'archer-mage.
+
+==== Armes et armures ====
+L’archer-mage est formé au maniement des [[arme courante|armes courantes]] et de [[arme de guerre|guerre]], ainsi que des boucliers. Il est également formé au port des [[armure légère|armures légères]] et [[armure intermédiaire|intermédiaires]].
+
+{s:Reference|SORTS}
+==== Sorts ====
+Aux niveaux indiqués, un archer-mage gagne de nouveaux sorts quotidiens de la même manière que s’il avait gagné un niveau dans une classe de lanceur de sorts profanes qui était sienne avant de devenir archer-mage. Il ne gagne cependant pas les autres avantages fournis par ce gain de niveau, à l’exception du nombre de sorts par jour, des sorts connus (dans le cas d’un lanceur de sorts spontanés), et de son niveau de lanceur de sorts. Si le personnage possédait plus d’une classe de lanceur de sorts profanes avant de devenir archer-mage, il doit choisir à quelle classe il ajoute ce nouveau niveau pour ce qui est de déterminer les sorts quotidiens
+
+{s:Reference|FLECHEMAGIQUE}
+==== Flèche magique (Sur) ====
+Dès le niveau 1, toute flèche normale tirée par l’archer-mage devient magique et bénéficie d’un bonus d’altération de +1. Contrairement aux armes magiques crées par des moyens ordinaires, l’archer n’a pas besoin de dépenser la moindre pièce d’or pour imprégner ses flèches de magie. En revanche, elles fonctionnent uniquement pour lui
+
+De plus, les flèches de l'archer-mage bénéficient d'un nombre de capacités supplémentaires au fur et à mesure que celui-ci gagne de l’expérience. Une fois par jour, il peut changer les caractéristiques élémentaire, trait élémentaire et alignée de ses flèches, lorsqu'il prépare un sort ou bien, dans le cas des lanceurs de sorts spontanés, après huit heures de repos.
+
+* Au niveau 3, une flèche normale tirée par l'archer-mage gagne l'une des caractéristiques (armes) élémentaires suivantes : de [[feu]], de [[froid]] ou de [[foudre]].
+* Au niveau 5, une flèche normale tirée par l'archer-mage gagne la caractéristiques (arme) [[longue portée]].
+* Au niveau 7, une flèche normale tirée par l'archer-mage gagne l'une des caractéristiques (armes) de rayonnement élémentaire suivantes : de [[feu intense]], de [[froid intense]] ou de [[foudre intense]]. Ces caractéristiques remplacent celles du niveau 3.
+* Au niveau 9, une flèche normale tirée par l'archer-mage gagne l'une des caractéristiques (armes) d'alignement suivantes : [[anarchique]], [[axiomatique]], [[saint|sainte]] ou [[impie]]. Le personnage ne peut choisir une caractéristique qui serait contraire à son alignement. Par exemple, un archer-mage Loyal Bon ne peut choisir les caractéristiques anarchique ou maudite.
+
+Les bonus fournis par un arc magique s’appliquent de la façon normale sur une flèche ainsi améliorée par cette capacité. Seul le bonus d’altération le plus élevé s’applique. Les capacités identiques ne se cumulent pas.
+
+{s:Reference|FLECHEENCHANTEE}
+==== Flèche enchantée (Sur) ====
+Au niveau 2, l’archer-mage acquiert le pouvoir de placer un sort à [[zone deffet|effet de zone]] sur une de ses flèches. Quand celle-ci est tirée, la zone de sort est centrée sur le point d’impact même s’il s’agit d’une incantation qui devrait normalement être centrée sur le personnage. Ce pouvoir permet donc à l’archer d’utiliser la portée de l’arc au lieu de celle du sort. Pour lancer ainsi un sort, l’archer utilise le [[temps dincantation|temps d’incantation]] normal du sort et tire la flèche lors de l’incantation. La flèche doit être tirée dans le round au cours duquel l’archer termine l’incantation, sans quoi le sort est perdu. Si la flèche rate sa cible, le sort est également perdu.
+
+{s:Reference|FLECHEATETECHERCHEUSE}
+==== Flèche à tête chercheuse (Sur) ====
+À partir du niveau 4, l’archer-mage peut tirer une flèche sur une cible qu’il sait être à portée. Sa flèche contourne les obstacles pour aller la toucher, même en tournant à l’angle des couloirs. Seuls les obstacles infranchissables et la portée effective du projectile peuvent arrêter la flèche. Ce pouvoir magique ne tient aucun compte des modificateurs dont bénéficie normalement une cible [[camouflage|camouflée]] ou [[abri|à couvert]] mais hormis cela, l’attaque se déroule normalement. L’utilisation de ce pouvoir est une [[action simple]] (qui comprend le tir). Un archer-mage peut utiliser ce pouvoir une fois par jour à partir du niveau 4, et une fois de plus par jour par tranche de deux niveaux au-delà du niveau 4, jusqu'à un maximum de quatre fois par jour au niveau 10.
+
+{s:Reference|FLECHEDEPHASE}
+==== Flèche de phase (Sur) ====
+Une fois par jour, un archer-mage de niveau 6 peut tirer une flèche sur une cible qu’il sait être à portée. La flèche file vers la cible en ligne droite en traversant tous les obstacles et murs non magiques (elle est bloquée par n’importe quelle barrière magique). Ce pouvoir ne tient pas compte des modificateurs d’[[abri]], de [[camouflage]], d’armure et de bouclier mais en dehors de cela, le [[jet dattaque|jet d’attaque]] se fait normalement. L’utilisation de ce pouvoir est une [[action simple]] (qui comprend le tir de la flèche). Un archer-mage peut utiliser ce pouvoir une fois par jour à partir du niveau 6, plus une fois supplémentaire par tranche de deux niveaux au-delà, jusqu'à un maximum de trois fois par jour au niveau 10.
+
+{s:Reference|PLUIEDEFLECHES}
+==== Pluie de flèches (Sur) ====
+Dès le niveau 8, le personnage dispose de ce pouvoir magique qu’il peut utiliser une fois par jour, à la place de ses attaques normales. Il tire alors une flèche sur chaque cible à portée, jusqu’à un maximum d’une par niveau d’archer-mage. Toutes ces attaques utilisent le bonus de base qui correspond à sa première attaque du round. Il ne peut pas tirer plus d’une flèche par cible.
+
+{s:Reference|FLECHEDEMORT}
+==== Flèche de mort (Sur) ====
+Au niveau 10, l’archer-mage peut créer une version spéciale de la flèche mortelle qui oblige la cible touchée à faire un jet de [[Vigueur]] ou à mourir sur-le-champ. Le [[DD]] de ce jet est égal à 20 + modificateur de [[Charisme]] de l'archer-mage. Il faut 1 journée pour fabriquer la flèche qui fonctionne uniquement pour son créateur. La flèche mortelle ne dure qu’un an et un archer-mage ne peut jamais posséder plus d’une telle flèche à la fois.

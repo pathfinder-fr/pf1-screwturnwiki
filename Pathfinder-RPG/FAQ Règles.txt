@@ -1,0 +1,78 @@
+---
+Name: Pathfinder-RPG.FAQ Règles
+Title: FAQ sur les autres règles
+LastModified: 2012-11-17 00:53
+---
+{s:MenuFAQ}
+{toc}
+
+{s:Reference|FAQAUTRESGENERALITES}
+===Généralités===
+'''Q : Dans le tableau 3-1 ([[Progression des personnages|Progression des personnages et bonus dépendant du niveau]]), il y a une colonne intitulée "Caractéristique accroissement" et, en dessous, "1er" au niveau 4, "2e" au niveau 8, etc... mais cela n'indique pas la liste du ou des bonus à augmenter.'''
+
+R : (James Jacobs) C'est un bonus de +1 à une [[caractéristique]].
+
+R : (Sean K. Reynolds - 21/10/2012) Au niveau 4, un personnage peut augmenter une caractéristique de 1 point. C'est un bonus non typé et non magique qui ne peut être modifié une fois sélectionné. Par exemple, un [[Guerrier]] avec une [[Dex]] de 13 peut utiliser ce bonus pour augmenter sa [[Dex]] à 14.
+
+Un personnage peut aussi augmenter une caractéristique aux niveaux 8, 12, 16 et 20. Ces bonus ne s'appliquent pas obligatoirement à la même caractéristique à chaque fois et s'ajoutent à tous les autres bonus. Par exemple, le [[Guerrier]] décrit ci-dessus peut utiliser son augmentation de caractéristique du niveau 8 pour passer sa [[Force]] de 15 à 16, puis utiliser l'augmentation du niveau 12 pour augmenter à nouveau sa [[Dextérité]] (et la passer de 14 à 15), etc...
+
+'''Q : Puis-je lancer les [[Caractéristiques#TABLEAUCARACTERISTIQUES|sorts bonus dus à une caractéristique élevée]] même si mon niveau de classe n'est pas assez élevé pour me donner accès à ces niveaux de sorts ?'''
+
+R : (Sean K. Reynolds - 27/07/2011) Non. Vous ne bénéficiez des sorts bonus d'un niveau que si votre niveau de classe vous donne accès à ce niveau. Vous ne pouvez même pas les utiliser pour des sorts de niveau 0. C'est expliqué dans la section "[[Caractéristiques#CARACTERISTIQUESETLANCEURSDESORTS|Caractéritiques et lanceurs de sorts]]" : "Pour pouvoir jeter des sorts d’un niveau donné, un lanceur de sorts doit posséder une valeur de caractéristique et un niveau de classe suffisamment élevés."
+
+Par exemple, un [[magicien]] de niveau 1 avec 18 en [[Intelligence]] possède (selon le tableau 1-3 : [[Caractéristiques#TABLEAUCARACTERISTIQUES|sorts bonus dus à une caractéristique élevée]]) A sort bonus pour les sorts de niveaux 1, 2 et 3. Néanmoins, il ne peut lancer que des sorts de niveau 1 car en tant que [[magicien]] de niveau 1, il n'a accès qu'aux sorts de niveau 1 (son nombre de sorts de niveau 2 et 3 par jour est "-", ce qui signifie "pas d'accès à ces sorts à ce niveau"). Dès qu'il atteindra le niveau 3 de [[magicien]], il a accès aux sorts de niveau 2 et bénéficiera alors d'un sort bonus dû à son [[Intelligence]] élevée. De même, il aura accès aux sorts de niveau 3 (et à son sort bonus) lorsqu'il atteindra le niveau 5 de [[magicien]].
+
+Typiquement, il ne faut pas faire attention aux colonnes des sorts de plus haut niveaux de la table 1-3 [[Caractéristiques#TABLEAUCARACTERISTIQUES|sorts bonus dus à une caractéristique élevée]] tant que votre classe de personnage ne vous donne pas accès à ces niveaux de sorts.
+
+'''Q : Quelles créatures ont leur maximum de points de vie au premier niveau ou au premier [[DV]] ? Quelles créatures ont leurs bonus de classe favorite aux points de vie ou aux compétences ?'''
+
+Les créatures dont le premier [[DV]] est issu d'une classe de [[PJ]] obtiennent le maximum de points de vie de ce [[DV]]. La liste actuelle des classes de [[PJ]] sont : le [[barbare]], le [[barde]], le [[druide]], l'[[ensorceleur]], le [[guerrier]], le [[magicien]], le [[moine]], le [[paladin]], le [[prêtre]], le [[rôdeur]] et le [[roublard]] (décrites dans le ''Manuel des Joueurs''), l'[[Alchimiste]], l'[[antipaladin]], le [[chevalier]], le [[conjurateur]], l'[[inquisiteur]], l'[[oracle]] et la [[sorcière]] (décrites dans le ''Manuel des Joueurs - Règles avancées''), le [[magus]] (décrit dans l<nowiki>'</nowiki>''Art de la magie''), le [[ninja]], le [[pistolier]] et le [[samouraï]] (décrits dans l<nowiki>'</nowiki>''Art de la Guerre'') ainsi que tous leurs archétypes, sous-classes et variantes.
+
+Les créatures dont le premier [[DV]] est issu d'une classe de [[PNJ]] ([[adepte]], [[expert]], [[homme darme]], [[homme du peuple]] ou [[noble]]) ou de la race (comme la plupart des monstres), ne voient pas leur premier [[DV]] maximisé.
+
+Toutes les créatures possédant des niveaux de classe (même celles ayant des niveaux de classe de PNJ ou des monstres avec des niveaux de classe) peuvent choisir une classe favorite et bénéficier des avantages de cette classe favorite. Les créatures ne bénéficient jamais des avantages de classe favorite pour un [[DV]] racial.
+
+Par exemple, un [[guerrier]] humain de niveau 1 peut choisir "guerrier" comme classe favorite et gagner soit un point de vie, soit un rang de compétence lorsqu'il gagne un niveau dans cette classe. Un [[gobelours]] possédant 3 [[DV]] raciaux et aucun niveau de classe n'a pas de classe favorite et ne bénéficie d'aucun avantage de classe favorite. Mais si ce [[gobelours]] obtenait un niveau de [[roublard]], il pourrait choisir "roublard" comme classe favorite et bénéficier soit du point de vie soit du rang de compétence bonus pour avoir pris un niveau dans sa classe favorite.
+
+{s:Reference|FAQAUTRESAFFAIBLISSEMENTTEMPORAIRE}
+
+===Affaiblissement temporaire, diminution permanente et pénalité aux caractéristiques===
+'''Q : Je suis un peu perdu concernant les différences entre [[affaiblissement temporaire]], [[diminution permanente]] et pénalités aux [[caractéristiques]]. De plus, certains sorts (tel ''[[rayon affaiblissant]]'' ou ''[[idiotie]]'') semblent avoir leur propre règle. Comment ces effets fonctionnent-ils réellement ?'''
+
+R : (James Jacobs 23/04/2010) Un [[affaiblissement temporaire]] ne donne qu'une pénalité aux actions associées à la [[caractéristique]] concernée, ce qui NE FAIT PAS perdre de [[dons]] ou de sorts qui nécessitent un minimum aux [[caractéristiques]], étant donné que la valeur de [[caractéristique]] ne diminue pas. Seule une [[diminution permanente]] de [[caractéristique]] peut vous faire perdre des sorts ou des [[dons]] qui ont un prérequis.
+
+Mais cela n'est pas aussi simple. Certains effets qui causent un [[affaiblissement temporaire]] ou une pénalité aux [[caractéristiques]] ont, EN PLUS, des effets supplémentaires. ''[[Idiotie]]'' est l'un d'entre eux. Il est dit dans la description du sort qu'il affecte la capacité de la cible à lancer une partie ou la totalité de ses sorts, si la pénalité à la [[caractéristique]] infligée par le sort la diminue suffisamment. C'est une exception à la règle générale des valeurs de [[caractéristiques]] et ne s'applique qu'au sort ''[[idiotie]]'' (l'idée du sort est d'être une version légère du sort ''[[débilité]]'' qui annihile (screw over) tous les lanceurs de sorts, après tout).
+
+''[[Rayon affaiblissant]]'', quant à lui, n'a pas ce type de description. Il fonctionne plus ou moins comme une pénalité à une [[caractéristique]].
+
+Voici quelques cas pratiques :
+# Un [[magicien]] de niveau 12 avec une [[Intelligence]] de 16 subit une pénalité de 3 points d'[[Intelligence]] par le sort ''[[idiotie]]''. Quel est le niveau maximum des sorts qu'il peut lancer, 3 ou 6 ?
+** Il est limité aux sorts de 3<sup>e</sup> niveau.
+# Un [[magicien]] de niveau 12 avec une [[Intelligence]] de 16 subit un [[affaiblissement temporaire]] de 3 points d'[[Intelligence]]. Quel est le niveau maximum des sorts qu'il peut lancer, 3 ou 6 ?
+** Il est limité aux sorts de 6<sup>e</sup> niveau.
+# Un [[magicien]] de niveau 12 avec une [[Intelligence]] de 16 subit une [[diminution permanente]] de 3 points d'Intelligence. Quel est le niveau maximum des sorts qu'il peut lancer, 3 ou 6 ?
+** Il est limité aux sorts de 3<sup>e</sup> niveau.
+# Un [[guerrier]] avec 13 en [[Force]] et le don [[Attaque en puissance]] subit une pénalité de 3 points de [[Force]] par le sort ''[[rayon affaiblissant]]''. Peut-il utiliser son [[Attaque en puissance]] ?
+** Oui.
+# Un [[guerrier]] avec 13 en [[Force]] et le don [[Attaque en puissance]] subit un [[affaiblissement temporaire]] de 3 points de [[Force]]. Peut-il utiliser son [[Attaque en puissance]] ?
+** Oui.
+# Un [[guerrier]] avec 13 en [[Force]] et le don [[Attaque en puissance]] subit une [[diminution permanente]] de 3 points de [[Force]]. Peut-il utiliser son [[Attaque en puissance]] ?
+** Non.
+
+{s:Reference|FAQAUTRESPOISON}
+===Poison===
+'''Q : Est-ce que le [[DD]] d'un poison augmente si au premier round d'un combat je suis touché par 3 araignées, mais que je réussis le [[jet de sauvegarde]], puis que je suis encore touché au second round. Est-ce que les trois premières doses sont encore dans l'organisme ?'''
+
+R : (Jason Bulmahn) Etant donné que tous les poisons qui ont touché sont du même type, non. Une fois qu'une personne a réussi son [[jet de sauvegarde]], tous les poisons du même type qui sont dans son organisme sont complètement détruits et toute nouvelle attaque de poison remet le [[DD]] par défaut. 
+
+{s:Reference|FAQAUTRESSAIGNEMENT}
+
+===Saignement===
+'''Q : Quel type de créature peut être affecté par le [[saignement]] (plus particulièrement concernant les [[type mort-vivant|morts-vivants]] et les [[type créature artificielle|créatures artificielles]]) ?'''
+
+R : (James Jacobs 17/10/2009) Les règles ne donnent pas beaucoup de détails sur qui peut ou ne pas être touché par un [[saignement]]... Elles n'en ont pas besoin car les règles du [[saignement]] sont présentées à la p.572 du ''Manuel des joueurs'' ([[saignement|États préjudiciables - Saignement]]). En résumé : tout ce qui peut subir des dégâts peut subir des dégâts de [[saignement]], à moins que le type de la créature ne lui fournisse une [[immunité (capacité)|immunité]] aux [[saignement|saignements]] ou que la créatures ne possède une capacité spéciale ou un objets (comme un ''[[charme de coagulation]]'') qui l'[[immunité (capacité)|immunise]] contre le [[saignement]].
+
+'''Q : En appliquant les règles à la lettre, la [[régénération (capacité)|régénération]] ne devrait pas affecter un effet de [[saignement]] parce qu'il ne s'agit pas d'un sort. Néanmoins, elle soigne les dégâts donc, en théorie (je pense), elle devrait être capable d'arrêter un [[saignement]]. Quelle est l'idée cachée derrière cette interaction ?'''
+
+R : (James Jacobs) L'idée est que n'importe quel soin est capable d'arrêter un [[saignement]]. L'expression "sort curatif" est un peu perturbante, hélas. La [[prêtre#CANALISATIONDENERGIE|canalisation d'énergie]], la [[régénération (capacité)|régénération]] et la [[guérison accélérée (capacité)|guérison accélérée]] devraient toutes trois stopper un [[saignement]]. Ce qui est une bonne chose car les dégâts de [[saignement|saignements]] sont effrayants !
+

@@ -1,0 +1,2192 @@
+---
+Name: Pathfinder-RPG.Créateur de race
+Title: Créateur de race
+LastModified: 2018-01-14 15:09
+Categories:
+  - 'Manuel des races'
+  - 'Règles officielles'
+---
+<div style="float: right">{TOC}</div>
+Voici le moment où, dans presque toutes les campagnes, quelqu’un (que ce soit l’un des joueurs ou le MJ) veut créer une nouvelle race. Parfois le MJ en a besoin pour compléter une histoire ou une niche écologique de son monde. Ce peut être des races simples, comme des elfes vivant dans un climat arctique, ou plus complexes, comme des géants mécaniques 
+originaires d’un autre plan d’existence. Peut-être qu’un PJ veut jouer une race monstrueuse, s’est inspiré de quelque oeuvre de fiction ou a juste eu une idée folle et souhaite créer une race pour un tout nouveau concept de personnage encore inédit dans Pathfinder. Les règles qui suivent permettent au MJ, voire même aux joueurs sous la surveillance de celui-ci, de créer de nouvelles races équilibrées et de les harmoniser avec les races de base.
+
+En outre, ces règles vous permettent également de créer des races puissantes destinées à générer des rencontres plus stimulantes que celles auxquelles sont généralement confrontées les races de base. Vous pouvez créer de nouvelles races, un modèle de race en vous appuyant sur un monstre existant, voire même des races de base « améliorées » afin de les jouer avec de nouvelles races plus puissantes.
+
+==Encadrés à insérer==
+
+===Encadré 1 : Races sans Constitution===
+
+L’établissement des scores de caractéristique de la plupart des races que vous créez en suivant ces règles (même les races
+évoluées et monstrueuses) utilise les méthodes standard indiquées à la page 15 du Manuel des joueurs. Les races sans score
+de Constitution sont des exceptions et impliquent quelques petits changements de méthode pour la création des scores
+de caractéristique. Voici ces changements, correspondant aux cinq méthodes que l’on trouve dans le Manuel des joueurs.
+
+Standard. Vous lancez 4d6 et en écartez toujours le résultat le plus faible, puis vous additionnez les résultats restants. Mais vous ne faites cette opération que cinq fois et assignez chacun des totaux à une caractéristique de votre choix, sauf la Constitution. 
+
+Classique. Vous lancez 3d6 et additionnez les résultats cinq fois, puis vous assignez chacun des totaux à une caractéristique
+de votre choix, sauf la Constitution.
+
+Héroïque. Vous lancez 2d6 et ajoutez 6 à la somme des dés. Faites cette opération cinq fois et assignez chacun des totaux à
+une caractéristique de votre choix, sauf la Constitution.
+
+Réserve de dés. Plutôt qu’une réserve de 24d6, les races sans Constitution ont une réserve de 20d6 à répartir entre
+leurs caractéristiques, sauf la Constitution. Ces personnages doivent quand même assigner un minimum de 3d6 à chacune
+de ces caractéristiques. Augmentez ce nombre pour les campagnes à haut niveau de puissance.
+
+Achat. Lorsque vous utilisez la méthode de l’achat de scores de caractéristiques, partez du principe que les membres des races sans Constitution ont un score de Constitution de 10 et achetez le reste des caractéristiques normalement avec les points alloués en fonction du niveau de puissance de la campagne.
+
+===Encadré 2 : Sous-types spéciaux===
+
+Il existe deux types de créature (créature artificielle et mort vivant) qui génèrent d’intéressantes options pour les joueurs, mais qui sont trop chères si vous envisagez de créer une race soumise aux restrictions du niveau de puissance standard. Si vous créez une race standard, mais voulez quand même qu’elle soit une race de créatures artificielles ou mortes-vivantes, lisez les deux sous-types spéciaux détaillés ci-dessous : le demi-artificiel et le demi-mort-vivant. Chacun d’eux conserve le principe essentiel du type auquel il est lié, mais accorde moins de capacités et d’immunités. Ces sous-types peuvent être ajoutés à tous les types raciaux sauf à ceux de créature artificielle et de mort-vivant. Lorsque vous appliquez ces sous-types au type humanoïde, choisissez un autre sous-type qui complètera l’autre moitié de la créature. Vous pourriez, par exemple, créer une créature humanoïde moitié artificielle, moitié humaine.
+
+<div class="article_2col">
+<div class="BD">
+{s:BDTitre|Demi-artificiel|(7 PR)}
+</div>
+Une race demi-artificielle est un groupe de créatures qui ont été artificiellement améliorées ou dont certaines parties
+ont été remplacées par des mécanismes artificiels, qu’ils soient technologiques ou magiques. Voici les particularités
+des races demi-artificielles.
+* Les demi-artificiels gagnent un bonus racial de +2 à leurs jets de sauvegarde contre les maladies, les effets mentaux, les
+poisons et les effets provoquant l’épuisement ou la fatigue.
+* Il n’est pas possible de les relever ou de les ressusciter.
+* Ils ne respirent pas, ne mangent pas et ne dorment pas à moins de vouloir profiter de quelque effet bénéfique de l’une
+de ces activités. Cela signifie qu’un demi-artificiel peut boire des potions pour profiter de leurs effets et peut dormir pour regagner des sorts, mais qu’aucune de ces activités n’est nécessaire à sa survie ou à son bon état de santé.
+{br}{br}
+
+<div class="BD">
+{s:BDTitre|Demi-mort-vivant|(5 PR)}
+</div>
+Les races demi-mortes-vivantes sont une fusion étrange ou sacrilège du vivant et du mort-vivant. Les joueurs qui souhaiteraient jouer une race demi-morte-vivante pourraient également s’intéresser au dhampir (voir la page 94 du Bestiaire 2), progéniture du vampire et de l’humain. Voici les particularités des races demi-mortes-vivantes.
+* Les demi-morts-vivants ont le trait racial vision dans le noir à 18 mètres.
+* Ils gagnent un bonus racial de +2 à leurs jets de sauvegarde contre les maladies et les effets mentaux.
+* Ils ne reçoivent aucun malus des effets d’absorption d’énergie, mais peuvent quand même être tués s’ils accumulent plus de
+niveaux négatifs qu’ils n’ont de dés de vie. Au bout de 24 heures, tous les niveaux négatifs qu’ils ont gagnés disparaissent sans que d’autres jets de sauvegarde ne soient nécessaires.
+* L’énergie positive blesse les créatures demi-mortes-vivantes alors que l’énergie négative les soigne. Une créature
+demi-morte-vivante ayant la particularité guérison accélérée profite toujours de ce pouvoir.
+
+</div>
+===Encadré 3 Mettre les races évoluées et monstrueuses au défi===
+Du fait de leurs capacités et de leurs traits raciaux puissants,
+les races évoluées et monstrueuses nécessitent de plus grands
+défis, notamment à bas niveaux. La ligne de conduite à suivre
+est de traiter le groupe de personnages aux races évoluées et
+monstrueuses comme étant supérieur d’un niveau ou plus, en
+fonction du nombre total de leurs PR dépensés, comme indiqué
+dans le tableau ci-dessous. Calculez le niveau moyen du
+groupe adapté à ce groupe et utilisez ce nombre, plutôt que le
+niveau moyen du groupe, lorsque vous créez des rencontres
+et des aventures adaptées. Pour les groupes aux niveaux de
+puissance mixtes, faites la moyenne des PR et arrondissez le
+résultat au plus proche multiple de 10.{br}
+
+{| CLASS="tablo centre"
+|+ Adaptation du niveau du groupe
+|- CLASS="titre"
+| ROWSPAN="2" | PR moyen
+| COLSPAN="4" CLASS="avecsoustitre" | Niveau moyen du groupe
+|- CLASS="soustitre"
+| 1-5
+| 6-10
+| 11-15
+| 16-20
+|- CLASS="premier"
+| 20
+| +1 || — || — || —
+|- CLASS="alt"
+| 30
+| +2 || +1 || — || —
+|-
+| 40
+| +3 || +2 || +1 || —
+|}
+
+===Encadré 4 Les sous-types humanoïdes comme conditions requises===
+Il y a un certain nombre de traits raciaux qui nécessitent un
+sous-type humanoïde particulier comme condition requise. C’est
+généralement le cas lorsqu’un trait racial mentionne une race dans
+son nom. En tant que MJ, vous pouvez considérer ces sous-types
+prérequis comme des suggestions et des indications sur les types
+de races ou les sous-types humanoïdes qui prennent généralement
+ces traits. N’hésitez pas à changer le nom ou le sous-type
+racial prérequis pour ce genre de traits afin qu’ils correspondent
+mieux à la race que vous créez.
+
+===Encadré 5 Les quadrupèdes et les emplacements d’objets magiques===
+Créer une race dont les membres ont plus de deux jambes
+affecte lourdement la capacité de la race à utiliser l’emplacement
+standard de pieds des objets magiques. Le meilleur moyen de
+composer avec ceci est de créer des variantes des objets magiques
+bottes, chaussures et chaussons que peut porter la race. Autorisez
+les membres de ces races à trouver des bracelets de cheville de rapidité
+ou des fers à cheval d’araignée qui fonctionnent exactement
+comme les objets magiques traditionnels qu’ils remplacent, mais
+sont adaptés à la forme de la nouvelle race.
+
+
+
+==Texte==
+Ce créateur de races vous permet de créer de nouvelles races en achetant des particularités raciales et des traits raciaux avec des points de race (PR). 
+
+Il y a de nombreuses différences entre les particularités raciales et les traits raciaux. La principale étant que les particularités raciales sont obligatoires (vous devez en choisir une pour chaque catégorie de particularités raciales indiquées dans ces règles), tandis que les traits raciaux sont optionnels. Il existe six catégories de particularités raciales incluant le type, le sous-type (s’il y en a un), la taille, la vitesse de base, les modificateurs de caractéristiques et les langues. Les traits raciaux présentent un certain nombre d’options intéressantes pour la race que vous créez, des modes de déplacement étendus aux bonus de tests de compétence en passant par des pouvoirs encore plus étranges comme, par exemple, une attaque de coassement effrayante ou la capacité à changer de forme. 
+
+Les traits raciaux sont répartis en différentes catégories comme la défense, l’attaque et les traits magiques.
+
+Avant d’acheter les particularités et les traits raciaux, vous devez définir le niveau de puissance de votre race. Le MJ le décide selon les besoins de sa campagne. Le niveau de puissance de la race détermine le nombre de PR dont vous disposez pour sa construction, ainsi que le nombre maximum de traits raciaux que vous pouvez choisir dans chaque catégorie de traits raciaux et quel type de traits vous pouvez y choisir.
+
+Il arrive parfois que des particularités raciales et des traits raciaux coûtent 0 ou un nombre négatif de PR, ce qui signifie que vous pouvez respectivement les prendre gratuitement ou regagner des PR. Dans le cas des particularités raciales, le choix d’une option à 0 point compte quand même comme un choix pour cette catégorie ; et dans le cas des traits raciaux, ces choix comptent quand même dans le nombre maximum de traits raciaux que vous pouvez prendre par catégorie. 
+
+Il y a trois niveaux de puissance : standard, évolué et monstrueux. Les races standard ne peuvent prendre que des traits raciaux standard, les races évoluées peuvent prendre des traits raciaux standard et évolués, et les races monstrueuses peuvent prendre des traits raciaux standard, évolués et monstrueux.
+
+La table 4-1 indique le nombre de PR que vous pouvez dépenser ainsi que le nombre maximum de traits raciaux que vous pouvez prendre par catégorie selon votre niveau de puissance. 
+
+Table 4-1 : {| CLASS="tablo centre autoalt"
+|+ Points de race et nombre maximum de traits par niveau de puissance
+|- CLASS="titre"
+| Niveau de puissance || Points de race || Traits par catégorie
+|- CLASS="premier"
+| Standard || 1-10 || 3
+|-
+| Évolué || 11-20 || 4
+|-
+| Monstrueux || 21 et plus || 5
+|}
+
+Une fois que vous avez défini le niveau de puissance de la race, suivez chacune des étapes suivantes pour la créer.
+
+===ÉTAPE 1 : CONCEPT===
+Une race est plus qu’un simple groupe d’individus aux particularités et aux traits similaires. C’est un ensemble de personnes qui partagent une histoire et une identité culturelle communes. Si le créateur de race présente de nombreuses options pour la création de nouvelles races, et s’il pourrait être tentant de traiter chaque partie comme un buffet d’options destiné à vous aider à faire les choix les plus optimaux pour votre personnage, il est généralement plus avantageux pour votre univers de commencer par établir le concept de votre race. Avant de choisir les options, essayez de répondre à quelques questions concernant votre race et sa culture. Les réponses vous aideront à faire des choix raisonnables de particularités et de traits raciaux qui s’intégreront mieux à votre monde (plutôt que de simplement en faire un ensemble d’options apparemment aléatoires). Voici quelques exemples de ces questions.
+* Où vit généralement votre race et pourquoi ?
+* À quoi ressemble-t-elle ? Comment l’apparence de ses membres les aide à s’adapter à leur environnement naturel ?
+* Quelle est son histoire ? A-t-elle un mythe de la Création ?
+* Son histoire est-elle marquée par des événements importants ?
+* Quel genre de relations entretient-elle avec les autres races ? A-t-elle des alliés ? Des concurrents ? Des ennemis ? Des Némésis ?
+* Quelles sont les classes qu’elle a tendance à privilégier ?
+
+Si vous utilisez ces règles, mais n’êtes pas le MJ, assurez-vous d’oeuvrer en étroite collaboration avec celui-ci pour créer une race qui occupera une place définie et répondra aux impératifs de sa campagne.
+
+===ÉTAPE 2 : PARTICULARITÉS RACIALES===
+L’étape suivante consiste à choisir les particularités de
+votre race. Vous devez choisir une option dans chacune des
+catégories de particularités suivantes. Ces particularités
+ou certains de leurs aspects servent souvent de conditions
+requises pour les traits raciaux.
+
+====Type====
+Il s’agit du type racial de créature. Le type racial de créature est similaire au type de créature correspondant que l’on trouve dans le Bestiaire, avec quelques différences importantes. La première différence, c’est que chaque type racial suggère que les membres de la race sont grosso modo de forme humanoïde, avec deux bras, deux jambes, un torse et une tête. C’est important dans la mesure où une race peut profiter des avantages de tous les emplacements d’objets magiques accessibles aux personnages et peut utiliser
+
+les options des armes et armures standard. La deuxième différence, c’est que tous ces types raciaux sont des créatures à 0 dé de vie, ce qui signifie que leurs dés de vie, leur bonus de base à l’attaque, l’évolution de leurs jets de sauvegarde, leurs points de compétences, leurs compétences de classe et leur formation aux armes et aux armures sont basés sur les niveaux de classe que prend chacun des membres de la race. Comme les autres particularités raciales, chaque type a un coût en points. Le type de créature de base (humanoïde) coûte 0 PR et offre le plus de souplesse dans le choix des autres particularités et traits raciaux, tandis qu’un type plus cher accordera en principe moins de flexibilité. 
+
+Le coût du type racial détermine également lequel de ces types vous pouvez choisir en fonction du niveau de puissance de la race que vous créez. Vous ne pouvez pas prendre un type ayant un coût en PR égal ou supérieur au coût maximum en PR du niveau de puissance de la race que vous construisez. Cela signifie que vous devez construire une race évoluée si vous souhaitez lui donner le type mort-vivant, ou une race monstrueuse si vous souhaitez lui donner le type créature artificielle. Si vous voulez créer une créature de type mécanique ou mort-vivant avec un niveau de puissance inférieur, consultez l’encadré Sous-types spéciaux à la page 442 pour les options à moindre coût.
+
+Certains types raciaux peuvent accorder des traits raciaux comme particularités. Par exemple, le type créature artificielle accorde aux membres de la race vision dans le noir à 18 mètres. Si tel est le cas, le coût de ce trait racial est déjà décompté lorsque vous achetez le type et le trait ne compte pas dans le maximum de traits raciaux que vous pouvez acheter dans la catégorie correspondante. Par exemple, lorsque vous achetez d’autres traits de vision pour une race artificielle, la particularité vision dans le noir à 18 mètres que la race possède déjà n’entre pas en compte dans la limite des cinq traits de la catégorie Sens pour cette race. Par contre, les traits accordés par le type racial sont pris en compte quand il s’agit de remplir les conditions requises de n’importe quel autre trait.
+
+Le type humanoïde nécessite que vous choisissiez au moins un sous-type à votre race et le type extérieur (natif ) vous permet de décider à quel autre plan votre race est liée. Notez bien le type racial, tous les sous-types et liens planaires de votre créature. Ces éléments sont parfois des conditions requises pour certains traits raciaux. Par exemple, vous devez être de sous-type homme-rat pour prendre le trait racial empathie avec les rongeurs et vous devez être lié à Abaddon, aux Abysses ou aux Enfers pour prendre le trait racial magie des fiélons.
+
+<div class="article_2col">
+<div class="BD">
+{s:BDTitre|Aberration|(3 PR)}
+</div>
+Les aberrations ont une anatomie bizarre, des capacités étranges, une façon de penser défiant toute logique ou n’importe quelle combinaison de ces trois éléments. Voici les particularités des aberrations. 
+* Les aberrations ont le trait racial vision dans le noir à 18 mètres.
+* Elles respirent, mangent et dorment. 
+
+<div class="BD">
+{s:BDTitre|Créature artificielle|(20 PR)}
+</div>
+Une race de créatures artificielles est un groupe d’objets animés ou de créatures créées artificiellement. Voici les particularités des races de créatures artificielles.
+* Les créatures artificielles n’ont pas de score de Constitution. Tous les DD ou autres statistiques basés sur la Constitution considèrent que la créature artificielle a un score de 10 (sans bonus ni malus).
+* Elles ont le trait racial vision nocturne.
+* Elles ont le trait racial vision dans le noir à 18 mètres.
+* Elles sont immunisées à tous les effets mentaux (charmes, coercitions, effets de moral, mirages et fantasmes).
+* Elles ne peuvent pas soigner leurs dégâts elles-mêmes, mais peuvent souvent être réparées en étant exposées à un certain type d’effet (qui dépend des capacités raciales de la créature) ou par l’utilisation du don [[Création de créatures artificielles]]. Elles peuvent également être soignées au moyen de sorts tels que ''[[réparation intégrale]]''. Une créature artificielle ayant la particularité guérison accélérée profite toujours de ce pouvoir.
+* Elles ne sont pas sujettes aux affaiblissements temporaires ou aux diminutions permanentes de caractéristiques, à la fatigue, à l’épuisement, à l’absorption d’énergie ou aux dégâts non létaux.
+* Elles sont immunisées à tous les effets qui impliquent un jet de [[Vigueur]] (à moins que l’effet fonctionne également sur
+les objets ou soit inoffensif).
+* Elles ne risquent pas la mort suite à des dégâts excessifs, mais sont aussitôt détruites quand elles sont réduites à 0 point de vie ou moins.
+* Il n’est pas possible de les relever ou de les ressusciter.
+* Elles sont difficiles à détruire et gagnent un nombre de points de vie bonus basé sur leur taille, comme indiqué dans la table qui suit.
+Taille de la créature artificielle Points de vie bonus
+TP —
+P 10
+M 20
+G 30
+* Elles ne respirent pas, ne mangent pas et ne dorment pas à moins de vouloir profiter de quelque effet bénéfique de l’une de ces activités. Cela signifie qu’une créature artificielle peut boire des potions pour profiter de leurs effets et peut dormir pour regagner des sorts, mais qu’aucune de ces activités n’est nécessaire à sa survie ou à son bon état de santé.
+
+<div class="BD">
+{s:BDTitre|Dragon|(10 PR)}
+</div>
+Le dragon est une créature reptilienne ayant des capacités
+magiques ou inhabituelles. Voici les particularités des races
+de dragons.
+* Les dragons ont le trait racial vision dans le noir à 18 mètres.
+* Ils ont le trait racial vision nocturne.
+* Ils sont immunisés aux effets magiques de sommeil et
+aux effets de paralysie.
+* Ils respirent, mangent et dorment.
+
+<div class="BD">
+{s:BDTitre|Extérieur (natif)|(3 PR)}
+</div>
+Un extérieur natif est au moins partiellement composé de
+l’essence (mais pas forcément de la matière) d’un autre plan que
+celle du plan Matériel. Certaines créatures débutent avec un
+autre type et deviennent des extérieurs lorsqu’elles atteignent un
+niveau supérieur (ou inférieur) d’existence spirituelle. Lors de la
+création d’une race extérieure native, il est parfois important de
+choisir un seul plan Extérieur auquel la race est liée. Par exemple,
+les tieffelins sont liés à l’Abaddon, aux Abysses ou aux Enfers. Ces
+liens peuvent être importants pour définir les autres capacités
+raciales auxquelles on a accès, mais un extérieur natif ne doit pas
+être obligatoirement lié à un autre plan. Voici les particularités
+des races d’extérieurs natifs.
+* Les extérieurs natifs ont le trait racial vision dans le noir
+à 18 mètres.
+* Ils respirent, mangent et dorment.
+
+<div class="BD">
+{s:BDTitre|Fée|(2 PR)}
+</div>
+Une fée est une créature ayant des capacités surnaturelles
+et des liens avec la nature ou quelque autre force ou lieu.
+Voici les particularités des races de fées.
+* Les fées ont le trait racial vision nocturne.
+* Elles respirent, mangent et dorment.
+
+<div class="BD">
+{s:BDTitre|Humanoïde |(0 PR)}
+</div>
+Les races humanoïdes ont peu ou pas du tout de capacités
+surnaturelles ou de pouvoirs magiques. Les humanoïdes sont
+généralement de taille P ou M, à moins d’avoir le sous-type
+géant, auquel cas ils sont de taille G. Une créature humanoïde
+a également un sous-type correspondant à sa race, comme
+humain, géant, gobelinoïde, reptilien ou tengu. Si vous créez
+une nouvelle race humanoïde, vous devriez soit trouver un sous-type
+existant approprié ou en créer un nouveau en utilisant le
+nom de la race comme sous-type. Si vous créez une race de sang-mêlé,
+elle devrait avoir le type racial de ses deux races parentes.
+Par exemple un demi-elfe a les sous-types humain et elfe. Les
+sous-types sont souvent importants pour définir les autres dons
+et pouvoirs raciaux auxquels on a droit. Si un humanoïde a un
+sous-type racial, il est considéré comme un membre de cette
+race en ce qui concerne les conditions requises raciales. Voici les
+particularités des races humanoïdes.
+* Les humanoïdes respirent, mangent et dorment.
+
+<div class="BD">
+{s:BDTitre|Humanoïde monstrueux|(3 PR)}
+</div>
+Les humanoïdes monstrueux sont similaires aux humanoïdes,
+mais ont des caractéristiques monstrueuses ou animales. Ils
+ont également assez souvent des capacités magiques. Voici les
+particularités des races d’humanoïdes monstrueux.
+* Les humanoïdes monstrueux ont le trait racial vision
+dans le noir à 18 mètres.
+* Ils respirent, mangent et dorment.
+
+<div class="BD">
+{s:BDTitre|Mort-vivant |(16 PR)}
+</div>
+Les races mortes-vivantes sont des créatures qui, autrefois,
+étaient vivantes et ont été animées par des forces surnaturelles
+ou spirituelles. Voici les particularités des races de morts-vivants.
+* Les morts-vivants n’ont pas de score de Constitution. Ils
+utilisent leur score de Charisme à la place pour calculer leurs
+points de vie, leurs jets de Vigueur et toute capacité spéciale
+basée sur la Constitution (comme lorsqu’ils calculent le DD
+d’une arme de souffe).
+* Ils ont le trait racial vision dans le noir à 18 mètres.
+* Ils sont immunisés à tous les effets mentaux (charmes,
+coercitions, effets de moral, mirages, fantasmes).
+* Ils sont immunisés aux dégâts de saignement, aux effets
+de mort, aux maladies, à la paralysie, aux poisons, aux effets
+de sommeil et à l’étourdissement.
+* Ils ne sont pas sujets aux dégâts non létaux, aux
+affaiblissements temporaires ou aux diminutions permanentes
+de caractéristique, et sont immunisés aux dégâts touchant les
+scores de caractéristiques physiques (Constitution, Dextérité et
+Force), ainsi qu’aux effets d’épuisement et de fatigue.
+* L’énergie positive les blesse, mais l’énergie négative les
+soigne. Une créature morte-vivante ayant la particularité
+guérison accélérée profite toujours de ce pouvoir.
+* Ils sont immunisés à tous les effets nécessitant un jet de
+Vigueur (à moins que l’effet ne fonctionne également sur les
+objets ou soit inoffensif ).
+* Ils ne risquent pas la mort suite à des dégâts excessifs,
+mais sont aussitôt détruits lorsqu’ils sont réduits à 0 point
+de vie ou moins.
+* Ils ne sont pas affectés par les sorts ou pouvoirs de rappel
+à la vie et de réincarnation. Résurrection et résurrection suprême les
+affectent. Ces sorts retransforment les créatures mortes-vivantes
+en les créatures vivantes qu’elles étaient avant leur mort-vivance.
+* Ils ne respirent pas, ne mangent pas et ne dorment pas à
+moins de vouloir profiter de quelque effet bénéfique de l’une
+de ces activités. Cela signifie qu’une créature morte-vivante peut
+boire des potions pour profiter de leurs effets et peut dormir
+pour regagner des sorts, mais qu’aucune de ces activités n’est
+nécessaire à sa survie ou à son bon état de santé.
+
+<div class="BD">
+{s:BDTitre|Plante |(10 PR)}
+</div>
+Ce type comprend les créatures végétales de forme
+humanoïde. Notez que les plantes normales, comme celles
+que l’on trouve dans les jardins et les champs ordinaires,
+n’ont pas de score de Sagesse ni de Charisme et ne sont pas
+des créatures, mais des objets, même si elles sont vivantes.
+Voici les particularités des races de plantes.
+* Les plantes ont le trait racial vision nocturne.
+* Elles sont immunisées à tous les effets mentaux (charmes,
+coercitions, effets de moral, mirages, fantasmes).
+* Elles sont immunisées à la paralysie, aux poisons, à la
+métamorphose, aux effets de sommeil et à l’étourdissement.
+* Elles respirent et mangent, mais ne dorment pas à
+moins de vouloir profiter de quelque effet bénéfique de
+cette activité. Cela signifie qu’une plante peut dormir pour
+regagner des sorts, mais que le sommeil n’est pas nécessaire
+à sa survie ou à son bon état de santé.
+</div>
+
+====Taille====
+L’étape suivante consiste à choisir la taille de votre race. La plupart des races sont de taille P ou M, ce qui ne requiert aucune condition particulière, mais vous pouvez également décider de créer une race de taille G ou TP intégrant les modifications suivantes, dont le coût en points est indiqué.
+
+'''''Taille G (7 PR).''''' Conditions requises : les humanoïdes
+prenant cette particularité raciale doivent être de sous-type
+géant ; Avantage : les créatures de taille G gagnent un bonus
+de taille de +2 en Force et reçoivent un malus de taille de
+-2 en Dextérité. Les races de taille G reçoivent un malus
+de taille de -1 à la CA, un malus de taille de -1 à leurs
+jets d’attaques, un bonus de taille de +1 à leurs tests
+de manoeuvres offensives et au DMD, et un malus
+de taille de -4 à leurs tests de Discrétion. Une
+créature de taille G occupe un espace de 3 mètres de côté et a
+une allonge de 1,5 mètre.<br>
+'''''Taille M (0 PR).''''' Les races de taille M ne reçoivent ni bonus
+ni malus de taille. Une créature de taille M occupe un espace
+de 1,5 mètre de côté et a une allonge de 1,5 mètre.<br>
+'''''Taille P (0 PR).''''' Les races de taille P reçoivent un bonus
+de taille de +1 à la CA, un bonus de taille de +1 à leurs jets
+d’attaque, un malus de -1 à leurs tests de manoeuvres
+offensives et au DMD, et un bonus de taille de +4 à leurs tests
+de Discrétion. Les races de taille P occupent un espace de 1,5
+mètre de côté et ont une allonge de 1,5 mètre.<br>
+'''''Taille TP (4 PR).''''' Conditions requises : type aberration,
+créature artificielle, dragon, fée, extérieur (natif ) ou plante ;
+Avantage : les créatures de taille TP gagnent un bonus de
+taille de +2 en Dextérité et reçoivent un malus de taille de
+-2 en Force. Les races de taille TP reçoivent un bonus
+de taille de +2 à la CA, un bonus de taille de +2
+à leurs jets d’attaque, un malus de taille de -2 à
+leurs tests de maneouvres offensives et au DMD, et
+un bonus de taille de +8 à leurs tests de Discrétion.
+Les personnages de taille TP occupent un espace de 75
+centimètres de côté, si bien que quatre personnages de
+taille TP peuvent se tenir sur une même case. Les races de
+taille TP ont une allonge naturelle de 0 mètre, ce qui signifie
+qu’elles ne peuvent pas atteindre une case adjacente. Elles
+doivent entrer sur la case d’un adversaire pour l’attaquer
+au corps à corps. Ceci provoque une attaque d’opportunité
+de la part de l’adversaire. N’ayant pas d’allonge naturelle,
+elles ne menacent pas les cases qui les entourent. Les
+autres créatures peuvent traverser ces cases sans provoquer
+d’attaque d’opportunité. Les créatures de taille TP ne peuvent
+pas prendre un ennemi en tenaille.
+
+====VITESSE DE BASE====
+L’étape suivante consiste à choisir la vitesse de base de votre
+race. Certains traits raciaux peuvent l’augmenter ou autoriser
+d’autres modes de déplacement, mais ces traits nécessitent
+généralement d’avoir déjà une vitesse normale. Voici vos options.
+
+'''''Vitesse lente (-1 PR).''''' La race a une vitesse de base de 6
+mètres. S’il s’agit d’une race de taille M, la vitesse des créatures
+n’est jamais modifiée par l’armure ou l’encombrement.
+
+'''''Vitesse normale (0 PR).''''' La race a une vitesse de base de 9
+mètres.
+
+====Modificateurs de caractéristiques====
+L’étape suivante consiste à définir les modificateurs de
+caractéristiques de votre race. De bien des manières, le choix
+de cette particularité raciale est l’un des plus importants
+lorsque vous créez une nouvelle race puisqu’il détermine de
+nombreuses capacités naturelles de celle-ci.
+
+À l’exception du modificateur héritage humain, lorsque vous
+choisissez les modificateurs de caractéristiques d’une race, vous
+décidez quels scores de caractéristiques changent pour chacun
+des membres de la race. Seul le modificateur héritage humain
+permet aux individus de décider quel score de caractéristique ils
+modifient lors de la création du personnage.
+
+La plupart des modificateurs de caractéristiques
+répartissent les scores de caractéristiques en deux
+grandes catégories qui représentent chacune trois des six
+caractéristiques : physique (Force, Dextérité et Constitution)
+et mental (Intelligence, Sagesse et Charisme).
+À l’exception du modificateur héritage humain, les bonus
+de caractéristiques qu’accorde l’une de ces particularités
+raciales comptent comme des bonus quand il s’agit de
+remplir les conditions requises pour les traits raciaux.
+
+'''''Évolué (4 PR).''''' Conditions requises : niveau de puissance évolué
+ou monstrueux ; Modificateurs : choisissez les caractéristiques
+physiques ou mentales. Les membres de cette race gagnent
+un bonus de +2 à toutes ces caractéristiques, un bonus de +4
+à une caractéristique de l’autre type, et reçoivent un malus de
+-2 à une autre caractéristique de cet autre type.
+
+'''''Faiblesse (-1 PR).''''' Les membres de la race reçoivent un
+bonus de +2 à une caractéristique physique, un bonus de
++2 à une caractéristique mentale et un malus de -4 à une
+troisième caractéristique.
+
+'''''Faiblesse mixte (-2 PR).''''' Choisissez les caractéristiques
+physiques ou mentales. Les membres de la race reçoivent un
+bonus de +2 à une caractéristique de ce type et un malus de -2
+à une autre caractéristique de ce type. Ils gagnent également un
+bonus de +2 à une caractéristique de l’autre type et reçoivent un
+malus de -4 à une deuxième caractéristique de l’autre type.
+
+'''''Faiblesse supérieure (-3 PR).''''' Choisissez les caractéristiques
+physiques ou mentales. Les membres de la race reçoivent un
+malus de -4 à l’une de ces caractéristiques, un malus de -2 à une
+deuxième de ces caractéristiques, et un bonus de +2 à la dernière.
+
+'''''Flexible (2 RP).''''' Les membres de la race gagnent un bonus
+de +2 à deux caractéristiques au choix.
+
+'''''Héritage humain (0 PR).''''' Conditions requises : sous-type
+humain ; Modificateurs : les membres de la race gagnent un
+bonus de +2 à une caractéristique au choix lors de la création
+du personnage.
+
+'''''Parangon (1 PR).''''' Les membres de la race reçoivent un bonus
+de +4 à une seule caractéristique et un malus de -2 à toutes
+leurs caractéristiques physiques ou mentales. Si le bonus est
+appliqué à une caractéristique physique, le malus est appliqué
+à toutes les caractéristiques mentales, et vice versa.
+
+'''''Parangon supérieur (2 RP).''''' Les membres de la race
+reçoivent un bonus de +4 à une caractéristique, un malus de
+-2 à une caractéristique physique et un malus de -2 à une
+caractéristique mentale.
+
+'''''Spécialisé (1 PR).''''' Choisissez les caractéristiques physiques
+ou mentales. Les membres de la race reçoivent un bonus de
++2 à deux caractéristiques du type choisi et un malus de -2 à
+une caractéristique de l’autre type.
+
+'''''Standard (0 PR).''''' Les membres de la race reçoivent un
+bonus de +2 à une caractéristique physique, un bonus de
++2 à une caractéristique mentale et un malus de -2 à une
+troisième caractéristique.
+
+
+(s’il y en a une ; n’hésitez pas à créer une nouvelle langue
+pour la race si vous le souhaitez), le draconique (dans le
+cas d’un humanoïde de sous-type reptilien) ou, si la race
+est de type extérieur (natif ), une langue planaire (abyssal,
+aérien, aquatique, céleste, igné, infernal ou terreux) du plan
+correspondant. (Les créatures liées à l’Abaddon peuvent
+prendre l’abyssal ou l’infernal comme langue raciale). Si votre
+race est originaire de l’Ombreterre, vous pouvez remplacer
+le commun par le commun des profondeurs. Consultez la
+compétence Linguistique aux pages 101 et 102 du Manuel des
+joueurs pour une liste des langues.
+Les races de créatures artificielles et de morts-vivants ont
+généralement la langue raciale de la race qui les a créées.
+
+'''''Linguiste (1 PR).''''' Les membres de la race commencent en
+parlant le commun plus leur langue raciale (s’ils en ont une).
+De plus, ceux qui ont un haut score d’Intelligence peuvent
+apprendre d’autres langues de leur choix (sauf la langue des
+druides et les autres langues secrètes).
+
+'''''Standard (0 PR).''''' Les membres de la race commencent en
+parlant le commun plus leur langue raciale (s’ils en ont une).
+Choisissez également sept langues maximum (sauf la langue
+des druides et les autres langues secrètes) : ceux qui ont un
+haut score d’Intelligence peuvent apprendre de nouvelles
+langues parmi celles-ci.
+
+'''''Xénophobe (0 PR).''''' Les membres de la race commencent
+en parlant uniquement leur langue raciale. Les races n’ayant
+pas de langue raciale ne peuvent pas prendre cette option. En
+outre, vous choisissez quatre langues maximum (sauf la langue
+des druides et les autres langues secrètes) dont l’une doit être le
+commun (ou le commun des profondeurs si la race est originaire
+de l’Ombreterre) : ceux qui ont un haut score d’Intelligence
+peuvent apprendre de nouvelles langues parmi celles-ci.
+
+
+
+
+===ÉTAPE 3 : TRAITS RACIAUX===
+Après avoir choisi toutes vos particularités raciales, vous
+pouvez alors choisir vos traits raciaux avec les PR qu’il vous reste.
+Les traits raciaux sont répartis en plusieurs catégories :
+caractéristiques, défense, dons et compétences, magie,
+déplacement, attaque, sens, faiblesses et les autres traits
+raciaux. 
+Le nombre de traits raciaux que vous pouvez acheter
+dans chacune de ces catégories dépend du niveau de puissance
+de la race que vous créez (les races standard ne peuvent pas
+en prendre plus de trois par catégorie, les races évoluées ne
+peuvent pas en prendre plus de quatre par catégorie et les
+races monstrueuses ne peuvent pas en prendre plus de cinq
+par catégorie). En outre, les traits de chaque catégorie sont
+organisés par type (standard, évolué et monstrueux). Les races
+standard ne peuvent choisir que les traits de type standard de
+chaque catégorie, les races avancées peuvent choisir les traits
+de type standard ou évolués, et les races monstrueuses peuvent
+choisir les traits de tous ces types.
+
+Sauf précision contraire, tous les traits raciaux sont des
+capacités extraordinaires et chacun d’eux ne peut être pris
+qu’une seule fois.
+
+Voici le format utilisé pour tous les traits raciaux.
+
+Nom (coût en PR). Chaque présentation de trait racial
+commence par le nom du trait. Le nombre de PR que coûte
+chacun d’eux est indiqué entre parenthèses directement
+après son nom. Sauf précision contraire dans la partie
+Spécial de la description du trait, le nombre de PR indiqué
+pour les traits raciaux qu’il est possible de prendre plus
+d’une fois correspond à ce que vous dépensez à chaque fois
+que vous prenez le trait.
+
+Conditions requises : certains traits raciaux ont des
+conditions requises. Votre race doit remplir toutes celles
+qui sont indiquées dans cette partie pour prendre le trait.
+Certains traits nécessitent d’avoir un type ou un sous-type
+spécifique tandis que d’autres nécessitent d’avoir d’autres
+traits raciaux ou particularités pour les prendre.
+
+Avantage : ce sont les avantages que le trait racial apporte
+aux membres de la race que vous créez.
+
+Spécial : cette partie inclut toutes les informations
+supplémentaires sur le trait racial.
+
+===Caractéristiques===
+Les traits raciaux suivants ajoutent à la caractéristique de
+base les modificateurs choisis dans la particularité raciale
+modificateurs de caractéristiques.
+
+=====Caractéristiques évoluées=====
+'''''Charisme évolué (4 PR).''''' Conditions requises : aucune ;
+Avantage : les membres de la race reçoivent un bonus racial
+de +2 en Charisme ; Spécial : ce bonus peut être pris plusieurs
+fois, mais son coût augmente à chaque fois de 1 PR. Ses effets
+se cumulent.
+
+'''''Constitution évoluée (4 PR).''''' Conditions requises : aucune ;
+Avantage : les membres de la race reçoivent un bonus racial
+de +2 en Constitution ; Spécial : ce bonus peut être pris
+plusieurs fois, mais son coût augmente à chaque fois de 1 PR.
+Ses effets se cumulent.
+
+'''''Dextérité évoluée (4 PR).''''' Conditions requises : aucune ;
+Avantage : les membres de la race reçoivent un bonus racial
+de +2 en Dextérité ; Spécial : ce bonus peut être pris plusieurs
+fois, mais son coût augmente à chaque fois de 1 PR. Ses effets
+se cumulent.
+
+'''''Force évoluée (4 PR).''''' Conditions requises : aucune ; Avantage :
+les membres de la race reçoivent un bonus racial de +2 en
+Force ; Spécial : ce bonus peut être pris plusieurs fois, mais son
+coût augmente à chaque fois de 1 PR. Ses effets se cumulent.
+
+'''''Intelligence évoluée (4 PR).''''' Conditions requises : aucune ;
+Avantage : les membres de la race reçoivent un bonus racial de
++2 en Intelligence ; Spécial : ce bonus peut être pris plusieurs
+fois, mais son coût augmente à chaque fois de 1 PR. Ses effets
+se cumulent.
+
+'''''Sagesse évoluée (4 PR).''''' Conditions requises : aucune ; Avantage :
+les membres de la race reçoivent un bonus racial de +2 en
+Sagesse ; Spécial : ce bonus peut être pris plusieurs fois, mais son
+coût augmente à chaque fois de 1 PR. Ses effets se cumulent.
+
+===Défense===
+Les traits raciaux suivants augmentent la défense des
+membres de la race.
+=====Traits standard=====
+
+'''''Armure naturelle (2 PR).''''' Conditions requises : aucune ;
+Avantage : les membres de la race gagnent un bonus d’armure
+naturelle de +1 à la CA.
+
+'''''Baiser du vent (4 PR).''''' Conditions requises : extérieur (natif )
+lié au plan de l’Air ou type fée ; Avantage : les membres de la
+race sont entourés de vents tourbillonnants et gagnent un
+bonus racial de +2 à la CA contre les attaques à distance nonmagiques.
+Ils peuvent apaiser ou raviver ces vents par une
+action rapide. Une fois par jour, un personnage de cette race
+peut canaliser ce vent en une seule bourrasque, effectuant
+une manoeuvre offensive de bousculade ou de croc-en-jambe
+contre une créature dans un rayon de 9 mètres. Cette action
+épuise la capacité baiser du vent de l’utilisateur pendant 24
+heures. Il s’agit d’une capacité surnaturelle.
+
+'''''Bien portant (2 PR).''''' Conditions requises : la race doit avoir
+un bonus racial d’au moins +2 en Constitution ; Avantage :
+les membres de la race gagnent un bonus racial de +4 à leurs
+jets de Vigueur contre les maladies et les poisons, y compris
+contre les maladies magiques.
+
+'''''Borné (2 PR).''''' Conditions requises : aucune ; Avantage : les
+membres de la race gagnent un bonus racial de +2 à leurs jets
+de Volonté pour résister aux sorts et pouvoirs magiques des
+branches enchantement (charme) et enchantement (coercition).
+En outre, si un de ces membres échoue à un tel jet de sauvegarde,
+il a droit à un autre jet de sauvegarde 1 round plus tard pour
+mettre fin aux effets en avance de phase (à condition que le sort
+ou le pouvoir magique ait une durée supérieure à 1 round). Ce
+second jet de sauvegarde a le même DD que le premier. Si le
+membre de la race a une capacité similaire lui venant d’une autre
+source (comme l’aptitude de classe du roublard esprit fuyant), il
+ne peut utiliser qu’une seule de ces capacités par round, mais
+peut essayer l’autre au deuxième round si le second jet de la
+première capacité a échoué.
+
+'''''Chance féline (1 PR).''''' Conditions requises : la race a au moins
+un bonus racial de +2 en Dextérité ; Avantage : les membres
+de la race gagnent la capacité extraordinaire suivante : une
+fois par jour, lorsqu’un membre de la race fait un jet de
+Réflexes, il peut relancer son jet une deuxième fois et garder
+le meilleur résultat. Il doit décider de l’utilisation de cette
+capacité avant de faire son premier jet.
+
+'''''Chanceux inférieur (2 PR).''''' Conditions requises : aucune ;
+Avantage : les membres de la race gagnent un bonus racial de
++1 à tous leurs jets de sauvegarde.
+
+'''''Coureur du désert (2 PR).''''' Conditions requises : aucune ;
+Avantage : les membres de la race gagnent un bonus racial de
++4 à leurs tests de Constitution et à leurs jets de Vigueur pour
+éviter la fatigue et l’épuisement ainsi que tout autre effet
+malheureux qu’entraînent le fait de courir, la marche forcée,
+la faim, la soif et les environnements chauds ou froids.
+
+'''''Endurci au combat (4 PR).''''' Conditions requises : aucune ;
+Avantage : les membres de la race gagnent un bonus de
++1 au DMD.
+
+'''''Enfant de la brume (1 PR).''''' Conditions requises : aucun ;
+Avantage : quand un membre de la race bénéficie d’un
+camouflage ou d’un camouflage total, les chances de rater ses
+attaques contre lui augmentent de 5 %.
+
+'''''Entraînement défensif inférieur (1 PR).''''' Conditions requises :
+aucune ; Avantage : choisissez un sous-type humanoïde. Les
+membres de la race gagnent un bonus d’esquive de +4 à la CA
+contre les humanoïdes du sous-type choisi.
+
+'''''Entraînement défensif supérieur (4 PR).''''' Conditions
+requises : aucune ; Avantage : les membres de la race gagnent
+un bonus d’esquive de +2 à la CA.
+
+'''''Espoir éternel (2 PR).''''' Conditions requises : aucune ; Avantage :
+les membres de la race gagnent un bonus racial de +2 à leurs
+jets de sauvegarde contre les effets de terreur et de désespoir.
+Une fois par jour, après avoir fait un 1 naturel sur un
+d20, ils peuvent également relancer ce jet et utiliser le
+deuxième résultat.
+
+'''''Esprit dual (1 PR).''''' Conditions requises : humanoïde
+avec deux sous-types ou race avec le sous-type
+demi-artificiel ou demi-mort-vivant ; Avantage : les
+membres de la race gagnent un bonus racial de +2 à tous
+leurs jets de Volonté.
+
+'''''Esprit immortel (3 PR).''''' Conditions requises : aucune ; Avantage :
+les membres de la race gagnent une résistance de 5 contre les
+dégâts d’énergie négative. Ils ne perdent pas de points de vie
+lorsqu’ils gagnent un niveau négatif et ils reçoivent un bonus
+racial de +2 à leurs jets de sauvegarde contre les effets de mort,
+l’absorption d’énergie, l’énergie négative et les sorts ou pouvoirs
+magiques de l’école de nécromancie.
+
+'''''Forme cristalline (2 PR).''''' Conditions requises : extérieur
+(natif ) lié au plan de la Terre, type créature artificielle ou
+sous-type demi-artificiel ; Avantage : les membres de la race
+ont une peau cristalline réfléchissante leur accordant un
+bonus racial de +2 à la CA contre les rayons. Une fois par jour,
+ils peuvent détourner une attaque de rayon dirigée contre
+eux comme s’ils utilisaient le don Parade de projectiles.
+
+'''''Fureur de l’acculé (4 PR).''''' Conditions requises : aucune ;
+Avantage : lorsqu’un membre de la race est réduit à la moitié
+de ses points de vie ou moins et n’a aucun allié conscient
+dans un rayon de 9 mètres, il gagne un bonus racial de +2 à
+ses jets d’attaque au corps à corps et à la CA.
+
+'''''Fusion dans les ombres (1 PR).''''' Conditions requises : trait racial
+résistance à l’ombre ; Avantage : les attaques portées contre les
+membres de la race situés dans des zones de faible luminosité ont
+50 % de chances de rater au lieu des 20 % de chances normaux.
+Ce trait n’offre pas de camouflage total, il augmente simplement
+les chances de rater. Il s’agit d’une capacité surnaturelle.
+
+'''''Halo (2 PR).''''' Conditions requises : extérieur (natif ) lié à
+l’Élysée, au Paradis ou au Nirvana ; Avantage : les membres de
+la race peuvent lancer le pouvoir magique de lumière à volonté
+centré sur leur tête. Lorsqu’ils utilisent le halo, ils gagnent
+un bonus de circonstances de +2 à leurs tests d’Intimidation
+contre les créatures Mauvaises et à leurs jets de sauvegarde
+pour ne pas être aveuglés ou éblouis.
+
+'''''Immunités des duergars (4 PR).''''' Conditions requises : soustype
+nain, bonus racial d’au moins +2 en Constitution ;
+Avantage : les membres de la race sont immunisés à
+la paralysie, aux fantasmes et aux poisons. Ils gagnent
+également un bonus racial de +2 à leurs jets de sauvegarde
+contre les sorts et pouvoirs magiques.
+
+'''''Immunités des elfes (2 PR).''''' Conditions requises : sous-type elfe ;
+Avantage : les membres de la race sont immunisés aux effets
+magiques de sommeil et gagnent un bonus racial de +2 à leurs
+jets de sauvegarde contre les sorts et effets d’enchantement.
+
+'''''Lié à la terre (2 PR).''''' Conditions requises : aucune ; Avantage : les
+membres de la race gagnent un bonus d’esquive de +2 à la CA
+lorsqu’ils sont sur un type de terrain spécifique choisi dans la
+liste des environnements de prédilection du rôdeur. Ce choix
+est fait à la création du personnage et ne peut pas être changé.
+
+'''''Lié à la vie (2 PR).''''' Conditions requises : score de Constitution ;
+Avantage : les membres de la race gagnent un bonus racial de
++2 à tous leurs jets de sauvegarde pour résister aux effets de
+mort, à leurs jets de sauvegarde contre les effets d’énergie
+négative, à leurs jets de Vigueur pour annuler les niveaux
+négatifs et à leurs tests de Constitution pour se stabiliser s’ils
+sont réduits à un nombre de points de vie négatif.
+
+'''''Né de la peste (1 PR).''''' Conditions requises : aucune ; Avantage :
+les membres de la race gagnent un bonus racial de +2 à leurs
+jets de sauvegarde contre les maladies, les poisons ingérés et
+pour ne pas être nauséeux ou fiévreux.
+
+'''''Originaire de la montagne (1 PR).''''' Conditions requises :
+aucune ; Avantage : les membres de la race gagnent un bonus
+racial de +2 à leurs tests d’Acrobaties pour traverser les
+saillies étroites, ainsi qu’à leurs jets de sauvegarde contre le
+Mal et la fatigue de l’altitude.
+
+'''''Pierre dans le sang (3 PR).''''' Conditions requises : extérieur
+(natif ) lié au plan de la Terre, type créature artificielle, type
+dragon ou sous-type demi-artificiel ; Avantage : les membres
+de la race gagnent guérison accélérée à 2 pendant 1 round
+chaque fois qu’ils reçoivent des dégâts d’acide (que ceuxci
+passent leur résistance éventuelle à l’acide ou non). Ils
+peuvent récupérer 2 points de vie par niveau par jour avec
+cette capacité, après quoi elle cesse de fonctionner.
+
+'''''Résistance à l’absorption de niveau (1 PR).''''' Conditions
+requises : trait racial d’affnité avec l’énergie négative ;
+Avantage : les membres de la race ne reçoivent aucun malus
+des effets d’absorption de l’énergie, mais peuvent quand
+même être tués s’ils accumulent plus de niveaux négatifs
+qu’ils n’ont de dés de vie. Au bout de 24 heures, tous leurs
+niveaux négatifs accumulés disparaissent sans qu’il soit
+nécessaire de faire des jets de sauvegarde supplémentaires.
+
+'''''Résistance céleste (3 PR).''''' Conditions requises : extérieur
+(natif ) lié à l’Élysée, au Paradis ou au Nirvana ; Avantage : les
+membres de la race gagnent une résistance à l’acide de 5, une
+résistance au froid de 5 et une résistance à l’électricité de 5.
+
+'''''Résistance élémentaire (1 PR).''''' Conditions requises : extérieur
+(natif ) lié à un plan élémentaire ; Avantage : choisissez l’un
+des types d’énergie suivants, correspondant au plan auquel
+la race est liée : acide (terre), froid (eau), électricité (air) ou feu
+(feu). Les membres ont une résistance de 5 au type d’énergie
+correspondant. Spécial : il est possible de prendre ce trait
+plusieurs fois. Chaque fois que vous le prenez, choisissez
+un type d’énergie supplémentaire correspondant à un autre
+plan élémentaire auquel la race est liée.
+
+'''''Résistance exaltée (3 PR).''''' Conditions requises : extérieur
+(natif ) lié à l’Élysée, au Paradis ou au Nirvana ; Avantage : les
+membres de la race gagnent une résistance à la magie de
+6 + leur niveau de personnage contre les sorts et pouvoirs
+magiques du registre Mal ainsi que contre tous les sorts et
+pouvoirs magiques lancés par les extérieurs Mauvais.
+
+'''''Résistance des fiélons (3 PR).''''' Conditions requises : extérieur
+(natif ) lié à Abaddon, aux Abysses ou aux Enfers ; Avantage :
+les membres de la race gagnent une résistance de 5 au froid,
+à l’électricité et au feu.
+
+'''''Résistance aux illusions (1 PR).''''' Conditions requises : aucune ;
+Avantage : les membres de la race gagnent un bonus racial de
++2 à leurs jets de sauvegarde contre les sorts et effets d’illusion.
+
+'''''Résistance à la magie mineure (2 PR).''''' Conditions requises :
+aucune ; Avantage : les membres de la race gagnent une
+résistance à la magie de 6 + leur niveau de personnage.
+
+'''''Résistance à la magie supérieure (3 PR).''''' Conditions requises :
+aucune ; Avantage : les membres de la race gagnent une
+résistance à la magie de 11 + leur niveau de personnage.
+
+'''''Résistance des morts-vivants (1 PR).''''' Conditions requises :
+aucune ; Avantage : les membres de la race gagnent un bonus
+racial de +2 à leurs jets de sauvegarde contre les maladies et
+les effets mentaux.
+
+'''''Résistance à l’ombre (2 PR).''''' Conditions requises : aucune ;
+Avantage : les membres de la race gagnent une résistance de 5
+au froid et à l’électricité.
+
+'''''Résistance au poison (3 PR).''''' Conditions requises : aucune ;
+Avantage : les membres de la race gagnent un bonus racial
+à leurs jets de sauvegarde contre les effets de poison égal à
+leurs dés de vie.
+
+'''''Résistant (2 PR).''''' Conditions requises : aucune ; Avantage : les
+membres de la race gagnent un bonus racial de +2 à leurs jets
+de sauvegarde contre les effets mentaux et les poisons.
+
+'''''Robustesse (3 PR).''''' Conditions requises : la race doit avoir un
+bonus racial d’au moins +2 en Constitution ; Avantage : les
+membres de la race gagnent un bonus racial de +2 à leurs jets
+de Vigueur contre les poisons, les sorts et les pouvoirs magiques.
+
+'''''Sans peur (1 PR).''''' Conditions requises : aucune ; Avantage :
+les membres de la race gagnent un bonus racial de +2 à tous
+leurs jets de sauvegarde contre les effets de terreur. Spécial :
+ce bonus se cumule avec les bonus qu’accorde le trait racial
+chanceux (supérieur ou inférieur).
+
+'''''Stabilité (1 PR).''''' Conditions requises : aucune ; Avantage : les
+membres de la race gagnent un bonus racial de +4 à leur
+DMD pour résister à une bousculade ou à un croc-en-jambe
+alors qu’ils ont les pieds au sol.
+
+'''''Surnaturel (2 PR).''''' Conditions requises : aucune ; Avantage :
+les membres de la race perturbent les animaux normaux et
+s’entraînent à se défendre contre les attaques inévitables de
+ces créatures. Ils reçoivent un malus de -4 à tous leurs tests
+de compétences basées sur le Charisme pour affecter les
+créatures de type animal et gagnent un bonus d’esquive de +4
+à la CA contre les animaux. L’attitude de départ des animaux
+à leur égard est inférieure à la normale d’une catégorie.
+
+'''''Tempête dans le sang (3 PR).''''' Conditions requises : extérieur
+(natif ) lié au plan de l’Air, type dragon, type fée ou type
+plante ; Avantage : les membres de la race gagnent guérison
+accélérée à 2 pendant 1 round chaque fois qu’ils reçoivent
+des dégâts d’électricité (que ceux-ci passent leur résistance
+éventuelle à l’électricité ou non). Ils peuvent récupérer 2
+points de vie par niveau par jour avec cette capacité, après
+quoi elle cesse de fonctionner.
+
+'''''Veines de feu (3 PR).''''' Conditions requises : extérieur (natif )
+lié au plan du Feu ou type dragon ; Avantage : les membres
+de la race gagnent guérison accélérée à 2 pendant 1 round
+chaque fois qu’ils reçoivent des dégâts de feu (que ceux-ci
+passent leur résistance éventuelle au feu ou non). Ils peuvent
+récupérer 2 points de vie par niveau par jour avec cette
+capacité, après quoi elle cesse de fonctionner.
+
+'''''Vieil ennemi (3 PR).''''' Conditions requises : aucune ; Avantage :
+choisissez un type de monstre ou un sous-type de type
+humanoïde. Les membres de la race gagnent un bonus
+d’esquive de +2 à la CA contre les monstres de ce type et un
+bonus racial de +2 à leurs tests de manoeuvres offensives
+pour agripper les créatures de ce type.
+
+'''''Vitalité hydratée (3 PR).''''' Conditions requises : extérieur (natif ) lié
+au plan de l’Eau, type fée ou type plante ; Avantage : les membres
+gagnent guérison accélérée à 2 pendant 1 round chaque fois
+qu’ils sont complètement immergés dans un corps d’eau salée,
+d’eau douce ou d’eau saumâtre naturelle. Les eaux croupies,
+empoisonnées ou piégées (comme celles d’une fosse artificielle
+ou d’un sac sans fond) n’activent pas cette capacité. Ils peuvent
+récupérer 2 points de vie par niveau par jour avec cette capacité,
+après quoi elle cesse de fonctionner.
+
+=====Traits évolués=====
+'''''Armure naturelle supérieure (1 PR).''''' Conditions requises : trait
+racial armure naturelle ; Avantage : les membres de la race
+gagnent un bonus d’armure naturelle de +1. Spécial : il est possible
+de prendre ce trait plusieurs fois. Chaque fois que vous le prenez,
+augmentez son coût de 1 PR. Ses effets se cumulent.
+
+'''''Chanceux, supérieur (4 PR).''''' Conditions requises : aucune ;
+Avantage : les membres de la race gagnent un bonus racial de
++2 à tous leurs jets de sauvegarde.
+
+'''''Réduction de dégâts des squelettes (2 PR).''''' Conditions
+requises : type mort-vivant ; Avantage : les membres de la race
+gagnent une RD de 5/contondant.
+
+'''''Résistance aux dégâts des fées (3 PR).''''' Conditions requises :
+type fée ; Avantage : les membres de la race gagnent une RD
+de 5/fer froid.
+
+'''''Résistance aux dégâts des touchés de la lune (3 PR).'''''
+Conditions requises : aucune ; Avantage : les membres de la race
+gagnent une RD de 5/argent.
+
+'''''Résistance supérieure (2 PR).''''' Conditions requises : résistance de
+5 à un type d’énergie ; Avantage : les membres de la race montent
+à 10 leur résistance à un type d’énergie. Spécial : il est possible de
+prendre ce trait plusieurs fois. Chaque fois que vous le prenez,
+augmentez son coût de 1 PR et une autre résistance à 10.
+=====Traits monstrueux=====
+'''''Guérison accélérée (6 PR).''''' Conditions requises : aucune ;
+Avantage : les membres de la race regagnent 1 point de vie par
+round. Aux seules exceptions indiquées ici, guérison accélérée
+fonctionne comme guérison naturelle. Guérison accélérée ne
+restaure pas les points de vie perdus à cause de la faim, de la
+soif ou de la suffocation, ni ne permet à une créature de faire
+régénérer des parties du corps perdues. Elle fonctionne (même
+avec un nombre de points de vie négatifs) jusqu’à ce que le
+personnage meure, auquel cas ses effets se terminent aussitôt.
+Spécial : il est possible de prendre ce trait plusieurs fois. Chaque
+fois que vous le prenez, augmentez son coût de 1 PR.
+
+'''''Immunité élémentaire (4 PR).''''' Conditions requises : extérieur
+(natif ) lié à un plan élémentaire ; Avantage : choisissez l’un
+des types d’énergie suivants, correspondant au plan auquel
+la race est liée : acide (terre), froid (eau), électricité (air) ou
+feu (feu). Les membres de la race sont immunisés au type
+d’énergie choisi. Spécial : il est possible de prendre ce trait
+plusieurs fois. Chaque fois que vous le prenez, augmentez
+son coût de 1 PR et choisissez un autre type d’énergie
+correspondant à un autre plan élémentaire auquel la race est
+liée. Si la race a vulnérabilité au feu et immunité au froid,
+elle gagne le sous-type froid. Si elle a vulnérabilité au froid et
+immunité au feu, elle gagne le sous-type feu.
+
+'''''Réception de rochers (2 PR).''''' Conditions requises :
+particularité raciale de taille G ; Avantage : les membres de
+la race peuvent rattraper les rochers de taille P, M ou G (ou
+les projectiles de forme similaire). Une fois par round, ceux
+qui devraient normalement se faire toucher par un rocher
+peuvent faire un jet de Réflexes pour le réceptionner par
+une action libre. Le DD est de 15 pour un rocher de taille P,
+de 20 pour un rocher de taille M et de 25 pour un rocher
+de taille G (si le projectile accorde un bonus magique sur
+les jets d’attaque, le DD augmente d’autant). Les membres
+de la race doivent être conscients de l’attaque pour tenter de
+réceptionner un rocher.
+
+'''''Réduction de dégâts (4 PR ; voir Spécial).''''' Conditions
+requises : aucune ; Avantage : les membres de la race gagnent
+une RD de 5/magique. Spécial : il est possible d’augmenter
+cette RD à 10/magique pour 2 PR de plus. Le type de la RD
+peut être modifié à un alignement (Chaos, Mal, Bien ou Loi)
+si la race est de type extérieur (natif ) liée au plan approprié
+(Chaos pour une race liée à un plan d’alignement Loyal, Mal
+pour une race liée à un plan d’alignement Bon etc.) pour 2
+PR de plus.
+
+====DONS ET COMPÉTENCES====
+Les traits raciaux de dons et de compétences accordent
+des bonus à certaines compétences particulières et des dons
+supplémentaires.
+=====Traits standard=====
+'''''Artisan (1 PR).''''' Conditions requises : aucune ; Avantage : les
+membres de la race gagnent un bonus racial de +2 à tous
+leurs tests d’Artisanat ou de Profession pour créer des objets
+à partir du métal ou de la pierre.
+
+'''''Avarice (1 PR).''''' Conditions requises : aucune ; Avantage :
+les membres de la race gagnent un bonus de +2 à leurs
+tests d’Estimation pour déterminer le prix des biens nonmagiques
+constitués de métaux précieux ou de pierres
+précieuses.
+
+'''''Bien intégré (1 PR).''''' Conditions requises : aucune ; Avantage :
+les membres de la race gagnent un bonus de +1 à leurs tests
+de Bluff, de Déguisement et de Connaissances (folklore local).
+
+'''''Camouflage (1 PR).''''' Conditions requises : aucune ; Avantage :
+choisissez un type d’environnement de prédilection de
+rôdeur. Les membres de la race gagnent un bonus racial de
++4 à leurs tests de Discrétion lorsqu’ils sont dans ce type
+d’environnement.
+
+'''''Cavalier furtif (6 PR).''''' Conditions requises : aucune ; Avantage :
+les membres de la race gagnent un bonus racial de +4 à leurs
+tests de Discrétion et d’Équitation.
+
+'''''Chasseur silencieux (2 PR).''''' Conditions requises : aucune ;
+Avantage : les membres de la race réduisent de 5 le malus
+qu’impose l’utilisation de Discrétion en déplacement et
+peuvent faire des tests de Discrétion en courant avec un
+malus de -20 (ce nombre comprend la réduction de malus
+de ce trait).
+
+'''''Chute agile (2 PR).''''' Conditions requises : la race doit avoir un
+bonus racial d’au moins +2 en Dextérité ; Avantage : les membres
+de la race retombent sur leurs pieds, même quand ils reçoivent
+des dégâts létaux d’une chute. De plus, ils gagnent un bonus de
++1 à leur DMD contre les tentatives de croc-en-jambe.
+
+'''''Compétent (4 PR).''''' Conditions requises : aucune ; Avantage :
+les membres de la race gagnent un rang de compétence
+supplémentaire au niveau 1 et un rang de compétence
+supplémentaire chaque fois qu’ils gagnent un niveau.
+
+'''''Connaissance de la pierre (1 PR).''''' Conditions requises :
+aucune ; Avantage : les membres de la race reçoivent un bonus
+de +2 à leurs tests de Perception pour repérer les ouvrages en
+pierre inhabituels comme les pièges et les passages secrets
+situés dans des murs ou des sols de pierre. Ils ont droit à
+un test pour repérer ces caractéristiques chaque fois qu’ils
+passent dans un rayon de 3 mètres de ces éléments, qu’ils
+observent attentivement ou non.
+
+'''''Curiosité (4 PR).''''' Conditions requises : aucune ; Avantage : les
+membres de la race sont naturellement curieux du monde
+qui les entoure. Ils gagnent un bonus de +4 à leurs tests de
+Diplomatie pour obtenir des informations, et Connaissances
+(histoire) et Connaissances (folklore local) deviennent des
+compétences de classe pour eux. S’ils choisissent une classe
+qui a ces deux Connaissances comme compétences de classe,
+ils gagnent un bonus racial de +2 à ces compétences à la place.
+
+'''''Discrétion souterraine (5 PR).''''' Conditions requises : race
+originaire de l’Ombreterre ; Avantage : les membres de la
+race gagnent un bonus racial de +2 à leurs tests d’Artisanat
+(alchimie), de Perception et de Discrétion. Le bonus aux tests
+de Discrétion passe à +4 lorsqu’ils sont sous terre.
+
+'''''Don supplémentaire flexible (4 PR).''''' Conditions requises :
+aucune ; Avantage : les membres de la race choisissent un
+don supplémentaire accessible au niveau 1.
+
+'''''Don supplémentaire statique (2 PR).''''' Conditions requises :
+aucune ; Avantage : choisissez un don sans conditions
+requises. Tous les membres de la race le gagnent comme don
+supplémentaire au niveau 1.
+
+'''''Éclats du passé (4 PR).''''' Conditions requises : aucune ;
+Avantage : les membres de la race ont des vies passées qui leur
+accordent deux compétences Connaissances particulières.
+Chaque membre de la race choisit deux compétences
+Connaissances : ils y gagnent un bonus racial de +2 et elles
+sont considérées comme des compétences de classe quelle
+que soit la classe qu’ils prennent.
+
+'''''Émissaire (1 PR).''''' Conditions requises : aucune ;
+Avantage : une fois par jour, les membres de la race
+peuvent relancer un jet lorsqu’ils font un test de Bluff
+ou de Diplomatie, et prennent le meilleur résultat.
+
+'''''Enfant des eaux (4 PR).''''' Conditions requises :
+aucune ; Avantage : les membres de la race gagnent
+un bonus racial de +4 à leurs tests de Natation,
+peuvent toujours décider de faire 10 lorsqu’ils nagent et
+peuvent choisir l’aquatique comme langue supplémentaire.
+
+'''''Études spécialisées (4 PR).''''' Conditions requises : aucune ;
+Avantage : aux niveaux 1, 8 et 16, les membres de la race gagnent le
+don supplémentaire Talent dans une compétence de leur choix.
+
+'''''Furtif (5 PR).''''' Conditions requises : aucune ; Avantage : les
+membres de la race gagnent un bonus racial de +4 à leurs
+tests de Discrétion.
+
+'''''Grégaire (1 PR).''''' Conditions requises : la race doit avoir un
+bonus racial d’au moins +2 en Charisme ; Avantage : lorsque
+les membres de la race réussissent un test de Diplomatie pour
+entrer dans les bonnes grâces d’un individu, cette créature reçoit
+un malus de -4 pour résister à toutes leurs compétences basées
+sur le Charisme pendant les prochaines 24 heures.
+
+'''''Habitant des grottes (1 PR).''''' Conditions requises : aucune ;
+Avantage : les membres de la race gagnent un bonus racial de
++1 à leurs tests de Connaissances (exploration souterraine) et
+de Survie sous terre.
+
+'''''Langue dorée (3 PR).''''' Conditions requises : aucune ; Avantage :
+les membres de la race gagnent un bonus de +2 à leurs tests
+de Diplomatie et de Bluff. En outre, lorsqu’ils utilisent
+Diplomatie pour changer l’attitude d’une créature, ils
+peuvent l’améliorer de trois catégories plutôt que de deux.
+
+'''''Linguiste doué (2 PR).''''' Conditions requises : particularité raciale
+langue standard ou linguiste ; Avantage : les membres de la race
+gagnent un bonus racial de +4 à leurs tests de Linguistique,
+et apprennent une langue supplémentaire chaque fois qu’ils
+mettent un rang dans la compétence Linguistique.
+
+'''''Maître rétameur (2 PR).''''' Conditions requises : aucune ;
+Avantage : les membres de la race gagnent un bonus de +1 à
+leurs tests de Sabotage et de Connaissances (ingénierie). On
+considère également qu’ils savent manier toutes les armes
+qu’ils ont personnellement créées.
+
+'''''Maîtrise de compétence (1 PR).''''' Conditions requises : aucune ;
+Avantage : choisissez deux compétences au maximum. Elles
+sont toujours considérées comme des compétences de classe
+pour les membres de la race.
+
+'''''Polyglotte (2 PR).''''' Conditions requises : particularité raciale
+langue standard ou linguiste ; Avantage : les membres de la
+race gagnent un bonus racial de +1 à leurs tests de Bluff et de
+Diplomatie, et apprennent une langue supplémentaire chaque
+fois qu’ils mettent un rang dans la compétence Linguistique.
+
+'''''Récupérateur (2 PR).''''' Conditions requises : aucune ; Avantage : les
+membres de la race gagnent un bonus racial de +2 à leurs tests
+d’Estimation et de Perception pour trouver des objets cachés (y
+compris les pièges et les passages secrets), pour déterminer si
+la nourriture est avariée ou pour identifier une potion au goût.
+
+'''''Séduisant menteur (2 PR).''''' Conditions requises : aucune ;
+Avantage : les membres de la race gagnent un bonus racial de
++4 à leurs tests de Bluff pour convaincre un adversaire qu’ils
+disent la vérité lorsqu’ils mentent.
+
+'''''Sociable (1 PR).''''' Conditions requises : aucune ; Avantage :
+lorsque les membres de la race essayent de changer l’attitude
+d’une créature avec un test de Diplomatie et échouent de 5
+ou plus, ils peuvent réessayer une deuxième fois même s’il
+ne s’est pas écoulé 24 heures.
+
+'''''Talent (2 PR).''''' Conditions requises : aucune ; Avantage :
+choisissez une seule compétence. Les membres de la race
+gagnent un bonus racial de +2 aux tests de cette compétence.
+Sinon, choisissez deux compétences liées : ils y gagnent un
+bonus racial de +1 lors de la création de personnage. Spécial :
+il est possible de prendre ce trait plusieurs fois. Chaque fois
+que vous le prenez, choisissez une compétence différente
+(bonus de +2) ou deux compétences différentes (bonus de +1
+à l’une d’entre elles au choix du personnage).
+
+'''''Traqueur (1 PR).''''' Conditions requises : aucune ; Avantage :
+Perception et Discrétion sont toujours des compétences de
+classe pour les membres de la race.
+
+'''''Urbain (1 PR).''''' Conditions requises : aucune ; Avantage : les
+membres de la race gagnent un bonus racial de +2 à leurs
+tests de Diplomatie pour obtenir des informations et à leurs
+tests de Psychologie pour avoir une intuition concernant un
+phénomène social.
+
+=====Traits évolués=====
+'''''Attaques agiles (2 PR).''''' Conditions requises : aucune ; Avantage :
+les membres de la race gagnent le don supplémentaire
+Attaque en finesse.
+
+'''''Réactions rapides (2 PR).''''' Conditions requises : aucune ;
+Avantage : les membres de la race gagnent le don
+supplémentaire Science de l’initiative.
+
+====TRAITS RACIAUX MAGIQUES====
+
+Les traits raciaux suivants augmentent la capacité d’une
+race à utiliser la magie ou accordent des pouvoirs magiques.
+=====Traits standard=====
+'''''Affinité élémentaire (1 PR).''''' Conditions requises : extérieur
+(natif ) lié à un plan élémentaire ; Avantage : si un membre
+de la race est un ensorceleur du lignage élémentaire
+correspondant au plan élémentaire auquel il est lié (air, terre,
+feu ou eau), il traite son score de Charisme comme supérieur
+de 2 points pour tous ses sorts d’ensorceleurs et ses capacités
+de classe. De plus, il peut lancer les sorts et pouvoirs du
+domaine correspondant au plan élémentaire auquel la race
+est liée à un niveau de lanceur de sorts +1. Ce trait ne donne
+pas accès aux pouvoirs basés sur le niveau en avance de phase,
+il n’affecte que les pouvoirs que les personnages peuvent déjà
+lancer sans utiliser ce trait.
+
+'''''Changement de forme mineur (3 PR).''''' Conditions requises :
+type aberration, dragon, fée, humanoïde ou humanoïde
+monstrueux ; Avantage : les membres de la race gagnent
+la capacité surnaturelle suivante : ils peuvent prendre
+l’apparence d’une seule forme d’une seule race humanoïde
+de leur taille. Cette forme est statique et reste la même à
+chaque fois qu’ils la prennent. Ils gagnent un bonus racial
+de +10 à leurs tests de Déguisement pour apparaître comme
+des membres de la race dont ils ont pris l’apparence. Le
+changement de forme coûte une action simple. Ce trait
+fonctionne comme modification d’apparence, à la seule
+différence qu’il n’ajuste pas les scores de caractéristiques.
+
+'''''Changement de forme supérieur (6 PR).''''' Conditions requises :
+type aberration, dragon, fée, humanoïde ou humanoïde
+monstrueux ; Avantage : les membres de la race gagnent
+la capacité surnaturelle suivante : ils peuvent prendre
+l’apparence d’un humanoïde de taille P ou M comme pour
+le sort modification d’apparence, à la seule différence qu’elle
+n’ajuste pas leurs scores de caractéristiques.
+
+'''''Chantepierre (1 PR).''''' Conditions requises : aucune ; Avantage :
+les membres de la race sont considérés comme ayant un niveau
+de plus quand ils lancent des sorts du registre terre ou utilisent
+des pouvoirs du domaine de la Terre, des pouvoirs de lignage du
+lignage élémentaire de terre, et les révélations du mystère des
+pierres de l’oracle. Ce trait ne donne pas accès aux pouvoirs basés
+sur le niveau en avance de phase, il n’affecte que les pouvoirs que
+les personnages peuvent déjà lancer sans ce trait.
+
+'''''Croissance ferreuse (2 PR).''''' Conditions requises : extérieur
+(natif ) lié au plan de la Terre ; Avantage : une fois par jour, les
+membres de la race peuvent transformer un morceau de fer
+ou d’acier qu’ils touchent en un objet pesant 5 kg maximum,
+comme une épée, un levier ou une rondache en acier. L’objet
+conserve cette forme 10 minutes ou jusqu’à ce qu’il soit cassé
+ou détruit, auquel cas il reprend sa forme et sa taille d’origine.
+
+'''''Devin des âmes (4 PR).''''' Conditions requises : extérieur
+(natif ) ; Avantage : les membres de la race gagnent l’utilisation
+constante du pouvoir magique perception de la mort.
+
+'''''Enfant de la Dissolution (5 PR).''''' Conditions requises : extérieur
+(natif ) lié au plan de l’Ombre, type fée, type mort-vivant ou soustype demi-mort-vivant ; Avantage : les membres de la race gagnent
+la capacité surnaturelle suivante : une fois par jour, ils peuvent
+changer leur apparence pour ressembler à une zone d’ombre
+d’un peu plus de 1,2 mètre de haut. Leur forme physique existe
+toujours et n’est pas intangible (seule leur apparence change).
+Ce trait racial fonctionne comme invisibilité, à la seule différence
+qu’il ne dure qu’un round par niveau (maximum de 5 rounds).
+
+'''''Envoyé (1 PR).''''' Conditions requises : aucune ; Avantage :
+les membres de la race ayant un score d’Intelligence de 11
+ou plus gagnent les pouvoirs magiques suivants : 1/jour –
+compréhension des langages, détection de la magie, détection du
+poison, lecture de la magie. Le niveau de lanceur de sorts pour
+ces effets est égal au niveau de personnage de l’utilisateur.
+
+'''''Étincelle immortelle (7 PR)'''''. Conditions requises : extérieur (natif )
+lié à l’Élysée, au Paradis ou au Nirvana ; Avantage : les membres
+de la race gagnent un bonus de +2 à leurs tests de Connaissances
+(histoire) et à leurs jets de sauvegarde contre les effets de mort,
+et ils peuvent utiliser le pouvoir magique résistance à l’âge mineure
+(voir la page 241 de L’Art de la magie) une fois par jour.
+
+'''''Fascination néréide (3 PR).''''' Conditions requises : extérieur
+(natif ) lié au plan de l’Eau ou type fée ; Avantage : les membres
+de la race gagnent la capacité surnaturelle suivante : une fois
+par jour, ils peuvent générer une explosion de 6 mètres de
+rayon qui fait que les humanoïdes situés dans la zone de l’aura
+sont fascinés par l’utilisateur (comme pour la représentation
+bardique de fascination). Les humanoïdes affectés peuvent
+résister à cet effet en réussissant un jet de Volonté (DD 10 +
+1/2 du niveau de personnage du lanceur + modificateur de
+Charisme du lanceur).
+
+'''''Flair climatique (1 PR).''''' Conditions requises : extérieur (natif )
+lié au plan de l’Air ou type fée ; Avantage : les membres
+de la race sont en telle harmonie avec l’air et le ciel qu’ils
+perçoivent les changements les plus infimes des conditions
+atmosphériques. Ils peuvent dépenser une action complexe
+pour prédire le temps dans une zone au cours des prochaines
+24 heures. Ces prédictions sont toujours précises, mais ne
+peuvent pas tenir compte des sorts ou effets surnaturels qui
+pourraient altérer la météo.
+
+'''''Hypnotique (2 PR).''''' Conditions requises : aucune ; Avantage :
+les membres de la race rajoutent +1 au DD de tous les jets
+de sauvegarde contre les sorts ou effets qu’ils lancent et qui
+rendent la cible fascinée. Une fois par jour, lorsqu’une créature
+fait un jet de sauvegarde contre un tel effet lancé par un
+membre de la race, ce dernier peut forcer la créature à relancer
+son jet et à utiliser le deuxième résultat, même s’il est pire.
+
+'''''Ignoble magie (3 PR).''''' Conditions requises : aucune ; Avantage :
+les membres de la race rajoutent +1 au DD de tous les jets de
+sauvegarde contre les sorts de nécromancie qu’ils lancent.
+Ceux qui ont 11 ou plus en Charisme gagnent également
+les pouvoirs magiques suivants : 1/jour – saignement, contact
+glacial, détection du poison, fatigue. Le niveau de lanceur de
+sorts pour ces effets est égal au niveau de personnage de
+l’utilisateur. Le DD de ces pouvoirs magiques est de 10 +
+niveau du sort + modificateur de Sagesse de l’utilisateur.
+
+'''''Invocateur élémentaire (2 PR).''''' Conditions requises : aucune ;
+Avantage : choisissez l’un des sous-types élémentaires suivants :
+air, terre, feu ou eau. Lorsqu’ils convoquent une créature du
+sous-type choisi au moyen d’un sort de convocation, les membres
+de la race augmentent la durée de ce sort de 2 rounds.
+
+'''''Linguiste magique (2 PR).''''' Conditions requises : aucune ;
+Avantage : les membres de la race rajoutent un bonus de +1 au DD
+des sorts du registre langage ou créant des glyphes, des symboles
+ou autres inscriptions magiques qu’ils lancent. Ils gagnent
+également un bonus racial de +2 à leurs jets de sauvegarde
+contre ces sorts. Ceux qui ont 11 ou plus en Charisme gagnent
+également les pouvoirs magiques suivants : 1/jour – signature
+magique, compréhension des langages, message, lecture de la magie. Le
+niveau de lanceur de sorts pour ces pouvoirs magiques est égal
+au niveau de personnage de l’utilisateur.
+
+'''''Mage ténébreux (2 PR).''''' Conditions requises : aucune ;
+Avantage : les membres de la race rajoutent +1 au DD des
+jets de sauvegarde de leurs sorts et pouvoirs magiques de la
+branche illusion (ombre).
+
+'''''Magicien prédestiné (1 PR).''''' Conditions requises :
+aucune ; Avantage : les membres de la race gagnent un
+bonus racial de +2 à leurs tests de Concentration pour lancer
+des sorts profanes sur la défensive.
+
+'''''Magie elfique (3 PR).''''' Conditions requises : sous-type elfe ;
+Avantage : les membres de la race gagnent un bonus de +2 à
+leurs tests de lanceur de sorts pour passer la résistance à la
+magie. En outre, ils reçoivent également un bonus racial de
++2 à leurs tests d’Art de la magie pour identifier les propriétés
+des objets magiques.
+
+'''''Magie des fiélons (1 PR).''''' Conditions requises : extérieur
+(natif ) lié à Abaddon, aux Abysses ou aux Enfers ; Avantage : si
+un membre de la race est un ensorceleur du lignage abyssal
+ou infernal, il considère son niveau de lanceur de sorts
+supérieur de 1 lorsqu’il lance ses sorts supplémentaires et les
+pouvoirs de lignage. Ce trait ne donne pas accès aux pouvoirs
+basés sur le niveau en avance de phase, il n’affecte que les
+pouvoirs qu’il peut déjà lancer sans ce trait.
+
+'''''Magie gnome (2 PR).''''' Conditions requises : sous-type gnome ;
+Avantage : les membres de la race rajoutent un bonus de +1
+au DD des jets de sauvegarde contre les sorts d’illusion
+qu’ils lancent. Ceux qui ont 11 ou plus en Charisme gagnent
+également les pouvoirs magiques suivants : 1/jour – lumières
+dansantes, son imaginaire, prestidigitation, communication avec
+les animaux. Le niveau de lanceur de sorts pour ces effets est
+égal au niveau de personnage de l’utilisateur. Le DD de ces
+pouvoirs magiques est de 10 + niveau du sort + modificateur
+de Charisme de l’utilisateur.
+
+'''''Magie des ombres (2 PR).''''' Conditions requises : aucune ;
+Avantage : les membres de la race rajoutent +1 au DD des
+jets de sauvegarde de tous les sorts de la branche de l’ombre
+qu’ils lancent. Ceux qui ont 11 ou plus en Charisme gagnent
+également les pouvoirs magiques suivants : 1/jour – son
+imaginaire, passage sans trace, ventriloquie. Le niveau de lanceur
+de sorts pour ces pouvoirs magiques est égal au niveau de
+personnage de l’utilisateur.
+
+'''''Magie profonde (3 PR).''''' Conditions requises : natif de
+l’Ombreterre ; Avantage : les membres de la race gagnent
+un bonus racial de +2 à leurs tests de lanceur de sorts pour
+passer la résistance à la magie, et un bonus racial de +2 à leurs
+tests de dissipation.
+
+'''''Magie samsaran (2 PR).''''' Conditions requises : sous-type
+samsaran ; Avantage : les membres de la race ayant 11 ou plus
+en Charisme gagnent les pouvoirs magiques suivants : 1/jour
+–compréhension des langages, perception de la mort, stabilisation.
+Le niveau de lanceur de sorts pour ces effets est égal au
+niveau de personnage de l’utilisateur.
+
+'''''Magie des svirfneblins (2 PR).''''' Conditions requises : soustype
+gnome ; Avantage : les membres de la race rajoutent +1
+au DD de tous les sorts d’illusion qu’ils lancent. Ils gagnent
+également les pouvoirs magiques suivants : Constant –
+antidétection ; 1/jour – cécité/surdité, flou, déguisement. Le DD
+de ces sorts est de 10 + niveau du sort + modificateur de
+Charisme du lanceur.
+
+'''''Né dans les cieux (3 PR).''''' Conditions requises : extérieur
+(natif ) lié à l’Élysée, au Paradis ou au Nirvana ; Avantage : les
+membres de la race gagnent un bonus de +2 à leurs tests de
+Connaissances (plans) et lancent leurs sorts du registre Bien
+ou lumière à un niveau de lanceur de sorts +1.
+
+'''''Objet de désir (1 PR).''''' Conditions requises : aucune ; Avantage :
+les membres de la race rajoutent +1 à leur niveau de lanceur
+de sorts quand ils lancent charme-personne et charme-monstre.
+
+'''''Oracle de pierre (2 PR).''''' Conditions requises : aucune ; Avantage :
+les membres de la race rajoutent +1 au niveau de lanceur de tous
+les sorts du registre de terre qu’ils lancent. Ils gagnent également
+les pouvoirs magiques suivants : Constant – antidétection ; 1/jour –
+pierre magique, façonnage de la pierre, pierres commères. Le niveau de
+lanceur de sorts pour ces pouvoirs magiques est égal au niveau
+de personnage de l’utilisateur.
+
+'''''Orateur onirique (2 PR).''''' Conditions requises : aucune ; Avantage :
+les membres de la race rajoutent un bonus racial de +1 au DD
+des jets de sauvegarde des sorts de l’école de divination et des
+sorts aux effets de sommeil qu’ils lancent. En plus, ceux qui ont
+un score de Charisme de 15 ou plus peuvent utiliser le pouvoir
+magique songe une fois par jour (niveau de lanceur de sorts égal
+au niveau de personnage de l’utilisateur).
+
+'''''Porteur de lumière (2 PR).''''' Conditions requises : aucune ;
+Avantage : les membres de la race sont immunisés aux effets
+d’éblouissement et de cécité basés sur la lumière, et ils sont
+considérés comme ayant un niveau de plus quand il s’agit de
+déterminer les effets des sorts basés sur la lumière ou les effets
+qu’ils lancent (y compris les pouvoirs magiques et les capacités
+surnaturelles). Ceux qui ont 10 ou plus en Intelligence peuvent
+utiliser le pouvoir magique de lumière à volonté.
+
+'''''Pouvoir magique mineur (variable, voir Spécial).''''' Conditions
+requises : aucune ; Avantage : choisissez un sort de niveau 2 ou
+moins qui ne permette ni d’attaquer une créature ni d’infliger
+des dégâts. Les membres de la race peuvent utiliser ce sort
+comme un pouvoir magique une fois par jour. Le niveau de
+lanceur de sorts pour ce sort est égal au niveau de personnage
+de l’utilisateur. Spécial : ce trait coûte autant de PR que le niveau
+du sort choisi (minimum 1 PR). Il est possible de le prendre trois
+fois : à chaque fois, vous choisissez un sort supplémentaire et
+adaptez le coût en PR de ce trait comme il convient.
+
+'''''Protecteur d’enclave (2 PR).''''' Conditions requises : aucune ;
+Avantage : les membres de la race rajoutent +1 au niveau de
+lanceur de sorts de tous les sorts d’abjuration qu’ils lancent.
+Ils gagnent également les pouvoirs magiques suivants :
+Constant – antidétection ; 1/jour – lueur féérique, dissimulation
+d’objet, sanctuaire. Le niveau de lanceur de sorts pour ces effets
+est égal au niveau de personnage de l’utilisateur.
+
+'''''Pyromane (3 PR).''''' Conditions requises : aucune ; Avantage : les
+membres de la race sont considérés comme ayant un niveau de
+plus quand ils lancent des sorts du registre feu, utilisent leurs
+pouvoirs du domaine du Feu, utilisent les pouvoirs de lignage du
+lignage élémentaire de feu, utilisent les révélations du mystère
+de flammes de l’oracle, et quand il s’agit de déterminer les dégâts
+de bombe de l’alchimiste infligeant des dégâts de feu. Ce trait ne
+donne pas accès aux pouvoirs basés sur le niveau en avance de
+phase, il n’affecte que les pouvoirs que les personnages peuvent
+déjà lancer sans utiliser ce trait. Ceux qui ont 11 ou plus en
+Charisme gagnent également les pouvoirs magiques suivants :
+1/jour – flammes, illumination, lumières dansantes, prestidigitation. Le
+niveau de lanceur de sorts pour ces pouvoirs magiques est égal
+au niveau de personnage de l’utilisateur.
+
+'''''Regard hypnotique (3 PR).''''' Conditions requises : aucune ;
+Avantage : les membres de la race gagnent la capacité
+surnaturelle suivante : une fois par jour, ils peuvent essayer
+d’hypnotiser une seule cible, comme le ferait un sort d’hypnose
+(niveau de lanceur de sorts égal au niveau du personnage).
+Les effets du regard hypnotique ne durent qu’un round.
+
+'''''Séducteur (2 PR).''''' Conditions requises : la race doit avoir un
+bonus racial d’au moins +2 en Charisme ; Avantage : les membres
+de la race rajoutent +1 au DD des jets de sauvegarde de leurs
+sorts et pouvoirs magiques de l’école d’enchantement. En outre,
+ceux qui ont 15 ou plus en Sagesse peuvent utiliser le pouvoir
+magique de charme-personne une fois par jour (niveau de lanceur
+de sorts égal au niveau de personnage de l’utilisateur).
+
+'''''Sol fertile (2 PR).''''' Conditions requises : extérieur (natif ) lié au plan
+de la Terre, type fée ou type plante ; Avantage : les ensorceleurs de
+la race du lignage verdoyant considèrent leur score de Charisme
+supérieur de 2 points pour toutes les capacités spéciales et tous
+les sorts d’ensorceleur. Les prêtres de la race du domaine de la
+Flore utilisent leurs sorts et pouvoirs de domaine à un niveau
+de lanceur de sorts +1. Ce trait ne leur donne pas accès aux
+pouvoirs basés sur le niveau en avance de phase, il n’affecte que
+les pouvoirs qu’ils peuvent déjà utiliser sans ce trait.
+
+'''''Terre traîtresse (2 PR).''''' Conditions requises : extérieur (natif ) lié
+au plan de la Terre ou type fée ; Avantage : les membres de la race
+gagnent la capacité surnaturelle suivante : une fois par jour, ils
+peuvent prier la terre de gronder et de remuer : ils transforment
+ainsi une zone de terre, de pierre brute ou de sable de 3 mètres
+de rayon en terrain diffcile centré sur une case qu’ils peuvent
+toucher. Cela dure un nombre de minutes égal au niveau de
+l’utilisateur, après quoi le sol redevient normal.
+
+=====Traits évolués=====
+'''''Pouvoir magique constant de divination (3 PR).''''' Conditions
+requises : aucune ; Avantage : choisissez l’un des sorts suivants :
+détection de la magie, détection du poison, détection des passages
+secrets, détection des morts-vivants. Les membres de la race
+peuvent l’utiliser comme un pouvoir magique constant. Le
+niveau de lanceur de sorts pour ce pouvoir magique est égal
+au niveau de personnage de l’utilisateur.
+
+'''''Pouvoir magique supérieur (Variable, voir Spécial).'''''
+Conditions requises : aucune ; Avantage : choisissez un sort de
+niveau 3 ou 4 qui ne permette ni d’attaquer une créature ni
+d’infliger des dégâts. Les membres de la race peuvent utiliser
+ce sort comme un pouvoir magique une fois par jour. Le
+niveau de lanceur de sorts pour ce sort est égal au niveau de
+personnage de l’utilisateur. Spécial : ce trait coûte autant de PR
+que le niveau du sort choisi. Il est possible de le prendre trois
+fois : à chaque fois, vous choisissez un sort supplémentaire et
+adaptez le coût en PR comme il convient.
+
+'''''Voyage à travers les ombres (5 PR).''''' Conditions requises :
+extérieur (natif ) lié au plan de l’Ombre ; Avantage : lorsqu’un
+membre de la race atteint le niveau 9, quelle que soit sa
+combinaison de classes, il gagne la capacité à utiliser le pouvoir
+magique traversée des ombres (personnelle uniquement)
+une fois par jour et, au niveau 13, il peut utiliser le pouvoir
+magique changement de plan (personnelle uniquement, vers le
+plan de l’Ombre ou le plan Matériel uniquement) une fois
+par jour. Le niveau de lanceur de sorts pour ces pouvoirs
+magiques est égal au niveau de personnage de l’utilisateur.
+=====Traits monstrueux=====
+
+'''''Pouvoir magique à volonté (Variable, voir Spécial).''''' Conditions
+requises : aucune ; Avantage : choisissez un sort de niveau 3 ou
+moins qui ne permette ni d’attaquer une créature ni d’infliger
+des dégâts. Les membres de la race peuvent utiliser ce sort
+comme un pouvoir magique à volonté. Le niveau de lanceur
+de sorts pour ce sort est égal au niveau de personnage de
+l’utilisateur. Spécial : ce trait coûte autant de PR que deux fois le
+niveau du sort choisi (minimum 2). Il est possible de prendre
+jusqu’à cinq sorts avec ce trait : à chaque fois que vous prenez un
+sort supplémentaire, adaptez le coût en PR comme il convient.
+
+
+====DÉPLACEMENT====
+Les traits raciaux suivants augmentent la capacité d’une
+race à se déplacer dans le monde.
+=====Traits standard=====
+
+'''''Ailes de planeur (3 PR).''''' Conditions requises : aucune ;
+Avantage : les membres de la race ne reçoivent pas de
+dégâts de leurs chutes (comme s’ils étaient sujets à un sort
+constant de feuille morte non-magique). Lorsqu’ils sont dans
+les airs, ils peuvent se déplacer horizontalement de 1,5 mètre
+maximum dans n’importe quelle direction par tranche de 30
+centimètres de hauteur de chute, à une vitesse de 18 mètres
+par round. Ceux qui ont des ailes de planeurs ne peuvent pas
+prendre de la hauteur grâce à ces seules ailes ; ils se déplacent
+simplement librement dans d’autres directions alors qu’ils
+tombent. S’ils sont sujets à un vent important ou à tout autre
+effet qui élève une créature avec des ailes de planeurs, ils
+peuvent profiter du courant d’air ascendant pour augmenter
+la distance sur laquelle ils peuvent planer.
+
+'''''Ailes vestigiales (2 PR).''''' Conditions requises : aucune ;
+Avantage : les membres de la race ont des ailes qui ne leur
+donnent pas la portance nécessaire pour vraiment voler,
+mais qui ont assez de force pour les aider quand ils volent en
+utilisant n’importe quelle autre méthode et leur accordent
+un bonus racial de +4 aux tests de Vol.
+
+'''''Déplacement facilité (environnement) (1 PR).''''' Conditions
+requises : vitesse normale ; Avantage : choisissez un type
+d’environnement de prédilection du rôdeur. Les membres de
+la race peuvent traverser les terrains diffciles naturels à leur
+vitesse normale quand ils sont dans ce type d’environnement.
+Les terrains magiquement altérés les affectent normalement.
+
+'''''Escalade (2 PR).''''' Conditions requises : aucune ; Avantage : les
+membres de la race ont une vitesse d’escalade de 6 mètres et
+gagnent le bonus racial de +8 aux tests d’Escalade qu’accorde
+normalement une vitesse d’escalade.
+
+'''''Montagnard (1 PR).''''' Conditions requises : aucune ; Avantage :
+les membres de la race sont immunisés au vertige et ne
+perdent pas leur bonus de Dextérité à la CA quand ils font
+des tests d’Escalade ou des tests d’Acrobaties pour traverser
+des surfaces étroites ou glissantes.
+
+'''''Nage (2 PR).''''' Conditions requises : aucune ; Avantage : les
+membres de la race ont une vitesse de nage de 9 mètres et
+gagnent le bonus racial de +8 aux tests de Natation qu’accorde
+normalement une vitesse de nage.
+
+'''''Pied ailé (3 PR).''''' Conditions requises : la race doit avoir
+un bonus racial d’au moins +2 en Dextérité ; Avantage : les
+membres de la race gagnent le don supplémentaire Course
+et un bonus racial de +2 à leurs tests d’initiative.
+
+'''''Rapide comme les ombres (3 PR).''''' Conditions requises : la
+race doit avoir un bonus racial d’au moins +2 en Dextérité ;
+Avantage : les membres de la race réduisent de 5 le malus
+qu’implique l’utilisation de Discrétion quand ils se déplacent
+à leur vitesse maximale et réduisent de 10 le malus à leurs
+tests de Discrétion quand ils tirent.
+
+'''''Sauteur (2 PR).''''' Conditions requises : la race doit avoir un
+bonus racial d’au moins +2 en Dextérité ; Avantage : les
+membres de la race sont toujours considérés comme ayant
+pris de l’élan quand ils font des tests d’Acrobaties pour sauter.
+
+'''''Sprinter (1 PR).''''' Conditions requises : vitesse normale ; Avantage :
+les membres de la race gagnent un bonus racial de +3 mètres à
+leur vitesse quand ils chargent, courent ou battent en retraite.
+
+'''''Traqueur de l’Ombreterre (4 PR)'''''. Conditions requises : natif
+de l’Ombreterre ; Avantage : les membres de la race peuvent
+traverser sans diffculté les terrains diffciles lorsqu’ils sont
+sous terre. En outre, ceux qui ont 13 ou plus en Dextérité
+gagnent le don supplémentaire Aisance.
+
+=====Traits évolués=====
+'''''Creusement (3 PR).''''' Conditions requises : vitesse normale ;
+Avantage : les membres de la race gagnent une vitesse de
+creusement de 6 mètres. Spécial : il est possible de prendre ce
+trait deux fois. La deuxième fois, la vitesse de creusement est
+augmentée à 9 mètres.
+
+'''''Nageur puissant (1 PR).''''' Conditions requises : trait racial de
+nage ; Avantage : les membres de la race reçoivent un bonus
+de +3 mètres à leur vitesse de nage. Spécial : il est possible de
+prendre ce trait deux fois. Ses effets se cumulent.
+
+'''''Rapidité (1 PR).''''' Conditions requises : vitesse normale ;
+Avantage : les membres de la race gagnent un bonus de +3
+mètres à leur vitesse de base. Spécial : il est possible de prendre
+ce trait plusieurs fois. À chaque fois, le coût augmente de 1
+PR. Ses effets se cumulent.
+
+'''''Vol (4 PR).''''' Conditions requises : aucune ; Avantage : les
+membres de la race ont une vitesse de vol de 9 mètres avec
+une manœuvrabilité déplorable. Spécial : il est possible de
+prendre ce trait plusieurs fois. Pour chaque tranche de 2 PR
+supplémentaires dépensés, la vitesse de vol augmente de +3
+mètres et la manœuvrabilité augmente d’une catégorie.
+
+=====Traits monstrueux=====
+'''''Expert en escalade (4 PR).''''' Conditions requises : trait racial
+d’escalade ; Avantage : les membres de la race peuvent
+s’accrocher aux murs des grottes, voire même aux plafonds,
+tant que la surface est pourvue de prises pour les pieds et les
+mains. Concrètement, on considère qu’ils sont constamment
+sous les effets d’un sort non-magique de pattes d’araignée, à
+la seule différence qu’ils ne peuvent pas s’accrocher aux
+surfaces lisses. Ce trait double le bonus racial normal de
++8 aux tests d’Escalade normalement accordé aux créatures
+ayant une vitesse d’escalade (pour un bonus total de +16).
+
+
+====ATTAQUE====
+Les traits raciaux suivants améliorent l’habileté martiale
+de la race.
+=====Traits standard=====
+'''''Apprentissage martial (1 PR).''''' Conditions requises : aucune ;
+Avantage : choisissez deux armes maximum, ou une arme et un
+groupe racial d’armes. Lorsque vous choisissez un groupe racial
+d’armes, vous devez choisir un groupe d’armes comprenant le
+même nom que l’un de vos sous-types. Les membres de la race
+savent manier ces armes. En ce qui concerne l’apprentissage
+martial, tous les arcs sont considérés comme une seule arme.
+Spécial : il est possible de prendre ce trait deux fois. La deuxième
+fois, la race sait manier deux autres armes ou une arme et un
+groupe racial d’armes supplémentaire.
+
+'''''Assaut élémentaire (1 PR).''''' Conditions requises : type dragon ou
+extérieur (natif ) lié à un plan élémentaire ; Avantage : choisissez
+l’un des types d’énergie suivants, correspondant au plan auquel
+la race est liée : acide (terre), froid (eau), électricité (air) ou feu
+(feu). Les membres de la race gagnent la capacité surnaturelle
+suivante : une fois par jour, par une action rapide, ils peuvent
+faire appel à la puissance élémentaire qui coule dans leurs veines
+pour envelopper leurs bras de l’énergie correspondant au plan
+élémentaire auquel leur race est liée. Les coups à mains nues
+avec les coudes ou les mains (ou les attaques avec une arme tenue
+en main) infligent +1d6 points de dégâts de l’énergie appropriée.
+Cela dure 1 round par niveau de personnage. La créature peut
+mettre fin aux effets de son assaut élémentaire en avance de
+phase par une action libre.
+
+'''''Aura de puanteur (4 PR).''''' Conditions requises : type humanoïde
+monstrueux, sous-type reptilien ou type mort-vivant ; Avantage :
+les membres de la race sécrètent une odeur terrible, sur une aura
+de 4,5 mètres de rayon, que presque toutes les autres créatures
+trouvent agressive. Toutes les créatures vivantes (à l’exception
+de celles qui ont la capacité aura de puanteur) dans le rayon de
+l’aura doivent réussir un jet de Vigueur (DD 10 + 1/2 le niveau
+de personnage de l’utilisateur + modificateur de Constitution de
+l’utilisateur) ou être fiévreuses pendant 5 rounds. Les créatures
+qui réussissent leur jet ne peuvent pas être rendues fiévreuses
+par l’aura de puanteur de cette créature pendant 24 heures. Un
+sort de ralentissement du poison ou de neutralisation du poison ou
+autres effets similaires annulent l’effet sur la créature fiévreuse.
+Il s’agit d’un effet de poison. Spécial : il est possible de prendre ce
+trait deux fois. La deuxième fois, la taille de l’aura est augmentée
+à 9 mètres et la durée de l’effet est augmentée à 10 rounds.
+
+'''''Briseur de genoux (1 PR).''''' Conditions requises : taille P ;
+Avantage : les membres de la race gagnent un bonus racial de
++4 à leurs tests de manoemuvres offensives de croc-en-jambe
+contre un adversaire.
+
+'''''Chasseur de mages (4 PR).''''' Conditions requises : aucune ;
+Avantage : les membres de la race gagnent un bonus racial
+de +2 à leurs tests d’Art de la magie pour identifier un sort
+lancé et un bonus racial de +1 à leurs jets d’attaque contre
+les lanceurs de sorts profanes. Ils ne gagnent ce bonus que
+contre les créatures lançant des sorts, pas contre celles qui
+n’utilisent que des pouvoirs magiques.
+
+'''''Coassement terrifiant (2 PR).''''' Conditions requises : aucune ;
+Avantage : les membres de la race gagnent la capacité surnaturelle
+suivante : une fois par heure, par une action simple, ils peuvent
+émettre un coassement tonitruant. Toutes les créatures qui ne
+sont pas de leur sous-type (si elles sont humanoïdes) ou de leur
+type (si elles sont d’un autre type de race) doivent réussir un jet
+de Volonté (DD 10 + 1/2 du niveau de personnage de l’utilisateur
++ modificateur de Charisme de l’utilisateur) ou être secouées
+pendant 1d4 rounds. Une cible qui réussit son jet ne peut pas être
+affectée par le coassement de cet utilisateur pendant 24 heures.
+Les créatures qui sont déjà secouées sont effrayées pendant 1d4
+rounds à la place. Il s’agit d’un effet mental sonique.
+
+'''''Croisé céleste (7 PR).''''' Conditions requises : extérieur (natif ) lié à
+l’Élysée, au Paradis ou au Nirvana ; Avantage : les membres de la
+race gagnent un bonus d’intuition de +1 à leurs jets d’attaque et à
+la CA contre les extérieurs Mauvais et un bonus racial de +2 pour
+identifier les extérieurs Mauvais ou les objets et effets que créent
+les extérieurs Mauvais avec Connaissances (plans) ou Art de la
+magie ; ils peuvent utiliser ces compétences dans ce but même
+s’ils ne les ont pas développées.
+
+'''''Enfonceur de porte (2 PR).''''' Conditions requises : aucune ;
+Avantage : les membres de la race gagnent un bonus racial de +2
+à leurs tests de Force pour briser des objets et un bonus racial de
++2 à leurs tests de manoemuvres offensives de destruction.
+
+'''''Ennemi des dragons (3 PR).''''' Conditions requises : aucune ;
+Avantage : les membres de la race gagnent un bonus de +1
+à leurs jets d’attaque et un bonus d’esquive de +2 à la CA
+et à leurs jets de sauvegarde contre les pouvoirs magiques,
+surnaturels et extraordinaires des dragons. En outre, ils
+gagnent un bonus racial de +2 à leurs tests de Connaissances
+(mystères) pour identifier les dragons et peuvent faire ces
+tests sans avoir développé la compétence.
+
+'''''Férocité (4 PR).''''' Conditions requises : aucune ; Avantage : les
+membres de la race gagnent la capacité surnaturelle suivante : si
+leur nombre de points de vie tombe en dessous de 0, mais qu’ils
+ne sont pas encore morts, ils peuvent continuer le combat. Si tel
+est le cas, ils sont chancelants et perdent 1 point de vie par round.
+Ils meurent quand même lorsque leur nombre de points de vie
+atteint un niveau négatif égal à leur score de Constitution.
+
+'''''Férocité orque (2 PR).''''' Conditions requises : sous-type orque ;
+Avantage : une fois par jour, lorsqu’un membre de la race est
+réduit à moins de 0 point de vie, mais n’est pas mort, il peut
+continuer le combat 1 round de plus comme s’il était dans
+l’état hors de combat. À la fin de son prochain tour, il tombe
+aussitôt inconscient et commence à mourir.
+
+'''''Haine (1 PR).''''' Conditions requises : aucune ; Avantage :
+choisissez deux sous-types d’humanoïdes ou d’extérieurs,
+ou un type de créature autre qu’humanoïde ou extérieur. Les
+membres de la race gagnent un bonus racial de +1 à leurs jets
+d’attaque contre les créatures de ces sous-types ou de ce type.
+
+'''''Implacable (1 PR).''''' Conditions requises : aucune ; Avantage :
+les membres de la race gagnent un bonus de +2 à leurs tests
+de manoemuvres offensives de bousculade ou de renversement
+contre un adversaire. Ce bonus ne s’applique que lorsque le
+personnage et son adversaire se tiennent sur le sol.
+
+'''''Langue gluante (2 PR).''''' Conditions requises : taille M ou plus
+grande ; Avantage : les membres de la race peuvent effectuer des
+attaques de corps à corps avec leur longue langue gluante. Il
+s’agit d’une attaque secondaire. Une créature touchée par cette
+attaque ne peut pas s’éloigner de plus de 3 mètres de l’attaquant
+et reçoit un malus de -2 à la CA tant que la langue lui est attachée
+(ce malus ne se cumule pas si d’autres langues lui sont attachées).
+La langue peut être détachée par la cible ou un allié adjacent
+avec un test opposé de Force contre l’attaquant par une action
+simple, ou en infligeant 2 points de dégâts à la langue (CA 11, les
+dégâts ne réduisent pas les points de vie de la créature à langue
+gluante). Un membre de la race ne peut pas s’éloigner de plus de
+3 mètres de la créature coincée par sa langue, mais peut dégager
+sa langue de celle-ci par une action libre. Il ne peut fixer qu’une
+seule créature à la fois sur sa langue. Spécial : il est possible de
+prendre ce trait deux fois. La deuxième fois, le personnage gagne
+la capacité à attirer la créature attachée à sa langue de 1,5 mètre
+vers lui par une action rapide.
+
+'''''Morsure (1 PR).''''' Conditions requises : taille P ou plus grande ;
+Avantage : les membres de la race gagnent une attaque
+naturelle de morsure qui inflige des dégâts équivalents à
+ceux qu’infligent les créatures plus grandes qu’eux de deux
+catégories de taille (voir la page 299 du Bestiaire) ; 1d2 pour
+les races de taille P, 1d3 pour les races de tailles M, etc.) La
+morsure est une attaque principale, ou une attaque secondaire
+si la créature manie une arme manufacturée. Spécial : il est
+possible de prendre ce trait deux fois. La deuxième fois, les
+dégâts de la morsure augmentent d’une catégorie de taille.
+
+'''''Queue fouettante (3 PR).''''' Conditions requises : aucune ;
+Avantage : les membres de la race ont une queue qu’ils peuvent
+utiliser pour effectuer des attaques d’opportunité avec une
+allonge de 1,5 mètre. Il s’agit d’une attaque naturelle infligeant
+1d6 points de dégâts + modificateur de Force de l’utilisateur si
+celui-ci est de taille P, 1d8 points de dégâts + le modificateur
+de Force de l’utilisateur si celui est de taille M, ou 1d10 points
+de dégâts + 1,5 fois le modificateur de Force de l’utilisateur si
+celui-ci est de taille G. Spécial : si une créature de taille G a le
+trait allonge, sa queue gagne également allonge.
+
+'''''Regroupement (1 ou 2 PR).''''' Conditions requises : taille M ou
+plus petite ; Avantage : les membres de la race sont habitués à
+vivre et à combattre avec les leurs. Deux membres de la race
+peuvent partager la même case au même moment. Si deux
+membres de la race occupant la même case attaquent un
+même ennemi, on considère qu’ils le prennent en tenaille,
+comme s’ils étaient sur deux cases opposées. Spécial : si la race
+est de taille P ou plus petite, ce trait coûte 1 PR. Si la race est
+de taille M, il coûte 2 PR.
+
+'''''Sentinelle du ciel (3 PR).''''' Conditions requises : aucune ;
+Avantage : les membres de la race gagnent un bonus racial de
++1 à leurs jets d’attaque, un bonus d’esquive de +2 à la CA et un
+bonus de +2 à leurs tests de Perception contre les créatures
+volantes. En outre, les ennemis en position surélevée ne
+gagnent pas de bonus à leurs jets d’attaque contre eux.
+
+'''''Souffe (1 PR).''''' Conditions requises : aberration, créature
+artificielle, dragon, humanoïde (reptilien), humanoïde
+monstrueux ou extérieur (natif ) lié à un plan élémentaire ;
+Avantage : choisissez l’un des types d’énergie suivants : [[Créer un sort#ACIDE|acide]],
+[[Créer un sort#FROID|froid]], [[Créer un sort#ELECTRICITE|électricité]] ou [[Créer un sort#FEU|feu]]. Si la créature est un extérieur (natif ), elle
+doit être liée à un plan élémentaire et elle doit choisir un type
+d’énergie correspondant au plan auquel elle est liée (acide [terre],
+froid [eau], électricité [air] ou feu [feu]). Puis choisissez entre un
+cône de 4,5 mètres de long ou une ligne de 6 mètres. Une fois
+par jour, par une action simple, les membres de la race peuvent
+effectuer une attaque de souffe surnaturelle infligeant 1d6
+points de dégâts du type d’énergie choisi dans la zone choisie.
+Toutes les créatures présentes dans la zone affectée doivent
+réussir un jet de Réflexes pour éviter d’être blessées. Le DD du
+jet de sauvegarde contre ce souffe est de 10 + 1/2 du niveau de
+personnage de l’utilisateur + modificateur de Constitution de
+l’utilisateur. Celles qui réussissent ne reçoivent aucun dégât de
+l’attaque. Spécial : il est possible de prendre ce trait plusieurs
+fois. À chaque fois, son coût augmente de 1 PR et vous pouvez
+augmenter l’arme de souffe de l’une des façons suivantes (les
+augmentations marquées d’un astérisque [*] peuvent être prises
+plusieurs fois).
+
+Dégâts accrus*. Augmentez les dégâts d’1d6 supplémentaire.
+
+Souffe puissant. L’attaque de souffe inflige la moitié des
+dégâts sur un jet de sauvegarde raté.
+
+Souffe supplémentaire*. Les membres de la race peuvent
+utiliser leur souffe une fois de plus par jour.
+
+Zone étendue. Augmentez la taille du cône à 9 mètres ou la
+longueur de la ligne à 15 mètres.
+
+'''''Toxique (1 PR).''''' Conditions requises : type aberration, dragon,
+plante ou mort-vivant, ou sous-type grippli, demi-mortvivant,
+reptilien ou vishkanya ; Avantage : les membres de la
+race gagnent la capacité extraordinaire suivante : un nombre
+de fois par jour égal à leur modificateur de Constitution
+(minimum 1/jour), ils peuvent envenimer une arme qu’ils
+manient de leur salive ou de leur sang toxique (l’utilisation de
+sang nécessite que la créature soit blessée lorsqu’elle utilise
+cette capacité). L’application du venin de cette manière coûte
+une action rapide. Lorsque vous prenez ce trait, choisissez
+l’un des venins suivants.
+
+Venin affaiblissant. Blessure ; JdS Vigueur DD 10 + 1/2 dés de vie
+de l’utilisateur + modificateur de Constitution de l’utilisateur ;
+fréquence 1/round pendant 6 rounds ; effet affaiblissement
+temporaire de 1d2 points de For ; guérison 1 réussite.
+
+Venin paralysant. Blessure ; JdS Vigueur DD 10 + 1/2 dés de vie
+de l’utilisateur + modificateur de Constitution de l’utilisateur ;
+fréquence 1/round pendant 6 rounds ; effet affaiblissement
+temporaire de 1d2 points de Dex ; guérison 1 réussite.
+
+Venin voleur de vie. Blessure ; JdS Vigueur DD 10 + 1/2
+dés de vie de l’utilisateur + modificateur de Constitution
+de l’utilisateur ; fréquence 1/round pendant 6 rounds ; effet
+affaiblissement temporaire de 1 point de Con ; guérison 1
+réussite.
+
+'''''Utilisation des poisons (1 PR).''''' Conditions requises : aucune ;
+Avantage : les membres de la race sont doués avec les
+poisons et ne risquent jamais de s’empoisonner par accident
+lorsqu’ils en appliquent sur une arme.
+=====Traits évolués=====
+'''''Allonge (1 PR).''''' Conditions requises : taille G ; Avantage : les
+membres de la race ont une allonge de 3 mètres.
+
+'''''Attaque naturelle (1 PR).''''' Conditions requises : aucune ; Avantage :
+choisissez l’une des attaques naturelles suivantes : corne, sabot
+(si la race est pourvue de sabots), coup, serres ou ailes (si la race a
+une vitesse de vol). Les membres de la race gagnent une attaque
+naturelle du type choisi. Corne, coup et serres sont des attaques
+naturelles principales tandis que sabots et ailes sont des attaques
+naturelles secondaires. Les dégâts sont basés sur la taille de la
+créature (voir la page 299 du Bestiaire). Spécial : il est possible de
+prendre ce trait plusieurs fois. Choisissez une attaque naturelle
+différente à chaque fois.
+
+'''''Frénésie (2 PR).''''' Conditions requises : aucune ; Avantage : une fois
+par jour, lorsqu’un membre de la race reçoit des dégâts, il entre
+en frénésie pendant 1 minute, gagnant un bonus racial de +2 en
+Constitution et en Force mais recevant un malus de -2 à la CA.
+
+'''''Griffes (2 PR).''''' Conditions requises : aucune ; Avantage : les
+membres de la race gagnent deux attaques de griffe. Ce sont
+des attaques principales naturelles. Les dégâts sont basés sur
+la taille de la créature (voir la page 299 du Bestiaire).
+
+'''''Regard effrayant (6 PR).''''' Conditions requises : aucune ;
+Avantage : les membres de la race gagnent la capacité
+surnaturelle suivante : les créatures dans un rayon de 9 mètres
+d’eux et qui croisent leur regard doivent réussir un jet de
+Volonté (DD 10 + 1/2 du niveau de personnage de l’utilisateur
++ modificateur de Charisme de l’utilisateur) ou être paralysées
+par la peur pendant 1 round. Il s’agit d’un effet mental de
+terreur. Une cible qui réussit son jet ne peut pas être affectée
+par le regard effrayant de cet utilisateur pendant 24 heures.
+
+'''''Entraînement aux épées (4 PR).''''' Conditions requises : aucune ;
+Avantage : les membres de la race sont formés dès leur naissance
+au maniement de l’épée et, de ce fait, savent automatiquement
+manier ce type d’armes (ce qui inclut les épées bâtardes, les
+dagues, les lames elfiques incurvées, les cimeterres à deux mains,
+les kukris, les épées longues, les dagues coup-de-poing, les
+rapières, les cimeterres, les épées courtes et les doubles lames).
+
+'''''Queue croche-pied (3 PR).''''' Conditions requises : trait
+queue fouettante ; Avantage : lorsqu’un membre de la race
+touche avec une attaque de sa queue fouettante, il peut faire
+une attaque de croc-en-jambe par une action libre qui ne
+provoque pas d’attaque d’opportunité.
+
+=====Traits monstrueux=====
+
+'''''Armes élémentaires (6 PR).''''' Conditions requises : extérieur (natif )
+lié à un plan élémentaire ; Avantage : choisissez l’un des types
+d’énergie suivants, correspondant au plan auquel la race est liée :
+acide (terre), froid (eau), électricité (air) ou feu (feu). Les membres
+de la race infligent 1d6 points de dégâts du type d’énergie choisi
+quand ils frappent un ennemi avec une attaque naturelle, une
+attaque à mains nues ou une arme de corps à corps.
+
+'''''Charge puissante (2 PR).''''' Conditions requises : trait attaque
+naturelle ; Avantage : choisissez l’une des attaques naturelles
+de la race. Lorsqu’un membre de la race charge, il inflige
+deux fois le nombre de dés de dégâts avec l’attaque naturelle
+choisie + 1,5 fois son bonus de Force.
+
+'''''Lancer de rochers (3 PR).''''' Conditions requises : taille G ; Avantage :
+les membres de la race sont des lanceurs de rochers accomplis
+et gagnent un bonus racial de +1 à leurs jets d’attaque lorsqu’ils
+lancent un rocher. Ils peuvent lancer des rochers au maximum
+plus petits de deux catégories par rapport à leur taille. Un
+« rocher » correspond à tout objet qui est grand, volumineux et
+de forme relativement régulière fait de n’importe quel matériau
+ayant une solidité minimum de 5. Un rocher lancé a un facteur
+de portée de 36 mètres. La créature peut lancer le rocher à un
+maximum de 5 facteurs de portée. Les dégâts d’un rocher lancé
+sont de 2d6 + 1,5 fois le bonus de Force de la créature qui le lance.
+
+
+===SENS===
+Toutes les races commencent avec une vision normale. Les
+traits suivants augmentent leur vision ou améliorent leurs
+sens.
+=====Traits standard=====
+
+'''''Perception de la charogne (1 PR).''''' Conditions requises :
+aucune ; Avantage : les membres de la race ont la capacité
+naturelle de sentir l’odeur de la charogne. Cela fonctionne
+comme la capacité odorat, mais seulement pour les cadavres
+et les créatures sévèrement blessées (avec 25 % de leurs points
+de vie ou moins).
+
+'''''Perception de l’eau (1 PR).''''' Conditions requises : extérieur
+(natif ) lié au plan de l’Eau ou trait racial amphibie ; Avantage :
+les membres de la race perçoivent les vibrations de l’eau, ce
+qui leur accorde perception des vibrations à 9 mètres contre
+les créatures qui touchent la même étendue d’eau qu’eux.
+
+'''''Oeil du mineur (2 PR).''''' Conditions requises : aucune ;
+Avantage : les membres de la race ont vision dans le noir à 27
+mètres ; néanmoins, ils sont automatiquement éblouis par
+la lumière vive et reçoivent un malus de -2 à leurs jets de
+sauvegarde contre les effets du registre lumière.
+
+'''''Vision nocturne (1 PR).''''' Conditions requises : aucune ;
+Avantage : les membres de la race voient deux fois plus loin
+que les races ayant une vision normale à faible luminosité.
+
+'''''Vision dans le noir à 18 mètres (2 PR).''''' Conditions requises :
+aucune ; Avantage : les membres de la race voient dans le noir
+à 18 mètres.
+
+'''''Vision dans le noir à 36 mètres (3 PR).''''' Conditions requises :
+aucune ; Avantage : les membres de la race voient dans le noir
+à 36 mètres.
+
+'''''Vision des profondeurs (2 PR).''''' Conditions requises : trait
+racial amphibie ; Avantage : les membres de la race sont
+adaptés pour voir dans les profondeurs sans lumière des
+océans, mais pas dans les environnements remplis d’air. Ils
+voient dans le noir à 36 mètres quand ils sont sous l’eau, mais
+ne bénéficient pas de cet avantage hors de l’eau.
+=====Traits évolués=====
+
+'''''Odorat (4 PR).''''' Conditions requises : aucune ; Avantage :
+les membres de la race gagnent la capacité odorat (voir la
+page 302 du Bestiaire).
+
+'''''Vision dans les ténèbres (4 PR).''''' Conditions requises : aucune ;
+Avantage : les membres de la race voient parfaitement dans
+les ténèbres en tout genre, y compris dans celles qui sont le
+fait de sorts tels que ténèbres profondes.
+=====Traits monstrueux=====
+
+'''''Perception aveugle à 9 mètres (4 PR).''''' Conditions requises :
+aucune ; Avantage : utilisant leurs sens non-visuels comme un
+odorat ou une ouïe aiguisés, les membres de la race perçoivent
+les choses qu’ils ne voient pas. Ils n’ont généralement pas besoin
+de faire de test de Perception pour repérer la localisation d’une
+créature dans un rayon de 9 mètres, à condition qu’ils aient une
+ligne d’effet sur cette créature. Une créature qu’ils ne peuvent
+pas voir bénéficie d’un camouflage total contre ceux qui ont
+perception aveugle, et ces derniers ont le pourcentage de chances
+normal de rater lorsqu’ils attaquent des créatures bénéficiant
+d’un camouflage. La visibilité affecte toujours les mouvements
+des membres de la race. Ces derniers n’ont toujours pas leur
+bonus de Dextérité à la CA contre les attaques des créatures
+qu’ils ne peuvent pas voir.
+
+'''''Vision à 360° (4 PR).''''' Conditions requises : aucune ; Avantage :
+les membres de la race voient, d’une certaine manière, tout
+autour d’eux, bénéficiant d’un bonus racial de +4 à leurs tests
+de Perception et de l’immunité à la prise en tenaille.
+
+
+===FAIBLESSE===
+Les traits raciaux suivants donnent des faiblesses aux
+membres de la race. Tous les traits raciaux de faiblesse
+coûtent des PR négatifs, ce qui signifie qu’ils sont soustraits
+du nombre total de PR dépensés pour répondre aux limites
+du niveau de puissance
+de la race.
+=====Traits standard=====
+
+'''''Affnité avec l’énergie négative (-1 PR).''''' Conditions requises :
+aucune ; Faiblesse : les membres de la race sont vivants, mais
+réagissent à l’énergie positive et à l’énergie négative comme
+s’ils étaient des morts-vivants : l’énergie positive les blesse,
+tandis que l’énergie négative les soigne.
+
+'''''Aveuglé par la lumière (-2 PR).''''' Conditions requises : trait
+vision dans le noir ou vision dans les ténèbres ; Faiblesse : une
+exposition brutale à la lumière vive aveugle les membres de
+la race pendant 1 round ; lors des rounds suivants, ils sont
+éblouis tant qu’ils restent dans la zone affectée.
+
+'''''Sensibilité à la lumière (-1 PR).''''' Conditions requises : vision
+dans le noir ; Faiblesse : les membres de la race sont éblouis
+tant qu’ils restent dans les zones de vive lumière.
+
+'''''Vulnérabilité à la résurrection (-1 PR).''''' Conditions requises :
+sous-type demi-mort-vivant ou type mort-vivant ; Faiblesse :
+un sort de rappel à la vie lancé sur un membre de la race peut
+détruire ce dernier (Volonté pour annuler). L’utilisation du
+sort de cette manière nécessite une composante matérielle.
+
+'''''Vulnérable à la lumière du soleil (-2 PR).''''' Conditions requises :
+natif de l’Ombreterre ou du plan de l’Ombre ; Faiblesse : les
+membres de la race subissent un affaiblissement temporaire
+de 1 point de Constitution pour chaque heure où ils sont
+exposés à la lumière du soleil.
+=====Traits évolués=====
+
+'''''Impuissant sous la lumière du soleil (-2 PR).''''' Conditions
+requises : sous-type demi-mort-vivant ou type mort-vivant ;
+Faiblesse : les membres de la race sont impuissants sous la
+lumière naturelle du soleil (cela n’inclut pas la lumière créée
+par des effets comme un sort de lumière du jour). Ceux qui
+sont pris dans la lumière naturelle du soleil ne peuvent pas
+attaquer et sont chancelants.
+
+'''''Vulnérabilité élémentaire (-2 PR).''''' Conditions requises :
+extérieur (natif ) lié à un plan élémentaire ; Faiblesse :
+choisissez l’un des types d’énergie suivants : acide, froid,
+électricité ou feu. Les membres de la race sont vulnérables
+au type d’énergie choisi. Ils ne peuvent posséder aucun
+trait racial leur accordant une résistance ou une immunité
+à ce type d’énergie. Spécial : il est possible de prendre ce
+trait plusieurs fois. Choisissez un type d’énergie différent à
+chaque fois. Si la race a vulnérabilité au feu et immunité au
+froid, elle gagne le sous-type froid. Si elle a vulnérabilité au
+froid et immunité au feu, elle gagne le sous-type feu.
+===AUTRES TRAITS RACIAUX===
+
+Cette catégorie réunit différents traits n’appartenant pas aux
+autres : ils peuvent améliorer la race de bien des manières.
+=====Traits standard=====
+'''''Amphibie (2 PR).''''' Conditions requises : trait racial nage ;
+Avantage : les membres de la race sont amphibies et peuvent
+respirer de l’air comme de l’eau.
+
+'''''Communication avec les plantes (2 PR).''''' Conditions requises :
+type plante ; Avantage : les membres de la race ont la capacité
+de discuter avec les plantes comme s’ils étaient sujets à un
+sort permanent de communication avec les plantes.
+
+'''''Empathie avec les rongeurs (1 PR).''''' Conditions requises :
+sous-type homme-rat ; Avantage : les membres de la race
+gagnent un bonus de +4 à leurs tests de Dressage pour
+influencer les rongeurs.
+
+'''''Héroïque (4 PR).''''' Conditions requises : aucune ; Avantage :
+dans les campagnes utilisant le système optionnel des points
+héroïques (voir la page 322 du Manuel des joueurs, règles avancées),
+chaque fois qu’un membre de la race gagne un niveau, il gagne 2
+points héroïques au lieu d’un. S’il prend le don Étoffe des héros,
+il gagne 3 points héroïques tous les niveaux au lieu de 2.
+
+'''''Ombre et lumière (1 PR).''''' Conditions requises : aucune ; Avantage :
+les membres de la race gagnent la capacité surnaturelle suivante :
+une fois par jour par une action immédiate, ils peuvent traiter les
+énergies positive et négative comme s’ils étaient des créatures
+mortes-vivantes, recevant des dégâts de l’énergie positive et
+soignant leurs blessures avec l’énergie négative. Cette capacité
+dure 1 minute une fois qu’elle est activée.
+
+'''''Queue préhensile (2 PR).''''' Conditions requises : aucune ;
+Avantage : les membres de la race ont une longue queue souple
+qu’ils peuvent utiliser pour porter des objets. Ils ne peuvent pas
+manier d’armes avec mais peuvent s’en servir pour récupérer de
+petits objets rangés sur leur personne par une action rapide.
+
+'''''Retenir son souffe (1 PR).''''' Conditions requises : aucune ;
+Avantage : les membres de la race peuvent retenir leur
+souffe un nombre de rounds égal à quatre fois leur score
+de Constitution avant de risquer la noyade ou la suffocation.
+
+'''''Talents multiples (2 PR).''''' Conditions requises : aucune ; Avantage :
+les membres de la race choisissent deux classes de prédilection
+au niveau 1 et gagnent +1 point de vie ou +1 rang de compétence
+lorsqu’ils gagnent un niveau dans l’une ou l’autre de ces classes.
+=====Traits évolués=====
+'''''Appendices attrapeurs (6 PR).''''' Conditions requises : tous
+les types sauf humanoïde, taille G ; Avantage : les membres
+de la race sont pourvus d’un petit ensemble d’appendices
+utiles pour les aider à saisir des choses. Ils gagnent le don
+supplémentaire Science de la lutte, peuvent maintenir une
+prise et continuer à porter des attaques avec leur appendice
+principal.
+
+=====Traits monstrueux=====
+'''''Bras multiples (4 PR).''''' Conditions requises : aucune ; Avantage : les
+membres de la race ont trois bras. Ils peuvent manier plusieurs
+armes, mais une seule de leur main est considérée comme
+directrice : les autres ne le sont pas. Ils peuvent également
+utiliser ces mains pour d’autres actions nécessitant d’avoir les
+mains libres. Spécial : il est possible de prendre ce trait deux fois.
+La deuxième fois, la race gagne un quatrième bras.
+
+'''''Quadrupède (2 PR).''''' Conditions requises : tous les types sauf
+humanoïde, taille G, vitesse normale ; Avantage : les membres
+de la race ont quatre pattes et deux bras, ce qui leur accorde un
+bonus racial de +4 au DMD contre les crocs-en-jambe et un
+bonus de +3 mètres à leur vitesse de base. En outre, ils utilisent
+les armes et les armures comme s’ils étaient de taille M (plutôt
+que de taille G). Spécial : le nombre de jambes peut être augmenté
+de 2 pour chaque PR supplémentaire dépensé. Chacune de ces
+augmentations accorde un bonus racial supplémentaire de +4 au
+DMD contre le croc-en-jambe, mais aucun autre bonus.
+
+
+* [[Exemples de race de base]]
+* [[Exemples de races augmentées]]
+* [[Exemples de monstres]]

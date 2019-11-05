@@ -1,0 +1,259 @@
+---
+Name: Pathfinder-RPG.Conception de pièges
+Title: Conception de pièges
+LastModified: 2010-07-23 12:08
+Categories:
+  - 'Maitre du jeu'
+  - 'Manuel des joueurs'
+  - 'Règles officielles'
+---
+{s:MenuEnvironnement}
+
+Voir aussi :
+<ul>
+  <li>[[Pièges|Description des pièges]]</li>
+  <li>[[Exemples de pièges]]</li>
+  <li>[[Conception de pièges]]</li>
+</ul>
+
+{toc}
+
+{s:Reference|TYPE}
+=== Type de piège ===
+
+C’est un procédé assez simple. Il faut tout d’abord décider du type de piège que vous souhaitez créer.
+
+'''Pièges mécaniques.''' Choisissez les éléments que vous souhaitez associer au piège et ajoutez les modifications adéquates au facteur de puissance (voir la table ci-dessous) pour obtenir le [[Rencontres#FP|FP]] final du piège afin d’en déduire le [[DD]] du test d’[[Artisanat]] (fabrication des pièges) que le personnage doit effectuer (voir Tabkeau "DD du test d’Artisanat des pièges" plus bas).
+
+<table width="100%"><tr style="vertical-align: top"><td>
+{s:Reference|MODIFFPMECA}
+<center>
+{| CLASS="tablo"
+|+ Modificateurs au FP des pièges mécaniques
+|- CLASS="titre"
+| Élément || Modificateur au FP
+|- CLASS="premier"
+| COLSPAN="2" | '''DD du test de [[Perception]]'''
+|-
+|  15 ou moins || -1
+|- CLASS="alt"
+| 16-20 || -
+|-
+| 21-25 || +1
+|- CLASS="alt"
+| 26–29 || +2
+|-
+| 30 ou plus || +3
+|- CLASS="premier"
+| COLSPAN="2" | '''DD du test de [[Sabotage]]'''
+|-
+| 15 ou moins || –1
+|- CLASS="alt"
+| 16-20 || -
+|-
+| 21-25 || +1
+|- CLASS="alt"
+| 26–29 || +2
+|-
+| 30 ou plus || +3
+|- CLASS="premier"
+| COLSPAN="2" | '''DD du jet de Réflexes (fosses et autres pièges autorisant un [[jet de sauvegarde|JdS]])'''
+|-
+|  15 ou moins || –1
+|- CLASS="alt"
+| 16-20 || -
+|-
+| 21-25 || +1
+|- CLASS="alt"
+| 26–29 || +2
+|-
+| 30 ou plus || +3
+|- CLASS="premier"
+| COLSPAN="2" | '''Bonus à l’attaque (corps à corps ou à distance)'''
+|-
+| +0 ou moins || –2
+|- CLASS="alt"
+| +1 à +5 || –1
+|-
+| +6 à +10 || -
+|- CLASS="alt"
+| +11 à +15 || +1
+|-
+| +16 à +20 || +2
+|- CLASS="alt"
+| Attaque de contact || +1
+|- CLASS="premier"
+| COLSPAN="2" | '''Dégâts/effet'''
+|-
+| Dégâts moyens || +1/10 points
+|- CLASS="premier"
+| COLSPAN="2" | '''Éléments divers'''
+|-
+| Cibles multiples || +1 (pas de dommage)
+|- CLASS="alt"
+| Liquide || +5
+|-
+| Ne rate jamais || +2
+|- CLASS="alt"
+| Objet spécial || niveau du sort imité
+|-
+| Proximité ou visuel || +1
+|- CLASS="alt"
+| Remise en place automatique || +1
+|}
+</center>
+</td><td>&emsp;</td><td>
+<center>
+{| CLASS="tablo"
+|+ Modificateur de FP <br/>selon le poison employé
+|- CLASS="titre"
+| Poison || FP du poison 
+|- CLASS="alt"
+| Ajonc à feuilles bleues || +1 
+|-
+| Bile de dragon || +6 
+|- CLASS="alt"
+| Brume de folie || +4 
+|-
+| Cendres d’ungol || +3 
+|- CLASS="alt"
+| Essence d’ombre || +3 
+|-
+| Extrait de lotus noir || +8 
+|- CLASS="alt"
+| Extrait de sanvert || +1 
+|-
+| Mortelame || +5 
+|- CLASS="alt"
+| Nitharite || +4 
+|-
+| Pâte de malyss || +3 
+|- CLASS="alt"
+| Poudre d’assonne || +3
+|-
+| Terrinave || +5
+|- CLASS="alt"
+| Vapeurs d’othur brûlé || +6
+|-
+| Venin d’araignée de taille M || +2
+|- CLASS="alt"
+| Venin de guêpe géante || +3
+|-
+| Venin de mille-pattes de taille P || +1
+|- CLASS="alt"
+| Venin de scorpion de taille G || +3
+|-
+| Venin de ver pourpre || +4
+|- CLASS="alt"
+| Venin de vipère à tête noire || +1
+|-
+| Venin de wiverne || +5
+|-
+| COLPAN="2" | ''Voir la section sur les [[poisons]]''
+|}
+</center>
+</td></tr></table>
+
+'''Pièges magiques.''' Là encore, choisissez les éléments qui vous conviennent et déterminez le [[Rencontres#FP|FP]] du piège en fonction (voir la table ci-dessous). Si un PJ souhaite concevoir et construire un piège magique, il doit disposer du don [[Création dobjets merveilleux|Création d’objets merveilleux]]. De plus, il doit être capable de lancer le ou les sorts nécessaire à la conception du piège, sans quoi il devra louer les services d’un [[PNJ]] qui s’en chargera pour lui.
+
+
+{s:Reference|MODIFFPMAGIQUES}
+<center>
+{| CLASS="tablo"
+|+ Modificateurs au FP des pièges magiques
+|- CLASS="titre"
+| Élément || Modificateur au FP
+|- CLASS="premier"
+| Sort du plus haut niveau || + niveau du sort
+|- CLASS="alt"
+| Sort provoquant des dégâts || +1/10 points de dégâts moyens
+|}
+</center>
+
+=== Facteur de puissance d’un piège ===
+
+Pour calculer le facteur de puissance d’un piège, ajoutez tous les modificateurs de [[Rencontres#FP|FP]] (voir les deux tables de la section précédente) au [[Rencontres#FP|FP]] de base du piège.
+
+'''Piège mécanique.''' Le [[Rencontres#FP|FP]] de base d’un piège mécanique est égal à 0. Si son [[Rencontres#FP|FP]] final est toujours égal à 0, ajoutez-lui des éléments jusqu’à ce que le [[Rencontres#FP|FP]] s’élève à 1 au moins.
+
+'''Piège magique.''' Pour un piège à sort ou à objet magique, le [[Rencontres#FP|FP]] de base est égal à 1. C’est le sort du plus haut niveau qui modifie le [[Rencontres#FP|FP]] (voir la table [[Conception de pièges#MODIFFPMAGIQUES|Modificateurs au FP des pièges magiques]]).
+
+'''Dégâts moyens.''' Si le piège mécanique ou magique inflige des points de dégâts, calculez les dégâts moyens et arrondissez cette valeur au multiple de 10 le plus proche. Si le piège est conçu pour atteindre des cibles multiples, multipliez cette valeur par 2. S’il est conçu pour infliger des dégâts pendant une certaine durée, multipliez cette valeur par le nombre de rounds pendant lequel le piège sera actif (ou le nombre moyen si la durée est variable). Utilisez cette valeur pour ajuster le facteur de puissance du piège, comme le montre la [[Conception de pièges#MODIFFPMECA|table des modificateurs au FP des pièges mécaniques]]. Les dégâts dus au poison ne comptent pas, à l’inverse de ceux qui découlent des pieux ou d’attaques multiples.
+
+Pour ce qui est des pièges magiques, on applique un seul modificateur au [[Rencontres#FP|FP]]  : le niveau du sort du plus haut niveau utilisé lors de la conception, ou les dégâts moyens (choisir le plus élevé).
+
+'''Pièges multiples.''' Si le piège est en fait constitué de plusieurs pièges qui affectent la même zone à peu de choses près, déterminez le [[Rencontres#FP|FP]] de chacun séparément.
+
+:: ''Pièges multiples interdépendants.'' Si un piège dépend du bon fonctionnement d’un autre, (c’est-à-dire qu’on peut éviter le second en n’étant pas victime du premier), les personnages gagnent un nombre de [[PX]] égal à la valeur totale des pièges s’ils échappent au premier et ne déclenchent pas le second.
+
+:: ''Pièges multiples indépendants.'' Si plusieurs pièges agissent indépendamment (si le fonctionnement de l’un n’affecte pas celui de l’autre), les personnages gagnent un nombre de [[PX]] égal à la valeur de celui auquel ils ont réussi à échapper.
+
+=== Coût d’un piège mécanique ===
+
+Le coût de base d’un piège mécanique est de 1 000 po x le facteur de puissance du piège. Si le déclencheur comporte des sorts, ajoutez ces coûts séparément. Pour une remise en place automatique, augmentez le coût de 50%. Des pièges très simples, comme les fosses, peuvent se révéler très peu onéreux, à la discrétion du MJ, et leur fabrication peut avoisiner à peine 250 po x facteur de puissance.
+
+Une fois ceci fait, ajoutez la valeur des objets spéciaux et poisons incorporés au piège. Si le piège bénéficie de l’un de ces éléments et si sa remise en place est automatique, multipliez le coût du poison ou de l’objet spécial par 20 pour ce qui est des doses nécessaires.
+
+Pièges multiples. Si le piège est constitué de plusieurs pièges reliés entre eux, déterminez le coût final de chacun séparément, puis faites la somme des valeurs obtenues. Cela vaut pour les pièges indépendants et interdépendants (voir ci-dessus).
+
+=== Coût d’un piège magique à objet ===
+
+Pour créer un piège magique à objet, il faut dépenser des pièces d’or et louer les services d’un lanceur de sorts. La table ci-dessous répertorie toutes ces dépenses. Si le piège nécessite plusieurs sorts (par exemple, un déclencheur visuel ou sonore en plus de l’effet magique principal), le concepteur doit les payer tous (à l’exception du sort ''[[alarme]]'', gratuit à moins qu’il soit lancé par un PNJ).
+
+Les prix donnés dans la table ci-dessous partent du principe que la personne qui fabrique le piège se charge de lancer les sorts nécessaires (ou qu’un autre PJ le fait gracieusement). Si elle doit louer les services d’un PNJ lanceur de sorts, le salaire de ce dernier s’ajoute au prix total (voir le Chapitre 6 à ce sujet).
+
+Le temps de création d’un piège à objet magique est égal à 1 jour par tranche de 500 po de son coût.
+
+<center>
+{| CLASS="tablo"
+|+ Modificateurs au coût des pièges magiques
+|- CLASS="titre"
+| Élément || Modificateur au coût
+|- CLASS="premier"
+| ''[[alarme]]'' (sort) en guise de déclencheur || —
+|- CLASS="premier"
+| COLSPAN="2" | '''Piège à usage unique'''
+|-
+| Chaque sort utilisé dans le piège || +50 po × niveau de lanceur de sorts × niveau du sort
+|- CLASS="alt"
+| Composantes matérielles ||  + coût des composantes matérielles
+|- CLASS="premier"
+| COLSPAN="2" | '''Piège à remise en place automatique'''
+|-
+| Chaque sort utilisé dans le piège || +500 po × niveau de lanceur de sorts × niveau du sort
+|- CLASS="alt"
+| Composantes matérielles || + coût des composantes matérielles
+|}
+</center>
+
+=== Coût d’un piège à sort ===
+
+Un piège à sort ne coûte rien à moins qu’il ne faille louer les services d’un PNJ lanceur de sorts.
+
+=== DD du test d’Artisanat des pièges mécaniques ===
+
+Une fois que vous avez calculé le [[Rencontres#FP|facteur de puissance]] du piège qu’un PJ souhaite concevoir et construire, déterminez le [[DD]] du test d’[[Artisanat]] (fabrication de pièges) en vous reportant à la table ci-contre.
+
+'''Effectuer les tests.''' Pour déterminer l’avancement journalier de la construction d’un piège, le personnage effectue un test d’[[Artisanat]] (fabrication de pièges). Pour de plus amples informations sur ce type de test, reportez-vous à la description de la compétence [[Artisanat]].
+
+<center>
+{| CLASS="tablo"
+|+ DD du test d’Artisanat des pièges
+|- CLASS="titre"
+| FP du piège || DD de base du <br/>test d’Artisanat (pièges)
+|- CLASS="premier"
+| 1–5 || 20
+|- CLASS="alt"
+| 6–10 || 25
+|-
+| 11–15 || 30
+|- CLASS="alt"
+| 16+ || 35
+|- CLASS="titre"
+| COLSPAN"2" | Éléments supplémentaires
+|- CLASS="premier"
+| Déclencheur de proximité || +5
+|- CLASS="alt"
+| Remise en place automatique || +5
+|}
+</center>

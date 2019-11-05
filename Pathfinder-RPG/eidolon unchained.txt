@@ -1,0 +1,1481 @@
+---
+Name: Pathfinder-RPG.eidolon unchained
+Title: L'eidolon du conjurateur unchained
+LastModified: 2018-07-15 10:24
+---
+Les pouvoirs de l’eidolon dépendent du niveau de son
+conjurateur et de ses choix quant à l’utilisation des points de
+sa réserve d’évolution. La table ci-dessous 
+détermine bon nombre des statistiques de base de la créature.
+Chacun possède une forme basique qui modifie ces statistiques.
+Les eidolons sont considérés comme des extérieurs quand il
+s’agit de déterminer si un sort les affecte ou non.
+
+<center>
+{| CLASS="tablo"
+|+ Caractéristiques de base de l'eidolon unchained
+|- CLASS="titre"
+| Niveau<br/>de classe || DV || BBA || bons<br/>jets || mauvais<br/>jets || Comp. || Dons || Bonus<br/>d'armure || Bonus<br/>For/Dex || Réserve<br/>d'évolution || Attaques<br/>max
+| CLASS="gauche" | Spécial
+|- CLASS="premier"
+| 1 || 1 || +1 || +2 || +0 || 4 || 1 || +0 || +0 || 1 || 3
+| CLASS="gauche" | [[eidolon unchained#LIEN|lien]], [[eidolon unchained#TRANSFERTDESSORTS|transfert des sorts]], [[eidolon unchained#VISIONDANSLENOIR|vision dans le noir]]
+|- CLASS="alt"
+| 2 || 2 || +2 || +3 || +0 || 8 || 1 || +2 || +1 || 2 || 3
+| CLASS="gauche" | [[eidolon unchained #ESQUIVETOTALE|esquive totale]]
+|-
+| 3 || 3 || +3 || +3 || +1 || 12 || 2 || +2 || +1 || 3 || 3
+| CLASS="gauche" | —
+|- CLASS="alt"
+| 4 || 3 || +3 || +3 || +1 || 12 || 2 || +2 || +1 || 3 || 4
+| CLASS="gauche" | —
+|-
+| 5 || 4 || +4 || +4 || +1 || 16 || 2 || +4 || +2 || 4 || 4
+| CLASS="gauche" | [[eidolon unchained#AUGMENTATIONDUNECARACTERISTIQUE|augmentation d'une caractéristique]]
+|- CLASS="alt"
+| 6 || 5 || +5 || +4 || +1 || 20 || 3 || +4 || +2 || 5 || 4
+| CLASS="gauche" | [[eidolon unchained#DEVOTION|dévotion]]
+|-
+| 7 || 6 || +6 || +5 || +2 || 24 || 3 || +6 || +3 || 6 || 4
+| CLASS="gauche" | —
+|- CLASS="alt"
+| 8 || 6 || +6 || +5 || +2 || 24 || 3 || +6 || +3 || 6 || 4
+| CLASS="gauche" | —
+|-
+| 9 || 7 || +7 || +5 || +2 || 28 || 4 || +6 || +3 || 7 || 5
+| CLASS="gauche" | [[eidolon unchained#ATTAQUESMULTIPLES|attaques multiples]]
+|- CLASS="alt"
+| 10 || 8 || +8 || +6 || +2 || 32 || 4 || +8 || +4 || 8 || 5
+| CLASS="gauche" | [[eidolon unchained#AUGMENTATIONDUNECARACTERISTIQUE|augmentation d'une caractéristique]]
+|-
+| 11 || 9 || +9 || +6 || +3 || 36 || 5 || +8 || +4 || 9 || 5
+| CLASS="gauche" | —
+|- CLASS="alt"
+| 12 || 9 || +9 || +6 || +3 || 36 || 5 || +10 || +5 || 9 || 5
+| CLASS="gauche" | —
+|-
+| 13 || 10 || +10 || +7 || +3 || 40 || 5 || +10 || +5 || 10 || 5
+| CLASS="gauche" | —
+|- CLASS="alt"
+| 14 || 11 || +11 || +7 || +3 || 44 || 6 || +10 || +5 || 11 || 6
+| CLASS="gauche" | [[eidolon unchained#ESQUIVESURNATURELLE|esquive surnaturelle]]
+|-
+| 15 || 12 || +12 || +8 || +4 || 48 || 6 || +12 || +6 || 12 || 6
+| CLASS="gauche" | [[eidolon unchained#AUGMENTATIONDUNECARACTERISTIQUE|augmentation d'une caractéristique]]
+|- CLASS="alt"
+| 16 || 12 || +12 || +8 || +4 || 48 || 6 || +12 || +6 || 12 || 6
+| CLASS="gauche" | —
+|-
+| 17 || 13 || +13 || +8 || +4 || 52 || 7 || +14 || +7 || 13 || 6
+| CLASS="gauche" | —
+|- CLASS="alt"
+| 18 || 14 || +14 || +9 || +4 || 56 || 7 || +14 || +7 || 14 || 6
+| CLASS="gauche" | —
+|-
+| 19 || 15 || +15 || +9 || +5 || 60 || 8 || +14 || +7 || 15 || 7
+| CLASS="gauche" | —
+|- CLASS="alt"
+| 20 || 15 || +15 || +9 || +5 || 60 || 8 || +16 || +8 || 15 || 7
+| CLASS="gauche" | —
+|-
+|}
+</center>
+
+<div style="background-color: #fff; float: right; padding: 0 0 12px 12px">{toc}</div>
+
+'''Niveau de classe.''' C’est le niveau de conjurateur du personnage.
+
+'''DV.''' Nombre total de dés de vie à 10 faces (d10) de l’eidolon, le
+modificateur de Constitution vient s’ajouter à chacun, comme à
+l’accoutumée.
+
+'''BBA.''' Bonus de base à l’attaque de l’eidolon. Il est égal à ses
+dés de vie. Les eidolons ne gagnent pas d’attaque supplémentaire
+quand ils utilisent leurs armes naturelles grâce à un bonus de
+base à l’attaque élevé.
+
+'''Bons/mauvais jets.''' Bonus aux jets de sauvegarde
+de l’eidolon. Il possède deux bons jets et un mauvais, déterminés
+en fonction de sa forme de base.
+
+'''Compétences.''' Voici le nombre de rangs de compétence total
+de l’eidolon. Il peut assigner un rang dans n’importe quelle
+compétence mais doit posséder les appendices nécessaires à
+l’utilisation de certaines. Les eidolons dotés d’une Intelligence
+supérieure à la moyenne modifient ce total comme à l’accoutumée
+(un eidolon reçoit un nombre de rangs de compétence égal à 6
++ son modificateur d’Intelligence par dé de vie). Un eidolon ne
+peut pas posséder plus de rangs dans une compétence qu’il n’a de
+dés de vie. Une fois les rangs de compétence attribués, l’eidolon
+ne peut plus en changer, même si ses évolutions changent quand
+le conjurateur gagne un niveau.
+
+'''Dons.''' C’est le nombre total de dons de l’eidolon. Il peut choisir
+n’importe quel don pour lequel il remplit les conditions requises
+mais il doit posséder les appendices nécessaires à son utilisation.
+Une fois le don choisi, l’eidolon ne peut plus en changer, même
+s’il change de forme quand le conjurateur gagne un niveau. Si, à
+cause de cette transformation, l’eidolon ne remplit plus les
+conditions requises pour un don, ce don ne fonctionne plus tant
+que l’eidolon ne les remplit pas à nouveau.
+
+'''Bonus d’armure.''' Voici le bonus de base total d’armure de
+l’eidolon. Le conjurateur peut diviser comme il l’entend ce bonus
+total entre un bonus d’armure et un bonus d’armure naturelle.
+C’est la forme de base de l’eidolon qui permet de le modifier,
+ainsi que certaines options de sa réserve d’évolution. L’eidolon
+ne peut pas porter d’armure car elle interférerait avec le lien qu’il
+entretient avec son conjurateur.
+
+'''Bonus For/Dex.''' L’eidolon ajoute ce modificateur à ses valeurs
+de Force et de Dextérité déterminées d’après sa forme de base.
+Certaines options de sa réserve d’évolution permettent de
+modifier ces valeurs.
+
+'''Réserve d’évolution.''' La valeur indiquée dans cette colonne
+représente le nombre total de points d’évolution de l’eidolon. Il
+peut les dépenser pour obtenir un vaste éventail de modifications
+et d’améliorations qui lui donnent de nouveaux pouvoirs,
+de nouvelles attaques et de nouvelles aptitudes. Cette valeur
+augmente chaque fois que le conjurateur gagne un niveau. Ce
+dernier peut utiliser ces points pour changer les aptitudes de
+son eidolon. Ces choix ne sont pas définitifs, le conjurateur peut les
+modifier chaque fois qu’il gagne un niveau (ou grâce au sort de
+transformation MdJ-RA ).
+
+'''Attaques max.''' Voici le nombre maximum d’attaques naturelles
+que l’eidolon peut effectuer au niveau indiqué. S’il a déjà atteint
+son maximum, il ne peut pas choisir d’évolution qui lui confère
+une nouvelle attaque. Les attaques effectuées avec des armes, y
+compris celles conférées par un bonus de base à l’attaque élevé,
+sont comprises dans ce maximum.
+
+'''Spécial.''' Cette section comprend un certain nombre de
+pouvoirs que tous les eidolons obtiennent quand leur puissance
+augmente (voir Table 1-6 : Profil de base de l’eidolon). Voici leurs
+descriptions.
+
+{s:Reference|ATTAQUESMULTIPLES}
+''Attaques multiples (Ext).'' L’eidolon gagne Attaques multiples
+comme don supplémentaire s’il dispose de 3 attaques naturelles
+ou plus et ne possède pas encore ce don. S’il ne dispose pas de ces
+3 attaques au minimum (ou si son nombre d’attaques est réduit à
+moins de trois), il gagne à la place une deuxième attaque avec une
+de ses armes naturelles mais avec un malus de -5. Si, par la suite,
+il obtient 3 attaques naturelles ou plus, il perd cette deuxième
+attaque et gagne Attaques multiples.
+
+{s:Reference|AUGMENTATIONDUNECARACTERISTIQUE}
+''Augmentation de caractéristique (Ext).'' L’eidolon ajoute +1 à une de
+ses valeurs de caractéristique.
+
+{s:Reference|DEVOTION}
+''Dévotion (Ext).'' L’eidolon gagne un bonus de moral de +4 aux
+jets de Volonté contre les effets et les sorts d’enchantement.
+
+{s:Reference|ESQUIVESURNATURELLE}
+''Esquive surnaturelle (Ext).'' Quand l’eidolon est soumis à une
+attaque qui autorise un jet de Réflexes pour réduire les dégâts de
+moitié, il ne subit aucun dégât s’il réussit son jet et seulement la
+moitié s’il le rate.
+
+{s:Reference|ESQUIVETOTALE}
+''Esquive totale (Ext).'' Si un eidolon est soumis à une attaque qui
+autorise un jet de Réflexes pour réduire les dégâts de moitié, il ne
+subit aucun dégât s’il réussit son jet.
+
+{s:Reference|LIEN}
+''Lien (Ext).'' Le conjurateur et son eidolon partagent un lien mental
+qui leur permet de communiquer à n’importe quelle distance
+(tant qu’ils se situent sur le même plan). Cette communication
+se fait par une action libre qui permet au conjurateur de donner
+des ordres à son eidolon quand il le désire. En revanche, les
+objets magiques interfèrent avec ce lien, le conjurateur et l’eidolon
+partagent donc les mêmes emplacements d’objets magiques. Par
+exemple, si le conjurateur porte un anneau, son eidolon ne peut pas
+en porter plus d’un. En cas de conflit, les objets de le conjurateur
+restent actifs et ceux de l’eidolon deviennent inertes. L’eidolon
+doit disposer des appendices nécessaires pour utiliser ses objets
+magiques.
+
+{s:Reference|TRANSFERTDESSORTS}
+''Transfert des sorts (Ext).'' Le conjurateur peut lancer un sort avec
+pour cible « Le lanceur de sorts » sur son eidolon (comme si c’était
+un sort avec une portée de « contact ») au lieu de le lancer sur lui.
+Le conjurateur peut lui lancer un sort même si, normalement, il ne
+devrait pas affecter les créatures du type de l’eidolon (extérieur).
+Les sorts ainsi lancés doivent appartenir à la liste des sorts de
+le conjurateur. Ce pouvoir ne permet pas à l’eidolon de partager
+des aptitudes autres que des sorts, même si celles-ci fonctionnent
+comme des sorts.
+
+{s:Reference|VISIONDANSLENOIR}
+''Vision dans le noir (Ext).'' L’eidolon gagne la vision dans le noir
+jusqu’à 18 mètres.
+
+===Compétences d’eidolon===
+
+Voici les compétences de classe des eidolons : [[Bluff]] (Cha),
+[[Artisanat]] (Int), [[Connaissances]] (plans) (Int), [[Perception]] (Sag),
+[[Psychologie]] (Sag) et [[Discrétion]] (Dex). De plus, au niveau 1,
+le conjurateur peut choisir 4 compétences supplémentaires qui
+seront des compétences de classe pour son eidolon. Remarquez
+que les eidolons avec une vitesse de déplacement en vol reçoivent
+[[Vol]] (Dex) comme compétence de classe gratuite, même s’ils
+n’obtiennent pas cette vitesse de vol avant d’atteindre un certain
+niveau.
+
+{s:Reference|SOUSTYPES}
+===Sous-types d’eidolon===
+
+La première fois que le conjurateur appelle son eidolon, il doit
+lui choisir un sous-type. Ce sous-type détermine une partie de
+son profil et de ses pouvoirs de base, ainsi que son apparence
+générale et le thème qui le caractérise. Le sous-type détermine
+également le type d’évolutions que le conjurateur peut lui choisir
+en utilisant sa réserve d’évolution. Une fois le sous-type choisi, il
+est impossible d’en changer.
+
+Au fur et à mesure que le conjurateur gagne des niveaux, son
+eidolon gagne des évolutions spécifiques en fonction de son
+sous-type. Chaque description de sous-type comporte les
+informations suivantes.
+
+'''Nom.''' C’est le nom du sous-type de l’eidolon. L’eidolon obtient
+ce sous-type mais, sauf indication contraire, il n’obtient aucune
+des aptitudes, pouvoirs ou faiblesses que confèrent normalement
+ce sous-type.
+
+'''Description.''' Elle livre un court aperçu des eidolons de ce sous-
+type, y compris des indications générales sur leur apparence et
+leur personnalité.
+
+'''Alignement.''' L’eidolon est une créature de cet alignement.
+Il gagne le sous-type correspondant à son alignement s’il est
+Chaotique, Mauvais, Loyal ou Bon.
+Forme de base. Les eidolons de certains sous-types ont un choix
+restreint quant à leur forme de base. Ces limites sont précisées
+ici. Les évolutions indiquées sont obtenues automatiquement et
+ne coûtent aucun point de la réserve d’évolution de l’eidolon (voir
+page 24).
+
+'''Évolutions de base.''' Cette section décrit les évolutions de base
+de tous les eidolons de ce sous-type. Elle est suivie d’une liste des
+évolutions obtenues au fur et à mesure que le conjurateur gagne
+des niveaux. Ces évolutions s’obtiennent automatiquement et ne
+coûtent aucun point de la réserve d’évolution de l’eidolon. Dans
+certains cas, les eidolons d’un sous-type donné obtiendront des
+pouvoirs qui ne sont pas des évolutions. Sauf indication contraire,
+ces pouvoirs fonctionnent comme décrits dans l’appendice
+consacré aux règles de monstres universelles qui commencent
+en page 299 du Bestiaire Pathfinder JdR (voir page 24).
+
+{s:Reference|AGATHION}
+====Agathion====
+
+Intermédiaires éclairés et patients des plans extérieurs alignés
+sur le Bien, les eidolons agathions cherchent à vaincre le Mal et
+à protéger ce qui est bon. L’apparence des agathions n’est pas
+un amalgame d’aspects physiques disparates ; ils ressemblent
+toujours plus particulièrement à une créature ou un animal. Ils
+se montrent patients envers les conjurateur aux méthodes peu
+orthodoxes ou même envers ceux qui dévient de la voie du Bien
+mais ne tolèrent pas que leurs pouvoirs soient exploités pour
+promouvoir le Mal. Un eidolon agathion cherche à rapprocher
+son conjurateur de l’éveil spirituel dont il a lui-même fait
+l’expérience.
+
+'''Alignement.''' Neutre Bon.
+
+'''Forme de base.''' Bipède (griffes, membres &#0091;bras&#0093;, membres
+&#0091;jambes&#0093;) ou quadrupède (membres &#0091;2 jambes&#0093;, morsure).
+Évolutions de base. À partir du niveau 1, les eidolons agathions
+gagnent l’évolution résistance (électricité). Ils gagnent également
+un bonus de +4 aux jets de sauvegarde contre les poisons et la
+pétrification.
+
+Au niveau 4, les eidolons agathions gagnent une résistance au
+froid et au son de 10.
+
+Au niveau 8, les eidolons agathions gagnent l’aptitude
+imposition des mains du paladin en prenant leur nombre de dés
+de vie comme niveau de paladin.
+
+Au niveau 12, les eidolons agathions gagnent une RD 5/Mal.
+Ils sont également immunisés contre la pétrification et gagnent
+le pouvoir spécial de langage universel (voir le sous-type de
+l’agathion, page 310 du Bestiaire 2 Pathfinder JdR).
+
+Au niveau 16, les eidolons agathions perdent l’évolution
+résistance (électricité) et obtiennent à la place l’évolution
+immunité (électricité). Ils gagnent également le pouvoir de
+communication avec les animaux des agathions (voir le sous-type de
+l’agathion, page 310 du Bestiaire 2 Pathfinder JdR).
+
+Au niveau 20, les eidolons agathions obtiennent le pouvoir
+magique de détection des pensées qu’ils peuvent utiliser à volonté.
+Leur réduction de dégâts devient RD 10/Mal.
+
+{s:Reference|ANGE}
+====Ange====
+
+Originaires des plans supérieurs, les eidolons anges sont des
+créatures d’une rare beauté. Ils ressemblent le plus souvent à des
+humanoïdes idéalisés dotés d’une peau lisse, d’une chevelure
+brillante et d’yeux clairs. Leur honneur est irréprochable, ils sont
+dignes de confiance et diplomates, mais n’hésitent pas à affronter
+le Mal et ses sbires dès qu’ils les rencontrent.
+
+'''Alignement.''' N’importe quel alignement Bon.
+
+'''Forme de base.''' Bipède (membres &#0091;bras&#0093;, membres &#0091;jambes&#0093;,
+coup).
+
+'''Évolutions de base.''' À partir du niveau 1, les eidolons anges
+gagnent les évolutions résistance (acide) et résistance (froid). Ils
+gagnent également un bonus de +4 aux jets de sauvegarde contre
+les poisons.
+
+Au niveau 4, les eidolons anges gagnent une résistance à
+l’électricité et au feu de 10.
+
+Au niveau 8, une paire de grandes ailes plumeuses pousse dans
+le dos des eidolons anges, ce qui leur confère l’évolution vol.
+
+Au niveau 12, les eidolons anges gagnent une RD 5/Mal. Ils
+sont également immunisés contre la pétrification et gagnent le
+pouvoir de langage universel (voir le sous-type de l’ange, page 310
+du Bestiaire 2 Pathfinder JdR).
+
+Au niveau 16, les eidolons anges perdent les évolutions
+résistance (acide) et résistance (froid) et obtiennent à la place les
+évolutions immunité (acide) et immunité (froid).
+
+Au niveau 20, les eidolons anges obtiennent le pouvoir aura
+de protection (voir le sous-type de l’ange, page 310 du Bestiaire 2
+Pathfinder JdR).
+
+{s:Reference|ARCHON}
+====Archon====
+
+Convoqués depuis le Paradis, les eidolons archons sont
+des incarnations de la vertu. Ils prennent souvent la forme de
+créatures musclées aux mouvements gracieux. Les eidolons
+archons sont totalement voués à la cause du Bien et se montrent
+peu patients envers ceux qui ne tiennent pas leurs paroles et
+violent leurs idéaux, y compris le conjurateur qui les a appelés. Les
+archons feront tout leur possible pour stopper la progression du
+Mal et pour protéger les innocents.
+
+'''Alignement'''. Loyal Bon.
+
+'''Forme de base.''' Bipède (membres &#0091;bras&#0093;, membres &#0091;jambes&#0093;,
+coup).
+
+'''Évolutions de base.''' Au niveau 1, les eidolons archons gagnent
+les évolutions résistance (électricité) et compétent (Intimidation).
+Ils gagnent également un bonus de +4 aux jets de sauvegarde
+contre les poisons.
+
+Au niveau 4, les eidolons archons ajoutent 1 point à leur réserve
+d’évolution.
+
+Au niveau 8, les eidolons archons gagnent l’évolution
+augmentation de caractéristique qui s’applique à une valeur de
+caractéristique choisie par le conjurateur.
+
+Au niveau 12, les eidolons archons gagnent une RD 5/Mal. Ils
+sont également immunisés contre la pétrification et gagnent le
+pouvoir langage universel (voir le sous-type de l’archon, page 310
+du Bestiaire 2 Pathfinder JdR).
+
+Au niveau 16, les eidolons archons perdent les évolutions
+résistance (électricité) et compétent (Intimidation) et obtiennent
+à la place l’évolution immunité (électricité). De plus, ils gagnent
+le pouvoir aura de menace (voir le sous-type de l’archon, page 310
+du Bestiaire 2 Pathfinder JdR).
+
+Au niveau 20, les eidolons archons peuvent utiliser le pouvoir
+téléportation suprême à volonté, comme le sort du même nom (NLS
+14), sauf qu’ils ne peuvent l’utiliser que sur eux-mêmes avec 25
+kilogrammes d’objets transportés seulement.
+
+{s:Reference|AZATA}
+====Azata====
+
+Incarnations de la beauté indomptable et de la noble passion
+de l’Élysée, les eidolons azatas ont une apparence sauvage et
+agréable à contempler qui rappelle souvent certains aspects
+gracieux des elfes ou des fées, mais ils prennent parfois l’aspect
+des lilendes aux queues serpentines. Les eidolons azatas sont
+frivoles et indépendants. Ils ont souvent un avis personnel
+sur la meilleure façon de défaire le Mal ou de prendre du bon
+temps. Ainsi, il est probable qu’un eidolon azata se rebiffe si son
+conjurateur lui ordonne d’accomplir des actions offensantes ou
+malfaisantes. D’un autre côté, un eidolon azata en phase avec son
+conjurateur s’avère être un compagnon passionné et dévoué.
+
+'''Alignement.''' Chaotique Bon.
+
+'''Forme de base.''' Bipède (membres &#0091;bras&#0093;, membres &#0091;jambes&#0093;) ou
+serpentine (membres &#0091;bras&#0093;, queue, coup de queue).
+
+'''Évolutions de base.''' Au niveau 1, les eidolons azatas gagnent
+l’évolution résistance (électricité) et celle à 4 points d’entraînement
+aux armes (maniement des armes de guerre).
+
+Au niveau 4, les eidolons azatas gagnent une résistance au feu
+et au froid de 10.
+
+Au niveau 8, une paire de grandes ailes plumeuses pousse dans
+le dos des eidolons azatas, ce qui leur confère l’évolution vol.
+
+Au niveau 12, les eidolons azatas gagnent une RD 5/Mal. Ils
+sont également immunisés contre la pétrification et gagnent le
+pouvoir langage universel (voir le sous-type de l’azata, page 312 du
+Bestiaire Pathfinder JdR).
+
+Au niveau 16, les eidolons azatas perdent l’évolution résistance
+(électricité) et obtiennent à la place l’évolution immunité
+(électricité). De plus, ils gagnent l’évolution augmentation de
+caractéristique qui s’applique à une valeur de caractéristique
+choisie par le conjurateur.
+
+Au niveau 20, les eidolons azatas peuvent alterner entre leur
+forme normale et une forme d’énergie par une action simple.
+Sous cette forme d’énergie, un eidolon azata est intangible, il
+double sa vitesse de vol mais ne peut pas effectuer d’attaques avec
+des armes naturelles ou manufacturées. Toutefois, il peut activer
+toutes les évolutions de pouvoir magique qu’il possède.
+
+{s:Reference|DAEMON}
+====Daémon====
+
+Agents des décès les plus atroces, les eidolons daémons
+souhaitent l’annihilation pure et simple de toutes choses.
+Leur forme varie grandement en fonction du
+type de mort qu’ils incarnent et représente
+parfois un aspect moins connu de la mort,
+comparé à ceux incarnés par les daémons
+plus prestigieux. Les eidolons daémons
+souhaitent semer la mort et la souffrance de
+multiples façons. La plupart ont une vision
+d’ensemble de leur mission et suivront sans
+discuter leur conjurateur, même si celui-ci est Neutre.
+Mettre fin à des vies, voila une part importante de la
+carrière d’un aventurier et un eidolon daémon qui
+accompagne un conjurateur aura souvent l’occasion
+de récupérer l’énergie spirituelle des mortels pour
+satisfaire ses sombres et impénétrables objectifs.
+
+'''Alignement.''' Neutre Mauvais.
+
+'''Forme de base.''' Bipède (griffes, membres &#0091;bras&#0093;, membres
+&#0091;jambes&#0093;), quadrupède (membres &#0091;jambes, 2&#0093;, morsure) ou
+serpentine (morsure, allonge &#0091;morsure&#0093;, allonge &#0091;dard&#0093;, dard,
+queue).
+
+'''Évolutions de base.''' Au niveau 1, les eidolons daémons
+gagnent l’évolution résistance (acide), ainsi qu’un bonus
+de +4 aux jets de sauvegarde contre les effets de mort, la
+maladie et les poisons.
+
+Au niveau 4, les eidolons daémons gagnent une
+résistance à l’électricité, au feu et au froid de 10.
+
+Au niveau 8, les eidolons daémons ajoutent 1 point à leur
+réserve d’évolution.
+
+Au niveau 12, les eidolons daémons gagnent une
+RD 5/Bien. Ils sont également immunisés contre les
+effets de mort, la maladie et les poisons.
+
+Au niveau 16, les eidolons daémons perdent
+l’évolution résistance (acide) et obtiennent à la place
+l’évolution immunité (acide). Ils acquièrent également la
+télépathie (Bestiaire p.306).
+
+Au niveau 20, les eidolons daémons peuvent dévorer, par une
+action simple, un fragment de l’âme d’une créature agonisante
+ou morte il y a un round au plus tard. Ceci tue net la créature
+et fournit à l’eidolon daémon un bonus de malfaisance aux jets
+d’attaque, aux jets de sauvegarde et aux tests de compétence
+pendant 24 heures. Ce bonus est égal à +1 par tranche de 5 DV
+de la créature tuée. Seule une résurrection ou une magie plus
+puissante peut ramener d’entre les morts une créature dont l’âme
+a été dévorée de cette façon.
+
+{s:Reference|DEMON}
+====Démon====
+
+Les eidolons démons se forment à partir de la destruction
+pure et naissent du bouillon d’énergie spirituelle présent dans les
+Abysses. Certains érudits pensent que les arts du conjurateur sont
+liés aux phénomènes magiques qui ont provoqué l’apparition
+des premiers démons. Les eidolons démons adorent détruire
+et faire souffrir. Ils entreprennent ces activités au service de leur
+conjurateur sans poser de questions et prennent beaucoup de
+plaisir dès qu’ils peuvent semer le chaos. Pour un eidolon démon,
+la fin justifie les moyens.
+
+'''Alignement.''' Chaotique Mauvais.
+
+'''Forme de base.''' Bipède (griffes, membres &#0091;bras&#0093;, membres
+&#0091;jambes&#0093;), quadrupède (membres &#0091;jambes, 2&#0093;, morsure) ou
+serpentine (morsure, augmentation des dégâts &#0091;morsure&#0093;, allonge
+&#0091;morsure&#0093;, queue, coup de queue).
+
+'''Évolutions de base.''' Au niveau 1, les eidolons démons gagnent
+les évolutions résistance (électricité) et résistance (feu), ainsi qu’un
+bonus de +4 aux jets de sauvegarde contre les poisons.
+
+Au niveau 4, les eidolons démons gagnent une résistance à
+l’acide et au froid de 10.
+
+Au niveau 8, les eidolons démons perdent leur bonus de +4 aux
+jets de sauvegarde contre les poisons et gagnent une immunité
+contre les poisons. Ils ajoutent également 1 point à leur réserve
+d’évolution.
+
+Au niveau 12, les eidolons démons gagnent une RD 5/Bien. Ils
+gagnent également l’évolution augmentation de caractéristique
+qui s’applique à une valeur de caractéristique choisie par
+le conjurateur.
+
+Au niveau 16, les eidolons démons perdent l’évolution
+résistance (électricité) et obtiennent à la place l’évolution
+immunité (électricité). Ils acquièrent également la télépathie
+(Bestiaire p.306).
+
+Au niveau 20, les eidolons démons gagnent le pouvoir magique
+constant de vision lucide.
+
+{s:Reference|DIABLE}
+====Diable====
+
+Corrupteurs, tentateurs et spoliateurs, les eidolons diables
+font souvent preuve d’obéissance et d’efficacité lorsqu’ils servent
+leur conjurateur, mais ce n’est qu’un travail de longue haleine
+visant à damner l’âme de leur maître pour qu’elle rejoigne les
+plus profonds abîmes de l’Enfer. Certains types de diables ont
+une apparence véritablement inhabituelle mais les eidolons de
+ce sous-type estiment qu’un corps bipède classique leur permet
+d’entretenir une relation solide avec leur conjurateur et, par
+conséquent, de précipiter leur damnation plus facilement que
+s’ils revêtent une apparence plus monstrueuse.
+
+'''Alignement.''' Loyal Mauvais.
+
+'''Forme de base.''' Bipède (griffes, membres &#0091;bras&#0093;, membres
+&#0091;jambes&#0093;).
+
+'''Évolutions de base.''' Au niveau 1, les eidolons diables gagnent
+les évolutions résistance (feu) et compétent (Bluff), ainsi qu’un
+bonus de +4 aux jets de sauvegarde contre les poisons.
+
+Au niveau 4, les eidolons diables gagnent une résistance à
+l’acide et au froid de 10.
+
+Au niveau 8, les eidolons diables gagnent l’évolution compétent
+(Diplomatie) et sont immunisés contre les poisons.
+
+Au niveau 12, les eidolons diables gagnent une RD 5/Bien. Ils
+obtiennent également le pouvoir de vision dans les ténèbres (voir
+le sous-type du diable, page 312 du Bestiaire).
+
+Au niveau 16, les eidolons diables perdent l’évolution résistance
+(feu) et obtiennent à la place l’évolution immunité (feu). Ils
+acquièrent également la télépathie (Bestiaire p.306).
+
+Au niveau 20, les eidolons diables gagnent le pouvoir de
+régénération 5 (armes et sorts alignés sur le Bien). Ces eidolons
+sont toujours renvoyés aux Enfers comme à l’accoutumée s’ils
+subissent suffisamment de dégâts.
+
+{s:Reference|DIV}
+====Div====
+
+Générés par la haine et la méchanceté, les eidolons divs
+cherchent à piller et à détruire toute chose qui évoque la beauté
+ou la joie. Ils éprouvent une rancune particulière envers leur
+maître mortel et cherchent à le condamner à une existence
+faite de souffrance et de pertes. Chaque eidolon div nourrit une
+pulsion unique à laquelle il doit obéir (cette obsession ressemble
+généralement à celle que le doru éprouve envers les secrets) et
+qui le pousse à négocier sa loyauté contre une chose fournie
+par le conjurateur. Le conjurateur du div exploite la pulsion de son
+eidolon pour le piéger et le contrôler, mais les eidolons divs ne
+cessent jamais de comploter et de chercher différentes méthodes
+pour corrompre ce que leur conjurateur chérit le plus.
+
+'''Alignement.''' Neutre Mauvais.
+
+'''Forme de base.''' Bipède (griffes, membres &#0091;bras&#0093;, membres
+&#0091;jambes&#0093;).
+
+'''Évolutions de base.''' Au niveau 1, les eidolons divs gagnent
+l’évolution résistance (feu), ainsi qu’un bonus de +4 aux jets de
+sauvegarde contre les poisons.
+
+Au niveau 4, les eidolons divs gagnent une résistance à
+l’acide et à l’électricité de 10.
+
+Au niveau 8, les eidolons divs ajoutent 1 point à leur réserve
+d’évolution et l’immunité contre les poisons.
+
+Au niveau 12, les eidolons divs gagnent une RD 5/Bien. Ils
+obtiennent également le pouvoir de vision dans les ténèbres (voir
+le sous-type du div, page 301 du Bestiaire 3 Pathfinder JdR).
+
+Au niveau 16, les eidolons divs perdent l’évolution résistance
+(feu) et obtiennent à la place l’évolution immunité (feu). Ils
+acquièrent également la télépathie (Bestiaire p.306).
+
+Au niveau 20, les eidolons divs peuvent utiliser le pouvoir de
+téléportation suprême à volonté, comme le sort du même nom (NLS
+14), sauf qu’ils ne peuvent l’utiliser que sur eux-mêmes avec 25
+kilogrammes d’objets transportés seulement.
+
+{s:Reference|ELEMENTAIRE}
+====Élémentaire====
+
+Prélevés sur l’un des quatre plans élémentaires, ces eidolons
+sont liés à l’un des quatre éléments : l’Air, la Terre, le Feu ou l’Eau.
+Généralement, un eidolon élémentaire a l’aspect d’une créature
+entièrement composée d’un élément mais les variations existent.
+Les eidolons élémentaires sont résolument modérés en ce qui
+concerne leurs actions et leurs opinions. Ils préfèrent éviter les
+conflits avec autrui autant que possible et cherchent à maintenir
+l’équilibre. Ils abandonnent cette modération uniquement
+quand ils affrontent des émissaires de leurs éléments opposés
+qu’ils haïssent par-dessus tout.
+
+'''Alignement.''' Neutre.
+
+'''Forme de base.''' Bipède (membres &#0091;bras&#0093;, membres &#0091;jambes&#0093;,
+coup), quadrupède (membres &#0091;jambes, 2&#0093;, morsure) ou serpentine
+(morsure, armure naturelle améliorée, allonge &#0091;morsure&#0093;, queue,
+coup de queue).
+
+'''Évolutions de base.''' Les évolutions de base d’un eidolon
+élémentaire dépendent entièrement de l’élément choisi. Quand
+un eidolon élémentaire est convoqué pour la première fois,
+le conjurateur doit choisir l’Air, la Terre, le Feu ou l’Eau. Une fois ce
+choix effectué, il est impossible d’en changer. L’eidolon gagne les
+évolutions et les pouvoirs suivants qui peuvent varier en fonction
+de l’élément choisi.
+
+Au niveau 1, tous les eidolons élémentaires gagnent une
+immunité à la paralysie et au sommeil. De plus, les eidolons de
+l’Air gagnent l’évolution immunité (électricité), ceux de la Terre
+l’évolution immunité (acide), ceux du Feu l’évolution immunité
+(feu) et ceux de l’Eau l’évolution immunité (froid).
+
+Au niveau 4, tous les eidolons élémentaires ajoutent 1 point à
+leur réserve d’évolution.
+
+Au niveau 8, les eidolons élémentaires de l’Air gagnent
+l’évolution vol (magique) à une vitesse égale à leur vitesse de
+déplacement de base. Les eidolons de la Terre gagnent l’évolution
+creusement. Les eidolons du Feu augmentent leur vitesse de
+déplacement de base de 6 mètres. Les eidolons de l’Eau gagnent
+deux fois l’évolution natation, ce qui leur confère une vitesse de
+déplacement à la nage égale à leur vitesse de base + 6 mètres, ainsi
+que l’évolution branchies ce qui leur permet de respirer dans
+l’eau.
+
+Au niveau 12, tous les eidolons élémentaires gagnent une
+immunité au saignement, aux poisons et à l’étourdissement. De
+plus, il n’est plus possible de les prendre en tenaille.
+
+Au niveau 16, tous les eidolons élémentaires gagnent une
+immunité aux coups critiques et ne subissent pas les dégâts
+supplémentaires infligés par les attaques basées sur la précision,
+telle que l’attaque sournoise.
+
+Au niveau 20, les eidolons élémentaires de l’Air gagnent le
+pouvoir de tourbillon (Bestiaire p.306) d’une hauteur maximale
+de 4,50 mètres (9 mètres pour un élémentaire de l’Air de taille
+G) qui inflige 1d6 points de dégâts (1d8 pour un élémentaire de
+l’Air de taille G). Les eidolons de la Terre gagnent le pouvoir de
+maîtrise de la terre (Bestiaire p.126) et une RD 5/-. Les eidolons
+du Feu gagnent l’évolution attaques d’énergie (feu) et le pouvoir
+de combustion (Bestiaire p.300). Les eidolons de l’Eau gagnent
+les pouvoirs extinction des feux et vortex (Bestiaire p.124). Le
+pouvoir de vortex fonctionne comme le pouvoir de tourbillon
+d’un eidolon de l’Air (à l’exception de ce qui est indiqué dans la
+description du pouvoir de vortex).
+
+{s:Reference|INEVITABLE}
+====Inévitable====
+
+Implacables et constants dans leur lutte contre le Chaos
+et ceux qui bafouent les lois naturelles, les inévitables sont
+des compagnons fidèles envers les conjurateurs loyaux,
+même s’ils prennent tout au pied de la lettre. Les conjurateurs
+d’inévitables s’entendent généralement bien avec les axiomites
+qui partagent leur compréhension du processus de fabrication
+et de modification d’un inévitable. Les eidolons inévitables
+ressemblent au mélange d’une créature mécanique et d’une
+statue d’humanoïde idéalisé.
+
+'''Alignement.''' Loyal Neutre.
+
+'''Forme de base.''' Bipède (membres &#0091;bras&#0093;, membres &#0091;jambes&#0093;,
+coup).
+
+'''Évolutions de base.''' Au niveau 1, les eidolons inévitables sont
+à la fois considérés comme des créatures artificielles et comme
+des extérieurs en ce qui concerne les effets comme la propriété
+spéciale d’arme tueuse et l’aptitude de classe d’ennemi juré. Ils
+gagnent un bonus de +4 aux jets de sauvegarde contre les effets
+de mort et de nécromancie, la maladie, la paralysie, les poisons, le
+sommeil et l’étourdissement.
+
+Au niveau 4, les eidolons inévitables gagnent un bonus de +4
+aux jets de sauvegarde contre les effets mentaux et une immunité
+aux dégâts non-létaux, à la fatigue et l’épuisement.
+
+Au niveau 8, les eidolons inévitables gagnent une immunité
+aux effets de mort, à la maladie et aux poisons.
+
+Au niveau 12, les eidolons inévitables gagnent une RD 5/Chaos.
+Ils gagnent également une immunité au sommeil, ainsi que le
+pouvoir de langage universel (voir le sous-type de l’inévitable,
+page 311 du Bestiaire 2 Pathfinder JdR).
+
+Au niveau 16, les eidolons inévitables perdent le bonus de
++4 aux jets de sauvegarde contre les effets de nécromancie et
+gagnent une immunité aux affaiblissements temporaires et aux
+diminutions permanentes de caractéristiques, à l’absorption
+d’énergie et aux effets de nécromancie.
+
+Au niveau 20, les eidolons inévitables gagnent une immunité à
+la paralysie, au sommeil, à l’étourdissement et à tous les effets qui
+nécessitent un jet de Vigueur (à moins que ces effets fonctionnent
+également sur les objets).
+
+{s:Reference|PROTEEN}
+====Protéen====
+
+Entités serpentines de chaos pur, les protéens cherchent
+à refaçonner la réalité. Les eidolons protéens apprécient les
+conjurateurs créatifs qui modifient souvent leur forme et utilisent
+généreusement le sort de transformation. Qui plus est, les eidolons
+protéens sont heureux d’œuvrer aux côtés de leur conjurateur pour
+accomplir tout et n’importe quoi, mais ils leur rappellent bien
+vite qu’ils entretiennent une relation mutuellement bénéfique et
+ne sont pas à leur service.
+
+'''Alignement.''' Chaotique Neutre.
+
+'''Forme de base.''' Serpentine (morsure, étreinte &#0091;coup de queue&#0093;,
+queue, coup de queue).
+
+'''Évolutions de base.''' Au niveau 1, les eidolons protéens gagnent
+l’évolution résistance (acide), ainsi que celle d’étreinte qui
+s’applique à un type d’attaque choisi par le conjurateur. Chaque fois
+que le conjurateur change les évolutions de son eidolon protéen, il
+peut également changer le type d’attaque de l’étreinte.
+
+Au niveau 4, les eidolons protéens gagnent une résistance à
+l’électricité et au son 10.
+
+Au niveau 8, les eidolons protéens gagnent l’évolution
+constriction.
+
+Au niveau 12, les eidolons protéens gagnent une RD 5/Loi. Ils
+gagnent également l’évolution vision aveugle et le pouvoir de
+voler sans ailes avec une manœuvrabilité parfaite, comme s’ils
+avaient l’évolution vol à 4 points.
+
+Au niveau 16, les eidolons protéens perdent l’évolution
+résistance (acide) et gagnent à la place l’évolution immunité
+(acide). Ils gagnent également le pouvoir d’anatomie changeante
+(voir le sous-type du protéen, Bestiaire 2 p.313).
+
+Au niveau 20, les eidolons protéens gagnent le pouvoir
+constant liberté de mouvement et la version protéenne du pouvoir
+changement de forme (métamorphose suprême) (voir le sous-type
+du protéen, Bestiaire 2 p.313).
+
+{s:Reference|PSYCHOPOMPE}
+====Psychopompe====
+
+Intendants, chroniqueurs et guides de toute chose destinée à
+mourir, les psychopompes font des eidolons, certes froids, mais
+également loyaux. Quand ils interagissent avec le monde des
+mortels, les eidolons psychopompes portent presque toujours des
+masques. Ils ne tolèrent pas les conjurateurs qui trafiquent avec les
+daémons, les morts-vivants et autres entités qui interfèrent avec la
+migration des âmes mais acceptent, en dehors de cela, la plupart
+des actions entreprises par leur conjurateur. Quand le conjurateur
+meurt, son eidolon psychopompe l’escorte personnellement
+vers l’après-vie et lui sert de témoin expert lorsque l’heure de son
+jugement est venue.
+
+'''Alignement.''' Neutre.
+
+'''Forme de base.''' Bipède (membres &#0091;bras&#0093;, membres &#0091;jambes&#0093;,
+coup), quadrupède (morsure, membres &#0091;jambes, 2&#0093;) ou serpentine
+(morsure, attirer &#0091;morsure&#0093;, allonge &#0091;morsure&#0093;, queue, coup de
+queue).
+
+'''Évolutions de base.''' Au niveau 1, les eidolons psychopompes
+gagnent une immunité aux effets de mort, à la maladie et aux
+poisons.
+
+Au niveau 4, les eidolons psychopompes gagnent une
+résistance à l’électricité et au froid 10.
+
+Au niveau 8, les eidolons psychopompes gagnent le pouvoir de
+contact spectral (voir le sous-type du psychopompe, page 211 du
+Bestiaire 4) et ajoutent 1 point à leur réserve d’évolution.
+
+Au niveau 12, les eidolons psychopompes gagnent une RD 5/
+adamantium. Ils gagnent également le pouvoir de perception
+spirituelle (voir le sous-type du psychopompe, page 211 du
+Bestiaire 4).
+
+Au niveau 16, les eidolons psychopompes gagnent l’évolution
+augmentation de caractéristique qui s’applique à une valeur de
+caractéristique choisie par le conjurateur. Ils peuvent également
+utiliser le pouvoir magique d’invisibilité (sur eux uniquement) à
+volonté.
+
+Au niveau 20, les eidolons psychopompes augmentent leur
+réduction de dégâts à 10/adamantium et gagnent les évolutions
+immunité (froid) et immunité (électricité).
+
+{s:Reference|FORMESDEBASE}
+===Formes de base===
+
+Chaque eidolon possède l’une des trois formes de base qui
+déterminent sa taille, sa vitesse de déplacement, sa CA, ses
+attaques et ses valeurs de caractéristique de départ. Toutes les
+attaques naturelles de l’eidolon appliquent son bonus de base à
+l’attaque le plus élevé, sauf indication contraire (comme dans le
+cas des attaques secondaires). L’eidolon ajoute son modificateur
+de Force aux jets de dégâts de ses attaques, à moins qu’il n’en fasse
+q’une seule auquel cas il lui ajoute 1,5 fois son modificateur de
+Force.
+
+Par ailleurs, le conjurateur peut utiliser n’importe laquelle de ces
+formes de base pour créer un eidolon de taille P. Dans ce cas, il
+gagne un bonus de +2 à la Dextérité mais souffre d’un malus de -4
+à sa Force et un autre de -2 à sa Constitution. Il gagne également
+un bonus de taille de +1 à la CA et aux jets d’attaque, un malus
+de -1 aux tests de manœuvres offensives et au DMD, un bonus
+de +2 aux tests de Vol et un bonus de +4 aux tests de Discrétion.
+Les dégâts de toutes ses attaques sont réduits d’une catégorie
+(par exemple, 1d6 devient 1d4 et 1d4 devient 1d3). Si le conjurateur
+choisit de créer un petit eidolon, il pourra le transformer en
+eidolon de taille Moyenne dès que sa réserve d’évolution subit
+un changement (il perd alors les modificateurs liés à sa taille
+P). De même, un eidolon de taille M peut devenir petit dès que
+le conjurateur a l’occasion de changer sa réserve d’évolution.
+
+{s:Reference|BIPEDE}
+====Bipède====
+
+'''Profil de départ.''' '''Taille''' M ; '''VD''' 9 m ; '''CA''' +2 armure naturelle ;
+'''Jets de sauvegarde''' Réf (mauvais), Vig (bon), Vol (bon) ; '''Attaque''' 2
+griffes (1d4) ; '''Valeurs de caractéristique''' For 16, Dex 12, Con 13, Int
+7, Sag 10, Cha 11.
+
+{s:Reference|QUADRUPEDE}
+====Quadrupède====
+
+'''Profil de départ'''. '''Taille''' M ; '''VD''' 12 m ; '''CA''' +2 armure naturelle ;
+'''Jets de sauvegarde''' Réf (bon), Vig (bon), Vol (mauvais) ; '''Attaque'''
+morsure (1d6) ; '''Valeurs de caractéristique''' For 14, Dex 14, Con 13, Int
+7, Sag 10, Cha 11.
+
+{s:Reference|SERPENTINE}
+====Serpentine====
+
+'''Profil de départ'''. '''Taille''' M ; '''VD''' 6 m, escalade 6 m ; '''CA''' +2
+armure naturelle ; '''Jets de sauvegarde''' Réf (bon), Vig (bon), Vol
+(mauvais) ; '''Attaque''' morsure (1d6), coup de queue (1d6) ; '''Valeurs de
+caractéristique''' For 12, Dex 16, Con 13, Int 7, Sag 10, Cha 11.
+
+{s:Reference|EVOLUTIONS}
+===Évolutions===
+
+Chaque eidolon reçoit un certain nombre de points d’évolution
+à dépenser de manière à gagner de nouvelles aptitudes, de
+nouveaux pouvoirs et autres améliorations. Le conjurateur peut
+changer ces nouvelles aptitudes, appelées évolutions, à chaque
+fois qu’il gagne un niveau mais, en dehors de cela, elles restent
+fixes. Certaines évolutions s’appliquent seulement à une forme
+de base particulière de l’eidolon ou un niveau minimum
+de conjurateur. Certaines accordent des attaques naturelles
+supplémentaires à l’eidolon. Les attaques naturelles définies
+comme primaires appliquent le bonus de base à l’attaque le plus
+élevé de l’eidolon et ajoutent son modificateur de Force aux jets
+de dégâts. Les attaques naturelles définies comme secondaires
+appliquent le bonus de base à l’attaque le plus élevé -5 et la moitié
+du modificateur de Force de l’eidolon (s’il est positif ) aux jets de
+dégâts. Si l’eidolon n’a qu’une seule attaque naturelle, celle-ci est
+effectuée en appliquant le bonus de base à l’attaque le plus élevé
+et en ajoutant 1,5 × son modificateur de Force aux jets de dégâts,
+quel que soit le type d’attaque.
+
+Les évolutions sont regroupées selon leur coût. Il est
+impossible de stocker des points d’évolution, le conjurateur doit
+tous les dépenser quand il gagne un niveau. Il ne peut choisir
+une évolution qu’à une seule reprise, sauf indication contraire.
+
+{s:Reference|EVOLUTIONS1POINT}
+====Évolutions à 1 point====
+
+Les évolutions suivantes coûtent 1 point de la réserve
+d’évolution de l’eidolon.
+
+{s:Reference|ALLONGE}
+'''Allonge (Ext).''' L’une des attaques de l’eidolon atteint les
+ennemis à distance. Le conjurateur choisit une attaque. L’allonge de
+l’eidolon avec cette attaque augmente de 1,50 mètre.
+
+{s:Reference|ARMURENATURELLEAMELIOREE}
+'''Armure naturelle améliorée (Ext).''' Une épaisse fourrure, des
+écailles rigides ou des plaques osseuses poussent sur l’épiderme
+de l’eidolon et lui confèrent un bonus de +2 à l’armure naturelle.
+Le conjurateur peut choisir cette évolution une fois, plus une
+fois supplémentaire tous les 5 niveaux de conjurateur. Le bonus
+augmente de +2 chaque fois.
+
+{s:Reference|ATTAQUESMAGIQUES}
+'''Attaques magiques (Sur).''' L’eidolon est imprégné de magie,
+ce qui lui permet de considérer toutes ses attaques naturelles
+comme étant magiques quand il s’agit d’ignorer la réduction de
+dégâts. Si le conjurateur est de niveau 10 ou plus, toutes les attaques
+naturelles de l’eidolon sont considérées comme étant du même
+alignement que ce dernier quand il s’agit d’ignorer la réduction
+de dégâts.
+
+{s:Reference|ATTIRER}
+'''Attirer (Ext).''' L’eidolon est capable d’attirer une créature à lui
+s’il réussit une attaque. Le conjurateur choisit un type d’attaque
+naturelle. Quand l’eidolon réussit une attaque du type choisi, il
+peut tenter gratuitement un test de manœuvre offensive. S’il le
+réussit, la cible de l’attaque est attirée de 1,50 mètre vers l’eidolon.
+Cette évolution fonctionne uniquement sur les créatures de taille
+égale ou inférieure à l’eidolon. Les créatures attirées de cette
+façon ne provoquent pas d’attaque d’opportunité. Le conjurateur
+peut choisir cette évolution à plusieurs reprises mais ses effets
+ne se cumulent pas, ils s’appliquent à chaque fois à une attaque
+naturelle différente. Conditions : allonge de 3 mètres ou plus.
+
+{s:Reference|AUGMENTATIONDESDEGATS}
+'''Augmentation des dégâts (Ext).''' L’une des attaques naturelles
+de l’eidolon est particulièrement dangereuse. Le conjurateur choisit
+un type d’attaque naturelle et augmente son dé de dégâts d’une
+catégorie. Le conjurateur peut choisir cette évolution à plusieurs
+reprises mais ses effets ne se cumulent pas, ils s’appliquent à
+chaque fois à une attaque naturelle différente.
+
+{s:Reference|BRANCHIES}
+'''Branchies (Ext).''' L’eidolon possède des branchies qui lui
+permettent de respirer indéfiniment sous l’eau.
+
+{s:Reference|COMPETENT}
+'''Compétent (Ext).''' L’eidolon devient particulièrement doué
+dans l’utilisation d’une compétence et gagne un bonus racial
+de +8 dans celle-ci. Le conjurateur peut choisir cette évolution
+à plusieurs reprises mais ses effets ne se cumulent pas, ils
+s’appliquent à chaque fois à une compétence différente.
+
+{s:Reference|COUP}
+'''Coup (Ext).''' L’eidolon peut effectuer une attaque de coup
+dévastatrice. C’est une attaque primaire qui inflige 1d8 points de
+dégâts (2d6 si taille G, 2d8 si taille TG). L’eidolon doit disposer
+de l’évolution membres (bras) avant de pouvoir choisir celle-
+ci. Par ailleurs, il peut remplacer les griffes de sa forme de base
+par cette attaque de coup (ce qui lui coûte tout de même 1 point
+d’évolution). Le conjurateur peut choisir cette évolution à plusieurs
+reprises, à raison d’une évolution de coup par évolution de
+membres (bras).
+
+{s:Reference|COUPDEQUEUE}
+'''Coup de queue (Ext).''' L’eidolon peut utiliser sa queue pour
+frapper les ennemis proches, ce qui lui confère une attaque de
+coup de queue qui inflige 1d6 points de dégâts (1d8 si taille G, 2d6
+si taille TG). Le conjurateur peut choisir cette évolution à plusieurs
+reprises, à raison d’une évolution de coup de queue par évolution
+de queue de l’eidolon. Conditions : sous-type d’agathion, de
+daémon, de démon, de diable, de div, d’élémentaire, de protéen
+ou de psychopompe ; évolution queue.
+
+{s:Reference|DARD}
+'''Dard (Ext).''' L’eidolon possède un long dard barbelé au bout
+de la queue, ce qui lui confère une attaque naturelle primaire de
+dard qui inflige 1d4 points de dégâts (1d6 si taille G, 1d8 si taille
+TG). Le conjurateur peut choisir cette évolution à plusieurs reprises,
+à raison d’une évolution de dard par évolution de queue de
+l’eidolon. Conditions : sous-type d’agathion, de daémon, de démon,
+de diable, de div, d’élémentaire, de protéen ou de psychopompe ;
+évolution queue.
+
+{s:Reference|ESCALADE}
+'''Escalade (Ext).''' L’eidolon est un grimpeur chevronné qui
+acquiert une vitesse de déplacement en escalade égale à sa vitesse
+de base. Le conjurateur peut choisir cette évolution à plusieurs
+reprises. La vitesse d’escalade de l’eidolon augmente de 6 mètres
+à chaque fois.
+
+{s:Reference|FRAPPEDESAILES}
+'''Frappe des ailes (Ext).''' L’eidolon apprend à utiliser ses ailes
+pour frapper ses ennemis, ce qui lui confère deux attaques d’aile.
+Ce sont des attaques secondaires qui infligent 1d4 points de
+dégâts (1d6 si taille G, 1d8 si taille TG). Condition : évolution Vol
+(ailes).
+
+{s:Reference|GRIFFES}
+'''Griffes (Ext).''' L’eidolon possède une paire de griffes vicieuses
+au bout de chaque membre qui lui confèrent deux attaques de
+griffes. Ce sont des attaques primaires qui infligent 1d4 points
+de dégâts (1d6 si taille G, 1d8 si taille TG). L’eidolon doit avoir
+l’évolution membres pour pouvoir choisir celle-ci. L’eidolon
+peut en bénéficier à plusieurs reprises, dans la limite d’une fois
+par évolution de membre. Elle peut s’appliquer à n’importe quel
+nombre d’évolutions membres (bras) mais à une seule évolution
+membres ( jambes). Conditions : sous-type d’agathion, de daémon,
+de démon, de diable, de div, d’élémentaire, de protéen ou de
+psychopompe.
+
+{s:Reference|MONTURE}
+'''Monture (Ext).''' Un eidolon est apte à servir de monture
+de combat et il est entraîné pour. Il doit être au moins d’une
+catégorie de taille de plus que son cavalier. Conditions : sous-type
+de daémon, de démon, de diable, d’élémentaire ou de protéen ;
+forme de base quadrupède ou serpentine.
+
+{s:Reference|MORSURE}
+'''Morsure (Ext).''' La gueule de l’eidolon est pleine de crocs acérés
+comme des rasoirs, ce qui lui permet d’effectuer une attaque de
+morsure. C’est une attaque primaire qui inflige 1d6 points de
+dégâts (1d8 si taille G, 2d6 si taille TG). Si l’eidolon possède déjà
+une attaque de morsure, cette évolution lui permet d’infliger
+1,5 × son modificateur de Force aux jets de dégâts. Conditions :
+sous-type d’agathion, de daémon, de démon, de diable, de div,
+d’élémentaire, de protéen ou de psychopompe.
+
+{s:Reference|NATATION}
+'''Natation (Ext).''' L’eidolon développe des mains ou des pieds
+palmés, ou de puissantes nageoires qui lui confèrent une vitesse
+de déplacement à la nage égale à sa vitesse de déplacement de
+base. Cette évolution ne permet pas à l’eidolon de respirer
+sous l’eau. Le conjurateur peut choisir cette évolution à plusieurs
+reprises. La vitesse de nage de l’eidolon augmente de 6 mètres à
+chaque fois.
+
+{s:Reference|ODORAT}
+'''Odorat (Ext).''' L’odorat de l’eidolon devient particulièrement
+fin. L’eidolon gagne le pouvoir spécial odorat, ce qui lui permet
+de détecter ses adversaires dans un rayon de 9 mètres à l’odeur.
+Si l’ennemi est contre le vent, la portée passe à 18 mètres et s’il
+est dans le sens du vent, elle tombe à 4,50 mètres. Les odeurs
+fortes se détectent deux fois plus loin que la normale. L’odorat ne
+permet pas à l’eidolon de déterminer l’emplacement précis d’une
+créature, juste de détecter sa présence. L’eidolon peut détecter
+la direction par une action de mouvement et peut trouver
+l’emplacement précis occupé par une créature située à 1,50 mètre.
+Il peut se servir de son odorat pour suivre la piste des créatures.
+
+{s:Reference|PINCES}
+'''Pinces (Ext).''' L’eidolon développe de larges pinces au bout
+d’une paire de membres, ce qui lui confère deux attaques de
+pince. Ce sont des attaques secondaires qui infligent 1d6 points
+de dégâts (1d8 si taille G, 2d6 si taille TG). Les eidolons qui
+possèdent l’évolution étreinte liée aux pinces gagnent un bonus
+de +2 aux tests de manœuvres offensives de lutte. L’eidolon doit
+disposer de l’évolution membres (bras) pour choisir celle-ci. Il
+peut remplacer les griffes de sa forme de base par des pinces
+(ce qui lui coûte tout de même 1 point d’évolution). Le conjurateur
+peut choisir cette évolution à plusieurs reprises, à raison d’une
+évolution de pinces par évolution de membres (bras). Conditions :
+sous-type d’agathion, de daémon, de démon, de diable, de div,
+d’élémentaire, de protéen ou de psychopompe.
+
+{s:Reference|QUEUE}
+'''Queue (Ext).''' L’eidolon possède une longue queue puissante
+qui lui confère un bonus racial de +2 aux tests d’Acrobaties pour
+garder l’équilibre. Le conjurateur peut choisir cette évolution à
+plusieurs reprises. Conditions : sous-type d’agathion, de daémon,
+de démon, de diable, de div, d’élémentaire, de protéen ou de
+psychopompe.
+
+{s:Reference|REPOUSSER}
+'''Repousser (Ext).''' L’eidolon est capable de repousser une
+créature quand il réussit une attaque. Le conjurateur choisit un type
+d’attaque naturelle. Quand l’eidolon réussit une attaque du type
+choisi, il peut tenter gratuitement un test de manœuvre offensive.
+S’il le réussit, la cible de l’attaque est repoussée de 1,50 mètre loin
+de l’eidolon. Cette évolution fonctionne uniquement sur les
+créatures de taille égale ou inférieure à l’eidolon. Les créatures
+repoussées ainsi ne provoquent pas d’attaque d’opportunité.
+Le conjurateur peut choisir cette évolution à plusieurs reprises
+mais ses effets ne se cumulent pas, ils s’appliquent à chaque fois à
+une attaque naturelle différente.
+
+{s:Reference|RESISTANCE}
+'''Résistance (Ext).''' L’eidolon devient résistant à un type
+d’énergie destructive, ce qui se reflète souvent sur son physique
+(une peau cendreuse pour le feu, un souffle glacé pour le froid,
+etc.). Le conjurateur choisit un type d’énergie destructive (acide,
+électricité, feu, froid ou son) contre lequel son eidolon gagne une
+résistance de 5. Elle augmente de 5 tous les 5 niveaux de conjurateur,
+jusqu’à un maximum de 15 au niveau 10. Le conjurateur peut
+choisir cette évolution à plusieurs reprises mais ses effets ne se
+cumulent pas, ils s’appliquent à chaque fois à un type d’énergie
+destructive différent.
+
+{s:Reference|TENTACULE}
+'''Tentacule (Ext).''' L’eidolon possède un long tentacule sinueux
+qui lui confère une attaque de tentacule. C’est une attaque
+secondaire qui inflige 1d4 points de dégâts (1d6 si taille G, 1d8
+si taille TG). Le conjurateur peut choisir cette évolution à plusieurs
+reprises. Conditions : sous-type de daémon, de démon ou de
+protéen.
+
+{s:Reference|EVOLUTIONS2POINTS}
+====Évolutions à 2 points====
+
+Les évolutions suivantes coûtent 2 points de la réserve
+d’évolution de l’eidolon.
+
+{s:Reference|ATTAQUEDENERGIE}
+'''Attaques d’énergie (Sur).''' Les attaques de l’eidolon sont
+chargées d’énergie. Le conjurateur choisit un type d’énergie
+destructive : acide, électricité, feu ou froid. Toutes les attaques
+naturelles de l’eidolon infligent 1d6 points de dégâts du type
+d’énergie destructive choisi en cas d’attaque réussie. Condition :
+niveau 5 de conjurateur.
+
+{s:Reference|EVOLUTIONAUGMENTATIONDECARACTERISTIQUE}
+'''Augmentation de caractéristique (Ext).''' Les muscles de l’eidolon
+grossissent, ses réflexes sont plus vifs, son intelligence se développe
+ou il acquiert une autre amélioration de caractéristique. L’une des
+caractéristiques de l’eidolon augmente de +2. Le conjurateur peut
+choisir cette évolution à plusieurs reprises mais elle ne s’applique
+qu’une fois par valeur de caractéristique, et une fois de plus tous
+les 6 niveaux de conjurateur.
+
+{s:Reference|CONSTRICTION}
+'''Constriction (Ext).''' L’eidolon développe de puissants muscles
+qui lui permettent d’écraser les créatures prisonnières de son
+étreinte. Quand il réussit un test de lutte contre un ennemi
+grâce à l’évolution étreinte, il inflige un montant de dégâts
+supplémentaires égal à celui infligé par l’attaque à laquelle
+l’évolution étreinte est liée. Conditions : forme de base serpentine,
+évolution étreinte.
+
+{s:Reference|CORNES}
+'''Cornes (Ext).''' Un certain nombre de cornes poussent sur la
+tête de l’eidolon et lui confèrent une attaque de corne. C’est une
+attaque primaire qui inflige 1d6 points de dégâts (1d8 si taille G,
+2d6 si taille TG). Conditions : sous-type d’agathion, de daémon,
+de démon, de diable, de div, d’élémentaire, de protéen ou de
+psychopompe.
+
+{s:Reference|CROCENJAMBE}
+'''Croc-en-jambe (Ext).''' L’eidolon devient extrêmement doué
+pour faire tomber ses ennemis à terre en les mordant, ce qui
+lui confère une attaque de croc-en-jambe. À chaque fois que
+l’eidolon réussit une attaque de morsure, il peut effectuer un test
+de manœuvre offensive gratuit. S’il réussit, sa cible tombe à terre
+et s’il échoue, la cible ne peut pas retourner la manœuvre contre
+lui. Cette évolution fonctionne uniquement sur des créatures de
+même taille que l’eidolon ou plus petites. Conditions : sous-type
+de daémon, de démon, de diable, d’élémentaire ou de protéen ;
+évolution de morsure.
+
+{s:Reference|ENTRAINEMENTAUXARMES}
+'''Entraînement aux armes (Ext).''' L’eidolon apprend à manier
+des armes et gagne Maniement des armes courantes comme don
+supplémentaire. S’il dépense 2 points d’évolution de plus, il est
+également formé au maniement de toutes les armes de guerre.
+
+{s:Reference|ETREINTE}
+'''Étreinte (Ext).''' L’eidolon devient particulièrement doué pour
+la lutte et gagne le pouvoir d’étreinte. Le conjurateur choisit une
+attaque de morsure, de griffe, de pinces, de coup, de queue ou de
+tentacule. Quand l’eidolon réussit une attaque du type choisi, il
+peut effectuer un test de manœuvre offensive gratuit. S’il réussit,
+il agrippe sa cible. Ce pouvoir fonctionne seulement contre
+les créatures d’au moins une catégorie de taille de moins que
+l’eidolon. Les eidolons dotés de cette évolution gagnent un bonus
+de +4 aux tests de manœuvre offensive de lutte.
+
+{s:Reference|EVENTRATION}
+'''Éventration (Ext).''' L’eidolon apprend à lacérer la chair des
+créatures qu’il attaque avec ses griffes et obtient le pouvoir
+éventration. Quand il réussit deux attaques de griffes contre
+la même cible au cours d’un même round, il les enfonce
+profondément dans la chair de son ennemi et lui inflige des
+dégâts supplémentaires égaux à ceux infligés par une attaque de
+griffe plus 1,5 × son modificateur de Force. Conditions : niveau 6
+de conjurateur, évolution de griffes.
+
+{s:Reference|IMMUNITE}
+'''Immunité (Sur).''' L’eidolon devient extrêmement résistant
+à un type d’énergie. Le conjurateur choisit un type d’énergie
+destructive : acide, électricité, feu, froid ou son. L’eidolon devient
+immunisé contre ce type d’énergie. Le conjurateur peut choisir
+cette évolution à plusieurs reprises mais ses effets ne se cumulent
+pas, ils s’appliquent à chaque fois à un type d’énergie destructive
+différent. Condition : niveau 7 de conjurateur.
+
+{s:Reference|MEMBRES}
+'''Membres (Ext).''' L’eidolon développe une paire de membres
+supplémentaires. Ces membres peuvent prendre deux formes.
+Soit des jambes qui se terminent par des pieds, chaque paire
+de jambes augmentant la vitesse de déplacement de base de
+l’eidolon de 3 mètres. Soit des bras qui se terminent par des
+mains. L’eidolon ne gagne pas d’attaque naturelle supplémentaire
+s’il possède une paire de bras en plus mais il peut choisir d’autres
+évolutions qui en rajoutent (comme des griffes ou une attaque de
+coup). Si les bras de l’eidolon se terminent par des mains, elles
+peuvent servir à manier des armes si l’eidolon est formé à leur
+maniement. Le conjurateur peut choisir cette évolution à plusieurs
+reprises.
+
+{s:Reference|PATTESARRIERES}
+'''Pattes arrière (Ext).''' De dangereuses griffes poussent sur les
+pieds de l’eidolon et lui permettent d’effectuer deux attaques de
+pattes arrière contre un adversaire agrippé. Ce sont des attaques
+primaires dont l’eidolon bénéficie uniquement quand il réussit
+un test de lutte contre sa cible. Elles infligent 1d4 points de dégâts
+(1d6 si taille G, 1d8 si taille TG). Cette évolution est considérée
+comme une attaque naturelle à décompter du nombre maximum
+d’attaques naturelles que peut effectuer l’eidolon. Conditions :
+niveau 4 de conjurateur, forme de base quadrupède.
+
+{s:Reference|PERCEPTIONDESVIBRATIONS}
+'''Perception des vibrations (Ext).''' L’eidolon devient
+particulièrement sensible aux vibrations du sol et acquiert la
+perception des vibrations avec une portée de 9 mètres. Cette
+évolution fonctionne comme celle de perception aveugle, mais
+seulement si l’eidolon et la créature à localiser sont en contact
+avec le sol. Condition : niveau 7 de conjurateur.
+
+{s:Reference|PIETINEMENT}
+'''Piétinement (Ext).''' L’eidolon peut écraser ses ennemis sous ses
+pieds et gagne le pouvoir piétinement. Par une action complexe,
+il peut renverser toute créature d’au moins une catégorie de
+taille de moins que lui. Cette évolution fonctionne comme la
+manœuvre offensive de renversement mais l’eidolon n’a pas
+besoin d’effectuer le test, il lui suffit de passer sur le corps de
+ses adversaires. Ces derniers subissent 1d6 points de dégâts (1d8
+si taille G, 2d6 si taille TG) plus 1,5 × le modificateur de Force
+de l’eidolon. Les cibles du piétinement peuvent effectuer une
+attaque d’opportunité avec un malus de -4. Si une cible renonce
+à cette attaque d’opportunité, elle peut effectuer un jet de
+Réflexes pour réduire les dégâts de moitié. Le DD de ce jet de
+sauvegarde est égal à 10 + 1/2 DV de l’eidolon + le modificateur
+de Force de l’eidolon. Chaque créature ne peut subir des dégâts
+de piétinement qu’une seule fois par round. Condition : forme de
+base bipède ou quadrupède.
+
+{s:Reference|POISON}
+'''Poison (Ext).''' L’eidolon sécrète un venin toxique qui lui confère
+une attaque de poison. Le conjurateur choisit une attaque de
+morsure ou de dard qui empoisonne la cible en cas de coup au
+but.
+
+''Poison d’eidolon'' : Blessure ; jet de sauvegarde Vig, annule ; fréquence
+1/round pendant 4 rounds ; effet affaiblissement temporaire de
+1d4 For ; guérison 1 jet de sauvegarde réussi.
+
+Le DD du jet de sauvegarde est égal à 10 + 1/2 DV de l’eidolon
++ le modificateur de Constitution de l’eidolon. Pour 2 points
+d’évolution supplémentaires, le poison inflige à la place un
+affaiblissement temporaire de Constitution. Ce poison ne
+peut s’utiliser qu’une seule fois par round. Conditions : niveau
+7 de conjurateur ; sous-type de daémon, de démon, de diable,
+d’élémentaire ou de protéen ; évolution morsure ou dard.
+
+{s:Reference|VOL}
+'''Vol (Ext ou Sur).''' De grandes ailes similaires à celles d’une
+chauve-souris, d’un oiseau, d’un insecte ou d’un dragon, poussent
+sur l’eidolon qui obtient une vitesse de déplacement en vol égale
+à sa vitesse de base. Sa manœuvrabilité dépend de sa taille.
+Les eidolons de taille P ou M ont une bonne manœuvrabilité,
+les Grands eidolons une manœuvrabilité moyenne et les Très
+Grands une manœuvrabilité médiocre. Pour 2 points d’évolution
+supplémentaires, l’eidolon vole par magie. Il perd ses ailes mais
+gagne une manœuvrabilité parfaite. Le vol magique fait de cette
+évolution un pouvoir surnaturel. Le conjurateur peut augmenter
+la vitesse de vol de l’eidolon de 6 mètres par point d’évolution
+supplémentaire dépensé. Condition : niveau 5 de conjurateur.
+
+{s:Reference|EVOLUTIONS3POINTS}
+====Évolutions à 3 points====
+
+Les évolutions suivantes coûtent 3 points de la réserve
+d’évolution de l’eidolon.
+
+{s:Reference|BOND}
+'''Bond (Ext).''' Les réflexes de l’eidolon gagnent en rapidité, ce qui
+lui permet d’effectuer une attaque à outrance après une charge.
+Conditions : niveau 7 de conjurateur, forme de base quadrupède.
+
+{s:Reference|CREUSEMENT}
+'''Creusement (Ext).''' L’eidolon développe d’épaisses griffes
+recourbées qui lui permettent de se déplacer dans le sol. Il
+obtient une vitesse de creusement égale à la moitié de sa vitesse
+de base. Il peut s’en servir pour se déplacer dans la terre, l’argile et
+le sable. Il ne laisse pas de tunnel dans son sillage et son passage
+ne se remarque pas en surface. Condition : niveau 9 de conjurateur.
+
+{s:Reference|ENGLOUTISSEMENT}
+'''Engloutissement (Ext).''' L’eidolon gagne le pouvoir
+d’engloutissement qui lui permet d’avaler ses adversaires. Si
+l’eidolon commence son tour avec une créature agrippée via son
+attaque de morsure (voir l’évolution étreinte), il peut effectuer
+un test de manœuvre offensive pour l’engloutir. La taille de la
+créature doit être inférieure d’une catégorie au moins à celle
+de l’eidolon. Chaque round, les créatures avalées subissent des
+dégâts contondants égaux aux dégâts de morsure de l’eidolon +
+1d6 points de dégâts. On considère qu’une créature engloutie est
+toujours agrippée mais elle peut essayer de s’ouvrir un passage
+vers l’extérieur avec une arme légère tranchante ou perforante.
+Le montant de dégâts à infliger pour sortir est de 1/10 des points
+de vie totaux de l’eidolon. Contre ces attaques, la CA de l’eidolon
+est égale à 10 + 1/2 son bonus d’armure naturelle. Si une créature
+avalée ouvre l’estomac de l’eidolon pour sortir, il ne peut plus
+utiliser ce pouvoir tant qu’il n’a pas soigné ces dégâts. Sinon,
+la créature avalée peut tenter d’échapper à la lutte de manière
+traditionnelle. Si elle réussit, elle remonte dans la gueule de
+l’eidolon d’où elle peut tenter de fuir ou être avalée de nouveau.
+Conditions : niveau 9 de conjurateur ; sous-type d’agathion, de
+daémon, de démon, de diable, de div, d’élémentaire, de protéen
+ou de psychopompe ; évolution d’étreinte (morsure).
+
+{s:Reference|PERCEPTIONAVEUGLE}
+'''Perception aveugle (Ext).''' Les sens de l’eidolon deviennent
+incroyablement aiguisés, ce qui lui permet de bénéficier du
+pouvoir de perception aveugle avec une portée de 9 mètres.
+Cette évolution lui permet de localiser des créatures qu’il ne voit
+pas sans avoir besoin d’effectuer de test de Perception mais ces
+créatures bénéficient tout de même toujours d’un camouflage
+total contre lui. Les mouvements de l’eidolon sont toujours
+affectés par la visibilité et il ne profite toujours pas de son bonus
+de Dextérité à la classe d’armure contre les attaques des créatures
+qu’il ne voit pas. Condition : niveau 9 de conjurateur.
+
+{s:Reference|PRESENCETERRIFIANTE}
+'''Présence terrifiante (Ext).''' L’eidolon inquiète beaucoup ses
+ennemis et obtient le pouvoir présence terrifiante. Il peut l’activer
+lors d’une action offensive, comme une charge ou une attaque.
+Les adversaires situés à 9 mètres ou moins de l’eidolon doivent
+réussir un jet de Volonté pour ne pas être secouées pendant 3d6
+rounds. Le DD de ce jet de sauvegarde est égal à 10 + 1/2 DV de
+l’eidolon + le modificateur de Charisme de l’eidolon. Si l’eidolon
+possède au moins 4 DV de plus qu’un adversaire ayant raté son
+test, ce dernier est effrayé au lieu de secoué. Les adversaires qui
+possèdent plus de dés de vie que l’eidolon sont immunisés contre
+cet effet. Condition : niveau 11 de conjurateur.
+
+{s:Reference|REDUCTIONDEDEGATS}
+'''Réduction de dégâts (Sur).''' Le corps de l’eidolon résiste à
+certains types de dégâts. La réduction de dégâts conférée par
+le sous-type de l’eidolon augmente de 5. Conditions : niveau 15
+de conjurateur, réduction de dégâts conférée par le sous-type de
+l’eidolon.
+
+{s:Reference|TOILE}
+'''Toile (Ext).''' L’eidolon acquiert une paire de filières qui lui
+permettent de tisser des toiles. Elles peuvent supporter l’eidolon
+et une créature aussi grande que lui. L’eidolon peut projeter des
+toiles en effectuant une attaque de contact à distance jusqu’à 8
+fois par jour et enchevêtrer une créature d’une catégorie de
+taille de plus que lui au maximum. Les toiles ont une portée
+de 15 mètres et un facteur de portée de 3 mètres. Les créatures
+enchevêtrées peuvent échapper à la toile en réussissant un test
+d’Évasion, ou grâce à un test de Force (avec un malus de -4). Le DD
+de ces tests est égal à 10 + 1/2 DV de l’eidolon + le modificateur de
+Constitution de l’eidolon. Les toiles ont une solidité de 0 et un
+nombre de points de vie égal au total de DV de l’eidolon. L’eidolon
+peut se déplacer sur ses propres toiles à sa vitesse de déplacement
+en escalade et localiser toute créature qui les touche. Conditions :
+niveau 7 de conjurateur ; sous-type de daémon, de démon ou de
+protéen ; évolution d’escalade.
+
+{s:Reference|EVOLUTIONS4POINTS}
+====Évolutions à 4 points====
+
+Les évolutions suivantes coûtent 4 points de la réserve
+d’évolution de l’eidolon.
+
+{s:Reference|GRAND}
+'''Grand (Ext).''' L’eidolon grandit et devient de taille G. Il
+gagne un bonus de +4 à la Force, de +2 à la Constitution et de
++2 à l’armure naturelle. Il subit un malus de -2 à la Dextérité.
+Ce changement de taille lui inflige un malus de taille de -1 à la
+CA et aux jets d’attaque, un bonus de +1 aux tests de manœuvre
+offensive et au DMD, un malus de -2 aux tests de Vol et un malus
+de -4 aux tests de Discrétion. Si l’eidolon est de forme bipède,
+il acquiert également une allonge de 3 mètres. Toute évolution
+d’allonge s’ajoute à ce total.
+
+Si le conjurateur dépense 6 points d’évolution supplémentaires,
+l’eidolon devient de taille TG. Il gagne un bonus de +8 à la Force, de
++4 à la Constitution et de +5 à l’armure naturelle. Ce changement
+de taille lui inflige un malus de taille de -2 à la CA et aux jets
+d’attaque, un bonus de +2 aux tests de manœuvre offensive et au
+DMD, une allonge de 3 mètres, un malus de -4 aux tests de Vol et
+un malus de -8 aux tests de Discrétion. Si l’eidolon est de forme
+bipède, son allonge passe à 4,50 mètres au lieu de 3 mètres. Toute
+évolution d’allonge de l’eidolon s’ajoute à ce total. Ces bonus et
+malus remplacent ceux de l’évolution pour devenir de taille G et
+ne se cumulent pas avec eux.
+
+{s:Reference|GUERISONACCELEREE}
+'''Guérison accélérée (Sur).''' Le corps de l’eidolon se régénère
+très rapidement et gagne guérison accélérée 1. Il se soigne de 1
+point de dégâts par round, comme avec la guérison naturelle. La
+guérison accélérée ne soigne pas les points de vie perdus à cause
+de la faim, de la soif ou de la suffocation et ne permet pas non
+plus à l’eidolon de faire repousser des morceaux perdus (ni de
+rattacher des morceaux de corps tranchés). La guérison accélérée
+fonctionne tant que l’eidolon est en vie mais pas s’il ne se trouve
+pas sur le même plan que son conjurateur. La guérison peut
+augmenter d’un point par round si le conjurateur dépense 2 points
+d’évolution de plus ( jusqu’à un maximum de 5 points par round).
+Condition : niveau 11 de conjurateur.
+
+L’évolution amélioration de caractéristique coûte deux fois
+plus cher (4 points d’évolution) quand le conjurateur augmente
+la Force ou la Constitution d’un eidolon de taille G ou TG.
+Conditions : niveau 8 de conjurateur (13 pour taille TG), taille M.
+
+{s:Reference|RESISTANCEALAMAGIE}
+'''Résistance à la magie (Ext).''' L’eidolon est protégé contre les effets
+magiques et acquiert une résistance à la magie. La résistance à la
+magie de l’eidolon est égale à 11 + le niveau du conjurateur. Cette
+RM ne s’applique pas aux sorts que lance le conjurateur. Condition :
+niveau 9 de conjurateur.
+
+{s:Reference|SOUFFLE}
+'''Souffle (Sur).''' L’eidolon apprend à exhaler un cône ou une
+ligne d’énergie magique et acquiert ainsi une attaque de souffle.
+Le conjurateur choisit l’acide, l’électricité, le feu ou le froid. Son
+eidolon peut souffler un cône de 9 mètres (ou une ligne de
+18 mètres) qui inflige 1d6 points de dégâts du type d’énergie
+destructive choisi par dé de vie qu’il possède. Les créatures prises
+dans le souffle ont droit à un jet de Réflexes pour réduire les dégâts
+de moitié. Le DD est égal à 10 + 1/2 DV de l’eidolon + le modificateur
+de Constitution de l’eidolon. L’eidolon peut utiliser ce pouvoir une
+fois par jour. Il a droit à une utilisation quotidienne de plus par
+point d’évolution dépensé en sus (jusqu’à un maximum de trois
+fois par jour). Condition : niveau 9 de conjurateur.
+
+{s:Reference|VISIONAVEUGLE}
+'''Vision aveugle (Ext).''' Les sens de l’eidolon sont encore plus
+aiguisés et lui procurent la vision aveugle à une portée de 9 mètres.
+L’eidolon peut se déplacer et attaquer normalement, en ignorant
+les ténèbres, l’invisibilité et la plupart des camouflages tant qu’il
+peut tracer une ligne d’effet vers sa cible. Conditions : niveau 11
+de conjurateur, évolution de perception aveugle.

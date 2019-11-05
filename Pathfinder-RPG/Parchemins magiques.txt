@@ -1,0 +1,129 @@
+---
+Name: Pathfinder-RPG.Parchemins magiques
+Title: Les parchemins magiques
+LastModified: 2019-10-19 19:16
+Categories:
+  - 'Parchemin magique'
+  - 'Règles officielles'
+---
+Un parchemin est un sort (ou une série de sorts) transcrit sur le papier. Chaque sort écrit sur un parchemin ne peut être utilisé qu’une seule et unique fois, les symboles magiques s’effaçant au fur et à mesure qu’on les lit. L’activation d’un parchemin est très proche de l’incantation d’un sort. Le prix d’un parchemin est égal au niveau du sort x le niveau de lanceur de sorts du créateur x 25 po. Le coût total de création inclut les coûts de base et les coûts supplémentaires, dont ceux des [[Présentation des sorts#COMPOSANTES|composantes]]. La Table "[[Parchemins magiques#DETERMINATION|Coût des parchemins]]" donne des exemples de prix pour un niveau de lanceur de sorts minimum. Notez que certains sorts apparaissent à des niveaux différents pour différents types de lanceurs de sorts. Le niveau de ces sorts dépend du niveau du personnage qui a écrit le parchemin.
+
+=== Description ===
+Un parchemin est une feuille épaisse de vélin ou d’un papier de qualité. Une surface de 20 cm par 30 cm peut accueillir un sort. Le parchemin est renforcé en haut et en bas par une bande de cuir qui dépasse un peu sur les côtés. Un parchemin proposant plusieurs sorts garde la même largeur mais gagne 30 cm en longueur pour chaque sort supplémentaire. Les parchemins contenant trois sorts ou plus sont souvent renforcés par de fines baguettes qui remplacent les bandes de cuir. Un parchemin a une [[CA]] de 9, 1 [[point de vie]], une [[solidité]] de 0 et le test de [[Force]] pour le [[brisé|casser]] a un [[DD]] de 8.
+
+On enroule un parchemin en partant des deux extrémités, afin de le protéger, ce qui constitue un double cylindre (cette méthode permet de plus de le dérouler plus rapidement). Le parchemin est ensuite placé dans un tube ou un étui en ivoire, en jade, en cuir, en métal ou en bois. La plupart de ceux-ci arborent un ou plusieurs symboles qui permettent de clairement identifier le propriétaire du parchemin ou les sorts contenus dans celui-ci. Ces symboles sont souvent piégés magiquement.
+
+=== Activation ===
+Pour activer un parchemin, il faut lire le sort qu’il contient, et cela nécessite de remplir plusieurs conditions.
+
+==== Déchiffrer le texte ====
+Il faut commencer par déchiffrer le texte du parchemin afin de déterminer quel sort celui-ci contient. Cela nécessite un jet d’[[Art de la magie]] ([[DD]] 20 + niveau du sort) ou l’utilisation du sort ''[[lecture de la magie]]''.
+
+Le fait de déchiffrer un parchemin n’active pas le sort que celui-ci contient, sauf dans le cas d’un parchemin maudit. Le personnage peut déchiffrer un parchemin à l’avance. Une fois cela fait, il peut l’utiliser à tout moment.
+
+{s:Reference|ACTIVERLESORT}
+==== Activer le sort ====
+Afin d’activer le parchemin, il faut lire le sort qui y est inscrit. Le personnage doit être capable de voir et de lire ce qui est écrit sur le parchemin. Le personnage n’a pas besoin de [[composante matérielle|composantes matérielles]] ou de [[focaliseur]] (le créateur du parchemin s’est occupé de cette partie de l’incantation au moment de l’écriture). Certains sorts ne fonctionnent que s’ils sont lancés sur un objet. Dans ce cas, l’utilisateur doit posséder l’objet en question. Un sort lancé à l’aide d’un parchemin peut être interrompu comme s’il s’agissait d’un sort préparé normalement. Utiliser un parchemin est considéré comme l’incantation d’un sort pour les risques d’échec des sorts profanes engendrés par une armure.
+
+Pour pouvoir activer un parchemin, son utilisateur doit satisfaire aux conditions suivantes :
+
+• Le sort doit être du bon type ([[magie profane|profane]] ou [[magie divine|divin]]). Les pratiquants de la [[magie profane]] ([[barde|bardes]], [[ensorceleur|ensorceleurs]] et [[magicien|magiciens]]) ne peuvent utiliser que les parchemins de [[magie profane]], et les pratiquants de la [[magie divine]] ([[druide|druides]], [[paladin|paladins]], [[prêtre|prêtres]] et [[rôdeur|rôdeurs]]) ne peuvent utiliser que les parchemins de magie divine. Le type de parchemin que crée un personnage est également déterminé par sa classe.
+
+• Le sort doit appartenir à la liste des sorts de la classe du personnage.
+
+• Le personnage doit avoir la valeur nécessaire dans la caractéristique primordiale correspondant au sort.
+
+Si l’utilisateur remplit les trois conditions précédentes et si son niveau de lanceur de sorts est au moins égal à celui du parchemin, il active la magie à coup sûr. S’il remplit les conditions mais si son niveau de lanceur de sorts est inférieur à celui du parchemin, il doit réaliser un [[test de niveau de lanceur de sorts]] (d’un [[DD]] égal au niveau de lanceur de sorts du parchemin +1). S’il le réussit, le sort est lancé normalement. Par contre, en cas d’échec, le personnage doit impérativement réussir un jet de [[Sagesse]] ([[DD]] 5) afin d’éviter un incident (voir la section "[[Parchemins magiques#INCIDENT|Incident]]" ci-dessous). Un 1 naturel au jet est toujours un échec, quels que soient les modificateurs dont le personnage dispose. Si le [[test de niveau de lanceur de sorts]] échoue sans qu'aucun [[Parchemins magiques#INCIDENT|incident]] n'intervienne, le parchemin n'est pas consommé. 
+
+Activer un parchemin est une [[action simple]] (ou prend le [[temps dincantation|temps d’incantation]] du sort, s’il est plus long) et provoque des [[attaque dopportunité|attaques d’opportunité]] de la même façon que l’incantation d’un sort.
+
+{s:Reference|DETERMINEREFFET}
+=== Déterminer l’effet. ===
+Un sort lancé à partir d’un parchemin fonctionne exactement comme un sort préparé et lancé normalement. Le niveau de lanceur de sorts du parchemin est généralement égal au niveau minimal pour lancer le sort, sauf si le personnage qui le rédige désire qu’il en soit autrement.
+
+Les symboles magiques s’effacent dès qu’on lit le parchemin.
+
+{s:Reference|INCIDENT}
+=== Incident ===
+En cas d’incident, le sort écrit sur le parchemin produit un effet inverse ou défavorable. Quelques exemples sont détaillés ci-après.
+* L’utilisateur est frappé par une décharge d’énergie qui lui inflige 1d6 points de dégâts par niveau du sort.
+* Le sort frappe l’utilisateur ou l’un de ses alliés au lieu de la cible souhaitée, ou bien une cible déterminée aléatoirement s’il ciblait l’utilisateur du parchemin.
+* Le sort prend effet en un point déterminé au hasard compris dans les limites de portée.
+* L’effet du sort est contraire à celui qu’il devrait normalement avoir.
+* Le personnage est victime d’un effet mineur et étrange ayant un rapport avec le sort. Un tel effet se prolonge rarement au-delà de la durée initiale du sort (2d10 minutes pour un sort instantané).
+* Un ou plusieurs objets totalement inutiles apparaissent dans la zone d’effet du sort.
+* Le sort fonctionne à retardement. Il prend effet dans les 1d12 heures suivant la lecture du parchemin. Si l’utilisateur devait être le sujet du sort, celui-ci fonctionne normalement. Dans le cas contraire, le sort part dans la direction du sujet ou de la cible et se déclenche au maximum de sa portée, dans le cas où le sujet s’est déplacé depuis la lecture du parchemin.
+
+<table width="100%"><tr><td width="50%" align="center">
+{s:Reference|DETERMINATION}
+{| CLASS="tablo col1centre"
+|+ Parchemins
+|- CLASS="titre"
+| Faible || Intermédiaire || Puissante || Niveau <br/>du sort || Niveau <br/>du lanceur
+|- CLASS="premier"
+| 01–05 || — || — || 0 || 1
+|- CLASS="alt"
+| 06–50 || — || — || 1er || 1
+|-
+| 51–95 || 01–05 || — || 2e || 3
+|- CLASS="alt"
+| 96–100 || 06–65 || — || 3e || 5
+|-
+| — || 66–95 || 01–05 || 4e || 7
+|- CLASS="alt"
+| — || 96–100 || 06–50 || 5e || 9
+|-
+| — || — || 51–70 || 6e || 11
+|- CLASS="alt"
+| — || — || 71–85 || 7e || 13
+|-
+| — || — || 86–95 || 8e || 15
+|- CLASS="alt"
+| — || — || 96–100 || 9e || 17
+|}
+</td><td width="50%" align="center">
+{| CLASS="tablo"
+|+ Coût des parchemins
+|- CLASS="titre"
+| Niveau <br/>du sort || Prêtre, <br/>druide, <br/>magicien || Ensorceleur || Barde || Paladin, <br/>rôdeur
+|- CLASS="premier"
+| 0 || 12,5 po || 12,5 po || 12,5 po || —
+|- CLASS="alt"
+| 1er || 25 po || 25 po || 25 po || 25 po
+|-
+| 2e || 150 po || 200 po || 200 po || 200 po
+|- CLASS="alt"
+| 3e || 375 po || 450 po || 525 po || 525 po
+|-
+| 4e || 700 po || 800 po || 1 000 po || 1 000 po
+|- CLASS="alt"
+| 5e || 1 125 po || 1 250 po || 1 625 po || —
+|-
+| 6e || 1 650 po || 1 800 po || 2 400 po || —
+|- CLASS="alt"
+| 7e || 2 275 po || 2 450 po || — || —
+|-
+| 8e || 3 000 po || 3 200 po || — || —
+|- CLASS="alt"
+| 9e || 3 825 po || 4 050 po || — || —
+|}
+</td></tr></table>
+
+{s:AO}{s:Reference|PARCHEMINSPSYCHIQUES}
+=== Les parchemins de magie psychique ===
+On différencie les parchemins en fonction du type de magie utilisée pour les créer ; les lanceurs de sorts psychiques créent des parchemins psychiques de la même façon que les lanceurs de sorts profanes avec les parchemins profanes et les lanceurs de sorts divins avec les parchemins divins. Les parchemins psychiques suivent l’ensemble des règles normalement appliquées pour les autres [[parchemins magiques|parchemins]]. Un parchemin psychique est un objet à fin d’incantation que l’utilisateur doit déchiffrer puis lire pour déclencher l’effet. L’utilisateur doit également fournir toutes les composantes nécessaires, y compris les composantes intellectuelles et émotionnelles, mais pas les composantes matérielles et les focalisateurs (qui ont été fournis par le créateur du parchemin).
+En règle générale, il y a 70 % de chances qu’un parchemin soit profane et 30 % de chances qu’il soit divin. Le MJ doit plutôt utiliser la table ci-dessous s’il détermine aléatoirement les trésors pour une aventure dans laquelle la [[la magie psychique|magie psychique]] est présente.
+
+<center>
+{| CLASS="tablo col1centre"
+|+ Détermination aléatoire des parchemins magiques
+|- CLASS="titre"
+| D100 || Type de parchemin
+|- CLASS="premier"
+| 1-59 || Parchemin [[magie profane|profane]]
+|- CLASS="alt"
+| 60-84 || Parchemin [[magie divine|divin]]
+|- 
+| 85-100 || Parchemin [[la magie psychique|psychique]]
+|}
+</center>

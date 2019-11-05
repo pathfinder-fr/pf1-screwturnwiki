@@ -1,0 +1,133 @@
+---
+Name: Ressources.RM Localisation des blessures
+Title: Localisation des blessures
+LastModified: 2011-04-25 22:14
+---
+<Voici un système alternatif de gestion des blessures pour Pathfinder JDR améliorant le réalisme des blessures et permettant la localisation des frappes. Dans un monde intrépide régit par les batailles et les intrigues, il est indispensable que les Pjs prennent conscience des dangers inhérents aux combats et de leurs cruels conséquences.
+
+
+Ce système repose sur le Modificateur d’encaissement '''(ME)''' et le Niveau de blessures '''(NB)'''.
+
+
+Le '''Modificateur d’encaissement''' représente la capacité du personnage à encaisser des dommages important sans subir de Blessures critiques. Une Blessure critique est une perte de points de vie brutale qui entraine des effets préjudiciables à court, moyen ou long terme.
+
+* '''ME''' = '''PV totaux''' du personnage '''divisé par 5''' arrondie au supérieur + '''Modificateur de constitution''' (un modificateur de constitution négatif et considéré comme étant égal à 0)
+
+Exemple :Méliakor (guerrier niveau 1) à 12 PV et un modificateur de constitution de +2. Modificateur d’encaissement : 12 PV /5 (arrondie supérieur) = 3+2(modificateur de constitution) = +5
+
+
+
+Le '''Niveau de blessure''' représente la gravité de la Blessure critique. Il y a '''4''' Niveaux de blessures différentes décrivant la liste des effets préjudiciables par localisation.
+
+* '''NB''' = Points de '''dégâts''' infligé par une '''attaque unique''' divisé par le '''modificateur d’encaissement''' arrondie à l’inférieur.
+
+Exemple : Méliakor (guerrier niveau 1) à un modificateur d’Encaissement de +5. Il subit une attaque lui infligeant 9 points de dommage. Niveau de blessure = 9 / 5 (arrondie inférieur) = 1 (il subit une Blessure Légère)
+
+
+Le produit de cette opération détermine le Niveau de blessure comme suit :
+
+* NB < 1 = Aucune Blessure
+* NB = 1 = Blessure légère
+* NB = 2 = Blessure modérée
+* NB = 3 = Blessure grave
+* NB = 4 = Blessure mortelle
+* NB > 4 = Mort
+
+La '''Localisation des blessures aléatoire''' (sans pénalité de visée) s’effectue sur la base du '''jet d’attaque'''. La détermination de la zone touchée se fait à partir du tableau ci-contre. Les coups critiques sont généralement situés proche de la tête. Cela-dit, une extension de critiques expose aussi les bras et le corps. Ce système exclut l'échec automatique du 1 qui devient un échec critique possible.
+
+
+Les personnages ont aussi la possibilité de '''viser''' une partie du corps en particulier. Mais cela leur impose un malus au jet d’attaque.
+'''
+'''
+* '''Bras :''' malus de -3 au jet d’attaque.
+* '''Tête :''' malus de -4 au jet d’attaque.
+* '''Tronc :''' malus de -2 au jet d’attaque.
+* '''Jambes :''' malus de -3 au jet d’attaque.
+
+===Niveau de blessures===
+
+====Blessure légère====
+
+__Etats préjudiciables Primaire non soumis au jet de Vigueur :__
+
+* '''Bras :''' malus de -1 aux caractéristiques Force et Dextérité pendant 1D4 rounds.
+* '''Tête :''' malus de -1 aux caractéristiques Intelligence, Sagesse et Charisme pendant 1D4 rounds.
+* '''Tronc :''' malus de -1 aux caractéristiques Force et Dextérité pendant 1D4 rounds.
+* '''Jambes :''' malus de -1 aux caractéristiques Dextérité et Constitution pendant 1D4 rounds.
+
+__Etats préjudiciables Secondaire :__ Pendant 1 round (Jet de Vigueur DD10 annule).
+
+* '''Bras :''' Lâche l’objet tenu en main.
+* '''Tête :''' Etourdi.
+* '''Tronc :''' Chancelant.
+* '''Jambes :''' Tombe à terre.
+
+====Blessures modérées====
+
+__Etats préjudiciables Primaire non soumis au jet de Vigueur :__
+
+* '''Bras :''' malus de -2 aux caractéristiques Force et Dextérité pendant 1D8 rounds.
+* '''Tête :''' malus de -2 aux caractéristiques Intelligence, Sagesse et Charisme pendant 1D8 rounds.
+* '''Tronc :''' malus de -2 aux caractéristiques Force et Dextérité pendant 1D8 rounds.
+* '''Jambes :''' malus de -2 aux caractéristiques Dextérité et Constitution pendant 1D8 rounds.
+
+* Puis '''Fatigue''' jusqu’à la guérison.
+* '''Saignement :''' -1 points de vie par rounds jusqu’à la guérison.
+
+
+__Etats préjudiciables Secondaire :__ Pendant 1D4 rounds (Jet de Vigueur DD15 annule) ou voir Description.
+
+* '''Bras :''' Lâche l’objet tenu en main et impose un malus supplémentaire de -2 pour toutes les actions requérant l’utilisation de cette main jusqu’à la guérison (-1 pour les actions à deux mains).
+* '''Tête :''' Etourdi.
+* '''Tronc :''' Chancelant.
+* '''Jambes :''' Tombe à terre et impose un malus de -1,5 mètres en Déplacement jusqu’à la guérison.
+
+* '''Chancelant''' au 1er round (Jet de Vigueur DD15 annule).
+* '''Secoué''' pendant 1D4 rounds ou voir Description (Jet de Volonté DD15 annule).
+
+====Blessures graves====
+
+__Etats préjudiciables Primaire non soumis au jet de Vigueur :__
+
+* '''Bras :''' malus de -4 en Force et Dextérité jusqu’à la guérison.
+* '''Tête :''' malus de -4 en Intelligence, Sagesse et Charisme jusqu’à la guérison.
+* '''Tronc :''' malus de -4 en Force et Dextérité jusqu’à la guérison.
+* '''Jambes :''' malus de -4 en Dextérité et Constitution jusqu’à la guérison.
+
+* '''Fatigue''' jusqu’à la guérison.
+* '''Saignement :''' -3 points de vie par rounds jusqu’à la guérison.
+
+
+__Etats préjudiciables Secondaire :__ Membre partiellement amputé (Jet de Vigueur DD20 annule)
+
+* '''Bras :''' Réduction permanente de -1 en Force et Dextérité. De plus, l’utilisation de cette main est impossible et impose un malus supplémentaire de -4 pour toutes les actions requérant l’utilisation des deux mains.
+* '''Tête :''' Réduction permanente de -1 en Intelligence, Sagesse et Charisme. De plus, tombe inconscient pendant 1D8 rounds.
+* '''Tronc :''' Réduction permanente de -1 en Force et Constitution. De plus, est nauséeux pendant 1D8 rounds.
+* '''Jambes :''' Réduction permanente de -1 en Dextérité et Constitution. Tombe à terre et impose un malus permanent de 3  mètres en Déplacement.
+
+* '''Étourdi''' au premier round puis Chancelant pendant 1D4 rounds (Jet de Vigueur DD20 / réduit à Chancelant pendant 1D4 rounds).
+* '''Secoué''' pendant 1D8 rounds (Jet de Volonté DD20/ réduit à 1D4 rounds).
+
+====Blessures mortelles====
+
+__Etats préjudiciables Primaire non soumis au jet de Vigueur :__
+
+* '''Bras :''' malus de -6 en Force et Dextérité jusqu’à la guérison.
+* '''Tête :''' malus de -6 en Intelligence, Sagesse et Charisme jusqu’à la guérison.
+* '''Tronc :''' malus de -6 en Force et Constitution jusqu’à la guérison.
+* '''Jambes :''' malus de -6 en Dextérité et Constitution jusqu’à la guérison.
+
+* '''Épuisé''' jusqu’à la guérison, puis Fatigué pendant 1D12 jours -1 par bonus de Constitution.
+* '''Saignement :''' -5 points de vie par rounds jusqu’à la guérison.
+
+
+__États préjudiciables Secondaire :__ Membre amputé (Jet de Vigueur DD20 / réduit à partiellement amputé)
+
+* '''Bras :''' Réduction permanente de -2 en Force et Dextérité. De plus, l’utilisation de ce bras est impossible et impose un malus supplémentaire permanent de -4 pour toutes les actions requérant l’utilisation des deux mains.
+* '''Tête :''' Réduction permanente de -2 en Intelligence, Sagesse et Charisme. De plus il tombe dans le coma (inconscient jusqu’à la réussite d’un jet hebdomadaire de volonté DD20).
+* '''Tronc :''' Réduction permanente de -2 en Force et Constitution et augmente le Saignement de -3 points de vie par round.
+* '''Jambes :''' Réduction permanente de -2 en Dextérité et Constitution. Tombe à terre et Déplacement réduit de moitié en permanence.
+
+* '''Paralysé''' pendant 1D4 rounds puis Chancelant jusqu’à la guérison (Jet de Vigueur DD20 / réduit à Etourdi pendant 1 round puis Chancelant jusqu’à la guérison.
+* '''Inconscient''' pendant 1D12 round puis Effrayé jusqu’à la guérison (Jet de Volonté DD20 / réduit à Effrayé pendant 1D12 round puis Secoué jusqu’à la guérison.
+>

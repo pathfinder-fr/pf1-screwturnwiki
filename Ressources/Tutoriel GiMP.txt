@@ -1,0 +1,265 @@
+---
+Name: Ressources.Tutoriel GiMP
+Title: Dessiner un Donjon avec Gimp (Première Partie)
+LastModified: 2011-02-13 10:15
+Categories:
+  - 'Cartographie'
+  - 'Logiciel'
+---
+Ce petit tutorial ne prétend pas donner une méthode exacte et optimale pour obtenir des résultats tels qu’on peut le trouver dans les publications officielles.
+
+Il s‘agit plutôt ici de montrer comment créer rapidement un donjon à l’ancienne pouvant ensuite servir de battlemap ou être inclut dans une table virtuelle avec un rendu agréable à l’oeil.
+
+===Pour commencer...===
+
+Je n’utilise que le programme open-source Gimp. Il existe pour quasiment toutes les plateformes et possède par défaut tous les outils nécessaires en restant relativement léger.
+
+Donc avant toute chose, il faut télécharger et installer la dernière version 2.6.x du programme en allant sur la [http://www.gimp.org/downloads/|page officielle] ou sur [http://jeanlouis.hamel.perso.neuf.fr/GIMP26/index.html|ce site] qui vous permettra de l'avoir en français.
+
+Au démarrage, le programme affiche une fenêtre classique. Notez que j'utilise la version OSX mais les menus sur Windows et Linux sont strictement les mêmes.
+
+[imageauto||{UP}/tutogimp/image1.jpg]
+
+
+Pour ce tutorial, je vous propose de créer un donjon à l’ancienne : un enchainement de salles carrées avec quadrillage réglementaire et quelques éléments de décor pour agrémenter l’ensemble. 
+Ce simple exemple permettra surtout de balayer les techniques de base essentielles : tracé, gestion des calques et des masques, création de patterns et petites astuces qui dépannent.
+
+
+
+=== Etape 1 : Création de l’image ===
+
+Je conseille vivement de dessiner le plan global du donjon sur papier quadrillé avant de commencer à bricoler avec la souris. Même si ça peut paraître un peu du luxe, je trouve personnellement que le gain de temps est très significatif car cela permet de se concentrer sur l’utilisation du logiciel plutôt que sur le design du donjon.
+Partir avec une ébauche de plan stabilisée, même gribouillée, aide beaucoup à obtenir un résultat propre rapidement.
+
+
+Ensuite, quand l’architecture globale est déterminée, il faut commencer par créer le fichier qui va se remplir au fur et à mesure.
+
+Pour cela, on utilise le menu ''Fichier->Nouveau'' ou le raccourci ''CTRL-N''
+
+Une fenêtre s’ouvre et permet de paramétrer les propriétés de l’image. La plus évidente, c’est la taille. Je pars en général du principe que chaque case du donjon fera 100 pixels de côté en 72 ppp. Cela donne une bonne souplesse pour l’importation dans les logiciels de table virtuel et une qualité suffisante pour l’impression au format classique de 25mm par case.
+
+[imageauto||{UP}/tutogimp/image2.jpg]
+
+On peut évidemment augmenter la résolution pour avoir une meilleure qualité mais attention, le poids du fichier de travail va énormément augmenter au fur et à mesure de l’ajout des calques. Il y a donc un compromis à trouver...
+
+Le donjon que nous allons créer mesurera 12 cases de côté, donc cela donne un fichier de 1200*1200.
+
+[imageauto||{UP}/tutogimp/image3.jpg]
+
+
+Dans les '''Options Avancées''', attention à bien régler la zone ''Remplir Avec'' en mode '''Transparence'''.
+
+En validant, une nouvelle image, vide, est créé dans la fenêtre principale. Elle est remplie d’un damier gris, ce qui représente un calque entièrement transparent.
+
+[imageauto||{UP}/tutogimp/image4.jpg]
+
+
+
+===Etape 2 : Paramétrage des fenêtres===
+
+Il est temps maintenant de régler Gimp pour avoir sous la main l’ensemble des outils nécessaires.
+Ces outils sont regroupés dans des fenêtres personnalisables.
+Pour notre usage, il est intéressant d’avoir à l’écran la Boite à Outils ''(CTRL+B)'' ainsi que les fenêtres Calques ''(CTRL+L)'', Motifs ''(Shift+CTRL+P)'' et Dégradés ''(CTRL+G)''.  
+Ces fenêtres sont dockables, peuvent êtres regroupées, superposées, déplacées sur l’écran... 
+
+
+[imageleft||{UP}/tutogimp/image5.jpg]
+
+J’ai ainsi regroupé ici, dans une fenêtre unique les Calques, les Motifs et d’autres petites choses utiles de temps en temps. Le paramétrage est facilité par les petits boutons configurer cet Onglet (entouré en rouge) présent sur chaque fenêtre.
+
+[imageauto||{UP}/tutogimp/image6.jpg]
+
+
+Voila, revenons à la fenêtre Calques.
+Actuellement, elle n’affiche qu’un seul calque, appelé '''Arrière-Plan'''. C’est sur ce calque que nous allons commencer à travailler.
+
+
+
+
+
+
+
+
+
+
+
+
+
+===Etape 3 : Remplir un calque avec une texture===
+
+Il est important de garder en tête le principe de superposition des Calques et ce qui sera dessiné dessus car une grande partie du boulot réalisé sur une carte repose sur la gestion fine de ces calques.
+
+D’une manière assez logique, j’essaye de penser le donjon comme une construction réelle décomposée en autant de calques que de catégorie d’objets : d’abord la roche, puis les murs, puis le sol du donjon, puis le quadrillage, puis la déco, puis la lumière puis les textes... chaque catégorie venant au dessus de la précédente pour la recouvrir plus ou moins partiellement.
+Cette manière de faire simplifie énormément le travail car elle évite beaucoup de prise de tête et permet d’ajuster très finement le rendu.
+
+Commençons donc par remplir le calque d’Arrière Plan, celui qui est tout «en dessous» avec de la roche qui fera, en quelque sorte, office de zone pleine, à l’opposé de la zone vide : le donjon.
+
+__Pour cela, bien vérifier que le calque Arrière Plan est sélectionné.__
+
+Ouvrir la fenêtre Motifs.
+
+Aller chercher dans les Motifs proposés par défaut celui qui s’appelle '''Slate'''. Je l’ai entouré en rouge sur cette image.
+
+[imageauto||{UP}/tutogimp/image7.jpg]
+
+Ensuite, dans le menu ''Edition -> Remplir avec un Motif (CTRL+;)''
+
+Magique... tout le calque se rempli avec le motif Slate.
+
+
+
+[imageauto||{UP}/tutogimp/image8.jpg]
+
+
+Pour l’instant, le rendu semble peut-être trop régulier et mérite peut-être d’être retouché.
+
+Pour cela, j’utilise un filtre appelé Piquer qui mélange les pixels avec leurs voisins et donne un aspect plus naturel à la texture.
+Le filtre est accessible dans le menu ''Filtres->Bruit->Piquer''
+
+[imageauto||{UP}/tutogimp/image9.jpg]
+
+Je lui donne des valeurs assez élevées pour donner à la roche un aspect granitique mais là, c’est vraiment à chacun de faire selon son goût et l’effet recherché.
+
+
+
+Voila, la roche est prête, il n’y a plus qu’à y creuser un donjon.
+
+
+===Etape 4 : Tracer les murs===
+
+Gimp est très adapté au dessin de donjons à l’ancienne car il offre des outils d’alignement et de grille simples et efficaces.
+
+Dans le menu ''Image'', ouvrez la fenêtre ''Configurer la Grille''.
+Dans les cases '''Espacement''', entrez la taille de vos cases. Ici, 100 pixels de côté. Cette grille va servir de repère pour toute la suite.
+
+Puis dans le menu ''Affichage'' cochez les deux options ''Afficher la Grille'' puis ''Aligner sur la Grille''.
+
+Immédiatement le quadrillage apparait sur la carte. C’est un quadrillage entièrement virtuel, qui n’est là que comme support pour le dessin et n’apparaitra jamais sur l’image finale.
+
+Il est temps de commencer à tracer quelques murs.
+
+Pour cela, dans la Boite à Outils, j’utilise l’outil '''Pinceau''' (touche de raccourci : ''P'') avec une brosse Circle de taille 17 tel qu’indiqué ici...
+
+[imageauto||{UP}/tutogimp/image10.jpg]
+
+Mais avant d’esquisser le moindre bout de mur, il est important de créer d'abord un nouveau calque. Pour cela, allez dans le menu ''Calques->Nouveau Calque''.
+Une fenêtre apparait avec quelques options.
+
+[imageauto||{UP}/tutogimp/image11.jpg]
+
+Dans cette fenêtre, le plus important est de s’assurer que la couleur de remplissage est bien '''Transparence'''.
+Dans la zone ''Nom du Calque'', taper '''Murs''', afin de se rappeler plus tard ce que contient ce calque.
+
+En cliquant sur ''Valider'', un nouveau calque Murs apparait dans la fenêtre des calques, au dessus de celui d’Arrière Plan. La position relative des calques est importante et il est possible de les organiser les uns par rapport aux autres en les glissant avec la souris.
+
+Pour la suite, __s’assurer que c’est bien le calque Murs qui est sélectionné__. 
+
+Si ce n’est pas le cas, tout ce que vous allez dessiner va se poser sur un autre calque (ici l’Arrière Plan) et cela risque d’être problématique.
+
+
+Traçons maintenant les contours extérieurs et intérieurs du donjon, c’est à dire ses murs, en s’aidant de la grille.
+
+Je commence par cliquer sur une intersection. Un point apparait.
+
+Puis, en laissant la touche '''Shift''' du clavier enfoncée, je me rend sur l’intersection qui marque la fin du segment que je souhaite tracer. 
+Un trait vert apparait pour indiquer la position du segment. Comme je suis aligné sur la grille, le curseur saute automatiquement sur les intersections, pas besoin d’être un as de précision....
+
+Une fois que j’ai déterminé mon segment, je clique... et, magique, un trait noir, définitif, remplace le trait vert.
+
+__Je laisse Shift enfoncé__, je positionne l’extrémité de mon prochain segment, je clique... et un nouveau trait, impeccablement relié au premier, apparait...
+
+En quelques minutes, la structure du donjon est tracée...
+
+Entraînez vous à tracer différentes formes et à prendre en main l’outil Pinceau avec la touche ''Shift'' qui est d’une efficacité redoutable pour ce genre de cartes.
+Vous verrez d’ailleurs que la grille n’est pas restrictive et qu’il est possible d’aller poser des points entre les intersections pour, par exemple, gérer des murs obliques.
+
+[imageauto||{UP}/tutogimp/image13.jpg]
+
+
+
+Le donjon est tracé, il faut maintenant le démarquer du calque d’arrière plan avec une texture spéciale.
+
+
+===Etape 5 : Le sol du donjon===
+
+Cette étape va permettre d’expérimenter une autre fonction puissante de Gimp : le masque de calque.
+
+Créez un nouveau calque transparent, appelé ''Sol Donjon''. Dans la fenêtre Calques, placez le entre le calque Murs et le calque Arrière Plan en le glissant simplement à l’aide de la souris.
+
+Vous avez donc 3 calques, dans l’ordre en partant du haut : Murs, Sol Donjon, Arrière Plan.
+
+Si on utilise la technique de l’étape 3 pour remplir le calque de Sol avec un motif, l’ensemble du calque va se remplir, prenant le pas sur l’Arrière Plan. Il faut donc ne remplir que la zone qui est dans le donjon.
+
+Pour cela, il faut créer un masque de calque qui reprend la forme du donjon.
+
+
+__Sélectionner le calque Murs__ puis l’outil de '''Sélection Contigue''' (la fameuse Baguette Magique, raccourci ''U'').
+
+Cliquer n’importe où '''DANS''' le donjon.
+
+Si tout va bien, un chemin pointillé blanc apparait tel que sur l’image.
+
+[imageauto||{UP}/tutogimp/image14.jpg]
+
+Ce pointillé représente une sélection. Schématiquement, ici, la zone à l’intérieur des murs est sélectionnée et il est possible de travailler dessus uniquement, sans impacter ce qu’il y a en dehors.
+
+L’objectif ici est plutôt d’utiliser cette sélection comme un masque que nous appliquerons plus tard à d’autres calques.
+
+Ouvrir le menu ''Selection'' et choisir l’option ''Enregistrer dans un Canal''. La fenêtre Canal s’ouvre automatiquement.
+
+Un canal est un calque composé de deux couleurs : noir et blanc.
+
+Superposé à un autre calque, il le découpe pour ne laisser, au final, que la zone blanche.
+
+[imageauto||{UP}/tutogimp/image15.jpg]
+
+
+Renommez le canal en l’appelant '''Donjon''' (simplement en double-cliquant sur son nom par défaut dans la fenêtre). Un canal reste sauvegardé dans le fichier, au même titre qu’un calque, et il est bon de les identifier correctement pour ne pas se mélanger quand on a plusieurs masques qui viennent s’ajouter.
+
+Une fois que le masque est sauvé, il faut ensuite impérativement vider la sélection en allant dans le menu ''Sélection-> Aucune''
+
+Retournez à la fenêtre Calques (CTRL+L).
+
+Sélectionnez le calque Sol Donjon.
+
+
+Dans l’onglet Motifs (Shift+CTRL+P), sélectionnez celui qui s’appelle ''Stone'' et qui a une couleur bleutée intéressante.
+
+Remplissez le calque comme lors de la première étape (CTRL+;)
+
+Comme prévu, tout le calque se remplit avec le motif, c’est normal.
+
+Profitons en pour appliquer un filtre Piquer sur cette texture un peu répétitive, avec des paramètres similaires à ceux de l’étape 3. Le résultat est assez intéressant et suffisant pour cette fois.
+
+Maintenant, découpons le calque selon le tracé des murs...
+
+Cliquez __avec le bouton droit de la souris__ sur le calque Sol Donjon et choisissez le menu ''Ajouter un Masque de Calque''.
+
+
+[imageauto||{UP}/tutogimp/image16.jpg]
+
+Dans le menu qui s’affiche, cochez l’option '''Canal''', assurez vous que c’est bien le masque '''Donjon''' qui est défini, puis cliquez sur '''Ajouter'''.
+
+Et voila, seules les parties blanches du masque apparaissent.
+
+
+
+Cliquez-droit à nouveau sur le calque Sol-Donjon et choisissez l’option ''Appliquer Masque de Calque''.
+Toutes les zones noires du masque sont converties en zones transparentes, laissant apparaitre le calque d’Arrière Plan, le reste conserve la texture de sol...
+
+Dernière petite retouche, pour terminer ce premier chapitre, ouvrez le menu ''Couleurs->Luminosité Contraste'' et réglez la luminosité à +90 et le contraste à +10 puis validez.
+
+[imageauto||{UP}/tutogimp/image17.jpg]
+
+Enfin, __sélectionnez le calque d’Arrière Plan__ et, de la même manière, modifiez la luminosité (-80) et le contraste (+20)
+
+[imageauto||{UP}/tutogimp/donjon1.jpg]
+
+
+Voila le résultat, il peut encore être amélioré mais ces petites techniques permettent déjà d’avoir une bonne base de travail pour la suite, qui consistera à ajouter la déco, les effets de lumière et, bien entendu, un quadrillage...
+
+Etape suivante : [[Tutoriel GiMP2|Quadrillages et Ombres Portées]]
+
+
+
+ 

@@ -1,0 +1,235 @@
+---
+Name: Pathfinder-RPG.Blessures et vitalité
+Title: Blessures et vitalité
+LastModified: 2013-03-03 23:40
+Categories:
+  - 'Art de la guerre'
+  - 'Règles officielles'
+---
+<div style="float: right; margin-left: 10px; margin-right: -40px; max-width: 300px;" class="presentation recentre">{toc}</div>{s:UC}<div style="float: left; margin-right: 20px; margin-bottom: 10px;" class="presentation recentre">
+<h2 class="separator"><div style="float: right; margin-top: -4px;">{s:uc}</div>Règles alternatives</h2>
+<ul><li>[[Régles alternatives|Introduction]]</li>
+<li>[[Larmure comme RD|L'armure comme réduction de dégâts]]</li><li>[[Frappes ciblées]]</li><li>[[Pièces darmures|Pièces d'armure]] ([[Description des pièces darmure|descriptions]])</li><li>[[Blessures et vitalité]]</li></ul></div>Les [[points de vie]] sont une abstraction. Quand un [[guerrier]]
+gagne un niveau, son corps ne devient pas subitement plus
+résistant aux dégâts. Un coup d’épée ne se met pas subitement
+à causer moins de dommages. Les [[points de vie]] suggèrent
+en fait que le [[guerrier]] a atteint un nouveau stade dans sa
+formation, qu’il a amélioré ses capacités à encaisser les coups
+et à gérer les blessures. Et les [[points de vie]] gagnés à haut niveau
+reflètent bien plus la faculté d’éviter les coups, de virevolter
+et d’esquiver, que le [[guerrier]] a acquise à la dure, plutôt que
+son talent pour infliger des dégâts. Chaque perte de [[points de vie]], dans ce cas, suggère que le personnage se fait moins
+leste au fil du combat – en d’autres termes, ses [[points de vie]] en
+courbe descendante sont un marqueur pour son endurance
+et sa condition physique générale. Évidemment, en termes de
+satisfaction, ce n’est pas la même chose, surtout quand après
+un [[coup critique]], il faut annoncer au joueur que son adversaire
+a réussi à échapper à son coup mais que ses attaques répétées
+rendent à chaque fois l’ennemi moins chanceux.
+
+Ce système alternatif pour gérer les blessures et la vitalité
+devrait permettre de remédier à ce problème. Comme les autres
+règles de ce chapitre, ce système est entièrement optionnel.
+
+===Déterminer les points de blessure et de vitalité===
+Avec ce système, les créatures ont des points de blessure et de
+vitalité à la place des points de vie. Ces deux scores de remplacement
+se notent et se suivent séparément en cours de jeu, et
+représentent les deux différentes façons dont le personnage peut
+encaisser les dégâts qui lui sont infligés. Vous trouverez plus loin
+dans le texte la description de ces nouveaux scores et la manière
+de les utiliser avec ce système alternatif de gestion des dégâts.
+
+====Points de blessure====
+En règle générale, les créatures ont un nombre de points de
+blessure égal au double de leur score de [[Constitution]]. Elles ont
+aussi un seuil de blessure égal à leur score de [[Constitution]].
+
+Les points de blessure représentent la somme de dégâts que
+la créature peut encaisser avant de mourir. Quand les points
+de blessure d’une créature descendent au niveau de leur seuil
+de blessure ou en dessous, la créature est blessée. Lorsqu’une
+créature est blessée, elle est [[Chancelant|chancelante]]. Cette condition
+préjudiciable cesse lorsque la créature n’est plus blessée. Par
+ailleurs, quand une créature est blessée, si cette créature réalise
+une [[action simple]] ou de [[Action de mouvement|mouvement]] durant son tour, ses
+points de blessure restants sont minorés de 1 point et elle doit
+réussir un test de [[Constitution]] [[DD]] 10. En cas d’échec, la créature
+perd connaissance et se retrouve [[Inconscient|inconsciente]].
+
+Quand une créature tombe à 0 point de blessure ou en
+dessous, elle [[Mort|meurt]].
+
+'''Points de Blessure, affaiblissement temporaire et diminution
+permanente de la Constitution, malus'''. Les points de blessure
+d’une créature et son score de [[Constitution]] sont intrinsèquement
+liés. Pour chaque point perdu dans un [[Affaiblissement temporaire (capacité)|affaiblissement temporaire]]
+de la [[Constitution]], la créature perd 2 points de blessure ; ces pertes
+n’affectent pas en revanche le seuil de blessure. Quand une créature
+subit un malus à son score de [[Constitution]] ou qu’elle subit
+une [[Affaiblissement temporaire (capacité)#Diminution_permanente_0|diminution permanente]] de cette caractéristique, elle perd
+1 point de blessure par point ôté à sa [[Constitution]], et 1 point de
+blessure par point de malus pour la durée de la pénalité. Un malus
+à la [[Constitution]] ou une [[Affaiblissement temporaire (capacité)#Diminution_permanente_0|diminution permanente]] du score de
+[[Constitution]] n’a pas d’effet sur le seuil de blessure de la créature.
+
+====Points de vitalité====
+La Vitalité représente la faculté d’une créature à éviter la majorité
+des dégâts qu’elle pourrait recevoir des suites d’une attaque.
+Quand une créature encaisse des dommages, les points de
+dégâts sont normalement déduits en premier de ses points de
+vitalité. Cependant, certaines attaques spéciales s’en prennent
+parfois directement aux points de blessure ou diminuent à la
+fois les points de blessure et de vitalité (voir [[#COUPSCRITIQUES|Coups critiques]]).
+
+Les créatures ayant au moins un niveau ou un dé de vie
+complet ont des points de vitalité. Pour chaque niveau ou
+dé de vie complet dont dispose une créature, elle gagne un
+nombre de points de vitalité en fonction du type de son dé
+de vie. Pour connaître le nombre de points de vitalité d’une
+créature, utilisez ses dés de vie comme vous le feriez pour déterminer
+ses [[points de vie]], mais sans ajouter le modificateur
+de [[Constitution]] de la créature. Une créature obtient toujours
+le nombre de points de vitalité maximum sur son premier
+dé de vie si elle a un niveau dans une classe de personnage.
+Les créatures dont le premier dé de vie entier vient d’une
+classe de PNJ ou dépend de leur race lancent leur dé de vie
+pour déterminer leur nombre de points de vitalité de départ.
+Une créature avec moins d’un dé de vie n’a pas de points de
+vitalité ; elle n’a que des points de blessure.
+
+Quand une créature n’a plus aucun point de vitalité, les dégâts
+supplémentaires reçus affectent son total de points de blessure.
+
+===Regagner ses points===
+Une créature peut regagner ses points de blessure et de
+vitalité par de nombreux moyens, mais il est en général plus
+simple de regagner des points de vitalité.
+
+'''Effets et sorts de guérison'''. Lorsqu’un sort de guérison est
+lancé, ou quand on utilise un pouvoir ayant des effets à même
+de soigner (comme la [[Canalisation dénergie|canalisation d’énergie positive]] sur les
+créatures vivantes ou l’[[Imposition des mains]] du [[paladin]]), la
+créature qui lance le sort ou qui active l’effet doit choisir si elle
+préfère rendre des points de blessure ou de vitalité. La créature
+doit faire ce choix avant le lancement du sort ou l’activation de
+son pouvoir. Quand cette créature décide de guérir des points
+de vitalité, le sort de guérison ou l’effet agit normalement, et
+rend un nombre de points de vitalité égal au nombre de [[points de vie]]
+que le sort ou l’effet aurait normalement restitué à sa
+cible. Si la créature décide de guérir des points de blessure, elle
+restitue un nombre de points de blessure égal au nombre de
+dés qu’elle aurait normalement dû lancer dans le cadre du sort
+de guérison ou de l’effet. Dans le cas des effets comparables
+au sort de [[guérison suprême]], quand un sort ou un effet guérit 10
+[[points de vie]] par niveau du lanceur de sorts, la créature restitue
+1 point de blessure par niveau du lanceur de sort.
+
+Si, par exemple, une [[Prêtre|prêtresse]] de niveau 12 utilise la
+[[Canalisation dénergie|canalisation d’énergie positive]] pour restituer des points de blessure à des créatures
+vivantes, elle guérira 6 points de blessure pour toutes les créatures
+vivantes dans la zone qui l’entoure. Si elle jette le sort
+[[guérison suprême]], elle restituera 12 points de blessure à la créature touchée.
+
+'''Repos'''. Quand une créature prend une pleine nuit de repos
+(8 heures de sommeil ou plus), elle récupère tous ses points
+de vitalité et 1 point de blessure. Si ce repos est interrompu de
+manière notable, la créature ne récupère ni ses points de vitalité,
+ni son point de blessure. Après une journée complète de
+repos alité, une créature récupère tous ses points de vitalité et
+l’équivalent de la moitié de ses niveaux en points de blessure.
+
+'''Restauration et effets similaires'''. Quand une créature récupère
+des points de [[Constitution]] grâce à un sort de [[restauration]]
+ou par un effet similaire, elle recouvre 2 points de blessure
+pour chaque point de [[Constitution]] récupéré. L’annulation
+d’un malus à la [[Constitution]] ou le recouvrement de points
+perdus suite à une [[diminution permanente]] du score de
+[[Constitution]] entraînent la récupération de tous les points de
+blessure perdus du fait de ce malus ou de cette diminution.
+
+===Perdre des points de blessure===
+Certaines attaques ciblent directement les points de blessure.
+
+{s:Reference|COUPSCRITIQUES}'''Coups critiques'''. Quand une créature subit un [[coup critique]],
+le coup cause des dégâts normalement, en diminuant
+d’abord le nombre de points de vitalité, puis en réduisant les
+points de blessure si les points de vitalité sont tombés à 0. Une
+telle attaque cause aussi un nombre de points de blessure égal
+à son multiplicateur. Une arme dont le multiplicateur est de
+×3, par exemple, cause ainsi 3 points de blessure. Ces dégâts
+portés aux points de blessure s’ajoutent aux dégâts normalement
+subis par la créature du fait du [[coup critique]].
+
+'''Dégâts d’énergie négative'''. Quand une créature cause des
+dégâts d’[[énergie négative]] à une autre avec un sort ou un effet,
+elle peut choisir de s’attaquer aux points de vitalité ou aux
+points de blessure, mais pas aux deux. Si cette créature opte
+pour des dégâts portés aux points de vitalité, le sort ou l’effet
+cause ses dégâts d’énergie négative normalement, et ces dégâts
+s’appliquent uniquement aux points de vitalité, même si ces dégâts
+dépassent le total de points de vitalité de la cible. Si le sort
+ou l’effet est appliqué directement aux points de blessure, les
+dégâts d’[[énergie négative]] viennent réduire les points de blessure
+de la cible en comptant 1 point de blessure pour chaque
+dé de dégâts que la créature est supposée jeter pour son effet. Si
+l’effet cause des dégâts en fonction du niveau du lanceur de sort
+(comme dans le sort [[mise à mal]]), comptez un nombre de points
+de blessure égal au niveau de la créature ayant lancé le sort.
+
+===Autres considérations===
+Les points qui suivent détaillent quelques éléments à considérer
+lorsqu’est employé le système des points de blessure et de vitalité.
+
+'''Points de vie temporaires'''. Lorsqu’une créature est supposée
+gagner des [[points de vie temporaires]], elle acquiert à la place
+des points de vitalité temporaires. Quand cette créature reçoit
+des dégâts, elle perd en priorité les points de vitalité temporaires.
+Si une attaque lui fait perdre uniquement des points de
+blessure, les points de vitalité temporaires ne sont pas perdus.
+
+'''Dégâts non létaux'''. Quand une créature reçoit des dégâts non
+létaux, ces dégâts sont uniquement appliqués aux points de vitalité,
+même si l’attaque a causé plus de dégâts que la cible n’a de points
+de vitalité. Si la cible n’a pas (ou plus) de points de vitalité (et pas de
+points temporaires de vitalité), elle perd 1 point de blessure chaque
+fois qu’elle reçoit des dégâts d’une attaque non létale. Si l’attaque
+non létale est un [[coup critique]], elle perd un nombre de points de
+blessure égal au modificateur de dégâts de l’attaque critique.
+
+'''Sorts et effets à déclencheur'''. Quand ce système est utilisé, si un
+sort ou une aptitude dispose d’un effet qui se déclenche lorsque
+le personnage réduit les points de vie d’une créature à 0 ou en
+deçà (comme le sort [[désintégration]]), cet effet est déclenché dès que
+la créature est blessée. Dans le cas du sort [[mise à mal]] et pour les
+effets et sorts similaires où les points de vie d’une créature ne
+peuvent descendre en-dessous de 1 du fait du sort ou de l’effet,
+les points de blessure de la créature ne peuvent être amenés par
+ce biais au niveau du seuil de blessure de la créature ou en deçà.
+
+===Dons alternatifs===
+Les dons suivants sont entièrement nouveaux et ont été
+créés pour accompagner ce système ou ont été remaniés
+pour fonctionner avec les points de vitalité et de blessure.
+
+<center>
+{| CLASS="tablo"
+|+ Dons alternatifs
+|- CLASS="titre"
+| Don || Conditions || Avantages
+|- 
+| [[Dur à cuire (alternatif)|Dur à cuire]] ||  —
+| CLASS="gauche" | Reste conscient même blessé
+|- CLASS="alt"
+| [[Initié du refus de mourir (alternatif)|Initié du refus de mourir]]*
+| CLASS="gauche" | [[For]] 13, [[Constitution|Con]] 13, [[Dur à cuire (alternatif)|Dur à cuire]], [[Endurance]], [[BBA]] +6, [[orque]] ou [[demi-orque]]
+| CLASS="gauche" | Perte maximale de 1 point de blessure par round quand blessé, bonus aux jets d'attaque et de dégâts en-dessous du seuil de blessure
+|-
+| &emsp; [[Maître du refus de mourir (alternatif)|Maître du refus de mourir]]*
+| CLASS="gauche" | [[For]] 13, [[Constitution|Con]] 15, [[Dur à cuire (alternatif)|Dur à cuire]], [[Initié du refus de mourir (alternatif)|Initié du refus de mourir]], [[Peau de fer]], [[BBA]] +9, [[orque]] ou [[demi-orque]]
+| CLASS="gauche" | Ne reçoit pas de points de blessure en faisant des actions blessé
+|- CLASS="alt"
+| [[Robustesse (alternatif)|Robustesse]] || —
+| CLASS="gauche" | +1 point de blessure par dé de vie
+|}
+</center>

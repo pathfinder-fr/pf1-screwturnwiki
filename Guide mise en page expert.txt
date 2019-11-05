@@ -1,0 +1,56 @@
+---
+Name: Guide mise en page expert
+Title: Guide de création : éléments experts de mise en page
+LastModified: 2011-09-10 14:56
+---
+
+===Autres décorations===
+
+* description
+
+* navmenu, navmenudroite
+
+* presentation, recentre, arrondi, ombre, espaceliste
+
+
+
+==Conventions pour Pathfinder-FR==
+
+Pour formater le texte de manière harmonieuse entre les différentes pages (et surtout pour pouvoir changer la mise en page de toutes les pages en une seule opération), on a défini certaines "commandes" spécifiques à Pathfinder-FR. Ces ''"snippets"'' (c'est le nom technique) s'utilisent en suivant le format suivant :
+
+@@{s:Nom|arg1|arg2|arg3|...}@@
+
+où Nom est le nom du snippet et arg1, arg2, arg3, ... les arguments (qui varient d'une utilisation à l'autre).
+
+Voici quelques exemples de snippets plus ou moins courantes.
+
+===Liens en bas de page===
+
+Au bas des pages du wiki de Golarion, il est de bon ton d'ajouter un petit paragraphe indiquant dans quelles aides de jeu et dans quels livres on peut trouver plus d'informations au sujet du thème abordé dans la page. Pour que tous ces commentaires utilisent le même style, veillez à les mettre dans un snippet VoirAussi :
+
+@@{s:VoirAussiAvant}
+* élément avec lien
+* élément avec lien
+* élément avec lien
+{s:VoirAussiAprès}@@
+
+Chaque "élément avec lien" devrait indiquer le type d'information qu'on peut trouver dans le livre ou l'aide de jeu citée ainsi qu'un lien vers ce livre ou cette aide de jeu. Par exemple, la page [[++Golarion.MainPage|Bienvenue sur le Wiki Golarion]] se termine actuellement par ceci :
+
+@@{s:VoirAussiAvant}
+* Plus d'informations générales au sujet de Golarion dans le 
+[[Aides de jeu#GUIDEDUJOUEUR|Guide du joueur]] téléchargeable gratuitement sur la 
+page des [[Aides de jeu]]
+* Golarion est décrite de manière générale dans le 
+[[Publications#CAMPAIGNSETTING|Campaign Setting/Livre de campagne]] et dans le 
+[[Publications#GAZETTEER|Gazetteer/Atlas]], voir la page des [[Publications]].
+{s:VoirAussiAprès}@@
+
+'''Pour créer un lien direct vers une aide de jeu ou un livre de la page Publications,''' suivez les étapes suivantes.
+* ouvrir la page contenant l'aide de jeu ou le livre
+* cliquer sur le titre de l'aide de jeu ou du livre
+* regarder l'adresse qui se trouve dans le navigateur. Elle devrait avoir la forme suivante :
+@@http://www.pathfinder-fr.org/wiki/Golarion.Publications.ashx#AP4PG@@
+* copiez tout ce qui se trouve '''après wiki/''' mais '''sans .ashx'''
+@@Golarion.Publications#AP4PG@@
+* Le lien s'écrira ainsi dans le wiki (n'oubliez pas d'ajouter ++ au début !)
+@@[[++Golarion.Publications#AP4PG|texte]]@@

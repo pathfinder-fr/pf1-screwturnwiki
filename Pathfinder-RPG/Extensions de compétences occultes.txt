@@ -1,0 +1,243 @@
+---
+Name: Pathfinder-RPG.Extensions de compétences occultes
+Title: Extensions de compétences occultes
+LastModified: 2018-01-11 21:17
+---
+{s:MenuAventuresOccultes}
+
+{toc}
+
+{s:AO}Un personnage doté de magie psychique ou du don [[Sensibilité psychique]] peut débloquer des aspects inhabituels des compétences dans lesquelles il est formé. Entre la capacité à déchiffrer les impressions psychiques laissées sur un objet via Estimation et la possibilité de chercher de l’eau ou autre avec une baguette de sourcier grâce à la compétence Survie, les compétences ne vous sembleront plus jamais aussi ordinaires qu’avant.
+
+{s:Reference|PHRÉNOLOGIE}
+===Phrénologie ([[Connaissances]] (Mystères))===
+Le personnage examine le crâne d’une créature intelligente pour en déduire ses attributs psychologiques, car la forme du cerveau influe sur celle de la boîte crânienne.
+====Test====
+Le personnage peut tâter le crâne d’une créature du bout des doigts une fois par jour pour examiner sa forme. Pour cela, il lui faut une minute de concentration tandis qu’il manipule le crâne. Il peut utiliser cette technique sur un individu consentant, sans défense ou paralysé ou même sur des restes décomposés (tant que le crâne est intact ou qu’il peut le reconstituer). Cette compétence est sans effet sur les créatures dépourvues de crâne visible, comme les créatures artificielles, les élémentaires, les vases ou les plantes. Au bout d’une minute, le MJ effectue un test de Connaissances (mystères) en secret, en utilisant généralement les DV de la cible comme modificateur au DD. Lors du test, le personnage obtient toutes les informations associées au DD égalé ou dépassé. Par exemple, s’il obtient 22 au test alors qu’il examine une créature dotée de 2 DV, il apprend sa race, son âge, son sexe, son alignement, sa classe, mais pas son niveau ou ses DV.
+
+<center>
+{| CLASS="tablo" WIDTH="50%"
+|+ DD aux tests de Connaissances (Mystères) assistés par la Phrénologie
+|- CLASS="titre"
+| Tâche  
+| DD de base du test
+|- CLASS="premier"
+| Déterminer la race et l’âge
+| CLASS="gauche" | 10
+|- CLASS="alt"
+| Déterminer le sexe
+| CLASS="gauche" | 15
+|-
+| Déterminer l’alignement
+| CLASS="gauche" | 15 + DV de la cible†
+|- CLASS="alt"
+| Déterminer la classe
+| CLASS="gauche" | 20 + DV de la cible†
+|-
+| Déterminer le niveau ou les DV
+| CLASS="gauche" | 25 + DV de la cible†
+|-
+| COLSPAN="2" CLASS="note" | † Si la créature est morte, utilisez les DV qu’elle possédait de son vivant.
+|}
+</center>
+====Action==== 
+Il faut une minute d’examen ininterrompu pour déchiffrer le crâne d’une créature.
+====Nouvel essai==== 
+Oui. Le personnage peut obtenir de nouvelles informations en ré-étudiant le crâne mais il n’a droit qu’à une tentative par jour.
+
+{s:Reference|HYPNOSE}
+===Hypnose ([[Diplomatie]])===
+Le personnage utilise son pouvoir de suggestion et une subtile influence psychique pour modifier l’esprit d’un sujet et ramener des souvenirs refoulés à la surface.
+====Test==== Le personnage peut utiliser l’hypnotisme une fois par jour. Le DD du test de Diplomatie est de 20 + modificateur de Volonté de la cible contre les effets d’enchantement mentaux de coercition. Toutes les utilisations de l’hypnose sont des effets d’enchantement mentaux de coercition.
+
+''Implanter une suggestion''. Le personnage peut implanter un plan d’action raisonnable accompagné d’un déclencheur dans l’esprit d’une créature consentante. Pour cela, il doit passer une minute à plonger le sujet dans une sorte de transe, après quoi il effectue son test de Diplomatie. S’il réussit, il implante le plan d’action prévu, comme avec un sort de suggestion d’une durée de 10 minutes plus 10 minutes par point au-delà du DD. Si la cible revient sur sa décision et n’est plus consentante, elle a droit à un jet de Volonté par round pour se débarrasser des effets de l’hypnose. Le DD du jet de sauvegarde est de 10 + 1/2 niveau du personnage + son modificateur de Charisme. Le personnage peut tenter d’implanter discrètement une suggestion dans l’esprit d’une créature non consentante présentant une attitude indifférente ou mieux, après une minute d’interactions calmes et continues avec elle, mais le DD augmente alors de 10.
+
+''Rappeler un souvenir''. Le personnage peut raviver des souvenirs oubliés chez une cible consentante. Il doit passer une minute à la plonger dans une sorte de transe paisible, après quoi il effectue son test de Diplomatie. S’il réussit, la créature hypnotisée peut refaire un test d’Intelligence ou de Connaissances précédemment raté pour se souvenir d’une information avec un bonus de +4. Il faut que le sujet ait eu connaissance de cette information ou ait été exposé à la situation désirée.
+====Action==== 
+Il faut une minute d’interactions au calme avec la cible.
+====Nouvel essai==== 
+Oui. Le personnage peut tenter d’hypnotiser la même personne à plusieurs reprises mais pas plus d’une fois par jour.
+
+{s:Reference|PSYCHOMÉTRIE}
+===Psychométrie ([[Estimation]])===
+Le personnage déchiffre les impressions psychiques laissées sur les objets ou en certains lieux suite à des évènements ou à la présence de leur propriétaire.
+====Test==== 
+Une fois par jour, le personnage peut se concentrer pendant 1 minute tandis qu’il est en contact avec un objet ou un lieu. Il reçoit alors des éclairs d’intuition sur la nature de la cible et sur son propriétaire. Au bout d’une minute, il effectue un test d’Estimation DD 15 pour comprendre ses visions. Il obtient une information sur l’importance historique de l’objet ou sur son précédent propriétaire, choisie par le MJ (comme un aperçu de l’apparence de l’ancien propriétaire ou de l’état émotionnel qui était le sien lorsqu’il a utilisé l’objet pour la dernière fois). Le personnage obtient une information supplémentaire par tranche de 10 points au-dessus du DD, à condition de se concentrer une minute de plus par information complémentaire. Si le personnage rate son test de moins de 5 ou si l’objet ne comporte pas d’impression psychique, il n’apprend rien. S’il rate son test de 5 ou plus, il pense que l’objet a une importance psychique (même si ce n’est pas le cas) et l’information qu’il obtient est complètement erronée. Si le personnage utilise la psychométrie sur un objet affecté par charger un objet ou implantation de lecture factice, il découvre automatiquement toutes les informations laissées par le sort. Il doit aussi effectuer un jet de Volonté. Si l’objet est sujet à une implantation de lecture factice et que le personnage réussit son jet, il devine que l’information obtenue est fausse et découvre la vraie. En cas d’échec ou si l’objet est affecté par charger un objet, le personnage croit l’information qu’il a obtenue.
+====Action==== 
+Il faut au moins une minute de concentration ininterrompue pour lire un objet.
+====Nouvel essai==== 
+Oui. Si le personnage effectue plusieurs lectures d’un même lieu ou d’un même objet, il obtient toujours le même résultat, à moins que le propriétaire ou les circonstances entourant la cible n’aient changé. En revanche, une nouvelle lecture permet de remonter plus loin dans l’historique de la cible. Le personnage ne refait pas son jet de sauvegarde pour savoir si l’information obtenue est fausse. Le personnage ne peut utiliser la psychométrie qu’une fois par jour.
+
+{s:Reference|ÉCRITUREAUTOMATIQUE}
+===Écriture automatique ([[Linguistique]])===
+Le personnage produit de mystérieux écrits traitant du futur proche, soit sous l’influence d’esprits énigmatiques, soit en puisant dans son intuition subconsciente.
+====Test====
+Une fois par semaine, le personnage peut passer une heure à poser des questions tandis que sa main note inconsciemment des messages d’une lisibilité et d’une précision variables. À la fin de l’heure, il effectue un test de Linguistique pour déchiffrer le contenu de ces messages. S’il réussit, il obtient les mêmes informations qu’avec le
+sort augure. S’il a 10 rangs ou plus en Linguistique, il peut tenter un test d’un DD plus élevé pour recueillir les mêmes
+informations qu’avec divination. Le personnage a 60 % + 5 % de chances par tranche de 1 point au-delà du DD d’obtenir des écrits cohérents ou significatifs (90 % au maximum). Le personnage doit choisir le DD de son test avant de le faire. Le MJ lance le d100 en secret, afin que le personnage ignore si ses messages sont pertinents ou non.
+
+<center>
+{| CLASS="tablo" WIDTH="50%"
+|+ DD aux tests de Linguistique assistés par l'écriture automatique
+|- CLASS="titre"
+| Résultat des écrits 
+| Rangs requis
+| DD de base du test
+|- CLASS="premier"
+| Comme augure
+| CLASS="gauche" | 1
+| 20
+|- CLASS="alt"
+| Comme divination
+| CLASS="gauche" | 10
+| 30
+|-
+|}
+</center>
+====Action==== 
+L’écriture automatique prend 1 heure.
+====Nouvel essai==== 
+Oui. Le personnage peut essayer d’en apprendre plus sur un sujet mais il n’a tout de même droit qu’à un test par semaine.
+
+{s:Reference|LECTUREDAURAS}
+===Lecture d'auras ([[Perception]])===
+La sensibilité psychique du personnage lui permet de lire les auras magiques et psychiques d’une créature ou d’un objet.
+====Test====
+Une fois par jour, le personnage peut examiner l’aura naturelle d’une créature ou d’un objet pour discerner son alignement, ses émotions, sa magie ou sa santé. Il lui faut 10 minutes de concentration, après quoi il effectue un test de Perception. Il doit choisir à chaque fois quelle aura il souhaite déchiffrer : alignement, émotion, magie ou santé. Le résultat du test s’applique uniquement à l’aura choisie. Le personnage doit se trouver à 9 mètres ou moins de sa cible pendant toute la lecture. Les objets n’ont généralement qu’une aura de magie mais certains ont une aura d’alignement (et les objets intelligents ont une aura d’émotion). Le personnage peut tenter de lire une aura dont l’objet est dépourvu, il n’obtiendra simplement aucun résultat. Le DD varie en fonction de l’aura, comme indiqué dans la table.
+
+''Lire l’aura d’alignement''. Le personnage tente de lire l’aura d’alignement de sa cible et d’apprendre ainsi son alignement et la puissance de ce dernier. La puissance de cette aura dépend des DV de la créature ou du niveau de lanceur de sorts de l’objet, comme indiqué dans la description de détection du Mal.
+
+''Lire l’aura d’émotion''. Les couleurs de l’aura de la cible révèlent son état émotionnel. Si le personnage réussit son test, il découvre les dispositions de sa cible et son attitude envers toutes les créatures situées dans un rayon de 9 mètres autour d’elle. De plus, le personnage dispose d’un bonus de circonstances de +2 aux tests de Bluff, Diplomatie, Intimidation et Psychologie contre la cible pendant un nombre de rounds égal au nombre de points obtenus au test audelà du DD.
+
+''Lire l’aura de magie''. Le personnage tente de déterminer le nombre et la puissance de toutes les auras magiques de la cible (voir détection de la magie pour déterminer la puissance). Si le personnage réussit son test, il peut tenter un test d’Art de la magie ou de Connaissances (mystères) pour déterminer l’école de l’aura ou identifier les propriétés magiques d’un objet, comme à l’accoutumée. Si l’objet est affecté par une aura magique ou un sort similaire, le personnage s’en rend compte et réussit à déterminer les véritables propriétés de l’objet à condition que son test dépasse le DD de 5 ou plus. Si le sort est d’un niveau plus élevé (comme modification d’aura), le DD seuil augmente de 2 pour chaque niveau de sort après le premier.
+
+''Lire l’aura de santé''. Le personnage estime la condition physique d’une créature en observant le flux de sa force vitale. Il découvre si elle est indemne ou blessée, si elle est victime d’un empoisonnement, d’une maladie ou de l’un des états préjudiciables suivants : chancelante, confuse, étourdie, hors d’état, inconsciente, mourante, nauséeuse, paniquée. Il découvre également le nombre total de points de ki, d’audace ou similaire à sa disposition.
+
+<center>
+{| CLASS="tablo" WIDTH="50%"
+|+ DD aux tests de Perception assistés par la Lecture d'auras
+|- CLASS="titre"
+| Tâche  
+| DD de base du test
+|- CLASS="premier"
+| Lire l’aura d’alignement
+| CLASS="gauche" | 15 + DV de la créature ou niveau de lanceur de sorts de l’objet
+|- CLASS="alt"
+| Lire l’aura d’émotion
+| CLASS="gauche" | 20 + DV de la créature ou niveau de lanceur de sorts de l’objet†
+|-
+| Lire l’aura de magie
+| CLASS="gauche" | 20 + DV de la créature ou niveau de lanceur de sorts de l’objet
+|- CLASS="alt"
+| Lire l’aura de santé
+| CLASS="gauche" | 15 + DV de la créature
+|-
+| COLSPAN="2" CLASS="note" | † Pour les objets intelligents seulement.
+|}
+</center>
+====Action====
+Il faut 10 minutes pour lire l’aura d’une cible.
+====Nouvel essai====
+Oui. Le personnage peut lire l’aura d’une créature ou d’un objet à plusieurs reprises, qu’il décide de lire le même type d’aura ou un autre. Il ne peut toutefois faire qu’un seul test de lecture d’aura par jour.
+
+{s:Reference|GUÉRISONMIRACULEUSE}
+===Guérison miraculeuse ([[Premiers secours]])===
+Le personnage applique des principes ésotériques afin de suspendre temporairement une malédiction, une maladie ou un affaiblissement de caractéristique ou d’annuler une affliction.
+====Test====
+Le personnage peut utiliser la guérison miraculeuse une fois par jour. Le DD et les effets du test de Premiers secours dépendent de ce qu’il tente de faire. Il ne peut pas utiliser cette extension de compétence occulte sur lui-même.
+
+''Restaurer la vitalité''. Le personnage supprime un affaiblissement de caractéristique. Il célèbre une cérémonie d’une heure après laquelle il tente un test de Premiers secours contre le DD de l’effet à l’origine de l’affaiblissement de caractéristique. S’il réussit son test, il supprime temporairement un point d’affaiblissement pendant 1 heure, et supprime un point de plus et rallonge la durée de la suppression d’une heure par tranche de 5 points audelà du DD. Une créature peut bénéficier de ce traitement une fois par jour, pas plus.
+
+''Suspendre une affliction''. Le personnage soigne une malédiction, une maladie ou un poison affectant une créature. Il entre en transe pendant une heure, le temps de traiter son patient, après quoi il fait son test de Premiers secours. S’il réussit, il suspend les effets de l’affliction pendant une heure plus une heure par tranche de 5 points au-delà du DD. Cette durée n’est pas décomptée de la durée d’effet de l’affliction, le cas échéant, mais il est toujours possible de soigner l’affliction via une autre méthode alors qu’elle est suspendue.
+
+''Éliminer une affliction''. Le personnage peut tenter d’éliminer définitivement une affliction en menant une cérémonie de 8 heures au terme de laquelle il effectue un test de Premiers secours. Si le résultat du test est au moins égal au double du DD de l’affliction originelle, la victime a droit à un nouveau jet de sauvegarde contre ce DD originel pour se débarrasser définitivement de l’affliction.
+
+<center>
+{| CLASS="tablo" WIDTH="50%"
+|+ DD aux tests de Premiers secours assistés par la guérison miraculeuse
+|- CLASS="titre"
+| Tâche  
+| DD de base du test
+|- CLASS="premier"
+| Restaurer la vitalité
+| CLASS="gauche" | DD du jet de sauvegarde de l’effet.
+|- CLASS="alt"
+| Suspendre une affliction
+| CLASS="gauche" | DD du jet de sauvegarde de l’affliction.
+|-
+| Éliminer une affliction
+| CLASS="gauche" | Double du DD du jet de sauvegarde de l’affliction.
+|-
+|}
+</center>
+====Action====
+Pour restaurer la vitalité ou suspendre une affliction, il faut passer 1 heure dans un environnement calme. Il faut 8 heures d’activité intense pour éliminer définitivement une affliction.
+====Nouvel essai====
+Variable. Une créature ne peut bénéficier de la guérison miraculeuse qu’une fois par jour. Le personnage ne peut pas tenter d’éliminer définitivement une affliction à plusieurs reprises.
+
+{s:Reference|PRÉDICTION}
+===Prédiction ([[Psychologie]])===
+Le personnage est doué pour la divination populaire. Parmi les méthodes les plus courantes, on trouve la cartomancie (la lecture des cartes), la chiromancie (la lecture des lignes de la main), la cristallomancie (la lecture dans les cristaux), l’aruspicine (la lecture dans les entrailles des animaux), l’horoscope (la lecture de l’étoile de naissance d’une créature), l’oniromancie (l’interprétation des rêves), l’ostéomancie (la lecture des os) et la pyromancie (la lecture dans les flammes).
+====Test====
+Une fois par jour, le personnage prédit l’avenir proche d’une créature. Il doit passer 10 minutes à interpréter les signes divinatoires à sa disposition, après quoi, le MJ effectue un test de Psychologie en secret contre un DD modifié par les DV de la cible (voir la table, plus bas). Le résultat du test donne un aperçu basique de la nature du sujet, dont son alignement, sa classe et ses niveaux ou ses DV. Il peut aussi révéler des indices sur son futur immédiat. Ce futur se détermine comme avec le sort augure. Il y a 60 % de chances + 5 % par point au-dessus du DD (90 % au maximum) d’interpréter les signes convenablement. Par exemple, si le personnage obtient 22 au test lorsqu’il lit la bonne aventure pour une créature avec 2 DV, il découvre son alignement et sa classe mais pas son niveau, ses DV ni son avenir.
+
+<center>
+{| CLASS="tablo" WIDTH="50%"
+|+ DD aux tests de Psychologie assistés par la Prédiction
+|- CLASS="titre"
+| Tâche  
+| DD de base du test
+|- CLASS="premier"
+| Détermine l’alignement
+| CLASS="gauche" | 15 + DV de la créature
+|- CLASS="alt"
+| Détermine la classe
+| CLASS="gauche" | 20 + DV de la créature
+|-
+| Déterminer le niveau ou les DV
+| CLASS="gauche" | 25 + DV de la cible
+|- CLASS="alt"
+| Détermine la bonne fortune comme un sort d’augure
+| CLASS="gauche" | 25 + DV de la créature
+|}
+</center>
+====Action====
+Il faut 10 minutes de contemplation ininterrompue pour lire la bonne fortune de la créature, qui doit être présente.
+====Nouvel essai====
+Oui. Le personnage peut tenter de lire l’avenir d’une même créature à plusieurs reprises, mais seulement une fois par période de 24 heures.
+====Spécial====
+Les objets achetés exclusivement pour utiliser cette extension de compétence offrent un bonus de circonstances de +2 aux tests de Psychologie visant à faire une prédiction.
+
+{s:Reference|BAGUETTEDESOURCIER}
+===Baguette de sourcier ([[Survie]])===
+Le personnage canalise des forces mystérieuses dans les alentours pour repérer des ressources cachées.
+====Test====
+Une fois par jour, le personnage peut suivre les mouvements d’une baguette de sourcier pour localiser une ressource particulière. Chaque tentative demande 10 minutes de concentration intense puis un test de Survie contre le DD indiqué dans la table. La portée de détection maximale de la baguette de sourcier est de 120 mètres + 12 mètres par rangs en Survie. La baguette donne des indications pendant un maximum de 10 minutes. À chaque fois que le personnage l’utilise, il choisit une cible et obtient les informations suivantes en cas de succès au test.
+
+''Trouver de l’eau''. La baguette de sourcier pointe vers la source d’eau potable la plus importante située à portée, y compris vers un aquifère, un lac, une mare ou une source.
+
+''Trouver une tombe''. La baguette de sourcier pointe vers le site funéraire à portée le plus vaste, qu’il s’agisse d’un cairn ou d’une tombe par exemple.
+
+''Trouver des métaux et des gemmes''. Le personnage se concentre sur un minerai ou un métal spécifique. S’il réussit son test, la baguette de sourcier pointe vers le plus gros dépôt de cette ressource situé à portée.
+
+<center>
+{| CLASS="tablo" WIDTH="50%"
+|+ DD aux tests de Survie assistés par une Baguette de sourcier
+|- CLASS="titre"
+| Cible de la recherche
+| DD de base du test
+|- CLASS="premier"
+| Eau
+| CLASS="gauche" | 15
+|- CLASS="alt"
+| Tombe
+| CLASS="gauche" | 20
+|-
+| Métaux et gemmes
+| CLASS="gauche" | 25
+|}
+</center>
+====Action====
+Il faut 10 minutes pour initier les recherches, le résultat du test persiste ensuite pendant 10 autres minutes.
+====Nouvel essai====
+Oui. Le personnage peut faire des recherches dans un même endroit à plusieurs reprises, mais pas plus d’une fois par jour.

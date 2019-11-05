@@ -1,0 +1,320 @@
+---
+Name: Guide mise en page avancée
+Title: Guide de création : éléments avancés de mise en page
+LastModified: 2018-10-23 21:41
+---
+<div class="fright">{s:MenuGuide}</div>
+Cette page présente diverses options de mises en page plus avancées. Il peut s'agir d'options qui sont soit plus complexes à mettre en place, soit moins souvent utilisées.
+
+{s:Reference}
+===Créer une référence/ancre sur une page===
+
+Il peut être utile d'épingler une partie du contenu d'une page et de lui associer un nom. Le mot "partie" est délibérément vague : il peut s'agir d'une section délimitée par un titre ou un sous-titre, ou encore d'un tableau ou d'une illustration, ou même simplement d'un paragraphe de texte. Le principal intérêt d'ajouter une référence (ou une ancre) à une partie de la page est que cela permet par la suite de naviguer directement vers cette partie.
+
+Par défaut, quand un navigateur ouvre une page (wiki ou web), il affiche le début de celle-ci et, si le lecteur le désire, il peut faire défiler le texte pour voir ce qui se trouve plus bas dans la page. Une fois une partie de la page désignée par une référence, on peut demander au browser d'ouvrir le page en question et d'afficher directement la partie désignée (plutôt que le début de la page).
+
+Une référence est repérée par un code qui prend la forme d'un mot ou d'une suite de lettres (qui peut ne pas avoir de signification). En règle général, on écrit les références entièrement en majuscules.
+
+Pour créer une référence nommée REF, il suffit d'ajouter le code suivant au bon endroit :
+@@{s:Reference|REF}@@
+
+Ce "bon endroit" peut se déterminer comme suit.
+* Si la partie à désigner est une section qui commence par un titre ou un sous-titre, on place la référence sur une ligne séparée juste avant la ligne qui comporte le titre :
+@@{s:Reference|NÉCROMANCIE}
+===La nécromancie===@@
+* Si la partie à désigner est un paragraphe, on place le code comme s'il s'agissait de la première lettre du paragraphe, sans ajouter d'espace :
+@@{s:Reference|LIENSSIMPLES}'''Les liens simples.''' On appelle 'lien simple' tout lien qui…@@
+* Si la partie à désigner est un tableau ou une illustration ou un autre objet, on peut placer la référence soit comme une section à titre (sur la ligne précédente) soit comme pour un paragraphe (en début de ligne, sans espace). Le mieux est de vérifier le rendu et voir si l'une des options est préférable à l'autre.
+
+{s:Reference|EXEMPLE}Quand une référence est crée vers une partie de la page, celle-ci crée également une petite icône représentant un carré avec une flèche vers la gauche, icône qui est située à droite de l'endroit indiqué. Ainsi, la référence associée au début de ce paragraphe crée l'icône qui se trouve à droite. En passant le curseur sur l'icône, on peut voir apparaître le nom de la référence (EXEMPLE dans ce cas-ci). On peut également cliquer sur cette petite icône pour demander au browser de naviguer vers la section indiquée. Dans le cadre de cet exemple, le browser va charger à nouveau la même page et organiser l'affichage pour que ce paragraphe soit visible. L'adresse indiquée par le browser aura également changé : elle se terminera par #EXEMPLE.
+
+{s:Reference|LIENREF}
+===Créer un lien vers une partie d'une page===
+
+Une fois qu'une partie de page a été étiquetée avec une référence, il est possible de créer un lien qui mènera directement vers celle-ci. Dans ce cas, quand le lecteur cliquera sur le lien, la page cible s'ouvrira et affichera directement la partie référencée (plutôt que le début de la page par exemple).
+
+Ces liens utilisent le format suivant : {{<nowiki>[[nom_page#REFERENCE|texte affiché]]</nowiki>}}, où <nom_page> peut éventuellement être précédé de deux "+" et du nom d'un [[namespace]] si nécessaire (c'est-à-dire si la page cible se trouve sur un [[namespace]] différent de celui de la page qui contient le lien).
+
+Par exemple, cette section "Créer un lien vers une partie d'une page" est étiquetée par la référence
+{{<nowiki>{s:Reference|LIENREF}</nowiki>}}. Pour créer [[Guide mise en page avancée#LIENREF|un lien]] menant directement vers celle-ci, on peut utiliser le code suivant.
+@@[[Guide mise en page avancée#LIENREF|un lien]]@@
+
+'''Note.''' Le wiki crée automatiquement des ancres pour chaque titre et sous-titre de la page. Cependant, le nom de ces ancres n'est pas fixé : si on intercale une nouvelle section dans la page, le nom de toutes les ancres des sections qui suivent sera modifié (et donc, les liens qui pointaient autrefois vers l'une de ces sections ne seront plus valables). C'est pour cela qu'il vaut mieux renoncer à utiliser les ancres créées automatiquement et plutôt utiliser la méthode décrite ci-dessus pour associer une référence sûre à une partie de la page, même s'il s'agit d'une section marquée par un titre ou un sous-titre.
+
+'''Note.''' Les liens qui visent une partie d'une page ne mènent pas forcément à une autre page : ils peuvent aussi diriger le lecteur vers une autre partie de la page courante. C'est par exemple le cas entre les tableaux résumant les aptitudes de classe et la description de ces dernières, ou encore entre les lignes des tableaux résumant les divers talents des roublards et la description de ceux-ci.
+
+{s:Reference|REDIRECTIONS}
+
+===Installer une redirection===
+
+Lorsque deux pages traitent du même sujet, plutôt que de recopier le texte deux fois, on peut placer le contenu dans une des pages et organiser une redirection de l'autre page vers la première. Par exemple, si on désire parler de la "réduction de dégâts" et de la "RD" (son abréviation), on peut effectuer les étapes suivantes :
+* Créer une page "Réduction de dégâts" et y placer le contenu.
+* Créer une page "RD".
+* Dans cette seconde page, indiquer simplement ceci :
+@@>>> Pathfinder-RPG.Réduction de dégâts@@ '''''NB : Ne pas oublier de mettre un espace après les trois <nowiki>></nowiki>'''''
+
+Dès que quelqu'un arrivera sur la page "RD" (en suivant un lien vers cette page par exemple), après une poignée de secondes, la page "Réduction de dégâts" sera affichée. Naturellement, si la page se trouve dans un autre namespace que Pathfinder-RPG, il faut utiliser cet autre nom.
+
+Une fois la redirection mise en place, cela permettra d'utiliser indifféremment les liens {{<nowiki>[[RD]]</nowiki>}} et {{<nowiki>[[Réduction de dégâts]]</nowiki>}} dans toutes les autres pages. Le principal intérêt des redirections est de faciliter la création de liens : dans l'exemple ci-dessus, sans la redirection, il aurait fallu utiliser un code plus complexe, comme {{<nowiki>[[Réduction de dégâts|RD]]</nowiki>}} pour pouvoir créer un lien affichant "RD".
+
+Mais cet intérêt est encore plus marqué lorsque la redirection ne s'effectue pas vers une page entière mais vers une partie précise d'une page cible, c'est-à-dire une partie qu'on a précédemment étiqueté d'une référence (voir ci-dessus).
+
+Si on reprend l'exemple précédent, il se pourrait qu'on n'ait pas consacré une page entière au sujet "Redirection de dégâts" mais que celui-ci soit simplement traité dans une section d'une page plus générale (par exemple une page "Particularités"). Dans ce cas, la page "RD" devra effectuer une redirection pas simplement vers la page "Particularités" mais vers une section spécifique de cette page.
+
+Les étapes à effectuer sont les suivantes :
+* Créer une page "Particularités" comportant une section "Réduction de dégâts" (le mot 'section' peut représenter n'importe quoi : un tableau, un paragraphe, une section marquée par un titre avec trois, quatre ou cinq =, etc.)
+* Marquer la 'section' vers laquelle il faut effectuer une redirection en y ajoutant le code <nowiki><pre>{s:Reference|RD}</pre></nowiki>La partie "RD" peut être remplacée par un nom plus adéquat (en fonction du sujet) ; il peut s'agir de n'importe quel mot ou sigle ou code. Le lecteur ne verra pas ce mot ; il sera seulement utilisé pour créer le lien. Par convention, on utilisera généralement un groupe de lettres en majuscules. Si la 'section' en question commence par un titre, on place ce code sur une ligne juste avant le titre (sans ligne blanche entre les deux) ; s'il s'agit d'un paragraphe, on le place sur une ligne juste avant le début du paragraphe (sans ligne blanche entre les deux) ; idem pour un tableau.
+* {s:Reference|TEST}Pour vérifier que la "marque" a bien été ajoutée, sauvegarder la page en question et descendez jusqu'à la section concernée. À droite de celle-ci devrait se trouver un petit carré avec une flèche (comme ici à droite). Si vous placez votre curseur de souris sur le carré, le code de la référence devrait apparaître ; si vous cliquez sur le carré, votre browser devrait indiquer l'adresse permettant d'accéder directement à la section marquée (cette adresse se termine par # suivi du code choisi).
+* Créer une page "RD".
+* Dans cette seconde page, indiquer simplement le code indiqué ci-dessous. Ce code commence par "Redirection" (cette partie ne change jamais) suivi du nom complet de la page (donc, son namespace suivi d'un point puis du titre de la page) suivi du code utilisé pour marquer la section.
+@@{s:Redirection|Pathfinder-RPG.Réduction de dégâts|RD}@@
+
+{s:Reference|ILLUSTRATIONS}
+
+===Ajouter une illustration===
+
+Avant d'insérer une illustration sur une page wiki, il faut déterminer où elle est stockée. Le serveur qui héberge le site Pathfinder-FR comporte un répertoire "public/upload" dans lequel se trouvent plusieurs sous-répertoires (de classement) où on peut stocker des images. Si le fichier (.jpg, .png ou autre) décrivant l'image s'y trouve, on parle d'image interne ; si le fichier de l'image se trouve sur un autre site, on parle d'image externe.
+
+Dans le cas d'une image interne, il suffit d'indiquer son adresse relative, à partir du répertoire public/upload. Ainsi, si l'image se trouve dans le sous-répertoire Illustrations/P1 et se nomme image.jpg, il suffira d'indiquer comme adresse {{Illustrations/P1/image.jpg}}, sans préciser l'adresse du site de Pathfinder-FR. Dans le cas d'une image externe, il faudra naturellement indiquer toute l'adresse URL, comme par exemple {{http://www.monsite.org/images/pic3.jpg}}.
+
+Pour insérer une image interne, on utilise le snippet {{Image}} avec l'adresse relative. Pour insérer une image externe, on utilise le snippet {{ImageExt}} avec l'URL complète :
+@@{s:Image|adresse|largeur|annotations}
+{s:ImageExt|adresse|largeur|annotations}@@
+
+Dans les deux cas, la {{largeur}} peut s'exprimer de deux manières. Il peut s'agir d'une valeur fixe, comme par exemple {{350px}} (350 pixels), ce qui correspond à peu près à la moitié de la largeur d'une page wiki ; ou encore d'une valeur exprimée en pourcentage de la largeur (comme {{40%}}).
+
+Les annotations décrivent la position et le style de l'image. On peut utiliser quatre mots-clefs et les combiner en les séparant par un espace.
+
+{| CLASS="tablo autoalt centre toutgauche"
+|+ Annotations pour les images
+|- CLASS="titre"
+| Annotation || Signification
+|- CLASS="premier"
+| {{fleft}} || Image flottante à gauche (le texte "l'habille" à droite)
+|-
+| {{fright}} || Image flottante à droite (le texte "l'habille" à gauche)
+|-
+| {{centre}} || Image centrée, sans texte sur les côtés
+|-
+| {{cadre}} || Image avec un cadre
+|}
+
+On peut également ajouter un lien à l'image, ce qui signifie que, si un lecteur clique sur l'image, il sera transporté vers une autre page web. L'adresse du lien de destination doit être donnée en entier (il ne suffit donc pas de donner le nom d'une page du wiki : il faut recopier l'entièreté de l'adresse indiquée par le browser). Pour ce faire, on utilise deux autres snippets :
+@@{s:ImageLien|adresse|largeur|annotations|lien}
+{s:ImageExtLien|adresse|largeur|annotations|lien}@@
+
+{s:ImageLien|Battlemaps/Monstres/bourbiérin03.png|70px|fright cadre|http://www.pathfinder-fr.org/Wiki/Parties.P76%20Marcheur%20.ashx} Par exemple, ce paragraphe contient une image (ici, un jeton) flottant à droite. Le texte de ce paragraphe "habille" cette image en se plaçant sur sa gauche. L'image en elle-même a été déclarée par le snippet suivant : {{<nowiki>{s:ImageLien|Battlemaps/Monstres/bourbiérin03.png|70px|fright cadre|http://www.pathfinder-fr.org/wiki/public/upload/Battlemaps/Monstres/bourbiérin03.png}</nowiki>}}. En cliquant sur l'image, le lecteur est transporté vers l'adresse où l'image est stockée (adresse qu'on a dû entrer en entier), ce qui affiche donc l'image du jeton seul sur une page.
+
+Voici quelques informations sur la préparation et la modification des images ainsi que sur la manière de les rapatrier vers le serveur de Pathfinder-FR si vous voulez les héberger là-bas.
+
+'''Préparer l'image.''' La préparation de l'image s'effectue avant de ramener l'image sur le wiki. Elle permet entre autre de vérifier son format.
+* '''1. Ramener l'image sur votre propre ordinateur.''' Vous devez éviter d'utiliser directement une image hébergée ailleurs, car si l'image disparait de l'endroit où vous l'avez trouvé, l'image disparaitra aussi sur le wiki. Il convient donc de la télécharger sur votre ordinateur avant de la ramener sur le wiki. Concrètement, si l'image provient du blog de Paizo par exemple, ouvrez-la dans votre navigateur (clic droit puis "Voir l'image" sous Firefox), puis sauvez-la sur votre disque dur (clic droit puis "Enregistrer sous"). Aucune crainte, vous n'aurez pas à la laisser là, c'est juste temporaire. Donnez au fichier un nom assez évocateur de ce qu'il représente, pour qu'on puisse s'y retrouver.
+* '''2. Vérifier le format et le poids de l'image''' Si vous avez conçu ou retouché l'image vous-même, vous devez contrôler son format et sa taille ''avant'' son envoi. Vous aurez aussi la possibilité de modifier cette image après son envoi sur le wiki. Il existe deux grands formats utilisés sur Internet : le format ''jpg'' (ou jpeg) et le format ''png''. Le premier format est plus adapté aux photos, cartes et dessins. Le second est plus adapté aux schémas, logos et lorsqu'un effet de transparence avec le fond est nécessaire. Si vous ne savez pas quel format est le plus adapté, enregistrez votre image dans les deux formats et comparez leur poids.
+{s:Ignore|'''Ramener l'image sur le wiki.''' On distingue deux grands cas :
+* Si votre image sera certainement utilisé sur plusieurs pages, ou pourra être utile sur d'autres pages. Vous allez devoir '''la charger dans les fichiers du wiki'''. Seuls les ''Rédacteurs'' peuvent le faire (c'est un groupe d'utilisateurs spécial). Si vous voulez éditer le wiki de manière régulière, n'hésitez pas à demander à être ajouté au groupe Rédacteurs (sur le forum).
+* Si votre image n'aura d'utilité que dans le cadre d'une page précise, et ne sera pas reprise sur d'autre pages. Vous allez l'ajouter en '''pièce-jointe de la page'''. Tout les utilisateurs peuvent le faire.}
+
+'''Ramener l'image sur le wiki.''' Cette opération nécessite d'être ''Rédacteur'' (tous les MJ devraient automatiquement avoir ce titre). N'hésitez pas à contacter un rédacteur ou à demander à le devenir si vous souhaitez participer activement au wiki. Cliquez sur l'option "[[Upload.aspx|Gestion de fichiers]]" dans le menu latéral du wiki. La structure des répertoires pour les téléchargements s'affiche ; il y en a plusieurs :
+* '''ADJ''' répertoire pour les aides de jeu
+* '''Battlemaps''' répertoire pour les jetons de personnages et tout le système des battlemaps
+* '''Districtmaps''' répertoire pour tout le système de cartes de districts (Kingmaker)
+* '''Illustrations''' répertoire "fourre-tout" dans lequel vous pouvez créer d'autres sous-répertoires (c'est sans doute celui que vous devriez utiliser, à moins de créer des pages pour une partie en ligne)
+* '''Parties''' répertoire regroupant des illustrations pour les parties en ligne
+
+Cliquez sur le répertoire qui correspond au type de votre image puis, sous "Upload Files" (à droite), cliquez sur "Browse". Une fenêtre s'ouvre et vous permet de choisir le fichier de l'image (celui que vous avez ramené sur votre ordinateur). Sélectionnez-le et le fichier se télécharge vers le wiki. Une fois que c'est terminé, le nom du fichier apparaît dans la liste à gauche.
+{s:Ignore|'''Charger l'image en tant que pièce-jointe de votre page.''' Cette opération peut être effectuée par tout le monde mais l'image n'est facilement disponible que pour la page à laquelle elle est attachée. Commencez par modifier votre page, en cliquant sur le bouton "Éditer" en haut à droite du titre. Dans l'écran d'édition de la page, descendez pour atteindre la section "Gestion des fichiers attachés de la page". De là, vous avez un bouton vous permettant d'envoyer une nouvelle image. Le nom de l'image apparaît dans la liste de gauche.}
+
+'''Modifier le fichier.''' Il se peut que l'image d'origine soit très/trop grande et prenne donc plus de place que nécessaire. Actuellement, la largeur du wiki est de plus ou moins 700 pixels. Ca veut dire que, si une image a une dimension de 1400 x 2000 pixels, elle devra de toutes façons être réduites pour apparaître dans la fenêtre du wiki. Si on ramène cette image de 1400 x 2000 pixels à 700 x 1000 pixels (on divise largeur et hauteur par deux pour ne pas qu'elle soit déformée), la taille (le nombre de pixels) de l'image est divisée par 4, elle. On peut donc passer (par exemple) de 600 Ko à 150 Ko, sans que le résultat ne soit moins bon vu qu'on aurait de toutes façons dû réduire l'image pour l'afficher.
+
+Pour modifier le fichier d'une image, cliquez sur "Modifier" à droite de son nom. Une nouvelle fenêtre s'ouvre. Elle vous indique la taille actuelle (current size)
+
+Et elle vous donne les options suivantes :
+* réduire à un certain pourcentage de la taille (resize by scale) ; il faut alors indiquer un pourcentage
+* réduire à une taille donnée en pixels (resize by absolute size) : il faut alors indiquer la nouvelle largeur et la nouvelle hauteur en pixels (attention, gardez les proportions si vous utilisez cette option, sinon, l'image sera déformée ; c'est pour cela qu'il vaut mieux utiliser l'option avec le pourcentage)
+* effectuer une rotation (none = aucune, clockwise = dans le sens des aiguilles d'une montre, counter-clockwise = dans le sens inverse des aiguilles d'une montre).
+
+Quand vous avez choisi une option, vous pouvez cliquer sur "Update Preview" et l'image affichée se met à jour (le fichier n'est pas encore sauvé ; ce n'est qu'un aperçu de votre modification). Attention : il se peut que l'aperçu ne soit pas affiché à la taille réelle (l'échelle est indiquée : scale).
+
+Une fois que vous êtes content de vos changements, assurez-vous que l'option "Save as new file" n'est _pas_ cochée, puis cliquez sur le bouton "Save". Une fois que vous avez fini, cliquez sur le bouton "Close".
+
+Pensez à sauver l'image sous format "JPG60%" si elle prend encore beaucoup de place.
+{s:Ignore|====Intégrer une image dans une page====
+
+Pour ajouter une image à un texte, il faut déterminer quatre éléments :
+* le nom de l'image/l'endroit où le fichier se trouve : il peut s'agir d'un fichier hébergé sur Pathfinder-FR (intérieure) ou une image provenant d'un autre site (extérieure) ;
+* la largeur de l'image par rapport au texte ;
+* la position de l'image par rapport au texte ;
+* si l'image doit servir de lien (c'est-à-dire si elle doit ouvrir une autre fenêtre lorsqu'on clique sur elle).
+
+'''Le fichier de l'image.''' S'il s'agit d'un fichier herbergé sur un autre site, il vous faudra faire suivre de Ext le ImageGauche, ImageDroite ou ImageCentre du code, ainsi qu'indiquer son adresse complète. Pour l'obtenir, vous pouvez effectuer un clic-droit sur l'image et choisir l'option "Afficher l'image". Si vous utilisez Firefox, l'image apparaîtra alors seule et son adresse se trouvera dans la barre de navigation (il vous suffira de la copier/coller). S'il s'agit d'un fichier placé sur Pathfinder-FR, vous pourrez en trouver l'adresse locale comme suit : cliquez sur l'option "Gestion de fichiers" du menu de gauche, puis dirigez-vous vers le répertoire où l'image est stockée. Une fois que vous avez repéré l'image en question, intéressez-vous à la colonne intitulée "Link" ou "Lien" et copiez-collez son contenu ''sans le UP et les deux accolades initiales''. Il s'agit de l'adresse locale de l'image. Faites bien attention à n'utiliser que des images autorisées par la licence Pathfinder Community Use.
+
+'''La largeur de l'image.''' L'image sera automatiquement redimensionnée pour avoir la largeur que vous indiquez. Cette largeur pourrait s'exprimer en pixels mais le plus simple est d'utiliser un pourcentage calculé par rapport à la largeur totale du texte du wiki. Si vous indiquez 30%, l'image s'étendra sur une largeur correspondant au tiers du wiki. C'est une bonne valeur, dans la plupart des cas.
+
+'''La position de l'image.''' Vous pouvez faire "flotter" votre image autour de votre texte, de sorte qu'elle se colle à droite de celui-ci ou à gauche. Dans ce cas-là, indiquez respectivement ''right'' (l'option la plus souvent utilisée) ou ''left'' et placez le snippet au début du paragraphe. Si vous ne voulez pas de texte sur le côte de l'image mais que vous voulez simplement afficher celle-ci toute seule, indiquez ''none''.
+
+Voici les snippets à utiliser dans les pages web:
+
+@@images du wiki
+{s:ImageGauche|adresse image|largeur}
+{s:ImageDroite|adresse image|largeur}
+{s:ImageCentre|adresse image|largeur}
+
+images non hébergées sur le wiki
+{s:ImageGaucheExt|adresse image|largeur}
+{s:ImageDroiteExt|adresse image|largeur}
+{s:ImageCentreExt|adresse image|largeur}
+
+Image lien
+{s:ImageGaucheLien|adresse image|largeur|adresse lien}
+{s:ImageDroiteLien|adresse image|largeur|adresse lien}
+{s:ImageCentreLien|adresse image|largeur|adresse lien}@@
+
+où
+- adresse image est l'adresse qui est indiqué dans la fenêtre de gestion des fichiers, mais _sans_ le {UP} (vous pouvez faire un copier/coller à partir de cette fenêtre, pensez simplement à ne pas sélectionner le {UP} au début)
+- largeur est la largeur désirée (un pourcentage sans doute)
+- adresse lien est éventuellement l'adresse d'un lien que vous voudriez ouvrir lorsqu'on clique sur l'image.}
+
+{s:Reference|YOUTUBE}
+
+===Insérer une vidéo Youtube===
+
+Pour insérer une vidéo Youtube, il faut connaître son code (la suite de symboles qui suit "v=" dans l'adresse qui permet de la visionner) puis d'insérer cette adresse dans le code suivant :
+
+@@{s:Youtube|code}@@
+
+Par exemple, le code @@{s:Youtube|xiWGc7Ey_xA}@@ sera remplacé par
+
+{s:Youtube|xiWGc7Ey_xA}
+
+{s:Reference|BD}
+
+
+===Créer un bloc descriptif (ou profil)===
+
+Un bloc descriptif est composé de diverses parties :
+* un titre principal (comportant le nom de la créature ou le nom du piège ou le nom de la ville par exemple, avec éventuellement son FP),
+* une série de lignes d'informations comme par exemple la CA, le nombre de XP ou la taille de la ville,
+* et quelques sous-titres divisant le bloc en plusieurs parties, chacun comportant un titre comme Défense, Attaque, ou encore Effets dans le cas des pièges.
+* Enfin, dans certains cas, on a des listes d'éléments indentés (c'est par exemple le cas des sorts connus ou préparés dans un bloc descriptif pour un magicien ou un prêtre).
+
+Chacun de ces éléments correspond à un format particulier mais, avant tout, pour formatter un bloc descriptif, il faut l'entourer des balises suivantes :
+@@<div class="BD">
+... le contenu du bloc descriptif vient ici ...
+</div>@@
+
+Le formattage des divers types d'éléments internes est décrit dans le tableau suivant.
+
+{| CLASS="tablo centre toutgauche autoalt"
+|+ Éléments d'un bloc descriptif
+|- CLASS="titre"
+| Élément || Format || Commentaire
+|- CLASS="premier"
+| Titre || {{<nowiki>{s:BDTitre|nom|fp}</nowiki>}} || Même s'il n'y a pas de fp, il faut indiquer le second |
+|-
+| Sous-titre || {{<nowiki>(((sous-titre)))</nowiki>}} || &nbsp;
+|-
+| Information || {{<nowiki>* '''en-tête''' info</nowiki>}} || Il faut ajouter une ligne blanche avant le {{&lt;/div>}} final
+|-
+| Info indentée || {{<nowiki>** info</nowiki>}} || &nbsp;
+|}
+
+Entre la dernière ligne d'information et le {{&lt;/div>}} final du bloc descriptif, il faut veiller à laisser une ligne blanche (c'est d'ailleurs en général le cas après toutes les listes). Il n'est pas obligatoire de laisser une ligne blanche avant un sous-titre cependant.
+
+Ainsi, le code suivant
+
+<pre><nowiki>&lt;div class="BD">
+{s:BDTitre|Gorille|FP 2}
+* '''XP 600'''
+* Animal de taille G, N
+* '''Init''' +2; '''Sens''' odorat, vision nocturne ; Perception +8
+(((Défense)))
+* '''CA''' 14, contact 11, pris au dépourvu 12; (Dex +2, naturelle +3, taille -1)
+* '''pv''' 19 (3d8+6)
+* '''Réf''' +5, '''Vig''' +7, '''Vol''' +2
+(((Attaque)))
+* '''VD''' 6 cases, escalade 6 cases
+* '''Corps à corps''' 2 coups +3 (1d6+2)
+* '''Espace''' 2 cases ; '''Allonge''' 2 cases
+(((Caractéristiques)))
+* '''For''' 15, '''Dex''' 15, '''Con''' 14, '''Int''' 2, '''Sag''' 12, '''Cha''' 7
+* '''BBA''' +2; '''BMO''' +6; '''DMD''' 18
+* '''Dons''' Talent (Perception), Vigueur surhumaine
+* '''Compétences''' Acrobaties +6, Escalade +14, Perception +8
+(((Écologie)))
+* '''Environnement''' forêts chaudes
+* '''Organisation sociale''' solitaire, couple ou troupe (3-12)
+* '''Trésor''' aucun
+
+&lt;/div></nowiki></pre>
+
+donnera
+
+<div class="BD">
+{s:BDTitre|Gorille|FP 2}
+* '''XP 600'''
+* Animal de taille G, N
+* '''Init''' +2; '''Sens''' odorat, vision nocturne ; Perception +8
+(((Défense)))
+* '''CA''' 14, contact 11, pris au dépourvu 12; (Dex +2, naturelle +3, taille -1)
+* '''pv''' 19 (3d8+6)
+* '''Réf''' +5, '''Vig''' +7, '''Vol''' +2
+(((Attaque)))
+* '''VD''' 6 cases, escalade 6 cases
+* '''Corps à corps''' 2 coups +3 (1d6+2)
+* '''Espace''' 2 cases ; '''Allonge''' 2 cases
+(((Caractéristiques)))
+* '''For''' 15, '''Dex''' 15, '''Con''' 14, '''Int''' 2, '''Sag''' 12, '''Cha''' 7
+* '''BBA''' +2; '''BMO''' +6; '''DMD''' 18
+* '''Dons''' Talent (Perception), Vigueur surhumaine
+* '''Compétences''' Acrobaties +6, Escalade +14, Perception +8
+(((Écologie)))
+* '''Environnement''' forêts chaudes
+* '''Organisation sociale''' solitaire, couple ou troupe (3-12)
+* '''Trésor''' aucun
+
+</div>
+
+'''Descriptions plus longues.''' Par défaut, le texte de chaque élément d'un bloc descriptif est formaté de telle sorte que la première ligne commence au bord gauche du bloc descriptif puis que chacune des lignes suivantes commence un peu plus loin à droite. Ce format n'est pas très élégant lorsqu'il s'agit d'un long texte descriptif (par exemple dans le cas d'un objet magique). Pour ce genre de texte, on peut utiliser le format suivant.
+
+@@* <p>Long texte descriptif ici</p>@@
+
+Ainsi, le code
+
+<pre><nowiki>&lt;div class="BD">
+{s:BDTitre|Chaussons d’araignée|}
+* '''Aura''' [[++Pathfinder-RPG.Transmutation|transmutation]] faible ; '''NLS''' 4 ;
+'''Emplacement''' pieds ; '''Prix''' 4 800 po ; '''Poids''' 0,25 kg
+(((Description)))
+* <p>Ces chaussons permettent de se déplacer le long des plans inclinés, voire au plafond,
+en marchant la tête en bas, avec une [[++Pathfinder-RPG.vitesse de déplacement|vitesse de
+déplacement]] de 4,50 m. Leur porteur garde les mains libres. Les ''chaussons d’araignée''
+ne permettent pas de progresser sur les surfaces particulièrement glissantes (glace, murs
+graisseux, etc.). Ils sont utilisables dix minutes par jour, à répartir à la convenance de
+leur porteur (minimum d’une minute par usage).</p>
+(((Fabrication)))
+* '''Conditions''' [[++Pathfinder-RPG.Création dobjets merveilleux|Création d'objets merveilleux]],
+''[[++Pathfinder-RPG.pattes daraignée|pattes d’araignée]]'' ; '''Coût''' 2 400 po
+&lt;/div></nowiki></pre>
+
+donnera
+
+<div class="BD">
+{s:BDTitre|Chaussons d’araignée|}
+* '''Aura''' [[++Pathfinder-RPG.Transmutation|Transmutation]] faible ; '''NLS''' 4 ; '''Emplacement''' pieds ; '''Prix''' 4 800 po ; '''Poids''' 0,25 kg
+(((Description)))
+* <p>Ces chaussons permettent de se déplacer le long des plans inclinés, voire au plafond, en marchant la tête en bas, avec une [[++Pathfinder-RPG.vitesse de déplacement|vitesse de déplacement]] de 4,50 m. Leur porteur garde les mains libres. Les ''chaussons d’araignée'' ne permettent pas de progresser sur les surfaces particulièrement glissantes (glace, murs graisseux, etc.). Ils sont utilisables dix minutes par jour, à répartir à la convenance de leur porteur (minimum d’une minute par usage).</p>
+(((Fabrication)))
+* '''Conditions''' [[++Pathfinder-RPG.Création dobjets merveilleux|Création d'objets merveilleux]], ''[[++Pathfinder-RPG.pattes daraignée|pattes d’araignée]]'' ; '''Coût''' 2 400 po
+
+</div>
+
+'''Cas particulier pour la mise en page des Bestiaires.''' Pour afficher à la fois un bloc descriptif et un texte descriptif côte à côte, on utiliser la structure suivante :
+
+@@<table class="Bestiaire"><tr><td>
+  <div class="BD">
+  ... le contenu du bloc descriptif ...
+  </div>
+</td><td><div>
+  ... le contenu du texte descriptif ...
+</div></td></tr>
+</table>@@

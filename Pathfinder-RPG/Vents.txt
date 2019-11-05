@@ -1,0 +1,55 @@
+---
+Name: Pathfinder-RPG.Vents
+Title: Les vents
+LastModified: 2015-03-04 18:54
+Categories:
+  - 'Maitre du jeu'
+  - 'Manuel des joueurs'
+  - 'Règles officielles'
+---
+{s:MenuEnvironnement}
+
+Le vent peut soulever le sable ou la terre, alimenter un brasier, faire chavirer une barque, ou encore pousser des émanations nocives. S’il est assez violent, il peut même renverser les personnages (comme indiqué dans la table ci-dessous), gêner les attaques à distance ou donner un malus à certains tests de compétence.
+
+{s:reference|EFFETSDUVENT}
+<center>
+{| CLASS="tablo" WIDTH="90%"
+|+ Effets du vent
+|- CLASS="titre"
+| Force du vent || Vitesse du vent || Attaques à distance/<br/>machines de guerre<sup>[[Climat#NOTE3|3]]</sup> || Taille des <br/>créatures affectée<sup>[[Climat#NOTE4|4]]</sup> || Taille des <br/>créatures emportées<sup>[[Climat#NOTE5|5]]</sup> || Malus de vol
+|- CLASS="premier"
+| Léger || 0–15 km/h || —/— || — || — || —
+|- CLASS="alt"
+| Modéré || 16–30 km/h || —/— || — || — || —
+|-
+| Important || 31–45 km/h || –2/— || TP || — || -2
+|- CLASS="alt"
+| Violent || 46–75 km/h || –4/— || P || TP || -4
+|-
+| Tempête || 76–120 km/h || Impossible/–4 || M || P || -8
+|- CLASS="alt"
+| Ouragan || 121–280 km/h || Impossible/–8 || G || M || -12
+|-
+| Tornade || 281–500 km/h || Impossible/impossible || TG || G || -16
+|-
+| COLSPAN="6" CLASS="note" | {s:Reference|NOTE3}(3) Les [[machines de guerre]] incluent balistes et catapultes, mais aussi les rochers lancés par les géants.
+|-
+| COLSPAN="6" CLASS="note" | {s:Reference|NOTE4}(4) Créatures affectées : Les créatures de cette taille et les créatures de taille inférieure sont incapables d’avancer contre le vent à moins de réussir un test de [[Force]] [[DD]] 10 (si elles se trouvent au sol) ou [[DD]] 20 si elles volent.
+|-
+| COLSPAN="6" CLASS="note" | {s:Reference|NOTE5}(5) Emportées : Les créatures terrestres sont renversées et roulent sur 1d4 x 3 mètres, ce qui leur inflige 1d4 points de dégâts non-létaux par tranche de 3 mètres à moins de réussir un test de [[Force]] [[DD]] 15. Les créatures volantes sont repoussées sur 2d6 x 3 mètres, tandis que les vents violents leur infligent 2d6 points de [[dégâts non-létaux]] à moins de réussir un test de Vol DD 25.
+|}
+</center>
+
+'''Vent léger''' : légère brise sans effets en termes de jeu.
+
+'''Vent modéré''' : vent soutenu ayant 50 % de chances de souffler les petites flammes non protégées, comme celles des bougies.
+
+'''Vent important''' : vent soutenu accompagné de rafales plus violentes, éteignant systématiquement les flammes non protégées (bougies, torches, etc.). Donne un malus de -2 aux attaques à distance et aux tests de [[Perception]].
+
+'''Vent violent (grand vent)''' : éteint systématiquement toutes les flammes non protégées et fait danser follement celles qui sont protégées (lanternes, etc.), en ayant 50 % de chances de les souffler. Les jets d’attaque à distance et les tests de [[Perception]] reçoivent un malus de -4. Le sort ''[[bourrasque]]'' peut produire cet effet.
+
+'''Vent de tempête''' : suffisamment violent pour faire tomber les branches, voire les arbres malades ; souffle systématiquement les flammes non protégées et a 75 % de chance d’éteindre celles qui le sont. Il est impossible d’attaquer à distance, les machines de guerre recevant pour leur part un malus de -4. Les hurlements du vent donnent un malus de -8 aux tests de [[Perception]] basés sur l’ouïe.
+
+'''Ouragan''' : toutes les flammes sont systématiquement soufflées et il est impossible d’attaquer à distance (sauf pour les machines de guerre, et encore le font-elles à -8). Les tests de [[Perception]] basés sur l’ouïe échouent forcément; on n’entend rien d’autre que le hurlement du vent, devant lequel même les arbres en bonne santé risquent de se coucher.
+
+'''Tornade''' ([[Rencontres#FP|FP]] 10) : toutes les flammes sont instantanément soufflées et il est impossible d’attaquer à distance, même pour les machines de guerre. Les tests de [[Perception]] basés sur l’ouïe échouent automatiquement. Au lieu d’être emportés au loin, les personnages se situant trop près de la tornade sont au contraire aspirés (jet de [[Vigueur]] pour annuler l’effet). Ceux qui entrent en contact avec l’œil de la tornade, c’est-à-dire le tourbillon autour duquel celle-ci s’enroule, sont projetés dans les airs et secoués en tous sens pendant 1d10 rounds, ce qui leur inflige 6d6 points de dégâts par round, après quoi ils sont violemment expulsés (subissant du même coup des dégâts proportionnels à la hauteur de [[chute]]). La vitesse de rotation de la tornade peut atteindre les 500 km/h, mais l’œil est bien plus lent (50 km/h environ, soit dans les 75 m par round). Une tornade déracine les arbres, ravage les bâtiments et cause d’autres dégâts similaires.

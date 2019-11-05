@@ -1,0 +1,62 @@
+---
+Name: Pathfinder-RPG.Ver-qui-marche, archétype
+Title: Ver-qui-marche, archétype
+LastModified: 2019-01-29 16:48
+Categories:
+  - 'Bestiaire 2'
+  - 'Monstre'
+  - 'Règles officielles'
+---
+<table class="Bestiaire"><tr><td>
+<div class="BD">
+{s:BDTitre|Créer un ver-qui-marche|FP +2}
+{s:pucem|Vermine|Ruines-Donjons|Tempéré}
+{s:BDTexte|''Source : Bestiaire'' p.286-287}
+"Ver-qui-marche" est un archétype qui peut être ajouté à n’importe quelle créature maléfique capable de lancer de sorts. Un ver-qui-marche conserve toutes les caractéristiques et les particularités de la créature de base à l’exception des indications suivantes :
+* '''FP.''' Comme la créature de base + 2.
+* '''Alignement.''' N’importe quel alignement Mauvais.
+* '''Type.'''  Le type de la créature de base devient [[type vermine|Vermine]]. Elle gagne le [[sous-type altéré|sous-type "altéré"]]. Ne recalculez pas son [[BBA]], ses [[JDS|jets de sauvegarde]] ni ses rangs de compétence. Les vers-qui-marchent sont intelligents et ne reçoivent pas le [[type Vermine|trait "dénué d’intelligence"]] que la plupart des vermines possèdent. Notez que, même si un ver-qui-marche peut se décomposer en une nuée et que son corps est composé d’innombrables vers grouillants, lui-même ne possède pas le [[sous-type nuée|sous-type "nuée"]].
+* '''Taille.''' Même si les vers qui constituent le corps d’un ver-qui-marche sont des créatures de taille I, le ver-qui-marche est considéré comme une créature de la même taille que la créature de base.
+* '''Sens.''' Comme la créature de base plus [[vision dans le noir]] à 18 mètres (12 {s:c}) et [[vision aveugle]] à 9 mètres (6 {s:c}).
+* '''CA.''' Le ver-qui-marche perd le bonus d’armure naturelle de la créature de base (si elle en possédait un) mais gagne un bonus d’intuition à la [[CA]] égal à son bonus de [[Sagesse]] (minimum +2).
+* '''DV.''' Modifiez les DV raciaux de la créature en d8. Tous les [[DV]] provenant de niveaux de classe restent inchangés.
+* '''Capacités défensives.''' Un ver-qui-marche conserve toutes les capacités défensives et les particularités de la créature de base. Il acquiert également les capacités défensives suivantes.
+** ''Guérison accélérée.'' Un ver-qui-marche gagne la capacité de [[guérison accélérée]] dont le nombre de points par [[round]] est égal à son FP.
+** ''Immunités.'' Les vers-qui-marchent sont immunisés contre les maladies, la paralysie, le poison et les effets de sommeil.
+** ''Réduction de dégâts.'' Un ver-qui-marche perd les [[RD]] dont la créature de base bénéficiait éventuellement et gagne une [[RD]] 15/ — .
+** ''Traits des vers-qui-marchent.'' Un ver-qui-marche ne possède pas d’anatomie évidente et n’est pas sujet aux coups critiques ni à la prise en tenaille. Si un ver-qui-marche est réduit à 0 point de vie, il se décompose (voir plus bas). Un ver-qui-marche possédant 0 point de vie est [[chancelant]] et un ver-qui-marche possédant un nombre de points de vie négatif est [[mourant]]. Le ver-qui-marche est immunisé contre tous les sorts et effets physiques qui ciblent un nombre spécifique de créatures (y compris les sorts à cible unique tels que ''[[désintégration]]'') à l’exception toutefois des sorts et effets provenant du ver-qui-marche lui-même, qui eux peuvent le traiter comme s’il s’agissait d’une seule créature s’il le désire. Les effets mentaux qui ciblent des créatures uniques fonctionnent normalement contre un ver-qui-marche, car les différents vers qui le composent partagent un seul et même esprit de ruche. Les effets de zone infligeant des dégâts (comme une ''[[boule de feu]]'' ou un [[feu grégeois]]) voient ceux-ci augmentés de +50% contre les vers-qui-marchent. Les vers-qui-marchent peuvent être affectés par les vents forts. Déterminez les effets des vents comme s’il s’agissait de créatures de taille TP.
+* '''Attaques au corps à corps.''' Un ver-qui-marche perd toutes les attaques naturelles de la créature de base mais gagne une attaque de coup qui inflige des dégâts dépendant de sa taille (voir la Table "[[Attaques naturelles (capacité)#TABLEATTAQUENATURELLE|Attaques naturelles selon la taille]]"). Cette attaque de coup possède la capacité d’[[étreinte]] et peut affecter des créatures ayant jusqu’à une catégorie de taille de plus que le ver-qui-marche. Un ver-qui-marche est formé au maniement de toutes les armes que la créature de base savait manier.
+* '''Attaques spéciales.''' Un ver-qui-marche conserve toutes les attaques spéciales de la créature de base. Il gagne également les attaques spéciales suivantes :
+** ''Décomposition (Sur).'' Un ver-qui-marche peut se décomposer en une nuée amorphe de vers par une [[action libre]]. Tous les objets qu’il tenait, portait sur lui ou transportait tombent au sol et sa valeur de [[Force]] descend à 1. Une fois décomposé, le ver-qui-marche fonctionne comme une véritable [[nuée de vers|nuée]], avec une allonge de 0 mètre (l’espace occupé reste inchangé). Sous cette forme, le ver-qui-marche perd toutes ses capacités défensives et gagnent tous les [[sous-type nuée#TRAITSNUEES|traits standards des nuées]]. Il perd ses attaques de coup, toutes ses capacités spéciales et ses attaques spéciales, mais il peut effectuer une attaque de nuée qui inflige des dégâts égaux à ceux de son attaque d’[[engloutissement]]. Un ver-qui-marche peut se reformer et reprendre son véritable aspect (et, en même temps, équiper tous les objets à sa portée) par une [[action complexe]], pour autant qu’il possède au moins 1 point de vie.
+** ''Étreinte grouillante (Ext).'' Si un ver-qui-marche agrippe un ennemi, par une [[action rapide]], il peut répandre une [[nuée de vers]] grouillants tout autour de celui-ci. Ces vers infligent automatiquement des dégâts de nuée sans qu’aucun jet d’attaque ne soit nécessaire (voir la table ci-dessous). Si la créature subit des dégâts à cause de la nuée, elle est également sujette à sa capacité de [[distraction]] et doit réussir un jet de [[Vigueur]] pour ne pas être [[nauséeux|nauséeuse]] pendant 1 [[round]]. Le [[DD]] du [[jet de sauvegarde]] vaut 10 + la moitié du nombre de [[DV]] du ver-qui-marche + son modificateur de [[Constitution]]. Un ver-qui-marche ne peut étreindre qu’une seule cible à la fois, mais il ne doit pas forcément poursuivre la [[lutte]] pour maintenir l’étreinte. Si le ver-qui-marche s’éloigne de plus de 1,50 mètres (1 {s:c}) de la nuée ou la disperse (ce qu’il peut faire par une [[action libre]]), celle-ci meurt. Si une attaque de zone blesse la nuée ou qu’un vent fort affecte la cible de la nuée, celle-ci meurt également.
+** ''Tenace (Ext).'' Un ver-qui-marche gagne un bonus racial de +8 aux tests de manœuvre de [[lutte]] et un bonus racial de +4 à son [[DMD]].
+* '''Caractéristiques.''' [[Dextérité|Dex]] +4, [[Constitution|Con]] +4.
+* '''Compétences.'''  Les vers-qui-marchent gagnent un bonus racial de +8 aux tests de [[Discrétion]], [[Perception]] et [[Psychologie]].
+* '''Dons.''' Un ver-qui-marche gagne le don [[Dur à cuire]] comme don supplémentaire.
+
+<center>
+{| CLASS="tablo" WIDTH="100%"
+|+ Dégâts de l'enveloppement
+|- CLASS="titre"
+| class="gauche" | DV 
+| Dégâts de l'enveloppement
+|- CLASS="premier"
+| class="gauche" | 1-5 
+| 1d6 + 1,5 fois le bonus de [[Force]]
+|- CLASS="alt"
+| class="gauche" | 6-10
+| 2d6 + 1,5 fois le bonus de [[Force]]
+|-
+| class="gauche" | 11-15
+| 3d6 + 1,5 fois le bonus de [[Force]]
+|- CLASS="alt"
+| class="gauche" | 16-20
+| 4d6 + 1,5 fois le bonus de [[Force]]
+|-
+| class="gauche" | 21 ou plus
+| 5d6 + 1,5 fois le bonus de [[Force]]
+|}
+</center>
+</div></td>
+<td><div>Voir un exemple : le [[ver-qui-marche|ver-qui-marche humain]].
+</div></td></tr></table>

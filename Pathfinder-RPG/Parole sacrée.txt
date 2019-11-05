@@ -1,0 +1,53 @@
+---
+Name: Pathfinder-RPG.Parole sacrée
+Title: Parole sacrée
+LastModified: 2018-07-24 17:25
+Categories:
+  - 'Manuel des joueurs'
+  - 'Règles officielles'
+  - 'Sort'
+  - 'Sort prêtre 7'
+---
+'''École''' [[Évocation]] ([[registre|Bien]], [[registre|son]]) ; '''Niveau''' [[inquisiteur|Inq]] 6, [[prêtre|Prê]] 7<br/>
+'''Temps d'incantation''' 1 [[action simple]]<br/>
+'''Composantes''' [[composantes|V]]<br/>
+'''Portée''' 12 m<br/>
+'''Zone d'effet''' créatures non-Bonnes situées dans une étendue de 12 m de rayon centrée sur le prêtre<br/>
+'''Durée''' instantanée<br/>
+'''Jet de sauvegarde''' Volonté, partiel ; '''Résistance à la magie''' oui
+
+Les créatures d’alignement autre que Bon entendant la parole sacrée sont affectées en fonction du nombre de leurs DV :
+
+<center>
+{| CLASS="tablo"
+|+
+|- CLASS="titre"
+| DV || Effet
+|- CLASS="premier"
+| Égaux au [[niveau de lanceur de sorts]] || Assourdissement
+|- CLASS="alt"
+| Jusqu’au [[niveau de lanceur de sorts]] -1 || Assourdissement, cécité
+|-
+| Jusqu’au [[niveau de lanceur de sorts]] -5  || Assourdissement, cécité, paralysie
+|- CLASS="alt"
+| Jusqu’au [[niveau de lanceur de sorts]] -10 || Assourdissement, cécité, mort, paralysie
+|}
+</center>
+
+Ces effets sont cumulatifs et simultanés. Un jet de [[Volonté]] réussit permet de [[Présentation des sorts#JETSDESAUVEGARDE|réduire ou d’annuler]] les effets néfastes. Les créatures affectées par plusieurs effets ne font qu’un [[jet de sauvegarde]] qu’elles appliquent à tous.
+
+'''Assourdissement :''' la créature est [[assourdi|assourdie]] pendant 1d4 [[round|rounds]]. [[Jet de sauvegarde]] pour [[Présentation des sorts#JETSDESAUVEGARDE|annuler]].
+
+'''Cécité :''' la créature est [[aveuglé|aveuglée]] pendant 2d4 [[round|rounds]]. [[Jet de sauvegarde]] pour réduire la durée de cécité à 1d4 [[round|rounds]].
+
+'''Paralysie :''' la créature est [[paralysé|paralysée]] et [[sans défense]] pendant 1d10 minutes. [[Jet de sauvegarde]] pour réduire la paralysie à 1 [[round]].
+
+'''Mort :''' la créature meurt sur-le-champ. S’il s’agit d’un [[type mort-vivant|mort-vivant]], celui-ci est détruit. [[Jet de sauvegarde]] pour [[Présentation des sorts#JETSDESAUVEGARDE|annuler]]. En cas de succès, la créature subit 3d6 points de dégâts +1 par [[niveau de lanceur de sorts]] (25 au maximum).
+
+De plus, si le [[prêtre]] prononce l’incantation dans son plan d’origine, toutes les créatures extraplanaires d’[[alignement]] autre que Bon comprises dans la [[zone deffet|zone d’effet]] sont immédiatement renvoyées dans leur plan d’origine. Une fois bannies de la sorte, elles ne peuvent pas revenir avant vingt-quatre heures. Cet effet se produit même si les entités n’entendent pas la ''parole Sacrée''. Pour annuler le bannissement, elles doivent réussir un jet de [[Volonté]] (avec un malus de -4).
+
+Les créatures dont le nombre de [[DV]] est supérieur au [[niveau de lanceur de sorts]] du [[prêtre]] sont [[immunisé|immunisées]] contre ''parole sacrée''.
+
+===Mythique===
+{s:CMy}
+Lorsque le personnage détermine les effets du sort sur des créatures [[non-mythiques]], ajoutez son [[grade]] à son [[NLS|niveau de lanceur de sorts]]. Les créatures non-Bonnes qui ratent leur jet de sauvegarde subissent également un malus de -4 aux jets d’attaque et de sauvegarde et leur résistance à la magie diminue de 5 points tant que persistent les autres effets du sort.

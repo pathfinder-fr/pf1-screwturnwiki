@@ -1,0 +1,33 @@
+---
+Name: Pathfinder-RPG.affaiblissement temporaire (capacité)
+Title: Affaiblissement temporaire (Ext ou Sur)
+LastModified: 2015-12-15 03:08
+---
+''Les maladies, les poisons, les sorts et d’autres pouvoirs peuvent causer des dommages directement aux caractéristiques. Ces dommages ne les réduisent pas vraiment, mais appliquent une pénalité aux compétences et aux statistiques en dépendant.''
+
+Il convient d’appliquer un modificateur de -1 sur toutes les [[compétences]] et les statistiques dépendant de cette [[caractéristique]] par tranche de 2 points de dommage sur cette caractéristique. Si le total des dommages encaissés est égal ou supérieur à la valeur de caractéristique, le personnage tombe immédiatement [[inconscient]], jusqu’à ce que les dégâts soient à nouveau inférieurs à la valeur de la caractéristique. La seule exception à cette règle s’applique à la [[Constitution]]. Si les dommages sont supérieurs ou égaux à la valeur de Constitution, le personnage meurt. Sauf indication contraire, ces dommages disparaissent à un rythme de 1 point par jour sur chaque caractéristique affectée, ou bien lorsqu’ils sont soignés à l’aide de sorts comme ''[[restauration partielle]]''.
+
+Certains sorts et pouvoirs peuvent infliger une pénalité temporaire à une caractéristique. Cette pénalité fonctionne en tout point comme un affaiblissement temporaire de caractéristique, mais elle ne peut mener à l’inconscience ou à la mort. Elle ne peut en effet pas amener une valeur de caractéristique en dessous de 1.
+
+:'''La Force.''' Ces dommages infligent des pénalités aux [[test de compétence|tests de compétences]] dépendant de cette caractéristique, aux [[jet dattaque|jets d’attaque]] de corps à corps et aux [[jet de dégâts|jets de dégâts]] d’une arme s’ils dépendent de la [[Force]]. Ces pénalités s’appliquent au [[BMO|Bonus de manœuvre offensif]] (si le personnage est au moins de taille S) et au [[DMD|bonus de Manœuvre défensive]].
+
+:'''La Dextérité.''' Ces dommages infligent des pénalités aux [[test de compétence|tests de compétences]] dépendant de cette caractéristique, aux [[jet dattaque|jets d’attaque]] à distance, aux jets d’[[initiative]] et aux jets de [[Réflexes]]. Ces pénalités s’appliquent également à la [[CA|Classe d’Armure]], au [[BMO|Bonus de Manœuvre Offensif]] (si le personnage est au moins de taille S) et à la [[DMD|Manœuvre Défensive]].
+
+:'''La Constitution.''' Ces dommages infligent des pénalités aux jets de [[Vigueur]]. De plus, il convient de multiplier le nombre total des [[DV]] du personnage par ce bonus, et de soustraire le résultat à ses [[pv|points de vie]]. Les points de vie ainsi perdus reviendront lorsque les dommages à la [[Constitution]] disparaitront.
+
+:'''L’Intelligence.''' Ces dommages infligent des pénalités aux [[test de compétence|tests de compétences]] dépendant de cette caractéristique. Ces pénalités s’appliquent également au [[DD]] des sorts dépendant de l’[[Intelligence]].
+
+:'''La Sagesse.''' Ces dommages infligent des pénalités aux [[test de compétence|tests de compétences]] dépendant de cette caractéristique, ainsi qu’aux jets de [[Volonté]]. Ces pénalités s’appliquent également au [[DD]] des sorts dépendant de la [[Sagesse]].
+
+:'''Le Charisme.''' Ces dommages infligent des pénalités aux [[test de compétence|tests de compétences]] dépendant de cette caractéristique. Ces pénalités s’appliquent également aux [[DD]] des sorts dépendant du [[Charisme]]. Le [[DD]] des [[canalisation|canalisations d’énergie]] s’en trouvent également diminué.
+
+{s:REFERENCE|DIMINUTIONPERMANENTE}
+====Diminution permanente====
+
+Elle réduit la caractéristique à laquelle elle s’applique. Cette modification s’applique à toutes les [[compétences]] et les statistiques dépendant de cette caractéristique. Il est possible de perdre de la sorte, entre autres, des [[rang|points de compétence]] et des [[pv|points de vie]]. La diminution permanente de caractéristique peut être soignée grâce à des sorts comme ''[[restauration]]''.
+
+====Capacité de monstre====
+
+Certaines attaques et capacités spéciales entraînent un affaiblissement temporaire ou une diminution permanente de la valeur d’une [[caractéristique]]. On peut guérir naturellement d’un affaiblissement temporaire mais les diminutions, elles, sont permanentes et ne peuvent être soignées que par magie.
+
+''Format :'' diminution permanente 1d4 For. ''Emplacement :'' Attaques spéciales et attaques individuelles.

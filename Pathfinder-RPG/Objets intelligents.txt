@@ -1,0 +1,450 @@
+---
+Name: Pathfinder-RPG.Objets intelligents
+Title: Les objets intelligents
+LastModified: 2015-12-29 10:34
+Categories:
+  - 'Objet magique intelligent'
+---
+{toc}
+
+Certains objets possèdent une intelligence qui leur est propre. Rendus conscients grâce processus qui leur a donné leurs propriétés magiques, ils pensent et ressentent des émotions comme tout le monde, et devraient ainsi être considérés comme des [[PNJ]]. Les objets intelligents peuvent posséder des pouvoirs mineurs ou majeurs, ainsi que, quelquefois, des capacités extraordinaires ou des [[Objets intelligents#DESSEIN|desseins]] spécifiques. Seuls les objets permanents peuvent être intelligents, pas ceux qui sont à charges ou à usage unique (cela signifie que les [[potions magiques|potions]], [[potions magiques|huiles]], [[parchemins magiques|parchemins]] et [[baguettes magiques|baguettes]], entre autres, ne sont jamais intelligents). En règle générale, moins de 1% des objets magiques sont intelligents.
+
+Les objets intelligents peuvent être considérés comme des créatures à part entière puisqu’ils possèdent des valeurs d’[[Intelligence]], de [[Sagesse]] et de [[Charisme]]. Ils sont à traiter comme des [[type créature artificielle|créatures artificielles]]. Beaucoup d’objets intelligents ont le pouvoir de générer de la lumière (comme certaines [[armes magiques]]), et la plupart ne pourraient pas voir sans cela.
+
+Contrairement à la plupart des objets magiques ordinaires, les objets intelligents ont la possibilité d’activer eux-mêmes leurs pouvoirs, sans qu’il soit nécessaire à leur utilisateur de prononcer un [[mot de commande]].
+
+=== Créer un objet intelligent ===
+Créer un objet intelligent n’est guère compliqué, il suffit de suivre ces quelques conseils. Les objets magiques intelligents doivent avoir un [[Objets intelligents#ALIGNEMENT|alignement]], des [[Objets intelligents#CARACTERISTIQUES|caractéristiques mentales]], des [[Objets intelligents#LANGUES|langues]], des sens et au moins un autre [[Objets intelligents#POUVOIRSSPECIAUX|pouvoir spécial]]. Ces différentes statistiques peuvent être améliorées durant la phase de création, ce qui augmente la valeur totale de l’objet, mais également son [[objets intelligents#EGO|score d’égo]]. Un objet magique intelligent pourvu d’un [[objets intelligents#EGO|égo]] élevé sera difficile à maîtriser, et il peut parfois même prendre le contrôle de son porteur. Cela le rend d’autant plus dangereux.
+
+Le prix de base d’un objet magique augmente de 500 po s’il est intelligent. Quand vous calculerez la valeur d’un tel objet, commencez d’abord par ajouter ce prix de base au prix total des pouvoirs obtenus par sa nature d’objet intelligent. Ensuite seulement, ajoutez le prix de base de l’objet magique lui-même.
+
+{s:Reference|ALIGNEMENT}
+=== Alignement des objets intelligents ===
+
+Un objet intelligent possède automatiquement un alignement (voir la Table "Alignement des objets" ci-dessous). Dans le cas de certaines armes, principalement, l’alignement de l’objet est déjà déterminé par sa nature ou par sa fonction, au moins en partie. Dans le cas d’une création d’arme intelligente de façon aléatoire, n’oubliez pas que l’alignement de celle-ci doit prendre en compte certaines de ses propriétés spéciales.
+
+<center>
+{| CLASS="tablo"
+|+ Alignement des objets
+|- CLASS="titre"
+| 1d100
+| Alignement de l’objet
+|- CLASS="premier"
+| 01–10
+| Chaotique Bon
+|- CLASS="alt"
+| 11–20
+| Chaotique Neutre*
+|-
+| 21–35
+| Chaotique Mauvais
+|- CLASS="alt"
+| 36–45
+| Neutre Mauvais*
+|-
+| 46–55
+| Loyal Mauvais
+|- CLASS="alt"
+| 56–70
+| Loyal Bon
+|-
+| 71–80
+| Loyal Neutre*
+|- CLASS="alt"
+| 81–90
+| Neutre Bon*
+|-
+| 91–100
+| Neutre
+|- CLASS="note"
+| COLSPAN="2" | (*) Cet objet peut également être utilisé par tout personnage <br/>dont l’alignement correspond à la partie non neutre de <br/>l’alignement de l’objet.
+|}
+</center>
+
+Chaque fois qu’un personnage prend en main ou équipe un objet intelligent dont l’alignement ne correspond pas au sien (hors cas indiqués par un astérisque dans la table), il acquiert un [[niveau négatif]]. Celui-ci n’entraîne jamais une perte de niveau effective, mais il faut se débarrasser de l’objet pour la résorber (même les sorts tels que ''[[restauration]]'' restent inefficaces). Ce [[niveau négatif]] s’ajoute à tous les handicaps que l’objet peut infliger à son porteur. En cas de différence d’alignement, un objet ayant un [[objets intelligents#EGO|égo]] compris entre 20 et 29 transmet deux [[niveau négatif|niveaux négatifs]] à son porteur, et trois [[niveau négatif|niveaux négatifs]] pour un objet dont l’égo est au moins égal à 30.
+
+{s:Reference|CARACTERISTIQUES}
+=== Caractéristiques de objets intelligents ===
+Les objets intelligents possèdent les trois caractéristiques mentales : l’[[Intelligence]], la [[Sagesse]] et le [[Charisme]]. Ces trois caractéristiques démarrent à 10, mais peuvent grimper jusqu’à un score de 20. La Table "Caractéristiques des objets intelligents' (ci-dessous) indique les coûts des caractéristiques dépassant 10. Ce coût doit être payé pour chaque caractéristique ainsi augmentée. Par exemple, un objet magique intelligent possédant une [[Intelligence]] de 15, une [[Sagesse]] de 12 et un [[Charisme]] de 10 coûterait au moins 2 400 po de plus que l’objet de base (en incluant les 500 po liés au fait d’être un objet intelligent). 
+
+<center>
+{| CLASS="tablo"
+|+ Caractéristiques des objets intelligents
+|- CLASS="titre"
+| Score
+| Modificateur du prix de base
+| Modificateur de l’[[Objets intelligents#EGO|égo]]
+|- CLASS="premier"
+| 10
+| —
+| —
+|- CLASS="alt"
+| 11
+| +200 po
+| —
+|-
+| 12
+| +500 po
+| +1
+|- CLASS="alt"
+| 13
+| +700 po
+| +1
+|-
+| 14
+| +1 000 po
+| +2
+|- CLASS="alt"
+| 15
+| +1 400 po
+| +2
+|-
+| 16
+| +2 000 po
+| +3
+|- CLASS="alt"
+| 17
+| +2 800 po
+| +3
+|-
+| 18
+| +4 000 po
+| +4
+|- CLASS="alt"
+| 19
+| +5 200 po
+| +4
+|-
+| 20
+| +8 000 po
+| +5
+|}
+</center>
+
+{s:Reference|LANGUES}
+=== Langues parlées par les objets ===
+
+<div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+<center>
+{| CLASS="tablo"
+|+ Sens et communication des objets intelligents
+|- CLASS="titre"
+| Capacité
+| Modificateur du prix de base
+| Modificateur de l’[[Objets intelligents#EGO|égo]]
+|- CLASS="premier"
+| Empathie
+| —
+| —
+|- CLASS="alt"
+| Parole
+| +500 po
+| —
+|-
+| Télépathie
+| +1 000 po
+| +1
+|- CLASS="alt"
+| Sens (10m)
+| —
+| —
+|-
+| Sens (20m)
+| +500 po
+| —
+|- CLASS="alt"
+| Sens (40m)
+| +1 000 po
+| —
+|-
+| [[Vision dans le noir]]
+| +500 po
+| —
+|- CLASS="alt"
+| [[Vision aveugle]]
+| +5 000 po
+| +1
+|-
+| Lecture des langues
+| +1 000 po
+| +1
+|- CLASS="alt"
+| ''[[Lecture de la magie]]''
+| +2 000 po
+| +1
+|}
+</center></div></div>Tous les objets magiques intelligents bénéficient de la capacité de voir et d’entendre dans un rayon de 10 m, ainsi que de celle de pouvoir communiquer par empathie avec leur porteur. Cependant, l’empathie ne leur permet que d’encourager ou de décourager certaines actions par le biais d’envies et d’émotions. D’autres formes de communication et des sens améliorés augmentent le coût et l’[[Objets intelligents#EGO|égo]] de l’objet, comme spécifié dans la Table "Sens et communication des objets intelligents" ci-dessous.
+
+'''Empathie (Sur).''' La capacité d’encourager ou de décourager certaines actions grâce à la communication d’envies et d’émotions. Elle ne permet nullement de parler.
+
+'''Parole (Sur).''' La capacité de parler en utilisant les langues connues par l’objet.
+
+'''Télépathie (Sur).''' La capacité de communiquer par la pensée, sans tenir compte des langues connues. Le porteur doit toucher l’objet pour ce faire.
+
+'''Sens.''' La faculté de voir et d’entendre jusqu’à une certaine distance. La [[vision dans le noir]] et la [[vision aveugle]] permettent à l’objet d’utiliser ses sens de la même manière et sur la même distance.
+
+{s:Reference|POUVOIRSSPECIAUX}
+=== Pouvoirs des objets intelligents ===
+Chaque objet intelligent devrait avoir au moins un pouvoir, et les plus puissants pourraient posséder de nombreux pouvoirs. Utilisez la Table "Pouvoirs des objets intelligents" ci-dessous pour les choisir ou les déterminer au hasard. Tous les pouvoirs fonctionnent si et quand l’objet le souhaite. Cependant, les objets intelligents obéissent généralement aux souhaits de leur propriétaire. Activer un pouvoir ou se concentrer sur un pouvoir actif nécessite une [[action simple]], laquelle est effectuée par l’objet lui-même. En ce qui concerne les effets, le [[niveau de lanceur de sorts]] correspondant est égal à celui de l’objet. Les [[DD]] des [[jet de sauvegarde|jets de sauvegarde]] sont basés sur sa caractéristique mentale la plus élevée de l’objet.
+
+<center>
+{| CLASS="tablo"
+|+ Pouvoirs des objets intelligents
+|- CLASS="titre"
+| 1d100
+| CLASS="gauche" | Pouvoir
+| Modificateur au prix de base
+| Modificateur de l’égo
+|- CLASS="premier"
+| 01–10
+| CLASS="gauche" | L’objet peut lancer 1 sort de niveau 0 à volonté
+| +1 000 po
+| +1
+|- CLASS="alt"
+| 11–20
+| CLASS="gauche" | L’objet peut lancer 1 sort du 1er niveau, 3 fois par jour
+| +1 200 po
+| +1
+|-
+| 21–25
+| CLASS="gauche" | L’objet peut lancer ''[[aura magique]]'' sur lui-même, à volonté
+| +2 000 po
+| +1
+|- CLASS="alt"
+| 26-35
+| CLASS="gauche" | L’objet peut lancer 1 sort du 2e niveau, 1 fois par jour
+| +2 400 po
+| +1
+|-
+| 36-45
+| CLASS="gauche" | L’objet a un degré de maîtrise de 5 dans une compétence*
+| +2 500 po
+| +1
+|- CLASS="alt"
+| 46–50
+| CLASS="gauche" | L’objet peut se faire pousser des membres et se déplacer à une vitesse de 3 m
+| +5 000 po
+| +1
+|-
+| 51-55
+| CLASS="gauche" | L’objet peut lancer 1 sort du 3e niveau, 1 fois par jour
+| +6 000 po
+| +1
+|- CLASS="alt"
+| 56-60
+| CLASS="gauche" | L’objet peut lancer 1 sort du 2e niveau, 3 fois par jour
+| +7 200 po
+| +1
+|-
+| 61-70
+| CLASS="gauche" | L’objet a un degré de maîtrise de 10 dans une compétence*
+| +10 000 po
+| +2
+|- CLASS="alt"
+| 71-75
+| CLASS="gauche" | L’objet peut se transformer en un autre objet de même taille
+| +10 000 po
+| +2
+|-
+| 76–80
+| CLASS="gauche" | L’objet peut voler à une vitesse de 10 m, comme avec le sort ''[[vol]]''
+| +10 000 po
+| +2
+|- CLASS="alt"
+| 81–85
+| CLASS="gauche" | L’objet peut lancer 1 sort du 4e niveau, 1 fois par jour
+| +11 200 po
+| +2
+|-
+| 86–90
+| CLASS="gauche" | L’objet peut se téléporter, 1 fois par jour, comme avec le sort ''[[téléportation]]''
+| +15 000 po
+| +2
+|- CLASS="alt"
+| 91–95
+| CLASS="gauche" | L’objet peut lancer 1 sort du 3e niveau, 3 fois par jour
+| +18 000 po
+| +2
+|-
+| 96-100
+| CLASS="gauche" | L’objet peut lancer 1 sort du 4e niveau, 3 fois par jour
+| +33 600 po
+| +2
+|- CLASS="note"
+| COLSPAN="4" | (*) Les objets intelligents ne peuvent avoir que des compétences dont la caractéristique liée est l’[[Intelligence]], la [[Sagesse]] ou le [[Charisme]], <br/>à moins qu’ils aient la capacité de se déplacer.
+|}
+</center>
+
+{s:Reference|DESSEIN}
+=== Objets créés dans un dessein spécial ===
+Certains objets magiques intelligents poursuivent un but qui guide leurs actions, et à ce titre bénéficient d’un bonus d’[[Objets intelligents#EGO|égo]] de +2. Le dessein dans lequel un objet a été créé doit correspondre à sa nature et à son [[Objets intelligents#ALIGNEMENT|alignement]]. De plus, sachez garder le comportement de l’objet dans les limites du raisonnable. Un dessein visant à « tuer les lanceurs de sorts profanes » ne signifie pas que l’objet oblige son possesseur à attaquer tous les [[magicien|magiciens]], [[barde|bardes]] et [[ensorceleur|ensorceleurs]] qu’il croise (ni même que l’objet pense qu’une telle tâche est possible). Par contre, il hait suffisamment les pratiquants de la [[magie profane]] pour avoir décidé, par exemple, de mettre un terme à l’existence de l’ordre de magie local et au règne de la reine-[[ensorceleur|ensorceleuse]] du pays voisin. De la même manière, un dessein consistant à « défendre les [[elfe|elfes]] » ne signifie pas que, si le porteur est [[elfe]], il cherchera seulement à l’aider. L’objet souhaite être utilisé pour défendre la cause des [[elfe|elfes]] et vaincre leurs ennemis et soutenir leurs chefs. Un dessein de type « vaincre/tuer » ne doit pas être interprété comme une manifestation de l’instinct de conservation. L’objet ne trouvera pas le repos (et ne le laissera pas non plus à son possesseur) tant qu’il ne sera pas venu à bout de ses ennemis désignés.
+
+La Table "Dessein des objets intelligents" ci-dessous propose un certain nombre d’exemples de desseins spéciaux. Si le porteur va à l’encontre du dessein spécial de son objet ou l’ignore, celui-ci bénéficiera d’un bonus de +4 à tous ses tests d’[[Objets intelligents#EGO|égo]], bonus qui s’ajoute au +2 obtenu grâce au dessein spécial de l’objet. Ce bonus sera actif tant que le personnage ne coopérera pas dans l’accomplissement de ce dessein.
+
+<center>
+{| CLASS="tablo"
+|+ Dessein des objets intelligents
+|- CLASS="titre"
+| 1d100
+| CLASS="gauche" | Dessein
+| Modificateur <br/>de l’égo
+|- CLASS="premier"
+| 01–20
+| CLASS="gauche" | Vaincre/tuer les créatures d’alignement diamétralement opposé*
+| +2
+|- CLASS="alt"
+| 21–30
+| CLASS="gauche" | Vaincre/tuer les pratiquants de la [[magie profane]] (ce qui inclut les monstres utilisant des pouvoirs magiques <br/>assimilables aux sorts profanes)
+| +2
+|- CLASS="alt"
+| 31–40
+| CLASS="gauche" | Vaincre/tuer les pratiquants de la [[magie divine]] (ce qui inclut les entités divines et leurs serviteurs)
+| +2
+|-
+| 41–50
+| CLASS="gauche" | Vaincre/tuer les créatures qui ne pratiquent pas la magie
+| +2
+|- CLASS="alt"
+| 51–55
+| CLASS="gauche" | Vaincre/tuer un certain type de créatures (voir la propriété spéciale d’[[Armes magiques#TUEUSE|arme tueuse]] pour une liste possible)
+| +2
+|-
+| 56–60
+| CLASS="gauche" | Vaincre/tuer une certaine race ou espèce de créatures
+| +2
+|- CLASS="alt"
+| 61–70
+| CLASS="gauche" | Protéger une certaine race ou espèce de créatures
+| +2
+|-
+| 71–80
+| CLASS="gauche" | Vaincre/tuer les serviteurs d’un dieu particulier
+| +2
+|- CLASS="alt"
+| 81–90
+| CLASS="gauche" | Protéger les serviteurs et les intérêts d’un dieu particulier
+| +2
+|-
+| 91–95
+| CLASS="gauche" | Vaincre/tuer tout le monde (possesseur de l’objet excepté)
+| +2
+|- CLASS="alt"
+| 96–100
+| CLASS="gauche" | Au choix
+| +2
+|- CLASS="note"
+| COLSPAN="3" | (*) Dans ce cas, un objet d’[[Objets intelligents#ALIGNEMENT|alignement]] Neutre a pour dessein de préserver l’équilibre. <br/>Ses ennemis jurés sont donc tous les alignements « extrémistes » : LB, CB, LM et CM.
+|}
+</center>
+
+=== Pouvoir dédié au dessein spécial ===
+Un pouvoir dédié ne fonctionne que lorsque l’objet tente d’accomplir le [[Objets intelligents#DESSEIN|dessein]] qui est sien. Il s’agit toujours de l’objet qui décide si la situation peut justifier qu’il utilise son pouvoir dédié. Malgré tout, il ne devrait jamais être trop compliqué de déterminer les situations où la fin justifie les moyens. Un objet intelligent peut refuser d’utiliser son pouvoir dédié (mais pas ses autres pouvoirs) même si son porteur lui impose sa volonté (voir « [[Objets intelligents#CONFLITSPERSONNAGEOBJET|Conflits entre personnage et objets]] »). En ce qui concerne les effets, le [[niveau de lanceur de sorts]] correspondant est égal à celui de l’objet. Les [[DD]] des [[jet de sauvegarde|jets de sauvegarde]] sont basés sur sa caractéristique mentale la plus élevée. Consultez la Table "Pouvoir dédié au dessein spécial des objets intelligents" ci-dessous pour obtenir une liste des pouvoirs dédiés.
+
+<center>
+{| CLASS="tablo"
+|+ Pouvoir dédié au dessein spécial des objets intelligents
+|- CLASS="titre"
+| 1d100
+| CLASS="gauche" | Pouvoir dédié
+| Modificateur <br/>au prix de base
+| Modificateur <br/>de l’[[Objets intelligents#EGO|égo]]
+|- CLASS="premier"
+| 01–20
+| CLASS="gauche" | L’objet peut détecter un ennemi lié à son [[Objets intelligents#DESSEIN|dessein]] spécial sur 20 m
+| +10 000 po
+| +1
+|- CLASS="alt"
+| 21–35
+| CLASS="gauche" | L’objet peut utiliser un sort de 4e niveau à volonté
+| +56 000 po
+| +2
+|-
+| 36–50
+| CLASS="gauche" | Le porteur bénéficie d’un bonus de chance de +2 sur ses [[jet dattaque|jets d’attaque]]<br/> et de [[jet de sauvegarde|sauvegarde]] et ses [[test de compétence|tests de compétence]]
+| +80 000 po
+| +2
+|- CLASS="alt"
+| 51–65
+| CLASS="gauche" | L’objet peut utiliser un sort de 5e niveau à volonté
+| +90 000 po
+| +2
+|-
+| 66–80
+| CLASS="gauche" | L’objet peut utiliser un sort de 6e niveau à volonté
+| +132 000 po
+| +2
+|- CLASS="alt"
+| 81–95
+| CLASS="gauche" | L’objet peut utiliser un sort de 7e niveau à volonté
+| +182 000 po
+| +2
+|-
+| 96–100
+| CLASS="gauche" | L’objet peut lancer ''[[résurrection suprême]]'' sur son porteur, 1 fois par mois
+| +200 000 po
+| +2
+|}
+</center>
+
+{s:Reference|EGO}
+=== Égo des objets intelligents ===
+L’égo détermine la puissance globale et la force de personnalité de l’objet. Le calcul de l’égo ne peut être fait qu’après avoir déterminé l’ensemble des pouvoirs de l’objet. Cette donnée est vitale pour déterminer qui, de l’objet ou de son possesseur, parvient à s’imposer à l’autre.
+
+<center>
+{| CLASS="tablo col1centre"
+|- CLASS="titre"
+| Valeur de base de l’objet magique
+| Modificateur de l’égo
+|- CLASS="premier"
+| Jusqu’à 1 000 po
+| 8
+|- CLASS="alt"
+| De 1 001 à 5 000 po
+| +1
+|-
+| De 5 001 à 10 000 po
+| +2
+|- CLASS="alt"
+| De 10 001 à 20 000 po
+| +3
+|-
+| De 20 001 à 50 000 po
+| +4
+|- CLASS="alt"
+| De 50 001 à 100 000 po
+| +6
+|-
+| De 100 001 à 200 000 po
+| +8
+|- CLASS="alt"
+| À partir de 200 001 po
+| +12
+|}
+</center>
+
+{s:Reference|CONFLITSPERSONNAGEOBJET}
+=== Conflit entre personnages et objets ===
+Quand un objet a une valeur d’[[Objets intelligents#EGO|égo]], il possède automatiquement une volonté qui lui est propre. Il respecte les préceptes de son [[Objets intelligents#ALIGNEMENT|alignement]], sans jamais en dévier. Si le personnage est moins fidèle à ces principes, il s’ensuit un conflit entre son objet et lui. De la même manière, un objet ayant au moins 20 en [[Objets intelligents#EGO|égo]] se considère toujours comme supérieur à son possesseur. Ici également, un conflit s’ensuit si l’aventurier refuse de faire tout ce que lui dit l’objet.
+
+Dans ce cas, le personnage doit effectuer un jet de [[Volonté]] dont le [[DD]] est égal à la valeur d’[[Objets intelligents#EGO|égo]] de l’objet. Dans le cas d’une réussite, il parvient à imposer sa volonté à l’objet. Dans le cas contraire, l’inverse se produit. Cet état de fait se poursuit une journée durant, sauf cas de force majeure (bataille d’importance, situation menaçant l’objet ou la vie de l’aventurier, etc.). Le dominé a dans une telle situation une nouvelle chance de prendre le dessus (cela se traduit par un nouveau jet de [[Volonté]]). Quand l’objet est le partenaire dominant de la relation, il résiste aux souhaits de son possesseur et exige des concessions telles que les suivantes. Le personnage doit :
+* Se séparer de ses alliés ou de ses objets dont l’alignement ou la personnalité ne convient pas à l’objet.
+* Se débarrasser de tous ses autres objets (ou de tous les objets d’un certain type).
+* Obéir à l’objet, qui lui indique où aller et comment se comporter.
+* Rechercher et tuer sans attendre les ennemis jurés de l’objet.
+* Ériger des défenses magiques autour de l’objet afin de le protéger quand il ne sert pas.
+* Toujours avoir l’objet avec lui, quelles que soient les circonstances.
+* Confier l’objet à un possesseur qui en sera plus digne (en fonction de son alignement ou de son comportement).
+
+Dans les cas extrêmes, l’objet peut prendre des mesures plus radicales encore :
+* Obliger son possesseur à se ruer au combat.
+* Refuser de combattre.
+* Frapper son possesseur ou les alliés de ce dernier.
+* Forcer son possesseur à se rendre à l’ennemi.
+* S’arranger pour échapper à son propriétaire.
+
+Évidemment, de telles mesures n’ont aucune raison d’être si l’harmonie règne entre le personnage et l’objet, tant sur le plan de l’alignement que sur celui du comportement et de leurs objectifs à plus ou moins long terme. Selon la personnalité des objets, certains préfèrent avoir un possesseur suffisamment faible pour pouvoir lui imposer leurs vues, ou au contraire le plus puissant possible pour avoir davantage de chances de mener leurs desseins à bien.
+
+Tous les objets magiques intelligents tiennent à avoir un rôle important dans ce qui se passe, surtout au moment du combat. Entre eux, ils se considèrent toujours comme des rivaux, même dans le cas où ils possèdent le même [[Objets intelligents#ALIGNEMENT|alignement]]. Ils refusent de partager leur propriétaire avec d’autres. Les objets intelligents se repèrent mutuellement à dix-huit mètres de distance, et la plupart veillent autant que faire se peut à inciter leur possesseur à détruire leurs rivaux. L’[[Objets intelligents#ALIGNEMENT|alignement]] de l’objet doit bien évidemment être pris en compte.
+
+Les objets dotés d’une personnalité ne sont jamais totalement contrôlés par leur possesseur, même s’ils sont trop faibles pour s’imposer à lui. Même s’ils sont incapables de prendre le dessus sur leur propriétaire, ils n’en continuent pas moins de lui faire savoir leurs exigences. 

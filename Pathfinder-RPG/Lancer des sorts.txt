@@ -1,0 +1,217 @@
+---
+Name: Pathfinder-RPG.Lancer des sorts
+Title: Lancer des sorts
+LastModified: 2017-11-04 22:40
+Categories:
+  - 'Magie'
+---
+{toc}
+
+Un sort est un effet magique utilisable une seule fois. Il existe deux types de sorts : les sorts profanes (lancés par les [[barde|bardes]], les [[ensorceleur|ensorceleurs]] et les [[magicien|magiciens]]) et les sorts divins (lancés par les [[prêtre|prêtres]] et les [[druide|druides]] ainsi que par les [[rôdeur|rôdeurs]] et [[paladin|paladins]] expérimentés). Certains lanceurs de sorts choisissent leurs sorts parmi un répertoire limité de sorts connus alors que d'autres ont accès à une large variété de sorts.
+
+La plupart des lanceurs de sorts préparent leurs sorts à l'avance (à partir d'un [[magicien#GRIMOIRE|grimoire]] ou en priant) mais certains peuvent lancer des sorts de manière spontanée, sans avoir à les préparer. Malgré ces différences dans l'apprentissage et la préparation des sorts, lorsqu'il s'agit de les lancer, tous les lanceurs de sorts pratiquent de manière similaire.
+
+=== Le choix du sort ===
+Il faut d’abord déterminer quel sort lancer. Si le personnage est un [[prêtre]], un [[druide]], un [[magicien]], mais aussi un [[paladin]] ou [[rôdeur]] expérimenté, il fait son choix parmi les sorts qu’ils ont préparés en début de journée et qu’ils n’ont pas encore lancés (voir « [[Magie profane.ashx#Préparation_des_sorts_de_magicien_5|Préparation des sorts de magicien]] » et « [[Magie divine.ashx#Préparation_des_sorts_divins_0|Préparation des sorts divins]] »).
+
+Les [[barde|bardes]] et les [[ensorceleur|ensorceleurs]] peuvent lancer n’importe quel sort connu, du moment que leur niveau leur permet de le faire.
+
+Pour jeter un sort, le personnage doit être en mesure de parler (si l’incantation nécessite des [[composante verbale|composantes verbales]]), de bouger les mains (si elle s’accompagne de [[composante gestuelle|composantes gestuelles]]) et de manipuler des [[composante matérielle|composantes matérielles]] ou un [[focalisateur]] s’il y a lieu. Il doit également se [[Lancer des sorts#CONCENTRATION|concentrer]] sur le sort.
+
+Lorsqu’un sort propose plusieurs versions, le personnage choisit celle qu’il désire utiliser au moment de l’incantation ; il n’a pas besoin de préparer (ou d’apprendre, pour les [[barde|bardes]] et [[ensorceleur|ensorceleurs]]) une version spécifique du sort.
+
+Une fois qu’un sort préparé a été lancé, le personnage ne peut plus s’en servir tant qu’il ne l’a pas préparé à nouveau (s’il l’a choisi plusieurs fois, il peut lancer une fois chaque copie). Chaque fois qu’un [[barde]] ou un [[ensorceleur]] lance un sort, il est déduit de son quota quotidien, mais il peut le lancer à plusieurs reprises s’il le souhaite tant qu’il n’a pas atteint sa limite.
+
+{s:Reference|CONCENTRATION}
+=== La concentration ===
+{s:Reference|TESTCONCENTRATION}
+==== Test de Concentration ====
+Le personnage doit se concentrer pour lancer un sort. S’il est interrompu en cours d’incantation, il doit réussir un test de Concentration sous peine de perdre son sort. Quand le personnage fait un test de Concentration, il lance 1d20 et ajoute son [[niveau de lanceur de sorts]] et le modificateur de caractéristique qu’il utilise pour déterminer les sorts bonus du même type que celui qu’il lance : 
+* Les [[druide|druides]], les [[prêtre|prêtres]] et les [[rôdeur|rôdeurs]] ajoutent leur modificateur de [[Sagesse]] ;
+* les [[barde|bardes]], les [[ensorceleur|ensorceleurs]] et les [[paladin|paladins]] ajoutent leur modificateur de [[Charisme]] 
+* et enfin les [[magicien|magiciens]] ajoutent leur modificateur d’[[Intelligence]]. 
+
+Plus l’interruption a des chances de distraire le personnage et plus le niveau du sort que le lanceur de sort tente de lancer est élevé, plus le [[DD]] est élevé (voir la Table "[[Lancer des sorts#TABLEDDTESTSCONCENTRATION|DD des tests de concentration]]"). Si le personnage rate son test, il perd son sort, comme s’il l’avait lancé sans résultat.
+
+{s:Reference|BLESSURE}
+==== Blessure ====
+À chaque fois que le personnage subit des dégâts en cours d’incantation, il doit faire un [[Lancer des sorts#TESTCONCENTRATION|test de Concentration]]. Le [[DD]] est alors égal à 10 + le nombre de points de dégâts encaissés + le niveau du sort que le personnage tente de jeter. En cas d’échec, le sort est perdu et n’a aucun effet. L’interruption intervient pendant l’incantation si elle a lieu entre le moment où le personnage commence à lancer son sort et celui où il le lance vraiment (dans le cas d’une incantation qui dure 1 round entier ou plus) ou si elle vient en réponse à son intention de jeter un sort ([[attaque dopportunité|attaque d’opportunité]] ou attaque [[préparée]]).
+
+Si le personnage subit des dégâts continus, comme ceux causés par une flèche acide ou parce qu’il se tient dans de la lave, on considère que la moitié des dégâts sont reçus pendant l’incantation. Le personnage doit donc réussir un [[Lancer des sorts#TESTCONCENTRATION|test de Concentration]] [[DD]] 10 + la moitié des derniers dégâts infligés par la source continue + le niveau du sort. Si les derniers dégâts reçus étaient les derniers infligés par l’effet, ils ne sont plus pris en compte car ils ne risquent plus de distraire le personnage.
+
+{s:Reference|ENCHEVETREMENT}
+==== Enchevêtrement ====
+Enfin, si le personnage souhaite lancer un sort alors qu’il est pris dans un filet, englué par une [[Substances et objets spéciaux|sacoche immobilisante]] ou suite à un sort aux effets similaires, il doit réussir un [[lancer des sorts#TESTCONCENTRATION|test de Concentration]] ([[DD]] 15 + niveau du sort) pour pouvoir lancer un sort, ce dernier étant perdu en cas d’échec.
+
+{s:Reference|INCANTATIONSURLADEFENSIVE}
+==== Incantation sur la défensive ====
+Lorsqu’un personnage souhaite lancer un sort sans provoquer d’[[attaque dopportunité|attaque d’opportunité]] de la part de l’adversaire, il doit réussir un [[lancer des sorts#TESTCONCENTRATION|test de Concentration]] ([[DD]] 15 + deux fois le niveau du sort). Le sort est perdu en cas d’échec.
+
+{s:Reference|INTEMPERIES}
+==== Intempéries ====
+Un personnage doit faire un [[lancer des sorts#TESTCONCENTRATION|test de Concentration]] quand il veut lancer un sort par mauvais temps. Sous une pluie battante ou sous des chutes de neige fondue, le [[DD]] est égal à 5 + niveau du sort. En cas de grêle, de tempête de sable ou de débris, le [[DD]] est égal à 10 + niveau du sort. Dans tous les cas, si le personnage rate son test, le sort est perdu. Si le mauvais temps a été obtenu par magie, utilisez les règles données dans la description de ce sort.
+
+{s:Reference|LUTTEETIMMOBILISATION}
+==== Lutte et immobilisation ====
+Il est difficile de lancer un sort lorsqu'on est [[agrippé]] ou [[immobilisé]] en situation de [[lutte]] : cela nécessite un test de concentration contre un DD égal à 10 + le [[BMO]] de la personne qui agrippe + le niveau du sort qu'on tente de lancer. Les créatures qui sont [[immobilisé|immobilisées]] en [[lutte]] ne peuvent pas lancer de sorts qui nécessitent une [[composante gestuelle]].
+
+{s:Reference|MOUVEMENTSVIOLENTS}
+
+==== Mouvements violents ====
+Si le personnage monte à cheval, s’il voyage à bord d’un chariot roulant sur un chemin cahoteux, s’il est secoué dans une barque par gros temps, ballotté dans la cale d’un bateau sur une mer démontée ou dans toute situation où il est ainsi malmené, il doit réussir un [[lancer des sorts#TESTCONCENTRATION|test de Concentration]] à chaque fois qu’il essaye de faire appel à sa magie ([[DD]] 10 + niveau du sort qu’il essaie de jeter) pour ne pas perdre son sort.
+
+{s:Reference|MOUVEMENTSTRESVIOLENTS}
+==== Mouvements très violents ====
+Quand un personnage se trouve sur un cheval lancé au galop, à bord d’un chariot roulant à tombeau ouvert, dans une barque prise dans des rapides, sur le pont d’un navire en pleine tempête, ou dans toute situation équivalente, il doit faire un [[lancer des sorts#TESTCONCENTRATION|test de Concentration]] ([[DD]] 15 + niveau du sort) pour ne pas perdre son sort. Si le mouvement est extrêmement violent, comme lors d’un tremblement de terre, le [[DD]] est égal à 20 + niveau du sort lancé.
+
+{s:Reference|SORT}
+==== Sort ====
+Si le personnage est la cible d’un sort alors que lui-même tente d’en lancer un, il doit réussir un [[lancer des sorts#TESTCONCENTRATION|test de Concentration]] afin de terminer son incantation. Si le sort qui l’agresse lui inflige des dégâts, le [[DD]] passe à 10 + points de dégâts subis + niveau du sort qu’il tente de jeter. Si le sort adverse sert juste à le distraire, le [[DD]] est égal au [[DD]] du jet de sauvegarde du sort de l’agresseur + le niveau du sort que le personnage essaie de lancer. Pour les sorts n’autorisant pas de jet de sauvegarde, on prend en compte le [[DD]] que son jet de sauvegarde devrait avoir s’il en permettait un (10 + niveau du sort + valeur de caractéristique du lanceur de sorts).
+
+{s:Reference|TABLEDDTESTSCONCENTRATION}
+<center>
+{| CLASS="tablo"
+|+ DD des tests de concentration
+|- CLASS="titre"
+| Situation || DD du test de concentration
+|- CLASS="premier"
+| [[lancer des sorts#INCANTATIONSURLADEFENSIVE|Incantation sur la défensive]] || 15 + niveau du sort x2
+|- CLASS="alt"
+| [[lancer des sorts#BLESSURE|Blessé pendant l’incantation]] || 10 + dégâts reçus + niveau du sort
+|-
+| [[lancer des sorts#BLESSURE|Dégâts continus pendant l’incantation]] || 10 + 1/2 dégâts reçus + niveau du sort
+|- CLASS="alt"
+| [[lancer des sorts#SORT|Affecté par un sort qui ne blesse pas pendant l’incantation]] || DD du sort + niveau du sort
+|-
+| [[lancer des sorts#LUTTEETIMMOBILISATION|Agrippé ou immobilisé pendant l’incantation]] || 10 + BMO de l’adversaire
+|- CLASS="alt"
+| [[lancer des sorts#MOUVEMENTVIOLENT|Mouvement violent pendant l’incantation]] || 10 + niveau du sort
+|-
+| [[lancer des sorts#MOUVEMENTTRESVIOLENT|Mouvement très violent pendant l’incantation]] || 15 + niveau du sort
+|- CLASS="alt"
+| [[lancer des sorts#MOUVEMENTTRESVIOLENT|Mouvement extrêmement violent pendant l’incantation]] || 20 + niveau du sort
+|-
+| [[lancer des sorts#INTEMPERIES|Vent et pluie ou neige fondue pendant l’incantation]] || 5 + niveau du sort
+|- CLASS="alt"
+| [[lancer des sorts#INTEMPERIES|Vent et grêle ou débris pendant l’incantation]] || 10 + niveau du sort
+|-
+| [[lancer des sorts#INTEMPERIES|Intempérie causée par un sort]] || voir le sort
+|- CLASS="alt"
+| [[lancer des sorts#ENCHEVETREMENT|Enchevêtré pendant l’incantation]] || 15 + niveau du sort
+|}
+</center>
+
+{s:Reference|CONTRESORT}
+=== Les contresorts ===
+Un personnage peut utiliser n’importe quel sort comme contresort. Dans ce cas, le personnage utilise son énergie magique pour empêcher quelqu’un d’autre de se servir du même sort. Cette technique fonctionne même si un sort appartient à la magie profane et l’autre à la magie divine.
+
+==== Comment marchent les contresorts ? ====
+Pour utiliser un contresort, le personnage doit choisir sa cible en [[action préparée|préparant son action]]. Il attend donc que son adversaire commence à lancer un sort (il peut tout de même se déplacer, le fait de préparer un contresort étant une [[action simple]]).
+
+Si la cible choisie tente de faire appel à sa magie, le personnage doit faire un test d’[[Art de la magie]] ([[DD]] 15 + niveau du sort adverse). Il s’agit là d’une [[action libre]]. En cas de succès, il identifie le sort adverse ce qui lui permet d’essayer de le contrer. En cas d’échec, il en est incapable.
+
+Il ne lui reste plus qu’à jeter un sort approprié. En règle générale, un personnage ne peut utiliser un sort que pour contrer le même sort lancé par un adversaire. Si le personnage est capable de lancer ce sort (ou s’il l’a préparé en début de journée et peut encore le lancer), il modifie légèrement son incantation pour en faire un contresort. À partir du moment où la cible est à portée, les deux sorts s’annulent l’un l’autre, sans dommages.
+
+==== Contresorts et métamagie ====
+Les [[dons#DONMETAMAGIE|dons de métamagie]] ne sont pas pris en compte lorsqu’il s’agit de déterminer si un sort peut être contré ou non.
+
+==== Exceptions ====
+Certains sorts sont capables de contrer d’autres sorts spécifiques, souvent s’ils ont des effets diamétralement opposés.
+
+==== Dissipation de la magie en tant que contresort ====
+''[[Dissipation de la magie]]'' peut également servir de contresort, sans qu’il soit nécessaire d’identifier l’incantation récitée par le lanceur de sorts adverse. Cependant, ''[[Dissipation de la magie]]'' ne fonctionne pas toujours comme contresort (voir la description du sort).
+
+{s:reference|NLS}
+=== Le niveau de lanceur de sorts (NLS) ===
+La puissance d’un sort dépend souvent du niveau de lanceur de sorts de celui qui le lance. Elle est généralement égale à son niveau de classe dans la classe utilisée pour lancer le sort.
+
+
+{| CLASS="tablo"
+|+ NLS
+|- CLASS="titre"
+| Niveau <br/>du sort || Niveau du [[druide]], <br/>[[magicien]], [[prêtre]] || Niveau de l'[[ensorceleur]] || Niveau du [[barde]] || Niveau du [[paladin]]*, <br/>[[rôdeur]]*
+|- CLASS="premier"
+| 0 || 1 || 1 || 1 || 4**
+|- CLASS="alt"
+| 1er || 1 || 1 || 1 || 5
+|-
+| 2e || 3 || 4 || 4 || 8
+|- CLASS="alt"
+| 3e || 5 || 6 || 7 || 11
+|-
+| 4e || 7 || 8 || 10 || 14
+|- CLASS="alt"
+| 5e || 9 || 10 || 13 || —
+|-
+| 6e || 11 || 12 || 16 || —
+|- CLASS="alt"
+| 7e || 13 || 14 || — || —
+|-
+| 8e || 15 || 16 || — || —
+|- CLASS="alt"
+| 9e || 17 || 18 || — || —
+|- CLASS="note"
+| COLSPAN="5" | ''(*) Le [[NLS|niveau du lanceur de sorts]] est égal au niveau de la classe de personnage -3.<br/>(**) Aucun sort sauf sorts bonus octroyés par un Charisme (Paladin) ou une Sagesse (Rodeur) élevée.''
+|}
+
+Exemple : pour lancer des sorts de niveau 2, un prêtre doit être de niveau 3.
+Donc, pour lancer un sort de niveau 2, le NLS minimum est de 3.
+
+Comme le montre le tableau, le NLS peut varier selon les classes (par exemple un paladin débloque ses sorts de niveau 2 bien plus tard que le prêtre).
+
+
+Un personnage peut lancer un sort à un niveau de lanceur de sorts inférieur au sien à condition de modifier tous ses paramètres en même temps (et en conservant le niveau de lanceur de sorts minimal permettant de faire appel à ce sort).
+
+Quand une aptitude de classe, un pouvoir de domaine ou quelque autre pouvoir spécial modifie le niveau de lanceur de sorts, l’ajustement s’applique aux différents paramètres du sort (comme la portée, la durée et les dégâts infligés) mais aussi au test de niveau de lanceur de sorts destiné à vaincre la résistance à la magie de la victime et au niveau de lanceur de sorts utilisé dans le cadre des tests de dissipation (ce qui concerne le test de dissipation et le [[DD]] de ce test).
+
+
+=== L’échec des sorts ===
+Lorsqu’on tente de lancer un sort dans des conditions où l’une de ses caractéristiques ne peut se conformer aux conditions en vigueur, il échoue automatiquement et le sort est perdu.
+
+Les sorts peuvent également échouer si le personnage se déconcentre ou quand s’il porte une armure alors qu’il tente de faire une incantation à composante gestuelle.
+
+=== L’effet du sort ===
+Une fois que l’on sait quelles créatures (ou objets ou zones) sont affectées et si elles ont ou non réussi leur jet de sauvegarde, il reste à appliquer les effets du sort.
+
+=== Les effets spéciaux ===
+Nombre d’effets spéciaux de sort sont gérés en fonction de l’école de magie à laquelle ils se rattachent. Certaines caractéristiques particulières ne dépendent pas de l’école de magie.
+
+==== Attaques ====
+Certaines descriptions de sorts font référence à une attaque. Toutes les actions de combat offensives, même celles qui n’infligent aucun point de dégâts sont considérées comme des attaques. La [[prêtre#CANALISATIONDENERGIE|canalisation d’énergie]] est assimilée à une attaque si elle est destinée à blesser des créatures. Les sorts qui permettent un jet de sauvegarde, qui infligent des dégâts, blessent ou entravent leur cible sont aussi considérés comme des attaques. Les sorts de convocation de monstres ou d’alliés ne sont pas considérés comme des sorts d’attaque, car ils ne blessent personne.
+
+{s:Reference|TYPEDEBONUS}
+==== Types de bonus ====
+Les bonus sont répartis en diverses catégories selon leur nature. Cette précision est extrêmement importante, car, dans la grande majorité des cas, deux bonus de même type ne se cumulent pas. À l’exception des bonus d’esquive, de la plupart des bonus de circonstances et des bonus raciaux, on applique uniquement le meilleur bonus d’un type donné (voir « [[Lancer des sorts#COMBINAISON|Combinaison d’effets magiques]] », ci-après). La même règle s’applique aussi aux malus : un personnage subissant deux malus de même type ne tient compte que du plus important, bien que la plupart des malus n’aient pas de type et se cumulent ainsi toujours. Des bonus ne possédant pas de type se cumulent, tant qu’ils ne sont pas causés par la même source.
+
+{s:Reference|RAMENERMORTSALAVIE}
+==== Ramener les morts à la vie ====
+Plusieurs sorts permettent de ramener les morts à la vie. Lorsqu’une créature vivante meurt, son âme abandonne son corps, quitte le [[plans|plan Matériel]] et traverse le [[plans|plan Astral]] pour se rendre dans le domaine de son dieu. Si la créature ne vénérait aucune divinité, son âme se rend automatiquement dans le plan correspondant à son alignement. Pour ramener quelqu’un à la vie, il faut donc ranimer son corps, mais aussi aller rechercher son âme et la ramener. Voir aussi la section sur les [[plans]].
+
+'''Perte de niveau.''' Toute créature ramenée à la vie gagne généralement un ou plusieurs niveaux négatifs (voir le chapitre "[[Capacités spéciales#NIVEAUNEG|Absorption d'énergie et niveaux négatifs]]"). Ces niveaux infligent un malus à la plupart des jets du personnage jusqu’à ce qu’on l’en débarrasse à l’aide d’un sort comme ''[[restauration]]''. Si le personnage était de niveau 1 au moment de sa mort, il perd 2 points de [[Constitution]] au lieu de gagner un niveau négatif.
+
+'''Empêcher le retour à la vie.''' Les ennemis des personnages peuvent s’arranger pour compliquer leur retour à la vie. Le simple fait de conserver la dépouille empêche les compagnons du défunt de le récupérer à l’aide de ''[[rappel à la vie]]'' ou de ''[[résurrection]]''. De même, ''[[capture dâme|capture d’âme]]'' interdit tout retour à la vie tant que l’âme n’a pas été libérée.
+
+'''Faire revivre quelqu’un qui ne le souhaite pas.''' Nulle âme ne peut être ramenée à la vie si elle ne le souhaite pas. Elle connaît automatiquement le nom, l’alignement et le dieu (le cas échéant) de celui qui la rappelle et peut refuser de revenir.
+
+{s:Reference|COMBINAISON}
+=== Combinaison d’effets magiques ===
+Les sorts et effets magiques fonctionnent généralement comme indiqué dans leur description, et ce même si d’autres effets agissent simultanément dans la même zone ou sur le même individu. Un sort n’est jamais affecté par un autre, sauf dans des cas très particuliers. Quand un sort affecte les autres de quelle que façon que ce soit, la description le précise toujours. Il faut tout de même tenir compte de plusieurs règles quand divers sorts ou effets magiques fonctionnent au même endroit.
+
+==== Cumul ====
+À quelques rares exceptions près, les sorts qui confèrent des bonus ou des malus aux [[jet dattaque|jets d’attaque]], [[jet de dégâts|de dégâts]], [[jet de sauvegarde|de sauvegarde]], etc. ne sont pas cumulables avec eux-mêmes. En règle générale, deux bonus du même type ne se cumulent jamais, même s’ils proviennent de sorts ou d’effets qui ne découlent pas d’un sort (voir « [[Lancer des sorts#TYPEDEBONUS|Types de bonus]] », ci-dessus).
+
+'''Bonus de types différents.''' Par contre, les effets de plusieurs sorts s’additionnent si les bonus conférés sont différents. Les bonus qui ne sont pas nommés s’additionnent entre eux et avec n’importe quel autre bonus nommé.
+
+'''Même effet, puissance différente.''' Dans le cas où deux sorts ou effets similaires fonctionnent dans la même zone ou sur la même cible, mais à des intensités différentes, le plus puissant s’impose.
+
+'''Même effet, résultats différents.''' Le même sort peut avoir des effets différents lorsqu’on le jette à plusieurs reprises. Dans ce cas, le dernier sort lancé prend le pas sur les autres. Ceux-ci ne sont pas dissipés ni supprimés, mais leur effet n’a plus d’impact tant que celui qui les a supplantés fait effet.
+
+'''Un effet fait disparaître les autres.''' Il arrive qu’un sort annule l’effet d’un autre sort jeté avant sans pour autant le dissiper. Les deux sorts sont actifs, mais l’un rend l’autre caduc.
+
+'''Effets multiples de contrôle mental.''' Il arrive qu'un sort de contrôle mental en rende un autre inutile, comme un sort qui empêche la cible d’agir. Si le contrôle mental ne prive pas la cible de sa capacité d’action, il n’interfère habituellement pas avec les autres. Quand une créature se retrouve sous le contrôle de deux lanceurs de sorts, elle fait de son mieux pour obéir aux deux, à condition que les instructions qu’elle reçoit de part et d’autre le lui permettent. Si elle reçoit simultanément des ordres contradictoires, les lanceurs de sorts en compétition doivent faire un test de [[Charisme]] opposé pour déterminer à qui la cible obéit.
+
+==== Sorts à effets opposés ====
+Les sorts ayant des effets opposés fonctionnent normalement et totalement, leurs bonus, malus et autres s’appliquent dans l’ordre où les sorts prennent effet. Certains sorts s’annulent ou se contrent réciproquement. Dans ce cas, la description de chacun le précise.
+
+==== Effets instantanés ====
+Les sorts à effet instantané s’ajoutent lorsqu’ils visent simultanément une même cible.

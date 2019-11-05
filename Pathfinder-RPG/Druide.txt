@@ -1,0 +1,556 @@
+---
+Name: Pathfinder-RPG.Druide
+Title: Le druide
+LastModified: 2019-05-18 13:30
+Categories:
+  - 'Classe'
+---
+{s:MenuClasses}
+<div class="fright">'''''Voir aussi les [[compagnons animaux]].'''''<br/>'''''Voir aussi la [[liste des compagnons animaux|liste des compagnons animaux et vermines]].'''''<br/>'''''Voir aussi la [[liste des sorts de druides]].'''''<br/>
+{s:PM0|druide}'''Voir les archétypes du druide'''&emsp;
+<ul ID="druide" CLASS="listecachée cadrebas">
+  <li>[[Adepte ondin (druide)|Adepte ondin]] ([[ondin (race)|Ondin]]) (MR)</li>
+  <li>[[Arpenteur de monde (druide)|Arpenteur de monde]] (AG)</li>
+  <li>[[Aspirant naga (druide)|Aspirant naga]] ([[nagaji (race)|Nagaji]]) (MR)</li>
+  <li>[[Chamanes animaux (druide)|Chamanes animaux]] (MJRA,AG,AM)</li>
+  <li>[[Chanteur sylvestre (druide)|Chanteur sylvestre]] ([[elfe|Elfe]]) (MR)</li>
+  <li>[[Chuchoteur sauvage (druide)|Chuchoteur sauvage]] (MCA)</li>
+  <li>[[Croc de la nature (druide)|Croc de la nature]] (MCA) </li>
+  <li>[[Druide aquatique (druide)|Druide aquatique]] (MJRA)</li>
+  <li>[[Druide arctique (druide)|Druide arctique]] (MJRA)</li>
+  <li>[[Druide de la jungle (druide)|Druide de la jungle]] (MJRA)</li>
+  <li>[[Druide des cavernes (druide)|Druide des cavernes]] (MJRA)</li>
+  <li>[[Druide des déserts (druide)|Druide des déserts]] (MJRA)</li>
+  <li>[[Druide des marais (druide)|Druide des marais]] (MJRA)</li>
+  <li>[[Druide des montagnes (druide)|Druide des montagnes]] (MJRA)</li>
+  <li>[[Druide des ouragans (druide)|Druide des ouragans]] (MMI)</li>
+  <li>[[Druide des plaines (druide)|Druide des plaines]] (MJRA)</li>
+  <li>[[Druide des tempêtes (druide)|Druide des tempêtes]] (AM)</li>
+  <li>[[Druide du ciel (druide)|Druide du ciel]] ([[sylphe (race)|Sylphe]]) (MR)</li>
+  <li>[[Druide urbain (druide)|Druide urbain]] (MJRA)</li>
+  <li>[[Druide réincarné (druide)|Druide réincarné]] (AM)</li>
+  <li>[[Enfant de la lune (druide)|Enfant de la lune]] (AM)</li>
+  <li>[[Enfant sauvage (druide)|Enfant sauvage]] ([[humain|Humain]]) (MR)</li>
+  <li>[[Flétrisseur (druide)|Flétrisseur]] (MJRA)</li>
+  <li>[[Métamorphe sauvage (druide)|Métamorphe sauvage]] (MCA)</li>
+  <li>[[Sage des menhirs (druide)|Sage des menhirs]] (AM)</li>
+  <li>[[Seigneur de la meute (druide)|Seigneur de la meute]] (AM)</li></ul></div>
+
+
+
+
+
+''Il existe dans la pureté des éléments et dans l’organisation de la nature un pouvoir qui dépasse les merveilles de la civilisation. Cette magie brute, discrète mais indéniable, est protégée par des adeptes de la philosophie de l’équilibre, appelés druides. À la fois alliés des bêtes et maîtres de la nature, ces défenseurs des étendues sauvages souvent mal compris s’efforcent de protéger leurs terres de tous ceux qui les menacent et démontrent la puissance de la nature à ceux qui se tapissent derrière les murs des cités. De nombreux pouvoirs viennent récompenser la dévotion des druides : ils obtiennent des capacités de métamorphose inégalées, reçoivent l’aide de puissants compagnons animaux et peuvent laisser éclater la colère de la nature. Les plus puissants d’entre eux maîtrisent le pouvoir des tempêtes, des tremblements de terre et des volcans grâce à une sagesse ancestrale que la civilisation a abandonnée et oubliée depuis longtemps.''
+
+{s:Reference|TABLEDRUIDE}
+<center>
+{| CLASS="tablo"
+|+ Le druide
+|- CLASS="titre"
+| ROWSPAN="2" | Niveau
+| ROWSPAN="2" | BBA
+| ROWSPAN="2" | Réflexes
+| ROWSPAN="2" | Vigueur
+| ROWSPAN="2" | Volonté
+| ROWSPAN="2" CLASS="gauche" | Spécial
+| COLSPAN="10" CLASS="avecsoustitre" | Sorts par jour
+|- CLASS="soustitre"
+| 0
+| 1er
+| 2e
+| 3e
+| 4e
+| 5e
+| 6e
+| 7e
+| 8e
+| 9e
+|- CLASS="premier"
+| 1
+| +0
+| +0
+| +2
+| +2
+| CLASS="gauche" | [[druide#PACTEAVECLANATURE|pacte avec la nature]], [[druide#INSTINCTNATUREL|instinct naturel]], <br/>[[druide#ORAISONS|oraisons]], [[druide#EMPATHIESAUVAGE|empathie sauvage]]
+| 3
+| 1
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+|- CLASS="alt"
+| 2
+| +1
+| +0
+| +3
+| +3
+| CLASS="gauche" | [[druide#DEPLACEMENTFACILITE|déplacement facilité]]
+| 4
+| 2
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+|-
+| 3
+| +2
+| +1
+| +3
+| +3
+| CLASS="gauche" | [[druide#ABSENCEDETRACES|absence de traces]]
+| 4
+| 2
+| 1
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+|- CLASS="alt"
+| 4
+| +3
+| +1
+| +4
+| +4
+| CLASS="gauche" | [[druide#RESISTANCEALAPPELDELANATURE|résistance à l'appel de la nature]], [[druide#FORMEANIMALE|forme animale]] (1/jour)
+| 4
+| 3
+| 2
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+|-
+| 5
+| +3
+| +1
+| +4
+| +4
+| CLASS="gauche" | &nbsp;
+| 4
+| 3
+| 2
+| 1
+| -
+| -
+| -
+| -
+| -
+| -
+|- CLASS="alt"
+| 6
+| +4
+| +2
+| +5
+| +5
+| CLASS="gauche" | [[druide#FORMEANIMALE|forme animale]] (2/jour)
+| 4
+| 3
+| 3
+| 2
+| -
+| -
+| -
+| -
+| -
+| -
+|-
+| 7
+| +5
+| +2
+| +5
+| +5
+| CLASS="gauche" | &nbsp;
+| 4
+| 4
+| 3
+| 2
+| 1
+| -
+| -
+| -
+| -
+| -
+|- CLASS="alt"
+| 8
+| +6/+1
+| +2
+| +6
+| +6
+| CLASS="gauche" | [[druide#FORMEANIMALE|forme animale]] (3/jour)
+| 4
+| 4
+| 3
+| 3
+| 2
+| -
+| -
+| -
+| -
+| -
+|-
+| 9
+| +6/+1
+| +3
+| +6
+| +6
+| CLASS="gauche" | [[druide#IMMUNITECONTRELEVENIN|immunité contre le venin]]
+| 4
+| 4
+| 4
+| 3
+| 2
+| 1
+| -
+| -
+| -
+| -
+|- CLASS="alt"
+| 10
+| +7/+2
+| +3
+| +7
+| +7
+| CLASS="gauche" | [[druide#FORMEANIMALE|forme animale]] (4/jour)
+| 4
+| 4
+| 4
+| 3
+| 3
+| 2
+| -
+| -
+| -
+| -
+|-
+| 11
+| +8/+3
+| +3
+| +7
+| +7
+| CLASS="gauche" | &nbsp;
+| 4
+| 4
+| 4
+| 4
+| 3
+| 2
+| 1
+| -
+| -
+| -
+|- CLASS="alt"
+| 12
+| +9/+4
+| +4
+| +8
+| +8
+| CLASS="gauche" | [[druide#FORMEANIMALE|forme animale]] (5/jour)
+| 4
+| 4
+| 4
+| 4
+| 3
+| 3
+| 2
+| -
+| -
+| -
+|-
+| 13
+| +9/+4
+| +4
+| +8
+| +8
+| CLASS="gauche" | [[druide#MILLEVISAGES|mille visages]]
+| 4
+| 4
+| 4
+| 4
+| 4
+| 3
+| 2
+| 1
+| -
+| -
+|- CLASS="alt"
+| 14
+| +10/+5
+| +4
+| +9
+| +9
+| CLASS="gauche" | [[druide#FORMEANIMALE|forme animale]] (6/jour)
+| 4
+| 4
+| 4
+| 4
+| 4
+| 3
+| 2
+| 2
+| -
+| -
+|-
+| 15
+| +11/+6/+1
+| +5
+| +9
+| +9
+| CLASS="gauche" | [[druide#ETERNELLEJEUNESSE|éternelle jeunesse]]
+| 4
+| 4
+| 4
+| 4
+| 4
+| 4
+| 3
+| 2
+| 1
+| -
+|- CLASS="alt"
+| 16
+| +12/+7/+2
+| +5
+| +10
+| +10
+| CLASS="gauche" | [[druide#FORMEANIMALE|forme animale]] (7/jour)
+| 4
+| 4
+| 4
+| 4
+| 4
+| 4
+| 3
+| 3
+| 2
+| -
+|-
+| 17
+| +12/+7/+2
+| +5
+| +10
+| +10
+| CLASS="gauche" |  &nbsp;
+| 4
+| 4
+| 4
+| 4
+| 4
+| 4
+| 4
+| 3
+| 2
+| 1
+|- CLASS="alt"
+| 18
+| +13/+8/+3
+| +6
+| +11
+| +11
+| CLASS="gauche" | [[druide#FORMEANIMALE|forme animale]] (8/jour)
+| 4
+| 4
+| 4
+| 4
+| 4
+| 4
+| 4
+| 3
+| 3
+| 2
+|-
+| 19
+| +14/+9/+4
+| +6
+| +11
+| +11
+| CLASS="gauche" | &nbsp;
+| 4
+| 4
+| 4
+| 4
+| 4
+| 4
+| 4
+| 4
+| 3
+| 3
+|- CLASS="alt"
+| 20
+| +15/+10/+5
+| +6
+| +12
+| +12
+| CLASS="gauche" | [[druide#FORMEANIMALE|forme animale]] (à volonté)
+| 4
+| 4
+| 4
+| 4
+| 4
+| 4
+| 4
+| 4
+| 4
+| 4
+|}
+</center>
+
+'''Rôle.''' Certains druides préfèrent rester à l’écart des batailles et laisser leurs compagnons et créatures invoquées combattre pendant qu’ils affaiblissent leurs ennemis grâce aux pouvoirs de la nature. D’autres se transforment en terribles bêtes et se lancent brutalement dans la mêlée. Les druides vénèrent les forces élémentaires, les puissances de la nature ou la nature elle-même. Cela se traduit généralement par une dévotion envers une divinité de la nature, mais les druides peuvent tout aussi bien révérer de vagues esprits, des demi-dieux de forme animale ou même des merveilles naturelles particulièrement impressionnantes.
+
+'''Alignement.''' N’importe quel alignement comportant au moins une composante Neutre.
+
+'''Dés de vie.''' d8.
+
+'''Argent de départ.''' 2d6 x 10 po (moyenne 70 po).
+
+===Compétences de classe===
+Les compétences de classe du druide sont les suivantes : [[Art de la magie]] (Int), [[Artisanat]] (Int), [[Connaissances]] (géographie) (Int), [[Connaissances]] (nature) (Int), [[Dressage]] (Cha), [[Équitation]] (Dex), [[Escalade]] (For), [[Natation]] (For), [[Perception]] (Sag), [[Premiers secours]] (Sag), [[Profession]] (Sag), [[Survie]] (Sag) et [[Vol]] (Dex).
+
+'''Points de compétence par niveau.''' 4 + modificateur d’[[Intelligence]].
+
+===Descriptif de la classe===
+Les aptitudes du druide sont décrites ci-dessous.
+
+{s:ImageDroite|Illustrations/PNJ/Lini.jpg|40%}
+====Armes et armures====
+
+Le druide est formé au maniement des armes suivantes : bâton, cimeterre, dague, épieu, faux, fléchette, fronde, gourdin, lance et serpe. Il sait également utiliser toutes les attaques naturelles (griffes, morsure et ainsi de suite) des formes qu’il est capable de revêtir (voir l’aptitude [[druide#FORMEANIMALE|forme animale]], ci-dessous).
+
+Le druide est formé au port des [[armure légère|armures légères]] et [[armure intermédiaire|intermédiaires]], mais sa foi lui interdit les armures métalliques (il est donc limité aux armures de cuir, de peau ou matelassées). Un druide peut librement utiliser des armures en bois ayant acquis la dureté de l’acier grâce au sort ''[[bois de fer]]''. Le druide est également formé au maniement des boucliers (à l’exception des pavois) mais ne peut utiliser que ceux en bois.
+
+Si un druide porte une armure ou un bouclier qui lui est interdit, il perd l’accès à ses sorts de druide et à toutes ses aptitudes de classe surnaturelles ou magiques tant qu’il porte l’objet en question et pendant les vingt-quatre heures suivantes.
+
+{s:Reference|SORTS}
+====Sorts====
+
+Un druide peut lancer des sorts divins appartenant à la [[liste des sorts de druides]]. Son [[alignement]] peut cependant l’empêcher de lancer certains sorts opposés à sa morale ou à son éthique (voir la section « [[druide#SORTSDUBIENDUCHAOSDELALOIETDUMAL|Sorts du Bien, du Chaos, de la Loi et du Mal]] », ci-dessous). Un druide doit choisir et préparer ses sorts à l’avance.
+
+Pour préparer ou lancer un sort, un druide doit avoir une valeur de [[Sagesse]] supérieure ou égale à 10 + le niveau du sort. Le [[DD]] des [[jet de sauvegarde|jets de sauvegarde]] contre les sorts du druide est égal à 10 + le niveau du sort + le modificateur de [[Sagesse]] du druide.
+
+Comme les autres lanceurs de sorts, le druide ne peut lancer qu’un nombre de sorts donné de chaque niveau chaque jour. Son quota de sorts quotidiens est indiqué sur la Table "[[druide#TABLEDRUIDE|Le Druide]]". En plus de cela, il reçoit des sorts en bonus chaque jour si sa valeur de [[Sagesse]] est suffisamment élevée (voir la Table "[[Caractéristiques#TABLEAUCARACTERISTIQUES|Modificateurs de caractéristique et sorts en bonus]]").
+
+Chaque jour, le druide doit passer une heure à méditer sur les mystères de la nature afin de renouveler son quota journalier de sorts. Le druide peut préparer et lancer n’importe quel sort de la liste des sorts de druide pour autant qu’il puisse lancer des sorts de ce niveau. Il doit cependant choisir quels sorts préparer au cours de sa méditation quotidienne.
+
+{s:Reference|INCANTATIONSPONTANEE}
+====Incantation spontanée====
+
+Un druide peut canaliser l’énergie réservée à un sort pour la transformer spontanément en un sort de [[convocation]] qu’il n’avait pas préparé à l’avance. Il peut sacrifier un sort préparé pour lancer un sort de ''[[convocation dalliés naturels|convocation d’alliés naturels]]'' de niveau égal ou inférieur au niveau du sort transformé.
+
+{s:Reference|SORTSDUBIENDUCHAOSDELALOIETDUMAL}
+====Sorts du Bien, du Chaos, de la Loi et du Mal====
+
+Un druide ne peut pas lancer de sorts dont l’[[alignement]] est opposé au sien ou à celui de son dieu (s’il en sert un). L’[[alignement]] d’un sort est indiqué dans sa description par les [[registre|registres]] Bien, Chaos, Loi et Mal.
+
+{s:Reference|ORAISONS}
+====Oraisons====
+
+Les druides peuvent préparer un certain nombre d’oraisons (ou sorts de niveau 0) chaque jour, comme indiqué sur la Table "[[druide#TABLEDRUIDE|Le Druide]]" sous la mention « Sorts par jour ». Il jette ces sorts comme les autres mais ils ne sont pas perdus lorsqu’ils sont lancés et peuvent être utilisés à volonté.
+
+{s:Reference|LANGUESSUPPLEMENTAIRES}
+====Langues supplémentaires====
+
+Le sylvestre, le langage des créatures des bois, vient s’ajouter à la liste des langues que le druide peut choisir comme [[linguistique|langues supplémentaires]] au niveau 1.
+
+En devenant un druide de niveau 1, le personnage apprend également le druidique, le langage secret des druides. Cet apprentissage est gratuit. Le druidique vient s’ajouter à la liste des langues que le personnage connaît sans qu’il doive le choisir à la place d’une autre langue. Il est interdit d’enseigner le druidique aux non-druides.
+
+Le druidique possède son propre alphabet.
+
+{s:Reference|PACTEAVECLANATURE}
+====Pacte avec la nature (Ext)====
+
+Au niveau 1, un lien se crée entre le druide et la nature, lien qui peut prendre une des deux formes suivantes. 
+
+=====Domaine de druide=====
+Dans la première forme, le druide devient si intime avec la nature qu’il acquiert l’un des [[Domaines|domaines de prêtre]] suivants : [[Domaine de lAir|Air]], [[domaine du climat|Climat]], [[domaine de leau|Eau]], [[domaine de la faune|Faune]], [[domaine du feu|Feu]], [[domaine de la flore|Flore]] ou [[domaine de la terre|Terre]]. Pour toutes les capacités et les sorts en bonus donnés par ce [[domaines|domaine]], on considère que le niveau de [[prêtre]] du personnage est égal à son niveau de druide. Comme les [[prêtre|prêtres]], les druides qui choisissent cette option reçoivent des emplacements de sorts de [[domaine]] qu’ils ne peuvent utiliser que pour préparer les sorts de leur [[domaine]] et qu’ils ne peuvent pas employer pour une [[druide#INCANTATIONSPONTANEE|incantation spontanée]].
+
+{s:um}En plus de ces domaines communs avec les prêtres, un [[druide]] peut choisir un [[Pathfinder-RPG.domaines animaux et environnementaux|domaine animal ou environnemental]] au lieu de l’un des domaines précité.
+
+Tout comme les [[domaines]] de [[prêtre]], ceux du druide lui donnent des pouvoirs et des sorts de domaine. Un druide qui choisit un domaine animal ou environnemental gagne un [[emplacement de sort]] de domaine par niveau. 
+
+Un druide qui vénère un dieu (et non la nature en général) ne peut pas choisir un domaine animal ou environnemental qui entre en contradiction avec les thèmes associés à sa divinité ou qui sort de sa juridiction.
+
+Si un pouvoir de domaine animal ou environnement autorise un [[jet de sauvegarde]], le [[DD]] du jet est égal à 10 + 1/2 du niveau du druide + modificateur de [[Sagesse]].
+
+Les autres classes basées sur la nature qui donnent accès à des domaines peuvent choisir un domaine animal ou environnemental au lieu d’un domaine ordinaire.
+
+=====Compagnon animal=====
+La seconde forme consiste en un lien étroit entre le druide et un [[compagnons animaux|compagnon animal ou vermine]]. Le druide peut commencer sa carrière en étant accompagné d’un des animaux ou une des vermines cités dans la [[Liste des compagnons animaux|liste des compagnons animaux et vermines]]. Le compagnon est loyal et accompagne le druide lors de ses aventures.
+
+Contrairement aux animaux normaux, le [[compagnons animaux|compagnon animal ou vermine]] évolue (en [[DV|dés de vie]], en [[caractéristiques]], en [[compétences]] et en [[dons]]) lorsque le druide gagne des niveaux. Si le personnage possède plusieurs classes offrant un [[compagnons animaux|compagnon animal]], ses niveaux dans ces différentes classes se cumulent pour déterminer les caractéristiques de son compagnon. La taille de la plupart des [[compagnons animaux]] s’accroît lorsque le druide atteint le niveau 4 ou 7 (selon le compagnon). Si le druide décide de se séparer de son compagnon, il peut en obtenir un autre en accomplissant un rituel qui nécessite vingt-quatre heures de prières ininterrompues au sein d’un environnement de vie typique pour le nouveau [[compagnons animaux|compagnon animal]]. Cette cérémonie peut également être utilisée pour remplacer un [[compagnons animaux|compagnon animal]] qui est mort.
+
+{s:Reference|INSTINCTNATUREL}
+====Instinct naturel (Ext)====
+
+Le druide bénéficie d’un bonus de +2 aux tests de [[Connaissances]] (nature) et de [[Survie]].
+
+{s:Reference|EMPATHIESAUVAGE}
+====Empathie sauvage (Ext)====
+
+Un druide peut améliorer l’attitude d’un [[type Animal|animal]]. Cette aptitude suit les mêmes règles que les tests de [[Diplomatie]] destinés à modifier l’attitude d’une personne. Le druide lance 1d20 et ajoute son niveau de druide et son modificateur de [[Charisme]] pour déterminer le résultat de son test. L’attitude initiale des animaux domestiques est l’indifférence, tandis que les animaux sauvages sont généralement inamicaux.
+
+Pour utiliser l’empathie sauvage, le druide et l’[[type Animal|animal]] doivent être à moins de neuf mètres l’un de l’autre (dans des conditions de visibilité normales). Il faut en moyenne une minute pour influencer un [[type Animal|animal]] de cette façon, mais, comme dans le cas de personnes, cela peut parfois prendre plus longtemps ou être plus rapide.
+
+Un druide peut également utiliser cette aptitude pour influencer une [[type créature magique|créature magique]] dont la valeur d’[[Intelligence]] est de 1 ou 2 mais son test subit alors un malus de -4.
+
+{s:Reference|DEPLACEMENTFACILITE}
+====Déplacement facilité (Ext)====
+
+Dès le niveau 2, le druide se déplace sans la moindre gêne dans toutes sortes de taillis, y compris les fourrés, les buissons (même épineux) et les autres zones de végétation dense. Il progresse à sa [[vitesse de déplacement]] normale et ne subit aucun dégât. La végétation enchantée de manière à restreindre les mouvements continue toutefois de l’affecter.
+
+{s:Reference|ABSENCEDETRACES}
+====Absence de traces (Ext)====
+
+Au niveau 3, le druide ne laisse plus la moindre trace en milieu naturel et il est impossible de le pister. Il peut néanmoins laisser des traces s’il le souhaite.
+
+{s:Reference|RESISTANCEALAPPELDELANATURE}
+====Résistance à l’appel de la nature (Ext)====
+
+À partir du niveau 4, le druide bénéficie d’un bonus de +4 aux [[jet de sauvegarde|jets de sauvegarde]] contre les capacités surnaturelles ou magiques des [[type fée|fées]]. Ce bonus s’applique également aux sorts et aux effets qui utilisent ou ciblent des plantes, comme par exemple ''[[croissance dépines|croissance d’épines]]'', ''[[distorsion du bois]]'', ''[[enchevêtrement]]'' ou ''[[flétrissement végétal]]''.
+
+{s:Reference|FORMEANIMALE}
+====Forme animale (Sur)====
+
+Au niveau 4, le druide gagne la capacité de se transformer en un animal de taille [[taille P|P]] ou [[taille M|M]] puis de reprendre sa forme normale une fois par jour. Il peut prendre la forme de n’importe quelle créature de type [[type animal|animal]]. Ce pouvoir fonctionne comme le sort de ''[[forme bestiale I]]'', mis à part les différences précisées ici. Cet effet dure au maximum une heure par niveau de druide mais le druide peut y mettre fin avant. La transformation (vers ou depuis la forme animale) est une [[action simple]] qui ne provoque pas d’[[attaque dopportunité|attaque d’opportunité]]. La forme choisie doit être celle d’un [[type animal|animal]] que le druide connaît bien.
+
+Tant qu’il est transformé, un druide est incapable de parler. Il doit se contenter des bruits qu’un [[type animal|animal]] ordinaire est capable de produire sans entraînement. Il peut néanmoins communiquer normalement avec les autres [[type animal|animaux]] de la même espèce, ou d’une espèce proche de sa forme actuelle (à noter dans la nature, les perroquets poussent des cris, ils ne sont pas capables de parler).
+
+Le personnage gagne une utilisation quotidienne supplémentaire de ce pouvoir au niveau 6 et tous les deux niveaux par la suite, pour un total de huit utilisations au niveau 18. Au niveau 20, le druide peut utiliser cette capacité à volonté. En gagnant des niveaux, le druide a accès à d’autres formes, comme celles d’[[type animal|animaux]] plus petits et plus grands, d’[[élémentaire|élémentaires]] et de [[type plante|plantes]]. Quelle que soit la forme choisie, la transformation consomme une utilisation de ce pouvoir.
+
+Au niveau 6, un druide peut également utiliser ce pouvoir pour se transformer en [[type animal|animal]] de [[Petites et grandes créatures#TAILLETPMINI|taille TP]] ou [[Petites et grandes créatures#TAILLEGTGGIGC|taille G]] ou en [[élémentaire|élémentaire]] de taille P. Lorsqu’il prend la forme d’un [[type animal|animal]], la capacité fonctionne désormais comme le sort ''[[forme bestiale II]]''. Lorsqu’il prend la forme d’un [[élémentaire|élémentaire]], elle fonctionne comme le sort ''[[corps élémentaire I]]''.
+
+Au niveau 8, le druide peut également utiliser ce pouvoir pour se transformer en [[type animal|animal]] de [[Petites et grandes créatures#TAILLEGTGGIGC|taille TG]] ou [[Petites et grandes créatures#TAILLETPMINI|Min]], en [[élémentaire|élémentaire]] de taille M ou en créature de type [[type plante|plante]] de taille P ou M. Lorsqu’il prend la forme d’un [[type animal|animal]], la capacité fonctionne désormais comme le sort ''[[forme bestiale III]]''. Lorsqu’il prend la forme d’un [[élémentaire|élémentaire]], elle fonctionne comme le sort ''[[corps élémentaire II]]''. Lorsqu’il prend la forme d’une créature de type [[type plante|plante]], elle fonctionne comme le sort ''[[forme végétale I]]''.
+
+Au niveau 10, le druide peut également utiliser ce pouvoir pour se transformer en [[élémentaire]] de [[Petites et grandes créatures#TAILLEGTGGIGC|taille G]] ou en créature de type [[type plante|plante]] de [[Petites et grandes créatures#TAILLEGTGGIGC|taille G]]. Lorsqu’il prend la forme d’un [[élémentaire]], la capacité fonctionne désormais comme le sort ''[[corps élémentaire III]]''. Lorsqu’il prend la forme d’une créature de type [[type plante|plante]], elle fonctionne comme le sort ''[[forme végétale II]]''.
+
+Au niveau 12, le druide peut également utiliser ce pouvoir pour se transformer en [[élémentaire]] de [[Petites et grandes créatures#TAILLEGTGGIGC|taille TG]] ou en créature de type [[type plante|plante]] de [[Petites et grandes créatures#TAILLEGTGGIGC|taille TG]]. Lorsqu’il prend la forme d’un [[élémentaire]], la capacité fonctionne désormais comme le sort ''[[corps élémentaire IV]]''. Lorsqu’il prend la forme d’une créature de type [[type plante|plante]], elle fonctionne comme le sort de ''[[forme végétale III]]''.
+
+{s:Reference|IMMUNITECONTRELEVENIN}
+====Immunité contre le venin (Ext)====
+
+À partir du niveau 9, le druide est immunisé à toutes les formes de [[poison|poison]].
+
+{s:Reference|MILLEVISAGES}
+====Mille visages (Sur)====
+
+Au niveau 13, le druide acquiert le [[pouvoir surnaturel]] de se transformer à volonté, comme s’il utilisait le sort ''[[modification dapparence|modification d’apparence]]'', mais uniquement lorsqu’il est sous sa forme normale.
+
+{s:Reference|ETERNELLEJEUNESSE}
+====Éternelle jeunesse (Ext)====
+
+À partir du niveau 15, le druide ne subit plus les effets du [[vieillissement]] et est immunisé aux attaques provoquant un [[vieillissement]] accéléré. Les malus de vieillesse qu’il aurait pu subir avant d’atteindre ce niveau ne sont pas effacés pour autant. Le druide continue de vieillir et bénéficie des bonus qui en découlent. Il meurt toujours de vieillesse lorsque son heure est venue.
+
+===Anciens druides===
+Un druide qui cesse de vénérer la nature, qui prend un [[alignement]] interdit ou apprend la langue des druides à un non-druide perd tous ses sorts et pouvoirs de druide (y compris son [[compagnons animaux|compagnon animal]], mais pas ses capacités à manier les armes, à porter des armures ou à utiliser des boucliers). Il ne peut gagner de nouveaux niveaux de druide que s’il fait acte de contrition (voir le sort ''[[pénitence]]'').

@@ -1,0 +1,158 @@
+---
+Name: Guide Colonnes
+Title: Guide de création : les colonnes
+LastModified: 2015-04-30 23:56
+---
+<div class="fright">{s:MenuGuide}</div>
+Cette section détaille le fonctionnement des colonnes, permettant d'organiser le contenu d'une page en plusieurs colonnes.
+
+===Unité de largeur===
+Afin de définir les largeurs de colonnes, on divise la zone de contenu selon '''12 unités de taille'''.
+
+On peut ensuite définir la largeur d'une colonne en '''nombre d'unités'''.
+
+4 largeurs sont ainsi définies :
+* 2 unités
+* 3 unités
+* 4 unités
+* 6 unités
+
+Pour découper un contenu en colonnes de taille identiques, on indiquera simplement le nombre d'unités adéquat :
+
+{s:Ligne}
+{s:Col|6}
+<div style="background-color:#e7dfc6;margin:5px;padding:5px 15px">6 unités</div>
+{s:Col-Fin}
+{s:Col|6}
+<div style="background-color:#e7dfc6;margin:5px;padding:5px 15px">6 unités</div>
+{s:Col-Fin}
+{s:Ligne-Fin}
+
+{s:Ligne}
+{s:Col|4}
+<div style="background-color:#e7dfc6;margin:5px;padding:5px 15px">4 unités</div>
+{s:Col-Fin}
+{s:Col|4}
+<div style="background-color:#e7dfc6;margin:5px;padding:5px 15px">4 unités</div>
+{s:Col-Fin}
+{s:Col|4}
+<div style="background-color:#e7dfc6;margin:5px;padding:5px 15px">4 unités</div>
+{s:Col-Fin}
+{s:Ligne-Fin}
+
+{s:Ligne}
+{s:Col|3}
+<div style="background-color:#e7dfc6;margin:5px;padding:5px 15px">3 unités</div>
+{s:Col-Fin}
+{s:Col|3}
+<div style="background-color:#e7dfc6;margin:5px;padding:5px 15px">3 unités</div>
+{s:Col-Fin}
+{s:Col|3}
+<div style="background-color:#e7dfc6;margin:5px;padding:5px 15px">3 unités</div>
+{s:Col-Fin}
+{s:Col|3}
+<div style="background-color:#e7dfc6;margin:5px;padding:5px 15px">3 unités</div>
+{s:Col-Fin}
+{s:Ligne-Fin}
+
+{s:Ligne}
+{s:Col|2}
+<div style="background-color:#e7dfc6;margin:5px;padding:5px 15px">2 unités</div>
+{s:Col-Fin}
+{s:Col|2}
+<div style="background-color:#e7dfc6;margin:5px;padding:5px 15px">2 unités</div>
+{s:Col-Fin}
+{s:Col|2}
+<div style="background-color:#e7dfc6;margin:5px;padding:5px 15px">2 unités</div>
+{s:Col-Fin}
+{s:Col|2}
+<div style="background-color:#e7dfc6;margin:5px;padding:5px 15px">2 unités</div>
+{s:Col-Fin}
+{s:Col|2}
+<div style="background-color:#e7dfc6;margin:5px;padding:5px 15px">2 unités</div>
+{s:Col-Fin}
+{s:Col|2}
+<div style="background-color:#e7dfc6;margin:5px;padding:5px 15px">2 unités</div>
+{s:Col-Fin}
+{s:Ligne-Fin}
+
+On peut tout à fait combiner plusieurs colonnes de largeurs différentes en respectant le total de 12 unités.
+
+{s:Ligne}
+{s:Col|6}
+<div style="background-color:#e7dfc6;margin:5px;padding:5px 15px">6 unités</div>
+{s:Col-Fin}
+{s:Col|3}
+<div style="background-color:#e7dfc6;margin:5px;padding:5px 15px">3 unités</div>
+{s:Col-Fin}
+{s:Col|3}
+<div style="background-color:#e7dfc6;margin:5px;padding:5px 15px">3 unités</div>
+{s:Col-Fin}
+{s:Ligne-Fin}
+
+{s:Ligne}
+{s:Col|3}
+<div style="background-color:#e7dfc6;margin:5px;padding:5px 15px">3 unités</div>
+{s:Col-Fin}
+{s:Col|3}
+<div style="background-color:#e7dfc6;margin:5px;padding:5px 15px">3 unités</div>
+{s:Col-Fin}
+{s:Col|4}
+<div style="background-color:#e7dfc6;margin:5px;padding:5px 15px">4 unités</div>
+{s:Col-Fin}
+{s:Col|2}
+<div style="background-color:#e7dfc6;margin:5px;padding:5px 15px">2 unités</div>
+{s:Col-Fin}
+{s:Ligne-Fin}
+
+
+===Syntaxe===
+
+Les colonnes sont regroupés au sein d'une '''ligne'''. Chaque '''ligne''' se trouve l'une après l'autre.
+
+On utilise le snippet {{Ligne}} et {{Ligne-Fin}} pour délimiter le début et la fin d'une ligne (un ''snippet'' est une commande entourée par les caractères ''<nowiki>{s:</nowiki>'' et ''<nowiki>}</nowiki>'').
+
+@@{s:Ligne}
+...
+{s:Ligne-Fin}
+@@
+
+On définit ensuite chaque colonne à l'aide du snippet {{Col}} et {{Col-Fin}} prenant en paramètre le nombre d'unités.
+
+@@{s:Ligne}
+{s:Col|6}
+6 unités
+{s:Col-Fin}
+{s:Col|6}
+6 unités
+{s:Col-Fin}
+{s:Ligne-Fin}
+@@
+
+Pour obtenir le découpage suivant :
+
+{s:Ligne}
+{s:Col|6}
+<div style="background-color:#e7dfc6;margin:5px;padding:5px 15px">6 unités</div>
+{s:Col-Fin}
+{s:Col|6}
+<div style="background-color:#e7dfc6;margin:5px;padding:5px 15px">6 unités</div>
+{s:Col-Fin}
+{s:Ligne-Fin}
+
+Le nombre d'unités est indiqué à la suite du nom du snippet {{Col}}, en utilisant le caractère {{|}} puis le nombre d'unités.
+
+@@{s:Col|6} = 6 unités
+{s:Col|4} = 4 unités
+{s:Col|3} = 3 unités
+{s:Col|2} = 2 unités
+@@
+
+'''Note.''' Il est important d'inclure les snippets {{Ligne-Fin}} et {{Col-Fin}} après chaque ligne/colonne pour ne pas casser la mise en page du site.
+
+===Avancé===
+
+'''Paramètres CSS Ligne.''' Le snippet {{Ligne}} accepte deux paramètres supplémentaires permettant d'inclure des classes et des styles css additionnels dans le {{<esc><div></esc>}}. Le premier paramètre permet d'ajouter des classes css, le second d'inclure des styles. Exemple : {{Ligne|presentation arrondi ombre|font-weight:bold}} pour inclure les classes css {{presentation arrondi ombre}} et le style css {{font-weight:bold}} sur toute la ligne.
+
+'''Paramètres CSS Colonnes.''' Le snippet {{Col}} accepte deux autres paramètres permettant d'inclure des classes et des styles css additionnels dans le {{<esc><div></esc>}}. Exemple : {{Col|4|rouge|font-weight:bold}} pour inclure la classe css {{rouge}} et le style css {{font-weight:bold}} sur la colonne ; {{Col|3||color:red}} pour inclure uniquement le style css {{color:red}}sur la colonne.
+

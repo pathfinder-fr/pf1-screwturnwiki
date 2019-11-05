@@ -1,0 +1,1744 @@
+}
+</script>
+<button type="button" onclick="debut();">Lancer la battlemap</button>
+<button type="button" onclick="fin();">Fermer les fenêtres de la battlemap</button>
+
+<nowiki><script type="text/javascript">
+
+/*************************/
+/* INITIALISATION ET FIN */
+/*************************/
+
+function debut() {
+  initialisation();
+  tastyle = " style='font-family: monospace; width: 100%; background-color: #f3efe2; font-size: 90%' ";
+  tstyle = " style='background-color: #e7dfc6; text-align: center' ";
+  fbmap = window.open('','Battlemap','scrollbars=yes,height=700,width=700,resizable=yes,directories=no,location=no,menubar=no,left=50,top=50');
+  docbmap = fbmap.document;
+  fcontrol = window.open('','Contrôle','scrollbars=yes,height=700,width=480,resizable=yes,directories=no,location=no,menubar=no,left=800,top=100');
+  doccontrol = fcontrol.document;
+
+  docbmap.body.innerHTML = "<div style='position: relative; left: 0; top: 0' id='maindivbmap'></div>";
+  maindivbmap = docbmap.getElementById("maindivbmap");  
+
+  creamap();
+ 
+  /* Contenu de la fenêtre de contrôle */
+  contenu = "<center><table style=' margin: 0 0 10px 0; border: 1px solid #4b3124'><tr>";
+  contenu += "<td>" + mybutton2("bmap","Modifier la battlemap","bmap") + "</td>";
+  contenu += "<td>" + mybutton2("bbest0","Ouvrir le Bestiaire Pathfinder","bbest") + "</td>";
+  contenu += "<td id='tjetons'" + tstyle + " COLSPAN=5>Jetons</td>";
+  contenu += "<td id='tobjets'" + tstyle + " COLSPAN=2>Objets</td>";
+  contenu += "<td id='tzones'" + tstyle + " COLSPAN=2>Zones</td>";
+  contenu += "<td>" + mybutton2("bquit","Fermer les fenêtres de la battlemap","bkill") + "</td>";
+  contenu += "</tr><tr>";
+  contenu += "<td>" + mybutton2("bgrille","Grille on/off","bgrid") + "</td>";
+  contenu += "<td>" + mybutton2("bzoom","Zoom","bzoom") + "</td>";
+  contenu += "<td>" + mybutton2("blistejetons","Liste des jetons","blist") + "</td>";
+  contenu += "<td>" + mybutton2("bajoutjeton","Nouveau jeton","bajout") + "</td>";
+  contenu += "<td>" + mybutton2("nround","Nouveau round","bnround") + "</td>";
+  contenu += "<td>" + mybutton2("binit","Tri par initiative","binit") + "</td>";
+  contenu += "<td>" + mybutton2("baz","Tri alphabétique","baz") + "</td>";
+  contenu += "<td>" + mybutton2("blisteobjets","Liste des objets","blist") + "</td>";
+  contenu += "<td>" + mybutton2("bajoutobjet","Nouvel objet","bajout") + "</td>";
+  contenu += "<td>" + mybutton2("blistezones","Liste des zones","blist") + "</td>";
+  contenu += "<td>" + mybutton2("bajoutzone","Nouvelle zone","bajout") + "</td>";
+  contenu += "<td>" + mybutton2("bcode","Code","bcode") + "</td>";
+  contenu += "</tr></table>";
+  contenu += "<div id='divcontrol' style='width:100%'></div></center>";
+  doccontrol.body.innerHTML = contenu;
+  divcontrol = doccontrol.getElementById("divcontrol");
+  doccontrol.getElementById("tjetons").onclick = listeJetons;
+  doccontrol.getElementById("tobjets").onclick = listeObjets;
+  doccontrol.getElementById("tzones").onclick = listeZones;
+  doccontrol.getElementById("blistejetons").onclick = listeJetons;
+  doccontrol.getElementById("blisteobjets").onclick = listeObjets;
+  doccontrol.getElementById("blistezones").onclick = listeZones;
+  doccontrol.getElementById("bajoutjeton").onclick = ajoutJeton;
+  doccontrol.getElementById("bajoutobjet").onclick = ajoutObjet;
+  doccontrol.getElementById("bajoutzone").onclick = ajoutZone;
+  doccontrol.getElementById("binit").onclick = new Function ("tridefaut = 0; listeJetons();");
+  doccontrol.getElementById("baz").onclick = new Function ("tridefaut = 1; listeJetons();");
+  doccontrol.getElementById("nround").onclick = new Function ("nouveauRound();");
+  doccontrol.getElementById("bgrille").onclick = grilleAction;
+  doccontrol.getElementById("bzoom").onclick = choisitZoom;
+  doccontrol.getElementById("bcode").onclick = afficheCode;
+  doccontrol.getElementById("bquit").onclick = fin;
+  doccontrol.getElementById("bmap").onclick = editmap;
+  doccontrol.getElementById("bbest0").onclick = new Function ("window.open('/Wiki/Pathfinder-RPG.Monstres.ashx','annexe','scrollbars=yes,resizable=yes,directories=no,location=no,menubar=no,left=50,top=50');");
+  listeJetons();
+}
+
+function creamap() {
+  /* Numérotation des cases dans les marges et contenu bmap */
+  var contenu = "";
+  for (var i = 0; i < battlemap.taillex ; i++) {
+    contenu += "<div id='ghoriz" + i + "' style='position: absolute; left: " + (i*20+20) + "; top: 0'>";
+    contenu += "<p style='text-align: center; font-size: 11'>" + codeLettre(i) + "</p></div>";
+  }
+  for (var i = 0; i < battlemap.tailley ; i++) {
+    contenu += "<div id='gvert" + i + "' style='position: absolute; left: 0; top: " + (i*20+20) + "'>";
+    contenu += "<p style='text-align: center; font-size: 11'>" + (i+1) + "</p></div>";
+  }
+  contenu += "<div id='divbmap' style='position: absolute; left: 20; top: 20; background-color: blue'>";
+  contenu += "<img id='imgbmap' style='position: absolute; left: 0; top: 0' />";
+  contenu += "</div>";
+  maindivbmap.innerHTML = contenu;
+  imgbmap = docbmap.getElementById("imgbmap");
+  imgbmap.zIndex = 0;
+  divbmap = docbmap.getElementById("divbmap");
+  imgbmap.src = battlemap.src;
+  zoom = calculeZoom();
+  affichebmap();
+}
+
+function affichebmap() {
+  if (grille) grilleAction();
+  imgbmap.style.height = Math.floor(battlemap.tailley * zoom);
+  imgbmap.style.width = Math.floor(battlemap.taillex * zoom);
+  for (var i = 0; i < battlemap.taillex ; i++) {
+    var target = docbmap.getElementById("ghoriz"+i);
+    target.style.left = Math.floor((i+1) * zoom);
+    target.style.width = Math.floor(zoom);
+    target.style.height = Math.floor(zoom);
+  }
+  for (var i = 0; i < battlemap.tailley ; i++) {
+    var target = docbmap.getElementById("gvert"+i);
+    target.style.top = Math.floor((i+1) * zoom);
+    target.style.width = Math.floor(zoom);
+    target.style.height = Math.floor(zoom);
+  }
+  divbmap.style.left = Math.floor(zoom);
+  divbmap.style.top = Math.floor(zoom);
+  for (var ei = 0; ei < battlemap.nzones; ei++) {
+    arrayget(battlemap.zones,ei).installe();
+  }
+  for (var ei = 0; ei < battlemap.nelems; ei++) {
+    arrayget(battlemap.elems,ei).installe();
+  }
+  for (var ei = 0; ei < battlemap.nobjets; ei++) {
+    arrayget(battlemap.objets,ei).installe();
+  }
+}
+
+function fin() {
+  fbmap.close();
+  fcontrol.close();
+  fbmap = null;
+  fcontrol = null;
+}
+
+/*******/
+/* MAP */
+/*******/
+
+function editmap() {
+  idxmvt = -1;
+  idxzmvt = -1;
+  idxomvt = -1;
+  vide(divcontrol);
+  var contenu = "<table>";
+  contenu += "<td>Image</td><td><input id='isrc' type='text' value='" + battlemap.src + "'/></td>";
+  contenu += "<td rowspan=3 style='text-align: right'>" + mybutton("bmok","Valider","bok") + "</td>";
+  contenu += "</tr><tr>";
+  contenu += "<td>Taille-x</td><td><input id='itaillex' type='text' value='" + battlemap.taillex + "'/></td>";
+  contenu += "</tr><tr>";
+  contenu += "<td>Taille-y</td><td><input id='itailley' type='text' value='" + battlemap.tailley + "'/></td>";
+  contenu += "</tr><tr>";
+  contenu += "<td colspan=3 width=400px><img id='iimg' width=400px src='" + battlemap.src + "'/></td>";
+  contenu += "</tr></table>";
+  divcontrol.innerHTML = contenu;
+  doccontrol.getElementById("bmok").onclick = validemap;
+  doccontrol.getElementById("isrc").onchange = modifsrcmap;
+  setmybuttons(doccontrol);
+}
+
+function modifsrcmap() {
+  doccontrol.getElementById("iimg").src = doccontrol.getElementById("isrc").value;
+}
+
+function validemap() {
+  var nsrc = doccontrol.getElementById("isrc").value;
+  var ntaillex = parseInt(doccontrol.getElementById("itaillex").value);
+  var ntailley = parseInt(doccontrol.getElementById("itailley").value);
+  if (isNaN(ntaillex) || isNaN(ntailley))
+    doccontrol.alert ("Les tailles en x et en y doivent être supérieures ou égales à 1.");
+  else if ((ntaillex < 1) || (ntailley < 1))
+    doccontrol.alert ("Les tailles en x et en y doivent être supérieures ou égales à 1.");
+  else {
+    if (battlemap.taillex > ntaillex)
+      for (var i = ntaillex; i < battlemap.taillex ; i++) {
+        var el = docbmap.getElementById("ghoriz" + i);
+        maindivbmap.removeChild(el);
+      }
+    if (battlemap.tailley > ntailley)
+      for (var i = ntailley; i < battlemap.tailley ; i++) {
+        var el = docbmap.getElementById("gvert" + i);
+        maindivbmap.removeChild(el);
+      }
+    if (battlemap.taillex < ntaillex)
+      for (var i = battlemap.taillex; i < ntaillex ; i++) {
+        var el = docbmap.createElement("div");
+        el.id = "ghoriz" + i;
+        el.style.position = "absolute";
+        el.style.left = "" + (i*20+20);
+        el.style.top = "0";
+        el.innerHTML = "<p style='text-align: center; font-size: 11'>" + codeLettre(i) + "</p>";
+        maindivbmap.appendChild(el);
+      }
+    if (battlemap.tailley < ntailley)
+      for (var i = battlemap.tailley; i < ntailley ; i++) {
+        var el = docbmap.createElement("div");
+        el.id = "gvert" + i;
+        el.style.position = "absolute";
+        el.left = "0";
+        el.top = "" + (i*20+20);
+        el.innerHTML = "<p style='text-align: center; font-size: 11'>" + (i+1) + "</p>";
+        maindivbmap.appendChild(el);
+    }
+    imgbmap.src = nsrc;
+    battlemap.src = nsrc;
+    battlemap.taillex = ntaillex;
+    battlemap.tailley = ntailley;
+    zoom = calculeZoom();
+    affichebmap();
+    listeJetons();
+  }
+}
+
+/*********/
+/* ZOOM  */
+/*********/
+
+function choisitZoom() {
+  idxmvt = -1;
+  idxzmvt = -1;
+  idxomvt = -1;
+  vide(divcontrol);
+  var contenu = "<table><tr style='vertical-align: middle'><td>Taille des cases</td>";
+  contenu += "<td><input id='izoom' type='text' value='" + zoom + "' /></td>";
+  contenu += "<td>" + mybutton("btzoom","Appliquer","bok") + "</td></tr>";
+  contenu += "<tr><td colspan='3' style='text-align: center'>";
+  contenu += "<button id='bzoom1' type='button'>10 px</button> ";
+  contenu += "<button id='bzoom2' type='button'>20 px</button> ";
+  contenu += "<button id='bzoom3' type='button'>36 px</button> ";
+  contenu += "<button id='bzoom4' type='button'>72 px</button>";
+  contenu += "<button id='btaj' type='button'>Ajuster</button></td></tr>";
+  contenu += "<tr><td colspan='3' id='tcomment' style='font-style:italic; text-align: center'></td></tr></table>";
+  divcontrol.innerHTML = contenu;
+  doccontrol.getElementById("btzoom").onclick = ajusteZoom;
+  doccontrol.getElementById("btaj").onclick = new Function ("zoom = calculeZoom(); affichebmap(); choisitZoom();");
+  doccontrol.getElementById("bzoom1").onclick = new Function ("zoom = 10; affichebmap(); choisitZoom();");
+  doccontrol.getElementById("bzoom2").onclick = new Function ("zoom = 20; affichebmap(); choisitZoom();");
+  doccontrol.getElementById("bzoom3").onclick = new Function ("zoom = 36; affichebmap(); choisitZoom();");
+  doccontrol.getElementById("bzoom4").onclick = new Function ("zoom = 72; affichebmap(); choisitZoom();");
+  setmybuttons(doccontrol);
+}
+
+function ajusteZoom() {
+  var nzoom = parseFloat(doccontrol.getElementById("izoom").value);
+  if (isNaN(nzoom))
+    doccontrol.getElementById("tcomment").innerHTML = "Valeur incorrecte (on attend un réel)";
+  else {
+    zoom = nzoom;
+    affichebmap();
+  }
+}
+
+function calculeZoom() {
+  var wd = fbmap.innerWidth;
+  var ht = fbmap.innerHeight;
+  if (navigator.appName.indexOf("Microsoft")!=-1) {
+    wd = docbmap.body.offsetWidth;
+    ht = docbmap.body.offsetHeight;
+  }
+  wd = (wd-30)/(battlemap.taillex + 1);
+  ht = (ht-30)/(battlemap.tailley + 1);
+  if ((wd > 0) && (ht > 0))
+    if (wd > ht)
+      return ht;
+    else
+      return wd;
+  else
+    return 20;
+}
+
+/********/
+/* CODE */
+/********/
+
+function afficheCode() {
+  idxmvt = -1;
+  idxzmvt = -1;
+  idxomvt = -1;
+  vide(divcontrol);
+  var ta = doccontrol.createElement("div");
+  ta.style.width="100%";
+  divcontrol.appendChild(ta);
+  var contenu = "<textarea rows=36" + tastyle + "id='tacode'></textarea>";
+  ta.innerHTML = contenu;
+  var bcopy = new Battlemap();
+  bcopy.src = battlemap.src;
+  bcopy.taillex = battlemap.taillex;
+  bcopy.tailley = battlemap.tailley;
+  bcopy.nelems = battlemap.nelems;
+  bcopy.nzones = battlemap.nzones;
+  bcopy.nobjets = battlemap.nobjets;
+  for (var i = 0; i < battlemap.nelems; i++) {
+    var item = arrayget(battlemap.elems,i);
+    arrayset(bcopy.elems,i, new Elem (i, item.nom, item.src, item.posx, item.posy, item.taillex, item.tailley,
+                                          item.ordre, item.pv, item.pvmax, item.joue, item.etat, item.lien, item.notes));
+  }
+  for (var i = 0; i < battlemap.nzones; i++) {
+    var item = arrayget(battlemap.zones,i);
+    arrayset(bcopy.zones,i, new Zone (i, item.nom, item.type, item.src, item.coul, item.opac, item.posx, item.posy,
+                                          item.taillex, item.tailley, item.rot, item.notes));
+  }
+  for (var i = 0; i < battlemap.nobjets; i++) {
+    var item = arrayget(battlemap.objets,i);
+    arrayset(bcopy.objets,i, new Objet (i, item.nom, item.src, item.posx, item.posy, item.taillex, item.tailley,
+                                          item.opac, item.notes));
+  }
+  contenu = "{"+"s:01Battlemap}<" + "nowiki>\n";
+  contenu += "bdesc += '";
+  contenu += JSON.stringify(bcopy).replace(/'/g,"00GUI00").replace(/\\/g,"\\\\");
+  contenu += "';\n<" + "/nowiki>{" + "s:01BattlemapFin}\n";
+  doccontrol.getElementById("tacode").value = contenu;
+}
+
+/**********/
+/* GRILLE */
+/**********/
+
+function grilleAction() {
+  if (grille) {
+    for (var xi = 0; xi < battlemap.taillex; xi++) {
+      for (var yi = 0; yi < battlemap.tailley; yi++) {
+        var olddiv = fbmap.document.getElementById("grille"+xi+"sur"+yi);
+        divbmap.removeChild(olddiv);
+      }
+    }
+    grille = false;
+    idxmvt = -1;
+    idxzmvt = -1;
+    idxomvt = -1;
+  } else {
+    for (var xi = 0; xi < battlemap.taillex; xi++) {
+      for (var yi = 0; yi < battlemap.tailley; yi++) {
+        var ndiv = fbmap.document.createElement('div');
+        ndiv.style.width = Math.floor(zoom);
+        ndiv.style.height = Math.floor(zoom);
+        ndiv.style.position = "absolute";
+        ndiv.style.left = Math.floor(xi * zoom);
+        ndiv.style.top = Math.floor(yi * zoom);
+        if ((xi+yi)%2 == 0) {
+          ndiv.style.backgroundColor = "white";
+        } else {
+          ndiv.style.backgroundColor = "black";
+        }
+        ndiv.style.opacity = 0.25;
+        ndiv.style.zIndex = 100;
+        ndiv.title = codeLettre(xi) + (yi+1);
+        ndiv.id = "grille"+xi+"sur"+yi;
+        ndiv.onclick = new Function ("clickgrille(" + xi + "," + yi + ");");
+        divbmap.appendChild(ndiv);
+      }
+    }
+    grille = true;
+  }
+}
+
+function clickgrille(nx,ny) {
+  if (idxmvt != -1) {
+    var currelem = arrayget(battlemap.elems,idxmvt);
+    currelem.deplacevers(nx,ny);
+    idxmvt = -1;
+    grilleAction();
+  }
+  if (idxzmvt != -1) {
+    var currzone = arrayget(battlemap.zones,idxzmvt);
+    currzone.deplacevers(nx,ny);
+    idxzmvt = -1;
+    grilleAction();
+  }
+  if (idxomvt != -1) {
+    var currobjet = arrayget(battlemap.objets,idxomvt);
+    currobjet.deplacevers(nx,ny);
+    idxomvt = -1;
+    grilleAction();
+  }
+}
+
+/********************/
+/* LISTE DES JETONS */
+/********************/
+
+function listeJetons() {
+  idxmvt = -1;
+  idxzmvt = -1;
+  idxomvt = -1;
+  var tabordre = new Array();
+  for (var i = 0; i < battlemap.nelems; i++) arrayset(tabordre,i,i);
+  for (var i = 0; i < battlemap.nelems-1; i++)
+    for (var j = battlemap.nelems-1; j > i; j--) {
+      var swap;
+      var elem1 = arrayget(battlemap.elems,arrayget(tabordre,j-1));
+      var elem2 = arrayget(battlemap.elems,arrayget(tabordre,j));
+      if (tridefaut == 0)
+        swap = elem1.getordre() < elem2.getordre();
+      if (tridefaut == 1)
+        swap = elem1.nom > elem2.nom;
+      if (swap) {
+        var tmp = arrayget(tabordre,j-1);
+        arrayset(tabordre,j-1,arrayget(tabordre,j));
+        arrayset(tabordre,j,tmp);
+      }
+    }
+  vide(divcontrol);
+  var ntab = fcontrol.document.createElement('table');
+  ntab.style.border = "1px solid black";
+  ntab.cellspacing = 10;
+  divcontrol.appendChild(ntab);
+  var contenu = "";
+  if (battlemap.nelems == 0)
+    contenu = "<tr><td " + tstyle + ">Aucun jeton</td></tr>";
+  for (var i = 0; i < battlemap.nelems; i++) {
+    var currelem = arrayget(battlemap.elems,arrayget(tabordre,i));
+    if (i > 0)
+      contenu += "<tr><td colspan=5 style='background-color: black; padding: 1px'></td></tr>";   
+    contenu += "<tr style='vertical-align: middle'>";
+    contenu += "<td ROWSPAN=2><img style='width:56px; height:56px' id='img" + i + "' src='" + currelem.src + "'/></td>";
+    contenu += "<td style='color:#fff; background-color:";
+    var pvquota = currelem.pv/currelem.pvmax;
+    if (pvquota > .55)
+      contenu += "#339900";
+    else if (pvquota > .25)
+      contenu += "#FF8800";
+    else if (pvquota > 0)
+      contenu += "#FF0033";
+    else
+      contenu += "#330000";
+    contenu += "; padding: 2px 4px 2px 4px; font-weight: bold'>" + currelem.nom + "</td>";
+    contenu += "<td style='padding: 2px 4px 2px 4px'>Init : ";
+    if (currelem.ordre != currelem.getordre())
+      contenu += currelem.getordre() + " (" + currelem.ordre + ")";
+    else
+      contenu += currelem.ordre;
+    contenu += "</td>";
+    contenu += "<td  style='padding: 2px 4px 2px 4px; font-size: small' id='joue" + i + "'>";
+    if (currelem.joue)
+      contenu += "<span style='color: gray'>Déjà joué</span>";
+    else
+      contenu += "Doit jouer";
+    contenu += "</td>";
+    contenu += "<td>" + mybutton("bkill"+i,"Supprimer ce jeton","bkill") + "</td>";
+    contenu += "</tr><tr style='vertical-align: middle'>";
+    contenu += "<td style='padding: 2px 4px 2px 4px'>pv " + currelem.pv + "/" + currelem.pvmax + "</td>";
+    contenu += "<td style='padding: 2px 4px 2px 4px'>État : " + arrayget(etatdesc,currelem.etat) + "</td>";
+    contenu += "<td style='padding: 2px 4px 2px 4px'>" + mybutton("bedit"+i,"Éditer ce jeton","bedit");
+    contenu += mybutton("baura"+i,"Ajouter une aura à ce jeton","baura");
+    if (currelem.lien && (currelem.lien != ""))
+      contenu += mybutton("blien" + arrayget(tabordre,i),"Ouvrir le lien associé à ce jeton","blien");
+    contenu += "</td>";
+    contenu += "<td>" + mybutton("bcopy"+i,"Dupliquer ce jeton","bcopy") + "</td></tr>";
+  }
+  ntab.innerHTML = contenu;
+  for (var i = 0; i < battlemap.nelems; i++) {
+    doccontrol.getElementById("img"+i).onmouseover = new Function ("arrayget(battlemap.elems,"+arrayget(tabordre,i)+").illumine();");
+    doccontrol.getElementById("img"+i).onmouseout = new Function ("arrayget(battlemap.elems,"+arrayget(tabordre,i)+").desillumine();");
+    doccontrol.getElementById("joue"+i).onclick = new Function ("modifieJoue("+arrayget(tabordre,i)+","+i+");");
+    doccontrol.getElementById("img"+i).onclick = new Function ("modifJeton("+arrayget(tabordre,i)+");");
+    doccontrol.getElementById("bedit"+i).onclick = new Function ("modifJeton("+arrayget(tabordre,i)+");");
+    doccontrol.getElementById("baura"+i).onclick = new Function ("ajoutAuraJeton("+arrayget(tabordre,i)+");");
+    doccontrol.getElementById("bcopy"+i).onclick = new Function ("dupJeton("+arrayget(tabordre,i)+",0);");
+    doccontrol.getElementById("bkill"+i).onclick = new Function ("supprimeJeton("+arrayget(tabordre,i)+");");
+    if (arrayget(battlemap.elems,i).lien && (arrayget(battlemap.elems,i).lien != ""))
+      doccontrol.getElementById("blien"+i).onclick = new Function ("window.open('" + arrayget(battlemap.elems,i).lien + "','annexe','scrollbars=yes,resizable=yes,directories=no,location=no,menubar=no,left=50,top=50');");
+  }
+  setmybuttons(doccontrol);
+}
+
+function nouveauRound() {
+  for (var i = 0; i < battlemap.nelems; i++)
+    arrayget(battlemap.elems,i).joue = false;
+  listeJetons();
+}
+
+function modifieJoue(idx,idxcontrol) {
+  var currelem = arrayget(battlemap.elems,idx);
+  var target = doccontrol.getElementById("joue"+idxcontrol);
+  currelem.joue = !currelem.joue;
+  if (currelem.joue)
+    target.innerHTML = "<span style='color: gray'>A déjà joué</span>";
+  else
+    target.innerHTML = "Doit jouer";
+}
+
+function dupJeton(idx,type) {
+  var oelem = arrayget(battlemap.elems,idx);
+  var nidx = battlemap.nelems;
+  arrayset(battlemap.elems,nidx,
+    new Elem (nidx, nvnom(oelem.nom, nidx, battlemap.elems), oelem.src, oelem.posx, oelem.posy, oelem.taillex,
+                    oelem.tailley, oelem.ordre, oelem.pv, oelem.pvmax,
+                    oelem.joue, oelem.etat, oelem.lien, oelem.notes));
+  battlemap.nelems++;
+  arrayget(battlemap.elems,battlemap.nelems-1).installe();
+  if (type == 1)
+    modifJeton(nidx)
+  else
+    listeJetons();
+}
+
+function supprimeJeton(idx) {
+  idxmvt = -1;
+  idxzmvt = -1;  
+  idxomvt = -1;
+  var answer = fcontrol.confirm("Voulez-vous vraiment supprimer " + arrayget(battlemap.elems,idx).nom + " ?");
+  if (answer) {
+    arrayget(battlemap.elems,idx).efface();
+    for (var i = idx; i < battlemap.nelems-1; i++) {
+      arrayset(battlemap.elems,i,arrayget(battlemap.elems,i+1));
+      arrayget(battlemap.elems,i).ajusteidx(i);
+    }
+    battlemap.nelems--;
+    listeJetons();
+  }
+}
+
+function ajoutJeton() {
+  arrayset(battlemap.elems,battlemap.nelems,new Elem (battlemap.nelems, "Nouveau jeton", defaultsrc, 0, 0, 1, 1,
+           0, 1, 1, false, normal, "", ""));
+  arrayget(battlemap.elems,battlemap.nelems).installe();
+  battlemap.nelems++;
+  modifJeton(battlemap.nelems-1);
+}
+
+/********************/
+/* ÉDITION DE JETON */
+/********************/
+
+function modifJeton(idx) {
+  idxmvt = -1;
+  idxzmvt = -1;
+  idxomvt = -1;
+  var currelem = arrayget(battlemap.elems,idx);
+  vide(divcontrol);
+  var ntab = fcontrol.document.createElement('table');
+  ntab.style.border = "1px solid black";
+  ntab.cellspacing = 10;
+  divcontrol.appendChild(ntab);
+  var contenu = "<tr style='vertical-align: top'>";
+  contenu += "<td>Nom</td><td><input id='inom' type='text' value='" + currelem.nom.replace(/'/g,"\\'") + "'/></td>";
+  contenu += "<td ROWSPAN='6' style='background-color: black; padding: 0.5px'></td>";
+  contenu += "<td COLSPAN=2" + tstyle + "><center>Liens</center></td>";
+  contenu += "<td ROWSPAN='6' style='background-color: black; padding: 0.5px'></td>";
+  contenu += "<td ROWSPAN=2 COLSPAN=2><img id='iimg' style='width:56px; height: 56px' src='" + currelem.src + "'/></td>";
+  contenu += "<td>" + mybutton("bkill","Supprimer le jeton","bkill") + "</td>";
+  contenu += "</tr><tr>";
+  contenu += "<td>Lien</td><td><input id='ilien' type='text' value='" + currelem.lien + "'/></td>";
+  contenu += "<td>" + mybutton("blien","Ouvrir le lien associé au jeton","blien") + "</td>";
+  contenu += "<td>" + mybutton("bbest","Ouvrir le Bestiaire Pathfinder","bbest") + "</td>";
+  contenu += "<td>" + mybutton("bcopy","Dupliquer le jeton","bcopy") + "</td>";
+  contenu += "</tr><tr>";
+  contenu += "<td>Init</td><td><input id='iordre' type='text' value='" + currelem.ordre + "'/></td>";
+  contenu += "<td COLSPAN=2" + tstyle + "><center>Taille</center></td>";
+  contenu += "<td COLSPAN='3'" + tstyle + "><center>Position</center></td>";
+  contenu += "</tr><tr>";
+  contenu += "<td>pv</td><td><input id='ipv' type='text' value='" + currelem.pv + "'/></td>";
+  contenu += "<td COLSPAN=2><center>" + mybutton("tailleh","réduire la hauteur","bmoins") + "</center></td>";
+  contenu += "<td>" + mybutton("poshg","vers le haut et la gauche","bmnw") + "</td>";
+  contenu += "<td>" + mybutton("posh","vers le haut","bmn") + "</td>";
+  contenu += "<td>" + mybutton("poshd","vers le haut et la droite","bmne") + "</td>";
+  contenu += "</tr><tr>";
+  contenu += "<td>pv max</td><td><input id='ipvmax' type='text' value='" + currelem.pvmax + "'/></td>";
+  contenu += "<td><center>" + mybutton("tailleg","réduire la largeur","bmoins") + "</center></td>";
+  contenu += "<td><center>" + mybutton("tailled","augmenter la largeur","bplus") + "</center></td>";
+  contenu += "<td>" + mybutton("posg","vers la gauche","bmw") + "</td>";
+  contenu += "<td>" + mybutton("posdirect","vers une case sélectionnée","bmove") + "</td>";
+  contenu += "<td>" + mybutton("posd","vers la droite","bme") + "</td>";
+  contenu += "</tr><tr>";
+  contenu += "<td>État</td><td><select id='setat'>";
+  contenu += "<option value='Mort'>Mort</option>";
+  contenu += "<option value='Normal'>Normal</option>";
+  contenu += "<option value='Sur le sol'>Sur le sol</option>";
+  contenu += "<option value='Inconscient'>Inconscient</option>";
+  contenu += "<option value='Invisible'>Invisible</option>";
+  contenu += "</select></td>";
+  contenu += "<td COLSPAN=2 style='text-align:center'>" + mybutton("tailleb","augmenter la hauteur","bplus") + "</td>";
+  contenu += "<td>" + mybutton("posbg","vers le bas et la gauche","bmsw") + "</td>";
+  contenu += "<td>" + mybutton("posb","vers le bas","bms") + "</td>";
+  contenu += "<td>" + mybutton("posbd","vers le bas et la droite","bmse") + "</td>";
+  contenu += "</tr><tr>";
+  contenu += "<tr><td colspan=9><textarea id='tnotes' cols='50' rows='8'" + tastyle + ">" + currelem.notes + "</textarea></td></tr>";
+  contenu += "<tr><td colspan=9 style='background-color: black; padding: 1px'></td></tr>";
+  contenu += "<tr><td colspan=9 id='comment' style='font-style:italic; font-size: small'>Modifiez les valeurs ci-dessous</td></tr>";
+  ntab.innerHTML = contenu;
+  var scurrelem = "arrayget(battlemap.elems,"+idx+").";
+  doccontrol.getElementById("bkill").onclick = new Function ("supprimeJeton("+idx+");");
+  doccontrol.getElementById("bcopy").onclick = new Function ("dupJeton("+idx+",1);");
+  doccontrol.getElementById("iimg").onclick = new Function ("modifImage("+idx+");");
+  doccontrol.getElementById("poshg").onclick = new Function (scurrelem+"deplace(-1,-1);");
+  doccontrol.getElementById("posh").onclick = new Function (scurrelem+"deplace(0,-1);");
+  doccontrol.getElementById("poshd").onclick = new Function (scurrelem+"deplace(1,-1);");
+  doccontrol.getElementById("posg").onclick = new Function (scurrelem+"deplace(-1,0);");
+  doccontrol.getElementById("posd").onclick = new Function (scurrelem+"deplace(1,0);");
+  doccontrol.getElementById("posbg").onclick = new Function (scurrelem+"deplace(-1,1);");
+  doccontrol.getElementById("posb").onclick = new Function (scurrelem+"deplace(0,1);");
+  doccontrol.getElementById("posbd").onclick = new Function (scurrelem+"deplace(1,1);");
+  doccontrol.getElementById("posdirect").onclick = new Function ("mvtdirect(" + idx + ");");
+  doccontrol.getElementById("tailleh").onclick = new Function (scurrelem+"taille(0,-1);");
+  doccontrol.getElementById("tailleg").onclick = new Function (scurrelem+"taille(-1,0);");
+  doccontrol.getElementById("tailled").onclick = new Function (scurrelem+"taille(1,0);");
+  doccontrol.getElementById("tailleb").onclick = new Function (scurrelem+"taille(0,1);");
+  doccontrol.getElementById("inom").onchange = new Function ("majJeton("+idx+");");
+  doccontrol.getElementById("iordre").onchange = new Function ("majJeton("+idx+");");
+  doccontrol.getElementById("ipv").onchange = new Function ("majJeton("+idx+");");
+  doccontrol.getElementById("ipvmax").onchange = new Function ("majJeton("+idx+");");
+  doccontrol.getElementById("setat").selectedIndex = currelem.etat;
+  doccontrol.getElementById("setat").onchange = new Function ("majJeton("+idx+");");
+  doccontrol.getElementById("ilien").onchange = new Function ("majJeton("+idx+");");
+  doccontrol.getElementById("tnotes").onchange = new Function ("majJeton("+idx+");");
+  if (currelem.lien && (currelem.lien != ""))
+    doccontrol.getElementById("blien").onclick = new Function ("window.open('" + currelem.lien + "','annexe','scrollbars=yes,resizable=yes,directories=no,location=no,menubar=no,left=50,top=50');");
+  else
+    doccontrol.getElementById("blien").style.display = "none";
+  doccontrol.getElementById("bbest").onclick = new Function ("window.open('/wiki/Pathfinder-RPG.Monstres.ashx','annexe','scrollbars=yes,resizable=yes,directories=no,location=no,menubar=no,left=50,top=50');");
+  setmybuttons(doccontrol);
+}
+
+function mvtdirect(idx) {
+  fcontrol.document.getElementById("comment").innerHTML = "Cliquez sur la case de la nouvelle position.";
+  if (!grille) grilleAction();
+  idxmvt = idx;
+  idxzmvt = -1;
+  idxomvt = -1;
+}
+
+function modifImage(idx) {
+  idxmvt = -1;
+  idxzmvt = -1;
+  idxomvt = -1;
+  var currelem = arrayget(battlemap.elems,idx);
+  var nsrc = fcontrol.prompt("Entrez l'adresse de la nouvelle image.",currelem.src);
+  if (nsrc != null) {
+    currelem.src = nsrc;
+    currelem.img.src = nsrc;
+    doccontrol.getElementById("iimg").src = nsrc;
+  }
+}
+
+function majJeton(idx) {
+  idxmvt = -1;
+  idxzmvt = -1;
+  idxomvt = -1;
+  var currelem = arrayget(battlemap.elems,idx);
+  doccontrol.getElementById("comment").innerHTML = "Modification enregistrée";
+  currelem.ajustenom(doccontrol.getElementById("inom").value);
+  var val = parseFloat(doccontrol.getElementById("iordre").value);
+  if (isNaN(val)) {
+    doccontrol.getElementById("comment").innerHTML = "Ordre incorrect (on attend un réel)";
+    doccontrol.getElementById("iordre").value = "" + currelem.ordre;
+  } else {
+    currelem.ordre = val;
+  }
+  val = parseInt(doccontrol.getElementById("ipv").value);
+  if (isNaN(val)) {
+    doccontrol.getElementById("comment").innerHTML = "Pv incorrect (on attend un entier)";
+    doccontrol.getElementById("ipv").value = "" + currelem.pv;
+  } else {
+    currelem.ajustepv(val);
+  }
+  val = parseInt(doccontrol.getElementById("ipvmax").value);
+  if (isNaN(val)) {
+    doccontrol.getElementById("comment").innerHTML = "Pv max incorrect (on attend un entier)";
+    doccontrol.getElementById("ipvmax").value = "" + currelem.pvmax;
+  } else {
+    currelem.ajustepvmax(val);
+  }
+  currelem.etat = doccontrol.getElementById("setat").selectedIndex;
+  currelem.lien = doccontrol.getElementById("ilien").value;
+  currelem.notes = doccontrol.getElementById("tnotes").value;
+  if (currelem.lien == "") {
+    doccontrol.getElementById("blien").style.display = "none";
+    doccontrol.getElementById("blien").style.visibility = "hidden";
+  }
+  else {
+    doccontrol.getElementById("blien").onclick = new Function ("window.open('" + currelem.lien + "','annexe','scrollbars=yes,resizable=yes,directories=no,location=no,menubar=no,left=50,top=50');");
+    doccontrol.getElementById("blien").style.display = "";
+    doccontrol.getElementById("blien").style.visibility = "visible";
+  }
+  currelem.ajusteetat();
+}
+
+/********************/
+/* LISTE DES OBJETS */
+/********************/
+
+function listeObjets() {
+  idxmvt = -1;
+  idxzmvt = -1;
+  idxomvt = -1;
+  vide(divcontrol);
+  var ntab = fcontrol.document.createElement('table');
+  ntab.style.border = "1px solid black";
+  ntab.cellspacing = 10;
+  divcontrol.appendChild(ntab);
+  var contenu = "";
+  if (battlemap.nobjets == 0) contenu = "<tr><td " + tstyle + ">Aucun objet</td></tr>";
+  for (var i = 0; i < battlemap.nobjets; i++) {
+    var currobjet = arrayget(battlemap.objets,i);
+    if (i > 0)
+      contenu += "<tr><td colspan=10 style='background-color: black; padding: 1px'></td></tr>";
+    contenu += "<tr>";
+    contenu += "<td>Nom</td><td><input id='nom" + i + "' type='text' value='" + currobjet.nom.replace(/'/g,"\\'") + "'/></td>";
+    contenu += "<td ROWSPAN='7' style='background-color: black; padding: 0.5px'></td>";
+    contenu += "<td><center>" + mybutton("bup"+i,"Placer plus haut","bmn");
+    contenu += mybutton("bupup"+i,"Placer beaucoup plus haut","bupup") + "</center></td>";
+    contenu += "<td ROWSPAN='7' style='background-color: black; padding: 0.5px'></td>";
+    contenu += "<td COLSPAN=2 ROWSPAN=2><img style='width:50px; height:50px' id='img" + i + "' src='" + currobjet.src + "'/></td>";
+    contenu += "<td>" + mybutton("bkill"+i,"Supprimer l'objet","bkill") + "</td>";
+    contenu += "</tr><tr>";
+    contenu += "<td>Opacité</td><td><input id='opac" + i + "' type='text' value='" + currobjet.opac + "'/></td>";
+    contenu += "<td><center>" + mybutton("bdown"+i,"Placer plus bas","bms");
+    contenu += mybutton("bdowndown"+i,"Placer beaucoup plus bas","bupup") + "</center></td>";
+    contenu += "<td>" + mybutton("bcopy"+i,"Dupliquer l'objet","bcopy") + "</td>";
+    contenu += "</tr><tr>";
+    contenu += "<td COLSPAN=2 ROWSPAN=4><textarea id='tnotes" + i + "' cols='22' rows='5'" + tastyle + ">" + currobjet.notes + "</textarea></td>";
+    contenu += "<td" + tstyle + "><center>Taille</center></td>";
+    contenu += "<td COLSPAN='3'" + tstyle + "><center>Position</center></td>";
+    contenu += "</tr><tr>";
+    contenu += "<td COLSPAN=2><center>" + mybutton("btailleym"+i,"réduire la hauteur","bmoins") + "</center></td>";
+    contenu += "<td>" + mybutton("bmovenw"+i,"vers le haut et la gauche","bmnw") + "</td>";
+    contenu += "<td>" + mybutton("bmoven"+i,"vers le haut","bmn") + "</td>";
+    contenu += "<td>" + mybutton("bmovene"+i,"vers le haut et la droite","bmne") + "</td>";
+    contenu += "</tr><tr>";
+    contenu += "<td COLSPAN=2><center>" + mybutton("btaillexm"+i,"diminuter la largeur","bmoins");
+    contenu += mybutton("btaillexp"+i,"augmenter la largeur","bplus") + "<center></td>";
+    contenu += "<td>" + mybutton("bmovew"+i,"vers la gauche","bmw") + "</td>";
+    contenu += "<td>" + mybutton("bmoveg"+i,"vers une case sélectionnée","bmove") + "</td>";
+    contenu += "<td>" + mybutton("bmovee"+i,"vers la droite","bme") + "</td>";
+    contenu += "</tr><tr>";
+    contenu += "<td COLSPAN=2><center>" + mybutton("btailleyp"+i,"augmenter la hauteur","bplus") + "</center></td>";
+    contenu += "<td>" + mybutton("bmovesw"+i,"vers le bas et la gauche","bmsw") + "</td>";
+    contenu += "<td>" + mybutton("bmoves"+i,"vers le bas","bms") + "</td>";
+    contenu += "<td>" + mybutton("bmovese"+i,"vers le bas et la droite","bmse") + "</td>";
+    contenu += "</tr>";
+  }
+  ntab.innerHTML = contenu;
+  for (var i = 0; i < battlemap.nobjets; i++) {
+    var scurrobjet = "arrayget(battlemap.objets," + i + ").";
+    doccontrol.getElementById("nom"+i).onchange = new Function ("majObjet("+i+");");
+    doccontrol.getElementById("img"+i).onmouseover = new Function (scurrobjet+"illumine();");
+    doccontrol.getElementById("img"+i).onmouseout = new Function (scurrobjet+"desillumine();");
+    doccontrol.getElementById("img"+i).onclick = new Function ("modifImageObj("+i+");");
+    doccontrol.getElementById("opac"+i).onchange = new Function ("majObjet("+i+");");
+    doccontrol.getElementById("tnotes"+i).onchange = new Function ("majObjet("+i+");");
+    doccontrol.getElementById("bmovenw"+i).onclick = new Function (scurrobjet+"deplace(-1,-1);");
+    doccontrol.getElementById("bmovene"+i).onclick = new Function (scurrobjet+"deplace(1,-1);");
+    doccontrol.getElementById("bmovesw"+i).onclick = new Function (scurrobjet+"deplace(-1,1);");
+    doccontrol.getElementById("bmovese"+i).onclick = new Function (scurrobjet+"deplace(1,1);");
+    doccontrol.getElementById("bmoven"+i).onclick = new Function (scurrobjet+"deplace(0,-1);");
+    doccontrol.getElementById("bmovew"+i).onclick = new Function (scurrobjet+"deplace(-1,0);");
+    doccontrol.getElementById("bmoves"+i).onclick = new Function (scurrobjet+"deplace(0,1);");
+    doccontrol.getElementById("bmovee"+i).onclick = new Function (scurrobjet+"deplace(1,0);");
+    doccontrol.getElementById("bmoveg"+i).onclick = new Function ("mvtobjetdirect("+i+");");
+    doccontrol.getElementById("btaillexp"+i).onclick = new Function (scurrobjet+"taille(1,0);");
+    doccontrol.getElementById("btaillexm"+i).onclick = new Function (scurrobjet+"taille(-1,0);");
+    doccontrol.getElementById("btailleyp"+i).onclick = new Function (scurrobjet+"taille(0,1);");
+    doccontrol.getElementById("btailleym"+i).onclick = new Function (scurrobjet+"taille(0,-1);");
+    doccontrol.getElementById("bup"+i).onclick = new Function ("modobjordre("+i+",-1);");
+    doccontrol.getElementById("bdown"+i).onclick = new Function ("modobjordre("+i+",1);");
+    doccontrol.getElementById("bupup"+i).onclick = new Function ("modobjordre("+i+",-5);");
+    doccontrol.getElementById("bdowndown"+i).onclick = new Function ("modobjordre("+i+",5);");
+    doccontrol.getElementById("bkill"+i).onclick = new Function ("suppObjet("+i+");");
+    doccontrol.getElementById("bcopy"+i).onclick = new Function ("dupObjet("+i+");");
+  }
+  setmybuttons(doccontrol);
+}
+
+function modifImageObj(idx) {
+  idxmvt = -1;
+  idxzmvt = -1;
+  idxomvt = -1;
+  var currobj = arrayget(battlemap.objets,idx);
+  var nsrc = fcontrol.prompt("Entrez l'adresse de la nouvelle image.",currobj.src);
+  if (nsrc != null) {
+    currobj.src = nsrc;
+    currobj.img.src = nsrc;
+    doccontrol.getElementById("img"+idx).src = nsrc;
+  }
+}
+
+function ajoutObjet() {
+  arrayset(battlemap.objets, battlemap.nobjets, new Objet (battlemap.nobjets, "Nouvel objet", defaultsrc, 0, 0, 1, 1, 1, ""));
+  arrayget(battlemap.objets, battlemap.nobjets).installe();
+  battlemap.nobjets++;
+  listeObjets();
+}
+
+function dupObjet(idx) {
+  var oobj = arrayget(battlemap.objets,idx);
+  var nnom = nvnom(oobj.nom, battlemap.nobjets, battlemap.objets);
+  for (var i = battlemap.nobjets-1; i > idx; i--) {
+    arrayget(battlemap.objets, i).ajusteidx(i+1);
+    arrayset(battlemap.objets, i+1, arrayget(battlemap.objets,i));
+  }
+  battlemap.nobjets++
+  arrayset(battlemap.objets, idx+1,
+    new Objet (idx+1, nnom, oobj.src, oobj.posx, oobj.posy, oobj.taillex,
+                      oobj.tailley, oobj.opac, oobj.notes));
+  arrayget(battlemap.objets, idx+1).installe();
+  listeObjets();
+}
+
+function modobjordre(idx,dep) {
+  var nidx = idx + dep;
+  if (nidx < 0) nidx = 0;
+  if (nidx > battlemap.nobjets-1) nidx = battlemap.nobjets-1;
+  var sens = 0;
+  if (nidx > idx) sens = 1;
+  if (nidx < idx) sens = -1;
+  var curr = arrayget(battlemap.objets,idx);
+  var i = idx;
+  while (i != nidx) {
+    var alt = i + sens;
+    arrayset(battlemap.objets,i,arrayget(battlemap.objets,alt));
+    arrayget(battlemap.objets,i).ajusteidx(i);
+    i = alt;
+  }
+  arrayset(battlemap.objets,nidx,curr);
+  curr.ajusteidx(nidx);
+  listeObjets();
+}
+
+function majObjet(idx) {
+  var enom = doccontrol.getElementById("nom"+idx).value;
+  var eopac = parseFloat(fcontrol.document.getElementById("opac"+idx).value);
+  var enotes = doccontrol.getElementById("tnotes"+idx).value;
+  if (isNaN(eopac)) {
+    doccontrol.alert("L'opacité doit être un réel entre 0 et 1.");
+    doccontrol.getElementById("opac"+idx).value = arrayget(battlemap.objets,idx).opac;
+  } else {
+    arrayget(battlemap.objets,idx).nom = enom;
+    arrayget(battlemap.objets,idx).opac = eopac;
+    arrayget(battlemap.objets,idx).notes = enotes;
+    arrayget(battlemap.objets,idx).installe();
+    listeObjets();
+  }
+}
+
+function suppObjet(idx) {
+  idxmvt = -1;
+  idxzmvt = -1;
+  idxomvt = -1;
+  var answer = fcontrol.confirm("Voulez-vous vraiment supprimer l'objet " + arrayget(battlemap.objets,idx).nom + " ?");
+  if (answer) {
+    arrayget(battlemap.objets,idx).efface();
+    for (var i = idx; i < battlemap.nobjets-1; i++) {
+      arrayset(battlemap.objets,i,arrayget(battlemap.objets,i+1));
+      arrayget(battlemap.objets,i).idx = i;
+    }
+    battlemap.nobjets--;
+    listeObjets();
+  }
+}
+
+function mvtobjetdirect(idx) {
+  if (!grille) grilleAction();
+  idxmvt = -1;
+  idxzmvt = -1;
+  idxomvt = idx;
+}
+
+/*******************/
+/* LISTE DES ZONES */
+/*******************/
+
+function listeZones() {
+  idxmvt = -1;
+  idxzmvt = -1;
+  idxomvt = -1;
+  vide(divcontrol);
+  var ntab = fcontrol.document.createElement('table');
+  ntab.style.border = "1px solid black";
+  ntab.cellspacing = 10;
+  divcontrol.appendChild(ntab);
+  var contenu = "";
+  if (battlemap.nzones == 0) contenu = "<tr><td " + tstyle + ">Aucune zone</td></tr>";
+  for (var i = 0; i < battlemap.nzones; i++) {
+    var currzone = arrayget(battlemap.zones,i);
+    if (i > 0)
+      contenu += "<tr><td colspan=10 style='background-color: black; padding: 1px'></td></tr>";
+    contenu += "<tr>";
+    contenu += "<td>Nom</td><td><input id='nom" + i + "' type='text' value='" + currzone.nom.replace(/'/,"\\'") + "'/></td>";
+    contenu += "<td ROWSPAN='6' style='background-color: black; padding: 0.5px'></td>";
+    if ((currzone.type == cone) || (currzone.type == rectangle))
+      contenu += "<td COLSPAN='3'" + tstyle + "><center>Rotation</center></td>";
+    else
+      contenu += "<td COLSPAN='3'></td>";
+    contenu += "<td ROWSPAN='6' style='background-color: black; padding: 0.5px'></td>";
+    contenu += "<td id='zone" + i + "' COLSPAN='2' ROWSPAN='2' style='border: 2px solid white;";
+    contenu += "background-color: " + currzone.coul + "; opacity:" + currzone.opac + "'>";
+    if (currzone.src != "")
+      contenu += "<img style='width:50px; height:50px; padding:0; margin:0' src='" + currzone.src + "'/>";
+    contenu += "</td>";
+    contenu += "<td>" + mybutton("kill"+i,"Supprimer","bkill") + "</td>";
+    contenu += "</tr><tr>";
+    contenu += "<td>Couleur</td><td><input id='coul" + i + "' type='text' value='" + currzone.coul + "'/></td>";
+    if ((currzone.type == cone) || (currzone.type == rectangle)) {
+      contenu += "<td>" + mybutton("brotm"+i,"Rotation vers la gauche","brotg") + "</td>";
+      contenu += "<td></td>";
+      contenu += "<td>" + mybutton("brotp"+i,"Rotation vers la gauche","brotd") + "</td>";
+    } else {
+      contenu += "<td></td><td></td><td></td>";
+    }
+    contenu += "<td>" + mybutton("dup"+i,"Dupliquer","bcopy") + "</td>";
+    contenu += "</tr><tr>";
+    contenu += "<td>Opacité</td><td><input id='opac" + i + "' type='text' value='" + currzone.opac + "'/></td>";
+    contenu += "<td COLSPAN='3'" + tstyle + "><center>Taille</center></td>";
+    contenu += "<td COLSPAN='3'" + tstyle + "><center>Position</center></td>";
+    contenu += "</tr><tr>";
+    contenu += "<td>Type</td><td><select id='stype" + i + "'>";
+    contenu += "<option value='cercle'>cercle</option>";
+    contenu += "<option value='cone'>cone</option>";
+    contenu += "<option value='rectangle'>rectangle</option>";
+    contenu += "<option value='aura'>aura</option>";
+    contenu += "</select></td>";
+    contenu += "<td></td>";
+    if (currzone.type == rectangle) {
+      contenu += "<td><center>" + mybutton("btailleym"+i,"réduire la hauteur","bmoins") + "</center></td>";
+    } else {
+      contenu += "<td></td>";
+    }
+    contenu += "<td></td>";
+    contenu += "<td>" + mybutton("bmovenw"+i,"vers le haut et la gauche","bmnw") + "</td>";
+    contenu += "<td>" + mybutton("bmoven"+i,"vers le haut","bmn") + "</td>";
+    contenu += "<td>" + mybutton("bmovene"+i,"vers le haut et la droite","bmne") + "</td>";
+    contenu += "</tr><tr>";
+    contenu += "<td COLSPAN=2 ROWSPAN=2><textarea id='tnotes" + i + "' cols='20' rows='2'" + tastyle + ">" + currzone.notes + "</textarea></td>";
+    contenu += "<td><center>" + mybutton("btaillexm"+i,"diminuter la largeur","bmoins") + "</center></td>";
+    if ((currzone.type == cercle) || (currzone.type == cone) || (currzone.type == aura)) {
+      contenu += "<td id='taille" + i + "' align='center'>" + currzone.taillex + "</td>";
+    } else {
+      contenu += "<td id='taille" + i + "' style='text-align:center; font-size:small'>" + currzone.taillex + "/" + currzone.tailley + "</td>";
+    }
+    contenu += "<td><center>" + mybutton("btaillexp"+i,"diminuter la largeur","bplus") + "</center></td>";
+    contenu += "<td>" + mybutton("bmovew"+i,"vers la gauche","bmw") + "</td>";
+    contenu += "<td>" + mybutton("bmoveg"+i,"vers une case sélectionnée","bmove") + "</td>";
+    contenu += "<td>" + mybutton("bmovee"+i,"vers la droite","bme") + "</td>";
+    contenu += "</tr><tr>";
+    contenu += "<td></td>";
+    if (currzone.type == rectangle) {
+      contenu += "<td><center>" + mybutton("btailleyp"+i,"augmenter la hauteur","bplus") + "</center></td>";
+    } else {
+      contenu += "<td></td>";
+    }
+    contenu += "<td></td>";
+    contenu += "<td>" + mybutton("bmovesw"+i,"vers le bas et la gauche","bmsw") + "</td>";
+    contenu += "<td>" + mybutton("bmoves"+i,"vers le bas","bms") + "</td>";
+    contenu += "<td>" + mybutton("bmovese"+i,"vers le bas et la droite","bmse") + "</td>";
+    contenu += "</tr>";
+  }
+  ntab.innerHTML = contenu;
+  for (var i = 0; i < battlemap.nzones; i++) {
+    var currtype = arrayget(battlemap.zones,i).type;
+    var scurrzone = "arrayget(battlemap.zones," + i + ").";
+    var supdtaille = "doccontrol.getElementById('taille" + i + "').innerHTML = " + scurrzone + "taillex";
+    if (currtype == rectangle) {
+      supdtaille += "+'/'+" + scurrzone + "tailley;";
+    } else {
+      supdtaille += ";";
+    }
+    doccontrol.getElementById("stype"+i).selectedIndex = currtype;
+    doccontrol.getElementById("stype"+i).onchange = new Function ("majZone("+i+");");
+    doccontrol.getElementById("zone"+i).onmouseover = new Function (scurrzone+"illumine();");
+    doccontrol.getElementById("zone"+i).onmouseout = new Function (scurrzone+"desillumine();");
+    doccontrol.getElementById("zone"+i).onclick = new Function ("modifImageZone("+i+");");
+    doccontrol.getElementById("bmovenw"+i).onclick = new Function (scurrzone+"deplace(-1,-1);");
+    doccontrol.getElementById("bmovene"+i).onclick = new Function (scurrzone+"deplace(1,-1);");
+    doccontrol.getElementById("bmovesw"+i).onclick = new Function (scurrzone+"deplace(-1,1);");
+    doccontrol.getElementById("bmovese"+i).onclick = new Function (scurrzone+"deplace(1,1);");
+    doccontrol.getElementById("bmoven"+i).onclick = new Function (scurrzone+"deplace(0,-1);");
+    doccontrol.getElementById("bmovew"+i).onclick = new Function (scurrzone+"deplace(-1,0);");
+    doccontrol.getElementById("bmoves"+i).onclick = new Function (scurrzone+"deplace(0,1);");
+    doccontrol.getElementById("bmovee"+i).onclick = new Function (scurrzone+"deplace(1,0);");
+    doccontrol.getElementById("btaillexp"+i).onclick = new Function (scurrzone+"taille(1,0);"+supdtaille);
+    doccontrol.getElementById("btaillexm"+i).onclick = new Function (scurrzone+"taille(-1,0);"+supdtaille);
+    if (currtype == rectangle) {
+      doccontrol.getElementById("btailleyp"+i).onclick = new Function (scurrzone+"taille(0,1);"+supdtaille);
+      doccontrol.getElementById("btailleym"+i).onclick = new Function (scurrzone+"taille(0,-1);"+supdtaille);
+    }
+    if ((currtype == rectangle) || (currtype == cone)) {
+      doccontrol.getElementById("brotp"+i).onclick = new Function (scurrzone+"ajusterot(1);"+supdtaille);
+      doccontrol.getElementById("brotm"+i).onclick = new Function (scurrzone+"ajusterot(7);"+supdtaille);
+    }
+    doccontrol.getElementById("dup"+i).onclick = new Function ("dupZone("+i+");");
+    doccontrol.getElementById("kill"+i).onclick = new Function ("suppZone("+i+");");
+    doccontrol.getElementById("bmoveg"+i).onclick = new Function ("mvtzonedirect("+i+");");
+    doccontrol.getElementById("nom"+i).onchange = new Function ("majZone("+i+");");
+    doccontrol.getElementById("coul"+i).onchange = new Function ("majZone("+i+");");
+    doccontrol.getElementById("opac"+i).onchange = new Function ("majZone("+i+");");
+    doccontrol.getElementById("tnotes"+i).onchange = new Function ("majZone("+i+");");
+    setmybuttons(doccontrol);
+  }
+}
+
+function modifImageZone(idx) {
+  idxmvt = -1;
+  idxzmvt = -1;
+  idxomvt = -1;
+  var currzone = arrayget(battlemap.zones,idx);
+  var nsrc = fcontrol.prompt("Entrez l'adresse de la nouvelle image (ou rien pour enlever l'image).",currzone.src);
+  if (nsrc != null) {
+    currzone.src = nsrc;
+    currzone.installe();
+    listeZones();
+  }
+}
+
+function ajoutZone() {
+  arrayset(battlemap.zones, battlemap.nzones, new Zone (battlemap.nzones, "Nouvelle zone", cercle, "", "red", .5, 0, 0, 2, 2, 2, ""));
+  arrayget(battlemap.zones, battlemap.nzones).installe();
+  battlemap.nzones++;
+  listeZones();
+}
+
+function ajoutAuraJeton(idx) {
+  var currjeton = arrayget(battlemap.elems,idx);
+  arrayset(battlemap.zones, battlemap.nzones, new Zone (battlemap.nzones, "Aura pour " + currjeton.nom, aura, "", "white", .3,
+           currjeton.posx, currjeton.posy, 2, 2, 2, ""));
+  arrayget(battlemap.zones, battlemap.nzones).installe();
+  battlemap.nzones++;
+  listeZones();
+}
+
+function dupZone(idx) {
+  var ozone = arrayget(battlemap.zones,idx);
+  var nidx = battlemap.nzones;
+  arrayset(battlemap.zones,nidx,
+    new Zone (nidx, nvnom(ozone.nom, nidx, battlemap.zones), ozone.type, ozone.src, ozone.coul, ozone.opac, ozone.posx, ozone.posy,
+                    ozone.taillex, ozone.tailley, ozone.rot, ozone.notes));
+  battlemap.nzones++;
+  arrayget(battlemap.zones,battlemap.nzones-1).installe();
+  listeZones();
+}
+
+function mvtzonedirect(idx) {
+  if (!grille) grilleAction();
+  idxmvt = -1;
+  idxzmvt = idx;
+  idxomvt = -1;
+}
+
+function majZone(idx) {
+  var enom = doccontrol.getElementById("nom"+idx).value;
+  var ecoul = doccontrol.getElementById("coul"+idx).value;
+  var eopac = parseFloat(fcontrol.document.getElementById("opac"+idx).value);
+  var etype = doccontrol.getElementById("stype"+idx).selectedIndex;
+  var enotes = doccontrol.getElementById("tnotes"+idx).value;
+  if (isNaN(eopac)) {
+    alert("L'opacité doit être un réel entre 0 et 1.");
+    doccontrol.getElementById("opac"+idx).value = arrayget(battlemap.zones,idx).opac;
+  } else {
+    arrayget(battlemap.zones,idx).nom = enom;
+    arrayget(battlemap.zones,idx).coul = ecoul;
+    arrayget(battlemap.zones,idx).opac = eopac;
+    arrayget(battlemap.zones,idx).type = etype;
+    arrayget(battlemap.zones,idx).notes = enotes;
+    arrayget(battlemap.zones,idx).installe();
+    listeZones();
+  }
+}
+
+function suppZone(idx) {
+  idxmvt = -1;
+  idxzmvt = -1;
+  idxomvt = -1;
+  var answer = fcontrol.confirm("Voulez-vous vraiment supprimer la zone " + arrayget(battlemap.zones,idx).nom + " ?");
+  if (answer) {
+    arrayget(battlemap.zones,idx).efface();
+    for (var i = idx; i < battlemap.nzones-1; i++) {
+      arrayset(battlemap.zones,i,arrayget(battlemap.zones,i+1));
+      arrayget(battlemap.zones,i).idx = i;
+    }
+    battlemap.nzones--;
+    listeZones();
+  }
+}
+
+/*********************/
+/* FONCTIONS ANNEXES */
+/*********************/
+
+function nvnom(nom,n,tab) {
+  var i = nom.length;
+  var num = "";
+  var cont = (i > 0);
+  while (cont) {
+    var c = nom.charAt(i-1);
+    if ((c >= '0') && (c <= '9')) {
+      num = "" + c + num;
+      i --;
+      cont = (i > 0);
+    }
+    else
+      cont = false;
+  }
+  var racine;
+  var maxnum;
+  if (num != "") {
+    racine = nom.substring(0,i);
+    maxnum = parseInt(num);
+  } else {
+    racine = nom + " ";
+    maxnum = 1;
+  }
+  for (var i = 0; i < n; i++) {
+    var nomi = arrayget(tab,i).nom;
+    if (nomi.substring(0,racine.length) == racine) {
+      var val = parseInt(nomi.substring(racine.length,nomi.length));
+      if ((!isNaN(val)) && (val > maxnum))
+        maxnum = val;
+    }
+  }
+  return (racine + (maxnum + 1));
+}
+
+function mybutton(id,note,img) {
+  var res = "<img class='mybutton' style='width: 20px; padding: 2px' id='" + id + "'";
+  res += "src = '/wiki/public/upload/Battlemaps/Boutons/" + img + ".jpg' ";
+  res += "title = '" + note + "' />";
+  return res;
+}
+
+function mybutton2(id,note,img) {
+  var res = "<img class='mybutton' style='width: 24px; padding: 2px' id='" + id + "'";
+  res += "src = '/wiki/public/upload/Battlemaps/Boutons/" + img + ".jpg' ";
+  res += "title = '" + note + "' />";
+  return res;
+}
+
+function setmybuttons(doc) {
+  var tab = doc.images;
+  for (var i = 0; i < tab.length; i++) {
+    var img = arrayget(tab,i);
+    if (img.className == 'mybutton') {
+      img.onmouseover = new Function ("this.style.padding = '0px'; this.style.border = '2px solid #e7dfc6';");
+      img.onmouseout = new Function ("this.style.padding = '2px'; this.style.border = '0';");
+    }
+  }
+}
+
+function codeLettre(i) {
+  if ((i >= 0) && (i < 26)) {
+    return (String.fromCharCode(65+i));
+  } else if ((i > 25) && (i <= 675)) {
+    return (String.fromCharCode(64+Math.floor(i/26))+String.fromCharCode(65+(i%26)));
+  } else {
+    return ("");
+  }
+}
+
+function vide(o) {
+  var children = o.childNodes;
+  for (var i = 0; i < children.length; i++) o.removeChild(arrayget(children,i));
+}
+
+function distxcase(x,y,cx,cy) {
+  var dx = Math.abs (x - cx);
+  var dy = Math.abs (y - cy);
+  if (Math.abs((cx+1)-x) > dx) {dx++;}
+  if (Math.abs((cy+1)-y) > dy) {dy++;}
+  if (dx > dy) {
+    var tmp = dy;
+    dy = dx;
+    dx = tmp;
+  }
+  return (Math.floor(dx * 1.5) + (dy - dx));
+}
+
+function distacase(x,y,cx,cy) {
+  var dx = Math.abs (x - cx);
+  var dy = Math.abs (y - cy);
+  if (dx > dy) {
+    var tmp = dy;
+    dy = dx;
+    dx = tmp;
+  }
+  return (Math.floor(dx * 1.5) + (dy - dx));
+}
+
+/**********/
+/* JETONS */
+/**********/
+
+function Elem (idx, nom, src, posx, posy, taillex, tailley, ordre, pv, pvmax, joue, etat, lien, notes) {
+  this.idx = idx;
+  this.nom = nom;
+  this.src = src;
+  this.posx = posx;
+  this.posy = posy;
+  this.taillex = taillex;
+  this.tailley = tailley;
+  this.ordre = ordre;
+  this.pv = pv;
+  this.pvmax = pvmax;
+  this.joue = joue;
+  this.etat = etat;
+  this.img = null;
+  this.ap = null;
+  this.lien = lien;
+  this.notes = notes;
+
+  this.installe = installeElem;
+  this.ajustenom = ajustenomElem;
+  this.ajusteidx = ajusteidxElem;
+  this.ajustepv = ajustepvElem;
+  this.ajustepvmax = ajustepvmaxElem;
+  this.efface = effaceElem;
+  this.ajusteetat = ajusteetatElem;
+  this.illumine = illumineElem;
+  this.desillumine = desillumineElem;
+  this.taille = tailleElem;
+  this.deplace = deplaceElem;
+  this.deplacevers = deplaceversElem;
+
+  this.getordre = function () {if ((this.etat == inconscient || this.etat == mort)) return (-1); else return (this.ordre);}
+}
+
+function installeElem () {
+  var nap = null;
+  var nimg = null;
+  if (this.img && this.ap) {
+    nap = this.ap;
+    nimg = this.img;
+  } else {
+    nap = docbmap.createElement("div");
+    nimg = docbmap.createElement("img");
+    divbmap.appendChild(nimg);
+    divbmap.appendChild(nap);
+    this.ap = nap;
+    this.img = nimg;
+  }
+  nap.style.position = "absolute";
+  nap.style.opacity = 0.5;
+  nap.title = this.nom + " (" + this.pv + "/" + this.pvmax + ")";
+  nap.style.width = Math.floor(this.taillex * zoom);
+  nap.style.height = Math.floor(this.tailley * zoom);
+  nap.style.left = Math.floor(this.posx * zoom);
+  nap.style.top = Math.floor(this.posy * zoom);
+  nap.onclick = new Function ("modifJeton(" + this.idx + ");");
+  nimg.src = this.src;
+  nimg.style.position = "absolute";
+  nimg.title = this.nom + " (" + this.pv + "/" + this.pvmax + ")";
+  nimg.style.width = Math.floor(this.taillex * zoom)-2;
+  nimg.style.height = Math.floor(this.tailley * zoom)-2;
+  nimg.style.left = Math.floor(this.posx * zoom)+1;
+  nimg.style.top = Math.floor(this.posy * zoom)+1;
+  nimg.onclick = new Function ("modifJeton(" + this.idx + ");");
+  nimg.style.zIndex = 501;
+  nap.style.zIndex = 500;
+  this.ajusteetat();
+}
+
+function ajustenomElem (val) {
+  this.nom = val;
+  if (this.img)
+    this.img.title = this.nom + " (" + this.pv + "/" + this.pvmax + ")";
+  if (this.ap)
+    this.ap.title = this.nom + " (" + this.pv + "/" + this.pvmax + ")";
+}
+
+function ajusteidxElem (val) {
+  this.idx = val;
+  if (this.ap)
+    this.ap.onclick = new Function ("modifJeton(" + this.idx + ");");
+  if (this.img)
+    this.img.onclick = new Function ("modifJeton(" + this.idx + ");");
+}
+
+function ajustepvElem (val) {
+  this.pv = val;
+  if (this.img)
+    this.img.title = this.nom + " (" + this.pv + "/" + this.pvmax + ")";
+  if (this.ap)
+    this.ap.title = this.nom + " (" + this.pv + "/" + this.pvmax + ")";
+}
+
+function ajustepvmaxElem (val) {
+  this.pvmax = val;
+  if (this.img)
+    this.img.title = this.nom + " (" + this.pv + "/" + this.pvmax + ")";
+  if (this.ap)
+    this.ap.title = this.nom + " (" + this.pv + "/" + this.pvmax + ")";
+}
+
+function effaceElem() {
+  divbmap.removeChild(this.img);
+  divbmap.removeChild(this.ap);
+}
+
+function ajusteetatElem () {
+  switch (this.etat) {
+    case 0 :
+      this.ap.style.backgroundColor = 'black';
+      return;
+    case 1 :
+      this.ap.style.backgroundColor = null;
+      return;
+    case 2 :
+      this.ap.style.backgroundColor = 'grey';
+      return;
+    case 3 :
+      this.ap.style.backgroundColor = 'red';
+      return;
+    case 4 :
+      this.ap.style.backgroundColor = 'white';
+      return;
+  }
+}
+
+function illumineElem () {
+  this.ap.style.border = '2px solid white';
+  this.ap.style.opacity = 0.75;
+  setTimeout("arrayget(battlemap.elems," + this.idx + ").desillumine();",1000);
+}
+
+function desillumineElem () {
+  this.ap.style.border = 0;
+  this.ap.style.opacity = 0.5;
+}
+
+function tailleElem(dx,dy) {
+  var nx = this.taillex + dx;
+  var ny = this.tailley + dy;
+  if ((nx > 0 && nx + this.posx <= battlemap.taillex)) {
+    this.taillex = nx;
+    this.img.style.width = Math.floor(this.taillex * zoom) - 2;
+    this.ap.style.width = Math.floor(this.taillex * zoom);
+  }
+  if ((ny > 0 && ny + this.posy <= battlemap.tailley)) {
+    this.tailley = ny;
+    this.img.style.height = Math.floor(this.tailley * zoom) - 2;
+    this.ap.style.height = Math.floor(this.tailley * zoom);
+  }
+}
+
+function deplaceElem(dx,dy) {
+  var nx = this.posx + dx;
+  var ny = this.posy + dy;
+  if ((nx >= 0) && (nx + this.taillex <= battlemap.taillex)) {
+    this.posx = nx;
+    this.img.style.left = Math.floor(this.posx * zoom) + 1;
+    this.ap.style.left = Math.floor(this.posx * zoom);
+  }
+  if ((ny >= 0) && (ny + this.tailley <= battlemap.tailley)) {
+    this.posy = ny;
+    this.img.style.top = Math.floor(this.posy * zoom) + 1;
+    this.ap.style.top = Math.floor(this.posy * zoom);
+  }
+}
+
+function deplaceversElem(nx,ny) {
+  if ((nx >= 0) && (nx + this.taillex <= battlemap.taillex)) {
+    this.posx = nx;
+    this.img.style.left = Math.floor(this.posx * zoom) + 1;
+    this.ap.style.left = Math.floor(this.posx * zoom);
+  }
+  if ((ny >= 0) && (ny + this.tailley <= battlemap.tailley)) {
+    this.posy = ny;
+    this.img.style.top = Math.floor(this.posy * zoom) + 1;
+    this.ap.style.top = Math.floor(this.posy * zoom);
+  }
+}
+
+/**********/
+/* OBJETS */
+/**********/
+
+function Objet (idx, nom, src, posx, posy, taillex, tailley, opac, notes) {
+  this.idx = idx;
+  this.nom = nom;
+  this.src = src;
+  this.posx = posx;
+  this.posy = posy;
+  this.taillex = taillex;
+  this.tailley = tailley;
+  this.opac = opac;
+  this.notes = notes;
+
+  this.installe = installeObjet;
+  this.ajustenom = ajustenomObjet;
+  this.ajusteidx = ajusteidxObjet;
+  this.efface = effaceObjet;
+  this.illumine = illumineObjet;
+  this.desillumine = desillumineObjet;
+  this.taille = tailleObjet;
+  this.deplace = deplaceObjet;
+  this.deplacevers = deplaceversObjet;
+
+  this.getordre = function () {if ((this.etat == inconscient || this.etat == mort)) return (-1); else return (this.ordre);}
+}
+
+function installeObjet () {
+  var nap = null;
+  var nimg = null;
+  if (this.img && this.ap) {
+    nap = this.ap;
+    nimg = this.img;
+  } else {
+    nap = docbmap.createElement("div");
+    nimg = docbmap.createElement("img");
+    divbmap.appendChild(nimg);
+    divbmap.appendChild(nap);
+    this.ap = nap;
+    this.img = nimg;
+  }
+  nap.style.position = "absolute";
+  nap.style.opacity = this.opac;
+  nap.title = this.nom;
+  nap.style.width = Math.floor(this.taillex * zoom);
+  nap.style.height = Math.floor(this.tailley * zoom);
+  nap.style.left = Math.floor(this.posx * zoom);
+  nap.style.top = Math.floor(this.posy * zoom);
+  nap.onclick = new Function ("listeObjets();");
+  nimg.src = this.src;
+  nimg.style.position = "absolute";
+  nimg.style.opacity = this.opac;
+  nimg.title = this.nom;
+  nimg.style.width = Math.floor(this.taillex * zoom)-2;
+  nimg.style.height = Math.floor(this.tailley * zoom)-2;
+  nimg.style.left = Math.floor(this.posx * zoom)+1;
+  nimg.style.top = Math.floor(this.posy * zoom)+1;
+  nimg.onclick = new Function ("modifObjet(" + this.idx + ");");
+  nimg.style.zIndex = 100 + this.idx;
+  nap.style.zIndex = 300 + this.idx;
+}
+
+function ajustenomObjet (val) {
+  this.nom = val;
+  if (this.img)
+    this.img.title = this.nom;
+  if (this.ap)
+    this.ap.title = this.nom;
+}
+
+function ajusteidxObjet (val) {
+  this.idx = val;
+  if (this.ap) {
+    this.ap.onclick = new Function ("modifObjet(" + this.idx + ");");
+    this.ap.style.zIndex = 300 + this.idx;
+  }
+  if (this.img) {
+    this.img.onclick = new Function ("modifObjet(" + this.idx + ");");
+    this.img.style.zIndex = 100 + this.idx;
+  }
+}
+
+function effaceObjet() {
+  divbmap.removeChild(this.img);
+  divbmap.removeChild(this.ap);
+}
+
+function illumineObjet () {
+  this.ap.style.border = '2px solid white';
+  this.ap.style.opacity = 0.75;
+  setTimeout("arrayget(battlemap.objets," + this.idx + ").desillumine();",1000);
+}
+
+function desillumineObjet () {
+  this.ap.style.border = 0;
+  this.ap.style.opacity = 0.5;
+}
+
+function tailleObjet(dx,dy) {
+  var nx = this.taillex + dx;
+  var ny = this.tailley + dy;
+  if ((nx > 0 && nx + this.posx <= battlemap.taillex)) {
+    this.taillex = nx;
+    this.img.style.width = Math.floor(this.taillex * zoom) - 2;
+    this.ap.style.width = Math.floor(this.taillex * zoom);
+  }
+  if ((ny > 0 && ny + this.posy <= battlemap.tailley)) {
+    this.tailley = ny;
+    this.img.style.height = Math.floor(this.tailley * zoom) - 2;
+    this.ap.style.height = Math.floor(this.tailley * zoom);
+  }
+}
+
+function deplaceObjet(dx,dy) {
+  var nx = this.posx + dx;
+  var ny = this.posy + dy;
+  if ((nx >= 0) && (nx + this.taillex <= battlemap.taillex)) {
+    this.posx = nx;
+    this.img.style.left = Math.floor(this.posx * zoom) + 1;
+    this.ap.style.left = Math.floor(this.posx * zoom);
+  }
+  if ((ny >= 0) && (ny + this.tailley <= battlemap.tailley)) {
+    this.posy = ny;
+    this.img.style.top = Math.floor(this.posy * zoom) + 1;
+    this.ap.style.top = Math.floor(this.posy * zoom);
+  }
+}
+
+function deplaceversObjet(nx,ny) {
+  if ((nx >= 0) && (nx + this.taillex <= battlemap.taillex)) {
+    this.posx = nx;
+    this.img.style.left = Math.floor(this.posx * zoom) + 1;
+    this.ap.style.left = Math.floor(this.posx * zoom);
+  }
+  if ((ny >= 0) && (ny + this.tailley <= battlemap.tailley)) {
+    this.posy = ny;
+    this.img.style.top = Math.floor(this.posy * zoom) + 1;
+    this.ap.style.top = Math.floor(this.posy * zoom);
+  }
+}
+
+/*********/
+/* ZONES */
+/*********/
+
+function Zone (idx, nom, type, src, coul, opac, posx, posy, taillex, tailley, rot, notes) {
+  this.idx = idx;
+  this.nom = nom;
+  this.type = type;
+  this.src = src;
+  this.coul = coul;
+  this.opac = opac;
+  this.posx = posx;
+  this.posy = posy;
+  this.taillex = taillex;
+  this.tailley = tailley;
+  this.rot = rot;
+  this.ntiles = 0;
+  this.tiles = null;
+  this.notes = notes;
+
+  this.deplace = deplaceZone;
+  this.deplacevers = deplaceversZone;
+  this.taille = tailleZone;
+  this.ajustenom = ajustenomZone;
+  this.ajusterot = ajusterotZone;
+  this.installe = installeZone;
+  this.creetile = creetileZone;
+  this.efface = effaceZone;
+  this.illumine = illumineZone;
+  this.desillumine = desillumineZone;
+}
+
+function deplaceversZone(nx,ny) {
+  if ((nx >= 0) && (ny >= 0) && (nx <= battlemap.taillex-1) && (ny <= battlemap.tailley-1)) {
+    this.posx = nx;
+    this.posy = ny;
+    this.installe();
+  }
+}
+
+function deplaceZone(mx, my) {
+  var nx = this.posx + mx;
+  var ny = this.posy + my;
+  if ((nx >= 0) && (ny >= 0) && (nx <= battlemap.taillex-1) && (ny <= battlemap.tailley-1)) {
+    this.posx = nx;
+    this.posy = ny;
+    this.installe();
+  }
+}
+
+function tailleZone(dx,dy) {
+  var ntx = this.taillex + dx;
+  var nty = this.tailley + dy;
+  if (ntx > 0) {
+    this.taillex = ntx;
+  }
+  if (nty > 0) {
+    this.tailley = nty;
+  }
+  this.installe();
+}
+
+function ajustenomZone (val) {
+  this.nom = val;
+  for (var i = 0; i < this.ntiles; i++) {
+    arrayget(this.tiles,i).title = val;
+  }
+}
+
+function ajusterotZone (val) {
+  if (this.type == rectangle) {
+    var tmp = this.taillex;
+    this.taillex = this.tailley;
+    this.tailley = tmp;
+  } else {
+    this.rot = (this.rot + val) % 8;
+  }
+  this.installe();
+}
+
+function installeZone () {
+  var i = 0;
+  var tile = null;
+  if ((this.ntiles > 0) && this.tiles) {
+    while (i < this.ntiles) {
+      divbmap.removeChild(arrayget(this.tiles,i));
+      i++;
+    }
+  }
+  this.ntiles = 0;
+  this.tiles = new Array();
+  switch (this.type) {
+    case 2:
+      this.creetile(this.posx, this.posy, this.taillex, this.tailley);
+      break;
+    case 1:
+      if (this.rot % 2 == 0) {
+        var minx = this.posx;
+        if ((this.rot == 4) || (this.rot == 6)) {
+          minx = this.posx - this.taillex;
+        }
+        var miny = this.posy;
+        if ((this.rot == 0) || (this.rot == 6)) {
+          miny = this.posy - this.taillex;
+        }
+        var maxx = minx + this.taillex - 1;
+        var maxy = miny + this.taillex - 1;
+        for (var x = minx; x <= maxx; x++) {
+          for (var y = miny; y <= maxy; y++) {
+            if (distxcase(this.posx,this.posy,x,y) <= this.taillex) {
+              this.creetile(x, y, 1, 1);
+            }
+          }
+        }
+      } else {
+        var invxy = -1;
+        var droite = this.posx;
+        var haut = this.posy - 1;
+        var croisshaut = -1;
+        if (this.rot == 1) { invxy = 1; droite = this.posy; haut = this.posx; croisshaut = 1; }
+        if (this.rot == 3) { invxy = -1; droite = this.posx - 1; haut = this.posy; croisshaut = 1; }
+        if (this.rot == 5) { invxy = 1; droite = this.posy - 1; haut = this.posx - 1; croisshaut = -1; }
+        var gauche = droite;
+        if (this.taillex % 2 == 0)
+          if (croisshaut * invxy == 1) {
+            gauche = droite - 1;
+          } else {
+            droite = gauche + 1;
+          }
+        var refx = this.posx - croisshaut;
+        var refy = this.posy;
+        if (invxy == 1) {
+          refx = this.posx;
+          refy = this.posy + croisshaut;
+        }
+        var ok = true;
+        for (var dy = 0; dy < this.taillex; dy++) {
+          var y = haut + dy * croisshaut;
+          for (var x = gauche; x <= droite; x++) {
+            var xx = x;
+            var yy = y;
+            if (invxy == 1) { xx = y; yy = x; }
+            ok = distxcase (this.posx, this.posy, xx, yy) <= this.taillex;
+            if (this.taillex % 2 == 1) {
+              ok = ok || (distxcase (refx, refy, xx, yy) <= this.taillex);
+            }
+            if (ok) this.creetile (xx, yy, 1, 1);
+          }
+          gauche--;
+          droite++;
+        }
+      }
+      break;
+    case 0:
+      for (var x = this.posx - this.taillex; x <= this.posx + this.taillex; x++) {
+        for (var y = this.posy - this.taillex; y <= this.posy + this.taillex; y++) {
+          if (distxcase(this.posx,this.posy,x,y) <= this.taillex) {
+            this.creetile(x, y, 1, 1);
+          }
+        }
+      }
+      break;
+    case 3:
+      for (var x = this.posx - this.taillex; x <= this.posx + this.taillex; x++) {
+        for (var y = this.posy - this.taillex; y <= this.posy + this.taillex; y++) {
+          if (distacase(this.posx,this.posy,x,y) <= this.taillex) {
+            this.creetile(x, y, 1, 1);
+          }
+        }
+      }
+  }
+}
+
+function creetileZone (ipx, ipy, itx, ity) {
+  var px = ipx;
+  var py = ipy;
+  var tx = itx;
+  var ty = ity;
+  if (px < 0) { tx = tx + px; px = 0; }
+  if (py < 0) { ty = ty + py; py = 0; }
+  if (px + tx > battlemap.taillex) tx = battlemap.taillex - px;
+  if (py + ty > battlemap.tailley) ty = battlemap.tailley - py;
+  if ((px <= battlemap.taillex - 1) && (py <= battlemap.tailley - 1) && (tx >= 1) && (ty >= 1))
+    for (var xx = px; xx < px+tx; xx++)
+      for (var yy = py; yy < py+ty; yy++) {
+        var tile = docbmap.createElement("div");
+        divbmap.appendChild(tile);
+        tile.title = this.nom;
+        tile.style.position = "absolute";
+        tile.style.opacity = this.opac;
+        tile.style.backgroundColor = this.coul;
+        tile.style.zIndex = 10;
+        tile.onclick = new Function ("listeZones();");
+        tile.style.width = Math.ceil(zoom);
+        tile.style.height = Math.ceil(zoom);
+        tile.style.left = Math.floor(xx * zoom);
+        tile.style.top = Math.floor(yy * zoom);
+        if (this.src != "")
+          tile.innerHTML = "<img style='width:100%; height:100%; padding:0; margin:0' src='" + this.src + "'/>"
+        arrayset(this.tiles,this.ntiles,tile);
+        this.ntiles++;
+      }
+}
+
+function effaceZone () {
+  var i = 0;
+  if (this.tiles) {
+    while (i < this.ntiles) {
+      divbmap.removeChild(arrayget(this.tiles,i));
+      i++;
+    }
+  }
+  this.ntiles = 0;
+  this.tiles = null;
+}
+
+function illumineZone () {
+  for (var i = 0; i < this.ntiles; i++) {
+    arrayget(this.tiles,i).style.border = '2px solid white';
+    arrayget(this.tiles,i).style.opacity = 1;
+  }
+  setTimeout("arrayget(battlemap.zones," + this.idx + ").desillumine();",1000);
+}
+
+function desillumineZone () {
+  for (var i = 0; i < this.ntiles; i++) {
+    arrayget(this.tiles,i).style.border = 0;
+    arrayget(this.tiles,i).style.opacity = this.opac;
+  }
+}
+
+/*************/
+/* BATTLEMAP */
+/*************/
+
+function Battlemap () {
+  this.src = "";
+  this.taillex = 1;
+  this.tailley = 1;
+  this.nelems = 0;
+  this.elems = new Array(0);
+  this.nzones = 0;
+  this.zones = new Array(0);
+  this.nobjets = 0;
+  this.objets = new Array(0);
+}
+
+</script></nowiki>

@@ -1,0 +1,420 @@
+---
+Name: Pathfinder-RPG.Créer un monstre
+Title: Créer un monstre
+LastModified: 2011-02-06 17:03
+Categories:
+  - 'Bestiaire'
+  - 'Règles officielles'
+---
+La création de monstres est à la fois une science et un art. Il existe des règles qui indiquent les capacités et la dangerosité qu’on associe généralement à un facteur de puissance (FP) donné mais, même si la plupart des monstres suivent ces règles, beaucoup y font exception. Par exemple, certains possèdent plus de points de vie ou une CA plus élevée que la moyenne des créatures de leur FP mais cet avantage est contrebalancé par des faiblesses dans d’autres domaines. Et d’autres infligent des dégâts importants mais ont un bonus d’attaque assez faible.
+
+Les conseils suivants vous aideront à créer un monstre adapté à son FP.
+
+{toc}
+
+===Étape 1 : le concept===
+
+La première étape dans la création d’un nouveau monstre consiste à définir son concept et son rôle dans le jeu. En général, cela revient à choisir son FP, son [[Types de créatures|type]], son apparence physique et la manière dont il combat. Une fois ces informations fondamentales déterminées, vous devriez rechercher des monstres similaires de même [[Types de créatures|type]] et de FP à peu près égal qui pourront servir de références comparatives.
+
+
+===Étape 2 : les valeurs-cibles===
+
+Après avoir déterminé le [[Types de créatures|type]] et le [[FP]] de la créature, repérez dans la table ci-dessous les valeurs-cibles qui correspondent à ce FP. Ces valeurs ne sont que des approximations faisant office de guides au cours du processus de création. Vous vous apercevrez que, parmi les monstres présentés dans le bestiaire, beaucoup ne suivent pas ces règles à la lettre. La plupart des monstres excellent dans un des domaines repris sur cette table (les dégâts infligés par exemple) mais sont à la traîne dans un ou deux autres aspects, ce qui permet de conserver l’équilibre. Lorsque vous utilisez la table ci-dessous, gardez les remarques suivantes à l’esprit.
+
+<center>
+{s:Reference|TAB11}
+{| CLASS="tablo" STYLE="width:80%"
+|+ Valeurs-cibles des monstres selon leur FP
+|- CLASS="titre"
+| FP || pv || CA || Attaque<br/>forte || Attaque<br/>faible || Dégâts<br/>élevés || Dégâts<br/>faibles || DD<br/>principal || DD<br/>secondaire || JdS<br/>fort || JdS<br/>faible
+|- CLASS="premier"
+| 1/2 || 10 || 11 || 1 || 0 || 4 || 3 || 11 || 8 || 3 || 0
+|- CLASS="alt"
+| 1 || 15 || 12 || 2 || 1 || 7 || 5 || 12 || 9 || 4 || 1
+|-
+| 2 || 20 || 14 || 4 || 3 || 10 || 7 || 13 || 9 || 5 || 1
+|- CLASS="alt"
+| 3 || 30 || 15 || 6 || 4 || 13 || 9 || 14 || 10 || 6 || 2
+|-
+| 4 || 40 || 17 || 8 || 6 || 16 || 12 || 15 || 10 || 7 || 3
+|- CLASS="alt"
+| 5 || 55 || 18 || 10 || 7 || 20 || 15 || 15 || 11 || 8 || 4
+|-
+| 6 || 70 || 19 || 12 || 8 || 25 || 18 || 16 || 11 || 9 || 5
+|- CLASS="alt"
+| 7 || 85 || 20 || 13 || 10 || 30 || 22 || 17 || 12 || 10 || 6
+|-
+| 8 || 100 || 21 || 15 || 11 || 35 || 26 || 18 || 12 || 11 || 7
+|- CLASS="alt"
+| 9 || 115 || 23 || 17 || 12 || 40 || 30 || 18 || 13 || 12 || 8
+|-
+| 10 || 130 || 24 || 18 || 13 || 45 || 33 || 19 || 13 || 13 || 9
+|- CLASS="alt"
+| 11 || 145 || 25 || 19 || 14 || 50 || 37 || 20 || 14 || 14 || 10
+|-
+| 12 || 160 || 27 || 21 || 15 || 55 || 41 || 21 || 15 || 15 || 11
+|- CLASS="alt"
+| 13 || 180 || 28 || 22 || 16 || 60 || 45 || 21 || 15 || 16 || 12
+|-
+| 14 || 200 || 29 || 23 || 17 || 65 || 48 || 22 || 16 || 17 || 12
+|- CLASS="alt"
+| 15 || 220 || 30 || 24 || 18 || 70 || 52 || 23 || 16 || 18 || 13
+|-
+| 16 || 240 || 31 || 26 || 19 || 80 || 60 || 24 || 17 || 19 || 14
+|- CLASS="alt"
+| 17 || 270 || 32 || 27 || 20 || 90 || 67 || 24 || 18 || 20 || 15
+|-
+| 18 || 300 || 33 || 28 || 21 || 100 || 75 || 25 || 18 || 20 || 16
+|- CLASS="alt"
+| 19 || 330 || 34 || 29 || 22 || 110 || 82 || 26 || 19 || 21 || 16
+|-
+| 20 || 370 || 36 || 30 || 23 || 120 || 90 || 27 || 20 || 22 || 17
+|}
+</center>
+
+'''FP.''' C’est le FP approximatif du monstre. Ce nombre peut évoluer au fil du processus de création.
+
+'''Points de vie.''' C’est une approximation du nombre de [[pv|points de vie]] du monstre. Notez bien que les créatures dotées d’une CA ou des [[jet de sauvegarde|jets de sauvegarde]] particulièrement élevés pourraient devoir se contenter d’un nombre de points de vie plus petit. Les Extérieurs et les créatures artificielles possèdent généralement un nombre de points de vie moins élevé que la moyenne.
+
+'''Classe d’armure.''' C’est la [[CA]] moyenne pour une créature de ce FP. Lorsque vous concevrez les protections de la créature, gardez ce nombre en tête. Les créatures qui possèdent plus de points de vie que la moyenne compensent généralement par une CA plus faible.
+
+'''Attaque forte.''' C’est le bonus d’attaque total moyen pour une créature de ce FP. Cette valeur correspond aux créatures dont le rôle principal est de combattre au corps à corps ou à distance. Les créatures qui infligent des dégâts supérieurs à la moyenne compensent généralement cet avantage par un bonus d’attaque plus faible.
+
+'''Attaque faible.''' C’est le bonus d’attaque total moyen pour les créatures de ce FP pour qui les attaques au corps à corps ou à distance ne constituent pas le mode de combat principal. Cela inclut la plupart des créatures qui utilisent des sorts ou des pouvoirs magiques en combat.
+
+<div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+{s:Reference|TAB15}
+{| CLASS="tablo" STYLE="width:93%"
+|+ Résultats moyens des dés
+|- CLASS="titre"
+| Dé || Résultat moyen*
+|- CLASS="premier"
+| d4 || 2,5
+|- CLASS="alt"
+| d6 || 3,5
+|-
+| d8 || 4,5
+|- CLASS="alt"
+| d10 || 5,5
+|-
+| d12 || 6,5
+|- CLASS="alt"
+| d20 || 10,5
+|}
+
+''(*) Arrondissez toujours vers le bas après la<br/>
+multiplication. Par exemple, la moyenne de 1d4<br/>
+est 2 et celle de 2d4 est 5.''</div></div>
+'''Dégâts moyens.''' C’est la quantité de dégâts moyenne infligée par une créature de ce FP lorsque toutes ses attaques touchent. Pour déterminer les dégâts moyens d’une créature, ajoutez les valeurs moyennes de chacun de ses dés de dégâts (voir la Table ci-contre) aux modificateurs de dégâts de chaque attaque. Les créatures qui combattent en attaquant au corps à corps ou à distance devraient infliger des dégâts situés dans la fourchette déterminée par les colonnes « faibles » et « élevés ». Les créatures qui possèdent un bonus d’attaque plus élevé que la moyenne infligent généralement des dégâts moins importants alors que celles dotées d’un bonus d’attaque inférieur à la moyenne occasionnent des dégâts plus importants.
+
+'''DD des capacités principales.''' C’est le [[DD|degré de difficulté]] moyen des sorts, des pouvoirs magiques et des capacités spéciales (comme les [[souffle|souffles]]) dont dispose une créature de ce FP pour qui ces capacités constituent le mode de combat principal. Dans le cas de capacités particulièrement puissantes, on pourra compenser en réduisant le DD.
+
+'''DD des capacités secondaires.''' C’est le DD moyen des sorts et des capacités spéciales d’une créature de ce FP pour qui il ne s’agit pas du mode de combat principal. En règle générale, aucun DD ne devrait être inférieur à cette valeur.
+
+'''Jet de sauvegarde fort.''' C’est le bonus de [[jet de sauvegarde]] moyen pour une créature de ce FP (lorsqu’il s’agit d’une catégorie de jets de sauvegarde forte/favorable).
+
+'''Jet de sauvegarde faible.''' C’est le bonus de [[jet de sauvegarde]] moyen pour une créature de ce FP (lorsqu’il s’agit d’une catégorie de jets de sauvegarde faible/défavorable).
+
+
+===Étape 3 : les dés de vie===
+L’étape suivante dans la création d’un monstre consiste à déterminer approximativement le nombre de [[DV]] qu’il possède. De nombreuses caractéristiques découlent de ce nombre, comme par exemple les [[dons]] maîtrisés par la créature, ses compétences, ses [[pv|points de vie]], ses bonus d’attaque et les [[DD]] de ses capacités spéciales.
+
+<center>
+{s:Reference|TAB12}
+{| CLASS="tablo" STYLE="width:80%"
+|+ Nombre de dés de vie des créatures
+|- CLASS="titre"
+| ROWSPAN="2" | Type de créature
+| COLSPAN="21" CLASS="avecsoustitre" | Facteur de puissance
+|- CLASS="titre"
+| 1/2 || 1 || 2 || 3 || 4 || 5 || 6 || 7 || 8 || 9 || 10 || 11 || 12 || 13 || 14 || 15 || 16 || 17 || 18 || 19 || 20
+|- CLASS="premier"
+| [[type Aberration|Aberration]] || 1 || 2 || 3 || 4 || 5 || 7 || 9 || 10 || 12 || 14 || 15 || 16 || 17 || 19 || 20 || 22 || 24 || 26 || 28 || 30 || 34
+|- CLASS="alt"
+| [[type Animal|Animal]] || 1 || 2 || 3 || 4 || 5 || 7 || 9 || 10 || 12 || 14 || 15 || 16 || 17 || 19 || 20 || 22 || 24 || 26 || 28 || 30 || 34
+|-
+| [[type Créature artificielle|Créature artificielle]] || 1 || 2 || 3 || 4 || 5 || 6 || 8 || 9 || 10 || 12 || 13 || 14 || 16 || 18 || 19 || 20 || 21 || 23 || 25 || 28 || 31
+|- CLASS="alt"
+| [[type Créature magique|Créature magique]] || 1 || 2 || 3 || 4 || 5 || 6 || 8 || 9 || 10 || 12 || 13 || 14 || 16 || 18 || 19 || 20 || 21 || 23 || 25 || 28 || 31
+|-
+| [[type Dragon|Dragon]] || 1 || 2 || 3 || 4 || 5 || 6 || 7 || 8 || 9 || 11 || 12 || 13 || 14 || 16 || 17 || 18 || 19 || 21 || 23 || 25 || 29
+|- CLASS="alt"
+| [[type Extérieur|Extérieur]] || 1 || 2 || 3 || 4 || 5 || 6 || 8 || 9 || 10 || 12 || 13 || 14 || 16 || 18 || 19 || 20 || 21 || 23 || 25 || 28 || 31
+|-
+| [[type Fée|Fée]] || 2 || 3 || 4 || 5 || 6 || 8 || 10 || 12 || 13 || 15 || 17 || 18 || 20 || 22 || 23 || 25 || 26 || 28 || 31 || 33 || 37
+|- CLASS="alt"
+| [[type Humanoïde|Humanoïde]] || 1 || 2 || 3 || 4 || 5 || 7 || 9 || 10 || 12 || 14 || 15 || 16 || 17 || 19 || 20 || 22 || 24 || 26 || 28 || 30 || 34
+|-
+| [[type Humanoïde monstrueux|Humanoïde monstrueux]] || 1 || 2 || 3 || 4 || 5 || 6 || 8 || 9 || 10 || 12 || 13 || 14 || 16 || 18 || 19 || 20 || 21 || 23 || 25 || 28 || 31
+|- CLASS="alt"
+| [[type Mort-vivant|Mort-vivant]] || 1 || 2 || 3 || 4 || 5 || 7 || 9 || 10 || 12 || 14 || 15 || 16 || 17 || 19 || 20 || 22 || 24 || 26 || 28 || 30 || 34
+|-
+| [[type Plante|Plante]] || 1 || 2 || 3 || 4 || 5 || 7 || 9 || 10 || 12 || 14 || 15 || 16 || 17 || 19 || 20 || 22 || 24 || 26 || 28 || 30 || 34
+|- CLASS="alt"
+| [[type Vase|Vase]] || 1 || 2 || 3 || 4 || 5 || 7 || 9 || 10 || 12 || 14 || 15 || 16 || 17 || 19 || 20 || 22 || 24 || 26 || 28 || 30 || 34
+|-
+| [[type Vermine|Vermine]] || 1 || 2 || 3 || 4 || 5 || 7 || 9 || 10 || 12 || 14 || 15 || 16 || 17 || 19 || 20 || 22 || 24 || 26 || 28 || 30 || 32
+|}
+</center>
+
+Le nombre total de DV d’une créature dépend de plusieurs facteurs, mais les deux plus importants sont son FP et son type. La table ci-dessus indique, pour chaque type de créature, le nombre moyen de [[DV]] pour un [[FP]] donné. La plupart des monstres du bestiaire utilisent des valeurs proches de celles indiquées sur ce tableau mais ce n’est pas le cas de tous. C’est parce que le nombre de points de vie de certains monstres a été ajusté (vers le haut ou vers le bas) pour compenser une [[CA]] ou des protections exceptionnelles.
+
+
+===Étape 4 : la taille===
+
+<div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+{s:Reference|TAB13}
+{| CLASS="tablo"
+|+ Taille
+|- CLASS="titre avecsoustitre"
+| ROWSPAN="2" | Taille
+| ROWSPAN="2" | FP<br/>minimal
+| ROWSPAN="2" | FP<br/>maximal
+| COLSPAN="3" | Valeurs de base
+|- CLASS="soustitre"
+| For || Dex || Con
+|- CLASS="premier"
+| Infime || — || 2 || 1 || 18 || 8
+|- CLASS="alt"
+| Minuscule || — || 4 || 1 || 16 || 8
+|-
+| Très Petit || — || 6 || 2 || 14 || 8
+|- CLASS="alt"
+| Petit || — || — || 6 || 12 || 8
+|-
+| Moyen || — || — || 10 || 10 || 10
+|- CLASS="alt"
+| Grand || 2 || — || 18 || 8 || 14
+|-
+| Très Grand || 4 || — || 26 || 6 || 18
+|- CLASS="alt"
+| Gigantesque || 6 || — || 34 || 6 || 22
+|-
+| Colossal || 8 || — || 42 || 6 || 26
+|}</div></div>
+Maintenant que les valeurs moyennes de la créature sont connues, il est temps de choisir sa taille. Pour la plupart des créatures, celle-ci varie entre P et TG, mais on rencontre parfois d’autres tailles. La taille d’une créature permet d’estimer les valeurs de ses caractéristiques physiques et les dégâts infligés par ses attaques naturelles (comme indiqué dans la description des attaques naturelles dans les règles universelles pour les monstres. Vous devriez choisir une taille qui correspond au rôle que la créature est censée jouer ainsi qu’à son FP. Si vous optez pour une taille inhabituelle pour le nombre de DV ou le FP du monstre, vous devrez justifier votre choix dans sa description et y expliquer pourquoi vous vous êtes écarté des normes. La plupart des monstres de taille inhabituelle sont de nature (fortement) magique. Consultez la table ci-contre pour plus de précisions sur les tailles des créatures et les valeurs moyennes associées.
+
+'''FP minimal/maximal.''' Ces valeurs indiquent l’intervalle dans lequel devrait se situer le FP d’une créature de la taille indiquée.
+
+'''For, Dex et Con de base.''' Il s’agit des caractéristiques moyennes pour une créature de cette taille. La Force, la Dextérité et la Constitution de votre monstre peuvent s’écarter fortement de ces valeurs mais, si c’est le cas, vous devrez être tout particulièrement attentif à la manière dont ces écarts influencent les autres aspects du monstre.
+
+
+===Étape 5 : les caractéristiques===
+Une fois la taille, le type et le nombre de DV de la créature déterminés, il est temps de s’intéresser à ses caractéristiques. Les bonus associés à ces valeurs devront augmenter le nombre de points de vie de la créature, ses bonus d’attaque et ses jets de sauvegarde de manière à les amener à peu près au niveau des [[#TAB11|valeurs cibles]].
+Les caractéristiques physiques d’une créature (Force, Dextérité et Constitution) devront être assez proches des valeurs de base associées à sa taille sur la [[#TAB13|table ci-dessus]]. Les créatures qui ont peu de DV mais une moyenne de points de vie par DV élevée devront bénéficier d’une Constitution supérieure à la moyenne.
+
+Les caractéristiques mentales d’une créature (Intelligence, Sagesse et Charisme) sont déterminées en grande partie par le concept. La valeur de base pour chacune d’entre elles est 10. Les créatures qui utilisent des sorts et des pouvoirs magiques en combat possèdront une caractéristique mentale particulièrement développée (généralement le Charisme), les créatures qui ne sont pas capables de parler une Intelligence inférieure ou égale à 2. Les morts-vivants dénués d’intelligence, les créatures artificielles, les vases, les plantes et les vermines ne possèdent généralement pas de valeur d’Intelligence.
+
+
+===Étape 6 : les dons et les compétences===
+Utilisez la table ci-dessous pour déterminer le nombre de points de compétence que votre créature reçoit, en fonction de son type et du nombre de DV qu’elle possède. Les compétences de classe d’une créature sont déterminées par son type (voir ''Les [[types de créatures]]''). Les autres compétences ne sont pas des compétences de classe et ne le deviendront jamais, même si les versions évoluées de la créature y investissent des points. Les créatures dotées d’une valeur d’Intelligence faible investissent généralement leurs points dans les compétences associées à la Force ou à la Dextérité.
+
+<center>
+{s:Reference|TAB14}
+{| CLASS="tablo" STYLE="width:90%"
+|+ Valeurs des creatures selon leur type
+|- CLASS="titre"
+| Type || DV || Bonus de base à l’attaque (BBA) || Jets de sauvegarde forts || Rangs de compétence*
+|- CLASS="premier"
+| [[type Aberration|Aberration]] || d8 || DV × 3/4 (BBA moyen) || Vol || 4 + mod d’Int par DV
+|- CLASS="alt"
+| [[type Animal|Animal]] || d8 || DV × 3/4 (BBA moyen) || Ref, Vig || 2 + mod d’Int par DV
+|-
+| [[type Créature artificielle|Créature artificielle]] || d10 || DV (BBA fort) || — || 2 + mod d’Int par DV
+|- CLASS="alt"
+| [[type Créature magique|Créature magique]] || d10 || DV (BBA fort) || Ref, Vig || 2 + mod d’Int par DV
+|-
+| [[type Dragon|Dragon]] || d12 || DV (BBA fort) || Ref, Vig, Vol || 6 + mod d’Int par DV
+|- CLASS="alt"
+| [[type Extérieur|Extérieur]] || d10 || DV (BBA fort) || deux catégories (variable) || 6 + mod d’Int par DV
+|-
+| [[type Fée|Fée]] || d6 || DV × 1/2 (BBA faible) || Ref, Vol || 6 + mod d’Int par DV
+|- CLASS="alt"
+| [[type Humanoïde|Humanoïde]] || d8 || DV × 3/4 (BBA moyen) || une catégorie (variable) || 2 + mod d’Int par DV
+|-
+| [[type Humanoïde monstrueux|Humanoïde monstrueux]] || d10 || DV (BBA fort) || Ref, Vol || 4 + mod d’Int par DV
+|- CLASS="alt"
+| [[type Mort-vivant|Mort-vivant]] || d8 || DV × 3/4 (BBA moyen) || Vol || 4 + mod d’Int par DV
+|-
+| [[type Plante|Plante]] || d8 || DV × 3/4 (BBA moyen) || Vig || 2 + mod d’Int par DV
+|- CLASS="alt"
+| [[type Vase|Vase]] || d8 || DV × 3/4 (BBA moyen) || — || 2 + mod d’Int par DV
+|-
+| [[type Vermine|Vermine]] || d8 || DV × 3/4 (BBA moyen) || Vig || 2 + mod d’Int par DV
+|}
+''* Les créatures qui ont une Intelligence supérieur ou égale à 1 reçoivent au minimum 1 point de compétence par dé de vie. Celles dont la valeur d’Intelligence est « — » ne gagnent aucun point de compétence et aucun don.''
+</center>
+
+Une fois les points de compétence distribués, il est temps de choisir les dons de la créature. Toutes les créatures qui possèdent une valeur d’Intelligence reçoivent un nombre de dons égal à 1 + 1 par tranche de 2 DV après le premier (ainsi, un don à 1 DV, un second don à 3 DV, etc.). Le nombre total de dons est indiqué dans la [[#TAB16|table ci-dessous]]. Une créature doit remplir les conditions des dons qu’elle possède.
+
+
+===Étape 7 : les autres valeurs===
+
+<div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+{s:Reference|TAB16}
+{| CLASS="tablo"
+|+ Évolution des valeurs
+|- CLASS="titre"
+| DV || BBA<br/>fort || BBA<br/>moyen || BBA<br/>faible || JdS<br/>fort || JdS<br/>faible || Dons
+|- CLASS="premier"
+| 1 || +1 || +0 || +0 || +2 || +0 || 1
+|- CLASS="alt"
+| 2 || +2 || +1 || +1 || +3 || +0 || 1
+|-
+| 3 || +3 || +2 || +1 || +3 || +1 || 2
+|- CLASS="alt"
+| 4 || +4 || +3 || +2 || +4 || +1 || 2
+|-
+| 5 || +5 || +3 || +2 || +4 || +1 || 3
+|- CLASS="alt"
+| 6 || +6 || +4 || +3 || +5 || +2 || 3
+|-
+| 7 || +7 || +5 || +3 || +5 || +2 || 4
+|- CLASS="alt"
+| 8 || +8 || +6 || +4 || +6 || +2 || 4
+|-
+| 9 || +9 || +6 || +4 || +6 || +3 || 5
+|- CLASS="alt"
+| 10 || +10 || +7 || +5 || +7 || +3 || 5
+|-
+| 11 || +11 || +8 || +5 || +7 || +3 || 6
+|- CLASS="alt"
+| 12 || +12 || +9 || +6 || +8 || +4 || 6
+|-
+| 13 || +13 || +9 || +6 || +8 || +4 || 7
+|- CLASS="alt"
+| 14 || +14 || +10 || +7 || +9 || +4 || 7
+|-
+| 15 || +15 || +11 || +7 || +9 || +5 || 8
+|- CLASS="alt"
+| 16 || +16 || +12 || +8 || +10 || +5 || 8
+|-
+| 17 || +17 || +12 || +8 || +10 || +5 || 9
+|- CLASS="alt"
+| 18 || +18 || +13 || +9 || +11 || +6 || 9
+|-
+| 19 || +19 || +14 || +9 || +11 || +6 || 10
+|- CLASS="alt"
+| 20 || +20 || +15 || +10 || +12 || +6 || 10
+|-
+| 21 || +21 || +15 || +10 || +12 || +7 || 11
+|- CLASS="alt"
+| 22 || +22 || +16 || +11 || +13 || +7 || 11
+|-
+| 23 || +23 || +17 || +11 || +13 || +7 || 12
+|- CLASS="alt"
+| 24 || +24 || +18 || +12 || +14 || +8 || 12
+|-
+| 25 || +25 || +18 || +12 || +14 || +8 || 13
+|- CLASS="alt"
+| 26 || +26 || +19 || +13 || +15 || +8 || 13
+|-
+| 27 || +27 || +20 || +13 || +15 || +9 || 14
+|- CLASS="alt"
+| 28 || +28 || +21 || +14 || +16 || +9 || 14
+|-
+| 29 || +29 || +21 || +14 || +16 || +9 || 15
+|- CLASS="alt"
+| 30 || +30 || +22 || +15 || +17 || +10 || 15
+|}</div></div>
+En utilisant la [[#TAB11|table des valeurs cibles]], la [[#TAB14|table des valeurs des créatures selon leur type]] et la [[#TAB16|table d'évolution des valeurs]], vous pouvez maintenant déterminer plusieurs des autres valeurs apparaissant dans le profil de la créature.
+
+Pour la [[CA|classe d’armure]], commencez par ajouter les bonus d’armure, de bouclier et d’armure naturelle au modificateur de [[Dextérité]]. Si la créature ne porte pas d’armure, donnez-lui une peau épaisse pour approcher de la CA cible. Souvenez-vous que les créatures dotées d’un grand nombre de [[pv|points de vie]] peuvent avoir une CA plus faible alors que celles qui ont moins de points de vie que la moyenne peuvent bénéficier d’une CA plus élevée. Si la CA de la créature s’écarte de la moyenne de plus de 5 points, le FP pourrait ne plus être correct.
+
+Lorsque vous calculez les bonus d’attaque, reportez-vous aux [[#TAB11|valeurs-cibles associées au FP de la créature]]. Si le bonus est trop faible, vous pouvez augmenter la Force ou la Dextérité de la créature ou encore accroître la quantité de dégâts qu’elle inflige jusqu’à une valeur supérieure à la moyenne. Si le bonus est trop élevé, vous pouvez baisser la Force ou la Dextérité de la créature ou encore réduire la quantité de dégâts qu’elle inflige. Si la valeur obtenue est très différente de la valeur-cible et que la créature est censée recourir souvent à des attaques au corps à corps ou à distance, envisagez de modifier son FP.
+
+Utilisez la [[#TAB15|table des résultats moyens des dés]] pour déterminer le nombre de dés de dégâts qu’il faut ajouter aux bonus de dégâts pour approcher de la valeur-cible (dégâts moyens) correspondant au FP de la créature. Il se pourrait qu’il soit nécessaire d’ajouter des attaques supplémentaires ou d’augmenter les dégâts des attaques pour atteindre la valeur-cible. Souvenez-vous que, si la créature utilise principalement d’autres capacités en combat (des sorts par exemple), les attaques physiques ne doivent pas nécessairement infliger des dégâts proches de la valeur moyenne. Vous pouvez aussi utiliser la [[#TAB15|table des résultats moyens des dés]] pour déterminer le nombre moyen de points de vie de la créature. Rappelez-vous que le premier niveau dans une classe de PJ reçoit le nombre maximum de points de vie.
+
+Répétez ce procédé pour les jets de sauvegarde. Si ceux-ci sont trop élevés, envisagez de modifier les valeurs des caractéristiques dont ils dépendent.
+
+Lorsque vous déterminez la vitesse d’une créature, décidez tout d’abord si elle possède des modes de déplacement alternatifs comme le creusement, l’escalade, le vol ou la nage. La plupart des créatures de taille M ont une vitesse de 9 m (6 {s:c}). Pour les quadrupèdes et les créatures de taille G, augmentez la vitesse de 3 m (2 {s:c}) (de 6 m (4 {s:c}) s’il s’agit d’un quadrupède de taille G). Pour les créatures de taille P, réduisez-la de 3 m (2 {s:c}). Si la créature est particulièrement rapide ou lente, modifiez la vitesse de base de 3 m (2 {s:c}). Les vitesses de creusement et d’escalade sont généralement égales à la moitié de la vitesse de déplacement de base, alors que la vitesse de vol est à peu près le double de celle-ci. N’oubliez pas de donner à la créature les compétences correspondant à ces modes de déplacement alternatifs.
+
+
+===Étape 8 : capacités spéciales et particularités===
+Les monstres se distinguent des personnages par le fait qu’ils peuvent posséder toutes sortes de capacités spéciales et de particularités. Celles-ci sont étroitement liées au concept de la créature et lui permettent de remplir un rôle spécifique. Pour voir des exemples, reportez-vous aux monstres du Bestiaire. Chaque fois que c’est possible, la description du monstre devrait faire référence aux capacités décrites dans les règles universelles pour les monstres plutôt que de définir de nouvelles capacités qui seront peut-être similaires. Lorsque vous créez une nouvelle capacité, prenez exemple sur les règles universelles pour les monstres afin de savoir comment la présenter et la concevoir.
+
+La plupart des capacités spéciales qui infligent des dégâts (les souffles par exemple) donnent droit à un [[jet de sauvegarde]] (Réflexes, Vigueur ou Volonté selon les cas). Le DD est presque toujours égal à 10 + la moitié du nombre de DV de la créature + le modificateur de la caractéristique associée (généralement la Constitution ou le Charisme). Les capacités spéciales qui s’ajoutent aux attaques de corps à corps ou à distance n’autorisent généralement pas de jet de sauvegarde car elles ne fonctionnent que si les attaques en question touchent la cible.
+
+Les sens spéciaux et les résistances à certains types d’énergie sont courants chez les créatures de FP inférieur ou égal à 5. La [[RD|réduction de dégât]], l’immunité aux énergies et la régénération sont plus communes chez les créatures de FP supérieur à 5. La [[RM|résistance à la magie]] et les immunités se retrouvent surtout chez les monstres de FP supérieur ou égal à 10. En règle générale, la [[RM|résistance à la magie]] d’une créature devrait valoir son FP + 11.
+
+
+===Étape 9 : le trésor===
+La quantité de trésor associée à une créature devra correspondre à son FP. La table suivante associe à chaque FP une valeur totale de trésor. Chez certaines créatures, ce trésor se réduit aux restes des repas les plus récents, un butin éparpillé aux quatre coins de leur repaire. Pour d’autres, il s’agit de richesses accumulées par avarice ou encore d’équipement qu’elles utilisent au combat. N’oubliez pas de compter les armes et armures que la créature emploie (et qui ont été choisies à l’étape 7).
+
+<center>
+{s:Reference|TAB17}
+{| CLASS="tablo"
+|+ Expérience et or selon le FP
+|- CLASS="titre"
+| FP || Expérience || lent || moyen || rapide
+|- CLASS="premier"
+| 1/8 || 50 || 20 po || 35 po || 50 po
+|- CLASS="alt"
+| 1/6 || 65 || 30 po || 45 po || 65 po
+|-
+| 1/4 || 100 || 40 po || 65 po || 100 po
+|- CLASS="alt"
+| 1/3 || 135 || 55 po || 85 po || 135 po
+|-
+| 1/2 || 200 || 85 po || 130 po || 200 po
+|- CLASS="alt"
+| 1 || 400 || 170 po || 260 po || 400 po
+|-
+| 2 || 600 || 350 po || 550 po || 800 po
+|- CLASS="alt"
+| 3 || 800 || 550 po || 800 po || 1 200 po
+|-
+| 4 || 1 200 || 750 po || 1 150 po || 1 700 po
+|- CLASS="alt"
+| 5 || 1 600 || 1 000 po || 1 550 po || 2 300 po
+|-
+| 6 || 2 400 || 1 350 po || 2 000 po || 3 000 po
+|- CLASS="alt"
+| 7 || 3 200 || 1 750 po || 2 600 po || 3 900 po
+|-
+| 8 || 4 800 || 2 200 po || 3 350 po || 5 000 po
+|- CLASS="alt"
+| 9 || 6 400 || 2 850 po || 4 250 po || 6 400 po
+|-
+| 10 || 9 600 || 3 650 po || 5 450 po || 8 200 po
+|- CLASS="alt"
+| 11 || 12 800 || 4 650 po || 7 000 po || 10 500 po
+|-
+| 12 || 19 200 || 6 000 po || 9 000 po || 13 500 po
+|- CLASS="alt"
+| 13 || 25 600 || 7 750 po || 11 600 po || 17 500 po
+|-
+| 14 || 38 400 || 10 000 po || 15 000 po || 22 000 po
+|- CLASS="alt"
+| 15 || 51 200 || 13 000 po || 19 500 po || 29 000 po
+|-
+| 16 || 76 800 || 16 500 po || 25 000 po || 38 000 po
+|- CLASS="alt"
+| 17 || 102 400 || 22 000 po || 32 000 po || 48 000 po
+|-
+| 18 || 153 600 || 28 000 po || 41 000 po || 62 000 po
+|- CLASS="alt"
+| 19 || 204 800 || 35 000 po || 53 000 po || 79 000 po
+|-
+| 20 || 307 200 || 44 000 po || 67 000 po || 100 000 po
+|- CLASS="alt"
+| 21 || 409 600 || 56 000 po || 84 000 po || 126 000 po
+|-
+| 22 || 615 000 || 70 000 po || 105 000 po || 158 000 po
+|- CLASS="alt"
+| 23 || 820 000 || 88 000 po || 132 000 po || 198 000 po
+|-
+| 24 || 1 230 000 || 110 000 po || 165 000 po || 248 000 po
+|- CLASS="alt"
+| 25 || 1 640 000 || 138 000 po || 208 000 po || 312 000 po
+|}
+</center>
+
+
+===Étape 10 : les détails===
+Maintenant que toutes les valeurs relatives à la créature ont été déterminées, il est temps de s’occuper des détails. Déterminez, selon vos préférences, le nom de la créature, son alignement, l’espace qu’elle occupe, son allonge, son environnement et son écologie.
+
+
