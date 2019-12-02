@@ -1,7 +1,7 @@
 ---
 Name: Ressources.marmouscule
 Title: Marmouscule
-LastModified: 2015-12-09 16:33
+LastModified: 2019-12-01 14:10
 Categories:
   - 'Monstre maison'
   - 'Règles maison'
@@ -13,7 +13,7 @@ Categories:
 {s:BDTexte|'''PX''' 2 400}
 {s:BDTexte|[[++pathfinder-RPG.type Fée|Fée]] de taille TP, CN}
 {s:BDTexte|'''Init''' +9 ; '''Sens''' [[++pathfinder-RPG.vision nocturne|vision nocturne]] ; [[++pathfinder-RPG.Perception|Perception]] +11}
-{s:BDTexte|'''Aura'''[[++pathfinder-RPG.zone dantimagie|zone d’antimagie]] (3m)}
+{s:BDTexte|'''Aura''' [[++pathfinder-RPG.zone dantimagie|zone d’antimagie]] (3m)}
 {s:BDSousTitre|Défense}
 {s:BDTexte|'''CA''' 20, contact 19, pris au dépourvu 12 (Dex +6, naturelle +1, esquive +1, taille +2)}
 {s:BDTexte|'''pv''' 45 (10d6+10) ; '''[[++pathfinder-RPG.Guérison accélérée|Guérison accélérée]]''' 2 (Fer froid)}
@@ -22,7 +22,7 @@ Categories:
 {s:BDTexte|'''Faiblesses''' Crainte des armes magiques ; Magie vestigial}
 {s:BDSousTitre|Attaque}
 {s:BDTexte|'''VD''' 4,5 m (3 {s:c}), vol 18 m (12 {s:c}) (bonne)}
-{s:BDTexte|'''Corps à corps''' Rapière, +13 (1d3-2/18-20) et morsure, +9 (1d1-2 plus poison) ou morsure, +14 (1d1-2 plus poison)}
+{s:BDTexte|'''Corps à corps''' Rapière, +13 (1d3+6/18-20) et morsure, +8 (1d1-2 plus poison) ou morsure, +13 (1d1-2 plus poison)}
 {s:BDTexte|'''Distance''' Sarbacane, +13 (1 plus poison)}
 {s:BDTexte|'''Espace''' 0,75 m (1/2 {s:c}) ; '''Allonge''' 0}
 {s:BDTexte|'''Pouvoirs magiques''' (NLS 11e ; concentration +12)}
@@ -32,7 +32,7 @@ Categories:
 {s:BDSousTitre|Caractéristiques}
 {s:BDTexte|'''For''' 7, '''Dex''' 22, '''Con''' 12, '''Int''' 17, '''Sag''' 7, '''Cha''' 13}
 {s:BDTexte|'''BBA''' +5, '''BMO''' +1, '''DMD''' 18}
-{s:BDTexte|'''Dons''' [[++pathfinder-RPG.Esquive|Esquive]], [[++pathfinder-RPG.attaque en finesse|attaque en finesse]], [[++pathfinder-RPG.attaque en vol|attaque en vol]], [[++pathfinder-RPG.attaque spéciale renforcée|attaque spéciale renforcée]] (poison), [[++pathfinder-RPG.arme de prédilection|arme de prédilection]] (morsure)}
+{s:BDTexte|'''Dons''' [[++pathfinder-RPG.Esquive|Esquive]], [[++pathfinder-RPG.attaque en finesse|attaque en finesse]], [[++pathfinder-RPG.attaque en vol|attaque en vol]], [[++pathfinder-RPG.attaque spéciale renforcée|attaque spéciale renforcée]] (poison), [[escrime gracieuse]]}
 {s:BDTexte|'''Compétences''' [[++pathfinder-RPG.Acrobaties|Acrobaties]] +19, [[++pathfinder-RPG.Bluff|Bluff]] +14, [[++pathfinder-RPG.Connaissances|Connaissances]] (mystères) +13, [[++pathfinder-RPG.Connaissances|Connaissances]] (folklore local) +7, [[++pathfinder-RPG.Connaissances|Connaissances]] (géographie) +7, [[++pathfinder-RPG.Connaissances|Connaissances]] (nature) +7, [[++pathfinder-RPG.diplomatie|Diplomatie]] +27, [[++pathfinder-RPG.Discrétion|Discrétion]] +27, [[++pathfinder-RPG.Évasion|Évasion]] +19, [[++pathfinder-RPG.Escamotage|Escamotage]] +19, [[++pathfinder-RPG.Perception|Perception]] +11, [[++pathfinder-RPG.survie|survie]] +4, [[++pathfinder-RPG.Vol|Vol]] +27 }
 {s:BDTexte|'''Langues''' commun, sylvestre, draconien, elfique, gnome. }
 {s:BDSousTitre|Écologie}
@@ -44,13 +44,13 @@ Categories:
 {s:BDTexte|'''Formation martiale (Ext)''' Les marmouscules sont automatiquement formés au maniement des rapières et des lames incurvées elfiques.}
 {s:BDTexte|'''Magie vestigiale (Sur)''' A l'exception de ''[[++pathfinder-RPG.Changement de plan|Changement de plan]]'', Lorsqu’il utilise un sort ou pouvoir magique, le marmouscule a 20% de chance d'échec. De plus un sort ou un pouvoir magique dirigé contre une autre créature a 1% de chance de prendre le marmouscule pour cible. }
 {s:BDTexte|'''Poison (Ext)''' Poison (Ext) morsure - Blessure ; JS Vigueur DD 18 ; fréquence 1/round pendant 8 rounds ; effet affaiblissement temporaire 1d2 Dex ; guérison 2 JdS réussis consécutivement. Le DD dépend de la Constitution. Si la cible est un jeteur de sort, elle subit également un affaiblissement temporaire de 1d2 dans sa caractéristique principale de jeteur de sort. }
-{s:BDTexte|'''Zone d’antimagie (Mag).''' La zone d’antimagie du marmouscule s’étend sur 3m de rayon et fonctionne comme [[++pathfinder-RPG.zone dantimagie|le sort du même nom]], mis à part qu’elle peut être confinée uniquement en enfermant le marmouscule dans une boite hermétique en plomb ou en fer froid. Un marmouscule peut couper son aura par une [[++pathfinder-RPG.action de mouvement|action de mouvement]] s’il réussit un jet de volonté DD 12. Par la suite, au début de chacun de ses tours suivants, il devra réussir un jet de volonté DD12 + 1 par nombre de jets précédemment effectués, s’il veut éviter que la zone d’antimagie ne se remette en place. Il peut aussi volontairement la laisser revenir au prix d’une action immédiate. Que cela soit volontaire ou non, lorsque la zone d’antimagie se remet en place, le contrechoc laisse le marmouscule [[++pathfinder-RPG.étourdi|étourdi]] durant un nombre de round égal au double de ceux durant lesquelles elle a été réprimée.}
+{s:BDTexte|'''Zone d’antimagie (Sur).''' La zone d’antimagie du marmouscule s’étend sur 3m de rayon et fonctionne comme [[++pathfinder-RPG.zone dantimagie|le sort du même nom]], mis à part qu’elle peut être confinée uniquement en enfermant le marmouscule dans une boite hermétique en plomb ou en fer froid. Un marmouscule peut couper son aura par une [[++pathfinder-RPG.action de mouvement|action de mouvement]] s’il réussit un jet de volonté DD 12. Par la suite, au début de chacun de ses tours suivants, il devra réussir un jet de volonté DD12 + 1 par nombre de jets précédemment effectués, s’il veut éviter que la zone d’antimagie ne se remette en place. Il peut aussi volontairement la laisser revenir au prix d’une action immédiate. Que cela soit volontaire ou non, lorsque la zone d’antimagie se remet en place, le contrechoc laisse le marmouscule [[++pathfinder-RPG.étourdi|étourdi]] durant un nombre de round égal au double de ceux durant lesquelles elle a été réprimée.}
 
 </div>
 </td> 
 <td><div>''Cette petite fée possède une parie d’ailes insectoïdes. A votre vue, ses grands yeux noirs pétillent d’intérêt et se petite bouche se fend d’un large sourire garni de dents pointues.  ''
 
-Les marmouscule forment une race de fées marginales. Leur aura d’antimagie et leur caractère déplaisant les stigmatisent au sein du monde féérique comme des parias et des êtres de fréquentation douteuse, et ce, aussi bien au sein de la cour visible que de la cour invisible. Même au sein de leur espèce, ils ont du mal à se supporter les uns les autres et préfèrent mener une vie solitaire. Même leur reproduction, un évènement encore plus rarissime que le marmouscule lui-même, se réalise dans les plus brefs délais, la femelle laissant les œufs qu’elle a pondus au mâle. Ce se dépêche d’inculquer à ses enfants les rudiments de savoir qui leur permettront de survivre dans le monde avant d’échapper à la présence étouffante de ceux-ci.
+Les marmouscule forment une race de fées marginales. Leur aura d’antimagie et leur caractère déplaisant les stigmatisent au sein du monde féérique comme des parias et des êtres de fréquentation douteuse, et ce, aussi bien au sein de la cour visible que de la cour invisible. Même au sein de leur espèce, ils ont du mal à se supporter les uns les autres et préfèrent mener une vie solitaire. Même leur reproduction, un évènement encore plus rarissime que le marmouscule lui-même, se réalise dans les plus brefs délais, la femelle laissant les œufs qu’elle a pondus au mâle. Ce  dernier se dépêche d’inculquer à ses enfants les rudiments de savoir qui leur permettront de survivre dans le monde avant d’échapper à la présence étouffante de ceux-ci.
 
 Cependant, les marmouscules ont besoin de compagnie, ne fut-ce que pour échapper à leur propre présence. Leur longue errance est généralement assortie de l’objectif de trouver une créature avec laquelle ils pourront établir un véritable lien d’amitié. Les malheureux qui sont choisis par un marmouscules regrettent généralement bien vite d’avoir accepté cette petite fée. Non content d’avoir un tempérament individualiste voire égocentrique très poussé, une conversation des plus inintéressante, un marmouscule et son aura d’antimagie ont l’art de se trouver toujours au mauvais endroit et au mauvais moment : au contact de l’ennemi au moment où un allié tente de le cibler avec un sortillège ; éploré près d’un allié mourant alors que prêtre tente de le soigner magiquement,… Les tentatives pour utiliser son aura de manière tactique sont généralement prises (à tort ou à raison) pour des tentatives d’instrumentalisation du marmouscule, ce qu’il accepte très mal.
 
