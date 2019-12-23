@@ -47,7 +47,7 @@ Une arme magique sert à atteindre plus souvent sa cible et à lui infliger plus
 |- CLASS="note"
 | COLSPAN="2" | {s:Reference|NOTE1}''(1) Dans le cas de flèches, carreaux d’arbalète ou billes de fronde, <br> ce prix concerne 50 unités.''
 |- CLASS="note" 
-| COLSPAN="2" | {s:Reference|NOTE2}''(2) Le bonus numérique effectif de l’arme ne peut être supérieur à +5. <br> Utilisez ces lignes pour déterminer le prix des armes possédant <br> des propriétés spéciales.''
+| COLSPAN="2" | {s:Reference|NOTE2}''(2) Le bonus numérique effectif de l’arme ne peut être supérieur à +5. <br> Utilisez ces lignes pour déterminer le prix des armes possédant des <br> propriétés spéciales.''
 |}
 </center></div></div>
 On trouve deux catégories d’armes : celles de corps à corps et celles à distance (comprenant les armes de jet et les armes à projectiles). Certaines armes de corps à corps peuvent également être utilisées en tant qu’armes à distance. Dans ce cas, leur bonus d’altération compte, quel qu’en soit l’usage.
@@ -81,75 +81,226 @@ Les munitions tirées à partir d’une arme à projectiles possédant d’un bo
 === Propriétés spéciales des armes magiques ===
 Une arme ayant une propriété spéciale doit posséder un bonus d’altération d’au moins +1. Le modificateur au prix de base des propriétés ajoutant un "bonus de +X" doit être ajouté à ce bonus minimum de +1.
 
+{s:filtrable}
 <center>
 {| CLASS="tablo autoalt toutgauche filtrable"
-|+ {s:Reference|DTMSPECIALECAC}Propriétés spéciales des armes de corps-à-corps
+|+ {s:Reference|DTMSPECIALECAC}Propriétés spéciales des armes
 |- CLASS="titre"
-| WIDTH="20%" | Propriétés ajoutant un prix spécifique
-| WIDTH= "3%" | Source
-| WIDTH="64%" | Capacités
+| WIDTH="12%" | Propriétés ajoutant prix spécifique
+| WIDTH= "3%" | <br>Source
+| WIDTH= "12%" | <br>Restrictions
+| WIDTH="60%" | <br>Capacités
 | WIDTH="13%" | Modificateur au prix de base
 
 |- CLASS="premier"
-| ''[[Descriptions des propriétés spéciales des armes#Solide|Solide]]'' || <sup>A&E</sup> || Triple la solidité et les points de résistance. Confère un bonus égal au double du bonus d’altération au [[DD]] pour briser l’arme et à son [[DMD]] contre les manœuvres de [[manœuvres offensives#DESTRUCTION|destruction]]. Immunise contre la rouille et la pourriture. || +3 000 po</sup>
+| ''[[Descriptions des propriétés spéciales des armes#Polyvalent|Polyvalent]]'' || <sup>A&E</sup> || Arcs composites || Le porteur peut ajouter son modificateur de [[Force]] entier ou moins quelque soit les restrictions normales de l’arme à sa guise. || +1 000 po</sup>
 
 |- CLASS="premier"
-| ''[[Descriptions des propriétés spéciales des armes#Mimétisme|Mimétisme]]'' || <sup>A&E</sup> || Permet de modifier l’apparence de l’arme (dissimulant son aura) à volonté. || +4 000 po</sup>
+| ''[[Descriptions des propriétés spéciales des armes#Charge étanche|Charge étanche]]'' || <sup>A&E</sup> || Cartouches alchimiques et métalliques d’arme à feu || Protège la charge de l’arme de l’absence d’air pendant 3 minutes. Le porteur peut tirer sous l’eau avec un malus de -2 aux [[jet dattaque|jets d’attaque]] pour chaque case qui le sépare de sa cible. L’arme explose immédiatement en cas de long feu. || +1 500 po</sup>
 
 |- CLASS="premier"
-| ''[[Descriptions des propriétés spéciales des armes#Mutante|Mutante]]'' || <sup>A&E</sup> || Permet de modifier la nature de l’arme, tant qu’elle garde la même maniabilité (à une main, deux mains, etc.), et sa taille (une épée à deux mains de taille P pourrait devenir une épée longue de taille M), à volonté. || +10 000 po
+| ''[[Descriptions des propriétés spéciales des armes#Projectile fantôme|Projectile fantôme]]'' || <sup>A&E</sup> || Munitions || Les munitions disparaissent 1 [round]] après avoir été tirées et les plaies qu’elles infligent sont invisibles, ne laissant aucune trace visible de l’attaque. || +2 000 po</sup>
 
 |- CLASS="premier"
-| ''[[Descriptions des propriétés spéciales des armes#Duel|Duel]]'' || <sup>A&E</sup> || '' - Armes éligibles au don [[Attaque en finesse]] uniquement.''<br> Confère un bonus d’altération de +4 à l’initiative du porteur s’il porte l’arme au moment du test. Confère un bonus de +2 aux tests de [[manœuvres offensives#DESARMEMENT|désarmement]] et de [[actions spéciales#FEINTE|feinte]] du porteur, au [[DMD]] contre les manœuvres de [[manœuvres offensives#DESARMEMENT|désarmement]] et au [[DD]] des [[actions spéciales#FEINTE|feintes]] effectuées contre le porteur. || +14 000 po
+| ''[[Descriptions des propriétés spéciales des armes#Préhensible|Préhensible]]'' || <sup>A&E</sup> || Fouets || L’arme peut être utilisée comme grappin. Un [[bretteur]] peut dépenser 1 point de [[bretteur#PANACHE|panache]] pour passer l’allonge de l’arme à 6m et la rendre éligible pour son [[exploits (bretteur)|attaque précise]], pendant 1 attaque. || +2 500 po</sup>
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Solide|Solide]]'' || <sup>A&E</sup> || — || Triple la solidité et les points de résistance. Confère un bonus égal au double du bonus d’altération au [[DD]] pour briser l’arme et à son [[DMD]] contre les manœuvres de [[manœuvres offensives#DESTRUCTION|destruction]]. Immunise contre la rouille et la pourriture. || +3 000 po
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#D’exclusion|D’exclusion]]'' || <sup>A&E</sup> || — || Toucher une créature avec l’arme l’exclue automatiquement des prochaines [[prêtre#CANALISATIONDENERGIE|canalisations d’énergie]] du porteur (jusqu’à un nombre de créature égal au modificateur de [[Sagesse]] du porteur + le bonus d’altération de l’arme). || +3 750 po</sup>
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Mimétisme|Mimétisme]]'' || <sup>A&E</sup> || — || Permet de modifier l’apparence de l’arme (dissimulant son aura) à volonté. || +4 000 po
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Sournoise|Sournoise]]'' || <sup>A&E</sup> || Corps-à-corps || Une fois par jour, un porteur avec la capacité [[roublard#ATTAQUESOURNOISE|attaque sournoise]] peut désigner une créature à portée de corps-à-corps contre laquelle sa prochaine attaque du round infligera les dégâts supplémentaires de son attaque sournoise. || +5 000 po</sup>
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Mutante|Mutante]]'' || <sup>A&E</sup> || Corps-à-corps || Permet de modifier la nature de l’arme, tant qu’elle garde la même maniabilité (à une main, deux mains, etc.), et sa taille (une épée à deux mains de taille P pourrait devenir une épée longue de taille M), à volonté. || +10 000 po
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Duel|Duel]]'' || <sup>A&E</sup> || Corps-à-corps éligibles au don [[Attaque en finesse]] || Confère un bonus d’altération de +4 à l’initiative du porteur s’il porte l’arme au moment du test. Confère un bonus de +2 aux tests de [[manœuvres offensives#DESARMEMENT|désarmement]] et de [[actions spéciales#FEINTE|feinte]] du porteur, au [[DMD]] contre les manœuvres de [[manœuvres offensives#DESARMEMENT|désarmement]] et au [[DD]] des [[actions spéciales#FEINTE|feintes]] effectuées contre le porteur. || +14 000 po
 
 |- CLASS="titre"
 | </sup> || &emsp; || </sup>
 |- CLASS="titre"
-| Propriétés ajoutant un bonus de +1 || Source || Capacités || Modificateur au prix de base
+| Propriétés ajoutant un bonus de +1 || <br>Source || <br>Restrictions || <br>Capacités || Modificateur au prix de base
 
 |- CLASS="premier"
-| ''[[Descriptions des propriétés spéciales des armes#Acérée|Acérée]]'' || <sup>A&E</sup> || '' - Armes tranchantes et perforantes uniquement.''<br> Double la zone de critique de l’arme (non cumulable avec des effets similaires). || bonus de +1
+| ''[[Descriptions des propriétés spéciales des armes#Acérée|Acérée]]'' || <sup>A&E</sup> || Corps à corps tranchantes ou perforantes || Double la zone de critique de l’arme (non cumulable avec des effets similaires). || bonus de +1
 
 |- CLASS="premier"
-| ''[[Descriptions des propriétés spéciales des armes#Alliance|Alliance]]'' || <sup>A&E</sup> || Permet de transférer certains ou tous les bonus d’altération de l’arme à celle d’un allié visible par le porteur pendant 1 [[round]], à volonté. || bonus de +1
+| ''[[Descriptions des propriétés spéciales des armes#Alliance|Alliance]]'' || <sup>A&E</sup> || — || Permet de transférer certains ou tous les bonus d’altération de l’arme à celle d’un allié visible par le porteur pendant 1 [[round]], à volonté. || bonus de +1
 
 |- CLASS="premier"
-| ''[[Descriptions des propriétés spéciales des armes#Aquatique|Aquatique]]'' || <sup>A&E</sup> || Confère un bonus égal au bonus d’altération de l’arme aux tests de [[Natation]] du porteur. Immunise aux malus des [[jet dattaque|jets d’attaque]] et [[valeurs de combat#DEGATS|de dégâts]] effectués dans l’eau (comme avec ''[[liberté de mouvement]]''). || bonus de +1
+| ''[[Descriptions des propriétés spéciales des armes#Aquatique|Aquatique]]'' || <sup>A&E</sup> || Corps-à-corps || Confère un bonus égal au bonus d’altération de l’arme aux tests de [[Natation]] du porteur. Immunise aux malus des [[jet dattaque|jets d’attaque]] et [[valeurs de combat#DEGATS|de dégâts]] effectués dans l’eau (comme avec ''[[liberté de mouvement]]''). || bonus de +1
 
 |- CLASS="premier"
-| ''[[Descriptions des propriétés spéciales des armes#Chante-sang|Chante-sang]]'' || <sup>A&E</sup> || '' - Armes tranchantes et perforantes uniquement.''<br> Tant que son porteur est sous l’effet d’un [[scalde#CHANTDERAGE|chant de rage]], confère la propriété ''[[Descriptions des propriétés spéciales des armes#Acérée|acérée]]'' à l’arme et octroie des points de vie temporaire au porteur sur les coups critiques confirmés. || bonus de +1
+| ''[[Descriptions des propriétés spéciales des armes#Boomerang|Boomerang]]'' || <sup>A&E</sup> || Armes de jet || Tant que le porteur peut faire une [[action libre]] et qu’il ne se déplace pas, il récupère l’arme au début de son prochain tour chaque fois qu’il la lance. || bonus de +1
 
 |- CLASS="premier"
-| ''[[Descriptions des propriétés spéciales des armes#Chasseresse|Chasseresse]]'' || <sup>A&E</sup> || Confère un bonus égal au bonus d’altération de l’arme aux tests de [[Survie]] du porteur pour traquer les créatures qu’il a blessé dans la journée précédente. L’arme inflige 1d6 points de dégâts supplémentaires aux créatures traquées cette même journée. || bonus de +1
+| ''[[Descriptions des propriétés spéciales des armes#Chante-sang|Chante-sang]]'' || <sup>A&E</sup> || Corps à corps tranchantes ou perforantes || Tant que son porteur est sous l’effet d’un [[scalde#CHANTDERAGE|chant de rage]], confère la propriété ''[[Descriptions des propriétés spéciales des armes#Acérée|acérée]]'' à l’arme et octroie des points de vie temporaire au porteur sur les coups critiques confirmés. || bonus de +1
 
 |- CLASS="premier"
-| ''[[Descriptions des propriétés spéciales des armes#Cherche-coeur|Cherche-coeur]]'' || <sup>A&E</sup> || Le porteur ignore les chances d’échecs engendrées par le camouflage contre la plupart des créatures vivantes. || bonus de +1
+| ''[[Descriptions des propriétés spéciales des armes#Chasseresse|Chasseresse]]'' || <sup>A&E</sup> || — || Confère un bonus égal au bonus d’altération de l’arme aux tests de [[Survie]] du porteur pour traquer les créatures qu’il a blessé dans la journée précédente. L’arme inflige 1d6 points de dégâts supplémentaires aux créatures traquées cette même journée. || bonus de +1
 
 |- CLASS="premier"
-| ''[[Descriptions des propriétés spéciales des armes#Conductrice|Conductrice]]'' || <sup>A&E</sup> || Permet de dépenser 2 utilisations de pouvoirs nécessitants des jets d’attaque (pouvoirs de domaine, de lignage, d’école, ou révélations) pour appliquer leurs effets sur une attaque réussie avec l’arme. || bonus de +1
+| ''[[Descriptions des propriétés spéciales des armes#Cherche-cœur|Cherche-cœur]]'' || <sup>A&E</sup> || Corps-à-corps || Ignore les chances d’échecs dues au camouflage contre la plupart des créatures vivantes. || bonus de +1
 
 |- CLASS="premier"
-| ''[[Descriptions des propriétés spéciales des armes#Contre-attaque|Contre-attaque]]'' || <sup>A&E</sup> || Confère un bonus de +2 au DMD contre les manœuvres de [[manœuvres offensives#DESARMEMENT|désarmement]] et de [[manœuvres offensives#DESTRUCTION|destruction]]. Si de telles manœuvres échouent, le porteur peut effectuer celle qui a échouée sur son assaillant (même s’il n’est pas à portée, et sans risquer de lâcher son arme). || bonus de +1
+| ''[[Descriptions des propriétés spéciales des armes#Conductrice|Conductrice]]'' || <sup>A&E</sup> || — || Permet de dépenser 2 utilisations de pouvoirs nécessitants des jets d’attaque (pouvoirs de domaine, de lignage, d’école, ou révélations) pour appliquer leurs effets sur une attaque réussie avec l’arme. || bonus de +1
 
 |- CLASS="premier"
-| ''[[Descriptions des propriétés spéciales des armes#Corrosive|Corrosive]]'' || <sup>A&E</sup> || L’arme peut infliger 1d6 points de dégâts d’acide supplémentaire sur une attaque réussie, à volonté. || bonus de +1
+| ''[[Descriptions des propriétés spéciales des armes#Contre-attaque|Contre-attaque]]'' || <sup>A&E</sup> || Corps-à-corps || Confère un bonus de +2 au DMD contre les manœuvres de [[manœuvres offensives#DESARMEMENT|désarmement]] et de [[manœuvres offensives#DESTRUCTION|destruction]]. Si de telles manœuvres échouent, le porteur peut effectuer celle qui a échouée sur son assaillant (même s’il n’est pas à portée, et sans risquer de lâcher son arme). || bonus de +1
 
 |- CLASS="premier"
-| ''[[Descriptions des propriétés spéciales des armes#Courageuse|Courageuse]]'' || <sup>A&E</sup> || Confère un bonus de moral égal au bonus d’altération de l’arme aux [[valeurs de combat#JETDESAUVEGARDE|jets de sauvegarde]] du porteur contre la terreur. Les autres bonus de moral dont bénéficie le porteur augmentent de la moitié du bonus d’altération de l’arme. || bonus de +1
+| ''[[Descriptions des propriétés spéciales des armes#Corrosive|Corrosive]]'' || <sup>A&E</sup> || — || L’arme peut infliger 1d6 points de dégâts d’acide supplémentaire sur une attaque réussie, à volonté. || bonus de +1
 
 |- CLASS="premier"
-| ''[[Descriptions des propriétés spéciales des armes#Cruelle|Cruelle]]'' || <sup>A&E</sup> || Les cibles [[États préjudiciables#Secoué|secouées]], [[États préjudiciables#Effrayé|effrayées]] et [[États préjudiciables#Paniqué|paniquées]] sont [[États préjudiciables#Fiévreuses|fiévreuses]] pendant 1 [[round]] sur une attaque réussie. Tuer ou rendre [[États préjudiciables#Inconscient|inconsciente]] une créature avec l’arme confère 5 points de vie temporaires au porteur. || bonus de +1
+| ''[[Descriptions des propriétés spéciales des armes#Courageuse|Courageuse]]'' || <sup>A&E</sup> || Corps-à-corps || Confère un bonus de moral égal au bonus d’altération de l’arme aux [[valeurs de combat#JETDESAUVEGARDE|jets de sauvegarde]] du porteur contre la terreur. Les autres bonus de moral dont bénéficie le porteur augmentent de la moitié du bonus d’altération de l’arme. || bonus de +1
 
 |- CLASS="premier"
-| ''[[Descriptions des propriétés spéciales des armes#De diversion|De diversion]]'' || <sup>A&E</sup> || Le [[DD]] des tests de concentration des cibles est augmenté de 5 pendant 1 minute sur une attaque réussie. || bonus de +1
+| ''[[Descriptions des propriétés spéciales des armes#Cruelle|Cruelle]]'' || <sup>A&E</sup> || — || Les cibles [[États préjudiciables#Secoué|secouées]], [[États préjudiciables#Effrayé|effrayées]] et [[États préjudiciables#Paniqué|paniquées]] sont [[États préjudiciables#Fiévreuses|fiévreuses]] pendant 1 [[round]] sur une attaque réussie. Tuer ou rendre [[États préjudiciables#Inconscient|inconsciente]] une créature avec l’arme confère 5 points de vie temporaires au porteur. || bonus de +1
 
 |- CLASS="premier"
-| ''[[Descriptions des propriétés spéciales des armes#De riposte|De riposte]]'' || <sup>A&E</sup> || Le bonus d’altération est augmenté de 4 (maximum +5) quand le porteur de l’arme utilise l’exploit [[exploits#PARADEETRIPOSTEOPPORTUNE|parade et riposte opportune]]. || bonus de +1
+| ''[[Descriptions des propriétés spéciales des armes#De diversion|De diversion]]'' || <sup>MdJ-CA</sup> || — || Le [[DD]] des tests de concentration des cibles est augmenté de 5 pendant 1 minute sur une attaque réussie. || bonus de +1
 
 |- CLASS="premier"
-| ''[[Descriptions des propriétés spéciales des armes#Dissipation|Dissipation]]'' || <sup>A&E</sup> || Fonctionne comme une arme de ''[[stockage de sorts]]'' qui peut uniquement stocker un sort de ''[[dissipation de la magie]]''. Confère un bonus égal au bonus d’altération de l’arme aux tests de dissipation, aux [[arcanes#FRAPPEDEDISSIPATION|frappes de dissipation]] et aux [[pouvoirs de rage#DESTRUCTIONDESORT|destructions de sort]] et [[pouvoirs de rage#DESTRUCTIONDENCHANTEMENT|d’enchantement]]. || bonus de +1
+| ''[[Descriptions des propriétés spéciales des armes#De riposte|De riposte]]'' || <sup>MdJ-CA</sup> || — || Le bonus d’altération est augmenté de 4 (maximum +5) quand le porteur de l’arme utilise l’exploit [[exploits#PARADEETRIPOSTEOPPORTUNE|parade et riposte opportune]]. || bonus de +1
 
 |- CLASS="premier"
-| ''[[Descriptions des propriétés spéciales des armes#De riposte|De riposte]]'' || <sup>A&E</sup> || Fonctionne comme une arme de ''[[stockage de sorts]]'' qui peut uniquement stocker un sort de ''[[dissipation de la magie]]''. Confère un bonus égal au bonus d’altération de l’arme aux tests de dissipation, aux [[arcanes#FRAPPEDEDISSIPATION|frappes de dissipation]] et aux [[pouvoirs de rage#DESTRUCTIONDESORT|destructions de sort]] et [[pouvoirs de rage#DESTRUCTIONDENCHANTEMENT|d’enchantement]]. || bonus de +1
+| ''[[Descriptions des propriétés spéciales des armes#Dissipation|Dissipation]]'' || <sup>A&E</sup> || — || Fonctionne comme une arme de ''[[stockage de sorts]]'' qui peut uniquement stocker un sort de ''[[dissipation de la magie]]''. Confère un bonus égal au bonus d’altération de l’arme aux tests de dissipation, aux [[arcanes#FRAPPEDEDISSIPATION|frappes de dissipation]] et aux [[pouvoirs de rage#DESTRUCTIONDESORT|destructions de sort]] et [[pouvoirs de rage#DESTRUCTIONDENCHANTEMENT|d’enchantement]]. || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Déconcertante|Déconcertante]]'' || <sup>MdJ-CA</sup> || — || Permet de dépenser 1 point de [[bretteur#PANACHE|panache]] sur un critique confirmé pour tenter une manœuvre de [[manœuvres offensives#DESARMEMENT|désarmement]], de [[manœuvres offensives#REPOSITIONNEMENT|repositionnement]], de [[manœuvres offensives#DESTRUCTION|destruction]] ou de [[manœuvres offensives#CROCENJAMBE|croc-en-jambe]] avec un bonus égal au bonus d’altération de l’arme. || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Dégivrante|Dégivrante]]'' || <sup>A&E</sup> || Corps-à-corps || L’arme dégèle les objets au contact. Inflige 1d6 points de dégâts supplémentaires aux créatures de sous-type froid. Confère un bonus de +2 aux [[valeurs de combat#JETDESAUVEGARDE|jets de sauvegarde]] du porteur contre les effets de froid. Immunise l’arme contre les dégâts de froid. || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Enchaînement|Enchaînement]]'' || <sup>A&E</sup> || Corps-à-corps || Un porteur avec le don [[Enchaînement]] peut effectuer une attaque enchaînée supplémentaire. || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Extinction|Extinction]]'' || <sup>A&E</sup> || Corps-à-corps || L’arme éteint les objets au contact. Inflige 1d6 points de dégâts supplémentaires aux créatures de sous-type feu. Confère un bonus de +2 aux [[valeurs de combat#JETDESAUVEGARDE|jets de sauvegarde]] du porteur contre les effets de feu. Immunise l’arme contre les dégâts de feu. || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Feu|Feu]]'' || <sup>A&E</sup> || — || Peut infliger 1d6 points de dégâts de feu supplémentaire au touché. || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Fiable|Fiable]]'' || <sup>A&E</sup> || Armes à feu || Réduit la valeur de long feu de l’arme de 1 après tout calcul censé l’augmenter. || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Flamboyante|Flamboyante]]'' || <sup>MdJ-CA</sup> || Corps-à-corps perforantes légères ou à une main || Contient une réserve de [[bretteur#PANACHE|panache]] de 1 point par jour utilisable normalement. Un porteur ne possédant pas la capacité [[bretteur#PANACHE|panache]] peut dépenser ce point pour relancer un jet d’attaque raté. || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Flammegrise|Flammegrise]]'' || <sup>A&E</sup> || Corps-à-corps || Lorsque le porteur utilise le don [[Châtiment canalisé]], le bonus d’altération de l’arme augmente de +1 et elle peut infliger 1d6 points de dégâts supplémentaires aux créatures touchées. || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Focalisation ki|Focalisation ki]]'' || <sup>A&E</sup> || Corps-à-corps || Le porteur peut utiliser ses attaques de [[moine#RESERVEDEKI|ki]] à travers l’arme (cela implique la [[moine#RESERVEDEKI|frappe ki]], la [[moine#PAUMEVIBRATOIRE|paume vibratoire]], le don [[Coup étourdissant]] et ses dérivés). || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Fortuite|Fortuite]]'' || <sup>A&E</sup> || Corps-à-corps || Lorsqu’il réussit une [[valeurs de combat#ATTAQUEDOPPORTUNITE|attaque d’opportunité]], le porteur peut en effectuer une seconde avec un malus de -5 au [[jet dattaque|jet d’attaque]]. || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Foudre|Foudre]]'' || <sup>A&E</sup> || — || Peut infliger 1d6 points de dégâts d’électricité supplémentaire au touché. || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Froid|Froid]]'' || <sup>A&E</sup> || — || Peut infliger 1d6 points de dégâts de froid supplémentaire au touché. || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Furieuse|Furieuse]]'' || <sup>A&E</sup> || Corps-à-corps || Lorsque le porteur est [[barbare#RAGE|enragé]] ou sous l’effet d’un sort de ''[[rage]]'', le bonus d’altération augmente de +2. Les pouvoirs de rage possédés par le porteur qui offrent des bonus aux compétences confèrent un bonus égal au bonus d’altération de l’arme à ces dernières même hors rage. || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Gardienne|Gardienne]]'' || <sup>A&E</sup> || Corps-à-corps || Le porteur peut librement distribuer le bonus d’altération de l’arme entre sa CA et les jets de l’arme. || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Inspirée|Inspirée]]'' || <sup>A&E</sup> ||  Armes courantes, arbalètes de poing, arcs courts, épées courtes, cannes épées || Confère les effets du talent [[talents (enquêteur)#INSPIRATIONMARTIALE|inspiration martiale]] à un [[enquêteur]] mais uniquement avec cette arme (s’il possède déjà ce talent, le porteur ajoute 2 fois le résultat du dé d’[[enquêteur#INSPIRATION|inspiration]] aux dégâts). || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Intimidante|Intimidante]]'' || <sup>A&E</sup> || Corps-à-corps || Confère un bonus égal au bonus d’altération de l’arme aux tests d’[[Intimidation]] du porteur. Peut [[États préjudiciables#Secoué|secouer]] la cible d’un coup critique réussit pendant 1 [[round]] (+ 1 minute par multiplicateur au-dessus de x2). || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Juge|Juge]]'' || <sup>A&E</sup> || — || Confère un bonus aux tests de [[Perception]] et au [[DMD]] cumulatif pour chaque [[round]] où le porteur a un [[inquisiteur#JUGEMENT|jugement]] actif (maximum +3). || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Lancer|Lancer]]'' || <sup>A&E</sup> || Corps-à-corps || Confère un facteur de portée de 3m (2c) à l’arme. || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Longue portée|Longue portée]]'' || <sup>A&E</sup> || Distance || Double le facteur de portée de l’arme. || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Menaçante|Menaçante]]'' || <sup>A&E</sup> || Corps-à-corps || Augmente le bonus de prise en tenaille des alliés adjacents au porteur de +2. || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Mimétique|Mimétique]]'' || <sup>A&E</sup> || Corps-à-corps || Confère une résistance de 10 contre un type d’énergie auquel les cibles sont résistantes ou immunisées sur une attaque réussie (jusqu’à 30) pendant 1 [[round]]. || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Miséricordieuse|Miséricordieuse]]'' || <sup>A&E</sup> || — || L’arme peut infliger 1d6 points de dégâts supplémentaires et rendre tous ses dégâts non-létaux, à volonté. || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Mortelle|Mortelle]]'' || <sup>A&E</sup> || Non-létales || L’arme peut infliger des dégâts létaux, à volonté. || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Neutralisante|Neutralisante]]'' || <sup>A&E</sup> || Corps-à-corps || L’arme désintoxique l’eau au contact. Inflige 1d6 points de dégâts supplémentaires aux créatures de sous-type terre. Confère un bonus de +2 aux [[valeurs de combat#JETDESAUVEGARDE|jets de sauvegarde]] du porteur contre les effets d’acide ou de terre. Immunise l’arme contre les dégâts d’acide. || bonus de +1
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Planaire|Planaire]]'' || <sup>A&E</sup> || — || L’arme ignore 5 points de [[RD|réduction de dégâts]] des créatures de type Extérieur. || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Protection contre l’électricité|Protection contre l’électricité]]'' || <sup>A&E</sup> || Corps-à-corps || L’arme peut toucher des surfaces chargées sans danger. Inflige 1d6 points de dégâts supplémentaires aux créatures de sous-type air. Confère un bonus de +2 aux [[valeurs de combat#JETDESAUVEGARDE|jets de sauvegarde]] du porteur contre les effets d’air et d’électricité. Immunise l’arme contre les dégâts d’électricité. || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Protectrice|Protectrice]]'' || <sup>A&E</sup> || Corps-à-corps || Le porteur peut librement distribuer le bonus d’altération de l’arme entre ses [[valeurs de combat#JETDESAUVEGARDE|jets de sauvegarde]] et les jets de l’arme. || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Préservation|Préservation]]'' || <sup>A&E</sup> || Armes à projectiles (sauf armes à feu) || Lorsque le porteur rate une attaque avec l’arme, la munition tirée revient dans son contenant d’origine (sauf si elle est brisée en vol). || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Querelleuse|Querelleuse]]'' || <sup>A&E</sup> || Contondantes légères, coups-de-poing, cestes, matraques || Confère un bonus égal au bonus d’altération de l’arme aux tests de [[manœuvres offensives]]. || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Rappel|Rappel]]'' || <sup>A&E</sup> || — || Après 24 heures de port, le porteur peut téléporter l’arme dans ses mains par une [[action rapide]] tant qu’elle est à 30m ou moins de lui. || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Rusée|Rusée]]'' || <sup>A&E</sup> || — || Confère un bonus de +2 aux jets de confirmation critique si le porteur a au moins 5 rangs dans la compétence [[Connaissances]] correspondante à sa cible. || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Révélatrice|Révélatrice]]'' || <sup>A&E</sup> || — || Confère les effets du sort [[lueur féerique]] au porteur pendant 1 [[round]] après avoir touché une créature bénéficiant d’un camouflage magique. || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Sacrée|Sacrée]]'' || <sup>MdJ-CA</sup> || — || Fait office de symbole sacré pour les lanceurs de sorts divins. Un [[prêtre combattant]] peut dépenser une utilisation de [[prêtre combattant#BENEDICTION|bénédiction]] pour en conférer les effets à un allié qu’il affecte avec une [[prêtre combattant#CANALISATIONDENERGIE|canalisation d’énergie]] positive. || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Soutien|Soutien]]'' || <sup>A&E</sup> || Corps-à-corps || Ajoute le bonus d’altération de l’arme au bonus conféré par l’action [[actions spéciales#AIDERQQN|aider quelqu’un]] lorsqu’elle est utilisée pour un [[jet dattaque|jet d’attaque]]. || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Spectrale|Spectrale]]'' || <sup>A&E</sup> || Corps-à-corps, munitions || L’arme est considérée comme tangible et intangible à tout moment. || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Stockage de sort|Stockage de sort]]'' || <sup>A&E</sup> || Corps-à-corps || L’arme peut stocker un sort du 3e niveau ou moins que le porteur peut livrer sur une attaque réussie. || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Tonnerre|Tonnerre]]'' || <sup>A&E</sup> || — || Les coups critiques confirmés infligent 1d8 points de dégâts de son supplémentaires (+1d8 par multiplicateur au-delà de x2) et peuvent rendre leurs victimes sourdes. || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Transperçante|Transperçante]]'' || <sup>A&E</sup> || Corps-à-corps perforantes légères ou à une main || Le porteur peut dépenser 1 point de [[bretteur#PANACHE|panache]] pour confirmer automatiquement un critique potentiel. || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Traque-esprits|Traque-esprits]]'' || <sup>A&E</sup> || — || Inflige 2d6 points de dégâts supplémentaires aux cibles avec la capacité [[chaman#ESPRIT|esprit]] ou [[oracle#MYSTERE|mystère]] (+1d6 par propriété [[Descriptions des propriétés spéciales des armes#Tueuse|tueuse]] et [[Descriptions des propriétés spéciales des armes#Traque-sang|traque-sang]] présente sur l’arme). Le bonus d’altération de l’arme augmente de 2 contre les cibles qui ont un lien avec un [[esprits (chaman)|esprit]] choisi à la fabrication. || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Traque-sang|Traque-sang]]'' || <sup>A&E</sup> || — || Inflige 2d6 points de dégâts supplémentaires aux cibles avec la capacité [[ensorceleur#LIGNAGE|lignage]] (+1d6 par propriété [[Descriptions des propriétés spéciales des armes#Tueuse|tueuse]] et [[Descriptions des propriétés spéciales des armes#Traque-esprits|traque-esprits]] présente sur l’arme). Le bonus d’altération de l’arme augmente de 2 contre les cibles qui ont un lien avec un [[lignages|lignage]] choisi à la fabrication. || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Tueuse|Tueuse]]'' || <sup>A&E</sup> || — || L’arme inflige 2d6 points de dégâts supplémentaires et voit son bonus d’altération augmenter de 2 contre un type de créature choisi à la fabrication. || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Vaillante|Vaillante]]'' || <sup>A&E</sup> || Corps-à-corps || Lorsqu’un porteur [[chevalier]] [[chevalier#DEFI|défie]] une créature, il lui inflige 1d6 points de dégâts supplémentaire avec l’arme et elle confère lui un bonus de +2 aux tests de [[désarmement]] et de [[destruction]] effectuées contre cette créature, ainsi qu’un bonus de +4 au [[DMD]] contre ces mêmes manœuvres engagées par cette dernière. || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Vicieuse|Vicieuse]]'' || <sup>A&E</sup> || Corps-à-corps || Inflige 1d6 points de dégâts au porteur et 2d6 points de dégâts à la cible sur une attaque réussie. || bonus de +1
+
+|- CLASS="premier"
+| ''[[Descriptions des propriétés spéciales des armes#Voleuse de destin|Voleuse de destin]]'' || <sup>A&E</sup> || Corps-à-corps || Peut voler 1 point de [[bretteur#PANACHE|panache]] ou d’[[pistolier#AUDACE|audace]] à la cible sur une attaque réussie, si le porteur possède une telle réserve (voler de l’audace peut rendre du panache et inversement). || bonus de +1
 |}
 </center>
