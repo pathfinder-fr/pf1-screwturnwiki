@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Temp - Les armes magiques
 Title: Temp - Les armes magiques
-LastModified: 2020-02-20 22:52
+LastModified: 2020-02-27 02:05
 ---
 {s:Reference|BONUSALTERATION}{s:Desambi|Les [[armures magiques|armures et boucliers magiques]] possèdent également un bonus d'altération.}
 Une arme magique sert à atteindre plus souvent sa cible et à lui infliger plus de dommages. Les armes magiques sont dotées d’un bonus d’altération allant de +1 à +5, bonus qui s’ajoute aux [[jet dattaque|jets d’attaque]] et de dégâts de leur utilisateur. Elles sont également toutes des armes [[Armes de maître|de maître]], mais le bonus que cette qualité leur fournit ne s’ajoute pas à leur bonus d’altération.
@@ -78,6 +78,7 @@ Les munitions tirées à partir d’une arme à projectiles possédant d’un bo
 
 '''Propriétés particulières.''' Lancer 1d100. Sur 01–30, l’objet génère de la lumière. Sur 31–45, un indice quant à sa capacité figure quelque part à sa surface (dessin, inscription, etc.), et sur 46–100, il n’a aucune propriété particulière.
 
+{s:Reference|DTMSPECIALE}
 === Propriétés spéciales des armes magiques ===
 Une arme ayant une propriété spéciale doit posséder un bonus d’altération d’au moins +1. Le modificateur au prix de base des propriétés ajoutant un "bonus de +X" doit être ajouté à ce bonus minimum de +1.
 
@@ -358,7 +359,7 @@ Une arme ayant une propriété spéciale doit posséder un bonus d’altération
 | ''[[élan vital (propriété)|Élan vital]]'' || <sup>A&E</sup> || Corps-à-corps || Confère un bonus égal au bonus d’altération de l’arme aux [[valeurs de combat#JETDESAUVEGARDE|jets de sauvegarde]] contre les effets de [[nécromancie]] du porteur. Chaque fois que le porteur obtient des points de vie temporaire, ajoute le bonus d’altération de l’arme à leur nombre. La zone de critique de l’arme est doublée contre les morts-vivants. Inflige 1d8 points de dégâts d’énergie positive aux morts-vivants sur un critique confirmé (+1d8 par multiplicateur critique au-delà de x2), ou rend la moitié de ce montant en points de vie au porteur. || bonus de +2
 
 |- CLASS="premier"
-| ''[[enflammée (propriété)|Enflammée]]''* || <sup>A&E</sup> || — || Fonctionne comme une arme de ''[[feu]]''. [[Dangers naturels#PRENDREFEU|Enflamme]] la cible sur un coup critique confirmé (si la propriété ''[[feu]]'' est active). || bonus de +2
+| ''[[enflammée (propriété)|Enflammée]]''* || <sup>A&E</sup> || — || Fonctionne comme une arme de ''[[feu (propriété)|feu]]''. [[Dangers naturels#PRENDREFEU|Enflamme]] la cible sur un coup critique confirmé (si la propriété ''[[feu (propriété)|feu]]'' est active). || bonus de +2
 
 |- CLASS="premier"
 | ''[[entêtée (propriété)|Entêtée]]'' || <sup>A&E</sup> || Corps-à-corps || Le bonus d’altération de l’arme augmente de 1 (maximum +5) chaque fois que le porteur touche la même cible. || bonus de +2
@@ -367,16 +368,16 @@ Une arme ayant une propriété spéciale doit posséder un bonus d’altération
 | ''[[explosion corrosive (propriété)|Explosion corrosive]]''* || <sup>A&E</sup> || — || Fonctionne comme une arme ''[[Descriptions individuelles des propriétés spéciales des armes#Corrosive|corrosive]]''. Inflige 1d10 points de dégâts d’acide supplémentaire sur un coup critique confirmé (+1d10 par multiplicateur critique au-delà de x2). || bonus de +2
 
 |- CLASS="premier"
-| ''[[feu intense (propriété)|Feu intense]]''* || <sup>A&E</sup> || — || Fonctionne comme une arme de ''[[feu]]''. Inflige 1d10 points de dégâts de feu supplémentaire sur un coup critique confirmé (+1d10 par multiplicateur critique au-delà de x2). || bonus de +2
+| ''[[feu intense (propriété)|Feu intense]]''* || <sup>A&E</sup> || — || Fonctionne comme une arme de ''[[feu (propriété)|feu]]''. Inflige 1d10 points de dégâts de feu supplémentaire sur un coup critique confirmé (+1d10 par multiplicateur critique au-delà de x2). || bonus de +2
 
 |- CLASS="premier"
 | ''[[filature (propriété)|Filature]]'' || <sup>A&E</sup> || — || Par une [[action simple]], peut observer une créature à 18m ou moins. Lors de la première attaque effectuée contre la créature observée, inflige 1d6 points de dégâts de précision supplémentaires par [[round]] d’observation consécutifs (nombre de dé maximum égal au bonus d’altération de l’arme). || bonus de +2
 
 |- CLASS="premier"
-| ''[[foudre intense (propriété)|Foudre intense]]''* || <sup>A&E</sup> || — || Fonctionne comme une arme de ''[[foudre]]''. Inflige 1d10 points de dégâts d’éléctricité supplémentaire sur un coup critique confirmé (+1d10 par multiplicateur critique au-delà de x2). || bonus de +2
+| ''[[foudre intense (propriété)|Foudre intense]]''* || <sup>A&E</sup> || — || Fonctionne comme une arme de ''[[foudre (propriété)|foudre]]''. Inflige 1d10 points de dégâts d’éléctricité supplémentaire sur un coup critique confirmé (+1d10 par multiplicateur critique au-delà de x2). || bonus de +2
 
 |- CLASS="premier"
-| ''[[froid intense (propriété)|Froid intense]]''* || <sup>A&E</sup> || — || Fonctionne comme une arme de ''[[froid]]''. Inflige 1d10 points de dégâts de froid supplémentaire sur un coup critique confirmé (+1d10 par multiplicateur critique au-delà de x2). || bonus de +2
+| ''[[froid intense (propriété)|Froid intense]]''* || <sup>A&E</sup> || — || Fonctionne comme une arme de ''[[froid (propriété)|froid]]''. Inflige 1d10 points de dégâts de froid supplémentaire sur un coup critique confirmé (+1d10 par multiplicateur critique au-delà de x2). || bonus de +2
 
 |- CLASS="premier"
 | ''[[glorieuse (propriété)|Glorieuse]]'' || <sup>A&E</sup> || Corps-à-corps || Dégainée, l’arme produit une lumière éblouissante (comme avec ''[[lumière du jour]]''). [[Ébloui]] les cibles jusqu’au prochain tour du porteur au touché. Peut [[aveuglé|aveugler]] les cibles jusqu’au prochain tour du porteur sur un critique confirmé (+1 [[round]] par multiplicateur critique au-delà de x2). || bonus de +2
