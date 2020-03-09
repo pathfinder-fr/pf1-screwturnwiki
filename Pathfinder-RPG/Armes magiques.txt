@@ -1,15 +1,61 @@
 ---
 Name: Pathfinder-RPG.Armes magiques
 Title: Les armes magiques
-LastModified: 2020-02-15 15:19
+LastModified: 2020-03-05 16:44
 Categories:
   - 'Arme magique'
+  - 'Armes et équipement'
   - 'Manuel des joueurs, règles avancées'
   - 'Manuel des races'
 ---
-<div style="float: right; padding: 0 0 8px 8px">{toc}</div>
-{s:Reference|BONUSALTERATION}{s:Desambi|Les [[armures magiques|armures et boucliers magiques]] possèdent également un [[armures magiques#BONUSALTERATION|bonus d'altération]].}Une arme magique sert à atteindre plus souvent sa cible et à lui infliger plus de dommages. Les armes magiques sont dotées d’un bonus d’altération allant de +1 à +5, bonus qui s’ajoute aux [[jet dattaque|jets d’attaque]] et de dégâts de leur utilisateur. Elles sont également toutes des armes [[Armes de maître|de maître]], mais le bonus que cette qualité leur fournit ne s’ajoute pas à leur bonus d’altération.
+{s:MenuObjetsMagiques}
+{s:Reference|BONUSALTERATION}{s:Desambi|Les [[armures magiques|armures et boucliers magiques]] possèdent également un bonus d'altération.}
+Une arme magique sert à atteindre plus souvent sa cible et à lui infliger plus de dommages. Les armes magiques sont dotées d’un bonus d’altération allant de +1 à +5, bonus qui s’ajoute aux [[jet dattaque|jets d’attaque]] et de dégâts de leur utilisateur. Elles sont également toutes des armes [[Armes de maître|de maître]], mais le bonus que cette qualité leur fournit ne s’ajoute pas à leur bonus d’altération.
 
+<div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+<center>
+{| CLASS="tablo centre"
+|+ {s:Reference|PRIXBONUSDALTERATION} Prix des bonus d'altération des armes
+|- CLASS="titre"
+| Bonus d'altération
+| Prix de vente<sup>[[armes magiques#NOTE1|1]]</sup>
+|- CLASS="premier"
+| +1 
+| 2 000 po
+|- CLASS="alt"
+| +2 
+| 8 000 po
+|-
+| +3 
+| 18 000 po
+|- CLASS="alt"
+| +4 
+| 32 000 po
+|-
+| +5 
+| 50 000 po
+|- CLASS="alt"
+| +6<sup>[[armes magiques#NOTE2|2]]</sup> 
+| 72 000 po
+|-
+| +7<sup>[[armes magiques#NOTE2|2]]</sup> 
+| 98 000 po
+|- CLASS="alt"
+| +8<sup>[[armes magiques#NOTE2|2]]</sup> 
+| 128 000 po
+|-
+| +9<sup>[[armes magiques#NOTE2|2]]</sup> 
+| 162 000 po
+|- CLASS="alt"
+| +10<sup>[[armes magiques#NOTE2|2]]</sup> 
+| 200 000 po
+|- CLASS="note"
+| COLSPAN="2" | {s:Reference|NOTE1}''(1) Dans le cas de flèches, carreaux d’arbalète ou billes de fronde, <br> ce prix concerne 50 unités.''
+|- CLASS="note" 
+| COLSPAN="2" | {s:Reference|NOTE2}''(2) Le bonus numérique effectif de l’arme ne peut être supérieur à +5. <br> Utilisez ces lignes pour déterminer le prix des armes possédant des <br> propriétés spéciales.''
+|}
+</center></div></div>
 On trouve deux catégories d’armes : celles de corps à corps et celles à distance (comprenant les armes de jet et les armes à projectiles). Certaines armes de corps à corps peuvent également être utilisées en tant qu’armes à distance. Dans ce cas, leur bonus d’altération compte, quel qu’en soit l’usage.
 
 Une arme peut, en plus de son bonus d’altération, posséder certaines propriétés. Celles-ci sont considérées comme un bonus supplémentaire pour ce qui est du prix de l’arme, mais elles ne modifient pas son bonus à l’attaque ou aux dégâts (sauf indication contraire). Aucune arme ne peut avoir un bonus total (bonus d’altération plus équivalences dues aux propriétés, y compris celles qui proviennent des aptitudes du personnage et des sorts) supérieur à +10. Toute arme ayant une propriété spéciale doit avoir un bonus d’altération d’au moins +1.
@@ -38,904 +84,423 @@ Les munitions tirées à partir d’une arme à projectiles possédant d’un bo
 
 '''Propriétés particulières.''' Lancer 1d100. Sur 01–30, l’objet génère de la lumière. Sur 31–45, un indice quant à sa capacité figure quelque part à sa surface (dessin, inscription, etc.), et sur 46–100, il n’a aucune propriété particulière.
 
-{s:Reference|DETERMINATION}
-<center>
-{| CLASS="tablo col1centre"
-|+ Armes
-|- CLASS="titre"
-| Faible || Intermédiaire || Puissante || Arme spéciale || Prix de vente<sup>[[Armes magiques#NOTE1|1]]</sup>
-|- CLASS="premier"
-| 01–70 || 01–10 || — || +1 || 2 000 po
-|- CLASS="alt"
-| 71–85 || 11–29 || — || +2 || 8 000 po
-|-
-| — || 30–58 || 01–20 || +3 || 18 000 po
-|- CLASS="alt"
-| — || 59–62 || 21–38 || +4 || 32 000 po
-|-
-| — || — || 39–49 || +5 || 50 000 po
-|- CLASS="alt"
-| — || — || — || +6<sup>[[Armes magiques#NOTE2|2]]</sup> || 72 000 po
-|-
-| — || — || — || +7<sup>[[Armes magiques#NOTE2|2]]</sup> || 98 000 po
-|- CLASS="alt"
-| — || — || — || +8<sup>[[Armes magiques#NOTE2|2]]</sup> || 128 000 po
-|-
-| — || — || — || +9<sup>[[Armes magiques#NOTE2|2]]</sup> || 162 000 po
-|- CLASS="alt"
-| — || — || — || +10<sup>[[Armes magiques#NOTE2|2]]</sup> || 200 000 po
-|-
-| 86–90 || 63–68 || 50–63 || [[Armes magiques#DTMARMESPECIFIQUE|Arme spécifique]] || —
-|- CLASS="alt"
-| 91–100 || 69–100 || 64–100 || Propriété spéciale <br/>([[Armes magiques#DTMSPECIALECAC|corps à corps]] ou [[Armes magiques#DTMSPECIALEDIST|distance]])<br/> et relancez le dé || —
-|- CLASS="note"
-| COLSPAN="5" | {s:Reference|NOTE1}''(1) Dans le cas de flèches, carreaux d’arbalète ou billes de fronde, ce prix concerne 50 unités.''
-|- CLASS="note" 
-| COLSPAN="5" | {s:Reference|NOTE2}''(2) Le bonus effectif de l’arme ne peut être supérieur à +5. <br/> Utilisez ces lignes pour déterminer le prix des armes possédant des propriétés spéciales.''
-|}
-</center>
+{s:Reference|DTMSPECIALE}
+=== Propriétés spéciales des armes magiques ===
+Une arme ayant une propriété spéciale doit posséder un bonus d’altération d’au moins +1. Le modificateur au prix de base des propriétés ajoutant un "bonus de +X" doit être ajouté à ce bonus minimum de +1.
 
-=== Propriétés spéciales des armes magiques de corps à corps ===
-Une arme ayant une propriété spéciale doit posséder un bonus d’altération d’au moins +1.
-
-{s:Reference|DTMSPECIALECAC}
+''Appliquées sur des armes à projectiles, les propriétés marquées d’un astérisque (*) sont transmises aux munitions tirées avec.''
 
 <center>
-{| CLASS="tablo col1centre"
-|+ Propriétés spéciales des armes de corps-à-corps
+{| CLASS="tablo autoalt toutgauche"
+|+ Propriétés ajoutant un prix spécifique
 |- CLASS="titre"
-| Faible || Intermédiaire || Puissante || Propriété spéciale || Modificateur au<br/> prix de base
+| WIDTH="12%" | Propriété
+| WIDTH="3%" | Source
+| WIDTH="11%" | Restrictions
+| WIDTH="61%" | Capacités
+| WIDTH="13%" | Modificateur au prix de base
+
 |- CLASS="premier"
-| 01–10 || 01–06 || 01–03 || ''[[Armes magiques#Tueuse|Tueuse]]'' || bonus de +1<sup>[[Armes magiques#NOTE3|3]]</sup>
-|- CLASS="alt"
-| 11–17 || 07–12 || — || ''[[Armes magiques#Gardienne|Gardienne]]'' || bonus de +1<sup>[[Armes magiques#NOTE3|3]]</sup>
-|-
-| 18–27 || 13–19 || 04–06 || ''[[Armes magiques#Feu|Feu]]'' || bonus de +1<sup>[[Armes magiques#NOTE3|3]]</sup>
-|- CLASS="alt"
-| 28–37 || 20–26 || 07–09 || ''[[Armes magiques#Froid|Froid]]'' || bonus de +1<sup>[[Armes magiques#NOTE3|3]]</sup>
-|-
-| 38–47 || 27–33 || 10–12 || ''[[Armes magiques#Foudre|Foudre]]'' || bonus de +1<sup>[[Armes magiques#NOTE3|3]]</sup>
-|- CLASS="alt"
-| 48–56 || 34–38 || 13–15 || ''[[Armes magiques#Spectrale|Spectrale]]'' || bonus de +1<sup>[[Armes magiques#NOTE3|3]]</sup>
-|-
-| 57–67 || 39–44 || — || ''[[Armes magiques#Acérée|Acérée]]''<sup>[[Armes magiques#NOTE4|4]]</sup> || bonus de +1<sup>[[Armes magiques#NOTE3|3]]</sup>
-|- CLASS="alt"
-| 68–71 || 45–48 || 16–19 || ''[[Armes magiques#Focalisationki|Focalisation ki]]'' || bonus de +1<sup>[[Armes magiques#NOTE3|3]]</sup>
-|-
-| 72–75 || 49–50 || — || ''[[Armes magiques#Miséricordieuse|Miséricordieuse]]'' || bonus de +1<sup>[[Armes magiques#NOTE3|3]]</sup>
-|- CLASS="alt"
-| 76–82 || 51–54 || 20–21 || ''[[Armes magiques#Enchaînement|Enchaînement]]'' || bonus de +1<sup>[[Armes magiques#NOTE3|3]]</sup>
-|-
-| 83–87 || 55–59 || 22–24 || ''[[Armes magiques#Stockagedesort|Stockage de sort]]'' || bonus de +1<sup>[[Armes magiques#NOTE3|3]]</sup>
-|- CLASS="alt"
-| 88–91 || 60–63 || 25–28 || ''[[Armes magiques#Lancer|Lancer]]'' || bonus de +1<sup>[[Armes magiques#NOTE3|3]]</sup>
-|-
-| 92–95 || 64–65 || 29–32 || ''[[Armes magiques#Tonnerre|Tonnerre]]'' || bonus de +1<sup>[[Armes magiques#NOTE3|3]]</sup>
-|- CLASS="alt"
-| 96–99 || 66–69 || 33–36 || ''[[Armes magiques#Vicieuse|Vicieuse]]'' || bonus de +1<sup>[[Armes magiques#NOTE3|3]]</sup>
-|-
-| — || 70–72 || 37–41 || ''[[Armes magiques#Anarchique|Anarchique]]'' || bonus de +2<sup>[[Armes magiques#NOTE3|3]]</sup>
-|- CLASS="alt"
-| — || 73–75 || 42–46 || ''[[Armes magiques#Axiomatique|Axiomatique]]'' || bonus de +2<sup>[[Armes magiques#NOTE3|3]]</sup>
-|-
-| — || 76–78 || 47–49 || ''[[Armes magiques#Destruction|Destruction]]''<sup>[[Armes magiques#NOTE5|5]]</sup> || bonus de +2<sup>[[Armes magiques#NOTE3|3]]</sup>
-|- CLASS="alt"
-| — || 79–81 || 50–54 || ''[[Armes magiques#Feuintense|Feu intense]]'' || bonus de +2<sup>[[Armes magiques#NOTE3|3]]</sup>
-|-
-| — || 82–84 || 55–59 || ''[[Armes magiques#Froidintense|Froid intense]]'' || bonus de +2<sup>[[Armes magiques#NOTE3|3]]</sup>
-|- CLASS="alt"
-| — || 85–87 || 60–64 || ''[[Armes magiques#Sainte|Sainte]]'' || bonus de +2<sup>[[Armes magiques#NOTE3|3]]</sup>
-|-
-| — || 88–90 || 65–69 || ''[[Armes magiques#Foudreintense|Foudre intense]]'' || bonus de +2<sup>[[Armes magiques#NOTE3|3]]</sup>
-|- CLASS="alt"
-| — || 91–93 || 70–74 || ''[[Armes magiques#Impie|Impie]]'' || bonus de +2<sup>[[Armes magiques#NOTE3|3]]</sup>
-|-
-| — || 94–95 || 75–78 || ''[[Armes magiques#Sanglante|Sanglante]]'' || bonus de +2<sup>[[Armes magiques#NOTE3|3]]</sup>
-|- CLASS="alt"
-| — || — || 79–83 || ''[[Armes magiques#Rapidité|Rapidité]]'' || bonus de +3<sup>[[Armes magiques#NOTE3|3]]</sup>
-|-
-| — || — || 84–86 || ''[[Armes magiques#Lumière|Lumière]]'' || bonus de +4<sup>[[Armes magiques#NOTE3|3]]</sup>
-|- CLASS="alt"
-| — || — || 87–88 || ''[[Armes magiques#Dansante|Dansante]]'' || bonus de +4<sup>[[Armes magiques#NOTE3|3]]</sup>
-|-
-| — || — || 89–90 || ''[[Armes magiques#Vorpale|Vorpale]]''<sup>[[Armes magiques#NOTE4|4]]</sup> || bonus de +5<sup>[[Armes magiques#NOTE3|3]]</sup>
-|- CLASS="alt"
-| 100 || 96–100 || 91–100 || Rejouez deux fois le dé<sup>[[Armes magiques#NOTE6|6]]</sup> || —
-|- CLASS="note"
-| COLSPAN="5" | {s:Reference|NOTE3}''(3) À ajouter au bonus d’altération de manière à déterminer le prix de vente total.''
-|- CLASS="note"
-| COLSPAN="5" | {s:Reference|NOTE4}''(4) Arme tranchante ou perforante uniquement (tranchante uniquement pour la [[Armes magiques#Vorpale|vorpale]]). Rejouez le dé si l’arme est contondante.''
-|- CLASS="note"
-| COLSPAN="5" | {s:Reference|NOTE5}''(5) Arme contondante uniquement. Rejouez le dé si l’arme est tranchante ou perforante.''
-|- CLASS="note"
-| COLSPAN="5" | {s:Reference|NOTE6}''(6) Rejouez le dé si vous obtenez deux fois la même propriété, si la dernière propriété obtenue n’est pas compatible avec les précédentes, ou si, trop puissante, elle fait dépasser la limite maximale pour une arme (+10 en cumulant le bonus d’altération de l’arme et les modificateurs dus aux diverses propriétés).''
+| ''[[polyvalent (propriété)|Polyvalent]]'' || <sup>A&E</sup> || Arcs composites || Le porteur peut ajouter son modificateur de [[Force]] entier ou moins quelque soit les restrictions normales de l’arme. || +1 000 po</sup>
+
+|- CLASS="premier"
+| ''[[charge étanche (propriété)|Charge étanche]]'' || <sup>A&E</sup> || Cartouches alchimiques et métalliques d’arme à feu || Protège la charge de l’arme de l’absence d’air pendant 3 minutes. Le porteur peut tirer sous l’eau avec un malus de -2 aux [[jet dattaque|jets d’attaque]] pour chaque case qui le sépare de sa cible. L’arme explose immédiatement en cas de long feu. || +1 500 po</sup>
+
+|- CLASS="premier"
+| ''[[projectile fantôme (propriété)|Projectile fantôme]]'' || <sup>MCA</sup> || Munitions || Les munitions disparaissent 1 [[round]] après avoir été tirées et les plaies qu’elles infligent sont invisibles, ne laissant aucune trace visible de l’attaque. || +2 000 po</sup>
+
+|- CLASS="premier"
+| ''[[préhensile (propriété)|Préhensile]]'' || <sup>MCA</sup> || Fouets || L’arme peut être utilisée comme grappin. Un [[bretteur]] peut dépenser 1 point de [[bretteur#PANACHE|panache]] pour passer l’allonge de l’arme à 6m et la rendre éligible pour son [[exploits (bretteur)#ATTAQUEPRECISE|attaque précise]], pendant 1 attaque. || +2 500 po</sup>
+
+|- CLASS="premier"
+| ''[[solide (propriété)|Solide]]'' || <sup>A&E</sup> || — || Triple la solidité et les points de résistance. Confère un bonus égal au double du bonus d’altération au [[DD]] pour briser l’arme et à son [[DMD]] contre les manœuvres de [[manœuvres offensives#DESTRUCTION|destruction]]. Immunise contre la rouille et la pourriture. || +3 000 po
+
+|- CLASS="premier"
+| ''[[exclusion (propriété)|Exclusion]]'' || <sup>MCA</sup> || — || Toucher une créature avec l’arme l’exclue automatiquement des prochaines [[prêtre#CANALISATIONDENERGIE|canalisations d’énergie]] du porteur (jusqu’à un nombre de créature égal au modificateur de [[Sagesse]] du porteur + le bonus d’altération de l’arme). || +3 750 po</sup>
+
+|- CLASS="premier"
+| ''[[mimétisme (propriété)|Mimétisme]]'' || <sup>A&E</sup> || — || Permet de modifier l’apparence de l’arme (dissimulant son aura) à volonté. || +4 000 po
+
+|- CLASS="premier"
+| ''[[sournoise (propriété)|Sournoise]]'' || <sup>MCA</sup> || Corps-à-corps || Une fois par jour, un porteur avec la capacité [[roublard#ATTAQUESOURNOISE|attaque sournoise]] peut désigner une créature à portée de corps-à-corps contre laquelle sa prochaine attaque du [[round]] infligera les dégâts supplémentaires de son attaque sournoise. || +5 000 po</sup>
+
+|- CLASS="premier"
+| ''[[mutante (propriété)|Mutante]]'' || <sup>A&E</sup> || Corps-à-corps || Permet de modifier la nature de l’arme, tant qu’elle garde la même maniabilité (à une main, deux mains, etc.), et sa taille (une épée à deux mains de taille P pourrait devenir une épée longue de taille M), à volonté. || +10 000 po
+
+|- CLASS="premier"
+| ''[[duel (propriété)|Duel]]'' || <sup>A&E</sup> || Corps-à-corps éligibles au don [[Attaque en finesse]] || Confère un bonus d’altération de +4 à l’initiative du porteur s’il porte l’arme au moment du test. Confère un bonus de +2 aux tests de [[manœuvres offensives#DESARMEMENT|désarmement]] et de [[actions spéciales#FEINTE|feinte]] du porteur, ainsi qu’au [[DMD]] contre les manœuvres de [[manœuvres offensives#DESARMEMENT|désarmement]] et au [[DD]] des [[actions spéciales#FEINTE|feintes]] effectuées contre le porteur. || +14 000 po
 |}
 </center>
 
 <center>
-{| CLASS="tablo col1centre"
-|+ Propriétés spéciales des armes de corps-à-corps (APG)
+{| CLASS="tablo autoalt toutgauche"
+|+ Propriétés ajoutant un bonus de +1
 |- CLASS="titre"
-| Faible || Intermédiaire || Puissante || Propriété spéciale || Modificateur au<br/> prix de base
+| WIDTH="12%" | Propriété
+| WIDTH="3%" | Source
+| WIDTH="11%" | Restrictions
+| WIDTH="61%" | Capacités
+| WIDTH="13%" | Modificateur au prix de base
+
 |- CLASS="premier"
-| 01-12 || 01-04 || 01-03 || ''[[Armes magiques#ALLIANCE|Alliance]]'' || bonus de +1<sup>[[Armes magiques#NOTE3|3]]</sup>
-|- CLASS="alt"
-| 13-24 || 05-12 || 04-08 || ''[[Armes magiques#CONDUCTRICE|Conductrice]]'' || bonus de +1<sup>[[Armes magiques#NOTE3|3]]</sup>
-|-
-| 25-36 || 13-22 || 09-20 || ''[[Armes magiques#CORROSIVE|Corrosive]]'' || bonus de +1<sup>[[Armes magiques#NOTE3|3]]</sup>
-|- CLASS="alt"
-| 37-48 || 23-32 || 21-29 || ''[[Armes magiques#RUSEE|Rusée]]'' || bonus de +1<sup>[[Armes magiques#NOTE3|3]]</sup>
-|-
-| 49-58 || 33-40 || 30-38 || ''[[Armes magiques#FURIEUSE|Furieuse]]'' || bonus de +1<sup>[[Armes magiques#NOTE3|3]]</sup>
-|- CLASS="alt"
-| 59-70 || 41-49 || 39-47 || ''[[Armes magiques#FLAMMEGRISE|Flammegrise]]'' || bonus de +1<sup>[[Armes magiques#NOTE3|3]]</sup>
-|-
-| 71-77 || 50-58 || 48-56 || ''[[Armes magiques#CHASSERESSE|Chasseresse]]'' || bonus de +1<sup>[[Armes magiques#NOTE3|3]]</sup>
-|- CLASS="alt"
-| 78-84 || 59-67 || 57-65 || ''[[Armes magiques#JUGE|Juge]]'' || bonus de +1<sup>[[Armes magiques#NOTE3|3]]</sup>
-|-
-| 85-99 || 68-74 || 66-74 || ''[[Armes magiques#MENACANTE|Menaçante]]'' || bonus de +1<sup>[[Armes magiques#NOTE3|3]]</sup>
-|- CLASS="alt"
-| - || 75-82 || 75-81 || ''[[Armes magiques#EXPLOSIONCORROSIVE|Explosion corrosive]]'' || bonus de +2<sup>[[Armes magiques#NOTE3|3]]</sup>
-|-
-| - || 83-89 || 82-85 || ''[[Armes magiques#DUEL|Duel]]'' || +14 000 po
-|- CLASS="alt"
-| - || 90-95 || 86-90 || ''[[Armes magiques#MUTANTE|Mutante]]'' || +10 000 po
-|- 
-| 100 || 96–100 || 91–100 || Relancez 2 fois le dé<sup>[[Armes magiques#NOTE6|6]]</sup> || —
-|- CLASS="note"
-| COLSPAN="5" | {s:Reference|NOTE3}''(3) À ajouter au bonus d’altération de manière à déterminer le prix de vente total.''
-|- CLASS="note"
-| COLSPAN="5" | {s:Reference|NOTE6}''(6) Rejouez le dé si vous obtenez deux fois la même propriété, si la dernière propriété obtenue n’est pas compatible avec les précédentes, ou si, trop puissante, elle fait dépasser la limite maximale pour une arme (+10 en cumulant le bonus d’altération de l’arme et les modificateurs dus aux diverses propriétés).''
-|}
-</center>
+| ''[[acérée (propriété)|Acérée]]'' || <sup>A&E</sup> || Corps à corps tranchantes ou perforantes || Double la zone de critique de l’arme (non cumulable avec des effets similaires). || bonus de +1
 
-=== Propriétés spéciales des armes magiques à distance ===
-
-{s:Reference|DTMSPECIALEDIST}
-<center>
-{| CLASS="tablo col1centre"
-|+ Propriétés spéciales des armes à distance
-|- CLASS="titre"
-| Faible || Intermédiaire || Puissante || Propriété spéciale || Modificateur au<br/> prix de base
 |- CLASS="premier"
-| 01–12 || 01–08 || 01–04 || ''[[Armes magiques#Tueuse|Tueuse]]''<sup>[[Armes magiques#NOTE7|7]]</sup> || bonus de +1<sup>[[Armes magiques#NOTE3|3]]</sup>
-|- CLASS="alt"
-| 13–25 || 09–16 || 05–08 || ''[[Armes magiques#Longueportée|Longue portée]]'' || bonus de +1<sup>[[Armes magiques#NOTE3|3]]</sup>
-|-
-| 26–40 || 15–28 || 09–12 || ''[[Armes magiques#Feu|Feu]]''<sup>[[Armes magiques#NOTE7|7]]</sup> || bonus de +1<sup>[[Armes magiques#NOTE3|3]]</sup>
-|- CLASS="alt"
-| 41–55 || 29–40 || 13–16 || ''[[Armes magiques#Froid|Froid]]''<sup>[[Armes magiques#NOTE7|7]]</sup> || bonus de +1<sup>[[Armes magiques#NOTE3|3]]</sup>
-|-
-| 56–60 || 41–42 || — || ''[[Armes magiques#Miséricordieuse|Miséricordieuse]]''<sup>[[Armes magiques#NOTE7|7]]</sup> || bonus de +1<sup>[[Armes magiques#NOTE3|3]]</sup>
-|- CLASS="alt"
-| 61–68 || 43–47 || 17–21 || ''[[Armes magiques#Boomerang|Boomerang]]'' || bonus de +1<sup>[[Armes magiques#NOTE3|3]]</sup>
-|-
-| 69–83 || 48–59 || 22–25 || ''[[Armes magiques#Foudre|Foudre]]''<sup>[[Armes magiques#NOTE7|7]]</sup> || bonus de +1<sup>[[Armes magiques#NOTE3|3]]</sup>
-|- CLASS="alt"
-| 84–93 || 60–64 || 26–27 || ''[[Armes magiques#Traqueuse|Traqueuse]]'' || bonus de +1<sup>[[Armes magiques#NOTE3|3]]</sup>
-|-
-| 94–99 || 65–68 || 28–29 || ''[[Armes magiques#Tonnerre|Tonnerre]]''<sup>[[Armes magiques#NOTE7|7]]</sup> || bonus de +1<sup>[[Armes magiques#NOTE3|3]]</sup>
-|- CLASS="alt"
-| — || 69–71 || 30–34 || ''[[Armes magiques#Anarchique|Anarchique]]''<sup>[[Armes magiques#NOTE7|7]]</sup> || bonus de +2<sup>[[Armes magiques#NOTE3|3]]</sup>
-|-
-| — || 72–74 || 35–39 || ''[[Armes magiques#Axiomatique|Axiomatique]]''<sup>[[Armes magiques#NOTE7|7]]</sup> || bonus de +2<sup>[[Armes magiques#NOTE3|3]]</sup>
-|- CLASS="alt"
-| — || 75–79 || 40–49 || ''[[Armes magiques#Feuintense|Feu intense]]''<sup>[[Armes magiques#NOTE7|7]]</sup> || bonus de +2<sup>[[Armes magiques#NOTE3|3]]</sup>
-|-
-| — || 80–82 || 50–54 || ''[[Armes magiques#Sainte|Sainte]]''<sup>[[Armes magiques#NOTE7|7]]</sup> || bonus de +2<sup>[[Armes magiques#NOTE3|3]]</sup>
-|- CLASS="alt"
-| — || 83–87 || 55–64 || ''[[Armes magiques#Froidintense|Froid intense]]'' || bonus de +2<sup>[[Armes magiques#NOTE3|3]]</sup>
-|-
-| — || 88–92 || 65–74 || ''[[Armes magiques#Foudreintense|Foudre intense]]''<sup>[[Armes magiques#NOTE7|7]]</sup> || bonus de +2<sup>[[Armes magiques#NOTE3|3]]</sup>
-|- CLASS="alt"
-| — || 93–95 || 75–79 || ''[[Armes magiques#Impie|Impie]]'' || bonus de +2<sup>[[Armes magiques#NOTE3|3]]</sup>
-|-
-| — || — || 80–84 || ''[[Armes magiques#Rapidité|Rapidité]]'' || bonus de +3<sup>[[Armes magiques#NOTE3|3]]</sup>
-|- CLASS="alt"
-| — || — || 85–90 || ''[[Armes magiques#Lumière|Lumière]]'' || bonus de +4<sup>[[Armes magiques#NOTE3|3]]</sup>
-|-
-| 100 || 96–100 || 91–100 || Rejouez deux fois le dé<sup>[[Armes magiques#NOTE6|6]]</sup> || —
-|- CLASS="note"
-| COLSPAN="5" | {s:Reference|NOTE3}''(3) À ajouter au bonus d’altération de manière à déterminer le prix de vente total.''
-|- CLASS="note"
-| COLSPAN="5" | {s:Reference|NOTE6}''(6) Rejouez le dé si vous obtenez deux fois la même propriété, si la dernière propriété obtenue n’est pas compatible avec les précédentes, ou si, trop puissante, elle fait dépasser la limite maximale pour une arme (+10 en cumulant le bonus d’altération de l’arme et les modificateurs dus aux diverses propriétés).''
-|- CLASS="note"
-| COLSPAN="5" | {s:Reference|NOTE7}''(7) Les arcs, les arbalètes et les frondes fabriquées avec cette propriété la transmettent à leurs munitions.''
-|}
-</center>
+| ''[[alliance (propriété)|Alliance]]'' || <sup>A&E</sup> || — || Permet de transférer certains ou tous les bonus d’altération de l’arme à celle d’un allié visible par le porteur pendant 1 [[round]], à volonté. || bonus de +1
 
-<center>
-{| CLASS="tablo col1centre"
-|+ Propriétés spéciales des armes à distance (APG)
-|- CLASS="titre"
-| Faible || Intermédiaire || Puissante || Propriété spéciale || Modificateur au<br/> prix de base
 |- CLASS="premier"
-| 01-15 || 01-14 || 01-13 || ''[[Armes magiques#ALLIANCE|Alliance]]'' || bonus de +1<sup>[[Armes magiques#NOTE3|3]]</sup>
-|- CLASS="alt"
-| 16-30 || 15-28 || 14-26 || ''[[Armes magiques#CONDUCTRICE|Conductrice]]''<sup>[[Armes magiques#NOTE7|7]]</sup> || bonus de +1<sup>[[Armes magiques#NOTE3|3]]</sup>
-|-
-| 31-48 || 29-48 || 27-42 || ''[[Armes magiques#CORROSIVE|Corrosive]]'' || bonus de +1<sup>[[Armes magiques#NOTE3|3]]</sup>
-|- CLASS="alt"
-| 49-60 || 49-58 || 43-56 || ''[[Armes magiques#RUSEE|Rusée]]'' || bonus de +1<sup>[[Armes magiques#NOTE3|3]]</sup>
-|-
-| 61-72 || 59-69 || 57-65 || ''[[Armes magiques#CHASSERESSE|Chasseresse]]'' || bonus de +1<sup>[[Armes magiques#NOTE3|3]]</sup>
-|- CLASS="alt"
-| 73-94 || 70-91 || 66-87 || ''[[Armes magiques#JUGE|Juge]]'' || bonus de +1<sup>[[Armes magiques#NOTE3|3]]</sup>
-|- CLASS="alt"
-| 95-99 || 92-95 || 88-90 || ''[[Armes magiques#EXPLOSIONCORROSIVE|Explosion corrosive]]'' || bonus de +2<sup>[[Armes magiques#NOTE3|3]]</sup>
-|- 
-| 100 || 96–100 || 91–100 || Relancez 2 fois le dé<sup>[[Armes magiques#NOTE6|6]]</sup> || —
-|- CLASS="note"
-| COLSPAN="5" | {s:Reference|NOTE3}''(3) À ajouter au bonus d’altération de manière à déterminer le prix de vente total.''
-|- CLASS="note"
-| COLSPAN="5" | {s:Reference|NOTE6}''(6) Rejouez le dé si vous obtenez deux fois la même propriété, si la dernière propriété obtenue n’est pas compatible avec les précédentes, ou si, trop puissante, elle fait dépasser la limite maximale pour une arme (+10 en cumulant le bonus d’altération de l’arme et les modificateurs dus aux diverses propriétés).''
-|- CLASS="note"
-| COLSPAN="5" | {s:Reference|NOTE7}''(7) Les arcs, les arbalètes et les frondes fabriquées avec cette propriété la transmettent à leurs munitions.''
-|}
-</center>
+| ''[[aquatique (propriété)|Aquatique]]'' || <sup>A&E</sup> || Corps-à-corps || Confère un bonus égal au bonus d’altération de l’arme aux tests de [[Natation]] du porteur. Immunise aux malus des [[jet dattaque|jets d’attaque]] et [[valeurs de combat#DEGATS|de dégâts]] effectués dans l’eau (comme avec ''[[liberté de mouvement]]''). || bonus de +1
 
-=== Description des propriétés spéciales des armes magiques ===
-
-<table class="page espace-col deuxcol"><tr><td>
-{s:Reference|Acérée}
-<div class="BD">
-{s:BDTitre|Acérée|}
-Cette propriété double la zone de critique possible d’une arme. Seules des armes tranchantes ou perforantes peuvent être acérées. Si vous tirez aléatoirement cette capacité sur une arme qui ne peut en profiter, relancez les dés. Les effets de cette propriété ne se cumulent pas avec des effets similaires étendant la zone de critique possible, comme le sort ''[[affûtage]]'' ou le don [[Science du critique]].
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#TRANSMUTATION|Transmutation]] modérée ; '''NLS''' 10 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[affûtage]]'' ; '''Prix''' bonus de +1.
-
-</div>
-
-{s:Reference|ADAPTATIVE}
-<div class="BD">
-{s:BDTitre|Adaptive}
-Cette propriété ne peut être appliquée qu'à un arc composite. Il répond automatiquement à la force de son possesseur, se comportant comme un arc composite avec une valeur de force égale au modificateur de force de son possesseur.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#TRANSMUTATION|Transmutation]] faible ; '''NLS''' 1 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[Façonnage du bois]]'' ; '''Prix''' +1000 PO
-
-</div>
-
-{s:Reference|AGILE}
-<div class="BD">
-{s:BDTitre|Agile}
-Cette propriété ne peut être appliquée qu'à une arme compatible avec le don d'[[Attaque en finesse]]. Une telle arme est extrêmement légère et maniable, et son porteur peut utiliser son modificateur de [[Dextérité]] au lieu de [[Force]] pour les jets de dommages.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#TRANSMUTATION|Transmutation]] faible ; '''NLS''' 7 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[grâce féline]]'' ; '''Prix''' bonus de +1.
-
-</div>
-
-{s:Reference|ALLIANCE}
-<div class="BD">
-{s:BDTitre|Alliance|{s:APG}}
-Une ''arme d’alliance'' permet à son porteur de transférer certains de ses bonus d’altération ou leur totalité à une arme utilisée par un de ses alliés. Il doit voir cet allié. Par une [[action libre]] effectuée au début de son tour et avant d’utiliser son arme, le personnage décide de comment il compte distribuer son bonus d’altération. Le bonus de l’arme alliée persiste jusqu’au prochain tour du propriétaire de l’''arme d’alliance''. Le bonus d’altération qu’elle donne ne se cumule pas avec tout bonus d’altération que l’arme de l’allié possède déjà.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#TRANSMUTATION|Transmutation]] faible ; '''NLS''' 5  ; [[Création darmes et armures magiques|Création d’armes et armures magique]], ''[[arme magique]]'' ; '''Prix''' bonus de +1
-
-</div>
-
-{s:Reference|Anarchique}
-<div class="BD">
-{s:BDTitre|Anarchique|}
-Une arme anarchique est alimentée directement par l’énergie du Chaos. Cela en fait une arme du Chaos, à même d’ignorer la [[réduction des dégâts]] correspondante. Elle inflige 2d6 points de dégâts supplémentaires aux créatures d’alignement Loyal. Toute créature Loyale se servant de cette arme acquiert instantanément un [[niveau négatif]] qui persiste tant qu’elle la porte, et qui disparaît dès qu’elle s’en sépare. Ce [[niveau négatif]] ne peut être dissipé par aucun moyen (pas même un sort de ''[[restauration]]'').
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#EVOCATION|Évocation]] (Chaos) modérée ; '''NLS''' 7 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[marteau du Chaos]]'', alignement Chaotique ; '''Prix''' bonus de +2.
-
-</div>
-
-{s:Reference|ANCRAGE}
-<div class="BD">
-{s:BDTitre|Ancrage|}
-Une arme d'ancrage ne peut être qu'une arme de corps à corps ou de lancer. Elle cloue sa cible en place et l'empêche de bouger. Par une [[action rapide]], une arme d'ancrage peut se fixer à n'importe quel point de l'espace, devenant inamovible. Cette capacité peut aussi être utilisée lorsque l'arme frappe un ennemi, le clouant sur place et l'empêchant de bouger. Il n'est ni [[paralysé]] ni [[enchevêtré]] ; il est juste incapable de quitter l'endroit ou il se trouve, à moins de détruire l'arme ou de faire un test de [[Force]] de DD 30 pour se déplacer d'une distance maximale de 3 mètres (2 {s:c}) avec l'arme. Une fois ancrée, une arme d'ancrage reste immobile et ne peut être utilisée pour attaquer. Les élémentaires, limons et autres créatures amorphes sont immunisées à cet effet, de même que les créatures immatérielles, à moins que l'arme ne dispose de la propriété [[armes magiques#Spectrale|spectrale]].
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#TRANSMUTATION|Transmutation]] modérée ; '''NLS''' 10 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[lévitation]]'' ; '''Prix''' bonus de +2.
-
-</div>
-
-{s:Reference|AVANCEE}
-<div class="BD">
-{s:BDTitre|Avancée}
-Cette propriété ne peut être appliquée qu'à une arme de corps à corps. Une fois par round, quand le propriétaire d'une arme d'avancée frappe une créature au corps à corps avec celle-ci, il peut par une [[action rapide]] se déplacer d'1,5 mètres (1 {s:c}) après l'attaque, mais avant la fin du tour. Cette action ne compte ni comme un déplacement ni comme un pas de placement, mais impose un malus de -2 aux jets d'attaque jusqu'au début du prochain tour. Cette propriété ne se cumule pas avec tout autre effet permettant de se déplacer en attaquant.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#TRANSMUTATION|Transmutation]] faible ; '''NLS''' 5 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[démarche aérienne]]'' ; '''Prix''' bonus de +2.
-
-</div>
-
-{s:Reference|Axiomatique}
-<div class="BD">
-{s:BDTitre|Axiomatique|}
-Une arme axiomatique est alimentée directement par l’énergie de la Loi. Cela en fait une arme de la Loi, à même d’ignorer la [[réduction des dégâts]] correspondante. Elle inflige 2d6 points de dégâts supplémentaires aux créatures d’alignement Chaotique. Toute créature Chaotique se servant de cette arme acquiert instantanément un [[niveau négatif]] qui persiste tant qu’elle la porte, et qui disparaît dès qu’elle s’en sépare. Ce [[niveau négatif]] ne peut être dissipé par aucun moyen (pas même un sort de ''[[restauration]]'').
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#EVOCATION|Évocation]] (Loi) modérée ; '''NLS''' 7 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[courroux de lordre|courroux de l’ordre]]'', alignement Loyal ; '''Prix''' bonus de +2.
-
-</div>
-
-{s:Reference|BIENVEILLANTE}
-<div class="BD">
-{s:BDTitre|Bienveillante|}
-Seules des armes de corps à corps peuvent profiter de cette propriété. Quand le possesseur d'une telle arme veut [[aider quelquun|aider autrui]] pour augmenter ses jets d'attaque, il lui accorde également un bonus égal au bonus d'altération de l'arme.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#ENCHANTEMENT|Enchantement]] modéré ; '''NLS''' 5 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[aide]]'' ; '''Prix''' bonus de +1.
-
-</div>
-
-{s:Reference|Boomerang}
-<div class="BD">
-{s:BDTitre|Boomerang|}
-Seules des armes de jet peuvent profiter de cette propriété. Une arme boomerang vole automatiquement jusque dans la main de son propriétaire, après qu’elle a été lancée. Elle revient juste avant le prochain tour de jeu du lanceur, qui peut donc la relancer sans attendre. Attraper une arme boomerang en vol est une [[action libre]]. Si le personnage est incapable de l’attraper ou s’il s’est déplacé après avoir tiré, l’arme tombe au sol sur la case d’où elle a été lancée.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#TRANSMUTATION|Transmutation]] modérée ; '''NLS''' 7 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[télékinésie]]'' ; '''Prix''' bonus de +1.
-
-</div>
-
-{s:Reference|CHASSERESSE}
-<div class="BD">
-{s:BDTitre|Chasseresse|{s:APG}}
-Une arme chasseresse aide son propriétaire à localiser et capturer sa proie. Quand il la tient en main, il gagne un bonus d’altération aux tests de [[Survie]] pour traquer toute créature blessée la veille avec cette arme. Elle inflige +1d6 points de dégâts aux créatures traquées à l’aide de la compétence [[Survie]] pendant la journée précédente.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#DIVINATION|Divination]] modérée  ; '''NLS''' 7  ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[détection de la faune ou de la flore]]'' ; '''Prix''' bonus de +1
-
-</div>
-
-{s:Reference|CONDUCTRICE}
-<div class="BD">
-{s:BDTitre|Conductrice|{s:APG}}
-Une arme conductrice est capable de canaliser l’énergie d’un pouvoir magique ou surnaturel qui dépend d’une attaque de corps à corps ou à distance pour toucher sa cible (comme le pouvoir de domaine d’un [[prêtre]], le pouvoir de lignage d’un [[ensorceleur]], la révélation d’un mystère d’[[oracle]] ou le pouvoir d’école d’un [[magicien]]). Quand le propriétaire de l’arme réussit une attaque du type approprié, il peut décider de dépenser deux utilisations de son pouvoir pour le canaliser à travers l’arme quand il frappe son adversaire qui subit alors les effets de l’attaque et du pouvoir (si le pouvoir ne présente pas un nombre d’utilisations limité, le personnage peut le canaliser à travers l’arme à chaque round). Par exemple, un [[paladin]] qui frappe un [[type mort-vivant|mort-vivant]] avec son ''épée à deux mains conductrice'' peut dépenser deux [[paladin#IMPOSITIONDESMAINS|impositions des mains]] (une attaque de contact surnaturelle) pour infliger les dégâts habituels de son épée et leur ajouter ceux d’une [[paladin#IMPOSITIONDESMAINS|imposition des mains]]. Cette propriété ne s’utilise qu’une fois par [[round]] et fonctionne uniquement avec des pouvoirs de même type que l’arme (au corps à corps ou à distance).
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#NECROMANCIE|Nécromancie]] modérée ; '''NLS''' 8 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[main spectrale]]'' ; '''Prix''' bonus de +1
-
-</div>
-
-{s:Reference|CORROSIVE}
-<div class="BD">
-{s:BDTitre|Corrosive|{s:APG}}
-Sur commande, l’arme corrosive s’enduit d’acide qui inflige 1d6 points de dégâts d’acide supplémentaires si elle touche. L’acide ne blesse pas le propriétaire de l’arme et persiste jusqu’à ce qu’il lui ordonne de disparaître.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#EVOCATION|Évocation]] modérée  ; '''NLS''' 10  ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[flèche acide]]'' ; '''Prix''' bonus de +1
-
-</div>
-
-{s:Reference|CRUELLE}
-<div class="BD">
-{s:BDTitre|Cruelle|{s:MR}}
-Une arme cruelle se nourrit de la peur et de la souffrance. Lorsque le porteur frappe une créature [[effrayé|effrayée]], [[secoué|secouée]] ou [[paniqué|paniquée]] avec une arme cruelle, la créature est fiévreuse pendant 1 round. Quand le porteur utilise cette arme pour [[inconscient|assommer]] ou tuer une créature, il gagne 5 points de vie temporaires pendant 10 minutes. Cette propriété est accessible aux [[hobgobelin (race)|hobgobelins]].
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#NECROMANCIE|Nécromancie]] faible ; '''NLS''' 5 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[frayeur]]'', ''[[mise à mort]]'' ; '''Prix''' bonus de +1
-
-</div>
-
-{s:Reference|Dansante}
-<div class="BD">
-{s:BDTitre|Dansante|}
-Par une [[action simple]], on peut lâcher une arme dansante afin que celle-ci attaque d’elle-même. Elle combat pendant 4 rounds, en se servant du [[bonus de base à lattaque|bonus de base à l’attaque]] de son propriétaire, avant de tomber à terre. Pendant qu’elle danse, l’arme est incapable de porter d’[[attaque dopportunité|attaque d’opportunité]] et son propriétaire n’est pas considéré comme étant armé avec cette arme. Elle est considérée pour tous les autres effets comme étant tenue ou portée par son propriétaire. Lorsqu’elle danse, l’arme occupe le même espace que son propriétaire et peut attaquer les adversaires adjacents (les armes à allonge peuvent attaquer les adversaires se trouvant à 3 m). L’arme dansante suit la personne qui l’a activée dans ses déplacements, que ceux-ci soient ordinaires ou magiques. La personne qui l’a lâchée peut la reprendre quand elle le souhaite par une [[action libre]], à condition qu’elle ait une main libre. Dans ce cas, il est nécessaire d’attendre un minimum de 4 rounds pour que l’arme puisse danser de nouveau.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#TRANSMUTATION|Transmutation]] puissante ; '''NLS''' 15 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[animation dobjets|animation d’objets]]'' ; '''Prix''' bonus de +4.
-
-</div>
-
-{s:Reference|Destruction}
-<div class="BD">
-{s:BDTitre|Destruction|}
-{s:Desambi|Destruction est également le nom d'une [[destruction|manœuvre de combat]] et d'un [[sort destruction|sort]].}
-Une arme de destruction est le fléau des [[type mort-vivant|morts-vivants]], quels qu’ils soient. Tout [[type mort-vivant|mort-vivant]] frappé par cette arme en combat doit réussir un jet de [[Volonté]] ([[DD]] 14) pour ne pas être détruit.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#INVOCATION|Invocation]] puissante ; '''NLS''' 14 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[guérison suprême]]'' ; '''Prix''' bonus de +2.
-
-</div>
-
-{s:Reference|DUEL}
-<div class="BD">
-{s:BDTitre|Duel|{s:APG}}
-Cette propriété s’applique uniquement aux armes de corps à corps. Une arme de duel (qui est forcément une arme que l’on peut utiliser avec le don [[Attaque en finesse]]) donne à son propriétaire un bonus d’altération de +4 aux tests d’[[Initiative]] s’il la tient déjà en main au moment de faire le test. Elle lui donne également un bonus de +2 aux tests de [[désarmement]] et de [[feinte]], un bonus de +2 au [[DMD]] pour résister aux tentatives de [[désarmement]] et un bonus de +2 au [[DD]] des [[feinte|feintes]] qu’il exécute contre son adversaire.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#TRANSMUTATION|Transmutation]] ; '''NLS''' 5  ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[grâce féline]]'' ; '''Prix''' +14 000 po
-
-</div>
-
-{s:Reference|Enchaînement}
-<div class="BD">
-{s:BDTitre|Enchaînement|}
-{s:Desambi|Enchaînement est également le nom d'un [[enchaînement|don]].}
-Si l’utilisateur d’une arme d’enchaînement possède le don [[Enchaînement]], il est à même d’effectuer une attaque d’enchaînement supplémentaire par round. Il est pour cela nécessaire que son prochain adversaire soit à sa portée et sur une case adjacente au précédent. Il est impossible de porter cette attaque contre son premier adversaire. Seules des armes de corps à corps peuvent profiter de cette propriété.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#EVOCATION|Évocation]] modérée ; '''NLS''' 8 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[puissance divine]]'' ; '''Prix''' bonus de +1.
-
-</div>
-
-{s:Reference|Enflammée}
-<div class="BD">
-{s:BDTitre|Enflammée|{s:cm}}
-Quand une arme enflammée touche un objet inflammable laissé à l’abandon, ce dernier prend feu (les objets magiques ont droit à un jet de Vigueur DD 13 pour annuler). Une fois enflammé, il reçoit 1d6 points de dégâts de feu par round. Un objet entièrement ou majoritairement constitué de bois est encore plus sensible à cet effet et reçoit à la place 2d6+2 points de dégâts de feu. Cet effet dure 1d4 rounds. Une créature qui termine son tour dans la même case qu’un objet enflammé subit 1d6+1 points de dégâts de feu.
-Trois fois par jour, le propriétaire d’une arme enflammée peut, sur commande, attiser les flammes d’un objet que son arme a embrasé. L’objet brûle pendant 1d4+1 rounds de plus et ses flammes occupent un rayonnement de 1,50 mètre autour de lui. Le rayonnement inflige 1d6+1 points de dégâts de feu à toutes les créatures de la zone affectée et embrase les objets inflammables laissés à l’abandon comme si l’arme les avait touchés.
-Les géants du feu utilisent souvent leurs armes enflammées lors de leurs ferventes croisades contre les autres races.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#EVOCATION|Évocation]] forte ; '''NLS''' 12 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[caresse élémentaire]]'' ; '''Prix''' bonus de +2.
-
-</div>
-
-{s:Reference|EXPLOSIONCORROSIVE}
-<div class="BD">
-{s:BDTitre|Explosion corrosive|{s:APG}}
-Une arme d’explosion corrosive fonctionne comme une [[Armes magiques#CORROSIVE|arme corrosive]] mais elle émet une explosion acide en cas de [[coup critique]] confirmé. L’acide ne brûle pas le propriétaire. En plus des dégâts supplémentaires de l’[[Armes magiques#CORROSIVE|arme corrosive]], celle-ci inflige encore 1d10 points de dégâts d’acide en cas de [[coup critique]]. Si l’arme a un modificateur de critique de x3, elle inflige 2d10 points de dégâts supplémentaires et s’il est de x4, elle inflige +3d10.
-
-Les dégâts de [[coup critique]] se déclenchent même si la fonction corrosive n’est pas active.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#EVOCATION|Évocation]] modérée ; '''NLS''' 12 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[Flèche acide]]'' ; '''Prix''' bonus de +2
-
-</div>
-
-{s:Reference|Feu}
-<div class="BD">
-{s:BDTitre|Feu|}
-Sur [[Règles relatives aux objets magiques#OBJETSAMOTDECOMMANDE|commande]], une arme de feu se couvre de flammes n’infligeant aucun dégât au porteur. Lors d’une attaque réussie, une arme de feu inflige +1d6 points de dégâts de feu supplémentaires.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#EVOCATION|Évocation]] modérée ; '''NLS''' 10 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], soit ''[[lame de feu]]'', soit ''[[boule de feu]]'', soit ''[[colonne de feu]]'' ; '''Prix''' bonus de +1.
-
-</div>
-
-{s:Reference|Feuintense}
-<div class="BD">
-{s:BDTitre|Feu intense|}
-Une arme de feu intense fonctionne comme une [[Armes magiques#Feu|arme de feu]], mais elle est en plus capable de générer une explosion de feu lors de chaque [[coup critique]]. L’explosion de feu ne blesse pas le porteur. La cible subit des dégâts de feu supplémentaires de 1d10 lors d’un [[coup critique]] ; si le multiplicateur de critique est de x3, l’arme inflige 2d10 points de dégâts supplémentaires et s’il est de x4, de 3d10 points de dégâts supplémentaires.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#EVOCATION|Évocation puissante]] ; '''NLS''' 12 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], soit ''[[lame de feu]]'', soit ''[[boule de feu]]'', soit ''[[colonne de feu]]'' ; '''Prix''' bonus de +2.
-
-</div>
-
-{s:Reference|FLAMMEGRISE}
-<div class="BD">
-{s:BDTitre|Flammegrise|{s:APG}}
-Cette arme réagit à la canalisation d’énergie positive ou négative. Quand le personnage dépense une [[action rapide]] pour canaliser de l’énergie dans son arme, elle flamboie d’une étrange flamme grise qui émet autant de lumière qu’une torche, augmente le bonus d’altération de l’arme de +1 et inflige +1d6 points de dégâts supplémentaires aux créatures touchées (comme le pouvoir divin ''[[colonne de feu]]''). Cette flamme flamboie pendant 1 round pour chaque d6 de dégâts ou de guérison accordé par la canalisation. Une flamme chargée d’énergie positive brûle d’un gris argenté. Les créatures d’alignement Bon sont immunisées contre ses dégâts supplémentaires et elle est considérée comme une arme Bonne et en argent quand il s’agit d’ignorer la [[RD|résistance aux dégâts]]. Quand la flamme est chargée d’énergie négative, elle brûle d’un gris de cendre. Les créatures d’alignement Mauvais sont immunisées contre ses dégâts supplémentaires et elle est considérée comme une arme Mauvaise en fer froid quand il s’agit d’ignorer la [[RD|résistance aux dégâts]].
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#TRANSMUTATION|Transmutation]] modérée ; '''NLS''' 6 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[Châtiment canalisé]]'', ''[[arme alignée]]'' ; '''Prix''' bonus de +1
-
-</div>
-
-{s:Reference|Focalisationki}
-<div class="BD">
-{s:BDTitre|Focalisation ki|}
-Une arme de focalisation ki permet à son porteur de canaliser son [[moine#RESERVEDEKI|énergie ki]]. Le personnage peut ainsi utiliser ses attaques spéciales ki via cette arme, de la même façon que s’il se battait à mains nues. Les attaques affectées sont les aptitudes de [[moine]] de [[moine#RESERVEDEKI|frappe ki]] et de [[moine#PAUMEVIBRATOIRE|paume vibratoire]], ainsi que le don [[Coup étourdissant]] (et tous les effets que peut y ajouter le [[moine]]).
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#TRANSMUTATION|Transmutation]] modérée ; '''NLS''' 8 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], [[moine]] de niveau 1 ; '''Prix''' bonus de +1.
-
-</div>
-
-{s:Reference|Foudre}
-<div class="BD">
-{s:BDTitre|Foudre|}
-Sur [[Règles relatives aux objets magiques#OBJETSAMOTDECOMMANDE|commande]], une arme de foudre génère un halo d’électricité n’infligeant aucun dégât au porteur. Lors d’une attaque réussie, une arme de foudre inflige +1d6 points de dégâts d’électricité supplémentaires.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#EVOCATION|Évocation]] modérée ; '''NLS''' 8 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], soit ''[[appel de la foudre]]'', soit ''[[éclair]]'' ; '''Prix''' bonus de +1.
-
-</div>
-
-{s:Reference|Foudreintense}
-<div class="BD">
-{s:BDTitre|Foudre intense|}
-Une arme de foudre intense fonctionne comme une [[Armes magiques#Foudre|arme de foudre]], mais elle est en plus capable de générer une explosion d’électricité lors de chaque [[coup critique]]. L’explosion d’électricité ne blesse pas le porteur. La cible subit des dégâts de foudre supplémentaires de 1d10 lors d’un [[coup critique]] ; si le multiplicateur de critique est de x3, l’arme inflige 2d10 points de dégâts supplémentaires et s’il est de x4, de 3d10 points de dégâts supplémentaires. L’explosion d’électricité a lieu même si la propriété spéciale d’électricité de l’arme n’est pas activée.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#EVOCATION|Évocation]] modérée ; '''NLS''' 10 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], soit ''[[appel de la foudre]]'', soit ''[[éclair]]'' ; '''Prix''' bonus de +2.
-
-</div>
-
-{s:Reference|Froid}
-<div class="BD">
-{s:BDTitre|Froid|}
-Sur [[Règles relatives aux objets magiques#OBJETSAMOTDECOMMANDE|commande]], une arme de froid génère un froid glacial n’infligeant aucun dégât au porteur. Lors d’une attaque réussie, une arme de froid inflige +1d6 points de dégâts de froid supplémentaires.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#EVOCATION|Évocation]] modérée ; '''NLS''' 8 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], soit ''[[métal gelé]]'', soit ''[[tempête de grêle]]'' ; '''Prix''' bonus de +1.
-
-</div>
-
-{s:Reference|Froidintense}
-<div class="BD">
-{s:BDTitre|Froid intense|}
-Une arme de froid intense fonctionne comme une [[armes magiques#Froid|arme de froid]], mais elle possède la possibilité supplémentaire de générer une explosion de froid lors de chaque [[coup critique]]. L’explosion de froid ne blesse pas le porteur. La cible subit des dégâts de froid supplémentaires de 1d10 lors d’un [[coup critique]] ; si le multiplicateur de critique est de x3, l’arme inflige 2d10 points de dégâts supplémentaires et s’il est de x4, de 3d10 points de dégâts supplémentaires.
-
-L’explosion de froid a lieu même si la propriété spéciale de froid de l’arme n’est pas activée.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#EVOCATION|Évocation]] modérée ; '''NLS''' 10 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], soit ''[[métal gelé]]'', soit ''[[tempête de grêle]]'' ; '''Prix''' bonus de +2.
-
-</div>
-</td><td>
-{s:Reference|FURIEUSE}
-<div class="BD">
-{s:BDTitre|Furieuse|{s:APG}}
-Cette propriété fonctionne uniquement sur les armes de corps à corps. Une arme furieuse sert de focalisateur à la colère du personnage. Quand il est enragé ou sous l’effet d’un sort de ''[[rage]]'', le bonus d’altération de l’arme augmente de +2. Si le personnage dispose d’un [[pouvoirs de rage|pouvoir de rage]] qui lui donne un bonus de compétence quand il est enragé (comme [[pouvoirs de rage|escalade en rage]], [[pouvoirs de rage|saut en rage]] ou [[pouvoirs de rage|nage en rage]]), son arme lui apporte un bonus d’altération au test de compétence égal à celui de l’arme (en comptant le +2 si le personnage est enragé). Ceci fonctionne tant qu’il tient l’arme en main, même s’il n’est pas enragé.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#ENCHANTEMENT|Enchantement]] ([[registre|coercition]]) modéré  ; '''NLS''' 8 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[rage]]'' ; '''Prix''' bonus de +1
-
-</div>
-
-{s:Reference|Gardienne}
-<div class="BD">
-{s:BDTitre|Gardienne|}
-Une arme gardienne permet à son possesseur d’utiliser tout ou partie de son bonus d’altération comme bonus à la [[CA]], lequel peut se cumuler avec tous les autres types de bonus à la [[CA]]. Par une [[action libre]] au début de son tour de jeu, [[FAQ Objets magiques#Armes_magiques_5|avant d'utiliser l'arme]], le personnage choisit la façon dont il répartit son bonus et sa [[CA]] est modifiée en conséquence jusqu’à son prochain tour de jeu.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#ABJURATION|Abjuration]] modérée ; '''NLS''' 8 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], soit ''[[bouclier]]'', soit ''[[bouclier de la foi]]'' ; '''Prix''' bonus de +1.
-
-</div>
-
-{s:Reference|Impie}
-<div class="BD">
-{s:BDTitre|Impie|}
-Une arme impie est alimentée directement par l’énergie Mauvaise. Cela en fait une arme du Mal, à même d’ignorer la réduction des dégâts correspondante. Elle inflige 2d6 points de dégâts supplémentaires aux créatures d’alignement Bon. Toute créature Bonne se servant de cette arme acquiert instantanément un [[niveau négatif]] qui persiste tant qu’elle la porte, et qui disparaît dès qu’elle s’en sépare. Ce [[niveau négatif]] ne peut être dissipé par aucun moyen (pas même un sort de ''[[restauration]]'').
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#EVOCATION|Évocation]] (Mal) modérée ; '''NLS''' 7 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[ténèbres maudites]]'', alignement Mauvais ; '''Prix''' bonus de +2.
-
-</div>
-
-{s:Reference|INFLAMMABLE}
-<div class="BD">
-{s:BDTitre|Inflammable|{s:mr}}
-Une arme inflammable fonctionne comme une [[Armes magiques#Feu|arme de feu]] qui met aussi le [[Dangers naturels#PRENDREFEU|feu]] aux ennemis sur un [[coup critique]] réussi. La cible n’a pas droit à un [[jet de sauvegarde]] pour éviter de prendre feu, mais peut faire un jet de sauvegarde tous les [[round|rounds]] à son [[tour]] pour éteindre le feu. La capacité de feu doit être active pour que l’arme mette le feu aux ennemis. Cette propriété est accessible aux [[ifrit (race)|ifrits]]. 
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#EVOCATION|Evocation]] forte ; '''NLS''' 12 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[lame de feu]]'', ''[[colonne de feu]]'' ou ''[[boule de feu]]'' ; '''Prix''' bonus de +2.
-
-</div>
-
-{s:Reference|JUGE}
-<div class="BD">
-{s:BDTitre|Juge|{s:APG}}
-Quand un [[inquisiteur]] utilise son pouvoir de jugement alors qu’il manie cette arme, elle lui accorde un bonus d’altération aux tests de [[Perception]] et au [[DMD]]. Ce bonus est de +1 au premier round de jugement et augmente de +1 à chaque round, avec un maximum de +3 au troisième round et par la suite.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#TRANSMUTATION|Transmutation]] modérée ; '''NLS''' 4 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[sagesse du hibou]]'' ; '''Prix''' bonus de +1
-
-</div>
-
-{s:Reference|Lancer}
-<div class="BD">
-{s:BDTitre|Lancer|}
-Seules des armes de corps à corps peuvent profiter de cette propriété. Elles acquièrent un facteur de portée de 3 m et peut être lancée par tout personnage formé à son maniement.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#TRANSMUTATION|Transmutation]] faible ; '''NLS''' 5 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[pierre magique]]'' ; '''Prix''' bonus de +1.
-
-</div>
-
-{s:Reference|Longueportée}
-<div class="BD">
-{s:BDTitre|Longue portée|}
-Seules des armes à distance peuvent profiter de cette propriété. Une arme de longue portée voit son facteur de portée doublé.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#DIVINATION|Divination]] modérée ; '''NLS''' 6 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[clairaudienceclairvoyance|clairaudience/clairvoyance]]'' ; '''Prix''' bonus de +1.
-
-</div>
-
-{s:Reference|Lumière}
-<div class="BD">
-{s:BDTitre|Lumière|}
-{s:Desambi|Lumière est également le nom d'un [[Lumière|sort]].}
-Une arme de lumière voit sa partie destinée à blesser transformée en lumière, bien que cela ne modifie en rien son poids. Elle éclaire autant qu’une torche, dans un rayon de 6 m. Elle ne tient pas compte de la matière non vivante. Elle ne tient donc pas compte du bonus d’armure et de bouclier à la [[CA]] (ainsi que du bonus d’altération d’une [[armures magiques|armure magique]]). Les bonus de [[Dextérité]], d’esquive, d’armure naturelle, de parade et autres sont comptés normalement. Une arme de lumière ne peut pas infliger le moindre dégât aux objets, pas plus qu’aux [[type mort-vivant|morts-vivants]] ou aux [[type créature artificielle|créatures artificielles]].
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#TRANSMUTATION|Transmutation]] puissante ; '''NLS''' 16 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[état gazeux]]'', ''[[flamme éternelle]]'' ; '''Prix''' bonus de +4.
-
-</div>
-
-{s:Reference|LUTTE}
-<div class="BD">
-{s:BDTitre|Lutte|}
-Une arme de lutte doit être un ceste, un coup de poing américain, une matraque, ou une arme légère contondante. Son propriétaire gagne un bonus à ses jets de [[BMO|manoeuvres offensives]] égal au bonus d'altération de l'arme.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#ENCHANTEMENT|Enchantement]] modéré ; '''NLS''' 7 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], [[Science du croc-en-jambe]], ''[[assistance divine]]'' ; '''Prix''' bonus de +1.
-
-</div>
-
-{s:Reference|MENACANTE}
-<div class="BD">
-{s:BDTitre|Menaçante|{s:APG}}
-Cette propriété fonctionne uniquement sur les armes de corps à corps. Elle aide les alliés à s’occuper des ennemis pris en tenailles. Quand le personnage est adjacent à une créature prise en tenailles par un allié, le bonus de prise en tenailles de tous les alliés concernés augmente de +2. Ce pouvoir fonctionne même si le personnage ne fait pas partie de ceux qui prennent la cible en tenailles.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#ILLUSION|Illusion]] modérée ; '''NLS''' 10 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[assassin imaginaire]]'' ; '''Prix''' bonus de +1
-
-</div>
-
-{s:Reference|Miséricordieuse}
-<div class="BD">
-{s:BDTitre|Miséricordieuse|}
-Une arme miséricordieuse inflige +1d6 points de dégâts supplémentaires, et l’ensemble des dégâts qu’elle inflige deviennent [[dégâts non-létaux|non létaux]]. Sur commande, l’arme peut annuler les deux effets de cette propriété, et infliger des dégâts létaux, jusqu’à ce qu’elle reçoive l’ordre inverse.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#INVOCATION|Invocation]] faible ; '''NLS''' 5 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[soins légers]]'' ; '''Prix''' bonus de +1.
-
-</div>
-
-{s:Reference|MORTELLE}
-<div class="BD">
-{s:BDTitre|Mortelle|{s:MR}}
-Cette propriété spéciale ne peut être appliquée qu’à des armes infligeant normalement des [[dégâts non létaux]], comme les [[Descriptions individuelles des armes#Fouet|fouets]] et les [[Tableau récapitulatif des armes#TABGUERRE|matraques]]. Tous les dégâts qu’inflige une arme mortelle sont létaux. Un fouet (ou une arme similaire ne pouvant pas blesser les créatures ayant une armure ou des bonus d’armure naturelle) avec cette propriété inflige des [[Valeurs de combat#DEGATS|dégâts]] même aux créatures ayant une armure ou une armure naturelle. Il est possible de supprimer cette propriété de l’arme sur commande jusqu’à ce qu’on lui demande de la reprendre. Cette propriété est accessible aux [[hobgobelin (race)|hobgobelins]].
-* '''Aura''' [[Présentation des sorts#NECROMANCIE|Nécromancie]] faible ; '''NLS''' 10 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[blessure légère]]'' ; '''Prix''' bonus de +1
-
-</div>
-
-{s:Reference|MUTANTE}
-<div class="BD">
-{s:BDTitre|Mutante|{s:APG}}
-Cette propriété fonctionne uniquement sur les armes de corps à corps. Une arme mutante change d’apparence sur ordre de son propriétaire et se transforme en toute autre arme de corps à corps qui possède la même forme générale et se manie de la même manière (à une main, deux mains etc.) ; que l’arme soit courante, de guerre ou exotique, cela n’a aucune importance. Par exemple, une  ''épée longue mutante'' de taille M peut se transformer en n’importe quelle autre arme de corps à corps à une main de taille M comme un cimeterre, un fléau ou un trident, mais pas en une arme de corps à corps légère ou à deux mains (ni en épée courte M ni en épée à deux mains M). L’arme peut même prendre l’apparence d’armes semblables de catégories de taille différentes. Une épée à deux mains de taille P est une arme tranchante à deux mains pour les personnages de taille P, mais un personnage de taille M  la considère comme une arme tranchante à une main, ce qui ressemble fort à une épée longue de taille M. Une épée à deux mains mutante P peut donc se transformer en épée longue M qu’une créature de taille M peut manier sans subir le malus de -2 associé aux armes inadaptées à cause de leur catégorie de taille. L’arme conserve tous ses pouvoirs, y compris ses bonus d’altération et ses propriétés, hormis ceux que sa nouvelle forme l’empêche d’utiliser. Par exemple, une ''arme mutante acérée'' fonctionne normalement si elle se transforme en arme tranchante ou perforante mais elle ne pourra pas utiliser sa propriété [[Armes magiques#Acérée|acérée]] si elle se change en arme contondante. L’arme reprend sa forme première quand elle ne se trouve pas entre les mains de quelqu’un.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#TRANSMUTATION|Transmutation]] modérée ; '''NLS''' 10 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[création majeure]]'' ; '''Prix''' +10 000 po
-
-</div>
-
-{s:Reference|NEEDELAFUREUR}
-<div class="BD">
-{s:BDTitre|Née de la fureur|{s:MR}}
-Une arme née de la fureur tire sa puissance de la colère et de la frustration que ressent le porteur lorsqu’il se bat contre des ennemis qui refusent de mourir. Chaque fois que le porteur blesse un adversaire avec cette arme, son [[bonus]] d’altération augmente de +1 lorsqu’il effectue des attaques contre cet adversaire (bonus total d’altération maximum de +5). Ce bonus d’altération supplémentaire disparaît si l’adversaire meurt, si le porteur utilise son arme pour attaquer une autre créature ou au bout d’une heure. Seules les armes de corps à corps peuvent avoir la capacité née de la fureur. Cette propriété est accessible aux [[orque (race)|orques]].
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#ENCHANTEMENT|Enchantement]] faible ; '''NLS''' 7 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[rage]]'' ; '''Prix''' bonus de +2.
-
-</div>
-
-{s:Reference|Rapidité}
-<div class="BD">
-{s:BDTitre|Rapidité|}
-{s:Desambi|Rapidité est également le nom d'un [[rapidité|sort]].}
-Une arme de rapidité permet à son possesseur d’attaquer une fois de plus par round, lorsqu’il effectue une action d’[[attaque à outrance]]. Cette attaque utilise le [[bonus de base à lattaque|bonus de base à l’attaque]] le plus élevé du possesseur de l’arme et les modificateurs habituels s’appliquent. Les effets de cette propriété spéciale ne se cumulent pas avec des effets similaires, comme le sort ''[[rapidité]]''.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#TRANSMUTATION|Transmutation]] modérée ; '''NLS''' 7 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[rapidité]]'' ; '''Prix''' bonus de +3.
-
-</div>
-
-{s:Reference|RUPTURE}
-<div class="BD">
-{s:BDTitre|Rupture|{s:APG}}
-Sur commande, une arme de rupture inflige 2d6 dégâts supplémentaires aux objets inanimés et créatures cristallines à chaque coup et ignore la [[solidité]] des objets qu'il frappe avec une solidité de 5 ou moins. Les dommages supplémentaires ne se cumulent pas avec ceux d'une arme Tueuse pour les créatures cristallines.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#EVOCATION|Evocation]] faible ; '''NLS''' 5 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[cassé]]'' ou ''[[fracassement]]'' ; '''Prix''' bonus de +1
-
-</div>
-
-{s:Reference|RUSEE}
-<div class="BD">
-{s:BDTitre|Rusée|{s:APG}}
-Cette propriété spéciale permet à l’arme de trouver le point faible des défenses de son ennemi en puisant dans les connaissances que son propriétaire possède sur lui. Quand l’arme menace de faire un [[coup critique]], son porteur reçoit un bonus de +2 au jet de confirmation s’il dispose de 5 rangs ou plus dans les [[Connaissances]] liées au type de la cible (comme [[Connaissances]] <nowiki>[</nowiki>plans<nowiki>]</nowiki> pour affronter un [[type extérieur|extérieur]]).
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#DIVINATION|Divination]] modérée ; '''NLS''' 6 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[coup au but]]'' ; '''Prix''' bonus de +1
-
-</div>
-
-{s:Reference|Sainte}
-<div class="BD">
-{s:BDTitre|Sainte|}
-Une arme sainte est alimentée directement par l’énergie Bonne. Cela en fait une arme du Bien, à même d’ignorer la réduction des dégâts correspondante. Elle inflige 2d6 points de dégâts supplémentaires aux créatures d’alignement Mauvais. Toute créature Mauvaise se servant de cette arme acquiert instantanément un [[niveau négatif]] qui persiste tant qu’elle la porte, et qui disparaît dès qu’elle s’en sépare. Ce [[niveau négatif]] ne peut être dissipé par aucun moyen (pas même un sort de ''[[restauration]]'').
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#EVOCATION|Évocation]] (Bien) modérée ; '''NLS''' 7 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[châtiment sacré]]'', alignement Bon ; '''Prix''' bonus de +2.
-
-</div>
-
-{s:Reference|Sanglante}
-<div class="BD">
-{s:BDTitre|Sanglante|}
-Arme de mélée uniquement. Une arme sanglante inflige 1 point de dégâts de saignement lorsqu'elle touche une créature. Si la victime reçoit plusieurs coups d’une arme sanglante, les dégâts de saignement augmentent. Ces dégâts de saignement prennent effet au début du tour suivant de la victime. On peut arrêter le saignement en réussissant un test de [[Premiers secours]] ([[DD]] 15) ou en lançant sur le blessé un sort de soins. Un [[coup critique]] ne multiplie pas les dégâts de saignement. Les créatures immunisées contre les [[coup critique|coups critiques]] sont immunisées aux effets  dégâts de saignement de cette propriété spéciale.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#EVOCATION|Évocation]] modérée ; '''NLS''' 10 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[saignement]]'' ; '''Prix''' bonus de +2.
-
-</div>
-
-{s:Reference|Spectrale}
-<div class="BD">
-{s:BDTitre|Spectrale|}
-{s:Desambi|Spectral est également le nom d'une [[Armures magiques#Spectral|propriété d'armures magiques]].}
-Une arme spectrale permet de frapper les créatures [[intangible|intangibles]] comme si celles-ci étaient tangibles. La [[réduction des dégâts]] de 50 % qu’ont les créatures [[intangible|intangibles]] face aux armes tangibles n’est pas appliquée face à une arme spectrale. Celle-ci peut également être utilisée normalement par une créature [[intangible|intangible]]. Un [[Fantôme, archétype|fantôme]] utilisant son pouvoir de manifestation peut s’en servir contre des adversaires tangibles. Globalement, une arme spectrale est à tout moment considérée comme étant à la fois tangible et [[intangible]].
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#INVOCATION|Invocation]] modérée ; '''NLS''' 9 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[changement de plan]]'' ; '''Prix''' bonus de +1.
-
-</div>
-
-{s:Reference|Stockagedesort}
-<div class="BD">
-{s:BDTitre|Stockage de sort|}
-Un utilisateur de magie peut placer dans une arme de stockage de sort un unique sort du 3e niveau ou moins dont la cible est une créature unique et dont le temps d’incantation est de 1 [[action simple]]. Chaque fois que l’arme frappe une créature et lui inflige des dégâts, le personnage peut ordonner à l’arme (par une [[action libre]]) de lancer immédiatement le sort qu’il y a stocké (cette propriété est une exception à la règle stipulant que lancer un sort par le biais d’un objet prend au moins autant de temps que le jeter soi-même). Une fois le sort lancé, l’arme est vide et doit être rechargée par un lanceur de sorts. L’arme indique par magie à son porteur l’identité du sort qu’elle stocke. Si l’arme est déterminée de façon aléatoire, elle a 50 % de chances de posséder un sort en réserve quand elle est trouvée.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#EVOCATION|Évocation]] puissante (plus l’aura du sort stocké) ; '''NLS''' 12 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], niveau 12 de lanceur de sorts ; '''Prix''' bonus de +1.
-
-</div>
-
-{s:Reference|Tonnerre}
-<div class="BD">
-{s:BDTitre|Tonnerre|}
-Une arme de tonnerre génère une déflagration sonore lors de chacun de ses [[coup critique|coups critiques]]. La déflagration ne blesse pas le porteur. La cible subit des dégâts de son supplémentaires de 1d8 lors d’un [[coup critique]] ; si le multiplicateur de critique est de x3, l’arme inflige 2d8 points de dégâts supplémentaires et s’il est de x4, de 3d8 points de dégâts supplémentaires. De plus, les victimes d’un [[coup critique]] porté à l’aide d’une arme de tonnerre doivent réussir un jet de [[Vigueur]] ([[DD]] 14) pour éviter de devenir définitivement [[assourdi|sourds]].
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#NECROMANCIE|Nécromancie]] faible ; '''NLS''' 5 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[cécitésurdité|cécité/surdité]]'' ; '''Prix''' bonus de +1.
-
-</div>
-
-{s:Reference|Traqueuse}
-<div class="BD">
-{s:BDTitre|Traqueuse|}
-Seules des armes à distance peuvent profiter de cette propriété. Une arme traqueuse se dirige sans faillir vers sa cible, et annule ainsi les chances de d’échec qui pourraient s’appliquer, comme celles dues au [[camouflage]]. L’arme doit malgré tout être dirigée vers une case donnée. Des flèches tirées au hasard dans un espace vide ne vont pas se diriger vers des ennemis invisibles, même si ceux-ci s’avèrent être à portée.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#DIVINATION|Divination]] puissante ; '''NLS''' 12 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[vision lucide]]'' ; '''Prix''' bonus de +1.
-
-</div>
-
-{s:Reference|TROMPEUSE}
-<div class="BD">
-{s:BDTitre|Trompeuse|{s:RSE}}
-Une arme trompeuse devient floue et se tord de manière imprévisible. Quand le personnage manie cette arme, il gagne un bonus, égal au bonus d’altération de l’arme, à ses tests de Bluff pour feinter. De plus, quand il confirme un coup critique avec une arme trompeuse, il peut faire une feinte contre son adversaire par une action immédiate.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#ILLUSION|Illusion]] modérée ; '''NLS''' 9 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[lame éblouissante]]'' ; '''Prix''' bonus de +1.
-
-</div>
-
-{s:Reference|Tueuse}
-<div class="BD">
-{s:BDTitre|Tueuse|}
-Une arme tueuse est particulièrement efficace contre un type ou un sous-type de créature donné. Contre ses adversaires désignés, son bonus d’altération augmente de +2. De plus, lors d’une attaque réussie, l’arme inflige 2d6 points de dégâts supplémentaires contre ses adversaires désignés. Pour déterminer aléatoirement le type de créatures affecté d’une arme tueuse, jetez 1d100 et consultez la table suivante.
-
-<center>
-{| CLASS="tablo"
-|- CLASS="titre"
-| 1d100 || Adversaires désignés
 |- CLASS="premier"
-| 01–05 || [[Liste de monstres par type#ABERRATION|Aberrations]]
-|- CLASS="alt"
-| 06–09 || [[type animal|Animaux]]
-|- 
-| 10–16 || [[Liste de monstres par type#CREATUREARTIFICIELLE|Créatures artificielles]]
-|- CLASS="alt"
-| 17-22 || [[Liste de monstres par type#DRAGON|Dragons]]
-|- 
-| 23-27 || [[Liste de monstres par type#FEE|Fées]]
-|- CLASS="alt"
-| 28–60 || [[Liste de monstres par type#HUMANOIDE|Humanoïdes]] (choisir un sous-type)
-|- 
-| 61-65 || [[Liste de monstres par type#CREATUREMAGIQUE|Créatures magiques]]
-|- CLASS="alt"
-| 66-70 || [[Liste de monstres par type#HUMNOIDEMONSTRUEUX|Humanoïdes monstrueux]]
-|- 
-| 71-72 || [[Liste de monstres par type#VASE|Vases]]
-|- CLASS="alt"
-| 73-88 || [[Liste de monstres par type#EXTERIEUR|Extérieurs]] (choisir un sous-type)
-|- 
-| 89-90 || [[Liste de monstres par type#PLANTE|Plantes]]
-|- CLASS="alt"
-| 91-98 || [[Liste de monstres par type#MORTVIVANT|Morts-vivants]]
-|- 
-| 99-100 || [[Liste de monstres par type#VERMINE|Vermine]]
-|}
-</center>
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#INVOCATION|Invocation]] modérée ; '''NLS''' 8 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[convocation de monstres I]]'' ; '''Prix''' bonus de +1.
+| ''[[boomerang (propriété)|Boomerang]]'' || <sup>A&E</sup> || Armes de jet || Tant que le porteur peut faire une [[action libre]] et qu’il ne se déplace pas, il récupère l’arme au début de son prochain tour chaque fois qu’il la lance. || bonus de +1
 
-</div>
-
-{s:Reference|Vicieuse}
-
-<div class="BD">
-{s:BDTitre|Vicieuse|}
-Lorsqu’une arme vicieuse frappe une créature, elle génère entre son porteur et sa cible une aura d’énergie destructive, qui inflige 1d6 points de dégâts au porteur et 2d6 points de dégâts à la cible de celui-ci. Cette propriété ne peut être placée que sur une arme de corps à corps.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#NECROMANCIE|Nécromancie]] modérée ; '''NLS''' 9 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[énergie négative]]'' ; '''Prix''' bonus de +1.
-
-</div>
-
-{s:Reference|Vorpale}
-<div class="BD">
-{s:BDTitre|Vorpale|}
-Cette propriété puissante et crainte permet de décapiter les créatures frappées. En cas de 20 naturel sur le jet d’attaque, suivi d’une confirmation de [[coup critique]] réussie, la tête de la cible (si celle-ci en possède une) est automatiquement séparée de son corps. Certaines créatures n’ont pas de tête (c’est le cas de nombreuses [[type aberration|aberrations]] et de toutes les [[type vase|vases]]). D’autres créatures, telles que les golems et les [[type mort-vivant|morts-vivants]] ([[vampire|vampires]] exceptés), ne sont pas affectées par la perte de leur tête. À ces quelques exceptions près, les créatures dont la tête est tranchée meurent aussitôt. Seules des armes tranchantes peuvent être vorpales. Si vous tirez aléatoirement cette capacité sur une arme qui ne peut en profiter, relancez les dés.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#NECROMANCIE|Nécromancie]] et [[Présentation des sorts#TRANSMUTATION|Transmutation]] puissantes ; '''NLS''' 18 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[affûtage]]'', ''[[cercle de mort]]'' ; '''Prix''' bonus de +5.
-
-</div>
-</td></tr></table>
-
-
-
-
-
-
-===Armes spécifiques===
-{s:Reference|DTMARMESPECIFIQUE}
-
-<center>
-{| CLASS="tablo col1centre"
-|+ Armes spécifiques
-|- CLASS="titre"
-| Faible || Intermédiaire || Puissante || Arme spéciale || Prix de vente
 |- CLASS="premier"
-| 01–15 || — || — || ''[[Flèche endormante]]'' || 132 po
-|- CLASS="alt"
-| 16–25 || — || — || ''[[Carreau hurleur]]'' || 267 po
-|-
-| 26–45 || — || — || ''[[Dague de maître en argent]]'' || 322 po
-|- CLASS="alt"
-| 46–65 || — || — || ''[[Épée longue de maître en fer froid]]'' || 330 po
-|-
-| 66–75 || 01–09 || — || ''[[Javeline de foudre]]'' || 1 500 po
-|- CLASS="alt"
-| 76–80 || 10–15 || — || ''[[Flèche mortelle]]'' || 2 282 po
-|-
-| 81–90 || 16–24 || — || ''[[Dague en adamantium]]'' || 3 002 po
-|- CLASS="alt"
-| 91–100 || 25–33 || — || ''[[Hache darmes en adamantium|Hache d’armes en adamantium]]'' || 3 010 po
-|-
-| — || 34–37 || — || ''[[flèche mortelle|Flèche mortelle supérieure]]'' || 4 057 po
-|- CLASS="alt"
-| — || 38–40 || — || ''[[Brise-arme]]'' || 4 315 po
-|-
-| — || 41–46 || — || ''[[Dague venimeuse]]'' || 8 302 po
-|- CLASS="alt"
-| — || 47–51 || — || ''[[Trident dalerte|Trident d’alerte]]'' || 10 115 po
-|-
-| — || 52–57 || 01–04 || ''[[Dague de lassassin|Dague de l’assassin]]'' || 10 302 po
-|- CLASS="alt"
-| — || 58–62 || 05–07 || ''[[Regret du changeant]]'' || 12 780 po
-|-
-| — || 63–66 || 08–09 || ''[[Trident de domination aquatique]]'' || 18 650 po
-|- CLASS="alt"
-| — || 67–74 || 10–13 || ''[[Épée ardente]]'' || 20 715 po
-|-
-| — || 75–79 || 14–17 || ''[[Épée de bonne fortune|Épée de bonne fortune (0 souhait)]]'' || 22 060 po
-|- CLASS="alt"
-| — || 80–86 || 18–24 || ''[[Épée de précision]]'' || 22 310 po
-|-
-| — || 87–91 || 25–31 || ''[[Épée des plans]]'' || 22 315 po
-|- CLASS="alt"
-| — || 92–95 || 32–37 || ''[[Épée des neuf vies]]'' || 23 057 po
-|-
-| — || 96–98 || 38–42 || ''[[Arc du long serment]]'' || 25 600 po
-|- CLASS="alt"
-| — || 99–100 || 43–46 || ''[[Épée voleuse de vie]]'' || 25 715 po
-|-
-| — || — || 47–51 || ''[[Masse dépouvante|Masse d’épouvante]]'' || 38 552 po
-|- CLASS="alt"
-| — || — || 52–57 || ''[[Hache dévitalisante]]'' || 40 320 po
-|-
-| — || — || 58–62 || ''[[Cimeterre des bois]]'' || 47 315 po
-|- CLASS="alt"
-| — || — || 63–67 || ''[[Rapière danémie|Rapière d’anémie]]'' || 50 320 po
-|-
-| — || — || 68–73 || ''[[Épée radieuse]]'' || 50 335 po
-|- CLASS="alt"
-| — || — || 74–79 || ''[[Épée de givre]]'' || 54 475 po
-|-
-| — || — || 80–84 || ''[[Marteau de lancer nain]]'' || 60 312 po
-|- CLASS="alt"
-| — || — || 85–91 || ''[[Épée de bonne fortune|Épée de bonne fortune (1 souhait)]]'' || 62 360 po
-|-
-| — || — || 92–95 || ''[[Masse de démolition]]'' || 75 312 po
-|- CLASS="alt"
-| — || — || 96–97 || ''[[Épée de bonne fortune|Épée de bonne fortune (2 souhaits)]]'' || 102 660 po
-|-
-| — || — || 98–99 || ''[[Épée de justice]]'' || 120 630 po
-|- CLASS="alt"
-| — || — || 100 || ''[[Épée de bonne fortune|Épée de bonne fortune (3 souhaits)]]'' || 142 960 po
+| ''[[chanceuse (propriété)|Chanceuse]]'' || <sup>A&E</sup> || Armes à feu || Contient une réserve de [[pistolier#AUDACE|audace]] de 1 point par jour utilisable normalement. Un porteur ne possédant pas la capacité [[pistolier#AUDACE|audace]] peut dépenser ce point pour relancer un [[jet dattaque|jet d’attaque]] soldé par un long feu. || bonus de +1
+
+|- CLASS="premier"
+| ''[[chante-sang (propriété)|Chante-sang]]'' || <sup>MCA</sup> || Corps-à-corps tranchantes ou perforantes || Tant que son porteur est sous l’effet d’un [[scalde#CHANTDERAGE|chant de rage]], confère la propriété ''[[Descriptions individuelles des propriétés spéciales des armes#Acérée|acérée]]'' à l’arme, et octroie des points de vie temporaire au porteur sur un critique confirmé. || bonus de +1
+
+|- CLASS="premier"
+| ''[[chasseresse (propriété)|Chasseresse]]'' || <sup>A&E</sup> || — || Confère un bonus égal au bonus d’altération de l’arme aux tests de [[Survie]] du porteur pour traquer les créatures qu’il a blessé dans la journée précédente. L’arme inflige 1d6 points de dégâts supplémentaires aux créatures traquées cette même journée. || bonus de +1
+
+|- CLASS="premier"
+| ''[[cherche-cœur (propriété)|Cherche-cœur]]'' || <sup>A&E</sup> || Corps-à-corps || Ignore les chances d’échecs dues au camouflage contre la plupart des créatures vivantes. || bonus de +1
+
+|- CLASS="premier"
+| ''[[conductrice (propriété)|Conductrice]]'' || <sup>A&E</sup> || — || Permet de dépenser 2 utilisations de pouvoirs nécessitants un [[jet dattaque|jet d’attaque]] (pouvoirs de [[prêtre#DOMAINE|domaine]], de [[ensorceleur#LIGNAGE|lignage]], d’[[magicien#ECOLEDEMAGIE|école]], ou [[oracle#REVELATIONS|révélations]]) pour appliquer leurs effets au touché. || bonus de +1
+
+|- CLASS="premier"
+| ''[[contre-attaque (propriété)|Contre-attaque]]'' || <sup>A&E</sup> || Corps-à-corps || Confère un bonus de +2 au [[DMD]] contre les manœuvres de [[manœuvres offensives#DESARMEMENT|désarmement]] et de [[manœuvres offensives#DESTRUCTION|destruction]]. Si de telles manœuvres échouent, le porteur peut l’effectuer sur son assaillant (même s’il n’est pas à portée, et sans risquer de lâcher son arme). || bonus de +1
+
+|- CLASS="premier"
+| ''[[corrosive (propriété)|Corrosive]]''* || <sup>A&E</sup> || — || L’arme peut infliger 1d6 points de dégâts d’acide supplémentaire au touché. || bonus de +1
+
+|- CLASS="premier"
+| ''[[courageuse (propriété)|Courageuse]]'' || <sup>A&E</sup> || Corps-à-corps || Confère un bonus de moral égal au bonus d’altération de l’arme aux [[valeurs de combat#JETDESAUVEGARDE|jets de sauvegarde]] du porteur contre la terreur. Les autres bonus de moral dont bénéficie le porteur augmentent de la moitié du bonus d’altération de l’arme. || bonus de +1
+
+|- CLASS="premier"
+| ''[[cruelle (propriété)|Cruelle]]'' || <sup>A&E</sup> || — || Les cibles [[secoué|secouées]], [[effrayé|effrayées]] et [[paniqué|paniquées]] sont [[fiévreux|fiévreuses]] pendant 1 [[round]] au touché. Tuer ou rendre [[inconscient|inconsciente]] une créature avec l’arme confère 5 points de vie temporaires au porteur. || bonus de +1
+
+|- CLASS="premier"
+| ''[[déconcertante (propriété)|Déconcertante]]'' || <sup>MCA</sup> || — || Permet de dépenser 1 point de [[bretteur#PANACHE|panache]] sur un critique confirmé pour tenter une manœuvre de [[manœuvres offensives#DESARMEMENT|désarmement]], de [[manœuvres offensives#REPOSITIONNEMENT|repositionnement]], de [[manœuvres offensives#DESTRUCTION|destruction]] ou de [[manœuvres offensives#CROCENJAMBE|croc-en-jambe]] avec un bonus égal au bonus d’altération de l’arme. || bonus de +1
+
+|- CLASS="premier"
+| ''[[dégivrante (propriété)|Dégivrante]]'' || <sup>A&E</sup> || Corps-à-corps || L’arme dégèle les objets au contact. Inflige 1d6 points de dégâts supplémentaires aux créatures de sous-type froid. Confère un bonus de +2 aux [[valeurs de combat#JETDESAUVEGARDE|jets de sauvegarde]] du porteur contre les effets de froid. Immunise l’arme contre les dégâts de froid. || bonus de +1
+
+|- CLASS="premier"
+| ''[[dissipation (propriété)|Dissipation]]'' || <sup>A&E</sup> || Corps-à-corps || Fonctionne comme une arme de ''[[Descriptions individuelles des propriétés spéciales des armes#Stockage de sort|stockage de sort]]'' qui peut uniquement stocker une ''[[dissipation de la magie]]''. Confère un bonus égal au bonus d’altération de l’arme aux tests de dissipation, aux [[arcanes#FRAPPEDEDISSIPATION|frappes de dissipation]] et aux [[pouvoirs de rage#DESTRUCTIONDESORT|destructions de sort]] et [[pouvoirs de rage#DESTRUCTIONDENCHANTEMENT|d’enchantement]]. || bonus de +1
+
+|- CLASS="premier"
+| ''[[diversion (propriété)|Diversion]]'' || <sup>MdJ-CA</sup> || — || Le [[DD]] des tests de concentration des cibles est augmenté de 5 pendant 1 minute au touché (1 fois/créature/jour). || bonus de +1
+
+|- CLASS="premier"
+| ''[[enchaînement (propriété)|Enchaînement]]'' || <sup>A&E</sup> || Corps-à-corps || Un porteur avec le don [[Enchaînement]] peut effectuer une attaque enchaînée supplémentaire. || bonus de +1
+
+|- CLASS="premier"
+| ''[[extinction (propriété)|Extinction]]'' || <sup>A&E</sup> || Corps-à-corps || L’arme éteint les objets au contact. Inflige 1d6 points de dégâts supplémentaires aux créatures de sous-type feu. Confère un bonus de +2 aux [[valeurs de combat#JETDESAUVEGARDE|jets de sauvegarde]] du porteur contre les effets de feu. Immunise l’arme contre les dégâts de feu. || bonus de +1
+
+|- CLASS="premier"
+| ''[[feu (propriété)|Feu]]''* || <sup>A&E</sup> || — || Peut infliger 1d6 points de dégâts de feu supplémentaire au touché. || bonus de +1
+
+|- CLASS="premier"
+| ''[[fiable (propriété)|Fiable]]'' || <sup>A&E</sup> || Armes à feu || Réduit la valeur de long feu de l’arme de 1 après tout calcul censé l’augmenter. || bonus de +1
+
+|- CLASS="premier"
+| ''[[flamboyante (propriété)|Flamboyante]]'' || <sup>MCA</sup> || Corps-à-corps perforantes légères ou à une main || Contient une réserve de [[bretteur#PANACHE|panache]] de 1 point par jour utilisable normalement. Un porteur ne possédant pas la capacité [[bretteur#PANACHE|panache]] peut dépenser ce point pour relancer un [[jet dattaque|jet d’attaque]] raté. || bonus de +1
+
+|- CLASS="premier"
+| ''[[flammegrise (propriété)|Flammegrise]]'' || <sup>A&E</sup> || Corps-à-corps || Lorsque le porteur utilise le don [[Châtiment canalisé]], le bonus d’altération de l’arme augmente de +1 et elle peut infliger 1d6 points de dégâts supplémentaires aux créatures touchées. || bonus de +1
+
+|- CLASS="premier"
+| ''[[focalisation ki (propriété)|Focalisation ki]]'' || <sup>A&E</sup> || Corps-à-corps || Le porteur peut utiliser ses attaques de [[moine#RESERVEDEKI|ki]] à travers l’arme (cela implique la [[moine#RESERVEDEKI|frappe ki]], la [[moine#PAUMEVIBRATOIRE|paume vibratoire]], le don [[Coup étourdissant]] et ses dérivés). || bonus de +1
+
+|- CLASS="premier"
+| ''[[fortuite (propriété)|Fortuite]]'' || <sup>MCA</sup> || Corps-à-corps || Lorsqu’il réussit une [[valeurs de combat#ATTAQUEDOPPORTUNITE|attaque d’opportunité]], le porteur peut en effectuer une seconde avec un malus de -5 au [[jet dattaque|jet d’attaque]]. || bonus de +1
+
+|- CLASS="premier"
+| ''[[foudre (propriété)|Foudre]]''* || <sup>A&E</sup> || — || Peut infliger 1d6 points de dégâts d’électricité supplémentaire au touché. || bonus de +1
+
+|- CLASS="premier"
+| ''[[froid (propriété)|Froid]]''* || <sup>A&E</sup> || — || Peut infliger 1d6 points de dégâts de froid supplémentaire au touché. || bonus de +1
+
+|- CLASS="premier"
+| ''[[furieuse (propriété)|Furieuse]]'' || <sup>A&E</sup> || Corps-à-corps || Lorsque le porteur est [[barbare#RAGE|enragé]] ou sous l’effet d’un sort de ''[[rage]]'', le bonus d’altération de l’arme augmente de +2. Les pouvoirs de rage possédés par le porteur qui offrent des bonus aux compétences confèrent un bonus égal au bonus d’altération de l’arme à ces dernières même hors rage. || bonus de +1
+
+|- CLASS="premier"
+| ''[[gardienne (propriété)|Gardienne]]'' || <sup>A&E</sup> || Corps-à-corps || Le porteur peut librement distribuer le bonus d’altération de l’arme entre sa CA et les jets de l’arme. || bonus de +1
+
+|- CLASS="premier"
+| ''[[inspirée (propriété)|Inspirée]]'' || <sup>MCA</sup> ||  Armes d’[[enquêteur]] || Confère les effets du talent [[talents (enquêteur)#INSPIRATIONMARTIALE|inspiration martiale]] à un [[enquêteur]] mais uniquement avec cette arme (s’il possède déjà ce talent, le porteur ajoute 2 fois le résultat du dé d’[[enquêteur#INSPIRATION|inspiration]] aux dégâts). || bonus de +1
+
+|- CLASS="premier"
+| ''[[intimidante (propriété)|Intimidante]]'' || <sup>A&E</sup> || Corps-à-corps || Confère un bonus égal au bonus d’altération de l’arme aux tests d’[[Intimidation]] du porteur. Peut [[secoué|secouer]] la cible pendant 1 minute (+1 par multiplicateur critique au-delà de x2) sur un coup critique confirmé. || bonus de +1
+
+|- CLASS="premier"
+| ''[[juge (propriété)|Juge]]'' || <sup>A&E</sup> || — || Confère un bonus aux tests de [[Perception]] et au [[DMD]] cumulatif pour chaque [[round]] où le porteur a un [[inquisiteur#JUGEMENT|jugement]] actif (maximum +3). || bonus de +1
+
+|- CLASS="premier"
+| ''[[lancer (propriété)|Lancer]]'' || <sup>A&E</sup> || Corps-à-corps || Confère un facteur de portée de 3m (2c) à l’arme. || bonus de +1
+
+|- CLASS="premier"
+| ''[[longue portée (propriété)|Longue portée]]'' || <sup>A&E</sup> || Distance || Double le facteur de portée de l’arme. || bonus de +1
+
+|- CLASS="premier"
+| ''[[menaçante (propriété)|Menaçante]]'' || <sup>A&E</sup> || Corps-à-corps || Augmente le bonus de prise en tenaille des alliés adjacents au porteur de +2. || bonus de +1
+
+|- CLASS="premier"
+| ''[[mimétique (propriété)|Mimétique]]'' || <sup>A&E</sup> || Corps-à-corps || Confère une résistance de 10 contre un type d’énergie auquel les cibles sont résistantes ou immunisées pendant 1 [[round]] au touché (maximum 30). || bonus de +1
+
+|- CLASS="premier"
+| ''[[miséricordieuse (propriété)|Miséricordieuse]]''* || <sup>A&E</sup> || — || L’arme peut infliger 1d6 points de dégâts supplémentaires et rendre tous ses dégâts non-létaux. || bonus de +1
+
+|- CLASS="premier"
+| ''[[mortelle (propriété)|Mortelle]]'' || <sup>A&E</sup> || Non-létales || L’arme peut infliger des dégâts létaux. || bonus de +1
+
+|- CLASS="premier"
+| ''[[neutralisante (propriété)|Neutralisante]]'' || <sup>A&E</sup> || Corps-à-corps || L’arme désintoxique l’eau au contact. Inflige 1d6 points de dégâts supplémentaires aux créatures de sous-type terre. Confère un bonus de +2 aux [[valeurs de combat#JETDESAUVEGARDE|jets de sauvegarde]] du porteur contre les effets d’acide ou de terre. Immunise l’arme contre les dégâts d’acide. || bonus de +1
+
+|- CLASS="premier"
+| ''[[planaire (propriété)|Planaire]]'' || <sup>A&E</sup> || — || L’arme ignore 5 points de [[RD]] des créatures de type Extérieur. || bonus de +1
+
+|- CLASS="premier"
+| ''[[préservation (propriété)|Préservation]]'' || <sup>A&E</sup> || Armes à projectiles (sauf armes à feu) || Lorsque le porteur rate une attaque avec l’arme, la munition tirée revient dans son contenant d’origine (sauf si elle est brisée en vol). || bonus de +1
+
+|- CLASS="premier"
+| ''[[protection contre lélectricité (propriété)|Protection contre l’électricité]]'' || <sup>A&E</sup> || Corps-à-corps || L’arme peut toucher des surfaces chargées sans danger. Inflige 1d6 points de dégâts supplémentaires aux créatures de sous-type air. Confère un bonus de +2 aux [[jds|jets de sauvegarde]] du porteur contre les effets d’air et d’électricité. Immunise l’arme contre les dégâts d’électricité. || bonus de +1
+
+|- CLASS="premier"
+| ''[[protectrice (propriété)|Protectrice]]'' || <sup>A&E</sup> || Corps-à-corps || Le porteur peut librement distribuer le bonus d’altération de l’arme entre ses [[valeurs de combat#JETDESAUVEGARDE|jets de sauvegarde]] et les jets de l’arme. || bonus de +1
+
+|- CLASS="premier"
+| ''[[querelleuse (propriété)|Querelleuse]]'' || <sup>MCA</sup> || Contondantes légères, coups-de-poing, cestes, matraques || Confère un bonus égal au bonus d’altération de l’arme aux tests de [[manœuvres offensives]]. || bonus de +1
+
+|- CLASS="premier"
+| ''[[rappel (propriété)|Rappel]]'' || <sup>A&E</sup> || — || Après 24 heures de port, le porteur peut téléporter l’arme dans ses mains par une [[action rapide]] tant qu’elle est à 30m ou moins de lui. || bonus de +1
+
+|- CLASS="premier"
+| ''[[révélatrice (propriété)|Révélatrice]]'' || <sup>A&E</sup> || — || Confère les effets du sort ''[[lueur féerique]]'' au porteur pendant 1 [[round]] après avoir touché une créature bénéficiant d’un camouflage magique. || bonus de +1
+
+|- CLASS="premier"
+| ''[[riposte (propriété)|Riposte]]'' || <sup>MCA</sup> || — || Le bonus d’altération est augmenté de 4 (maximum +5) quand le porteur de l’arme utilise l’exploit [[exploits#PARADEETRIPOSTEOPPORTUNE|parade et riposte opportune]]. || bonus de +1
+
+|- CLASS="premier"
+| ''[[rusée (propriété)|Rusée]]'' || <sup>A&E</sup> || — || Confère un bonus de +2 aux jets de confirmation critique si le porteur a au moins 5 rangs dans la compétence [[Connaissances]] correspondante à sa cible. || bonus de +1
+
+|- CLASS="premier"
+| ''[[sacrée (propriété)|Sacrée]]'' || <sup>MCA</sup> || — || Fait office de symbole sacré pour les lanceurs de sorts divins. Un [[prêtre combattant]] peut dépenser une utilisation de [[prêtre combattant#BENEDICTION|bénédiction]] pour en conférer les effets à un allié qu’il affecte avec une [[prêtre combattant#CANALISATIONDENERGIE|canalisation d’énergie]] positive. || bonus de +1
+
+|- CLASS="premier"
+| ''[[soutien (propriété)|Soutien]]'' || <sup>A&E</sup> || Corps-à-corps || Ajoute le bonus d’altération de l’arme au bonus conféré par l’action [[actions spéciales#AIDERQQN|aider quelqu’un]] lorsqu’elle est utilisée pour un [[jet dattaque|jet d’attaque]]. || bonus de +1
+
+|- CLASS="premier"
+| ''[[spectrale (propriété)|Spectrale]]'' || <sup>A&E</sup> || Corps-à-corps, munitions || L’arme est considérée comme tangible et intangible à tout moment. || bonus de +1
+
+|- CLASS="premier"
+| ''[[stockage de sort (propriété)|Stockage de sort]]'' || <sup>A&E</sup> || Corps-à-corps || L’arme peut stocker un sort du 3e niveau ou moins que le porteur peut livrer au touché. || bonus de +1
+
+|- CLASS="premier"
+| ''[[tonnerre (propriété)|Tonnerre]]''* || <sup>A&E</sup> || — || Les coups critiques confirmés infligent 1d8 points de dégâts de son supplémentaires (+1d8 par multiplicateur critique au-delà de x2) et peuvent rendre leurs victimes [[assourdi|sourdes]]. || bonus de +1
+
+|- CLASS="premier"
+| ''[[transperçante (propriété)|Transperçante]]'' || <sup>MCA</sup> || Corps-à-corps perforantes légères ou à une main || Le porteur peut dépenser 1 point de [[bretteur#PANACHE|panache]] pour confirmer automatiquement un critique potentiel. || bonus de +1
+
+|- CLASS="premier"
+| ''[[traque-esprits (propriété)|Traque-esprits]]'' || <sup>MCA</sup> || — || Inflige 2d6 points de dégâts supplémentaires aux cibles avec la capacité [[chaman#ESPRIT|esprit]] ou [[oracle#MYSTERE|mystère]] (+1d6 par propriété ''[[Descriptions individuelles des propriétés spéciales des armes#Tueuse|tueuse]]'' et ''[[Descriptions individuelles des propriétés spéciales des armes#Traque-sang|traque-sang]]'' présente sur l’arme). Le bonus d’altération de l’arme augmente de 2 contre les cibles qui ont un lien avec un [[esprits (chaman)|esprit]] choisi à la fabrication. || bonus de +1
+
+|- CLASS="premier"
+| ''[[traque-sang (propriété)|Traque-sang]]'' || <sup>MCA</sup> || — || Inflige 2d6 points de dégâts supplémentaires aux cibles avec la capacité [[ensorceleur#LIGNAGE|lignage]] (+1d6 par propriété ''[[Descriptions individuelles des propriétés spéciales des armes#Tueuse|tueuse]]'' et ''[[Descriptions individuelles des propriétés spéciales des armes#Traque-esprits|traque-esprits]]'' présente sur l’arme). Le bonus d’altération de l’arme augmente de 2 contre les cibles qui ont un lien avec un [[lignages|lignage]] choisi à la fabrication. || bonus de +1
+
+|- CLASS="premier"
+| ''[[traqueuse (propriété)|Traqueuse]]'' || <sup>A&E</sup> || Distance || Les attaques effectuées avec l’arme ignorent les chances d’échec (comme le camouflage, hormis l’invisibilité). || bonus de +1
+
+|- CLASS="premier"
+| ''[[trompeuse (propriété)|Trompeuse]]'' || <sup>RSE</sup> || Distance || Confère un bonus égal au bonus d’altération de l’arme aux tests de [[Bluff]] pour [[Actions spéciales#FEINTE|feinter]] du porteur. Permet de tenter une [[Actions spéciales#FEINTE|feinter]] par une [[action immédiate]] sur un critique confirmé. || bonus de +1
+
+|- CLASS="premier"
+| ''[[tueuse (propriété)|Tueuse]]''* || <sup>A&E</sup> || — || L’arme inflige 2d6 points de dégâts supplémentaires et voit son bonus d’altération augmenter de 2 contre un type de créature choisi à la fabrication. || bonus de +1
+
+|- CLASS="premier"
+| ''[[vaillante (propriété)|Vaillante]]'' || <sup>A&E</sup> || Corps-à-corps || Lorsqu’un porteur [[chevalier]] [[chevalier#DEFI|défie]] une créature, il lui inflige 1d6 points de dégâts supplémentaire avec l’arme et elle confère lui un bonus de +2 aux tests de [[désarmement]] et de [[destruction]] effectuées contre cette créature, ainsi qu’un bonus de +4 au [[DMD]] contre ces mêmes manœuvres effectuées par cette dernière. || bonus de +1
+
+|- CLASS="premier"
+| ''[[vicieuse (propriété)|Vicieuse]]'' || <sup>A&E</sup> || Corps-à-corps || Inflige 1d6 points de dégâts au porteur et 2d6 points de dégâts à la cible au touché. || bonus de +1
+
+|- CLASS="premier"
+| ''[[voleuse de destin (propriété)|Voleuse de destin]]'' || <sup>MCA</sup> || Corps-à-corps || Peut voler 1 point de [[bretteur#PANACHE|panache]] ou d’[[pistolier#AUDACE|audace]] à la cible au touché, si le porteur possède une telle réserve (voler de l’audace peut rendre du panache et inversement). || bonus de +1
 |}
 </center>
 
 <center>
-{| CLASS="tablo col1centre"
-|+ Armes spécifiques (APG)
+{| CLASS="tablo autoalt toutgauche"
+|+ Propriétés ajoutant un bonus de +2
 |- CLASS="titre"
-| Faible || Intermédiaire || Puissante || Arme spéciale || Prix de vente
+| WIDTH="12%" | Propriété
+| WIDTH="3%" | Source
+| WIDTH="11%" | Restrictions
+| WIDTH="61%" | Capacités
+| WIDTH="13%" | Modificateur au prix de base
+
 |- CLASS="premier"
-| 01-35 || — || — || ''[[Billes de poussière]]'' || 196 po
-|- CLASS="alt"
-| 36–70 || — || — || ''[[carreau denchevêtrement|Carreau d'enchevêtrement]]'' || 226 po
-|-
-| 71-80 || 01-07 || — || ''[[Flèche brûlante]]'' || 1 516 po
-|- CLASS="alt"
-| 81–90 || 08-14 || — || ''[[Flèche grésillante]]'' || 1 516 po
-|-
-| 91-100 || 15-26 || — || ''[[Lance de joute]]'' || 4 310 po
-|- CLASS="alt"
-| — || 27-41 || — || ''[[Masse de roc]]'' || 6 812 po
-|-
-| — || 42-53 || — || ''[[Gourdin bestial]]'' || 7 300 po
-|- CLASS="alt"
-| — || 54-60 || 01-04 || ''[[Trident de stabilité]]'' || 9 815 po
-|-
-| — || 61-70 || 05-20 || ''[[Entrave (arme magique)|Entrave]]'' || 12 350 po
-|- CLASS="alt"
-| — || 71-79 || 21-37 || ''[[Brisebouclier]]'' || 18 310 po
-|-
-| — || 80-87 || 38-62 || ''[[Marteau de ricochet]]'' || 20 301 po
-|- CLASS="alt"
-| — || 88-95 || 63-82 || ''[[Comète]]'' || 21 324 po
-|-
-| — || 96-100 || 83-88 || ''[[Hache affaiblissante]]'' || 23 310 po
-|- CLASS="alt"
-| — || — || 89-94 || ''[[Lame spirituelle]]'' || 48 502 po
-|-
-| — || — || 95-100 || ''[[Lame gardienne]]'' || 65 310 po
+| ''[[anarchique (propriété)|Anarchique]]''* || <sup>A&E</sup> || — || L’arme est alignée au Chaos pour ignorer les [[RD]] correspondantes. Inflige 2d6 points de dégâts supplémentaires aux créatures d’alignement Loyal. Inflige un [[absorption dénergie (capacité)|niveau négatif]] aux porteurs d’alignement Loyal. || bonus de +2
+
+|- CLASS="premier"
+| ''[[ancrage dimensionnel (propriété)|Ancrage dimensionnel]]''* || <sup>A&E</sup> || — || Inflige les effets du sort ''[[ancre dimensionnelle]]'' pendant 1 [[round]] au touché. || bonus de +2
+
+|- CLASS="premier"
+| ''[[atténuante (propriété)|Atténuante]]'' || <sup>A&E</sup> || Corps-à-corps || Réduit de 5 points les RD/Chaos, Mal, Bien, Loi ou magie pendant 1 [[round]] au touché. || bonus de +2
+
+|- CLASS="premier"
+| ''[[axiomatique (propriété)|Axiomatique]]''* || <sup>A&E</sup> || — || L’arme est alignée à la Loi pour ignorer les [[RD]] correspondantes. Inflige 2d6 points de dégâts supplémentaires aux créatures d’alignement Chaotique. Inflige un [[absorption dénergie (capacité)|niveau négatif]] aux porteurs d’alignement Chaotique. || bonus de +2
+
+|- CLASS="premier"
+| ''[[destruction (propriété)|Destruction]]'' || <sup>A&E</sup> || Corps-à-corps contondantes || Peut détruire les morts-vivants au touché. || bonus de +2
+
+|- CLASS="premier"
+| ''[[dissipation intense (propriété)|Dissipation intense]]'' || <sup>A&E</sup> || Corps-à-corps || Fonctionne comme une arme de ''[[Descriptions individuelles des propriétés spéciales des armes#Dissipation|dissipation]]'' mais peut également stocker une ''[[dissipation suprême]]''. Le sort stocké peut être livré par une action libre sur un coup critique confirmé (dans ce cas, le bonus aux tests de dissipation est égal au multiplicateur critique de l’arme s’il est supérieur à son bonus d’altération). Si l’arme ne stocke aucun sort de dissipation mais que le porteur en a préparé un, il peut le livrer par une [[action rapide]]. || bonus de +2
+
+|- CLASS="premier"
+| ''[[diversion supérieure (propriété)|Diversion supérieure]]'' || <sup>A&E</sup> || — || Le [[DD]] des tests de concentration des cibles est augmenté de 10 pendant 1 minute au touché (1 fois/créature/jour). || bonus de +2
+
+|- CLASS="premier"
+| ''[[élan vital (propriété)|Élan vital]]'' || <sup>A&E</sup> || Corps-à-corps || Confère un bonus égal au bonus d’altération de l’arme aux [[valeurs de combat#JETDESAUVEGARDE|jets de sauvegarde]] contre les effets de [[nécromancie]] du porteur. Chaque fois que le porteur obtient des points de vie temporaire, ajoute le bonus d’altération de l’arme à leur nombre. La zone de critique de l’arme est doublée contre les morts-vivants. Inflige 1d8 points de dégâts d’énergie positive aux morts-vivants sur un critique confirmé (+1d8 par multiplicateur critique au-delà de x2), ou rend la moitié de ce montant en points de vie au porteur. || bonus de +2
+
+|- CLASS="premier"
+| ''[[enflammée (propriété)|Enflammée]]''* || <sup>A&E</sup> || — || Fonctionne comme une arme de ''[[feu (propriété)|feu]]''. [[Dangers naturels#PRENDREFEU|Enflamme]] la cible sur un coup critique confirmé (si la propriété ''[[feu (propriété)|feu]]'' est active). || bonus de +2
+
+|- CLASS="premier"
+| ''[[entêtée (propriété)|Entêtée]]'' || <sup>A&E</sup> || Corps-à-corps || Le bonus d’altération de l’arme augmente de 1 (maximum +5) chaque fois que le porteur touche la même cible. || bonus de +2
+
+|- CLASS="premier"
+| ''[[explosion corrosive (propriété)|Explosion corrosive]]''* || <sup>A&E</sup> || — || Fonctionne comme une arme ''[[Descriptions individuelles des propriétés spéciales des armes#Corrosive|corrosive]]''. Inflige 1d10 points de dégâts d’acide supplémentaire sur un coup critique confirmé (+1d10 par multiplicateur critique au-delà de x2). || bonus de +2
+
+|- CLASS="premier"
+| ''[[feu intense (propriété)|Feu intense]]''* || <sup>A&E</sup> || — || Fonctionne comme une arme de ''[[feu (propriété)|feu]]''. Inflige 1d10 points de dégâts de feu supplémentaire sur un coup critique confirmé (+1d10 par multiplicateur critique au-delà de x2). || bonus de +2
+
+|- CLASS="premier"
+| ''[[filature (propriété)|Filature]]'' || <sup>A&E</sup> || — || Par une [[action simple]], peut observer une créature à 18m ou moins. Lors de la première attaque effectuée contre la créature observée, inflige 1d6 points de dégâts de précision supplémentaires par [[round]] d’observation consécutifs (nombre de dé maximum égal au bonus d’altération de l’arme). || bonus de +2
+
+|- CLASS="premier"
+| ''[[foudre intense (propriété)|Foudre intense]]''* || <sup>A&E</sup> || — || Fonctionne comme une arme de ''[[foudre (propriété)|foudre]]''. Inflige 1d10 points de dégâts d’éléctricité supplémentaire sur un coup critique confirmé (+1d10 par multiplicateur critique au-delà de x2). || bonus de +2
+
+|- CLASS="premier"
+| ''[[froid intense (propriété)|Froid intense]]''* || <sup>A&E</sup> || — || Fonctionne comme une arme de ''[[froid (propriété)|froid]]''. Inflige 1d10 points de dégâts de froid supplémentaire sur un coup critique confirmé (+1d10 par multiplicateur critique au-delà de x2). || bonus de +2
+
+|- CLASS="premier"
+| ''[[glorieuse (propriété)|Glorieuse]]'' || <sup>A&E</sup> || Corps-à-corps || Dégainée, l’arme produit une lumière éblouissante (comme avec ''[[lumière du jour]]''). [[Ébloui]] les cibles jusqu’au prochain tour du porteur au touché. Peut [[aveuglé|aveugler]] les cibles jusqu’au prochain tour du porteur sur un critique confirmé (+1 [[round]] par multiplicateur critique au-delà de x2). || bonus de +2
+
+|- CLASS="premier"
+| ''[[impie (propriété)|Impie]]''* || <sup>A&E</sup> || — || L’arme est alignée au Mal pour ignorer les [[RD]] correspondantes. Inflige 2d6 points de dégâts supplémentaires aux créatures d’alignement Bon. Inflige un [[absorption dénergie (capacité)|niveau négatif]] aux porteurs d’alignement Bon. || bonus de +2
+
+|- CLASS="premier"
+| ''[[inamovible (propriété)|Inamovible]]'' || <sup>A&E</sup> || Corps-à-corps, Armes de jet || Par une [[action rapide]], le porteur peut fixer l’arme à sa position (comme un [[sceptre inamovible]]). Peut se fixer aux cibles consistantes au touché, rendant l’arme inutilisable mais empêchant la cible de se déplacer tant qu’elle ne détruit pas l’arme ou ne réussit pas un test de [[Force]] [[DD]] 30, auquel cas elle peut se déplacer à 3m maximum de sa position. || bonus de +2
+
+|- CLASS="premier"
+| ''[[intensification ki (propriété)|Intensification ki]]'' || <sup>A&E</sup> || Corps-à-corps || Fonctionne comme une arme de ''[[Descriptions individuelles des propriétés spéciales des armes#Focalisation ki|focalisation ki]]'', augmentant le [[DD]] des [[valeurs de combat#JETDESAUVEGARDE|jets de sauvegarde]] des attaques de [[moine#RESERVEDEKI|ki]] de la moitié du bonus d’altération de l’arme (minimum 1). Permet de dépenser un point de [[moine#RESERVEDEKI|ki]] par une [[action rapide]] au touché pour effectuer une manœuvre de [[bousculade]], de [[désarmement]], de [[repositionnement]] ou de [[croc-en-jambe]] par une [[action libre]] ne provoquant pas d’[[valeurs de combat#ATTAQUEDOPPORTUNITE|attaque d’opportunité]]. || bonus de +2
+
+|- CLASS="premier"
+| ''[[marquage (propriété)|Marquage]]''* || <sup>A&E</sup> || Distance, munitions || Marque les cibles pendant 1 [[round]] au touché. Les alliés qui attaquent les cibles marquées bénéficient d’un bonus de moral de +2 à leurs [[jet dattaque|jets d’attaque]] et [[valeurs de combat#DEGATS|de dégâts]] au corps à corps. || bonus de +2
+
+|- CLASS="premier"
+| ''[[munitions inépuisables (propriété)|Munitions inépuisables]]'' || <sup>A&E</sup> || Arcs, arbalètes || L’arme génère automatiquement une munition non-magique quand on tente de la charger. || bonus de +2
+
+|- CLASS="premier"
+| ''[[percutante (propriété)|Percutante]]'' || <sup>A&E</sup> || Armes légères, corps-à-corps || L’arme inflige des dégâts comme si elle était d’une catégorie de taille supérieure. Confère un bonus égal au bonus d’altération de l’arme aux manœuvres de [[bousculade]] du porteur. || bonus de +2
+
+|- CLASS="premier"
+| ''[[placement (propriété)|Placement]]'' || <sup>A&E</sup> || Corps-à-corps || Permet d’effectuer un [[Actions diverses#PASDEPLACEMENT|pas de placement]] par une [[action rapide]] au touché, au prix d’un malus de -2 aux [[jet dattaque|jets d’attaque]] jusqu’au prochain tour du porteur. || bonus de +2
+
+|- CLASS="premier"
+| ''[[revigorante (propriété)|Revigorante]]'' || <sup>A&E</sup> || Corps-à-corps || Chaque fois que l’arme tue une créature ou la rend [[mourant|mourante]], dissipe la [[fatigué|fatigue]] du porteur, fait passer son [[épuisé|épuisement]] à de la [[fatigué|fatigue]], ou lui confère un bonus de moral de +2 aux [[jet dattaque|jets d’attaque]] et un bonus d’altération de +3m à ses vitesses de déplacement, jusqu’à la fin de son prochain tour. || bonus de +2
+
+
+|- CLASS="premier"
+| ''[[sainte (propriété)|Sainte]]''* || <sup>A&E</sup> || — || L’arme est alignée au Bien pour ignorer les [[RD]] correspondantes. Inflige 2d6 points de dégâts supplémentaires aux créatures d’alignement Mauvais. Inflige un [[absorption dénergie (capacité)|niveau négatif]] aux porteurs d’alignement Mauvais. || bonus de +2
+
+|- CLASS="premier"
+| ''[[sanglante (propriété)|Sanglante]]'' || <sup>A&E</sup> || Corps-à-corps || Inflige 1 point de dégâts de [[saignement (capacité)|saignement]] cumulatifs au touché, jusqu’au prochain tour de la cible. || bonus de +2
+
+|- CLASS="premier"
+| ''[[survie (propriété)|Survie]]'' || <sup>A&E</sup> || Corps-à-corps || L’arme reste dans la main du porteur même s’il est [[paniqué]], [[étourdi]] ou [[inconscient]]. Confère un bonus égal au bonus d’altération de l’arme aux tests pour se stabiliser et aux [[valeurs de combat#JETDESAUVEGARDE|jets de sauvegarde]] d’effets continus du porteur. Permet d’utiliser certains dons un nombre de fois par jour supplémentaire égal au bonus d’altération de l’arme. || bonus de +2
+|}
+</center>
+
+<center>
+{| CLASS="tablo autoalt toutgauche"
+|+ Propriétés ajoutant un bonus de +3
+|- CLASS="titre"
+| WIDTH="12%" | Propriété
+| WIDTH="3%" | Source
+| WIDTH="11%" | Restrictions
+| WIDTH="61%" | Capacités
+| WIDTH="13%" | Modificateur au prix de base
+
+|- CLASS="premier"
+| ''[[affaiblissement magique (propriété)|Affaiblissement magique]]'' || <sup>A&E</sup> || Corps-à-corps || Réduit la [[résistance à la magie (capacité)|RM]] de 1 point (cumulatif) pendant 1 minute au touché. Réduit la [[résistance à la magie (capacité)|RM]] d’un montant égal au multiplicateur critique de l’arme (cumulatif) pendant 1 minute sur un critique confirmé. || bonus de +3
+
+|- CLASS="premier"
+| ''[[chanceuse supérieure (propriété)|Chanceuse supérieure]]'' || <sup>A&E</sup> || Armes à feu || Fonctionne comme une arme ''[[Descriptions individuelles des propriétés spéciales des armes#Chanceuse|chanceuse]]'' mais sa réserve contient 3 points d’[[pistolier#AUDACE|audace]] (non cumulatif avec la propriété ''[[Descriptions individuelles des propriétés spéciales des armes#Chanceuse|chanceuse]]''). || bonus de +3
+
+|- CLASS="premier"
+| ''[[épuisante (propriété)|Épuisante]]'' || <sup>MCA</sup> || Corps-à-corps || Lors d’un critique confirmé, le porteur peut, au lieu d’infliger les dés de dégâts supplémentaires, rendre la cible [[épuisé|épuisée]]. || bonus de +3
+
+|- CLASS="premier"
+| ''[[fiable supérieure (propriété)|Fiable supérieure]]'' || <sup>A&E</sup> || Armes à feu || Réduit la valeur de long feu de l’arme de 4 (minimum 0) après tout calcul censé l’augmenter (non cumulatif avec la propriété ''[[Descriptions individuelles des propriétés spéciales des armes#Fiable|fiable]]''). || bonus de +3
+
+|- CLASS="premier"
+| ''[[flamboyante supérieure (propriété)|Flamboyante supérieure]]'' || <sup>MCA</sup> || Corps-à-corps perforantes légères ou à une main || Fonctionne comme une arme ''[[Descriptions individuelles des propriétés spéciales des armes#Flamboyante|flamboyante]]'' mais sa réserve contient 3 points de [[bretteur#PANACHE|panache]] (non cumulatif avec la propriété ''[[Descriptions individuelles des propriétés spéciales des armes#Flamboyante|flamboyante]]''). || bonus de +3
+
+|- CLASS="premier"
+| ''[[rapide (propriété)|Rapide]]'' || <sup>A&E</sup> || — || Lors d’une attaque à outrance, le porteur peut effectuer une attaque supplémentaire avec son [[BBA]] maximum (non cumulatif avec le sort ''[[rapidité]]''). || bonus de +3
+
+|- CLASS="premier"
+| ''[[repositionnante (propriété)|Repositionnante]]'' || <sup>A&E</sup> || Corps-à-corps || Confère un bonus d’altération de +2 aux manœuvres de [[repositionnement]] du porteur. Permet de [[repositionnement|repositionner]] la cible par une [[action libre]] sur un critique confirmé. || bonus de +3
+
+|- CLASS="premier"
+| ''[[voleuse de magie (propriété)|Voleuse de magie]]'' || <sup>A&E</sup> || Corps-à-corps || Lors d’un critique potentiel, le porteur peut, au lieu de le tenter de le confirmer, prendre connaissance des sorts et effets magiques actifs sur sa cible. Le porteur peut ensuite tenter d’en subtiliser un (+1 par multiplicateur critique au-delà de x2) en lançant 1d20 + le [[NLS]] de l’arme + son bonus d’altération avec un [[DD]] de 11 + [[NLS]] de l’effet ciblé. S’il réussit, la cible perd l’effet et le porteur en profite pendant sa durée normale (maximum 1 minute). || bonus de +3
+|}
+</center>
+
+<center>
+{| CLASS="tablo autoalt toutgauche"
+|+ Propriétés ajoutant un bonus de +4
+|- CLASS="titre"
+| WIDTH="12%" | Propriété
+| WIDTH="3%" | Source
+| WIDTH="11%" | Restrictions
+| WIDTH="61%" | Capacités
+| WIDTH="13%" | Modificateur au prix de base
+
+|- CLASS="premier"
+| ''[[dansante (propriété)|Dansante]]'' || <sup>A&E</sup> || Corps-à-corps || Par une [[action simple]], le porteur peut lâcher l’arme pour qu’elle s’anime et combatte seule pendant 4 [[round|rounds]] avant de tomber à terre. Animée, le porteur ne considère plus qu’il est armé de cette arme mais qu’il la tient simplement, celle-ci utilise le [[BBA]] de son activateur, occupe le même emplacement que lui et le suit, mais ne peut pas porter d’[[valeurs de combat#ATTAQUEDOPPORTUNITE|attaque d’opportunité]]. L’activateur peut la reprendre en main par une [[action libre]] (il doit alors attendre 4 [[round|rounds]] pour l’activer de nouveau). || bonus de +4
+
+|- CLASS="premier"
+| ''[[deuxième chance (propriété)|Deuxième chance]]'' || <sup>A&E</sup> || Arcs || Une fois par [[round]] et lors d’une attaque ratée, le porteur peut, par une [[action libre]], refaire un [[jet dattaque|jet d’attaque]] avec la même munition et les mêmes bonus. || bonus de +4
+
+|- CLASS="premier"
+| ''[[lumière (propriété)|Lumière]]''* || <sup>A&E</sup> || — || L’arme éclaire comme une [[matériel daventurier#Torche|torche]] à 6m et traverse la matière non-vivante (ne tenant donc pas compte des bonus d’armure et de bouclier à la [[CA]], ni des bonus d’altération à ceux-ci, et n’infligeant donc pas de dégâts aux objets, aux morts-vivants et aux créature artificielles). || bonus de +4
+
+|- CLASS="premier"
+| ''[[marquage supérieure (propriété)|Marquage supérieure]]'' || <sup>A&E</sup> || Distance, munitions || Marque les cibles pendant 1 [[round]] au touché. Les alliés qui attaquent les cibles marquées bénéficient d’un bonus de moral de +4 à leurs [[jet dattaque|jets d’attaque]] et de +6 aux [[valeurs de combat#DEGATS|jets de dégâts]] au corps à corps. || bonus de +4
+
+|- CLASS="premier"
+| ''[[preste (propriété)|Preste]]'' || <sup>A&E</sup> || Distance || Utiliser l’arme ne provoque plus d’[[valeurs de combat#ATTAQUEDOPPORTUNITE|attaque d’opportunité]]. || bonus de +4
+|}
+</center>
+
+<center>
+{| CLASS="tablo autoalt toutgauche"
+|+ Propriétés ajoutant un bonus de +5
+|- CLASS="titre"
+| WIDTH="12%" | Propriété
+| WIDTH="3%" | Source
+| WIDTH="11%" | Restrictions
+| WIDTH="61%" | Capacités
+| WIDTH="13%" | Modificateur au prix de base
+
+|- CLASS="premier"
+| ''[[volante (propriété)|Volante]]'' || <sup>MCA</sup> || Corps-à-corps || Fonctionne comme une arme ''[[Descriptions individuelles des propriétés spéciales des armes#dansante|dansante]]''. Mais animée, l’activateur peut la diriger vers les adversaires à 9m ou moins de lui et la rappeler à lui par une [[action rapide]] (elle vole alors à une vitesse de 15m pour retourner sans ses mains libres ou à ses pieds, effectuant des manœuvres de [[destruction]] pour traverser tout obstacle qui les sépare et des tests de [[BMO]] pour se libérer d’emprises hostiles). || bonus de +5
+
+|- CLASS="premier"
+| ''[[vorpale (propriété)|Vorpale]]'' || <sup>A&E</sup> || Corps-à-corps || En cas de 20 naturel au [[jet dattaque|jet d’attaque]], la tête de la cible (si elle en possède une) est séparée de son corps sur un critique confirmé, ce qui la tue (sauf s’il s’agit d’une créature artificielle ou d’un mort-vivant, hormis le vampire). || bonus de +5
 |}
 </center>
