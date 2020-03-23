@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Descriptions individuelles des propriétés spéciales des armures et des boucliers
 Title: Descriptions individuelles des propriétés spéciales des armures et des boucliers
-LastModified: 2020-03-09 19:34
+LastModified: 2020-03-21 16:30
 Categories:
   - 'Armes et équipement'
   - 'Armure magique'
@@ -201,8 +201,7 @@ Cette armure permet à son porteur de tirer profit de ses blessures pour soigner
 (((Création)))
 [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[soins légers de groupe]]'' ; '''Prix''' : 9.000 po
 </div>
-</td>
-<td>
+
 {s:Reference|Mimétisme}
 <div class="BD">
 {s:BDTitre|Mimétisme|{s:AE}}
@@ -212,7 +211,8 @@ Sur commande, une armure possédant cette propriété change de forme pour prend
 (((Création)))
 [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[déguisement]]'' ; '''Prix''' : 1.350 po
 </div>
-
+</td>
+<td>
 {s:Reference|Niche}
 <div class="BD">
 {s:BDTitre|Niche|{s:AE}}
@@ -261,6 +261,16 @@ Cette propriété est identique à celle d’''[[ombre (propriété)|ombre]]'' m
 Une armure ''putride'' dégage une puanteur infecte qui retourne l’estomac. Les créatures vivantes situées dans un rayon de 9 mètres doivent réussir un jet de [[Vigueur]] [[DD]] 14 pour ne pas être [[fiévreux|fiévreuses]] pendant 5 [[round|rounds]]. C’est un effet de poison. Les créatures qui réussissent leur [[jds|jet de sauvegarde]] ne peuvent plus être affectées par la puanteur de cette armure pendant les prochaines 24 heures. Les créatures dotées de la capacité de [[puanteur (capacité)|puanteur]] ou immunisées contre les poisons ne sont pas affectées. Le porteur d’une armure ''putride'' est immunisé contre la puanteur de son armure mais pas contre les effets de puanteur provenant d’autres sources. La puanteur peut être supprimée ou activée sur commande mais, une fois activée, il faut une puanteur activée met 1 minute à se dissiper. Cette durée passe à 10 minutes si le porteur se situe dans un endroit clos ou s’il n’y a pas de vent. Elle tombe à 3 [[round|rounds]] en cas de vent modéré et à 1 [[round]] en cas de vent fort.
 (((Création)))
 [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[nuage nauséabond]]'' ; '''Prix''' : 5.000 po
+</div>
+
+{s:Reference|Rafale de nuages}
+<div class="BD">
+{s:BDTitre|Rafale de nuages|{s:MR}}
+'''Auras''' : [[Abjuration]] et [[Évocation]] faibles ; '''NLS''' : 5 ; '''Prix''' : 10.000 po
+(((Caractéristiques)))
+Une telle armure est généralement gravée de nuages d’orages et d’éclairs. Si une attaque touche le porteur et inflige au moins 10 points de dégâts d’électricité, l’armure se charge d’électricité pendant 1 [[round]]. Par une [[action rapide]] qui ne provoque pas d’[[attaque dopportunité|attaque d’opportunité]], lors de son prochain tour, le porteur peut utiliser le pouvoir magique ''[[décharge électrique]]'', infligeant 1d6 points de dégâts d’électricité par tranche de 10 points de dégâts d’électricité qu’il a reçus depuis son dernier tour (maximum de 5d6 par tranche de 50 points de dégâts d’électricité ou plus reçus). Les effets de la décharge électrique sont déterminés en fonction du nombre de dégâts que l’attaque électrique qui l’a déclenchée aurait infligés au porteur avant de leur appliquer de quelconques résistances ou immunités. Cette propriété est spécifique aux [[sylphe (race)|sylphes]].
+(((Création)))
+[[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[résistance aux énergies destructives]]'', ''[[décharge électrique]]'' ; '''Prix''' : 5.000 po
 </div>
 
 {s:Reference|Ralliement}
@@ -506,8 +516,7 @@ Une armure de ''garrot'' permet d’endiguer les hémorragies en se resserrant a
 (((Création)))
 [[Création darmes et armures magiques|Création d’armes et armures magiques]], soit ''[[stabilisation]]'', soit ''[[soins intensifs]]'', soit ''[[restauration partielle]]'' ; '''Prix''' : Bonus de +1
 </div>
-</td>
-<td>
+
 {s:Reference|Immortalité}
 <div class="BD">
 {s:BDTitre|Immortalité|{s:AE}}
@@ -517,7 +526,8 @@ L’armure d’''immortalité'' protège son porteur contre l’énergie nuisibl
 (((Création)))
 [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[protection contre la mort]]'' ; '''Prix''' : Bonus de +1
 </div>
-
+</td>
+<td>
 {s:Reference|Interception de projectile}
 <div class="BD">
 {s:BDTitre|Interception de projectile|{s:AE}}
@@ -556,6 +566,16 @@ Les armures et les boucliers dotés de cette propriété spéciale sont particul
 Une fois par jour et par une [[action immédiate]], le porteur peut activer son armure de ''prévention'' pour mettre un terme à toutes les aptitudes de [[chevalier#DEFI|défis]], [[inquisiteur#JUGEMENT|jugements]] et châtiments qui l’affectent. Cet effet n’empêche pas les adversaires de le cibler par la suite avec ces aptitudes. Par une [[action rapide]], le porteur peut dépenser une de ses propres utilisations de [[chevalier#DEFI|défi]], [[inquisiteur#JUGEMENT|jugement]] ou châtiment pour permettre à son armure de mettre de nouveau un terme à ces aptitudes.
 (((Création)))
 [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[pénitence]]'' ; '''Prix''' : Bonus de +1
+</div>
+
+{s:Reference|Protection}
+<div class="BD">
+{s:BDTitre|Protection|{s:MR}}
+'''Auras''' : [[Invocation]] faible ; '''NLS''' : 8 ; '''Prix''' : Bonus de +1
+(((Caractéristiques)))
+Un bouclier de ''protection'' permet au porteur de transférer une partie ou l’intégralité du bonus d’altération de son bouclier à la [[CA]] d’une créature adjacente (ce bonus se cumule avec tous les autres). Par une [[action libre]] effectuée au début de son [[tour]] avant d’utiliser les autres capacités de son bouclier, le porteur peut désigner une cible adjacente et définit la hauteur du bonus d’altération du bouclier qu’il alloue au début de son tour. Le bonus de [[CA]] de la cible dure jusqu’au prochain tour du porteur ou jusqu’à ce que plus de 1,5 mètre (1 {s:c}) sépare le porteur et la cible, auquel cas le bonus de la cible se dissipe et le bonus d’altération du bouclier fonctionne normalement pour le porteur. Cette capacité n’offre le bonus d’altération du bouclier qu’à la [[CA|classe d’armure]], pas son bonus d’altération sur les [[jet dattaque|jets d’attaque]] (s’il en a un) ni aucune autre propriété du bouclier. Cette propriété est spécifique aux [[oréade (race)|oréades]].
+(((Création)))
+[[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[protection dautrui|protection d'autrui]]'' ; '''Prix''' : Bonus de +1.
 </div>
 
 {s:Reference|Pugilat}
@@ -627,7 +647,7 @@ Un lanceur de sorts peut placer un unique sort de contact du 3ème niveau ou moi
 {s:BDTitre|Animée|{s:AE}}
 '''Auras''' : [[Transmutation]] puissante ; '''NLS''' : 12 ; '''Prix''' : Bonus de +2
 (((Caractéristiques)))
-Sur commande, un bouclier ''animé'' flotte à coté de son propriétaire. Il le protège aussi bien que si le personnage le tenait en main mais il lui laisse les deux mains libres et ce durant 4 [[round|rounds]] au bout desquels le bouclier tombe à terre. Lorsqu’il est animé de la sorte, son propriétaire bénéficie non seulement de sa protection mais également de toutes ses propriétés spéciales. Le boucliers ne peut pas entreprendre d’action par lui-même (comme l’utilisation des propriétés spéciales d’''[[attaque (propriété)|attaque]]'' ou ''[[aveuglante (propriété)|aveuglante]]'') mais il peut utiliser celles qui ne requièrent pas d’action pour fonctionner (comme ''[[anti-projectiles (propriété)]|anti-projectiles]]'' ou ''[[réfléchissante (propriété)|réfléchissante]]''). Un bouclier animé occupe le même espace que son possesseur, même si celui-ci se déplace par des moyens magiques. Il impose toujours les désavantages liés au port d’un bouclier, comme un malus d’armure aux tests, un risque d’échec des sorts profanes et un malus pour non-formation. Si le personnage qui a animé le bouclier a une main libre, il peut le rattraper par une [[action libre]] à la fin des 4 [[round|rounds]]. Une fois qu’il l’a récupéré, il ne peut plus l’animer avant 4 [[round|rounds]]. Un pavois ne peut bénéficier de cette propriété.
+Sur commande, un bouclier ''animé'' flotte à coté de son propriétaire. Il le protège aussi bien que si le personnage le tenait en main mais il lui laisse les deux mains libres et ce durant 4 [[round|rounds]] au bout desquels le bouclier tombe à terre. Lorsqu’il est animé de la sorte, son propriétaire bénéficie non seulement de sa protection mais également de toutes ses propriétés spéciales. Le boucliers ne peut pas entreprendre d’action par lui-même (comme l’utilisation des propriétés spéciales d’''[[attaque (propriété)|attaque]]'' ou ''[[aveuglante (propriété)|aveuglante]]'') mais il peut utiliser celles qui ne requièrent pas d’action pour fonctionner (comme ''[[anti-projectiles (propriété)|anti-projectiles]]'' ou ''[[réfléchissante (propriété)|réfléchissante]]''). Un bouclier animé occupe le même espace que son possesseur, même si celui-ci se déplace par des moyens magiques. Il impose toujours les désavantages liés au port d’un bouclier, comme un malus d’armure aux tests, un risque d’échec des sorts profanes et un malus pour non-formation. Si le personnage qui a animé le bouclier a une main libre, il peut le rattraper par une [[action libre]] à la fin des 4 [[round|rounds]]. Une fois qu’il l’a récupéré, il ne peut plus l’animer avant 4 [[round|rounds]]. Un pavois ne peut bénéficier de cette propriété.
 (((Création)))
 [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[animation dobjets|animation d’objets]]'' ; '''Prix''' : Bonus de +2
 </div>
@@ -661,6 +681,16 @@ L’armure d’''esquive des sorts'' complique les attaques de sorts et de pouvo
 Un bouclier de ''fusion'' peut fusionner avec une arme tenue en main. Celle-ci doit être légère ou à une main. Chaque [[round]], le porteur choisit s’il attaque avec son arme ou s’il se défend à l’aide du bouclier. Il faut prononcer un mot de commande pour fusionner ou libérer le bouclier. Le bouclier doit être tenu en main avant de fusionner avec une arme. Quand le processus s’inverse, le bouclier revient dans la main de son porteur. Une fois le bouclier fusionné, le porteur peut utiliser la main qui le portait uniquement pour attaquer avec l’arme ou pour se défendre avec le bouclier (et non pour lancer des sorts ou pour manipuler des objets, par exemple). Les [[jet dattaque|jets d’attaque]] effectués avec l’arme subissent un malus de -2 si elle est fusionnée avec une rondache et de –4 si c’est avec un écu. Si le porteur attaque avec l’arme fusionnée, il ne bénéficie plus du bonus à la [[CA]] du bouclier jusqu’au début de son prochain tour. On ne peut pas utiliser un bouclier fusionné pour frapper. Seuls les rondaches et les écus peuvent bénéficier de cette propriété.
 (((Création)))
 [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[arme polyvalente]]'' ; '''Prix''' : Bonus de +2
+</div>
+
+{s:Reference|Protection supérieure}
+<div class="BD">
+{s:BDTitre|Protection supérieure|{s:MR}}
+'''Auras''' : [[Invocation]] modérée ; '''NLS''' : 12 ; '''Prix''' : Bonus de +2
+(((Caractéristiques)))
+Comme la propriété de ''[[protection (propriété)|protection]]'', excepté qu’il en coûte une [[action simple]], le porteur définit un nombre d’alliés adjacents qui reçoivent le bonus du bouclier. Tous les alliés désignés reçoivent le même bonus. Si une cible ainsi protégée est à plus de 1,5 mètre (1 {s:c}) du porteur, l’effet se dissipe pour elle, mais pas pour les autres cibles. Cette propriété est spécifique aux [[oréade (race)|oréades]].
+(((Création)))
+[[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[protection dautrui|protection d'autrui]]'' ; '''Prix''' : Bonus de +2
 </div>
 
 {s:Reference|Résistance à la magie (13)}

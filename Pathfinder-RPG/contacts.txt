@@ -1,564 +1,191 @@
 ---
 Name: Pathfinder-RPG.contacts
 Title: Les contacts
-LastModified: 2019-08-16 12:07
+LastModified: 2020-03-20 17:04
+Categories:
+  - 'Guide de campagne'
+  - 'Règles officielles'
 ---
-Un contact est un PNJ unique aux compétences utiles ou
-aux relations puissantes. Le personnage peut faire appel à des
-contacts afin que ceux-ci l’aident à réaliser des tâches spécifiques
-sans être impliqués directement. Un contact de bas niveau peut
-enquêter sur une rumeur locale, dire au personnage où trouver
-un bon repas ou lui apprendre des choses basiques. Cela dit, à
-mesure que le personnage gagne la confiance d’un contact, celuici
-peut l’aider à accomplir des tâches plus importantes le mettant
-davantage en danger, comme l’aider à traquer un adversaire, le
-faire sortir de prison ou lui prêter un objet magique.
-Il existe différents types de contacts : ce peut être un ami
-d’enfance, un ancien adversaire avec lequel le personnage
-partage un respect mutuel, un frère d’armes, un ancien
-collègue ou un ami de la famille. Les contacts ne sont pas
-limités à une classe sociale ou à une profession. Un contact
-ayant peu de relations ne pourra apporter qu’une aide
-minimale au personnage tandis que d’autres peuvent avoir
-des ressources plus significatives. La capacité d’un contact
-à aider le personnage peut même évoluer au cours de la
-carrière de l’aventurier. Les changements de profession d’un
-contact, son ascension ou sa déchéance sociale, ainsi que
-d’autres évènements personnels, peuvent altérer sa capacité
-à apporter son aide.
-Il faut parfois rémunérer le contact pour le mal qu’il se
-donne ou au moins lui rembourser les frais liés à ses travaux au
-profit des PJ. Les contacts criminels, en particulier, facturent
-presque toujours leurs services ou exigent des faveurs en
-retour. Un contact dans un temple ou dans une guilde pourra
-attendre du personnage qu’il fasse un don au temple ou paye
-une taxe à la guilde. D’autres fois, la nécessité fait augmenter
-les coûts. Un contact qui doit rester anonyme pour accomplir
-une tâche pourrait demander des fonds supplémentaires pour
-verser des pots-de-vin ou s’acheter un accès sous couverture
-dans un endroit secret. De la même manière, le personnage ne
-devrait pas s’attendre à ce qu’un contact lanceur de sorts paye
-des composantes matérielles onéreuses quand il lance un sort
-pour lui.
-Deux facteurs influencent l’efficacité d’un contact : le degré
-de confiance que le personnage partage avec lui et le degré
-de risque qu’implique le travail demandé. Un contact qui n’a
-pas une confiance totale en le personnage refusera de risquer
-sa vie pour l’aider mais pourrait quand même accomplir
-quelques tâches de base, sans danger aucun, pour voir si le
-personnage mérite qu’il lui accorde davantage sa confiance.
+{s:gc}
+''Un contact est un PNJ unique aux compétences utiles ou aux relations puissantes.'' 
 
-LA CONFIANCE
-Pour que votre personnage s’assure un contact fiable, il doit
-gagner et maintenir sa confiance. En principe, un nouveau
-contact ne révèle pas toute l’étendue de ses capacités ou de ses
-affiliations secrètes. Par exemple, un ami d’enfance entretient
-peut-être des liens étroits avec une organisation politique,
-une guilde de voleurs ou un gang des rues mais pourra taire
-cette information pour assurer sa protection ou celle du
-personnage. Puis arrive un moment où cet ami révèle cette
-connexion et devient un contact pour le personnage. À mesure
-que la confiance du contact augmente, il accepte plus volontiers
-d’accomplir ou d’assurer divers services pour le compte du
-personnage, à condition que ces services restent dans ses cordes.
-La confiance se mesure sur une échelle de 1 à 5, 1 étant la
-valeur minimale, 5 étant la plus haute. Le personnage bâtit
-cette confiance au travers d’interactions réussies avec son
-contact. À mesure que ces interactions se multiplient, le
-niveau de confiance augmente (cf. Gagner, entretenir et perdre
-des contacts, p.160). Un contact peut avoir différentes valeurs
-de confiance pour différents PJ d’un même groupe : un garde
-de la ville pourrait avoir une haute valeur de Confiance visà-
-vis d’un PJ paladin qu’il connaît depuis quelques temps et
-une faible valeur de confiance pour un PJ magicien qui est
-nouveau en ville. Pour certains contacts, la valeur de confiance
-décroît quand ils n’ont pas de nouvelles du personnage
-pendant un certain temps mais il est plus rapide de ramener
-cette confiance à son ancien niveau que de commencer à zéro.
+<div style="background-color: #fff; float: right; padding: 0 0 12px 12px">{toc}</div>Le personnage peut faire appel à des contacts afin que ceux-ci l’aident à réaliser des tâches spécifiques sans être impliqués directement. Un contact de bas niveau peut enquêter sur une rumeur locale, dire au personnage où trouver un bon repas ou lui apprendre des choses basiques. Cela dit, à mesure que le personnage gagne la confiance d’un contact, celui-ci peut l’aider à accomplir des tâches plus importantes le mettant davantage en danger, comme l’aider à traquer un adversaire, le faire sortir de prison ou lui prêter un objet magique.
+
+Il existe différents types de contacts : ce peut être un ami d’enfance, un ancien adversaire avec lequel le personnage
+partage un respect mutuel, un frère d’armes, un ancien collègue ou un ami de la famille. Les contacts ne sont pas limités à une classe sociale ou à une profession. Un contact ayant peu de relations ne pourra apporter qu’une aide minimale au personnage tandis que d’autres peuvent avoir des ressources plus significatives. La capacité d’un contact à aider le personnage peut même évoluer au cours de la carrière de l’aventurier. Les changements de profession d’un contact, son ascension ou sa déchéance sociale, ainsi que d’autres évènements personnels, peuvent altérer sa capacité à apporter son aide.
+
+Il faut parfois rémunérer le contact pour le mal qu’il se donne ou au moins lui rembourser les frais liés à ses travaux au profit des PJ. Les contacts criminels, en particulier, facturent presque toujours leurs services ou exigent des faveurs en retour. Un contact dans un temple ou dans une guilde pourra attendre du personnage qu’il fasse un don au temple ou paye une taxe à la guilde. D’autres fois, la nécessité fait augmenter les coûts. Un contact qui doit rester anonyme pour accomplir une tâche pourrait demander des fonds supplémentaires pour verser des pots-de-vin ou s’acheter un accès sous couverture dans un endroit secret. De la même manière, le personnage ne devrait pas s’attendre à ce qu’un contact lanceur de sorts paye des composantes matérielles onéreuses quand il lance un sort pour lui.
+
+Deux facteurs influencent l’efficacité d’un contact : le degré de confiance que le personnage partage avec lui et le degré de risque qu’implique le travail demandé. Un contact qui n’a pas une confiance totale en le personnage refusera de risquer sa vie pour l’aider mais pourrait quand même accomplir quelques tâches de base, sans danger aucun, pour voir si le personnage mérite qu’il lui accorde davantage sa confiance.
+
+{s:Reference|CONFIANCE}
+===La confiance===
+Pour que votre personnage s’assure un contact fiable, il doit gagner et maintenir sa confiance. En principe, un nouveau contact ne révèle pas toute l’étendue de ses capacités ou de ses affiliations secrètes. Par exemple, un ami d’enfance entretient peut-être des liens étroits avec une organisation politique, une guilde de voleurs ou un gang des rues mais pourra taire cette information pour assurer sa protection ou celle du personnage. Puis arrive un moment où cet ami révèle cette connexion et devient un contact pour le personnage. À mesure que la confiance du contact augmente, il accepte plus volontiers d’accomplir ou d’assurer divers services pour le compte du personnage, à condition que ces services restent dans ses cordes.
+
+La confiance se mesure sur une échelle de 1 à 5, 1 étant la valeur minimale, 5 étant la plus haute. Le personnage bâtit cette confiance au travers d’interactions réussies avec son contact. À mesure que ces interactions se multiplient, le niveau de confiance augmente. 
+
+Un contact peut avoir différentes valeurs de confiance pour différents PJ d’un même groupe : un garde de la ville pourrait avoir une haute valeur de Confiance vis-à-vis d’un PJ paladin qu’il connaît depuis quelques temps et une faible valeur de confiance pour un PJ magicien qui est nouveau en ville. Pour certains contacts, la valeur de confiance décroît quand ils n’ont pas de nouvelles du personnage pendant un certain temps mais il est plus rapide de ramener cette confiance à son ancien niveau que de commencer à zéro.
+
+{s:Reference|VALEURDECONFIANCE}
 Voici les différents niveaux de confiance.
-1. Méfiant. Un contact méfiant n’a pas plus confiance en
-votre personnage qu’en n’importe quel autre étranger. S’il
-est prêt à divulguer des informations minimales, il l’est
-tout autant à vendre vos informations à vos ennemis ou à se
-retourner contre vous afin de se protéger ou de préserver sa
-réputation. Un contact méfiant n’accomplit que des tâches de
-base n’impliquant que peu ou pas de risque personnel.
-2. Sceptique. Un contact sceptique a commencé à établir une
-relation de confiance avec le personnage. Malgré des premières
-interactions positives, le contact reste encore sur ses gardes. Il est
-possible de faire appel à lui pour accomplir des tâches au facteur
-risque minimal mais il refuse toute mission qui risquerait de
-mettre sa sécurité, sa réputation ou son portefeuille en jeu. Si on
-lui pose des questions sur le personnage, le contact sceptique
-tente de rester neutre dans la description qu’il fait de sa relation
-avec lui et ne se retournera pas directement contre lui.
-3. Fiable. Un contact fiable n’accorde pas encore toute sa
-confiance au personnage mais est prêt à faire de gros efforts pour
-l’aider. Il pourrait accomplir des tâches dont le facteur risque est
-un peu plus élevé, comme cacher un fugitif chez lui ou prêter
-de petites sommes d’argent ou des objets magiques. Un contact
-fiable ne sera pas prêt à prendre des risques plus importants
-pour la seule raison qu’il fait confiance au personnage et
-essaiera de protéger sa propre réputation de fiabilité.
-4. Digne de confiance. Un contact digne de confiance tient
-le personnage en haute estime. Quand celui-ci lui demande
-de l’aide, le contact cherche sincèrement à la lui apporter. Il
-consacre davantage de son temps et fait plus d’efforts pour
-s’assurer de réussir mais évite quand même d’entreprendre
-des tâches qui le placeraient lui-même ou les siens en grand
-danger. Il n’acceptera pas à la légère une tâche qui pourrait
-détruire sa carrière, sa réputation ou ses finances.
-5. Confident. À ce niveau, le contact confierait sa vie au personnage.
-Il tente de l’aider même si cela implique qu’il pioche dans ses
-ressources personnelles ou prenne de gros risques personnels. Un
-confident ne se retournera jamais contre le personnage à moins
-qu’il n’ait la preuve irréfutable que ce dernier l’a trahi.
+* '''1. Méfiant.''' Un contact méfiant n’a pas plus confiance en votre personnage qu’en n’importe quel autre étranger. S’il est prêt à divulguer des informations minimales, il l’est tout autant à vendre vos informations à vos ennemis ou à se retourner contre vous afin de se protéger ou de préserver sa réputation. Un contact méfiant n’accomplit que des tâches de base n’impliquant que peu ou pas de risque personnel.
+* '''2. Sceptique.''' Un contact sceptique a commencé à établir une relation de confiance avec le personnage. Malgré des premières interactions positives, le contact reste encore sur ses gardes. Il est possible de faire appel à lui pour accomplir des tâches au facteur risque minimal mais il refuse toute mission qui risquerait de mettre sa sécurité, sa réputation ou son portefeuille en jeu. Si on lui pose des questions sur le personnage, le contact sceptique tente de rester neutre dans la description qu’il fait de sa relation avec lui et ne se retournera pas directement contre lui.
+* '''3. Fiable.''' Un contact fiable n’accorde pas encore toute sa confiance au personnage mais est prêt à faire de gros efforts pour l’aider. Il pourrait accomplir des tâches dont le facteur risque est un peu plus élevé, comme cacher un fugitif chez lui ou prêter de petites sommes d’argent ou des objets magiques. Un contact fiable ne sera pas prêt à prendre des risques plus importants pour la seule raison qu’il fait confiance au personnage et essaiera de protéger sa propre réputation de fiabilité.
+* '''4. Digne de confiance.''' Un contact digne de confiance tient le personnage en haute estime. Quand celui-ci lui demande de l’aide, le contact cherche sincèrement à la lui apporter. Il consacre davantage de son temps et fait plus d’efforts pour s’assurer de réussir mais évite quand même d’entreprendre des tâches qui le placeraient lui-même ou les siens en grand danger. Il n’acceptera pas à la légère une tâche qui pourrait détruire sa carrière, sa réputation ou ses finances. 
+* '''5. Confident.''' À ce niveau, le contact confierait sa vie au personnage. Il tente de l’aider même si cela implique qu’il pioche dans ses ressources personnelles ou prenne de gros risques personnels. Un confident ne se retournera jamais contre le personnage à moins qu’il n’ait la preuve irréfutable que ce dernier l’a trahi.
 
-LE RISQUE
-Le risque représente le danger potentiel de certaines
-tâches. Comme pour la valeur de confiance, le risque se
-mesure sur une échelle de 1 à 5, 1 indiquant un risque faible
-ou nul, 5 indiquant un grave danger. Chaque niveau de risque
-inclut les désavantages ou punitions dont souffre le contact
-s’il échoue complètement dans l’accomplissement de sa
-mission (cf. Les tests de négociation, p.159).
-Voici les différents exemples de risques. Le MJ devrait
-considérer ces exemples comme des indications pour
-déterminer à quel point une tâche est risquée.
-1. Aucun. Parmi les tâches sans risque, on trouve : porter
-un message à l’un des alliés du personnage dans une ville
-voisine, diriger le personnage vers un marchand réputé,
-réparer son équipement, lui révéler quelques rumeurs
-mineures ou obtenir d’un sage le droit de consulter un livre
-d’histoire ou une carte. Ces tâches peuvent être malvenues
-mais le contact ne risque rien à les accomplir.
-Échec critique. Aucune conséquence notable.
-2. Mineur. Les tâches à risque mineur : laisser délibérément
-déverrouillée une porte menant à une zone privée, obtenir un
-objet semi-légal pour le personnage ou lui trouver un endroit
-où se cacher. Les conséquences négatives peuvent se traduire par une petite amende, la colère des autorités locales, une
-petite perte financière ou une humiliation sociale.
-Échec critique. Amende ou emprisonnement sous caution.
-Le personnage doit dépenser 1/3 de la valeur de l’équipement
-de son contact (cf. Table 14-9 : équipement des PNJ, p. 460
-du Manuel des Joueurs) pour rectifier la situation. Sinon, le
-personnage perd son contact et la valeur de confiance de tous
-ses contacts présents et à venir diminue de 1 à son égard.
-3. Moyen. Les tâches à risque moyen incluent de mentir aux
-autorités pour le compte du personnage, de créer des faux, d’aider le
-personnage à échapper aux autorités (en lui fournissant par exemple
-des chevaux ou en lançant un sort de téléportation) ou de lui prêter
-de l’argent ou de l’équipement (d’une valeur maximale de 1/3 de la
-valeur estimée de l’équipement du personnage, d’après la Table 12-4 :
-richesse du personnage par niveau, p. 405 du Manuel des Joueurs). Si le
-contact se fait prendre alors qu’il est en cours de mission, il pourrait
-avoir à payer une amende, faire l’objet d’une courte peine de prison
-ou souffrir d’une perte financière ou sociale moyenne.
-Échec critique. Amende ou emprisonnement sous caution.
-Le personnage doit dépenser 1/2 de la valeur de l’équipement
-de son contact (cf. Table 14-9 : équipement des PNJ, p. 460
-du Manuel des Joueurs) pour rectifier la situation. Sinon, le
-personnage perd son contact, la valeur de confiance de tous
-ses contacts présents et à venir est diminuée de 2 à son égard
-et le DD de toutes ses futures tentatives pour augmenter la
-valeur de confiance de ses contacts augmente de 5.
-4. Considérable. Les tâches à risque considérable sont
-clairement illégales (comme le cambriolage ou le vol) ou
-moralement douteuses quand elles sont légales (comme une
-fraude perpétrée en profitant d’obscures failles légales). Si le
-contact se fait prendre la main dans le sac, il peut faire l’objet d’un
-emprisonnement, d’une saisie de biens ou perdre certains de ses
-droits (comme un titre officiel ou un poste important). Il peut être
-soumis à la flagellation, à la torture ou être réduit en esclavage.
-Échec critique. Le contact est emprisonné sans caution ou son
-statut social est réduit à celui d’un paysan. Le personnage doit
-rendre son statut à son contact, éventuellement en le faisant
-libérer ou en l’innocentant légalement, ou en le secourant et en
-l’aidant à se construire une nouvelle vie ailleurs. S’il n’y parvient
-pas, le personnage perd son contact, la valeur de confiance de
-tous ses contacts présents et à venir diminue de 3 à son égard et
-le DD de toutes ses futures tentatives pour augmenter la valeur
-de confiance de ses contacts augmente de 5.
-5. Énorme. Les tâches à risque énorme sont toutes celles dont
-l’échec entraîne la mort, l’exil ou l’emprisonnement à perpétuité,
-comme le meurtre, les agressions graves ou la trahison.
-Échec critique. En l’espace d’une semaine suivant la capture
-de son contact, le personnage doit faire annuler, rejeter ou
-révoquer la sentence qui pèse sur lui ou trouver un moyen
-de l’arracher à son sort. Si le personnage échoue, la valeur de
-confiance de tous ses contacts présents diminue de 4 à son
-égard et le DD de toutes ses futures tentatives pour augmenter
-la valeur de confiance de ses contacts augmente de 5. Les
-mesures extraordinaires, comme relever le contact d’entre les
-morts, permettent au personnage de conserver son contact (bien
-que son statut et son utilité puisse être remis en question si sa
-réputation a également été détruite). À moins que l’on ne sache
-que le personnage a eu recours à ces mesures extraordinaires, il
-conserve son malus de confiance vis-à-vis de ses autres contacts.
+{s:Reference|RISQUE}
+===Le risque===
+Le risque représente le danger potentiel de certaines tâches. Comme pour la valeur de confiance, le risque se mesure sur une échelle de 1 à 5, 1 indiquant un risque faible ou nul, 5 indiquant un grave danger. Chaque niveau de risque inclut les désavantages ou punitions dont souffre le contact s’il échoue complètement dans l’accomplissement de sa mission (cf. Les tests de négociation).
 
-LES TESTS DE NÉGOCIATION
-Pour utiliser un contact, le personnage doit d’abord
-déterminer la bonne volonté de celui-ci. Pour cela, comparez la
-valeur de risque de la tâche à la valeur de confiance du contact.
-Si la valeur de risque de la tâche est supérieure à la valeur
-de Cconfiance du contact, ce dernier refuse simplement de s’y
-essayer. Le personnage peut tenter de persuader son contact en
-lui offrant des compensations pour ses efforts, comme de l’or,
-des pierres précieuses, un objet magique ou un service. En règle
-générale, le personnage peut temporairement augmenter la
-valeur de confiance de son contact de 1 point en lui offrant quelque
-chose d’une valeur égale à la moitié de sa valeur d’équipement (cf.
-Table 14-9 : équipement des PNJ, p. 460 du Manuel des Joueurs). Il
-ne peut pas offrir un plus grand prix pour augmenter la valeur de
-confiance de son contact de plus de 1 point.
-Si la valeur de confiance est égale ou supérieure à la valeur de
-risque, le personnage doit essayer de négocier en faisant un test
-opposé de Diplomatie contre son contact, afin de déterminer
-si celui-ci accomplira la tâche ou non. Le contact rajoute
-la valeur de risque de la tâche à son test de Diplomatie. Si le
-personnage réussit son test, le contact est prêt à l’aider et est
-en mesure de le faire (même s’il est possible que ses services
-aient un prix). S’il échoue, cela ne veut pas forcément dire que
-le contact ne souhaite pas l’aider : il pourrait tout simplement
-être indisponible ou dans l’incapacité de l’aider à ce moment-là.
-Une fois que le contact a accepté d’aider le personnage, le MJ doit
-déterminer l’étendue de la réussite. Il fait alors un test au nom du
-contact en utilisant la compétence du contact la plus adaptée à la
-tâche (ou un test de caractéristique, si aucune de ses compétences
-ne convient). Le DD de ce test est fixé par la formule suivante :
+{s:Reference|VALEURDERISQUE}
+Voici les différents exemples de risques. Le MJ devrait considérer ces exemples comme des indications pour déterminer à quel point une tâche est risquée.
+* '''1. Aucun.''' Parmi les tâches sans risque, on trouve : porter un message à l’un des alliés du personnage dans une ville
+voisine, diriger le personnage vers un marchand réputé, réparer son équipement, lui révéler quelques rumeurs mineures ou obtenir d’un sage le droit de consulter un livre d’histoire ou une carte. Ces tâches peuvent être malvenues mais le contact ne risque rien à les accomplir. '''''Échec critique.''''' Aucune conséquence notable.
+* '''2. Mineur.''' Les tâches à risque mineur : laisser délibérément déverrouillée une porte menant à une zone privée, obtenir un objet semi-légal pour le personnage ou lui trouver un endroit où se cacher. Les conséquences négatives peuvent se traduire par une petite amende, la colère des autorités locales, une petite perte financière ou une humiliation sociale. '''''Échec critique.''''' Amende ou emprisonnement sous caution. Le personnage doit dépenser 1/3 de la [[Créer des PNJ#EQUIPEMENTPNJ|valeur de l’équipement]] de son contact  pour rectifier la situation. Sinon, le personnage perd son contact et la valeur de confiance de tous ses contacts présents et à venir diminue de 1 à son égard.
+* '''3. Moyen.''' Les tâches à risque moyen incluent de mentir aux autorités pour le compte du personnage, de créer des faux, d’aider le personnage à échapper aux autorités (en lui fournissant par exemple des chevaux ou en lançant un sort de ''[[téléportation]]'') ou de lui prêter de l’argent ou de l’équipement (d’une valeur maximale de 1/3 de la [[Rencontres#TABLERICHESSEPJPARNIVEAU|valeur estimée de l’équipement du personnage]]. Si le contact se fait prendre alors qu’il est en cours de mission, il pourrait avoir à payer une amende, faire l’objet d’une courte peine de prison ou souffrir d’une perte financière ou sociale moyenne. '''''Échec critique.''''' Amende ou emprisonnement sous caution.
+Le personnage doit dépenser 1/2 de la valeur de l’équipement de son contact pour rectifier la situation. Sinon, le
+personnage perd son contact, la valeur de confiance de tous ses contacts présents et à venir est diminuée de 2 à son égard
+et le DD de toutes ses futures tentatives pour augmenter la valeur de confiance de ses contacts augmente de 5.
+* '''4. Considérable.''' Les tâches à risque considérable sont clairement illégales (comme le cambriolage ou le vol) ou moralement douteuses quand elles sont légales (comme une fraude perpétrée en profitant d’obscures failles légales). Si le contact se fait prendre la main dans le sac, il peut faire l’objet d’un emprisonnement, d’une saisie de biens ou perdre certains de ses droits (comme un titre officiel ou un poste important). Il peut être soumis à la flagellation, à la torture ou être réduit en esclavage. '''''Échec critique.'''''Le contact est emprisonné sans caution ou son statut social est réduit à celui d’un paysan. Le personnage doit rendre son statut à son contact, éventuellement en le faisant libérer ou en l’innocentant légalement, ou en le secourant et en l’aidant à se construire une nouvelle vie ailleurs. S’il n’y parvient pas, le personnage perd son contact, la valeur de confiance de tous ses contacts présents et à venir diminue de 3 à son égard et le DD de toutes ses futures tentatives pour augmenter la valeur de confiance de ses contacts augmente de 5.
+* '''5. Énorme.''' Les tâches à risque énorme sont toutes celles dont l’échec entraîne la mort, l’exil ou l’emprisonnement à perpétuité, comme le meurtre, les agressions graves ou la trahison. '''''Échec critique.''''' En l’espace d’une semaine suivant la capture de son contact, le personnage doit faire annuler, rejeter ou révoquer la sentence qui pèse sur lui ou trouver un moyen de l’arracher à son sort. Si le personnage échoue, la valeur de confiance de tous ses contacts présents diminue de 4 à son égard et le DD de toutes ses futures tentatives pour augmenter la valeur de confiance de ses contacts augmente de 5. Les mesures extraordinaires, comme relever le contact d’entre les morts, permettent au personnage de conserver son contact (bien que son statut et son utilité puisse être remis en question si sa réputation a également été détruite). À moins que l’on ne sache que le personnage a eu recours à ces mesures extraordinaires, il conserve son malus de confiance vis-à-vis de ses autres contacts.
 
-DD = 10 + FP de la tâche + valeur de risque de la tâche +
-tout autre modificateur du MJ.
+Pour utiliser un contact, le personnage doit d’abord déterminer la bonne volonté de celui-ci. Pour cela, comparez la valeur de risque de la tâche à la valeur de confiance du contact. Si la valeur de risque de la tâche est supérieure à la valeur de Cconfiance du contact, ce dernier refuse simplement de s’y essayer. Le personnage peut tenter de persuader son contact en
+lui offrant des compensations pour ses efforts, comme de l’or, des pierres précieuses, un objet magique ou un service. En règle générale, le personnage peut temporairement augmenter la valeur de confiance de son contact de 1 point en lui offrant quelque chose d’une valeur égale à la moitié de sa [[Créer des PNJ#EQUIPEMENTPNJ|valeur d’équipement]]. Il ne peut pas offrir un plus grand prix pour augmenter la valeur de confiance de son contact de plus de 1 point.
 
-« Tout autre modificateur du MJ » inclut tous les modificateurs
-que le MJ estime appropriés à la situation, comme un haut
-niveau de surveillance à la fête d’un noble ou une rupture de
-stock temporaire de certains articles du marché noir.
-Rater ce test de 5 ou plus équivaut à un échec critique (cf.
-Le risque, pour les conséquences d’un échec critique).
-La plupart des tâches nécessitent une semaine de travail et le test
-détermine la réussite ou l’échec du contact à la fin de cette période.
-Quand les circonstances sont appropriées, le contact peut diminuer
-le DD de la tâche en passant plus de temps dessus, ce qui correspond
-à la planification et à la préparation de la tâche, au rassemblement
-des ressources et à l’attente du moment propice pour l’accomplir.
-Soustrayez 1 au DD pour chaque jour passé dessus au-delà du
-premier, jusqu’à un maximum de 4 jours supplémentaires.
-Le MJ peut décider qu’une tâche particulière prend plus de
-temps et que son accomplissement prend au moins une semaine
-(comme mettre au point un gros braquage ou protéger quelqu’un
-pendant plusieurs jours). Quand la situation est appropriée, le
-contact peut diminuer le DD d’une tâche à long-terme en y
-consacrant un temps proportionnellement plus long. Soustrayez
-1 au DD pour chaque semaine supplémentaire passée dessus,
-jusqu’à un maximum de 4 semaines de plus. Les tâches requérant
-davantage de temps devraient être divisées en plusieurs petites
-tâches et gérées sur une base quotidienne ou hebdomadaire.
-Si la tâche devient plus risquée alors que le contact oeuvre
-encore à sa réalisation, le personnage et celui-ci font un autre
-test opposé de Diplomatie avec la nouvelle valeur de risque
-(même si le personnage n’est pas présent pour discuter avec
-le contact). Cela illustre le fait que le contact pèse le degré de
-confiance qu’il accorde au personnage et le risque de la tâche.
-Si le personnage réussit ce deuxième test, le contact poursuit
-la tâche. S’il échoue, le contact abandonne.
-Chaque fois qu’un contact échoue dans une tâche ou l’abandonne,
-il rajoute un bonus cumulatif de +1 à tous les tests de Diplomatie
-qu’il fait ensuite pour négocier des tâches avec le personnage à
-cause de la frustration, de la crainte d’être relié au personnage ou
-de divers autres raisons. Le personnage peut tenter de convaincre
-son contact de réessayer mais celui-ci doit généralement attendre
-1d4 jours avant de faire une nouvelle tentative et le fait de retenter
-à nouveau la même tâche donne au contact un bonus de +4 à son
-test opposé de Diplomatie pour négocier.
+Si la [[#VALEURDECONFIANCE|valeur de confiance]] est égale ou supérieure à la [[#VALEURDERISQUE|valeur de risque]], le personnage doit essayer de négocier en faisant un test opposé de [[Diplomatie]] contre son contact, afin de déterminer si celui-ci accomplira la tâche ou non. Le contact rajoute la valeur de risque de la tâche à son test de Diplomatie. Si le personnage réussit son test, le contact est prêt à l’aider et est en mesure de le faire (même s’il est possible que ses services aient un prix). S’il échoue, cela ne veut pas forcément dire que le contact ne souhaite pas l’aider : il pourrait tout simplement être indisponible ou dans l’incapacité de l’aider à ce moment-là.
 
-GAGNER, ENTRETENIR ET
-PERDRE DES CONTACTS
-Le MJ peut autoriser les joueurs à commencer la campagne
-avec un contact (qui, en général, a une valeur de confiance
-de 2 ou 3) mais, outre cela, les personnages ne gagnent de
-contacts qu’en jouant, au fil de la campagne. Pour gagner
-un nouveau contact, le personnage doit d’abord gagner la
-confiance du PNJ grâce à des interactions positives répétées
-ou à une seule rencontre approfondie.
-Les interactions positives incluent un appui régulier dans les
-affaires du PNJ, l’apport de certaines formes de compensations
-supplémentaires pour ses efforts, l’accomplissement d’une
-tâche en son nom ou l’utilisation de son influence personnelle
-pour aider le contact à accéder à un plus grand pouvoir ou
-prestige. Parmi les interactions approfondies, on note : sauver
-la vie du PNJ ou de quelqu’un qui lui est cher, protéger sa
-réputation contre des diffamations dévastatrices ou empêcher
-qu’il ne perde sa propriété ou son argent. Une fois que le
-personnage a eu au moins cinq interactions positives ou une
-interaction approfondie avec un PNJ, il peut alors le considérer
-comme un contact. Cela signifie que le personnage peut lui
-demander de l’aide et qu’il peut tenter d’augmenter la valeur
-de confiance de ce contact à son égard.
-La relation que le personnage entretient avec un contact se
-développe à mesure qu’il passe du temps avec lui. À chaque
-interaction positive ou approfondie avec son contact (mais
-pas plus d’une fois par niveau de personnage), il fait un test
-de Diplomatie pour augmenter la valeur de confiance de
-son contact de 1. S’il s’agit d’une interaction approfondie, et
-non pas simplement positive, le personnage gagne un bonus
-de +5 à son test de Diplomatie. Le DD du test dépend de la
-valeur de confiance du contact à l’égard du personnage.
+Une fois que le contact a accepté d’aider le personnage, le MJ doit déterminer l’étendue de la réussite. Il fait alors un test au nom du contact en utilisant la compétence du contact la plus adaptée à la tâche (ou un test de [[caractéristique]], si aucune de ses compétences ne convient). Le DD de ce test est fixé par la formule suivante :
 
-CONFIANCE DU PNJ (VALEUR) DD DE DIPLOMATIE*
-Méfiant (1) 20
-Sceptique (2) 15
-Fiable (3) 10
-Digne de confiance (4) 15
-Confident (5) 20
-* Si le contact a un bonus aux tests de Diplomatie qu’il fait pour négocier avec le personnage après avoir échoué dans une tâche ou après l’avoir abandonnée, ajoutez ce bonus au DD.
+<center>
+'''DD = 10 + FP de la tâche + valeur de risque de la tâche + tout autre modificateur du MJ.'''
+</center>
 
-Si le personnage ne voit pas son contact pendant un mois
-ou plus, la valeur de confiance de ce dernier pourrait diminuer
-puisqu’il oublie peu à peu le personnage mais il appartient au
-MJ d’en décider. Si cela devait arriver, le personnage fait un
-test de Diplomatie contre le DD ci-dessus. S’il réussit, la valeur
-de confiance du contact reste la même, et s’il échoue, elle
-diminue de 1 (1 au minimum). Selon décision du MJ, certains
-contacts ayant une relation particulière avec le personnage,
-comme les amis d’enfance ou les anciens mentors, ne pas
-perdent pas ainsi confiance ou exigent que le personnage fasse
-ces tests une fois par an plutôt qu’une fois par mois.
-Mettre fin à une relation avec un contact, ce peut être facile
-ou compliqué en fonction de l’identité du contact et du genre de
-relation qu’il entretient avec le personnage. La manière dont le
-personnage met fin à une relation avec un contact peut affecter la
-valeur de confiance de ses autres contacts. Dans certains cas, il suffit
-d’éviter un contact pendant suffisamment longtemps (afin que sa
-valeur de confiance tombe à 1) pour mettre fin à la relation sans
-rancune. Il appartient au MJ de décider de ce que le personnage
-doit faire pour perdre un contact de telle manière que la valeur de
-confiance de ses autres contacts ne soit pas affectée, mais si le MJ
-doit pécher, que ce soit par excès de clémence : si le personnage a
-fait l’effort de gagner beaucoup de contacts, le MJ ne devrait pas le
-punir en réduisant la valeur de confiance de tous ses contacts pour
-la seule raison qu’il a cessé d’interagir avec certains d’entre eux.
+« Tout autre modificateur du MJ » inclut tous les modificateurs que le MJ estime appropriés à la situation, comme un haut niveau de surveillance à la fête d’un noble ou une rupture de stock temporaire de certains articles du marché noir.
 
-LES TYPES DE CONTACTS
-Les contacts forment un monde aussi divers et compliqué
-que peut l’être une société humanoïde. Les contacts simples ne
-fournissent au personnage que des informations de base, comme
-les routes où il y a le moins de bandits ou les puits ayant l’eau la
-plus claire. Les contacts ayant davantage d’expérience, de pouvoir et
-d’influence sont capables d’offrir une aide plus avancée. Le scribe
-d’un politicien pourrait dévoiler des informations ou altérer un
-document important tandis qu’un ecclésiastique de haut-rang
-pourrait prêter une relique sacrée. Du fait de cette diversité, le
-PJ court plus de risques quand il s’associe avec certains types de
-contacts : une conversation avec le meunier du coin ou avec un
-bûcheron attirera nettement moins l’attention qu’une discussion
-avec la soeur d’un puissant maître de guilde ou plusieurs visites dans
-les quartiers du grand vizir. De la même manière, s’il demande à un
-assassin notoire d’aller vérifier si un ami magicien souffrant est en
-voie de guérison, les gens pourraient être interprété cela comme
-une menace. S’il demande à un contact magicien dérangé plutôt
-qu’à un barde populaire de lui en dire plus sur les rumeurs locales
-il donnera une mauvaise image de lui et s’il fréquente des criminels
-ou d’autres individus louches les autorités locales ont de grandes
-chances de le soupçonner d’enfreindre la loi par association.
-Certains exemples de contacts qui suivent s’accompagnent d’un
-risque minimum (rm). Quand vous faites le test de négociation,
-utilisez le score le plus élevé entre la valeur de risque de la tâche
-ou le rm du contact. Par exemple, demander à un contact de
-récupérer un objet au marché noir est généralement une tâche
-mineure (valeur de risque 2) mais demander à un contact assassin
-(rm 3) d’obtenir le même objet rend le test un peu plus risqué
-(valeur de risque 3) puisque la nature et la réputation de l’assassin
-rendent les tâches même les plus courantes plus hasardeuses.
-Le DD du test de compétence pour accomplir la tâche
-utilise la valeur de risque de la tâche, non le rm du contact. Par
-exemple, ce n’est pas parce qu’un maître assassin est un contact
-intrinsèquement dangereux qu’il est automatiquement plus
-dur pour lui de trouver un objet au marché noir.
-Il arrive qu’un contact particulier ait un risque minimum
-supérieur à celui indiqué : ceux qui sont présentés-là ne sont
+Rater ce test de 5 ou plus équivaut à un échec critique (cf. Le risque, pour les conséquences d’un échec critique).
+
+<div style="background-color: #fff; float: right; padding: 0 0 12px 12px">
+{s:Reference|TESTDENÉGOCIATION}
+===Les tests de négociation===
+<div style="background-color: #fff; float: right; padding: 0 0 12px 12px">
+{| CLASS="tablo autoalt"
+|+ Négociation avec le contact
+|- CLASS="titre"
+| Confiance du PNJ || Valeur || DD de Diplomatie*
+|- Class="premier"
+| Méfiant || 1 || 20
+|-
+| Sceptique || 2 || 15
+|-
+| Fiable || 3 || 10
+|-
+| Digne de confiance || 4 || 15
+|-
+| Confident || 5 || 20
+|- CLASS="note"
+| COLSPAN="23" | <nowiki>*</nowiki> Si le contact a un bonus aux tests de Diplomatie qu’il fait pour négocier avec le personnage après avoir échoué dans une tâche ou après l’avoir abandonnée, ajoutez ce bonus au DD.
+|}
+</div>
+
+La plupart des tâches nécessitent une semaine de travail et le test détermine la réussite ou l’échec du contact à la fin de cette période. Quand les circonstances sont appropriées, le contact peut diminuer le DD de la tâche en passant plus de temps dessus, ce qui correspond à la planification et à la préparation de la tâche, au rassemblement des ressources et à l’attente du moment propice pour l’accomplir. Soustrayez 1 au DD pour chaque jour passé dessus au-delà du premier, jusqu’à un maximum de 4 jours supplémentaires.
+
+Le MJ peut décider qu’une tâche particulière prend plus de temps et que son accomplissement prend au moins une semaine (comme mettre au point un gros braquage ou protéger quelqu’un pendant plusieurs jours). Quand la situation est appropriée, le contact peut diminuer le DD d’une tâche à long-terme en y consacrant un temps proportionnellement plus long. Soustrayez 1 au DD pour chaque semaine supplémentaire passée dessus, jusqu’à un maximum de 4 semaines de plus. Les tâches requérant davantage de temps devraient être divisées en plusieurs petites tâches et gérées sur une base quotidienne ou hebdomadaire.
+
+Si la tâche devient plus risquée alors que le contact œuvre encore à sa réalisation, le personnage et celui-ci font un autre test opposé de [[Diplomatie]] avec la nouvelle valeur de risque (même si le personnage n’est pas présent pour discuter avec le contact). Cela illustre le fait que le contact pèse le degré de confiance qu’il accorde au personnage et le risque de la tâche. Si le personnage réussit ce deuxième test, le contact poursuit la tâche. S’il échoue, le contact abandonne.
+
+Chaque fois qu’un contact échoue dans une tâche ou l’abandonne, il rajoute un bonus cumulatif de +1 à tous les tests de [[Diplomatie]] qu’il fait ensuite pour négocier des tâches avec le personnage à cause de la frustration, de la crainte d’être relié au personnage ou de divers autres raisons. Le personnage peut tenter de convaincre son contact de réessayer mais celui-ci doit généralement attendre 1d4 jours avant de faire une nouvelle tentative et le fait de retenter à nouveau la même tâche donne au contact un bonus de +4 à son test opposé de Diplomatie pour négocier.
+
+
+===Gagner, entretenir et perdre des contacts===
+Le MJ peut autoriser les joueurs à commencer la campagne avec un contact (qui, en général, a une valeur de confiance de 2 ou 3) mais, outre cela, les personnages ne gagnent de contacts qu’en jouant, au fil de la campagne. Pour gagner un nouveau contact, le personnage doit d’abord gagner la confiance du PNJ grâce à des interactions positives répétées ou à une seule rencontre approfondie.
+
+Les interactions positives incluent un appui régulier dans les affaires du PNJ, l’apport de certaines formes de compensations supplémentaires pour ses efforts, l’accomplissement d’une tâche en son nom ou l’utilisation de son influence personnelle pour aider le contact à accéder à un plus grand pouvoir ou prestige. Parmi les interactions approfondies, on note : sauver la vie du PNJ ou de quelqu’un qui lui est cher, protéger sa réputation contre des diffamations dévastatrices ou empêcher qu’il ne perde sa propriété ou son argent. Une fois que le personnage a eu au moins cinq interactions positives ou une interaction approfondie avec un PNJ, il peut alors le considérer comme un contact. Cela signifie que le personnage peut lui demander de l’aide et qu’il peut tenter d’augmenter la valeur de confiance de ce contact à son égard.
+
+La relation que le personnage entretient avec un contact se développe à mesure qu’il passe du temps avec lui. À chaque interaction positive ou approfondie avec son contact (mais pas plus d’une fois par niveau de personnage), il fait un test de Diplomatie pour augmenter la valeur de confiance de son contact de 1. S’il s’agit d’une interaction approfondie, et non pas simplement positive, le personnage gagne un bonus de +5 à son test de Diplomatie. Le DD du test dépend de la valeur de confiance du contact à l’égard du personnage.
+
+Si le personnage ne voit pas son contact pendant un mois ou plus, la valeur de confiance de ce dernier pourrait diminuer puisqu’il oublie peu à peu le personnage mais il appartient au MJ d’en décider. Si cela devait arriver, le personnage fait un test de Diplomatie contre le DD ci-dessus. S’il réussit, la valeur de confiance du contact reste la même, et s’il échoue, elle diminue de 1 (1 au minimum). Selon décision du MJ, certains contacts ayant une relation particulière avec le personnage, comme les amis d’enfance ou les anciens mentors, ne pas perdent pas ainsi confiance ou exigent que le personnage fasse ces tests une fois par an plutôt qu’une fois par mois.
+
+Mettre fin à une relation avec un contact, ce peut être facile ou compliqué en fonction de l’identité du contact et du genre de relation qu’il entretient avec le personnage. La manière dont le personnage met fin à une relation avec un contact peut affecter la valeur de confiance de ses autres contacts. Dans certains cas, il suffit d’éviter un contact pendant suffisamment longtemps (afin que sa valeur de confiance tombe à 1) pour mettre fin à la relation sans rancune. Il appartient au MJ de décider de ce que le personnage doit faire pour perdre un contact de telle manière que la valeur de confiance de ses autres contacts ne soit pas affectée, mais si le MJ doit pécher, que ce soit par excès de clémence : si le personnage a fait l’effort de gagner beaucoup de contacts, le MJ ne devrait pas le punir en réduisant la valeur de confiance de tous ses contacts pour la seule raison qu’il a cessé d’interagir avec certains d’entre eux.
+
+===Les types de contacts===
+Les contacts forment un monde aussi divers et compliqué que peut l’être une société humanoïde. Les contacts simples ne
+fournissent au personnage que des informations de base, comme les routes où il y a le moins de bandits ou les puits ayant l’eau la plus claire. Les contacts ayant davantage d’expérience, de pouvoir et d’influence sont capables d’offrir une aide plus avancée. Le scribe d’un politicien pourrait dévoiler des informations ou altérer un document important tandis qu’un ecclésiastique de haut-rang pourrait prêter une relique sacrée. 
+
+Du fait de cette diversité, le PJ court plus de risques quand il s’associe avec certains types de contacts : une conversation avec le meunier du coin ou avec un bûcheron attirera nettement moins l’attention qu’une discussion avec la soeur d’un puissant maître de guilde ou plusieurs visites dans les quartiers du grand vizir. De la même manière, s’il demande à un assassin notoire d’aller vérifier si un ami magicien souffrant est en voie de guérison, les gens pourraient interpréter cela comme une menace. S’il demande à un contact magicien dérangé plutôt qu’à un barde populaire de lui en dire plus sur les rumeurs locales, il donnera une mauvaise image de lui et s’il fréquente des criminels ou d’autres individus louches, les autorités locales ont de grandes chances de le soupçonner d’enfreindre la loi par association.
+
+{s:Reference|RISQUEMINIMUM}
+Certains exemples de contacts qui suivent s’accompagnent d’un risque minimum (rm). 
+
+Quand vous faites le test de négociation, utilisez le score le plus élevé entre la valeur de risque de la tâche ou le rm du contact. Par exemple, demander à un contact de récupérer un objet au marché noir est généralement une tâche mineure (valeur de risque 2) mais demander à un contact assassin (rm 3) d’obtenir le même objet rend le test un peu plus risqué (valeur de risque 3) puisque la nature et la réputation de l’assassin rendent les tâches même les plus courantes plus hasardeuses.
+
+Le DD du test de compétence pour accomplir la tâche utilise la valeur de risque de la tâche, non le rm du contact. Par exemple, ce n’est pas parce qu’un maître assassin est un contact intrinsèquement dangereux qu’il est automatiquement plus dur pour lui de trouver un objet au marché noir.
+
+Il arrive qu’un contact particulier ait un risque minimum supérieur à celui indiqué : ceux qui sont présentés-là ne sont
 que des exemples typiques d’une catégorie générale.
-Aliéné (rm 2). Ce contact peut très bien être un prophète de
-malheur itinérant, un ermite reclus ou un criminel dément
-enfermé dans une cellule miteuse et en mal de compagnie
-humaine. Les aliénés connaissent souvent de sombres
-secrets oubliés, peuvent parler d’évènements apparemment
-insignifiants mais chargés d’indices ou se rappeler avoir vu des
-choses que la plupart préfèreraient oublier. Bien que l’aliéné
-puisse adorer le personnage et faire de véritables efforts pour
-l’aider, la folie pervertit son jugement et son interprétation
-des faits comme de la réalité. Ses divagations s’avèrent parfois
-utiles mais il est d’autres fois où elles sont tout à fait inutiles
-voire même préjudiciables.
-Artisan. Les PJ peuvent compter sur les artisans pour obtenir
-une estimation honnête d’un objet, pour trouver des articles à bon
-prix, pour localiser ou créer des objets ordinaires difficiles à trouver,
-pour trouver du bétail robuste ou pour réparer un objet cassé.
-Assassin (rm 3). L’assassin infectera, empoisonnera
-voire même tuera sur ordre du personnage. La plupart des
-assassins demandent un salaire basé sur la nature de la cible
-mais il existe des assassins religieux qui rendent ces services
-gratuitement pour leurs chefs religieux. Dans la plupart des
-territoires, la peine encourue pour avoir engagé un assassin est
-la même que celle encourue pour avoir commis un meurtre.
-Balance (rm 2). Contrairement à la langue de vipère, la balance
-professionnelle ne marchande que des informations qu’elle sait
-authentiques. Elle s’appuie sur un large éventail de sources et
-vérifie la véracité de leurs rapports. La balance s’attire également
-de nombreux ennemis : elle se donne donc beaucoup de mal pour
-se faire discrète. Elle peut être difficile à contacter et ses services
-sont généralement assez chers. Elle peut fournir des informations
-confidentielles sur les nobles, les membres du clergé, les
-politiciens, les criminels et d’autres personnalités importantes.
-Commère. Ce contact pourrait être un barman, un tavernier,
-un serviteur, une prostituée ou un palefrenier qui rencontre
-régulièrement toutes sortes d’individus. Grégaire et bavard, la
-commère dévoile des informations sur divers clients ou histoires.
-Contrairement à la langue de vipère, la commère ne cherche pas
-activement à distribuer des informations contre de l’argent et ses
-connaissances sont basées sur ce qu’elle entend directement des
-autres. Bien que la commère fournisse des informations utiles, ce
-sont rarement des choses inhabituelles ou secrètes. La commère
-peut savoir, entre autre, le type de personnes qui plaît à un noble
-donné, le jour de la semaine où les navires marchands arrivent
-généralement au port ou les histoires qui circulent au sujet des
-bêtes sauvages ravageant les territoires alentours.
-Criminel à la petite semaine (rm 2). Le criminel à la petite
-semaine s’essaye aux crimes mineurs non-violents comme le
-cambriolage, la contrebande et le blanchiment d’argent. Il se peut
-également qu’il connaisse quelques passages secrets à travers la
-ville et qu’il sache quels sont les fonctionnaires qui acceptent des
-dessous-de-table. Il pourrait accepter de présenter le personnage
-à un criminel professionnel ou à un parrain du crime.
-Criminel professionnel (rm 3). Ce contact appartient à une
-organisation criminelle, à une guilde de voleurs ou à un gang
-de rue connu. Contrairement au criminel à la petite semaine, il
-s’adonne à des crimes plus violents comme les incendies criminels,
-le kidnapping, l’agression et l’extorsion. Le criminel professionnel
-peut très bien connaître ou travailler pour un parrain du crime.
-Étranger (rm 2). L’étranger a ses racines en dehors de la
-communauté dans laquelle il se trouve et, de ce fait, souffre
-de la méfiance et des préjugés des gens du coin. Ce peut être
-un étranger, un membre d’une tribu primitive ou un indigène
-en territoire conquis par des impérialistes. Il fournit des
-informations sur le monde extérieur, notamment sur son lieu de
-naissance et les endroits où il a voyagé. Il connaît des vendeurs
-pour les armes exotiques et d’autres produits importés comme
-les épices et les vins. Il se peut qu’il connaisse des techniques de
-combat, des formules secrètes ou les sorts ésotériques de son
-peuple et qu’il soit capable de les enseigner au personnage.
-Hérétique (rm 2). L’hérétique peut être la risée d’un temple ou
-un dangereux fanatique. Il pourrait savoir quels sont les membres
-du clergé les plus corrompus et avoir accès à de sombres secrets,
-à des caches secrètes d’argent ou de magie, à des preuves de
-mensonges et de conspirations ou à des textes interdits.
-Langue de vipère. La langue de vipère se tient bien
-informée des potins qui circulent sur les manigances sociales
-et politiques ainsi que sur les rumeurs d’évènements ou de
-découvertes intéressants du moment. Elle gagne sa vie en
-achetant et en vendant des informations confidentielles et
-quelque peu sensibles et peut également fournir des détails mal
-connus concernant des évènements d’actualité. La langue de
-vipère est généralement source d’utilité et d’amusement pour sa
-communauté davantage qu’une menace et elle est suffisamment
-prudente pour garder le silence sur les secrets qui mettraient
-sa vie en danger. Mais à l’occasion, elle révèle des informations
-plus dangereuses qu’elle ne l’imagine, mettant ainsi sa vie et
-celles des autres en jeu.
-Malfrat (rm 2). Le malfrat recourt à la force ou aux menaces de
-violence pour influencer les autres. Ce peut être un homme de
-main collectant les dettes pour ses employeurs ou un justicier
-s’occupant des méchants en appliquant son propre sens de la
-justice. Souvent, la seule différence entre le malfrat et le garde de
-la ville, c’est que le malfrat fait son travail en dehors des limites de
-la loi. Il n’est pas nécessairement mauvais mais les autres peuvent
-considérer ses actions comme criminelles. En plus d’effectuer
-des tâches répugnantes, il pourra fournir au personnage des
-détails sur son employeur ou sur ceux qu’il tourmente.
-Manipulateur (rm 2). Le manipulateur dirige généralement un
-réseau clandestin d’agents qui murmurent à l’oreille de puissants
-marchands, nobles, prêtres et politiciens afin de provoquer des
-changements pour le compte de ses clients. En fonction de
-ses motivations personnelles, de la nature de son réseau et de
-la mesure dans laquelle les plans du personnage affectent ses
-autres clients, ses services pourraient être très chers.
-Marchand. Le marchand possède ou dirige une boutique.
-En tant que contact, il peut communiquer des informations
-sur d’autres clients et les potins de base de la ville. Il peut
-également offrir une réduction au personnage sur des biens
-ou des services ou lui faire crédit.
-Observateur. Cette catégorie comprend les mendiants, les
-marchands ambulants, les diseuses de bonne aventure, les ivrognes
-et tous ceux qui passent leur temps à écumer les rues de la ville ou
-les routes de campagne. L’observateur est si banal au milieu de son
-environnement que la plupart des gens l’ignorent quand ils passent
-devant lui. L’observateur se fait témoin de tout ce qui se passe autour
-de lui. Il peut dire l’heure à laquelle s’est déroulé un évènement
-spécifique et qui était dans le coin quand c’est arrivé. Il connaît les
-circuits de la garde de la ville, sait quelles sont les portes qu’elle
-surveille le plus attentivement et reste à l’affût des individus qui se
-cachent au milieu des foules ou partent à des heures curieuses.
-Paria (rm 2). Le paria souffre du dédain d’un groupe donné,
-comme le conseil municipal, les chefs religieux locaux et leur
-congrégation ou encore une communauté toute entière. Bien
-qu’il ne soit pas ouvertement chassé ou persécuté, le paria a très
-peu de droits et aucun privilège. Ce qu’il peut offrir varie d’un
-individu à l’autre. Utilisez un autre type de contact qui servira
-de base pour cette aide mais avec le risque minimum du paria.
-Parrain du crime (rm 3). Ce contact est le chef d’un
-syndicat du crime, comme une guilde de voleurs, une famille
-criminelle ou un culte de nécromants. Un parrain du crime
-accompli est généralement très riche et jouit d’une grande
-connaissance de la région où travaille son organisation. Vu
-ses ressources, il échoue rarement dans ses missions mais
-il exige souvent une forme de paiement pour ses services : il
-sera souvent demandé au personnage de commettre un acte
-illégal profitable au contact ou à son organisation criminelle.
-Politicien (rm 2). Le politicien occupe une position d’influence
-au sein de la structure politique de la communauté. Ce peut être
-un conseiller royal, un membre d’un conseil tribal ou le rejeton
-d’un autre politicien. Le contact jouit d’un accès direct aux oreilles
-et aux intérêts de ceux qui détiennent le pouvoir politique et
-peut tenter d’influencer leurs décisions. Ce genre de contacts
-étant très prisé, leurs actions sont étroitement surveillées pour
-empêcher tout étranger (y compris le personnage) de corrompre
-ou de manipuler ces individus. Bien qu’il ait l’immense potentiel
-d’initier des changements politiques ou sociaux, le politicien est
-sous surveillance permanente. Un politicien tombé en disgrâce
-pourrait devenir une commère, un étranger, un manipulateur,
-voire même un paria ou un traître.
-Receleur (rm 2). Le receleur se spécialise dans l’achat et la vente
-d’objets difficiles à trouver, de babioles magiques et d’articles volés ou illégaux du marché noir (comme les drogues, les poisons et les
-autres produits de contrebande). Bien que les receleurs fassent
-souvent profil bas, beaucoup de gens trouvent leurs services
-suffisamment utiles pour que quelques passages chez le receleur
-local ne ternisse guère la réputation du personnage.
-Saboteur (rm 3). Le saboteur est un expert en destruction
-d’objets et de propriétés, que ce soit par le biais d’incendies
-criminels, de sabordage de navires, de sabotage de ponts
-ou d’installation de pièges mortels. Un saboteur de carrière
-travaille généralement pour une guilde de voleurs ou pour un
-mouvement de résistance dirigé contre les autorités locales.
-Traître (rm 3). Le traître a été accusé ou condamné pour s’être
-dressé contre le gouvernement et pour avoir activement aidé
-ses ennemis. Ce contact n’est pas nécessairement mauvais : il
-rejette simplement et violemment l’idéologie ou les actions
-des dirigeants en place. Un paladin qui rejette les édits d’un
-monarque sans scrupule et une sorcière qui maudit les nobles
-sont tous deux des traîtres aux yeux des dirigeants locaux. Le
-traître sait souvent beaucoup de choses sur le gouvernement et
-pourrait même avoir été un politicien reconnu.
-Universitaire. L’universitaire peut renseigner sur son domaine
-d’expertise. Il a généralement accès à différentes bibliothèques
-ou à d’autres centres de connaissances. L’universitaire fait des
-recherches sur un sujet en fouillant dans les textes et dans les
-archives publiques puis tente de répondre aux questions en
-faisant les tests de Connaissances appropriés.
-Veilleur. Ce contact fournit des informations sur les suspects
-et les criminels locaux ainsi que sur le fonctionnement de la
-garde de la ville et sur les manigances et tendances politiques du
-moment. Il peut garder un oeil sur quelque chose, fournir une
-escorte, permettre au personnage de discuter avec un prisonnier
-ou arranger une rencontre avec un officier supérieur.
 
+<div class="article_2col">
+=====Aliéné (rm 2)=====
+Ce contact peut très bien être un prophète de malheur itinérant, un ermite reclus ou un criminel dément enfermé dans une cellule miteuse et en mal de compagnie humaine. Les aliénés connaissent souvent de sombres secrets oubliés, peuvent parler d’évènements apparemment insignifiants mais chargés d’indices ou se rappeler avoir vu des choses que la plupart préfèreraient oublier. Bien que l’aliéné puisse adorer le personnage et faire de véritables efforts pour l’aider, la folie pervertit son jugement et son interprétation des faits comme de la réalité. Ses divagations s’avèrent parfois utiles mais il est d’autres fois où elles sont tout à fait inutiles voire même préjudiciables.
 
+=====Artisan=====
+Les PJ peuvent compter sur les artisans pour obtenir une estimation honnête d’un objet, pour trouver des articles à bon prix, pour localiser ou créer des objets ordinaires difficiles à trouver, pour trouver du bétail robuste ou pour réparer un objet cassé.
+
+=====Assassin (rm 3)=====
+L’assassin infectera, empoisonnera voire même tuera sur ordre du personnage. La plupart des assassins demandent un salaire basé sur la nature de la cible mais il existe des assassins religieux qui rendent ces services gratuitement pour leurs chefs religieux. Dans la plupart des territoires, la peine encourue pour avoir engagé un assassin est la même que celle encourue pour avoir commis un meurtre.
+
+=====Balance (rm 2)=====
+Contrairement à la langue de vipère, la balance professionnelle ne marchande que des informations qu’elle sait authentiques. Elle s’appuie sur un large éventail de sources et vérifie la véracité de leurs rapports. La balance s’attire également de nombreux ennemis : elle se donne donc beaucoup de mal pour se faire discrète. Elle peut être difficile à contacter et ses services sont généralement assez chers. Elle peut fournir des informations confidentielles sur les nobles, les membres du clergé, les politiciens, les criminels et d’autres personnalités importantes.
+
+=====Commère=====
+Ce contact pourrait être un barman, un tavernier, un serviteur, une prostituée ou un palefrenier qui rencontre régulièrement toutes sortes d’individus. Grégaire et bavard, la commère dévoile des informations sur divers clients ou histoires. Contrairement à la langue de vipère, la commère ne cherche pas activement à distribuer des informations contre de l’argent et ses connaissances sont basées sur ce qu’elle entend directement des autres. Bien que la commère fournisse des informations utiles, ce sont rarement des choses inhabituelles ou secrètes. La commère peut savoir, entre autre, le type de personnes qui plaît à un noble donné, le jour de la semaine où les navires marchands arrivent généralement au port ou les histoires qui circulent au sujet des bêtes sauvages ravageant les territoires alentours.
+
+=====Criminel à la petite semaine (rm 2)=====
+Le criminel à la petite semaine s’essaye aux crimes mineurs non-violents comme le cambriolage, la contrebande et le blanchiment d’argent. Il se peut également qu’il connaisse quelques passages secrets à travers la ville et qu’il sache quels sont les fonctionnaires qui acceptent des dessous-de-table. Il pourrait accepter de présenter le personnage à un criminel professionnel ou à un parrain du crime.
+
+=====Criminel professionnel (rm 3)=====
+Ce contact appartient à une organisation criminelle, à une guilde de voleurs ou à un gang de rue connu. Contrairement au criminel à la petite semaine, il s’adonne à des crimes plus violents comme les incendies criminels, le kidnapping, l’agression et l’extorsion. Le criminel professionnel peut très bien connaître ou travailler pour un parrain du crime.
+
+=====Étranger (rm 2)=====
+L’étranger a ses racines en dehors de la communauté dans laquelle il se trouve et, de ce fait, souffre de la méfiance et des préjugés des gens du coin. Ce peut être un étranger, un membre d’une tribu primitive ou un indigène en territoire conquis par des impérialistes. Il fournit des informations sur le monde extérieur, notamment sur son lieu de naissance et les endroits où il a voyagé. Il connaît des vendeurs pour les armes exotiques et d’autres produits importés comme les épices et les vins. Il se peut qu’il connaisse des techniques de combat, des formules secrètes ou les sorts ésotériques de son peuple et qu’il soit capable de les enseigner au personnage.
+
+=====Hérétique (rm 2)=====
+L’hérétique peut être la risée d’un temple ou un dangereux fanatique. Il pourrait savoir quels sont les membres du clergé les plus corrompus et avoir accès à de sombres secrets, à des caches secrètes d’argent ou de magie, à des preuves de mensonges et de conspirations ou à des textes interdits.
+
+=====Langue de vipère=====
+La langue de vipère se tient bien informée des potins qui circulent sur les manigances sociales et politiques ainsi que sur les rumeurs d’évènements ou de découvertes intéressants du moment. Elle gagne sa vie en achetant et en vendant des informations confidentielles et quelque peu sensibles et peut également fournir des détails mal connus concernant des évènements d’actualité. La langue de vipère est généralement source d’utilité et d’amusement pour sa communauté davantage qu’une menace et elle est suffisamment prudente pour garder le silence sur les secrets qui mettraient sa vie en danger. Mais à l’occasion, elle révèle des informations plus dangereuses qu’elle ne l’imagine, mettant ainsi sa vie et celles des autres en jeu.
+
+=====Malfrat (rm 2)=====
+Le malfrat recourt à la force ou aux menaces de violence pour influencer les autres. Ce peut être un homme de main collectant les dettes pour ses employeurs ou un justicier s’occupant des méchants en appliquant son propre sens de la justice. Souvent, la seule différence entre le malfrat et le garde de la ville, c’est que le malfrat fait son travail en dehors des limites de la loi. Il n’est pas nécessairement mauvais mais les autres peuvent considérer ses actions comme criminelles. En plus d’effectuer des tâches répugnantes, il pourra fournir au personnage des détails sur son employeur ou sur ceux qu’il tourmente.
+
+=====Manipulateur (rm 2)=====
+Le manipulateur dirige généralement un réseau clandestin d’agents qui murmurent à l’oreille de puissants marchands, nobles, prêtres et politiciens afin de provoquer des changements pour le compte de ses clients. En fonction de ses motivations personnelles, de la nature de son réseau et de la mesure dans laquelle les plans du personnage affectent ses autres clients, ses services pourraient être très chers.
+
+=====Marchand=====
+Le marchand possède ou dirige une boutique. En tant que contact, il peut communiquer des informations sur d’autres clients et les potins de base de la ville. Il peut également offrir une réduction au personnage sur des biens ou des services ou lui faire crédit.
+
+=====Observateur=====Cette catégorie comprend les mendiants, les marchands ambulants, les diseuses de bonne aventure, les ivrognes et tous ceux qui passent leur temps à écumer les rues de la ville ou les routes de campagne. L’observateur est si banal au milieu de son environnement que la plupart des gens l’ignorent quand ils passent devant lui. L’observateur se fait témoin de tout ce qui se passe autour de lui. Il peut dire l’heure à laquelle s’est déroulé un évènement spécifique et qui était dans le coin quand c’est arrivé. Il connaît les circuits de la garde de la ville, sait quelles sont les portes qu’elle surveille le plus attentivement et reste à l’affût des individus qui se cachent au milieu des foules ou partent à des heures curieuses.
+
+=====Paria (rm 2)=====
+Le paria souffre du dédain d’un groupe donné, comme le conseil municipal, les chefs religieux locaux et leur congrégation ou encore une communauté toute entière. Bien qu’il ne soit pas ouvertement chassé ou persécuté, le paria a très peu de droits et aucun privilège. Ce qu’il peut offrir varie d’un individu à l’autre. Utilisez un autre type de contact qui servira de base pour cette aide mais avec le risque minimum du paria.
+
+=====Parrain du crime (rm 3)=====
+Ce contact est le chef d’un syndicat du crime, comme une guilde de voleurs, une famille criminelle ou un culte de nécromants. Un parrain du crime accompli est généralement très riche et jouit d’une grande connaissance de la région où travaille son organisation. Vu ses ressources, il échoue rarement dans ses missions mais il exige souvent une forme de paiement pour ses services : il sera souvent demandé au personnage de commettre un acte illégal profitable au contact ou à son organisation criminelle.
+
+=====Politicien (rm 2)=====
+Le politicien occupe une position d’influence au sein de la structure politique de la communauté. Ce peut être un conseiller royal, un membre d’un conseil tribal ou le rejeton d’un autre politicien. Le contact jouit d’un accès direct aux oreilles et aux intérêts de ceux qui détiennent le pouvoir politique et peut tenter d’influencer leurs décisions. Ce genre de contacts étant très prisé, leurs actions sont étroitement surveillées pour empêcher tout étranger (y compris le personnage) de corrompre ou de manipuler ces individus. Bien qu’il ait l’immense potentiel d’initier des changements politiques ou sociaux, le politicien est sous surveillance permanente. Un politicien tombé en disgrâce pourrait devenir une commère, un étranger, un manipulateur, voire même un paria ou un traître.
+
+=====Receleur (rm 2)=====
+Le receleur se spécialise dans l’achat et la vente d’objets difficiles à trouver, de babioles magiques et d’articles volés ou illégaux du marché noir (comme les drogues, les poisons et les autres produits de contrebande). Bien que les receleurs fassent souvent profil bas, beaucoup de gens trouvent leurs services suffisamment utiles pour que quelques passages chez le receleur local ne ternisse guère la réputation du personnage.
+
+=====Saboteur (rm 3)=====
+Le saboteur est un expert en destruction d’objets et de propriétés, que ce soit par le biais d’incendies criminels, de sabordage de navires, de sabotage de ponts ou d’installation de pièges mortels. Un saboteur de carrière travaille généralement pour une guilde de voleurs ou pour un mouvement de résistance dirigé contre les autorités locales.
+
+=====Traître (rm 3)=====
+Le traître a été accusé ou condamné pour s’être dressé contre le gouvernement et pour avoir activement aidé ses ennemis. Ce contact n’est pas nécessairement mauvais : il rejette simplement et violemment l’idéologie ou les actions des dirigeants en place. Un paladin qui rejette les édits d’un monarque sans scrupule et une sorcière qui maudit les nobles sont tous deux des traîtres aux yeux des dirigeants locaux. Le traître sait souvent beaucoup de choses sur le gouvernement et pourrait même avoir été un politicien reconnu.
+
+=====Universitaire=====
+L’universitaire peut renseigner sur son domaine d’expertise. Il a généralement accès à différentes bibliothèques ou à d’autres centres de connaissances. L’universitaire fait des recherches sur un sujet en fouillant dans les textes et dans les archives publiques puis tente de répondre aux questions en faisant les tests de Connaissances appropriés.
+
+=====Veilleur=====
+Ce contact fournit des informations sur les suspects et les criminels locaux ainsi que sur le fonctionnement de la garde de la ville et sur les manigances et tendances politiques du moment. Il peut garder un oeil sur quelque chose, fournir une escorte, permettre au personnage de discuter avec un prisonnier ou arranger une rencontre avec un officier supérieur.</div>

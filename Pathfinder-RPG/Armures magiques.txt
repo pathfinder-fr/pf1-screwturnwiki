@@ -1,16 +1,58 @@
 ---
 Name: Pathfinder-RPG.Armures magiques
 Title: Les armures et boucliers magiques
-LastModified: 2020-02-27 02:15
+LastModified: 2020-03-21 19:41
 Categories:
   - 'Armure magique'
   - 'Manuel des joueurs, règles avancées'
   - 'Manuel des races'
 ---
-<div style="float: right; padding: 0 0 8px 8px">{toc}
-</div>
-{s:Reference|BONUSALTERATION}{s:Desambi|Les [[armes magiques]] possèdent également un [[armes magiques#BONUSALTERATION|bonus d'altération]].}Les armures et boucliers magiques offrent à leur utilisateur une protection supplémentaire, sous la forme d’un bonus d’altération (au maximum de +5) qui s’ajoute au bonus à la [[CA]] de l’objet lui-même. Les bonus d’une armure, d’un bouclier et de leur magie respective sont cumulatifs. Toutes les armures et tous les boucliers magiques sont des versions de maître, leur malus d’armure aux tests est ainsi réduit de 1.
+{s:MenuObjetsMagiques}
+{s:Reference|BONUSALTERATION}{s:Desambi|Les [[armes magiques]] possèdent également un [[armes magiques#BONUSALTERATION|bonus d'altération]].}
+Les armures et boucliers magiques offrent à leur utilisateur une protection supplémentaire, sous la forme d’un bonus d’altération (au maximum de +5) qui s’ajoute au bonus à la [[CA]] de l’objet lui-même. Les bonus d’une armure, d’un bouclier et de leur magie respective sont cumulatifs. Toutes les armures et tous les boucliers magiques sont des versions [[armure de maître|de maître]], leur malus d’armure aux tests est ainsi réduit de 1.
 
+<div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+<center>
+{| CLASS="tablo centre"
+|+ {s:Reference|PRIXBONUSDALTERATION} Prix des bonus d'altération des armures et des boucliers
+|- CLASS="titre"
+| Bonus d'altération
+| Prix de vente
+|- CLASS="premier"
+| +1 
+| 1 000 po
+|- CLASS="alt"
+| +2 
+| 4 000 po
+|-
+| +3 
+| 9 000 po
+|- CLASS="alt"
+| +4 
+| 16 000 po
+|-
+| +5 
+| 25 000 po
+|- CLASS="alt"
+| +6<sup>[[armures magiques#NOTE1|1]]</sup>
+| 36 000 po
+|-
+| +7<sup>[[armures magiques#NOTE1|1]]</sup>
+| 49 000 po
+|- CLASS="alt"
+| +8<sup>[[armures magiques#NOTE1|1]]</sup>
+| 64 000 po
+|-
+| +9<sup>[[armures magiques#NOTE1|1]]</sup> 
+| 81 000 po
+|- CLASS="alt"
+| +10<sup>[[armures magiques#NOTE1|1]]</sup>
+| 100 000 po
+|- CLASS="note"
+| COLSPAN="2" | {s:Reference|NOTE1}''(1) Le bonus numérique effectif de l’armure ou du bouclier ne peut <br> être supérieur à +5. Utilisez ces lignes pour déterminer le prix des<br> armures et des boucliers possédant des propriétés spéciales.''
+|}
+</center></div></div>
 Une armure peut, en plus de son bonus d’altération, posséder certaines propriétés. Celles-ci sont considérées comme un bonus supplémentaire pour ce qui est du prix de l’armure, même si elles n’ont aucune influence sur la [[CA]]. Une armure ne peut jamais avoir un bonus total (bonus d’altération plus bonus du aux propriétés, y compris celles qui proviennent des aptitudes du personnage et des sorts) supérieur à +10. Toute armure possédant une propriété spéciale doit avoir un bonus d’altération d’au moins +1.
 
 Les armures et les boucliers peuvent être fabriqués dans un matériau inhabituel. Lancez 1d100 : sur un résultat de 01–95, l’objet est d’un matériau standard et, sur 96–100, il est fait d’un matériau spécial (voir la Section "[[Matériaux spéciaux|Les matériaux spéciaux]]").
@@ -19,7 +61,7 @@ Même si l’armure est accompagnée de bottes, de gantelets ou d’un heaume, c
 
 '''Niveau de lanceur de sorts des armures et boucliers magiques.''' Le niveau de lanceur de sorts d’une armure ou d’un bouclier possédant une ou plusieurs propriétés spéciales est indiqué dans la description de l’objet. Si l’armure ou le bouclier bénéficie seulement d’un [[armures magiques#BONUSALTERATION|bonus d’altération]], son niveau de lanceur de sorts est égal à trois fois son bonus. Si l’objet possède un [[armures magiques#BONUSALTERATION|bonus d’altération]] ainsi que des propriétés magiques, le plus haut niveau de lanceur de sorts entre les deux est celui qui doit être considéré.
 
-'''Boucliers.''' Le [[armures magiques#BONUSALTERATION|bonus d’altération]] d’un bouclier magique se cumule avec le [[armures magiques#BONUSALTERATION|bonus d’altération]] d’une armure magique. Le [[armures magiques#BONUSALTERATION|bonus d’altération]] du bouclier n’est pas comptabilisé dans le [[jet dattaque|jet d’attaque]] ou de dégâts dans le cas d’un coup de bouclier. La propriété spéciale d’attaque confère un [[armures magiques#BONUSALTERATION|bonus d’altération]] de +1 aux [[jet dattaque|jets d’attaque]] et de dégâts avec un bouclier (voir la description de la capacité spéciale "[[Armures magiques#Attaque|Attaque]]").
+'''Boucliers.''' Le [[armures magiques#BONUSALTERATION|bonus d’altération]] d’un bouclier magique se cumule avec le [[armures magiques#BONUSALTERATION|bonus d’altération]] d’une armure magique. Le [[armures magiques#BONUSALTERATION|bonus d’altération]] du bouclier n’est pas comptabilisé dans le [[jet dattaque|jet d’attaque]] ou de dégâts dans le cas d’un coup de bouclier. La propriété spéciale d’attaque confère un [[armures magiques#BONUSALTERATION|bonus d’altération]] de +1 aux [[jet dattaque|jets d’attaque]] et de dégâts avec un bouclier (voir la description de la capacité spéciale "[[attaque (propriété)|attaque]]").
 
 Il est possible de faire d’un bouclier une arme magique, mais il faut alors ajouter aux coûts du [[armures magiques#BONUSALTERATION|bonus d’altération]] à la [[CA]] ceux du [[armures magiques#BONUSALTERATION|bonus d’altération]] aux [[jet dattaque|jets d’attaque]] et aux dégâts.
 
@@ -27,651 +69,319 @@ De la même façon que pour les armures, les propriétés spéciales d’un bouc
 
 '''Activation.''' Une armure ou un bouclier magique fonctionne en général de la même manière qu’un modèle normal, offrant à son utilisateur les mêmes avantages. Si l’armure ou le bouclier possède une propriété qui doit être activée volontairement, cela se fait le plus souvent par le biais d’un [[Règles relatives aux objets magiques#OBJETSAMOTDECOMMANDE|mot de commande]] (une [[action simple]]).
 
-'''Armures pour les créatures de taille inhabituelle.''' Le prix des armures conçues pour les créatures non humanoïdes ou d’une catégorie de taille autre que P ou M est différent de celui qui est indiqué (voir la Section "[[Caractéristiques des armures#ARMURESINHABITUELLES|Armures pour créatures inhabituelles]]"). Le coût de la qualité [[Caractéristiques des armures#ARMURESMAITRE|de maître]] et de l’altération magique restent les mêmes quelle que soit la taille de l’armure.
+'''Armures pour les créatures de taille inhabituelle.''' Le prix des armures conçues pour les créatures non humanoïdes ou d’une catégorie de taille autre que P ou M est différent de celui qui est indiqué (voir la Section "[[Caractéristiques des armures#ARMURESINHABITUELLES|Armures pour créatures inhabituelles]]"). Le coût de la qualité [[armure de maître|de maître]] et de l’altération magique restent les mêmes quelle que soit la taille de l’armure.
 
-{s:Reference|DETERMINATION}
-<center>
-{| CLASS="tablo col1centre"
-|+ Armures et boucliers
-|- CLASS="titre"
-| Faible || Intermédiaire || Puissant || Objet || Prix de vente
-|- CLASS="premier"
-| 01–60 || 01–05 || — || ''Bouclier +1'' || +1 000 po
-|- CLASS="alt"
-| 61–80 || 06–10 || — || ''Armure +1'' || +1 000 po
-|-
-| 81–85 || 11–20 || — || ''Bouclier +2'' || +4 000 po
-|- CLASS="alt"
-| 86–87 || 21–30 || — || ''Armure +2'' || +4 000 po
-|-
-| — || 31–40 || 01–08 || ''Bouclier +3'' || +9 000 po
-|- CLASS="alt"
-| — || 41–50 || 09–16 || ''Armure +3'' || +9 000 po
-|-
-| — || 51–55 || 17–27 || ''Bouclier +4'' || +16 000 po
-|- CLASS="alt"
-| — || 56–57 || 28–38 || ''Armure +4'' || +16 000 po
-|-
-| — || — || 39–49 || ''Bouclier +''5 || +25 000 po
-|- CLASS="alt"
-| — || — || 50–57 || ''Armure +5'' || +25 000 po
-|-
-| — || — || — || ''Armure/bouclier +6[[Armures magiques#NOTE|*]]'' || +36 000 po
-|- CLASS="alt"
-| — || — || — || ''Armure/bouclier +7[[Armures magiques#NOTE|*]]'' || +49 000 po
-|-
-| — || — || — || ''Armure/bouclier +8[[Armures magiques#NOTE|*]]'' || +64 000 po
-|- CLASS="alt"
-| — || — || — || ''Armure/bouclier +9[[Armures magiques#NOTE|*]]'' || +81 000 po
-|-
-| — || — || — || ''Armure/bouclier +10[[Armures magiques#NOTE|*]]'' || +100 000 po
-|- CLASS="alt"
-| 88–89 || 58–60 || 58–60 || [[Armures magiques#DTMARMURESPECIFIQUE|Armure spécifique]] || —
-|-
-| 90–91 || 61–63 || 61–63 || [[Armures magiques#DTMBOUCLIERSPECIFIQUE|Bouclier spécifique]] || —
-|- CLASS="alt"
-| 92–100 || 64–100 || 64–100 || Propriété spéciale <br/>([[Armures magiques#DTMSPECIALEARMURE|armure]] ou [[Armures magiques#DTMSPECIALEBOUCLIER|bouclier]])<br/> et relancez le dé || —
-|-
-| COLSPAN="5" CLASS="note" | {s:Reference|NOTE}''(*) Le bonus effectif de l’armure ou du bouclier ne peut être supérieur à +5. Ces lignes <br/>indiquent le prix des armures et boucliers possédant des propriétés spéciales.''
-|}
-</center>
-
-{s:Reference|PROPRIETESSPECIALES}
-=== Propriétés spéciales des armures magiques ===
-La plupart des armures et boucliers magiques possèdent simplement un [[armures magiques#BONUSALTERATION|bonus d’altération]], mais certains peuvent également avoir une ou plusieurs des propriétés spéciales décrites ci-après. Une armure ou un bouclier ayant une propriété spéciale doit avoir un [[armures magiques#BONUSALTERATION|bonus d’altération]] d’au moins +1.
-
-{s:Reference|DTMSPECIALEARMURE}
-<center>
-{| CLASS="tablo col1centre"
-|+ Propriété spéciales des armures (Manuel des Joueurs)
-|- CLASS="titre"
-| Faible || Intermédiaire || Puissante || Propriété spéciale || Modificateur<br/> au prix de base
-|- CLASS="premier"
-| 01–25 || 01–05 || 01–03 || ''[[Armures magiques#Mimétisme|Mimétisme]]'' || +2 700 po
-|- CLASS="alt"
-| 26–32 || 06–08 || 04 || ''[[Armures magiques#Défense|Défense légère]]'' || bonus de +1<sup>[[Armures magiques#NOTE1|1]]</sup>
-|-
-| 33–52 || 09–11 || — || ''[[Armures magiques#Graisseuse|Graisseuse]]'' || +3 750 po
-|- CLASS="alt"
-| 53–92 || 12–17 || — || ''[[Armures magiques#Ombre|Ombre]]'' || +3 750 po
-|-
-| 93–96 || 18–19 || — || ''[[Armures magiques#Résistanceàlamagie|Résistance à la magie (13)]]'' || bonus de +2<sup>[[Armures magiques#NOTE1|1]]</sup>
-|- CLASS="alt"
-| 97 || 20–29 || 05–07 || ''[[Armures magiques#Graisseusesupérieure|Graisseuse supérieure]]'' || +15,000 po
-|-
-| 98–99 || 30–49 || 08–13 || ''[[Armures magiques#Ombresupérieure|Ombre supérieure]]'' || +15,000 po
-|- CLASS="alt"
-| — || 50–74 || 14–28 || ''[[Armures magiques#Résistanceauxénergies|Résistance aux énergies]]'' || +18,000 po
-|-
-| — || 75–79 || 29–33 || ''[[Armures magiques#Spectral|Spectrale]]'' || bonus de +3<sup>[[Armures magiques#NOTE1|1]]</sup>
-|- CLASS="alt"
-| — || 80–84 || 34–35 || ''[[Armures magiques#Invulnérabilité|Invulnérabilité]]'' || bonus de +3<sup>[[Armures magiques#NOTE1|1]]</sup>
-|-
-| — || 85–89 || 36–40 || ''[[Armures magiques#Défense|Défense intermédiaire]]'' || bonus de +3<sup>[[Armures magiques#NOTE1|1]]</sup>
-|- CLASS="alt"
-| — || 90–94 || 41–42 || ''[[Armures magiques#Résistanceàlamagie|Résistance à la magie (15)]]'' || bonus de +3<sup>[[Armures magiques#NOTE1|1]]</sup>
-|-
-| — || 95–99 || 43 || ''[[Armures magiques#Formeanimale|Forme animale]]'' || bonus de +3<sup>[[Armures magiques#NOTE1|1]]</sup>
-|- CLASS="alt"
-| — || — || 44–48 || ''[[Armures magiques#Graisseusesuprême|Graisseuse suprême]]'' || +33 750 po
-|-
-| — || — || 49–58 || ''[[Armures magiques#Ombresuprême|Ombre suprême]]'' || +33 750 po
-|- CLASS="alt"
-| — || — || 59–83 || ''[[Armures magiques#Résistanceauxénergiessupérieure|Résistance aux énergies supérieure]]'' || +42 000 po
-|-
-| — || — || 84–88 || ''[[Armures magiques#Résistanceàlamagie|Résistance à la magie (17)]]'' || bonus de +4<sup>[[Armures magiques#NOTE1|1]]</sup>
-|- CLASS="alt"
-| — || — || 89 || ''[[Armures magiques#Éthérée|Éthérée]]'' || +49,000 po
-|-
-| — || — || 90 || ''[[Armures magiques#Contrôledesmortsvivants|Contrôle des morts-vivants]]'' || +49,000 po
-|- CLASS="alt"
-| — || — || 91–92 || ''[[Armures magiques#Défense|Défense lourde]]'' || bonus de +5[[Armures magiques#NOTE1|1]]
-|-
-| — || — || 93–94 || ''[[Armures magiques#Résistanceàlamagie|Résistance à la magie (19)]]'' || bonus de +5<sup>[[Armures magiques#NOTE1|1]]</sup>
-|- CLASS="alt"
-| — || — || 95–99 || ''[[Armures magiques#Résistanceauxénergiessuprême|Résistance aux énergies suprême]]'' || +66,000 po
-|-
-| 100 || 100 || 100 || Rejouez deux fois le dé<sup>[[Armures magiques#NOTE2|2]]</sup> || —
-|- CLASS="note"
-| COLSPAN=5 | {s:Reference|NOTE1} ''(1) À ajouter au bonus d’altération de manière à déterminer le prix de vente total.''
-|- CLASS="note"
-| COLSPAN=5 | {s:Reference|NOTE2} ''(2) Si vous obtenez deux fois la même propriété, seule la plus forte compte.''
-|}
-
-{| CLASS="tablo col1centre"
-|+ Propriété spéciales des armures (APG)
-|- CLASS="titre"
-| Faible || Intermédiaire || Puissante || Propriété spéciale || Modificateur<br/> au prix de base
-|- CLASS="premier"
-| 01–40 || 01–35 || 01–19 || ''[[Armures magiques#Championne|Championne]]'' || +1 bonus<sup>[[Armures magiques#NOTE1|1]]</sup>
-|- CLASS="alt"
-| 41–80 || 36–66 || 20-37 || ''[[Armures magiques#Fourberie|Fourberie]]'' || +1 bonus<sup>[[Armures magiques#NOTE1|1]]</sup>
-|-
-| 81–99 || 67–70 || 38-39 || ''[[Armures magiques#Joute|Joute]]'' || +3 750 po
-|- CLASS="alt"
-| — || 71-83 || 40-61 || ''[[Armures magiques#Vertueuse|Vertueuse]]'' || +27 000 po
-|-
-| — || 84-96 || 62-80 || ''[[Armures magiques#Impie|Impie]]'' || +27 000 po
-|- CLASS="alt"
-| — || 97-99 || 81-90 || ''[[Armures magiques#Détermination|Détermination]]'' || +30 000 po
-|-
-| 100 || 100 || 91-100 || Relancez deux fois le dé<sup>[[Armures magiques#NOTE2|2]]</sup> || —
-|- CLASS="note"
-| COLSPAN=5 | {s:Reference|NOTE1} ''(1) À ajouter au bonus d’altération de manière à déterminer le prix de vente total.''
-|- CLASS="note"
-| COLSPAN=5 | {s:Reference|NOTE2} ''(2) Si vous obtenez deux fois la même propriété, seule la plus forte compte.''
-|}
-</center>
-
-
-=== Propriétés spéciales des boucliers magiques ===
+=== Propriétés spéciales des armures et boucliers magiques ===
+Une armure ou un bouclier ayant une propriété spéciale doit posséder un bonus d’altération d’au moins +1. Le modificateur au prix de base des propriétés ajoutant un "bonus de +X" doit être ajouté à ce bonus minimum de +1.
 
 <center>
-{s:Reference|DTMSPECIALEBOUCLIER}
-{| CLASS="tablo col1centre"
-|+ Propriété spéciales des boucliers
+{| CLASS="tablo autoalt toutgauche"
+|+ Propriétés ajoutant un prix spécifique
 |- CLASS="titre"
-| Faible || Intermédiaire || Puissante || Propriété spéciale || Modificateur<br/> au prix de base
+| WIDTH="12%" | Propriété
+| WIDTH="3%" | Source
+| WIDTH="11%" | Restrictions
+| WIDTH="61%" | Capacités
+| WIDTH="13%" | Modificateur au prix de base
+
 |- CLASS="premier"
-| 01–20 || 01–10 || 01–05 || ''[[Armures magiques#Interceptiondeprojectiles|Interception de projectiles]]'' || bonus de +1<sup>[[Armures magiques#NOTE1|1]]</sup>
-|- CLASS="alt"
-| 21–40 || 11–20 || 06–08 || ''[[Armures magiques#Attaque|Attaque]]'' || bonus de +1<sup>[[Armures magiques#NOTE1|1]]</sup>
-|-
-| 41–50 || 21–25 || 09–10 || ''[[Armures magiques#Aveuglant|Aveuglant]]'' || bonus de +1<sup>[[Armures magiques#NOTE1|1]]</sup>
-|- CLASS="alt"
-| 51–75 || 26–40 || 11–15 || ''[[Armures magiques#Défense|Défense légère]]'' || bonus de +1<sup>[[Armures magiques#NOTE1|1]]</sup>
-|-
-| 76–92 || 41–50 || 16–20 || ''[[Armures magiques#Antiprojectiles|Antiprojectiles]]'' || bonus de +2<sup>[[Armures magiques#NOTE1|1]]</sup>
-|- CLASS="alt"
-| 93–97 || 51–57 || 21–25 || ''[[Armures magiques#Animé|Animé]]'' || bonus de +2<sup>[[Armures magiques#NOTE1|1]]</sup>
-|-
-| 98–99 || 58–59 || — || ''[[Armures magiques#Résistanceàlamagie|Résistance à la magie (13)]]'' || bonus de +2<sup>[[Armures magiques#NOTE1|1]]</sup>
-|- CLASS="alt"
-| — || 60–79 || 26–41 || ''[[Armures magiques#Résistanceauxénergies|Résistance aux énergies]]'' || +18,000 po
-|-
-| — || 80–85 || 42–46 || ''[[Armures magiques#Spectral|Spectral]]'' || bonus de +3<sup>[[Armures magiques#NOTE1|1]]</sup>
-|- CLASS="alt"
-| — || 86–95 || 47–56 || ''[[Armures magiques#Défense|Défense intermédiaire]]'' || bonus de +3<sup>[[Armures magiques#NOTE1|1]]</sup>
-|-
-| — || 96–98 || 57–58 || ''[[Armures magiques#Résistanceàlamagie|Résistance à la magie (15)]]'' || bonus de +3<sup>[[Armures magiques#NOTE1|1]]</sup>
-|- CLASS="alt"
-| — || 99 || 59 || ''[[Armures magiques#Formeanimale|Forme animale]]'' || bonus de +3<sup>[[Armures magiques#NOTE1|1]]</sup>
-|-
-| — || — || 60–84 || ''[[Armures magiques#Résistanceauxénergiessupérieure|Résistance aux énergies supérieure]]'' || +42,000 po
-|- CLASS="alt"
-| — || — || 85–86 || ''[[Armures magiques#Résistanceàlamagie|Résistance à la magie (17)]]'' || bonus de +4<sup>[[Armures magiques#NOTE1|1]]</sup>
-|-
-| — || — || 87 || ''[[Armures magiques#Contrôledesmortsvivants|Contrôle des morts-vivants]]'' || +49,000 po
-|- CLASS="alt"
-| — || — || 88–91 || ''[[Armures magiques#Défense|Défense lourde]]'' || bonus de +5<sup>[[Armures magiques#NOTE1|1]]</sup>
-|-
-| — || — || 92–93 || ''[[Armures magiques#Réfléchissant|Réfléchissant]]'' || bonus de +5<sup>[[Armures magiques#NOTE1|1]]</sup>
-|- CLASS="alt"
-| — || — || 94 || ''[[Armures magiques#Résistanceàlamagie|Résistance à la magie (19)]]'' || bonus de +5<sup>[[Armures magiques#NOTE1|1]]</sup>
-|-
-| — || — || 95–99 || ''[[Armures magiques#Résistanceauxénergiessuprême|Résistance aux énergies suprême]]'' || +66,000 po
-|- CLASS="alt"
-| 100 || 100 || 100 || Rejouer 2 fois le dé<sup>[[Armures magiques#NOTE2|2]]</sup> || —
-|- CLASS="note"
-| COLSPAN=5 | {s:Reference|NOTE1} ''(1) À ajouter au bonus d’altération de manière à déterminer le prix de vente total.''
-|- CLASS="note"
-| COLSPAN=5 | {s:Reference|NOTE2} ''(2) Si vous obtenez deux fois la même propriété, seule la plus forte compte.''
-|}
-</center>
+| ''[[soutien (propriété armure)|Soutien]]'' || <sup>A&E</sup> || Armures || Ajoute le bonus d’altération de l’armure au bonus conféré par l’action [[actions spéciales#AIDERQQN|aider quelqu’un]] lorsqu’elle est utilisée pour améliorer la [[CA]]. || +2 000 po
 
-=== Description des propriétés spéciales des armures et boucliers magiques ===
-
-<table class="page espace-col deuxcol"><tr><td>
-{s:Reference|Animé}
-<div class="BD">
-{s:BDTitre|Animé|}
-Sur commande, un bouclier animé flotte à côté de son propriétaire, le protégeant aussi bien que si celui-ci le tenait lui-même, bien qu’il ait les deux mains libres, et ce durant 4 rounds au bout desquels le bouclier tombe à terre. Lorsqu’il est animé de la sorte, il fait bénéficier son propriétaire non seulement de sa protection, mais également de toutes ses propriétés spéciales. Il ne peut cependant pas entreprendre d’action par lui-même (comme la propriété spéciale d’[[Armures magiques#Attaque|attaque]] ou [[Armures magiques#Aveuglant|aveuglante]]), mais peut utiliser celles qui ne requièrent pas d’action pour fonctionner (comme [[Armures magiques#Antiprojectiles|antiprojectiles]] ou [[Armures magiques#réfléchissant|réfléchissante]]). Un bouclier animé occupe le même espace que son possesseur, même si celui-ci se déplace par des moyens magiques. Il impose toujours les désavantages liés au port d’un bouclier, comme un malus d’armure aux tests, un risque d’échec des sorts profanes et un malus pour non-formation. S’il a une main libre, le personnage qui a animé le bouclier peut le rattraper en [[action libre]] à la fin des 4 rounds, et le bouclier ne peut plus alors s’animer pendant au moins 4 rounds. Un pavois ne peut bénéficier de cette propriété.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#TRANSMUTATION|Transmutation]] puissante ; '''NLS''' 12 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[animation dobjets|animation d’objets]]'' ; '''Prix''' bonus de +2.
-
-</div>
-
-{s:Reference|Antiprojectiles}
-<div class="BD">
-{s:BDTitre|Antiprojectiles|}
-Un bouclier antiprojectiles protège son porteur comme si celui-ci possédait le don [[Parade de projectiles]]. Une fois par round, quand le personnage devrait être touché par une arme à distance, il peut faire un jet de [[Réflexes]] (de [[DD]] 20 ; si l’arme à distance possède un [[armures magiques#BONUSALTERATION|bonus d’altération]], celui-ci s’ajoute au [[DD]] du jet de [[Réflexes]]). En cas de réussite, le bouclier détourne le projectile. Le personnage doit voir venir l’attaque et ne pas être [[pris au dépourvu]]. Parer un projectile n’est pas considéré comme une action. Les projectiles hors du commun, comme un rocher [[lancer de rochers|lancé par un géant]] ou une flèche acide, ne peuvent être détournés.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#ABJURATION|Abjuration]] faible ; '''NLS''' 5 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[bouclier]]'' ; '''Prix''' bonus de +2.
-
-</div>
-
-{s:Reference|Attaque}
-<div class="BD">
-{s:BDTitre|Attaque|}
-Un bouclier possédant cette capacité est conçu pour porter des coups de bouclier. Il inflige des dégâts comme s’il possédait deux catégories de taille de plus que la sienne (une rondache de taille M inflige 1d6 points de dégâts et un écu de taille M 1d8 points de dégâts). Un bouclier d’attaque est considéré comme une arme +1 lorsqu’il s’agit d’attaquer avec lui. Cette propriété ne peut être placée que sur un écu ou une rondache.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#TRANSMUTATION|Transmutation]] modérée ; '''NLS''' 8 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[force de taureau]]'' ; '''Prix''' bonus de +1.
-
-</div>
-
-{s:Reference|Aveuglant}
-<div class="BD">
-{s:BDTitre|Aveuglant|}
-Cette propriété ne peut être placée que sur un bouclier. Sur [[Règles relatives aux objets magiques#OBJETSAMOTDECOMMANDE|commande]] et jusqu’à deux fois par jour, un bouclier aveuglant peut générer une vive lumière. Toutes les créatures distantes de 6 m ou moins (à l’exception du porteur) doivent réussir un jet de [[Réflexes]] de [[DD]] 14 sous peine d’être [[ébloui|aveuglées]] pendant 1d4 rounds.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#EVOCATION|Évocation]] modérée ; '''NLS''' 7 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[lumière brûlante]]'' ; '''Prix''' bonus de +1.
-
-</div>
-
-{s:Reference|Championne}
-<div class="BD">
-{s:BDTitre|Championne|{s:APG}}
-Cette propriété d’armure ne fonctionne que pour les créatures [[alignement|bonnes]] qui possèdent le pouvoir [[chevalier#DEFI|défi]] (comme les [[chevalier|chevaliers]]) ou [[paladin#CHATIMENTDUMAL|châtiment du mal]] (comme les [[paladin|paladins]], les [[Demi-céleste, archétype|demi-célestes]] et les créatures d’archétype céleste). Quand une créature utilise un de ces pouvoirs alors qu’elle porte un objet doué de cette propriété, elle bénéficie d’un bonus sacré de +2 à la [[CA]] contre les attaques de sa cible.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#ABJURATION|Abjuration]] faible ; '''NLS''' 5 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[protection contre le mal]]'' ou ''[[protection contre le bien]]'' ; '''Prix''' +1 bonus.
-
-</div>
-
-{s:Reference|Contrôledesmortsvivants}
-<div class="BD">
-{s:BDTitre|Contrôle des morts-vivants|}
-{s:Desambi|Contrôle des morts-vivants est également le nom d'un [[contrôle des morts-vivants|don]] et d'un [[sort contrôle des morts-vivants|sort]].}
-Une armure ou un bouclier de contrôle des morts-vivants semble entièrement être fait d’ossements. Cet aspect esthétique n’a cependant aucune incidence sur la [[solidité]] de l’objet. Le porteur de cet objet peut contrôler jusqu’à 26 [[DV]] de [[type mort-vivant|morts-vivants]] par jour, comme s’il utilisait le sort ''[[contrôle des morts-vivants]]''. Le personnage perd son contrôle à l’aube suivante.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#NECROMANCIE|Nécromancie]] puissante ; '''NLS''' 13 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[contrôle des morts-vivants]]'' ; '''Prix''' +49 000 po.
-
-</div>
-
-{s:Reference|Défense}
-<div class="BD">
-{s:BDTitre|Défense|}
-Une armure ou un bouclier de défense crée un champ de force protégeant plus efficacement les organes vitaux du porteur. Quand celui-ci subit un [[coup critique]] ou une [[roublard#ATTAQUESOURNOISE|attaque sournoise]], il y a des chances pour que l’attaque inflige seulement des dégâts normaux.
-
-<center>
-{| CLASS="tablo"
-|- CLASS="titre"
-| Type de défense || Chance dégâts normaux || Mod. prix de base
 |- CLASS="premier"
-| Légère || 25% || Bonus de +1
-|- CLASS="alt"
-| Intermédiaire || 50% || Bonus de +3
-|-
-| Lourde || 75% || Bonus de +5
-|}
-</center>
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#ABJURATION|Abjuration]] puissante ; '''NLS''' 13 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], soit ''[[miracle]]'', soit ''[[souhait limité]]'' ; '''Prix''' variable (voir ci-dessus).
+| ''[[résistance au poison (propriété)|Résistance au poison]]'' || <sup>A&E</sup> || — || Confère un bonus de résistance de +3 aux [[jds|jets de sauvegarde]] contre les poisons. || +2 250 po
 
-</div>
-
-{s:Reference|Détermination}
-<div class="BD">
-{s:BDTitre|Détermination|{s:APG}}
-Une armure ou un bouclier qui possède cette propriété permet de continuer à se battre même quand la situation semble désespérée. Une fois par jour, quand le propriétaire de l’armure tombe à 0 point de vie ou moins, l’objet lui accorde immédiatement les avantages d’un ''[[souffle de vie]]''.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#CONVOCATION|Convocation]] modérée ; '''NLS''' 10 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[souffle de vie]]'' ; '''Prix''' +30 000 po
-
-</div>
-
-{s:Reference|Éthérée}
-<div class="BD">
-{s:BDTitre|Éthérée|}
-Sur commande et une fois par jour, une armure éthérée rend son porteur [[éthéré]] (voir le sort ''[[forme éthérée]]''). Le personnage peut rester dans cet état aussi longtemps qu’il le souhaite, mais à l’instant où il revient dans le [[plan Matériel]], il lui faut attendre vingt-quatre heures avant de pouvoir retourner dans le [[plan Éthéré]].
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#TRANSMUTATION|Transmutation]] puissante ; '''NLS''' 13 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[forme éthérée]]'' ; '''Prix''' +49 000 po.
-
-</div>
-
-{s:Reference|Formeanimale}
-<div class="BD">
-{s:BDTitre|Forme animale|}
-Une armure ou un bouclier de forme animale est décoré de motifs représentant des feuilles. Le porteur de cet objet conserve le bonus d’armure (et tout [[armures magiques#BONUSALTERATION|bonus d’altération]]) lorsqu’il prend une forme animale. L’armure (ou le bouclier) n’est cependant alors pas visible.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#TRANSMUTATION|Transmutation]] modérée ; '''NLS''' 9 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[métamorphose funeste]]'' ; '''Prix''' bonus de +3.
-
-</div>
-
-{s:Reference|Fourberie}
-<div class="BD">
-{s:BDTitre|Fourberie|{s:APG}}
-Cette propriété d’armure ne fonctionne que pour les créatures [[alignement|Mauvaises]] qui possèdent le pouvoir [[chevalier#DEFI|défi]] (comme les [[chevalier|chevaliers]]) ou [[antipaladin#CHATIMENTDUBIEN|châtiment du bien]] (comme les [[antipaladin|antipaladins]], les [[demi-fiélon, archétype|demi-fiélons]] et les créatures d’archétype fiélon). Quand une créature utilise un de ces pouvoirs alors qu’elle porte un objet doué de cette propriété, elle bénéficie d’un bonus de malfaisance de +2 à la [[CA]] contre les attaques de sa cible.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#ABJURATION|Abjuration]] faible  ; '''NLS''' 5  ; [[Création darmes et armures magiques|Création d’armes et armures magiques]],  ''[[protection contre le mal]]'' ou  ''[[protection contre le bien]]'' ; '''prix''' +1 bonus
-
-</div>
-
-{s:Reference|Fumante}
-<div class="BD">
-{s:BDTitre|Fumante|{s:cm}}
-Une armure fumante se compose de nombreuses plaques mobiles pour aider à la ventilation. Trois fois par jour, son propriétaire peut prononcer un mot de commande pour qu’elle dégage un nuage de vapeur brûlante. La vapeur persiste pendant 5 rounds ou jusqu’à ce que le porteur de l’armure la dissipe en prononçant un deuxième mot de commande.
-Quand le porteur prononce le mot de commande puis au début de son tour lors des rounds suivants, la vapeur inflige 1d6 points de dégâts à toute créature en lutte avec lui ou occupant la même case que lui (mais pas à lui). Elle inflige 1 point de dégâts à toute créature se trouvant dans un rayonnement de 1,50 mètre autour du porteur (mais pas à celles qui reçoivent déjà des dégâts parce qu’elles sont en lutte avec lui). Tant que le pouvoir d’armure fumante est actif, une créature qui se trouve dans un rayon de 1,50 mètre autour de son porteur et lui lance une attaque au corps à corps ou tente une manoeuvre offensive contre lui doit réussir un jet de Réflexes DD 14 ou subir 1d6 points de dégâts de feu. 
-Le pouvoir spécial d’armure fumante s’applique uniquement sur des armures intermédiaires ou lourdes.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#EVOCATION|Évocation]] faible ; '''NLS''' 3 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[aura élémentaire]]'' ; '''Prix''' +2 bonus
-
-</div>
-
-{s:Reference|Graisseuse}
-<div class="BD">
-{s:BDTitre|Graisseuse|}
-Une armure graisseuse semble en permanence recouverte d’un film gras qui offre un bonus d’aptitude de +5 aux tests d’[[Évasion]] de son porteur. Le malus d’armure aux tests s’applique normalement.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#INVOCATION|Invocation]] faible ; '''NLS''' 4 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[graisse]]'' ; '''Prix''' +3 750 po.
-
-</div>
-
-{s:Reference|Graisseusesupérieure}
-<div class="BD">
-{s:BDTitre|Graisseuse supérieure|}
-Cette propriété est identique à [[Armures magiques#Graisseuse|graisseuse]], mais elle confère un bonus d’aptitude de +10 aux tests d’[[Évasion]].
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#INVOCATION|Invocation]] modérée ; '''NLS''' 10 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[graisse]]'' ; '''Prix''' +15 000 po.
-
-</div>
-
-{s:Reference|Graisseusesuprême}
-<div class="BD">
-{s:BDTitre|Graisseuse suprême|}
-Cette propriété est identique à [[Armures magiques#Graisseuse|graisseuse]], mais elle confère un bonus d’aptitude de +15 aux tests d’[[Évasion]].
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#INVOCATION|Invocation]] puissante ; '''NLS''' 15 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[graisse]]'' ; '''Prix''' +33 750 po.
-
-</div>
-
-{s:Reference|Impie}
-<div class="BD">
-{s:BDTitre|Impie|{s:APG}}
-Les armures qui possèdent cette propriété sont souvent sculptées de symboles impies. Une fois par jour et sur commande, le porteur de l’armure peut invoquer un effet de ''[[force du colosse]]'' pendant 10 rounds. L’armure impie est toujours d’alignement [[alignement|Mauvais]] (énergie négative) en ce qui concerne ces effets. Les armures impies infligent un [[niveau négatif]] permanent à toute créature [[alignement|Bonne]] qui les enfile. Il perdure tant que la créature porte l’armure ou le bouclier et disparaît quand elle l’enlève. La créature ne peut pas se débarrasser de ce [[niveau négatif]] (même avec un sort de ''[[restauration]]'') tant qu’elle porte l’armure.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#TRANSMUTATION|Transmutation]] modérée  ; '''NLS''' 10  ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[force du colosse]]'' ; '''prix''' +27 000 po
-
-</div>
-</td><td>
-
-{s:Reference|Interceptiondeprojectiles}
-<div class="BD">
-{s:BDTitre|Interception de projectiles|}
-Un bouclier avec cette propriété attire les projectiles. Il confère un bonus de parade de +1 à la [[CA]] contre les armes à distance. De plus, toute arme de jet et tout projectile qui vise une cible située à 1,50 m ou moins du porteur de ce bouclier sont eux aussi attirés. Si le porteur dispose d’un [[abri]] total vis-à-vis de l’attaquant, l’attaque n’est pas déviée. De même, les attaques à distance visant le porteur ne souffrent d’aucun risque d’échec (comme celui causé par un [[camouflage]]). Enfin, les armes à projectiles ou de jet possédant un [[armures magiques#BONUSALTERATION|bonus d’altération]] plus élevé que le bonus de base à la [[CA]] fourni par le bouclier ne sont pas redirigées vers le porteur (mais le bonus de parade du bouclier s’applique malgré tout face à ces attaques). Le porteur peut activer et désactiver les effets de cette propriété grâce à un [[Règles relatives aux objets magiques#OBJETSAMOTDECOMMANDE|mot de commande]].
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#ABJURATION|Abjuration]] modérée ; '''NLS''' 8 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[bouclier entropique]]'' ; '''Prix''' bonus de +1.
-
-</div>
-
-{s:Reference|Invulnérabilité}
-<div class="BD">
-{s:BDTitre|Invulnérabilité|}
-Une armure d’invulnérabilité confère à son porteur une [[réduction des dégâts]] de 5/magie.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#ABJURATION|Abjuration]] puissante (et Évocation si l’on utilise miracle) ; '''NLS''' 18 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[peau de pierre]]'', et soit ''[[miracle]]'', soit ''[[souhait]]'' ; '''Prix''' bonus de +3.
-
-</div>
-
-{s:Reference|Joute}
-<div class="BD">
-{s:BDTitre|Joute|{s:APG}}
-Cette armure aide son propriétaire à rester en selle et à garder le contrôle de sa monture. Il gagne un bonus de compétence de +5 aux tests d’[[Équitation]].
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#TRANSMUTATION|Transmutation]] faible ; '''NLS''' 5  ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], le créateur doit avoir 5 rangs en [[Équitation]] ; '''Prix''' +3 750 po
-
-</div>
-
-{s:Reference|Mimétisme}
-<div class="BD">
-{s:BDTitre|Mimétisme|}
-Sur [[Règles relatives aux objets magiques#OBJETSAMOTDECOMMANDE|commande]], une armure possédant cette propriété change de forme pour prendre l’aspect de vêtements. Elle conserve toutes ses propriétés (y compris son poids), même lorsqu’elle est transformée. Seul le sort ''[[vision lucide]]'' révèle la véritable nature d’une armure de mimétisme transformée.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#ILLUSION|Illusion]] modérée ; '''NLS''' 10 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[déguisement]]'' ; '''Prix''' +2 700 po.
-
-</div>
-
-{s:Reference|Ombre}
-<div class="BD">
-{s:BDTitre|Ombre|}
-{s:Desambi|Ombre est également le nom d'un [[ombre|monstre]] et d'une [[branche ombre|branche]] de l'école d'[[Illusion]].}
-Cette armure semble devenir floue quand son porteur tente de se cacher, et les sons qui l’entourent sont atténués, ce qui se traduit par un bonus d’aptitude de +5 aux tests de [[Discrétion]] de son porteur. Le malus d’armure aux tests s’applique normalement.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#ILLUSION|Illusion]] faible ; '''NLS''' 5 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[invisibilité]]'' et ''[[silence]]'' ; '''Prix''' +3 750 po.
-
-</div>
-
-{s:Reference|Ombresupérieure}
-<div class="BD">
-{s:BDTitre|Ombre supérieure|}
-{s:Desambi|Ombre supérieure est également le nom d'un [[ombre supérieure|monstre]].}
-Cette propriété est identique à celle d’[[Armures magiques#Ombre|ombre]], mais elle confère un bonus d’aptitude de +10 aux tests de [[Discrétion]].
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#ILLUSION|Illusion]] modérée ; '''NLS''' 10 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[invisibilité]]'' et ''[[silence]]'' ; '''Prix''' +15 000 po.
-
-</div>
-
-{s:Reference|Ombresuprême}
-<div class="BD">
-{s:BDTitre|Ombre suprême|}
-Cette propriété est identique à celle d’[[Armures magiques#Ombre|ombre]], mais elle confère un bonus d’aptitude de +15 aux tests de [[Discrétion]].
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#ILLUSION|Illusion]] puissante ; '''NLS''' 15 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[invisibilité]]'' et ''[[silence]]'' ; '''Prix''' +33 750 po.
-
-</div>
-
-{s:Reference|PROTECTION}
-<div class="BD">
-{s:BDTitre|Protection|{s:MR}}
-Un bouclier de protection permet au porteur de transférer une partie ou l’intégralité du [[bonus]] d’altération de son bouclier à la [[CA]] d’une créature adjacente (ce bonus se cumule avec tous les autres). Par une [[action libre]] effectuée au début de son [[tour]] avant d’utiliser les autres capacités de son bouclier, le porteur peut désigner une cible adjacente et définit la hauteur du bonus d’altération du bouclier qu’il alloue au début de son tour. Le bonus de CA de la cible dure jusqu’au prochain tour du porteur ou jusqu’à ce que plus de 1,5 mètre (1 {s:c}) sépare le porteur et la cible, auquel cas le bonus de la cible se dissipe et le bonus d’altération du bouclier fonctionne normalement pour le porteur. Cette capacité n’offre le bonus d’altération du bouclier qu’à la classe d’armure, pas son bonus d’altération sur les [[jet dattaque|jets d’attaque]] (s’il en a un) ni aucune autre propriété du bouclier. Cette propriété est spécifique aux [[oréade (race)|oréades]].
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#INVOCATION|Invocation]] modérée ; '''NLS''' 8 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[protection dautrui|protection d'autrui]]'' ; '''Prix''' bonus de +1.
-
-</div>
-
-{s:Reference|PROTECTIONSUPERIEURE}
-<div class="BD">
-{s:BDTitre|Protection supérieure|{s:MR}}
-Comme la propriété de [[Armures magiques#PROTECTION|protection]], excepté qu’il en coûte une [[action simple]], le porteur définit un nombre d’alliés adjacents qui reçoivent le [[bonus]] du bouclier. Tous les alliés désignés reçoivent le même bonus. Si une cible ainsi protégée est à plus de 1,5 mètre (1 {s:c}) du porteur, l’effet se dissipe pour elle, mais pas pour les autres cibles. Cette propriété est spécifique aux [[oréade (race)|oréades]].
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#INVOCATION|Invocation]] modérée ; '''NLS''' 12 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[protection dautrui|protection d'autrui]]'' ; '''Prix''' bonus de +2.
-
-</div>
-
-{s:Reference|RAFALEDENUAGES}
-<div class="BD">
-{s:BDTitre|Rafale de nuages|{s:MR}}
-Une telle armure est généralement gravée de nuages d’orages et d’éclairs. Si une attaque touche le porteur et inflige au moins 10 points de [[jet de dégât|dégâts]] d’électricité, l’armure se charge d’électricité pendant 1 round. Par une [[Actions rapides|action rapide]] qui ne provoque pas d’[[attaque dopportunité|attaque d’opportunité]], lors de son prochain [[tour]], le porteur peut utiliser le pouvoir magique ''[[décharge électrique]]'', infligeant 1d6 points de dégâts d’électricité par tranche de 10 points de dégâts d’électricité qu’il a reçus depuis son dernier tour (maximum de 5d6 par tranche de 50 points de dégâts d’électricité ou plus reçus). Les effets de la décharge électrique sont déterminés en fonction du nombre de dégâts que l’attaque électrique qui l’a déclenchée aurait infligés au porteur avant de leur appliquer de quelconques [[résistance (capacité)|résistances]] ou [[Immunité (capacité)|immunités]]. Cette propriété est spécifique aux [[sylphe (race)|sylphes]].
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#ABJURATION|Abjuration]] et [[Présentation des sorts#EVOCATION|Évocation]] faibles ; '''NLS''' 5 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[résistance aux énergies destructives]]'', ''[[décharge électrique]]'' ; '''Prix''' +5 000 po.
-
-</div>
-
-{s:Reference|Réfléchissant}
-<div class="BD">
-{s:BDTitre|Réfléchissant|}
-Cette propriété ne peut être placée que sur un bouclier. Un bouclier réfléchissant est lisse comme un miroir et on se voit parfaitement dedans. Une fois par jour, son porteur peut s’en servir pour retourner un sort à son lanceur (voir le sort ''[[renvoi des sorts]]'').
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#ABJURATION|Abjuration]] puissante ; '''NLS''' 14 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[renvoi des sorts]]'' ; '''Prix''' bonus de +5.
-
-</div>
-
-{s:Reference|Résistanceauxénergies}
-<div class="BD">
-{s:BDTitre|Résistance à l’énergie|}
-Cette propriété peut être placée sur une armure ou un bouclier. Elle protège le porteur des effets d’un type d’énergie (acide, électricité, feu, froid ou son), et l’objet qui en bénéficie porte des décorations spécifiques à l’élément dont il protège. L’armure absorbe les 10 premiers points de dommages d’une attaque d’énergie subie par le porteur, comme si celui-ci utilisait le sort ''[[résistance aux énergies destructives]]''.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#ABJURATION|Abjuration]] faible ; '''NLS''' 3 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[résistance aux énergies destructives]]'' ; '''Prix''' +18 000 po.
-
-</div>
-
-{s:Reference|Résistanceauxénergiessupérieure}
-<div class="BD">
-{s:BDTitre|Résistance supérieure à l’énergie|}
-En tout point semblable à la propriété décrite ci-dessus, sauf que l’objet absorbe les 20 premiers points de dommages d’une attaque d’énergie subie par le porteur.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#ABJURATION|Abjuration]] modérée ; '''NLS''' 7 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[résistance aux énergies destructives]]'' ; '''Prix''' +42 000 po.
-
-</div>
-
-{s:Reference|Résistanceauxénergiessuprême}
-<div class="BD">
-{s:BDTitre|Résistance suprême à l’énergie|}
-En tout point semblable à la propriété décrite ci-dessus, sauf que l’objet absorbe les 30 premiers points de dommages d’une attaque d’énergie subie par le porteur.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#ABJURATION|Abjuration]] modérée ; '''NLS''' 11 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[résistance aux énergies destructives]]'' ; '''Prix''' +66 000 po.
-
-</div>
-
-{s:Reference|Résistanceàlamagie}
-<div class="BD">
-{s:BDTitre|Résistance à la magie|}
-{s:Desambi|Résistance à la magie est également le nom d'une [[résistance à la magie|capacité spéciale]] et d'un [[sort résistance à la magie|sort]].}
-Une armure ou un bouclier de résistance à la magie confère à son porteur une [[RM|résistance à la magie]] ; la valeur de celle-ci varie en fonction du modèle (13, 15, 17 ou 19).
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#ABJURATION|Abjuration]] puissante ; '''NLS''' 15 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[résistance à la magie]]'' ; '''Prix''' bonus de +2 ([[RM]] 13), de +3 ([[RM]] 15), de +4 ([[RM]] 17) ou de +5 ([[RM]] 19).
-
-</div>
-
-{s:Reference|Spectral}
-<div class="BD">
-{s:BDTitre|Spectral(e)|}
-{s:Desambi|Spectral est également le nom d'une [[spectrale (propriété)|propriété d'armes magiques]].}
-Une armure ou un bouclier spectral semble presque translucide. L’ensemble de ses bonus (armure, bouclier, altération) est pris en compte contre les attaques des créatures [[intangible|intangibles]]. L’objet enchanté peut être utilisé normalement par les créatures [[intangible|intangibles]] ; celles-ci bénéficient de sa protection contre les attaques des créatures dotées d’un corps physique et des créatures [[intangible|intangibles]], tout en pouvant continuer de passer au travers des solides.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#TRANSMUTATION|Transmutation]] puissante ; '''NLS''' 15 ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[passage dans léther|passage dans l’éther]]'' ; '''Prix''' bonus de +3.
-
-</div>
-
-{s:Reference|Vertueuse}
-<div class="BD">
-{s:BDTitre|Vertueuse|{s:APG}}
-Les armures qui possèdent cette propriété sont souvent gravées ou émaillées de symboles religieux. Une fois par jour et sur commande, le porteur de l’armure peut invoquer un effet de ''[[force du colosse]]'' (comme le sort de même nom) pendant 10 rounds. L’armure vertueuse est toujours d’alignement [[alignement|Bon]] (énergie positive) en ce qui concerne ces effets. Les armures vertueuses infligent un [[niveau négatif]] permanent à toute créature [[alignement|Mauvaise]] qui les enfile. Il perdure tant que la créature porte l’armure ou le bouclier et disparaît quand elle l’enlève. La créature ne peut pas se débarrasser de ce [[niveau négatif]] (même avec un sort de ''[[restauration]]'') tant qu’elle porte l’armure.
-(((Caractéristiques)))
-* '''Aura''' [[Présentation des sorts#TRANSMUTATION|Transmutation]] modérée  ; '''NLS''' 10  ; [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[force du colosse]]'' ; '''prix''' +27 000 po
-
-</div>
-</td></tr></table>
-
-
-
-
-=== Armures spécifiques ===
-{s:Reference|DTMARMURESPECIFIQUE}
-
-<center>
-{| CLASS="tablo col1centre"
-|+ Armures spécifiques (Manuel des joueurs)
-|- CLASS="titre"
-| Faible || Intermédiaire || Puissante || Armure spéciale || Prix de vente
 |- CLASS="premier"
-| 01–50 || 01–25 || — || ''[[Chemise de mailles en mithral]]'' || 1 100 po
-|- CLASS="alt"
-| 51–80 || 26–45 || — || ''[[Harnois en peau de dragon]]'' || 3 300 po
-|-
-| 81–100 || 46–57 || — || ''[[Cotte de mailles elfique]]'' || 5 150 po
-|- CLASS="alt"
-| — || 58–67 || — || ''[[Armure de peau de rhinocéros]]'' || 5 165 po
-|-
-| — || 68–82 || 01–10 || ''[[Cuirasse en adamantium]]'' || 10 200 po
-|- CLASS="alt"
-| — || 83–97 || 11–20 || ''[[Harnois nain]]'' || 16 500 po
-|-
-| — || 98–100 || 21–32 || ''[[Crevice de la seconde chance]]'' || 18 900 po
-|- CLASS="alt"
-| — || — || 33–50 || ''[[Armure céleste]]'' || 22 400 po
-|-
-| — || — || 51–60 || ''[[Harnois des profondeurs]]'' || 24 650po
-|- CLASS="alt"
-| — || — || 61–75 || ''[[Cuirasse de commandement]]'' || 25 400 po
-|-
-| — || — || 76–90 || ''[[Harnois en mithral de vitesse]]'' || 26 500 po
-|- CLASS="alt"
-| — || — || 91–100 || ''[[Armure démoniaque]]'' || 52 260 po
+| ''[[mimétisme (propriété armure)|Mimétisme]]'' || <sup>A&E</sup> || Armures || Permet de donner l’apparence de vêtements à l’armure (dissimulant son aura) à volonté. || +2 700 po
+
+|- CLASS="premier"
+| ''[[graisseuse (propriété)|Graisseuse]]'' || <sup>A&E</sup> || Armures || Confère un bonus de compétence de +5 aux tests d’[[Évasion]]. || +3 750 po
+
+|- CLASS="premier"
+| ''[[joute (propriété)|Joute]]'' || <sup>A&E</sup> || Armures || Confère un bonus de compétence de +5 aux tests d’[[Équitation]]. || +3 750 po
+
+|- CLASS="premier"
+| ''[[ombre (propriété)|Ombre]]'' || <sup>A&E</sup> || Armures || Confère un bonus de compétence de +5 aux tests de [[Discrétion]]. || +3 750 po
+
+|- CLASS="premier"
+| ''[[expéditive (propriété)|Expéditive]]'' || <sup>A&E</sup> || Armures || Trois fois par jour, peut conférer un bonus d’altération de +3m aux vitesses de déplacement pendant 1 [[round]]. || +4 000 po
+
+|- CLASS="premier"
+| ''[[impondérable (propriété)|Impondérable]]'' || <sup>MCA</sup> || Armures || Augmente le [[poids transportable]] de chaque catégorie de charge de 50 %. || +4 000 po
+
+|- CLASS="premier"
+| ''[[amorphe (propriété)|Amorphe]]'' || <sup>MCA</sup> || Armures || Confère un bonus de compétence de +5 aux tests d’[[Évasion]] et au [[DMD]] contre les manœuvres de [[lutte]]. Une fois par jour, peut transformer son porteur et lui-même en vase pendant 1 minute maximum. Sous forme de vase, diminue la vitesse de déplacement du porteur de 3m, l’empêche d’effectuer des actions autres que [[action de mouvement|de mouvement]], mais lui permet de se faufiler dans tous les espaces restreints. || +4 500 po
+
+|- CLASS="premier"
+| ''[[reposante (propriété)|Reposante]]'' || <sup>MCA</sup> || Armures || Une fois par jour, permet de profiter des effets d’un repos de 8 heures en seulement 2 heures. L’armure peut-être portée pendant un repos sans rendre le porteur [[fatigué]]. || +4 500 po
+
+|- CLASS="premier"
+| ''[[corsaires (propriété)|Corsaires]]'' || <sup>MCA</sup> || Armures || Confère un bonus de compétence de +5 aux tests d’[[Acrobaties]]. À chaque fois que le porteur récupère de l’[[audace]] ou du [[panache]], le bonus conféré est doublé jusqu’au début de son prochain tour. || +5 000 po
+
+|- CLASS="premier"
+| ''[[discrétion (propriété)|Discrétion]]'' || <sup>A&E</sup> || Armures || Le malus d’armure aux tests ne s’applique pas aux tests de [[Discrétion]]. Une fois par jour, peut conférer un bonus aux égal au bonus d’altération de l’armure aux tests de [[Discrétion]] du porteurpendant 1 minute. || +5 000 po
+
+|- CLASS="premier"
+| ''[[rafale de nuages (propriété)|Rafale de nuages]]'' || <sup>MR</sup> || Armures || Peut stocker les points de dégâts d'électricité subit par le porteur qui peuvent être relâchés jusqu'au prochain tour de ce dernier afin d'infliger 1d6 points de dégâts d'électricité (comme avec ''[[décharge électrique]]'') par tranche de 10 points stockés. || +5 000 po
+
+|- CLASS="premier"
+| ''[[ralliement (propriété)|Ralliement]]'' || <sup>A&E</sup> || — || Confère un bonus de moral de +4 aux [[jds|jets de sauvegardes]] contre la terreur de tous les alliés à 9m ou moins du porteur (s’il possède déjà une capacité similaire, le bonus passe à +6). || +5 000 po
+
+|- CLASS="premier"
+| ''[[souffle draconique (propriété)|Souffle draconique]]'' || <sup>A&E</sup> || Boucliers || Peut stocker les points de dégâts d’un type d’énergie choisi à la fabrication subit par le porteur, chaque tranche de 5 points de dégâts d’énergie stockés représentant 1 charge. Les charges peuvent être dépensées pour générer un cône de 4,50m infligeant 1d4 points de dégâts du type d’énergie stockée par charge dépensée (5 maximum). || +5 000 po
+
+|- CLASS="premier"
+| ''[[adhésive (propriété)|Adhésive]]'' || <sup>A&E</sup> || Armures || Peut conférer une vitesse d’escalade de 6m, à volonté. Jusqu’à 10 [[round|rounds]] par jour, peut conférer un bonus d’altération de +2 aux tests de [[désarmement]], de [[lutte]], de [[repositionnement]], de [[subtilisation]] et de [[croc-en-jambe]] effectués avec une arme naturelle ou à mains nues. || +7 000 po
+
+|- CLASS="premier"
+| ''[[rancune (propriété)|Rancune]]'' || <sup>MCA</sup> || Armures || Lorsqu’une attaque au corps à corps portée dans l’allonge au corps à corps du porteur devrait le faire tomber à moins de 0 points de vie, il peut dépenser 1 point de [[panache]] pour effectuer une attaque au corps à corps contre la créature qui a portée cette attaque. || +7 000 po
+
+|- CLASS="premier"
+| ''[[niche (propriété)|Niche]]'' || <sup>A&E</sup> || — || Peut stocker magiquement un animal ou une créature magique lié(e) au porteur pendant 24 heures maximum ([[druide#PACTEAVECLANATURE|compagnon animal]], [[magicien#PACTEMAGIQUE|familier]], [[chevalier#MONTURE|monture]], etc...). La taille maximale de l’animal stockable dépend de l’objet affecté par cette propriété. L’animal stocké peut être relâché, auquel cas il agit immédiatement. || +7 500 po
+
+|- CLASS="premier"
+| ''[[sans trace (propriété)|Sans trace]]'' || <sup>MCA</sup> || Armures en cuir, armures en peau || Confère un bonus de compétence de +5 aux tests de [[Discrétion]]. Les tests de [[Survie]] visant à pister le porteur subissent un malus de -5. || +7 500 po
+
+|- CLASS="premier"
+| ''[[éclatante (propriété)|Éclatante]]'' || <sup>A&E</sup> || — || Peut émettre la même lumière qu’une [[matériel daventurier#Torche|torche]], à volonté. Une fois par jour, peut émettre une lumière de la même intensité que la lumière du jour pendant 1 heure maximum. || +7 500 po
+
+|- CLASS="premier"
+| ''[[fouisseuse (propriété)|Fouisseuse]]'' || <sup>A&E</sup> || Armures || Confère une vitesse de creusement de 3m dans n’importe quel type de sol. Confère un bonus de +4 aux [[jds|jets de sauvegarde]] contre les glissements de terrain, les avalanches, les effondrements de tunnels ou tout effet similaire. || +10 000 po
+
+|- CLASS="premier"
+| ''[[putride (propriété)|Putride]]'' || <sup>A&E</sup> || Armures || Peut rendre toute les créatures vivantes à 9m ou moins du porteur [[fiévreux|fiévreuses]] pendant 5 [[round|rounds]], à volonté (l’effet ne s’estompe complètement qu’après une durée dépendant de la zone quand ce pouvoir est désactivé). || +10 000 po
+
+|- CLASS="premier"
+| ''[[graisseuse supérieure (propriété)|Graisseuse supérieure]]'' || <sup>A&E</sup> || Armures || Confère un bonus de compétence de +10 aux tests d’[[Évasion]]. || +15 000 po
+
+|- CLASS="premier"
+| ''[[harmonique (propriété)|Harmonique]]'' || <sup>A&E</sup> || Armures || Confère un bonus de compétence de +5 aux tests de [[Représentation]], mais inflige un malus de -5 aux tests de [[Discrétion]] ainsi qu’une vulnérabilité aux dégâts de son. Prolonge les effets des [[barde#REPRESENTATIONBARDIQUE|représentations bardiques]] du porteur pendant 1 [[round]] après qu’il les arrête (non cumulable avec [[Représentation obsédante]]). || +15 000 po
+
+|- CLASS="premier"
+| ''[[ombre supérieure (propriété)|Ombre supérieure]]'' || <sup>A&E</sup> || Armures || Confère un bonus de compétence de +10 aux tests de [[Discrétion]]. || +15 000 po
+
+|- CLASS="premier"
+| ''[[martyr (propriété)|Martyr]]'' || <sup>A&E</sup> || Armures || Une fois par jour, lorsque le porteur est victime d’un coup critique, il peut rendre 1d8+9 points de vie à 9 alliés maximum dans un rayon de 9m autour de lui (comme avec ''[[soins légers de groupe]]''). || +18 000 po
+
+|- CLASS="premier"
+| ''[[résistance aux énergies destructives (propriété)|Résistance aux énergies destructives]]'' || <sup>A&E</sup> || — || L’objet absorbe les 10 premiers points de dégâts d’un type d’énergie choisi à la fabrication de toute attaque subie par le porteur (comme avec ''[[résistance aux énergies destructives]]''). || +18 000 po
+
+|- CLASS="premier"
+| ''[[impie (propriété armure)|Impie]]'' || <sup>A&E</sup> || Armures || Une fois par jour, peut conférer les effets du sort ''[[force du colosse]]'' (énergie négative uniquement) pendant 10 [[round|rounds]]. Inflige un [[niveau négatif]] aux porteurs d’alignement Bon.  || +27 000 po
+
+|- CLASS="premier"
+| ''[[libertaire (propriété)|Libertaire]]'' || <sup>A&E</sup> || Armures || Une fois par jour, peut conférer les effets du sort ''[[force du colosse]]'' ([[RD]] 5/Loi au lieu de Mal ou Bien) pendant 10 [[round|rounds]]. Inflige un [[niveau négatif]] aux porteurs d’alignement Loyal.  || +27 000 po
+
+|- CLASS="premier"
+| ''[[vertueuse (propriété)|Vertueuse]]'' || <sup>A&E</sup> || Armures || Une fois par jour, peut conférer les effets du sort ''[[force du colosse]]'' (énergie positive uniquement) pendant 10 [[round|rounds]]. Inflige un [[niveau négatif]] aux porteurs d’alignement Mauvais.  || +27 000 po
+
+|- CLASS="premier"
+| ''[[vigilante (propriété)|Vigilante]]'' || <sup>A&E</sup> || Armures || Une fois par jour, peut conférer les effets du sort ''[[force du colosse]]'' ([[RD]] 5/Chaos au lieu de Mal ou Bien) pendant 10 [[round|rounds]]. Inflige un [[niveau négatif]] aux porteurs d’alignement Chaotique.  || +27 000 po
+
+|- CLASS="premier"
+| ''[[détermination (propriété)|Détermination]]'' || <sup>A&E</sup> || — || Une fois par jour, lorsque le porteur devrait tomber à 0 points de vie ou moins, confère les effets du sort ''[[souffle de vie]]''.  || +30 000 po
+
+|- CLASS="premier"
+| ''[[graisseuse suprême (propriété)|Graisseuse suprême]]'' || <sup>A&E</sup> || Armures || Confère un bonus de compétence de +15 aux tests d’[[Évasion]]. || +33 750 po
+
+|- CLASS="premier"
+| ''[[Ombre suprême (propriété)|Ombre suprême]]'' || <sup>A&E</sup> || Armures || Confère un bonus de compétence de +15 aux tests de [[Discrétion]]. || +33 750 po
+
+|- CLASS="premier"
+| ''[[résistance supérieure aux énergies destructives (propriété)|Résistance supérieure aux énergies destructives]]'' || <sup>A&E</sup> || — || L’objet absorbe les 20 premiers points de dégâts d’un type d’énergie choisi à la fabrication de toute attaque subie par le porteur (comme avec ''[[résistance aux énergies destructives]]''). || +42 000 po
+
+|- CLASS="premier"
+| ''[[contrôle des morts-vivants (propriété)|Contrôle des morts-vivants]]'' || <sup>A&E</sup> || — || Permet de contrôler jusqu’à 26 [[DV]] de morts-vivants par jour (comme avec ''[[contrôle des morts-vivants]]''), il en perd le contrôle à l’aube suivant l’utilisation de ce pouvoir. || +49 000 po
+
+|- CLASS="premier"
+| ''[[éthérée (propriété)|Éthérée]]'' || <sup>A&E</sup> || Armures || Peut conférer les effets du sort ''[[forme éthérée]]'' sans limite de durée, mais ne pouvant être réactivé qu’après les 24 heures suivants la désactivation. || +49 000 po
+
+|- CLASS="premier"
+| ''[[résistance suprême aux énergies destructives (propriété)|Résistance suprême aux énergies destructives]]'' || <sup>A&E</sup> || — || L’objet absorbe les 30 premiers points de dégâts d’un type d’énergie choisi à la fabrication de toute attaque subie par le porteur (comme avec ''[[résistance aux énergies destructives]]''). || +66 000 po
 |}
 </center>
 
 <center>
-{| CLASS="tablo col1centre"
-|+ Armures spécifiques (APG)
+{| CLASS="tablo autoalt toutgauche"
+|+ Propriétés ajoutant un bonus de +1
 |- CLASS="titre"
-| Intermédiaire || Puissante || Armure spéciale || Prix de vente
+| WIDTH="12%" | Propriété
+| WIDTH="3%" | Source
+| WIDTH="11%" | Restrictions
+| WIDTH="61%" | Capacités
+| WIDTH="13%" | Modificateur au prix de base
+
 |- CLASS="premier"
-| 01-20 || 01-02 || ''[[Maillebrume]]'' || 2 250 po
-|- CLASS="alt"
-| 21-35 || 03-05 || ''[[Habits du devin]]'' || 10 300 po
-|-
-| 36-50 || 06 || ''[[Armure de contorsionniste]]'' || 12 160 po
-|- CLASS="alt"
-| 51-65 || 07 || ''[[Habits noirs du meurtrier]]'' || 12 405 po
-|-
-| 66-90 || 08-12 || ''[[Armure pliante]]'' || 12 650 po
-|- CLASS="alt"
-| 91-100 || 13-27 || ''[[Armure dinsultes|Armures d'insultes]]'' || 16 175 po
-|-
-| - || 28-42 || ''[[Cuirasse du boucanier]]'' || 23 850 po
-|- CLASS="alt"
-| - || 43-49 || ''[[Crevice impie]]'' || 25 400 po
-|-
-| - || 50-61 || ''[[Armure en peau de géant]] ([[ogre]])'' || 39 165 po
-|- CLASS="alt"
-| - || 62-71 || ''[[Armure en peau de géant]] ([[Géant des collines|des collines]])'' || 46 665 po
-|-
-| - || 72-81 || ''[[Armure en peau de géant]] ([[Géant des pierres|des pierres]])'' || 54 165 po
-|- CLASS="alt"
-| - || 82-86 || ''[[Armure en peau de géant]] ([[Géant du feu|du feu]])'' || 54 165 po
-|-
-| - || 87-91 || ''[[Armure en peau de géant]] ([[Géant du froid|du froid]])'' || 54 165 po
-|- CLASS="alt"
-| - || 92-96 || ''[[Armure en peau de géant]] ([[troll]])'' || 59 165 po
-|-
-| - || 97 || ''[[Armure en peau de géant]] ([[Géant des nuages|des nuages]])'' || 69 165 po
-|- CLASS="alt"
-| - || 98 || ''[[Armure en peau de géant]] ([[Géant des tempêtes|des tempêtes]])'' || 76 665 po
-|-
-| - || 99-100 || ''[[Astre du jour]]'' || 81 250 po
+| ''[[amertume (propriété)|Amertume]]'' || <sup>A&E</sup> || Armures || Peut faire lâcher prise aux créatures qui [[agrippé|agrippent]] le porteur avec une attaque de morsure, de bouche ou de gueule. Peut rendre [[nauséeux|nauséeuses]] les créatures qui [[engloutissement (capacité)|engloutissent]] le porteur. || bonus de +1
+
+|- CLASS="premier"
+| ''[[apaisante (propriété)|Apaisante]]'' || <sup>MCA</sup> || Armures || Jusqu’à 10 [[round|rounds]] par jour, peut apaiser les émotions des créatures hostiles dans un rayon de 1,5m autour du porteur (comme avec ''[[apaisement des émotions]]'') et qui peut mettre fin à la [[barbare#RAGE|rage]]. || bonus de +1
+
+|- CLASS="premier"
+| ''[[attaque (propriété)|Attaque]]'' || <sup>A&E</sup> || Écus, rondaches || Inflige des dégâts comme s’il était de deux catégories de taille de plus. Possède un [[armures magiques#BONUSDALTERATION|bonus d’altération]] de +1 lorsqu’on attaque avec. || bonus de +1
+
+|- CLASS="premier"
+| ''[[aveuglante (propriété)|Aveuglante]]'' || <sup>A&E</sup> || Boucliers || Deux fois par jour, peut [[aveuglé|aveugler]] toutes les créatures dans un rayon de 6m du porteur pendant 1d4 [[round|round(s)]]. || bonus de +1
+
+|- CLASS="premier"
+| ''[[barbelée (propriété)|Barbelée]]'' || <sup>A&E</sup> || — || Inflige un nombre de points de dégâts égal au bonus d’altération de l’objet aux créatures qui tente de [[lutte|lutter]] contre le porteur ou de l’[[lutte|immobiliser]]. L’objet est considéré comme possédant des pointes d’armure. || bonus de +1
+
+|- CLASS="premier"
+| ''[[bélier (propriété)|Bélier]]'' || <sup>A&E</sup> || Boucliers || Lors d’une charge avec l’objet, le porteur ajoute son bonus d’altération aux [[jet dattaque|jets d’attaque]] et [[valeurs de combat#DEGATS|de dégâts]]. Permet d’effectuer une manœuvre de [[bousculade]] avec un bonus égal au bonus d’altération du bouclier + 2 par une [[action rapide]] au touché. || bonus de +1
+
+|- CLASS="premier"
+| ''[[championne (propriété)|Championne]]'' || <sup>A&E</sup> || Armures || Confère à un porteur Bon avec la capacité [[chevalier#DEFI|défi]] ou [[paladin#CHATIMENTDUMAL|châtiment du Mal]] un bonus de sainteté de +2 à la [[CA]] contre les attaques de l’adversaire désigné par ces capacités. || bonus de +1
+
+|- CLASS="premier"
+| ''[[croisades (propriété)|Croisades]]'' || <sup>MCA</sup> || Armures || Un porteur [[paladin]] ou [[prêtre combattant]] Bon peut dépenser une utilisation d’[[paladin#IMPOSITIONDESMAINS|imposition des mains]] ou de [[prêtre combattant#FERVEUR|ferveur]] par une [[action rapide]] pour obtenir un bonus de sainteté de +2  à la [[CA]] pendant 1 minute (le bonus passe à +3 contre les dragons Mauvais, les extérieurs Mauvais et les morts-vivants). || bonus de +1
+
+|- CLASS="premier"
+| ''[[défense légère (propriété)|Défense (légère)]]'' || <sup>A&E</sup> || — || Le porteur a 25 % de chances d’ignorer les dégâts supplémentaires infligés par les coups critiques et les attaques sournoises. || bonus de +1
+
+|- CLASS="premier"
+| ''[[équilibrée (propriété)|Équilibrée]]'' || <sup>A&E</sup> || Armures légères et intermédiaires || Confère un bonus de +4 au [[DMD]] contre les manœuvres de [[renversement]] et de [[croc-en-jambe]], ainsi qu’aux tests d’[[Acrobaties]] pour éviter de tomber. [[Actions libres#PLONGERAUSOL|Plonger au sol]] coûte une [[action de mouvement]] au porteur. || bonus de +1
+
+|- CLASS="premier"
+| ''[[fourberie (propriété)|Fourberie]]'' || <sup>A&E</sup> || Armures || Confère à un porteur Mauvais avec la capacité [[chevalier#DEFI|défi]] ou [[antipaladin#CHATIMENTDUBIEN|châtiment du Bien]] un bonus de malfaisance de +2 à la [[CA]] contre les attaques de l’adversaire désigné par ces capacités. || bonus de +1
+
+|- CLASS="premier"
+| ''[[garrot (propriété)|Garrot]]'' || <sup>A&E</sup> || Armures || Tous les dégâts de saignement subit par le porteur sont réduit d’un montant égal au bonus d’altération de l’objet. Confère un bonus égal au bonus d’altération de l’objet aux tests de [[Constitution]] du porteur pour se stabiliser. || bonus de +1
+
+|- CLASS="premier"
+| ''[[immortalité (propriété)|Immortalité]]'' || <sup>A&E</sup> || Armures || L’objet absorbe les 10 premiers points de dégâts d’énergie positive ou négative de toute attaque subie par le porteur (sauf les soins). Le porteur a 25 % de chances d’ignorer les attaques infligeant des [[niveau négatif|niveaux négatifs]]. || bonus de +1
+
+|- CLASS="premier"
+| ''[[interception de projectile (propriété)|Interception de projectile]]'' || <sup>A&E</sup> || Boucliers || Confère un bonus de parade de +1 à la [[CA]] contre les armes à distance. Toute arme de jet ou projectile qui vise une cible située à 1,5m ou moins du porteur le visent à la place. Les attaques à distance ne subissent jamais de chance d’échec lorsqu’elles visent le porteur. Les effets de cette propriété peuvent être désactivés à volonté. || bonus de +1
+
+|- CLASS="premier"
+| ''[[miroir (propriété)|Miroir]]'' || <sup>A&E</sup> || Boucliers et armures métalliques || Le bonus d’altération de l’objet s’ajoute à la [[CA]] au contact du porteur contre les rayons. Lorsqu’il détourne le regard d’une [[regard (capacité)|attaque de regard]], le porteur lance 2 dés d’évitement et conserve le meilleur résultat. Permet d’infliger des dégâts de précisions aux créatures qui bénéficient d’un camouflage contre le porteur dus au détournement de regard. || bonus de +1
+
+|- CLASS="premier"
+| ''[[opposition (propriété)|Opposition]]'' || <sup>A&E</sup> || — || L’objet confère une [[RD]] 2/- et voit son bonus d’altération à la [[CA]] augmenter de 2 contre un type de créature choisi à la fabrication. || bonus de +1
+
+|- CLASS="premier"
+| ''[[prévention (propriété)|Prévention]]'' || <sup>A&E</sup> || Armures || Une fois par jour, le porteur peut, par une [[action immédiate]], mettre fin à tout les [[chevalier#DEFI|défis]], [[inquisiteur#JUGEMENT|jugements]] et [[paladin#CHATIMENTDUMAL|châtiments]] qui l’affectent. Un porteur avec l’une de ces capacités peut activer ce pouvoir par une [[action rapide]] autant de fois qu’il le souhaite en en dépensant une utilisation. || bonus de +1
+
+|- CLASS="premier"
+| ''[[protection (propriété)|Protection]]'' || <sup>MR</sup> || Boucliers || Le porteur peut distribuer le bonus d’altération du bouclier entre sa [[CA]] et celle d'un allié adjacent à chaque tour. || bonus de +1
+
+|- CLASS="premier"
+| ''[[pugilat (propriété)|Pugilat]]'' || <sup>A&E</sup> || Armures légères || Confère un bonus de +2 aux [[jet dattaque#jets d’attaque]] et [[valeurs de combat#DEGATS|de dégâts]] à mains nues et aux tests de [[lutte]]. Les attaques à mains nues du porteur sont considérés comme des armes magiques. || bonus de +1
+
+|- CLASS="premier"
+| ''[[renforcement (propriété)|Renforcement]]'' || <sup>A&E</sup> || Armures intermédiaires et lourdes, rondaches, écus, pavois || À chaque fois que le porteur inflige des dégâts à une créature grâce à une attaque à distance ou au corps à corps, confère un bonus de compétence de +2 aux [[jds|jets de sauvegarde]] contre ses capacités jusqu’au début du prochain [[round]]. || bonus de +1
+
+|- CLASS="premier"
+| ''[[retentissant (propriété)|Retentissant]]'' || <sup>A&E</sup> || — || Lorsque le porteur est touché par une attaque, peut [[assourdi|assourdir]] les créatures autour de lui (comme avec une [[substances et objets spéciaux#Pierreàtonnerre]]), ou si l’attaque est un coup critique, manifester les effets du sort ''[[cacophonie]]'' (le rayon de ces effets est au choix du porteur mais doit comprendre l’attaquant). || bonus de +1
+
+|- CLASS="premier"
+| ''[[sauvegarde (propriété)|Sauvegarde]]'' || <sup>MCA</sup> || Armures || Confère une [[RD]]/5 au porteur tant qu’il est [[inconscient]], [[nauséeux]], [[étourdi]] (et qu’il de peut pas effectuer d’[[action simple]] dans ces états) ou [[immobilisé]] (et qu’il ne peut pas attaquer dans cet état). || bonus de +1
+
+|- CLASS="premier"
+| ''[[solide (propriété armure)|Solide]]'' || <sup>A&E</sup> || — || Ajoute le double du bonus d’altération de l’objet à sa solidité et à ses points de résistance. Confère un bonus du même montant au [[DD]] pour briser l’objet et aux [[jds|jets de sauvegarde]] contre les attaques portées à l’objet. || bonus de +1
+
+|- CLASS="premier"
+| ''[[stockage de sort (propriété armure)|Stockage de sort]]'' || <sup>A&E</sup> || Armures || L’armure peut stocker un sort du 3e niveau ou moins que le porteur peut livrer dès qu’il est touché par une attaque au corps à corps ou au contact. || bonus de +1
 |}
 </center>
-
-
-
-=== Boucliers spécifiques ===
-
-{s:Reference|DTMBOUCLIERSPECIFIQUE}
 
 <center>
-{| CLASS="tablo col1centre"
-|+ Boucliers spécifiques (Manuel des Joueurs)
+{| CLASS="tablo autoalt toutgauche"
+|+ Propriétés ajoutant un bonus de +2
 |- CLASS="titre"
-| Mineur || Intermédiaire || Puissant || Bouclier spécial || Prix de vente
+| WIDTH="12%" | Propriété
+| WIDTH="3%" | Source
+| WIDTH="11%" | Restrictions
+| WIDTH="61%" | Capacités
+| WIDTH="13%" | Modificateur au prix de base
+
 |- CLASS="premier"
-| 01–30 || 01–20 || — || ''[[Rondache en ébénite]]'' || 203 po
-|- CLASS="alt"
-| 31–80 || 21–45 || — || ''[[Écu en ébénite]]'' || 257 po
-|-
-| 81–95 || 46–70 || — || ''[[Écu en mithral]]'' || 1 020 po
-|- CLASS="alt"
-| 96–100 || 71–85 || 01–20 || ''[[Bouclier des arcanes]]'' || 3 153 po
-|-
-| — || 86–90 || 21–40 || ''[[Bouclier de la manticore]]'' || 5 580 po
-|- CLASS="alt"
-| — || 91–95 || 41–60 || ''[[Bouclier du lion]]'' || 9 170 po
-|-
-| — || 96–100 || 61–90 || ''[[Bouclier ailé]]'' || 17 257 po
-|- CLASS="alt"
-| — || — || 91–100 || ''[[Bouclier phagocyte]]'' || 50 170 po
+| ''[[animée (propriété)|Animée]]'' || <sup>A&E</sup> || Boucliers (sauf pavois) || Par une action simple, le porteur peut lâcher le bouclier pour qu’il s’anime et le protège comme s’il le tenait pendant 4 [[round|rounds]] avant de tomber à terre. Animé, il peut activer seul toute propriété spéciale ne nécessitant pas d’action. L’activateur peut le reprendre en main par une [[action libre]] (il doit alors attendre 4 rounds pour l’activer de nouveau) . || bonus de +2
+
+|- CLASS="premier"
+| ''[[anti-projectiles (propriété)|Anti-projectiles]]'' || <sup>A&E</sup> || Boucliers || Une fois par [[round]], peut détourner une attaque à distance sans dépenser d’action (comme avec [[Parade de projectiles]]). || bonus de +2
+
+|- CLASS="premier"
+| ''[[esquive des sorts (propriété)|Esquive des sorts]]'' || <sup>MCA</sup> || Armures || Confère un bonus d’esquive de +4 à la [[CA]] contre les [[jet dattaque|jets d’attaque]] des sorts, des pouvoirs magiques et des attaques de créatures invoquées. || bonus de +2
+
+|- CLASS="premier"
+| ''[[fusion (propriété)|Fusion]]'' || <sup>MCA</sup> || Écus, rondaches || Peut fusionner avec une arme légère ou à une main tenue en main. Fusionné, le porteur choisi à chaque [[round]] s’il veut attaquer (ce qui lui fait perdre le bonus à la [[CA]] du bouclier) ou se défendre. || bonus de +2
+
+|- CLASS="premier"
+| ''[[protection supérieure (propriété)|Protection supérieure]]'' || <sup>MR</sup> || Boucliers || Le porteur peut distribuer le bonus d’altération du bouclier entre sa [[CA]] et celle des alliés adjacents à chaque tour (ils reçoivent tous le même bonus). || bonus de +2
+
+|- CLASS="premier"
+| ''[[résistance à la magie 13 (propriété)|Résistance à la magie (13)]]'' || <sup>A&E</sup> || — || Confère une [[RM]] de 13. || bonus de +2
+
+|- CLASS="premier"
+| ''[[vibrante (propriété)|Vibrante]]'' || <sup>MCA</sup> || — || Trois fois par jour, lorsque le porteur est touché par une attaque au corps à corps effectuée avec une arme, peut [[hébété|hébéter]] l’attaquant pendant 1 [[round]]. || bonus de +2
 |}
 </center>
 
-{s:APG}<center>
-{| CLASS="tablo col1centre"
-|+ Boucliers spécifiques 
+<center>
+{| CLASS="tablo autoalt toutgauche"
+|+ Propriétés ajoutant un bonus de +3
 |- CLASS="titre"
-| Puissant || Bouclier spécial || Prix de vente
+| WIDTH="12%" | Propriété
+| WIDTH="3%" | Source
+| WIDTH="11%" | Restrictions
+| WIDTH="61%" | Capacités
+| WIDTH="13%" | Modificateur au prix de base
+
 |- CLASS="premier"
-| 01-50 || ''[[Bouclier crénelé]]'' || 16 180 po
-|- CLASS="alt"
-| 51-100 || ''[[Bouclier forteresse]]'' || 19 180 po
+| ''[[défense intermédiaire (propriété)|Défense (intermédiaire)]]'' || <sup>A&E</sup> || — || Le porteur a 50 % de chances d’ignorer les dégâts supplémentaires infligés par les coups critiques et les attaques sournoises. || bonus de +3
+
+|- CLASS="premier"
+| ''[[forme animale (propriété)|Forme animale]]'' || <sup>A&E</sup> || — || Le porteur conserve son bonus d’armure (et son bonus d’altération à l’armure) lorsqu’il utilise la capacité [[druide#FORMEANIMALE|forme animale]]. || bonus de +3
+
+|- CLASS="premier"
+| ''[[invulnérabilité (propriété)|Invulnérabilité]]'' || <sup>A&E</sup> || Armures || Confère une [[RD]] 5/magie. || bonus de +3
+
+|- CLASS="premier"
+| ''[[perception (propriété)|Perception]]'' || <sup>A&E</sup> || Armures || Tant que le porteur est [[aveuglé]], dans des ténèbres complètes (sauf s’il possède la [[vision dans le noir]] ou la [[vision dans les ténèbres]]) ou dans des ténèbres magiques (sauf s’il possède la [[vision dans les ténèbres]]), confère la [[vision aveugle (capacité)|vision aveugle]] (1,5m) et la [[perception aveugle (capacité)|perception aveugle]] (18m). || bonus de +3
+
+|- CLASS="premier"
+| ''[[résistance à la magie 15 (propriété)|Résistance à la magie (15)]]'' || <sup>A&E</sup> || — || Confère une [[RM]] de 15. || bonus de +3
+
+|- CLASS="premier"
+| ''[[spectrale (propriété armure)|Spectrale]]'' || <sup>A&E</sup> || — || L’arme est considérée comme tangible et intangible à tout moment. || bonus de +3
+
+|- CLASS="premier"
+| ''[[titanesque (propriété)|Titanesque]]'' || <sup>A&E</sup> || Armures || Le porteur est considéré comme étant d’une catégorie de taille de plus à tout moment. Une fois par jour, peut augmenter la taille du porteur d’une catégorie pendant 1 minute (comme avec ''[[agrandissement]]''). Une fois par minute, peut ajouter le bonus d’altération de l’armure à un test de [[Force]], de [[BMO]] ou au [[DMD]] du porteur. Augmente le malus d’armure aux tests de l’armure du même montant. || bonus de +3
 |}
 </center>
 
-{s:MR}<center>
-{| CLASS="tablo col1centre"
-|+ Boucliers spécifiques
+<center>
+{| CLASS="tablo autoalt toutgauche"
+|+ Propriétés ajoutant un bonus de +4
 |- CLASS="titre"
-|  Bouclier spécial || Prix de vente
+| WIDTH="12%" | Propriété
+| WIDTH="3%" | Source
+| WIDTH="11%" | Restrictions
+| WIDTH="61%" | Capacités
+| WIDTH="13%" | Modificateur au prix de base
+
 |- CLASS="premier"
-| ''[[Bouclier céleste]]'' (aasimar) || 13 170 po
-|- CLASS="alt"
-| ''[[Bouclier élyséen]]'' (aasimar) || 26 390 po
+| ''[[résistance à la magie 17 (propriété)|Résistance à la magie (17)]]'' || <sup>A&E</sup> || — || Confère une [[RM]] de 17. || bonus de +4
 |}
 </center>
 
+<center>
+{| CLASS="tablo autoalt toutgauche"
+|+ Propriétés ajoutant un bonus de +5
+|- CLASS="titre"
+| WIDTH="12%" | Propriété
+| WIDTH="3%" | Source
+| WIDTH="11%" | Restrictions
+| WIDTH="61%" | Capacités
+| WIDTH="13%" | Modificateur au prix de base
+
+|- CLASS="premier"
+| ''[[défense lourde (propriété)|Défense (lourde)]]'' || <sup>A&E</sup> || — || Le porteur a 75 % de chances d’ignorer les dégâts supplémentaires infligés par les coups critiques et les attaques sournoises. || bonus de +5
+
+|- CLASS="premier"
+| ''[[réfléchissante (propriété)|Réfléchissante]]'' || <sup>A&E</sup> || Boucliers || Une fois par jour, peut renvoyer un sort qui le cible au lanceur (comme avec ''[[renvoi des sorts]]''). || bonus de +5
+
+|- CLASS="premier"
+| ''[[résistance à la magie 19 (propriété)|Résistance à la magie (19)]]'' || <sup>A&E</sup> || — || Confère une [[RM]] de 19. || bonus de +5
+|}
+</center>
