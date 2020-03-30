@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Actions spéciales
 Title: Actions spéciales
-LastModified: 2018-11-27 09:42
+LastModified: 2020-03-28 18:20
 Categories:
   - 'Combat'
 ---
@@ -18,13 +18,14 @@ Cette [[action simple]] permet également d’aider un ami différemment, par ex
 
 {s:Reference|ARMEIMPACT}
 === Lancer une arme à impact ===
-On appelle arme à impact toute arme à distance qui se brise ou se déchire au moindre choc, pour répandre son contenu sur sa cible et les créatures ou objets alentours. Le résultat du lancer est déterminé par une [[attaque de contact à distance]] contre la cible. Les armes à impact ne nécessitent aucune formation et le personnage ne subit donc jamais de malus de -4 pour non-formation. Si le coup touche, l’arme à impact inflige les dégâts d’un coup au but à la cible et des dégâts d’aspersion à toutes les créatures distantes de moins de 1,50 mètre. Les armes à impact ne peuvent pas infliger de dégâts basés sur la précision (comme les dégâts d’une [[roublard#ATTAQUESOURNOISE|attaque sournoise]] de [[roublard]]).
+On appelle arme à impact toute arme à distance qui se brise ou se déchire au moindre choc, pour répandre son contenu sur sa cible et les créatures ou objets alentours. Le résultat du lancer est déterminé par une [[attaque de contact à distance]] contre la cible. Les armes à impact ne nécessitent aucune formation et le personnage ne subit donc jamais de malus de -4 pour non-formation. Si le coup touche, l’arme à impact inflige les dégâts d’un coup au but à la cible et des dégâts d’aspersion à toutes les créatures distantes de moins de 1,50 mètre. Si la cible est de taille G ou supérieure, il faut choisir une de ses cases et les dégâts d'aspersion affectent les créatures qui sont à 1,5 m de cette case. Les armes à impact ne peuvent pas infliger de dégâts de précision (comme les dégâts d’une [[roublard#ATTAQUESOURNOISE|attaque sournoise]] de [[roublard]]).
 
 Le personnage peut viser l’intersection de plusieurs cases au lieu d’une créature. Dans ce cas, il fait une attaque à distance contre une [[CA]] de 5. Cependant, aucune créature ne reçoit les dégâts d’un coup au but bien que toutes les créatures des cases adjacentes à l’intersection subissent les dégâts d’aspersion. Il est impossible de viser une intersection si elle est occupée par une créature, comme une créature de [[taille G]] ou plus, dans ce cas, il faut viser la créature elle-même.
 
 Si le personnage rate son attaque, qu’elle vise une créature ou une intersection, il lance 1d8 pour déterminer dans quelle direction se produit l’impact par rapport à la cible : sur un 1, le lancer était trop court, sur un 2, trop court et à gauche, et ainsi de suite dans le sens des aiguilles d’une montre. On compte alors un nombre de cases égal au facteur de portée du tir. Par exemple, si un personnage rate un lancer distant de deux facteurs de portée et obtient un 1 sur son d8, l’arme à impact atterrit deux cases en avant du point visé. L’arme à impact inflige des dégâts d’aspersion à toutes les créatures se situant à moins de 1,50 mètre.
 
 {s:Reference|CHARGE}
+
 === Charge ===
 {s:Desambi|Charge peut également désigner l'encombrement causé par le [[encombrement|poids transporté]].}
 La charge est une [[action complexe]] particulière qui permet de parcourir une distance égale à deux fois la vitesse de déplacement normale du personnage et de porter une attaque. En contrepartie, elle limite fortement le déplacement.

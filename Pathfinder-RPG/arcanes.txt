@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.arcanes
 Title: Les arcanes de magus
-LastModified: 2020-03-09 18:01
+LastModified: 2020-03-28 21:03
 Categories:
   - 'Art de la Magie'
   - 'Classe'
@@ -32,9 +32,10 @@ Le magus doit être au moins de niveau 6 et disposer d'une réserve de ki avant 
 
 {s:mca}{s:Reference|ARCANEFLAMBOYANT}
 ====Arcane flamboyant (Ext)====
-Un magus acquiert les [[exploits (bretteur)|exploits]] [[exploits (bretteur)#BRAVOURE|bravoure]] et [[exploits (bretteur)#PARADEETRIPOSTEOPPORTUNE|parade et riposte opportune]] de la liste des exploits de [[bretteur]]. Le magus peut dépenser des points de sa [[réserve magique]] au lieu des points de panache pour utiliser ces exploits et ceux qu’il reçoit grâce à l’exploit arcanique mais il ne peut pas utiliser les points de sa réserve magique pour utiliser les exploits acquis par le biais d’autres classes ou grâce à des dons. Il ne peut pas non plus récupérer les points de sa réserve magique comme le fait un bretteur avec ses points de panache. Les effets qui augmentent, réduisent ou affectent d’une façon ou d’une autre le coût en points de panache ou d’audace n’affectent pas les points de la réserve magique d’un magus qui possède cet arcane.
+Un magus acquiert les [[exploits (bretteur)|exploits]] [[exploits (bretteur)#BRAVOURE|bravoure]] et [[exploits (bretteur)#PARADEETRIPOSTEOPPORTUNE|parade et riposte opportune]] de la liste des exploits de [[bretteur]]. Le magus ne peut dépenser que des points de sa [[réserve magique]] (et non des points de panache) pour utiliser ces exploits et ceux qu’il reçoit grâce à l’exploit arcanique. Il ne peut pas utiliser les points de sa réserve magique pour utiliser les exploits acquis par le biais d’autres classes ou grâce à des dons. Il ne peut pas non plus récupérer les points de sa réserve magique comme le fait un bretteur avec ses points de panache. Les effets qui augmentent, réduisent ou affectent d’une façon ou d’une autre le coût en points de panache ou d’audace n’affectent pas les points de la réserve magique d’un magus qui possède cet arcane.
 
 {s:Reference|ASSAUTACCELERE}
+
 ====Assaut accéléré (Sur)====
 Le magus peut dépenser 1 point de sa [[Magus#RESERVEMAGIQUE|réserve magique]] par une [[action rapide]] pour agir plus rapidement. Ceci fonctionne comme un sort de ''[[rapidité]]'' mais n’affecte que le mage et dure un nombre de rounds égal au bonus d’[[Intelligence]] du magus. 
 
@@ -106,11 +107,12 @@ Le magus doit être de niveau 6, au minimum, et posséder des niveaux dans une a
 
 {s:Reference|EXPLOITARCANIQUE}
 ====Exploit arcanique (Ext)====
-Quand un magus opte pour cet arcane, il peut choisir un des [[exploits (bretteur)|exploits]] de l’aptitude de classe de bretteur si celui-ci est utilisable par un bretteur d’un niveau équivalent au sien. Le magus peut utiliser cet exploit en remplaçant les points de panache nécessaires à son utilisation par les points de sa réserve magique. 
+Quand un magus opte pour cet arcane, il peut choisir un des [[exploits (bretteur)|exploits]] de l’aptitude de classe de bretteur si celui-ci est utilisable par un bretteur d’un niveau équivalent au sien. Le magus peut utiliser cet exploit en remplaçant les points de panache nécessaires à son utilisation par les points de sa réserve magique. Cependant, même s'il gagne une reserve de panache par un autre moyen, le magus n'est pas considéré comme ayant au moins 1 point dans sa réserve de panache dans le cadre des exploits sélectionnés avec l'exploit arcanique, et son niveau effectif de bretteur pour déterminer l'effet de ces exploits est 0. 
 
 Un magus peut choisir cet arcane à plusieurs reprises pour obtenir un nouvel exploit à chaque fois. Le magus doit posséder l’arcane flamboyant pour pouvoir choisir l’exploit arcanique.
 
 {s:Reference|FAMILIER}
+
 ====Familier (Ext)====
 Le magus obtient un [[familier]] en utilisant son niveau de magus comme niveau effectif de [[magicien]]. Le familier suit les règles des familiers présentées dans le pouvoir de [[Magicien#PACTEMAGIQUE|pacte magique]] du magicien.
 

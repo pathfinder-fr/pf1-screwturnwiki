@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Créateur de race
 Title: Créateur de race
-LastModified: 2020-02-20 17:47
+LastModified: 2020-03-24 23:58
 Categories:
   - 'Manuel des races'
   - 'Règles officielles'
@@ -801,13 +801,13 @@ membres de la race gagnent une résistance à l’acide de 5, une
 résistance au froid de 5 et une résistance à l’électricité de 5.
 
 '''''Résistance élémentaire (1 PR).''''' Conditions requises : extérieur
-(natif ) lié à un plan élémentaire ; Avantage : choisissez l’un
-des types d’énergie suivants, correspondant au plan auquel
+(natif ) lié à un plan élémentaire ou Dragon lié avec un type de dragon offrant des résistances élementaires ; Avantage : choisissez l’un
+des types d’énergie suivants, correspondant au plan ou au type de dragon auquel
 la race est liée : acide (terre), froid (eau), électricité (air) ou feu
 (feu). Les membres ont une résistance de 5 au type d’énergie
 correspondant. Spécial : il est possible de prendre ce trait
 plusieurs fois. Chaque fois que vous le prenez, choisissez
-un type d’énergie supplémentaire correspondant à un autre
+un type d’énergie supplémentaire correspondant à un autre dragon ou 
 plan élémentaire auquel la race est liée.
 
 '''''Résistance exaltée (3 PR).''''' Conditions requises : extérieur
@@ -1069,11 +1069,11 @@ aucune ; Avantage : choisissez un don sans conditions
 requises. Tous les membres de la race le gagnent comme don
 supplémentaire au niveau 1.
 
-'''''Éclats du passé (4 PR).''''' Conditions requises : aucune ;
+'''''Éclats du passé (5 PR).''''' Conditions requises : aucune ;
 Avantage : les membres de la race ont des vies passées qui leur
-accordent deux compétences Connaissances particulières.
+accordent deux compétences particulières.
 Chaque membre de la race choisit deux compétences
-Connaissances : ils y gagnent un bonus racial de +2 et elles
+: ils y gagnent un bonus racial de +2 et elles
 sont considérées comme des compétences de classe quelle
 que soit la classe qu’ils prennent.
 
@@ -1182,6 +1182,7 @@ Attaque en finesse.
 '''''Réactions rapides (2 PR).''''' Conditions requises : aucune ;
 Avantage : les membres de la race gagnent le don
 supplémentaire Science de l’initiative.
+
 
 ====TRAITS RACIAUX MAGIQUES====
 
@@ -1832,7 +1833,7 @@ bonus de +2 à leurs tests de Perception contre les créatures
 volantes. En outre, les ennemis en position surélevée ne
 gagnent pas de bonus à leurs jets d’attaque contre eux.
 
-'''''Souffe (1 PR).''''' Conditions requises : aberration, créature
+'''''Souffle (1 PR).''''' Conditions requises : aberration, créature
 artificielle, dragon, humanoïde (reptilien), humanoïde
 monstrueux ou extérieur (natif ) lié à un plan élémentaire ;
 Avantage : choisissez l’un des types d’énergie suivants : [[Créer un sort#ACIDE|acide]],
@@ -1842,26 +1843,26 @@ d’énergie correspondant au plan auquel elle est liée (acide (Terre),
 froid (Eau), électricité (Air) ou feu (Feu)). Puis choisissez entre un
 cône de 4,5 mètres de long ou une ligne de 6 mètres. Une fois
 par jour, par une action simple, les membres de la race peuvent
-effectuer une attaque de souffe surnaturelle infligeant 1d6
+effectuer une attaque de souffle surnaturelle infligeant 1d6
 points de dégâts du type d’énergie choisi dans la zone choisie.
 Toutes les créatures présentes dans la zone affectée doivent
 réussir un jet de Réflexes pour éviter d’être blessées. Le DD du
-jet de sauvegarde contre ce souffe est de 10 + 1/2 du niveau de
+jet de sauvegarde contre ce souffle est de 10 + 1/2 du niveau de
 personnage de l’utilisateur + modificateur de Constitution de
 l’utilisateur. Celles qui réussissent ne reçoivent aucun dégât de
 l’attaque. Spécial : il est possible de prendre ce trait plusieurs
 fois. À chaque fois, son coût augmente de 1 PR et vous pouvez
-augmenter l’arme de souffe de l’une des façons suivantes (les
+augmenter l’arme de souffle de l’une des façons suivantes (les
 augmentations marquées d’un astérisque [*] peuvent être prises
 plusieurs fois).
 
 Dégâts accrus*. Augmentez les dégâts d’1d6 supplémentaire.
 
-Souffe puissant. L’attaque de souffe inflige la moitié des
-dégâts sur un jet de sauvegarde raté.
+Souffle puissant*. Ceux qui réussissent leur jet de sauvegarde contre l’attaque de souffle reçoivent la moitié des
+dégâts.
 
-Souffe supplémentaire*. Les membres de la race peuvent
-utiliser leur souffe une fois de plus par jour.
+Souffle supplémentaire*. Les membres de la race peuvent
+utiliser leur souffle une fois de plus par jour.
 
 Zone étendue. Augmentez la taille du cône à 9 mètres ou la
 longueur de la ligne à 15 mètres.
@@ -1974,6 +1975,7 @@ ayant une solidité minimum de 5. Un rocher lancé a un facteur
 de portée de 36 mètres. La créature peut lancer le rocher à un
 maximum de 5 facteurs de portée. Les dégâts d’un rocher lancé
 sont de 2d6 + 1,5 fois le bonus de Force de la créature qui le lance.
+
 
 
 ===SENS===
