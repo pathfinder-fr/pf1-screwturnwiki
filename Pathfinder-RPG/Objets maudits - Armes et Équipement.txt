@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Objets maudits - Armes et Équipement
 Title: Objets maudits - Armes et Équipement
-LastModified: 2020-03-25 22:51
+LastModified: 2020-03-31 17:12
 Categories:
   - 'Armes et équipement'
   - 'Objet magique maudit'
@@ -145,7 +145,7 @@ Certains objets ne s’utilisent qu’une fois que le personnage a rempli des co
 * Le personnage doit abandonner son nom pour en adopter un autre déterminé par l’objet. Ce dernier fonctionne uniquement entre les mains des personnages qui portent ce nom.  
 * Le personnage doit prendre un niveau dans une classe donnée dès qu’il en a l’occasion (sauf s’il appartient déjà à cette classe). Le personnage doit posséder un nombre minimum de rangs dans une compétence donnée.  
 * Le personnage doit sacrifier une part de son énergie vitale (2 points de [[Constitution]]) à une seule reprise. S’il la récupère (avec un sort de ''[[restauration]]'' par exemple), l’objet cesse de fonctionner, ce qui n’est pas le cas s’il gagne de nouveaux points parce qu’il monte d’un niveau ou qu’il utilise un ''[[souhait]]'' ou un objet magique.  
-* Il faut nettoyer l’objet tous les jours avec de l’[[substances et objets spéciaux#eau bénite]].  
+* Il faut nettoyer l’objet tous les jours avec de l’[[substances et objets spéciaux#Eaubénite|eau bénite]].  
 * Il faut utiliser l’objet pour tuer une créature par jour.  
 * Il faut tremper l’objet dans la lave une fois par mois.  
 * Il faut utiliser l’objet au moins une fois par jour, sinon, il ne fonctionnera plus jamais entre les mains de son actuel propriétaire.  
@@ -155,7 +155,7 @@ Les conditions requises dépendent tellement de la nature de l’objet qu’il n
 
 {s:Reference|INCONVENIENT}
 ====Inconvénients====
-Les objets possédant des inconvénients apportent des avantages à leur propriétaire mais également des désavantages. Parfois, l’inconvénient se manifeste uniquement quand on les utilise (ou qu’on les tient en main dans le cas des armes), d’autres fois, il s’applique tant que le personnage garde l’objet en sa possession (voir la table 6-1 Les inconvénients des objets maudits).  
+Les objets possédant des inconvénients apportent des avantages à leur propriétaire mais également des désavantages. Parfois, l’inconvénient se manifeste uniquement quand on les utilise (ou qu’on les tient en main dans le cas des armes), d’autres fois, il s’applique tant que le personnage garde l’objet en sa possession (voir la table ci-dessous).  
 Sauf indication contraire, les inconvénients font effet tant que le personnage garde l’objet en sa possession. Le [[DD]] pour résister à un inconvénient est généralement de 10 + [[NLS]] de l’objet.
 
 <center>
@@ -171,7 +171,7 @@ Sauf indication contraire, les inconvénients font effet tant que le personnage 
 | CLASS="gauche" | Le personnage rétrécit (01-50 sur un d100) ou grandit (51-100) de 15 centimètres. Se produit une seule fois.
 |- 
 | 10-13
-| CLASS="gauche" | La température chute de 12 C autour de l’objet.
+| CLASS="gauche" | La température chute de 12 °C autour de l’objet.
 |- CLASS="alt"
 | 14-17
 | CLASS="gauche" | La température augmente de 12°C autour de l’objet.
@@ -259,8 +259,13 @@ Sauf indication contraire, les inconvénients font effet tant que le personnage 
 |}
 </center>
 ===Objets maudits spécifiques===
-Les objets maudits les plus insidieux et les plus dangereux sont sûrement ceux dont les fonctionnalités d’origine ont été entièrement remplacées par une malédiction. Mais ils ont aussi leur utilité, qu’on s’en serve comme piège ou comme arme. Voici quelques échantillons d’objets maudits. La partie sur la fabrication a été remplacée par le nom d’un ou plusieurs objets magiques ordinaires susceptibles de donner naissance à l’objet maudit. On peut vendre un objet maudit comme si c’était un objet magique ordinaire, à condition que l’acheteur ne soit pas au courant de la malédiction que contient l’objet.  
-Les armures et les armes maudites se présentent sous de nombreuses formes. Nous vous présentons ici les plus courantes. Par exemple, une [[épée maudite –2]] peut se présenter sous la forme d’une [[épée courte (arme)|épée courte]] +3 ou d’une [[dague (arme)|dague]] +1, avec un malus équivalent, au lieu du –2 de l’exemple.
+Les objets maudits les plus insidieux et les plus dangereux sont sûrement ceux dont les fonctionnalités d’origine ont été entièrement remplacées par une malédiction. Mais ils ont aussi leur utilité, qu’on s’en serve comme piège ou comme arme.
+
+Voici quelques échantillons d’objets maudits. 
+
+La colonne origine donne le nom d’un ou plusieurs objets magiques dont la création est susceptible de donner naissance à l’objet maudit. On peut vendre un objet maudit comme si c’était un objet magique ordinaire, à condition que l’acheteur ne soit pas au courant de la malédiction que contient l’objet.
+
+Les armures et les armes maudites se présentent sous de nombreuses formes. Nous vous présentons ici les plus courantes. Par exemple, une [[épée maudite -2]] peut se présenter sous la forme d’une [[épée courte (arme)|épée courte]] +3 ou d’une [[dague (arme)|dague]] +1, avec un malus équivalent, au lieu du –2 de l’exemple.
 
 <center>
 {| CLASS="tablo autoalt toutgauche"
@@ -305,7 +310,7 @@ Les armures et les armes maudites se présentent sous de nombreuses formes. Nous
 | [[Armure des âmes mortes]] || <sup>A&E</sup> || [[armure de cuir cloutée (armure)|armure de cuir cloutée]] de ''[[contrôle des morts-vivants (propriété)|contrôle des morts-vivants]]'' +1 || Trois fois par jour, lorsque le porteur tente d’utiliser la propriété ''[[contrôle des morts-vivants (propriété)|contrôle des morts-vivants]]'', lui et ses alliés dans un rayon de 6m autour de lui se prennent pour des morts-vivants pendant 24 heures.
 
 |- CLASS="premier"
-| [[Balai frappeur]] || <sup>A&E</sup> || [[balai volant]] || Lorsque le porteur tente de voler avec, lui inflige les dégâts d’une chute de 1d4+1,5m puis lui porte 2 coups par [[round]] pendant 4 [[round|rounds]] infligeant 1d6 points de dégâts chacun dont un peut [[aveuglé|aveugler]] la cible.
+| [[Balai frappeur]] || <sup>A&E</sup> || [[balai volant]] || Lorsque le porteur tente de voler avec, lui inflige les dégâts d’une chute de 1d4+1,5m puis lui porte 4 coups par [[round]] pendant 4 [[round|rounds]] infligeant 1d6 points de dégâts chacun dont deux peuvent [[aveuglé|aveugler]] la cible.
 
 |- CLASS="premier"
 | [[Bandeau de stupidité]] || <sup>A&E</sup> || [[bandeau dintelligence|bandeau d’intelligence +4]] || Impose un malus de -4 à l’[[Intelligence]] et un malus de -2 aux tests de [[Connaissances]].
@@ -314,13 +319,13 @@ Les armures et les armes maudites se présentent sous de nombreuses formes. Nous
 | [[Bâton merveilleux occasionnel]] || <sup>A&E</sup> || [[bâtons magiques|bâton magique]] || Lorsque que le porteur tente d’utiliser un pouvoir du bâton, il y a 1 chance sur 10 qu’il manifeste les effets d’un [[sceptre merveilleux]] à la place.
 
 |- CLASS="premier"
-| [[Bottes de danse effrénée]] || <sup>A&E</sup> || [[bottes elfiques]], [[bottes de lévitation]], [[bottes de rapidité]], [[bottes de sept lieues]], [[bottes de téléportation]], [[bottes des terres gelées]], [[bottes ailées]] || Lors que le porteur se retrouve dans une mêlée (ou la fuit), lui inflige effets du sort [[danse irrésistible]]. Impossible de s’en débarrasser librement.
+| [[Bottes de danse effrénée]] || <sup>A&E</sup> || [[bottes elfiques]], [[bottes de lévitation]], [[bottes de rapidité]], [[bottes de sept lieues]], [[bottes de téléportation]], [[bottes des terres gelées]], [[bottes ailées]] || Lorsque le porteur se retrouve dans une mêlée (ou la fuit), lui inflige effets du sort ''[[danse irrésistible]]''. Impossible de s’en débarrasser librement.
 
 |- CLASS="premier"
-| [[Bouclier de linvasion planaire|Bouclier de l’invasion planaire]] || <sup>A&E</sup> || [[bouclier phagocyte]] || Lors que le porteur tente d’utiliser le pouvoir de ''[[désintégration]]'' du bouclier, invoque à la place 1d3 monstres (comme avec ''[[convocation de monstres]]'' d’un niveau aléatoire) qui attaquent la créature la plus proche pendant 1d6 [[round|rounds]]. Une fois activé, ce pouvoir se manifeste trois fois par jour toutes les 8 heures automatiquement. Impossible de s’en débarrasser librement (s’il a fait effet).
+| [[Bouclier de linvasion planaire|Bouclier de l’invasion planaire]] || <sup>A&E</sup> || [[bouclier phagocyte]] || Lorsque le porteur tente d’utiliser le pouvoir de ''[[désintégration]]'' du bouclier, invoque à la place 1d3 monstres (comme avec ''[[convocation de monstres]]'' d’un niveau aléatoire) qui attaquent la créature la plus proche pendant 1d6 [[round|rounds]]. Une fois activé, ce pouvoir se manifeste trois fois par jour toutes les 8 heures automatiquement. Impossible de s’en débarrasser librement (s’il a fait effet).
 
 |- CLASS="premier"
-| [[Boule de cristal asservissante]] || <sup>A&E</sup> || [[boule de cristal]] || Lors que le porteur tente d’utiliser la boule de cristal, il est [[fasciné]] pendant 1d6 minutes et peut recevoir une ''[[suggestion]]'' par télépathie.
+| [[Boule de cristal asservissante]] || <sup>A&E</sup> || [[boule de cristal]] || Lorsque le porteur tente d’utiliser la boule de cristal, il est [[fasciné]] pendant 1d6 minutes et peut recevoir une ''[[suggestion]]'' par télépathie.
 
 |- CLASS="premier"
 | [[Bracelets de tir dégroupé]] || <sup>A&E</sup> || [[bracelets darcher|bracelets d’archer]] (tous) || Imposent un malus de -2 aux [[jet dattaque|jets d’attaque]] à distance. Impossible de s’en débarrasser librement.
@@ -347,7 +352,7 @@ Les armures et les armes maudites se présentent sous de nombreuses formes. Nous
 | [[Casque de changement dalignement|Casque de changement d’alignement]] || <sup>A&E</sup> || [[Casque de compréhension]], [[casque de télépathie]], [[couvre-chef de déguisement]] || Le porteur peut adopter un alignement diamétralement opposé au sien. Impossible de s’en débarrasser librement (s’il a fait effet).
 
 |- CLASS="premier"
-| [[Ceinture de faiblesse]] || <sup>A&E</sup> || [[Ceinturon de constitution de lours|Ceinturon de constitution de l’ours]] (tous) || Impose un malus de -4 à la [[Constitution]]. Lors que porteur obtient un 1 naturel à un jet de [[Vigueur]], lui inflige 2d8 points de dégâts.
+| [[Ceinture de faiblesse]] || <sup>A&E</sup> || [[Ceinturon de constitution de lours|Ceinturon de constitution de l’ours]] (tous) || Impose un malus de -4 à la [[Constitution]]. Lorsque porteur obtient un 1 naturel à un jet de [[Vigueur]], lui inflige 2d8 points de dégâts.
 
 |- CLASS="premier"
 | [[Ceinture du sexe opposé]] || <sup>A&E</sup> || [[objets merveilleux portés à la taille|ceinture magique]] || Peut changer le sexe du porteur, ou le rendre asexué, en permanence.
@@ -395,7 +400,7 @@ Les armures et les armes maudites se présentent sous de nombreuses formes. Nous
 | [[Flasque maudite]] || <sup>A&E</sup> || [[carafe intarissable]], [[flasque de fer]], [[urne du mauvais génie]], [[urne fumigène]] || Lorsqu’elle est ouverte, peut imposer un malus de -2 aux [[jet dattaque|jets d’attaque]], [[jds|de sauvegarde]] et aux tests de compétence (comme avec ''[[malédiction]]'') de toutes les créatures dans un rayon de 9m d’elle.
 
 |- CLASS="premier"
-| [[Flûte d’émeutes]] || <sup>A&E</sup> || [[flûte de hantise]], [[flûte à bruitages]], [[flûte dHamelin|flûte d’Hamelin]] || Lorsque qu’on en joue dans un environnement urbain (ce qu’elle peut le forcer à faire), tous les gens qui l’entendent peuvent bénéficier des effets du sort ''[[rage]]'' pendant 1d6 heures alors qu’ils attaquent tout étranger ou personne détestée autour d’eux. Impossible de s’en débarrasser librement.
+| [[Flûte démeutes|Flûte d’émeutes]] || <sup>A&E</sup> || [[flûte de hantise]], [[flûte à bruitages]], [[flûte dHamelin|flûte d’Hamelin]] || Lorsque qu’on en joue dans un environnement urbain (ce qu’elle peut le forcer à faire), tous les gens qui l’entendent peuvent bénéficier des effets du sort ''[[rage]]'' pendant 1d6 heures alors qu’ils attaquent tout étranger ou personne détestée autour d’eux. Impossible de s’en débarrasser librement.
 
 |- CLASS="premier"
 | [[Gantelets de maladresse]] || <sup>A&E</sup> || [[gantelet de rouille]], [[gants antiprojectiles]], [[gants de nage et descalade|gants de nage et d’escalade]], [[gant de rangement]] || Lorsque le porteur se fait attaquer ou est en danger de mort, il a 50 % de chance de lâcher ce qu’il tient dans une de ses mains à chaque [[round]], et subit un malus de -2 à la [[Dextérité]] en permanence. Impossible de s’en débarrasser librement (s’ils ont fait effet).
@@ -413,7 +418,10 @@ Les armures et les armes maudites se présentent sous de nombreuses formes. Nous
 | [[Lance traîtresse]] || <sup>A&E</sup> || [[épieu (arme)|épieu]] +2, n’importe quelle [[armes magiques|arme magique]] || Lorsque le porteur obtient un 1 naturel sur un [[jet dattaque|jet d’attaque]] effectué avec, lui inflige les dégâts de l’attaque (les dégâts normaux sont doublés s’il s’agissait une attaque à distance).
 
 |- CLASS="premier"
-| [[Marteau pesant]] || <sup>A&E</sup> || [[marteau de guerre (arme)|marteau de guerre]] +2, n’importe quelle [[armes magiques|arme magique]] || Impose un malus de -2 aux [[jet dattaque|jets d’attaque]] et de -3m à la vitesse de déplacement. Confère un bonus de +4 aux [[valeurs de combat#DEGATS|jets de dégâts]]. Impossible de s’en débarrasser librement.
+| [[Main de maniaque]] || <sup>AO</sup> || [[main de pierre]], [[main du mage]], [[main miraculeuse]] || Greffée au moignon d’un humanoïde qui a perdu une main, confère un bonus de compétence de +2 aux [[jet dattaque|jets d’attaque]] et [[valeurs de combat#DEGATS|de dégâts]] effectués avec, et peut permettre d’effectuer une attaque supplémentaire lors d’une [[actions complexes#ATTAQUEAOUTRANCE|attaque à outrance]] aux prix d’un malus de -2 à la [[CA]]. Tente de tuer les amis du porteur, des innocents, ou le porteur lui-même s’il ne se plie pas à sa volonté. Impossible de s’en débarrasser librement.
+
+|- CLASS="premier"
+| [[Marteau pesant]] || <sup>A&E</sup> || [[marteau de guerre (arme)|marteau de guerre]] +2 || Impose un malus de -2 aux [[jet dattaque|jets d’attaque]] et de -3m à la vitesse de déplacement. Confère un bonus de +4 aux [[valeurs de combat#DEGATS|jets de dégâts]]. Impossible de s’en débarrasser librement.
 
 |- CLASS="premier"
 | [[Masque de laideur]] || <sup>A&E</sup> || [[objets merveilleux portés sur la tête|masque magique]], [[bandeau de belle allure]] || Impose un malus de -4 aux tests de [[Bluff]] et de [[Diplomatie]]. Confère un bonus de +2 aux tests d’[[Intimidation]].
@@ -425,10 +433,16 @@ Les armures et les armes maudites se présentent sous de nombreuses formes. Nous
 | [[Médaillon démission des pensées|Médaillon d’émission des pensées]] || <sup>A&E</sup> || [[médaillon des pensées]] || Les informations transmissent au porteur sont toujours fausses, mais convaincantes. Transmet les pensées du porteur à toutes les créatures autour de lui en permanence.
 
 |- CLASS="premier"
+| [[Miroir de vampirisme des âmes]] || <sup>AO</sup> || [[miroir demprisonnement|miroir d’emprisonnement]], [[miroir dopposition|miroir d’opposition]] || Peut absorber l’âme des créatures qui se regarde dedans (15 maximum). Les créatures dont l’âme a été absorbée deviennent les hôtes d’esprits similaires à l’alignement opposé.
+
+|- CLASS="premier"
 | [[Mousquet instable]] || <sup>A&E</sup> || mousquet +1 || Fait [[long feu]] sur un jet de 1 à 5 et cette valeur est irréductible. Impossible de s’en débarrasser librement.
 
 |- CLASS="premier"
 | [[Onguent de vieillesse]] || <sup>A&E</sup> || [[onguent dintemporalité|onguent d’intemporalité]] || Utilisé sur une créature vivante, la fait vieillir de 30 ans. Utilisé sur des matériaux autrefois vivants, les faits tomber en poussière. 8 doses à la fabrication.
+
+|- CLASS="premier"
+| [[Patte de singe]] || <sup>AO</sup> || aucun || Confère trois ''[[souhait|souhaits]]'', mais le résultat est toujours désastreux.
 
 |- CLASS="premier"
 | [[Pierre de lest]] || <sup>A&E</sup> || [[gemme à élémentaire]] (terre), [[pierre dalerte|pierre d’alerte]], [[pierre ioun]], [[pierre porte-bonheur]] || Réduit la vitesse de déplacement du porteur de moitié. Impossible de s’en débarrasser librement.
@@ -441,6 +455,9 @@ Les armures et les armes maudites se présentent sous de nombreuses formes. Nous
 
 |- CLASS="premier"
 | [[Poudre à éternuer]] || <sup>A&E</sup> || [[poudre dapparition|poudre d’apparition]], [[poudre de dissimulation des traces]] || Manifeste une étendue de 6m de rayon autour de l’utilisateur qui peut infliger un [[affaiblissement temporaire (capacité)|affaiblissement temporaire]] de 3d6 points à la [[Constitution]] à toutes les créatures qui s’y trouve, ou qui les [[étourdi|étourdies]] pendant 5d4 [[round|rounds]].
+
+|- CLASS="premier"
+| [[Poupée hantée]] || <sup>AO</sup> || [[poupée anatomique]], [[poupée ganji]], [[poupée malfaisante]] || Lorsqu’un combat se déroule dans un rayon de 6m ou moins d’elle, peut devenir un [[poltergeist]] [[archétypes#CREATUREEVOLUEE|évolué]] qui peut être questionné  avec ''[[appel dun esprit|appel d’un esprit]]'' une fois tué. Le sommeil du porteur a 10 % de chances d’être sans effet.
 
 |- CLASS="premier"
 | [[Robe dimpuissance|Robe d’impuissance]] || <sup>A&E</sup> || [[robe darchimage|robe d’archimage]], [[robe dossements|robe d’ossements]], [[robe de camelot]], [[robe de mimétisme]], [[robe étoilée]], [[robe prismatique]], [[robe de vision totale]] || Impose un malus de -10 à la [[Force]] ainsi qu’à l’[[Intelligence]] (ou à la caractéristique d’incantation s’il en possède une) du porteur. Impossible de s’en débarrasser librement.
@@ -458,7 +475,7 @@ Les armures et les armes maudites se présentent sous de nombreuses formes. Nous
 | [[Sceptre du pyromane]] || <sup>A&E</sup> || [[sceptre dextinction des feux|sceptre d’extinction des feux]] || Lorsque que le porteur utilise le sceptre pour éteindre ou supprimer un feu pendant un combat ou une situation dangereuse, le rend [[fiévreux]] et peut le force à mettre le feu à tout objet ou structure inflammable proche (sous peine de subir des dégâts de feu) pendant 24 heures. Impossible de s’en débarrasser librement.
 
 |- CLASS="premier"
-| [[Tambours de léthargie]] || <sup>A&E</sup> || [[timbales de rapidité]] || Lorsqu’on en joue, peut infliger les effets du sort ''[[lenteur]]'' à toutes les créatures qui l’entendent.
+| [[Timbales de léthargie]] || <sup>A&E</sup> || [[timbales de rapidité]] || Lorsqu’on en joue, peut infliger les effets du sort ''[[lenteur]]'' à toutes les créatures qui l’entendent.
 
 |- CLASS="premier"
 | [[Yeux de laveugle|Yeux de l’aveugle]] || <sup>A&E</sup> || [[objets merveilleux portés sur les yeux|lunettes ou lentilles magique]] || Rendent le porteur [[aveuglé|aveugle]] (comme avec ''[[cécitésurdité|cécité/surdité]]'').

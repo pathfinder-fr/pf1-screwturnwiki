@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Règles relatives aux objets magiques
 Title: Règles relatives aux objets magiques
-LastModified: 2020-03-06 23:08
+LastModified: 2020-03-31 15:23
 Categories:
   - 'Manuel des joueurs, règles avancées'
   - 'Objet magique'
@@ -36,7 +36,6 @@ Pour les objets que vous concevez et qui requièrent plusieurs sorts pour leur c
 </center>
 
 {s:Reference|UTILISER}
-
 === Utilisation des objets magiques ===
 Pour pouvoir utiliser un objet, il s’agit tout d’abord de l’activer, ce qui est parfois aussi simple que de passer un anneau à son doigt. Certains objets fonctionnent en permanence dès lors qu’ils sont portés. Dans la plupart des cas, cependant, l’utilisation d’un objet nécessite une [[action simple]] (qui ne provoque pas d’[[attaque dopportunité|attaque d’opportunité]]). La situation est différente pour les [[Règles relatives aux objets magiques#OBJETSAFINDINCANTATION|objets à fin d’incantation]], qui sont considérés comme des sorts en situation de combat : leur utilisation provoque donc une [[attaque dopportunité|attaque d’opportunité]].
 
@@ -44,7 +43,6 @@ Sauf indication contraire dans la description de l’objet, activer un objet mag
 
 {s:Reference|OBJETSAFINDINCANTATION}
 ====Objets à fin d’incantation====
-
 C’est ainsi que sont activés les [[parchemins magiques|parchemins]]. Un [[parchemins magiques|parchemin]] est une incantation magique pratiquement achevée. L’étape de préparation a déjà été effectuée par l’auteur du [[parchemins magiques|parchemin]] et il ne reste plus à l’utilisateur qu’à finir l’incantation (en prononçant les dernières incantations, en réalisant les derniers gestes, etc.) Afin d’utiliser ce type d’objet sans risque, le sort doit être présent sur la liste des sorts d’une des classes de l’utilisateur ; par ailleurs, celui-ci doit être d’un niveau suffisant dans cette classe pour avoir en théorie accès au sort. Si son niveau n’est pas assez élevé, un incident peut avoir lieu. Activer un objet à fin d’incantation est une [[action simple]] qui provoque une [[attaque dopportunité|attaque d’opportunité]], comme si le personnage lançait un sort.
 
 {s:Reference|OBJETSAPOTENTIELMAGIQUE}
@@ -147,7 +145,6 @@ Les [[bâtons magiques|bâtons]] sont une exception à cette règle. Leurs effet
 Dans la plupart des cas, le [[DD]] associé aux divers effets produits par l’objet est indiqué dans la description de celui-ci, surtout lorsque ces effets ne correspondent pas exactement à des sorts existants (ce qui rend son niveau plus difficile à déterminer rapidement).
 
 {s:Reference|DEGATS}
-
 === Dégâts infligés aux objets magiques ===
 Un objet magique n’a besoin d’effectuer un jet de sauvegarde que dans le cas où il n’est pas porté ou tenu, celui où il est ciblé spécifiquement ou encore si son porteur obtient un 1 naturel sur un jet de sauvegarde. Les objets magiques devraient toujours avoir droit à un jet de sauvegarde contre les sorts capables de les endommager, même dans le cas où ceux-ci n’offrent généralement aucun jet de sauvegarde aux objets non magiques. Les objets magiques utilisent le même bonus de base pour tous les jets de sauvegarde ([[Réflexes]], [[Vigueur]] ou [[Volonté]]). Celui-ci se monte à 2 + moitié du niveau de lanceur de sorts de l’objet (arrondi à l’entier inférieur). L’unique exception à cette règle sont les [[objets intelligents]], puisque leur valeur de [[Sagesse]] est prise en compte pour leurs jets de [[Volonté]].
 
@@ -157,7 +154,7 @@ Sauf indication contraire, les objets magiques sont endommagés de la même mani
 Il arrive que les objets magiques soient endommagés au cours d’une aventure, plus particulièrement les [[armes magiques|armes]] et les [[armures magiques|boucliers]]. Il est possible de réparer un objet magique avec la compétence [[Artisanat]] appropriée, et le coût est le même que pour un objet ordinaire. Le sort ''[[réparation intégrale]]'' permet de réparer un objet magique endommagé (ou même détruit).
 
 {s:Reference|CHARGESOBJETSMAGIQUES}
-=== Charges, doses et usage limité ===
+==== Charges, doses et usage limité ====
 La puissance de beaucoup d’objets magiques, le plus souvent des [[bâtons magiques|bâtons]] et des [[baguettes magiques|baguettes]], est limitée par leur nombre de charges. Généralement, ce type d’objet possède un maximum de 50 charges (10 pour les [[bâtons magiques|bâtons]]). Dans le cadre d’un trésor déterminé aléatoirement, il convient de lancer 1d100 et de diviser le résultat par 2 afin d’obtenir le nombre de charges restantes (arrondir à l’entier inférieur, au minimum 1 charge). Si l’objet possède un nombre de charges maximal autre que 50, déterminer les charges restantes de façon proportionnelle au total obtenu.
 
 Le prix de vente indiqué est toujours indiqué en estimant que l’objet est pleinement chargé (ce qui est le cas au moment où il est créé). Dans le cas d’un objet qui ne vaut plus rien quand toutes ses charges sont épuisées (pratiquement la totalité des objets à charges), son prix de vente diminue proportionnellement au nombre de charges utilisées. Si l’objet reste utile une fois vidé de ses charges, seule la partie de sa valeur correspondant à ses charges est diminuée.
