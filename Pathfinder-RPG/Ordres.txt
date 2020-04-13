@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Ordres
 Title: Les ordres de chevalerie
-LastModified: 2020-03-24 20:01
+LastModified: 2020-04-11 01:14
 Categories:
   - 'Art de la guerre'
   - 'Classe'
@@ -9,17 +9,15 @@ Categories:
   - 'Manuel des races'
   - 'Règles officielles'
 ---
-''Voici les Ordres des chevaliers et des samouraïs les plus répandus. 
+{s:Menuclassessupplémentaires}
+<div style="background-color: #fff; float: right; padding: 0 0 12px 12px">{toc}</div>
+{s:apg}''Voici les Ordres des chevaliers et des samouraïs les plus répandus. 
 
 Leurs membres ne sont pas forcément liés entre eux mais il existe des organisations qui se composent uniquement de chevaliers et de samouraïs du même ordre. 
 
 Certains ordres sont plus spécifiques aux Samouraïs ou aux Chevaliers mais ils restent accessibles aux deux classes''
 
-<div style="background-color: #fff; float: right; padding: 0 0 12px 12px">{toc}</div>
-
-{s:apg}
 ===Ordres de chevalier===
-
 ====Ordre de l’épée====
 ''Les chevaliers qui rejoignent l’ordre de l’épée dédient leur vie au code de la chevalerie et vivent pour l’honneur, le courage et la justice. Ils jurent généralement fidélité à un seigneur ou une dame. De tous les ordres, c’est peut-être celui qui possède le plus large spectre d’objectifs et d’idéaux.''
 
@@ -64,7 +62,6 @@ Certains ordres sont plus spécifiques aux Samouraïs ou aux Chevaliers mais ils
 *'''''Percée des défenses (Ext).''''' Au niveau 8, quand il attaque avec une arme légère ou à une main, le chevalier ignore le malus s’il combat sur la défensive ou s’il utilise l’[[Expertise du combat]] lors de son premier [[valeurs de combat#JETDATTAQUE|jet d’attaque]] au corps à corps à chaque round. S’il combat avec deux armes, il ignore le malus lors de la première attaque avec chaque arme, si l’arme tenue dans sa main non directrice est légère. Le chevalier ne peut pas utiliser ce pouvoir avec des armes doubles.
 *'''''Un seul objectif (Ext).''''' Au niveau 15, la monture du chevalier bénéficie elle aussi des avantages conférés par le pouvoir protégé du chevalier, tant que les deux ne portent aucune armure ou une armure légère seulement et que chacun transporte une charge légère au maximum. Le chevalier, et pas nécessairement sa monture, doit combattre sur la défensive ou utiliser l’[[Expertise du combat]] pour conférer ces avantages. En outre, la monture bénéficie de tous les avantages du [[chevalier#DEFI|défi]] du chevalier, quelle que soit le type d’armure qu’elle porte.
 
-
 ====Ordre de la bête====
 {s:mca}''Un chevalier qui rejoint cet ordre sert la nature sous toutes ses formes. Ces chevaliers restent proches des créatures des bois et estiment que les animaux sont les plus fidèles des compagnons.''
 
@@ -94,12 +91,9 @@ Le chevalier peut utiliser ce pouvoir une fois de plus par jour au niveau 10 et 
 '''Compétences.''' Un chevalier de l’ordre de la Patte ajoute [[Connaissances]] (nature) et [[Survie]] à sa liste de [[compétences de classe]]. Il peut faire un test de [[Connaissances]] (nature) sans formation. Un chevalier de l’ordre de la Patte est aussi entraîné à suivre une piste en selle. Pour ce faire, il utilise la vitesse de sa monture au lieu de la sienne pour déterminer le malus au [[pistage]] quand il se déplace, qu’il soit monté ou non.
 
 '''Pouvoirs de l’ordre.''' En montant de niveau, le chevalier de l’ordre de la Patte gagne les pouvoirs suivants.
-
 * '''''Anticiper le danger (Ext).''''' Au niveau 2, le chevalier peut préparer ses alliés à affronter le danger. Par une [[action simple]], il donne un bonus à un unique [[jet de sauvegarde]] ([[Réflexes]], [[Vigueur]] ou [[Volonté]]) à tous les alliés dans un rayon de 9 mètres (6 {s:c}). Il doit choisir le type de jet de sauvegarde à améliorer au moment où il utilise ce pouvoir. Dans la minute qui suit, chaque allié qui rate un jet de sauvegarde du type choisi peut relancer le dé avec un bonus de compétence de +4. C’est une [[action immédiate]]. L’allié doit conserver le résultat du second jet, même s’il est pire que le premier. Il peut utiliser ce pouvoir jusqu’à trois fois par jour, une pour chaque type de jet de sauvegarde.
 * '''''Férocité canine (Ext).''''' Au niveau 8, quand le chevalier utilise son chien ou son loup pour faire une manoeuvre de [[bousculade]] ou de [[renversement]], sa monture est considérée comme étant d’une catégorie de taille de plus qu’en réalité quand il s’agit de déterminer la taille des créatures contre lesquelles elle peut effectuer sa manoeuvre et pour déterminer son [[BMO]]. Le chevalier reçoit aussi un [[don]] supplémentaire issu de la liste suivante : [[Combat monté]], [[Attaque au galop]], [[Talent]] ([[Équitation]]), [[Charge dévastatrice]], [[Piétinement]] (la monture peut faire une attaque de morsure plutot qu'une attaque de sabots) [[Désarçonner]]. Il doit remplir les conditions requises.
 * '''''Tueur de géants (Ext).''''' Au niveau 15, quand le chevalier touche la cible de son défi avec une attaque au corps à corps et qu’elle est au moins de deux catégories de [[taille]] de plus que lui, il gagne un bonus aux jets de dégâts égal à la moitié de son niveau de chevalier. Ces dégâts sont multipliés en cas de [[coup critique]].
-
-
 
 ====Ordre du bouclier====
 ''Tout chevalier qui appartient à cet ordre a juré de dédier sa vie à la protection du petit peuple, du simple fermier à l’honnête artisan. Ces chevaliers luttent contre tout et protègent les innocents des maraudeurs et des monstres affamés.''
@@ -111,7 +105,6 @@ Le chevalier peut utiliser ce pouvoir une fois de plus par jour au niveau 10 et 
 '''Compétences.''' Un chevalier de l’ordre du bouclier ajoute [[Premiers secours]] (Sag) et [[Connaissances]] (folklore local) (Int) à sa liste de compétences de classe. Quand il utilise la compétence [[Premiers secours]] sur une créature autre que lui, il reçoit un bonus au [[test]] égal à 1/2 niveau de [[chevalier]] (+1 au minimum).
 
 '''Pouvoirs de l’ordre.'''Un chevalier qui appartient à l’ordre du bouclier bénéficie des pouvoirs suivants quand il gagne des niveaux.
-
 *'''''Résolu (Ext).''''' Au niveau 2, quand le chevalier reçoit des dégâts à cause d’une attaque à distance ou au corps à corps alors qu’il porte une [[Tableau récapitulatif des armures#LOURDES|armure lourde]], il peut convertir 1 point de dégâts létaux en [[dégâts non létaux]]. Il peut utiliser ce pouvoir une fois par coup reçu. En revanche, il ne peut pas s’en servir pour convertir des points d’[[Capacités spéciales#AFFTEMPDIMPERM|affaiblissement de caractéristique]], de [[Capacités spéciales#AFFTEMPDIMPERM|diminution de caractéristique]] ou de dégâts d’énergie. Au niveau 6 et tous les quatre niveaux par la suite, le nombre de points de dégâts convertis augmente de 1.
 *'''''Endiguer la marée (Ext).''''' Au niveau 8, le [[chevalier]] reçoit [[Immobiliser]] comme don supplémentaire, même s’il ne remplit pas les conditions requises. Au lieu de faire un [[test]] de [[manœuvre offensive]] pour empêcher son ennemi de bouger, il peut faire une attaque normale. S’il touche et inflige des dégâts, la cible doit arrêter son mouvement, comme si le chevalier avait réussi un [[tes]]t de [[manœuvre offensive]].
 *'''''Protéger les faibles (Ext).''''' Au niveau 15, le [[chevalier]] peut se déplacer pour intercepter un ennemi. Par une [[action immédiate]], il peut faire un déplacement à sa vitesse de base (ou à celle de sa monture) et faire une unique attaque. Ce déplacement provoque des [[attaque dopportunité|attaques d’opportunités]], comme d’habitude. Le [[chevalier]] doit terminer son mouvement de façon à se trouver adjacent à un ennemi. Au tour suivant, il est [[chancelant]] et ne peut pas réutiliser ce pouvoir avant 1 [[round]].
@@ -126,11 +119,9 @@ Le chevalier peut utiliser ce pouvoir une fois de plus par jour au niveau 10 et 
 '''Compétences.''' Un [[chevalier]] de l’Ordre du cockatrice ajoute [[Estimation]] (Int) et [[Représentation]] (Cha) à sa liste de compétences de classe. De plus, il ajoute son modificateur de [[Charisme]] à son [[DD]] quand une créature tente de le démoraliser à l’aide de l’[[Intimidation]] (en plus du modificateur de [[Sagesse]] habituel).
 
 '''Pouvoirs de l’ordre.''' Un [[chevalier]] qui appartient à l’Ordre du cockatrice bénéficie des pouvoirs suivants quand il progresse de niveaux.
-
 *'''''Fanfaron (Ext).''''' Au niveau 2, le [[chevalier]] peut utiliser une [[action simple]] pour vanter ses propres prouesses et exploits au combat. Il reçoit le don [[Démonstration]] comme don supplémentaire. Il n’a pas besoin de tenir une arme en main pour l’utiliser. Il gagne un bonus de moral de +2 aux jets d’attaque au corps à corps contre les créatures démoralisées.
 *'''''Vol de gloire (Ext).''''' Au niveau 8, le [[chevalier]] peut voler la gloire qu’une autre créature devrait obtenir quand elle réussit une attaque. Quand une créature autre que le [[chevalier]] donne un [[coup critique]] à une cible que le [[chevalier]] menace aussi, il peut faire une [[attaque dopportunité|attaque d’opportunité]] contre cette cible.
 *'''''Instant de triomphe (Ext).''''' Au niveau 15, le [[chevalier]] peut, par une [[action libre]], déclarer un instant de triomphe. Pendant 1 [[round]], il reçoit un bonus de compétence égal à son modificateur de [[Charisme]] à tous les tests de [[caractéristique]], d’attaque, de dégâts et de [[compétences|compétence]], ainsi qu’à tous ses [[jet de sauvegarde|jets de sauvegarde]]. Ce bonus s’ajoute également à sa [[CA]]. De plus, il confirme automatiquement ses [[coup critique|coups critiques]] possibles. Le [[chevalier]] ne peut utiliser ce pouvoir qu’une fois par jour.
-
 
 ====Ordre du dragon====
 ''Les chevaliers qui appartiennent à l’ordre du dragon se dévouent à un groupe d’individus qui possèdent la même tournure d’esprit qu’eux, qu’il s’agisse d’une compagnie mercenaire ou d’un petit groupe d’aventuriers. Ils croient à la loyauté et à l’amitié et sont prêts à sacrifier leur vie pour défendre leurs alliés.''
@@ -142,7 +133,6 @@ Le chevalier peut utiliser ce pouvoir une fois de plus par jour au niveau 10 et 
 '''Compétences.''' Un [[chevalier]] de l’ordre du dragon ajoute [[Perception]] (Sag) et [[Survie]] (Sag) à sa liste de compétences de classe. De plus, quand il utilise la [[Survie]] pour chercher de l’eau et de la nourriture pour ses alliés ou pour les protéger des rudesses du climat, il reçoit un bonus au test égal à la moitié de son niveau de [[chevalier]] (avec un minimum de 1).
 
 '''Pouvoirs de l’ordre.''' Un [[chevalier]] qui appartient à l’ordre du dragon bénéficie des pouvoirs suivants quand il gagne des niveaux.
-
 * '''''Aider ses alliés (Ext).''''' Au niveau 2, quand le [[chevalier]] de l’ordre du dragon utilise l’action [[Actions spéciales#AIDERQQN|aider autrui]] pour aider un allié, ce dernier reçoit un bonus de +3 à la [[CA]], aux jets d’attaque et de [[jet de sauvegarde|sauvegarde]] ou aux tests de [[compétences|compétence]]. Au niveau 8 et tous les six niveaux par la suite, ce bonus augmente de +1
 * '''''Stratégie (Ext).''''' Au niveau 8, le [[chevalier]] peut utiliser une [[action simple]] pour accorder un bonus à tous les alliés situés dans les 9 m / 6 cases (y compris lui‑même). Pour recevoir ce bonus, les alliés doivent le voir et l’entendre. Il peut accorder un bonus d’esquive de +2 à la [[CA]] pour un [[round]], un bonus de moral de +2 aux jets d’attaque pour un [[round]] ou la capacité de se déplacer à [[vitesse de déplacement|vitesse]] normale par une [[action immédiate]] une seule fois. Il peut donner un bonus différent à chaque allié à portée mais les alliés ne peuvent en bénéficier qu’une fois par combat.
 * '''''Comme un seul homme (Ext).''''' Au niveau 15, le [[chevalier]] peut utiliser une [[action simple]] pour se déplacer à sa [[vitesse de déplacement|vitesse]] et faire une attaque de corps à corps. Tous les alliés situés dans un rayon de 9 m (6 cases) peuvent faire de même par une [[action immédiate]]. Ce déplacement et cette attaque peuvent faire partie d’une [[charge]] si le mouvement le permet. Toutes les attaques bénéficient d’un bonus de +2 (qui se cumule avec le bonus de [[charge]]) et tous les participants reçoivent un bonus d’esquive de +2 à la [[CA]] pendant 1 [[round]]. Le [[chevalier]] ne peut utiliser ce pouvoir qu’une fois par combat.
@@ -161,8 +151,7 @@ Le chevalier peut utiliser ce pouvoir une fois de plus par jour au niveau 10 et 
 * '''''Destructeur de morts-vivants (Sur).''''' On considère que les armes d’un chevalier de niveau 8 sont du même alignement que le personnage lorsqu’il s’agit d’ignorer l’éventuelle [[RD|réduction de dégâts]] des morts-vivants. Contre un mort-vivant défié, le chevalier ignore automatiquement toutes les [[RD|réduction de dégâts]] dont il bénéficie. 
 * '''''Rempart contre les ténèbres (Ext ou Sur).''''' Un chevalier de niveau 15 peut se venger sur les morts-vivants qui osent le frapper lui ou ceux qu’il cherche à protéger. Quand un mort-vivant défié touche le chevalier ou un allié adjacent avec une attaque au corps à corps, la créature provoque une attaque d’opportunité de la part du chevalier. Celui-ci bénéficie d’un bonus de moral de +2 aux [[valeurs de combat#JETDATTAQUE|jets d’attaque]] d’opportunité résultant de ce pouvoir. Si un mort-vivant défié par le chevalier obtient une probabilité de coup critique contre lui, il bénéficie d’un bonus de parade contre le jet de confirmation égal à son modificateur de [[Charisme]]. Ce bonus fait office de pouvoir surnaturel.
 
-{s:AO}
-====Ordre du lion====
+====Ordre du lion===={s:AO}
 ''Tout chevalier qui appartient à cet ordre a juré fidélité à un souverain, qu’il s’agisse d’un roi, d’une reine ou même d’un seigneur de guerre local. Ces chevaliers sont loyaux et dévoués à leur cause, et ils sont prêts à tout pour assurer la sécurité de leur seigneur et de son domaine.''
 
 '''Édits.''' Le [[chevalier]] doit protéger la vie et les terres de son souverain à n’importe quel prix. Il doit également lui obéir sans poser de questions et chercher à augmenter la puissance et le prestige de son royaume.
@@ -172,13 +161,11 @@ Le chevalier peut utiliser ce pouvoir une fois de plus par jour au niveau 10 et 
 '''Compétences.''' Un [[chevalier]] de l’ordre du lion ajoute [[Connaissances]] (folklore local) (Int) et [[Connaissances]] (noblesse) (Int) à sa liste de compétences de classe. Un [[chevalier]] de l’ordre du lion peut faire un [[test]] de [[Connaissances]] (noblesse) même sans formation. S’il possède un rang dans cette [[compétences|compétence]], il reçoit un bonus au test égal à 1/2 niveau de [[chevalier]] (+1 au minimum) tant que le [[test]] implique son souverain.
 
 '''Pouvoirs de l’ordre.''' Un [[chevalier]] qui appartient à l’ordre du lion bénéficie des pouvoirs suivants quand il gagne des niveaux.
-
 * '''''Appel du lion (Ext).''''' Au niveau 2, le [[chevalier]] de l’ordre du lion gagne le pouvoir de motiver ses alliés. Par une [[action simple]], il prononce un discours encourageant qui donne à tout allié situé dans les 18 m (12 {s:c}) un bonus de [[compétences|compétence]] contre la peur égal à son modificateur de [[Charisme]] et un bonus de [[compétences|compétence]] de +1 aux jets d’attaque pour un nombre de [[round|rounds]] égal à son niveau de [[chevalier]]. Si un allié à portée se trouve sous l’effet d’un sort ou d’un pouvoir qui l’[[effrayé|effraye]] ou le [[paniqué|panique]], il peut refaire immédiatement un [[jet de sauvegarde]] pour résister (si l’effet autorise un jet).
 * '''''Pour le roi (Ext).''''' Au niveau 8, le [[chevalier]] de l’ordre du lion peut lancer un appel à ses alliés pour leur inspirer des actes de grandeur. Par une [[action rapide]], le [[chevalier]] accorde un bonus de [[compétences|compétence]] égal à son modificateur de [[Charisme]] à tous les jets d’attaque et de dégâts des alliés situés dans les 9 m (6 cases). Ce bonus dure 1 [[round]]. Ce pouvoir ne s’utilise qu’une fois par combat.
 * '''''Bouclier du lige (Ext).''''' Au niveau 15, un [[chevalier]] de l’ordre du lion peut protéger ceux qui l’entourent. Les alliés adjacents au chevalier reçoivent un bonus de bouclier de +2 à la [[CA]]. De plus, par une [[action immédiate]], le [[chevalier]] peut rediriger l’attaque d’une créature adjacente vers sa propre personne, tant que l’attaquant est à sa portée. Il doit annoncer qu’il utilise ce pouvoir avant que l’attaquant ne fasse son jet d’attaque. Cette dernière se fait contre la [[CA]] et les défenses du [[chevalier]], même si, normalement, la créature ne devrait pas toucher ni attaquer le [[chevalier]]. Ce dernier perd tout bonus d’[[abri]] ou de [[camouflage]] quand il est la cible d’une attaque redirigée.
 
-{s:uc}
-====Ordre du livre====
+====Ordre du livre===={s:uc}
 ''La connaissance est la pierre angulaire de la vérité et du pouvoir. Les membres de l’ordre du livre cherchent donc à la préserver. La plupart sont prêts à protéger le savoir écrit à n’importe quel prix mais certains membres de l’ordre pensent qu’il existe des connaissances trop dangereuses et cherchent à les détruire.''
 
 '''Édits.''' Un chevalier de l’ordre du livre doit protéger le savoir écrit (ou du moins approuvé), quel qu’en soit le prix. Certains se consacrent à l’annihilation des connaissances interdites et se montrent tout aussi zélés dans leur quête de destruction. La plupart des chevaliers du livre pensent que les textes valent plus qu’une vie, même la leur, car ce sont eux qui apporteront la sagesse aux générations futures.
@@ -188,13 +175,11 @@ Le chevalier peut utiliser ce pouvoir une fois de plus par jour au niveau 10 et 
 '''Compétences.''' Un chevalier de l’ordre du livre ajoute [[Connaissances]] (mystères) (Int), [[Connaissances]] (religion) (Int) et [[Linguistique]] à sa liste de compétences de classe. De plus, il peut utiliser la [[Linguistique]] sans entraînement. Il reçoit un bonus au test égal à 1/2 niveau de [[chevalier]] (1 au minimum).
 
 '''Pouvoirs de l’ordre.''' Un chevalier de l’ordre du livre obtient les pouvoirs suivants, au fur et à mesure qu’il monte de niveau.
-
 * '''''Connaissances spécialisées (Ext).''''' Au niveau 2, le [[chevalier]] de l’ordre du livre choisit [[Connaissances]] (mystères) ou (religion). Il peut faire des tests dans la compétence choisie sans entraînement. Il ne peut pas revenir sur ce choix par la suite. S’il possède des rangs dans la compétence choisie, il reçoit un bonus au test égal à 1/2 niveau de [[chevalier]] (+1 au minimum) tant que le test concerne un livre, un ouvrage, un parchemin ou toute autre forme de connaissance écrite.
 * '''''Puissance du savoir (Ext).''''' Au niveau 8, le [[chevalier]] apprend à lire les parchemins et à s’en servir pour lancer des sorts profanes ou divins comme s’il avait un [[NLS|niveau de lanceur de sorts]] égal à son niveau de [[chevalier]] -4. Il peut déchiffrer n’importe quel parchemin en se servant de la [[Linguistique]] et non de l’[[Art de la magie]] et il n’a pas besoin de lancer [[lecture de la magie]]. Le genre de sort qu’il peut lancer dépend de la compétence de [[Connaissances]] qu’il a choisie en connaissances spécialisées. S’il a opté pour [[Connaissances]] (mystères), il peut lancer des sorts profanes à l’aide de parchemins et s’il a choisi [[Connaissances]] (religion), il peut lancer des sorts divins à partir des parchemins. De plus, il gagne un bonus de +1 à une valeur de caractéristique quand il s’agit de déterminer le niveau du sort qu’il lance à partir du parchemin. Ce bonus augmente de +1 au niveau 10 et par la suite tous les cinq niveaux (avec un maximum de +4 au niveau 20). La valeur de caractéristique augmentée dépend de la compétence choisie avec connaissances spécialisées. Si le chevalier a opté pour [[Connaissances]] (mystères), il gagne un bonus à l’[[Intelligence]] et s’il a choisi [[Connaissances]] (religion), il gagne un bonus à la [[Sagesse]].
 * '''''Connaissances défensives (Ext).''''' Au niveau 15, le [[chevalier]] de l’ordre du livre peut accorder certains des avantages de son [[chevalier#DEFI|Défi]] à ses alliés. Quand ils sont adjacents, ils gagnent un bonus de +2 aux [[jet de sauvegarde|jets de sauvegarde]] contre les sorts et les pouvoirs magiques de la cible du défi. De plus, chaque jour, le [[chevalier]] peut, par une action immédiate et un nombre de fois égal à son modificateur d’[[Intelligence]] ou de [[Sagesse]] (1 au minimum), permettre à un allié de refaire un jet de sauvegarde raté contre un sort ou un pouvoir magique qui émane de la cible de son [[chevalier#DEFI|Défi]]. Pour bénéficier de ce second jet, l’allié doit voir et entendre le [[chevalier]]. La valeur de caractéristique qui détermine le nombre de fois où le chevalier peut se servir de ce pouvoir chaque jour dépend de la compétence qu’il a choisie avec connaissances spécialisées. S’il a opté pour [[Connaissances]] (mystères), le nombre d’utilisations quotidiennes du pouvoir se base sur l’[[Intelligence]] et sur la [[Sagesse]] s’il a choisi [[Connaissances]] (religion).
 
-{s:uc}
-====Ordre de la rose bleue====
+====Ordre de la rose bleue===={s:uc}
 ''Les chevaliers de l’ordre de la rose bleue défendent la paix sur les terres qu’ils traversent. Ce sont des guerriers
 talentueux et des diplomates hors pair qui conseillent la sagesse, la patience et la compréhension. Pourtant, ils sont toujours prêts à prendre les armes pour terrasser les agresseurs, les tyrans et les usurpateurs maléfiques. Ils croient sincèrement que la paix est un objectif et une fin en soi, mais ce sont avant tout des guerriers qui accordent une grande importance à leur rôle de protecteur de tous ceux qui ne peuvent ou ne veulent pas prendre les armes pour se défendre.''
 
@@ -205,13 +190,11 @@ talentueux et des diplomates hors pair qui conseillent la sagesse, la patience e
 '''Compétences.''' Un chevalier de l’ordre de la rose bleue ajoute [[Connaissances]] (histoire) (Int) et [[Connaissances]] (noblesse) (Int) à sa liste de compétences de classe. À chaque fois qu’un chevalier de l’ordre de la rose bleue utilise la [[Diplomatie]] pour essayer d’arbitrer une dispute entre deux parties auxquelles il n’appartient pas, il reçoit un bonus au test égal à 1/2 niveau de [[chevalier]] (1 au minimum).
 
 '''Pouvoirs de l’ordre.''' Un chevalier de l’ordre de la rose bleue obtient les pouvoirs suivants, au fur et à mesure qu’il monte de niveau.
-
 *'''''Plat de la lame (Ext).''''' Au niveau 2, le chevalier de l’ordre de la rose bleue apprend à modérer ses attaques pour capturer son adversaire vivant. Il ne subit plus de malus de -4 quand il choisit de faire des [[dégâts non létaux]] avec une arme létale. Quand il inflige des [[dégâts non létaux]], il reçoit même un bonus de +2 aux jets de dégâts. Quand le chevalier se sert de ce pouvoir, il peut tenter de soumettre sa cible sans la tuer. S’il utilise une force létale après avoir activé ce pouvoir ou qu’il laisse ses alliés tuer la cible, on considère qu’il viole son édit.
 *'''''Paix intérieure (Ext).''''' Au niveau 8, le [[chevalier]] sait que, même si tout ne se passe pas comme il le voudrait, il doit rester calme et concentré. Une fois par jour, par une [[action immédiate]], il peut ignorer des dégâts d’une unique source (une attaque, un sort ou un effet) pour un montant égal à son niveau de [[chevalier]] + son modificateur de [[Charisme]]. Ce pouvoir lui permet seulement d’ignorer les points de dégâts. Il peut l’utiliser une fois de plus au niveau 12 et une autre tous les quatre niveaux (avec un maximum de quatre fois par jour au niveau 20).
 *'''''Bouclier de lames (Ext).''''' Au niveau 15, le [[chevalier]] devient extrêmement sensible à la violence qui se déchaîne autour de lui. Quand il se met en [[défense totale]], il peut étendre sa protection à ceux qui l’entourent et leur accorder un bonus de circonstances de +2 à la [[CA]] (les alliés doivent être adjacents au [[chevalier]]). De plus, quand il est en [[défense totale]], il peut, par une [[action immédiate]], tenter de dévier une attaque. Il fait alors un [[jet dattaque|jet d’attaque]] opposé à celui de l’assaillant originel. S’il réussit, il dévie l’attaque qui n’inflige pas de dégâts.
 
-{s:uc}
-====Ordre du sceau====
+====Ordre du sceau===={s:uc}
 ''Les chevaliers du sceau forment un ordre secret où chacun est chargé de protéger un objet spécifique (comme un dangereux objet magique), un lieu (un temple perdu) ou une information (comme de savoir qu’un certain paysan est
 en réalité le dernier descendant d’une lignée royale). Ces chevaliers défendent d’anciennes traditions ou servent un
 dirigeant qui cache d’importants secrets. Il leur faut parfois faire des recherches sur ces derniers pour les protéger.''
@@ -223,15 +206,12 @@ dirigeant qui cache d’importants secrets. Il leur faut parfois faire des reche
 '''Compétences.''' Un chevalier de l’ordre du sceau ajoute [[Sabotage]] (Dex) et [[Linguistique]] (Int) à sa liste de [[compétences de classe]]. À chaque fois que le [[chevalier]] utilise le [[Bluff]] pour cacher une information sur ce qu’il a juré de protéger, il reçoit un bonus de compétence égal à 1/2 niveau de [[chevalier]] (+1 au minimum).
 
 '''Pouvoirs de l’ordre.''' Un chevalier de l’ordre du sceau obtient les pouvoirs suivants, au fur et à mesure qu’il monte de niveau.
-
 *'''''Garde (Ext).''''' Au niveau 2, le [[chevalier]] peut, une fois par jour, choisir un lieu ou un secret qu’il a juré de protéger. Si c’est un lieu, il gagne un bonus de moral de +2 aux [[jet dattaque|jets d’attaque]] quand il le défend directement. Si c’est un secret, il gagne un bonus de moral de +2 aux jets de sauvegarde et aux tests opposés quand il essaye de ne pas révéler d’information sur ce secret. Il bénéficie de ces bonus jusqu’à ce qu’il choisisse de protéger un nouvel objet, un nouveau lieu ou un nouveau secret.
 *'''''Je ne bougerai pas (Ext).''''' Au niveau 8, le [[chevalier]] peut faire appel à sa dévotion pour surmonter une faiblesse physique. Quand il ne fait pas plus d’un pas de 1,50 m, il reçoit un bonus d’esquive de +2 au [[DMD]] pour résister aux manœuvres de [[bousculade]], [[croc-en-jambe]], d’[[entraînement]], de [[renversement]] et de [[repositionnement]], et ce jusqu’à son prochain tour.
 *'''''Assaut et bousculade (Ext).''''' Au niveau 15, le [[chevalier]] peut repousser un adversaire sans céder un pouce de terrain. Par une [[action complexe]], il peut faire une unique attaque avec son meilleur bonus. S’il touche, l’attaque inflige des dégâts normaux et le [[chevalier]] peut faire une [[bousculade]]. Il gagne un bonus au [[test]] égal à la moitié des dégâts de l’attaque.
 
 {s:uc}
-
 ===Ordres de Samouraï===
-
 ====Ordre du guerrier====
 ''La plupart des samouraïs jurent de suivre le code du guerrier qui privilégie le devoir, l’honneur, la loyauté et l’obéissance. Ce code s’applique non seulement à leur seigneur et maître mais aussi à leur famille et à leurs compagnons. Ceux qui suivent la voie du guerrier font partie des combattants les plus redoutés et les plus dignes de confiance du pays.''
 
@@ -242,7 +222,6 @@ dirigeant qui cache d’importants secrets. Il leur faut parfois faire des reche
 '''Compétences.''' Un samouraï de l’ordre du guerrier ajoute [[Connaissances]] (histoire) (Int) et [[Connaissances]] (noblesse) (Int) à sa liste de [[compétences]] de classe. Il peut faire un test de Connaissances (noblesse) sans entraînement. S’il possède des [[rang|rangs]] dans cette compétence, il reçoit un bonus égal à 1/2 niveau de samouraï (+1 au minimum) au test tant que ce dernier concerne la noblesse ou la politique de son pays.
 
 '''Pouvoirs de l’ordre.''' Un samouraï qui appartient à l’ordre du guerrier dispose des pouvoirs suivants quand il monte de niveau.
-
 * '''''De l’honneur en toute chose (Ext).''''' Au niveau 2, le samouraï de l’ordre du guerrier puise sa force dans son sens de l’honneur. Quand il fait un [[test]] de compétence ou un [[jet de sauvegarde]], il peut, par une [[action libre]], faire appel à son honneur pour bénéficier d’un bonus de moral de +4 au jet. Au niveau 2, il peut utiliser ce pouvoir une fois par jour et une fois de plus tous les quatre niveaux (avec un maximum de cinq fois par jour au niveau 18).
 * '''''La voie du samouraï (Ext).''''' Au niveau 8, le sens de l’honneur et de la loyauté du samouraï de l’ordre du guerrier le pousse à accomplir des tâches qui semblent pourtant impossibles. Par une [[action simple]], il peut mobiliser toute sa force de caractère et, pendant la minute qui suit, il peut lancer trois fois le dé pour un [[jet dattaque|jet d’attaque]], [[jet de sauvegarde|de sauvegarde]] ou un [[test]] de compétence et choisir le meilleur résultat des trois. Il doit annoncer qu’il utilise ce pouvoir avant de faire le premier jet de dé. Ce pouvoir dépense une utilisation journalière de résolution.
 * '''''Frapper juste (Ext).''''' Au niveau 15, le samouraï peut tirer la quintessence de ses années d’entraînement et se concentrer pour faire une attaque parfaite. Quand il utilise ce pouvoir, il fait une attaque normale. Si elle touche, elle se transforme en [[coup critique]]. Le samouraï doit alors confirmer ce critique. L’attaque inflige le maximum de dégâts possibles mais, pour les dégâts supplémentaires dus à une propriété de celle-ci ou une [[attaque sournoise]] et ceux dus au critique, il lance les dés normalement. Les dégâts de cette attaque ignorent complètement la [[RD|réduction de dégâts]] et rendent la cible [[aveugle]], [[sourd|sourde]], [[fiévreux]] ou [[chancelant|chancelante]] pendant 1d4 rounds (au choix du samouraï). Cette attaque demande une [[action simple]]. Le samouraï peut utiliser ce pouvoir une fois par jour.
@@ -259,7 +238,6 @@ dirigeant qui cache d’importants secrets. Il leur faut parfois faire des reche
 '''Compétences.''' Les ronins ajoutent [[Connaissances]] (folklore local) (Int) et [[Survie]] (Sag) à leur liste de compétences de classe.
 
 '''Pouvoirs de l’ordre.''' Un samouraï qui appartient à l’ordre du ronin dispose des pouvoirs suivants quand il monte de niveau.
-
 * '''''Autosuffisant (Ext).''''' À partir du niveau 2, le ronin ne compte que sur lui-même, même dans les pires situations. À chaque fois qu’il rate un jet de [[Volonté]] contre un effet qui dure plus d’un round, il peut refaire un [[jet de sauvegarde]] à la fin du deuxième round d’effet. S’il réussit, il se passe la même chose que s’il avait réussi le jet original (l’effet est annulé en totalité ou en partie). De plus, à chaque fois qu’un ronin tombe à moins de 0 [[pv|point de vie]], au prochain tour, il peut faire deux jets pour se [[stabilisation|stabiliser]] et conserver le meilleur résultat.
 * '''''Sans maître (Ext).''''' Au niveau 8, le ronin aime tellement son indépendance qu’elle lui permet de résister envers et contre tout. Par une [[action immédiate]], le ronin peut rassembler toute sa force de caractère et l’utiliser de trois manières. Il peut faire appel à elle pour revenir à 1 [[pv|point de vie]] et rester conscient quand il est victime d’une attaque qui devrait le faire passer à moins de 0 point de vie sans le tuer. Il peut aussi l’utiliser après avoir fait un [[jet dattaque|jet d’attaque]] pour confirmer un [[coup critique|critique]], pour refaire le jet de confirmation. Enfin, il peut s’en servir pour [[faire 10]] à un [[test]] de compétences en combat, même si la situation ou la compétence ne devrait pas le lui permettre. Le ronin peut utiliser ce pouvoir une fois par combat.
 * '''Choisir son destin (Ext).''' À partir du niveau 15, le ronin est le maître de sa propre destinée. Quand il fait un [[jet de sauvegarde]] contre un effet de [[présentation des sorts#CHARME|charme]] ou de [[présentation des sorts#COERCITION|coercition]], il peut lancer deux fois les dés et choisir le meilleur résultat. De plus, il peut, une fois par jour, considérer qu’un jet de d20 a fait un 20 naturel. Il doit annoncer qu’il se sert de ce pouvoir avant de faire ses jets.

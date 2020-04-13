@@ -1,0 +1,117 @@
+---
+Name: Pathfinder-RPG.Temp - Poisons
+Title: Temp - Poisons
+LastModified: 2020-04-12 16:22
+---
+{s:Desambi|Il peut aussi s'agir d'une [[Poison (capacité)|capacité de monstre]].}
+{s:AE}''Le poison est une substance qui interfère avec les fonctions physiques naturelles des créatures vivantes, entraînant des lésions et la mort. En général, il suffit d’utiliser une dose infime.''
+
+<div style="background-color: #fff; float: right; padding: 0 0 12px 12px">{toc}</div>La cible d’un poison peut lui résister en réussissant un jet de sauvegarde. On peut ralentir ou soigner les effets du poison avec des sorts comme ''[[ralentissement du poison]]'' ou ''[[neutralisation du poison]]''.
+
+Les poisons sont répartis en quatre catégories en fonction de la manière dont ils atteignent la cible : contact, ingestion, inhalation ou blessure.
+*'''Blessure.''' Ces poisons agissent essentiellement lorsque certaines créatures réussissent une attaque ou par l’intermédiaire d’armes enduites de la toxine. En général, les poisons de blessure n’ont pas de ''temps d’incubation'' et ont une ''fréquence'' de 1 minute.
+*'''Contact.''' Ces poisons agissent au moment où ils entrent en contact avec la peau de la créature. Ils s’utilisent aussi comme des poisons de blessure. Les poisons de contact ont généralement un ''temps d’incubation'' de 1 minute et une ''fréquence'' de 1 minute.
+*'''Ingestion.''' Ces poisons agissent au moment où la créature les ingère ou les boit. Les poisons d’ingestion ont généralement un ''temps d’incubation'' de 10 minutes et une ''fréquence'' de 1 minute.
+*'''Inhalation.''' Ces poisons agissent au moment où la créature pénètre dans une zone contaminée et, en général, n’ont pas de temps d’incubation. Pour la plupart des poisons inhalés, 1 dose permet de remplir un cube de 3 mètres de côté. La créature peut tenter de retenir son souffle lorsqu’elle est dans la zone, pour éviter de respirer la toxine. Une créature retenant son souffle a 50% de chances de ne pas avoir à faire de jet de [[Vigueur]] tous les [[round|rounds]]. Reportez-vous aux règles concernant le fait de [[Dangers naturels#ASPHYXIE|retenir son souffle]] et la [[Dangers naturels#ASPHYXIE|suffocation]]. Si une créature retient son souffle et rate un test de [[Constitution]] pour continuer, plutôt que de suffoquer, elle reprend son souffle normalement (et subit les effets du poison inhalé s’il emplit toujours la zone).
+
+====Application du poison====
+Une dose de poison appliquée sur une arme ou sur un autre objet n’affecte qu’une seule cible. Une arme ou un objet empoisonné conserve le poison jusqu’à ce que l’arme touche une cible ou jusqu’à ce que l’objet soit touché (à moins que le poison ne soit nettoyé avant que la cible n’entre en contact avec). L’application de poison sur une arme ou sur une munition coûte une [[action simple]]. Que le personnage applique ou prépare le poison pour utilisation, il a 5% de chances de s’y exposer et doit réussir un [[jds|jet de sauvegarde]] normal contre le poison. Ceci ne consomme pas la dose de poison. Lorsque le personnage attaque avec une arme empoisonnée, il s’expose lui-même au poison s’il fait un 1 naturel à son [[jet dattaque|jet d’attaque]]. Ceci consomme le poison de l’arme. Si le personnage a la capacité de classe [[alchimiste#UTILISATIONDUPOISON|utilisation des poisons]] (issue, par exemple, de la classe de prestige [[assassin]] ou de la classe de base [[alchimiste]]), il ne risque pas de s’empoisonner accidentellement lorsqu’il applique le poison sur une arme.
+
+====Doses multiples de poison====
+Contrairement aux autres afflictions, les poisons « cumulent » leurs effets, ce qui signifie que l’application de plusieurs doses d’un même poison augmente son [[DD]] et sa durée. Si la victime réussit son premier [[jds|jet de sauvegarde]] contre un poison, ses effets ne se cumulent pas : le poison n’affecte pas le personnage et toutes les autres doses sont traitées indépendamment. De même, si un poison a été neutralisé ou s’il ne fait plus effet (que ce soit parce que le personnage a réussi ses jets de sauvegarde ou s’il a survécu à sa durée du poison), les effets ne se cumulent pas. Néanmoins, s’il y a encore du poison actif dans l’organisme du personnage au moment où il est de nouveau affecté par le même poison, les effets se cumulent s’il rate son premier [[jds|jet de sauvegarde]] contre la nouvelle dose. Ceci a deux effets qui durent jusqu’à ce que les poisons se dissipent.
+*'''Durée augmentée.''' Augmentez la durée du poison de la moitié de la ''fréquence'' indiquée.
+*'''DD augmenté.''' Augmentez le [[DD]] du poison de +2.
+Ces augmentations sont cumulables (une troisième dose rajoute la moitié de la ''fréquence'' à la durée et encore +2 au [[DD]] etc.) Lorsque le personnage est affecté par plusieurs doses d’un même poison, il ne fait qu’un seul [[jds|jet de sauvegarde]] contre le [[DD]] le plus élevé à chaque fois que l’exige la ''fréquence'' indiquée et non un [[jds|jet de sauvegarde]] pour chaque dose de poison.  
+Les multiples doses de poison n’altèrent pas la condition de ''guérison'' du poison. Si elle est remplie, elle neutralise toutes les doses reçues.  
+Les poisons de contact et de blessure infligent seulement une dose de poison par arme (le poison de l’arme disparaissant après la première attaque réussie). Les poisons inhalés et ingérés peuvent infliger les effets de plusieurs doses à la fois.
+Les doses de poisons différents (si un [[assassin]] combine l’extrait de sanvert de sa dague avec le venin d’araignée de taille M de son épée courte) ne se cumulent pas : les effets de chacun sont traités indépendamment.
+*'''Exemples.''' Un guerrier fait face à trois araignées de taille M (qui inoculent du venin d’araignée de taille M sur une morsure réussie). Le venin de l’araignée de taille M a normalement une ''fréquence'' de 4 [[round|rounds]] et un [[DD]] de 14. Lors du premier [[round]], les trois araignées mordent le guerrier qui rate ses trois [[jds|jets de sauvegarde]]. Les deuxième et troisième doses augmentent chacune la durée totale du poison de 2 [[round|rounds]] (la moitié des 4 [[round|rounds]] de ''fréquence'') et son [[DD]] de +2, pour une durée totale de 8 [[round|rounds]] (4+2+2) et un [[DD]] de 18 (14+2+2). Heureusement, le venin d’araignée de taille M se soigne avec un seul [[jds|jet de sauvegarde]] réussi, même si le guerrier lutte contre trois doses à la fois.
+Cette fois, le guerrier réussit deux de ses premiers [[jds|jets de sauvegarde]] contre le venin d’araignée : il n’a donc qu’une dose de poison dans l’organisme. Il rate son [[jds|jet de sauvegarde]] lors de son tour. Au tour des araignées, deux d’entre elles le mordent et il rate ses deux [[jds|jets de sauvegarde]], ce qui fait passer la durée du poison à 8 [[round|rounds]] et son [[DD]] à 18, comme s’il avait raté ses trois jets dans le même [[round]].
+
+====Fabrication du poison====
+Le personnage ayant la compétence [[Artisanat]] (alchimie) peut fabriquer du poison. Le [[DD]] de fabrication d’un poison est égal au [[DD]] de son jet de [[Vigueur]]. S’il fait un 1 naturel à son test d’[[Artisanat]] pour fabriquer un poison, le personnage s’expose au poison. Ceci ne consomme pas la dose. S’il a la capacité de classe [[alchimiste#UTILISATIONDUPOISON|utilisation des poisons]], le personnage ne risque pas de s’empoisonner accidentellement lorsqu’il fabrique du poison.
+
+====Exemples de poisons====
+Les exemples de poisons présentés ci-dessous ne constituent qu’une partie des poisons les plus courants que l’on trouve en ville. Bien entendu, la plupart des villes ont leurs propres lois concernant l’achat, la vente ou la fabrication du poison. Pour plus d'informations sur le format des descriptions, voir [[Afflictions|les afflictions]]. Sauf indication contraire, les modifications de caractéristiques sont des [[affaiblissement temporaire|affaiblissements temporaires]].
+
+<center>
+{| CLASS="tablo autoalt" WIDTH="100%"
+|+ Exemples de poisons{s:Reference|TABLEAUPOISONS}
+|- CLASS="titre"
+| Nom || Type || DD Vig || Incubation || Fréquence || Effet || Guérison || Coût
+|- CLASS="premier"
+| Ajonc à feuilles bleues || Blessure || 14 || — || 1/rd pdt 2 rds || 1 [[Constitution|Con]]/[[Inconscient]] 1d3h || 1 réussite || 120 po
+|- 
+| Essence d’ombre || Blessure || 17 || — || 1/rd pdt 6 rds || [[diminution permanente|Dim]] 1 [[Force|For]]/1d2 [[Force|For]] || 1 réussite || 250 po
+|- 
+| Extrait de sanvert || Blessure || 13 || — || 1/rd pdt 4 rds || 1 [[Constitution|Con]] || 1 réussite || 100 po
+|- 
+| Mortelame || Blessure || 20 || — || 1/rd pdt 6 rds || 1d3 [[Constitution|Con]] || 2 réussites || 1 800 po
+|- 
+| Poison de vouivre || Blessure || 17 || — || 1/rd pdt 6 rds || 1d4 [[Constitution|Con]] || 2 réussites || 3 000 po
+|- 
+| Poison drow || Blessure || 13 || — || 1/min pdt 2 min || [[Inconscient]] 1 min/2d4 h || 1 réussite || 75 po
+|- 
+| Tormentille || Blessure || 12 || 1 rd || 1/rd pdt 4 rds || 1 [[Constitution|Con]], 1 [[Sagesse|Sag]], [[confus|confusion]] 1 rd || 1 réussite || 100 po
+|- 
+| Venin d’araignée de taille M || Blessure || 14 || — || 1/rd pdt 4 rds || 1d2 [[Force|For]] || 1 réussite || 150 po
+|- 
+| Venin de guêpe géante || Blessure || 18 || — || 1/rd pdt 6 rds || 1d2 [[Dextérité|Dex]] || 1 réussite || 210 po
+|- 
+| Venin de mille-pattes de taille P || Blessure || 11 || — || 1/rd pdt 4 rds || 1 [[Dextérité|Dex]] || 1 réussite || 90 po
+|- 
+| Venin de scorpion géant || Blessure || 17 || — || 1/rd pdt 6 rds || 1d2 [[Force|For]] || 1 réussite || 200 po
+|- 
+| Venin de ver pourpre || Blessure || 24 || — || 1/rd pdt 6 rds || 1d3 [[Force|For]] || 2 réussites || 700 po
+|- 
+| Venin de vipère à tête noire || Blessure || 11 || — || 1/rd pdt 6 rds || 1d2 [[Constitution|Con]] || 1 réussite || 120 po
+|- 
+| Bile de dragon || Contact || 26 || — || 1/rd pdt 6 rds || 1d3 [[Force|For]] || — || 1 500 po
+|- 
+| Extrait de lotus noir || Contact || 20 || 1 min || 1/rd pdt 6 rds || 1d6 [[Constitution|Con]] || 2 réussites || 4 500 po
+|- 
+| Larmes de la mort || Contact || 22 || 1 min || 1/min pdt 6 min || 1d6 [[Constitution|Con]] et [[paralysé]] 1 min || — || 6 500 po
+|- 
+| Nitharite || Contact || 13 || 1 min || 1/min pdt 6 min || 1d3 [[Constitution|Con]] || 1 réussite || 650 po
+|- 
+| Poudre d’assonne || Contact || 16 || 1 min || 1/min pdt 6 min || 2d12 pv/1 [[Constitution|Con]] || 1 réussite || 300 po
+|- 
+| Racine de malyasse || Contact || 16 || 1 min || 1/min pdt 6 min || 1d2 [[Dextérité|Dex]] || 1 réussite || 250 po
+|- 
+| Terrinave || Contact || 16 || 1 min || 1/min pdt 6 min || 1d3 [[Dextérité|Dex]] || 1 réussite || 400 po
+|- 
+| Aconit || Ingestion || 16 || 10 min || 1/min pdt 6 min || 1d3 [[Constitution|Con]] || 1 réussite || 500 po
+|- 
+| Amnésite || Ingestion || 14 || 10 min || 1/min pdt 6 min || 1d3 [[Intelligence|Int]] || 1 réussite || 125 po
+|- 
+| Arsenic || Ingestion || 13 || 10 min || 1/min pdt 4 min || 1d2 [[Constitution|Con]] || 1 réussite || 120 po
+|- 
+| Belladone || Ingestion || 14 || 10 min || 1/min pdt 6 min || 1d2 [[Force|For]], <abbr title="La cible peut tenter un jet de sauvegarde pour guérir une malédiction lycanthropique contractée dans l’heure précédente">voir texte</abbr> || 1 réussite || 100 po
+|- 
+| Cendres de liche || Ingestion || 17 || 10 min || 1/min pdt 6 min || 1d3 [[Force|For]] || 2 réussites || 400 po
+|- 
+| Cigüe || Ingestion || 18 || 10 min || 1/min pdt 6 min || 1d6 [[Dextérité|Dex]], <abbr title="Asphyxie la cible si elle tombe à 0 en Dextérité">voir texte</abbr> || 2 réussites || 2 500 po
+|- 
+| Entolome zébré || Ingestion || 11 || 10 min || 1/min pdt 4 min || 1d3 [[Sagesse|Sag]] et 1 [[Intelligence|Int]] || 1 réussite || 180 po
+|- 
+| Huile de taggit || Ingestion || 15 || 1 min || — || [[Inconscient]] 1d3 h || 1 réussite || 90 po
+|- 
+| Poison de devin des marais || Ingestion || 18 || 10 min || 1/min pdt 3 min || 1d4 [[Sagesse|Sag]]/1d2 [[Sagesse|Sag]], [[confus|confusion]] 1 min || 2 réussites || 400 po
+|- 
+| Rêves indigo || Ingestion || 13 || 10 min || 1/min pdt 6 min || 1d3 [[Sagesse|Sag]] || 2 réussites || 150 po
+|- 
+| Sommeil du roi || Ingestion || 19 || 1 jour || 1/jour || [[diminution permanente|Dim]] 1 [[Constitution|Con]] || 2 réussites || 5 000 po
+|- 
+| Ténébreux vireux || Ingestion || 18 || 10 min || 1/min pdt 6 min || 1d3 [[Constitution|Con]] et 1 [[Force|For]] || 2 réussites || 800 po
+|- 
+| Brume de folie || Inhalation || 15 || — || 1/rd pdt 6 rds || 1d3 [[Sagesse|Sag]] || 1 réussite || 1 500 po
+|- 
+| Cendres d’ungol || Inhalation || 15 || — || 1/rd pdt 4 rds || [[diminution permanente|Dim]] 1 [[Charisme|Cha]]/1d2 [[Charisme|Cha]] || 1 réussite || 1 000 po
+|- 
+| Pollen de lys azur || Inhalation || 15 || — || 1/min pdt 2 min || [[Nauséeux]] 1 min/[[paralysé]] 2d4 h || 1 réussite || 1 500 po
+|- 
+| Vapeur de cauchemar || Inhalation || 20 || — || 1/rd pdt 6 rds || 1 [[Sagesse|Sag]] et [[confus|confusion]] 1 rd || 2 réussites || 1 800 po
+|- 
+| Vapeurs d’othur brûlé || Inhalation || 18 || — || 1/rd pdt 6 rds || [[diminution permanente|Dim]] 1 [[Constitution|Con]]/1d3 [[Constitution|Con]] || 2 réussites || 2 100 po
+|}
+</center>

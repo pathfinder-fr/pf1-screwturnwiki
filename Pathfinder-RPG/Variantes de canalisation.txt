@@ -1,12 +1,14 @@
 ---
 Name: Pathfinder-RPG.Variantes de canalisation
 Title: Variantes de canalisation
-LastModified: 2014-07-29 13:35
+LastModified: 2020-04-10 21:43
 Categories:
   - 'Art de la Magie'
   - 'Classe'
   - 'Règles officielles'
 ---
+{s:MenuClasses}
+<div style="background-color: #fff; float: right; padding: 0 0 12px 12px">{toc}</div>
 {s:um}La variante de la [[prêtre#CANALISATIONDENERGIE|canalisation d’énergie]] modifie soit l’énergie positive utilisée à des fins curatives, soit l’énergie négative utilisée pour blesser. Quand le [[prêtre]] utilise l’énergie positive pour guérir une créature, cette dernière ne reçoit que la moitié des soins habituels mais bénéficie en sus d’un effet spécial. Quand l’énergie négative est utilisée pour blesser, elle n’inflige que la moitié des dégâts habituels aux créatures visées mais leur ajoute un malus ou un effet néfaste. Un [[jet de sauvegarde]] réussi annule l’effet additionnel mais ne réduit pas les dégâts. Les créatures qui devraient normalement ignorer les effets d’une canalisation spéciale (comme des [[type Mort-vivant|morts-vivants]] face à une [[prêtre#CANALISATIONDENERGIE|canalisation d’énergie]] positive faite pour soigner) ignorent l’effet supplémentaire de la canalisation.
 
 Quelques variantes de canalisation sont améliorées quand on les utilise sur un type de créature particulier. Elles voient les dégâts ou les soins augmentés de 50% quand la canalisation affecte une créature de ce type au lieu d’être réduits de moitié. Par exemple, si un [[prêtre]] de niveau 7 soigne normalement 4d6 points de dégâts avec l’énergie positive, avec la canalisation alternative de nature, il ne soigne que la moitié de ce montant (soit 2d6 par canalisation) mais quand il soigne des animaux ou des fées, il ajoute 50% à la valeur de base (soit 4d6 + 50%).
@@ -15,189 +17,187 @@ Quelques variantes de canalisation sont améliorées quand on les utilise sur un
 
 Un personnage qui dispose du pouvoir de canalisation grâce à une classe autre que le [[prêtre]] peut utiliser la variante si les pouvoirs de cette autre classe sont liés à une divinité. Par exemple, les [[paladin|paladins]] peuvent choisir la canalisation alternative s’ils servent un dieu, tout comme les [[oracle|oracles]] du [[mystère de la vie]] (car ils servent de nombreux dieux) mais les [[magicien|magiciens]] nécromanciens ne peuvent pas.
 
-{toc}
-
 ====Agriculture====
-'''Guérison'''. Les créatures ignorent la fatigue (mais pas l’épuisement) pendant 1 minute. L’effet de guérison est amélioré pour les plantes.
+'''Guérison'''. Les créatures ignorent la fatigue (mais pas l’épuisement) pendant 1 minute. L’effet de guérison est amélioré pour les plantes.  
 '''Blessure'''. Les dégâts de la canalisation sont augmentés pour les plantes. Les créatures sont fatiguées, comme si elles souffraient de faim (voir [[Dangers naturels#FAIMSOIF|faim]]).
 
 ====Air/ciel/vent====
-'''Guérison'''. Les créatures gagnent un bonus de canalisation aux tests d’[[Acrobaties]] et de [[Vol]], aux [[jet de sauvegarde|jets de sauvegarde]] contre les effets de vent et aux effets du registre de l’air jusqu’à la fin du prochain tour du [[prêtre]].
+'''Guérison'''. Les créatures gagnent un bonus de canalisation aux tests d’[[Acrobaties]] et de [[Vol]], aux [[jet de sauvegarde|jets de sauvegarde]] contre les effets de vent et aux effets du registre de l’air jusqu’à la fin du prochain tour du [[prêtre]].  
 '''Blessure'''. Les créatures sont cinglées par les vents jusqu’à la fin du prochain tour du [[prêtre]], ce vent leur inflige un malus de canalisation aux attaques à distance et leurs mouvements sont réduits de moitié si elles s’avancent vers lui.
 
 ====Armes====
-'''Guérison'''. Les créatures gagnent un bonus de canalisation aux jets d’attaque jusqu’à la fin du prochain tour du [[prêtre]] quand elles manient l’arme de prédilection de sa divinité.
+'''Guérison'''. Les créatures gagnent un bonus de canalisation aux jets d’attaque jusqu’à la fin du prochain tour du [[prêtre]] quand elles manient l’arme de prédilection de sa divinité.  
 '''Blessure'''. Les créatures reçoivent un malus de canalisation aux jets d’attaque et de dégâts jusqu’à la fin du prochain tour du [[prêtre]] quand elles manient des armes manufacturées.
 
 
 ====Art/musique====
-'''Guérison'''. Les créatures gagnent un bonus de canalisation aux tests de [[Représentation]] et aux [[jet de sauvegarde|jets de sauvegarde]] contre les illusions, les effets sonores et les effets dépendant du langage pendant 1 minute.
+'''Guérison'''. Les créatures gagnent un bonus de canalisation aux tests de [[Représentation]] et aux [[jds|jets de sauvegarde]] contre les illusions, les effets sonores et les effets dépendant du langage pendant 1 minute.  
 '''Blessure'''. Les créatures reçoivent un malus de canalisation aux [[jet de sauvegarde|jets de sauvegarde]] contre les illusions, les effets sonores et les effets dépendant du langage pendant 1 minute.
 
 ====Beauté/amour/désir====
-'''Guérison'''. Les créatures gagnent un bonus de canalisation aux [[jet de sauvegarde|jets de sauvegarde]] contre les effets de charme et les pouvoirs basés sur la fascination ou l’attirance physique (comme la beauté aveuglante de la [[nymphe]] ou le pouvoir de regard étourdissant) pendant 1 minute.
+'''Guérison'''. Les créatures gagnent un bonus de canalisation aux [[jet de sauvegarde|jets de sauvegarde]] contre les effets de charme et les pouvoirs basés sur la fascination ou l’attirance physique (comme la beauté aveuglante de la [[nymphe]] ou le pouvoir de regard étourdissant) pendant 1 minute.  
 '''Blessure'''. Les créatures reçoivent un malus de canalisation contre les effets de charme et les pouvoirs basés sur la fascination pendant 1 minute.
 
 ====Bière/vin====
-'''Guérison'''. Les créatures ignorent les conditions [[nauséeux]] et [[fiévreux]], ainsi que les absorptions et les [[affaiblissement de caractéristique|affaiblissements de caractéristique]] jusqu’à la fin du prochain tour du [[prêtre]]. Cela ne ramène pas à la vie une créature morte d’un [[affaiblissement de caractéristique|affaiblissement]] de [[Constitution]].
+'''Guérison'''. Les créatures ignorent les conditions [[nauséeux]] et [[fiévreux]], ainsi que les absorptions et les [[affaiblissement de caractéristique|affaiblissements de caractéristique]] jusqu’à la fin du prochain tour du [[prêtre]]. Cela ne ramène pas à la vie une créature morte d’un [[affaiblissement de caractéristique|affaiblissement]] de [[Constitution]].  
 '''Blessure'''. Les créatures sont [[nauséeux|nauséeuses]] pendant 1 round.
 
 ====Bravoure/courage====
-'''Guérison'''. Les créatures affectées par la peur peuvent refaire un [[jet de sauvegarde]] et reçoivent alors le bonus de canalisation. Une créature qui ne succombe pas à la peur gagne un bonus de canalisation à la [[CA]] jusqu’à la fin du prochain tour du [[prêtre]] ainsi qu’à ses jets d’attaque si elle charge avant la fin de son prochain tour.
+'''Guérison'''. Les créatures affectées par la peur peuvent refaire un [[jet de sauvegarde]] et reçoivent alors le bonus de canalisation. Une créature qui ne succombe pas à la peur gagne un bonus de canalisation à la [[CA]] jusqu’à la fin du prochain tour du [[prêtre]] ainsi qu’à ses jets d’attaque si elle charge avant la fin de son prochain tour.  
 '''Blessure'''. Ceci fonctionne comme une canalisation ordinaire (elle n’est pas réduite de moitié).
 
 ====Cauchemar====
-'''Guérison'''. Les créatures gagnent un bonus de canalisation aux [[jet de sauvegarde|jets de sauvegarde]] contre le charme et la coercition pendant 1 minute.
+'''Guérison'''. Les créatures gagnent un bonus de canalisation aux [[jet de sauvegarde|jets de sauvegarde]] contre le charme et la coercition pendant 1 minute.  
 '''Blessure'''. Les créatures reçoivent un malus de canalisation aux [[test de concentration|tests de concentration]] et aux [[jet de sauvegarde|jets de sauvegarde]] contre la peur et les fantasmes.
 
 ====Chance====
-'''Guérison'''. Les créatures gagnent un bonus de canalisation ou de chance (au choix de la cible) à un jet (d’attaque, de [[BMO]], de [[jet de sauvegarde|sauvegarde]] ou de compétence) avant la fin du prochain tour du [[prêtre]].
+'''Guérison'''. Les créatures gagnent un bonus de canalisation ou de chance (au choix de la cible) à un jet (d’attaque, de [[BMO]], de [[jet de sauvegarde|sauvegarde]] ou de compétence) avant la fin du prochain tour du [[prêtre]].  
 '''Blessure'''. Les créatures reçoivent un malus de canalisation à tous les jets de d20 jusqu’à la fin du prochain tour du [[prêtre]].
 
 ====Chasse====
-'''Guérison'''. Les créatures gagnent un bonus de canalisation aux tests de [[Survie]] et aux jets d’[[attaque à distance]] jusqu’à la fin du prochain tour du [[prêtre]].
+'''Guérison'''. Les créatures gagnent un bonus de canalisation aux tests de [[Survie]] et aux jets d’[[attaque à distance]] jusqu’à la fin du prochain tour du [[prêtre]].  
 '''Blessure'''. Les créatures reçoivent un malus de -5 aux tests de [[Discrétion]] pendant 1 minute et sont temporairement privées des effets et des pouvoirs spéciaux qui minimisent ou dissipent leurs traces pendant 1 minute.
 
 ====Climat====
-'''Guérison'''. Les créatures gagnent un bonus de canalisation aux [[jet de sauvegarde|jets de sauvegarde]] contre les effets d’électricité, de son et de vent.
+'''Guérison'''. Les créatures gagnent un bonus de canalisation aux [[jet de sauvegarde|jets de sauvegarde]] contre les effets d’électricité, de son et de vent.  
 '''Blessure'''. À chaque fois que le [[prêtre]] canalise l’énergie, il peut transformer la moitié des dégâts canalisés en dégâts d’électricité ou de son.
 
 ====Connaissance====
-'''Guérison'''. Les créatures gagnent un bonus de canalisation aux tests de [[Connaissances]] et de [[Perception]] jusqu’à la fin du prochain tour du [[prêtre]].
+'''Guérison'''. Les créatures gagnent un bonus de canalisation aux tests de [[Connaissances]] et de [[Perception]] jusqu’à la fin du prochain tour du [[prêtre]].  
 '''Blessure'''. Les créatures intelligentes (Intelligence 3+) qui ratent leur [[jet de sauvegarde]] reçoivent un [[affaiblissement temporaire]] d’[[Intelligence]] de 1d2. Un [[jet de sauvegarde]] réussi annule cet affaiblissement.
 
 ====Contrats/serments====
-'''Guérison'''. Les créatures gagnent un bonus de canalisation aux [[jet de sauvegarde|jets de sauvegarde]] contre les effets de coercition jusqu’à la fin du prochain tour du [[prêtre]].
+'''Guérison'''. Les créatures gagnent un bonus de canalisation aux [[jet de sauvegarde|jets de sauvegarde]] contre les effets de coercition jusqu’à la fin du prochain tour du [[prêtre]].  
 '''Blessure'''. Les créatures reçoivent un malus de canalisation aux [[jet de sauvegarde|jets de sauvegarde]] contre les effets de coercition jusqu’à la fin du prochain tour du [[prêtre]].
 
 ====Destin====
-'''Guérison'''. Les créatures gagnent un bonus de canalisation sur un jet de d20 effectué lors de la prochaine action qu’elles ont préparée tant qu’elle se déroule avant le prochain tour du [[prêtre]].
+'''Guérison'''. Les créatures gagnent un bonus de canalisation sur un jet de d20 effectué lors de la prochaine action qu’elles ont préparée tant qu’elle se déroule avant le prochain tour du [[prêtre]].  
 '''Blessure'''. Les créatures reçoivent un malus de canalisation aux tests de caractéristiques et de compétences pendant 1 minute.
 
 ====Destruction====
-'''Guérison'''. Les créatures gagnent un bonus de canalisation aux jets d’attaque et de dégâts contre les objets, au [[BMO]] des tentatives de [[destruction]] et aux tests de [[Force]] pour briser un objet jusqu’à la fin du prochain tour du [[prêtre]].
+'''Guérison'''. Les créatures gagnent un bonus de canalisation aux jets d’attaque et de dégâts contre les objets, au [[BMO]] des tentatives de [[destruction]] et aux tests de [[Force]] pour briser un objet jusqu’à la fin du prochain tour du [[prêtre]].  
 '''Blessure'''. Les objets sans propriétaires subissent la totalité des dégâts de canalisation (et pas la moitié).
 
 ====Duperie====
-'''Guérison'''. Les créatures gagnent un bonus de canalisation aux tests de [[Bluff]], de [[Déguisement]], de [[Discrétion]] et d’[[Escamotage]] pendant 1 minute.
+'''Guérison'''. Les créatures gagnent un bonus de canalisation aux tests de [[Bluff]], de [[Déguisement]], de [[Discrétion]] et d’[[Escamotage]] pendant 1 minute.  
 '''Blessure'''. Les créatures reçoivent un malus de canalisation aux tests de [[Perception]] et de [[Psychologie]] pendant 1 minute.
 
 ====Esclavage/tyrannie====
-'''Guérison'''. Les créatures ignorent la [[fatigué|fatigue]] et l’[[épuisé|épuisement]] pendant 1 minute.
+'''Guérison'''. Les créatures ignorent la [[fatigué|fatigue]] et l’[[épuisé|épuisement]] pendant 1 minute.  
 '''Blessure'''. Les créatures reçoivent un malus de canalisation aux jets de sauvegarde contre la coercition, la douleur et l’étourdissement pendant 1 minute.
 
 ====Feu====
-'''Guérison'''. L’effet de guérison est amélioré pour les créatures de [[sous-type feu]].
+'''Guérison'''. L’effet de guérison est amélioré pour les créatures de [[sous-type feu]].  
 '''Blessure'''. Les dégâts sont aggravés pour les créatures de [[sous-type froid]]. Les créatures qui ratent leur [[jet de sauvegarde]] s’enflamment (voir [[Dangers naturels#PRENDREFEU|prendre feu]]).
 
 ====Folie====
-'''Guérison'''. Les créatures gagnent un bonus de canalisation aux [[jet de sauvegarde|jets de sauvegarde]] contre la confusion, la démence, la rage et les effets similaires.
+'''Guérison'''. Les créatures gagnent un bonus de canalisation aux [[jet de sauvegarde|jets de sauvegarde]] contre la confusion, la démence, la rage et les effets similaires.  
 '''Blessure'''. Les créatures sont confuses jusqu’à la fin du prochain tour du [[prêtre]].
 
 ====Force====
-'''Guérison'''. Les créatures gagnent un bonus de canalisation à toutes les attaques basées sur la [[Force]], aux compétences basées dessus et aux tests de [[Force]] jusqu’à la fin du prochain tour du [[prêtre]].
+'''Guérison'''. Les créatures gagnent un bonus de canalisation à toutes les attaques basées sur la [[Force]], aux compétences basées dessus et aux tests de [[Force]] jusqu’à la fin du prochain tour du [[prêtre]].  
 '''Blessure'''. Les créatures reçoivent un malus de canalisation à tous les jets basés sur la [[Force]] et à toutes les statistiques de jeu basées sur elle (comme le [[BMO]]) jusqu’à la fin du prochain tour du [[prêtre]].
 
 ====Forge====
-'''Guérison'''. Les créatures qui portent une armure métallique gagnent un bonus à la [[CA]] égal au bonus de canalisation jusqu’à la fin du prochain tour du [[prêtre]]. De plus, le [[prêtre]] peut réparer les dégâts causés aux objets et aux créatures artificielles métalliques comme s’il s’agissait de créatures vivantes. De plus, cette guérison est améliorée.
+'''Guérison'''. Les créatures qui portent une armure métallique gagnent un bonus à la [[CA]] égal au bonus de canalisation jusqu’à la fin du prochain tour du [[prêtre]]. De plus, le [[prêtre]] peut réparer les dégâts causés aux objets et aux créatures artificielles métalliques comme s’il s’agissait de créatures vivantes. De plus, cette guérison est améliorée.  
 '''Blessure'''. Les dégâts de la canalisation sont augmentés contre les créatures artificielles métalliques et les objets métalliques sans propriétaire.
 
 ====Guerre/colère====
-'''Guérison'''. Les créatures gagnent un bonus de canalisation aux dégâts des armes et aux jets de confirmation de [[coup critique]] jusqu’à la fin du prochain tour du [[prêtre]].
+'''Guérison'''. Les créatures gagnent un bonus de canalisation aux dégâts des armes et aux jets de confirmation de [[coup critique]] jusqu’à la fin du prochain tour du [[prêtre]].  
 '''Blessure'''. Les créatures reçoivent un malus de canalisation aux jets de dégâts des armes et jets de confirmation de [[coup critique]] jusqu’à la fin du prochain tour du [[prêtre]].
 
 ====Jalousie====
-'''Guérison'''. Les créatures gagnent un bonus de canalisation aux manœuvres de [[désarmement]] et de [[subtilisation]] ainsi qu’aux tests de [[Bluff]] et d’[[Escamotage]] pendant 1 minute.
+'''Guérison'''. Les créatures gagnent un bonus de canalisation aux manœuvres de [[désarmement]] et de [[subtilisation]] ainsi qu’aux tests de [[Bluff]] et d’[[Escamotage]] pendant 1 minute.  
 Blessure. Les créatures doivent tenter une manœuvre de [[subtilisation]] contre un ennemi adjacent à leur prochain tour. C’est un effet de coercition.
 
 ====Justice/loi====
-'''Guérison'''. Les créatures Loyales gagnent un bonus de canalisation aux tests de [[Perception]] et de [[Psychologie]], aux jets d’attaque et aux [[jet de sauvegarde|jets de sauvegarde]] jusqu’à la fin du prochain tour du [[prêtre]].
+'''Guérison'''. Les créatures Loyales gagnent un bonus de canalisation aux tests de [[Perception]] et de [[Psychologie]], aux jets d’attaque et aux [[jet de sauvegarde|jets de sauvegarde]] jusqu’à la fin du prochain tour du [[prêtre]].  
 '''Blessure'''. Les créatures sont soumises à une zone de vérité jusqu’à la fin du prochain tour du [[prêtre]].
 
 ====Liberté====
-'''Guérison'''. Les créatures gagnent un bonus de canalisation aux tests d’[[Évasion]], aux tests de [[BMO]] pour échapper à une [[lutte]] et aux [[jet de sauvegarde|jets de sauvegarde]] pour éviter de se retrouver [[enchevêtré|enchevêtrées]], [[paralysé|paralysées]] ou ralenties.
+'''Guérison'''. Les créatures gagnent un bonus de canalisation aux tests d’[[Évasion]], aux tests de [[BMO]] pour échapper à une [[lutte]] et aux [[jet de sauvegarde|jets de sauvegarde]] pour éviter de se retrouver [[enchevêtré|enchevêtrées]], [[paralysé|paralysées]] ou ralenties.  
 '''Blessure'''. Les créatures sont ralenties (comme avec le sort [[lenteur]]) jusqu’à la fin du prochain tour du [[prêtre]].
 
 ====Magie====
-'''Guérison'''. Les créatures gagnent un bonus de canalisation aux [[test de niveau de lanceur de sorts|tests de niveau de lanceur de sorts]] et de [[test de concentration|concentration]] jusqu’à la fin du prochain tour du [[prêtre]].
+'''Guérison'''. Les créatures gagnent un bonus de canalisation aux [[test de niveau de lanceur de sorts|tests de niveau de lanceur de sorts]] et de [[test de concentration|concentration]] jusqu’à la fin du prochain tour du [[prêtre]].  
 '''Blessure'''. Toutes les créatures doivent faire un [[test de concentration]] ([[DD]] = [[DD]] de la canalisation + niveau du sort) pour utiliser des sorts ou des pouvoirs magiques jusqu’à la fin du prochain tour du [[prêtre]].
 
 ====Maladie====
-'''Guérison'''. Les créatures guérissent d’un nombre de points d’[[affaiblissement de caractéristique|affaiblissement]] égal au bonus de canalisation dans une valeur de caractéristique (au choix du [[prêtre]]).
+'''Guérison'''. Les créatures guérissent d’un nombre de points d’[[affaiblissement de caractéristique|affaiblissement]] égal au bonus de canalisation dans une valeur de caractéristique (au choix du [[prêtre]]).  
 '''Blessure'''. Les créatures sont [[fiévreux|fiévreuses]] jusqu’à la fin du prochain tour du [[prêtre]] plus un nombre de rounds égal au malus de canalisation. Au niveau 10, le [[prêtre]] peut désigner une créature qui sera frappée de [[contagion]] en plus des effets de canalisation. Au niveau 20, toutes les créatures de la zone sont soumises à cette [[contagion]] en plus de subir les effets de la canalisation.
 
 ====Meurtre====
-'''Guérison'''. Les créatures qui réussissent un [[coup critique]] avant la fin du prochain tour du [[prêtre]] ajoutent un effet de [[saignement]] égal au bonus de canalisation du [[prêtre]].
+'''Guérison'''. Les créatures qui réussissent un [[coup critique]] avant la fin du prochain tour du [[prêtre]] ajoutent un effet de [[saignement]] égal au bonus de canalisation du [[prêtre]].  
 '''Blessure'''. Les créatures reçoivent un effet de [[saignement]] égal au malus de canalisation du [[prêtre]].
 
 ====Monstres====
-'''Guérison'''. Les effets curatifs de la canalisation sont améliorés pour les [[type aberration|aberrations]], les [[type dragon|dragons]], les [[type créature magique|créatures magiques]] et les [[type humanoïde monstrueux|humanoïdes monstrueux]].
+'''Guérison'''. Les effets curatifs de la canalisation sont améliorés pour les [[type aberration|aberrations]], les [[type dragon|dragons]], les [[type créature magique|créatures magiques]] et les [[type humanoïde monstrueux|humanoïdes monstrueux]].  
 '''Blessure'''. Les créatures reçoivent un malus de canalisation à l’attaque et aux dégâts contre les créatures convoquées et appelées.
 
 ====Mort====
-'''Guérison'''. Les créatures gagnent un bonus de canalisation aux [[Blessures et mort#STABLE|tests de stabilisation]] quand elles sont à l’agonie et aux [[jet de sauvegarde|jets de sauvegarde]] contre les effets de mort pendant 1 minute.
+'''Guérison'''. Les créatures gagnent un bonus de canalisation aux [[Blessures et mort#STABLE|tests de stabilisation]] quand elles sont à l’agonie et aux [[jet de sauvegarde|jets de sauvegarde]] contre les effets de mort pendant 1 minute.  
 '''Blessure'''. Les créatures reçoivent un malus de canalisation aux [[Blessures et mort#STABLE|tests de stabilisation]] quand elles sont à l’agonie et soustraient le malus de canalisation de toute magie de guérison, guérison accélérée et régénération dont elles bénéficient.
 
 ====Nature====
-'''Guérison'''. Les effets curatifs de la canalisation sont améliorés pour les [[type Animal|animaux]] et les [[type Fée|fées]]. Les créatures obtiennent un bonus de canalisation aux tests de [[Dressage]] et d’[[rôdeur#EMPATHIESAUVAGE|empathie sauvage]] pendant 1 minute.
+'''Guérison'''. Les effets curatifs de la canalisation sont améliorés pour les [[type Animal|animaux]] et les [[type Fée|fées]]. Les créatures obtiennent un bonus de canalisation aux tests de [[Dressage]] et d’[[rôdeur#EMPATHIESAUVAGE|empathie sauvage]] pendant 1 minute.  
 '''Blessure'''. Les effets néfastes sont augmentés pour les [[type Animal|animaux]] et les [[type Fée|fées]].
 
 ====Non-mort====
-'''Guérison'''. Fonctionne comme une canalisation normale (n’est pas réduite de moitié).
+'''Guérison'''. Fonctionne comme une canalisation normale (n’est pas réduite de moitié).  
 '''Blessure'''. Les effets curatifs de la canalisation sont améliorés pour les [[type Mort-vivant|morts-vivants]] et les individus possédant une affinité avec l’énergie négative.
 
 ====Océan/mer/eau====
-'''Guérison'''. Les créatures gagnent un bonus de canalisation aux tests d’[[Escalade]] et de [[Natation]] et aux tests de [[Constitution]] pour retenir leur souffle. Ce bonus dure 1 minute. Les créatures ignorent la [[fatigué|fatigue]] qui résulte de la [[Dangers naturels#FAIMSOIF|soif]] et les [[Dangers naturels#EAU|dégâts de pression en eau profonde]] pendant 1 minute.
+'''Guérison'''. Les créatures gagnent un bonus de canalisation aux tests d’[[Escalade]] et de [[Natation]] et aux tests de [[Constitution]] pour retenir leur souffle. Ce bonus dure 1 minute. Les créatures ignorent la [[fatigué|fatigue]] qui résulte de la [[Dangers naturels#FAIMSOIF|soif]] et les [[Dangers naturels#EAU|dégâts de pression en eau profonde]] pendant 1 minute.  
 '''Blessure'''. Les effets néfastes sont augmentés pour les créatures de [[sous-type aquatique]] ou [[sous-type Eau|eau]].
 
 ====Perfection de soi====
-'''Guérison'''. Les créatures peuvent ignorer une condition temporaire de leur choix jusqu’à la fin du prochain tour du [[prêtre]].
+'''Guérison'''. Les créatures peuvent ignorer une condition temporaire de leur choix jusqu’à la fin du prochain tour du [[prêtre]].  
 '''Blessure'''. Les créatures reçoivent un malus de canalisation à toutes leurs tentatives de dissipation, de guérison et aux [[jet de sauvegarde|jets de sauvegarde]] supplémentaires contre toutes les conditions déjà appliquées pendant 1 minute (ceci ne s’applique pas au [[jet de sauvegarde]] initial contre ces effets mais fonctionne tout de même contre les effets qui débutent pendant que le pouvoir est actif).
 
 ====Poison====
-'''Guérison'''. Les créatures gagnent un bonus de canalisation aux [[jet de sauvegarde|jets de sauvegarde]] contre le [[Poisons|poison]] pendant 1 minute.
+'''Guérison'''. Les créatures gagnent un bonus de canalisation aux [[jet de sauvegarde|jets de sauvegarde]] contre le [[Poisons|poison]] pendant 1 minute.  
 '''Blessure'''. Les créatures reçoivent un [[affaiblissement de caractéristique|affaiblissement]] de 1 point de [[Force]], [[Dextérité]] ou de [[Constitution]] (au choix du [[prêtre]]) comme effet de [[Poisons|poison]].
 
 ====Protection====
-'''Guérison'''. Les créatures gagnent un bonus de canalisation à la [[CA]] jusqu’à la fin du prochain tour du [[prêtre]].
+'''Guérison'''. Les créatures gagnent un bonus de canalisation à la [[CA]] jusqu’à la fin du prochain tour du [[prêtre]].  
 '''Blessure'''. Les créatures reçoivent un malus de canalisation à la [[CA]] jusqu’à la fin du prochain tour du [[prêtre]].
 
 ====Règne====
-'''Guérison'''. Les créatures gagnent un bonus de canalisation aux tests de [[Diplomatie]] et au [[DD]] des effets de charme et des effets dépendants du langage jusqu’à la fin du prochain tour du [[prêtre]].
+'''Guérison'''. Les créatures gagnent un bonus de canalisation aux tests de [[Diplomatie]] et au [[DD]] des effets de charme et des effets dépendants du langage jusqu’à la fin du prochain tour du [[prêtre]].  
 '''Blessure'''. Les créatures sont hébétées pendant 1 round.
 
 ====Rêves====
-'''Guérison'''. Les créatures soumises à un effet de sommeil peuvent refaire un [[jet de sauvegarde]] en lui appliquant le bonus de canalisation. Les créatures qui dorment de leur plein gré gagnent un bonus de canalisation aux [[jet de sauvegarde|jets de sauvegarde]] et aux tests de [[Perception]] pendant 8 heures (ce bonus se dissipe si la créature se réveille).
+'''Guérison'''. Les créatures soumises à un effet de sommeil peuvent refaire un [[jet de sauvegarde]] en lui appliquant le bonus de canalisation. Les créatures qui dorment de leur plein gré gagnent un bonus de canalisation aux [[jet de sauvegarde|jets de sauvegarde]] et aux tests de [[Perception]] pendant 8 heures (ce bonus se dissipe si la créature se réveille).  
 '''Blessure'''. Les créatures reçoivent un malus de canalisation aux tests de [[Perception]] et aux [[jet de sauvegarde|jets de sauvegarde]] contre l’[[épuisé|épuisement]], la [[fatigué|fatigue]] et les effets de sommeil pendant 1 minute.
 
 ====Secrets====
-'''Guérison'''. Les créatures gagnent un bonus de canalisation aux tests de [[Psychologie]] et de [[test de niveau de lanceur de sorts|niveau de lanceur de sorts]], ainsi qu’au [[DD]] des [[jet de sauvegarde|jets de sauvegarde]] de leurs sorts de divination jusqu’à la fin du prochain tour du [[prêtre]].
+'''Guérison'''. Les créatures gagnent un bonus de canalisation aux tests de [[Psychologie]] et de [[test de niveau de lanceur de sorts|niveau de lanceur de sorts]], ainsi qu’au [[DD]] des [[jet de sauvegarde|jets de sauvegarde]] de leurs sorts de divination jusqu’à la fin du prochain tour du [[prêtre]].  
 '''Blessure'''. Les créatures reçoivent un malus de canalisation aux [[jet de sauvegarde|jets de sauvegarde]] contre la divination pendant 1 minute. Les créatures qui utilisent la [[Psychologie]] pendant la minute qui suit contre les individus affectés gagnent un bonus de canalisation au test de [[Psychologie]].
 
 ====Soleil====
-'''Guérison'''. Le niveau d’illumination de la zone augmente d’un cran et les créatures gagnent un bonus de canalisation aux [[jet de sauvegarde|jets de sauvegarde]] contre la cécité et les effets basés sur la lumière.
+'''Guérison'''. Le niveau d’illumination de la zone augmente d’un cran et les créatures gagnent un bonus de canalisation aux [[jet de sauvegarde|jets de sauvegarde]] contre la cécité et les effets basés sur la lumière.  
 '''Blessure'''. Les créatures sont [[ébloui|éblouies]] pendant 1 minute, celles qui sont vulnérables ou sensibles à la lumière sont [[aveuglé|aveuglées]] au lieu d’être [[ébloui|éblouies]].
 
 ====Souffrance====
-'''Guérison'''. Les créatures gagnent un bonus de canalisation aux [[jet de sauvegarde|jets de sauvegarde]] contre les effets de souffrance pendant 1 minute.
+'''Guérison'''. Les créatures gagnent un bonus de canalisation aux [[jet de sauvegarde|jets de sauvegarde]] contre les effets de souffrance pendant 1 minute.  
 '''Blessure'''. Les créatures sont fiévreuses jusqu’à la fin du prochain tour du [[prêtre]] plus un nombre de rounds égal à son malus de canalisation. Au niveau 10, le [[prêtre]] peut choisir une créature qui sera [[nauséeux|nauséeuse]] en plus de subir les autres effets de la canalisation.
 
 ====Stratégie====
-'''Guérison'''. Les créatures qui utilisent l’action [[aider quelquun|aider quelqu'un]] ajoutent un bonus de canalisation à leur jet, en plus des bonus habituels, et ce jusqu’à la fin du prochain tour du [[prêtre]].
+'''Guérison'''. Les créatures qui utilisent l’action [[aider quelquun|aider quelqu'un]] ajoutent un bonus de canalisation à leur jet, en plus des bonus habituels, et ce jusqu’à la fin du prochain tour du [[prêtre]].  
 '''Blessure'''. Les créatures sont incapables de faire une [[attaque dopportunité|attaque d’opportunité]] jusqu’à la fin du prochain tour du [[prêtre]].
 
 ====Ténèbres====
-'''Guérison'''. Les créatures obtiennent [[vision nocturne]] jusqu’au prochain tour du [[prêtre]]. Au niveau 5, le [[prêtre]] leur accorde également [[vision dans le noir]] sur 9 mètres. Ensuite, ce rayon augmente de 9 mètres tous les cinq niveaux de [[prêtre]].
+'''Guérison'''. Les créatures obtiennent [[vision nocturne]] jusqu’au prochain tour du [[prêtre]]. Au niveau 5, le [[prêtre]] leur accorde également [[vision dans le noir]] sur 9 mètres. Ensuite, ce rayon augmente de 9 mètres tous les cinq niveaux de [[prêtre]].  
 '''Blessure'''. Le niveau d’illumination de la zone diminue d’un cran pendant 1 minute, comme avec le sort [[ténèbres]]. Quand le [[prêtre]] atteint le niveau 10, la luminosité diminue de deux crans et de trois crans au niveau 15. Les zones de faible luminosité ou d’obscurité deviennent des ténèbres surnaturelles (même les créatures douées de vision dans le noir n’y voient plus rien).
 
 ====Terre====
-'''Guérison'''. Les créatures bénéficient d’une [[RD]] 1/adamantium jusqu’à la fin du prochain tour du [[prêtre]]. Cette [[RD]] augmente de 1 au niveau 5 puis tous les cinq niveaux. Ceci ne permet pas au bénéficiaire de vaincre une [[RD]]/adamantium avec ses propres attaques.
+'''Guérison'''. Les créatures bénéficient d’une [[RD]] 1/adamantium jusqu’à la fin du prochain tour du [[prêtre]]. Cette [[RD]] augmente de 1 au niveau 5 puis tous les cinq niveaux. Ceci ne permet pas au bénéficiaire de vaincre une [[RD]]/adamantium avec ses propres attaques.  
 '''Blessure'''. Toutes les créatures qui se trouvent dans la zone sont considérées comme étant sur un [[terrain difficile]] pendant 1 minute.
 
 ====Vengeance====
-'''Guérison'''. Fonctionne comme une canalisation normale (n’est pas réduite de moitié).
+'''Guérison'''. Fonctionne comme une canalisation normale (n’est pas réduite de moitié).  
 '''Blessure'''. Les créatures reçoivent un malus de canalisation aux jets d’attaque jusqu’à la fin du prochain tour du [[prêtre]].
 
 ====Villes====
-'''Guérison'''. Les créatures gagnent un bonus de canalisation aux jets d’attaque quand ils prennent un adversaire en [[prise en tenaille|tenaille]] et à la [[CA]] quand ils sont eux-mêmes [[prise en tenaille|pris en tenaille]] et ce jusqu’à la fin du prochain tour du [[prêtre]].
+'''Guérison'''. Les créatures gagnent un bonus de canalisation aux jets d’attaque quand ils prennent un adversaire en [[prise en tenaille|tenaille]] et à la [[CA]] quand ils sont eux-mêmes [[prise en tenaille|pris en tenaille]] et ce jusqu’à la fin du prochain tour du [[prêtre]].  
 '''Blessure'''. Tous les hexagones des créatures et ceux qu’elles menacent sont considérés comme un [[terrain difficile]] jusqu’à la fin du prochain tour du [[prêtre]] (ces zones se déplacent avec les créatures, elles ne sont pas fixées au moment de la canalisation). Les créatures subissent un malus de canalisation aux tests d’[[Acrobaties]] et aux tentatives de [[renversement]] pour traverser ces hexagones jusqu’à la fin du prochain tour du [[prêtre]].
