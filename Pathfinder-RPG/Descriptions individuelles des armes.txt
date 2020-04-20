@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Descriptions individuelles des armes
 Title: Descriptions individuelles des armes
-LastModified: 2020-02-02 20:32
+LastModified: 2020-04-15 16:55
 ---
 {s:MenuEquipement}''Les armes décrites ci-dessous sont celles présentées dans le [[Tableau récapitulatif des armes]]. Les armes à impact sont décrites dans la section [[Substances et objets spéciaux]].''
 
@@ -207,6 +207,10 @@ Le personnage peut utiliser le don [[Attaque en finesse]] pour appliquer son mod
 
 {s:Reference|Lamétoile}'''Lamétoile''' Cette arme se compose de quatre lames pointues en métal sortant d’un anneau métallique central, comme les quatre pointes d’une rose des vents. En saisissant la barre qui occupe le centre évidé de l’arme, le  personnage peut frapper avec comme s’il s’agissait d’une arme de corps à corps mortelle. Autrement, il peut saisir la lamétoile par le bord extérieur et lancer cette arme légère et aérodynamique sur de courtes distances, comme un chakram.
 
+{s:AE}{s:Reference|Pata}'''Pata''' Évolution de la dague coup-de-poing, le pata est une épée courte se terminant sur une poignée formant un gantelet intégral sans doigt. Cette arme s’utilise en donnant des coups de poing et non en frappant d’estoc, ce qui permet de mettre plus de force dans chaque coup. Lorsqu’un personnage porte un pata, il ne peut pas utiliser sa main pour quoi que ce soit d’autre. Le pata fournit un bonus de +10 au [[DMD]] contre les tentatives de [[désarmement]].
+
+{s:AE}{s:Reference|Quadrens}'''Quadrens''' Le quadrens ressemble à une dague solide, mais avec quatre pointes disposées en carré à la place de la lame. Lorsque le personnage réussit un [[coup critique]] avec un quadrens, la blessure béante qui en résulte entraîne 1 point de dégâts de saignement. Les pointes s’enfoncent dans la peau et l’armure mais on peut aussi s’en servir pour coincer les lames des adversaires et les arracher d’un mouvement de poignet.
+
 {s:Reference|Rapière}
 '''Rapière''' Le don [[Attaque en finesse]] permet au personnage d’ajouter son bonus de [[Dextérité]] au jet d’attaque (à la place de son bonus de [[Force]]) quand il utilise une rapière destinée à une créature de sa taille, bien que ce ne soit pas une [[arme légère]]. On ne peut pas tenir une rapière à deux mains pour multiplier son bonus de [[Force]] aux dégâts par 1,5.
 
@@ -215,6 +219,10 @@ Le personnage peut utiliser le don [[Attaque en finesse]] pour appliquer son mod
 {s:PMI}{s:Reference|Sabredabordage}'''Sabre d’abordage''' Le sabre d’abordage est une épée courte dotée d’une lame incurvée avec un seul tranchant. Les pirates apprécient cette arme car sa lame est suffisamment affûtée pour trancher les gréements (et les voiles des navires adverses) mais suffisamment courte pour la manier lors des combats à bord des navires où beaucoup d’individus s’affrontent.
 
 {s:Reference|Sabredentelé}'''Sabre dentelé''' Signature de la célèbre guilde d’assassins des Mantes rouges, les sabres dentelés sont des armes cruelles mais efficaces. Leur lame incurvée et crantée inflige de profondes blessures. On peut les utiliser comme arme de guerre (auquel cas, ils fonctionnent comme des épées longues) mais un personnage qui possède le [[Maniement dune arme exotique|Maniement d'une arme exotique]] (sabre dentelé) les considère comme une arme légère quand il s’agit de se battre à deux armes. Le sabre est toujours assimilé à une arme de corps à corps à une main pour tout le reste.
+
+{s:AE}{s:Reference|Serpe}'''Serpe''' À l’origine cette arme à une main est un outil agricole utilisé pour faucher le grain. Elle est pourvue d’une lame fortement incurvée capable d’accrocher facilement un membre ou l’armure de l’adversaire. La lame peut être lisse ou dentelée, et certaines serpes de combat sont aiguisées des deux côtés de la lame au niveau de la pointe, ce qui permet de l’enfoncer plus facilement dans la chair de l’adversaire.
+
+{s:AE}{s:Reference|Tranchechien}'''Tranchechien''' Cette lame courte et incurvée a été créée par les [[gobelin (race)|gobelins]] qui y percent souvent de nombreux trous pour en réduire le poids. La plupart des tranchechiens sont taillés pour les créatures de taille P.
 </div>
 
 ===Marteaux et masses===
@@ -242,7 +250,7 @@ Il faut une [[action simple]] provoquant des [[AO|attaques d’opportunité]] (c
 
 {s:Reference|Massue}'''Massue''' Cette variante plus grosse et massive du gourdin standard est trop lourde pour être maniée à une main. Elle peut être décorée et gravée, renforcée de métal comme elle peut être une simple branche d’arbre. Comme les simples gourdins, les massues ont de nombreux noms, comme casse-tête, shillelagh, etc.
 
-{s:Reference|Matraque}'''Matraque'''Cette arme se compose d’une lanière souple, généralement en cuir, enroulée autour d’un coeur dense et dur, généralement un bâton en plomb. La tête est plus large que le manche et conçue pour répartir la force du coup, rendant l’arme moins susceptible de verser le sang ou de briser les os.
+{s:Reference|Matraque}'''Matraque''' Cette arme se compose d’une lanière souple, généralement en cuir, enroulée autour d’un coeur dense et dur, généralement un bâton en plomb. La tête est plus large que le manche et conçue pour répartir la force du coup, rendant l’arme moins susceptible de verser le sang ou de briser les os.
 </div>
 
 ===Pics===
@@ -253,7 +261,6 @@ Il faut une [[action simple]] provoquant des [[AO|attaques d’opportunité]] (c
 </div>
 
 ===Autres===
-
 <div class="article_2col">
 {s:Reference|Armureàpointes}'''Armure à pointes''' On peut orner son armure de [[Descriptions individuelles des armures#Pointespourarmure|pointes]] capables d’infliger des dégâts lors d’une lutte ou d’une attaque indépendante. On ne peut pas désarmer un personnage équipé de pointes d’armure.
 
@@ -334,10 +341,17 @@ Les grappins s’enfoncent profondément dans le bois du bastingage et il faut u
 Un grappin peut être utilisé comme une arme à distance. C’est une arme de lutte si le personnage est formé à son maniement. Si le personnage réussit un coup critique en maniant une arme de ce type, il peut agripper la cible de son attaque. Il doit alors effectuer un test de manoeuvre offensive pour agripper son adversaire par une action libre. Cette tentative de lutte ne provoque pas d’attaque d’opportunité de la part de la créature qu’il tente d’agripper si le personnage n’est pas dans sa zone de contrôle. Tant que le personnage agrippe la créature avec une arme de lutte, il peut uniquement la déplacer ou lui infliger des dégâts lors de son tour. On considère qu’il est lui-même agrippé en situation de lutte mais il ne doit pas obligatoirement être adjacent à la créature pour maintenir sa prise. Le personnage met fin à la lutte s’il s’éloigne suffisamment de la créature qu’il agrippe pour que celle-ci ne soit plus à portée d’allonge de son arme.
 
 On compte dans le poids du grappin celui de la corde de chanvre de 15 mètres. Ce poids peut être réduit si on attache une corde plus courte ou plus légère.
+
+{s:AE}{s:Reference|Scizore}'''Scizore''' Le scizore est un tube renforcé qui se fixe sur l’avant-bras et se termine par une lame semi-circulaire utilisée pour porter des coups dévastateurs. Le scizore donne un bonus de bouclier de +1 à la [[CA]] mais, si le personnage attaque avec la lame, il perd ce bonus pour le [[round]] et reçoit un malus de -1 à ses [[jet dattaque|jets d’attaque]] avec le scizore. Lorsqu’il porte un scizore, il ne peut pas utiliser la main qui le porte pour quoi que ce soit d’autre. Le scizore donne un bonus de +10 au [[DMD]] contre le désarmement. Il faut une [[action complexe]] pour enfiler un scizore.
+
+{s:AE}{s:Reference|Shotel}'''Shotel''' Le shotel est une épée à lame incurvée conçue pour passer ou contourner le bouclier de l’adversaire. Le personnage gagne un bonus de +1 à ses [[jet dattaque|jets d’attaque]] au shotel contre les adversaires utilisant une targe, une rondache ou un écu. La courbe de la lame du shotel varie d’une épée à l’autre et certains modèles sont à double tranchant tandis que les autres n’ont qu’un seul tranchant, la lame extérieure pouvant être appuyée contre un bouclier pour lui donner plus de force. Les shotels sont particulièrement utiles pour happer les combattants à cheval et les désarçonner.
+
+{s:AE}{s:Reference|Sica}'''Sica''' Cette lame est une variante du shotel, plus petite et plus légère. Le personnage gagne un bonus de +1 à ses [[jet dattaque|jets d’attaque]] contre les adversaires utilisant une targe, une rondache ou un écu.
+
+{s:AE}{s:Reference|Tonfa}'''Tonfa''' Ce bâton en L sert aussi bien à frapper qu’à bloquer. Le porteur le tient par le manche et fait tournoyer le bâton ou frappe avec le bâton couvrant son avant-bras.
 </div>
 
 ===Munitions===
-
 <div class="article_2col">
 {s:Reference|Billesdefronde}'''Bille de fronde''' Les billes de fronde sont des billes de métal rondes conçues pour être utilisées avec une fronde ou un fustibale halfelin. Elles sont livrées dans une sacoche en cuir en contenant 10.
 
@@ -390,7 +404,7 @@ la boucle.
 '''Shuriken''' Le shuriken est une petite pièce de métal aux bords acérés, faite pour être lancée. On ne peut pas l’utiliser au corps à corps. Bien qu’il s’agisse d’une [[arme de jet]], le shuriken est considéré comme une munition quand il faut le dégainer ou le fabriquer en tant qu’objet de maître ou autre version spécifique et quand on veut savoir ce qu’il devient une fois lancé.
 
 {s:Reference|Siangham}
-'''Siangham''' Le siangham est une poignée dotée d’une pointe pour poignarder ses ennemis.
+'''Siangham''' Cette arme est un petit bâton portable pourvu d’une pointe acérée pour poignarder les ennemis. Elle ressemble à une flèche (en beaucoup plus solide) avec un manche conçu pour le combat au corps à corps.
 
 {s:Reference|Trident}
 '''Trident''' Un trident possède trois dents métalliques au bout d’un manche d’un mètre vingt et peut être lancé. Si le personnage utilise une [[action préparée|action pour se préparer]] à recevoir une [[charger|charge]], le trident inflige des dégâts doublés à l’adversaire qui charge.
@@ -433,16 +447,16 @@ mere est un gourdin court avec un côté plat et une pointe acérée.
 
 {s:Reference|Grandterbutje}'''Grand terbutje''' Cette arme de l’Âge de pierre est une version plus longue du terbutje, de 1,20 mètre de long. Elle est trop grande pour être utilisée à une main sans formation spéciale. Utilisée à une main, il s’agit d’une arme exotique, à deux mains, c’est une arme de guerre.
 
-Taiaha
+{s:AE}{s:Reference|Taiaha}'''Taiaha''' Le taiaha de l’Âge de pierre est un long bâton lourd, avec une extrémité en forme de gourdin et une autre dotée d’une pointe de lance en bois ou en métal. Le personnage combine des frappes violentes avec le gourdin et les mouvements d’estoc avec la lance. Le taiaha se manie comme une arme de guerre infligeant 1d8 points de dégâts contondants (1d6 s’il est de taille P) et possède un multiplicateur de critique de ×2.
 
-Tepoztopili
+{s:AE}{s:Reference|Tepoztopilli}'''Tepoztopilli''' La tête de cette arme d’hast en bois de l’Âge de pierre est bordée de morceaux déchiquetés d’obsidienne, de verre, de dents ou d’autre matériaux similaires. Sa large tête sert aussi bien pour les attaques perforantes que pour les attaques tranchantes.
 
-Wahaika
+{s:AE}{s:Reference|Terbutje}'''Terbutje''' Cette arme de l’Âge de pierre, également appelée macuahuitl, est constituée d’une lame en bois trempé. Des éclats acérés de dents, d’obsidienne, de verre ou de matériaux similaires sont fixés le long de sa lame.
+
+{s:AE}{s:Reference|Wahaika}'''Wahaika''' Ce gourdin court et large de l’Âge de pierre est fait de bois renforcé ou d’os. Une encoche sur l’un de ses côtés permet d’attraper les armes. Si le personnage est formé au maniement de cette arme, il peut utiliser l’encoche du wahaika pour désarmer ses ennemis. Autrement, il traite cette arme comme un gourdin. Les dons et capacités affectant les gourdins s’appliquent au wahaika.
 
 === Les armes de l'Âge de bronze===
 {s:Reference|Mattock}'''Mattock''' Le mattock ressemble à un pic de guerre à deux mains mais avec une lame en forme de ciseau à bois au lieu d’une pointe.
-
-Rhomphaia
 
 {s:PMI}{s:Reference|Harpon}'''Harpon''' Le harpon est une lance à la pointe dotée de barbillons à laquelle est attachée une corde de 15 mètres ou moins de long. C’est une arme de lutte si le personnage est formé à son maniement. Si le personnage réussit un coup critique en maniant une arme de ce type, il peut agripper la cible de son attaque. Il doit alors effectuer un test de manoeuvre offensive pour agripper son adversaire par une action libre.  Cette tentative de lutte ne provoque pas d’attaque d’opportunité de la part de la créature qu’il tente d’agripper si le personnage n’est pas dans sa zone de contrôle. Tant que le personnage agrippe la créature avec une arme de lutte, il peut uniquement la déplacer ou lui infliger des dégâts lors de son tour. On considère qu’il est lui-même agrippé en situation de lutte mais il ne doit pas obligatoirement être adjacent à la créature pour maintenir sa prise. Le personnage met fin à la lutte s’il s’éloigne suffisamment de la créature qu’il agrippe pour que celle-ci ne soit plus à portée d’allonge de son arme.
 
@@ -451,6 +465,8 @@ La plupart des harpons ont une pointe en métal mais certains utilisent l’ivoi
 {s:Reference|Kestros}{s:Reference|Fléchettedekestros}'''Kestros''' Le kestros est une fronde de l’Âge de bronze à la forme étrange utilisée pour lancer des fléchettes de kestros. Le modificateur de [[Force]] du personnage s’applique aux jets de dégâts du kestros, exactement comme pour les armes de jet. Le personnage peut tirer avec d’une main mais pas le recharger ainsi. Le rechargement du kestros prend une [[action de mouvement]] nécessitant les deux mains et provoque des [[AO|attaques d’opportunité]]. Les [[Halfelin|halfelins]] traitent le kestros comme une arme de guerre.
 
 :''Fléchette de kestros'' Cette fléchette, prévue pour être lancée à l’aide d’un kestros, se compose d’une pointe de métal lourd d’environ 23 centimètres de long fixée sur une tige de bois d’environ 30 centimètres de long dotée d’un empennage de plumes pour l’équilibre. Si elle est utilisée comme une arme de corps à corps, il s’agit d’une arme légère improvisée (malus de -4 aux jets d’attaque) qui inflige des dégâts comme une dague de sa taille (multiplicateur de critique de ×2). Les fléchettes de kestros sont fournies dans un carquois en contenant 10.
+
+{s:AE}{s:Reference|Rhomphaia}'''Rhomphaia''' Cette arme de l’Âge de bronze est une des premières armes d’hast se composant d’une longue lame à un tranchant fixée sur un solide bâton, parfois légèrement incurvée. Elle sert à la fois d’arme de taille et d’estoc.
 </div>
 
 ==Armes orientales==
@@ -461,6 +477,12 @@ Cette partie présente toutes les armes orientales dont vous avez besoin pour di
 Le ''Manuel des joueurs'' propose des armes et des armures associées à l’Asie : le sai, le siangham, les shuriken. 
 
 <div class="article_2col">
+{s:Reference|Bâtonauxdeuxkatanas}'''Bâton aux deux katanas''' Ce simple étui unique renferme une paire d’épées de combat assorties, parfaitement équilibrées de manière à être maniées ensemble. Malgré leur nom, les lames ressemblent davantage au [[#wakizashi|wakizashi]], plus court. Lorsque les lames sont dissimulées dans leur étui, cette arme peut être utilisée comme un [[#Bâton|bâton]].
+
+{s:Reference|Bô}'''Bô''' Similaire au bâton, en plus fin et effilé à une extrémité, le bô est à la fois une arme et un instrument défensif.
+
+{s:Reference|Chaîneàdeuxkamas}'''Chaîne à deux kamas''' Cette arme se compose d’une paire de kamas reliés à une chaîne de 2,40 mètres. Le porteur peut attaquer comme s’il était armé d’un seul kama dans chaque main ou tendre la chaîne pour porter une seule attaque d’allonge. En balançant la chaîne, le porteur peut lancer un kama pour [[désarmement|désarmer]] ou faire un [[croc-en-jambe]] à ses adversaires. De plus, si le porteur lâche l’une des deux armes, il peut la récupérer par une [[action libre]] en tirant sur la chaîne.
+
 {s:Reference|Chaînecloutée}'''Chaîne cloutée''' La chaîne cloutée fait environ 1,20 mètre de long. Elle est couverte de vilains barbelés. Certaines ont des boucles en métal en guise de poignées. Le personnage peut utiliser le don [[Attaque en finesse]] pour appliquer son modificateur de [[Dextérité]] plutôt que son modificateur de Force à ses jets d’attaques avec une chaîne cloutée adaptée à sa taille, même s’il ne s’agit pas d’une arme légère.
 
 {s:APG}{s:Reference|Chakram}'''Chakram''' Le chakram est une arme de jet simple, élégante et facile à transporter. Il s’agit d’un disque plat en métal évidé en son centre avec un bord tranchant. 
@@ -474,28 +496,30 @@ Le prix est indiqué pour une paire de couteaux papillons.
 
 Les couteaux papillons de maître coûtent 320 po la paire. Si le personnage ajoute des bonus d’altération magiques ou des propriétés, traitez chacun des couteaux de la paire comme des armes distinctes (par exemple, ajouter un bonus d’altération magique de +1 à une paire de couteaux papillons de maître coûte 4 000 po).
 
-{s:Reference|Fléchettewushu}'''Fléchette wushu''' Cette pointe en bois affûtée peut être utilisée comme arme pour frapper. Elle est également parfaitement équilibrée pour le lancer.
+{s:Reference|Danbong}'''Dan bong''' Ces courts bâtons arrondis se tiennent en main pour améliorer les techniques de combat à mains nues et sont munis d’une corde enroulée autour du pouce. Ils permettent à leur porteur d’immobiliser un adversaire et de cibler les points de pression, ce qui se traduit par un bonus de +2 aux tests de manoeuvre offensive pour [[lutte|saisir un adversaire]].
 
-{s:Reference|Jitte}'''Jitte''' Cette arme semblable à un bâton est pourvue d’un crochet en métal que l’on peut utiliser pour bloquer l’arme d’un adversaire. Certaines variantes se terminent par une pointe ou une lame de métal tranchant.
-
-{s:Reference|Kama}'''Kama''' Semblable à la serpe (et, dans certaines régions, encore utilisé pour moissonner les céréales), le kama est une lame courte incurvée fixée sur une poignée simple, généralement en bois. On parle parfois de kaï. Les adeptes des arts martiaux l’utilisent fréquemment par paire.
-
-{s:Reference|Kérambit}'''Kérambit''' Cette petite dague incurvée est pourvue d’une boucle en métal à la base de sa poignée, ce qui permet de la stabiliser avec un doigt ou de la porter au bout d’une ficelle attachée dans les cheveux. Si elle est relativement petite, sa lame incurvée peut infliger de violentes blessures. Facile à dissimuler (le personnage gagne un bonus de +2 à ses tests d’[[Escamotage]] pour dissimuler un kérambit sur lui), elle constitue l’arme préférée des [[Ninja|ninjas]]
-et des [[assassin|assassins]].
-
-{s:Reference|Lunghuantamo}'''Lungchuan tamo''' Ce qui ressemble à un bâton ordinaire renferme une paire de dagues à fine lame assorties (des lames de jet parfaitement équilibrées).
-
-{s:Reference|Nunchaku}'''Nunchaku''' Le nunchaku est fait de deux barres de bois ou de métal reliées par une courte chaîne ou corde.
-
-Pinceau de fer
-Shang gou
+{s:Reference|Emeici}'''Emeici''' Cette arme est utilisée pour améliorer les techniques de combat à mains nues. Il s’agit d’une pique en acier de 20 à 25 centimètres de long à pointe double, montée sur des pivots et un anneau, de telle façon que le porteur peut la faire tournoyer à grande vitesse lorsqu’il la porte à son annulaire. L’anneau empêche le porteur d’être [[désarmement|désarmé]] et transforme les attaques à mains nues en attaques perforantes.
 
 {s:Reference|Épéeàneufanneaux}'''Épée à neuf anneaux''' Cette arme à lame large est dotée de neuf anneaux lourds répartis le long de son épine dorsale, donnant plus de poids et donc plus de force à son tranchant impressionnant.
 
 Sabre double ergot de poulet
 Sibat
 
+{s:Reference|Épéeàseptbranches}'''Épée à sept branches''' Cette curieuse épée est pourvue d’une lame de 60 centimètres avec six lames plus courtes, en L, placées en quinconce de chaque côté. Les lames courtes peuvent servir à happer les vêtements ou l’armure des adversaires, comme à coincer les armes afin de les arracher à l’ennemi. Pour happer les vêtements ou l’armure, l’attaquant doit faire une manoeuvre offensive de [[croc-en-jambe]]. S’il réussit, la victime ne tombe pas à terre mais reste accrochée et trébuche vers l’avant, ce qui la laisse [[pris au dépourvu|prise au dépourvu]] pour le reste du round.
+
 {s:Reference|Épéeàtriplepointeetdoubletranchant}'''Épée à triple pointe et double tranchant''' L’extrémité de ce manche de 1,50 mètre est surmontée de trois longues lames incurvées vers l’extérieur et sculptées en forme de fleur de lotus ouverte. Sa tête d’une largeur anormale est conçue pour porter des coups puissants et causer de multiples blessures béantes qui se prolongent à l’opposée les unes des autres.
+
+{s:APG}{s:Reference|Epéedutemple}'''Épée du temple''' Lame lourde généralement utilisée par les gardiens de sites religieux, l’épée du temple a une lame distinctive en forme de croissant de lune qui apparaît comme un amalgame entre la serpe et l’épée. De nombreux trous sont percés dans la lame ou dans le pommeau de manière à y attacher des charmes, des clochettes ou d’autres objets sacrés, pour témoigner de la dévotion du porteur ou pour servir de focalisateur pour la prière ou la méditation.
+
+Les [[Moine|moines]] sont formés au maniement de l’épée du temple.
+
+{s:Reference|Éventaildecombat}'''Éventail de combat''' Fabriqué pour ressembler à un éventail de courtisane, cet objet se compose de papier de soie tendu et replié sur une armature pliante d’acier renforcé. On utilise généralement les éventails de combat par paires, avec une technique de distraction de l’adversaire. Ils arborent des pointes acérées qui peuvent être [[Poisons|empoisonnées]].
+
+{s:Reference|Flèchessifflantes}'''Flèches sifflantes''' Ces flèches sont pourvues de rainures et d’un empennage spécial qui leur fait émettre un son puissant et aigu audible dans un rayon de 150 mètres autour de leur trajectoire de vol. Elles sont vendues par 20.
+
+{s:Reference|Fléchettewushu}'''Fléchette wushu''' Cette pointe en bois affûtée peut être utilisée comme arme pour frapper. Elle est également parfaitement équilibrée pour le lancer.
+
+{s:Reference|Fouet en neuf parties}'''Fouet en neuf parties''' Ce fouet en neuf parties se compose de barres en acier reliées. La dernière barre est une lourde pointe de 15 centimètres. On peut manier cette arme comme une arme à une main, une arme à deux mains ou par paire. Les fouets en neuf parties sont souvent dotés de foulards colorés fixés aux extrémités pour les contrôler plus facilement.
 
 {s:Reference|Fourchedutigre}'''Fourche du tigre''' Cette arme longue en forme de trident se compose d’une fourche de métal à trois dents fixée sur un manche de 2,40 mètres. On la manie essentiellement comme un bâton, le porteur saisissant le manche par le milieu et frappant avec l’extrémité fourchue. 
 
@@ -503,65 +527,63 @@ La fourche du tigre peut servir à réceptionner une [[charge]].
 
 {s:Reference|Getsugasan}'''Getsugasan''' Cette arme d’hast est une arme double. L’une des extrémités est agrémentée d’un large lame tranchante ressemblant à une pelle, tandis que l’autre est agrémentée d’une lame en croissant de lune, comme des cornes de taureau. Le getsugasan inflige de nombreux types de dégâts qui dépendent de la façon dont on le manie, le côté pelle pouvant infliger des dégâts contondants et tranchants, le côté croissant de lune pouvant trancher et perforer.
 
+{s:Reference|Jitte}'''Jitte''' Cette arme semblable à un bâton est pourvue d’un crochet en métal que l’on peut utiliser pour bloquer l’arme d’un adversaire. Certaines variantes se terminent par une pointe ou une lame de métal tranchant.
+
+{s:Reference|Kama}'''Kama''' Semblable à la serpe (et, dans certaines régions, encore utilisé pour moissonner les céréales), le kama est une lame courte incurvée fixée sur une poignée simple, généralement en bois. On parle parfois de kaï. Les adeptes des arts martiaux l’utilisent fréquemment par paire.
+
+{s:Reference|Katana}'''Katana''' Spécifiquement fabriqué pour les samouraïs, le katana emploie plusieurs types d’acier combinés lors d’un processus de forge spécial. Il en résulte des épées renommées pour leur lame légèrement incurvée, fine et exceptionnellement tranchante, conçue pour porter des coups pleins de grâce capables de trancher la tête et les membres des adversaires. Quoique parfaitement équilibrées, ces lames sont difficiles à manier. Les personnages peuvent utiliser un katana à deux mains comme une arme de guerre mais ils doivent prendre le don [[Maniement dune arme exotique|Maniement des armes exotiques]] (katana) pour l’utiliser à une main.
+
+{s:Reference|Kérambit}'''Kérambit''' Cette petite dague incurvée est pourvue d’une boucle en métal à la base de sa poignée, ce qui permet de la stabiliser avec un doigt ou de la porter au bout d’une ficelle attachée dans les cheveux. Si elle est relativement petite, sa lame incurvée peut infliger de violentes blessures. Facile à dissimuler (le personnage gagne un bonus de +2 à ses tests d’[[Escamotage]] pour dissimuler un kérambit sur lui), elle constitue l’arme préférée des [[Ninja|ninjas]]
+et des [[assassin|assassins]].
+
+{s:APG}{s:Reference|Kusarigama}'''Kusarigama ou kama et chaîne''' Cette arme se présente sous la forme d’un kama ou d’une serpe tenue de la main non-directrice, fixé(e) par une fine chaîne de 3 mètres à un petit poids de métal. La serpe peut être utilisée pour effectuer des attaques de [[croc-en-jambe]], frapper et bloquer, tandis que la boule est projetée à grande vitesse sur l’adversaire ou utilisée pour bloquer l’épée ou la lance ennemie, ce qui permet au porteur d’ensuite attaquer avec la serpe.
+
+{s:APG}{s:Reference|Kyoketsushoge}'''Kyoketsu shoge''' Cette arme se compose d’une lame à double tranchant de 30 centimètres de long et d’une autre lame plus petite, qui part sur un côté en formant un crochet, comme un ergot de coq. La lame est reliée à un gros anneau de fer par une corde de 3 mètres. La lame peut être utilisée comme une arme de corps à corps secondaire ou jetée comme une dague, tandis que la corde et l’anneau peuvent être projetés sur des adversaires en tournoyant, comme des armes à allonge contondantes.
+
 {s:Reference|Lancecrochue}'''Lance crochue''' Cette arme d’hast effilée est équipée d’un crochet que l’on utilise pour accrocher les vêtements et l’armure des adversaires. La lance crochue, contrairement à la lance, ne peut pas être maniée à une main lorsqu’on est en selle et n’inflige pas de dégâts supplémentaires si elle est utilisée en selle.
+
+{s:Reference|Lunghuantamo}'''Lungchuan tamo''' Ce qui ressemble à un bâton ordinaire renferme une paire de dagues à fine lame assorties (des lames de jet parfaitement équilibrées).
+
+{s:Reference|Marteaumétéore}'''Marteau météore''' Cette arme se compose d’un ou de deux poids sphériques fixés à une chaîne de 3 mètres. On fait tournoyer les poids et on les enroule autour du corps de l’adversaire. Si le personnage réussit une tentative de [[croc-en-jambe]] avec un marteau météore, il peut [[entraîner]] sa cible vers lui de 1,5 mètre plutôt que de la faire tomber. Il peut utiliser cette arme de deux manières : en mode météore, il peut l’utiliser comme une arme double, tandis qu’en mode forteresse, il ne peut pas l’utiliser comme une arme double mais il gagne une [[allonge]] et un bonus de bouclier de +1 à la [[CA]]. Il faut dépenser une [[action libre]] décidée au début de son tour pour passer d’un mode à l’autre.
 
 {s:Reference|Naginata}'''Naginata''' La naginata est un bâton de 1,80 mètre de long auquel est fixée une lame d’épée, légèrement incurvée, de 60 centimètres. Le manche est prévu pour garder le porteur hors de portée des épées et des armes plus courtes.
 
 {s:Reference|Nodachi}'''Nodachi''' Cette arme très longue à deux mains est pourvue d’une lame mince mais acérée de 1,20 mètre. Elle est surtout utilisée par les troupes au sol pour attaquer les guerriers montés et elle peut être utilisée pour frapper les cavaliers sur leurs montures ou pour réceptionner une [[charge]].
 
-Sansetsukon
+{s:Reference|Nunchaku}'''Nunchaku''' Le nunchaku est fait de deux barres de bois ou de métal reliées par une courte chaîne ou corde.
+
+{s:AE}{s:Reference|Pinceaudefer}'''Pinceau de fer''' Il s’agit d’une variante à manche en fer du pinceau du savant, avec une poignée tranchante. Il n’inflige que peu de dégâts mais il se dissimule facilement (le personnage gagne un bonus de +2 à ses tests d’[[Escamotage]] pour cacher un pinceau de fer sur lui) et peut être lancé sur de courtes distances ou utilisé pour porter des coups sur des réseaux de nerfs clés et des points d’acupuncture, provoquant des effets étonnamment dévastateurs.
+
+{s:AE}{s:Reference|Sableempoisonné}'''Sable empoisonné''' Ce tube ressemble à un mince étui de parchemin fait de bambou ou de métal. Il est rempli de sable fin imprégné ou enduit de poison de contact ou à inhaler. Lorsque le tube est chargé de trois doses de poison, le personnage peut souffler dedans pour disperser le sable empoisonné au visage de ses ennemis sur un cône de 4,5 mètres de long. Chaque créature présente dans le cône est affectée comme si elle avait reçu une dose du poison. Même quand le sable n’est pas empoisonné, c’est un puissant irritant et un adversaire touché doit réussir un jet de [[Vigueur]] de [[DD]] 12 ou être [[ébloui]] pendant 1 [[round]]. Une fois vidé, le tube doit être rechargé avant d’être réutilisé. Le rechargement d’un tube nécessite une [[action complexe]] ou une [[action simple]] si le personnage a le don [[Rechargement rapide]].
+
+{s:AE}{s:Reference|Sabreenergotdepoulet}'''Sabre en ergot de poulet''' Le bout de cette épée de 90 centimètres de long à lame droite est recourbé en deux éperons tranchants opposés et décalés qui servent à arracher les armes des mains d’un adversaire.
+
+{s:AE}{s:Reference|Sansetsukon}'''Sansetsukon''' Aussi appelée bâton en trois parties, cette arme est divisée en trois segments de 60 centimètres reliés par une petite chaîne, ce qui donne une plus grande souplesse au porteur qu’un bâton normal et lui permet de l’agiter rapidement pour créer un blocage défensif, l’enrouler autour des armes et les saisir ou pour exploiter son élan via un mouvement de tourbillon afin de porter des coups puissants.
+
+{s:AE}{s:Reference|Shanggou}'''Shang gou''' Forgées par paires, ces solides lames en métal se terminent sur des crochets incurvés, tandis que leur garde est surmontée d’un croissant dont les pointes sont dirigées vers l’extérieur. La lame en croissant de lune et la pointe sont toutes aiguisées pour le combat. Le shang gou se manie individuellement ou par paire.
+
+Ces armes gagnent la propriété spéciale de désarmement lorsqu’elles sont maniées individuellement. Le personnage peut aussi assembler une paire de shang gou pour former une seule arme à une main et gagner la propriété spéciale de croc-en-jambe.
+
+{s:AE}{s:Reference|Sheng biao}'''Sheng biao''' Cette arme, apparemment complexe, n’est en fait rien de plus qu’une corde de 6 mètres attachée à une pointe conique en métal de 15 centimètres. Comme le marteau météore, on peut la faire tournoyer très vite puis la lancer sur des adversaires pour les perforer avec une grande allonge. Une fois qu’il a frappé, le personnage peut rapidement récupérer son arme en tirant sur la corde par une [[action libre]].
+
+{s:AE}{s:Reference|Sibat}'''Sibat''' Cette arme est semblable à l’épieu, avec un manche en bambou ou en rotin souple et une pointe dotée de barbillons. Ces derniers peuvent se ficher dans la chair, les vêtements ou l’armure de l’ennemi pour gêner ses mouvements.
+
+{s:AE}{s:Reference|Tekkokagi}'''Tekko-kagi''' Aussi appelé griffe de fer, cet outil se compose de trois lames ou plus de 30 centimètres, disposées en éventail et fixées sur une solide poignée enfilée sur l’avant-bras de la main non-directrice. On peut l’utiliser comme une arme offensive ou défensive, comme une targe, ou pour désarmer un adversaire sans provoquer d’[[attaque dopportunité|attaque d’opportunité]]. Il fournit au porteur un bonus de circonstances de +2 aux tentatives de [[désarmement]] ou de [[destruction]] des épées ou autres armes à lame mince.
+
+{s:AE}{s:Reference|Tetsubo}'''Tetsubo''' Cette arme légèrement améliorée par rapport à la massue se compose d’un long bâton mince en bois ou en métal dont la moitié supérieure est habillée d’un épais revêtement de fer clouté. Le fer donne plus de poids et de force au gourdin, tandis que les clous sont prévus pour fendre les casques et les armures.
 
 {s:Reference|Tubeàflèches}{s:Reference|Lanceflèche}'''Tube à flèches ou lance flèche''' Cette arme est un petit tube en métal caché dans un étui. Le tube contient un petit manche en bambou à ressort. Le personnage bénéficie d’un bonus de +2 aux tests d’[[Escamotage]] pour dissimuler un lance-flèche sur lui. Lorsqu’on relâche la détente, le ressort projette la flèche. Une fois que la flèche a été tirée, il faut recharger le tube avant de s’en servir de nouveau. Le rechargement du tube prend une [[action complexe]] ou une [[action simple]] si le porteur a le don [[Rechargement rapide]].
 
+:{s:Reference|Flèchesenbambou}'''Flèches en bambou''' Ces flèches de 30 centimètres de long sont utilisées comme munitions pour les tubes à flèche. En tant qu’armes de corps à corps improvisées, elles infligent des dégâts équivalents à ceux d’un gantelet clouté. Elles sont livrées dans un tube de bambou en contenant 10.
 
-{s:Reference|Flèchesenbambou}:'''Flèches en bambou''' Ces flèches de 30 centimètres de long sont utilisées comme munitions pour les tubes à flèche. En tant qu’armes de corps à corps improvisées, elles infligent des dégâts équivalents à ceux d’un gantelet clouté. Elles sont livrées dans un tube de bambou en contenant 10.
+{s:AE}{s:Reference|Urumi}'''Urumi''' Surtout connue comme l’épée-fouet, cette arme mortelle se compose d’une à quatre lames aiguisées de 1,50 mètre de long en acier flexible, presque comme un chat à neuf queues. On la manie en fouettant l’adversaire avec les lames. La lame enroulée est suffisamment souple et solide pour être portée comme une ceinture et le porteur la porte souvent ainsi enroulée autour de lui.
+
+{s:AE}{s:Reference|Wakizashi}'''Wakizashi''' Cette lame courte et mince mesure entre 30 et 60 centimètres de long. Elle est essentiellement utilisée comme arme de soutien, pour décapiter les ennemis vaincus ou pour faire seppuku (suicide rituel) au nom de l’honneur. Ces lames sont spécifiquement portées par les samouraïs et s’utilisent en principe avec un katana. Ensemble, ces lames forment un daisho.
 
 Étui en bambou
 
 Flèches de longue distance à tête de fer
-
-{s:Reference|Flèchessifflantes}'''Flèches sifflantes''' Ces flèches sont pourvues de rainures et d’un empennage spécial qui leur fait émettre un son puissant et aigu audible dans un rayon de 150 mètres autour de leur trajectoire de vol. Elles sont vendues par 20.
-
-Sable empoisonné
-
-{s:Reference|Danbong}'''Dan bong''' Ces courts bâtons arrondis se tiennent en main pour améliorer les techniques de combat à mains nues et sont munis d’une corde enroulée autour du pouce. Ils permettent à leur porteur d’immobiliser un adversaire et de cibler les points de pression, ce qui se traduit par un bonus de +2 aux tests de manoeuvre offensive pour [[lutte|saisir un adversaire]].
-
-{s:Reference|Emeici}'''Emeici''' Cette arme est utilisée pour améliorer les techniques de combat à mains nues. Il s’agit d’une pique en acier de 20 à 25 centimètres de long à pointe double, montée sur des pivots et un anneau, de telle façon que le porteur peut la faire tournoyer à grande vitesse lorsqu’il la porte à son annulaire. L’anneau empêche le porteur d’être [[désarmement|désarmé]] et transforme les attaques à mains nues en attaques perforantes.
-
-{s:Reference|Éventaildecombat}'''Éventail de combat''' Fabriqué pour ressembler à un éventail de courtisane, cet objet se compose de papier de soie tendu et replié sur une armature pliante d’acier renforcé. On utilise généralement les éventails de combat par paires, avec une technique de distraction de l’adversaire. Ils arborent des pointes acérées qui peuvent être [[Poisons|empoisonnées]].
-
-Tekko-kagi ou griffe de fer
-Wakizashi
-
-{s:Reference|Fouet en neuf parties}'''Fouet en neuf parties''' Ce fouet en neuf parties se compose de barres en acier reliées. La dernière barre est une lourde pointe de 15 centimètres. On peut manier cette arme comme une arme à une main, une arme à deux mains ou par paire. Les fouets en neuf parties sont souvent dotés de foulards colorés fixés aux extrémités pour les contrôler plus facilement.
-
-{s:Reference|Katana}'''Katana''' Spécifiquement fabriqué pour les samouraïs, le katana emploie plusieurs types d’acier combinés lors d’un processus de forge spécial. Il en résulte des épées renommées pour leur lame légèrement incurvée, fine et exceptionnellement tranchante, conçue pour porter des coups pleins de grâce capables de trancher la tête et les membres des adversaires. Quoique parfaitement équilibrées, ces lames sont difficiles à manier. Les personnages peuvent utiliser un katana à deux mains comme une arme de guerre mais ils doivent prendre le don [[Maniement dune arme exotique|Maniement des armes exotiques]] (katana) pour l’utiliser à une main.
-
-Urumi
-
-{s:Reference|Bâtonauxdeuxkatanas}'''Bâton au deux katanas''' Ce simple étui unique renferme une paire d’épées de combat assorties, parfaitement équilibrées de manière à être maniées ensemble. Malgré leur nom, les lames ressemblent davantage au [[#wakizashi|wakizashi]], plus court. Lorsque les lames sont dissimulées dans leur étui, cette arme peut être utilisée comme un [[#Bâton|bâton]].
-
-{s:Reference|Bô}'''Bô''' Similaire au bâton, en plus fin et effilé à une extrémité, le bô est à la fois une arme et un instrument défensif.
-
-{s:Reference|Chaîneàdeuxkamas}'''Chaîne à deux kamas''' Cette arme se compose d’une paire de kamas reliés à une chaîne de 2,40 mètres. Le porteur peut attaquer comme s’il était armé d’un seul kama dans chaque main ou tendre la chaîne pour porter une seule attaque d’allonge. En balançant la chaîne, le porteur peut lancer un kama pour [[désarmement|désarmer]] ou faire un [[croc-en-jambe]] à ses adversaires. De plus, si le porteur lâche l’une des deux armes, il peut la récupérer par une [[action libre]] en tirant sur la chaîne.
-
-{s:Reference|Épéeàseptbranches}'''Épée à sept branches''' Cette curieuse épée est pourvue d’une lame de 60 centimètres avec six lames plus courtes, en L, placées en quinconce de chaque côté. Les lames courtes peuvent servir à happer les vêtements ou l’armure des adversaires, comme à coincer les armes afin de les arracher à l’ennemi. Pour happer les vêtements ou l’armure, l’attaquant doit faire une manoeuvre offensive de [[croc-en-jambe]]. S’il réussit, la victime ne tombe pas à terre mais reste accrochée et trébuche vers l’avant, ce qui la laisse [[pris au dépourvu|prise au dépourvu]] pour le reste du round.
-
-{s:APG}{s:Reference|Epéedutemple}'''Épée du temple''' Lame lourde généralement utilisée par les gardiens de sites religieux, l’épée du temple a une lame distinctive en forme de croissant de lune qui apparaît comme un amalgame entre la serpe et l’épée. De nombreux trous sont percés dans la lame ou dans le pommeau de manière à y attacher des charmes, des clochettes ou d’autres objets sacrés, pour témoigner de la dévotion du porteur ou pour servir de focalisateur pour la prière ou la méditation.
-
-Les [[Moine|moines]] sont formés au maniement de l’épée du temple.
-
-{s:APG}{s:Reference|Kusarigama}'''Kusarigama ou kama et chaîne''' Cette arme se présente sous la forme d’un kama ou d’une serpe tenue de la main non-directrice, fixé(e) par une fine chaîne de 3 mètres à un petit poids de métal. La serpe peut être utilisée pour effectuer des attaques de [[croc-en-jambe]], frapper et bloquer, tandis que la boule est projetée à grande vitesse sur l’adversaire ou utilisée pour bloquer l’épée ou la lance ennemie, ce qui permet au porteur d’ensuite attaquer avec la serpe.
-
-{s:APG}{s:Reference|Kusarigama}'''Kyoketsu shoge''' Cette arme se compose d’une lame à double tranchant de 30 centimètres de long et d’une autre lame plus petite, qui part sur un côté en formant un crochet, comme un ergot de coq. La lame est reliée à un gros anneau de fer par une corde de 3 mètres. La lame peut être utilisée comme une arme de corps à corps secondaire ou jetée comme une dague, tandis que la corde et l’anneau peuvent être projetés sur des adversaires en tournoyant, comme des armes à allonge contondantes.
-
-{s:Reference|Marteaumétéore}'''Marteau météore''' Cette arme se compose d’un ou de deux poids sphériques fixés à une chaîne de 3 mètres. On fait tournoyer les poids et on les enroule autour du corps de l’adversaire. Si le personnage réussit une tentative de [[croc-en-jambe]] avec un marteau météore, il peut [[entraîner]] sa cible vers lui de 1,5 mètre plutôt que de la faire tomber. Il peut utiliser cette arme de deux manières : en mode météore, il peut l’utiliser comme une arme double, tandis qu’en mode forteresse, il ne peut pas l’utiliser comme une arme double mais il gagne une [[allonge]] et un bonus de bouclier de +1 à la [[CA]]. Il faut dépenser une [[action libre]] décidée au début de son tour pour passer d’un mode à l’autre.
-
-Tetsubo
-Sheng biao
-
 </div>
-
 
 ==Armes de spectacle==
 <div class="article_2col">
@@ -594,9 +616,8 @@ Il n’est pas possible de désarmer un personnage équipé d’un ceste.
 Le crochet et la chaîne peuvent être utilisés pour faire des attaques de [[croc-en-jambe]]. Si le personnage rate son attaque de croc-en-jambe de 10 ou plus, il peut laisser tomber sa lance à chaîne pour éviter de se retrouver à terre.
 
 {s:APG}{s:Reference|Madu}'''Madu''' Le madu est une rondache ronde en cuir avec deux cornes d’animal (généralement des cornes d’antilope) s’étirant sur deux côtés opposés. Si le personnage est formé au maniement du madu, il peut l’utiliser pour le combat défensif avec un malus de -2 au lieu du malus normal de -4 et son malus d’attaque pour l’[[Expertise du combat]] est réduit de 1 (malus minimum de -1). Il ne peut pas tenir quoi que ce soit d’autre dans la main qui tient le madu. S’il n’est pas formé au maniement du madu, il le traite comme une rondache à pointes. Il est impossible de [[désarmer]] quelqu’un qui tient un madu. Le madu peut être fabriqué entièrement en métal mais les deux variantes offrent la même protection de base et les mêmes avantages à l’attaque, même si elles répondent différemment à certains sorts et effets. Le druide peut utiliser un madu en cuir, pas un madu en acier.
-
-
 </div>
+
 ==Armes raciales==
 Certaines races peuvent également disposer d'armes qui leur sont propres.
 
