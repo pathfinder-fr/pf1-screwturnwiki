@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Descriptions individuelles des propriétés spéciales des armures et des boucliers
 Title: Descriptions des propriétés spéciales des armures et des boucliers
-LastModified: 2020-04-11 19:36
+LastModified: 2020-05-01 19:38
 Categories:
   - 'Armes et équipement'
   - 'Armure magique'
@@ -353,16 +353,6 @@ L’armure ''sans trace'' allège le pas du personnage et camoufle ses apparitio
 [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[passage sans trace]]'' ; '''Prix''' : 3.750 po
 </div>
 
-{s:Reference|Soutien}
-<div class="BD">
-{s:BDTitre|Soutien|{s:AE}}
-'''Auras''' : [[Enchantement]] faible ; '''NLS''' : 5 ; '''Prix''' : 2.000 po
-(((Caractéristiques)))
-Cette armure est conçue pour les individus qui aident et protègent leurs alliés. Une armure de ''soutien'' est généralement décorée de motifs de prospérité, d’abondance et de générosité, tels que des mains tendues, des cornes d’abondance et des plantes bourgeonnantes. Lorsque le porteur d’une armure de ''soutien'' utilise l’action [[actions spéciales#AIDERQQN|aider autrui]] pour qu’un allié bénéficie d’un bonus à la [[CA]] contre la prochaine attaque d’un adversaire, il ajoute également le bonus d’altération de son armure de ''soutien'' à la [[CA]] de cet allié.
-(((Création)))
-[[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[aide]]'' ; '''Prix''' : 1.000 po
-</div>
-
 {s:Reference|Souffle draconique}
 <div class="BD">
 {s:BDTitre|Souffle draconique|{s:AE}}
@@ -578,16 +568,6 @@ Un bouclier de ''protection'' permet au porteur de transférer une partie ou l�
 [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[protection dautrui|protection d'autrui]]'' ; '''Prix''' : Bonus de +1.
 </div>
 
-{s:Reference|Pugilat}
-<div class="BD">
-{s:BDTitre|Pugilat|{s:AE}}
-'''Auras''' : [[Transmutation]] faible ; '''NLS''' : 5 ; '''Prix''' : Bonus de +1
-(((Caractéristiques)))
-Le porteur d’une armure de ''pugilat'' bénéficie d’un bonus de +2 aux [[jet dattaque|jets d’attaque]] et [[valeurs de combat#DEGATS|de dégâts]] à mains nues, ainsi qu’aux tests de [[lutte]]. Ses coups à mains nues sont considérés comme des armes magiques en ce qui concerne la règle de [[RD|réduction de dégâts]]. Ces bonus ne s’appliquent pas aux armes naturelles. Même avec cette propriété spéciale, les attaques à mains nues du porteur continuent de provoquer des [[attaque dopportunité|attaques d’opportunité]] et ne sont pas considérées comme des attaques réalisées à l’aide d’une arme. La propriété de ''pugilat'' s’applique uniquement aux armures légères.
-(((Création)))
-[[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[force de taureau]]'' ; '''Prix''' : Bonus de +1
-</div>
-
 {s:Reference|Renforcement}
 <div class="BD">
 {s:BDTitre|Renforcement|{s:AE}}
@@ -628,12 +608,22 @@ Une armure ou un bouclier doté de cette propriété spéciale est particulière
 [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[fabrication]]'', ''[[réparation intégrale]]'' ; '''Prix''' : Bonus de +1
 </div>
 
+{s:Reference|Soutien}
+<div class="BD">
+{s:BDTitre|Soutien|{s:AE}}
+'''Auras''' : [[Enchantement]] faible ; '''NLS''' : 5 ; '''Prix''' : Bonus de +1
+(((Caractéristiques)))
+Cette armure est conçue pour les individus qui aident et protègent leurs alliés. Une armure de ''soutien'' est généralement décorée de motifs de prospérité, d’abondance et de générosité, tels que des mains tendues, des cornes d’abondance et des plantes bourgeonnantes. Lorsque le porteur d’une armure de ''soutien'' utilise l’action [[actions spéciales#AIDERQQN|aider autrui]] pour qu’un allié bénéficie d’un bonus à la [[CA]] contre la prochaine attaque d’un adversaire, il ajoute également le bonus d’altération de son armure de ''soutien'' à la [[CA]] de cet allié.
+(((Création)))
+[[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[aide]]'' ; '''Prix''' : 1.000 po
+</div>
+
 {s:Reference|Stockage de sort}
 <div class="BD">
 {s:BDTitre|Stockage de sort|{s:AE}}
 '''Auras''' : [[Évocation]] puissante ; '''NLS''' : 12 ; '''Prix''' : Bonus de +1
 (((Caractéristiques)))
-Un lanceur de sorts peut placer un unique sort de contact du 3ème niveau ou moins dans une armure de ''stockage de sort''. Dès qu’une créature touche le porteur à l’aide d’une attaque de corps à corps ou de contact, l’armure peut, si son porteur le souhaite, lancer le sort sur cet adversaire par une [[action rapide]]. Une fois le sort lancé, l’armure est vide et le lanceur de sorts doit la recharger. L’armure indique par magie à son porteur l’identité du sort qu’elle stocke. Si l’armure est déterminée de façon aléatoire, elle a 50 % de chances de posséder un sort en réserve quand le personnage la trouve. Une armure de ''stockage de sort'' émet une aura d’[[évocation]], en plus de l’aura du sort stocké.
+Un lanceur de sorts peut placer un unique sort de contact du 3ème niveau ou moins dans une armure de ''stockage de sort''. Dès qu’une créature touche le porteur à l’aide d’une attaque de corps à corps ou de contact, l’armure peut, si son porteur le souhaite, lancer le sort sur cet adversaire par une [[action immédiate]]. Une fois le sort lancé, l’armure est vide et le lanceur de sorts doit la recharger. L’armure indique par magie à son porteur l’identité du sort qu’elle stocke. Si l’armure est déterminée de façon aléatoire, elle a 50 % de chances de posséder un sort en réserve quand le personnage la trouve. Une armure de ''stockage de sort'' émet une aura d’[[évocation]], en plus de l’aura du sort stocké.
 (((Création)))
 [[Création darmes et armures magiques|Création d’armes et armures magiques]], le créateur doit être un lanceur de sorts de niveau 12 au moins ; '''Prix''' : Bonus de +1
 </div>
@@ -758,6 +748,16 @@ L’armure de ''perception'' compense les handicaps du porteur quand celui-ci es
 </div>
 </td>
 <td>
+{s:Reference|Pugilat}
+<div class="BD">
+{s:BDTitre|Pugilat|{s:AE}}
+'''Auras''' : [[Transmutation]] faible ; '''NLS''' : 5 ; '''Prix''' : Bonus de +3
+(((Caractéristiques)))
+Le porteur d’une armure de ''pugilat'' bénéficie d’un bonus de +2 aux [[jet dattaque|jets d’attaque]] et [[valeurs de combat#DEGATS|de dégâts]] à mains nues, ainsi qu’aux tests de [[lutte]]. Ses coups à mains nues sont considérés comme des armes magiques en ce qui concerne la règle de [[RD|réduction de dégâts]]. Ces bonus ne s’appliquent pas aux armes naturelles. Même avec cette propriété spéciale, les attaques à mains nues du porteur continuent de provoquer des [[attaque dopportunité|attaques d’opportunité]] et ne sont pas considérées comme des attaques réalisées à l’aide d’une arme. La propriété de ''pugilat'' s’applique uniquement aux armures légères.
+(((Création)))
+[[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[force de taureau]]'' ; '''Prix''' : Bonus de +1
+</div>
+
 {s:Reference|Résistance à la magie (15)}
 <div class="BD">
 {s:BDTitre|Résistance à la magie (15)|{s:AE}}
