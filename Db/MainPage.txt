@@ -1,7 +1,7 @@
 ---
 Name: Db.MainPage
 Title: Mise à disposition des données du site
-LastModified: 2017-10-12 10:53
+LastModified: 2020-05-05 14:25
 ---
 Dans un but d'ouverture communautaire, Pathfinder-fr met à disposition les données extraites du wiki des règles Pathfinder dans des formats adaptés à la réutilisation.
 
@@ -11,13 +11,21 @@ Pour tout commentaire ou discussion, je vous invite à vous rendre sur [[http://
 
 {TOC}
 
-Il existe deux grands formats pour ces données :
+Il existe trois grands formats pour ces données :
+# Un export brut des pages du wiki.
 # Un format brut XML des pages du wiki.
 # Un format travaillé et normé (xml et csv) basé une analyse des données brutes XML.
 
-Elles sont mise à jour de manière hebdomadaire chaque dimanche soir, à l'aide de deux outils (WikiXmlExport et WikiExportParser).
+Elles sont mise à jour de manière hebdomadaire chaque dimanche soir, à l'aide de trois outils (MigratorWiki, WikiXmlExport et WikiExportParser).
 
 [image||{UP(Db.MainPage)}WikiDbWorkflow.png]
+
+===Wiki au format brut===
+Les pages du wiki sont tout d'abord extraites au format Wiki, brut, avec un fichier par page, dans un repository Git : [[https://gitlab.com/pathfinder-fr/pf1-screwturnwiki]].
+
+Ce format d'export est à privilégier, il vous permet simplement d'avoir une copie locale des fichiers du wiki, en utilisant Git, qui sera simple de synchroniser avec les mises à jour publiées.
+
+Les formats qui suivent seront remplacés et/ou supprimés.
 
 ===Wiki au format HTML===
 Les pages du wiki sont aussi extraites au format HTML dans deux formats.
@@ -26,6 +34,8 @@ Ces fichiers sont à l'attention de ceux qui souhaitent avoir le wiki dans un fo
 Un premier format pour [[http://regles-pathfinder.fr/|le DRP Français]] avec les CSS corrects : [[http://db.pathfinder-fr.org/raw/Static.7z|Static.7z]]
 
 Un second format brut HTML sans aucune transformation : [[http://db.pathfinder-fr.org/raw/RawHtml.7z|RawHtml.7z]].
+
+'''Ce format sera à terme abandonné et ne devrait plus être utilisé.'''
 
 ===Wiki au format brut XML===
 Les données au format brut correspondent à l'ensemble des pages du wiki Pathfinder-RPG enregistrées au format XML.
@@ -51,6 +61,8 @@ Chaque page est représenté par un élément xml {{wikiPage}}, contenant plusie
 La génération du contenu body au format HTML est légèrement différente de la méthode utilisée sur le site : certains snippets sont ignorés et les liens sont remplacés par le nom de la page au format standardisé, avec une extension .html.
 
 '''[[http://db.pathfinder-fr.org/raw/WikiXml.7z|Télécharger la dernière archive WikiXml.7z]].'''
+
+'''Ce format sera à terme abandonné, vous êtes invité à privilégier l'export GIT mentionné au-dessus.'''
 
 ===Base de données Wiki===
 La base de données OGL se base sur une analyse du wiki brut XML pour extraire certaines données dans un format normé.
