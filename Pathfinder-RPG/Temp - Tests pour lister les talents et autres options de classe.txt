@@ -1,206 +1,148 @@
 ---
 Name: Pathfinder-RPG.Temp - Tests pour lister les talents et autres options de classe
 Title: Temp - Tests pour lister les talents et autres options de classe
-LastModified: 2020-05-11 02:55
+LastModified: 2020-05-13 15:00
 ---
 Petite page temporaire pour tester des formats de tableau, dans le but d'homogénéiser les listes de talents et autres options de classes, et faciliter l'intégration de nouveau contenu à ceux-ci.
 
 Imaginer que "Exploit" peut être le nom de n'importe quelle option de classe, et que les "Niveaux" peuvent être des options à puissance grandissante (exemple: Maléfices, Maléfices majeurs, Grand maléfices pour la sorcière)
 
-{| CLASS="tablo toutgauche centre autoalt" WIDTH="60%"
-|+ Exploits de pistolier
+{| CLASS="tablo toutgauche centre autoalt" WIDTH="80%"
+|+ Pouvoirs de rage du barbare 
 |- CLASS="titre"
-| Niveau
-| CLASS="centre" | Exploits
-
+| Niveau<br>minimal
+| COLSPAN="4" | Pouvoirs
 |- CLASS="premier"
-| '''1''' || [[exploits#BOUTPORTANT|Bout portant]] | [[exploits#ESQUIVEDUPISTOLIER|Esquive du pistolier]] | [[exploits#NETTOYAGERAPIDE|Nettoyage rapide]]
+| '''1''' || [[pouvoirs de rage#ANIMALTOTEMMINEUR|Animal totem mineur]] || [[pouvoirs de rage#AVANCEDOMINATRICE|Avance dominatrice]]  || [[pouvoirs de rage#BAGARREUR|Bagarreur]]  || [[pouvoirs de rage#BAGARREURMAJEUR|Bagarreur majeur]]
 |-
-| '''3''' || [[exploits#COUPDECROSSE|Coup de crosse]] | [[exploits#INITIATIVEDUPISTOLIER|Initiative du pistolier]] | [[exploits#TIRUTILITAIRE|Tir utilitaire]]
+| &emsp; || [[pouvoirs de rage#BONPOURCEQUETUAS|Bon pour ce que tu as]] || [[pouvoirs de rage#BUVEURPRODIGIEUX|Buveur prodigieux]] || [[pouvoirs de rage#CHASSEURDESORCIERE|Chasseur de sorcière]] || [[pouvoirs de rage#COLEREAUTOSUGGEREE|Colère autosuggérée]]
 |-
-| '''7''' || [[exploits#CIBLER|Cibler]] | [[exploits#TIRDÉROUTANT|Tir déroutant]] | [[exploits#TIRMORTEL|Tir mortel]]
+| &emsp; || [[pouvoirs de rage#COUPPUISSANT|Coup puissant]] || [[pouvoirs de rage#COURAGELIQUIDE|Courage liquide]] || [[pouvoirs de rage#ESCALADEENRAGE|Escalade en rage]] || [[pouvoirs de rage#FEROCITEINSPIREE|Férocité inspirée]]
 |-
-| '''11''' || [[exploits#BLESSUREHÉMORRAGIQUE|Blessure hémorragique]] | [[exploits#EXPERTENRECHARGEMENT|Expert en rechargement]] | [[exploits#RECHARGEMENTÉCLAIR|Rechargement éclair]]
-|- 
-| '''15''' || [[exploits#CHANCEDUTIREUR|Chance du tireur]] | [[exploits#INSAISISSABLE|Insaisissable]] | [[exploits#TIRMENAÇANT|Tir menaçant]]
+| &emsp; || [[pouvoirs de rage#FRACASSEMENT|Fracassement]] || [[pouvoirs de rage#FUREURANIMALE|Fureur animale]] || [[pouvoirs de rage#IMPRUDENTEDESINVOLTURE|Imprudente désinvolture]] || [[pouvoirs de rage#IVRESSERUGISSANTE|Ivresse rugissante]]
 |-
-| '''19''' || [[exploits#FEINTERLAFAUCHEUSE|Feinter la faucheuse]] | [[exploits#TIRÉTOURDISSANT|Tir étourdissant]] | [[exploits#TIRFATAL|Tir Fatal]]
+| &emsp; || [[pouvoirs de rage#LUCIDITEPARFAITE|Lucidité parfaite]] || [[pouvoirs de rage#MARQUEPROMETTEUSE|Marque prometteuse]] || [[pouvoirs de rage#MOMENTDELUCIDITE|Moment de lucidité]] || [[pouvoirs de rage#MONTUREFEROCE|Monture Féroce]]
+|-
+| &emsp; || [[pouvoirs de rage#NAGEENRAGE|Nage en rage]] || [[pouvoirs de rage#ODORAT|Odorat]] || [[pouvoirs de rage#PASRAPIDES|Pas rapides]] || [[pouvoirs de rage#PERCUSSION|Percussion]]
+|-
+| &emsp; || [[pouvoirs de rage#PICDEFORCE|Pic de force]] || [[pouvoirs de rage#POSTUREDEFENSIVE|Posture défensive]] || [[pouvoirs de rage#POURSUITE|Poursuite]] || [[pouvoirs de rage#PRECISIONETONNANTE|Précision étonnante]]
+|-
+| &emsp; || [[pouvoirs de rage#PROJECTILEMINEUR|Projectile mineur]] || [[pouvoirs de rage#REFLEXESRAPIDES|Réflexes rapides]] || [[pouvoirs de rage#REGARDINTIMIDANT|Regard intimidant]] || [[pouvoirs de rage#REPOUSSERLENNEMI|Repousser l'ennemi]]
+|-
+| &emsp; || [[pouvoirs de rage#RESISTANCEALENERGIE|Résistance à l'énergie]] || [[pouvoirs de rage#ROULEBOULE|Roulé-boulé]] || [[pouvoirs de rage#SAUTENRAGE|Saut en rage]] || [[pouvoirs de rage#SUPERSTITION|Superstition]]
+|-
+| &emsp; || [[pouvoirs de rage#TOTEMDUCHAOSMINEUR|Totem du chaos mineur]] || [[pouvoirs de rage#TOTEMDUSERPENTMONDE|Totem du serpent-monde]] || [[pouvoirs de rage#TOTEMFIELONMINEUR|Totem fiélon mineur]] || [[pouvoirs de rage#TOTEMSPIRITUELINFERIEUR|Totem spirituel inférieur]]
+|-
+| &emsp; || [[pouvoirs de rage#VIEPRESERVEE|Vie préservée]] || [[pouvoirs de rage#VISIONDANSLANUIT|Vision dans la nuit]] || [[pouvoirs de rage#VISIONDANSLENOIR|Vision dans le noir]] || &emsp;
+|- CLASS="premier"
+| '''4''' || [[pouvoirs de rage#NOUVELLEVIGUEUR|Nouvelle vigueur]] || [[pouvoirs de rage#PRECISIONMORTELLE|Précision mortelle]] || [[pouvoirs de rage#RAGEELEMENTAIREMINEURE|Rage élémentaire mineure]] || [[pouvoirs de rage#SPRINT|Sprint]]
+|-
+| &emsp; || [[pouvoirs de rage#TOTEMDELARUCHE|Totem de la ruche]] || [[pouvoirs de rage#VITALITERENOUVELEE|Vitalité renouvelée]] || &emsp; || &emsp;
+|- CLASS="premier"
+| '''6''' || [[pouvoirs de rage#ANIMALTOTEM|Animal totem]] || [[pouvoirs de rage#ATTAQUEDOMINATRICE|Attaque dominatrice]] || [[pouvoirs de rage#BRISEROC|Brise roc]] || [[pouvoirs de rage#ESPRITDUSERPENTMONDE|Esprit du serpent-monde]]
+|-
+| &emsp; || [[pouvoirs de rage#ESQUIVEREFLEXE|Esquive Réflexe]] || [[pouvoirs de rage#GRIMPEURBESTIAL|Grimpeur bestial]] || [[pouvoirs de rage#MONTURESPIRITUELLE|Monture spirituelle]] || [[pouvoirs de rage#NAGEURBESTIAL|Nageur bestial]]
+|-
+| &emsp; || [[pouvoirs de rage#PROJECTILEENCHARGE|Projectile en charge]] || [[pouvoirs de rage#RAGEFANTOME|Rage fantôme]] || [[pouvoirs de rage#RESILIENCETOTEMIQUEDELARUCHE|Résilience totémique de la ruche]] || [[pouvoirs de rage#SAUTEURBESTIAL|Sauteur bestial]]
+|-
+| &emsp; || [[pouvoirs de rage#TOTEMDRACONIQUE|Totem draconique]] || [[pouvoirs de rage#TOTEMDUCHAOS|Totem du chaos]] || [[pouvoirs de rage#TOTEMFIELON|Totem fiélon]] || [[pouvoirs de rage#TOTEMSPIRITUEL|Totem spirituel]]
+|-
+| &emsp; || [[pouvoirs de rage#VANTARDISE|Vantardise]] || [[pouvoirs de rage#VIEPRESERVEESUPERIEURE|Vie préservée supérieure]] || [[pouvoirs de rage#VIERENOUVELEE|Vie renouvelée]] || [[pouvoirs de rage#VIGUEURREGENERATRICE|Vigueur régénératrice]]
+|- CLASS="premier"
+| '''8''' || [[pouvoirs de rage#BRISEROCSUPERIEUR|Brise roc supérieur]] || [[pouvoirs de rage#COUPHANDICAPANT|Coup handicapant]] || [[pouvoirs de rage#COUPHEMORRAGIQUE|Coup hémorragique]] || [[pouvoirs de rage#COUPINATTENDU|Coup inattendu]]
+|-
+| &emsp; || [[pouvoirs de rage#ESPRITVIDE|Esprit vide]] || [[pouvoirs de rage#HURLEMENTTERRIFIANT|Hurlement terrifiant]] || [[pouvoirs de rage#MONTUREFEROCEMAJEUR|Monture féroce majeur]] || [[pouvoirs de rage#ODORATPRIMITIF|Odorat primitif]]
+|-
+| &emsp; || [[pouvoirs de rage#PIETINEMENTFEROCE|Piétinement féroce]] || [[pouvoirs de rage#POUVOIRDERAGEPERTURBATEUR|Perturbateur]] || [[pouvoirs de rage#PRECISIONAFFINEE|Précision affinée]] || [[pouvoirs de rage#PROJECTILE|Projectile]]
+|-
+| &emsp; || [[pouvoirs de rage#RAGEELEMENTAIRE|Rage élémentaire]] || [[pouvoirs de rage#REDUCTIONDEDEGATSACCRUE|Réduction de dégâts accrue]] || [[pouvoirs de rage#RESILIENCETOTEMIQUEDRACONIQUE|Résilience totémique draconique]] || [[pouvoirs de rage#RESISTANCEALENERGIEMAJEUR|Résistance à l'énergie majeur]]
+|-
+| &emsp; || [[pouvoirs de rage#TOXICITEDELARUCHE|Toxicité de la ruche]] || [[pouvoirs de rage#VIGUEURINTERNE|Vigueur interne]] || &emsp; || &emsp;
+|- CLASS="premier"
+| '''10''' || [[pouvoirs de rage#AILESTOTEMIQUESDRACONIQUES|Ailes totémiques draconiques]] || [[pouvoirs de rage#ANIMALTOTEMMAJEUR|Animal totem majeur]] || [[pouvoirs de rage#DESTRUCTIONDENCHANTEMENT|Destruction d’enchantement]] || [[pouvoirs de rage#DEVOREURDEMAGIE|Dévoreur de magie]]
+|-
+| &emsp; || [[pouvoirs de rage#EGRATIGNURE|Égratignure]] || [[pouvoirs de rage#MASSUEVIVANTE|Massue vivante]] || [[pouvoirs de rage#TOTEMDUCHAOSMAJEUR|Totem du chaos majeur]] || [[pouvoirs de rage#TOTEMFIELONMAJEUR|Totem fiélon majeur]]
+|-
+| &emsp; || [[pouvoirs de rage#TOTEMSPIRITUELSUPERIEUR|Totem spirituel supérieur]] || [[pouvoirs de rage#UNITEDUSERPENTMONDE|Unité du serpent-monde]] || &emsp; || &emsp;
+|- CLASS="premier"
+| '''12''' || [[pouvoirs de rage#ABSORPTIONENERGIE|Absorption d'énergie]] || [[pouvoirs de rage#BRISEURDESORTS|Briseur de sorts]] || [[pouvoirs de rage#PIETINEMENTFEROCEMAJEUR|Piétinement féroce majeur]] || [[pouvoirs de rage#COUPREDOUTABLE|Coup redoutable]]
+|-
+| &emsp; || [[pouvoirs de rage#PRECISIONLETALE|Précision létale]] || [[pouvoirs de rage#VIENSMATTRAPER|Viens m'attraper]] || [[pouvoirs de rage#PROJECTILEMAJEUR|Projectile majeur]] || [[pouvoirs de rage#RAGEELEMENTAIREMAJEURE|Rage élémentaire majeure]]
+|-
+| &emsp; || [[pouvoirs de rage#RAGESANSPEUR|Rage sans peur]] || &emsp; || &emsp; || &emsp;
+|- CLASS="premier"
+| '''16''' || [[pouvoirs de rage#ERUPTIONDENERGIE|Éruption d'énergie]] || &emsp; || &emsp; || &emsp;
 |}
 
-{| CLASS="tablo toutgauche centre autoalt" WIDTH="60%"
-|+ Exploits de pistolier
-|- CLASS="titre"
-| Niveau
-| CLASS="centre" | Exploits
-
-|- CLASS="premier"
-| '''1''' || [[exploits#BOUTPORTANT|Bout portant]] • [[exploits#ESQUIVEDUPISTOLIER|Esquive du pistolier]] • [[exploits#NETTOYAGERAPIDE|Nettoyage rapide]]
-|-
-| '''3''' || [[exploits#COUPDECROSSE|Coup de crosse]] • [[exploits#INITIATIVEDUPISTOLIER|Initiative du pistolier]] • [[exploits#TIRUTILITAIRE|Tir utilitaire]]
-|-
-| '''7''' || [[exploits#CIBLER|Cibler]] • [[exploits#TIRDÉROUTANT|Tir déroutant]] • [[exploits#TIRMORTEL|Tir mortel]]
-|-
-| '''11''' || [[exploits#BLESSUREHÉMORRAGIQUE|Blessure hémorragique]] • [[exploits#EXPERTENRECHARGEMENT|Expert en rechargement]] • [[exploits#RECHARGEMENTÉCLAIR|Rechargement éclair]]
-|- 
-| '''15''' || [[exploits#CHANCEDUTIREUR|Chance du tireur]] • [[exploits#INSAISISSABLE|Insaisissable]] • [[exploits#TIRMENAÇANT|Tir menaçant]]
-|-
-| '''19''' || [[exploits#FEINTERLAFAUCHEUSE|Feinter la faucheuse]] • [[exploits#TIRÉTOURDISSANT|Tir étourdissant]] • [[exploits#TIRFATAL|Tir Fatal]]
-|}
-
-{| CLASS="tablo toutgauche centre autoalt" WIDTH="60%"
-|+ Exploits de pistolier
-|- CLASS="titre"
-| Niveau
-| CLASS="centre" | Exploits
-
-|- CLASS="premier"
-| '''1''' || [[exploits#BOUTPORTANT|Bout portant]] 𒑰 [[exploits#ESQUIVEDUPISTOLIER|Esquive du pistolier]] 𒑰 [[exploits#NETTOYAGERAPIDE|Nettoyage rapide]]
-|-
-| '''3''' || [[exploits#COUPDECROSSE|Coup de crosse]] 𒑰 [[exploits#INITIATIVEDUPISTOLIER|Initiative du pistolier]] 𒑰 [[exploits#TIRUTILITAIRE|Tir utilitaire]]
-|-
-| '''7''' || [[exploits#CIBLER|Cibler]] 𒑰 [[exploits#TIRDÉROUTANT|Tir déroutant]] 𒑰 [[exploits#TIRMORTEL|Tir mortel]]
-|-
-| '''11''' || [[exploits#BLESSUREHÉMORRAGIQUE|Blessure hémorragique]] 𒑰 [[exploits#EXPERTENRECHARGEMENT|Expert en rechargement]] 𒑰 [[exploits#RECHARGEMENTÉCLAIR|Rechargement éclair]]
-|- 
-| '''15''' || [[exploits#CHANCEDUTIREUR|Chance du tireur]] 𒑰 [[exploits#INSAISISSABLE|Insaisissable]] 𒑰 [[exploits#TIRMENAÇANT|Tir menaçant]]
-|-
-| '''19''' || [[exploits#FEINTERLAFAUCHEUSE|Feinter la faucheuse]] 𒑰 [[exploits#TIRÉTOURDISSANT|Tir étourdissant]] 𒑰 [[exploits#TIRFATAL|Tir Fatal]]
-|}
-
-{| CLASS="tablo toutgauche centre autoalt" WIDTH="60%"
-|+ Exploits de pistolier
-|- CLASS="titre"
-| Niveau
-| CLASS="centre" | Exploits
-
-|- CLASS="premier"
-| '''1''' || [[exploits#BOUTPORTANT|Bout portant]] — [[exploits#ESQUIVEDUPISTOLIER|Esquive du pistolier]] — [[exploits#NETTOYAGERAPIDE|Nettoyage rapide]]
-|-
-| '''3''' || [[exploits#COUPDECROSSE|Coup de crosse]] — [[exploits#INITIATIVEDUPISTOLIER|Initiative du pistolier]] — [[exploits#TIRUTILITAIRE|Tir utilitaire]]
-|-
-| '''7''' || [[exploits#CIBLER|Cibler]] — [[exploits#TIRDÉROUTANT|Tir déroutant]] — [[exploits#TIRMORTEL|Tir mortel]]
-|-
-| '''11''' || [[exploits#BLESSUREHÉMORRAGIQUE|Blessure hémorragique]] — [[exploits#EXPERTENRECHARGEMENT|Expert en rechargement]] — [[exploits#RECHARGEMENTÉCLAIR|Rechargement éclair]]
-|- 
-| '''15''' || [[exploits#CHANCEDUTIREUR|Chance du tireur]] — [[exploits#INSAISISSABLE|Insaisissable]] — [[exploits#TIRMENAÇANT|Tir menaçant]]
-|-
-| '''19''' || [[exploits#FEINTERLAFAUCHEUSE|Feinter la faucheuse]] — [[exploits#TIRÉTOURDISSANT|Tir étourdissant]] — [[exploits#TIRFATAL|Tir Fatal]]
-|}
-
-<table width="100%"><tr><td width="50%">
 {| CLASS="tablo toutgauche centre autoalt" WIDTH="94%"
-|+ Exploits de pistolier
+|+ Pouvoirs de rage du barbare 
 |- CLASS="titre"
-| CLASS="centre" | Exploits disponibles au niveau 1
+| Niveau<br>minimal
+| COLSPAN="4" | Pouvoirs
 |- CLASS="premier"
-| [[exploits#BOUTPORTANT|Bout portant]]
+| 1 || [[pouvoirs de rage#ANIMALTOTEMMINEUR|Animal totem mineur]] || [[pouvoirs de rage#FEROCITEINSPIREE|Férocité inspirée]] || [[pouvoirs de rage#PASRAPIDES|Pas rapides]] || [[pouvoirs de rage#ROULEBOULE|Roulé-boulé]]
 |-
-| [[exploits#ESQUIVEDUPISTOLIER|Esquive du pistolier]]
+| &emsp; || [[pouvoirs de rage#AVANCEDOMINATRICE|Avance dominatrice]] || [[pouvoirs de rage#FRACASSEMENT|Fracassement]] || [[pouvoirs de rage#PERCUSSION|Percussion]] || [[pouvoirs de rage#SAUTENRAGE|Saut en rage]]
 |-
-| [[exploits#NETTOYAGERAPIDE|Nettoyage rapide]]
-|- CLASS="titre"
-| &emsp;
-|- CLASS="titre"
-| CLASS="centre" | Exploits disponibles au niveau 3
+| &emsp; || [[pouvoirs de rage#BAGARREUR|Bagarreur]] || [[pouvoirs de rage#FUREURANIMALE|Fureur animale]] || [[pouvoirs de rage#PICDEFORCE|Pic de force]] || [[pouvoirs de rage#SUPERSTITION|Superstition]]
+|-
+| &emsp; || [[pouvoirs de rage#BAGARREURMAJEUR|Bagarreur majeur]] || [[pouvoirs de rage#IMPRUDENTEDESINVOLTURE|Imprudente désinvolture]] || [[pouvoirs de rage#POSTUREDEFENSIVE|Posture défensive]] || [[pouvoirs de rage#TOTEMDUCHAOSMINEUR|Totem du chaos mineur]]
+|-
+| &emsp; || [[pouvoirs de rage#BONPOURCEQUETUAS|Bon pour ce que tu as]] || [[pouvoirs de rage#IVRESSERUGISSANTE|Ivresse rugissante]] || [[pouvoirs de rage#POURSUITE|Poursuite]] || [[pouvoirs de rage#TOTEMDUSERPENTMONDE|Totem du serpent-monde]]
+|-
+| &emsp; || [[pouvoirs de rage#BUVEURPRODIGIEUX|Buveur prodigieux]] || [[pouvoirs de rage#LUCIDITEPARFAITE|Lucidité parfaite]] || [[pouvoirs de rage#PRECISIONETONNANTE|Précision étonnante]] || [[pouvoirs de rage#TOTEMFIELONMINEUR|Totem fiélon mineur]]
+|-
+| &emsp; || [[pouvoirs de rage#CHASSEURDESORCIERE|Chasseur de sorcière]] || [[pouvoirs de rage#MARQUEPROMETTEUSE|Marque prometteuse]] || [[pouvoirs de rage#PROJECTILEMINEUR|Projectile mineur]] || [[pouvoirs de rage#TOTEMSPIRITUELINFERIEUR|Totem spirituel inférieur]]
+|-
+| &emsp; || [[pouvoirs de rage#COLEREAUTOSUGGEREE|Colère autosuggérée]] || [[pouvoirs de rage#MOMENTDELUCIDITE|Moment de lucidité]] || [[pouvoirs de rage#REFLEXESRAPIDES|Réflexes rapides]] || [[pouvoirs de rage#VIEPRESERVEE|Vie préservée]]
+|-
+| &emsp; || [[pouvoirs de rage#COUPPUISSANT|Coup puissant]] || [[pouvoirs de rage#MONTUREFEROCE|Monture Féroce]] || [[pouvoirs de rage#REGARDINTIMIDANT|Regard intimidant]] || [[pouvoirs de rage#VISIONDANSLANUIT|Vision dans la nuit]]
+|-
+| &emsp; || [[pouvoirs de rage#COURAGELIQUIDE|Courage liquide]] || [[pouvoirs de rage#NAGEENRAGE|Nage en rage]] || [[pouvoirs de rage#REPOUSSERLENNEMI|Repousser l'ennemi]] || [[pouvoirs de rage#VISIONDANSLENOIR|Vision dans le noir]]
+|-
+| &emsp; || [[pouvoirs de rage#ESCALADEENRAGE|Escalade en rage]] || [[pouvoirs de rage#ODORAT|Odorat]] || [[pouvoirs de rage#RESISTANCEALENERGIE|Résistance à l'énergie]] || &emsp;
+|-
 |- CLASS="premier"
-| [[exploits#COUPDECROSSE|Coup de crosse]]
+| 4 || [[pouvoirs de rage#NOUVELLEVIGUEUR|Nouvelle vigueur]] || [[pouvoirs de rage#RAGEELEMENTAIREMINEURE|Rage élémentaire mineure]] || [[pouvoirs de rage#TOTEMDELARUCHE|Totem de la ruche]] || &emsp;
 |-
-| [[exploits#INITIATIVEDUPISTOLIER|Initiative du pistolier]]
+| &emsp; || [[pouvoirs de rage#PRECISIONMORTELLE|Précision mortelle]] || [[pouvoirs de rage#SPRINT|Sprint]] || [[pouvoirs de rage#VITALITERENOUVELEE|Vitalité renouvelée]] || &emsp;
 |-
-| [[exploits#TIRUTILITAIRE|Tir utilitaire]]
-|- CLASS="titre"
-| &emsp;
-|- CLASS="titre"
-| CLASS="centre" | Exploits disponibles au niveau 7
 |- CLASS="premier"
-| [[exploits#CIBLER|Cibler]]
+| 6 || [[pouvoirs de rage#ANIMALTOTEM|Animal totem]] || [[pouvoirs de rage#GRIMPEURBESTIAL|Grimpeur bestial]] || [[pouvoirs de rage#RESILIENCETOTEMIQUEDELARUCHE|Résilience totémique de la ruche]] || [[pouvoirs de rage#TOTEMSPIRITUEL|Totem spirituel]]
 |-
-| [[exploits#TIRDÉROUTANT|Tir déroutant]]
+| &emsp; || [[pouvoirs de rage#ATTAQUEDOMINATRICE|Attaque dominatrice]] || [[pouvoirs de rage#MONTURESPIRITUELLE|Monture spirituelle]] || [[pouvoirs de rage#SAUTEURBESTIAL|Sauteur bestial]] || [[pouvoirs de rage#VANTARDISE|Vantardise]]
 |-
-| [[exploits#TIRMORTEL|Tir mortel]]
+| &emsp; || [[pouvoirs de rage#BRISEROC|Brise roc]] || [[pouvoirs de rage#NAGEURBESTIAL|Nageur bestial]] || [[pouvoirs de rage#TOTEMDRACONIQUE|Totem draconique]] || [[pouvoirs de rage#VIEPRESERVEESUPERIEURE|Vie préservée supérieure]]
+|-
+| &emsp; || [[pouvoirs de rage#ESPRITDUSERPENTMONDE|Esprit du serpent-monde]] || [[pouvoirs de rage#PROJECTILEENCHARGE|Projectile en charge]] || [[pouvoirs de rage#TOTEMDUCHAOS|Totem du chaos]] || [[pouvoirs de rage#VIERENOUVELEE|Vie renouvelée]]
+|-
+| &emsp; || [[pouvoirs de rage#ESQUIVEREFLEXE|Esquive Réflexe]] || [[pouvoirs de rage#RAGEFANTOME|Rage fantôme]] || [[pouvoirs de rage#TOTEMFIELON|Totem fiélon]] || [[pouvoirs de rage#VIGUEURREGENERATRICE|Vigueur régénératrice]]
+|-
+|- CLASS="premier"
+| 8 || [[pouvoirs de rage#BRISEROCSUPERIEUR|Brise roc supérieur]] || [[pouvoirs de rage#HURLEMENTTERRIFIANT|Hurlement terrifiant]] || [[pouvoirs de rage#PRECISIONAFFINEE|Précision affinée]] || [[pouvoirs de rage#RESISTANCEALENERGIEMAJEUR|Résistance à l'énergie majeur]]
+|-
+| &emsp; || [[pouvoirs de rage#COUPHANDICAPANT|Coup handicapant]] || [[pouvoirs de rage#MONTUREFEROCEMAJEUR|Monture féroce majeur]] || [[pouvoirs de rage#PROJECTILE|Projectile]] || [[pouvoirs de rage#TOXICITEDELARUCHE|Toxicité de la ruche]]
+|-
+| &emsp; || [[pouvoirs de rage#COUPHEMORRAGIQUE|Coup hémorragique]] || [[pouvoirs de rage#ODORATPRIMITIF|Odorat primitif]] || [[pouvoirs de rage#RAGEELEMENTAIRE|Rage élémentaire]] || [[pouvoirs de rage#VIGUEURINTERNE|Vigueur interne]]
+|-
+| &emsp; || [[pouvoirs de rage#COUPINATTENDU|Coup inattendu]] || [[pouvoirs de rage#PIETINEMENTFEROCE|Piétinement féroce]] || [[pouvoirs de rage#REDUCTIONDEDEGATSACCRUE|Réduction de dégâts accrue]] || &emsp;
+|-
+| &emsp; || [[pouvoirs de rage#ESPRITVIDE|Esprit vide]] || [[pouvoirs de rage#POUVOIRDERAGEPERTURBATEUR|Perturbateur]] || [[pouvoirs de rage#RESILIENCETOTEMIQUEDRACONIQUE|Résilience totémique draconique]] || &emsp;
+|-
+|- CLASS="premier"
+| 10 || [[pouvoirs de rage#AILESTOTEMIQUESDRACONIQUES|Ailes totémiques draconiques]] || [[pouvoirs de rage#DEVOREURDEMAGIE|Dévoreur de magie]] || [[pouvoirs de rage#TOTEMDUCHAOSMAJEUR|Totem du chaos majeur]] || [[pouvoirs de rage#UNITEDUSERPENTMONDE|Unité du serpent-monde]]
+|-
+| &emsp; || [[pouvoirs de rage#ANIMALTOTEMMAJEUR|Animal totem majeur]] || [[pouvoirs de rage#EGRATIGNURE|Égratignure]] || [[pouvoirs de rage#TOTEMFIELONMAJEUR|Totem fiélon majeur]] || &emsp;
+|-
+| &emsp; || [[pouvoirs de rage#DESTRUCTIONDENCHANTEMENT|Destruction d’enchantement]] || [[pouvoirs de rage#MASSUEVIVANTE|Massue vivante]] || [[pouvoirs de rage#TOTEMSPIRITUELSUPERIEUR|Totem spirituel supérieur]] || &emsp;
+|-
+|- CLASS="premier"
+| 12 || [[pouvoirs de rage#ABSORPTIONENERGIE|Absorption d'énergie]] || [[pouvoirs de rage#COUPREDOUTABLE|Coup redoutable]] || [[pouvoirs de rage#PROJECTILEMAJEUR|Projectile majeur]] || &emsp;
+|-
+| &emsp; || [[pouvoirs de rage#BRISEURDESORTS|Briseur de sorts]] || [[pouvoirs de rage#PRECISIONLETALE|Précision létale]] || [[pouvoirs de rage#RAGEELEMENTAIREMAJEURE|Rage élémentaire majeure]] || &emsp;
+|-
+| &emsp; || [[pouvoirs de rage#PIETINEMENTFEROCEMAJEUR|Piétinement féroce majeur]] || [[pouvoirs de rage#VIENSMATTRAPER|Viens m'attraper]] || [[pouvoirs de rage#RAGESANSPEUR|Rage sans peur]] || &emsp;
+|-
+|- CLASS="premier"
+| 16 || [[pouvoirs de rage#ERUPTIONDENERGIE|Éruption d'énergie]] || &emsp; || &emsp; || &emsp;
 |}
-</td><td width="50%">
-{| CLASS="tablo centre autoalt" WIDTH="94%"
-|- CLASS="titre"
-| CLASS="centre" | Exploits disponibles au niveau 11
-|- CLASS="premier"
-| [[exploits#BLESSUREHÉMORRAGIQUE|Blessure hémorragique]]
-|-
-| [[exploits#EXPERTENRECHARGEMENT|Expert en rechargement]]
-|-
-| [[exploits#RECHARGEMENTÉCLAIR|Rechargement éclair]]
-|- CLASS="titre"
-| &emsp;
-|- CLASS="titre"
-| CLASS="centre" | Exploits disponibles au niveau 15
-|- CLASS="premier"
-| [[exploits#CHANCEDUTIREUR|Chance du tireur]]
-|-
-| [[exploits#INSAISISSABLE|Insaisissable]]
-|-
-| [[exploits#TIRMENAÇANT|Tir menaçant]]
-|- CLASS="titre"
-| &emsp;
-|- CLASS="titre"
-| CLASS="centre" | Exploits disponibles au niveau 19
-|- CLASS="premier"
-| [[exploits#FEINTERLAFAUCHEUSE|Feinter la faucheuse]]
-|-
-| [[exploits#TIRÉTOURDISSANT|Tir étourdissant]]
-|-
-| [[exploits#TIRFATAL|Tir Fatal]]
-|}
-</td></tr></table>
-
-<table width="100%"><tr><td width="50%">
-{| CLASS="tablo toutgauche centre" WIDTH="94%"
-|+ Exploits de pistolier
-|- CLASS="titre"
-| COLSPAN="3" | Exploits disponibles au niveau 1
-|- CLASS="premier alt"
-| [[exploits#BOUTPORTANT|Bout portant]]<br>A<br>B<br>C<br>D<br>E<br>F<br>G<br>H
-| [[exploits#ESQUIVEDUPISTOLIER|Esquive du pistolier]]<br>I<br>J<br>K<br>L<br>M<br>N<br>O<br>P
-| [[exploits#NETTOYAGERAPIDE|Nettoyage rapide]]<br>Q<br>R<br>D<br>T<br>U<br>V<br>W<br>X
-|- CLASS="titre"
-| &emsp;
-|- CLASS="titre"
-| COLSPAN="3" | Exploits disponibles au niveau 3
-|- CLASS="premier alt"
-| [[exploits#COUPDECROSSE|Coup de crosse]]<br>A<br>B<br>C<br>D<br>E<br>F<br>G<br>H
-| [[exploits#INITIATIVEDUPISTOLIER|Initiative du pistolier]]<br>I<br>J<br>K<br>L<br>M<br>N<br>O<br>P
-| [[exploits#TIRUTILITAIRE|Tir utilitaire]]<br>Q<br>R<br>D<br>T<br>U<br>V<br>W<br>X
-|- CLASS="titre"
-| &emsp;
-|- CLASS="titre"
-| COLSPAN="3" | Exploits disponibles au niveau 7
-|- CLASS="premier alt"
-| [[exploits#CIBLER|Cibler]]<br>A<br>B<br>C<br>D<br>E<br>F<br>G<br>H
-| [[exploits#TIRDÉROUTANT|Tir déroutant]]<br>I<br>J<br>K<br>L<br>M<br>N<br>O<br>P
-| [[exploits#TIRMORTEL|Tir mortel]]<br>Q<br>R<br>D<br>T<br>U<br>V<br>W<br>X
-|}
-</td><td width="50%">
-{| CLASS="tablo toutgauche centre" WIDTH="94%"
-|- CLASS="titre"
-| COLSPAN="3" | Exploits disponibles au niveau 11
-|- CLASS="premier alt"
-| [[exploits#BLESSUREHÉMORRAGIQUE|Blessure hémorragique]]<br>A<br>B<br>C<br>D<br>E<br>F<br>G<br>H
-| [[exploits#EXPERTENRECHARGEMENT|Expert en rechargement]]<br>I<br>J<br>K<br>L<br>M<br>N<br>O<br>P
-| [[exploits#RECHARGEMENTÉCLAIR|Rechargement éclair]]<br>Q<br>R<br>D<br>T<br>U<br>V<br>W<br>X
-|- CLASS="titre"
-| &emsp;
-|- CLASS="titre"
-| COLSPAN="3" | Exploits disponibles au niveau 15
-|- CLASS="premier alt"
-| [[exploits#CHANCEDUTIREUR|Chance du tireur]]<br>A<br>B<br>C<br>D<br>E<br>F<br>G<br>H
-| [[exploits#INSAISISSABLE|Insaisissable]]<br>I<br>J<br>K<br>L<br>M<br>N<br>O<br>P
-| [[exploits#TIRMENAÇANT|Tir menaçant]]<br>Q<br>R<br>D<br>T<br>U<br>V<br>W<br>X
-|- CLASS="titre"
-| &emsp;
-|- CLASS="titre"
-| COLSPAN="3" | Exploits disponibles au niveau 19
-|- CLASS="premier alt"
-| [[exploits#FEINTERLAFAUCHEUSE|Feinter la faucheuse]]<br>A<br>B<br>C<br>D<br>E<br>F<br>G<br>H
-| [[exploits#TIRÉTOURDISSANT|Tir étourdissant]]<br>I<br>J<br>K<br>L<br>M<br>N<br>O<br>P
-| [[exploits#TIRFATAL|Tir Fatal]]<br>Q<br>R<br>D<br>T<br>U<br>V<br>W<br>X
-|}
-</td></tr></table>
