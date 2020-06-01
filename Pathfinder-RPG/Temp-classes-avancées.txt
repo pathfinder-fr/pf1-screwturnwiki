@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Temp-classes-avancées
 Title: page de travail des classes avancées
-LastModified: 2020-05-23 18:17
+LastModified: 2020-05-31 15:15
 Categories:
   - 'Manuel des Classes avancées'
 ---
@@ -280,6 +280,7 @@ Il peut être intégré comme les autres suppléments de contexte à condition t
 Les règles d'intégration au wiki seront précisées au cas par cas
 
 ===ARCHÉTYPE===
+'''À faire :''' Mettre à jour les snippets Menuarchétype.
 * [[Adversaire des bêtes ulfe (lutteur)]] 266 
 * [[Corsaire des Chaînes (bretteur)|Corsaire des Îles pirates]] 258 
 * [[Danseur démoniaque bekyar (scalde)]] 272 
@@ -319,24 +320,98 @@ Les règles d'intégration au wiki seront précisées au cas par cas
 * Videur à Absalom Base (combat) 267
 
 ===Autres règles===
-====Bâtons magiques et objets merveilleux====
-278-279 
-====Bénédictions Prêtre combattant ====
-269 
+====Bâtons magiques et objets merveilleux 278-279====
+'''À faire :''' Mettre à jour les tableaux récapitulatifs concernés ([[Bâtons magiques]], [[Objets merveilleux portés autour du cou]], [[Objets merveilleux portés sur la tête]], [[Objets merveilleux portés aux mains]], [[Armes magiques spécifiques]]).
+
+====Bénédictions Prêtre combattant 269====
+'''À faire :''' Mettre à jour le snippet Menubénédictions.
 
 ====Dons — 276-277====
-
-* [[Escrime gracieuse]]* (erratisé)
-
+'''À faire :''' Mettre à jour la page [[tableau récapitulatif des dons]].
  
-* Esprit Chaman 260 
-* Exploitations d’arcaniste Arcaniste 257 
-* Lignages Sanguin 270-271 
-* Propriété spéciale d’arme Bretteur 278 
-* Propriétés spéciales d’armure
-* 278 Sorts — 280-281 
-* Talents d’enquêteur Enquêteur 265 
-* Talents de tueur Tueur 275
+====Esprit Chaman 260====
+'''À faire :''' Mettre à jour le snippet MenuEspritschaman.
+
+====Exploitations d’arcaniste Arcaniste 257====
+'''À faire :''' Mettre à jour la page [[exploitations]], sans oublier le tableau en haut de page.
+(((<nowiki>
+{s:MCA}{s:Reference|EXPLOSIONSONORE}
+====Explosion sonore (Sur).====
+L’arcaniste peut produire une assourdissante explosion d’énergie sonore en dépensant 1 point de son [[arcaniste#EXPLOITATION|réservoir arcanique]] et en réussissant une attaque de contact à distance contre une cible située à 9 mètres ou moins. L’explosion inflige un nombre de points de dégâts sonores égal à 1d6 + le modificateur de [[Charisme]] de l’arcaniste, plus 1d6 points de dégâts sonores supplémentaires pour chaque tranche de 2 niveaux au-dessus du premier (jusqu’à un maximum de 10d6 au niveau 19). La cible est également [[assourdi|assourdie]] pendant 1 minute. Elle peut effectuer un jet de [[Vigueur]] pour diminuer de moitié les dégâts et annuler la surdité.
+
+{s:MCA}{s:Reference|METAMORPHEDELUNIVERSITE}
+====Métamorphe de l'Université des sciences pragmatiques (Sur).====
+L’arcaniste peut dépenser 1 point de son [[arcaniste#EXPLOITATION|réservoir arcanique]] pour lancer un sort tout en étant sous l’effet d’un sort de métamorphose. Ce pouvoir fonctionne comme le don [[Incantation animale]], sauf que l’arcaniste l’utilise pour lancer des sorts tout en étant sous l’effet d’un sort et non sous l’effet du pouvoir de [[forme animale]].
+
+{s:MCA}{s:Reference|METAMORPHOSEALTEREE}
+====Métamorphose altérée (Sur).====
+Quand l’arcaniste est sous l’effet d’un sort du registre de la métamorphose qu’il a lui-même lancé, il peut dépenser 1 point de son [[arcaniste#EXPLOITATION|réservoir arcanique]] pour changer sa forme et adopter celle d’une autre créature autorisée par le sort. Ceci réduit de 1 le [[NLS|niveau de lanceur de sorts]] du sort, ce qui le faire passer sous le niveau de lanceur de sorts minimum nécessaire pour le lancer le et réduit sa durée, le cas échéant. L’arcaniste doit posséder l’exploitation [[exploitations#METAMORPHEDELUNIVERSITE|métamorphose de l'Université des sciences pragmatiques]] avant de pouvoir choisir celle-ci.
+
+{s:MCA}{s:Reference|PIEGEURDILLUSIONS}
+====Piégeur d’illusions du Monde féerique (Sur).====
+L’arcaniste gagne un bonus de +2 aux jets de sauvegarde effectués contre les illusions. S’il parvient à réfuter une [[illusion]], il peut dépenser 1 point de son [[arcaniste#EXPLOITATION|réservoir arcanique]] pour tenter d’annuler ou de contrôler l’illusion. L’arcaniste effectue un test de niveau de lanceur de sorts comme s’il essayait de dissiper l’effet à l’aide d’une ''[[dissipation de la magie]]''. S’il réussit son test, il peut mettre fin à l’effet ou le modifier comme s’il était le lanceur du sort. Si la durée du sort dépend de la concentration, l’arcaniste doit rester concentré sur le nouvel effet ou celui-ci prend fin. L’arcaniste doit posséder l’exploitation [[exploitations#VOLEURDEVISAGES|voleur de visages du Monde féerique]] avant de pouvoir choisir celle-ci.
+
+{s:MCA}{s:Reference|TROISIEMEOEIL}
+====Troisième œil (Sur).====
+L’arcaniste peut ouvrir son œil du seigneur de l’Arche une fois de plus chaque jour en dépensant 1 point de son [[arcaniste#EXPLOITATION|réservoir arcanique]]. Il peut obtenir des utilisations supplémentaires mais chaque utilisation ultérieure l’oblige à dépenser un point de réservoir arcanique de plus : 2 points pour une deuxième utilisation supplémentaire, 3 points pour une troisième utilisation, etc. L’arcaniste doit posséder le don Œil du seigneur de l’Arche avant de pouvoir choisir cette exploitation.
+
+{s:MCA}{s:Reference|VOILEDOMBRE}
+====Voile d’ombre de l'État serviteur de l'Ombre (Sur).====
+En dépensant 1 point de son [[arcaniste#EXPLOITATION|réservoir arcanique]], un arcaniste peut s’entourer d’un voile d’ombre, ce qui réduit les chances de le repérer et de le frapper. L’arcaniste bénéficie d’un [[camouflage]] (20% de chances d’échec) et un bonus de +5 aux tests de [[Discrétion]]. Cet effet dure un nombre de [[round|rounds]] égal à 1 + le bonus de [[Charisme]] de l’arcaniste.
+
+{s:MCA}{s:Reference|VOLEURDEVISAGES}
+====Voleur de visages du Monde féerique (Sur).====
+L’arcaniste peut dépenser 1 point de son [[arcaniste#EXPLOITATION|réservoir arcanique]] pour revêtir un déguisement illusoire semblable à celui d’un sort de ''[[sort déguisement|déguisement]]''. S’il dépense 2 points de son réservoir arcanique au lieu d’un seul, la durée de l’effet s’élève à 10 minutes par niveau.
+</nowiki>)))
+
+====Lignages Sanguin 270-271====
+'''À faire :''' Mettre à jour le snippet Menulignagessanguin.
+
+====Propriété spéciale d’arme Bretteur 278====
+'''Fait.'''
+
+====Propriétés spéciales d’armure 278====
+'''Fait.'''
+
+====Sorts — 280-281====
+'''À faire :''' Mettre à jour les listes de sorts des classes concernées ([[Liste des sorts de bardes|Barde]], [[liste des sorts de chaman|Chaman]], [[liste des sorts de druides|Druide]], [[liste des formules dalchimiste|Enquêteur]], [[Liste des sorts densorceleursmagiciens|Magicien]], [[Liste des sorts de magus|Magus]], [[liste des sorts de prêtres|Prêtre]], [[Liste des sorts de rôdeurs|Rôdeur]], [[Liste des sorts de sanguin|Sanguin]] et [[Liste des sorts de sorcière|Sorcière]]).  
+'''À faire :''' Mettre à jour la [[Liste des sorts|liste alphabétique des sorts]].
+
+====Talents d’enquêteur Enquêteur 265====
+'''À faire :''' Mettre à jour la page [[talents (enquêteur)]], sans oublier le tableau en haut de page.
+(((<nowiki>
+{s:MCA}{s:Reference|INGENIERIEAPPLIQUEE}
+====Ingénierie appliquée (Ext).==== 
+L’enquêteur peut exploiter ses connaissances en ingénierie pour trouver des solutions aux problèmes qui nécessitent normalement un œil de lynx ou l’application de la force brute. Il peut dépenser une utilisation d’[[enquêteur#INSPIRATION|inspiration]] par une [[action complexe]] pour étudier un objet ou une zone et effectuer un test de [[Connaissances]] (ingénierie). Lors de son prochain tour, il peut remplacer un test de [[Force]] pour briser un objet ou un test de [[Perception]] pour repérer des portes ou des compartiments dissimulés dans la zone examinée par le résultat de ce test de [[Connaissances]] (ingénierie).
+
+{s:MCA}{s:Reference|EFFETDOMINO}
+====Effet domino* (Ext).====
+Quand un enquêteur utilise [[enquêteur#FRAPPEETUDIEE|frappe étudiée]], il monte ses adversaires les uns contre les autres pour préparer sa prochaine action. Quand il parvient à infliger des dégâts à un adversaire avec frappe étudiée, il peut, par une [[action libre]], appliquer les effets de [[enquêteur#COMBATETUDIE|combat étudié]] à un autre adversaire adjacent au premier. Un enquêteur doit avoir atteint le niveau 5 au moins avant de choisir ce talent.
+
+{s:MCA}{s:Reference|ETUDEPROLONGEE}
+====Étude prolongée* (Ext).====
+L’enquêteur peut étudier ses adversaires de manière prolongée. Les effets de son aptitude de [[enquêteur#COMBATETUDIE|combat étudié]] durent un nombre de [[round|rounds]] égal à deux fois son modificateur d’[[Intelligence]] (minimum 2) ou jusqu’à ce qu’il inflige des dégâts à l’aide d’une [[enquêteur#FRAPPEETUDIEE|frappe étudiée]]. L’enquêteur doit avoir atteint le niveau 13 au moins avant de choisir ce talent.
+
+{s:MCA}{s:Reference|COUPRALENTISSANT}
+====Coup ralentissant* (Ext).====
+Quand un enquêteur inflige des dégâts avec son aptitude de [[enquêteur#FRAPPEETUDIEE|frappe étudiée]], l’adversaire doit réussir un jet de [[Vigueur]] ([[DD]] = 10 + la moitié du niveau d’enquêteur + son modificateur d’[[Intelligence]]) pour ne pas être ralenti par ce coup. Les vitesses de déplacement d’un adversaire ralenti de la sorte sont diminuées de 1,50 mètre (jusqu’à un minimum de 1,50 mètre) tant que la créature n’est pas soignée grâce à l’application d’un sort qui permet de récupérer des points de vie ou un test de [[Premiers secours]] [[DD]] 15. Les effets de plusieurs coups ralentissants se cumulent jusqu’à un minimum de 1,50 mètre. Un enquêteur doit avoir atteint le niveau 7 au moins avant de choisir ce talent.
+
+{s:MCA}{s:Reference|FRAPPEOPPORTUNE}
+====Frappe opportune* (Ext).====
+Plus l’enquêteur étudie longuement son adversaire, plus importants seront les dégâts qu’il infligera avec sa [[enquêteur#FRAPPEETUDIEE|frappe étudiée]]. Quand un enquêteur effectue une frappe étudiée, il inflige un nombre de points de dégâts supplémentaires égal au nombre de [[round|rounds]] consécutifs pendant lesquels il a étudié sa cible avec son aptitude de [[enquêteur#COMBATETUDIE|combat étudié]].
+</nowiki>)))
+
+====Talents de tueur Tueur 275====
+'''À faire :''' Mettre à jour la page [[talents (tueur)]], sans oublier le tableau en haut de page.
+(((<nowiki>
+{s:MCA}{s:Reference|ALLIEETUDIE}
+====Allié étudié (Ext).====
+Le tueur peut, par une [[action de mouvement]], étudier un allié ou une créature amicale dans son champ de vision. Il gagne un bonus de +1 aux tests et aux [[jet dattaque|jets d’attaque]] lorsqu’il effectue l’action [[aider qqn|aider quelqu’un]] pour améliorer les tests de compétence de cet allié ou augmenter sa [[CA]]. Ce bonus augmente au même rythme que celui de [[tueur#CIBLEETUDIEE|cible étudiée]] du tueur. Au niveau 7, un tueur peut étudier un allié par une [[action de mouvement]] ou une [[action rapide]]. L’allié étudié d’un tueur est décompté du nombre de cibles étudiées qu’il peut avoir en même temps.
+
+{s:MCA}{s:Reference|ANALYSEDUSANG}
+====Analyse du sang (Ext).====
+S’il peut voir une [[tueur#CIBLEETUDIEE|cible étudiée]], un tueur connait le nombre exact de points de vie actuels qu’elle possède. Ce talent fonctionne uniquement contre les cibles vivantes.
+</nowiki>)))
 
 ==Intégration==
 * insérer dans tous les dons où c'est nécessaire, les conditions lutteur/guerrier niv x ou lutteur/moine niv x : '''"Il est aussi considéré comme un guerrier et un moine vis-à-vis des dons et des objets magiques qui fonctionnent différemment avec les personnages possédant des niveaux dans ces classes'''"
