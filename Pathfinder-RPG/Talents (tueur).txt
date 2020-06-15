@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Talents (tueur)
 Title: Talents de tueur
-LastModified: 2020-06-02 18:18
+LastModified: 2020-06-12 20:54
 Categories:
   - 'Classe'
   - 'Classe hybride'
@@ -21,13 +21,15 @@ seul de ces talents à une attaque donnée et doit choisir lequel avant d’effe
 |- CLASS="titre"
 | CLASS="centre" COLSPAN="2" | Talents
 |- CLASS="premier"
-| [[Talents (tueur)#COUPRALENTISSANT|Coup ralentissant]]* || [[Talents (tueur)#RECHERCHEDEPIEGES|Recherche de pièges]]
+| [[Talents (tueur)#ALLIEETUDIE|Allié étudié]] || [[Talents (tueur)#TROMPERLESINDISCRETS|Tromper les indiscrets]]
 |-
-| [[Talents (tueur)#TALENTDEROUBLARD|Talent de roublard]] || [[Talents (tueur)#UTILISATIONDESPOISONS|Utilisation des poisons]]
+| [[Talents (tueur)#ANALYSEDUSANG|Analyse du sang]] || [[Talents (tueur)#RECHERCHEDEPIEGES|Recherche de pièges]]
 |-
-| [[Talents (tueur)#DISTANCEMORTELLE|Distance mortelle]] || [[Talents (tueur)#STYLEDECOMBATDURODEUR|Style de combat du rôdeur]]
+| [[Talents (tueur)#COUPRALENTISSANT|Coup ralentissant]]* || [[Talents (tueur)#UTILISATIONDESPOISONS|Utilisation des poisons]]
 |-
-| [[Talents (tueur)#TROMPERLESINDISCRETS|Tromper les indiscrets]] || &emsp;
+| [[Talents (tueur)#TALENTDEROUBLARD|Talent de roublard]] || [[Talents (tueur)#STYLEDECOMBATDURODEUR|Style de combat du rôdeur]]
+|-
+| [[Talents (tueur)#DISTANCEMORTELLE|Distance mortelle]] || &emsp;
 |-
 |- CLASS="titre"
 | &emsp;
@@ -40,6 +42,14 @@ seul de ces talents à une attaque donnée et doit choisir lequel avant d’effe
 |}
 
 ===Description des talents de tueur===
+{s:MCA}{s:Reference|ALLIEETUDIE}
+====Allié étudié (Ext).====
+Le tueur peut, par une [[action de mouvement]], étudier un allié ou une créature amicale dans son champ de vision. Il gagne un bonus de +1 aux tests et aux [[jet dattaque|jets d’attaque]] lorsqu’il effectue l’action [[aider qqn|aider quelqu’un]] pour améliorer les tests de compétence de cet allié ou augmenter sa [[CA]]. Ce bonus augmente au même rythme que celui de [[tueur#CIBLEETUDIEE|cible étudiée]] du tueur. Au niveau 7, un tueur peut étudier un allié par une [[action de mouvement]] ou une [[action rapide]]. L’allié étudié d’un tueur est décompté du nombre de cibles étudiées qu’il peut avoir en même temps.
+
+{s:MCA}{s:Reference|ANALYSEDUSANG}
+====Analyse du sang (Ext).====
+S’il peut voir une [[tueur#CIBLEETUDIEE|cible étudiée]], un tueur connait le nombre exact de points de vie actuels qu’elle possède. Ce talent fonctionne uniquement contre les cibles vivantes.
+
 {s:MCA}{s:reference|COUPRALENTISSANT}
 ====Coup ralentissant* (Ext).==== 
 Si le tueur réussit une attaque sournoise, la vitesse de déplacement de sa cible est diminuée de moitié pendant 1d4 rounds. La victime peut annuler l’effet négatif en réussissant un jet de Vigueur (DD = 10 + 1/2 niveau du tueur + son modificateur d’Intelligence). Si la cible possède plusieurs modes de déplacement, le tueur doit choisir celui qu’il réduit de moitié. Si le tueur affecte la vitesse de vol d’une créature, il réduit également sa manoeuvrabilité d’un cran. Si la créature est en vol à ce moment là, elle tombe, à moins de réussir un test de Vol DD 10. Si le tueur vise une créature qui souffre déjà des effets de ce talent, sa vitesse et sa manoeuvrabilité ne diminuent pas davantage ; en revanche, le tueur peut prolonger la durée de l’effet de 1d4 rounds ou affecter un autre mode de déplacement (dans ce cas, la durée de chaque effet s’écoule indépendamment).

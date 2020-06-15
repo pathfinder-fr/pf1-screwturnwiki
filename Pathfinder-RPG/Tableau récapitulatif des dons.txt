@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Tableau récapitulatif des dons
 Title: Tableau récapitulatif des dons
-LastModified: 2020-05-19 15:38
+LastModified: 2020-06-11 23:25
 Categories:
   - 'Don'
   - 'Don Combat'
@@ -56,6 +56,9 @@ Categories:
 | &emsp;&emsp;&emsp;[[Savant dimensionnel]] || <sup>AG</sup> || [[Derviche dimensionnel]], [[BBA]] +9 || Le personnage permet de prendre un adversaire en tenaille depuis toutes les cases d’où il l’attaque lorsqu’il utilise [[Derviche dimensionnel]]
 
 |- CLASS="premier"
+| [[Aide étrange]] || <sup>MCA</sup> || [[NLS]] 1 || Permet de dépenser un sort préparé ou un emplacement de sort pour augmenter de 2 le [[NLS]] d'un sort lancé par un allié
+
+|- CLASS="premier"
 | [[Aisance]] || <sup>MJ</sup> || [[Dextérité|Dex]] 13 || Ignore 1,5 m de terrain difficile lors d’un déplacement
 |-
 | &emsp;[[Déplacement acrobatique]] || <sup>MJ</sup> || [[Dextérité|Dex]] 15, [[Aisance]] || Ignore 6 mètres (4 cases) de [[terrain difficile]] lors d’un déplacement
@@ -84,6 +87,9 @@ Categories:
 
 |- CLASS="premier"
 | [[Ancre douloureuse]] || <sup>AM</sup> || Ancrage || Inflige des dégâts aux [[type Extérieur|Extérieurs]] [[sous-type Mal|Mauvais]] ancrés
+
+|- CLASS="premier"
+| [[Animal totémique]] || <sup>MCA</sup> || [[Sag]] 13, aptitude de classe [[druide#PACTEAVECLANATURE|compagnon animal]] || Le compagnon animal du personnage obtient les avantages d'un [[chasseur#IMITATIONANIMALE|aspect animal]] du chasseur
 
 |- CLASS="premier"
 | [[Antagoniste]] || <sup>AM</sup> || – || Utilise la [[Diplomatie]] ou l’[[Intimidation]] pour exaspérer une créature
@@ -197,10 +203,14 @@ Categories:
 |- CLASS="premier"
 | [[Attaque en finesse]]* || <sup>MJ</sup> || — || Applique le bonus de [[Dextérité|Dex]] au lieu du bonus de [[Force|For]] aux jets d’attaque des [[arme légère|armes légères]]
 |-
+| &emsp;[[Escrime gracieuse]]* || <sup>MCA</sup> || [[Dex]] 13, [[Arme de prédilection]] ([[rapière (arme)|rapière]]), [[Attaque en finesse]] || Le personnage applique son modificateur de Dextérité aux dégâts des rapières qu'il manie à une main
+|-
 | &emsp;[[Grâce tranchante]]* || <sup>MCA</sup> || [[Dextérité|Dex]] 13, [[Attaque en finesse]], [[Arme de prédilection]] (arme choisie) || Le personnage traite une arme tranchante comme une arme de corps à corps perforante et applique son bonus de Dextérité aux dégâts
 
 |- CLASS="premier"
 | [[Attaque en puissance]]* || <sup>MJ</sup> || [[Force|For]] 13, [[BBA]] +1 || Échange le bonus d’attaque contre un bonus aux dégâts
+|-
+| &emsp;[[Assaut]]* || <sup>MCA</sup> || [[For]] 13, [[Attaque en puissance]], [[BBA]] +1, aptitude de classe d'[[attaque sournoise]] || Si c'est une attaque en puissance, la première attaque du personnage lors du round de surprise peut être une attaque sournoise
 |-
 | &emsp;[[Assaut étourdissant]]* || <sup>MJRA</sup> || [[Attaque en puissance]], [[BBA]]+16 || Sacrifier du bonus d’attaque, [[étourdi|étourdir]] les cibles au corps à corps
 |-
@@ -484,6 +494,9 @@ Categories:
 | [[Compagnon évolué]] || <sup>MCA</sup> || [[Charisme|Cha]] 13, pouvoir de classe [[compagnon animal]] || Le compagnon gagne une [[évolutions|évolution]] d’eidolon à 1 point
 
 |- CLASS="premier"
+| [[Compréhension approfondie des sorts]] || <sup>MCA</sup> || aptitude de classe de [[scalde#COMPREHENSIONDESSORTS|compréhensions des sorts]] || Le personnage peut choisir la [[liste de sorts de druides|liste de sorts de druide]] ou [[liste des sorts de sorcière|de sorcière]] lorsqu'il utilise sa compréhension des sorts.
+
+|- CLASS="premier"
 | [[Concentration rageuse]] || <sup>MCA</sup> || Pouvoir de classe [[Sanguin#INCANTATIONSANGUINE|Incantation sanguine]] || Lorsqu’il est en rage sanguine, le personnage rajoute son bonus de [[Constitution]] aux tests de concentration
 
 |- CLASS="premier"
@@ -493,6 +506,12 @@ Categories:
 
 |- CLASS="premier"
 | [[Conduit émotionnel]] || <sup>AO</sup> || Pouvoir de classe [[spirite#PARTAGEDECONSCIENCE|partage de conscience]] || Gain de nouveaux sorts en fonction de l’[[Fantômes (spirite)#EMOTIONDOMINANTE|émotion dominante du fantôme]]
+
+|- CLASS="premier"
+| [[Connaissances de Dague|Connaissances des empoisonneurs]] || <sup>MCA</sup> || 5 rangs en [[Artisanat]] (alchimie), membre de la guilde des empoisonneurs de la capitale des Royaumes indépendants, aptitude de classe de [[Enquêteur#CONNAISSANCEDESPOISONS|connaissance des poisons]] ou d’[[Alchimiste#UTILISATIONDUPOISON|utilisation du poison]] || Un poison au choix devient plus efficace entre les mains du personnage
+
+|- CLASS="premier"
+| [[Connaissances des points faibles]]* || <sup>MCA</sup> || aptitude de classe [[barde#SAVOIRBARDIQUE|savoir bardique]] || Confère un bonus aux jets d'attaque et de dégâts contre une créature que le personnage parvient à identifier
 
 |- CLASS="premier"
 | [[Connaissance supérieure de la pierre]] || <sup>MJRA</sup> || [[Sagesse|Sag]] 13, [[nain]], trait racial Connaissance de la pierre || +4 aux tests de [[Perception]] pour repérer les ouvrages de pierre inhabituels
@@ -791,7 +810,6 @@ Categories:
 | &emsp;&emsp; [[Esquive anticipée]]* || <sup>MCA</sup> || [[Esquive]], [[Souplesse du serpent]] ; [[BBA]] +7, lutteur niveau 4 ou moine niveau 4 || Le personnage gagne un bonus maximal de +2 aux jets d’attaque contre les créatures ayant un bonus d’esquive
 |-
 | &emsp;&emsp;&emsp;[[Contre-réflexes]]* || <sup>MCA</sup> || [[Esquive]], [[Esquive anticipée]], [[Souplesse du serpent]] || Les adversaires possédant [[Souplesse du serpent]] ne gagnent pas de bonus quand ils provoquent des [[AO|attaques d’opportunité]] de la part du personnage
-
 |-
 | &emsp;&emsp;[[Glissade]] || <sup>AM</sup> || [[Aisance]], [[Esquive]], [[Souplesse du serpent]], [[réserve de ki]] || Utilise le ki pour réduire les attaques d’opportunité lors d’un déplacement
 |-
@@ -823,6 +841,9 @@ Categories:
 | &emsp;[[Horreur de létreinte fatale|Horreur de l’étreinte fatale]]* || <sup>AG</sup> || [[For]] 15, [[Attaque spéciale renforcée]] (constriction), [[Étreinte fatale]], [[BBA]] +6 || Les créatures qui subissent des dégâts de constriction sont secouées
 |-
 | &emsp;&emsp;[[Maître de létreinte fatale|Maître de l’étreinte fatale]]* || <sup>AG</sup> || [[For]] 17, [[Horreur de létreinte fatale|Horreur de l’étreinte fatale]], [[BBA]] +9 || L’attaque de constriction inflige deux fois plus de dés de dégâts
+
+|- CLASS="premier"
+| [[Études approfondies]] || <sup>MCA</sup> || [[Sag]] 17, [[chasseur]] ou [[prêtre combattant]] de niveau 16 || Le personnage ajoute les sorts de niveau 7 de sa liste mère à sa liste de sorts de classe pour utiliser des objets magiques
 
 |- CLASS="premier"
 | [[Évolutions supplémentaires]] || <sup>AM</sup> || Pouvoir de classe [[eidolon]] || L’eidolon ajoute 1 point à sa réserve d’évolution
@@ -1217,6 +1238,9 @@ Categories:
 | [[Langue sauvage]] || <sup>AM</sup> || [[Forme animale]], druide niveau 6 || Parle sous forme animale
 
 |- CLASS="premier"
+| [[Lutteur déloyal]]* || <sup>MCA</sup> || [[For]] 13, [[Dex]] 13, [[Attaque en puissance]], [[Science de la lutte]], [[Science du combat à mains nues]], [[BBA]] +1 || Les luttes engagées par le personnage sont plus faciles à maintenir
+
+|- CLASS="premier"
 | [[Lutteur des bars]]* || <sup>MCA</sup> || [[BBA]] +4 || Une fois par jour, le personnage peut utiliser un don de combat qu’il ne possède pas pendant 1 minute 
 
 |- CLASS="premier"
@@ -1232,6 +1256,9 @@ Categories:
 
 |- CLASS="premier"
 | [[Magie de la nature]] || <sup>MCA</sup> || 1 rang en [[Connaissances]] (nature) || Le personnage gagne [[repérage]] comme pouvoir magique constant et utilise une autre oraison de [[druide]] une fois par jour
+
+|- CLASS="premier"
+| [[Magie démentielle]]* || <sup>MCA</sup> || Aptitude de classe de [[sanguin#RAGESANGUINE|rage sanguine]] ou pouvoir de rage de [[pouvoirs de rage#LUCIDITEPARFAITE|lucidité parfaite]] || Le personnage conserve tout son potentiel magique même en rage
 
 |- CLASS="premier"
 | [[Maître alchimiste]] || <sup>MJ</sup> || 5 [[rang|rangs]] en [[Artisanat]] (Alchimie) || Le personnage +2 aux tests d’[[Artisanat]] (Alchimie), permet de créer des objets alchimiques et des poisons plus rapidement
@@ -1254,6 +1281,9 @@ Categories:
 
 |- CLASS="premier"
 | [[Maîtrise du combat défensif]]* || <sup>MJ</sup> || — || Le [[DMD]] du personnage se calcule à partir d'un [[BBA]] égal à son nombre de [[DV]]
+
+|- CLASS="premier"
+| [[Maléfice amplifié]]* || <sup>MCA</sup> || Aptitude de classe de [[sorcière#MALEFICE|maléfice]] || Le personnage peut renforcer les effets de ses maléfices en sacrifiant des emplacements de sort
 
 |- CLASS="premier"
 | [[Maléfice flexible]] || <sup>MCA</sup> || Pouvoir de classe maléfice errant || Changement de maléfice errant par une [[action rapide]]
@@ -1756,6 +1786,9 @@ Categories:
 | &emsp;&emsp;[[Disciple psychique]] || <sup>AO</sup> || [[Intelligence|Int]] 13, [[Adepte psychique]], [[Sensibilité psychique]] || Lance un sort psychique de niveau 1, 2/jour comme un pouvoir magique
 
 |- CLASS="premier"
+| [[Sens de lembuscade|Sens de l'embuscade]]* || <sup>MCA</sup> || [[Int]] 13, aptitude de classe de [[roublard#SENSDESPIEGES|sens des pièges]] || Le personnage se défend plus facilement lors des rounds de surprise
+
+|- CLASS="premier"
 | [[Sens très affûtés]] || <sup>MJRA</sup> || Trait racial Sens aiguisés || bonus racial de +4 aux tests de [[Perception]]
 
 |- CLASS="premier"
@@ -1781,6 +1814,9 @@ Categories:
 
 |- CLASS="premier"
 | [[Tacticien expérimenté]] || <sup>MJRA</sup> || Aptitude de classe de tacticien || Permet d’utiliser la capacité de tacticien une fois de plus par jour
+
+|- CLASS="premier"
+| [[Tactique de la meute]] || <sup>MCA</sup> || [[Int]] 13, aptitude de classe de [[druide#PACTEAVECLANATURE|compagnon animal]] || Le compagnon animal du personnage est considéré comme possédant tout les dons d'équipe de ce dernier pour lui et ses alliés
 
 |- CLASS="premier"
 | [[Talent]] || <sup>MJ</sup> || — || +3 à une [[compétences|compétence]] (+6 pour 10 [[rang|rangs]])

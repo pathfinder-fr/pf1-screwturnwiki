@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Talents (enquêteur)
 Title: Talents d'enquêteur
-LastModified: 2020-06-02 18:17
+LastModified: 2020-06-12 20:52
 Categories:
   - 'Classe'
   - 'Manuel des Classes avancées'
@@ -10,27 +10,29 @@ Categories:
 {s:Menuclasseshybrides}
 {s:MCA}''Les talents d’enquêteur marqués d’un astérisque (*) ajoutent des effets au combat étudié et à la frappe étudiée. Le personnage ne peut appliquer qu’un talent par attaque individuelle mais il peut le faire au moment où il inflige les dégâts.''
 
-{| CLASS="tablo toutgauche centre autoalt" WIDTH="84%"
+{| CLASS="tablo toutgauche centre autoalt" WIDTH="94%"
 |+ Talents d’enquêteur 
 |- CLASS="titre"
 | Niveau<br>minimal
 | COLSPAN="3" | Talents
 |- CLASS="premier"
-| '''1''' || [[Talents (enquêteur)#AIDEFACILE|Aide facile]] || [[talents (enquêteur)#INSPIRATIONDELAPEGRE|Inspiration de la pègre]] || [[talents (enquêteur)#INTIMIDATIONINSPIREE|Intimidation inspirée]]
+| '''1''' || [[talents (enquêteur)#AIDEFACILE|Aide facile]] || [[talents (enquêteur)#INGENIERIEAPPLIQUEE|Ingénierie appliquée]] || [[talents (enquêteur)#INTIMIDATIONINSPIREE|Intimidation inspirée]]
 |-
-| &emsp; || [[talents (enquêteur)#DECOUVERTEDALCHIMISTE|Découverte d'alchimiste]] || [[talents (enquêteur)#INSPIRATIONETENDUE|Inspiration étendue]] || [[talents (enquêteur)#PISTAGEPERSPICACE|Pistage perspicace]]
+| &emsp; || [[talents (enquêteur)#DECOUVERTEDALCHIMISTE|Découverte d'alchimiste]] || [[talents (enquêteur)#INSPIRATIONDELAPEGRE|Inspiration de la pègre]] || [[talents (enquêteur)#PISTAGEPERSPICACE|Pistage perspicace]]
 |-
-| &emsp; || [[talents (enquêteur)#ETUDERAPIDE|Étude rapide]] || [[talents (enquêteur)#INSPIRATIONNONCONVENTIONNELLE|Inspiration non conventionnelle]] || [[talents (enquêteur)#TALENTDEROUBLARD|Talent de roublard]]
+| &emsp; || [[talents (enquêteur)#ETUDERAPIDE|Étude rapide]] || [[talents (enquêteur)#INSPIRATIONETENDUE|Inspiration étendue]] || [[talents (enquêteur)#TALENTDEROUBLARD|Talent de roublard]]
 |-
-| &emsp; || [[talents (enquêteur)#EXPERTENOBJETS|Expert en objets]] || [[talents (enquêteur)#INTELLIGENCEINSPIREE|Intelligence inspirée]] || [[talents (enquêteur)#VIGILANCEINSPIREE|Vigilance inspirée]]
+| &emsp; || [[talents (enquêteur)#EXPERTENOBJETS|Expert en objets]] || [[talents (enquêteur)#INSPIRATIONNONCONVENTIONNELLE|Inspiration non conventionnelle]] || [[talents (enquêteur)#VIGILANCEINSPIREE|Vigilance inspirée]]
+|-
+| &emsp; || [[talents (enquêteur)#FRAPPEOPPORTUNE|Frappe opportune]]* || [[talents (enquêteur)#INTELLIGENCEINSPIREE|Intelligence inspirée]] || &emsp;
 |-
 |- CLASS="premier"
-| '''5''' || [[talents (enquêteur)#EMPATHIE|Empathie]] || [[talents (enquêteur)#OFFENSIVEDESTABILISANTE|Offensive déstabilisante]]* || &emsp;
+| '''5''' || [[talents (enquêteur)#EFFETDOMINO|Effet domino]]* || [[talents (enquêteur)#EMPATHIE|Empathie]] || [[talents (enquêteur)#OFFENSIVEDESTABILISANTE|Offensive déstabilisante]]*
 |-
 |- CLASS="premier"
-| '''7''' || [[talents (enquêteur)#OFFENSIVEDEFIEVRE|Offensive de fièvre]]* || [[talents (enquêteur)#EXPERTISEINSPIRANTE|Expertise inspirante]] || &emsp;
+| '''7''' || [[talents (enquêteur)#CONNAISSANCEDESOBJETS|Connaissance des objets]] || [[talents (enquêteur)#EXPERTISEINSPIRANTE|Expertise inspirante]] || [[talents (enquêteur)#OFFENSIVEDEFIEVRE|Offensive de fièvre]]*
 |-
-| &emsp; || [[talents (enquêteur)#CONNAISSANCEDESOBJETS|Connaissance des objets]] || [[talents (enquêteur)#INCROYABLEINSPIRATION|Incroyable inspiration]] || &emsp;
+| &emsp; || [[talents (enquêteur)#COUPRALENTISSANT|Coup ralentissant]]* || [[talents (enquêteur)#INCROYABLEINSPIRATION|Incroyable inspiration]] || &emsp;
 |-
 |- CLASS="premier"
 | '''9''' || [[talents (enquêteur)#DEFENSEETUDIEE|Défense étudiée]] || [[talents (enquêteur)#FRAPPEDECROCENJAMBE|Frappe de croc-en-jambe]]* || [[talents (enquêteur)#INSPIRATIONMARTIALE|Inspiration martiale]]
@@ -39,7 +41,9 @@ Categories:
 | '''11''' || [[talents (enquêteur)#OBJECTIFCACHE|Objectif caché]] || [[talents (enquêteur)#SOUVENIREIDETIQUE|Souvenir eidétique]] || &emsp;
 |-
 |- CLASS="premier"
-| '''13''' || [[talents (enquêteur)#COUPREPOSITIONNANT|Coup repositionnant]]* || [[talents (enquêteur)#FRAPPEDESUBTILISATION|Frappe de subtilisation]]* || [[talents (enquêteur)#INSPIRATIONTENACE|Inspiration tenace]]
+| '''13''' || [[talents (enquêteur)#COUPREPOSITIONNANT|Coup repositionnant]]* || [[talents (enquêteur)#FRAPPEDESUBTILISATION|Frappe de subtilisation]]* || &emsp;
+|-
+| &emsp; || [[talents (enquêteur)#ETUDEPROLONGEE|Étude prolongée]]* || [[talents (enquêteur)#INSPIRATIONTENACE|Inspiration tenace]] || &emsp;
 |-
 |- CLASS="premier"
 | '''15''' || [[talents (enquêteur)#FRAPPEASSOURDISSANTE|Frappe assourdissante]]* || &emsp; || &emsp;
@@ -61,6 +65,10 @@ L’enquêteur peut utiliser l’action [[Actions spéciales#AIDERQQN|aider autr
 ====Connaissance des objets (Ext).====
 L’enquêteur utilise l’[[Art de la magie]] pour identifier les propriétés et les mots de commande des objets magiques sans recourir à ''[[détection de la magie]]'' ou à des sorts similaires. L’enquêteur doit être de niveau 7 au moins pour choisir ce talent.
 
+{s:MCA}{s:Reference|COUPRALENTISSANT}
+====Coup ralentissant* (Ext).====
+Quand un enquêteur inflige des dégâts avec son aptitude de [[enquêteur#FRAPPEETUDIEE|frappe étudiée]], l’adversaire doit réussir un jet de [[Vigueur]] ([[DD]] = 10 + la moitié du niveau d’enquêteur + son modificateur d’[[Intelligence]]) pour ne pas être ralenti par ce coup. Les vitesses de déplacement d’un adversaire ralenti de la sorte sont diminuées de 1,50 mètre (jusqu’à un minimum de 1,50 mètre) tant que la créature n’est pas soignée grâce à l’application d’un sort qui permet de récupérer des points de vie ou un test de [[Premiers secours]] [[DD]] 15. Les effets de plusieurs coups ralentissants se cumulent jusqu’à un minimum de 1,50 mètre. Un enquêteur doit avoir atteint le niveau 7 au moins avant de choisir ce talent.
+
 {s:MCA}{s:Reference|COUPREPOSITIONNANT}
 ====Coup repositionnant* (Ext).==== 
 Quand l’enquêteur inflige des dégâts avec la frappe étudiée, il peut faire une [[manoeuvre offensive]] de [[repositionnement]] par une [[action libre]] contre la créature qu’il a blessée avec sa frappe. Le repositionnement ne provoque pas d’[[AO|attaque d’opportunité]]. L’enquêteur doit être de niveau 13 au moins pour choisir ce talent.
@@ -73,9 +81,17 @@ Le personnage peut choisir l’une des [[découvertes]] d’alchimiste suivantes
 ====Défense étudiée (Ext).==== 
 Quand un enquêteur disposant de ce talent utilise l’aptitude de combat étudié, il peut appliquer le bonus d’intuition à sa [[CA]] contre les attaques de la cible du combat étudié au lieu de l’appliquer à ses jets d’attaque contre elle (il conserve le bonus d’intuition aux jets de dégâts). Il doit choisir le type de bonus souhaité lorsqu’il utilise le combat étudié et ne peut plus en changer, à moins d’utiliser à nouveau le combat étudié. L’enquêteur doit être de niveau 9 au moins pour choisir ce talent.
 
+{s:MCA}{s:Reference|EFFETDOMINO}
+====Effet domino* (Ext).====
+Quand un enquêteur utilise [[enquêteur#FRAPPEETUDIEE|frappe étudiée]], il monte ses adversaires les uns contre les autres pour préparer sa prochaine action. Quand il parvient à infliger des dégâts à un adversaire avec frappe étudiée, il peut, par une [[action libre]], appliquer les effets de [[enquêteur#COMBATETUDIE|combat étudié]] à un autre adversaire adjacent au premier. Un enquêteur doit avoir atteint le niveau 5 au moins avant de choisir ce talent.
+
 {s:MCA}{s:Reference|EMPATHIE}
 ====Empathie (Ext, Sur).====
 Quand l’enquêteur fait un test de [[Psychologie]], il lance deux fois le d20 et conserve le meilleur résultat. S’il utilise l’inspiration sur un test de Psychologie, il lance deux fois le dé d’inspiration et conserve le meilleur résultat. Une fois par jour, il peut dépenser une utilisation d’inspiration et cibler une unique créature dans un rayon de 9 mètres (6 {s:c}) qu’il voit et entend. Il perçoit alors ses pensées superficielles, comme s’il s’était concentré pendant 3 rounds avec une ''[[détection de pensées]]'', à moins que la cible ne réussisse un jet de [[Volonté]]. Le [[DD]] du jet de sauvegarde est de 10 + 1/2 niveau d’enquêteur + son modificateur d’[[Intelligence]]. Si la cible rate son jet, l’enquêteur peut continuer à lire ses pensées superficielles pendant un nombre de rounds égal à la moitié de son niveau de classe. L’enquêteur doit être de niveau 5 au moins pour choisir ce talent.
+
+{s:MCA}{s:Reference|ETUDEPROLONGEE}
+====Étude prolongée* (Ext).====
+L’enquêteur peut étudier ses adversaires de manière prolongée. Les effets de son aptitude de [[enquêteur#COMBATETUDIE|combat étudié]] durent un nombre de [[round|rounds]] égal à deux fois son modificateur d’[[Intelligence]] (minimum 2) ou jusqu’à ce qu’il inflige des dégâts à l’aide d’une [[enquêteur#FRAPPEETUDIEE|frappe étudiée]]. L’enquêteur doit avoir atteint le niveau 13 au moins avant de choisir ce talent.
 
 {s:MCA}{s:Reference|ETUDERAPIDE}
 ====Étude rapide (Ext).==== 
@@ -109,9 +125,18 @@ Quand l’enquêteur blesse une créature avec une frappe étudiée, il peut fai
 ====Frappe de subtilisation* (Ext).==== 
 Quand l’enquêteur blesse avec une frappe étudiée, il peut faire une manoeuvre offensive de [[subtilisation]] contre elle par une [[action libre]]. Cette subtilisation ne provoque pas d’[[AO|attaque d’opportunité]]. L’enquêteur doit être de niveau 13 au moins pour choisir ce talent.
 
+{s:MCA}{s:Reference|FRAPPEOPPORTUNE}
+====Frappe opportune* (Ext).====
+Plus l’enquêteur étudie longuement son adversaire, plus importants seront les dégâts qu’il infligera avec sa [[enquêteur#FRAPPEETUDIEE|frappe étudiée]]. Quand un enquêteur effectue une frappe étudiée, il inflige un nombre de points de dégâts supplémentaires égal au nombre de [[round|rounds]] consécutifs pendant lesquels il a étudié sa cible avec son aptitude de [[enquêteur#COMBATETUDIE|combat étudié]].
+Edit
+
 {s:MCA}{s:Reference|INCROYABLEINSPIRATION}
-====Incroyable inspiration (Ext).==== 
+====Incroyable inspiration (Ext).====
 Quand l’enquêteur fait appel à son inspiration, il lance un d8 au lieu d’un d6. Au niveau 20, il lance 2d8 et ajoute les deux dés au résultat. L’enquêteur doit être de niveau 7 au moins pour choisir ce talent.
+
+{s:MCA}{s:Reference|INGENIERIEAPPLIQUEE}
+====Ingénierie appliquée (Ext).====
+L’enquêteur peut exploiter ses connaissances en ingénierie pour trouver des solutions aux problèmes qui nécessitent normalement un œil de lynx ou l’application de la force brute. Il peut dépenser une utilisation d’[[enquêteur#INSPIRATION|inspiration]] par une [[action complexe]] pour étudier un objet ou une zone et effectuer un test de [[Connaissances]] (ingénierie). Lors de son prochain tour, il peut remplacer un test de [[Force]] pour briser un objet ou un test de [[Perception]] pour repérer des portes ou des compartiments dissimulés dans la zone examinée par le résultat de ce test de [[Connaissances]] (ingénierie).
 
 {s:MCA}{s:Reference|INSPIRATIONDELAPEGRE}
 ====Inspiration de la pègre (Ext).====
