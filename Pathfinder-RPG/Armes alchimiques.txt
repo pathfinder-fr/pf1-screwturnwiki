@@ -1,16 +1,24 @@
 ---
 Name: Pathfinder-RPG.Armes alchimiques
 Title: Armes alchimiques
-LastModified: 2020-07-01 20:48
+LastModified: 2020-07-12 17:56
 Categories:
   - 'Armes et équipement'
 ---
 {s:MenuEquipement}
 <center>
-{| CLASS="tablo" WIDTH="100%"
+{| CLASS="tablo autoalt" WIDTH="100%"
 |+ Tableau récapitulatif des armes alchimiques
 |- CLASS="titre"
 | Armes alchimiques || Prix || DD d'Artisanat || Dégâts || [[Caractéristiques des armes#Critique_6|Critique]] || [[Caractéristiques des armes#Facteur_de_portée_7|Facteur de portée]] || Poids || [[Caractéristiques des armes#Type_9|Type]] || Spécial
+|- CLASS="premier"
+| COLSPAN="9" | '''SPÉCIAL''' 
+|-
+| [[Armes alchimiques#Charbon alchimique|Charbon alchimique]] || &emsp; || &emsp; || &emsp; || &emsp; || &emsp; || &emsp; || &emsp; || &emsp;
+|-
+| &emsp; cendres aveuglantes || 100 po || 25 || 1d6 || — || ligne de 9 m || — || Aveuglement, Feu || Zone, Voir texte
+|-
+| &emsp; fumée asphyxiante || 50 po || 20 || 1d6 || — || cône de 3 m || — || Acide, Fièvre || Zone, Voir texte
 |- CLASS="premier"
 | COLSPAN="9" | '''COMBAT À MAINS NUES''' 
 |-
@@ -31,59 +39,67 @@ Categories:
 | COLSPAN="10" | '''ARMES [[Caractéristiques des armes#ARMEADISTANCE|À DISTANCE]]'''
 |- 
 | [[Armes alchimiques#Acide|Acide]] || 10 po || 15 || 1d6 || x2 || 3 m || 500 g || Acide || [[Actions spéciales#ARMEIMPACT|Aspersion]]
-|- CLASS="alt"
+|-
 | [[Armes alchimiques#Ballerine banshie|Ballerine banshie d'artifice]] || 75 po || 30 || — || — || 3 m || — || Sonique || Zone, Voir texte
 |-
 | [[Armes alchimiques#Bocal à concussion|Bocal à concussion]] || 35 po || 25 || 1 || — || 3 m || 500 g || Sonique || Voir texte
-|- CLASS="alt"
+|-
 | [[Armes alchimiques#Bougie d'artifice en papier|Bougie d'artifice en papier]] || 1 po || 20 || — || — || 3 m || — || — || Voir texte
 |-
 | [[Armes alchimiques#Eau bénite|Eau bénite]] || 25 po || — || 2d4 || x2 || 3 m || 500 g || — || [[Actions spéciales#ARMEIMPACT|Aspersion]], Voir texte
-|- CLASS="alt"
+|-
 | [[Armes alchimiques#Etoile d'artifice|Etoile d'artifice]] || 5 po || 20 || 1/1 || Cécité || 1.5 m || — || Feu/non-léthal || Voir texte
 |-
 | [[Armes alchimiques#Feu grégeois|Feu grégeois]] || 20 po || 20 || 1d6 || x2 || 3 m || 500g || Feu || [[Actions spéciales#ARMEIMPACT|Aspersion]]
-|- CLASS="alt"
+|-
 | [[Armes alchimiques#Fiole d'alcali|Fiole d'alcali]] || 15 po || 20 || 1d6 || x2 || 3 m || 500 g || Acide || [[Actions spéciales#ARMEIMPACT|Aspersion]], Voir texte
 |-
 | [[Armes alchimiques#Fiole de blème écœurante|Fiole de blème écœurante]] || 50 po || 20 || — || — || 3 m || 500 g || Poison || [[Actions spéciales#ARMEIMPACT|Aspersion]], Voir texte
-|- CLASS="alt"
+|-
+| [[Armes alchimiques#Fiole de nectar d'ombre|Fiole de nectar d'ombre]] || 25 po || 20 || — || — || 3 m || 500 g || — || [[Actions spéciales#ARMEIMPACT|Aspersion]], Voir texte
+|-
+| [[Armes alchimiques#Flux élémentaire|Flux élémentaire (flasque)]] || 20 po || 20 || 1d6 || x2 || 3 m || 500 g || Énergie aléatoire || [[Actions spéciales#ARMEIMPACT|Aspersion]], Voir texte
+|-
 | [[Armes alchimiques#Fontaine stellaire d'artifice|Fontaine stellaire d'artifice]] || 500 po || 25 || 1d6 || — || 3 m || 50 kg || Feu || Zone
 |-
 | [[Armes alchimiques#Foudre en bouteille|Foudre en bouteille]] || 40 po || 25 || 1d8/1 || x2 || 6 m || 500 g || Electricité/Sonique || Voir texte
-|- CLASS="alt"
+|-
 | [[Armes alchimiques#Fusée d'artifice|Fusée d'artifice]] || 50 po || 25 || 2d6 || — || 3 m || 500 g || Feu || Zone
 |-
 | [[Armes alchimiques#Gel à éclats|Gel à éclats]] || 25 po || 20 || 1d4 || x2 || 3 m || 500 g || P || [[Actions spéciales#ARMEIMPACT|Aspersion]]
-|- CLASS="alt"
+|-
 | [[Armes alchimiques#Glace liquide|Glace liquide]] || 40 po || 25 || 1d6 || x2 || 3 m || 1 kg || Froid || [[Actions spéciales#ARMEIMPACT|Aspersion]]
 |-
 | [[Armes alchimiques#Grenade à mèche|Grenade à mèche]] || 100 po || 25 || 2d6/1d6 || x2 || 3 m || 500 g || C/Feu || Zone, Voir texte
-|- CLASS="alt"
+|-
 | [[Armes alchimiques#Grenade à plombs|Grenade à plombs]] || &emsp; || &emsp; || &emsp; || &emsp; || &emsp; || &emsp; || &emsp; || &emsp;
 |-
 | &emsp; fer || 50 po || 25 || 1d6/1d6/1d6 || — || 3 m || 500g || C/P/Feu || Zone, Voir texte
-|- CLASS="alt"
+|-
 | &emsp; argent || 70 po || 25 || 1d6/1d6/1d6 || — || 3 m || 500g || C/P/Feu || Zone, Voir texte
 |-
 | &emsp; fer froid || 100 po || 25 || 1d6/1d6/1d6 || — || 3 m || 500 g || C/P/Feu || Zone, Voir texte
-|- CLASS="alt"
+|-
 | &emsp; adamantium || 150 po || 25 || 1d6/1d6/1d6 || — || 3 m || 500 g || C/P/Feu || Zone, Voir texte
-|- 
+|-
 | [[Armes alchimiques#Huile de kéros|Huile de kéros]] || 5 po || 15 || 1d3 || x2 || 1.5 m || — || Feu || Voir texte
-|- CLASS="alt"
+|-
+| [[Armes alchimiques#Infusion de puanteur|Infusion de puanteur]] || 40 po || 25 || — || — || 3 m || 500 g || — || [[Actions spéciales#ARMEIMPACT|Aspersion]], Voir texte
+|-
 | [[Armes alchimiques#Pierre tonnerre|Pierre tonnerre]] || 30 po || 25 || — || — || 6 m || 500 g || Sonique || Zone, Voir texte
-|- 
+|-
+| [[Armes alchimiques#Poche de vérole|Poche de vérole]] || 50 po || 20 || — || — || 3 m || 500 g || — || [[Actions spéciales#ARMEIMPACT|Aspersion]], Voir texte
+|-
 | [[Armes alchimiques#Poil à gratter|Poil à gratter]] || 60 po || 25 || — || — || 3 m || 1 kg || Poison || [[Actions spéciales#ARMEIMPACT|Aspersion]], Voir texte
-|- CLASS="alt"
+|-
 | [[Armes alchimiques#Poudre à éternuer|Poudre à éternuer]] || 60 po || 25 || — || — || 3 m || 1 kg || Poison || Voir texte
-|- 
+|-
 | [[Armes alchimiques#Poudre à flash|Poudre à flash]] || 50 po || 20 || — || — || 3 m || — || Lumière || Zone, Voir texte
-|- CLASS="alt"
+|-
 | [[Armes alchimiques#Résidu ectoplasmique|Résidu ectoplasmique]] || 20 po || 25 || — || — || 3 m || 1 kg || — || [[Actions spéciales#ARMEIMPACT|Aspersion]], Voir texte
-|- 
+|-
 | [[Armes alchimiques#Sacoche immobilisante|Sacoche immobilisante]] || 50 po || 25 || — || — || 3 m || 2 kg || — || Enchevêtrement
-|- CLASS="alt"
+|-
 | [[Armes alchimiques#Sacoche immobilisante de feu|Sacoche immobilisante de feu]] || 150 po || 30 || 1d6 || — || 3 m || 2.5 kg || Feu || Enchevêtrement, Voir texte
 |}
 </center>
@@ -91,26 +107,27 @@ Categories:
 Les armes alchimiques sont conçues pour blesser mais elles ont aussi d’autres usages. Un personnage ayant la compétence
 Artisanat (alchimie) peut fabriquer chacune de ces substances. Le DD d’Artisanat pour la fabrication de l’objet est précisé dans la description de l’objet.
 
-
 {s:AE}{s:Reference|Acide}
 ====Acide====
 Le personnage peut lancer une fiole d’acide comme une arme à aspersion, en effectuant une attaque de contact à distance avec un facteur de portée de 3 mètres. Un coup direct inflige 1d6 points de dégâts d’acide. Toutes les créatures situées dans un rayon de 1,50 mètre autour du point d’impact de l’acide reçoivent 1 point de dégâts d’acide à cause des éclaboussures. La fabrication de cet objet requiert un test d’Artisanat (alchimie) DD 15.
-
 
 {s:AE}{s:Reference|Ballerine banshie}
 ====Ballerine banshie====
 Ce petit feu d’artifice brûle vivement et émet un sinistre sifflement aigu. On peut le lancer sur une intersection, comme une arme à aspersion. Toutes les créatures situées dans un rayon de 1,50 mètre autour du bruit sont assourdies tant qu’elles restent dans la zone, les bruits les plus puissants qu’elles font étant étouffés par le son perçant. La ballerine banshie d’artifice brûle pendant 1d4+1 rounds avant de se consumer sans un bruit dans un nuage de fumée. La fabrication de cet objet requiert un test d’Artisanat (alchimie) DD 30.
 
-
 {s:AE}{s:Reference|Bocal à concussion}
 ====Bocal à concussion====
 Ce pot en argile tout simple abrite deux chambres hermétiques remplies de substances alchimiques. Le bocal se lance comme une arme à aspersion. Il se brise à l’impact, recouvrant la cible du mélange des deux liquides. Un round plus tard, lors du tour du personnage, les liquides réagissent, créant un souffle violent. La cible reçoit 1 point de dégâts soniques, est assourdie pendant 1d4 rounds et doit réussir un jet de Vigueur de DD 12 ou être étourdie pendant 1 round. Les créatures situées dans un rayon de 1,50 mètre autour du souffle reçoivent 1 point de dégâts sonores. La cible peut dépenser une action complexe pour racler ou essuyer le liquide avant l’explosion et le déposer sur sa case ou sur une case adjacente. Le mélange explose normalement mais la cible de départ reçoit les dégâts comme si elle était dans un rayon de 1,50 mètre autour de l’explosion. La fabrication de cet objet requiert un test d’Artisanat (alchimie) DD 25.
-
 
 {s:AE}{s:Reference|Bougie d'artifice en papier}
 ====Bougie d'artifice en papier==== 
 Cet explosif de la taille d’un doigt génère une bruyante détonation 1 round après la mise à feu. Quiconque se trouve sur la même case qu’’une bougie d’artifice en papier au moment de l’explosion doit réussir un jet de Vigueur de DD 15 ou être ébloui pendant 1d4 rounds. La fabrication de cet objet requiert un test d’Artisanat (alchimie) DD 20.
 
+{s:racial|Kobold (race)|kobolds|Illustrations/PNJ/Kobold.jpg}{s:MR}{s:Reference|Charbon alchimique}
+====Charbon alchimique==== 
+Un kobold qui mâche et avale ce morceau de charbon alchimiquement traité (une [[action complexe]]) peut effectuer une attaque de souffle la minute qui suit. S’il n’effectue pas son attaque de souffle avant que cette minute ne s’achève, il est [[fiévreux]] pendant 1 heure. Les autres créatures humanoïdes qui mangent ce charbon alchimique sont fiévreuses pendant 1 heure (bien que certaines créatures puissent être en mesure de l’utiliser si le MJ donne son accord). Les créatures immunisées aux poisons sont immunisées à l’effet de fièvre. Le type de souffle dépend du type de charbon alchimique que mâche le kobold.
+* ''Cendres aveuglantes.'' Ce morceau déchiqueté de charbon rouge poussiéreux permet à un kobold de cracher une ligne de 9 mètres de cendres épaisses. L’attaque de souffle inflige 1d6 points de dégâts de feu et [[aveuglé|aveugle]] les créatures de la zone pendant 1 [[round]]. Une créature qui réussit un jet de [[Réflexes]] [[DD]] 15 ne reçoit que la moitié des dégâts et n’est pas aveuglée.
+* ''Fumée asphyxiante.'' Ce morceau friable de charbon blanc crayeux permet au kobold de cracher un cône de 4,5 mètres de vapeur fétide qui inflige 1d6 points de dégâts d’acide et rend les créatures [[fiévreux|fiévreuses]] pendant 1d4 [[round|rounds]]. Une créature qui réussit un jet de [[Réflexes]] [[DD]] 15 ne reçoit que la moitié des dégâts et n’est pas fiévreuse.
 
 {s:AE}{s:Reference|Eau bénite}
 ====Eau bénite====
@@ -118,12 +135,10 @@ L’eau bénite blesse les créatures mortes-vivantes et les extérieurs mauvais
 Un coup porté directement avec une fiole d’eau bénite inflige 2d4 points de dégâts à la créature morte-vivante ou à l’extérieur Mauvais. Toutes les créatures de ce genre situées dans un rayon de 1,50 mètre autour du point d’impact reçoivent 1 point de dégâts d’éclaboussures.
 Les temples à la gloire des divinités d’alignement Bon vendent l’eau bénite à prix coûtant (ils ne font aucun bénéfice dessus). Le sort bénédiction de l’eau permet de créer de l’eau bénite.
 
-
 {s:AE}{s:Reference|Etoiles d'artifice}
 ====Etoiles d'artifice====
 Lorsqu’on enflamme ce bâton en bois de 30 centimètres de long, il lance une « bougie » pyrotechnique enflammée tous les 4 rounds. Les projectiles infligent 1 point de dégâts non létaux et 1 point de dégâts de feu s’ils touchent. Sur un coup critique, la cible est également aveuglée pendant 1 round. Les projectiles diffusent la même lumière qu’une bougie pendant 1 round et ont un facteur de portée de 1,50 mètre. Pour attaquer avec des étoiles d’artifice, il faut effectuer une
 attaque de contact à distance qui subit toujours le malus de -4 qu’impose la non-maîtrise de l’arme. La fabrication de cet objet requiert un test d’Artisanat (alchimie) DD 20.
-
 
 {s:AE}{s:Reference|Feu grégeois}
 ====Feu grégeois====
@@ -132,77 +147,75 @@ peut lancer une fiole de feu grégeois comme une arme à aspersion, en effectuan
 Un coup direct inflige 1d6 points de dégâts de feu. Toutes les créatures situées dans un rayon de 1,50 mètre autour du point d’impact reçoivent 1 point de dégâts de feu à cause de l’explosion. Le round suivant une attaque directe réussie, la cible reçoit 1d6 points de dégâts supplémentaires. Si elle le souhaite, elle peut dépenser une action complexe pour tenter d’éteindre les flammes avant de recevoir des dégâts supplémentaires. Pour cela, elle doit réussir un jet de Réflexes
 DD 15. Si elle se roule au sol, elle gagne un bonus de +2 au jet de sauvegarde. Si elle se plonge dans une grande étendue d’eau ou si elle use de magie pour éteindre les flammes, elle étouffe automatiquement le feu. La fabrication du feu grégeois requiert un test d’Artisanat (alchimie) DD 20.
 
-
 {s:AE}{s:Reference|Fiole d'alcali}
 ====Fiole d'alcali====
 Cette fiole de liquide caustique réagit avec les acides naturels des vases. Le personnage peut la lancer comme une arme à aspersion, en effectuant une attaque de contact à distance avec un facteur de portée de 3 mètres. Contre les créatures
 autres que les vases, la fiole d’alcali fonctionne comme une fiole d’acide normale. Contre les vases et autres créatures à base d’acide, la fiole d’alcali inflige des dégâts doublés. La fabrication de cet objet requiert un test d’Artisanat (alchimie) DD 20.
 
-
 {s:AE}{s:Reference|Fiole de blème écœurante}
 ====Fiole de blème écœurante====
 Cette poudre est récoltée et concentrée à partir de dépouilles de blêmes. Elle dégage une odeur répugnante, on la conserve donc dans des fioles hermétiques. La fiole se lance comme une arme à aspersion et se brise à l’impact, libérant une poussière toxique. La cible est nauséeuse pendant 1 round et fiévreuse pendant 3 rounds. Un jet de Vigueur DD 12 réussi permet d’éviter l’état nauséeux mais pas fiévreux. Les créatures situées dans un rayon de 1,50 mètre autour du point d’impact de la fiole sont fiévreuses pendant 1 round. Il s’agit d’un effet de poison. La fabrication de cet objet requiert un test d’Artisanat (alchimie) DD 20.
 
+{s:racial|Fetchelin (race)|fetchelins|Illustrations/PNJ/Fetchelin.jpg}{s:MR}{s:Reference|Fiole de nectar d'ombre}
+====Fiole de nectar d'ombre==== 
+Ce léger liquide noir est conservé dans des fioles hermétiques parce qu’il s’évapore très vite au contact de l’air. Ses vapeurs écœurantes s’accrochent à une cible et obscurcissent sa vision pour une courte durée. Il est possible de lancer une fiole de nectar d’ombre comme une arme à aspersion avec un facteur de portée de 3 mètres. Si la cible est touchée directement, elle considère alors la luminosité ambiante comme plus faible que la normale d’une catégorie, et une créature déjà plongée dans les ténèbres naturelles sera considérée comme plongée dans des ténèbres surnaturelles. Cet effet dure 1 [[round]]. Une fiole de nectar d’ombre lancée n’a aucun effet sur les créatures adjacentes ou si elle manque sa cible.
 
 {s:mca}{s:Reference|Fioles de poudre de diamant}
 ====Fioles de poudre de diamant==== 
 Ces fioles sont remplies de cristaux minéraux réduits en poudre. Quand le personnage brise une fiole en portant un coup de poing, la cible touchée doit réussir un jet de [[Réflexes]] [[DD]] 20 pour se protéger les yeux et ne pas être temporairement [[aveuglé|aveuglée]] pendant 1 [[round]].
 
+{s:racial|Suli (race)|sulis|Illustrations/PNJ/Suli.jpg}{s:MR}{s:Reference|Flux élémentaire}
+====Flux élémentaire (flasque)==== 
+Cette flasque de poudre alchimique réagit à la puissance élémentaire qui coule dans les veines du suli. Le fait d’y ajouter du sang suli à hauteur de 1 point de vie crée une arme à aspersion élémentaire. L’arme à aspersion fonctionne comme une [[Armes alchimiques#Acide|flasque d’acide]], à la seule différence que les dégâts infligés sont d’un type d’énergie aléatoire (acide, froid, électricité ou feu). Un test d’[[Artisanat]] (alchimie) [[DD]] 10 permet d’identifier le type d’énergie de la flasque activée. Le flux activé conserve sa puissance pendant 24 heures avant de se transformer en matériau inerte. Le DD du test d’Artisanat (alchimie) pour créer ce flux est de 20.
 
 {s:AE}{s:Reference|Fontaine de flammes}
 ====Fontaine de flammes====
 Ce tube creux en métal ou en bois contient une poudre à combustion lente. Lorsque le personnage enflamme le tube (une action de mouvement), il crée une fontaine d’étincelles de 90 centimètres de haut. Le personnage manie cette fontaine d’étincelles comme s’il s’agissait d’une masse d’armes lourde. Les attaques qu’il porte avec sont des attaques de contact au corps à corps. La fontaine inflige 1d8 points de dégâts de feu (le modificateur de Force du personnage ne s’applique pas aux dégâts).
 La fontaine émet la même lumière qu’une torche et peut enflammer les matériaux combustibles comme le parchemin, la paille, les brindilles sèches et le tissu. Une fois allumée, elle brûle pendant 1 minute. Si elle est éteinte avant, le temps qu’il lui restait à brûler est perdu. La fabrication de cet objet requiert un test d’Artisanat (alchimie) DD 25.
 
-
 {s:AE}{s:Reference|Fontaine stellaire}
 ====Fontaine stellaire====
 Ce paquet de tubes de la taille d’une souche d’arbre dessine des arcs d’étincelles multicolores quand on l’allume. 1d6 rounds après la mise à feu, il libère des éclairs bruyants et hauts en couleurs, faits de toutes petites flammèches, pendant 4 rounds. En extérieur, ces particules enflammées s’envolent haut dans le ciel avant de se disperser. En intérieur ou dans les zones fermées, les flammèches ricochent, infligeant 1d6 points de dégâts de feu par round dans un rayon de 6 mètres (Réflexes DD 15, 1/2 dégâts). Les créatures qui ratent leur jet sont aveuglées pendant 1d4 rounds et assourdies pendant 1 heure. La
 fabrication de cet objet requiert un test d’Artisanat (alchimie) DD 25.
 
-
 {s:AE}{s:Reference|Foudre en bouteille}
 ====Foudre en bouteille====
 L’électricité crépite le long du filament en métal enfermé dans cette petite bouteille en verre. Le personnage peut ouvrir la bouteille par une action simple, libérant ainsi un petit éclair de foudre sur un ennemi situé dans un rayon de 6 mètres. Il s’agit d’une attaque de contact à distance infligeant 1d8 points de dégâts d’électricité. Toutes les créatures situées sur la ligne séparant le personnage de sa cible (y compris la cible) reçoivent 1 point de dégâts soniques à cause de l’énorme coup de tonnerre généré par l’éclair (Réflexes DD 15 annule). La fabrication de cet objet requiert un test d’Artisanat (alchimie) DD 25.
-
 
 {s:AE}{s:Reference|Fusée d'artifice}
 ====Fusée d'artifice====
 Lorsqu’on enflamme ce bâton en bois de 30 centimètres, il se met à trembler et libère une poignée d’étincelles blanches diffusant la même lumière qu’une torche. Un round plus tard, il s’envole à une vitesse de 27 mètres pendant 1d6 rounds avant d’exploser dans une énorme gerbe de lumière et de bruit infligeant 2d6 points de dégâts de feu dans un rayon de 3 mètres (Réflexes DD 15, 1/2 dégâts). Quiconque reçoit des dégâts de l’explosion est aveuglé ou assourdi (50% de chances pour l’un
 comme pour l’autre) pendant 1 round. La fabrication de cet objet requiert un test d’Artisanat (alchimie) DD 25.
 
-
 {s:AE}{s:Reference|Gel à éclats}
 ====Gel à éclats====
 Ce gel vert vif se cristallise en éclats fins comme des aiguilles dès qu’il entre en contact avec l’air. Le personnage peut lancer une flasque de gel à éclats comme une arme à aspersion. Une attaque directe réussie inflige 1d4 points de dégâts perforants, les échardes pénétrant dans la chair de la cible. La case de la cible et toutes les cases adjacentes sont recouvertes d’éclats qui fonctionnent comme des chausse-trappes. Les chausse-trappes durent 5 rounds avant de se dissoudre en une vase verte inoffensive. Tous les effets infligeant des dégâts sonores sur une zone (comme cacophonie ou cri) détruisent immédiatement tous les éclats de gel de la zone. La fabrication d’une flasque de gel à éclats requiert un test d’Artisanat (alchimie) DD 20.
 
-
 {s:AE}{s:Reference|Glace liquide}
 ====Glace liquide====
 Aussi appelé « glace d’alchimiste », ce pot hermétique contient une substance d’un bleu cristallin qui se met à siffler et à s’évaporer une fois ouvert. Pendant 1d6 rounds après ouverture, mais avant que le liquide ne s’évapore complètement, le personnage peut s’en servir pour faire geler un liquide ou enduire un objet d’une fine couche de glace. Il peut également lancer la glace liquide comme une arme à aspersion. Une attaque directe réussie inflige 1d6 points de dégâts de froid. Les créatures situées dans un rayon de 1,50 mètre autour du point d’impact reçoivent 1 point de dégâts de froid à cause des éclaboussures. La fabrication de cet objet requiert un test d’Artisanat (alchimie) DD 25.
-
 
 {s:AE}{s:Reference|Grenade à mèche}
 ====Grenade à mèche====
 Cette boule creuse en argile contient une petite charge de poudre noire et une mèche à combustion lente. Il faut une action
 de mouvement pour allumer la mèche. 1d3 rounds plus tard, la grenade explose, infligeant 2d6 points de dégâts contondants et 1d6 points de dégâts de feu dans un rayon de 3 mètres (Réflexes DD 15, 1/2 dégâts). La grenade à mèche se lance comme une arme à aspersion. La fabrication de cet objet requiert un test d’Artisanat (alchimie) DD 25.
 
-
 {s:AE}{s:Reference|Grenade à plombs}
 ====Grenade à plombs====
 Cette variante de la grenade à mèche voit l’essentiel de sa poudre noire remplacé par des billes en métal. Lorsqu’elle
 explose, elle inflige 1d6 points de dégâts contondants, 1d6 points de dégâts perforants et 1d6 points de dégâts de feu dans un rayon de 3 mètres (Réflexes DD 15, 1/2 dégâts). Une grenade à plombs normale utilise des billes en fer mais elle peut également contenir des billes en argent, en fer froid ou en adamantium, passant la réduction de dégâts appropriée au matériau. Comme les munitions, les billes sont détruites après usage. La fabrication d’une grenade à plombs requiert un test d’Artisanat (alchimie) DD 25.
 
-
 {s:AE}{s:Reference|Huile de Kéros}
 ====Huile de Kéros====
 Aussi appelé huile des cracheurs de feu, ce liquide amer est plus difficile à enflammer que l’huile ordinaire mais brûle très vite à basse température, ce qui en fait un élément idéal pour les artistes exotiques tels que les danseurs ou les cracheurs de feu. Le personnage peut cracher une gorgée d’huile de kéros sur une flamme libre (comme celle d’une bougie, d’un allume-feu ou d’une torche) pour l’embraser, créant une brève explosion de feu. S’il l’utilise pour attaquer, il s’agit alors d’une attaque de contact à distance ayant une portée maximale de 1,50 mètre et infligeant 1d3 points de dégâts de feu. Si le personnage fait un 1 au dé, il inhale ou avale accidentellement une partie du carburant enflammé. Il reçoit 1d6 points de dégâts de feu et il est nauséeux pendant 1 round. Une bouteille d’huile de kéros contient 10 gorgées. Il faut une action simple pour prendre une gorgée d’une bouteille d’huile de kéros (le don Rechargement rapide réduit ce temps à une action de mouvement). La fabrication de cet objet requiert un test d’Artisanat (alchimie) DD 15.
 
+{s:racial|Hobgobelin (race)|hobgobelins|Illustrations/PNJ/Hobgobelin.jpg}{s:MR}{s:Reference|Infusion de puanteur}
+====Infusion de puanteur====
+Musc animal, viande avariée, plantes piquantes et toute autre substance fétide à portée de main viennent composer cette infusion de puanteur. Lorsqu’on fait bouillir ce mélange, il se transforme en une épaisse vase alchimique adhérant à tout ce qu’elle touche. Le hobgobelin peut projeter cette infusion de puanteur comme une arme à aspersion avec un facteur de portée de 3 mètres. Une créature touchée directement doit réussir un jet de [[Vigueur]] [[DD]] 15 ou être [[fiévreux|fiévreuse]] pendant 2d6 [[round|rounds]]. Si la cible rate son jet, elle doit faire un deuxième jet de Vigueur ou être [[nauséeux|nauséeuse]] pendant 1 round. Les créatures situées dans la zone d’aspersion doivent réussir un jet de Vigueur ou être fiévreuses pendant 1 round. Une créature qui boit une infusion de puanteur n’a pas droit à un [[jds|jet de sauvegarde]] et est fiévreuse pendant 2d6 rounds et nauséeuse pendant 1 round.
 
 {s:AE}{s:Reference|Lame liquide}
 ====Lame liquide====
 Le personnage peut vider le contenu de ce tube en métal de la longueur d’une paume d’un rapide mouvement de poignet (une action de mouvement), transformant instantanément le liquide gazeux transparent qu’il contient en une lame cristalline solide comme s’il s’agissait d’une épée courte de taille M avec la propriété [[Caractéristiques des armes#FRAGILE|fragile]] (voir p. 22). La lame dure 10 minutes, après quoi elle s’évapore, laissant derrière elle un tube. Le personnage peut ajouter une dose de poison au liquide du tube, ce revient à l’appliquer un poison sur une arme, mais il s’agit d’une action complexe. Lorsque le liquide se solidifie en une lame, l’arme est enduite d’une dose de ce poison. Lorsque la lame s’évapore, le poison disparaît également. La fabrication de cet objet requiert un test d’Artisanat (alchimie) DD 15.
-
 
 {s:AE}{s:Reference|Pierre tonnerre}
 ====Pierre tonnerre====
@@ -210,31 +223,29 @@ Le personnage peut lancer cette pierre avec une attaque de contact à distance a
 Lorsqu’elle touche une surface solide (ou reçoit un coup violent), elle génère une détonation assourdissante considérée comme une attaque sonore. Toutes les créatures situées dans un rayon de 3 mètres doivent réussir un jet de Vigueur de DD 15 ou être
 assourdies pendant 1 heure. En plus des effets évidents, une créature assourdie reçoit un malus de -4 à son initiative et a 20% de chances de rater et de perdre les sorts à composante verbale qu’elle tente de lancer. Le personnage n’ayant pas besoin de toucher une cible spécifique, il peut simplement viser une case de 1,50 mètre de côté. Considérez que la case cible a une CA de 5. La fabrication de cet objet requiert un test d’Artisanat (alchimie) DD 25.
 
+{s:racial|Homme-rat (race)|h-rats|Illustrations/PNJ/Homme-rat.jpg}{s:MR}{s:Reference|Poche de vérole}
+====Poche de vérole====
+Une poche de vérole est une gourde ou vessie animale alchimiquement protégée que l’on a remplie de matériaux toxiques en décomposition. Le personnage peut lancer une poche de vérole comme une arme à dispersion. Traitez cette attaque comme une attaque de contact à distance avec un facteur de portée de 3 mètres. Si la cible est touchée directement, elle doit faire un jet de [[Vigueur]] [[DD]] 13 ou contracter la [[Maladies#FIEVREDESMARRAIS|fièvre des marais]]. Tous les espaces adjacents à la case occupée par la cible de la poche de vérole sont recouverts de saletés infectieuses. Au cours de la minute qui suit, toutes les créatures blessées se trouvant dans l’un de ces espaces doivent également réussir un jet de Vigueur DD 9 ou contracter la fièvre des marais.
 
 {s:AE}{s:Reference|Poil à gratter}
 ====Poil à gratter====
 Cette fine poudre grise provoque des démangeaisons incontrôlables jusqu’à ce que la cible ait passé au moins 1 round à s’en débarrasser. Pour lancer un sachet de poil à gratter, il faut faire une attaque d’aspersion avec un facteur de portée de 3 mètres. Les créatures qui se trouvent sur la case au moment de l’impact doivent réussir un jet de Vigueur de DD 12 pour résister à la poudre, tandis que les créatures adjacentes doivent réussir un jet de Vigueur de DD 8. Les créatures qui ratent ce jet reçoivent un malus de -2 à leurs jets d’attaque, à leurs jets de sauvegarde, à leurs tests de compétence et à leurs tests de caractéristique tant qu’elles ne se sont pas débarrassées de la poudre. Il s’agit d’un effet de poison. La fabrication de cet objet requiert un test d’Artisanat (alchimie) DD 25.
 
-
 {s:mca}{s:Reference|Poings de verre}
 ====Poings de verre====
 Ces mitaines en cuir arborent quatre petites poches cousues sur les phalanges et dans lesquelles le personnage peut insérer de toutes petites fioles en verre cassant scellées de cire. Le personnage peut remplir ces fioles de minéraux broyés ou de [[Poisons|poison]]. Quand il frappe quelqu’un au visage, les fioles se brisent, libérant le contenu sur le visage et dans les yeux de la cible. Ensembles, les quatre fioles contiennent une dose de poison ou de minéraux broyés, il n'y a aucun effet si toutes les fioles ne sont pas remplies.
-
 
 {s:AE}{s:Reference|Poudre à éternuer}
 ====Poudre à éternuer====
 Cette grosse poudre jaune-rouge est une arme à aspersion provoquant des éternuements incontrôlés pendant 1d4+1 rounds. Quiconque se trouve sur la case d’impact doit réussir un jet de Vigueur de DD 12 pour résister à la poudre, tandis que les créatures des cases adjacentes doivent réussir un jet de Vigueur de DD 8. Les créatures affectées par la poudre à éternuer doivent réussir un jet de Vigueur DD 10 tous les rounds tant qu’ils éternuent, sinon, elles sont chancelantes jusqu’à leur prochain tour. Il s’agit d’un effet de poison. La fabrication de cet objet requiert un test d’Artisanat (alchimie) DD 25.
 
-
 {s:AE}{s:Reference|Poudre à flash}
 ====Poudre à flash====
 Cette épaisse poudre grise s’enflamme et brûle presque instantanément au contact d’une flamme, sous l’effet d’un frottement important ou sous l’effet d’un choc (si on la jette par terre) (une action simple). Les créatures situées dans un rayon de 3 mètres autour de l’explosion sont aveuglées pendant 1 round (Vigueur DD 13 annule). La fabrication de cet objet requiert un test d’Artisanat (alchimie) DD 20.
 
-
 {s:AO}{s:Reference|Résidu ectoplasmique}
 ====Résidu ectoplasmique====
 Cette flasque contient les résidus de fantômes ectoplasmiques mineurs et de créatures similaires. Le personnage peut lancer une flasque de résidu ectoplasmique comme une arme à aspersion. C’est une [[valeurs de combat#ATTAQUESDECONTACT|attaque de contact]] à distance avec un facteur de portée de 3 mètres. Une cible directement touchée par la substance ne subit aucun dégât mais doit réussir un jet de Volonté DD 13 pour ne pas être [[secoué|secouée]] pendant 1d4 rounds. Les créatures situées à 1,50 mètre ou moins de l’endroit où la flasque a atterri doivent réussir un jet de [[Volonté]] [[DD]] 13 pour ne pas être [[secoué|secouées]] pendant 1 round. C’est un effet [[créer un sort#EFFETMENTAL|mental]] de terreur.
-
 
 {s:AE}{s:Reference|Sacoche immobilisante}
 ====Sacoche immobilisante====
@@ -242,7 +253,6 @@ La sacoche immobilisante est un petit sac rempli de goudron, de résine et d’a
 la lance sur une créature (avec une attaque de contact à distance ayant un facteur de portée de 3 mètres), elle se disloque et toute la matière gluante en jaillit, enchevêtrant la cible. Elle se solidifie et se renforce au contact de l’air. 
 Une créature enchevêtrée reçoit un malus de -2 à ses jets d’attaque et un malus de -4 en Dextérité. Elle doit réussir un jet de Réflexes DD 15 ou restée collée au sol, incapable de bouger. Même sur un jet réussi, elle ne peut se déplacer qu’à la moitié de sa vitesse. Les créatures de taille TG ou plus grandes ne sont pas affectées par la sacoche immobilisante. Les créatures volantes ne sont pas collées au sol mais doivent réussir un jet de Réflexes DD 15 ou devenir incapables de voler (si elles utilisent leurs ailes pour voler) et tomber au sol. La sacoche immobilisante ne fonctionne pas sous l’eau.
 Une créature collée au sol (ou incapable de voler) peut se libérer un réussissant un test de Force DD 17 ou en utilisant une arme tranchante pour infliger 15 points de dégâts à la substance qui la retient. Une créature cherchant à se débarrasser de la substance dont elle est recouverte (ou une créature qui vient à son secours) n’a pas besoin de faire de jet d’attaque, elle touche automatiquement, après quoi elle doit faire un jet de dégâts pour savoir quelle quantité de substance elle a enlevée. Une fois libérée, la créature peut se déplacer (y compris voler) à la moitié de sa vitesse. Si la créature enchevêtrée essaye de lancer un sort, elle doit faire un test de concentration DD 15 + le niveau du sort, si elle échoue, elle est incapable de le lancer. La substance sèche et se fragilise au bout de 2d4 rounds, se craquelant et perdant de son efficacité. Une application de solvant universel sur une créature coincée la dissout immédiatement. La fabrication de cet objet requiert un test d’Artisanat (alchimie) DD 25.
-
 
 {s:AE}{s:Reference|Sacoche immobilisante de feu}
 ====Sacoche immobilisante de feu====

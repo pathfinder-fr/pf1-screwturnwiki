@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Outils alchimiques
 Title: Outils alchimiques
-LastModified: 2020-06-11 18:26
+LastModified: 2020-07-12 18:01
 Categories:
   - 'Armes et équipement'
 ---
@@ -12,6 +12,8 @@ Categories:
 |- CLASS="titre"
 | Outils || Prix || Poids || DD d'artisanat
 |- CLASS="premier"
+| [[Outils alchimiques#Accélérateur instable|Accélérateur instable]] || 50 po || 0,25 kg || 25
+|- 
 | [[Outils alchimiques#Allume-feu|Allume-feu]] || 1 po || — || 25
 |- 
 | [[Outils alchimiques#Argile noirfeu|Argile noirfeu]] || 20 po || 5 kg || 20
@@ -19,6 +21,8 @@ Categories:
 | [[Outils alchimiques#Ballon flotteur|Ballon flotteur]] || 10 po || 0,5 kg || 15
 |- 
 | [[Outils alchimiques#Bâton-bougeoir|Bâton-bougeoir]] || 1 po || 0,5 kg || 20
+|- 
+| [[Outils alchimiques#Bâton de lune|Bâton de lune]] || 10 po || 0,5 kg || 25
 |-
 | [[Outils alchimiques#Bâton éclairant|Bâton éclairant]] || 2 po || 0,5 kg || 25
 |-
@@ -38,6 +42,8 @@ Categories:
 |- 
 | &emsp; Pour arme en fer froid || 20 po || 0,25 kg || 20
 |-
+| [[Outils alchimiques#Breuvage de guerre hobgobelin|Breuvage de guerre hobgobelin]] || 10 po || 0,5 kg || 20
+|-
 | [[Outils alchimiques#Capsule vomitive|Capsule vomitive]] || 12 po || — || 15
 |-
 | [[Outils alchimiques#Ciment alchimique|Ciment alchimique]] || 5 po || 1 kg || 15
@@ -56,6 +62,10 @@ Categories:
 |-
 | [[Outils alchimiques#Encre de feu|Encre de feu (fiole)]] || 40 po || — || 25
 |-
+| [[Outils alchimiques#Encre de feu ifrit|Encre de feu ifrit]] || 1 po || — || 15
+|-
+| [[Outils alchimiques#Encens antiodeur|Encens antiodeur]] || 80 po || — || 20
+|-
 | [[Outils alchimiques#Encre luisante|Encre luisante]] || 5 po || — || 15
 |-
 | [[Outils alchimiques#Encre sympathique|Encre sympathique]] ||   ||   || </sup>
@@ -67,20 +77,34 @@ Categories:
 | &emsp; supérieure || 75 po || — || 25
 |- 
 | &emsp; bonne || 25 po || — || 20
+|-
+| [[Outils alchimiques#Éponge à potion|Éponge à potion]] || 2 po || — || 15
+|-
+| [[Outils alchimiques#Éponge filtrante|Éponge filtrante]] || 25 po || 0,5 kg || 15
+|- 
+| [[Outils alchimiques#Feuilles d'érable doré|Feuilles d'érable doré]] || 50 po || 0,25 kg || —
+|-
+| [[Outils alchimiques#Galets du Petit Poucet|Galets du Petit Poucet]] || 50 po || 0,5 kg || 25
+|-
+| [[Outils alchimiques#Huile des maîtres|Huile des maîtres]] || 50 po || 0,25 kg || 25
+|-
+| [[Outils alchimiques#Huile sainte|Huile sainte]] || 25 po || 0,5 kg || 20
 |}
 </td><td width="50%">
 {| CLASS="tablo centre autoalt toutgauche" WIDTH="94%"
 |+ Outils alchimiques
 |- CLASS="titre"
 | Outils || Prix || Poids || DD d'artisanat
-|- CLASS="premier"
-| [[Outils alchimiques#Éponge filtrante|Éponge filtrante]] || 25 po || 0,5 kg || 15
-|-
-| [[Outils alchimiques#Galets du Petit Poucet|Galets du Petit Poucet]] || 50 po || 0,5 kg || 25
-|-
-| [[Outils alchimiques#Huile des maîtres|Huile des maîtres]] || 50 po || 0,25 kg || 25
+|- CLASS="premier" 
+| [[Outils alchimiques#Lance-bombe|Lance-bombe]] || 10 po || 0,25 kg || 25
+|- 
+| [[Outils alchimiques#Lanterne de lumière noire|Lanterne de lumière noire]] || 20 po || 1,5 kg || —
+|- 
+| [[Outils alchimiques#Lichen de camouflage|Lichen de camouflage]] || 100 po || — || —
 |- 
 | [[Outils alchimiques#Liquide d'embaumement|Liquide d'embaumement]] || 50 po || 5 kg || 25
+|- 
+| [[Outils alchimiques#Lunettes de vision obscure|Lunettes de vision obscure]] || 200 po || — || 25
 |-
 | [[Outils alchimiques#Masque-odeur|Masque-odeur]] ||   ||   || </sup>
 |- 
@@ -95,6 +119,10 @@ Categories:
 | [[Outils alchimiques#Nushadir|Nushadir]] || 10 po || 0,5 kg || 20
 |-
 | [[Outils alchimiques#Onguent d'armure|Onguent d'armure]] || 30 po || 0,5 kg || 15
+|-
+| [[Outils alchimiques#Onguent de rochéclats|Onguent de rochéclats]] || 150 po || 0,5 kg || 20
+|-
+| [[Outils alchimiques#Onguent de sang fiélon|Onguent de sang fiélon]] || 75 po || 0,5 kg || 20
 |- 
 | [[Outils alchimiques#Papier magnétisé|Papier magnétisé]] || 11 po || 0,5 kg || 15
 |-
@@ -106,27 +134,43 @@ Categories:
 |-
 | [[Outils alchimiques#Plâtre de moulage|Plâtre de moulage]] || 5 pa || 2,5 kg || 25
 |-
+| [[Outils alchimiques#Poche-araignée|Poche-araignée]] || 30 po || 0,5 kg || 20
+|-
 | [[Outils alchimiques#Poudre écumante|Poudre écumante]] || 10 po || 0,5 kg || 20
 |-
 | [[Outils alchimiques#Poudre de pistage|Poudre de pistage]] || 30 po || — || 25
 |- 
 | [[Outils alchimiques#Poudre oxydante|Poudre oxydante]] || 60 po || — || 30
 |-
+| [[Outils alchimiques#Purulence noire|Purulence noire (fiole)]] || 30 po || — || 25
+|-
+| [[Outils alchimiques#Sang de molosse|Sang de molosse (fiole)]] || 110 po || — || 20
+|-
+| [[Outils alchimiques#Sang d’ifrit|Sang d’ifrit]] || 50 po || 0,5 kg || 20
+|-
 | [[Outils alchimiques#Sèche-colle alchimique|Sèche-colle alchimique]] || 25 po || — || 25
 |-
-| [[Outils alchimiques#Solution adhésive|Solution adhésive]] || 25 po || 0,5 || kg 20
+| [[Outils alchimiques#Solution adhésive|Solution adhésive]] || 25 po || 0,5 kg || 20
 |- 
-| [[Outils alchimiques#Solvant alchimique|Solvant alchimique]] || 20 po || 0,25 kg || 20
+| [[Outils alchimiques#Solvant alchimique|Solvant alchimique]] || 80 po || 0,25 kg || 20
+|- 
+| [[Outils alchimiques#Souffle élémentaire|Souffle élémentaire]] || 20 po || 0,25 kg || 20
 |-
 | [[Outils alchimiques#Tabac du traqueur|Tabac du traqueur]] || 200 po || — || 30
+|-
+| [[Outils alchimiques#Tatouage empoisonné|Tatouage empoisonné]] || 50 po || — || 20
 |-
 | [[Outils alchimiques#Teinture repère|Teinture repère]] || 15 po || 0,5 kg || 15
 |-
 | [[Outils alchimiques#Tonique caverneux|Tonique caverneux]] || 50 po || — || 25
 |-
+| [[Outils alchimiques#Tonique infectieux|Tonique infectieux]] || 150 po || 0,5 kg || 20
+|-
 | [[Outils alchimiques#Trousse à pastels de guède|Trousse à pastels de guède]] || 300 po || 0,5 kg || 30
 |-
 | &emsp;Pastel de guède (1 bâtonnet) || 60 po || — || 30
+|-
+| [[Outils alchimiques#Trousse de marquage olfactif|Trousse de marquage olfactif]] || 10 po || 2,5 kg || 25
 |}
 </td></tr></table>
 
@@ -134,7 +178,11 @@ Categories:
 Les outils alchimiques sont des objets conçus pour les aventuriers qui peuvent s’avérer extrêmement utiles dans de nombreuses
 situations, y compris au cours d’un combat, lors de l’exploration d’un donjon ou pour fabriquer d’autres objets alchimiques. Un personnage ayant la compétence Artisanat (alchimie) peut fabrique tous ces outils. Le DD de fabrication est précisé dans la Table précédente.
 
-{s:AE}{s:Reference|Allume-feu}
+{s:racial|Hobgobelin (race)|hobgobelins|Illustrations/PNJ/Hobgobelin.jpg}{s:MR}{s:Reference|Accélérateur instable}
+====Accélérateur instable====
+Mélange volatile d’agents réactifs inflammables, l’accélérateur instable peut être lancé au même titre que le feu de l’alchimiste. Entre les mains d’un [[alchimiste]], une fiole d’accélérateur instable peut être utilisée pour créer une [[alchimiste#BOMBES|bombe]], augmentant ses dégâts de feu de +1d6 points. Il n’a aucun effet sur les bombes n’infligeant pas de dégâts de feu. Si la bombe dure plus d’un instant, les dégâts supplémentaires ne s’appliquent qu’à ceux du premier [[round]].
+
+{s:ClearRight}{s:AE}{s:Reference|Allume-feu}
 ====Allume-feu====
 La substance alchimique qui enrobe le bout de ces petits bâtonnets en bois s’enflamme lorsqu’on les gratte contre une surface rugueuse (une action de mouvement). C’est beaucoup plus rapide de créer une flamme avec un allume-feu qu’avec du petit bois, une amorce et un silex ou une loupe. Il faut une action simple pour allumer une torche avec un allume-feu, non pas une action complexe, et il faut juste une action simple pour allumer n’importe quel autre feu. L’allume-feu brûle pendant 1d2 rounds et émet la même lumière qu’une bougie. Les allume-feu résistent à l’eau mais il faut les sécher avant de les gratter.
 
@@ -151,6 +199,10 @@ de la poche, l’emplissant d’un gaz plus léger que l’air pour en faire une
 {s:AE}{s:Reference|Bâton-bougeoir}
 ====Bâton-bougeoir====
 Similaire au bâton éclairant, en plus faible, le bâton-bougeoir brille comme une bougie lorsqu’il est brisé et dure 12 heures.
+
+{s:racial|Gnome|gnomes|Illustrations/PNJ/Gnome.jpg}{s:MR}{s:Reference|Bâton de lune}
+====Bâton de lune====
+Ce bâton d’une trentaine de centimètres se termine par des ferrures d’argent et émet une faible lueur quand on le frotte, par une action simple. Il déverse une faible lumière dans un rayon de 9 mètres. Les créatures qui disposent de la vision nocturne remarquent facilement cette lumière et, pour elles, le niveau de luminosité augmente d’un cran (normal au maximum) dans un rayon de 18 mètres. Le bâton brille pendant 6 heures, ensuite, le bout en argent est entièrement brûlé et il n’a plus aucune valeur.
 
 {s:AE}{s:Reference|Bâton éclairant}
 ====Bâton éclairant====
@@ -181,11 +233,15 @@ Ces poudres alchimiques en argent ont une consistance graveleuse, donnant l’im
 de métal. Mais quand on les dépose sur une arme qu’on place ensuite au-dessus d’une flamme chaude pendant un round
 complet, elles fondent et forment une gaine temporaire autour de l’arme. Le blanchiment donne à l’arme la capacité de passer une réduction de dégâts basée sur un type de matériau, comme l’adamantium, le fer froid ou l’argent. Le blanchiment dure jusqu’à ce que le personnage réussisse une attaque avec cette arme. Chaque dose de blanchis permet de recouvrir une arme ou 10 munitions. On ne peut pas utiliser plusieurs types de blanchis à la fois sur une même arme mais les armes faites en matériaux spéciaux (comme l’adamantium) peuvent supporter le blanchis d’un autre matériau (comme l’argent) et comptent comme des armes faites des deux matériaux lors de la première attaque réussie. 
 
+{s:racial|Hobgobelin (race)|hobgobelins|Illustrations/PNJ/Hobgobelin.jpg}{s:MR}{s:Reference|Breuvage de guerre hobgobelin}
+====Breuvage de guerre hobgobelin====
+Cette boisson est un mélange alchimique nauséabond d’alcool brut, d’asticots écrasés et de champignons médicinaux. Un hobgobelin sous les effets de ce breuvage de guerre ignore tous les malus dus aux états préjudiciables [[fatigué]] et [[secoué]] pendant 10 minutes, après quoi il doit réussir un jet de [[Vigueur]] [[DD]] 15 ou être [[fiévreux]] pendant 1 heure. Quiconque n’est pas de sous-type gobelinoïde et boit du breuvage de guerre doit immédiatement faire un jet de Vigueur DD 15 ou être fiévreux pendant 1 heure ; si le buveur réussit son jet, il ignore tous les malus dus aux états préjudiciables fatigué et secoué pendant 1 minute, après quoi il est fiévreux pendant 10 minutes. Le breuvage de guerre hobgobelin n’a aucun effet sur les créatures immunisées aux poisons.
+
 {s:mca}{s:Reference|Capsule vomitive}
 ====Capsule vomitive====
 Ces petites capsules se composent d’un mélange concentré de plantes émétiques. Pour utiliser une capsule, le personnage la mord et en ingère le contenu, ce qui provoque presque immédiatement des vomissements, qui durent 1 round complet pendant lequel le personnage ne peut entreprendre aucune action. Le round suivant, il récupère complètement et ne souffre d’aucun effet secondaire. Ces capsules sont le plus souvent utilisées par les roublards, qui travaillent en équipe afin de créer des diversions et des spectacles pour détourner l’attention des gens de leurs activités, ainsi que par ceux qui cherchent à feindre la maladie, comme les pugilistes qui essayent d’éviter le combat ou les criminels qui souhaitent semer le chaos pendant une arrestation. 
 
-{s:AE}{s:Reference|ciment alchimique}
+{s:AE}{s:Reference|Ciment alchimique}
 ====Ciment alchimique====
 Le personnage mélange cette fine poudre grise avec de l’eau et 0,3 dm3 de sable ou de gravier pour former un matériau résistant similaire à la pierre. Tant qu’il n’est pas sec, il a la consistance d’une boue épaisse et le personnage doit le maintenir en place (avec une cadre en terre ou en bois) s’il souhaite lui donner une forme spécifique. Il faut 1d10+10 minutes pour que le ciment sèche partiellement, gagnant ainsi une solidité de 2 et 5 points de vie par tranche de 2,5 centimètres d’épaisseur. Après 1d6 heures, le ciment est complètement sec et aussi solide que la pierre.
 
@@ -216,9 +272,17 @@ Cette plaque de métal de la taille de la main est recouverte d’une fine couch
 ====Dissimulateur d'odeur====
 Ce mélange d’épices, de graines, de musc et de réactifs alchimiques grossièrement moulu s’étale sur la peau et les vêtements pour couvrir l’odeur naturelle du personnage, augmentant le DD du pistage à l’odorat de +10 pendant 24 heures. Le personnage ayant toujours une odeur, les créatures ayant la capacité odorat peuvent quand même le repérer et le localiser s’il est enduit de dissimulateur, en revanche, elles ne peuvent pas identifier son odeur comme celle d’une personne unique. Il faut un round complet pour se débarrasser du dissimulateur d’odeur.
 
-{s:mca}{s:Reference|Encre de feu}
+{s:racial|Gnome|gnomes|Illustrations/PNJ/Gnome.jpg}{s:MR}{s:Reference|Encens antiodeur}
+====Encens antiodeur====
+L’encens antiodeur est une sorte de bâton fumigène qui bloque la plupart des odeurs. Tant que la fumée persiste, les créatures qui disposent du pouvoir odorat doivent réussir un test de [[Perception]] opposé au test de [[Discrétion]] des créatures qui se trouvent dans la fumée pour les localiser. Si une créature passe 5 rounds ou plus dans la fumée, elle s’accroche à lui et dissimule son odeur pendant 1 round après qu’elle a quitté le nuage de fumée.
+
+{s:ClearRight}{s:mca}{s:Reference|Encre de feu}
 ====Encre de feu====
 Cette encre alchimiquement infusée permet aux messages secrets de se détruire d’eux-mêmes après avoir été lus. Si la lumière frappe l’encre après qu’elle a séché, ses agents chimiques provoquent une combustion spontanée en l’espace d’une minute environ. Il s’agit d’une petite combustion : elle ne suffit pas à enflammer autre chose que le papier. Quand on l’utilise sur d’autres matériaux, comme la pierre ou le bois, l’encre disparaît simplement, ne laissant aucune trace d’écriture derrière elle. Une fiole contient suffisamment d’encre pour écrire 10 messages courts ne faisant pas plus de 50 mots chacun.
+
+{s:racial|Ifrit (race)|ifrits|Illustrations/PNJ/Ifrit.jpg}{s:MR}{s:Reference|Encre de feu ifrit}
+====Encre de feu ifrit====
+Cette encre jaune vif réagit à la chaleur du corps de la créature pour créer une lueur tremblotante semblable à une flamme. Il faut 10 minutes pour appliquer de l’encre de feu, et 1 dose recouvre à peu près une main. Une fois appliquée, l’encre luit comme une bougie pendant 24 heures. Quatre doses ou plus appliquées sur une même partie du corps font briller comme une [[Équipement daventurier#Torche|torche]] pendant 24 heures. La réaction alchimique de l’encre à la peau et à la chaleur corporelle de la cible est douloureuse et irritante, rendant celle-ci [[fiévreux|fiévreuse]] tant que dure la lumière. Un test de [[Premiers secours]] [[DD]] 15 permet d’apaiser temporairement ces sensations, annulant l’état fiévreux pendant 1 heure. Les créatures immunisées ou résistantes au feu sont immunisées à cet effet de fièvre. Les ifrits sont connus pour adorer cette encre, et les cracheurs de feu ifrits ornent souvent leur peau de motifs enflammés avant leurs spectacles. Une version concentrée de cette encre coûte 10 fois plus cher et peut être utilisée pour créer des tatouages qui brillent en permanence.
 
 {s:AE}{s:Reference|Encre luisante}
 ====Encre luisante====
@@ -232,9 +296,17 @@ L’encre sympathique est un outil de base pour les espions, les rebelles et les
 ''Bonne.'' Cette encre est liée à deux agents révélateurs inhabituels ou à un agent révélateur rare comme un millésime de vin spécifique ou le sang d’un type de monstre spécifique (DD 30 pour la révéler sans l’agent).  
 ''Supérieure.'' Cette encre est liée à deux agents révélateurs rares ou à un révélateur unique comme le sang d’une personne spécifique (DD 35 pour la révéler sans l’agent).
 
+{s:racial|Ondin (race)|ondins|Illustrations/PNJ/Ondin.jpg}{s:MR}{s:Reference|Éponge à potion}
+====Éponge à potion====
+Cette éponge de la taille d’un œuf est recouverte d’une couche de cire comestible et imperméable prévue pour absorber 1 dose de potion. Il coûte une [[action complexe]] de mâcher une éponge à potion et d’avaler le liquide qu’elle contient. Une créature au moins de taille G peut avaler l’éponge entièrement ; les autres créatures doivent recracher l’éponge une fois qu’elle est épuisée (par une [[action libre]]). Contrairement aux potions à boire dans une fiole, une éponge à potion peut être utilisée sous l’eau. Il est possible de verser la potion d’une fiole dans une éponge à potion (ou d’essorer la potion d’une éponge dans une fiole) par une [[action complexe]]. L’éponge à potion est immunisée aux attaques visant spécifiquement le cristal, le verre, la céramique ou la porcelaine, comme ''[[fracassement]]''. En outre, elle fonctionne comme une fiole de potion.
+
 {s:AE}{s:Reference|Éponge filtrante}
 ====Éponge filtrante====
 Cette éponge bleue de la taille d’un poing peut absorber jusqu’à 0,5 litre d’eau. En l’essorant, le personnage filtre l’eau et la purifie avant de la boire, de s’en servir pour laver quelque chose ou autre. Il faut une action complexe pour saturer et essorer une éponge. Le filtrage suffit à éliminer toutes les impuretés ordinaires et les maladies courantes mais il ne protège pas contre les poisons, la magie et les autres menaces exotiques. Chaque éponge peut purifier 12 litres d’eau avant de s’abîmer et de devenir inutile.
+
+{s:racial|Demi-elfe|demi-elfes|Illustrations/PNJ/Demi-elfe.jpg}{s:MR}{s:Reference|Feuilles d'érable doré}
+====Feuilles d'érable doré====
+On recueille ces puissants additifs sur une espèce d’érable très rare qui pousse uniquement dans les zones urbaines. Ces petits arbres biscornus grandissent très lentement (leurs feuilles mettent 3 ans pour atteindre la maturité). Ce sont presque toujours des demi-elfes qui en prennent soin. De plus, les demi-elfes ont une conscience aiguë de l’effort que l’arbre fait pour développer ses feuilles et réservent généralement ses produits aux gens de leur espèce uniquement. On peut couper et faire sécher les feuilles de l’érable quand elles prennent la jolie couleur dorée qui lui vaut son nom. On les réduit ensuite en poudre lors d’un processus qui demande un test de [[Connaissances]] (nature) ou de [[Profession]] (herboriste) [[DD]] 15. Quand on utilise cette poudre pour créer une substance ou un objet spécial qui demande un test d’[[Artisanat]] (alchimie), comme de la [[Remèdes alchimiques#Graisse alchimique|graisse alchimique]] ou une [[Armes alchimiques#Sacoche immobilisante|sacoche immobilisante]], elle réduit le [[DD]] du test de 5 et ajoute un bonus de +1 au [[DD]] de l’objet (s’il en a un). Une dose de poudre de feuille d’érable doré suffit à améliorer la fabrication de trois objets alchimiques.
 
 {s:mca}{s:Reference|Galets du Petit Poucet}
 ====Galets du Petit Poucet====
@@ -244,9 +316,29 @@ Semblables à des bâtons éclairants, ces petits galets blancs sont traités al
 ====Huile des Maîtres====
 Cette huile dorée a l’odeur des copeaux de bois. Quand le personnage l’applique sur les cordes d’un instrument à cordes ou sur le corps d’un bois, elle améliore la qualité sonore de l’instrument. Pendant 1 heure, quiconque joue de l’instrument gagne un bonus alchimique de +2 aux tests de Représentation appropriés.
 
+{s:racial|Aasimar (race)|aasimars|Illustrations/PNJ/Aasimar.jpg}{s:MR}{s:Reference|Huile sainte}
+====Huile sainte====
+Cette huile sacrée, infusée avec des épices aromatiques et de l’eau bénite distillée, peut être appliquée sur une créature tandis qu’elle lance un sort divin inoffensif ayant une portée de contact. Ceci augmente le temps d’incantation à une [[action complexe]], mais accroît également le niveau de lanceur de sorts effectif du lanceur de +1 pour ce sort.
+
+{s:ClearRight}{s:racial|Gobelin (race)|gobelins|Illustrations/PNJ/Gobelin.jpg}{s:MR}{s:Reference|Lance-bombe}
+====Lance-bombe====
+Ces vieux engins bizarres en forme d’œuf sont dotés de nageoires stratégiquement placées qui augmentent la précision des bombes. Les [[alchimiste|alchimistes]] gobelins utilisent ces conteneurs pour donner plus de précision à leurs [[alchimiste#BOMBES|bombes]] lorsqu’ils les lancent sur de longues distances. L’utilisation d’un lance-bombe pour jeter une bombe augmente le facteur de portée de celle-ci de 9 mètres (ou, avec la découverte [[Découvertes#BOMBEFUSEE|bombe-fusée]], augmente le facteur de portée de la bombe de 21 mètres). Les lance-bombes sont détruits après utilisation.
+
+{s:racial|Fetchelin (race)|fetchelins|Illustrations/PNJ/Fetchelin.jpg}{s:MR}{s:Reference|Lanterne de lumière noire}
+====Lanterne de lumière noire====
+Cette lanterne ne brûle pas de l’huile, mais du [[Armes alchimiques#Fiole de nectar d’ombre|nectar d’ombre]]. Lorsque le nectar d’ombre est utilisé comme combustible, cette lanterne crée des ténèbres étranges et floues qui diminuent la luminosité d’un degré dans un rayon de 9 mètres. Contrairement à ce qui se passe lorsque le nectar d’ombre est lancé sur une seule cible, ce flou ne transforme pas les ténèbres naturelles en ténèbres surnaturelles. Une fiole de nectar d’ombre alimente une lanterne de lumière noire pendant 1 minute.
+
+{s:ClearRight}{s:racial|Oréade (race)|oréades|Illustrations/PNJ/Oréade.jpg}{s:MR}{s:Reference|Lichen de camouflage}
+====Lichen de camouflage====
+Bien que les oréades aux traits rocailleux soient rares, presque tous ont une peau essentiellement faite de terre, parfaite pour cultiver la vie végétale. Là où les autres races seraient choquées à l’idée que des plantes prennent racine dans leur chair, les oréades considèrent ce phénomène comme naturel et comme une extension saine de leur nature élémentaire. Pour cette raison, les herboristes oréades développent plusieurs souches de mousse et de lichen spécifiquement adaptées pour pousser sur leur corps. Le lichen de camouflage est la variété de plantes oréades la plus commune. Il faut 1 minute pour appliquer de la pâte de spores de lichen de camouflage sur la peau, et 24 heures de plus pour que le champignon germe. Ensuite, l’oréade est couvert d’une fine couche verte de matière végétale vivante lui accordant un bonus de +4 aux tests de [[Discrétion]] effectués dans les jungles et les forêts vertes. Il en existe des variétés rouge-orangé et blanches, qui accordent des bonus dans les environnements aux couleurs correspondantes (rouge-orangé au milieu des feuilles d’automne ou dans les déserts rouges, blanc dans la neige, etc.) Le lichen de camouflage a une courte durée de vie ; il flétrit et meurt 3 jours après l’application, s’effritant en une poudre inoffensive. L’objet ne fonctionne que sur les oréades et les autres créatures ayant un corps semblable à la pierre.
+
 {s:AE}{s:Reference|Liquide d'embaumement}
 ====Liquide d'embaumement====
 Cette substance est utilisée pour conserver les corps, que ce soit pour une dissection ultérieure, une taxidermie, de la nécromancie ou de la magie comme rappel à la vie. Techniquement, le liquide d’embaumement est un poison et son utilisation rend le corps immangeable pour la plupart des animaux et pour la vermine, bien que le goût ne dérange pas les morts-vivants charognards. Il faut une heure et un test de Premiers secours DD 25 pour traiter un corps avec du liquide d’embaumement. Un corps embaumé se décompose à la moitié du rythme normal (chaque jour après la mort compte comme une demi-journée en ce qui concerne rappel à la vie).
+
+{s:racial|Fetchelin (race)|fetchelins|Illustrations/PNJ/Fetchelin.jpg}{s:MR}{s:Reference|Lunettes de vision obscure}
+====Lunettes de vision obscure====
+Ces lunettes non-magiques sont taillées dans de la pierre semblable à de l’obsidienne, noire et traitée alchimiquement, que l’on trouve dans les régions montagneuses du plan de l’Ombre. Les lunettes de vision obscure s’adaptent aux yeux uniques des fetchelins de telle manière que lorsqu’ils les portent, elles allongent la portée de leur vision dans le noir à 27 mètres. Cependant ils gagnent également la faiblesse sensibilité à la lumière. Les autres races ne peuvent pas voir à travers les lentilles de ces lunettes : elles n’ont aucun effet sur les fetchelins dont les yeux ont été modifiés par le don [[Vision ténébreuse]]. Bien qu’elles soient davantage de nature alchimique que magique, ces lunettes occupent l’emplacement yeux des objets magiques.
 
 {s:mca}{s:Reference|Masque-odeur}
 ====Masque-odeur====
@@ -264,6 +356,14 @@ Ce réactif se présente souvent sous forme de petites billes salées conservée
 ====Onguent d'armure====
 Cet épais lubrifiant donne plus de souplesse aux articulations des armures. L’application de l’onguent prend 1 minute et réduit le malus d’armure de 1 (jusqu’à un minimum de -1) pendant 8 heure
 
+{s:racial|Oréade (race)|oréades|Illustrations/PNJ/Oréade.jpg}{s:MR}{s:Reference|Onguent de rochéclats}
+====Onguent de rochéclats====
+Ce baume gris et granuleux affaiblit les matériaux rocheux. Lorsqu’il est appliqué à un objet en pierre, il réduit sa solidité de 3 pendant 10 minutes. Par une [[action simple]], une créature peut appliquer cette pâte pour affecter une case de 1,5 mètre de côté ou une créature de taille M ou plus petite. La pâte n’affecte que la solidité, elle n’a aucun effet sur la [[RD|réduction de dégâts]] ou les défenses similaires.
+
+{s:ClearRight}{s:racial|Tieffelin (race)|tieffelins|Illustrations/PNJ/Tieffelin.jpg}{s:MR}{s:Reference|Onguent de sang fiélon}
+====Onguent de sang fiélon====
+Quand cet onguent (préparé à partir d’agents réactifs alchimiques et de sang de fiélons) est appliqué sur un tieffelin ou un extérieur Mauvais blessé (qui n’est pas au maximum de ses points de vie), il transforme temporairement l’essence de la cible en quelque chose d’encore plus redoutable et démoniaque. Lorsqu’il est sous les effets de l’onguent de sang fiélon, le tieffelin ou l’extérieur Mauvais gagne un bonus de circonstances de +2 à ses tests d’[[Intimidation]] et un bonus de circonstances de +1 au [[DD]] de tous les sorts du registre terreur qu’il lance. L’application de cet onguent est un processus délicat, nécessitant une [[action complexe]], et ne peut être réalisée correctement que sur une créature consentante ou [[sans défense]]. S’il est appliqué à une créature autre qu’un tieffelin ou un extérieur Mauvais, il rend la créature [[fiévreux|fiévreuse]]. Les effets de l’onguent (qu’ils soient bénéfiques ou préjudiciables) durent 1 minute.
+
 {s:AO}{s:Reference|Papier magnétisé}
 ====Papier magnétisé====
 Cette flasque contient les résidus de fantômes ectoplasmiques mineurs et de créatures similaires. Le personnage peut lancer une flasque de résidu ectoplasmique comme une arme à aspersion. C’est une [[valeurs de combat#ATTAQUESDECONTACT|attaque de contact]] à distance avec un facteur de portée de 3 mètres. Une cible directement touchée par la substance ne subit aucun dégât mais doit réussir un jet de Volonté DD 13 pour ne pas être [[secoué|secouée]] pendant 1d4 rounds. Les créatures situées à 1,50 mètre ou moins de l’endroit où la flasque a atterri doivent réussir un jet de Volonté DD 13 pour ne pas être [[secoué|secouées]] pendant 1 round. C’est un effet [[créer un sort#EFFETMENTAL|mental]] de terreur.
@@ -279,6 +379,10 @@ Ce bonbon enrobé de miel est composé de réactifs apaisants. Quand il est cons
 {s:AE}{s:Reference|Pâte de réparation}
 ====Pâte de réparation====
 On peut utiliser cette pâte argentée et malodorante pour réparer temporairement des objets en métal. Elle est vendue dans un flacon hermétique et réagit à l’air en se solidifiant en 1d6+4 minutes. Le personnage doit faire le test d’Artisanat approprié DD20 pour réparer un objet en métal brisé. S’il réussit, l’objet n’est plus brisé mais passe à l’état fragile (voir p. 22). Augmentez le DD de +5 si l’objet brisé est un objet magique ou s’il s’agit d’une arme à feu (ajoutez les deux modificateurs s’il s’agit d’une arme à feu magique). Si le personnage rate son test, la pâte de réparation est gâchée mais il peut faire une nouvelle tentative avec un autre flacon ou en utilisant les méthodes de réparation conventionnelles.
+
+{s:racial|Drow (race)|drows|Illustrations/PNJ/Drow.jpg}{s:MR}{s:Reference|Poche-araignée}
+====Poche-araignée====
+Contrairement à ce qu’indique son nom, la poche-araignée n’a rien à voir avec les araignées, mais correspond plutôt à un outil alchimique doté d’un système de rangement unique. Utilisés pour l’escalade aussi bien que pour le combat, ces petits sacs grisâtres en forme de gourde sont créés à partir d’un champignon spécialement cultivé avec une paroi extérieure résistante, mais caoutchouteuse. Le fongoïde est soigneusement récolté, percé à une extrémité, évidé puis rempli d’un solide adhésif alchimique qui se solidifie pour former un matériau fibreux presque instantanément lorsqu’il est exposé à l’air. Quand on presse la poche-araignée, son adhésif s’élance à une portée maximale de 3 mètres pour se fixer à ce qu’il vient heurter, puis le fil sèche aussitôt pour former une solide corde fibreuse. Quand il s’agit d’escalader, considérez la poche-araignée comme un [[Équipement daventurier#Grappin|grappin]], à la seule différence que toutes les surfaces ont une [[CA]] de 5. La poche-araignée peut également servir de [[lasso (arme)|lasso]], à la seule différence qu’il a une [[CA]] de 10, 4 points de vie et nécessite un test de [[Force]] [[DD]] 24 pour être lancé. La poche-araignée est un objet à usage unique.
 
 {s:AE}{s:Reference|Plâtre de moulage}
 ====Plâtre de moulage====
@@ -297,6 +401,18 @@ Lorsque le personnage ajoute ce sac de poudre verte de 0,5 kg à un gallon d’e
 Cette poudre brune argileuse, dérivée des fluides de l’oxydeur, corrode le fer et les métaux similaires, les disloquant. Si le personnage applique une dose de poudre oxydante sur un cadenas ou un piège en métal en utilisant la compétence Sabotage, il gagne un bonus alchimique de +5 pour ouvrir le cadenas ou désactiver le piège mais il y a 75% de chances que le mécanisme soit détruit et ne puisse plus être réutilisé. On ne peut plus déverrouiller un cadenas détruit (mais il est quand même considéré comme verrouillé quand il s’agit d’ouvrir l’objet). Si la poudre détruit le mécanisme d’un piège, celui-ci se déclenche aussitôt. Si le personnage rate de 5 ou plus, la poudre tombe également sur un objet situé sur la case qu’il occupe (et éventuellement sur son armure ou son arme), lui infligeant 5 points de dégâts. La poudre oxydante est vendue dans un tube en carton. Le personnage l’applique en déchirant les deux bouts du tube avant de souffler la poudre sur l’objet ciblé. La poudre oxydante n’affecte pas l’or, l’argent, le cuivre, le bronze, l’airain ni le mithral mais affecte facilement le fer,
 l’acier et l’adamantium.
 
+{s:racial|Gnome|gnomes|Illustrations/PNJ/Gnome.jpg}{s:MR}{s:Reference|Purulence noire}
+====Purulence noire====
+Les orques appliquent souvent cette pâte noire sur leurs armes avant de lancer des raids, pour contrer la magie de guérison de leurs ennemis. La purulence noire reste sur l’arme, comme un poison, jusqu’à ce que la lame frappe un ennemi pour la première fois. La substance reste dans le corps de la victime pendant une heure. La victime résiste alors à la magie de guérison : si quelqu’un essaie de la soigner par magie, il doit réussir un test de niveau de lanceur de sorts [[DD]] 10 pour rendre des points de vie à la victime.
+
+{s:racial|Gnome|gnomes|Illustrations/PNJ/Gnome.jpg}{s:MR}{s:Reference|Sang de molosse}
+====Sang de molosse====
+Si un personnage applique cette épaisse pâte rouge, que l’on appelle le sang de molosse, sur son nez ou sa lèvre supérieure, son odorat s’améliore. La pâte donne un bonus de circonstances de +2 aux tests de [[Perception]] pendant 1 heure à la plupart des créatures, mais, chez les gnomes, il décuple les capacités olfactives et le bénéficiaire dispose pendant 5 minutes du pouvoir [[odorat (capacité)|odorat]] avant de n’avoir plus qu’un bonus de circonstances de +2 aux tests de [[Perception]] pendant 1 heure de plus.
+
+{s:ClearRight}{s:racial|Ifrit (race)|ifrits|Illustrations/PNJ/Ifrit.jpg}{s:MR}{s:Reference|Sang d’ifrit}
+====Sang d’ifrit====
+Les alchimistes ifrits prétendent fabriquer cette épaisse huile rouge à partir de leur propre sang (d’où son nom morbide), mais il est presque certain que c’est faux. Le sang d’ifrit s’enflamme au contact de l’air, mais brûle lentement et ne peut pas être utilisé comme arme à aspersion. Une créature peut appliquer une fiole de sang d’ifrit à une arme par une [[action simple]], ce qui l’enveloppe de flammes rouge qui brillent pendant 1 minute. L’huile inflige 1 point de dégâts de feu à chaque attaque réussie portée avec cette arme et inflige 1 point de dégâts de feu à l’arme elle-même, passant sa solidité si l’une des parties qui la composent est en bois. Si l’huile est appliquée aux armes naturelles ou aux coups à mains nues d’une créature, la créature reçoit 1 point de dégâts de feu par [[round]] (mais son immunité ou sa résistance au feu s’applique toujours).
+
 {s:AE}{s:Reference|Sèche-colle alchimique}
 ====Sèche-colle alchimique====
 Ce tout petit compte-goutte contient un liquide qui accélère le tempsde séchage de la colle alchimique. L’application de sèche-colle coûte une action simple. La colle qui en bénéficie adhère au bout d’un round et sèche complètement au bout d’une minute. Le compte-goutte contient 20 doses. Chacune suffit à accélérer le séchage d’une petite application de colle alchimique. Il faut vider l’intégralité du compte goutte pour faire sécher une surface encollée de 30 centimètres de côté.
@@ -309,9 +425,17 @@ Cette bouteille en verre est remplie d’une substance visqueuse et collante tr�
 ====Solvant alchimique====
 Ce gel pétillant violet ronge les adhésifs. Chaque fiole peut couvrir une case de 1,50 mètre de côté. Il détruit la plupart des adhésifs normaux (comme le goudron, la sève ou la colle) en un round mais il lui faut 1d4+1 rounds pour traiter les adhésifs plus puissants (comme la glue alchimique, les sacoches immobilisantes, les toiles d’araignée, etc.) Il n’a aucun effet sur les adhésifs entièrement magiques comme la colle universelle.
 
+{s:racial|Sylphe (race)|sylphes|Illustrations/PNJ/Sylphe.jpg}{s:MR}{s:Reference|Souffle élémentaire}
+====Souffle élémentaire====
+Cette fiole semble vide au premier abord, mais lorsqu’on l’ouvre, une bourrasque de vent en jaillit. Lorsqu’une créature qui respire inhale le souffle élémentaire (comme elle boirait une potion), elle n’a plus besoin de respirer de l’air pendant 10 [[round|rounds]]. Une fiole de souffle élémentaire doit être inhalée pendant le round de son ouverture pour accorder cet effet. Sinon, elle est gâchée.
+
 {s:mca}{s:Reference|Tabac du traqueur}
 ====Tabac du traqueur====
 Quand on l’inhale, ce tabac traité alchimiquement améliore grandement les sens du personnage, notamment son sens de l’odorat. Il accorde le pouvoir odorat et un bonus alchimique de +2 aux tests de [[Perception]] pendant 1 heure. Cela dit, une fois que les effets se dissipent, le corps du personnage est soumis à de terribles douleurs tandis que ses articulations commencent à se raidir et se bloquent, l’affligeant d’une diminution temporaire de 1d2 points de [[Dextérité]].
+
+{s:racial|Vishkanya (race)|vishkanyas|Illustrations/PNJ/Vishkanya.jpg}{s:MR}{s:Reference|Tatouage empoisonné}
+====Tatouage empoisonné====
+Cette pâte semblable à du henné crée un tatouage brun foncé sur la main ou le pied, qui s’estompe au cours des 2d6 jours suivants. Le tatouage accroît temporairement la force du poison naturel du vishkanya, augmentant le [[DD]] de sa prochaine arme empoisonnée de son sang ou de sa salive de +2 (une fois utilisé, le tatouage n’est plus qu’une simple décoration n’affectant plus le poison de la créature). Un tatouage typique dessine des spirales compliquées et des symboles spirituels sur la main ou le pied.
 
 {s:AE}{s:Reference|Teinture repère}
 ====Teinture repère====
@@ -321,8 +445,16 @@ Cette teinture (existant en plusieurs couleurs) crée une tache visible où qu�
 ====Tonique caverneux====
 Ce tonique vaseux a une odeur piquante similaire à celle de la limaille de fer. Quand le personnage boit un tonique caverneux, sa voix prend un timbre plus grave et devient plus rauque pendant 1 heure, lui donnant un bonus alchimique de +5 aux tests d’Intimidation.
 
+{s:racial|Homme-rat (race)|h-rats|Illustrations/PNJ/Homme-rat.jpg}{s:MR}{s:Reference|Tonique infectieux}
+====Tonique caverneux====
+Le tonique infectieux accroît l’efficacité d’une attaque infectieuse dont la maladie est transmise à une créature par contact physique, comme la [[Maladies#FIEVREDESMARRAIS|fièvre des marais]] des [[rat sanguinaire|rats sanguinaires]]. La prochaine fois qu’une créature doit faire un [[jds|jet de sauvegarde]] contre le [[DD]] de sauvegarde de la maladie du buveur, le [[DD]] de l’infection initiale augmente de +2. Le tonique dure 10 minutes ou jusqu’au prochain jet de sauvegarde que la créature doit faire contre les DD de la maladie du buveur (situation qui se présente la première).
+
 {s:mca}{s:Reference|Trousse à pastels de guède}
 ====Trousse à pastels de guède====
 Bien qu'associé à des pastels de guède, les ingrédients alchimiques de cette pâte bleue peuvent varier considérablement. Quand vous préparez un sort, vous pouvez réduire les composantes matérielles du sort en poussières et les mélanger à cette pâte pour ensuite l'utiliser pour peindre directement sur votre corps, ce qui vous permet de lancer le sort comme si vous bénéficiez des effets de [[Dispense de composantes matérielles]].  
 De plus, en peignant des motifs complexes représentant les composantes somatiques pendant 10 minutes, ce qui prend 10 minutes, et en réussissant un test d'[[Art de la magie]] contre un [[DD]] égal à 15 + le niveau du sort, vous pouvez également lancer le sort comme si vous bénéficiez d'[[Incantation statique]].  
 Vous ne pouvez jamais avoir plus d'un sort peint sur votre corps et, si vous lancez le sort ainsi préparé ou si la peinture est enlevée pour une raison ou pour une autre, la peinture n'a plus d'effet.   Les pastels de guède se présentent sous forme solide, en petits blocs concentrés (coûtant 60 po chacun) qui doivent être mélangés à un peu d'eau et aux composantes matérielles puis écrasés en une pâte sur une palette en bois ou en pierre. Une trousse standard contient une palette 5 blocs de peinture. Un bloc produit suffisamment de peintures pour 10 motifs incluant des composantes matérielles ou 1 motif de sort statique. Les pastels à guède ne présentent aucun intérêt pour les individus qui ne lancent pas de sorts.
+
+{s:racial|Homme-félin (race)|h-félins|Illustrations/PNJ/Homme-félin.jpg}{s:MR}{s:Reference|Trousse de marquage olfactif}
+====Trousse de marquage olfactif====
+Cette petite boîte de phéromones d’hommes-félins spécialement préparées et de réactifs alchimiques peut être utilisée pour laisser des odeurs subtiles, mais tenaces que seuls les hommes-félins peuvent sentir et déchiffrer. S’il prend une minute, l’homme-félin peut créer une fragrance à appliquer sur un objet solide comme un arbre, un mur ou même un objet plus petit, comme une arme ou une fiole de potion. Lorsqu’il fait cela, l’homme-félin laisse une de ces impressions derrière lui : danger, nourriture, abri ou propriété. L’impression de propriété est toujours liée à l’homme-félin particulier qui utilise la trousse et signifie que le territoire ou l’objet lui appartient. D’autres races peuvent tenter d’utiliser cette trousse pour créer une impression de danger, de nourriture ou d’abri, mais pour cela, elles doivent réussir un test d’[[Artisanat]] (alchimie) [[DD]] 20. Un homme-félin peut détecter une odeur particulière générée grâce à une trousse de marquage olfactif dans un rayon de 9 mètres. Si l’odeur est charriée par le vent, la portée à laquelle l’homme-félin peut la repérer passe à 18 mètres ; si elle est sous le vent, la portée tombe à 4,5 mètres. Un homme-félin ayant la particularité raciale odorat double ces distances. Une impression odorante dure un an ou jusqu’à ce que l’objet soit nettoyé. Chaque trousse est prévue pour 10 utilisations.

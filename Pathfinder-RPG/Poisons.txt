@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Poisons
 Title: Les poisons   
-LastModified: 2020-05-12 03:21
+LastModified: 2020-07-11 00:28
 Categories:
   - 'Armes et équipement'
 ---
@@ -45,11 +45,15 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 |- CLASS="premier"
 | [[Poisons#Ajonc à feuilles bleues|Ajonc à feuilles bleues]] || Blessure || 14 || — || 1/rd pdt 2 rds || 1 [[Constitution|Con]]/[[Inconscient]] 1d3h || 1 réussite || 120 po
 |- 
+| [[Poisons#Brûle-sorts|Brûle-sorts]] || Blessure || 14 || – || 1/rd pdt 4 rds || <abbr title="La cible doit réussir un test de concentration DD 10 + niveau du sort pour parvenir à lancer un sort, et subit un malus de -5 à tous ses autres tests de concentration.">voir texte</abbr> || 1 réussite || 200 po
+|- 
 | [[Poisons#Essencedombre|Essence d’ombre]] || Blessure || 17 || — || 1/rd pdt 6 rds || [[diminution permanente|Dim]] 1 [[Force|For]]/1d2 [[Force|For]] || 1 réussite || 250 po
 |- 
 | [[Poisons#Extraitdesanvert|Extrait de sanvert]] || Blessure || 13 || — || 1/rd pdt 4 rds || 1 [[Constitution|Con]] || 1 réussite || 100 po
 |- 
 | [[Poisons#Mortelame|Mortelame]] || Blessure || 20 || — || 1/rd pdt 6 rds || 1d3 [[Constitution|Con]] || 2 réussites || 1 800 po
+|- 
+| [[Poisons#Poisondaraignéenoiredesmarais|Poison d'araignée noire des marais]] || Blessure || 14 || — || 1/rd pdt 6 rds || 1d4 [[Dextérité|Dex]] et [[confus]] pdt 1 rd || 2 réussites || 800 po
 |- 
 | [[Poisons#Poisondevouivre|Poison de vouivre]] || Blessure || 17 || — || 1/rd pdt 6 rds || 1d4 [[Constitution|Con]] || 2 réussites || 3 000 po
 |- 
@@ -175,6 +179,15 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 
 </div>
 
+{s:racial|Duergar (race)|duergars|Illustrations/PNJ/Duergar.jpg}<div class="BD">
+{s:BDTitre|Brûle-sorts|{s:MR}{s:Reference|Brûle-sorts}}
+*'''Type''' poison, blessure ; '''JDS''' Vigueur (DD 14)  
+* '''Fréquence'''  1/round pendant 4 rounds   
+* '''Effet''' Raffiné à partir de cristaux souterrains rares, ce poison provoque une migraine brûlante qui gêne l’incantation. Si la cible échoue à son jet de [[Vigueur]], elle doit, au cours de la minute qui suit, effectuer un [[concentration|test de concentration]] dont le [[DD]] est égal à 10 + niveau de sort pour lancer un sort, et souffre d’un malus de -5 à tous ses autres tests de concentration pour lancer des sorts. ; '''Guérison''' 1 réussite   
+* '''Prix''' 400 po
+
+</div>
+
 <div class="BD">
 {s:BDTitre|Brume de folie|{s:Reference|Brumedefolie}}
 *'''Type''' poison, inhalation ; '''JDS''' Vigueur (DD 15)  
@@ -282,6 +295,16 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 * '''Prix''' 650 po
 
 </div>
+</td><td width="2%">
+</td><td width="49%">
+{s:racial|Grippli (race)|gripplis|Illustrations/PNJ/Grippli.jpg}<div class="BD">
+{s:BDTitre|Poison d'araignée noire des marais|{s:MR}{s:Reference|Poisondaraignéenoiredesmarais}}
+*'''Type''' poison, blessure ; '''JDS''' Vigueur (DD 14)  
+* '''Fréquence'''  1/round pendant 6 rounds  
+* '''Effet''' 1d4 [[Dextérité]] et [[confus]] pendant 1 round. Ce puissant venin d’araignée désoriente la victime qui perd tout contrôle musculaire jusqu’à ce qu’elle finisse par s’effondrer. ; '''Guérison''' 2 réussites   
+* '''Prix''' 800 po
+
+</div>
 
 <div class="BD">
 {s:BDTitre|Poison de devin des marais|{s:Reference|Poisondedevindesmarais}}
@@ -291,8 +314,7 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 * '''Prix''' 400 po
 
 </div>
-</td><td width="2%">
-</td><td width="49%">
+
 <div class="BD">
 {s:BDTitre|Poison de vouivre|{s:Reference|Poisondevouivre}}
 *'''Type''' poison, blessure ; '''JDS''' Vigueur (DD 17)  
