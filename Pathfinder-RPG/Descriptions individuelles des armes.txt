@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Descriptions individuelles des armes
 Title: Descriptions individuelles des armes
-LastModified: 2020-07-12 17:19
+LastModified: 2020-07-25 20:52
 ---
 {s:MenuEquipement}''Les armes décrites ci-dessous sont celles présentées dans le [[Tableau récapitulatif des armes]]. Les armes à impact sont décrites dans la section [[Armes alchimiques]].''
 
@@ -114,7 +114,9 @@ L’''arc long composite'' peut être utilisée en selle. Chaque point de bonus 
 
 {s:racial|Gobelin (race)|gobelins|Illustrations/PNJ/Gobelin.jpg}{s:Reference|Coupecheval}'''Coupecheval''' Fabriquée par les gobelins, cette arme est pour ainsi dire une hallebarde à long manche dont la lame est pourvue d’un crochet plus grand. La plupart des coupecheval sont taillés pour les créatures de taille P.
 
-{s:Reference|Coutille}'''Coutille''' La coutille se compose d’une lame simple montée au bout d’une perche d’environ 2,1 mètres de long.
+{s:ClearRight}{s:Reference|Coutille}'''Coutille''' La coutille se compose d’une lame simple montée au bout d’une perche d’environ 2,1 mètres de long.
+
+{s:racial|Gnome|gnomes|Illustrations/PNJ/Gnome.jpg}{s:MR}{s:Reference|Coutilleàsciecirculaire}'''Coutille à scie circulaire''' La lame de cette est dentelée et montée sur un axe. Une corde solide est entourée autour de l’axe ; lorsqu’on la déroule d’un coup sec (par une [[action de mouvement]]), la lame se met à tourner rapidement pendant un nombre de [[round|rounds]] égal au bonus de [[Force]] du personnage. Tant qu’elle tournoie, la lame inflige +2 points de dégâts ; sinon, elle est considérée comme une [[coutille (arme)|coutille]] ordinaire. Enrouler la corde autour de l’axe pour réactiver la scie est une [[action complexe]] qui provoque une [[attaque dopportunité|attaque d’opportunité]].
 
 {s:Reference|Crochetogre}{s:ae}'''Crochet ogre''' Ce gros crochet de métal acéré permet de faire des [[croc-en-jambe|crocs-enjambe]] et d’attraper des adversaires en fuite. Inventés par les ogres, la plupart des crochets ogres sont des armes de taille M grossièrement taillées (ils sont souvent fabriquées à partir de métal arraché sur les armes et les armures d’anciennes victimes). Même s’ils sont de piètre qualité, les crochets ogres sont des objets de valeur en raison de leur rareté et des risques à courir pour s’en procurer.
 
@@ -146,6 +148,8 @@ On peut également manier une gaffe pour pêcher lorsqu’elle n’est pas utili
 {s:Reference|Fléaudarmeslourd}'''Fléau d'armes lourd''' Similaire au fléau d’armes léger, le fléau d’armes lourd a une plus grosse boule de métal et une poignée plus longue.
 
 {s:Reference|Fléaudouble}'''Fléau double''' Le fléau double se compose de deux sphères de fer hérissées de pointes pendant à des chaînes situées à chaque extrémité d’un long manche. Cette arme porte des coups puissants à courte portée et on la manie généralement en la faisant tournoyer pour lui donner un mouvement constant. Le porteur d’un fléau double doit avoir une grande force, à la fois pour manier l’arme efficacement et pour éviter de se fatiguer.
+
+{s:racial|Gnome|gnomes|Illustrations/PNJ/Gnome.jpg}{s:MR}{s:Reference|Fléaulong}'''Fléau long''' C’est un simple fléau lourd fixé à l’extrémité d’une longue arme d’hast. Il est ainsi doté d’une allonge et peut infliger des [[croc-en-jambe|crocs-en-jambe]].
 </div>
 
 ===Haches===
@@ -174,7 +178,7 @@ On peut également manier une gaffe pour pêcher lorsqu’elle n’est pas utili
 
 {s:racial|Nain|nains|Illustrations/PNJ/Nain.jpg}{s:MR}{s:Reference|Hachenaineàlongmanche}'''Haches naine à long manche''' Ces lames lourdes et ornementées sont montées sur une longue hampe ferrée pour augmenter leur allonge. On les trouve rarement chez les nains qui vivent dans les tunnels, elles sont plus répandues chez les clans des montagnes qui affrontent souvent des géants.
 
-{s:Reference|Hachette}'''Hachette''' Cette hache à une main est assez courte (environ 30 centimètres de long) et conçue pour être maniée à une main. Contrairement aux haches de lancer, elle n’est pas suffisamment bien équilibrée pour retomber gracieusement et elle est plus lourde au niveau du fer. Le tomahawk, la hachette de guerre et autres noms désignent généralement les hachettes.
+{s:ClearRight}{s:Reference|Hachette}'''Hachette''' Cette hache à une main est assez courte (environ 30 centimètres de long) et conçue pour être maniée à une main. Contrairement aux haches de lancer, elle n’est pas suffisamment bien équilibrée pour retomber gracieusement et elle est plus lourde au niveau du fer. Le tomahawk, la hachette de guerre et autres noms désignent généralement les hachettes.
 </div>
 
 ===Lames et épées===
@@ -258,11 +262,11 @@ Il faut une [[action simple]] provoquant des [[AO|attaques d’opportunité]] (c
 
 {s:Reference|Marteauléger}'''Marteau léger''' Version plus légère du marteau de guerre, cette arme est généralement pourvue d’une tête de métal poli avec une face pour frapper.
 
-
-
 {s:racial|Nain|nains|Illustrations/PNJ/Nain.jpg}{s:MR}{s:Reference|Marteaunainàlongmanche}'''Marteau nain à long manche''' Ces lames lourdes et ornementées sont montées sur une longue hampe ferrée pour augmenter leur allonge. On les trouve rarement chez les nains qui vivent dans les tunnels, elles sont plus répandues chez les clans des montagnes qui affrontent souvent des géants.
 
 {s:Reference|Marteaupioletgnome}'''Marteau-piolet gnome''' Le marteau-piolet de gnome est une arme double (un outil ingénieux avec une tête de marteau à l’une des extrémités du manche et une longue pique incurvée de l’autre). La tête arrondie du marteau est une arme contondante infligeant 1d6 points de dégâts (multiplicateur de critique de ×3). Son crochet est une arme perforante infligeant 1d4 points de dégâts (multiplicateur de critique de ×4). Le personnage peut utiliser l’une ou l’autre des extrémités comme arme principale. Les gnomes traitent le marteau-piolet comme une arme de guerre.
+
+{s:racial|Gnome|gnomes|Illustrations/PNJ/Gnome.jpg}{s:MR}{s:Reference|Masseàpiston}'''Masse à piston''' Un piston, déclenché par un procédé alchimique et situé dans la tête de cette masse à deux mains, augmente la force de frappe des coups portés par son manipulateur. Les attaques dont le but est de [[destruction|détruire une arme]] avec la masse à piston infligent +4 points de dégâts supplémentaires. Il faut disposer d’une [[Armes alchimiques#Pierre tonnerre|pierre tonnerre]] pour faire fonctionner cette arme : sinon, elle est considérée comme une [[massue (arme)|massue]]. Insérer une pierre tonnerre dans le compartiment est une [[action simple]] et l’arme peut alors fonctionner pendant 24 heures ; la pierre est consommée une fois cette période écoulée.
 
 {s:Reference|Massedarmeslourde}{s:Reference|Massedarmeslégère}{s:Reference|Massedarmes}'''Masse d'armes''' Une masse est faite d’une tête de métal ornementée attachée à un simple manche de bois ou de métal.
 : ''Masse d'armes légère'' La masse d’armes légère est faite d’une tête en métal orné fixée sur une simple hampe de bois ou de métal. La tête de la masse d’armes est généralement dotée d’ailettes pour causer davantage de douleur ou de dégâts. Certaines masses d’armes plus primitives sont faites d’une pierre reliée à un manche en bois avec des lanières de cuir.
@@ -324,6 +328,10 @@ croc-en-jambe lorsqu’il essaye d’en faire un avec des bolas.
 
 Un chat à neuf queues n’inflige aucun dégât aux créatures dotées d’un bonus d’armure supérieur ou égal à +1 ou d’un bonus d’armure naturelle supérieur ou égal à +3.
 
+{s:racial|Halfelin|halfelins|Illustrations/PNJ/Halfelin.jpg}{s:MR}{s:Reference|Doublefronde}'''Double fronde.''' Ressemblant à première vue à une sorte de bâton avec une fronde se balançant à chaque extrémité, cette arme nécessite une maîtrise extraordinaire, ou des acrobaties halfelines, pour être utilisée à son plein potentiel. Il est possible d’utiliser une double fronde comme une [[fronde (arme)|fronde]] normale, ou d’utiliser l’autre extrémité pour effectuer une attaque à distance supplémentaire par [[round]]. Le personnage reçoit les malus normaux du combat à deux armes lorsqu’il utilise les deux extrémités d’une double fronde (comme s’il s’agissait d’une [[Caractéristiques des armes#DOUBLE|arme double]]) ; le don [[Combat à deux armes]] réduit ces malus normalement. Il faut une [[action de mouvement]] pour recharger une extrémité de la double fronde (comme une fronde normale), ce qui fait qu’à moins d’avoir une capacité ou un don (comme [[Lâcher de munition]]) permettant de recharger une fronde rapidement, il est normalement impossible d’effectuer des attaques multiples par round pendant plusieurs rounds d’affilée avec cette arme. Il est possible de lancer des pierres ordinaires avec une double fronde, mais les pierres ne sont pas aussi denses ni rondes que des balles. Ainsi, une telle attaque inflige des dégâts comme si l’arme était conçue pour une créature plus petite d’une catégorie de taille, et le personnage reçoit un malus de -1 à ses [[jet dattaque|jets d’attaque]].
+
+{s:racial|Gnome|gnomes|Illustrations/PNJ/Gnome.jpg}{s:MR}{s:Reference|Échelledeguerre}'''Échelle de guerre''' Les gnomes manipulent parfois comme des armes ces échelles étroites et renforcées de 1,20 mètre de long. On combat avec une échelle de guerre comme avec un [[bâton (arme)|bâton]] ordinaire, mais on peut également utiliser les interstices de l’échelle pour bloquer les membres d’un adversaire, ce qui permet d’effectuer des [[croc-en-jambe|crocs-en-jambe]].
+
 {s:Reference|Fléchette}'''Fléchette ou dard''' Cette arme de jet est plus grande qu’une flèche et plus petite qu’une javeline. Elle a une extrémité lestée et une plus portée plus réduite que la javeline. La plupart des dards sont des traits pourvus d’une épaisse pointe en métal.
 
 {s:racial|Svirfneblin (race)|svirfneblins|Illustrations/PNJ/Svirfneblin.jpg}{s:MR}{s:Reference|Fléchettedechoc}'''Fléchette de choc''' Cette fléchette en cristal créée alchimiquement génère une décharge électrique lorsqu’elle est lancée. Une créature frappée par cette fléchette reçoit les dégâts perforants normaux ainsi qu’1d6 points de dégâts d’électricité. Quiconque est formé au maniement des fléchettes peut utiliser une fléchette de choc. Une fois lancée, la fléchette est détruite.
@@ -332,8 +340,11 @@ Un chat à neuf queues n’inflige aucun dégât aux créatures dotées d’un b
 
 {s:Reference|Écu}'''Écu''' Le personnage peut porter un coup avec un écu plutôt que de l’utiliser pour se défendre. Les écus sont décrits parmi les [[Descriptions individuelles des armures#Écu|armures]].
 
-
 {s:Reference|Épieu}'''Épieu''' Cette arme fait environ 90 centimètres de long, ce qui permet de l’utiliser comme arme de jet.
+
+
+
+{s:racial|Gnome|gnomes|Illustrations/PNJ/Gnome.jpg}{s:MR}{s:Reference|Faucilleàcrandarrêt}'''Faucille à cran d’arrêt''' La lame de cette faucille montée sur ressort peut être insérée dans le manche de l’arme. Débloquer l’arme est une [[action rapide]] ; la remettre en place est une [[action simple]]. Pour les non-initiés, lorsque la lame est insérée dans le manche, cette arme ressemble à un bâton de forme inhabituelle (test de [[Bluff]] [[DD]] 15). Les gnomes sournois camouflent parfois l’ensemble à l’aide de papier mâché ou d’une fine couche d’argile peinte de la couleur du bois, ce qui élève le DD du test de Bluff à 20 (ce camouflage disparaît lorsque la lame est débloquée, mais il peut être appliqué de nouveau une fois la lame réinsérée dans le manche).
 
 {s:Reference|Faux}'''Faux''' Cette arme se compose d’un long manche de bois avec des poignées protubérantes et une lame tranchante incurvée fixée à angle droit. Dérivée de l’instrument agricole que l’on utilise pour faucher les blés, la faux nécessite l’emploi des deux mains. Elle est encombrante mais capable d’infliger de graves blessures. Comme elle symbolise la mort du fait de son association avec la faucheuse, c’est une arme assez impressionnante.
 
@@ -367,6 +378,8 @@ Le rechargement de la fronde nécessite les deux mains et provoque des attaques 
 
 La fronde tire des [[#billedefrondes|billes]]. On peut lancer des pierres ordinaires avec mais elles ne sont pas aussi denses ni aussi rondes que les billes. Ainsi, elles infligent des dégâts comme si l’arme était conçue pour une créature plus petite d’une catégorie de taille que le personnage qui reçoit un malus de -1 à ses [[jet dattaque|jets d’attaque]].
 
+{s:racial|Halfelin|halfelins|Illustrations/PNJ/Halfelin.jpg}{s:MR}{s:Reference|Frondepiquée}'''Fronde piquée.''' La fronde piquée, qui n’est techniquement pas un type d’arme unique, est une [[fronde (arme)|fronde]], un [[fustibale halfelin (arme)|bâton de jet]] ou une [[double fronde (arme)|double fronde]] dont la poche est cousue autour de la munition, créant une sorte de fléau léger peu puissant. La munition cousue dans la fronde n’entre pas en compte dans le type ni le nombre de dégâts qu’elle inflige. Une fronde piquée ne peut pas être utilisée pour lancer des munitions à moins que la ficelle ou la corde maintenant la poche fermée ne soit coupée (par une [[action complexe]] qui provoque des [[attaque dopportunité|attaques d’opportunité]]).
+
 {s:Reference|Grappin}'''Grappin''' Un grappin est souvent considéré comme un outil d’escalade mais il peut également être utilisé pour agripper les navires ennemis et les rapprocher avant la phase d’abordage.
 
 Les grappins s’enfoncent profondément dans le bois du bastingage et il faut une minute pour détacher chacun d’eux s’ils sont fixés de la sorte. La corde attachée à un grappin peut être tranchée mais les pirates visent souvent le gréement et les mâts pour compliquer la tâche de ceux qui tentent de les détacher. Dénouer la corde attachée à un grappin nécessite une action de mouvement.
@@ -374,6 +387,10 @@ Les grappins s’enfoncent profondément dans le bois du bastingage et il faut u
 Un grappin peut être utilisé comme une arme à distance. C’est une arme de lutte si le personnage est formé à son maniement. Si le personnage réussit un coup critique en maniant une arme de ce type, il peut agripper la cible de son attaque. Il doit alors effectuer un test de manoeuvre offensive pour agripper son adversaire par une action libre. Cette tentative de lutte ne provoque pas d’attaque d’opportunité de la part de la créature qu’il tente d’agripper si le personnage n’est pas dans sa zone de contrôle. Tant que le personnage agrippe la créature avec une arme de lutte, il peut uniquement la déplacer ou lui infliger des dégâts lors de son tour. On considère qu’il est lui-même agrippé en situation de lutte mais il ne doit pas obligatoirement être adjacent à la créature pour maintenir sa prise. Le personnage met fin à la lutte s’il s’éloigne suffisamment de la créature qu’il agrippe pour que celle-ci ne soit plus à portée d’allonge de son arme.
 
 On compte dans le poids du grappin celui de la corde de chanvre de 15 mètres. Ce poids peut être réduit si on attache une corde plus courte ou plus légère.
+
+{s:racial|Gnome|gnomes|Illustrations/PNJ/Gnome.jpg}{s:MR}{s:Reference|Javelottonnerre}'''Javelot-tonnerre''' Une [[Armes alchimiques#Pierre tonnerre|pierre tonnerre]] peut être insérée dans le manche, juste derrière la pointe de ce javelot à usage unique. Si le personnage touche sa cible, celle-ci subit les dégâts du javelot et constitue le centre du point d’impact de la pierre à tonnerre. Si le personnage rate son attaque, il doit déterminer où atterrit le javelot (de la même façon qu’une [[arme à impact]]) ; la case ainsi déterminée devient le centre du point d’impact de la pierre à tonnerre.
+
+{s:racial|Gnome|gnomes|Illustrations/PNJ/Gnome.jpg}{s:MR}{s:Reference|Lanceflasque}'''Lance-flasque''' Cette arme ressemble à un [[fustibale halfelin (arme)|bâton de jet halfelin]] avec une fronde d’une taille suffisante pour projeter des flasques, en plus des pierres et des billes. Les substances qui infligent des dégâts d’aspersion peuvent ainsi être projetées sur de plus longues distances. Le lance-flasque peut être utilisé pour projeter des [[Armes alchimiques#Acide|flasques d’acide]], de [[Armes alchimiques#Feu grégeois|feu grégeois]], d’[[Armes alchimiques#Eau bénite|eau bénite]], mais également des [[Armes alchimiques#Sacoche immobilisante|sacoches immobilisantes]], des [[Armes alchimiques#Pierre tonnerre|pierres tonnerres]] ou des [[Équipement daventurier#Chausse-trappes|chausse-trappes]].
 
 {s:AE}{s:Reference|Tonfa}'''Tonfa''' Ce bâton en L sert aussi bien à frapper qu’à bloquer. Le porteur le tient par le manche et fait tournoyer le bâton ou frappe avec le bâton couvrant son avant-bras.
 </div>
@@ -399,10 +416,17 @@ Un carreau transperce-cœur inflige les dégâts normaux de l’arbalète de son
 {s:APG}{s:Reference|Flèchefumée}{s:Reference|Flêchefumigène}'''Flèche de fumée ou flèche fumigène''' Cette flèche est en réalité un [[Outils alchimiques#Bâton fumigène|bâton fumigène]] à la forme particulière qui peut être tiré avec un arc. Elle laisse derrière elle une traînée de fumée, créant un cube de fumée de 1,5 mètre de côté là où elle frappe. De plus, elle fonctionne comme une flèche normale en termes de dégâts, de portée, etc.
 
 {s:Reference|Flêchettesdesarbacane}'''Fléchettes de sarbacane''' Les petites fléchettes légères qu’utilise la sarbacane sont souvent faites de bois de feuillu avec un empennage stabilisateur en duvet ou en fourrure. On charge généralement la fléchette par l’extrémité arrière juste avant de tirer.
+
+{s:racial|Halfelin|halfelins|Illustrations/PNJ/Halfelin.jpg}{s:MR}{s:Reference|Petitespierresétoiles}'''Petites pierres-étoiles.''' Si ce sont techniquement des munitions de fronde, ces galets entourés de tissu ou de ficelle sont surtout utilisés pour émettre un signal ou pour les fêtes plutôt que pour le combat, puisqu’ils frappent à peine aussi fort qu’une piqûre. Lorsqu’ils sont plongés dans l’huile ou dans un alcool fort, ils brûlent vivement pendant 1 [[round]] et éclairent une zone comme le ferait une [[Équipement daventurier#Bougie|bougie]] et génèrent de brefs éclats de lumière tandis qu’ils traversent les airs. Ils ne sont généralement pas assez chauds et ne brûlent pas assez rapidement pour enflammer les combustibles.
+
+{s:racial|Halfelin|halfelins|Illustrations/PNJ/Halfelin.jpg}{s:MR}{s:Reference|Pierresàpointes}'''Pierres à pointes.''' Une fine couche d’argile cuite recouvre les pointes et les bords déchiquetés de cette balle spéciale. Un utilisateur formé sait comment fendre l’argile (par une [[action libre]]) afin qu’elle s’écaille au niveau des pointes ou des bords lorsqu’il tire, infligeant des dégâts perforants ou tranchants.
+
+{s:ClearRight}{s:racial|Halfelin|halfelins|Illustrations/PNJ/Halfelin.jpg}{s:MR}{s:Reference|Pierreséponges}'''Pierres-éponges.''' Ces balles sont en réalité faites d’une pierre poreuse ou d’un bois dense qui absorbent les liquides et éclatent à l’impact. Les pierres-éponges sont souvent utilisées pour délivrer des poisons ou de l’huile brûlante. Une fiole d’huile permet de saturer complètement 10 pierres-éponges. Lorsqu’elle est enflammée (par une [[action libre]] s’il y a du feu à disposition), une pierre-éponge brûlante imbibée d’huile inflige +1d2 points de dégâts de feu et peut enflammer les matériaux combustibles (comme un toit de chaume). Le fait de laisser brûler une pierre-éponge dans une poche de fronde pendant plus de 1d3 [[round|rounds]] [[brisé|brise]] la fronde.
+
+{s:racial|Halfelin|halfelins|Illustrations/PNJ/Halfelin.jpg}{s:MR}{s:Reference|Pierrespelotes}'''Pierres-pelotes.''' Ces boules denses de fibres élastiques infligent des dégâts [[Blessures et mort#NONLETAL|non létaux]] lorsqu’elles sont lancées à la fronde.
 </div>
 
 ===A classer après avoir vérifier le texte d'Armes et équipement===
-
 <div class="article_2col">
 {s:Reference|Javeline}'''Javeline''' La javeline est une lance effilée. Comme elle n’est pas conçue pour le corps à corps, on considère que le personnage n’est pas formé à son maniement et reçoit un malus de -4 à ses jets d’attaque s’il utilise une javeline comme une arme de corps à corps.
 
@@ -420,8 +444,7 @@ Le crochet et la chaîne peuvent être utilisés pour faire des attaques de [[cr
 {s:APG}{s:Reference|Lasso}'''Lasso''' Cette arme de jet est une longue corde avec un simple noeud très lâche à l’une des extrémités qui permet au personnage d’[[enchevêtré|enchevêtrer]] un ennemi comme s’il utilisait un [[#Filet|filet]]. Le [[DD]] pour lancer un sort alors qu’on est enchevêtré dans un lasso est de 10 + le niveau du sort lancé. Une créature enchevêtrée peut se libérer en réussissant un test d’[[Évasion]] DD 15 par une [[action complexe]]. Le lasso a 2 points de vie et une [[CA]] de 10. Il faut réussir un test de [[Force]] de DD 23 pour le [[brisé|briser]]. Sur une attaque réussie, le lasso se tend, pour l’utiliser à nouveau, il faut dépenser une [[action simple]] pour faire glisser le noeud pour agrandir
 la boucle.
 
-{s:APG}{s:Reference|Pieudebois}
-'''Pieu de bois''' Cette arme de combat rapproché est simplement un morceau de bois affûté. Les pointes de fer qui sont utilisées comme armes infligent les mêmes dégâts que des pieux de bois.
+{s:APG}{s:Reference|Pieudebois}'''Pieu de bois''' Cette arme de combat rapproché est simplement un morceau de bois affûté. Les pointes de fer qui sont utilisées comme armes infligent les mêmes dégâts que des pieux de bois.
 
 {s:APG}{s:Reference|Pilum}
 '''Pilum''' La pointe de ce lourd javelot est conçue pour se briser dans un bouclier ennemi. Tout comme les munitions, tout pilum lancé qui touche sa cible est détruit. Si le pilum touche une cible qui utilise un bouclier, celle-ci perd le bonus de bouclier à la [[CA]] conféré par ce bouclier jusqu’à ce qu’elle utilise une [[action simple]] pour détacher les restes du pilum de son bouclier.
