@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.orque (race)
 Title: Les orques
-LastModified: 2020-07-12 19:26
+LastModified: 2020-07-30 17:45
 Categories:
   - 'Race'
 ---
@@ -88,6 +88,12 @@ Ces dons sont accessibles aux orques :
 |- CLASS="premier"
 | [[Agitation du sang]] || <sup>MR</sup> || [[orque (race)|Orque]], aptitude de classe Canalisation d’énergie || voir description
 |- CLASS="premier"
+| [[Bénédiction du Destructeur]]* || <sup>MR</sup> || [[orque (race)|Orque]] ou [[demi-orque]], aptitude de classe de [[barbare#RAGEDEBERSERKER|rage de berserker]], fidèle du Destructeur || Récupère des rounds de rage et des points de vie en réussissant des manœuvres de destruction
+|- CLASS="premier"
+| [[Bénédiction du Dieu du feu]] || <sup>MR</sup> || [[orque (race)|Orque]] ou [[demi-orque]], fidèle du dieu du feu || Récupère des points de vie en infligeant des dégâts de feu à un adversaire
+|- CLASS="premier"
+| [[Canalisation de ladepte|Canalisation de l'adepte]] || <sup>MR</sup> || Capacité à lancer des sorts divins, aptitude de classe de [[Adepte#FAMILIER|convocation de familier]], [[NLS|niveau de lanceur de sorts]] de 4, [[Cha]] 13 || Obtient la capacité de classe de canalisation d’énergie
+|- CLASS="premier"
 | [[Coup de brute]] || <sup>MR</sup> || [[orque (race)|Orque]], 1 rang en [[Intimidation]] || voir description
 |- CLASS="premier"
 | [[Démolisseur de pièges]] || <sup>MR</sup> || [[orque (race)|Orque]],  [[attaque en puissance]], 1 rang en [[Sabotage]] || voir description
@@ -98,9 +104,25 @@ Ces dons sont accessibles aux orques :
 |- CLASS="premier"
 | [[Feinte inversée]] || <sup>MR</sup> || [[orque (race)|Orque]], BBA +1 || voir description
 |- CLASS="premier"
+| [[Férocité tenace]]* || <sup>MR</sup> || [[orque (race)|Orque]] ou [[demi-orque]], trait racial de [[orque (race)#Traits_raciaux_standards_6|férocité]], aptitude de classe de [[barbare#RAGE|rage de berserker]] || Dépense des rounds de rage pour réduire des dégâts mortels
+|- CLASS="premier"
+| [[Fiélon sanguinaire]] || <sup>MR</sup> || [[orque (race)|Orque]] ou [[demi-orque]], aptitude de classe de [[barbare#RAGE|rage de berserker]] || Récupère des rounds de rage en confirmant ou en subissant un coup critique
+|- CLASS="premier"
+| [[Frisson du carnage]] || <sup>MR</sup> || [[orque (race)|Orque]] ou [[demi-orque]], aptitude de classe de [[barbare#RAGE|rage de berserker]] || Récupère des rounds de rage en tuant ou en réduisant un adversaire à moins de 0 points de vie
+|- CLASS="premier"
 | [[Guerrier rancunier]] || <sup>MR</sup> || [[orque (race)|Orque]] || voir description
 |- CLASS="premier"
+| [[Lutteur brutal]]*<sup>E</sup> || <sup>MR</sup> || [[orque (race)|Orque]] ou [[demi-orque]] || Aide un allier à agripper une créature
+|- CLASS="premier"
 | [[Naissance solitaire]] || <sup>MR</sup> || [[orque (race)|Orque]] || voir description
+|- CLASS="premier"
+| [[Rage amplifiée]]<sup>E</sup> || <sup>MR</sup> || [[orque (race)|Orque]] ou [[demi-orque]], aptitude de classe de [[barbare#RAGE|rage de berserker]] || La rage du personnage est plus puissante lorsqu’un allié proche est en rage
+|- CLASS="premier"
+| [[Rage du chef de guerre]] || <sup>MR</sup> || [[Cha]] 13, [[orque (race)|orque]] ou [[demi-orque]], non-Loyal || Les alliés du personnage continuent de profiter des rages mineures obtenues par la proximité avec le personnage à 9 m de distance
+|- CLASS="premier"
+| [[Rage sympathisante]] || <sup>MR</sup> || [[orque (race)|Orque]] ou [[demi-orque]], non-Loyal || Le personnage peut entrer dans une rage mineure lorsqu’il est près d’alliés enragés
+|- CLASS="premier"
+| [[Vengeance sanglante]] || <sup>MR</sup> || [[orque (race)|Orque]] ou [[demi-orque]], non-Loyal || Le personnage peut entrer dans une rage mineure lorsqu’un allié est tué ou gravement blessé
 |}
 </center>
 {s:ligne}{s:col|6}
@@ -124,8 +146,13 @@ Les orques ont accès aux propriétés spéciales d’arme et aux objets magique
 ====Sorts====
 Ces sorts sont réservés aux oréades :
 Les orques ont accès aux sorts suivants.
-* '''''[[Coeur de lennemi|Cœur de l’ennemi]]''''', ''(MR)'' ([[adepte]] 2, [[antipaladin|antipal]] 2, [[prêtre|prê]] 2, [[sorcière|sor]] 2). Rend 1d8 pv au PJ, +2/DV victime sous conditions.
+* '''''[[Cœur de lennemi|Cœur de l’ennemi]]''''', ''(MR)'' ([[adepte]] 2, [[antipaladin|Antipal]] 2, [[prêtre|Prê]] 2, [[sorcière|Sor]] 2). Dévore le cœur d'un adversaire sans défense pour gagner en puissance.
 * '''''[[Crâne de sentinelle]]''''', ''(MR)'' ([[antipaladin|antipal]] 1, [[prêtre|prê]] 2, [[ensorceleur|ens]]/[[magicien|mag]] 2, [[sorcière|sor]] 2). Utilisation d'une tête coupée pour augmenter les perceptions du PJ.
 * '''''[[Flambée de sang]]''''', ''(MR)'' ([[alchimiste|alc]] 2, [[antipaladin|Antipal]] 1, [[Prêtre|Prê]] 2, [[magus|mgs]] 2, [[ensorceleur|ens]]/[[magicien|mag]] 2, [[sorcière|sor]] 2). Projection de sang brûlant d'une victime ciblée ayant perdu 5 pv  (1d6 dégâts) sur une case adjacente aléatoire
+* '''''[[Immolation spontanée]]''''', ''(MR)'' ([[ensorceleur|Ens]]/[[magicien|Mag]] 2). La cible subit 3d6 points de dégâts de feu et s’enflamme.
+* '''''[[Loup fantôme]]''''', ''(MR)'' ([[ensorceleur|Ens]]/[[magicien|Mag]] 4). Appel une monture loup sanguinaire faite de fumée noire dont émane une aura de peur.
 * '''''[[Perception du sang]]''''', ''(MR)'' ([[alchimiste|alc]] 3, [[antipaladin|Antipal]] 2, [[Prêtre|Prê]] 3, [[druide|dru]] 3, [[inquisiteur|inq]] 3, [[rôdeur|rôd]] 2, [[ensorceleur|ens]]/[[magicien|mag]] 3, [[sorcière|sor]] 3). Odorat sur créature blessée et bonus de d'attaque et dégâts (+2 à +4)
+* '''''[[Protection de la bannière]]''''', ''(MR)'' ([[prêtre|Prê]] 1). Protège la bannière de la tribu du personnage comme avec sanctuaire.
+* '''''[[Rage sanguinaire]]''''', ''(MR)'' ([[barde|Bard]] 2, [[ensorceleur|Ens]]/[[magicien|Mag]] 3, [[prêtre|Prê]] 3). Les cibles entrent dans une rage qui s’intensifie avec les dégâts qu’ils subissent, augmentant leur Force et baissant leur CA.
+* '''''[[Vigueur]]''''', ''(MR)'' ([[prêtre|Prê]] 0). +1 sur le prochain jet de dégâts au corps à corps.
 {s:col-fin}{s:ligne-fin}
