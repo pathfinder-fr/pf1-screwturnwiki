@@ -1,7 +1,7 @@
 ---
 Name: Ressources.roll20
 Title: Présentation de Roll20
-LastModified: 2020-07-12 23:49
+LastModified: 2020-08-12 23:34
 ---
 Lien vers l'application: [https://roll20.net]
 
@@ -173,9 +173,53 @@ Vous pouvez imbriquer vos macros dans vos macros, faire référence aux attribut
 Il n'y a au final qu'une seule grosse limitation, vous ne pouvez pas modifier un attribut via une macro... Dommage !
 
 ===Lumière dynamique===
-Si vous utilisez le premier niveau d'abonnement, une nouvelle couche est disponible: la couche lumière dynamique. Ici, vous faites des traits de couleurs qui vont représenter les murs. (À partir de là, suivez les murs sur votre carte et vous aurez des effets chouettes).
+Si vous utilisez le premier niveau d'abonnement, une nouvelle couche est disponible: la couche lumière dynamique. Depuis peu, une nouvelle version est sortie et permet d'avoir une gestion presque parfaite de la lumière, le tout en suivant les règles de Pathfinder. En fait, il ne manque que la possibilité d'avoir des zones de "lumière vive".
 
-Pensez à donner à vos pions la possibilité de voir. Pour ce faire, éditez un pion, puis allez dans Avancé. (À l'heure de l'écriture de ces lignes, l'onglet Éclairage dynamique dans les feuilles de perso est bancal). Là, vous cochez "A la vue". Dans "Émet de la lumière", vous mettez le champ de vision de votre personnage. Le premier c'est la vision nette et le second la vision pénombre. La pénombre reste pas mal visible, donc prenez le en compte.
+====Gestion de la page====
+Ce nouvel outil est très simple, mais il y a beaucoup de paramètre. Tout d'abord, vous devez activer la lumière dynamique dont l'onglet associé dans la fenêtre de gestion de carte. Une fois activé, vous avez plusieurs choix.
+
+'''Mode explorateur:''' A l'image du brouillard de guère. La carte reste visible après le passage des PJs. Toutefois, ils ne peuvent voir ce qu'il s'y passe sans y être.
+
+'''Lumière du jour:''' Toute la carte est éclairé.
+
+'''Mettre à jour quand le pion est posé:''' Ne calcul pas le nouveau champ de vision pendant le déplacement du pion, mais met à jour uniquement quand celui-ci est posé.
+
+'''Opacité des ombres pour le MJ:''' Petite barre qui défini a quel points le MJ voit plus ou moins ce que les pions ne peuvent voir.
+
+Personnellement, je préfère une opacité du MJ vers les 60-75%, et je ne coche rien d'autre. (A part la lumière du jour si besoin).
+
+Dans l'onglet principal de la fenêtre de gestion de carte, il y a une case à cocher "'''Restreindre les mouvements'''". Une fois coché, les pions des joueurs ne peuvent pas traverser les murs.
+
+
+====La carte====
+Ça va être rapide. Vous avez une nouvelle option dans les couches: la lumière dynamique (icone de flamme). Là, vous choisissez l'option pinceau, polygone ou forme, et vous dessinez vos murs. Je vous conseille d'utiliser une couleur vive, histoire que, la prochaine où vous irez sur cet onglet, vous ne soyez pas en train de chercher vos murs. Car ils seront invisible, mais en couche MJ. Petit conseil, pour les portes, choisissez une autre couleur vive, afin de les trouver rapidement et pouvoir les bouger au besoin. (En général je prends rouge pour les murs et jaune pour les portes. C'est rapidement et facilement identifiable).
+
+Ces murs, une fois placé, permettrons aussi, si l'option est coché, de limiter le déplacement des pions des PJs. Il sera impossible de traverser un mur et donc de voir des choses qu'il ne faudrait pas, ou pas encore, voir.
+
+====Les pions====
+En ce qui concerne les pions maintenant. L'ancien système de lumière dynamique est toujours présent dans l'onglet avancé, mais il est devenu obsolète. Vous avez par contre un nouvel onglet lumière dynamique. Voyons en détail qui fait quoi.
+
+=====Champ de vision des pions:=====
+'''Champ de vision:''' A cocher, sinon le pion ne peux rien voir.
+
+'''Vision nocturne:''' A cocher le personnage à la vision dans le noir. Là, vous pourrez déterminer le rayon de vision du pion (dans l'unité utilisé par la map, donc pas besoin de faire de math si vous avez réglé en mètre).
+
+'''Limit field of vision (limite du champ de vision):''' Permet ne pas avoir un cercle parfait, mais de découper la vision selon des arcs de cercle. Je déconseille, plus compliqué qu'utile.
+
+=====Lumière émise par le pion:=====
+'''Lumière vive:''' Si coché, le pion émet une lumière normale dans le rayon donné.
+
+'''Lumière atténué:''' Si coché, le pion émet une lumière atténué dans le rayon donné. S'ajoute automatiquement à la lumière vive.
+
+'''Lumière totale:''' Juste un rappel avec l'addition des deux précédents. Prenons l'exemple d'une torche. Elle émet une lumière normale sur 6m, puis une lumière atténué sur 6m de plus. Soit un total de 12. Donc, on met 6m en lumière vive et 6m en lumière atténué et voilà, le pion tiens une torche ! (Vous pouvez utiliser le même principe sur un pion représentant justement une torche ou un feu, et ça vous fait des points lumineux qui éclaireront pour les PJs.
+
+=====Advanced Setting:=====
+'''Light Multiplier:''' En pourcentage, cela permet de définir la manière donc le pion voit la lumière. Prenons l'exemple de la torche et d'un elfe. La vision nocturne permet de voir deux fois plus loin. Donc la torche émet 12m de lumière normale et 12m de lumière atténué. Pas besoin de changer les paramètres de la torche, on laisse 6m et 6m. Par contre, en mettant 200% dans le light multiplier de ce pion, celui verra que la torche émet 12m et 12m.
+
+
+====Fonctionnement====
+* Avoir le champ de vision ne permet pas de voir sans source de lumière. Pour faire une source de lumière, il faut qu'un pion émette de la lumière. Ce pion peut être un personnage, un feu de camp etc... Et au besoin, il peut être placé sur la couche carte. Même sur cette autre couche, les pions des PJ verront quand même sa lumière.
+* Au final, c'est simple, une fois la lumière dynamique activé dans la carte et le champ de vision coché dans le pion, c'est pratiquement fini. On change le light multiplier si le personnage à la vision dans le noir, sinon, on ne touche pas. La vision nocturne représente la vision dans le noir, on y met le rayon comme indiqué dans la fiche et le tour est joué. Si un PJ allume une torche ou équivalant, il suffit de le faire émettre de la lumière en cochant vive et atténué et en mettant 6m et voilà.
 
 ===Conseils===
 Pour bien gérer vos parties via Roll20, je vous conseille de vous passer de la vidéo qui peut être assez gourmande en débit (surtout si vous êtes ou avez un joueur dans un village perdu en France sans fibre !). Idem pour le son, Discord est bien plus léger et plus optimisé. Pour ce qui est sonore, un bot musical sur Discord sera d'ailleurs bien meilleurs, vu que vous aurez accès à Youtube. (Donc, vous pourrez uploader vos musiques ou prendre parmi celles qui existent et... il y a de quoi faire).
