@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Caractéristiques des armes
 Title: Caractéristiques des armes
-LastModified: 2020-05-18 17:45
+LastModified: 2020-09-04 18:26
 Categories:
   - 'Armes et équipement'
   - 'Manuel des joueurs'
@@ -69,32 +69,31 @@ D’autres armes peuvent infliger deux types de dégâts en fonction de la mani�
 
 ===Attributs Spéciaux===
 Certaines armes ont des attributs spéciaux.
+* {s:Reference|ALLONGE}'''Allonge.''' Une arme à allonge permet à un personnage (de taille P ou M) de frapper un adversaire qui se trouve à 3 m (2 cases) de distance. Par contre, elle ne permet pas d'attaquer les adversaires adjacents.
 
-::{s:Reference|ALLONGE}'''Allonge.''' Une arme à allonge permet à un personnage (de taille P ou M) de frapper un adversaire qui se trouve à 3 m (2 cases) de distance. Par contre, elle ne permet pas d'attaquer les adversaires adjacents.
+* {s:Reference|CROCENJAMBE}'''Croc-en-jambe.''' le personnage peut utiliser une arme pour faire un croc-en-jambe. S’il est victime d’un croc-en-jambe pendant sa propre tentative, il peut lâcher son arme pour éviter de tomber.
 
-::{s:Reference|CROCENJAMBE}'''Croc-en-jambe.''' le personnage peut utiliser une arme pour faire un croc-en-jambe. S’il est victime d’un croc-en-jambe pendant sa propre tentative, il peut lâcher son arme pour éviter de tomber.
+* {s:Reference|DESARMER}{s:Reference|DESARMEMENT}'''Désarmement.''' quand un personnage utilise une arme avec la propriété « désarmer », il bénéficie d’un bonus de +2 aux tests de la [[manœuvre offensive]] destinée à [[désarmement|désarmer]] l’ennemi.
 
-::{s:Reference|DESARMER}{s:Reference|DESARMEMENT}'''Désarmement.''' quand un personnage utilise une arme avec la propriété « désarmer », il bénéficie d’un bonus de +2 aux tests de la [[manœuvre offensive]] destinée à [[désarmement|désarmer]] l’ennemi.
+* {s:Reference|DIVERSION}'''Diversion.''' Le personnage gagne un bonus de +2 aux tests de [[Bluff]] pour faire une [[feinte]] en combat quand il manie cette arme.
 
-::{s:Reference|DIVERSION}'''Diversion.''' Le personnage gagne un bonus de +2 aux tests de [[Bluff]] pour faire une [[feinte]] en combat quand il manie cette arme.
+* {s:Reference|DOUBLE}'''Double.''' le personnage peut se battre avec une [[Caractéristiques des armes#ARMEDOUBLE|arme double]] comme s’il combattait à deux armes mais, dans ce cas, il subit le malus habituel lié au [[Actions spéciales#COMBAT2ARMES|combat à deux armes]], comme s’il maniait une arme à une main et une arme légère dans la main non-directrice. On peut utiliser une arme double comme une arme à deux mains en utilisant l'extrêmité de son choix, mais dans ce cas, on ne peut pas bénéficier de sa propriété d’arme double : à chaque round, le personnage n’utilise qu’une tête de l’arme.
 
-::{s:Reference|DOUBLE}'''Double.''' le personnage peut se battre avec une [[Caractéristiques des armes#ARMEDOUBLE|arme double]] comme s’il combattait à deux armes mais, dans ce cas, il subit le malus habituel lié au [[Actions spéciales#COMBAT2ARMES|combat à deux armes]], comme s’il maniait une arme à une main et une arme légère dans la main non-directrice. On peut utiliser une arme double comme une arme à deux mains en utilisant l'extrêmité de son choix, mais dans ce cas, on ne peut pas bénéficier de sa propriété d’arme double : à chaque round, le personnage n’utilise qu’une tête de l’arme.
+* {s:Reference|FRAGILE}'''Fragile.''' Les armes fragiles ne sont pas aussi robustes que les autres. Elles acquièrent l'état [[brisé|brisée]] si leur propriétaire fait un 1 naturel sur un [[jet dattaque|jet d’attaque]]. Une arme fragile [[brisé|brisée]] qui est à nouveau victime d’un 1 est détruite. Les armes fragiles magiques ou [[arme de maître|de maître]] ne souffrent pas de ce défaut, sauf indication contraire dans la description de l’objet ou de son matériau.
 
-::{s:Reference|FRAGILE}'''Fragile.''' Les armes fragiles ne sont pas aussi robustes que les autres. Elles acquièrent l'état [[brisé|brisée]] si leur propriétaire fait un 1 naturel sur un [[jet dattaque|jet d’attaque]]. Une arme fragile [[brisé|brisée]] qui est à nouveau victime d’un 1 est détruite. Les armes fragiles magiques ou [[arme de maître|de maître]] ne souffrent pas de ce défaut, sauf indication contraire dans la description de l’objet ou de son matériau.
+* {s:Reference|LUTTE}'''Lutte.''' Quand le personnage réussit un [[coup critique]] avec cette arme, il peut tenter une manœuvre de [[lutte]] contre sa cible, par une [[action libre]]. Cette tentative ne provoque pas d’[[attaque dopportunité|attaque d’opportunité]] de la part de la créature visée si elle ne menace pas le personnage. Quand le personnage [[lutte]] avec une cible par l’intermédiaire d’une arme de lutte, il peut bouger et lui causer des dégâts à son tour seulement. Il est considéré comme [[en lutte]], même s’il n’a pas besoin d’être adjacent à la créature pour poursuivre la [[lutte]]. Si le personnage s’éloigne au point que l’allonge de son arme ne suffit plus à atteindre la cible, il met par là même un terme à la [[lutte]].
 
-::{s:Reference|LUTTE}'''Lutte.''' Quand le personnage réussit un [[coup critique]] avec cette arme, il peut tenter une manœuvre de [[lutte]] contre sa cible, par une [[action libre]]. Cette tentative ne provoque pas d’[[attaque dopportunité|attaque d’opportunité]] de la part de la créature visée si elle ne menace pas le personnage. Quand le personnage [[lutte]] avec une cible par l’intermédiaire d’une arme de lutte, il peut bouger et lui causer des dégâts à son tour seulement. Il est considéré comme [[en lutte]], même s’il n’a pas besoin d’être adjacent à la créature pour poursuivre la [[lutte]]. Si le personnage s’éloigne au point que l’allonge de son arme ne suffit plus à atteindre la cible, il met par là même un terme à la [[lutte]].
+* {s:Reference|MOINE}'''Moine.''' les moines peuvent utiliser ces armes pour porter un [[Moine#DELUGEDECOUPS|déluge de coups]].
 
-::{s:Reference|MOINE}'''Moine.''' les moines peuvent utiliser ces armes pour porter un [[Moine#DELUGEDECOUPS|déluge de coups]].
+* {s:Reference|MORTELLE}'''Mortelle.''' Quand le personnage assène un [[coup de grâce]] avec cette arme, il gagne un bonus de +4 aux dégâts quand il calcule le [[DD]] du jet de [[Vigueur]] à réussir pour ne pas mourir sur le champ. Ce bonus ne s’ajoute pas aux dégâts réels du [[coup de grâce]].
 
-::{s:Reference|MORTELLE}'''Mortelle.''' Quand le personnage assène un [[coup de grâce]] avec cette arme, il gagne un bonus de +4 aux dégâts quand il calcule le [[DD]] du jet de [[Vigueur]] à réussir pour ne pas mourir sur le champ. Ce bonus ne s’ajoute pas aux dégâts réels du [[coup de grâce]].
+* {s:Reference|NONLETAL}{s:Reference|NONLETAUX}'''Non-létal.''' ces armes infligent des [[Blessures et mort#NONLETAL|dégâts non-létaux]].
 
-::{s:Reference|NONLETAL}{s:Reference|NONLETAUX}'''Non-létal.''' ces armes infligent des [[Blessures et mort#NONLETAL|dégâts non-létaux]].
+* {s:Reference|PARADE}'''Parade.''' Quand le personnage utilise cette arme pour se [[combat sur la défensive|battre sur la défensive]], il gagne un bonus de bouclier de +1 à la [[CA]].
 
-::{s:Reference|PARADE}'''Parade.''' Quand le personnage utilise cette arme pour se [[combat sur la défensive|battre sur la défensive]], il gagne un bonus de bouclier de +1 à la [[CA]].
+* {s:Reference|RECEPTION}'''Réception.''' si le personnage utilise une [[Actions modifiant linitiative#PREPARER|action préparée]] pour ficher une arme en terre pour recevoir une charge, il double les dégâts infligés s’il parvient à toucher un ennemi qui [[Actions spéciales#CHARGE|charge]].
 
-::{s:Reference|RECEPTION}'''Réception.''' si le personnage utilise une [[Actions modifiant linitiative#PREPARER|action préparée]] pour ficher une arme en terre pour recevoir une charge, il double les dégâts infligés s’il parvient à toucher un ennemi qui [[Actions spéciales#CHARGE|charge]].
-
-::{s:Reference|SPECTACLE}'''Spectacle'''. Quand le personnage manie une arme de spectacle, il gagne un bonus de +2 aux tests de [[combat de spectacle]] liés à une attaque ou une manœuvre.
+* {s:Reference|SPECTACLE}'''Spectacle'''. Quand le personnage manie une arme de spectacle, il gagne un bonus de +2 aux tests de [[combat de spectacle]] liés à une attaque ou une manœuvre.
 
 Dans le cas ou le tableau vous renvoie au texte, référez-vous à la description de l’arme.
 == Catégories ==
