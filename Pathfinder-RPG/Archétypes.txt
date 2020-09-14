@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Archétypes
 Title: Les archétypes
-LastModified: 2020-03-24 22:01
+LastModified: 2020-09-12 01:09
 Categories:
   - 'Bestiaire'
   - 'Monstre'
@@ -32,7 +32,6 @@ Les créatures qui possèdent cet archétype sont plus féroces et plus puissant
 
 {s:Reference|CREATURECELESTE}
 ====Créature céleste (FP +0 ou +1)====
-
 <div style="float:right; background-color: #fff; padding: 0 0 16px 16px; width:33%">
 <div style="border: 1px solid #4b3124; padding: 4px">
 {| CLASS="tablo" width="100%"
@@ -82,7 +81,6 @@ Les créatures ayant l’archétype créature de l’ombre vivent sur le plan de
 '''Règles de reconstruction. Sens''' ajouter [[vision dans le noir]] 18 m (12 {s:c}) et [[vision nocturne]] ; '''Capacités défensives''' ajouter la résistance élémentaire et la [[RD|Réduction de Dégâts]] comme indiqué sur le tableau  ; '''RM''' ajouter une [[RM]] égale au nouveau [[FP]] +6 ; '''Capacités spéciales''' Fusion avec les ombres (Sur). Dans les conditions lumineuses autres que la pleine lumière, la créature de l’ombre fusionne avec les ombres, qui lui accordent un [[abri]] (20 % de chances de rater). La créature de l’ombre peut interrompre ou reprendre cette capacité par une [[action libre]]. 
 
 {s:Reference|CREATUREENTROPIQUE}
-
 ====Créature entropique (FP +0 ou +1) ''B2''====
 <div style="float:right; background-color: #fff; padding: 0 0 16px 16px; width:33%">
 <div style="border: 1px solid #4b3124; padding: 4px">
@@ -182,9 +180,181 @@ Les créatures qui possèdent cet archétype sont des spécimens immatures. Vous
 
 '''Règles de reconstruction.''' '''Taille''' diminuer d’une catégorie ; '''CA''' –2 à l’armure naturelle (jusqu’à un minimum de +0) ; '''Attaques''' diminuer les dés lancés d’une catégorie ; '''Caractéristiques''' –4 à la [[Force]], –4 à la [[Constitution]], bonus de taille de +4 à la [[Dextérité]].
 
+
+{s:CM}
+===Archétypes de classe simples===
+<div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+<center>
+{| CLASS="tablo autoalt"
+|+ Emplacement de sorts des druides, magiciens et prêtres
+|- CLASS="titre"
+| DV
+| 0 || 1er || 2e || 3e || 4e || 5e || 6e || 7e || 8e || 9e
+|- CLASS="premier"
+| 1-3 || 2 || 1 || - || - || - || - || - || - || - || -
+|-
+| 4-6 || 2 || 2 || 1 || - || - || - || - || - || - || -
+|-
+| 7-9 || ‡ || 2 || 2 || 1 || - || - || - || - || - || -
+|-
+| 10-12 || ‡ || ‡ || 2 || 2 || 1 || - || - || - || - || -
+|-
+| 13-15 || ‡ || ‡ || ‡ || 2 || 2 || 1 || - || - || - || -
+|-
+| 16-18 || ‡ || ‡ || ‡ || ‡ || 2 || 2 || 1 || - || - || -
+|-
+| 19-21 || ‡ || ‡ || ‡ || ‡ || ‡ || 2 || 2 || 1 || - || -
+|-
+| 22-24 || ‡ || ‡ || ‡ || ‡ || ‡ || ‡ || 2 || 2 || 1 || -
+|-
+| 25+ || ‡ || ‡ || ‡ || ‡ || ‡ || ‡ || ‡ || 2 || 2 || 1
+|}
+</center></div></div>Un archétype de classe simple fonctionne comme les autres archétypes simples. Il permet au MJ de personnaliser une créature en lui donnant des pouvoirs et un habillage de classe sans avoir à réellement ajouter de niveaux de classe. Tous les archétypes de classe simples proposent deux catégories de modifications. Les « règles rapides » présentent une méthode condensée altérant les pouvoirs et statistiques de la créature sans remodeler tout son profil. Les « règles de reconstruction » dressent la liste de toutes les modifications à apporter au profil de base si le MJ a le temps de le remanier en profondeur, entre deux sessions de jeu par exemple, quand il prépare sa prochaine séance. Ces deux méthodes donnent des créatures aux capacités similaires, à défaut d’être identiques. Ces archétypes donnent leurs propres pouvoirs de classe indiqués par un obèle (†) qui fonctionnent légèrement différemment du pouvoir de classe original, comme précisé dans la description de l’archétype.
+
+'''Incantation.''' Plusieurs archétypes permettent de lancer des sorts comme un membre de la classe à laquelle se réfère l’archétype. Ils accordent des sorts pour les trois plus hauts niveaux de sorts auxquels la créature a accès seulement. Si elle a lancé tous ses sorts de haut niveau, vous pouvez conserver l’intérêt du combat en lui ajoutant des sorts de moindre niveau (indiqués par un obèle double (‡) mais pas plus de deux par niveau de sort.
+
+{s:Reference|CREATUREBARBARE}{s:CM}
+====Créature barbare (FP +2 ou +3)====
+La créature barbare peut devenir enragée, ce qui lui confère de nombreux bonus de combat. Elle gagne également des points de vie supplémentaires et quelques précieux pouvoirs défensifs. Son [[FP]] augmente de 3 si elle a 10 [[DV]] ou plus. Une créature barbare doit être Chaotique.
+
+'''Règles rapides.''' +2 aux [[jet dattaque|jets d’attaque]] basés sur la For ; chaque jour, [[Barbare#RAGE|rage]]† pendant un nombre de [[round|rounds]] égal à 4 + [[DV]] + modificateur de [[Constitution]] (fonctionne comme [[Barbare#RAGEDEGRANDBERSERKER|rage de grand berserker]]† si la créature possède 10 [[DV]] ou plus) ; [[RD]] 1/— et esquive instinctive† ([[RD]] 3/— et esquive instinctive supérieure† si la créature a 10 [[DV]] ou plus).
+
+'''Règles de reconstruction.''' '''Capacités défensives''' [[Barbare#ESQUIVEINSTINCTIVE|esquive instinctive]]† ([[Barbare#ESQUIVEINSTINCTIVESUPERIEURE|esquive instinctive supérieure]]† si la créature a 10 [[DV]] ou plus) ; '''RD''' 1/— ([[RD]] 3/— si la créature a 10 [[DV]] ou plus) ; '''Attaques spéciales''' [[Barbare#RAGE|rage]]† (utilisable chaque jour pendant un nombre de rounds égal à 4 + [[DV]] + modificateur de Constitution, fonctionne comme [[Barbare#RAGEDEGRANDBERSERKER|rage de grand berserker]]† si la créature possède 10 DV ou plus) ; '''Valeur de caractéristique''' +4 en [[Force]].
+
+{s:Reference|CREATUREBARDE}{s:CM}
+====Créature barde (FP +1 ou +2)====
+<div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+<center>
+{| CLASS="tablo autoalt"
+|+ Sorts de barde connus
+|- CLASS="titre"
+| DV
+| 0 || 1er || 2e || 3e || 4e || 5e || 6e
+|- CLASS="premier"
+| 1-4 || 2 || 1 || - || - || - || - || -
+|-
+| 5-8 || 2 || 2 || 1 || - || - || - || -
+|-
+| 9-12 || ‡ || 2 || 2 || 1 || - || - || -
+|-
+| 13-16 || ‡ || ‡ || 2 || 2 || 1 || - || -
+|-
+| 17-20 || ‡ || ‡ || ‡ || 2 || 2 || 1 || -
+|-
+| 20+ || ‡ || ‡ || ‡ || ‡ || 2 || 2 || 1
+|}
+</center></div></div>La créature barde sait comment inspirer ses camarades pour les pousser à accomplir de grandes choses, c’est donc entourée d’alliés qu’elle est la plus efficace. Elle possède aussi des capacités incantatoires limitées. Le [[FP]] de la créature barde augmente de 2 si elle a 10 [[DV]] ou plus.
+
+'''Règles rapides.''' +2 sur tous les jets basés sur le [[Cha]] ; chaque jour, peut utiliser [[représentation bardique]]† un nombre de [[round|rounds]] égal à 4 + [[DV]] + modificateur de [[Cha]] (en utilisant ses [[DV]] comme niveau de [[barde]] pour déterminer les bonus et le type de représentation) ; peut lancer quelques [[Liste des sorts de bardes|sorts de barde]] (voir la table Sorts de barde connus ci-contre) en utilisant ses [[DV]] comme [[NLS]] sachant qu’elle dispose de deux emplacements de sorts de chaque niveau pour chaque niveau de sort connu.
+
+'''Règles de reconstruction.''' '''Attaques spéciales''' [[représentation bardique]]† (chaque jour un nombre de [[round|rounds]] égal à 4 + [[DV]] + modificateur de [[Cha]], en utilisant ses [[DV]] comme niveau de [[barde]] pour déterminer les bonus et le type de représentation) ; '''Sorts de barde''' peut lancer quelques [[Liste des sorts de bardes|sorts de barde]] (voir la table Sorts de barde connus ci-contre) en utilisant ses [[DV]] comme [[NLS]] sachant qu’elle dispose de deux emplacements de sorts de chaque niveau pour chaque niveau de sort connu ; '''Valeurs de caractéristique''' +4 en [[Cha]].
+
+{s:Reference|CREATUREDRUIDE}{s:CM}
+====Créature druide (FP +1, +2 ou +3)====
+Une créature druide est attirée par la puissance brute de la nature. Elle peut changer de forme et lancer des sorts de druide. Son [[FP]] augmente de 2 si elle a entre 7 et 12 [[DV]] et de 3 si elle a 13 [[DV]] ou plus.
+
+'''Règles rapides.''' +2 à tous les jets basés sur la [[Sag]] ; peut utiliser [[forme animale]]† si elle a 7 [[DV]] ou plus (en utilisant ses [[DV]] –3 comme niveau de [[druide]] pour déterminer les effets de la forme animale) ; peut lancer quelques [[Liste des sorts de druides|sorts de druide]] (voir la table Emplacement de sorts des druides, magiciens et prêtres, plus haut) en utilisant ses [[DV]] comme [[NLS]] ; [[Druide#DEPLACEMENTFACILITE|déplacement facilité]]†.
+
+'''Règles de reconstruction.''' '''Attaques spéciales''' [[forme animale]]† (si elle a 7 [[DV]] ou plus, en utilisant ses [[DV]] –3 comme niveau de [[druide]] pour déterminer les effets de la forme animale) ; '''Sorts de druide''' peut lancer quelques [[Liste des sorts de druides|sorts de druide]] (voir la table Emplacement de sorts des druides, magiciens et prêtres, plus haut) en utilisant ses [[DV]] comme [[NLS]] ; '''Valeurs de caractéristique''' +4 en [[Sagesse]] ; '''Particularités''' [[Druide#DEPLACEMENTFACILITE|déplacement facilité]]†.
+
+'''Compagnon animal.''' Ces règles supposent que le druide n’a pas de compagnon animal. Si vous voulez lui en ajouter un, choisissez une créature issue de la liste des sorts ''[[convocation dalliés naturels|convocation d’alliés naturels]]''. Le sort ne doit pas dépasser 1/2 [[FP]] de la créature druide. Traitez le compagnon comme une créature supplémentaire lors de la rencontre et, s’il est vaincu, donnez des [[PX]] comme s’il n’était pas un compagnon animal.
+
+{s:Reference|CREATUREENSORCELEUR}{s:CM}
+====Créature ensorceleur (FP +1, +2 ou +3)====
+<div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+<center>
+{| CLASS="tablo autoalt"
+|+ Sorts d'ensorceleur connus
+|- CLASS="titre"
+| DV
+| 0 || 1er || 2e || 3e || 4e || 5e || 6e || 7e || 8e || 9e
+|- CLASS="premier"
+| 1-4 || 2 || 1 || - || - || - || - || - || - || - || -
+|-
+| 5-7 || 2 || 2 || 1 || - || - || - || - || - || - || -
+|-
+| 8-10 || ‡ || 2 || 2 || 1 || - || - || - || - || - || -
+|-
+| 11-13 || ‡ || ‡ || 2 || 2 || 1 || - || - || - || - || -
+|-
+| 14-16 || ‡ || ‡ || ‡ || 2 || 2 || 1 || - || - || - || -
+|-
+| 17-19 || ‡ || ‡ || ‡ || ‡ || 2 || 2 || 1 || - || - || -
+|-
+| 20-22 || ‡ || ‡ || ‡ || ‡ || ‡ || 2 || 2 || 1 || - || -
+|-
+| 23-25 || ‡ || ‡ || ‡ || ‡ || ‡ || ‡ || 2 || 2 || 1 || -
+|-
+| 26+ || ‡ || ‡ || ‡ || ‡ || ‡ || ‡ || ‡ || 2 || 2 || 1
+|}
+</center></div></div>Les créatures ensorceleurs disposent d’un éventail de puissants sorts et pouvoirs pour pulvériser leurs ennemis. Choisissez un lignage d’ensorceleur au moment d’ajouter cet archétype. Le [[FP]] de la créature augmente de 2 si elle possède entre 8 et 13 [[DV]] et de 3 si elle possède 14 [[DV]] ou plus.
+
+'''Règles rapides.''' +2 à tous les tests basés sur le [[Cha]] ; gagne [[Ensorceleur#LIGNAGE|arcane de lignage]]† et [[Ensorceleur#LIGNAGE|pouvoirs de lignage]]† pour le [[Ensorceleur#LIGNAGE|lignage]] choisi (en utilisant [[DV]] –2 comme niveau d’[[ensorceleur]] pour déterminer les effets et [[DD]] (1 au minimum) ; peut lancer quelques [[Liste des sorts densorceleursmagiciens|sorts d’ensorceleur]] (voir la table Sorts d’ensorceleur connus ci-contre) en utilisant ses [[DV]] comme [[NLS]] sachant qu’il obtient deux emplacements de sorts par niveau de sort connu.
+
+'''Règles de reconstruction.''' '''Attaques spéciales''' [[Ensorceleur#LIGNAGE|arcane de lignage]]† et [[Ensorceleur#LIGNAGE|pouvoirs de lignage]]† (en utilisant [[DV]] –2 comme niveau d’[[ensorceleur]] pour déterminer les effets et [[DD]] (1 au minimum) ; '''Sorts d’ensorceleur''' peut lancer quelques [[Liste des sorts densorceleursmagiciens|sorts d’ensorceleur]] (voir la table Sorts d’ensorceleur connus ci-contre) en utilisant ses [[DV]] comme [[NLS]] sachant qu’il obtient deux emplacements de sorts par niveau de sort connu ; '''Valeurs de caractéristique''' +4 en [[Charisme]].
+
+{s:Reference|CREATUREGUERRIER}{s:CM}
+====Créature guerrier (FP +1 ou +2)====
+Une créature guerrier gagne des dons de combat et un entraînement aux armes et aux armures. Son [[FP]] augmente de 2 si elle a 10 [[DV]] ou plus.
+
+'''Règles rapides.''' +2 sur tous les jets basés sur la [[For]] ; un [[dons#DONCOMBAT|don de combat]] supplémentaire et un de plus tous les 4 [[DV]] (10 dons au maximum, la créature guerrier est considérée comme un [[guerrier]] d’un niveau égal à ses [[DV]] vis-à-vis des conditions requises par les dons de combat). Si la créature a 3 [[DV]] ou plus, elle gagne [[Guerrier#ENTRAINEMENTAUXARMURES|entraînement aux armures]]† (le bonus augmente et le malus diminue ensuite tous les 4 [[DV]], sans dépasser le maximum autorisé par la classe). Si la créature a 5 [[DV]] ou plus, elle gagne [[Guerrier#ENTRAINEMENTAUXARMES|entraînement aux armes]]† (pour un [[Groupe darmes|groupe d’armes]] seulement, le bonus augmentant ensuite tous les 4 [[DV]] jusqu’à un maximum de +4).
+
+'''Règles de reconstruction.''' '''Attaques spéciales''' si la créature a 5 [[DV]] ou plus, elle gagne [[Guerrier#ENTRAINEMENTAUXARMES|entraînement aux armes]]† (pour un [[Groupe darmes|groupe d’armes]] seulement, le bonus augmentant ensuite tous les 4 [[DV]] jusqu’à un maximum de +4) ; '''Pouvoirs spéciaux''' si la créature a 3 [[DV]] ou plus, elle gagne [[Guerrier#ENTRAINEMENTAUXARMURES|entraînement aux armures]]† (le bonus augmente et le malus diminue ensuite tous les 4 [[DV]], sans dépasser le maximum autorisé par la classe) ; '''Valeurs de caractéristique''' +4 en [[Force]] ; '''Dons''' un [[dons#DONCOMBAT|don de combat]] supplémentaire et un de plus tous les 4 [[DV]] (10 dons gagnés au maximum grâce à ce pouvoir).
+
+{s:Reference|CREATUREMAGICIEN}{s:CM}
+====Créature magicien (FP +1, +2, +3)====
+Une créature magicien est initiée aux arcanes magiques et ses pouvoirs incantatoires sont sans égal. En plus de disposer de sorts offensifs, elle peut appeler de puissantes entités pour accomplir sa volonté et celle de ses alliés. Choisissez l’école de magie de la créature au moment de lui appliquer cet archétype. Le [[FP]] de la créature augmente de 2 si elle a entre 7 et 12 [[DV]] et de 3 si elle a 13 [[DV]] ou plus.
+
+'''Règles rapides.''' +2 à tous les jets basés sur l’[[Int]] ; pouvoirs d’[[Magicien#ECOLEDEMAGIE|école de magie]]† (en utilisant [[DV]] –2 comme niveau de [[magicien]] pour déterminer les effets et [[DD]], 1 au minimum) ; peut lancer quelques [[Liste des sorts densorceleursmagiciens|sorts de magicien]] (voir la table Emplacement de sorts des druides, magiciens et prêtres, plus haut) en utilisant ses [[DV]] comme [[NLS]] ; peut désigner un objet comme objet de [[Magicien#PACTEMAGIQUE|pacte magique]] et l’utiliser une fois par jour pour lancer n’importe quel sort de sa connaissance.
+
+'''Règles de reconstruction.''' '''Attaques spéciales''' [[Magicien#PACTEMAGIQUE|pacte magique]]†, pouvoirs d’[[Magicien#ECOLEDEMAGIE|école de magie]]† (en utilisant [[DV]] –2 comme niveau de [[magicien]] pour déterminer les effets et [[DD]], 1 au minimum) ; '''Sorts de magicien''' peut lancer quelques [[Liste des sorts densorceleursmagiciens|sorts de magicien]] (voir la table Emplacement de sorts des druides, magiciens et prêtres, plus haut) en utilisant ses [[DV]] comme [[NLS]] ; '''Valeurs de caractéristique''' +4 en [[Intelligence]].
+
+{s:Reference|CREATUREMOINE}{s:CM}
+====Créature moine (FP +2 ou +3)====
+Une créature moine gagne des attaques supplémentaires à mains nues ou des attaques naturelles, une amélioration des dégâts issus de ces attaques et des capacités défensives. Son [[FP]] augmente de 3 s’il a 10 [[DV]] ou plus. Une créature moine doit être Loyale.
+
+'''Règles rapides.''' +2 sur tous les jets basés sur la [[Dex]] et la [[Sag]] ; don [[Science du combat à mains nues]]. Quand la créature fait une [[attaque à outrance]] à mains nues ou avec des attaques naturelles, elle peut faire une attaque supplémentaire de même type (de son choix) avec un malus de –5. Si elle opte pour les attaques à mains nues, elle inflige les mêmes dégâts qu’un [[moine]] d’un niveau égal à ses [[DV]] (20 au maximum). Une créature avec 10 [[DV]] ou plus qui utilise des attaques naturelles augmente à la place tous leurs dés de dégâts d’un cran. Si la créature ne porte pas d’armure, elle gagne un bonus à la [[CA]] de 2 + modificateur de [[Sag]]. Ce bonus augmente de 1 par tranche de 4 [[DV]] (+5 au maximum à 20 DV). La créature gagne [[Moine#ESQUIVETOTALE|esquive totale]]† ([[Moine#ESQUIVESURNATURELLE|esquive surnaturelle]]† si elle a 10 [[DV]] ou plus).
+
+'''Règles de reconstruction.''' '''Capacités défensives''' [[Moine#ESQUIVETOTALE|esquive totale]]† ([[Moine#ESQUIVESURNATURELLE|esquive surnaturelle]]† si elle a 10 [[DV]] ou plus). Si la créature ne porte pas d’armure, elle gagne un bonus à la [[CA]] égal à son modificateur de [[Sagesse]]. Ce bonus augmente de 1 par tranche de 4 [[DV]] (+5 au maximum à 20 [[DV]]) ; '''Attaques spéciales''' quand la créature fait une [[attaque à outrance]] à mains nues ou avec des attaques naturelles, elle peut faire une attaque supplémentaire de même type avec un malus de –5. Si elle opte pour les attaques à mains nues, elle inflige les mêmes dégâts qu’un [[moine]] d’un niveau égal à ses [[DV]] (20 au maximum). Une créature avec 10 [[DV]] ou plus qui utilise des attaques naturelles augmente à la place tous leurs dés de dégâts d’un cran ; '''Valeurs de caractéristique''' +4 en [[Dextérité]] et [[Sagesse]] ; '''Dons''' [[Science du combat à mains nues]].
+
+{s:Reference|CREATUREPALADIN}{s:CM}
+====Créature paladin (FP +2 ou +3)====
+Les créatures paladins combattent le mal grâce au châtiment du Mal et guérissent avec imposition des mains. Elles possèdent aussi quelques capacités défensives. Leur [[FP]] augmente de 3 si elles ont 10 [[DV]] ou plus. Une créature paladin doit être Loyale Bonne.
+
+'''Règles rapides.''' +2 à tous les jets basés sur la [[For]] et le [[Cha]] ; [[Paladin#CHATIMENTDUMAL|châtiment du Mal]]† 1/jour (pour les dégâts, le niveau de [[paladin]] est égal aux [[DV]]) ; [[Paladin#IMPOSITIONDESMAINS|imposition des mains]]† 1/jour (soigne 1d6 pv par tranche de 2 [[DV]] au lieu d’utiliser un niveau de [[paladin]]) ; gagne [[Paladin#DETECTIONDUMAL|détection du Mal]]† et [[Paladin#GRACEDIVINE|grâce divine]]† (si la créature a 10 [[DV]] ou plus, elle obtient aussi [[Paladin#AURADEFERMETE|aura de fermeté]]†).
+
+'''Règles de reconstruction.''' '''Capacités défensives''' [[Paladin#GRACEDIVINE|grâce divine]]† (si la créature a 10 [[DV]] ou plus, elle obtient aussi [[Paladin#AURADEFERMETE|aura de fermeté]]†) ; '''Attaques spéciales''' [[Paladin#CHATIMENTDUMAL|châtiment du Mal]]† 1/jour (pour les dégâts, le niveau de [[paladin]] est égal aux [[DV]]) ; '''Particularités''' [[Paladin#DETECTIONDUMAL|détection du Mal]]† comme le pouvoir de classe de paladin, [[Paladin#IMPOSITIONDESMAINS|imposition des mains]]† 1/jour (soigne 1d6 pv par tranche de 2 [[DV]] au lieu d’utiliser un niveau de [[paladin]]) ; '''Valeurs de caractéristique''' +4 en [[Force]] et [[Charisme]].
+
+{s:Reference|CREATUREPRETRE}{s:CM}
+====Créature prêtre (FP +1, +2 ou +3)====
+La communauté de la créature prêtre la traite souvent avec un grand respect car c’est un réceptacle de la puissance divine. Son [[FP]] augmente de 2 si elle a entre 7 et 12 [[DV]] et de 3 si elle a 13 [[DV]] ou plus. La créature prêtre doit vénérer une divinité (à choisir lors de l’application de l’archétype) et son alignement ne doit pas s’écarter de celui de son dieu de plus d’un cran.
+
+'''Règles rapides.''' +2 à tous les jets basés sur la [[Sag]] ; chaque jour, [[Prêtre#CANALISATIONDENERGIE|canalisation d’énergie]] un nombre de fois égal à 3 + modificateur de [[Cha]] (positive si Bonne, négative si Mauvaise, à choisir si Neutre ; utilisez [[DV]] –2 comme niveau de [[prêtre]] pour déterminer les effets et le [[DD]], 1 au minimum) ; peut lancer quelques [[Liste des sorts de prêtres|sorts de prêtre]] (voir la table Emplacement de sorts des druides, magiciens et prêtres, plus haut) en utilisant ses [[DV]] comme [[NLS]].
+
+'''Règles de reconstruction.''' '''Attaques spéciales''' [[Prêtre#CANALISATIONDENERGIE|canalisation d’énergie]] (utilisable chaque jour un nombre de fois égal à 3 + modificateur de [[Cha]] (positive si Bonne, négative si Mauvaise, à choisir si Neutre) en utilisant [[DV]] –2 comme niveau de prêtre pour déterminer les effets et le [[DD]], 1 au minimum) ; '''Sorts de prêtre''' peut lancer quelques [[Liste des sorts de prêtres|sorts de prêtre]] (voir la table Emplacement de sorts des druides, magiciens et prêtres, plus haut) en utilisant ses [[DV]] comme [[NLS]] ; '''Valeurs de caractéristique''' +4 en [[Sagesse]].
+
+{s:Reference|CREATURERODEUR}{s:CM}
+====Créature rôdeur (FP +1 ou +2)====
+Une créature rôdeur obtient un ennemi juré, un style de combat basique, la capacité de pistage et quelques capacités défensives. Son [[FP]] augmente de 2 si elle a 10 [[DV]] ou plus.
+
+'''Règles rapides.''' Choisissez la [[For]] ou la [[Dex]]. La créature gagne un bonus de +2 à tous les tests basés sur la caractéristique choisie (et +2 à la [[CA]] si le choix s’est porté sur la [[Dex]]). La créature gagne [[Tir à bout portant]] ou [[Combat à deux armes]] comme don supplémentaire (si elle a 10 [[DV]] ou plus, elle choisit deux dons supplémentaires issus de la liste du pouvoir de classe de [[Rôdeur#DONDESTYLEDECOMBAT|style de combat]]† (combat à distance si elle a choisi Tir à bout portant ou combat à deux armes si elle a choisi Combat à deux armes)). La créature gagne aussi un [[Rôdeur#ENNEMIJURE|ennemi juré]]† (elle en choisit un seulement, son bonus d’ennemi juré augmentant de 2 à 5 [[DV]] puis tous les 5 [[DV]], jusqu’à un maximum de +10 à 20 [[DV]]). Enfin, la créature gagne [[Rôdeur#PISTAGE|pistage]]† (et [[Rôdeur#ESQUIVETOTALE|esquive totale]]† si elle a 10 [[DV]] ou plus).
+
+'''Règles de reconstruction.''' '''Capacités défensives''' [[Rôdeur#ESQUIVETOTALE|esquive totale]]† (si la créature a 10 [[DV]] ou plus) ; '''Attaques spéciales''' [[Rôdeur#ENNEMIJURE|ennemi juré]]† (un seul, le bonus d’ennemi juré augmentant de 2 à 5 [[DV]] puis tous les 5 [[DV]], jusqu’à un maximum de +10 à 20 [[DV]]) ; '''Particularités''' [[Rôdeur#PISTAGE|pistage]]† ; '''Valeurs de caractéristique''' +4 en [[Force]] ou [[Dextérité]] ; '''Dons''' [[Tir à bout portant]] ou [[Combat à deux armes]] comme don supplémentaire (si la créature a 10 [[DV]] ou plus, elle choisit deux dons supplémentaires issus de la liste du pouvoir de classe de [[Rôdeur#DONDESTYLEDECOMBAT|style de combat]]† (combat à distance si elle a choisi Tir à bout portant ou combat à deux armes si elle a choisi Combat à deux armes)).
+
+{s:Reference|CREATUREROUBLARD}{s:CM}
+====Créature roublard (FP +1 ou +2)====
+Une créature roublard gagne attaque sournoise. Si elle a 10 [[DV]] ou plus, elle obtient aussi des capacités défensives et des talents de roublards. Son [[FP]] augmente de 2 si elle a 10 [[DV]] ou plus.
+
+'''Règles rapides.''' +2 à la [[CA]] et à tous les jets basés sur la [[Dex]] ; [[attaque sournoise]]† avec un nombre de dés d’attaque sournoise égal à 1/2 [[DV]] (10d6 au maximum à 20 [[DV]]) ; [[Roublard#ESQUIVETOTALE|esquive totale]]† et [[Roublard#ESQUIVEINSTINCTIVE|esquive instinctive]]† (si la créature a 10 [[DV]] ou plus, elle gagne aussi [[Roublard#ESQUIVEINSTINCTIVESUPERIEURE|esquive instinctive supérieure]]† et deux [[Roublard#TALENTDEROUBLARD|talents de roublard]]† dont l’un peut être un [[Roublard#TALENTDEMAITREROUBLARD|talent de maître roublard]]†).
+
+'''Règles de reconstruction.''' '''Capacités défensives''' [[Roublard#ESQUIVETOTALE|esquive totale]]†, [[Roublard#ESQUIVEINSTINCTIVE|esquive instinctive]]† ([[Roublard#ESQUIVEINSTINCTIVESUPERIEURE|esquive instinctive supérieure]]† si la créature a 10 [[DV]] ou plus) ; '''Attaques spéciales''' [[attaque sournoise]]† (avec un nombre de dés d’[[attaque sournoise]] égal à 1/2 [[DV]], 10d6 au maximum à 20 [[DV]]) ; '''Particularités''' si la créature a 10 [[DV]] ou plus, elle gagne aussi deux [[Roublard#TALENTDEROUBLARD|talents de roublard]]† dont l’un peut être un [[Roublard#TALENTDEMAITREROUBLARD|talent de maître roublard]]†) ; '''Valeurs de caractéristique''' +4 en [[Dextérité]].
+
 ===Archétypes monstrueux===
 <div class="article_2col">
-====Altéré ====
+====Altéré====
 * [[Animal Mangeur dhommes, archétype|Animal Mangeur d'hommes, archétype]]
 * [[Chevalier tombal, archétype]]
 * [[Créature diabolique, archétype]]
@@ -202,7 +372,6 @@ Les créatures qui possèdent cet archétype sont des spécimens immatures. Vous
 * [[Vampire, archétype]]
 * [[Ver-qui-marche, archétype]]
 * [[Zombi juju, archétype]]
-
 
 ====Dragon====
 * [[Demi-dragon, archétype]]
