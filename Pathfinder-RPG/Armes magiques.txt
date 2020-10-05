@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Armes magiques
 Title: Les armes magiques
-LastModified: 2020-08-02 19:47
+LastModified: 2020-10-03 17:32
 Categories:
   - 'Arme magique'
   - 'Armes et équipement'
@@ -58,7 +58,7 @@ Une arme magique sert à atteindre plus souvent sa cible et à lui infliger plus
 </center></div></div>
 On trouve deux catégories d’armes : celles de corps à corps et celles à distance (comprenant les armes de jet et les armes à projectiles). Certaines armes de corps à corps peuvent également être utilisées en tant qu’armes à distance. Dans ce cas, leur bonus d’altération compte, quel qu’en soit l’usage.
 
-Une arme peut, en plus de son bonus d’altération, posséder certaines propriétés. Celles-ci sont considérées comme un bonus supplémentaire pour ce qui est du prix de l’arme, mais elles ne modifient pas son bonus à l’attaque ou aux dégâts (sauf indication contraire). Aucune arme ne peut avoir un bonus total (bonus d’altération plus équivalences dues aux propriétés, y compris celles qui proviennent des aptitudes du personnage et des sorts) supérieur à +10. Toute arme ayant une propriété spéciale doit avoir au moins un bonus d’altération de +1.
+Une arme peut, en plus de son bonus d’altération, posséder certaines propriétés. Celles-ci sont considérées comme un bonus supplémentaire pour ce qui est du prix de l’arme, mais elles ne modifient pas son bonus à l’attaque ou aux dégâts (sauf indication contraire). Aucune arme ne peut avoir un bonus total (bonus d’altération plus équivalences dues aux propriétés, y compris celles qui proviennent des aptitudes du personnage et des sorts) supérieur à +10. Toute arme ayant une propriété spéciale doit avoir au moins un bonus d’altération de +1. Les armes ne peuvent posséder la même propriété spéciale plus d'une fois.
 
 Les armures et les munitions peuvent être fabriqués dans un matériau inhabituel. Lancez 1d100 : sur un résultat de 01–95, l’objet est d’un matériau standard et, sur 96–100, il est fait d’un matériau spécial (voir la section sur les "[[Matériaux spéciaux|Les matériaux spéciaux]]").
 
@@ -374,7 +374,7 @@ Une arme ayant une propriété spéciale doit posséder un bonus d’altération
 | ''[[élan vital (propriété)|Élan vital]]'' || <sup>A&E</sup> || Corps-à-corps || Confère un bonus égal au bonus d’altération de l’arme aux [[valeurs de combat#JETDESAUVEGARDE|jets de sauvegarde]] contre les effets de [[nécromancie]] du porteur. Chaque fois que le porteur obtient des points de vie temporaire, ajoute le bonus d’altération de l’arme à leur nombre. La zone de critique de l’arme est doublée contre les morts-vivants. Inflige 1d8 points de dégâts d’énergie positive aux morts-vivants sur un critique confirmé (+1d8 par multiplicateur critique au-delà de x2), ou rend la moitié de ce montant en points de vie au porteur. || bonus de +2
 
 |- CLASS="premier"
-| ''[[enflammée (propriété)|Enflammée]]''* || <sup>A&E</sup> || — || Fonctionne comme une arme de ''[[feu (propriété)|feu]]''. [[Dangers naturels#PRENDREFEU|Enflamme]] la cible sur un coup critique confirmé (si la propriété ''[[feu (propriété)|feu]]'' est active). || bonus de +2
+| ''[[enflammée (propriété)|Enflammée]]''* || <sup>CM</sup> || — || Peut enflammer les objets abandonnées, brûlant les créatures qui occupent la même case que les objets affectés. Trois fois par jour, peut infliger des dégâts de feu aux créatures à 1.5 m d'objets que l'arme a enflammée. || bonus de +2
 
 |- CLASS="premier"
 | ''[[entêtée (propriété)|Entêtée]]'' || <sup>A&E</sup> || Corps-à-corps || Le bonus d’altération de l’arme augmente de 1 (maximum +5) chaque fois que le porteur touche la même cible. || bonus de +2
@@ -402,6 +402,9 @@ Une arme ayant une propriété spéciale doit posséder un bonus d’altération
 
 |- CLASS="premier"
 | ''[[inamovible (propriété)|Inamovible]]'' || <sup>A&E</sup> || Corps-à-corps, Armes de jet || Par une [[action rapide]], le porteur peut fixer l’arme à sa position (comme un [[sceptre inamovible]]). Peut se fixer aux cibles consistantes au touché, rendant l’arme inutilisable mais empêchant la cible de se déplacer tant qu’elle ne détruit pas l’arme ou ne réussit pas un test de [[Force]] [[DD]] 30, auquel cas elle peut se déplacer à 3m maximum de sa position. || bonus de +2
+
+|- CLASS="premier"
+| ''[[inflammable (propriété)|Inflammable]]''* || <sup>A&E</sup> || — || Fonctionne comme une arme de ''[[feu (propriété)|feu]]''. [[Dangers naturels#PRENDREFEU|Enflamme]] la cible sur un coup critique confirmé (si la propriété ''[[feu (propriété)|feu]]'' est active). || bonus de +2
 
 |- CLASS="premier"
 | ''[[intensification ki (propriété)|Intensification ki]]'' || <sup>A&E</sup> || Corps-à-corps || Fonctionne comme une arme de ''[[Descriptions individuelles des propriétés spéciales des armes#Focalisation ki|focalisation ki]]'', augmentant le [[DD]] des [[valeurs de combat#JETDESAUVEGARDE|jets de sauvegarde]] des attaques de [[moine#RESERVEDEKI|ki]] de la moitié du bonus d’altération de l’arme (minimum 1). Permet de dépenser un point de [[moine#RESERVEDEKI|ki]] par une [[action rapide]] au touché pour effectuer une manœuvre de [[bousculade]], de [[désarmement]], de [[repositionnement]] ou de [[croc-en-jambe]] par une [[action libre]] ne provoquant pas d’[[valeurs de combat#ATTAQUEDOPPORTUNITE|attaque d’opportunité]]. || bonus de +2
