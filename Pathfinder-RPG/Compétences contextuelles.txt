@@ -1,0 +1,660 @@
+---
+Name: Pathfinder-RPG.Compétences contextuelles
+Title: Compétences contextuelles
+LastModified: 2020-10-24 04:16
+---
+{s:MenuPathfinderunchained}Le système de compétences décrit dans le Manuel des Joueurs est très polyvalent. Il permet aux personnages de surmonter diverses épreuves grâce à leurs talents variés en appliquant des règles simples qui prennent en compte les conditions avantageuses ou désavantageuses. Beaucoup de joueurs investissent simplement leurs rangs dans les mêmes compétences à chaque niveau, mais un personnage peut tout à fait diversifier cet investissement afin d’avoir accès à davantage de compétences ou pour remédier à un manque au sein de son groupe.
+
+Toutefois, les compétences ne revêtent pas toutes la même utilité pour les personnages. On peut difficilement affirmer qu’un bonus élevé dans une compétence de Profession a la même valeur que ce même bonus dans une compétence plus générale comme Perception. Il n’empêche que Profession est une compétence importante pour les personnages non-joueurs, tout comme pour les joueurs qui ne veulent pas faire de l’aventure le seul centre d’intérêt de leurs personnages.
+
+Le système des compétences contextuelles souligne l’importance des compétences d’Artisanat, de Connaissances et de Profession. Même si ces compétences n’affectent pas directement la carrière d’aventuriers typiques de la même façon que le Bluff, la Perception et la Discrétion, elles restent des moyens utiles que les personnages peuvent exploiter pour interagir avec le monde et l’explorer en dehors des phases de combat. Vous ne devriez pas avoir à choisir entre les connaissances pour comprendre le monde et les compétences pour y survivre !
+
+On utilise le terme de compétences contextuelles car elles reflètent les centres d’intérêts et les passions d’un personnage-joueur en dehors des aventures et parce qu’elles sont importantes pour les PNJ. Toutes les autres compétences sont des compétences d’aventure.
+
+Dans les campagnes où l’on applique le système des compétences contextuelles, chaque personnage dispose de 2 rangs de compétences supplémentaires par niveau, à investir obligatoirement dans des compétences contextuelles. Vous trouverez plus d’informations dans la section "[[Compétences contextuelles#ACQUISITIONDESCOMPETENCESCONTEXTUELLES|Acquisition des compétences contextuelles]]". Ces règles nouvelles augmentent la polyvalence des personnages et de leurs compétences. Toutefois, comme elles améliorent uniquement les compétences utiles en dehors des aventures, elles ne risquent pas de déséquilibrer le jeu.
+
+<div style="float: right; padding: 0 0 8px 8px">{toc}</div>
+===Modifications des compétences===
+Artisanat, Dressage, Estimation, Linguistique, Représentation, Profession et certaines Connaissances spécialisées sont toutes des compétences contextuelles. Alors que toutes ces compétences peuvent s’avérer utiles, voire indispensables, dans certaines campagnes (comme Profession <nowiki>[</nowiki>marin<nowiki>]</nowiki> dans une campagne nautique) ou pour certains personnages (comme Dressage pour un druide ou un rôdeur), leur utilité est souvent moins évidente dans l’immédiat, comparé au fait de pouvoir frapper un adversaire dans le dos en utilisant la Discrétion ou de traverser des contrées sauvages en utilisant la Survie.
+
+Ce système ajoute également deux nouvelles compétences contextuelles : Création artistique et Savoir. Comparable à l’Artisanat et à la Représentation, la compétence de Création artistique permet d’élaborer une oeuvre artistique qui n’est pas nécessairement un objet ou une représentation artistique. Cette compétence peut servir à composer une oeuvre musicale ou une pièce de théâtre, des poèmes et toutes sortes d’autres oeuvres d’art. De son côté, le Savoir fonctionne comme une compétence de Connaissances particulièrement spécialisée. Un personnage peut avoir Savoir (histoire elfique) sans être formé à la compétence plus généraliste de Connaissances (histoire). De la même façon, il peut maîtriser la compétence de Savoir (chefs d’oeuvre artistiques) sans avoir investi de rangs en Estimation, Création artistique ou Artisanat.
+
+Vous trouverez la description des nouvelles compétences dans la section "[[Compétences contextuelles#NOUVELLESCOMPETENCES|Nouvelles compétences]]". Une section est consacrée à chacune. Des sections étendues sont également consacrées aux compétences déjà existantes désormais considérées comme des compétences contextuelles.
+
+La table suivante donne la liste des compétences nouvelles et redéfinies, ainsi que leur appartenance à la catégorie des compétences d’aventure ou des compétences contextuelles.
+
+<table width="100%"><tr><td width="50%">
+{| CLASS="tablo centre autoalt" WIDTH="94%"
+|- CLASS="titre"
+| Compétences d'aventure
+|- CLASS="premier"
+| Acrobaties
+|-
+| Art de la magie
+|-
+| Bluff
+|-
+| Connaissances (exploration souterraine)
+|-
+| Connaissances (folklore local)
+|-
+| Connaissances (mystères)
+|-
+| Connaissances (nature)
+|-
+| Connaissances (plans)
+|-
+| Connaissances (religion)
+|-
+| Déguisement
+|-
+| Diplomatie
+|-
+| Discrétion
+|-
+| Équitation
+|-
+| Escalade
+|-
+| Évasion
+|-
+| Intimidation
+|-
+| Natation
+|-
+| Perception
+|-
+| Premiers secours
+|-
+| Psychologie
+|-
+| Sabotage
+|-
+| Survie
+|-
+| Utilisation d’objets magiques
+|-
+| Vol
+|}
+</td><td width="50%">
+{| CLASS="tablo centre autoalt" WIDTH="94%"
+|- CLASS="titre"
+| Compétences contextuelles
+|- CLASS="premier"
+| Artisanat
+|-
+| Connaissances (géographie)
+|-
+| Connaissances (histoire)
+|-
+| Connaissances (ingénierie)
+|-
+| Connaissances (noblesse)
+|-
+| Création artistique
+|-
+| Dressage
+|-
+| Escamotage
+|-
+| Estimation
+|-
+| Linguistique
+|-
+| Profession
+|-
+| Représentation
+|-
+| Savoir
+|}
+</td></tr></table>
+
+===Acquisition des compétences d'aventure===
+Les compétences d’aventure sont les plus pertinentes et les plus utiles pour des personnages en cours d’aventure. Ils les acquièrent grâce aux rangs de compétence standards que toutes les classes de personnage reçoivent, modifiés par leur Intelligence (et parfois par leur race et d’autres facteurs). Ces compétences n’ont pas besoin d’être ajustées si vous utilisez le système des compétences contextuelles.
+
+La plupart des compétences d’aventure sont liées à l’entraînement et à la pratique et chacune s’utilise de manière claire et spécifique pour surmonter les épreuves rencontrées quotidiennement par un aventurier professionnel. La plupart des tests de compétence effectués en cours de jeu sont des tests de compétences d’aventure, voilà pourquoi un personnage devrait investir la majorité de ses rangs de compétences dans celles-ci.
+
+{s:Reference|ACQUISITIONDESCOMPETENCESCONTEXTUELLES}
+===Acquisition des compétences contextuelles===
+En plus du nombre normal de rangs de compétence que les personnages obtiennent à chaque fois qu’ils gagnent un niveau dans une classe de PJ, ils obtiennent également deux rangs de compétence contextuelle. Le modificateur d’Intelligence des personnages ne modifie pas cette valeur. Les rangs de compétence contextuelle s’investissent uniquement dans les compétences contextuelles et non dans les compétences d’aventure tandis que les personnages peuvent investir leurs rangs de compétence standards dans les compétences contextuelles s’ils le souhaitent.
+
+Mêmes les aventuriers les plus dévoués à leur tâche aiment participer à d’autres activités lors de leur temps libre. Certains se lancent dans les affaires pendant leurs périodes d’intermèdes entre chaque aventure. Les règles d’intermèdes décrites dans le Guide de campagne Pathfinder JdR expliquent comment gérer ce type d’activités, mais certains joueurs trouvent ce système trop imposant bien qu’ils désirent tout de même inclure certains aspects de ce genre d’activités sur leur feuille de personnage.
+
+====Compétences de classe====
+Si vous appliquez le système des compétences contextuelles, les classes utilisent leur liste standard de compétences de classe respective. Toutes les classes qui ont Artisanat ou Représentation en compétence de classe considèrent également Création artistique comme une compétence de classe. Savoir est toujours considéré comme une compétence de classe pour tous les personnages.
+
+Par exemple, la liste standard des compétences de classe de magicien comporte la compétence Estimation. Ainsi, pour un magicien, la compétence contextuelle d’Estimation est une compétence de classe. Artisanat est également sur sa liste de compétences de classe et on considère donc que Création artistique est pour lui également une compétence de classe (même si Représentation n’apparait pas sur cette liste).
+
+====Conversion des personnages====
+Il est très facile d’intégrer des compétences contextuelles dans une campagne en cours. Pour convertir les rangs de compétence d’un personnage à ce système, il faut commencer par déterminer le nombre total de rangs de compétence contextuelle qu’il possède. Ce nombre est égal à 2 × le niveau de personnage du PJ. Ensuite, déterminez le nombre de rangs qu’il a déjà investis dans les compétences considérées, d’après ce système, comme des compétences contextuelles. Le personnage dispose de ce nombre de rangs de compétence qu’il peut investir dans toutes les compétences, ce qui permet de récupérer les rangs de compétence classique investis dans les compétences contextuelles. Enfin, soustrayez ce nombre du nombre total de rangs de compétence contextuelle du personnage pour déterminer le nombre de rangs de compétence contextuelle qu’il peut encore investir. Par exemple, un roublard de niveau 5 dispose de 10 rangs de compétence contextuelle. S’il a déjà investi 5 rangs dans des compétences désormais considérées comme contextuelles, il peut investir 5 rangs de compétence contextuelle dans ces compétences, ce qui lui libère les 5 rangs initialement dépensés qu’il peut à présent investir dans n’importe quelles compétences. Il lui reste encore 5 rangs de compétence contextuelle qu’il peut investir dans les compétences de ce type.
+
+Le MJ peut autoriser une certaine dose de réapprentissage pour prendre en compte les nouvelles compétences contextuelles. Un personnage qui a investi des rangs dans la compétence de Profession (poète) peut vouloir investir ses rangs dans la compétence de Création artistique (poésie) à la place. De même, un personnage qui a investi des rangs dans la compétence de Connaissances (géographie) pour expliquer le temps passé à naviguer sur un fleuve particulier peut investir ces rangs dans la compétence de Savoir de ce fleuve à la place.
+
+===Monstres et PNJ===
+En règle générale, les monstres n’ont pas accès aux compétences contextuelles grâce à leurs dés de vie raciaux. Le maître de jeu peut décider que certains types de monstres s’adonnent depuis longtemps à un type d’artisanat ou de profession (comme les géants des tempêtes, par exemple) et qu’ils disposent donc de compétences contextuelles, mais cette décision est optionnelle.
+
+Les PNJ obtiennent des compétences contextuelles de la même façon que les PJ mais seulement pour les classes de PJ qu’ils possèdent. Cette règle s’applique également aux monstres qui possèdent des niveaux dans des classes de PJ. Les PNJ n’ont pas à dépenser leurs rangs de compétences contextuelles et ces compétences affectent rarement les combats. Les personnages qui possèdent des classes de PNJ seulement, et plus particulièrement les nobles, les hommes du peuple et les experts, investissent souvent leurs rangs de compétences d’aventure dans leurs compétences contextuelles.
+
+{s:Reference|NOUVELLESCOMPETENCES}
+===Nouvelles compétences===
+Cette section vous présente deux nouvelles compétences : Création artistique et Savoir. Même si vous n’appliquez pas le système des compétences contextuelles, vous pouvez toujours intégrer ces compétences dans vos parties en tant que compétences classiques.
+
+====Création artistique (Int)====
+Le personnage maîtrise les arts créatifs et exploite son sens artistique pour donner vie aux merveilles de son imagination. Tout comme les différents Artisanats, Représentations et Professions, Création artistique englobe en réalité plusieurs compétences distinctes. Le personnage peut maîtriser plusieurs compétences de Création artistique, chacune avec ses propres rangs. Voici les compétences de Création artistique les plus courantes : chorégraphie, composition musicale, critique, dramaturgie, littérature (y compris la poésie) et philosophie.
+
+Comme l’Artisanat, une compétence de Création artistique permet de créer quelque chose. Toutefois, cette chose n’est pas nécessairement un objet physique. Ce peut être le modèle ou le plan d’un objet ou une méthode plus efficace pour fabriquer un certain type d’objets. Ainsi, un test de Création artistique (composition musicale) peut servir à composer une nouvelle chanson, mais le fruit de l’acte de création est la chanson elle-même, pas le papier sur lequel elle est rédigée ni le fait de la chanter. Un artiste n’est pas nécessairement un interprète, un chanteur ou un acteur compétent, même s’il peut l’être également. Il cherche plutôt à créer des idées et des concepts et à concrétiser ces idées de façon à en faire profiter autrui et à contribuer au partage de la culture et des arts. Il est parfois difficile de dire si certaines formes artistiques (comme la peinture ou la sculpture) sont du domaine de l’Artisanat ou de la Création artistique. C’est le MJ qui décide si certaines compétences d’Artisanat se remplacent par des compétences de Création artistique.
+
+=====<u>Test de compétence</u>=====
+Le personnage sait créer des œuvres d’art et peut tenter de gagner sa vie en impressionnant des mécènes avec son talent et ses idées.
+
+<center>
+{| CLASS="tablo autoalt toutgauche"
+|- CLASS="titre"
+| DD du test de Création artistique || Qualité du travail
+|- CLASS="premier"
+| 10 || '''Œuvre banale.''' Personne n’achète l’œuvre originale du personnage, mais on lui propose quelques menus travaux lié à ses talents, qui consistent souvent à réparer ou à copier le travail de quelqu’un d’autre. Le personnage gagne 1d10 pc par jour.
+|-
+| 15 || '''Œuvre plaisante.''' Dans une cité florissante, le personnage trouve plusieurs clients désireux d’acquérir son œuvre. Il gagne 1d10 pa par jour.
+|-
+| 20 || '''Œuvre impressionnante.''' Dans une cité florissante, le personnage gagne 3d10 pa par jour et peut recevoir une commission artistique versée par une personnalité publique ou un individu riche. C’est ainsi que commence à se développer la réputation du personnage au niveau local.
+|-
+| 25 || '''Œuvre mémorable.''' Dans une cité florissante, le personnage gagne 1d6 po par jour. Il peut attirer l’attention de mécènes fortunés et commence à développer une réputation au niveau national.
+|-
+| 30 || '''Chef d’œuvre.''' Dans une cité florissante, le personnage gagne 3d6 po par jour. Avec le temps, il peut attirer l’attention de mécènes étrangers, voire d’entités extraplanaires.
+|}
+</center>
+
+Puisque les œuvres d’art sont les produits de l’imagination, les outils de qualité supérieure n’apportent aucun avantage à leur création.
+
+<div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+<center>
+{| CLASS="tablo autoalt toutgauche"
+|- CLASS="titre"
+| Qualité de l'œuvre || DD || Commission
+|- CLASS="premier"
+| Œuvre banale || 10 || 1 pa
+|-
+| Œuvre plaisante || 15 || 25 po (250 pa)
+|-
+| Œuvre impressionnante || 20 || 50 po (500 pa)
+|-
+| Œuvre mémorable || 25 || 100 po (1 000 pa)
+|-
+| Chef d’œuvre || 30 || 200 po (2 000 pa)
+|}
+</center></div></div>
+''Création d’une œuvre sur commande.'' Si le personnage crée une œuvre particulière commandée par un client, déterminez la valeur de l’œuvre que le personnage souhaite créer en consultant la table ci-dessous, puis suivez les étapes indiquées. Le personnage doit avoir un client désireux de verser le prix fixé pour pouvoir créer une œuvre sur commande. Le montant touché lorsque le personnage tente de gagner sa vie en utilisant Création artistique provient d’œuvres massivement distribuées ou publiées, pas d’une commande achetée par un unique client.
+
+{s:ClearRight}Pour déterminer la durée du travail et le coût investi pour créer l’œuvre d’art, suivez ces étapes.
+* '''Première étape.''' Définissez le DD et le prix qui correspondent à la qualité de l’œuvre que le personnage a l’intention de créer.
+
+* '''Deuxième étape.''' Versez un quart du prix de l’œuvre que le personnage a l’intention de créer. Ce coût représente l’achat de produits tels que des parchemins et de l’encre, l’embauche temporaire de musiciens, l’achat de matériaux de recherche et autres éléments similaires.
+
+* '''Troisième étape.''' Le personnage effectue un test de Création artistique contre le DD approprié. Ce test représente une semaine de travail. S’il le réussit, multipliez le résultat du test par le DD. Si la valeur obtenue est égale au prix de l’objet en pa, le personnage a terminé l’œuvre d’art et touche sa commission (si la valeur obtenue est le double ou le triple du prix de l’œuvre en pièces d’argent, le personnage a accompli la tâche en deux ou trois fois moins de temps. De la même façon, les autres multiples du DD réduisent encore davantage le temps consacré à la création). Si la valeur obtenue n’égale pas le prix, elle représente les progrès accomplis pour la semaine, exprimés en pa. Si le test rate, le personnage ne progresse pas dans son travail.
+
+* '''Quatrième étape.''' Si le personnage n’a pas terminé son œuvre, il peut continuer à travailler ou estimer qu’elle est terminée afin de limiter ses pertes. S’il persiste, il doit dépenser un quart du prix à nouveau pour chaque semaine de travail. Notez le résultat du test obtenu lors de la première semaine et ajoutez les résultats obtenus lors des semaines suivantes jusqu’à ce que le total soit suffisant pour terminer l’œuvre ou que le personnage décide d’arrêter pour limiter les pertes. S’il décide d’arrêter, il gagne une commission équivalente à la qualité de l’œuvre obtenue grâce à son total. Par exemple, si le personnage tente de créer une œuvre mémorable (pour une commission de 1 000 pa) et n’obtient que 600 pa de progrès, il peut décider d’arrêter pour limiter ses pertes afin d’empocher une commission équivalent à une œuvre impressionnante (500 pa ou 50 po). Le personnage ne peut pas toucher la commission d’une œuvre dont la qualité est supérieure à celle qu’il avait l’intention de créer. Par conséquent, si le personnage avait l’intention de créer une œuvre mémorable mais réussit un chef d’œuvre, il ne peut pas empocher une commission supérieure à 100 po. Quand il décide de limiter les pertes, il ne récupère pas l’argent investi en matériaux et services. Par conséquent, s’il a dépensé 250 pa en essayant de créer une œuvre mémorable, la vente d’une œuvre impressionnante lui rapporte un total de 250 pa seulement s’il a consacré une semaine de travail à sa création et il rembourse simplement ses frais si deux semaines de travail étaient nécessaires. Il est possible de perdre de l’argent en travaillant sur une commande.
+
+=====<u>Action</u>=====
+Variable. La création d’œuvres mineures pour gagner de l’argent nécessite généralement une semaine de travail. Si le personnage travaille moins d’une semaine, il gagne le montant moyen quotidien correspondant à la qualité de l’œuvre obtenue. La création d’une commande nécessite généralement une ou plusieurs semaines de travail.
+
+=====<u>Nouvelles tentatives</u>=====
+Oui. Les nouvelles tentatives sont permises mais elles n’annulent pas les échecs précédents. Si le personnage tente de gagner sa vie en tant qu’artiste dans une cité où le public n’a pas été impressionné par son œuvre (parce qu’il a raté un test de Création artistique DD 15 lors de la semaine précédente), les chances de percer sur le marché grâce aux œuvres suivantes sont plus minces (le DD augmente de 2 pour chaque échec précédent). Si le personnage quitte les lieux pendant un mois ou plus avant de tenter à nouveau sa chance, les éventuelles augmentations de DD engendrées par les échecs précédents reviennent à 0.
+
+
+====Savoir (Int, formation nécessaire)====
+<div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+<center>
+{| CLASS="tablo autoalt toutgauche"
+|- CLASS="titre"
+| Savoirs appropriés || Savoirs inappropriés
+|- CLASS="premier"
+| Une petite ville en particulier (ou<br>une communauté encore plus petite) || Communautés
+|-
+| Un quartier d’une grande ville<br>ou d’une métropole || Une grande ville ou une<br>métropole dans sa totalité
+|-
+| Un monastère précis || Monastères
+|-
+| Les tavernes d’une région || Tavernes
+|-
+| Les bandits d’une région || Banditisme
+|-
+| Les grandes batailles qui se sont<br>déroulées dans une région || Grandes batailles
+|-
+| Commerce des épices || Commerce
+|-
+| Chats || Animaux
+|-
+| Matriarches drows || Drows
+|-
+| Histoire des nains || Nains
+|-
+| Géants du froid || Géants
+|-
+| Sarenrae || Dieux
+|-
+| Dagon || Seigneurs démons
+|-
+| Phlégéthon || Enfers
+|-
+| Commandants militaires || Guerre
+|-
+| Chateurs connus || Musique
+|-
+| Contrats infernaux || Diables
+|-
+| Sorts d’évocation || Sorts
+|-
+| Argent et mithral || Métaux
+|-
+| Thé || Boissons
+|-
+| Arbres || Flore
+|-
+| Tatouages || Art
+|}
+</center></div></div>Le personnage est versé dans un domaine de connaissances spécialisé et souvent moins étendu que celui d’un érudit accompli. Le Savoir est une compétence fourre-tout qui permet d’obtenir des informations et qui fonctionne de manière similaire à celle d’Artisanat pour les diverses compétences artisanales et à celle de Profession pour les diverses compétences professionnelles.
+
+Les catégories d’une compétence de Savoir varient grandement. Il peut s’agir d’un Savoir sur une région (telle qu’une cité ou un pays), sur une discipline (telle que la cryptographie) ou sur un petit groupe de personnes (comme les musiciens célèbres). Les compétences de Savoir basées sur une région peuvent également faire référence à des sous-catégories particulières, comme les tavernes d’une région en particulier.
+
+Une compétence de Savoir doit se limiter à un domaine très particulier, bien plus pointu que la compétence de Connaissances qui s’en rapproche. Plus le sujet du Savoir est vaste, plus les connaissances du personnage sont superficielles. Si le personnage connait les tavernes d’une vaste région, les informations sur chacune seront moins précises que celles d’un personnage qui possède la compétence de Savoir sur les tavernes d’une cité spécifique. Les compétences de Savoir ne servent généralement pas à identifier des monstres comme les compétences de Connaissances, à moins qu’elles fassent directement référence à un type particulier de monstres (les ours-hiboux ou les vampires, par exemple). Si la compétence de Savoir concerne une race ou une catégorie de monstres trop vaste ou trop courante, il est nécessaire de préciser cette catégorie en la restreignant. La compétence Savoir (elfes) est trop vaste, tout comme celle de Savoir (dragons).
+
+=====<u>Test de compétence</u>=====
+Les compétences de Savoir utilisent la même échelle de DD que les Connaissances : DD 10 pour répondre à des questions basiques, DD 15 pour répondre à des questions simples et DD 20, voire 30, pour des questions difficiles ou très difficiles. Dans de nombreux cas, le Savoir peut se substituer à une compétence de Connaissances, comme Savoir (histoire elfique) qui supplée Connaissances (histoire) dans le cas d’un test à propos des elfes. À l’appréciation du MJ, un joueur peut se servir d’une compétence de Savoir partiellement liée à un sujet en subissant un malus de -5. Ce sera le cas quand, par exemple, on se sert d’une compétence de Savoir à propos d’une région pour obtenir des informations sur une cité spécifique de cette région ou quand on souhaite avoir des informations sur la vinification alors qu’on maîtrise une compétence de Savoir (distillation).
+
+La table ci-dessous donne plusieurs exemples de compétences de Savoir et de compétences trop vagues. Cette liste n’est en aucun cas exhaustive et c’est au MJ de décider de la pertinence d’une compétence de Savoir particulière.
+
+=====<u>Bardes</u>=====
+La compétence de Savoir est considérée comme une compétence de Connaissances dans le cadre des aptitudes de savoir bardique et de maître du savoir des bardes, ainsi que pour les aptitudes similaires d’autres classes, créatures et archétypes. Cette règle s’applique uniquement aux compétences de Savoir dans lesquelles le personnage a été formé. Sinon, utilisez la compétence de Connaissances la plus pertinente en fonction des questions posées.
+
+===Utilisations étendues des compétences===
+Des règles basiques pour fabriquer des objets et gagner de l’argent grâce aux compétences d’Artisanat, de Représentation ou de Profession existent déjà. Ceci dit, ces compétences peuvent également s’avérer utiles pour accomplir des tâches liées à leur pratique. Vous trouverez dans cette section des exemples étendus d’utilisation avec les DD correspondants pour les tâches les plus courantes. Ces extensions proposent des méthodes d’utilisation supplémentaires pour améliorer l’intégration de ces compétences dans une session de jeu classique, utilisables même sans appliquer le système des compétences contextuelles. C’est le MJ qui décide de la pertinence de leur utilisation, surtout en ce qui concerne celles qui permettent à un personnage d’en aider un autre en appliquant un DD inférieur. Pour plus d’informations sur les sous-systèmes conçus pour dupliquer la fabrication d’objets et pour gérer un commerce, voir la section "[[Artisanat et Profession alternatives]]".
+
+====Artisanat étendu====
+Il faut connaitre les propriétés et la qualité d’un objet pour savoir le fabriquer correctement. Certains de ces tests nécessitent une longue période de travail définie par le MJ, surtout pour des tâches complexes comme la restauration d’une fresque. Cette section décrit également deux compétences d’Artisanat utiles qui n’apparaissent pas dans le Manuel des Joueurs : Artisanat (forge) et Artisanat (instruments de musique).
+
+<table width="100%"><tr><td width="50%">
+{| CLASS="tablo centre autoalt" WIDTH="96%"
+|- CLASS="titre"
+| Tâche || Compétence d’Artisanat || DD
+|- CLASS="premier"
+| Déterminer de quelle culture un objet est issu (par ex., les elfes, les géants du froid, etc.) || En fonction du type d’objet || 15
+|-
+| Identifier la signature d’un artisan célèbre || En fonction du type d’objet || 10
+|-
+| Identifier la signature d’un artisan méconnu<sup>1</sup> || En fonction du type d’objet || 20
+|-
+| Identifier l’artisan à l’origine d’un objet non signé<sup>1</sup> || En fonction du type d’objet || 30
+|-
+| Déterminer la solidité et les points de vie d’un objet<sup>1</sup> || En fonction du type d’objet || 20
+|-
+| Déterminer les objets que peut fabriquer un alchimiste en examinant les substances présentes dans son laboratoire<sup>1</sup> || Alchimie || 15
+|-
+| Graver des motifs ornementaux sur les plates d’une armure métallique || Armures ou peintures || 15
+|-
+| Identifier une armure de maître d’un simple coup d’œil || Armures || 15
+|-
+| Déterminer le type d’environnement dans lequel ont été prélevés les matériaux utilisés pour la confection d’un panier || Paniers || 10
+|-
+| Déterminer la région spécifique dans laquelle ont été prélevés les matériaux utilisés pour la confection d’un panier || Paniers || 20
+|-
+| Fondre du minerai et raffiner du métal || Forge || 15
+|-
+| Fabriquer des pointes d’armure ou de bouclier sans utiliser Artisanat (armures)<sup>1</sup> || Forge || +5
+|-
+| Déterminer l’ancienneté approximative d’un livre || Livres || 10
+|-
+| Identifier un arc composite d’un simple coup d’œil || Arcs || 10
+|-
+| Identifier un arc de maître d’un simple coup d’œil || Arcs || 15
+|-
+| Déterminer le niveau d’expérience d’un écrivain et s’il écrit de la main gauche ou droite || Calligraphie || 10
+|-
+| Rédiger une invitation répondant aux conventions sociales || Calligraphie || 10
+|-
+| Fabriquer un tonneau ou une caisse || Constructions en bois || 10
+|-
+| Fabriquer un radeau rudimentaire avec des matériaux de récupération || Constructions en bois ou navires || 15
+|-
+| Sculpter un joli objet dans du bois || Charpenterie ou sculpture || 15
+|-
+| Fabriquer une armure de bois ou un bouclier en bois sans utiliser Artisanat (armures) || Charpenterie || +5
+|-
+| Teinter correctement un vêtement ou un rouleau de tissu || Étoffes || 10
+|-
+| Raccommoder une voile || Étoffes, vêtements, navires || 15
+|}
+</td><td width="50%">
+{| CLASS="tablo centre autoalt" WIDTH="96%"
+| Modifier la taille ou la forme d’un vêtement || Vêtements || 10
+|-
+| Confectionner une tenue temporaire adaptée au froid (confère un bonus de +2) || Vêtements || 20
+|-
+| Confectionner une armure matelassée sans utiliser Artisanat (armures) || Vêtements || +5
+|-
+| Localiser ou identifier des formations de verre naturelles || Travail du verre || 10
+|-
+| Identifier le travail des joailliers connus || Bijoux || 15
+|-
+| Tailler une fausse pierre précieuse<sup>1</sup> || Bijoux || Opposé<sup>2</sup>
+|-
+| Identifier le type de créature sur laquelle a été prélevé le cuir utilisé pour fabriquer un objet<sup>1</sup> || Travail du cuir || 10<sup>3</sup>
+|-
+| Écorcher un animal et tanner sa peau || Travail du cuir || 15
+|-
+| Fabriquer un objet de qualité à partir du cuir d’une créature inhabituelle<sup>1</sup> || Travail du cuir || 20
+|-
+| Fabriquer une armure de cuir, de cuir cloutée, ou de peau sans utiliser Artisanat (armures) || Travail du cuir || +5
+|-
+| Aider quelqu’un qui effectue un test de Sabotage pour crocheter une serrure<sup>1</sup> || Serrures || 5
+|-
+| Accorder un instrument de musique || Instruments de musique || 10
+|-
+| Fabriquer des peintures et autres pigments à partir de rien || Peintures || 10
+|-
+| Peindre le portrait d’un individu de mémoire || Peintures || 15
+|-
+| Peindre le portrait d’un individu grâce à la description d’un témoin oculaire || Peintures || 20
+|-
+| Fabriquer un four à poterie de fortune ou temporaire || Poteries || 20
+|-
+| Fabriquer le moule d’un objet ou d’un morceau de corps || Sculpture || 10
+|-
+| Modifier la taille ou la forme de souliers<sup>1</sup> || Souliers || 10
+|-
+| Reconnaître un navire connu et sa provenance probable || Navires || 10
+|-
+| Savoir si un mur est entièrement composé de pierre ou si celle-ci n’est qu’un simple revêtement || Constructions en pierre || 10
+|-
+| Fabriquer un support de pierre temporaire ou un petit rempart avec des matériaux de récupération || Constructions en pierre || 15
+|-
+| Déterminer l’ancienneté d’un piège mécanique || Pièges || 15
+|-
+| Identifier une arme de maître d’un simple coup d’œil || Armes || 15
+|- CLASS="note"
+| | COLSPAN="3" | ''(1) Un personnage doit être formé dans la compétence indiquée pour tenter cette tâche.''
+|- CLASS="note"
+| | COLSPAN="3" | ''(2) Un personnage détecte la supercherie en réussissant un test opposé de Perception ou d’Artisanat (bijoux).''
+|- CLASS="note"
+| | COLSPAN="3" | ''(3) Le DD indiqué convient pour les objets fabriqués à partir du cuir d’animaux ordinaires, comme celui du bétail. Il augmente de 5 pour d’autres types de créatures.''
+|}
+</td></tr></table>
+
+La table ci-dessous précise les compétences d’Artisanat à utiliser pour fabriquer des objets et des accessoires d’aventure essentiels. Cette liste ne précise pas les objets évidents : on fabrique des tenues avec Artisanat (vêtements), des bateaux à quille avec Artisanat (navires), etc. On peut aussi utiliser des compétences plus spécifiques au lieu de celles indiquées, comme Artisanat (tatouages) au lieu d’Artisanat (peintures) pour dessiner un tatouage.
+
+<table width="100%"><tr><td width="50%">
+{| CLASS="tablo centre autoalt" WIDTH="96%"
+|- CLASS="titre"
+| Tâche || Compétence d’Artisanat
+|- CLASS="premier"
+| [[Animaux, montures et leur équipement#Barde|Armures pour animaux]] || Armures
+|-
+| [[Équipement daventurier#Chaîne (3 m)|Chaîne]] || Forge ou pièges
+|-
+| [[Moyens de transport#Charrette|Charrette]] ou [[Moyens de transport#Diligence|diligence]] || Constructions en bois
+|-
+| [[Équipement daventurier#Chausse-trappes|Chausse-trappes]] || Armes
+|-
+| [[Équipement daventurier#Chevalière|Chevalière]] || Bijoux
+|-
+| [[Équipement daventurier#Coffre|Coffre]] || Constructions en bois ou serrures
+|-
+| [[Équipement daventurier#Corde|Corde en chanvre]] || Paniers ou étoffes
+|-
+| [[Équipement daventurier#Corde en soie|Corde en soie]] || Étoffes
+|-
+| [[Équipement daventurier#Étui à parchemins|Étui à parchemins]] || Constructions en bois ou travail du cuir
+|-
+| [[Équipement daventurier#Grappin|Grappin]] || Forge ou armes
+|-
+| [[Trousses doutils et de compétences#Instrument de musique|Instrument de musique]] || Instruments de musique
+|-
+| [[Équipement daventurier#Jeu du tourment|Jeu du tourment]] || Peintures
+|-
+| [[Trousses doutils et de compétences#Laboratoire d'alchimiste|Laboratoire d’alchimiste]] || Alchimie
+|-
+| [[Équipement daventurier#Lampe|Lampe]] || Forge ou travail du verre
+|-
+| [[Équipement daventurier#Longue vue|Longue vue]] || Travail du verre
+|-
+| [[Trousses doutils et de compétences#Matériel d'escalade|Matériel d’escalade]] || Forge
+|-
+| [[Équipement daventurier#Menottes|Menottes]] || Forge ou serrures
+|}
+</td><td width="50%">
+{| CLASS="tablo centre autoalt" WIDTH="96%"
+| [[Trousses doutils et de compétences#Outils d'artisan|Outils d’artisan]] || Forge ou constructions en bois
+|-
+| [[Trousses doutils et de compétences#Outils de cambrioleur|Outils de cambrioleur]] || Forge ou serrures
+|-
+| [[Trousses doutils et de compétences#Outils d'artisan|Outils de maître artisan]] || Forge
+|-
+| [[Équipement daventurier#Outre|Outre]] || Travail du cuir
+|-
+| [[Équipement daventurier#Passe-partout|Passe-partout]] || Serrures
+|-
+| [[Équipement daventurier#Sac à dos|Sac à dos]] || Vêtements ou travail du cuir
+|-
+| [[Équipement daventurier#Sac de couchage|Sac de couchage]] || Étoffes ou travail du cuir
+|-
+| [[Trousses doutils et de compétences#Sacoche à composantes|Sacoche à composantes]] || Travail du cuir
+|-
+| [[Animaux, montures et leur équipement#Selle|Selle]] || Travail du cuir
+|-
+| [[Équipement daventurier#Silex et amorce|Silex et amorce]] || Forge ou constructions en pierre
+|-
+| [[Équipement daventurier#Symbole sacré|Symbole sacré en argent]] || Forge ou sculpture
+|-
+| [[Équipement daventurier#Symbole sacré|Symbole sacré en bois]] || Constructions en bois ou sculpture
+|-
+| [[Équipement daventurier#Tatouage|Tatouage]] || Peintures
+|-
+| [[Équipement daventurier#Tente|Tente]] || Étoffes ou travail du cuir
+|-
+| [[Trousses doutils et de compétences#Trousse de déguisement|Trousse de déguisement]] || Alchimie ou peintures
+|-
+| [[Équipement daventurier#Trousse de pistolier|Trousse de pistolier]] || Alchimie ou forge
+|-
+| [[Trousses doutils et de compétences#Trousse de premiers secours|Trousse de premiers secours]] || Alchimie ou étoffes
+|}
+</td></tr></table>
+
+La table suivante indique les compétences d’Artisanat généralement utilisées pour fabriquer des objets courants que l’on porte sur soi. Le système normal de règles de création des objets magiques n’incorpore pas les compétences d’Artisanat mais on pourrait raisonnablement les intégrer lorsqu’il s’agit de créer un objet magique particulièrement ornementé.
+
+<table width="100%"><tr><td width="50%">
+{| CLASS="tablo centre autoalt" WIDTH="96%"
+|- CLASS="titre"
+| Objet porté || Compétence d’Artisanat
+|- CLASS="premier"
+| Amulette || Bijoux
+|-
+| Anneau || Bijoux
+|-
+| Bandeau || Étoffes ou vêtements
+|-
+| Bracelet || Forge ou bijoux
+|-
+| Brassard || Armures ou travail du cuir
+|-
+| Broche || Bijoux
+|-
+| Cape ou manteau || Étoffes ou vêtements
+|-
+| Casque || Armures
+|-
+| Ceinture || Travail du cuir ou vêtements
+|-
+| Collier || Forge ou bijoux
+|-
+| Corset || Vêtements ou travail du cuir
+|}
+</td><td width="50%">
+{| CLASS="tablo centre autoalt" WIDTH="96%"
+| Costume || Vêtements
+|-
+| Couronne || Forge ou bijoux
+|-
+| Couvre-chef || Vêtements ou travail du cuir
+|-
+| Diadème || Forge ou bijoux
+|-
+| Gant || Vêtements ou travail du cuir
+|-
+| Gantelet || Armures
+|-
+| Lunettes || Travail du verre
+|-
+| Masque || Vêtements ou travail du cuir
+|-
+| Médaillon || Bijoux
+|-
+| Phylactère || Travail du cuir ou constructions en bois
+|-
+| Robe || Vêtements
+|}
+</td></tr></table>
+
+====Profession étendue====
+Une profession englobe souvent de nombreux domaines d’expertise auxiliaires et plus restreints qui peuvent servir dans certaines situations, en dehors de celles où le personnage cherche simplement à gagner de l’argent ou à répondre à des questions spécifiques liées à son activité. Vous trouverez ci-dessous quelques exemples d’utilisations supplémentaires des compétences de Profession qui devraient inciter les PJ à inventer les leurs.
+
+<table width="100%"><tr><td width="50%">
+{| CLASS="tablo centre autoalt" WIDTH="96%"
+|- CLASS="titre"
+| Tâche || Compétence de Profession || DD
+|- CLASS="premier"
+| Déterminer la solidité et les points de vie d’une bâtisse || Architecte ou ingénieur || 20
+|-
+| Préparer des rations de survie (1 heure de travail pour un jour de ration) || Boulanger ou cuisinier || 10
+|-
+| Obtenir une autorisation officielle || Avocat ou clerc || 15
+|-
+| Faire sortir de prison quelqu’un qui a été emprisonné pour un délit mineur<sup>1</sup> || Avocat || 20
+|-
+| Demander une faveur spéciale à un juge (appréhender un individu, par exemple) || Avocat || 30
+|-
+| Distiller un alcool d’une qualité exceptionnelle || Brasseur || 20
+|-
+| Détecter un poison dans une boisson || Brasseur || 25
+|-
+| Écorcher un animal et tanner sa peau || Boucher, berger ou tanneur || 10
+|-
+| Abattre et dépecer un animal || Boucher, cuisinier ou berger || 15
+|-
+| Réduire le montant d’une taxe ou d’un impôt officiel d’un nombrede po égal à la moitié du résultat du test<sup>2</sup> || Clerc || 20 ou +
+|-
+| Cuisiner un repas d’une qualité exceptionnelle || Cuisinier || 20
+|-
+| Détecter un poison dans de la nourriture || Cuisinier || 25
+|-
+| Trouver des clients potentiels au sein d’un établissement ou d’un d’un grand groupe d’individus || Courtisan || 10
+|-
+| Jauger une hiérarchie sociale || Courtisan || 15
+|-
+| Continuer à conduire un véhicule en subissant des dégâts || Conducteur d’attelage ou marin || 5
+|-
+| Se mettre à l’abri (comme avec la compétence Équitation) tout en conduisant un véhicule || Conducteur d’attelage ou marin || 15
+|-
+| Identifier une plante qui n’est pas une créature || Fermier ou jardinier || 10
+|-
+| Revivifier des plantes en train de mourir || Fermier ou jardinier || 15
+|-
+| Fournir une journée de nourriture pour le personnage et autrui en pleine nature || Pêcheur ou trappeur || 15<sup>3</sup>
+|-
+| Se souvenir des règles d’un jeu de hasard || Joueur || 10
+|-
+| Avoir l’intuition qu’un jeu est truqué || Joueur || 20
+|-
+| Réduire de 50% le coût de la vie s’il est moyen ou inférieur || Tavernier || 15<sup>3</sup>
+|-
+| Calmer la faim ou la soif pour une journée || Herboriste || 10
+|-
+| Identifier des herbes médicinales courantes || Herboriste || 10
+|-
+| Identifier des herbes médicinales rares || Herboriste || 15
+|-
+| Aider quelqu’un lors d’un test de Connaissances en utilisant des ouvrages de référence || Bibliothécaire || 5
+|}
+</td><td width="50%">
+{| CLASS="tablo centre autoalt" WIDTH="96%"
+| Se rappeler le titre d’un livre rare || Bibliothécaire || 15
+|-
+| Déterminer le lieu de fabrication d’un objet || Marchand || 10<sup>4</sup>
+|-
+| Se rappeler où un article courant peut se vendre plus cher || Marchand || 15
+|-
+| Mettre au monde un enfant sain et sauf sans complication || Sage-femme || 15
+|-
+| Mettre au monde un enfant sain et sauf malgré les complications || Sage-femme || 20
+|-
+| Moudre une petite quantité de matière non-magique solidité || Meunier || 10 +
+|-
+| Identifier une pierre semi-précieuse ou un métal courant || Mineur || 5
+|-
+| Identifier une pierre précieuse ou un métal rare || Mineur || 15
+|-
+| Ignorer la moitié de la solidité d’un objet en pierre ou en métal quand on l’attaque || Mineur || 20
+|-
+| Augmenter la capacité de transport pendant 8 heures comme si la Force bénéficiait d’une augmentation de 2 points || Porteur || 15
+|-
+| Décharger un navire en deux fois moins de temps que la normale || Porteur || 20
+|-
+| Piloter un navire dans des conditions normales || Marin || 20
+|-
+| Piloter correctement un navire sur une voie maritime dangereuse || Marin || 25 ou +
+|-
+| Déterminer l’auteur d’un document || Scribe || 10<sup>4</sup>
+|-
+| Copier un document (30 minutes par page, nécessite un livre vierge) || Scribe || 10
+|-
+| Enluminer un manuscrit (1 heure par page) || Scribe || 20
+|-
+| Déterminer la qualité d’étoffes en laine || Berger || 10
+|-
+| Déterminer si une arme ou une armure est de maître || Soldat || 10
+|-
+| Estimer la taille d’une force armée || Soldat || 15
+|-
+| Connaître les avantages et les inconvénients d’une formation militaire || Soldat || 20
+|-
+| Réussir à nourrir des chevaux en pleine nature || Maître d’écurie || 10
+|-
+| Mettre ou ôter l’armure d’un animal en deux fois moins de temps || Maître d’écurie || 15
+|-
+| Détecter du matériel d’équitation endommagé ou saboté || Maître d’écurie || 20
+|-
+| Déterminer la qualité d’un article en cuir (et savoir s’il est de maître) || Tanneur || 10
+|-
+| Aider quelqu’un lors d’un test d’Évasion pour se libérer d’un piège ou d’un collet || Trappeur || 5
+|-
+| Réinitialiser un piège en deux fois moins de temps || Trappeur || 20
+|-
+| Récupérer du bois approprié pour faire un feu ou un abri || Bûcheron || 5
+|-
+| Ignorer la moitié de la solidité d’un objet en bois quand on l’attaque || Bûcheron || 20
+|- CLASS="note"
+| | COLSPAN="3" | ''(1) Un crime majeur occasionne généralement un procès qui nécessite toute une série de tests de Bluff, de Diplomatie, d’Intimidation, de Profession (avocat) et de Psychologie, ainsi que des tests de Connaissances appropriées.''
+|- CLASS="note"
+| | COLSPAN="3" | ''(2) Jusqu’à un minimum de 25% du montant de départ.''
+|- CLASS="note"
+| | COLSPAN="3" | ''(3) Fournit cet avantage au personnage et à une personne de plus par tranche de 2 points au-dessus du DD du test de compétence.''
+|- CLASS="note"
+| | COLSPAN="3" | ''(4) Augmentez de 5 le DD si l’objet provient d’une région peu connue du personnage et de 5 points supplémentaires si l’objet a plus de 20 ans. Il est généralement impossible de déterminer ainsi la provenance d’objets exceptionnellement rares ou anciens.''
+|}
+</td></tr></table>
+
+====Représentation étendue====
+En plus de savoir donner des spectacles, un artiste connait les œuvres majeures du type de représentation choisi.
+
+{| CLASS="tablo centre autoalt" WIDTH="60%"
+|- CLASS="titre"
+| Tâche || Compétence de Représentation || DD
+|- CLASS="premier"
+| Reproduire le style d’un artiste célèbre || Variable || 15
+|-
+| Se rappeler ou reconnaître toutes les notes, les paroles ou les textes d’une oeuvre populaire || Variable || 15
+|-
+| Se rappeler ou reconnaitre toutes les notes, les paroles ou les textes d’une oeuvre méconnue || Variable || 20
+|-
+| Improviser un numéro sur un sujet spécifique || Scène, farce, déclamation ou chant || 20
+|}

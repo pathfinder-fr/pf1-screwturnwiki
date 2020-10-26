@@ -1,0 +1,1169 @@
+---
+Name: Pathfinder-RPG.Compétences fusionnées
+Title: Compétences fusionnées
+LastModified: 2020-10-24 02:05
+---
+{s:MenuPathfinderunchained}Les compétences du Manuel des Joueurs permettent une spécialisation élaborée, mais parfois, le MJ désire utiliser une liste de compétences plus restreinte pour élargir l’éventail de talents des personnages, pour regrouper les compétences souvent choisies ensemble et pour accélérer le processus de montée de niveaux. Le système des compétences fusionnées réduit le nombre de compétences en associant celles d’un même domaine. Dans de nombreux cas, les nouvelles compétences qui en résultent ont changé de nom pour mettre l’accent sur la nature des compétences fusionnées. Cette variante augmente l’importance du moindre rang de compétence. Même en réduisant le nombre de rangs de compétence conférés aux personnages, ceux-ci seront tout de même plus compétents. Les classes de personnage qui confèrent de nombreuses compétences, comme le barde ou le roublard, bénéficient donc d’un coup de pouce certain.
+
+<div style="float: right; padding: 0 0 8px 8px">{toc}</div>Le système des compétences fusionnées réduit le nombre de compétences de 35 à 12. Nombre de compétences de Connaissances ont été regroupées dans des catégories plus vastes au thème similaire. La compétence Connaissances (mystères), par exemple, fusionne avec Utilisation d’objets magiques et Art de la magie. La liste des nouvelles compétences apparaît dans la Table 2-1 : Compétences fusionnées, accompagnée de la caractéristique associée à chacune d’elles et des compétences de base qu’elles remplacent. Plusieurs compétences ont été éliminées de ce système. Cette suppression est indiquée par un tiret (-) dans la Table 2-2 : Conversion des compétences de base. Les compétences éliminées sont généralement celles qui s’avèrent moins importantes lors des aventures mais il est possible de les réintégrer dans vos parties en utilisant la variante des compétences contextuelles décrite page 46. Les compétences peuvent être converties du système de base à celui-ci, et vice-versa, en utilisant la Table 2-2. Cette table est des plus utiles si vous menez des aventures publiées ou si vous utilisez des monstres créés en appliquant les règles de base.
+
+<table width="100%"><tr><td width="50%">
+{| CLASS="tablo centre autoalt" WIDTH="96%"
+|+ Compétences fusionnées
+|- CLASS="titre"
+| Nouvelle compétence || Sans formation || Caractéristique || Compétences de base incluses
+|- CLASS="premier"
+| [[Compétences fusionnées#ACROBATIES|Acrobaties]] || Oui || [[Dex]]* || [[Acrobaties]] (sauf pour sauter), [[Équitation]], [[Évasion]], [[Vol]]
+|-
+| [[Compétences fusionnées#ARTDELAMAGIE|Art de la magie]] || Non || [[Int]] || [[Art de la magie]], [[Connaissances]] (mystères), [[UOM|Utilisation d’objets magiques]]
+|-
+| [[Compétences fusionnées#ATHLETISME|Athlétisme]] || Oui || [[For]]* || [[Acrobaties]] (pour sauter), [[Escalade]], [[Natation]]
+|-
+| [[Compétences fusionnées#DISCRETION|Discrétion]] || Oui || [[Dex]]* || [[Discrétion]]
+|-
+| [[Compétences fusionnées#FINESSE|Finesse]] || Non || [[Dex]]* || [[Escamotage]], [[Sabotage]]
+|-
+| [[Compétences fusionnées#INFLUENCE|Influence]] || Oui || [[Cha]] || [[Bluff]], [[Diplomatie]], [[Intimidation]]
+|-
+| [[Compétences fusionnées#NATURE|Nature]] || Non || [[Int]] || [[Connaissances]] (exploration souterraine, géographie, nature), [[Dressage]]
+|-
+| [[Compétences fusionnées#PERCEPTION|Perception]] || Oui || [[Sag]] || [[Perception]], [[Psychologie]]
+|-
+| [[Compétences fusionnées#RELIGION|Religion]] || Non || [[Int]] || [[Connaissances]] (plans, religion)
+|-
+| [[Compétences fusionnées#REPRESENTATION|Représentation]] || Oui || [[Cha]] || [[Déguisement]], [[Représentation]]
+|-
+| [[Compétences fusionnées#SOCIETE|Société]] || Non || [[Int]] || [[Connaissances]] (folklore local, histoire,noblesse), [[Linguistique]]
+|-
+| [[Compétences fusionnées#SURVIE|Survie]] || Oui || [[Sag]] || [[Premiers secours]], [[Survie]]
+|- CLASS="note"
+| | COLSPAN="4" | ''(*) Le malus d’armure au test s’applique.''
+|}
+</td><td width="50%">
+{| CLASS="tablo centre autoalt" WIDTH="96%"
+|+ Conversion des compétences de base
+|- CLASS="titre"
+| Compétence de base || Compétence fusionnée
+|- CLASS="premier"
+| [[Acrobaties]]* (pour sauter) || [[Compétences fusionnées#ATHLETISME|Athlétisme]]
+|-
+| [[Acrobaties]] (sauf pour sauter) || [[Compétences fusionnées#ACROBATIES|Acrobaties]]
+|-
+| [[Art de la magie]] || [[Compétences fusionnées#ARTDELAMAGIE|Art de la magie]]
+|-
+| [[Artisanat]] || -
+|-
+| [[Bluff]] || [[Compétences fusionnées#INFLUENCE|Influence]]
+|-
+| [[Connaissances]] (exploration souterraine) || [[Compétences fusionnées#NATURE|Nature]]
+|-
+| [[Connaissances]] (folklore local) || [[Compétences fusionnées#SOCIETE|Société]]
+|-
+| [[Connaissances]] (géographie) || [[Compétences fusionnées#NATURE|Nature]]
+|-
+| [[Connaissances]] (histoire) || [[Compétences fusionnées#SOCIETE|Société]]
+|-
+| [[Connaissances]] (ingénierie) || -
+|-
+| [[Connaissances]] (mystères) || [[Compétences fusionnées#ARTDELAMAGIE|Art de la magie]]
+|-
+| [[Connaissances]] (nature) || [[Compétences fusionnées#NATURE|Nature]]
+|-
+| [[Connaissances]] (noblesse) || [[Compétences fusionnées#SOCIETE|Société]]
+|-
+| [[Connaissances]] (plans) || [[Compétences fusionnées#RELIGION|Religion]]
+|-
+| [[Connaissances]] (religion) || [[Compétences fusionnées#RELIGION|Religion]]
+|-
+| [[Déguisement]] || [[Compétences fusionnées#REPRESENTATION|Représentation]]
+|-
+| [[Diplomatie]] || [[Compétences fusionnées#INFLUENCE|Influence]]
+|-
+| [[Discrétion]] || [[Compétences fusionnées#DISCRETION|Discrétion]]
+|-
+| [[Dressage]]* || [[Compétences fusionnées#NATURE|Nature]]
+|-
+| [[Équitation]] || [[Compétences fusionnées#ACROBATIES|Acrobaties]]
+|-
+| [[Escalade]] || [[Compétences fusionnées#ATHLETISME|Athlétisme]]
+|-
+| [[Escamotage]] || [[Compétences fusionnées#FINESSE|Finesse]]
+|-
+| [[Estimation]] || -
+|-
+| [[Évasion]] || [[Compétences fusionnées#ACROBATIES|Acrobaties]]
+|-
+| [[Intimidation]] || [[Compétences fusionnées#INFLUENCE|Influence]]
+|-
+| [[Linguistique]] || [[Compétences fusionnées#SOCIETE|Société]]
+|-
+| [[Natation]] || [[Compétences fusionnées#ATHLETISME|Athlétisme]]
+|-
+| [[Perception]] || [[Compétences fusionnées#PERCEPTION|Perception]]
+|-
+| [[Premiers secours]] || [[Compétences fusionnées#SURVIE|Survie]]
+|-
+| [[Profession]] || -
+|-
+| [[Psychologie]] || [[Compétences fusionnées#PERCEPTION|Perception]]
+|-
+| [[Représentation]] || [[Compétences fusionnées#REPRESENTATION|Représentation]]
+|-
+| [[Sabotage]] || [[Compétences fusionnées#FINESSE|Finesse]]
+|-
+| [[Survie]] || [[Compétences fusionnées#SURVIE|Survie]]
+|-
+| [[UOM|Utilisation d’objets magiques]]* || [[Compétences fusionnées#ARTDELAMAGIE|Art de la magie]]
+|-
+| [[Vol]] || [[Compétences fusionnées#ACROBATIES|Acrobaties]]
+|- CLASS="note"
+| | COLSPAN="2" | ''(*) La caractéristique associée à cette compétence est différente avec le système des compétences fusionnées.''
+|}
+</td></tr></table>
+===Description des compétences===
+Cette section décrit toutes les compétences fusionnées, leur fonctionnement en jeu et fournit la liste des compétences de base qu’elles remplacent. Utilisez ces descriptions au lieu de celles du Manuel des Joueurs, même si nombre d’entre elles renvoient à la description des compétences des pages 87 à 109 de cet ouvrage pour obtenir des explications détaillées. Chaque compétence de la liste ci-dessous se décompose en plusieurs sections où sont décrites en détails ses différentes fonctions. Y sont détaillés l’action nécessaire pour utiliser la fonction de la compétence, s’il est possible d’effectuer de nouvelles tentatives en cas de test raté, les avantages spéciaux qui s’appliquent à la fonction et les circonstances spéciales qui permettent ou non d’utiliser cette fonction sans formation.
+
+{s:Reference|ACROBATIES}
+====<u>Acrobaties (Dex, malus d’armure)</u>====
+Le personnage a un excellent équilibre et sait coordonner ses mouvements. Il sait également effectuer des manœuvres aériennes et acrobatiques, ainsi que des cabrioles.
+
+'''Fonctions.''' Amortir les chutes, chevaucher une monture, garder l’équilibre, réaliser des manœuvres aériennes, se déplacer acrobatiquement en combat, se faufiler dans des conduits étroits, se libérer d’entraves.
+
+'''Compétences de base.''' Acrobaties (sauf pour sauter), Équitation, Évasion, Vol.
+
+'''Modificateurs d’Acrobaties.''' Les circonstances indiquées dans la table ci-dessous appliquent des modificateurs aux DD des tests d’Acrobaties. Les modificateurs issus de différentes catégories (surface glissante, en pente, etc.) se cumulent entre eux mais, au sein d’une même catégorie, seul le modificateur le plus important s’applique.
+
+'''Spécial.''' Un personnage qui possède 3 rangs ou plus en Acrobaties bénéficie d’un bonus d’esquive de +3 à la CA lorsqu’il combat sur la défensive (au lieu du bonus normal de +2) et d’un bonus d’esquive de +6 à la CA lorsqu’il se met en défense totale (au lieu du bonus normal de +4).
+
+<center>
+{| CLASS="tablo autoalt"
+|- CLASS="titre"
+| Circonstances du test d’Acrobaties || Modificateur au DD
+|- CLASS="premier"
+| Surface légèrement encombrée (sable, graviers) || +2
+|-
+| Surface très encombrée (sol d’une caverne, gravats) || +5
+|-
+| Surface légèrement glissante (sol humide) || +2
+|-
+| Surface très glissante (glace) || +5
+|-
+| Surface légèrement en pente (moins de 45°) || +2
+|-
+| Surface en pente forte (plus de 45°) || +5
+|-
+| Surface légèrement instable (bateau sur des eaux agitées) || +2
+|-
+| Surface modérément instable (navire pris dans une tempête) || +5
+|-
+| Surface extrêmement instable (tremblement de terre) || +10
+|}
+</center>
+* '''''Amortir les chutes.''''' Lorsque le personnage saute délibérément d’une certaine hauteur ou en cas de chute résultant d’un saut raté, il peut effectuer un test d’Acrobaties DD 15 pour ignorer les trois premiers mètres de chute. Il se retrouve quand même à terre si la chute lui inflige des dégâts.
+** '''Action.''' Aucune.
+
+* '''''Chevaucher des montures.''''' Cette fonction de la compétence Acrobaties s’utilise comme la compétence de base [[Équitation]].
+** '''Action.''' Variable. Se mettre en selle ou mettre pied à terre nécessite habituellement une action de mouvement.
+
+<div style="float:right; background-color: #fff; padding: 0 0 4px 8px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+<center>
+{| CLASS="tablo autoalt"
+|- CLASS="titre"
+| Largeur de la<br>surface || DD du test<br>d’Acrobaties
+|- CLASS="premier"
+| Plus de 90 cm || 0
+|-
+| Entre 30 et 90 cm || 5
+|-
+| Entre 15 et 30 cm || 10
+|-
+| Entre 5 et 15 cm || 15
+|-
+| Moins de 5 cm || 20
+|}
+</center></div></div>
+* '''''Garder l’équilibre.''''' Le personnage peut effectuer un test d’Acrobaties pour garder l’équilibre lorsqu’il se déplace sur une surface étroite ou sur un sol irrégulier. S’il rate son test, il chute et tombe à terre. Le personnage se déplace à mi-vitesse lorsqu’il tente de garder l’équilibre, mais il peut se déplacer à sa vitesse normale s’il augmente le DD de 5. Il est considéré comme pris au dépourvu quand il tente de garder l’équilibre. Un seul test de la sorte suffit chaque round mais, si le personnage subit des dégâts, il doit effectuer un autre test contre le même DD. Il n’a pas besoin d’effectuer un test si le DD est inférieur à 10 mais les modificateurs peuvent faire passer un petit DD au-delà de 9.
+** '''Action.''' Aucune.
+
+* '''''Réaliser des manoeuvres aériennes.''''' Cette fonction de la compétence Acrobaties s’utilise comme la compétence de base de Vol (Manuel des Joueurs p.108). Elle ne donne cependant pas au personnage la capacité de voler.
+** '''Action.''' Aucune.
+
+<div style="float:right; background-color: #fff; padding: 0 0 4px 8px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+<center>
+{| CLASS="tablo autoalt"
+|- CLASS="titre"
+| Déplacement prévu || DD du test<br>d’Acrobaties
+|- CLASS="premier"
+| Traverser une zone contrôlée<br>par un ennemi || DMD de<br>l’ennemi
+|-
+| Traverser l’espace occupé<br>par un ennemi || DMD de<br>l’ennemi + 5
+|}
+</center></div></div>
+* '''''Se déplacer acrobatiquement en combat.''''' Le personnage peut effectuer un test d’Acrobaties pour traverser l’espace contrôlé par des ennemis sans provoquer d’attaque d’opportunité. S’il rate ce test, il arrête son déplacement et provoque une attaque d’opportunité de la part de l’adversaire qui contrôle l’espace. Le personnage se déplace à mi-vitesse lorsqu’il effectue des acrobaties en combat mais il peut se déplacer à sa vitesse normale s’il augmente le DD de 10. S’il tente de se faufiler à côté de plusieurs ennemis lors du même round, il doit effectuer un test d’Acrobaties contre chacun d’eux. Le DD augmente de 2 par adversaire au-delà du premier.
+** '''Action.''' Aucune.
+** '''Encombrement.''' Les personnages qui portent une charge ou une armure intermédiaire ou lourde ne peuvent pas utiliser les Acrobaties de cette façon, à moins de bénéficier d’une capacité qui leur permet de conserver leur vitesse normale ainsi lestés.
+** '''À terre.''' Un personnage peut se déplacer acrobatiquement en combat alors qu’il est à terre mais il lui faut accomplir une action complexe pour se déplacer de 1,50 mètre et le DD augmente de 5.
+
+* '''''Se faufiler dans des conduits étroits.''''' La réussite d’un test d’Acrobaties DD 30 permet au personnage de se faufiler à travers une ouverture suffisamment large pour que la tête puisse passer mais pas assez pour y passer les épaules. Le personnage ne peut pas se faufiler à travers des ouvertures plus étroites que sa tête.
+** '''Action.''' Une minute au moins et plusieurs tests sont peut-être nécessaires.
+** '''Nouvelles tentatives.''' Oui. Le personnage peut même faire 20 s’il ne rencontre aucune opposition active.
+
+<div style="float:right; background-color: #fff; padding: 0 0 4px 8px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+<center>
+{| CLASS="tablo autoalt"
+|- CLASS="titre"
+| Entraves || DD du test<br>d’Acrobaties
+|- CLASS="premier"
+| Corde, personnage<br>ligoté || 20 + BMO de celui qui<br>a ligoté le personnage
+|-
+| Filet, corde animée || 20
+|-
+| Collet || 23
+|-
+| Menottes || 30
+|-
+| Menottes de qualité<br>supérieure || 35
+|-
+| Situation de lutte || DMD de l’adversaire
+|}
+</center></div></div>
+* '''''Se libérer d’entraves.''''' Il faut réussir un test d’Acrobaties pour se libérer de ses liens et se soustraire à une étreinte ou un enchevêtrement. Le personnage peut effectuer un test d’Acrobaties à la place d’un test de manœuvre offensive pour se libérer d’une étreinte ou d’une immobilisation en situation de lutte.
+** '''Action.''' Il faut une minute pour se libérer d’entraves, une action complexe pour échapper à un filet ou aux sorts indiqués et une action simple pour échapper à une étreinte ou une immobilisation en situation de lutte.
+** '''Nouvelles tentatives.''' Oui. S’il ne rencontre aucune opposition active, le personnage peut même faire 20 à ce test.
+
+
+{s:ClearRight}{s:Reference|ARTDELAMAGIE}
+====<u>Art de la magie (Int, formation nécessaire)</u>====
+Le personnage connaît le fonctionnement des sorts et des objets magiques et a glané de nombreuses connaissances ayant trait à la magie. Qu’il sache lancer des sorts ou non, il peut utiliser des objets magiques même s’il ne devrait pas.
+
+'''Fonctions.''' Activer un objet magique (qu’il ne peut normalement pas utiliser), apprendre et préparer un sort (à partir d’un parchemin ou d’un grimoire emprunté), créer un objet magique, identifier un monstre (créature artificielle, créature magique et dragon), identifier un sort, se remémorer des connaissances (sur les mystères).
+
+'''Compétences de base.''' Art de la magie, Connaissances (mystères), Utilisation d’objets magiques.
+
+'''Magiciens spécialisés.''' Les magiciens spécialisés dans une école gagnent un bonus de +2 aux tests d’Art de la magie visant à identifier, apprendre ou préparer des sorts de leur école de spécialisation. Ils subissent en contrepartie un malus de -5 aux mêmes tests lorsque ceuxci concernent des sorts des écoles opposées à celle du spécialiste.
+
+* '''''Activer un objet magique.''''' Cette fonction de l’Art de la magie s’utilise comme la compétence de base Utilisation d’objets magiques (Manuel des Joueurs p.107) mais on applique l’Intelligence à la place du Charisme.
+** '''Action.''' Aucune.
+** '''Nouvelles tentatives.''' Oui, mais si le personnage rate son test de compétence en obtenant un 1 naturel au dé, il ne peut plus tenter d’activer l’objet lors des vingt-quatre heures suivantes.
+
+<div style="float:right; background-color: #fff; padding: 0 0 4px 8px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+<center>
+{| CLASS="tablo autoalt"
+|- CLASS="titre"
+| Tâche || DD du test<br>d’Art de la magie
+|- CLASS="premier"
+| Apprendre un sort à partir d’un<br>grimoire ou d’un parchemin || 15 + niveau<br>du sort
+|-
+| Préparer un sort à partir d’un<br>grimoire emprunté || 15 + niveau<br>du sort
+|}
+</center></div></div>
+* '''''Apprendre et préparer un sort à partir d’un grimoire emprunté.''''' Le personnage doit réussir un test d’Art de la magie pour ajouter de nouveaux sorts dans son grimoire ou pour préparer un sort à partir d’un grimoire emprunté.
+** '''Action.''' Il faut une heure par niveau du sort pour apprendre un sort (les sorts de niveau 0 requièrent trente minutes). Si le personnage travaille à partir d’un grimoire emprunté, cela n’allonge pas le temps de préparation des sorts.
+** '''Nouvelles tentatives.''' Si le personnage rate son test lorsqu’il tente d’apprendre un sort à partir d’un grimoire, il doit patienter au moins une semaine avant de pouvoir réessayer. S’il rate son test lorsqu’il tente de préparer un sort à partir d’un grimoire emprunté, il ne peut réessayer avant le lendemain.
+
+* '''''Créer un objet magique.''''' Le personnage doit effectuer un test d’Art de la magie lors du processus de création d’un objet magique. Le DD varie en fonction de l’objet. Voir le Manuel des Joueurs, page 554, pour consulter les règles complètes de création d’objets magiques.
+** '''Action.''' Aucune.
+
+* '''''Identifier un monstre.''''' Le personnage peut utiliser l’Art de la magie pour identifier un monstre de type créature artificielle, créature magique et dragon. Voir l’encart Identification des monstres, page 63.
+
+<div style="float:right; background-color: #fff; padding: 0 0 4px 8px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+<center>
+{| CLASS="tablo autoalt"
+|- CLASS="titre"
+| Tâche || DD du test<br>d’Art de la magie
+|- CLASS="premier"
+| Identifier les auras magiques<br>en utilisant ''[[détection de la magie]]'' || 15 + niveau<br>du sort
+|-
+| Identifier les propriétés d’un objet<br>magique en utilisant détection de la magie || 15 + NLS de<br>l’objet magique
+|-
+| Identifier un sort en cours d’incantation || 15 + niveau<br>du sort
+|-
+| Déchiffrer un parchemin sans<br>utiliser lecture de la magie || 20 + niveau<br>du sort
+|-
+| Identifier un effet de sort déjà actif || 20 + niveau<br>du sort
+|-
+| Identifier un sort qui vient de<br>viser le personnage || 25 + niveau<br>du sort
+|}
+</center></div></div>
+* '''''Identifier un sort.''''' Le personnage peut identifier avec précision un sort au moment de son incantation ou en observant ses effets s’il réussit un test d’Art de la magie. Il est également capable d’identifier la nature des auras magiques et de déchiffrer un parchemin sans utiliser le sort de lecture de la magie.
+** '''Action.''' Aucune dans la plupart des cas. Il faut une action complexe pour déchiffrer un parchemin et 3 rounds par tentative d’identification des propriétés d’un objet magique.
+** '''Nouvelles tentatives.''' Le personnage peut répéter les tests visant à identifier un sort. Lorsqu’il utilise détection de la magie ou identification pour identifier les propriétés des objets magiques, il ne peut examiner chaque objet qu’une seule fois par jour.
+** '''Malus associés à la Perception.''' Les malus dus à la distance, à de mauvaises conditions de visibilité ou à d’autres facteurs appliqués aux tests de Perception s’appliquent également aux tests d’Art de la magie effectués pour identifier un sort en cours d’incantation (voir page 57).
+
+{s:ClearRight}<div style="float:right; background-color: #fff; padding: 0 0 4px 8px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+<center>
+{| CLASS="tablo autoalt"
+|- CLASS="titre"
+| Tâche || DD du test<br>d’Art de la magie
+|- CLASS="premier"
+| Identifier les sorts que l’on peut<br>lancer à l’aide d’une composante<br>matérielle spécifique || 20
+|-
+| Identifier des matériaux créés<br>par magie || 20 + niveau<br>du sort
+|}
+</center></div></div>
+* '''''Se remémorer des connaissances.''''' Le personnage peut utiliser l’Art de la magie pour se remémorer des connaissances à propos des mystères anciens, des symboles et des traditions magiques. Voir l’encart Se remémorer des connaissances p.65 pour plus d’informations. Utilisez les DD de la table suivante pour certaines tâches.
+
+
+{s:ClearRight}{s:Reference|ATHLETISME}
+====<u>Athlétisme (For, malus d’armure)</u>====
+Le personnage est doué pour accomplir des prouesses physiques telles que des sauts, de l’escalade et de la natation. Pour soulever une charge, il faut effectuer un test de Force à la place d’un test d’Athlétisme.
+
+'''Fonctions.''' Escalader, nager, sauter, stopper sa chute.
+
+'''Compétences de base.''' Acrobaties (pour sauter uniquement), Escalade, Natation.
+
+<center>
+{| CLASS="tablo autoalt"
+|- CLASS="titre"
+| Surface ou activité || DD du test d’Athlétisme
+|- CLASS="premier"
+| Pente trop inclinée pour permettre d’avancer en marchant || 0
+|-
+| Corde à nœuds accrochée près d’un mur contre lequel on peut s’appuyer || 0
+|-
+| Corde à nœuds ou corde affectée par le sort corde enchantée || 5
+|-
+| Corde accrochée près d’un mur contre lequel on peut s’appuyer || 5
+|-
+| Surface garnie de corniches où on peut se tenir ou s’appuyer || 10
+|-
+| Grimper sur un rebord auquel on s’agrippe par les mains || 15
+|-
+| Surface comprenant suffisamment de prises || 15
+|-
+| Corde lisse || 15
+|-
+| Surface inégale comprenant quelques prises (mur de donjon) || 20
+|-
+| Surface rugueuse (paroi rocheuse naturelle ou mur de briques) || 25
+|-
+| Dévers ou plafond impérativement garni de prises pour les mains || 30
+|}
+</center>
+<div style="float:right; background-color: #fff; padding: 0 0 4px 8px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+<center>
+{| CLASS="tablo autoalt"
+|- CLASS="titre"
+| Circonstances d’escalade || Modificateur au DD<br>du test d’Athlétisme
+|- CLASS="premier"
+| Cheminée dans laquelle on peut<br>s’appuyer contre deux parois opposées || -10
+|-
+| Coin où on peut s’appuyer contre<br>deux murs perpendiculaires || -5
+|-
+| Surface glissante || +5
+|}
+</center></div></div>
+* '''''Escalader.''''' Le personnage peut utiliser l’Athlétisme pour progresser vers le haut, le bas ou les côtés le long d’une pente fortement inclinée ou d’une paroi (voire d’un plafond muni de prises). Il peut se déplacer au quart de sa vitesse mais peut décider d’évoluer à la moitié de sa vitesse de déplacement en acceptant un malus de -5. S’il rate son test de 1 à 4 points, il ne parvient pas à progresser. S’il rate son test de 5 points ou plus, il chute. Il est impossible d’escalader une surface parfaitement lisse et verticale (ou en dévers).
+Le personnage doit avoir les deux mains libres lors d’une escalade, mais il peut se tenir à un mur d’une main le temps de lancer un sort ou d’effectuer une autre action réalisable d’une seule main. Il est impossible d’utiliser un bouclier en pleine escalade et le personnage perd son bonus de Dextérité à la CA. S’il subit des dégâts alors qu’il escalade une paroi, il doit réussir un test d’Athlétisme contre le DD de la paroi pour éviter de chuter.
+** '''Modificateurs d’escalade.''' Les circonstances indiquées dans la table page suivante modifient le DD des tests d’Athlétisme. Ils se cumulent entre eux.
+** '''Action.''' Aucune. Chaque action de mouvement réalisée par le personnage nécessite un test d’Athlétisme distinct.
+** '''Créer ses propres prises.''' Le personnage peut planter des pitons dans un mur pour que son DD de base s’élève à 15. Cela prend une minute par piton et il faut un piton tous les mètres cinquante. Un personnage muni d’une hachette ou d’un outil similaire peut tailler des prises dans un mur de glace.
+** '''Vitesse d’escalade.''' Une créature dotée d’une vitesse d’escalade bénéficie d’un bonus racial de +8 aux tests d’Athlétisme pour escalader. Voir page 99 du Manuel des Joueurs pour plus d’informations sur les créatures dotées d’une vitesse d’escalade.
+** '''Aide à la montée ou à la descente.''' Un personnage peut soulever quelqu’un (ou le faire descendre) à l’aide d’une corde pour que cette personne n’ait pas à effectuer de tests d’Athlétisme. Le personnage peut ainsi déplacer le double de sa charge maximale.
+
+<div style="float:right; background-color: #fff; padding: 0 0 4px 8px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+<center>
+{| CLASS="tablo autoalt"
+|- CLASS="titre"
+| Courant || DD du test<br>d’Athlétisme
+|- CLASS="premier"
+| Eaux calmes || 10
+|-
+| Eaux agitées || 15
+|-
+| Eaux très agitées (tempête) || 20*
+|- CLASS="note"
+| | COLSPAN="2" | ''(*) Il est impossible de faire 10 sur un test<br>d’Athlétisme pour nager dans des eaux très agitées.''
+|}
+</center></div></div>
+* '''''Nager.''''' La réussite d’un test d’Athlétisme permet à un personnage dans l’eau de nager sur une distance égale à la moitié de sa vitesse de déplacement par une action complexe ou à son quart par une action de mouvement. En cas d’échec de 4 points ou moins, il barbote sans parvenir à avancer. En cas d’échec de 5 points ou plus, il coule. Le personnage doit effectuer un test d’Athlétisme pour nager chaque round.
+** '''Action.''' Une action de mouvement pour nager au quart de la vitesse de déplacement ou une action complexe pour nager à la moitié de la vitesse de déplacement.
+** '''Retenir sa respiration.''' Quand un personnage se trouve sous l’eau, il peut retenir sa respiration pendant un nombre de rounds égal à deux fois sa valeur de Constitution. S’il entreprend une action simple ou complexe, le temps pendant lequel il peut encore retenir sa respiration est réduit d’un round. Une fois arrivé au terme de cette durée, le personnage doit réussir un test de Constitution DD 10 chaque round, sinon, il commence à se noyer. Chaque round, le DD pour éviter la noyade augmente de 1. Vous pouvez consulter les règles complètes sur la noyade page 450 du Manuel des Joueurs.
+** '''Nager longtemps.''' À la fin de chaque heure passée à nager, le personnage doit réussir un test d’Athlétisme DD 20 pour ne pas subir 1d6 points de dégâts non-létaux.
+** '''Vitesse de nage.''' Une créature qui possède une vitesse de nage bénéficie d’un bonus racial de +8 aux tests d’Athlétisme pour nager. Voir la page 102 du Manuel des Joueurs pour plus d’informations sur les créatures qui possèdent une vitesse de nage.
+
+<div style="float:right; background-color: #fff; padding: 0 0 4px 8px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+<center>
+{| CLASS="tablo autoalt"
+|- CLASS="titre"
+| Saut en longueur || DD du test<br>d’Athlétisme
+|- CLASS="premier"
+| 1,50 m || 5
+|-
+| 3 m || 10
+|-
+| 4,50 m || 15
+|-
+| Plus de 4,50 m || +5 par 1,50 m
+|}
+</center></div></div>
+<div style="float:right; background-color: #fff; padding: 0 0 4px 8px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+<center>
+{| CLASS="tablo autoalt"
+|- CLASS="titre"
+| Saut en hauteur || DD du test<br>d’Athlétisme
+|- CLASS="premier"
+| 30 cm || 4
+|-
+| 60 cm || 8
+|-
+| 90 cm || 12
+|-
+| 120 cm || 16
+|-
+| Plus de 120 cm || +4 par 30 cm
+|}
+</center></div></div>
+* '''''Sauter.''''' Le personnage peut utilise la compétence d’Athlétisme pour sauter. Pour calculer le DD, on divise la distance à traverser par 30 centimètres dans le cas d’un saut en longueur ou la hauteur à atteindre par 7,50 cm dans le cas d’un saut en hauteur.
+Le DD est doublé si le personnage ne dispose pas d’au moins 3 mètres d’élan. Si le personnage rate son test d’Athlétisme de 4 points ou moins lorsqu’il traverse un gouffre en sautant en longueur, il peut effectuer un jet de Réflexes DD 20 pour se rattraper au bord de l’autre côté. Si le test échoue de 5 points ou plus, le personnage chute (ou tombe à terre s’il tentait un saut en hauteur). Le DD pour sauter applique les mêmes modificateurs que ceux des tests d’Acrobaties (voir page 54) qui se rapportent à la surface à partir de laquelle le personnage effectue le saut. Par exemple, le DD d’un personnage qui commence son saut sur une surface sableuse augmente de 2.
+Un saut ne permet pas de se déplacer au-delà de la distance maximale qu’il est possible de parcourir en un round.
+** '''Action.''' Aucune.
+** '''Acrobaties.''' Le personnage peut tenter d’utiliser la compétence d’Acrobaties à la place de celle d’Athlétisme en acceptant un malus de -5.
+** '''Bonus de vitesse.''' Si la vitesse de déplacement de base du personnage est supérieure ou égale à 12 mètres, il gagne un bonus racial de +4 aux tests d’Athlétisme pour sauter par tranche de 3 mètres de vitesse au-delà des 9 premiers. De la même façon, le personnage subit un malus racial de -4 pour chaque tranche de 3 mètres de vitesse en dessous de 9 mètres.
+
+* '''''Stopper sa chute.''''' Le personnage peut arrêter sa chute en se retenant à un mur ou le long d’une pente. Le DD est égal à 20 + le DD du test pour escalader la paroi ou à 10 + le DD du test pour escalader la pente (voir Escalader ci-dessous).
+Pour stopper la chute d’une autre personne qui tombe à proximité du personnage, il faut réussir une attaque de contact au corps à corps contre la personne qui tombe (qui peut décider de ne pas appliquer son bonus de Dextérité à la CA). En cas de réussite, le personnage peut alors effectuer un test d’Athlétisme contre un DD égal à 10 + le DD du test pour escalader la paroi. S’il réussit ce test, il arrive à rattraper la personne qui tombe. Cependant, si le poids de celle-ci et de son équipement est supérieur à la limite d’une charge lourde pour le personnage, celui-ci tombe également. Si le test d’Athlétisme échoue de 1 à 4 points, le personnage n’arrive pas à stopper la chute de la personne mais il conserve sa propre prise sur la surface. Si le test d’Athlétisme échoue de 5 points ou plus, non seulement le personnage n’arrive pas à interrompre la chute, mais il perd également pied et chute lui aussi.
+** '''Action.''' Aucune.
+
+{s:Reference|DISCRETION}
+====<u>Discrétion (Dex, malus d’armure)</u>====
+Le personnage sait comment s’y prendre pour éviter de se faire repérer, ce qui lui permet de se glisser près de ses adversaires ou de frapper par surprise. Cette compétence permet à la fois de se cacher et de se déplacer silencieusement.
+
+'''Fonctions.''' Éviter de se faire repérer.
+
+'''Compétence de base.''' Discrétion.
+
+* '''''Éviter de se faire repérer.''''' Cette fonction s’utilise comme la compétence de base de [[Discrétion]].
+** '''Action.''' Aucune. Cependant, pour se cacher après avoir effectué une attaque à distance, il faut une action de mouvement.
+
+{s:Reference|FINESSE}
+====<u>Finesse (Dex, malus d’armure, formation nécessaire)</u>====
+Les mains habiles du personnage lui permettent de réaliser des tâches qui nécessitent une grande finesse.
+
+'''Fonctions.''' Cacher des objets sur sa personne, crocheter des serrures, dérober quelque chose à quelqu’un, désamorcer des pièges ou saboter des objets, empocher discrètement des objets.
+
+'''Compétences de base.''' Escamotage, Sabotage.
+
+<div style="float:right; background-color: #fff; padding: 0 0 4px 8px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+<center>
+{| CLASS="tablo autoalt"
+|- CLASS="titre"
+| Circonstances || DD du test<br>de Finesse
+|- CLASS="premier"
+| Dague || +2
+|-
+| Objet particulièrement petit (pièce<br>de monnaie, anneau, shuriken) || +4
+|-
+| Habits épais ou amples || +2
+|}
+</center></div></div>
+* '''''Cacher des objets sur sa personne.''''' Cacher un petit objet sur sa personne (tel qu’une arme légère ou une arme à distance facile à cacher, comme un dard, une fronde ou une arbalète de poing) nécessite un test de Finesse opposé aux tests de Perception des individus qui observent ou fouillent le personnage (voir page 62). Celui-ci bénéficie d’un bonus de +2 sur ce test s’il tente de cacher une dague. Quelqu’un qui fouille le personnage bénéficie d’un bonus de +4 à ce test de Perception. Le type d’objet que le personnage tente de cacher et la nature de ses habits peuvent modifier la difficulté de son test. Ces modificateurs se cumulent entre eux.
+** '''Action.''' Action simple ou action de mouvement avec un malus de -20.
+** '''Nouvelles tentatives.''' Oui, mais une deuxième tentative contre la même créature augmente le DD de 10.
+** '''Dégainer des armes.''' Dégainer une arme dissimulée est une action simple qui ne provoque pas d’attaque d’opportunité.
+
+<div style="float:right; background-color: #fff; padding: 0 0 4px 8px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+<center>
+{| CLASS="tablo autoalt"
+|- CLASS="titre"
+| Qualité de<br>la serrure || DD du test<br>de Finesse
+|- CLASS="premier"
+| Simple || 20
+|-
+| Moyenne || 25
+|-
+| Bonne || 30
+|-
+| Excellente || 40
+|-
+| Pas d’outils<br>de cambrioleur || +10
+|}
+</center></div></div>
+* '''''Crocheter des serrures.''''' Le DD pour crocheter une serrure dépend de la qualité de celle-ci.
+** '''Action.''' Action complexe.
+** '''Nouvelles tentatives.''' Oui.
+
+* '''''Dérober quelque chose à quelqu’un.''''' Il faut réussir un test de Finesse DD 20 pour dérober quelque chose à quelqu’un. La victime effectue un test de Perception opposé au résultat du test de Finesse du personnage. Si elle réussit, elle s’aperçoit qu’on cherche à la voler, que le personnage ait réussi sa tentative ou non. Le personnage ne peut utiliser cette fonction au cours d’un combat pour dérober un objet à une créature qui est au courant de sa présence.
+** '''Action.''' Action simple ou action de mouvement avec un malus de -20.
+** '''Nouvelles tentatives.''' Oui, mais une deuxième tentative contre la même créature augmente le DD de 10.
+
+{s:ClearRight}<div style="float:right; background-color: #fff; padding: 0 0 4px 8px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+<center>
+{| CLASS="tablo autoalt"
+|- CLASS="titre"
+| Objet || Temps<br>nécessaire || DD du test<br>de Finesse || Exemple
+|- CLASS="premier"
+| Simple || 1 round || 10 || Coincer une serrure
+|-
+| Complexe || 1d4 rounds || 15 || Saboter une roue<br>de chariot
+|-
+| Très complexe || 2d4 rounds || 20 || Désarmer ou réarmer<br>un piège
+|-
+| Extrêmement || 2d4 rounds || 25 || Désarmer un complexe<br>piège complexe, saboter un<br>mécanisme à engrenages<br>complexes
+|}
+</center></div></div>
+* '''''Désamorcer des pièges ou saboter des objets.''''' C’est le MJ qui effectue en secret ce type de test de Finesse pour que le personnage ne sache pas s’il a réussi ou non. S’il réussit, le personnage désamorce le piège ou sabote l’objet. En cas d’échec de 1 à 4 points, la tentative échoue mais le personnage peut réessayer. Si le test est raté d’au moins 5 points, dans le cas d’un piège, il se déclenche et, dans le cadre d’une tentative de sabotage, le personnage est persuadé d’avoir mis l’objet hors service alors que celui-ci continue de fonctionner normalement.
+Le personnage peut tenter de saboter un objet sans que cela soit visible mais, dans ce cas, le DD augmente de +5. Il est possible de saboter des objets simples (comme une selle ou la roue d’un chariot) de telle façon qu’ils fonctionnent normalement pendant un certain temps, puis se cassent un peu plus tard (généralement après 1d4 rounds ou minutes d’utilisation).
+** '''Action.''' Variable (voir la table). Il faut une action complexe pour commencer ou continuer le sabotage d’un objet.
+** '''Nouvelles tentatives.''' Oui, mais seulement si la tentative a échoué de moins de 5 points.
+
+* '''''Empocher discrètement des objets.''''' Pour accomplir un tour de passe-passe mineur ou empocher un objet de la taille d’une pièce de monnaie auquel personne ne fait attention, il faut réussir un test de Finesse DD 10. Si le personnage est surveillé, l’observateur remarque l’action du personnage s’il réussit un test de Perception opposé au résultat du test de Finesse du personnage (voir page 62).
+** '''Action.''' Action simple ou action de mouvement avec un malus de -20.
+** '''Nouvelles tentatives.''' Oui, mais une deuxième tentative contre la même cible augmente le DD de 10.
+
+{s:Reference|INFLUENCE}
+====<u>Influence (Cha)</u>====
+Le personnage peut manipuler autrui par la négociation, la tromperie ou l’intimidation.
+
+'''Fonctions.''' Créer une diversion, demander un service, démoraliser un adversaire, feinter en combat, intimider, mentir, modifier l’attitude d’autres créatures, recueillir des informations, transmettre un message secret.
+
+'''Compétences de base.''' Bluff, Diplomatie, Intimidation.
+
+* '''''Créer une diversion.''''' Le personnage peut créer une diversion pour se cacher. Il effectue un test d’Influence opposé au résultat du test de Perception de l’observateur pour détecter les mensonges. Si le personnage réussit ce test, il peut effectuer un test de Discrétion. Le cas échéant, appliquez les mêmes modificateurs que ceux de la fonction mentir.
+** '''Action.''' Action simple.
+** '''Nouvelles tentatives.''' Oui.
+
+<div style="float:right; background-color: #fff; padding: 0 0 4px 8px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+<center>
+{| CLASS="tablo autoalt"
+|- CLASS="titre"
+| Requête || Mod au DD du<br>test d’Influence
+|- CLASS="premier"
+| Donner un conseil général<br>ou indiquer le chemin || -5
+|-
+| Donner des conseils précis || +0
+|-
+| Apporter une aide banale || +0
+|-
+| Révéler un secret peu<br>important || +5
+|-
+| Aider par un acte long ou<br>complexe || +5
+|-
+| Aider par un acte dangereux || +10
+|-
+| Révéler un secret important || +10 ou<br>plus
+|-
+| Aider par un acte qui<br>risque d’être puni || +15 ou<br>plus
+|-
+| Requêtes supplémentaires || +5 par<br>requête
+|}
+</center></div></div>
+* '''''Demander un service.''''' Le personnage peut demander un service à une créature dont l’attitude est indifférente, amicale ou serviable. Utilisez le DD correspondant à l’attitude de la créature, indiqué dans la table de la fonction modifier l’attitude d’autres créatures, et appliquez-lui les modificateurs présentés ici. Une créature à l’attitude serviable acceptera généralement toutes les requêtes du personnage sans qu’il ait besoin de faire de test, à moins qu’on lui demande de faire quelque chose de contraire à sa nature ou de se mettre en grave danger. Le MJ peut décider que certaines requêtes seront toujours refusées si elles vont à l’encontre des valeurs ou de la nature d’une créature.
+** '''Action.''' Un round ou plus en fonction de la complexité de la requête.
+** '''Nouvelles tentatives.''' Non, mais le personnage peut adresser d’autres requêtes à la même créature.
+
+* '''''Démoraliser un adversaire.''''' Le personnage peut secouer un adversaire. Le DD du test est égal à 10 + le nombre de dés de vie de la cible + le modificateur de Sagesse de la cible. En cas de réussite, la cible est secouée pendant 1 round, plus 1 round supplémentaire par tranche de 5 points obtenus au-dessus du DD. Le personnage peut seulement affecter un adversaire situé à 9 mètres ou moins qui peut le voir et l’entendre distinctement. S’il démoralise un ennemi à plusieurs reprises, il ne fait que rallonger la durée de l’effet, il n’augmente pas l’intensité de la peur ressentie.
+** '''Action.''' Action simple.
+** '''Nouvelles tentatives.''' Oui, mais le DD augmente de 5 à chaque test supplémentaire contre un même adversaire. Il faut laisser une heure s’écouler pour revenir au DD initial.
+** '''Bonus de taille.''' Si le personnage est plus grand que sa cible, il obtient un bonus de +4 aux tests pour la démoraliser. S’il est plus petit, il subit un malus de -4.
+
+* '''''Feinter en combat.''''' La feinte au combat est décrite dans le Manuel des Joueurs, page 201. Le personnage utilise l’Influence au lieu de la compétence de base de Bluff et son adversaire utilise la Perception au lieu de la compétence de base de Psychologie.
+** '''Action.''' Action simple.
+** '''Nouvelles tentatives.''' Oui.
+
+* '''''Intimider.''''' Le personnage peut forcer un adversaire à se montrer amical envers lui pendant 1d6 × 10 minutes en réussissant un test d’Influence dont le DD est égal à 10 + le nombre de dés de vie de la cible + le modificateur de Sagesse de la cible. En cas de réussite, la cible livre au personnage l’information qu’il désire, lui rend des services tant que cela ne la met pas en danger ou lui apporte une aide limitée. Au terme de cette période, la cible adopte une attitude inamicale envers le personnage et peut même la dénoncer aux autorités locales. En cas de test raté de 5 points ou plus, la cible tente de tromper le personnage ou de lui mettre des bâtons dans les roues d’une manière ou d’une autre.
+** '''Action.''' 1 minute de discussion.
+** '''Nouvelles tentatives.''' Oui, mais le DD augmente de +5 à chaque test supplémentaire. Il faut laisser une heure s’écouler pour revenir au DD initial.
+** '''Bonus de taille.''' Si le personnage est plus grand que sa cible, il obtient un bonus de +4 aux tests effectués pour l’intimider. Inversement, s’il est plus petit, il subit un malus de -4.
+
+<div style="float:right; background-color: #fff; padding: 0 0 4px 8px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+<center>
+{| CLASS="tablo autoalt"
+|- CLASS="titre"
+| Circonstances du mensonge || Mod au DD du<br>test d’Influence
+|- CLASS="premier"
+| La cible veut croire<br>le personnage || +5
+|-
+| Le mensonge est<br>crédible || +0
+|-
+| Le mensonge est<br>peu crédible || -5
+|-
+| Le mensonge est<br>très peu crédible || -10
+|-
+| Le mensonge est<br>impossible à croire || -20
+|-
+| La cible est saoule<br>ou vulnérable || +5
+|-
+| Le personnage possède<br>une preuve convaincante || jusqu’à<br>+10
+|}
+</center></div></div>
+* '''''Mentir.''''' Le personnage peut tenter de berner quelqu’un en effectuant un test d’Influence. Le DD de ce test est égal au résultat du test de Perception effectué par l’adversaire pour détecter les mensonges. Appliquez les modificateurs appropriés issus de la table ci-dessous. Ces modificateurs se cumulent entre eux mais seul l’un de ceux liés à la crédibilité du mensonge s’applique. Moins le mensonge est crédible et plus le personnage éprouvera de difficultés à le faire croire. Le MJ peut décider que certains mensonges sont si incroyables qu’il est impossible de convaincre qui que ce soit qu’il s’agit de la vérité.
+** '''Action.''' 1 round mais cela peut prendre plus longtemps en cas de mensonge complexe.
+** '''Nouvelles tentatives.''' Oui. Les tests suivants contre la même cible subissent un malus de -10.
+
+{s:ClearRight}<div style="float:right; background-color: #fff; padding: 0 0 4px 8px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+<center>
+{| CLASS="tablo autoalt"
+|- CLASS="titre"
+| Attitude initiale || DD du test<br>d’Influence
+|- CLASS="premier"
+| Hostile || 25 + modificateur de<br>Cha de la cible
+|-
+| Inamical || 20 + modificateur de<br>Cha de la cible
+|-
+| Indifférent || 15 + modificateur de<br>Cha de la cible
+|-
+| Amical || 10 + modificateur de<br>Cha de la cible
+|-
+| Serviable || 0 + modificateur de<br>Cha de la cible
+|}
+</center></div></div>
+* '''''Modifier l’attitude d’autres créatures.''''' Le personnage peut utiliser l’Influence pour modifier l’attitude des PNJ. Le DD du test dépend de l’attitude initiale de la créature plus son modificateur de Charisme. Si le test réussit, l’attitude de la cible envers le personnage s’améliore d’une catégorie. Son attitude s’améliore d’une catégorie en plus si le résultat du test dépasse le DD de 5 points ou plus. Il est impossible de provoquer un changement d’attitude de plus de deux catégories avec un seul test. Si le test échoue de 4 points ou moins, l’attitude de la cible ne change pas et, s’il échoue de 5 points ou plus, elle se détériore d’une catégorie. Les modifications d’attitude persistent en moyenne pendant 1d4 heures. Le personnage peut utiliser l’Influence pour demander un service à une créature dont l’attitude envers lui est indifférente, amicale ou serviable.
+Un personnage ne peut pas changer l’attitude d’une créature qui ne le comprend pas ou qui possède une Intelligence inférieure ou égale à 3. Cette fonction de l’Influence est en général inefficace pendant les combats.
+** '''Action.''' Une minute de dialogue ininterrompu.
+** '''Nouvelles tentatives.''' Le personnage ne peut pas modifier l’attitude d’une créature donnée plus d’une fois par période de vingt-quatre heures.
+
+<div style="float:right; background-color: #fff; padding: 0 0 4px 8px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+<center>
+{| CLASS="tablo autoalt"
+|- CLASS="titre"
+| Information recherchée || DD du test<br>d’Influence
+|- CLASS="premier"
+| Fait ou rumeur<br>bien connu || 10
+|-
+| Secret ou information<br>peu connu || 20 ou plus
+|}
+</center></div></div>
+* '''''Recueillir des informations.''''' En visitant les tavernes locales, les marchés et autres lieux de rencontre, le personnage peut recueillir des informations sur un sujet ou un individu spécifique. C’est le MJ qui décide si certains sujets sont tout simplement inconnus des gens du peuple.
+** '''Action.''' 1d4 heures.
+** '''Nouvelles tentatives.''' Oui.
+
+{s:ClearRight}<div style="float:right; background-color: #fff; padding: 0 0 4px 8px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+<center>
+{| CLASS="tablo autoalt"
+|- CLASS="titre"
+| Message secret || DD du test<br>d’Influence
+|- CLASS="premier"
+| Message simple || 15
+|-
+| Message complexe || 20
+|}
+</center></div></div>
+* '''''Transmettre un message secret.''''' Le personnage peut transmettre à une autre personne un message à mots couverts sans que les autres individus puissent le comprendre. En cas de réussite, la cible comprend automatiquement le message pour autant que le personnage utilise un langage qu’elle connaît. Si le personnage rate son test de 5 points ou plus, il transmet un message erroné. Les autres individus qui perçoivent le message peuvent tenter de le comprendre en réussissant un test de Perception pour détecter les mensonges (voir page 63) opposé au résultat du test du personnage. Voir la fonction de Perception intercepter un message secret pour déterminer si le message secret est intercepté.
+** '''Action.''' Il faut deux fois plus de temps pour transmettre un message secret que pour le délivrer normalement.
+** '''Nouvelles tentatives.''' Oui.
+
+{s:Reference|NATURE}
+====<u>Nature (Int, formation nécessaire)</u>====
+Le personnage en sait beaucoup sur le monde naturel et les créatures naturelles qu’il dresse à obéir à ses ordres.
+
+'''Fonctions.''' Dresser un animal, identifier un monstre (aberration, animal, fée, humanoïde monstrueux, plante, vase, vermine), se remémorer des connaissances (à propos des donjons, de la géographie ou de la nature).
+
+'''Compétences de base.''' Connaissances (exploration souterraine), Connaissances (géographie), Connaissances (nature), Dressage.
+
+* '''''Dresser un animal.''''' Cette fonction de la compétence Nature fonctionne comme la compétence de base Dressage (Manuel des Joueurs p.96). Elle se base toutefois sur l’Intelligence à la place du Charisme.
+** '''Action. Variable.''' Il faut une action de mouvement pour diriger un animal et une action complexe pour le « pousser. »
+** '''Nouvelles tentatives.''' Oui, sauf pour élever un animal.
+
+* '''''Identifier un monstre.''''' Un personnage peut utiliser la compétence Nature pour identifier les monstres de type aberration, animal, fée, humanoïde monstrueux, plante, vase et vermine. Voir l’encart Identification des monstres page suivante.
+
+* '''''Se remémorer des connaissances.''''' Le personnage peut utiliser la compétence Nature pour se remémorer des informations à propos de la faune, de la flore, du climat, des saisons et de leur cycle, de la spéléologie et de l’environnement. Voir l’encart p.65 intitulé Se remémorer des informations pour plus de détails. Utilisez les DD de la table suivante pour certaines tâches.
+
+<center>
+{| CLASS="tablo autoalt"
+|- CLASS="titre"
+| Tâche || DD du test de Nature
+|- CLASS="premier"
+| Identifier une plante ou un animal courant || 10
+|-
+| Identifier un minéral, une pierre ou un métal || 10
+|-
+| Déterminer l’inclinaison d’une pente || 15
+|-
+| Identifier un phénomène climatique anormal || 15
+|-
+| Reconnaître les caractéristiques environnementales d’une région || 15
+|-
+| Identifier un danger naturel ou souterrain || 15 + FP du danger
+|-
+| Déterminer la part d’artificiel dans un élément d’apparence naturelle || 20
+|-
+| Déterminer la profondeur sous terre || 20
+|-
+| Connaître l’emplacement du site remarquable le plus proche || 20
+|}
+</center>
+
+{s:Reference|PERCEPTION}
+====<u>Perception (Sag)</u>====
+Les sens du personnage lui permettent de repérer certains détails, le préviennent des dangers imminents et lui indiquent quand les gens lui mentent ou se comportent de manière suspecte.
+
+'''Fonctions.''' Avoir un pressentiment, détecter la présence de créatures et autres détails, détecter les mensonges, fouiller, intercepter un message secret, percevoir un enchantement.
+
+'''Compétences de base.''' Perception, Psychologie.
+
+* '''''Avoir un pressentiment.''''' Le personnage peut analyser de manière instinctive une situation sociale en réussissant un test de Perception DD 20. Il peut ainsi sentir que quelque chose ne va pas ou éprouver une sensation de malaise lorsqu’il interagit avec un imposteur, ou bien sentir que quelqu’un est digne de confiance. Il n’obtient pas pour autant d’informations détaillées. Utilisez la fonction détecter les mensonges quand le personnage tente de déterminer si une affirmation particulière est un mensonge (voir page 63).
+** '''Action.''' Une minute.
+
+* '''''Détecter la présence de créatures et autres détails.''''' Le personnage peut détecter la présence d’une créature qui utilise la compétence de Discrétion s’il réussit un test de Perception opposé. Le personnage peut repérer certains détails de son environnement par le biais des cinq sens. Utilisez la fonction fouiller de la compétence de Perception (voir plus bas) pour trouver des objets cachés, des pièges, des portes secrètes et d’autres éléments que l’on détecte seulement en y consacrant du temps.
+** '''Action.''' Aucune. La plupart des tests de Perception s’effectuent en réaction à un stimulus observable.
+** '''Nouvelles tentatives.''' Oui.
+** '''Conditions.''' Les conditions favorables, défavorables et exécrables dépendent du sens employé. Une lumière vive peut constituer une condition favorable pour les tests liés à la vue alors qu’une lumière faible, comme celle produite par une torche ou la lune, est une condition défavorable. Des bruits de fond peuvent augmenter le DD d’un test basé sur l’ouïe et un mélange d’odeurs peut augmenter ceux basés sur l’odorat. Un test lié à la vue effectué à la lueur d’une bougie, le rugissement d’un dragon noyant tout autre bruit ou une puanteur écrasante couvrant une odeur plus subtile, voilà autant d’exemples de conditions exécrables.
+
+<center>
+{| CLASS="tablo autoalt"
+|- CLASS="titre"
+| Stimulus || DD du test de Perception
+|- CLASS="premier"
+| Entendre les bruits d’un combat || -10
+|-
+| Sentir l’odeur de détritus en putréfaction || -10
+|-
+| Entendre les détails d’une conversation || 0
+|-
+| Voir une créature visible || 0
+|-
+| Sentir l’odeur de la fumée || 0
+|-
+| Déterminer si la nourriture est avariée || 5
+|-
+| Entendre les pas d’une créature || 10
+|-
+| Entendre les détails d’une conversation à voix basse || 15
+|-
+| Identifier les effets d’une potion en la goûtant || 15 + NLS de la potion
+|-
+| Entendre le son d’une clef tournant dans une serrure || 20
+|-
+| Entendre le son d’un arc dont on tend la corde || 25
+|-
+| Percevoir les vibrations d’une créature souterraine passant sous le personnage || 25
+|-
+| Remarquer un pickpocket || Opposé au test de Finesse
+|-
+| Remarquer une créature qui tente d’être discrète || Opposé au test de Discrétion
+|}
+</center>
+
+On applique les modificateurs indiqués dans la table suivante sur le DD des tests de Perception effectués pour détecter (et pour fouiller).
+
+<center>
+{| CLASS="tablo autoalt"
+|- CLASS="titre"
+| Circonstances || Mod au DD du test de Perception
+|- CLASS="premier"
+| Distance entre le personnage et la source, l’objet ou la créature || +1 par 3 m
+|-
+| À travers une porte fermée || +5
+|-
+| À travers un mur || +10 par 30 cm d’épaisseur
+|-
+| Conditions favorables || -2
+|-
+| Conditions défavorables || +2
+|-
+| Conditions exécrables || +5
+|-
+| Le personnage qui effectue le test est distrait || +5
+|-
+| Le personnage qui effectue le test est endormi || +10
+|-
+| La créature, l’objet ou la source est invisible || +20
+|}
+</center>
+
+* '''''Détecter les mensonges.''''' Grâce à la réussite d’un test de Perception opposé, un personnage peut savoir si une créature lui ment. Voir la fonction mentir de la compétence d’Influence.
+** '''Action.''' Aucune.
+** '''Nouvelles tentatives.''' Non, mais le personnage peut effectuer un test de Perception contre chaque mensonge.
+
+<div style="float:right; background-color: #fff; padding: 0 0 4px 8px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+<center>
+{| CLASS="tablo autoalt"
+|- CLASS="titre"
+| Objet caché || DD du test de<br>Perception
+|- CLASS="premier"
+| Trouver une porte<br>moyennement bien<br>dissimulée || 15
+|-
+| Trouver une porte<br>secrète moyennement<br>bien conçue || 20
+|-
+| Trouver un piège || Variable en fonction<br>du piège
+|}
+</center></div></div>
+* '''''Fouiller.''''' Le personnage peut fouiller minutieusement une zone à la recherche de pièges et de portes secrètes, entre autres. On applique les mêmes modificateurs au DD de ces tests de Perception qu’à la fonction détecter la présence de créatures et autres détails (ci-dessus).
+** '''Action.''' Action de mouvement. Chacune de ces actions permet au personnage de fouiller une zone de 3 mètres de côté.
+** '''Nouvelles tentatives.''' Oui.
+
+* '''''Intercepter un message secret.''''' Le personnage peut utiliser la compétence de Perception pour se rendre compte qu’une personne transmet un message secret à l’aide de la compétence d’Influence. Le test de Perception du personnage est opposé au test d’Influence de la personne qui formule le message. Le personnage subit un malus de -2 au test pour chaque information relative au message dont il ne dispose pas. Si le test est réussi de 4 points ou moins, le personnage sait qu’un message a été transmis mais en ignore la teneur. S’il est réussi de 5 points ou plus, le personnage comprend le message. En cas d’échec de 4 points ou moins, le personnage ne perçoit aucune communication secrète. Enfin, en cas d’échec de 5 points ou plus, il déduit des informations erronées. Voir la fonction transmettre un message secret de la compétence d’Influence, page 62, pour savoir comment transmettre un message secret.
+** '''Action.''' Aucune. Cette fonction s’utilise pendant le temps passé à essayer d’intercepter le message.
+** '''Nouvelles tentatives.''' Non, mais le personnage peut effectuer un test pour intercepter un autre message secret.
+
+* '''''Percevoir un enchantement.''''' Le personnage se rend compte que le comportement de l’individu qu’il observe est influencé par un effet d’enchantement s’il réussit un test de Perception DD 25 (DD 15 s’il est dominé).
+** '''Action.''' Une minute.
+
+{s:Reference|RELIGION}
+====<u>Religion (Int, formation nécessaire)</u>====
+Le personnage en sait beaucoup sur les divinités, le folklore sacré et les royaumes extraplanaires.
+
+'''Fonctions.''' Identifier un monstre (extérieurs et morts-vivants), se remémorer des connaissances (à propos des plans ou des religions).
+
+'''Compétences de base.''' Connaissances (plans), Connaissances (religion).
+
+* '''''Identifier un monstre.''''' La compétence de Religion permet d’identifier des monstres de type extérieur et mort-vivant. Voir l’encart Identification des monstres, page 63.
+
+* '''''Se remémorer des connaissances.''''' Le personnage peut utiliser la compétence Religion pour se remémorer des informations à propos des dieux, des traditions ecclésiastiques, des symboles sacrés, de l’histoire mythique, des plans et de la magie planaire. Voir l’encart p.65 intitulé Se remémorer des informations pour plus d’informations. Utilisez les DD de la table suivante pour certaines tâches.
+
+<center>
+{| CLASS="tablo autoalt"
+|- CLASS="titre"
+| Tâche || DD du test de Religion
+|- CLASS="premier"
+| Connaître le nom des plans || 10
+|-
+| Reconnaître le symbole ou le clergé d’une divinité connue || 10
+|-
+| Connaître les doctrines et la mythologie connues || 15
+|-
+| Reconnaître le plan sur lequel le personnage se trouve || 15
+|-
+| Identifier l’origine planaire d’une créature || 20
+|-
+| Reconnaître le clergé ou le symbole d’une divinité peu connue || 20
+|}
+</center>
+
+{s:Reference|REPRESENTATION}
+====<u>Représentation (Cha)</u>====
+Le personnage peut susciter une réaction émotionnelle en réalisant une prestation musicale, oratoire ou physique. Sa capacité à se produire de manière convaincante et sa connaissance des arts scéniques lui permettent également d’améliorer la crédibilité de ses déguisements. Cette compétence englobe à elle seule toutes les formes de représentations (à la différence de ce qui est décrit dans le Manuel des Joueurs).
+
+'''Fonctions.''' Impressionner un public, se déguiser.
+
+'''Compétences de base.''' Déguisement, Représentation (toutes).
+
+<div style="float:right; background-color: #fff; padding: 0 0 4px 8px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+<center>
+{| CLASS="tablo autoalt"
+|- CLASS="titre"
+| Qualité de la<br>représentation || DD du test de<br>Représentation || Argent gagné
+|- CLASS="premier"
+| Quelconque (semblable<bR>à la mendicité) || 10 || 1d10 pc/jour
+|-
+| Agréable || 15 || 1d10 pa/jour
+|-
+| Excellente || 20 || 3d10 pa/jour
+|-
+| Mémorable || 25 || 1d6 po/jour
+|-
+| Extraordinaire || 30 || 3d6 po/jour
+|}
+</center></div></div>
+* '''''Impressionner un public.''''' Le personnage peut impressionner un public par le biais d’une déclamation, d’un chant, d’une pièce de théâtre ou d’une autre œuvre artistique. S’il réalise sa prestation dans une cité florissante, il gagne de l’argent pour chaque journée de représentation. Le montant gagné dépend du résultat du test de Représentation.
+** '''Action.''' Entre une soirée et une journée entière.
+** '''Nouvelles tentatives.''' Oui, mais le DD augmente de 2 pour chaque représentation quelconque précédente face au même public.
+** '''Instrument de musique de maître.''' Un instrument de musique de maître confère un bonus de +2 aux tests de Représentation effectués pour impressionner un public.
+
+* '''''Se déguiser.''''' Cette fonction de la compétence de Représentation s’utilise de la même façon que la compétence de base de Déguisement (Manuel des Joueurs p.94).
+** '''Action.''' 1d3 × 10 minutes. L’utilisation de la magie (telle que le sort de déguisement) réduit cette durée au temps nécessaire pour lancer le sort ou déclencher l’effet.
+** '''Nouvelles tentatives.''' Oui, mais les cibles sont plus prudentes quand elles savent que quelqu’un a déjà tenté de se déguiser.
+
+{s:Reference|SOCIETE}
+====<u>Société (Int, formation nécessaire)</u>====
+Le personnage comprend les peuples et les systèmes de fonctionnement de la civilisation. Il connait les évènements historiques qui ont formé les sociétés actuelles. La compréhension approfondie des langages fait également partie de ce domaine d’expertise.
+
+'''Fonctions.''' Apprendre une langue, créer ou détecter des contrefaçons, décrypter des textes, identifier un monstre (humanoïde), se remémorer des connaissances (à propos de l’histoire, du folklore local ou de la noblesse).
+
+'''Compétences de base.''' Connaissances (folklore local), Connaissances (histoire), Connaissances (noblesse), Linguistique.
+
+* '''''Apprendre une langue.'''''  Chaque fois que le personnage investit un point dans la compétence de Société, il apprend à parler et à écrire une nouvelle langue. Voir la liste des langues les plus courantes, page 102 du Manuel des Joueurs.
+** '''Action.''' Aucune. À la différence des autres fonctions de cette compétence, le personnage bénéficie en permanence des avantages de cette fonction.
+
+* '''''Créer ou détecter des contrefaçons.''''' Le personnage a besoin des matériaux et des ingrédients correspondant à ceux utilisés pour créer le document à contrefaire. S’il n’a pas besoin d’imiter l’écriture d’un individu donné, il lui suffit d’avoir déjà vu un document du type désiré pour faire le test avec un bonus de +8. Pour reproduire une signature, il doit travailler à partir d’un exemple qui lui donne un bonus de +4. Pour contrefaire un document plus long écrit par un individu spécifique, il doit avoir accès à un échantillon plus important de la calligraphie de cet individu. Le MJ effectue le test de Société en secret, ce qui signifie que le personnage ne connaît jamais avec certitude la qualité de sa contrefaçon jusqu’à ce que quelqu’un l’examine. Le cas échéant, L’individu qui l’examine effectue un test de Société opposé, modifié par les divers bonus et malus applicables indiqués dans la description de la fonction décrypter des textes de la compétence Société.
+** '''Action.''' 1 à 1d4 minutes par page pour contrefaire un document ou 1 round par page pour repérer une contrefaçon.
+** '''Nouvelles tentatives.''' Oui, mais une personne ayant déjà eu affaire à des documents falsifiés se montre plus prudente quand on lui en présente de nouveaux.
+
+<div style="float:right; background-color: #fff; padding: 0 0 4px 8px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+<center>
+{| CLASS="tablo autoalt"
+|- CLASS="titre"
+| Message inconnu || DD du test<br>de Société
+|- CLASS="premier"
+| Message simple || 20
+|-
+| Texte standard || 25
+|-
+| Texte très ancien,<br>exotique ou complexe || 30
+|}
+</center></div></div>
+* '''''Décrypter des textes.''''' Le personnage peut décrypter les textes incomplets, mais aussi ceux rédigés dans une langue inconnue ou archaïque. En cas de réussite du test, le personnage comprend une page (ou son équivalent) du texte qu’il vient de lire. En cas d’échec, il doit effectuer un test de Sagesse DD 5 pour ne pas tirer de mauvaises conclusions sur la teneur du texte. Le MJ effectue les deux tests en secret pour que le joueur ne sache pas si les informations découvertes par son personnage sont fiables ou non.
+** '''Action.''' Une minute par page.
+** '''Nouvelles tentatives.''' Oui.
+
+* '''''Identifier un monstre.''''' La compétence de Société permet d’identifier des monstres de type humanoïde. Voir l’encart Identification des monstres, page 63.
+
+* '''''Se remémorer des connaissances.''''' Le personnage peut utiliser la compétence Société pour se remémorer des informations à propos des habitants d’une région, des personnalités prépondérantes, de la royauté, des lignées nobles, des évènements historiques, des coutumes, des légendes et des lois. Voir l’encart p.65 intitulé Se remémorer des informations pour plus de détails. Utilisez les DD de la table suivante pour certaines tâches.
+
+<center>
+{| CLASS="tablo autoalt"
+|- CLASS="titre"
+| Tâche || DD du test de Société
+|- CLASS="premier"
+| Connaitre les lois, les dirigeants et les sites populaires || 10
+|-
+| Connaitre un évènement récent ou historiquement important || 10
+|-
+| Déterminer la date approximative d’un évènement spécifique || 15
+|-
+| Connaitre une rumeur ou une tradition connue || 15
+|-
+| Connaitre l’étiquette appropriée || 15
+|-
+| Connaitre les organisations secrètes, les dirigeants et les sites || 20
+|-
+| Connaitre une lignée de succession || 20
+|-
+| Connaitre un évènement peu connu ou historiquement ancien || 20
+|}
+</center>
+
+{s:Reference|SURVIE}
+====<u>Survie (Sag)</u>====
+Le personnage sait comment survivre et s’orienter dans les régions sauvages. Il sait également soigner les blessures.
+
+'''Fonctions.''' Déterminer la direction du nord, soigner les blessures et autres maux, suivre des traces, survivre en pleine nature.
+
+'''Compétences de base.''' Premiers secours, Survie.
+
+* '''''Déterminer la direction du nord.''''' Un personnage formé dans la compétence de Survie peut automatiquement déterminer la direction du nord.
+** '''Action.''' Aucune.
+
+* '''''Soigner les blessures et autres maux.''''' Cette fonction de la compétence de Survie fonctionne comme la compétence de base de Premiers secours (Manuel des Joueurs p.103)
+** '''Action.''' Il faut une action simple pour donner les premiers secours et soigner un empoisonnement. Pour soigner une maladie ou une créature blessée par un sort de croissance d’épines ou de pierres acérées, il faut dix minutes de travail et il faut une heure pour traiter des blessures mortelles. Les soins suivis demandent huit heures d’activité réduite.
+** '''Nouvelles tentatives.''' Variable. En règle générale, il est impossible de tenter un nouveau test de Survie pour soigner les blessures et autres maux sans avoir une preuve de l’échec du premier test. Il est toujours possible d’effectuer un autre test pour stabiliser un compagnon mourant, à condition que celui-ci soit toujours vivant.
+
+<div style="float:right; background-color: #fff; padding: 0 0 4px 8px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+<center>
+{| CLASS="tablo autoalt"
+|- CLASS="titre"
+| Type de sol || DD du test<br>de Survie
+|- CLASS="premier"
+| Très mou || 5
+|-
+| Mou || 10
+|-
+| Ferme || 15
+|-
+| Dur || 20
+|}
+</center></div></div>
+* '''''Suivre des traces.''''' Le personnage doit réussir un test de Survie pour repérer des traces ou les suivre sur une distance de 1,5 kilomètre. Il faut réussir un nouveau test chaque fois que la piste devient difficile à suivre. Lorsqu’il suit une piste, le personnage se déplace à la moitié de sa vitesse de déplacement normale. Il peut choisir de se déplacer à sa vitesse normale en acceptant un malus de -5 ou au double de sa vitesse normale avec un malus de -20. Le DD du test dépend du type de sol et des conditions en vigueur.
+: '''Sol très mou.''' Toute surface (neige fraîche, épaisse couche de poussière, boue visqueuse) sur laquelle les pas laissent des empreintes profondes et faciles à repérer.
+: '''Sol mou.''' Toute surface suffisamment molle pour céder à une pression mais plus ferme que de la boue visqueuse ou de la neige fraîche. Une créature y laisse des empreintes nombreuses mais peu profondes.
+: '''Sol ferme.''' Ce type de sol rassemble la plupart des surfaces courantes en pleine nature (herbe, champs, forêt et terrains similaires) ou les sols en intérieur couverts de poussière ou exceptionnellement mous (tapis épais ou sols particulièrement poussiéreux). Une créature peut y laisser quelques traces (des branches cassées ou des touffes de cheveux) mais ses empreintes sont parcellaires et peu fréquentes.
+: '''Sol dur.''' Toute surface sur laquelle aucune empreinte ne peut être laissée, comme de la roche nue ou les sols classiques à l’intérieur d’une bâtisse. La majorité des lits de cours d’eau tombe dans cette catégorie car les empreintes y sont rapidement effacées. Les créatures y laissent quelques traces seulement (des éraflures ou des cailloux déplacés).
+Divers modificateurs liés aux conditions indiquées dans la table page suivante s’appliquent au test de Survie. Plusieurs conditions peuvent affecter un même test mais, en ce qui concerne le modificateur de taille des créatures, seul celui correspondant à la créature la plus grande du groupe traqué s’applique. De la même façon, seul le malus de mauvaise visibilité le plus important s’applique.
+** '''Action.''' Une action complexe ou plus.
+** '''Nouvelles tentatives.''' Le personnage peut effectuer un nouveau test si le précédent est raté au bout d’une heure de recherche (en pleine nature) ou de dix minutes (en intérieur).
+** '''Aucune formation.''' Un personnage sans formation dans cette compétence peut quand même tenter de suivre des traces si le DD de la tâche est inférieur ou égal à 10.
+** '''Perception.''' Un personnage peut choisir d’utiliser la compétence de Perception contre le même DD que les tests de Survie afin de repérer une empreinte ou un autre signe du passage d’une créature. Cependant, la compétence de Perception ne permet pas de suivre une piste.
+
+<center>
+{| CLASS="tablo autoalt"
+|- CLASS="titre"
+| Conditions en vigueur || Mod au DD du test de Survie
+|- CLASS="premier"
+| Par tranche de trois créatures au sein du groupe pisté || -1
+|-
+| Taille des créatures pistées : || &emsp;
+|-
+| &emsp;Infime (I) || +8
+|-
+| &emsp;Minuscule (Min) || +4
+|-
+| &emsp;Très petite (TP) || +2
+|-
+| &emsp;Petite (P) || +1
+|-
+| &emsp;Moyenne (M) || 0
+|-
+| &emsp;Grande (G) || -1
+|-
+| &emsp;Très grande (TG) || -2
+|-
+| &emsp;Gigantesque (Gig) || -4
+|-
+| &emsp;Colossale (C) || -8
+|-
+| Par tranche de 24 heures écoulées<br>depuis que la piste a été laissée || +1
+|-
+| Par heure de pluie depuis que la piste a été laissée || +1
+|-
+| Chute de neige depuis que la piste a été laissée || +10
+|-
+| Mauvaise visibilité : || &emsp;
+|-
+| &emsp;Brouillard ou précipitation || +3
+|-
+| &emsp;Clair de lune || +3
+|-
+| &emsp;Ciel nocturne couvert ou nuit sans lune || +6
+|-
+| Le groupe pisté masque sa piste et réduit<br>de moitié sa vitesse de déplacement || +5
+|-
+| 
+|}
+</center>
+
+<div style="float:right; background-color: #fff; padding: 0 0 4px 8px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+<center>
+{| CLASS="tablo autoalt"
+|- CLASS="titre"
+| Tâche || DD du test<br>de Survie
+|- CLASS="premier"
+| Se débrouiller en pleine<br>nature || 10
+|-
+| Résister aux rigueurs<br>du climat || 15
+|-
+| Éviter les dangers naturels<br>tels que des sables mouvants || 15
+|-
+| Éviter de se perdre || 15
+|-
+| Prédire les conditions<br>climatiques des 24 prochaines<br>heures || 15
+|}
+</center></div></div>
+* '''''Survivre en pleine nature.''''' En pleine nature, le personnage est capable d’assurer sa propre sécurité et sa subsistance ainsi que celles de ses compagnons. Utilisez les DD de la table suivante pour certaines tâches.
+Quand le personnage se retrouve en pleine nature, il peut avancer à la moitié de sa vitesse de déplacement normale en chassant et en cueillant pour se nourrir et peut ainsi subsister sans réserve d’eau ni de nourriture. Il peut trouver suffisamment de nourriture et d’eau pour sustenter une personne de plus par tranche de 2 points de différence entre le résultat du test et le DD de 10.
+Quand il résiste aux conditions climatiques, le personnage acquiert un bonus de +2 aux jets de Vigueur effectués contre les rigueurs du climat s’il se déplace à mi-vitesse ou un bonus de +4 s’il reste stationnaire. Il peut conférer le même bonus à une personne de plus par point de différence entre le résultat du test et le DD de 15.
+Quand il prédit les conditions climatiques, le personnage peut effectuer des prédictions pour une journée de plus par tranche de 5 points de différence entre le résultat du test et le DD de 15.
+** '''Action.''' Variable. Un unique test de Survie peut représenter une durée allant de plusieurs heures à une journée entière d’activité.
+** '''Nouvelles tentatives.''' Pour subvenir à ses besoins en pleine nature ou résister aux rigueurs du climat, le personnage effectue un seul test de Survie toutes les vingt-quatre heures. Pour ne pas se perdre ou pour éviter les dangers naturels, le personnage effectue un test chaque fois que nécessaire mais chacun de ces tests ne peut être tenté qu’une seule fois.
+
+===Bonus raciaux===
+Voici les modification à apporter aux races du Manuel des Joueurs qui confèrent des bonus aux compétences.
+* '''Demi-elfe.''' Sens aiguisés confère un bonus de +1 aux tests de Perception.
+* '''Demi-orque.''' Intimidant s’applique uniquement aux tests d’Influence pour démoraliser ou intimider.
+* '''Elfe.''' Sens aiguisés confère un bonus de +1 aux tests de Perception.
+* '''Gnome.''' Sens aiguisés confère un bonus de +1 aux tests de Perception. Obsession fonctionne comme avant si la campagne utilise les compétences contextuelles. Sinon, il confère un bonus de +1 aux tests d’Art de la magie ou aux tests de Représentation (au choix du joueur).
+* '''Halfelin.''' Sens aiguisés confère un bonus de +1 aux tests de Perception. Bon équilibre confère un bonus racial de +1 aux tests d’Acrobaties et d’Athlétisme.
+* '''Nain.''' Avarice fonctionne comme avant si la campagne utilise les compétences contextuelles. Sinon, le bonus de ce trait racial s’applique à la place aux tests d’Art de la magie pour identifier les objets magiques faits en pierres ou en métaux précieux.
+
+{s:Reference|COMPETENCESDECLASSE}
+===Compétences de classe===
+Le bonus des compétences de classe fonctionne de la même façon si on applique ce système et confère le même bonus de +3. Toutefois, les listes de compétences de classe changent et remplacent les listes normales. Le nombre entre parenthèses indique le nombre de rangs de compétence qu’un personnage de cette classe obtient à chaque niveau. Ajoutez à chaque fois la moitié du modificateur d’Intelligence du personnage à ce nombre, même si ce modificateur est négatif. Un personnage obtient toujours 1 rang de compétence par niveau au minimum.
+* '''Alchimiste (2 + 1/2 Int) :''' Art de la magie, Finesse, Survie.
+* '''Arcaniste (1 + 1/2 Int) :''' Art de la magie, Religion, Société.
+* '''Barbare (1 + 1/2 Int) :''' Athlétisme, Nature.
+* '''Barde (3 + 1/2 Int) :''' Art de la magie, Influence, Perception, Représentation, Société.
+* '''Bretteur (2 + 1/2 Int) :''' Acrobaties, Athlétisme, Influence, Perception.
+* '''Chaman (2 + 1/2 Int) :''' Nature, Religion, Survie.
+* '''Chasseur (3 + 1/2 Int) :''' Athlétisme, Discrétion, Nature, Perception.
+* '''Chevalier (2 + 1/2 Int) :''' Acrobaties, Athlétisme, Nature.
+* '''Conjurateur (1 + 1/2 Int) :''' Art de la magie, Religion.
+* '''Druide (2 + 1/2 Int) :''' Athlétisme, Nature, Survie.
+* '''Enquêteur (3 + 1/2 Int) :''' Acrobaties, Art de la magie, Finesse, Influence, Perception, Société.
+* '''Ensorceleur (1 + 1/2 Int) :''' Art de la magie, Influence.
+* '''Guerrier (1 + 1/2 Int) :''' Acrobaties, Athlétisme.
+* '''Inquisiteur (3 + 1/2 Int) :''' Art de la magie, Discrétion, Influence, Perception, Survie.
+* '''Lutteur (2 + 1/2 Int) :''' Acrobaties, Athlétisme, Perception.
+* '''Magicien (1 + 1/2 Int) :''' Art de la magie, Religion, Société.
+* '''Magus (1 + 1/2 Int) :''' Art de la magie, Athlétisme.
+* '''Moine (2 + 1/2 Int) :''' Acrobaties, Athlétisme, Perception.
+* '''Oracle (2 + 1/2 Int) :''' Religion.
+* '''Paladin (1 + 1/2 Int) :''' Religion, Survie.
+* '''Pistolier (2 + 1/2 Int) :''' Athlétisme, Survie.
+* '''Prêtre (1 + 1/2 Int) :''' Art de la magie, Religion, Survie.
+* '''Prêtre combattant (1 + 1/2 Int) :''' Athlétisme, Religion, Survie.
+* '''Rôdeur (3 + 1/2 Int) :''' Athlétisme, Discrétion, Nature, Perception, Survie.
+* '''Roublard (4 + 1/2 Int) :''' Acrobaties, Discrétion, Finesse, Influence, Perception, Société.
+* '''Scalde (2 + 1/2 Int) :''' Art de la magie, Influence, Représentation, Société.
+* '''Sanguin (2 + 1/2 Int) :''' Art de la magie, Athlétisme.
+* '''Sorcière (1 + 1/2 Int) :''' Art de la magie, Nature, Religion.
+* '''Tueur (3 + 1/2 Int) :''' Athlétisme, Discrétion, Influence, Survie.
+
+====Convertir des personnages existants====
+Si vous souhaitez utiliser le système des compétences fusionnées au beau milieu d’une campagne, il vaut généralement mieux permettre aux joueurs de redistribuer la totalité des rangs de compétence de leur personnage et les autoriser à rapprendre les dons et autres aptitudes qui affectent leurs bonus aux compétences.
+
+===Ajustement des bonus aux compétences===
+Pour ajuster le reste du système, utilisez les indications suivantes. En règle générale, un pouvoir ou un effet qui confère normalement un bonus à plusieurs tests de compétence différents confère à la place un bonus à la moitié d’entre eux, arrondie à l’inférieur (1 au minimum).
+
+====Bonus aux fonctions====
+Les dons et Les pouvoirs qui confèrent des bonus ou infligent des malus aux compétences laissent deux solutions au MJ : soit il les bannit, soit il les ajuste pour les appliquer à certaines fonctions particulières de chaque don. Ainsi, puisque les fonctions des compétences fusionnées remplacent les compétences de base, un bonus peut s’appliquer à une seule fonction spécifique. Par exemple, le don Force intimidante pourrait permettre à un personnage d’ajouter son modificateur de Force à la place de celui de Charisme uniquement lorsqu’il utilise la compétence d’Influence pour intimider, au lieu de l’ajouter à son test d’Influence dans tous les cas. Le sort de saut devrait conférer un bonus uniquement aux tests d’Athlétisme effectués pour sauter au lieu de l’appliquer à tous les tests d’Athlétisme. Il n’existe aucune règle stricte qui permet de gérer toutes les situations et chaque occurrence doit être résolue au cas-par-cas.
+
+====Conditions requises====
+Si un don, une classe prestige ou une aptitude requiert un certain nombre de rangs dans une compétence, remplacez directement la compétence de base concernée par la compétence fusionnée en gardant le même nombre de rangs. Par exemple, il faudra au moins un rang en Acrobaties au lieu d’un rang en Équitation avant de pouvoir choisir le don Combat monté.
+
+====Bonus aux compétences des monstres====
+Quand il joue un monstre préconstruit, le MJ peut remplacer à la volée les compétences de base par les compétences fusionnées. Il dispose de deux méthodes pour ce faire : soit il applique le meilleur bonus du monstre à l’ensemble de la compétence fusionné appropriée, soit il considère que chaque bonus s’applique uniquement à une des fonctions de cette compétence fusionnée. Par exemple, un diable des glaces possède un bonus de +22 aux tests d’Acrobaties et un bonus de +13 aux tests de Vol. Le MJ peut octroyer au diable un bonus de +22 à tous ses tests d’Acrobaties ou il peut appliquer ce bonus de +22 uniquement quand le monstre se déplace dans une zone contrôlée et celui de +13 quand il vole. Ces deux solutions se valent mais, une fois le choix fait, le MJ devrait s’y tenir.
+
+Un MJ qui choisit la solution du bonus le plus élevé peut tout de même faire la distinction dans le cas des modificateurs raciaux importants, par exemple. Ainsi, un monstre doté d’une vitesse de déplacement en escalade ne devrait probablement pas bénéficier de son bonus racial de +8 aux tests d’Athlétisme effectués pour sauter ou pour nager.
+
+===Ajustement des dons===
+Avec le système des compétences fusionnées, il faut supprimer ou modifier les dons qui confèrent des bonus aux tests de compétence. Cette section fournit une liste des dons de compétence décrits dans le Manuel des Joueurs qui ne devraient pas être utilisés avec ce système. Y est également décrit une version alternative du don Talent qui remplace la version de base pour que l’avantage conféré par ce don soit adapté à ce système. Si un pouvoir ou une aptitude de classe confère un des dons supprimés, le MJ le remplace par le don de Talent le plus approprié. Par exemple, un familier qui confère Vigilance confèrera à la place le don Talent (Perception). Dans le cas des dons qui modifient les compétences de manière différente, consultez la section intitulée Bonus aux fonctions ci-dessus.
+
+'''Dons supprimés.''' Aptitude magique, Athlétisme, Autonome, Discret, Doigts de fée, Fourberie, Fraternité animale, Persuasif, Vigilance, Voltigeur.
+
+====Talent====
+''Le personnage choisit une compétence avec laquelle il s’avèrera particulièrement doué.''
+
+'''Avantages.''' Le personnage bénéficie d’un bonus de +2 à tous les tests concernant la compétence choisie. Si le personnage a 10 rangs ou plus dans cette compétence, le bonus s’élève à +4.
+
+'''Spécial.''' Ce don peut être choisi plusieurs fois mais ses effets ne se cumulent pas. Il s’applique à chaque fois à une nouvelle compétence.
+
+===Ajustement des traits===
+Nombre de traits confèrent un bonus de trait de +1 aux tests de compétence de base et font de ces compétences des compétences de classe. Si on applique le système des compétences fusionnées, ces traits confèrent à la place un bonus de trait de +1 aux fonctions des compétences fusionnées qui correspondent aux compétences de base indiquées dans la description du trait ou un bonus de trait de +4 si les compétences en question ne sont pas des compétences de classe. Si le personnage considère plus tard que la compétence en question est une compétence de classe, ce bonus de trait est réduit à +1.
+
+===Règles spécifiques aux classes===
+Certaines aptitudes de classe fonctionnent différemment à cause de la liste des compétences fusionnées. Voici quelques éclaircissements pour chaque classe. Ces sections couvrent les principales aptitudes de classes uniquement. Le MJ aura certainement besoin de statuer sur la façon dont certaines écoles de magie, certains domaines et autres éléments similaires interagissent avec le système des compétences fusionnées. Les aptitudes de classe omises se gèrent par une simple substitution. Ainsi, une aptitude qui requiert un test de Sabotage peut être modifiée pour qu’elle requière un test de Finesse à la place.
+* '''Alchimiste.''' Étant donné que le système des compétences fusionnées supprime par défaut la totalité des compétences d’Artisanat, le MJ devrait considérer que le bonus d’Artisanat (alchimie) dont bénéficie l’alchimiste est égal au niveau du personnage + son modificateur d’Intelligence + 3 ou il devrait appliquer le système des compétences contextuelles.
+
+* '''Barbare.''' Le barbare peut utiliser la compétence d’Acrobaties et la fonction intimider de la compétence d’Influence lorsqu’il est en rage. Pouvoirs de rage. Escalade en rage, saut en rage et nage en rage sont remplacés par athlète en rage qui permet d’ajouter le niveau de barbare en tant que bonus d’altération à tous les tests d’Athlétisme et de considérer que le barbare prend toujours de l’élan lorsqu’il effectue ces tests pour sauter.
+
+* '''Barde.''' Remarquez que la compétence de Représentation englobe tous les types de représentation au lieu de former plusieurs compétences distinctes comme le faisait la compétence de base. Savoir bardique permet d’ajouter la moitié du niveau de barde (minimum 1) aux tests d’Art de la magie, de Nature, de Religion et de Société et le barde peut effectuer ces tests sans formation. Versatilité artistique permet au barde d’utiliser la compétence de Représentation lorsqu’il effectue soit des tests d’Acrobaties, soit des tests d’Influence. Il doit choisir une seule de ces deux compétences et le nombre de compétences qu’il peut substituer de cette façon n’augmente pas aux niveaux supérieurs. Maître du savoir s’applique aux tests d’Art de la magie, de Nature, de Religion et de Société.
+
+* '''Bretteur.''' Les exploits bravoure et avantage du bretteur s’utilisent quand le bretteur effectue des tests d’Acrobaties et d’Athlétisme.
+
+* '''Chasseur.''' Le bonus conféré par l’aspect du singe s’applique uniquement aux tests d’Athlétisme pour escalader.
+
+* '''Chevalier.''' Un ordre de chevaliers ajoute une seule compétence à la liste des compétences de classe du chevalier (au choix du MJ, mais il n’est pas possible de choisir une compétence qui apparaît déjà dans la liste normale des compétences de classe du chevalier). Le bonus aux tests s’applique uniquement à la fonction spécifique indiquée.
+
+* '''Conjurateur.''' Les compétences de classe de l’eidolon sont désormais les suivantes : Perception et Discrétion. L’invocateur peut lui choisir deux compétences de classe supplémentaires. Un eidolon doté d’une vitesse de déplacement en vol ne considère pas Acrobaties comme une compétence de classe.
+
+* '''Druide.''' Instinct naturel confère à la place un bonus de +1 aux tests de Nature et de Survie.
+
+* '''Enquêteur.''' Étant donné que le système des compétences fusionnées supprime par défaut la totalité des compétences d’Artisanat, le MJ devrait considérer que le bonus d’Artisanat (alchimie) conféré à l’enquêteur est égal au niveau du personnage + son modificateur d’Intelligence + 3 ou appliquer le système des compétences contextuelles. L’aptitude de l’enquêteur qui lui permet de profiter de son inspiration sans dépenser d’utilisation quotidienne s’applique aux tests d’Art de la magie, de Nature, de Religion et de Société (il a toujours besoin d’une formation dans ces compétences). Le bonus de recherche des pièges s’applique à la fois aux tests de Perception pour repérer des pièges et aux tests de Finesse pour les désamorcer. Un enquêteur peut utiliser la Finesse pour désamorcer des pièges magiques. Souvenir précis s’applique aux tests d’Art de la magie, de Nature, de Religion et de Société.
+''Talents d’enquêteur.'' Le talent expert en objets permet à l’enquêteur d’utiliser l’Art de la magie sans formation mais ne produit aucun effet si l’enquêteur est formé dans cette compétence. Le talent empathie s’applique uniquement quand l’enquêteur utilise la Perception pour détecter des mensonges. Le talent inspiration étendue s’utilise quand l’enquêteur effectue des tests de Perception et de Survie. Le talent expertise inspirante s’applique quand l’enquêteur identifie les pouvoirs spéciaux ou les vulnérabilités d’un monstre en utilisant la compétence appropriée. Le talent intelligence inspirée s’applique aux tests d’Art de la magie, de Nature, de Religion et de Société. Le talent inspiration de la pègre s’applique aux tests de Finesse et d’Influence.
+
+* '''Ensorceleur.''' La compétence de classe conférée par le lignage s’applique à toutes les fonctions de la compétence fusionnée correspondante.
+
+* '''Inquisiteur.''' Regard sévère confère à l’inquisiteur un bonus aux tests d’Influence pour intimider et aux tests de Perception pour détecter les mensonges.
+
+* '''Oracle.''' Un oracle acquiert deux compétences de classe (choisies par le MJ) par le biais de son mystère.
+
+* '''Rôdeur.''' Le bonus d’ennemi juré s’applique aux tests de Perception et de Survie effectués contre les créatures du type choisi, ainsi qu’aux tests liés à la fonction identifier un monstre avec la compétence appropriée. Le bonus d’environnement de prédilection s’applique aux tests d’initiative, de Nature, de Discrétion, de Survie et aux tests de Perception pour détecter la présence de créatures et autres détails.
+
+* '''Roublard.''' Le bonus de recherche des pièges s’applique à la fois aux tests de Perception effectués pour repérer des pièges et aux tests de Finesse pour les désamorcer. Un roublard peut utiliser la Finesse pour désamorcer des pièges magiques.
+''Talents de roublard.'' Le talent maîtrise des compétences s’applique à un nombre de compétences égal à 1+ 1/2 modificateur d’Intelligence du roublard. Il est toujours possible de le choisir à plusieurs reprises.
+
+* '''Sanguin.''' Un sanguin peut utiliser la compétence d’Acrobaties et la fonction intimider de la compétence d’Influence lorsqu’il est en rage.
+
+* '''Scalde.''' Remarquez que la compétence de Représentation englobe tous les types de représentation au lieu de former plusieurs compétences distinctes comme le faisait la compétence de base. Savoir bardique permet d’ajouter la moitié du niveau de scalde (minimum 1) aux tests d’Art de la magie, de Nature, de Religion et de Société et le scalde peut effectuer ces tests sans formation. La compétence Acrobaties et la fonction intimider de la compétence d’Influence peuvent s’utiliser lorsque le scalde est en rage inspirée. Versatilité artistique permet au scalde d’utiliser la compétence de Représentation lorsqu’il effectue soit des tests d’Influence, soit des tests de Perception pour détecter des mensonges. Il doit choisir une seule de ces deux compétences et le nombre de compétences qu’il peut substituer de cette façon n’augmente pas aux niveaux supérieurs. Maître du savoir s’applique aux tests d’Art de la magie, de Nature, de Religion et de Société. Sorcière. Le maléfice de vol confère un bonus racial de +4 aux tests d’Athlétisme effectués pour voler.
+
+* '''Tueur.''' Le bonus de cible étudiée s’applique aux tests d’Influence pour feinter en combat, de Perception et de Survie effectués contre la cible étudiée. Le bonus de traqueur s’applique aux tests d’Influence effectués pour intimider une créature, aux tests de Représentation pour se déguiser et aux tests de Discrétion.
+''Talents de tueur.'' Le talent tromper les indiscrets s’applique aux tests d’Influence pour feinter en combat et aux tests de Représentation pour se déguiser. Le talent recherche des pièges confère Finesse comme compétence de classe. Le bonus conféré par ce talent s’applique à la fois aux tests de Perception pour repérer des pièges et aux tests de Finesse pour les désamorcer. Un tueur peut utiliser la Finesse pour désamorcer des pièges magiques.
+
+====Autres aptitudes====
+Les aptitudes qui ne sont pas spécifiques à une seule classe apparaissent ici.
+* '''Compagnons animaux.''' La liste des compétences de l’animal est désormais la suivante : Acrobaties, Athlétisme*, Discrétion*, Perception* et Survie. Un astérisque (*) indique une compétence de classe.
+
+* '''Familiers.''' Le bonus de compétence conféré par un familier s’applique à toutes les fonctions de la compétence fusionnée correspondante, mais celui-ci est réduit à +2. Un familier corbeau confère un bonus de +2 aux tests de Société.
