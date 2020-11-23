@@ -1,0 +1,137 @@
+---
+Name: Pathfinder-RPG.Compétences fusionnées, Survie
+Title: Compétences fusionnées, Survie
+LastModified: 2020-11-18 13:57
+Categories:
+  - 'Pathfinder unchained'
+---
+{s:MenuPathfinderunchained}{s:PU}''Le personnage sait comment survivre et s’orienter dans les régions sauvages. Il sait également soigner les blessures.''
+
+'''Caractéristique associée :''' [[Sagesse]] ; '''Formation nécessaire :''' Non ; '''Malus d'armure :''' Non
+
+'''Fonctions.''' [[Compétences fusionnées, Survie#DETERMINERLADIRECTIONDUNORD|Déterminer la direction du nord]], [[Compétences fusionnées, Survie#SOIGNERLESBLESSURESETAUTRESMAUX|soigner les blessures et autres maux]], [[Compétences fusionnées, Survie#SUIVREDESTRACES|suivre des traces]], [[Compétences fusionnées, Survie#SURVIVREENPLEINENATURE|survivre en pleine nature]].
+
+'''Compétences de base.''' [[Premiers secours]], [[Survie]].
+
+{s:Reference|DETERMINERLADIRECTIONDUNORD}
+===Déterminer la direction du nord===
+Un personnage formé dans la compétence de Survie peut automatiquement déterminer la direction du nord.
+
+'''Action.''' Aucune.
+
+{s:Reference|SOIGNERLESBLESSURESETAUTRESMAUX}
+===Soigner les blessures et autres maux===
+Cette fonction de la compétence de Survie fonctionne comme la compétence de base de [[Premiers secours]].
+
+'''Action.''' Il faut une [[action simple]] pour donner les premiers secours et soigner un empoisonnement. Pour soigner une maladie ou une créature blessée par un sort de croissance d’épines ou de pierres acérées, il faut dix minutes de travail et il faut une heure pour traiter des blessures mortelles. Les soins suivis demandent huit heures d’activité réduite.
+
+'''Nouvelles tentatives.''' Variable. En règle générale, il est impossible de tenter un nouveau test de Survie pour soigner les blessures et autres maux sans avoir une preuve de l’échec du premier test. Il est toujours possible d’effectuer un autre test pour stabiliser un compagnon mourant, à condition que celui-ci soit toujours vivant.
+
+{s:Reference|SUIVREDESTRACES}
+===Suivre des traces===
+<div style="float:right; background-color: #fff; padding: 0 0 4px 8px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+<center>
+{| CLASS="tablo autoalt"
+|- CLASS="titre"
+| Type de sol || DD du test<br>de Survie
+|- CLASS="premier"
+| Très mou || 5
+|-
+| Mou || 10
+|-
+| Ferme || 15
+|-
+| Dur || 20
+|}
+</center></div></div>Le personnage doit réussir un test de Survie pour repérer des traces ou les suivre sur une distance de 1,5 kilomètre. Il faut réussir un nouveau test chaque fois que la piste devient difficile à suivre. Lorsqu’il suit une piste, le personnage se déplace à la moitié de sa vitesse de déplacement normale. Il peut choisir de se déplacer à sa vitesse normale en acceptant un malus de -5 ou au double de sa vitesse normale avec un malus de -20. Le [[DD]] du test dépend du type de sol et des conditions en vigueur.
+* ''Sol très mou.'' Toute surface (neige fraîche, épaisse couche de poussière, boue visqueuse) sur laquelle les pas laissent des empreintes profondes et faciles à repérer.
+* ''Sol mou.'' Toute surface suffisamment molle pour céder à une pression mais plus ferme que de la boue visqueuse ou de la neige fraîche. Une créature y laisse des empreintes nombreuses mais peu profondes.
+* ''Sol ferme.'' Ce type de sol rassemble la plupart des surfaces courantes en pleine nature (herbe, champs, forêt et terrains similaires) ou les sols en intérieur couverts de poussière ou exceptionnellement mous (tapis épais ou sols particulièrement poussiéreux). Une créature peut y laisser quelques traces (des branches cassées ou des touffes de cheveux) mais ses empreintes sont parcellaires et peu fréquentes.
+* ''Sol dur.'' Toute surface sur laquelle aucune empreinte ne peut être laissée, comme de la roche nue ou les sols classiques à l’intérieur d’une bâtisse. La majorité des lits de cours d’eau tombe dans cette catégorie car les empreintes y sont rapidement effacées. Les créatures y laissent quelques traces seulement (des éraflures ou des cailloux déplacés).
+
+Divers modificateurs liés aux conditions indiquées dans la table ci-dessous s’appliquent au test de Survie. Plusieurs conditions peuvent affecter un même test mais, en ce qui concerne le modificateur de taille des créatures, seul celui correspondant à la créature la plus grande du groupe traqué s’applique. De la même façon, seul le malus de mauvaise visibilité le plus important s’applique.
+
+<center>
+{| CLASS="tablo autoalt"
+|- CLASS="titre"
+| Conditions en vigueur || Mod au DD du test de Survie
+|- CLASS="premier"
+| Par tranche de trois créatures au sein du groupe pisté || -1
+|-
+| '''Taille des créatures pistées :''' || &emsp;
+|-
+| &emsp;Infime (I) || +8
+|-
+| &emsp;Minuscule (Min) || +4
+|-
+| &emsp;Très petite (TP) || +2
+|-
+| &emsp;Petite (P) || +1
+|-
+| &emsp;Moyenne (M) || 0
+|-
+| &emsp;Grande (G) || -1
+|-
+| &emsp;Très grande (TG) || -2
+|-
+| &emsp;Gigantesque (Gig) || -4
+|-
+| &emsp;Colossale (C) || -8
+|-
+| Par tranche de 24 heures écoulées depuis que la piste a été laissée || +1
+|-
+| Par heure de pluie depuis que la piste a été laissée || +1
+|-
+| Chute de neige depuis que la piste a été laissée || +10
+|-
+| '''Mauvaise visibilité :''' || &emsp;
+|-
+| &emsp;Brouillard ou précipitation || +3
+|-
+| &emsp;Clair de lune || +3
+|-
+| &emsp;Ciel nocturne couvert ou nuit sans lune || +6
+|-
+| Le groupe pisté masque sa piste et réduit de moitié sa vitesse de déplacement || +5
+|}
+</center>
+
+'''Action.''' Une [[action complexe]] ou plus.
+
+'''Nouvelles tentatives.''' Le personnage peut effectuer un nouveau test si le précédent est raté au bout d’une heure de recherche (en pleine nature) ou de dix minutes (en intérieur).
+
+'''Aucune formation.''' Un personnage sans formation dans cette compétence peut quand même tenter de suivre des traces si le [[DD]] de la tâche est inférieur ou égal à 10.
+
+'''Perception.''' Un personnage peut choisir d’utiliser la compétence de [[Compétences fusionnées, Perception|Perception]] contre le même [[DD]] que les tests de Survie afin de repérer une empreinte ou un autre signe du passage d’une créature. Cependant, la compétence de Perception ne permet pas de suivre une piste.
+
+{s:Reference|SURVIVREENPLEINENATURE}
+===Survivre en pleine nature===
+<div style="float:right; background-color: #fff; padding: 0 0 4px 8px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+<center>
+{| CLASS="tablo autoalt"
+|- CLASS="titre"
+| Tâche || DD du test<br>de Survie
+|- CLASS="premier"
+| Se débrouiller en pleine nature || 10
+|-
+| Résister aux rigueurs du climat || 15
+|-
+| Éviter les dangers naturels tels<br>que des sables mouvants || 15
+|-
+| Éviter de se perdre || 15
+|-
+| Prédire les conditions climatiques<br>des 24 prochaines heures || 15
+|}
+</center></div></div>En pleine nature, le personnage est capable d’assurer sa propre sécurité et sa subsistance ainsi que celles de ses compagnons. Utilisez les DD de la table suivante pour certaines tâches.
+
+Quand le personnage se retrouve en pleine nature, il peut avancer à la moitié de sa vitesse de déplacement normale en chassant et en cueillant pour se nourrir et peut ainsi subsister sans réserve d’eau ni de nourriture. Il peut trouver suffisamment de nourriture et d’eau pour sustenter une personne de plus par tranche de 2 points de différence entre le résultat du test et le [[DD]] de 10.
+
+Quand il résiste aux conditions climatiques, le personnage acquiert un bonus de +2 aux jets de [[Vigueur]] effectués contre les rigueurs du climat s’il se déplace à mi-vitesse ou un bonus de +4 s’il reste stationnaire. Il peut conférer le même bonus à une personne de plus par point de différence entre le résultat du test et le [[DD]] de 15.
+
+Quand il prédit les conditions climatiques, le personnage peut effectuer des prédictions pour une journée de plus par tranche de 5 points de différence entre le résultat du test et le [[DD]] de 15.
+
+'''Action.''' Variable. Un unique test de Survie peut représenter une durée allant de plusieurs heures à une journée entière d’activité.
+
+'''Nouvelles tentatives.''' Pour subvenir à ses besoins en pleine nature ou résister aux rigueurs du climat, le personnage effectue un seul test de Survie toutes les vingt-quatre heures. Pour ne pas se perdre ou pour éviter les dangers naturels, le personnage effectue un test chaque fois que nécessaire mais chacun de ces tests ne peut être tenté qu’une seule fois.

@@ -1,0 +1,135 @@
+---
+Name: Pathfinder-RPG.Compétences fusionnées, Perception
+Title: Compétences fusionnées, Perception
+LastModified: 2020-11-18 13:27
+Categories:
+  - 'Pathfinder unchained'
+---
+{s:MenuPathfinderunchained}{s:PU}''Les sens du personnage lui permettent de repérer certains détails, le préviennent des dangers imminents et lui indiquent quand les gens lui mentent ou se comportent de manière suspecte.''
+
+'''Caractéristique associée :''' [[Sagesse]] ; '''Formation nécessaire :''' Non ; '''Malus d'armure :''' Non
+
+'''Fonctions.''' [[Compétences fusionnées, Perception#AVOIRUNPRESSENTIMENT|Avoir un pressentiment]], [[Compétences fusionnées, Perception#DETECTERLAPRESENCEDECREATURESETAUTRESDETAILS|détecter la présence de créatures et autres détails]], [[Compétences fusionnées, Perception#DETECTERLESMENSONGES|détecter les mensonges]], [[Compétences fusionnées, Perception#FOUILLER|fouiller]], [[Compétences fusionnées, Perception#INTERCEPTERUNMESSAGESECRET|intercepter un message secret]], [[Compétences fusionnées, Perception#PERCEVOIRUNENCHANTEMENT|percevoir un enchantement]].
+
+'''Compétences de base.''' [[Perception]], [[Psychologie]].
+
+{s:Reference|AVOIRUNPRESSENTIMENT}
+===Avoir un pressentiment===
+Le personnage peut analyser de manière instinctive une situation sociale en réussissant un test de Perception [[DD]] 20. Il peut ainsi sentir que quelque chose ne va pas ou éprouver une sensation de malaise lorsqu’il interagit avec un imposteur, ou bien sentir que quelqu’un est digne de confiance. Il n’obtient pas pour autant d’informations détaillées. Utilisez la fonction [[Compétences fusionnées, Perception#DETECTERLESMENSONGES|détecter les mensonges]] quand le personnage tente de déterminer si une affirmation particulière est un mensonge.
+
+'''Action.''' Une minute.
+
+{s:Reference|DETECTERLAPRESENCEDECREATURESETAUTRESDETAILS}
+===Détecter la présence de créatures et autres détails===
+Le personnage peut détecter la présence d’une créature qui utilise la compétence de [[Compétences fusionnées, Discrétion|Discrétion]] s’il réussit un test de Perception opposé. Le personnage peut repérer certains détails de son environnement par le biais des cinq sens. Utilisez la fonction [[Compétences fusionnées, Perception#FOUILLER|fouiller]] de la compétence de Perception pour trouver des objets cachés, des pièges, des portes secrètes et d’autres éléments que l’on détecte seulement en y consacrant du temps.
+
+'''Action.''' Aucune. La plupart des tests de Perception s’effectuent en réaction à un stimulus observable.
+
+'''Nouvelles tentatives.''' Oui.
+
+'''Conditions.''' Les conditions favorables, défavorables et exécrables dépendent du sens employé. Une [[Exploration#VISIONLUMIERE|lumière vive]] peut constituer une condition favorable pour les tests liés à la vue alors qu’une [[Exploration#VISIONLUMIERE|lumière faible]], comme celle produite par une [[Équipement daventurier#Torche|torche]] ou la lune, est une condition défavorable. Des bruits de fond peuvent augmenter le [[DD]] d’un test basé sur l’ouïe et un mélange d’odeurs peut augmenter ceux basés sur l’odorat. Un test lié à la vue effectué à la lueur d’une [[Équipement daventurier#Bougie|bougie]], le rugissement d’un dragon noyant tout autre bruit ou une puanteur écrasante couvrant une odeur plus subtile, voilà autant d’exemples de conditions exécrables.
+
+<center>
+{| CLASS="tablo autoalt"
+|- CLASS="titre"
+| Stimulus || DD du test de Perception
+|- CLASS="premier"
+| Entendre les bruits d’un combat || -10
+|-
+| Sentir l’odeur de détritus en putréfaction || -10
+|-
+| Entendre les détails d’une conversation || 0
+|-
+| Voir une créature visible || 0
+|-
+| Sentir l’odeur de la fumée || 0
+|-
+| Déterminer si la nourriture est avariée || 5
+|-
+| Entendre les pas d’une créature || 10
+|-
+| Entendre les détails d’une conversation à voix basse || 15
+|-
+| Identifier les effets d’une potion en la goûtant || 15 + NLS de la potion
+|-
+| Entendre le son d’une clef tournant dans une serrure || 20
+|-
+| Entendre le son d’un arc dont on tend la corde || 25
+|-
+| Percevoir les vibrations d’une créature souterraine passant sous le personnage || 25
+|-
+| Remarquer un pickpocket || Opposé au test de Finesse
+|-
+| Remarquer une créature qui tente d’être discrète || Opposé au test de Discrétion
+|}
+</center>
+
+On applique les modificateurs indiqués dans la table suivante sur le [[DD]] des tests de Perception effectués pour détecter (et pour [[Compétences fusionnées, Perception#FOUILLER|fouiller]]).
+
+<center>
+{| CLASS="tablo autoalt"
+|- CLASS="titre"
+| Circonstances || Mod au DD du test de Perception
+|- CLASS="premier"
+| Distance entre le personnage et la source, l’objet ou la créature || +1 par 3 m
+|-
+| À travers une porte fermée || +5
+|-
+| À travers un mur || +10 par 30 cm d’épaisseur
+|-
+| Conditions favorables || -2
+|-
+| Conditions défavorables || +2
+|-
+| Conditions exécrables || +5
+|-
+| Le personnage qui effectue le test est distrait || +5
+|-
+| Le personnage qui effectue le test est endormi || +10
+|-
+| La créature, l’objet ou la source est invisible || +20
+|}
+</center>
+
+{s:Reference|DETECTERLESMENSONGES}
+===Détecter les mensonges===
+Grâce à la réussite d’un test de Perception opposé, un personnage peut savoir si une créature lui ment. Voir la fonction [[Compétences fusionnées, Influence#MENTIR|mentir]] de la compétence d’Influence.
+
+'''Action.''' Aucune.
+
+'''Nouvelles tentatives.''' Non, mais le personnage peut effectuer un test de Perception contre chaque mensonge.
+
+{s:Reference|FOUILLER}
+===Fouiller===
+<div style="float:right; background-color: #fff; padding: 0 0 4px 8px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+<center>
+{| CLASS="tablo autoalt"
+|- CLASS="titre"
+| Objet caché || DD du test de<br>Perception
+|- CLASS="premier"
+| Trouver une porte moyennement<br>bien dissimulée || 15
+|-
+| Trouver une porte secrète<br>moyennement bien conçue || 20
+|-
+| Trouver un piège || Variable en fonction<br>du piège
+|}
+</center></div></div>Le personnage peut fouiller minutieusement une zone à la recherche de pièges et de portes secrètes, entre autres. On applique les mêmes modificateurs au [[DD]] de ces tests de Perception qu’à la fonction [[Compétences fusionnées, Perception#DETECTERLAPRESENCEDECREATURESETAUTRESDETAILS|détecter la présence de créatures et autres détails]].
+
+'''Action.''' [[Action de mouvement]]. Chacune de ces actions permet au personnage de fouiller une zone de 3 mètres de côté.
+
+'''Nouvelles tentatives.''' Oui.
+
+{s:ClearRight}{s:Reference|INTERCEPTERUNMESSAGESECRET}
+===Intercepter un message secret===
+Le personnage peut utiliser la compétence de Perception pour se rendre compte qu’une personne [[Compétences fusionnées, Influence#TRANSMETTREUNMESSAGESECRET|transmet un message secret]] à l’aide de la compétence d’[[Compétences fusionnées, Influence|Influence]]. Le test de Perception du personnage est opposé au test d’Influence de la personne qui formule le message. Le personnage subit un malus de -2 au test pour chaque information relative au message dont il ne dispose pas. Si le test est réussi de 4 points ou moins, le personnage sait qu’un message a été transmis mais en ignore la teneur. S’il est réussi de 5 points ou plus, le personnage comprend le message. En cas d’échec de 4 points ou moins, le personnage ne perçoit aucune communication secrète. Enfin, en cas d’échec de 5 points ou plus, il déduit des informations erronées. Voir la fonction [[Compétences fusionnées, Influence#TRANSMETTREUNMESSAGESECRET|transmettre un message secret]] de la compétence d’[[Compétences fusionnées, Influence|Influence]], pour savoir comment transmettre un message secret.
+
+'''Action.''' Aucune. Cette fonction s’utilise pendant le temps passé à essayer d’intercepter le message.
+
+'''Nouvelles tentatives.''' Non, mais le personnage peut effectuer un test pour intercepter un autre message secret.
+
+{s:Reference|PERCEVOIRUNENCHANTEMENT}
+===Percevoir un enchantement===
+Le personnage se rend compte que le comportement de l’individu qu’il observe est influencé par un effet d’[[enchantement]] s’il réussit un test de Perception [[DD]] 25 ([[DD]] 15 s’il est dominé).
+
+'''Action.''' Une minute.
