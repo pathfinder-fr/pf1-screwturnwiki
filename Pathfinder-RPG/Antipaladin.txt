@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Antipaladin
 Title: Antipaladin
-LastModified: 2020-10-11 22:40
+LastModified: 2020-12-07 18:56
 Categories:
   - 'Classe'
   - 'Manuel des joueurs, règles avancées'
@@ -330,7 +330,7 @@ Au niveau  3,  les puissances des ténèbres transforment l’antipaladin en sym
 
 {s:Reference|CRUAUTE}
 ==== Cruauté (Sur) ====
-Au niveau  3 et tous les trois niveaux par la suite, un antipaladin peut choisir une cruauté. Chaque cruauté ajoute un effet supplémentaire à sa capacité de [[#TOUCHERDECORRUPTION|toucher de corruption]]. Chaque fois que l’antipaladin inflige des dégâts par un [[#TOUCHERDECORRUPTION|toucher de corruption]], la cible subit également les effets d’une des cruautés de l’antipaladin (le choix est fait lors de l’utilisation du [[#TOUCHERDECORRUPTION|toucher de corruption]]). La cible bénéficie d’un [[jet de sauvegarde|jet de Vigueur]] pour éviter cette cruauté. Si le jet est réussi, la cible subit les dégâts normaux mais pas les effets de la cruauté. Le DD de ce jet de sauvegarde vaut 10 + la moitié du niveau de l’antipaladin + son modificateur de [[Charisme]].
+Au niveau  3 et tous les trois niveaux par la suite, un antipaladin peut choisir une cruauté. Chaque cruauté ajoute un effet supplémentaire à sa capacité de [[antipaladin#TOUCHERDECORRUPTION|toucher de corruption]]. Chaque fois que l’antipaladin inflige des dégâts par un [[antipaladin#TOUCHERDECORRUPTION|toucher de corruption]], la cible subit également les effets d’une des cruautés de l’antipaladin (le choix est fait lors de l’utilisation du [[antipaladin#TOUCHERDECORRUPTION|toucher de corruption]]). La cible bénéficie d’un [[jet de sauvegarde|jet de Vigueur]] pour éviter cette cruauté. Si le jet est réussi, la cible subit les dégâts normaux mais pas les effets de la cruauté. Le DD de ce jet de sauvegarde vaut 10 + la moitié du niveau de l’antipaladin + son modificateur de [[Charisme]].
 
 Au niveau 3, l'antipaladin peut sélectionner une des cruautés suivantes :
 * '''Fatigué''' : la cible est [[fatigué|fatiguée]].
@@ -359,10 +359,12 @@ Ces effets ne se cumulent pas. Par exemple, lorsqu’un antipaladin de niveau 12
 
 {s:Reference|CANALISATIONDENERGIENEGATIVE}
 
+
 ==== Canalisation d’énergie négative (Sur) ====
-Lorsque l’antipaladin atteint le niveau  4, il acquiert la capacité surnaturelle de [[prêtre#CANALISATIONDENERGIE|canaliser de l’énergie négative]] avec un niveau effectif de [[prêtre]] égal à son niveau d’antipaladin. Chaque canalisation d’énergie consomme deux utilisations de sa capacité de [[#toucher de corruption|toucher de corruption]]. Il s’agit d’une capacité basée sur le [[Charisme]].
+Lorsque l’antipaladin atteint le niveau  4, il acquiert la capacité surnaturelle de [[prêtre#CANALISATIONDENERGIE|canaliser de l’énergie négative]] avec un niveau effectif de [[prêtre]] égal à son niveau d’antipaladin. Chaque canalisation d’énergie consomme deux utilisations de sa capacité de [[antipaladin#toucher de corruption|toucher de corruption]]. Il s’agit d’une capacité basée sur le [[Charisme]].
 
 {s:Reference|SORTS}
+
 ==== Sorts ====
 Dès le niveau  4, un antipaladin peut lancer un petit nombre de sorts divins appartenant à la [[liste des sorts dantipaladin|liste de sorts d’antipaladin]]. Un antipaladin doit choisir et préparer ses sorts à l’avance. Pour préparer ou lancer un sort, un antipaladin doit avoir une valeur de [[Charisme]] au moins égale à 10  +  le niveau du sort. Le DD des jets de sauvegarde contre les sorts de l’antipaladin est égal à 10 +  le niveau du sort + le modificateur de [[Charisme]] de l’antipaladin.
 
@@ -395,9 +397,10 @@ Au niveau  8,  tous les ennemis situés dans un rayon de 3 m autour de l’antip
 
 {s:Reference|AURADEVENGEANCE}
 ==== Aura de vengeance (Sur) ====
-Au niveau 11, un antipaladin peut sacrifier deux utilisations de sa [[#châtiment du Bien|capacité de châtiment du Bien]] pour permettre à tous ses alliés situés à 3 m ou moins d’utiliser un [[#châtiment du Bien|châtiment du Bien]] avec ses propres bonus. Les alliés doivent utiliser ce [[#CHATIMENTDUBIEN|châtiment du Bien]] avant que le début du prochain tour de l’antipaladin et les bonus persistent pendant 1 minute. Ce pouvoir s’utilise par une [[action libre]]. Les créatures d’alignement [[Bon]] ne tirent aucun avantage de l’aura de vengeance.
+Au niveau 11, un antipaladin peut sacrifier deux utilisations de sa [[antipaladin#CHATIMENTDUBIEN|capacité de châtiment du Bien]] pour permettre à tous ses alliés situés à 3 m ou moins d’utiliser un [[antipaladin#CHATIMENTDUBIEN|châtiment du Bien]] avec ses propres bonus. Les alliés doivent utiliser ce [[antipaladin#CHATIMENTDUBIEN|châtiment du Bien]] avant que le début du prochain tour de l’antipaladin et les bonus persistent pendant 1 minute. Ce pouvoir s’utilise par une [[action libre]]. Les créatures d’alignement [[Bon]] ne tirent aucun avantage de l’aura de vengeance.
 
 {s:Reference|AURADUPECHE}
+
 ==== Aura du péché (Sur) ====
 Au niveau  14, les armes d’un antipaladin sont considérées comme dotées de l’[[alignement]] [[Mauvais]] lorsqu’il s’agit de déterminer si elles ignorent les [[RD|réductions de dégâts]]. De plus, toutes les attaques faites contre un ennemi situé dans un rayon de 3 m autour de l’antipaladin sont également considérées comme dotées de l’[[alignement]] [[Mauvais]] lorsqu’il s’agit de déterminer si elles ignorent les [[RD|réductions de dégâts]]. Cette capacité fonctionne tant que l’antipaladin est conscient, mais pas s’il est [[inconscient]] ou [[mort]].
 
@@ -407,9 +410,10 @@ Au niveau  17, un antipaladin gagne une [[RD]] 5/Bien. De plus, tous ses ennemis
 
 {s:Reference|CHAMPIONMAUDIT}
 ==== Champion maudit (Sur) ====
-Au niveau 20,  l’antipaladin incarne vraiment la puissance des entités maléfiques qu’il vénère. Sa [[RD]] augmente jusqu’à 10/Bien. Chaque fois qu’il utilise un [[#CHATIMENTDUBIEN|châtiment du Bien]] et frappe un [[type Extérieur|Extérieur]] d’[[alignement]] [[Bon]], celui-ci est également soumis à un  [[bannissement]] de [[NLS]] égal au niveau de l’antipaladin (l’arme et le symbole maudit de l’antipaladin comptent automatiquement comme objets que la cible haït). Le [[#CHATIMENTDUBIEN|châtiment du Bien]] se termine immédiatement après que l’effet de bannissement et les dégâts de l’attaque aient été appliqués. De plus, chaque fois que l’antipaladin [[#CANALISATIONDENERGIE|canalise de l’énergie négative]] ou utilise un [[#TOUCHERDECORRUPTION|toucher de corruption]] pour blesser une créature, il inflige toujours le maximum de dégâts possible.
+Au niveau 20,  l’antipaladin incarne vraiment la puissance des entités maléfiques qu’il vénère. Sa [[RD]] augmente jusqu’à 10/Bien. Chaque fois qu’il utilise un [[antipaladin#CHATIMENTDUBIEN|châtiment du Bien]] et frappe un [[type Extérieur|Extérieur]] d’[[alignement]] [[Bon]], celui-ci est également soumis à un  [[bannissement]] de [[NLS]] égal au niveau de l’antipaladin (l’arme et le symbole maudit de l’antipaladin comptent automatiquement comme objets que la cible haït). Le [[antipaladin#CHATIMENTDUBIEN|châtiment du Bien]] se termine immédiatement après que l’effet de bannissement et les dégâts de l’attaque aient été appliqués. De plus, chaque fois que l’antipaladin [[antipaladin#CANALISATIONDENERGIE|canalise de l’énergie négative]] ou utilise un [[antipaladin#TOUCHERDECORRUPTION|toucher de corruption]] pour blesser une créature, il inflige toujours le maximum de dégâts possible.
 
 {s:Reference|CODEDECONDUITE}
+
 === Code de conduite ===
 L’antipaladin est obligatoirement [[Chaotique]] [[Mauvais]]. S’il commet sciemment un acte [[bon]] ou altruiste, il perd aussitôt toutes ses capacités de classe à l’exception des armes et des armures. Cela ne signifie pas qu’il ne peut entreprendre aucune action jugée comme bonne, mais seulement que ces actions doivent servir ses propres buts. Le code de conduite de l’antipaladin impose qu’il place ses propres intérêts et désirs au-dessus de toute autre considération, qu’il impose la tyrannie, qu’il profite de tous les avantages à sa disposition et qu’il punissent les bons et les justes, pour autant que ces actions n’interfèrent pas avec ses buts.
 
