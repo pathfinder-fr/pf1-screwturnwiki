@@ -1,16 +1,14 @@
 ---
 Name: Pathfinder-RPG.Armes magiques
 Title: Les armes magiques
-LastModified: 2020-10-08 02:39
+LastModified: 2020-12-16 15:38
 Categories:
   - 'Arme magique'
   - 'Armes et équipement'
   - 'Manuel des joueurs, règles avancées'
   - 'Manuel des races'
 ---
-{s:MenuObjetsMagiques}
-{s:Reference|BONUSALTERATION}{s:Desambi|Les [[armures magiques|armures et boucliers magiques]] possèdent également un bonus d'altération.}
-Une arme magique sert à atteindre plus souvent sa cible et à lui infliger plus de dommages. Les armes magiques sont dotées d’un bonus d’altération allant de +1 à +5, bonus qui s’ajoute aux [[jet dattaque|jets d’attaque]] et de dégâts de leur utilisateur. Elles sont également toutes des armes [[Armes de maître|de maître]], mais le bonus que cette qualité leur fournit ne s’ajoute pas à leur bonus d’altération.
+{s:MenuObjetsMagiques}{s:Reference|BONUSALTERATION}{s:Desambi|Les [[armures magiques|armures et boucliers magiques]] possèdent également un bonus d'altération.}{toc}Une arme magique sert à atteindre plus souvent sa cible et à lui infliger plus de dommages. Les armes magiques sont dotées d’un bonus d’altération allant de +1 à +5, bonus qui s’ajoute aux [[jet dattaque|jets d’attaque]] et de dégâts de leur utilisateur. Elles sont également toutes des armes [[Armes de maître|de maître]], mais le bonus que cette qualité leur fournit ne s’ajoute pas à leur bonus d’altération.
 
 <div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
 <div style="border: 1px solid #4b3124; padding: 4px">
@@ -90,6 +88,7 @@ Une arme ayant une propriété spéciale doit posséder un bonus d’altération
 
 ''Appliquées sur des armes à projectiles, les propriétés marquées d’un astérisque (*) sont transmises aux munitions tirées avec.''
 
+====Propriétés ajoutant un prix spécifique====
 <center>
 {| CLASS="tablo autoalt toutgauche"
 |+ Propriétés ajoutant un prix spécifique
@@ -132,6 +131,7 @@ Une arme ayant une propriété spéciale doit posséder un bonus d’altération
 |}
 </center>
 
+====Propriétés ajoutant un bonus de +1====
 <center>
 {| CLASS="tablo autoalt toutgauche"
 |+ Propriétés ajoutant un bonus de +1
@@ -200,6 +200,9 @@ Une arme ayant une propriété spéciale doit posséder un bonus d’altération
 | ''[[diversion (propriété)|Diversion]]'' || <sup>MCA</sup> || — || Le [[DD]] des tests de concentration des cibles est augmenté de 5 pendant 1 minute au touché (1 fois/créature/jour). || bonus de +1
 
 |- CLASS="premier"
+| ''[[duel RSE (propriété)|Duel (RSE)]]'' || <sup>RSE</sup> || Corps-à-corps || Confère un bonus de chance égal au double du bonus d'altération à certains tests de [[BMO]] effectués avec l'arme ([[désarmement]], [[croc-en-jambe]], [[sale coup]], [[repositionnement]]). || bonus de +1
+
+|- CLASS="premier"
 | ''[[enchaînement (propriété)|Enchaînement]]'' || <sup>A&E</sup> || Corps-à-corps || Un porteur avec le don [[Enchaînement]] peut effectuer une attaque enchaînée supplémentaire. || bonus de +1
 
 |- CLASS="premier"
@@ -248,6 +251,9 @@ Une arme ayant une propriété spéciale doit posséder un bonus d’altération
 | ''[[lancer (propriété)|Lancer]]'' || <sup>A&E</sup> || Corps-à-corps || Confère un facteur de portée de 3m (2c) à l’arme. || bonus de +1
 
 |- CLASS="premier"
+| ''[[leste (propriété)|Leste]]'' || <sup>RSE</sup> || Corps-à-corps éligibles au don [[Attaque en finesse]] || Le porteur peut appliquer son modificateur de [[Dextérité]] plutôt que celui de [[Force]] aux [[Valeurs de combat#DEGATS|jets de dégâts]] de l'arme. || bonus de +1
+
+|- CLASS="premier"
 | ''[[longue portée (propriété)|Longue portée]]'' || <sup>A&E</sup> || Distance || Double le facteur de portée de l’arme. || bonus de +1
 
 |- CLASS="premier"
@@ -273,6 +279,9 @@ Une arme ayant une propriété spéciale doit posséder un bonus d’altération
 
 |- CLASS="premier"
 | ''[[préservation (propriété)|Préservation]]'' || <sup>A&E</sup> || Armes à projectiles (sauf armes à feu) || Lorsque le porteur rate une attaque avec l’arme, la munition tirée revient dans son contenant d’origine (sauf si elle est brisée en vol). || bonus de +1
+
+|- CLASS="premier"
+| ''[[préventive (propriété)|Préventive]]'' || <sup>RSE</sup> || Corps-à-corps  || Confère un bonus égal au bonus d'altération aux tests d'[[initiative]], aux jets de [[Réflexes]] contre les [[pièges]], et à la [[CA]] contre les attaques des pièges. || bonus de +1
 
 |- CLASS="premier"
 | ''[[protection contre lélectricité (propriété)|Protection contre l’électricité]]'' || <sup>A&E</sup> || Corps-à-corps || L’arme peut toucher des surfaces chargées sans danger. Inflige 1d6 points de dégâts supplémentaires aux créatures de sous-type air. Confère un bonus de +2 aux [[jds|jets de sauvegarde]] du porteur contre les effets d’air et d’électricité. Immunise l’arme contre les dégâts d’électricité. || bonus de +1
@@ -345,6 +354,7 @@ Une arme ayant une propriété spéciale doit posséder un bonus d’altération
 |}
 </center>
 
+====Propriétés ajoutant un bonus de +2====
 <center>
 {| CLASS="tablo autoalt toutgauche"
 |+ Propriétés ajoutant un bonus de +2
@@ -442,6 +452,7 @@ Une arme ayant une propriété spéciale doit posséder un bonus d’altération
 |}
 </center>
 
+====Propriétés ajoutant un bonus de +3====
 <center>
 {| CLASS="tablo autoalt toutgauche"
 |+ Propriétés ajoutant un bonus de +3
@@ -478,6 +489,7 @@ Une arme ayant une propriété spéciale doit posséder un bonus d’altération
 |}
 </center>
 
+====Propriétés ajoutant un bonus de +4====
 <center>
 {| CLASS="tablo autoalt toutgauche"
 |+ Propriétés ajoutant un bonus de +4
@@ -505,6 +517,7 @@ Une arme ayant une propriété spéciale doit posséder un bonus d’altération
 |}
 </center>
 
+====Propriétés ajoutant un bonus de +5====
 <center>
 {| CLASS="tablo autoalt toutgauche"
 |+ Propriétés ajoutant un bonus de +5
