@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Armes magiques
 Title: Les armes magiques
-LastModified: 2020-12-16 15:38
+LastModified: 2021-01-18 21:11
 Categories:
   - 'Arme magique'
   - 'Armes et équipement'
@@ -121,6 +121,9 @@ Une arme ayant une propriété spéciale doit posséder un bonus d’altération
 | ''[[mimétisme (propriété)|Mimétisme]]'' || <sup>A&E</sup> || — || Permet de modifier l’apparence de l’arme (dissimulant son aura) à volonté. || +4 000 po
 
 |- CLASS="premier"
+| ''[[sacro-sainte (propriété)|Sacro-sainte]]'' || <sup>CMy</sup> || Corps-à-corps || L'arme peut être utilisée comme [[Équipement daventurier#Symbole sacré|symbole sacré]] (ou maudit). Une fois par jour, peut passer la portée d'une [[Prêtre#CANALISATIONDENERGIE|canalisation d'énergie]] à 12m. Une utilisation de [[pouvoir mythique]] permet d'utiliser la canalisation d'énergie sans en dépenser d'utilisation quotidienne. || +5 000 po
+
+|- CLASS="premier"
 | ''[[sournoise (propriété)|Sournoise]]'' || <sup>MCA</sup> || Corps-à-corps || Une fois par jour, un porteur avec la capacité [[roublard#ATTAQUESOURNOISE|attaque sournoise]] peut désigner une créature à portée de corps-à-corps contre laquelle sa prochaine attaque du [[round]] infligera les dégâts supplémentaires de son attaque sournoise. || +5 000 po</sup>
 
 |- CLASS="premier"
@@ -192,6 +195,9 @@ Une arme ayant une propriété spéciale doit posséder un bonus d’altération
 
 |- CLASS="premier"
 | ''[[dégivrante (propriété)|Dégivrante]]'' || <sup>A&E</sup> || Corps-à-corps || L’arme dégèle les objets au contact. Inflige 1d6 points de dégâts supplémentaires aux créatures de sous-type froid. Confère un bonus de +2 aux [[valeurs de combat#JETDESAUVEGARDE|jets de sauvegarde]] du porteur contre les effets de froid. Immunise l’arme contre les dégâts de froid. || bonus de +1
+
+|- CLASS="premier"
+| ''[[dispersion (propriété)|Dispersion]]'' || <sup>CMy</sup> || Corps-à-corps || Sur un coup critique confirmé contre une créature mythique, celle-ci ne peut plus dépenser de [[pouvoir mythique]] pendant 1d4 [[round|rounds]]. Le porteur ne peut pas dépenser de pouvoir mythique. || bonus de +1
 
 |- CLASS="premier"
 | ''[[dissipation (propriété)|Dissipation]]'' || <sup>A&E</sup> || Corps-à-corps || Fonctionne comme une arme de ''[[Descriptions individuelles des propriétés spéciales des armes#Stockage de sort|stockage de sort]]'' qui peut uniquement stocker une ''[[dissipation de la magie]]''. Confère un bonus égal au bonus d’altération de l’arme aux tests de dissipation, aux [[arcanes#FRAPPEDEDISSIPATION|frappes de dissipation]] et aux [[pouvoirs de rage#DESTRUCTIONDESORT|destructions de sort]] et [[pouvoirs de rage#DESTRUCTIONDENCHANTEMENT|d’enchantement]]. || bonus de +1
@@ -341,6 +347,9 @@ Une arme ayant une propriété spéciale doit posséder un bonus d’altération
 | ''[[tueuse (propriété)|Tueuse]]''* || <sup>A&E</sup> || — || L’arme inflige 2d6 points de dégâts supplémentaires et voit son bonus d’altération augmenter de 2 contre un type de créature choisi à la fabrication. || bonus de +1
 
 |- CLASS="premier"
+| ''[[tueuse de mythiques (propriété)|Tueuse de mythiques]]'' || <sup>CMy</sup> || Corps-à-corps || Fonctionne comme la propriété ''[[tueuse (propriété)|tueuse]]'', mais contre les créatures de sous-type [[sous-type Mythique|mythique]]. || bonus de +1
+
+|- CLASS="premier"
 | ''[[vaillante (propriété)|Vaillante]]'' || <sup>A&E</sup> || Corps-à-corps || Lorsqu’un porteur [[chevalier]] [[chevalier#DEFI|défie]] une créature, il lui inflige 1d6 points de dégâts supplémentaire avec l’arme et elle confère lui un bonus de +2 aux tests de [[désarmement]] et de [[destruction]] effectuées contre cette créature, ainsi qu’un bonus de +4 au [[DMD]] contre ces mêmes manœuvres effectuées par cette dernière. || bonus de +1
 
 |- CLASS="premier"
@@ -429,6 +438,9 @@ Une arme ayant une propriété spéciale doit posséder un bonus d’altération
 | ''[[marquage (propriété)|Marquage]]''* || <sup>A&E</sup> || Distance, munitions || Marque les cibles pendant 1 [[round]] au touché. Les alliés qui attaquent les cibles marquées bénéficient d’un bonus de moral de +2 à leurs [[jet dattaque|jets d’attaque]] et [[valeurs de combat#DEGATS|de dégâts]] au corps à corps. || bonus de +2
 
 |- CLASS="premier"
+| ''[[moissonnage (propriété)|Moissonnage]]'' || <sup>CMy</sup> || Corps-à-corps || Sur un coup critique confirmé contre une créature mythique, celle-ci perd une utilisation de [[pouvoir mythique]] et en rend une au porteur si possible (si l'arme est un [[objet légendaire]], le porteur peut lui restaurer une utilisation de pouvoir légendaire à la place). || bonus de +2
+
+|- CLASS="premier"
 | ''[[munitions inépuisables (propriété)|Munitions inépuisables]]'' || <sup>A&E</sup> || Arcs, arbalètes || L’arme génère automatiquement une munition non-magique quand on tente de la charger. || bonus de +2
 
 |- CLASS="premier"
@@ -438,8 +450,10 @@ Une arme ayant une propriété spéciale doit posséder un bonus d’altération
 | ''[[placement (propriété)|Placement]]'' || <sup>A&E</sup> || Corps-à-corps || Permet d’effectuer un [[Actions diverses#PASDEPLACEMENT|pas de placement]] par une [[action rapide]] au touché, au prix d’un malus de -2 aux [[jet dattaque|jets d’attaque]] jusqu’au prochain tour du porteur. || bonus de +2
 
 |- CLASS="premier"
-| ''[[revigorante (propriété)|Revigorante]]'' || <sup>A&E</sup> || Corps-à-corps || Chaque fois que l’arme tue une créature ou la rend [[mourant|mourante]], dissipe la [[fatigué|fatigue]] du porteur, fait passer son [[épuisé|épuisement]] à de la [[fatigué|fatigue]], ou lui confère un bonus de moral de +2 aux [[jet dattaque|jets d’attaque]] et un bonus d’altération de +3m à ses vitesses de déplacement, jusqu’à la fin de son prochain tour. || bonus de +2
+| ''[[puissance (propriété)|Puissance]]'' || <sup>CMy</sup> || Corps-à-corps || Permet au porteur de dépenser une utilisation de [[pouvoir mythique]] pour augmenter le bonus d'altération de l'arme d'un montant égal à son [[grade]] mythique et lui permettre d'ignorer les [[RD]], pendant 1 [[round]]. || bonus de +2
 
+|- CLASS="premier"
+| ''[[revigorante (propriété)|Revigorante]]'' || <sup>A&E</sup> || Corps-à-corps || Chaque fois que l’arme tue une créature ou la rend [[mourant|mourante]], dissipe la [[fatigué|fatigue]] du porteur, fait passer son [[épuisé|épuisement]] à de la [[fatigué|fatigue]], ou lui confère un bonus de moral de +2 aux [[jet dattaque|jets d’attaque]] et un bonus d’altération de +3m à ses vitesses de déplacement, jusqu’à la fin de son prochain tour. || bonus de +2
 
 |- CLASS="premier"
 | ''[[sainte (propriété)|Sainte]]''* || <sup>A&E</sup> || — || L’arme est alignée au Bien pour ignorer les [[RD]] correspondantes. Inflige 2d6 points de dégâts supplémentaires aux créatures d’alignement Mauvais. Inflige un [[absorption dénergie (capacité)|niveau négatif]] aux porteurs d’alignement Mauvais. || bonus de +2
