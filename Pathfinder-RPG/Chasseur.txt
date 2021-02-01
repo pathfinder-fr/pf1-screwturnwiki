@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Chasseur
 Title: Chasseur
-LastModified: 2020-08-06 01:48
+LastModified: 2021-01-28 18:16
 Categories:
   - 'Classe'
   - 'Manuel des Classes avancées'
@@ -12,7 +12,7 @@ Categories:
 ''Les chasseurs sont des combattants des terres sauvages qui ont tissé des liens étroits avec de fidèles compagnons animaux. Ils ont développé des tactiques leur permettant de se battre aux côtés de leur compagnon en formant un redoutable duo. Ils connaissent une grande variété de sorts naturels et savent utiliser les capacités et les attributs des animaux pour s’améliorer et améliorer leur compagnon.''
 
 <div class="fright">'''''Voir aussi la [[liste des sorts de chasseur]].'''''<br/>
-'''''Voir aussi le [[Compagnon animal|Compagnon animal]].'''''<br/>
+'''''Voir aussi le [[Compagnons animaux|Compagnon animal]].'''''<br/>
 {s:PM0|chasseur}'''Voir les archétypes du chasseur'''&emsp;
 <ul ID="chasseur" CLASS="listecachée cadrebas">
   <li>[[Adepte de la vermine (Chasseur)|Adepte de la vermine]] (MCA)</li>
@@ -532,7 +532,7 @@ Le chasseur est formé au maniement de toutes les armes courantes et de guerre a
 |}
 </center></div></div>
 ====Sorts==== 
-Le chasseur lance des sorts divins tirés des [[Liste des sorts de druides|listes du druide]] et [[Liste des sorts de rôdeurs|du rôdeur]] (Voir la [[liste de sorts du chasseur]] qui les regroupent). La liste de sorts du chasseur comprend seulement les sorts de druide de niveau 6 et moins et les sorts de rôdeur. Si un sort apparaît à la fois sur la liste du druide et sur celle du rôdeur, le chasseur l’utilise au niveau le plus  bas.
+Le chasseur lance des sorts divins tirés des [[Liste des sorts de druides|listes du druide]] et [[Liste des sorts de rôdeurs|du rôdeur]] (Voir la [[liste des sorts de chasseur]] qui les regroupe). La liste de sorts du chasseur comprend seulement les sorts de druide de niveau 6 et moins et les sorts de rôdeur. Si un sort apparaît à la fois sur la liste du druide et sur celle du rôdeur, le chasseur l’utilise au niveau le plus  bas.
 * Prenons l’exemple de ''[[rapetissement danimal|rapetissement d’animal]]'' qui est un sort de druide de niveau 2 et un sort de rôdeur de niveau 3. Pour un chasseur, c’est un sort de niveau 2. De même, ''[[détection du poison]]'' est un sort de druide de niveau 0 et de rôdeur de niveau 2, c’est donc un sort de chasseur de niveau 0.
 
 Le chasseur peut lancer un sort connu sans le préparer à l’avance. Pour apprendre ou lancer un sort, le chasseur doit avoir une valeur de [[Sagesse]] d’au moins 10 + niveau du sort. Le [[DD]] du [[jet de sauvegarde]] contre un sort de chasseur est de 10 + niveau du sort + modificateur de Sagesse du chasseur.
@@ -552,6 +552,7 @@ Au niveau 5 puis tous les trois niveaux, le chasseur peut remplacer un sort qu�
 Contrairement au druide et au rôdeur, le chasseur n’a pas besoin de préparer ses sorts en avance, il peut lancer n’importe quel sort connu quand il le désire, à condition d’avoir encore une utilisation de sort du niveau requis disponible pour la journée.
 
 {s:Reference|ORAISONS}
+
 ====Oraisons==== 
 Les chasseurs apprennent un certain nombre d’oraisons (ou sorts de niveau 0), comme indiqué dans la table des sorts de chasseur connus ci-contre. Ils se lancent comme les autres sorts mais ne consomment pas d’emplacement de sort et sont donc réutilisables.
 
@@ -560,7 +561,7 @@ Un chasseur ne peut pas lancer des sorts d’un alignement opposé au sien ou à
 
 {s:Reference|COMPAGNONANIMAL}
 ====Compagnon animal (Ext)====
-Au niveau 1, le chasseur tisse un lien avec un [[compagnon animal]]. Il commence le jeu avec n’importe quel compagnon animal disponible pour les [[Druide|druides]]. C’est un fidèle camarade qui l’accompagne dans toutes ses aventures. 
+Au niveau 1, le chasseur tisse un lien avec un [[Compagnons animaux|compagnon animal]]. Il commence le jeu avec n’importe quel compagnon animal disponible pour les [[Druide|druides]]. C’est un fidèle camarade qui l’accompagne dans toutes ses aventures. 
 
 Ce pouvoir fonctionne comme le compagnon animal du druide (qui fait partie du pouvoir de druide [[Druide#PACTEAVECLANATURE|pacte avec la nature]]).
 
@@ -571,6 +572,7 @@ Le chasseur peut enseigner à son compagnon les tours de l’archétype de [[Tir
 Si le chasseur libère son compagnon de ses obligations ou si le compagnon périt, le chasseur peut s’attacher les services d’un autre en priant sans interruption lors d’une cérémonie de 24 heures dans l’environnement où vit le compagnon recherché. Tant que le compagnon animal du chasseur est mort, tous les animaux qu’il convoque avec ''[[convocation dalliés naturels|convocation d’alliés naturels]]'' restent avec lui une minute par niveau au lieu d’un round par niveau. Le chasseur ne peut avoir qu’un seul sort de convocation d’alliés naturels ainsi actif à la fois. S’il utilise de nouveau ce pouvoir, la convocation d’alliés naturels précédente prend fin immédiatement.
 
 {s:Reference|IMITATIONANIMALE}
+
 ====Imitation animale (Sur)====
 Au niveau 1, le chasseur peut prendre l’aspect d’un animal par une [[action rapide]]. Il doit choisir le type d’animal à imiter et gagne un bonus ou un pouvoir spécial basé sur ce type d’animal et sur son niveau de chasseur. Chaque jour, le chasseur peut utiliser ce pouvoir un nombre de minutes égal à son niveau. Il n’est pas obligé de dépenser toute la durée de l’aptitude en une seule fois mais il doit la découper en fragments d’une minute au minimum. Le chasseur ne peut imiter qu’un animal à la fois.
 
@@ -592,9 +594,10 @@ Si le compagnon animal du chasseur meurt, ce dernier peut appliquer l’imitatio
 
 {s:Reference|ENTRAINEMENTNATUREL}
 ====Entraînement naturel (Ext)====
-Le personnage considère ses niveaux de chasseur comme des niveaux de druide et de rôdeur quand il s’agit de remplir les conditions requises par des [[dons]], des [[traits]] et des options qui modifient ou améliorent le [[compagnon animal]].
+Le personnage considère ses niveaux de chasseur comme des niveaux de druide et de rôdeur quand il s’agit de remplir les conditions requises par des [[dons]], des [[traits]] et des options qui modifient ou améliorent le [[Compagnons animaux|compagnon animal]].
 
 {s:Reference|EMPATHIESAUVAGE}
+
 ====Empathie sauvage (Ext)====
 Le chasseur peut améliorer l’attitude initiale d’un animal. Ce pouvoir fonctionne comme un test de [[Diplomatie]] pour améliorer l’attitude d’une personne. Le chasseur lance 1d20 et ajoute son niveau de chasseur et son modificateur de [[Charisme]] pour déterminer le résultat du test d’empathie. Un animal domestique est le plus souvent indifférent tandis que les animaux sauvages sont généralement inamicaux.
 
