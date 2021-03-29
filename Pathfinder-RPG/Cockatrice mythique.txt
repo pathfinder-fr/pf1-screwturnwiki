@@ -1,19 +1,21 @@
 ---
 Name: Pathfinder-RPG.Cockatrice mythique
 Title: Cockatrice mythique
-LastModified: 2021-02-26 15:24
+LastModified: 2021-03-27 18:45
+Categories:
+  - 'Campagne mythique'
+  - 'Monstre mythique'
 ---
 <table class="Bestiaire">
 <tr>
 <td>
 <div class="BD">
-{s:BDtitre|Cockatrice mythique|FP 4/RM  1
-}
-{s:pucem|Créature magique||}
-{s:BDtexte|''Source : Campagnes mythiques p.''}
-{s:BDtexte|'''PX''' 1200}
+{s:BDtitre|Cockatrice mythique|FP 4/RMY 1}
+{s:pucem|Créature magique|Plaines|Tempéré}
+{s:BDtexte|''Source : Campagnes mythiques p.180''}
+{s:BDtexte|'''PX''' 1 200}
 {s:BDtexte|[[type Créature magique|Créature magique]] ([[sous-type mythique|mythique]]) de taille P, N}
-{s:BDtexte|'''Init''' +3 ; '''Sens''' vision dans le noir à 18 m, [[Vision nocturne (capacité)|vision nocturne]] ; [[Perception]] +11}
+{s:BDtexte|'''Init''' +3 ; '''Sens''' [[Vision dans le noir (capacité)|vision dans le noir]] à 18 m, [[Vision nocturne (capacité)|vision nocturne]] ; [[Perception]] +11}
 {s:BDtexte|'''Aura''' pétrification}
 {s:BDsoustitre|Défense}
 {s:BDtexte|'''CA''' 17, contact 16, pris au dépourvu 12 (+3 Dex, +2 esquive, +1 naturelle, +1 taille)}
@@ -33,9 +35,9 @@ LastModified: 2021-02-26 15:24
 {s:BDtexte|'''Organisation sociale''' solitaire, couple, vol (3-5) ou volée (6-12)}
 {s:BDtexte|'''Trésor''' aucun}
 {s:BDsoustitre|Pouvoirs spéciaux}
-{s:BDtexte|'''Aura de pétrification (Sur).''' Une créature qui se trouve à moins de 9 mètres d’une cockatrice mythique lors de son tour doit réussir un jet de sauvegarde pour ne pas être sujette à la pétrification comme si elle avait été mordue.}
-{s:BDtexte|'''Pétrification (Sur).''' La morsure de la cockatrice mythique provoque une calcification et un durcissement de la chair. Des morsures multiples peuvent entraîner la fossilisation d’une créature vivante. Chaque fois qu’une créature est blessée par la morsure d’une cockatrice, elle doit réussir un jet de Vigueur DD 13 pour ne pas subir un affaiblissement temporaire de 1d6 points de Dextérité tandis que sa peau et ses os se solidifient et durcissent. Si la valeur de Dextérité de la créature est réduite à 0 à cause de la morsure d’une cockatrice, elle se transforme immédiatement en pierre comme avec le sort pétrification. Une créature ainsi pétrifiée par une cockatrice peut tenter chaque jour un nouveau jet de Vigueur DD 12 : si elle réussit, la victime se libère de sa pétrification avec une valeur de Dextérité de 1 (et peut, après cela, récupérer normalement toute sa valeur de Dextérité grâce à des soins naturels ou magiques). Si elle rate trois de ces jets d’affilée, la pétrification devient permanente. Une créature à qui on a rendu sa forme charnelle par magie annule tous les affaiblissements de Dextérité résultant des morsures de la cockatrice mais ceux résultant d’autres sources. La cockatrice est immunisée contre son propre pouvoir de pétrification et celui des autres cockatrices mais les autres attaques de pétrification l’affectent normalement. Le DD du jet de sauvegarde est basé sur la Constitution.}
-{s:BDtexte|'''Plumage de pierre (Sur).''' Toutes les armes qui frappent la cockatrice mythique reçoivent 1d6 points de dégâts qui passent leur solidité. Toute créature attaquant la cockatrice avec des armes naturelles ou à mains nues reçoit 1d6 points de dégâts.}
+{s:BDtexte|'''Aura de pétrification (Sur).''' Une créature qui se trouve à moins de 9 mètres d’une cockatrice mythique lors de son tour doit réussir un [[jds|jet de sauvegarde]] pour ne pas être sujette à la ''[[pétrification]]'' comme si elle avait été mordue.}
+{s:BDtexte|'''Pétrification (Sur).''' La morsure de la cockatrice mythique provoque une calcification et un durcissement de la chair. Des morsures multiples peuvent entraîner la fossilisation d’une créature vivante. Chaque fois qu’une créature est blessée par la morsure d’une cockatrice, elle doit réussir un jet de [[Vigueur]] [[DD]] 13 pour ne pas subir un [[Affaiblissement temporaire (capacité)|affaiblissement temporaire]] de 1d6 points de [[Dextérité]] tandis que sa peau et ses os se solidifient et durcissent. Si la valeur de Dextérité de la créature est réduite à 0 à cause de la morsure d’une cockatrice, elle se transforme immédiatement en pierre comme avec le sort ''[[pétrification]]''. Une créature ainsi pétrifiée par une cockatrice peut tenter chaque jour un nouveau jet de Vigueur DD 12 : si elle réussit, la victime se libère de sa pétrification avec une valeur de Dextérité de 1 (et peut, après cela, récupérer normalement toute sa valeur de Dextérité grâce à des soins naturels ou magiques). Si elle rate trois de ces jets d’affilée, la pétrification devient permanente. Une créature à qui on a rendu sa forme charnelle par magie annule tous les affaiblissements de Dextérité résultant des morsures de la cockatrice mais ceux résultant d’autres sources. La cockatrice est immunisée contre son propre pouvoir de pétrification et celui des autres cockatrices mais les autres attaques de pétrification l’affectent normalement. Le DD du jet de sauvegarde est basé sur la Constitution.}
+{s:BDtexte|'''Plumage de pierre (Sur).''' Toutes les armes qui frappent la cockatrice mythique reçoivent 1d6 points de dégâts qui passent leur [[solidité]]. Toute créature attaquant la cockatrice avec des armes naturelles ou à mains nues reçoit 1d6 points de dégâts.}
 </div>
 </td>
 <td>
@@ -43,7 +45,7 @@ LastModified: 2021-02-26 15:24
 ''Cette créature est une combinaison perturbante entre le poulet et le lézard et ses griffes, son bec et son caroncule semblent être constitués de pierre.''
 
 
-La cockatrice mythique est imprégnée de pierre. Peut-être estce lié à quelque aspect de son processus de vieillissement ou au fait que son corps a absorbé les minéraux d’innombrables ennemis de pierre ou que son toilettage incessant a peu à peu pétrifié sa propre chair. Encore plus agressive et territoriale que ses soeurs non-mythiques, la cockatrice mythique attaque aveuglément tout ce qui pénètre sur son territoire.
+La cockatrice mythique est imprégnée de pierre. Peut-être est-ce lié à quelque aspect de son processus de vieillissement ou au fait que son corps a absorbé les minéraux d’innombrables ennemis de pierre ou que son toilettage incessant a peu à peu pétrifié sa propre chair. Encore plus agressive et territoriale que ses [[Cockatrice|sœurs non-mythiques]], la cockatrice mythique attaque aveuglément tout ce qui pénètre sur son territoire.
 </div>
 </td>
 </tr>
