@@ -1,31 +1,22 @@
 ---
 Name: Pathfinder-RPG.Chaman
-Title: Chaman
-LastModified: 2019-08-30 03:28
+Title: Le chaman
+LastModified: 2021-07-15 17:58
 Categories:
   - 'Classe'
-  - 'Manuel des Classes avancées'
   - 'Règles officielles'
+  - 'Src Manuel des joueurs - Classes avancées'
 ---
 {s:Menuclasseshybrides}
-{s:mca}<div class="fright">'''''Voir aussi les [[Esprits (chaman)|Esprits des chamans]].'''''<br/>'''''Voir aussi l'[[Esprit Animal]] du Chaman.'''''<br/>'''''Voir aussi la [[liste des sorts de chaman]].'''''<br/>
+<div class="fright">'''''Voir aussi les [[Esprits (chaman)|esprits]] et l'[[Esprit animal|esprit animal]].'''''  
+'''''Voir aussi les [[Maléfices (chaman)|maléfices]].'''''  
+'''''Voir aussi la [[Liste des sorts de chaman|liste des sorts de chaman]].'''''  
 {s:PM0|chaman}'''Voir les archétypes du chaman'''&emsp;
-<ul ID="chaman" CLASS="listecachée cadrebas">
-  <li>[[Animiste (Chaman)|l'Animiste]] (MCA)</li>
-  <li>[[Chaman non assermenté (Chaman)|le Chamane non-assermenté]] (MCA)</li>
-  <li>[[Chaman possédé (Chaman)|le Chamane possédé]] (MCA)</li>
-  <li>[[Gardien spirituel (Chaman)|Le Gardien spirituel]] (MCA)</li>
-  <li>[[Guérisseur (Chaman)|le Guérisseur]] (MCA)</li>
-  <li>[[Locuteur du passé (Chaman)|le Locuteur du passé]] (MCA)</li>
-  <li>[[Visionnaire (Chaman)|le Visionnaire]] (MCA)</li></ul></div>
+  <li ID="chaman" CLASS="listecachée" STYLE="display:none">{s:Menuarchétypechaman}</li>
+</div>{s:mca}''Certains héros parlent aux dieux ou batifolent avec des muses issues d’autres mondes mais le chaman communique avec les esprits du monde et les énergies qui habitent tout être vivant. Ces aventuriers divins utilisent leur pouvoir pour façonner le monde et développer l’influence de leur protecteur spirituel. Ils entretiennent des liens étroits avec les esprits de la nature. Ils nouent des relations privilégiées avec des esprits particuliers et, quand leur puissance se développe, ils apprennent à en appeler d’autres en cas de besoin.''
 
-
-''Certains héros parlent aux dieux ou batifolent avec des muses issues d’autres mondes mais le chaman communique avec les esprits du monde et les énergies qui habitent tout être vivant. Ces aventuriers divins utilisent leur pouvoir pour façonner le monde et développer l’influence de leur protecteur spirituel. Ils entretiennent des liens étroits avec les esprits de la nature. Ils nouent des relations privilégiées avec des esprits particuliers et, quand leur puissance se développe, ils apprennent à en appeler d’autres en cas de besoin.''
-
-{s:Reference|TABLECHAMAN}
-<center>
-{| CLASS="tablo"
-|+ Le chaman
+{| CLASS="tablo centre"
+|+ {s:Reference|TABLECHAMAN}Le chaman
 |- CLASS="titre"
 | ROWSPAN="2" | Niveau
 | ROWSPAN="2" | BBA
@@ -102,7 +93,7 @@ Categories:
 | +1
 | +1
 | +4
-| CLASS="gauche" | [[Chaman#MALEFICE|Maléfice]], [[Chaman#ESPRITERRANT|Esprit errant]] 
+| CLASS="gauche" | [[Chaman#ESPRITERRANT|Esprit errant]], [[Chaman#MALEFICE|maléfice]]
 | 4
 | 3
 | 2
@@ -170,7 +161,7 @@ Categories:
 | +2
 | +2
 | +6
-| CLASS="gauche" | [[Chaman#MALEFICE|Maléfice]], [[Chaman#ESPRITSUPERIEUR|esprit supérieur]]
+| CLASS="gauche" | [[Chaman#ESPRITSUPERIEUR|Esprit supérieur]], [[Chaman#MALEFICE|maléfice]]
 | 4
 | 4
 | 3
@@ -238,7 +229,7 @@ Categories:
 | +4
 | +4
 | +8
-| CLASS="gauche" | [[Chaman#MALEFICE|Maléfice]], [[Chaman#ESPRITERRANT|Esprit errant supérieur]]
+| CLASS="gauche" | [[Chaman#ESPRITERRANT|Esprit errant supérieur]], [[Chaman#MALEFICE|maléfice]]
 | 4
 | 4
 | 4
@@ -306,7 +297,7 @@ Categories:
 | +5
 | +5
 | +10
-| CLASS="gauche" | [[Chaman#MALEFICE|Maléfice]], [[Chaman#ESPRIT|esprit suprême]]
+| CLASS="gauche" | [[Chaman#ESPRIT|Esprit suprême]], [[Chaman#MALEFICE|Maléfice]]
 | 4
 | 4
 | 4
@@ -374,7 +365,7 @@ Categories:
 | +6
 | +6
 | +12
-| CLASS="gauche" | [[Chaman#MALEFICE|Maléfice]] , [[Chaman#MANIFESTATION|manifestation]],  [[Chaman#ESPRITERRANT|esprit errant suprême]]
+| CLASS="gauche" | [[Chaman#ESPRITERRANT|Esprit errant suprême]], [[Chaman#MALEFICE|Maléfice]], [[Chaman#MANIFESTATION|manifestation]]
 | 4
 | 4
 | 4
@@ -386,15 +377,16 @@ Categories:
 | 4
 | 4
 |}
-</center>
 
 '''Rôle.''' Les chamans sont de puissants lanceurs de sorts, capables d’utiliser la magie divine et la puissance de leurs esprits pour aider leurs alliés et détruire leurs ennemis. Ils ne sont pas d’aussi bons guérisseurs que les prêtres mais ils peuvent remplir ce rôle si besoin.
+
+'''Classes mères.''' [[Oracle]] et [[sorcière]].
 
 '''Alignement.''' Tous.
 
 '''Dé de vie.''' d8.
 
-'''Classes mères.''' [[Oracle]] et [[sorcière]].
+'''Argent de départ.''' 3d6 x 10 po (moyenne 105 po).
 
 ===Compétences de classe===
 Voici les compétences de classe du chaman : [[Art de la magie]] (Int), [[Artisanat]] (Int), [[Connaissances]] (nature) (Int),  [[Connaissances]] (plans) (Int), [[Connaissances]] (religion) (Int), [[Diplomatie]] (Cha), [[Dressage]] (Cha), [[Équitation]] (Dex), [[Premiers secours]] (Sag), [[Profession]] (Sag), [[Survie]] (Sag), [[Vol]] (Dex) 
@@ -426,7 +418,6 @@ Chaque jour, le chaman peut préparer un certain nombre d’oraisons (ou sorts d
 {s:Reference|ESPRIT}{s:Reference|ESPRITSUPERIEUR}{s:Reference|ESPRITSUPREME}
 ====Esprit (Sur)====
 Le chaman tisse un lien mystique avec les esprits de son monde. Il forge une relation durable avec l’un d’eux qui lui accorde des pouvoirs et définit une grande partie de ses aptitudes de classe.
-
 * Au niveau 1, le chaman gagne le pouvoir de l’esprit qu’il a choisi. Il ajoute les sorts de cet esprit à la liste de sorts qu’il lance grâce à sa magie des esprits. Il ajoute également les maléfices propres à cet esprit à la liste de maléfices qu’il lance grâce à l’aptitude de classe de maléfice et de maléfice errant. 
 * Au niveau 8, le chaman gagne les pouvoirs liés à la version supérieure de l’esprit qu’il a choisi. 
 * Au niveau 16, il gagne les pouvoirs de la version suprême de son esprit. 
@@ -435,7 +426,7 @@ Si le chaman prend des niveaux dans une autre classe donnant accès à un mystè
 
 Si le MJ accepte, le chaman peut modifier son ancien esprit ou mystère pour les mettre en conformité.
 
-Voir les [[Esprits (chaman)|Esprits du Chaman]]
+Voir les [[Esprits (chaman)|Esprits du chaman]].
 
 {s:Reference|ESPRITANIMAL}
 ====Esprit animal (Ext)==== 
@@ -455,7 +446,7 @@ Sauf indication contraire, le chaman ne peut choisir un même maléfice plus d�
 
 L’utilisation du maléfice est une [[action simple]] qui ne provoque pas d’[[AO|attaque d’opportunité]], sauf indication contraire. Le [[DD]] du [[jet de sauvegarde]] pour résister au maléfice est de 10 + 1/2 [[niveau]] de chaman + son modificateur de [[Sagesse]].
 
-Voir les [[Maléfices (chaman)|Maléfices du chaman]]
+Voir les [[Maléfices (chaman)|Maléfices du chaman]].
 
 {s:Reference|ESPRITERRANT}
 ====Esprit errant (Sur)====

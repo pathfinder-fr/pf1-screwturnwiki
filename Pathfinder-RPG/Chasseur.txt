@@ -1,37 +1,21 @@
 ---
 Name: Pathfinder-RPG.Chasseur
-Title: Chasseur
-LastModified: 2021-01-28 18:16
+Title: Le chasseur
+LastModified: 2021-07-15 17:59
 Categories:
   - 'Classe'
-  - 'Manuel des Classes avancées'
   - 'Règles officielles'
+  - 'Src Manuel des joueurs - Classes avancées'
 ---
 {s:menuclasseshybrides}
-{s:mca}
-''Les chasseurs sont des combattants des terres sauvages qui ont tissé des liens étroits avec de fidèles compagnons animaux. Ils ont développé des tactiques leur permettant de se battre aux côtés de leur compagnon en formant un redoutable duo. Ils connaissent une grande variété de sorts naturels et savent utiliser les capacités et les attributs des animaux pour s’améliorer et améliorer leur compagnon.''
-
-<div class="fright">'''''Voir aussi la [[liste des sorts de chasseur]].'''''<br/>
-'''''Voir aussi le [[Compagnons animaux|Compagnon animal]].'''''<br/>
+<div class="fright">'''''Voir aussi le [[Compagnons animaux|profil]] et la [[Liste des compagnons animaux|liste]] des compagnons animaux.'''''  
+'''''Voir aussi la [[liste des sorts de chasseur]].'''''  
 {s:PM0|chasseur}'''Voir les archétypes du chasseur'''&emsp;
-<ul ID="chasseur" CLASS="listecachée cadrebas">
-  <li>[[Adepte de la vermine (Chasseur)|Adepte de la vermine]] (MCA)</li>
-  <li>[[Chasseur au compagnon primitif (Chasseur)|Chasseur au compagnon primitif]] (MCA)</li>
-  <li>[[Chasseur divin (Chasseur)|Chasseur divin]] (MCA)</li>
-  <li>[[Chasseur sauvage (Chasseur)|Chasseur sauvage]] (MCA)</li>
-  <li>[[chef de meute (Chasseur)|Chef de meute]] (MCA)</li>
-  <li>[[Déracineur (chasseur)|Déracineur]] (MCA)</li>
-  <li>[[Harceleur-scarabée (chasseur)|Harceleur-scarabée]] (MCA)</li>
-</ul></div>
+  <li ID="chasseur" CLASS="listecachée" STYLE="display:none">{s:Menuarchétypechasseur}</li>
+</div>{s:mca}''Les chasseurs sont des combattants des terres sauvages qui ont tissé des liens étroits avec de fidèles compagnons animaux. Ils ont développé des tactiques leur permettant de se battre aux côtés de leur compagnon en formant un redoutable duo. Ils connaissent une grande variété de sorts naturels et savent utiliser les capacités et les attributs des animaux pour s’améliorer et améliorer leur compagnon.''
 
-
-
-
-
-{s:Reference|TABLECHASSEUR}
-<center>
-{| CLASS="tablo"
-|+ Le Chasseur
+{| CLASS="tablo centre"
+|+ {s:Reference|TABLECHASSEUR}Le chasseur
 |- CLASS="titre"
 | ROWSPAN="2" | Niveau
 | ROWSPAN="2" | BBA
@@ -54,7 +38,7 @@ Categories:
 | +2
 | +2
 | +0
-| CLASS="gauche" | [[Chasseur#COMPAGNONANIMAL|Compagnon animal]], [[Chasseur#IMITATIONANIMALE|Imitation animale]], [[Chasseur#ENTRAINEMENTNATUREL|entrainement naturel]],<br/>[[Chasseur#ORAISONS|Oraisons]], [[Chasseur#EMPATHIESAUVAGE|empathie sauvage]]
+| CLASS="gauche" | [[Chasseur#COMPAGNONANIMAL|Compagnon animal]], [[Chasseur#EMPATHIESAUVAGE|empathie sauvage]], [[Chasseur#ENTRAINEMENTNATUREL|entrainement naturel]], [[Chasseur#IMITATIONANIMALE|imitation animale]], [[Chasseur#ORAISONS|oraisons]]
 | 1
 | -
 | -
@@ -80,7 +64,7 @@ Categories:
 | +3
 | +3
 | +1
-| CLASS="gauche" | [[Chasseur#TACTIQUEDUCHASSEUR|Tactique du chasseur]], [[Chasseur#DONEQUIPE|Don de travail en équipe]]
+| CLASS="gauche" | [[Chasseur#DONEQUIPE|Don de travail en équipe]], [[Chasseur#TACTIQUEDUCHASSEUR|tactique du chasseur]]
 | 3
 | -
 | -
@@ -93,7 +77,7 @@ Categories:
 | +4
 | +4
 | +1
-| CLASS="gauche" |  [[Chasseur#LIENEMPATHIQUERENFORCE|Lien empathique renforcé]]
+| CLASS="gauche" | [[Chasseur#LIENEMPATHIQUERENFORCE|Lien empathique renforcé]]
 | 3
 | 1
 | -
@@ -145,7 +129,7 @@ Categories:
 | +6
 | +6
 | +2
-| CLASS="gauche" | [[Chasseur#DEUXIEMEIMITATIONANIMALE|2ème imitation animale]], [[Chasseur#PISTAGEACCELERE|pistage accéléré]]
+| CLASS="gauche" | 2ème [[Chasseur#DEUXIEMEIMITATIONANIMALE|Imitation animale]], [[Chasseur#PISTAGEACCELERE|pistage accéléré]]
 | 4
 | 4
 | 2
@@ -309,16 +293,17 @@ Categories:
 | 5
 | 5
 |}
-</center>
 
 {s:ImageDroite|Illustrations/PNJ/Adowyn.jpg|30%}
 '''Rôle.''' Les chasseurs adaptent leurs tactiques à de nombreux adversaires et adorent leur compagnon animal qui bénéficie d’un entraînement très poussé. À eux deux, le chasseur et son compagnon sont capables de réagir très vite face au danger et sont donc d’excellents éclaireurs, explorateurs et saboteurs.
+
+'''Classes mères.''' [[Druide]] et [[rôdeur]].
 
 '''Alignement.''' N’importe quel alignement comportant au moins une composante Neutre.
 
 '''Dé de vie.''' d8.
 
-'''Classes mères.''' [[Druide]] et [[rôdeur]].
+'''Argent de départ.''' 4d6 x 10 po (moyenne 140 po).
 
 ===Compétences de classe===
 Voici les compétences de classe du chasseur : [[Art de la magie]] (Int), [[Artisanat]] (Int), [[Connaissances]] (exploration souterraine) (Int), [[Connaissances]] (géographie) (Int), [[Connaissances]] (nature) (Int), [[Discrétion]] (Dex), [[Dressage]] (Cha), [[Équitation]] (Dex), [[Escalade]] (For), [[Intimidation]] (Cha), [[Natation]] (For), [[Perception]] (Sag), [[Premiers secours]] (Sag), [[Profession]] (Sag) et [[Survie]] (Sag).
@@ -333,204 +318,55 @@ Le chasseur est formé au maniement de toutes les armes courantes et de guerre a
 
 <div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
 <div style="border: 1px solid #4b3124; padding: 4px">
-{s:Reference|SORTSDECHASSEURCONNUS}
-<center>
-{| CLASS="tablo"
-|+ Sorts de chasseur connus
+{| CLASS="tablo centre autoalt"
+|+ {s:Reference|SORTSDECHASSEURCONNUS}Sorts de chasseur connus
 |- CLASS="titre"
 | ROWSPAN="2" | Niveau
 | COLSPAN="10" CLASS="avecsoustitre gauche" | Sorts connus
 |- CLASS="soustitre"
-| 0
-| 1er
-| 2e
-| 3e
-| 4e
-| 5e
-| 6e
+| 0 || 1er || 2e || 3e || 4e || 5e || 6e
 |- CLASS="premier"
-| 1
-| 4
-| 2
-| -
-| -
-| -
-| -
-| -
-|- CLASS="alt"
-| 2
-| 5
-| 3
-| -
-| -
-| -
-| -
-| -
+| 1 || 4 || 2 || - || - || - || - || -
 |-
-| 3
-| 6
-| 4
-| -
-| -
-| -
-| -
-| -
-|- CLASS="alt"
-| 4
-| 6
-| 4
-| 2
-| -
-| -
-| -
-| -
+| 2 || 5 || 3 || - || - || - || - || -
 |-
-| 5
-| 6
-| 4
-| 3
-| -
-| -
-| -
-| -
-|- CLASS="alt"
-| 6
-| 6
-| 4
-| 4
-| -
-| -
-| -
-| -
+| 3 || 6 || 4 || - || - || - || - || -
 |-
-| 7
-| 6
-| 5
-| 4
-| 2
-| -
-| -
-| -
-|- CLASS="alt"
-| 8
-| 6
-| 5
-| 4
-| 3
-| -
-| -
-| -
+| 4 || 6 || 4 || 2 || - || - || - || -
 |-
-| 9
-| 6
-| 5
-| 4
-| 4
-| -
-| -
-| -
-|- CLASS="alt"
-| 10
-| 6
-| 5
-| 5
-| 4
-| 2
-| -
-| -
+| 5 || 6 || 4 || 3 || - || - || - || -
 |-
-| 11
-| 6
-| 6
-| 5
-| 4
-| 3
-| -
-| -
-|- CLASS="alt"
-| 12
-| 6
-| 6
-| 5
-| 4
-| 4
-| -
-| -
+| 6 || 6 || 4 || 4 || - || - || - || -
 |-
-| 13
-| 6
-| 6
-| 5
-| 5
-| 4
-| 2
-| -
-|- CLASS="alt"
-| 14
-| 6
-| 6
-| 6
-| 5
-| 4
-| 3
-| -
+| 7 || 6 || 5 || 4 || 2 || - || - || -
 |-
-| 15
-| 6
-| 6
-| 6
-| 5
-| 4
-| 4
-| -
+| 8 || 6 || 5 || 4 || 3 || - || - || -
 |-
-|- CLASS="alt"
-| 16
-| 6
-| 6
-| 6
-| 5
-| 5
-| 4
-| 2
+| 9 || 6 || 5 || 4 || 4 || - || - || -
 |-
-| 17
-| 6
-| 6
-| 6
-| 6
-| 5
-| 4
-| 3
-|- CLASS="alt"
-| 18
-| 6
-| 6
-| 6
-| 6
-| 5
-| 4
-| 4
+| 10 || 6 || 5 || 5 || 4 || 2 || - || -
 |-
-| 19
-| 6
-| 6
-| 6
-| 6
-| 5
-| 5
-| 4
-|- CLASS="alt"
-| 20
-| 6
-| 6
-| 6
-| 6
-| 6
-| 5
-| 5
+| 11 || 6 || 6 || 5 || 4 || 3 || - || -
+|-
+| 12 || 6 || 6 || 5 || 4 || 4 || - || -
+|-
+| 13 || 6 || 6 || 5 || 5 || 4 || 2 || -
+|-
+| 14 || 6 || 6 || 6 || 5 || 4 || 3 || -
+|-
+| 15 || 6 || 6 || 6 || 5 || 4 || 4 || -
+|-
+| 16 || 6 || 6 || 6 || 5 || 5 || 4 || 2
+|-
+| 17 || 6 || 6 || 6 || 6 || 5 || 4 || 3
+|-
+| 18 || 6 || 6 || 6 || 6 || 5 || 4 || 4
+|-
+| 19 || 6 || 6 || 6 || 6 || 5 || 5 || 4
+|-
+| 20 || 6 || 6 || 6 || 6 || 6 || 5 || 5
 |}
-</center></div></div>
+</div></div>
 ====Sorts==== 
 Le chasseur lance des sorts divins tirés des [[Liste des sorts de druides|listes du druide]] et [[Liste des sorts de rôdeurs|du rôdeur]] (Voir la [[liste des sorts de chasseur]] qui les regroupe). La liste de sorts du chasseur comprend seulement les sorts de druide de niveau 6 et moins et les sorts de rôdeur. Si un sort apparaît à la fois sur la liste du druide et sur celle du rôdeur, le chasseur l’utilise au niveau le plus  bas.
 * Prenons l’exemple de ''[[rapetissement danimal|rapetissement d’animal]]'' qui est un sort de druide de niveau 2 et un sort de rôdeur de niveau 3. Pour un chasseur, c’est un sort de niveau 2. De même, ''[[détection du poison]]'' est un sort de druide de niveau 0 et de rôdeur de niveau 2, c’est donc un sort de chasseur de niveau 0.
@@ -552,7 +388,6 @@ Au niveau 5 puis tous les trois niveaux, le chasseur peut remplacer un sort qu�
 Contrairement au druide et au rôdeur, le chasseur n’a pas besoin de préparer ses sorts en avance, il peut lancer n’importe quel sort connu quand il le désire, à condition d’avoir encore une utilisation de sort du niveau requis disponible pour la journée.
 
 {s:Reference|ORAISONS}
-
 ====Oraisons==== 
 Les chasseurs apprennent un certain nombre d’oraisons (ou sorts de niveau 0), comme indiqué dans la table des sorts de chasseur connus ci-contre. Ils se lancent comme les autres sorts mais ne consomment pas d’emplacement de sort et sont donc réutilisables.
 
@@ -572,7 +407,6 @@ Le chasseur peut enseigner à son compagnon les tours de l’archétype de [[Tir
 Si le chasseur libère son compagnon de ses obligations ou si le compagnon périt, le chasseur peut s’attacher les services d’un autre en priant sans interruption lors d’une cérémonie de 24 heures dans l’environnement où vit le compagnon recherché. Tant que le compagnon animal du chasseur est mort, tous les animaux qu’il convoque avec ''[[convocation dalliés naturels|convocation d’alliés naturels]]'' restent avec lui une minute par niveau au lieu d’un round par niveau. Le chasseur ne peut avoir qu’un seul sort de convocation d’alliés naturels ainsi actif à la fois. S’il utilise de nouveau ce pouvoir, la convocation d’alliés naturels précédente prend fin immédiatement.
 
 {s:Reference|IMITATIONANIMALE}
-
 ====Imitation animale (Sur)====
 Au niveau 1, le chasseur peut prendre l’aspect d’un animal par une [[action rapide]]. Il doit choisir le type d’animal à imiter et gagne un bonus ou un pouvoir spécial basé sur ce type d’animal et sur son niveau de chasseur. Chaque jour, le chasseur peut utiliser ce pouvoir un nombre de minutes égal à son niveau. Il n’est pas obligé de dépenser toute la durée de l’aptitude en une seule fois mais il doit la découper en fragments d’une minute au minimum. Le chasseur ne peut imiter qu’un animal à la fois.
 
@@ -597,7 +431,6 @@ Si le compagnon animal du chasseur meurt, ce dernier peut appliquer l’imitatio
 Le personnage considère ses niveaux de chasseur comme des niveaux de druide et de rôdeur quand il s’agit de remplir les conditions requises par des [[dons]], des [[traits]] et des options qui modifient ou améliorent le [[Compagnons animaux|compagnon animal]].
 
 {s:Reference|EMPATHIESAUVAGE}
-
 ====Empathie sauvage (Ext)====
 Le chasseur peut améliorer l’attitude initiale d’un animal. Ce pouvoir fonctionne comme un test de [[Diplomatie]] pour améliorer l’attitude d’une personne. Le chasseur lance 1d20 et ajoute son niveau de chasseur et son modificateur de [[Charisme]] pour déterminer le résultat du test d’empathie. Un animal domestique est le plus souvent indifférent tandis que les animaux sauvages sont généralement inamicaux.
 

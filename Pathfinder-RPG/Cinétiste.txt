@@ -1,26 +1,20 @@
 ---
 Name: Pathfinder-RPG.Cinétiste
-Title: Le Cinétiste
-LastModified: 2021-03-16 16:42
+Title: Le cinétiste
+LastModified: 2021-07-15 18:03
 Categories:
-  - 'Aventures occultes'
   - 'Classe'
   - 'Règles officielles'
+  - 'Src Aventures occultes'
 ---
 {s:Menuclassesoccultes}
-<div class="fright">'''''Voir aussi les [[Éléments|éléments]] du cinétiste.''''' <br/>
-'''''Voir aussi les [[talents sauvages]] du cinétiste.''''' <br/>
-{s:PM0|cinétistes}'''Voir les archétypes du cinétiste'''&emsp;
-<ul ID="cinétistes" CLASS="listecachée cadrebas">
-  <li>[[Âme Invincible (cinétiste)|Âme Invincible (AO)]]</li>
-  <li>[[Annihilateur élémentaire (cinétiste)|Annihilateur Elémentaire]] (AO)</li>
-  <li>[[Ascète élémentaire (cinétiste)|Ascète Elémentaire]] (AO)</li>
-  <li>[[Chirurgien Cinétique (cinétiste)|Chirurgien Cinétique]] (AO)</li>
-  <li>[[Cinétiste du Sang (cinétiste)|Cinétiste du Sang]] (AO)</li>
-</ul></div>{s:AO}''Les cinétistes sont des conduits vivants d’énergie et de matière élémentaires qui manipulent leur environnement en puisant dans leurs propres réserves physiques. Leurs pouvoirs se révèlent souvent à eux lors d’une expérience particulièrement violente ou traumatisante, événement lors duquel ils se déclenchent spontanément. Leurs pouvoirs sont rarement le fruit d’un héritage et les mentors qui acceptent de les guider sont plutôt rares. Ils doivent donc étudier en profondeur les mystères qui les habitent pour apprendre à contrôler leurs dons.''
+<div class="fright">'''''Voir aussi les [[Éléments|éléments de cinétiste]].'''''  
+'''''Voir aussi les [[talents sauvages]].'''''  
+{s:PM0|cinétiste}'''Voir les archétypes du cinétiste'''&emsp;
+  <li ID="cinétiste" CLASS="listecachée" STYLE="display:none">{s:Menuarchétypecinétiste}</li>
+</div>{s:AO}''Les cinétistes sont des conduits vivants d’énergie et de matière élémentaires qui manipulent leur environnement en puisant dans leurs propres réserves physiques. Leurs pouvoirs se révèlent souvent à eux lors d’une expérience particulièrement violente ou traumatisante, événement lors duquel ils se déclenchent spontanément. Leurs pouvoirs sont rarement le fruit d’un héritage et les mentors qui acceptent de les guider sont plutôt rares. Ils doivent donc étudier en profondeur les mystères qui les habitent pour apprendre à contrôler leurs dons.''
 
-<center>
-{| CLASS="tablo"
+{| CLASS="tablo centre autoalt"
 |+ Le cinétiste
 |- CLASS="titre"
 | Niveau
@@ -36,7 +30,7 @@ Categories:
 | +2
 | +0
 | CLASS="gauche" | [[Cinétiste#ACCUMULATIONDEPOUVOIR|Accumulation de pouvoir]], [[Cinétiste#BRÛLURE|brûlure]], [[Cinétiste#ÉLÉMENTDEPRÉDILECTION|élément de prédilection]], [[Cinétiste#EXPLOSIONCINÉTIQUE|explosion cinétique]], [[Cinétiste#INJECTION|injection]]
-|- CLASS="alt"
+|-
 | 2
 | +1
 | +3
@@ -50,7 +44,7 @@ Categories:
 | +3
 | +1
 | CLASS="gauche" | [[Cinétiste#BOUILLONNEMENTÉLÉMENTAIRE|Bouillonnement élémentaire]] +1, [[Cinétiste#INJECTION|injection]]
-|- CLASS="alt"
+|-
 | 4
 | +3
 | +4
@@ -64,7 +58,7 @@ Categories:
 | +4
 | +1
 | CLASS="gauche" | [[Cinétiste#INJECTION|injection]], [[Cinétiste#SPÉCIALISTEDESINJECTIONS|spécialiste des injections]], [[Cinétiste#MÉTACINÉTIQUE|métacinétique]] (extension)
-|- CLASS="alt"
+|-
 | 6
 | +4
 | +5
@@ -78,7 +72,7 @@ Categories:
 | +5
 | +2
 | CLASS="gauche" | [[Cinétiste#EXTENSIONÉLÉMENTAIRE|Extension élémentaire]]
-|- CLASS="alt"
+|-
 | 8
 | +6/+1
 | +6
@@ -92,7 +86,7 @@ Categories:
 | +6
 | +3
 | CLASS="gauche" | [[Cinétiste#BOUILLONNEMENTÉLÉMENTAIRE|Bouillonnement élémentaire]] +3, [[Cinétiste#INJECTION|injection]], [[Cinétiste#MÉTACINÉTIQUE|métacinétique]] (quintessence)
-|- CLASS="alt"
+|-
 | 10
 | +7/+2
 | +7
@@ -106,7 +100,7 @@ Categories:
 | +7
 | +3
 | CLASS="gauche" | [[Cinétiste#INJECTION|injection]], [[Cinétiste#RÉSERVEINTERNE|réserve interne]] 2, [[Cinétiste#SPÉCIALISTEDESINJECTIONS|spécialiste des injections]] 3, [[Cinétiste#SURCHARGE|surcharge]]
-|- CLASS="alt"
+|-
 | 12
 | +9/+4
 | +8
@@ -120,7 +114,7 @@ Categories:
 | +8
 | +4
 | CLASS="gauche" | [[Cinétiste#INJECTION|injection]], [[Cinétiste#MÉTACINÉTIQUE|métacinétique]] (accélération)
-|- CLASS="alt"
+|-
 | 14
 | +10/+5
 | +9
@@ -134,7 +128,7 @@ Categories:
 | +9
 | +5
 | CLASS="gauche" | [[Cinétiste#BOUILLONNEMENTÉLÉMENTAIRE|Bouillonnement élémentaire]] +5, [[Cinétiste#EXTENSIONÉLÉMENTAIRE|extension élémentaire]]
-|- CLASS="alt"
+|-
 | 16
 | +12/+7/+2
 | +10
@@ -148,7 +142,7 @@ Categories:
 | +10
 | +5
 | CLASS="gauche" | [[Cinétiste#INJECTION|injection]], [[Cinétiste#MÉTACINÉTIQUE|métacinétique]] (double), [[Cinétiste#SPÉCIALISTEDESINJECTIONS|spécialiste des injections]] 5
-|- CLASS="alt"
+|-
 | 18
 | +13/+8/+3
 | +11
@@ -162,7 +156,7 @@ Categories:
 | +11
 | +6
 | CLASS="gauche" | [[Cinétiste#INJECTION|injection]], [[Cinétiste#MAITREDELAMÉTACINÉTIQUE|maître de la métacinétique]]
-|- CLASS="alt"
+|-
 | 20
 | +15/+10/+5
 | +12
@@ -170,7 +164,6 @@ Categories:
 | +6
 | CLASS="gauche" | [[Cinétiste#OMNICINÉTIQUE|Omnicinétique]], [[Cinétiste#SPÉCIALISTEDESINJECTIONS|spécialiste des injections]] 6, [[Cinétiste#TALENTSAUVAGEUTILITAIRE|talent sauvage utilitaire]]
 |}
-</center>
 
 '''Rôle.''' Les cinétistes utilisent généralement leurs pouvoirs pour agresser leurs ennemis à distance mais, étant donné la façon dont leurs talents se développent, ils peuvent canaliser leurs aptitudes cinétiques dans nombre de situations différentes. Les cinétistes sont souvent différents des membres de leur famille et de leurs amis et décident donc souvent de voler de leurs propres ailes en partant seul ou accompagnés d’autres individus dotés eux aussi de pouvoirs extraordinaires.
 
@@ -178,7 +171,7 @@ Categories:
 
 '''Dés de vie.''' d8.
 
-'''Richesse de départ.''' 1d6×10 po (35 po en moyenne).
+'''Argent de départ.''' 1d6 x 10 po (moyenne 35 po).
 
 === Compétences de classe ===
 Voici les compétences de classe du cinétiste : [[Acrobaties]] (Dex), [[Artisanat]] (Int), [[Discrétion]] (Dex), [[Intimidation]] (Cha), [[Perception]] (Sag), [[Premiers secours]] (Sag), [[Profession]] (Sag) et [[Utilisation dObjets Magiques|Utilisation des objets magiques]] (Cha).
@@ -290,7 +283,7 @@ Au niveau 11, quand le cinétiste utilise l’accumulation de pouvoir par une [[
 Au niveau 16, un cinétiste améliore ses créations d’explosion composite. Il réduit de 1 point le coût de brûlure des explosions composites. Cette aptitude ne peut réduire en dessous de 0 le coût d’une telle explosion.
 
 {s:Reference|MAITREDELAMÉTACINÉTIQUE}
-====Maître de la métacinétique (Sur))====
+====Maître de la métacinétique (Sur)====
 Au niveau 19, un cinétiste choisit un type de métacinétique, tel qu’extension ou accélération. Il réduit de 1 point le coût de brûlure de cette métacinétique (jusqu’à un minimum de 0).
 
 {s:Reference|OMNICINÉTIQUE}

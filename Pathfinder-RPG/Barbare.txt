@@ -1,46 +1,22 @@
 ---
 Name: Pathfinder-RPG.Barbare
 Title: Le barbare
-LastModified: 2021-02-28 03:11
+LastModified: 2021-07-14 19:32
 Categories:
   - 'Classe'
   - 'Règles officielles'
 ---
 {s:MenuClasses}
-<div class="fright">'''''Voir aussi les [[pouvoirs de rage]].''''' <br/>
-'''''Voir la version unchained du [Barbare unchained|barbare].'''''<br/>
-{s:PM0|barbares}'''Voir les archétypes du barbare '''&emsp;
-<ul ID="barbares" CLASS="listecachée cadrebas">
-  <li>[[Balafré enragé (barbare)|Balafré enragé]] (AG)</li>
-  <li>[[Barbare sauvage (barbare)|Barbare sauvage]] (MJRA)</li>
-  <li>[[Barbare urbain (barbare)|Barbare urbain]] (AG)</li>
-  <li>[[Briseur de titan (barbare)|Briseur de titan]] (AG)</li>
-  <li>[[Brute avinée (barbare)|Brute avinée]] (MJRA)</li>
-  <li>[[Carcasse métallique (barbare)|Carcasse métallique]] (AG)</li>
-  <li>[[Chien enragé (barbare)|Chien enragé]] (AA)</li>
-  <li>[[Concasseur (barbare)|Concasseur]] (MJRA)</li>
-  <li>[[Dévoreur de chair (barbare)|Dévoreur de chair]] (AO)</li>
-  <li>[[Enragé de la meute (barbare)|Enragé de la meute]] ([[Gnoll]]) (CM)</li>
-  <li>[[Enragé haineux (barbare)|Enragé haineux]] ([[demi-orque|Demi-orque]]) (MR)</li>
-  <li>[[Frère élémentaire (barbare)|Frère élémentaire]] (MJRA)</li>
-  <li>[[Furie montée (barbare)|Furie montée]] (MJRA)</li>
-  <li>[[Grinceur sauvage (barbare)|Grinçeur sauvage]] ([[gobelin (race)|Gobelin]]) (MR)</li>
-  <li>[[Guerrier totem (barbare)|Guerrier totem]] (MJRA)</li>
-  <li>[[Invulnérable enragé (barbare)|Invulnérable enragé]] (MJRA)</li>
-  <li>[[Lanceur (barbare)|Lanceur]] (MJRA)</li>
-  <li>[[Pugiliste brutal (barbare)|Pugiliste brutal]] (MJRA)</li>
-  <li>[[Sauvage enragé (barbare)|Sauvage enragé]] (AG)</li>
-  <li>[[Superstitieux (barbare)|Superstitieux]] (MJRA)</li>
-  <li>[[Terreur des mers (barbare)|Terreur des mers]] (AG)</li>
-  <li>[[Véritable primitif (barbare)|Véritable primitif]] (AG)</li></ul></div>
-
-''Pour certains individus, tout n’est que rage. Que ce soit dans les coutumes de leur peuple, dans la fureur de leurs passions ou dans leurs cris de bataille, la seule chose qu’ils connaissent est le conflit. Il s’agit de sauvages, de mercenaires qui louent leurs services ou encore d’experts en techniques martiales violentes. Ce ne sont ni des soldats ni des guerriers professionnels mais des créatures entièrement dévouées à la bataille et au carnage, des esprits de la guerre. Ces combattants, connus sous le nom de barbares, font peu de cas de l’entraînement, de la préparation ou des règles d’affrontement. Seuls comptent pour eux le moment présent, les ennemis qui se tiennent devant eux et le fait de savoir que la mort pourrait les surprendre à tout moment. Ils possèdent un sixième sens pour le danger et sont suffisamment endurants pour supporter tout ce qui pourrait leur arriver. Ces combattants violents peuvent apparaître au sein de n’importe quelle communauté, qu’elle soit civilisée ou primitive, mais, dans les recoins sauvages du monde, des sociétés entières ont embrassé cette philosophie. C’est l’esprit originel des batailles qui se déchaîne dans le cœur des barbares : malheur à ceux qui affronteront leur rage.''
+<div class="fright">'''''Voir aussi les [[pouvoirs de rage]].'''''  
+'''''Voir la [[Barbare unchained|version unchained]] du barbare.'''''  
+{s:PM0|barbares}'''Voir les archétypes du barbare'''&emsp;
+  <li ID="barbares" CLASS="listecachée" STYLE="display:none">{s:Menuarchétypebarbare}</li>
+</div>''Pour certains individus, tout n’est que rage. Que ce soit dans les coutumes de leur peuple, dans la fureur de leurs passions ou dans leurs cris de bataille, la seule chose qu’ils connaissent est le conflit. Il s’agit de sauvages, de mercenaires qui louent leurs services ou encore d’experts en techniques martiales violentes. Ce ne sont ni des soldats ni des guerriers professionnels mais des créatures entièrement dévouées à la bataille et au carnage, des esprits de la guerre. Ces combattants, connus sous le nom de barbares, font peu de cas de l’entraînement, de la préparation ou des règles d’affrontement. Seuls comptent pour eux le moment présent, les ennemis qui se tiennent devant eux et le fait de savoir que la mort pourrait les surprendre à tout moment. Ils possèdent un sixième sens pour le danger et sont suffisamment endurants pour supporter tout ce qui pourrait leur arriver. Ces combattants violents peuvent apparaître au sein de n’importe quelle communauté, qu’elle soit civilisée ou primitive, mais, dans les recoins sauvages du monde, des sociétés entières ont embrassé cette philosophie. C’est l’esprit originel des batailles qui se déchaîne dans le cœur des barbares : malheur à ceux qui affronteront leur rage.''
 
 <table width="100%">
 <tr style="vertical-align: bottom">
-<td width="65%">
-<center>
-{| CLASS="tablo"
+<td width="70%">
+{| CLASS="tablo centre autoalt"
 |+ Le barbare
 |- CLASS="titre"
 | Niveau
@@ -55,144 +31,143 @@ Categories:
 | +0
 | +2
 | +0
-| CLASS="gauche" | [[barbare#DEPLACEMENTACCELERE|déplacement accéléré]], [[barbare#RAGEDEBERSERKER|rage de berserker]]
-|- CLASS="alt"
+| CLASS="gauche" | [[barbare#DEPLACEMENTACCELERE|Déplacement accéléré]], [[barbare#RAGEDEBERSERKER|rage de berserker]]
+|-
 | 2
 | +2
 | +0
 | +3
 | +0
-| CLASS="gauche" | [[barbare#POUVOIRDERAGE|pouvoir de rage]], [[barbare#ESQUIVEINSTINCTIVE|esquive instinctive]]
+| CLASS="gauche" | [[barbare#ESQUIVEINSTINCTIVE|Esquive instinctive]], [[barbare#POUVOIRDERAGE|pouvoir de rage]]
 |-
 | 3
 | +3
 | +1
 | +3
 | +1
-| CLASS="gauche" | [[barbare#SENSDESPIEGES|sens des pièges]] +1
-|- CLASS="alt"
+| CLASS="gauche" | [[barbare#SENSDESPIEGES|Sens des pièges]] +1
+|-
 | 4
 | +4
 | +1
 | +4
 | +1
-| CLASS="gauche" | [[barbare#POUVOIRDERAGE|pouvoir de rage]]
+| CLASS="gauche" | [[barbare#POUVOIRDERAGE|Pouvoir de rage]]
 |-
 | 5
 | +5
 | +1
 | +4
 | +1
-| CLASS="gauche" | [[barbare#ESQUIVEINSTINCTIVESUPERIEURE|esquive instinctive supérieure]]
-|- CLASS="alt"
+| CLASS="gauche" | [[barbare#ESQUIVEINSTINCTIVESUPERIEURE|Esquive instinctive supérieure]]
+|-
 | 6
 | +6/+1
 | +2
 | +5
 | +2
-| CLASS="gauche" | [[barbare#POUVOIRDERAGE|pouvoir de rage]], [[barbare#SENSDESPIEGES|sens des pièges]] +2
+| CLASS="gauche" | [[barbare#POUVOIRDERAGE|Pouvoir de rage]], [[barbare#SENSDESPIEGES|sens des pièges]] +2
 |-
 | 7
 | +7/+2
 | +2
 | +5
 | +2
-| CLASS="gauche" | [[barbare#REDUCTIONDEGATS|réduction de dégâts]] 1/-
-|- CLASS="alt"
+| CLASS="gauche" | [[barbare#REDUCTIONDEGATS|Réduction de dégâts]] 1/-
+|-
 | 8
 | +8/+3
 | +2
 | +6
 | +2
-| CLASS="gauche" | [[barbare#POUVOIRDERAGE|pouvoir de rage]]
+| CLASS="gauche" | [[barbare#POUVOIRDERAGE|Pouvoir de rage]]
 |-
 | 9
 | +9/+4
 | +3
 | +6
 | +3
-| CLASS="gauche" | [[barbare#SENSDESPIEGES|sens des pièges]] +3
-|- CLASS="alt"
+| CLASS="gauche" | [[barbare#SENSDESPIEGES|Sens des pièges]] +3
+|-
 | 10
 | +10/+5
 | +3
 | +7
 | +3
-| CLASS="gauche" | [[barbare#REDUCTIONDEGATS|réduction de dégâts]] 2/-, [[barbare#POUVOIRDERAGE|pouvoir de rage]]
+| CLASS="gauche" | [[barbare#POUVOIRDERAGE|Pouvoir de rage]], [[barbare#REDUCTIONDEGATS|réduction de dégâts]] 2/-
 |-
 | 11
 | +11/+6/+1
 | +3
 | +7
 | +3
-| CLASS="gauche" | [[barbare#RAGEDEGRANDBERSERKER|rage de grand berserker]]
-|- CLASS="alt"
+| CLASS="gauche" | [[barbare#RAGEDEGRANDBERSERKER|Rage de grand berserker]]
+|-
 | 12
 | +12/+7/+2
 | +4
 | +8
 | +4
-| CLASS="gauche" | [[barbare#POUVOIRDERAGE|pouvoir de rage]], [[barbare#SENSDESPIEGES|sens des pièges]] +4
+| CLASS="gauche" | [[barbare#POUVOIRDERAGE|Pouvoir de rage]], [[barbare#SENSDESPIEGES|Sens des pièges]] +4
 |-
 | 13
 | +13/+8/+3
 | +4
 | +8
 | +4
-| CLASS="gauche" | [[barbare#REDUCTIONDEGATS|réduction de dégâts]] 3/-
-|- CLASS="alt"
+| CLASS="gauche" | [[barbare#REDUCTIONDEGATS|Réduction de dégâts]] 3/-
+|-
 | 14
 | +14/+9/+4
 | +4
 | +9
 | +4
-| CLASS="gauche" | [[barbare#VOLONTEINDOMPTABLE|volonté indomptable]], [[barbare#POUVOIRDERAGE|pouvoir de rage]]
+| CLASS="gauche" | [[barbare#POUVOIRDERAGE|Pouvoir de rage]], [[barbare#VOLONTEINDOMPTABLE|volonté indomptable]]
 |-
 | 15
 | +15/+10/+5
 | +5
 | +9
 | +5
-| CLASS="gauche" | [[barbare#SENSDESPIEGES|sens des pièges]] +5
-|- CLASS="alt"
+| CLASS="gauche" | [[barbare#SENSDESPIEGES|Sens des pièges]] +5
+|-
 | 16
 | +16/+11/+6/+1
 | +5
 | +10
 | +5
-| CLASS="gauche" | [[barbare#REDUCTIONDEGATS|réduction de dégâts]] 4/-, [[barbare#POUVOIRDERAGE|pouvoir de rage]]
+| CLASS="gauche" | [[barbare#POUVOIRDERAGE|Pouvoir de rage]], [[barbare#REDUCTIONDEGATS|réduction de dégâts]] 4/-
 |-
 | 17
 | +17/+12/+7/+2
 | +5
 | +10
 | +5
-| CLASS="gauche" | [[barbare#RAGESANSFATIGUE|rage sans fatigue]]
-|- CLASS="alt"
+| CLASS="gauche" | [[barbare#RAGESANSFATIGUE|Rage sans fatigue]]
+|-
 | 18
 | +18/+13/+8/+3
 | +6
 | +11
 | +6
-| CLASS="gauche" | [[barbare#POUVOIRDERAGE|pouvoir de rage]], [[barbare#SENSDESPIEGES|sens des pièges]] +6
+| CLASS="gauche" | [[barbare#POUVOIRDERAGE|Pouvoir de rage]], [[barbare#SENSDESPIEGES|sens des pièges]] +6
 |-
 | 19
 | +19/+14/+9/+4
 | +6
 | +11
 | +6
-| CLASS="gauche" | [[barbare#REDUCTIONDEGATS|réduction de dégâts]] 5/-
-|- CLASS="alt"
+| CLASS="gauche" | [[barbare#REDUCTIONDEGATS|Réduction de dégâts]] 5/-
+|-
 | 20
 | +20/+15/+10/+5
 | +6
 | +12
 | +6
-| CLASS="gauche" | [[barbare#RAGEDEMAITREBERSERKER|rage de maître berserker]], [[barbare#POUVOIRDERAGE|pouvoir de rage]]
+| CLASS="gauche" | [[barbare#POUVOIRDERAGE|Pouvoir de rage]], [[barbare#RAGEDEMAITREBERSERKER|rage de maître berserker]]
 |}
-</center>
 </td>
-<td width="35%">
+<td width="30%">
 {s:ImageCentre|Illustrations/PNJ/Amiri.jpg|100%}
 </td></tr></table>
 

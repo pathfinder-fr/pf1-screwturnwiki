@@ -1,38 +1,21 @@
 ---
 Name: Pathfinder-RPG.Arcaniste
-Title: Arcaniste
-LastModified: 2020-06-12 15:12
+Title: L'arcaniste
+LastModified: 2021-07-15 17:57
 Categories:
   - 'Classe'
-  - 'Manuel des Classes avancées'
   - 'Règles officielles'
+  - 'Src Manuel des joueurs - Classes avancées'
 ---
 {s:Menuclasseshybrides}
-<div class="fright">'''''Voir aussi les [[Exploitations|exploitations d'arcaniste]].'''''<br/>
-'''''Voir aussi la [[Liste des sorts densorceleursmagiciens|liste des sorts des arcanistes]].'''''<br/>
+<div class="fright">'''''Voir aussi les [[Exploitations|exploitations d'arcaniste]].'''''  
+'''''Voir aussi la [[Liste des sorts densorceleursmagiciens|liste des sorts d'arcaniste]].'''''  
 {s:PM0|arcaniste}'''Voir les archétypes de l'arcaniste'''&emsp;
-<ul ID="arcaniste" CLASS="listecachée cadrebas">
-  <li>[[Adepte des lames (arcaniste)|Adepte des lames]] (MCA)</li>
-  <li>[[Agent étrange (arcaniste)|Agent étrange]] (MCA)</li>
-  <li>[[Arcaniste du sang (arcaniste)|Arcaniste du sang]] (MCA)</li>
-  <li>[[Arcaniste illétré (arcaniste)|Arcaniste illétré]] (MCA)</li>
-  <li>[[Mage blanc (arcaniste)|Mage blanc]] (MCA)</li>
-  <li>[[Maître élémentaire (arcaniste)|Maître élémentaire]] (MCA)</li>
-  <li>[[Occultiste (arcaniste)|Occultiste]] (MCA)</li>
-  <li>[[Sage du crépuscule (arcaniste)|Sage du crépuscule]] (MCA)</li>
-  <li>[[Savant dune école de magie (arcaniste)|Savant d'une école de magie]] (MCA)</li>
-  <li>[[Spécialiste des sortilèges (arcaniste)|Spécialiste des sortilèges]] (MCA)</li>
-  <li>[[Transmutateur à fourrure brune (arcaniste)|Transmutateur à fourrure brune]] (MCA)</li>
-</ul></div><br/>
+  <li ID="arcaniste" CLASS="listecachée" STYLE="display:none">{s:Menuarchétypearcaniste}</li>
+</div>{s:MCA}''Certains lanceurs de sorts cherchent à percer les secrets de la magie et à obtenir assez de puissance pour réussir l’impossible. D’autres naissent avec des pouvoirs magiques innés et contrôlent des forces incroyables aussi facilement qu’ils respirent. D’autres encore tentent de fusionner la science des étudiants en ésotérisme avec la puissance naturelle des lanceurs de sorts innés. Ces arcanistes s’efforcent de découvrir les mystérieuses lois qui régissent la magie et de les plier à leurs désirs par leur art et leur volonté. Les arcanistes sont les façonneurs et les artisans des arcanes et aucune magie ne peut se soustraire à leur contrôle.''
 
-
-
-{s:MCA}''Certains lanceurs de sorts cherchent à percer les secrets de la magie et à obtenir assez de puissance pour réussir l’impossible. D’autres naissent avec des pouvoirs magiques innés et contrôlent des forces incroyables aussi facilement qu’ils respirent. D’autres encore tentent de fusionner la science des étudiants en ésotérisme avec la puissance naturelle des lanceurs de sorts innés. Ces arcanistes s’efforcent de découvrir les mystérieuses lois qui régissent la magie et de les plier à leurs désirs par leur art et leur volonté. Les arcanistes sont les façonneurs et les artisans des arcanes et aucune magie ne peut se soustraire à leur contrôle.''
-
-{s:Reference|TABLEARCANISTE}
-<center>
-{| CLASS="tablo"
-|+ l'arcaniste
+{| CLASS="tablo centre"
+|+ {s:Reference|TABLEARCANISTE}L'arcaniste
 |- CLASS="titre"
 | ROWSPAN="2" | Niveau
 | ROWSPAN="2" | BBA
@@ -57,7 +40,7 @@ Categories:
 | +0
 | +0
 | +2
-| CLASS="gauche" | [[arcaniste#RESERVOIRARCANIQUE|réservoir arcanique]], [[arcaniste#EXPLOITATION|exploitation d'arcaniste]],<br/>[[arcaniste#TOURSDEMAGIE|tours de magie]], [[arcaniste#ABSORPTIONDESORTS|absorption de sorts]], [[arcaniste#GRIMOIRE|grimoire]]
+| CLASS="gauche" | [[arcaniste#ABSORPTIONDESORTS|Absorption de sorts]], [[arcaniste#EXPLOITATION|exploitation d'arcaniste]], [[arcaniste#GRIMOIRE|grimoire]], [[arcaniste#RESERVOIRARCANIQUE|réservoir arcanique]], [[arcaniste#TOURSDEMAGIE|tours de magie]]
 | 2
 | -
 | -
@@ -73,7 +56,7 @@ Categories:
 | +0
 | +0
 | +3
-| CLASS="centre" | —
+| CLASS="gauche" | &nbsp;
 | 3
 | -
 | -
@@ -89,7 +72,7 @@ Categories:
 | +1
 | +1
 | +3
-| CLASS="centre" | [[arcaniste#EXPLOITATION|exploitation d'arcaniste]]
+| CLASS="gauche" | [[arcaniste#EXPLOITATION|Exploitation d'arcaniste]]
 | 4
 | -
 | -
@@ -105,7 +88,7 @@ Categories:
 | +1
 | +1
 | +4
-| CLASS="centre" | —
+| CLASS="gauche" | &nbsp;
 | 4
 | 2
 | -
@@ -121,7 +104,7 @@ Categories:
 | +1
 | +1
 | +4
-| CLASS="center" | [[arcaniste#EXPLOITATION|exploitation d'arcaniste]]
+| CLASS="gauche" | [[arcaniste#EXPLOITATION|Exploitation d'arcaniste]]
 | 4
 | 3
 | -
@@ -137,7 +120,7 @@ Categories:
 | +2
 | +2
 | +5
-| CLASS="centre" | — 
+| CLASS="gauche" | &nbsp;
 | 4
 | 4
 | 2
@@ -153,7 +136,7 @@ Categories:
 | +2
 | +2
 | +5
-| CLASS="centre" | [[arcaniste#EXPLOITATION|exploitation d'arcaniste]] 
+| CLASS="gauche" | [[arcaniste#EXPLOITATION|Exploitation d'arcaniste]] 
 | 4
 | 4
 | 3
@@ -169,7 +152,7 @@ Categories:
 | +2
 | +2
 | +6
-| CLASS="centre" | —
+| CLASS="gauche" | &nbsp;
 | 4
 | 4
 | 4
@@ -185,7 +168,7 @@ Categories:
 | +3
 | +3
 | +6
-| CLASS="centre" | [[arcaniste#EXPLOITATION|exploitation d'arcaniste]]
+| CLASS="gauche" | [[arcaniste#EXPLOITATION|Exploitation d'arcaniste]]
 | 4
 | 4
 | 4
@@ -201,7 +184,7 @@ Categories:
 | +3
 | +3
 | +7
-| CLASS="centre" | —
+| CLASS="gauche" | &nbsp;
 | 4
 | 4
 | 4
@@ -217,7 +200,7 @@ Categories:
 | +3
 | +3
 | +7
-| CLASS="centre" | [[arcaniste#EXPLOITATION|exploitation d'arcaniste]], [[arcaniste#EXPLOITATIONSUPERIEURE|exploitation supérieure]]
+| CLASS="gauche" | [[arcaniste#EXPLOITATION|Exploitation d'arcaniste]], [[arcaniste#EXPLOITATIONSUPERIEURE|exploitation supérieure]]
 | 4
 | 4
 | 4
@@ -233,7 +216,7 @@ Categories:
 | +4
 | +4
 | +8
-| CLASS="centre" | —
+| CLASS="gauche" | &nbsp;
 | 4
 | 4
 | 4
@@ -249,7 +232,7 @@ Categories:
 | +4
 | +4
 | +8
-| CLASS="centre" | [[arcaniste#EXPLOITATION|exploitation d'arcaniste]]
+| CLASS="gauche" | [[arcaniste#EXPLOITATION|Exploitation d'arcaniste]]
 | 4
 | 4
 | 4
@@ -265,7 +248,7 @@ Categories:
 | +4
 | +4
 | +9
-| CLASS="centre" | —
+| CLASS="gauche" | &nbsp;
 | 4
 | 4
 | 4
@@ -281,7 +264,7 @@ Categories:
 | +5
 | +5
 | +9
-| CLASS="centre" | [[arcaniste#EXPLOITATION|exploitation d'arcaniste]]
+| CLASS="gauche" | [[arcaniste#EXPLOITATION|Exploitation d'arcaniste]]
 | 4
 | 4
 | 4
@@ -297,7 +280,7 @@ Categories:
 | +5
 | +5
 | +10
-| CLASS="centre" | —
+| CLASS="gauche" | &nbsp;
 | 4
 | 4
 | 4
@@ -313,7 +296,7 @@ Categories:
 | +5
 | +5
 | +10
-| CLASS="centre" | [[arcaniste#EXPLOITATION|exploitation d'arcaniste]] 
+| CLASS="gauche" | [[arcaniste#EXPLOITATION|Exploitation d'arcaniste]] 
 | 4
 | 4
 | 4
@@ -329,7 +312,7 @@ Categories:
 | +6
 | +6
 | +11
-| CLASS="centre" | —
+| CLASS="gauche" | &nbsp;
 | 4
 | 4
 | 4
@@ -345,7 +328,7 @@ Categories:
 | +6
 | +6
 | +11
-| CLASS="centre" | [[arcaniste#EXPLOITATION|exploitation d'arcaniste]]
+| CLASS="gauche" | [[arcaniste#EXPLOITATION|Exploitation d'arcaniste]]
 | 4
 | 4
 | 4
@@ -361,7 +344,7 @@ Categories:
 | +6
 | +6
 | +12
-| CLASS="centre" | [[arcaniste#SUPREMATIEMAGIQUE|suprématie magique]]
+| CLASS="gauche" | [[arcaniste#SUPREMATIEMAGIQUE|Suprématie magique]]
 | 4
 | 4
 | 4
@@ -372,17 +355,18 @@ Categories:
 | 4
 | 4
 |}
-</center>
 
 {s:ImageDroite|Illustrations/PNJ/Enora.jpg|35%}
 
 '''Rôle.''' Les arcanistes étudient toutes les magies. Ils sont toujours à l’affût de nouvelles formes de magie, pour comprendre comment elles fonctionnent et, dans bien des cas, pour puiser dans leurs énergies afin de satisfaire leurs besoins. On considère souvent les arcanistes comme des gens téméraires qui se préoccupent plus de la puissance magique en elle-même que des conséquences qu’un tel pouvoir provoque.
 
+'''Classes mères.''' [[Ensorceleur]] et [[Magicien|magicien]].
+
 '''Alignement.''' Tous.
 
 '''Dés de vie.''' d6.
 
-'''Classes mères.''' Ensorceleur et magicien
+'''Argent de départ.''' 2d6 x 10 po (moyenne 70 po).
 
 ===Compétences de classe===
 Les compétences de l'arcaniste sont les suivantes : [[Art de la magie]] (Int), [[Artisanat]] (Int), [[Connaissances]] (toutes) (Int), [[Estimation]] (Int),  [[Linguistique]] (Int), [[Profession]] (Sag), [[Utilisation dobjets magiques|Utilisation d'objets magiques]] (Cha)  et [[Vol]] (Dex).
@@ -397,267 +381,55 @@ L’arcaniste est formé au maniement de toutes les armes courantes mais pas au 
 
 <div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
 <div style="border: 1px solid #4b3124; padding: 4px">
-{s:Reference|SORTSPREPARESDELARCANISTE}
-<center>
-{| CLASS="tablo"
-|+ Sorts d'arcaniste préparés
+{| CLASS="tablo centre autoalt"
+|+ {s:Reference|SORTSPREPARESDELARCANISTE}Sorts d'arcaniste préparés
 |- CLASS="titre"
 | ROWSPAN="2" | Niveau
 | COLSPAN="10" CLASS="avecsoustitre gauche" | Sorts préparés
 |- CLASS="soustitre"
-| 0
-| 1er
-| 2e
-| 3e
-| 4e
-| 5e
-| 6e
-| 7e
-| 8e
-| 9e
+| 0 || 1er || 2e || 3e || 4e || 5e || 6e || 7e || 8e || 9e
 |- CLASS="premier"
-| 1
-| 4
-| 2
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-|- CLASS="alt"
-| 2
-| 5
-| 2
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
+| 1 || 4 || 2 || - || - || - || - || - || - || - || -
 |-
-| 3
-| 5
-| 3
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-|- CLASS="alt"
-| 4
-| 6
-| 3
-| 1
-| -
-| -
-| -
-| -
-| -
-| -
-| -
+| 2 || 5 || 2 || - || - || - || - || - || - || - || -
 |-
-| 5
-| 6
-| 4
-| 2
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-|- CLASS="alt"
-| 6
-| 7
-| 4
-| 2
-| 1
-| -
-| -
-| -
-| -
-| -
-| -
+| 3 || 5 || 3 || - || - || - || - || - || - || - || -
 |-
-| 7
-| 7
-| 5
-| 3
-| 2
-| -
-| -
-| -
-| -
-| -
-| -
-|- CLASS="alt"
-| 8
-| 8
-| 5
-| 3
-| 2
-| 1
-| -
-| -
-| -
-| -
-| -
+| 4 || 6 || 3 || 1 || - || - || - || - || - || - || -
 |-
-| 9
-| 8
-| 5
-| 4
-| 3
-| 2
-| -
-| -
-| -
-| -
-| -
-|- CLASS="alt"
-| 10
-| 9
-| 5
-| 4
-| 3
-| 2
-| 1
-| -
-| -
-| -
-| -
+| 5 || 6 || 4 || 2 || - || - || - || - || - || - || -
 |-
-| 11
-| 9
-| 5
-| 5
-| 4
-| 3
-| 2
-| -
-| -
-| -
-| -
-|- CLASS="alt"
-| 12
-| 9
-| 5
-| 5
-| 4
-| 3
-| 2
-| 1
-| -
-| -
-| -
+| 6 || 7 || 4 || 2 || 1 || - || - || - || - || - || -
 |-
-| 13
-| 9
-| 5
-| 5
-| 4
-| 4
-| 3
-| 2
-| -
-| -
-| -
-|- CLASS="alt"
-| 14
-| 9
-| 5
-| 5
-| 4
-| 4
-| 3
-| 2
-| 1
-| -
-| -
+| 7 || 7 || 5 || 3 || 2 || - || - || - || - || - || -
 |-
-| 15
-| 9
-| 5
-| 5
-| 4
-| 4
-| 4
-| 3
-| 2
-| -
-| -
-|- CLASS="alt"
-| 16
-| 9
-| 5
-| 5
-| 4
-| 4
-| 4
-| 3
-| 2
-| 1
-| -
+| 8 || 8 || 5 || 3 || 2 || 1 || - || - || - || - || -
 |-
-| 17
-| 9
-| 5
-| 5
-| 4
-| 4
-| 4
-| 3
-| 3
-| 2
-| -
-|- CLASS="alt"
-| 18
-| 9
-| 5
-| 5
-| 4
-| 4
-| 4
-| 3
-| 3
-| 2
-| 1
+| 9 || 8 || 5 || 4 || 3 || 2 || - || - || - || - || -
 |-
-| 19
-| 9
-| 5
-| 5
-| 4
-| 4
-| 4
-| 3
-| 3
-| 3
-| 2
-|- CLASS="alt"
-| 20
-| 9
-| 5
-| 5
-| 4
-| 4
-| 4
-| 3
-| 3
-| 3
-| 3
+| 10 || 9 || 5 || 4 || 3 || 2 || 1 || - || - || - || -
+|-
+| 11 || 9 || 5 || 5 || 4 || 3 || 2 || - || - || - || -
+|-
+| 12 || 9 || 5 || 5 || 4 || 3 || 2 || 1 || - || - || -
+|-
+| 13 || 9 || 5 || 5 || 4 || 4 || 3 || 2 || - || - || -
+|-
+| 14 || 9 || 5 || 5 || 4 || 4 || 3 || 2 || 1 || - || -
+|-
+| 15 || 9 || 5 || 5 || 4 || 4 || 4 || 3 || 2 || - || -
+|-
+| 16 || 9 || 5 || 5 || 4 || 4 || 4 || 3 || 2 || 1 || -
+|-
+| 17 || 9 || 5 || 5 || 4 || 4 || 4 || 3 || 3 || 2 || -
+|-
+| 18 || 9 || 5 || 5 || 4 || 4 || 4 || 3 || 3 || 2 || 1
+|-
+| 19 || 9 || 5 || 5 || 4 || 4 || 4 || 3 || 3 || 3 || 2
+|-
+| 20 || 9 || 5 || 5 || 4 || 4 || 4 || 3 || 3 || 3 || 3
 |}
-</center></div></div>
-{s:Reference|SORTS}
+</div></div>{s:Reference|SORTS}
 ====Sorts====
 L’arcaniste lance des sorts profanes issus de la liste de [[Liste des sorts densorceleursmagiciens|Liste des sorts d'ensorceleurs/magiciens]]. Il doit [[Magie profane|préparer ses sorts]] à l’avance mais, contrairement aux magiciens, il ne les dépense pas quand il les lance. Il peut lancer n’importe quel sort préparé en consommant un [[emplacement de sort]] du niveau requis, à condition qu’il lui en reste.
 
@@ -710,7 +482,7 @@ Il ne peut pas choisir une même exploitation à deux reprises et ne peut pas ch
 
 Sauf indication contraire, le [[DD]] des [[jet de sauvegarde|jets de sauvegarde]] contre les exploitations arcaniques est de 10 +1/2 niveau de l’arcaniste + modificateur de [[Charisme]] de l’arcaniste.
 
-Voir les [[Exploitations|Exploitations d'arcanistes]]
+Voir les [[Exploitations|exploitations d'arcaniste]].
 
 {s:Reference|ABSORPTIONDESORTS}
 ====Absorption de sorts (Sur)==== 
@@ -722,4 +494,4 @@ Au niveau 1, l’arcaniste peut dépenser un emplacement de sort d’arcaniste d
 
 {s:Reference|SUPREMATIEMAGIQUE}
 ====Suprématie magique (Sur)==== 
-Au niveau 20, l’arcaniste apprend à convertir son réservoir arcanique en sorts et inversement. Il peut lancer un sort préparé en dépensant un nombre de points de réservoir arcanique égal à 1 + niveau du sort à lancer au lieu de dépenser un emplacement de sort. Quand il lance un sort de cette manière, il considère qu’il a deux niveaux de lanceur de sorts de plus qu’en réalité et le [[DD]] des [[jet de sauvegarde|jets de sauvegarde]]  associés au sort augmente de 2. Il ne peut pas dépenser d’autres points de réservoir arcanique pour améliorer un sort ainsi lancé.
+Au niveau 20, l’arcaniste apprend à convertir son [[Arcaniste#RESERVOIRARCANIQUE|réservoir arcanique]] en sorts et inversement. Il peut lancer un sort préparé en dépensant un nombre de points de réservoir arcanique égal à 1 + niveau du sort à lancer au lieu de dépenser un emplacement de sort. Quand il lance un sort de cette manière, il considère qu’il a deux niveaux de lanceur de sorts de plus qu’en réalité et le [[DD]] des [[jet de sauvegarde|jets de sauvegarde]]  associés au sort augmente de 2. Il ne peut pas dépenser d’autres points de réservoir arcanique pour améliorer un sort ainsi lancé.

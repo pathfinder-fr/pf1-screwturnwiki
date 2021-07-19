@@ -1,55 +1,21 @@
 ---
 Name: Pathfinder-RPG.Barde
 Title: Le barde
-LastModified: 2020-11-25 17:05
+LastModified: 2021-07-15 02:53
 Categories:
   - 'Classe'
   - 'Règles officielles'
 ---
 {s:MenuClasses}
-<div class="fright">
-'''''Voir aussi les [[représentations]] de bardes.'''''<br/>
-'''''Voir aussi les [[Chefs doeuvre|Chefs d'oeuvre]].'''''<br/>
-'''''Voir aussi la [[Liste des sorts de bardes]].'''''<br/>
+<div class="fright">'''''Voir aussi les [[Représentations|représentations bardiques]].'''''  
+'''''Voir aussi les [[Chefs doeuvre|chefs d'œuvre]].'''''  
+'''''Voir aussi la [[Liste des sorts de bardes|liste des sorts de barde]].'''''  
 {s:PM0|barde}'''Voir les archétypes du barde'''&emsp;
-<ul ID="barde" CLASS="listecachée cadrebas">
-  <li>[[Archéologue (barde)|Archéologue]] (AG)</li>
-  <li>[[Archiviste (barde)|Archiviste]] (MJRA)</li>
-  <li>[[Artiste des rues (barde)|Artiste des rues]] (MJRA)</li>
-  <li>[[Barde de cour (barde)|Barde de cour]] (MJRA)</li>
-  <li>[[Boucanier (barde)|Boucanier]] (PMI)</li>
-  <li>[[Casse-cou (barde)|Casse cou]] (AG)</li>
-  <li>[[Célébrité (barde)|Célébrité]] (AM)</li>
-  <li>[[Chantemer (barde)|Chantemer]] (MJRA)</li>
-  <li>[[Chanteur de leau (barde)|Chanteur de l'eau]] ([[ondin (race)|Ondin]]) (MR)</li>
-  <li>[[Danseur des flammes (barde)|Danseur des flammes]] (MCA)</li>
-  <li>[[Démagogue (barde)|Démagogue]] (AM)</li>
-  <li>[[Derviche (barde)|Derviche]] (AG)</li>
-  <li>[[Derviche de la Fleur de laube (barde)|Derviche de l'aube]] (MMI)</li>
-  <li>[[Détective (barde)|Détective]] (MJRA)</li>
-  <li>[[Diva chéliaxienne (barde)|Diva]] (MMI)</li>
-  <li>[[Dragon jappeur (barde)|Dragon jappeur]] ([[Kobold (race)|Kobold]]) (CM)</li>
-  <li>[[Duelliste des arcanes (barde)|Duelliste des arcanes]] (MJRA)</li>
-  <li>[[Farceur (barde)|Farceur]] ([[Gnome]]) (MR)</li>
-  <li>[[Frappeson (barde)|Frappeson]] (AM)</li>
-  <li>[[Geisha (barde)|Geisha]] (AM)</li>
-  <li>[[Interprète de ballades argentées (barde)|Interprète de ballades argentées]] (AO)</li>
-  <li>[[Marchand de sable (barde)|Marchand de sable]] (MJRA)</li>
-  <li>[[Marionnettiste des ombres (barde)|Marionnettiste des ombres]] ([[wayang (race)|Wayang]]) (MR)</li>
-  <li>[[Orateur animal (barde)|Orateur animal]] (AM)</li>
-  <li>[[Phrénologue (barde)|Phrénologue]] (AO)</li>
-  <li>[[Prestidigitateur (barde)|Prestidigitateur]] (MJRA)</li>
-  <li>[[Scalde sauvage (barde)|Scalde sauvage]] (MJRA)</li>
-  <li>[[Soignechant (barde)|Soignechant]] (AM)</li>
-  <li>[[Voix de la nature (barde)|Voix de la nature]] (MCA)</li>
-</ul></div>
+  <li ID="barde" CLASS="listecachée" STYLE="display:none">{s:Menuarchétypebarde}</li>
+</div>''Pour ceux qui sont capables de les découvrir, le monde contient des merveilles insoupçonnées et de nombreux mystères. C’est grâce à leur intelligence, leur habileté et leur magie que quelques individus rusés percent les secrets du monde tout en se formant aux arts de la persuasion, de la manipulation et de l’inspiration. Ces bardes, qui maîtrisent généralement une ou plusieurs formes d’expression artistique, possèdent des connaissances étonnamment variées et utilisent ce qu’ils apprennent pour se préparer aux dangers qui les menacent, eux et leurs alliés. Vifs d’esprit et passionnants, les bardes possèdent des compétences diversifiées qui peuvent les mener vers de nombreuses carrières : joueurs professionnels, touche-à-tout, érudits ou artistes, chefs charismatiques ou brigands, ou bien encore tout cela à la fois. Pour les bardes, chaque jour apporte son lot d’opportunités, d’aventures et de défis dont il n’est possible de tirer avantage qu’en prenant des risques, en élargissant ses connaissances et en se donnant à cent pour cent.''
 
-''Pour ceux qui sont capables de les découvrir, le monde contient des merveilles insoupçonnées et de nombreux mystères. C’est grâce à leur intelligence, leur habileté et leur magie que quelques individus rusés percent les secrets du monde tout en se formant aux arts de la persuasion, de la manipulation et de l’inspiration. Ces bardes, qui maîtrisent généralement une ou plusieurs formes d’expression artistique, possèdent des connaissances étonnamment variées et utilisent ce qu’ils apprennent pour se préparer aux dangers qui les menacent, eux et leurs alliés. Vifs d’esprit et passionnants, les bardes possèdent des compétences diversifiées qui peuvent les mener vers de nombreuses carrières : joueurs professionnels, touche-à-tout, érudits ou artistes, chefs charismatiques ou brigands, ou bien encore tout cela à la fois. Pour les bardes, chaque jour apporte son lot d’opportunités, d’aventures et de défis dont il n’est possible de tirer avantage qu’en prenant des risques, en élargissant ses connaissances et en se donnant à cent pour cent.''
-
-{s:Reference|TABLEBARDE}
-<center>
-{| CLASS="tablo"
-|+ Le barde
+{| CLASS="tablo centre"
+|+ {s:Reference|TABLEBARDE}Le barde
 |- CLASS="titre"
 | ROWSPAN="2" | Niveau
 | ROWSPAN="2" | BBA
@@ -71,7 +37,7 @@ Categories:
 | +2
 | +0
 | +2
-| CLASS="gauche" | [[barde#SAVOIRBARDIQUE|savoir bardique]], [[barde#REPRESENTATIONBARDIQUE|représentation bardique]], [[barde#TOURSDEMAGIE|tours de magie]], [[Représentations#CONTRE-CHANT|contre-chant]], [[Représentations#DISTRACTION|distraction]], [[Représentations#FASCINATION|fascination]], [[Représentations#INSPIRATIONVAILLANTE|inspiration vaillante]] +1
+| CLASS="gauche" | [[Représentations#CONTRE-CHANT|Contre-chant]], [[Représentations#DISTRACTION|distraction]], [[Représentations#FASCINATION|fascination]], [[Représentations#INSPIRATIONVAILLANTE|inspiration vaillante]] +1, [[barde#REPRESENTATIONBARDIQUE|représentation bardique]], [[barde#SAVOIRBARDIQUE|savoir bardique]], [[barde#TOURSDEMAGIE|tours de magie]]
 | 1
 | -
 | -
@@ -84,7 +50,7 @@ Categories:
 | +3
 | +0
 | +3
-| CLASS="gauche" | [[barde#VERSATILITEARTISTIQUE|versatilité artistique]], [[barde#ERUDITION|érudition]]
+| CLASS="gauche" | [[barde#ERUDITION|Érudition]], [[barde#VERSATILITEARTISTIQUE|versatilité artistique]]
 | 2
 | -
 | -
@@ -97,7 +63,7 @@ Categories:
 | +3
 | +1
 | +3
-| CLASS="gauche" | [[Représentations#INSPIRATIONTALENTUEUSE|inspiration talentueuse]] +2
+| CLASS="gauche" | [[Représentations#INSPIRATIONTALENTUEUSE|Inspiration talentueuse]] +2
 | 3
 | -
 | -
@@ -123,7 +89,7 @@ Categories:
 | +4
 | +1
 | +4
-| CLASS="gauche" | [[Représentations#INSPIRATIONVAILLANTE|inspiration vaillante]] +2, [[barde#MAITREDUSAVOIR|maître du savoir]] 1/jour
+| CLASS="gauche" | [[Représentations#INSPIRATIONVAILLANTE|Inspiration vaillante]] +2, [[barde#MAITREDUSAVOIR|maître du savoir]] 1/jour
 | 4
 | 2
 | -
@@ -136,7 +102,7 @@ Categories:
 | +5
 | +2
 | +5
-| CLASS="gauche" | [[Représentations#SUGGESTION|suggestion]], [[barde#VERSATILITEARTISTIQUE|versatilité artistique]]
+| CLASS="gauche" | [[Représentations#SUGGESTION|Suggestion]], [[barde#VERSATILITEARTISTIQUE|versatilité artistique]]
 | 4
 | 3
 | -
@@ -149,7 +115,7 @@ Categories:
 | +5
 | +2
 | +5
-| CLASS="gauche" | [[Représentations#INSPIRATIONTALENTUEUSE|inspiration talentueuse]] +3
+| CLASS="gauche" | [[Représentations#INSPIRATIONTALENTUEUSE|Inspiration talentueuse]] +3
 | 4
 | 3
 | 1
@@ -162,7 +128,7 @@ Categories:
 | +6
 | +2
 | +6
-| CLASS="gauche" | [[Représentations#CHANTFUNESTE|chant funeste]]
+| CLASS="gauche" | [[Représentations#CHANTFUNESTE|Chant funeste]]
 | 4
 | 4
 | 2
@@ -175,7 +141,7 @@ Categories:
 | +6
 | +3
 | +6
-| CLASS="gauche" | [[Représentations#INSPIRATIONGLORIEUSE|inspiration glorieuse]]
+| CLASS="gauche" | [[Représentations#INSPIRATIONGLORIEUSE|Inspiration glorieuse]]
 | 5
 | 4
 | 3
@@ -188,7 +154,7 @@ Categories:
 | +7
 | +3
 | +7
-| CLASS="gauche" | [[barde#TOUCHE-A-TOUT|touche-à-tout]], [[barde#VERSATILITEARTISTIQUE|versatilité artistique]]
+| CLASS="gauche" | [[barde#TOUCHE-A-TOUT|Touche-à-tout]], [[barde#VERSATILITEARTISTIQUE|versatilité artistique]]
 | 5
 | 4
 | 3
@@ -201,7 +167,7 @@ Categories:
 | +7
 | +3
 | +7
-| CLASS="gauche" | [[Représentations#INSPIRATIONTALENTUEUSE|inspiration talentueuse]] +4, [[Représentations#INSPIRATIONVAILLANTE|inspiration vaillante]] +3, [[barde#MAITREDUSAVOIR|maître du savoir]] 2/jour
+| CLASS="gauche" | [[Représentations#INSPIRATIONTALENTUEUSE|Inspiration talentueuse]] +4, [[Représentations#INSPIRATIONVAILLANTE|inspiration vaillante]] +3, [[barde#MAITREDUSAVOIR|maître du savoir]] 2/jour
 | 5
 | 4
 | 4
@@ -214,7 +180,7 @@ Categories:
 | +8
 | +4
 | +8
-| CLASS="gauche" | [[Représentations#REPRESENTATIONAPAISANTE|représentation apaisante]]
+| CLASS="gauche" | [[Représentations#REPRESENTATIONAPAISANTE|Représentation apaisante]]
 | 5
 | 5
 | 4
@@ -240,7 +206,7 @@ Categories:
 | +9
 | +4
 | +9
-| CLASS="gauche" | [[Représentations#MELODIEEFFRAYANTE|mélodie effrayante]], [[barde#VERSATILITEARTISTIQUE|versatilité artistique]]
+| CLASS="gauche" | [[Représentations#MELODIEEFFRAYANTE|Mélodie effrayante]], [[barde#VERSATILITEARTISTIQUE|versatilité artistique]]
 | 5
 | 5
 | 4
@@ -253,7 +219,7 @@ Categories:
 | +9
 | +5
 | +9
-| CLASS="gauche" | [[Représentations#INSPIRATIONTALENTUEUSE|inspiration talentueuse]] +5, [[Représentations#INSPIRATIONHEROIQUE|inspiration héroïque]]
+| CLASS="gauche" | [[Représentations#INSPIRATIONHEROIQUE|Inspiration héroïque]], [[Représentations#INSPIRATIONTALENTUEUSE|inspiration talentueuse]] +5
 | 5
 | 5
 | 5
@@ -279,7 +245,7 @@ Categories:
 | +10
 | +5
 | +10
-| CLASS="gauche" | [[Représentations#INSPIRATIONVAILLANTE|inspiration vaillante]] +4, [[barde#MAITREDUSAVOIR|maître du savoir]] 3/jour
+| CLASS="gauche" | [[Représentations#INSPIRATIONVAILLANTE|Inspiration vaillante]] +4, [[barde#MAITREDUSAVOIR|maître du savoir]] 3/jour
 | 5
 | 5
 | 5
@@ -292,7 +258,7 @@ Categories:
 | +11
 | +6
 | +11
-| CLASS="gauche" | [[Représentations#SUGGESTIONDEGROUPE|suggestion de groupe]], [[barde#VERSATILITEARTISTIQUE|versatilité artistique]]
+| CLASS="gauche" | [[Représentations#SUGGESTIONDEGROUPE|Suggestion de groupe]], [[barde#VERSATILITEARTISTIQUE|versatilité artistique]]
 | 5
 | 5
 | 5
@@ -305,7 +271,7 @@ Categories:
 | +11
 | +6
 | +11
-| CLASS="gauche" | [[Représentations#INSPIRATIONTALENTUEUSE|inspiration talentueuse]] +6
+| CLASS="gauche" | [[Représentations#INSPIRATIONTALENTUEUSE|Inspiration talentueuse]] +6
 | 5
 | 5
 | 5
@@ -318,7 +284,7 @@ Categories:
 | +12
 | +6
 | +12
-| CLASS="gauche" | [[Représentations#REPRESENTATIONMORTELLE|représentation mortelle]]
+| CLASS="gauche" | [[Représentations#REPRESENTATIONMORTELLE|Représentation mortelle]]
 | 5
 | 5
 | 5
@@ -326,208 +292,58 @@ Categories:
 | 5
 | 5
 |}
-</center>
 
 <div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
 <div style="border: 1px solid #4b3124; padding: 4px">
-{s:Reference|TABLESORTSCONNUSBARDE}
-<center>
-{| CLASS="tablo"
-|+ Sorts connus par le barde
+{| CLASS="tablo centre autoalt"
+|+ {s:Reference|TABLESORTSCONNUSBARDE}Sorts connus par le barde
 |- CLASS="titre"
 | ROWSPAN="2" | Niveau
 | COLSPAN="7" CLASS="avecsoustitre" | Sorts connus
 |- CLASS="soustitre"
-| 0
-| 1er
-| 2e
-| 3e
-| 4e
-| 5e
-| 6e
+| 0 || 1er || 2e || 3e || 4e || 5e || 6e
 |- CLASS="premier"
-| 1
-| 4
-| 2
-| -
-| -
-| -
-| -
-| -
-|- CLASS="alt"
-| 2
-| 5
-| 3
-| -
-| -
-| -
-| -
-| -
+| 1 || 4 || 2 || - || - || - || - || -
 |-
-| 3
-| 6
-| 4
-| -
-| -
-| -
-| -
-| -
-|- CLASS="alt"
-| 4
-| 6
-| 4
-| 2
-| -
-| -
-| -
-| -
+| 2 || 5 || 3 || - || - || - || - || -
 |-
-| 5
-| 6
-| 4
-| 3
-| -
-| -
-| -
-| -
-|- CLASS="alt"
-| 6
-| 6
-| 4
-| 4
-| -
-| -
-| -
-| -
+| 3 || 6 || 4 || - || - || - || - || -
 |-
-| 7
-| 6
-| 5
-| 4
-| 2
-| -
-| -
-| -
-|- CLASS="alt"
-| 8
-| 6
-| 5
-| 4
-| 3
-| -
-| -
-| -
+| 4 || 6 || 4 || 2 || - || - || - || -
 |-
-| 9
-| 6
-| 5
-| 4
-| 4
-| -
-| -
-| -
-|- CLASS="alt"
-| 10
-| 6
-| 5
-| 5
-| 4
-| 2
-| -
-| -
+| 5 || 6 || 4 || 3 || - || - || - || -
 |-
-| 11
-| 6
-| 6
-| 5
-| 4
-| 3
-| -
-| -
-|- CLASS="alt"
-| 12
-| 6
-| 6
-| 5
-| 4
-| 4
-| -
-| -
+| 6 || 6 || 4 || 4 || - || - || - || -
 |-
-| 13
-| 6
-| 6
-| 5
-| 5
-| 4
-| 2
-| -
-|- CLASS="alt"
-| 14
-| 6
-| 6
-| 6
-| 5
-| 4
-| 3
-| -
+| 7 || 6 || 5 || 4 || 2 || - || - || -
 |-
-| 15
-| 6
-| 6
-| 6
-| 5
-| 4
-| 4
-| -
-|- CLASS="alt"
-| 16
-| 6
-| 6
-| 6
-| 5
-| 5
-| 4
-| 2
+| 8 || 6 || 5 || 4 || 3 || - || - || -
 |-
-| 17
-| 6
-| 6
-| 6
-| 6
-| 5
-| 4
-| 3
-|- CLASS="alt"
-| 18
-| 6
-| 6
-| 6
-| 6
-| 5
-| 4
-| 4
+| 9 || 6 || 5 || 4 || 4 || - || - || -
 |-
-| 19
-| 6
-| 6
-| 6
-| 6
-| 5
-| 5
-| 4
-|- CLASS="alt"
-| 20
-| 6
-| 6
-| 6
-| 6
-| 6
-| 5
-| 5
+| 10 || 6 || 5 || 5 || 4 || 2 || - || -
+|-
+| 11 || 6 || 6 || 5 || 4 || 3 || - || -
+|-
+| 12 || 6 || 6 || 5 || 4 || 4 || - || -
+|-
+| 13 || 6 || 6 || 5 || 5 || 4 || 2 || -
+|-
+| 14 || 6 || 6 || 6 || 5 || 4 || 3 || -
+|-
+| 15 || 6 || 6 || 6 || 5 || 4 || 4 || -
+|-
+| 16 || 6 || 6 || 6 || 5 || 5 || 4 || 2
+|-
+| 17 || 6 || 6 || 6 || 6 || 5 || 4 || 3
+|-
+| 18 || 6 || 6 || 6 || 6 || 5 || 4 || 4
+|-
+| 19 || 6 || 6 || 6 || 6 || 5 || 5 || 4
+|-
+| 20 || 6 || 6 || 6 || 6 || 6 || 5 || 5
 |}
-</center></div></div>
-'''Rôle.''' Les bardes excellent dans l’art de troubler et de déstabiliser leurs ennemis tout en encourageant leurs amis à toujours se dépasser. Ils savent manier à la fois les armes et la magie, mais leur véritable force réside en-dehors de la mêlée, où ils peuvent aider leurs compagnons et nuire à leurs ennemis sans craindre de voir leurs performances interrompues.
+</div></div>'''Rôle.''' Les bardes excellent dans l’art de troubler et de déstabiliser leurs ennemis tout en encourageant leurs amis à toujours se dépasser. Ils savent manier à la fois les armes et la magie, mais leur véritable force réside en-dehors de la mêlée, où ils peuvent aider leurs compagnons et nuire à leurs ennemis sans craindre de voir leurs performances interrompues.
 
 '''Alignement.''' Au choix.
 
@@ -544,11 +360,9 @@ Les compétences de classe du barde sont les suivantes : [[Acrobaties]] (Dex), [
 Les aptitudes du barde sont décrites ci-dessous.
 
 ====Armes et armures====
-
 Le barde est formé au maniement de toutes les [[arme courante|armes courantes]] ainsi que de l’arc court, l’épée courte, l’épée longue, la matraque, la rapière, et du fouet. Il est également formé au port des [[armure légère|armures légères]] et à l’utilisation des boucliers (à l’exception des pavois). Il peut porter une [[armure légère]] et utiliser un bouclier sans encourir de risque d’[[échec des sorts]]. S’il porte une [[armure intermédiaire]] ou [[armure lourde|lourde]], le risque d’[[échec des sorts]] s’applique normalement lorsque le sort lancé possède une composante gestuelle (comme pour les autres lanceurs de sorts profanes). Ces particularités ne concernent que les sorts de barde : les règles normales s’appliquent dans le cas des sorts qu’un barde [[multiclassé]] reçoit grâce à d’autres classes.
 
 ====Sorts====
-
 Un barde peut lancer des sorts profanes appartenant à la [[liste des sorts de bardes]]. Il peut lancer les sorts qu’il connaît sans devoir les préparer à l’avance. Tous les sorts qu’un barde lance s’accompagnent d’une composante verbale (qui peut prendre la forme d’une chanson, d’un poème ou d’un air de musique). Pour apprendre ou lancer un sort, le barde doit avoir une valeur de [[Charisme]] d’au moins 10 + le niveau du sort. Le [[DD|degré de difficulté]] des [[jet de sauvegarde|jets de sauvegarde]] contre ses sorts vaut 10 + le [[niveau de sort|niveau du sort]] + le modificateur de [[Charisme]] du barde.
 
 Comme les autres lanceurs de sorts, le barde ne peut lancer qu’un certain nombre de sorts de chaque niveau chaque jour. Son quota de sorts quotidiens est indiqué sur la Table "[[barde#TABLEBARDE|Le Barde]]". En plus de cela, il reçoit des sorts en bonus chaque jour s’il possède un [[Charisme]] élevé (voir la Table "[[Caractéristiques#TABLEAUCARACTERISTIQUES|Modificateurs de caractéristique et sorts en bonus]]").
@@ -561,7 +375,6 @@ Un barde n’a pas besoin de préparer ses sorts à l’avance. Il peut lancer n
 
 {s:Reference|SAVOIRBARDIQUE}
 ====Savoir bardique (Ext)====
-
 Un barde ajoute la moitié de son niveau de classe (au minimum 1) à tous ses tests de [[Connaissances]] et peut utiliser n’importe quelle compétence de [[Connaissances]], même s’il n’a pas investi de points de compétence dans celle-ci.
 
 {s:Reference|REPRESENTATIONBARDIQUE}
@@ -585,7 +398,6 @@ En remplacement de sa représentation bardique, le barde peut exécuter, sous ce
 
 {s:Reference|TOURSDEMAGIE}
 ====Tours de magie====
-
 Les bardes apprennent un certain nombre de tours de magie (ou sorts de niveau 0) comme indiqué dans la Table "[[barde#TABLESORTSCONNUSBARDE|Sorts connus par le barde]]". Ces sorts sont lancés de la même manière que les autres mais ils ne nécessitent aucun [[emplacement de sort|emplacement de sorts]] et peuvent être utilisés de manière illimitée.
 
 {s:Reference|VERSATILITEARTISTIQUE}
@@ -597,15 +409,12 @@ Les formes de Représentation et leurs compétences associées sont : chant ([[B
 
 {s:Reference|ERUDITION}
 ====Érudition (Ext)====
-
 Au niveau 2, le barde acquiert une certaine résistance aux représentations des autres bardes et aux effets de son en général. Il gagne un bonus de +4 aux [[jet de sauvegarde|jets de sauvegarde]] contre les effets des représentations bardiques, les effets de son et les effets de langage.
 
 {s:Reference|MAITREDUSAVOIR}
 ====Maître du savoir (Ext)====
-
 Au niveau 5, le barde devient un maître érudit et peut « [[Compétences#FAIRE10|faire 10]] » chaque fois qu’il doit réaliser un [[test de compétence]] relatif à une catégorie de [[Connaissances]] dans laquelle il a investi des points de compétence. Le barde n’est pas obligé de « [[Compétences#FAIRE10|faire 10]] » et peut choisir de lancer le dé normalement. De plus, une fois par jour, le barde peut « [[Compétences#FAIRE10|faire 20]] » sur un test de [[Connaissances]] en utilisant une [[action simple]]. Tous les six niveaux de barde après le niveau 5, il peut utiliser cette capacité une fois de plus chaque jour, jusqu’à un maximum de trois utilisations quotidiennes au niveau 17.
 
 {s:Reference|TOUCHE-A-TOUT}
 ====Touche-à-tout (Ext)====
-
 Au niveau 10, le barde peut utiliser n’importe quelle [[Tableau récapitulatif des compétences|compétence]], même celles qui ne peuvent normalement pas être utilisées sans formation. Au niveau 16, toutes les [[Tableau récapitulatif des compétences|compétences]] sont des compétences de classe pour le barde. Au niveau 19, le barde peut choisir de « [[Compétences#FAIRE10|faire 10]] » chaque fois qu’il doit réaliser un [[test de compétence]] et ce quelle que soit la [[Tableau récapitulatif des compétences|compétence]], même s’il s’agit d’une [[Tableau récapitulatif des compétences|compétence]] qui n’autorise normalement pas cette possibilité.

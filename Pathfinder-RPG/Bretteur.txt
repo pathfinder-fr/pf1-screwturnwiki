@@ -1,34 +1,20 @@
 ---
 Name: Pathfinder-RPG.Bretteur
-Title: Bretteur
-LastModified: 2020-06-12 15:06
+Title: Le bretteur
+LastModified: 2021-07-15 17:58
 Categories:
   - 'Classe'
-  - 'Manuel des Classes avancées'
   - 'Règles officielles'
+  - 'Src Manuel des joueurs - Classes avancées'
 ---
 {s:Menuclasseshybrides}
-<div class="fright">'''''Voir aussi les [[Exploits (bretteur)|exploits du bretteur]].'''''<br/>
+<div class="fright">'''''Voir aussi les [[Exploits (bretteur)|exploits du bretteur]].'''''  
+'''''Voir aussi les [[Bravades|bravades]].'''''  
 {s:PM0|bretteur}'''Voir les archétypes du bretteur'''&emsp;
-<ul ID="bretteur" CLASS="listecachée cadrebas">
-  <li>[[Bretteur inspiré (bretteur)|Bretteur inspiré]] (MCA)</li>
-  <li>[[Corsaire des Chaînes (bretteur)|Corsaire des Îles pirates]] (MCA)</li>
-  <li>[[Derviche tourneur (bretteur)|Derviche tourneur]] (MCA)</li>
-  <li>[[Infiltré audacieux (bretteur)|Infiltré audacieux]] (MCA)</li>
-  <li>[[Lame volante (bretteur)|Lame volante]] (MCA)</li>
-  <li>[[Mousquetaire (bretteur)|Mousquetaire]] (MCA)</li>
-  <li>[[Mystérieux vengeur (bretteur)|Mystérieux vengeur]] (MCA)</li>
-  <li>[[Petit bretteur (bretteur)|Petit bretteur]] (MCA)</li>
-  <li>[[Picaro (bretteur)|Picaro]] (MCA)</li>
-</ul></div><br/>
+  <li ID="bretteur" CLASS="listecachée" STYLE="display:none">{s:Menuarchétypebretteur}</li>
+</div>{s:MCA}''De nombreux guerriers mènent leurs combats engoncés dans de lourdes armures, de larges et puissantes armes au poing mais les bretteurs privilégient la vitesse, l’agilité et le panache. Ils entrent et sortent de la mêlée en un éclair, épuisant leurs adversaires avec des feintes et des fentes. Il leur sufft d’un simple geste du poignet pour détourner les puissantes attaques qui leur sont destinées d’un vif mouvement de leur lame. Leurs parades habiles et leurs ripostes dévastatrices élèvent le carnage au rang d’art. Certains sont arrogants et insouciants mais, sous ce masque, ce sont des gens entièrement dévoués à leur art. Les bretteurs appartenant aux races de petite taille aiment tout particulièrement prouver qu’il suffit d’un bon dosage de discipline et d’audace pour contrebalancer la force et la taille et ils n’aiment rien tant que vaincre de grosses brutes pataudes et tyranniques.''
 
-{s:MCA}''De nombreux guerriers mènent leurs combats engoncés dans de lourdes armures, de larges et puissantes armes au poing mais les bretteurs privilégient la vitesse, l’agilité et le panache. Ils entrent et sortent de la mêlée en un éclair, épuisant leurs adversaires avec des feintes et des fentes. Il leur sufft d’un simple geste du poignet pour détourner les puissantes attaques qui leur sont destinées d’un vif mouvement de leur lame. Leurs parades habiles et leurs ripostes dévastatrices élèvent le carnage au rang d’art. Certains sont arrogants et insouciants mais, sous ce masque, ce sont des gens entièrement dévoués à leur art. Les bretteurs appartenant aux races de petite taille aiment tout particulièrement prouver qu’il suffit d’un bon dosage de discipline et d’audace pour contrebalancer la force et la taille et ils n’aiment rien tant que vaincre de grosses brutes pataudes et tyranniques.''
-
-<table width="100%">
-<tr>
-<td>
-<center>
-{| CLASS="tablo"
+{| CLASS="tablo centre autoalt"
 |+ Le bretteur
 |- CLASS="titre"
 | Niveau
@@ -43,8 +29,8 @@ Categories:
 | +2
 | +0
 | +0
-| CLASS="gauche" | [[bretteur#EXPLOITS|Exploits]], [[bretteur#PANACHE|panache]], [[bretteur#FINESSEDUBRETTEUR|finesse du bretteur]]
-|- CLASS="alt"
+| CLASS="gauche" | [[bretteur#EXPLOITS|Exploits]], [[bretteur#FINESSEDUBRETTEUR|finesse du bretteur]], [[bretteur#PANACHE|panache]]
+|-
 | 2
 | +2
 | +3
@@ -57,22 +43,22 @@ Categories:
 | +3
 | +1
 | +1
-| CLASS="gauche" | [[bretteur#EXPLOITS|Exploits]], [[bretteur#AGILITE|agilité]] +1
-|- CLASS="alt"
+| CLASS="gauche" | [[bretteur#AGILITE|Agilité]] +1, [[bretteur#EXPLOITS|exploits]]
+|-
 | 4
 | +4
 | +4
 | +1
 | +1
-| CLASS="gauche" | [[bretteur#DONSUPPLEMENTAIRE|don supplémentaire]]
+| CLASS="gauche" | [[bretteur#DONSUPPLEMENTAIRE|Don supplémentaire]]
 |-
 | 5
 | +5
 | +4
 | +1
 | +1
-| CLASS="gauche" | [[bretteur#ENTRAINEMENTAUXARMES|entraînement aux armes du bretteur]] 1
-|- CLASS="alt"
+| CLASS="gauche" | [[bretteur#ENTRAINEMENTAUXARMES|Entraînement aux armes du bretteur]] 1
+|-
 | 6
 | +6/+1
 | +5
@@ -85,112 +71,110 @@ Categories:
 | +5
 | +2
 | +2
-| CLASS="gauche" | [[bretteur#EXPLOITS|Exploits]], [[bretteur#AGILITE|agilité]] +2
-|- CLASS="alt"
+| CLASS="gauche" | [[bretteur#AGILITE|Agilité]] +2, [[bretteur#EXPLOITS|exploits]]
+|-
 | 8
 | +8/+3
 | +6
 | +2
 | +2
-| CLASS="gauche" | [[bretteur#DONSUPPLEMENTAIRE|don supplémentaire]]
+| CLASS="gauche" | [[bretteur#DONSUPPLEMENTAIRE|Don supplémentaire]]
 |-
 | 9
 | +9/+4
 | +6
 | +3
 | +3
-| CLASS="gauche" | [[bretteur#ENTRAINEMENTAUXARMES|entraînement aux armes du bretteur]] 2
-|- CLASS="alt"
+| CLASS="gauche" | [[bretteur#ENTRAINEMENTAUXARMES|Entraînement aux armes du bretteur]] 2
+|-
 | 10
 | +10/+5
 | +7
 | +3
 | +3
-| CLASS="gauche" | [[bretteur#CHARMANTEVIE|Charmante vie ]] 5/jour
+| CLASS="gauche" | [[bretteur#CHARMANTEVIE|Charmante vie]] 5/jour
 |-
 | 11
 | +11/+6/+1
 | +7
 | +3
 | +3
-| CLASS="gauche" | [[bretteur#EXPLOITS|Exploits]], [[bretteur#AGILITE|agilité]] +3
-|- CLASS="alt"
+| CLASS="gauche" | [[bretteur#AGILITE|Agilité]] +3, [[bretteur#EXPLOITS|exploits]]
+|-
 | 12
 | +12/+7/+2
 | +8
 | +4
 | +4
-| CLASS="gauche" | [[bretteur#DONSUPPLEMENTAIRE|don supplémentaire]]
+| CLASS="gauche" | [[bretteur#DONSUPPLEMENTAIRE|Don supplémentaire]]
 |-
 | 13
 | +13/+8/+3
 | +8
 | +4
 | +4
-| CLASS="gauche" | [[bretteur#ENTRAINEMENTAUXARMES|entraînement aux armes du bretteur]] 3
-|- CLASS="alt"
+| CLASS="gauche" | [[bretteur#ENTRAINEMENTAUXARMES|Entraînement aux armes du bretteur]] 3
+|-
 | 14
 | +14/+9/+4
 | +9
 | +4
 | +4
-| CLASS="gauche" | [[bretteur#CHARMANTEVIE|Charmante vie ]] 6/jour
+| CLASS="gauche" | [[bretteur#CHARMANTEVIE|Charmante vie]] 6/jour
 |-
 | 15
 | +15/+10/+5
 | +9
 | +5
 | +5
-| CLASS="gauche" | [[bretteur#EXPLOITS|Exploits]], [[bretteur#AGILITE|agilité]] +4
-|- CLASS="alt"
+| CLASS="gauche" | [[bretteur#AGILITE|Agilité]] +4, [[bretteur#EXPLOITS|exploits]]
+|-
 | 16
 | +16/+11/+6/+1
 | +10
 | +5
 | +5
-| CLASS="gauche" | [[bretteur#DONSUPPLEMENTAIRE|don supplémentaire]]
+| CLASS="gauche" | [[bretteur#DONSUPPLEMENTAIRE|Don supplémentaire]]
 |-
 | 17
 | +17/+12/+7/+2
 | +10
 | +5
 | +5
-| CLASS="gauche" | [[bretteur#ENTRAINEMENTAUXARMES|entraînement aux armes du bretteur]] 4
-|- CLASS="alt"
+| CLASS="gauche" | [[bretteur#ENTRAINEMENTAUXARMES|Entraînement aux armes du bretteur]] 4
+|-
 | 18
 | +18/+13/+8/+3
 | +11
 | +6
 | +6
-| CLASS="gauche" | [[bretteur#CHARMANTEVIE|Charmante vie ]] 7/jour
+| CLASS="gauche" | [[bretteur#CHARMANTEVIE|Charmante vie]] 7/jour
 |-
 | 19
 | +19/+14/+9/+4
 | +11
 | +6
 | +6
-| CLASS="gauche" | [[bretteur#EXPLOITS|Exploits]], [[bretteur#AGILITE|agilité]] +5
-|- CLASS="alt"
+| CLASS="gauche" | [[bretteur#AGILITE|Agilité]] +5, [[bretteur#EXPLOITS|exploits]]
+|-
 | 20
 | +20/+15/+10/+5
 | +12
 | +6
 | +6
-| CLASS="gauche" | [[bretteur#DONSUPPLEMENTAIRE|don supplémentaire]], [[bretteur#MAITRISEDESARMES|maîtrise des armes du bretteur]]
+| CLASS="gauche" | [[bretteur#DONSUPPLEMENTAIRE|Don supplémentaire]], [[bretteur#MAITRISEDESARMES|maîtrise des armes du bretteur]]
 |}
-</center>
-</td></tr>
-</table>
-
 
 {s:ImageDroite|Illustrations/PNJ/Jirelle.jpg|30%}
-'''Rôle'''. Le bretteur combine un jeu de jambes fantaisiste avec des fentes rapides et précises. Il va et vient parmi ses adversaires qu’il harcèle et déstabilise. Ces combattants rapides et agiles servent de protecteurs aux lanceurs de sorts, aident les roublards et les tueurs à prendre leurs ennemis en tenaille et attendent patiemment une occasion de briller et de porter le coup de grâce à une quelconque brute épaisse. Ils affrontent la mort avec un humour narquois et s’en moquent avec beaucoup de finesse.
+'''Rôle.''' Le bretteur combine un jeu de jambes fantaisiste avec des fentes rapides et précises. Il va et vient parmi ses adversaires qu’il harcèle et déstabilise. Ces combattants rapides et agiles servent de protecteurs aux lanceurs de sorts, aident les roublards et les tueurs à prendre leurs ennemis en tenaille et attendent patiemment une occasion de briller et de porter le coup de grâce à une quelconque brute épaisse. Ils affrontent la mort avec un humour narquois et s’en moquent avec beaucoup de finesse.
 
-'''Alignement'''. Tous.
+'''Classes mères.''' [[Guerrier]] et [[Pistolier|pistolier]].
 
-'''Dé de vie'''. d10.
+'''Alignement.''' Tous.
 
-'''Classes mères'''. [[Pistolier]] et [[Guerrier]].
+'''Dé de vie.''' d10.
+
+'''Argent de départ.''' 5d6 x 10 po (moyenne 175 po).
 
 ===Compétences de classe===
 Voici les compétences de classe du bretteur : [[Acrobaties]] (Dex), [[Artisanat]] (Int), [[Bluff]] (Cha), [[Connaissances]] (folklore local) (Int), [[Connaissances]] (noblesse) (Int), [[Diplomatie]] (Cha), [[Équitation]] (Dex), [[Escalade]] (For), [[Escamotage]] (Dex), [[Évasion]] (Dex), [[Intimidation]] (Cha), [[Natation]] (For), [[Perception]] (Sag), [[Profession]] (Sag), [[Psychologie]] (Sag) et [[Représentation]] (Cha).
@@ -207,9 +191,9 @@ Le bretteur est formé au maniement de toutes les armes courantes et de guerre, 
 ====Panache (Ext)====
 Le bretteur n’est pas un simple guerrier à l’armure légère, c’est un combattant audacieux qui se bat avec panache, ce panache étant la monnaie fluctuante qui lui permet d’accomplir des actions d’éclat lors d’un affrontement. Chaque matin, le bretteur gagne un nombre de points de panache égal à son modificateur de [[Charisme]] (1 au minimum). Ce panache augmente et diminue au cours de la journée mais ne peut pas dépasser la valeur du modificateur de Charisme du bretteur (1 au minimum), à moins d’utiliser un don ou un objet magique qui modifie ce minimum. Le bretteur dépense du panache pour accomplir des exploits (voir plus bas) et le récupère de diverses manières.
 
-* '''Coup critique avec une arme perforante légère ou à une main de corps à corps.''' Le bretteur récupère un point de panache à chaque fois qu’il confirme un coup critique avec une arme perforante légère ou à une main de corps à corps. Ce n’est pas le cas s’il confirme ce coup critique contre une créature sans défense ou qui n’est pas consciente du danger, ou qui possède moins de DV que la moitié du niveau de personnage du bretteur.
+'''Coup critique avec une arme perforante légère ou à une main de corps à corps.''' Le bretteur récupère un point de panache à chaque fois qu’il confirme un coup critique avec une arme perforante légère ou à une main de corps à corps. Ce n’est pas le cas s’il confirme ce coup critique contre une créature sans défense ou qui n’est pas consciente du danger, ou qui possède moins de DV que la moitié du niveau de personnage du bretteur.
 
-* '''Coup de grâce avec une arme perforante légère ou à une main de corps à corps.''' Le bretteur récupère un point de panache quand il fait tomber une créature à 0 point de vie ou moins lors d’une attaque portée en plein combat avec une arme perforante légère ou à une main de corps à corps. Il ne récupère pas de panache s’il détruit un objet abandonné, s’il réduit une créature sans défense ou qui n’est pas consciente du danger à 0 point de vie ou moins ou encore s’il réduit une créature possédant moins de DV que la moitié de son niveau de personnage à 0 point de vie ou moins.
+'''Coup de grâce avec une arme perforante légère ou à une main de corps à corps.''' Le bretteur récupère un point de panache quand il fait tomber une créature à 0 point de vie ou moins lors d’une attaque portée en plein combat avec une arme perforante légère ou à une main de corps à corps. Il ne récupère pas de panache s’il détruit un objet abandonné, s’il réduit une créature sans défense ou qui n’est pas consciente du danger à 0 point de vie ou moins ou encore s’il réduit une créature possédant moins de DV que la moitié de son niveau de personnage à 0 point de vie ou moins.
 
 
 {s:Reference|EXPLOITS}

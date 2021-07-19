@@ -1,22 +1,17 @@
 ---
 Name: Pathfinder-RPG.Antipaladin
-Title: Antipaladin
-LastModified: 2021-06-17 12:26
+Title: L'antipaladin
+LastModified: 2021-07-15 17:54
 Categories:
   - 'Classe'
-  - 'Manuel des joueurs, règles avancées'
   - 'Règles officielles'
+  - 'Src Manuel des joueurs - Règles avancées'
 ---
 {s:Menuclassessupplémentaires}
-<div class="fright">'''''Voir aussi la [[Liste des sorts dantipaladin|liste des sorts des antipaladins]].'''''<br/>
-'''''Voir aussi le [[paladin]].'''''<br/>
-{s:PM0|antipaladin}'''''Voir aussi ses archétypes.'''''&emsp;
-<ul ID="antipaladin" CLASS="listecachée cadrebas">
-  <li>[[Chevalier du sépulcre (paladin)|Chevalier du sépulcre]] (UC)</li>
-  <li>[[Insinuateur (paladin)|Insinuateur]] </li>
-  <li>[[Saccageur (paladin)|Saccageur]] </li>
-  <li>[[Semeur de peur (antipaladin)|Semeur de peur]] ([[Gobelours]]) (CM) </li>
-</ul></div>{s:apg}''Cela ne se produit que rarement, mais certains paladins s’éloignent du chemin de la vertu. La plupart de ces guerriers saints égarés cherchent la rédemption et le pardon pour leurs mauvaises actions et récupèrent ensuite leurs pouvoirs en usant de piété, de charité et de puissants sortilèges. Mais ce n’est pas le cas de tous : afin d’assouvir leur désir de vengeance envers leurs anciens frères, de rares individus suffisamment sombres et dérangés s’adonnent activement au Mal et se tournent vers les puissances maléfiques qu’ils avaient autrefois combattues. Une maxime dit que, plus on s’élève et plus sévère sera la chute. Les antipaladins sont la preuve vivante que c’est bien la vérité : leur fierté et leur haine les rendent aveugles à la gloire des puissances qu’ils ont reniées.
+<div class="fright">'''''Voir aussi la [[Liste des sorts dantipaladin|liste des sorts d'antipaladin]].'''''  
+{s:PM0|antipaladin}'''Voir les archétypes de l'antipaladin.'''&emsp;
+  <li ID="antipaladin" CLASS="listecachée" STYLE="display:none">{s:Menuarchétypepaladin}</li>
+</div>{s:apg}''Cela ne se produit que rarement, mais certains paladins s’éloignent du chemin de la vertu. La plupart de ces guerriers saints égarés cherchent la rédemption et le pardon pour leurs mauvaises actions et récupèrent ensuite leurs pouvoirs en usant de piété, de charité et de puissants sortilèges. Mais ce n’est pas le cas de tous : afin d’assouvir leur désir de vengeance envers leurs anciens frères, de rares individus suffisamment sombres et dérangés s’adonnent activement au Mal et se tournent vers les puissances maléfiques qu’ils avaient autrefois combattues. Une maxime dit que, plus on s’élève et plus sévère sera la chute. Les antipaladins sont la preuve vivante que c’est bien la vérité : leur fierté et leur haine les rendent aveugles à la gloire des puissances qu’ils ont reniées.
 
 Les antipaladins deviennent l’exact opposé de ce qu’ils étaient. Ils établissent des pactes avec des fiélons, prennent des vies innocentes et n’accordent d’importance qu’à leur quête personnelle de pouvoir et de richesse. Ces champions du Mal dirigent souvent des armées de créatures maléfiques et s’allient avec d’autres individus sombres afin de détruire tout ce qui est sacré et de tyranniser les faibles. Ce n’est donc pas étonnant que les paladins n’économisent aucun effort pour débarrasser le monde de ces individus malfaisants.
 
@@ -24,10 +19,8 @@ L’antipaladin est une classe modifiée qui utilise et altère de nombreuses fa
 
 En tant que classe de paladin modifiée, l’antipaladin utilise la Table 2–11 pour déterminer son bonus de base à l’attaque, ses bonus de jets de sauvegarde et ses sorts par jour. Tous ces détails, ainsi que les nouvelles capacités de la classe, se trouvent sur cette table.
 
-{s:Reference|TABLEANTIPALADIN}
-<center>
-{| CLASS="tablo"
-|+ L'antipaladin
+{| CLASS="tablo centre"
+|+ {s:Reference|TABLEANTIPALADIN}L'antipaladin
 |- CLASS="titre"
 | ROWSPAN="2" | Niveau
 | ROWSPAN="2" | BBA
@@ -47,7 +40,7 @@ En tant que classe de paladin modifiée, l’antipaladin utilise la Table 2–11
 | +0
 | +2
 | +2
-| CLASS="gauche" | [[Antipaladin#AURADUMAL|aura du mal]], [[Antipaladin#DETECTIONDUBIEN|détection du bien]], <br/>[[Antipaladin#CHATIMENTDUBIEN|châtiment du bien]] 1/jour
+| CLASS="gauche" | [[Antipaladin#AURADUMAL|Aura du mal]], [[Antipaladin#CHATIMENTDUBIEN|châtiment du bien]] 1/jour, [[Antipaladin#DETECTIONDUBIEN|détection du bien]]
 | -
 | -
 | -
@@ -58,7 +51,7 @@ En tant que classe de paladin modifiée, l’antipaladin utilise la Table 2–11
 | +0
 | +3
 | +3
-| CLASS="gauche" | [[Antipaladin#RESISTANCEMAUDITE|résistance maudite]], [[Antipaladin#TOUCHERDECORRUPTION|toucher de la corruption]]
+| CLASS="gauche" | [[Antipaladin#RESISTANCEMAUDITE|Résistance maudite]], [[Antipaladin#TOUCHERDECORRUPTION|toucher de la corruption]]
 | -
 | -
 | -
@@ -69,7 +62,7 @@ En tant que classe de paladin modifiée, l’antipaladin utilise la Table 2–11
 | +1
 | +3
 | +3
-| CLASS="gauche" | [[Antipaladin#AURADELACHETE|aura de lâcheté]], [[Antipaladin#VECTEURDEMALADIE|vecteur de maladie]], [[Antipaladin#CRUAUTE|cruauté]]
+| CLASS="gauche" | [[Antipaladin#AURADELACHETE|Aura de lâcheté]], [[Antipaladin#CRUAUTE|cruauté]], [[Antipaladin#VECTEURDEMALADIE|vecteur de maladie]]
 | -
 | -
 | -
@@ -80,7 +73,7 @@ En tant que classe de paladin modifiée, l’antipaladin utilise la Table 2–11
 | +1
 | +4
 | +4
-| CLASS="gauche" | [[Antipaladin#CANALISATIONDENERGIENEGATIVE|canalisation d'énergie negative]], <br/>[[Antipaladin#CHATIMENTDUBIEN|châtiment du bien]] 2/jour
+| CLASS="gauche" | [[Antipaladin#CANALISATIONDENERGIENEGATIVE|Canalisation d'énergie negative]], [[Antipaladin#CHATIMENTDUBIEN|châtiment du bien]] 2/jour
 | 0
 | -
 | -
@@ -91,7 +84,7 @@ En tant que classe de paladin modifiée, l’antipaladin utilise la Table 2–11
 | +1
 | +4
 | +4
-| CLASS="gauche" | [[Antipaladin#FAVEURDESFIELONS|faveur des fiélons]]
+| CLASS="gauche" | [[Antipaladin#FAVEURDESFIELONS|Faveur des fiélons]]
 | 1
 | -
 | -
@@ -102,7 +95,7 @@ En tant que classe de paladin modifiée, l’antipaladin utilise la Table 2–11
 | +2
 | +5
 | +5
-| CLASS="gauche" | [[Antipaladin#CRUAUTE|cruauté]]
+| CLASS="gauche" | [[Antipaladin#CRUAUTE|Cruauté]]
 | 1
 | -
 | -
@@ -113,7 +106,7 @@ En tant que classe de paladin modifiée, l’antipaladin utilise la Table 2–11
 | +2
 | +5
 | +5
-| CLASS="gauche" | [[Antipaladin#CHATIMENTDUBIEN|châtiment du bien]] 3/jour
+| CLASS="gauche" | [[Antipaladin#CHATIMENTDUBIEN|Châtiment du bien]] 3/jour
 | 1
 | 0
 | -
@@ -124,7 +117,7 @@ En tant que classe de paladin modifiée, l’antipaladin utilise la Table 2–11
 | +2
 | +6
 | +6
-| CLASS="gauche" | [[Antipaladin#AURADEDESESPOIR|aura de désespoir]]
+| CLASS="gauche" | [[Antipaladin#AURADEDESESPOIR|Aura de désespoir]]
 | 1
 | 1
 | -
@@ -135,7 +128,7 @@ En tant que classe de paladin modifiée, l’antipaladin utilise la Table 2–11
 | +3
 | +6
 | +6
-| CLASS="gauche" | [[Antipaladin#CRUAUTE|cruauté]]
+| CLASS="gauche" | [[Antipaladin#CRUAUTE|Cruauté]]
 | 2
 | 1
 | -
@@ -146,7 +139,7 @@ En tant que classe de paladin modifiée, l’antipaladin utilise la Table 2–11
 | +3
 | +7
 | +7
-| CLASS="gauche" | [[Antipaladin#CHATIMENTDUBIEN|châtiment du bien]] 4/jour
+| CLASS="gauche" | [[Antipaladin#CHATIMENTDUBIEN|Châtiment du bien]] 4/jour
 | 2
 | 1
 | 0
@@ -157,7 +150,7 @@ En tant que classe de paladin modifiée, l’antipaladin utilise la Table 2–11
 | +3
 | +7
 | +7
-| CLASS="gauche" | [[Antipaladin#AURADEVENGEANCE|aura de vengeance]]
+| CLASS="gauche" | [[Antipaladin#AURADEVENGEANCE|Aura de vengeance]]
 | 2
 | 1
 | 1
@@ -168,7 +161,7 @@ En tant que classe de paladin modifiée, l’antipaladin utilise la Table 2–11
 | +4
 | +8
 | +8
-| CLASS="gauche" | [[Antipaladin#CRUAUTE|cruauté]]
+| CLASS="gauche" | [[Antipaladin#CRUAUTE|Cruauté]]
 | 2
 | 2
 | 1
@@ -179,7 +172,7 @@ En tant que classe de paladin modifiée, l’antipaladin utilise la Table 2–11
 | +4
 | +8
 | +8
-| CLASS="gauche" | [[Antipaladin#CHATIMENTDUBIEN|châtiment du bien]] 5/jour
+| CLASS="gauche" | [[Antipaladin#CHATIMENTDUBIEN|Châtiment du bien]] 5/jour
 | 3
 | 2
 | 1
@@ -190,7 +183,7 @@ En tant que classe de paladin modifiée, l’antipaladin utilise la Table 2–11
 | +4
 | +9
 | +9
-| CLASS="gauche" | [[Antipaladin#AURADUPECHE|aura de péché]]
+| CLASS="gauche" | [[Antipaladin#AURADUPECHE|Aura de péché]]
 | 3
 | 2
 | 1
@@ -201,7 +194,7 @@ En tant que classe de paladin modifiée, l’antipaladin utilise la Table 2–11
 | +5
 | +9
 | +9
-| CLASS="gauche" | [[Antipaladin#CRUAUTE|cruauté]]
+| CLASS="gauche" | [[Antipaladin#CRUAUTE|Cruauté]]
 | 3
 | 2
 | 2
@@ -212,7 +205,7 @@ En tant que classe de paladin modifiée, l’antipaladin utilise la Table 2–11
 | +5
 | +10
 | +10
-| CLASS="gauche" | [[Antipaladin#CHATIMENTDUBIEN|châtiment du bien]] 6/jour
+| CLASS="gauche" | [[Antipaladin#CHATIMENTDUBIEN|Châtiment du bien]] 6/jour
 | 3
 | 3
 | 2
@@ -223,7 +216,7 @@ En tant que classe de paladin modifiée, l’antipaladin utilise la Table 2–11
 | +5
 | +10
 | +10
-| CLASS="gauche" | [[Antipaladin#AURADEDEPRAVATION|aura de dépravation]]
+| CLASS="gauche" | [[Antipaladin#AURADEDEPRAVATION|Aura de dépravation]]
 | 4
 | 3
 | 2
@@ -234,7 +227,7 @@ En tant que classe de paladin modifiée, l’antipaladin utilise la Table 2–11
 | +6
 | +11
 | +11
-| CLASS="gauche" | [[Antipaladin#CRUAUTE|cruauté]]
+| CLASS="gauche" | [[Antipaladin#CRUAUTE|Cruauté]]
 | 4
 | 3
 | 2
@@ -245,7 +238,7 @@ En tant que classe de paladin modifiée, l’antipaladin utilise la Table 2–11
 | +6
 | +11
 | +11
-| CLASS="gauche" | [[Antipaladin#CHATIMENTDUBIEN|châtiment du bien]] 7/jour
+| CLASS="gauche" | [[Antipaladin#CHATIMENTDUBIEN|Châtiment du bien]] 7/jour
 | 4
 | 3
 | 3
@@ -256,14 +249,12 @@ En tant que classe de paladin modifiée, l’antipaladin utilise la Table 2–11
 | +6
 | +12
 | +12
-| CLASS="gauche" | [[Antipaladin#CHAMPIONMAUDIT|champion maudit]]
+| CLASS="gauche" | [[Antipaladin#CHAMPIONMAUDIT|Champion maudit]]
 | 4
 | 4
 | 3
 | 3
 |}
-</center>
-
 
 '''Rôle.''' Les antipaladins sont les plus dangereux des héros maléfiques. Ils n’accordent aucune importance à la vie des autres et recherchent activement à semer la mort et la destruction au sein des sociétés organisées. Ils ne voyagent généralement qu’en compagnie d’individus qui leur sont soumis, sauf lorsqu’ils s’infiltrent parmi leurs ennemis pour les détruire de l’intérieur.
 
@@ -271,15 +262,14 @@ En tant que classe de paladin modifiée, l’antipaladin utilise la Table 2–11
 
 '''Dés de vie.''' d10.
 
+'''Argent de départ.''' 5d6 x 10 po (moyenne 175 po).
+
 === Compétences de classe ===
 Les compétences de classe de l’antipaladin sont les suivantes  : [[Art de la magie]] ([[Int]]), [[Artisanat]] ([[Int]]), [[Bluff]] ([[Cha]]), [[Connaissances]] (religion) ([[Int]]), [[Déguisement]] ([[Cha]]), [[Discrétion]] ([[Dex]]), [[Dressage]] ([[Cha]]), [[Équitation]] ([[Dex]]), [[Intimidation]] ([[Cha]]), [[Profession]] ([[Sag]]) et [[Psychologie]] ([[Sag]]).
 
 '''Points de compétence par niveau''' 2 + modificateur d’[[Intelligence]].
 
 {s:ImageDroite|Illustrations/PNJ/Urgraz.jpg|35%}
-
-
-
 === Descriptif de la classe ===
 Les aptitudes de l’antipaladin sont décrites ci-dessous.
 
@@ -288,17 +278,17 @@ Les antipaladins sont formés à l’utilisation de toutes les [[Caractéristiqu
 
 {s:Reference|AURADUMAL}
 ==== Aura du Mal (Ext) ====
-La puissance de l’aura de Mal (voir [[détection du Mal|''détection du Mal'']]) qui entoure un antipaladin est égale à son niveau. Lorsqu’un [[paladin]] utilise sa capacité de [[paladin#Châtiment du Mal|Châtiment du Mal]] sur un antipaladin, il inflige 2 points de dégâts par niveau de paladin lors de la première attaque réussie.
+La puissance de l’aura de Mal (voir ''[[détection du Mal]]'') qui entoure un antipaladin est égale à son niveau. Lorsqu’un [[paladin]] utilise sa capacité de [[paladin#Châtiment du Mal|châtiment du Mal]] sur un antipaladin, il inflige 2 points de dégâts par niveau de paladin lors de la première attaque réussie.
 
 {s:Reference|DETECTIONDUBIEN}
 ==== Détection du Bien (Mag) ====
-Un antipaladin peut détecter le [[bon|Bien]] à volonté, comme par le sort de [[détection du Bien|''détection du Bien'']]. Par une [[action de mouvement]], l’antipaladin peut se concentrer sur un objet ou un individu unique distant d’au plus 18 m pour déterminer s’il est d’[[alignement]] [[Bon]] et pour connaître la puissance de son aura comme s’il l’avait étudié pendant 3  rounds. Lorsqu’il se concentre sur un objet ou un individu, l’antipaladin ne détecte pas le [[bon|Bien]] sur les autres objets ou individus.
+Un antipaladin peut détecter le Bien à volonté, comme par le sort de ''[[détection du Bien]]''. Par une [[action de mouvement]], l’antipaladin peut se concentrer sur un objet ou un individu unique distant d’au plus 18 m pour déterminer s’il est d’[[alignement]] [[Bon]] et pour connaître la puissance de son aura comme s’il l’avait étudié pendant 3  rounds. Lorsqu’il se concentre sur un objet ou un individu, l’antipaladin ne détecte pas le Bien sur les autres objets ou individus.
 
 {s:Reference|CHATIMENTDUBIEN}
 ==== Châtiment du Bien (Sur) ====
-Une fois par jour, un antipaladin peut faire appel aux puissances du mal pour écraser les forces du [[bon|bien]]. Par une [[action rapide]], l’antipaladin désigne un ennemi situé dans son champ de vision et le prend pour cible de son châtiment du [[bon|bien]]. Si la cible est d’[[alignement]] [[bon]], l’antipaladin ajoute son bonus de [[Charisme]] (s’il en a un) à ses jets d’attaques et son niveau d’antipaladin à tous les jets de dégâts contre elle. Si la cible est un [[type Extérieur|Extérieur]] du sous-type [[bon|bien]], un [[dragon]] d’[[alignement]] [[bon]] ou un individu d’[[alignement]] [[bon]] possédant des niveaux de [[prêtre]] ou de [[paladin]], le bonus aux dégâts passe à 2 points de dégâts par niveau de l’antipaladin pour la première attaque réussie. Dans tous les cas, les attaques du châtiment du Bien ignorent toutes les [[RD|réductions de dégâts]] dont la cible pourrait bénéficier.
+Une fois par jour, un antipaladin peut faire appel aux puissances du mal pour écraser les forces du bien. Par une [[action rapide]], l’antipaladin désigne un ennemi situé dans son champ de vision et le prend pour cible de son châtiment du Bien. Si la cible est d’[[alignement]] [[Bon]], l’antipaladin ajoute son bonus de [[Charisme]] (s’il en a un) à ses jets d’attaques et son niveau d’antipaladin à tous les jets de dégâts contre elle. Si la cible est un [[type Extérieur|Extérieur]] du sous-type [[sous-type Bien|bien]], un [[dragon]] d’alignement Bon ou un individu d’alignement Bon possédant des niveaux de [[prêtre]] ou de [[paladin]], le bonus aux dégâts passe à 2 points de dégâts par niveau de l’antipaladin pour la première attaque réussie. Dans tous les cas, les attaques du châtiment du Bien ignorent toutes les [[RD|réductions de dégâts]] dont la cible pourrait bénéficier.
 
-De plus, lorsqu’un châtiment du Bien est en cours, l’antipaladin gagne un bonus de parade à sa [[CA]] égal à son bonus de [[Charisme]] (s’il en a un) contre les attaques portées par la cible du châtiment du Bien. Si l’antipaladin désigne une créature qui n’est pas d’[[alignement]] [[bon]], le châtiment est dépensé, mais il n’a aucun effet.
+De plus, lorsqu’un châtiment du Bien est en cours, l’antipaladin gagne un bonus de parade à sa [[CA]] égal à son bonus de [[Charisme]] (s’il en a un) contre les attaques portées par la cible du châtiment du Bien. Si l’antipaladin désigne une créature qui n’est pas d’[[alignement]] [[Bon]], le châtiment est dépensé, mais il n’a aucun effet.
 
 L’effet du châtiment du Bien persiste jusqu’à ce que la cible soit morte ou jusqu’à ce que l’antipaladin se repose et récupère son quota quotidien d’utilisations de cette capacité. Au niveau 4 et tous les trois niveaux par la suite, l’antipaladin obtient une utilisation quotidienne supplémentaire de ce pouvoir, comme indiqué sur la Table 2-13, avec un maximum de sept utilisations quotidiennes au niveau 19.
 
@@ -324,7 +314,7 @@ Au niveau  3,  les puissances des ténèbres transforment l’antipaladin en sym
 
 {s:Reference|CRUAUTE}
 ==== Cruauté (Sur) ====
-Au niveau  3 et tous les trois niveaux par la suite, un antipaladin peut choisir une cruauté. Chaque cruauté ajoute un effet supplémentaire à sa capacité de [[antipaladin#TOUCHERDECORRUPTION|toucher de corruption]]. Chaque fois que l’antipaladin inflige des dégâts par un [[antipaladin#TOUCHERDECORRUPTION|toucher de corruption]], la cible subit également les effets d’une des cruautés de l’antipaladin (le choix est fait lors de l’utilisation du [[antipaladin#TOUCHERDECORRUPTION|toucher de corruption]]). La cible bénéficie d’un [[jet de sauvegarde|jet de Vigueur]] pour éviter cette cruauté. Si le jet est réussi, la cible subit les dégâts normaux mais pas les effets de la cruauté. Le DD de ce jet de sauvegarde vaut 10 + la moitié du niveau de l’antipaladin + son modificateur de [[Charisme]].
+Au niveau  3 et tous les trois niveaux par la suite, un antipaladin peut choisir une cruauté. Chaque cruauté ajoute un effet supplémentaire à sa capacité de [[antipaladin#TOUCHERDECORRUPTION|toucher de corruption]]. Chaque fois que l’antipaladin inflige des dégâts par un toucher de corruption, la cible subit également les effets d’une des cruautés de l’antipaladin (le choix est fait lors de l’utilisation du toucher de corruption). La cible bénéficie d’un [[jet de sauvegarde|jet de Vigueur]] pour éviter cette cruauté. Si le jet est réussi, la cible subit les dégâts normaux mais pas les effets de la cruauté. Le DD de ce jet de sauvegarde vaut 10 + la moitié du niveau de l’antipaladin + son modificateur de [[Charisme]].
 
 Au niveau 3, l'antipaladin peut sélectionner une des cruautés suivantes :
 * '''Fatigué''' : la cible est [[fatigué|fatiguée]].
@@ -352,21 +342,18 @@ Au niveau 12,  les choix suivants s’ajoutent à la liste des cruautés disponi
 Ces effets ne se cumulent pas. Par exemple, lorsqu’un antipaladin de niveau 12 utilise son [[Antipaladin#TOUCHERDECORRUPTION|toucher de corruption]], il inflige 6d6 points de dégâts et peut également rendre la cible fatiguée, hébétée, empoisonnée ou malade. Une fois qu’une cruauté a été sélectionnée, ce choix ne peut plus être modifié.
 
 {s:Reference|CANALISATIONDENERGIENEGATIVE}
-
-
 ==== Canalisation d’énergie négative (Sur) ====
 Lorsque l’antipaladin atteint le niveau  4, il acquiert la capacité surnaturelle de [[prêtre#CANALISATIONDENERGIE|canaliser de l’énergie négative]] avec un niveau effectif de [[prêtre]] égal à son niveau d’antipaladin. Chaque canalisation d’énergie consomme deux utilisations de sa capacité de [[antipaladin#toucher de corruption|toucher de corruption]]. Il s’agit d’une capacité basée sur le [[Charisme]].
 
 {s:Reference|SORTS}
-
 ==== Sorts ====
 Dès le niveau  4, un antipaladin peut lancer un petit nombre de sorts divins appartenant à la [[liste des sorts dantipaladin|liste de sorts d’antipaladin]]. Un antipaladin doit choisir et préparer ses sorts à l’avance. Pour préparer ou lancer un sort, un antipaladin doit avoir une valeur de [[Charisme]] au moins égale à 10  +  le niveau du sort. Le DD des jets de sauvegarde contre les sorts de l’antipaladin est égal à 10 +  le niveau du sort + le modificateur de [[Charisme]] de l’antipaladin.
 
-Comme les autres lanceurs de sorts, l’antipaladin ne peut lancer qu’un nombre de sorts donné de chaque niveau chaque jour. Son quota de sorts quotidiens est indiqué sur la Table 2-11. En plus de cela, il reçoit des sorts supplémentaires si sa valeur de [[Charisme]] est [[caractéristiques#TABLEAUCARACTERISTIQUES|suffisamment élevée]]. Quand la Table 2-11 indique que l’antipaladin peut lancer quotidiennement 0  sort d’un niveau donné, il ne dispose, pour ce niveau de sorts, que des sorts supplémentaires que lui accorde un [[Charisme]] élevé.
+Comme les autres lanceurs de sorts, l’antipaladin ne peut lancer qu’un nombre de sorts donné de chaque niveau chaque jour. Son quota de sorts quotidiens est indiqué sur la Table 2-11. En plus de cela, il reçoit des sorts supplémentaires si sa valeur de [[Charisme]] est [[caractéristiques#TABLEAUCARACTERISTIQUES|suffisamment élevée]]. Quand la Table 2-11 indique que l’antipaladin peut lancer quotidiennement 0  sort d’un niveau donné, il ne dispose, pour ce niveau de sorts, que des sorts supplémentaires que lui accorde un Charisme élevé.
 
 Chaque jour, l’antipaladin doit passer 1  heure à  prier et à méditer afin de renouveler son quota journalier de sorts. L’antipaladin peut préparer et lancer n’importe quel sort de la [[liste des sorts dantipaladin|liste de sorts d’antipaladin]] pour autant qu’il puisse lancer des sorts de ce niveau. Il doit cependant choisir quels sorts préparer au cours de sa méditation quotidienne.
 
-Jusqu’au niveau 3, l’antipaladin n’a pas de [[niveau de lanceur de sorts]]. À partir du niveau 4, son [[niveau de lanceur de sorts]] est égal son niveau d’antipaladin –3.
+Jusqu’au niveau 3, l’antipaladin n’a pas de [[NLS|niveau de lanceur de sorts]]. À partir du niveau 4, son niveau de lanceur de sorts est égal son niveau d’antipaladin –3.
 
 {s:Reference|FAVEURDESFIELONS}
 ==== Faveur des fiélons (Mag) ====
@@ -376,27 +363,25 @@ La première forme de faveur permet à un antipaladin d’enchanter son arme par
 
 Si une arme est détruite alors qu’elle est liée à un esprit fiélon, l’antipaladin doit attendre de gagner un niveau ou que 30 jours se soient écoulés avant de pouvoir utiliser cette capacité à nouveau. Pendant cette période d’attente, il subit un malus de –1 à tous les jets d’attaque et de dégâts lorsqu’il combat avec une arme.
 
-La seconde forme de faveur permet à un antipaladin d’acquérir les services d’un serviteur fiélon. Cela fonctionne comme un sort de [[convocation de monstres III]] à ceci près que la [[durée]] est permanente, que l’antipaladin ne peut recevoir qu’un seul serviteur et que celui-ci doit remplir l’une des deux conditions suivantes  : appartenir  aux sous-types Chaos et Mal ou être un animal fiélon. Une fois la créature choisie, l’antipaladin ne peut plus modifier sa décision. Il peut toutefois modifier son choix chaque fois qu’il gagne un niveau. Lorsque l’antipaladin atteint le niveau  7 et tous les deux niveaux par la suite, le niveau du sort de convocation de monstres augmente de un, pour devenir finalement [[convocation de monstres IX]] au niveau 17.
+La seconde forme de faveur permet à un antipaladin d’acquérir les services d’un serviteur fiélon. Cela fonctionne comme un sort de ''[[convocation de monstres III]]'' à ceci près que la [[durée]] est permanente, que l’antipaladin ne peut recevoir qu’un seul serviteur et que celui-ci doit remplir l’une des deux conditions suivantes  : appartenir  aux sous-types Chaos et Mal ou être un animal fiélon. Une fois la créature choisie, l’antipaladin ne peut plus modifier sa décision. Il peut toutefois modifier son choix chaque fois qu’il gagne un niveau. Lorsque l’antipaladin atteint le niveau  7 et tous les deux niveaux par la suite, le niveau du sort de convocation de monstres augmente de un, pour devenir finalement ''[[convocation de monstres IX]]'' au niveau 17.
 
 Une fois par jour, l’antipaladin peut appeler son serviteur auprès de lui en utilisant une [[action complexe]]. Cette capacité est équivalente à un sort de niveau égal au tiers du niveau de l’antipaladin. Le serviteur apparaît immédiatement à côté de l’antipaladin. Un antipaladin peut utiliser ce pouvoir une fois par jour au niveau 5 et une fois de plus chaque jour tous les 4 niveaux par la suite, pour un total de quatre fois par jour au niveau 17.
 
-Au niveau 11, le serviteur acquiert l’archétype [[archétypes#CREATUREEVOLUEE|évolué]]. Au niveau  15,  il gagne une [[résistance à la magie]] égale au niveau de l’antipaladin + 11.
+Au niveau 11, le serviteur acquiert l’archétype [[archétypes#CREATUREEVOLUEE|évolué]]. Au niveau  15, il gagne une [[résistance à la magie]] égale au niveau de l’antipaladin + 11.
 
 Si le serviteur vient à mourir ou à être banni, l’antipaladin doit attendre de gagner un niveau ou que 30 jours se soient écoulés avant de pouvoir le remplacer. Pendant cette période d’attente, l’antipaladin subit un malus de –1 à  tous les jets d’attaque et de dégâts lorsqu’il combat avec une arme.
 
 {s:Reference|AURADEDESESPOIR}
-
 ==== Aura de désespoir (Sur) ====
 Au niveau  8,  tous les ennemis situés dans un rayon de 3 m autour de l’antipaladin subissent un malus de –2 sur tous leurs [[jet de sauvegarde|jets de sauvegarde]]. Ce malus ne se cumule pas avec les pénalités imposées par l’[[Antipaladin#AURADELACHETE|aura de lâcheté]]. Cette aptitude fonctionne tant que l’antipaladin est conscient, mais pas s’il est [[inconscient]] ou [[mort]].
 
 {s:Reference|AURADEVENGEANCE}
 ==== Aura de vengeance (Sur) ====
-Au niveau 11, un antipaladin peut sacrifier deux utilisations de sa [[antipaladin#CHATIMENTDUBIEN|capacité de châtiment du Bien]] pour permettre à tous ses alliés situés à 3 m ou moins d’utiliser un [[antipaladin#CHATIMENTDUBIEN|châtiment du Bien]] avec ses propres bonus. Les alliés doivent utiliser ce [[antipaladin#CHATIMENTDUBIEN|châtiment du Bien]] avant que le début du prochain tour de l’antipaladin et les bonus persistent pendant 1 minute. Ce pouvoir s’utilise par une [[action libre]]. Les créatures d’alignement [[Bon]] ne tirent aucun avantage de l’aura de vengeance.
+Au niveau 11, un antipaladin peut sacrifier deux utilisations de sa capacité de [[antipaladin#CHATIMENTDUBIEN|châtiment du Bien]] pour permettre à tous ses alliés situés à 3 m ou moins d’utiliser un châtiment du Bien avec ses propres bonus. Les alliés doivent utiliser ce châtiment du Bien avant que le début du prochain tour de l’antipaladin et les bonus persistent pendant 1 minute. Ce pouvoir s’utilise par une [[action libre]]. Les créatures d’alignement [[Bon]] ne tirent aucun avantage de l’aura de vengeance.
 
 {s:Reference|AURADUPECHE}
-
 ==== Aura du péché (Sur) ====
-Au niveau  14, les armes d’un antipaladin sont considérées comme dotées de l’[[alignement]] [[Mauvais]] lorsqu’il s’agit de déterminer si elles ignorent les [[RD|réductions de dégâts]]. De plus, toutes les attaques faites contre un ennemi situé dans un rayon de 3 m autour de l’antipaladin sont également considérées comme dotées de l’[[alignement]] [[Mauvais]] lorsqu’il s’agit de déterminer si elles ignorent les [[RD|réductions de dégâts]]. Cette capacité fonctionne tant que l’antipaladin est conscient, mais pas s’il est [[inconscient]] ou [[mort]].
+Au niveau  14, les armes d’un antipaladin sont considérées comme dotées de l’[[alignement]] [[Mauvais]] lorsqu’il s’agit de déterminer si elles ignorent les [[RD|réductions de dégâts]]. De plus, toutes les attaques faites contre un ennemi situé dans un rayon de 3 m autour de l’antipaladin sont également considérées comme dotées de l’alignement Mauvais lorsqu’il s’agit de déterminer si elles ignorent les réductions de dégâts. Cette capacité fonctionne tant que l’antipaladin est conscient, mais pas s’il est [[inconscient]] ou [[mort]].
 
 {s:Reference|AURADEDEPRAVATION}
 ==== Aura de dépravation (Sur) ====
@@ -404,16 +389,15 @@ Au niveau  17, un antipaladin gagne une [[RD]] 5/Bien. De plus, tous ses ennemis
 
 {s:Reference|CHAMPIONMAUDIT}
 ==== Champion maudit (Sur) ====
-Au niveau 20,  l’antipaladin incarne vraiment la puissance des entités maléfiques qu’il vénère. Sa [[RD]] augmente jusqu’à 10/Bien. Chaque fois qu’il utilise un [[antipaladin#CHATIMENTDUBIEN|châtiment du Bien]] et frappe un [[type Extérieur|Extérieur]] d’[[alignement]] [[Bon]], celui-ci est également soumis à un  [[bannissement]] de [[NLS]] égal au niveau de l’antipaladin (l’arme et le symbole maudit de l’antipaladin comptent automatiquement comme objets que la cible haït). Le [[antipaladin#CHATIMENTDUBIEN|châtiment du Bien]] se termine immédiatement après que l’effet de bannissement et les dégâts de l’attaque aient été appliqués. De plus, chaque fois que l’antipaladin [[antipaladin#CANALISATIONDENERGIE|canalise de l’énergie négative]] ou utilise un [[antipaladin#TOUCHERDECORRUPTION|toucher de corruption]] pour blesser une créature, il inflige toujours le maximum de dégâts possible.
+Au niveau 20,  l’antipaladin incarne vraiment la puissance des entités maléfiques qu’il vénère. Sa [[RD]] augmente jusqu’à 10/Bien. Chaque fois qu’il utilise un [[antipaladin#CHATIMENTDUBIEN|châtiment du Bien]] et frappe un [[type Extérieur|Extérieur]] d’[[alignement]] [[Bon]], celui-ci est également soumis à un  [[bannissement]] de [[NLS]] égal au niveau de l’antipaladin (l’arme et le symbole maudit de l’antipaladin comptent automatiquement comme objets que la cible haït). Le châtiment du Bien se termine immédiatement après que l’effet de bannissement et les dégâts de l’attaque aient été appliqués. De plus, chaque fois que l’antipaladin [[antipaladin#CANALISATIONDENERGIE|canalise de l’énergie négative]] ou utilise un [[antipaladin#TOUCHERDECORRUPTION|toucher de corruption]] pour blesser une créature, il inflige toujours le maximum de dégâts possible.
 
 {s:Reference|CODEDECONDUITE}
-
 === Code de conduite ===
 L’antipaladin est obligatoirement [[Chaotique]] [[Mauvais]]. S’il commet sciemment un acte [[bon]] ou altruiste, il perd aussitôt toutes ses capacités de classe à l’exception des armes et des armures. Cela ne signifie pas qu’il ne peut entreprendre aucune action jugée comme bonne, mais seulement que ces actions doivent servir ses propres buts. Le code de conduite de l’antipaladin impose qu’il place ses propres intérêts et désirs au-dessus de toute autre considération, qu’il impose la tyrannie, qu’il profite de tous les avantages à sa disposition et qu’il punissent les bons et les justes, pour autant que ces actions n’interfèrent pas avec ses buts.
 
 {s:Reference|COMPAGNONS}
 === Compagnons ===
-L’antipaladin peut partir à l’aventure avec des alliés d’alignement [[Neutre]] ou [[Mauvais]], mais il évitera de collaborer avec des individus d’alignement [[Bon]] ou avec ceux qui tentent sans cesse de faire le [[Bon|bien]]. Dans des circonstances exceptionnelles,  un antipaladin pourra s’associer avec des créatures d’alignement [[Bon]] mais seulement dans le but de leur nuire en les détruisant depuis l’intérieur. Dans ce genre de situation, l’antipaladin n’a pas besoin de faire appel à un sort de [[pénitence]] pour autant qu’il atteigne ses propres buts maléfiques en fin de comptes (le [[Mauvais|Mal]] ne se préoccupe que des résultats). Enfin, l’antipaladin ne peut louer les services d’hommes d’armes et accepter des suivants que s’ils sont d’alignement [[Chaotique]] [[Mauvais]].
+L’antipaladin peut partir à l’aventure avec des alliés d’[[alignement]] [[Neutre]] ou [[Mauvais]], mais il évitera de collaborer avec des individus d’alignement [[Bon]] ou avec ceux qui tentent sans cesse de faire le bien. Dans des circonstances exceptionnelles,  un antipaladin pourra s’associer avec des créatures d’alignement Bon mais seulement dans le but de leur nuire en les détruisant depuis l’intérieur. Dans ce genre de situation, l’antipaladin n’a pas besoin de faire appel à un sort de ''[[pénitence]]'' pour autant qu’il atteigne ses propres buts maléfiques en fin de comptes (le [[Mauvais|Mal]] ne se préoccupe que des résultats). Enfin, l’antipaladin ne peut louer les services d’hommes d’armes et accepter des suivants que s’ils sont d’alignement [[Chaotique]] [[Mauvais]].
 
 {s:Reference|PALADINSDECHUS}
 === Les paladins déchus ===
@@ -425,4 +409,4 @@ Il faut aussi noter que tous les antipaladins ne sont pas des héros déchus. D�
 
 {s:Reference|ANCIENSANTIPALADINS}
 === Anciens antipaladins ===
-Lorsqu’un antipaladin cesse d’être [[Chaotique]] [[Mauvais]], lorsqu’il accomplit sciemment un acte bienveillant ou qu’il viole le code de conduite, il perd tous ses sorts et toutes ses capacités d’antipaladin (y compris la faveur des fiélons mais pas la formation aux armes, armures et boucliers). Il ne peut plus gagner de niveaux d’antipaladin. Il récupère ses capacités et peut à nouveau progresser en tant qu’antipaladin s’il fait pénitence pour ses erreurs (voir le sort de [[pénitence]]).
+Lorsqu’un antipaladin cesse d’être [[Chaotique]] [[Mauvais]], lorsqu’il accomplit sciemment un acte bienveillant ou qu’il viole le code de conduite, il perd tous ses sorts et toutes ses capacités d’antipaladin (y compris la [[Antipaladin#FAVEURDESFIELONS|faveur des fiélons]] mais pas la formation aux armes, armures et boucliers). Il ne peut plus gagner de niveaux d’antipaladin. Il récupère ses capacités et peut à nouveau progresser en tant qu’antipaladin s’il fait pénitence pour ses erreurs (voir le sort de ''[[pénitence]]'').
