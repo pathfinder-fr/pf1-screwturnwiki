@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Armes magiques
 Title: Les armes magiques
-LastModified: 2022-01-29 18:37
+LastModified: 2022-02-28 20:18
 Categories:
   - 'Objet mag arme'
   - 'Src Armes et équipement'
@@ -17,7 +17,7 @@ Categories:
 |+ {s:Reference|PRIXBONUSDALTERATION} Prix des bonus d'altération des armes
 |- CLASS="titre"
 | Bonus d'altération
-| Prix de vente<sup>[[armes magiques#NOTE1|1]]</sup>
+| Prix d'achat<sup>[[armes magiques#NOTE1|1]]</sup>
 |- CLASS="premier"
 | +1 
 | 2 000 po
@@ -106,6 +106,9 @@ Une arme ayant une propriété spéciale doit posséder un bonus d’altération
 | ''[[charge étanche (propriété)|Charge étanche]]'' || <sup>A&E</sup> || Cartouches alchimiques et métalliques d’arme à feu || Protège la charge de l’arme de l’absence d’air pendant 3 minutes. Le porteur peut tirer sous l’eau avec un malus de -2 aux [[jet dattaque|jets d’attaque]] pour chaque case qui le sépare de sa cible. L’arme explose immédiatement en cas de long feu. || +1 500 po</sup>
 
 |- CLASS="premier"
+| ''[[libératrice WMH (propriété)|Libératrice (WMH)]]'' || <sup>''WMH''</sup> || — || Permet au porteur de tenter une manœuvre spéciale afin de se libérer lui ou une créature adjacente d'un effet inhibant le mouvement. || +7 000 po
+
+|- CLASS="premier"
 | ''[[projectile fantôme (propriété)|Projectile fantôme]]'' || <sup>MCA</sup> || Munitions || Les munitions disparaissent 1 [[round]] après avoir été tirées et les plaies qu’elles infligent sont invisibles, ne laissant aucune trace visible de l’attaque. || +2 000 po</sup>
 
 |- CLASS="premier"
@@ -150,6 +153,9 @@ Une arme ayant une propriété spéciale doit posséder un bonus d’altération
 
 |- CLASS="premier"
 | ''[[alliance (propriété)|Alliance]]'' || <sup>A&E</sup> || — || Permet de transférer certains ou tous les bonus d’altération de l’arme à celle d’un allié visible par le porteur pendant 1 [[round]], à volonté. || bonus de +1
+
+|- CLASS="premier"
+| ''[[appui (propriété)|Appui]]'' || <sup>''WMH''</sup> || Corps-à-corps || Confère un bonus égal au bonus d’altération de l’arme au [[DMD]] contre les manœuvres de [[bousculade]], de [[croc-en-jambe]], d'[[entraînement]] et de [[repositionnement]], ainsi qu'un bonus égal au double de ce montant lorsque le porteur effectue ces manœuvres. || bonus de +1
 
 |- CLASS="premier"
 | ''[[aquatique (propriété)|Aquatique]]'' || <sup>A&E</sup> || Corps-à-corps || Confère un bonus égal au bonus d’altération de l’arme aux tests de [[Natation]] du porteur. Immunise aux malus des [[jet dattaque|jets d’attaque]] et [[valeurs de combat#DEGATS|de dégâts]] effectués dans l’eau (comme avec ''[[liberté de mouvement]]''). || bonus de +1
@@ -243,6 +249,9 @@ Une arme ayant une propriété spéciale doit posséder un bonus d’altération
 
 |- CLASS="premier"
 | ''[[gardienne (propriété)|Gardienne]]'' || <sup>A&E</sup> || Corps-à-corps || Le porteur peut librement distribuer le bonus d’altération de l’arme entre sa CA et les jets de l’arme. || bonus de +1
+
+|- CLASS="premier"
+| ''[[impactante (propriété)|Impactante]]'' || <sup>''WMH''</sup> || Distance || Permet d'effectuer des manœuvres de [[bousculade]] et de [[croc-en-jambe]] simples dans son premier [[facteur de portée]]. || bonus de +1
 
 |- CLASS="premier"
 | ''[[inspirée (propriété)|Inspirée]]'' || <sup>MCA</sup> ||  Armes d’[[enquêteur]] || Confère les effets du talent [[talents (enquêteur)#INSPIRATIONMARTIALE|inspiration martiale]] à un [[enquêteur]] mais uniquement avec cette arme (s’il possède déjà ce talent, le porteur ajoute 2 fois le résultat du dé d’[[enquêteur#INSPIRATION|inspiration]] aux dégâts). || bonus de +1
@@ -353,6 +362,9 @@ Une arme ayant une propriété spéciale doit posséder un bonus d’altération
 | ''[[vaillante (propriété)|Vaillante]]'' || <sup>A&E</sup> || Corps-à-corps || Lorsqu’un porteur [[chevalier]] [[chevalier#DEFI|défie]] une créature, il lui inflige 1d6 points de dégâts supplémentaire avec l’arme et elle confère lui un bonus de +2 aux tests de [[désarmement]] et de [[destruction]] effectuées contre cette créature, ainsi qu’un bonus de +4 au [[DMD]] contre ces mêmes manœuvres effectuées par cette dernière. || bonus de +1
 
 |- CLASS="premier"
+| ''[[vampirique (propriété)|Vampirique]]'' || <sup>''WMH''</sup> || Corps-à-corps tranchantes ou perforantes || Après 24 heures de port, et la première fois qu'il touche une créature vivante au combat à chaque tour, l'arme rend au porteur un nombre de points de vie égal à la moitié des dégâts infligés (jusqu'à son nombre de [[DV]], avec un maximum de 2 points de vie par DV chaque jour). || bonus de +1
+
+|- CLASS="premier"
 | ''[[vicieuse (propriété)|Vicieuse]]'' || <sup>A&E</sup> || Corps-à-corps || Inflige 1d6 points de dégâts au porteur et 2d6 points de dégâts à la cible au toucher. || bonus de +1
 
 |- CLASS="premier"
@@ -385,6 +397,9 @@ Une arme ayant une propriété spéciale doit posséder un bonus d’altération
 
 |- CLASS="premier"
 | ''[[axiomatique (propriété)|Axiomatique]]''* || <sup>A&E</sup> || — || L’arme est alignée à la Loi pour ignorer les [[RD]] correspondantes. Inflige 2d6 points de dégâts supplémentaires aux créatures d’alignement Chaotique. Inflige un [[absorption dénergie (capacité)|niveau négatif]] aux porteurs d’alignement Chaotique. || bonus de +2
+
+|- CLASS="premier"
+| ''[[dédoublante (propriété)|Dédoublante]]'' || <sup>''WMH''</sup> || Corps-à-corps, Armes de jet || Permet de faire une attaque à distance avec un [[facteur de portée]] de 3 m, sans lancer l'arme et à la place d'une attaque au corps à corps. || bonus de +2
 
 |- CLASS="premier"
 | ''[[destruction (propriété)|Destruction]]'' || <sup>A&E</sup> || Corps-à-corps contondantes || Peut détruire les morts-vivants au toucher. || bonus de +2
@@ -460,6 +475,9 @@ Une arme ayant une propriété spéciale doit posséder un bonus d’altération
 
 |- CLASS="premier"
 | ''[[sanglante (propriété)|Sanglante]]'' || <sup>A&E</sup> || Corps-à-corps || Inflige 1 point de dégâts de [[saignement (capacité)|saignement]] cumulatifs au toucher, jusqu’au prochain tour de la cible. || bonus de +2
+
+|- CLASS="premier"
+| ''[[sismique (propriété)|Sismique]]'' || <sup>''WMH''</sup> || Corps-à-corps contondantes || Par une [[action simple]], permet au porteur de tenter de manœuvre de [[croc-en-jambe]] contre toutes les créatures dans un rayon de 1.5 m, un cône de 3 m ou une ligne de 6 m. || bonus de +2
 
 |- CLASS="premier"
 | ''[[survie (propriété)|Survie]]'' || <sup>A&E</sup> || Corps-à-corps || L’arme reste dans la main du porteur même s’il est [[paniqué]], [[étourdi]] ou [[inconscient]]. Confère un bonus égal au bonus d’altération de l’arme aux tests pour se stabiliser et aux [[valeurs de combat#JETDESAUVEGARDE|jets de sauvegarde]] d’effets continus du porteur. Permet d’utiliser certains dons un nombre de fois par jour supplémentaire égal au bonus d’altération de l’arme. || bonus de +2
@@ -541,6 +559,9 @@ Une arme ayant une propriété spéciale doit posséder un bonus d’altération
 | WIDTH="11%" | Restrictions
 | WIDTH="61%" | Capacités
 | WIDTH="13%" | Modificateur au prix de base
+
+|- CLASS="premier"
+| ''[[perce-cœur (propriété)|Perce-cœur]]'' || <sup>''WMH''</sup> || Distance perforantes || Fonctionne comme une arme ''[[vorpale (propriété)|vorpale]]'', mais tue en transperçant le cœur. || bonus de +5
 
 |- CLASS="premier"
 | ''[[volante (propriété)|Volante]]'' || <sup>MCA</sup> || Corps-à-corps || Fonctionne comme une arme ''[[Descriptions individuelles des propriétés spéciales des armes#dansante|dansante]]''. Mais animée, l’activateur peut la diriger vers les adversaires à 9m ou moins de lui et la rappeler à lui par une [[action rapide]] (elle vole alors à une vitesse de 15m pour retourner sans ses mains libres ou à ses pieds, effectuant des manœuvres de [[destruction]] pour traverser tout obstacle qui les sépare et des tests de [[BMO]] pour se libérer d’emprises hostiles). || bonus de +5
