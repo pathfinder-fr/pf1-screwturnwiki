@@ -1,0 +1,207 @@
+---
+Name: Pathfinder-RPG.Ermite
+Title: Kyton, Ermite
+LastModified: 2021-04-05 23:56
+Categories:
+  - 'Monstre'
+  - 'Src Bestiaire 3'
+---
+<table class="Bestiaire"><tr><td>
+<div class="BD">
+{s:BDTitre|Ermite|FP 20}
+{s:pucem|Extérieur|Ville|Extraplanaire}
+{s:BDTexte|''Source : Bestiaire 3'' p 170}
+{s:BDTexte|'''PX''' 307 200}
+{s:BDTexte|[[type Extérieur|Extérieur]] ([[sous-type extraplanaire|extraplanaire]], [[sous-type kyton|kyton]], [[sous-type Loi|Loi]], [[sous-type Mal|Mal]]) de taille M, LM}
+{s:BDTexte|'''Init''' +12 ; '''Sens''' [[vision dans le noir]] 18 m (12 {s:c}),
+ ''[[vision lucide]]'' ; [[Perception]] +34}
+{s:BDSousTitre|Défense}
+{s:BDTexte|'''CA''' 38, contact 19, pris au dépourvu 29 (Dex +8, esquive +1, naturelle +19)}
+{s:BDTexte|'''pv''' 310 (20d10+200) ; '''régénération''' 15 (armes et sorts du Bien, armes en argent)}
+{s:BDTexte|'''Réf''' +16, '''Vig''' +22, '''Vol''' +19}
+{s:BDTexte|'''[[RD]]''' 15/argent et Bien ; '''Immunité''' dégâts non létaux, douleur,
+effets de terreur, froid ; '''[[RM]]''' 31}
+{s:BDSousTitre|Attaque}
+{s:BDTexte|'''VD''' 12 m (8 {s:c}), vol 18 m (12 {s:c}) (bonne)}
+{s:BDTexte|'''Corps à corps''' morsure, +30 (2d6+10 plus douleur) et 2 griffes,
++30 (2d6+10/19-20 plus [[étreinte]] et douleur) et 2 ailes, +25 (1d8+5 plus douleur)}
+{s:BDTexte|'''Attaques spéciales''' éviscération, regard déstabilisant (9 m (6 {s:c}), [[DD]] 31)}
+{s:BDTexte|'''Pouvoirs magiques''' (NLS 20 ; concentration +31)}
+{s:BDSorts|Constant — ''[[vision lucide]]''}
+{s:BDSorts|À volonté — ''[[blessure critique]]'' ([[DD]] 25), ''[[télékinésie]]'' ([[DD]] 26),
+''[[téléportation suprême]]'' (personnelle plus 25 kilos d’objets uniquement), ''[[traversée des ombres]]''}
+{s:BDSorts|3/jour — ''[[aliénation mentale]]'' ([[DD]] 28), ''[[barrière de lames]]'' ([[DD]] 27),
+''[[blessure critique de groupe]]'' ([[DD]] 29), [[cage de force]] ([[DD]] 28),
+''[[changement de plan]]'' ([[DD]] 28), ''[[guérison suprême]]'' (personnelle
+uniquement), ''[[magie des ombres suprême]]'' ([[DD]] 29), ''[[mur de force]]'',
+''[[Reflets dombre|reflets d’ombres]]'' ([[DD]] 30), ''[[symbole de douleur]]'' ([[DD]] 26),
+ ''[[verrou dimensionnel]]''}
+{s:BDSorts|1/jour — ''[[entrave]]'' ([[DD]] 29), ''[[séquestration]]'' ([[DD]] 29)}
+{s:BDSousTitre|Caractéristiques}
+{s:BDTexte|'''For''' 30, '''Dex''' 27, '''Con''' 30, '''Int''' 22, '''Sag''' 21, '''Cha''' 33}
+{s:BDTexte|'''BBA''' +20 ; '''BMO''' +30 (+34 [[lutte]]) ; '''DMD''' 49}
+{s:BDTexte|'''Dons''' [[Attaques réflexes]], [[Efficacité des sorts accrue]], [[Esquive]],
+[[Expertise du combat]], [[Magie de guerre]], [[Réflexes surhumains]],
+[[Science de linitiative|Science de l’initiative]], [[Science du critique]] (griffes), [[Talent]]
+([[Perception]]), [[Volonté de fer]]}
+{s:BDTexte|'''Compétences''' [[Art de la magie]] +29, [[Bluff]] +34, [[Connaissances]]
+(mystères) +16, [[Connaissances]] (exploration souterraine) +16,
+[[Connaissances]] (mystères) +16, [[Connaissances]] (nature) +16,
+[[Connaissances]] (plans) +29, [[Connaissances]] (religion) +16,
+[[Discrétion]] +31, [[Diplomatie]] +34, [[Intimidation]] +34, [[Perception]]
++34, [[Premiers secours]] +28, [[Psychologie]] +28, 
+[[Utilisation dobjets magiques|Utilisation d’objets magiques]] +31, [[Vol]] +12}
+{s:BDTexte|'''Particularité''' greffe de peau, voyageur de l’ombre}
+{s:BDTexte|'''Langues''' commun, infernal ; télépathie à 30 m (20 {s:c})}
+{s:BDSousTitre|Écologie}
+{s:BDTexte|'''Environnement''' tous (Plan de l'ombre)}
+{s:BDTexte|'''Organisation''' solitaire, couple ou cellule (3-5)}
+{s:BDTexte|'''Trésor''' double}
+{s:BDSousTitre|Pouvoirs spéciaux}
+{s:BDTexte|'''Douleur (Sur).''' Toute créature touchée par l’attaque naturelle
+d’un ermite doit réussir un jet de [[Vigueur]] [[DD]] 30 ou être
+[[Chancelant|chancelante]] pendant 1 [[round]] à cause de la douleur. Tant que
+la créature est [[Chancelant|chancelante]] à cause de cet effet, elle reçoit
+un malus de -4 à tous ses [[jet de sauvegarde|jets de sauvegarde]] pour résister
+aux pouvoirs magiques et aux capacités extraordinaires
+de l’ermite. Le [[DD]] du [[jet de sauvegarde]] est basé sur la [[Constitution]].}
+{s:BDTexte|'''Éviscération (Ext).''' Lorsqu’un ermite est en lutte avec un ennemi, il
+peut rapidement l’éviscérer ou l’altérer chirurgicalement en lui
+excisant un morceau de chair ou une partie d’organe interne, par
+une [[action rapide]], infligeant une [[diminution permanente]] de 1d8
+points de caractéristique (au choix de l’ermite). La victime peut
+résister en réussissant un jet de [[Vigueur]] [[DD]] 28. Le [[DD]] 
+du [[jet de sauvegarde]] est basé sur la [[Dextérité.]]}
+{s:BDTexte|'''Greffe de peau (Sur).''' Une fois par jour, l’ermite peut se greffer
+n’importe quel morceau de chair ou d’os récupéré au maximum
+une heure auparavant, grâce à sa capacité d’éviscération, par une
+[[action complexe]] qui provoque une [[attaque dopportunité|attaque d’opportunité]]. Cette
+greffe le fait bénéficier des effets d’un sort de ''[[guérison suprême]]'' ou
+de ''[[restauration suprême]]'' (niveau de lanceur de sorts 20).}
+{s:BDTexte|'''Immunité contre la douleur (Sur).''' L’ermite est immunisé
+contre les [[dégâts non létaux]] et contre tous les effets
+magiques associés à la douleur extrême, tels que ''[[symbole de douleur]]'',
+ les attaques de douleur d’un autre ermite et autres
+effets similaires (à l’appréciation du MJ). }
+{s:BDTexte|'''Regard déstabilisant (Ext).''' Une créature qui succombe au
+regard déstabilisant de l’ermite est [[Paralysé|paralysée]] par la peur
+pendant 1d4 [[round]]s comme si elle désirait presque offrir sa
+chair au kyton. À la fin de son dernier [[round]] de [[Paralysé|paralysie]],
+la victime doit réussir un jet de [[Volonté]] [[DD]] 31 ou subir une
+[[diminution permanente]] de 1d4 points de [[Sagesse]] à cause de
+la folie qui l’envahit. Il s’agit d’un effet mental de terreur. }
+{s:BDTexte|'''Voyageur de l’ombre (Ext).''' Lorsqu’un ermite utilise ''[[changement de plan]]''
+ pour se rendre sur le Plan de l’ombre, il arrive à la destination
+voulue avec une précision parfaite. Lorsqu’un ermite utilise
+''[[traversée des ombres]]'', il se déplace à un rythme de 150 km/h.}
+
+</div>
+</td><td><div><ul style="margin: 0 0 -10 0;margin-top: 6px;margin-bottom: 12px;"><li>'''''Voir la description des [[Kytons|kytons]].'''''</li></ul>''Cet humanoïde couvert de sang est orné de fragments de métal aussi
+tranchants que des lames de rasoir. Des ailes squelettiques sortent de ses
+épaules ensanglantées.''
+
+Les ermites font partie des kytons les plus anciens et les plus
+mutilés. Ils se sont infligés tant de dégâts qu’ils ne ressentent
+presque plus la douleur et plus aucune peur. L’ermite typique
+est complètement recouvert de bandages imprégnés de sang
+séché, de lambeaux de cuir noir et de milliers de fragments
+métalliques déchiquetés, acérés comme des lames de rasoir.
+Ce sont seulement ces fragments qui assurent la cohésion de la
+chair mutilée de la créature mais ils sont bien plus solides que la
+chair et les os des mortels.
+
+Plutôt que de se concentrer uniquement sur les altérations
+physiques, ou même spirituelles, les ermites cherchent
+également à brouiller les frontières mêmes de leur être, de
+leur forme physique et de leur individualité. Ils ne cherchent
+à s’améliorer qu’en utilisant les êtres les plus puissants. Ils
+sillonnent les vastes étendues du Plan matériel en quête des
+éléments les plus prometteurs à ajouter à leur collection
+corporelle et récupèrent uniquement les morceaux les plus fins
+(les rates les plus mûres, les veines les plus séduisantes, les yeux
+les plus délicieux). Lorsqu’un ermite rencontre une créature
+pourvue d’une « pièce parfaite », comme il l’appelle, ce puissant
+kyton s’arrange pour capturer la créature vivante afin d’étudier
+le fonctionnement de cette pièce parfaite et la manière dont elle
+s’inscrit dans la physiologie de la créature, avant de finalement
+pratiquer une extraction chirurgicale et de l’attacher à son
+propre corps (d’une manière qui, souvent, ne respecte en rien
+le rôle original de l’organe). La langue d’un barde vraiment doué
+pourrait, par exemple, être clouée dans la paume du kyton ou
+cousue sur son coeur, tandis que les yeux d’une magnifique reine
+pourraient être suturés sur le torse du kyton. Pour les ermites, ces
+modifications et ces choix horribles rajoutent en quelque sorte à
+la perfection de l’élément récolté tandis que, pour les autres, ils
+ne font qu’accentuer l’horreur que la créature représente déjà.
+
+Si les ermites aiment étudier leurs cibles aussi bien que
+s’abîmer dans l’introspection de leurs propres pouvoirs et de
+leur identité, leur occupation première consiste à comprendre
+la douleur et la souffrance en faisant subir les cruautés les plus
+ignobles à leurs victimes. L’ermite cherche souvent à mettre
+ses victimes au supplice après les avoir capturées, leur faisant
+subir une quantité extrême de traumatismes avant de les laisser
+mourir. L’ermite arrache souvent sa propre chair comme il le fait
+avec celle ses victimes afin de partager leur douleur.
+
+Lorsqu’il traque une victime particulière, l’ermite utilise ses
+capacités surnaturelles pour la désorienter et la tourmenter
+avant de la capturer et de l’entraîner sur le Plan de l’ombre en
+utilisant sa capacité changement de plan. En règle générale, il est
+inutile de marchander avec un ermite, mais si une victime
+est suffisamment puissante pour le conseiller ou lui
+prêter assistance, ou encore pour l’aider à récolter
+une proie encore plus intéressante, l’ermite
+peut parfois se laisser convaincre de relâcher
+sa victime si serviable. Néanmoins, il ne
+faut pas oublier que les kytons ont, dans
+l’ensemble, très peu de patience vis à vis de
+l’honneur et de la fierté. Ils considèrent
+que ces sentiments risibles sonnent le
+glas des créatures inférieures. La seule
+chose qui importe aux ermites, c'est
+de tester leurs propres limites aussi
+bien que celles de l’existence elle-même.
+Ce n’est pas parce qu’un
+ermite se laisse convaincre de
+relâcher une victime en échange
+d’une meilleure opportunité
+que cette victime sera en sécurité
+et que l’ermite ne cherchera pas
+ensuite à la capturer de nouveau et à la récolter. Il est hautement
+recommandé aux créatures réussissant à distraire un ermite et à
+lui échapper de passer le reste de leur vie à fuir.
+
+L’ermite mesure environ 2 mètres et pèse près de 100 kilos. Si
+la forme originale de ces créatures a quelque chose d’humanoïde,
+leur véritable apparence varie grandement de l’une à l’autre, en
+fonction des morceaux de chair inhabituels qu’elles récoltent sur
+des victimes exotiques et qu’elles se greffent.
+</div></td></tr></table>
+===ERMITES SUZERAINS===
+Les ermites qui dépassent les limites de l’individualité et
+arrivent à la tête de l’un des royaumes du Plan de l’ombre
+deviennent des ermites suzerains. Le suzerain s’est concentré
+sur un type de mutilation spécifique et a conduit cette
+procédure chirurgicale abominable aux limites extrêmes
+de la douleur et du plaisir. Ceux qui prient et vénèrent les
+suzerains cherchent souvent à imiter la mutilation choisie
+par leur maître, ce qui leur est généralement fatal. Les
+suzerains sont en contact les uns avec les autres et s’associent
+parfois, créant des sabbats de suzerains. S’ils ne se voient
+pas comme des ennemis, ils ne sont aucunement alliés et se
+disputent souvent la faveur des démagogues.
+
+Chaque suzerain est un ermite unique de taille G (ou
+plus grand) possédant plusieurs dés de vie supplémentaires.
+En outre, chacun dispose d’un pouvoir unique lié au type
+d’automutilation dans lequel il se spécialise, ainsi que de 4
+à 6 pouvoirs magiques supplémentaires liés à sa forme de
+mutilation. Par exemple, un suzerain qui s’est perfectionné
+dans l’art de s’écorcher et d’entourer sa chair de plantes
+grimpantes noires et épineuses peut posséder la capacité
+d’envoyer ces lianes recouvertes d’épines suffisamment loin
+pour saisir et étouffer les adversaires à distance et gagner
+''[[tentacules noirs]]'', ''[[enchevêtrement]]'', ''[[mur dépines|mur d’épines]]'' et 1 à 3
+autres pouvoirs magiques similaires.
+

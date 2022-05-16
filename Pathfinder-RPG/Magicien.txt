@@ -1,41 +1,21 @@
 ---
 Name: Pathfinder-RPG.Magicien
 Title: Le magicien
-LastModified: 2020-02-09 17:37
+LastModified: 2021-07-15 01:15
 Categories:
   - 'Classe'
-  - 'Règles officielles'
+  - 'Règle officielle'
 ---
 {s:MenuClasses}
-<div class="fright">'''''Voir aussi les [[écoles de magie]] et les [[familiers]].'''''<br/>
-'''''Voir aussi les [[découvertes arcaniques]].'''''<br/>
-'''''Voir aussi la [[liste des sorts densorceleursmagiciens|liste des sorts des magiciens]].'''''<br/>
+<div class="fright">'''''Voir aussi les [[écoles de magie]] et les [[familiers]].'''''  
+'''''Voir aussi les [[découvertes arcaniques]].'''''  
+'''''Voir aussi la [[liste des sorts densorceleursmagiciens|liste des sorts de magicien]].'''''  
 {s:PM0|magicien}'''Voir les archétypes du magicien'''&emsp;
-<ul ID="magicien" CLASS="listecachée cadrebas">
-  <li>[[Chuchoteur spirituel (magicien)|Chuchoteur spirituel]] (MCA)</li>
-  <li>[[Cruoromancien (magicien)|Cruoromancien]] ([[dhampir (race)|Dhampir]]) (MR)</li>
-  <li>[[Lieur de sorts (magicien)|Lieur de sorts]] ([[elfe|Elfe]]) (MR)</li>
-  <li>[[Mage de siège (magicien)|Mage de siège]] (AG)</li>
-  <li>[[Mage des ombres (magicien)|Mage des ombres]] (MMI)</li>
-  <li>[[Magicien exploiteur (magicien)|Magicien exploiteur]] (MCA)</li>
-  <li>[[Maître des parchemins (magicien)|Maître des parchemins]] (AM)</li>
-  <li>[[Poseur de bombes (magicien)|Poseur de bombes]] (AG)</li>
-  <li>[[Primordialiste (magicien)|Primordialiste]] (MMI)</li>
-  <li>[[Sage ésotérique (magicien)|Sage ésotérique]] (MCA)</li>
-  <li>[[Sortiléro (magicien)|Sortiléro]] (AG)</li>
-  <li>[[Témoin des vents (magicien)|Témoin des vents]] ([[sylphe (race)|Sylphe]]) (MR)</li>
-</ul></div>
+  <li ID="magicien" CLASS="listecachée" STYLE="display:none">{s:Menuarchétypemagicien}</li>
+</div>''Au-delà du voile du monde de tous les jours se cachent les mystères du pouvoir absolu. Les œuvres des êtres supérieurs aux mortels, les légendes des royaumes où vivent les dieux et les esprits, les actes créateurs à la fois merveilleux et terribles… tous ces mystères intriguent ceux qui possèdent l’ambition et les capacités nécessaires pour s’élever au-dessus du commun des mortels et atteindre le pouvoir véritable. C’est la voie des magiciens. Ces individus à l’esprit affûté recherchent, collectent et convoitent les connaissances ésotériques et se servent d’arts connus seulement d’une poignée de personnes pour réaliser des merveilles allant au-delà de la portée des simples mortels. Certains choisissent un domaine d’étude magique spécifique et deviennent des experts d’une certaine catégorie de pouvoirs, alors que d’autres optent pour la versatilité et jouissent de toute l’étendue des merveilles magiques. Dans tous les cas, l’ingéniosité et la puissance des magiciens sont évidentes : ils peuvent détruire leurs ennemis, renforcer leurs alliés et façonner le monde selon leurs désirs.''
 
-
-
-
-
-''Au-delà du voile du monde de tous les jours se cachent les mystères du pouvoir absolu. Les œuvres des êtres supérieurs aux mortels, les légendes des royaumes où vivent les dieux et les esprits, les actes créateurs à la fois merveilleux et terribles… tous ces mystères intriguent ceux qui possèdent l’ambition et les capacités nécessaires pour s’élever au-dessus du commun des mortels et atteindre le pouvoir véritable. C’est la voie des magiciens. Ces individus à l’esprit affûté recherchent, collectent et convoitent les connaissances ésotériques et se servent d’arts connus seulement d’une poignée de personnes pour réaliser des merveilles allant au-delà de la portée des simples mortels. Certains choisissent un domaine d’étude magique spécifique et deviennent des experts d’une certaine catégorie de pouvoirs, alors que d’autres optent pour la versatilité et jouissent de toute l’étendue des merveilles magiques. Dans tous les cas, l’ingéniosité et la puissance des magiciens sont évidentes : ils peuvent détruire leurs ennemis, renforcer leurs alliés et façonner le monde selon leurs désirs.''
-
-{s:Reference|TABLEMAGICIEN}
-<center>
-{| CLASS="tablo"
-|+ le magicien
+{| CLASS="tablo centre"
+|+ {s:Reference|TABLEMAGICIEN}Le magicien
 |- CLASS="titre"
 | ROWSPAN="2" | Niveau
 | ROWSPAN="2" | BBA
@@ -61,7 +41,7 @@ Categories:
 | +0
 | +0
 | +2
-| CLASS="gauche" | [[magicien#PACTEMAGIQUE|pacte magique]], [[magicien#ECOLEDEMAGIE|école de magie]],<br/>[[magicien#TOURSDEMAGIE|tours de magie]], [[magicien#ECRITUREDEPARCHEMINS|Écriture de parchemins]]
+| CLASS="gauche" | [[magicien#PACTEMAGIQUE|Pacte magique]], [[magicien#ECOLEDEMAGIE|école de magie]], [[magicien#TOURSDEMAGIE|tours de magie]], [[magicien#ECRITUREDEPARCHEMINS|écriture de parchemins]]
 | 3
 | 1
 | -
@@ -78,7 +58,7 @@ Categories:
 | +0
 | +0
 | +3
-| CLASS="centre" | —
+| CLASS="gauche" | &nbsp;
 | 4
 | 2
 | -
@@ -95,7 +75,7 @@ Categories:
 | +1
 | +1
 | +3
-| CLASS="centre" | —
+| CLASS="gauche" | &nbsp;
 | 4
 | 2
 | 1
@@ -112,7 +92,7 @@ Categories:
 | +1
 | +1
 | +4
-| CLASS="centre" | —
+| CLASS="gauche" | &nbsp;
 | 4
 | 3
 | 2
@@ -129,7 +109,7 @@ Categories:
 | +1
 | +1
 | +4
-| CLASS="center" | [[magicien#DONSUPPLEMENTAIRE|don supplémentaire]]
+| CLASS="gauche" | [[magicien#DONSUPPLEMENTAIRE|Don supplémentaire]]
 | 4
 | 3
 | 2
@@ -146,7 +126,7 @@ Categories:
 | +2
 | +2
 | +5
-| CLASS="centre" | — 
+| CLASS="gauche" | &nbsp;
 | 4
 | 3
 | 3
@@ -163,7 +143,7 @@ Categories:
 | +2
 | +2
 | +5
-| CLASS="centre" | — 
+| CLASS="gauche" | &nbsp;
 | 4
 | 4
 | 3
@@ -180,7 +160,7 @@ Categories:
 | +2
 | +2
 | +6
-| CLASS="centre" | —
+| CLASS="gauche" | &nbsp;
 | 4
 | 4
 | 3
@@ -197,7 +177,7 @@ Categories:
 | +3
 | +3
 | +6
-| CLASS="centre" | —
+| CLASS="gauche" | &nbsp;
 | 4
 | 4
 | 4
@@ -214,7 +194,7 @@ Categories:
 | +3
 | +3
 | +7
-| CLASS="centre" | [[magicien#DONSUPPLEMENTAIRE|don supplémentaire]]
+| CLASS="gauche" | [[magicien#DONSUPPLEMENTAIRE|Don supplémentaire]]
 | 4
 | 4
 | 4
@@ -231,7 +211,7 @@ Categories:
 | +3
 | +3
 | +7
-| CLASS="centre" | —
+| CLASS="gauche" | &nbsp;
 | 4
 | 4
 | 4
@@ -248,7 +228,7 @@ Categories:
 | +4
 | +4
 | +8
-| CLASS="centre" | —
+| CLASS="gauche" | &nbsp;
 | 4
 | 4
 | 4
@@ -265,7 +245,7 @@ Categories:
 | +4
 | +4
 | +8
-| CLASS="centre" | — 
+| CLASS="gauche" | &nbsp;
 | 4
 | 4
 | 4
@@ -282,7 +262,7 @@ Categories:
 | +4
 | +4
 | +9
-| CLASS="centre" | —
+| CLASS="gauche" | &nbsp;
 | 4
 | 4
 | 4
@@ -299,7 +279,7 @@ Categories:
 | +5
 | +5
 | +9
-| CLASS="centre" | [[magicien#DONSUPPLEMENTAIRE|don supplémentaire]]
+| CLASS="gauche" | [[magicien#DONSUPPLEMENTAIRE|Don supplémentaire]]
 | 4
 | 4
 | 4
@@ -316,7 +296,7 @@ Categories:
 | +5
 | +5
 | +10
-| CLASS="centre" | —
+| CLASS="gauche" | &nbsp;
 | 4
 | 4
 | 4
@@ -333,7 +313,7 @@ Categories:
 | +5
 | +5
 | +10
-| CLASS="centre" | — 
+| CLASS="gauche" | &nbsp;
 | 4
 | 4
 | 4
@@ -350,7 +330,7 @@ Categories:
 | +6
 | +6
 | +11
-| CLASS="centre" | —
+| CLASS="gauche" | &nbsp;
 | 4
 | 4
 | 4
@@ -367,7 +347,7 @@ Categories:
 | +6
 | +6
 | +11
-| CLASS="centre" | — 
+| CLASS="gauche" | &nbsp; 
 | 4
 | 4
 | 4
@@ -384,7 +364,7 @@ Categories:
 | +6
 | +6
 | +12
-| CLASS="centre" | [[magicien#DONSUPPLEMENTAIRE|don supplémentaire]]
+| CLASS="gauche" | [[magicien#DONSUPPLEMENTAIRE|Don supplémentaire]]
 | 4
 | 4
 | 4
@@ -396,7 +376,6 @@ Categories:
 | 4
 | 4
 |}
-</center>
 
 '''Rôle.''' Alors que les études des magiciens généralistes leur permettent de se préparer à n’importe quel type de danger, les magiciens spécialistes s’intéressent à des [[écoles de magie]] qui les rendent particulièrement efficaces dans un domaine spécifique. Mais, quelle que soit la voie choisie, tous les magiciens sont des maîtres de l’impossible, capables d’aider leurs alliés à faire face à n’importe quelle menace.
 
@@ -416,11 +395,9 @@ Les aptitudes du magicien sont décrites ci-dessous.
 
 {s:ImageDroite|Illustrations/PNJ/Ezren.jpg|30%}
 ====Armes et armures====
-
 Le magicien est formé au maniement des arbalètes légères, des arbalètes lourdes, des bâtons, des dagues et des gourdins mais pas au port des armures ni à l’utilisation des boucliers. En effet, une armure restreint ses gestes, ce qui risque de faire échouer ses sorts à composante gestuelle.
 
 ====Sorts====
-
 Un magicien peut lancer des sorts profanes appartenant à la [[liste des sorts densorceleursmagiciens|liste des sorts d’ensorceleur et de magicien]]. Un magicien doit choisir et préparer ses sorts à l’avance.
 
 Pour apprendre ou lancer un sort, un magicien doit avoir une valeur d’[[Intelligence]] au moins égale à 10 + le niveau du sort. Le [[DD]] des [[jet de sauvegarde|jets de sauvegarde]] contre les sorts du magicien est égal à 10 + le [[niveau de sort|niveau du sort]] + le modificateur d’[[Intelligence]] du magicien.
@@ -430,13 +407,11 @@ Le magicien ne peut lancer qu’un nombre de sorts donné de chaque niveau chaqu
 Le magicien n’est pas limité quant au nombre de sorts qu’il peut connaître. Il doit cependant choisir et préparer ses sorts à l’avance en étudiant son [[magicien#GRIMOIRE|grimoire]] pendant une heure, après huit heures de sommeil. Pendant qu’il étudie, le magicien choisit quels sorts il va préparer pour la journée.
 
 ====Langues supplémentaires====
-
 Le magicien peut apprendre le [[Linguistique|draconien]] à la place d’une des langues supplémentaires autorisées par sa race.
 
 {s:Reference|PACTEMAGIQUE}
 ====Pacte magique (Ext ou Mag)====
-
-Au niveau 1, un puissant lien se crée entre le magicien et un objet ou une créature. Ce lien peut prendre l’une des deux formes suivantes : un [[familier]] ou un objet fétiche. Un familier est un animal de compagnie magique qui améliore les compétences et rehausse les sens du magicien alors qu’un objet fétiche est un objet que le magicien utilise pour lancer des sorts supplémentaires ou en tant qu’objet magique. Une fois qu’un magicien a choisi une de ces deux options, il ne peut plus modifier son choix. Pour les règles concernant les [[familier|familiers]], voir la page correspondante, pour celles qui traitent des objets fétiches, voir ci-dessous.
+Au niveau 1, un puissant lien se crée entre le magicien et un objet ou une créature. Ce lien peut prendre l’une des deux formes suivantes : un [[familiers|familier]] ou un objet fétiche. Un familier est un animal de compagnie magique qui améliore les compétences et rehausse les sens du magicien alors qu’un objet fétiche est un objet que le magicien utilise pour lancer des sorts supplémentaires ou en tant qu’objet magique. Une fois qu’un magicien a choisi une de ces deux options, il ne peut plus modifier son choix. Pour les règles concernant les [[familiers|familiers]], voir la page correspondante, pour celles qui traitent des objets fétiches, voir ci-dessous.
 
 Les magiciens qui choisissent un objet fétiche le possèdent automatiquement (sans devoir le payer) lorsqu’ils entrent en jeu. L’objet en question doit appartenir à une des catégories suivantes : amulette, anneau, arme, baguette ou bâton. Il s’agit toujours d’un objet de maître. Les armes que le personnage reçoit au niveau 1 ne sont jamais composées d’un matériel spécial. Si l’objet est une amulette ou un anneau, il doit être porté pour pouvoir être utilisé. Les armes, les baguettes et les bâtons, quant à eux, doivent être tenus dans une main. Si un magicien tente de lancer un sort sans porter ou tenir son objet fétiche, il doit réussir un test de [[concentration]] pour éviter de perdre le sort. Le [[DD]] de ce test vaut 20 + le [[niveau de sort|niveau du sort]]. Si l’objet est un anneau ou une amulette, il occupe [[Règles relatives aux objets magiques#SURLECORPS|l’emplacement d’un objet magique]] (cou ou anneau).
 
@@ -465,25 +440,20 @@ Voir la [[Écoles de magie|liste des écoles de magie]].
 
 {s:Reference|TOURSDEMAGIE}
 ====Tours de magie====
-
 Le magicien peut préparer un certain nombre de tours de magie (ou sorts de niveau 0) chaque jour, comme indiqué dans la Table [[Magicien#TABLEMAGICIEN|ci-dessus]] sous la mention « Sorts par jour ». Il jette ces sorts comme les autres mais ils ne sont pas dépensés lorsqu’ils sont lancés et peuvent être utilisés à nouveau.
 
 {s:Reference|ECRITUREDEPARCHEMINS}
 ====Écriture de parchemins====
-
 Un magicien de niveau 1 acquiert automatiquement le don [[Écriture de parchemins]] comme don supplémentaire.
 
 {s:Reference|DONSUPPLEMENTAIRE}
 ====Dons supplémentaires et découvertes arcaniques====
-
 Aux niveaux 5, 10, 15 et 20, le magicien gagne un don supplémentaire. Ce don doit obligatoirement être un [[Dons#DONMETAMAGIE|don de métamagie]], un [[Dons#DONCREATION|don de création d’objets]] ou bien le don [[Maîtrise des sorts]] ou [[Spontanéité planifiée]]. Le magicien doit satisfaire à toutes les conditions requises pour le don choisi, y compris le [[NLS|niveau de lanceur de sorts]] minimum. Ces dons viennent s’ajouter à ceux que tous les personnages gagnent en montant de niveau (et pour lesquels le magicien n’est pas limité aux catégories de dons citées plus haut).
 
 {s:um}Les magiciens passent une grande partie de leur existence à chercher de grandes vérités et à traquer les connaissances comme si leur vie en dépendait. Le pouvoir du magicien ne réside pas forcément dans ses sorts, ce ne sont que des manifestations extérieures visibles de ce pouvoir. La véritable puissance du magicien réside dans son intelligence indomptable, dans sa dévotion à son art et dans ses capacités à dépasser les vérités superficielles pour comprendre les fondements cachés de l’existence. Un magicien passe une grande partie de son temps à faire des recherches sur les sorts et préfère découvrir une bibliothèque inconnue plutôt qu’une salle pleine de pièces d’or. Les magiciens ne sont pas forcément des rats de bibliothèque reclus mais ils brûlent de curiosité face à l’inconnu. Les [[découvertes arcaniques]] résultent de cette obsession pour la magie. Le magicien peut apprendre une découverte magique au lieu de choisir un don normal ou un don de magicien supplémentaire.
 
 {s:Reference|GRIMOIRE}
-
 ====Grimoire====
-
 Le magicien doit étudier son grimoire chaque jour afin de préparer les sorts qu’il souhaite utiliser. Il est incapable de préparer un sort qui ne se trouve pas dans son grimoire, exception faite de ''[[lecture de la magie]]'', que tout magicien peut préparer de tête.
 
 Le personnage commence sa carrière avec un grimoire contenant tous les sorts de niveau 0 (sauf ceux appartenant à une école opposée, s’il est spécialisé, voir « [[Magicien#ECOLEDEMAGIE|École de magie]] ») plus trois sorts du 1er niveau choisis par le joueur. On y ajoute un nouveau sort du 1er niveau pour chaque point de bonus du modificateur d’[[Intelligence]] du personnage. Chaque fois que le personnage gagne un niveau de magicien, il ajoute deux nouveaux sorts dans son grimoire. Ces sorts doivent appartenir à des niveaux de sorts auxquels il a accès (en considérant son niveau de magicien nouvellement augmenté). À n’importe quel moment, le personnage peut également recopier des sorts trouvés dans le grimoire d’un autre magicien (voir la section [[Magie profane#ECRITS|Ecrits de magie profane]]).

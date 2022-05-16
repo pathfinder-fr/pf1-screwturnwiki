@@ -1,0 +1,702 @@
+---
+Name: Pathfinder-RPG.Création de monstres simplifiée, Étape 1
+Title: Création de monstres simplifiée, Étape 1 : La gamme
+LastModified: 2021-01-03 22:33
+Categories:
+  - 'Src Pathfinder unchained'
+---
+<script>
+$(function () {
+  $("tr.cache").hide(); 
+  $("table.toggle caption").bind("click", toggleTable);
+});
+
+function toggleTable() {
+    $(this).next().children().toggle();
+}
+</script>{s:MenuPathfinderunchained}{s:PU}{toc}Les gammes présentées dans ce chapitre vous permettent de définir rapidement les statistiques de trois grands types de monstres. Chacune vous permet de personnaliser les monstres dans une certaine mesure, notamment grâce aux options du monstre, mais les statistiques restent très proches des indications de base fixées par la [[Progression des personnages|progression des PJ]] et la table "[[Créer un monstre#TAB11|Valeurs-cibles des monstres par FP]]" du Bestiaire. Les options correspondent, grosso modo, aux rôles axés sur le combat, les compétences ou les sorts que l’on utilise pour l’évolution des monstres suivant le [[Créer un monstre|système de création de monstres normal]]. Ainsi, si vous devez recréer un monstre ayant un rôle de combattant (comme un [[ogre]] ou un [[vrock]]), vous commencez avec la [[Création de monstres simplifiée, Étape 1#COMBATTANT|gamme du combattant]]. Vous pouvez choisir la gamme que vous préférez à moins que le monstre ne soit censé imiter un [[PNJ]] et ne soit créé avec une classe de personnage à l’[[Création de monstres simplifiée, Étape 2|étape 2]] (comme indiqué [[Création de monstres simplifiée, Étape 1#CLASSESDEPERSONNAGE|plus bas]]) ou avec un archétype à l’[[Création de monstres simplifiée, Étape 4|étape 4]]. Voici les trois gammes.
+
+'''[[Création de monstres simplifiée, Étape 1#COMBATTANT|Le combattant]].''' Tous les monstres qui s’appuient avant tout sur leur puissance physique dépendent de la gamme des combattants, dont les caractéristiques principales sont de hauts bonus d’attaque, de nombreux points de vie et de solides défenses. Les compétences du combattant sont plutôt faibles et la majorité de ses options sont des options de combat. La plupart des créatures d’Intelligence faible ou nulle sont normalement des combattants, au même titre que les monstres intelligents entraînés au combat.
+
+'''[[Création de monstres simplifiée, Étape 1#EXPERT|L’expert]].''' Un monstre utilise la gamme d’expert quand il se concentre sur les compétences, les interactions ou la ruse et la tactique. Cette gamme apporte des statistiques moyennes dans la plupart des domaines, ainsi que de solides compétences et des options de monstres plus larges. La gamme d’expert est le moyen idéal de reproduire des [[PNJ]] basés sur les compétences, comme les roublards ou les bardes. Dans de nombreux cas, les monstres experts essaieront de tromper les [[PJ]] ou de se lier d’amitié avec eux plutôt que de les affronter.
+
+'''[[Création de monstres simplifiée, Étape 1#LANCEURDESORTS|Le lanceur de sorts]].''' Un monstre qui s’appuie principalement sur des sorts utilise la gamme de lanceur de sorts. Quoique ses statistiques soient dans l’ensemble assez faibles, il a accès à de nombreux sorts issus des listes de l’[[Création de monstres simplifiée, Étape 6|Étape 6]]. Étant donné que ce système fait appel à des valeurs de référence plutôt que de calculer les statistiques individuelles, un monstre qui compte sur ses sorts pour augmenter ses propres capacités (et devenir un puissant combattant au corps à corps, par exemple) devrait utiliser la gamme correspondant à la manière dont vous comptez l’utiliser en jeu plutôt que d’opter pour celle de lanceur de sorts parce qu’il est capable de manipuler la magie.
+
+{s:Reference|CLASSESDEPERSONNAGE}
+===Les classes de personnage===
+Vous serez peut-être amené à créer un monstre censé utiliser les statistiques d’une classe de personnage, que ce soit parce que sa création implique normalement que vous lui ajoutiez des niveaux de classe ou parce que vous pensez que ses pouvoirs sont suffisamment proches de ceux d’une classe de personnage particulière pour qu’il soit plus rapide de commencer avec cette classe. Dans ce cas, reportez vous aux [[Création de monstres simplifiée, Étape 2#GREFFESDECLASSE|greffes de classe]], et utilisez la gamme requise pour la classe désirée. N’oubliez pas qu’un monstre qui possède des niveaux de classe a généralement un [[FP]] égal à son niveau de classe -1. Ainsi, si vous souhaitez que votre monstre dispose de pouvoirs de classe particuliers, liés au niveau, il vous faudra utilisez les mêmes statistiques que celles d’un monstre dont le [[FP]] est inférieur de 1 au niveau de classe voulu.
+
+Comme indiqué plus haut, un monstre qui s’appuie principalement sur ses pouvoirs naturels ou raciaux et ne possède qu’un petit nombre de niveaux de classe sera peut-être différent à construire. Vous pouvez le créer avec la [[Création de monstres simplifiée, Étape 2|greffe du type de créature]] auquel il appartient puis vous reportez à la greffe de classe associée pour avoir une idée des options de monstre à choisir.
+
+===Utiliser la gamme===
+Dans le système de création de monstres simplifié, vous n’avez pas besoin de recourir aux calculs normaux pour déterminer les statistiques finales de votre monstre. Au lieu de cela, la gamme vous indique directement les valeurs auxquelles vous apportez, plus tard au cours du processus, quelques modifications en fonction des greffes et des options de monstre. En d’autres termes, si la gamme spécifie que le bonus de [[Vigueur]] du monstre est de +11, ce nombre correspond à son bonus total (on part du principe qu’il inclut déjà tous les bonus de [[DV|dés de vie]], de classe, le modificateur de [[Constitution]] et les bonus d’objets magiques, quels que soient les ajustements futurs).
+
+Chaque gamme est présentée avec deux tables : la première établit la plupart des statistiques et choix du monstre tandis que la seconde présente les options pour les valeurs d’attaque et de dégâts.
+
+Pour commencer à créer les statistiques de votre monstre, consultez la table de gamme appropriée et consultez la ligne correspondant au [[FP]] voulu. Notez les statistiques de cette ligne en vous aidant des indications suivantes.
+
+'''FP, CA, JdS, DMD, pv et DD.''' Notez ces nombres tels qu’ils apparaissent dans le tableau. Certaines de ces valeurs changeront peut-être au cours des étapes suivantes mais, lors de cette étape du processus, il n’y a aucun autre choix à faire au regard de ces nombres. Remarquez que pour la [[CA]], le premier nombre correspond à la CA normale tandis que le deuxième correspond à la CA au contact et que le troisième indique la CA pris au dépourvu. Pour les [[jds|jets de sauvegarde]], vous pouvez inverser deux valeurs si cela correspond davantage à votre monstre. Les deux colonnes de [[DD]] sont utilisées pour tous les pouvoirs et tous les sorts du monstre. Pour tous les pouvoirs qui ne sont pas des sorts, utilisez le DD indiqué pour les pouvoirs. Pour tous les sorts que le monstre peut lancer, ajoutez le niveau du sort au nombre indiqué dans la colonne du DD des sorts. Utilisez le niveau d’[[ensorceleur]]/de [[magicien]] ou de [[prêtre]] du sort si plusieurs classes peuvent lancer un même sort. Si aucune de ces classes ne peut lancer le sort, utilisez le plus haut niveau de sort indiqué dans la description du sort.
+
+'''Modificateurs de caractéristique.''' Lors de cette étape, vous assignez les modificateurs aux trois valeurs de caractéristique les plus importantes de votre monstre. Vous pouvez vous baser sur tous les critères que vous souhaitez pour procéder à cette répartition : chaque section de la gamme vous propose des suggestions de choix courants. Toutes les autres caractéristiques ont un modificateur de +0, bien que vous puissiez aussi affliger votre monstre d’un malus si vous jugez cette décision thématiquement appropriée. Notez bien que ces éléments sont des modificateurs de caractéristique, non pas des valeurs de caractéristique, puisque vous les utilisez essentiellement comme les modificateurs par défaut à appliquer aux tests de compétence et de caractéristique. Notez les modificateurs de caractéristique choisis.
+
+'''Compétences.''' Toutes les compétences sont divisées en deux catégories : celles que le monstre a appris à maîtriser et celles pour lesquelles il est simplement bon. Le nombre devant lequel apparaît un « + » correspond au bonus de compétence tandis que le nombre entre parenthèses indique combien de compétences le monstre gagne au niveau d’expertise spécifié. Par exemple, une compétence maîtrisée notée « +11 (2) » signifie que le monstre obtient deux compétences à +11 et que toute autre « compétence maîtrisée » que lui apporte les greffes seront également à +11. On part du principe que ces bonus incluent les bonus de caractéristique, les rangs, les dons et les modificateurs raciaux appropriés pour obtenir les valeurs indiquées là. Notez les bonus des compétence maîtrisées et profitables du monstre ainsi que le nombre de compétences qu’il possède dans ces deux catégories. Les greffes pouvant modifier le nombre de compétences d’un monstre ou lui accorder/refuser des compétences particulières, il vous appartient de définir ces compétences particulières lors de l’[[Création de monstres simplifiée, Étape 8|Étape 8]].
+
+'''Options.''' La plupart des pouvoirs que le monstre possède et qui dépassent le cadre de ses statistiques de base viennent des options de monstre. Il y a quatre catégories d’options : combat, magique, sociale et universelle. Chaque entrée précise le nombre d’options que le monstre peut choisir dans une catégorie donnée, « libre » signifiant qu’il n’y a pas de restriction de catégorie pour ces options. Notez combien d’options de chaque type le monstre gagne. Vous définissez les options au moment de l’[[Création de monstres simplifiée, Étape 7|Étape 7]].
+
+'''Attaque et dégâts.''' La deuxième table présente quatre options pour les attaques du monstre. Deux colonnes indiquent les attaques armées : une avec un bonus supérieur, l’autre avec un bonus inférieur. Utilisez les valeurs d’attaque et de dégâts les plus élevées pour l’attaque principale du monstre. S’il possède des attaques supplémentaires, moins puissantes, utilisez alors les valeurs d’attaque et de dégâts les plus basses : une créature qui apparaît surtout comme un attaquant à distance utilise les valeurs d’attaques les plus élevées à l’[[arc long (arme)|arc long]] et les valeurs d’attaques les plus basses à l’[[épée longue (arme)|épée longue]]. Vous pouvez mixer et combiner ces valeurs. Par exemple, comme les attaques à distance infligent généralement moins de dégâts, vous pouvez attribuer le bonus d’attaque le plus élevé à l’arc long mais la valeur de dégâts la plus basse.
+
+Les deux dernières colonnes concernent les attaques naturelles, qu’il s’agisse de deux attaques (deux attaques de coup ou de griffes, par exemple) ou d’une puissante attaque principale et de deux attaques secondaires plus faibles (comme une morsure et deux attaques de griffes). Selon son niveau, il arrive que le monstre ait un bonus d’attaque négatif : cela signifie que le nombre d’attaques est sans doute trop important pour un monstre de ce [[FP]]. Ces entrées sont inclues pour plus d’exhaustivité.
+
+Le nombre entre parenthèses indique les dégâts de chaque attaque. Par exemple, une entrée disant « +10/+5 (10) » signifie que, quand le monstre porte une [[attaque à outrance]], il effectue une attaque à +10 et une attaque à +5 et que chacune d’elles inflige en moyenne 10 points de dégâts. Une entrée disant « 1 à +10 (10), 2 à +5 (5) » signifie que le monstre effectue une attaque à +10 qui inflige 10 points de dégâts et deux attaques à +5 qui infligent 5 points de dégâts chacune.
+
+Notez les bonus d’attaque et les valeurs de dégâts pour chaque attaque du monstre. Lors de l’[[Création de monstres simplifiée, Étape 9|Étape 9]], vous attribuerez des dés aux valeurs de dégâts. Si votre monstre est censé avoir un nombre d’attaques différent de ce qui est indiqué là (comme, par exemple, quatre attaques de tentacule), cette section propose également des conseils pour modifier les attaques du monstre à l’aide de la table "[[Créer un monstre#TAB11|Valeurs-cibles des monstres par FP]]" du Bestiaire.
+
+====Encadré : Comment lire la présentation des gammes ?====
+Chaque section des pages suivantes explique brièvement le concept d’une gamme particulière puis vous fournit les outils suivants.
+
+'''Thèmes.''' Ces exemples détaillent certains types de monstre communs que la gamme donnée permet de créer. Cette partie propose les principales valeurs de caractéristique, compétences et [[Création de monstres simplifiée, Étape 7|options du monstre]]. Les entrées du lanceur de sorts incluent également des [[Création de monstres simplifiée, Étape 6|listes de sorts]]. Toutes ces données ne sont que des propositions et ont pour unique but de vous guider rapidement vers les meilleures options de monstre.
+
+'''Statistiques principales.''' La plupart des statistiques de la gamme du monstre apparaissent dans la première grande table présentée, où elles sont organisées par [[FP]].
+
+'''Statistiques d’attaque.''' La présentation de la gamme se poursuit dans la seconde grande table avec les options d’attaque et les valeurs de dégâts selon le [[FP]].
+
+{s:Reference|COMBATTANT}
+===La gamme du combattant===
+Type de monstre le plus courant dans la plupart des régions, le combattant est dans son élément sur les champs de bataille. Les monstres combattants ont souvent des statistiques physiques élevées et de puissantes attaques. Les défenses, les points de vie et les attaques l’emportent sur les compétences et les options. Cette gamme couvre un large éventail de créatures allant des bêtes brutales aux généraux aguerris.
+
+Les combattants courants incluent la plupart des animaux et des vermines ainsi que la plupart des [[Démon|démons]], des [[Étrangleur|étrangleurs]], des [[Géant de cendre|géants]], des [[Goule|goules]], des [[Golem alchimique|golems]], des [[Ogre|ogres]], des [[Troll|trolls]] et des [[Worg|worgs]].
+
+''Cliquez sur les bandes pour dévoiler les tableaux de progression.''
+{| CLASS="tablo toggle centre autoalt" WIDTH="100%"
+|+ Statistiques principales de combattant
+|- CLASS="titre cache"
+| ROWSPAN="2" | FP
+| ROWSPAN="2" | CA
+| COLSPAN="3" CLASS="avecsoustitre" | JdS
+| ROWSPAN="2" | DMD
+| ROWSPAN="2" | pv
+| COLSPAN="2" CLASS="avecsoustitre" | Pouvoir/sorts
+| ROWSPAN="2" | Mod<br>de carac.
+| COLSPAN="2" CLASS="avecsoustitre" | Compétences
+| ROWSPAN="2" | Options
+|- CLASS="soustitre cache"
+| Réf || Vig || [[Vol]] || DD || DD || Maîtrisées || Profitables
+|- CLASS="premier cache"
+| 1/2 || 13, 12, 12 || +1 || +1 || +0 || 13 || 11 || 9 || 9 || +3, +2, +1 || +8 (1) || +5 (2) || combat 1
+|- CLASS="cache"
+| 1 || 14, 12, 12 || +2 || +2 || +1 || 14 || 16 || 10 || 10 || +3, +2, +1 || +9 (1) || +6 (2) || combat 1
+|- CLASS="cache"
+| 2 || 16, 12, 12 || +3 || +3 || +1 || 16 || 22 || 11 || 11 || +3, +2, +1 || +10 (1) || +7 (2) || combat 1
+|- CLASS="cache"
+| 3 || 17, 12, 12 || +4 || +4 || +2 || 18 || 33 || 12 || 11 || +4, +2, +1 || +11 (1) || +8 (2) || combat 1, libre 1
+|- CLASS="cache"
+| 4 || 19, 12, 14 || +5 || +5 || +3 || 20 || 44 || 13 || 12 || +4, +3, +1 || +12 (1) || +9 (2) || combat 1, libre 1
+|- CLASS="cache"
+| 5 || 20, 12, 15 || +6 || +6 || +4 || 21 || 60 || 13 || 12 || +5, +3, +2 || +13 (1) || +10 (2) || combat 1, libre 1
+|- CLASS="cache"
+| 6 || 21, 12, 15 || +7 || +7 || +5 || 23 || 77 || 14 || 12 || +5, +3, +2 || +14 (1) || +11 (2) || combat 1, libre 1
+|- CLASS="cache"
+| 7 || 22, 13, 16 || +8 || +8 || +6 || 24 || 93 || 15 || 12 || +6, +4, +2 || +15 (1) || +12 (2) || combat 1, libre 1
+|- CLASS="cache"
+| 8 || 23, 13, 17 || +9 || +9 || +7 || 26 || 110 || 16 || 13 || +6, +4, +2 || +16 (1) || +13 (2) || combat 1, libre 1
+|- CLASS="cache"
+| 9 || 25, 15, 18 || +10 || +10 || +8 || 28 || 126 || 16 || 13 || +7, +4, +3 || +17 (1) || +14 (2) || combat 1, libre 1
+|- CLASS="cache"
+| 10 || 26, 15, 19 || +11 || +11 || +9 || 29 || 143 || 17 || 13 || +7, +5, +3 || +18 (1) || +14 (2) || combat 1, libre 1
+|- CLASS="cache"
+| 11 || 27, 16, 20 || +12 || +12 || +10 || 30 || 159 || 18 || 13 || +8, +5, +3 || +19 (1) || +15 (2) || combat 1, libre 1
+|- CLASS="cache"
+| 12 || 29, 17, 21 || +13 || +13 || +11 || 32 || 176 || 19 || 14 || +8, +5, +4 || +20 (1) || +16 (2) || combat 2, libre 1
+|- CLASS="cache"
+| 13 || 30, 18, 22 || +14 || +14 || +12 || 33 || 198 || 19 || 14 || +9, +6, +4 || +21 (1) || +17 (2) || combat 2, libre 1
+|- CLASS="cache"
+| 14 || 31, 18, 23 || +15 || +15 || +12 || 34 || 220 || 20 || 14 || +9, +6, +4 || +23 (1) || +18 (2) || combat 2, libre 1
+|- CLASS="cache"
+| 15 || 32, 19, 24 || +16 || +16 || +13 || 36 || 242 || 21 || 14 || +10, +7, +5 || +25 (1) || +20 (2) || combat 2, libre 1
+|- CLASS="cache"
+| 16 || 33, 19, 24 || +17 || +17 || +14 || 37 || 264 || 22 || 15 || +11, +7, +5 || +27 (1) || +22 (2) || combat 2, libre 1
+|- CLASS="cache"
+| 17 || 34, 20, 25 || +18 || +18 || +15 || 38 || 297 || 22 || 15 || +11, +8, +5 || +29 (1) || +23 (2) || combat 2, libre 1
+|- CLASS="cache"
+| 18 || 35, 21, 26 || +18 || +18 || +16 || 39 || 330 || 23 || 15 || +12, +8, +6 || +31 (1) || +25 (2) || combat 3, libre 1
+|- CLASS="cache"
+| 19 || 36, 21, 27 || +19 || +19 || +16 || 40 || 363 || 24 || 16 || +13, +9, +6 || +33 (1) || +27 (2) || combat 3, libre 1
+|- CLASS="cache"
+| 20 || 38, 22, 28 || +20 || +20 || +17 || 42 || 407 || 25 || 17 || +13, +9, +6 || +35 (1) || +28 (2) || combat 3, libre 1
+|- CLASS="cache"
+| 21 || 39, 23, 29 || +21 || +21 || +18 || 43 || 440 || 25 || 17 || +14, +10, +7 || +37 (1) || +30 (2) || combat 3, libre 1
+|- CLASS="cache"
+| 22 || 41, 24, 30 || +21 || +21 || +18 || 45 || 484 || 26 || 18 || +14, +10, +7 || +39 (1) || +32 (2) || combat 3, libre 1
+|- CLASS="cache"
+| 23 || 42, 25, 31 || +22 || +22 || +19 || 46 || 528 || 27 || 19 || +15, +11, +7 || +41 (1) || +33 (2) || combat 3, libre 1
+|- CLASS="cache"
+| 24 || 44, 26, 33 || +23 || +23 || +20 || 48 || 572 || 28 || 20 || +15, +11, +8 || +43 (1) || +35 (2) || combat 3, libre 1
+|- CLASS="cache"
+| 25 || 45, 27, 33 || +24 || +24 || +21 || 50 || 616 || 28 || 20 || +16, +12, +8 || +45 (1) || +37 (2) || combat 3, libre 1
+|- CLASS="cache"
+| 26 || 46, 27, 34 || +25 || +25 || +22 || 51 || 660 || 29 || 21 || +16, +12, +8 || +47 (1) || +38 (2) || combat 3, libre 1
+|- CLASS="cache"
+| 27 || 47, 28, 35 || +26 || +26 || +23 || 52 || 704 || 30 || 22 || +17, +13, +9 || +49 (1) || +40 (2) || combat 3, libre 1
+|- CLASS="cache"
+| 28 || 48, 28, 36 || +27 || +27 || +24 || 53 || 748 || 31 || 23 || +17, +13, +9 || +51 (1) || +42 (2) || combat 3, libre 1
+|- CLASS="cache"
+| 29 || 49, 29, 36 || +28 || +28 || +25 || 54 || 792 || 32 || 24 || +18, +14, +10 || +53 (1) || +43 (2) || combat 3, libre 1
+|- CLASS="cache"
+| 30 || 50, 30, 37 || +29 || +29 || +26 || 55 || 836 || 33 || 25 || +18, +15, +10 || +53 (1) || +45 (2) || combat 3, libre 1
+|- CLASS="cache"
+| </sup> || </sup> || </sup> || </sup> || </sup> || </sup> || </sup> || </sup> || </sup> || </sup> || </sup> || </sup> || </sup>
+|}
+{| CLASS="tablo toggle centre autoalt" WIDTH="100%"
+|+ Statistiques d’attaque de combattant
+|- CLASS="titre cache"
+| ROWSPAN="2" | FP
+| COLSPAN="2" CLASS="avecsoustitre" | Attaques armées
+| COLSPAN="2" CLASS="avecsoustitre" | Attaques naturelles
+|- CLASS="soustitre cache"
+| Dégâts supérieurs || Dégâts inférieurs || 2 (dégâts) || 3 (dégâts)
+|- CLASS="premier cache"
+| 1/2 || +1 (5) || +0 (4) || 2 à -1 (4) || 1 à -1 (6), 2 à -6 (4)
+|- CLASS="cache"
+| 1 || +2 (8) || +1 (6) || 2 à +0 (4) || 1 à +0 (6), 2 à -5 (4)
+|- CLASS="cache"
+| 2 || +4 (11) || +3 (8) || 2 à +2 (6) || 1 à +2 (6), 2 à -3 (4)
+|- CLASS="cache"
+| 3 || +6 (14) || +4 (10) || 2 à +6 (8) || 1 à +6 (10), 2 à +1 (5)
+|- CLASS="cache"
+| 4 || +8 (17) || +6 (13) || 2 à +8 (9) || 1 à +8 (12), 2 à +3 (6)
+|- CLASS="cache"
+| 5 || +10/+5 (15) || +7/+2 (11) || 2 à +10 (11) || 1 à +10 (15), 2 à +5 (8)
+|- CLASS="cache"
+| 6 || +12/+7 (18) || +8/+3 (13) || 2 à +12 (14) || 1 à +12 (19), 2 à +7 (10)
+|- CLASS="cache"
+| 7 || +13/+8 (22) || +10/+5 (16) || 2 à +13 (17) || 1 à +13 (22), 2 à +8 (11)
+|- CLASS="cache"
+| 8 || +15/+10 (26) || +11/+6 (19) || 2 à +15 (20) || 1 à +15 (26), 2 à +10 (13)
+|- CLASS="cache"
+| 9 || +17/+12 (29) || +12/+7 (22) || 2 à +17 (22) || 1 à +17 (30), 2 à +12 (15)
+|- CLASS="cache"
+| 10 || +18/+13/+8 (28) || +13/+8/+3 (21) || 2 à +18 (25) || 1 à +18 (33), 2 à +13 (17)
+|- CLASS="cache"
+| 11 || +19/+14/+9 (32) || +14/+9/+4 (23) || 2 à +19 (28) || 1 à +19 (37), 2 à +14 (19)
+|- CLASS="cache"
+| 12 || +21/+16/+11 (35) || +15/+10/+5 (26) || 2 à +21 (31) || 1 à +21 (41), 2 à +16 (21)
+|- CLASS="cache"
+| 13 || +22/+17/+12 (38) || +16/+11/+6 (28) || 2 à +22 (33) || 1 à +22 (44), 2 à +17 (22)
+|- CLASS="cache"
+| 14 || +23/+18/+13 (41) || +17/+12/+7 (30) || 2 à +23 (36) || 1 à +23 (48), 2 à +18 (24)
+|- CLASS="cache"
+| 15 || +24/+19/+14/+9 (41) || +18/+13/+8/+3 (31) || 2 à 24 (39) || 1 à +24 (52), 2 à +19 (26)
+|- CLASS="cache"
+| 16 || +26/+21/+16/+11 (47) || +19/+14/+9/+4 (35) || 2 à +26 (44) || 1 à +26 (59), 2 à +21 (30)
+|- CLASS="cache"
+| 17 || +27/+22/+17/+12 (53) || +20/+15/+10/+5 (40) || 2 à +27 (50) || 1 à +27 (66), 2 à +22 (33)
+|- CLASS="cache"
+| 18 || +28/+23/+18/+13 (59) || +21/+16/+11/+6 (44) || 2 à +28 (55) || 1 à +28 (74), 2 à +23 (37)
+|- CLASS="cache"
+| 19 || +29/+24/+19/+14 (65) || +22/+17/+12/+7 (48) || 2 à +29 (61) || 1 à +29 (81), 2 à +24 (41)
+|- CLASS="cache"
+| 20 || +30/+25/+20/+15 (70) || +23/+18/+13/+8 (53) || 2 à +30 (66) || 1 à +30 (88), 2 à +25 (44)
+|- CLASS="cache"
+| 21 || +31/+26/+21/+16 (76) || +24/+19/+14/+9 (58) || 2 à +31 (72) || 1 à +31 (96), 2 à +26 (48)
+|- CLASS="cache"
+| 22 || +32/+27/+22/+17 (82) || +25/+20/+15/+10 (62) || 2 à +32 (77) || 1 à +32 (103), 2 à +27 (52)
+|- CLASS="cache"
+| 23 || +33/+28/+23/+18 (88) || +26/+21/+16/+11 (66) || 2 à +33 (83) || 1 à +33 (110), 2 à +28 (55)
+|- CLASS="cache"
+| 24 || +35/+30/+25/+20 (97) || +27/+22/+17/+12 (73) || 2 à +35 (91) || 1 à +35 (121), 2 à +30 (61)
+|- CLASS="cache"
+| 25 || +36/+31/+26/+21 (105) || +28/+23/+18/+13 (79) || 2 à +36 (99) || 1 à +36 (132), 2 à +31 (66)
+|- CLASS="cache"
+| 26 || +37/+32/+27/+22 (114) || +29/+24/+19/+14 (85) || 2 à +37 (108) || 1 à +37 (143), 2 à +32 (72)
+|- CLASS="cache"
+| 27 || +38/+33/+28/+23 (123) || +30/+25/+20/+15 (91) || 2 à +38 (116) || 1 à +38 (154), 2 à +33 (77)
+|- CLASS="cache"
+| 28 || +39/+34/+29/+24 (132) || +31/+26/+21/+16 (97) || 2 à 39 (124) || 1 à +39 (165), 2 à +34 (83)
+|- CLASS="cache"
+| 29 || +40/+35/+30/+25 (140) || +32/+27/+22/+17 (103) || 2 à +40 (132) || 1 à +40 (176), 2 à +35 (88)
+|- CLASS="cache"
+| 30 || +41/+36/+31/+26 (149) || +33/+28/+23/+18 (108) || 2 à +41 (141) || 1 à +41 (187), 2 à +36 (94)
+|}
+
+====Thèmes de combattant====
+Les thèmes suivants reflètent un grand nombre des styles auxquels les combattants font appel en combat.
+* '''Castagneur.''' Robuste et imposant, le castagneur aime bien frapper fort et peut encaisser moult dégâts.
+** ''Modificateurs de caractéristique'' – [[Force]] et [[Constitution]] ;
+** ''Compétences'' – [[Escalade]], [[Intimidation]], [[Natation]] ;
+** ''Options de combat'' – [[Création de monstres simplifiée, Étape 7#Réduction de dégâts|réduction de dégâts]], [[Création de monstres simplifiée, Étape 7#Dur à cuire|dur à cuire]], [[Création de monstres simplifiée, Étape 7#Points de vie supplémentaires|points de vie supplémentaires]], [[Création de monstres simplifiée, Étape 7#Attaque en puissance|attaque en puissance]], [[Création de monstres simplifiée, Étape 7#Éventration|éventration]].
+
+* '''Cavalier.''' Monté sur une créature, le cavalier attaque en profitant de sa position avantageuse.
+** ''Modificateurs de caractéristique'' – [[Dextérité]] et [[Force]] ;
+** ''Compétences'' – [[Dressage]], [[Équitation]], [[Intimidation]] ;
+** ''Options de combat'' – [[Création de monstres simplifiée, Étape 7#Science de l'initiative|science de l’initiative]], [[Création de monstres simplifiée, Étape 7#Maître cavalier|maître cavalier]], [[Création de monstres simplifiée, Étape 7#Charge puissante|charge puissante]].
+
+* '''Chasseur.''' Entraîné à traquer ses ennemis pour mieux les combattre, le chasseur sait profiter de l’élément de surprise.
+** ''Modificateurs de caractéristique'' – [[Force]] ou [[Dextérité]] et [[Sagesse]] ;
+** ''Compétences'' – [[Dressage]], [[Escalade]], [[Natation]], [[Perception]], [[Survie]] ;
+** ''Options de combat'' – [[Création de monstres simplifiée, Étape 7#Saignement|saignement]], [[Création de monstres simplifiée, Étape 7#Frappe critique|frappe critique]], [[Création de monstres simplifiée, Étape 7#Ennemi juré|ennemi juré]], [[Création de monstres simplifiée, Étape 7#Emplacement piégé|emplacement piégé]] ;
+** ''Option sociale'' – [[Création de monstres simplifiée, Étape 7#Vigilance|vigilance]].
+
+* '''Commandant.''' Dirigeant par l’exemple, le commandant se bat tout en inspirant ses alliés pour les pousser à une plus grande réussite.
+** ''Modificateurs de caractéristique'' – [[Force]] et [[Charisme]] ;
+** ''Compétences'' – [[Acrobaties]], [[Diplomatie]], [[Équitation]], [[Intimidation]] ;
+** ''Options de combat'' – [[Création de monstres simplifiée, Étape 7#Défi|défi]], [[Création de monstres simplifiée, Étape 7#Caresse du combattant|caresse du combattant]], [[Création de monstres simplifiée, Étape 7#Science de l'initiative|science de l’initiative]] ;
+** ''Options sociales'' – [[Création de monstres simplifiée, Étape 7#Présence encourageante|présence encourageante]], [[Création de monstres simplifiée, Étape 7#Récupération héroïque|récupération héroïque]].
+
+* '''Escarmoucheur.''' L’escarmoucheur s’appuie sur la rapidité et la ruse pour gagner et quitter le champ de bataille comme on danse.
+** ''Modificateurs de caractéristique'' – [[Dextérité]] et [[Charisme]] ;
+** ''Compétences'' – [[Acrobaties]], [[Discrétion]], [[Escalade]], [[Évasion]] ;
+** ''Options de combat'' – [[Création de monstres simplifiée, Étape 7#Esquive maîtresse|esquive maîtresse]], [[Création de monstres simplifiée, Étape 7#Attaque supplémentaire|attaque supplémentaire]], [[Création de monstres simplifiée, Étape 7#Attaquant mobile|attaquant mobile]], [[Création de monstres simplifiée, Étape 7#Attaque de repositionnement|attaque de repositionnement]] ;
+** ''Option universelle'' – [[Création de monstres simplifiée, Étape 7#Déplacement facilité (terrain)|déplacement facilité (terrain)]].
+
+* '''Intouchable.''' Protégé par des défenses exceptionnelles, presque aucune attaque ne peut atteindre l’intouchable.
+** ''Modificateurs de caractéristique'' – [[Constitution]] et [[Dextérité]] ;
+** ''Compétences'' – [[Acrobaties]], [[Perception]], [[Survie]] ;
+** ''Options de combat'' – [[Création de monstres simplifiée, Étape 7#Réduction de dégâts|réduction de dégâts]], [[Création de monstres simplifiée, Étape 7#Esquive maîtresse|esquive maîtresse]] ou [[Création de monstres simplifiée, Étape 7#Armure supplémentaire|armure supplémentaire]], [[Création de monstres simplifiée, Étape 7#Immunité|immunité]], [[Création de monstres simplifiée, Étape 7#Résistance à la magie|résistance à la magie]], [[Création de monstres simplifiée, Étape 7#Esquive instinctive|esquive instinctive]].
+
+* '''Sapeur.''' Plutôt que d’infliger des dégâts massifs, le sapeur mine les capacités d’attaque de ses adversaires. Ce thème offre plusieurs options éventuelles mais évitez d’en attribuer plus de deux à votre monstre.
+** ''Modificateurs de caractéristique'' – [[Force]] et [[Constitution]] ;
+** ''Compétences'' – [[Discrétion]], [[Intimidation]], [[Perception]] ;
+** ''Options de combat'' – [[Création de monstres simplifiée, Étape 7#Affaiblissement temporaire de caractéristique|affaiblissement temporaire de caractéristique]], [[Création de monstres simplifiée, Étape 7#Absorption de sang|absorption de sang]], [[Création de monstres simplifiée, Étape 7#Briseur de défenses|briseur de défenses]], [[Création de monstres simplifiée, Étape 7#Absorption d'énergie|absorption d’énergie]], [[Création de monstres simplifiée, Étape 7#Attaque de terreur|attaque de terreur]], [[Création de monstres simplifiée, Étape 7#Paralysie|paralysie]], [[Création de monstres simplifiée, Étape 7#Attaque étourdissante|attaque étourdissante]].
+
+* '''Tacticien.''' Avec toutes les astuces qu’il a dans son sac, le tacticien s’appuie davantage sur son esprit acéré que sur ses muscles.
+** ''Modificateurs de caractéristique'' – [[Intelligence]] et [[Dextérité]] ;
+** ''Compétences'' – [[Bluff]], [[Évasion]], [[Perception]] ;
+** ''Options de combat'' – [[Création de monstres simplifiée, Étape 7#Briseur de défenses|briseur de défenses]], [[Création de monstres simplifiée, Étape 7#Parade de projectiles|parade de projectiles]], [[Création de monstres simplifiée, Étape 7#Science de la manœuvre offensive|science de la manœuvre offensive]], [[Création de monstres simplifiée, Étape 7#Tueur de mages|tueur de mages]], [[Création de monstres simplifiée, Étape 7#Attaque sournoise|attaque sournoise]].
+
+* '''Tireur d’élite.''' Ce monstre attaque à distance, généralement à l’arc, à l’arbalète ou avec une arme à feu.
+** ''Modificateurs de caractéristique'' – [[Dextérité]] et [[Sagesse]] ;
+** ''Compétences'' – [[Acrobaties]], [[Discrétion]], [[Perception]] ;
+** ''Options de combat'' – [[Création de monstres simplifiée, Étape 7#Attaque supplémentaire|attaque supplémentaire]], [[Création de monstres simplifiée, Étape 7#Tir de loin|tir de loin]], [[Création de monstres simplifiée, Étape 7#Rechargement rapide|rechargement rapide]], [[Création de monstres simplifiée, Étape 7#Connaissance des armes à feu|connaissance des armes à feu]], [[Création de monstres simplifiée, Étape 7#Tir de précision|tir de précision]] ;
+** ''Option universelle'' – [[Création de monstres simplifiée, Étape 7#Arme magique|arme magique]].
+
+====Les classes de combattant====
+Si votre monstre est censé fonctionner comme s’il possédait une [[Création de monstres simplifiée, Étape 1#CLASSESDEPERSONNAGE|classe de personnage]], il gagne une [[Création de monstres simplifiée, Étape 2#GREFFESDECLASSE|greffe de classe]]. Les greffes de classe qui suivent s’appliquent uniquement aux monstres de la gamme de combattant : [[Création de monstres simplifiée, Étape 2#BARBARE|barbare]], [[Création de monstres simplifiée, Étape 2#CHEVALIER|chevalier]], [[Création de monstres simplifiée, Étape 2#GUERRIER|guerrier]], [[Création de monstres simplifiée, Étape 2#MOINE|moine]], [[Création de monstres simplifiée, Étape 2#PALADIN|paladin]], [[Création de monstres simplifiée, Étape 2#PISTOLIER|pistolier]] et [[Création de monstres simplifiée, Étape 2#RODEUR|rôdeur]]. Pour les compagnons animaux et les montures, voir l’[[Création de monstres simplifiée, Étape 2#COMPAGNONSANIMAUXETMONTURES|encart du même nom]].
+
+{s:Reference|EXPERT}
+===La gamme d'expert===
+Jouissant de connaissances approfondies, les experts apparaissent souvent comme des meneurs, des conseillers de confiance ou des agents d’élite. Les monstres experts ont généralement un modificateur d’Intelligence élevé mais leurs autres statistiques varient en fonction de leur rôle. ils ont pour principaux atouts des compétences développées et des options d’interaction, mais la gamme d’expert étant plus polyvalente que les autres, beaucoup choisissent également l’option de magie secondaire ou des options de combat tactique.
+
+Parmi les monstres experts les plus courants, on trouve les [[Doppelganger|doppelgangers]], les [[Diablotin|diablotins]], les [[Dévoreur dintellect|dévoreurs d’intellect]], les [[Traqueur invisible|traqueurs invisibles]] et les [[Pixie|pixies]].
+
+''Cliquez sur les bandes pour dévoiler les tableaux de progression.''
+{| CLASS="tablo toggle centre autoalt" WIDTH="100%"
+|+ Statistiques principales d'expert
+|- CLASS="titre cache"
+| ROWSPAN="2" | FP
+| ROWSPAN="2" | CA
+| COLSPAN="3" CLASS="avecsoustitre" | JdS
+| ROWSPAN="2" | DMD
+| ROWSPAN="2" | pv
+| COLSPAN="2" CLASS="avecsoustitre" | Pouvoir/sorts
+| ROWSPAN="2" | Mod<br>de carac.
+| COLSPAN="2" CLASS="avecsoustitre" | Compétences
+| ROWSPAN="2" | Options
+|- CLASS="soustitre cache"
+| Réf || Vig || [[Vol]] || DD || DD || Maîtrisées || Profitables
+|- CLASS="premier cache"
+| 1/2 || 11, 10, 10 || +0 || +0 || +3 || 11 || 10 || 11 || 11 || +3, +2, +1 || +8 (3) || +5 (2) || libre 1
+|- CLASS="cache"
+| 1 || 12, 10, 10 || +1 || +1 || +4 || 12 || 15 || 12 || 12 || +3, +2, +1 || +9 (3) || +6 (2) || libre 1
+|- CLASS="cache"
+| 2 || 14, 10, 10 || +1 || +1 || +5 || 14 || 20 || 13 || 13 || +3, +2, +1 || +10 (3) || +7 (2) || libre 1
+|- CLASS="cache"
+| 3 || 15, 10, 11 || +2 || +2 || +6 || 16 || 30 || 14 || 13 || +4, +2, +1 || +11 (3) || +8 (2) || libre 1, sociale 1
+|- CLASS="cache"
+| 4 || 17, 10, 12 || +3 || +3 || +7 || 18 || 40 || 15 || 14 || +4, +3, +1 || +12 (3) || +9 (2) || libre 1, sociale 1
+|- CLASS="cache"
+| 5 || 18, 10, 13 || +4 || +4 || +8 || 19 || 55 || 15 || 14 || +5, +3, +2 || +13 (3) || +10 (2) || libre 1, sociale 1
+|- CLASS="cache"
+| 6 || 19, 11, 14 || +5 || +5 || +9 || 21 || 70 || 16 || 14 || +5, +3, +2 || +14 (3) || +11 (2) || libre 1, sociale 1
+|- CLASS="cache"
+| 7 || 20, 12, 15 || +6 || +6 || +10 || 22 || 85 || 17 || 14 || +6, +4, +2 || +15 (3) || +12 (2) || libre 1, sociale 1
+|- CLASS="cache"
+| 8 || 21, 12, 15 || +7 || +7 || +11 || 24 || 100 || 18 || 15 || +6, +4, +2 || +16 (3) || +13 (2) || libre 1, sociale 1
+|- CLASS="cache"
+| 9 || 23, 13, 17 || +8 || +8 || +12 || 26 || 115 || 18 || 15 || +7, +4, +3 || +17 (3) || +14 (2) || libre 1, sociale 1
+|- CLASS="cache"
+| 10 || 24, 14, 18 || +9 || +9 || +13 || 27 || 130 || 19 || 15 || +7, +5, +3 || +18 (3) || +14 (2) || libre 1, sociale 1
+|- CLASS="cache"
+| 11 || 25, 15, 18 || +10 || +10 || +14 || 28 || 145 || 20 || 15 || +8, +5, +3 || +19 (3) || +15 (2) || libre 1, sociale 1
+|- CLASS="cache"
+| 12 || 27, 16, 20 || +11 || +11 || +15 || 30 || 160 || 21 || 16 || +8, +5, +4 || +20 (3) || +16 (2) || libre 2, sociale 1
+|- CLASS="cache"
+| 13 || 28, 16, 21 || +12 || +12 || +16 || 31 || 180 || 21 || 16 || +9, +6, +4 || +21 (3) || +17 (2) || libre 2, sociale 1
+|- CLASS="cache"
+| 14 || 29, 17, 21 || +12 || +12 || +17 || 32 || 200 || 22 || 16 || +9, +6, +4 || +23 (3) || +18 (2) || libre 2, sociale 1
+|- CLASS="cache"
+| 15 || 30, 18, 22 || +13 || +13 || +18 || 34 || 220 || 23 || 16 || +10, +7, +5 || +25 (3) || +20 (2) || libre 2, sociale 1
+|- CLASS="cache"
+| 16 || 31, 18, 23 || +14 || +14 || +19 || 35 || 240 || 24 || 17 || +11, +7, +5 || +27 (3) || +22 (2) || libre 2, sociale 1
+|- CLASS="cache"
+| 17 || 32, 19, 24 || +15 || +15 || +20 || 36 || 270 || 24 || 17 || +11, +8, +5 || +29 (3) || +23 (2) || libre 2, sociale 1
+|- CLASS="cache"
+| 18 || 33, 19, 24 || +16 || +16 || +20 || 37 || 300 || 25 || 17 || +12, +8, +6 || +31 (3) || +25 (2) || libre 3, sociale 1
+|- CLASS="cache"
+| 19 || 34, 20, 25 || +16 || +16 || +21 || 38 || 330 || 26 || 18 || +13, +9, +6 || +33 (3) || +27 (2) || libre 3, sociale 1
+|- CLASS="cache"
+| 20 || 36, 21, 27 || +17 || +17 || +22 || 40 || 370 || 27 || 19 || +13, +9, +6 || +35 (3) || +28 (2) || libre 3, sociale 1
+|- CLASS="cache"
+| 21 || 37, 22, 27 || +18 || +18 || +23 || 41 || 400 || 27 || 19 || +14, +10, +7 || +37 (3) || +30 (2) || libre 3, sociale 1
+|- CLASS="cache"
+| 22 || 39, 23, 29 || +18 || +18 || +23 || 43 || 440 || 28 || 20 || +14, +10, +7 || +39 (3) || +32 (2) || libre 3, sociale 1
+|- CLASS="cache"
+| 23 || 40, 24, 30 || +19 || +19 || +24 || 44 || 480 || 29 || 21 || +15, +11, +7 || +41 (3) || +33 (2) || libre 3, sociale 1
+|- CLASS="cache"
+| 24 || 42, 25, 31 || +20 || +20 || +25 || 46 || 520 || 30 || 22 || +15, +11, +8 || +43 (3) || +35 (2) || libre 3, sociale 1
+|- CLASS="cache"
+| 25 || 43, 25, 32 || +21 || +21 || +26 || 48 || 560 || 30 || 22 || +16, +12, +8 || +45 (3) || +37 (2) || libre 3, sociale 1
+|- CLASS="cache"
+| 26 || 44, 26, 33 || +22 || +22 || +27 || 49 || 600 || 31 || 23 || +16, +12, +8 || +47 (3) || +38 (2) || libre 3, sociale 1
+|- CLASS="cache"
+| 27 || 45, 27, 33 || +23 || +23 || +28 || 50 || 640 || 32 || 24 || +17, +13, +9 || +49 (3) || +40 (2) || libre 3, sociale 1
+|- CLASS="cache"
+| 28 || 46, 27, 34 || +24 || +24 || +29 || 51 || 680 || 33 || 25 || +17, +13, +9 || +51 (3) || +42 (2) || libre 3, sociale 1
+|- CLASS="cache"
+| 29 || 47, 28, 35 || +25 || +25 || +30 || 52 || 720 || 34 || 26 || +18, +14, +10 || +53 (3) || +43 (2) || libre 3, sociale 1
+|- CLASS="cache"
+| 30 || 48, 28, 36 || +26 || +26 || +31 || 53 || 760 || 35 || 27 || +18, +15, +10 || +53 (3) || +45 (2) || libre 3, sociale 1
+|- CLASS="cache"
+| </sup> || </sup> || </sup> || </sup> || </sup> || </sup> || </sup> || </sup> || </sup> || </sup> || </sup> || </sup> || </sup>
+|}
+{| CLASS="tablo toggle centre autoalt" WIDTH="100%"
+|+ Statistiques d’attaque d'expert
+|- CLASS="titre cache"
+| ROWSPAN="2" | FP
+| COLSPAN="2" CLASS="avecsoustitre" | Attaques armées
+| COLSPAN="2" CLASS="avecsoustitre" | Attaques naturelles
+|- CLASS="soustitre cache"
+| Dégâts supérieurs || Dégâts inférieurs || 2 (dégâts) || 3 (dégâts)
+|- CLASS="premier cache"
+| 1/2 || +1 (4) || +0 (3) || 2 à -2 (4) || 1 à -2 (6), 2 à -7 (4)
+|- CLASS="cache"
+| 1 || +2 (7) || +1 (5) || 2 à -1 (4) || 1 à -1 (6), 2 à -6 (4)
+|- CLASS="cache"
+| 2 || +4 (10) || +3 (7) || 2 à +1 (6) || 1 à +1 (6), 2 à -4 (4)
+|- CLASS="cache"
+| 3 || +6 (13) || +4 (9) || 2 à +4 (7) || 1 à +4 (9), 2 à -1 (5)
+|- CLASS="cache"
+| 4 || +8 (16) || +6 (12) || 2 à +6 (8) || 1 à +6 (11), 2 à +1 (6)
+|- CLASS="cache"
+| 5 || +10 (19) || +7 (15) || 2 à +7 (10) || 1 à +7 (14), 2 à +2 (7)
+|- CLASS="cache"
+| 6 || +12 (24) || +8 (18) || 2 à +8 (13) || 1 à +8 (17), 2 à +3 (9)
+|- CLASS="cache"
+| 7 || +13/+8 (20) || +10/+5 (15) || 2 à +10 (15) || 1 à +10 (20), 2 à +5 (10)
+|- CLASS="cache"
+| 8 || +15/+10 (23) || +11/+6 (17) || 2 à +11 (18) || 1 à +11 (24), 2 à +6 (12)
+|- CLASS="cache"
+| 9 || +17/+12 (26) || +12/+7 (20) || 2 à +12 (20) || 1 à +12 (27), 2 à +7 (14)
+|- CLASS="cache"
+| 10 || +18/+13 (30) || +13/+8 (22) || 2 à +13 (23) || 1 à +13 (30), 2 à +8 (15)
+|- CLASS="cache"
+| 11 || +19/+14 (33) || +14/+9 (25) || 2 à +14 (25) || 1 à +14 (34), 2 à +9 (17)
+|- CLASS="cache"
+| 12 || +21/+16 (36) || +15/+10 (27) || 2 à +15 (28) || 1 à +15 (37), 2 à +10 (19)
+|- CLASS="cache"
+| 13 || +22/+17 (39) || +16/+11 (30) || 2 à +16 (30) || 1 à +16 (40), 2 à +11 (20)
+|- CLASS="cache"
+| 14 || +23/+18/+13 (37) || +17/+12/+7 (28) || 2 à +17 (33) || 1 à +17 (44), 2 à +12 (22)
+|- CLASS="cache"
+| 15 || +24/+19/+14 (40) || +18/+13/+8 (30) || 2 à +18 (35) || 1 à +18 (47), 2 à +13 (24)
+|- CLASS="cache"
+| 16 || +26/+21/+16 (46) || +19/+14/+9 (34) || 2 à +19 (40) || 1 à +19 (54), 2 à +14 (27)
+|- CLASS="cache"
+| 17 || +27/+22/+17 (51) || +20/+15/+10 (38) || 2 à +20 (45) || 1 à +20 (60), 2 à +15 (30)
+|- CLASS="cache"
+| 18 || +28/+23/+18 (57) || +21/+16/+11 (43) || 2 à +21 (50) || 1 à +21 (67), 2 à +16 (34)
+|- CLASS="cache"
+| 19 || +29/+24/+19 (63) || +22/+17/+12 (47) || 2 à +22 (55) || 1 à +22 (74), 2 à +17 (37)
+|- CLASS="cache"
+| 20 || +30/+25/+20 (68) || +23/+18/+13 (51) || 2 à +23 (60) || 1 à +23 (80), 2 à +18 (40)
+|- CLASS="cache"
+| 21 || +31/+26/+21/+16 (69) || +24/+19/+14/+9 (52) || 2 à +24 (65) || 1 à +24 (87), 2 à +19 (44)
+|- CLASS="cache"
+| 22 || +32/+27/+22/+17 (75) || +25/+20/+15/+10 (56) || 2 à +25 (70) || 1 à +25 (94), 2 à +20 (47)
+|- CLASS="cache"
+| 23 || +33/+28/+23/+18 (80) || +26/+21/+16/+11 (60) || 2 à +26 (75) || 1 à +26 (100), 2 à +21 (50)
+|- CLASS="cache"
+| 24 || +35/+30/+25/+20 (88) || +27/+22/+17/+12 (66) || 2 à +27 (83) || 1 à +27 (110), 2 à +22 (55)
+|- CLASS="cache"
+| 25 || +36/+31/+26/+21 (96) || +28/+23/+18/+13 (72) || 2 à +28 (90) || 1 à +28 (120), 2 à +23 (60)
+|- CLASS="cache"
+| 26 || +37/+32/+27/+22 (104) || +29/+24/+19/+14 (77) || 2 à +29 (98) || 1 à +29 (130), 2 à +24 (65)
+|- CLASS="cache"
+| 27 || +38/+33/+28/+23 (112) || +30/+25/+20/+15 (83) || 2 à +30 (105) || 1 à +30 (140), 2 à +25 (70)
+|- CLASS="cache"
+| 28 || +39/+34/+29/+24 (120) || +31/+26/+21/+16 (88) || 2 à +31 (113) || 1 à +31 (150), 2 à +26 (75)
+|- CLASS="cache"
+| 29 || +40/+35/+30/+25 (128) || +32/+27/+22/+17 (93) || 2 à +32 (120) || 1 à +32 (160), 2 à +27 (80)
+|- CLASS="cache"
+| 30 || +41/+36/+31/+26 (136) || +33/+28/+23/+18 (99) || 2 à +33 (128) || 1 à +33 (170), 2 à +28 (85)
+|}
+
+====Thèmes d’expert====
+Ces thèmes représentent les ensembles de compétences et les domaines de connaissances que l’expert peut embrasser.
+
+* '''Apothicaire.''' Grâce à une pratique intensive de la création de concoctions alchimiques, l’apothicaire peut être un alchimiste ou un guérisseur local.
+** ''Modificateurs de caractéristique'' – [[Intelligence]] et [[Constitution]] ;
+** ''Compétences'' – [[Art de la magie]], [[Artisanat]] (alchimie), [[Estimation]], [[Connaissances]] (mystères), [[Connaissances]] (nature), [[Premiers secours]] ;
+** ''Options de combat'' – [[Création de monstres simplifiée, Étape 7#Bombes|bombes]] ;
+** ''Options magiques'' – [[Création de monstres simplifiée, Étape 7#Mutagène|mutagène]], [[Création de monstres simplifiée, Étape 7#Guérison puissante|guérison puissante]], [[Création de monstres simplifiée, Étape 7#Potions|potions]], [[Création de monstres simplifiée, Étape 7#Guérison d'état préjudiciable mineur|guérison d’état préjudiciable mineur]], [[Création de monstres simplifiée, Étape 7#Guérison d'état préjudiciable modéré|guérison d’état préjudiciable modéré]], [[Création de monstres simplifiée, Étape 7#Magie secondaire|magie secondaire]] (liste des sorts d’[[Création de monstres simplifiée, Étape 6#Alchimie|alchimie]] ou de [[Création de monstres simplifiée, Étape 6#Soins|soins]]).
+
+* '''Arnaqueur.''' Maître de la fourberie et beau parleur, l’arnaqueur sait comment obtenir tout ce qu’il veut.
+** ''Modificateurs de caractéristique'' – [[Charisme]] et [[Intelligence]] ;
+** ''Compétences'' – [[Bluff]], [[Connaissances]] (folklore local), [[Déguisement]], [[Représentation]] (déclamation), [[Psychologie]] ;
+** ''Options de combat'' – [[Création de monstres simplifiée, Étape 7#Attaque sournoise|attaque sournoise]] ;
+** ''Options sociales'' – [[Création de monstres simplifiée, Étape 7#Vigilance|vigilance]], [[Création de monstres simplifiée, Étape 7#Inspiration terrifiante|inspiration terrifiante]], [[Création de monstres simplifiée, Étape 7#Persuasif|persuasif]], [[Création de monstres simplifiée, Étape 7#Esprit fuyant|esprit fuyant]].
+
+* '''Artisan.''' Expert dans le domaine des objets et de leur création, l’artisan peut aussi bien être un ouvrier, un marchand ou un expert en appareils magiques.
+** ''Modificateurs de caractéristique'' – [[Intelligence]] et [[Charisme]] ou [[Force]] ;
+** ''Compétences'' - [[Artisanat]] (tous), [[Estimation]], [[Connaissances]] (ingénierie), [[Sabotage]], [[UOM|Utilisation d’objets magiques]] ;
+** ''Options de combat'' – [[Création de monstres simplifiée, Étape 7#Connaissance des armes à feu|connaissance des armes à feu]] ;
+** ''Options magiques'' – [[Création de monstres simplifiée, Étape 7#Aptitude magique|aptitude magique]] ;
+** ''Options sociales'' – [[Création de monstres simplifiée, Étape 7#Intelligence mercantile|intelligence mercantile]] ;
+** ''Option universelle'' – [[Création de monstres simplifiée, Étape 7#Arme magique|arme magique]].
+
+* '''Comédien.''' Né pour la scène, le comédien est capable de donner des spectacles complexes.
+** ''Modificateurs de caractéristique'' – [[Charisme]] et [[Dextérité]] ;
+** ''Compétences'' – [[Acrobaties]], [[Déguisement]], [[Escamotage]], [[Évasion]], [[Représentation]] (toutes) ;
+** ''Options de combat'' – [[Création de monstres simplifiée, Étape 7#Esquive maîtresse|esquive maîtresse]], [[Création de monstres simplifiée, Étape 7#Souplesse du serpent|souplesse du serpent]] ;
+** ''Options sociales'' – [[Création de monstres simplifiée, Étape 7#Présence encourageante|présence encourageante]], [[Création de monstres simplifiée, Étape 7#Fascination|fascination]], [[Création de monstres simplifiée, Étape 7#Persuasif|persuasif]].
+
+* '''Conseiller.''' Généralement assistant d’une créature plus puissante, le conseiller offre un rôle de soutien.
+** ''Modificateurs de caractéristique'' – [[Charisme]] et [[Sagesse]] ;
+** ''Compétences'' – [[Bluff]], [[Connaissances]] (folklore local), [[Connaissances]] (noblesse), [[Diplomatie]], [[Intimidation]], [[Psychologie]] ;
+** ''Options de combat'' – [[Création de monstres simplifiée, Étape 7#Science de l'initiative|science de l’initiative]] ;
+** ''Options sociales'' – [[Création de monstres simplifiée, Étape 7#Vigilance|vigilance]], [[Création de monstres simplifiée, Étape 7#Inspiration talentueuse|inspiration talentueuse]], [[Création de monstres simplifiée, Étape 7#Persuasif|persuasif]], [[Création de monstres simplifiée, Étape 7#Esprit fuyant|esprit fuyant]].
+
+* '''Érudit.''' Par ses recherches intensives, l’érudit peut récupérer des informations détaillées sur de très nombreux sujets, ce qui fait de lui une précieuse ressource.
+** ''Modificateurs de caractéristique'' – [[Intelligence]] et [[Sagesse]] ;
+** ''Compétences'' – [[Art de la magie]], [[Connaissances]] (toutes), [[Estimation]], [[UOM|Utilisation d’objets magiques]] ;
+** ''Options magiques'' – [[Création de monstres simplifiée, Étape 7#Aptitude magique|aptitude magique]], [[Création de monstres simplifiée, Étape 7#Champ de protection|champ de protection]] ;
+** ''Options sociales'' – [[Création de monstres simplifiée, Étape 7#Savant|savant]] ;
+** ''Option universelle'' – [[Création de monstres simplifiée, Étape 7#Magie secondaire|magie secondaire]] (liste des sorts de [[Création de monstres simplifiée, Étape 6#Connaissance|connaissance]] ou de [[Création de monstres simplifiée, Étape 6#Magie|magie]]).
+
+* '''Espion.''' Expert accompli, l’espion doit être préparé à toute situation.
+** ''Modificateurs de caractéristique'' – [[Charisme]] et [[Dextérité]] ;
+** ''Compétences'' – [[Bluff]], [[Déguisement]], [[Discrétion]], [[Escamotage]], [[Sabotage]] ;
+** ''Options de combat'' – [[Création de monstres simplifiée, Étape 7#Invisibilité permanente|invisibilité permanente]], [[Création de monstres simplifiée, Étape 7#Poison|poison]], [[Création de monstres simplifiée, Étape 7#Attaque sournoise|attaque sournoise]] ;
+** ''Options sociales'' – [[Création de monstres simplifiée, Étape 7#Vigilance|vigilance]], [[Création de monstres simplifiée, Étape 7#Persuasif|persuasif]], [[Création de monstres simplifiée, Étape 7#Esprit fuyant|esprit fuyant]].
+
+* '''Guide.''' Familier d’une région particulière ou doué pour la survie dans la nature, le guide emmène les gens là où ils ont besoin d’aller.
+** ''Modificateurs de caractéristique'' – [[Sagesse]] et [[Constitution]] ;
+** ''Compétences'' – [[Connaissances]] (folklore local), [[Connaissances]] (nature), [[Dressage]], [[Escalade]], [[Natation]], [[Perception]], [[Survie]] ;
+** ''Options de combat'' – [[Création de monstres simplifiée, Étape 7#Points de vie supplémentaires|points de vie supplémentaires]] ;
+** ''Options sociales'' – [[Création de monstres simplifiée, Étape 7#Vigilance|vigilance]], [[Création de monstres simplifiée, Étape 7#Parle-animal|parle-animal]], [[Création de monstres simplifiée, Étape 7#Imitation de sons|imitation de sons]] ;
+** ''Option universelle'' – [[Création de monstres simplifiée, Étape 7#Déplacement facilité (terrain)|déplacement facilité (broussailles)]].
+
+====Les classes d’expert====
+Si votre monstre est censé fonctionner comme s’il possédait une [[Création de monstres simplifiée, Étape 1#CLASSESDEPERSONNAGE|classe de personnage]], il gagne une [[Création de monstres simplifiée, Étape 2#GREFFESDECLASSE|greffe de classe]]. Les greffes de classe suivantes imposent la gamme d’expert au monstre : [[Création de monstres simplifiée, Étape 2#ALCHIMISTE|alchimiste]], [[Création de monstres simplifiée, Étape 2#BARDE|barde]], [[Création de monstres simplifiée, Étape 2#INQUISITEUR|inquisiteur]], [[Création de monstres simplifiée, Étape 2#MAGUS|magus]] et [[Création de monstres simplifiée, Étape 2#ROUBLARD|roublard]].
+
+{s:Reference|LANCEURDESORTS}
+===La gamme de lanceur de sorts===
+Bénéficiant d’une vaste sélection de sorts, le lanceur de sorts peut être faible en combat comme il peut se concentrer sur de puissants sorts offensifs. Un monstre lanceur de sorts possède généralement un modificateur de caractéristique d’incantation élevé : [[Intelligence]], [[Sagesse]] ou (souvent pour les créatures monstrueuses) [[Charisme]]. Les sorts compensent les faibles capacités de combat du lanceur de sorts ainsi que ses compétences modestes et son nombre réduit d’options de monstre.
+
+Les lanceurs de sorts bien connus incluent les [[Couatl|couatls]], les [[Liche|liches]], les [[Nymphe|nymphes]] et les [[Rakshasa|rakshasas]].
+
+'''Règles spéciales.''' Chaque monstre issu de la gamme de lanceur de sorts gagne automatiquement des sorts, comme indiqué dans l’[[Création de monstres simplifiée, Étape 6|Étape 6 : les sorts]]. En fonction de leur thème, les lanceurs de sorts peuvent traiter les sorts choisis comme des sorts ou des pouvoirs magiques.
+
+''Cliquez sur les bandes pour dévoiler les tableaux de progression.''
+{| CLASS="tablo toggle centre autoalt" WIDTH="100%"
+|+ Statistiques principales de lanceur de sorts
+|- CLASS="titre cache"
+| ROWSPAN="2" | FP
+| ROWSPAN="2" | CA
+| COLSPAN="3" CLASS="avecsoustitre" | JdS
+| ROWSPAN="2" | DMD
+| ROWSPAN="2" | pv
+| COLSPAN="2" CLASS="avecsoustitre" | Pouvoir/sorts
+| ROWSPAN="2" | Mod<br>de carac.
+| COLSPAN="2" CLASS="avecsoustitre" | Compétences
+| ROWSPAN="2" | Options
+|- CLASS="soustitre cache"
+| Réf || Vig || [[Vol]] || DD || DD || Maîtrisées || Profitables
+|- CLASS="premier cache"
+| 1/2 || 9, 8, 8 || +0 || +0 || +3 || 9 || 9 || 11 || 13 || +3, +2, +1 || +8 (2) || +5 (1) || magique 1
+|- CLASS="cache"
+| 1 || 10, 8, 8 || +1 || +1 || +4 || 10 || 13 || 12 || 14 || +3, +2, +1 || +9 (2) || +6 (1) || magique 1
+|- CLASS="cache"
+| 2 || 12, 8, 8 || +1 || +1 || +5 || 12 || 18 || 13 || 15 || +3, +2, +1 || +10 (2) || +7 (1) || magique 1
+|- CLASS="cache"
+| 3 || 13, 8, 8 || +2 || +2 || +6 || 14 || 27 || 14 || 15 || +4, +2, +1 || +11 (2) || +8 (1) || magique 1, libre 1
+|- CLASS="cache"
+| 4 || 15, 8, 11 || +3 || +3 || +7 || 16 || 36 || 15 || 16 || +4, +3, +1 || +12 (2) || +9 (1) || magique 1, libre 1
+|- CLASS="cache"
+| 5 || 16, 8, 12 || +4 || +4 || +8 || 17 || 49 || 15 || 16 || +5, +3, +2 || +13 (2) || +10 (1) || magique 1, libre 1
+|- CLASS="cache"
+| 6 || 17, 8, 12 || +5 || +5 || +9 || 19 || 63 || 16 || 16 || +5, +3, +2 || +14 (2) || +11 (1) || magique 1, libre 1
+|- CLASS="cache"
+| 7 || 18, 8, 13 || +6 || +6 || +10 || 20 || 76 || 17 || 16 || +6, +4, +2 || +15 (2) || +12 (1) || magique 1, libre 1
+|- CLASS="cache"
+| 8 || 19, 11, 14 || +7 || +7 || +11 || 22 || 90 || 18 || 17 || +6, +4, +2 || +16 (2) || +13 (1) || magique 1, libre 1
+|- CLASS="cache"
+| 9 || 21, 12, 15 || +8 || +8 || +12 || 24 || 103 || 18 || 17 || +7, +4, +3 || +17 (2) || +14 (1) || magique 1, libre 1
+|- CLASS="cache"
+| 10 || 22, 13, 16 || +9 || +9 || +13 || 25 || 117 || 19 || 17 || +7, +5, +3 || +18 (2) || +14 (1) || magique 1, libre 1
+|- CLASS="cache"
+| 11 || 23, 13, 17 || +10 || +10 || +14 || 26 || 130 || 20 || 17 || +8, +5, +3 || +19 (2) || +15 (1) || magique 1, libre 1
+|- CLASS="cache"
+| 12 || 25, 15, 18 || +11 || +11 || +15 || 28 || 144 || 21 || 18 || +8, +5, +4 || +20 (2) || +16 (1) || magique 2, libre 1
+|- CLASS="cache"
+| 13 || 26, 15, 19 || +12 || +12 || +16 || 29 || 162 || 21 || 18 || +9, +6, +4 || +21 (2) || +17 (1) || magique 2, libre 1
+|- CLASS="cache"
+| 14 || 27, 16, 20 || +12 || +12 || +17 || 30 || 180 || 22 || 18 || +9, +6, +4 || +23 (2) || +18 (1) || magique 2, libre 1
+|- CLASS="cache"
+| 15 || 28, 16, 21 || +13 || +13 || +18 || 32 || 198 || 23 || 18 || +10, +7, +5 || +25 (2) || +20 (1) || magique 2, libre 1
+|- CLASS="cache"
+| 16 || 29, 17, 21 || +14 || +14 || +19 || 33 || 216 || 24 || 19 || +11, +7, +5 || +27 (2) || +22 (1) || magique 2, libre 1
+|- CLASS="cache"
+| 17 || 30, 18, 22 || +15 || +15 || +20 || 34 || 243 || 24 || 19 || +11, +8, +5 || +29 (2) || +23 (1) || magique 2, libre 1
+|- CLASS="cache"
+| 18 || 31, 18, 23 || +16 || +16 || +20 || 35 || 270 || 25 || 19 || +12, +8, +6 || +31 (2) || +25 (1) || magique 3, libre 1
+|- CLASS="cache"
+| 19 || 32, 19, 24 || +16 || +16 || +21 || 36 || 297 || 26 || 20 || +13, +9, +6 || +33 (2) || +27 (1) || magique 3, libre 1
+|- CLASS="cache"
+| 20 || 34, 20, 25 || +17 || +17 || +22 || 38 || 333 || 27 || 21 || +13, +9, +6 || +35 (2) || +28 (1) || magique 3, libre 1
+|- CLASS="cache"
+| 21 || 35, 21, 26 || +18 || +18 || +23 || 39 || 360 || 27 || 21 || +14, +10, +7 || +37 (2) || +30 (1) || magique 3, libre 1
+|- CLASS="cache"
+| 22 || 37, 22, 27 || +18 || +18 || +23 || 41 || 396 || 28 || 22 || +14, +10, +7 || +39 (2) || +32 (1) || magique 3, libre 1
+|- CLASS="cache"
+| 23 || 38, 22, 28 || +19 || +19 || +24 || 42 || 432 || 29 || 23 || +15, +11, +7 || +41 (2) || +33 (1) || magique 3, libre 1
+|- CLASS="cache"
+| 24 || 40, 24, 30 || +20 || +20 || +25 || 44 || 468 || 30 || 24 || +15, +11, +8 || +43 (2) || +35 (1) || magique 3, libre 1
+|- CLASS="cache"
+| 25 || 41, 24, 30 || +21 || +21 || +26 || 46 || 504 || 30 || 24 || +16, +12, +8 || +45 (2) || +37 (1) || magique 3, libre 1
+|- CLASS="cache"
+| 26 || 42, 25, 31 || +22 || +22 || +27 || 47 || 540 || 31 || 25 || +16, +12, +8 || +47 (2) || +38 (1) || magique 3, libre 1
+|- CLASS="cache"
+| 27 || 43, 25, 32 || +23 || +23 || +28 || 48 || 576 || 32 || 26 || +17, +13, +9 || +49 (2) || +40 (1) || magique 3, libre 1
+|- CLASS="cache"
+| 28 || 44, 26, 33 || +24 || +24 || +29 || 49 || 612 || 33 || 27 || +17, +13, +9 || +51 (2) || +42 (1) || magique 3, libre 1
+|- CLASS="cache"
+| 29 || 45, 27, 33 || +25 || +25 || +30 || 50 || 648 || 34 || 28 || +18, +14, +10 || +53 (2) || +43 (1) || magique 3, libre 1
+|- CLASS="cache"
+| 30 || 46, 27, 34 || +26 || +26 || +31 || 51 || 684 || 35 || 29 || +18, +15, +10 || +55 (2) || +45 (1) || magique 3, libre 1
+|- CLASS="cache"
+| </sup> || </sup> || </sup> || </sup> || </sup> || </sup> || </sup> || </sup> || </sup> || </sup> || </sup> || </sup> || </sup>
+|}
+{| CLASS="tablo toggle centre autoalt" WIDTH="100%"
+|+ Statistiques d’attaque de lanceur de sorts
+|- CLASS="titre cache"
+| ROWSPAN="2" | FP
+| COLSPAN="2" CLASS="avecsoustitre" | Attaques armées
+| COLSPAN="2" CLASS="avecsoustitre" | Attaques naturelles
+|- CLASS="soustitre cache"
+| Dégâts supérieurs || Dégâts inférieurs || 2 (dégâts) || 3 (dégâts)
+|- CLASS="premier cache"
+| 1/2 || +1 (4) || +0 (3) || 2 à -2 (4) || 1 à -2 (6), 2 à -7 (4)
+|- CLASS="cache"
+| 1 || +2 (6) || +1 (5) || 2 à -1 (4) || 1 à -1 (6), 2 à -6 (4)
+|- CLASS="cache"
+| 2 || +4 (9) || +3 (6) || 2 à +1 (6) || 1 à +1 (6), 2 à -4 (4)
+|- CLASS="cache"
+| 3 || +6 (12) || +4 (8) || 2 à +2 (6) || 1 à +2 (8), 2 à -3 (4)
+|- CLASS="cache"
+| 4 || +8 (14) || +6 (11) || 2 à +6 (8) || 1 à +6 (10), 2 à +1 (5)
+|- CLASS="cache"
+| 5 || +10 (18) || +7 (13) || 2 à +7 (9) || 1 à +7 (12), 2 à +2 (6)
+|- CLASS="cache"
+| 6 || +12 (22) || +8 (16) || 2 à +8 (12) || 1 à +8 (15), 2 à +3 (8)
+|- CLASS="cache"
+| 7 || +13/+8 (18) || +10/+5 (13) || 2 à +10 (14) || 1 à +10 (18), 2 à +5 (9)
+|- CLASS="cache"
+| 8 || +15/+10 (21) || +11/+6 (16) || 2 à +11 (16) || 1 à +11 (21), 2 à +6 (11)
+|- CLASS="cache"
+| 9 || +17/+12 (24) || +12/+7 (18) || 2 à +12 (18) || 1 à +12 (24), 2 à +7 (12)
+|- CLASS="cache"
+| 10 || +18/+13 (27) || +13/+8 (20) || 2 à +13 (21) || 1 à +13 (27), 2 à +8 (14)
+|- CLASS="cache"
+| 11 || +19/+14 (30) || +14/+9 (22) || 2 à +14 (23) || 1 à +14 (30), 2 à +9 (15)
+|- CLASS="cache"
+| 12 || +21/+16 (33) || +15/+10 (24) || 2 à +15 (25) || 1 à +15 (33), 2 à +10 (17)
+|- CLASS="cache"
+| 13 || +22/+17 (36) || +16/+11 (27) || 2 à +16 (27) || 1 à +16 (36), 2 à +11 (18)
+|- CLASS="cache"
+| 14 || +23/+18/+13 (34) || +17/+12/+7 (25) || 2 à +17 (30) || 1 à +17 (39), 2 à +12 (20)
+|- CLASS="cache"
+| 15 || +24/+19/+14 (36) || +18/+13/+8 (27) || 2 à +18 (32) || 1 à +18 (42), 2 à +13 (21)
+|- CLASS="cache"
+| 16 || +26/+21/+16 (41) || +19/+14/+9 (31) || 2 à +19 (36) || 1 à +19 (48), 2 à +14 (24)
+|- CLASS="cache"
+| 17 || +27/+22/+17 (46) || +20/+15/+10 (35) || 2 à +20 (41) || 1 à +20 (54), 2 à +15 (27)
+|- CLASS="cache"
+| 18 || +28/+23/+18 (51) || +21/+16/+11 (39) || 2 à +21 (45) || 1 à +21 (60), 2 à +16 (30)
+|- CLASS="cache"
+| 19 || +29/+24/+19 (56) || +22/+17/+12 (42) || 2 à +22 (50) || 1 à +22 (66), 2 à +17 (33)
+|- CLASS="cache"
+| 20 || +30/+25/+20 (61) || +23/+18/+13 (46) || 2 à +23 (54) || 1 à +23 (72), 2 à +18 (36)
+|- CLASS="cache"
+| 21 || +31/+26/+21/+16 (63) || +24/+19/+14/+9 (47) || 2 à +24 (59) || 1 à +24 (78), 2 à +19 (39)
+|- CLASS="cache"
+| 22 || +32/+27/+22/+17 (67) || +25/+20/+15/+10 (51) || 2 à +25 (63) || 1 à +25 (84), 2 à +20 (42)
+|- CLASS="cache"
+| 23 || +33/+28/+23/+18 (72) || +26/+21/+16/+11 (54) || 2 à +26 (68) || 1 à +26 (90), 2 à +21 (45)
+|- CLASS="cache"
+| 24 || +35/+30/+25/+20 (79) || +27/+22/+17/+12 (60) || 2 à +27 (75) || 1 à +27 (99), 2 à +22 (50)
+|- CLASS="cache"
+| 25 || +36/+31/+26/+21 (86) || +28/+23/+18/+13 (65) || 2 à +28 (81) || 1 à +28 (108), 2 à +23 (54)
+|- CLASS="cache"
+| 26 || +37/+32/+27/+22 (94) || +29/+24/+19/+14 (70) || 2 à +29 (88) || 1 à +29 (117), 2 à +24 (59)
+|- CLASS="cache"
+| 27 || +38/+33/+28/+23 (101) || +30/+25/+20/+15 (74) || 2 à +30 (95) || 1 à +30 (126), 2 à +25 (63)
+|- CLASS="cache"
+| 28 || +39/+34/+29/+24 (108) || +31/+26/+21/+16 (79) || 2 à +31 (102) || 1 à +31 (135), 2 à +26 (68)
+|- CLASS="cache"
+| 29 || +40/+35/+30/+25 (115) || +32/+27/+22/+17 (84) || 2 à +32 (108) || 1 à +32 (144), 2 à +27 (72)
+|- CLASS="cache"
+| 30 || +41/+36/+31/+26 (122) || +33/+28/+23/+18 (89) || 2 à +33 (115) || 1 à +33 (153), 2 à +28 (77)
+|}
+
+====Thèmes de lanceur de sorts====
+Les thèmes suivants incluent des listes de sorts recommandées pour les voies de lanceurs de sorts communes.
+
+* '''Fanatique.''' Adorateur de forces obscures, le fanatique est un exalté.
+** ''Modificateurs de caractéristique'' –  [[Sagesse]] et [[Charisme]] ;
+** ''Compétences'' – [[Art de la magie]], [[Connaissances]] (mystères), [[Connaissances]] (plans), [[Connaissances]] (religion) ;
+** ''Options de combat'' – [[Création de monstres simplifiée, Étape 7#Poison|poison]], [[Création de monstres simplifiée, Étape 7#Rage|rage]] ;
+** ''Options magique'' – [[Création de monstres simplifiée, Étape 7#État préjudiciable majeur|état préjudiciable majeur]], [[Création de monstres simplifiée, Étape 7#État préjudiciable mineur|état préjudiciable mineur]], [[Création de monstres simplifiée, Étape 7#État préjudiciable modéré|état préjudiciable modéré]], [[Création de monstres simplifiée, Étape 7#Malchance|malchance]] ;
+** ''Options sociales'' – [[Création de monstres simplifiée, Étape 7#Présence affaiblissante|présence affaiblissante]] ;
+** ''Listes de sorts'' – [[Création de monstres simplifiée, Étape 6#Aberrants|aberrants]], [[Création de monstres simplifiée, Étape 6#Abyssaux|abyssaux]], [[Création de monstres simplifiée, Étape 6#Chaos|chaos]], [[Création de monstres simplifiée, Étape 6#Destruction|destruction]], [[Création de monstres simplifiée, Étape 6#Folie|folie]], [[Création de monstres simplifiée, Étape 6#Infernaux|infernaux]], [[Création de monstres simplifiée, Étape 6#Mal|mal]], [[Création de monstres simplifiée, Étape 6#Mort|mort]], [[Création de monstres simplifiée, Étape 6#Nécromancie|nécromancie]].
+
+* '''Filou.''' Définitivement indigne de confiance, le filou lance des sorts qui distordent les perceptions et perturbent l’esprit.
+** ''Modificateurs de caractéristique'' –  [[Intelligence]] et [[Charisme]] ;
+** ''Compétences'' – [[Art de la magie]], [[Bluff]], [[Connaissances]] (mystères), [[Escamotage]] ;
+** ''Options de combat'' – [[Création de monstres simplifiée, Étape 7#Attaque sournoise|attaque sournoise]] ;
+** ''Options magiques'' – [[Création de monstres simplifiée, Étape 7#Mauvais œil|mauvais œil]], [[Création de monstres simplifiée, Étape 7#Malchance|malchance]] ;
+** ''Options sociales'' – [[Création de monstres simplifiée, Étape 7#Persuasif|persuasif]], [[Création de monstres simplifiée, Étape 7#Esprit fuyant|esprit fuyant]] ;
+** ''Listes de sorts'' – [[Création de monstres simplifiée, Étape 6#Chaos|chaos]], [[Création de monstres simplifiée, Étape 6#Charme|charme]], [[Création de monstres simplifiée, Étape 6#Enchantement|enchantement]], [[Création de monstres simplifiée, Étape 6#Illusion|illusion]], [[Création de monstres simplifiée, Étape 6#Discrétion|discrétion]], [[Création de monstres simplifiée, Étape 6#Duperie|duperie]].
+
+* '''Gardien du savoir.''' Grâce à l’étude de textes anciens, le gardien du savoir maîtrise les principes fondamentaux de la magie.
+** ''Modificateurs de caractéristique'' –  [[Intelligence]] ;
+** ''Compétences'' – [[Art de la magie]], [[Connaissances]] (histoire), [[Connaissances]] (mystères), [[Connaissances]] (plans), [[UOM|Utilisation d’objets magiques]] ;
+** ''Options magiques'' – [[Création de monstres simplifiée, Étape 7#Magie à volonté|magie à volonté]], [[Création de monstres simplifiée, Étape 7#Explosion d'énergie|explosion d’énergie]], [[Création de monstres simplifiée, Étape 7#Aptitude magique|aptitude magique]], [[Création de monstres simplifiée, Étape 7#Sort de métamagie|sort de métamagie]], [[Création de monstres simplifiée, Étape 7#Efficacité des sorts accrue|efficacité des sorts accrue]] ;
+** ''Options sociales'' – [[Création de monstres simplifiée, Étape 7#Savant|savant]] ;
+** ''Listes de sorts'' – [[Création de monstres simplifiée, Étape 6#Abjuration|abjuration]], [[Création de monstres simplifiée, Étape 6#Profanes|profanes]], [[Création de monstres simplifiée, Étape 6#Divination|divination]], [[Création de monstres simplifiée, Étape 6#Connaissance|connaissance]], [[Création de monstres simplifiée, Étape 6#Magie|magie]], [[Création de monstres simplifiée, Étape 6#Transmutation|transmutation]].
+
+* '''Mage de guerre.''' Lourdement armé de sorts offensifs, il n’est aucun problème que le mage de guerre ne peut combattre.
+** ''Modificateurs de caractéristique'' –  [[Intelligence]] et [[Charisme]] ;
+** ''Compétences'' – [[Art de la magie]], [[Connaissances]] (mystères) ;
+** ''Options de combat'' – [[Création de monstres simplifiée, Étape 7#Résistance aux énergies destructives|résistance aux énergies destructives]], [[Création de monstres simplifiée, Étape 7#Science de l'initiative|science de l’initiative]] ;
+** ''Options magiques'' – [[Création de monstres simplifiée, Étape 7#Magie de guerre|magie de guerre]], [[Création de monstres simplifiée, Étape 7#Attaque magique|attaque magique]], [[Création de monstres simplifiée, Étape 7#Efficacité des sorts accrue|efficacité des sorts accrue]] ;
+** ''Listes de sorts'' – [[Création de monstres simplifiée, Étape 6#Bataille|bataille]], [[Création de monstres simplifiée, Étape 6#Évocation|évocation]], [[Création de monstres simplifiée, Étape 6#Force|force]], [[Création de monstres simplifiée, Étape 6#Guerre|guerre]].
+
+* '''Naturaliste.''' Émerveillé devant la majesté de la nature, le naturaliste en appelle aux pouvoirs du monde végétal et animal.
+** ''Modificateurs de caractéristique'' –  [[Sagesse]] et [[Charisme]] ;
+** ''Compétences'' – [[Art de la magie]], [[Connaissances]] (nature), [[Dressage]], [[Survie]] ;
+** ''Options de combat'' – maître cavalier, poison ;
+** ''Options magiques'' – [[Création de monstres simplifiée, Étape 7#État préjudiciable majeur|état préjudiciable majeur]], [[Création de monstres simplifiée, Étape 7#État préjudiciable mineur|état préjudiciable mineur]], [[Création de monstres simplifiée, Étape 7#État préjudiciable modéré|état préjudiciable modéré]] ;
+** ''Options sociales'' – [[Création de monstres simplifiée, Étape 7#Parle-animal|parle-animal]] ;
+** ''Option universelle'' – [[Création de monstres simplifiée, Étape 7#Déplacement facilité (terrain)|déplacement facilité (broussailles)]] ;
+** ''Listes de sorts'' – [[Création de monstres simplifiée, Étape 6#Animal|animal]], [[Création de monstres simplifiée, Étape 6#Terre|terre]], [[Création de monstres simplifiée, Étape 6#Nature|nature]], [[Création de monstres simplifiée, Étape 6#Flore|flore]], [[Création de monstres simplifiée, Étape 6#Climat|climat]].
+
+* '''Vertueux.''' Se battant pour la cause du bien ou de l’ordre, il est impossible de détourner le vertueux de sa voie.
+** ''Modificateurs de caractéristique'' – [[Sagesse]] et [[Charisme]] ;
+** ''Compétences'' – [[Art de la magie]], [[Connaissances]] (mystères), [[Connaissances]] (religion), [[Premiers secours]] ;
+** ''Options de combat'' – [[Création de monstres simplifiée, Étape 7#Armure supplémentaire|armure supplémentaire]] ;
+** ''Options magiques'' – [[Création de monstres simplifiée, Étape 7#Bonne fortune|bonne fortune]], [[Création de monstres simplifiée, Étape 7#Champ de protection|champ de protection]], [[Création de monstres simplifiée, Étape 7#Renvoi des morts-vivants|renvoi des morts-vivants]] ;
+** ''Options sociales'' – [[Création de monstres simplifiée, Étape 7#Présence affaiblissante|présence affaiblissante]] ;
+** ''Listes de sorts'' – [[Création de monstres simplifiée, Étape 6#Célestes|célestes]], [[Création de monstres simplifiée, Étape 6#Communauté|communauté]], [[Création de monstres simplifiée, Étape 6#Gloire|gloire]], [[Création de monstres simplifiée, Étape 6#Soins|soins]], [[Création de monstres simplifiée, Étape 6#Loi|loi]], [[Création de monstres simplifiée, Étape 6#Protection|protection]].
+
+====Les classes de lanceur de sorts====
+Si votre monstre est censé fonctionner comme s’il possédait une [[Création de monstres simplifiée, Étape 1#CLASSESDEPERSONNAGE|classe de personnage]], il gagne une [[Création de monstres simplifiée, Étape 2#GREFFESDECLASSE|greffe de classe]]. Les greffes de classe suivantes exigent un monstre issu de la gamme de lanceur de sorts : [[Création de monstres simplifiée, Étape 2#PRETRE|prêtre]], [[Création de monstres simplifiée, Étape 2#DRUIDE|druide]], [[Création de monstres simplifiée, Étape 2#ORACLE|oracle]], [[Création de monstres simplifiée, Étape 2#ENSORCELEUR|ensorceleur]], [[Création de monstres simplifiée, Étape 2#CONJURATEUR|conjurateur]], [[Création de monstres simplifiée, Étape 2#SORCIERE|sorcière]] et [[Création de monstres simplifiée, Étape 2#MAGICIEN|magicien]]. L’eidolon du conjurateur est un monstre indépendant, généralement créé avec la [[Création de monstres simplifiée, Étape 1#COMBATTANT|gamme de combattant]].

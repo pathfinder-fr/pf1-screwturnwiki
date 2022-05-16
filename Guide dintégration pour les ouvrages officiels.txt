@@ -1,7 +1,7 @@
 ---
 Name: Guide dintégration pour les ouvrages officiels
 Title: Guide d'intégration pour les ouvrages officiels
-LastModified: 2020-06-23 14:18
+LastModified: 2021-06-10 19:25
 Categories:
   - 'Guide Wiki'
 ---
@@ -20,9 +20,7 @@ Une des raisons pour lesquelles ce guide existe, créer une cohérence dans les 
 En général, on travail sur le wiki "quand on a le temps", et ce n'est en aucun cas un mal. Mais un point très important est de communiquer ce qu'il se passe. L'idéal est d'avoir un sujet sur le forum qui traite de l'intégration en court, mais quand on travail sur une intégration et qu'on est peu (voire seul), ça donne l'impression de se donner des nouvelles à soi même. Pour remédier à ça, n'hésitez pas à mettre à jour la page temporaire de l'intégration (voir [[#BASE|base]] pour communiquer vos changements en temps réel et plus particulièrement, aux intéressés.
 
 {s:Reference|BASE}
-===Mise en place de la base d'une intégration===
-Toutes les étapes importantes lorsqu'on entame une intégration :
-====1. La page de contenu de l'intégration====
+===La page de contenu de l'intégration===
 Avant toute chose, on créé la page de contenu qui guidera tout les contributeurs sur ce qu'implique l'intégration du supplément voulu. Cette page, dont le titre fixe est "Nom de louvrage (Contenu)", présente absolument tous les noms de ce que contient l'ouvrage.
 
 En haut de page, on présente l'ouvrage :
@@ -206,48 +204,6 @@ Les dons marqués d'un astérisque (*) sont des dons de combat, ceux marqués d'
 
  - Comme montré dans l'exemple des Archétypes, on oubli pas de bien séparer le lien s'il y a un nom avec une apostrophe.  
  - Si plusieurs ouvrages anglais sont présents dans un ouvrage français, on sépare bien le contenu par rapport aux ouvrages anglais. Un bon exemple ce cette séparation : [[++Pathfinder-RPG.Manuel des joueurs - Classes Avancées (Contenu)|Manuel des joueurs - Classes Avancées (Contenu)]].
-
-
-====2. La page temporaire de l'intégration====
-Ensuite, on créé la page "de communication" de l'intégration, elle vise à compiler ce qui est fait, ce qu'il ne faut pas oublier de faire et manifester le contenu qui n'a pas de page attitrée. Cette page, dont le titre fixe est "Temp - Nom de louvrage", adoptera plutôt l'ordre des chapitres du livre travaillé, pour que ce soit plus facile à suivre.
-
-=====Pour chaque chapitre, on y renseigne :=====
-Les snippets à modifier (qui devront être gérés par le staff) :
-@@'''À faire :''' Mettre à jour le snippet Menubénédictions.@@
-
-Les pages du wiki à modifier directement :
-@@===Objets magiques===
-'''À faire :''' Mettre à jour les tableaux récapitulatifs concernés ([[Bâtons magiques]], [[Objets merveilleux portés autour du cou]], [[Objets merveilleux portés sur la tête]], [[Objets merveilleux portés aux mains]], [[Armes magiques spécifiques]]).
-
-[...]
-
-===Talents de tueur===
-'''À faire :''' Mettre à jour la page [[talents (tueur)]], sans oublier le tableau en haut de page.
-
-[...]
-
-===Sorts===
-'''À faire :''' Mettre à jour les listes de sorts des classes concernées ([[Liste des sorts de bardes|Barde]], [[liste des sorts de chaman|Chaman]], [[liste des sorts de druides|Druide]], [[liste des formules dalchimiste|Enquêteur]], [[Liste des sorts densorceleursmagiciens|Magicien]], [[Liste des sorts de magus|Magus]], [[liste des sorts de prêtres|Prêtre]], [[Liste des sorts de rôdeurs|Rôdeur]], [[Liste des sorts de sanguin|Sanguin]] et [[Liste des sorts de sorcière|Sorcière]]).  
-'''À faire :''' Mettre à jour la [[Liste des sorts|liste alphabétique des sorts]].@@
-
-Les options de classes et/ou objets qui n'ont pas de page individuelles, et qui sont par conséquent des liens avec référence sur la page de contenu (Exemple : <nowiki>[[Exemple#TEST|Test]]</nowiki> n'a pas de page fixe, il fait partie d'une liste, donc on précise son contenu comme suit) :
-@@(((<nowiki>
-{s:SRC}{s:Reference|REFERENCE}
-====Nom de l'option/de l'objet.====
-Description de l'option/de l'objet.
-
-{s:SRC}{s:Reference|REFERENCE}
-====Nom de l'option/de l'objet.====
-Description de l'option/de l'objet.
-</nowiki>)))@@
-
-'''''Notes.'''''  
- - Dans le cas d'options de classe, pour pouvoir mettre à jour le tableau en haut de page, il faut mettre à jour [[https://docs.google.com/document/d/1dCYJu0G2q6gtxyokGEF_Q99Ev3UEIBtbiMwc2K25mMg/edit#|ce google doc]] avec le listing qui aura été fait sur la page de contenu. La page n'est pas accessible au staff, donc pareil, avant l'intégration final, contactez un membre du staff.
-
-
-====3. Attaquer le repas====
-Quand la base est faite, vous pouvez attaquer la création des pages, à votre rythme, quand vous voulez. Mais veillez à ne rien intégrer complètement avant l'intégration finale (voir ci-dessous).
-
 
 
 ===L'intégration finale===

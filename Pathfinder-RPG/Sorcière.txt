@@ -1,39 +1,22 @@
 ---
 Name: Pathfinder-RPG.Sorcière
 Title: La sorcière
-LastModified: 2020-03-20 17:52
+LastModified: 2022-02-04 19:05
 Categories:
   - 'Classe'
-  - 'Manuel des joueurs, règles avancées'
-  - 'Règles officielles'
+  - 'Règle officielle'
+  - 'Src Manuel des joueurs - Règles avancées'
 ---
 {s:Menuclassessupplémentaires}
-<div style="float:right">'''''Voir aussi les [[maléfices]], les [[familiers]] et les [[protecteurs]].'''''<br/>
-'''''Voir aussi la [[liste des sorts de sorcière]].'''''<br/>
-{s:PM0|sorcière}'''Voir les archétypes de sorcière'''&emsp;
-<ul ID="sorcière" CLASS="listecachée cadrebas">
-  <li>[[Amie des animaux (sorcière)|Amie des animaux]] (AM)</li>
-  <li>[[Buda (sorcière)|Buda]] ([[Gnoll]])) (CM)</li>
-  <li>[[Canalisatrice de maléfices (sorcière)|Canalisatrice de maléfices]] (MCA)</li>
-  <li>[[Guérisseuse balafrée (sorcière)|Guérisseuse balafrée]] ([[Orque (race)|Orque]]) (MR)</li>
-  <li>[[Marchetombe (sorcière)|Marchetombe]] (AM)</li>
-  <li>[[Protectrice des lignes telluriques (sorcière)|Protectrice des lignes telluriques]] (AO)</li>
-  <li>[[Sorcière aux toxines (sorcière)|Sorcière aux toxines]]</li>
-  <li>[[Sorcière de lhiver (sorcière)|Sorcière de l'hiver]] (MMI)</li>
-  <li>[[Sorcière des mers (sorcière)|Sorcière des mers]] (AM)</li>
-  <li>[[Sorcière de village (sorcière)|Sorcière de village]] (AM)</li>
-  <li>[[Sorcière des montagnes (sorcière)|Sorcière des montagnes]] (MCA)</li>
-  <li>[[Sorcière liée (sorcière)|Sorcière liée]] ([[demi-elfe|Demi-elfe]]) (MR)</li>
-  <li>[[Synergiste (sorcière)|Synergiste]]</li>
-  <li>[[Tisseuse de rêves (sorcière)|Tisseuse de rêves]] ([[changelin (race)|Changelin]]) (MR)</li>
-</ul></div>
+<div class="fright">'''''Voir aussi les [[Maléfices|maléfices]].'''''  
+'''''Voir aussi les [[Familiers|familiers]] et les [[Protecteurs|protecteurs]].'''''  
+'''''Voir aussi la [[Liste des sorts de sorcière|liste des sorts de sorcière]].'''''  
+{s:PM0|sorcière}'''Voir les archétypes de la sorcière'''&emsp;
+  <li ID="sorcière" CLASS="listecachée" STYLE="display:none">{s:Menuarchétypesorcière}</li>
+</div>{s:APG}''Certains atteignent la puissance grâce à leurs études, d’autres par leur dévotion et d’autres encore par le sang mais la sorcière tire ses pouvoirs de sa communion avec l’inconnu. Crainte et incomprise, elle puise sa magie dans un pacte passé avec une puissance d’un autre monde. En communiant avec cette source à travers le conduit que représente son familier, elle a non seulement accès à de nombreux sorts mais également à d’étranges aptitudes appelées des maléfices. Quand la sorcière gagne en puissance, elle peut découvrir d’où lui vient sa magie mais certaines restent dans une ignorance bienheureuse, quelques-unes ont même peur de cette source, redoutant ce qu’elle pourrait être ou quels sont ses véritables objectifs.''
 
-{s:APG}''Certains atteignent la puissance grâce à leurs études, d’autres par leur dévotion et d’autres encore par le sang mais la sorcière tire ses pouvoirs de sa communion avec l’inconnu. Crainte et incomprise, elle puise sa magie dans un pacte passé avec une puissance d’un autre monde. En communiant avec cette source à travers le conduit que représente son familier, elle a non seulement accès à de nombreux sorts mais également à d’étranges aptitudes appelées des maléfices. Quand la sorcière gagne en puissance, elle peut découvrir d’où lui vient sa magie mais certaines restent dans une ignorance bienheureuse, quelques-unes ont même peur de cette source, redoutant ce qu’elle pourrait être ou quels sont ses véritables objectifs.''
-
-{s:Reference|TABLESORCIERE}
-<center>
-{| CLASS="tablo"
-|+ La Sorcière
+{| CLASS="tablo centre"
+|+ {s:Reference|TABLESORCIERE}La Sorcière
 |- CLASS="titre"
 | ROWSPAN="2" | Niveau
 | ROWSPAN="2" | BBA
@@ -59,7 +42,7 @@ Categories:
 | +0
 | +0
 | +2
-| CLASS="gauche" | [[Sorcière#MALEFICE|Maléfice]], [[Sorcière#FAMILIER|Familier de la sorcière]],<br/>[[Sorcière#TOURSDEMAGIE|tours de magie]]
+| CLASS="gauche" | [[Sorcière#MALEFICE|Maléfice]], [[Sorcière#FAMILIER|familier de la sorcière]], [[Sorcière#TOURSDEMAGIE|tours de magie]]
 | 3
 | 1
 | -
@@ -394,7 +377,6 @@ Categories:
 | 4
 | 4
 |}
-</center>
 
 '''Rôle.''' La plupart des sorcières vivent en recluses en bordure de la civilisation mais quelques‑unes vivent dans la société, ouvertement ou non. Leur vaste éventail de sorts leur permet de remplir divers rôles, de celui de devineresse à celui de guérisseuse, et leurs maléfices leur donnent des capacités utiles au combat. Quelques sorcières parcourent le monde, pour élargir leurs connaissances et en apprendre plus sur les mystérieux pouvoirs qui les guident.
 
@@ -402,16 +384,16 @@ Categories:
 
 '''Dés de vie.''' d6
 
+'''Argent de départ.''' 3d6 x 10 po (moyenne 105 po).
+
 {s:ImageDroite|Illustrations/PNJ/Feiya.jpg|30%}
 === Compétences de classe ===
-
 Voici les compétences de classe de la sorcière : [[Artisanat]] (Int), [[Art de la magie]] (Int), [[Connaissances]] (histoire) (Int), [[Connaissances]] (mystères) (Int), [[Connaissances]] (nature) (Int), [[Connaissances]] (plans) (Int), [[Intimidation]] (cha), [[Premiers secours]] (Sag), [[Profession]] (Sag), [[Utilisation dObjets Magiques|Utilisation des objets magiques]] (Cha) et [[Vol]] (Dex).
 
 '''Points de compétence par niveau.''' 2 + modificateur d’[[Intelligence]]
 
-
 === Descriptif de la classe ===
-
+Les aptitudes de la sorcière sont décrites ci-dessous.
 ==== Armes et armures ====
 La sorcière est formée au maniement de toutes les [[armes courantes]]. Elle n’est pas formée au port des armures ni au maniement des boucliers. Les armures gênent les gestes de la sorcière, ce qui risque de provoquer l’échec de ses sorts à composante gestuelle (voir [[Magicien#SORTSPROFANESETARMURE|Sorts profanes et armures]]).
 
@@ -423,7 +405,6 @@ Une sorcière ne peut lancer qu’un certain nombre de sorts par jour. Son nombr
 La sorcière peut apprendre autant de sorts qu’elle le désire. Elle doit les choisir et les préparer en avance en dormant pendant 8 heures et en passant 1 heure à communier avec son familier. C’est pendant cette communion qu’elle décide des sorts à préparer.
 
 {s:Reference|TOURSDEMAGIE}
-
 ==== Tours de magie ====
 La sorcière peut préparer un certain nombre de [[Liste des sorts de sorcière#Sorts_de_sorcières_de_niveau_A_0|tours de magie]], ou sorts de niveau 0, comme indiqué dans la [[Sorcière#TABLESORCIERE|table]] sous « sorts par jour ». Ils se lancent comme les autres, mais ne sont pas dépensés au lancer et sont donc réutilisables. Les tours de magie qui utilisent d’autres emplacements de sorts, à cause d’un [[don de métamagie]] par exemple, sont dépensés de façon normale.
 
@@ -448,15 +429,15 @@ Voir la [[maléfices|liste des maléfices]], la [[maléfices#MALEFICEMAJEUR|list
 Au [[niveau]] 1, la sorcière forge un lien étroit avec un familier, une créature qui lui enseigne la magie et la guide. Il l’aide également en lui accordant des bonus de [[compétences|compétence]], des sorts supplémentaires et l’assiste pour certains types de magie. Ce pouvoir fonctionne comme le [[magicien#Pacte_magique_Ext_ou_Mag_3|pacte magique]] du familier, à l’exception de ce qui est indiqué dans la section du familier.
 
 === Le familier de la sorcière ===
-En forgeant d’étranges liens avec des êtres innommables, les sorcières s’attachent les services d’un conseiller mystique, un [[familier]] qui les sert et leur révèle des secrets inconnus de la plupart des mortels. Un [[familier]] est un animal que la sorcière choisit pour l’aider dans ses incantations et pour obtenir des pouvoirs spéciaux. Ceci fonctionne comme le [[magicien#PACTEMAGIQUE|pacte magique]] du magicien, sauf en ce qui concerne les indications suivantes. La sorcière utilise son [[niveau]] de classe comme [[niveau]] de magicien effectif pour déterminer les pouvoirs de son [[familier]]. Elle peut choisir n’importe quel [[familier]] accessible aux magiciens en plus des nouveaux présentés ci-dessous.
+En forgeant d’étranges liens avec des êtres innommables, les sorcières s’attachent les services d’un conseiller mystique, un [[Familiers|familier]] qui les sert et leur révèle des secrets inconnus de la plupart des mortels. Un [[Familiers|familier]] est un animal que la sorcière choisit pour l’aider dans ses incantations et pour obtenir des pouvoirs spéciaux. Ceci fonctionne comme le [[magicien#PACTEMAGIQUE|pacte magique]] du magicien, sauf en ce qui concerne les indications suivantes. La sorcière utilise son [[niveau]] de classe comme [[niveau]] de magicien effectif pour déterminer les pouvoirs de son [[Familiers|familier]]. Elle peut choisir n’importe quel [[Familiers|familier]] accessible aux magiciens en plus des nouveaux présentés ci-dessous.
 
-La sorcière peut cumuler des [[niveau|niveaux]] issus de plusieurs [[classes]] pour déterminer les [[familier#Description_des_pouvoirs_spéciaux_des_familiers_1|pouvoirs de familier]] qui dépendent de son [[niveau]] de classe tant que ces [[classes]] ont le droit de posséder un [[familier]]. Si la sorcière possède de tels niveaux de classe, son [[familier]] utilise toujours les règles associées à la classe de sorcière, jamais celles des autres classes comme [[magicien]] ou [[ensorceleur]] de [[lignages|lignage]] profane. Le [[familier]] ne stocke que les sorts de la [[Liste des sorts de sorcière|liste de la sorcière]], les autres se conservent normalement, comme indiqué dans les particularités de la [[classes|classe]] concernée.
+La sorcière peut cumuler des [[niveau|niveaux]] issus de plusieurs [[classes]] pour déterminer les [[familier#Description_des_pouvoirs_spéciaux_des_familiers_1|pouvoirs de familier]] qui dépendent de son [[niveau]] de classe tant que ces [[classes]] ont le droit de posséder un [[Familiers|familier]]. Si la sorcière possède de tels niveaux de classe, son [[Familiers|familier]] utilise toujours les règles associées à la classe de sorcière, jamais celles des autres classes comme [[magicien]] ou [[ensorceleur]] de [[lignages|lignage]] profane. Le [[Familiers|familier]] ne stocke que les sorts de la [[Liste des sorts de sorcière|liste de la sorcière]], les autres se conservent normalement, comme indiqué dans les particularités de la [[classes|classe]] concernée.
 
-Si la sorcière perd son [[familier]] ou s’il meurt, elle peut le remplacer un jour plus tard grâce à un rituel spécial qui lui coûte 500 po par [[niveau]] de sorcière. Ce rituel demande 8 heures. À son arrivée, le nouveau [[familier]] connaît tous les sorts de [[Liste des sorts de sorcière|niveau 0]] et deux sorts de chaque niveau que la sorcière est capable de lancer. S’y ajoutent tous les sorts supplémentaires que le familier connaît grâce au niveau de la sorcière et à son [[protecteurs|protecteur]].
+Si la sorcière perd son [[Familiers|familier]] ou s’il meurt, elle peut le remplacer un jour plus tard grâce à un rituel spécial qui lui coûte 500 po par [[niveau]] de sorcière. Ce rituel demande 8 heures. À son arrivée, le nouveau [[Familiers|familier]] connaît tous les sorts de [[Liste des sorts de sorcière|niveau 0]] et deux sorts de chaque niveau que la sorcière est capable de lancer. S’y ajoutent tous les sorts supplémentaires que le familier connaît grâce au niveau de la sorcière et à son [[protecteurs|protecteur]].
 
-'''''Stocker des sorts.''''' À partir du [[niveau]] 1, le [[familier]] de la sorcière conserve tous les sorts qu’elle connaît. Cela ne lui permet pas de les lancer ni d’utiliser des objets à potentiel magique ou à fin d’incantation. À partir du [[niveau]] 2 et, par la suite, tous les deux [[niveau|niveaux]], le [[familier]] rajoute de nouveaux sorts supplémentaires à la [[Liste des sorts de sorcière|liste de sorts]] de sa sorcière en fonction de son [[protecteurs|protecteur]]. Le [[familier]] les stocke immédiatement et, une fois qu’il les a obtenus, la sorcière les prépare normalement.
+'''''Stocker des sorts.''''' À partir du [[niveau]] 1, le [[Familiers|familier]] de la sorcière conserve tous les sorts qu’elle connaît. Cela ne permet pas au familier de les lancer ni d’utiliser des objets à potentiel magique ou à fin d’incantation. À partir du [[niveau]] 2 et, par la suite, tous les deux [[niveau|niveaux]], le [[Familiers|familier]] rajoute de nouveaux sorts supplémentaires à la [[Liste des sorts de sorcière|liste de sorts]] de sa sorcière en fonction de son [[protecteurs|protecteur]]. Le [[Familiers|familier]] les stocke immédiatement et, une fois qu’il les a obtenus, la sorcière les prépare normalement.
 
-'''''Livrer un sort de contact (Sur).''''' Une sorcière de [[niveau]] 3 ou plus peut charger son [[familier]] de transmettre un [[Liste des sorts de sorcière|sort]] ou un [[maléfices|maléfice]] de contact à sa place. Si la sorcière et le [[familier]] sont en contact au moment de l’incantation d’un [[sort de contact]], elle peut désigner son [[familier]] comme « la personne qui touche. » Il peut alors appliquer ce sort comme le ferait la sorcière. Comme d’habitude, si la sorcière lance un autre sort avant que le [[sort de contact]] ne soit transmis, il se dissipe. Si elle active un [[maléfices|maléfice]], elle peut charger son [[familier]] de faire le contact. Pour cela, elle n’a pas besoin d’être en contact avec lui.
+'''''Livrer un sort de contact (Sur).''''' Une sorcière de [[niveau]] 3 ou plus peut charger son [[Familiers|familier]] de transmettre un [[Liste des sorts de sorcière|sort]] ou un [[maléfices|maléfice]] de contact à sa place. Si la sorcière et le [[Familiers|familier]] sont en contact au moment de l’incantation d’un [[sort de contact]], elle peut désigner son [[Familiers|familier]] comme « la personne qui touche. » Il peut alors appliquer ce sort comme le ferait la sorcière. Comme d’habitude, si la sorcière lance un autre sort avant que le [[sort de contact]] ne soit transmis, il se dissipe. Si elle active un [[maléfices|maléfice]], elle peut charger son [[Familiers|familier]] de faire le contact. Pour cela, elle n’a pas besoin d’être en contact avec lui.
 
 ====Ajouter des sorts au familier de la sorcière====
 Pour préparer ses sorts, la sorcière doit communier chaque jour avec son familier. Ce dernier conserve tous les sorts qu’elle connaît et elle ne peut pas préparer un sort s’il ne le connaît pas. Le familier commence le jeu avec tous les sorts de sorcière de [[Liste des sorts de sorcière#Sorts_de_sorcières_de_niveau_A_0|niveau 0]] et trois sorts de [[Liste des sorts de sorcière#Sorts_de_sorcières_de_Ber_niveau_1|niveau 1]] choisis par la sorcière. Elle choisit également de lui faire stocker un nombre de sorts de [[Liste des sorts de sorcière#Sorts_de_sorcières_de_Ber_niveau_1|niveau 1]] supplémentaires égal à son [[Caractéristiques#TABLEAUCARACTERISTIQUES|modificateur d’Intelligence]]. À chaque [[niveau]] de classe, elle ajoute à son familier deux sorts de n’importe quel niveau qu’elle est capable de lancer (en se basant sur son nouveau [[niveau]] de sorcière). Elle peut également lui faire apprendre de nouveaux sorts grâce à un rituel spécial. La sorcière a plusieurs méthodes pour rajouter des sorts à son familier mais elle peut le faire uniquement si le sort figure sur la [[Liste des sorts de sorcière|liste de sorts de sorcière]].
@@ -467,12 +448,10 @@ Pour préparer ses sorts, la sorcière doit communier chaque jour avec son famil
 
 '''''Apprendre dans les parchemins.''''' La sorcière peut utiliser un [[Parchemins magiques|parchemin]] pour apprendre un nouveau sort à son familier. Ce processus prend une heure par [[Présentation des sorts#Niveau_15|niveau du sort]] appris. La sorcière brûle le [[Parchemins magiques|parchemin]] et se sert de ses cendres pour créer une poudre ou un breuvage spécial qu’elle fait boire ou manger au familier. Ce processus détruit le [[Parchemins magiques|parchemin]] et, une fois la durée écoulée, la sorcière doit faire un test d’[[Art de la magie]] [[DD]] 15 + [[Présentation des sorts#Niveau_15|niveau du sort]]. Si elle échoue, quelque chose se passe mal lors du processus et le familier n’apprend pas le sort, même si le [[Parchemins magiques|parchemin]] est détruit.
 
-
 ==== Les nouveaux familiers ====
-En plus des [[familier|familiers]] présentés dans le Manuel des joueurs Pathfinder JdR, les sorcières peuvent en choisir un parmi les animaux suivants. Les [[ensorceleur|ensorceleurs]] et les [[magicien|magiciens]] peuvent faire de même, en utilisant les règles habituelles de leurs [[familier|familiers]]. Ces [[familier|familiers]] utilisent des profils donnés dans le Bestiaire : [[Mille-pattes géant|scutigère véloce]], [[Crabe royal| crabe (tourteau)]], [[Scorpion géant|scorpion à queue verte]], [[Chien|renard]] (chien d’[[Archétypes#CREATUREJEUNE|archétype jeune]]), [[Pieuvre|pieuvre]] (pieuvre avec l’[[Archétypes#CREATUREJEUNE|archétype jeune]]) et [[Araignée géante|araignée écarlate]].
+En plus des [[Familiers|familiers]] présentés dans le Manuel des joueurs Pathfinder JdR, les sorcières peuvent en choisir un parmi les animaux suivants. Les [[ensorceleur|ensorceleurs]] et les [[magicien|magiciens]] peuvent faire de même, en utilisant les règles habituelles de leurs [[Familiers|familiers]]. Ces [[Familiers|familiers]] utilisent des profils donnés dans le Bestiaire : [[Mille-pattes géant|scutigère véloce]], [[Crabe royal| crabe (tourteau)]], [[Scorpion géant|scorpion à queue verte]], [[Chien|renard]] (chien d’[[Archétypes#CREATUREJEUNE|archétype jeune]]), [[Pieuvre|pieuvre]] (pieuvre avec l’[[Archétypes#CREATUREJEUNE|archétype jeune]]) et [[Araignée géante|araignée écarlate]].
 
-<center>
-{| CLASS="tablo"
+{| CLASS="tablo centre autoalt"
 |+ Les familiers et les pouvoirs spéciaux
 |- CLASS="titre"
 | Familier 
@@ -480,26 +459,24 @@ En plus des [[familier|familiers]] présentés dans le Manuel des joueurs Pathfi
 |- CLASS="premier"
 | Mille-pattes
 | CLASS="gauche" | Le maître obtient un bonus de +3 aux tests de [[Discrétion]].
-|- CLASS="alt"
+|-
 | Crabe
 | CLASS="gauche" | Le maître obtient un bonus de +2 aux test de [[lutte]].
 |-
 | Renard
 | CLASS="gauche" | Le maître obtient un bonus de +2 aux [[jet de sauvegarde|jets de Réflexes]].
-|- CLASS="alt"
+|-
 | Pieuvre
 | CLASS="gauche" | Le maître obtient un bonus de +3 aux tests de [[Natation]].
 |- 
 | Scorpion 
 | CLASS="gauche" | Le maître obtient un bonus de +4 aux jets d'[[initiative]].
-|-  CLASS="alt"
+|- 
 | Araignée
 | CLASS="gauche" | Le maître obtient un bonus de +3 aux tests d’[[Escalade]].
 |}
-</center>
-
 
 === Sorts de protecteur ===
-Au [[niveau]] 1, quand la sorcière obtient son [[familier]], elle doit également se choisir un protecteur. C’est une force vague et mystérieuse qui lui donne des pouvoirs pour des raisons qu’elle ne comprend pas forcément entièrement. Cette force n’a pas besoin de recevoir un nom mais elle influe sur l’un des domaines suivants. Au [[niveau]] 2 et, par la suite, tous les deux niveaux, le protecteur de la sorcière ajoute de nouveaux sorts à sa liste de sorts connus. Ils s’ajoutent automatiquement à la liste de sorts stockés par le [[familier]]. Les sorts acquis dépendent du protecteur de la sorcière. Ils sont tous regroupés par thème, leur véritable nom dépendant du [[MJ]] et de la sorcière.
+Au [[niveau]] 1, quand la sorcière obtient son [[Familiers|familier]], elle doit également se choisir un protecteur. C’est une force vague et mystérieuse qui lui donne des pouvoirs pour des raisons qu’elle ne comprend pas forcément entièrement. Cette force n’a pas besoin de recevoir un nom mais elle influe sur l’un des domaines suivants. Au [[niveau]] 2 et, par la suite, tous les deux niveaux, le protecteur de la sorcière ajoute de nouveaux sorts à sa liste de sorts connus. Ils s’ajoutent automatiquement à la liste de sorts stockés par le [[Familiers|familier]]. Les sorts acquis dépendent du protecteur de la sorcière. Ils sont tous regroupés par thème, leur véritable nom dépendant du [[MJ]] et de la sorcière.
 
-Voir la [[Protecteurs|liste des sorts de protecteur]]
+Voir la [[Protecteurs|liste des sorts de protecteur]].

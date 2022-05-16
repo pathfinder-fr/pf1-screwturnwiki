@@ -1,14 +1,14 @@
 ---
 Name: Pathfinder-RPG.Crabe géant
-Title: Crabe géant
-LastModified: 2015-03-21 21:15
+Title: Crabe, Crabe géant
+LastModified: 2020-09-18 03:26
 Categories:
-  - 'Bestiaire'
   - 'Monstre'
+  - 'Src Bestiaire'
 ---
 <table class="Bestiaire"><tr><td>
 <div class="BD">
-{s:BDTitre|Crabe géant (Crabe royal)|FP 2}
+{s:BDTitre|Crabe géant|FP 2}
 {s:pucem|Vermine|Aquatique|Tempéré}
 {s:BDTexte|''Source : Bestiaire p.51''}
 {s:BDTexte|'''PX''' 600}
@@ -35,7 +35,23 @@ Categories:
 {s:BDSousTitre|Pouvoirs spéciaux}
 {s:BDTexte|'''Besoin d'eau (Ext)''' Les crabes géants peuvent survivre hors de l'eau une heure par point de [[Constitution]]. Au-delà de cette limite, ils courent le risque de suffoquer, comme s'ils se noyaient.}
 </div>
-</td><td><div>''Ce large crabe à la carapace robuste fait la taille d’un nain. Ses pinces gigantesques balaient l’air d’une manière menaçante.''
+</td><td><div><div style="float:right; background-color: #fff; padding: 0 0 0 0; margin: 0 0 4px 8px">
+{| CLASS="tablo autoalt"
+|+ Variantes de crabe
+|- CLASS="titre"
+| Nom || FP
+|- CLASS="premier"
+| Familier, [[Crabe royal]] || 1/4
+|-
+| [[Crabe géant]] || 2
+|-
+| [[Crabe mangeur de requins]] || 7
+|-
+| [[Crabe naufrageur]] || 13
+|-
+| [[Nuée de crabes]] || 4
+|}
+</div>''Ce large crabe à la carapace robuste fait la taille d’un nain. Ses pinces gigantesques balaient l’air d’une manière menaçante.''
 
 Les crabes géants ont un comportement similaire à celui de leurs
 cousins de plus petite taille. Ils se nourrissent à la fois de végétaux
@@ -77,5 +93,5 @@ sont reprises dans la table ci-dessous :
 '''Caractéristiques de départ.''' '''Taille P''' ; '''Vitesse''' 9 m (6 {s:c}), nage 6 m (4 {s:c}) ; '''Attaque''' 2 pinces (1d3 plus [[étreinte]]) ; '''Attaque spéciale''' [[constriction]] (1d3) ; '''Particularités''' [[sous-type aquatique|aquatique]], dépendant de l’eau (peut survivre hors de l’eau pendant 1 heure par point de Constitution, ensuite, il suffoque, comme s’il se noyait), [[vision dans le noir]] ; '''DMD''' croc-en-jambe +12 ; '''Caractéristiques''' [[Force|For]] 13, [[Dextérité|Dex]] 14, [[Constitution|Con]] 13, [[Intelligence|Int]] –, [[Sagesse|Sag]] 11, [[Charisme|Cha]] 4 ; '''CA''' armure naturelle +5
 
 '''Développement au niveau 4.''' '''Taille''' M ; '''Attaque''' 2 pinces (1d4 plus [[étreinte]]) ; '''Attaque spéciale''' [[constriction]] (1d4) ; '''Caractéristiques''' For +2, Dex -2, Con +2
-
-''__Note__ : Suite à des erreurs dans les premières V.O. et V.F. le tourteau avait été nommé par méprise Crabe Royal, alors qu'il s'agit du véritable nom du crabe géant de taille M. De même le Crabe Rocailleux avait été traduit en V.F. par erreur en Tourteau. Cela devrait avoir été corrigé depuis dans les dernières versions.''</div></td></tr></table>
+</div>
+</td></tr></table>

@@ -1,0 +1,103 @@
+---
+Name: Pathfinder-RPG.Évaluer les statistiques des monstres
+Title: Évaluer les statistiques des monstres
+LastModified: 2021-01-31 17:00
+---
+{s:MenuMythique}{s:CMy}La table "[[Évaluer les statistiques des monstres#STATMONSTRESMYTHIQUEPARFP|Statistiques des monstres par FP]]" liste les statistiques approximatives des monstres allant jusqu’au FP 30 (les informations pour les [[FP]] de 1 à 20 sont identiques à celles du Bestiaire). Ces valeurs sont des indications générales. La plupart des monstres excellent dans un seul de ces domaines (généralement dans le nombre de dégâts infligés) mais sont moins performants dans un ou deux autres domaines, ce qui permet de les équilibrer. Par exemple, un monstre pourrait infliger plus de dégâts que ce qui est indiqué dans la table mais il aurait une [[CA]] et un nombre de points de vie moindres. Les entrées de la table se présentent comme suit.
+
+'''FP.''' Il s’agit du [[FP]] moyen du monstre. Il peut changer à mesure que la création progresse.
+
+'''Points de vie.''' Il s’agit du total de points de vie moyen du monstre. Une créature ayant une [[CA]] particulièrement élevée, des bonus de sauvegarde particulièrement importants ou un certain nombre de résistances pourraient avoir moins de points de vie. Les extérieurs et les créatures artificielles ont généralement un total de points de vie inférieur.
+
+'''Classe d’armure.''' Il s’agit de la [[CA]] moyenne d’une créature du [[FP]] donné. Quand vient le moment de créer les protections de la créature, gardez bien ce nombre en tête. Les créatures dont le total de points de vie est supérieur à la moyenne ont généralement une [[CA]] moindre pour compenser.
+
+'''Attaque supérieure.''' Il s’agit du bonus d’attaque moyen d’une créature du [[FP]] donné, qui se bat principalement au corps à corps ou à distance. Les créatures infligeant des dégâts supérieurs à la moyenne normale ont généralement une valeur d’attaque moindre pour compenser.
+
+'''Attaque inférieure.''' Il s’agit du bonus d’attaque total moyen d’une créature du [[FP]] donné qui ne recourt pas aux attaques au corps à corps ou à distance pour infliger des dégâts, ce qui inclut la plupart des créatures qui se battent principalement à l’aide de sorts et de pouvoirs magiques.
+
+'''Dégâts moyens.''' Il s’agit du nombre moyen de dégâts qu’une créature du [[FP]] donné inflige quand elle réussit toutes ses attaques. Pour déterminer les dégâts moyens d’une créature, ajoutez la valeur moyenne de tous ses dés de dégâts au modificateur de dégâts de chaque attaque. Une créature qui se bat avec des armes de corps à corps devrait infliger un nombre de dégâts moyens situé entre les dégâts supérieurs et les dégâts inférieurs. Une créature ayant des bonus d’attaque supérieurs à la normale inflige souvent moins de dégâts et une créature ayant des bonus d’attaque inférieurs à la normale inflige souvent plus de dégâts.
+
+'''[[DD]] du pouvoir principal.''' Il s’agit du degré de difficulté ([[DD]]) moyen de tous les sorts, pouvoirs magiques et pouvoirs spéciaux (comme les armes de souffle) que possède une créature du [[FP]] donné qui se repose principalement sur de telles attaques en combat. Si elle possède un pouvoir particulièrement puissant, il peut avoir un [[DD]] inférieur pour compenser.
+
+'''[[DD]] du pouvoir secondaire.''' Il s’agit du degré de difficulté ([[DD]]) moyen de tous les sorts et pouvoirs spéciaux que possède une créature du FP donné ne comptant pas sur de telles attaques en combat. En général, le [[DD]] d’un pouvoir ne devrait pas être inférieur à ce nombre.
+
+'''Bon JdS.''' Il s’agit du bonus de sauvegarde moyen d’une créature du [[FP]] donné, si le jet de sauvegarde fait partie des bons jets de la créature.
+
+'''Mauvais JdS.''' Il s’agit du bonus de sauvegarde moyen d’une créature du [[FP]] donné, si le jet de sauvegarde fait partie des mauvais jets de la créature.
+
+{| CLASS="tablo centre autoalt" WIDTH="80%"
+|+ {s:Reference|STATMONSTRESMYTHIQUEPARFP}Statistiques des monstres par FP
+|- CLASS="titre"
+| ROWSPAN="2" | FP
+| ROWSPAN="2" | pv
+| ROWSPAN="2" | CA
+| COLSPAN="2" CLASS="avecsoustitre" | Attaque
+| COLSPAN="2" CLASS="avecsoustitre" | Dégâts moyens
+| COLSPAN="2" CLASS="avecsoustitre" | DD du pouvoir
+| COLSPAN="2" CLASS="avecsoustitre" | JdS
+|- CLASS="soustitre"
+| supérieure || inférieure || supérieurs || inférieurs || principal || secondaire || bons || mauvais
+
+|- CLASS="premier"
+| 1/2 || 10 || 11 || 1 || 0 || 4 || 3 || 11 || 8 || 3 || 0
+|-
+| 1 || 15 || 12 || 2 || 1 || 7 || 5 || 12 || 9 || 4 || 1
+|-
+| 2 || 20 || 14 || 4 || 3 || 10 || 7 || 13 || 9 || 5 || 1
+|-
+| 3 || 30 || 15 || 6 || 4 || 13 || 9 || 14 || 10 || 6 || 2
+|-
+| 4 || 40 || 17 || 8 || 6 || 16 || 12 || 15 || 10 || 7 || 3
+|-
+| 5 || 55 || 18 || 10 || 7 || 20 || 15 || 15 || 11 || 8 || 4
+|- CLASS="premier"
+| 6 || 70 || 19 || 12 || 8 || 25 || 18 || 16 || 11 || 9 || 5
+|-
+| 7 || 85 || 20 || 13 || 10 || 30 || 22 || 17 || 12 || 10 || 6
+|-
+| 8 || 100 || 21 || 15 || 11 || 35 || 26 || 18 || 12 || 11 || 7
+|-
+| 9 || 115 || 23 || 17 || 12 || 40 || 30 || 18 || 13 || 12 || 8
+|-
+| 10 || 130 || 24 || 18 || 13 || 45 || 33 || 19 || 13 || 13 || 9
+|- CLASS="premier"
+| 11 || 145 || 25 || 19 || 14 || 50 || 37 || 20 || 14 || 14 || 10
+|-
+| 12 || 160 || 27 || 21 || 15 || 55 || 41 || 21 || 15 || 15 || 11
+|-
+| 13 || 180 || 28 || 22 || 16 || 60 || 45 || 21 || 15 || 16 || 12
+|-
+| 14 || 200 || 29 || 23 || 17 || 65 || 48 || 22 || 16 || 17 || 12
+|-
+| 15 || 220 || 30 || 24 || 18 || 70 || 52 || 23 || 16 || 18 || 13
+|- CLASS="premier"
+| 16 || 240 || 31 || 26 || 19 || 80 || 60 || 24 || 17 || 19 || 14
+|-
+| 17 || 270 || 32 || 27 || 20 || 90 || 67 || 24 || 18 || 20 || 15
+|-
+| 18 || 300 || 33 || 28 || 21 || 100 || 75 || 25 || 18 || 20 || 16
+|-
+| 19 || 330 || 34 || 29 || 22 || 110 || 82 || 26 || 19 || 21 || 16
+|-
+| 20 || 370 || 36 || 30 || 23 || 120 || 90 || 27 || 20 || 22 || 17
+|- CLASS="premier"
+| 21 || 400 || 37 || 31 || 24 || 130 || 98 || 27 || 20 || 23 || 18
+|-
+| 22 || 440 || 39 || 32 || 25 || 140 || 105 || 28 || 21 || 23 || 18
+|-
+| 23 || 480 || 40 || 33 || 26 || 150 || 113 || 29 || 22 || 24 || 19
+|-
+| 24 || 520 || 42 || 35 || 27 || 165 || 124 || 30 || 23 || 25 || 20
+|-
+| 25 || 560 || 43 || 36 || 28 || 180 || 135 || 30 || 24 || 26 || 21
+|- CLASS="premier"
+| 26 || 600 || 44 || 37 || 29 || 195 || 145 || 31 || 25 || 27 || 22
+|-
+| 27 || 640 || 45 || 38 || 30 || 210 || 155 || 32 || 26 || 28 || 23
+|-
+| 28 || 680 || 46 || 39 || 31 || 225 || 165 || 33 || 27 || 29 || 24
+|-
+| 29 || 720 || 47 || 40 || 32 || 240 || 175 || 34 || 28 || 30 || 25
+|-
+| 30 || 760 || 48 || 41 || 33 || 255 || 185 || 35 || 29 || 31 || 26
+|}

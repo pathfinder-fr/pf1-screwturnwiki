@@ -1,0 +1,85 @@
+---
+Name: Pathfinder-RPG.Tour de royaume
+Title: Un tour de royaume
+LastModified: 2021-01-04 15:52
+Categories:
+  - 'Règle officielle'
+  - 'Src Guide de campagne'
+---
+{s:MenuGC}{s:GC}{toc}Le développement du royaume se déroule en quatre phases qui forment, ensemble, un tour de royaume (et représentent un mois de temps dans le jeu). Voici ces quatre phases.
+* '''Phase 1. L’entretien :''' Vérifiez la stabilité de votre royaume, payez vos dettes et gérez l’[[Royaumes et guerre#INSATISFACTION|Insatisfaction]] (voir plus bas). Si votre royaume ne contrôle pas d’hexagone, passez cette phase et occupez-vous directement de la [[Tour de royaume#PHASEDEDIT|phase d’édit]].
+
+* '''Phase 2. Les édits :''' Annoncez les proclamations officielles concernant les taxes, la diplomatie et les décisions à l’échelle du royaume (voir [[Édits (royaume)|Les édits]]).
+
+* '''Phase 3. Les revenus :''' Renflouez votre trésorerie en récoltant des taxes et en convertissant vos po en [[Royaumes et guerre#POINTSDECONSTRUCTION|PC]] ou retirez des PC de votre trésorerie pour votre usage personnel.
+
+* '''Phase 4. Les évènements :''' Vérifiez si des évènements inhabituels requièrent votre attention. Certains seront bénéfiques, comme un boom économique, un temps clément ou la découverte d’un trésor, d’autres seront néfastes, comme le mauvais temps, une épidémie ou un monstre en maraude (voir [[Évènements (royaume)|Les évènements]]).
+
+Ces phases se déroulent toujours selon l’ordre indiqué ci-dessus. De nombreuses étapes vous permettent de faire une action une fois par tour, ce qui veut dire une fois pour tout le royaume, pas une fois par membre du gouvernement.
+
+{s:Reference|PHASEDENTRETIEN}
+===La phase d’entretien===
+Lors de la phase d’entretien, vous ajustez les caractéristiques du royaume en fonction de ce qui s’est passé au cours du mois dernier : selon le bonheur des gens, ce qu’ils ont consommé, les taxes qu’ils ont payées, etc.
+* '''Étape 1 : déterminer la Stabilité du royaume.''' Faites un test de Stabilité. En cas de réussite, l’[[Royaumes et guerre#INSATISFACTION|Insatisfaction]] diminue de 1 (si cela devait la faire passer en dessous de 0, laissez-la à 0 et ajoutez 1 [[Royaumes et guerre#POINTSDECONSTRUCTION|PC]] à votre trésorerie). Si vous échouez de 4 ou moins, l’Insatisfaction augmente de 1, si vous échouez de 5 ou plus, elle augmente de 1d4.
+
+* '''Étape 2 : payer la consommation.''' Soustrayez la [[Royaumes et guerre#CONSOMMATION|Consommation]] de votre royaume à sa trésorerie. Si la trésorerie passe alors en négatif, l’[[Royaumes et guerre#INSATISFACTION|Insatisfaction]] augmente de 2.
+
+* '''Étape 3 : remplissez les emplacements d’objet magique vacants.''' Si, dans une communauté, vos quartiers accueillent des bâtiments producteurs d’objets magiques (comme la [[Communautés et quartiers#TOURDUMAGE|tour du mage]] ou l’[[Communautés et quartiers#HERBORISTERIE|herboriste]]) et qu’ils ont des emplacements d’objet magique vides, vous avez une chance de les voir se remplir avec de nouveaux objets (voir, [[Communautés et quartiers#OBJETSMAGIQUESDELACOMMUNAUTE|Les objets magiques de la communauté]]).
+
+* '''Étape 4 : modifiez l’Insatisfaction.''' L’Insatisfaction augmente de 1 à chaque fois qu’une caractéristique du royaume ([[Royaumes et guerre#ECONOMIE|Économie]], [[Royaumes et guerre#LOYAUTE|Loyauté]] ou [[Royaumes et guerre#STABILITE|Stabilité]]) est dans le négatif. Pendant cette phase, l’[[responsables gouvernementaux#AGENTDELORDREROYAL|agent de l’ordre royal]] peut tenter de réduire l’Insatisfaction.
+
+: Si le royaume souffre d’une Insatisfaction de 11 ou plus, il perd un hexagone (c’est aux agents gouvernementaux de décider lequel). Pour plus d’informations, consultez [[Perte dhexagones (royaume)|La perte d’hexagones]].
+
+: Si l’Insatisfaction atteint 20 dans votre royaume, ce dernier sombre dans l’anarchie. Il ne peut plus entreprendre la moindre action et considère qu’il fait 0 à tous ses tests d’[[Royaumes et guerre#ECONOMIE|Économie]], de [[Royaumes et guerre#LOYAUTE|Loyauté]] et de [[Royaumes et guerre#STABILITE|Stabilité]]. À ce stade, les pseudo-chefs du royaume doivent entreprendre des quêtes et de longues aventures pour restaurer l’ordre au sein de leur royaume et retrouver la confiance du peuple.
+
+'''''Exemple.''''' Jessica est la dirigeante d’un royaume d’une taille de 30 avec un DD de contrôle de 60. Grâce à ses bonus de fonctions gouvernementales, d’alignement et de bâtiments construits dans les communautés, son royaume a une Économie de 52, une Loyauté de 45 et une stabilité de 56. L’Insatisfaction est actuellement de 5, la Consommation de 5 et la trésorerie a 12 PC. Lors de la première étape de la phase d’entretien, Adam, le grand protecteur, fait un test de Stabilité pour connaître la stabilité du royaume. Il fait 19, ajoute la Stabilité du royaume (56) et soustrait son Insatisfaction (5). Il obtient 70, ce qui est un succès. L’Insatisfaction diminue donc de 1. Lors de la deuxième étape, le royaume paie 5 PC pour sa Consommation. Le royaume n’a pas d’emplacement d’objet magique vide, donc, il passe l’étape 3. Pour l’étape 4, comme le royaume n’a pas de caractéristique négative, son Insatisfaction n’augmente pas. Mark, l’agent de l’ordre royal, ne veut pas prendre le risque de réduire la Loyauté du royaume et n’utilise donc pas sa fonction gouvernementale pour réduire l’Insatisfaction. À la fin de la phase, le royaume a une Économie de 52, une Loyauté de 45, une Stabilité de 56, une Insatisfaction de 4, une Consommation de 5 et une trésorerie de 7 PC.
+
+{s:Reference|PHASEDEDIT}{s:Reference|PHASEDEDITS}
+===La phase d’édits===
+La phase d’édits vous permet d’annoncer des expansions, des améliorations, des taxes, des jours fériés, etc.
+* '''Étape 1 : désignez les responsables gouvernementaux.''' Assignez des [[PJ]] ou des [[PNJ]] aux places vacantes ou changez les rôles de certains PJ ou PNJ alliés de confiance (voir [[Responsables gouvernementaux|Les responsables gouvernementaux]]).
+
+* '''Étape 2 : s’emparer d’un hexagone ou l’abandonner.''' Pour développer votre royaume, vous devez acquérir de nouveaux hexagones. Pour vous emparer d’un hexagone, il doit être adjacent à au moins l’un des vôtres mais, avant de le proclamer vôtre, vous devez l’explorer puis le débarrasser de ses monstres et de ses dangers (pour plus de renseignements, voir les étapes 2 et 3 de [[Communautés et quartiers#FONDERUNECOMMUNAUTE|Fonder une communauté]]). Pour vous emparer de l’hexagone, vous devez alors dépenser 1 [[Royaumes et guerre#POINTSDECONSTRUCTION|PC]]. Il fait à présent partie de votre royaume, dont la taille augmente de 1. Consultez la table "[[Édits (royaume)#EDITSDAMELIORATION|Les édits d’amélioration]]" pour savoir combien d’hexagones vous pouvez revendiquer à chaque tour.
+
+: Vous pouvez abandonner autant d’hexagones que vous le désirez si vous souhaitez réduire la taille de votre royaume (si vous avez des problèmes de consommation par exemple). Cependant, l’[[Royaumes et guerre#INSATISFACTION|Insatisfaction]] augmente de 1 par hexagone perdu (ou de 4 si cet hexagone abrite une communauté). En dehors de cela, ces pertes fonctionnent comme celles dues à l’Insatisfaction (voir l’étape 4 de la [[Tour de royaume#PHASEDENTRETIEN|phase d’entretien]]).
+* '''Étape 4 :''' construire des améliorations de terrain. Vous pouvez dépenser des [[Royaumes et guerre#POINTSDECONSTRUCTION|PC]] pour faire des améliorations de terrain, comme des fermes, des forts, des routes, des mines et des carrières (consultez les [[Améliorations de terrain|améliorations de terrain]]).
+
+: Vous pouvez aussi préparer un hexagone pour qu’il accueille une communauté. Selon le terrain, cela peut vouloir dire abattre des arbres, déplacer des rochers, creuser des tranchées d’assainissement, etc. Consultez la colonne Coût de préparation de la table "[[Améliorations de terrain#TERRAINSETAMELIORATIONSDETERRAIN|Les terrains et les améliorations de terrain]]", pour savoir combien de [[Royaumes et guerre#POINTSDECONSTRUCTION|PC]] cela va vous coûter.
+
+: La table "[[Édits (royaume)#EDITSDAMELIORATION|Les édits d’amélioration]]" vous indique le nombre maximum d’améliorations de terrain que vous pouvez faire à chaque tour.
+* '''Étape 5 :''' créer et améliorer une communauté. Vous pouvez fonder une communauté dans un hexagone conquis (voir [[Communautés et quartiers#FONDERUNECOMMUNAUTE|Fonder une communauté]]). La table "[[Édits (royaume)#EDITSDAMELIORATION|Les édits d’amélioration]]" vous indique le nombre maximum de communautés que vous pouvez fonder à chaque tour.
+
+: Vous pouvez construire un bâtiment dans n’importe quelle communauté de votre royaume. La liste des bâtiments disponibles démarre [[Communautés et quartiers#BATIMENTS|ici]]. Une fois le bâtiment terminé, vous devez appliquer ses modificateurs à votre feuille de royaume. La table "[[Édits (royaume)#EDITSDAMELIORATION|Les édits d’amélioration]]" vous indique le nombre maximum de bâtiments que vous pouvez construire à chaque tour. La [[Communautés et quartiers#MAISON|maison]], le [[Communautés et quartiers#MANOIR|manoir]], la [[Communautés et quartiers#VILLADENOBLE|villa de noble]] ou l’appartement que vous construisez en premier dans votre royaume ne compte pas dans cette limite.
+* '''Étape 6 : créer des unités militaires.''' Vous pouvez créer, développer, équiper ou réparer des unités militaires (consultez [[Combat de masse|Le combat de masse]]).
+
+* '''Étape 7 : promulguer des édits.''' Sélectionnez ou ajustez le niveau de vos édits (voir [[Édits (royaume)|Les édits]]).
+
+'''''Exemple.''''' Le royaume de Jessica n’a pas de place vacante au gouvernement, l’étape 1 ne la concerne donc pas. Pour l’instant, le gouvernement ne veut pas dépenser de PC pour augmenter la taille du royaume, il ne revendique donc pas d’hexagones à l’étape 2. À l’étape 3, les agents gouvernementaux font construire une ferme dans un hexagone préparé (Consommation –2, trésorerie -2 PC). Aux étapes 5 et 6, les dirigeants continuent de se montrer frugaux : ils ne construisent pas d’amélioration de communauté et ne lèvent pas d’armée. À l’étape 7, ils promulguent un édit de jour férié pour décréter un jour férié (Loyauté +1, Consommation +1). Ils passent le niveau de l’édit publicitaire à « aucun » (Stabilité –1, Consommation +0). Jessica réfléchit à la phase de revenus et réalise qu’un test d’Économie moyen se traduira par un échec (10 au jet de d20 + 52 Économie – 4 Insatisfaction = 58, ce qui est moins que le DD de contrôle de 60). Il y a donc de grandes chances pour que le royaume ne génère pas de PC ce tour-ci. Elle décide régler le niveau de taxes sur « lourdes » (Économie +3, Loyauté –4). À la fin de la phase, le royaume a une Économie de 55, une Loyauté de 42, une Stabilité de 55, une Insatisfaction de 4, une Consommation de 4 et une trésorerie avec 5 PC.
+
+{s:Reference|PHASEDEREVENUS}
+===La phase de revenus===
+Lors de la phase de revenus, vous pouvez faire des dépôts ou des retraits à la trésorerie et collecter des taxes.
+* '''Étape 1 : faire un retrait à la trésorerie.''' Les règles de construction de royaume vous permettent de dépenser des [[Royaumes et guerre#POINTSDECONSTRUCTION|PC]] pour accomplir des actes liés à la gestion du royaume. Si vous voulez dépenser une partie des biens du royaume pour votre usage personnel (comme pour acheter un nouvel objet magique), vous pouvez retirer des PC à la trésorerie et les convertir en po mais vous aurez un malus.
+
+: À chaque fois que vous retirez des PC pour votre usage personnel, l’[[Royaumes et guerre#INSATISFACTION|Insatisfaction]] augmente d’un nombre de points égal au montant de PC retirés. Chaque PC ainsi retiré se transforme en 2 000 po à votre disposition.
+* '''Étape 2 : faire un dépôt à la trésorerie.''' Vous pouvez renflouer les caisses du royaume en faisant don de vos richesses personnelles : des pièces, des gemmes, des bijoux, des armes, des armures, des objets magiques et d’autres objets de valeur que vous avez trouvés en partant à l’aventure. Ils doivent avoir une valeur individuelle de 4 000 po ou moins. À chaque fois que vous faites un dépôt de 4 000 po, votre royaume gagne 1 [[Royaumes et guerre#POINTSDECONSTRUCTION|PC]].
+
+: Si vous voulez donner un objet qui vaut plus de 4 000 po, référez-vous à l’étape 3.
+* '''Étape 3 : vendre des objets onéreux contre des PC.''' Vous pouvez tenter de vendre des objets personnels de valeur (plus de 4 000 po pièce) sur les marchés de votre royaume pour enrichir votre trésorerie. À chaque tour, vous ne pouvez vendre qu’un objet par quartier d’une même communauté. C’est à vous de choisir la ville dans laquelle vous désirez vendre votre objet mais vous ne pouvez pas le faire dans une communauté dont la valeur de base est inférieure au prix de l’objet.
+
+: Pour vendre un objet, divisez son prix par deux (comme si vous le vendiez à [[PNJ]] contre des pièces d’or), divisez le résultat par 4 000 (arrondi à l’inférieur) et ajoutez ce nombre de PC à votre trésorerie.
+
+: Vous ne pouvez pas procéder ainsi pour vendre des objets magiques qui sont propriétés d’un bâtiment ou ont été créés en son sein. Ceux-ci appartiennent aux propriétaires du bâtiment. (Pour plus d’informations à ce sujet, consultez [[Communautés et quartiers#OBJETSMAGIQUESDELACOMMUNAUTE|Les objets magiques de la communauté]]).
+* '''Étape 4 : collecte de taxes.''' Faites un test d’[[Royaumes et guerre#ECONOMIE|Économie]] et divisez le résultat par 3 (arrondi à l’inférieur). Ajoutez à votre trésorerie un nombre de [[Royaumes et guerre#POINTSDECONSTRUCTION|PC]] égal à ce chiffre.
+
+'''''Exemple.''''' Jessica et ses pairs ont besoin d’engranger des PC pour un futur projet, ils passent donc l’étape 1 de la phase de revenus. Ils s’inquiètent à l’idée de ne pas récupérer assez de taxes ce tour-ci et décident, au cas où, de déposer 8 000 po de pièces, de gemmes et de menus objets magiques lors de l’étape 2 (+2 PC dans la trésorerie). Ils ne vendent pas d’objets magiques coûteux et ignorent donc l’étape 3. À l’étape 4, Rob, le trésorier, fait un test d’Économie pour collecter les taxes. Il obtient 9 au d20, ajoute la valeur d’Économie du royaume (55) et soustrait l’Insatisfaction (4) pour un total de 60, ce qui veut dire que le royaume ajoute 20 PC à sa trésorerie (60, le résultat du test d’Économie, divisé par 3). À la fin de la phase, le royaume a une Économie de 55, une Loyauté de 42, une Stabilité de 55, une Insatisfaction de 4, une Consommation de 4 et une trésorerie à 27 PC.
+
+{s:Reference|PHASEDEVENEMENT}
+===La phase d’événement===
+Lors de la phase d’évènements, lesdits évènements peuvent affecter la totalité de votre royaume ou seulement un hexagone ou une communauté.
+
+Il y a 25% de chances qu’il se passe quelque chose (voir [[Évènements (royaume)|Les évènements]]). S’il ne se passe rien à ce tour, ce pourcentage passe à 75% au tour suivant. On peut annuler, terminer ou compenser certains évènements avec un [[Royaumes et guerre#TESTDEROYAUME|test de royaume]]. Pour d’autres (les déprédations d’un monstre par exemple), il faut partir à l’aventure ou régler le problème d’une manière qui ne dépend pas des règles de construction de royaume.
+
+De plus, le [[MJ]] peut lancer un événement lié à son aventure ou à sa campagne. Il peut aussi se passer d’autres choses lors de cette phase, comme des déclarations d’indépendance ou d’unification (voir [[Règles de royaume optionnelles#INDEPENDANCEETDUNIFICATION|ici]]).
+
+'''''Exemple.''''' Le MJ lance le dé dans une table d’événement : un monstre attaque l’un des hexagones du royaume. Au lieu de tenter un test de Stabilité pour se débarrasser du monstre (et risquer de voir l’Insatisfaction augmenter en cas d’échec), Jessica et son gouvernement décident de mener une quête pour se débarrasser eux-mêmes du monstre. Comme ils triomphent, cet événement ne génère pas de point d’Insatisfaction. À la fin de la phase, les valeurs du royaume restent inchangées : Économie 55, Loyauté 42, Stabilité 55, Insatisfaction 4, Consommation 4 et trésorerie 27 PC.

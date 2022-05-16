@@ -1,47 +1,43 @@
 ---
 Name: Pathfinder-RPG.dons de spectacle
-Title: dons de spectacle
-LastModified: 2012-11-17 14:54
+Title: Dons de spectacle
+LastModified: 2020-10-12 17:10
 Categories:
-  - 'Art de la guerre'
   - 'Don'
   - 'Don spectacle'
-  - 'Règles officielles'
+  - 'Liste de dons'
+  - 'Règle officielle'
+  - 'Src Art de la guerre'
 ---
-{s:uc}
-''Les dons marqués d'un astérisque sont des [[Dons#DONCOMBAT|dons de combat]].'' <br/>
-''Les dons marqués de <sup>uc</sup> proviennent de l'Art de la Guerre''<br/>
+{s:MenuDons}{s:uc}Ces dons servent lors des tests de combat de spectacle et donnent souvent droit à une action spéciale qui se produit lors du test. À moins que le personnage ne dispose du don [[Démonstration de maître]], il ne peut utiliser qu’un don de spectacle par test.
+
+''Les dons marqués d'un astérisque (*) sont des dons de combat.''
 
 <center>
-{| CLASS="tablo autoalt"
-|+ Dons de spectacle
+{| CLASS="tablo toutgauche"
+|+ Tableau récapitulatif des dons de spectacle
 |- CLASS="titre"
 | WIDTH="30%" | Dons
-| CLASS="gauche" WIDTH="25%" | Conditions
-| CLASS="gauche" WIDTH="45%" | Avantages
-|- CLASS="premier"
-| [[Cercle du meurtrier]]* <sup>uc</sup>
-| CLASS="gauche" | [[Esquive]], 4 rangs en [[Acrobaties]]
-| CLASS="gauche" | Quand le personnage fait un test de [[combat de spectacle]] après un critique, il peut se déplacer de 1,50 m (1 {s:c})
-|-
-| [[Danse de la moquerie]]* <sup>uc</sup>
-| CLASS="gauche" | 4 rangs en [[Acrobaties]] ou en [[Représentation]] (danse)
-| CLASS="gauche" | Peut se déplacer de 1,50 m (1 {s:c}) sans provoquer d'[[attaque dopportunité|attaque d'opportunité]] ou en déplacer à sa [[VD|vitesse]] en en provoquant
-|-
-| [[Démonstration féroce]]* <sup>uc</sup>
-| CLASS="gauche" | [[Démonstration]]
-| CLASS="gauche" | + 2 aux tests de [[Représentation]] et +1d6 aux jets de dégâts 
-|-
-| [[Démonstration du héros]]* <sup>uc</sup>
-| CLASS="gauche" | [[Démonstration]]
-| CLASS="gauche" | + 2 aux tests de [[combat de spectacle]], peut démoraliser les adversaires
-|-
-| [[Démonstration de maître]]* <sup>uc</sup>
-| CLASS="gauche" | [[Démonstration]], deux dons de spectacle
-| CLASS="gauche" | Obtient les bénéfices des deux dons de spectacle
-|-
-| [[Représentation théâtrale]]* <sup>uc</sup>
-| CLASS="gauche" | [[Démonstration]]
-| CLASS="gauche" | +2 aux tests de [[Représentation]], aux [[jet dattaque|jets d'attaque]] et aux tests de [[manoeuvre offensive]]
+| WIDTH="3%" | Src
+| WIDTH="27%" | Conditions
+| WIDTH="40%" | Avantages
+
+|- CLASS="premier donprincipal"
+| [[Cercle du meurtrier]]* || <sup>AG</sup> || [[Esquive]], 4 rangs en [[Acrobaties]] || Quand le personnage fait un test de combat de spectacle après un critique, il peut se déplacer de 1,50 m
+
+|- CLASS="premier alt donprincipal"
+| [[Danse de la moquerie]]* || <sup>AG</sup> || 4 rangs en [[Acrobaties]] ou en [[Représentation]] (danse) || en Peut se déplacer de 1,50 m sans provoquer d’attaque d’opportunité ou se déplacer à sa vitesse en en provoquant
+
+|- CLASS="premier donprincipal"
+| [[Démonstration de maître]]* || <sup>AG</sup> || [[Démonstration]], deux [[dons#DONSPECTACLE|dons de spectacle]] || Obtient les bénéfices des deux dons de spectacle
+
+|- CLASS="premier alt donprincipal"
+| [[Démonstration du héros]]* || <sup>AG</sup> || [[Démonstration]], [[Arme de prédilection]], maniement de l'arme choisie || +2 aux tests de combat de spectacle, peut démoraliser les adversaires
+
+|- CLASS="premier donprincipal"
+| [[Démonstration féroce]]* || <sup>AG</sup> || [[Démonstration]] || +2 aux tests de Représentation et +1d6 aux jets de dégâts
+
+|- CLASS="premier alt donprincipal"
+| [[Représentation théâtrale]]* || <sup>AG</sup> || [[Démonstration]] || +2 aux tests de Représentation, aux jets d’attaque et aux tests de manoeuvre offensive
 |}
 </center>

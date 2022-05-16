@@ -1,0 +1,90 @@
+---
+Name: Pathfinder-RPG.Éliminer les attaques multiples
+Title: Éliminer les attaques multiples
+LastModified: 2020-11-19 15:54
+Categories:
+  - 'Src Pathfinder unchained'
+---
+{s:MenuPathfinderunchained}{s:PU}{toc}Les attaques multiples permettent aux combattants d’infliger d’importants dégâts mais elles rallongent fortement les tours de chaque personnage. Comme les attaques suivantes ont un bonus fortement dégressif, cela peut faire perdre beaucoup de temps sur des attaques ratées. Avec ce système, nous résolvons toute une [[attaque à outrance]] avec un seul jet de d20. Les autres types d’attaque (comme les actions d’attaque, les [[AO|attaques d’opportunité]] et les attaques issues du don [[Attaque en rotation]]) se résolvent comme à l’accoutumée.
+
+===Les bases===
+Quand le personnage effectue une [[attaque à outrance]], il fait un unique [[jet dattaque|jet d’attaque]] et compare le résultat à la [[CA]] de la cible. S’il est inférieur de 6 ou plus à la CA, le personnage rate sa cible qui ne subit aucun dégât. Si le résultat est inférieur à la CA de 5 ou moins, le personnage érafle sa cible : il lui inflige seulement la moitié des dégâts minimaux qu’il devrait lui infliger normalement s’il avait touché avec l’arme qu’il utilise. Les effets qui se déclenchent quand le personnage touche sa cible ne s’activent pas s’il l’érafle. Si le résultat du jet d’attaque est égal ou supérieur à la CA de la cible, le personnage la touche et réussit une attaque supplémentaire pour tranche de 5 points d’écart entre son résultat et la CA de la cible, sans pouvoir dépasser pour autant le nombre maximum d’attaques auxquelles il a droit. Au niveau 1, il peut porter une attaque au maximum, mais une fois qu’il atteint un [[BBA]] de +5 il peut en porter une autre, puis une de plus à chaque fois que ce BBA augmente de 5. Tout cela figure dans la table "[[Éliminer les attaques multiples#MAXIMUM|Nombre maximum de coups]]" et correspond à la progression des attaques multiples des règles de base. Lancez les dés de dégâts séparément pour chaque coup porté car les réductions de dégâts s’appliquent individuellement à chaque coup.
+
+Disons par exemple que votre personnage a un [[BBA|bonus de base à l’attaque]] de +8, qu’il utilise une arme de corps à corps infligeant 1d10 points de dégâts sur une attaque réussie et qu’il possède un modificateur de [[Force]] de +4. Sa cible a une [[CA]] de 21. Si le résultat de son [[jet dattaque|jet d’attaque]] est de 15 ou moins, il rate sa cible. S’il obtient entre 16 et 20, il érafle sa cible et lui inflige 2 points de dégâts (ses dégâts minimum de 1 plus son modificateur de Force de +4, le tout divisé par 2 et réduit à l’entier inférieur). S’il obtient entre 21 et 25, il touche et inflige 1d10+4 points de dégâts. À 26 ou plus, il touche deux fois et inflige deux fois 1d10+4 points de dégâts. Même s’il obtient 31 ou plus, il ne réussit que deux attaques car son BBA est inférieur à +11.
+
+'''Le suivi.''' Avec ce système, le jeu va plus vite si les joueurs calculent et notent à l’avance le nombre de points de dégâts que leur personnage inflige avec chacune de leurs armes en cas d’éraflure. Le [[MJ]] peut aussi noter la [[CA]]-6, la CA+5, la CA+10 et la CA+15 de ses monstres.
+
+<table width="100%"><tr><td width="70%">
+{| CLASS="tablo centre autoalt toutgauche" WIDTH="96%"
+|+ {s:Reference|RESULTATS}Résultats des attaques
+|- CLASS="titre"
+| Résultat du jet d’attaque || Type de coup || Dégâts infligés
+|- CLASS="premier"
+| Inférieur à la CA de 6 ou plus || Raté || Aucun
+|-
+| Inférieur à la CA de 5 ou moins || Éraflure || 1/2 dégâts minimaux
+|-
+| Égal ou supérieur à la CA || Touché || Dégâts normaux
+|-
+| Supérieur à la CA de 5 ou plus* || Coup supplémentaire || Dégâts normaux
+|- CLASS="note"
+| | COLSPAN="3" | ''(*) Le personnage a droit à un coup supplémentaire pour chaque tranche de 5 points entre le résultat du jet d’attaque et la CA de la cible, dans la limite autorisée par le BBA comme indiqué dans la table "[[Éliminer les attaques multiples#MAXIMUM|Nombre maximum de coups]]".''
+|}
+</td><td width="30%">
+{| CLASS="tablo centre autoalt" WIDTH="96%"
+|+ {s:Reference|MAXIMUM}Nombre maximum de coups
+|- CLASS="titre"
+| BBA || Maximum de coups
+|- CLASS="premier"
+| +0 à +5 || 1
+|-
+| +6 à +10 || 2
+|-
+| +11 à +15 || 3
+|-
+| +16 à +20 || 4
+|-
+| +21 à 25* || 5
+|-
+| +26 à +30* || 6
+|- CLASS="note"
+| | COLSPAN="2" | ''(*) En général, seuls les monstres ont des [[BBA]] si élevé.''
+|}
+</td></tr></table>
+
+====Attaquer des cibles multiples====
+Si le personnage a droit à plusieurs coups, il peut annoncer qu’il fait son attaque à outrance contre plusieurs cibles. Dans ce cas, le nombre de coups qu’il porte est déterminé par la [[CA]] la plus élevée parmi ses cibles. Une fois qu’il a déterminé son nombre total de coups, il peut décider à sa guise de qui les subit. Il peut même choisir de ne pas frapper la cible contre la CA de laquelle il a effectué son [[jet dattaque|jet d’attaque]]. Cela ne lui permet pas pour autant d’ignorer les effets qui l’empêchent habituellement de toucher une créature. Par exemple, il ne peut pas toucher une créature bénéficiant d’un sanctuaire après avoir fait son jet d’attaque contre une autre créature (à moins d’avoir réussi auparavant le jet de [[Volonté]] requis).
+
+====Les coups critiques====
+Quand le personnage réussit un critique potentiel, il lance le dé pour le confirmer en utilisant son bonus maximal et applique l’effet du critique au coup de son choix parmi ceux qu’il inflige. Si le [[jet dattaque|jet d’attaque]] original indique que le personnage touche plusieurs cibles et que le jet de confirmation du critique tombe dans la plage de critique de l’arme, le personnage a réussi deux [[coup critique|coups critiques]] qu’il applique à deux attaques de son choix.
+
+===Le combat à deux armes===
+Quand le personnage se bat à deux armes, il utilise le bonus de base à l’attaque le plus bas des deux. S’il touche, il touche aussi avec son arme secondaire. S’il possède le don [[Science du combat à deux armes]] et touche deux fois, il touche aussi une deuxième fois avec son arme secondaire et porte donc un total de quatre coups. S’il possède le don [[Combat à deux armes supérieur]] et touche trois fois, il touche aussi trois fois avec son arme secondaire pour un total de six coups.
+
+'''Les coups critiques avec le combat à deux armes.''' Si le personnage réussit un critique potentiel alors qu’il utilise deux armes, il lance un seul dé pour confirmer le critique en utilisant son [[BBA|bonus de base à l’attaque]] le plus faible entre les deux armes. S’il confirme le critique, il porte un [[coup critique]] avec chacune de ses armes, tant que le jet initial correspondait à la zone de critique potentiel de chacune. Par exemple, si le personnage se bat avec une [[rapière (arme)|rapière]] et un [[pic de guerre léger (arme)|pic de guerre léger]], qu’il obtient un 18 sur son jet d’attaque initial et qu’il confirme son critique, il porte un coup critique avec sa rapière seulement, en revanche, s’il obtient un 20 au jet initial et confirme le critique, il réussit un coup critique avec la rapière et le pic.
+
+===Les attaques naturelles===
+Si une créature disposant d’au moins trois [[attaques naturelles]] exécute une [[attaque à outrance]] en les utilisant toutes, elle porte un nombre de coups égal, au maximum, à son nombre d’attaques secondaires plus la moitié de son nombre d’attaques primaires (arrondi à l’entier supérieur). Pour faire le jet d’attaque, la créature utilise le bonus d’attaque le plus faible de ses armes naturelles primaires. À chaque fois qu’elle réussit un coup, elle choisit d’infliger des dégâts avec deux de ses armes naturelles primaires ou une de ses armes naturelles secondaires. Si elle rate sa cible de 5 ou moins, elle touche avec une arme naturelle primaire seulement au lieu d’érafler sa cible.
+
+Par exemple, un monstre possédant deux attaques primaires de griffe et une attaque secondaire de queue peut porter deux coups au maximum. S’il touche une fois, il peut infliger les dégâts de ses deux attaques de griffe ou ceux de son unique attaque de queue. S’il rate de 5 ou moins, il inflige les dégâts d’une unique attaque de griffe. S’il réussit de 5 ou plus, il porte deux coups et peut appliquer les dégâts de ses trois attaques.
+
+===Les cas spéciaux===
+Avec ce nouveau système, il est parfois difficile de gérer les sorts et les pouvoirs qui confèrent des attaques supplémentaires, permettent de relancer un dé ou augmentent les bonus. Il y a tant de règles basées sur les attaques multiples qu’il est tout bonnement impossible de couvrir ici tous les effets nécessitant un ajustement. Les [[MJ]] devraient suivre les règles suivantes quand ils décident comment intégrer des sorts et pouvoirs similaires.
+
+====Les attaques supplémentaires====
+Les effets tels que rapidité, qui offrent des attaques supplémentaires, augmentent à la place le nombre maximum de coups que le personnage peut porter de un. Cela inclut les attaques naturelles secondaires effectuées à la fin d’une attaque à outrance avec une arme manufacturée.
+
+====Relancer le dé====
+Comme le jet unique de l’attaque à outrance représente une série de jets, les effets qui permettent de relancer un dé ou obligent à le faire donnent à la place un bonus de +2 (si l’attaquant conservait le meilleur résultat ou si le personnage qui déclenche ce nouveau jet compte aider sa cible) ou un malus de –2 (si l’attaquant conservait le pire résultat ou si un personnage déclenche la relance pour gêner l’assaillant).
+
+Les effets qui permettent de relancer tous les jets d’attaque effectués lors d’une [[attaque à outrance]] autorisent l’attaquant à refaire son unique jet d’attaque dans ce système, au lieu de lui imposer un bonus ou un malus.
+
+====Coup au but====
+Quand le personnage utilise coup au but avec une [[attaque à outrance]], il doit tout d’abord vérifier combien de coups il aurait porté sans le sort. Une même incantation de coup au but ajoute un coup au maximum.
+
+===Variante : La mêlée mobile===
+Au lieu d’éliminer les attaques multiples, une variante consiste à accroître la mobilité du personnage lors d’une [[attaque à outrance]] au lieu de l’obliger à rester sur place. Quand un personnage annonce qu’il effectue une attaque à outrance, il peut aussi déclarer qu’il va se déplacer avant ou après l’attaque, au maximum à sa vitesse de base. À chaque fois qu’il se déplace de 1,50 mètre en sus du premier pas de 1,50 m, il subit un malus de –5 à ses jets d’attaque, mais pour les attaques supplémentaires seulement. Ce malus s’applique seulement après avoir déterminé si sa première attaque touche.
+
+Le personnage a droit à un test d’[[Acrobaties]] pour réduire ce malus d’un montant égal au résultat du test divisé par cinq. Mais quel que soit son résultat, il ne peut pas faire passer le malus à moins de –2 par tranche de 1,50 mètre parcouru après le premier 1,50 mètre.
+
+Avec cette option, les personnages disposant du don [[Attaque éclair]] peuvent se déplacer avant, après ou entre leurs attaques et réduisent le malus de déplacement à –4 par tranche de 1,50 mètre parcouru après le premier 1,50 mètre.

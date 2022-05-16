@@ -1,25 +1,16 @@
 ---
 Name: Pathfinder-RPG.Spirite
-Title: Spirite
-LastModified: 2020-05-07 14:34
+Title: Le spirite
+LastModified: 2021-07-15 18:05
 ---
 {s:Menuclassesoccultes}
-<div class="fright">'''''Voir aussi les [[Fantômes (Spirite)|Fantômes]] du spirite.''''' <br/>
-'''''Voir aussi la [[Sorts de spirite|Liste des sorts du spirite]].'''''<br/>
+<div class="fright">'''''Voir aussi le [[Fantômes (Spirite)|profil]] des fantômes.'''''  
+'''''Voir aussi la [[Sorts de spirite|liste des sorts de spirite]].'''''  
 {s:PM0|spirite}'''Voir les archétypes du spirite'''&emsp;
-<ul ID="spirite" CLASS="listecachée cadrebas">
-  <li>[[Canalisateur de geist (Spirite)|Canalisateur de geist]] (AO)</li>
-  <li>[[Ectoplasmiste (Spirite)|Ectoplasmiste]] (AO)</li>
-  <li>[[Esprit fracturé (Spirite)|Esprit fracturé]] (AO)</li>
-  <li>[[Onmyoji (Spirite)|Onmyoji]] (AO)</li>
-  <li>[[Spirite hanté (Spirite)|Spirite hanté]] (AO)</li>
-</ul></div>
-{s:AO}
-''La carrière de spirite ne s’embrasse pas par vocation ou par envie : c’est un véritable phénomène en soi. Quand une créature meurt, son esprit s’échappe de son corps et entame l’étape suivante de son existence. Les attachements émotionnels handicapants et autres souillures psychiques pendant la vie peuvent pousser certains esprits à dériver vers le plan Éthéré pour sombrer dans le plan de l’Énergie négative. Certains de ces esprits parviennent à échapper au destin de mort-vivant et à retrouver leur chemin vers le plan Matériel pour trouver refuge auprès d’une âme en accord avec lui sur le plan psychique. Une telle fusion des consciences donne naissance à un spirite : le maître d’un unique et redoutable fantôme qu’il peut manifester et à qui il peut donner des ordres.''
+  <li ID="spirite" CLASS="listecachée" STYLE="display:none">{s:Menuarchétypespirite}</li>
+</div>{s:AO}''La carrière de spirite ne s’embrasse pas par vocation ou par envie : c’est un véritable phénomène en soi. Quand une créature meurt, son esprit s’échappe de son corps et entame l’étape suivante de son existence. Les attachements émotionnels handicapants et autres souillures psychiques pendant la vie peuvent pousser certains esprits à dériver vers le plan Éthéré pour sombrer dans le plan de l’Énergie négative. Certains de ces esprits parviennent à échapper au destin de mort-vivant et à retrouver leur chemin vers le plan Matériel pour trouver refuge auprès d’une âme en accord avec lui sur le plan psychique. Une telle fusion des consciences donne naissance à un spirite : le maître d’un unique et redoutable fantôme qu’il peut manifester et à qui il peut donner des ordres.''
 
-
-<center>
-{| CLASS="tablo"
+{| CLASS="tablo centre"
 |+ Le Spirite {s:Reference|TABLESPIRITE}
 |- CLASS="titre"
 | ROWSPAN="2" | Niveau
@@ -42,7 +33,7 @@ LastModified: 2020-05-07 14:34
 | +2
 | +0
 | +2
-| CLASS="gauche" | [spirite#LAISSEETHEREE|Laisse éthérée], [spirite#ASTUCES|Astuces], [spirite#FANTOME|Fantôme], [spirite#PARTAGEDECONSCIENCE|Partage de conscience]
+| CLASS="gauche" | [spirite#ASTUCES|Astuces], [spirite#FANTOME|fantôme], [spirite#LAISSEETHEREE|laisse éthérée], [spirite#PARTAGEDECONSCIENCE|partage de conscience]
 | 1
 | -
 | -
@@ -81,7 +72,7 @@ LastModified: 2020-05-07 14:34
 | +4
 | +1
 | +4
-| CLASS="gauche" | [spirite#INTERFERENCESPIRITUELLE|Interférence Spirituelle]
+| CLASS="gauche" | [spirite#INTERFERENCESPIRITUELLE|Interférence spirituelle]
 | 3
 | 1
 | -
@@ -159,7 +150,7 @@ LastModified: 2020-05-07 14:34
 | +7
 | +3
 | +7
-| CLASS="gauche" | [spirite#CONSCIENCEUNIFIEE|Conscience unifiée], [spirite#RAPPELDUFANTOME|Rappel du fantôme] 2/jour
+| CLASS="gauche" | [spirite#CONSCIENCEUNIFIEE|Conscience unifiée], [spirite#RAPPELDUFANTOME|rappel du fantôme] 2/jour
 | 5
 | 4
 | 3
@@ -211,7 +202,7 @@ LastModified: 2020-05-07 14:34
 | +9
 | +4
 | +9
-| CLASS="gauche" | [spirite#RAPPELDUFANTOME|Rappel du fantôme] 3/jour, [spirite#COMPLICITESPIRITUELLE|Complicité spirituelle]
+| CLASS="gauche" | [spirite#COMPLICITESPIRITUELLE|Complicité spirituelle], [spirite#RAPPELDUFANTOME|rappel du fantôme] 3/jour
 | 5
 | 5
 | 4
@@ -263,7 +254,7 @@ LastModified: 2020-05-07 14:34
 | +11
 | +6
 | +11
-| CLASS="gauche" | [spirite#MANIFESTATIONINTERNE|Manifestation interne] ''augmentation'', [spirite#RAPPELDUFANTOME|Rappel du fantôme] 4/jour
+| CLASS="gauche" | [spirite#MANIFESTATIONINTERNE|Manifestation interne] ''augmentation'', [spirite#RAPPELDUFANTOME|rappel du fantôme] 4/jour
 | 5
 | 5
 | 5
@@ -297,15 +288,14 @@ LastModified: 2020-05-07 14:34
 | 5
 | 5
 |}
-</center>
 
-'''Rôle'''. Le spirite est à la recherche d’une vérité occulte et ésotérique à propos de la vie, de la mort et du passage qui mène audelà, en compagnie de son fantôme qui lui sert de guide et d’aide. Le lien avec son fantôme lui permet de maîtriser les pouvoirs de la vie et de la mort, de la pensée et du cauchemar, de l’ombre et des révélations.
+'''Rôle.''' Le spirite est à la recherche d’une vérité occulte et ésotérique à propos de la vie, de la mort et du passage qui mène audelà, en compagnie de son fantôme qui lui sert de guide et d’aide. Le lien avec son fantôme lui permet de maîtriser les pouvoirs de la vie et de la mort, de la pensée et du cauchemar, de l’ombre et des révélations.
 
-'''Alignement'''. Tous.
+'''Alignement.''' Tous.
 
-'''Dé de vie'''. d8.
+'''Dé de vie.''' d8.
 
-'''Richesse de départ'''. 2d6 × 10 po (70 po en moyenne).
+'''Argent de départ.''' 2d6 x 10 po (moyenne 70 po).
 
 {s:Reference|COMPETENCESDECLASSE}
 ===Compétences de classe===
@@ -313,8 +303,6 @@ LastModified: 2020-05-07 14:34
 Les compétences de classe du spirite sont les suivantes : [Art de la magie] (Int), [Artisanat] (Int), [Bluff] (Cha), [Connaissances] (toutes) (Int), [Intimidation] (Cha), [Linguistique] (Int), [Premiers secours] (Sag), [Profession] (Sag), [Psychologie] (Sag), [Utilisation dobjets magiques|Utilisation d’objets magiques] (Cha), [Vol] (Dex).
 
 '''Rangs de compétence par niveau'''. 4 + modificateur d’[[Intelligence]].
-
-{s:Reference|APTITUDESDELACLASSE}
 
 ===Descriptif de la classe===
 Les aptitudes du spirite sont décrites ci-dessous.
@@ -325,205 +313,55 @@ Les spirites sont formés au maniement de toutes les armes courantes, ainsi qu�
 
 <div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
 <div style="border: 1px solid #4b3124; padding: 4px">
-<center>
-{| CLASS="tablo"
-|+ Sorts connus par le{s:Reference|SORTSCONNUSDUSPIRITE} spirite
+{| CLASS="tablo centre autoalt"
+|+ {s:Reference|SORTSCONNUSDUSPIRITE}Sorts connus par le spirite
 |- CLASS="titre"
 | ROWSPAN="2" | Niveau
 | COLSPAN="10" CLASS="avecsoustitre gauche" | Sorts connus
 |- CLASS="soustitre"
-| 0
-| 1er
-| 2e
-| 3e
-| 4e
-| 5e
-| 6e
+| 0 || 1er || 2e || 3e || 4e || 5e || 6e
 |- CLASS="premier"
-| 1
-| 4
-| 2
-| -
-| -
-| -
-| -
-| -
-|- CLASS="alt"
-| 2
-| 5
-| 3
-| -
-| -
-| -
-| -
-| -
+| 1 || 4 || 2 || - || - || - || - || -
 |-
-| 3
-| 6
-| 4
-| -
-| -
-| -
-| -
-| -
-|- CLASS="alt"
-| 4
-| 6
-| 4
-| 2
-| -
-| -
-| -
-| -
+| 2 || 5 || 3 || - || - || - || - || -
 |-
-| 5
-| 6
-| 4
-| 3
-| -
-| -
-| -
-| -
-|- CLASS="alt"
-| 6
-| 6
-| 4
-| 4
-| -
-| -
-| -
-| -
+| 3 || 6 || 4 || - || - || - || - || -
 |-
-| 7
-| 6
-| 5
-| 4
-| 2
-| -
-| -
-| -
-|- CLASS="alt"
-| 8
-| 6
-| 5
-| 4
-| 3
-| -
-| -
-| -
+| 4 || 6 || 4 || 2 || - || - || - || -
 |-
-| 9
-| 6
-| 5
-| 4
-| 4
-| -
-| -
-| -
-|- CLASS="alt"
-| 10
-| 6
-| 5
-| 5
-| 4
-| 2
-| -
-| -
+| 5 || 6 || 4 || 3 || - || - || - || -
 |-
-| 11
-| 6
-| 6
-| 5
-| 4
-| 3
-| -
-| -
-|- CLASS="alt"
-| 12
-| 6
-| 6
-| 5
-| 4
-| 4
-| -
-| -
+| 6 || 6 || 4 || 4 || - || - || - || -
 |-
-| 13
-| 6
-| 6
-| 5
-| 5
-| 4
-| 2
-| -
-|- CLASS="alt"
-| 14
-| 6
-| 6
-| 6
-| 5
-| 4
-| 3
-| -
+| 7 || 6 || 5 || 4 || 2 || - || - || -
 |-
-| 15
-| 6
-| 6
-| 6
-| 5
-| 4
-| 4
-| -
-|- CLASS="alt"
-| 16
-| 6
-| 6
-| 6
-| 5
-| 5
-| 4
-| 2
+| 8 || 6 || 5 || 4 || 3 || - || - || -
 |-
-| 17
-| 6
-| 6
-| 6
-| 6
-| 5
-| 4
-| 3
-|- CLASS="alt"
-| 18
-| 6
-| 6
-| 6
-| 6
-| 5
-| 4
-| 4
+| 9 || 6 || 5 || 4 || 4 || - || - || -
 |-
-| 19
-| 6
-| 6
-| 6
-| 6
-| 5
-| 5
-| 4
-|- CLASS="alt"
-| 20
-| 6
-| 6
-| 6
-| 6
-| 6
-| 5
-| 5
+| 10 || 6 || 5 || 5 || 4 || 2 || - || -
+|-
+| 11 || 6 || 6 || 5 || 4 || 3 || - || -
+|-
+| 12 || 6 || 6 || 5 || 4 || 4 || - || -
+|-
+| 13 || 6 || 6 || 5 || 5 || 4 || 2 || -
+|-
+| 14 || 6 || 6 || 6 || 5 || 4 || 3 || -
+|-
+| 15 || 6 || 6 || 6 || 5 || 4 || 4 || -
+|-
+| 16 || 6 || 6 || 6 || 5 || 5 || 4 || 2
+|-
+| 17 || 6 || 6 || 6 || 6 || 5 || 4 || 3
+|-
+| 18 || 6 || 6 || 6 || 6 || 5 || 4 || 4
+|-
+| 19 || 6 || 6 || 6 || 6 || 5 || 5 || 4
+|-
+| 20 || 6 || 6 || 6 || 6 || 6 || 5 || 5
 |}
-</center></div></div>
-
-
-{s:Reference|SORTS}
+</div></div>{s:Reference|SORTS}
 ====Sorts====
 Un spirite lance des sorts psychiques appartenant à la [[sorts de spirite|liste de sorts de spirite]]. Il peut lancer les sorts de son répertoire sans devoir les préparer à l’avance, à condition qu’il n’ait pas déjà utilisé tous ses emplacements de sort quotidiens du niveau approprié. Pour apprendre ou lancer un sort, le spirite doit avoir une valeur de [[Sagesse]] au moins égale à 10 + le niveau du sort. Le [[DD]] des jets de sauvegarde contre ses sorts est égal à 10 + le niveau du sort + le modificateur de [[Sagesse]] du spirite.
 
@@ -533,11 +371,9 @@ Le spirite possède un répertoire de sorts limité. Au niveau 1, il connaît qu
 
 Lorsqu’il atteint le niveau 5 et tous les trois niveaux par la suite (aux niveaux 8, 11, etc.), un spirite peut apprendre un nouveau sort à la place d’un autre qu’il connaît déjà. Dans les faits, le spirite perd l’ancien sort qu’il remplace par le nouveau. Le niveau de ce nouveau sort doit être identique à celui du sort remplacé et d’au moins un niveau inférieur au plus haut niveau de sorts que le spirite est capable de lancer. Il ne peut échanger qu’un seul sort de cette façon et doit choisir s’il procède à cet échange au moment où il apprend de nouveaux sorts lors du passage de niveau. 
 
-
 {s:Reference|ASTUCES}
 ====Astuces====
 Les spirites apprennent un certain nombre d’astuces, ou sorts psychiques de niveau 0, comme indiqué dans la Table "[[spirite#SORTSCONNUSDUSPIRITE|Sorts connus par le spirite]]". Ces sorts sont lancés de la même manière que les autres mais ne nécessitent aucun emplacement de sort et peuvent être utilisés chaque jour de manière illimitée. Les astuces préparées en utilisant d’autres emplacements de sort, à cause de l’application de [[dons de métamagie]] par exemple, dépensent ces emplacements conformément aux règles normales.
-
 
 {s:Reference|FANTOME}
 ====Fantôme====
@@ -553,13 +389,9 @@ Les [Fantômes (Spirite)|fantômes] sont des créatures égocentriques, voire ja
 
 Les pouvoirs, les dons, les [Dés de Vie], les  [Valeurs de combat#JETSDESAUVEGARDE|jets de sauvegarde] et les compétences d’un [Fantômes (Spirite)|fantôme] complètement manifesté dépendent du niveau de spirite du personnage et augmentent au fur et à mesure que son maître gagne des niveaux dans cette classe. Voir la section [Fantômes (Spirite)|Fantômes] pour plus d’informations.
 
-
-{s:ImageDroite|Illustrations/PNJ/Estra.jpg|45%}
-{s:Reference|PARTAGEDECONSCIENCE}
-
+{s:ImageDroite|Illustrations/PNJ/Estra.jpg|35%}{s:Reference|PARTAGEDECONSCIENCE}
 ====Partage de conscience (Sur)====
 Au niveau 1, tant que le [Fantômes (Spirite)|fantôme] est confiné dans la conscience d’un spirite (mais pas quand il est complètement manifesté ou banni sur le plan Éthéré), il confère au spirite le don de [Talent] pour deux compétences définies par l’émotion qui le domine, à moins que le spirite possède déjà un [Talent] pour ces deux compétences. Il confère également un bonus de +4 aux  [Valeurs de combat#JETSDESAUVEGARDE|jets de sauvegarde] effectués contre les [effet mental|effets mentaux]. Ce bonus passe à +8 au niveau 12. Enfin, une fois par jour quand le spirite rate un [Valeurs de combat#JETSDESAUVEGARDE|jet de sauvegarde] contre un [effet mental], il peut, à la place, dévier cet effet dans la partie de sa conscience réservée au [Fantômes (Spirite)|fantôme] par une action immédiate. Ce faisant, il n’est pas affecté par l’[effet mental]. Toutefois, pendant toute la durée normale de cet effet, le spirite perd les bonus aux  [Valeurs de combat#JETSDESAUVEGARDE|jets de sauvegarde] contre les [effet mental|effets mentaux] et les effets de [Talent] conférés par son [Fantômes (Spirite)|fantôme], et il ne peut plus utiliser son partage de conscience pour dévier un [effet mental] dans la conscience du [Fantômes (Spirite)|fantôme] ou manifester celui-ci de quelque façon que ce soit. Quand un [effet mental] est dévié dans la conscience du [Fantômes (Spirite)|fantôme], on peut lancer des sorts comme [dissipation de la magie] et [annulation denchantement|annulation d’enchantement] sur le spirite pour mettre fin à la durée de l’effet, comme si le spirite était véritablement affecté par cet effet mental.
-
 
 {s:Reference|LAISSEETHEREE}
 ====Laisse éthérée (Sur)====
@@ -569,11 +401,9 @@ La longueur de la laisse est limitée. Quand le [Fantômes (Spirite)|fantôme] e
 
 Si le fantôme ectoplasmique se situe à plus de 30 mètres de son spirite, ou si le fantôme intangible se situe à plus de 15 mètres du spirite ou hors d’une ligne d’effet tracée entre lui et le spirite pendant plus d’un round par niveau de spirite, la laisse est automatiquement rompue. Dans l’un de ces cas, il retourne sur le plan Éthéré et ne peut plus être convoqué depuis ce plan avant que 24 heures ne se soient écoulées. Voir la section sur les [Fantômes (Spirite)|Fantômes] pour plus d’informations.
 
-
 {s:Reference|PARTAGEDESSENS}
 ====Partage des sens (Sur)====
 Au niveau 2, un spirite peut partager les sens de son [Fantômes (Spirite)|fantôme] manifesté par une [[action simple]]. Ce faisant, il reçoit toutes les informations sensorielles perçues par son [Fantômes (Spirite)|fantôme] (par l’ouïe, la vue, l’odorat, le goût et le toucher). Il peut utiliser cette aptitude un nombre de rounds par jour égal à son niveau de spirite mais il n’est pas nécessaire d’utiliser ces rounds de manière consécutive. Cette aptitude n’est pas limitée par la distance mais le [Fantômes (Spirite)|fantôme] et le spirite doivent se trouver sur le même plan. Le spirite peut mettre fin à cet effet par une [[action libre]].
-
 
 {s:Reference|MANIFESTATIONINTERNE}
 ====Manifestation interne (Sur)====
@@ -591,16 +421,13 @@ Quand un spirite utilise cette aptitude et choisit la forme ectoplasmique, il b�
 =====Manifestation interne intangible=====
 Quand un spirite utilise cette aptitude et choisit la forme intangible, il provoque l’apparition d’une brume éthérée autour de lui qui lui confère un camouflage contre les attaques à distance. Au niveau 8, ses attaques au corps à corps contre les créatures intangibles deviennent plus efficaces. En effet, on considère que ses attaques à mains nues ou avec des armes de corps à corps bénéficient de la propriété spéciale d’arme magique [[Armes magiques#Spectrale|spectrale]]. Au niveau 13, le spirite peut accomplir une [[action simple]] pour devenir invisible (comme avec le sort d’''[[invisibilité]]'') jusqu’au début de son prochain tour. Au niveau 18, le spirite acquiert le sous-type [[sous-type intangible|intangible]] et une vitesse de déplacement en vol de 9 mètres (bonne) lorsqu’il prend cette forme de manifestation interne.
 
-
 {s:Reference|INTERFERENCESPIRITUELLE}
 ====Interférence spirituelle (Ext ou Sur)====
 Au niveau 4, un spirite situé dans la zone d’allonge de son fantôme manifesté sous forme ectoplasmique bénéficie d’un bonus de bouclier de +2 à sa [Valeurs de combat#CA|Classe d’Armure] et d’un bonus de circonstances de +2 aux  [Valeurs de combat#JETSDESAUVEGARDE|jets de sauvegarde]. Il ne bénéficie plus de ces bonus si le fantôme manifesté sous forme ectoplasmique est [[États préjudiciables#Agrippé|agrippé]], [[États préjudiciables#Sansdéfense|sans défense]] ou [[États préjudiciables#Inconscient|inconscient]]. Un spirite situé à 9 mètres ou moins de son fantôme manifesté sous forme intangible bénéficie d’un bonus de circonstances de +2 aux  [Valeurs de combat#JETSDESAUVEGARDE|jets de sauvegarde] contre les [effet mental|effets mentaux]. Ce bonus est un pouvoir surnaturel et ne s’applique plus si le [Fantômes (Spirite)|fantôme] est inconscient.
 
-
 {s:Reference|DETECTIONDESMORTSVIVANTS}
 ====Détection des morts-vivants (Mag)====
 Au niveau 5, la connivence du spirite avec le plan Éthéré devient si puissante qu’il peut utiliser ''[détection des morts-vivants]'' à volonté sous forme de pouvoir magique avec un [[NLS|niveau de lanceur de sorts]] égal à son niveau de spirite.
-
 
 {s:Reference|RAPPELDUFANTOME}
 ====Rappel du fantôme (Sur)====
@@ -608,41 +435,33 @@ Au niveau 6, par une [[action rapide]] ou [[action immédiate|immédiate]], un s
 
 Quand un spirite utilise cette aptitude pour rappeler un [Fantômes (Spirite)|fantôme] dans sa conscience, il peut activer la manifestation interne au cours de la même action, mais cette activation provoque la dépense d’un round d’utilisation supplémentaire de la manifestation interne. Le spirite peut utiliser cette aptitude une fois par jour au niveau 6, plus une fois quotidienne supplémentaire tous les 4 niveaux de spiritiste accumulés par le personnage après le sixième.
 
-
 {s:Reference|APAISEMENTDESESPRITS}
 ====Apaisement des esprits (Mag)====
 Au niveau 7, un spirite peut utiliser ''[apaisement des esprits]'' une fois par jour comme un pouvoir magique. Au niveau 11 et tous les 4 niveaux par la suite, le spirite peut utiliser cette aptitude une fois de plus par jour (jusqu’à un maximum de 4 utilisations quotidiennes au niveau 19).
-
 
 {s:Reference|DETECTIONDELINVISIBILITE}
 ====Détection de l’invisibilité (Mag)====
 Au niveau 9, un spirite peut voir de nombreuses choses normalement imperceptibles à l’oeil nu. Il peut ainsi utiliser ''[Détection de linvisibilité|détection de l’invisibilité]'' une fois par jour comme un pouvoir magique d’une durée de 10 minutes.
 
-
 {s:Reference|CONSCIENCEUNIFIEE}
 ====Conscience unifiée (Sur)====
 Au niveau 10, un spirite bénéficie en permanence des avantages conférés par son aptitude de [partage des sens] quand son fantôme est manifesté. Il acquiert également les rangs de compétence et les bonus aux sorts mentaux conférés par l’[[Fantômes (Spirite)#EMOTIONDOMINANTE|émotion dominante du fantôme]], même quand son fantôme est manifesté. Enfin, il peut dévier un effet mental vers la conscience de son fantôme comme décrit dans l’aptitude [[spirite#PARTAGEDECONSCIENCE|partage de conscience]] et ce, même quand le [Fantômes (Spirite)|fantôme] est manifesté. Toutefois, l’utilisation de cette dernière possibilité provoque le retour immédiat du fantôme dans la conscience du spirite.
-
 
 {s:Reference|INTERFERENCESPIRITUELLESUPERIEURE}
 ====Interférence spirituelle supérieure (Ext ou Sur)====
 Au niveau 12, quand des alliés sont dans la zone d’allonge du fantôme manifesté sous forme ectoplasmique, chaque allié bénéficie d’un bonus de bouclier de +2 à sa [Valeurs de combat#CA|Classe d’Armure] et d’un bonus de circonstances de +2 aux  [Valeurs de combat#JETSDESAUVEGARDE|jets de sauvegarde]. Ces bonus s’élèvent à +4 dans le cas du spirite. Le spirite et ses alliés à portée ne bénéficient plus de ces bonus si le fantôme manifesté est [[États préjudiciables#Agrippé|agrippé]], [[États préjudiciables#Sansdéfense|sans défense]] ou [[États préjudiciables#Inconscient|inconscient]]. Les alliés situés à 9 mètres ou moins d’un fantôme manifesté sous forme intangible bénéficient d’un bonus de circonstances de +2 aux  [Valeurs de combat#JETSDESAUVEGARDE|jets de sauvegarde] effectués contre les [effet mental|effets mentaux]. Ce bonus s’élève à +4 dans le cas du spirite. Ce bonus ne s’applique plus si le [Fantômes (Spirite)|fantôme] tombe inconscient.
 
-
 {s:Reference|COMPLICITESPIRITUELLE}
 ====Complicité spirituelle (Sur)====
 Au niveau 14, la force vitale d’un spirite devient intrinsèquement liée à l’essence spirituelle de son [Fantômes (Spirite)|fantôme]. Tant que le [Fantômes (Spirite)|fantôme] possède encore au moins 1 point de vie et quand le spirite subit des dégâts qui devraient réduire son total de points de vie actuel en dessous de 0, ces points de dégâts sont encaissés par le [Fantômes (Spirite)|fantôme] à la place. Ce transfert s’arrête dès que le [Fantômes (Spirite)|fantôme] a encaissé la totalité des points de dégâts ou si celui-ci accumule un nombre négatif de points de vie égal à sa valeur de [Constitution]. Dans ce dernier cas, les points de dégâts infligés en plus de cette limite sont subis par le spirite. Cette aptitude affecte uniquement les effets qui infligent des points de dégâts.
-
 
 {s:Reference|APPELDUNESPRIT}
 ====Appel d’un esprit (Mag)====
 Au niveau 16, un spirite peut utiliser ''[[appel dun esprit|appel d’un esprit]]'' une fois par jour comme un pouvoir magique.
 
-
 {s:Reference|MANIFESTATIONDURABLE}
 ====Manifestation durable (Sur)====
 Au niveau 17, le spirite peut utiliser son aptitude de [spirite#MANIFESTATIONINTERNE|manifestation interne] un nombre de rounds par jour égal à 3 + deux fois son niveau de spirite.
-
 
 {s:Reference|CONSCIENCEAUTONOME}
 ====Conscience autonome (Sur)====

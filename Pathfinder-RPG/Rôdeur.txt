@@ -1,46 +1,20 @@
 ---
 Name: Pathfinder-RPG.Rôdeur
 Title: Le rôdeur
-LastModified: 2020-06-07 17:42
+LastModified: 2021-07-15 17:53
 Categories:
   - 'Classe'
 ---
 {s:MenuClasses}
-<div class="fright">'''''Voir aussi les [[compagnons animaux]].'''''<br/>
-'''''Voir aussi la [[liste des sorts de rôdeurs]]'''''.<br/>
-'''''Voir aussi les [[pièges de rôdeur]].'''''<br/>
-{s:PM0|rôdeur}'''Voir les archétypes du rôdeur'''&emsp; 
-<ul ID="rôdeur" CLASS="listecachée cadrebas">
-  <li>[[Arpenteur des profondeurs (rôdeur)|Arpenteur des profondeurs]] (AG)</li>
-  <li>[[Champion rebelle (rôdeur)|Champion rebelle]] (MCA)</li>
-  <li>[[Changeforme (rôdeur)|Changeforme]] (MJRA)</li>
-  <li>[[Chasseur de trophées (rôdeur)|Chasseur de trophées]] (AG)</li>
-  <li>[[Chasseur sauvage (rôdeur)|Chasseur sauvage]] (MCA)</li>
-  <li>[[Éclaireur de larmée (rôdeur)|Éclaireur de l'armée]] (AG)</li>
-  <li>[[Fauconnier (rôdeur)|Fauconnier]] (AG)</li>
-  <li>[[Gardien (rôdeur)|Gardien]] (AG)</li>
-  <li>[[Gardien des vagues (rôdeur)|Gardien des vagues]] ([[homme-poisson (race)|Homme-poisson]]) (MR)</li>
-  <li>[[Guide (rôdeur)|Guide]] (MJRA)</li>
-  <li>[[Maître des bêtes (rôdeur)|Maître des bêtes]] (MJRA)</li>
-  <li>[[Ombre sauvage (rôdeur)|Ombre sauvage]] ([[demi-elfe|Demi-elfe]]) (MR)</li>
-  <li>[[Pisteur divin (rôdeur)|Pisteur divin]] (MCA)</li>
-  <li>[[Rôdeur infiltré (rôdeur)|Rôdeur infiltré]] (APG)</li>
-  <li>[[Rôdeur libre des forêts (rôdeur)|Rôdeur libre des forêts]] (MMI)</li>
-  <li>[[Rôdeur spirituel (rôdeur)|Rôdeur spirituel]] (APG)</li>
-  <li>[[Rôdeur urbain (rôdeur)|Rôdeur urbain]] (APG)</li>
-  <li>[[Seigneur des chevaux (rôdeur)|Seigneur des chevaux]] (APG)</li>
-  <li>[[Tirailleur (rôdeur)|Tirailleur]] (APG)</li>
-  <li>[[Traqueur du crépuscule (rôdeur)|Traqueur du crépuscule]] ([[fetchelin (race)|Fetchelin]]) (MR)</li>
-  <li>[[Traqueur sauvage (rôdeur)|Traqueur sauvage]] (UC)</li>
-  <li>[[Trappeur (rôdeur)|Trappeur]] (UM)</li>
-</ul></div> 
+<div class="fright">'''''Voir aussi le [[Compagnons animaux|profil]] des compagnons animaux.'''''  
+'''''Voir aussi les [[pièges de rôdeur]].'''''  
+'''''Voir aussi la [[Liste des sorts de rôdeurs|liste des sorts de rôdeur]].'''''  
+{s:PM0|rôdeur}'''Voir les archétypes du rôdeur'''&emsp;
+  <li ID="rôdeur" CLASS="listecachée" STYLE="display:none">{s:Menuarchétyperôdeur}</li>
+</div>''Pour ceux qui aiment le frisson de la chasse, seules comptent les notions de prédateurs et de proies. Qu’ils soient éclaireurs, pisteurs ou chasseurs de prime, les rôdeurs partagent de nombreuses particularités : une maîtrise inégalée de certaines armes, une grande habileté pour débusquer le gibier, même le plus inaccessible, et un savoir-faire leur permettant de venir à bout d’une grande variétés de proies. Ces chasseurs allient savoir, patience et habileté pour traquer les hommes, les bêtes ou encore les animaux. Ils développent un instinct de prédateur, un savoir-faire applicable à de multiples environnements et des capacités martiales toujours plus dangereuses. Certains chassent les créatures qui s’attaquent aux humains et protègent les frontières de la civilisation alors que d’autres se lancent à la poursuite d’un gibier plus rusé, et parfois même de fugitifs appartenant à la même communauté qu’eux.''
 
-''Pour ceux qui aiment le frisson de la chasse, seules comptent les notions de prédateurs et de proies. Qu’ils soient éclaireurs, pisteurs ou chasseurs de prime, les rôdeurs partagent de nombreuses particularités : une maîtrise inégalée de certaines armes, une grande habileté pour débusquer le gibier, même le plus inaccessible, et un savoir-faire leur permettant de venir à bout d’une grande variétés de proies. Ces chasseurs allient savoir, patience et habileté pour traquer les hommes, les bêtes ou encore les animaux. Ils développent un instinct de prédateur, un savoir-faire applicable à de multiples environnements et des capacités martiales toujours plus dangereuses. Certains chassent les créatures qui s’attaquent aux humains et protègent les frontières de la civilisation alors que d’autres se lancent à la poursuite d’un gibier plus rusé, et parfois même de fugitifs appartenant à la même communauté qu’eux.''
-
-{s:reference|TABLERODEUR}
-<center>
-{| CLASS="tablo"
-|+ Le rôdeur
+{| CLASS="tablo centre"
+|+ {s:reference|TABLERODEUR}Le rôdeur
 |- CLASS="titre"
 | ROWSPAN="2" | Niveau
 | ROWSPAN="2" | BBA
@@ -60,7 +34,7 @@ Categories:
 | +2
 | +2
 | +0
-| CLASS="gauche" | 1er [[rôdeur#ENNEMIJURE|ennemi juré]], [[rôdeur#PISTAGE|pistage]], [[rôdeur#EMPATHIESAUVAGE|empathie sauvage]]
+| CLASS="gauche" | [[rôdeur#EMPATHIESAUVAGE|Empathie sauvage]], 1er [[rôdeur#ENNEMIJURE|ennemi juré]], [[rôdeur#PISTAGE|pistage]]
 | -
 | -
 | -
@@ -71,7 +45,7 @@ Categories:
 | +3
 | +3
 | +0
-| CLASS="gauche" | [[rôdeur#DONDESTYLEDECOMBAT|don de style de combat]]
+| CLASS="gauche" | [[rôdeur#DONDESTYLEDECOMBAT|Don de style de combat]]
 | -
 | -
 | -
@@ -82,7 +56,7 @@ Categories:
 | +3
 | +3
 | +1
-| CLASS="gauche" | [[rôdeur#ENDURANCE|endurance]], 1er [[rôdeur#ENVIRONNEMENTDEPREDILECTION|environnement de prédilection]]
+| CLASS="gauche" | [[rôdeur#ENDURANCE|Endurance]], 1er [[rôdeur#ENVIRONNEMENTDEPREDILECTION|environnement de prédilection]]
 | -
 | -
 | -
@@ -93,7 +67,7 @@ Categories:
 | +4
 | +4
 | +1
-| CLASS="gauche" | [[rôdeur#PACTEDUCHASSEUR|pacte du chasseur]]
+| CLASS="gauche" | [[rôdeur#PACTEDUCHASSEUR|Pacte du chasseur]]
 | 0*
 | -
 | -
@@ -104,7 +78,7 @@ Categories:
 | +4
 | +4
 | +1
-| CLASS="gauche" | 2e [[rôdeur#ENNEMIJURE|ennemi juré]]
+| CLASS="gauche" | 2e [[rôdeur#ENNEMIJURE|Ennemi juré]]
 | 1
 | -
 | -
@@ -115,7 +89,7 @@ Categories:
 | +5
 | +5
 | +2
-| CLASS="gauche" | [[rôdeur#DONDESTYLEDECOMBAT|don de style de combat]]
+| CLASS="gauche" | [[rôdeur#DONDESTYLEDECOMBAT|Don de style de combat]]
 | 1
 | -
 | -
@@ -126,7 +100,7 @@ Categories:
 | +5
 | +5
 | +2
-| CLASS="gauche" | [[rôdeur#DEPLACEMENTFACILITE|déplacement facilité]]
+| CLASS="gauche" | [[rôdeur#DEPLACEMENTFACILITE|Déplacement facilité]]
 | 1
 | 0*
 | -
@@ -137,7 +111,7 @@ Categories:
 | +6
 | +6
 | +2
-| CLASS="gauche" | [[rôdeur#PISTAGEACCELERE|pistage accéléré]], 2e [[rôdeur#ENVIRONNEMENTDEPREDILECTION|environnement de prédilection]]
+| CLASS="gauche" | 2e [[rôdeur#ENVIRONNEMENTDEPREDILECTION|Environnement de prédilection]], [[rôdeur#PISTAGEACCELERE|pistage accéléré]]
 | 1
 | 1
 | -
@@ -148,7 +122,7 @@ Categories:
 | +6
 | +6
 | +3
-| CLASS="gauche" | [[rôdeur#ESQUIVETOTALE|esquive totale]]
+| CLASS="gauche" | [[rôdeur#ESQUIVETOTALE|Esquive totale]]
 | 2
 | 1
 | -
@@ -159,7 +133,7 @@ Categories:
 | +7
 | +7
 | +3
-| CLASS="gauche" | 3e [[rôdeur#ENNEMIJURE|ennemi juré]], [[rôdeur#DONDESTYLEDECOMBAT|don de style de combat]]
+| CLASS="gauche" | [[rôdeur#DONDESTYLEDECOMBAT|Don de style de combat]], 3e [[rôdeur#ENNEMIJURE|ennemi juré]]
 | 2
 | 1
 | 0*
@@ -170,7 +144,7 @@ Categories:
 | +7
 | +7
 | +3
-| CLASS="gauche" | [[rôdeur#PROIEDUCHASSEUR|proie du chasseur]]
+| CLASS="gauche" | [[rôdeur#PROIEDUCHASSEUR|Proie du chasseur]]
 | 2
 | 1
 | 1
@@ -181,7 +155,7 @@ Categories:
 | +8
 | +8
 | +4
-| CLASS="gauche" | [[rôdeur#CAMOUFLAGE|camouflage]]
+| CLASS="gauche" | [[rôdeur#CAMOUFLAGE|Camouflage]]
 | 2
 | 2
 | 1
@@ -192,7 +166,7 @@ Categories:
 | +8
 | +8
 | +4
-| CLASS="gauche" | 3e [[rôdeur#ENVIRONNEMENTDEPREDILECTION|environnement de prédilection]]
+| CLASS="gauche" | 3e [[rôdeur#ENVIRONNEMENTDEPREDILECTION|Environnement de prédilection]]
 | 3
 | 2
 | 1
@@ -203,7 +177,7 @@ Categories:
 | +9
 | +9
 | +4
-| CLASS="gauche" | [[rôdeur#DONDESTYLEDECOMBAT|don de style de combat]]
+| CLASS="gauche" | [[rôdeur#DONDESTYLEDECOMBAT|Don de style de combat]]
 | 3
 | 2
 | 1
@@ -214,7 +188,7 @@ Categories:
 | +9
 | +9
 | +5
-| CLASS="gauche" | 4e [[rôdeur#ENNEMIJURE|ennemi juré]]
+| CLASS="gauche" | 4e [[rôdeur#ENNEMIJURE|Ennemi juré]]
 | 3
 | 2
 | 2
@@ -225,7 +199,7 @@ Categories:
 | +10
 | +10
 | +5
-| CLASS="gauche" | [[rôdeur#ESQUIVESURNATURELLE|esquive surnaturelle]]
+| CLASS="gauche" | [[rôdeur#ESQUIVESURNATURELLE|Esquive surnaturelle]]
 | 3
 | 3
 | 2
@@ -236,7 +210,7 @@ Categories:
 | +10
 | +10
 | +5
-| CLASS="gauche" | [[rôdeur#DISCRETIONTOTALE|discrétion totale]]
+| CLASS="gauche" | [[rôdeur#DISCRETIONTOTALE|Discrétion totale]]
 | 4
 | 3
 | 2
@@ -247,7 +221,7 @@ Categories:
 | +11
 | +11
 | +6
-| CLASS="gauche" | 4e [[rôdeur#ENVIRONNEMENTDEPREDILECTION|environnement de prédilection]], [[rôdeur#DONDESTYLEDECOMBAT|don de style de combat]]
+| CLASS="gauche" | [[rôdeur#DONDESTYLEDECOMBAT|Don de style de combat]], 4e [[rôdeur#ENVIRONNEMENTDEPREDILECTION|environnement de prédilection]]
 | 4
 | 3
 | 2
@@ -258,7 +232,7 @@ Categories:
 | +11
 | +11
 | +6
-| CLASS="gauche" | [[rôdeur#PROIEDUMAITRECHASSEUR|proie du maître chasseur]]
+| CLASS="gauche" | [[rôdeur#PROIEDUMAITRECHASSEUR|Proie du maître chasseur]]
 | 4
 | 3
 | 3
@@ -269,7 +243,7 @@ Categories:
 | +12
 | +12
 | +6
-| CLASS="gauche" | 5e [[rôdeur#ENNEMIJURE|ennemi juré]], [[rôdeur#MAITRECHASSEUR|maître chasseur]]
+| CLASS="gauche" | 5e [[rôdeur#ENNEMIJURE|Ennemi juré]], [[rôdeur#MAITRECHASSEUR|maître chasseur]]
 | 4
 | 4
 | 3
@@ -277,13 +251,14 @@ Categories:
 |- CLASS="note"
 | COLSPAN="10" | ''(*) Aucun sort sauf sorts bonus octroyés par une Sagesse élevée.''
 |}
-</center>
 
 '''Rôle.''' Les rôdeurs sont des guérilleros adroits tant au corps à corps qu’à distance et doués pour les attaques éclair. Leurs capacités leur permettent d’infliger de très importantes blessures à certains types d’ennemis, mais elles restent également utiles dans les autres cas.
 
 '''Alignement.''' Au choix.
 
 '''Dés de vie.''' d10.
+
+'''Argent de départ.''' 5d6 x 10 po (moyenne 175 po).
 
 === Compétences de classe ===
 Les compétences de classe du rôdeur sont les suivantes : [[Art de la magie]] (Int), [[Artisanat]] (Int), [[Connaissances]] (exploration souterraine) (Int), [[Connaissances]] (géographie) (Int), [[Connaissances]] (nature) (Int), [[Discrétion]] (Dex), [[Dressage]] (Cha), [[Équitation]] (Dex), [[Escalade]] (For), [[Intimidation]] (Cha), [[Natation]] (For), [[Perception]] (Sag), [[Premiers secours]] (Sag), [[Profession]] (Sag) et [[Survie]] (Sag).
@@ -299,65 +274,36 @@ Le rôdeur est formé au maniement de toutes les [[arme courante|armes courantes
 
 {s:Reference|ENNEMIJURE}
 ====Ennemis jurés (Ext)====
-
 Au niveau 1, le rôdeur choisit un type de créatures sur la [[rôdeur#TABLEENNEMISJURES|table des ennemis jurés du rôdeur]]. Il bénéficie d’un bonus de +2 aux tests de [[Bluff]], [[Connaissances]], [[Perception]], [[Psychologie]] et [[Survie]] lorsqu’il les utilise contre des créatures de ce type. Il bénéficie également d’un bonus de +2 aux [[jet dattaque|jets d’attaque]] et de [[jet de dégâts|dégâts]] lorsqu’il utilise une arme contre elles. Enfin, il peut tenter d’utiliser la compétence de [[Connaissances]] pour identifier ces créatures et ce, même s’il ne possède aucun rang dans celle-ci.
 
 Au niveau 5 et tous les cinq niveaux par la suite (aux niveaux 10, 15 et 20), le rôdeur peut choisir un nouvel ennemi juré. En même temps, il peut augmenter de +2 le bonus dont il bénéficie contre l’un de ses ennemis jurés (y compris celui qu’il vient de choisir, s’il le désire).
 
 Lorsqu’un rôdeur choisit les [[type Extérieur|Extérieurs]] ou les [[type humanoïde|humanoïdes]] comme ennemis jurés, il doit aussi sélectionner un sous-type associé, comme l’indique la table (notez que les sous-types d’humanoïdes cités dans la table ne sont que les plus communs, d’autres sous-types, que le rôdeur peut également choisir, sont présentés dans le ''Bestiaire Pathfinder''). Si une créature appartient à deux familles d’ennemis jurés, les bonus ne se cumulent pas : le rôdeur ne profite que du plus élevé des deux.
 
-
-{s:Reference|TABLEENNEMISJURES}
-<center>
-{| CLASS="tablo"
-|+ Choix d'ennemis jurés du rôdeur
-|-
+{| CLASS="tablo centre autoalt toutgauche"
+|+ {s:Reference|TABLEENNEMISJURES}Choix d'ennemis jurés du rôdeur
+|- CLASS="premier"
 | WIDTH="25%" | [[type Aberration|Aberration]]
-| WIDTH="25%" CLASS="gauche" | [[type Extérieur|Extérieur]] ([[sous-type Air|Air]])
-| WIDTH="25%" CLASS="gauche" | [[type Humanoïde|Humanoïde]] (autre sous-type)
-| WIDTH="25%" CLASS="gauche" |  [[type Humanoïde|Humanoïde]] ([[sous-type humain|humain]])
-|- CLASS="alt"
-| [[type Animal|Animal]]
-| CLASS="gauche" | [[type Extérieur|Extérieur]] ([[sous-type Bien|Bien]])
-| CLASS="gauche" | [[type Humanoïde monstrueux|Humanoïde monstrueux]]
-| CLASS="gauche" | [[type Humanoïde|Humanoïde]] ([[sous-type nain|nain]])
+| WIDTH="25%" | [[type Extérieur|Extérieur]] ([[sous-type Air|Air]])
+| WIDTH="25%" | [[type Humanoïde|Humanoïde]] (autre sous-type)
+| WIDTH="25%" |  [[type Humanoïde|Humanoïde]] ([[sous-type humain|humain]])
 |-
-| [[type Créature artificielle|Créature artificielle]]
-| CLASS="gauche" | [[type Extérieur|Extérieur]] ([[sous-type Eau|Eau]])
-| CLASS="gauche" | [[type Humanoïde|Humanoïde]] ([[sous-type aquatique|aquatique]])
-| CLASS="gauche" | [[type Humanoïde|Humanoïde]] ([[sous-type géant|géant]])
-|- CLASS="alt"
-| [[type Créature magique|Créature magique]]
-| CLASS="gauche" | [[type Extérieur|Extérieur]] ([[sous-type Chaos|Chaos]])
-| CLASS="gauche" | [[type Humanoïde|Humanoïde]] ([[sous-type elfe|elfe]])
-| CLASS="gauche" | [[type Humanoïde|Humanoïde]] (orque)
+| [[type Animal|Animal]] || [[type Extérieur|Extérieur]] ([[sous-type Bien|Bien]]) || [[type Humanoïde monstrueux|Humanoïde monstrueux]] || [[type Humanoïde|Humanoïde]] ([[sous-type nain|nain]])
 |-
-| [[type Dragon|Dragon]]
-| CLASS="gauche" | [[type Extérieur|Extérieur]] ([[sous-type Feu|Feu]])
-| CLASS="gauche" | [[type Humanoïde|Humanoïde]] (gnoll)
-| CLASS="gauche" | [[type Humanoïde|Humanoïde]] ([[sous-type gobelinoïde|gobelinoïde]])
-|- CLASS="alt"
-| [[type Fée|Fée]]
-| CLASS="gauche" | [[type Extérieur|Extérieur]] ([[sous-type Loi|Loi]])
-| CLASS="gauche" | [[type Humanoïde|Humanoïde]] ([[sous-type gnome|gnome]])
-| CLASS="gauche" | [[type Humanoïde|Humanoïde]] ([[sous-type reptilien|reptilien]])
+| [[type Créature artificielle|Créature artificielle]] || [[type Extérieur|Extérieur]] ([[sous-type Eau|Eau]]) || [[type Humanoïde|Humanoïde]] ([[sous-type aquatique|aquatique]]) || [[type Humanoïde|Humanoïde]] ([[sous-type géant|géant]])
 |-
-| [[type Mort-vivant|Mort-vivant]]
-| CLASS="gauche" | [[type Extérieur|Extérieur]] ([[sous-type natif|natif]])
-| CLASS="gauche" | [[type Humanoïde|Humanoïde]] ([[sous-type halfelin|halfelin]])
-| CLASS="gauche" | &emsp;
-|- CLASS="alt"
-| [[type Plante|Plante]]
-| CLASS="gauche" | [[type Extérieur|Extérieur]] ([[sous-type Mal|Mal]])
-| CLASS="gauche" | &emsp;
-| CLASS="gauche" | &emsp;
+| [[type Créature magique|Créature magique]] || [[type Extérieur|Extérieur]] ([[sous-type Chaos|Chaos]]) || [[type Humanoïde|Humanoïde]] ([[sous-type elfe|elfe]]) || [[type Humanoïde|Humanoïde]] (orque)
 |-
-| [[type Vermine|Vermine]]
-| CLASS="gauche" | [[type Extérieur|Extérieur]] ([[sous-type Terre|Terre]])
-| CLASS="gauche" | &emsp;
-| CLASS="gauche" | &emsp;
+| [[type Dragon|Dragon]] || [[type Extérieur|Extérieur]] ([[sous-type Feu|Feu]]) || [[type Humanoïde|Humanoïde]] (gnoll) || [[type Humanoïde|Humanoïde]] ([[sous-type gobelinoïde|gobelinoïde]])
+|-
+| [[type Fée|Fée]] || [[type Extérieur|Extérieur]] ([[sous-type Loi|Loi]]) || [[type Humanoïde|Humanoïde]] ([[sous-type gnome|gnome]]) || [[type Humanoïde|Humanoïde]] ([[sous-type reptilien|reptilien]])
+|-
+| [[type Mort-vivant|Mort-vivant]] || [[type Extérieur|Extérieur]] ([[sous-type natif|natif]]) || [[type Humanoïde|Humanoïde]] ([[sous-type halfelin|halfelin]]) || &emsp;
+|-
+| [[type Plante|Plante]] || [[type Extérieur|Extérieur]] ([[sous-type Mal|Mal]]) || &emsp; || &emsp;
+|-
+| [[type Vermine|Vermine]] || [[type Extérieur|Extérieur]] ([[sous-type Terre|Terre]]) || &emsp; || &emsp;
 |}
-</center>
 
 {s:Reference|PISTAGE}
 ====Pistage (Ext)====
@@ -387,6 +333,8 @@ Si le rôdeur choisit le style de '''''combat à deux armes''''', il peut choisi
 
 {s:apg}Si le rôdeur choisit le style de combat '''''arme à deux mains''''', il peut choisir un des dons suivants chaque fois qu’il gagne un don de style de combat : [[Assaut repoussant]], [[Attaque en puissance]], [[Coups protecteurs]] ou [[Enchaînement]]. Au niveau 6, les dons [[Concentration malgré la fureur]] et [[Succession denchaînements|Succession d’enchaînements]] s'ajoutent à la liste. Au niveau 10, les dons [[Carnage effroyable]] et [[Science de la destruction]] viennent s'ajouter à la liste.
 
+{s:MCA}Si le rôdeur choisit le style de combat '''''arme de jet''''', il peut choisir les dons de la liste suivante à chaque fois qu’il gagne un don de style de combat : [[Arme en main]], [[Combat à deux armes]], [[Lanceur à distance]], [[Tir de précision]]. Au niveau 6, il ajoute [[Lanceur à courte distance]] et [[Fausse ouverture]] à la liste. Au niveau 10, il ajoute [[Viser juste]] et [[Tir en mouvement]] à la liste.
+
 {s:apg}Si le rôdeur choisit le style de combat '''''arme et bouclier''''', il peut choisir un des dons suivants chaque fois qu’il gagne un don de style de combat : [[Art du bouclier]], [[Frappe du bouclier]], [[Combat à deux armes]] ou [[Science du coup de bouclier]]. Au niveau 6, les dons [[Bouclier salvateur]] et [[Maîtrise du bouclier]] s'ajoutent à la liste. Au niveau 10, les dons [[Art du bouclier supérieur]] et [[Coup de bouclier opportuniste]] viennent s'ajouter à la liste.
 
 {s:apg}Si le rôdeur choisit le style de combat '''''arme naturelle''''', il peut choisir un des dons suivants chaque fois qu’il gagne un don de style de combat : [[Arme de prédilection]], [[Arme naturelle supérieure]], [[Aspect bestial]] ou [[Griffes coupantes]]. Au niveau 6, les dons [[Frappe décisive]] et [[Griffes magiques]] s'ajoutent à la liste. Au niveau 10, les dons [[Attaques multiples]] et [[Science de la frappe décisive]] viennent s'ajouter à la liste. 
@@ -401,33 +349,34 @@ Un rôdeur de niveau 3 reçoit gratuitement le don [[Endurance]] en tant que don
 
 {s:Reference|ENVIRONNEMENTDEPREDILECTION}
 ====Environnements de prédilection (Ext)====
-{s:Reference|TABLEENVIRONNEMENTDEPREDILECTION}<div style="float: right; margin-left: 10px; margin-right: -5px; max-width: 300px;" class="presentation recentre">
-{| CLASS="tablo"
-|+ Environnements de prédilection du rôdeur
-|-
+<div style="float:right; background-color: #fff; padding: 0 0 8px 10px">
+<div style="border: 1px solid #4b3124; padding: 4px; max-width: 260px;">
+{| CLASS="tablo centre autoalt"
+|+ {s:Reference|TABLEENVIRONNEMENTDEPREDILECTION}Environnements de prédilection du rôdeur
+|- CLASS="premier"
 | Aquatique (sur et sous la surface)
-|- CLASS="alt"
+|-
 | Désert (déserts de sable ou étendues désertiques)
 |-
 | Forêt (de conifères ou à feuilles caduques)
-|- CLASS="alt"
+|-
 | Froid (territoires enneigés ou gelés, glaciers et toundra)
 |-
 | Jungle
-|- CLASS="alt"
+|-
 | Marais
 |-
 | Montagnes (y compris les collines)
-|- CLASS="alt"
+|-
 | Plaines
 |-
 | Plans (choisir un plan autre que le plan Matériel)
-|- CLASS="alt"
+|-
 | Sous terre (grottes et complexes souterrains)
 |-
 | Urbain (bâtiments, rues et égouts)
 |}
-</div>Au niveau 3, un rôdeur choisit un type d’environnement sur la [[rôdeur#TABLEENVIRONNEMENTDEPREDILECTION|table des environnements de prédilection du rôdeur]]. Il bénéficie d’un bonus de +2 aux jets d’[[initiative]] et aux tests de [[Connaissances]] (géographie), [[Discrétion]], [[Perception]] et [[Survie]] lorsqu’il se trouve dans cet environnement. De plus, lorsqu’il voyage dans son environnement de prédilection, le rôdeur ne laisse aucune trace et ne peut être suivi (il peut cependant laisser des traces s’il le désire).
+</div></div>Au niveau 3, un rôdeur choisit un type d’environnement sur la [[rôdeur#TABLEENVIRONNEMENTDEPREDILECTION|table des environnements de prédilection du rôdeur]]. Il bénéficie d’un bonus de +2 aux jets d’[[initiative]] et aux tests de [[Connaissances]] (géographie), [[Discrétion]], [[Perception]] et [[Survie]] lorsqu’il se trouve dans cet environnement. De plus, lorsqu’il voyage dans son environnement de prédilection, le rôdeur ne laisse aucune trace et ne peut être suivi (il peut cependant laisser des traces s’il le désire).
 
 Au niveau 8 et tous les cinq niveaux par la suite, le rôdeur peut choisir un nouvel environnement de prédilection. En même temps, il peut augmenter de +2 le bonus dont il bénéficie dans l’un de ses environnements de prédilection (y compris celui qu’il vient de choisir, s’il le désire).
 

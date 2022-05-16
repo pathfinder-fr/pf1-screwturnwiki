@@ -1,0 +1,152 @@
+---
+Name: Starfinder.Définir les effets
+Title: Définir les effets
+LastModified: 2021-08-11 10:07
+---
+Qu’un effet soit créé par une aptitude de classe, un sort ou un équipement, il se compose généralement de plusieurs facteurs tels qu’une zone, une durée et une portée, que l’on définit en utilisant des termes de jeu particuliers. Il se compose également de descripteurs qui indiquent son type de puissance (et qui affectent parfois son fonctionnement). La section suivante décrit comment fonctionnent les zones, les descripteurs, les durées, les portées et les cibles des effets. Elle vous livre également la définition mécanique de la ligne d’effet et de la ligne de vue – deux facteurs essentiels pour déterminer si un personnage peut effectivement utiliser un sort ou un équipement.
+
+{toc}
+
+===La zone===
+ Certains effets couvrent une zone définie. La description d’un effet indique parfois une zone spécifiquement définie mais une zone appartient le plus souvent à l’une des catégories décrites ci-dessous. Quelle que soit la forme de la zone, vous choisissez le point d’où émane l’effet mais vous ne contrôlez pas, par ailleurs, les créatures ou les objets affectés. Le point d’origine d’un effet est toujours une intersection du quadrillage, c’est-à-dire le point où quatre cases se touchent sur le tapis de combat tactique. 
+
+Lorsqu’il faut déterminer si une créature donnée se trouve dans la zone d’un effet, comptez la distance en cases depuis le point d’origine, comme vous le faites quand vous déplacez un personnage ou quand vous déterminez la portée d’une attaque à distance. La seule différence, c’est qu’au lieu de compter à partir du centre d’une case vers le centre de la suivante, vous devez compter d’une intersection à l’autre. Vous pouvez compter en diagonale à travers une case mais gardez à l’esprit qu’une diagonale sur deux compte comme deux cases de distance. Si le bord le plus éloigné d’une case est à l’intérieur de la zone d’effet, tout ce qui se trouve dans cette case l’est également. Par contre, si la zone d’effet ne touche que le bord le plus proche de la case, les choses à l’intérieur de la case ne sont pas affectées par l’effet. 
+==== Émanation, étendue ou rayonnement ====
+ La plupart des effets produisant une zone fonctionnent sous forme de rayonnement, d’émanation ou d’étendue. Dans chaque cas, vous choisissez le point d’origine de l’effet et mesurez sa zone à partir de ce point. 
+===== Émanation =====
+ Un effet d’émanation fonctionne comme un rayonnement, sauf que l’effet continue d’irradier depuis son point d’origine pendant toute la durée de l’effet. La plupart des émanations sont des cônes ou des sphères. 
+===== Étendue =====
+ Un effet d’étendue se propage comme un rayonnement mais elle peut contourner les angles. Vous sélectionnez uniquement le point d’origine et l’effet s’étend dans toutes les directions sur une distance donnée. L’effet peut contourner les angles et se propager dans des zones que vous ne pouvez pas voir. Calculez la distance parcourue par l’effet en contournant les murs et les angles sans les traverser. Vous devez désigner le point d’origine d’un tel effet mais vous n’avez pas besoin d’avoir une ligne d’effet (voir page 271) sur la totalité de la zone de l’effet.  
+===== Rayonnement =====
+ Un effet de rayonnement s’applique à tout ce qui se trouve dans sa zone au moment où l’effet arrive en jeu, y compris les créatures que vous ne pouvez pas voir. Il n’affecte pas les créatures bénéficiant d’un abri total vis-à-vis du point d’origine du rayonnement et son effet ne contourne pas les angles. La forme par défaut d’un effet de rayonnement est une sphère mais certains effets de rayonnement sont précisément décrits comme ayant une forme de cône. Une zone de rayonnement indique sur quelle distance s’étend l’effet à partir de son point d’origine.  
+==== Cône, cylindre, ligne ou sphère ====
+ La plupart des effets de zone ont une forme particulière. Cône Un effet en forme de cône s’étend à partir de vous en un quart de cercle dans la direction que vous désignez. Il s’étend en s’élargissant depuis l’un des coins de votre case. La plupart des cônes sont soit des rayonnements, soit des émanations (voir plus haut), et ils ne contournent donc pas les angles. 
+===== Cylindre =====
+ En ce qui concerne les effets en forme de cylindre, vous sélectionnez le point d’origine de l’effet. Ce point est le centre d’un cercle horizontal situé à une hauteur indiquée dans la description de l’effet et celui-ci descend depuis le cercle en remplissant un cylindre. Un effet en forme de cylindre ignore tous les obstacles situés dans sa zone. 
+===== Ligne =====
+ Un effet en forme de ligne s’étend en ligne, en partant de vous, dans la direction que vous désignez. Elle commence sur l’un des coins de votre case et s’étend jusqu’au maximum de sa portée ou jusqu’à ce qu’elle rencontre un obstacle qui bloque les lignes d’effet (voir page 271). Un effet en forme de ligne s’applique à toutes les créatures situées dans les cases qu’il traverse. 
+===== Sphère =====
+ Un effet en forme de sphère s’étend depuis son point d’origine pour remplir une zone sphérique. Les sphères peuvent être des rayonnements, des émanations ou des étendues. 
+===== Modulable (M) =====
+ Si la ligne consacrée à la zone ou l’effet se termine par un « (M) », vous pouvez moduler l’effet. Les dimensions d’un effet ou d’une zone modulable ne peuvent pas être inférieures à 3 mètres. Les « zones » de nombreux effets sont indiquées en cubes pour faciliter le modelage de formes irrégulières ou en trois dimensions. Les volumes en trois dimensions sont souvent nécessaires pour moduler des zones et des effets dans l’espace. 
+===== Autre =====
+ Un effet peut avoir une zone différente indiquée dans sa description. 
+==== Les zones avec des cibles ====
+ Certains effets produisent des zones spécifiques prenant pour cibles des créatures ou des objets situés à l’intérieur. À la différence des effets ciblés (voir La cible à la page 272), vous n’avez pas à sélectionner les créatures affectées ; l’effet affecte toutes les créatures ou tous les objets d’un type particulier dans la zone spécifiée. 
+
+Si un effet restreint le type de cibles affectées (par exemple, s’il n’affecte que les créatures vivantes), alors les créatures situées dans la zone de l’effet qui ne sont pas du type adéquat ne sont pas comptabilisées dans le nombre de créatures affectées. 
+==== Soumis aux effets ====
+ Si un effet cible directement des créatures ou des objets, il se déplace avec les sujets pendant toute la durée de l’effet. Si un effet cible une zone, il reste à l’intérieur de cette zone pendant toute sa durée ; les créatures sont sujettes à l’effet quand elles entrent dans la zone mais elles ne le sont plus dès qu’elles en sortent. 
+=== Descripteurs ===
+ Un descripteur est un terme qui permet de mieux définir un objet, un sort ou un autre effet. Certains effets ont plus d’un descripteur, chacun d’eux précisant les modes de fonctionnement et d’interaction de l’effet avec son environnement, et d’autres n’en ont aucun. Même les équipements ont parfois des descripteurs. 
+
+Les descripteurs sont les suivants : acide, air, appel, basé sur le langage, basé sur les sens, bien, chaos, charme, coercition, convocation, création, eau, électricité, émotion, feu, force, froid, guérison, loi, lumière, mal, maladie, malédiction, mental, mort, ombre, poison, radiation, scrutation, son, souffrance, téléportation, ténèbres, terre et terreur. 
+
+La plupart de ces descripteurs ne sont liés à aucune règle qui leur est propre ; ils décrivent plutôt comment les sorts ou les effets interagissent avec certains autres sorts ou effets. Certains descripteurs livrent davantage d’informations sur la façon dont fonctionne l’effet auquel ils sont rattachés, comme décrit ci-dessous. 
+==== Appel ====
+ Un effet d’appel transporte une créature d’un autre plan vers celui où vous vous trouvez. L’effet confère à la créature le pouvoir à usage unique lui permettant de retourner sur son plan d’origine, bien que l’effet puisse limiter les circonstances d’utilisation de ce pouvoir. Les créatures appelées meurent si elles sont tuées sur le nouveau plan. Une créature appelée ne peut pas être dissipée, même si elle a été appelée par des moyens magiques. 
+==== Basé sur le langage ====
+ Un effet basé sur le langage utilise une langue intelligible (auditive, visuelle ou télépathique) comme moyen de communication. Si vous ne pouvez pas communiquer avec la cible ou que celle-ci ne peut pas comprendre ce que vous communiquez, l’effet ne parvient pas à l’affecter. 
+==== Basé sur les sens ====
+ Un effet basé sur les sens comporte des éléments auditifs ou visuels qui nécessitent de pouvoir voir ou entendre pour produire un quelconque effet. Pour que ce genre d’effet affecte sa cible, vous devez être capable de voir ou d’entendre la cible et réciproquement. 
+==== Charme ====
+ Un effet de charme change la façon dont le sujet vous considère. Il vous donne la possibilité de vous lier d’amitié avec une créature et de lui suggérer ses actions, mais sa servitude n’est pas absolue et irréfléchie. Un personnage charmé conserve son libre arbitre mais fait ses choix en fonction de son point de vue biaisé. 
+
+Une créature charmée conserve son alignement et ses allégeances d’origine, en sachant qu’il considère à présent la personne qui l’a charmé comme un ami cher dont les suggestions et directives sont très importantes. Une créature charmée ne livre pas volontairement des informations ou n’applique pas de tactiques si son maître ne le lui a pas demandé. Une créature charmée n’obéit jamais à un ordre visiblement suicidaire ou susceptible de la blesser grièvement. Une créature charmée combat les amis qu’elle avait avant d’être charmée seulement s’ils menacent son nouvel ami. Même ainsi, elle utilise le moins létal des moyens à sa disposition car elle souhaite résoudre le conflit sans blesser personne. 
+
+Une créature charmée peut effectuer un test de Charisme opposé à celui de son maître afin de résister aux instructions ou aux ordres qui l’incitent à faire quelque chose qu’il ne ferait pas normalement, même pour un ami proche. Si elle réussit ce test, elle refuse d’obéir à cet ordre mais reste charmée. Si le maître de la créature lui ordonne d’accomplir une action à laquelle elle s’opposerait avec véhémence, elle peut effectuer un nouveau jet de sauvegarde pour se libérer une bonne fois pour toutes de l’influence de son maître. 
+
+Si une créature charmée est franchement attaquée par le personnage qui l’a charmée ou par ses alliés présumés, elle est automatiquement débarrassée du sort ou de l’effet. 
+==== Coercition ====
+ Un effet de coercition outrepasse d’une manière ou d’une autre le libre arbitre du sujet et l’oblige à adopter un comportement particulier ou à changer la façon dont fonctionne son esprit. 
+==== Convocation ====
+ Un effet de convocation amène instantanément une créature ou un objet à un endroit que vous désignez. Quand l’effet prend fin ou est dissipé, la créature convoquée est instantanément renvoyée vers son lieu d’origine (généralement un autre plan, mais pas toujours). Toutefois, un objet convoqué n’est pas renvoyé, à moins que la description de l’effet ne précise le contraire. Une créature convoquée s’en va également si elle est tuée ou si ses points de vie tombent à 0 mais elle n’est pas réellement morte. La créature se reforme dans son lieu d’origine en l’espace de 24 heures et ne peut pas être reconvoquée durant cette période. 
+
+Quand un effet de convocation prend fin et que la créature disparaît, tous les sorts qu’elle a lancés prennent fin. Une créature convoquée ne peut utiliser aucun de ses éventuels pouvoirs de convocation. 
+==== Création ====
+ Un effet de création manipule la matière pour créer un objet ou une créature à l’endroit désigné par le créateur. Si la durée de l’effet n’est pas instantanée, la magie ou l’énergie à l’oeuvre maintient la cohésion de la création mais, quand la durée prend fin, la créature ou l’objet créé disparaît sans laisser de traces. Si la durée de l’effet est instantanée, la créature ou l’objet créé ne doit pas son existence à une quelconque énergie extérieure et continue donc d’exister indéfiniment. 
+==== Mental ====
+ Un effet mental fonctionne uniquement contre les créatures dont la valeur d’Intelligence est de 1 ou plus. 
+==== Ombre ====
+ Un effet d’ombre crée une chose partiellement réelle en amalgamant de l’énergie extradimensionnelle. Les dégâts infligés par un effet d’ombre sont réels. 
+==== Scrutation ====
+ Un effet de scrutation crée un capteur magique invisible qui vous transmet des informations pendant toute la durée de l’effet. Sauf indication contraire, le capteur a les mêmes capacités sensorielles que celles que vous avez naturellement mais aucune de celles que vous obtenez grâce à d’autres sorts ou technologies. Le capteur est une source de captation sensorielle indépendante et distincte liée à vous, qui continue donc de fonctionner normalement, même si vous êtes aveuglé, assourdi ou victime d’une quelconque dégradation sensorielle. 
+
+Une créature peut repérer un capteur de scrutation en réussissant un test de Perception (DD = 20 + le niveau de l’effet ou du sort). Le capteur peut être dissipé comme s’il était un sort actif. Une couche de plomb, un champ de force ou d’autres matériaux exotiques ou autres protections magiques bloquent les effets de scrutation. Le cas échant, vous pouvez sentir le blocage de l’effet. 
+==== Souffrance ====
+ Un effet de souffrance provoque des sensations désagréables mais aucun dégât permanent. Les créatures immunisées contre les effets nécessitant un jet de sauvegarde de Vigueur sont également immunisées contre les effets de souffrance. 
+==== Téléportation ====
+ Un effet de téléportation permet de voyager instantanément en passant par le plan astral (voir page 470). Tout ce qui bloque le voyage astral bloque également la téléportation, à moins que la description de l’effet ne précise le contraire. 
+=== La durée ===
+ La durée d’un effet vous indique combien de temps l’effet perdure. Si un sort, un pouvoir ou un objet a une durée particulière et crée un ou plusieurs effet(s), ceux-ci durent pendant toute la durée indiquée à moins que la description d’un effet en particulier n’indique le contraire. 
+
+Un effet est parfois réprimé sans être annulé ou dissipé pour autant. Le cas échéant, la durée de l’effet reste la même. L’effet prend fin au même moment que celui où il aurait dû s’arrêter s’il n’avait pas été réprimé. 
+==== La durée en unités de temps ====
+ Les durées sont généralement exprimées en rounds, minutes, heures, jours ou autres unités de temps. Quand la durée d’un effet est écoulée, l’énergie ou la force qui alimente l’effet se dissipe et l’effet prend fin. Si la durée d’un effet est variable, elle est déterminée au hasard en secret par le MJ pour que vous ne sachiez pas combien de temps l’effet va durer. 
+
+Chaque fois que la durée d’un effet est exprimée en unités de temps standards, en heures, jours ou même années, on utilise les unités du Temps Universel du Pacte qui sont les suivantes : un jour se compose de 24 heures, 1 heure de 60 minutes et 1 année de 365 jours (ou 52 semaines). Voir Le temps à la page 430 pour plus d’informations sur le temps et les concepts similaires dans Starfinder. 
+===== Instantanée =====
+ L’effet apparaît et disparaît à l’instant où il est créé, mais ses conséquences peuvent durer plus longtemps. 
+===== Permanente =====
+ L’effet perdure tant qu’il n’est pas défait par l’application d’une méthode appropriée, telle qu’une dissipation de la magie des sorts permanents. 
+===== Concentration =====
+ Quand la durée d’un effet dépend de la concentration, l’effet dure tant que vous restez concentré dessus. Se concentrer pour maintenir un effet est une action simple. Tous les éléments susceptibles de vous déconcentrer pendant que vous accomplissez des activités nécessitant de la concentration (c’est le cas pour l’incantation d’un sort, par exemple) peuvent également vous déconcentrer lorsque vous maintenez un effet, ce qui met alors fin à celui-ci. Voir Concentration et sorts interrompus à la page 331 pour plus d’informations. Vous ne pouvez pas utiliser un effet nécessitant de la concentration ni lancer un sort si vous vous concentrez déjà sur un autre effet. Certains effets durent quelques instants après que vous avez cessé de vous concentrer – généralement 1 round par niveau, mais certains effets particuliers peuvent être différents, comme indiqué dans leur description. 
+===== Décharge =====
+ Certains effets ont une durée fixe, d’autres durent jusqu’au moment où ils sont déclenchés ou déchargés. 
+===== Effets de contact et rétention de charge =====
+ Certains effets (surtout les sorts) ont une portée de contact (voir La portée, plus bas) et nécessitent une action pour les activer. Dans la plupart des cas, si vous ne déchargez pas un effet de contact lors du round où vous l’avez créé, vous pouvez retarder indéfiniment la décharge de l’effet (on dit aussi qu’on retient la charge). Vous pouvez effectuer des attaques de contact round après round jusqu’à ce que l’effet soit déchargé. Si vous effectuez un autre type d’attaque, activez un autre pouvoir ou lancez un sort pendant cette période, l’effet de contact se dissipe. 
+
+Certains sorts de contact vous permettent de toucher plusieurs cibles lors de leur incantation. Vous ne pouvez pas retenir la charge de ces sorts ; vous devez toucher toutes les cibles du sort lors du même round où vous terminez son incantation. 
+===== Révocable (R) =====
+ Si un « (R) » est indiqué après la durée d’un sort ou d’un effet, vous pouvez révoquer l’effet dès que vous le souhaitez par une action simple. Vous devez vous trouver à portée de l’effet et être capable de remplir les mêmes conditions que celles nécessaires pour créer l’effet – vous devez pouvoir vous concentrer pour lancer un sort ou avoir accès à l’équipement qui a créé l’effet, par exemple –, mais vous n’avez pas besoin, en réalité, d’effectuer l’action appropriée. Un effet nécessitant de la concentration est révocable par nature et le révoquer ne nécessite aucune action car il vous suffit d’arrêter de vous concentrer lors de votre tour pour que l’effet prenne fin. 
+=== La ligne d'effet ===
+ Si une arme, un sort, un pouvoir ou un objet nécessite un jet d’attaque et que sa portée est exprimée en mètres, il faut normalement que vous (ou la créature ou la chose qui utilise le pouvoir) ayez une ligne d’effet sur la cible pour qu’il soit efficace (ceci est soumis à l’appréciation du MJ). Une ligne d’effet est une ligne droite et dégagée qui indique ce que l’attaque ou le pouvoir peut affecter. Une ligne d’effet est bloquée par un obstacle solide qui peut stopper l’effet en question (tel qu’un mur pour la plupart des effets), mais elle n’est pas bloquée par des restrictions purement visuelles (telles que de la fumée ou l’obscurité). Sauf indication contraire, vous ne pouvez pas avoir une ligne d’effet qui dépasse la portée planétaire. 
+
+Vous devez disposer d’une ligne d’effet dégagée vers la créature ou l’objet que vous souhaitez prendre pour cible, ou vers l’emplacement dans lequel vous souhaitez créer un effet dénué de zone. Pour les effets de zone, vous devez disposer d’une ligne d’effet dégagé vers le point d’origine de l’effet. Un effet en rayonnement, en cône, en cylindre ou en émanation affecte une zone, une créature ou un objet uniquement s’il y a une ligne d’effet entre lui ou elle et le point d’origine de l’effet (le point au centre d’un rayonnement sphérique, le point de départ d’un rayonnement en forme de cône, le point au centre d’un cercle cylindrique ou le point d’origine d’une émanation). Voir La zone à la page 268 pour les définitions de ces termes spécifiques. 
+
+Si vous disposez d’une ligne d’effet vers une partie mais pas la totalité des emplacements occupés par une cible, celle-ci bénéficie d’un abri (voir les pages 253-254 pour plus d’informations sur les abris). De plus, un obstacle par ailleurs solide mais percé d’un trou d’au moins 30 centimètres de côté peut conférer un abri et non un abri total contre un effet, à l’appréciation du MJ. 
+=== La ligne de vue ===
+ La ligne de vue est une ligne droite et dégagée qui indique ce que vous pouvez voir. La ligne de vue est comme la ligne d’effet, sauf que les éléments qui limitent la vision, tels que le brouillard, l’obscurité et le camouflage total, peuvent la bloquer. Si vous ne pouvez pas voir une cible pour une raison ou une autre, vous ne disposez pas d’une ligne de vue sur elle et vous ne pouvez donc pas utiliser des effets nécessitant une ligne de vue. Sauf indication contraire, vous ne pouvez pas disposer d’une ligne de vue qui dépasse la portée planétaire. 
+=== La portée ===
+ La portée d’un effet indique à quelle distance vous pouvez le créer. Il s’agit de la distance maximale entre vous et l’endroit où l’effet est créé, ainsi que la distance maximale où vous pouvez désigner le point d’origine de l’effet. Les parties de la zone d’effet qui s’étendent au-delà de cette portée sont sans effet. Si la portée se calcule en fonction du niveau, il s’agit du niveau de lanceur de sorts dans le cas des sorts, du niveau de classe dans le cas des aptitudes de classe et du niveau d’objet dans le cas des armes et de l’équipement. Les portées standards sont les suivantes. 
+==== Personnelle ====
+ Un effet dont la portée est personnelle se limite à votre personne et n’affecte que vous. 
+==== Contact ====
+ Si la portée d’un effet est au contact, vous devez toucher une créature ou un objet pour l’affecter en réussissant contre elle ou lui un jet d’attaque au corps à corps (contre la CAE, à moins que la description de l’effet n’indique autre chose) si vous désirez toucher une créature contre sa volonté. Un effet de contact qui inflige des dégâts peut aussi infliger un coup critique, à l’identique des armes. Certains effets de contact vous permettent de toucher plusieurs cibles. Vous pouvez toucher jusqu’à six cibles volontaires ou inconscientes lors de l’activation d’un tel effet mais vous devez toucher toutes les cibles de l’effet lors du même round où vous achevez son activation. Si l’effet vous permet de toucher des cibles lors de plusieurs rounds, vous pouvez toucher jusqu’à six créatures par une action complexe. 
+==== Courte ====
+ Un effet dont la portée est courte peut atteindre une distance de 7,50 mètres + 1,50 mètre tous les 2 niveaux que vous possédez. 
+==== Moyenne ====
+ Un effet dont la portée est moyenne peut atteindre une distance de 30 mètres + 3 mètres par niveau que vous possédez. 
+==== Longue ====
+ Un effet dont la portée est longue peut atteindre une distance de 120 mètres + 12 mètres par niveau que vous possédez. 
+==== Planétaire ====
+ Un effet dont la portée est planétaire peut atteindre n’importe quel endroit sur la même planète mais aussi des cibles en orbite autour de cette planète, si elles sont sur des lunes ou des satellites artificiels, par exemple. 
+==== Système ====
+ Un effet avec cette portée peut atteindre n’importe quel endroit dans le même système solaire. 
+==== Plan ====
+ Un effet avec cette portée peut atteindre n’importe quel endroit dans le même plan d’existence. 
+==== Illimitée ====
+ Certains effets, surtout les sorts de haut niveau, peuvent atteindre n’importe quel endroit, même sur d’autres plans. Les effets dont la portée est illimitée sont souvent très puissants et il est difficile, voire impossible, d’y accéder, avant d’atteindre un niveau élevé. 
+==== Portée exprimée en mètres ====
+ Certains effets n’ont pas une catégorie de portée standard mais juste une portée exprimée en mètres. Le cas échéant, l’effet indique avec précision la longueur de cette portée. 
+==== Facteur de portée ====
+ Certains effets, les armes en particulier, ont un facteur de portée. L’arme peut générer un effet à une distance équivalente à plusieurs fois ce facteur de portée, mais vous subissez des malus si la distance entre vous et la cible est supérieure au facteur de portée simple (voir Portée et malus). 
+=== La cible ===
+ Certains effets affectent une ou plusieurs cible(s). Vous utilisez ces effets sur des créatures ou des objets, comme indiqué dans leur description. Vous devez avoir une ligne de vue (voir page 271) sur la ou les cible(s) d’un effet que vous souhaitez utiliser et vous devez la ou les désigner avec précision. Si l’effet met un certain temps à s’activer (dans le cas du temps d’incantation d’un sort, par exemple), vous n’avez pas à désigner la ou les cible(s) avant d’avoir terminé l’activation de l’effet. 
+
+Par exemple, si vous décidez de lancer un sort qui affecte plusieurs créatures, vous n’avez pas besoin de choisir avec précision quelles créatures seront affectées avant la fin de l’incantation, au moment où le sort prend effet. Vous pouvez ainsi éviter de lancer des sorts ou d’imposer des effets sur des créatures hors combat ou frappées d’incapacité entre le moment où vous décidez de lancer un sort et celui où vous terminez son incantation et qu’il est sur le point de prendre effet. 
+
+Certains effets imposent des restrictions quant aux cibles que l’on peut sélectionner. Si un effet cible des créatures vivantes, il affecte toutes les créatures à l’exception des créatures artificielles et des morts-vivants – autrement dit, les créatures biologiques ou biotechnologiques vivantes. (Les êtres créés artificiellement qui ne sont ni des morts-vivants ni des créatures artificielles sont considérés comme des créatures vivantes dans le cadre de cette règle.) Si un effet cible des créatures inconscientes ou volontaires, il affecte uniquement les créatures qui acceptent de l’être. Une créature peut déclarer à n’importe quel moment (même si elle est prise au dépourvu ou si ce n’est pas son tour) sa volonté d’être prise pour cible. Cette déclaration ne nécessite aucune action de sa part ; il suffit qu’un joueur indique à un autre joueur que son personnage est une cible volontaire, par exemple. D’autres effets vous permettent de cibler d’autres catégories de créatures ou d’objets ; c’est le cas des effets qui prennent spécifiquement pour cible une créature artificielle, un cadavre ou un objet. 
+
+Certains effets vous permettent de rediriger l’effet vers de nouvelles cibles ou zones après l’avoir activé. Rediriger un effet est une action de mouvement qui ne provoque pas d’attaques d’opportunité. Les effets nécessitant des jets d’attaque 
+
+Certains effets ciblés nécessitent un jet d’attaque pour toucher leur cible. Ces effets peuvent infliger des coups critiques, comme dans le cas des armes, qui infligent des dégâts doublés, le cas échéant. 
+=== Les effets des sorts et des pouvoirs sur les véhicules de grande taille ===
+ La plupart des véhicules interagissent normalement avec les pouvoirs et les sorts ; les effets d’une explosion sur un buggy d’exploration peuvent être déterminés en appliquant les règles normales, par exemple. 
+
+Toutefois, si vous êtes à bord d’un véhicule particulièrement grand, tel qu’un avion ou un vaisseau spatial de bonne taille, le véhicule devient, dans les faits, un type de terrain et interagit différemment avec les effets des pouvoirs et des sorts. Le MJ est l’arbitre final quant aux types de véhicules considérés comme des terrains mais, parmi les exemples possibles, on trouve les dirigeables, les usines mobiles sur chenilles, les paquebots, les stations spatiales, les vaisseaux spatiaux, les trains et tous les véhicules plus grands qu’une créature typique dont la taille est égale ou supérieure à Colossale. 
+
+Consultez les indications suivantes quand vous utilisez des pouvoirs ou lancez des sorts sur des véhicules considérés comme des terrains. Dans le cadre des pouvoirs et des sorts, les véhicules exceptionnellement grands ne sont pas considérés comme des objets ; au lieu de cela, ce sont les divers éléments qui les composent (cloisons, consoles, murs, etc.) qui sont considérés comme des objets. En général, les pouvoirs et les sorts dont l’effet est stationnaire ou immobile (comme un mur de force, une zone de vérité ou l’entrée du palais mémoriel d’un mystique akashique), ou les sorts ancrés à un véhicule (tel qu’un mur d’acier) se déplacent avec le véhicule en question et ne sont pas fixés à l’endroit physique où ils ont été utilisés ou lancés. De cette façon, les effets créés par un personnage à bord d’un véhicule de la taille d’un terrain et qui prennent pour cible une zone sur ce véhicule se déplacent avec lui au lieu de se manifester à un endroit statique que le véhicule dépassera très vite. 
+
+Au-delà de ces indications, c’est le MJ qui décide des effets exacts d’un pouvoir ou d’un sort provenant d’un personnage à bord d’un véhicule exceptionnellement grand.
+

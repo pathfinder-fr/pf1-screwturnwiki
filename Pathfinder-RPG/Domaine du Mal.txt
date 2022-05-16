@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Domaine du Mal
 Title: Domaine du Mal
-LastModified: 2020-02-20 18:29
+LastModified: 2021-03-28 01:48
 Categories:
   - 'Classe'
   - 'Domaine'
@@ -25,12 +25,12 @@ Au lieu du domaine, un personnage peut choisir d'adopter un des [[sous-domaines]
 </div>
 </td><td>
 <div class="presentation arrondi">{s:Reference|SOUSDOMAINEDIABLE}
-=== Sous-domaine des Diables===
+===Sous-domaine des Diables===
 '''Corruptions des enfers (Sur).''' ''(remplace toucher maléfique)'' En réussissant une [[attaque de contact]] au corps à corps, le [[prêtre]] peut rendre un individu plus sensible à la corruption. Les créatures touchées subissent un malus de -2 à tous leurs [[jet de sauvegarde|jets de sauvegarde]] et doivent refaire les tests d’opposition de [[compétences|compétence]] deux fois en prenant le résultat le plus mauvais. Cet effet dure un nombre de [[round|rounds]] égal à la moitié de son niveau de [[prêtre]] (minimum 1). Il peut utiliser cette capacité un nombre de fois par jour égal à 3 + son modificateur de [[Sagesse]].
 </div>
 </td><td>
 <div class="presentation arrondi">{s:Reference|SOUSDOMAINEDAEMON}
-=== Sous-domaine des Daémons===
+===Sous-domaine des Daémons===
 '''Murmure maléfique (Sur).''' ''(remplace faux maléfique)'' Au niveau 8 par une [[action simple]], le personnage peut murmurer une litanie hypnotique de vaines promesses. Tous les adversaires du [[prêtre]] situés dans un rayon de 9 m capables de l’entendre doivent réussir un [[jet de sauvegarde|jet de Volonté]] ou être [[fasciné|fascinés]], et ce tant qu’il continuera de murmurer. Il peut utiliser ce pouvoir un nombre de [[round|rounds]] par jour égal à son niveau dans la classe de [[prêtre]]. Ces rounds ne doivent pas forcément être consécutifs. Il s’agit d’un [[effet mental]].
 </div>
 </td></tr></table>
@@ -38,29 +38,29 @@ Au lieu du domaine, un personnage peut choisir d'adopter un des [[sous-domaines]
 <table class="page espace-col troiscol"><tr style="vertical-align: top"><td>
 <div class="presentation arrondi">{s:Reference|SOUSDOMAINEPEUR}
 ===Sous-domaine de la Peur===
-'''Se nourrir de la peur (Sur).''' ''(remplace faux maléfique)'' Au niveau 8 par une [[action immédiate]], lorsqu'il touche une créature qui est déjà sous un effet de [[peur]] avec une attaque au corps à corps, le [[prêtre]] inflige 2d6 dégâts supplémentaires et regagne autant de [[points de vie temporaires]]. Ces points de vie temporaires ont une durée de 24 heures. Le personnage peut utiliser ce pouvoir une fois par jour au niveau 8, et une fois supplémentaires à tous les quatre niveaux après celui-ci.
+{s:cs}<div class="description">'''Source :''' Book of the Damned (BD).</div>'''Se nourrir de la peur (Sur).''' ''(remplace faux maléfique)'' Au niveau 8 par une [[action immédiate]], lorsqu'il touche une créature qui est déjà sous un effet de [[peur]] avec une attaque au corps à corps, le [[prêtre]] inflige 2d6 dégâts supplémentaires et regagne autant de [[points de vie temporaires]]. Ces points de vie temporaires ont une durée de 24 heures. Le personnage peut utiliser ce pouvoir une fois par jour au niveau 8, et une fois supplémentaires à tous les quatre niveaux après celui-ci.
 </div>
 </td><td>
 <div class="presentation arrondi">{s:Reference|SOUSDOMAINECORRUPTION}
-=== Sous-domaine de la Corruption===
-'''Eveiller la malveillance (Sur).''' ''(remplace faux maléfique)'' Au niveau 8 par une attaque de contact à distance, le [[prêtre]] peut éveiller les désirs coupables d'une créature dans un rayon de 9 mètres (6 {s:c}). La créature est alors dévorée par la culpabilité et est [[fiévreux|fiévreuse]] pour un nombre de tours égal à la moitié du niveau du [[prêtre]]. Pour mettre fin à l'effet, la créature peut commettre volontairement un acte mauvais (si elle est d'[[alignement]] Bon) ou tenter un jet de Volonté (DD 10+ 1/2 niveau de [[prêtre]] + modificateur de [[Sagesse]]) à chaque round. Une créature réussissant ce jet de volonté est immunisé contre ce pouvoir pendant 24 heures. Le personnage peut utiliser ce pouvoir une fois par jour au niveau 8, et une fois supplémentaires à tous les quatre niveaux après celui-ci.
+===Sous-domaine de la Corruption===
+{s:cs}<div class="description">'''Source :''' Champions of Corruption (CoC).</div>'''Eveiller la malveillance (Sur).''' ''(remplace faux maléfique)'' Au niveau 8 par une attaque de contact à distance, le [[prêtre]] peut éveiller les désirs coupables d'une créature dans un rayon de 9 mètres (6 {s:c}). La créature est alors dévorée par la culpabilité et est [[fiévreux|fiévreuse]] pour un nombre de tours égal à la moitié du niveau du [[prêtre]]. Pour mettre fin à l'effet, la créature peut commettre volontairement un acte mauvais (si elle est d'[[alignement]] Bon) ou tenter un jet de Volonté (DD 10+ 1/2 niveau de [[prêtre]] + modificateur de [[Sagesse]]) à chaque round. Une créature réussissant ce jet de volonté est immunisé contre ce pouvoir pendant 24 heures. Le personnage peut utiliser ce pouvoir une fois par jour au niveau 8, et une fois supplémentaires à tous les quatre niveaux après celui-ci.
 </div>
 </td><td>
 <div class="presentation arrondi">{s:Reference|SOUSDOMAINECANNIBALISME}
-=== Sous-domaine du Cannibalisme===
-'''Dévorer l'ennemi (Sur).''' ''(remplace faux maléfique)'' Par une [[action complexe]] considérée comme mauvaise et provoquant des [[attaque dopportunité|attaques d'opportunité]], le personnage peut mordre une créature [[sans défense]] ou morte au tour précédent, infligeant 1d3 points de dégâts. En dévorant la chair de la créature, il bénéficie d'un bonus profane de +1 au [[DD]] de tous les sorts, pouvoirs magiques et surnaturels qu'il utilise sur des créatures du même type que la créature consommée. Cet effet dure un nombre de minutes égal à la moitié du niveau du [[prêtre]], ou jusqu'à ce que la capacité soit réutilisée. Au niveau 5, et à tous les 5 niveaux après celui-ci, le bonus augmente de 1. Le personnage peut utiliser cette capacité un nombre de fois par jour égal à 3 + son modificateur de [[Sagesse]].
+===Sous-domaine du Cannibalisme===
+{s:cs}<div class="description">'''Source :''' Champions of Corruption (CoC).</div>'''Dévorer l'ennemi (Sur).''' ''(remplace faux maléfique)'' Par une [[action complexe]] considérée comme mauvaise et provoquant des [[attaque dopportunité|attaques d'opportunité]], le personnage peut mordre une créature [[sans défense]] ou morte au tour précédent, infligeant 1d3 points de dégâts. En dévorant la chair de la créature, il bénéficie d'un bonus profane de +1 au [[DD]] de tous les sorts, pouvoirs magiques et surnaturels qu'il utilise sur des créatures du même type que la créature consommée. Cet effet dure un nombre de minutes égal à la moitié du niveau du [[prêtre]], ou jusqu'à ce que la capacité soit réutilisée. Au niveau 5, et à tous les 5 niveaux après celui-ci, le bonus augmente de 1. Le personnage peut utiliser cette capacité un nombre de fois par jour égal à 3 + son modificateur de [[Sagesse]].
 </div>
 </td></tr></table>
 
 <table class="page espace-col deuxcol"><tr style="vertical-align: top"><td>
 <div class="presentation arrondi">{s:Reference|SOUSDOMAINEDEMODANDE}
 ===Sous-domaine des Démodandes===
-'''Attaque voleuse de foi (Sur).''' ''(remplace toucher maléfique)'' Le prêtre peut infliger une unique attaque au corps à corps en utilisant son [[BBA|bonus de base à l'attaque]] le plus élevé à une créature capable de lancer des sorts divins. Si elle reçoit des dommages, elle doit faire un jet de [[Volonté]] (DD 10+ 1/2 niveau de [[prêtre]] + modificateur de [[Sagesse]]) ou être incapable de lancer des sorts divins pour un tour. Le personnage peut utiliser cette capacité un nombre de fois par jour égal à 3 + son modificateur de [[Sagesse]].
+{s:cs}<div class="description">'''Source :''' Champions of Corruption (CoC).</div>'''Attaque voleuse de foi (Sur).''' ''(remplace toucher maléfique)'' Le prêtre peut infliger une unique attaque au corps à corps en utilisant son [[BBA|bonus de base à l'attaque]] le plus élevé à une créature capable de lancer des sorts divins. Si elle reçoit des dommages, elle doit faire un jet de [[Volonté]] (DD 10+ 1/2 niveau de [[prêtre]] + modificateur de [[Sagesse]]) ou être incapable de lancer des sorts divins pour un tour. Le personnage peut utiliser cette capacité un nombre de fois par jour égal à 3 + son modificateur de [[Sagesse]].
 </div>
 </td><td>
 <div class="presentation arrondi">{s:Reference|SOUSDOMAINEKYTON}
-=== Sous-domaine des Kytons===
-'''La douleur, c'est la force (Sur).''' ''(remplace faux maléfique)'' Au niveau 8, lorsque le prêtre subit des dommages, il peut tenter un test de [[Concentration]] (DD 25) par une [[action immédiate]]. S'il réussit, il bénéficie des effets d'une [[bénédiction de ferveur]] pour un nombre de rounds égal à la moitié de son niveau de prêtre. S'il échoue, l'utilisation du pouvoir est consommée quand même. Il peut utiliser ce pouvoir une fois par jour au niveau 8, et une fois supplémentaires à tous les quatre niveaux après celui-ci.
+===Sous-domaine des Kytons===
+{s:cs}<div class="description">'''Source :''' Champions of Corruption (CoC).</div>'''La douleur, c'est la force (Sur).''' ''(remplace faux maléfique)'' Au niveau 8, lorsque le prêtre subit des dommages, il peut tenter un test de [[Concentration]] (DD 25) par une [[action immédiate]]. S'il réussit, il bénéficie des effets d'une [[bénédiction de ferveur]] pour un nombre de rounds égal à la moitié de son niveau de prêtre. S'il échoue, l'utilisation du pouvoir est consommée quand même. Il peut utiliser ce pouvoir une fois par jour au niveau 8, et une fois supplémentaires à tous les quatre niveaux après celui-ci.
 </div>
 </td></tr></table>
 

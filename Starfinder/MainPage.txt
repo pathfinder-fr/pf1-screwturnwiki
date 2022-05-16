@@ -1,7 +1,7 @@
 ---
 Name: Starfinder.MainPage
 Title: wiki du Jeu de rôle Starfinder
-LastModified: 2020-08-04 14:47
+LastModified: 2021-09-05 23:14
 ---
 <p class="description">Décollez pour une galaxie d’aventures avec le jeu de rôles Starfinder ! Enfilez votre armure assistée et saisissez votre fusil laser magiquement amélioré pour enquêter sur les mystères d’un univers étrange avec les courageux
 membres d’équipage de votre vaisseau spatial.</p>
@@ -19,7 +19,7 @@ membres d’équipage de votre vaisseau spatial.</p>
   <li>[[Pour commencer#QUELQUESCONCEPTSDEBASE|Quelques concepts de base]]</li>
   <li>[[Pour commencer#QPRESENTATIONDUJEU|Présentation du jeu]]</li></ul>
 </li>
-<li>Créer un personnage</li>
+<li>[[Créer un personnage]]</li>
 <li>[[Santé et persévérance]]</li>
 <li>[[Progression des personnages]]</li>
 </ul>
@@ -27,8 +27,28 @@ membres d’équipage de votre vaisseau spatial.</p>
 <ul>
 <li>[[Les caractéristiques]]</li>
 <li>[[Thèmes|Les thèmes]]</li>
-<li>[[Races|Les races]]</li>
-<li>[[Les classes]]</li>
+<li>{s:PM|RACES}[[Races|Les races]]
+  <ul ID="RACES" CLASS="listecachée cadrebas">
+  <li>[[Androïdes|Androïdes]]</li>
+  <li>[[Humains|Humains]]</li>
+  <li>[[Kasathas|Kasathas]]</li>
+  <li>[[Lashuntas|Lashuntas]]</li>
+  <li>[[Shirrens|Shirrens]]</li>
+  <li>[[Vesks|Vesks]]</li>
+  <li>[[Ysokis|Ysokis]]</li>
+</ul>
+</li>
+<li>{s:PM|CLASSES}[[Les classes]]
+  <ul ID="CLASSES" CLASS="listecachée cadrebas">
+  <li>[[Agent|Agent]]</li>
+  <li>[[Émissaire|Émissaire]]</li>
+  <li>[[Mécano|Mécano]]</li>
+  <li>[[Mystique|Mystique]]</li>
+  <li>[[Solarien|Solarien]]</li>
+  <li>[[Soldat|Soldat]]</li>
+  <li>[[Technomancien|Technomancien]]</li>
+</ul>
+</li>
 <li>{s:PM|COMPETENCES}[[Les compétences]]
     <ul ID="COMPETENCES" CLASS="listecachée cadrebas">
       <li>[[Les Compétences#ACQUERIRDESCOMPETENCES|Acquérir des compétences]]</li>
@@ -37,7 +57,30 @@ membres d’équipage de votre vaisseau spatial.</p>
       <li>[[Les Compétences#SERAPPELEQUELQUECHOSE|Se rappeler quelque chose]]</li>
       <li>[[Les Compétences#COMPETENCESETCOMBATDEVAISSEAUXSPATIAUX|Compétences et combat de vaisseaux spatiaux]]</li>
       <li>[[Les Compétences#DESCRIPTIONDESCOMPETENCES|Description des compétences]]</li>
-      <li>[[Tableau récapitulatif des compétences]]</li>
+      <li>'''[[Tableau récapitulatif des compétences]]'''
+        <ul>
+          <li>''[[Acrobaties]]''</li>
+          <li>''[[Athlétisme]]''</li>
+          <li>''[[Bluff]]''</li>
+          <li>''[[Culture]]''</li>
+          <li>''[[Déguisement]]''</li>
+          <li>''[[Diplomatie]]''</li>
+          <li>''[[Discrétion]]''</li>
+          <li>''[[Escamotage]]''</li>
+          <li>''[[Informatique]]''</li>
+          <li>''[[Ingénierie]]''</li>
+          <li>''[[Intimidation]]''</li>
+          <li>''[[Médecine]]''</li>
+          <li>''[[Mysticisme]]''</li>
+          <li>''[[Perception]]''</li>
+          <li>''[[Pilotage]]''</li>
+          <li>''[[Profession]]''</li>
+          <li>''[[Psychologie]]''</li>
+          <li>''[[Sciences de la vie]]''</li>
+          <li>''[[Sciences physiques]]''</li>
+          <li>''[[Survie]]''</li>
+          </ul>
+        </li>
     </ul>
 </li>
 <li>{s:PM|DONS}[[Dons|Les dons]]
@@ -45,6 +88,7 @@ membres d’équipage de votre vaisseau spatial.</p>
        <li>[[Dons#CONDITIONS|Conditions]] des dons</li>
        <li>[[Dons#DONS COMBAT|Dons de combat]]</li>
        <li>[[Dons#DESCRIPTION DONS|Description]] des dons</li>
+       <li>''[[c:StarFinder.Don|Dons par ordre alphabétique]]''</li>
     </ul>
 </li>
 <li>[[Alignement|L'alignement]]</li>
@@ -91,16 +135,16 @@ membres d’équipage de votre vaisseau spatial.</p>
 <td width="32%">
 === Règles tactiques ===
 <ul>
-<li>Le déroulement d'un combat</li>
-<li>Bases du combat</li>
+<li>[[Le déroulement dun combat|Le déroulement d'un combat]]</li>
+<li>[[Bases du combat]]</li>
 <li>[[Actions en combat]]</li>
-<li>Blessures et mort</li>
-<li>Modificateurs de combat</li>
+<li>[[Blessures et mort]]</li>
+<li>[[Modificateurs de combat]]</li>
 <li>Déplacements et position</li>
 <li>[[Sens]]</li>
-<li>Pouvoirs spéciaux</li>
-<li>Bonus et malus</li>
-<li>Définir les effets</li>
+<li>[[Pouvoirs spéciaux]]</li>
+<li>[[Bonus et malus]]</li>
+<li>[[Définir les effets]]</li>
 <li>[[Etats]]</li>
 <li>Règles tactiques des véhicules</li>
 <li>Poursuites entre véhicules</li>  
@@ -108,7 +152,7 @@ membres d’équipage de votre vaisseau spatial.</p>
 === Vaisseaux spatiaux ===
 <ul>
 <li>[[Voyage spatial]]</li>
-<li>Construire des vaisseaux</li>
+<li>[[Construire des vaisseaux]]</li>
 <li>Liste de vaisseaux</li>
 <li>[[Combats spatiaux]]</li>
 </ul>
@@ -145,7 +189,7 @@ membres d’équipage de votre vaisseau spatial.</p>
 </ul>
 ===L'héritage Pathfinder===
 <ul>
-<li>Conversion de Pathfinder</li>
+<li>[[++Pathfinder-RPG.Conversion PF SF|Conversion de Pathfinder]]</li>
 </ul>
 </td>
 <td width="1%"></td>

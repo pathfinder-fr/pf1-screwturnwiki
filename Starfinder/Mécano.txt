@@ -1,10 +1,163 @@
 ---
 Name: Starfinder.Mécano
 Title: Mécano
-LastModified: 2019-09-02 21:47
+LastModified: 2021-08-02 16:41
 ---
 ''Vous êtes un maître des machines, que cela soit des superordinateurs ultramodernes ou de simples générateurs magnétiques. En comprenant comment marchent ces appareils, vous percevez mieux le monde autour de vous, ce qui vous permet de tirer le meilleur profit de vos équipements, de contourner les protections renforcées et même de prendre le contrôle des systèmes à distance. Vos compétences de programmation vous donnent la possibilité de vous fabriquer un puissant allié, soit une intelligence artificielle intégrée, soit un drone, qui peut vous assister dans différents domaines.
 Si un appareil ou un ordinateur a besoin d’être réparé, piraté ou détruit, c’est à vous qu’on fait appel. Que vous soyez un talentueux scientifique, un ingénieur spécialisé dans les vaisseaux spatiaux ou un technicien de terrain, le combat ne vous est pas étranger mais vous considérez qu’il est beaucoup plus raisonnable que votre IA ou que votre drone combatte à votre place.''
+
+<center>
+{| CLASS="tablo autoalt"
+|+ L'Émissaire
+|- CLASS="titre"
+| Niveau
+| BBA
+| Vigueur
+| Réflexes
+| Volonté
+| CLASS="gauche" | Aptitudes de classe
+|- CLASS="premier"
+| 1
+| +0
+| +2
+| +2
+| +0
+| CLASS="gauche" | [[Mécano#INTELLIGENCEARTIFICIELLE|Intelligence artificielle]], [[Mécano#INTRUSION|intrusion]] +1, [[Mécano#INTERFACEPERSONNALISÉE|interface personnalisée]]
+|- CLASS="alt"
+| 2
+| +1
+| +3
+| +3
+| +0
+| CLASS="gauche" | [[Mécano#ASTUCEDEMÉCANO|Astuce de mécano]]
+|-
+| 3
+| +2
+| +3
+| +3
+| +1
+| CLASS="gauche" | [[Mécano#SURCHARGE|Surcharge]], [[Mécano#SPECIALISATIONMARTIALE|Spécialisation martiale]]
+|- CLASS="alt"
+| 4
+| +3
+| +4
+| +4
+| +1
+| CLASS="gauche" | [[Mécano#ASTUCEDEMÉCANO|Astuce de mécano]]
+|-
+| 5
+| +3
+| +4
+| +4
+| +1
+| CLASS="gauche" | [[Mécano#INTRUSION|intrusion]] +2, [[Mécano#PIRATAGEÀDISTANCE|piratage à distance]]
+|- CLASS="alt"
+| 6
+| +4
+| +5
+| +5
+| +2
+| CLASS="gauche" | [[Mécano#ASTUCEDEMÉCANO|Astuce de mécano]]
+|-
+| 7
+| +5
+| +5
+| +5
+| +2
+| CLASS="gauche" | [[Mécano#INTERFACESPÉCIALISÉE|Interface spécialisée]], [[Mécano#PRODIGE|prodige]] 1/jour
+|- CLASS="alt"
+| 8
+| +6
+| +6
+| +6
+| +2
+| CLASS="gauche" | [[Mécano#ASTUCEDEMÉCANO|Astuce de mécano]]
+|-
+| 9
+| +6
+| +6
+| +6
+| +3
+| CLASS="gauche" | [[Mécano#INTRUSION|intrusion]] +3, [[Mécano#FORÇAGE|forçage]]
+|- CLASS="alt"
+| 10
+| +7
+| +7
+| +7
+| +3
+| CLASS="gauche" | [[Mécano#ASTUCEDEMÉCANO|Astuce de mécano]]
+|-
+| 11
+| +8
+| +7
+| +7
+| +3
+| CLASS="gauche" | [[Mécano#ASSAUTCOORDONÉ|Assaut coordonné]] +1, [[Mécano#PRODIGE|prodige]] 2/jour
+|- CLASS="alt"
+| 12
+| +9
+| +8
+| +8
+| +4
+| CLASS="gauche" | [[Mécano#ASTUCEDEMÉCANO|Astuce de mécano]]
+|-
+| 13
+| +9
+| +8
+| +8
+| +4
+| CLASS="gauche" | [[Mécano#INTERFACEÉVOLUÉE|Interface évoluée]], [[Mécano#INTRUSION|intrusion]] +4
+|- CLASS="alt"
+| 14
+| +10
+| +9
+| +9
+| +4
+| CLASS="gauche" | [[Mécano#ASTUCEDEMÉCANO|Astuce de mécano]]
+|- 
+| 15
+| +11
+| +9
+| +9
+| +5
+| CLASS="gauche" | [[Mécano#PRODIGE|prodige]] 3/jour
+|- CLASS="alt"
+| 16
+| +12
+| +10
+| +10
+| +5
+| CLASS="gauche" | [[Mécano#ASTUCEDEMÉCANO|Astuce de mécano]]
+|-
+| 17
+| +12
+| +10
+| +10
+| +5
+| CLASS="gauche" | [[Mécano#INTRUSION|intrusion]] +5, [[Mécano#RÉSEAUDECONTRÔLE|réseau de contrôle]], [[Mécano#ASSAUTCOORDONÉ|Assaut coordonné]] +2
+|- CLASS="alt"
+| 18
+| +13
+| +11
+| +11
+| +6
+| CLASS="gauche" | [[Mécano#ASTUCEDEMÉCANO|Astuce de mécano]]
+|-
+| 19
+| +14
+| +11
+| +11
+| +6
+| CLASS="gauche" | [[Mécano#FANTÔMEDANSLAMACHINE|Fantôme dans la machine]], [[Mécano#PRODIGE|prodige]] 4/jour, [[Mécano#INTERFACESUPÉRIEURE|interface supérieure]]
+|- CLASS="alt"
+| 20
+| +15
+| +12
+| +12
+| +6
+| CLASS="gauche" | [[Mécano#INTRUSION|intrusion]] +6, [[Mécano#ASTUCEDEMÉCANO|Astuce de mécano]], [[Mécano#MAÎTRISETOTALE|Maîtrise totale]]
+|}
+</center>
 
 
 '''Caractéristique essentielle.''' Vous dépendez de votre Intelligence pour vos connaissances, vos compétences et votre savoir-faire technique, aussi c’est votre caractéristique essentielle. Une valeur élevée de Dextérité vous permet d’effectuer des attaques à distance plus précises si vous devez participer à un combat.

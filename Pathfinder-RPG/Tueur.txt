@@ -1,35 +1,19 @@
 ---
 Name: Pathfinder-RPG.Tueur
-Title: Tueur
-LastModified: 2020-06-12 15:08
+Title: Le tueur
+LastModified: 2021-07-15 18:02
 Categories:
   - 'Classe'
-  - 'Manuel des Classes avancées'
-  - 'Règles officielles'
+  - 'Règle officielle'
+  - 'Src Manuel des joueurs - Classes avancées'
 ---
 {s:menuclasseshybrides}
-<div class="fright">'''''Voir aussi les [[Talents (tueur)|talents du tueur]]'''''<br/>
+<div class="fright">'''''Voir aussi les [[Talents (tueur)|talents de tueur]].'''''  
 {s:PM0|tueur}'''Voir les archétypes du tueur'''&emsp;
-<ul ID="tueur" CLASS="listecachée cadrebas">
-  <li>[[Chasseur de primes (tueur)|Chasseur de primes]] (MCA)</li>
-  <li>[[Coupe-jarret (tueur)|Coupe-jarret]] (MCA)</li>
-  <li>[[Exécuteur sczarni (tueur)|Exécuteur des barons du crime]] (MCA)</li>
-  <li>[[Gardien des tombes (tueur)|Gardien des tombes]] (MCA)</li>
-  <li>[[Lame pure (tueur)|Lame pure]] (MCA)</li>
-  <li>[[Libérateur (tueur)|Libérateur]] (MCA)</li>
-  <li>[[Nettoyeur (tueur)|Nettoyeur]] (MCA)</li>
-  <li>[[Tireur embusqué (tueur)|Tireur embusqué]] (MCA)</li>
-  <li>[[Tueur en première ligne (tueur)|Tueur en première ligne]] (MCA)</li>
-  <li>[[Tueur stygien (tueur)|Tueur stygien]] (MCA)</li>
-</ul></div><br/>
+  <li ID="tueur" CLASS="listecachée" STYLE="display:none">{s:Menuarchétypetueur}</li>
+</div>{s:mca}''Le tueur est un chasseur expérimenté, particulièrement doué pour traquer ses proies. Il ne vit que pour le frisson de la chasse et le coup de grâce qui la clôture. Un tueur passe son temps à affiner ses talents martiaux, à étudier les habitudes et l’anatomie de ses ennemis et à s’entraîner aux manoeuvres offensives.''
 
-{s:mca}''Le tueur est un chasseur expérimenté, particulièrement doué pour traquer ses proies. Il ne vit que pour le frisson de la chasse et le coup de grâce qui la clôture. Un tueur passe son temps à affiner ses talents martiaux, à étudier les habitudes et l’anatomie de ses ennemis et à s’entraîner aux manoeuvres offensives.''
-
-<table width="100%">
-<tr>
-<td>
-<center>
-{| CLASS="tablo"
+{| CLASS="tablo centre autoalt"
 |+ Le tueur
 |- CLASS="titre"
 | Niveau
@@ -44,42 +28,42 @@ Categories:
 | +2
 | +2
 | +0
-| CLASS="gauche" | 1<sup>re</sup> [[tueur#CIBLEETUDIEE|cible étudiée]], [[tueur#PISTAGE|pistage]]
-|- CLASS="alt"
+| CLASS="gauche" | 1<sup>re</sup> [[tueur#CIBLEETUDIEE|Cible étudiée]], [[tueur#PISTAGE|pistage]]
+|-
 | 2
 | +2
 | +3
 | +3
 | +0
-| CLASS="gauche" | [[tueur#TALENTDETUEUR|talent de tueur]] 
+| CLASS="gauche" | [[tueur#TALENTDETUEUR|Talent de tueur]] 
 |-
 | 3
 | +3
 | +3
 | +3
 | +1
-| CLASS="gauche" | [[tueur#ATTAQUESOURNOISE|attaque sournoise]] +1d6
-|- CLASS="alt"
+| CLASS="gauche" | [[tueur#ATTAQUESOURNOISE|Attaque sournoise]] +1d6
+|-
 | 4
 | +4
 | +4
 | +4
 | +1
-| CLASS="gauche" | [[tueur#TALENTDETUEUR|talent de tueur]] 
+| CLASS="gauche" | [[tueur#TALENTDETUEUR|Talent de tueur]] 
 |-
 | 5
 | +5
 | +4
 | +4
 | +1
-| CLASS="gauche" | 2<sup>e</sup> [[tueur#CIBLEETUDIEE|cible étudiée]]
-|- CLASS="alt"
+| CLASS="gauche" | 2<sup>e</sup> [[tueur#CIBLEETUDIEE|Cible étudiée]]
+|-
 | 6
 | +6/+1
 | +5
 | +5
 | +2
-| CLASS="gauche" | [[tueur#TALENTDETUEUR|talent de tueur]], [[tueur#ATTAQUESOURNOISE|attaque sournoise]] +2d6
+| CLASS="gauche" | [[tueur#ATTAQUESOURNOISE|Attaque sournoise]] +2d6, [[tueur#TALENTDETUEUR|talent de tueur]]
 |- 
 | 7
 | +7/+2
@@ -87,27 +71,27 @@ Categories:
 | +5
 | +2
 | CLASS="gauche" | [[tueur#TRAQUEUR|Traqueur]]
-|- CLASS="alt"
+|-
 | 8
 | +8/+3
 | +6
 | +6
 | +2
-| CLASS="gauche" | [[tueur#TALENTDETUEUR|talent de tueur]]
+| CLASS="gauche" | [[tueur#TALENTDETUEUR|Talent de tueur]]
 |-
 | 9
 | +9/+4
 | +6
 | +6
 | +3
-| CLASS="gauche" | [[tueur#ATTAQUESOURNOISE|attaque sournoise]] +3d6
-|- CLASS="alt"
+| CLASS="gauche" | [[tueur#ATTAQUESOURNOISE|Attaque sournoise]] +3d6
+|-
 | 10
 | +10/+5
 | +7
 | +7
 | +3
-| CLASS="gauche" | [[tueur#TALENTDETUEUR|talent de tueur]], 3<sup>e</sup> [[tueur#CIBLEETUDIEE|cible étudiée]], [[tueur#TALENTDEMAITRETUEUR|Talent de maître tueur]]
+| CLASS="gauche" | 3<sup>e</sup> [[tueur#CIBLEETUDIEE|Cible étudiée]], [[tueur#TALENTDETUEUR|talent de tueur]], [[tueur#TALENTDEMAITRETUEUR|Talent de maître tueur]]
 |-
 | 11
 | +11/+6/+1
@@ -115,13 +99,13 @@ Categories:
 | +7
 | +3
 | CLASS="gauche" | [[tueur#PISTAGERAPIDE|Pistage rapide]]
-|- CLASS="alt"
+|-
 | 12
 | +12/+7/+2
 | +8
 | +8
 | +4
-| CLASS="gauche" | [[tueur#TALENTDETUEUR|talent de tueur]], [[tueur#ATTAQUESOURNOISE|attaque sournoise]] +4d6
+| CLASS="gauche" | [[tueur#ATTAQUESOURNOISE|Attaque sournoise]] +4d6, [[tueur#TALENTDETUEUR|talent de tueur]]
 |-
 | 13
 | +13/+8/+3
@@ -129,27 +113,27 @@ Categories:
 | +8
 | +4
 | CLASS="gauche" | [[tueur#AVANCEEDUTUEUR|Avancée du tueur]] 1/jour
-|- CLASS="alt"
+|-
 | 14
 | +14/+9/+4
 | +9
 | +9
 | +4
-| CLASS="gauche" | [[tueur#TALENTDETUEUR|talent de tueur]], [[tueur#PROIEDUCHASSEUR|Proie du chasseur]]
+| CLASS="gauche" | [[tueur#PROIEDUCHASSEUR|Proie du chasseur]], [[tueur#TALENTDETUEUR|talent de tueur]]
 |-
 | 15
 | +15/+10/+5
 | +9
 | +9
 | +5
-| CLASS="gauche" | [[tueur#ATTAQUESOURNOISE|attaque sournoise]] +5d6, 4<sup>e</sup> [[tueur#CIBLEETUDIEE|cible étudiée]]
-|- CLASS="alt"
+| CLASS="gauche" | [[tueur#ATTAQUESOURNOISE|Attaque sournoise]] +5d6, 4<sup>e</sup> [[tueur#CIBLEETUDIEE|cible étudiée]]
+|-
 | 16
 | +16/+11/+6/+1
 | +10
 | +10
 | +5
-| CLASS="gauche" | [[tueur#TALENTDETUEUR|talent de tueur]]
+| CLASS="gauche" | [[tueur#TALENTDETUEUR|Talent de tueur]]
 |-
 | 17
 | +17/+12/+7/+2
@@ -157,13 +141,13 @@ Categories:
 | +10
 | +5
 | CLASS="gauche" | [[tueur#AVANCEEDUTUEUR|Avancée du tueur]] 2/jour
-|- CLASS="alt"
+|-
 | 18
 | +18/+13/+8/+3
 | +11
 | +11
 | +6
-| CLASS="gauche" | [[tueur#TALENTDETUEUR|talent de tueur]], [[tueur#ATTAQUESOURNOISE|attaque sournoise]] +6d6
+| CLASS="gauche" | [[tueur#ATTAQUESOURNOISE|Attaque sournoise]] +6d6, [[tueur#TALENTDETUEUR|talent de tueur]]
 |-
 | 19
 | +19/+14/+9/+4
@@ -171,26 +155,24 @@ Categories:
 | +11
 | +6
 | CLASS="gauche" | [[tueur#PROIEDUMAITRECHASSEUR|Proie du maître chasseur]]
-|- CLASS="alt"
+|-
 | 20
 | +20/+15/+10/+5
 | +12
 | +12
 | +6
-| CLASS="gauche" | [[tueur#TALENTDETUEUR|talent de tueur]], 5<sup>e</sup> [[tueur#CIBLEETUDIEE|cible étudiée]], [[tueur#MAITRETUEUR|Maître tueur]]
+| CLASS="gauche" | 5<sup>e</sup> [[tueur#CIBLEETUDIEE|Cible étudiée]], [[tueur#TALENTDETUEUR|talent de tueur]], [[tueur#MAITRETUEUR|maître tueur]]
 |}
-</center>
-</td></tr>
-</table>
-
 
 '''Rôle.''' Insaisissable, le tueur attend le moment et l’endroit idéaux pour frapper. Il mêle les talents les plus meurtriers du roublard et du rôdeur afin d’être au maximum de son efficacité pour engager le combat, éliminer sa cible et s’enfuir.
+
+'''Classes mères.''' [[Rôdeur]] et [[Roublard|roublard]].
 
 '''Alignement.''' Tous.
 
 '''Dé de vie.''' d10.
 
-'''Classes mères.''' [[Rôdeur]] et [[roublard]].
+'''Argent de départ.''' 5d6 x 10 po (moyenne 175 po).
 
 {s:ImageDroite|Illustrations/PNJ/Zadim.jpg|30%}
 ===Compétences de classe===
@@ -226,7 +208,7 @@ En prenant de l’expérience, le tueur apprend quelques astuces qui l’aident 
 
 Les talents marqués d’un astérisque ajoutent un effet à l’attaque sournoise du tueur. Ce dernier ne peut appliquer qu’un seul de ces talents à une attaque donnée et doit choisir lequel avant d’effectuer son jet d’attaque.
 
-Voir les [[Talents (tueur)|talents de tueur]]
+Voir les [[Talents (tueur)|talents de tueur]].
 
 {s:reference|ATTAQUESOURNOISE}
 ====Attaque sournoise====
@@ -275,4 +257,3 @@ Au niveau 20, le tueur est un virtuose dans l’art de capturer ou de tuer ses p
 S’il réussit son attaque, la cible subit les dégâts normaux et doit réussir un jet de [[Vigueur]] ou subir l’effet supplémentaire. Le [[DD]] du jet est de 10 + 1/2 niveau du tueur + son modificateur d’[[Intelligence]].
 
 Que la cible réussisse son jet ou non, elle ne peut plus être victime de ce pouvoir pendant 24 heures (quel que soit le tueur qui tente de l’utiliser).
-

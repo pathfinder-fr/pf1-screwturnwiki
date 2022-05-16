@@ -1,10 +1,10 @@
 ---
 Name: Pathfinder-RPG.Véhicules aquatiques (véhicules)
 Title: Les véhicules aquatiques
-LastModified: 2019-08-14 22:08
+LastModified: 2021-10-03 22:03
 Categories:
-  - 'Art de la guerre'
-  - 'Règles officielles'
+  - 'Règle officielle'
+  - 'Src Art de la guerre'
   - 'Véhicule'
 ---
 {s:MenuVehicules}
@@ -508,7 +508,7 @@ Déterminez quel navire est l'attaquant et lequel est le défenseur. En tant que
 
 Pour déterminer la position des bateaux sur la battlemap, lancez 1d4 pour fixer leur cap (la direction dans laquelle ils vont). Puisque on considère que les deux navires finissent une chasse (l'un pourchasse l'autre pour l'attaquer), ils ont tous les deux le même cap. Un résultat de 1 indique le nord, 2 indique l'est, 3 indique le sud et 4 indique l'ouest. Placez le bateau défenseur aussi proche que possible du centre de la map en respectant son cap.
 
-Ensuite, lancez 1d8 pour déterminer la position du bateau attaquant (par rapport au bateau défenseur). On utilise les mêmes règles que pour les échecs d'attaques avec armes à impacts (P. 202 du ''Manuel du Joueur'') : un 1 représente le nord et on se déplace dans le sens des aiguilles d'une montre. Dans certains cas, cela positionnera l'attaquant devant le défenseur : cela signifie simplement que le bateau attaquant a dépassé sa proie à la fin de la poursuite.
+Ensuite, lancez 1d8 pour déterminer la position du bateau attaquant (par rapport au bateau défenseur). On utilise les mêmes règles que pour les échecs d'attaques avec [[arme à aspersion|armes à aspersion]] : un 1 représente le nord et on se déplace dans le sens des aiguilles d'une montre. Dans certains cas, cela positionnera l'attaquant devant le défenseur : cela signifie simplement que le bateau attaquant a dépassé sa proie à la fin de la poursuite.
 
 Enfin, lancez 1d4+2 pour déterminer le nombre de cases, sur la battlemap, séparant les deux bateaux. Places l'attaquant sur la carte en tenant compte de son cap et de sa distance par rapport au défenseur.
 
@@ -832,12 +832,12 @@ nuage nauséabond, tempête vengeresse.''' Les effets créés par ces sorts ne s
 * ''' Boule de feu, boule de feu à retardement, germes de feu, flammes,
 flèches enflammées, lame de feu, nuée de météores, sphère de feu.''' Ces sorts peuvent provoquer des débuts d’incendie sur un navire.
 
-* '''Brouillard dense, brume acide.''' Les effets créés par ces sorts ne sedéplacent pas avec un navire mais réduisent de moitié la vitesse des navires qui les traversent.
+* '''Brouillard dense, brume acide.''' Les effets créés par ces sorts ne se déplacent pas avec un navire mais réduisent de moitié la vitesse des navires qui les traversent.
 
-* '''Cage de force, mur de force, sphère d’isolement.''' Les effets de ces sorts se déplacent avec un navire s’ils sont fixés sur celui-ci. Dansle cas contraire, ils ne se déplacent pas avec un navire. De plus,un navire qui les percute effectue une manoeuvre d’éperonnage
+* '''Cage de force, mur de force, sphère d’isolement.''' Les effets de ces sorts se déplacent avec un navire s’ils sont fixés sur celui-ci. Dans le cas contraire, ils ne se déplacent pas avec un navire. De plus,un navire qui les percute effectue une manœuvre d’éperonnage
 
 * '''Cercle de téléportation, porte dimensionnelle, téléportation,
-téléportation suprême.''' Étant donné que les navires sont toujours en mouvement, les lanceurs des sorts de la branche de téléportation doivent avoir une ligne de mire pour pouvoir se téléporter surun navire. Sinon, ils doivent préalablement scruter par magie un navire en particulier puis se téléporter immédiatement vers le point de destination scruté. Tout retard lors de l’incantation du sort signifie que le navire s’est éloigné de l’endroit scruté, ce qui provoque l’échec du sort.
+téléportation suprême.''' Étant donné que les navires sont toujours en mouvement, les lanceurs des sorts de la branche de téléportation doivent avoir une ligne de mire pour pouvoir se téléporter sur un navire. Sinon, ils doivent préalablement scruter par magie un navire en particulier puis se téléporter immédiatement vers le point de destination scruté. Tout retard lors de l’incantation du sort signifie que le navire s’est éloigné de l’endroit scruté, ce qui provoque l’échec du sort.
 
 * '''Colonne de feu, tempête de feu.''' Ces sorts ne peuvent pas provoquer de début d’incendie sur un navire à moins que celui-ci obtienne un 1 naturel à son jet de sauvegarde contre les dégâts de feu.
 
@@ -845,7 +845,7 @@ téléportation suprême.''' Étant donné que les navires sont toujours en mouv
 
 * '''Contrôle des vents.''' La zone des vents créée par ce sort ne se déplace pas avec un navire.
 
-* '''Corde enchantée, manoir somptueux.''' Les accès aux espaces extradimensionnels créés par ces sorts ne se déplacent pas avec un navire.
+* '''Corde enchantée, manoir somptueux.''' Les accès aux espaces extra dimensionnels créés par ces sorts ne se déplacent pas avec un navire.
 
 * '''Cyclone.''' La plupart des navires sont trop imposants pour que ce sort les affecte, ce qui n’est pas le cas des créatures et objets non arrimés sur le pont d’un navire.
 
@@ -861,7 +861,7 @@ téléportation suprême.''' Étant donné que les navires sont toujours en mouv
 
 * '''Explosion de lumière, rayon de soleil.''' Ces sorts infligent la moitié des dégâts seulement aux navires.
 
-* '''Fabrication.''' Les matériaux créés par ce sort peuvent êtreutilisés pour réparer des navires
+* '''Fabrication.''' Les matériaux créés par ce sort peuvent être utilisés pour réparer des navires
 
 * ''' Inversion de la gravité.''' La zone d’effet de ce sort doit englober la totalité du navire pour pouvoir l’affecter, même si les créatures et les objets sur le pont du navire sont affectés normalement. Si la totalité d’un navire est affectée et retombe d’une hauteur supérieure 15 mètres, le pilote doit réussir un test de navigation DD 20 à l’impact, sinon, son navire est doté de l’état préjudiciable en plein naufrage.
 

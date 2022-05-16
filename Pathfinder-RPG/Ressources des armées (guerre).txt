@@ -1,0 +1,60 @@
+---
+Name: Pathfinder-RPG.Ressources des armées (guerre)
+Title: Les ressources des armées
+LastModified: 2021-01-04 19:51
+Categories:
+  - 'Règle officielle'
+  - 'Src Guide de campagne'
+---
+{s:MenuGC}{s:GC}Les ressources représentent les biens matériels qu’une armée peut utiliser pour améliorer ses capacités. Avant de donner une ressource à votre armée, vous devez payer son prix en PC. Certaines armées sont incapables d’utiliser un type de ressource (par exemple, une armée de loups ne peut pas boire de potions magiques ni utiliser des armes améliorées, les créatures dépourvues d’intelligence ne peuvent pas utiliser d’armes de siège, etc.)
+
+Les dépenses liées à la ressource ne s’arrêtent pas au prix d’achat. Il faut former les unités à leur utilisation, les unités d’élite demandent un salaire plus élevé, plus un objet est onéreux plus ses réparations et son entretien le seront, etc. À chaque fois que vous attribuez une ressource à une armée, sa Consommation hebdomadaire augmente du montant indiqué.
+
+Les prix sont donnés pour une armée de taille moyenne. Pour une armée plus petite ou plus grande, le prix évolue comme indiqué dans la table "Évolution du prix des ressources".
+
+<div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
+<div style="border: 1px solid #4b3124; padding: 4px; max-width: 260px;">
+{| CLASS="tablo centre toutgauche autoalt"
+|+ Évolution du prix des ressources
+|- CLASS="titre"
+| Taille de l’armée Multiplicateur
+|- CLASS="premier"
+| Infime || x1/8
+|-
+| Minuscule || x1/6
+|-
+| Très petite || x1/4
+|-
+| Petite || x1/2
+|-
+| Moyenne || x1
+|-
+| Grande || x2
+|-
+| Très grande || x4
+|-
+| Gigantesque || x10
+|-
+| Colossale || x20
+|- CLASS="note"
+| COLSPAN="2" | Le multiplicateur s’applique au prix initial de la ressource et à l’augmentation de [[Combat de masse#CONSOMMATION|Consommation]] qu’elle entraîne. Il ne peut pas faire passer le coût d’une ressource en-dessous de 1 [[Royaumes et guerre#POINTSDECONSTRUCTION|PC]].
+|}</div></div>
+* '''Armes à distance (2 PC).''' Les soldats sont équipés d’armes à distance (comme des [[Descriptions individuelles des armes#Arbalète|arbalètes]] ou des [[Descriptions individuelles des armes#Arc|arcs]]), ce qui leur permet d’attaquer de loin. La [[Combat de masse#CONSOMMATION|Consommation]] de l’armée augmente de 1.
+
+* '''Armures améliorées (3 PC).''' L’armée est équipée d’armures [[armure de maître|de maître]], ce qui augmente sa [[Combat de masse#VDEF|VDéf]] et sa [[Combat de masse#CONSOMMATION|Consommation]] de 1. Pour 15 [[Royaumes et guerre#POINTSDECONSTRUCTION|PC]], vous pouvez lui donner des [[armures magiques]] qui augmentent sa VDéf et sa Consommation de 2. Pour acheter cette ressource, vous devez avoir une [[Communautés et quartiers|communauté]] qui possède un [[Communautés et quartiers#QUARTIERETRANGER|quartier étranger]], une [[Communautés et quartiers#ECOLEMILITAIRE|école militaire]] ou une [[Communautés et quartiers#FORGE|forge]].
+
+* '''Armes améliorées (3 PC).''' L’armée est équipée d’armes [[arme de maître|de maître]], ce qui augmente son [[Combat de masse#MA|MA]] et sa [[Combat de masse#CONSOMMATION|Consommation]] de 1. Pour 50 [[Royaumes et guerre#POINTSDECONSTRUCTION|PC]], vous pouvez lui donner des [[armes magiques]] qui augmentent son MA et sa Consommation de 2. Pour acheter cette ressource, vous devez avoir une [[Communautés et quartiers|communauté]] qui possède un [[Communautés et quartiers#QUARTIERETRANGER|quartier étranger]], une [[Communautés et quartiers#ECOLEMILITAIRE|école militaire]] ou une [[Communautés et quartiers#FORGE|forge]].
+
+* '''Engins de siège (15 PC par engin).''' L’armée possède des catapultes, des béliers, des trébuchets, des balistes et d’autres [[engins de siège]] conçus pour briser les fortifications. Le [[Combat de masse#MA|MA]] augmente de 2 (quel que soit le nombre d’engins de siège) et la [[Combat de masse#CONSOMMATION|Consommation]] de 3 par engin. À chaque [[Phases dune bataille (guerre)|phase]] de corps à corps, réduisez le bonus de [[Combat de masse#VDEF|VDéf]] des fortifications ennemies de 1d4 points par arme de siège en votre possession. Contrairement au coût des autres ressources, celui des engins de siège ne s’adapte pas à la taille de votre armée. Pour acheter cette ressource, vous devez avoir une [[Communautés et quartiers|communauté]] qui possède une [[Communautés et quartiers#ACADEMIE|académie]], un [[Communautés et quartiers#QUARTIERETRANGER|quartier étranger]], une [[Communautés et quartiers#ACADEMIEMILITAIRE|académie militaire]] ou une [[Communautés et quartiers#UNIVERSITE|université]].
+
+* '''Montures (PC = FPA de la monture).''' L’armée est montée sur des chevaux ou d’autres animaux entraînés à la guerre. Augmentez la [[Combat de masse#VDEF|VDéf]] et le [[Combat de masse#MA|MA]] de +2 et la [[Combat de masse#CONSOMMATION|Consommation]] de 1. Si l’armée utilise des montures plus puissantes que ses soldats, le [[Combat de masse#FPA|FPA]] de l’armée (et toutes les valeurs qui en découlent) peut augmenter. Pour acheter cette ressource, vous devez avoir une [[Communautés et quartiers|communauté]] qui possède un [[Communautés et quartiers#QUARTIERETRANGER|quartier étranger]], une [[Communautés et quartiers#ECURIE|écurie]] ou un [[Communautés et quartiers#ENCLOSABETAIL|enclos à bétail]].
+
+* '''Potions de soins (10 PC).''' Chaque unité est munie de plusieurs potions de soins. À n’importe quel moment de la bataille (mais pas plus de deux fois par affrontement), le [[Combat de masse#COMMANDANT|commandant]] peut ordonner à ses soldats de boire leur potion. Ils ne peuvent pas faire de [[Phases dune bataille (guerre)#TESTDATTAQUE|test d’attaque]] mais l’armée guérit d’un nombre de [[Combat de masse#PV|pv]] égal à deux fois son [[Combat de masse#FPA|FPA]]. À chaque fois qu’une armée boit une potion, augmentez sa [[Combat de masse#CONSOMMATION|Consommation]] de 3 pour la semaine. Pour acheter cette ressource, vous devez avoir une [[Communautés et quartiers|communauté]] qui possède un [[Communautés et quartiers#ALCHIMISTE|alchimiste]], une [[Communautés et quartiers#TOURDUMAGE|tour du mage]], une [[Communautés et quartiers#CATHEDRALE|cathédrale]], un [[Communautés et quartiers#HERBORISTE|herboriste]], une [[Communautés et quartiers#BOUTIQUEDEMAGIE|boutique de magie]], une [[Communautés et quartiers#ECOLEDEMAGIE|école de magie]] ou un [[Communautés et quartiers#TEMPLE|temple]].
+
+
+====Le transfert de ressources====
+Vous pouvez reprendre les ressources que vous avez données à une armée pour les transférer à une autre, de taille égale ou inférieure, à condition que le récipiendaire soit capable de les utiliser (par exemple, des armes améliorées pour une armée de géants des collines ne serviront à rien entre les mains d’une armée de zombis humains). Cela ne vous coûte aucun [[Royaumes et guerre#POINTSDECONSTRUCTION|PC]] mais réduit le [[Combat de masse#MORAL|moral]] de l’armée qui donne la ressource de 1.
+
+Si le [[MJ]] est d’accord, vous pouvez diviser une ressource pour la répartir entre plusieurs armées de petite taille, tant que le nombre total d’unités des petites armées ne dépasse pas celui des unités de l’armée donatrice.
+
+Si vous démantelez une armée qui possédait une ressource, vous pouvez donner cette ressource à une autre armée capable de l’utiliser, la stocker pour plus tard (pour une armée que vous lèverez l’année prochaine par exemple) ou la vendre pour la moitié de sa valeur en [[Royaumes et guerre#POINTSDECONSTRUCTION|PC]].

@@ -1,0 +1,211 @@
+---
+Name: Pathfinder-RPG.Créateur de race, Particularités raciales
+Title: Créateur de race, Les particularités raciales
+LastModified: 2021-03-19 18:57
+Categories:
+  - 'Src Manuel des races'
+---
+<div style="float: right; padding: 0 0 2px 8px">{toc}</div>{s:MR}'''''Retour au [[Créateur de race]].'''''
+
+L’étape suivante consiste à choisir les particularités de votre race. Vous devez choisir une option dans chacune des catégories de particularités suivantes. Ces particularités ou certains de leurs aspects servent souvent de conditions requises pour les traits raciaux.
+
+===Type===
+Il s’agit du type racial de créature. Le type racial de créature est similaire au [[Types de créatures|type de créature]] correspondant que l’on trouve dans le Bestiaire, avec quelques différences importantes. La première différence, c’est que chaque type racial suggère que les membres de la race sont grosso modo de forme humanoïde, avec deux bras, deux jambes, un torse et une tête. C’est important dans la mesure où une race peut profiter des avantages de tous les emplacements d’objets magiques accessibles aux personnages et peut utiliser les options des armes et armures standard. La deuxième différence, c’est que tous ces types raciaux sont des créatures à 0 dé de vie, ce qui signifie que leurs dés de vie, leur bonus de base à l’attaque, l’évolution de leurs jets de sauvegarde, leurs points de compétences, leurs compétences de classe et leur formation aux armes et aux armures sont basés sur les niveaux de classe que prend chacun des membres de la race.
+
+Comme les autres particularités raciales, chaque type a un coût en points. Le type de créature de base (humanoïde) coûte 0 PR et offre le plus de souplesse dans le choix des autres particularités et traits raciaux, tandis qu’un type plus cher accordera en principe moins de flexibilité.  Le coût du type racial détermine également lequel de ces types vous pouvez choisir en fonction du niveau de puissance de la race que vous créez. Vous ne pouvez pas prendre un type ayant un coût en PR égal ou supérieur au coût maximum en PR du niveau de puissance de la race que vous construisez. Cela signifie que vous devez construire une race évoluée si vous souhaitez lui donner le type mort-vivant, ou une race monstrueuse si vous souhaitez lui donner le type créature artificielle. Si vous voulez créer une créature de type mécanique ou mort-vivant avec un niveau de puissance inférieur, consultez l’encadré [[Créateur de race, Particularités raciales#SOUSTYPESSPECIAUX|Sous-types spéciaux]] pour les options à moindre coût.
+
+Certains types raciaux peuvent accorder des traits raciaux comme particularités. Par exemple, le type créature artificielle accorde aux membres de la race vision dans le noir à 18 mètres. Si tel est le cas, le coût de ce trait racial est déjà décompté lorsque vous achetez le type et le trait ne compte pas dans le maximum de traits raciaux que vous pouvez acheter dans la catégorie correspondante. Par exemple, lorsque vous achetez d’autres traits de vision pour une race artificielle, la particularité vision dans le noir à 18 mètres que la race possède déjà n’entre pas en compte dans la limite des cinq traits de la catégorie Sens pour cette race. Par contre, les traits accordés par le type racial sont pris en compte quand il s’agit de remplir les conditions requises de n’importe quel autre trait.
+
+Le type humanoïde nécessite que vous choisissiez au moins un sous-type à votre race et le type extérieur (natif ) vous permet de décider à quel autre plan votre race est liée. Notez bien le type racial, tous les sous-types et liens planaires de votre créature. Ces éléments sont parfois des conditions requises pour certains traits raciaux. Par exemple, vous devez être de sous-type homme-rat pour prendre le trait racial empathie avec les rongeurs et vous devez être lié à Abaddon, aux Abysses ou aux Enfers pour prendre le trait racial magie des fiélons.
+<table width="100%"><tr><td width="49%">
+{s:Reference|ABERRATION}
+====Aberration (3 PR)====
+Les aberrations ont une anatomie bizarre, des capacités étranges, une façon de penser défiant toute logique ou n’importe quelle combinaison de ces trois éléments. Voici les particularités des aberrations. 
+* Les aberrations ont le trait racial vision dans le noir à 18 mètres.
+* Elles respirent, mangent et dorment. 
+
+{s:Reference|CREATUREARTIFICIELLE}
+====Créature artificielle (20 PR)====
+Une race de créatures artificielles est un groupe d’objets animés ou de créatures créées artificiellement. Voici les particularités des races de créatures artificielles.
+* Les créatures artificielles n’ont pas de score de Constitution. Tous les DD ou autres statistiques basés sur la Constitution considèrent que la créature artificielle a un score de 10 (sans bonus ni malus).
+* Elles ont le trait racial vision nocturne.
+* Elles ont le trait racial vision dans le noir à 18 mètres.
+* Elles sont immunisées à tous les effets mentaux (charmes, coercitions, effets de moral, mirages et fantasmes).
+* Elles ne peuvent pas soigner leurs dégâts elles-mêmes, mais peuvent souvent être réparées en étant exposées à un certain type d’effet (qui dépend des capacités raciales de la créature) ou par l’utilisation du don [[Création de créatures artificielles]]. Elles peuvent également être soignées au moyen de sorts tels que ''[[réparation intégrale]]''. Une créature artificielle ayant la particularité guérison accélérée profite toujours de ce pouvoir.
+* Elles ne sont pas sujettes aux affaiblissements temporaires ou aux diminutions permanentes de caractéristiques, à la fatigue, à l’épuisement, à l’absorption d’énergie ou aux dégâts non létaux.
+* Elles sont immunisées à tous les effets qui impliquent un jet de [[Vigueur]] (à moins que l’effet fonctionne également sur les objets ou soit inoffensif).
+* Elles ne risquent pas la mort suite à des dégâts excessifs, mais sont aussitôt détruites quand elles sont réduites à 0 point de vie ou moins.
+* Il n’est pas possible de les relever ou de les ressusciter.
+* Elles sont difficiles à détruire et gagnent un nombre de points de vie bonus basé sur leur taille, comme indiqué dans la table qui suit.  
+{| CLASS="tablo centre toutgauche autoalt"
+|- CLASS="titre"
+| Taille de la créature artificielle || Points de vie bonus
+|- CLASS="premier"
+| TP || —
+|-
+| P || 10
+|-
+| M || 20
+|-
+| G || 30
+|}
+* Elles ne respirent pas, ne mangent pas et ne dorment pas à moins de vouloir profiter de quelque effet bénéfique de l’une de ces activités. Cela signifie qu’une créature artificielle peut boire des potions pour profiter de leurs effets et peut dormir pour regagner des sorts, mais qu’aucune de ces activités n’est nécessaire à sa survie ou à son bon état de santé.
+
+{s:Reference|DRAGON}
+====Dragon (10 PR)====
+Le dragon est une créature reptilienne ayant des capacités magiques ou inhabituelles. Voici les particularités des races de dragons.
+* Les dragons ont le trait racial vision dans le noir à 18 mètres.
+* Ils ont le trait racial vision nocturne.
+* Ils sont immunisés aux effets magiques de sommeil et aux effets de paralysie.
+* Ils respirent, mangent et dorment.
+
+{s:Reference|EXTERIEUR}
+====Extérieur (natif) (3 PR)====
+Un extérieur natif est au moins partiellement composé de l’essence (mais pas forcément de la matière) d’un autre plan que celle du plan Matériel. Certaines créatures débutent avec un autre type et deviennent des extérieurs lorsqu’elles atteignent un niveau supérieur (ou inférieur) d’existence spirituelle. Lors de la création d’une race extérieure native, il est parfois important de choisir un seul plan Extérieur auquel la race est liée. Par exemple, les tieffelins sont liés à l’Abaddon, aux Abysses ou aux Enfers. Ces liens peuvent être importants pour définir les autres capacités raciales auxquelles on a accès, mais un extérieur natif ne doit pas être obligatoirement lié à un autre plan. Voici les particularités des races d’extérieurs natifs.
+* Les extérieurs natifs ont le trait racial vision dans le noir à 18 mètres.
+* Ils respirent, mangent et dorment.
+
+{s:Reference|FEE}
+====Fée (2 PR)====
+Une fée est une créature ayant des capacités surnaturelles et des liens avec la nature ou quelque autre force ou lieu. Voici les particularités des races de fées.
+* Les fées ont le trait racial vision nocturne.
+* Elles respirent, mangent et dorment.
+
+</td><td width="2%">
+</td><td width="49%">
+{s:Reference|HUMANOIDE}
+====Humanoïde (0 PR)====
+Les races humanoïdes ont peu ou pas du tout de capacités surnaturelles ou de pouvoirs magiques. Les humanoïdes sont généralement de taille P ou M, à moins d’avoir le sous-type géant, auquel cas ils sont de taille G. Une créature humanoïde a également un sous-type correspondant à sa race, comme humain, géant, gobelinoïde, reptilien ou tengu. Si vous créez une nouvelle race humanoïde, vous devriez soit trouver un sous-type existant approprié ou en créer un nouveau en utilisant le nom de la race comme sous-type. Si vous créez une race de sang-mêlé, elle devrait avoir le type racial de ses deux races parentes. Par exemple un demi-elfe a les sous-types humain et elfe. Les sous-types sont souvent importants pour définir les autres dons et pouvoirs raciaux auxquels on a droit. Si un humanoïde a un sous-type racial, il est considéré comme un membre de cette race en ce qui concerne les conditions requises raciales. Voici les particularités des races humanoïdes.
+* Les humanoïdes respirent, mangent et dorment.
+
+{s:Reference|HUMANOIDEMONSTRUEUX}
+====Humanoïde monstrueux (3 PR)====
+Les humanoïdes monstrueux sont similaires aux humanoïdes, mais ont des caractéristiques monstrueuses ou animales. Ils ont également assez souvent des capacités magiques. Voici les particularités des races d’humanoïdes monstrueux.
+* Les humanoïdes monstrueux ont le trait racial vision dans le noir à 18 mètres.
+* Ils respirent, mangent et dorment.
+
+{s:Reference|MORT-VIVANT}
+====Mort-vivant (16 PR)====
+Les races mortes-vivantes sont des créatures qui, autrefois, étaient vivantes et ont été animées par des forces surnaturelles ou spirituelles. Voici les particularités des races de morts-vivants.
+* Les morts-vivants n’ont pas de score de Constitution. Ils utilisent leur score de Charisme à la place pour calculer leurs points de vie, leurs jets de Vigueur et toute capacité spéciale basée sur la Constitution (comme lorsqu’ils calculent le DD d’une arme de souffle).
+* Ils ont le trait racial vision dans le noir à 18 mètres.
+* Ils sont immunisés à tous les effets mentaux (charmes, coercitions, effets de moral, mirages, fantasmes).
+* Ils sont immunisés aux dégâts de saignement, aux effets de mort, aux maladies, à la paralysie, aux poisons, aux effets de sommeil et à l’étourdissement.
+* Ils ne sont pas sujets aux dégâts non létaux, aux affaiblissements temporaires ou aux diminutions permanentes de caractéristique, et sont immunisés aux dégâts touchant les scores de caractéristiques physiques (Constitution, Dextérité et Force), ainsi qu’aux effets d’épuisement et de fatigue.
+* L’énergie positive les blesse, mais l’énergie négative les soigne. Une créature morte-vivante ayant la particularité guérison accélérée profite toujours de ce pouvoir.
+* Ils sont immunisés à tous les effets nécessitant un jet de Vigueur (à moins que l’effet ne fonctionne également sur les objets ou soit inoffensif ).
+* Ils ne risquent pas la mort suite à des dégâts excessifs, mais sont aussitôt détruits lorsqu’ils sont réduits à 0 point de vie ou moins.
+* Ils ne sont pas affectés par les sorts ou pouvoirs de rappel à la vie et de réincarnation. Résurrection et résurrection suprême les affectent. Ces sorts retransforment les créatures mortes-vivantes en les créatures vivantes qu’elles étaient avant leur mort-vivance.
+* Ils ne respirent pas, ne mangent pas et ne dorment pas à moins de vouloir profiter de quelque effet bénéfique de l’une de ces activités. Cela signifie qu’une créature morte-vivante peut boire des potions pour profiter de leurs effets et peut dormir pour regagner des sorts, mais qu’aucune de ces activités n’est nécessaire à sa survie ou à son bon état de santé.
+
+{s:Reference|PLANTE}
+====Plante (10 PR)====
+Ce type comprend les créatures végétales de forme humanoïde. Notez que les plantes normales, comme celles que l’on trouve dans les jardins et les champs ordinaires, n’ont pas de score de Sagesse ni de Charisme et ne sont pas des créatures, mais des objets, même si elles sont vivantes. Voici les particularités des races de plantes.
+* Les plantes ont le trait racial vision nocturne.
+* Elles sont immunisées à tous les effets mentaux (charmes, coercitions, effets de moral, mirages, fantasmes).
+* Elles sont immunisées à la paralysie, aux poisons, à la métamorphose, aux effets de sommeil et à l’étourdissement.
+* Elles respirent et mangent, mais ne dorment pas à moins de vouloir profiter de quelque effet bénéfique de cette activité. Cela signifie qu’une plante peut dormir pour regagner des sorts, mais que le sommeil n’est pas nécessaire à sa survie ou à son bon état de santé.
+
+</td></tr></table>
+{s:Reference|SOUSTYPESSPECIAUX}
+====Encadré : Sous-types spéciaux====
+Il existe deux types de créature (créature artificielle et mortvivant) qui génèrent d’intéressantes options pour les joueurs, mais qui sont trop chères si vous envisagez de créer une race soumise aux restrictions du niveau de puissance standard. Si vous créez une race standard, mais voulez quand même qu’elle soit une race de créatures artificielles ou mortes-vivantes, lisez les deux sous-types spéciaux détaillés ci-dessous : le demi-artificiel et le demi-mort-vivant. Chacun d’eux conserve le principe essentiel du type auquel il est lié, mais accorde moins de capacités et d’immunités. Ces sous-types peuvent être ajoutés à tous les types raciaux sauf à ceux de créature artificielle et de mort-vivant. Lorsque vous appliquez ces sous-types au type humanoïde, choisissez un autre sous-type qui complètera l’autre moitié de la créature. Vous pourriez, par exemple, créer une créature humanoïde moitié artificielle, moitié humaine.
+<table width="100%"><tr><td width="49%">
+=====__Demi-artificiel (7 PR)__=====
+Une race demi-artificielle est un groupe de créatures qui ont été artificiellement améliorées ou dont certaines parties ont été remplacées par des mécanismes artificiels, qu’ils soient technologiques ou magiques. Voici les particularités des races demi-artificielles.
+* Les demi-artificiels gagnent un bonus racial de +2 à leurs jets de sauvegarde contre les maladies, les effets mentaux, les poisons et les effets provoquant l’épuisement ou la fatigue.
+* Il n’est pas possible de les relever ou de les ressusciter.
+* Ils ne respirent pas, ne mangent pas et ne dorment pas à moins de vouloir profiter de quelque effet bénéfique de l’une de ces activités. Cela signifie qu’un demi-artificiel peut boire des potions pour profiter de leurs effets et peut dormir pour regagner des sorts, mais qu’aucune de ces activités n’est nécessaire à sa survie ou à son bon état de santé.
+
+</td><td width="2%">
+</td><td width="49%">
+=====__Demi-mort-vivant (5 PR)__=====
+Les races demi-mortes-vivantes sont une fusion étrange ou sacrilège du vivant et du mort-vivant. Les joueurs qui souhaiteraient jouer une race demi-morte-vivante pourraient également s’intéresser au dhampir (voir la page 94 du Bestiaire 2), progéniture du vampire et de l’humain. Voici les particularités des races demi-mortes-vivantes.
+* Les demi-morts-vivants ont le trait racial vision dans le noir à 18 mètres.
+* Ils gagnent un bonus racial de +2 à leurs jets de sauvegarde contre les maladies et les effets mentaux.
+* Ils ne reçoivent aucun malus des effets d’absorption d’énergie, mais peuvent quand même être tués s’ils accumulent plus de niveaux négatifs qu’ils n’ont de dés de vie. Au bout de 24 heures, tous les niveaux négatifs qu’ils ont gagnés disparaissent sans que d’autres jets de sauvegarde ne soient nécessaires.
+* L’énergie positive blesse les créatures demi-mortes-vivantes alors que l’énergie négative les soigne. Une créature demi-morte-vivante ayant la particularité guérison accélérée profite toujours de ce pouvoir.
+
+</td></tr></table>
+====Encadré : Races sans Constitution====
+L’établissement des scores de caractéristique de la plupart des races que vous créez en suivant ces règles (même les races évoluées et monstrueuses) utilise les méthodes standard indiquées à la page 15 du Manuel des joueurs. Les races sans score de Constitution sont des exceptions et impliquent quelques petits changements de méthode pour la création des scores de caractéristique. Voici ces changements, correspondant aux cinq méthodes que l’on trouve dans le Manuel des joueurs.
+
+'''Standard.''' Vous lancez 4d6 et en écartez toujours le résultat le plus faible, puis vous additionnez les résultats restants. Mais vous ne faites cette opération que cinq fois et assignez chacun des totaux à une caractéristique de votre choix, sauf la Constitution.
+
+'''Classique.''' Vous lancez 3d6 et additionnez les résultats cinq fois, puis vous assignez chacun des totaux à une caractéristique de votre choix, sauf la Constitution.
+
+'''Héroïque.''' Vous lancez 2d6 et ajoutez 6 à la somme des dés. Faites cette opération cinq fois et assignez chacun des totaux à une caractéristique de votre choix, sauf la Constitution.
+
+'''Réserve de dés.''' Plutôt qu’une réserve de 24d6, les races sans Constitution ont une réserve de 20d6 à répartir entre leurs caractéristiques, sauf la Constitution. Ces personnages doivent quand même assigner un minimum de 3d6 à chacune de ces caractéristiques. Augmentez ce nombre pour les campagnes à haut niveau de puissance.
+
+'''Achat.''' Lorsque vous utilisez la méthode de l’achat de scores de caractéristiques, partez du principe que les membres des races sans Constitution ont un score de Constitution de 10 et achetez le reste des caractéristiques normalement avec les points alloués en fonction du niveau de puissance de la campagne.
+
+===Taille===
+L’étape suivante consiste à choisir la taille de votre race. La plupart des races sont de taille P ou M, ce qui ne requiert aucune condition particulière, mais vous pouvez également décider de créer une race de taille G ou TP intégrant les modifications suivantes, dont le coût en points est indiqué.
+
+<table width="100%"><tr><td width="49%">
+{s:Reference|TAILLEG}'''Taille G (7 PR).''' Conditions requises : les humanoïdes prenant cette particularité raciale doivent être de sous-type géant ; Avantage : les créatures de taille G gagnent un bonus de taille de +2 en Force et reçoivent un malus de taille de -2 en Dextérité. Les races de taille G reçoivent un malus de taille de -1 à la CA, un malus de taille de -1 à leurs jets d’attaques, un bonus de taille de +1 à leurs tests de manoeuvres offensives et au DMD, et un malus de taille de -4 à leurs tests de Discrétion. Une créature de taille G occupe un espace de 3 mètres de côté et a une allonge de 1,5 mètre.
+
+{s:Reference|TAILLEM}'''Taille M (0 PR).''' Les races de taille M ne reçoivent ni bonus ni malus de taille. Une créature de taille M occupe un espace de 1,5 mètre de côté et a une allonge de 1,5 mètre.
+
+{s:Reference|TAILLEP}'''Taille P (0 PR).''' Les races de taille P reçoivent un bonus de taille de +1 à la CA, un bonus de taille de +1 à leurs jets d’attaque, un malus de -1 à leurs tests de manoeuvres offensives et au DMD, et un bonus de taille de +4 à leurs tests de Discrétion. Les races de taille P occupent un espace de 1,5 mètre de côté et ont une allonge de 1,5 mètre.
+</td><td width="2%">
+</td><td width="49%">
+{s:Reference|TAILLETP}'''Taille TP (4 PR).''' Conditions requises : type aberration, créature artificielle, dragon, fée, extérieur (natif ) ou plante ; Avantage : les créatures de taille TP gagnent un bonus de taille de +2 en Dextérité et reçoivent un malus de taille de -2 en Force. Les races de taille TP reçoivent un bonus de taille de +2 à la CA, un bonus de taille de +2 à leurs jets d’attaque, un malus de taille de -2 à leurs tests de maneouvres offensives et au DMD, et un bonus de taille de +8 à leurs tests de Discrétion. Les personnages de taille TP occupent un espace de 75 centimètres de côté, si bien que quatre personnages de taille TP peuvent se tenir sur une même case. Les races de taille TP ont une allonge naturelle de 0 mètre, ce qui signifie qu’elles ne peuvent pas atteindre une case adjacente. Elles doivent entrer sur la case d’un adversaire pour l’attaquer au corps à corps. Ceci provoque une attaque d’opportunité de la part de l’adversaire. N’ayant pas d’allonge naturelle, elles ne menacent pas les cases qui les entourent. Les autres créatures peuvent traverser ces cases sans provoquer d’attaque d’opportunité. Les créatures de taille TP ne peuvent pas prendre un ennemi en tenaille.
+</td></tr></table>
+
+===Vitesse de base===
+L’étape suivante consiste à choisir la vitesse de base de votre race. Certains traits raciaux peuvent l’augmenter ou autoriser d’autres modes de déplacement, mais ces traits nécessitent généralement d’avoir déjà une vitesse normale. Voici vos options.
+
+<table width="100%"><tr><td width="49%">
+{s:Reference|VITESSELENTE}{s:Reference|REDUITE}'''Vitesse lente (-1 PR).''' La race a une vitesse de base de 6 mètres. S’il s’agit d’une race de taille M, la vitesse des créatures n’est jamais modifiée par l’armure ou l’encombrement.
+</td><td width="2%">
+</td><td width="49%">
+{s:Reference|VITESSENORMALE}{s:Reference|NORMALE}'''Vitesse normale (0 PR).''' La race a une vitesse de base de 9 mètres.
+</td></tr></table>
+
+===Modificateurs de caractéristiques===
+L’étape suivante consiste à définir les modificateurs de caractéristiques de votre race. De bien des manières, le choix de cette particularité raciale est l’un des plus importants lorsque vous créez une nouvelle race puisqu’il détermine de nombreuses capacités naturelles de celle-ci.
+
+À l’exception du modificateur héritage humain, lorsque vous choisissez les modificateurs de caractéristiques d’une race, vous décidez quels scores de caractéristiques changent pour chacun des membres de la race. Seul le modificateur héritage humain permet aux individus de décider quel score de caractéristique ils modifient lors de la création du personnage.
+
+La plupart des modificateurs de caractéristiques répartissent les scores de caractéristiques en deux grandes catégories qui représentent chacune trois des six caractéristiques : physique (Force, Dextérité et Constitution) et mental (Intelligence, Sagesse et Charisme).
+
+À l’exception du modificateur héritage humain, les bonus de caractéristiques qu’accorde l’une de ces particularités raciales comptent comme des bonus quand il s’agit de remplir les conditions requises pour les traits raciaux.
+
+<table width="100%"><tr><td width="49%">
+{s:Reference|EVOLUE}'''Évolué (4 PR).''' Conditions requises : niveau de puissance évolué ou monstrueux ; Modificateurs : choisissez les caractéristiques physiques ou mentales. Les membres de cette race gagnent un bonus de +2 à toutes ces caractéristiques, un bonus de +4 à une caractéristique de l’autre type, et reçoivent un malus de -2 à une autre caractéristique de cet autre type.
+
+{s:Reference|FAIBLESSE}'''Faiblesse (-1 PR).''' Les membres de la race reçoivent un bonus de +2 à une caractéristique physique, un bonus de +2 à une caractéristique mentale et un malus de -4 à une troisième caractéristique.
+
+{s:Reference|FAIBLESSEMIXTE}'''Faiblesse mixte (-2 PR).''' Choisissez les caractéristiques physiques ou mentales. Les membres de la race reçoivent un bonus de +2 à une caractéristique de ce type et un malus de -2 à une autre caractéristique de ce type. Ils gagnent également un bonus de +2 à une caractéristique de l’autre type et reçoivent un malus de -4 à une deuxième caractéristique de l’autre type.
+
+{s:Reference|FAIBLESSESUPERIEURE}'''Faiblesse supérieure (-3 PR).''' Choisissez les caractéristiques physiques ou mentales. Les membres de la race reçoivent un malus de -4 à l’une de ces caractéristiques, un malus de -2 à une deuxième de ces caractéristiques, et un bonus de +2 à la dernière.
+
+{s:Reference|FLEXIBLE}'''Flexible (2 PR).''' Les membres de la race gagnent un bonus de +2 à deux caractéristiques au choix.
+</td><td width="2%">
+</td><td width="49%">
+{s:Reference|HERITAGEHUMAIN}'''Héritage humain (0 PR).''' Conditions requises : sous-type humain ; Modificateurs : les membres de la race gagnent un bonus de +2 à une caractéristique au choix lors de la création du personnage.
+
+{s:Reference|PARANGON}'''Parangon (1 PR).''' Les membres de la race reçoivent un bonus de +4 à une seule caractéristique et un malus de -2 à toutes leurs caractéristiques physiques ou mentales. Si le bonus est appliqué à une caractéristique physique, le malus est appliqué à toutes les caractéristiques mentales, et vice versa.
+
+{s:Reference|PARANGONSUPERIEUR}'''Parangon supérieur (2 PR).''' Les membres de la race reçoivent un bonus de +4 à une caractéristique, un malus de -2 à une caractéristique physique et un malus de -2 à une caractéristique mentale.
+
+{s:Reference|SPECIALISE}'''Spécialisé (1 PR).''' Choisissez les caractéristiques physiques ou mentales. Les membres de la race reçoivent un bonus de +2 à deux caractéristiques du type choisi et un malus de -2 à une caractéristique de l’autre type.
+
+{s:Reference|CARACSTANDARD}'''Standard (0 PR).''' Les membres de la race reçoivent un bonus de +2 à une caractéristique physique, un bonus de +2 à une caractéristique mentale et un malus de -2 à une troisième caractéristique.
+</td></tr></table>
+
+===Langues===
+L’étape suivante consiste à choisir la langue raciale. Cette particularité détermine les langues de départ et les langues supplémentaires de la race. Il y a trois options. Dans les cas où le trait de langue implique que vous choisissiez une langue raciale, cette langue sera la langue raciale de la race (s’il y en a une ; n’hésitez pas à créer une nouvelle langue pour la race si vous le souhaitez), le draconique (dans le cas d’un humanoïde de sous-type reptilien) ou, si la race est de type extérieur (natif ), une langue planaire (abyssal, aérien, aquatique, céleste, igné, infernal ou terreux) du plan correspondant. (Les créatures liées à l’Abaddon peuvent prendre l’abyssal ou l’infernal comme langue raciale). Si votre race est originaire de l’Ombreterre, vous pouvez remplacer le commun par le commun des profondeurs. Consultez la compétence Linguistique aux pages 101 et 102 du Manuel des joueurs pour une liste des langues.
+
+Les races de créatures artificielles et de morts-vivants ont généralement la langue raciale de la race qui les a créées.
+
+<table width="100%"><tr><td width="49%">
+{s:Reference|LINGUISTE}'''Linguiste (1 PR).''' Les membres de la race commencent en parlant le commun plus leur langue raciale (s’ils en ont une). De plus, ceux qui ont un haut score d’Intelligence peuvent apprendre d’autres langues de leur choix (sauf la langue des druides et les autres langues secrètes).
+
+{s:Reference|LANGUESTANDARD}'''Standard (0 PR).''' Les membres de la race commencent en parlant le commun plus leur langue raciale (s’ils en ont une). Choisissez également sept langues maximum (sauf la langue des druides et les autres langues secrètes) : ceux qui ont un haut score d’Intelligence peuvent apprendre de nouvelles langues parmi celles-ci.
+</td><td width="2%">
+</td><td width="49%">
+{s:Reference|XENOPHOBE}'''Xénophobe (0 PR).''' Les membres de la race commencent en parlant uniquement leur langue raciale. Les races n’ayant pas de langue raciale ne peuvent pas prendre cette option. En outre, vous choisissez quatre langues maximum (sauf la langue des druides et les autres langues secrètes) dont l’une doit être le commun (ou le commun des profondeurs si la race est originaire de l’Ombreterre) : ceux qui ont un haut score d’Intelligence peuvent apprendre de nouvelles langues parmi celles-ci.
+</td></tr></table>

@@ -1,13 +1,13 @@
 ---
 Name: Pathfinder-RPG.Gnome
 Title: Les gnomes
-LastModified: 2020-08-15 17:02
+LastModified: 2022-03-20 23:15
 Categories:
-  - 'Manuel des joueurs'
-  - 'Manuel des joueurs, règles avancées'
-  - 'Manuel des races'
   - 'Race'
-  - 'Règles officielles'
+  - 'Règle officielle'
+  - 'Src Manuel des joueurs'
+  - 'Src Manuel des joueurs - Règles avancées'
+  - 'Src Manuel des races'
 ---
 {s:MenuRaces}
 ===Présentation===
@@ -207,48 +207,93 @@ indiquées ci-dessous peuvent choisir les options suivantes :
 ====Dons====
 Ces dons sont accessibles aux gnomes :
 <center>
-{| CLASS="tablo autoalt toutgauche"
+{| CLASS="tablo autoalt toutgauche filtrable" WIDTH="100%"
+
 |- CLASS="titre"
-| WIDTH="25%" | Dons
-| WIDTH= "6%" | Source
-| WIDTH="25%" | Conditions
-| WIDTH="44%" | Avantages
+| WIDTH="30%" | Dons
+| WIDTH="3%" | Src
+| WIDTH="30%" | Conditions
+| WIDTH="37%" | Avantages
+
 |- CLASS="premier"
-| [[Arme de prédilection gnome]]* || <sup>MR</sup> || [[Gnome]], [[BBA]]+1, maniement des armes de guerre || +1 aux jets d'attaque avec une arme gnome
+| [[Arme de prédilection gnome]]* || <sup>MR</sup> || [[BBA]] +1, [[gnome]], maniement de toutes les armes de guerre || +1 aux jets d'attaque avec les armes gnomes
+
 |- CLASS="premier"
-| [[Calomnies corrosives]] || <sup>MR</sup> || [[Gnome]], 1 rang en [[Bluff]], aptitude de classe d’[[ennemi juré]] || Le personnage peut forcer ses ennemis jurés à utiliser [[Attaque en puissance]] contre lui
+| [[Calomnies corrosives]] || <sup>MR</sup> || 1 rang en [[Bluff]], capacité de classe [[Rôdeur#ENNEMIJURE|ennemi juré]], [[gnome]] || Insulte un ennemi juré pour l'énerver
+
 |- CLASS="premier"
-| [[Crise de larmes]]* || <sup>MR</sup> || [[Gnome]], 1 rang en [[Bluff]], aptitude de classe de [[barbare#RAGE|rage de berserker]] || Le personnage peut feinter lorsqu’il est enragé, et ces feintes fonctionnent tant qu’il n’a pas touché sa cible
+| [[Crise de larmes]] || <sup>MR</sup> || 1 rang en [[Bluff]], capacité de classe [[Barbare#RAGE|rage de berserker]], [[gnome]] || Utilise la compétence Bluff pour feinter pendant une rage
+
 |- CLASS="premier"
-| [[Esprit de lécole de magie|Esprit de l’école de magie]] || <sup>MR</sup> || [[Gnome]], 1 rang en [[Bluff]], aptitude de classe d’[[magicien#ECOLEDEMAGIE|école de magie]] || Le personnage peut imposer un malus au jet de sauvegarde d’une cible contre un sort de son école de magie
+| [[École de lenfant de la terre|École de l'enfant de la terre]]* || <sup>AG</sup> || [[Sag]] 13, [[nain]] ou [[gnome]], trait racial entraînement défensif, [[Science du combat à mains nues]], 3 rangs en [[Acrobaties]] || La CA de l’entraînement défensif passe à +6 contre les géants
+|-
+| &emsp;[[Renversement de lenfant de la terre|Renversement de l'enfant de la terre]]* || <sup>AG</sup> || [[Sag]] 13, [[nain]] ou [[gnome]], trait racial entraînement défensif, [[École de lenfant de la terre|École de l'enfant de la terre]], [[Science du croc-en-jambe]], [[Science du combat à mains nues]], 6 rangs en [[Acrobaties]] || Le personnage peut faire un croc-en-jambe à un géant de taille TG au maximum
+|-
+| &emsp;&emsp;[[Lien de lenfant de la terre|Lien de l'enfant de la terre]]* || <sup>AG</sup> || [[Sag]] 13, [[nain]] ou [[gnome]], trait racial entraînement défensif, [[École de lenfant de la terre|École de l'enfant de la terre]], [[Renversement de lenfant de la terre|Renversement de l'enfant de la terre]], [[Croc-en-jambe supérieur]], [[Science du croc-en-jambe]], [[Science du combat à mains nues]], [[Coup étourdissant]], 9 rangs en [[Acrobaties]] || Le personnage peut faire un croc-en-jambe à un géant de n’importe quelle taille. Il peut décider d’appliquer le Coup étourdissant une fois qu’il sait que l’attaque d’opportunité portée contre un géant qui se relève a touché
+
 |- CLASS="premier"
-| [[Feinte subtile]] || <sup>MR</sup> || [[Gnome]], 1 rang en [[Bluff]], aptitude de classe d’[[guerrier#ENTRAINEMENTAUXARMES|entraînement aux armes]] || Feinter peut conférer un bonus à la CA plutôt que de permettre d’ignorer le bonus de Dextérité à la CA
+| [[Esprit de lécole de magie|Esprit de l'école de magie]] || <sup>MR</sup> || 1 rang en [[Bluff]], capacité de classe [[Magicien#ECOLEDEMAGIE|école de magie]], [[gnome]] || Discours élogieux des sorts de l'école de magie du personnage pour qu'y résister soit plus difficile
+
 |- CLASS="premier"
-| [[Grande haine]]* || <sup>MR</sup> || [[Gnome]], trait racial haine || Bonus supplémentaire de +1 aux jets d'attaque contre les cibles de sa haine
+| [[Expériences variées]] || <sup>MJRA</sup> || [[Nain]], [[elfe]], ou [[gnome]]; 100 ans ou plus || +2 sur tous les tests de Connaissances ou de Profession
+
 |- CLASS="premier"
-| [[Illusion menaçante]]<sup>M</sup> || <sup>MR</sup> || [[Gnome]], [[École renforcée]] (illusion) || Les illusions du personnage peuvent menacer une case autour d’elles
+| [[Feinte subtile]] || <sup>MR</sup> || 1 rang en [[Bluff]], capacité de classe [[entraînement aux armes]], [[gnome]] || Augmente la CA au lieu de blesser la cible lors qu'une feinte
+
 |- CLASS="premier"
-| [[Illusionniste amateur]] || <sup>MR</sup> || [[Gnome]], trait racial magie gnome || +2 aux tests de Bluff, de Déguisement et d'Escamotage
+| [[Grande haine]]* || <sup>MR</sup> || [[Gnome]], trait racial [[Gnome#Traits_raciaux_standards_6|haine]] || +1 supplémentaire à l'attaque contre les cibles de la haine du personnage
+
 |- CLASS="premier"
-| [[Immense haine]]* || <sup>MR</sup> || [[Gnome]], trait racial haine || La haine raciale s'applique à deux nouveaux types de créatures
+| [[Illusion menaçante]] || <sup>MR</sup> || [[École renforcée]] (illusion), [[gnome]] || Fait croire aux adversaires que les illusions du personnage sont de vraies menaces
+
 |- CLASS="premier"
-| [[Invocation de linstinct primal|Invocation de l'instinct primal]] || <sup>MR</sup> || [[Gnome]], 1 rang en [[Bluff]], aptitude de classe de [[forme animale]] || Le personnage peut imiter un prédateur ou une proie, effrayant ou paraissant inoffensif pour ceux qui le voient
+| [[Illusionniste amateur]] || <sup>MR</sup> || [[Gnome]], trait racial [[Gnome#Traits_raciaux_standards_6|magie gnome]] || Bonus aux tests de Bluff, de Déguisement, et d'Escamotage tant que le personnage a des pouvoirs magiques d'illusion inutilisés
+
 |- CLASS="premier"
-| [[Liens du sang]] || <sup>MR</sup> || [[Gnome]], 1 rang en [[Bluff]], aptitude de classe de [[ensorceleur#LIGNAGE|lignage]] || Le personnage peut substituer un test de Diplomatie par un test de Bluff pour influencer des créatures proches de son lignage
+| [[Immense haine]]* || <sup>MR</sup> || [[Gnome]], trait racial [[Gnome#Traits_raciaux_standards_6|haine]] || Étend la haine du personnage à deux nouveaux types de créatures
+
 |- CLASS="premier"
-| [[Magie gnome supplémentaire]] || <sup>MR</sup> || [[Gnome]], [[Cha]] 13 || 3 utilisations quotidiennes supplémentaires des pouvoirs innés de gnome
+| [[Invocation de linstinct primal|Invocation de l'instinct primal]] || <sup>MR</sup> || 1 rang en [[Bluff]], capacité de classe [[forme animale]], [[gnome]] || Imite un prédateur ou une proie, effrayant ou paraissant inoffensif pour ceux qui voient le personnage
+
 |- CLASS="premier"
-| [[Maître des merveilles]] || <sup>MR</sup> || [[Gnome]], [[Volonté de fer]], membre des Chercheurs de merveilles || Lorsqu’il active un sceptre merveilleux, le personnage peut lancer un deuxième dé et conserver le nouveau résultat
+| [[Liens du sang]] || <sup>MR</sup> || 1 rang en [[Bluff]], capacité de classe [[Ensorceleur#LIGNAGE|lignage d'ensorceleur]], [[gnome]] || Utilise le Bluff au lieu de la Diplomatie pour influencer des créatures proches du lignage du personnage
+
 |- CLASS="premier"
-| [[Prisonnier sans défense]] || <sup>MR</sup> || [[Gnome]], 5 rangs en [[Bluff]], 1 rang en [[Évasion]] || Lorsque ses mouvements sont restreints, le personnage peut se plaindre pour qu’on le libère
+| [[Magie gnome supplémentaire]] || <sup>MR</sup> || [[Cha]] 13, [[gnome]] || Gain de 3 utilisations quotidiennes supplémentaires des pouvoirs innés de gnome
+
 |- CLASS="premier"
-| [[Question déconcertante]] || <sup>MR</sup> || [[Gnome]], 1 rang en [[Bluff]], aptitude de classe de [[réserve de ki]] || Le personnage peut dépenser du ki pour faire perdre son tour à une créature ou obtenir un bonus de +2 aux dégâts contre elle
+| [[Maître des merveilles]] || <sup>MR</sup> || [[Volonté de fer]], membre des Chercheurs de merveilles, [[gnome]] || Deux jets pour déterminer les effets d'un sceptre merveilleux
+
 |- CLASS="premier"
-| [[Résistance étendue]] || <sup>MR</sup> || [[Gnome]], trait racial résistance aux illusions || +2 contre les sorts d'une seconde école de magie
+| [[Prestidigitateur gnome]] || <sup>MJRA</sup> || [[Cha]] 13, [[gnome]], trait racial [[Gnome#Traits_raciaux_standards_6|magie gnome]] || Utiliser manipulation à distance' et prestidigitation une fois par jour
+
 |- CLASS="premier"
-| [[Supercherie facile]] || <sup>MR</sup> || [[Gnome]] || Le personnage peut maintenir un sort de concentration par une action rapide
+| [[Prisonnier sans défense]] || <sup>MR</sup> || 5 rangs en [[Bluff]], 1 rang en [[Évasion]], [[gnome]] || Bluff les goeliers pour qu'ils libèrent le personnage
+
 |- CLASS="premier"
-| [[Trafiquant de camelote]] || <sup>MR</sup> || [[Gnome]], 5 rangs en [[Estimation]], 5 rangs en [[Bluff]] || Le personnage peut échanger un objet sans valeur contre un objet de qualité sans que l’interlocuteur ne s’en rende immédiatement compte
+| [[Proche de la terre]] || <sup>MJRA</sup> || [[Cha]] 13, [[gnome]], trait racial [[Gnome#Traits_raciaux_standards_6|magie gnome]] || Pouvoir magique permettant de parler avec les animaux fouisseurs
+
+|- CLASS="premier"
+| [[Question déconcertante]] || <sup>MR</sup> || 1 rang en [[Bluff]], capacité de classe [[réserve de ki]], [[gnome]] || Pose une question à laquelle on ne peut répondre pour distraire les ennemis
+
+|- CLASS="premier"
+| [[Résistance étendue]] || <sup>MR</sup> || [[Gnome]], trait racial [[Gnome#Traits_raciaux_standards_6|résistance aux illusions]] || La résistance aux illusions s'applique à une autre école de magie
+
+|- CLASS="premier"
+| [[Supercherie facile]] || <sup>MR</sup> || [[Gnome]] || Maintenir la concentration des sorts d'illusion est plus facile
+
+|- CLASS="premier"
+| [[Talent magique]] || <sup>MJRA</sup> || [[Cha]] 10; [[elfe]], [[demi-elfe]] ou [[gnome]] || Lancer un sort de niveau 0 trois par jour comme un pouvoir magique
+
+|- CLASS="premier"
+| [[Tonnerres jumeaux]]* || <sup>AG</sup> || [[Nain]] ou [[gnome]], trait racial entraînement défensif, [[Combat à deux armes]] ou capacité de classe [[Moine#DELUGEDECOUPS|déluge de coups]], [[Arme de prédilection]] avec les deux armes utilisées || Remplace une attaque contre un géant par une tentative de désarmement, de destruction d’arme ou de croc-en-jambe
+|-
+| &emsp;[[Déluge des tonnerres jumeaux]]* || <sup>AG</sup> || [[Nain]] ou [[gnome]], trait racial entraînement défensif; [[Science du combat à deux armes]] et [[Combat à deux armes]], ou capacité de classe [[Moine#DELUGEDECOUPS|déluge de coups]]; [[Tonnerres jumeaux]]; [[Arme de prédilection]] avec les deux armes utilisées; [[BBA]] +6 || Possibilité de croc-en-jambe contre un géant de taille TG et +2 points de dégâts contre les géants
+|-
+| &emsp;&emsp;[[Maître des tonnerres jumeaux]]* || <sup>AG</sup> || [[Nain]] ou [[gnome]], trait racial entraînement défensif; [[Science du combat à deux armes]] et [[Combat à deux armes]], ou capacité de classe [[Moine#DELUGEDECOUPS|déluge de coups]]; [[Tonnerres jumeaux]]; [[Déluge des tonnerres jumeaux]]; [[Arme de prédilection]] avec les deux armes utilisées; [[BBA]] +9 || L’adversaire frappé par les tonnerres jumeaux est secoué
+
+|- CLASS="premier"
+| [[Trafiquant de camelote]] || <sup>MR</sup> || 5 rangs en [[Estimation]], 5 rangs en [[Bluff]], [[gnome]] || Pousse des créatures à échanger des objets précieux contre des babioles
 |}
 </center>
 {s:ligne}{s:col|6}
@@ -260,21 +305,21 @@ Ces archétypes raciaux sont accessibles aux gnomes :
 
 ====Équipement====
 Les gnomes ont accès à l’équipement suivant :
-* [[Outils alchimiques#Bâton de lune|Bâton de lune]]
+* [[Bâton de lune (objet)|Bâton de lune]]
 * [[Bouclier désarmant (armure)|Bouclier désarmant en acier]]
 * [[Bouclier désarmant (armure)|Bouclier désarmant en bois]]
-* [[Trousses doutils et de compétences#Carnet obsessionnel|Carnet obsessionnel]]
+* [[Carnet obsessionnel (objet)|Carnet obsessionnel]]
 * [[coutille à scie circulaire (arme)|Coutille à scie circulaire]]
 * [[échelle de guerre (arme)|Échelle de guerre]]
-* [[Outils alchimiques#Encens antiodeur|Encens antiodeur]]
-* [[faucille à cran d’arrêt (arme)|Faucille à cran d’arrêt]]
-* [[Outils alchimiques#Sang de molosse|Sang de molosse]]
+* [[Encens antiodeur (objet)|Encens antiodeur]]
 * [[fléau long (arme)|Fléau long]]
-* [[Vêtements#Habits de dilettante|Habits de dilettante]]
+* [[Habits de dilettante (objet)|Habits de dilettante]]
 * [[javelot-tonnerre (arme)|Javelot-tonnerre]]
 * [[lance-flasque (arme)|Lance-flasque]]
 * [[masse à piston (arme)|Masse à piston]]
-* [[Équipement daventurier#Sifflet du prévôt|Sifflet du prévôt]]
+* [[Masse-yoyo gnome (arme)|Masse-yoyo gnome]]
+* [[Sang de molosse (objet)|Sang de molosse]]
+* [[Sifflet du shérif (objet)|Sifflet du shérif]]
 
 {s:col-fin}{s:col|6}
 ====Objets magiques====

@@ -1,19 +1,23 @@
 ---
 Name: Pathfinder-RPG.Plume magique
 Title: Plume magique
-LastModified: 2020-02-27 03:08
+LastModified: 2020-12-27 16:45
 Categories:
-  - 'Objet magique'
-  - 'Objet magique merveilleux'
-  - 'Règles officielles'
+  - 'Objet mag'
+  - 'Objet mag merveilleux'
+  - 'Règle officielle'
 ---
 <div style="float:right">'''''Retour aux [[objets merveilleux]].'''''</div><div class="BD">
 {s:BDTitre|Plume magique|}
-'''Aura''' [[Invocation]] modérée ; '''NLS''' 12 ; '''Emplacement''' — ; '''Prix''' 50 po (ancre), 200 po (éventail), 300 po (oiseau), 400 po (arbre), 450 po (bateau cygne), 500 po (camp ou fouet) ; '''Poids''' —
+'''Aura''' [[Invocation]] modérée ; '''NLS''' 12 ; '''Emplacement''' — ; '''Prix''' 50 po (ancre), 150 po (lance), 200 po (crochet céleste ou éventail), 300 po (oiseau), 400 po (arbre), 450 po (bateau cygne ou plume flottante), 500 po (camp ou fouet), 600 po (goudron et plumes) ; '''Poids''' —
 (((Description)))
 Ces plumes enchantées ont été créées dans un but bien précis. Il est impossible de les identifier sans avoir d’abord analysé leurs auras, des plumes ayant le même pouvoir pouvant être très différentes d’aspect. Chaque plume n’est utilisable qu’une seule et unique fois.
 
 '''Ancre.''' Cette plume permet d’amarrer une embarcation et de s’assurer qu’elle restera immobile pendant une journée maximum.
+
+{s:RSE}'''Lance.''' Cet objet se transforme en une ''[[lance (arme)|lance]] +1'' ornée de plumes blanches pendant 1 minute. Il est très utile dans les zones où les armes de grande taille sont interdites ou peu pratiques.
+
+{s:RSE}'''Crochet céleste.''' Cet objet se transforme en une énorme serre d’aigle désincarnée ([[solidité]] 5, 25 [[points de résistance|pv]]) qui se fixe à l’endroit où son propriétaire l’active. Elle peut supporter 500 kg et persiste une journée. On peut la déplacer de 3 mètres au maximum avec un test de [[Force]] [[DD]] 20.
 
 '''Éventail.''' Cette plume crée un grand éventail battant l’air avec suffisamment de vigueur pour faire avancer un bateau à 37,5 km/h. Ce mouvement d’air n’est pas cumulable avec les vents existants : si un vent violent souffle déjà, l’apparition de l’éventail ne pourra pas créer des vents de tempête dans la zone affectée. Par contre, il permet de générer une zone de calme relatif dans la tourmente (même si la taille des vagues n’est en rien diminuée par sa présence). L’éventail peut être utilisé pendant un maximum de huit heures. Il ne fonctionne pas sur la terre ferme.
 
@@ -23,10 +27,13 @@ Ces plumes enchantées ont été créées dans un but bien précis. Il est impos
 
 '''Bateau cygne.''' Cette plume fait apparaître un grand bateau en forme de cygne, naviguant à une [[vitesse de déplacement]] de 18 m. Il peut transporter jusqu’à huit chevaux, trente-deux créatures de taille M, ou toute combinaison équivalente. Le navire disparaît au bout d’une journée.
 
-'''Fouet.''' Cette plume se transforme en grand fouet de cuir qui se comporte comme une [[dansante (propriété)|arme dansante]] si on lui désigne un adversaire. Le fouet a un [[bonus de base à lattaque|bonus de base à l’attaque]] de +10, inflige 1d6+1 points de dégâts et bénéficie d’un [[bonus daltération|bonus d’altération]] de +1 aux [[jet dattaque|jets d’attaque]] et de dégâts. De plus, lorsqu’il réussit une attaque, il peut effectuer une attaque de [[Manœuvres offensives#LUTTE|lutte]] dans la foulée (avec un bonus à sa [[manœuvres offensives|Manœuvre offensive]] de +15), en plus de son attaque normale. Il dure une heure maximum.
+{s:RSE}'''Plume flottante.''' On peut attacher cet objet à n’importe quelle créature qui pèse moins de 100 kg. Deux grandes ailes apparaissent dans son dos et lui permettent de voler pendant 1 minute (vitesse 9 m, manœuvrabilité moyenne). On peut aussi attacher la plume à un objet de 100 kg au maximum. Il s’envole en ligne droite dans la direction qu’indique la créature qui a fixé la plume, à moins qu’elle n’utilise une [[action de mouvement]] pour le rediriger. Les ailes restent actives pendant 1 minute.
 
 {s:RSE}'''Camp.''' Cette plume magique ne sert qu’une seule fois. Elle crée un campement fonctionnel, avec une tente pouvant abriter six créatures de taille M, assez de bois sec pour faire du feu pendant 24 heures, une petite table en bois avec deux bancs pouvant accueillir chacun trois personnes et un piquet d’attache pour six montures. Le camp existe pendant 24 heures, après quoi il disparaît sans laisser de trace, à l’exception des empreintes et des déchets que laissent les utilisateurs.
 
+'''Fouet.''' Cette plume se transforme en grand fouet de cuir qui se comporte comme une [[dansante (propriété)|arme dansante]] si on lui désigne un adversaire. Le fouet a un [[bonus de base à lattaque|bonus de base à l’attaque]] de +10, inflige 1d6+1 points de dégâts et bénéficie d’un [[bonus daltération|bonus d’altération]] de +1 aux [[jet dattaque|jets d’attaque]] et de dégâts. De plus, lorsqu’il réussit une attaque, il peut effectuer une attaque de [[Manœuvres offensives#LUTTE|lutte]] dans la foulée (avec un bonus à sa [[manœuvres offensives|Manœuvre offensive]] de +15), en plus de son attaque normale. Il dure une heure maximum.
+
+{s:RSE}'''Goudron et plumes.''' Le propriétaire de l’objet peut lui indiquer de flotter jusqu’à l’endroit de son choix et d’y exploser dans une gerbe de plumes blanches collantes qui s’agglutinent sur toutes les créatures se trouvant dans un rayon de 3 mètres. Elles fonctionnent comme un sort de ''[[poussière scintillante]]''.
 (((Fabrication)))
-'''Conditions''' [[Création dobjets merveilleux|Création d'objets merveilleux]], ''[[création majeure]]'' ; '''Coût''' 25 po (ancre), 100 po (éventail), 150 po (oiseau), 200 po (arbre), 225 po (bateau cygne) ou 250 po (camp ou fouet)
+'''Conditions''' [[Création dobjets merveilleux|Création d'objets merveilleux]], ''[[création majeure]]'' ; '''Coût''' 25 po (ancre), 75 po (lance), 100 po (crochet céleste ou éventail), 150 po (oiseau), 200 po (arbre), 225 po (bateau cygne ou plume flottante), 250 po (camp ou fouet), 300 po (goudron et plumes)
 </div>

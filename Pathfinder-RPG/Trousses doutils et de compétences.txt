@@ -1,9 +1,9 @@
 ---
 Name: Pathfinder-RPG.Trousses doutils et de compétences
 Title: Trousses d’outils et de compétences
-LastModified: 2020-07-24 23:45
+LastModified: 2021-02-26 19:37
 Categories:
-  - 'Armes et équipement'
+  - 'Src Armes et équipement'
 ---
 {s:MenuEquipement}
 <table width="100%"><tr><td width="50%">
@@ -22,11 +22,15 @@ Categories:
 |-
 | [[Trousses doutils et de compétences#Balancier|Balancier]] || 8 pa || 6 kg
 |-
+| [[Trousses doutils et de compétences#Bille de fronde alchimique|Bille de fronde alchimique]] || 5 po || 0,5 kg
+|-
 | [[Trousses doutils et de compétences#Bocal de sangsues|Bocal de sangsues]] || 5 po || 2,5 kg
 |-
 | [[Trousses doutils et de compétences#Carnet obsessionnel|Carnet obsessionnel]] || 25 po || 0,5 kg
 |-
 | [[Trousses doutils et de compétences#Cartes du ciel|Cartes du ciel]] || 200 po || 0,25 kg
+|-
+| [[Trousses doutils et de compétences#Chistera|Chistera]] || 12 po || 0,5 kg
 |-
 | [[Trousses doutils et de compétences#Civière|Civière]] || 1 po || 5 kg
 |-
@@ -48,7 +52,11 @@ Categories:
 |-
 | [[Trousses doutils et de compétences#Gant de jet|Gant de jet]] || 1 pa || 0,5 kg
 |-
+| [[Trousses doutils et de compétences#Gants de psychométricien|Gants de psychométricien]] || 10 po || 2,5 kg
+|-
 | [[Trousses doutils et de compétences#Graisse de porc|Graisse de porc]] || 1 pa || 0,5 kg
+|-
+| [[Trousses doutils et de compétences#Griffes de troll barbelées|Griffes de troll barbelées]] || 20 po || 2 kg
 |-
 | [[Trousses doutils et de compétences#Grimoire|Grimoire]] || 15 po || 1,5 kg
 |-
@@ -66,6 +74,8 @@ Categories:
 |-
 | &emsp; de maître || 100 po || 1,5 kg<sup>[[Trousses doutils et de compétences#NOTE1|1]]</sup>
 |-
+| [[Trousses doutils et de compétences#Instrument d'occultiste|Instrument d'occultiste]] || 45 po || 16,25 kg
+|-
 | [[Trousses doutils et de compétences#Instruments de chirurgien|Instruments de chirurgien]] || 20 po || 2,5 kg<sup>[[Trousses doutils et de compétences#NOTE1|1]]</sup>
 |-
 | [[Trousses doutils et de compétences#Kit de déguisement orque|Kit de déguisement orque]] || 75 po || 0,5 kg
@@ -75,10 +85,6 @@ Categories:
 | [[Trousses doutils et de compétences#Laboratoire d'alchimiste portable|Laboratoire d'alchimiste portable]] || 75 po || 10 kg
 |-
 | [[Trousses doutils et de compétences#Laboratoire d'artisanat portatif|Laboratoire d'artisanat portatif]] || 300 po || 20 kg
-|-
-| [[Trousses doutils et de compétences#Lampe céleste|Lampe céleste]] || 300 po || 1 kg
-|-
-| [[Trousses doutils et de compétences#Manuel d’exercices arcaniques familial|Manuel d’exercices arcaniques familial]] || 300 po || 1,5 kg
 |}
 </td><td width="50%">
 {| CLASS="tablo centre autoalt toutgauche" WIDTH="94%"
@@ -86,11 +92,19 @@ Categories:
 |- CLASS="titre"
 | Objet || Prix || Poids
 |- CLASS="premier"
+| [[Trousses doutils et de compétences#Lampe céleste|Lampe céleste]] || 300 po || 1 kg
+|-
+| [[Trousses doutils et de compétences#Manuel des arts divinatoires|Manuel des arts divinatoires]] || 30 po || 1,5 kg
+|-
+| [[Trousses doutils et de compétences#Manuel d’exercices arcaniques familial|Manuel d’exercices arcaniques familial]] || 300 po || 1,5 kg
+|-
 | [[Trousses doutils et de compétences#Matériel d'escalade|Matériel d'escalade]] || 80 po || 2,5 kg<sup>[[Trousses doutils et de compétences#NOTE1|1]]</sup>
 |-
 | [[Trousses doutils et de compétences#Ombrelle|Ombrelle]] || 1 po || 1 kg
 |-
 | [[Trousses doutils et de compétences#Ombrelle|Ombrelle (parapluie)]] || 2 po || 1,5 kg
+|-
+| [[Trousses doutils et de compétences#Ouija|Ouija]] || 15 po || 1 kg
 |-
 | [[Trousses doutils et de compétences#Outil de maître|Outil de maître]] || 50 po || 0,5 kg
 |-
@@ -106,6 +120,10 @@ Categories:
 |-
 | &emsp;de qualité supérieure || 100 po || 1 kg
 |-
+| [[Trousses doutils et de compétences#Ouvrage de référence sur l'occulte|Ouvrage de référence sur l'occulte]] || 80 || 0,5 kg
+|-
+| [[Trousses doutils et de compétences#Pantin de ventriloque|Pantin de ventriloque]] || 100 po || 3,5 kg
+|-
 | [[Trousses doutils et de compétences#Piège à ours|Piège à ours]] || 2 po || 5 kg
 |-
 | [[Trousses doutils et de compétences#Recueil de formules|Recueil de formules]] || 15 po || 1,5 kg
@@ -118,7 +136,11 @@ Categories:
 |-
 | [[Trousses doutils et de compétences#Sacoche de l'alchimiste|Sacoche de l'alchimiste]] || 25 po || 2,5 kg
 |-
+| [[Trousses doutils et de compétences#Solarium portable|Solarium portable]] || 800 po || 17,5 kg
+|-
 | [[Trousses doutils et de compétences#Soufflet|Soufflet]] || 1 po || 1,5 kg
+|-
+| [[Trousses doutils et de compétences#Suerie portable|Suerie portable]] || 25 po || 12,5 kg
 |-
 | [[Trousses doutils et de compétences#Tarot de voyant|Tarot de voyant]] || &emsp; || </sup>
 |-
@@ -132,6 +154,8 @@ Categories:
 |-
 | [[Trousses doutils et de compétences#Trousse d'antidotes|Trousse d'antidotes]] || 100 po || 1,5 kg
 |-
+| [[Trousses doutils et de compétences#Trousse d'armurier|Trousse d'armurier]] || 15 po || 1 kg
+|-
 | [[Trousses doutils et de compétences#Trousse de cartographe|Trousse de cartographe]] || 10 po || 1 kg
 |-
 | [[Trousses doutils et de compétences#Trousse de déguisement|Trousse de déguisement]] || 50 po || 4 kg<sup>[[Trousses doutils et de compétences#NOTE1|1]]</sup>
@@ -140,11 +164,19 @@ Categories:
 |-
 | [[Trousses doutils et de compétences#Trousse de jongleur|Trousse de jongleur]] || 15 po || 5 kg<sup>[[Trousses doutils et de compétences#NOTE1|1]]</sup>
 |-
+| [[Trousses doutils et de compétences#Trousse de médium frauduleux|Trousse de médium frauduleux]] || 50 po || 5 kg
+|-
+| [[Trousses doutils et de compétences#Trousse de phrénologue|Trousse de phrénologue]] || 50 po || 2,5 kg
+|-
 | [[Trousses doutils et de compétences#Trousse de premiers secours|Trousse de premiers secours]] || 50 po || 0,5 kg
 |-
 | [[Trousses doutils et de compétences#Trousse de sage-femme|Trousse de sage-femme]] || 10 po || 1 kg
 |-
+| [[Trousses doutils et de compétences#Trousse d'Éclaireur|Trousse d'Explorateur]] || 12 po || 11 kg
+|-
 | [[Trousses doutils et de compétences#Trousse de vétérinaire|Trousse de vétérinaire]] || 25 po || 0,5 kg
+|-
+| [[Trousses doutils et de compétences#Trousse d'infiltrateur|Trousse d'infiltrateur]] || 140 po || 7,5 kg
 |}
 </td></tr></table>
 <sup>{s:Reference|NOTE1}''(1) Ces objets pèsent le quart du poids indiqué pour les créatures de taille P.''</sup><br>
@@ -170,6 +202,12 @@ La balance de marchand est un simple levier posé sur un pivot auquel sont accro
 ====Balancier====
 Cette perche souple peut mesurer de 4,50 à 9 mètres de long. Utilisée correctement, elle aide le personnage à garder l’équilibre lorsqu’il franchit des passages très étroits. Le balancier accorde un bonus de circonstances de +1 aux tests d’[[Acrobaties]] pour traverser une surface étroite.
 
+{s:racial|Hobgobelin (race)|hobgobelins|Illustrations/PNJ/Hobgobelin.jpg}{s:CM}{s:Reference|Bille de fronde alchimique}
+====Bille de fronde alchimique====
+Les [[alchimiste|alchimistes]] hobgobelins équipent leurs camarades avec ces fioles de verre sphériques que l’on peut remplir d’une dose d’une [[Armes alchimiques|arme alchimique]] à aspersion, cette dernière servant alors comme munition pour la [[fronde (arme)|fronde]]. Si la bille touche, elle se brise et affecte la cible avec la solution alchimique qu’elle contient. La bille inflige uniquement des dégâts d’aspersion (le cas échéant), pas les dégâts qu’une bille de fronde ordinaire devrait infliger. On résout l’attaque en fonction de la [[CA]] normale de la cible (et non de sa CA au contact), comme avec une bille de fronde normale, en utilisant le facteur de portée de la fronde. La bille de fronde alchimique n’inflige pas de dégâts d’aspersion dans les cases adjacentes à celle de sa cible. Si le [[jet dattaque|jet d’attaque]] de la bille alchimique échoue, elle est détruite, tout comme son contenu qui ne risque pas d’exploser dans une autre case.
+
+Pour remplir une bille de fronde alchimique, il faut effectuer une [[action simple]] qui provoque des [[AO|attaques d’opportunité]]. De plus, le personnage doit réussir un test d’[[Artisanat]] (alchimie) ou [[Escamotage]] [[DD]] 15, sinon, il renverse la substance alchimique sur lui. En cas d’échec, l’arme alchimique explose dans sa case, comme s’il était sa cible (et affecte éventuellement les cases adjacentes avec un effet d’aspersion).
+
 {s:Reference|Bocal de sangsues}
 ====Bocal de sangsues====
 Ce solide bocal en céramique est doté d’un lourd couvercle percé de petits trous laissant passer l’air. En principe, il est à moitié rempli d’eau et accueille quatre sangsues adultes mesurant environ 15 centimètres chacune. Le bocal à sangsues accorde un bonus de circonstances de +2 aux tests de [[Premiers secours]] pour traiter les poisons. Utilisée pour les saignées médicinales, une sangsue peut survivre 6 mois sans manger.
@@ -181,6 +219,10 @@ Les gnomes utilisent ces petits livres pour noter des informations sur l’objet
 {s:ClearRight}{s:racial|Demi-elfe|demi-elfes|Illustrations/PNJ/Demi-elfe.jpg}{s:MR}{s:Reference|Cartes du ciel}
 ====Cartes du ciel====
 Beaucoup de demi-elfes vivent dans de grandes villes ou des communautés où ils ont du mal à communier avec l’environnement. Certains partent faire de longues retraites dans la nature, mais d’autres passent leurs soirées sur de hauts toits isolés, à regarder les étoiles. Ces âmes solitaires utilisent des cartes pour suivre le mouvement des étoiles et des autres corps célestes. Une personne qui utilise une de ces cartes par nuit claire peut faire un test de [[Connaissances]] (géographie) [[DD]] 20 pour déterminer sa position approximative et le mois de l’année. De plus, ces cartes donnent un bonus de circonstances de +2 aux tests de [[Survie]] pour éviter de se perdre de nuit par temps clair.
+
+{s:racial|Hobgobelin (race)|hobgobelins|Illustrations/PNJ/Hobgobelin.jpg}{s:CM}{s:Reference|Chistera}
+====Chistera====
+Ce panier en osier incurvé se porte sur la main, comme un gant. Il mesure une soixantaine de centimètres et dessine une courbe régulière qui lui permet de lancer une [[arme de jet]] à aspersion à une vitesse incroyable et sur de longues distances. Le chistera augmente le facteur de portée de n’importe quelle arme de jet à aspersion de 3 mètres. Il faut une main libre pour charger le chistera et la main qui le porte ne peut pas servir à autre chose. Le chistera n’empêche pas de préparer et lancer une bombe créée via le pouvoir de classe [[Alchimiste#BOMBES|bombes]].
 
 {s:Reference|Civière}
 ====Civière====
@@ -222,9 +264,18 @@ Une foreuse permet de créer un trou de 2,5 cm de diamètre dans la pierre, le b
 ====Gant de jet====
 Cet objet est un lourd gant en métal et en cuir conçu pour [[lutte|agripper]] et pour lancer un insecte, un serpent ou une créature minuscule qui ne perdra pas une occasion de mordre son porteur. Les gobelins qui ne portent pas de gant de jet provoquent une [[attaque dopportunité|attaque d’opportunité]] de la part de la créature qu’ils tentent de cacher ou de lancer. Le gant de jet dispose de plaques superposées qui couvrent l’avant-bras de son porteur. Il faut une [[action complexe]] pour enfiler ou pour retirer un gant de jet. La main ainsi protégée ne peut être utilisée pour accomplir des actions qui demandent de la précision (tels que des tests de [[Sabotage]] ou de tir à l’arc). On peut toutefois se servir de la main gantée pour brandir une arme.
 
+{s:AO}{s:Reference|Gants de psychométricien}
+====Gants de psychométricien====
+Ces gants composés de plusieurs couches de peau de mouton sont spécifiquement conçus et psychiquement traités pour augmenter la sensibilité tactile des mains de leur porteur. Les gants doivent être portés pendant huit heures d’affilée avant de conférer leurs avantages. Pendant cette période, tous les tests de [[Dextérité]] qui requièrent l’utilisation des mains subissent un malus de -2 tant que les gants sont portés. Une fois cette période de huit heures écoulée, le porteur peut retirer les gants pour bénéficier d’un bonus de circonstances de +2 aux tests d’[[Estimation]] effectués en utilisant l’extension de compétence [[Extensions de compétences occultes#PSYCHOMÉTRIE|psychométrie]].
+
 {s:racial|Gobelin (race)|gobelins|Illustrations/PNJ/Gobelin.jpg}{s:MR}{s:Reference|Graisse de porc}
 ====Graisse de porc====
 Peut-être est-ce dû à leur tête trop large ? Certainement plus à cause de leur manque de bon sens… Toujours est-il que les gobelins se coincent souvent dans les espaces trop exigus. Dans ce cas, une dose de graisse de porc est souvent la solution. Une application de graisse sur le corps offre un bonus de circonstances de +2 à tous les tests d’[[Évasion]] effectués pendant 1 heure.
+
+{s:CM}{s:Reference|Griffes de troll barbelées}
+====Griffes de troll barbelées====
+'''Cette option est plus courante chez les [[Troll|trolls]].'''  
+Ces gaines en métal se glissent sur les griffes des trolls. Quand un troll touche une créature avec une attaque de griffe alors qu’il porte ces gaines, il peut décider de garder les gaines sur ses pattes (auquel cas ses griffes infligent 1 point de dégâts supplémentaire) ou de les laisser glisser toutes les quatre pour qu’elles s’incrustent dans la blessure de la cible (auquel cas son attaque de griffe inflige 1 point de dégâts de [[saignement]]). Le prix est indiqué pour huit gaines (une pour chaque griffe des deux pattes du troll).
 
 {s:Reference|Grimoire}
 ====Grimoire====
@@ -251,6 +302,10 @@ Les druides utilisent généralement ces plantes comme focalisateur divin pour l
 Si le personnage veut donner un spectacle en utilisant la compétence Représentation associée à un instrument de musique (claviers, percussions, cordes ou vents), il doit avoir l’instrument de musique qui convient, sinon, il ne peut pas utiliser la compétence. Le coût et le poids sont indiqués pour un petit instrument de musique standard que le personnage peut porter à la main, comme un tambour, une lyre, une cloche, une harpe ou une flûte. Les instruments plus grands comme le violoncelle et le piano sont bien entendu plus gros et plus chers.<br>
 ''Instrument de musique de maître.'' Ces instruments de qualité supérieure accordent un bonus de circonstances de +2 aux tests de [[Représentation]] pour jouer de l’instrument.
 
+{s:AO}{s:Reference|Instruments d’occultiste}
+====Instruments d’occultiste====
+Ces babioles, bouts de tissu ou reliques possèdent un certain intérêt historique. Même s’ils ne sont particulièrement précieux, ils s’avèrent utiles pour un occultiste qui peut les utiliser en guise d’instruments. Ces objets ne sont pas magiques, même s’ils ont parfois l’aspect d’un sceptre ou d’une baguette magique. Les instruments dont il existe déjà une version ordinaire d’un prix supérieur à 10 po (comme les armures, les boucliers, les armes, et les jeux du tourment) s’acquièrent en se référant à leurs caractéristiques normales au lieu de cette catégorie « fourre-tout ».
+
 {s:Reference|Instruments de chirurgien}
 ====Instruments de chirurgien====
 Lorsqu’ils sont utilisés en conjonction avec une trousse de premiers secours, les instruments de chirurgien montent le bonus de circonstances de la trousse à +3 pour les tests de [[Premiers secours]] faits pour traiter les blessures et les blessures mortelles. 
@@ -275,6 +330,10 @@ Le laboratoire d’artisanat portatif contient tout le nécessaire pour créer d
 ====Lampe céleste====
 Cette lanterne polie abrite une ''[[flamme éternelle]]'' et diffuse de la lumière comme une [[Équipement daventurier#Lampe|lampe]] normale. Si son réservoir de cristal et de pièces de métal consacré est rempli d’[[Armes alchimiques#Eau bénite|eau bénite]], la lumière de la lampe est sanctifiée pendant 24 heures, rajoutant un bonus de +1 au [DD]] du [[jds|jet de sauvegarde]] de la canalisation d’énergie positive ou la canalisation d’énergie pour blesser les extérieurs Mauvais situés dans un rayon de 9 mètres.
 
+{s:AO}{s:Reference|Manuel des arts divinatoires}
+====Manuel des arts divinatoires====
+Ce livret petit mais épais contient des informations sur un type particulier de divination populaire, tel que la cartomancie, la chiromancie, la cristallomancie ou l’élaboration d’horoscopes. L’utilisation de ce manuel pour prédire l’avenir d’une créature réduit de deux minutes le temps de la séance. L’utilisation du manuel confère également un bonus de circonstances de +2 lorsqu’il est utilisé en effectuant un test de [[Psychologie]] dans le cadre de l’extension de compétence occulte [[Extensions de compétences occultes#PRÉDICTION|prédiction]]. Si la méthode de prédiction nécessite l’utilisation d’un objet précis, tel qu’un jeu de cartes pour la cartomancie ou des os d’animaux pour l’ostéomancie, cet objet confère un bonus de circonstances de +2 qui ne se cumule pas avec celui conféré par le manuel des arts divinatoires. Un manuel des arts divinatoires est surtout utile pour la pratique de la chiromancie (la lecture des lignes de la main), l’élaboration d’horoscopes et les autres méthodes qui ne nécessitent l’utilisation d’aucun objet spécial.
+
 {s:ClearRight}{s:racial|Elfe|elfes|Illustrations/PNJ/Elfe.jpg}{s:MR}{s:Reference|Manuel d’exercices arcaniques familial}
 ====Manuel d’exercices arcaniques familial====
 Comme les elfes sont prédisposés à devenir magiciens et que ces gens bénéficient de nombreux avantages sociaux, beaucoup de familles elfiques étudient la magie sur plusieurs générations. Les magiciens elfiques les plus âgés consignent leurs découvertes magiques et leurs réflexions dans des manuels d’exercice que les générations futures sont appelées à utiliser et compléter. Si un elfe utilise un manuel d’exercices arcaniques familial comme référence lors d’un test d’[[Art de la magie]] (ce qui lui demande 1d4 [[action complexe|actions complexes]] à chercher dans le texte), il bénéficie d’un bonus de circonstances de +2 au test. Ce bonus passe à +4 s’il passe 1d4 heures à consulter le livre.
@@ -287,6 +346,10 @@ Ces crampons, pitons, cordes et autres outils accordent un bonus de circonstance
 ====Ombrelle====
 Cette ombrelle pliable est translucide et non-étanche. Elle protège de la chaleur directe du soleil. Dans les environnements très chauds où le soleil est un facteur important (comme dans le désert), elle accorde un bonus de circonstances de +1 aux jets de [[Vigueur]] que le personnage doit faire toutes les heures contre la chaleur et réduit les dégâts subis en cas de jet raté de 1 point de vie (minimum de 1). Elle fournit une protection insuffisante dans les environnements de forte ou d’extrême chaleur. Le personnage doit tenir l’ombrelle d’une main et l’utiliser pour s’abriter du soleil. Sinon, il peut la tenir d’une main et l’utiliser pour protéger une autre créature de sa taille ou plus petite. Le prix est indiqué pour une ombrelle simple et fonctionnelle faite en toile ou en papier laqué. L’ombrelle utilisée comme accessoire de mode peut être bien plus chère, en fonction des matériaux qui la composent, allant de 1 po à 10 po.<br>
 ''Parapluie.'' Le parapluie est une ombrelle plus lourde et étanche faite en toile huilée ou cirée. Il sert à rester au sec quand il pleut ou quand il neige mais il peut également protéger du soleil comme une ombrelle standard.
+
+{s:AO}{s:Reference|Ouija}
+====Ouija====
+Sur cette fine planche de bois rectangulaire sont imprimés en arc de cercle les lettres de l’alphabet, des chiffres et deux courts messages pour l’affirmative et la négative. Accompagné d’un petit pointeur en forme de cœur monté sur de courts supports en bois, cet outil permet de communiquer avec des esprits ou d’entrer en contact avec le subconscient de l’utilisateur. Un ouija peut être utilisé à la place d’un crayon et d’une feuille de papier ou d’une [[Équipement daventurier#Planchette d'écriture automatique|planchette d’écriture automatique]] quand l’utilisateur effectue un test de [[Linguistique]] en utilisant l’extension de compétence occulte [[Extensions de compétences occultes#ÉCRITUREAUTOMATIQUE|écriture automatique]]. Le cas échéant, il confère un bonus de circonstances de +2 à ces tests. En outre, vu la taille de la planche, l’utilisateur peut bénéficier du soutien d’une autre créature psychiquement sensible qui peut améliorer ses chances en réussissant l’action aider quelqu’un. Il est également possible d’utiliser le ouija seul pour tenter de faire remonter des souvenirs à la surface en utilisant l’extension de compétence occulte [[Extensions de compétences occultes#HYPNOSE|hypnose]]. L’utilisateur effectue le test comme à l’accoutumée (il est le sujet de cette séance) en bénéficiant d’un bonus de circonstances de +2. Utilisé pour canaliser une [[Nouvelles règles sur les apparitions|apparition]] capable de communiquer, un ouija double la vitesse de la communication et confère à son utilisateur un bonus de circonstances de +4 aux tests de [[Linguistique]] effectués pour décrypter les messages énigmatiques. Un ouija remplit les mêmes fonctions que d’autres équipements (comme les planchettes d’écriture automatique et les [[Équipement daventurier#Médaillon d'hypnotiseur|médaillons d’hypnotiseur]]), mais ces objets ne peuvent être utilisés en même temps pour obtenir plusieurs bonus ou augmenter plus de deux fois la vitesse de la communication avec une apparition.
 
 {s:Reference|Outil de maître}
 ====Outil de maître====
@@ -305,6 +368,14 @@ Ces outils spéciaux regroupent tout le nécessaire à la fabrication de n’imp
 Cette trousse comprend des crochets de serrurier et autres outils nécessaires à l’utilisation de la compétence [[Sabotage]].
 Sans ces outils, le personnage doit utiliser des outils improvisés et reçoit un malus de circonstances de -2 à ses tests de [[Sabotage]].<br>
 ''Outils de cambrioleur de qualité supérieure.'' Cette trousse comprend des outils supplémentaires et de meilleure facture accordant un bonus de circonstances de +2 aux tests de [[Sabotage]].
+
+{s:AO}{s:Reference|Ouvrage de référence sur l’occulte}
+====Ouvrage de référence sur l’occulte====
+La taille et la forme de ces ouvrages sont très diverses. Ils peuvent prendre la forme de manuscrits enluminés et reliés ou de collections de journaux, de notes et de parchemins rédigés à plusieurs mains. Lorsqu’il est utilisé comme référence (une action qui nécessite généralement 1d4 minutes de recherche en lisant son contenu), un ouvrage de référence sur l’occulte confère un bonus de circonstances de +2 aux tests de [[Connaissances]] en rapport avec le sujet occulte abordé par le texte. Parmi les thèmes occultes souvent abordés dans les ouvrages de référence, on trouve la projection astrale, les [[Auras|auras]], les rêves, les [[Les lignes telluriques|lignes telluriques]], les [[Médium#ESPRIT|esprits des médiums]] et les [[Rituels occultes|rituels]]. Les ouvrages de référence sur l’occulte qui abordent ces sujets de manière plus globale, comme les esprits dans leur ensemble, fournissent un aperçu mais pas suffisamment de détails pour conférer un quelconque bonus.
+
+{s:AO}{s:Reference|Pantin de ventriloque}
+====Pantin de ventriloque====
+Un pantin de ventriloque est une marionnette en bois finement sculptée, peinte et habillée pour ressembler à un humanoïde typique d’une taille de soixante centimètres environ. Une ouverture à l’arrière du pantin permet à une créature de taille M ou P d’y insérer son bras pour le manipuler. Utilisé lors d’un spectacle, le pantin de ventriloque confère un bonus de circonstances de +2 aux tests de [[Représentation]] (farce).
 
 {s:Reference|Piège à ours}
 ====Piège à ours====
@@ -338,9 +409,17 @@ qui ne rentrent pas dans une sacoche. La plupart des sacoches à composantes son
 ====Sacoche de l'alchimiste====
 On considère qu’un [[alchimiste]] possédant une sacoche de l’alchimiste a toutes les composantes matérielles qu’il faut pour créer ses extraits, ses mutagènes et ses bombes, à l’exception des composantes ayant un coût spécifique. La sacoche de l’alchimiste n’offre aucun bonus aux tests d’[[Artisanat]] (alchimie).
 
+{s:AO}{s:Reference|Solarium portable}
+====Solarium portable====
+Cette longue boîte en bois contient plusieurs armatures de bronze élaborées, des poids de balance, un tapis facilement pliable, des verres pourprés de tailles et de formes diverses. La boîte peut s’assembler en forme de petite couche au-dessus de laquelle est suspendue une série de verres savamment agencés qui pivotent lentement pour filtrer et diffuser la lumière du soleil. Uniquement utilisable les jours de grand soleil, le solarium est suffisamment spacieux pour accueillir une créature de taille M ou deux créatures de taille P. Les créatures s’allongent sous les verres et profitent des rayons curatifs de lumière naturelle filtrée. Le solarium peut être utilisé en conjonction avec les soins suivis en utilisant la compétence de [[Premiers secours]]. Les créatures exposées à la lumière filtrée pendant huit heures de repos récupèrent 1 [[pv|point de vie]] supplémentaire par niveau ou 1 point de caractéristique supplémentaire si les soigneurs réussissent le test de Premiers secours requis.
+
 {s:Reference|Soufflet}
 ====Soufflet====
 Les soufflets sont pratiques pour démarrer les feux, accordant un bonus de circonstances de +1 aux tests de [[Survie]] pour démarrer ou entretenir un feu.
+
+{s:AO}{s:Reference|Suerie portable}
+====Suerie portable====
+Une suerie est une grande bâche de cuir posée sur une armature de bois pliable composée de pilotis et de lamelles en écorce de bouleau. Elle contient des rouleaux de cuir et des pierres sacrées. La hutte, une fois assemblée, ressemble à un petit dôme qui peut servir de tente et dans laquelle peuvent s’allonger deux humanoïdes de taille M ou quatre de taille P. Quand les pierres sont chauffées et que de l’eau est versée dessus pour créer une vapeur étouffante, la hutte sert de suerie consacrée aux cérémonies curatives qui confère un bonus de circonstances de +2 aux tests de [[Premiers secours]] effectués en utilisant l’extension de compétence occulte [[Extensions de compétences occultes#GUÉRISONMIRACULEUSE|guérison miraculeuse]].
 
 {s:Reference|Tarot de voyant}
 ====Tarot de voyant====
@@ -355,6 +434,10 @@ Ce petit coffret en bois accueille de nombreux petits compartiments remplis d’
 {s:Reference|Trousse d'antidotes}
 ====Trousse d'antidotes====
 Cette petite boîte contient une grande variété de remèdes et de traitements contre les poisons spécifiques mais aussi contre leurs méthodes d’application les plus courantes (elle comprend par exemple des purgatifs pour éliminer les toxines ingérées). La trousse accorde un bonus de circonstances de +3 aux tests de [[Premiers secours]] pour traiter le poison. Une trousse d’antidotes est épuisée après 10 utilisations.
+
+{s:Reference|Trousse d'armurier}
+====Trousse d'armurier====
+Cette petite trousse contient tous les outils nécessaires pour fabriquer, réparer, et remettre en état les armes à feu (à l'exception des composants et matériaux de base). Sans une telle trousse, il est impossible de créer, réparer, ou entretenir correctement des armes à feu.
 
 {s:Reference|Trousse de cartographe}
 ====Trousse de cartographe====
@@ -372,15 +455,30 @@ Cet ensemble d’encres, de feuilles, de modèles d’attestations et d’outils
 ====Trousse de jongleur====
 Cette trousse contient plusieurs ensembles d’objets parfaitement équilibrés tels que des balles, des gourdins, des couteaux, des anneaux et des torches. Elle accorde un bonus de +1 aux tests de [[Représentation]] (scène ou farce) et aux tests impliquant le jonglage.
 
+{s:AO}{s:Reference|Trousse de médium frauduleux}
+====Trousse de médium frauduleux====
+Cette grande valise contient de nombreux objets utiles à ceux qui veulent se faire passer pour des experts en matière de canalisation d’esprits. Elle contient des bougies, des miroirs et des perches télescopiques de trois mètres de long, ainsi qu’une sélection d’objets spéciaux : des planches d’écriture automatique truquées, des trompettes ordinaires pour esprits conçues pour entendre la voix des esprits, plusieurs bandeaux truqués pour bander les yeux du médium pendant les démonstrations, ainsi que des peintures luminescentes et des rubans de gaze fine pour simuler l’apparition de spectres. L’utilisation du matériel contenu dans cette trousse confère un bonus de circonstances de +2 aux tests de [[Bluff]], d’[[Escamotage]] et d’[[Évasion]] effectués pour faire croire à l’authenticité des séances de spiritisme, d’écriture automatique et autres pratiques occultes.
+
 {s:Reference|Trousse de premiers secours}
 ====Trousse de premiers secours====
-Cet ensemble de bandages et d’herbes fournit un bonus de circonstances de +2 aux tests de [[Premiers secours]]. Une trousse de
-premiers secours est épuisée après 10 utilisations.
+Cet ensemble de bandages et d’herbes fournit un bonus de circonstances de +2 aux tests de [[Premiers secours]]. Une trousse de premiers secours est épuisée après 10 utilisations.
+
+{s:AO}{s:Reference|Trousse de phrénologue}
+====Trousse de phrénologue====
+Ce sac de médecin en cuir contient tout l’attirail utilisé par un phrénologue pour mesurer les crânes. Cette trousse comprend plusieurs compas métalliques de tailles diverses pour mesurer les crânes, un crâne humanoïde sculpté dans le calcaire sur lequel sont gravés les noms des différentes zones crâniennes et les références chiffrées des crânes de diverses espèces rassemblées sous formes de tables. Cette trousse confère un bonus de circonstances de +2 aux tests de [[Connaissances]] (mystères) effectués en utilisant l’extension de compétence occulte [[Extensions de compétences occultes#PHRÉNOLOGIE|phrénologie]].
 
 {s:Reference|Trousse de sage-femme}
 ====Trousse de sage-femme====
 Cette trousse est utilisée par les sages-femmes qui s’occupent des femmes enceintes et les aider à accoucher. Chaque trousse comprend des herbes pour traiter les situations courantes liées à la grossesse, des baumes pour soulager la douleur et la peau distendue, des langes, un petit couteau tranchant pour le cordon ombilical, du talc pour nettoyer le nouveau-né, des bandages, une aiguille et du fil. Cette trousse accorde un bonus de circonstances de +4 aux tests de [[Premiers secours]] pour traiter les grossesses et les accouchements d’humanoïdes. Le personnage peut l’utiliser pour la grossesse et l’accouchement d’autres créatures (comme les animaux ou les humanoïdes monstrueux) mais elle n’accorde qu’un bonus de +2 aux tests de [[Premiers secours]]. La trousse de sage-femme est épuisée après 10 utilisations.
 
+{s:cs}{s:RSE}{s:Reference|Trousse d'Éclaireur}
+====Trousse d'Explorateur====
+Cette trousse comprend un sac à dos, un sac de couchage, une bourse, une chope en terre cuite, une dague, deux hameçons, un silex et de l’amadou, une aiguille à coudre, un sifflet, 15 mètres de ficelle, 15 mètres de fil à coudre, une semaine de rations, une outre et une pierre à aiguiser. Les trousses destinées aux créatures de taille P pèsent 3,75 kilos. Si le sac de couchage et les rations restent au camp ou sur une monture, la trousse pèse 6 kilos de moins pour les créatures de taille M et 1,5 kilos de moins pour les créatures de taille P.
+
 {s:Reference|Trousse de vétérinaire}
 ====Trousse de vétérinaire====
-Cette trousse équivaut à la trousse de premiers secours mais elle contient surtout du matériel permettant de traiter les animaux les plus répandus (chats, chiens, chèvres, boeufs, moutons, etc.). Elle accorde un bonus de circonstances de +3 aux tests de [[Premiers secours]] pour traiter les animaux mais seulement un bonus de circonstances de +1 aux tests de [[Premiers secours]] pour traiter les autres créatures. La trousse de vétérinaire est épuisée après 10 utilisations.
+Cette trousse équivaut à la trousse de premiers secours mais elle contient surtout du matériel permettant de traiter les animaux les plus répandus (chats, chiens, chèvres, bœufs, moutons, etc.). Elle accorde un bonus de circonstances de +3 aux tests de [[Premiers secours]] pour traiter les animaux mais seulement un bonus de circonstances de +1 aux tests de [[Premiers secours]] pour traiter les autres créatures. La trousse de vétérinaire est épuisée après 10 utilisations.
+
+{s:cs}{s:RSE}{s:Reference|Trousse d'infiltrateur}
+====Trousse d'infiltrateur====
+Cette trousse est bien utile aux Explorateurs qui doivent recourir à la ruse et à la duperie pour obtenir des informations. Elle contient des chausse-trappes, de la craie, une trousse de déguisement, un cornet acoustique, des chaussures à fausses empreintes, un passe-partout et un fourreau de poignet. Les trousses destinées aux créatures de taille P pèsent 4,5 kilos.

@@ -1,0 +1,55 @@
+---
+Name: Starfinder.Informatique
+Title: Informatique
+LastModified: 2021-08-31 00:12
+Categories:
+  - 'Règles officielles'
+---
+===INFORMATIQUE (INT; FORMATION NÉCESSAIRE)===
+
+Vous pouvez faire fonctionner, manipuler et pirater des systèmes informatiques. Si vous ne pouvez accéder physiquement à l’interface utilisateur d’un système informatique, vous devez utiliser une trousse de piratage pour accéder au système et le manipuler. [Les ordinateurs|Les ordinateurs] sont configurés pour offrir un « accès privilégié » à un ou plusieurs utilisateurs autorisés, ce qui permet à ces utilisateurs d’accéder à leurs informations ou fonctions par une action simple sans avoir à faire de test d’Informatique. Les pare-feu peuvent empêcher l’accès à certaines sections d’un ordinateur et conférer à différents utilisateurs un accès privilégié à ces sections.
+Le DD de base de nombre des tâches liées à la compétence Informatique est égal à 13 + (4 × l’échelon de l’ordinateur). Le MJ peut modifier ces DD en fonction d’autres circonstances.
+
+====Accéder à un système non sécurisé====
+Vous pouvez utiliser la compétence Informatique pour accéder aux fonctions les plus basiques d’un système informatique non sécurisé. 
+Le DD pour accéder aux informations ou aux fonctions d’un ordinateur public qu’aucune contre-mesure ou qu’aucun pare-feu ne protègent est le plus souvent de 10. À la différence des autres tâches que l’on peut accomplir avec la compétence Informatique, vous pouvez tenter d’accéder à un système même sans bénéficier d’une formation si vous faites 20 pour accomplir cette tâche, ce qui nécessite 2 minutes. 
+On peut également accéder à des systèmes informatiques sécurisés et les sections sécurisées d’un système par ailleurs non sécurisé en effectuant des tests d’Informatique pour pirater un système (voir la 
+page 142).
+
+====Créer ou détecter une contrefaçon====
+Vous pouvez utiliser la compétence Informatique pour produire de faux documents officiels. Cela prend 1d4 minutes. Le MJ effectue le test d’Informatique pour créer une contrefaçon en secret, vous ne savez donc pas si votre contrefaçon est réaliste ou non. Ce test est opposé au test d’Informatique de ceux qui examinent le document pour déterminer son authenticité.
+Les DD des tests d’Informatique pour détecter une contrefaçon dépendent du type de document contrefait, ainsi que d’autres circonstances déterminées par le MJ et indiquées dans la table suivante.
+
+<center>
+{| CLASS="tablo"
+|- CLASS="titre"
+| CIRCONSTANCE || MODIF. AU DD
+|- CLASS="premier"
+|/ Le document va à l’encontre d’une chose connue ou d’ordres || -2
+|/ Le type de document est bien connu de celui qui l’examine || -2
+|/ Le type de document n’est pas connu de celui qui l’examine || +2
+|/ Celui qui examine le document ne fait qu’y jeter un œil || +2
+|/ Le faussaire possède un document officiel similaire en modèle || +8
+|}
+</center>
+
+====Désactiver ou manipuler un module====
+Un personnage ayant un accès privilégié à un ordinateur peut désactiver ou manipuler une contre-mesure ou un module par une action simple en réussissant un test d’Informatique DD 10. Si vous disposez d’un accès simple (main non privilégié) à un ordinateur, vous pouvez effectuer un test d’Informatique pour activer, ajouter, désactiver ou manipuler des contre-mesures ou des modules. Si vous voulez interagir avec une contre-mesure ou un module protégé par un pare-feu, vous devez d’abord pirater le système (voir plus bas) pour pouvoir y accéder. L’activation ou la désactivation d’une contre-mesure ou d’un module prend généralement 1 minute par échelon de l’ordinateur. 
+Toutes ces tâches ont un DD égal à celui appliqué lors du piratage d’un système. Vous ne pouvez pas faire 20 à un test d’Informatique effectué pour désactiver ou manipuler un module.
+
+====Détecter une section factice====
+Si vous avez accès un ordinateur mais pas à un accès privilégié, il est possible que vous n’ayez accès qu’à une section factice (une contre-mesure informatique qui redirige vers de faux dossiers au lieu des vrais). Si vous réussissez ce test, vous vous rendez compte que vous avez accès à une section factice. Le DD dépend de l’échelon du système informatique.
+
+====Détruire ou réparer un système ou un module====
+Vous pouvez utiliser la compétence Informatique pour réparer un système ou un module informatique désactivé, ou pour en détruire un retiré ou désactivé, ce qui nécessite 10 minutes de travail sur l’ordinateur par échelon du système informatique. Le DD dépend de l’échelon du système informatique. Si vous réparez un module ou un système désactivé et que vous ratez le test de 5 points ou plus, vous détruisez accidentellement le module ou le système. Vous ne pouvez pas faire 20 aux tests d’Informatique effectués pour détruire ou réparer un système informatique.
+
+====Fabriquer un ordinateur====
+Vous pouvez fabriquer des ordinateurs si vous avez suffisamment de rangs en Informatique. (Voir les [règles de fabrication|règles de fabrication])
+
+====Obtenir un accès privilégié====
+Si vous bénéficiez d’un accès simple à un ordinateur, vous pouvez tenter d’étendre vos autorisations pour obtenir un accès privilégié. 
+Cette tâche est similaire au piratage de ce même ordinateur mais le DD est augmenté de 20. Il est impossible, dans de nombreux cas, d’obtenir un accès privilégié et chaque tâche, en dehors des fonctions basiques de l’ordinateur, doit être tentée par le biais d’un test distinct pour détruire, réparer, désactiver ou manipuler des modules ou des contre-mesures. Si un pare-feu a été configuré de manière à autoriser un accès privilégié à différents utilisateurs accrédités, vous devez obtenir un accès privilégié à ce pare-feu indépendamment. Une fois que vous disposez d’un accès privilégié à un ordinateur, vous pouvez modifier la liste des personnes bénéficiant d’un accès privilégié en réussissant un test d’Informatique pour pirater le système.
+
+====Pirater un système====
+Vous pouvez utiliser la compétence Informatique pour pirater un système informatique auquel vous n’avez pas déjà accès. Pirater un système informatique nécessite généralement une action complexe par échelon du système informatique. Vous pouvez réduire cette durée de moitié (jusqu’à un minimum d’une action complexe) par augmentation de 5 points du DD du test d’Informatique. Si vous réussissez le test, vous accédez à toutes les sections de l’ordinateur non protégées par un [pare-feu|pare-feu]. Ceci vous permet d’utiliser les fonctions de base de l’ordinateur et de faire d’autres tests nécessitant un accès de votre part. Accéder aux sections d’un ordinateur situées derrière un pare-feu nécessite un test d’Informatique supplémentaire pour chaque pare-feu.
+Si vous ratez un test d’Informatique pour pirater un système, vous pouvez déclencher une contre-mesure si l’une d’elles a été installée. Si vous faites 20 à un test d’Informatique pour pirater un système protégé par des contre-mesures sans les désactiver ou les détruire au préalable, ces contre-mesures sont automatiquement activées.

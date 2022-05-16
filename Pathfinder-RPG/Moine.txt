@@ -1,54 +1,22 @@
 ---
 Name: Pathfinder-RPG.Moine
 Title: Le moine
-LastModified: 2020-02-10 20:25
+LastModified: 2021-07-14 19:59
 Categories:
   - 'Classe'
-  - 'Manuel des joueurs'
-  - 'Manuel des joueurs, règles avancées'
-  - 'Règles officielles'
+  - 'Règle officielle'
+  - 'Src Manuel des joueurs'
+  - 'Src Manuel des joueurs - Règles avancées'
 ---
 {s:MenuClasses}
-<div class="fright">'''''Voir aussi les [[voeux]].'''''<br/>
-'''''Voir la version unchained du [Moine unchained|moine].'''''<br/>
+<div class="fright">'''''Voir aussi les [[voeux]].'''''  
+'''''Voir la [[Moine unchained|version unchained]] du moine.'''''  
 {s:PM0|moine}'''Voir les archétypes du moine'''&emsp;
-<ul ID="moine" CLASS="listecachée cadrebas">
-  <li>[[Adepte des armes (moine)|Adepte des armes]] (MJRA)</li>
-  <li>[[Archer zen (moine)|Archer zen]] (MJRA)</li>
-  <li>[[Artiste martial (moine)|Artiste martial]] (AG)</li>
-  <li>[[Champion des poids plume (moine)|Champion des poids plume]] ([[halfelin|Halfelin]]) (MR)</li>
-  <li>[[Chat sauvage (moine)|Chat sauvage]] (MCA)</li>
-  <li>[[Disciple gris (moine)|Disciple gris]] ([[Pathfinder-RPG.duergar (race)|Duergar]]) (MR)</li>
-  <li>[[Élève de la pierre (moine)|Élève de la pierre]] ([[oréade (race)|Oréade]]) (MR)</li>
-  <li>[[Gardien agile (moine)|Gardien agile]] ([[homme-félin (race)|Homme-félin]]) (MR)</li>
-  <li>[[Maître des écoles (moine)|Maître des écoles]] (AG)</li>
-  <li>[[Maître des katas (moine)|Maître des katas]] (MCA)</li>
-  <li>[[Maître des manoeuvres (moine)|Maître des manœuvres]] (AG)</li>
-  <li>[[Maître ivre (moine)|Maître ivre]] (MJRA)</li>
-  <li>[[Moine à peau de fer (moine)|Moine à peau de fer]] ([[hobgobelin (race)|Hobgobelin]]) (MR)</li>
-  <li>[[Moine de la main qui guérit (moine)| Moine de la main qui guérit]] (MJRA)</li>
-  <li>[[Moine de la main vide (moine)|Moine de la main vide]] (MJRA)</li>
-  <li>[[Moine de la montagne sacrée (moine)|Moine de la montagne sacrée]] (MJRA)</li>
-  <li>[[Moine des cimes (moine)|Moine des cimes]] ([[vanara (race)|Vanara]]) (MR)</li>
-  <li>[[Moine des quatre vents (moine)|Moine des quatre vents]] (MJRA)</li>
-  <li>[[Moine du Fantôme affamé (moine)| Moine du fantôme affamé]] (MJRA)</li>
-  <li>[[Moine du lotus (moine)|Moine du lotus]] (MJRA)</li>
-  <li>[[Moine fluide (moine)|Moine fluide]] (AG)</li>
-  <li>[[Moine qinggong (moine)|Moine qinggong]] (AM)</li>
-  <li>[[Moine karmique (moine)|Moine karmique]] (AO)</li>
-  <li>[[Mystique ki (moine)|Mystique ki]] (MJRA)</li>
-  <li>[[Sensei (moine)|Sensei]] (AG)</li>
-  <li>[[Sohei (moine)|Sohei]] (AG)</li>
-  <li>[[Tetori (moine)|Tetori]] (AG)</li>
-  <li>[[Vagabond (moine)|Vagabond]] ([[humain|Humain]]) (MR)</li>
-</ul></div>
+  <li ID="moine" CLASS="listecachée" STYLE="display:none">{s:Menuarchétypemoine}</li>
+</div>''Pour certains individus réellement exemplaires, l’art du combat ne se limite pas au champ de bataille : il s’agit d’un mode de vie, d’une doctrine, d’un état d’esprit. Ces artistes-combattants recherchent des méthodes de combat qui transcendent les épées et les boucliers. Ils découvrent que la nature les a dotés d’armes tout aussi capables d’affaiblir ou de tuer que les lames. Il s’agit des moines, qu’on appelle ainsi parce qu’ils adhèrent à d’anciennes philosophies et à une discipline martiale stricte. Qu’il s’agisse d’ascètes avec un penchant pour le combat ou de pugilistes qui ont appris sur le tas, ils font de leur corps de véritables armes de guerre. Les moines suivent la voie de la discipline, et ceux qui possèdent suffisamment de volonté pour rester sur ce chemin découvrent en eux non pas qui ils sont, mais ce qu’ils sont destinés à devenir.''
 
-''Pour certains individus réellement exemplaires, l’art du combat ne se limite pas au champ de bataille : il s’agit d’un mode de vie, d’une doctrine, d’un état d’esprit. Ces artistes-combattants recherchent des méthodes de combat qui transcendent les épées et les boucliers. Ils découvrent que la nature les a dotés d’armes tout aussi capables d’affaiblir ou de tuer que les lames. Il s’agit des moines, qu’on appelle ainsi parce qu’ils adhèrent à d’anciennes philosophies et à une discipline martiale stricte. Qu’il s’agisse d’ascètes avec un penchant pour le combat ou de pugilistes qui ont appris sur le tas, ils font de leur corps de véritables armes de guerre. Les moines suivent la voie de la discipline, et ceux qui possèdent suffisamment de volonté pour rester sur ce chemin découvrent en eux non pas qui ils sont, mais ce qu’ils sont destinés à devenir.''
-
-{s:Reference|TABLEMOINE}
-<center style="font-size:95%">
-{| CLASS="tablo"
-|+ Le moine
+{| CLASS="tablo centre autoalt"
+|+ {s:Reference|TABLEMOINE}Le moine
 |- CLASS="titre"
 | Niv
 | BBA
@@ -66,19 +34,19 @@ Categories:
 | +2
 | +2
 | +2
-| CLASS="gauche" | [[Moine#DONSUPPLEMENTAIRE|don supplémentaire]], [[Moine#DELUGEDECOUPS|déluge de coups]], <br/>[[Moine#COUPETOURDISSANT|coup étourdissant]], [[Moine#COMBATAMAINSNUES|combat à mains nues]]
-| -1/-1
+| CLASS="gauche" | [[Moine#COMBATAMAINSNUES|Combat à mains nues]], [[Moine#COUPETOURDISSANT|coup étourdissant]], [[Moine#DELUGEDECOUPS|déluge de coups]], [[Moine#DONSUPPLEMENTAIRE|don supplémentaire]]
+| STYLE="font-size:90%" | -1/-1
 | 1d6
 | +0
 | +0 m
-|- CLASS="alt"
+|-
 | 2
 | +1
 | +3
 | +3
 | +3
-| CLASS="gauche" | [[Moine#DONSUPPLEMENTAIRE|don supplémentaire]], [[Moine#ESQUIVETOTALE|esquive totale]]
-| +0/+0
+| CLASS="gauche" | [[Moine#DONSUPPLEMENTAIRE|Don supplémentaire]], [[Moine#ESQUIVETOTALE|esquive totale]]
+| STYLE="font-size:90%" | +0/+0
 | 1d6
 | +0
 | +0 m
@@ -88,202 +56,201 @@ Categories:
 | +3
 | +3
 | +3
-| CLASS="gauche" | [[Moine#DEPLACEMENTACCELERE|déplacement accéléré]], [[Moine#ENTRAINEMENTAUXMANOEUVRESOFFENSIVES|entraînement aux]]<br/> [[Moine#ENTRAINEMENTAUXMANOEUVRESOFFENSIVES|manœuvres offensives]], [[Moine#SERENITE|sérénité]]
-| +1/+1
+| CLASS="gauche" | [[Moine#DEPLACEMENTACCELERE|Déplacement accéléré]], [[Moine#ENTRAINEMENTAUXMANOEUVRESOFFENSIVES|entraînement aux]], [[Moine#ENTRAINEMENTAUXMANOEUVRESOFFENSIVES|manœuvres offensives]], [[Moine#SERENITE|sérénité]]
+| STYLE="font-size:90%" | +1/+1
 | 1d6
 | +0
-| +3 m (2 cases)
-|- CLASS="alt"
+| +3 m (2 {s:c})
+|-
 | 4
 | +3
 | +4
 | +4
 | +4
-| CLASS="gauche" | [[Moine#RESERVEDEKI|réserve de ki]] (magique), [[Moine#CHUTERALENTIE|chute ralentie]] 6 m
-| +2/+2
+| CLASS="gauche" | [[Moine#CHUTERALENTIE|Chute ralentie]] 6 m, [[Moine#RESERVEDEKI|réserve de ki]] (magique)
+| STYLE="font-size:90%" | +2/+2
 | 1d8
 | +1
-| +3 m (2 cases)
+| +3 m (2 {s:c})
 |-
 | 5
 | +3
 | +4
 | +4
 | +4
-| CLASS="gauche" | [[Moine#SAUTSPUISSANTS|sauts puissants]], [[Moine#PURETEPHYSIQUE|pureté physique]]
-| +3/+3
+| CLASS="gauche" | [[Moine#PURETEPHYSIQUE|Pureté physique]], [[Moine#SAUTSPUISSANTS|sauts puissants]]
+| STYLE="font-size:90%" | +3/+3
 | 1d8
 | +1
-| +3 m (2 cases)
-|- CLASS="alt"
+| +3 m (2 {s:c})
+|-
 | 6
 | +4
 | +5
 | +5
 | +5
-| CLASS="gauche" | [[Moine#DONSUPPLEMENTAIRE|don supplémentaire]], [[Moine#CHUTERALENTIE|chute ralentie]] 9 m
-| +4/+4/-1
+| CLASS="gauche" | [[Moine#DONSUPPLEMENTAIRE|Don supplémentaire]], [[Moine#CHUTERALENTIE|chute ralentie]] 9 m
+| STYLE="font-size:90%" | +4/+4/-1
 | 1d8
 | +1
-| +6 m (4 cases)
+| +6 m (4 {s:c})
 |-
 | 7
 | +5
 | +5
 | +5
 | +5
-| CLASS="gauche" | [[Moine#RESERVEDEKI|réserve de ki]] (fer froid/argent), [[Moine#PLENITUDEPHYSIQUE|plénitude physique]]
-| +5/+5/+0
+| CLASS="gauche" | [[Moine#PLENITUDEPHYSIQUE|Plénitude physique]], [[Moine#RESERVEDEKI|réserve de ki]] (fer froid/argent)
+| STYLE="font-size:90%" | +5/+5/+0
 | 1d8
 | +1
-| +6 m (4 cases)
-|- CLASS="alt"
+| +6 m (4 {s:c})
+|-
 | 8
 | +6/+1
 | +6
 | +6
 | +6
-| CLASS="gauche" | [[Moine#CHUTERALENTIE|chute ralentie]] 12 m
-| +6/+6/+1/+1
+| CLASS="gauche" | [[Moine#CHUTERALENTIE|Chute ralentie]] 12 m
+| STYLE="font-size:90%" | +6/+6/+1/+1
 | 1d10
 | +2
-| +6 m (4 cases)
+| +6 m (4 {s:c})
 |-
 | 9
 | +6/+1
 | +6
 | +6
 | +6
-| CLASS="gauche" | [[Moine#ESQUIVESURNATURELLE|esquive surnaturelle]]
-| +7/+7/+2/+2
+| CLASS="gauche" | [[Moine#ESQUIVESURNATURELLE|Esquive surnaturelle]]
+| STYLE="font-size:90%" | +7/+7/+2/+2
 | 1d10
 | +2
-| +9 m (6 cases)
-|- CLASS="alt"
+| +9 m (6 {s:c})
+|-
 | 10
 | +7/+2
 | +7
 | +7
 | +7
-| CLASS="gauche" | [[Moine#DONSUPPLEMENTAIRE|don supplémentaire]], [[Moine#RESERVEDEKI|réserve de ki]] (loyale), <br/>[[Moine#CHUTERALENTIE|chute ralentie]] 15 m
-| +8/+8/+3/+3
+| CLASS="gauche" | [[Moine#CHUTERALENTIE|Chute ralentie]] 15 m, [[Moine#DONSUPPLEMENTAIRE|don supplémentaire]], [[Moine#RESERVEDEKI|réserve de ki]] (loyale)
+| STYLE="font-size:90%" | +8/+8/+3/+3
 | 1d10
 | +2
-| +9 m (6 cases)
+| +9 m (6 {s:c})
 |-
 | 11
 | +8/+3
 | +7
 | +7
 | +7
-| CLASS="gauche" | [[Moine#CORPSDEDIAMANT|corps de diamant]]
-| +9/+9/+4/+4/-1
+| CLASS="gauche" | [[Moine#CORPSDEDIAMANT|Corps de diamant]]
+| STYLE="font-size:90%" | +9/+9/+4/+4/-1
 | 1d10
 | +2
-| +9 m (6 cases)
-|- CLASS="alt"
+| +9 m (6 {s:c})
+|-
 | 12
 | +9/+4
 | +8
 | +8
 | +8
-| CLASS="gauche" | [[Moine#PASCHASSE|pas chassé]], [[Moine#CHUTERALENTIE|chute ralentie]] 18 m
-| +10/+10/+5/+5/+0
+| CLASS="gauche" | [[Moine#CHUTERALENTIE|Chute ralentie]] 18 m, [[Moine#PASCHASSE|pas chassé]]
+| STYLE="font-size:90%" | +10/+10/+5/+5/+0
 | 2d6
 | +3
-| +12 m (8 cases)
+| +12 m (8 {s:c})
 |-
 | 13
 | +9/+4
 | +8
 | +8
 | +8
-| CLASS="gauche" | [[Moine#AMEDEDIAMANT|âme de diamant]]
-| +11/+11/+6/+6/+1
+| CLASS="gauche" | [[Moine#AMEDEDIAMANT|Âme de diamant]]
+| STYLE="font-size:90%" | +11/+11/+6/+6/+1
 | 2d6
 | +3
-| +12 m (8 cases)
-|- CLASS="alt"
+| +12 m (8 {s:c})
+|-
 | 14
 | +10/+5
 | +9
 | +9
 | +9
-| CLASS="gauche" | [[Moine#DONSUPPLEMENTAIRE|don supplémentaire]], [[Moine#CHUTERALENTIE|chute ralentie]] 21 m
-| +12/+12/+7/+7/+2
+| CLASS="gauche" | [[Moine#CHUTERALENTIE|Chute ralentie]] 21 m, [[Moine#DONSUPPLEMENTAIRE|don supplémentaire]]
+| STYLE="font-size:90%" | +12/+12/+7/+7/+2
 | 2d6
 | +3
-| +12 m (8 cases)
+| +12 m (8 {s:c})
 |-
 | 15
 | +11/+6/+1
 | +9
 | +9
 | +9
-| CLASS="gauche" | [[Moine#PAUMEVIBRATOIRE|paume vibratoire]]
-| +13/+13/+8/+8/+3/+3
+| CLASS="gauche" | [[Moine#PAUMEVIBRATOIRE|Paume vibratoire]]
+| STYLE="font-size:90%" | +13/+13/+8/+8/+3/+3
 | 2d6
 | +3
-| +15 m (10 cases)
-|- CLASS="alt"
+| +15 m (10 {s:c})
+|-
 | 16
 | +12/+7/+2
 | +10
 | +10
 | +10
-| CLASS="gauche" | [[Moine#RESERVEDEKI|réserve de ki]] (adamantium), <br/>[[Moine#CHUTERALENTIE|chute ralentie]] 24 m
-| +14/+14/+9/+9/+4/+4/-1
+| CLASS="gauche" | [[Moine#CHUTERALENTIE|Chute ralentie]] 24 m, [[Moine#RESERVEDEKI|réserve de ki]] (adamantium)
+| STYLE="font-size:90%" | +14/+14/+9/+9/+4/+4/-1
 | 2d8
 | +4
-| +15 m (10 cases)
+| +15 m (10 {s:c})
 |-
 | 17
 | +12/+7/+2
 | +10
 | +10
 | +10
-| CLASS="gauche" | [[Moine#ETERNELLEJEUNESSE|éternelle jeunesse]], <br/>[[Moine#LANGUEDUSOLEILETDELALUNE|langue du soleil et de la lune]]
-| +15/+15/+10/+10/+5/+5/+0
+| CLASS="gauche" | [[Moine#ETERNELLEJEUNESSE|Éternelle jeunesse]], [[Moine#LANGUEDUSOLEILETDELALUNE|langue du soleil et de la lune]]
+| STYLE="font-size:90%" | +15/+15/+10/+10/+5/+5/+0
 | 2d8
 | +4
-| +15 m (10 cases)
-|- CLASS="alt"
+| +15 m (10 {s:c})
+|-
 | 18
 | +13/+8/+3
 | +11
 | +11
 | +11
-| CLASS="gauche" | [[Moine#DONSUPPLEMENTAIRE|don supplémentaire]], [[Moine#CHUTERALENTIE|chute ralentie]] 27 m
-| +16/+16/+11/+11/+6/+6/+1
+| CLASS="gauche" | [[Moine#CHUTERALENTIE|Chute ralentie]] 27 m, [[Moine#DONSUPPLEMENTAIRE|don supplémentaire]]
+| STYLE="font-size:90%" | +16/+16/+11/+11/+6/+6/+1
 | 2d8
 | +4
-| +18 m (12 cases)
+| +18 m (12 {s:c})
 |-
 | 19
 | +14/+9/+4
 | +11
 | +11
 | +11
-| CLASS="gauche" | [[Moine#DESERTIONDELAME|désertion de l'âme]]
-| +17/+17/+12/+12/+7/+7/+2
+| CLASS="gauche" | [[Moine#DESERTIONDELAME|Désertion de l'âme]]
+| STYLE="font-size:90%" | +17/+17/+12/+12/+7/+7/+2
 | 2d8
 | +4
-| +18 m (12 cases)
-|- CLASS="alt"
+| +18 m (12 {s:c})
+|-
 | 20
 | +15/+10/+5
 | +12
 | +12
 | +12
-| CLASS="gauche" | [[Moine#PERFECTIONDELETRE|perfection de l'être]], <br/>[[Moine#CHUTERALENTIE|chute ralentie]] (n'importe quelle distance)
-| +18/+18/+13/+13/+8/+8/+3
+| CLASS="gauche" | [[Moine#CHUTERALENTIE|Chute ralentie]] (n'importe quelle distance), [[Moine#PERFECTIONDELETRE|perfection de l'être]]
+| STYLE="font-size:90%" | +18/+18/+13/+13/+8/+8/+3
 | 2d10
 | +5
-| +18 m (12 cases)
+| +18 m (12 {s:c})
 |-
 | CLASS="note" COLSPAN="10" | (*) Il s'agit de la valeur pour les moines de taille M. Voir le texte pour les moines de taille P ou G.
 |}
-</center>
 
 '''Rôle.''' Les moines excellent lorsqu’il s’agit de surmonter les dangers les plus périlleux. Ils frappent où on s’y attend le moins et profitent de tous les points faibles de l’ennemi. Rapides et doués au combat, ils peuvent se déplacer facilement sur le champ de bataille pour prêter main-forte à leurs alliés là où on a le plus besoin d’eux.
 
@@ -318,7 +285,6 @@ Ces bonus à la [[CA]] s’appliquent aussi contre les [[attaque de contact|atta
 
 {s:Reference|DELUGEDECOUPS}
 ====Déluge de coups (Ext)====
-
 Dès le niveau 1, un moine peut faire pleuvoir un déluge de coups lors d’une [[attaque à outrance]]. Dans ce cas, il peut porter une attaque supplémentaire à condition d'accepter une pénalité de -2 sur tous ses jets d'attaque, comme s'il utilisait le don [[Combat à deux armes]]. Les attaques en question peuvent être n'importe quelle combinaison d'attaques à mains nues et d'attaques utilisant des [[Groupe darmes#Armesdemoine|armes de moine]] (il n'est pas nécessaire d'utiliser deux armes différentes pour tirer parti de cette capacité). Pour déterminer les bonus de ces attaques, on considère que le [[BBA|bonus de base à l’attaque]] du moine est égal à son niveau de moine. Pour toutes les autres considérations (comme pour déterminer si le moine remplit les conditions d’un don ou d’une classe de prestige), le moine utilise son [[BBA|bonus de base à l’attaque]] normal.
 
 Au niveau 8, le moine peut porter deux attaques supplémentaires lorsqu’il fait pleuvoir un déluge de coups, comme s’il utilisait le don [[Science du combat à deux armes]] (même s’il ne remplit pas les conditions de ce don).
@@ -329,32 +295,28 @@ Le moine ajoute son bonus de [[Force]] entier aux jets de dégâts pour toutes l
 
 {s:Reference|COMBATAMAINSNUES}
 ====Combat à mains nues====
-
 <div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
 <div style="border: 1px solid #4b3124; padding: 4px">
-<center>
-{| CLASS="tablo"
-|+ Degats a mains nues des moines<br/> de taille P ou G
+{| CLASS="tablo centre autoalt"
+|+ Dégâts à mains nues des moines<br/>de taille P ou G
 |- CLASS="titre"
 | Niveau 
 | Dégâts<br/> (taille P) 
 | Dégâts<br/> (taille G)
 |- CLASS="premier"
 | 1–3 || 1d4 || 1d8
-|- CLASS="alt"
+|-
 | 4–7 || 1d6 || 2d6
 |- 
 | 8–11 || 1d8 || 2d8
-|- CLASS="alt"
+|-
 | 12–15 || 1d10 || 3d6
 |-
 | 16–19 || 2d6 || 3d8
-|- CLASS="alt"
+|-
 | 20 || 2d8 || 4d8
 |}
-</center>
-</div></div>
-Un moine de niveau 1 reçoit le don [[Science du combat à mains nues]] comme don supplémentaire. Ses attaques peuvent venir de ses poings, mais aussi de ses pieds, de ses coudes ou de ses genoux. Cela signifie qu’un moine peut même porter des attaques « à mains nues » alors que ses deux mains sont occupées à porter quelque chose. De plus, la notion d’attaque secondaire n’a pas de sens quand il se bat à mains nues. Un moine bénéficie donc toujours de son bonus de [[Force]] entier sur les [[jet de dégâts|jets de dégâts]] à mains nues.
+</div></div>Un moine de niveau 1 reçoit le don [[Science du combat à mains nues]] comme don supplémentaire. Ses attaques peuvent venir de ses poings, mais aussi de ses pieds, de ses coudes ou de ses genoux. Cela signifie qu’un moine peut même porter des attaques « à mains nues » alors que ses deux mains sont occupées à porter quelque chose. De plus, la notion d’attaque secondaire n’a pas de sens quand il se bat à mains nues. Un moine bénéficie donc toujours de son bonus de [[Force]] entier sur les [[jet de dégâts|jets de dégâts]] à mains nues.
 
 En règle générale, les attaques à mains nues du moine infligent des [[dégâts létaux]], mais le moine peut choisir d’infliger des [[dégâts non létaux]] sans devoir subir un malus au [[jet dattaque|jet d’attaque]]. Ce même choix lui est offert en situation de [[lutte]].
 
@@ -397,7 +359,6 @@ Au niveau 3, le moine utilise son niveau de moine au lieu de son [[BBA|bonus de 
 Un moine de niveau 3 bénéficie d’un bonus de +2 aux [[jet de sauvegarde|jets de sauvegarde]] contre les sorts et effets de type [[enchantement]].
 
 {s:Reference|POINTDEKI}{s:Reference|RESERVEDEKI}
-
 ====Réserve de ki (Sur) et Voeux====
 '''Réserve de ki.''' À partir du niveau 4, le moine dispose d’une réserve de points ki, une énergie surnaturelle qu’il peut utiliser pour accomplir des exploits étonnants. Cette réserve contient un nombre de points égal à la moitié du niveau du moine + son modificateur de [[Sagesse]]. Tant qu’il reste au moins 1 point ki dans la réserve du moine, celui-ci peut effectuer une frappe ki. 
 Au niveau 4, les attaques à mains nues lors d’une frappe ki sont considérées comme des [[armes magiques]] pour ce qui est d’ignorer la [[RD|réduction de dégâts des créatures]].
@@ -466,7 +427,6 @@ Au niveau 19, le personnage peut devenir [[éthéré]] pendant une minute comme 
 {s:Reference|PERFECTIONDELETRE}
 ====Perfection de l’être====
 Au niveau 20, le moine devient une entité magique. À partir de cet instant, il n’est plus considéré comme un humanoïde mais comme un [[type Extérieur|Extérieur]] pour ce qui est des sorts et des effets magiques. De plus, le moine acquiert une [[RD|réduction de dégâts]] de 10/chaotique, ce qui signifie qu’il ignore les 10 premiers points de dégâts infligés par chaque attaque portée avec une arme non-chaotique ou avec une arme naturelle d’une créature qui ne dispose pas d’une [[RD|réduction de dégâts]] similaire. Contrairement aux autres [[type Extérieur|Extérieurs]], le moine peut être ramené à la vie, comme si son type de créature n’avait pas changé.
-
 
 === Anciens moines ===
 Un moine cessant d’être Loyal ne peut plus gagner de niveau de moine mais conserve les pouvoirs acquis jusque-là.

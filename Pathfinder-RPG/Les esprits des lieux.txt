@@ -1,14 +1,12 @@
 ---
 Name: Pathfinder-RPG.Les esprits des lieux
 Title: Les esprits des lieux
-LastModified: 2017-05-19 13:17
+LastModified: 2021-02-27 00:11
 Categories:
-  - 'Aventures occultes'
-  - 'Règles officielles'
+  - 'Règle officielle'
+  - 'Src Aventures occultes'
 ---
-{s:menuaventuresoccultes}
-
-Un esprit des lieux se forme quand un excès d’énergie 
+{s:menuaventuresoccultes}{s:AO}Un esprit des lieux se forme quand un excès d’énergie 
 psychique est ensuite saturé de résonances émotionnelles
 positives très puissantes. Ces êtres s’éveillent généralement
 dans les endroits possédant des liens étroits avec un
@@ -40,7 +38,7 @@ L’esprit des lieux imprègne une zone
 d’un rayon maximum de 1,50 mètre × son
 FP mais la zone réellement affectée est
 souvent limitée par la taille et la forme
-du lieu associé à l’esprit.{br}
+du lieu associé à l’esprit.
 
 '''Effets permanents'''. Un esprit des
 lieux génère au moins l’un des trois
@@ -121,8 +119,7 @@ son effet cérémoniel (ou après une
 cérémonie ratée), l’esprit ne peut plus
 activer cet effet pendant 24 heures.
 
-<center>
-{| CLASS="tablo"
+{| CLASS="tablo centre autoalt"
 |+ 6-1 : modificateurs de FP pour les esprits des lieux
 |- CLASS="titre"
 | Type de pouvoir || Modificateur du FP
@@ -139,9 +136,8 @@ activer cet effet pendant 24 heures.
 |-
 | Sensible à la corruption<sup>2</sup> || -1
 |- CLASS="note"
-| COLSPAN="2" | 1. Les esprits des lieux difficiles à soigner récupèrent seulement la moitié des points de vie normaux lorsqu’ils bénéficient d’un effet restaurant les points de vie.<br/>2. Les esprits des lieux sensibles à la corruption perdent deux fois plus de points de vie que la normale suite à une action de corruption.
+| COLSPAN="2" | ''(1) Les esprits des lieux difficiles à soigner récupèrent seulement la moitié des points de vie normaux lorsqu’ils bénéficient d’un effet restaurant les points de vie.<br/>(2) Les esprits des lieux sensibles à la corruption perdent deux fois plus de points de vie que la normale suite à une action de corruption.''
 |}
-</center>
 
 ===La corruption===
 On ne peut pas blesser un esprit des lieux comme on le
@@ -155,9 +151,8 @@ rapprochent de la corruption tandis que certains actes de
 bonté restaurent leurs points de vie et les protègent contre
 cette corruption.
 
-<center>
-{| CLASS="tablo toutgauche"
-|- CLASS="titre alt"
+{| CLASS="tablo centre autoalt toutgauche"
+|- CLASS="titre"
 | Acte  || Effet
 |- CLASS="premier"
 | Commettre un acte violent || pv réduits de 1
@@ -182,7 +177,6 @@ cette corruption.
 |-
 | Lancer sanctification || Restaure 4 pv
 |}
-</center>
 
 Si un esprit des lieux tombe à 0 point de vie, il est corrompu
 et se comporte alors comme une apparition (Guide du maître
@@ -217,7 +211,7 @@ apparition qui se réinitialise.
 
 
 ===Présentation des esprits des lieux===
-Voici le modèle de profil des esprits des lieux.{br}
+Voici le modèle de profil des esprits des lieux.
 
 '''Nom de l’esprit des lieux'''. C’est le nom de l’esprit, suivi de son FP.
 
@@ -246,8 +240,6 @@ pour que l’esprit des lieux applique son effet cérémoniel.
 '''Effet de corruption.''' Cette entrée donne une brève
 description de la transformation des effets de l’esprit des
 lieux une fois qu’il est corrompu.
-
-
 
 ===Créer un esprit des lieux===
 Pour créer votre propre esprit des lieux à partir des
@@ -287,8 +279,7 @@ génère un effet de terreur du même niveau de sort que son
 effet unique. Son bonus d’attaque (si besoin) est généralement
 égal à son FP.
 
-
-<table><tr><td>
+<table width="100%"><tr><td width="49%">
 <div class="BD">
 {s:BDTitre|Appel du héros|FP 4}
 * '''1 200 PX'''
@@ -296,14 +287,10 @@ effet unique. Son bonus d’attaque (si besoin) est généralement
 * '''NLS''' 4ème
 * '''pv''' 8 ; '''Cérémonie''' [[Connaissances]] (histoire) DD 24, [[Représentation]] (déclamation) DD 24
 (((Effet))) 
-* Le personnage appelle le courageux héros du passé, rappelant
-ses exploits et lui demandant de lui prêter sa force lors de sa
-propre quête. Si la cérémonie est couronnée de succès, la statue
-du héros semble lever son arme en signe de salut et le personnage
-bénéficie des effets d’un héroïsme.
+* Le personnage appelle le courageux héros du passé, rappelant ses exploits et lui demandant de lui prêter sa force lors de sa propre quête. Si la cérémonie est couronnée de succès, la statue du héros semble lever son arme en signe de salut et le personnage bénéficie des effets d’un héroïsme.
 * '''Effet de corruption''' héroïsme devient effroi (DD 13).
-</div>
 
+</div>
 
 <div class="BD">
 {s:BDTitre|Guerriers fantômes|FP 5}
@@ -312,27 +299,22 @@ bénéficie des effets d’un héroïsme.
 * '''NLS''' 5ème
 * '''pv''' 10 ; '''Cérémonie''' [[Diplomatie]] DD 25, [[Représentation]] (déclamation) DD 25
 (((Effet)))
-* Si le personnage mène une cérémonie aussi magnifique que
-dynamique, un escadron de silhouettes fantomatiques vêtues
-d’antiques armures apparaît, chacune s’agenouillant devant l’une
-des créatures de la zone d’effet et lui présentant son arme, lui
-offrant les effets d’une arme alignée (chaque bénéficiaire a le choix
-entre Bonne ou Loyale seulement).
+* Si le personnage mène une cérémonie aussi magnifique que dynamique, un escadron de silhouettes fantomatiques vêtues d’antiques armures apparaît, chacune s’agenouillant devant l’une des créatures de la zone d’effet et lui présentant son arme, lui offrant les effets d’une arme alignée (chaque bénéficiaire a le choix entre Bonne ou Loyale seulement).
 * '''Effet de corruption''' arme alignée devient fracassement (DD 13).
+
 </div>
 
-</td><td><div class="BD">
+</td><td width="2%">
+</td><td width="49%">
+<div class="BD">
 {s:BDTitre|Prêtre bienveillant|FP 5}
 * '''1 600 PX'''
 * Esprit des lieux protecteur, coterie, NB (pièce de 3 m sur 3 m)
 * '''NLS''' 5ème
 * '''pv''' 10 ; '''Cérémonie''' [[Connaissances]] (religion) DD 25, [[Survie]] DD 25
 (((Effet))) 
-* Quand le personnage apporte les offrandes voulues, faites de
-brindilles et de baies, l’esprit des lieux se manifeste sous la forme
-d’un prêtre fantomatique replet portant un plateau lourd de victuailles
-qu’il offre au personnage et à ses alliés, comme avec un
-sort de création de nourriture et d’eau.
-* '''Effet de corruption''' création de nourriture et d’eau devient contagion
-(DD 14).
-</div></td></tr></table>
+* Quand le personnage apporte les offrandes voulues, faites de brindilles et de baies, l’esprit des lieux se manifeste sous la forme d’un prêtre fantomatique replet portant un plateau lourd de victuailles qu’il offre au personnage et à ses alliés, comme avec un sort de création de nourriture et d’eau.
+* '''Effet de corruption''' création de nourriture et d’eau devient contagion (DD 14).
+
+</div>
+</td></tr></table>

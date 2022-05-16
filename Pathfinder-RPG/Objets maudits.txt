@@ -1,12 +1,12 @@
 ---
 Name: Pathfinder-RPG.Objets maudits
 Title: Les objets maudits
-LastModified: 2020-06-09 21:06
+LastModified: 2021-07-25 21:37
 Categories:
-  - 'Manuel des joueurs'
-  - 'Manuel des joueurs, règles avancées'
-  - 'Objet magique maudit'
-  - 'Règles officielles'
+  - 'Objet mag maudit'
+  - 'Règle officielle'
+  - 'Src Manuel des joueurs'
+  - 'Src Manuel des joueurs - Règles avancées'
 ---
 {s:MenuObjetsMagiques}
 <div style="float: right; padding: 0 0 8px 8px">{toc}</div>{s:AE}Les objets maudits sont des objets magiques qui ont un effet potentiellement néfaste sur leur utilisateur. Parfois, ils mêlent les bons et les mauvais côtés et obligent leur propriétaire à faire un choix cornélien. La malédiction d’un objet est rarement créée de façon délibérée par son artisan, elle résulte plutôt d’une trop grande hâte, d’un manque d’expérience ou d’un déficit en composantes. Bon nombre de ces objets fonctionnent, mais pas comme prévu ou avec de sérieux inconvénients. Quand un personnage rate son test de création d’objet de 5 ou plus, lancez un dé dans la "[[Objets maudits#DETERMINATION|Malédictions ordinaires des objets]]" pour déterminer la malédiction qui frappe l’objet.
@@ -147,7 +147,7 @@ Certains objets ne s’utilisent qu’une fois que le personnage a rempli des co
 * Le personnage doit abandonner son nom pour en adopter un autre déterminé par l’objet. Ce dernier fonctionne uniquement entre les mains des personnages qui portent ce nom.  
 * Le personnage doit prendre un niveau dans une classe donnée dès qu’il en a l’occasion (sauf s’il appartient déjà à cette classe). Le personnage doit posséder un nombre minimum de rangs dans une compétence donnée.  
 * Le personnage doit sacrifier une part de son énergie vitale (2 points de [[Constitution]]) à une seule reprise. S’il la récupère (avec un sort de ''[[restauration]]'' par exemple), l’objet cesse de fonctionner, ce qui n’est pas le cas s’il gagne de nouveaux points parce qu’il monte d’un niveau ou qu’il utilise un ''[[souhait]]'' ou un objet magique.  
-* Il faut nettoyer l’objet tous les jours avec de l’[[substances et objets spéciaux#Eaubénite|eau bénite]].  
+* Il faut nettoyer l’objet tous les jours avec de l’[[Armes alchimiques#Eau bénite|eau bénite]].  
 * Il faut utiliser l’objet pour tuer une créature par jour.  
 * Il faut tremper l’objet dans la lave une fois par mois.  
 * Il faut utiliser l’objet au moins une fois par jour, sinon, il ne fonctionnera plus jamais entre les mains de son actuel propriétaire.  
@@ -417,6 +417,9 @@ Les armures et les armes maudites se présentent sous de nombreuses formes. Nous
 | [[Hache de jet au retour mortel]] || <sup>A&E</sup> || [[hache de lancer (arme)|hache de lancer]] ''[[boomerang (propriété)|boomerang]]'' +2 || Lorsque le porteur rate sa cible à distance et que la propriété ''[[boomerang (propriété)|boomerang]]'' fait effet, elle frappe le lanceur en utilisant son [[BBA]] maximal. Impossible de s’en débarrasser librement.
 
 |- CLASS="premier"
+| [[Hache de morte-chair]] || <sup>CSU</sup> || [[hache darmes naine (arme)|Hache d’armes naine]] [[spectrale (propriété)|spectrale]] [[tueuse (propriété)|tueuse]] de mort-vivant +1 en [[mithral]] || Lorsqu'il tue un mort-vivant avec, le porteur peut être [[secoué]] pendant 1 minute. Cet effet de peur se cumule avec lui-même, et s'il rend le porteur [[paniqué]], ce dernier doit le lâcher.
+
+|- CLASS="premier"
 | [[Lance traîtresse]] || <sup>A&E</sup> || [[épieu (arme)|épieu]] +2, n’importe quelle [[armes magiques|arme magique]] || Lorsque le porteur obtient un 1 naturel sur un [[jet dattaque|jet d’attaque]] effectué avec, lui inflige les dégâts de l’attaque (les dégâts normaux sont doublés s’il s’agissait une attaque à distance).
 
 |- CLASS="premier"
@@ -448,6 +451,9 @@ Les armures et les armes maudites se présentent sous de nombreuses formes. Nous
 
 |- CLASS="premier"
 | [[Pierre de lest]] || <sup>A&E</sup> || [[gemme à élémentaire]] (terre), [[pierre dalerte|pierre d’alerte]], [[pierre ioun]], [[pierre porte-bonheur]] || Réduit la vitesse de déplacement du porteur de moitié. Impossible de s’en débarrasser librement.
+
+|- CLASS="premier"
+| [[Pierre ioun foreuse desprit|Pierre ioun foreuse d'esprit]] || <sup>RSE</sup> || [[pierre ioun]] || Inflige 1 point de dégâts par [[round]] au porteur en combat. Inflige 1 point d'[[affaiblissement temporaire (capacité)|affaiblissement temporaire]] à l'[[Intelligence]], la [[Sagesse]] et au [[Charisme]] par round au porteur s'il est [[inconscient]].
 
 |- CLASS="premier"
 | [[Pistolet grincheux]] || <sup>A&E</sup> || [[armes magiques|pistolet magique]] || Tire magiquement sur toute créature dont le porteur ou un de ses alliés essaie d’améliorer l’attitude.

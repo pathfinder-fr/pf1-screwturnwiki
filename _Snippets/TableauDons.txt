@@ -1,0 +1,102 @@
+<script>
+$(function () {
+  $("tr.donprérequis0, tr.donprérequis1, tr.donprérequis2").hide();
+  $("tr.donprincipal").bind("click", togglePrereq);
+  $("tr.donprérequis0").bind("click", togglePrereq0);
+  $("tr.donprérequis1").bind("click", togglePrereq1);
+  $("tr.donprincipal").each(addPrereqIconIfNeeded);
+  $("tr.donprérequis0").each(addPrereqIconIfNeeded0);
+  $("tr.donprérequis1").each(addPrereqIconIfNeeded1);
+  $("tr.donprérequis2").each(addPrereqIconIfNeeded2);
+});
+
+function togglePrereq() {
+    let nodeImg = $(this).find("img");
+      if (nodeImg.attr("src") == "/Forum/themes/v2/sort_down.gif") {
+            nodeImg.attr("src", "/Forum/themes/v2/sort_up.gif");
+      } else {
+            nodeImg.attr("src", "/Forum/themes/v2/sort_down.gif");
+      };
+    let node = $(this).next();
+    while (node.length > 0 && node.hasClass("donprérequis0") || node.hasClass("donprérequis1") || node.hasClass("donprérequis2")) {
+      node.toggle();
+      if (node.hasClass("donprérequis1") || node.hasClass("donprérequis2")) {
+            node.toggle();
+      };
+      node = node.next();
+    }
+}
+
+function togglePrereq0() {
+    let nodeImg = $(this).find("img");
+      if (nodeImg.attr("src") == "/Forum/themes/v2/sort_down.gif") {
+            nodeImg.attr("src", "/Forum/themes/v2/sort_up.gif");
+      } else {
+            nodeImg.attr("src", "/Forum/themes/v2/sort_down.gif");
+      };
+    let node = $(this).next();
+    while (node.length > 0 && node.hasClass("donprérequis1") || node.hasClass("donprérequis2")) {
+      node.toggle();
+      if (node.hasClass("donprérequis2")) {
+            node.toggle();
+      };
+      node = node.next();
+    }
+}
+
+function togglePrereq1() {
+    let nodeImg = $(this).find("img");
+      if (nodeImg.attr("src") == "/Forum/themes/v2/sort_down.gif") {
+            nodeImg.attr("src", "/Forum/themes/v2/sort_up.gif");
+      } else {
+            nodeImg.attr("src", "/Forum/themes/v2/sort_down.gif");
+      };
+    let node = $(this).next();
+    while (node.length > 0 && node.hasClass("donprérequis2")) {
+      node.toggle();
+      node = node.next();
+    }
+}
+
+function addPrereqIconIfNeeded() {
+	let next = $(this).next();
+	if (next.length > 0 && next.hasClass("donprérequis0")) {
+	  let icon = document.createElement("img");
+	  icon.src = "/Forum/themes/v2/sort_down.gif";
+	  icon.style = "float:right;margin-top: 3px;";
+	  icon.title = "Cliquez pour afficher les dons qui découlent de celui-ci.";
+	  $(this).children("td").first().append($(icon));
+	}
+}
+
+function addPrereqIconIfNeeded0() {
+	let next = $(this).next();
+	if (next.length > 0 && next.hasClass("donprérequis1")) {
+	  let icon = document.createElement("img");
+	  icon.src = "/Forum/themes/v2/sort_down.gif";
+	  icon.style = "float:right;margin-top: 3px;";
+	  icon.title = "Cliquez pour afficher les dons qui découlent de celui-ci.";
+	  $(this).children("td").first().append($(icon));
+	}
+}
+
+function addPrereqIconIfNeeded1() {
+	let next = $(this).next();
+	if (next.length > 0 && next.hasClass("donprérequis2")) {
+	  let icon = document.createElement("img");
+	  icon.src = "/Forum/themes/v2/sort_down.gif";
+	  icon.style = "float:right;margin-top: 3px;";
+	  icon.title = "Cliquez pour afficher les dons qui découlent de celui-ci.";
+	  $(this).children("td").first().append($(icon));
+	}
+	if (next.length > 0 && next.hasClass("donprérequis0")) {
+	  $(this).children("td").first().css("border-bottom", "1px solid black");
+	}
+}
+
+function addPrereqIconIfNeeded2() {
+	if (next.length > 0 && next.hasClass("donprérequis0") || next.hasClass("donprérequis1")) {
+	  $(this).children("td").first().css("border-bottom", "1px solid black");
+	}
+}
+</script>

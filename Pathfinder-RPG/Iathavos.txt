@@ -1,9 +1,9 @@
 ---
 Name: Pathfinder-RPG.Iathavos
-Title: Iathavos
-LastModified: 2014-02-08 12:41
+Title: Qlippoth, Iathavos
+LastModified: 2021-04-04 10:37
 Categories:
-  - 'Bestiaire 2'
+  - 'Src Bestiaire 2'
 ---
 <table class="Bestiaire 2"><tr><td>
 <div class="BD">
@@ -13,7 +13,7 @@ Categories:
 {s:BDTexte|'''PX''' 307.200}
 {s:BDTexte|[[type Extérieur|Extérieur]] ([[sous-type Chaos|Chaos]], [[sous-type Mal|Mal]], [[sous-type extraplanaire|extraplanaire]], [[sous-type qlippoth|qlippoth]]) de taille C, CM}
 {s:BDTexte|'''Init''' -1 ; '''Sens''' [[Vision à 360° (capacité)|vision à 360°]], [[vision dans le noir]] 18 m (12 cases), [[vision nocturne]] ; [[Perception]] +37}
-{s:BDTexte|'''Aura''' [[puanteur]] (DD 32, 10 rounds)}
+{s:BDTexte|'''Aura''' [[puanteur]] (DD 32, 10 rounds), ''[[manteau du Chaos]]'' (DD 26)}
 {s:BDSousTitre|Défense}
 {s:BDTexte|'''CA''' 37, contact 7, pris au dépourvu 37 (Dex –1, intuition +2, naturelle +30, parade +4, taille –8)}
 {s:BDTexte|'''pv''' 372 (24d10+240) ; [[guérison accélérée]] 15}
@@ -23,7 +23,7 @@ Categories:
 {s:BDTexte|'''VD''' 6 m (4 cases), vol 15 m (parfaite - 10 cases)}
 {s:BDTexte|'''Corps à corps''' ''2 griffes'', +31 (4d6+15/19–20 plus étreinte) et ''4 ailes'', +26 (2d8+7)}
 {s:BDTexte|'''Espace''' 9 m (6 cases) ; '''Allonge''' 9 m (6 cases)}
-{s:BDTexte|'''Attaques spéciales''' apparence horrible, rayons entropiques, transformation abyssale}
+{s:BDTexte|'''Attaques spéciales''' apparence horrible (DD 30), rayons entropiques, transformation abyssale}
 {s:BDTexte|'''Pouvoirs magiques''' (NLS 20), concentration +28}
 {s:BDSorts|Constant — ''[[liberté de mouvement]]'', ''[[manteau du Chaos]]'' (DD 26), ''[[prémonition]]'', ''[[vision lucide]]''}
 {s:BDSorts|À volonté — ''[[changement de plan]]'' (DD 25), ''[[dissipation suprême]]'', ''[[mot de rappel]]'', ''[[porte dimensionnelle]]'', ''[[projectile magique]]'', ''[[rejet de la Loi]]'', ''[[vent divin]]''}
@@ -31,7 +31,7 @@ Categories:
 {s:BDSorts|1/jour — ''[[emprisonnement]]'' (DD 27), ''[[guérison suprême]]'' en [[incantation rapide]]}
 {s:BDSousTitre|Caractéristiques}
 {s:BDTexte|'''For''' 40, '''Dex''' 8, '''Con''' 31, '''Int''' 29, '''Sag''' 30, '''Cha''' 27}
-{s:BDTexte|'''BBA''' +14, '''BMO''' +47 (+51 [[lutte]]), '''DMD''' 60 ([[croc-en-jambe]] impossible)}
+{s:BDTexte|'''BBA''' +14, '''BMO''' +47 (+51 [[lutte]]), '''DMD''' 62 ([[croc-en-jambe]] impossible)}
 {s:BDTexte|'''Dons''' [[Attaque en puissance]], [[Coup fabuleux]], [[Critique ralentissant]], [[Don pour les critiques]], [[Efficacité des sorts accrue]], [[Frappe décisive]], [[Frappe décisive supérieure]], [[Pouvoir magique rapide]] (guérison suprême), [[Réflexes surhumains]],  [[Science de la bousculade]], [[Science de la frappe décisive]], [[Science du critique]] (griffe)}
 {s:BDTexte|'''Compétences''' [[Art de la magie]] +36, [[Bluff]] +35, [[Connaissances]] (exploration souterraine) +33, [[Connaissances]] (géographie) +33, [[Connaissances]] (histoire) +33, [[Connaissances]] (mystères) +36, [[Connaissances]] (plans) +36, [[Connaissances]] (religion) +33, [[Discrétion]] +10, [[Évasion]] +23, [[Intimidation]] +35, [[Perception]] +37, [[Psychologie]] +37, [[Utilisation dobjets magiques|Utilisation d’objets magiques]] +35, [[Vol]] +26}
 {s:BDTexte|'''Langues''' abyssal ; [[télépathie]] 90 m}
@@ -44,8 +44,9 @@ Categories:
 {s:BDTexte|'''Puanteur (Sur).'''  La capacité de puanteur de l’iavathos est extrêmement dégoûtante. Les créatures qui sont affectées par sa puanteur sont [[nauséeux|nauséeuses]] et celles qui réussissent leur jet de sauvegarde sont [[fiévreux|fiévreuses]].}
 {s:BDTexte|'''Rayons entropiques (Sur).''' Par une [[action simple]] utilisable une fois par minute, un iavathos peut projeter des rayons d’énergie entropique à partir de ses 10 yeux. Chacun de ces rayons d’énergie peut être dirigé vers une cible située dans un rayon de 90 mètres (60 cases) autour du iavathos, mais chaque cible ne peut être visée que par un seul rayon à la fois. Les rayons qui ne visent pas une créature n’ont aucun effet. Pour chaque rayon, le qlippoth doit effectuer un jet d’attaque de contact à distance avec un bonus d’attaque de +15. Chaque rayon a le même effet qu’un sort de ''[[désintégration]]'' de NLS 20 (40d6 points de dégâts, Vigueur DD 32 pour réduire les dégâts à 5d6) mais les créatures tuées par ces dégâts explosent dans une conflagration d’énergie de 1,50 mètres de rayon. Toutes les créatures situées dans la zone de conflagration doivent effectuer un jet de Volonté de DD 32 ou être [[chancelant|chancelantes]] pendant 1 round. Le DD des jets de sauvegarde dépendent de la [[Constitution]].}
 {s:BDTexte|'''Transformation abyssale (Sur). ''' Si un iavathos agrippe une créature de taille inférieure ou égale à G, il peut la placer au sein des replis de sa chair. Cela fonctionne comme une attaque d’[[engloutissement]] si ce n’est que, au début du tour du iavathos, la victime engloutie doit réussir un jet de Vigueur de DD 30 pour ne pas être transformée en un [[nyogoth]] qui se faufile immédiatement hors du corps du iavathos pour servir son maître. Les créatures transformées en nyogoths ne sont pas contrôlées par l’iavathos, mais elles fonctionnent et se comportent comme des créatures de leur espèce (elles ne conservent aucun souvenir et aucune capacité provenant de leur vie précédente). Les objets tenus en main ou portés par les victimes transformées restent logés dans les replis du corps du iavathos et ne peuvent pas être récupérés avant que celui-ci ne soit [[sans défense]] ou [[mort]]. Une créature ainsi transformée en nyogoth peut être ramenée sous sa forme d’origine grâce à un sort d’ ''[[annulation denchantement|annulation d’enchantement]]'', de [[miracle]] ou de [[souhait]]. Outre cela, une fois le nyogoth tué, la pauvre victime peut être ramenée à la vie via un sort de [[réincarnation]], de [[résurrection]] ou de [[résurrection suprême]]. Le DD du jet de sauvegarde dépend du [[Charisme]].}
+
 </div>
-</td><td><div>''Cette immense créature possède quatre ailes de chauve-souris et un corps sphérique, recouvert d’yeux rouges, sous lequel pendent deux grosses griffes.''
+</td><td><div><ul style="margin: 0 0 -10 0;margin-top: 6px;margin-bottom: 12px;"><li>'''''Voir la description des [[Qlippoth|qlippoths]].'''''</li></ul>''Cette immense créature possède quatre ailes de chauve-souris et un corps sphérique, recouvert d’yeux rouges, sous lequel pendent deux grosses griffes.''
 
 Si on omet les seigneurs qlippoths, les membres les plus terribles de cette race sont sans doute les énormes iavathos.
 Beaucoup de gens pensent qu’il s’agit-là d’un être unique, d’un qlippoth si aberrant que même les Abysses ne sont pas capables de supporter l’existence de deux créatures comme celle-ci à la fois. Le plus souvent, l’iavathos est accompagné de nombreux [[nyogoth|nyogoths]] qui se tortillent sur et sous son corps et se nourrissent des déchets et des morceaux qu’il laisse dans son sillage. Ces nyogoths sont systématiquement des créatures que l’iavathos a absorbées et refaçonnées. Il s’agit sans doute du destin le plus terrible qui puisse frapper les explorateurs des failles profondes des Abysses. <br>

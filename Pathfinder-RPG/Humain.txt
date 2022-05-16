@@ -1,13 +1,13 @@
 ---
 Name: Pathfinder-RPG.Humain
 Title: Les humains
-LastModified: 2020-08-07 18:40
+LastModified: 2020-08-22 01:47
 Categories:
-  - 'Manuel des joueurs'
-  - 'Manuel des joueurs, règles avancées'
-  - 'Manuel des races'
   - 'Race'
-  - 'Règles officielles'
+  - 'Règle officielle'
+  - 'Src Manuel des joueurs'
+  - 'Src Manuel des joueurs - Règles avancées'
+  - 'Src Manuel des races'
 ---
 {s:MenuRaces}
 ===Présentation===
@@ -205,44 +205,57 @@ peuvent choisir les options suivantes :
 ====Dons====
 Ces dons sont accessibles aux humains :
 <center>
-{| CLASS="tablo autoalt toutgauche"
+{| CLASS="tablo autoalt toutgauche filtrable" WIDTH="100%"
 
 |- CLASS="titre"
-| WIDTH="25%" | Dons
-| WIDTH= "6%" | Source
-| WIDTH="25%" | Conditions
-| WIDTH="44%" | Avantages
+| WIDTH="30%" | Dons
+| WIDTH="3%" | Src
+| WIDTH="30%" | Conditions
+| WIDTH="37%" | Avantages
 
 |- CLASS="premier"
-| [[Apprentissage rapide]] || <sup>MR</sup> || [[Humain]], [[Intelligence|Int]] 13 || Le personnage obtient 1 pv et un point de compétence à chaque niveau de sa classe de prédilection.
+| [[Apprentissage rapide]] || <sup>MR</sup> || [[Int]] 13, [[humain]] || +1 point de vie et +1 point de compétence à chaque montée de niveau dans la classe de prédilection
 |-
-| &emsp;[[Improvisation]] || <sup>MR</sup> || [[Humain]], [[Intelligence|Int]] 13, [[Apprentissage rapide]] || Le personnage est capable d'utiliser toutes les compétences
+| &emsp;[[Improvisation]] || <sup>MR</sup> || [[Int]] 13, [[Apprentissage rapide]], [[humain]] || +2 aux tests de compétence sans rangs, les compétences qui nécessitent une formation peuvent être utilisés sans
 |-
-| &emsp;&emsp;[[Science de limprovisation|Science de l'improvisation]] || <sup>MR</sup> || [[humain]], [[Intelligence|Int 13]], [[Apprentissage rapide]], [[Improvisation]] || Le personnage est plus doué que les autres même avec les compétences, les armes, les armures et les boucliers qu'il n'a pas appris à maîtriser
+| &emsp;&emsp;[[Science de limprovisation|Science de l'improvisation]] || <sup>MR</sup> || [[Int]] 13, [[Apprentissage rapide]], [[Improvisation]], [[humain]] || Les pénalités de non-formation sont divisées par deux, les bonus d'Improvisation passe à +4
+
 |- CLASS="premier"
-| [[Chance insolente]] || <sup>MR</sup> || [[Humain]] || Une fois par jour le personnage peut refaire un jet de sauvegarde ou obliger à refaire un test de confirmation de coup critique contre lui
+| [[Chance insolente]] || <sup>MR</sup> || [[Humain]] || 1 fois par jour, relance un 1 naturel
 |-
-| &emsp;[[Chance inexplicable]] || <sup>MR</sup> || [[Humain]], [[Chance insolente]] || Une fois par jour le personnage bénéficie d'un bonus de +8 à un unique jet de 1d20
+| &emsp;[[Chance inexplicable]] || <sup>MR</sup> || [[Chance insolente]], [[humain]] || 1 fois par jour, +8 avant de faire un jet ou +4 après
 |-
-| &emsp;&emsp;[[Transmettre sa chance]] || <sup>MR</sup> || [[Humain]], [[Chance insolente]], [[Chance inexplicable]] || Une utilisation de plus par jour de la Chance insolente et peut partager sa Chance inexplicable avec un allié
+| &emsp;&emsp;[[Transmettre sa chance]] || <sup>MR</sup> || [[Chance insolente]], [[Chance inexplicable]], [[humain]] || Gain d'une utilisation supplémentaire de Chance insolente, utilise Chance inexplicable au profit d'un allié
+
 |- CLASS="premier"
-| [[Critiques divers]]* || <sup>MR</sup> || [[Humain]], [[Guerrier]] 11 || Le personnage peut s'entraîner à porter un coup critique par jour
+| [[Critiques divers]]* || <sup>MR</sup> || [[Guerrier]] de niveau 11, [[humain]] || 1 fois par jour, gagne un don de critique
+
 |- CLASS="premier"
-| [[Curiosité intrépide]] || <sup>MR</sup> || [[Humain]], [[Charisme|Cha]] 13 || Le personnage bénéficie d'u bonus de +1 au jet de sauvegarde contre les sorts du registre émotions et peut s'affranchir de la peur
+| [[Curiosité intrépide]] || <sup>MR</sup> || [[Cha]] 13, [[humain]] || +1 aux jets de sauvegarde contre les effets d'émotion, nouveaux jets pour réduire un effet de peur d'un cran
 |-
-| &emsp;[[Assurance intimidante]] || <sup>MR</sup> || [[Humain]], [[Charisme|Cha]] 13, [[Curiosité intrépide]], 5 rangs en [[Intimidation]] || Le personnage bénéficie d'un bonus de +1 aux jets de sauvegarde contre les effets du registre des émotions et peut intimider les créatures lorsqu'il réussit un coup critique
+| &emsp;[[Assurance intimidante]] || <sup>MR</sup> || [[Cha]] 13, [[Curiosité intrépide]], 5 rangs en [[Intimidation]], [[humain]] || +1 aux jets de sauvegarde contre les effets d'émotion, test d'Intimidation gratuit sur un critique confirmé
 |-
-| &emsp;[[Destin intrépide]] || <sup>MR</sup> || [[Humain]], [[Charisme|Cha]] 13, [[Curiosité intrépide]], 10 [[rang|rangs]] en [[Intimidation]] || Le personnage bénéficie d'un bonus de +1 aux jets de sauvegarde contre les effets du registre des émotions et peut démoraliser les adversaires autour de lui lorsqu'un sort devrait l'atteindre mais échoue ou lorsqu'une attaque échouée se transforme en succès.
+| &emsp;[[Destin intrépide]] || <sup>MR</sup> || [[Cha]] 13, [[Curiosité intrépide]], 10 rangs en [[Intimidation]], [[humain]] || +1 aux jets de sauvegarde contre les effets d'émotion, relance un 1 naturel 1 fois par jour et peut faire un test d'Intimidation gratuit si le nouveau jet est une réussite
+
 |- CLASS="premier"
-| [[Grand veneur]] || <sup>MR</sup> || [[Humain]], 1 rang en [[Dressage]], pouvoir de classe [[compagnon animal]] ou pacte divin (monture) || Les connaissances du personnage permettent à son compagnon animal ou à sa monture de bénéficier de pouvoirs supérieurs d'un niveau à la normale 
+| [[Éclectisme]] || <sup>MJRA</sup> || [[Humain]] || Gagne une classe de prédilection de plus
+
 |- CLASS="premier"
-| [[Polyvalence martiale]]* || <sup>MR</sup> || [[Humain]], [[Guerrier]] de niveau 4 || Le guerrier peut appliquer un don de combat à toutes les armes d'un même groupe
+| [[Grand veneur]] || <sup>MR</sup> || 1 rang en [[Dressage]]; capacité de classe [[Chasseur#COMPAGNONANIMAL|compagnon animal]], [[Paladin#PACTEDIVIN|pacte divin (destrier)]], ou [[Chevalier#MONTURE|monture]]; [[humain]] || +2 aux tests de Dressage et de Connaissances (nature) avec l'animal choisi, augmente le niveau de 1 pour déterminer les capacités du compagnon animal
+
+|- CLASS="premier"
+| [[Héritage racial]] || <sup>MJRA</sup> || [[Humain]] || Fonctionne comme un humain et un membre d’une autre race
+
+|- CLASS="premier"
+| [[Polyvalence martiale]]* || <sup>MR</sup> || [[Guerrier]] de niveau 4, [[humain]] || Un unique don de combat peut être appliqué à toutes les armes du même groupe
 |-
-| &emsp;[[Maîtrise martiale]]* || <sup>MR</sup> || [[Humain]], [[Polyvalence martiale]], [[guerrier]] de niveau 16 || Le guerrier peut appliquer ses dons de combat à toutes les armes du même groupe
-|- 
-| [[Succès éclatant]] || <sup>MR</sup> || [[Humain]] || Les grands succès du personnage le font bénéficier d'un bonus de circonstance de +2 au prochain tour
-|-
-| [[Volonté héroïque]] || <sup>MR</sup> || [[Humain]], [[Volonté de fer]], jet de [[Volonté]] de base +4 || Le personnage peut tenter un nouveau jet de Volonté contre les conditions qui l'affectent
+| &emsp;[[Maîtrise martiale]]* || <sup>MR</sup> || Polyvalence martiale, [[guerrier]] de niveau 16, [[humain]] || Les dons de combat peuvent être appliqués à toutes les armes du même groupe
+
+|- CLASS="premier"
+| [[Succès éclatant]] || <sup>MR</sup> || [[Humain]] || +2 sur un unique jet après avoir confirmé un coup critique ou avoir obtenu un 20 naturel sur un jet de sauvegarde
+
+|- CLASS="premier"
+| [[Volonté héroïque]] || <sup>MR</sup> || [[Volonté de fer]], bonus de base de [[Volonté]] +4, [[humain]] || Nouveau jet de Volonté 1 fois par jour pour se libérer d'un effet néfaste
 |}
 </center>
 {s:ligne}{s:col|6}

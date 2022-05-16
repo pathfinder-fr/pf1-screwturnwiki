@@ -1,31 +1,20 @@
 ---
 Name: Pathfinder-RPG.Prêtre combattant
-Title: Prêtre combattant
-LastModified: 2020-06-12 15:11
+Title: Le prêtre combattant
+LastModified: 2021-07-15 18:00
 Categories:
   - 'Classe'
-  - 'Manuel des Classes avancées'
-  - 'Règles officielles'
+  - 'Règle officielle'
+  - 'Src Manuel des joueurs - Classes avancées'
 ---
 {s:Menuclasseshybrides}
-<div style="float:right">'''''Voir aussi la [[liste des sorts de prêtres]].'''''<br/>'''''Voir aussi les [[Bénédictions|bénédictions]] du prêtre combattant'''''<br>{s:PM0|prêtrecombattant}'''''Voir aussi les archétypes du prêtre combattant'''''&emsp;
-<ul ID="prêtrecombattant" CLASS="listecachée cadrebas">
-  <li>[[Champion de la foi (prêtre combattant)|Champion de la Foi]] (MCA)</li>
-  <li>[[Chef de culte (prêtre combattant)|Chef de culte]] (MCA)</li>
-  <li>[[Commandant divin (prêtre combattant)|Commandant divin]] (MCA)</li>
-  <li>[[Désenchanteur (prêtre combattant)|Désenchanteur]] (MCA)</li>
-  <li>[[Lame de liberté (prêtre combattant)|Lame de liberté]] (MCA)</li>
-  <li>[[Poing sacré (prêtre combattant)|Poing sacré]] (MCA)</li>
-  <li>[[Prêtre forgeron (prêtre combattant)|Prêtre forgeron]] (MCA)</li>
-  <li>[[Zélote de la mante (prêtre combattant)|Zélote de la mante]] (MCA)</li>
-</ul></div>
+<div class="fright">'''''Voir aussi les [[Bénédictions|bénédictions]].'''''  
+'''''Voir aussi la [[Liste des sorts de prêtres|liste des sorts de prêtre]].'''''  
+{s:PM0|prêtrecombattant}'''Voir les archétypes du prêtre combattant'''&emsp;
+  <li ID="prêtrecombattant" CLASS="listecachée" STYLE="display:none">{s:Menuarchétypeprêtrecombattant}</li>
+</div>{s:mca}''Capables d’utiliser la puissance des dieux sous forme de bénédictions et de sorts, les prêtres combattants mêlent magie divine et talents martiaux. Ce sont d’imprenables bastions de leur religion qui chantent les louanges de leur dieu alors même qu’ils soumettent leurs ennemis en les rouant de coups. Ils ne reculent jamais devant un défi lancé à leurs croyances. Les prêtres usent souvent de subtilité et de diplomatie pour atteindre leurs objectifs alors que les prêtres combattants n’hésitent pas à recourir à la violence dès que la situation l’exige. Dans nombre de religions, ils forment le noyau des forces martiales de leur église : ils récupèrent les reliques perdues, volent au secours des membres du clergé enlevés et défendent les préceptes de leur église contre tous ceux qui osent les défier.''
 
-
-
-{s:mca}''Capables d’utiliser la puissance des dieux sous forme de bénédictions et de sorts, les prêtres combattants mêlent magie divine et talents martiaux. Ce sont d’imprenables bastions de leur religion qui chantent les louanges de leur dieu alors même qu’ils soumettent leurs ennemis en les rouant de coups. Ils ne reculent jamais devant un défi lancé à leurs croyances. Les prêtres usent souvent de subtilité et de diplomatie pour atteindre leurs objectifs alors que les prêtres combattants n’hésitent pas à recourir à la violence dès que la situation l’exige. Dans nombre de religions, ils forment le noyau des forces martiales de leur église : ils récupèrent les reliques perdues, volent au secours des membres du clergé enlevés et défendent les préceptes de leur église contre tous ceux qui osent les défier.''
-
-<center>
-{| CLASS="tablo"
+{| CLASS="tablo centre"
 |+ Le prêtre combattant
 |- CLASS="titre"
 | ROWSPAN="2" | Niveau
@@ -50,7 +39,7 @@ Categories:
 | +0
 | +2
 | +2
-| CLASS="gauche" | [Prêtre combattant#AURA|Aura], [Prêtre combattant#BENEDICTIONS|bénédictions (mineures)], [Prêtre combattant#ARMEDEPREDILECTION|arme de prédilection], [Prêtre combattant#ORAISONS|oraisons], [Prêtre combattant#ARMESACREE|arme sacrée]
+| CLASS="gauche" | [Prêtre combattant#ARMEDEPREDILECTION|Arme de prédilection], [Prêtre combattant#ARMESACREE|arme sacrée], [Prêtre combattant#AURA|aura], [Prêtre combattant#BENEDICTIONS|bénédictions] (mineures), [Prêtre combattant#ORAISONS|oraisons]
 | 1d6
 | 3
 | 1
@@ -95,7 +84,7 @@ Categories:
 | +1
 | +4
 | +4
-| CLASS="gauche" | [Prêtre combattant#CANALISATIONDENERGIE|Canalisation d'énergie], [Prêtre combattant#ARMESACREE|arme sacrée] +1;
+| CLASS="gauche" | [Prêtre combattant#ARMESACREE|Arme sacrée] +1, [Prêtre combattant#CANALISATIONDENERGIE|canalisation d'énergie]
 | 1d6
 | 4
 | 3
@@ -155,7 +144,7 @@ Categories:
 | +2
 | +6
 | +6
-| CLASS="gauche" | [Prêtre combattant#FERVEUR|Ferveur] 3d6, [Prêtre combattant#ARMESACREE|arme sacrée] +2
+| CLASS="gauche" | [Prêtre combattant#ARMESACREE|Arme sacrée] +2, [Prêtre combattant#FERVEUR|Ferveur] 3d6
 | 1d8
 | 5
 | 4
@@ -185,7 +174,7 @@ Categories:
 | +3
 | +7
 | +7
-| CLASS="gauche" | [Prêtre combattant#BENEDICTIONS|Bénédictions (majeures)], [Prêtre combattant#ARMURESACREE|armure sacrée] +2
+| CLASS="gauche" | [Prêtre combattant#ARMURESACREE|Armure sacrée] +2, [Prêtre combattant#BENEDICTIONS|bénédictions] (majeures)
 | 1d10
 | 5
 | 5
@@ -215,7 +204,7 @@ Categories:
 | +4
 | +8
 | +8
-| CLASS="gauche" | [Prêtre combattant#DONSUPPLEMENTAIRE|Don supplémentaire], [Prêtre combattant#ARMESACREE|arme sacrée] +3
+| CLASS="gauche" | [Prêtre combattant#ARMESACREE|Arme sacrée] +3, [Prêtre combattant#DONSUPPLEMENTAIRE|don supplémentaire]
 | 1d10
 | 5
 | 5
@@ -275,7 +264,7 @@ Categories:
 | +5
 | +10
 | +10
-| CLASS="gauche" | [Prêtre combattant#ARMURESACREE|Armure sacrée] +4, [Prêtre combattant#ARMESACREE|arme sacrée] +4
+| CLASS="gauche" | [Prêtre combattant#ARMESACREE|Arme sacrée] +4, [Prêtre combattant#ARMURESACREE|armure sacrée] +4
 | 2d6
 | 5
 | 5
@@ -335,7 +324,7 @@ Categories:
 | +6
 | +12
 | +12
-| CLASS="gauche" | [Prêtre combattant#ASPECTDELAGUERRE|Aspect de la Guerre], [Prêtre combattant#FERVEUR|ferveur] 7d6, [Prêtre combattant#ARMESACREE|Arme sacrée] +5
+| CLASS="gauche" | [Prêtre combattant#ARMESACREE|Arme sacrée] +5, [Prêtre combattant#ASPECTDELAGUERRE|aspect de la guerre], [Prêtre combattant#FERVEUR|ferveur] 7d6
 | 2d8
 | 5
 | 5
@@ -344,35 +333,31 @@ Categories:
 | 5
 | 5
 | 5
+|- CLASS="note"
+| COLSPAN="14" | ''(*) Les valeurs sont indiquées pour des prêtres combattants de taille M. Pour ceux de taille P et G, consultez le pouvoir de classe [[Prêtre combattant#ARMESACREE|arme sacrée]].''
 |}
-''*Les valeurs sont indiquées pour des prêtres combattants de taille M. Pour ceux de taille P et G, consultez le pouvoir de classe [Prêtre combattant#ARMESACREE|arme sacrée].''
-</center>
 
+'''Rôle.''' Les prêtres combattants sont des guérisseurs et des lanceurs de sorts compétents qui puisent dans leurs pouvoirs divins au beau milieu des batailles où leur armure et leurs talents martiaux sont mis à rude épreuve.
 
-'''Rôle'''. Les prêtres combattants sont des guérisseurs et des lanceurs de sorts compétents qui puisent dans leurs pouvoirs divins au beau milieu des batailles où leur armure et leurs talents martiaux sont mis à rude épreuve.
+'''Classes mères.''' [[Guerrier]] et [[Prêtre|prêtre]].
 
-'''Alignement'''. L’alignement du prêtre combattant ne doit pas s’éloigner de plus d’un cran de celui de sa divinité sur l’axe Loi/Chaos ou Bien/Mal.
+'''Alignement.''' L’alignement du prêtre combattant ne doit pas s’éloigner de plus d’un cran de celui de sa divinité sur l’axe Loi/Chaos ou Bien/Mal.
 
 '''Dé de vie.''' d8.
 
-'''Classes mères'''. [[Prêtre]] et [[guerrier]].
-
-'''Richesse de départ'''. 5d6 × 10 po (175 po en moyenne).
+'''Argent de départ.''' 5d6 x 10 po (moyenne 175 po).
 
 ===Compétences de classe===
-
 Voici les compétences de classe du prêtre combattant : [[Art de la magie]] (Int), [[Artisanat]] (Int), [[Connaissances]] (ingénierie) (Int), [[Connaissances]] (religion) (Int), [[Diplomatie]] (Cha), [[Dressage]] (Cha), [[Équitation]] (Dex), [[Escalade]] (For), [[Intimidation]] (Cha), [[Natation]] (For), [[Premiers secours]] (Sag), [[Profession]] (Sag), [[Psychologie]] (Sag), [[Survie]] (Sag)
 
 '''Rangs de compétence par niveau.''' 2 + modificateur d’[[Intelligence]].
 
-
 ===Descriptif de la classe===
-
 Voici les aptitudes de classe du prêtre combattant.
 
 {s:ImageDroite|Illustrations/PNJ/Oloch.jpg|40%}
 {s:Reference|ARMESETARMURES}
-====Armes et armures.====
+====Armes et armures====
 Le prêtre combattant est formé au maniement de toutes les armes courantes et de guerre, ainsi que de l’arme de prédilection de son dieu. 
 
 Il est formé au port des armures (lourdes, légères et intermédiaires) et au maniement des boucliers (à l’exception du pavois). Si le prêtre combattant vénère un dieu ayant pour arme de prédilection les mains nues, il gagne le don [[Science du combat à mains nues]] comme don supplémentaire.
@@ -408,7 +393,7 @@ Chaque jour, le prêtre combattant peut faire appel au pouvoir de ses bénédict
 
 Le [[DD]] du [[jet de sauvegarde]] contre une bénédiction est de 10 + 1/2 niveau du prêtre combattant + son modificateur de [[Sagesse]]. Si le prêtre combattant possède des niveaux dans une autre classe offrant des [[domaines]] de prêtres, ses bénédictions doivent être issues des mêmes domaines. Si le MJ accepte, le prêtre combattant peut changer ses bénédictions ou ses domaines pour les mettre en conformité.
 
-Voir les [[Bénédictions]] du prêtre combattant
+Voir les [[Bénédictions]] du prêtre combattant.
 
 {s:Reference|ARMEDEPREDILECTION}
 ====Arme de prédilection.====
@@ -418,14 +403,13 @@ Au niveau 1, le prêtre combattant reçoit [[Arme de prédilection]] comme don s
 ====Arme sacrée (Sur)====
 <div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
 <div style="border: 1px solid #4b3124; padding: 4px">
-<center>
-{| CLASS="tablo"
-|+ Arme Sacrée,</br>Prêtre combattant de taille P ou G
+{| CLASS="tablo centre autoalt"
+|+ Dégâts de l'arme sacrée des prêtres<br/>combattants de taille P ou G
 |- CLASS="titre"
 | ROWSPAN="1" | Niveau
 | ROWSPAN="1" | Dégats (P)
 | ROWSPAN="1" | Dégats (G)
-|- CLASS="alt"
+|- CLASS="premier"
 | 1-4
 | 1d4
 | 1d8
@@ -433,7 +417,7 @@ Au niveau 1, le prêtre combattant reçoit [[Arme de prédilection]] comme don s
 | 5-9
 | 1d6
 | 2d6
-|- CLASS="alt"
+|-
 | 10-14
 | 1d8
 | 2d8
@@ -441,14 +425,12 @@ Au niveau 1, le prêtre combattant reçoit [[Arme de prédilection]] comme don s
 | 15-19
 | 1d10
 | 3d6
-|- CLASS="alt"
+|-
 | 20
 | 2d6
 | 3d8
 |}
-</center>
-</div></div>
-Dès le niveau 1, les armes du prêtre combattant sont imprégnées de la puissance de sa foi. Cela s’applique à l’arme de prédilection du prêtre combattant mais aussi à toutes celles qui bénéficient du don [[Arme de prédilection]]. Si le prêtre combattant a pris ce don à plusieurs reprises, toutes les armes associées sont sacrées pour lui. 
+</div></div>Dès le niveau 1, les armes du prêtre combattant sont imprégnées de la puissance de sa foi. Cela s’applique à l’arme de prédilection de son dieu mais aussi à toutes celles qui bénéficient du don [[Arme de prédilection]]. Si le prêtre combattant a pris ce don à plusieurs reprises, toutes les armes associées sont sacrées pour lui. 
 
 Quand le prêtre combattant touche un adversaire avec une arme sacrée, les dégâts se basent sur le niveau du prêtre combattant et non sur le type de l’arme. Les dégâts des armes sacrées des prêtres combattants de taille M figurent dans la table de la classe, ceux des prêtres de taille P et G se trouvent dans la table ci-contre. Le prêtre combattant peut choisir d’appliquer les dégâts de base de son arme au lieu des dégâts de l’arme sacrée mais il doit l’annoncer avant de faire son jet (si les dégâts de base de l’arme excèdent ceux de l’arme sacrée, ils ne changent pas). 
 
@@ -473,18 +455,18 @@ Le bonus d’altération et les propriétés spéciales sont à déterminer quan
 Ces bonus ne s’appliquent pas si une créature autre que le prêtre combattant manie l’arme mais ils restent actifs si l’arme quitte sa main (s’il la lance, par exemple). Le prêtre combattant peut mettre fin à cette aptitude par une [[action libre]] au début de son tour (ce round n’est pas décompté de sa limite d’utilisations quotidiennes, à moins qu’il ne réactive le pouvoir au cours du même round). Si le prêtre combattant utilise ce pouvoir sur une arme double, l’effet s’applique sur l’une des têtes de l’arme seulement.
 
 {s:Reference|INCANTATIONSPONTANEE}
-====Incantation spontanée.====
+====Incantation spontanée====
 Un prêtre combattant Bon (ou Neutre vénérant une divinité Bonne) peut canaliser l’énergie de ses sorts préparés pour les transformer en sorts de soins, sans avoir besoin de les préparer à l’avance. Il peut dépenser n’importe quel sort (hormis les oraisons), pour lancer un sort de soins de même niveau ou de niveau inférieur. Un sort de soins est un sort comportant le mot « soins » dans son nom. 
 
 Un prêtre combattant Mauvais (ou Neutre vénérant une divinité Mauvaise) ne convertit pas ses sorts en sorts de soins mais en sorts de blessure. Un sort de blessure est un sort comportant le mot « blessure » dans son nom.
 
 Un prêtre combattant qui n’est ni Bon ni Mauvais et vénère une divinité ni Bonne ni Mauvaise peut convertir ses sorts en sorts de soins ou de blessure. Une fois qu’il a choisi, il ne peut plus revenir sur sa décision. Ce choix détermine aussi le type d’énergie qu’il canalise : positive ou négative.
 
-====Sorts Chaotiques, Mauvais, Bons et Loyaux.====
+====Sorts Chaotiques, Mauvais, Bons et Loyaux====
 Un prêtre combattant ne peut pas lancer des sorts d’un alignement opposé au sien ou à celui de sa divinité (s’il en a une). Les sorts associés à un alignement particulier sont notés comme appartenant au registre du Chaos, du Mal, du Bien ou de la Loi. 
 
 {s:Reference|LANGUESSUPPLEMENTAIRES}
-====Langues supplémentaires.====
+====Langues supplémentaires====
 Un prêtre combattant ajoute l’abyssal, le céleste et l’infernal à sa liste de langues supplémentaires. Ces langages viennent en plus de ceux déjà accessibles grâce à sa race.
 
 {s:Reference|FERVEUR}
@@ -500,12 +482,12 @@ Un prêtre combattant Neutre (ou qui ne vénère pas de divinité particulière)
 Par une action rapide, le prêtre combattant peut dépenser une utilisation de cette aptitude pour lancer n’importe quel sort de prêtre combattant qu’il a préparé ayant un temps d'incantation d'un round ou moins. Un sort ainsi lancé affecte uniquement le prêtre combattant, même s’il devrait normalement affecter plusieurs cibles. Ce genre de sort ignore les composantes gestuelles et ne provoque pas d’attaque d’opportunité. Le prêtre n’a pas besoin d’avoir une main libre pour lancer ainsi son sort.
 
 {s:Reference|DONSUPPLEMENTAIRE}
-====Dons supplémentaires.====
+====Dons supplémentaires====
 Au niveau 3 puis tous les trois niveaux, le prêtre combattant gagne un don supplémentaire, en plus de ceux obtenus grâce à son évolution normale. Il doit les choisir parmi les dons de combat. Il doit remplir les conditions requises mais considère ses niveaux de prêtre combattant comme [[BBA|bonus de base à l’attaque]] (qu’il ajoute aux bonus de base à l’attaque obtenus grâce aux autres classes et [[DV]] raciaux) pour déterminer s'il en rempli les prérequis. Enfin, vis-à-vis de ces dons, le prêtre combattant peut choisir des dons nécessitant un nombre minimum de niveaux de guerrier, en considérant son niveau de prêtre combattant comme le niveau de guerrier.
 
 {s:Reference|CANALISATIONDENERGIE}
-====Canalisation d’énergie (Sur).====
-À partir du niveau 4, le prêtre combattant peut libérer une vague d’énergie en canalisant la puissance de sa foi à travers son symbole sacré (ou impie). Cette énergie sert à blesser ou à soigner, selon son type et celui de la créature visée. Pour utiliser cette aptitude, il faut accomplir une action simple et dépenser deux utilisations de ferveur. Ce pouvoir ne provoque pas d’attaque d’opportunité mais et, pour s’en servir, le prêtre combattant doit montrer son symbole sacré ou impie.
+====Canalisation d’énergie (Sur)====
+À partir du niveau 4, le prêtre combattant peut libérer une vague d’énergie en canalisant la puissance de sa foi à travers son symbole sacré (ou impie). Cette énergie sert à blesser ou à soigner, selon son type et celui de la créature visée. Pour utiliser cette aptitude, il faut accomplir une action simple et dépenser deux utilisations de ferveur. Ce pouvoir ne provoque pas d’attaque d’opportunité mais, pour s’en servir, le prêtre combattant doit montrer son symbole sacré ou impie.
 * Un prêtre combattant Bon (ou qui vénère une divinité Bonne) canalise de l’énergie positive et peut soigner les vivants ou blesser les morts-vivants. 
 * Un prêtre combattant Mauvais (ou qui  vénère une divinité Mauvaise) canalise de l’énergie négative et soigne les morts-vivants ou blesse les vivants. 
 * Un prêtre combattant Neutre (ou qui ne vénère aucune divinité particulière) canalise l’énergie positive s’il a choisi de lancer des sorts spontanés de soins ou de l’énergie négative s’il a choisi de lancer des sorts spontanés de blessure.

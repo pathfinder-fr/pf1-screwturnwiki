@@ -1,28 +1,26 @@
 ---
 Name: Pathfinder-RPG.Découvertes arcaniques
 Title: Découvertes arcaniques
-LastModified: 2020-05-24 15:21
+LastModified: 2022-04-02 15:46
 Categories:
-  - 'Art de la Magie'
   - 'Classe'
-  - 'Règles officielles'
+  - 'Règle officielle'
+  - 'Src Art de la magie'
 ---
 {s:MenuClasses}
 {s:um}''Les magiciens passent une grande partie de leur existence à chercher de grandes vérités et à traquer les connaissances comme si leur vie en dépendait. Le pouvoir du magicien ne réside pas forcément dans ses sorts, ce ne sont que des manifestations extérieures visibles de ce pouvoir. La véritable puissance du magicien réside dans son intelligence indomptable, dans sa dévotion à son art et dans ses capacités à dépasser les vérités superficielles pour comprendre les fondements cachés de l’existence. Un magicien passe une grande partie de son temps à faire des recherches sur les sorts et préfère découvrir une bibliothèque inconnue plutôt qu’une salle pleine de pièces d’or. Les magiciens ne sont pas forcément des rats de bibliothèque reclus mais ils brûlent de curiosité face à l’inconnu. Les découvertes arcaniques résultent de cette obsession pour la magie. Le magicien peut apprendre une découverte magique au lieu de choisir un don normal ou un don de magicien supplémentaire.''
 
-{| CLASS="tablo toutgauche centre autoalt" WIDTH="80%"
+{| CLASS="tablo toutgauche centre autoalt" WIDTH="70%"
 |+ Découvertes arcaniques de magicien 
 |- CLASS="titre"
 | Niveau<br>minimal
 | COLSPAN="2" | Découvertes arcaniques
 |- CLASS="premier"
-| '''1''' || [[Découvertes arcaniques#Charmescontagieux|Charmes contagieux]] || [[Découvertes arcaniques#Invocationéquilibrée|Invocation équilibrée (Ext)]]
+| '''1''' || [[Découvertes arcaniques#Contrecoupdéfensif|Contrecoup défensif (Sur)]] || [[Découvertes arcaniques#Invocationéquilibrée|Invocation équilibrée]]
 |-
-| &emsp; || [[Découvertes arcaniques#Contrecoupdéfensif|Contrecoup défensif]] || [[Découvertes arcaniques#Illusionspersistantes|Illusions persistantes (Ext)]]
+| &emsp; || [[Découvertes arcaniques#Destructioncréatrice|Destruction créatrice (Sur)]] || [[Découvertes arcaniques#Laconnaissancecestlaforce|La connaissance c’est la force (Ext)]]
 |-
-| &emsp; || [[Découvertes arcaniques#Destructioncréatrice|Destruction créatrice]] || [[Découvertes arcaniques#Laconnaissancecestlaforce|La connaissance c’est la force (Ext)]]
-|-
-| &emsp; || [[Découvertes arcaniques#Fabricantarcanique|Fabricant arcanique]] || [[Découvertes arcaniques#Pacteioun|Pacte Ioun (Ext)]]
+| &emsp; || [[Découvertes arcaniques#Fabricantarcanique|Fabricant arcanique]] || [[Découvertes arcaniques#Pacteioun|Pacte Ioun]]
 |-
 |- CLASS="premier"
 | '''5''' || [[Découvertes arcaniques#Affinitéaveclalchimie|Affinité avec l’alchimie]] || [[Découvertes arcaniques#Étudesaccélérées|Études accélérées]]
@@ -30,6 +28,8 @@ Categories:
 | &emsp; || [[Découvertes arcaniques#Bénédictiondelaforêt|Bénédiction de la forêt]] || [[Découvertes arcaniques#Langagesauvage|Langage sauvage (Sur)]]
 |-
 | &emsp; || [[Découvertes arcaniques#Diviserunemplacement|Diviser un emplacement]] || [[Découvertes arcaniques#Multimorphe|Multimorphe (Sur)]]
+|- CLASS="premier"
+| '''8''' || [[Découvertes arcaniques#Illusionspersistantes|Illusions persistantes (Ext)]] || &emsp;
 |-
 |- CLASS="premier"
 | '''9''' || [[Découvertes arcaniques#Fabricantdegolems|Fabricant de golems]] || [[Découvertes arcaniques#Recherchessurlopposition|Recherches sur l’opposition]]
@@ -40,7 +40,9 @@ Categories:
 | '''10''' || [[Découvertes arcaniques#Floutemporel|Flou temporel (Mag)]] || [[Découvertes arcaniques#Idéalisation|Idéalisation (Sur)]]
 |-
 |- CLASS="premier"
-| '''11''' || [[Découvertes arcaniques#Baguettebâton|Baguette bâton]] || [[Découvertes arcaniques#Véritablenom|Véritable non (Mag)]]
+| '''11''' || [[Découvertes arcaniques#Baguettebâton|Baguette bâton]] || [[Découvertes arcaniques#Véritablenom|Véritable nom (Mag)]]
+|-
+| &emsp; || [[Découvertes arcaniques#Charmescontagieux|Charmes contagieux]] || &emsp;
 |-
 |- CLASS="premier"
 | '''15''' || [[Découvertes arcaniques#Formeduloupgarou|Forme du loup-garou (Sur)]] || &emsp;
@@ -51,75 +53,122 @@ Categories:
 
 ===Découvertes arcaniques du magicien===
 <div class="article_2col">
-{s:UM}{s:Reference|Affinitéaveclalchimie}
-====Affinité avec l'alchimie==== Le magicien a étudié avec les alchimistes et sait également se servir de leurs connaissances. Quand il lance un sort présent dans sa liste de sort et également présent dans la [[liste des formules dalchimiste|liste des formules d'alchimiste]], il le lance avec un [[NLS|niveau de lanceur de sorts]] accru de 1. De plus, il peut recopier des formules d'alchimiste dans son livre de sorts. Le magicien doit être au moins de niveau 5 avant de faire cette découverte.
+{s:Reference|Affinitéaveclalchimie}
+====Affinité avec l'alchimie====
+{s:cs}<div class="description">'''Source :''' Magical Marketplace (MaM).</div>
+
+Le magicien a étudié avec les alchimistes et sait également se servir de leurs connaissances. Quand il lance un sort présent dans sa liste de sort et également présent dans la [[liste des formules dalchimiste|liste des formules d'alchimiste]], il le lance avec un [[NLS|niveau de lanceur de sorts]] supérieur de 1 et le [[DD]] de ses [[jds|jets de sauvegarde]] augmente de 1. De plus, il peut recopier des formules d'alchimiste dans son livre de sorts. Le magicien doit être au moins de niveau 5 avant de faire cette découverte.
 
 {s:UM}{s:Reference|Baguettebâton}
-====Baguette bâton==== Les recherches du personnage lui ont permis de découvrir un nouveau pouvoir à utiliser avec sa baguette. Comme pour un bâton, le magicien utilise sa valeur d’Intelligence et les dons adéquats pour déterminer le [[DD]] des jets de sauvegarde contre les sorts qu’il lance avec une baguette. Il peut utiliser son [[NLS|niveau de lanceur de sorts]] quand il active le pouvoir de la baguette, même s’il est supérieur à celui de son créateur. Le magicien doit être au moins de niveau 11 et disposer du don [[Création de bâtons magiques]] avant de faire cette découverte.
+====Baguette bâton====
+Les recherches du personnage lui ont permis de découvrir un nouveau pouvoir à utiliser avec sa baguette. Comme pour un bâton, le magicien utilise sa valeur d’Intelligence et les dons adéquats pour déterminer le [[DD]] des jets de sauvegarde contre les sorts qu’il lance avec une baguette. Il peut utiliser son [[NLS|niveau de lanceur de sorts]] quand il active le pouvoir de la baguette, même s’il est supérieur à celui de son créateur. Le magicien doit être au moins de niveau 11 et disposer du don [[Création de bâtons magiques]] avant de faire cette découverte.
 
-{s:UM}{s:Reference|Bénédictiondelaforêt}
-====Bénédiction de la forêt====  Le magicien partage le lien avec la nature des druides. Quand il lance un sort présent dans sa liste de sort et également présent dans la [[liste des sorts de druides]], il le lance avec un [[NLS|niveau de lanceur de sorts]] accru de 1. De plus, il peut remplacer les composantes matérielles de ses sorts par des gemmes de valeur équivalente. Le magicien doit être au moins de niveau 5 avant de faire cette découverte.
+{s:Reference|Bénédictiondelaforêt}
+====Bénédiction de la forêt==== 
+{s:cs}<div class="description">'''Source :''' Champions of Purity (CoP).</div>
 
-{s:UM}{s:Reference|Charmescontagieux}
-====Charmes contagieux==== Le magicien est si charmeur que ses charmes mêmes sont contagieux. Lorsqu'il lance un sort du registre du [[charme]] ou de la [[coercition]] affectant une créature unique, par une action rapide, il peut également faire en sorte que le sort affecte une autre créature dans un rayon de 9 mètres (6 {s:c}) de la première.
+Le magicien partage le lien avec la nature des druides. Quand il lance un sort présent dans sa liste de sort et également présent dans la [[liste des sorts de druides]], il le lance avec un [[NLS|niveau de lanceur de sorts]] supérieur de 1 et le [[DD]] de ses [[jds|jets de sauvegarde]] augmente de 1. De plus, il peut remplacer les composantes matérielles de ses sorts par des gemmes de valeur équivalente. Le magicien doit être au moins de niveau 5 avant de faire cette découverte.
 
-{s:UM}{s:Reference|Contrecoupdéfensif}
-====Contrecoup défensif==== Lorsque le magicien annule des dommages grâce à un sort du registre de l'[[abjuration]], si la créature ayant infligé les dégâts est dans un rayon de 9 mètres (6 {s:c}), elle subit 1d6 points de dégâts pour chaque 10 dommages annulés de cette manière.
+{s:Reference|Charmescontagieux}
+====Charmes contagieux====
+{s:cs}<div class="description">'''Source :''' Magical Marketplace (MaM).</div>
 
-{s:UM}{s:Reference|Destructioncréatrice}
-====Destruction créatrice==== Lorsque le magicien lance un sort du registre de l'[[évocation]], il gagne un nombre de points de vie temporaire égal au nombre de dés de dommages du sort. Ces points de vie temporaire ne s'accumulent pas et disparaissent au niveau d'une heure.
+Le magicien est si charmeur que ses charmes mêmes sont contagieux. Lorsqu'il lance un sort du registre du [[charme]] ou de la [[coercition]] affectant une créature unique, par une action rapide, il peut également faire en sorte que le sort affecte une autre créature dans un rayon de 9 mètres (6 {s:c}) de la première. Le magicien doit être au moins de niveau 11 avant de faire cette découverte.
+
+{s:Reference|Contrecoupdéfensif}
+====Contrecoup défensif (Sur)====
+{s:cs}<div class="description">'''Source :''' Champions of Balance (CoB).</div>
+
+Lorsque le magicien annule des dégâts grâce à un sort d'[[abjuration]] (avec une réduction de dégâts, ou une résistance à l'énergie), si la créature ayant infligé les dégâts est dans un rayon de 9 mètres (6 {s:c}) de la cible protégée, la créature subit 1d6 points de dégâts pour chaque 10 points de dégâts annulés de cette manière.
+
+{s:Reference|Destructioncréatrice}
+====Destruction créatrice (Sur)====
+{s:cs}<div class="description">'''Source :''' Champions of Balance (CoB).</div>
+
+Lorsque le magicien lance un sort du registre de l'[[évocation]], il gagne un nombre de points de vie temporaires égal au nombre de dés de dommages du sort. Ces points de vie temporaires ne s'accumulent pas et disparaissent au niveau d'une heure.
 
 {s:UM}{s:Reference|Diviserunemplacement}
-====Diviser un emplacement==== Une fois par jour, quand le personnage prépare ses sorts, il peut utiliser un emplacement comme s’il s’agissait en fait de deux emplacements de deux niveaux de sort de moins. Par exemple, un magicien de niveau 9 peut diviser un emplacement de sort de niveau 5 en deux emplacements de sort de niveau 3 et préparer ainsi ''[[boule de feu]]'' et ''[[éclair]]''. Pour tout le reste, les deux emplacements sont considérés comme de niveau inférieur (l’emplacement de niveau 5 divisé pour lancer ''[[boule de feu]]'' a le même [[DD]] qu’un sort de niveau 3 normal). Si le personnage divise un emplacement de sort de niveau 2, il peut préparer deux tours de magie de plus (qu’il peut lancer encore et encore, comme des tours de magie normaux). Cette découverte n’a aucun effet sur les tours de magie et les sorts de niveau 1. Le magicien peut faire cette découverte à plusieurs reprises, ce qui lui permet à chaque fois de diviser un nouvel emplacement de sort. Il ne peut pas diviser un emplacement obtenu par division. Le magicien doit être au moins de niveau 5 avant de faire cette découverte.
+====Diviser un emplacement====
+Une fois par jour, quand le personnage prépare ses sorts, il peut utiliser un emplacement comme s’il s’agissait en fait de deux emplacements de deux niveaux de sort de moins. Par exemple, un magicien de niveau 9 peut diviser un emplacement de sort de niveau 5 en deux emplacements de sort de niveau 3 et préparer ainsi ''[[boule de feu]]'' et ''[[éclair]]''. Pour tout le reste, les deux emplacements sont considérés comme de niveau inférieur (l’emplacement de niveau 5 divisé pour lancer ''[[boule de feu]]'' a le même [[DD]] qu’un sort de niveau 3 normal). Si le personnage divise un emplacement de sort de niveau 2, il peut préparer deux tours de magie de plus (qu’il peut lancer encore et encore, comme des tours de magie normaux). Cette découverte n’a aucun effet sur les tours de magie et les sorts de niveau 1. Le magicien peut faire cette découverte à plusieurs reprises, ce qui lui permet à chaque fois de diviser un nouvel emplacement de sort. Il ne peut pas diviser un emplacement obtenu par division. Le magicien doit être au moins de niveau 5 avant de faire cette découverte.
 
 {s:UM}{s:Reference|Étudesaccélérées}
-====Études accélérées==== Normalement, un magicien doit, chaque jour, consacrer une heure à la préparation de ses sorts, ou moins s’il ne les prépare pas tous, avec un minimum de 15 minutes. Grâce à sa discipline mentale et à ses astuces mnémotechniques, il peut préparer l’intégralité de ses sorts en 15 minutes et son temps de préparation minimal passe à 1 minute s’il n’en prépare que quelques-uns. Le magicien doit être au moins de niveau 5 avant de choisir cette découverte.
+====Études accélérées====
+Normalement, un magicien doit, chaque jour, consacrer une heure à la préparation de ses sorts, ou moins s’il ne les prépare pas tous, avec un minimum de 15 minutes. Grâce à sa discipline mentale et à ses astuces mnémotechniques, il peut préparer l’intégralité de ses sorts en 15 minutes et son temps de préparation minimal passe à 1 minute s’il n’en prépare que quelques-uns. Le magicien doit être au moins de niveau 5 avant de faire cette découverte.
 
 {s:UM}{s:Reference|Fabricantarcanique}
-====Fabricant arcanique==== Le personnage possède un don particulier pour comprendre la théorie de la fabrication des
+====Fabricant arcanique====
+Le personnage possède un don particulier pour comprendre la théorie de la fabrication des
 objets magiques. Il choisit un type d’objet magique (potion, objet merveilleux, etc.) qu’il pourra fabriquer 25% plus vite que la normale. Il gagne un bonus de +4 aux tests d’[[Art de la magie]] (ou autres, comme il convient) qui entrent dans la fabrication de cet objet. Il peut choisir cette découverte à plusieurs reprises mais ses effets ne se cumulent pas, ils s’appliquent à chaque fois à un nouveau type d’objet.
 
 {s:UM}{s:Reference|Fabricantdegolems}
-====Fabricant de golems==== Le personnage a appris l’art de fabriquer un unique type de [[golem]] (comme des [[golem de pierre|golems de pierre]] ou des [[golem de fer|golems de fer]]). Quand il crée un golem de ce type, on considère qu’il possède les dons [[Création dobjets merveilleux|Création d’objets merveilleux]], [[Création darmes et armures magiques|Création d’armes et armures magiques]] et [[Création de créatures artificielles]]. Le personnage doit remplir toutes les autres conditions requises pour fabriquer le [[golem]]. Il peut choisir ce don à plusieurs reprises mais il s’applique à chaque fois à une sorte de [[golem]] différent. Il doit avoir au moins un niveau 9 de
-magicien avant de choisir cette découverte.
+====Fabricant de golems====
+Le personnage a appris l’art de fabriquer un unique type de [[golem]] (comme des [[golem de pierre|golems de pierre]] ou des [[golem de fer|golems de fer]]). Quand il crée un golem de ce type, on considère qu’il possède les dons [[Création dobjets merveilleux|Création d’objets merveilleux]], [[Création darmes et armures magiques|Création d’armes et armures magiques]] et [[Création de créatures artificielles]]. Le personnage doit remplir toutes les autres conditions requises pour fabriquer le [[golem]]. Il peut choisir ce don à plusieurs reprises mais il s’applique à chaque fois à une sorte de [[golem]] différent.  Le magicien doit être au moins de niveau 9 avant de faire cette découverte.
 
-{s:UM}{s:Reference|Floutemporel}
-====Flou temporel (Mag)==== Le magicien est capable de s'extraire brièvement du temps. Ce pouvoir fonctionne comme [[arrêt du temps]] mais n'agit qu'un tour. Ce pouvoir peut être utilisé une fois au niveau 10, et une fois de plus à tous les 5 niveaux après le 10. Il doit avoir atteint le niveau 10 de magicien avant de pouvoir faire cette découverte.
+{s:Reference|Floutemporel}
+====Flou temporel (Mag)====
+{s:cs}<div class="description">'''Source :''' People of the River (PotR).</div>
 
-{s:UM}{s:Reference|Formeduloupgarou}
-====Forme du loup-garou (Sur)==== Lorsqu'il lance [[forme bestiale IV]], ou [[changement de forme]] sur sa personne, le magicien peut prendre l'apparence d'un loup-garou. Sous cette forme, il gagne tous les avantages de l'[[archétypes|archétype]] de loup-garou. Pour la durée du sort, il se comporte comme le ferait un lycanthrope, y compris pour infliger sa malédiction, utilisant le DD du sort pour déterminer le DD de la malédiction. Il doit avoir atteint le niveau 15 de magicien avant de pouvoir faire cette découverte.
+Le magicien est capable de s'extraire brièvement du temps. Ce pouvoir fonctionne comme ''[[arrêt du temps]]'' mais n'agit qu'un tour. Ce pouvoir peut être utilisé une fois par jour au niveau 10, et une fois de plus par tranche de 5 niveaux après le 10ème.  Le magicien doit être au moins de niveau 10 avant de faire cette découverte.
 
-{s:UM}{s:Reference|Guidedugrandaudelà}
-====Guide du Grand Au-Delà==== Si une créature devait être convoquée ou se téléporter à moins de 9 mètres (6 {s:c}) du magicien, il peut choisir de tenter de s'y opposer. Il fait alors un test de lanceur de sort par une [[action immédiate]]
-opposé à celui de la téléportation ou convocation. Si le test réussit, alors la téléportation ou convocation est annulée et son utilisation dépensée. Ce pouvoir peut être utilisé une fois au niveau 9, et une fois de plus à tous les 5 niveaux après le 10. Il doit avoir atteint le niveau 9 de magicien avant de pouvoir faire cette découverte.
+{s:Reference|Formeduloupgarou}
+====Forme du loup-garou (Sur)====
+{s:cs}<div class="description">'''Source :''' Blood of the Moon (BotM).</div>
 
-{s:UM}{s:Reference|Idéalisation}
-====Idéalisation (Sur)==== Le magicien a appris à augmenter encore davantage sa puissance dans sa quête pour la perfection de soi. Lorsqu'il lance un sort de [[transmutation]] donnant un bonus d'altération à une caractéristique, celle-ci reçoit un bonus de +2. Le bonus passe à +4 au niveau 20.  Le personnage doit avoir atteint le niveau 10 de magicien avant de pouvoir faire cette découverte.
+Lorsqu'il lance ''[[forme bestiale IV]]'', ou ''[[changement de forme]]'' sur sa personne, le magicien peut prendre l'apparence d'un loup-garou. Sous cette forme, il gagne tous les avantages de l'[[Lycanthrope, archétype|archétype de lycanthrope]] au lieu des avantages normaux du sort. Pour la durée du sort, il se comporte comme le ferait un lycanthrope, y compris pour infliger sa malédiction, utilisant le DD du sort pour déterminer le DD de la malédiction.  Le magicien doit être au moins de niveau 15 avant de faire cette découverte.
+
+{s:Reference|Guidedugrandaudelà}
+====Guide du Grand Au-Delà====
+{s:cs}<div class="description">'''Source :''' Champions of Purity (CoP).</div>
+
+Si une créature devait être convoquée ou se téléporter à moins de 9 mètres (6 {s:c}) du magicien, il peut choisir de tenter de s'y opposer. Il fait alors un test de lanceur de sort par une [[action immédiate]] opposé à celui de la téléportation ou convocation. Si le test réussit, alors la téléportation ou convocation est annulée et son utilisation dépensée. Ce pouvoir peut être utilisé une fois par jour au niveau 9, et une fois de plus par tranche de 5 niveaux après le 10ème.  Le magicien doit être au moins de niveau 9 avant de faire cette découverte.
+
+{s:Reference|Idéalisation}
+====Idéalisation (Sur)====
+{s:cs}<div class="description">'''Source :''' Champions of Balance (CoB).</div>
+
+Le magicien a appris à augmenter encore davantage sa puissance dans sa quête pour la perfection de soi. Lorsqu'il lance un sort de [[transmutation]] donnant un bonus d'altération à une caractéristique, celle-ci reçoit un bonus de +2. Le bonus passe à +4 au niveau 20.   Le magicien doit être au moins de niveau 10 avant de faire cette découverte.
 
 {s:UM}{s:Reference|Immortalité}
-====Immortalité (Ext)==== Le personnage a découvert un remède contre le vieillissement et, à partir de ce moment, il ne reçoit pas de [[État civil et mensurations|malus de vieillissement]] aux valeurs de caractéristiques physiques. Si certaines l’affectaient déjà, elles disparaissent. Le personnage doit être un magicien de niveau 20 pour faire cette découverte.
+====Immortalité (Ext)====
+Le personnage a découvert un remède contre le vieillissement et, à partir de ce moment, il ne reçoit pas de [[État civil et mensurations|malus de vieillissement]] aux valeurs de caractéristiques physiques. Si certaines l’affectaient déjà, elles disparaissent.  Le magicien doit être au moins de niveau 20 avant de faire cette découverte.
 
-{s:UM}{s:Reference|Invocationéquilibrée}
-====Invocation équilibrée (Ext)==== Le personnage est capable de maintenir un certain équilibre dans ses sorts. Lorsqu'il lance un sort de [[convocation de monstres]], il peut convoquer deux monstres appartenant à la liste d'un niveau de moins que le sort lancé. Les deux créatures doivent avoir deux alignements différents, sur l'axe Loi/Chaos ou l'axe Bien/Mal. Par exemple, s'il lance [[convocation de monstres III]], il peut convoquer une hyène fiélonne et un loup céleste de la liste de niveau 2.
+{s:Reference|Invocationéquilibrée}
+====Invocation équilibrée====
+{s:cs}<div class="description">'''Source :''' Champions of Balance (CoB).</div>
 
-{s:UM}{s:Reference|Illusionspersistantes}
-====Illusions persistantes (Ext)==== Le magicien fait apparaître des illusions encore plus réalistes. Dès qu'une créature cherche à résister à ses [[illusion|illusions]], il fait un test de lanceur de sort. Le DD du sort devient égal au résultat du test, s'il est supérieur au DD normal du sort.
+Le personnage est capable de maintenir un certain équilibre dans ses sorts. Lorsqu'il lance un sort de ''[[convocation de monstres]]'', il peut convoquer deux monstres appartenant à la liste d'au moins un niveau de moins que le sort lancé. Les deux créatures doivent avoir deux alignements différents, sur l'axe Loi/Chaos ou l'axe Bien/Mal. Par exemple, s'il lance ''[[convocation de monstres III]]'', il peut convoquer une hyène fiélonne et un loup céleste de la liste de niveau 2.
 
-{s:UM}{s:Reference|Laconnaissancecestlaforce}
-====La connaissance c'est la force (Ext)==== Le magicien ajoute son bonus d'[[Intelligence]] à son [[BMO]], son [[DMD]] et ses tests de [[Force]] pour briser des objets grâce à sa compréhension de la physique.
+{s:Reference|Illusionspersistantes}
+====Illusions persistantes (Ext)====
+{s:cs}<div class="description">'''Source :''' Magical Marketplace (MaM).</div>
+
+Le magicien fait apparaître des illusions encore plus réalistes. Dès qu'une créature cherche à résister à ses [[illusion|illusions]], il fait un test de lanceur de sort. Le DD du sort devient égal au résultat du test, s'il est supérieur au DD normal du sort. Le magicien doit être au moins de niveau 8 avant de faire cette découverte.
+
+{s:Reference|Laconnaissancecestlaforce}
+====La connaissance c'est la force (Ext)====
+{s:cs}<div class="description">'''Source :''' People of the River (PotR).</div>
+
+Le magicien ajoute son bonus d'[[Intelligence]] à son [[BMO]] et à son [[DMD]]. De plus, il ajoute son bonus d'[[Intelligence]] à ses tests de [[Force]] pour briser des objets grâce à sa compréhension de la physique.
 
 {s:UM}{s:Reference|Langagesauvage}
-====Langage sauvage (Sur)==== Cette découverte permet au magicien de parler à n’importe quel animal et de comprendre sa réponse, comme avec ''[[communication avec les animaux]]'', mais à chaque fois qu’il utilise ce pouvoir, il doit choisir s’il veut parler à des amphibiens, des oiseaux, des poissons, des mammifères ou des reptiles. Il ne comprendra et ne sera compris que de ces créatures. Il peut se faire comprendre aussi loin que porte sa voix. Ce maléfice ne prédispose pas les animaux à réagir d’une manière ou d’une autre. Au niveau 12, il peut aussi utiliser ce pouvoir pour communiquer avec la vermine. Le magicien doit être au moins de niveau 5 avant de choisir cette découverte.
+
+====Langage sauvage (Sur)====
+Cette découverte permet au magicien de parler à n’importe quel animal et de comprendre sa réponse, comme avec ''[[communication avec les animaux]]'', mais à chaque fois qu’il utilise ce pouvoir, il doit choisir s’il veut parler à des amphibiens, des oiseaux, des poissons, des mammifères ou des reptiles. Il ne comprendra et ne sera compris que de ces créatures. Il peut se faire comprendre aussi loin que porte sa voix. Ce maléfice ne prédispose pas les animaux à réagir d’une manière ou d’une autre. Au niveau 12, il peut aussi utiliser ce pouvoir pour communiquer avec la vermine. Le magicien doit être au moins de niveau 5 avant de faire cette découverte.
 
 {s:UM}{s:Reference|Multimorphe}
-====Multimorphe (Sur)==== Les études de transformation du magicien l’ont aidé à mieux contrôler les sorts de changement
-de forme. Quand il lance un sort de la branche de la [[Transmutation|métamorphose]] sur sa personne, il peut dépenser 1 minute de sort, par une [[action simple]], pour prendre une autre forme autorisée. Il peut le faire aussi souvent qu’il le désire, dans la limite de la durée du sort. Il doit avoir atteint le niveau 5 de magicien avant de pouvoir faire cette découverte.
+====Multimorphe (Sur)====
+Les études de transformation du magicien l’ont aidé à mieux contrôler les sorts de changement
+de forme. Quand il lance un sort de la branche de la [[Transmutation|métamorphose]] sur sa personne, il peut dépenser 1 minute de sort, par une [[action simple]], pour prendre une autre forme autorisée. Il peut le faire aussi souvent qu’il le désire, dans la limite de la durée du sort. Le magicien doit être au moins de niveau 5 avant de faire cette découverte.
 
-{s:UM}{s:Reference|PacteIoun}
-====Pacte Ioun (Ext)==== Le magicien se lie par son pacte magique à une [[pierre ioun]]. Il gagne une pierre ioun grise au niveau 1 si cette découverte est choisie au niveau 1. Au niveau 12, le magicien peut la transformer en pierre ioun d'une autre couleur, comme s'il possédait le don de [[création dobjets merveilleux|création d'objets merveilleux]] ; s'il meurt ou perd son pacte, la pierre redevient grise. Le magicien doit posséder l'aptitude de [[magicien#PACTEMAGIQUE|pacte magique]] pour choisir cette découverte.
+{s:Reference|PacteIoun}
+====Pacte Ioun====
+{s:cs}<div class="description">'''Source :''' People of the River (PotR).</div>
+
+Le magicien se lie par son pacte magique à une [[pierre ioun]]. Il obtient gratuitement une [[Pierre ioun#_0|pierre ioun gris terne]] si cette découverte est choisie au niveau 1. Une pierre ioun liée doit orbiter autour de la tête du personnage pour avoir effet. Au niveau 12, le magicien peut la transformer en pierre ioun d'une autre couleur, comme s'il possédait le don de [[création dobjets merveilleux|création d'objets merveilleux]] ; s'il meurt ou perd son pacte, la pierre redevient grise. Le magicien doit posséder l'aptitude de [[magicien#PACTEMAGIQUE|pacte magique]] pour choisir cette découverte.
 
 {s:UM}{s:Reference|Recherchessurlopposition}
-====Recherches sur l’opposition==== À force d’études acharnées, le personnage a brisé les barrières mentales qui l’empêchaient de préparer facilement des sorts issus de l’une de ses [[écoles de magie|écoles d’opposition]]. Le magicien choisit l’une de ses [[écoles de magie|écoles d’opposition]]. À présent, il n’a plus qu’à dépenser un emplacement de sort du niveau requis de plus au lieu de deux et il ne souffre plus du malus de -4 aux tests d’[[Art de la magie]] quand il fabrique des objets basés sur cette école. Il faut être au moins magicien de niveau 9 avant de choisir cette découverte.
+====Recherches sur l’opposition====
+À force d’études acharnées, le personnage a brisé les barrières mentales qui l’empêchaient de préparer facilement des sorts issus de l’une de ses [[écoles de magie|écoles d’opposition]]. Le magicien choisit l’une de ses [[écoles de magie|écoles d’opposition]]. À présent, il n’a plus qu’à dépenser un emplacement de sort du niveau requis au lieu de deux et il ne souffre plus du malus de -4 aux tests d’[[Art de la magie]] quand il fabrique des objets basés sur cette école.  Le magicien doit être au moins de niveau 9 avant de faire cette découverte.
 
 {s:UM}{s:Reference|Véritablenom}
 ====Véritable nom (Mag)====

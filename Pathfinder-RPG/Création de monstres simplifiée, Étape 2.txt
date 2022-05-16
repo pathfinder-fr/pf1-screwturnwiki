@@ -1,0 +1,601 @@
+---
+Name: Pathfinder-RPG.Création de monstres simplifiée, Étape 2
+Title: Création de monstres simplifiée, Étape 2 : La greffe de type de créature ou de classe
+LastModified: 2020-11-10 19:32
+Categories:
+  - 'Src Pathfinder unchained'
+---
+{s:MenuPathfinderunchained}{s:PU}{toc}Avec le système normal de création de monstres, les statistiques essentielles telles que le bonus de base à l’attaque, les bonus de sauvegarde et les points de vie, sont calculés d’après le type de créature et les niveaux de classe du monstre. Avec ce système, la [[Création de monstres simplifiée, Étape 1|gamme]] du monstre fixe ses statistiques principales en fonction du rôle général et du [[FP]] qui le caractérisent. Les types de créature et les classes ajustent ensuite ces statistiques afin qu’elles répondent au mieux à un concept de monstre particulier.
+
+Les types de créature et les classes de personnages sont illustrés via des « greffes » (des ensembles d’ajustements que l’on applique aux statistiques d’une gamme). Un monstre que l’on crée avec ce système se définit avant tout par son type ou sa classe de personnage. Par exemple, une goule qui est un puissant prêtre utilisera très certainement la [[Création de monstres simplifiée, Étape 2#PRETRE|greffe de prêtre]] plutôt que de se définir principalement comme un [[Création de monstres simplifiée, Étape 2#MORTVIVANT|mort-vivant]]. Un géant du Feu avec 3 niveaux de [[barde]] devrait, quant à lui, choisir la greffe de type [[Création de monstres simplifiée, Étape 2#HUMANOIDE|humanoïde]] et, plus tard, choisir quelques options de monstre lui accordant des pouvoirs de barde.
+
+Si le monstre se définit d’abord par son type, choisissez la greffe de type qui convient et procédez aux ajustements de greffe comme indiqué dans la section suivante. S’il se définit d’abord par sa classe, choisissez une greffe de type mais appliquez uniquement les « traits automatiques » avant d’ajouter la greffe de classe. Par exemple, même si un dragon possède 20 niveaux de [[roublard]] (utilisant donc la [[Création de monstres simplifiée, Étape 2#ROUBLARD|greffe de classe du roublard]]), il gagne quand même les visions et immunités normales du [[Création de monstres simplifiée, Étape 2#DRAGON|dragon]].
+
+===Les greffes de type de créature===
+Altérer une gamme avec un type de créature est un procédé simple qui, en général, modifie certaines statistiques du monstre ou lui en rajoute. Chaque type de créature inclut au moins les deux premières entrées parmi celles qui suivent.
+
+'''Traits automatiques.''' Toutes les créatures de ce type gagnent ces pouvoirs qui, en principe, incluent les sens, les immunités et les groupes de traits plus détaillés définis dans la description complète du [[Types de créatures|type de créature]]. Ceci n’inclut pas les modes de déplacement ; cf. [[Création de monstres simplifiée#Les_autres_calculs_13|Vitesse de déplacement]], dans l'Étape 1.
+
+'''Ajustements de statistiques.''' Ces ajustements modifient les valeurs de base fixées par la gamme du monstre. Ce sont des ajustements, non pas des remplacements : augmentez ou réduisez du nombre indiqué les statistiques relevées pour la [[Création de monstres simplifiée, Étape 1|gamme]]. Procédez à ces ajustements uniquement si votre monstre n’a pas de greffe de classe.
+
+'''Ajustements optionnels.''' Ce sont des modifications optionnelles qui peuvent servir à mieux illustrer le type du monstre et incluent fréquemment des changements dans la liste des compétences, des options de monstre pour ce type de créature (cf. [[Création de monstres simplifiée, Étape 7|Étape 7]]) et des sorts, voire des limitations. Ces éléments devraient vous aiguiller vers des pouvoirs qui se manifestent, en général, chez les créatures du type indiqué mais ne représentent pas une liste exhaustive des possibilités dont disposent les monstres de ce type.
+
+====Aberration====
+L’aberration présente une anatomie bizarre, des pouvoirs étranges, une façon de penser extraterrestre ou une combinaison de ces trois particularités.
+* '''Traits automatiques.''' [[Vision dans le noir (capacité)|Vision dans le noir]] à 18 mètres.
+* '''Ajustements automatiques.''' Augmentez le bonus de [[Volonté]] de 2.
+* '''Ajustements optionnels.''' Sorts de la [[Création de monstres simplifiée, Étape 6#Aberrants|liste de sorts aberrants]].
+
+
+====Animal====
+Un animal est une créature non-humaine vivante qui ne possède généralement pas de capacités magiques ni aucune capacité innée pour le langage.
+* '''Traits automatiques.''' [[Vision nocturne (capacité)|Vision nocturne]] ; réduisez le modificateur d’[[Intelligence]] à -4 ou -5.
+* '''Ajustements automatiques.''' Augmentez les bonus de [[Réflexes]] et de [[Vigueur]] de 2.
+
+
+====Créature artificielle====
+Une créature artificielle est un objet animé ou une créature que l’on a créée artificiellement. La plupart possèdent une faible volonté propre mais sont exceptionnellement résistantes.
+* '''Traits automatiques.''' [[Vision dans le noir (capacité)|Vision dans le noir]] à 18 mètres, [[Vision nocturne (capacité)|vision nocturne]] ; [[type Créature artificielle|immunités des créatures artificielles]] ; passez le modificateur de [[Constitution]] à —.
+* '''Ajustements automatiques.''' Diminuez les bonus de [[Réflexes]], de [[Vigueur]] et de [[Volonté]] de 2 ; augmentez le bonus d’attaque de 2.
+* '''Ajustements optionnels.''' Dénué d’intelligence ; passez le modificateur d’[[Intelligence]] à — pour les créatures artificielles dénuées d’intelligence ; aucune compétence profitable ou maîtrisée.
+
+
+====Créature magique====
+Les créatures magiques sont semblables aux animaux mais peuvent avoir une valeur d’[[Intelligence]] supérieure à 2 (auquel cas la créature magique connaît au moins une langue mais ne sait pas forcément parler). En outre, les créatures magiques possèdent généralement des pouvoirs surnaturels ou extraordinaires.
+* '''Traits automatiques.''' [[Vision dans le noir (capacité)|Vision dans le noir]] à 18 mètres, [[Vision nocturne (capacité)|vision nocturne]].
+* '''Ajustements automatiques.''' Augmentez les bonus de [[Réflexes]] et de [[Vigueur]] de 2 ; augmentez le bonus d’attaque de 2.
+
+
+====Dragon====
+Un dragon est une créature reptilienne, généralement ailée, qui possède des pouvoirs magiques ou inhabituels.
+* '''Traits automatiques.''' [[Vision dans le noir (capacité)|Vision dans le noir]] à 18 mètres, [[Vision nocturne (capacité)|vision nocturne]] ; immunisé contre la paralysie et le sommeil.
+* '''Ajustements automatiques.''' Augmentez les bonus de sauvegarde minimaux de 2 ; augmentez le bonus d’attaque de 2.
+* '''Ajustements optionnels.''' Option de combat [[Création de monstres simplifiée, Étape 7#Souffle|souffle]] (monstrueux) ; option universelle [[Création de monstres simplifiée, Étape 7#Magie secondaire|magie secondaire]] ; une compétence maîtrisée supplémentaire.
+
+
+====Extérieur====
+La plupart des extérieurs sont des êtres natifs d’un plan autre que le plan Matériel ou des descendants mortels de ce genre de créatures. Tous les extérieurs sont constitués, au moins en partie, de l’essence de leur plan d’origine. Certaines créatures deviennent des extérieurs quand elles atteignent un état d’existence spirituelle supérieur (ou inférieur).
+* '''Traits automatiques.''' [[Vision dans le noir (capacité)|Vision dans le noir]] à 18 mètres.
+* '''Ajustements automatiques.''' Augmentez un bonus de sauvegarde de 2 ; augmentez le bonus d’attaque de 2.
+* '''Ajustements optionnels.''' [[Création de monstres simplifiée, Étape 6#Abyssaux|Sorts abyssaux]], [[Création de monstres simplifiée, Étape 6#Célestes|célestes]] ou [[Création de monstres simplifiée, Étape 6#Infernaux|infernaux]] ; une compétence maîtrisée supplémentaire.
+
+
+====Fée====
+Les fées sont des créatures surnaturelles qui tirent généralement leur puissance de leur lien ou de leur rôle de gardien vis-à-vis d’une région ou d’un site naturel. Les créatures féeriques ressemblent à des humains ou à des gnomes mais il existe aussi des fées animales.
+* '''Traits automatiques.''' [[Vision nocturne (capacité)|Vision nocturne]].
+* '''Ajustements automatiques.''' Augmentez les bonus de [[Réflexes]] et de [[Volonté]] de 2 ; réduisez le bonus d’attaque de 2.
+* '''Ajustements optionnels.''' Sorts de la [[Création de monstres simplifiée, Étape 6#Féeriques|liste de sorts féeriques]] ; une compétence maîtrisée supplémentaire.
+
+
+====Flore====
+Ce type de créatures comprend toutes les créatures végétales. Remarquez que les plantes normales, comme celles qui poussent dans les champs et les jardins, n’ont pas de valeur de [[Sagesse]] ni de [[Charisme]] et ne sont pas considérées comme des créatures mais comme des objets, même si elles sont vivantes.
+* '''Traits automatiques.''' [[Vision nocturne (capacité)|Vision nocturne]] ; [[type Plante|immunités des plantes]].
+* '''Ajustements automatiques.''' Augmentez le bonus de [[Vigueur]] de 2.
+* '''Ajustements optionnels.''' Aucune compétence maîtrisée ou profitable.
+
+
+====Humanoïde====
+Les humanoïdes ont généralement deux bras, deux jambes et une tête, ou un torse, des bras et une tête humanoïdes. Ils possèdent peu ou aucun pouvoir surnaturel ou extraordinaire mais la plupart peuvent parler et se caractérisent par leurs sociétés très développées. Ce sont généralement des créatures de taille P ou M (à l’exception des géants). Chaque créature humanoïde possède également un [[Création de monstres simplifiée, Étape 3|sous-type]] spécifique qui correspond à sa race, comme humain, géant, gobelinoïde, reptilien ou tengu.
+* '''Traits automatiques.''' Aucun.
+* '''Ajustements automatiques.''' Augmentez un bonus de sauvegarde de 2.
+
+
+====Humanoïde monstrueux====
+Les humanoïdes monstrueux sont semblables aux humanoïdes mais présentent des traits pervertis ou animaux. Ils possèdent souvent des pouvoirs magiques.
+* '''Traits automatiques.''' [[Vision dans le noir (capacité)|Vision dans le noir]] à 18 mètres.
+* '''Ajustements automatiques.''' Augmentez les bonus de [[Réflexes]] et de [[Volonté]] de 2 ; augmentez le bonus d’attaque de 2.
+* '''Ajustements optionnels.''' Une compétence profitable supplémentaire.
+
+
+====Mort-vivant====
+Les morts-vivants sont d’anciennes créatures vivantes que des forces surnaturelles ou spirituelles ont ramenées à la vie.
+* '''Traits automatiques.''' [[Vision dans le noir (capacité)|Vision dans le noir]] à 18 mètres ; [[type Mort-vivant|immunités des morts-vivants]], passez le modificateur de [[Constitution]] à —.
+* '''Ajustements automatiques.''' Augmentez le bonus de [[Volonté]] de 2.
+* '''Ajustements optionnels.''' Dénué d’intelligence ; aucune compétence maîtrisée ou profitable ; passez le modificateur d’[[Intelligence]] à — pour les morts-vivants dénués d’intelligence.
+
+
+====Vase====
+Une vase est une créature amorphe ou mutable généralement dépourvue de conscience. Les options dont elle dispose reflètent souvent sa composition physique et ses pouvoirs naturels divers.
+* '''Traits automatiques.''' [[Aveuglé|Aveugle]], [[Vision aveugle (capacité)|vision aveugle]] ; dénué d’intelligence, [[type Vase|immunités des vases]], immunisé contre les [[coup critique|coups critiques]] et la [[prise en tenaille]] ; passez le modificateur d’[[Intelligence]] à —.
+* '''Ajustements automatiques.''' Augmentez le bonus de [[Vigueur]] de 2, réduisez les bonus de [[Réflexes]] et de [[Volonté]] de 2.
+* '''Ajustements optionnels.''' Aucune compétence maîtrisée ou profitable.
+
+
+====Vermine====
+Uniquement soucieuse de sa survie, la vermine se trouve dans presque tous les environnements. Ce type de créatures inclut les insectes, les arachnides et autres arthropodes, les vers et invertébrés similaires.
+* '''Traits automatiques.''' [[Vision dans le noir (capacité)|Vision dans le noir]] à 18 mètres, dénué d’intelligence ; passez le modificateur d’[[Intelligence]] à —.
+* '''Ajustements automatiques.''' Augmentez le bonus de [[Vigueur]] de 2.
+* '''Ajustements optionnels.''' Aucune compétence maîtrisée ou profitable.
+
+
+{s:Reference|GREFFESDECLASSE}
+===Les greffes de classe===
+Les greffes de classe sont plus détaillées que les greffes de type car elles sont davantage représentatives d’une classe de PJ du niveau approprié. Chaque greffe de classe présente les sections suivantes.
+
+'''Règles spéciales.''' Cette section n’apparaît que dans certaines descriptions et indique les particularités ou conditions requises importantes pour la classe.
+
+'''Gamme requise.''' Quand vous créez un monstre de cette classe, vous devez utiliser une gamme spécifique. C’est un exemple de greffe imposant une condition requise afin que le monstre réponde au caractère particulier de la classe.
+
+Si vous souhaitez reproduire une classe sans utiliser la gamme indiquée, n’utilisez pas la greffe de classe. Par exemple, si vous souhaitez créer un monstre [[prêtre]] issu de la [[Création de monstres simplifiée, Étape 1#COMBATTANT|gamme de combattant]], vous pouvez toujours illustrer le caractère particulier du prêtre en choisissant l’option de [[Création de monstres simplifiée, Étape 7#Magie secondaire|magie secondaire]] lors de l’Étape 7. Le principe consiste pratiquement à imiter un prêtre issu du système de création normal et doté de dons de combat et de nombreux sorts lancés en avance pour bénéficier de bonus de combat.
+
+'''Ajustements de statistiques.''' Cette section modifie ou remplace certaines valeurs, compétences et options de base indiquées pour la gamme du monstre. Procédez aux ajustements spécifiés. Toute compétence spécifiée remplace l’une des compétences que le monstre a choisies avec sa gamme (qu’il s’agisse d’une compétence maîtrisée ou profitable, selon ce qui est précisé). Si un monstre gagne des compétences supplémentaires en plus du nombre normalement autorisé, cette section précise « une compétence maîtrisée supplémentaire » ou « une compétence profitable supplémentaire. » Il se peut également que les ajustements signalent des options, qui viennent alors remplacer les options que le monstre gagne via sa gamme.
+
+'''FP.''' Ces ajustements reproduisent la progression selon le niveau. N’appliquez que l’entrée la plus élevée à votre monstre : par exemple, un roublard de [[FP]] 3 répondra à la ligne FP 3 et non à la ligne FP 1. Les options qu’apportent ces entrées remplacent celles que le monstre gagne grâce à sa gamme. Il est possible que la greffe de classe rajoute plus d’options que ne l’autorise sa gamme : ce n’est pas un problème et, comme d’habitude, vous pouvez décider d’ajouter ou de supprimer des options supplémentaires si vous en avez besoin pour que le monstre fonctionne selon son thème. Consultez l’[[Création de monstres simplifiée, Étape 7|Étape 7]] pour la description de ces options.
+
+'''Modificateurs de caractéristique suggérés.''' Cette section indique l’ordre dans lequel il est recommandé d’attribuer les différents bonus aux valeurs de caractéristique du monstre, du plus élevé au plus bas. Par exemple, pour le [[Création de monstres simplifiée, Étape 2#BARBARE|barbare]], il est indiqué « Force, Constitution, Dextérité », ce qui signifie que, lorsque vous créez un barbare [[FP]] 1/2, vous devriez lui attribuer un modificateur de +3 en [[Force]], un modificateur de +2 en [Constitution]] et un modificateur de +1 en [[Dextérité]].
+
+'''Options suggérées.''' Cette section présente des exemples de situations dans lesquelles la gamme du monstre accorde des options de monstre supplémentaires, en plus de celles qui sont déterminées par la greffe de classe. En général, ces options reproduisent des options de classe de personnage assez flexibles, telles que les [[Barbare#POUVOIRDERAGE|pouvoirs de rage]] du barbare ou les [[Roublard#TALENTDUROUBLARD|talents du roublard]] (cf. [[Création de monstres simplifiée, Étape 7|Étape 7]]).
+
+'''Listes de sorts suggérées.''' Cette section ne concerne que les greffes de classe des monstres lanceurs de sorts et vous aiguille vers les listes de sorts qui correspondent le mieux aux sorts typiques de la classe.
+
+<table width="100%"><tr><td width="49%">
+=====<u>Classes hybrides</u>=====
+Pour créer un monstre qui imite une classe issue du Manuel des joueurs - Classes avancées, utilisez une greffe de classe mais remplacez certaines de ses options par celles de la greffe de classe secondaire. Dans certains cas, il est plus facile d’utiliser une greffe de classe existante dans son ensemble pour ensuite la rapprocher d’une classe du Manuel des joueurs - Classes avancées en choisissant les options de monstre appropriées. Utilisez la table suivante pour savoir laquelle utiliser pour chaque classe.
+
+{| CLASS="tablo centre autoalt"
+|- CLASS="titre"
+| Classe || Greffe<br>principale || Greffe<br>secondaire || Incantation
+|- CLASS="premier"
+| [[Arcaniste]] || Magicien || — || Magicien
+|-
+| [[Sanguin]] || Barbare || Ensorceleur || Option de<br>magie secondaire
+|-
+| [[Lutteur]] || Guerrier || Moine || —
+|-
+| [[Chasseur]] || Rôdeur || Druide || Barde
+|-
+| [[Enquêteur]] || Alchimiste || Roublard || Alchimiste
+|-
+| [[Chaman]] || Sorcière || Oracle || Sorcière
+|-
+| [[Scalde]] || Barde || Barbare || Barde
+|-
+| [[Tueur]] || Roublard || Rôdeur || —
+|-
+| [[Bretteur]] || Guerrier || — || —
+|-
+| [[Prêtre combattant]] || Guerrier || Prêtre || Inquisiteur
+|}
+</td><td width="2%"></td><td width="49%">
+=====<u>Les compagnons animaux et les montures</u>=====
+Si vous décidez qu’un monstre devrait avoir un compagnon animal ou une monture, choisissez un animal issu de la liste d’un sort de [[convocation dalliés naturels I|convocation d’alliés naturels]]. Le sort ne doit pas être d’un niveau supérieur à la moitié du [[FP]] du monstre. Traitez le compagnon comme une créature supplémentaire lors des rencontres, sa défaite apportant des [[PX]] comme s’il s’agissait d’une créature indépendante plutôt que d’un compagnon animal.
+
+Sinon, vous pouvez aussi créer un animal de A à Z avec le système de création de monstres simplifié. Le [[FP]] de ce monstre ne doit alors pas dépasser 1 + 1/2 [[FP]] du monstre principal et la défaite du compagnon rapporte des [[PX]] comme s’il ne s’agissait pas d’un compagnon animal.
+</td></tr></table>
+
+{s:Reference|ALCHIMISTE}
+====Alchimiste====
+Les alchimistes sont à la croisée de la magie et de la science. Ils mélangent des agents chimiques exotiques qu’ils imprègnent d’une puissance magique afin de créer des effets inhabituels, parfois imprévisibles.
+* '''Règles spéciales.''' Les capacités d’incantation qu’accorde cette greffe reproduisent les extraits que l’[[alchimiste]] fabrique. L’alchimiste doit se référer à la [[Création de monstres simplifiée, Étape 6#Alchimie|liste des sorts de l’alchimie]]. De plus, les « sorts » que lance l’alchimiste comptent comme des effets surnaturels, non pas comme des sorts.
+* '''Gamme requise.''' [[Création de monstres simplifiée, Étape 1#EXPERT|Expert]].
+* '''Ajustements de statistiques.''' Utilisez les bonus de sauvegarde indiqués pour la [[Création de monstres simplifiée, Étape 1#COMBATTANT|gamme de combattant]] ; ''compétence'' – [[Artisanat]] (alchimie) maîtrisé ; ''options'' – [[Création de monstres simplifiée, Étape 7#Bombes|bombes]], [[Création de monstres simplifiée, Étape 7#Mutagène|mutagène]], [[Création de monstres simplifiée, Étape 7#Magie secondaire|magie secondaire]].
+
+* '''FP 1.''' ''Options'' – infusion d’énergie.
+* '''FP 3.''' Remplacez magie secondaire par incantation (comme s’il s’agissait d’un FP 2) ; ''options'' – infusion d’énergie, une option libre.
+* '''FP 6.''' Remplacez magie secondaire par incantation (comme s’il s’agissait d’un FP 4) ; ''options'' – infusion d’énergie, une option libre.
+* '''FP 9.''' Remplacez magie secondaire par incantation (comme s’il s’agissait d’un FP 6) ; ''options'' – infusion d’énergie, immunité (poison), une option libre.
+* '''FP 12.''' Remplacez magie secondaire par incantation (comme s’il s’agissait d’un FP 8) ; ''options'' – infusion d’énergie, immunité (poison), une option magique, une option libre.
+* '''FP 15.''' Remplacez magie secondaire par incantation (comme s’il s’agissait d’un FP 10) ; ''options'' – infusion d’énergie, immunité (poison), une option magique, une option libre.
+* '''FP 18.''' Remplacez [[Création de monstres simplifiée, Étape 7#Magie secondaire|magie secondaire]] par incantation (comme s’il s’agissait d’un [[FP]] 12) ; ''options'' – [[Création de monstres simplifiée, Étape 7#Infusion d'énergie|infusion d’énergie]], [[Création de monstres simplifiée, Étape 7#Immunité|immunité]] (poison), une [[Création de monstres simplifiée, Étape 7#OPTIONSMAGIQUES|option magique]], deux options libres.
+
+* '''Modificateurs de caractéristique suggérés.''' [[Intelligence]], [[Constitution]], [[Dextérité]].
+* '''Options suggérées.''' [[Création de monstres simplifiée, Étape 7#Attaque supplémentaire|Attaque supplémentaire]] (l’alchimiste peut utiliser ce pouvoir avec les [[Création de monstres simplifiée, Étape 7#Bombes|bombes]]), [[Création de monstres simplifiée, Étape 7#Savant|savant]], [[Création de monstres simplifiée, Étape 7#Poison|poison]], [[Création de monstres simplifiée, Étape 7#Incantation spontanée|incantation spontanée]] (soins), [[Création de monstres simplifiée, Étape 7#Emplacement piégé|emplacement piégé]].
+* '''Listes de sorts suggérées.''' [[Création de monstres simplifiée, Étape 6#Alchimie|Alchimie]].
+
+
+{s:Reference|BARBARE}
+====Barbare====
+Alimentés par la colère et poussés par la fureur, les barbares déchaînent leur rage et se transforment en implacables machines à tuer. Ils se délectent du carnage qu’ils font pleuvoir et n’ont que faire du danger.
+* '''Gamme requise.''' [[Création de monstres simplifiée, Étape 1#COMBATTANT|Combattant]].
+* '''Ajustements de statistiques.''' Augmentez la vitesse de déplacement de 3 mètres ; augmentez le bonus de [[Vigueur]] de 2 ; ''compétence'' – [[Intimidation]] maîtrisée ; ''options'' – [[Création de monstres simplifiée, Étape 7#Points de vie supplémentaires|points de vie supplémentaires]], [[Création de monstres simplifiée, Étape 7#Rage|rage]].
+
+* '''FP 1.''' ''Options'' – esquive instinctive, une option de combat.
+* '''FP 5.''' ''Options'' – esquive instinctive, prise en tenaille impossible, une option de combat.
+* '''FP 7.''' ''Options'' – réduction de dégâts comme un FP inférieur de 5, esquive instinctive, prise en tenaille impossible, une option de combat.
+* '''FP 15.''' ''Options'' – réduction de dégâts comme un FP inférieur de 5, esquive instinctive, prise en tenaille impossible, deux options de combat.
+* '''FP 19.''' ''Options'' – [[Création de monstres simplifiée, Étape 7#Réduction de dégâts|réduction de dégâts]] comme un [[FP]] inférieur de 5, [[Création de monstres simplifiée, Étape 7#Esquive instinctive|esquive instinctive]], [[Création de monstres simplifiée, Étape 7#Prise en tenaille impossible|prise en tenaille impossible]], trois [[Création de monstres simplifiée, Étape 7#OPTIONSDECOMBAT|options de combat]].
+
+* '''Modificateurs de caractéristique suggérés.''' [[Force]], [[Constitution]], [[Dextérité]].
+* '''Options suggérées.''' [[Création de monstres simplifiée, Étape 7#Attaques réflexes|Attaques réflexes]], [[Création de monstres simplifiée, Étape 7#Frappe critique|frappe critique]], [[Création de monstres simplifiée, Étape 7#Dur à cuire|dur à cuire]], [[Création de monstres simplifiée, Étape 7#Science de la manœuvre offensive|science de la manœuvre offensive]] (bousculade ou lutte), [[Création de monstres simplifiée, Étape 7#Attaquant mobile|attaquant mobile]], [[Création de monstres simplifiée, Étape 7#Attaque en puissance|attaque en puissance]].
+
+
+{s:Reference|BARDE}
+====Barde====
+Les bardes imprègnent leurs représentations de magie pour renforcer leurs alliés. Ils complètent leur musique avec des sorts, privilégiant généralement les sorts qui enchantent, envoûtent ou bouleversent.
+* '''Gamme requise.''' [[Création de monstres simplifiée, Étape 1#EXPERT|Expert]].
+* '''Ajustements de statistiques.''' Augmentez le bonus de [[Réflexes]] de 2 ; ''compétences'' – [[Représentation]] maîtrisée, une compétence maîtrisée supplémentaire ; ''options'' – [[Création de monstres simplifiée, Étape 7#Inspiration vaillante|inspiration vaillante]], [[Création de monstres simplifiée, Étape 7#Savant|savant]], [[Création de monstres simplifiée, Étape 7#Magie secondaire|magie secondaire]], une [[Création de monstres simplifiée, Étape 7#OPTIONSSOCIALES|option sociale]].
+
+* '''FP 3.''' Remplacez magie secondaire par incantation (comme s’il s’agissait d’un FP 2) ; ''option'' –une option libre.
+* '''FP 6.''' Remplacez magie secondaire par incantation (comme s’il s’agissait d’un FP 4) ; ''option'' – une option libre.
+* '''FP 9.''' Remplacez magie secondaire par incantation (comme s’il s’agissait d’un FP 6) ; ''option'' – une option libre.
+* '''FP 12.''' Remplacez magie secondaire par incantation (comme s’il s’agissait d’un FP 8) ; ''options'' – une option sociale, une option libre.
+* '''FP 15.''' Remplacez magie secondaire par incantation (comme s’il s’agissait d’un FP 10) ; ''options'' – une option sociale, une option libre.
+* '''FP 18.''' Remplacez magie secondaire par incantation (comme s’il s’agissait d’un FP 12) ; ''options'' – une option sociale, deux options libres.
+* '''FP 19.''' Remplacez [[Création de monstres simplifiée, Étape 7#Magie secondaire|magie secondaire]] par incantation (comme s’il s’agissait d’un [[FP]] 14) ; ''options'' – [[Création de monstres simplifiée, Étape 7#Attaque tueuse|attaque tueuse]] (nécessite de faire une représentation pendant 1 [[round]] complet au lieu de toucher avec une attaque), une [[Création de monstres simplifiée, Étape 7#OPTIONSSOCIALES|option sociale]], deux options libres.
+
+* '''Modificateurs de caractéristique suggérés.''' [[Charisme]], [[Intelligence]], [[Dextérité]].
+* '''Options suggérées.''' [[Création de monstres simplifiée, Étape 7#Magie de guerre|Magie de guerre]], [[Création de monstres simplifiée, Étape 7#Contrechant|contrechant]], [[Création de monstres simplifiée, Étape 7#Fascination|fascination]], [[Création de monstres simplifiée, Étape 7#Inspiration talentueuse|inspiration talentueuse]], [[Création de monstres simplifiée, Étape 7#Linguiste|linguiste]], [[Création de monstres simplifiée, Étape 7#Persuasif|persuasif]].
+* '''Listes de sorts suggérées.''' [[Création de monstres simplifiée, Étape 6#Charme|Charme]], [[Création de monstres simplifiée, Étape 6#Enchantement|enchantement]], [[Création de monstres simplifiée, Étape 6#Féeriques|féeriques]], [[Création de monstres simplifiée, Étape 6#Libération|libération]], [[Création de monstres simplifiée, Étape 6#Duperie|duperie]].
+
+
+{s:Reference|CHEVALIER}
+====Chevalier====
+Quand il est sur un cheval de guerre ou quelque autre destrier entraîné au combat, le chevalier domine le champ de bataille. Il peut faire office de chef d’armée, ralliant ses alliés sous sa bannière.
+* '''Règles spéciales.''' Le chevalier se débrouille particulièrement bien avec une monture. Voir l’encart [[Création de monstres simplifiée, Étape 2#GREFFESDECLASSE|Les compagnons animaux et les montures]].
+* '''Gamme requise.''' [[Création de monstres simplifiée, Étape 1#COMBATTANT|Combattant]].
+* '''Ajustements de statistiques.''' Augmentez les bonus de [[Réflexes]] et de [[Vigueur]] de 1 ; ''compétence'' – [[Équitation]] maîtrisée ; ''options'' – [[Création de monstres simplifiée, Étape 7#Défi|défi]], une option libre.
+
+* '''FP 3.''' ''Options'' – maître cavalier.
+* '''FP 4.''' ''Options'' – inspiration vaillante, maître cavalier.
+* '''FP 13.''' ''Options'' – aura de résistance (charme, coercition), récupération héroïque, inspiration vaillante, maître cavalier, une option de combat.
+* '''FP 17.''' ''Options'' – [[Création de monstres simplifiée, Étape 7#Aura de résistance|aura de résistance]] (charme, coercition), [[Création de monstres simplifiée, Étape 7#Récupération héroïque|récupération héroïque]], [[Création de monstres simplifiée, Étape 7#Inspiration vaillante|inspiration vaillante]], [[Création de monstres simplifiée, Étape 7#Maître cavalier|maître cavalier]], deux [[Création de monstres simplifiée, Étape 7#OPTIONSDECOMBAT|options de combat]].
+
+* '''Modificateurs de caractéristique suggérés.''' [[Force]], [[Dextérité]], [[Constitution]].
+* '''Options suggérées.''' [[Création de monstres simplifiée, Étape 7#Frappe critique|Frappe critique]], [[Création de monstres simplifiée, Étape 7#Armure supplémentaire|armure supplémentaire]], [[Création de monstres simplifiée, Étape 7#Science de la manœuvre offensive|science de la manœuvre offensive]], [[Création de monstres simplifiée, Étape 7#Maître cavalier|maître cavalier]], [[Création de monstres simplifiée, Étape 7#Charge puissante|charge puissante]].
+
+
+{s:Reference|CONJURATEUR}
+====Conjurateur====
+Déjà investi d’une puissance profane considérable, le conjurateur peut également faire appel à l’aide et à la protection d’un eidolon, puissante entité venue d’un autre monde.
+* '''Règles spéciales.''' L’invocateur a besoin d’un eidolon. Déterminez le [[FP]] que vous voulez attribuer au conjurateur et à l’eidolon lorsqu’ils sont ensemble et créez le conjurateur comme l’eidolon avec ce [[FP]] -2.
+
+: Créez un extérieur avec le même [[FP]] que le conjurateur en utilisant la [[Création de monstres simplifiée, Étape 1#COMBATTANT|gamme de combattant]] ou utilisez un extérieur existant du même [[FP]].
+
+: Traitez le compagnon comme une créature indépendante lors des rencontres : sa défaite rapporte autant de [[PX]] que s’il s’agissait d’une créature autonome. Voir l’encart [[Création de monstres simplifiée, Étape 2#GREFFESDECLASSE|Les compagnons animaux et les montures]].
+* '''Gamme requise.''' [[Création de monstres simplifiée, Étape 1#LANCEURDESORTS|Lanceur de sorts]].
+* '''Ajustements de statistiques.''' Augmentez les bonus de [[Réflexes]] et de [[Vigueur]] de 1 ; ''compétence'' – [[Connaissances]] (plans) maîtrisée ; ''options'' – [[Création de monstres simplifiée, Étape 7#Incantation spontanée|incantation spontanée]] (convocation de monstres), une [[Création de monstres simplifiée, Étape 7#OPTIONSMAGIQUES|option magique]].
+
+* '''FP 3.''' ''Options'' – une option libre.
+* '''FP 12.''' ''Options'' – une option magique, une option libre.
+* '''FP 18.''' ''Options'' – deux [[Création de monstres simplifiée, Étape 7#OPTIONSMAGIQUES|options magiques]], une option libre.
+
+* '''Modificateurs de caractéristique suggérés.''' [[Charisme]], [[Constitution]], [[Dextérité]].
+* '''Options suggérées.''' [[Création de monstres simplifiée, Étape 7#Magie de guerre|Magie de guerre]], [[Création de monstres simplifiée, Étape 7#Science de l'initiative|science de l’initiative]], [[Création de monstres simplifiée, Étape 7#Aptitude magique|aptitude magique]], [[Création de monstres simplifiée, Étape 7#Invocation puissante|invocation puissante]], [[Création de monstres simplifiée, Étape 7#Transfert de points de vie|transfert de points de vie]] (de soi-même à un allié).
+* '''Listes de sorts suggérées.''' [[Création de monstres simplifiée, Étape 6#Invocation|Invocation]].
+
+
+{s:Reference|DRUIDE}
+====Druide====
+Gardiens de l’équilibre et protecteurs de la nature, les druides manient une puissance qu’ils tirent de leur environnement. Équipés d’une magie qui leur permet de manipuler la nature et peut prendre différentes formes, les druides disposent de diverses méthodes pour vaincre leurs ennemis.
+
+Changement de forme (marqué d’un astérisque [*] dans les descriptions) fonctionne comme le pouvoir universel de monstre [[Changement de forme (capacité)|du même nom]], qui permet au druide de revêtir le type de créatures indiqué. Un druide ainsi transformé peut toujours lancer des sorts.
+* '''Règles spéciales.''' Les druides possèdent souvent un compagnon animal. Voir l'encart [[Création de monstres simplifiée, Étape 2#GREFFESDECLASSE|Les compagnons animaux et les montures]]
+* '''Gamme requise.''' [[Création de monstres simplifiée, Étape 1#LANCEURDESORTS|Lanceur de sorts]].
+* '''Ajustements de statistiques.''' Augmentez le bonus de [[Vigueur]] de 2 ; ''compétence'' – [[Connaissances]] (nature) et [[Survie]] maîtrisées ; ''options'' – [[Création de monstres simplifiée, Étape 7#Incantation spontanée|incantation spontanée]] (convocation d’alliés naturels), une option libre.
+
+* '''FP 1.''' ''Options'' – déplacement facilité (broussailles).
+* '''FP 3.''' ''Options'' – changement de forme* (animal de taille P ou M), déplacement facilité (broussailles).
+* '''FP 5.''' ''Options'' – changement de forme* (animal de taille TP, P, M ou G ou élémentaire de taille P), déplacement facilité (broussailles), une option magique.
+* '''FP 7.''' ''Options'' – changement de forme* (animal de toute taille, élémentaire de taille M ou plus petit ou plante de taille P ou M), déplacement facilité (broussailles), une option magique.
+* '''FP 9.''' ''Options'' – changement de forme* (animal de toute taille, élémentaire de taille G ou plus petit ou plante de taille G ou plus petite), immunité (poison), déplacement facilité (broussailles), une option magique.
+* '''FP 11.''' ''Options'' – changement de forme* (animal de toute taille, élémentaire de taille TG ou plus petit ou plante de taille TG ou plus petite), immunité (poison), déplacement facilité (broussailles), une option magique, une option libre.
+* '''FP 18.''' ''Options'' – changement de forme* (animal de toute taille, élémentaire de taille TG ou plus petit, ou plante de taille TG ou plus petite), [[Création de monstres simplifiée, Étape 7#Immunité|immunité]] (poison), [[Création de monstres simplifiée, Étape 7#Déplacement facilité (terrain)|déplacement facilité]] (broussailles), deux [[Création de monstres simplifiée, Étape 7#OPTIONSMAGIQUES|options magiques]], une option libre.
+
+* '''Modificateurs de caractéristique suggérés.''' [[Sagesse]], [[Constitution]], [[Charisme]].
+* '''Options suggérées.''' [[Création de monstres simplifiée, Étape 7#Parle-animal|Parle-animal]], [[Création de monstres simplifiée, Étape 7#Magie de guerre|magie de guerre]], [[Création de monstres simplifiée, Étape 7#Attaque magique|attaque magique]], [[Création de monstres simplifiée, Étape 7#Invocation puissante|invocation puissante]] ; voir l’encart sur les [[Création de monstres simplifiée, Étape 7#PRETRE|options de domaine]].
+* '''Listes de sorts suggérées.''' [[Création de monstres simplifiée, Étape 6#Air|Air]], [[Création de monstres simplifiée, Étape 6#Animal|animal]], [[Création de monstres simplifiée, Étape 6#Terre|terre]], [[Création de monstres simplifiée, Étape 6#Feu|feu]], [[Création de monstres simplifiée, Étape 6#Guérison|guérison]], [[Création de monstres simplifiée, Étape 6#Nature|nature]], [[Création de monstres simplifiée, Étape 6#Flore|flore]], [[Création de monstres simplifiée, Étape 6#Eau|eau]], [[Création de monstres simplifiée, Étape 6#Climat|climat]].
+
+
+{s:Reference|ENSORCELEUR}
+====Ensorceleur====
+Les ensorceleurs tirent leurs pouvoirs d’une bizarrerie dans leur héritage, des réminiscences d’un lointain et puissant ancêtre dont la magie a traversé les générations jusqu’à se réveiller au sein de l’ensorceleur.
+* '''Gamme requise.''' [[Création de monstres simplifiée, Étape 1#LANCEURDESORTS|Lanceur de sorts]].
+* '''Ajustements de statistiques.''' Augmentez le bonus de [[Réflexes]] ou de [[Vigueur]] de 1 ; compétence – [[Connaissances]] (mystères) maîtrisée ; option – une [[Création de monstres simplifiée, Étape 7#OPTIONSMAGIQUES|option magique]].
+
+* '''FP 3.''' ''Options'' – une option libre.
+* '''FP 12.''' ''Options'' – une option magique, une option libre.
+* '''FP 18.''' ''Options'' – deux [[Création de monstres simplifiée, Étape 7#OPTIONSMAGIQUES|options magiques]], une option libre.
+
+* '''Modificateurs de caractéristique suggérés.''' [[Charisme]], [[Constitution]], [[Dextérité]].
+* '''Options suggérées.''' [[Création de monstres simplifiée, Étape 7#Magie de guerre|Magie de guerre]], [[Création de monstres simplifiée, Étape 7#Points de vie supplémentaires|points de vie supplémentaires]], [[Création de monstres simplifiée, Étape 7#Attaque magique|attaque magique]], [[Création de monstres simplifiée, Étape 7#Sort de métamagie|sort de métamagie]], [[Création de monstres simplifiée, Étape 7#Dégâts magiques puissants|dégâts magiques puissants]].
+* '''Listes de sorts suggérées.''' [[Création de monstres simplifiée, Étape 6#Profanes|Profanes]], [[Création de monstres simplifiée, Étape 6#Magie|magie]], par lignage.
+
+=====<u>Les options de lignage</u>=====
+Le lignage apporte plusieurs pouvoirs supplémentaires à l’ensorceleur. Consultez les options suivantes si un pouvoir de lignage s’avère particulièrement important pour lui. Toute créature ayant un thème similaire à un lignage d’ensorceleur peut également piocher dans la liste des options du lignage approprié. Voir l’[[Création de monstres simplifiée, Étape 7|Étape 7]] pour la description des options de monstre.
+<table width="100%"><tr><td width="49%">
+* '''Aberrant.''' [[Défense (capacité)|Défense]], [[Création de monstres simplifiée, Étape 7#Attaque magique|attaque magique]] (acide).
+* '''Abyssal.''' Utilisez deux attaques naturelles plutôt que des attaques d’arme, [[résistance (capacité)|résistance]] (électricité).
+* '''Céleste.''' [[Création de monstres simplifiée, Étape 7#Résistance aux énergies destructives|Résistance aux énergies destructives]] (acide, froid), vol à 18 mètres (bonne) pour un nombre de minutes par jour égal au [[FP]], [[Création de monstres simplifiée, Étape 7#Attaque magique|attaque magique]] (divine).
+* '''Draconique.''' Utilisez deux attaques naturelles plutôt que des attaques d’arme, [[Création de monstres simplifiée, Étape 7#Souffle|souffle]], [[Création de monstres simplifiée, Étape 7#Résistance aux énergies destructives|résistance aux énergies destructives]], vol à 18 mètres (moyenne).
+* '''Élémentaire (Air).''' [[Création de monstres simplifiée, Étape 7#Explosion d'énergie|Explosion d’énergie]] (électricité), [[Création de monstres simplifiée, Étape 7#Résistance aux énergies destructives|résistance aux énergies destructives]] (électricité), vol à 18 mètres (moyenne).
+* '''Élémentaire (Eau).''' [[Création de monstres simplifiée, Étape 7#Explosion d'énergie|Explosion d’énergie]] (froid), [[Création de monstres simplifiée, Étape 7#Résistance aux énergies destructives|résistance aux énergies destructives]] (froid), nage à 18 mètres.
+
+</td><td width="2%"></td><td width="49%">
+* '''Élémentaire (Feu).''' [[Création de monstres simplifiée, Étape 7#Explosion d'énergie|Explosion d’énergie]] (feu), [[Création de monstres simplifiée, Étape 7#Résistance aux énergies destructives|résistance aux énergies destructives]] (feu), augmentez la vitesse de base de 9 mètres.
+* '''Élémentaire (Terre).''' Creusement à 9 mètres, [[Création de monstres simplifiée, Étape 7#Explosion d'énergie|explosion d’énergie]] (acide), [[Création de monstres simplifiée, Étape 7#Résistance aux énergies destructives|résistance aux énergies destructives]] (acide).
+* '''Féerique.''' [[Création de monstres simplifiée, Étape 7#Réduction de dégâts|Réduction de dégâts]] (fer froid), [[Création de monstres simplifiée, Étape 7#Efficacité des sorts accrue|efficacité des sorts accrue]], [[Création de monstres simplifiée, Étape 7#Déplacement facilité (terrain)|déplacement facilité]] (broussailles).
+* '''Infernal.''' [[Création de monstres simplifiée, Étape 7#État préjudiciable mineur|État préjudiciable mineur]] (secoué), [[Création de monstres simplifiée, Étape 7#Résistance aux énergies destructives|résistance aux énergies destructives]] (feu), vol à 18 mètres (moyenne).
+* '''Mort-vivant.''' [[Création de monstres simplifiée, Étape 7#État préjudiciable mineur|État préjudiciable mineur]] (secoué), [[Création de monstres simplifiée, Étape 7#Résistance aux énergies destructives|résistance aux énergies destructives]] (froid), [[Création de monstres simplifiée, Étape 7#Intangible|intangible]] (1/jour).
+* '''Profane.''' [[Création de monstres simplifiée, Étape 7#Magie à volonté|Magie à volonté]], [[Création de monstres simplifiée, Étape 7#Sort de métamagie|sort de métamagie]].
+* '''Voué à un grand destin.''' [[Création de monstres simplifiée, Étape 7#Caresse d'encouragement|Caresse d’encouragement]].
+
+</td></tr></table>
+
+{s:Reference|GUERRIER}
+====Guerrier====
+Les guerriers excellent au combat. Leur entraînement en fait les maîtres incontestés des armes et des armures tandis que leur courage et leur détermination leur permettent de survivre à presque tous les conflits.
+* '''Gamme requise.''' [[Création de monstres simplifiée, Étape 1#COMBATTANT|Combattant]].
+* '''Ajustements de statistiques.''' Augmentez les bonus de [[Réflexes]] et de [[Vigueur]] de 1 ; ''option'' – une [[Création de monstres simplifiée, Étape 7#OPTIONSDECOMBAT|option de combat]].
+
+* '''FP 1.''' ''Options'' – une option de combat.
+* '''FP 3.''' ''Options'' – deux options de combat.
+* '''FP 5.''' ''Options'' – trois options de combat.
+* '''FP 7.''' ''Options'' – quatre options de combat.
+* '''FP 11.''' ''Options'' – cinq options de combat.
+* '''FP 15.''' ''Options'' – six [[Création de monstres simplifiée, Étape 7#OPTIONSDECOMBAT|options de combat]].
+
+* '''Modificateurs de caractéristique suggérés.''' [[Force]], [[Dextérité]], [[Constitution]].
+* '''Options suggérées.''' [[Création de monstres simplifiée, Étape 7#Précision|Précision]], [[Création de monstres simplifiée, Étape 7#Attaques réflexes|attaques réflexes]], [[Création de monstres simplifiée, Étape 7#Armure supplémentaire|armure supplémentaire]], [[Création de monstres simplifiée, Étape 7#Attaque supplémentaire|attaque supplémentaire]], [[Création de monstres simplifiée, Étape 7#Science de la manœuvre offensive|science de la manœuvre offensive]], [[Création de monstres simplifiée, Étape 7#Armure supplémentaire|armure supplémentaire]], [[Création de monstres simplifiée, Étape 7#Attaque en puissance|attaque en puissance]].
+
+
+{s:Reference|INQUISITEUR}
+====Inquisiteur====
+Les dieux accordent aux inquisiteurs le pouvoir de débusquer les ennemis de leur foi et de les détruire. Implacables, déterminés et portés par leur dévotion, les inquisiteurs accomplissent leur mission divine avec toute la sinistre volonté qu’il faut pour traiter avec ceux qui s’opposent à leurs divinités.
+* '''Gamme requise.''' [[Création de monstres simplifiée, Étape 1#EXPERT|Expert]].
+* '''Ajustements de statistiques.''' Augmentez les bonus de [[Réflexes]] et de [[Vigueur]] de 1, augmentez le bonus de [[Volonté]] de 2 ; ''compétences'' – [[Intimidation]] et [[Psychologie]] maîtrisées ; ''options'' – [[Création de monstres simplifiée, Étape 7#Magie secondaire|magie secondaire]], une option libre.
+
+* '''FP 3.''' Remplacez magie secondaire par incantation (comme s’il s’agissait d’un FP 2) ; ''options'' – science de l’initiative, une option de combat.
+* '''FP 4.''' Remplacez magie secondaire par incantation (comme s’il s’agissait d’un FP 2) ; ''options'' – science de l’initiative, arme magique (tueuse), une option de combat.
+* '''FP 6.''' Remplacez magie secondaire par incantation (comme s’il s’agissait d’un FP 4) ; ''options'' – science de l’initiative, arme magique (tueuse), une option de combat.
+* '''FP 9.''' Remplacez magie secondaire par incantation (comme s’il s’agissait d’un FP 6) ; ''options'' – science de l’initiative, arme magique (tueuse), développement de la résistance, une option de combat.
+* '''FP 12.''' Remplacez magie secondaire par incantation (comme s’il s’agissait d’un FP 8) ; ''options'' – science de l’initiative, arme magique (tueuse), développement de la résistance, une option de combat, une option sociale.
+* '''FP 15.''' Remplacez magie secondaire par incantation (comme s’il s’agissait d’un FP 10) ; ''options'' – science de l’initiative, arme magique (tueuse), développement de la résistance, une option de combat, une option sociale.
+* '''FP 18.''' Remplacez magie secondaire par incantation (comme s’il s’agissait d’un FP 12) ; ''options'' – science de l’initiative, arme magique (tueuse), développement de la résistance, deux options de combat, une option sociale.
+* '''FP 19.''' Remplacez [[Création de monstres simplifiée, Étape 7#Magie secondaire|magie secondaire]] par incantation (comme s’il s’agissait d’un [[FP]] 14) ; ''options'' – [[Création de monstres simplifiée, Étape 7#Science de l'initiative|science de l’initiative]], [[Création de monstres simplifiée, Étape 7#Arme magique|arme magique]] (tueuse), [[Création de monstres simplifiée, Étape 7#Attaque tueuse|attaque tueuse]], [[Création de monstres simplifiée, Étape 7#Développement de la résistance|développement de la résistance]], deux [[Création de monstres simplifiée, Étape 7#OPTIONSDECOMBAT|options de combat]], une [[Création de monstres simplifiée, Étape 7#OPTIONSSOCIALES|option sociale]].
+
+* '''Modificateurs de caractéristique suggérés.''' [[Sagesse]], [[Force]] ou [[Dextérité]], [[Charisme]].
+* '''Options suggérées.''' [[Création de monstres simplifiée, Étape 7#Précision|Précision]], [[Création de monstres simplifiée, Étape 7#Ignore la RD|ignore la RD]] (magique, plus un type d’alignement en cas de [[FP]] égal ou supérieur à 5, plus adamantium en cas de [[FP]] égal ou supérieur à 9), [[Création de monstres simplifiée, Étape 7#Réduction de dégâts|réduction de dégâts]] (magique, ou par alignement en cas de [[FP]] égal ou supérieur à 9), [[Création de monstres simplifiée, Étape 7#Résistance aux énergies destructives|résistance aux énergies destructives]], [[Création de monstres simplifiée, Étape 7#Armure supplémentaire|armure supplémentaire]], [[Création de monstres simplifiée, Étape 7#Guérison accélérée|guérison accélérée]], [[Création de monstres simplifiée, Étape 7#Attaque en puissance|attaque en puissance]], [[Création de monstres simplifiée, Étape 7#Jets de sauvegarde améliorés|jets de sauvegarde améliorés]], [[Création de monstres simplifiée, Étape 7#Efficacité des sorts accrue|efficacité des sorts accrue]].
+* '''Listes de sorts suggérées.''' Par domaine (voir [[Création de monstres simplifiée, Étape 2#PRETRE|prêtre]]).
+
+
+{s:Reference|MAGICIEN}
+====Magicien====
+Les magiciens passent leur vie à se plonger dans les mystères de la magie profane, examinant attentivement leurs manuels et parchemins pour en extraire la véritable puissance magique. Cette approche académique permet aux magiciens d’apprendre certains des sorts les plus variés et utiles qui existent.
+* '''Gamme requise.''' [[Création de monstres simplifiée, Étape 1#LANCEURDESORTS|Lanceur de sorts]].
+* '''Ajustements de statistiques.''' Augmentez le bonus de [[Réflexes]] ou de [[Vigueur]] de 1 ; ''compétence'' – [[Connaissances]] (mystères) maîtrisée ; ''option'' – une [[Création de monstres simplifiée, Étape 7#OPTIONSMAGIQUES|option magique]].
+
+* '''FP 3.''' ''Options'' – une option libre.
+* '''FP 12.''' ''Options'' – une option magique, une option libre.
+* '''FP 18.''' ''Options'' – deux [[Création de monstres simplifiée, Étape 7#OPTIONSMAGIQUES|options magiques]], une option libre.
+
+* '''Modificateurs de caractéristique suggérés.''' [[Intelligence]], [[Dextérité]], [[Constitution]].
+* '''Options suggérées.''' [[Création de monstres simplifiée, Étape 7#Magie de guerre|Magie de guerre]], [[Création de monstres simplifiée, Étape 7#Attaque magique|attaque magique]], [[Création de monstres simplifiée, Étape 7#Aptitude magique|aptitude magique]], [[Création de monstres simplifiée, Étape 7#Savant|savant]], [[Création de monstres simplifiée, Étape 7#Efficacité des sorts accrue|efficacité des sorts accrue]] ; voir les options des écoles profanes ci-dessous.
+* '''Listes de sorts suggérées.''' [[Création de monstres simplifiée, Étape 6#Profanes|Profane]], [[Création de monstres simplifiée, Étape 6#Magie|magie]], par école profane.
+
+=====<u>Les options des écoles profanes</u>=====
+Les magiciens spécialisés se définissent tout particulièrement par les écoles dans lesquelles ils s’investissent. Consultez les options de monstre suivantes si une école profane s’avère particulièrement importante pour le magicien. Toute créature qui lance principalement des sorts d’une seule école peut également piocher dans la liste des options de cette école. Voir l’Étape 7 pour la description des options de monstre.
+<table width="100%"><tr><td width="49%">
+* '''Abjuration.''' [[Création de monstres simplifiée, Étape 7#Résistance aux énergies destructives|Résistance aux énergies destructives]] (acide, froid, électricité, feu ou son), [[Création de monstres simplifiée, Étape 7#Champ de protection|champ de protection]].
+* '''Divination.''' [[Création de monstres simplifiée, Étape 7#Caresse d'encouragement|Caresse d’encouragement]], [[Création de monstres simplifiée, Étape 7#Science de l'initiative|science de l’initiative]].
+* '''Enchantement.''' [[Création de monstres simplifiée, Étape 7#État préjudiciable majeur|État préjudiciable majeur]] (hébété, 1 round), [[Création de monstres simplifiée, Étape 7#Persuasif|persuasif]].
+* '''Évocation.''' [[Création de monstres simplifiée, Étape 7#Attaque magique|Attaque magique]] (force), [[Création de monstres simplifiée, Étape 7#Dégâts magiques puissants|dégâts magiques puissants]].
+* '''Illusion.''' [[Création de monstres simplifiée, Étape 7#État préjudiciable modéré|État préjudiciable modéré]] (aveuglé, attaque de contact à distance, 1 round).
+
+</td><td width="2%"></td><td width="49%">
+* '''Invocation.''' [[Création de monstres simplifiée, Étape 7#Pas interdimensionnels|Pas interdimensionnels]], [[Création de monstres simplifiée, Étape 7#Attaque magique|attaque magique]] (acide), [[Création de monstres simplifiée, Étape 7#Invocation puissante|invocation puissante]].
+* '''Nécromancie.''' [[Création de monstres simplifiée, Étape 7#État préjudiciable mineur|État préjudiciable mineur]] (secoué), [[Création de monstres simplifiée, Étape 7#Renvoi des morts-vivants|renvoi des morts-vivants]].
+* '''Transmutation.''' [[Création de monstres simplifiée, Étape 7#Esquive maîtresse|Esquive maîtresse]], [[Création de monstres simplifiée, Étape 7#Points de vie supplémentaires|points de vie supplémentaires]], [[Création de monstres simplifiée, Étape 7#Attaque magique|attaque magique]] (contondant), [[Création de monstres simplifiée, Étape 7#Attaque en puissance|attaque en puissance]].
+* '''Universaliste.''' [[Création de monstres simplifiée, Étape 7#Attaque magique|Attaque magique]] (contondant ou perforant), [[Création de monstres simplifiée, Étape 7#Sort de métamagie|sort de métamagie]].
+
+</td></tr></table>
+
+{s:Reference|MAGUS}
+====Magus====
+Le magus combine son entraînement aux armes avec sa magie, ce qui fait de lui un maître dans ces deux domaines.
+* '''Gamme requise.''' [[Création de monstres simplifiée, Étape 1#EXPERT|Expert]].
+* '''Ajustements de statistiques.''' Augmentez le bonus de [[Vigueur]] de 2 ; ''options'' – [[Création de monstres simplifiée, Étape 7#Arme magique|arme magique]], [[Création de monstres simplifiée, Étape 7#Magie secondaire|magie secondaire]], [[Création de monstres simplifiée, Étape 7#Combat magique|combat magique]], une [[Création de monstres simplifiée, Étape 7#OPTIONSMAGIQUES|option magique]].
+
+* '''FP 1.''' ''Options'' – frappe magique.
+* '''FP 3.''' Remplacez magie secondaire par incantation (comme s’il s’agissait d’un FP 2) ; ''options'' – frappe magique, une option de combat.
+* '''FP 6.''' Remplacez magie secondaire par incantation (comme s’il s’agissait d’un FP 4) ; ''options'' – magie de guerre, frappe magique, une option de combat.
+* '''FP 9.''' Remplacez magie secondaire par incantation (comme s’il s’agissait d’un FP 6) ; ''options'' – magie de guerre, frappe magique, une option de combat.
+* '''FP 12.''' Remplacez magie secondaire par incantation (comme s’il s’agissait d’un FP 8) ; ''options'' – magie de guerre, frappe magique, une option de combat, une option magique.
+* '''FP 15.''' Remplacez magie secondaire par incantation (comme s’il s’agissait d’un FP 10) ; ''options'' – magie de guerre, bourreau des mages, frappe magique, une option de combat, une option magique.
+* '''FP 18.''' Remplacez [[Création de monstres simplifiée, Étape 7#Magie secondaire|magie secondaire]] par incantation (comme s’il s’agissait d’un [[FP]] 12) ; ''options'' – [[Création de monstres simplifiée, Étape 7#Magie de guerre|magie de guerre]], [[Création de monstres simplifiée, Étape 7#Bourreau des mages|bourreau des mages]], [[Création de monstres simplifiée, Étape 7#Frappe magique|frappe magique]], deux [[Création de monstres simplifiée, Étape 7#OPTIONSDECOMBAT|options de combat]], une [[Création de monstres simplifiée, Étape 7#OPTIONSMAGIQUES|option magique]].
+
+* '''Modificateurs de caractéristique suggérés.''' [[Intelligence]], [[Force]], [[Dextérité]].
+* '''Options suggérées.''' [[Création de monstres simplifiée, Étape 7#Esquive maîtresse|Esquive maîtresse]], [[Création de monstres simplifiée, Étape 7#Science de la manœuvre offensive|science de la manœuvre offensive]], [[Création de monstres simplifiée, Étape 7#Attaque magique|attaque magique]] (corps à corps), [[Création de monstres simplifiée, Étape 7#Sort de métamagie|sort de métamagie]], [[Création de monstres simplifiée, Étape 7#Attaquant mobile|attaquant mobile]] (corps à corps).
+
+
+{s:Reference|MOINE}
+====Moine====
+Maîtres des techniques martiales compliquées, les moines complètent leur entraînement physique avec des pouvoirs mystiques qui les aident à repousser les limites des mortels.
+* '''Règles spéciales.''' Les attaques à mains nues du moine se caractérisent par une progression de dés de dégâts spécifique puisqu’ils commencent à 1d6 et augmentent en fonction du [[FP]].
+
+: Cela ne modifie que le calcul des dégâts de l’[[Création de monstres simplifiée, Étape 9|Étape 9 : les dégâts]] ; le nombre total des dégâts est toujours basé sur la [[Création de monstres simplifiée, Étape 1#COMBATTANT|gamme de combattant]].
+* '''Gamme requise.''' [[Création de monstres simplifiée, Étape 1#COMBATTANT|Combattant]].
+* '''Ajustements de statistiques.''' Augmentez les bonus de [[Réflexes]] et de [[Vigueur]] de 1, augmentez le bonus de [[Volonté]] de 2 ; ''compétence'' – [[Acrobaties]] maîtrisée ; ''options'' – [[Création de monstres simplifiée, Étape 7#Attaque supplémentaire|attaque supplémentaire]], [[Création de monstres simplifiée, Étape 7#Attaque étourdissante|attaque étourdissante]], une [[Création de monstres simplifiée, Étape 7#OPTIONSDECOMBAT|option de combat]] ; dégâts à mains nues du moine 1d6.
+
+* '''FP 1.''' Options – esquive totale, une option de combat.
+* '''FP 3.''' Augmentez la vitesse de déplacement de 3 mètres ; ''options'' – ignore la RD (magique), esquive totale, une option de combat.
+* '''FP 5.''' Augmentez la vitesse de déplacement de 6 mètres ; ''options'' – ignore la RD (magique), esquive totale, immunité (maladie), dégâts à mains nues 1d8, une option de combat.
+* '''FP 7.''' Augmentez la vitesse de déplacement de 6 mètres ; ''options'' – ignore la RD (magique), esquive totale, immunité (maladie), dégâts à mains nues 1d10, une option de combat.
+* '''FP 9.''' Augmentez la vitesse de déplacement de 9 mètres ; ''options'' – ignore la RD (Loi, magique), esquive totale, immunité (maladie), dégâts à mains nues 1d10, une option de combat.
+* '''FP 11.''' Augmentez la vitesse de déplacement de 12 mètres ; ''options'' – ignore la RD (Loi, magique), esquive totale, immunité (maladie, poison), dégâts à mains nues 2d6, une option de combat.
+* '''FP 13.''' Augmentez la vitesse de déplacement de 12 mètres ; ''options'' – ignore la RD (Loi, magique), esquive totale, immunité (maladie, poison), résistance à la magie, dégâts à mains nues 2d6, deux options de combat.
+* '''FP 15.''' Augmentez la vitesse de déplacement de 15 mètres ; ''options'' – ignore la RD (adamantium, Loi, magique), esquive totale, immunité (maladie, poison), résistance à la magie, dégâts à mains nues 2d8, deux options de combat.
+* '''FP 17.''' Augmentez la vitesse de déplacement de 18 mètres ; ''options'' – ignore la RD (adamantium, Loi, magique), esquive totale, immunité (maladie, poison), résistance à la magie, dégâts à mains nues 2d8, trois options de combat.
+* '''FP 19.''' Augmentez la vitesse de déplacement de 18 mètres ; ''options'' – [[Création de monstres simplifiée, Étape 7#Ignore la RD|ignore la RD]] (adamantium, Loi, magique), [[Création de monstres simplifiée, Étape 7#Réduction de dégâts|réduction de dégâts]] (Chaos), [[Création de monstres simplifiée, Étape 7#Esquive totale|esquive totale]], [[Création de monstres simplifiée, Étape 7#Immunité|immunité]] (dégâts de chute, maladie, poison), [[Création de monstres simplifiée, Étape 7#Résistance à la magie|résistance à la magie]], dégâts à mains nues 2d10, trois [[Création de monstres simplifiée, Étape 7#OPTIONSDECOMBAT|options de combat]].
+
+* '''Modificateurs de caractéristique suggérés.''' [[Sagesse]], [[Dextérité]], [[Force]].
+* '''Options suggérées.''' [[Création de monstres simplifiée, Étape 7#Parade de projectiles|Parade de projectiles]], [[Création de monstres simplifiée, Étape 7#Science de la manœuvre offensive|science de la manœuvre offensive]], [[Création de monstres simplifiée, Étape 7#Science de l'initiative|science de l’initiative]], [[Création de monstres simplifiée, Étape 7#Attaquant mobile|attaquant mobile]] (corps à corps), [[Création de monstres simplifiée, Étape 7#Paume vibratoire|paume vibratoire]], [[Création de monstres simplifiée, Étape 7#Magie secondaire|magie secondaire]] (''[[porte dimensionnelle]]'' et ''[[passage dans léther|passage dans l’éther]]''), [[Création de monstres simplifiée, Étape 7#Attaque en rotation|attaque en rotation]].
+
+
+{s:Reference|ORACLE}
+====Oracle====
+Plutôt que de se consacrer à un seul dieu, les oracles servent des forces diverses. Du fait de leur dévotion, les oracles ont accès à des pouvoirs mystiques étranges et mystérieux.
+* '''Règles spéciales.''' L’oracle possède une malédiction unique qui n’apparaît dans les options d’aucun autre monstre. Les traits gagnés à chaque [[FP]] se cumulent. Choisissez-en un parmi les suivants.
+** ''Boiteux.'' Réduisez la vitesse de déplacement du monstre de 3 mètres. Au [[FP]] 4, le monstre est immunisé contre la [[fatigué|fatigue]]. Au [[FP]] 14, il est immunisé contre l’[[épuisé|épuisement]].
+** ''Décomposition.'' Réduisez le modificateur de [[Charisme]] du monstre de 4. Au [[FP]] 4, le monstre est immunisé contre l’état [[fiévreux]]. Au [[FP]] 9 il est immunisé contre la maladie. Au [[FP]] 14, il est immunisé contre l’état [[nauséeux]].
+** ''Don des langues.'' Ajoutez l’une des langues suivantes à la liste de celles que le monstre connaît : abyssal, aklo, aquatique, aérien, céleste, igné, infernal ou terreux. En combat, le monstre ne peut parler et comprendre que cette langue. Au [[FP]] 4, ajoutez une deuxième langue issue de cette liste à celle que le monstre peut parler en combat. Au [[FP]] 9, le monstre peut comprendre toute langue parlée comme s’il était sous les effets d’un don des langues, même en combat. Au [[FP]] 14, le monstre peut parler n’importe quelle langue en dehors des combats.
+** ''Hanté.'' Le monstre doit dépenser une [[action simple]] pour récupérer un objet qu’il porte sur lui, à moins que l’action ne prenne normalement plus de temps. Tout objet que le monstre lâche tombe à 3 mètres de lui dans une direction aléatoire. Le monstre gagne l’option [[Création de monstres simplifiée, Étape 7#Magie à volonté|magie à volonté]] (''[[manipulation à distance]]'' et ''[[son imaginaire]]'').
+** ''Sourd.'' Le monstre est définitivement [[assourdi|sourd]]. Il ignore la composante verbale de tous les sorts qu’il lance. Au [[FP]] 4, il gagne un bonus de compétence maîtrisée aux tests de [[Perception]] ne s’appuyant pas sur l’ouïe. Au [[FP]] 9, le monstre gagne [[odorat (capacité)|odorat]]. Au [[FP]] 14, il gagne [[perception des vibrations (capacité)|perception des vibrations]] à 9 mètres.
+** ''Vision obscurcie.'' Le monstre possède la [[Vision dans le noir (capacité)|vision dans le noir]] à 9 mètres mais ne voit rien au-delà de cette portée. Au [[FP]] 4, la portée passe à 18 mètres. Au [[FP]] 9, le monstre gagne également [[Perception aveugle (capacité)|perception aveugle]] à 9 mètres. Au [[FP]] 14, il gagne [[Vision aveugle (capacité)|vision aveugle]] à 4,5 mètres.
+* '''Gamme requise.''' [[Création de monstres simplifiée, Étape 1#LANCEURDESORTS|Lanceur de sorts]].
+* '''Ajustements de statistiques.''' Augmentez les bonus de [[Réflexes]] et de [[Volonté]] de 1 ; ''options'' – mystère (tous), une option libre.
+
+* '''FP 3.''' ''Options'' – une option magique.
+* '''FP 12.''' ''Options'' – une option magique, une option libre.
+* '''FP 18.''' ''Options'' – deux [[Création de monstres simplifiée, Étape 7#OPTIONSMAGIQUES|options magiques]], une option libre.
+
+* '''Modificateurs de caractéristique suggérés.''' [[Charisme]], [[Sagesse]], [[Dextérité]].
+* '''Options suggérées.''' [[Création de monstres simplifiée, Étape 7#Magie de guerre|Magie de guerre]], [[Création de monstres simplifiée, Étape 7#Esquive maîtresse|esquive maîtresse]], [[Création de monstres simplifiée, Étape 7#Armure supplémentaire|armure supplémentaire]], [[Création de monstres simplifiée, Étape 7#Incantation spontanée|incantation spontanée]] (soins) ; voir l’encart sur les options de mystère.
+* '''Listes de sorts suggérées.''' [[Création de monstres simplifiée, Étape 6#Chaos|Chaos]], [[Création de monstres simplifiée, Étape 6#Mal|Mal]], [[Création de monstres simplifiée, Étape 6#Bien|Bien]], [[Création de monstres simplifiée, Étape 6#Loi|Loi]], par mystère.
+
+=====<u>Les options de mystères</u>=====
+Le mystère que l’oracle possède peut altérer significativement ses pouvoirs. Consultez les options suivantes si un pouvoir de mystère s’avère particulièrement important pour l’oracle. Toute créature ayant un thème similaire à un mystère d’oracle donné peut également utiliser la liste des options de ce mystère.
+<table width="100%"><tr><td width="49%">
+* '''Batailles.''' [[Création de monstres simplifiée, Étape 7#Réduction de dégâts|Réduction de dégâts]] (adamantium), [[Création de monstres simplifiée, Étape 7#Inspiration vaillante|inspiration vaillante]].
+* '''Cieux.''' [[Création de monstres simplifiée, Étape 7#Explosion d'énergie|Explosion d’énergie]] (rayonnement de 1,5 mètre).
+* '''Flammes.''' [[Création de monstres simplifiée, Étape 7#Souffle|Souffle]] (cône de feu), [[Création de monstres simplifiée, Étape 7#Sort de métamagie|sort de métamagie]] ([[Création de monstres simplifiée, Étape 6#Feu|sorts de feu]] uniquement).
+* '''Nature.''' [[Création de monstres simplifiée, Étape 7#Parle-animal|Parle-animal]], [[Création de monstres simplifiée, Étape 7#Attaque vampirique|attaque vampirique]] (à distance).
+* '''Os.''' [[Création de monstres simplifiée, Étape 7#Magie à volonté|Magie à volonté]] (''[[animation des morts]]''), [[Création de monstres simplifiée, Étape 7#Invisibilité permanente|invisibilité permanente]], [[Création de monstres simplifiée, Étape 7#Intangible|intangible]].
+* '''Pierre.''' [[Nage dans la terre (capacité)|Nage dans la terre]], [[Création de monstres simplifiée, Étape 7#Attaque magique|attaque magique]] (contondant), [[Création de monstres simplifiée, Étape 7#Sort de métamagie|sort de métamagie]] ([[Création de monstres simplifiée, Étape 6#Terre|sorts de terre]] uniquement).
+
+</td><td width="2%"></td><td width="49%">
+* '''Savoir.''' [[Création de monstres simplifiée, Étape 7#Savant|Savant]].
+* '''Vagues.''' [[Création de monstres simplifiée, Étape 7#Attaque magique|Attaque magique]] (froid, attaque de contact au corps à corps), [[Création de monstres simplifiée, Étape 7#Arme magique|arme magique]] (énergie de froid), [[Création de monstres simplifiée, Étape 7#Sort de métamagie|sort de métamagie]] ([[Création de monstres simplifiée, Étape 6#Froid|sort de froid]] ou [[Création de monstres simplifiée, Étape 6#Eau|d’eau]]).
+* '''Vent.''' [[Création de monstres simplifiée, Étape 7#Armure supplémentaire|Armure supplémentaire]], vol à 27 mètres (bonne), [[Création de monstres simplifiée, Étape 7#Sort de métamagie|sort de métamagie]] ([[Création de monstres simplifiée, Étape 6#Air|sorts d’air]] ou [[Création de monstres simplifiée, Étape 6#Électricité|d’électricité]] uniquement).
+* '''Vie.''' [[Vision aveugle (capacité)|Vision aveugle]] à 9 mètres (détection des créatures vivantes uniquement), [[Création de monstres simplifiée, Étape 7#Canalisation d'énergie|canalisation d’énergie]].
+
+</td></tr></table>
+
+{s:Reference|PALADIN}
+====Paladin====
+Les paladins sont les champions de la loi et du bien. Ils déchaînent la puissance divine contre les agents du chaos et du mal.
+* '''Règles spéciales.''' Certains paladins possèdent une monture. Voir l’encart [[Création de monstres simplifiée, Étape 2#GREFFESDECLASSE|Les compagnons animaux et les montures]].
+* '''Gamme requise.''' [[Création de monstres simplifiée, Étape 1#COMBATTANT|Combattant]].
+* '''Ajustements de statistiques.''' Augmentez le bonus de [[Vigueur]] de 2, augmentez le bonus de [[Volonté]] de 3 ; ''[[détection du Mal]]'' à volonté ; ''options'' – [[Création de monstres simplifiée, Étape 7#Châtiment|châtiment]] (Mal), une option libre.
+
+* '''FP 1.''' ''Options'' – contact guérisseur.
+* '''FP 3.''' ''Options'' – aura de résistance (terreur), canalisation d’énergie, immunité (maladie, terreur), contact guérisseur, magie secondaire (comme s’il s’agissait d’un FP 1).
+* '''FP 7.''' ''Options'' – aura de résistance (charme, terreur), canalisation d’énergie, immunité (charme, maladie, terreur), contact guérisseur, jets de sauvegarde améliorés, magie secondaire (comme s’il s’agissait d’un FP 2).
+* '''FP 9.''' ''Options'' – aura de résistance (charme, terreur), canalisation d’énergie, immunité (charme, maladie, terreur), contact guérisseur, jets de sauvegarde améliorés, magie secondaire (comme s’il s’agissait d’un FP 4).
+* '''FP 13.''' ''Options'' – aura de résistance (charme, terreur), ignore la RD (Bien), canalisation d’énergie, immunité (charme, maladie, terreur), contact guérisseur, jets de sauvegarde améliorés, magie secondaire (comme s’il s’agissait d’un FP 6), une option de combat.
+* '''FP 15.''' ''Options'' – aura de résistance (charme, coercition, terreur), ignore la RD (Bien), canalisation d’énergie, réduction de dégâts (Mal), immunité (charme, coercition, maladie, terreur), contact guérisseur, jets de sauvegarde améliorés, magie secondaire (comme s’il s’agissait d’un FP 6), une option de combat.
+* '''FP 19.''' ''Options'' – [[Création de monstres simplifiée, Étape 7#Aura de résistance|aura de résistance]] (charme, coercition, terreur), [[Création de monstres simplifiée, Étape 7#Ignore la RD|ignore la RD]] (Bien), [[Création de monstres simplifiée, Étape 7#Canalisation d'énergie|canalisation d’énergie]], [[Création de monstres simplifiée, Étape 7#Réduction de dégâts|réduction de dégâts]] (Mal), [[Création de monstres simplifiée, Étape 7#Immunité|immunité]] (charme, coercition, maladie, terreur), [[Création de monstres simplifiée, Étape 7#Contact guérisseur|contact guérisseur]], [[Création de monstres simplifiée, Étape 7#Jets de sauvegarde améliorés|jets de sauvegarde améliorés]], [[Création de monstres simplifiée, Étape 7#Magie secondaire|magie secondaire]] (comme s’il s’agissait d’un [[FP]] 6), une [[Création de monstres simplifiée, Étape 7#OPTIONSDECOMBAT|option de combat]], une option libre.
+
+* '''Modificateurs de caractéristique suggérés.''' [[Force]], [[Charisme]], [[Constitution]].
+* '''Options suggérées.''' [[Création de monstres simplifiée, Étape 7#Armure supplémentaire|Armure supplémentaire]], [[Création de monstres simplifiée, Étape 7#Inspiration vaillante|inspiration vaillante]], [[Création de monstres simplifiée, Étape 7#Arme magique|arme magique]], [[Création de monstres simplifiée, Étape 7#Maître cavalier|maître cavalier]], [[Création de monstres simplifiée, Étape 7#Charge puissante|charge puissante]].
+* '''Listes de sorts suggérées.''' [[Création de monstres simplifiée, Étape 6#Bien|Bien]], [[Création de monstres simplifiée, Étape 6#Gloire|gloire]], [[Création de monstres simplifiée, Étape 6#Guerre|guerre]].
+
+
+{s:Reference|PISTOLIER}
+====Pistolier====
+Les pistoliers se concentrent sur le maniement des armes à feu, tirant tous les avantages possibles de ces armes qu’ils ont appris à maîtriser. Ils ont tendance à se trouver en première ligne où leurs pistolets font des ravages.
+* '''Gamme requise.''' [[Création de monstres simplifiée, Étape 1#COMBATTANT|Combattant]].
+* '''Ajustements de statistiques.''' Augmentez les bonus de [[Réflexes]] et de [[Vigueur]] de 1 ; ''options'' – [[Création de monstres simplifiée, Étape 7#Connaissance des armes à feu|connaissance des armes à feu]], une [[Création de monstres simplifiée, Étape 7#OPTIONSDECOMBAT|option de combat]].
+
+* '''FP 3.''' ''Options'' – une option libre.
+* '''FP 10.''' ''Options'' – rechargement rapide, une option de combat, une option libre.
+* '''FP 14.''' ''Options'' – esquive totale, rechargement rapide, esquive instinctive, deux options de combat, une option libre.
+* '''FP 18.''' ''Options'' – [[Création de monstres simplifiée, Étape 7#Esquive totale|esquive totale]], [[Création de monstres simplifiée, Étape 7#Rechargement rapide|rechargement rapide]], [[Création de monstres simplifiée, Étape 7#Esquive instinctive|esquive instinctive]], trois [[Création de monstres simplifiée, Étape 7#OPTIONSDECOMBAT|options de combat]], une option libre.
+
+* '''Modificateurs de caractéristique suggérés.''' [[Dextérité]], [[Constitution]], [[Sagesse]].
+* '''Options suggérées.''' [[Création de monstres simplifiée, Étape 7#Saignement|Saignement]], [[Création de monstres simplifiée, Étape 7#Attaque de terreur|attaque de terreur]] (rayonnement), [[Création de monstres simplifiée, Étape 7#Science de l'initiative|science de l’initiative]], [[Création de monstres simplifiée, Étape 7#Arme magique|arme magique]], [[Création de monstres simplifiée, Étape 7#Attaque étourdissante|attaque étourdissante]].
+
+
+{s:Reference|PRETRE}
+====Prêtre====
+Les prêtres tirent leur puissance des divinités qu’ils servent et dont ils défendent les intérêts. Aussi divers que les dieux, les prêtres possèdent un vaste éventail de sorts et de pouvoirs grâce auxquels ils combattent les ennemis de leur religion. Beaucoup de prêtres se concentrent sur les batailles et choisissent différentes options de combat.
+* '''Gamme requise.''' [[Création de monstres simplifiée, Étape 1#LANCEURDESORTS|Lanceur de sorts]].
+* '''Ajustements de statistiques.''' Augmentez le bonus de [[Vigueur]] de 2 ; ''compétence'' – [[Connaissances]] (religion) maîtrisée ; ''options'' – [[Création de monstres simplifiée, Étape 7#Canalisation d'énergie|canalisation d’énergie]], [[Création de monstres simplifiée, Étape 7#Incantation spontanée|incantation spontanée]] (soins ou blessures), une option libre.
+
+* '''FP 12.''' ''Options'' – une option magique, une option libre.
+* '''FP 18.''' ''Options'' – une [[Création de monstres simplifiée, Étape 7#OPTIONSMAGIQUES|option magique]], deux options libres.
+
+* '''Modificateurs de caractéristique suggérés.''' [[Sagesse]], [[Force]], [[Charisme]].
+* '''Options suggérées.''' [[Création de monstres simplifiée, Étape 7#Magie de guerre|Magie de guerre]], [[Création de monstres simplifiée, Étape 7#Armure supplémentaire|armure supplémentaire]], [[Création de monstres simplifiée, Étape 7#Champ de protection|champ de protection]], [[Création de monstres simplifiée, Étape 7#Renvoi des morts-vivants|renvoi des morts-vivants]] ; voir l’encart sur les options de domaine.
+* '''Listes de sorts suggérées.''' [[Création de monstres simplifiée, Étape 6#Chaos|Chaos]], [[Création de monstres simplifiée, Étape 6#Mal|Mal]], [[Création de monstres simplifiée, Étape 6#Bien|Bien]], [[Création de monstres simplifiée, Étape 6#Loi|Loi]], par domaine.
+
+=====<u>Les options de domaine</u>=====
+Les options suggérées pour le prêtre varient en fonction de ses domaines. Si un pouvoir de domaine spécifique apparaît particulièrement important pour le prêtre, étudiez les options suivantes. Les autres monstres qui gagnent des domaines, comme les druides, ou toute créature ayant un thème ou une particularité similaire à un domaine de prêtre, peuvent également puiser dans la liste des options de domaine appropriée.
+<table width="100%"><tr><td width="49%">
+* '''Air.''' [[Création de monstres simplifiée, Étape 7#Résistance aux énergies destructives|Résistance aux énergies destructives]] (électricité), [[Création de monstres simplifiée, Étape 7#Attaque magique|attaque magique]] (électricité).
+* '''Animal.''' [[Création de monstres simplifiée, Étape 7#Parle-animal|Parle-animal]].
+* '''Artisanat.''' [[Création de monstres simplifiée, Étape 7#Arme magique|Arme magique]].
+* '''Bien.''' [[Création de monstres simplifiée, Étape 7#Caresse d'encouragement|Caresse d’encouragement]], [[Création de monstres simplifiée, Étape 7#Ignore la RD|ignore la RD]] (Bien).
+* '''Chance.''' [[Création de monstres simplifiée, Étape 7#Bonne fortune|Bonne fortune]] (nécessite de toucher le sujet).
+* '''Chaos.''' [[Création de monstres simplifiée, Étape 7#Ignore la RD|Ignore la RD]] (Chaos), malchance]] (nécessite une attaque de contact au corps à corps).
+* '''Charme.''' [[Création de monstres simplifiée, Étape 7#État préjudiciable modéré|État préjudiciable modéré]] (hébété).
+* '''Climat.''' [[Création de monstres simplifiée, Étape 7#Attaque magique|Attaque magique]] (électricité).
+* '''Communauté.''' [[Création de monstres simplifiée, Étape 7#Guérison d'état préjudiciable mineur|Guérison d’état préjudiciable mineur]].
+* '''Destruction.''' [[Création de monstres simplifiée, Étape 7#Attaque en puissance|Attaque en puissance]].
+* '''Duperie.''' [[Création de monstres simplifiée, Étape 7#Invisibilité permanente|Invisibilité permanente]].
+* '''Eau.''' [[Création de monstres simplifiée, Étape 7#Résistance aux énergies destructives|Résistance aux énergies destructives]] (froid), [[Création de monstres simplifiée, Étape 7#Attaque magique|attaque magique]] (froid).
+* '''Feu.''' [[Création de monstres simplifiée, Étape 7#Résistance aux énergies destructives|Résistance aux énergies destructives]] (feu), [[Création de monstres simplifiée, Étape 7#Attaque magique|attaque magique]] (feu).
+* '''Flore.''' [[Création de monstres simplifiée, Étape 7#Corps nocif|Corps nocif]] (perforant).
+* '''Folie.''' [[Création de monstres simplifiée, Étape 7#Aura de confusion|Aura de confusion]].
+* '''Force.''' [[Création de monstres simplifiée, Étape 7#Caresse du combattant|Caresse du combattant]] (Force uniquement).
+* '''Gloire.''' [[Création de monstres simplifiée, Étape 7#Inspiration talentueuse|Inspiration talentueuse]] (généralement pour les compétences basées sur le Charisme).
+
+</td><td width="2%"></td><td width="49%">
+* '''Guérison.''' [[Création de monstres simplifiée, Étape 7#Guérison puissante|Guérison puissante]].
+* '''Guerre.''' [[Création de monstres simplifiée, Étape 7#Remplacez une option magique de la greffe de prêtre par une [[Création de monstres simplifiée, Étape 7#OPTIONSDECOMBAT|option de combat|Remplacez une option magique de la greffe de prêtre par une [[Création de monstres simplifiée, Étape 7#OPTIONSDECOMBAT|option de combat]].
+* '''Libération.''' [[Création de monstres simplifiée, Étape 7#Immunité|Immunité]] (agrippé, paralysé).
+* '''Loi.''' [[Création de monstres simplifiée, Étape 7#Ignore la RD|Ignore la RD]] (Loi).
+* '''Magie.''' [[Création de monstres simplifiée, Étape 7#Attaque magique|Attaque magique]] (contondant, perforant ou tranchant).
+* '''Mal.''' [[Création de monstres simplifiée, Étape 7#État préjudiciable mineur|État préjudiciable mineur]] (fiévreux, et la créature fiévreuse compte comme une créature Bonne pour les sorts du registre du Mal), [[Création de monstres simplifiée, Étape 7#Ignore la RD|ignore la RD]] (Mal).
+* '''Mort.''' [[Création de monstres simplifiée, Étape 7#Saignement|Saignement]], [[Création de monstres simplifiée, Étape 7#Guérison négative|guérison négative]].
+* '''Noblesse.''' [[Création de monstres simplifiée, Étape 7#Inspiration vaillante|Inspiration vaillante]] (affecte une seule créature).
+* '''Protection.''' [[Création de monstres simplifiée, Étape 7#Champ de protection|Champ de protection]], [[Création de monstres simplifiée, Étape 7#Jets de sauvegarde améliorés|jets de sauvegarde améliorés]].
+* '''Repos.''' [[Création de monstres simplifiée, Étape 7#État préjudiciable modéré|État préjudiciable modéré]] (chancelant, ne dure qu’un round), [[Création de monstres simplifiée, Étape 7#Immunité|immunité]] (effets de mort).
+* '''Rune.''' [[Création de monstres simplifiée, Étape 7#Emplacement piégé|Emplacement piégé]] (piège magique uniquement).
+* '''Savoir.''' [[Création de monstres simplifiée, Étape 7#Savant|Savant]].
+* '''Soleil.''' [[Création de monstres simplifiée, Étape 7#Dégâts magiques puissants|Dégâts magiques puissants]] (soins).
+* '''Ténèbres.''' [[Vision dans les ténèbres (capacité)|Vision dans les ténèbres]].
+* '''Terre.''' [[Création de monstres simplifiée, Étape 7#Résistance aux énergies destructives|Résistance aux énergies destructives]] (acide), [[Création de monstres simplifiée, Étape 7#Attaque magique|attaque magique]] (acide).
+* '''Voyage.''' [[Création de monstres simplifiée, Étape 7#Pas interdimensionnels|Pas interdimensionnels]], [[Création de monstres simplifiée, Étape 7#Déplacement facilité (terrain)|déplacement facilité (terrain)]].
+
+</td></tr></table>
+
+{s:Reference|RODEUR}
+====Rôdeur====
+Gardiens de la nature, pioniers et destructeurs de monstres, les rôdeurs sont la première ligne de défense contre les dangers de la nature. Ils possèdent de solides capacités de combat et des capacités d’incantation limitées.
+* '''Règles spéciales.''' Certains rôdeurs possèdent un compagnon animal. Voir l’encart [[Création de monstres simplifiée, Étape 2#GREFFESDECLASSE|Les compagnons animaux et les montures]].
+* '''Gamme requise.''' [[Création de monstres simplifiée, Étape 1#COMBATTANT|Combattant]].
+* '''Ajustements de statistiques.''' Augmentez les bonus de [[Réflexes]] et de [[Vigueur]] de 1 ; ''compétences'' – [[Perception]] maîtrisée, une compétence maîtrisée supplémentaire (en général, [[Discrétion]] ou [[Survie]]) ; ''options'' – [[Création de monstres simplifiée, Étape 7#Ennemi juré|ennemi juré]], une option libre.
+
+* '''FP 3.''' ''Options'' – magie secondaire (comme s’il s’agissait d’un FP 1), une option de combat.
+* '''FP 7.''' ''Options'' – magie secondaire (comme s’il s’agissait d’un FP 2), déplacement facilité (broussailles), une option de combat.
+* '''FP 9.''' ''Options'' – magie secondaire (comme s’il s’agissait d’un FP 4), déplacement facilité (broussailles), une option de combat.
+* '''FP 11.''' ''Options'' – esquive totale (comme s’il s’agissait d’un FP 4), magie secondaire (comme s’il s’agissait d’un FP 4), déplacement facilité (broussailles), deux options de combat.
+* '''FP 15.''' ''Options'' – esquive totale, magie secondaire (comme s’il s’agissait d’un FP 6), déplacement facilité (broussailles), deux options de combat.
+* '''FP 17.''' ''Options'' – esquive totale, magie secondaire (comme s’il s’agissait d’un FP 6), déplacement facilité (broussailles), deux options de combat, une option libre.
+* '''FP 19.''' ''Options'' – [[Création de monstres simplifiée, Étape 7#Esquive totale|esquive totale]], [[Création de monstres simplifiée, Étape 7#Magie secondaire|magie secondaire]] (comme s’il s’agissait d’un [[FP]] 6), [[Création de monstres simplifiée, Étape 7#Attaque tueuse|attaque tueuse]] (Vigueur), [[Création de monstres simplifiée, Étape 7#Déplacement facilité (terrain)|déplacement facilité (broussailles)]], deux [[Création de monstres simplifiée, Étape 7#OPTIONSDECOMBAT|options de combat]], une option libre.
+
+* '''Modificateurs de caractéristique suggérés.''' [[Force]] ou [[Dextérité]], [[Constitution]], [[Sagesse]].
+* '''Options suggérées.''' [[Création de monstres simplifiée, Étape 7#Parle-animal|Parle-animal]], [[Création de monstres simplifiée, Étape 7#Frappe critique|frappe critique]], [[Création de monstres simplifiée, Étape 7#Attaque supplémentaire|attaque supplémentaire]], [[Création de monstres simplifiée, Étape 7#Tir de loin|tir de loin]], [[Création de monstres simplifiée, Étape 7#Éventration|éventration]], [[Création de monstres simplifiée, Étape 7#Emplacement piégé|emplacement piégé]].
+* '''Listes de sorts suggérées.''' [[Création de monstres simplifiée, Étape 6#Animal|Animal]], [[Création de monstres simplifiée, Étape 6#Nature|nature]], [[Création de monstres simplifiée, Étape 6#Flore|flore]].
+
+
+{s:Reference|ROUBLARD}
+====Roublard====
+Les roublards ont toujours un atout dans la manche. Armés de leurs nombreuses ruses et compétences qui déconcertent leurs adversaires, ils gardent toujours une longueur d’avance sur leur ennemi.
+* '''Gamme requise.''' [[Création de monstres simplifiée, Étape 1#EXPERT|Expert]].
+* '''Ajustements de statistiques.''' Augmentez le bonus de [[Réflexes]] de 3 ; ''compétences'' – [[Discrétion]] et [[Perception]] maîtrisées ; ''options'' – [[Création de monstres simplifiée, Étape 7#Science de l'initiative|science de l’initiative]], [[Création de monstres simplifiée, Étape 7#Attaque sournoise|attaque sournoise]].
+
+* '''FP 1.''' ''Options'' – esquive totale, une option libre.
+* '''FP 3.''' ''Options'' – esquive totale, esquive instinctive, une option de combat, une option sociale.
+* '''FP 9.''' ''Options'' – esquive totale, esquive instinctive, prise en tenaille impossible, une option de combat, une option sociale.
+* '''FP 11.''' ''Options'' – esquive totale, esquive instinctive, prise en tenaille impossible, une option de combat, une option sociale, une option libre.
+* '''FP 19.''' ''Options'' – [[Création de monstres simplifiée, Étape 7#Esquive totale|esquive totale]], [[Création de monstres simplifiée, Étape 7#Attaque tueuse|attaque tueuse]] (Vigueur), [[Création de monstres simplifiée, Étape 7#Esquive instinctive|esquive instinctive]], [[Création de monstres simplifiée, Étape 7#Prise en tenaille impossible|prise en tenaille impossible]], deux [[Création de monstres simplifiée, Étape 7#OPTIONSDECOMBAT|options de combat]], une [[Création de monstres simplifiée, Étape 7#OPTIONSSOCIALES|option sociale]], une option libre.
+
+* '''Modificateurs de caractéristique suggérés.''' [[Dextérité]], [[Charisme]], [[Intelligence]].
+* '''Options suggérées.''' [[Création de monstres simplifiée, Étape 7#Invisibilité permanente|Invisibilité permanente]], [[Création de monstres simplifiée, Étape 7#Souplesse du serpent|souplesse du serpent]], [[Création de monstres simplifiée, Étape 7#Persuasif|persuasif]], [[Création de monstres simplifiée, Étape 7#Poison|poison]], [[Création de monstres simplifiée, Étape 7#Esprit fuyant|esprit fuyant]], [[Création de monstres simplifiée, Étape 7#Emplacement piégé|emplacement piégé]].
+
+
+{s:Reference|SORCIERE}
+====Sorcière====
+Les sorcières communient avec des forces inconnues pour développer leur puissance magique. Ces lanceurs de sorts concluent des pactes avec des êtres d’autres mondes et tirent leur magie de leurs mystérieux protecteurs.
+* '''Gamme requise.''' [[Création de monstres simplifiée, Étape 1#LANCEURDESORTS|Lanceur de sorts]].
+* '''Ajustements de statistiques.''' Augmentez les bonus de [[Réflexes]] et de [[Vigueur]] de 1 ; compétence – [[Connaissances]] (mystères) maîtrisée ; ''options'' – une [[Création de monstres simplifiée, Étape 7#OPTIONSMAGIQUES|option magique]].
+
+* '''FP 1.''' ''Options'' – une option libre.
+* '''FP 3.''' ''Options'' – une option magique, une option libre.
+* '''FP 12.''' ''Options'' – deux options magiques, une option libre.
+* '''FP 18.''' ''Options'' – deux [[Création de monstres simplifiée, Étape 7#OPTIONSMAGIQUES|options magiques]], deux options libres.
+
+* '''Modificateurs de caractéristique suggérés.''' [[Intelligence]], [[Charisme]], [[Dextérité]].
+* '''Options suggérées.''' [[Création de monstres simplifiée, Étape 7#État préjudiciable majeur|État préjudiciable majeur]], [[Création de monstres simplifiée, Étape 7#État préjudiciable mineur|état préjudiciable mineur]], [[Création de monstres simplifiée, Étape 7#État préjudiciable modéré|état préjudiciable modéré]], [[Création de monstres simplifiée, Étape 7#Mauvais œil|mauvais œil]], [[Création de monstres simplifiée, Étape 7#Bonne fortune|bonne fortune]], [[Création de monstres simplifiée, Étape 7#Contact guérisseur|contact guérisseur]], [[Création de monstres simplifiée, Étape 7#Linguiste|linguiste]], [[Création de monstres simplifiée, Étape 7#Malchance|malchance]].
+* '''Listes de sorts suggérées.''' Choisissez une liste thématiquement appropriée au [[Protecteurs|protecteur]] de la sorcière.

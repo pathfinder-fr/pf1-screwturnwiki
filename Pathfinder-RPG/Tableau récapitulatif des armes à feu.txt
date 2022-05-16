@@ -1,110 +1,151 @@
 ---
 Name: Pathfinder-RPG.Tableau récapitulatif des armes à feu
 Title: Tableau récapitulatif des armes à feu
-LastModified: 2020-05-14 18:20
+LastModified: 2022-03-30 14:47
 Categories:
-  - 'Art de la guerre'
-  - 'Règles officielles'
+  - 'Règle officielle'
+  - 'Src Art de la guerre'
 ---
-{s:MenuEquipement}
-<div style="float: right; padding: 0 0 8px 8px">{toc}</div>''Voir les [[tableau récapitulatif des armes|armes classiques]] et les [[tableau récapitulatif des engins de siège|engins de siège]].  
-Voir les [[armes à feu|règles relatives aux armes à feu]].''
+{s:MenuEquipement}<div class="fright">{toc}</div>''Voir les [[tableau récapitulatif des armes|armes classiques]] et les [[tableau récapitulatif des engins de siège|engins de siège]].  
+Voir les [[Armes à feu|règles relatives aux armes à feu]].''
 
+{s:Reference|TABRUDIMENTAIRES}
 ===Les armes à feu rudimentaires===
 {| CLASS="tablo centre" WIDTH="100%"
-|+ Les armes à feu rudimentaires
+|+ Tableau récapitulatif des armes à feu rudimentaires
 |- CLASS="titre"
-| [[Armes à feu#CATEGORIE|Armes à feu rudimentaires]] || Prix || Dégâts (P) || Dégâts (M) || [[Caractéristiques des armes#CRITIQUE|Critique]] || [[Facteur de portée]] || [[Long feu]] || [[armes à feu#Capacité_2|Capacité]] || Poids<sup>[[Tableau récapitulatif des armes à feu#NOTE1|1]]</sup> (kg) || [[Caractéristiques des armes#TYPE|Type]]<sup>[[Tableau récapitulatif des armes à feu#NOTE2|2]]</sup> || Spécial
+| WIDTH="23%" | Arme
+| WIDTH="4%" | [[Caractéristiques des armes#PRIX|Prix]] (po)
+| WIDTH="8%" | [[Caractéristiques des armes#DEGATS|Dégâts (P)]]
+| WIDTH="8%" | [[Caractéristiques des armes#DEGATS|Dégâts (M)]]
+| WIDTH="8%" | [[Caractéristiques des armes#CRITIQUE|Critique]]
+| WIDTH="10%" | [[Caractéristiques des armes#FACTEURDEPORTEE|Facteur de portée]]
+| WIDTH="14%" | [[Armes à feu#ENRAYEMENT|Enrayement]]
+| WIDTH="4%" | [[Armes à feu#CAPACITE|Capacité]]
+| WIDTH="5%" | [[Caractéristiques des armes#POIDS|Poids]] (kg)
+| WIDTH="6%" | [[Caractéristiques des armes#TYPE|Type]]
+| WIDTH="10%" | [[Caractéristiques des armes#ATTRIBUTSSPECIAUX|Spécial]]
+
 |- CLASS="premier"
-| COLSPAN="11" | '''ARMES [[Armes à feu#Les_règles_des_armes_à_feu_14|À FEU]] [[armes à feu#CATEGORIE|À UNE MAIN]]'''
+| COLSPAN="11" | {s:Reference|TABRUDIMENTAIRESUNEMAIN}'''ARMES À FEU [[Armes à feu#CATEGORIE|À UNE MAIN]]'''
 |-
-| &emsp;[[Description des armes à feu#Dague pistolet|Dague pistolet]] || 740 || 1d3 || 1d4 || ×3 || 3 m (2 {s:c})  || 1 (1,5 m (1 {s:c})) || 1 || 0,5 || C et P || —
-|- CLASS="alt"
-| &emsp;[[Description des armes à feu#Pistolet à double canon|Pistolet à double canon]] || 1750 || 1d6 || 1d8 || ×4 || 6 m (4 {s:c}) || 1-2 (1,5 m (1 {s:c})) || 2 || 2,5 || C et P || —
+| [[Descriptions individuelles des armes à feu#Dague pistolet|↓]] [[Dague pistolet (arme)|Dague pistolet]]
+| 740 || 1d3 || 1d4 || ×3 || 3 m (2 c) || 1 (1,5 m (1 c)) || 1 || 0,5 || C et P || —
+|- class="alt"
+| [[Descriptions individuelles des armes à feu#Pistolet|↓]] [[Pistolet (arme)|Pistolet]]
+| 1.000 || 1d6 || 1d8 || ×4 || 6 m (4 c) || 1 (1,5 m (1 c)) || 1 || 2 || C et P || —
 |-
-| &emsp;[[Description des armes à feu#Pistolet canne épée|Pistolet canne épée]] || 775 || 1d3 || 1d4 || ×3 || 3 m (2 {s:c}) || 1 (1,5 m (1 {s:c})) || 1 || 0,5 || C et P || —
-|- CLASS="alt"
-| &emsp;[[Description des armes à feu#Pistolet de poche|Pistolet de poche]] || 750 || 1d3 || 1d4 || ×3 || 3 m (2 {s:c}) || 1 (1,5 m (1 {s:c})) || 1 || 0,5 || C et P || —
+| [[Descriptions individuelles des armes à feu#Pistolet à double canon|↓]] [[Pistolet à double canon (arme)|Pistolet à double canon]]
+| 1.750 || 1d6 || 1d8 || ×4 || 6 m (4 c) || 1-2 (1,5 m (1 c)) || 2 || 2,5 || C et P || —
+|- class="alt"
+| [[Descriptions individuelles des armes à feu#Pistolet canne-épée|↓]] [[Pistolet canne-épée (arme)|Pistolet canne-épée]]
+| 775 || 1d3 || 1d4 || ×3 || 3 m (2 c) || 1 (1,5 m (1 c)) || 1 || 0,5 || C et P || —
 |-
-| &emsp;[[Description des armes à feu#Pistolet dragon|Pistolet dragon]] || 1000 || 1d4 || 1d6 || ×4 || 6 m (4 {s:c}) || 1-2 (1,5 m (1 {s:c})) || 1 || 2,5 || C et P || [[Dispersion]]
-|- CLASS="alt"
-| &emsp;[[Description des armes à feu#Pistolet|Pistolet]] || 1000 || 1d6 || 1d8 || ×4 || 6 m (4 {s:c}) || 1 (1,5 m (1 {s:c})) || 1 || 2 || C et P || —
+| [[Descriptions individuelles des armes à feu#Pistolet de poche|↓]] [[Pistolet de poche (arme)|Pistolet de poche]]
+| 750 || 1d3 || 1d4 || ×3 || 3 m (2 c) || 1 (1,5 m (1 c)) || 1 || 0,5 || C et P || —
+|- class="alt"
+| [[Descriptions individuelles des armes à feu#Pistolet dragon|↓]] [[Pistolet dragon (arme)|Pistolet dragon]]
+| 1.000 || 1d4 || 1d6 || ×4 || spécial || 1-2 (1,5 m (1 c)) || 1 || 1,5 || C et P || [[Armes à feu#DISPERSION|Dispersion]]
 |-
-| &emsp;[[Description des armes à feu#Poivrière|Poivrière]] || 3000 || 1d6 || 1d8 || ×4 || 6 m (4 {s:c}) || 1-2 (1,5 m (1 {s:c})) || 6 || 2,5 || C et P || —
-|- CLASS="alt"
-| &emsp;[[Description des armes à feu#Targe pistolet|Targe pistolet]] || 750 || 1d4 || 1d6 || ×4 || 3 m (2 {s:c}) || 1 (1,5 m (1 {s:c})) || 2 || 3 || C et P || —
+| [[Descriptions individuelles des armes à feu#Poivrière|↓]] [[Poivrière (arme)|Poivrière]]
+| 3.000 || 1d6 || 1d8 || ×4 || 6 m (4 c) || 1-2 (1,5 m (1 c)) || 6 || 2,5 || C et P || —
+|- class="alt"
+| [[Descriptions individuelles des armes à feu#Targe pistolet|↓]] [[Targe pistolet (arme)|Targe pistolet]]
+| 750 || 1d4 || 1d6 || ×4 || 3 m (2 c) || 1 (1,5 m (1 c)) || 2 || 3 || C et P || —
+
 |- CLASS="premier"
-| COLSPAN="11" | '''ARMES [[Armes à feu#Les_règles_des_armes_à_feu_14|À FEU]] [[armes à feu#CATEGORIE|À DEUX MAINS]]'''
+| COLSPAN="11" | {s:Reference|TABRUDIMENTAIRESDEUXMAINS}'''ARMES À FEU [[Armes à feu#CATEGORIE|À DEUX MAINS]]'''
 |-
-| &emsp;[[Description des armes à feu#Couleuvrine|Couleuvrine]] || 4000 || 2d6 || 2d8 || ×4 || 9 m (6 {s:c}) || 1 (1,5 m (1 {s:c})) || 1 || 20 || C et P || [[Dispersion]]
-|- CLASS="alt"
-| &emsp;[[Description des armes à feu#Double arquebuse|Double arquebuse]] || 4000 || 2d10 || 2d12 || ×4 || 15 m (10 {s:c}) || 1-2 (1,5 m (1 {s:c})) || 2 || 9 || C et P || —
+| [[Descriptions individuelles des armes à feu#Couleuvrine|↓]] [[Couleuvrine (arme)|Couleuvrine]]
+| 4.000 || 2d6 || 2d8 || ×4 || 9 m (6 c) || 1 (3 m (2 c)) || 1 || 20 || C et P || [[Armes à feu#DISPERSION|Dispersion]]
+|- class="alt"
+| [[Descriptions individuelles des armes à feu#Double arquebuse|↓]] [[Double arquebuse (arme)|Double arquebuse]]
+| 4.000 || 2d10 || 2d12 || ×4 || 15 m (10 c) || 1-2 (1,5 m (1 c)) || 2 || 9 || C et P || —
 |-
-| &emsp;[[Description des armes à feu#Hache mousquet|Hache mousquet]] || 1600 || 1d6 || 1d8 || ×4 || 9 m (6 {s:c}) || 1-2 (1,5 m (1 {s:c})) || 1 || 3 || C et P || —
-|- CLASS="alt"
-| &emsp;[[Description des armes à feu#Lanceflamme|Lance-flamme]] || 25 || 1d4 || 1d6 || ×4 || 3 m (2 {s:c}) || 1-4 (1,5 m (1 {s:c})) || 1 || 2 || P || —
+| [[Descriptions individuelles des armes à feu#Hache mousquet|↓]] [[Hache mousquet (arme)|Hache mousquet]]
+| 1.600 || 1d6 || 1d8 || ×4 || 9 m (6 c) || 1-2 (1,5 m (1 c)) || 1 || 3 || C et P || —
+|- class="alt"
+| [[Descriptions individuelles des armes à feu#Lance-flamme|↓]] [[Lance-flamme (arme)|Lance-flamme]]
+| 25 || 1d4 || 1d6 || ×4 || 3 m (2 c) || 1-4 (1,5 m (1 c)) || 1 || 2 || P || —
 |-
-| &emsp;[[Description des armes à feu#Marteau mousquet|Marteau mousquet]] || 1600 || 1d6 || 1d8 || ×4 || 9 m (6 {s:c}) || 1-2 (1,5 m (1 {s:c})) || 1 || 3 || C et P || —
-|- CLASS="alt"
-| &emsp;[[Description des armes à feu#Mousquet|Mousquet]] || 1500 || 1d10 || 1d12 || ×4 || 12 m (8 {s:c}) || 1-2 (1,5 m (1 {s:c})) || 1 || 4,5 || C et P || —
+| [[Descriptions individuelles des armes à feu#Marteau mousquet|↓]] [[Marteau mousquet (arme)|Marteau mousquet]]
+| 1.600 || 1d6 || 1d8 || ×4 || 9 m (6 c) || 1-2 (1,5 m (1 c)) || 1 || 3 || C et P || —
+|- class="alt"
+| [[Descriptions individuelles des armes à feu#Mousquet|↓]] [[Mousquet (arme)|Mousquet]]
+| 1.500 || 1d10 || 1d12 || ×4 || 12 m (8 c) || 1-2 (1,5 m (1 c)) || 1 || 4,5 || C et P || —
 |-
-| &emsp;[[Description des armes à feu#Mousquet à double canon|Mousquet à double canon]] || 2500 || 1d10 || 1d12 || ×4 || 12 m (8 {s:c}) || 1-3 (1,5 m (1 {s:c})) || 2 || 5,5 || C et P || —
-|- CLASS="alt"
-| &emsp;[[Description des armes à feu#Tromblon|Tromblon]] || 2000 || 1d6 || 1d8 || ×2 || spécial || 1-2 (1,5 m (1 {s:c})) || 1 || 4 || C et P || [[Dispersion]]
+| [[Descriptions individuelles des armes à feu#Mousquet à double canon|↓]] [[Mousquet à double canon (arme)|Mousquet à double canon]]
+| 2.500 || 1d10 || 1d12 || ×4 || 3 m (2 c) || 1-3 (1,5 m (1 c)) || 2 || 5,5 || C et P || —
+|- class="alt"
+| [[Descriptions individuelles des armes à feu#Tromblon|↓]] [[Tromblon (arme)|Tromblon]]
+| 2.000 || 1d6 || 1d8 || ×2 || spécial || 1-2 (3 m (2 c)) || 1 || 4 || C et P || [[Armes à feu#DISPERSION|Dispersion]]
 |}
 
+{s:Reference|TABEVOLUEES}
 ===Les armes à feu évoluées===
 {| CLASS="tablo centre" WIDTH="100%"
-|+ Les armes à feu évoluées
+|+ Tableau récapitulatif des armes à feu évoluées
 |- CLASS="titre"
-| [[Armes à feu#CATEGORIE|Armes à feu évoluées]] || Prix (po) || Dégâts (P) || Dégâts (M) || [[Caractéristiques des armes#CRITIQUE|Critique]] || [[Facteur de portée]] || [[Long feu]] || [[armes à feu#Capacité_2|Capacité]] || Poids<sup>[[Tableau récapitulatif des armes à feu#NOTE1|1]]</sup> (kg) || [[Caractéristiques des armes#TYPE|Type]]<sup>[[Tableau récapitulatif des armes à feu#NOTE2|2]]</sup> || Spécial
+| WIDTH="23%" | Arme
+| WIDTH="4%" | [[Caractéristiques des armes#PRIX|Prix]] (po)
+| WIDTH="8%" | [[Caractéristiques des armes#DEGATS|Dégâts (P)]]
+| WIDTH="8%" | [[Caractéristiques des armes#DEGATS|Dégâts (M)]]
+| WIDTH="8%" | [[Caractéristiques des armes#CRITIQUE|Critique]]
+| WIDTH="10%" | [[Caractéristiques des armes#FACTEURDEPORTEE|Facteur de portée]]
+| WIDTH="14%" | [[Armes à feu#ENRAYEMENT|Enrayement]]
+| WIDTH="4%" | [[Armes à feu#CAPACITE|Capacité]]
+| WIDTH="5%" | [[Caractéristiques des armes#POIDS|Poids]] (kg)
+| WIDTH="6%" | [[Caractéristiques des armes#TYPE|Type]]
+| WIDTH="10%" | [[Caractéristiques des armes#ATTRIBUTSSPECIAUX|Spécial]]
+
 |- CLASS="premier"
-| COLSPAN="11" | '''ARMES [[Armes à feu#Les_règles_des_armes_à_feu_14|À FEU]] [[armes à feu#CATEGORIE|À UNE MAIN]]'''
+| COLSPAN="11" | {s:Reference|TABEVOLUEESUNEMAIN}'''ARMES À FEU [[Armes à feu#CATEGORIE|À UNE MAIN]]'''
 |-
-| &emsp;[[Description des armes à feu#Revolver|Revolver]] || 4000 || 1d6 || 1d8 || ×4 || 6 m (4 {s:c}) || 1 || 6 || 2 || C et P || —
+| [[Descriptions individuelles des armes à feu#Revolver|↓]] [[Revolver (arme)|Revolver]]
+| 4.000 || 1d6 || 1d8 || ×4 || 6 m (4 c) || 1 || 6 || 2 || C et P || —
+
 |- CLASS="premier"
-| COLSPAN="11" | '''ARMES [[Armes à feu#Les_règles_des_armes_à_feu_14|À FEU]] [[armes à feu#CATEGORIE|À DEUX MAINS]]'''
+| COLSPAN="11" | {s:Reference|TABEVOLUEESDEUXMAINS}'''ARMES À FEU [[Armes à feu#CATEGORIE|À DEUX MAINS]]'''
 |-
-| &emsp;[[Description des armes à feu#Fusil|Fusil]] || 5000 || 1d8 || 1d10 || ×4 || 24 m (16 {s:c}) || 1 || 1 || 6 || C et P || —
-|- CLASS="alt"
-| &emsp;[[Description des armes à feu#Fusil de chasse|Fusil de chasse]] || 5000 || 1d6 || 1d8 || ×2 || 6 m (4 {s:c}) || 1-2 || 1 || 6 || C et P || [[Dispersion]]
+| [[Descriptions individuelles des armes à feu#Fusil|↓]] [[Fusil (arme)|Fusil]]
+| 5.000 || 1d8 || 1d10 || ×4 || 24 m (16 c) || 1 || 1 || 6 || C et P || —
+|- class="alt"
+| [[Descriptions individuelles des armes à feu#Fusil de chasse|↓]] [[Fusil de chasse (arme)|Fusil de chasse]]
+| 5.000 || 1d6 || 1d8 || ×2 || 6 m (4 c) || 1-2 || 1 || 6 || C et P || [[Armes à feu#DISPERSION|Dispersion]]
 |-
-| &emsp;[[Description des armes à feu#Fusil de chasse à double canon|Fusil de chasse à double canon]] || 7000 || 1d6 || 1d8 || ×2 || 6 m (4 {s:c}) || 1-2 || 2 || 7,5 || C et P || [[Dispersion]]
-|- CLASS="alt"
-| &emsp;[[Description des armes à feu#Fusil poivrière|Fusil poivrière]] || 7000 || 1d8 || 1d10 || ×4 || 24 m (16 {s:c}) || 1-2 || 4 || 7,5 || C et P || —
+| [[Descriptions individuelles des armes à feu#Fusil de chasse à double canon|↓]] [[Fusil de chasse à double canon (arme)|Fusil de chasse à double canon]]
+| 7.000 || 1d6 || 1d8 || ×2 || 6 m (4 c) || 1-2 || 2 || 7,5 || C et P || [[Armes à feu#DISPERSION|Dispersion]]
+|- class="alt"
+| [[Descriptions individuelles des armes à feu#Fusil poivrière|↓]] [[Fusil poivrière (arme)|Fusil poivrière]]
+| 7.000 || 1d8 || 1d10 || ×4 || 24 m (16 c) || 1-2 || 4 || 7,5 || C et P || —
 |}
 
-===Les munitions d’arme à feu===
-{| CLASS="tablo autoalt centre"
-|+ Les  munitions d’arme à feu
+{s:Reference|TABMUNITIONS}
+===Les munitions d'arme à feu===
+{| CLASS="tablo centre autoalt"
+|+ Les munitions d'arme à feu
 |- CLASS="titre"
 | Objet || Prix || Poids
 |- CLASS="premier"
-| [[Description des armes à feu#Balle|Balle d’arme à feu]] (1) || 1 po || —
+| [[Descriptions individuelles des armes à feu#Balle darme à feu|↓]] [[Balle darme à feu (arme)|Balle d'arme à feu (1)]] || 1 po || —
 |-
-| [[Description des armes à feu#Balle grêlée|Balle grêlée]] || 5 po || —
+| [[Descriptions individuelles des armes à feu#Balle grêlée|↓]] [[Balle grêlée (arme)|Balle grêlée]] || 5 po || —
 |-
-| [[Description des armes à feu#Cartouche alchimique|Cartouche alchimique]] || </sup> || </sup>
+| [[Descriptions individuelles des armes à feu#Cartouche alchimique|↓]] [[Cartouche alchimique (arme)|Cartouche alchimique (enchevêtrement)]] || 40 po || —
 |-
-| &emsp; enchevêtrement || 40 po || —
+| [[Descriptions individuelles des armes à feu#Cartouche alchimique|↓]] [[Cartouche alchimique (arme)|Cartouche alchimique (flamboyante)]] || 10 po || —
 |-
-| &emsp; flamboyante || 10 po || —
+| [[Descriptions individuelles des armes à feu#Cartouche alchimique|↓]] [[Cartouche alchimique (arme)|Cartouche alchimique (papier, balle ou bille de plomb)]] || 12 po || —
 |-
-| &emsp; papier, balle ou bille de plomb || 12 po || —
+| [[Descriptions individuelles des armes à feu#Cartouche alchimique|↓]] [[Cartouche alchimique (arme)|Cartouche alchimique (sel)]] || 12 po || —
 |-
-| &emsp; sel || 12 po || —
+| [[Descriptions individuelles des armes à feu#Cartouche alchimique|↓]] [[Cartouche alchimique (arme)|Cartouche alchimique (souffle de dragon)]] || 40 po || —
 |-
-| &emsp; souffle de dragon || 40 po || —
+| [[Descriptions individuelles des armes à feu#Cartouche en métal|↓]] [[Cartouche en métal (arme)|Cartouche en métal]] || 15 po || —
 |-
-| [[Description des armes à feu#Cartouche en métal|Cartouche en métal]] || 15 po || —
+| [[Descriptions individuelles des armes à feu#Plombs|↓]] [[Plombs (arme)|Plombs (poignée)]] || 1 po || —
 |-
-| [[Description des armes à feu#Plombs|Plombs]] (poignée) || 1 po || —
+| [[Descriptions individuelles des armes à feu#Poudre noire|↓]] [[Poudre noire (arme)|Poudre noire (baril)]] || 1.000 po || 2,5 kg
 |-
-| [[Description des armes à feu#Poudre noire|Poudre noire]] (baril) || 1000 po || 2,5 kg
-|-
-| [[Description des armes à feu#Poudre noire|Poudre noire]] (dose) || 10 po || —
+| [[Descriptions individuelles des armes à feu#Poudre noire|↓]] [[Poudre noire (arme)|Poudre noire (dose)]] || 10 po || —
 |}
-
-{s:Reference|NOTE1}''(1) Le poids est indiqué pour une arme de taille M. Une arme de taille P pèse deux fois moins lourd et une arme de taille G deux fois plus.''
-
-{s:Reference|NOTE2}''(2) Une arme qui comporte deux types inflige des dégâts de l’un ou de l’autre (au choix de son propriétaire) s’il y a la mention « ou »''

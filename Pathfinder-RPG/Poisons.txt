@@ -1,9 +1,9 @@
 ---
 Name: Pathfinder-RPG.Poisons
 Title: Les poisons   
-LastModified: 2020-07-11 00:28
+LastModified: 2021-10-25 15:54
 Categories:
-  - 'Armes et équipement'
+  - 'Src Armes et équipement'
 ---
 {s:MenuEquipement}
 {s:Desambi|Il peut aussi s'agir d'une [[Poison (capacité)|capacité de monstre]].}
@@ -41,85 +41,115 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 {| CLASS="tablo autoalt" WIDTH="100%"
 |+ Exemples de poisons{s:Reference|TABLEAUPOISONS}
 |- CLASS="titre"
-| Nom || Type || DD Vig || Incubation || Fréquence || Effet || Guérison || Coût
+| Nom || Type || DD Vig || Incubation || Fréquence || Effet || Coût
 |- CLASS="premier"
-| [[Poisons#Ajonc à feuilles bleues|Ajonc à feuilles bleues]] || Blessure || 14 || — || 1/rd pdt 2 rds || 1 [[Constitution|Con]]/[[Inconscient]] 1d3h || 1 réussite || 120 po
+| [[Poisons#Ajonc à feuilles bleues|Ajonc à feuilles bleues]] || Blessure || 14 || — || 1/rd pdt 2 rds || 1 [[Constitution|Con]]/[[Inconscient|Inconscience]] 1d3 h || 120 po
 |- 
-| [[Poisons#Brûle-sorts|Brûle-sorts]] || Blessure || 14 || – || 1/rd pdt 4 rds || <abbr title="La cible doit réussir un test de concentration DD 10 + niveau du sort pour parvenir à lancer un sort, et subit un malus de -5 à tous ses autres tests de concentration.">voir texte</abbr> || 1 réussite || 200 po
+| [[Poisons#Bavededhabba|Bave de dhabba]] || Blessure || 12 || — || — || 1d6 dégâts d’acide, [[nauséeux|nausée]]/1d4 [[Dex]] || 50 po
 |- 
-| [[Poisons#Essencedombre|Essence d’ombre]] || Blessure || 17 || — || 1/rd pdt 6 rds || [[diminution permanente|Dim]] 1 [[Force|For]]/1d2 [[Force|For]] || 1 réussite || 250 po
+| [[Poisons#Brûle-sorts|Brûle-sorts]] || Blessure || 14 || – || 1/rd pdt 4 rds || <abbr title="La cible doit réussir un test de concentration DD 10 + niveau du sort pour parvenir à lancer un sort, et subit un malus de -5 à tous ses autres tests de concentration.">voir texte</abbr> || 200 po
 |- 
-| [[Poisons#Extraitdesanvert|Extrait de sanvert]] || Blessure || 13 || — || 1/rd pdt 4 rds || 1 [[Constitution|Con]] || 1 réussite || 100 po
+| [[Poisons#Essencedombre|Essence d’ombre]] || Blessure || 17 || — || 1/rd pdt 6 rds || [[diminution permanente|Dim]] 1 [[Force|For]]/1d2 [[Force|For]] || 250 po
 |- 
-| [[Poisons#Mortelame|Mortelame]] || Blessure || 20 || — || 1/rd pdt 6 rds || 1d3 [[Constitution|Con]] || 2 réussites || 1 800 po
+| [[Poisons#Extraitdesanvert|Extrait de sanvert]] || Blessure || 13 || — || 1/rd pdt 4 rds || 1 [[Constitution|Con]] || 100 po
 |- 
-| [[Poisons#Poisondaraignéenoiredesmarais|Poison d'araignée noire des marais]] || Blessure || 14 || — || 1/rd pdt 6 rds || 1d4 [[Dextérité|Dex]] et [[confus]] pdt 1 rd || 2 réussites || 800 po
+| [[Poisons#Mortelame|Mortelame]] || Blessure || 20 || — || 1/rd pdt 6 rds || 1d3 [[Constitution|Con]] || 1 800 po
 |- 
-| [[Poisons#Poisondevouivre|Poison de vouivre]] || Blessure || 17 || — || 1/rd pdt 6 rds || 1d4 [[Constitution|Con]] || 2 réussites || 3 000 po
+| [[Poisons#Poisondaraignéenoiredesmarais|Poison d'araignée noire des marais]] || Blessure || 14 || — || 1/rd pdt 6 rds || 1d4 [[Dextérité|Dex]], [[confus|confusion]] 1 rd || 800 po
 |- 
-| [[Poisons#Poisondrow|Poison drow]] || Blessure || 13 || — || 1/min pdt 2 min || [[Inconscient]] 1 min/2d4 h || 1 réussite || 75 po
+| [[Poisons#Poisondevouivre|Poison de vouivre]] || Blessure || 17 || — || 1/rd pdt 6 rds || 1d4 [[Constitution|Con]] || 3 000 po
 |- 
-| [[Poisons#Tormentille|Tormentille]] || Blessure || 12 || 1 rd || 1/rd pdt 4 rds || 1 [[Constitution|Con]], 1 [[Sagesse|Sag]], [[confus|confusion]] 1 rd || 1 réussite || 100 po
+| [[Poisons#Poisondrow|Poison drow]] || Blessure || 13 || — || 1/min pdt 2 min || [[Inconscient|Inconscience]] 1 min/2d4 h || 75 po
 |- 
-| [[Poisons#VenindaraignéedetailleM|Venin d’araignée de taille M]] || Blessure || 14 || — || 1/rd pdt 4 rds || 1d2 [[Force|For]] || 1 réussite || 150 po
+| [[Poisons#Préserve-plaie|Préserve-plaie]] || Blessure || 18 || 1 rd || 1/jour || <abbr titre="Les tests de Premiers soins effectués sur la victime subissent un malus de -10. Les soins magiques nécessitent de réussir un test de niveau de lanceur de sorts DD 25 pour fonctionner.">voir texte</abbr> || 75 po
 |- 
-| [[Poisons#Venindeguêpegéante|Venin de guêpe géante]] || Blessure || 18 || — || 1/rd pdt 6 rds || 1d2 [[Dextérité|Dex]] || 1 réussite || 210 po
+| [[Poisons#Tormentille|Tormentille]] || Blessure || 12 || 1 rd || 1/rd pdt 4 rds || 1 [[Constitution|Con]], 1 [[Sagesse|Sag]], [[confus|confusion]] 1 rd || 100 po
 |- 
-| [[Poisons#Venindemille-pattesdetailleP|Venin de mille-pattes de taille P]] || Blessure || 11 || — || 1/rd pdt 4 rds || 1 [[Dextérité|Dex]] || 1 réussite || 90 po
+| [[Poisons#VenindaraignéedetailleM|Venin d’araignée de taille M]] || Blessure || 14 || — || 1/rd pdt 4 rds || 1d2 [[Force|For]] || 150 po
 |- 
-| [[Poisons#Venindescorpiongéant|Venin de scorpion géant]] || Blessure || 17 || — || 1/rd pdt 6 rds || 1d2 [[Force|For]] || 1 réussite || 200 po
+| [[Poisons#Venindaraignéeécorchefeuille|Venin d’araignée écorchefeuille]] || Blessure || 11 || — || — || 1d3 [[Con]]/1d3 [[Con]] || 100 po
 |- 
-| [[Poisons#Venindeverpourpre|Venin de ver pourpre]] || Blessure || 24 || — || 1/rd pdt 6 rds || 1d3 [[Force|For]] || 2 réussites || 700 po
+| [[Poisons#Venindeguêpegéante|Venin de guêpe géante]] || Blessure || 18 || — || 1/rd pdt 6 rds || 1d2 [[Dextérité|Dex]] || 210 po
 |- 
-| [[Poisons#Venindevipèreàtêtenoire|Venin de vipère à tête noire]] || Blessure || 11 || — || 1/rd pdt 6 rds || 1d2 [[Constitution|Con]] || 1 réussite || 120 po
+| [[Poisons#Venindemille-pattesdetailleP|Venin de mille-pattes de taille P]] || Blessure || 11 || — || 1/rd pdt 4 rds || 1 [[Dextérité|Dex]] || 90 po
 |- 
-| [[Poisons#Bilededragon|Bile de dragon]] || Contact || 26 || — || 1/rd pdt 6 rds || 1d3 [[Force|For]] || — || 1 500 po
+| [[Poisons#Venindescorpiongéant|Venin de scorpion géant]] || Blessure || 17 || — || 1/rd pdt 6 rds || 1d2 [[Force|For]] || 200 po
 |- 
-| [[Poisons#Extraitdelotusnoir|Extrait de lotus noir]] || Contact || 20 || 1 min || 1/rd pdt 6 rds || 1d6 [[Constitution|Con]] || 2 réussites || 4 500 po
+| [[Poisons#Venindeverpourpre|Venin de ver pourpre]] || Blessure || 24 || — || 1/rd pdt 6 rds || 1d3 [[Force|For]] || 700 po
 |- 
-| [[Poisons#Larmesdelamort|Larmes de la mort]] || Contact || 22 || 1 min || 1/min pdt 6 min || 1d6 [[Constitution|Con]] et [[paralysé]] 1 min || — || 6 500 po
+| [[Poisons#Venindevipèreàtêtenoire|Venin de vipère à tête noire]] || Blessure || 11 || — || 1/rd pdt 6 rds || 1d2 [[Constitution|Con]] || 120 po
 |- 
-| [[Poisons#Nitharite|Nitharite]] || Contact || 13 || 1 min || 1/min pdt 6 min || 1d3 [[Constitution|Con]] || 1 réussite || 650 po
+| [[Poisons#Toxinedemédusearc-en-ciel|Toxine de méduse arc-en-ciel]] || Blessure,<br/>contact || 14 || — || 1/rd pdt 2 rds || [[chancelant|chancelement]] 1d6 rds/<br/>[[paralysé|paralysie]] 1d6 min || 400 po
 |- 
-| [[Poisons#Poudredassonne|Poudre d’assonne]] || Contact || 16 || 1 min || 1/min pdt 6 min || 2d12 pv/1 [[Constitution|Con]] || 1 réussite || 300 po
+| [[Poisons#Bavedecockatrice|Bave de cockatrice]] || Blessure,<br/>contact,<br/>ingestion || 12 || — || 1/rd pdt 4 rds || 1d2 [[Dextérité|Dex]], <abbr title="Un affaiblissement égal à la valeur de Dex prétrifie la victime, avec un jet de sauvegarde quotidien pour revenir à 1 point de Dex.">voir texte</abbr> || 1 000 po
 |- 
-| [[Poisons#Racinedemalyasse|Racine de malyasse]] || Contact || 16 || 1 min || 1/min pdt 6 min || 1d2 [[Dextérité|Dex]] || 1 réussite || 250 po
+| [[Poisons#Baietueuse|Baie tueuse]] || Blessure,<br/>ingestion || 15 || 1 rd/<br/>30 min || 1/min pdt 5 min || 1d3 [[For]], 1 [[Con]], [[paralysé|paralysie]] 1d3 rds || 90 po
 |- 
-| [[Poisons#Terrinave|Terrinave]] || Contact || 16 || 1 min || 1/min pdt 6 min || 1d3 [[Dextérité|Dex]] || 1 réussite || 400 po
+| [[Poisons#Bavedeguenaude|Bave de guenaude]] || Blessure,<br/>ingestion || 16 || — || 1/rd pdt 6 rds || [[aveuglé|cécité]] 1d10 rds/1d4 [[Sagesse|Sag]] || 1 500 po
 |- 
-| [[Poisons#Aconit|Aconit]] || Ingestion || 16 || 10 min || 1/min pdt 6 min || 1d3 [[Constitution|Con]] || 1 réussite || 500 po
+| [[Poisons#Venindaraignéevioloniste|Venin d’araignée violoniste]] || Blessure,<br/>ingestion || 13 || 1 min || 1/min pdt 6 min || [[nauséeux|nausée]] 1d4 rds/1d3 [[Force|For]], 1d4 [[Constitution|Con]] || 500 po
 |- 
-| [[Poisons#Amnésite|Amnésite]] || Ingestion || 14 || 10 min || 1/min pdt 6 min || 1d3 [[Intelligence|Int]] || 1 réussite || 125 po
+| [[Poisons#Bilededragon|Bile de dragon]] || Contact || 26 || — || 1/rd pdt 6 rds || 1d3 [[Force|For]] || 1 500 po
 |- 
-| [[Poisons#Arsenic|Arsenic]] || Ingestion || 13 || 10 min || 1/min pdt 4 min || 1d2 [[Constitution|Con]] || 1 réussite || 120 po
+| [[Poisons#Extraitdelotusnoir|Extrait de lotus noir]] || Contact || 20 || 1 min || 1/rd pdt 6 rds || 1d6 [[Constitution|Con]] || 4 500 po
 |- 
-| [[Poisons#Belladone|Belladone]] || Ingestion || 14 || 10 min || 1/min pdt 6 min || 1d2 [[Force|For]], <abbr title="La cible peut tenter un jet de sauvegarde pour guérir une malédiction lycanthropique contractée dans l’heure précédente">voir texte</abbr> || 1 réussite || 100 po
+| [[Poisons#Fléaudumage|Fléau du mage]] || Contact || 20 || — || — || <abbr title="+10 aux tests de concentration pendant 1 heure.">voir texte</abbr> || 500 po
 |- 
-| [[Poisons#Cendresdeliche|Cendres de liche]] || Ingestion || 17 || 10 min || 1/min pdt 6 min || 1d3 [[Force|For]] || 2 réussites || 400 po
+| [[Poisons#Herbefactice|Herbe factice]] || Contact || 18 || <abbr title="immédiate et 1 semaine">voir texte</abbr> || variable || <abbr title="+1 Con/jour pendant 7 jours, puis disparition des bonus et 1d6 Con/jour pendant 7 jours.">voir texte</abbr> || 6 500 po
 |- 
-| [[Poisons#Cigüe|Cigüe]] || Ingestion || 18 || 10 min || 1/min pdt 6 min || 1d6 [[Dextérité|Dex]], <abbr title="Asphyxie la cible si elle tombe à 0 en Dextérité">voir texte</abbr> || 2 réussites || 2 500 po
+| [[Poisons#Larmesdelamort|Larmes de la mort]] || Contact || 22 || 1 min || 1/min pdt 6 min || 1d6 [[Constitution|Con]], [[paralysé|paralysie]] 1 min || 6 500 po
 |- 
-| [[Poisons#Entolomezébré|Entolome zébré]] || Ingestion || 11 || 10 min || 1/min pdt 4 min || 1d3 [[Sagesse|Sag]] et 1 [[Intelligence|Int]] || 1 réussite || 180 po
+| [[Poisons#Nitharite|Nitharite]] || Contact || 13 || 1 min || 1/min pdt 6 min || 1d3 [[Constitution|Con]] || 650 po
 |- 
-| [[Poisons#Huiledetaggit|Huile de taggit]] || Ingestion || 15 || 1 min || — || [[Inconscient]] 1d3 h || 1 réussite || 90 po
+| [[Poisons#Pommedépine|Pomme d’épine]] || Contact || 11 || 10 min || 1/min pdt 6 min || 1 [[Int]], [[Sag]] et [[Con]], [[aveuglé|cécité]] pdt 1 min || 90 po
 |- 
-| [[Poisons#Poisondedevindesmarais|Poison de devin des marais]] || Ingestion || 18 || 10 min || 1/min pdt 3 min || 1d4 [[Sagesse|Sag]]/1d2 [[Sagesse|Sag]], [[confus|confusion]] 1 min || 2 réussites || 400 po
+| [[Poisons#Poudredassonne|Poudre d’assonne]] || Contact || 16 || 1 min || 1/min pdt 6 min || 2d12 [[pv]]/1 [[Constitution|Con]] || 300 po
 |- 
-| [[Poisons#Rêvesindigo|Rêves indigo]] || Ingestion || 13 || 10 min || 1/min pdt 6 min || 1d3 [[Sagesse|Sag]] || 2 réussites || 150 po
+| [[Poisons#Racinedemalyasse|Racine de malyasse]] || Contact || 16 || 1 min || 1/min pdt 6 min || 1d2 [[Dextérité|Dex]] || 250 po
 |- 
-| [[Poisons#Sommeilduroi|Sommeil du roi]] || Ingestion || 19 || 1 jour || 1/jour || [[diminution permanente|Dim]] 1 [[Constitution|Con]] || 2 réussites || 5 000 po
+| [[Poisons#Terrinave|Terrinave]] || Contact || 16 || 1 min || 1/min pdt 6 min || 1d3 [[Dextérité|Dex]] || 400 po
 |- 
-| [[Poisons#Ténébreuxvireux|Ténébreux vireux]] || Ingestion || 18 || 10 min || 1/min pdt 6 min || 1d3 [[Constitution|Con]] et 1 [[Force|For]] || 2 réussites || 800 po
+| [[Poisons#Aconit|Aconit]] || Ingestion || 16 || 10 min || 1/min pdt 6 min || 1d3 [[Constitution|Con]] || 500 po
 |- 
-| [[Poisons#Brumedefolie|Brume de folie]] || Inhalation || 15 || — || 1/rd pdt 6 rds || 1d3 [[Sagesse|Sag]] || 1 réussite || 1 500 po
+| [[Poisons#Amnésite|Amnésite]] || Ingestion || 14 || 10 min || 1/min pdt 6 min || 1d3 [[Intelligence|Int]] || 125 po
 |- 
-| [[Poisons#Cendresdungol|Cendres d’ungol]] || Inhalation || 15 || — || 1/rd pdt 4 rds || [[diminution permanente|Dim]] 1 [[Charisme|Cha]]/1d2 [[Charisme|Cha]] || 1 réussite || 1 000 po
+| [[Poisons#Arsenic|Arsenic]] || Ingestion || 13 || 10 min || 1/min pdt 4 min || 1d2 [[Constitution|Con]] || 120 po
 |- 
-| [[Poisons#Pollendelysazur|Pollen de lys azur]] || Inhalation || 15 || — || 1/min pdt 2 min || [[Nauséeux]] 1 min/[[paralysé]] 2d4 h || 1 réussite || 1 500 po
+| [[Poisons#Belladone|Belladone]] || Ingestion || 14 || 10 min || 1/min pdt 6 min || 1d2 [[Force|For]], <abbr title="La cible peut tenter un jet de sauvegarde pour guérir une malédiction lycanthropique contractée dans l’heure précédente">voir texte</abbr> || 100 po
 |- 
-| [[Poisons#Vapeurdecauchemar|Vapeur de cauchemar]] || Inhalation || 20 || — || 1/rd pdt 6 rds || 1 [[Sagesse|Sag]] et [[confus|confusion]] 1 rd || 2 réussites || 1 800 po
+| [[Poisons#Calotropis|Calotropis]] || Ingestion || 14 || 1 heure || 1/min pdt 6 min || 1 [[Sag]], 1d3 [[Dex]] || 120 po
 |- 
-| [[Poisons#Vapeurdothurbrûlé|Vapeurs d’othur brûlé]] || Inhalation || 18 || — || 1/rd pdt 6 rds || [[diminution permanente|Dim]] 1 [[Constitution|Con]]/1d3 [[Constitution|Con]] || 2 réussites || 2 100 po
+| [[Poisons#Cendresdeliche|Cendres de liche]] || Ingestion || 17 || 10 min || 1/min pdt 6 min || 1d3 [[Force|For]] || 400 po
+|- 
+| [[Poisons#Cigüe|Cigüe]] || Ingestion || 18 || 10 min || 1/min pdt 6 min || 1d6 [[Dextérité|Dex]], <abbr title="Asphyxie la cible si elle tombe à 0 en Dextérité">voir texte</abbr> || 2 500 po
+|- 
+| [[Poisons#Entolomezébré|Entolome zébré]] || Ingestion || 11 || 10 min || 1/min pdt 4 min || 1d3 [[Sagesse|Sag]], 1 [[Intelligence|Int]] || 180 po
+|- 
+| [[Poisons#Huiledetaggit|Huile de taggit]] || Ingestion || 15 || 1 min || — || [[Inconscient|Inconscience]] 1d3 h || 90 po
+|- 
+| [[Poisons#Peshpourpre|Pesh pourpre]] || Ingestion || 18 || — || — || 1d2 [[Con]] et [[For]]/[[inconscient|inconscience]] pdt 1 heure || 200 po
+|- 
+| [[Poisons#Piluledefolie|Pilule de folie]] || Ingestion || 14 || — || — || ''[[confusion]]'' pdt 1 min || 1 500 po
+|- 
+| [[Poisons#Poisondedevindesmarais|Poison de devin des marais]] || Ingestion || 18 || 10 min || 1/min pdt 3 min || 1d4 [[Sagesse|Sag]]/1d2 [[Sagesse|Sag]], [[confus|confusion]] 1 min || 400 po
+|- 
+| [[Poisons#Racinedaconit|Racine d’aconit]] || Ingestion || 25 || 1 min || 1/rd pdt 5 rds || 1d3 [[Dex]], 1 [[Con]], [[nauséeux|nausée]] pdt 1 rd || 1 800 po
+|- 
+| [[Poisons#Rêvesindigo|Rêves indigo]] || Ingestion || 13 || 10 min || 1/min pdt 6 min || 1d3 [[Sagesse|Sag]] || 150 po
+|- 
+| [[Poisons#Sommeilduroi|Sommeil du roi]] || Ingestion || 19 || 1 jour || 1/jour || [[diminution permanente|Dim]] 1 [[Constitution|Con]] || 5 000 po
+|- 
+| [[Poisons#Ténébreuxvireux|Ténébreux vireux]] || Ingestion || 18 || 10 min || 1/min pdt 6 min || 1d3 [[Constitution|Con]], 1 [[Force|For]] || 800 po
+|- 
+| [[Poisons#Brumedefolie|Brume de folie]] || Inhalation || 15 || — || 1/rd pdt 6 rds || 1d3 [[Sagesse|Sag]] || 1 500 po
+|- 
+| [[Poisons#Cendresdungol|Cendres d’ungol]] || Inhalation || 15 || — || 1/rd pdt 4 rds || [[diminution permanente|Dim]] 1 [[Charisme|Cha]]/1d2 [[Charisme|Cha]] || 1 000 po
+|- 
+| [[Poisons#Pollendelysazur|Pollen de lys azur]] || Inhalation || 15 || — || 1/min pdt 2 min || [[Nauséeux|Nausée]] 1 min/[[paralysé|paralysie]] 2d4 h || 1 500 po
+|- 
+| [[Poisons#Vapeurdecauchemar|Vapeur de cauchemar]] || Inhalation || 20 || — || 1/rd pdt 6 rds || 1 [[Sagesse|Sag]], [[confus|confusion]] 1 rd || 1 800 po
+|- 
+| [[Poisons#Vapeurdothurbrûlé|Vapeurs d’othur brûlé]] || Inhalation || 18 || — || 1/rd pdt 6 rds || [[diminution permanente|Dim]] 1 [[Constitution|Con]]/1d3 [[Constitution|Con]] || 2 100 po
 |}
 </center>
 
@@ -127,7 +157,7 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 <table width="100%"><tr><td width="49%">
 <div class="BD">
 {s:BDTitre|Aconit|{s:Reference|Aconit}}
-*'''Type''' poison, ingestion ; '''JDS''' Vigueur (DD 16)  
+*'''Type''' ingestion ; '''JDS''' Vigueur (DD 16)  
 * '''Incubation''' 10 minutes ; '''Fréquence'''  1/minute pendant 6 minutes   
 * '''Effet''' 1d3 [[Constitution]] ; '''Guérison''' 1 réussite   
 * '''Prix''' 500 po
@@ -136,7 +166,7 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 
 <div class="BD">
 {s:BDTitre|Ajonc à feuilles bleues|{s:Reference|Ajonc à feuilles bleues}}
-*'''Type''' poison, blessure ; '''JDS''' Vigueur (DD 14)  
+*'''Type''' blessure ; '''JDS''' Vigueur (DD 14)  
 * '''Fréquence'''  1/round pendant 2 rounds   
 * '''Effet initial''' 1 [[Constitution]] ; '''Effet secondaire''' [[Inconscient]] 1d3h ; '''Guérison''' 1 réussite
 * '''Prix''' 120 po
@@ -145,7 +175,7 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 
 <div class="BD">
 {s:BDTitre|Amnésite|{s:Reference|Amnésite}}
-*'''Type''' poison, ingestion ; '''JDS''' Vigueur (DD 14)  
+*'''Type''' ingestion ; '''JDS''' Vigueur (DD 14)  
 * '''Incubation''' 10 minutes ; '''Fréquence'''  1/minute pendant 6 minutes   
 * '''Effet''' 1d3 [[Intelligence]] ; '''Guérison''' 1 réussite   
 * '''Prix''' 125 po
@@ -154,7 +184,7 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 
 <div class="BD">
 {s:BDTitre|Arsenic|{s:Reference|Arsenic}}
-*'''Type''' poison, ingestion ; '''JDS''' Vigueur (DD 13)  
+*'''Type''' ingestion ; '''JDS''' Vigueur (DD 13)  
 * '''Incubation''' 10 minutes ; '''Fréquence'''  1/minute pendant 4 minutes   
 * '''Effet''' 1d2 [[Constitution]] ; '''Guérison''' 1 réussite   
 * '''Prix''' 120 po
@@ -162,8 +192,46 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 </div>
 
 <div class="BD">
+{s:BDTitre|Baie tueuse|{s:CSU|7}{s:Reference|Baietueuse}}
+* '''Type''' blessure ou ingestion ; '''JDS''' Vigueur (DD 15)
+* '''Incubation''' 1 round (blessure), 30 minutes (ingestion) ; '''Fréquence''' 1/minute pendant 5 minutes
+* '''Effet''' 1d3 [[Force]], 1 [[Constitution]] et [[paralysé|paralysie]] pendant 1d3 rounds ; '''Guérison''' 2 réussites
+* '''Prix''' 90 po
+
+Grâce aux efforts combinés de la guilde des assassins et de celle des empoisonneurs, la grande métropole des Royaumes indépendants est connue pour ses poisons uniques.
+</div>
+
+<div class="BD">
+{s:BDTitre|Bave de cockatrice|{s:MPNJ}{s:Reference|Bavedecockatrice}}
+* '''Type''' blessure, contact, ingestion ; '''JDS''' Vigueur (DD 12)  
+* '''Fréquence'''  1/round pendant 4 rounds   
+* '''Effet''' 1d2 points de [[Dextérité]] (une créature qui subit un affaiblissement temporaire égal à son score de Dextérité à cause de ce poison est [[pétrifié|pétrifiée]] ; elle peut chaque jour tenter un nouveau jet de [[Vigueur]] [[DD]] 12 pour se remettre du venin et retrouver son état normal avec un nombre de points de dégât en Dextérité égal à son score de Dextérité moins 1 point) ; '''Guérison''' 1 réussite   
+* '''Prix''' 1 000 po
+
+</div>
+
+<div class="BD">
+{s:BDTitre|Bave de dhabba|{s:CSU|8}{s:Reference|Bavededhabba}}
+__'''''Contenu issu d'un supplément 3.5'''''__
+* '''Type''' blessure ; '''JDS''' Vigueur (DD 12)
+* '''Effet initial''' 1d6 points de dégâts d'acide et [[nauséeux]] ; '''Effet secondaire''' 1d4 [[Dextérité|Dex]]
+* '''Prix''' 50 po
+
+Récolté sur des [[Dhabba|dhabbas]] spécialement drogués, ce poison brûle la chair de la victime autour d’une blessure tout en provoquant un état nauséeux chez la créature.
+</div>
+
+<div class="BD">
+{s:BDTitre|Bave de guenaude|{s:MPNJ}{s:Reference|Bavedeguenaude}}
+* '''Type''' blessure, ingestion ; '''JDS''' Vigueur (DD 16)  
+* '''Fréquence'''  1/round pendant 6 rounds   
+* '''Effet initial''' [[aveuglé|cécité]] pendant 1d10 rounds ; '''Effet secondaire''' 1d4 points de [[Sagesse]] ; '''Guérison''' 2 réussites   
+* '''Prix''' 1 500 po
+
+</div>
+
+<div class="BD">
 {s:BDTitre|Belladone|{s:Reference|Belladone}}
-*'''Type''' poison, ingestion ; '''JDS''' Vigueur (DD 14)  
+*'''Type''' ingestion ; '''JDS''' Vigueur (DD 14)  
 * '''Incubation''' 10 minutes ; '''Fréquence'''  1/minute pendant 6 minutes   
 * '''Effet''' 1d2 [[Force]], la cible peut tenter un jet de sauvegarde pour guérir une [[Lycanthrope, archétype#LYCANTHROPIE|malédiction lycanthropique]] contractée dans l’heure précédente ; '''Guérison''' 1 réussite  
 * '''Prix''' 100 po
@@ -172,7 +240,7 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 
 <div class="BD">
 {s:BDTitre|Bile de dragon|{s:Reference|Bilededragon}}
-*'''Type''' poison, contact ; '''JDS''' Vigueur (DD 26)  
+*'''Type''' contact ; '''JDS''' Vigueur (DD 26)  
 * '''Fréquence'''  1/round pendant 6 rounds   
 * '''Effet''' 1d3 [[Force]] ; '''Guérison''' —   
 * '''Prix''' 1 500 po
@@ -181,16 +249,16 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 
 {s:racial|Duergar (race)|duergars|Illustrations/PNJ/Duergar.jpg}<div class="BD">
 {s:BDTitre|Brûle-sorts|{s:MR}{s:Reference|Brûle-sorts}}
-*'''Type''' poison, blessure ; '''JDS''' Vigueur (DD 14)  
+*'''Type''' blessure ; '''JDS''' Vigueur (DD 14)  
 * '''Fréquence'''  1/round pendant 4 rounds   
 * '''Effet''' Raffiné à partir de cristaux souterrains rares, ce poison provoque une migraine brûlante qui gêne l’incantation. Si la cible échoue à son jet de [[Vigueur]], elle doit, au cours de la minute qui suit, effectuer un [[concentration|test de concentration]] dont le [[DD]] est égal à 10 + niveau de sort pour lancer un sort, et souffre d’un malus de -5 à tous ses autres tests de concentration pour lancer des sorts. ; '''Guérison''' 1 réussite   
-* '''Prix''' 400 po
+* '''Prix''' 200 po
 
 </div>
 
 <div class="BD">
 {s:BDTitre|Brume de folie|{s:Reference|Brumedefolie}}
-*'''Type''' poison, inhalation ; '''JDS''' Vigueur (DD 15)  
+*'''Type''' inhalation ; '''JDS''' Vigueur (DD 15)  
 * '''Fréquence'''  1/round pendant 6 rounds   
 * '''Effet''' 1d3 [[Sagesse]] ; '''Guérison''' 1 réussite   
 * '''Prix''' 1 500 po
@@ -198,8 +266,18 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 </div>
 
 <div class="BD">
+{s:BDTitre|Calotropis|{s:CSU|7}{s:Reference|Calotropis}}
+* '''Type''' ingestion ; '''JDS''' Vigueur (DD 14)
+* '''Incubation''' 1 heure ; '''Fréquence''' 1/minute pendant 6 minutes
+* '''Effet''' 1 [[Sagesse]] et 1d3 [[Dextérité]] ; '''Guérison''' 1 réussite
+* '''Prix''' 120 po
+
+Grâce aux efforts combinés de la guilde des assassins et de celle des empoisonneurs, la grande métropole des Royaumes indépendants est connue pour ses poisons uniques.
+</div>
+
+<div class="BD">
 {s:BDTitre|Cendres de liche|{s:Reference|Cendresdeliche}}
-*'''Type''' poison, ingestion ; '''JDS''' Vigueur (DD 17)  
+*'''Type''' ingestion ; '''JDS''' Vigueur (DD 17)  
 * '''Incubation''' 10 minutes ; '''Fréquence'''  1/minute pendant 6 minutes   
 * '''Effet''' 1d3 [[Force]] ; '''Guérison''' 2 réussites   
 * '''Prix''' 400 po
@@ -208,7 +286,7 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 
 <div class="BD">
 {s:BDTitre|Cendres d’ungol|{s:Reference|Cendresdungol}}
-*'''Type''' poison, inhalation ; '''JDS''' Vigueur (DD 15)  
+*'''Type''' inhalation ; '''JDS''' Vigueur (DD 15)  
 * '''Fréquence'''  1/round pendant 4 rounds   
 * '''Effet initial''' [[diminution permanente]] 1 [[Charisme]] ; '''Effet secondaire''' 1d2 [[Charisme]] ; '''Guérison''' 1 réussite   
 * '''Prix''' 1 000 po
@@ -217,7 +295,7 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 
 <div class="BD">
 {s:BDTitre|Cigüe|{s:Reference|Cigüe}}
-*'''Type''' poison, ingestion ; '''JDS''' Vigueur (DD 18)  
+*'''Type''' ingestion ; '''JDS''' Vigueur (DD 18)  
 * '''Incubation''' 10 minutes ; '''Fréquence'''  1/minute pendant 6 minutes   
 * '''Effet''' 1d6 [[Dextérité]], [[Dangers naturels#ASPHYXIE|asphyxie]] la cible si elle tombe à 0 en [[Dextérité]] ; '''Guérison''' 2 réussites   
 * '''Prix''' 2 500 po
@@ -226,7 +304,7 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 
 <div class="BD">
 {s:BDTitre|Entolome zébré|{s:Reference|Entolomezébré}}
-*'''Type''' poison, ingestion ; '''JDS''' Vigueur (DD 11)  
+*'''Type''' ingestion ; '''JDS''' Vigueur (DD 11)  
 * '''Incubation''' 10 minutes ; '''Fréquence'''  1/minute pendant 4 minutes   
 * '''Effet''' 1d3 [[Sagesse]] et 1 [[Intelligence]] ; '''Guérison''' 1 réussite   
 * '''Prix''' 180 po
@@ -235,7 +313,7 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 
 <div class="BD">
 {s:BDTitre|Essence d’ombre|{s:Reference|Essencedombre}} 
-*'''Type''' poison, blessure ; '''JDS''' Vigueur (DD 17)  
+*'''Type''' blessure ; '''JDS''' Vigueur (DD 17)  
 * '''Fréquence'''  1/round pendant 6 rounds   
 * '''Effet initial''' [[diminution permanente]] 1 [[Force]] ; '''Effet secondaire''' 1d2 [[Force]] ; '''Guérison''' 1 réussite   
 * '''Prix''' 250 po
@@ -244,7 +322,7 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 
 <div class="BD">
 {s:BDTitre|Extrait de lotus noir|{s:Reference|Extraitdelotusnoir}}
-*'''Type''' poison, contact ; '''JDS''' Vigueur (DD 20)  
+*'''Type''' contact ; '''JDS''' Vigueur (DD 20)  
 * '''Incubation''' 1 minute ; '''Fréquence'''  1/round pendant 6 rounds   
 * '''Effet''' 1d6 [[Constitution]] ; '''Guérison''' 2 réussites   
 * '''Prix''' 4 500 po
@@ -253,7 +331,7 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 
 <div class="BD">
 {s:BDTitre|Extrait de sanvert|{s:Reference|Extraitdesanvert}}
-*'''Type''' poison, blessure ; '''JDS''' Vigueur (DD 13)  
+*'''Type''' blessure ; '''JDS''' Vigueur (DD 13)  
 * '''Fréquence'''  1/round pendant 4 rounds   
 * '''Effet''' 1 [[Constitution]] ; '''Guérison''' 1 réussite   
 * '''Prix''' 100 po
@@ -261,8 +339,28 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 </div>
 
 <div class="BD">
+{s:BDTitre|Fléau du mage|{s:CSU|8}{s:Reference|Fléaudumage}}
+__'''''Contenu issu d'un supplément 3.5'''''__
+* '''Type''' contact ; '''JDS''' Vigueur (DD 20)
+* '''Effet initial''' +10 au [[DD]] de tous les tests de [[concentration]] pendant 1 heure ; '''Effet secondaire''' +10 au [[DD]] de tous les tests de [[concentration]] pendant 1 heure
+* '''Prix''' 500 po
+
+Dans la Terre sans magie pousse une orchidée à la couleur écarlate sombre appelée épine sanglante. Une fois séchée, réduite en poudre et mélangée à de l’entolome zébré, elle produit un poison qui rend extrêmement difficile pour une créature sous ses effets d’effectuer toute tâche demandant de la concentration.
+</div>
+
+<div class="BD">
+{s:BDTitre|Herbe factice|{s:CSU|7}{s:Reference|Herbefactice}}
+* '''Type''' contact ; '''JDS''' Vigueur (DD 18)
+* '''Incubation''' immédiate et 1 semaine (voir effet) ; '''Fréquence''' variable (voir l'effet)
+* '''Effet initial''' +1 [[Constitution]]/jour pendant 1 semaine ; '''Effet secondaire''' tous les points de Constitution gagnés disparaissent, 1d6 Con/jour pendant 7 jours ; '''Guérison''' 2 réussites consécutives
+* '''Prix''' 6 500 po
+
+Grâce aux efforts combinés de la guilde des assassins et de celle des empoisonneurs, la grande métropole des Royaumes indépendants est connue pour ses poisons uniques.
+</div>
+
+<div class="BD">
 {s:BDTitre|Huile de taggit|{s:Reference|Huiledetaggit}}
-*'''Type''' poison, ingestion ; '''JDS''' Vigueur (DD 15)  
+*'''Type''' ingestion ; '''JDS''' Vigueur (DD 15)  
 * '''Incubation''' 1 minute ; '''Fréquence'''  —   
 * '''Effet''' [[Inconscient]] 1d3 h ; '''Guérison''' 1 réussite   
 * '''Prix''' 90 po
@@ -271,7 +369,7 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 
 <div class="BD">
 {s:BDTitre|Larmes de la mort|{s:Reference|Larmesdelamort}}
-*'''Type''' poison, contact ; '''JDS''' Vigueur (DD 22)  
+*'''Type''' contact ; '''JDS''' Vigueur (DD 22)  
 * '''Incubation''' 1 minute ; '''Fréquence'''  1/minute pendant 6 minutes   
 * '''Effet''' 1d6 [[Constitution]] et [[paralysé]] 1 minute ; '''Guérison''' —   
 * '''Prix''' 6 500 po
@@ -280,7 +378,7 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 
 <div class="BD">
 {s:BDTitre|Mortelame|{s:Reference|Mortelame}}
-*'''Type''' poison, blessure ; '''JDS''' Vigueur (DD 20)  
+*'''Type''' blessure ; '''JDS''' Vigueur (DD 20)  
 * '''Fréquence'''  1/round pendant 6 rounds   
 * '''Effet''' 1d3 [[Constitution]] ; '''Guérison''' 2 réussites   
 * '''Prix''' 1 800 po
@@ -289,7 +387,7 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 
 <div class="BD">
 {s:BDTitre|Nitharite|{s:Reference|Nitharite}}
-*'''Type''' poison, contact ; '''JDS''' Vigueur (DD 13)  
+*'''Type''' contact ; '''JDS''' Vigueur (DD 13)  
 * '''Incubation''' 1 minute ; '''Fréquence'''  1/minute pendant 6 minutes   
 * '''Effet''' 1d3 [[Constitution]] ; '''Guérison''' 1 réussite   
 * '''Prix''' 650 po
@@ -297,9 +395,29 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 </div>
 </td><td width="2%">
 </td><td width="49%">
+<div class="BD">
+{s:BDTitre|Pesh pourpre|{s:CSU|8}{s:Reference|Peshpourpre}}
+__'''''Contenu issu d'un supplément 3.5'''''__
+* '''Type''' ingestion ; '''JDS''' Vigueur (DD 18)
+* '''Effet initial''' 1d2 [[Constitution|Con]] et [[Force|For]] ; '''Effet secondaire''' [[inconscient]] pendant 1 heure
+* '''Prix''' 200 po
+
+Les fabricants de poison du Bazar du Bizarre ont découvert que le lait en décomposition d’un cactus de pesh mort peut être récolté afin de produire un poison hautement efficace pour mettre un ennemi hors de combat.
+</div>
+
+<div class="BD">
+{s:BDTitre|Pilule de folie|{s:CSU|8}{s:Reference|Piluledefolie}}
+__'''''Contenu issu d'un supplément 3.5'''''__
+* '''Type''' ingestion ; '''JDS''' Vigueur (DD 14)
+* '''Effet''' la créature est considérée sous les effets d’un sort de ''[[confusion]]'' pendant 1 minute
+* '''Prix''' 1 500 po
+
+Ce poison extrêmement rare et difficile à fabriquer provient d’une glande spéciale récoltée sur des [[bête du chaos|bêtes du chaos]]. Une fois mélangé à des réactifs et à des produits chimiques stabilisants, il en résulte un poison inodore et sans saveur. Une fois ingéré, l’élixir provoque une folie temporaire durant 1 minute. Tant que dure l’effet, la créature souffre d’hallucinations terrifiantes, voit son corps fondre sous ses yeux et adopter diverses formes hideuses. Une créature affectée est considérée comme sous l’effet d’un sort de ''[[confusion]]''.
+</div>
+
 {s:racial|Grippli (race)|gripplis|Illustrations/PNJ/Grippli.jpg}<div class="BD">
 {s:BDTitre|Poison d'araignée noire des marais|{s:MR}{s:Reference|Poisondaraignéenoiredesmarais}}
-*'''Type''' poison, blessure ; '''JDS''' Vigueur (DD 14)  
+*'''Type''' blessure ; '''JDS''' Vigueur (DD 14)  
 * '''Fréquence'''  1/round pendant 6 rounds  
 * '''Effet''' 1d4 [[Dextérité]] et [[confus]] pendant 1 round. Ce puissant venin d’araignée désoriente la victime qui perd tout contrôle musculaire jusqu’à ce qu’elle finisse par s’effondrer. ; '''Guérison''' 2 réussites   
 * '''Prix''' 800 po
@@ -308,7 +426,7 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 
 <div class="BD">
 {s:BDTitre|Poison de devin des marais|{s:Reference|Poisondedevindesmarais}}
-*'''Type''' poison, ingestion ; '''JDS''' Vigueur (DD 18)  
+*'''Type''' ingestion ; '''JDS''' Vigueur (DD 18)  
 * '''Incubation''' 10 minutes ; '''Fréquence'''  1/minute pendant 3 minutes   
 * '''Effet initial''' 1d4 [[Sagesse]] ; '''Effet secondaire''' 1d2 [[Sagesse]], [[confus|confusion]] 1 minute ; '''Guérison''' 2 réussites   
 * '''Prix''' 400 po
@@ -317,7 +435,7 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 
 <div class="BD">
 {s:BDTitre|Poison de vouivre|{s:Reference|Poisondevouivre}}
-*'''Type''' poison, blessure ; '''JDS''' Vigueur (DD 17)  
+*'''Type''' blessure ; '''JDS''' Vigueur (DD 17)  
 * '''Fréquence'''  1/round pendant 6 rounds   
 * '''Effet''' 1d4 [[Constitution]] ; '''Guérison''' 2 réussites   
 * '''Prix''' 3 000 po
@@ -326,7 +444,7 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 
 <div class="BD">
 {s:BDTitre|Poison drow|{s:Reference|Poisondrow}}
-*'''Type''' poison, blessure ; '''JDS''' Vigueur (DD 13)  
+*'''Type''' blessure ; '''JDS''' Vigueur (DD 13)  
 * '''Fréquence'''  1/minute pendant 2 minutes   
 * '''Effet''' [[Inconscient]] 1 minute/2d4 h ; '''Guérison''' 1 réussite   
 * '''Prix''' 75 po
@@ -335,7 +453,7 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 
 <div class="BD">
 {s:BDTitre|Pollen de lys azur|{s:Reference|Pollendelysazur}}
-*'''Type''' poison, inhalation ; '''JDS''' Vigueur (DD 15)  
+*'''Type''' inhalation ; '''JDS''' Vigueur (DD 15)  
 * '''Fréquence'''  1/minute pendant 2 minutes   
 * '''Effet initial''' [[Nauséeux]] 1 minute ; '''Effet secondaire''' [[paralysé]] 2d4 h ; '''Guérison''' 1 réussite   
 * '''Prix''' 1 500 po
@@ -343,8 +461,18 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 </div>
 
 <div class="BD">
+{s:BDTitre|Pomme d’épine|{s:CSU|7}{s:Reference|Pommedépine}}
+* '''Type''' contact ; '''JDS''' Vigueur (DD 11)
+* '''Incubation''' 10 minutes ; '''Fréquence''' 1/minute pendant 6 minutes
+* '''Effet''' 1 [[Intelligence]], 1 [[Sagesse]], 1 [[Constitution]], et [[aveuglé|cécité]] pendant 1 minute ; '''Guérison''' 2 réussites
+* '''Prix''' 90 po
+
+Grâce aux efforts combinés de la guilde des assassins et de celle des empoisonneurs, la grande métropole des Royaumes indépendants est connue pour ses poisons uniques.
+</div>
+
+<div class="BD">
 {s:BDTitre|Poudre d’assonne|{s:Reference|Poudredassonne}}
-*'''Type''' poison, contact ; '''JDS''' Vigueur (DD 16)  
+*'''Type''' contact ; '''JDS''' Vigueur (DD 16)  
 * '''Incubation''' 1 minute ; '''Fréquence'''  1/minute pendant 6 minutes   
 * '''Effet initial''' 2d12 pv ; '''Effet secondaire''' 1 [[Constitution]] ; '''Guérison''' 1 réussite   
 * '''Prix''' 300 po
@@ -352,8 +480,28 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 </div>
 
 <div class="BD">
+{s:BDTitre|Préserve-plaie|{s:cs}{s:AA}{s:Reference|Préserve-plaie}}
+*'''Type''' blessure ; '''JDS''' Vigueur (DD 18)
+* '''Incubation''' 1 round ; '''Fréquence'''  1/jour
+* '''Effet''' soins handicapés (voir description) ; '''Guérison''' 2 réussites consécutives
+* '''Prix''' 100 po
+
+Cette pâte noire granuleuse est un poison qui interfère avec la capacité de la victime à récupérer de ses blessures. Tous les tests de [[Premiers secours]] effectués sur elle subissent un malus de -10. De plus, quiconque utilise des soins magiques sur la victime doit réussir un test de niveau de lanceur de sorts de DD 25 pour réussir.
+</div>
+
+<div class="BD">
+{s:BDTitre|Racine d’aconit|{s:CSU|7}{s:Reference|Racinedaconit}}
+* '''Type''' ingestion ; '''JDS''' Vigueur (DD 25)
+* '''Incubation''' 1 minute ; '''Fréquence''' 1/round pendant 5 rounds
+* '''Effet''' 1d3 [[Dextérité]], 1 [[Constitution]], et [[nauséeux|nausée]] pendant 1 round ; '''Guérison''' 2 réussites
+* '''Prix''' 1 800 po
+
+Grâce aux efforts combinés de la guilde des assassins et de celle des empoisonneurs, la cité des assassins est connue pour ses poisons uniques.
+</div>
+
+<div class="BD">
 {s:BDTitre|Racine de malyasse|{s:Reference|Racinedemalyasse}}
-*'''Type''' poison, contact ; '''JDS''' Vigueur (DD 16)  
+*'''Type''' contact ; '''JDS''' Vigueur (DD 16)  
 * '''Incubation''' 1 minute ; '''Fréquence'''  1/minute pendant 6 minutes   
 * '''Effet''' 1d2 [[Dextérité]] ; '''Guérison''' 1 réussite   
 * '''Prix''' 250 po
@@ -362,7 +510,7 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 
 <div class="BD">
 {s:BDTitre|Rêves indigo|{s:Reference|Rêvesindigo}}
-*'''Type''' poison, ingestion ; '''JDS''' Vigueur (DD 13)  
+*'''Type''' ingestion ; '''JDS''' Vigueur (DD 13)  
 * '''Incubation''' 10 minutes ; '''Fréquence'''  1/minute pendant 6 minutes   
 * '''Effet''' 1d3 [[Sagesse]] ; '''Guérison''' 2 réussites   
 * '''Prix''' 150 po
@@ -371,7 +519,7 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 
 <div class="BD">
 {s:BDTitre|Sommeil du roi|{s:Reference|Sommeilduroi}}
-*'''Type''' poison, ingestion ; '''JDS''' Vigueur (DD 19)  
+*'''Type''' ingestion ; '''JDS''' Vigueur (DD 19)  
 * '''Incubation''' 1 jour ; '''Fréquence'''  1/jour   
 * '''Effet''' [[diminution permanente]] 1 [[Constitution]] ; '''Guérison''' 2 réussites   
 * '''Prix''' 5 000 po
@@ -380,7 +528,7 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 
 <div class="BD">
 {s:BDTitre|Ténébreux vireux|{s:Reference|Ténébreuxvireux}}
-*'''Type''' poison, ingestion ; '''JDS''' Vigueur (DD 18)  
+*'''Type''' ingestion ; '''JDS''' Vigueur (DD 18)  
 * '''Incubation''' 10 minutes ; '''Fréquence'''  1/minute pendant 6 minutes   
 * '''Effet''' 1d3 [[Constitution]] et 1 [[Force]] ; '''Guérison''' 2 réussites   
 * '''Prix''' 800 po
@@ -389,7 +537,7 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 
 <div class="BD">
 {s:BDTitre|Terrinave|{s:Reference|Terrinave}}
-*'''Type''' poison, contact ; '''JDS''' Vigueur (DD 16)  
+*'''Type''' contact ; '''JDS''' Vigueur (DD 16)  
 * '''Incubation''' 1 minute ; '''Fréquence'''  1/minute pendant 6 minutes   
 * '''Effet''' 1d3 [[Dextérité]] ; '''Guérison''' 1 réussite   
 * '''Prix''' 400 po
@@ -397,7 +545,7 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 
 <div class="BD">
 {s:BDTitre|Tormentille|{s:Reference|Tormentille}}
-*'''Type''' poison, blessure ; '''JDS''' Vigueur (DD 12)  
+*'''Type''' blessure ; '''JDS''' Vigueur (DD 12)  
 * '''Incubation''' 1 round ; '''Fréquence'''  1/round pendant 4 rounds   
 * '''Effet''' 1 [[Constitution]], 1 [[Sagesse]], [[confus|confusion]] 1 round ; '''Guérison''' 1 réussite   
 * '''Prix''' 100 po
@@ -405,8 +553,17 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 </div>
 
 <div class="BD">
+{s:BDTitre|Toxine de méduse arc-en-ciel|{s:MPNJ}{s:Reference|Toxinedemédusearc-en-ciel}}
+* '''Type''' contact, blessure ; '''JDS''' Vigueur (DD 14)  
+* '''Fréquence'''  1/round pendant 2 rounds   
+* '''Effet initial''' [[chancelant]] pendant 1d6 rounds ; '''Effet secondaire''' [[paralysé]] pendant 1d6 minutes ; '''Guérison''' 1 réussite   
+* '''Prix''' 400 po
+
+</div>
+
+<div class="BD">
 {s:BDTitre|Vapeur de cauchemar|{s:Reference|Vapeurdecauchemar}}
-*'''Type''' poison, inhalation ; '''JDS''' Vigueur (DD 20)  
+*'''Type''' inhalation ; '''JDS''' Vigueur (DD 20)  
 * '''Fréquence'''  1/round pendant 6 rounds   
 * '''Effet''' 1 [[Sagesse]] et [[confus|confusion]] 1 round ; '''Guérison''' 2 réussites   
 * '''Prix''' 1 800 po
@@ -415,7 +572,7 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 
 <div class="BD">
 {s:BDTitre|Vapeurs d’othur brûlé|{s:Reference|Vapeurdothurbrûlé}}
-*'''Type''' poison, inhalation ; '''JDS''' Vigueur (DD 18)  
+*'''Type''' inhalation ; '''JDS''' Vigueur (DD 18)  
 * '''Fréquence'''  1/round pendant 6 rounds   
 * '''Effet initial''' [[diminution permanente]] 1 [[Constitution]] ; '''Effet secondaire''' 1d3 [[Constitution]] ; '''Guérison''' 2 réussites   
 * '''Prix''' 2 100 po
@@ -424,7 +581,7 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 
 <div class="BD">
 {s:BDTitre|Venin d’araignée de taille M|{s:Reference|VenindaraignéedetailleM}}
-*'''Type''' poison, blessure ; '''JDS''' Vigueur (DD 14)  
+*'''Type''' blessure ; '''JDS''' Vigueur (DD 14)  
 * '''Fréquence'''  1/round pendant 4 rounds   
 * '''Effet''' 1d2 [[Force]] ; '''Guérison''' 1 réussite   
 * '''Prix''' 150 po
@@ -432,8 +589,27 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 </div>
 
 <div class="BD">
+{s:BDTitre|Venin d’araignée écorchefeuille|{s:CSU|8}{s:Reference|Venindaraignéeécorchefeuille}}
+__'''''Contenu issu d'un supplément 3.5'''''__
+* '''Type''' blessure ; '''JDS''' Vigueur (DD 11)
+* '''Effet initial''' 1d3 [[Constitution|Con]] ; '''Effet secondaire''' 1d3 [[Constitution|Con]]
+* '''Prix''' 100 po
+
+Récolté sur les araignées venimeuses qui infestent l’[[Drogues#ECORCHEFEUILLE|écorchefeuille]], ce poison est un moyen peu coûteux mais rarement mortel de mettre un ennemi hors de combat.
+</div>
+
+<div class="BD">
+{s:BDTitre|Venin d’araignée violoniste|{s:MPNJ}{s:Reference|Venindaraignéevioloniste}}
+* '''Type''' blessure, ingestion ; '''JDS''' Vigueur (DD 13)  
+* '''Incubation''' 1 minute ; '''Fréquence'''  1/minute pendant 6 minutes   
+* '''Effet initial''' [[nauséeux]] pendant 1d4 rounds ; '''Effet secondaire''' 1d3 points de [[Force]] et de 1d4 points de [[Constitution]] ; '''Guérison''' 2 réussites   
+* '''Prix''' 500 po
+
+</div>
+
+<div class="BD">
 {s:BDTitre|Venin de guêpe géante|{s:Reference|Venindeguêpegéante}}
-*'''Type''' poison, blessure ; '''JDS''' Vigueur (DD 18)  
+*'''Type''' blessure ; '''JDS''' Vigueur (DD 18)  
 * '''Fréquence'''  1/round pendant 6 rounds   
 * '''Effet''' 1d2 [[Dextérité]] ; '''Guérison''' 1 réussite   
 * '''Prix''' 210 po
@@ -442,7 +618,7 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 
 <div class="BD">
 {s:BDTitre|Venin de mille-pattes de taille P|{s:Reference|Venindemille-pattesdetailleP}}
-*'''Type''' poison, blessure ; '''JDS''' Vigueur (DD 11)  
+*'''Type''' blessure ; '''JDS''' Vigueur (DD 11)  
 * '''Fréquence'''  1/round pendant 4 rounds   
 * '''Effet''' 1 [[Dextérité]] ; '''Guérison''' 1 réussite   
 * '''Prix''' 90 po
@@ -451,7 +627,7 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 
 <div class="BD">
 {s:BDTitre|Venin de scorpion géant|{s:Reference|Venindescorpiongéant}}
-*'''Type''' poison, blessure ; '''JDS''' Vigueur (DD 17)  
+*'''Type''' blessure ; '''JDS''' Vigueur (DD 17)  
 * '''Fréquence'''  1/round pendant 6 rounds   
 * '''Effet''' 1d2 [[Force]] ; '''Guérison''' 1 réussite   
 * '''Prix''' 200 po
@@ -460,7 +636,7 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 
 <div class="BD">
 {s:BDTitre|Venin de ver pourpre|{s:Reference|Venindeverpourpre}}
-*'''Type''' poison, blessure ; '''JDS''' Vigueur (DD 24)  
+*'''Type''' blessure ; '''JDS''' Vigueur (DD 24)  
 * '''Fréquence'''  1/round pendant 6 rounds   
 * '''Effet''' 1d3 [[Force]] ; '''Guérison''' 2 réussites   
 * '''Prix''' 700 po
@@ -469,7 +645,7 @@ Les exemples de poisons présentés ci-dessous ne constituent qu’une partie de
 
 <div class="BD">
 {s:BDTitre|Venin de vipère à tête noire|{s:Reference|Venindevipèreàtêtenoire}}
-*'''Type''' poison, blessure ; '''JDS''' Vigueur (DD 11)  
+*'''Type''' blessure ; '''JDS''' Vigueur (DD 11)  
 * '''Fréquence'''  1/round pendant 6 rounds   
 * '''Effet''' 1d2 [[Constitution]] ; '''Guérison''' 1 réussite   
 * '''Prix''' 120 po

@@ -1,15 +1,15 @@
 ---
 Name: Pathfinder-RPG.Varan
-Title: Varan
-LastModified: 2013-02-06 19:45
+Title: Lézard, Varan
+LastModified: 2021-08-21 15:32
 Categories:
-  - 'Bestiaire'
   - 'Monstre'
-  - 'Règles officielles'
+  - 'Règle officielle'
+  - 'Src Bestiaire'
 ---
 <table class="Bestiaire"><tr><td>
 <div class="BD">
-{s:BDTitre|Varan, lézard|FP 2}
+{s:BDTitre|Varan|FP 2}
 {s:pucem|Animal|Forêt-Jungle|Tropical}
 {s:BDTexte|''Source : Bestiaire'' p.192}
 {s:BDTexte|'''PX''' 600}
@@ -21,7 +21,7 @@ Categories:
 {s:BDTexte|'''Réf''' +5, '''Vig''' +8, '''Vol''' +2}
 {s:BDSousTitre|Attaque}
 {s:BDTexte|'''VD''' 9 m (6 {s:c}), nage 9 m (6 {s:c})}
-{s:BDTexte|'''Corps à corps''' morsure +5 (1d8+4 et [[étreinte]] et poison)}
+{s:BDTexte|'''Corps à corps''' morsure +5 (1d8+4 et [[Étreinte (capacité)|étreinte]] et [[Poison (capacité)|poison]])}
 {s:BDSousTitre|Caractéristiques}
 {s:BDTexte|'''For''' 17, '''Dex''' 15, '''Con''' 17, '''Int''' 2, '''Sag''' 12, '''Cha''' 6}
 {s:BDTexte|'''BBA''' +2, '''BMO''' +5 (+9 pour la lutte), '''DMD''' 17 (21 contre le croc-en-jambe)}
@@ -33,9 +33,23 @@ Categories:
 {s:BDTexte|'''Trésor''' aucun}
 {s:BDSousTitre|Capacités spéciales}
 {s:BDTexte|'''Poison (Ext)''' morsure - blessure ; ''JdS'' [[Vigueur]] [[DD]] 14 ; ''incubation'' 1 minute ; ''fréquence'' 1/heure pendant 6 heures ; ''effet'' [[affaiblissement temporaire]] 1d2 [[Dextérité|Dex]] ; ''guérison'' 1 réussite. Le [[DD]] du [[jet de sauvegarde]] dépend de la [[Constitution]].}
+
 </div>
-</td><td><div>''Cet immense lézard au pas lent mais décidé possède des pattes griffues et
-des filets de bave tombent de sa gueule.''
+</td><td><div><div style="float:right; background-color: #fff; padding: 0 0 0 0; margin: 0 0 4px 8px">
+{| CLASS="tablo autoalt"
+|+ Variantes de lézard
+|- CLASS="titre"
+| Nom || FP
+|- CLASS="premier"
+| [[Caméléon géant]] || 3
+|-
+| [[Gecko géant]] || 1
+|-
+| [[Lézard à collerette géant]] || 5
+|-
+| [[Varan]] || 2
+|}
+</div>''Cet immense lézard au pas lent mais décidé possède des pattes griffues et des filets de bave tombent de sa gueule.''
 
 Les varans sont suffisamment grands pour mettre en danger les
 humains et, dans certaines sociétés, on les prend souvent pour
@@ -45,8 +59,8 @@ des dragons. Certains spécimens peuvent dépasser
 ====Le varan comme compagnon animal====
 
 '''Caractéristiques de départ.''' '''Taille''' P ; '''Vitesse''' 9 m, nage 9 m ; '''CA''' armure naturelle +1 ;
-'''Attaque''' morsure (1d6 et [[étreinte]]) ; '''Caractéristiques''' For 13, Dex 17, Con 12, Int 2, Sag 12, Cha 6 ; '''Particularités''' [[odorat]], [[vision nocturne]].
+'''Attaque''' morsure (1d6 et [[Étreinte (capacité)|étreinte]]) ; '''Caractéristiques''' For 13, Dex 17, Con 12, Int 2, Sag 12, Cha 6 ; '''Particularités''' [[odorat]], [[vision nocturne]].
 
-'''Évolution au niveau 7.''' '''Taille''' M ; '''CA''' armure naturelle +2 ; '''Attaque''' morsure (1d8 et [[étreinte]] et [[poison]]) ; '''Caractéristiques''' For +4, Dex –2, Con +4.
+'''Évolution au niveau 7.''' '''Taille''' M ; '''CA''' armure naturelle +2 ; '''Attaque''' morsure (1d8 et [[Étreinte (capacité)|étreinte]] et [[Poison (capacité)|poison]]) ; '''Caractéristiques''' For +4, Dex –2, Con +4.
 
 </div></td></tr></table>

@@ -2,14 +2,14 @@
 ===Les classes occultes===
 <table><tr style="vertical-align: top"><td width="25%"><ul>
   <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Cinétiste.jpg';">[[Cinétiste|Le cinétiste]] (''[[Talents sauvages]]'')</li>
+document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Cinétiste.jpg';">[[Cinétiste|Le cinétiste]] (''[[Éléments|éléments]]'', ''[[Talents sauvages|talents sauvages]]'')</li>
   <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Hypnotiseur.jpg';">[[Hypnotiseur|L'hypnotiseur]] (''[[Induction|inductions]]'')</li></ul>
+document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Hypnotiseur.jpg';">[[Hypnotiseur|L'hypnotiseur]] (''[[Inductions|inductions]]'')</li></ul>
 </td><td width="25%"><ul>
   <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Médium.jpg';">[[Médium|Le médium]] (''[[Esprits (Médium)|esprits]]'')</li>
+document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Médium.jpg';">[[Médium|Le médium]] (''[[Esprits (Médium)|esprits]]'', ''[[Esprits légendaires|esprits légendaires]]'')</li>
   <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Occultiste.jpg';">[[Occultiste|L'occultiste]] (''[[Écoles instrumentales|écoles instrumentales]]'')</li></ul>
+document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Occultiste.jpg';">[[Occultiste|L'occultiste]] (''[[Écoles instrumentales|écoles instrumentales]]'', ''[[Instruments sacrés|instruments sacrés]]'')</li>
 </td><td width="25%"><ul>
   <li onmouseover="
 document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Psychiste.jpg';">[[Psychiste|Le psychiste]] (''[[Amplifications phréniques|amplifications phréniques]]'', ''[[Disciplines psychiques|disciplines psychiques]]'')</li>
@@ -27,7 +27,7 @@ document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations
   <li onmouseover="
 document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Ensorceleur.jpg';">[[Ensorceleur|L'ensorceleur]] (''[[lignages]]'')</li>
   <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Guerrier.jpg';">[[Guerrier|Le guerrier]] (''[[groupe darmes|groupes d'armes]]'')</li>
+document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Guerrier.jpg';">[[Guerrier|Le guerrier]] (''[[groupe darmes|groupes d'armes]]'', ''[[entraînements avancés]]'')</li>
   <li onmouseover="
 document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Magicien.jpg';">[[Magicien|Le magicien]] (''[[écoles de magie]], [[découvertes arcaniques]]'')</li>
   <li onmouseover="
@@ -100,37 +100,72 @@ document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations
 
 <li>{s:PM|CLASSESDEPRESTIGE4}'''''[[Classes de prestige]]'''''
   <ul ID="CLASSESDEPRESTIGE4" CLASS="listecachée cadrebas">
-  <li>[[Agent de terrain des Éclaireurs|L'agent de terrain Explorateur]] (RSE)</li>
-  <li>[[Archer-mage|L'archer-mage]]</li>
-  <li>[[Arpenteur dhorizon|L'arpenteur d'horizon]] (APG)</li>
-  <li>[[Aspirant à lIllumination|L'aspirant à l'Illumination]] (MR)</li>
-  <li>[[Assassin|L'assassin]]</li>
-  <li>[[Assassin des mantes rouges|L'assassin pourpre]] (CCMI)</li>
-  <li>[[Champion occultiste|Le champion occultiste]]</li>
-  <li>[[Chroniqueur|Le chroniqueur]]</li>
-  <li>[[Disciple draconien|Le disciple draconien]]</li>
-  <li>[[Duelliste|Le duelliste]]</li>
-  <li>[[Enfant divin|L'enfant divin]] (MMI)</li>
-  <li>[[Étudiant de la guerre|L'étudiant de la guerre]] (RSE)</li>
-  <li>[[Éclaireur Explorateur|L'explorateur]] (RSE)</li>
-  <li>[[Éclaireur Savant|L'explorateur savant]] (RSE)</li>
-  <li>[[Fidèle défenseur|Le fidèle défenseur]] (APG)</li>
-  <li>[[Gardien de la nature|Le gardien de la nature]] (APG)</li>
-  <li>[[Gardien du savoir|Le gardien du savoir]]</li>
-  <li>[[Héraut|Le héraut]] (APG)</li>
-  <li>[[Légionnaire infernal|Le légionnaire infernal]] (CCMI)</li>
-  <li>[[Mage des glyphes|Le mage des glyphes]] (MMI)</li>
-  <li>[[Maître chymiste|Le maître chymiste]] (APG)</li>
-  <li>[[Maître des ombres|Le maître des ombres]]</li>
-  <li>[[Maître espion|Le maître espion]] (APG)</li>
-  <li>[[Mystificateur profane|Le mystificateur profane]]</li>
-  <li>[[Opportuniste halfelin|L'opportuniste halfelin]] (MR)</li>
-  <li>[[Pirate de la mer Intérieure|Le pirate de Haute mer]] (PMI)</li>
-  <li>[[Prophète enragé|Le prophète enragé]] (APG)</li>
-  <li>[[Templier déchu|Le templier parjure]] (CCMI)</li>
-  <li>[[Théurge mystique|Le théurge mystique]]</li>
-  <li>[[Vengeur sacré|Le vengeur sacré]] (APG)</li>
-  <li>[[Liseuse de tourment|La voyante]] (CCMI)</li>
+  <li>[[Acolyte de la Foi verte|Acolyte de la Nature]] (''PP'')</li>
+  <li>[[Adepte de la Flamme noire]] (''PP'')</li>
+  <li>[[Agent de la Cour des ombres|Agent de l'Ombre]] (''PP'')</li>
+  <li>[[Agent de terrain des Éclaireurs|Agent de terrain des Explorateurs]] (RSE)</li>
+  <li>[[Agent du Consortium de lAspis|Agent du consortium]] (''PP'')</li>
+  <li>[[Agent du Réseau Campanule|Agent du réseau]] (''PP'')</li>
+  <li>[[Arcaniste de Magaambya|Arcaniste de l'académie du Vieux-Mage]] (''PP'')</li>
+  <li>[[Archer-mage]]</li>
+  <li>[[Arpenteur dhorizon|Arpenteur d'horizon]] (MJRA)</li>
+  <li>[[Aspirant à lIllumination|Aspirant à l'Illumination]] (MR)</li>
+  <li>[[Assassin des mantes rouges|Assassin pourpre]] (CCMI)</li>
+  <li>[[Assassin]]</li>
+  <li>[[Attiseur de tempêtes]] (''PP'')</li>
+  <li>[[Jardinier gris|Bourreau gris]] (''PP'')</li>
+  <li>[[Champion dIrori|Champion de la perfection]] (''PP'')</li>
+  <li>[[Champion occultiste]]</li>
+  <li>[[Chevalier dOzem|Chevalier de la vie]] (''PP'')</li>
+  <li>[[Chevaucheur de mammouth]] (''PP'')</li>
+  <li>[[Chroniqueur]]</li>
+  <li>[[Daivrat]] (RSE)</li>
+  <li>[[Détective des Insomniaques]] (''PP'')</li>
+  <li>[[Prophète de Kalistrade|Disciple des Prophéties]] (''PP'')</li>
+  <li>[[Disciple draconien]]</li>
+  <li>[[Dissident de la Fleur de laube|Dissident de l'aube]] (''PP'')</li>
+  <li>[[Duelliste]]</li>
+  <li>[[Empoisonneur de Dague|Empoisonneur de la guilde]] (''PP'')</li>
+  <li>[[Enfant divin]] (MMI)</li>
+  <li>[[Estimateur dAbadar|Estimateur légal]] (CSU)</li>
+  <li>[[Étudiant de la guerre]] (RSE)</li>
+  <li>[[Éclaireur explorateur|Explorateur]] (RSE)</li>
+  <li>[[Éclaireur savant|Explorateur savant]] (RSE)</li>
+  <li>[[Prêtre razmirien|Faux prêtre]] (''PP'')</li>
+  <li>[[Fidèle défenseur]] (MJRA)</li>
+  <li>[[Frère du Sceau]] (''PP'')</li>
+  <li>[[Légionnaire doré|Garde de la liberté]] (''PP'')</li>
+  <li>[[Gardien de la nature]] (MJRA)</li>
+  <li>[[Gardien des failles]] (''PP'')</li>
+  <li>[[Gardien du savoir]]</li>
+  <li>[[Guerrier de la fosse]] (''PP'')</li>
+  <li>[[Héraut]] (MJRA)</li>
+  <li>[[Héritier noble]] (''PP'')</li>
+  <li>[[Illusionniste voilé]] (''PP'')</li>
+  <li>[[Lame des lions]] (RSE)</li>
+  <li>[[Chevalier infernal|Légionnaire infernal]] (CCMI)</li>
+  <li>[[Mage des glyphes]] (MMI)</li>
+  <li>[[Maître chymiste]] (MJRA)</li>
+  <li>[[Maître des ombres]]</li>
+  <li>[[Maître espion]] (MJRA)</li>
+  <li>[[Maréchal-bouclier]] (''PP'')</li>
+  <li>[[Faucon dacier|Missionnaire de la liberté]] (RSE)</li>
+  <li>[[Monolithe vivant]] (RSE)</li>
+  <li>[[Mystificateur profane]]</li>
+  <li>[[Mystique tatoué]] (''PP'')</li>
+  <li>[[Opportuniste halfelin]] (MR)</li>
+  <li>[[Pirate de la Mer intérieure|Pirate de Haute mer]] (PMI)</li>
+  <li>[[Porteur de lanterne]] (''PP'')</li>
+  <li>[[Prophète enragé]] (MJRA)</li>
+  <li>[[Prospecteur céleste]] (''PP'')</li>
+  <li>[[Seigneur de lArche du Nex|Seigneur de l'arche]] (''PP'')</li>
+  <li>[[Seigneur des épées aldori|Seigneur des épées]] (''PP'')</li>
+  <li>[[Signifer infernal]] (''PP'')</li>
+  <li>[[Sorcière de lhiver|Sorcière de l'hiver]] (''PP'')</li>
+  <li>[[Templier déchu|Templier parjure]] (CCMI)</li>
+  <li>[[Théurge mystique]]</li>
+  <li>[[Vengeur sacré]] (MJRA)</li>
+  <li>[[Liseuse de tourment|Voyante]] (CCMI)</li>
   </ul>
 </li>
 

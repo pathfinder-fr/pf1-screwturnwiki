@@ -1,14 +1,14 @@
 ---
 Name: Pathfinder-RPG.Demi-elfe
 Title: Les demi-elfes
-LastModified: 2020-08-07 12:36
+LastModified: 2020-08-22 01:29
 Categories:
-  - 'Manuel des Classes avancées'
-  - 'Manuel des joueurs'
-  - 'Manuel des joueurs, règles avancées'
-  - 'Manuel des races'
   - 'Race'
-  - 'Règles officielles'
+  - 'Règle officielle'
+  - 'Src Manuel des joueurs'
+  - 'Src Manuel des joueurs - Classes avancées'
+  - 'Src Manuel des joueurs - Règles avancées'
+  - 'Src Manuel des races'
 ---
 {s:MenuRaces}
 ===Présentation===
@@ -199,32 +199,53 @@ l’hypnotiseur. Les demi-elfes qui gagnent des niveaux dans les [[Progression d
 ====Dons====
 Ces dons sont accessibles aux demi-elfes :
 <center>
-{| CLASS="tablo autoalt toutgauche"
+{| CLASS="tablo autoalt toutgauche filtrable" WIDTH="100%"
 
 |- CLASS="titre"
-| WIDTH="25%" | Dons
-| WIDTH= "6%" | Source
-| WIDTH="25%" | Conditions
-| WIDTH="44%" | Avantages
+| WIDTH="30%" | Dons
+| WIDTH="3%" | Src
+| WIDTH="30%" | Conditions
+| WIDTH="37%" | Avantages
 
 |- CLASS="premier"
-| [[Esprit elfique]] || <sup>MR</sup> || [[Demi-elfe]] || +2 aux tests de niveau de lanceur de sorts pour vaincre la résistance à la magie 
+| [[Chanteur de la nature]] || <sup>MJRA</sup> || [[Cha]] 13, capacité de classe [[représentation bardique]], [[elfe]] ou [[demi-elfe]] || Améliore les représentations en forêt et contre les fées
+
 |- CLASS="premier"
-| [[Esprit humain]] || <sup>MR</sup> || [[Demi-elfe]] || +1 rang de compétence par niveau, jusqu'au niveau 4
+| [[Esprit elfique]] || <sup>MR</sup> || [[Demi-elfe]] || Gain du trait magie elfique
+
 |- CLASS="premier"
-| [[Maîtrise des talents multiples]] || <sup>MR</sup> || [[Demi-elfe]], Personnage de niveau 5, trait racial talents multiples || Toutes les classes du personnage sont des classes de prédilection
+| [[Esprit humain]] || <sup>MR</sup> || [[Demi-elfe]] || Gain d'1 point de compétence par dé de vie (maximum 4)
+
 |- CLASS="premier"
-| [[Manipulation partagée]] || <sup>MR</sup> || [[Charisme|Cha]] 13, [[Demi-elfe]] || Le personnage accorde +2 aux tests de Bluff ou d'Intimidation de ses alliés
+| [[Intuition partagée]] || <sup>MJRA</sup> || [[Sag]] 13, [[demi-elfe]] || Donner un bonus de +2 aux tests de Perception aux alliés
+
 |- CLASS="premier"
-| [[Parangon demi-drow]] || <sup>MR</sup> || [[Demi-elfe]], sang de drow et magie drow || Le personnage est considéré comme drow pour les effets liés à la race
+| [[Maîtrise des talents multiples]] || <sup>MR</sup> || Personnage de niveau 5, [[demi-elfe]], trait racial [[Demi-elfe#Traits_raciaux_standards_6|talents multiples]] || Considère toutes les classes comme des classes de prédilection
+
 |- CLASS="premier"
-| [[Regard perspicace]] || <sup>MR</sup> || [[Demi-elfe]] ou [[Elfe]], sens aiguisés || +2 aux jets de sauvegarde contre les illusions et +2 aux tests de Linguistique contre les faux
+| [[Manipulation partagée]] || <sup>MR</sup> || [[Cha]] 13, [[demi-elfe]] || +2 aux tests de Bluff et d'Intimidation des alliés proches
+
 |- CLASS="premier"
-| [[Voie de lexilé|Voie de l'exilé]] || <sup>MR</sup> || [[Demi-elfe]] || Le personnage peut retirer un jet de sauvegarde contre les enchantements une fois pas jour
+| [[Parangon demi-drow]] || <sup>MR</sup> || Traits raciaux [[Demi-elfe#Traits_raciaux_alternatifs_7|sang de drow]] et [[Demi-elfe#Traits_raciaux_alternatifs_7|magie drow]], [[demi-elfe]] || Le personnage est traité comme un drow pour les effets qui se comportent différement avec eux
+
+|- CLASS="premier"
+| [[Passer pour un humain]] || <sup>MJRA</sup> || [[Demi-elfe]], [[demi-orque]], ou [[halfelin]] (voir texte) || +10 aux tests de Déguisement pour ressembler à un humain
+
+|- CLASS="premier"
+| [[Regard perspicace]] || <sup>MR</sup> || [[Elfe]] ou [[demi-elfe]], trait racial sens aiguisés || +2 aux jets de sauvegarde contre les illusions et aux tests de Linguistique pour détecter les contrefaçons
+
+|- CLASS="premier"
+| [[Sociable]] || <sup>MJRA</sup> || [[Cha]] 13, [[demi-elfe]] || Donner aux alliés un bonus de +2 aux tests de Diplomatie
+
+|- CLASS="premier"
+| [[Talent magique]] || <sup>MJRA</sup> || [[Cha]] 10; [[elfe]], [[demi-elfe]] ou [[gnome]] || Lancer un sort de niveau 0 trois par jour comme un pouvoir magique
+
+|- CLASS="premier"
+| [[Voie de lexilé|Voie de l'exilé]] || <sup>MR</sup> || [[Demi-elfe]] || 1 fois par jour, relance un jet de Volonté contre un effet d'enchantement
 |-
-| &emsp;[[Visible et invisible]] || <sup>MR</sup> || [[Demi-elfe]], [[Voie de lexilé|Voie de l'exilé]], Personnage de niveau 5 || +2 aux jets de sauvegarde contre la localisation et la divination
+| &emsp;[[Visible et invisible]] || <sup>MR</sup> || [[Voie de lexilé|Voie de l'exilé]], personnage de niveau 5, [[demi-elfe]] || +2 aux jets de sauvegarde contre les effets de divination et de scrutation, +2 aux tests de Discrétion, malus de -4 pour pister le personnage
 |-
-| &emsp;&emsp;[[Ni elfe ni humain]] || <sup>MR</sup> || [[Demi-elfe]], [[Voie de lexilé|Voie de l'exilé]], [[Visible et invisible]], Personnage de niveau 11 || Le personnage n'est considéré ni comme humain, ni comme elfe pour les sorts néfastes
+| &emsp;&emsp;[[Ni elfe ni humain]] || <sup>MR</sup> || [[Voie de lexilé|Voie de l'exilé]], [[Visible et invisible]], personnage de niveau 11, [[demi-elfe]] || Ingnore les effets qui se comportent différemment sur les elfes et les humains
 |}
 </center>
 {s:ligne}{s:col|6}
@@ -243,9 +264,9 @@ Les demi-elfes ont accès à l’équipement suivant :
 
 ====Objets magiques====
 Ces objets magiques sont spécifiques aux demi-elfes :
-* [[Anneau de sophistication]]
+* [[Anneau du sybarite]]
 * [[Broche de caméléon racial]]
-* [[Cape du diplomate]]
+* [[Cape de diplomate]]
 * [[Fermoir ancestral]]
 * [[Perle de purification]]
 

@@ -1,12 +1,12 @@
 ---
 Name: Pathfinder-RPG.maléfices
 Title: Les maléfices de sorcières
-LastModified: 2020-06-13 19:44
+LastModified: 2022-03-13 02:00
 Categories:
-  - 'Art de la Magie'
   - 'Classe'
-  - 'Manuel des joueurs, règles avancées'
-  - 'Règles officielles'
+  - 'Règle officielle'
+  - 'Src Art de la magie'
+  - 'Src Manuel des joueurs - Règles avancées'
 ---
 {s:Menuclassessupplémentaires}
 {s:UM}''Les sorcières sont des créatures de mystère et de pouvoir, aussi craintes que respectées pour leurs étranges capacités et leurs puissants maléfices. Alors que certains lanceurs de sorts se penchent sur des ouvrages poussiéreux tandis que d’autres utilisent les pouvoirs de leur héritage et que d’autres encore puisent leur force dans leur foi, les sorcières tirent leur puissance de leur communion avec l’inconnu. Leurs familiers leur servent de conduit à travers lequel elles reçoivent des pouvoirs accordés par des êtres issus d’autres mondes, êtres avec lesquels elles ont passé un pacte. Plus les sorcières développent leurs pouvoirs, plus certaines cherchent à comprendre l’origine précise de ceux-ci tandis que d’autres restent dans une bienheureuse ignorance et ne savent jamais quelles forces maléfiques guident leur main et leurs incantations. Il leur suffit d’accéder à la puissance et, s’il y a un prix à payer plus tard... qu’il en soit ainsi.''
@@ -65,7 +65,7 @@ Les [[sorcière|sorcières]] apprennent un certain nombre de sortilèges, appel�
 |}
 
 ===Maléfices===
-<table class="page espace-col deuxcol"><tr><td>
+<table width="100%"><tr><td width="49%">
 {s:UM}{s:Reference|Agacerlesbêtes}
 ====Agacer les bêtes (Sur)====
 Les animaux deviennent irritables en présence de la cible (Volonté pour annuler). Les animaux sont inquiets et agressifs : les chevaux ruent, les chiens aboient et claquent des mâchoires, les taureaux chargent, etc. Le maléfice dure un nombre d’heures égal au modificateur d’Intelligence de la sorcière. Une créature qui réussit son jet de sauvegarde ne peut plus être affectée par ce maléfice pendant 1 jour. La réaction des animaux est un effet mental de charme mais ce n’est pas le cas du sort lancé sur la cible.
@@ -76,7 +76,7 @@ La sorcière purifie l'air autour d'elle. Les [[maladies]], [[poisons]] inhalés
 
 {s:APG}{s:Reference|Cercle}
 ====Cercle (Ext)==== 
-La sorcière compte comme une [[Monstres#G_6|guenaude]] quand il s’agit de rejoindre un [[Guenaude verte#Cercles_de_guenaudes_0|cercle]] de ces créatures. Le cercle doit contenir au moins une véritable [[Monstres#G_6|guenaude]]. Quand une sorcière qui dispose de ce maléfice se trouve à moins de 9 m d’une autre qui le possède aussi, elle peut utiliser l’action [[Actions spéciales#Aider_quelqu’un_4|aider]] autrui pour donner à l’autre un bonus de +1 au [[niveau de lanceur de sorts]] pendant 1 [[round]]. Ce bonus s’applique aux sorts et aux maléfices de la sorcière.
+La sorcière compte comme une guenaude quand il s’agit de rejoindre un [[Guenaude verte#Cercles_de_guenaudes_0|cercle]] de ces créatures. Le cercle doit contenir au moins une véritable guenaude. Quand une sorcière qui dispose de ce maléfice se trouve à moins de 9 m d’une autre qui le possède aussi, elle peut utiliser l’action [[Actions spéciales#Aider_quelqu’un_4|aider]] autrui pour donner à l’autre un bonus de +1 au [[niveau de lanceur de sorts]] pendant 1 [[round]]. Ce bonus s’applique aux sorts et aux maléfices de la sorcière.
 
 {s:APG}{s:Reference|Chance}
 ====Chance (Sur)====
@@ -123,16 +123,15 @@ Une sorcière peut obliger un humanoïde ou un animal dans un rayon de 9 mètres
 ====Don des langues (Sur)====
 Chaque jour, une sorcière qui dispose de ce maléfice comprend tous les langages parlés pendant un nombre de minutes égal à son [[niveau]], comme avec un sort de ''[[compréhension des langages]]''. Cette durée n’est pas forcément continue, mais elle doit se découper en minutes complètes. Au [[niveau]] 5, la sorcière peut utiliser ce pouvoir pour parler n’importe quelle langue, comme avec un ''[[don des langues]]''.
 
-{s:Reference|Fioledelasorcière}
+{s:cs}{s:Reference|Fioledelasorcière}
 ==== Fiole de la sorcière (Sur)====
-La sorcière peut une fois par jour préparer une potion contenant l'effet d'un de ses maléfices par un rituel de 10 minutes. Elle ne peut utiliser ce maléfice tant que la potion n'a pas été consommée ou rendue inactive. Seuls les maléfices qui ciblent une autre créature que la sorcière peuvent être utilités de la sorte. La sorcière peut dissiper l'effet de la potion par une [[action libre]]. La sorcière doit disposer du maléfice de chaudron avant de prendre celui-ci.
+<div class="description">'''Source :''' Heroes of the Wild (HotW).</div>La sorcière peut une fois par jour préparer une potion contenant l'effet d'un de ses maléfices par un rituel de 10 minutes. Elle ne peut utiliser ce maléfice tant que la potion n'a pas été consommée ou rendue inactive. Seuls les maléfices qui ciblent une autre créature que la sorcière peuvent être utilités de la sorte. La sorcière peut dissiper l'effet de la potion par une [[action libre]]. La sorcière doit disposer du maléfice de chaudron avant de prendre celui-ci.
 
 {s:APG}{s:Reference|Guérison}
 ====Guérison (Sur)====
-Une sorcière peut apaiser les blessures de ceux qu’elle touche, ce qui fonctionne comme un sort de ''[[soins légers]]'' avec le [[niveau de lanceur de sorts]] de la sorcière. Quand une créature a bénéficié de ce sort, elle ne peut plus en profiter pendant 24 heures. Au [[niveau]] 5, ce maléfice fonctionne comme ''[[soins modérés]]''.
+Une sorcière peut apaiser les blessures de ceux qu’elle touche, ce qui fonctionne comme un sort de ''[[soins légers]]'' avec le [[niveau de lanceur de sorts]] de la sorcière. Quand une créature a bénéficié de ce maléfice, elle ne peut plus en profiter pendant 24 heures. Au [[niveau]] 5, ce maléfice fonctionne comme ''[[soins modérés]]''.
 
-</td><td>
-
+</td><td width="2%"></td><td width="49%">
 {s:UM}{s:Reference|Langagesauvage}
 ====Langage sauvage (Sur)====
 Ce maléfice permet à la sorcière de parler à n’importe quel animal et de comprendre sa réponse, comme avec communication avec les animaux, mais à chaque fois qu’elle utilise ce pouvoir, elle doit choisir si elle veut parler à des amphibiens, des oiseaux, des poissons, des mammifères ou des reptiles. Elle ne comprendra et ne sera comprise que de ces créatures. Elle peut se faire comprendre aussi loin que porte sa voix. Ce maléfice ne prédispose pas les animaux à réagir d’une manière ou d’une autre. Au niveau 12, la sorcière peut aussi utiliser ce pouvoir pour communiquer avec la vermine.
@@ -147,9 +146,10 @@ La sorcière peut affliger une créature qui se trouve dans les 9 m d’une terr
 
 {s:APG}{s:Reference|Mauvaisœil}
 ====Mauvais œil (Sur)====
-La sorcière peut semer le doute dans l’esprit d’un ennemi visible situé à moins de 9 m d’elle. Il subit un malus de –2 sur l’un des éléments suivants : [[CA]], [[test]] de [[caractéristique]], jet d’attaque, [[jet de sauvegarde]] ou [[test]] de [[compétences|compétence]]. Ce maléfice dure un nombre de [[round|rounds]] égal à 3 + [[Caractéristiques#TABLEAUCARACTERISTIQUES|modificateur d’Intelligence]] de la sorcière. Un [[jet de sauvegarde|jet de Volonté]] permet de réduire cette durée à 1 [[round]]. C’est un [[effet mental]]. Au niveau 8, le malus passe à –4..
+La sorcière peut semer le doute dans l’esprit d’un ennemi visible situé à moins de 9 m d’elle. Il subit un malus de –2 sur l’un des éléments suivants (au choix de la sorcière) : [[CA]], [[test]] de [[caractéristique]], jet d’attaque, [[jet de sauvegarde]] ou [[test]] de [[compétences|compétence]]. Ce maléfice dure un nombre de [[round|rounds]] égal à 3 + [[Caractéristiques#TABLEAUCARACTERISTIQUES|modificateur d’Intelligence]] de la sorcière. Un [[jet de sauvegarde|jet de Volonté]] permet de réduire cette durée à 1 [[round]]. C’est un [[effet mental]]. Au niveau 8, le malus passe à –4.
 
 {s:UM}{s:Reference|Odeurdenfant}
+
 ====Odeur d'enfant (Ext)====
 La sorcière gagne le pouvoir odorat mais il lui permet seulement de sentir les enfants humanoïdes et les animaux juvéniles. Elle sent donc des enfants cachés ou une tanière avec des louveteaux, mais ni les parents des enfants ni la louve.
 
@@ -185,8 +185,8 @@ La sorcière peut plonger une créature qui se trouve dans les 9 m dans un ''[[s
 ====Sorcière du marais (Mag)====
 Quand la sorcière traverse un marais, une tourbière, un marécage ou un terrain similaire, elle ne laisse aucune trace et il est impossible de la pister, comme le pouvoir de druide passage sans trace. La sorcière peut marcher dans la boue et même les sables mouvants comme sur un terrain normal.
 
-{s:CM}{s:Reference|Sorcièredeboue}
-====Sorcière de boue (Sur) (gobelin)====
+{s:racial|Gobelin (race)|gobelins|Illustrations/PNJ/Gobelin.jpg}{s:CM}{s:Reference|Sorcièredeboue}
+====Sorcière de boue (Sur)====
 Une sorcière connaissant ce maléfice peut se changer en boue brune et visqueuse. Son type change pour devenir [[type vase|vase)]] et elle peut se faufiler dans de minces fissures mais elle ne peut pas attaquer ni lancer de sorts à composante verbale, gestuelle ou matérielle ni à focalisateur divin. Sous cette forme, elle perd également ses pouvoirs surnaturels. Si la sorcière a un sort de contact prêt à l’emploi, il se décharge sans causer de dégâts quand elle utilise ce maléfice. Tant qu’elle est sous forme de boue, la sorcière possède une [[VD|vitesse de déplacement]] de 3 m (2 {s:c}) et une vitesse de nage de 6 m (4 {s:c}). Elle gagne une [[RD]] 10/tranchant et une résistance au froid de 10. Au niveau 10, tant qu’elle est sous forme de boue, sa vitesse passe à 6 m (4 {s:c}) et sa vitesse de nage à 12 m (8 {s:c}). Chaque jour, elle peut utiliser ce pouvoir un nombre de minutes égal à son niveau. Cette durée n’est pas forcément continue mais doit se découper en portions d’une minute. Ce maléfice affecte uniquement la sorcière. La sorcière doit connaître le maléfice sorcière du marais avant d’apprendre celui-ci.
 
 {s:UM}{s:Reference|Tremperdanslepoison}
@@ -200,6 +200,7 @@ Plus la sorcière gagne en puissance, plus elle devient légère et elle finit p
 </td></tr></table>
 
 {s:Reference|MALEFICEMAJEUR}
+
 === Maléfices majeurs ===
 À partir du niveau 10 et, par la suite, tous les niveaux pairs, la sorcière peut choisir un maléfice majeur à chaque fois qu’elle a l’occasion de choisir un nouveau maléfice.
 
@@ -230,7 +231,7 @@ La cible est recouverte d’une coquille d’aiguilles de givre qui s’enfoncen
 
 {s:UM}{s:Reference|Cuisinerlesgens}
 ====Cuisiner les gens (Sur)====
-La sorcière peut créer des sorts fabuleux en faisant cuire un humanoïde intelligent dans son chaudron, qu’il soit mort ou vif. Ce maléfice donne un repas ou une portion de nourriture, au choix de la sorcière, généralement un délicieux ragoût ou une pâte pour faire des gâteaux, des pâtisseries ou autres desserts. Il faut une heure pour cuisiner la victime. L’ingestion de cette nourriture permet de bénéficier de l’un des avantages suivants : endurance de l’ours, force de taureau, grâce féline, guérison des maladies (instantanée), neutralisation du poison (instantanée), résistance à l’âge*, ruse du renard, splendeur de l’aigle, sagesse du hibou. Sinon, la sorcière peut façonner la pâte pour fabriquer une créature humanoïde P qui s’anime pendant 1 heure, comme un homoncule. La sorcière doit connaître le maléfice de chaudron avant de choisir celuici. L’utilisation de ce maléfice est un acte mauvais, tout comme l’absorption délibérée de son contenu.
+La sorcière peut créer des sorts fabuleux en faisant cuire un humanoïde intelligent dans son chaudron, qu’il soit mort ou vif. Ce maléfice donne un repas ou une portion de nourriture, au choix de la sorcière, généralement un délicieux ragoût ou une pâte pour faire des gâteaux, des pâtisseries ou autres desserts. Il faut une heure pour cuisiner la victime. L’ingestion de cette nourriture permet de bénéficier de l’un des avantages suivants : ''[[endurance de lours|endurance de l’ours]]'', ''[[force de taureau]]'', ''[[grâce féline]]'', ''[[guérison des maladies]]'' (instantanée), ''[[neutralisation du poison]]'' (instantanée), ''[[résistance à lâge|résistance à l’âge]]'', ''[[ruse du renard]]'', ''[[splendeur de laigle|splendeur de l’aigle]]'', ''[[sagesse du hibou]]''. Sinon, la sorcière peut façonner la pâte pour fabriquer une créature humanoïde P qui s’anime pendant 1 heure, comme un homoncule. La sorcière doit connaître le maléfice de chaudron avant de choisir celui-ci. L’utilisation de ce maléfice est un acte mauvais, tout comme l’absorption délibérée de son contenu.
 
 {s:UM}{s:Reference|Demeurecachée}
 ====Demeure cachée (Mag)====
@@ -255,6 +256,7 @@ La sorcière fait appel à des pouvoirs étranges et soigne les blessures les pl
 {s:APG}{s:Reference|Oeildeguenaude}
 ====Oeil de guenaude (Sur)==== 
 La sorcière qui possède ce maléfice crée un capteur magique visuel. Ceci fonctionne comme le sort ''[[oeil du mage]]''. Si la sorcière dispose du maléfice [[maléfices#Cercle_Ext_0|cercle]], toutes les sorcières qui se trouvent dans les 9 mètres possèdent aussi le maléfice de [[maléfices#Cercle_Ext_0|cercle]] peuvent voir à travers ce capteur, même si seule la sorcière qui l’a créé peut le contrôler. Chaque jour, elle peut utiliser cet oeil pendant un nombre de minutes égal à son [[niveau]] de classe. Cette durée n’est pas forcément continue mais doit se découper en minutes complètes.
+
 </td><td>
 {s:UM}{s:Reference|OEildelabête}
 ====OEil de la bête (Sur)====
@@ -269,9 +271,9 @@ La sorcière peut forcer une unique créature dans un rayon de 18 mètres (12 {s
 ====Parler en rêve (Mag)====
 La sorcière peut entrer en contact avec une créature comme si elle utilisait songe. Chaque jour, elle peut se servir de ce pouvoir sur un nombre de créatures égal à son bonus d’Intelligence mais, pendant cette journée, elle peut leur parler aussi souvent qu’elle le désire.
 
-{s:UM}{s:Reference|Peauanimale}
+{s:cs}{s:Reference|Peauanimale}
 ====Peau animale (Sur)====
-La sorcière peut se transformer en [[type animal|animal]] de taille TP à G dont elle porte la peau. Ce pouvoir fonctionne comme [[forme bestiale II]] à l'exception que la sorcière peut prendre l'apparence précise de la créature dont elle porte la peau.
+<div class="description">'''Source :''' Blood of the Moon (BotM).</div>La sorcière peut se transformer en [[type animal|animal]] de taille TP à G dont elle porte la peau. Ce pouvoir fonctionne comme ''[[forme bestiale II]]'' à l'exception que la sorcière peut prendre l'apparence précise de la créature dont elle porte la peau.
 
 {s:APG}{s:Reference|Poupéedecire}
 ====Poupée de cire (Sur)==== 
@@ -290,9 +292,9 @@ Une tempête de glace enveloppe la cible tandis que des vents glacials la fouail
 ====Vision (Sur)==== 
 Une sorcière qui dispose du maléfice de vision peut donner un aperçu du futur à la créature qu’elle touche. Il lui faut 1 minute pour accorder une vision. La sorcière et son sujet doivent rester en contact pendant tout ce temps. Ensuite, le sujet reçoit une brève image du futur, généralement pas plus d’un an en avance, au choix du [[MJ]]. Ce n’est qu’une version possible du futur, ces visions sont donc peu sûres, au mieux. La plupart des visions s’orientent selon l’[[alignement]] de la sorcière qui les donne. Par exemple, les visions accordées par une sorcière [[Alignement#Chaotique Mauvais|Chaotique Mauvaise]] montrent souvent des scènes de carnage et de destruction alors que celles d’une sorcière [[Alignement#Neutre Bon|Neutre Bonne]] représentent plutôt des évènements joyeux. Une créature ne peut plus recevoir de vision tant que la première reçue ne s’est pas réalisée ou n’a pas été empêchée. La sorcière ne peut pas utiliser ce pouvoir sur elle-même. Les créatures non consentantes ont droit à un [[jet de sauvegarde|jet de Volonté]] pour annuler la vision.
 
-{s:Reference|Voldevoix}
+{s:cs}{s:Reference|Voldevoix}
 ====Vol de voix (Sur)==== 
-Une sorcière peut voler la voix d'une créature dans un rayon de 9m (6{s:c}), lui faisant perdre pendant un nombre de rounds égal au modificateur d'[[Intelligence]] de la cible, la rendant incapable de communiquer, y compris pour utiliser des sorts ou représentations bardiques à composante vocale. La cible a droit à un jet de [[Volonté]] pour annuler l'effet. Pendant la durée du maléfice, la sorcière peut utiliser la voix de la créature affectée comme avec un sort d'[[altération vocale]]. Si la cible est consentante, l'effet dure un nombre d'heures égal au modificateur d'[[Intelligence]] de la cible. Que la cible ait réussi ou non son jet de sauvegarde, elle ne peut plus être victime de ce maléfice pendant 1 jour. Ce maléfice est réservé aux [[tieffelin (race)|tieffelins.]]
+<div class="description">'''Source :''' Dirty Tactics Toolbox (DTT).</div>Une sorcière peut voler la voix d'une créature dans un rayon de 9m (6{s:c}), lui faisant perdre pendant un nombre de rounds égal au modificateur d'[[Intelligence]] de la cible, la rendant incapable de communiquer, y compris pour utiliser des sorts ou représentations bardiques à composante vocale. La cible a droit à un jet de [[Volonté]] pour annuler l'effet. Pendant la durée du maléfice, la sorcière peut utiliser la voix de la créature affectée comme avec un sort d'[[altération vocale]]. Si la cible est consentante, l'effet dure un nombre d'heures égal au modificateur d'[[Intelligence]] de la cible. Que la cible ait réussi ou non son jet de sauvegarde, elle ne peut plus être victime de ce maléfice pendant 1 jour. Ce maléfice est réservé aux [[tieffelin (race)|tieffelins.]]
 </td></tr></table>
 
 {s:Reference|GRANDMALEFICE}

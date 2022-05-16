@@ -1,9 +1,9 @@
 ---
 Name: Pathfinder-RPG.Tigre-garou
-Title: Tigre-garou
-LastModified: 2013-02-06 20:32
+Title: Lycanthrope, Tigre-garou
+LastModified: 2021-02-19 02:04
 Categories:
-  - 'Bestiaire 2'
+  - 'Src Bestiaire 2'
 ---
 <table class="Bestiaire"><tr><td>
 <div class="BD">
@@ -38,32 +38,56 @@ Categories:
 </div>
 ==== ====
 <div class="BD">
-{s:BDTitre|Tigre-garou (forme hybride)}
+{s:BDTitre|Tigre-garou (forme hybride)|FP 4}
 {s:pucem|Humanoïde|Forêt-Jungle|Tempéré}
 {s:BDTexte|''Source : Bestiaire 2, P.192''}
 {s:BDTexte|'''PX''' 1.200}
 {s:BDTexte|Humain, tigre-garou naturel, [[roublard]] 4}
-{s:BDTexte|[[type Humanoïde|Humanoïde]] ([[sous-type humain|humain]], [[sous-type métamorphe|métamorphe]]) de taille M, NM}
+{s:BDTexte|[[type Humanoïde|Humanoïde]] ([[sous-type humain|humain]], [[sous-type métamorphe|métamorphe]]) de taille L, NM}
 {s:BDTexte|'''Init''' +7 ; '''Sens''' [[odorat]], [[vision nocturne]] ; [[Perception]] +10}
 {s:BDSousTitre|Défense}
-{s:BDTexte|'''CA''' 18, contact 13, pris au dépourvu 15 (armure +3, Dex +3, naturelle +2)}
-{s:BDTexte|'''pv''' 38 (4d8+20)}
-{s:BDTexte|'''Réf''' +7, '''Vig''' +5, '''Vol''' +4}
+{s:BDTexte|'''CA''' 20, contact 12, pris au dépourvu 17 (armure +3, Dex +3, naturelle +5, taille +1)}
+{s:BDTexte|'''pv''' 37 (4d8+16)}
+{s:BDTexte|'''Réf''' +7, '''Vig''' +4, '''Vol''' +4}
 {s:BDTexte|'''Capacités défensives''' [[esquive instinctive]], [[esquive totale]], [[sens des pièges]] +1, '''RD''' 10/argent}
 {s:BDSousTitre|Attaque}
 {s:BDTexte|'''VD''' 9 m}
-{s:BDTexte|'''Corps à corps''' ''morsure'', +10 (2d6+7) et ''2 griffes'', +10 (1d8+7)}
-{s:BDTexte|'''Distance''' ''dague de maître'' ,+7 (1d4+7/19–20)}
-{s:BDTexte|'''Attaques spéciales''' [[attaque sournoise]] +2d6}
+{s:BDTexte|'''Corps à corps''' morsure, +8 (2d6+6 plus [[étreinte (capacité)|étreinte]] et [[Transmission de la lycanthropie (capacité)|transmission de la lycanthropie]]) et 2 griffes, +8 (1d8+6 plus étreinte)}
+{s:BDTexte|'''Distance''' dague de maître, +6 (1d6+6/19–20)}
+{s:BDTexte|'''Attaques spéciales''' [[attaque sournoise]] +2d6, [[bond (capacité)|bond]], [[éventration (capacité)|éventration]] (2 griffes +8, 1d8+6)}
 {s:BDSousTitre|Caractéristiques}
-{s:BDTexte|'''For''' 25, '''Dex''' 16, '''Con''' 19, '''Int''' 10, '''Sag''' 16, '''Cha''' 8}
-{s:BDTexte|'''BBA''' +3, '''BMO''' +10, '''DMD''' 23}
+{s:BDTexte|'''For''' 23, '''Dex''' 16, '''Con''' 17, '''Int''' 10, '''Sag''' 16, '''Cha''' 8}
+{s:BDTexte|'''BBA''' +3, '''BMO''' +10 (+14 en [[lutte]]), '''DMD''' 23}
 {s:BDTexte|'''Dons''' [[Attaque en puissance]], [[Science de linitiative|Science de l’initiative]], [[Talent]] (Discrétion)}
-{s:BDTexte|'''Compétences''' [[Acrobaties]] +9, [[Discrétion]] +12, [[Dressage]] +3, [[Escalade]] +13, [[Intimidation]] +6, [[Natation]] +13, [[Perception]] +10, [[Psychologie]] +10, [[Survie]] +7}
+{s:BDTexte|'''Compétences''' [[Acrobaties]] +9, [[Discrétion]] +8, [[Dressage]] +3, [[Escalade]] +12, [[Intimidation]] +6, [[Natation]] +2, [[Perception]] +10, [[Psychologie]] +10, [[Survie]] +7}
 {s:BDTexte|'''Langues''' commun}
 {s:BDTexte|'''Particularités''' [[changement de forme (capacité)|changement de forme]] changement de forme (humain, hybride et tigre ; ''[[métamorphose]]''), empathie lycanthropique ([[tigre|tigre]] et [[tigre sanguinaire|tigre sanguinaire]]), [[recherche des pièges]] +2, [[talents de roublard]] ([[Talents#ATTAQUESANGLANTE|Attaque sanglante]] +2, [[discret]] et [[rapide]])}
+
 </div>
-</td><td><div>Voir l'archétype du [[lycanthrope, archétype|lycanthrope]].''Ce tigre humanoïde présente une fourrure zébrée et une silhouette élancée et musclée. Son visage dévoile des crocs acérés et des yeux de félins.''
+</td><td><div><div style="float:right; background-color: #fff; padding: 0 0 0 0; margin: 0 0 4px 8px">
+{| CLASS="tablo autoalt"
+|+ Variantes de lycanthrope
+|- CLASS="titre"
+| Nom || FP
+|- CLASS="premier"
+| [[Chauve-souris garou]] || 3
+|-
+| [[Crocodile garou]] || 3
+|-
+| [[Loup-garou]] || 2
+|-
+| [[Ours-garou]] || 4
+|-
+| [[Rat-garou]] || 2
+|-
+| [[Requin garou]] || 3
+|-
+| [[Sanglier-garou]] || 2
+|-
+| [[Tigre-garou]] || 4
+|}
+</div>
+<ul style="margin: 0 0 -10 0;margin-top: 6px;margin-bottom: 12px;"><li>'''''Voir l'archétype [[Lycanthrope, archétype|Lycanthrope]].'''''</li></ul>''Ce tigre humanoïde présente une fourrure zébrée et une silhouette élancée et musclée. Son visage dévoile des crocs acérés et des yeux de félins.''
 
 Sous forme humanoïde, les tigres-garous ont généralement de
 grands yeux, de longs nez et des pommettes saillantes. La plupart

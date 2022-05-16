@@ -1,284 +1,119 @@
 ---
 Name: Pathfinder-RPG.Larmure comme RD
 Title: L'armure comme RD
-LastModified: 2020-03-10 17:25
+LastModified: 2021-02-26 17:04
 Categories:
-  - 'Art de la guerre'
-  - 'Règles officielles'
+  - 'Règle officielle'
+  - 'Src Art de la guerre'
 ---
-<div style="float: right; margin-left: 10px; margin-right: -40px; max-width: 300px;" class="presentation recentre">{toc}</div>{s:UC}<div style="float: left; margin-right: 20px; margin-bottom: 10px;" class="presentation recentre">
+<div style="float: right; padding: 0 0 8px 8px">{toc}</div>{s:UC}<div style="float: left; margin-right: 20px; margin-bottom: 10px;" class="presentation recentre">
 <h2 class="separator"><div style="float: right; margin-top: -4px;">{s:uc}</div>Règles alternatives</h2>
 <ul><li>[[Régles alternatives|Introduction]]</li>
-<li>[[Larmure comme RD|L'armure comme réduction de dégâts]]</li><li>[[Frappes ciblées]]</li><li>[[Pièces darmures|Pièces d'armure]] ([[Description des pièces darmure|descriptions]])</li><li>[[Blessures et vitalité]]</li></ul></div>Si le système d’armure et de [[CA|Classe d’Armure]] de Pathfinder
-JdR a été éprouvé et testé, certains joueurs pourront tout de
-même le trouver légèrement décalé. Si une armure protège
-son porteur des attaques qui le frappent mais échouent à le
-blesser, pourquoi dit-on que l’armure réduit les chances d’être
-touché ? Cette abstraction a été clarifiée dans les règles en
-statuant que l’expression «&nbsp;être touché en combat&nbsp;» signifie
-plus précisément «&nbsp;être touché de telle manière que cela
-provoque des blessures (et donc une perte de points de vie)&nbsp;».
-Mais cette explication ne suffit toujours pas à certains joueurs.
+<li>[[Larmure comme RD|L'armure comme réduction de dégâts]]</li><li>[[Frappes ciblées]]</li><li>[[Pièces darmures|Pièces d'armure]] ([[Description des pièces darmure|descriptions]])</li><li>[[Blessures et vitalité]]</li></ul></div>Si le système d’armure et de [[CA|Classe d’Armure]] de Pathfinder JdR a été éprouvé et testé, certains joueurs pourront tout de même le trouver légèrement décalé. Si une armure protège son porteur des attaques qui le frappent mais échouent à le blesser, pourquoi dit-on que l’armure réduit les chances d’être touché ? Cette abstraction a été clarifiée dans les règles en statuant que l’expression «&nbsp;être touché en combat&nbsp;» signifie plus précisément «&nbsp;être touché de telle manière que cela provoque des blessures (et donc une perte de points de vie)&nbsp;». Mais cette explication ne suffit toujours pas à certains joueurs.
 
-Les règles qui suivent forment un système alternatif qui
-permet aux armures d’absorber les dégâts issus des attaques,
-au lieu de fournir une méthode abstraite pour déterminer
-si une frappe cause réellement des dommages. Comme
-les autres règles présentées dans ce chapitre, il s’agit d’une
-variante du système de base de Pathfinder JdR. Celle-ci est
-destinée aux MJ qui souhaitent que les armures réduisent les
-dégâts au lieu d’augmenter la [[CA|Classe d’Armure]]. Dans ce cas,
-elle remplace les règles d’armure habituelles.
+Les règles qui suivent forment un système alternatif qui permet aux armures d’absorber les dégâts issus des attaques, au lieu de fournir une méthode abstraite pour déterminer si une frappe cause réellement des dommages. Comme les autres règles présentées dans ce chapitre, il s’agit d’une variante du système de base de Pathfinder JdR. Celle-ci est destinée aux MJ qui souhaitent que les armures réduisent les dégâts au lieu d’augmenter la [[CA|Classe d’Armure]]. Dans ce cas, elle remplace les règles d’armure habituelles.
 
-Avec ce système, les créatures n’ont plus de [[CA|Classe d’Armure]].
-Elles ont un score de Défense que les jets d’attaque ennemis
-doivent atteindre ou dépasser pour toucher la créature.
-Ensuite, les dégâts sont diminués en fonction de la réduction
-de dégâts dont bénéficie la créature grâce à son bonus
-d’armure naturelle et à l’armure qu’elle porte. Par ailleurs,
-l’armure a une chance de réduire les coups critiques à de
-simples coups normaux, en remplaçant le jet de confirmation
-du [[Actions simples#COUPCRITIQUE|coup critique]] par un test de défense critique que doit
-réaliser la créature menacée par l’attaque critique.
+Avec ce système, les créatures n’ont plus de [[CA|Classe d’Armure]]. Elles ont un score de Défense que les jets d’attaque ennemis doivent atteindre ou dépasser pour toucher la créature. Ensuite, les dégâts sont diminués en fonction de la réduction de dégâts dont bénéficie la créature grâce à son bonus d’armure naturelle et à l’armure qu’elle porte. Par ailleurs, l’armure a une chance de réduire les coups critiques à de simples coups normaux, en remplaçant le jet de confirmation du [[coup critique]] par un test de défense critique que doit réaliser la créature menacée par l’attaque critique.
 
 ===Défense===
-Dans ce système alternatif, les créatures n’ont pas de [[CA|Classe d’Armure]]; elles ont un score de Défense. Le fonctionnement
-de la Défense est similaire à celui de la [[CA|CA]] dans les règles
-standard de Pathfinder JdR, mais elle intègre aussi le [[Caractéristiques des armures#BONUSARMUREBOUCLIER|bonus de bouclier]]
-(ce qui inclut tous les [[Valeurs de combat#BONUSALTERATION|bonus d'altération]] du bouclier),
-et tous les [[Valeurs de combat#BONUSALTERATION|bonus d'altération]] de l’armure.
+Dans ce système alternatif, les créatures n’ont pas de Classe d’Armure; elles ont un score de Défense. Le fonctionnement de la Défense est similaire à celui de la CA dans les règles standard de Pathfinder JdR, mais elle intègre aussi le bonus de bouclier (ce qui inclut tous les bonus d'altération du bouclier), et tous les bonus d'altération de l’armure.
+
 <div class="presentation arrondi recentre ombre"><center>
-'''Défense'''{br}={br}10 + [[Caractéristiques des armures#BONUSARMUREBOUCLIER|bonus de bouclier]] + modificateur de [[Dextérité]] + autre(s) modificateur(s) {br} (ce qui inclut les [[Valeurs de combat#BONUSALTERATION|bonus d'altération]] d'armure, mais pas les [[Caractéristiques des armures#BONUSARMUREBOUCLIER|bonus d'armure]] ou les [[Valeurs de combat#BONUSARMURENATURELLE|bonus d'armure naturelle]])
+'''Défense'''{br}={br}10 + [[Caractéristiques des armures#BONUSARMUREBOUCLIER|bonus de bouclier]] + modificateur de [[Dextérité]] + autre(s) modificateur(s){br}(ce qui inclut les [[Valeurs de combat#BONUSALTERATION|bonus d'altération]] d'armure, mais pas les [[Caractéristiques des armures#BONUSARMUREBOUCLIER|bonus d'armure]] ou les [[Valeurs de combat#BONUSARMURENATURELLE|bonus d'armure naturelle]])
 </center></div>
 
-La Défense représente combien il est facile ou difficile de
-toucher une créature. Le [[Caractéristiques des armures#BONUSARMUREBOUCLIER|bonus de bouclier]] est ajouté parce que
-la créature est supposée être active dans sa défense et occupée à
-parer les attaques avec son bouclier chaque fois qu’elle le peut,
-c’est-à-dire dans chaque situation où elle n’est pas prise au
-dépourvu et où elle gagnerait normalement son bonus à la [[CA]].
+La Défense représente combien il est facile ou difficile de toucher une créature. Le [[Caractéristiques des armures#BONUSARMUREBOUCLIER|bonus de bouclier]] est ajouté parce que la créature est supposée être active dans sa défense et occupée à parer les attaques avec son bouclier chaque fois qu’elle le peut, c’est-à-dire dans chaque situation où elle n’est pas prise au dépourvu et où elle gagnerait normalement son bonus à la [[CA]].
 
-'''Perdre le bonus de Dextérité à la Défense'''. Les situations et
-effets qui pourraient faire perdre au personnage son bonus
-de [[Dextérité]] à la [[CA]] causent à la place la perte du bonus de
-[[Dextérité]] à la Défense. De plus, chaque fois que le personnage
-perd son bonus de [[Dextérité]] à la Défense, il perd aussi son [[Caractéristiques des armures#BONUSARMUREBOUCLIER|bonus de bouclier]] à la Défense, puisque lorsque le personnage perd
-son bonus de [[Dextérité]] à la [[CA]], il perd également sa capacité à
-réagir de manière adéquate avec le bouclier face aux attaques.
+'''Perdre le bonus de Dextérité à la Défense'''. Les situations et effets qui pourraient faire perdre au personnage son bonus de [[Dextérité]] à la [[CA]] causent à la place la perte du bonus de Dextérité à la Défense. De plus, chaque fois que le personnage perd son bonus de Dextérité à la Défense, il perd aussi son [[Caractéristiques des armures#BONUSARMUREBOUCLIER|bonus de bouclier]] à la Défense, puisque lorsque le personnage perd son bonus de Dextérité à la [[CA]], il perd également sa capacité à réagir de manière adéquate avec le bouclier face aux attaques.
 
-'''Pris au dépourvu'''. Le personnage ne bénéficie pas de ses bonus
-à la Défense de [[Dextérité]] et de [[Caractéristiques des armures#BONUSARMUREBOUCLIER|bouclier]] s’il est pris au dépourvu
-ou perd son bonus de [[Dextérité]] à la Défense ; par conséquent, le
-score de Défense d’un personnage pris au dépourvu est égal à sa
-Défense moins ses bonus de [[Dextérité]] et de [[Caractéristiques des armures#BONUSARMUREBOUCLIER|bouclier]].
+'''Pris au dépourvu'''. Le personnage ne bénéficie pas de ses bonus à la Défense de [[Dextérité]] et de [[Caractéristiques des armures#BONUSARMUREBOUCLIER|bouclier]] s’il est pris au dépourvu ou perd son bonus de Dextérité à la Défense ; par conséquent, le score de Défense d’un personnage pris au dépourvu est égal à sa Défense moins ses bonus de Dextérité et de [[Caractéristiques des armures#BONUSARMUREBOUCLIER|bouclier]].
 
-'''Défense et usage du bouclier sans formation'''. Quand une
-créature utilise un bouclier sans la formation adéquate, le
-[[Caractéristiques des armures#MALUSARMURE|malus d’armure aux tests]] du bouclier doit être appliqué
-comme pénalité au bonus de Défense apporté par le
-[[Caractéristiques des armures#BONUSARMUREBOUCLIER|bouclier]], en plus des [[Caractéristiques des armures#MALUSARMURE|autres pénalités]] liées à l’utilisation
-d’un bouclier sans la formation adéquate. De surcroît, cette
-pénalité s’applique aussi à la Défense quand la créature est
-[[États préjudiciables#Prisaudépourvu|prise au dépourvu]], le bouclier représentant plus une gêne
-qu’une défense efficace face aux attaques ennemies.
+'''Défense et usage du bouclier sans formation'''. Quand une créature utilise un bouclier sans la formation adéquate, le [[Caractéristiques des armures#MALUSARMURE|malus d’armure aux tests]] du bouclier doit être appliqué comme pénalité au bonus de Défense apporté par le [[Caractéristiques des armures#BONUSARMUREBOUCLIER|bouclier]], en plus des [[Caractéristiques des armures#MALUSARMURE|autres pénalités]] liées à l’utilisation d’un bouclier sans la formation adéquate. De surcroît, cette pénalité s’applique aussi à la Défense quand la créature est [[pris au dépourvu|prise au dépourvu]], le bouclier représentant plus une gêne qu’une défense efficace face aux attaques ennemies.
 
+===L'armure comme RD===
+Dans ce système, les armures conservent toutes leurs statistiques et qualités habituelles, mais leur [[Caractéristiques des armures#BONUSARMUREBOUCLIER|bonus d’armure]] (qui inclut tous les [[Valeurs de combat#BONUSALTERATION|bonus d’altération]] ajoutés au [[Caractéristiques des armures#BONUSARMUREBOUCLIER|bonus d’armure]] et au [[Valeurs de combat#BONUSARMURENATURELLE|bonus d'armure naturelle]]) est converti en [[Réduction de dégâts (capacité)|RD]]/armure. Si la créature portant l’armure possède la formation adéquate, la RD qu’une armure octroie est égale au [[Caractéristiques des armures#BONUSARMUREBOUCLIER|bonus d’armure]] total avec un bonus de +1 au niveau 5 ou au cinquième dé de vie, et une augmentation de ce bonus de +1 tous les cinq niveaux au-delà du niveau 5, ou tous les 5 dés de vie après les cinq premiers (jusqu’à un bonus maximum de +4 à la RD au niveau 20 ou lorsque la créature possède 20 dés de vie ou plus).
 
-===L'armure comme [[Réduction de dégâts (capacité)|RD]]===
-Dans ce système, les armures conservent toutes leurs
-statistiques et qualités habituelles, mais leur [[Caractéristiques des armures#BONUSARMUREBOUCLIER|bonus d’armure]]
-(qui inclut tous les [[Valeurs de combat#BONUSALTERATION|bonus d’altération]] ajoutés au [[Caractéristiques des armures#BONUSARMUREBOUCLIER|bonus d’armure]]
-et au [[Valeurs de combat#BONUSARMURENATURELLE|bonus d'armure naturelle]]) est converti en [[Réduction de dégâts (capacité)|RD]]/armure. Si
-la créature portant l’armure possède la formation adéquate, la
-[[Réduction de dégâts (capacité)|RD]] qu’une armure octroie est égale au [[Caractéristiques des armures#BONUSARMUREBOUCLIER|bonus d’armure]] total
-avec un bonus de +1 au niveau 5 ou au cinquième dé de vie, et
-une augmentation de ce bonus de +1 tous les cinq niveaux au-delà
-du niveau 5, ou tous les 5 dés de vie après les cinq premiers
-(jusqu’à un bonus maximum de +4 à la [[Réduction de dégâts (capacité)|RD]] au niveau 20 ou
-lorsque la créature possède 20 dés de vie ou plus).
+'''Port de l’armure sans formation.''' Les créatures portant une armure sans la formation adéquate ne bénéficient pas du bonus appliqué en fonction du niveau (ou des dés de vie) à la [[Réduction de dégâts (capacité)|RD]], ce qui s’ajoute aux [[Caractéristiques des armures#MALUSARMURE|autres pénalités]] normalement appliquées lorsqu’une créature porte une armure sans formation.
 
-'''Port de l’armure sans formation'''. Les créatures portant une
-armure sans la formation adéquate ne bénéficient pas du bonus
-appliqué en fonction du niveau (ou des dés de vie) à la [[Réduction de dégâts (capacité)|RD]], ce
-qui s’ajoute aux [[Caractéristiques des armures#MALUSARMURE|autres pénalités]] normalement appliquées
-lorsqu’une créature porte une armure sans formation.
-
-<div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
-<div style="border: 1px solid #4b3124; padding: 4px">
-{s:Reference|TABCOMPOSITION}
-<center>
-{| CLASS="tablo"
-|+ Composition des armures et RD
+<div style="float:right; background-color: #fff; padding: 0 0 8px 10px">
+<div style="border: 1px solid #4b3124; padding: 4px; max-width: 450px">
+{| CLASS="tablo centre toutgauche autoalt"
+|+ {s:Reference|TABCOMPOSITION}Composition des armures et RD
 |- CLASS="titre"
 | Matériel || RD obtenue || Taille pour ignorer la RD
+|- CLASS="premier"
+| Armure non magique<sup>[[#NOTE1|1]]</sup> || RD/magique || G
 |-
-| Armure non magique<sup>([[#NOTE1|1]])</sup> || RD/magique || G
-|- CLASS="alt"
-| Armure magique<sup>([[#NOTE1|1]])</sup> || RD/adamantium || TG
+| Armure magique<sup>[[#NOTE1|1]]</sup> || RD/adamantium || TG
 |-
-| Armure adamantine<sup>([[#NOTE1|1]])</sup> || RD/— || Gig
+| Armure adamantine<sup>[[#NOTE1|1]]</sup> || RD/— || Gig
+|- CLASS="note"
+| COLSPAN="3" | ''{s:Reference|NOTE1}(1) Les armes de lumière outrepassent toutes les RD procurées par les armures. De surcroît, la RD des armures est divisée par deux quand la créature est agrippée ou enchevêtrée, et ne s’applique pas quand une créature est sans défense ou immobilisée.''
 |}
-</center>
-''{s:Reference|NOTE1}
-(1) Les armes de lumière outrepassent toutes les RD procurées par les{br}
-armures. De surcroît, la RD des armures est divisée par deux quand la{br}
-créature est agrippée ou enchevêtrée, et ne s’applique pas quand une{br}
-créature est sans défense ou immobilisée.''
-</div></div>
-'''RD/Armure'''. Ce type de [[Réduction de dégâts (capacité)|RD]] bloque les dommages de
-toutes les attaques qui seraient normalement affectées
-par la [[Réduction de dégâts (capacité)|RD]], en fonction de la composition de l’armure (voir
-la table [[#TABCOMPOSITION|Composition des armures et RD]] ci-contre). Contrairement à la plupart des autres formes
-de réduction des dégâts, la [[Réduction de dégâts (capacité)|RD]]/armure peut se cumuler
-avec les autres types de [[Réduction de dégâts (capacité)|RD]]. Par exemple, lors d’un combat
-avec un squelette qui bénéficie de [[Réduction de dégâts (capacité)|RD]] 5/contondant et de
-[[Réduction de dégâts (capacité)|RD]] 4/armure (+2 d’armure, +2 d’armure naturelle), la [[Réduction de dégâts (capacité)|RD]]/armure du squelette réduit de 9 points les dégâts issus
-d’attaques non contondantes, et de 4 points les dégâts des
-armes contondantes. Les armes magiques et les attaques
-des créatures de taille G (et au-delà) passent outre la [[Réduction de dégâts (capacité)|RD]] 4/armure, mais ne contournent pas la [[Réduction de dégâts (capacité)|RD]] 5/contondant.
+</div></div>'''RD/Armure.''' Ce type de [[Réduction de dégâts (capacité)|RD]] bloque les dommages de toutes les attaques qui seraient normalement affectées par la RD, en fonction de la composition de l’armure (voir la table "[[Larmure comme RD#TABCOMPOSITION|Composition des armures et RD]]" ci-contre). Contrairement à la plupart des autres formes de réduction des dégâts, la RD/armure peut se cumuler avec les autres types de RD. Par exemple, lors d’un combat avec un squelette qui bénéficie de RD 5/contondant et de RD 4/armure (+2 d’armure, +2 d’armure naturelle), la RD/armure du squelette réduit de 9 points les dégâts issus d’attaques non contondantes, et de 4 points les dégâts des armes contondantes. Les armes magiques et les attaques des créatures de taille G (et au-delà) passent outre la RD 4/armure, mais ne contournent pas la RD 5/contondant.
 
-'''Bonus d’armure naturelle et RD'''. De la même manière que
-le [[Caractéristiques des armures#BONUSARMUREBOUCLIER|bonus d’armure]], le [[Valeurs de combat#BONUSARMURENATURELLE|bonus d'armure naturelle]] se convertit
-en [[Réduction de dégâts (capacité)|Réduction de Dégâts]]. Si une créature porte une armure
-et bénéficie d’un [[Valeurs de combat#BONUSARMURENATURELLE|bonus d'armure naturelle]], la créature
-additionne son [[Caractéristiques des armures#BONUSARMUREBOUCLIER|bonus d’armure]] et son [[Valeurs de combat#BONUSARMURENATURELLE|bonus d'armure naturelle]] pour déterminer la valeur de la [[Réduction de dégâts (capacité)|RD]]/armure dont
-elle profite (voir la table [[#TABCONVERSION|Conversion des armures naturelles en RD]] ci-contre).
-
-<div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
-<div style="border: 1px solid #4b3124; padding: 4px">
-{s:Reference|TABCONVERSION}
-<center>
-{| CLASS="tablo"
+<div style="float:right; background-color: #fff; padding: 0 0 8px 10px">
+<div style="border: 1px solid #4b3124; padding: 4px; max-width: 450px">
+{| CLASS="tablo centre toutgauche autoalt"
 |+ Conversion des armures naturelles en RD
 |- CLASS="titre"
 | Armure naturelle/RD || RD obtenue || Taille pour ignorer la RD
-|-
+|- CLASS="premier"
 | Armure naturelle || RD/magique || G
-|- CLASS="alt"
+|-
 | Avec RD/magique || RD/adamantium || TG
 |-
 | Avec RD/adamantium || RD/— || Gig
-|- CLASS="alt"
-| Avec RD/— || RD/—<sup>([[#NOTE2|1]])</sup> || C
 |-
-| Avec RD/épique || RD/épique<sup>([[#NOTE2|1]])</sup> || n/a
+| Avec RD/— || RD/—<sup>[[#NOTE2|1]]</sup> || C
+|-
+| Avec RD/épique || RD/épique<sup>[[#NOTE2|1]]</sup> || n/a
+|- CLASS="note"
+| COLSPAN="3" | ''{s:Reference|NOTE2}(1) Une créature bénéficiant déjà d’une RD/– ou d’une RD/épique augmente sa RD d’un montant égal à son bonus d’armure naturelle.''
 |}
-</center>
-''{s:Reference|NOTE2}
-(1) Une créature bénéficiant déjà d’une RD/– ou d’une RD/épique augmente{br}
-sa RD d’un montant égal à son bonus d’armure naturelle.''
-</div></div>
+</div></div>'''Bonus d’armure naturelle et RD.''' De la même manière que le [[Caractéristiques des armures#BONUSARMUREBOUCLIER|bonus d’armure]], le [[Valeurs de combat#BONUSARMURENATURELLE|bonus d'armure naturelle]] se convertit en [[Réduction de dégâts (capacité)|Réduction de Dégâts]]. Si une créature porte une armure et bénéficie d’un bonus d'armure naturelle, la créature additionne son [[Caractéristiques des armures#BONUSARMUREBOUCLIER|bonus d’armure]] et son bonus d'armure naturelle pour déterminer la valeur de la [[Réduction de dégâts (capacité)|RD]]/armure dont elle profite (voir la table "[[Larmure comme RD#TABCONVERSION|Conversion des armures naturelles en RD]]" ci-contre).
 
-Si, par exemple, une créature portant une ''chemise de mailles'' +2
-a une [[Réduction de dégâts (capacité)|RD]] 6/armure et qu’elle reçoit un sort de [[Peau décorce|peau d’écorce]] lancé
-par un [[Druide]] de niveau 6 (gagnant ainsi un [[Valeurs de combat#BONUSARMURENATURELLE|bonus d'armure naturelle]] de +3), sa réduction de dégâts passe à [[Réduction de dégâts (capacité)|RD]] 9/armure
-pour la durée du sort. Les armes en adamantium et les attaques
-des créatures de taille TG et au-delà passent outre cette [[Réduction de dégâts (capacité)|RD]].
+Si, par exemple, une créature portant une ''chemise de mailles'' +2 a une [[Réduction de dégâts (capacité)|RD]] 6/armure et qu’elle reçoit un sort de ''[[peau décorce|peau d’écorce]]'' lancé par un [[Druide]] de niveau 6 (gagnant ainsi un [[Valeurs de combat#BONUSARMURENATURELLE|bonus d'armure naturelle]] de +3), sa réduction de dégâts passe à RD 9/armure pour la durée du sort. Les armes en adamantium et les attaques des créatures de taille TG et au-delà passent outre cette RD.
 
-Une créature ayant à la fois un [[Valeurs de combat#BONUSARMURENATURELLE|bonus d'armure naturelle]] et
-une [[Réduction de dégâts (capacité)|RD]] issue d’une source autre que l’armure profite des effets
-d’une forme améliorée de [[Réduction de dégâts (capacité)|RD]], comparable à la manière dont la
-composition d’une armure accorde des privilèges particuliers
-à la [[Réduction de dégâts (capacité)|RD]]/armure et à la défense (voir
-la table [[#TABCOMPOSITION|Composition des armures et RD]] ci-contre). Si une créature
-bénéficie d’une armure magique, d’une armure naturelle et
-d’une [[Réduction de dégâts (capacité)|RD]], elle choisit la meilleure forme de protection spéciale
-fournie par son armure et par la combinaison de sa [[Réduction de dégâts (capacité)|RD]] et de
-son armure naturelle pour en faire sa [[Réduction de dégâts (capacité)|RD]]/armure.
-Par exemple, si la créature a une armure naturelle et une
-[[Réduction de dégâts (capacité)|RD]]/magique et qu’elle porte une armure adamantine, la
-[[Réduction de dégâts (capacité)|RD]]/armure de la créature fonctionne comme une [[Réduction de dégâts (capacité)|RD]]/–, et
-ne peut être contournée que par les créatures de taille Gig
-et au-delà. On applique la protection spéciale octroyée par
-l’armure adamantine, parce qu’elle offre la meilleure des
-deux [[Réduction de dégâts (capacité)|réductions de dégâts]].
+Une créature ayant à la fois un [[Valeurs de combat#BONUSARMURENATURELLE|bonus d'armure naturelle]] et une [[Réduction de dégâts (capacité)|RD]] issue d’une source autre que l’armure profite des effets d’une forme améliorée de RD, comparable à la manière dont la composition d’une armure accorde des privilèges particuliers à la RD/armure et à la défense (voir la table "[[Larmure comme RD#TABCOMPOSITION|Composition des armures et RD]]" ci-contre). Si une créature bénéficie d’une armure magique, d’une armure naturelle et d’une RD, elle choisit la meilleure forme de protection spéciale fournie par son armure et par la combinaison de sa RD et de son armure naturelle pour en faire sa RD/armure. Par exemple, si la créature a une armure naturelle et une RD/magique et qu’elle porte une armure adamantine, la RD/armure de la créature fonctionne comme une RD/–, et ne peut être contournée que par les créatures de taille Gig et au-delà. On applique la protection spéciale octroyée par l’armure adamantine, parce qu’elle offre la meilleure des deux [[Réduction de dégâts (capacité)|réductions de dégâts]].
 
-<div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
-<div style="border: 1px solid #4b3124; padding: 4px">
-{s:Reference|TABINHABITUELLES}
-<center>
-{| CLASS="tablo"
+<div style="float:right; background-color: #fff; padding: 0 0 8px 10px">
+<div style="border: 1px solid #4b3124; padding: 4px; max-width; max-width: 450px">
+{| CLASS="tablo centre toutgauche autoalt"
 |+ Créatures inhabituelles et RD/armure
 |- CLASS="titre"
 | Type de la créature attaquant || Modificateur à la RD
+|- CLASS="premier"
+| Informe<sup>[[#NOTE3|1]]</sup> || ×1/2
 |-
-| Informe<sup>([[#NOTE3|1]])</sup> || ×1/2
-|- CLASS="alt"
-| [[Intangible (capacité)|Intangible]] || ×0 (×1 si la RD est dûe à un effet{br} de force ou à une armure spectrale)
+| [[Intangible (capacité)|Intangible]] || ×0 (×1 si la RD est dûe à un effet de force ou à une armure spectrale)
 |- 
 | Nuée de créatures TP || ×1/2
-|- CLASS="alt"
+|-
 | Nuée de créatures Min || ×1/4
 |-
 | Nuée de créatures I || ×0
+|- CLASS="note"
+| COLSPAN="3" | ''{s:Reference|NOTE3}(1) Élémentaux, vases, créatures de type vase et toutes celles qui possèdent la capacité défensive [[Amorphe (capacité)|amorphe]].''
 |}
-</center>
-''{s:Reference|NOTE3}
-(1) Élémentaux, vases, créatures de type vase et toutes celles qui possèdent{br}
-le trait défensif informe (voir [[Amorphe (capacité)|Amorphe]]).''
-</div></div>
-'''Créatures inhabituelles et [[Réduction de dégâts (capacité)|RD]]/armure'''. Les créatures
-informes ([[Amorphe (capacité)|amorphes]]) et les créatures [[Intangible (capacité)|intangibles]] ont des
-facilités pour passer outre la [[Réduction de dégâts (capacité)|RD]]/armure. Quand une créature
-informe attaque une créature possédant une [[Réduction de dégâts (capacité)|RD]]/armure, le
-montant de sa [[Réduction de dégâts (capacité)|RD]] est généralement divisé. Parallèlement,
-les attaques des créatures [[Intangible (capacité)|intangibles]] ignorent entièrement
-la [[Réduction de dégâts (capacité)|RD]], sauf dans le cas où la [[Réduction de dégâts (capacité)|RD]] vient d’un effet de force ou
-d’une armure possédant la propriété spectrale. Ces traits sont
-détaillés dans la table «&nbsp;[[#TABINHABITUELLES|Créatures inhabituelles et RD/armure]]&nbsp;» ci-contre.
+</div></div>'''Créatures inhabituelles et [[Réduction de dégâts (capacité)|RD]]/armure.''' Les créatures informes ([[Amorphe (capacité)|amorphes]]) et les créatures [[Intangible (capacité)|intangibles]] ont des facilités pour passer outre la RD/armure. Quand une créature informe attaque une créature possédant une RD/armure, le montant de sa RD est généralement divisé. Parallèlement, les attaques des créatures [[Intangible (capacité)|intangibles]] ignorent entièrement la RD, sauf dans le cas où la RD vient d’un effet de force ou d’une armure possédant la propriété spectrale. Ces traits sont détaillés dans la table "[[Larmure comme RD#TABINHABITUELLES|Créatures inhabituelles et RD/armure]]" ci-contre.
 
-
-
-
+{s:ClearRight}
 ===Coups critiques et défense===
-Dans ce système alternatif, quand une créature obtient
-une possibilité de [[Actions simples#COUPCRITIQUE|coup critique]], elle ne fait pas un jet de
-confirmation de critique pour confirmer son résultat. En
-revanche, la cible du coup tente un jet de défense critique. Le jet
-de défense critique se fait avec 1d20 + un bonus égal à la [[Réduction de dégâts (capacité)|RD]] de la
-créature + le modificateur de [[Dextérité]] de la créature (jusqu’au
-[[Caractéristiques des armures#BONUSDEXMAX|bonus de Dextérité maximal]] autorisé par l’armure qu’elle porte)
-+ la somme des bonus de parade et de bouclier à la Défense.
+Dans ce système alternatif, quand une créature obtient une possibilité de [[coup critique]], elle ne fait pas un jet de confirmation de critique pour confirmer son résultat. En revanche, la cible du coup tente un jet de défense critique. Le jet de défense critique se fait avec 1d20 + un bonus égal à la [[Réduction de dégâts (capacité)|RD]] de la créature + le modificateur de [[Dextérité]] de la créature (jusqu’au [[Caractéristiques des armures#BONUSDEXMAX|bonus de Dextérité maximal]] autorisé par l’armure qu’elle porte) + la somme des bonus de parade et de bouclier à la Défense.
+
 <div class="presentation arrondi recentre ombre"><center>
-'''Bonus au jet de défense critique'''{br}={br}
-RD de la créature + modificateur de [[Dextérité]] + bonus de bouclier à la Défense + bonus de parade
+'''Bonus au jet de défense critique'''{br}={br}RD de la créature + modificateur de [[Dextérité]] + bonus de bouclier à la Défense + bonus de parade
 </center></div>
-Le DD du test est basé sur le résultat du dé lors de
-l’obtention du [[Actions simples#COUPCRITIQUE|critique]] potentiel. Celui-ci est modifié par le
-bonus de base à l’attaque de la créature à l’origine de l’assaut,
-par le nombre de [[Dons#Dons_de_critique_1|dons de critique]] dont elle dispose (si elle en
-a et dans une limite de 10 au maximum), et par un bonus en
-fonction de la différence de taille entre la créature attaquant
-et la cible du coup critique, dans le cas où la créature
-attaquant est plus grande que la créature attaquée.
+
+Le DD du test est basé sur le résultat du dé lors de l’obtention du [[coup critique|critique potentiel]]. Celui-ci est modifié par le bonus de base à l’attaque de la créature à l’origine de l’assaut, par le nombre de [[Dons#Dons_de_critique_1|dons de critique]] dont elle dispose (si elle en a et dans une limite de 10 au maximum), et par un bonus en fonction de la différence de taille entre la créature attaquant et la cible du coup critique, dans le cas où la créature attaquant est plus grande que la créature attaquée.
+
 <div class="presentation arrondi recentre ombre"><center>
-'''DD du jet de défense critique'''{br}={br}
-résultat du jet de critique +
-1/2 du [[Vocabulaire courant#BONUSDEBASEALATTAQUE|BBA]] de l’attaquant + 1 pour chaque [[Dons#Dons_de_critique_1|don de critique]]{br}
-+ 1 pour chaque catégorie de taille que l’attaquant a de plus
-que sa cible
+'''DD du jet de défense critique'''{br}={br}résultat du jet de critique + 1/2 du [[BBA]] de l’attaquant + 1 pour chaque [[Dons#DONCRITIQUE|don de critique]]{br}+ 1 pour chaque catégorie de taille que l’attaquant a de plus que sa cible
 </center></div>
-Par exemple, si une créature de taille M est frappée par un trait
-d’arbalète tiré par un [[guerrier]] de niveau 6 de taille M possédant
-deux [[Dons#Dons_de_critique_1|dons de critique]], et que son jet d’attaque critique a donné
-un 19, la cible du [[Actions simples#COUPCRITIQUE|critique]] potentiel doit faire un jet de défense
-critique face à un DD de 24 pour ramener le [[Actions simples#COUPCRITIQUE|coup critique]] à
-un coup normal. Si la cible porte une ''armure de cuir +1'', a une
-[[Dextérité]] de 18, et utilise une ''targe +1'', cette cible aura un bonus
-de +9 à son jet de défense critique pour réduire le [[Actions simples#COUPCRITIQUE|coup critique]]
-à une attaque normale. Avec un résultat de 15 ou plus, le [[Actions simples#COUPCRITIQUE|coup critique]]
-est réduit à une frappe normale, et la cible reçoit des
-dégâts normaux pour ce coup (lesquels sont réduits par la [[Réduction de dégâts (capacité)|RD]]).
-Si la créature ayant tiré avec l’arbalète avait obtenu un 20 sur son
-jet, la cible du [[Actions simples#COUPCRITIQUE|coup critique]] aurait eu besoin d’un résultat de 16
-ou plus sur son jet de défense critique pour réduire l’impact du
-[[Actions simples#COUPCRITIQUE|coup critique]] et transformer celui-ci en coup normal.
 
-En cas d’échec au jet de défense critique, la cible du [[Actions simples#COUPCRITIQUE|coup critique]]
-reçoit les dégâts du [[Actions simples#COUPCRITIQUE|coup critique]]. Ces dégâts sont
-cependant toujours réduits par la [[Réduction de dégâts (capacité)|RD]] de la cible du [[Actions simples#COUPCRITIQUE|coup critique]].
+Par exemple, si une créature de taille M est frappée par un trait d’arbalète tiré par un [[guerrier]] de niveau 6 de taille M possédant deux [[Dons#Dons_de_critique_1|dons de critique]], et que son jet d’attaque critique a donné un 19, la cible du [[coup critique|critique potentiel]] doit faire un jet de défense critique face à un DD de 24 pour ramener le [[coup critique]] à un coup normal. Si la cible porte une ''armure de cuir +1'', a une [[Dextérité]] de 18, et utilise une ''targe +1'', cette cible aura un bonus de +9 à son jet de défense critique pour réduire le [[coup critique]] à une attaque normale. Avec un résultat de 15 ou plus, le coup critique est réduit à une frappe normale, et la cible reçoit des dégâts normaux pour ce coup (lesquels sont réduits par la [[Réduction de dégâts (capacité)|RD]]). Si la créature ayant tiré avec l’arbalète avait obtenu un 20 sur son jet, la cible du coup critique aurait eu besoin d’un résultat de 16 ou plus sur son jet de défense critique pour réduire l’impact du coup critique et transformer celui-ci en coup normal.
 
-'''Propriété spéciale des armures de défense'''. Lorsqu’une
-armure bénéficie de la propriété spéciale de [[défense légère (propriété)|défense]], cette
-propriété agit de concert avec le jet de défense critique et
-entre en jeu en cas d’échec au jet de défense critique.
+En cas d’échec au jet de défense critique, la cible du [[coup critique]] reçoit les dégâts du coup critique. Ces dégâts sont cependant toujours réduits par la [[Réduction de dégâts (capacité)|RD]] de la cible du coup critique.
 
+'''Propriété spéciale des armures de défense'''. Lorsqu’une armure bénéficie de la propriété spéciale de [[défense légère (propriété)|défense]], cette propriété agit de concert avec le jet de défense critique et entre en jeu en cas d’échec au jet de défense critique.

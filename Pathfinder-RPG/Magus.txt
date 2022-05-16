@@ -1,40 +1,20 @@
 ---
 Name: Pathfinder-RPG.Magus
 Title: Le magus
-LastModified: 2020-03-20 17:49
+LastModified: 2022-04-09 21:23
 Categories:
-  - 'Art de la Magie'
   - 'Classe'
-  - 'Règles officielles'
+  - 'Règle officielle'
+  - 'Src Art de la magie'
 ---
 {s:Menuclassessupplémentaires}
-<div class="fright">'''''Voir les [[arcanes]] de magus.'''''<br/>
-'''''Voir aussi la [[Liste des sorts de magus]].'''''<br/>
-{s:PM0|magus}'''''Voir les archétypes du magus'''''&emsp;
-<ul ID="magus" CLASS="listecachée cadrebas">
-  <li>[[Archer occulte (magus)|Archer occulte]] (HOTS)</li>
-  <li>[[Chevalier élémentaire (magus)|Chevalier élémentaire]] ([[suli (race)|Suli]]) (MR)</li>
-  <li>[[Danse-sort (magus)|Danse-sort]] ([[Elfe]]) (MR)</li>
-  <li>[[Défenseur de la tour (magus)|Défenseur de la tour]] (MMI)</li>
-  <li>[[Écorcheur fiélon (magus)|Écorcheur fiélon]] ([[tieffelin (race)|Tieffelin]]) (MR)</li>
-  <li>[[Ésotériste (magus)|Ésotériste]] (AO)</li>
-  <li>[[Forgeâme (magus)|Forgeâme]] (AG)</li>
-  <li>[[Kensai (magus)|Kensai]] (AG)</li>
-  <li>[[Lamelié]] (AM)</li>
-  <li>[[Lamesprit (magus)|Lamesprit]] (AO)</li>
-  <li>[[Lamesort]] (AM)</li>
-  <li>[[Lanceur de maléfices]] (AM)</li>
-  <li>[[Myrmidarque (magus)|Myrmidarque]] (AG)</li>
-  <li>[[Rejeton étrange (magus)|Rejeton étrange]] (MCA)</li>
-  <li>[[Skirnir (magus)|Skirnir]] (AG)</li>
-  <li>[[Spécialiste du bâton]] (AM)</li>
-</ul></div>
-<br/>
+<div class="fright">'''''Voir les [[Arcanes|arcanes de magus]].'''''  
+'''''Voir aussi la [[Liste des sorts de magus|liste des sorts de magus]].'''''  
+{s:PM0|magus}'''Voir les archétypes du magus'''&emsp;
+  <li ID="magus" CLASS="listecachée" STYLE="display:none">{s:Menuarchétypemagus}</li>
+</div>{s:um}''Il y a des gens qui passent leur vie à lire d’anciens ouvrages et des textes antiques pour obtenir des pouvoirs magiques et d’autres qui consacrent tout leur temps à améliorer leur maîtrise des armes pour devenir des maîtres inégalés. Le magus est un élève des deux philosophies qui fusionne les aptitudes magiques avec les prouesses martiales pour former un ensemble unique, une discipline qui lui permet d’utiliser les sorts et l’acier avec un effet dévastateur. Alors que son pouvoir augmente, le magus accède à une puissante magie qui lui permet d’unir encore plus pleinement ses talents et, au sommet de son art, il devient une véritable tornade d’acier et de magie, une force à laquelle peu d’ennemis osent s’opposer.''
 
-{s:um}''Il y a des gens qui passent leur vie à lire d’anciens ouvrages et des textes antiques pour obtenir des pouvoirs magiques et d’autres qui consacrent tout leur temps à améliorer leur maîtrise des armes pour devenir des maîtres inégalés. Le magus est un élève des deux philosophies qui fusionne les aptitudes magiques avec les prouesses martiales pour former un ensemble unique, une discipline qui lui permet d’utiliser les sorts et l’acier avec un effet dévastateur. Alors que son pouvoir augmente, le magus accède à une puissante magie qui lui permet d’unir encore plus pleinement ses talents et, au sommet de son art, il devient une véritable tornade d’acier et de magie, une force à laquelle peu d’ennemis osent s’opposer.''
-
-<center>
-{| CLASS="tablo"
+{| CLASS="tablo centre"
 |+ Le magus
 |- CLASS="titre"
 | ROWSPAN="2" | Niveau
@@ -333,13 +313,14 @@ Categories:
 | 5
 | 5
 |}
-</center>
 
 '''Rôle.''' Les magi passent le plus clair de leur temps à parcourir le monde pour apprendre tous les secrets magiques ou martiaux qu’ils peuvent. Il leur arrive de rester des mois à apprendre un nouveau style d’escrime auprès d’un maître d’arme tout en passant leurs nuits à la bibliothèque, penchés sur d’anciens ouvrages. La plupart des gens qui empruntent cette voie possèdent toutes sortes de connaissances et tiennent compte de tout ce qui pourrait les aider dans leur recherche de la perfection.
 
 '''Alignement.''' Au choix.
 
 '''Dés de vie.''' d8.
+
+'''Argent de départ.''' 4d6 x 10 po (moyenne 140 po).
 
 === Compétences de classe ===
 Les compétences de classe du magus sont les suivantes : [[Art de la magie]] (Int), [[Artisanat]] (Int), [[Connaissances]] (exploration souterraine) (Int), [[Connaissances]] (mystères) (Int), [[Connaissances]] (plans) (Int),  [[Équitation]] (Dex), [[Escalade]] (For), [[Intimidation]] (Cha), [[Natation]] (For), [[Profession]] (Sag), [[Utilisation dobjets magiques|Utilisation d'objets magiques]] (Cha) et [[Vol]] (Dex).
@@ -464,7 +445,6 @@ Au niveau 14, le magus parvient à lancer des sorts sans risque d’erreur tout 
 À partir du niveau 16, quand un ennemi situé à portée du magus lance un sort sur la [[incantation sur la défensive|défensive]], il provoque une [[attaque dopportunité|attaque d’opportunité]] de la part du magus une fois le sort lancé. Cette attaque n’interrompt pas le sort.
 
 {s:Reference|ACCESAUXSORTSSUPERIEURS}
-
 ====Accès aux sorts supérieur (Sur)====
 Au niveau 19, le magus a accès à une liste de sorts plus développée. Il apprend quatorze sorts de magicien supplémentaires dans son grimoire, qu’il note comme des sorts de magus de même niveau. Pour chacun des niveaux suivants, il apprend deux [[Liste des sorts densorceleursmagiciens|sorts de magicien]] qui ne figurent pas sur la liste du magus : niveaux 0, 1, 2, 3, 4, 5 et 6. 
 

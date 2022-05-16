@@ -1,785 +1,22 @@
 ---
 Name: Pathfinder-RPG.Temp- Tests snippets
 Title: Temp- Tests snippets
-LastModified: 2020-08-15 23:34
+LastModified: 2021-10-03 14:49
 ---
 ===Snippets de classes===
-<div class="presentation navmenu"><table><tr style="vertical-align: top"><td width="13%"><center><img ID="menuclasseIMG1" src="/wiki/public/upload/Illustrations/Autres/Head.jpg" WIDTH="90%" style="border: 1px solid #4b3124" /></center></td><td width="100%">
-===Les classes de base===
-<table><tr style="vertical-align: top"><td width="25%"><ul>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Barbare.jpg';">[[Barbare|Le barbare]] (''[[pouvoirs de rage]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Barde.jpg';">[[Barde|Le barde]] (''[[représentations]], [[Chefs doeuvre|chefs d'oeuvre]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Druide.jpg';">[[Druide|Le druide]] (''[[compagnons animaux]], [[Domaines animaux et environnementaux]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Ensorceleur.jpg';">[[Ensorceleur|L'ensorceleur]] (''[[lignages]]'')</li></ul>
-</td><td width="25%"><ul>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Guerrier.jpg';">[[Guerrier|Le guerrier]] (''[[groupe darmes|groupes d'armes]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Magicien.jpg';">[[Magicien|Le magicien]] (''[[écoles de magie]], [[découvertes arcaniques]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Moine.jpg';">[[Moine|Le moine]] (''[[voeux]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Paladin.jpg';">[[Paladin|Le paladin]]</li></ul>
-</td><td width="25%"><ul>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Prêtre.jpg';">[[Prêtre|Le prêtre]] (''[[variantes de canalisation]]'') (''[[domaines]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Rôdeur.jpg';">[[Rôdeur|Le rôdeur]] (''[[compagnons animaux]], [[Pièges de rôdeur]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Roublard.jpg';">[[Roublard|Le roublard]] (''[[talents]]'')</li></ul>
-</td><td width="25%"><ul>
-<li>{s:PM|CLASSESSUPPLEMENTAIRES1}'''''[[Classes#CLASSESSUPPLEMENTAIRES|Classes supplémentaires]]'''''
-  <ul ID="CLASSESSUPPLEMENTAIRES1" CLASS="listecachée cadrebas">
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Alchimiste.jpg';">[[Alchimiste|L'alchimiste]] (''[[Découvertes|découvertes]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Antipaladin.jpg';">[[Antipaladin|L'anti-paladin]]</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Chasseur de vampire.jpg';">[[Chasseur de vampire|Le chasseur de vampire]] ''([[techniques de chasseur de vampire]])''</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Chevalier.jpg';">[[Chevalier|Le chevalier]] (''[[Ordres|ordres]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Conjurateur.jpg';">[[Conjurateur|Le conjurateur]] (''[[eidolon]], [[modèles deidolon|modèles d'eidolon]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Inquisiteur.jpg';">[[Inquisiteur|L'inquisiteur]] (''[[jugements]], [[inquisitions]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Justicier.jpg';">[[Justicier|Le justicier]] ''([[talents sociaux]], [[talents de justicier]])''</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Magus.jpg';">[[Magus|Le magus]] (''[[arcanes]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Métamorphe.jpg';">[[Métamorphe|Le métamorphe]] ''([[Aspects|aspects du métamorphe]])''</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Ninja.jpg';">[[Ninja|Le ninja]] (''[[astuces]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Oracle.jpg';">[[Oracle|L'oracle]] (''[[mystères]], [[malédictions doracle|malédictions]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Pistolier.jpg';">[[Pistolier|Le pistolier]] (''[[exploits]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Samouraï.jpg';">[[Samouraï|Le samouraï]] (''[[ordres]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Sorcière.jpg';">[[Sorcière|La sorcière]] (''[[maléfices]], [[protecteurs]]'')</li>
-  </ul>
-</li>
-<li>{s:PM|CLASSESHYBRIDES1}'''''[[Classes#CLASSESHYBRIDES|Classes hybrides]]'''''
-  <ul ID="CLASSESHYBRIDES1" CLASS="listecachée cadrebas">
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Arcaniste.jpg';">[[Arcaniste|L'arcaniste]] (''[[Exploitations|exploitations]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Bretteur.jpg';">[[Bretteur|Le bretteur]] (''[[Exploits (bretteur)|exploits]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Chaman.jpg';">[[Chaman|Le chaman]] (''[[Esprits (chaman)|esprits]], [[Maléfices (chaman)|maléfices]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Chasseur.jpg';">[[Chasseur|Le chasseur]] (''[[Compagnon animal|compagnon animal]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Enquêteur.jpg';">[[Enquêteur|L'enquêteur]] (''[[Talents (enquêteur)|talents d’enquêteur]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Lutteur.jpg';">[[Lutteur|Le lutteur]] </li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Prêtre combattant.jpg';">[[Prêtre combattant|Le prêtre combattant]] (''[[bénédictions]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Sanguin.jpg';">[[Sanguin|Le sanguin]] (''[[Lignages (sanguin)|lignages]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Scalde.jpg';">[[Scalde|Le scalde]] (''[[Chants de rage|chants de rage]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Tueur.jpg';">[[Tueur|Le tueur]] (''[[Talents (tueur)|talents de tueur]]'')</li>
-  </ul>
-</li>
-<li>{s:PM|CLASSESOCCULTES1}'''''[[Classes#CLASSESOCCULTES|Classes occultes]]'''''
-  <ul ID="CLASSESOCCULTES1" CLASS="listecachée cadrebas">
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Cinétiste.jpg';">[[Cinétiste|Le cinétiste]] (''[[Talents sauvages]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Hypnotiseur.jpg';">[[Hypnotiseur|L'hypnotiseur]] (''[[Inductions]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Médium.jpg';">[[Médium|Le médium]] (''[[Esprits (Médium)|Esprits]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Occultiste.jpg';">[[Occultiste|L'occultiste]] (''[[Écoles instrumentales]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Psychiste.jpg';">[[Psychiste|Le psychiste]] (''[[Disciplines psychiques]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Spirite.jpg';">[[Spirite|Le spirite]] (''[[Fantômes (Spirite)|fantômes]]'') </li>
-  </ul>
-</li>
-
-<li>{s:PM|CLASSESDEPRESTIGE1}'''''[[Classes de prestige]]'''''
-  <ul ID="CLASSESDEPRESTIGE1" CLASS="listecachée cadrebas">
-  <li>[[Agent de terrain des Éclaireurs|L'agent de terrain Explorateur]] (RSE)</li>
-  <li>[[Archer-mage|L'archer-mage]]</li>
-  <li>[[Arpenteur dhorizon|L'arpenteur d'horizon]] (APG)</li>
-  <li>[[Assassin|L'assassin]]</li>
-  <li>[[Assassin des mantes rouges|L'assassin pourpre]] (CCMI)</li>
-  <li>[[Champion occultiste|Le champion occultiste]]</li>
-  <li>[[Chroniqueur|Le chroniqueur]]</li>
-  <li>[[Disciple draconien|Le disciple draconien]]</li>
-  <li>[[Duelliste|Le duelliste]]</li>
-  <li>[[Enfant divin|L'enfant divin]] (MMI)</li>
-  <li>[[Étudiant de la guerre|L'étudiant de la guerre]] (RSE)</li>
-  <li>[[Éclaireur Explorateur|L'explorateur]] (RSE)</li>
-  <li>[[Éclaireur Savant|L'explorateur savant]] (RSE)</li>
-  <li>[[Fidèle défenseur|Le fidèle défenseur]] (APG)</li>
-  <li>[[Gardien de la nature|Le gardien de la nature]] (APG)</li>
-  <li>[[Gardien du savoir|Le gardien du savoir]]</li>
-  <li>[[Héraut|Le héraut]] (APG)</li>
-  <li>[[Légionnaire infernal|Le légionnaire infernal]] (CCMI)</li>
-  <li>[[Mage des glyphes|Le mage des glyphes]] (MMI)</li>
-  <li>[[Maître chymiste|Le maître chymiste]] (APG)</li>
-  <li>[[Maître des ombres|Le maître des ombres]]</li>
-  <li>[[Maître espion|Le maître espion]] (APG)</li>
-  <li>[[Mystificateur profane|Le mystificateur profane]]</li>
-  <li>[[Pirate de la mer Intérieure|Le pirate de Haute mer]] (PMI)</li>
-  <li>[[Prophète enragé|Le prophète enragé]] (APG)</li>
-  <li>[[Templier déchu|Le templier parjure]] (CCMI)</li>
-  <li>[[Théurge mystique|Le théurge mystique]]</li>
-  <li>[[Vengeur sacré|Le vengeur sacré]] (APG)</li>
-  <li>[[Liseuse de tourment|La voyante]] (CCMI)</li>
-  </ul>
-</li>
-
-<li>{s:PM|CLASSESDEPNJ1}'''''[[Classes de PNJ]]'''''
-  <ul ID="CLASSESDEPNJ1" CLASS="listecachée cadrebas">
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/MiniAdepte.jpg';">[[Adepte|L'adepte]]</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/MiniExpert.jpg';">[[Expert|L'expert]]</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/MiniCombattant.jpg';">[[Homme darme|L'homme d'arme]]</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/MiniHomme du Peuple.jpg';">[[Homme du peuple|L'homme du peuple]]</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/MiniNoble.jpg';">[[Noble|Le noble]]</li>
-  </ul>
-</li>
-</ul></td></tr></table>
-</td></tr></table>
-</div>
-
-
-<div class="presentation navmenu"><table><tr style="vertical-align: top"><td width="13%"><center><img ID="menuclasseIMG2" src="/wiki/public/upload/Illustrations/Autres/Head.jpg" WIDTH="90%" style="border: 1px solid #4b3124" /></center></td><td width="86%">
-===Les classes supplémentaires===
-<table><tr style="vertical-align: top"><td width="25%"><ul>
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/Alchimiste.jpg';">[[Alchimiste|L'alchimiste]] (''[[Découvertes|découvertes]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/Antipaladin.jpg';">[[Antipaladin|L'anti-paladin]]</li>
-  <li onmouseover="document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/Chasseur de vampire.jpg';">[[Chasseur de vampire|Le chasseur de vampire]] ''([[techniques de chasseur de vampire]])''</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/Chevalier.jpg';">[[Chevalier|Le chevalier]] (''[[Ordres|ordres]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/Conjurateur.jpg';">[[Conjurateur|Le conjurateur]] (''[[eidolon]], [[modèles deidolon|modèles d'eidolon]]'')</li></ul>
-</td><td width="25%"><ul>
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/Inquisiteur.jpg';">[[Inquisiteur|L'inquisiteur]] (''[[jugements]], [[inquisitions]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/Justicier.jpg';">[[Justicier|Le justicier]] ''([[talents sociaux]], [[talents de justicier]])''</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/Magus.jpg';">[[Magus|Le magus]] (''[[arcanes]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/Métamorphe.jpg';">[[Métamorphe|Le métamorphe]] ''([[Aspects|aspects du métamorphe]])''</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/Ninja.jpg';">[[Ninja|Le ninja]] (''[[astuces]]'')</li></ul>
-</td><td width="25%"><ul>
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/Oracle.jpg';">[[Oracle|L'oracle]] (''[[mystères]], [[malédictions doracle|malédictions]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/Pistolier.jpg';">[[Pistolier|Le pistolier]] (''[[exploits]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/Samouraï.jpg';">[[Samouraï|Le samouraï]] (''[[ordres]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/Sorcière.jpg';">[[Sorcière|La sorcière]] (''[[maléfices]], [[protecteurs]]'')</li></ul>
-</td><td width="25%"><ul>
-<li>{s:PM|CLASSES2}'''''[[Classes#CLASSESDEBASE|Classes de base]]'''''
-  <ul ID="CLASSES2" CLASS="listecachée cadrebas">
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/Barbare.jpg';">[[Barbare|Le barbare]] (''[[pouvoirs de rage]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/Barde.jpg';">[[Barde|Le barde]] (''[[représentations]], [[Chefs doeuvre|chefs d'oeuvre]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/Druide.jpg';">[[Druide|Le druide]] (''[[compagnons animaux]], [[Domaines animaux et environnementaux]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/Ensorceleur.jpg';">[[Ensorceleur|L'ensorceleur]] (''[[lignages]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/Guerrier.jpg';">[[Guerrier|Le guerrier]] (''[[groupe darmes|groupes d'armes]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/Magicien.jpg';">[[Magicien|Le magicien]] (''[[écoles de magie]], [[découvertes arcaniques]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/Moine.jpg';">[[Moine|Le moine]] (''[[voeux]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/Paladin.jpg';">[[Paladin|Le paladin]]</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/Prêtre.jpg';">[[Prêtre|Le prêtre]] (''[[variantes de canalisation]]'') (''[[domaines]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/Rôdeur.jpg';">[[Rôdeur|Le rôdeur]] (''[[compagnons animaux]], [[Pièges de rôdeur]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/Roublard.jpg';">[[Roublard|Le roublard]] (''[[talents]]'')</li>
-  </ul>
-</li>
-<li>{s:PM|CLASSESHYBRIDES2}'''''[[Classes#CLASSESHYBRIDES|Classes hybrides]]'''''
-  <ul ID="CLASSESHYBRIDES2" CLASS="listecachée cadrebas">
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/Arcaniste.jpg';">[[Arcaniste|L'arcaniste]] (''[[Exploitations|exploitations]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/Bretteur.jpg';">[[Bretteur|Le bretteur]] (''[[Exploits (bretteur)|exploits]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/Chaman.jpg';">[[Chaman|Le chaman]] (''[[Esprits (chaman)|esprits]], [[Maléfices (chaman)|maléfices]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/Chasseur.jpg';">[[Chasseur|Le chasseur]] (''[[Compagnon animal|compagnon animal]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/Enquêteur.jpg';">[[Enquêteur|L'enquêteur]] (''[[Talents (enquêteur)|talents d’enquêteur]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/Lutteur.jpg';">[[Lutteur|Le lutteur]] </li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/Prêtre combattant.jpg';">[[Prêtre combattant|Le prêtre combattant]] (''[[bénédictions]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/Sanguin.jpg';">[[Sanguin|Le sanguin]] (''[[Lignages (sanguin)|lignages]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/Scalde.jpg';">[[Scalde|Le scalde]] (''[[Chants de rage|chants de rage]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/Tueur.jpg';">[[Tueur|Le tueur]] (''[[Talents (tueur)|talents de tueur]]'')</li>
-  </ul>
-</li>
-<li>{s:PM|CLASSESOCCULTES2}'''''[[Classes#CLASSESOCCULTES|Classes occultes]]'''''
-  <ul ID="CLASSESOCCULTES2" CLASS="listecachée cadrebas">
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/Cinétiste.jpg';">[[Cinétiste|Le cinétiste]] (''[[Talents sauvages]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/Hypnotiseur.jpg';">[[Hypnotiseur|L'hypnotiseur]] (''[[Inductions]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/Médium.jpg';">[[Médium|Le médium]] (''[[Esprits (Médium)|Esprits]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/Occultiste.jpg';">[[Occultiste|L'occultiste]] (''[[Écoles instrumentales]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/Psychiste.jpg';">[[Psychiste|Le psychiste]] (''[[Disciplines psychiques]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/Spirite.jpg';">[[Spirite|Le spirite]] (''[[Fantômes (Spirite)|fantômes]]'') </li>
-  </ul>
-</li>
-
-<li>{s:PM|CLASSESDEPRESTIGE2}'''''[[Classes de prestige]]'''''
-  <ul ID="CLASSESDEPRESTIGE2" CLASS="listecachée cadrebas">
-  <li>[[Agent de terrain des Éclaireurs|L'agent de terrain Explorateur]] (RSE)</li>
-  <li>[[Archer-mage|L'archer-mage]]</li>
-  <li>[[Arpenteur dhorizon|L'arpenteur d'horizon]] (APG)</li>
-  <li>[[Assassin|L'assassin]]</li>
-  <li>[[Assassin des mantes rouges|L'assassin pourpre]] (CCMI)</li>
-  <li>[[Champion occultiste|Le champion occultiste]]</li>
-  <li>[[Chroniqueur|Le chroniqueur]]</li>
-  <li>[[Disciple draconien|Le disciple draconien]]</li>
-  <li>[[Duelliste|Le duelliste]]</li>
-  <li>[[Enfant divin|L'enfant divin]] (MMI)</li>
-  <li>[[Étudiant de la guerre|L'étudiant de la guerre]] (RSE)</li>
-  <li>[[Éclaireur Explorateur|L'explorateur]] (RSE)</li>
-  <li>[[Éclaireur Savant|L'explorateur savant]] (RSE)</li>
-  <li>[[Fidèle défenseur|Le fidèle défenseur]] (APG)</li>
-  <li>[[Gardien de la nature|Le gardien de la nature]] (APG)</li>
-  <li>[[Gardien du savoir|Le gardien du savoir]]</li>
-  <li>[[Héraut|Le héraut]] (APG)</li>
-  <li>[[Légionnaire infernal|Le légionnaire infernal]] (CCMI)</li>
-  <li>[[Mage des glyphes|Le mage des glyphes]] (MMI)</li>
-  <li>[[Maître chymiste|Le maître chymiste]] (APG)</li>
-  <li>[[Maître des ombres|Le maître des ombres]]</li>
-  <li>[[Maître espion|Le maître espion]] (APG)</li>
-  <li>[[Mystificateur profane|Le mystificateur profane]]</li>
-  <li>[[Pirate de la mer Intérieure|Le pirate de Haute mer]] (PMI)</li>
-  <li>[[Prophète enragé|Le prophète enragé]] (APG)</li>
-  <li>[[Templier déchu|Le templier parjure]] (CCMI)</li>
-  <li>[[Théurge mystique|Le théurge mystique]]</li>
-  <li>[[Vengeur sacré|Le vengeur sacré]] (APG)</li>
-  <li>[[Liseuse de tourment|La voyante]] (CCMI)</li>
-  </ul>
-</li>
-
-<li>{s:PM|CLASSESDEPNJ2}'''''[[Classes de PNJ]]'''''
-  <ul ID="CLASSESDEPNJ2" CLASS="listecachée cadrebas">
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/MiniAdepte.jpg';">[[Adepte|L'adepte]]</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/MiniExpert.jpg';">[[Expert|L'expert]]</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/MiniCombattant.jpg';">[[Homme darme|L'homme d'arme]]</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/MiniHomme du Peuple.jpg';">[[Homme du peuple|L'homme du peuple]]</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG2').src='/wiki/public/upload/Illustrations/PNJ/MiniNoble.jpg';">[[Noble|Le noble]]</li>
-  </ul>
-</li>
-</ul></td></tr></table>
-</td></tr></table>
-</div>
-
-
-<div class="presentation navmenu"><table><tr style="vertical-align: top"><td width="13%"><center><img ID="menuclasseIMG3" src="/wiki/public/upload/Illustrations/Autres/Head.jpg" WIDTH="90%" style="border: 1px solid #4b3124" /></center></td><td width="86%">
-===Les classes hybrides===
-<table><tr style="vertical-align: top"><td width="25%"><ul>
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/Arcaniste.jpg';">[[Arcaniste|L'arcaniste]] (''[[Exploitations|exploitations]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/Bretteur.jpg';">[[Bretteur|Le bretteur]] (''[[Exploits (bretteur)|exploits]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/Chaman.jpg';">[[Chaman|Le chaman]] (''[[Esprits (chaman)|esprits]], [[Maléfices (chaman)|maléfices]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/Chasseur.jpg';">[[Chasseur|Le chasseur]] (''[[Compagnon animal|compagnon animal]]'')</li></ul>
-</td><td width="25%"><ul>
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/Enquêteur.jpg';">[[Enquêteur|L'enquêteur]] (''[[Talents (enquêteur)|talents d’enquêteur]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/Lutteur.jpg';">[[Lutteur|Le lutteur]] </li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/Prêtre combattant.jpg';">[[Prêtre combattant|Le prêtre combattant]] (''[[bénédictions]]'')</li></ul>
-</td><td width="25%"><ul>
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/Sanguin.jpg';">[[Sanguin|Le sanguin]] (''[[Lignages (sanguin)|lignages]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/Scalde.jpg';">[[Scalde|Le scalde]] (''[[Chants de rage|chants de rage]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/Tueur.jpg';">[[Tueur|Le tueur]] (''[[Talents (tueur)|talents de tueur]]'')</li></ul>
-</td><td width="25%"><ul>
-<li>{s:PM|CLASSES3}'''''[[Classes#CLASSESDEBASE|Classes de base]]'''''
-  <ul ID="CLASSES3" CLASS="listecachée cadrebas">
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/Barbare.jpg';">[[Barbare|Le barbare]] (''[[pouvoirs de rage]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/Barde.jpg';">[[Barde|Le barde]] (''[[représentations]], [[Chefs doeuvre|chefs d'oeuvre]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/Druide.jpg';">[[Druide|Le druide]] (''[[compagnons animaux]], [[Domaines animaux et environnementaux]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/Ensorceleur.jpg';">[[Ensorceleur|L'ensorceleur]] (''[[lignages]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/Guerrier.jpg';">[[Guerrier|Le guerrier]] (''[[groupe darmes|groupes d'armes]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/Magicien.jpg';">[[Magicien|Le magicien]] (''[[écoles de magie]], [[découvertes arcaniques]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/Moine.jpg';">[[Moine|Le moine]] (''[[voeux]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/Paladin.jpg';">[[Paladin|Le paladin]]</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/Prêtre.jpg';">[[Prêtre|Le prêtre]] (''[[variantes de canalisation]]'') (''[[domaines]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/Rôdeur.jpg';">[[Rôdeur|Le rôdeur]] (''[[compagnons animaux]], [[Pièges de rôdeur]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/Roublard.jpg';">[[Roublard|Le roublard]] (''[[talents]]'')</li>
-  </ul>
-</li>
-<li>{s:PM|CLASSESSUPPLEMENTAIRES3}'''''[[Classes#CLASSESSUPPLEMENTAIRES|Classes supplémentaires]]'''''
-  <ul ID="CLASSESSUPPLEMENTAIRES3" CLASS="listecachée cadrebas">
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/Alchimiste.jpg';">[[Alchimiste|L'alchimiste]] (''[[Découvertes|découvertes]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/Antipaladin.jpg';">[[Antipaladin|L'anti-paladin]]</li>
-  <li onmouseover="document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/Chasseur de vampire.jpg';">[[Chasseur de vampire|Le chasseur de vampire]] ''([[techniques de chasseur de vampire]])''</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/Chevalier.jpg';">[[Chevalier|Le chevalier]] (''[[Ordres|ordres]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/Conjurateur.jpg';">[[Conjurateur|Le conjurateur]] (''[[eidolon]], [[modèles deidolon|modèles d'eidolon]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/Inquisiteur.jpg';">[[Inquisiteur|L'inquisiteur]] (''[[jugements]], [[inquisitions]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/Justicier.jpg';">[[Justicier|Le justicier]] ''([[talents sociaux]], [[talents de justicier]])''</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/Magus.jpg';">[[Magus|Le magus]] (''[[arcanes]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/Métamorphe.jpg';">[[Métamorphe|Le métamorphe]] ''([[Aspects|aspects du métamorphe]])''</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/Ninja.jpg';">[[Ninja|Le ninja]] (''[[astuces]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/Oracle.jpg';">[[Oracle|L'oracle]] (''[[mystères]], [[malédictions doracle|malédictions]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/Pistolier.jpg';">[[Pistolier|Le pistolier]] (''[[exploits]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/Samouraï.jpg';">[[Samouraï|Le samouraï]] (''[[ordres]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/Sorcière.jpg';">[[Sorcière|La sorcière]] (''[[maléfices]], [[protecteurs]]'')</li>
-  </ul>
-</li>
-<li>{s:PM|CLASSESOCCULTES3}'''''[[Classes#CLASSESOCCULTES|Classes occultes]]'''''
-  <ul ID="CLASSESOCCULTES3" CLASS="listecachée cadrebas">
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/Cinétiste.jpg';">[[Cinétiste|Le cinétiste]] (''[[Talents sauvages]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/Hypnotiseur.jpg';">[[Hypnotiseur|L'hypnotiseur]] (''[[Inductions]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/Médium.jpg';">[[Médium|Le médium]] (''[[Esprits (Médium)|Esprits]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/Occultiste.jpg';">[[Occultiste|L'occultiste]] (''[[Écoles instrumentales]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/Psychiste.jpg';">[[Psychiste|Le psychiste]] (''[[Disciplines psychiques]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/Spirite.jpg';">[[Spirite|Le spirite]] (''[[Fantômes (Spirite)|fantômes]]'') </li>
-  </ul>
-</li>
-
-<li>{s:PM|CLASSESDEPRESTIGE3}'''''[[Classes de prestige]]'''''
-  <ul ID="CLASSESDEPRESTIGE3" CLASS="listecachée cadrebas">
-  <li>[[Agent de terrain des Éclaireurs|L'agent de terrain Explorateur]] (RSE)</li>
-  <li>[[Archer-mage|L'archer-mage]]</li>
-  <li>[[Arpenteur dhorizon|L'arpenteur d'horizon]] (APG)</li>
-  <li>[[Assassin|L'assassin]]</li>
-  <li>[[Assassin des mantes rouges|L'assassin pourpre]] (CCMI)</li>
-  <li>[[Champion occultiste|Le champion occultiste]]</li>
-  <li>[[Chroniqueur|Le chroniqueur]]</li>
-  <li>[[Disciple draconien|Le disciple draconien]]</li>
-  <li>[[Duelliste|Le duelliste]]</li>
-  <li>[[Enfant divin|L'enfant divin]] (MMI)</li>
-  <li>[[Étudiant de la guerre|L'étudiant de la guerre]] (RSE)</li>
-  <li>[[Éclaireur Explorateur|L'explorateur]] (RSE)</li>
-  <li>[[Éclaireur Savant|L'explorateur savant]] (RSE)</li>
-  <li>[[Fidèle défenseur|Le fidèle défenseur]] (APG)</li>
-  <li>[[Gardien de la nature|Le gardien de la nature]] (APG)</li>
-  <li>[[Gardien du savoir|Le gardien du savoir]]</li>
-  <li>[[Héraut|Le héraut]] (APG)</li>
-  <li>[[Légionnaire infernal|Le légionnaire infernal]] (CCMI)</li>
-  <li>[[Mage des glyphes|Le mage des glyphes]] (MMI)</li>
-  <li>[[Maître chymiste|Le maître chymiste]] (APG)</li>
-  <li>[[Maître des ombres|Le maître des ombres]]</li>
-  <li>[[Maître espion|Le maître espion]] (APG)</li>
-  <li>[[Mystificateur profane|Le mystificateur profane]]</li>
-  <li>[[Pirate de la mer Intérieure|Le pirate de Haute mer]] (PMI)</li>
-  <li>[[Prophète enragé|Le prophète enragé]] (APG)</li>
-  <li>[[Templier déchu|Le templier parjure]] (CCMI)</li>
-  <li>[[Théurge mystique|Le théurge mystique]]</li>
-  <li>[[Vengeur sacré|Le vengeur sacré]] (APG)</li>
-  <li>[[Liseuse de tourment|La voyante]] (CCMI)</li>
-  </ul>
-</li>
-
-<li>{s:PM|CLASSESDEPNJ3}'''''[[Classes de PNJ]]'''''
-  <ul ID="CLASSESDEPNJ3" CLASS="listecachée cadrebas">
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/MiniAdepte.jpg';">[[Adepte|L'adepte]]</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/MiniExpert.jpg';">[[Expert|L'expert]]</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/MiniCombattant.jpg';">[[Homme darme|L'homme d'arme]]</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/MiniHomme du Peuple.jpg';">[[Homme du peuple|L'homme du peuple]]</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG3').src='/wiki/public/upload/Illustrations/PNJ/MiniNoble.jpg';">[[Noble|Le noble]]</li>
-  </ul>
-</li>
-</ul></td></tr></table>
-</td></tr></table>
-</div>
-
-<div class="presentation navmenu"><table><tr style="vertical-align: top"><td width="13%"><center><img ID="menuclasseIMG4" src="/wiki/public/upload/Illustrations/Autres/Head.jpg" WIDTH="90%" style="border: 1px solid #4b3124" /></center></td><td width="86%">
-===Les classes occultes===
-<table><tr style="vertical-align: top"><td width="25%"><ul>
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Cinétiste.jpg';">[[Cinétiste|Le cinétiste]] (''[[Talents sauvages]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Hypnotiseur.jpg';">[[Hypnotiseur|L'hypnotiseur]] (''[[Inductions]]'')</li></ul>
-</td><td width="25%"><ul>
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Médium.jpg';">[[Médium|Le médium]] (''[[Esprits (Médium)|Esprits]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Occultiste.jpg';">[[Occultiste|L'occultiste]] (''[[Écoles instrumentales]]'')</li></ul>
-</td><td width="25%"><ul>
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Psychiste.jpg';">[[Psychiste|Le psychiste]] (''[[Disciplines psychiques]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Spirite.jpg';">[[Spirite|Le spirite]] (''[[Fantômes (Spirite)|fantômes]]'') </li></ul>
-</td><td width="25%"><ul>
-<li>{s:PM|CLASSES4}'''''[[Classes#CLASSESDEBASE|Classes de base]]'''''
-  <ul ID="CLASSES4" CLASS="listecachée cadrebas">
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Barbare.jpg';">[[Barbare|Le barbare]] (''[[pouvoirs de rage]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Barde.jpg';">[[Barde|Le barde]] (''[[représentations]], [[Chefs doeuvre|chefs d'oeuvre]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Druide.jpg';">[[Druide|Le druide]] (''[[compagnons animaux]], [[Domaines animaux et environnementaux]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Ensorceleur.jpg';">[[Ensorceleur|L'ensorceleur]] (''[[lignages]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Guerrier.jpg';">[[Guerrier|Le guerrier]] (''[[groupe darmes|groupes d'armes]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Magicien.jpg';">[[Magicien|Le magicien]] (''[[écoles de magie]], [[découvertes arcaniques]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Moine.jpg';">[[Moine|Le moine]] (''[[voeux]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Paladin.jpg';">[[Paladin|Le paladin]]</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Prêtre.jpg';">[[Prêtre|Le prêtre]] (''[[variantes de canalisation]]'') (''[[domaines]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Rôdeur.jpg';">[[Rôdeur|Le rôdeur]] (''[[compagnons animaux]], [[Pièges de rôdeur]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Roublard.jpg';">[[Roublard|Le roublard]] (''[[talents]]'')</li>
-  </ul>
-</li>
-<li>{s:PM|CLASSESSUPPLEMENTAIRES4}'''''[[Classes#CLASSESSUPPLEMENTAIRES|Classes supplémentaires]]'''''
-  <ul ID="CLASSESSUPPLEMENTAIRES4" CLASS="listecachée cadrebas">
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Alchimiste.jpg';">[[Alchimiste|L'alchimiste]] (''[[Découvertes|découvertes]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Antipaladin.jpg';">[[Antipaladin|L'anti-paladin]]</li>
-  <li onmouseover="document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Chasseur de vampire.jpg';">[[Chasseur de vampire|Le chasseur de vampire]] ''([[techniques de chasseur de vampire]])''</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Chevalier.jpg';">[[Chevalier|Le chevalier]] (''[[Ordres|ordres]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Conjurateur.jpg';">[[Conjurateur|Le conjurateur]] (''[[eidolon]], [[modèles deidolon|modèles d'eidolon]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Inquisiteur.jpg';">[[Inquisiteur|L'inquisiteur]] (''[[jugements]], [[inquisitions]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Justicier.jpg';">[[Justicier|Le justicier]] ''([[talents sociaux]], [[talents de justicier]])''</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Magus.jpg';">[[Magus|Le magus]] (''[[arcanes]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Métamorphe.jpg';">[[Métamorphe|Le métamorphe]] ''([[Aspects|aspects du métamorphe]])''</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Ninja.jpg';">[[Ninja|Le ninja]] (''[[astuces]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Oracle.jpg';">[[Oracle|L'oracle]] (''[[mystères]], [[malédictions doracle|malédictions]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Pistolier.jpg';">[[Pistolier|Le pistolier]] (''[[exploits]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Samouraï.jpg';">[[Samouraï|Le samouraï]] (''[[ordres]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Sorcière.jpg';">[[Sorcière|La sorcière]] (''[[maléfices]], [[protecteurs]]'')</li>
-  </ul>
-</li>
-<li>{s:PM|CLASSESHYBRIDES4}'''''[[Classes#CLASSESHYBRIDES|Classes hybrides]]'''''
-  <ul ID="CLASSESHYBRIDES4" CLASS="listecachée cadrebas">
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Arcaniste.jpg';">[[Arcaniste|L'arcaniste]] (''[[Exploitations|exploitations]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Bretteur.jpg';">[[Bretteur|Le bretteur]] (''[[Exploits (bretteur)|exploits]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Chaman.jpg';">[[Chaman|Le chaman]] (''[[Esprits (chaman)|esprits]], [[Maléfices (chaman)|maléfices]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Chasseur.jpg';">[[Chasseur|Le chasseur]] (''[[Compagnon animal|compagnon animal]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Enquêteur.jpg';">[[Enquêteur|L'enquêteur]] (''[[Talents (enquêteur)|talents d’enquêteur]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Lutteur.jpg';">[[Lutteur|Le lutteur]] </li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Prêtre combattant.jpg';">[[Prêtre combattant|Le prêtre combattant]] (''[[bénédictions]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Sanguin.jpg';">[[Sanguin|Le sanguin]] (''[[Lignages (sanguin)|lignages]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Scalde.jpg';">[[Scalde|Le scalde]] (''[[Chants de rage|chants de rage]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/Tueur.jpg';">[[Tueur|Le tueur]] (''[[Talents (tueur)|talents de tueur]]'')</li>
-  </ul>
-</li>
-
-<li>{s:PM|CLASSESDEPRESTIGE4}'''''[[Classes de prestige]]'''''
-  <ul ID="CLASSESDEPRESTIGE4" CLASS="listecachée cadrebas">
-  <li>[[Agent de terrain des Éclaireurs|L'agent de terrain Explorateur]] (RSE)</li>
-  <li>[[Archer-mage|L'archer-mage]]</li>
-  <li>[[Arpenteur dhorizon|L'arpenteur d'horizon]] (APG)</li>
-  <li>[[Assassin|L'assassin]]</li>
-  <li>[[Assassin des mantes rouges|L'assassin pourpre]] (CCMI)</li>
-  <li>[[Champion occultiste|Le champion occultiste]]</li>
-  <li>[[Chroniqueur|Le chroniqueur]]</li>
-  <li>[[Disciple draconien|Le disciple draconien]]</li>
-  <li>[[Duelliste|Le duelliste]]</li>
-  <li>[[Enfant divin|L'enfant divin]] (MMI)</li>
-  <li>[[Étudiant de la guerre|L'étudiant de la guerre]] (RSE)</li>
-  <li>[[Éclaireur Explorateur|L'explorateur]] (RSE)</li>
-  <li>[[Éclaireur Savant|L'explorateur savant]] (RSE)</li>
-  <li>[[Fidèle défenseur|Le fidèle défenseur]] (APG)</li>
-  <li>[[Gardien de la nature|Le gardien de la nature]] (APG)</li>
-  <li>[[Gardien du savoir|Le gardien du savoir]]</li>
-  <li>[[Héraut|Le héraut]] (APG)</li>
-  <li>[[Légionnaire infernal|Le légionnaire infernal]] (CCMI)</li>
-  <li>[[Mage des glyphes|Le mage des glyphes]] (MMI)</li>
-  <li>[[Maître chymiste|Le maître chymiste]] (APG)</li>
-  <li>[[Maître des ombres|Le maître des ombres]]</li>
-  <li>[[Maître espion|Le maître espion]] (APG)</li>
-  <li>[[Mystificateur profane|Le mystificateur profane]]</li>
-  <li>[[Pirate de la mer Intérieure|Le pirate de Haute mer]] (PMI)</li>
-  <li>[[Prophète enragé|Le prophète enragé]] (APG)</li>
-  <li>[[Templier déchu|Le templier parjure]] (CCMI)</li>
-  <li>[[Théurge mystique|Le théurge mystique]]</li>
-  <li>[[Vengeur sacré|Le vengeur sacré]] (APG)</li>
-  <li>[[Liseuse de tourment|La voyante]] (CCMI)</li>
-  </ul>
-</li>
-
-<li>{s:PM|CLASSESDEPNJ4}'''''[[Classes de PNJ]]'''''
-  <ul ID="CLASSESDEPNJ4" CLASS="listecachée cadrebas">
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/MiniAdepte.jpg';">[[Adepte|L'adepte]]</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/MiniExpert.jpg';">[[Expert|L'expert]]</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/MiniCombattant.jpg';">[[Homme darme|L'homme d'arme]]</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/MiniHomme du Peuple.jpg';">[[Homme du peuple|L'homme du peuple]]</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG4').src='/wiki/public/upload/Illustrations/PNJ/MiniNoble.jpg';">[[Noble|Le noble]]</li>
-  </ul>
-</li>
-</ul></td></tr></table>
-</td></tr></table>
-</div>
-
-
-<div class="presentation navmenu"><table><tr style="vertical-align: top"><td width="13%"><center><img ID="menuclasseIMG5" src="/wiki/public/upload/Illustrations/Autres/Head.jpg" WIDTH="90%" style="border: 1px solid #4b3124" /></center></td><td width="86%">
-===Les classes de PNJ===
-<table><tr style="vertical-align: top"><td width="25%"><ul>
-  <li>'''[[Classes de PNJ|Introduction]]'''</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/MiniAdepte.jpg';">[[Adepte|L'adepte]]</li></ul>
-</td><td width="25%"><ul>
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/MiniExpert.jpg';">[[Expert|L'expert]]</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/MiniCombattant.jpg';">[[Homme darme|L'homme d'arme]]</li></ul>
-</td><td width="25%"><ul>
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/MiniHomme du Peuple.jpg';">[[Homme du peuple|L'homme du peuple]]</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/MiniNoble.jpg';">[[Noble|Le noble]]</li></ul>
-</td><td width="25%"><ul>
-<li>{s:PM|CLASSES5}'''''[[Classes#CLASSESDEBASE|Classes de base]]'''''
-  <ul ID="CLASSES5" CLASS="listecachée cadrebas">
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/Barbare.jpg';">[[Barbare|Le barbare]] (''[[pouvoirs de rage]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/Barde.jpg';">[[Barde|Le barde]] (''[[représentations]], [[Chefs doeuvre|chefs d'oeuvre]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/Druide.jpg';">[[Druide|Le druide]] (''[[compagnons animaux]], [[Domaines animaux et environnementaux]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/Ensorceleur.jpg';">[[Ensorceleur|L'ensorceleur]] (''[[lignages]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/Guerrier.jpg';">[[Guerrier|Le guerrier]] (''[[groupe darmes|groupes d'armes]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/Magicien.jpg';">[[Magicien|Le magicien]] (''[[écoles de magie]], [[découvertes arcaniques]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/Moine.jpg';">[[Moine|Le moine]] (''[[voeux]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/Paladin.jpg';">[[Paladin|Le paladin]]</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/Prêtre.jpg';">[[Prêtre|Le prêtre]] (''[[variantes de canalisation]]'') (''[[domaines]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/Rôdeur.jpg';">[[Rôdeur|Le rôdeur]] (''[[compagnons animaux]], [[Pièges de rôdeur]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/Roublard.jpg';">[[Roublard|Le roublard]] (''[[talents]]'')</li>
-  </ul>
-</li>
-<li>{s:PM|CLASSESSUPPLEMENTAIRES5}'''''[[Classes#CLASSESSUPPLEMENTAIRES|Classes supplémentaires]]'''''
-  <ul ID="CLASSESSUPPLEMENTAIRES5" CLASS="listecachée cadrebas">
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/Alchimiste.jpg';">[[Alchimiste|L'alchimiste]] (''[[Découvertes|découvertes]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/Antipaladin.jpg';">[[Antipaladin|L'anti-paladin]]</li>
-  <li onmouseover="document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/Chasseur de vampire.jpg';">[[Chasseur de vampire|Le chasseur de vampire]] ''([[techniques de chasseur de vampire]])''</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/Chevalier.jpg';">[[Chevalier|Le chevalier]] (''[[Ordres|ordres]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/Conjurateur.jpg';">[[Conjurateur|Le conjurateur]] (''[[eidolon]], [[modèles deidolon|modèles d'eidolon]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/Inquisiteur.jpg';">[[Inquisiteur|L'inquisiteur]] (''[[jugements]], [[inquisitions]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/Justicier.jpg';">[[Justicier|Le justicier]] ''([[talents sociaux]], [[talents de justicier]])''</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/Magus.jpg';">[[Magus|Le magus]] (''[[arcanes]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/Métamorphe.jpg';">[[Métamorphe|Le métamorphe]] ''([[Aspects|aspects du métamorphe]])''</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/Ninja.jpg';">[[Ninja|Le ninja]] (''[[astuces]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/Oracle.jpg';">[[Oracle|L'oracle]] (''[[mystères]], [[malédictions doracle|malédictions]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/Pistolier.jpg';">[[Pistolier|Le pistolier]] (''[[exploits]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/Samouraï.jpg';">[[Samouraï|Le samouraï]] (''[[ordres]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/Sorcière.jpg';">[[Sorcière|La sorcière]] (''[[maléfices]], [[protecteurs]]'')</li>
-  </ul>
-</li>
-<li>{s:PM|CLASSESHYBRIDES5}'''''[[Classes#CLASSESHYBRIDES|Classes hybrides]]'''''
-  <ul ID="CLASSESHYBRIDES5" CLASS="listecachée cadrebas">
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/Arcaniste.jpg';">[[Arcaniste|L'arcaniste]] (''[[Exploitations|exploitations]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/Bretteur.jpg';">[[Bretteur|Le bretteur]] (''[[Exploits (bretteur)|exploits]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/Chaman.jpg';">[[Chaman|Le chaman]] (''[[Esprits (chaman)|esprits]], [[Maléfices (chaman)|maléfices]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/Chasseur.jpg';">[[Chasseur|Le chasseur]] (''[[Compagnon animal|compagnon animal]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/Enquêteur.jpg';">[[Enquêteur|L'enquêteur]] (''[[Talents (enquêteur)|talents d’enquêteur]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/Lutteur.jpg';">[[Lutteur|Le lutteur]] </li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/Prêtre combattant.jpg';">[[Prêtre combattant|Le prêtre combattant]] (''[[bénédictions]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/Sanguin.jpg';">[[Sanguin|Le sanguin]] (''[[Lignages (sanguin)|lignages]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/Scalde.jpg';">[[Scalde|Le scalde]] (''[[Chants de rage|chants de rage]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/Tueur.jpg';">[[Tueur|Le tueur]] (''[[Talents (tueur)|talents de tueur]]'')</li>
-  </ul>
-</li>
-<li>{s:PM|CLASSESOCCULTES5}'''''[[Classes#CLASSESOCCULTES|Classes occultes]]'''''
-  <ul ID="CLASSESOCCULTES5" CLASS="listecachée cadrebas">
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/Cinétiste.jpg';">[[Cinétiste|Le cinétiste]] (''[[Talents sauvages]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/Hypnotiseur.jpg';">[[Hypnotiseur|L'hypnotiseur]] (''[[Inductions]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/Médium.jpg';">[[Médium|Le médium]] (''[[Esprits (Médium)|Esprits]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/Occultiste.jpg';">[[Occultiste|L'occultiste]] (''[[Écoles instrumentales]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/Psychiste.jpg';">[[Psychiste|Le psychiste]] (''[[Disciplines psychiques]]'')</li>
-  <li onmouseover="
-document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations/PNJ/Spirite.jpg';">[[Spirite|Le spirite]] (''[[Fantômes (Spirite)|fantômes]]'') </li>
-  </ul>
-</li>
-
-<li>{s:PM|CLASSESDEPRESTIGE5}'''''[[Classes de prestige]]'''''
-  <ul ID="CLASSESDEPRESTIGE5" CLASS="listecachée cadrebas">
-  <li>[[Agent de terrain des Éclaireurs|L'agent de terrain Explorateur]] (RSE)</li>
-  <li>[[Archer-mage|L'archer-mage]]</li>
-  <li>[[Arpenteur dhorizon|L'arpenteur d'horizon]] (APG)</li>
-  <li>[[Assassin|L'assassin]]</li>
-  <li>[[Assassin des mantes rouges|L'assassin pourpre]] (CCMI)</li>
-  <li>[[Champion occultiste|Le champion occultiste]]</li>
-  <li>[[Chroniqueur|Le chroniqueur]]</li>
-  <li>[[Disciple draconien|Le disciple draconien]]</li>
-  <li>[[Duelliste|Le duelliste]]</li>
-  <li>[[Enfant divin|L'enfant divin]] (MMI)</li>
-  <li>[[Étudiant de la guerre|L'étudiant de la guerre]] (RSE)</li>
-  <li>[[Éclaireur Explorateur|L'explorateur]] (RSE)</li>
-  <li>[[Éclaireur Savant|L'explorateur savant]] (RSE)</li>
-  <li>[[Fidèle défenseur|Le fidèle défenseur]] (APG)</li>
-  <li>[[Gardien de la nature|Le gardien de la nature]] (APG)</li>
-  <li>[[Gardien du savoir|Le gardien du savoir]]</li>
-  <li>[[Héraut|Le héraut]] (APG)</li>
-  <li>[[Légionnaire infernal|Le légionnaire infernal]] (CCMI)</li>
-  <li>[[Mage des glyphes|Le mage des glyphes]] (MMI)</li>
-  <li>[[Maître chymiste|Le maître chymiste]] (APG)</li>
-  <li>[[Maître des ombres|Le maître des ombres]]</li>
-  <li>[[Maître espion|Le maître espion]] (APG)</li>
-  <li>[[Mystificateur profane|Le mystificateur profane]]</li>
-  <li>[[Pirate de la mer Intérieure|Le pirate de Haute mer]] (PMI)</li>
-  <li>[[Prophète enragé|Le prophète enragé]] (APG)</li>
-  <li>[[Templier déchu|Le templier parjure]] (CCMI)</li>
-  <li>[[Théurge mystique|Le théurge mystique]]</li>
-  <li>[[Vengeur sacré|Le vengeur sacré]] (APG)</li>
-  <li>[[Liseuse de tourment|La voyante]] (CCMI)</li>
-  </ul>
-</li>
-</ul></td></tr></table>
-</td></tr></table>
-</div>
-
-
-<div class="presentation navmenu">
+<div class="presentation navmenu" style="font-size:90%;">
 ===Les classes de prestige===
 <table><tr style="vertical-align: top; text-align: left"><td>
 <ul><li>'''[[Classes de prestige|Introduction]]'''</li>
   <li>[[Agent de terrain des Éclaireurs|L’agent de terrain Explorateur]] (RSE)</li>
   <li>[[Archer-mage|L'archer-mage]]</li>
   <li>[[Arpenteur dhorizon|L'arpenteur d'horizon]] (APG)</li>
+  <li>[[Aspirant à lIllumination|L'aspirant à l'Illumination]] (MR)</li>
   <li>[[Assassin|L'assassin]]</li>
   <li>[[Assassin des mantes rouges|L'assassin pourpre]] (CCMI)</li>
   <li>[[Champion occultiste|Le champion occultiste]]</li>
   <li>[[Chroniqueur|Le chroniqueur]]</li>
+  <li>[[Daivrat|Le Daivrat]] (RSE)</li>
   <li>[[Disciple draconien|Le disciple draconien]]</li>
   <li>[[Duelliste|Le duelliste]]</li>
 </ul>
@@ -792,14 +29,18 @@ document.getElementById('menuclasseIMG5').src='/wiki/public/upload/Illustrations
   <li>[[Gardien de la nature|Le gardien de la nature]] (APG)</li>
   <li>[[Gardien du savoir|Le gardien du savoir]]</li>
   <li>[[Héraut|Le héraut]] (APG)</li>
+  <li>[[Lame des lions|La Lame des lions]] (RSE)</li>
   <li>[[Légionnaire infernal|Le légionnaire infernal]] (CCMI)</li>
   <li>[[Mage des glyphes|Le mage des glyphes]] (MMI)</li>
+  <li>[[Maître chymiste|Le maître chymiste]] (APG)</li>
 </ul>
 </td><td>
-<ul><li>[[Maître chymiste|Le maître chymiste]] (APG)</li>
-  <li>[[Maître des ombres|Le maître des ombres]]</li>
+<ul><li>[[Maître des ombres|Le maître des ombres]]</li>
   <li>[[Maître espion|Le maître espion]] (APG)</li>
+  <li>[[Faucon dacier|Le Missionnaire de la liberté]] (RSE)</li>
+  <li>[[Monolithe vivant|Le monolithe vivant]] (RSE)</li>
   <li>[[Mystificateur profane|Le mystificateur profane]]</li>
+  <li>[[Opportuniste halfelin|L'opportuniste halfelin]] (MR)</li>
   <li>[[Pirate de la mer Intérieure|Le pirate de Haute mer]] (PMI)</li>
   <li>[[Prophète enragé|Le prophète enragé]] (APG)</li>
   <li>[[Templier déchu|Le templier parjure]] (CCMI)</li>
@@ -892,17 +133,17 @@ document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations
 <li>{s:PM|CLASSESOCCULTES6}'''''[[Classes#CLASSESOCCULTES|Classes occultes]]'''''
   <ul ID="CLASSESOCCULTES6" CLASS="listecachée cadrebas">
   <li onmouseover="
-document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Cinétiste.jpg';">[[Cinétiste|Le cinétiste]] (''[[Talents sauvages]]'')</li>
+document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Cinétiste.jpg';">[[Cinétiste|Le cinétiste]] (''[[Éléments|éléments]]'', ''[[Talents sauvages|talents sauvages]]'')</li>
   <li onmouseover="
-document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Hypnotiseur.jpg';">[[Hypnotiseur|L'hypnotiseur]] (''[[Inductions]]'')</li>
+document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Hypnotiseur.jpg';">[[Hypnotiseur|L'hypnotiseur]] (''[[Inductions|inductions]]'')</li>
   <li onmouseover="
-document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Médium.jpg';">[[Médium|Le médium]] (''[[Esprits (Médium)|Esprits]]'')</li>
+document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Médium.jpg';">[[Médium|Le médium]] (''[[Esprits (Médium)|esprits]]'')</li>
   <li onmouseover="
-document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Occultiste.jpg';">[[Occultiste|L'occultiste]] (''[[Écoles instrumentales]]'')</li>
+document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Occultiste.jpg';">[[Occultiste|L'occultiste]] (''[[Écoles instrumentales|écoles instrumentales]]'')</li>
   <li onmouseover="
-document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Psychiste.jpg';">[[Psychiste|Le psychiste]] (''[[Disciplines psychiques]]'')</li>
+document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Psychiste.jpg';">[[Psychiste|Le psychiste]] (''[[Amplifications phréniques|amplifications phréniques]]'', ''[[Disciplines psychiques|disciplines psychiques]]'')</li>
   <li onmouseover="
-document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Spirite.jpg';">[[Spirite|Le spirite]] (''[[Fantômes (Spirite)|fantômes]]'') </li>
+document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Spirite.jpg';">[[Spirite|Le spirite]] (''[[Fantômes (Spirite)|fantômes]]'')</li>
   </ul>
 </li>
 
@@ -924,7 +165,253 @@ document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations
 </div>
 
 
-===Snippet objets magiques===
+<div class="presentation navmenu">
+===Les classes de prestige===
+<table><tr style="vertical-align: top; text-align: left"><td>
+<ul><li>'''[[Classes de prestige|Introduction]]'''</li>
+  <li>[[Agent de terrain des Éclaireurs|L’agent de terrain Explorateur]] (RSE)</li>
+  <li>[[Archer-mage|L'archer-mage]]</li>
+  <li>[[Arpenteur dhorizon|L'arpenteur d'horizon]] (APG)</li>
+  <li>[[Aspirant à lIllumination|L'aspirant à l'Illumination]] (MR)</li>
+  <li>[[Assassin|L'assassin]]</li>
+  <li>[[Assassin des mantes rouges|L'assassin pourpre]] (CCMI)</li>
+  <li>[[Champion occultiste|Le champion occultiste]]</li>
+  <li>[[Chroniqueur|Le chroniqueur]]</li>
+  <li>[[Daivrat|Le Daivrat]] (RSE)</li>
+  <li>[[Disciple draconien|Le disciple draconien]]</li>
+  <li>[[Duelliste|Le duelliste]]</li>
+</ul>
+</td><td>
+<ul><li>[[Enfant divin|L'enfant divin]] (MMI)</li>
+  <li>[[Étudiant de la guerre|L’étudiant de la guerre]] (RSE)</li>
+  <li>[[Éclaireur Explorateur|L’explorateur]] (RSE)</li>
+  <li>[[Éclaireur Savant|L’explorateur savant]] (RSE)</li>
+  <li>[[Fidèle défenseur|Le fidèle défenseur]] (APG)</li>
+  <li>[[Gardien de la nature|Le gardien de la nature]] (APG)</li>
+  <li>[[Gardien du savoir|Le gardien du savoir]]</li>
+  <li>[[Héraut|Le héraut]] (APG)</li>
+  <li>[[Lame des lions|La Lame des lions]] (RSE)</li>
+  <li>[[Légionnaire infernal|Le légionnaire infernal]] (CCMI)</li>
+  <li>[[Mage des glyphes|Le mage des glyphes]] (MMI)</li>
+  <li>[[Maître chymiste|Le maître chymiste]] (APG)</li>
+</ul>
+</td><td>
+<ul><li>[[Maître des ombres|Le maître des ombres]]</li>
+  <li>[[Maître espion|Le maître espion]] (APG)</li>
+  <li>[[Faucon dacier|Le Missionnaire de la liberté]] (RSE)</li>
+  <li>[[Monolithe vivant|Le monolithe vivant]] (RSE)</li>
+  <li>[[Mystificateur profane|Le mystificateur profane]]</li>
+  <li>[[Opportuniste halfelin|L'opportuniste halfelin]] (MR)</li>
+  <li>[[Pirate de la mer Intérieure|Le pirate de Haute mer]] (PMI)</li>
+  <li>[[Prophète enragé|Le prophète enragé]] (APG)</li>
+  <li>[[Templier déchu|Le templier parjure]] (CCMI)</li>
+  <li>[[Théurge mystique|Le théurge mystique]]</li>
+  <li>[[Vengeur sacré|Le vengeur sacré]] (APG)</li>
+  <li>[[Liseuse de tourment|La voyante]] (CCMI)</li>
+</ul>
+</td><td width="25%"><ul>
+<li>{s:PM|CLASSES6}'''''[[Classes#CLASSESDEBASE|Classes de base]]'''''
+  <ul ID="CLASSES6" CLASS="listecachée cadrebas">
+  <li onmouseover="
+document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Barbare.jpg';">[[Barbare|Le barbare]] (''[[pouvoirs de rage]]'')</li>
+  <li onmouseover="
+document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Barde.jpg';">[[Barde|Le barde]] (''[[représentations]], [[Chefs doeuvre|chefs d'oeuvre]]'')</li>
+  <li onmouseover="
+document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Druide.jpg';">[[Druide|Le druide]] (''[[compagnons animaux]], [[Domaines animaux et environnementaux]]'')</li>
+  <li onmouseover="
+document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Ensorceleur.jpg';">[[Ensorceleur|L'ensorceleur]] (''[[lignages]]'')</li>
+  <li onmouseover="
+document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Guerrier.jpg';">[[Guerrier|Le guerrier]] (''[[groupe darmes|groupes d'armes]]'')</li>
+  <li onmouseover="
+document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Magicien.jpg';">[[Magicien|Le magicien]] (''[[écoles de magie]], [[découvertes arcaniques]]'')</li>
+  <li onmouseover="
+document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Moine.jpg';">[[Moine|Le moine]] (''[[voeux]]'')</li>
+  <li onmouseover="
+document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Paladin.jpg';">[[Paladin|Le paladin]]</li>
+  <li onmouseover="
+document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Prêtre.jpg';">[[Prêtre|Le prêtre]] (''[[variantes de canalisation]]'') (''[[domaines]]'')</li>
+  <li onmouseover="
+document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Rôdeur.jpg';">[[Rôdeur|Le rôdeur]] (''[[compagnons animaux]], [[Pièges de rôdeur]]'')</li>
+  <li onmouseover="
+document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Roublard.jpg';">[[Roublard|Le roublard]] (''[[talents]]'')</li>
+  </ul>
+</li>
+<li>{s:PM|CLASSESSUPPLEMENTAIRES6}'''''[[Classes#CLASSESSUPPLEMENTAIRES|Classes supplémentaires]]'''''
+  <ul ID="CLASSESSUPPLEMENTAIRES6" CLASS="listecachée cadrebas">
+  <li onmouseover="
+document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Alchimiste.jpg';">[[Alchimiste|L'alchimiste]] (''[[Découvertes|découvertes]]'')</li>
+  <li onmouseover="
+document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Antipaladin.jpg';">[[Antipaladin|L'anti-paladin]]</li> 
+  <li onmouseover="document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Chasseur de vampire.jpg';">[[Chasseur de vampire|Le chasseur de vampire]] ''([[techniques de chasseur de vampire]])''</li>
+  <li onmouseover="
+document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Chevalier.jpg';">[[Chevalier|Le chevalier]] (''[[Ordres|ordres]]'')</li>
+  <li onmouseover="
+document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Conjurateur.jpg';">[[Conjurateur|Le conjurateur]] (''[[eidolon]], [[modèles deidolon|modèles d'eidolon]]'')</li>
+  <li onmouseover="
+document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Inquisiteur.jpg';">[[Inquisiteur|L'inquisiteur]] (''[[jugements]], [[inquisitions]]'')</li>
+  <li onmouseover="
+document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Justicier.jpg';">[[Justicier|Le justicier]] ''([[talents sociaux]], [[talents de justicier]])''</li>
+  <li onmouseover="
+document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Magus.jpg';">[[Magus|Le magus]] (''[[arcanes]]'')</li>
+  <li onmouseover="
+document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Métamorphe.jpg';">[[Métamorphe|Le métamorphe]] ''([[Aspects|aspects du métamorphe]])''</li>
+  <li onmouseover="
+document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Ninja.jpg';">[[Ninja|Le ninja]] (''[[astuces]]'')</li>
+  <li onmouseover="
+document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Oracle.jpg';">[[Oracle|L'oracle]] (''[[mystères]], [[malédictions doracle|malédictions]]'')</li>
+  <li onmouseover="
+document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Pistolier.jpg';">[[Pistolier|Le pistolier]] (''[[exploits]]'')</li>
+  <li onmouseover="
+document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Samouraï.jpg';">[[Samouraï|Le samouraï]] (''[[ordres]]'')</li>
+  <li onmouseover="
+document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Sorcière.jpg';">[[Sorcière|La sorcière]] (''[[maléfices]], [[protecteurs]]'')</li>
+  </ul>
+</li>
+<li>{s:PM|CLASSESHYBRIDES6}'''''[[Classes#CLASSESHYBRIDES|Classes hybrides]]'''''
+  <ul ID="CLASSESHYBRIDES6" CLASS="listecachée cadrebas">
+  <li onmouseover="
+document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Arcaniste.jpg';">[[Arcaniste|L'arcaniste]] (''[[Exploitations|exploitations]]'')</li>
+  <li onmouseover="
+document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Bretteur.jpg';">[[Bretteur|Le bretteur]] (''[[Exploits (bretteur)|exploits]]'')</li>
+  <li onmouseover="
+document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Chaman.jpg';">[[Chaman|Le chaman]] (''[[Esprits (chaman)|esprits]], [[Maléfices (chaman)|maléfices]]'')</li>
+  <li onmouseover="
+document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Chasseur.jpg';">[[Chasseur|Le chasseur]] (''[[Compagnon animal|compagnon animal]]'')</li>
+  <li onmouseover="
+document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Enquêteur.jpg';">[[Enquêteur|L'enquêteur]] (''[[Talents (enquêteur)|talents d’enquêteur]]'')</li>
+  <li onmouseover="
+document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Lutteur.jpg';">[[Lutteur|Le lutteur]] </li>
+  <li onmouseover="
+document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Prêtre combattant.jpg';">[[Prêtre combattant|Le prêtre combattant]] (''[[bénédictions]]'')</li>
+  <li onmouseover="
+document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Sanguin.jpg';">[[Sanguin|Le sanguin]] (''[[Lignages (sanguin)|lignages]]'')</li>
+  <li onmouseover="
+document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Scalde.jpg';">[[Scalde|Le scalde]] (''[[Chants de rage|chants de rage]]'')</li>
+  <li onmouseover="
+document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Tueur.jpg';">[[Tueur|Le tueur]] (''[[Talents (tueur)|talents de tueur]]'')</li>
+  </ul>
+</li>
+<li>{s:PM|CLASSESOCCULTES6}'''''[[Classes#CLASSESOCCULTES|Classes occultes]]'''''
+  <ul ID="CLASSESOCCULTES6" CLASS="listecachée cadrebas">
+  <li onmouseover="
+document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Cinétiste.jpg';">[[Cinétiste|Le cinétiste]] (''[[Éléments|éléments]]'', ''[[Talents sauvages|talents sauvages]]'')</li>
+  <li onmouseover="
+document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Hypnotiseur.jpg';">[[Hypnotiseur|L'hypnotiseur]] (''[[Inductions|inductions]]'')</li>
+  <li onmouseover="
+document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Médium.jpg';">[[Médium|Le médium]] (''[[Esprits (Médium)|esprits]]'')</li>
+  <li onmouseover="
+document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Occultiste.jpg';">[[Occultiste|L'occultiste]] (''[[Écoles instrumentales|écoles instrumentales]]'')</li>
+  <li onmouseover="
+document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Psychiste.jpg';">[[Psychiste|Le psychiste]] (''[[Amplifications phréniques|amplifications phréniques]]'', ''[[Disciplines psychiques|disciplines psychiques]]'')</li>
+  <li onmouseover="
+document.getElementById('menuclasseIMG1').src='/wiki/public/upload/Illustrations/PNJ/Spirite.jpg';">[[Spirite|Le spirite]] (''[[Fantômes (Spirite)|fantômes]]'')</li>
+  </ul>
+</li>
+
+<li>{s:PM|CLASSESDEPNJ6}'''''[[Classes de PNJ]]'''''
+  <ul ID="CLASSESDEPNJ6" CLASS="listecachée cadrebas">
+  <li onmouseover="
+document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/MiniAdepte.jpg';">[[Adepte|L'adepte]]</li>
+  <li onmouseover="
+document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/MiniExpert.jpg';">[[Expert|L'expert]]</li>
+  <li onmouseover="
+document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/MiniCombattant.jpg';">[[Homme darme|L'homme d'arme]]</li>
+  <li onmouseover="
+document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/MiniHomme du Peuple.jpg';">[[Homme du peuple|L'homme du peuple]]</li>
+  <li onmouseover="
+document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/MiniNoble.jpg';">[[Noble|Le noble]]</li>
+  </ul>
+</li>
+</ul></td></tr></table>
+</div>
+
+
+<div class="presentation navmenudroite" style="max-width: 260px;">
+===Les classes de prestige===
+<table><tr style="vertical-align: top; text-align: left"><td>
+Retour à la liste des [[Classes de prestige|classes de prestige]].
+<ul>
+<li>{s:PM|CLASSES6}'''''[[Classes#CLASSESDEBASE|Classes de base]]'''''
+  <ul ID="CLASSES6" CLASS="listecachée cadrebas">
+  <li>[[Barbare|Le barbare]] (''[[pouvoirs de rage]]'')</li>
+  <li>[[Barde|Le barde]] (''[[représentations]], [[Chefs doeuvre|chefs d'oeuvre]]'')</li>
+  <li>[[Druide|Le druide]] (''[[compagnons animaux]], [[Domaines animaux et environnementaux]]'')</li>
+  <li>[[Ensorceleur|L'ensorceleur]] (''[[lignages]]'')</li>
+  <li>[[Guerrier|Le guerrier]] (''[[groupe darmes|groupes d'armes]]'')</li>
+  <li>[[Magicien|Le magicien]] (''[[écoles de magie]], [[découvertes arcaniques]]'')</li>
+  <li>[[Moine|Le moine]] (''[[voeux]]'')</li>
+  <li>[[Paladin|Le paladin]]</li>
+  <li>[[Prêtre|Le prêtre]] (''[[variantes de canalisation]]'') (''[[domaines]]'')</li>
+  <li>[[Rôdeur|Le rôdeur]] (''[[compagnons animaux]], [[Pièges de rôdeur]]'')</li>
+  <li>[[Roublard|Le roublard]] (''[[talents]]'')</li>
+  </ul>
+</li>
+<li>{s:PM|CLASSESSUPPLEMENTAIRES6}'''''[[Classes#CLASSESSUPPLEMENTAIRES|Classes supplémentaires]]'''''
+  <ul ID="CLASSESSUPPLEMENTAIRES6" CLASS="listecachée cadrebas">
+  <li>[[Alchimiste|L'alchimiste]] (''[[Découvertes|découvertes]]'')</li>
+  <li>[[Antipaladin|L'anti-paladin]]</li> 
+  <li onmouseover="document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations/PNJ/Chasseur de vampire.jpg';">[[Chasseur de vampire|Le chasseur de vampire]] ''([[techniques de chasseur de vampire]])''</li>
+  <li>[[Chevalier|Le chevalier]] (''[[Ordres|ordres]]'')</li>
+  <li>[[Conjurateur|Le conjurateur]] (''[[eidolon]], [[modèles deidolon|modèles d'eidolon]]'')</li>
+  <li>[[Inquisiteur|L'inquisiteur]] (''[[jugements]], [[inquisitions]]'')</li>
+  <li>[[Justicier|Le justicier]] ''([[talents sociaux]], [[talents de justicier]])''</li>
+  <li>[[Magus|Le magus]] (''[[arcanes]]'')</li>
+  <li>[[Métamorphe|Le métamorphe]] ''([[Aspects|aspects du métamorphe]])''</li>
+  <li>[[Ninja|Le ninja]] (''[[astuces]]'')</li>
+  <li>[[Oracle|L'oracle]] (''[[mystères]], [[malédictions doracle|malédictions]]'')</li>
+  <li>[[Pistolier|Le pistolier]] (''[[exploits]]'')</li>
+  <li>[[Samouraï|Le samouraï]] (''[[ordres]]'')</li>
+  <li>[[Sorcière|La sorcière]] (''[[maléfices]], [[protecteurs]]'')</li>
+  </ul>
+</li>
+<li>{s:PM|CLASSESHYBRIDES6}'''''[[Classes#CLASSESHYBRIDES|Classes hybrides]]'''''
+  <ul ID="CLASSESHYBRIDES6" CLASS="listecachée cadrebas">
+  <li>[[Arcaniste|L'arcaniste]] (''[[Exploitations|exploitations]]'')</li>
+  <li>[[Bretteur|Le bretteur]] (''[[Exploits (bretteur)|exploits]]'')</li>
+  <li>[[Chaman|Le chaman]] (''[[Esprits (chaman)|esprits]], [[Maléfices (chaman)|maléfices]]'')</li>
+  <li>[[Chasseur|Le chasseur]] (''[[Compagnon animal|compagnon animal]]'')</li>
+  <li>[[Enquêteur|L'enquêteur]] (''[[Talents (enquêteur)|talents d’enquêteur]]'')</li>
+  <li>[[Lutteur|Le lutteur]] </li>
+  <li>[[Prêtre combattant|Le prêtre combattant]] (''[[bénédictions]]'')</li>
+  <li>[[Sanguin|Le sanguin]] (''[[Lignages (sanguin)|lignages]]'')</li>
+  <li>[[Scalde|Le scalde]] (''[[Chants de rage|chants de rage]]'')</li>
+  <li>[[Tueur|Le tueur]] (''[[Talents (tueur)|talents de tueur]]'')</li>
+  </ul>
+</li>
+<li>{s:PM|CLASSESOCCULTES6}'''''[[Classes#CLASSESOCCULTES|Classes occultes]]'''''
+  <ul ID="CLASSESOCCULTES6" CLASS="listecachée cadrebas">
+  <li>[[Cinétiste|Le cinétiste]] (''[[Talents sauvages]]'')</li>
+  <li>[[Hypnotiseur|L'hypnotiseur]] (''[[Inductions]]'')</li>
+  <li>[[Médium|Le médium]] (''[[Esprits (Médium)|Esprits]]'')</li>
+  <li>[[Occultiste|L'occultiste]] (''[[Écoles instrumentales]]'')</li>
+  <li>[[Psychiste|Le psychiste]] (''[[Disciplines psychiques]]'')</li>
+  <li>[[Spirite|Le spirite]] (''[[Fantômes (Spirite)|fantômes]]'') </li>
+  </ul>
+</li>
+
+<li>{s:PM|CLASSESDEPNJ6}'''''[[Classes de PNJ]]'''''
+  <ul ID="CLASSESDEPNJ6" CLASS="listecachée cadrebas">
+  <li>[[Adepte|L'adepte]]</li>
+  <li>[[Expert|L'expert]]</li>
+  <li>[[Homme darme|L'homme d'arme]]</li>
+  <li>[[Homme du peuple|L'homme du peuple]]</li>
+  <li>[[Noble|Le noble]]</li>
+  </ul>
+</li>
+</ul></td></tr></table>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+==Snippet objets magiques==
 <div class="presentation navmenu">
 ===Accès rapide aux sections sur les objets magiques===
 <table><tr style="vertical-align: top; text-align: left"><td>
@@ -978,7 +465,7 @@ document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations
 </div>
 
 
-===Snippet équipement===
+==Snippet équipement==
 <div class="presentation navmenu">
 ===Accès rapide aux sections sur l'équipement===
 <table><tr style="vertical-align: top; text-align: left"><td>
@@ -1016,24 +503,28 @@ document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations
 </td></tr></table></div>
 
 
-===Snippet dons===
+==Snippet dons==
 <div class="presentation navmenu">
 ===Accès rapide aux tableaux récapitulatifs des dons===
 <table><tr style="vertical-align: top; text-align: left"><td>
 <ul><li>[[Tableau récapitulatif des dons|Dons généraux (combat inclus)]]</li>
-    <li>[[dons daudace|Dons d'audace et de panache]]</li>
-    <li>[[Dons de critiques]]</li>
-    <li>[[Dons de création dobjets|Dons de création d'objets]]</li>
+    <li>[[Tableau récapitulatif des dons mythiques|Dons mythiques]]</li>
+</ul>
+<ul><li>[[dons daudace|Dons d'audace et de panache]]</li>
+    <li>[[Dons de combat]]</li>
 </ul>
 </td><td>
-<ul><li>[[Dons de métamagie]]</li>
-    <li>[[Dons déquipe|Dons d'équipe]]</li>
-    <li>[[Dons de regard]]</li>
-</ul>
-</td><td>
-<ul><li>[[Dons de spectacle]]</li>
+<ul><li>[[Dons de création dobjets|Dons de création d'objets]]</li>
+    <li>[[Dons de critique]]</li>
     <li>[[Dons décole|Dons d'école]]</li>
-    <li>[[Dons mythiques]]</li>
+    <li>[[Dons déquipe|Dons d'équipe]]</li>
+    <li>[[Dons de maîtrise dobjets|Dons de maîtrise d'objets]]</li>
+    </ul>
+</td><td>
+<ul><li>[[Dons de maléfice sanglant]]</li>
+    <li>[[Dons de métamagie]]</li>
+    <li>[[Dons de regard]]</li>
+    <li>[[Dons de spectacle]]</li>
 </ul>
 </td><td>
 <ul>
@@ -1045,48 +536,85 @@ document.getElementById('menuclasseIMG6').src='/wiki/public/upload/Illustrations
 </ul>
 </td></tr></table></div>
 
-===Test race===
-<div class="presentation navmenudroite">
-<table width="100%"><tr style="vertical-align: top">
-<td><a href="./Pathfinder-RPG.Demi-elfe.ashx"><img title="Option plus commune chez les demi-elfes." class="opachover" src="/wiki/public/upload/Illustrations/PNJ/Demi-elfe.jpg" width="80%" style="float:center; margin: 0px -50px 0px 7px; border: 1px solid #4b3124"></a></td>
-</tr><tr style="vertical-align: top">
-<td><div style="text-align:center; font-size: 90%; font-weight: bold;">[[Demi-elfe|Demi-elfes]]</div></td>
-</tr></table>
-</div>{s:MR}
+{s:MenuDons}
+
+==Test archétypes==
+<div style="float:right; margin:8px 6px 0px 10px">{s:PM0|barbares}'''Voir les archétypes du barbare&emsp;'''
+<li ID="barbares" CLASS="listecachée" STYLE="display:none">{s:Menuarchétypebarbare}</li></div>
+
+
+==Mètres en cases ?==
+Test: {s:mc|24}, {s:mc|12}, {s:mc|6}, {s:mc|24}
 
 
 
+==Test FAQ==
+{s:Desambi|Test.}
+{s:ClearRight}
+<div style="float:right; padding: 0 0 8px 8px">
+<table>
+<tr style="vertical-align:bottom">
+<td style="display:none; background-color: #f3efe2; border: 1px solid #4b3124; padding: 2px; width:250px; text-align: left">
+<table><tr style="vertical-align: top"><td>
+'''''Test.'''''</td><td style="height:30px"></td></tr></table></td>
+<td><img style="width:40px" src="/wiki/public/upload/Illustrations/Wiki/faqbase.png" title="Cliquez pour afficher/cacher l'information" alt="Cliquez pour afficher/cacher l'information" onclick="
+var cible = this.parentNode.previousSibling.previousSibling;
+if (cible.style.display=='none') {
+  $(cible).show('slide');
+  $(this).fadeTo(500,0.4);
+} else {
+  $(cible).hide('slide');
+  $(this).fadeTo(500,1);
+}" ONMOUSEOVER="this.src = '/wiki/public/upload/Illustrations/Wiki/faqalt.png';"
+ONMOUSEOUT="this.src = '/wiki/public/upload/Illustrations/Wiki/faqbase.png';" /></td>
+</tr></table></div>
+{s:ClearRight}
+<div style="float:right; padding: 0 0 8px 8px">
+<table>
+<tr style="vertical-align:bottom">
+<td style="display:none; background-color: #f3efe2; border: 1px solid #4b3124; padding: 2px; width:250px; text-align: left">
+<table><tr style="vertical-align: top"><td>
+'''''[[FAQ- Manuel des joueurs (Magie et sorts)#8|→]] Ces deux termes apparaissent dans une multitude de capacités, mais n’ont pas de définition hors de ces capacités, et celles-ci ne sont pas toujours cohérentes entre elles. Comment les énergies positive et négative fonctionnent ?'''''</td><td style="height:30px"></td></tr></table></td>
+<td><img style="width:50px" src="/wiki/public/upload/Illustrations/Wiki/faqbase1.png" title="Cliquez pour afficher/cacher l'information" alt="Cliquez pour afficher/cacher l'information" onclick="
+var cible = this.parentNode.previousSibling.previousSibling;
+if (cible.style.display=='none') {
+  $(cible).show('slide');
+  $(this).fadeTo(500,0.4);
+} else {
+  $(cible).hide('slide');
+  $(this).fadeTo(500,1);
+}" ONMOUSEOVER="this.src = '/wiki/public/upload/Illustrations/Wiki/faqalt1.png';"
+ONMOUSEOUT="this.src = '/wiki/public/upload/Illustrations/Wiki/faqbase1.png';" /></td>
+</tr></table></div>
+{s:ClearRight}
+<div style="float:right; padding: 0 0 8px 8px">
+<table>
+<tr style="vertical-align:bottom">
+<td style="display:none; background-color: #f3efe2; border: 1px solid #4b3124; padding: 2px; width:250px; text-align: left">
+<table><tr style="vertical-align: top"><td>
+'''''[[FAQ- Manuel des joueurs (Magie et sorts)#8|Définition des énergies positives et négatives]].'''''</td><td style="height:30px"></td></tr></table></td>
+<td><img style="width:50px" src="/wiki/public/upload/Illustrations/Wiki/faqbase1.png" title="Cliquez pour afficher/cacher l'information" alt="Cliquez pour afficher/cacher l'information" onclick="
+var cible = this.parentNode.previousSibling.previousSibling;
+if (cible.style.display=='none') {
+  $(cible).show('slide');
+  $(this).fadeTo(500,0.4);
+} else {
+  $(cible).hide('slide');
+  $(this).fadeTo(500,1);
+}" ONMOUSEOVER="this.src = '/wiki/public/upload/Illustrations/Wiki/faqalt1.png';"
+ONMOUSEOUT="this.src = '/wiki/public/upload/Illustrations/Wiki/faqbase1.png';" /></td>
+</tr></table></div>
 
 
+{s:ClearRight}
+<img style="height:35px; padding-right:4px; float: left;" src="/Wiki/images/quill.png" title="Contenu traduit par la communauté (voir source).">
+===J'aime les tests ===
+<style>
+    fieldset div {
+        display:none;
+    }
+    fieldset div ~ div {
+        display: block;
+    }
+</style>
 
-
-
-
-=== ===
-{s:racial|Demi-elfe|demi-elfes|Illustrations/PNJ/Demi-elfe.jpg}
-{s:racial|Elfe|elfes|Illustrations/PNJ/Elfe.jpg}
-{s:racial|Demi-orque|demi-orques|Illustrations/PNJ/Demi-orque.jpg}
-{s:racial|Orque|orques|Illustrations/PNJ/Orque.jpg}
-{s:racial|Nain|nains|Illustrations/PNJ/Nain.jpg}
-{s:racial|Halfelin|halfelins|Illustrations/PNJ/Halfelin.jpg}
-
-
-
-
-
-
-
-=== ===
-<center>
-{| CLASS="tablo autoalt toutgauche filtrable"
-|+ Tableau récapitulatif des dons
-|- CLASS="titre"
-| WIDTH="30%" | Dons
-| WIDTH= "3%" | Source
-| WIDTH="25%" | Conditions
-| WIDTH="42%" | Avantages
-
-|- CLASS="premier"
-| <div onmouseover="affichemenu($(this));" onmouseout="cachemenu($(this));">[[Agilité dimensionnelle]]<ul CLASS="tag listecachée"><li>[[Assaut dimensionnel]]</li><li>[[Derviche dimensionnel]]</li><li>[[Manoeuvres dimensionnelles|Manœuvres dimensionnelles]]</li><li>[[Savant dimensionnel]]</li></ul> || <sup>AG</sup> || [[Moine#PASCHASSE|Pas chassé]] ou capacité à lancer ''[[porte dimensionnelle]]'' || Peut faire toutes les actions qui lui restent après le [[Moine#PASCHASSE|pas chassé]] ou la [[porte dimensionnelle]].
-|}
-</center>

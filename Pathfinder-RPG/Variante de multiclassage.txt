@@ -1,0 +1,238 @@
+---
+Name: Pathfinder-RPG.Variante de multiclassage
+Title: Variante de multiclassage
+LastModified: 2021-11-11 18:55
+Categories:
+  - 'Src Pathfinder unchained'
+---
+{s:MenuPathfinderunchained}{s:PU}{toc}D’après les règles du Manuel des Joueurs, le [[Progression des personnages#MULTICLASSER|multiclassage]] peut engendrer une grande disparité en ce qui concerne les aptitudes de classe. Avec ce système, chaque personnage peut choisir une classe secondaire au niveau 1, à laquelle il se forme tout au long de sa carrière sans sacrifier des niveaux dans sa classe principale. Une fois cette classe secondaire choisie, le joueur ne peut plus en changer (toutefois, s’il applique les règles de [[Le réapprentissage|réapprentissage]], il peut changer de classe secondaire en payant la moitié du coût de réapprentissage de tous les niveaux acquis dans cette classe). Un personnage qui décide d’appliquer ce système ne gagne pas de dons aux niveaux 3, 7, 11, 15 et 19, il gagne à la place les aptitudes de sa classe secondaire comme indiqué dans la Table 2-8 : Progression des personnages multiclassés. Il vaut mieux soit appliquer cette variante, soit appliquer les règles normales du multiclassage, mais il est également possible d’appliquer les deux systèmes en même temps. Dans ce cas, un personnage ne peut pas gagner des niveaux dans la classe secondaire qu’il a choisie grâce à cette variante.
+
+<div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+<center>
+{| CLASS="tablo autoalt"
+|+ Progression des personnages multiclassés
+|- CLASS="titre"
+| Niveau du<br>personnage || Aptitude
+|- CLASS="premier"
+| 1 || Don
+|-
+| 2 || -
+|-
+| 3 || Aptitude de classe<br>secondaire
+|-
+| 4 || -
+|-
+| 5 || Don
+|-
+| 6 || -
+|-
+| 7 || Aptitude de classe<br>secondaire
+|-
+| 8 || -
+|-
+| 9 || Don
+|-
+| 10 || -
+|-
+| 11 || Aptitude de classe<br>secondaire
+|-
+| 12 || -
+|-
+| 13 || Don
+|-
+| 14 || -
+|-
+| 15 || Aptitude de classe<br>secondaire
+|-
+| 16 || -
+|-
+| 17 || Don
+|-
+| 18 || -
+|-
+| 19 || Aptitude de classe<br>secondaire
+|-
+| 20 || -
+|}
+</center></div></div>
+
+===Classes principales===
+Les aptitudes de classes secondaires suivantes se basent sur celles des classes décrites dans le Manuel des Joueurs.
+
+====Barbare====
+Un personnage qui choisit la classe de barbare en classe secondaire acquiert les aptitudes suivantes.
+* '''Rage de berserker.''' Au niveau 3, il obtient l’aptitude de classe [[Barbare#RAGE|rage du berserker]] qu’il peut utiliser quotidiennement pendant un nombre de rounds égal à son modificateur de Constitution + son niveau de personnage.
+* '''Esquive instinctive.''' Au niveau 7, il acquiert l’aptitude [[Barbare#ESQUIVEINSTINCTIVE|esquive instinctive]].
+* '''Pouvoir de rage.''' Au niveau 11, il acquiert un [[Barbare#POUVOIRDERAGE|pouvoir de rage]]. Pour savoir quels pouvoirs de rage il peut choisir, on considère que son niveau effectif de barbare est égal à la moitié de son niveau de personnage, mais pour déterminer l’effet du pouvoir de rage, on considère que son niveau effectif de barbare est égal à son niveau normal de personnage.
+* '''Réduction de dégâts.''' Au niveau 15, il acquiert une [[RD]] 3/-.
+* '''Rage de grand berserker.''' Au niveau 19, il acquiert l’aptitude [[Barbare#RAGEDEGRANDBERSERKER|rage de grand berserker]].
+
+====Barde====
+Un personnage qui choisit la classe de barde en classe secondaire acquiert les aptitudes suivantes.
+* '''Savoir bardique.''' Au niveau 3, il acquiert l’aptitude de classe [[Barde#SAVOIRBARDIQUE|savoir bardique]] en considérant que son niveau effectif de barde est égal à son niveau de personnage.
+* '''Représentation bardique.''' Au niveau 7, il peut utiliser les [[Barde#REPRESENTATIONBARDIQUE|représentations]] d’[[Représentations#INSPIRATIONVAILLANTE|inspiration vaillante]] et d’[[Représentations#INSPIRATIONTALENTUEUSE|inspiration talentueuse]] comme un barde de son niveau -4 pendant un nombre de rounds par jour égal à son modificateur de [[Charisme]] + son niveau de personnage.
+* '''Versatilité artistique.''' Au niveau 11, il acquiert la [[Barde#VERSATILITEARTISTIQUE|versatilité artistique]] qui s’applique sur une compétence de Représentation de son choix. Il peut réapprendre gratuitement l’ensemble des rangs investis dans les deux compétences associées.
+* '''Maître du savoir.''' Au niveau 15, il acquiert l’aptitude [[Barde#MAITREDUSAVOIR|maître du savoir]] qu’il utilise comme un barde de niveau 5.
+* '''Représentations supplémentaires.''' Au niveau 19, il peut utiliser les [[Barde#REPRESENTATIONBARDIQUE|représentations]] [[Représentations#CHANTFUNEBRE|chant funèbre]] et d’[[Représentations#INSPIRATIONGLORIEUSE|inspiration glorieuse]] comme un barde de son niveau de personnage –4.
+
+====Druide====
+Un personnage qui choisit la classe de druide en classe secondaire acquiert les aptitudes suivantes.
+* '''Code de conduite.''' Au niveau 1, il acquiert le druidique en langue supplémentaire et doit adhérer au code de conduite des druides : respecter la nature, ne pas enseigner la langue des druides aux non-druides, ne pas porter d’armures métalliques, etc.
+* '''Empathie sauvage.''' Au niveau 3, il acquiert l’aptitude [[Druide#EMPATHIESAUVAGE|empathie sauvage]], en considérant que son niveau effectif de druide est égal à son niveau de personnage.
+* '''Compagnon animal.''' Au niveau 7, il acquiert un [[Druide#PACTEAVECLANATURE|compagnon animal]] comme un druide de son niveau de personnage –4. Aucune aptitude autre que Science du compagnon animal ne peut augmenter son niveau effectif de druide quand il s’agit de déterminer les capacités du compagnon animal.
+* '''Science du compagnon animal.''' Au niveau 11, son compagnon animal s’améliore comme celui d’un druide de son niveau de personnage.
+* '''Forme animale.''' Au niveau 15, il peut utiliser l’aptitude de [[Druide#FORMEANIMALE|forme animale]] pour se transformer en un animal de taille P ou M deux fois par jour. La durée maximale de chaque utilisation ne peut dépasser une heure par niveau de personnage.
+* '''Forme animal suprême.''' Au niveau 19, son aptitude de forme animale s’améliore. Il peut désormais utiliser les options accessibles aux druides de niveau 6 et peut se transformer trois fois par jour.
+
+====Ensorceleur====
+Un personnage qui choisit la classe d’ensorceleur en classe secondaire acquiert les aptitudes suivantes.
+* '''Lignage.''' Au niveau 1, le personnage doit choisir un [[Ensorceleur#LIGNAGE|lignage d’ensorceleur]]. Il considère que son niveau effectif d’ensorceleur est égal à son niveau de personnage en ce qui concerne la totalité des pouvoirs de lignage.
+* '''Pouvoir de lignage.''' Au niveau 3, il acquiert le pouvoir de niveau 1 de son lignage.
+* '''Science du pouvoir de lignage.''' Au niveau 7, il acquiert le pouvoir de niveau 3 de son lignage.
+* '''Don supplémentaire.''' Au niveau 11, il acquiert un des dons proposés par son lignage ou le don [[Dispense de composantes matérielles]].
+* '''Pouvoir de lignage suprême.''' Au niveau 15, il acquiert le pouvoir de niveau 9 de son lignage.
+* '''Pouvoir de lignage véritable.''' Au niveau 19, il acquiert le pouvoir de niveau 15 de son lignage.
+
+====Guerrier====
+Un personnage qui choisit la classe de guerrier en classe secondaire acquiert les aptitudes suivantes.
+* '''Courage.''' Au niveau 3, il acquiert l’aptitude de classe [[Guerrier#COURAGE|courage]] comme un guerrier de son niveau de personnage –1.
+* '''Entraînements aux armures 1.''' Au niveau 7, il acquiert l’aptitude [[Guerrier#ENTRAINEMENTAUXARMURES|entraînement aux armures 1]].
+* '''Entraînement aux armes 1.''' Au niveau 11, il acquiert l’aptitude [[Guerrier#ENTRAINEMENTAUXARMES|entraînement aux armes 1]].
+* '''Entraînement aux armures 2.''' Au niveau 15, il acquiert l’aptitude [[Guerrier#ENTRAINEMENTAUXARMURES|entraînement aux armures 2]].
+* '''Entraînement aux armes 2.''' Au niveau 19, il acquiert l’aptitude [[Guerrier#ENTRAINEMENTAUXARMES|entraînement aux armes 2]].
+
+====Magicien====
+Un personnage qui choisit la classe de magicien en classe secondaire acquiert les aptitudes suivantes.
+* '''École de magie.''' Au niveau 1, il choisit une [[Magicien#ECOLEDEMAGIE|école de magie]] dans laquelle il se spécialise. Il considère que son niveau effectif de magicien est égal à son niveau de personnage en ce qui concerne la totalité des pouvoirs de cette école.
+* '''Familier.''' Au niveau 3, il acquiert un [[Magicien#PACTEMAGIQUE|familier]] en considérant que son niveau effectif de magicien est égal à son niveau de personnage.
+* '''Pouvoir d’école.''' Au niveau 7, il acquiert les pouvoirs de niveau 1 de son école de magie. Si ces pouvoirs confèrent un effet supplémentaire au niveau 20, le personnage ne l’obtient pas.
+* '''Tour de magie.''' Au niveau 11, si le personnage possède une valeur d’[[Intelligence]] de 10 ou plus, il choisit un [[Magicien#TOURSDEMAGIE|tour de magie]] de son école parmi ceux de la [[Liste des sorts densorceleursmagiciens|liste des sorts de magicien]]. Ce tour de magie devient un pouvoir magique qu’il peut utiliser à volonté. Le niveau de lanceur de sorts de ce pouvoir magique est égal à son niveau de personnage et l’Intelligence est la valeur de caractéristique qui lui est associé.
+* '''Découverte.''' Au niveau 15, il acquiert une [[Magicien#DONSUPPLEMENTAIRE|découverte arcanique]] ou un [[Magicien#DONSUPPLEMENTAIRE|don supplémentaire]] de magicien en considérant que son niveau effectif de magicien est égal à son niveau de personnage.
+* '''Pouvoir d’école suprême.''' Au niveau 19, il acquiert le pouvoir de niveau 8 de son école de magie.
+
+====Moine====
+Un personnage qui choisit la classe de moine en classe secondaire acquiert les aptitudes suivantes.
+* '''Armures.''' Au niveau 1, il perd toutes ses aptitudes de moine secondaire quand il porte une armure, manie un bouclier ou transporte une charge intermédiaire ou lourde.
+* '''Combat à mains nues.''' Au niveau 3, il acquiert le don [[Science du combat à mains nues]] et inflige des dégâts à mains nues [[Moine#COMBATAMAINSNUES|comme un moine]] de son niveau de personnage –2.
+* '''Esquive totale.''' Au niveau 7, il acquiert l’aptitude d’[[Moine#ESQUIVETOTALE|esquive totale]].
+* '''Réserve de ki.''' Au niveau 11, il acquiert l’aptitude de classe [[Moine#RESERVEDEKI|réserve de ki]] comme un moine de son niveau de personnage –2. Celle-ci contient un nombre de points de ki égal à la moitié de son niveau de personnage. Il acquiert l’aptitude de réserve de ki (Loyal) seulement s’il est d’alignement Loyal.
+* '''Bonus à la CA.''' Au niveau 15, il gagne un bonus d’esquive de +3 à la [[CA]].
+* '''Esquive surnaturelle.''' Au niveau 19, il acquiert l’aptitude d’[[Moine#ESQUIVESURNATURELLE|esquive surnaturelle]].
+
+====Paladin====
+Un personnage qui choisit la classe de paladin en classe secondaire acquiert les aptitudes suivantes.
+* '''Code de conduite.''' Au niveau 1, il doit adhérer au code de conduite des paladins et acquiert leur [[Paladin#AURADUBIEN|aura de Bien]].
+* '''Détection du Mal.''' Au niveau 3, il peut utiliser ''[[détection du Mal]]'' [[Paladin#DETECTIONDUMAL|comme un paladin]] de niveau 1.
+* '''Imposition des mains.''' Au niveau 7, il acquiert l’aptitude [[Paladin#IMPOSITIONDESMAINS|imposition des mains]] qu’il peut utiliser un nombre de fois par jour égal à la moitié de son niveau de personnage. Chaque utilisation soigne autant de points de vie qu’un paladin de son niveau de personnage –4.
+* '''Châtiment du Mal.''' Au niveau 11, il acquiert l’aptitude de [[Paladin#CHATIMENTDUMAL|châtiment du Mal]] qu’il peut utiliser une fois par jour comme un paladin de son niveau de personnage –4.
+* '''Grâce.''' Au niveau 15, il choisit une [[Paladin#GRACE|grâce]] de la liste des grâces accessibles aux paladins de niveau 3.
+* '''Pacte divin.''' Au niveau 19, il tisse un lien divin entre lui et une arme [[Paladin#PACTEDIVIN|comme un paladin]] de son niveau de personnage – 3.
+
+====Prêtre====
+Un personnage qui choisit la classe de prêtre en classe secondaire acquiert les aptitudes suivantes.
+* '''Divinité.''' Au niveau 1, le personnage doit choisir une divinité dont l’alignement ne s’écarte pas de plus d’une catégorie du sien. Il acquiert l’[[Prêtre#AURA|aura]] du prêtre, les langues supplémentaires, le code de conduite et la restriction sur l’incantation des sorts dont l’alignement est opposé au sien. Il acquiert également l’aptitude d’[[Prêtre#INCANTATIONSPONTANEE|incantation spontanée]] du prêtre qu’il peut utiliser avec n’importe quels sorts conférés par les classes de lanceurs de sorts préparés dont les listes contiennent les sorts appropriés.
+* '''Domaine.''' Au niveau 3, il choisit un [[Prêtre#DOMAINE|domaine]] parmi ceux associés à son dieu et obtient les pouvoirs que confère ce domaine au niveau 1, en considérant que son niveau effectif de prêtre est égal à son niveau de personnage.
+* '''Canalisation.''' Au niveau 7, il acquiert l’aptitude de [[Prêtre#CANALISATIONDENERGIE|canalisation d’énergie]] qu’il utilise comme un prêtre de son niveau de personnage –6, un nombre de fois par jour égal à son modificateur de [[Charisme]] + 1.
+* '''Science de la canalisation.''' Au niveau 11, l’aptitude de canalisation d’énergie du personnage s’améliore et il peut désormais l’utiliser comme un prêtre de son niveau de personnage – 4.
+* '''Domaine amélioré.''' Au niveau 15, il acquiert le pouvoir de domaine supplémentaire conféré par le domaine choisi, en considérant que son niveau effectif de prêtre est égal à son niveau de personnage.
+* '''Canalisation suprême.''' Au niveau 19, l’aptitude de canalisation d’énergie du personnage s’améliore encore et il peut désormais l’utiliser comme un prêtre de son niveau de personnage - 2.
+
+====Rôdeur====
+Un personnage qui choisit la classe de rôdeur en classe secondaire acquiert les aptitudes suivantes.
+* '''Pistage.''' Au niveau 3, il acquiert l’aptitude de classe [[Rôdeur#PISTAGE|pistage]], en considérant que son niveau effectif de rôdeur est égal à son niveau de personnage.
+* '''Ennemi juré.''' Au niveau 7, il acquiert l’aptitude de classe [[Rôdeur#ENNEMIJURE|ennemi juré]] pour un type de créatures.
+* '''Environnement de prédilection.''' Au niveau 11, il acquiert l’aptitude de classe [[Rôdeur#ENVIRONNEMENTDEPREDILECTION|environnement de prédilection]] pour un type d’environnement.
+* '''Expertise du pistage.''' Au niveau 15, il acquiert les aptitudes de classe [[Rôdeur#DEPLACEMENTFACILITE|déplacement facilité]] et [[Rôdeur#PISTAGEACCELERE|pistage accéléré]].
+* '''Proie du chasseur.''' Au niveau 19, il acquiert l’aptitude de classe [[Rôdeur#PROIEDUCHASSEUR|proie du chasseur]].
+
+====Roublard====
+Un personnage qui choisit la classe de roublard en classe secondaire acquiert les aptitudes suivantes.
+* '''Recherche des pièges.''' Au niveau 3, il acquiert l’aptitude de classe [[Roublard#RECHERCHEDESPIEGES|recherche des pièges]].
+* '''Attaque sournoise.''' Au niveau 7, il acquiert l’aptitude de classe [[Roublard#ATTAQUESOURNOISE|attaque sournoise]]. Il peut infliger 1d6 points de dégâts supplémentaires. Ces dégâts augmentent de +1d6 tous les quatre niveaux après le septième, jusqu’à un maximum de +4d6 au niveau 19.
+* '''Esquive totale.''' Au niveau 11, il acquiert l’[[Roublard#ESQUIVETOTALE|esquive totale]].
+* '''Esquive instinctive.''' Au niveau 15, il acquiert l’[[Roublard#ESQUIVEINSTINCTIVE|esquive instinctive]].
+* '''Esquive instinctive supérieure.''' Au niveau 19, il acquiert l’[[Roublard#ESQUIVEINSTINCTIVESUPERIEURE|esquive instinctive supérieure]] en considérant que son niveau effectif de roublard est égal à son niveau de personnage.
+
+
+===Classes de base===
+Les aptitudes de classes secondaires suivantes se basent sur les classes décrites dans le [[Manuel des joueurs - Règles avancées (Contenu)|Manuel des Joueurs - Règles avancées]], dans [[LArt de la guerre (Contenu)|L’Art de la guerre]] et dans [[LArt de la magie (Contenu)|L’Art de la magie]].
+
+====Alchimiste====
+Un personnage qui choisit la classe d’alchimiste en classe secondaire acquiert les aptitudes suivantes.
+* '''Alchimie.''' Au niveau 3, il gagne un bonus de compétence égal à son niveau de personnage aux tests d’[[Artisanat]] (alchimie) et il peut utiliser l’Artisanat (alchimie) pour identifier les [[potions magiques]].
+* '''Bombes.''' Au niveau 7, il peut créer chaque jour un nombre de [[Alchimiste#BOMBES|bombes]] égal à son modificateur d’[[Intelligence]] + la moitié de son niveau de personnage. Les bombes infligent des dégâts équivalents à ceux qu’inflige un alchimiste de son niveau de personnage mais, puisqu’il ne possède pas l’aptitude d’alchimiste [[Alchimiste#LANCERIMPROVISE|lancer improvisé]], il n’ajoute pas son modificateur d’Intelligence à ces dégâts.
+* '''Mutagène.''' Au niveau 11, il acquiert l’aptitude de classe [[Alchimiste#MUTAGENE|mutagène]] dont la durée est égale à 10 minutes par niveau de personnage. Il est considéré comme un alchimiste lorsqu’il boit un mutagène.
+* '''Empoisonnement rapide.''' Au niveau 15, il acquiert les aptitudes [[Alchimiste#UTILISATIONDUPOISON|utilisation des poisons]] et [[Alchimiste#EMPOISONNEMENTRAPIDE|empoisonnement rapide]].
+* '''Immunité aux poisons.''' Au niveau 19, il devient [[Alchimiste#RESISTPOISON|immunisé contre les poisons]].
+
+====Chevalier====
+Un personnage qui choisit la classe de chevalier en classe secondaire acquiert les aptitudes suivantes.
+* '''Ordre.''' Au niveau 1, le personnage choisit un [[Chevalier#ORDRE|ordre]] et doit obéir à ses édits.
+* '''Défi.''' Au niveau 3, il peut mettre un ennemi au [[Chevalier#DEFI|défi]] de le combattre comme un chevalier de son niveau de personnage –2, une fois par jour. Il ajoute l’effet supplémentaire conféré par son ordre à son défi.
+* '''Pouvoir de l’ordre.''' Au niveau 7, il acquiert le pouvoir de niveau 2 de son ordre, en considérant que son niveau effectif de chevalier est égal à son niveau de personnage.
+* '''Tacticien.''' Au niveau 11, il acquiert l’aptitude de classe [[Chevalier#TACTICIEN|tacticien]] en considérant que son niveau effectif de chevalier est égal à son niveau de personnage.
+* '''Pouvoir suprême de l’ordre.''' Au niveau 15, il acquiert le pouvoir de niveau 8 de son ordre, en considérant que son niveau effectif de chevalier est égal à son niveau de personnage.
+* '''Grand tacticien.''' Au niveau 19, il acquiert l’aptitude de classe [[Chevalier#GRANDTACTICIEN|grand tacticien]], en considérant que son niveau effectif de chevalier est égal à son niveau de personnage.
+
+====Conjurateur====
+Un personnage qui choisit la classe de conjurateur en classe secondaire acquiert les aptitudes suivantes.
+* '''Convocation de monstres.''' Au niveau 3, il acquiert le pouvoir magique ''[[convocation de monstres]]'' qu’il utilise [[Conjurateur#CONVOCATIONDEMONSTRES|comme un conjurateur]] de son niveau de personnage –2. Il peut l’utiliser une fois par jour, le temps d’incantation est d’un round entier et la durée d’un round par niveau effectif de conjurateur.
+* '''Eidolon.''' Au niveau 7, il peut invoquer un [[Conjurateur#EIDOLON|eidolon]], en utilisant les caractéristiques d’un eidolon qu’un conjurateur de son niveau de personnage –4 peut convoquer, mais l’eidolon dispose de moitié moins de points d’évolution. Le personnage ne peut convoquer son eidolon qu’en utilisant son pouvoir magique de ''convocation de monstres''.
+* '''Convocations supplémentaires.''' Au niveau 11, il peut utiliser son pouvoir magique de ''convocation de monstres'' trois fois par jour.
+* '''Protection d’allié.''' Au niveau 15, il acquiert l’aptitude de classe [[Conjurateur#PROTECTIONDALLIE|protection d’allié]].
+* '''Aspect.''' Au niveau 19, il acquiert l’aptitude de classe [[Conjurateur#ASPECT|aspect]], mais ne peut transférer qu’un seul point d’évolution de son eidolon à sa personne.
+
+====Inquisiteur====
+Un personnage qui choisit la classe d’inquisiteur en classe secondaire acquiert les aptitudes suivantes.
+* '''Divinité.''' Au niveau 1, il doit choisir une divinité dont l’alignement ne s’écarte pas de plus d’une catégorie du sien. Il doit respecter le code de conduite des inquisiteurs, ainsi que la restriction sur l’incantation des sorts dont l’alignement est opposé au sien.
+* '''Regard sévère.''' Au niveau 3, il acquiert l’aptitude de classe [[Inquisiteur#REGARDSEVERE|regard sévère]], en considérant que son niveau effectif d’inquisiteur est égal à son niveau de personnage.
+* '''Jugement.''' Au niveau 7 et une fois par jour, il peut utiliser l’aptitude de classe de [[Inquisiteur#JUGEMENT|jugement]] comme un inquisiteur de son niveau de personnage –3.
+* '''Tactique solitaire.''' Au niveau 11, il acquiert l’aptitude de classe [[Inquisiteur#TACTIQUESOLITAIRE|tactique solitaire]].
+* '''Jugement supplémentaire.''' Au niveau 15, il peut utiliser l’aptitude de classe jugement deux fois par jour.
+* '''Second jugement.''' Au niveau 19, il acquiert l’aptitude [[Inquisiteur#SECONDJUGEMENT|second jugement]].
+
+====Magus====
+Un personnage qui choisit la classe de magus en classe secondaire acquiert les aptitudes suivantes.
+* '''Réserve magique.''' Au niveau 3, il acquiert l’aptitude de classe [[Magus#RESERVEMAGIQUE|réserve magique]] comme un magus de son niveau –2.
+* '''Arcane du magus.''' Au niveau 7, il acquiert un [[Magus#ARCANEDEMAGUS|arcane de magus]]. Il considère que son niveau effectif de magus est égal à son niveau de personnage pour savoir s’il peut choisir ou non un arcane.
+* '''Frappe magique.''' Au niveau 11, il acquiert l’aptitude de classe [[Magus#FRAPPEMAGIQUE|frappe magique]], mais il peut l’utiliser seulement avec des sorts qui apparaissent dans la liste des sorts de magus, même s’il les lance à partir d’un emplacement de sorts appartenant à une autre classe.
+* '''Science de l’arcane.''' Au niveau 15, il acquiert un arcane de magus supplémentaire.
+* '''Arcane suprême.''' Au niveau 19, il acquiert un arcane de magus supplémentaire.
+
+====Oracle====
+Un personnage qui choisit la classe d’oracle en classe secondaire acquiert les aptitudes suivantes.
+* '''Mystère.''' Au niveau 1, il doit choisir un [[Oracle#MYSTERE|mystère]] et ne peut jamais choisir le don [[Révélation supplémentaire]].
+* '''Malédiction.''' Au niveau 1, il doit choisir une [[Oracle#MALEDICTIONDELORACLE|malédiction]]. Il subit tous ses effets en considérant que son niveau effectif d’oracle est égal à la moitié de son niveau de personnage.
+* '''Révélation.''' Au niveau 3, il acquiert une des [[Oracle#REVELATION|révélations]] suivantes, issues de la liste que lui confère son mystère, comme un oracle de son niveau de personnage –6 (1 au minimum). Son niveau d’oracle effectif doit être suffisamment élevé pour pouvoir choisir la révélation voulue.
+** ''[[Mystère des Batailles|Batailles]].'' Charge surprise, cri de guerre, don pour les armes, guérisseur combattant, lucidité sur le champ de bataille, peau de fer, résilience, vision de guerre.
+** ''[[Mystère des Cieux|Cieux]].'' Appel des cieux, carte stellaire, étoile du berger, habitant des ténèbres, manteau lunaire, manteau stellaire, pluie d’étoiles filantes, vide interstellaire.
+** ''[[Mystère des Flammes|Flammes]].'' Ailes de feu, aura brûlante, caresse des flammes, forme de flamme, magie brûlante, peau en fusion, regard de braise, souffle de feu.
+** ''[[Mystère de la Nature|Nature]].'' Communication avec les animaux, défaire l’artificiel, divination naturelle, esprit de la nature, lien transcendantal, sangsue vitale, toucher d’érosion.
+** ''[[Mystère des Os|Os]].'' Armure d’os, asservir les morts-vivants, blessures ouvertes, caresse de la mort, frôler la mort, promenade spirituelle, relever les morts, résistance à la vie, siphon des âmes, voix de la tombe.
+** ''[[Mystère des Pierres|Pierres]].'' Caresse acide, explosion d’éclats de pierre, lancer de rocher, nage dans la terre, passage à tabac, peau acide, peau brisefer, puissant caillou, vision cristalline.
+** ''[[Mystère du Savoir|Savoir]].'' Acuité mentale, apprentissage en coup de vent, archiviste profane, écriture automatique, fuite de cerveau, réfléchis, symbolisme spontané.
+** ''[[Mystère des Vagues|Vagues]].'' Armure de glace, blizzard, caresse hivernale, forme aqueuse, forme fluide, peau glaciale, sorts givrants, transformation punitive, vision aquatique, voyage fluide.
+** ''[[Mystère du Vent|Vent]].'' Ailes aériennes, barrière d’air, caresse électrique, coup de tonnerre, forme gazeuse, invisibilité, peau électrique, souffle électrique, vision du vent, vortex de sorts.
+** ''[[Mystère de la Vie|Vie]].'' Canalisation, corps d’énergie, guérison sécurisée, lien vital, mains guérisseuses, perception de la vie, retardement de l’affliction, soins améliorés, stimulant spirituel.
+* '''Oraison.''' Au niveau 7, si le personnage possède une valeur de Charisme de 10 ou plus, il choisit une oraison d’oracle qui devient un pouvoir magique utilisable à volonté. Le niveau de lanceur de sorts de ce pouvoir magique est égal à son niveau de personnage et le Charisme est la valeur de caractéristique qui lui est associé.
+* '''Malédiction renforcée.''' Au niveau 11, il augmente son niveau effectif d’oracle de 5 pour déterminer les effets de sa malédiction.
+* '''Science de la révélation.''' Au niveau 15, il acquiert une révélation supplémentaire.
+* '''Révélation suprême.''' Au niveau 19, il acquiert une révélation supplémentaire.
+
+====Pistolier====
+Un personnage qui choisit la classe de pistolier en classe secondaire acquiert les aptitudes suivantes.
+* '''Maniement des armes à feu.''' Au niveau 3, le personnage est formé au maniement de toutes les [[Tableau récapitulatif des armes à feu|armes à feu]].
+* '''Armurier.''' Au niveau 7, il acquiert l’aptitude de classe [[Pistolier#ARMURIER|armurier]].
+* '''Exploit.''' Au niveau 11, il acquiert le don [[Pistolier amateur]].
+* '''Science de l’exploit.''' Au niveau 15, il acquiert un [[Pistolier#EXPLOITS|exploit de pistolier]] de niveau 3 de son choix.
+* '''Exploit suprême.''' Au niveau 19, il acquiert un exploit de pistolier de niveau 7 de son choix.
+
+====Sorcière====
+Un personnage qui choisit la classe de sorcière en classe secondaire acquiert les aptitudes suivantes.
+* '''Protecteur.''' Au niveau 1, le personnage choisit un [[Sorcière#PROTECTEUR|protecteur]] et ne peut jamais choisir le don [[Maléfice supplémentaire]].
+* '''Familier de la sorcière.''' Au niveau 3, il acquiert un [[Sorcière#FAMILIER|familier]] en considérant que son niveau effectif de sorcière est égal à son niveau de personnage.
+* '''Maléfice.''' Au niveau 7, il acquiert un [[Sorcière#MALEFICE|maléfice]] de son choix comme une sorcière de niveau 1. S’il choisit celui de sommeil, il affecte uniquement des créatures dont le nombre de [[DV]] est inférieur ou égal à son niveau de personnage.
+* '''Tour de magie.''' Au niveau 11, s’il possède une valeur d’[[Intelligence]] de 10 ou plus, il choisit un [[Sorcière#TOURSDEMAGIE|tour de magie]] de sorcière. Ce tour de magie devient un pouvoir magique qu’il peut utiliser à volonté. Le niveau de lanceur de sorts de ce pouvoir magique est égal à son niveau de personnage et l’Intelligence est la valeur de caractéristique qui lui est associé.
+* '''Science du maléfice.''' Au niveau 15, il acquiert un deuxième maléfice comme une sorcière de niveau 1 et son premier maléfice évolue comme s’il était une sorcière de niveau 8.
+* '''Maléfice majeur.''' Au niveau 19, il acquiert un [[Sorcière#MALEFICEMAJEUR|maléfice majeur]] comme une sorcière de niveau 10. Il ne peut pas choisir celui de [[Maléfices#Tombedeglace|tombe de glace]].

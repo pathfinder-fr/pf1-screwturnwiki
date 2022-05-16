@@ -1,17 +1,17 @@
 ---
 Name: Pathfinder-RPG.Maladies
 Title: Les maladies
-LastModified: 2019-10-05 11:15
+LastModified: 2022-02-05 16:21
 Categories:
-  - 'Manuel des joueurs'
-  - 'Règles officielles'
+  - 'Règle officielle'
+  - 'Src Manuel des joueurs'
 ---
 {s:Desambi|Voir aussi la [[Maladie (capacité)|capacité de monstres]].}
 Que ce soit la peste ou la morsure d’un rat sanguinaire, les maladies sont une sérieuse menace pour le commun des mortels, tout comme pour les aventuriers. Elles ont rarement une fréquence limitée, mais beaucoup ont des périodes d’incubation longues et variables. On peut soigner la plupart d’entre elles en réussissant un certain nombre de [[jet de sauvegarde|jets de sauvegarde]], ou grâce à des sorts comme ''[[guérison des maladies]]''.
 
 Les exemples suivants présentent quelques-unes des maladies existantes. Pour plus d'informations sur le format des descriptions, voir [[Afflictions|les afflictions]].
 
-<table><tr><td width="49%">
+<table width="100%"><tr><td width="49%">
 <div class="BD">
 {s:BDTitre|Bouille-crâne|}
 * '''Type''' maladie, inhalation ; '''JdS''' Vigueur (DD 12)
@@ -23,10 +23,10 @@ Les exemples suivants présentent quelques-unes des maladies existantes. Pour pl
 
 <div class="BD">
 {s:Reference|DEMONITE}
-{s:BDTitre|Démonite|<sup>Guide de la plaie du monde p.29</sup>}
+{s:BDTitre|Démonite, Peste démoniaque|{s:CSU|5}}
 * '''Type''' maladie, blessure ou ingestion ; '''JdS''' Vigueur (DD 18)
 * '''Incubation''' 1 journée ; '''Fréquence''' 1/jour
-* '''Effet''' [[affaiblissement temporaire]] de 1d3 [[Force]] et 1d6 [[Sagesse]], et la victime est [[fatigué|fatiguée]] si elle reçoit des dégâts temporaires de caractéristiques à cause de la maladie. Certaines créatures tuées par la démonite se relèvent sous forme de [[Créature Pesteuse, archétype|créatures pesteuses]]
+* '''Effet''' [[affaiblissement temporaire]] de 1d3 [[Force]] et 1d6 [[Sagesse]], et la victime est [[fatigué|fatiguée]] si elle reçoit des dégâts temporaires de caractéristiques à cause de la maladie. Certaines créatures tuées par la démonite se relèvent sous forme de [[Bête pestiférée, archétype|créatures pesteuses]]
 * '''Guérison''' 3 JS consécutifs réussis
 
 </div>
@@ -52,6 +52,16 @@ Les exemples suivants présentent quelques-unes des maladies existantes. Pour pl
 </div>
 
 <div class="BD">
+{s:BDTitre|Fièvre frissonnante|{s:Reference|FIEVREFRISSONNANTE}{s:CSU|10}}
+* '''Type''' maladie, inhalation ou blessure ; '''JdS''' Vigueur (DD 17)
+* '''Incubation''' 1 jour ; '''Fréquence''' 1/jour
+* '''Effet''' 1d4 points d’[[affaiblissement temporaire]] de [[Constitution]] et la victime est [[fiévreux|fiévreuse]] et [[fatigué|fatiguée]]
+* '''Guérison''' 2 JS consécutifs réussis
+
+Cette maladie ne doit pas être confondue avec la souche précoce dont elle dérive, bien plus dangereuse, qui décima la province nord-ouest de l'Enclave de la Reine-Sorcière pendant le règne de sa 10e reine. Cette maladie infectieuse se caractérise par les frissons permanents qui affectent la victime et donnent l’impression qu’elle ne peut pas se réchauffer. Les dragons [[Khala|khalas]] sont l’un des vecteurs de transmission de la maladie, mais il en existe beaucoup d’autres.
+</div>
+
+<div class="BD">
 {s:BDTitre|Fièvre gloussante|}
 * '''Type''' maladie, inhalation ; '''JdS''' Vigueur (DD 16)
 * '''Incubation''' 1 jour ; '''Fréquence''' 1/jour
@@ -71,13 +81,25 @@ Les exemples suivants présentent quelques-unes des maladies existantes. Pour pl
 
 <div class="BD">
 {s:Reference|MALAVEUGLANT}{s:BDTitre|Mal aveuglant|}
-* '''Type''' maladie, ingestion ; '''JdS''' Vigueur (DD 16)
+* {s:Desambi|Le nom de cette maladie a parfois été traduit par "croupissure", il a été homogénéisé au profit de "mal aveuglant" pour faciliter la navigation.}'''Type''' maladie, ingestion ; '''JdS''' Vigueur (DD 16)
 * '''Incubation''' 1d3 jours ; '''Fréquence''' 1/jour
 * '''Effet''' 1d4 points d’[[affaiblissement temporaire]] de la [[Force]] ; si > 2, la cible doit réussir un nouveau [[jet de sauvegarde]] ou devenir [[aveugle]] de façon permanente
 * '''Guérison''' 2 JS consécutifs réussis
 
 </div>
 </td><td width="2%"></td><td width="49%">
+<div class="BD">
+{s:BDTitre|Les Écailles|{s:Reference|LESECAILLES}{s:CSU|2}}
+* '''Type''' maladie, contact ou blessure ; '''JdS''' Vigueur (DD 16)
+* '''Incubation''' 1d4 jour ; '''Fréquence''' 1/2 jours
+* '''Effet''' 1d2 points d’[[Affaiblissement temporaire (capacité)|affaiblissement temporaire]] de [[Dextérité]] et 1d2 points d’affaiblissement temporaire de [[Charisme]]
+* '''Guérison''' 2 JS consécutifs réussis. Les reptiles et créatures de sous-type [[sous-type Reptilien|reptilien]] reçoivent un malus de -2 à leur [[jds|jet de sauvegarde]] et doivent faire 3 réussites consécutives pour guérir.
+
+Les Écailles constituent la face orientale de la cité perdue des Troisièmes tréfonds. Au sud-est, l’architecture semblable à celle de la cité des hommes-serpents cède la place à de grandes ruines de construction cyclopéenne. De redoutables [[gug|gugs]] vivent au milieu de ces grandes tours et bâtiments effondrés. Ils semblent exercer leur malfaisance au hasard mais, en réalité, ils sont sous la coupe de quatre puissants [[Dévoreur dintellect|dévoreurs d’intellect]] (dévoreurs d’intellect avec pour corps des [[Gug|gugs]] [[Archétypes#CREATUREEVOLUEE|évolués]] [[Ensorceleur|ensorceleurs]] 10, CM).
+
+Le nord des Écailles est ravagé par une épidémie qui donne son nom à la région, épaississant et asséchant la peau jusqu’à ce qu’elle se craquelle et forme des d’écailles sèches. Cette maladie est particulièrement dévastatrice pour les reptiles.
+</div>
+
 <div class="BD">
 {s:BDTitre|Mal rouge|}
 * '''Type''' maladie, blessure ; '''JdS''' Vigueur (DD 15)
@@ -97,12 +119,22 @@ Les exemples suivants présentent quelques-unes des maladies existantes. Pour pl
 </div>
 
 <div class="BD">
-{s:BDTitre|Peste bubonique|}
+{s:Reference|PESTEBUNONIQUE}{s:BDTitre|Peste bubonique|}
 * '''Type''' maladie, ingestion ou inhalation ; '''JdS''' Vigueur (DD 17)
 * '''Incubation''' 1 jour ; '''Fréquence''' 1/jour
 * '''Effet''' 1d4 points d’[[affaiblissement temporaire]] de la [[Constitution]] et 1 point d'[[affaiblissement temporaire]] au [[Charisme]], cible [[fatigué|fatiguée]]
 * '''Guérison''' 2 JS consécutifs réussis
 
+</div>
+
+<div class="BD">
+{s:BDTitre|Peste des glaciers|{s:Reference|PESTEDESGLACIERS}{s:CSU|10}}
+* '''Type''' maladie, contact ou blessure ; '''JdS''' Vigueur (DD 15)
+* '''Incubation''' 1 jour ; '''Fréquence''' 1/jour
+* '''Effet''' 1d6 points d’[[affaiblissement temporaire]] de [[Dextérité]], la victime est [[épuisé|épuisée]], sa vitesse est réduite de moitié et elle ne peut pas parler
+* '''Guérison''' 2 JS consécutifs réussis
+
+Cette affliction est connue pour se trouver dans les lieux investis depuis longtemps par le froid surnaturel. Elle est courante dans les ruines et au cœur des forêts de toute l'Enclave de la Reine-Sorcière. Une créature affectée gèle lentement de l’intérieur, sans pour autant subir de dégâts de froid. La victime de cette maladie ressent simplement une grande fatigue, comme si elle avait dû faire de l’exercice dans un environnement froid. La peste des glaciers réduit la vitesse de déplacement de ses victimes et agit de bien des manières comme une très lente pétrification. Ainsi, une créature affectée perd graduellement la capacité de parler, se déplace de plus en plus lentement et subit une diminution de sa Dextérité. Si la valeur de [[Dextérité]] de la victime descend en dessous de 5, elle se retrouve incapable de se déplacer. Les créatures qui sont victimes de ce fléau n’en meurent pas directement, mais se trouvent généralement immobilisées dans le froid qui se charge de les tuer.
 </div>
 
 <div class="BD">
@@ -120,7 +152,7 @@ Les exemples suivants présentent quelques-unes des maladies existantes. Pour pl
 * '''Type''' maladie, blessure ; '''JdS''' Vigueur (DD 14) ; 
 * '''Incubation''' 2d6 semaines ; Fréquence 1/jour ; 
 * '''Effet''' [[affaiblissement temporaire]] de 1 point de Con et de 1d3 points de Sag (sans faire passer la Sagesse en-dessous de 1)
-* '''Guérison''' 2 réussites consécutives.
+* '''Guérison''' 2 JS consécutifs réussis
 
 </div>
 

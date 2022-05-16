@@ -1,15 +1,15 @@
 ---
 Name: Pathfinder-RPG.Merrow
 Title: Merrow
-LastModified: 2013-02-07 19:31
+LastModified: 2021-02-19 02:05
 Categories:
-  - 'Bestiaire 2'
   - 'Monstre'
-  - 'Règles officielles'
+  - 'Règle officielle'
+  - 'Src Bestiaire 2'
 ---
 <table class="Bestiaire"><tr><td>
 <div class="BD">
-{s:BDTitre|Merrow d'eau douce|FP 3}
+{s:Reference|EAUDOUCE}{s:BDTitre|Merrow d'eau douce|FP 3}
 {s:pucem|Humanoïde|Aquatique|Tempéré}
 {s:BDTexte|''Source : Bestiaire 2, p.198''}
 {s:BDTexte|'''PX''' 800}
@@ -39,7 +39,7 @@ Categories:
 </div>
 
 <div class="BD">
-{s:BDTitre|Merrow d'eau de mer|FP 6}
+{s:Reference|EAUDEMER}{s:BDTitre|Merrow d'eau de mer|FP 6}
 {s:pucem|Humanoïde|Aquatique|Tempéré}
 {s:BDTexte|''Source : Bestiaire 2, p.198''}
 {s:BDTexte|'''PX''' 2 400}
@@ -47,7 +47,7 @@ Categories:
 {s:BDTexte|'''Init''' +3 ; '''Sens''' [[vision nocturne]] ; [[Perception]] +7}
 {s:BDSousTitre|Défense}
 {s:BDTexte|'''CA''' 19, contact 11, pris au dépourvu 16 (Dex +3, naturelle +8, taille -2)}
-{s:BDTexte|'''pv''' 73 (7d8+42)}
+{s:BDTexte|'''pv''' 80 (7d8+49)}
 {s:BDTexte|'''Réf''' +5, '''Vig''' +11, '''Vol''' +4}
 {s:BDSousTitre|Attaque}
 {s:BDTexte|'''VD''' 12 m (8 {s:c}), nage (12 m (8 {s:c})}
@@ -58,7 +58,7 @@ Categories:
 {s:BDTexte|'''For''' 25, '''Dex''' 16, '''Con''' 23, '''Int''' 6, '''Sag''' 10, '''Cha''' 7}
 {s:BDTexte|'''BBA''' +5, '''BMO''' +14 (+18 lutte), '''DMD''' 27}
 {s:BDTexte|'''Dons''' [[Arme de prédilection]] (griffe), [[Attaque en puissance]], [[Frappe décisive]], [[Volonté de fer]]}
-{s:BDTexte|'''Compétences''' [[Discrétion]] -2 (+2 dans l’eau), [[Natation]] +13, [[Perception]] +7 ;
+{s:BDTexte|'''Compétences''' [[Discrétion]] -2 (+2 dans l’eau), [[Natation]] +15, [[Perception]] +7 ;
 '''Modificateurs raciaux''' +4 en [[Discrétion]] dans l’eau}
 {s:BDTexte|'''Langues''' géant}
 {s:BDTexte|'''Particularités''' [[amphibie]]}

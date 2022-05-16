@@ -1,11 +1,11 @@
 ---
 Name: Pathfinder-RPG.Kobold (race)
 Title: Les Kobolds
-LastModified: 2020-08-07 18:55
+LastModified: 2021-10-06 00:24
 Categories:
-  - 'Manuel des joueurs, règles avancées'
-  - 'Manuel des races'
-  - 'Règles officielles'
+  - 'Règle officielle'
+  - 'Src Manuel des joueurs - Règles avancées'
+  - 'Src Manuel des races'
 ---
 {s:MR}{s:menuracesadditionnelles}
 ===Présentation===
@@ -103,15 +103,23 @@ Ces dons sont accessibles aux kobolds, un MJ peut accorder gratuitement un de ce
 |- CLASS="premier"
 | [[Aspect draconique]] || <sup>MR</sup> || [[kobold (race)|Kobold]] || voir description
 |-
+| &emsp;[[Magie draconique]] || <sup>CM</sup> || [[Aspect draconique]], [[Kobold (race)|kobold]] || Gain de nouveaux pouvoirs magiques en fonction de l'héritage draconique choisi
+|-
 | &emsp;[[Plané draconique]] || <sup>MR</sup> || [[kobold (race)|Kobold]], [[Aspect draconique]] || voir description
 |-
 | &emsp;[[Souffle draconique]] || <sup>MR</sup> || [[kobold (race)|Kobold]], [[Aspect draconique]] || voir description
 |-
 | &emsp;&emsp;[[Modèle draconique]] || <sup>MR</sup> || [[kobold (race)|Kobold]], [[Aspect draconique]], [[Plané draconique]], [[Souffle draconique]], niveau 10 || voir description
+
 |- CLASS="premier"
 | [[Embusqueur kobold]] || <sup>MR</sup> || [[kobold (race)|Kobold]], 4 rangs en [[Discrétion]] || voir description
+
+|- CLASS="premier"
+| [[Monte de slurk]]* || <sup>CM</sup> || [[Kobold (race)|Kobold]] || Le personnage peut monter un slurk
+
 |- CLASS="premier"
 | [[Queue de terreur]] || <sup>MR</sup> || [[kobold (race)|Kobold]], BBA+1 || voir description
+
 |- CLASS="premier"
 | [[Sniper kobold]] || <sup>MR</sup> || [[kobold (race)|Kobold]], 1 rang en Discrétion || voir description
 |}
@@ -119,7 +127,14 @@ Ces dons sont accessibles aux kobolds, un MJ peut accorder gratuitement un de ce
 {s:ligne}{s:col|6}
 ====Archétypes de classes====
 Cet archétype racial est accessible aux kobolds :
+* [[Dragon jappeur (barde)]]
 * [[Guérillero (pistolier)]]
+* [[Trappeur alchimique (alchimiste)]]
+
+====Compagnons animaux====
+Ces compagnons animaux ont une vitesse, des attaques, des caractéristiques et des pouvoirs différents. Ils gagnent en puissance au fur et à mesure que le personnage obtient des niveaux. Ils bénéficient des mêmes bonus que les autres [[compagnons animaux]]. Chaque compagnon gagne un bonus supplémentaire, comme indiqué dans sa section, généralement au niveau 4 ou 7. Un [[chevalier]] kobold peut choisir l’un de ces compagnons comme monture au lieu de prendre un chien ou un poney.
+* [[Liste des compagnons animaux#Pythondeselle|Python de selle]]
+* [[Liste des compagnons animaux#Salamandrecavernicole|Salamandre cavernicole]]
 
 ====Lignage====
 Tout ensorceleur peut choisir ce lignage, mais il est plus courant pour les kobolds.
@@ -128,9 +143,9 @@ Tout ensorceleur peut choisir ce lignage, mais il est plus courant pour les kobo
 ====Équipement====
 Les kobolds ont accès à l’équipement suivant :
 * [[accessoires caudaux kobolds (arme)|Accessoires caudaux kobolds]]
-* [[Armes alchimiques#Charbon alchimique|Charbon alchimique (cendres aveuglantes)]]
-* [[Armes alchimiques#Charbon alchimique|Charbon alchimique (fumée asphyxiante)]]
-* [[Équipement daventurier#Sifflet des grottes|Sifflet des grottes]]
+* [[Charbon alchimique (objet)|Charbon alchimique (cendres aveuglantes)]]
+* [[Charbon alchimique (objet)|Charbon alchimique (fumée asphyxiante)]]
+* [[Sifflet des grottes (objet)|Sifflet des grottes]]
 
 {s:col-fin}{s:col|6}
 ====Objets magiques====
@@ -138,7 +153,43 @@ Ces objets magiques sont spécifiques aux kobolds :
 * [[Gants de décombres]]
 * [[Sacoche du piégeur]]
 
+====Pièges====
+Voici des pièges de confection kobold. Si le MJ le désire, les autres races peuvent aussi s’en servir.
+* [[Exemples de pièges#Blaireaumoisietchutederocher|Blaireau moisi et chute de rocher]]
+* [[Exemples de pièges#Chutedacide|Chute d'acide]]
+* [[Exemples de pièges#Chutedebûche|Chute de bûche]]
+* [[Exemples de pièges#Fosseàfumierdedragon|Fosse à fumier de dragon]]
+* [[Exemples de pièges#Lanceophidienne|Lance ophidienne]]
+* [[Exemples de pièges#Piègedefeudraconique|Piège de feu draconique]]
+* [[Exemples de pièges#Piègedepoussièrecollante|Piège de poussière collante]]
+
 ====Sorts====
 Ces sorts sont réservés aux kobolds :
 * '''''[[Amélioration de piège]]''''' ''(MR)'' ([[Antipaladin|Apal 2]], [[Druide|Dru 3]], [[Inquisiteur|Inq 3]], [[Ensorceleur|Ens]]/[[Magicien|Mag 3]], [[Rôdeur|Rôd 2]], [[Sorcière|Sor 3]]). Renforce un piège ciblé.
 {s:col-fin}{s:ligne-fin}
+
+{s:CM}
+====Écologie====
+Créatures des profondeurs obscures, les kobolds sont les maîtres des tunnels, de l’extraction minière et des pièges en tout genre. Ils méprisent tous ceux qui tentent de profiter de leur chétivité ou de voler leur précieux minerai, ils veillent donc à élaborer des défenses mécaniques pour protéger leur antre. Les aventuriers qui cherchent à prendre d’assaut l’antre d’une tribu voient rarement un seul kobold avant d’avoir surmonté toute une variété de cruels mécanismes intelligemment conçus.
+
+Tous les kobolds affirment être apparentés aux dragons, mais même s’il est vrai que les teintes de leurs écailles correspondent à celles des dragons chromatiques, les dragons réfutent ce lien de parenté. Si un kobold réussit à prouver sa valeur à un dragon, il lui sert souvent de fabricant de pièges ou de domestique, en échange de la protection du dragon et de l’honneur qu’il y a à se trouver en sa présence.
+
+Quand les humains et les kobolds travaillent de concert, généralement lors d’opérations minières, les kobolds se font souvent une réputation de voleurs et de nuisibles car ils ont tendance à ressortir de nuit et à disparaître avec tout ce que les humains ont laissé traîner. Pour les kobolds, tout est bon à prendre, des outils agricoles aux petits animaux. Ils affirment que ce n’est pas du vol et qu’ils se contentent de faire bon usage de ce que les humains n’apprécient visiblement pas à sa juste valeur.
+
+Créatures des cavernes profondément enterrées et des forêts enténébrées, les kobolds n’aiment pas la lumière, et même celle des torches leur fait mal aux yeux. Ainsi, même si ce ne sont pas des créatures nocturnes, ils s’aventurent rarement à la surface pendant la journée.
+
+Les communautés kobolds sont très élaborées. L’antre est généralement de petite taille et se compose seulement de quelques cavernes servant de lieux de vie, de celliers et d’ateliers mais il est entouré d’un réseau complexe de tunnels et de passages très exigus lourdement piégés. Pour un kobold, la meilleure bataille c’est celle qu’il n’a pas besoin de livrer, la création de passages est donc un passe-temps et une politique constante (et légèrement paranoïaque).
+
+La salle de stockage des œufs est aussi soumise à ce sentiment paranoïaque : un kobold ordinaire ignore où se trouvent les œufs de la tribu tant qu’ils n’ont pas éclos, ce qui l’empêche de révéler leur emplacement, même soumis à une coercition ou un interrogatoire magique. Le chef de la tribu et les gardiens des œufs sont les seuls à savoir où ils sont conservés, afin que, lorsque le domaine de la tribu sera inévitablement envahi (ce que les kobolds fatalistes considèrent comme inévitable), il restera assez d’œufs intacts pour donner naissance à une nouvelle génération.
+
+Les kobolds détestent les races plus grandes, comme les nains, les gnomes et les autres créatures qui exploitent les veines minérales qu’ils considèrent comme leurs. Dès qu’une tribu a commencé à extraire des métaux précieux ou des gemmes dans une zone, ses membres accusent toute autre personne osant creuser dans la zone de vol. Même si les kobolds débouchent accidentellement dans une ville naine établie de longue date suite à une opération minière, leur sens de la destinée manifeste les poussera à affirmer que ce sont les nains les intrus.
+
+Et pourtant, le ressentiment que les kobolds éprouvent vis-à-vis des autres races n’est rien par rapport à l’animosité qu’ils réservent aux autres tribus kobolds qui empiètent sur leurs opérations minières ou se servent dans les ressources de nourriture qu’ils estiment leurs. Les guerres qui en résultent sont féroces, sanglantes et rapides, chaque tribu s’efforçant d’éliminer autant d’adversaires que possible jusqu’à ce que l’un des chefs meure. Une fois qu’une tribu a perdu son chef, ses membres sont démoralisés et deviennent les esclaves de la tribu victorieuse qui les envoie dans les mines récolter des minéraux pour leurs nouveaux maîtres. Si des aventuriers parviennent à franchir les pièges installés par la tribu, ce sont ces mêmes esclaves qui sont envoyés au combat, sans espoir de remporter la bataille. Certaines personnes se demandent pourquoi les kobolds ainsi condamnés ne se retournent pas contre leurs maîtres : la triste vérité, c’est qu’ils se font tuer avant d’avoir pu essayer.
+
+La plupart des tribus sont placées sous la direction d’un unique chef à l’autorité rarement remise en question. Si la tribu est dirigée par une créature d’une autre race, comme un jeune dragon, c’est tout de même un chef kobold qui transmet ses ordres et veille à l’administration quotidienne. Le rôle de chef s’obtient par combat mais les accidents liés aux pièges sont tacitement acceptés.
+
+Les kobolds vénèrent les dieux des dragons et, bien souvent, les dragons eux-mêmes car ils voient peu de différence entre des divinités toutes puissantes et des dragons tous puissants (pour eux). Les dragons quant à eux semblent apprécier l’adoration que leur vouent leurs cousins (même si quelques dragons amateurs de solitude préfèrent transformer un kobold en repas plutôt qu’en serviteur) et aiment la société hiérarchisée et bien ordonnée des kobolds qui permet à leur dirigeant de les commander facilement.
+
+Les kobolds se sentent plus proches des dragons chromatiques que des métalliques mais la couleur de leurs écailles n’est pas aussi intimement liée à leur personnalité que celle des véritables dragons, même si quelques tribus ont des superstitions associées à la couleur des écailles. La couleur ne fait pas partie des constantes dans les gènes des kobolds, des parents d’une couleur pouvant donner naissance à des enfants de différentes teintes. On trouve ainsi tout le spectre chromatique sans aucun lien avec les capacités de chacun.
+
+Les rares kobolds métalliques forment une exception. Ils ne sont pas plus enclins à faire le bien que le reste de leur espèce, mais les autres les considèrent comme des individus spéciaux ou marqués par une puissance supérieure et ils deviennent souvent de grands chefs ou des chamans. Évidemment, cette différenciation est à double tranchant car le chef actuel n’a pas forcément envie de voir un usurpateur traîner autour de lui. Même les tribus qui cherchent sincèrement à utiliser au mieux leurs « élus » les soumettent parfois à une série de dangereuses épreuves afin de vérifier les pouvoirs dont ils disposent.

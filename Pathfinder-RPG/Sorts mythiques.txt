@@ -1,13 +1,51 @@
 ---
 Name: Pathfinder-RPG.Sorts mythiques
-Title: Sorts mythiques
-LastModified: 2020-07-09 20:00
+Title: Les sorts mythiques
+LastModified: 2021-01-30 15:22
 Categories:
-  - 'Campagne mythique'
   - 'Magie'
-  - 'Règles officielles'
+  - 'Règle officielle'
+  - 'Src Campagnes mythiques'
 ---
-{s:cmy}
+{s:MenuMythique}{s:CMy}Les sorts mythiques puisent dans le pouvoir mythique de leur lanceur pour créer des effets magiques plus puissants : une boule de feu mythique met le feu aux créatures affectées, une armure de mage mythique peut annuler les coups critiques, etc. Ces sorts ne sont pas distincts et le personnage ne les apprend pas comme les autres par le biais de sa classe de lanceur de sorts. Ce sont plutôt les versions imprégnées de pouvoir mythique des sorts que le personnage connaît déjà.
+
+====Apprentissage des sorts mythiques====
+Pour apprendre un sort mythique, le personnage doit posséder l’aptitude de voie universelle [[Aptitudes de voie universelles mythique#INCANTATIONMYTHIQUE|incantation mythique]] ou le don [[Connaissances magiques mythiques (mythique)|Connaissances magiques mythiques]]. Dès lors, le personnage découvre la méthode secrète pour manipuler son pouvoir mythique de façon à augmenter l’intensité des sorts non-mythiques de son choix.
+
+====Incantation des sorts mythiques====
+Si le personnage connait la version mythique d’un sort, à chaque fois qu’il lance sa version classique, il peut dépenser une utilisation de [[pouvoir mythique]] pour lancer la version mythique à la place. Ceci ne modifie pas le niveau de l’emplacement du sort utilisé pour le lancer.
+
+Si le personnage prépare ses sorts (comme un [[prêtre]] ou un [[magicien]]), il n’a jamais besoin de préparer leur version mythique ; s’il prépare la version non-mythique d’un sort, il peut lancer sa version mythique en dépensant une utilisation de pouvoir mythique. Sauf précision contraire, l’incantation de la version mythique d’un sort ne prend pas plus de temps que celle de son équivalent non-mythique.
+
+====Effets des sorts mythiques====
+Sauf indication contraire, un sort mythique fonctionne de la même façon que sa version classique. Par exemple, les [[Zombi humain|zombis]] créés par les sorts ''[[animation des morts]]'' et ''animation des morts mythique'' comptent dans la limite maximale de [[DV]] de morts-vivants que le personnage peut contrôler en même temps. De la même façon, une créature Chaotique est immunisée au ''marteau du Chaos mythique'' tout comme elle est immunisée au ''[[marteau du Chaos]]'' classique.
+
+À moins que la description d’un sort mythique ne précise le renfort, le remplacement ou l’augmentation d’un effet normalement produit par sa version non-mythique ou qu’un effet en remplace un autre, le sort non-mythique produit tous ses effets en plus de ceux créés par la version mythique. Par exemple, le sort ''[[blasphème|blasphème mythique]]'' inflige des malus aux créatures qui ratent leur [[jds|jet de sauvegarde]] ; comme la description du sort ne précise pas que ces malus remplacent ceux infligés par sa version non-mythique, ces malus viennent en plus des effets produits par le sort classique.
+
+{s:Reference|AMPLIFIE}
+====Sorts mythiques amplifiés====
+La version amplifiée d’un sort mythique produit le même effet que sa version mythique, en plus d’avantages, d’options ou d’effets augmentés supplémentaires. Pour lancer certains sorts mythiques amplifiés, le personnage doit parfois avoir un [[grade]] minimum. Le cas échéant, la condition en matière de grade associé aux effets amplifiés est indiquée entre parenthèses dans la ligne correspondante. Par exemple, « Amplification (4ème) » signifie que le personnage doit avoir atteint le 4ème grade au moins pour utiliser cette option. Si un personnage connait un sort mythique, il sait automatiquement comment lancer sa version amplifiée lorsqu’il atteint le grade approprié.
+
+L’incantation de la version amplifiée d’un sort mythique exige une dépense d’utilisations supplémentaires de [[pouvoir mythique]] au moment de l’incantation. Le nombre d’utilisations supplémentaires nécessaires pour lancer la version amplifiée d’un sort est indiqué dans la description Amplifiée du sort et inclut l’utilisation de pouvoir mythique initialement nécessaire pour lancer la version mythique du sort. Lorsqu’il lance un sort, le personnage doit décider s’il souhaite lancer la version non-mythique, la version mythique ou la version mythique amplifiée, et dépenser le nombre approprié d’utilisations de pouvoir mythique. Il ne peut lancer la version non-mythique d’un sort puis dépenser ultérieurement une utilisation de pouvoir mythique pour le convertir dans sa version mythique. De même, il ne peut lancer la version mythique de base d’un sort puis dépenser plus tard la différence d’utilisations de pouvoir mythique pour convertir le sort dans sa version amplifiée.
+* ''Exemple.'' le personnage est un [[magicien]] niveau 9/[[Archimage mythique|archimage]] [[grade]] 6 qui connait animation mythique des morts et a préparé ''[[animation des morts]]''. L’incantation d’''animation des morts'' se déroule comme à l’accoutumée et ne nécessite pas de dépense de [[pouvoir mythique]]. L’incantation d’''animation des morts mythique'' nécessite la dépense d’une utilisation de pouvoir mythique lorsque le personnage lance le sort préparé d’''animation des morts''. L’incantation de la version amplifiée d’animation mythique des morts nécessite la dépense de deux (et non trois) utilisations de pouvoir mythique lorsque le personnage lance son sort préparé d’''animation des morts''.
+
+====Les sorts mythiques dans les objets magiques====
+Les sorts mythiques ne peuvent être intégrés dans la fabrication d’objets magiques à moins que l’objet en question ne soit un artefact (il est par exemple impossible de préparer une ''potion de [[soins légers|soins légers mythique]]'').
+
+====Les sorts mythiques dans le profil des créatures====
+Dans le profil d’une créature, l’exposant « M » indique que la créature connait la version mythique du sort.
+
+====Sort pénétrant====
+Lorsque le personnage lance un sort mythique, il peut également lancer la forme pénétrante de ce sort pour augmenter les chances de succomber à ses effets. En dépensant une utilisation supplémentaire de [[pouvoir mythique]], le personnage augmente le [[DD]] du [[jds|jet de sauvegarde]] du sort de +2 et bénéficie d’un bonus de +2 aux tests de [[NLS|niveau de lanceur de sorts]] pour ignorer les [[RM|résistances à la magie]].
+
+====Sort résistant====
+Lorsque le personnage lance un sort mythique, il peut également lancer sa forme résistante pour diminuer les risques de le voir dissipé ou contré. Cela nécessite la dépense d’une utilisation de [[pouvoir mythique]] ; le cas échéant, les tests effectués pour dissiper le sort subissent un malus de -4 et le sort ne peut être contré à moins que le lanceur adverse dépense également une utilisation de pouvoir mythique pour ignorer la résistante du sort lancé par le personnage (dans ce cas, les règles sur la manière de [[contresort|contrer un sort]] s’appliquent normalement).
+
+Le personnage peut combiner les formes résistantes et pénétrantes d’un sort ; le cas échéant, il doit dépenser un total de deux utilisations de pouvoir mythique supplémentaires. Il peut lancer les formes résistantes et pénétrantes des sorts mythiques amplifiés de la même façon.
+
+====Les grades dans la description des sorts mythiques====
+À moins que le contraire ne soit indiqué, toutes les indications de [[grade]] dans la description des sorts mythiques se réfèrent au grade de la créature qui lance le sort. Chaque fois que la description d’un sort mythique indique la moitié du grade du personnage, le résultat est de 1 au minimum (ce qui signifie qu’un personnage de grade 1 obtient tout de même un avantage).
+
 ===Liste des sorts mythiques===
 Les listes suivantes compilent la totalité des versions mythiques des sorts existants présentés dans cet ouvrage, ainsi que les nouveaux sorts qui font usage, confèrent ou volent du pouvoir mythique.
 
@@ -19,13 +57,11 @@ Les listes suivantes compilent la totalité des versions mythiques des sorts exi
 
 '''Créatures et personnages.''' Les termes « créature » et « personnage » sont synonymes dans la description des sorts.
 
-'''Nouveaux sorts.''' Un astérisque (*) après le nom d’un sort indique que ce sort est nouveau et que sa description se trouve dans ce chapitre.
+'''Nouveaux sorts.''' Un astérisque (*) après le nom d’un sort indique que ce sort est nouveau et que sa description se trouve dans cette section.
 
-{s:Reference|AMPLIFIE}
 '''Sorts mythiques amplifiés.''' Un exposant « A » apparait après le nom d’un sort dans ces listes lorsque le sort en question dispose d’un effet amplifié si son lanceur décide de dépenser des utilisations supplémentaires de pouvoir mythique. Voir la description des sorts concernés pour plus d’informations sur leurs effets amplifiés.
 
 ====Formules mythiques d’alchimiste====
-
 '''Formules mythiques d’alchimiste de 1er niveau.''' [[Agrandissement]], [[anticipation du danger]], [[coup au but]]<sup>A</sup>, [[endurance aux énergies destructives]], [[rapetissement]], [[repli expéditif]], [[soins légers]].
 
 '''Formules mythiques d’alchimiste de 2ème niveau.''' [[Aspect animal]], [[barrière protectrice]], [[injection]], [[invective cuisante]]<sup>A</sup>, [[invisibilité]]<sup>A</sup>, [[lévitation]]<sup>A</sup>, [[pattes daraignée|pattes d'araignée]], [[peau décorce|peau d'écorce]]<sup>A</sup>, [[protection contre les projectiles]], [[résistance aux énergies destructives]], [[simulacre de vie]], [[soins modérés]].
@@ -39,7 +75,6 @@ Les listes suivantes compilent la totalité des versions mythiques des sorts exi
 '''Formules mythiques d’alchimiste de 6ème niveau.''' [[Corps élémentaire III]]<sup>A</sup>, [[double illusoire]]<sup>A</sup>, [[forme bestiale IV]]<sup>A</sup>, [[forme draconique I]]<sup>A</sup>, [[guérison suprême]]<sup>A</sup>, [[physique monstrueux IV]]<sup>A</sup>, [[transformation martiale]], [[traverser lespace|traverser l'espace]]<sup>A</sup>.
 
 ====Sorts mythiques d’antipaladin====
-
 '''Sorts mythiques d’antipaladin de 1er niveau.''' [[Blessure légère]], [[imprécation]], [[injonction]], [[mise à mort]]<sup>A</sup>, [[ordre assassin]]<sup>A</sup>, [[protection contre le Bien]]/[[protection contre la Loi|la Loi]].
 
 '''Sorts mythiques d’antipaladin de 2ème niveau.''' [[Cécitésurdité|Cécité/surdité]], [[invisibilité]]<sup>A</sup>, [[poison pernicieux]]<sup>A</sup>, [[profanation]], [[silence]], [[ténèbres]].
@@ -49,13 +84,11 @@ Les listes suivantes compilent la totalité des versions mythiques des sorts exi
 '''Sorts mythiques d’antipaladin de 4ème niveau.''' [[Blessure grave]].
 
 ====Sorts mythiques du barde====
-
 '''Sorts mythiques du barde de 1er niveau.''' [[corde déchardes|Corde d'échardes]], [[final salvateur]]
 
 '''Sorts mythiques du barde de 4ème niveau.''' [[Détonation discordante]], [[modification de mémoire]]
 
 ====Sorts mythiques d’ensorceleur/magicien====
-
 '''Sorts mythiques d’ensorceleur/magicien de 1er niveau.''' [[Agrandissement]], [[anticipation du danger]], [[arme dombre|arme d'ombre]], [[armure de mage]], [[brume de dissimulation]]<sup>A</sup>, [[cassé]]<sup>A</sup>, [[couleurs dansantes]], [[coup au but]]<sup>A</sup>, [[cri perçant]]<sup>A</sup>, [[décharge électrique]]<sup>A</sup>, [[disque flottant]], [[endurance aux énergies destructives]], [[feuille morte]]<sup>A</sup>, [[graisse]]<sup>A</sup>, [[image silencieuse]]<sup>A</sup>, [[mains brûlantes]], [[poussée hydraulique]], [[projectile magique]]<sup>A</sup>, [[protection contre le Chaos]]/[[protection contre le Mal|Mal]]/[[protection contre le Bien|Bien]]/[[protection contre la Loi|Loi]], [[protection contre le vol]], [[rapetissement]], [[rayon affaiblissant]], [[repli expéditif]], [[sommeil]]<sup>A</sup>, [[trou de mémoire]]<sup>A</sup>, [[verrouillage]].
 
 '''Sorts mythiques d’ensorceleur/magicien de 2ème niveau.''' [[Ancre dombre|Ancre d'ombre]], [[aspect animal]], [[bourrasque]]<sup>A</sup>, [[Cécitésurdité|Cécité/surdité]], [[contact défigurant]]<sup>A</sup>, [[déblocage]]<sup>A</sup>, [[fou rire]]<sup>A</sup>, [[fracassement]], [[froid pénétrant]]<sup>A</sup>, [[image miroir]], [[invisibilité]]<sup>A</sup>, [[jitterbug]], [[lévitation]]<sup>A</sup>, [[nappe de brouillard]]<sup>A</sup>, [[nuée grouillante]], [[pattes daraignée|pattes d'araignée]], [[poison pernicieux]]<sup>A</sup>, [[poussière du crépuscule]]<sup>A</sup>, [[protection contre les projectiles]], [[rayon ardent]], [[regard brûlant]]<sup>A</sup>, [[réparation intégrale]], [[résistance aux énergies destructives]], [[sang bouillant]]<sup>A</sup>, [[simulacre de vie]], [[ténèbres]], [[tir par ricochet]]<sup>A</sup>, [[toile daraignée|toile d'araignée]]<sup>A</sup>.
@@ -75,7 +108,6 @@ Les listes suivantes compilent la totalité des versions mythiques des sorts exi
 '''Sorts mythiques d’ensorceleur/magicien de 9ème niveau.''' [[Arrêt du temps]]<sup>A</sup>, [[Sort Ascension|ascension]], [[disjonction]], [[mot de pouvoir mortel]]<sup>A</sup>, [[nuée de météores]]<sup>A</sup>, [[prémonition]], [[souhait]]<sup>A</sup>, [[sphère prismatique]], [[tsunami]]<sup>A</sup>.
 
 ====Sorts mythiques de druide====
-
 '''Sorts mythiques de druide de 1er niveau.''' [[Appel dun animal|Appel d'un animal]], [[baie nourricière]]<sup>A</sup>, [[brume de dissimulation]]<sup>A</sup>, [[enchevêtrement]], [[endurance aux énergies destructives]], [[Lueur féerique]]<sup>A</sup>, [[morsure magique]], [[poing invincible de la terre]], [[poussée hydraulique]], [[soins légers]].
 
 '''Sorts mythiques de druide de 2ème niveau.''' [[Aspect animal]], [[bourrasque]]<sup>A</sup>, [[festin de cendres]], [[froid pénétrant]]<sup>A</sup>, [[lame de feu]]<sup>A</sup>, [[métal brûlant]], [[métal gelé]], [[nappe de brouillard]]<sup>A</sup>, [[nuée grouillante]], [[pattes daraignée|pattes d'araignée]], [[peau décorce|peau d'écorce]]<sup>A</sup>, [[poison pernicieux]]<sup>A</sup>, [[regard brûlant]]<sup>A</sup>, [[résistance aux énergies destructives]], [[vérole]].
@@ -95,13 +127,11 @@ Les listes suivantes compilent la totalité des versions mythiques des sorts exi
 '''Sorts mythiques de druide de 9ème niveau.''' [[Sort Ascension|Ascension]], [[prémonition]], [[régénération]], [[tempête vengeresse]]<sup>A</sup>, [[tsunami]]<sup>A</sup>.
 
 ====Sorts mythiques de l'inquisiteur====
-
 '''Sorts mythiques de l'inquisiteur de 2ème niveau.''' [[Flammes du fidèle]]
 
 '''Sorts mythiques de l'inquisiteur de 5ème niveau.''' [[Poursuite divine]]
 
 ====Sorts mythiques de paladin====
-
 '''Sorts mythiques de paladin de 1er niveau.''' [[Bénédiction]], [[connaître son ennemi]], [[endurance aux énergies destructives]], [[faveur divine]], [[métal solaire]], [[protection contre le Chaos]]/[[protection contre le Mal|Mal]], [[soins légers]].
 
 '''Sorts mythiques de paladin de 2ème niveau.''' [[Lien sacré]]<sup>A</sup>, [[protection dautrui|protection d'autrui]], [[rayon aveuglant]], [[résistance aux énergies destructives]].
@@ -111,7 +141,6 @@ Les listes suivantes compilent la totalité des versions mythiques des sorts exi
 '''Sorts mythiques de paladin de 4ème niveau.''' [[Annulation denchantement|Annulation d'enchantement]]<sup>A</sup>, [[serment de paix]], [[soins importants]].
 
 ====Sorts mythiques de prêtre====
-
 '''Sorts mythiques de prêtre de 1er niveau.''' [[Bénédiction]], [[blessure légère]], [[bouclier de la foi]], [[bouclier entropique]], [[brume de dissimulation]]<sup>A</sup>, [[connaître son ennemi]], [[endurance aux énergies destructives]], [[faveur divine]], [[imprécation]], [[injonction]], [[métal solaire]], [[ordre assassin]]<sup>A</sup>, [[poing invincible de la terre]], [[protection contre le Chaos]]/[[protection contre le Mal|Mal]]/[[protection contre le Bien|Bien]]/[[protection contre la Loi|Loi]], [[protection contre le vol]], [[sanctuaire]]<sup>A</sup>, [[soins légers]].
 
 '''Sorts mythiques de prêtre de 2ème niveau.''' [[Arme spirituelle]], [[blessure modérée]], [[consécration]], [[contact défigurant]]<sup>A</sup>, [[fracassement]], [[mise à mort]]<sup>A</sup>, [[profanation]], [[protection dautrui|protection d'autrui]], [[rayon aveuglant]], [[réparation intégrale]], [[résistance aux énergies destructives]], [[sang bouillant]]<sup>A</sup>, [[silence]], [[soins modérés]], [[surmonter laffliction|surmonter l'affliction]]<sup>A</sup>, [[ténèbres]].
@@ -131,7 +160,6 @@ Les listes suivantes compilent la totalité des versions mythiques des sorts exi
 '''Sorts mythiques de prêtre de 9ème niveau.''' [[Sort Ascension|Ascension]], [[tempête vengeresse]]<sup>A</sup>.
 
 ====Sorts mythiques de rôdeur====
-
 '''Sorts mythiques de rôdeur de 1er niveau.''' [[Anticipation du danger]], [[Appel dun animal|appel d'un animal]], [[connaître son ennemi]], [[enchevêtrement]], [[endurance aux énergies destructives]], [[métal solaire]], [[morsure magique]], [[résistance aux énergies destructives]].
 
 '''Sorts mythiques de rôdeur de 2ème niveau.''' [[Animation des morts]]<sup>A</sup>, [[aspect animal]], [[peau décorce|peau d'écorce]]<sup>A</sup>, [[soins légers]], [[tir par ricochet]]<sup>A</sup>.
@@ -141,7 +169,6 @@ Les listes suivantes compilent la totalité des versions mythiques des sorts exi
 '''Sorts mythiques de rôdeur de 4ème niveau.''' [[Soins importants]].
 
 ====Sorts mythiques de sorcière====
-
 '''Sorts mythiques de sorcière de 1er niveau.''' [[Agrandissement]], [[arme dombre|arme d'ombre]], [[armure de mage]], [[blessure légère]], [[brume de dissimulation]]<sup>A</sup>, [[cri perçant]]<sup>A</sup>, [[injonction]], [[mains brûlantes]], [[mauvais présage]]<sup>A</sup>, [[protection contre le vol]], [[rapetissement]], [[rayon affaiblissant]], [[sceau contre les maléfices]]<sup>A</sup>, [[soins légers]], [[sommeil]]<sup>A</sup>.
 
 '''Sorts mythiques de sorcière de 2ème niveau.''' [[Ancre dombre|Ancre d'ombre]], [[blessure modérée]], [[Cécitésurdité|Cécité/surdité]], [[contact défigurant]]<sup>A</sup>, [[festin de cendres]], [[froid pénétrant]]<sup>A</sup>, [[lévitation]]<sup>A</sup>, [[mise à mort]]<sup>A</sup>, [[nappe de brouillard]]<sup>A</sup>, [[nuée grouillante]], [[poison pernicieux]]<sup>A</sup>, [[regard brûlant]]<sup>A</sup>, [[sang bouillant]]<sup>A</sup>, [[simulacre de vie]], [[soins modérés]], [[toile daraignée|toile d'araignée]]<sup>A</sup>, [[vérole]].
@@ -160,21 +187,21 @@ Les listes suivantes compilent la totalité des versions mythiques des sorts exi
 
 '''Sorts mythiques de sorcière de 9ème niveau.''' [[Sort Ascension|Ascension]], [[mot de pouvoir mortel]]<sup>A</sup>, [[prémonition]], [[tempête vengeresse]]<sup>A</sup>.
 
+===Nouveaux sorts===
+Cette rubrique décrit de nouveaux sorts qui affectent les règles ou les créatures mythiques. À la différence des sorts mythiques présentés précédemment, le personnage n’a pas besoin d’un [[grade]] mythique pour lancer la plupart d’entre eux.
 
-==NOUVEAUX SORTS==
-Cette rubrique décrit de nouveaux sorts qui affectent les règles ou les créatures mythiques. À la différence des [[sorts mythiques]] présentés précédemment, le personnage n’a pas besoin d’un [[grade]] mythique pour lancer la plupart d’entre eux.
-
-===Mythique===
-Certains de ces sorts possèdent leur propre version mythique, tout comme les sorts déjà existants tels qu’animation des morts et boule de feu. Au lieu d’inclure la description de la version mythique dans le précédent paragraphe de ce chapitre, celle-ci est intégrée dans la description du nouveau sort.
+'''Mythique.''' Certains de ces sorts possèdent leur propre version mythique, tout comme les sorts déjà existants tels qu’''[[animation des morts]]'' et ''[[boule de feu]]''. Au lieu d’inclure la description de la version mythique dans le précédent paragraphe de cette section, celle-ci est intégrée dans la description du nouveau sort.
 
 '''Amplifié.''' Comme tous les sorts mythiques concernés, si un sort possède une version amplifiée, celle-ci est expliquée dans la description du sort.
 
-*[[Sort Ascension|Ascension]]
-*[[Gloire dépréciée]]
-*[[Gloire partagée]]
-*[[Immortalité]]
-*[[Restauration de pouvoir mythique]]
-*[[Rupture mythique]]
-*[[Terraformation]]
-*[[Transfert de voie]]
-*[[Vol de pouvoir]]
+<div class="article_3col">
+[[Sort Ascension|Ascension]],  
+[[Gloire dépréciée]],  
+[[Gloire partagée]],  
+[[Immortalité]],  
+[[Restauration de pouvoir mythique]],  
+[[Rupture mythique]],  
+[[Terraformation]],  
+[[Transfert de voie]],  
+[[Vol de pouvoir]].
+</div>

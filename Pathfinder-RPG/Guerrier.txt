@@ -1,56 +1,23 @@
 ---
 Name: Pathfinder-RPG.Guerrier
 Title: Le guerrier
-LastModified: 2020-02-10 20:12
+LastModified: 2022-02-28 18:52
 Categories:
   - 'Classe'
-  - 'Manuel des joueurs'
-  - 'Règles officielles'
+  - 'Règle officielle'
+  - 'Src Manuel des joueurs'
 ---
 {s:MenuClasses}
-<div class="fright">'''''Voir aussi [groupe darmes|Les groupes d'armes].'''''<br/> 
-{s:PM0|guerriers} '''Voir les archétypes du guerrier'''&emsp;
-<ul ID="guerriers" CLASS="listecachée cadrebas">
-  <li>[[Arbalétrier (guerrier)|Arbalétrier]] (MJRA)</li>
-  <li>[[Archer (guerrier)|Archer]] (MJRA)</li>
-  <li>[[Castagneur (guerrier)|Castagneur]] (AG)</li>
-  <li>[[Champion du marteau (guerrier)|Champion du marteau]] ([[nain|Nain]]) (MR)</li>
-  <li>[[Combattant à deux armes (guerrier)|Combattant à deux armes]] (MJRA)</li>
-  <li>[[Combattant à deux mains (guerrier)|Combattant à deux mains]] (MJRA)</li>
-  <li>[[Combattant de la main libre (guerrier)|Combattant de la main libre]] (MJRA)</li> 
-  <li>[[Combattant déloyal (guerrier)|Combattant déloyal]] ([[orque (race)|Orque]]) (MR)</li>
-  <li>[[Corsaire (guerrier)|Corsaire]] (PMI)</li>
-  <li>[[Dragon (guerrier)|Dragon]] (AG)</li>
-  <li>[[Embusqueur des airs (guerrier)|Embusqueur des airs]] ([[strix (race)|Strix]]) (MR)</li>
-  <li>[[Frappe-tonnerre (guerrier)|Frappe-tonnerre]] (AG)</li>
-  <li>[[Gardien occulte (guerrier)|Gardien occulte]] (AG)</li>
-  <li>[[Gladiateur (guerrier)|Gladiateur]] (AG)</li>
-  <li>[[Guerrier désarmé (guerrier)|Guerrier désarmé]] (AG)</li>
-  <li>[[Guerrier mobile (guerrier)|Guerrier mobile]] (MJRA)</li>
-  <li>[[Guerrier mutagénique (guerrier)|Guerrier mutagénique]] (MCA)</li>
-  <li>[[Guerrier sauvage (guerrier)|Guerrier sauvage]] (MJRA)</li>
-  <li>[[Guerrier sensitif (guerrier)|Guerrier sensitif]] (AO)</li>
-  <li>[[Invincible (guerrier)|Invincible]] (AG)</li>
-  <li>[[Maitre darmes (guerrier)|Maître d'armes]] (MJRA)</li>
-  <li>[[Maître dhast (guerrier)|Maître d'hast]] (MJRA)</li>
-  <li>[[Maître des armures (guerrier)|Maître des armures]] (AG)</li>
-  <li>[[Maître du bouclier (guerrier)|Maître du bouclier]] (MJRA)</li>
-  <li>[[Maître martial (guerrier)|Maître martial]] (MCA)</li>
-  <li>[[Malotru (guerrier)|Malotru]] (AG)</li>
-  <li>[[Monteur de bêtes (guerrier)|Monteur de bêtes]] (MJRA)</li>
-  <li>[[Phalange (guerrier)|Phalange]] (MJRA)</li>
-  <li>[[Spécialiste du pavois (guerrier)|Spécialiste du pavois]] (AG)</li>
-  <li>[[Tacticien (guerrier)|Tacticien]] (AG)</li>
-  <li>[[Tireur embusqué des cavernes (guerrier)|Tireur embusqué des cavernes]] ([[drow (race)|Drow]]) (MR)</li>
-  </ul></div>
-
-''Certains prennent les armes en quête de gloire, de richesse, ou de vengeance. D’autres combattent pour faire leurs preuves, pour protéger des proches ou parce qu’ils ne savent rien faire d’autre. Et d’autres encore s’engagent sur la voie des armes pour affûter leur corps et démontrer leur courage lorsque le combat fait rage. Les guerriers, ces seigneurs du champ de bataille, forment un groupe hétéroclite. Ils s’entraînent à manier de nombreuses armes ou juste une, ils apprennent à utiliser les armures de manière optimale, ils suivent les enseignements martiaux de maîtres exotiques et étudient l’art de la guerre. Tout cela pour devenir de véritables armes vivantes. Ces combattants exceptionnels sont plus que de simples brutes : ils révèlent la véritable puissance des armes et transforment de simples morceaux de métal en outils permettant de soumettre des royaumes, de massacrer des monstres et d’unir des armées. Les guerriers sont des soldats, des chevaliers, des chasseurs, des artistes de la guerre et des champions sans égal. Malheur à ceux qui oseraient s’opposer à eux.''
+<div class="fright">'''''Voir aussi les [[groupe darmes|groupes d'armes]].'''''  
+'''''Voir aussi les [[Entraînements avancés|entraînements avancés]].'''''  
+{s:PM0|guerrier}'''Voir les archétypes du guerrier'''&emsp;
+  <li ID="guerrier" CLASS="listecachée" STYLE="display:none">{s:Menuarchétypeguerrier}</li>
+</div>''Certains prennent les armes en quête de gloire, de richesse, ou de vengeance. D’autres combattent pour faire leurs preuves, pour protéger des proches ou parce qu’ils ne savent rien faire d’autre. Et d’autres encore s’engagent sur la voie des armes pour affûter leur corps et démontrer leur courage lorsque le combat fait rage. Les guerriers, ces seigneurs du champ de bataille, forment un groupe hétéroclite. Ils s’entraînent à manier de nombreuses armes ou juste une, ils apprennent à utiliser les armures de manière optimale, ils suivent les enseignements martiaux de maîtres exotiques et étudient l’art de la guerre. Tout cela pour devenir de véritables armes vivantes. Ces combattants exceptionnels sont plus que de simples brutes : ils révèlent la véritable puissance des armes et transforment de simples morceaux de métal en outils permettant de soumettre des royaumes, de massacrer des monstres et d’unir des armées. Les guerriers sont des soldats, des chevaliers, des chasseurs, des artistes de la guerre et des champions sans égal. Malheur à ceux qui oseraient s’opposer à eux.''
 
 <table width="100%">
 <tr>
 <td width="70%">
-<center>
-{| CLASS="tablo"
+{| CLASS="tablo centre autoalt"
 |+ Le guerrier
 |- CLASS="titre"
 | Niveau
@@ -65,142 +32,141 @@ Categories:
 | +0
 | +2
 | +0
-| CLASS="gauche" | [[guerrier#DONSUPPLEMENTAIRE|don supplémentaire]]
-|- CLASS="alt"
+| CLASS="gauche" | [[guerrier#DONSUPPLEMENTAIRE|Don supplémentaire]]
+|-
 | 2
 | +2
 | +0
 | +3
 | +0
-| CLASS="gauche" | [[guerrier#DONSUPPLEMENTAIRE|don supplémentaire]], [[guerrier#COURAGE|courage]] +1
+| CLASS="gauche" | [[guerrier#COURAGE|Courage]] +1, [[guerrier#DONSUPPLEMENTAIRE|don supplémentaire]]
 |-
 | 3
 | +3
 | +1
 | +3
 | +1
-| CLASS="gauche" | [[guerrier#ENTRAINEMENTAUXARMURES|entraînement aux armures]] 1
-|- CLASS="alt"
+| CLASS="gauche" | [[guerrier#ENTRAINEMENTAUXARMURES|Entraînement aux armures]] 1
+|-
 | 4
 | +4
 | +1
 | +4
 | +1
-| CLASS="gauche" | [[guerrier#DONSUPPLEMENTAIRE|don supplémentaire]]
+| CLASS="gauche" | [[guerrier#DONSUPPLEMENTAIRE|Don supplémentaire]]
 |-
 | 5
 | +5
 | +1
 | +4
 | +1
-| CLASS="gauche" | [[guerrier#ENTRAINEMENTAUXARMES|entraînement aux armes]] 1
-|- CLASS="alt"
+| CLASS="gauche" | [[guerrier#ENTRAINEMENTAUXARMES|Entraînement aux armes]] 1
+|-
 | 6
 | +6/+1
 | +2
 | +5
 | +2
-| CLASS="gauche" | [[guerrier#DONSUPPLEMENTAIRE|don supplémentaire]], [[guerrier#COURAGE|courage]] +2
+| CLASS="gauche" | [[guerrier#COURAGE|Courage]] +2, [[guerrier#DONSUPPLEMENTAIRE|don supplémentaire]]
 |-
 | 7
 | +7/+2
 | +2
 | +5
 | +2
-| CLASS="gauche" | [[guerrier#ENTRAINEMENTAUXARMURES|entraînement aux armures]] 2
-|- CLASS="alt"
+| CLASS="gauche" | [[guerrier#ENTRAINEMENTAUXARMURES|Entraînement aux armures]] 2
+|-
 | 8
 | +8/+3
 | +2
 | +6
 | +2
-| CLASS="gauche" | [[guerrier#DONSUPPLEMENTAIRE|don supplémentaire]]
+| CLASS="gauche" | [[guerrier#DONSUPPLEMENTAIRE|Don supplémentaire]]
 |-
 | 9
 | +9/+4
 | +3
 | +6
 | +3
-| CLASS="gauche" | [[guerrier#ENTRAINEMENTAUXARMES|entraînement aux armes]] 2
-|- CLASS="alt"
+| CLASS="gauche" | [[guerrier#ENTRAINEMENTAUXARMES|Entraînement aux armes]] 2
+|-
 | 10
 | +10/+5
 | +3
 | +7
 | +3
-| CLASS="gauche" | [[guerrier#DONSUPPLEMENTAIRE|don supplémentaire]], [[guerrier#COURAGE|courage]] +3
+| CLASS="gauche" | [[guerrier#COURAGE|Courage]] +3, [[guerrier#DONSUPPLEMENTAIRE|don supplémentaire]]
 |-
 | 11
 | +11/+6/+1
 | +3
 | +7
 | +3
-| CLASS="gauche" | [[guerrier#ENTRAINEMENTAUXARMURES|entraînement aux armures]] 3
-|- CLASS="alt"
+| CLASS="gauche" | [[guerrier#ENTRAINEMENTAUXARMURES|Entraînement aux armures]] 3
+|-
 | 12
 | +12/+7/+2
 | +4
 | +8
 | +4
-| CLASS="gauche" | [[guerrier#DONSUPPLEMENTAIRE|don supplémentaire]]
+| CLASS="gauche" | [[guerrier#DONSUPPLEMENTAIRE|Don supplémentaire]]
 |-
 | 13
 | +13/+8/+3
 | +4
 | +8
 | +4
-| CLASS="gauche" | [[guerrier#ENTRAINEMENTAUXARMES|entraînement aux armes]] 3
-|- CLASS="alt"
+| CLASS="gauche" | [[guerrier#ENTRAINEMENTAUXARMES|Entraînement aux armes]] 3
+|-
 | 14
 | +14/+9/+4
 | +4
 | +9
 | +4
-| CLASS="gauche" | [[guerrier#DONSUPPLEMENTAIRE|don supplémentaire]], [[guerrier#COURAGE|courage]] +4
+| CLASS="gauche" | [[guerrier#COURAGE|Courage]] +4, [[guerrier#DONSUPPLEMENTAIRE|don supplémentaire]]
 |-
 | 15
 | +15/+10/+5
 | +5
 | +9
 | +5
-| CLASS="gauche" | [[guerrier#ENTRAINEMENTAUXARMURES|entraînement aux armures]] 4
-|- CLASS="alt"
+| CLASS="gauche" | [[guerrier#ENTRAINEMENTAUXARMURES|Entraînement aux armures]] 4
+|-
 | 16
 | +16/+11/+6/+1
 | +5
 | +10
 | +5
-| CLASS="gauche" | [[guerrier#DONSUPPLEMENTAIRE|don supplémentaire]]
+| CLASS="gauche" | [[guerrier#DONSUPPLEMENTAIRE|Don supplémentaire]]
 |-
 | 17
 | +17/+12/+7/+2
 | +5
 | +10
 | +5
-| CLASS="gauche" | [[guerrier#ENTRAINEMENTAUXARMES|entraînement aux armes]] 4
-|- CLASS="alt"
+| CLASS="gauche" | [[guerrier#ENTRAINEMENTAUXARMES|Entraînement aux armes]] 4
+|-
 | 18
 | +18/+13/+8/+3
 | +6
 | +11
 | +6
-| CLASS="gauche" | [[guerrier#DONSUPPLEMENTAIRE|don supplémentaire]], [[guerrier#COURAGE|courage]] +5
+| CLASS="gauche" | [[guerrier#COURAGE|Courage]] +5, [[guerrier#DONSUPPLEMENTAIRE|don supplémentaire]]
 |-
 | 19
 | +19/+14/+9/+4
 | +6
 | +11
 | +6
-| CLASS="gauche" | [[guerrier#MAITRISEDESARMURES|maîtrise des armures]]
-|- CLASS="alt"
+| CLASS="gauche" | [[guerrier#MAITRISEDESARMURES|Maîtrise des armures]]
+|-
 | 20
 | +20/+15/+10/+5
 | +6
 | +12
 | +6
-| CLASS="gauche" | [[guerrier#DONSUPPLEMENTAIRE|don supplémentaire]], [[guerrier#MAITRISEDESARMES|maîtrise des armes]]
+| CLASS="gauche" | [[guerrier#DONSUPPLEMENTAIRE|Don supplémentaire]], [[guerrier#MAITRISEDESARMES|maîtrise des armes]]
 |}
-</center>
 </td>
 <td width="30%" valign="bottom">
 {s:ImageCentre|Illustrations/PNJ/Valéros.jpg|100%}
@@ -222,43 +188,41 @@ Les compétences de classe du guerrier sont les suivantes : [[Artisanat]] (Int),
 === Descriptif de la classe ===
 Les aptitudes du guerrier sont décrites ci-dessous.
 
-====Armes et armures==== Le guerrier est formé au maniement de toutes les armes courantes et de guerre, ainsi qu’au port de tous les types d’[[tableau récapitulatif des armures|armures]] (légères, intermédiaires et lourdes) et à l’utilisation des boucliers (y compris les pavois).
+====Armes et armures====
+Le guerrier est formé au maniement de toutes les armes courantes et de guerre, ainsi qu’au port de tous les types d’[[tableau récapitulatif des armures|armures]] (légères, intermédiaires et lourdes) et à l’utilisation des boucliers (y compris les pavois).
 
 {s:Reference|DONSUPPLEMENTAIRE}
 ====Dons supplémentaires====
-
 Au niveau 1 et tous les niveaux pairs suivants, le guerrier peut choisir un don supplémentaire qui vient s’ajouter à ceux auxquels tous les personnages ont droit en montant de niveau (le guerrier gagne donc un don à chaque niveau). Ces dons supplémentaires doivent être choisis parmi ceux qui sont indiqués comme étant des « [[don de combat|dons de combat]] ».
 
 Lorsqu’il atteint le niveau 4 et tous les quatre niveaux par la suite (aux niveaux 8, 12, et ainsi de suite), le guerrier peut choisir de remplacer un des dons supplémentaires qu’il a appris par un autre. Concrètement, le guerrier perd le don supplémentaire en question et en gagne un nouveau. Le don perdu ne peut avoir été utilisé comme condition permettant d’avoir accès à un autre don, à une classe de prestige ou à un autre avantage. Le guerrier ne peut remplacer qu’un seul don à chacun de ces niveaux et doit choisir de le faire ou non au moment où il sélectionne le nouveau don pour ce niveau.
 
 {s:Reference|COURAGE}
 ====Courage (Ext)====
-
 À partir du niveau 2, le guerrier gagne un bonus de +1 aux [[jet de sauvegarde|jets de sauvegarde]] contre la [Terreur (capacité)|terreur]. Ce bonus augmente de +1 tous les quatre niveaux après le niveau 2.
 
 {s:Reference|ENTRAINEMENTAUXARMURES}
 ====Entraînement aux armures (Ext)====
-
 Dès le niveau 3, le guerrier apprend à rester mobile même en armure. Lorsqu’il porte une armure, il réduit de 1 le malus d’armure aux tests de compétence (jusqu’à un minimum de 0) et augmente de 1 le bonus de [[Dextérité]] maximal autorisé par cette armure. Tous les quatre niveaux par la suite (aux niveaux 7, 11 et 15), ces modificateurs augmentent de 1, jusqu’à une réduction de -4 au malus d’armure et une augmentation de +4 au bonus de [[Dextérité]] maximal.
 
 De plus, un guerrier peut se déplacer à sa vitesse normale même lorsqu’il porte une [[armure intermédiaire]]. Au niveau 7, cela est valable également lorsqu’il porte une [[armure lourde]].
 
 {s:Reference|ENTRAINEMENTAUXARMES}
-
 ====Entraînement aux armes (Ext)====
-
 Dès le niveau 5, le guerrier peut choisir un [[groupe darmes|groupe d’armes]] et obtenir un bonus de +1 à tous les [[jet dattaque|jets d’attaque]] et [[jet de dégâts|de dégâts]] relatifs aux attaques avec ces armes.
 
 Tous les quatre niveaux de guerrier par la suite (aux niveaux 9, 13 et 17), son entraînement s’étend pour inclure un nouveau groupe d’armes. Il obtient un bonus de +1 aux [[jet dattaque|jets d’attaque]] et [[jet de dégâts|de dégâts]] pour les attaques effectuées avec les armes de ce nouveau groupe et chacun des bonus associés aux groupes d’armes qu’il a choisis précédemment augmente de +1. Par exemple, un guerrier de niveau 9 dispose d’un bonus de +1 aux jets d’attaque et de dégâts avec un groupe d’armes et d’un bonus de +2 aux jets d’attaque et de dégâts avec le groupe d’armes qu’il a choisi au niveau 5. Si le guerrier utilise une arme qui appartient à plusieurs groupes, les bonus ne se cumulent pas : seul le bonus le plus élevé s’applique.
 
 Le bonus s’applique également aux tests des [[manœuvres offensives]] réalisées à l’aide d’une arme appartenant à un de ces groupes. Il s'applique aussi à la [[DMD|défense contre les manœuvres offensives]] contre une tentative de [[désarmement]] ou de [[destruction]] effectuée par un adversaire avec l'une de ces armes.
 
+{s:cs}{s:WMH}'''Les entraînements aux armes avancés.''' À partir du niveau 9, au lieu de sélectionner un [[groupe darmes|groupe d’armes]] supplémentaire, un guerrier peut choisir une option d'[[Entraînements avancés#ARMES|entraînement avancé]] pour un groupe d’armes qu'il a précédemment sélectionné avec la compétence de classe d'[[guerrier#ENTRAINEMENTAUXARMES|entraînement aux armes]]. Il peut aussi obtenir ces options d'entraînement avancé grâce au don [[Entraînement aux armes avancé]].
+
+Le bonus d'entraînement aux armes du guerrier augmente toujours pour les armes de tous les groupes d'armes de combat qu'il a précédemment sélectionné avec l'entraînement aux armes. Le guerrier ajoute également ce bonus à tous les tests des [[manœuvres offensives]] effectués avec des armes de ce groupe. Ce bonus s'applique également à la [[DMD|défense contre les manœuvres offensives]] en cas de tentative de [[désarmement]] ou de [[destruction]] des armes de ce groupe.
+
 {s:Reference|MAITRISEDESARMURES}
 ====Maîtrise des armures (Ext)====
-
 Au niveau 19, le guerrier gagne une [[RD|réduction aux dégâts]] de 5/— lorsqu’il porte une armure ou utilise un bouclier.
 
 {s:Reference|MAITRISEDESARMES}
 ====Maîtrise des armes (Ext)====
-
 Au niveau 20, le guerrier choisit un type d’arme (comme les épées longues, les grandes haches ou les arcs longs). Les possibilités de [[critique]] lorsqu’il attaque avec ce type d’arme sont automatiquement confirmées et le multiplicateur de dégâts de l’arme augmente de 1 (×2 devient ×3 par exemple). De plus, le guerrier ne peut plus être désarmé lorsqu’il tient une arme de ce type.

@@ -1,30 +1,21 @@
 ---
 Name: Pathfinder-RPG.Hypnotiseur
-Title: Hypnotiseur
-LastModified: 2020-03-20 17:53
+Title: L'hypnotiseur
+LastModified: 2021-09-01 12:36
 Categories:
-  - 'Aventures occultes'
   - 'Classe'
-  - 'Règles officielles'
+  - 'Règle officielle'
+  - 'Src Aventures occultes'
 ---
 {s:Menuclassesoccultes}
-<div class="fright">'''''Voir aussi les [[inductions]] de l'hypnotiseur.''''' <br/>
-'''''Voir aussi la [[liste des sorts dhypnotiseur|liste des sorts d'hypnotiseur]].'''''<br/>
+<div class="fright">'''''Voir aussi les [[Inductions|inductions d'hypnotiseur]].'''''  
+'''''Voir aussi la [[liste des sorts dhypnotiseur|liste des sorts d'hypnotiseur]].'''''  
 {s:PM0|hypnotiseur}'''Voir les archétypes d'hypnotiseur'''&emsp;
-<ul ID="hypnotiseur" CLASS="listecachée cadrebas">
-  <li>[[Casse-cou humiliant (hypnotiseur)|Casse-cou humiliant]] (AO)</li>
-  <li>[[Maître du culte (hypnotiseur)|Maître du culte]] (AO)</li>
-  <li>[[Marcheur spirituel (hypnotiseur)|Marcheur spirituel]] (AO)</li>
-  <li>[[Toxicologue (hypnotiseur)|Toxicologue]] (AO)</li>
-</ul></div>
+  <li ID="hypnotiseur" CLASS="listecachée" STYLE="display:none">{s:Menuarchétypehypnotiseur}</li>
+</div>{s:AO}''Experts en matière de charme et de duperie, les hypnotiseurs contraignent autrui à écouter ce qu’ils ont à dire et à se plier à leur volonté. Les pouvoirs psychiques, surtout ceux d’enchantement et d’illusion, offrent aux hypnotiseurs les outils nécessaires pour manipuler autrui, souvent pour accomplir leurs propres desseins. Le regard d’un personnage de cette classe peut hypnotiser quelqu’un pour l’obliger à obéir. Les hypnotiseurs développent souvent le culte de leur propre personnalité, ainsi que des compétences et des plans de secours au cas où leurs manigances seraient découvertes. Ils puisent leur magie du plan Astral et beaucoup considèrent leur esprit comme un conduit d’accès vers des espaces énigmatiques et incompréhensibles.''
 
-
-
-{s:AO}''Experts en matière de charme et de duperie, les hypnotiseurs contraignent autrui à écouter ce qu’ils ont à dire et à se plier à leur volonté. Les pouvoirs psychiques, surtout ceux d’enchantement et d’illusion, offrent aux hypnotiseurs les outils nécessaires pour manipuler autrui, souvent pour accomplir leurs propres desseins. Le regard d’un personnage de cette classe peut hypnotiser quelqu’un pour l’obliger à obéir. Les hypnotiseurs développent souvent le culte de leur propre personnalité, ainsi que des compétences et des plans de secours au cas où leurs manigances seraient découvertes. Ils puisent leur magie du plan Astral et beaucoup considèrent leur esprit comme un conduit d’accès vers des espaces énigmatiques et incompréhensibles.''
-
-<center>
-{| CLASS="tablo"
-|+ L'hypnotiseur
+{| CLASS="tablo centre"
+|+ {s:Reference|TABLEHYPNOTISEUR}L'hypnotiseur
 |- CLASS="titre"
 | ROWSPAN="2" | Niveau
 | ROWSPAN="2" | BBA
@@ -301,21 +292,20 @@ Categories:
 | 5
 | 5
 |}
-</center>
 
 {s:ImageDroite|Illustrations/PNJ/Meligaster.jpg|35%}
-'''Rôle.''' Les hypnotiseurs dominent les esprits faibles en écrasant la volonté de leurs ennemis afin de les affaiblir. Fiers de leur ruse et de leur inventivité, ils soutiennent également leurs alliés (et souvent eux-mêmes) avec leurs inductions magiques dont la plupart confèrent une protection. Leur capacité de soins limitée fournit surtout des points de vie temporaires. Les hypnotiseurs ne sont pas les plus efficaces des soigneurs mais ils peuvent aisément soigner les états préjudiciables qui affectent les capacités mentales.  
+'''Rôle.''' Les hypnotiseurs dominent les esprits faibles en écrasant la volonté de leurs ennemis afin de les affaiblir. Fiers de leur ruse et de leur inventivité, ils soutiennent également leurs alliés (et souvent eux-mêmes) avec leurs inductions magiques dont la plupart confèrent une protection. Leur capacité de soins limitée fournit surtout des points de vie temporaires. Les hypnotiseurs ne sont pas les plus efficaces des soigneurs mais ils peuvent aisément soigner les états préjudiciables qui affectent les capacités mentales.
 
-'''Alignement.''' Tous.  
+'''Alignement.''' Tous.
 
-'''Dés de vie.''' d8.  
+'''Dés de vie.''' d8.
 
-'''Richesse de départ.''' 3d6 × 10 po (105 po en moyenne).  
+'''Argent de départ.''' 3d6 x 10 po (moyenne 105 po).
 
 === Compétences de classe ===
-Les compétences de classe de l’hypnotiseur sont les suivantes : [[Art de la magie]] (Int), [[Artisanat]] (Int), [[Bluff]] (Cha), [[Connaissances]] (exploration souterraine) (Int), [[Connaissances]] (folklore local)(Int), [[Connaissances]] (histoire) (Int), [[Connaissances]] (mystères) (Int), [[Connaissances]] (noblesse) (Int), [[Connaissances]] (religion) (Int), [[Déguisement]] (Cha), [[Diplomatie]] (Cha), [[Discrétion]] (Dex), [[Escamotage]] (Dex), [[Estimation]] (Int), [[Évasion]] (Dex), [[Intimidation]] (Cha), [[Linguistique]] (Int), [[Perception]] (Sag), [[Profession]] (Sag), [[Psychologie]] (Sag), [[Représentation]] (Cha), [[Utilisation dobjets magiques|Utilisation d’objets magiques]] (Cha).  
+Les compétences de classe de l’hypnotiseur sont les suivantes : [[Art de la magie]] (Int), [[Artisanat]] (Int), [[Bluff]] (Cha), [[Connaissances]] (exploration souterraine) (Int), [[Connaissances]] (folklore local)(Int), [[Connaissances]] (histoire) (Int), [[Connaissances]] (mystères) (Int), [[Connaissances]] (noblesse) (Int), [[Connaissances]] (religion) (Int), [[Déguisement]] (Cha), [[Diplomatie]] (Cha), [[Discrétion]] (Dex), [[Escamotage]] (Dex), [[Estimation]] (Int), [[Évasion]] (Dex), [[Intimidation]] (Cha), [[Linguistique]] (Int), [[Perception]] (Sag), [[Profession]] (Sag), [[Psychologie]] (Sag), [[Représentation]] (Cha), [[Utilisation dobjets magiques|Utilisation d’objets magiques]] (Cha).
 
-'''Points de compétence par niveau.''' 6 + modificateur d’[[Intelligence]].  
+'''Points de compétence par niveau.''' 6 + modificateur d’[[Intelligence]].
 
 ===Descriptif de la classe===
 Les aptitudes de l’hypnotiseur sont décrites ci-dessous.
@@ -327,205 +317,57 @@ Les hypnotiseurs sont formés au maniement de toutes les [[arme courante|armes c
 ====Sorts====
 <div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
 <div style="border: 1px solid #4b3124; padding: 4px">
-{s:Reference|TABLESORTSDHYPNOTISEURCONNUS}
-<center>
-{| CLASS="tablo"
-|+ Sorts d'hypnotiseur connus
+{| CLASS="tablo centre autoalt"
+|+ {s:Reference|TABLESORTSDHYPNOTISEURCONNUS}Sorts d'hypnotiseur connus
 |- CLASS="titre"
 | ROWSPAN="2" | Niveau
 | COLSPAN="7" CLASS="avecsoustitre" | Sorts connus
 |- CLASS="soustitre"
-| 0
-| 1er
-| 2e
-| 3e
-| 4e
-| 5e
-| 6e
+| 0 || 1er || 2e || 3e || 4e || 5e || 6e
 |- CLASS="premier"
-| 1
-| 4
-| 2
-| -
-| -
-| -
-| -
-| -
-|- CLASS="alt"
-| 2
-| 5
-| 3
-| -
-| -
-| -
-| -
-| -
+| 1 || 4 || 2 || - || - || - || - || -
 |-
-| 3
-| 6
-| 4
-| -
-| -
-| -
-| -
-| -
-|- CLASS="alt"
-| 4
-| 6
-| 4
-| 2
-| -
-| -
-| -
-| -
+| 2 || 5 || 3 || - || - || - || - || -
 |-
-| 5
-| 6
-| 4
-| 3
-| -
-| -
-| -
-| -
-|- CLASS="alt"
-| 6
-| 6
-| 4
-| 4
-| -
-| -
-| -
-| -
+| 3 || 6 || 4 || - || - || - || - || -
 |-
-| 7
-| 6
-| 5
-| 4
-| 2
-| -
-| -
-| -
-|- CLASS="alt"
-| 8
-| 6
-| 5
-| 4
-| 3
-| -
-| -
-| -
+| 4 || 6 || 4 || 2 || - || - || - || -
 |-
-| 9
-| 6
-| 5
-| 4
-| 4
-| -
-| -
-| -
-|- CLASS="alt"
-| 10
-| 6
-| 5
-| 5
-| 4
-| 2
-| -
-| -
+| 5 || 6 || 4 || 3 || - || - || - || -
 |-
-| 11
-| 6
-| 6
-| 5
-| 4
-| 3
-| -
-| -
-|- CLASS="alt"
-| 12
-| 6
-| 6
-| 5
-| 4
-| 4
-| -
-| -
+| 6 || 6 || 4 || 4 || - || - || - || -
 |-
-| 13
-| 6
-| 6
-| 5
-| 5
-| 4
-| 2
-| -
-|- CLASS="alt"
-| 14
-| 6
-| 6
-| 6
-| 5
-| 4
-| 3
-| -
+| 7 || 6 || 5 || 4 || 2 || - || - || -
 |-
-| 15
-| 6
-| 6
-| 6
-| 5
-| 4
-| 4
-| -
-|- CLASS="alt"
-| 16
-| 6
-| 6
-| 6
-| 5
-| 5
-| 4
-| 2
+| 8 || 6 || 5 || 4 || 3 || - || - || -
 |-
-| 17
-| 6
-| 6
-| 6
-| 6
-| 5
-| 4
-| 3
-|- CLASS="alt"
-| 18
-| 6
-| 6
-| 6
-| 6
-| 5
-| 4
-| 4
+| 9 || 6 || 5 || 4 || 4 || - || - || -
 |-
-| 19
-| 6
-| 6
-| 6
-| 6
-| 5
-| 5
-| 4
-|- CLASS="alt"
-| 20
-| 6
-| 6
-| 6
-| 6
-| 6
-| 5
-| 5
+| 10 || 6 || 5 || 5 || 4 || 2 || - || -
+|-
+| 11 || 6 || 6 || 5 || 4 || 3 || - || -
+|-
+| 12 || 6 || 6 || 5 || 4 || 4 || - || -
+|-
+| 13 || 6 || 6 || 5 || 5 || 4 || 2 || -
+|-
+| 14 || 6 || 6 || 6 || 5 || 4 || 3 || -
+|-
+| 15 || 6 || 6 || 6 || 5 || 4 || 4 || -
+|-
+| 16 || 6 || 6 || 6 || 5 || 5 || 4 || 2
+|-
+| 17 || 6 || 6 || 6 || 6 || 5 || 4 || 3
+|-
+| 18 || 6 || 6 || 6 || 6 || 5 || 4 || 4
+|-
+| 19 || 6 || 6 || 6 || 6 || 5 || 5 || 4
+|-
+| 20 || 6 || 6 || 6 || 6 || 6 || 5 || 5
 |}
-</center></div></div>Un hypnotiseur peut lancer des sorts psychiques appartenant à la [[liste des sorts dhypnotiseur|liste des sorts d’hypnotiseur]]. Il peut lancer les sorts qu’il connaît sans devoir les préparer à l’avance. Pour apprendre ou lancer un sort, l’hypnotiseur doit avoir une valeur de [[Charisme]] au moins égale à 10 + le niveau du sort. Le [[DD|degré de difficulté]] des [[jet de sauvegarde|jets de sauvegarde]] contre ses sorts est égal à 10 + le [[niveau de sort|niveau du sort]] + le modificateur de [[Charisme]] de l’hypnotiseur. 
+</div></div>Un hypnotiseur peut lancer des sorts psychiques appartenant à la [[liste des sorts dhypnotiseur|liste des sorts d’hypnotiseur]]. Il peut lancer les sorts qu’il connaît sans devoir les préparer à l’avance. Pour apprendre ou lancer un sort, l’hypnotiseur doit avoir une valeur de [[Charisme]] au moins égale à 10 + le niveau du sort. Le [[DD|degré de difficulté]] des [[jet de sauvegarde|jets de sauvegarde]] contre ses sorts est égal à 10 + le [[niveau de sort|niveau du sort]] + le modificateur de [[Charisme]] de l’hypnotiseur. 
 
-Un hypnotiseur ne peut lancer qu’un nombre limité de sorts de chaque niveau quotidiennement. Son quota quotidien d’emplacements de sort de base est indiqué dans la Table : "[[#TABLESORTSDHYPNOTISEURCONNUS|Sorts d'hypnotiseur connus]]". En plus de ce quota, il reçoit des sorts quotidiens en bonus s’il possède une valeur de [[Charisme]] élevée (voir la Table "[[Caractéristiques#TABLEAUCARACTERISTIQUES|Modificateurs de caractéristique et sorts en bonus]]").
+Un hypnotiseur ne peut lancer qu’un nombre limité de sorts de chaque niveau quotidiennement. Son quota quotidien d’emplacements de sort de base est indiqué dans la table "[[hypnotiseur#TABLEHYPNOTISEUR|L'hypnotiseur]]". En plus de ce quota, il reçoit des sorts quotidiens en bonus s’il possède une valeur de [[Charisme]] élevée (voir la Table "[[Caractéristiques#TABLEAUCARACTERISTIQUES|Modificateurs de caractéristique et sorts en bonus]]").
  
 L’hypnotiseur possède un répertoire de sorts limité. Au niveau 1, un hypnotiseur connaît quatre sorts de niveau 0 et deux sorts de niveau 1 de son choix. Chaque fois qu’il gagne un niveau d’hypnotiseur, il apprend un ou plusieurs nouveaux sorts, comme indiqué dans la Table ci-contre. Contrairement au quota de ses sorts quotidiens, le nombre de sorts connus par un hypnotiseur n’est pas modifié par sa valeur de [[Charisme]] ; les nombres de la Table "[[#TABLESORTSDHYPNOTISEURCONNUS|Sorts d'hypnotiseur connus]]" sont fixes.
 
@@ -554,22 +396,14 @@ Les astuces lancées en utilisant d’autres emplacements de sort, à cause de d
 {s:Reference|INDUCTIONSDHYPNOTISEUR}
 ====Inductions d’hypnotiseur (Sur)====
 Un hypnotiseur peut créer des liaisons hypnotiques vers ses alliés en implantant dans leur esprit des suggestions magiques qu’il peut activer ultérieurement. Chaque jour, il peut implanter un nombre d’inductions égal à la moitié de son niveau d’hypnotiseur (1 au minimum) plus son éventuel bonus de [[Charisme]]. Il ne peut maintenir qu’une seule induction implantée à la fois et l’implantation d’une nouvelle induction met fin à la précédente (l’hypnotiseur perd quand même l’utilisation de cette aptitude dépensée pour implanter l’induction précédente).
- 
-L’hypnotiseur doit effectuer une [[action simple]] pour implanter une induction et soit toucher une créature consentante, soit l’implanter en lui-même. Une créature peut être le sujet d’une seule induction d’hypnotiseur en même temps.
 
-L’hypnotiseur peut activer l’induction par une [[action libre]] quand les conditions de déclenchement sont remplies (telles qu’elles sont définies dans la description de chaque induction) et ce, même en dehors de son tour. Le sujet doit être situé à une portée moyenne (30 mètres + 3 mètres par niveau) pour que l’hypnotiseur puisse la déclencher. 
+L’hypnotiseur doit effectuer une [[action simple]] pour implanter une induction et soit toucher une créature consentante, soit l’implanter en lui-même. Une créature peut être le sujet d’une seule induction d’hypnotiseur en même temps. L’hypnotiseur peut activer l’induction par une [[action libre]] quand les conditions de déclenchement sont remplies (telles qu’elles sont définies dans la description de chaque induction) et ce, même en dehors de son tour. Le sujet doit être situé à une portée moyenne (30 mètres + 3 mètres par niveau) pour que l’hypnotiseur puisse la déclencher. L’hypnotiseur surveille les possibilités de déclenchement de l’induction par le biais d’une discrète liaison télépathique et n’a donc pas besoin d’avoir une ligne de mire sur son sujet. Toutefois, tout ce qui bloque la liaison télépathique l’empêche de déclencher ses inductions. Une induction implantée le reste jusqu’au prochain moment où l’hypnotiseur récupérera ses sorts.  
 
-L’hypnotiseur surveille les possibilités de déclenchement de l’induction par le biais d’une discrète liaison télépathique et n’a donc pas besoin d’avoir une ligne de mire sur son sujet. Toutefois, tout ce qui bloque la liaison télépathique l’empêche de déclencher ses inductions. Une induction implantée le reste jusqu’au prochain moment où l’hypnotiseur récupérera ses sorts.  
+Une induction n’est plus implantée une fois déclenchée. Elle ne peut donc pas être déclenchée une deuxième fois tant que l’hypnotiseur ne l’a pas implantée à nouveau. La durée de l’effet produit par une induction déclenchée est soit instantanée soit indiquée dans sa description. Le [[DD]] pour résister à une induction d’hypnotiseur ou de maître hypnotiseur qui nécessite un jet de sauvegarde ou un test de compétence est égal à 10 + la moitié du niveau d’hypnotiseur + le modificateur de Charisme de l’hypnotiseur.  
 
-Une induction n’est plus implantée une fois déclenchée. Elle ne peut donc pas être déclenchée une deuxième fois tant que l’hypnotiseur ne l’a pas implantée à nouveau. La durée de l’effet produit par une induction déclenchée est soit instantanée soit indiquée dans sa description.
+L’hypnotiseur connaît une induction au niveau 1. Il en apprend une nouvelle au niveau 2 puis tous les 2 niveaux par la suite (jusqu’à un maximum de 11 inductions au niveau 20). Chaque utilisation quotidienne des inductions d’hypnotiseur peut être utilisée pour implanter une des inductions que le personnage connaît. Sauf indication clairement spécifiée dans la description, un hypnotiseur ne peut pas choisir plusieurs fois une même induction.  
 
-Le [[DD]] pour résister à une induction d’hypnotiseur ou de maître hypnotiseur qui nécessite un jet de sauvegarde ou un test de compétence est égal à 10 + la moitié du niveau d’hypnotiseur + le modificateur de Charisme de l’hypnotiseur.  
-
-L’hypnotiseur connaît une induction au niveau 1. Il en apprend une nouvelle au niveau 2 puis tous les 2 niveaux par la suite (jusqu’à un maximum de 11 inductions au niveau 20).
-
-Chaque utilisation quotidienne des inductions d’hypnotiseur peut être utilisée pour implanter une des inductions que le personnage connaît. Sauf indication clairement spécifiée dans la description, un hypnotiseur ne peut pas choisir plusieurs fois une même induction.  
-
-Voir la liste des [[induction|inductions]]
+Voir la liste des [[Inductions|inductions d'hypnotiseur]].
 
 {s:Reference|REGARDDOULOUREUX}
 ====Regard douloureux (Sur)====
@@ -589,6 +423,17 @@ Au niveau 3 et tous les 4 niveaux par la suite, le regard hypnotique de l’hypn
 * ''Magie affaiblie''. Le malus du regard hypnotique s’applique également aux [[DD]] des sorts et des pouvoirs magiques utilisés par la cible, ainsi qu’à son éventuelle [[RM|résistance à la magie]].
 * ''Susceptibilité''. Le malus du regard hypnotique s’applique également aux tests de [[Psychologie]] de la cible lorsqu’ils sont opposés aux tests de [[Bluff]], ainsi qu’aux [[DD]] des tests de [[Diplomatie]] et d’[[Intimidation]] effectués contre la cible.  
 * ''Timidité''. Le malus du regard hypnotique s’applique également aux jets de dégâts.
+
+{s:cs}{s:OO}'''Les regards anti-diables.''' Les hypnotiseur de l’Empire diabolique ont affiné leurs regards hypnotiques pour inclure une suite d’attaques de regard utiles pour négocier avec ou déstabiliser les Extérieurs. Dans les décennies suivantes, ces secrets ont commencé à se répandre au-delà des frontières de la nation diaboliste, et peuvent maintenant être observés dans toutes les régions des continents nord et sud, et plus particulièrement dans les zones qui interagissent souvent avec des Extérieurs.
+
+Les regards anti-diables peuvent être sélectionnés à partir du niveau 3 comme une option d’amélioration de regard impudent. Ils tendent à être plus limités dans leur utilisation que les autres améliorations de regard impudent, mais percent directement les défenses des êtres Extérieurs. Lorsqu’un regard anti-diable est utilisé contre une créature de type Extérieur, le malus du regard hypnotique appliqué par l’amélioration de regard anti-diable est doublé (mais pas le malus aux jets de Volonté imposé par le regard hypnotique classique). Malgré leur nom, les regards anti-diables affectent tous les Extérieurs de la même façon.
+* ''Affaiblissement anti-diables.'' Le malus du regard hypnotique s'applique également à la [[Résistance (capacité)|résistance]] de la cible à un seul type d'énergie choisi par l’hypnotiseur lorsqu'il initie le regard. Si l’hypnotiseur cible une forme d'énergie à laquelle sa cible n'a aucune résistance, cette amélioration n'a aucun effet.
+* ''Contrainte anti-diables.'' Le malus du regard hypnotique s'applique également à tous les tests de [[Charisme]] pour échapper aux sorts de ''[[contrat]]'', et s'applique à la [[RM|résistance à la magie]] de la cible contre un sort de ''contrat''.
+* ''Entrave anti-diables.'' La cible du regard hypnotique du personnage doit réussir un test de [[concentration]] ([[DD]] 15 + niveau du sort) pour utiliser n'importe quel pouvoir magique (mais pas les incantations classiques) qu’elle possède. Si la cible rate ce test, le pouvoir magique ne fonctionne pas mais est tout de même dépensé.
+* ''Flétrissement anti-diables.'' Le malus du regard hypnotique s'applique également aux [[jet dattaque|jets d'attaque]] et [[Valeurs de combat#DEGATS|de dégâts]], mais seulement si la cible est un [[type Extérieur|Extérieur]]. Contrairement à la plupart des regards anti-diables, ce regard n'a aucun effet sur les créatures qui ne sont pas du type Extérieur, et le malus de l'effet n'est pas doublé quand il cible un Extérieur.
+* ''Révocation anti-diables.'' Le regard hypnotique réduit de moitié la durée de tous les sorts d’[[branche convocation|invocation (convocation)]] lancés par la cible, ou qui affectent actuellement la cible.
+* ''Mortalité anti-diables.'' Le malus du regard hypnotique s'applique également à la [[RM|résistance à la magie]] de la cible. Cette capacité ne se cumule pas avec l'amélioration de regard impudent magie affaiblie.
+
 
 {s:Reference|PALPATIONCURATIVE}
 ====Palpation curative (Sur)====
@@ -625,7 +470,7 @@ Au niveau 11, un hypnotiseur peut déjouer la magie détectrice de vérité. Une
 ====Inductions de maître hypnotiseur (Sur)====
 Au niveau 12, un hypnotiseur peut choisir une des inductions de maître hypnotiseur suivantes à la place d’une induction simple. Il obtient une induction de maître hypnotiseur supplémentaire tous les 2 niveaux par la suite. L’utilisation d’une induction de maître hypnotiseur dépense deux utilisations de l’aptitude d’induction d’hypnotiseur au lieu d’une seule.
 
-Voir les [[induction#INDUCTIONSDEMAÎTREHYPNOTISEUR|inductions de maître hypnotiseur]] 
+Voir les [[Inductions#INDUCTIONSDEMAÎTREHYPNOTISEUR|inductions de maître hypnotiseur]].
 
 {s:Reference|SUPRÉMATIEMENTALE}
 ====Suprématie mentale (Sur)====

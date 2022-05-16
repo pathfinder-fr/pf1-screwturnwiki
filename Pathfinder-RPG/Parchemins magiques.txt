@@ -1,13 +1,13 @@
 ---
 Name: Pathfinder-RPG.Parchemins magiques
 Title: Les parchemins magiques
-LastModified: 2020-03-04 19:58
+LastModified: 2020-12-10 16:15
 Categories:
-  - 'Parchemin magique'
-  - 'Règles officielles'
+  - 'Objet mag parchemin'
+  - 'Règle officielle'
 ---
 {s:MenuObjetsMagiques}
-<div style="float: right; padding: 0 0 8px 8px">{toc}</div>Un parchemin est un sort (ou une série de sorts) transcrit sur le papier. Chaque sort écrit sur un parchemin ne peut être utilisé qu’une seule et unique fois, les symboles magiques s’effaçant au fur et à mesure qu’on les lit. L’activation d’un parchemin est très proche de l’incantation d’un sort. Le prix d’un parchemin est égal au niveau du sort x le niveau de lanceur de sorts du créateur x 25 po. Le coût total de création inclut les coûts de base et les coûts supplémentaires, dont ceux des [[Présentation des sorts#COMPOSANTES|composantes]]. La Table "[[Parchemins magiques#DETERMINATION|Coût des parchemins]]" donne des exemples de prix pour un niveau de lanceur de sorts minimum. Notez que certains sorts apparaissent à des niveaux différents pour différents types de lanceurs de sorts. Le niveau de ces sorts dépend du niveau du personnage qui a écrit le parchemin.
+<div style="float: right; padding: 0 0 8px 8px">{toc}</div>Un parchemin est un sort (ou une série de sorts) transcrit sur le papier. Chaque sort écrit sur un parchemin ne peut être utilisé qu’une seule et unique fois, les symboles magiques s’effaçant au fur et à mesure qu’on les lit. L’activation d’un parchemin est très proche de l’incantation d’un sort. Le prix d’un parchemin est égal au niveau du sort x le niveau de lanceur de sorts du créateur x 25 po. Le coût total de création inclut les coûts de base et les coûts supplémentaires, dont ceux des [[Présentation des sorts#COMPOSANTES|composantes]]. La Table "[[Parchemins magiques#DETERMINATION|Prix des parchemins]]" donne des exemples de prix pour un niveau de lanceur de sorts minimum. Notez que certains sorts apparaissent à des niveaux différents pour différents types de lanceurs de sorts. Le niveau de ces sorts dépend du niveau du personnage qui a écrit le parchemin.
 
 === Description ===
 Un parchemin est une feuille épaisse de vélin ou d’un papier de qualité. Une surface de 20 cm par 30 cm peut accueillir un sort. Le parchemin est renforcé en haut et en bas par une bande de cuir qui dépasse un peu sur les côtés. Un parchemin proposant plusieurs sorts garde la même largeur mais gagne 30 cm en longueur pour chaque sort supplémentaire. Les parchemins contenant trois sorts ou plus sont souvent renforcés par de fines baguettes qui remplacent les bandes de cuir. Un parchemin a une [[CA]] de 9, 1 [[point de vie]], une [[solidité]] de 0 et le test de [[Force]] pour le [[brisé|casser]] a un [[DD]] de 8.
@@ -84,7 +84,7 @@ En cas d’incident, le sort écrit sur le parchemin produit un effet inverse ou
 |}
 </td><td width="50%" align="center">
 {| CLASS="tablo"
-|+ Coût des parchemins
+|+ Prix des parchemins
 |- CLASS="titre"
 | Niveau <br/>du sort || Prêtre, <br/>druide, <br/>magicien || Ensorceleur || Barde || Paladin, <br/>rôdeur
 |- CLASS="premier"
@@ -128,3 +128,17 @@ En règle générale, il y a 70 % de chances qu’un parchemin soit profane et 3
 | 85-100 || Parchemin [[la magie psychique|psychique]]
 |}
 </center>
+
+{s:MMI}{s:Reference|PARCHEMINSAEFFEUILLER}
+===Les parchemins à effeuiller===
+{s:cs}Les informations sur cette antique méthode de fabrication des parchemins sont longtemps restées ensevelies dans une obscure bibliothèque des Landes lugubres. Un Éxplorateur natif de l'Empire diabolique, a récemment redécouvert les secrets de fabrication des ''parchemins à effeuiller''. Heureusement pour lui, cette méthode de fabrication et d’utilisation de ces objets proches des parchemins lui a également permis de remédier à la nausée handicapante dont il souffrait en temps normal chaque fois qu’il lançait un sort. Les secrets quant à la redécouverte de cette magie et les détails sur son utilisation sont décrits en détails dans le roman ''Pathfinder Le Prince des loups''.
+
+Un ''parchemin à effeuiller'' est similaire à un parchemin standard, mais sa méthode d’activation et sa forme sont différentes. Un ''parchemin à effeuiller'' est un [[Objets merveilleux|objet merveilleux]] qui contient le pouvoir d’un seul sort. Chaque ''parchemin à effeuiller'' est un carnet peu épais de forme similaire à un livre de poche (mais un peu plus petit) qui contient 25 à 50 pages couvertes de symboles ésotériques. Quand il est tenu entre le pouce et l’index et effeuillé rapidement, le mouvement des pages tournées de la sorte active la magie qu’il contient. L’incantation du sort est alors complétée et les inscriptions du livret disparaissent.
+
+Un ''parchemin à effeuiller'' s’active comme un [[Règles relatives aux objets magiques#OBJETAFINDINCANTATION|objet à fin d’incantation]], tels les parchemins magiques classiques. Les personnages qui ne savent pas lancer les sorts rédigés sur un ''parchemin à effeuiller'' doivent utiliser [[UOM|Utilisation d’objets magiques]] pour activer la magie qu’il renferme. Les ''parchemins à effeuiller'' sont en tous points traités comme des parchemins lorsqu’il s’agit de déchiffrer leur contenu, d’activer le sort et de déterminer ses effets (y compris les risques d’[[Parchemins magiques#INCIDENT|incident]]). Toutefois, les ''parchemins à effeuiller'' ne nécessitent aucune [[composantes|composante verbale]] ; ils fonctionnent automatiquement comme si on avait appliqué le don de métamagie [[Incantation silencieuse]] sur le sort qu’ils contiennent. Tout comme l’incantation d’un sort, l’activation d’un ''parchemin à effeuiller'' provoque des [[AO|attaques d’opportunité]]. Le silence magique n’empêche pas son utilisation et il faut une main de libre pour l’activer. Un ''parchemin à effeuiller'' applique le temps d’incantation normal du sort inscrit sur ses pages, même si son utilisateur ou son créateur est d’une classe qui lui a permis de rallonger le temps d’incantation par l’application d’effets de métamagie.
+
+Les ''parchemins à effeuiller'' sont plus lourds que les parchemins normaux. Chaque ''parchemin à effeuiller'' pèse 500 grammes et possède une [[CA]] de 9, 5 points de résistance, une [[solidité]] de 0 et un [[DD]] pour le casser de 10. On ne peut pas ranger les ''parchemins à effeuiller'' dans un [[Équipement daventurier#Étui à parchmins|étui à parchemins]] standard ; on les transporte généralement dans des étuis de cuir plats ou des boîtiers similaires à ceux utilisés pour transporter des livres.
+
+Les lanceurs de sorts qui possèdent les dons [[Écriture de parchemins]] et [[Incantation silencieuse]] peuvent créer des ''parchemins à effeuiller''. L’écriture d’un tel parchemin prend plus de temps et s’avère plus coûteuse que celle des parchemins classiques car il contient plus de pages et la magie impliquée est plus complexe. Le prix de vente d’un ''parchemin à effeuiller'' est égal au niveau du sort × le [[NLS|niveau de lanceur de sorts]] × 25 po, mais seuls les sorts modifiables par le don de métamagie Incantation silencieuse peuvent y être inscrits. Cette application du don modifie le niveau effectif du sort lorsqu’il s’agit de déterminer le prix du parchemin. Dans les faits, le prix d’un ''parchemin à effeuiller'' est égal à celui d’un parchemin classique sur lequel est inscrit un sort supérieur d’un niveau. Ainsi, les sorts de niveau 9 ne peuvent être inscrits sur des ''parchemins à effeuiller'' car les emplacements de sort de niveau 10 n’existent pas. Les aptitudes qui réduisent l’ajustement de niveau du don Incantation silencieuse n’affectent pas les ''parchemins à effeuiller''.
+
+Pour écrire un ''parchemin à effeuiller'', le personnage doit utiliser des composantes dont le coût est égal à la moitié du prix de vente. L’écriture d’un tel parchemin nécessite une journée de travail par tranche de 1 000 po de son prix de vente avec un minimum d’une journée. Un ''parchemin à effeuiller'' peut contenir plus d’un sort, mais l’écriture de chacun de ces sorts est considérée comme une activité séparée, ce qui signifie qu’il est impossible d’écrire plus d’un sort en une journée.

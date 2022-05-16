@@ -1,87 +1,43 @@
 ---
 Name: Pathfinder-RPG.Frappes ciblées
 Title: Frappes ciblées
-LastModified: 2016-03-20 15:37
+LastModified: 2021-02-26 17:13
 Categories:
-  - 'Art de la guerre'
-  - 'Règles officielles'
+  - 'Règle officielle'
+  - 'Src Art de la guerre'
 ---
-<div style="float: right; margin-left: 10px; margin-right: -40px; max-width: 300px;" class="presentation recentre">{toc}</div>{s:UC}<div style="float: left; margin-right: 20px; margin-bottom: 10px;" class="presentation recentre">
+<div style="float: right; padding: 0 0 8px 8px">{toc}</div>{s:UC}<div style="float: left; margin-right: 20px; margin-bottom: 10px;" class="presentation recentre">
 <h2 class="separator"><div style="float: right; margin-top: -4px;">{s:uc}</div>Règles alternatives</h2>
 <ul><li>[[Régles alternatives|Introduction]]</li>
-<li>[[Larmure comme RD|L'armure comme réduction de dégâts]]</li><li>[[Frappes ciblées]]</li><li>[[Pièces darmures|Pièces d'armure]] ([[Description des pièces darmure|descriptions]])</li><li>[[Blessures et vitalité]]</li></ul></div>Dans ''Pathfinder JdR'', les points de vie et les dégâts sont
-gérés de manière abstraite, presque tous les coups étant
-traités de la même façon avec pour seules distinctions
-entre eux le type et le montant des dégâts causés. La règle
-optionnelle « frappes ciblées » donne aux PJ, aux monstres et
-aux ennemis la possibilité d’ajuster leurs attaques avec plus
-de précision, ouvrant potentiellement la voie à des effets
-dévastateurs.
+<li>[[Larmure comme RD|L'armure comme réduction de dégâts]]</li><li>[[Frappes ciblées]]</li><li>[[Pièces darmures|Pièces d'armure]] ([[Description des pièces darmure|descriptions]])</li><li>[[Blessures et vitalité]]</li></ul></div>Dans ''Pathfinder JdR'', les points de vie et les dégâts sont gérés de manière abstraite, presque tous les coups étant traités de la même façon avec pour seules distinctions entre eux le type et le montant des dégâts causés. La règle optionnelle « frappes ciblées » donne aux PJ, aux monstres et aux ennemis la possibilité d’ajuster leurs attaques avec plus de précision, ouvrant potentiellement la voie à des effets dévastateurs.
 
-Ces règles sont un accessoire optionnel facultatif pour vos
-campagnes. Les MJ sont invités à les envisager avec prudence
-avant de les intégrer à leur système de jeu.
+Ces règles sont un accessoire optionnel facultatif pour vos campagnes. Les MJ sont invités à les envisager avec prudence avant de les intégrer à leur système de jeu.
 
 {s:Reference|LANCERUNEFRAPPECIBLEE}
 ===Lancer une frappe ciblée===
-<div style="float:left; background-color: #fff; margin: 16px 16px 0 0; width: 400px;">
-<div style="border: 1px solid #4b3124; padding: 4px">
-<center>
-{| CLASS="tablo"
+Une frappe ciblée est un coup visant une zone particulière du corps, donné avec l’espoir d’obtenir un effet supplémentaire suite à l’attaque. Plus la zone est petite, mieux elle est protégée, et plus difficile est la frappe ciblée. Une frappe ciblée est une attaque unique comptant comme une [[action complexe]]. Par conséquent, elle ne peut être combinée avec une [[charge]], des [[dons]] comme [[frappe décisive]], ou avec des attaques multiples au cours d’une action d’[[attaque à outrance]].
+
+Les frappes ciblées se divisent en trois grandes catégories de difficulté : facile, délicate et difficile. Les frappes ciblées faciles visent de larges zones du corps et se font avec un malus de -2. À moins de dégâts excessifs ou d’un coup critique, ces frappes ciblées n’occasionnent que des effets mineurs. Les frappes ciblées délicates visent des zones plus petites, comme une main, ou des zones que les créatures veillent à protéger efficacement, comme leur tête. Les frappes ciblées délicates reçoivent un malus de -5 et ont de plus sérieuses conséquences. Les frappes ciblées difficiles visent des zones très précises comme les yeux, les doigts ou le cou d’une créature. Elles se font avec un malus de -10, et un coup réussi cause à court terme d’importants dégâts et désagréments. Au-delà de cette échelle se trouvent les frappes ciblées dites presque impossibles, qui reçoivent un malus de -20. Pour les frappes ciblées lancées contre des créatures non humanoïdes, faites preuve de bon sens et employez les catégories ci-dessus à titre indicatif. Les ailes d’une créature volante doivent, par exemple, être traitées comme des bras.
+
+'''Portée et allonge'''. Les frappes ciblées fonctionnent mieux à très courte portée. En mêlée, les frappes ciblées subissent un malus de -2 quand la cible n’est pas adjacente à l’attaquant. Pour les frappes ciblées à distance, tous les malus de portée dus au facteur de portée sont doublés, avec un malus minimum de -2 pour toute frappe ciblée tentée contre une cible à plus de 9 m (6 {s:c}).
+
+'''Coups critiques et confirmation de coups critiques'''. Une frappe ciblée a des chances normales de devenir un [[Actions simples#COUPCRITIQUE|coup critique]], et inflige un effet supplémentaire lorsqu’un [[Actions simples#COUPCRITIQUE|coup critique]] est confirmé. L’effet spécifique à appliquer lorsqu’un [[Actions simples#COUPCRITIQUE|coup critique]] est réussi dépend de la zone ciblée. Ces effets sont décrits dans la partie [[Frappes ciblées#EFFETSDESFRAPPESCIBLEES|Effets des frappes ciblées]].
+
+{| CLASS="tablo toutgauche"
 |+ Dons de frappe ciblée
 |- CLASS="titre"
-| Don || Conditions || Avantage
-|-
-| [[Science de la frappe ciblée]] || [[Int]] 13, [[Expertise du combat]] || Bonus de +2 au [[Jet dattaque|jet d'attaque]] sur une [[Frappes ciblées|frappe ciblée]], faire une [[frappes ciblées|frappe ciblée]] parmi des attaques multiples
+| WIDTH="20%" | Dons
+| WIDTH="3%" | Src
+| WIDTH="37%" | Conditions
+| WIDTH="40%" | Avantages
+
+|- CLASS="premier"
+| [[Science de la frappe ciblée]] || <sup>AG</sup> || [[Int]] 13, [[Expertise du combat]] || Bonus de +2 au [[jet dattaque|jet d'attaque]] sur une frappe ciblée, faire une frappe ciblée parmi des attaques multiples
 |- CLASS="alt"
-| &emsp; [[Frappe ciblée supérieure]] || [[Int]] 13, [[Expertise du combat]], [[Science de la frappe ciblée]], [[BBA]] +6 || Remplacer une attaque par une [[frappes ciblées|frappe ciblée]], plusieurs [[frappes ciblées]] par round
+| &emsp;[[Frappe ciblée supérieure]] || <sup>AG</sup> || [[Int]] 13, [[Expertise du combat]], [[Science de la frappe ciblée]], [[BBA]] +6 || Remplacer une attaque par une frappe ciblée, plusieurs frappes ciblées par [[round]]
 |}
-</center></div></div>
-Une frappe ciblée est un coup visant une zone particulière
-du corps, donné avec l’espoir d’obtenir un effet supplémentaire
-suite à l’attaque. Plus la zone est petite, mieux elle est protégée,
-et plus difficile est la frappe ciblée. Une frappe ciblée est une
-attaque unique comptant comme une [[action complexe]]. Par
-conséquent, elle ne peut être combinée avec une [[charge]], des
-[[dons]] comme [[frappe décisive]], ou avec des attaques multiples
-au cours d’une action d’[[attaque à outrance]].
-
-Les frappes ciblées se divisent en trois grandes catégories
-de difficulté : facile, délicate et difficile. Les frappes ciblées
-faciles visent de larges zones du corps et se font avec un malus
-de -2. À moins de dégâts excessifs ou d’un coup critique,
-ces frappes ciblées n’occasionnent que des effets mineurs.
-Les frappes ciblées délicates visent des zones plus petites,
-comme une main, ou des zones que les créatures veillent à
-protéger efficacement, comme leur tête. Les frappes ciblées
-délicates reçoivent un malus de -5 et ont de plus sérieuses
-conséquences. Les frappes ciblées difficiles visent des zones
-très précises comme les yeux, les doigts ou le cou d’une
-créature. Elles se font avec un malus de -10, et un coup réussi
-cause à court terme d’importants dégâts et désagréments.
-Au-delà de cette échelle se trouvent les frappes ciblées dites
-presque impossibles, qui reçoivent un malus de -20. Pour les
-frappes ciblées lancées contre des créatures non humanoïdes,
-faites preuve de bon sens et employez les catégories ci-dessus
-à titre indicatif. Les ailes d’une créature volante doivent, par
-exemple, être traitées comme des bras.
-
-'''Portée et allonge'''. Les frappes ciblées fonctionnent mieux à
-très courte portée. En mêlée, les frappes ciblées subissent un
-malus de -2 quand la cible n’est pas adjacente à l’attaquant. Pour
-les frappes ciblées à distance, tous les malus de portée dus au
-facteur de portée sont doublés, avec un malus minimum de -2
-pour toute frappe ciblée tentée contre une cible à plus de 9 m (6 {s:c}).
-
-'''Coups critiques et confirmation de coups critiques'''. Une
-frappe ciblée a des chances normales de devenir un [[Actions simples#COUPCRITIQUE|coup critique]],
- et inflige un effet supplémentaire lorsqu’un [[Actions simples#COUPCRITIQUE|coup critique]]
- est confirmé. L’effet spécifique à appliquer lorsqu’un
-[[Actions simples#COUPCRITIQUE|coup critique]] est réussi dépend de la zone ciblée. Ces effets
-sont décrits dans la partie [[#EFFETSDESFRAPPESCIBLEES|Effets des frappes ciblées]].
 
 {s:Reference|REGLESADDITIONNELLES}
-
 ===Règles additionnelles===
 '''Abri'''. Les [[Modificateurs de combat#ABRI|abris]] autres que l’[[Modificateurs de combat#abri partiel|abri partiel]] gênent beaucoup plus les frappes ciblées que les attaques normales. Doublez tous les bonus à la [[CA]] octroyés par les [[Modificateurs de combat#ABRI|abris]] autres que l’[[Modificateurs de combat#abri partiel|abri partiel]]. En outre, les [[Modificateurs de combat#ABRI|abris]] peuvent rendre certaines frappes ciblées impossibles.
 
@@ -151,38 +107,34 @@ de plusieurs blessures d’un même type, les soins doivent
 frappes ciblées, à l’exception des [[Affaiblissement temporaire (capacité)|affaiblissements temporaires]]
 et des [[Affaiblissement temporaire (capacité)#Diminution_permanente_0|diminutions permanentes]] de caractéristique.
 
-<div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
-<div style="border: 1px solid #4b3124; padding: 4px">
-{s:Reference|TABLOCALISATION}
-<center>
-{| CLASS="tablo"
-|+ Localisation des frappes ciblées
+<div style="float:right; background-color: #fff; padding: 0 0 8px 10px">
+<div style="border: 1px solid #4b3124; padding: 4px; max-width: 400px;">
+{| CLASS="tablo centre toutgauche autoalt"
+|+ {s:Reference|TABLOCALISATION}Localisation des frappes ciblées
 |- CLASS="titre"
 | Localisation || Difficulté || Malus
+|- CLASS="premier"
+| [[Frappes ciblées#Abdomen|Abdomen]] || Délicate || -5
 |-
-| [[#Abdomen|Abdomen]] || Délicate || -5
-|- CLASS="alt"
-| [[#Bras|Bras]] || Facile || -2
+| [[Frappes ciblées#Bras|Bras]] || Facile || -2
 |-
-| &emsp; [[#Main|Main]] || Délicate || -5
-|- CLASS="alt"
-| [[#Jambe|Jambe]] || Facile || -2
+| &emsp;[[Frappes ciblées#Main|Main]] || Délicate || -5
 |-
-| [[#Tête|Tête]] || Délicate || -5
-|- CLASS="alt"
-| &emsp; [[#Cou|Cou]] || Difficile || -10
+| [[Frappes ciblées#Jambe|Jambe]] || Facile || -2
 |-
-| &emsp; [[#Œil|Œil]] || Difficile || -10
-|- CLASS="alt"
-| &emsp; [[#Oreille|Oreille]] || Difficile || -10
+| [[Frappes ciblées#Tête|Tête]] || Délicate || -5
 |-
-| [[#Tronc|Tronc]] || Facile || -2
-|- CLASS="alt"
-| &emsp; [[#Cœur|Cœur]] || Difficile || -10
+| &emsp;[[Frappes ciblées#Cou|Cou]] || Difficile || -10
+|-
+| &emsp;[[Frappes ciblées#Œil|Œil]] || Difficile || -10
+|-
+| &emsp;[[Frappes ciblées#Oreille|Oreille]] || Difficile || -10
+|-
+| [[Frappes ciblées#Tronc|Tronc]] || Facile || -2
+|-
+| &emsp;[[Frappes ciblées#Cœur|Cœur]] || Difficile || -10
 |}
-</center></div></div>
-
-{s:Reference|Abdomen}
+</div></div>{s:Reference|Abdomen}
 ====Abdomen====
 L’abdomen correspond à la zone du bas-ventre chez les
 créatures humanoïdes : un espace où les organes vitaux
@@ -206,7 +158,7 @@ pour 1d4 rounds et [[États préjudiciables#Fiévreux|fiévreuses]] pour 1d6 min
 réussi annule l’état préjudiciable [[États préjudiciables#Nauséeux|nauséeux]]. Tant que la cible est
 [[États préjudiciables#Fiévreux|fiévreuse]] à cause du coup, elle ne peut [[courir]] ou [[charger]].
 
-'''Coup incapacitant'''. Un [[#COUPINCAPACITANT|coup incapacitant]] porté à
+'''Coup incapacitant'''. Un [[Frappes ciblées#COUPINCAPACITANT|coup incapacitant]] porté à
 l’abdomen cause une [[Affaiblissement temporaire (capacité)#Diminution_permanente_0|diminution permanente]] de 1d6 points
 de [[Constitution]], rend la cible [[États préjudiciables#Nauséeux|nauséeuse]] pour 1d4 rounds
 et [[États préjudiciables#Fiévreux|fiévreuse]] pour 2d6 minutes. Un jet de [[Valeurs de combat#JETDESAUVEGARDE|Vigueur]] réussi
@@ -243,7 +195,7 @@ deux les [[Affaiblissement temporaire (capacité)|affaiblissements temporaires]]
 (minimum 1 point pour chaque attribut). La cible souffre
 aussi des effets d’une frappe ciblée au bras pour 1d4 minutes.
 
-'''Coup incapacitant'''. Un [[#COUPINCAPACITANT|coup incapacitant]] cause un
+'''Coup incapacitant'''. Un [[Frappes ciblées#COUPINCAPACITANT|coup incapacitant]] cause un
 [[Affaiblissement temporaire (capacité)|affaiblissement temporaire]] de caractéristique de 1d6 points à la
 [[Dextérité]] et à la [[Force]]. Le coup rend le bras touché inutilisable
 jusqu’à sa guérison, sauf si la cible réussit un jet de [[Valeurs de combat#JETDESAUVEGARDE|Vigueur]].
@@ -284,7 +236,7 @@ une arme perforante entièrement composée de bois empale
 le [[Vampire, archétype|vampire]] et le laisse avec l’arme plantée dans le cœur s’il
 échoue à un test de [[Valeurs de combat#JETDESAUVEGARDE|Vigueur]], avec les effets décrits [[Vampire, archétype|ici]].
 
-'''Coup incapacitant'''. Un [[#COUPINCAPACITANT|coup incapacitant]] porté au cœur
+'''Coup incapacitant'''. Un [[Frappes ciblées#COUPINCAPACITANT|coup incapacitant]] porté au cœur
 détruit l’organe, tuant instantanément toute créature
 dépendant de son cœur pour survivre. En cas de réussite sur
 un jet de [[Valeurs de combat#JETDESAUVEGARDE|Vigueur]], les créatures ayant besoin de leur cœur
@@ -331,7 +283,7 @@ mais elle peut à nouveau respirer. Si la cible réussit son jet
 de [[Valeurs de combat#JETDESAUVEGARDE|Vigueur]], elle subit tout de même les effets d’une frappe
 ciblée au cou pendant 1d4 minutes.
 
-'''Coup incapacitant'''. Un [[#COUPINCAPACITANT|coup incapacitant]] porté au cou
+'''Coup incapacitant'''. Un [[Frappes ciblées#COUPINCAPACITANT|coup incapacitant]] porté au cou
 laisse la cible incapable de parler ou de respirer et cause 1d4
 points de dégâts à la [[Constitution]] par [[Saignement (capacité)|saignement]]. Un jet de
 [[Valeurs de combat#JETDESAUVEGARDE|Vigueur]] réussi réduit l’attaque à 2d6 points de dégâts normaux
@@ -376,7 +328,7 @@ cible [[États préjudiciables#Àterre|à terre]]. Un jet de [[Valeurs de combat
 l’état préjudiciable [[États préjudiciables#Àterre|à terre]]. La créature touchée souffre par ailleurs
 des effets d’une frappe ciblée à la jambe pour 1d4 minutes.
 
-'''Coup incapacitant'''. Un [[#COUPINCAPACITANT|coup incapacitant]] porté sur une jambe
+'''Coup incapacitant'''. Un [[Frappes ciblées#COUPINCAPACITANT|coup incapacitant]] porté sur une jambe
 ou une patte jette la créature [[États préjudiciables#Àterre|à terre]]. Le coup rend la jambe
 complètement inutilisable jusqu’à ce qu’elle soit soignée, sauf si
 la cible réussit un test de [[Valeurs de combat#JETDESAUVEGARDE|Vigueur]]. En cas d’échec de 5 ou plus au
@@ -394,7 +346,6 @@ des effets d’une frappe ciblée à la jambe (si sa jambe est toujours
 utilisable) pour 2d6 minutes.
 
 {s:Reference|Main}
-
 ====Main====
 Par commodité, toutes les extrémités utilisées pour les
 manipulations fines sont considérées comme des mains. Les
@@ -417,7 +368,7 @@ mains ne sont pas lâchés mais elle perd tout de même sa faculté
 de préhension avec sa main blessée. La cible souffre également
 des effets d’une frappe ciblée à la main pour 1d4 minutes.
 
-'''Coup incapacitant'''. Un [[#COUPINCAPACITANT|coup incapacitant]] cause un
+'''Coup incapacitant'''. Un [[Frappes ciblées#COUPINCAPACITANT|coup incapacitant]] cause un
 [[Affaiblissement temporaire (capacité)|affaiblissement temporaire]] de la caractéristique [[Dextérité]] de
 1d6 points. À moins d’une réussite par la cible sur un jet de
 [[Réflexes]], le coup rend la main inutilisable jusqu’à ce qu’elle ait
@@ -442,7 +393,7 @@ la vue pour chacun de ses yeux. Les créatures ayant cinq yeux et
 plus ne subissent pas de malus suite aux frappes ciblées touchant
 les yeux tant qu’il leur reste au moins un œil fonctionnel. Ces
 créatures peuvent toutefois être aveuglées si ce dernier œil reçoit
-un [[Actions simples#COUPCRITIQUE|coup critique]] ou un [[#COUPINCAPACITANT|coup incapacitant]]. Les frappes ciblées
+un [[Actions simples#COUPCRITIQUE|coup critique]] ou un [[Frappes ciblées#COUPINCAPACITANT|coup incapacitant]]. Les frappes ciblées
 visant un œil sont des attaques difficiles (malus de -10).
 
 '''Frappe ciblée'''. Une frappe ciblée portée à l’œil donne à tous
@@ -456,7 +407,7 @@ fait perdre à la cible la vue avec cet œil pour 1d4 minutes. La
 cible souffre également des effets d’une frappe ciblée à l’œil
 durant cette période.
 
-'''Coup incapacitant'''. Un [[#COUPINCAPACITANT|coup incapacitant]] à l’œil détruit
+'''Coup incapacitant'''. Un [[Frappes ciblées#COUPINCAPACITANT|coup incapacitant]] à l’œil détruit
 l’œil ciblé, cause l’[[États préjudiciables#Aveuglé|aveuglement]] jusqu’à ce que cette condition
 soit annulée grâce à un sort de [[Guérison de la cécitésurdité|guérison de la cécité/surdité]] ou
 par un effet similaire, et occasionne 1d6 points de dégâts de
@@ -484,7 +435,7 @@ une oreille l’[[Assourdi|assourdit]] pour 2d6 minutes et laisse la cible
 [[Chancelant|chancelante]] pour 1 round. La cible souffre également des
 effets d’une frappe ciblée à l’oreille pendant cette période.
 
-'''Coup incapacitant'''. Un [[#COUPINCAPACITANT|coup incapacitant]] à l’oreille détruit
+'''Coup incapacitant'''. Un [[Frappes ciblées#COUPINCAPACITANT|coup incapacitant]] à l’oreille détruit
 cette oreille et [[Étourdi|étourdit]] la cible pour 1 round, puis la laisse
 [[Chancelant|chancelante]] pour 1d4 rounds et [[Assourdi|assourdie]] jusqu’au retour de son
 audition grâce à un sort de [[Guérison de la cécitésurdité|guérison de la cécité/surdité]] ou par un
@@ -513,7 +464,7 @@ têtes pour subir les effets d’une frappe ciblée critique à la tête).
 l’état préjudiciable [[chancelant]]. La cible souffre également des
 effets d’une frappe ciblée à la tête pour 1d4 minutes.
 
-'''Coup incapacitant'''. Un [[#COUPINCAPACITANT|coup incapacitant]] à la tête cause la [[Affaiblissement temporaire (capacité)|perte temporaire]] de 1d6 points d’[[Intelligence]], [[Sagesse]] et [[Charisme]]
+'''Coup incapacitant'''. Un [[Frappes ciblées#COUPINCAPACITANT|coup incapacitant]] à la tête cause la [[Affaiblissement temporaire (capacité)|perte temporaire]] de 1d6 points d’[[Intelligence]], [[Sagesse]] et [[Charisme]]
 (lancez les dés séparément pour chaque caractéristique) et laisse
 la victime [[Inconscient|inconsciente]] pour 1d10 rounds. Un jet de [[Vigueur]]
 réussi évite à la cible la [[Inconscient|perte de conscience]] mais laisse la victime
@@ -543,7 +494,7 @@ diminution du score de [[Constitution]]) annule la [[Fatigué|fatigue]]. La
 cible souffre également des effets d’une frappe ciblée au
 tronc.
 
-'''Coup incapacitant'''. Un [[#COUPINCAPACITANT|coup incapacitant]] au tronc cause un
+'''Coup incapacitant'''. Un [[Frappes ciblées#COUPINCAPACITANT|coup incapacitant]] au tronc cause un
 [[Affaiblissement temporaire (capacité)|affaiblissement temporaire]] de 2d4 points à la [[Constitution]] et
 [[Épuisé|épuise]] la cible. Un jet de [[Vigueur]] réussi (après diminution
 du score de [[Constitution]]) réduit l’[[Épuisé|épuisement]] à l’état

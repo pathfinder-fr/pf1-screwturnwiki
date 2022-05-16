@@ -1,0 +1,186 @@
+---
+Name: Pathfinder-RPG.Progression échelonnée
+Title: Progression échelonnée
+LastModified: 2020-11-16 17:24
+Categories:
+  - 'Src Pathfinder unchained'
+---
+{s:MenuPathfinderunchained}{s:PU}Quand les personnages gagnent un niveau, on a souvent l’impression qu’ils obtiennent du jour au lendemain de nouveaux pouvoirs. La variante de progression échelonnée proposée ici permet de donner un peu plus de crédibilité à la façon dont la puissance des personnages augmente.
+
+Au lieu d’acquérir tous ses nouvelles aptitudes dès qu’il gagne un niveau, le personnage peut les obtenir progressivement, à quatre paliers de [[PX]] : 25%, 50%, 75% et 100%. Chaque palier de PX représente le pourcentage précis de PX nécessaire pour atteindre le niveau suivant.
+
+===Comment appliquer la progression échelonnée===
+Premièrement, sélectionnez la classe dans laquelle le personnage atteindra son prochain niveau. Le personnage doit satisfaire toutes les conditions requises pour atteindre ce niveau de classe. Chaque fois qu’il atteint un nouveau palier de [[PX]], il obtient les rangs de compétences et les aptitudes universelles appropriées pour cette classe, comme indiqué dans la table "Progression échelonnée". Les progressions en termes de dons, de valeurs de caractéristique et de sorts ne changent pas.
+* '''Aptitudes universelles.''' Les aptitudes universelles englobent le [[BBA|bonus de base à l’attaque]] du personnage dans la classe sélectionnée, les [[PV|points de vie]] (pv) et les bonus aux [[jds|jets de sauvegarde]]. Le personnage peut choisir l’une des options suivantes quand il atteint les paliers à 25%, 50% et 75% de PX.
+** ''Bonus de base à l’attaque.'' Augmentez le [[BBA|bonus de base à l’attaque]] de la classe de personnage sélectionnée (le cas échéant).
+** ''Points de vie.'' Déterminez le nombre de [[PV|points de vie]] que le personnage devrait gagner quand il atteint le niveau suivant de sa classe et ajoutez 50% de ce nombre (arrondi à l’inférieur) à son total maximum de points de vie. Quand le personnage atteint effectivement le niveau suivant dans la classe sélectionnée, ajoutez à ce total maximum le reste des points de vie.
+** ''Bonus aux jets de sauvegarde.'' Augmentez les bonus aux [[jds|jets de sauvegarde]] de la classe sélectionnée (le cas échéant).
+
+: Chacune des options ci-dessus s’applique une fois par niveau seulement. De plus, les [[BBA|bonus de base à l’attaque]] et aux [[jds|jets de sauvegarde]] de certaines classes n’augmentent pas à chaque obtention de niveau. Si une seule aptitude universelle peut s’appliquer, ajoutez-la au palier à 75%. Si deux aptitudes peuvent s’appliquer, ajoutez-en une au palier à 50% et l’autre au palier à 75% (au choix du joueur).
+* '''Aptitudes de classe.''' Les personnages gagnent toutes les aptitudes de classe lorsqu’ils atteignent le niveau suivant.
+* '''Rangs de compétence.''' Déterminez le nombre total de rangs de compétence que le personnage devrait gagner lorsqu’il atteint le niveau suivant de la classe sélectionnée et allouez-lui 50% des rangs de compétence (arrondi à l’inférieur) quand il atteint le palier à 50% de [[PX]]. Quand il atteint effectivement le niveau suivant, il peut investir les rangs de compétence restants.
+
+La table suivante part du principe qu’on applique la progression moyenne des gains en [[PX]]. Si vous appliquez la progression rapide ou lente, vous pouvez vous inspirer de cette table pour déduire les PX nécessaires pour atteindre chacun des paliers.
+
+<center>
+{| CLASS="tablo autoalt" WIDTH="100%"
+|+ Progression échelonnée
+|- CLASS="titre"
+| Niveau du<br>personnage || PX || Palier<br>de PX || Aptitudes<br>universelles || Aptitudes<br>de classe || Rangs de<br>compétence
+|- CLASS="premier"
+| 1 || 0 || - || Comme les règles standards pour<br>un personnage de niveau 1 || &emsp; || &emsp;
+|-
+|  &emsp; || 500 || 25% || BBA, 50% des pv, ou JdS || - || -
+|-
+|  &emsp; || 1 000 || 50% || BBA, 50%des pv, ou JdS || - || 50%
+|-
+|  &emsp; || 1 500 || 75% || BBA, 50% des pv, ou JdS || - || -
+|-
+| 2 || 2 000 || - || 50% des pv restants || Toutes || 50% restants
+|- CLASS="premier"
+|  &emsp; || 2 750 || 25% || BBA, 50% des pv, ou JdS || - || -
+|-
+|  &emsp; || 3 500 || 50% || BBA, 50% des pv, ou JdS || - || 50%
+|-
+|  &emsp; || 4 250 || 75% || BBA, 50% des pv, ou JdS || - || -
+|-
+| 3 || 5 000 || - || 50% des pv restants || Toutes || 50% restants
+|- CLASS="premier"
+|  &emsp; || 6 000 || 25% || BBA, 50% des pv, ou JdS || - || -
+|-
+|  &emsp; || 7 000 || 50% || BBA, 50%des pv, ou JdS || - || 50%
+|-
+|  &emsp; || 8 000 || 75% || BBA, 50% des pv, ou JdS || - || -
+|-
+| 4 || 9 000 || - || 50% des pv restants || Toutes || 50% restants
+|- CLASS="premier"
+|  &emsp; || 10 500 || 25% || BBA, 50% des pv, ou JdS || - || -
+|-
+|  &emsp; || 12 000 || 50% || BBA, 50%des pv, ou JdS || - || 50%
+|-
+|  &emsp; || 13 500 || 75% || BBA, 50% des pv, ou JdS || - || -
+|-
+| 5 || 15 000 || - || 50% des pv restants || Toutes || 50% restants
+|- CLASS="premier"
+|  &emsp; || 17 000 || 25% || BBA, 50% des pv, ou JdS || - || -
+|-
+|  &emsp; || 19 000 || 50% || BBA, 50%des pv, ou JdS || - || 50%
+|-
+|  &emsp; || 21 000 || 75% || BBA, 50% des pv, ou JdS || - || -
+|-
+| 6 || 23 000 || - || 50% des pv restants || Toutes || 50% restants
+|- CLASS="premier"
+|  &emsp; || 26 000 || 25% || BBA, 50% des pv, ou JdS || - || -
+|-
+|  &emsp; || 29 000 || 50% || BBA, 50%des pv, ou JdS || - || 50%
+|-
+|  &emsp; || 32 000 || 75% || BBA, 50% des pv, ou JdS || - || -
+|-
+| 7 || 35 000 || - || 50% des pv restants || Toutes || 50% restants
+|- CLASS="premier"
+|  &emsp; || 39 000 || 25% || BBA, 50% des pv, ou JdS || - || -
+|-
+|  &emsp; || 43 000 || 50% || BBA, 50%des pv, ou JdS || - || 50%
+|-
+|  &emsp; || 47 000 || 75% || BBA, 50% des pv, ou JdS || - || -
+|-
+| 8 || 51 000 || - || 50% des pv restants || Toutes || 50% restants
+|- CLASS="premier"
+|  &emsp; || 57 000 || 25% || BBA, 50% des pv, ou JdS || - || -
+|-
+|  &emsp; || 63 000 || 50% || BBA, 50%des pv, ou JdS || - || 50%
+|-
+|  &emsp; || 69 000 || 75% || BBA, 50% des pv, ou JdS || - || -
+|-
+| 9 || 75 000 || - || 50% des pv restants || Toutes || 50% restants
+|- CLASS="premier"
+|  &emsp; || 82 500 || 25% || BBA, 50% des pv, ou JdS || - || -
+|-
+|  &emsp; || 90 000 || 50% || BBA, 50%des pv, ou JdS || - || 50%
+|-
+|  &emsp; || 97 500 || 75% || BBA, 50% des pv, ou JdS || - || -
+|-
+| 10 || 105 000 || - || 50% des pv restants || Toutes || 50% restants
+|- CLASS="premier"
+|  &emsp; || 117 500 || 25% || BBA, 50% des pv, ou JdS || - || -
+|-
+|  &emsp; || 130 000 || 50% || BBA, 50%des pv, ou JdS || - || 50%
+|-
+|  &emsp; || 142 500 || 75% || BBA, 50% des pv, ou JdS || - || -
+|-
+| 11 || 155 000 || - || 50% des pv restants || Toutes || 50% restants
+|- CLASS="premier"
+|  &emsp; || 171 250 || 25% || BBA, 50% des pv, ou JdS || - || -
+|-
+|  &emsp; || 187 500 || 50% || BBA, 50%des pv, ou JdS || - || 50%
+|-
+|  &emsp; || 203 750 || 75% || BBA, 50% des pv, ou JdS || - || -
+|-
+| 12 || 220 000 || - || 50% des pv restants || Toutes || 50% restants
+|- CLASS="premier"
+|  &emsp; || 243 750 || 25% || BBA, 50% des pv, ou JdS || - || -
+|-
+|  &emsp; || 267 500 || 50% || BBA, 50%des pv, ou JdS || - || 50%
+|-
+|  &emsp; || 291 250 || 75% || BBA, 50% des pv, ou JdS || - || -
+|-
+| 13 || 315 000 || - || 50% des pv restants || Toutes || 50% restants
+|- CLASS="premier"
+|  &emsp; || 347 500 || 25% || BBA, 50% des pv, ou JdS || - || -
+|-
+|  &emsp; || 380 000 || 50% || BBA, 50%des pv, ou JdS || - || 50%
+|-
+|  &emsp; || 412 500 || 75% || BBA, 50% des pv, ou JdS || - || -
+|-
+| 14 || 445 000 || - || 50% des pv restants || Toutes || 50% restants
+|- CLASS="premier"
+|  &emsp; || 492 500 || 25% || BBA, 50% des pv, ou JdS || - || -
+|-
+|  &emsp; || 540 000 || 50% || BBA, 50%des pv, ou JdS || - || 50%
+|-
+|  &emsp; || 587 500 || 75% || BBA, 50% des pv, ou JdS || - || -
+|-
+| 15 || 635 000 || - || 50% des pv restants || Toutes || 50% restants
+|- CLASS="premier"
+|  &emsp; || 698 750 || 25% || BBA, 50% des pv, ou JdS || - || -
+|-
+|  &emsp; || 762 500 || 50% || BBA, 50%des pv, ou JdS || - || 50%
+|-
+|  &emsp; || 826 250 || 75% || BBA, 50% des pv, ou JdS || - || -
+|-
+| 16 || 890 000 || - || 50% des pv restants || Toutes || 50% restants
+|- CLASS="premier"
+|  &emsp; || 992 500 || 25% || BBA, 50% des pv, ou JdS || - || -
+|-
+|  &emsp; || 1 095 000 || 50% || BBA, 50%des pv, ou JdS || - || 50%
+|-
+|  &emsp; || 1 197 500 || 75% || BBA, 50% des pv, ou JdS || - || -
+|-
+| 17 || 1 300 000 || - || 50% des pv restants || Toutes || 50% restants
+|- CLASS="premier"
+|  &emsp; || 1 425 000 || 25% || BBA, 50% des pv, ou JdS || - || -
+|-
+|  &emsp; || 1 550 000 || 50% || BBA, 50%des pv, ou JdS || - || 50%
+|-
+|  &emsp; || 1 675 000 || 75% || BBA, 50% des pv, ou JdS || - || -
+|-
+| 18 || 1 800 000 || - || 50% des pv restants || Toutes || 50% restants
+|- CLASS="premier"
+|  &emsp; || 1 987 500 || 25% || BBA, 50% des pv, ou JdS || - || -
+|-
+|  &emsp; || 2 175 000 || 50% || BBA, 50%des pv, ou JdS || - || 50%
+|-
+|  &emsp; || 2 362 500 || 75% || BBA, 50% des pv, ou JdS || - || -
+|-
+| 19 || 2 550 000 || - || 50% des pv restants || Toutes || 50% restants
+|- CLASS="premier"
+|  &emsp; || 2 812 500 || 25% || BBA, 50% des pv, ou JdS || - || -
+|-
+|  &emsp; || 3 075 000 || 50% || BBA, 50%des pv, ou JdS || - || 50%
+|-
+|  &emsp; || 3 337 500 || 75% || BBA, 50% des pv, ou JdS || - || -
+|-
+| 20 || 3 600 000 || - || 50% des pv restants || Toutes || 50% restants
+|- CLASS="premier"
+|}
+</center>

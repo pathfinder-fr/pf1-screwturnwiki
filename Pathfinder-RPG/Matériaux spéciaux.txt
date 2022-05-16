@@ -1,11 +1,11 @@
 ---
 Name: Pathfinder-RPG.Matériaux spéciaux
 Title: Les matériaux spéciaux
-LastModified: 2020-07-10 00:31
+LastModified: 2022-03-05 15:48
 Categories:
-  - 'Armes et équipement'
-  - 'Manuel des joueurs'
-  - 'Règles officielles'
+  - 'Règle officielle'
+  - 'Src Armes et équipement'
+  - 'Src Manuel des joueurs'
 ---
 {s:MenuEquipement}
 <div style="float: right; padding: 0 0 8px 8px">{toc}</div>On peut fabriquer des armes et des armures à partir de matériaux ayant des propriétés spéciales naturelles. Si le personnage fabrique une arme ou une armure avec plus d’un matériau spécial, il ne bénéficie que des avantages du matériau qui prévaut. Néanmoins, on peut fabriquer une arme double en créant chacune des têtes avec un matériau différent.
@@ -126,30 +126,13 @@ Un processus complexe mêlant métallurgie et alchimie permet de lier de l’arg
 
 L’argent alchimique a 10 points de vie par tranche de 2,5 centimètres d’épaisseur et une [[solidité]] de 8.
 
-{s:ae}{s:Reference|BOISFLEXIBLE}
+{s:ClearRight}{s:racial|Vanara (race)|vanaras|Illustrations/PNJ/Vanara.jpg}{s:MR}{s:ae}{s:Reference|BOISFOUETTANT}{s:Reference|BOISFLEXIBLE}
 ===Bois flexible===
 Les menuisiers vanaras fabriquent ce matériau extrêmement souple au cours d’un processus très long. Le bois flexible est en réalité un composé de fibres de bois pliables tissées et fusionnées pour former une unité solide mais flexible. Seules les armes en bois ou les armes ayant des parties en bois (comme les haches et les lances) peuvent être fabriquées en bois flexible. Une créature maniant une arme en bois flexible gagne un bonus de +2 au [[DMD]] lorsqu’elle se défend contre les tentatives de [[destruction]] d’arme. 
 
 Les points de vie d’une arme en bois flexible augmentent de +5. Le bois flexible perd ses capacités spéciales s’il est sous l’effet d’un sort de ''[[bois de fer]]''. 
 
 Les armes en bois flexible coûtent 500 po de plus que les armes normales de même type.
-
-{s:racial|Vanara (race)|vanaras|Illustrations/PNJ/Vanara.jpg}{s:MR}{s:Reference|BOISFOUETTANT}
-===Bois fouettant===
-<div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
-<div style="border: 1px solid #4b3124; padding: 4px">
-<center>
-{| CLASS="tablo"
-|- CLASS="titre"
-| Type d’objet en<br>bois fouettant || Modif. au <br/>prix de l'objet
-|- CLASS="premier"
-| Arme en bois ou avec<br>un manche en bois || +500 po
-|}
-</center></div></div>Les vanaras artisans du bois créent ce matériau extrêmement souple lors d’un processus très long. Le bois fouettant est en réalité un composé de plusieurs fibres de bois tissées et fusionnées pour former un ensemble solide, mais souple.
-
-Seules les armes en bois ou ayant un manche en bois (comme les haches et les lances) peuvent être faites en bois fouettant. Une créature maniant une arme en bois fouettant ajoute un bonus de +2 à son [[DMD]] quand il s’agit d’éviter les tentatives de destruction contre son arme. Le nombre de points de vie des armes en bois fouettant augmente de +5. 
-
-Le bois fouettant perd ses qualités spéciales lorsqu’il est soumis aux effets d’un sort de ''[[bois de fer]]''.
 
 {s:ae}{s:Reference|BOISVERT}
 ===Bois vert===
@@ -165,7 +148,7 @@ Pour déterminer le prix d’un objet en bois vert, référez-vous au poids orig
 Le bois vert a le même nombre de points de vie et la même solidité que le bois.
 
 {s:ae}{s:Reference|BRONZEÉLYSÉEN}
-=== Bronze Élyzéen ===
+=== Bronze Élyséen ===
 <div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
 <div style="border: 1px solid #4b3124; padding: 4px">
 <center>
@@ -249,7 +232,7 @@ L’ébénite a 10 [[points de résistance|points de vie]] par section de 2,5 ce
 
 {s:Reference|FERFROID}
 === Fer froid ===
-Ce fer, extrait des profondeurs de la terre et connu pour son efficacité contre les [[sous-type démon|démons]] et les créatures féeriques, est forgé à basse température afin que de préserver ses propriétés délicates. 
+Ce fer, extrait des profondeurs de la terre et connu pour son efficacité contre les [[sous-type démon|démons]] et les créatures féeriques, est forgé à basse température afin de préserver ses propriétés délicates. 
 
 Les armes en fer froid coûtent deux fois plus cher que leurs homologues standards.
 
@@ -260,6 +243,7 @@ Une [[arme double]] dont une moitié est faite en fer froid coûte 50% plus cher
 Le fer froid a 30 points de vie par section de 2,5 centimètres d’épaisseur et une solidité de 10.
 
 {s:Reference|MITHRAL}
+
 === Mithral ===
 <div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
 <div style="border: 1px solid #4b3124; padding: 4px">

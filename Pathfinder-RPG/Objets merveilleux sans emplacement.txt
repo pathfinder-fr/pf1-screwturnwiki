@@ -1,21 +1,16 @@
 ---
 Name: Pathfinder-RPG.Objets merveilleux sans emplacement
 Title: Objets merveilleux sans emplacement
-LastModified: 2020-07-25 00:23
+LastModified: 2021-02-10 17:24
 Categories:
-  - 'Armes et équipement'
-  - 'Objet magique'
-  - 'Objet magique merveilleux'
-  - 'Règles officielles'
+  - 'Objet mag'
+  - 'Objet mag merveilleux'
+  - 'Règle officielle'
+  - 'Src Armes et équipement'
 ---
-{s:MenuObjetsMagiques}
-Ces objets ne sont pas alloués à un emplacement spécifique. Ils sont souvent portés comme une potion ou une baguette, dans
-un contenant ou sur certaines parties du corps qui ne correspondent à aucun emplacement d’objets. Ils peuvent également
-être utilisés de façon particulière comme indiqué dans leur description. La fonction et l’aspect des objets merveilleux sans
-emplacement varient du tout au tout. En règle générale, si un objet magique ne correspond à aucune catégorie, il appartient
-à celle-ci.  
-Tout le monde peut utiliser un objet merveilleux sans emplacement à moins que le contraire ne soit indiqué dans sa description. Ces objets sont habituellement activés par usage ou par un mot de commande mais il y a parfois des différences en
-fonction des objets.
+{s:MenuObjetsMagiques}Ces objets ne sont pas alloués à un emplacement spécifique. Ils sont souvent portés comme une potion ou une baguette, dans un contenant ou sur certaines parties du corps qui ne correspondent à aucun emplacement d’objets. Ils peuvent également être utilisés de façon particulière comme indiqué dans leur description. La fonction et l’aspect des objets merveilleux sans emplacement varient du tout au tout. En règle générale, si un objet magique ne correspond à aucune catégorie, il appartient à celle-ci.  
+
+Tout le monde peut utiliser un objet merveilleux sans emplacement à moins que le contraire ne soit indiqué dans sa description. Ces objets sont habituellement activés par usage ou par un mot de commande mais il y a parfois des différences en fonction des objets.
 
 <table width="100%"><tr><td width=50%>
 {| CLASS="tablo centre autoalt toutgauche" WIDTH="98%"
@@ -31,6 +26,8 @@ fonction des objets.
 |-
 | [[Objets merveilleux sans emplacement#Torche Ioun|Torche Ioun]] || 75 po || —
 |-
+| [[Objets merveilleux sans emplacement#Parchemin ailé à scandale|Parchemin ailé à scandale]] || 100 po || —
+|-
 | [[Objets merveilleux sans emplacement#Peinture de Guerre du Terrible Visage|Peinture de Guerre du Terrible Visage]] || 100 po || —
 |-
 | [[Objets merveilleux sans emplacement#Piton Tenace|Piton Tenace]] || 100 po || 0,25 kg
@@ -39,9 +36,13 @@ fonction des objets.
 |-
 | [[Objets merveilleux sans emplacement#Onguent dIntemporalité|Onguent d’Intemporalité]] || 150 po || —
 |-
+| [[Objets merveilleux sans emplacement#Plume magique|Plume magique (lance)]] || 150 po || —
+|-
 | [[Objets merveilleux sans emplacement#Alambic À Formules|Alambic À Formules]] || 200 po || 1 kg
 |-
 | [[Objets merveilleux sans emplacement#Entonnoir dHybridation|Entonnoir d’Hybridation]] || 200 po || 1 kg
+|-
+| [[Objets merveilleux sans emplacement#Plume magique|Plume magique (crochet céleste)]] || 200 po || —
 |-
 | [[Objets merveilleux sans emplacement#Plume Magique|Plume Magique]] (éventail) || 200 po || —
 |-
@@ -89,11 +90,19 @@ fonction des objets.
 |-
 | [[Objets merveilleux sans emplacement#Plume Magique|Plume Magique]] (bateau cygne) || 450 po || —
 |-
+| [[Objets merveilleux sans emplacement#Plume magique|Plume magique (plume flottante)]] || 450 po || —
+|-
+| [[Objets merveilleux sans emplacement#Essence enchantée|Essence enchantée]] || 500 po || —
+|-
 | [[Objets merveilleux sans emplacement#Figurine de cire|Figurine de cire]] || 500 po || —
 |-
 | [[Objets merveilleux sans emplacement#Fourreau À Aiguiser|Fourreau À Aiguiser]] || 500 po || 0,5 kg
 |-
+| [[Objets merveilleux sans emplacement#Guide magique|Guide magique]] || 500 po || 0,5 kg
+|-
 | [[Objets merveilleux sans emplacement#Maléfice En Bouteille|Maléfice En Bouteille]] || 500 po || 0,5 kg
+|-
+| [[Objets merveilleux sans emplacement#Plume magique|Plume magique (camp)]] || 500 po || —
 |-
 | [[Objets merveilleux sans emplacement#Plume Magique|Plume Magique]] (fouet) || 500 po || —
 |-
@@ -105,6 +114,8 @@ fonction des objets.
 |-
 | [[Objets merveilleux sans emplacement#Aimant À Projectiles|Aimant À Projectiles]] || 600 po || —
 |-
+| [[Objets merveilleux sans emplacement#Plume magique|Plume magique (goudron et plumes)]] || 600 po || —
+|-
 | [[Objets merveilleux sans emplacement#Poudre Obscurcissante|Poudre Obscurcissante]] || 600 po || —
 |-
 | [[Objets merveilleux sans emplacement#Poussière du conteur|Poussière du conteur]] || 600 po || —
@@ -115,7 +126,11 @@ fonction des objets.
 |-
 | [[Objets merveilleux sans emplacement#Corde de Fer|Corde de Fer]] || 750 po || 0,5 kg
 |-
+| [[Objets merveilleux sans emplacement#Élixir de la parole d'or|Élixir de la parole d'or]] || 750 po || 0,25 kg
+|-
 | [[Objets merveilleux sans emplacement#Feuille Magique|Feuille Magique]] || 750 po || —
+|-
+| [[Objets merveilleux sans emplacement#Graisse d'armure discrète|Graisse d'armure discrète]] || 750 po || 0,25 kg
 |-
 | [[Objets merveilleux sans emplacement#Livre de Convocation Durable|Livre de Convocation Durable]] inférieur || 750 po || 0,5 kg
 |-
@@ -136,6 +151,8 @@ fonction des objets.
 | [[Objets merveilleux sans emplacement#Poudre Dessicative|Poudre Dessicative]] || 850 po || —
 |-
 | [[Objets merveilleux sans emplacement#Cri en bouteille|Cri en bouteille]] || 900 po || 0,25 kg
+|-
+| [[Objets merveilleux sans emplacement#Besace de lExplorateur|Besace de l'Explorateur]] || 1.000 po || 0,5 kg
 |-
 | [[Objets merveilleux sans emplacement#Bille Antimétamorphose|Bille Antimétamorphose]] || 1.000 po || —
 |-
@@ -167,6 +184,8 @@ fonction des objets.
 |-
 | [[Objets merveilleux sans emplacement#Pâte de Lien Animal|Pâte de Lien Animal]] || 1.000 po || —
 |-
+| [[Objets merveilleux sans emplacement#Pierre solidifiante|Pierre solidifiante]] || 1.000 po || —
+|-
 | [[Objets merveilleux sans emplacement#Élixir de Souffle Enflammé|Élixir de Souffle Enflammé]] || 1.100 po || —
 |-
 | [[Objets merveilleux sans emplacement#Sel Funéraire|Sel Funéraire]] || 1.100 po || 2,5 kg
@@ -191,6 +210,10 @@ fonction des objets.
 |-
 | [[Objets merveilleux sans emplacement#Marque-page Trompeur|Marque-page Trompeur]] || 1.500 po || —
 |-
+| [[Objets merveilleux sans emplacement#Monnaie dExplorateur|Monnaie d'Explorateur]] || 1.500 po || —
+|-
+| [[Objets merveilleux sans emplacement#Poudrier de charme|Poudrier de charme]] || 1.500 po || —
+|-
 | [[Objets merveilleux sans emplacement#Sifflet à chien dévastateur|Sifflet à chien dévastateur]] || 1.500 po || 0,5 kg
 |-
 | [[Objets merveilleux sans emplacement#Poudre Absorbante Acide|Poudre Absorbante Acide]] || 1.600 po || —
@@ -207,11 +230,17 @@ fonction des objets.
 |-
 | [[Objets merveilleux sans emplacement#Bâton de Marche Agile|Bâton de Marche Agile]] || 2.000 po || 0,5 kg
 |-
+| [[Objets merveilleux sans emplacement#Cartographeur autonome|Cartographeur autonome]] || 2.000 po || 0,25 kg
+|-
 | [[Objets merveilleux sans emplacement#Corne À Poudre Étanche|Corne À Poudre Étanche]] || 2.000 po || 0,5 kg
 |-
 | [[Objets merveilleux sans emplacement#Corne de Brume|Corne de Brume]] || 2.000 po || 0,5 kg
 |-
 | [[Objets merveilleux sans emplacement#Encens deidos|Encens d’eidos]] || 2.000 po || 0,5 kg
+|-
+| [[Objets merveilleux sans emplacement#Guide du contrebandier|Guide du contrebandier]] || 2.000 po || 0,5 kg
+|-
+| [[Objets merveilleux sans emplacement#Guide étincelant|Guide étincelant]] || 2.000 po || 0,5 kg
 |-
 | [[Objets merveilleux sans emplacement#Havresac du Mage|Havresac du Mage]] || 2.000 po || 2,5 kg
 |-
@@ -271,6 +300,8 @@ fonction des objets.
 |-
 | [[Objets merveilleux sans emplacement#Corde dEscalade|Corde d’Escalade]] || 3.000 po || 1,5 kg
 |-
+| [[Objets merveilleux sans emplacement#Guide hypnotique|Guide hypnotique]] || 3.000 po || 0,5 kg
+|-
 | [[Objets merveilleux sans emplacement#Philtre dAmour|Philtre d’Amour]] || 3.000 po || —
 |-
 | [[Objets merveilleux sans emplacement#Pilule Volatile|Pilule Volatile]] (2eme niveau) || 3.000 po || —
@@ -283,11 +314,15 @@ fonction des objets.
 |-
 | [[Objets merveilleux sans emplacement#Sac À Malice|Sac À Malice]] (gris) || 3.400 po || 1 kg
 |-
+| [[Objets merveilleux sans emplacement#Parchemin de pacte|Parchemin de pacte]] || 3.500 po || —
+|-
 | [[Objets merveilleux sans emplacement#Poudre de Disparition|Poudre de Disparition]] || 3.500 po || —
 |-
 | [[Objets merveilleux sans emplacement#Poudre dAlourdissement|Poudre d’Alourdissement]] || 3.600 po || 1,5 kg
 |-
 | [[Objets merveilleux sans emplacement#Pyxide de Vigilance|Pyxide de Vigilance]] || 3.600 po || —
+|-
+| [[Objets merveilleux sans emplacement#Talisman de convocation de destrier|Talisman de convocation de destrier]] || 3.600 po || —
 |-
 | [[Objets merveilleux sans emplacement#Trèfle à quatre feuilles|Trèfle à quatre feuilles]] || 3.750 po || —
 |-
@@ -315,8 +350,6 @@ fonction des objets.
 |-
 | [[Objets merveilleux sans emplacement#Perle de Thaumaturge|Perle de Thaumaturge]] (2eme niveau) || 4.000 po || —
 |-
-| [[Objets merveilleux sans emplacement#Pierre Ioun|Pierre Ioun]] (fuseau translucide) || 4.000 po || —
-|-
 | [[Objets merveilleux sans emplacement#Pigments Merveilleux|Pigments Merveilleux]] || 4.000 po || —
 |-
 | [[Objets merveilleux sans emplacement#Poudre thaumaturgique|Poudre thaumaturgique]] || 4.000 po || —
@@ -337,6 +370,8 @@ fonction des objets.
 |-
 | [[Objets merveilleux sans emplacement#Bourse Polymorphe|Bourse Polymorphe]] || 5.000 po || 0,5 kg
 |-
+| [[Objets merveilleux sans emplacement#Chaise à porteurs flottante|Chaise à porteurs flottante]] || 5.000 po || 125 kg
+|-
 | [[Objets merveilleux sans emplacement#Corne du Grand Veneur|Corne du Grand Veneur]] || 5.000 po || 2,5 kg
 |-
 | [[Objets merveilleux sans emplacement#Fer de Convocation|Fer de Convocation]] || 5.000 po || 0,5 kg
@@ -351,13 +386,13 @@ fonction des objets.
 |-
 | [[Objets merveilleux sans emplacement#Heurtoir de Porte Magique|Heurtoir de Porte Magique]] || 5.000 po || 1 kg
 |-
+| [[Objets merveilleux sans emplacement#Guide infatigable|Guide infatigable]] || 5.000 po || 0,5 kg
+|-
 | [[Objets merveilleux sans emplacement#Lame dOs|Lame d’Os]] || 5.000 po || 0,5 kg
 |-
 | [[Objets merveilleux sans emplacement#Maillet de Bâtisseur|Maillet de Bâtisseur]] || 5.000 po || 1 kg
 |-
 | [[Objets merveilleux sans emplacement#Pierre dAlliance|Pierre d’Alliance]] || 5.000 po || —
-|-
-| [[Objets merveilleux sans emplacement#Pierre Ioun|Pierre Ioun]] (prisme rose laiteux) || 5.000 po || —
 |-
 | [[Objets merveilleux sans emplacement#Sac Sans Fond|Sac Sans Fond]] (2eme modèle) || 5.000 po || 7,5 kg ou +
 |-
@@ -366,6 +401,8 @@ fonction des objets.
 | [[Objets merveilleux sans emplacement#Cuillère Nourrissante|Cuillère Nourrissante]] || 5.400 po || —
 |-
 | [[Objets merveilleux sans emplacement#Urne Fumigène|Urne Fumigène]] || 5.400 po || 0,5 kg
+|-
+| [[Objets merveilleux sans emplacement#Secrétaire escamotable|Secrétaire escamotable]] || 5.400 po || 1 kg
 |-
 | [[Objets merveilleux sans emplacement#Éventail Enchanté|Éventail Enchanté]] || 5.500 po || —
 |-
@@ -401,7 +438,11 @@ fonction des objets.
 |-
 | [[Objets merveilleux sans emplacement#Cape de Bravade|Cape de Bravade]] || 7.000 po || 0,5 kg
 |-
+| [[Objets merveilleux sans emplacement#Commode à déguisements|Commode à déguisements]] || 7.000 po || 250 kg
+|-
 | [[Objets merveilleux sans emplacement#Flacon dOmbres|Flacon d’Ombres]] || 7.000 po || —
+|-
+| [[Objets merveilleux sans emplacement#Guide bruyant|Guide bruyant]] || 7.000 po || 0,5 kg
 |-
 | [[Objets merveilleux sans emplacement#Miroir Aux Reflets Protecteurs|Miroir Aux Reflets Protecteurs]] || 7.000 po || 2 kg
 |-
@@ -423,6 +464,8 @@ fonction des objets.
 |-
 | [[Objets merveilleux sans emplacement#Traité de Guerre|Traité de Guerre]] || 7.500 po || 1 kg
 |-
+| [[Objets merveilleux sans emplacement#Scarabée du dieu des travailleurs|Scarabée du dieu des travailleurs]] || 7.800 po || —
+|-
 | [[Objets merveilleux sans emplacement#Aiguilles de Tatouage Magiques|Aiguilles de Tatouage Magiques]] || 8.000 po || 0,5 kg
 |-
 | [[Objets merveilleux sans emplacement#Coupe de Larmes Toxiques|Coupe de Larmes Toxiques]] || 8.000 po || 0,5 kg
@@ -431,13 +474,25 @@ fonction des objets.
 |-
 | [[Objets merveilleux sans emplacement#Goupillon dExorciste|Goupillon d’Exorciste]] || 8.000 po || 0,5 kg
 |-
-| [[Objets merveilleux sans emplacement#Harpe Fracassante|Harpe Fracassante]] || 8.000 po || 2,5 kg
+| [[Objets merveilleux sans emplacement#Guide brise-sorts|Guide brise-sorts]] || 8.000 po || 0,5 kg
 |-
+| [[Objets merveilleux sans emplacement#Guide évanescent|Guide évanescent]] || 8.000 po || 0,5 kg
+|-
+| [[Objets merveilleux sans emplacement#Guide révélateur|Guide révélateur]] || 8.000 po || 0,5 kg
+|-
+| [[Objets merveilleux sans emplacement#Harpe Fracassante|Harpe Fracassante]] || 8.000 po || 2,5 kg
+|}
+</td><td width=50%>
+{| CLASS="tablo centre autoalt toutgauche" WIDTH="98%"
+|+ Objets merveilleux sans emplacement
+|- CLASS="titre"
+| WIDTH="66%" | Nom
+| WIDTH="20%" | Prix
+| WIDTH="14%" | Poids
+|- CLASS="premier"
 | [[Objets merveilleux sans emplacement#Insigne de Courage|Insigne de Courage]] || 8.000 po || —
 |-
 | [[Objets merveilleux sans emplacement#Outils de Cambrioleur Animés|Outils de Cambrioleur Animés]] || 8.000 po || 0,5 kg
-|-
-| [[Objets merveilleux sans emplacement#Pierre Ioun|Pierre Ioun]] (shpère rouge et bleue) || 8.000 po || —
 |-
 | [[Objets merveilleux sans emplacement#Rune de pouvoir|Rune de pouvoir]] (niveau 2) || 8.000 po || —
 |-
@@ -448,15 +503,7 @@ fonction des objets.
 | [[Objets merveilleux sans emplacement#Cartes Fantasmagoriques|Cartes Fantasmagoriques]] || 8.100 po || 0,25 kg
 |-
 | [[Objets merveilleux sans emplacement#Cierge dInvocation|Cierge d’Invocation]] || 8.400 po || 0,25 kg
-|}
-</td><td width=50%>
-{| CLASS="tablo centre autoalt toutgauche" WIDTH="98%"
-|+ Objets merveilleux sans emplacement
-|- CLASS="titre"
-| WIDTH="66%" | Nom
-| WIDTH="20%" | Prix
-| WIDTH="14%" | Poids
-|- CLASS="premier"
+|-
 | [[Objets merveilleux sans emplacement#Sac À Malice|Sac À Malice]] (rouille) || 8.500 po || 1 kg
 |-
 | [[Objets merveilleux sans emplacement#Bille de Bore|Bille de Bore]] (3eme niveau) || 9.000 po || —
@@ -474,6 +521,8 @@ fonction des objets.
 | [[Objets merveilleux sans emplacement#Perle de Thaumaturge|Perle de Thaumaturge]] (3ème niveau) || 9.000 po || —
 |-
 | [[Objets merveilleux sans emplacement#Pipe de lenquêteur|Pipe de l’enquêteur]] || 9.000 po || —
+|-
+| [[Objets merveilleux sans emplacement#Statuette merveilleuse|Statuette merveilleuse (aigle de chrysolite)]] || 9.100 po || 0,5 kg
 |-
 | [[Objets merveilleux sans emplacement#Statuette Merveilleuse|Statuette Merveilleuse]] (hibou de chrysalite) || 9.100 po || 0,5 kg
 |-
@@ -499,15 +548,17 @@ fonction des objets.
 |-
 | [[Objets merveilleux sans emplacement#Harpe du Destin|Harpe du Destin]] || 10.000 po || 2,5 kg
 |-
+| [[Objets merveilleux sans emplacement#Issue surnaturelle|Issue surnaturelle]] || 10.000 po || 2 kg
+|-
 | [[Objets merveilleux sans emplacement#Moulin À Prière de Puissance Morale|Moulin À Prière de Puissance Morale]] || 10.000 po || 1,5 kg
 |-
 | [[Objets merveilleux sans emplacement#Natte de Ki|Natte de Ki]] || 10.000 po || 1,5 kg
 |-
 | [[Objets merveilleux sans emplacement#Oeil Indicible|Oeil Indicible]] || 10.000 po || 0,5 kg
 |-
-| [[Objets merveilleux sans emplacement#Pierre Ioun|Pierre Ioun]] (rhombe bleu nuit) || 10.000 po || —
-|-
 | [[Objets merveilleux sans emplacement#Sablier de la Dernière Chance|Sablier de la Dernière Chance]] || 10.000 po || —
+|-
+| [[Objets merveilleux sans emplacement#Sacoche du voleur de livres|Sacoche du voleur de livres]] || 10.000 po || 1 kg
 |-
 | [[Objets merveilleux sans emplacement#Sac Sans Fond|Sac Sans Fond]] (4ème modèle) || 10.000 po || 7,5 kg ou +
 |-
@@ -601,9 +652,13 @@ fonction des objets.
 |-
 | [[Objets merveilleux sans emplacement#Statuette Merveilleuse|Statuette Merveilleuse]] (éléphant de marbre) || 17.000 po || 0,5 kg
 |-
-| [[Objets merveilleux sans emplacement#Orbe dÉpouvante Abaddonienne|Orbe d’Épouvante Abaddonienne]] || 18.000 po || 0,5 kg
+| [[Objets merveilleux sans emplacement#Flûte aux rythmes fluctuants|Flûte aux rythmes fluctuants]] || 18.000 po || 1 kg
 |-
-| [[Objets merveilleux sans emplacement#Pierre Ioun|Pierre Ioun]] (fuseau irisé) || 18.000 po || —
+| [[Objets merveilleux sans emplacement#Guide des plans|Guide des plans]] || 18.000 po || 0,5 kg
+|-
+| [[Objets merveilleux sans emplacement#Guide en ébène|Guide en ébène]] || 18.000 po || 0,5 kg
+|-
+| [[Objets merveilleux sans emplacement#Orbe dÉpouvante Abaddonienne|Orbe d’Épouvante Abaddonienne]] || 18.000 po || 0,5 kg
 |-
 | [[Objets merveilleux sans emplacement#Rune de pouvoir|Rune de pouvoir]] (niveau 3) || 18.000 po || —
 |-
@@ -618,8 +673,6 @@ fonction des objets.
 | [[Objets merveilleux sans emplacement#Corne dAntagonisme|Corne d’Antagonisme]] || 20.000 po || 2 kg
 |-
 | [[Objets merveilleux sans emplacement#Ouija magique|Ouija magique]] '' || 20.000 po || 1 kg
-|-
-| [[Objets merveilleux sans emplacement#Pierre Ioun|Pierre Ioun]] (ellipsoïde blanc laiteux) || 20.000 po || —
 |-
 | [[Objets merveilleux sans emplacement#Pierre Porte-bonheur|Pierre Porte-bonheur]] || 20.000 po || —
 |-
@@ -677,11 +730,11 @@ fonction des objets.
 |-
 | [[Objets merveilleux sans emplacement#Lanterne Révélatrice|Lanterne Révélatrice]] || 30.000 po || 1 kg
 |-
-| [[Objets merveilleux sans emplacement#Pierre Ioun|Pierre Ioun]] (prisme vert pâle) || 30.000 po || —
-|-
 | [[Objets merveilleux sans emplacement#Timbales de Panique|Timbales de Panique]] || 30.000 po || 5 kg
 |-
 | [[Objets merveilleux sans emplacement#Rune de pouvoir|Rune de pouvoir]] (niveau 4) || 32.000 po || —
+|-
+| [[Objets merveilleux sans emplacement#Verdict de la cour de l'Enfer|Verdict de la cour de l'Enfer]] || 32.000 po || 1 kg
 |-
 | [[Objets merveilleux sans emplacement#Chaudron de Résurrection|Chaudron de Résurrection]] || 33.000 po || 17,5 kg
 |-
@@ -703,15 +756,13 @@ fonction des objets.
 |-
 | [[Objets merveilleux sans emplacement#Perle de Thaumaturge|Perle de Thaumaturge]] (6ème niveau) || 36.000 po || —
 |-
-| [[Objets merveilleux sans emplacement#Pierre Ioun|Pierre Ioun]] (prisme violet vif) || 36.000 po || —
-|-
 | [[Objets merveilleux sans emplacement#Poupée ganji|Poupée ganji]] (supérieure) || 36.000 po || 0,25 kg
+|-
+| [[Objets merveilleux sans emplacement#Guide de vérité|Guide de vérité]] || 39.000 po || 0,5 kg
 |-
 | [[Objets merveilleux sans emplacement#Anneaux de Transport|Anneaux de Transport]] || 40.000 po || 0,5 kg
 |-
 | [[Objets merveilleux sans emplacement#Chaudron Volant|Chaudron Volant]] || 40.000 po || 50 kg
-|-
-| [[Objets merveilleux sans emplacement#Pierre Ioun|Pierre Ioun]] (ellipsoïde vert et lavande) || 40.000 po || —
 |-
 | [[Objets merveilleux sans emplacement#Talisman dAnimosité|Talisman d’Animosité]] || 40.000 po || 0,5 kg
 |-
@@ -761,6 +812,8 @@ fonction des objets.
 |-
 | [[Objets merveilleux sans emplacement#Bannière Seigneuriale|Bannière Seigneuriale]] (terreur) || 56.000 po || 1,5 kg
 |-
+| [[Objets merveilleux sans emplacement#Guide du chasseur de primes|Guide du chasseur de primes]] || 56.000 po || 0,5 kg
+|-
 | [[Objets merveilleux sans emplacement#Crâne des Ténèbres|Crâne des Ténèbres]] || 60.000 po || 2,5 kg
 |-
 | [[Objets merveilleux sans emplacement#Orbe de Loi Parfaite|Orbe de Loi Parfaite]] || 60.000 po || 0,5 kg
@@ -775,9 +828,13 @@ fonction des objets.
 |-
 | [[Objets merveilleux sans emplacement#Perle de Thaumaturge|Perle de Thaumaturge]] (8ème niveau) || 64.000 po || —
 |-
+| [[Objets merveilleux sans emplacement#Merveilleux divan de lempereur fou|Merveilleux divan de l'empereur fou]] || 66.000 po || 50 kg
+|-
 | [[Objets merveilleux sans emplacement#Boule de Cristal|Boule de Cristal]] (télépathie) || 70.000 po || 3,5 kg
 |-
 | [[Objets merveilleux sans emplacement#Cor de Dévastation Supérieur|Cor de Dévastation Supérieur]] || 70.000 po || 0,5 kg
+|-
+| [[Objets merveilleux sans emplacement#Guide de l'œil endormi|Guide de l'œil endormi]] || 70.000 po || 0,5 kg
 |-
 | [[Objets merveilleux sans emplacement#Perle de Thaumaturge|Perle de Thaumaturge]] (deux sorts) || 70.000 po || —
 |-
@@ -845,6 +902,10 @@ fonction des objets.
 |-
 | [[Objets merveilleux sans emplacement#Rune de pouvoir|Rune de pouvoir]] (niveau 8) || 128.000 po || —
 |-
+| [[Objets merveilleux sans emplacement#Guide de contingence|Guide de contingence]] || 132.000 po || 0,5 kg
+|-
+| [[Objets merveilleux sans emplacement#Guide de passage|Guide de passage]] || 136.000 po || 0,5 kg
+|-
 | [[Objets merveilleux sans emplacement#Manuel de Coordination Physique|Manuel de Coordination Physique]] +5 || 137.500 po || 2,5 kg
 |-
 | [[Objets merveilleux sans emplacement#Manuel de remise en forme|Manuel de remise en forme]] +5 || 137.500 po || 2,5 kg
@@ -874,7 +935,6 @@ fonction des objets.
 </td></tr></table>
 
 ===Objets merveilleux sans emplacement===
-
 <table class="page espace-col deuxcol"><tr><td>
 {s:Reference|Accumulateur dorgone}
 <div class="BD">
@@ -1092,6 +1152,19 @@ Quand le bateau pliant est inactif, il se présente sous la forme d’une petite
 Lorsqu’on frotte vigoureusement la peau d’une créature de taille TP ou inférieure à l’aide de ce baume rouge et puissant, celle-ci peut pleinement profiter de sa taille réduite et de sa mobilité. L’application d’une dose de baume requiert une [[action simple]] qui provoque des attaques d’opportunité (similaire à l’application d’huile). Une créature qui bénéficie des effets du baume ne provoque plus d’attaque d’opportunité lorsqu’elle traverse des cases menacées ou occupées par des créatures plus grandes qu’elle. L’effet dure 5 minutes. Un flacon de baume nouvellement crée contient 5 doses. 
 (((Création)))
 [[Création dobjets merveilleux|Création d’objets merveilleux]], ''[[grâce (sort)|grâce]]'' ; '''Prix''' : 3.750 po
+</div>
+
+
+{s:Reference|Besace de lExplorateur}
+<div class="BD">
+{s:BDTitre|Besace de l'Explorateur|{s:RSE}}
+'''Aura''' aucune ; '''NLS''' 9 ; '''Prix''' 1.000 po ; '''Poids''' 500 g  
+<div style="float:right"; padding: 0 0 10px 0">''[[Besace de lÉclaireur|Page de l'objet]]''</div>
+(((Caractéristiques)))
+Cette besace informe portée à la ceinture est très appréciée des Explorateurs qui ont besoin de passer des objets de contrebande à l’insu de gardes ou d’agents gouvernementaux. ''[[détection de la magie]]'' ne détecte pas qu’elle est magique (comme le sort ''[[aura magique]]''), mais la besace agit comme un ''[[sac sans fond]]'' de taille TP (son contenu est limité à 5 kilos, et le volume interne est limité à 50 cm3.  
+Sur un mot de commande, le porteur peut fermer ou ouvrir l’espace extra-dimensionnel contenu dans la besace ; quand il est fermé, la besace ne contient pas davantage qu’une bourse de ceinture ordinaire de la taille d’un poing humain, bien que les objets stockés dans l’espace extra-dimensionnel y demeurent, hors d’atteinte jusqu’à ce que la besace soit de nouveau descellée. Ceci permet à l’utilisateur de vider ses poches ou même de retourner la besace pour prouver qu’il ne transporte aucun objet de contrebande, et d’accéder aux biens cachés plus tard, en lieu sûr. Du fait de leurs auras non magiques, ces besaces renferment parfois des trésors secrets des générations durant sans que leurs propriétaires n’en réalisent la nature.
+(((Création)))
+[[Création dobjets merveilleux|Création d’objets merveilleux]], ''[[aura magique]]'', ''[[coffre secret]]'' ; '''Prix''' : 1.000 po
 </div>
 
 
@@ -1328,7 +1401,7 @@ Ce bâton de marche en bois noueux aide son porteur à se déplacer sur la terre
 '''Aura''' [[Évocation]] modérée (Bien) ; '''NLS''' 9 ; '''Emplacement''' aucun ; '''Prix''' 4 250 po ; '''Poids''' 4 kg   
 <div style="float:right"; padding: 0 0 10px 0">''[[Calebasse scintillante|Page de l'objet]]''</div>
 (((Description)))
-Cette calebasse a été évidée et sculptée du symbole d’une divinité d’alignement Bon. Elle diffuse la même lumière qu’une [[Équipemet daventurier#Bougie|bougie]]. Si on jette la calebasse au sol, la zone de 12 mètres de rayon qui entoure la calebasse écrasée bénéficie d’un sort de ''[[sanctification]]'' associé à un sort de ''[[regain dassurance|regain d’assurance]]''. Cet objet magique est souvent fabriqué dans une citrouille mais il est possible d’utiliser d’autres types de calebasse, voire même de gros navets.
+Cette calebasse a été évidée et sculptée du symbole d’une divinité d’alignement Bon. Elle diffuse la même lumière qu’une [[Équipement daventurier#Bougie|bougie]]. Si on jette la calebasse au sol, la zone de 12 mètres de rayon qui entoure la calebasse écrasée bénéficie d’un sort de ''[[sanctification]]'' associé à un sort de ''[[regain dassurance|regain d’assurance]]''. Cet objet magique est souvent fabriqué dans une citrouille mais il est possible d’utiliser d’autres types de calebasse, voire même de gros navets.
 (((Création)))
 [[Création dobjets merveilleux|Création d’objets merveilleux]], ''[[regain dassurance|regain d’assurance]]'', ''[[sanctification]]'' ; '''Coût''' 3 125 po
 </div>
@@ -1485,6 +1558,31 @@ Ce jeu de cartes parcheminées est généralement rangé dans un étui en ivoire
  Il y a 10 % de chances pour qu’un jeu de cartes déterminé aléatoirement ait perdu 1d20 cartes (son prix est alors réduit en proportion). Sur un résultat de 11–100, il est complet. 
 (((Création)))
 [[Création dobjets merveilleux|Création d’objets merveilleux]], ''[[Image accomplie|image accomplie]]''  ; '''Prix''' : 4.050 po
+</div>
+
+
+{s:Reference|Cartographeur autonome}
+<div class="BD">
+{s:BDTitre|Cartographeur autonome|{s:RSE}}
+'''Aura''' [[école Divination|Divination]] faible ; '''NLS''' 5  ; '''Prix''' 2.000 po ; '''Poids''' 250 g  
+<div style="float:right"; padding: 0 0 10px 0">''[[Cartographeur autonome|Page de l'objet]]''</div>
+(((Caractéristiques)))
+Sur un ordre, cet objet dessine les environs jusqu’aux limites de la vision normale, comme si elles étaient peintes par un artiste compétent mais sans talent exceptionnel. Il ne montre aucun détail que vous ne pouvez voir. Le cartographeur autonome crée des plans et des cartes qui tiennent sur des parchemins ou des rouleaux de 30 cm sur 120 contenus dans l’objet. Un second ordre efface le rouleau, vous permettant de l’utiliser à nouveau. Vous pouvez insérer ou extraire un rouleau par une [[action complexe]]. 
+(((Création)))
+[[Création dobjets merveilleux|Création d’objets merveilleux]], ''[[effacement]]'', ''[[prestidigitation]]'' ; '''Coût''' : 1.000 po
+</div>
+
+
+{s:Reference|Chaise à porteurs flottante}
+<div class="BD">
+{s:BDTitre|Chaise à porteurs flottante|{s:RSE}}
+'''Aura''' [[Transmutation]] faible ; '''NLS''' 3 ; '''Emplacement''' aucun ; '''Prix''' 5 000 po ; '''Poids''' 125 kg  
+<div style="float:right"; padding: 0 0 10px 0">''[[Chaise à porteurs flottante|Page de l'objet]]''</div>
+(((Caractéristiques)))
+__'''''Contenu issu d'un supplément 3.5'''''__  
+Cette grande chaise à porteurs est faite en noirbois léger mais solide. Elle est dotée de revêtements de soie blanche et deux individus de taille Moyenne peuvent s’allonger dans l’habitacle agrémenté de coussins de soie et d’un rembourrage épais. L’un des deux occupants contrôle les mouvements de la chaise. Elle lévite à plusieurs dizaines de centimètres au-dessus du sol et se déplace horizontalement à une vitesse de 3 mètres, mais les occupants peuvent lui ordonner de se poser ou de léviter à nouveau par une [[action libre]].
+(((Création)))
+[[Création dobjets merveilleux|Création d'objets merveilleux]], ''[[lévitation]]'', le créateur soit posséder 5 rangs au moins en [[Artisanat]] (travail du bois) ; '''Coût''' 2 500 po
 </div>
 
 
@@ -1734,6 +1832,20 @@ Souvent scellé et couvert de chaînes, ce coffret est composé de bois fossilis
 Cette substance de couleur ambrée est épaisse et visqueuse. À cause de ses pouvoirs, elle ne peut être conservée que dans un flacon dont l’intérieur a été au préalable enduit d’une dose d’onguent d’insaisissabilité. Chaque fois qu’on utilise un peu de colle, il faut verser une dose d’onguent d’insaisissabilité dans le récipient, dans le round qui suit, afin d’éviter que la colle ne colle aux parois. Une flasque de colle universelle contient entre une et sept doses (1d8-1, avec un minimum de 1), le reste de l’espace libre étant pris par l’onguent. Une dose de colle, soit environ vingt-cinq grammes, recouvre une surface de 10 dm² environ, ce qui correspond à un carré d’une trentaine de centimètres de côté. Il est impossible de séparer deux objets collés grâce à cette colle qui sèche en 1 round seulement. Si les deux objets sont séparés avant que la colle n’agisse, la dose perd de sa puissance adhésive et devient inutile. Si elle a eu le temps de sécher, il est inutile de faire la moindre tentative pour séparer les deux objets, sauf si l’on utilise du solvant universel. La colle universelle est dissoute par le solvant universel. Le prix et le coût de fabrication indiqués s’appliquent pour une dose de vingt-cinq grammes. 
 (((Création)))
 [[Création dobjets merveilleux|Création d’objets merveilleux]], ''[[réparation intégrale]]''  ; '''Prix''' : 1.200 po
+</div>
+
+
+{s:Reference|Commode à déguisements}
+<div class="BD">
+{s:BDTitre|Commode à déguisements|{s:RSE}}
+'''Aura''' [[Invocation]] modérée ; '''NLS''' 9 ; '''Emplacement''' aucun ; '''Prix''' 7 000 po ; '''Poids''' 250 kg  
+<div style="float:right"; padding: 0 0 10px 0">''[[Commode à déguisements|Page de l'objet]]''</div>
+(((Caractéristiques)))
+Cette grande commode en chêne rassemble une armoire à deux portes positionnée au-dessus de trois tiroirs horizontaux. Le personnage peut se concentrer sur un ensemble de vêtements qu’il souhaiterait porter, puis ouvrir l’armoire ou l’un des tiroirs pour récupérer les vêtements confectionnés par magie qu’il a imaginés. Les vêtements créés de cette manière ne peuvent pas avoir de propriétés magiques autre que celles listées ci-après, mais confèrent des avantages basés sur le type de vêtements qu'ils représentent (une tenue pensée pour un climat froid donnera alors un bonus de +2 aux jets de [[Vigueur]] contre l'exposition à un climat froid, par exemple). La commode ne peut pas créer d'armures.
+
+Les vêtements se transforment en haillons sans valeur au bout de 24 heures. De la même façon, les vêtements retirés de l’ensemble (les boutons, les parures de pierres précieuses ou les bandages confectionnés en déchirant des bandelettes de tissu à partir d’un des vêtements) perdent aussitôt toute leur valeur. Le bureau peut générer jusqu'à quatre tenues complètes par jour (une depuis l'armoire et une pour chacun des trois tiroirs).
+(((Création)))
+[[Création dobjets merveilleux|Création d'objets merveilleux]], ''[[fabrication]]'', ''[[création mineure]]'', le créateur doit posséder 5 rangs au moins en [[Artisanat]] (vêtements) ou [[Profession]] (tailleur) ; '''Coût''' 3 500 po
 </div>
 
 
@@ -2039,11 +2151,56 @@ Les petites orbites de ce crâne de gobelin noirci par le feu luisent d’une lu
 '''Aura''' [[Présentation des sorts#EVOCATION|Évocation]] modérée ; '''NLS''' 10 ; '''Emplacement''' aucun ; '''Prix''' 62 000 po ; '''Poids''' 0,25 kg   
 <div style="float:right"; padding: 0 0 10px 0">''[[Cube de Force|Page de l'objet]]''</div>
 (((Description)))
-Cet objet de la taille d’un dé à jouer (environ deux centimètres d’arête) peut être taillé dans l’ivoire, l’os ou dans tout minéral suffisamment dur. Chaque face du cube est en général lisse et polie, mais certaines peuvent également être gravées de runes. Un cube de force permet de faire apparaître autour de son possesseur un cube spécial fait de six murs de force individuels de 3 mètres de côté. Cet écran cubique se déplace avec le personnage et l’immunise contre les attaques indiquées ci-dessous. Le cube possède 36 charges, restaurées au début de chaque journée. Le propriétaire doit presser une des faces du cube pour activer un type d’écran ou pour désactiver un écran en place. Chaque effet coûte un certain nombre de charges par minute (ou portion de minute) d’utilisation. Tant qu’un écran est actif, la vitesse de son porteur est limitée à la valeur indiquée dans la table. Quand le ''[[champ de force]]'' est activé, toute attaque infligeant plus de 30 points de dégâts oblige le cube à dépenser 1 charge additionnelle pour chaque tranche de 10 points de dégâts supplémentaires. Voici un récapitulatif du nombre de charges à dépenser pour maintenir les six murs du cube. CHARGES VITESSE DE FACE DÉPENSÉES 
+Cet objet de la taille d’un dé à jouer (environ deux centimètres d’arête) peut être taillé dans l’ivoire, l’os, ou dans tout minéral suffisamment dur. Il permet de faire apparaître autour de son possesseur un ''[[mur de force]]'' de forme cubique. Chaque face de ce champ de force fait trois mètres de côté. L’écran se déplace avec le personnage et l’immunise contre les attaques indiquées ci-dessous, selon le réglage choisi. Le cube possède 36 charges, restaurées au début de chaque journée. Le personnage doit presser une des faces du cube pour activer ou désactiver le ''[[mur de force]]''. Le propriétaire du cube en presse une face pour activer un type d’écran ou pour désactiver un écran en place. Chaque effet coûte un certain nombre de charges par minute (ou portion de minute) d’utilisation. Tant qu’un écran est actif, la vitesse de son porteur est limitée à la valeur indiquée dans la table.
 
-TABLEAU A FAIRE
+Quand le ''[[mur de force]]'' est activé, toute attaque infligeant plus de 30 points de dégâts oblige le cube à dépenser 1 charge additionnelle pour chaque tranche de 10 points de dégâts supplémentaires.
 
-DÉPLACEMENT DU CUBE (PAR MINUTE) MAX. EFFET 1 1 9 m Protège du gaz, des vents, etc. 2 2 6 m Protège de la matière non-vivante 3 3 4,5 m Protège de la matière vivante 4 4 3 m Protège de la magie 5 6 3 m Protège de tout 6 0 Normale Désactive le cube Les sorts qui affectent l’intégrité physique du ''[[mur de force]]'' absorbent également des charges supplémentaires du cube. Voici les sorts qui ne peuvent pas traverser les parois du cube. SORT OU EFFET CHARGES SUPPLÉMENTAIRES Cor de dévastation 6 ''[[Désintégration]]'' 6 ''[[Mur de feu]]'' 2 ''[[Passe-muraille]]'' 3 ''[[Porte de phase]]'' 5 ''[[Rayons prismatiques]]'' 7 
+<center>
+{| CLASS="tablo"
+|- CLASS="titre"
+| Face <br/>du cube || Charges <br/>par minute || Vitesse <br/>max.
+| CLASS="gauche" | Effet
+|- CLASS="premier"
+| 1 || 1 || 9 m
+| CLASS="gauche" | Protège du gaz, des vents, etc.
+|- CLASS="alt"
+| 2 || 2 || 6 m
+| CLASS="gauche" | Protège de la matière non-vivante
+|-
+| 3 || 3 || 4,50 m
+| CLASS="gauche" | Protège de la matière vivante
+|- CLASS="alt"
+| 4 || 4 || 3 m
+| CLASS="gauche" | Protège de la magie
+|-
+| 5 || 6 || 3 m
+| CLASS="gauche" | Protège de tout
+|- CLASS="alt"
+| 6 || 0 || Normale
+| CLASS="gauche" | Désactive le cube
+|}
+</center>
+
+Les sorts qui affectent l’intégrité physique du cube coûte également des charges à celui-ci.
+
+<center>
+{| CLASS="tablo"
+|- CLASS="titre"
+| Sort ou effet || Charges supplémentaires
+|- CLASS="premier"
+| ''[[Cor de dévastation]]'' || 6
+|- CLASS="alt"
+| ''[[Désintégration]]'' || 6
+|-
+| ''[[Mur de feu]]'' || 2
+|- CLASS="alt"
+| ''[[Passe-muraille]]'' || 3
+|-
+| ''[[Porte de phase]]'' || 5
+|- CLASS="alt"
+| ''[[Rayons prismatiques]]'' || 7
+|}
+</center>
 (((Création)))
 [[Création dobjets merveilleux|Création d’objets merveilleux]], ''[[mur de force]]''  ; '''Prix''' : 31.000 po
 </div>
@@ -2228,11 +2385,23 @@ Cette potion permet de re''[[marque]]''r le moindre détail, aussi petit soit-il
 <div class="BD">
 {s:BDTitre|Élixir d’Amour|{s:AE}}
 '''Aura''' [[Présentation des sorts#ENCHANTEMENT|Enchantement]] faible ; '''NLS''' 4 ; '''Emplacement''' aucun ; '''Prix''' 150 po ; '''Poids''' —   
-<div style="float:right"; padding: 0 0 10px 0">''[[Élixir d'Amour|Page de l'objet]]''</div>
+<div style="float:right"; padding: 0 0 10px 0">''[[Élixir d’Amour|Page de l'objet]]''</div>
 (((Description)))
 Quiconque boit cette boisson doucereuse est automatiquement charmé par la première personne qu’il voit ensuite (comme avec charmepersonne, le buveur doit être un humanoïde de taille M ou moins, jet de Volonté DD 14 pour annuler). L’effet du charme s’estompe au bout de 1d3 heures. * Appelé Philtre d’amour dans le Manuel du Joueur. 
 (((Création)))
 [[Création dobjets merveilleux|Création d’objets merveilleux]], ''[[charme-personne]]''  ; '''Prix''' : 75 po
+</div>
+
+
+{s:Reference|Élixir de la parole dor}
+<div class="BD">
+{s:BDTitre|Élixir de la parole d'or|{s:RSE}}
+'''Aura''' [[Transmutation]] modérée  ; '''NLS''' 7 ; '''Emplacement''' aucun ; '''Prix''' 750 po ; '''Poids''' 0,25 kg  
+<div style="float:right"; padding: 0 0 10px 0">''[[Élixir de la parole dor|Page de l'objet]]''</div>
+(((Caractéristiques)))
+Quand il boit cet élixir, le personnage bénéficie d’un bonus de +10 aux tests de [[Bluff]] pour convaincre autrui qu’il dit la vérité. Ce bonus dure 10 minutes et ne s’applique pas aux autres formes d’utilisation du Bluff, comme les [[feinte|feintes]] en combat, les diversions pour se cacher ou la communication de messages secrets par sous-entendus. Si quelqu’un utilise un effet magique visant à détecter un mensonge ou à faire dire la vérité contre une personne ayant absorbé l’''élixir de la parole d’or'', il doit réussir un test de [[NLS|niveau de lanceur de sorts]] [[DD]] 16 pour obliger la personne à dire la vérité. En cas d’échec, l’effet ne détecte pas le mensonge ou n’oblige pas la personne à dire la vérité.
+(((Création)))
+[[Création dobjets merveilleux|Création d’objets merveilleux]], ''[[bagou]]''  ; '''Coût''' 375 po
 </div>
 
 
@@ -2343,6 +2512,18 @@ Cet encensoir métallique perforé de 15 cm de large ressemble beaucoup à ceux 
 Cet entonnoir doté de deux orifices est utilisé pour mélanger en toute sécurité deux armes alchimiques à aspersion pour produire une unique flasque. L’utilisation de cet outil prend 10 minutes et nécessite la réussite d’un test d’[[Artisanat]] (alchimie) DD 25. Un demi-elfe bénéficie d’un bonus de +5 sur ce test. En cas d’échec, les deux armes à aspersion sont détruites. En cas de réussite, les deux substances sont correctement mélangées pour obtenir un volume équivalent à celui d’une fiole normale d’arme à aspersion. Lorsque cette fiole est lancée comme une arme à aspersion, les créatures touchées subissent les effets des deux substances mélangées. Le mélange devient inerte au bout de 24 heures. L’entonnoir sert à mélanger des liquides uniquement. Son possesseur peut l’utiliser pour mélanger une arme à aspersion alchimique avec de l’eau bénite ou maudite, mais le DD du test d’[[Artisanat]] (alchimie) s’élève alors à 30, les demi-elfes bénéficient toujours d’un bonus de +5 à ce test. L’entonnoir ne peut servir à mélanger des potions, des élixirs, des extraits et des matières solides. Le mélange de substances similaires ou identiques (telles que du feu grégeois avec du feu grégeois) n’a aucun effet. Il est également impossible de combiner deux substances déjà mélangées. 
 (((Création)))
 [[Création dobjets merveilleux|Création d’objets merveilleux]], ''[[fabrication]]'' ou découverte de combinaison d’extraits  ; '''Prix''' : 100 po
+</div>
+
+
+{s:Reference|Essence enchantée}
+<div class="BD">
+{s:BDTitre|Essence enchantée|{s:RSE}}
+'''Aura''' [[Abjuration]] modérée ; '''NLS''' 9 ; '''Emplacement''' aucun ; '''Prix''' 500 po ; '''Poids''' –  
+<div style="float:right"; padding: 0 0 10px 0">''[[Essence enchantée|Page de l'objet]]''</div>
+(((Caractéristiques)))
+Extraite par la distillation prolongée de réactifs magiques rares, une pincée de cette fine poudre blanche peut être incorporée en tant que [[composantes|composante matérielle]] supplémentaire lors du lancer de n’importe quel sort. Ceci confère au lanceur de sorts un bonus de +5 aux tests de [[NLS|niveau de lanceur de sorts]] effectués pour surmonter la [[RM|résistance à la magie]].
+(((Création)))
+[[Création dobjets merveilleux|Création d'objets merveilleux]], [[Efficacité des sorts accrue]] ; '''Coût''' 250 po
 </div>
 
 
@@ -2572,6 +2753,18 @@ Cet étrange récipient est souvent couvert de runes d’argent et fermé par un
 Entre les mains d’un personnage possédant la compétence [[Représentation]] (instruments à vents), cette flûte de Pan métallique peut produire tout un éventail de sons qui imitent les bruits d’une créature, d’un environnement ou d’une autre source. Ces bruits chimériques équivalent au sort ''[[son imaginaire]]''. 
 (((Création)))
 [[Création dobjets merveilleux|Création d’objets merveilleux]], ''[[son imaginaire]]''  ; '''Prix''' : 900 po
+</div>
+
+
+{s:Reference|Flûte aux rythmes fluctuants}
+<div class="BD">
+{s:BDTitre|Flûte aux rythmes fluctuants|{s:RSE}}
+'''Aura''' [[Transmutation]] faible ; '''NLS''' 5 ; '''Emplacement''' aucun ; '''Prix''' 18 000 po ; '''Poids''' 1 kg  
+<div style="float:right"; padding: 0 0 10px 0">''[[Flûte aux rythmes fluctuants|Page de l'objet]]''</div>
+(((Caractéristiques)))
+Dans sa forme et dans la façon d’en jouer, la flûte aux rythmes fluctuants ressemble à une flûte de pan classique et ordinaire. Pourtant, des creux complexes ont été laborieusement façonnés à l’intérieur de la flûte et reproduisent ceux des instruments d’origine antique. La musique émise par cette flûte est inhabituellement triste et rehaussée d’une mélodie étrange et presque roucoulante. Jusqu’à trois fois par jour, son utilisateur peut tenter de puiser dans les pouvoirs de la flûte en effectuant un test de [[Représentation]] (instruments à vent) [[DD]] 15 par une [[action simple]]. En cas de réussite, le musicien peut jouer une mélodie grave qui produit un effet de ''[[lenteur]]'' ou choisir un tempo allegro qui produit un effet de ''[[rapidité]]''. Les sorts reproduits fonctionnent normalement en prenant en compte le [[NLS|niveau de lanceur de sorts]] de l’objet et peuvent affecter jusqu’à cinq créatures à chaque fois.
+(((Création)))
+[[Création dobjets merveilleux|Création d'objets merveilleux]], ''[[rapidité]]'', ''[[lenteur]]'', 5 rangs en [[Représentation]] (instruments à vent) ; '''Coût''' 9 000 po
 </div>
 
 
@@ -2811,6 +3004,225 @@ Cette petite fiole contient 5 doses de liquide visqueux. Si une créature s’en
 </div>
 
 
+{s:Reference|Graisse darmure discrète}
+<div class="BD">
+{s:BDTitre|Graisse d'armure discrète|{s:RSE}}
+'''Aura''' [[Invocation]] puissante  ; '''NLS''' 5 ; '''Emplacement''' aucun ; '''Prix''' 750 po ; '''Poids''' 0,25 kg  
+<div style="float:right"; padding: 0 0 10px 0">''[[Graisse darmure discrète|Page de l'objet]]''</div>
+(((Caractéristiques)))
+Cette graisse pour armure, noire comme le goudron et à l’odeur puissante, se présente dans une petite boîte circulaire. Une dose suffit à enduire une armure de taille M ou deux armures de taille P. Il faut 10 minutes pour passer la graisse, période pendant laquelle le personnage doit visualiser des habits normaux ou une autre armure : l’armure qu’il graisse prendra cette apparence alternative. L’odeur désagréable de la graisse se dissipe une fois l’application terminée et l’armure apparaît telle que le personnage l’a visualisée, comme avec la propriété spéciale de ''[[mimétisme (propriété armure)|mimétisme]]''. L’armure conserve toutes ses propriétés, en dehors de son apparence, y compris son poids, ses malus aux tests et sa limite au bonus de [[Dextérité]]. Cet effet persiste 24 heures avant de se dissiper.
+(((Création)))
+[[Création dobjets merveilleux|Création d’objets merveilleux]], ''[[déguisement]]'' ; '''Coût''' 375 po
+</div>
+
+
+{s:Reference|Guide brise-sorts}
+<div class="BD">
+{s:BDTitre|Guide brise-sorts|{s:RSE}}
+'''Aura''' [[Abjuration]] faible ; '''NLS''' 7 ; '''Emplacement''' aucun ; '''Prix''' 8 000 po ; '''Poids''' 500 g  
+<div style="float:right"; padding: 0 0 10px 0">''[[Guide brise-sorts|Page de l'objet]]''</div>
+(((Caractéristiques)))
+Avec un simple boîtier en fer noirci, le ''guide brise-sorts'' n’est pas ornementé. En plus de ses fonctions classiques de ''[[Guide magique|guide]]'' (y compris sa capacité à créer de la lumière), il permet de lancer ''[[dissipation de la magie]]'' sur une créature ou un objet une fois par jour. Le ''guide brise-sorts'' doit être en contact avec sa cible : si son possesseur vise une créature réticente, il doit réussir une [[contact|attaque de contact]] au corps à corps. S’il bénéficie des effets actifs d’un sort de ''[[détection de la magie]]'' ou qu’il peut d’une façon ou d’une autre observer les auras magiques, il peut viser une aura spécifique ; sinon, le ''guide brise-sorts'' cible l’effet doté du plus haut [[NLS|niveau de lanceur de sorts]].
+(((Création)))
+[[Création dobjets merveilleux|Création d'objets merveilleux]], ''[[dissipation de la magie]]'', ''[[lumière]]'' ; '''Coût''' 4 000 po
+</div>
+
+
+{s:Reference|Guide bruyant}
+<div class="BD">
+{s:BDTitre|Guide bruyant|{s:RSE}}
+'''Aura''' [[Abjuration]] faible ; '''NLS''' 3 ; '''Emplacement''' aucun ; '''Prix''' 7.000 po  
+<div style="float:right"; padding: 0 0 10px 0">''[[Guide bruyant|Page de l'objet]]''</div>
+(((Caractéristiques)))
+Ce guide décoratif en or est orné de coqs blancs et argent. Quand son propriétaire s’endort, les coqs se transforment en croissants de lune. Quand une créature de [[taille]] TP ou plus grande s’approche à 6 m (4 {s:c}) ou moins du personnage alors que celui-ci est endormi et porte le guide sur lui, l’objet se met à vibrer, à bourdonner et à sonner tant qu’il y a une ligne d’effet dégagée entre le personnage et la créature en approche. Le vacarme porte facilement à 18 m (12 {s:c}), comme la version sonore d’un sort d’''[[alarme]]''. Une créature qui prononce le mot de passe (déterminé par le personnage avant qu’il ne s’endorme) ne déclenche pas l’alarme. Quand l’alarme est déclenchée, le guide bruyant s’agite violemment jusqu’à ce que le personnage appuie sur un bouton situé sur le côté de l’objet.
+
+Si le personnage est affecté par un effet de sommeil magique (comme le sort ''[[sommeil]]'') et qu’une créature déclenche l’alarme, le bourdonnement et les vibrations du guide lui permettent de faire un [[jds|jet de sauvegarde]] par round, à la fin de son tour, pour mettre fin à l’effet de sommeil. Le guide lui donne un bonus de circonstances de +2 au jet. Les créatures endormies à portée d’oreille du guide bruyant s’éveillent si elles dorment d’un sommeil ordinaire, mais pas si elles dorment d’un sommeil magique. L’utilisateur du guide bruyant peut désactiver la fonction d’alarme sonore en appuyant sur l’aiguille de la boussole.
+(((Création)))
+[[Création dobjets merveilleux|Création d’objets merveilleux]], ''[[alarme]]'', ''[[lumière]]'' ; '''Coût''' 3.500 po
+</div>
+
+
+{s:Reference|Guide de contingence}
+<div class="BD">
+{s:BDTitre|Guide de contingence|{s:RSE}}
+'''Aura''' [[Évocation]] modérée ; '''NLS''' 11 ; '''Emplacement''' aucun ; '''Prix''' 132.000 po  
+<div style="float:right"; padding: 0 0 10px 0">''[[Guide de contingence|Page de l'objet]]''</div>
+(((Caractéristiques)))
+Ce guide est délicatement taillé dans l’ivoire. Son couvercle se modifie sans cesse pour former une gravure en relief de son propriétaire, l’image changeant aussi vite que l’objet change de main. L’emplacement qui sert habituellement à accueillir une [[pierre ioun]] est occupé par une gemme définitivement sertie qui fonctionne comme un ''[[anneau de stockage de sort]]'' mineur. Quand le personnage reste en possession du guide pendant 24 heures, il peut alors décider d’une série de conditions qui déclenchent le lancement du sort de plus haut niveau stocké dans la gemme. Le sort prend pour cible le propriétaire du guide, comme si ce dernier utilisait un sort de ''[[prévoyance]]''. Par exemple, le propriétaire peut placer un sort de ''[[soins modérés]]'' dans la gemme du guide de contingence et ordonner que l’objet lui lance le sort s’il tombe inconscient à cause de dégâts létaux. Une fois que le guide a été ainsi utilisé, il faut un mois pour recharger son effet de prévoyance. En revanche, on peut placer un nouveau sort dans la gemme à n’importe quel moment pendant cette période. Si les conditions de l’effet de prévoyance ne se sont pas présentées au bout d’une semaine, l’utilisateur peut modifier les conditions de lancement mais il ne peut pas changer le sort contenu dans la gemme tant que celui-ci n’a pas été lancé.
+(((Création)))
+[[Création dobjets merveilleux|Création d’objets merveilleux]], ''[[prévoyance]]'', ''[[transfert de sorts]]'', ''[[lumière]]'' ; '''Coût''' 66.000 po
+</div>
+
+
+{s:Reference|Guide de lœil endormi}
+<div class="BD">
+{s:BDTitre|Guide de l'œil endormi|{s:RSE}}
+'''Aura''' [[Illusion]] puissante ; '''NLS''' 13 ; '''Emplacement''' aucun ; '''Prix''' 70.000 po  
+<div style="float:right"; padding: 0 0 10px 0">''[[Guide de lœil endormi|Page de l'objet]]''</div>
+(((Caractéristiques)))
+Ce guide en platine et mithral, d’une facture exquise, arbore le motif d’un œil à demi clos. L’œil est une cavité prête à recevoir une pierre ioun ; quand elle est remplie, vous pouvez activer le guide quand vous dormez ou méditez pour créer une image illusoire mobile de vous-même, qui sera partiellement réelle. Vous contrôlez l’image comme s’il s’agissait de votre propre corps et vous percevez les choses à travers elle comme si elle était pourvue de tous vos sens normaux plus [[Vision dans le noir (capacité)|vision dans le noir]], à une distance de 18 m (12 {s:c}). Vous n’avez pas besoin de maintenir un lien visuel avec l’image. Celle-ci est visible mais transparente, et elle ne peut accomplir aucune action qu’un ''[[serviteur invisible]]'' n’est pas capable d’exécuter. L’image possède 40% de vos points de vie au moment où elle a été créée. Sa [[CA]] est de 10 + votre modificateur de taille + votre modificateur de [[Dextérité]]. Elle utilise votre bonus actuel aux [[jds|jets de sauvegarde]] de [[Volonté]], mais échoue automatiquement aux sauvegardes de [[Vigueur]] et [[Réflexes]]. Elle peut être dispersée, et ne peut pas pénétrer dans des zones protégées contre les créatures invoquées, votre alignement, les illusions ou les créatures immatérielles.
+
+Vous pouvez mettre un terme à cette capacité par une [[action libre]], et elle prend automatiquement fin si vous êtes réveillé, que votre corps est attaqué ou que 8 heures sont passées ; mettre fin à l’image de cette manière ne vous inflige aucun affaiblissement en [[Charisme]]. Utiliser cette capacité draine de l’énergie de la pierre ioun, ce qui la rend gris terne et sans pouvoir pendant 24 heures. Une pierre ioun gris terne ne peut alimenter la capacité de projection de ce guide. Le guide peut conserver les pouvoirs de [[résonance (capacité)|résonance]] procurés par une pierre ioun, bien qu’ils ne fonctionnent pas tant que la pierre insérée est sans pouvoir.
+(((Création)))
+[[Création dobjets merveilleux|Création d’objets merveilleux]], ''[[œil du mage]]'', ''[[convocation dombres|convocation d’ombres]]'' ; '''Coût''' 35.000 po
+</div>
+
+
+{s:Reference|Guide de passage}
+<div class="BD">
+{s:BDTitre|Guide de passage|{s:RSE}}
+'''Aura''' Variable modérée ; '''NLS''' 10 ; '''Emplacement''' aucun ; '''Prix''' 136.000 po  
+<div style="float:right"; padding: 0 0 10px 0">''[[Guide de passage|Page de l'objet]]''</div>
+(((Caractéristiques)))
+Ce guide est un bijou d’orfèvrerie, ouvragé en or et incrusté de minuscules opales, rubis, diamants et saphirs. Trois encoches sur le rabat intérieur du couvercle peuvent accueillir chacune une pierre ioun. Il dégage à la demande une lumière équivalente au sort ''[[lumière du jour]]''.
+Il possède les capacités suivantes, chacune activée par un mot de commande différent : 
+* ''[[porte dimensionnelle]]'' (une fois par jour) 
+* ''[[feuille morte]]'' (à volonté) 
+* ''[[déblocage]]'' (à volonté)
+* ''[[résistance aux énergies destructives]]'' (une fois par jour, résistance à l’énergie 20, dure 24 heures) 
+
+Quand la première encoche à pierre ioun est utilisée, la capacité ''porte dimensionnelle'' ne marche plus. Quand la seconde encoche est utilisée, ''feuille morte'' et ''résistance aux énergies destructrices'' ne sont plus disponibles. Quand la troisième encoche est utilisée, ''lumière du jour'' et ''déblocage'' ne fonctionnent plus.
+(((Création)))
+[[Création dobjets merveilleux|Création d’objets merveilleux]], ''[[déblocage]]'', ''[[feuille morte]]'', ''[[lumière du jour]]'', ''[[porte dimensionnelle]]'',  ''[[résistance aux énergies destructives]]'' ; '''Coût''' 68.000 po
+</div>
+
+
+{s:Reference|Guide de vérité}
+<div class="BD">
+{s:BDTitre|Guide de vérité|{s:RSE}}
+'''Aura''' [[école Divination|Divination]] modérée ; '''NLS''' 7 ; '''Emplacement''' aucun ; '''Prix''' 39.000 po  
+<div style="float:right"; padding: 0 0 10px 0">''[[Guide de vérité|Page de l'objet]]''</div>
+(((Caractéristiques)))
+Ce guide est fait d’or poli et renvoie tellement bien la lumière que, sous un vif éclairage, il ressemble plus à un miroir qu’à un objet métallique. Le ''guide de vérité'' permet à son utilisateur de lancer ''[[zone de vérité]]'' pendant 7 minutes par jour ([[Volonté]] DD  14 pour annuler). Cette durée ne doit pas forcément être continue mais doit se découper en portions d’une minute. Si une créature réussit son [[jds|jet de sauvegarde]] contre le guide, elle est immunisée contre lui pendant 24 heures. Une créature qui rate son jet a droit à un nouveau jet à chaque fois que l’utilisateur du guide réactive son effet. 
+
+Une fois par jour, l’utilisateur peut lancer ''[[détection du mensonge]]'' pendant 7 [[round|rounds]] ([[Volonté]] [[DD]] 16 pour annuler).  Quand le guide de vérité sent qu’une créature raconte volontairement un mensonge, il se met à vibrer légèrement, de manière à ce que son utilisateur soit le seul à le remarquer. 
+(((Création)))
+[[Création dobjets merveilleux|Création d’objets merveilleux]], ''[[détection du mensonge]]'', ''[[lumière]]'', ''[[zone de vérité]]'' ; '''Coût''' 19.500 po
+</div>
+
+
+{s:Reference|Guide des plans}
+<div class="BD">
+{s:BDTitre|Guide des plans|{s:RSE}}
+'''Aura''' [[Abjuration]] modérée ; '''NLS''' 6 ; '''Emplacement''' aucun ; '''Prix''' 18.000 po  
+<div style="float:right"; padding: 0 0 10px 0">''[[Guide des plans|Page de l'objet]]''</div>
+(((Caractéristiques)))
+Ce guide est fait de verre renforcé par magie, ce qui permet d’observer la mécanique complexe de la boussole. Une fois par jour, le propriétaire du guide des plans peut choisir un alignement : Bien, Mal, Loi, Chaos. Ensuite, pendant une heure, le guide crée un ''[[cercle magique]]'' centré sur lui contre l’alignement choisi. Une fois l’alignement choisi, le personnage ne peut plus le changer tant que l’effet ne s’est pas rechargé, c’est-à-dire le lendemain. 
+(((Création)))
+[[Création dobjets merveilleux|Création d’objets merveilleux]], ''[[Cercle magique contre le Bien]]'', ''[[Cercle magique contre le Chaos]]'', ''[[Cercle magique contre le Mal]]'', ''[[Cercle magique contre la Loi]]'', ''[[lumière]]'' ; '''Coût''' 9.000 po
+</div>
+
+
+{s:Reference|Guide du chasseur de primes}
+<div class="BD">
+{s:BDTitre|Guide du chasseur de primes|{s:RSE}}
+'''Aura''' [[école Divination|Divination]] modérée ; '''NLS''' 7 ; '''Emplacement''' aucun ; '''Prix''' 56.000 po  
+<div style="float:right"; padding: 0 0 10px 0">''[[Guide du chasseur de primes|Page de l'objet]]''</div>
+(((Caractéristiques)))
+Le moindre centimètre de ce guide en fer est couvert de gravures en relief d’animaux, de créatures magiques et d’autres êtres fabuleux, créant un véritable labyrinthe de lions, d’aigles, de dragons et d’éléphants. Le ''guide du chasseur de primes'' ressemble à une boussole ordinaire mais n’indique pas le nord. Quand on place une mèche de cheveux ou des poils, une goutte de sang ou quelque autre matière organique provenant d’une créature donnée dans l’emplacement habituellement réservé à la pierre ioun, l’aiguille du guide indique la direction dans laquelle cette créature se trouve, comme s’il était sous l’effet d’un sort de ''[[localisation de créature]]'' d’une portée de 200 mètres de rayon autour de son utilisateur. Cet effet n’a pas de limite de durée, il fonctionne tant qu’un échantillon de la créature se trouve à l’intérieur et que cette créature est à portée. Si la créature n’est pas à portée, l’aiguille tourne lentement dans le sens des aiguilles d’une montre. Comme pour la ''localisation de créature'', l’eau courante et les sorts comme ''[[double illusoire]]'', ''[[antidétection]]'' et ''[[métamorphose]]'' dévient l’effet ou le bloquent. Le guide du chasseur de primes ne peut pas contenir de [[pierre ioun]] et n’offre pas de pouvoirs de [[résonance]].
+(((Création)))
+[[Création dobjets merveilleux|Création d’objets merveilleux]], ''[[lumière]]'', ''[[localisation de créature]]'' ; '''Coût''' 28.000 po
+</div>
+
+
+{s:Reference|Guide du contrebandier}
+<div class="BD">
+{s:BDTitre|Guide du contrebandier|{s:RSE}}
+'''Aura''' [[Invocation]] modérée ; '''NLS''' 9 ; '''Emplacement''' aucun ; '''Prix''' 2.000 po  
+<div style="float:right"; padding: 0 0 10px 0">''[[Guide du contrebandier|Page de l'objet]]''</div>
+(((Caractéristiques)))
+Ce guide usé par le temps n’a pas de caractéristique particulière. Malgré son air ordinaire, il possède une capacité supplémentaire que son propriétaire est généralement le seul à connaître. Quand il prononce le mot de commande, l’intérieur de la boussole se transforme en un petit espace extradimensionnel qui peut contenir jusqu’à 5 kilos de matériaux n’occupant pas plus de 30 décimètres cubes. Ces matériaux doivent pouvoir passer par l’ouverture de 7,5 centimètres de diamètre que forme la face supérieure du guide (par exemple une fiole de verre étroite, des pièces, de petits bijoux, un papier enroulé, etc.). Tant que l’espace extradimensionnel est accessible, les autres fonctions du guide, comme d’éventuels pouvoirs de [[résonance]] de pierre ioun, cessent de fonctionner. Quand l’espace extradimensionnel est caché, le guide du contrebandier émet une faible aura d’évocation, comme un guide ordinaire.
+(((Création)))
+[[Création dobjets merveilleux|Création d’objets merveilleux]], ''[[aura magique]]'', ''[[coffre secret]]'', ''[[lumière]]'' ; '''Coût''' 1.000 po
+</div>
+
+
+{s:Reference|Guide en ébène}
+<div class="BD">
+{s:BDTitre|Guide en ébène|{s:RSE}}
+'''Aura''' [[Évocation]] et [[Transmutation]] faibles  ; '''NLS''' 5 ; '''Emplacement''' aucun ; '''Prix''' 18.000 po  
+<div style="float:right"; padding: 0 0 10px 0">''[[Guide en ébène|Page de l'objet]]''</div>
+(((Caractéristiques)))
+Apprécié des Explorateurs qui s'aventurent dans les lieux sombres et dangereux, l’extérieur de ce guide est construit de panneaux de bois sombre décorés d’ébène. Les panneaux coulissent pour révéler un treillis de platine capable d’accueillir une ou deux pierres ioun. Le guide ébène accorde la vision dans le noir à son porteur avec une portée de 18 m (12 {s:c}) et avec un mot de commande il peut lancer ''[[ténèbres]]'' (comme le sort) une fois par jour, centré sur lui-même. Quand une pierre ioun est insérée dans l’appareil, sa capacité de ''ténèbres'' ne fonctionne plus. Quand une seconde pierre est insérée, la capacité de vision dans le noir ne fonctionne plus. 
+(((Création)))
+[[Création dobjets merveilleux|Création d’objets merveilleux]], Vision dans le noir,  ''[[ténèbres]]'' ; '''Coût''' 9.000 po
+</div>
+
+
+{s:Reference|Guide étincelant}
+<div class="BD">
+{s:BDTitre|Guide étincelant|{s:RSE}}
+'''Aura''' [[école Divination|Divination]] faible ; '''NLS''' 3 ; '''Emplacement''' aucun ; '''Prix''' 2 000 po ; '''Poids''' 500 g  
+<div style="float:right"; padding: 0 0 10px 0">''[[Guide étincelant|Page de l'objet]]''</div>
+(((Caractéristiques)))
+Un ''guide étincelant'' est une boussole en argent poli particulièrement appréciée des membres de la croisade contre le tyran qui murmure. En plus de ses fonctions classiques de ''[[Guide magique|guide]]'' (y compris sa capacité à créer de la lumière), un ''guide étincelant'' peut lancer ''[[détection du Mal]]''. Le cas échéant, l’aiguille de la boussole n’indique plus le nord mais la source de malfaisance la plus proche dans un rayon de dix-huit mètres. Une fois par jour, un ''guide étincelant'' peut également lancer ''[[protection contre le Mal]]'' sur son porteur. Il fonctionne uniquement pour une créature d’alignement Bon. Lorsqu’il est entre les mains d’une créature Mauvaise, l’aiguille se met à tourner de façon frénétique. Lorsqu’il est en possession d’une créature qui n’est ni Bonne ni Mauvaise, l’aiguille semble indécise et n’indique aucune direction particulière, pas même le nord.
+(((Création)))
+[[Création dobjets merveilleux|Création d'objets merveilleux]], ''[[détection du Mal]]'', ''[[lumière]]'', ''[[protection contre le Mal]]'' ; '''Coût''' 1 000 po
+</div>
+
+
+{s:Reference|Guide évanescent}
+<div class="BD">
+{s:BDTitre|Guide évanescent|{s:RSE}}
+'''Aura''' [[Illusion]] faible ; '''NLS''' 5 ; '''Emplacement''' aucun ; '''Prix''' 8 000 po ; '''Poids''' 500 g  
+<div style="float:right"; padding: 0 0 10px 0">''[[Guide évanescent|Page de l'objet]]''</div>
+(((Caractéristiques)))
+Un ''guide évanescent'' est fait d’un boîtier en ivoire plaqué d’or et d’argent. Il rempli les fonctions classiques d’un ''[[Guide magique|guide]]'' (y compris créer de la lumière) et son possesseur peut, par une [[action simple]], appuyer sur un bouton secret pour devenir invisible (comme avec le sort ''[[invisibilité]]'') et le rester tant qu’il se concentre, et ce jusqu’à une durée maximale de cinq minutes par jour. Cette durée n’est pas forcément continue mais doit se découper en portions d’une minute, même si l’utilisateur devient visible, à cause d’une action d’attaque ou par quelque autre évènement, avant que la minute ne soit écoulée.
+(((Création)))
+[[Création dobjets merveilleux|Création d'objets merveilleux]], ''[[invisibilité]]'', ''[[lumière]]'' ; '''Coût''' 4 000 po
+</div>
+
+
+{s:Reference|Guide hypnotique}
+<div class="BD">
+{s:BDTitre|Guide hypnotique|{s:RSE}}
+'''Aura''' [[Illusion]] faible ; '''NLS''' 5 ; '''Emplacement''' aucun ; '''Prix''' 3.000 po  
+<div style="float:right"; padding: 0 0 10px 0">''[[Guide hypnotique|Page de l'objet]]''</div>
+(((Caractéristiques)))
+Ce guide, dont l’enveloppe de nacre est couverte sur toute sa surface de volutes roses et vertes parfaites, est attaché à une chaînette en argent d’une vingtaine de centimètres qui le fait osciller délicatement quand on la tient en l’air. En plus de ses fonctions habituelles (comme l’aptitude à émettre de la lumière), ce guide hypnotique permet d’envoûter, une fois par jour, les créatures faibles d’esprit qui le regardent. Quand on le fait osciller comme un pendule au bout de sa chaînette, il semble changer de couleur comme la lumière joue sur la nacre. Il produit les mêmes effets que ''[[lueurs hypnotiques]]'' ([[Volonté]] DD 13) centrées sur lui mais n’émet pas de lumière visible en dehors des changements de couleur illusoires de son écrin. L’utilisateur du guide est immunisé contre ses effets, tout comme les créatures aveugles. L’utilisateur doit rester statique tant que l’effet est actif : s’il bouge, il se termine immédiatement. L’effet persiste tant qu’il agite le guide au bout de sa chaînette (une [[action simple]]) et deux rounds après qu’il arrête. 
+(((Création)))
+[[Création dobjets merveilleux|Création d’objets merveilleux]], ''[[lumière]]'', ''[[lueurs hypnotiques]]'' ; '''Coût''' 1.500 po
+</div>
+
+
+{s:Reference|Guide infatigable}
+<div class="BD">
+{s:BDTitre|Guide infatigable|{s:RSE}}
+'''Aura''' [[Invocation]] faible ; '''NLS''' 5 ; '''Emplacement''' aucun ; '''Prix''' 5 000 po ; '''Poids''' 500 g  
+<div style="float:right"; padding: 0 0 10px 0">''[[Guide infatigable|Page de l'objet]]''</div>
+(((Caractéristiques)))
+Un ''guide infatigable'' possède un boîtier en cuivre poli dont l’intérieur est plaqué d’argent. En plus de ses fonctions classiques de ''[[Guide magique|guide]]'' (y compris sa capacité à créer de la lumière), le ''guide infatigable'' réduit de moitié les malus de [[Force]] et de [[Dextérité]] liés à la [[fatigué|fatigue]] ou à l’[[épuisé|épuisement]]. De plus, son porteur gagne un bonus de résistance de +2 aux [[jds|jets de sauvegarde]] effectués contre les effets qui provoquent fatigue et épuisement. Le ''guide infatigable'' doit être en possession d’une créature pendant au moins une semaine avant que ces avantages ne s’appliquent. Ils disparaissent si la créature n’est plus en possession de l’objet pendant plus d’une heure.
+(((Création)))
+[[Création dobjets merveilleux|Création d'objets merveilleux]], ''[[lumière]]'', ''[[restauration partielle]]'' ; '''Coût''' 2 500 po
+</div>
+
+{s:Reference|Guide magique}
+<div class="BD">
+{s:BDTitre|Guide magique|{s:CCMI}{s:RSE}}
+'''Aura''' [[Évocation]] faible ; '''NLS''' 5 ; '''Emplacement''' aucun ; '''Prix''' 500 po ; '''Poids''' 0,5 kg  
+<div style="float:right"; padding: 0 0 10px 0">''[[Guide magique|Page de l'objet]]''</div>
+(((Description)))
+Petit objet magique reconstruit à partir d’anciennes reliques, un guide est habituellement fait d’argent nuancé d’or. Par un mot de commande, vous pouvez lancer le sort ''[[lumière]]'' pour le faire briller. Le guide agit aussi comme une boussole (magnétique) non magique, qui accorde un bonus de circonstance de +2 aux tests de [[Survie]] pour éviter de se perdre. 
+
+En plus de leurs propriétés habituelles, les ''guides'' entretiennent une mystérieuse synergie avec les pierres iouns. Quand on insère une [[pierre ioun]] dans l’emplacement spécial d’un guide, non seulement le propriétaire de la boussole bénéficie des mêmes effets que si la pierre était en orbite autour de sa tête mais, en plus, la [[Pouvoirs résonants|résonance]] entre les deux objets déclenche généralement un autre pouvoir.
+(((Fabrication)))
+'''Conditions''' [[Création dobjets merveilleux|Création d’objets merveilleux]], ''[[lumière]]''  ; '''Coût''' 250 po
+</div>
+
+
+{s:Reference|Guide révélateur}
+<div class="BD">
+{s:BDTitre|Guide révélateur|{s:RSE}}
+'''Aura''' [[école Divination|Divination]] et [[Évocation]] faibles ; '''NLS''' 6 ; '''Emplacement''' aucun ; '''Prix''' 8 000 po ; '''Poids''' 500 g  
+<div style="float:right"; padding: 0 0 10px 0">''[[Guide révélateur|Page de l'objet]]''</div>
+(((Caractéristiques)))
+Un ''guide révélateur'' est un peu plus travaillé que les guides ordinaires, et possède un boîtier en argent rehaussé d’or. La lumière émise par un ''guide révélateur'' illumine une zone deux fois plus grande que celle émise par un sort normal de lumière. Une fois par jour et par une [[action simple]], lorsqu’un ''guide révélateur'' émet de la lumière, son possesseur peut également créer dans la zone éclairée de douze mètres de rayon un effet de ''[[négation de linvisibilité|négation de l’invisibilité]]'' (comme le sort du même nom). Cet effet facilite également la recherche de passages secrets et de compartiments cachés. Les personnages qui cherchent ce genre de passages ou de structures à l’intérieur de la zone affectée gagnent un bonus de +10 à leurs tests de [[Perception]]. Cet effet, une fois activé, reste en en place pendant six [[round|rounds]].
+(((Création)))
+[[Création dobjets merveilleux|Création d'objets merveilleux]], ''[[détection des passages secrets]]'', ''[[négation de linvisibilité|négation de l’invisibilité]]'', ''[[lumière]]'' ; '''Coût''' 4 000 po
+</div>
+
+
+</td><td>
 {s:Reference|Harpe de Contagion}
 <div class="BD">
 {s:BDTitre|Harpe de Contagion|{s:AE}}
@@ -2862,7 +3274,6 @@ Lorsque la dernière charge est utilisée, la magie de la harpe disparaît et el
 </div>
 
 
-</td><td>
 {s:Reference|Havresac du Mage}
 <div class="BD">
 {s:BDTitre|Havresac du Mage|{s:AE}}
@@ -2920,6 +3331,20 @@ Cette médaille métallique gravée d’un griffon, d’un lion, d’un cheval o
 Lorsque ce morceau de cuir vierge est cousu sur l’armure ou sur les vêtements d’un invocateur, une image estompée de sa rune apparaît à sa surface. L’invocateur peut emmagasiner des charges dans l’insigne en dépensant des emplacements de sorts d’invocateur. L’insigne emmagasine un nombre de charges égal au niveau de l’emplacement de sort dépensé (5 charges maximum). L’ajout de charges dans l’insigne est une [[action simple]] (quel que soit le niveau de sort dépensé). Lorsque l’invocateur utilise son aptitude de lien vital, au lieu de sacrifier ses propres points de vie, il peut dépenser les charges de l’insigne pour soigner son eidolon de 1d6 points de vie par charge. L’invocateur n’a pas besoin de décider combien de charges il souhaite utiliser au préalable (il peut dépenser une charge, effectuer le jet et décider s’il souhaite ou non en dépenser davantage). Toutes les charges de l’insigne disparaissent lorsque l’invocateur prépare ses sorts après s’être reposé. 
 (((Création)))
 [[Création dobjets merveilleux|Création d’objets merveilleux]], ''[[Régénération deidolon|régénération d’eidolon]]''  ; '''Prix''' : 3.000 po
+</div>
+
+
+{s:Reference|Issue surnaturelle}
+<div class="BD">
+{s:BDTitre|Issue surnaturelle|{s:RSE}}
+'''Aura''' [[Transmutation]] modérée ; '''NLS''' 9 ; '''Prix''' 10.000 po ; '''Poids''' 2 kg   
+<div style="float:right"; padding: 0 0 10px 0">''[[Issue surnaturelle|Page de l'objet]]''</div>
+(((Caractéristiques)))
+Cet assemblage savamment conçu de lattes de bois se déplie et s’emboîte pour former une armature de 1 m sur 1 m. Une fois par jour vous pouvez poser l’armature dépliée contre une surface solide pour former un passage d’une profondeur maximale de 3 m (2 {s:c}), comme si vous utilisiez un sort de ''[[passe-muraille]]''.
+
+Le passage dure 1 heure à moins que l’armature ne soit retirée avant. Plier ou déplier l’armature est une [[action complexe]] qui provoque des [[AO|attaques d’opportunité]]. Utiliser l’armature dépliée pour créer un passage est une [[action simple]]. Des créatures de taille M ou plus petites peuvent aisément traverser le tunnel, tandis que des créatures de taille G doivent réussir un test d’[[Évasion]]. L’issue surnaturelle ne peut être retirée que depuis l’extérieur de la surface sur laquelle elle a été posée, aussi une planification minutieuse est-elle nécessaire quand on l’utilise. 
+(((Création)))
+[[Création dobjets merveilleux|Création d’objets merveilleux]], ''[[passe-muraille]]'' ; '''Coût''' 5.000 po
 </div>
 
 
@@ -3228,6 +3653,19 @@ Ce marque-page modifie le livre dans lequel il est inséré pour que celui-ci pr
 </div>
 
 
+{s:Reference|Merveilleux divan de lempereur fou}
+<div class="BD">
+{s:BDTitre|Merveilleux divan de l’empereur fou|{s:RSE}}
+'''Aura''' [[Invocation]] et [[Transmutation]] modérées ; '''NLS''' 11 ; '''Emplacement''' aucun ; '''Prix''' 66 000 po ; '''Poids''' 50 kg  
+<div style="float:right"; padding: 0 0 10px 0">''[[Merveilleux divan de lempereur Fortigré|Page de l'objet]]''</div>
+(((Caractéristiques)))
+__'''''Contenu issu d'un supplément 3.5'''''__  
+Ce divan luxueux, doté d’un revêtement de feutrine rouge rehaussé d’entrelacs d’or, est fabriqué dans du noirbois extrêmement ciré et brillant. On comprend comment l’activer dès que l’on s’allonge dessus. Créé pour l’empereur fou de l'Empire décadent, le ''merveilleux divan'' possède plusieurs pouvoirs. Lorsqu’on s’assoit, qu’on s’allonge ou que l’on monte dessus, le divan peut se mettre à marcher comme un animal à quatre pattes à une vitesse de 9 mètres. Il peut également créer jusqu’à 8 litres d’eau par jour, protéger son propriétaire à l’aide des sorts d’''[[endurance aux énergies destructives]]'', de ''[[sort Vol|vol]]'' ou de ''[[téléportation]]'' (une fois par jour chacun). Le premier ''merveilleux divan'' se trouve actuellement dans le palais de l'Empire décadent mais quelques modèles supplémentaires de cet objet ont été également créé au cours des siècles et beaucoup de riches nobles possèdent des versions inférieures qui peuvent uniquement marcher et ne possèdent aucun autre pouvoir.
+(((Création)))
+[[Création dobjets merveilleux|Création d'objets merveilleux]], ''[[animation dobjets|animation d’objets]]'', ''[[création deau|création d’eau]]'', ''[[endurance aux énergies destructives]]'', ''[[sort Vol|vol]]'', ''[[téléportation]]'', le créateur doit posséder 5 rangs au moins en [[Artisanat]] (travail du bois) ; '''Coût''' 33 000 po (modèle original), 20 000 po (modèle inférieur)
+</div>
+
+
 {s:Reference|Miroir aux esprits}
 <div class="BD">
 {s:BDTitre|Miroir aux esprits|{s:AO}}
@@ -3318,6 +3756,18 @@ Ce miroir de cristal se présente le plus souvent sous la forme d’un carré de
 Cet objet ressemble à un miroir normal, de 1,20 mètre de long sur un petit mètre de large. Il est fait pour être fixé ou posé contre un mur et s’active à l’aide d’un mot de commande (le même que pour le désactiver). Dès qu’une créature voit son reflet dans le miroir, son double se matérialise immédiatement et l’attaque. Le double a les mêmes possessions que l’original (et la même magie). À la mort de l’un des deux adversaires, le double disparaît, ainsi que tout son équipement. Le miroir fonctionne jusqu’à quatre fois par jour. Si quelqu’un détruit le miroir (solidité 1, 5 points de résistance) tous les doubles disparaissent immédiatement. 
 (((Création)))
 [[Création dobjets merveilleux|Création d’objets merveilleux]], clone  ; '''Prix''' : 46.000 po
+</div>
+
+
+{s:Reference|Monnaie dExplorateur}
+<div class="BD">
+{s:BDTitre|Monnaie d’Explorateur|{s:RSE}}
+'''Aura''' [[école Divination|Divination]] faible ; '''NLS''' 3 ; '''Emplacement''' aucun ; '''Prix''' 1 500 po ; '''Poids''' -  
+<div style="float:right"; padding: 0 0 10px 0">''[[Monnaie dÉclaireur|Page de l'objet]]''</div>
+(((Caractéristiques)))
+Cette pièce d’apparence ordinaire ressemble à une monnaie ancienne et contient des fils d’or et de platine soigneusement tissés. La matrice, fondue avec attention d’après les fragments de pièce autrefois en vigueur dans l'Empire des premiers hommes, permet à la ''monnaie d’Explorateur'' de s’élever de quelques centimètres dans les airs et de tournoyer ensuite lentement sur place lorsqu’elle est positionnée au-dessus d’un ''[[Guide magique|guide]]''. Le cas échéant, la monnaie peut être le réceptacle d’un message de vingt-cinq mots ou moins. Ce message reproduit la voix de son auteur dès que la pièce est placée en lévitation au-dessus d’un guide. Elle ne contient qu’un seul message à la fois. Il disparaît une fois transmis et la pièce peut alors servir à en enregistrer un nouveau.
+(((Création)))
+[[Création dobjets merveilleux|Création d'objets merveilleux]], ''[[identification]]'', ''[[lévitation]]'', ''[[bouche magique]]'' ; '''Coût''' 750 po
 </div>
 
 
@@ -3562,6 +4012,30 @@ Ces outils de cambrioleur en mithral de qualité supérieure peuvent travailler 
 </div>
 
 
+{s:Reference|Parchemin ailé à scandale}
+<div class="BD">
+{s:BDTitre|Parchemin ailé à scandale|{s:RSE}}
+'''Aura''' [[Transmutation]] faible ; '''NLS''' 1 ; '''Emplacement''' aucun ; '''Prix''' 100 po ; '''Poids''' —  
+<div style="float:right"; padding: 0 0 10px 0">''[[Parchemin ailé à scandale|Page de l'objet]]''</div>
+(((Caractéristiques)))
+Les conspirateurs nobles aiment utiliser des ''parchemin ailé à scandale'' pour propager des rumeurs chez leurs ennemis. Cet objet ressemble à une petite feuille ordinaire de parchemin roulée. Son propriétaire peut dérouler la feuille et y enregistrer un mot de 25 mots maximum. Une fois qu'un message y est enregistré, le personnage peut lancer le parchemin en l’air, ce qui l’anime : il se met à tournoyer au-dessus de la tête du personnage pendant 10 minutes, en volant à l’aide d’une petite paire d’ailes de plumes et en répétant d’une voie puissante, mais néanmoins ennuyeuse et quelconque, le message inscrit sur la feuille. Sinon, le personnage peut enrouler le parchemin après avoir rédigé son message et ce sera la prochaine personne qui le déroulera qui déclenchera son animation. Au bout de 10 minutes, le parchemin ailé à scandale disparaît dans une pluie d’étincelles.
+(((Création)))
+[[Création dobjets merveilleux|Création d'objets merveilleux]], ''[[animation dobjets|animation d’objets]]'', ''[[bouche magique]]'' ; '''Coût''' 50 po
+</div>
+
+
+{s:Reference|Parchemin de pacte}
+<div class="BD">
+{s:BDTitre|Parchemin de pacte|{s:RSE}}
+'''Aura''' [[Enchantement]] modérée ; '''NLS''' 11 ; '''Emplacement''' aucun ; '''Prix''' 3 500 po ; '''Poids''' —  
+<div style="float:right"; padding: 0 0 10px 0">''[[Parchemin de pacte|Page de l'objet]]''</div>
+(((Caractéristiques)))
+Écrit et signé dans le sang, les parchemins de pacte garantissent l’exécution complète et indéniable des actions citées. Sur un ''parchemin de pacte'', le personnage peut rédiger un contrat, définissant un certain service à fournir ou une certaine conduite à tenir, pour une ou plusieurs créatures. Si toutes les créatures indiquées signent ce pacte de leur plein gré (sans influence magique, sans menace, etc.) avec leur sang, elles sont alors contraintes d’honorer cet accord. Dès lors, quiconque rompt le pacte souffre d’un malus de -4 à ses [[jet dattaque|jets d’attaque]], à ses [[jds|jets de sauvegarde]], à ses tests de [[Caractéristiques|caractéristique]] et à ses tests de [[Compétences|compétence]] tant qu’il n’a pas satisfait aux conditions du pacte (si c’est encore possible) ou que le parchemin n’a pas été détruit.
+(((Création)))
+[[Création dobjets merveilleux|Création d'objets merveilleux]], ''[[quête]]'' ; '''Coût''' 1 750 po
+</div>
+
+
 {s:Reference|Peinture de Guerre du Terrible Visage}
 <div class="BD">
 {s:BDTitre|Peinture de Guerre du Terrible Visage|{s:AE}}
@@ -3725,18 +4199,6 @@ Ce morceau de roche blanchâtre de la taille d’un poing semble trop gros pour 
 </div>
 
 
-{s:Reference|Pierre Ioun}
-<div class="BD">
-{s:BDTitre|Pierre Ioun|{s:AE}}
-'''Aura''' Multiples modérées ; '''NLS''' 12 ; '''Emplacement''' aucun ; '''Prix''' variable ; '''Poids''' —   
-<div style="float:right"; padding: 0 0 10px 0">''[[Pierre Ioun|Page de l'objet]]''</div>
-(((Description)))
-Ces pierres cristallines flottent toujours dans les airs. Pour fonctionner, elles doivent se trouver à moins d’un mètre de leur propriétaire. Quand un personnage trouve une pierre, il doit la serrer dans sa main quelques instants puis la relâcher : la pierre se met alors à tourner autour de sa tête, en décrivant une orbite dont le rayon est égal à 1d3 × 30 cm. Par la suite, il faut attraper la pierre pour la séparer de son propriétaire. Ce dernier peut la ranger quand il le souhaite (pour la mettre en sécurité pendant qu’il dort, par exemple), mais il perd alors les avantages qu’elle lui offrait. Une pierre ioun a une CA de 24, 10 points de vie et une solidité de 5. Le pouvoir de chaque pierre varie selon sa couleur et sa forme (voir la table p. 312). La ''[[régénération]]'' prodiguée par une pierre ioun d’un blanc laiteux fonctionne comme celle d’un anneau de ''[[régénération]]''. Elle soigne uniquement les points de vie perdus alors qu’elle était activée. Celles qui sont lavande ou vert et lavande ont le même effet qu’un sceptre d’absorption, en dehors du fait qu’elles ne peuvent absorber des sorts que si le personnage a préparé son action et que l’énergie absorbée n’est jamais réutilisable. Les sorts stockés dans les pierres violet vif doivent être lancés dans la pierre par un lanceur de sorts, après quoi ils peuvent être utilisés par n’importe qui (voir le fonctionnement de l’anneau à stockage de sorts). consultez la table de la page suivante. 
-(((Création)))
-[[Création dobjets merveilleux|Création d’objets merveilleux]], le créateur doit être de niveau 12  ; '''Prix''' : variable
-</div>
-
-
 {s:Reference|Pierre Porte-bonheur}
 <div class="BD">
 {s:BDTitre|Pierre Porte-bonheur|{s:AE}}
@@ -3758,6 +4220,18 @@ Cette petite agate donne à son propriétaire un bonus de chance de +1 aux jets 
 Cette pierre déchiquetée de la forme d’un œuf émet une faible lueur rougeâtre lorsqu’elle n’est pas directement exposée à la lumière du soleil. Par une [[action complexe]] et en frottant la ''pierre réparatrice'' contre une créature artificielle ou un objet endommagés (mais non détruits), le personnage peut réparer 1d6 points de dégâts subis par l’objet ou la [[type créature artificielle|créature artificielle]] visés. Si cette réparation amène le niveau de points de vie de l’objet endommagé au-dessus de la moitié de son nombre de points de vie maximum, il n’est plus considéré comme [[brisé]]. Par une [[action simple]], le personnage peut écraser une ''pierre réparatrice'' contre un objet détruit ou une créature artificielle endommagée. Ce faisant, il répare intégralement l’objet ou soigne 10d6 points de dégâts subis par la créature artificielle endommagée. Les objets magiques détruits peuvent être réparés de cette façon si leur [[NLS|niveau de lanceur de sorts]] est inférieur à 4 ; les objets magiques détruits et plus puissants ne peuvent pas être réparés à l’aide d’une ''pierre réparatrice''. Une ''pierre réparatrice'' nouvellement créée contient 50 charges ; écraser une pierre contre un objet dépense 10 charges.
 (((Création)))
 '''Conditions''' [[Création dobjets merveilleux|Création d'objets merveilleux]], ''[[réparation]]'' ; '''Coût''' 1 000 po
+</div>
+
+
+{s:Reference|Pierre solidifiante}
+<div class="BD">
+{s:BDTitre|Pierre solidifiante|{s:RSE}}
+'''Aura''' [[Évocation]] modérée ; '''NLS''' 7 ; '''Emplacement''' aucun ; '''Prix''' 1 000 po ; '''Poids''' -  
+<div style="float:right"; padding: 0 0 10px 0">''[[Pierre solidifiante|Page de l'objet]]''</div>
+(((Caractéristiques)))
+Cette pierre semi-précieuse adhère sur commande à un objet qui ne pèse pas plus de cinquante kilogrammes. Tant qu’elle demeure fixée, la pierre augmente la [[solidité]] et le [[DD]] pour briser l’objet de 5 et ses [[points de résistance]] de 20. Ces points de résistance sont appliqués comme des points de vie temporaires et sont retirés en premier lorsque l’objet protégé par la pierre est endommagé. La pierre est détruite dès que ces points de résistance tombent à 0. Toutefois, à la différence des points de vie temporaires, ces points de résistance sont complètement restaurés si l’on parvient à réparer la ''pierre solidifiante'' grâce à un seul sort de ''[[réparation intégrale]]''. Tout effet qui brise ou détruit l’objet protégé détruit également toutes les ''pierres solidifiantes'' fixées dessus.
+(((Création)))
+[[Création dobjets merveilleux|Création d'objets merveilleux]], ''[[peau de pierre]]'' ; '''Coût''' 500 po
 </div>
 
 
@@ -4089,6 +4563,19 @@ Une créature extraplanaire de l’alignement correspondant appelée ou convoqu�
 </div>
 
 
+{s:Reference|Poudrier de charme}
+<div class="BD">
+{s:BDTitre|Poudrier de charme|{s:RSE}}
+'''Aura''' [[Illusion]] faible ; '''NLS''' 1 ; '''Emplacement''' aucun ; '''Prix''' 1 500 po ; '''Poids''' —  
+<div style="float:right"; padding: 0 0 10px 0">''[[Poudrier de charme|Page de l'objet]]''</div>
+(((Caractéristiques)))
+__'''''Contenu issu d'un supplément 3.5'''''__  
+Ce petit poudrier de cuir ciré contient un miroir, de la poudre pour le visage, du fard et une houppette. Lorsque l’on utilise la houppette en prononçant le mot de commande, il est possible de modifier son apparence (comme avec le sort de ''[[déguisement]]'') une fois par jour. De plus, le personnage bénéficie d’un bonus de compétence de +2 aux tests de [[Diplomatie]] pour rassembler des informations.
+(((Création)))
+[[Création dobjets merveilleux|Création d'objets merveilleux]], ''[[déguisement]]'', le créateur doit posséder 5 rangs au moins en [[Diplomatie]] ; '''Coût''' 750 po
+</div>
+
+
 {s:Reference|Poupée Anatomique}
 <div class="BD">
 {s:BDTitre|Poupée Anatomique|{s:AE}}
@@ -4149,7 +4636,7 @@ Cette poupée à l’aspect sinistre est composée d’un patchwork de chiffons 
 {s:Reference|Poussière de lassassin}
 <div class="BD">
 {s:BDTitre|Poussière de l’assassin|{s:MCA}}
-'''Aura''' [[Transmutation]] faible ; '''NLS''' 5 ; '''Emplacement''' aucun ; '''Prix''' 7 500 po ; '''Poids''' —   
+'''Aura''' [[Transmutation]] faible ; '''NLS''' 5 ; '''Emplacement''' aucun ; '''Prix''' 750 po ; '''Poids''' —   
 <div style="float:right"; padding: 0 0 10px 0">''[[Poussière de lassassin|Page de l'objet]]''</div>
 (((Description)))
 Lorsqu’elle entre en contact avec la peau, cette fine poussière provoque des brûlures et des fourmillements. Quand on en saupoudre un cadavre ou un squelette inanimé, elle désintègre la chair morte et les os, les transformant en une fine poudre brune semblable à celle que laisse un sort de désintégration. La ''poussière de l’assassin'' se présente sous forme d’une petite fiole pouvant traiter huit cadavres de taille P, quatre cadavres de taille M ou un cadavre de taille G. Un squelette compte comme un demi-cadavre de sa taille. Cette poussière n’a aucun effet sur les créatures vivantes et mortes-vivantes.
@@ -4187,7 +4674,7 @@ Cette poussière se présente dans des sacs criards mais n’est qu’une simple
 <div class="BD">
 {s:BDTitre|Poussière d’Émulation|{s:AE}}
 '''Aura''' [[Présentation des sorts#ILLUSION|Illusion]] faible ; '''NLS''' 1 ; '''Emplacement''' aucun ; '''Prix''' 800 po ; '''Poids''' —   
-<div style="float:right"; padding: 0 0 10px 0">''[[Poussière dÉmulation|Page de l'objet]]''</div>
+<div style="float:right"; padding: 0 0 10px 0">''[[Poussière démulation|Page de l'objet]]''</div>
 (((Description)))
 Toute créature enduite de cette poudre dorée peut interagir avec un objet magique comme si elle avait utilisé la compétence [[Utilisation dobjet magique|Utilisation d’objets magiques]] avec succès pour se faire passer pour un membre d’une race ou d’une classe donnée (si le résultat exact a de l’importance, considérez que le personnage a obtenu un résultat de 25). Si le personnage n’a pas mentalement choisi l’objet qu’il souhaite manipuler au moment où il s’enduit de poussière, la magie s’applique au premier objet magique qu’il rencontre. Il peut appliquer le résultat de ce test automatique quand il interagit avec l’objet pendant 1 heure après s’être enduit de poussière. 
 (((Création)))
@@ -4408,6 +4895,18 @@ Les animaux tirés du sac sont toujours déterminés aléatoirement. Il est impo
 </div>
 
 
+{s:Reference|Sacoche du voleur de livres}
+<div class="BD">
+{s:BDTitre|Sacoche du voleur de livres|{s:RSE}}
+'''Aura''' [[Invocation]] et [[Divination]] modérées ; '''NLS''' 9 ; '''Emplacement''' aucun ; '''Prix''' 10.000 po ; '''Poids''' 1 kg  
+<div style="float:right"; padding: 0 0 10px 0">''[[Sacoche du voleur de livres|Page de l'objet]]''</div>
+(((Caractéristiques)))
+La ''sacoche du voleur de livres'' sert aux espions et aux spécialistes des textes occultes. Elle leur permet de voler des textes importants sans en alerter le propriétaire et peut contenir un ouvrage de 1 000 pages au maximum, qui ne fait pas plus de trente centimètres par quarante-cinq. Avant d’utiliser la sacoche, il faut y placer un livre vierge et prononcer un mot de commande. Le livre est alors stocké dans un espace extradimensionnel uniquement accessible avec le mot de commande. (Un journal vierge ordinaire de 50 pages coûte 10 po.) Une fois par jour, quand on place un autre livre, livret, parchemin ou texte dans la sacoche alors qu’il y a déjà un ouvrage vierge dans l’espace extradimensionnel, les pages du dernier livre placé se vident de toute écriture (bien que la couverture et la reliure restent intactes). Tout le contenu du livre ou du parchemin est transféré sur les pages blanches du livre déjà présent dans l’espace extradimensionnel. Le transfert prend un [[round]] entier et, si le processus est interrompu (par exemple, si quelqu’un retire un des livres ou si la sacoche est fortement abîmée), le texte en cours de copie est perdu à jamais. Si le livre vierge est plus petit que le livre copié (en nombre de pages pour un livre, en centimètres pour un parchemin), la sacoche ne transfère pas le contenu, qui est définitivement perdu. La sacoche du voleur de livre ne transfère pas les écrits magiques (comme le contenu d’un grimoire de magicien, d’un parchemin magique ou d’un objet merveilleux). Toute tentative de ce genre se solde par un échec immédiat : les pages à copier ne sont ni effacées ni reproduites sur le livre vierge.
+(((Création)))
+[[Création dobjets merveilleux|Création d’objets merveilleux]], ''[[coffre secret]]'', ''[[vol de livre]]'' ; '''Coût''' 5.000 po
+</div>
+
+
 {s:Reference|Sang de Prouesse Physique}
 <div class="BD">
 {s:BDTitre|Sang de Prouesse Physique|{s:AE}}
@@ -4432,6 +4931,18 @@ Ce petit morceau de savon gris et rugueux contient plein de petits bouts de cend
 </div>
 
 
+{s:Reference|Scarabée du dieu des travailleurs}
+<div class="BD">
+{s:BDTitre|Scarabée du dieu des travailleurs|{s:RSE}}
+'''Aura''' [[Invocation]] faible ; '''NLS''' 5 ; '''Emplacement''' aucun ; '''Prix''' 7 800 po ; '''Poids''' —  
+<div style="float:right"; padding: 0 0 10px 0">''[[Scarabée de Khépri|Page de l'objet]]''</div>
+(((Caractéristiques)))
+Cette petite statuette bleue est sculptée à l’effigie d'un scarabée bousier, l'animal sacré du dieu de la liberté, du soleil levant et du travail dans l'ancienne Terre des pharaons. Quand un personnage est en possession de cet objet, il peut, une fois par jour, communiquer avec la vermine comme s’il utilisait ''[[communication avec les animaux]]'' mais les informations qu’elle lui donne sont très limitées. Si le personnage possède la capacité de classe [[Druide#EMPATHIESAUVAGE|empathie sauvage]], il peut s’en servir sur la vermine comme sur les animaux. Il peut, une fois par jour, utiliser le scarabée pour lancer ''[[nuée grouillante]]'' et invoquer des scarabées bousiers (comme une [[Nuée daraignées|nuée d’araignées]], mais ils infligent la [[Maladie#FIEVREDESMARRAIS|fièvre des marais]] au lieu d’empoisonner leur cible.
+(((Création)))
+[[Création dobjets merveilleux|Création d’objets merveilleux]], [[Coeur de vermine]], ''[[communication avec les animaux]]'', ''[[nuée grouillante]]'' ; '''Coût''' 3 900 po
+</div>
+
+
 {s:Reference|Scellé de Trésorier}
 <div class="BD">
 {s:BDTitre|Scellé de Trésorier|{s:AE}}
@@ -4441,6 +4952,18 @@ Ce petit morceau de savon gris et rugueux contient plein de petits bouts de cend
 Une face de ce scellé en porcelaine de 15 cm de diamètre est ornée d’un cadenas doté de multiples serrures. L’autre face montre un ''[[Éclair|éclair]]'' sur une main ouverte. La face représentant le cadenas est utilisée pour verrouiller et poser une ''[[alarme]]'' sur des portes, des coffres et autres ''[[portail]]''s. Son possesseur peut prononcer le mot de commande pour l’activer et le presser contre un objet pouvant être verrouillé. Si la face représentant le cadenas touche l’objet, le scellé pose une ''[[alarme]]'' (de type mental) et un ''[[verrou du mage]]'' sur celui-ci. Si la face représentant l’''[[Éclair|éclair]]'' touche l’objet, le scellé pose un ''[[piège à feu]]'' sur la serrure (le scellé doit être pressé pendant 10 minutes contre la serrure pour que cette capacité puisse fonctionner). Une créature qui porte un scellé de trésorier peut prononcer le mot de commande pour suspendre ses effets activés sur un objet pendant 1 minute. Cette capacité est utilisable à volonté mais fonctionne uniquement sur les effets qu’il a lui-même crées. Le scellé peut être utilisé à volonté mais sur un maximum de trois objets en même temps. S’il est utilisé sur un quatrième objet, l’effet le plus ancien est automatiquement annulé. 
 (((Création)))
 [[Création dobjets merveilleux|Création d’objets merveilleux]], ''[[alarme]]'', ''[[verrou du mage]]'', ''[[piège à feu]]''  ; '''Prix''' : 5.000 po
+</div>
+
+
+{s:Reference|Secrétaire escamotable}
+<div class="BD">
+{s:BDTitre|Secrétaire escamotable|{s:RSE}}
+'''Aura''' [[Évocation]] faible ; '''NLS''' 5 ; '''Emplacement''' aucun ; '''Prix''' 5 400 po ; '''Poids''' 1 kg  
+<div style="float:right"; padding: 0 0 10px 0">''[[Secrétaire escamotable|Page de l'objet]]''</div>
+(((Caractéristiques)))
+Les Explorateurs sont souvent amenés à prendre des notes durant leurs aventures, mais rencontrent parfois des difficultés à trouver un endroit confortable pour ce faire. Le ''secrétaire escamotable'' tente de satisfaire à ce besoin. Il peut être plié pour former un cube de bois laqué de 7,5 centimètres d’arête, ce qui facilite son transport. Une fois par jour, un unique mot de commande provoque le dépliage de ce cube de bois qui prend en un [[round]] la forme d’un secrétaire ouvragé adapté à un utilisateur de taille M ou P. Il contient quatre fioles d’encre, deux plumes à encre et cinquante feuilles de papier vierge. Le secrétaire se ravitaille de lui-même en encre, plumes et papier à chaque fois qu’il est déplié. Une fois déplié, un hémisphère de six mètres de rayon se forme autour du secrétaire ; cet effet est identique à celui généré par le sort d’''[[abri]]''. Une fois activé, l’effet d’abri du secrétaire reste en place pendant dix heures ou jusqu’à ce que l’objet soit replié ou déplacé de plus de quelques dizaines de centimètres. Bien entendu, l’effet est également utile pour fournir un emplacement idéal où installer le campement et la plupart des groupes d’aventuriers possèdent un secrétaire escamotable pour bénéficier de ce seul effet.
+(((Création)))
+[[Création dobjets merveilleux|Création d'objets merveilleux]], ''[[réduction dobjet|réduction d’objet]]'', ''[[abri]]'' ; '''Coût''' 2 700 po
 </div>
 
 
@@ -4641,11 +5164,24 @@ Ce bloc de métal ordinaire ne possède aucun pouvoir particulier sous cette for
 <div class="BD">
 {s:BDTitre|Talisman d’Animosité|{s:AE}}
 '''Aura''' [[Présentation des sorts#TRANSMUTATION|Transmutation]] faible ; '''NLS''' 5 ; '''Emplacement''' aucun ; '''Prix''' 40 000 po ; '''Poids''' 0,5 kg   
-<div style="float:right"; padding: 0 0 10px 0">''[[Talisman d'Animosit|Page de l'objet]]''</div>
+<div style="float:right"; padding: 0 0 10px 0">''[[Talisman d’Animosité|Page de l'objet]]''</div>
 (((Description)))
 Ce petit talisman est composé de dents, de doigts, d’oreilles ou de divers trophées macabres prélevés sur des cadavres frais. Chaque talisman est imprégné d’une intense animosité envers un type spécifique de créatures, choisi dans la liste des ennemis jurés du [[rôdeur]] lors de sa ''[[fabrication]]''. Une fois par jour, le talisman peut transférer son animosité à un [[rôdeur]] (ou un personnage qui possède l’aptitude de classe d’ennemi juré), en remplaçant l’un de ses ennemis jurés par le type de créatures qui lui est associé. L’effet dure 24 heures. Pour activer le fétiche, le [[rôdeur]] doit le tenir en main pendant 10 minutes, au calme. Il sélectionne ensuite l’un de ses ennemis jurés et le remplace par celui du talisman. Par exemple, un [[rôdeur]] avec un bonus d’ennemi juré de +6 contre les orques peut utiliser un talisman d’animosité envers les dragons pour bénéficier d’un bonus d’ennemi juré de +6 contre ces créatures, ce qui lui fait perdre le bonus contre les orques, et ce pendant 24 heures. Sinon, une fois par jour, le porteur peut activer le talisman par une [[action rapide]], mais l’effet dure 10 minutes et le porteur gagne la moitié de son bonus d’ennemi juré seulement (par exemple, le [[rôdeur]] pourrait décider de remplacer son bonus contre les orques pour gagner un bonus d’ennemi juré de +3 seulement contre les dragons pendant 10 minutes). 
 (((Création)))
 [[Création dobjets merveilleux|Création d’objets merveilleux]], ''[[ennemi du moment]]'', le créateur doit posséder l’aptitude de classe ennemi juré  ; '''Prix''' : 20.000 po
+</div>
+
+
+{s:Reference|Talisman de convocation de destrier}
+<div class="BD">
+{s:BDTitre|Talisman de convocation de destrier|{s:RSE}}
+'''Aura''' [[Invocation]] faible ; '''NLS''' 1 ; '''Emplacement''' aucun ; '''Prix''' 3 600 po ; '''Poids''' –  
+<div style="float:right"; padding: 0 0 10px 0">''[[Talisman de convocation de destrier|Page de l'objet]]''</div>
+(((Caractéristiques)))
+__'''''Contenu issu d'un supplément 3.5'''''__  
+Gravé de rainures sinueuses, ce talisman en onyx représente un majestueux étalon noir portant un petit bout de ficelle en guise de bride. Lorsqu’on prononce le mot de commande, le talisman se transforme en un [[Animaux, montures et leur équipement#Cheval|cheval léger]] sellé, en parfaite santé et prêt à servir son propriétaire. Le talisman reprend sa forme d’origine si le mot de commande est prononcé une nouvelle fois. Si le cheval se fait tuer, il reprend également sa forme de talisman et ne peut plus être activé pendant 24 heures. Chaque talisman est d’une couleur particulière (noir, alezan, gris, pie, etc.) et porte des marques (liste, pelote, balzane chaussée, etc.) choisis lors de la fabrication de l’objet.
+(((Création)))
+[[Création dobjets merveilleux|Création d'objets merveilleux]], ''[[monture]]'', le créateur doit posséder 5 rangs au moins en [[Équitation]] ; '''Coût''' 1 800 po
 </div>
 
 
@@ -4767,7 +5303,7 @@ Cette torche est fabriquée à l’aide de bois jaune pâle gravé de runes sacr
 '''Aura''' Universelle puissante ; '''NLS''' 12 ; '''Emplacement''' aucun ; '''Prix''' 75 po ; '''Poids''' —   
 <div style="float:right"; padding: 0 0 10px 0">''[[Torche Ioun|Page de l'objet]]''</div>
 (((Description)))
-Cet objet n’est rien de plus qu’une pierre ioun épuisée d’un gris sombre sur laquelle on a lancé un sort de ''[[flamme éternelle]]''. Elle est encore capable de flotter en orbite et permet à son propriétaire de disposer de ''[[lumière]]'' tout en gardant les mains libres. Elle peut être de n’importe quelle forme commune parmi les pierres ioun (ellipsoïde, prisme, sphère, etc.). 
+Cet objet n’est rien de plus qu’une [[pierre ioun]] épuisée d’un gris sombre sur laquelle on a lancé un sort de ''[[flamme éternelle]]''. Elle est encore capable de flotter en orbite et permet à son propriétaire de disposer de ''[[lumière]]'' tout en gardant les mains libres. Elle peut être de n’importe quelle forme commune parmi les pierres ioun (ellipsoïde, prisme, sphère, etc.). 
 (((Création)))
 [[Création dobjets merveilleux|Création d’objets merveilleux]], ''[[flamme éternelle]]'', le créateur doit être de niveau 12  ; '''Prix''' : 62,5 po
 </div>
@@ -4878,6 +5414,20 @@ Cette urne, généralement en laiton ou en bronze, est fermée par un bouchon en
 Cette urne métallique a l’allure d’une urne du mauvais génie, mais elle ne fait que dégager de la fumée. Si son bouchon est ôté, un épais nuage noir se forme en 1 round, occupant une étendue de 15 mètres de rayon autour de l’urne. Si celle-ci n’est pas rebouchée, la fumée se répand au rythme de 3 mètres par round, jusqu’à ce que le nuage ait atteint un rayon maximal de 30 mètres. À partir là, il cesse de croître mais se renouvelle constamment tant que l’urne est ouverte. Pour chasser la fumée, il faut reboucher l’urne en prononçant un mot de commande. Elle se dissipe alors normalement. Un vent modéré (15 km/h) disperse la fumée en 4 rounds et un vent important (30 km/h) en seulement un round. 
 (((Création)))
 [[Création dobjets merveilleux|Création d’objets merveilleux]], ''[[pyrotechnie]]''  ; '''Prix''' : 2.700 po
+</div>
+
+
+{s:Reference|Verdict de la cour de lEnfer}
+<div class="BD">
+{s:BDTitre|Verdict de la cour de l'Enfer|{s:RSE}}
+'''Aura''' [[Nécromancie]] puissante ; '''NLS''' 13 ; '''Emplacement''' arme ; '''Prix''' 32 000 po ; '''Poids''' 1 kg  
+<div style="float:right"; padding: 0 0 10px 0">''[[Verdict de la Cour infernale|Page de l'objet]]''</div>
+(((Caractéristiques)))
+Imprégné du pouvoir des cours de l’Enfer, ce marteau en acier trempé de sang provoque un fracas strident quand il frappe une surface dure. Une fois par jour, par une [[action simple]], le personnage peut l’utiliser pour juger un unique ennemi dans un rayon de 9 mètres. La victime souffre alors des effets d’un sort de ''[[décret]]''.
+
+Le marteau octroie un [[niveau négatif]] à toute créature Chaotique ou Bonne qui tente de le manier. Ce niveau négatif demeure tant que le personnage tient l’arme en main et disparaît dès qu’il la lâche. Ce niveau négatif n’entraîne jamais de perte réelle de niveau mais ne peut être restauré en aucune façon (pas même par des sorts de restauration) tant que l’arme est en main. Si la créature est Chaotique Bonne, les niveaux négatifs se cumulent.
+(((Création)))
+[[Création dobjets merveilleux|Création d'objets merveilleux]], ''[[décret]]'' ; '''Coût''' 16 000 po
 </div>
 
 

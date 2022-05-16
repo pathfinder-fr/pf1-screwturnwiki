@@ -1,7 +1,7 @@
 ---
 Name: Starfinder.Survie
 Title: Survie
-LastModified: 2019-09-07 20:07
+LastModified: 2021-01-05 21:52
 ---
 ===SURVIE (SAG)===
 
@@ -163,13 +163,27 @@ peut également modifier les DD pour refléter d’autres circonstances
 telles que le nombre de créatures suivies, la gravité locale et les conditions
 climatiques.
 
-SURFACE DD
-Sol très mou (neige fraîche, poussière épaisse, boue humide) 5
-Sol mou (terre meuble, boue séchée) 10
-Sol ferme (champs, forêts, tapis épais, sols poussiéreux ou
-crasseux)
-15
-Sol solide (roche nue, la plupart des sols à l’intérieur des bâtisses) 20
+
+<div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+<center>
+{| CLASS="tablo"
+|- CLASS="titre"
+| Surface || DD
+|- CLASS="premier"
+| '''Sol très mou (neige fraîche, poussière épaisse, boue humide)''' || 5
+|- CLASS="alt"
+| '''Sol mou (terre meuble, boue séchée)''' || 10
+|- 
+| '''Sol ferme (champs, forêts, tapis épais, sols poussiéreux ou crasseux)''' || 15
+|- CLASS="alt"
+| '''Sol solide (roche nue, la plupart des sols à l’intérieur des bâtisses)''' || 20
+|- 
+|}
+</center>
+</div>
+</div>
+
 
 CONDITION MODIF. AU DD
 Plusieurs créatures dans le groupe pisté -1 toutes les
@@ -181,7 +195,6 @@ Nuit par temps couvert ou sans lune +6
 Le groupe pisté se déplace à la moitié de sa vitesse et dissimule
 ses traces
 +
-
 ====Vivre de la terre====
 Vous pouvez utiliser la Survie pour vous nourrir, vous et vos compagnons,
 dans la nature en chassant et en cueillant, ce qui vous permet

@@ -1,12 +1,12 @@
 ---
 Name: Pathfinder-RPG.Villes
 Title: Les villes et communautés
-LastModified: 2020-05-18 14:29
+LastModified: 2021-10-06 00:05
 Categories:
-  - 'Guide du maître'
-  - 'Règles officielles'
+  - 'Règle officielle'
+  - 'Src Guide du maître'
 ---
-<div style="background-color: #fff; float: right; padding: 0 0 12px 12px">{toc}</div>{s:gdm}''Personne ne nie que ce sont les donjons froids et humides, les cavernes sinueuses et les vastes étendues sauvages du monde qui offrent les plus grandes opportunités d’aventure. Pourtant, l’endroit où les PJ reviennent pour vendre leurs trésors, se reposer et profiter de la vie peut se révéler passionnant. Il ne faut pas négliger un encadrement urbain comme décor d’aventure. Les villes regorgent de gens, de commerces, d’intrigues et d’endroits secrets, elles offrent donc littéralement des amorces d’aventure à chaque coin de rue.''
+{s:MenuEnvironnement}<div style="background-color: #fff; float: right; padding: 0 0 12px 12px">{toc}</div>{s:gdm}''Personne ne nie que ce sont les donjons froids et humides, les cavernes sinueuses et les vastes étendues sauvages du monde qui offrent les plus grandes opportunités d’aventure. Pourtant, l’endroit où les PJ reviennent pour vendre leurs trésors, se reposer et profiter de la vie peut se révéler passionnant. Il ne faut pas négliger un encadrement urbain comme décor d’aventure. Les villes regorgent de gens, de commerces, d’intrigues et d’endroits secrets, elles offrent donc littéralement des amorces d’aventure à chaque coin de rue.''
 
 Cette section se penche sur la composition des communautés, la manière dont les PJ s’y déplacent, les commerces qui s’y tiennent et la meilleure manière de créer vos propres aventures en milieu urbain, en tenant compte des éléments de la vie réelle et des incroyables possibilités que la magie accorde aux villes fantastiques.
 
@@ -25,7 +25,7 @@ Une ville très peuplée ne se traduit pas forcément par une grande extension u
 
 Les stades sportifs permettent également de conceptualiser les grands nombres de gens car certains peuvent contenir dans leur seule structure la population d’une ville de taille réduite ou moyenne. Le célèbre Colisée de Rome pouvait accueillir jusqu’à 50 000 personnes à la fois tandis que le Yankee Stadium moderne contient jusqu’à 60 000 personnes.
 
-Vous devez aussi prendre en compte le niveau sanitaire de la ville et savoir si elle dispose d’égouts. Une ville dotée d’installations sanitaires correctes est bien mieux armée contre la maladie qu’une ville où les gens se contentent de jeter leurs déchets dans les rues. Les communautés qui possèdent des égouts et d’autres infrastructures sanitaires offrent également des endroits tout prêts à explorer pour vos joueurs, où ils pourront traquer les fanatiques et les criminels ou chercher un trésor perdu, juste sous les pieds des citoyens ignorants qui parcourent les rues.{br}
+Vous devez aussi prendre en compte le niveau sanitaire de la ville et savoir si elle dispose d’égouts. Une ville dotée d’installations sanitaires correctes est bien mieux armée contre la maladie qu’une ville où les gens se contentent de jeter leurs déchets dans les rues. Les communautés qui possèdent des égouts et d’autres infrastructures sanitaires offrent également des endroits tout prêts à explorer pour vos joueurs, où ils pourront traquer les fanatiques et les criminels ou chercher un trésor perdu, juste sous les pieds des citoyens ignorants qui parcourent les rues.
 
 ====Les rues et le trafic====
 Comment les gens se déplacent‑ils dans la ville où ils vivent ? À quoi ressemblent les rues et les avenues de votre cité ? La ville était‑elle aérée avec de larges avenues ou exiguë avec des maisons collées les unes aux autres qui plongent les rues et les allées dans une pénombre perpétuelle ?
@@ -54,70 +54,9 @@ Dans l’ensemble, ces règles considèrent presque les communautés comme des p
 Pour les agglomérations particulièrement importantes, vous pouvez utiliser plusieurs profils qui représenteront chacun
 un quartier. Cela vous permettra d’avoir des quartiers aux caractéristiques distinctes au sein de la même ville. Libre aux MJ d’ajouter d’autres éléments pour créer la ville qu’ils désirent. --À la fin de cet ouvrage, vous trouverez une Feuille de ville qui enregistre les détails de vos communautés--.
 
-====Le profil d’une communauté====
-Voici comment s’organise le profil d’une ville.
-
-{s:Reference|Fourchette de population des communautés}<div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
-<div style="border: 1px solid #4b3124; padding: 4px">
 <center>
-{| CLASS="tablo"
-|+ Fourchette de population des communautés
-|- CLASS="alt"
-| COLSPAN="2" | C’est au MJ de décider de la population de sa ville mais il{br} peut utiliser le type de communauté pour l’aider à déterminer{br} le nombre de gens qui y vivent. Comme le nombre précis{br} d’habitants n’a pas d’impact sur le jeu, il reste un ajout{br} cosmétique ; libre à vous d’ajuster les valeurs proposées{br} pour qu’elles correspondent au mieux à votre campagne.
-|- CLASS="titre"
-| Type de{br} communauté || Fourchette{br} de population
-|- CLASS="premier"
-| Lieu‑dit || moins de 20
-|- CLASS="alt"
-| Hameau || 21-60
-|-
-| Village || 61-200
-|- CLASS="alt"
-| Petite bourgade || 201-2 000
-|-
-| Grosse bourgade || 2 001-5 000
-|- CLASS="alt"
-| Petite ville || 5 001-10 000
-|-
-| Grande ville || 10 001-25 000
-|- CLASS="alt"
-| Métropole || plus de 25 000
-|}
-</center></div></div>
-*'''Nom.''' Le nom de la communauté est présenté en premier.
-*'''Alignement et type.''' L’alignement de la ville représente l’alignement le plus représenté dans sa population et au sein de son gouvernement. Ses habitants peuvent avoir un alignement différent mais la grande majorité ne devrait pas s’éloigner de l’alignement de la ville de plus d’un cran. L’alignement influe sur les modificateurs de la ville ([Villes#L’alignement_de_la_communauté_3|L’alignement de la communauté]). Le type de ville représente la catégorie de taille de la communauté : lieu‑dit, hameau, village, bourgade (petite ou grande), ville (petite ou grande) et métropole. En général, les règles se basent sur le type de communauté plutôt que sur le nombre exact d’habitants. Le type de communauté définit bon nombre de statistiques (voir la table [Villes#Les profils des communautés|Les profils des communautés]).
-*'''Les modificateurs.''' Les communautés possèdent six modificateurs qui s’appliquent à des tests de compétence spécifiques au sein de la ville. Les valeurs de départ sont fixées par le type de communauté. Elles sont ensuite modifiées en fonction de l’alignement, du gouvernement, des avantages et des inconvénients. N’oubliez pas que, si vous introduisez des modificateurs de communauté dans votre jeu, vous allez compliquer les tests de compétence en ajoutant une nouvelle variable à chaque fois que vos PJ se rendent dans une nouvelle agglomération. Vous pouvez donc traiter ces modificateurs comme une règle optionnelle. Consultez [Villes#Les_modificateurs_de_communauté_2|Les modificateurs de communauté] pour avoir une liste de modificateurs.
-*'''Les avantages.''' Chaque communauté possède un certain nombre de qualités qui influent sur ses statistiques. Considérez les avantages comme l’équivalent de don pour les villes. Le type de communauté détermine le nombre d’avantages qu’elle peut avoir. Vous en trouverez une liste au paragraphe [Villes#Les_avantages_de_la_ville_5|Les avantages de la ville].
-*'''Les dangers.''' La valeur de danger d’une communauté donne une idée du risque général qu’il y a à y habiter. Si vous utilisez la table des rencontres urbaines --des pages 212 et 213-- (ou toute autre table de monstres errants qui utilise un d% et classe ses rencontres du plus faible FP au plus fort), vous pouvez utiliser le modificateur de danger associé à votre communauté pour ajuster la valeur de votre jet. La valeur de danger de base d’une communauté dépend de son type.
-*'''Les inconvénients.''' Cette entrée indique tous les inconvénients dont souffre la communauté, qui peut en avoir autant que vous souhaitez lui en infliger même si la plupart des agglomérations n’en ont pas. Vous trouverez une liste d’inconvénients possibles au paragraphe[Villes#Les_inconvénients_de_la_communauté_6|Les inconvénients de la communauté].
-*'''Le gouvernement.''' Cette section indique qui dirige la ville et comment. Le type de gouvernement influe sur le profil de la communauté ([Villes##Le_gouvernement_de_la_communauté_4|Le gouvernement de la communauté]).
-*'''La population.''' Ce chiffre représente la population de la ville. Notez que le nombre exact n’est pas fixe, la population peut enfler les jours de marché et chuter en hiver, ce nombre indique seulement la population moyenne de l’agglomération. À noter que ce nombre sert juste de décoration, comme la population réelle varie, il est inutile de lier des règles à ce nombre. La répartition des races est indiquée entre parenthèses après le total d’habitants.
-*'''Les PNJ importants.''' Cette section indique tout PJ important qui habite en ville. Ils sont triés en fonction du rôle qu’ils occupent, suivi de leur nom et de leur alignement, de leur sexe, de leur race, de leur classe et de leur niveau, entre parenthèses.
-*'''Valeur de base et limite d’achat.''' Cette section indique, en po, la valeur de base des objets magiques disponibles en ville ([Règles relatives aux objets magiques#ACHETER|Acheter des objets magiques]). Un personnage a 75% de chances de pouvoir acheter n’importe quel objet de cette valeur ou moins sans se donner de mal. Si l’objet n’est pas disponible, un nouveau test effectué la semaine suivante permet de savoir s’il est à présent proposé à la vente. La limite d’achat d’une communauté représente le prix maximal qu’une boutique peut mettre dans l’achat d’un objet unique auprès des PJ. Si les PJ veulent vendre un objet qui dépasse la limite d’achat de la communauté, ils devront se mettre d’accord sur un tarif moindre, se rendre dans une ville plus importante ou (avec la permission du MJ) se mettre en quête d’un acheteur spécifique aux coffres mieux remplis. C’est le type de communauté qui détermine la limite d’achat.
-*'''Les incantations.''' Contrairement aux objets magiques, les sorts à louer sont indiqués dans une liste indépendante de la valeur de base de la communauté car ils sont limités par le niveau du lanceur de sorts présent. Cette ligne indique le sort de plus haut niveau que l’on peut acheter en ville. Le prix de son lancer apparaît dans la section [[Hébergement et services#Lancement de sort|Hébergement et services]]. Le niveau d’incantation de base d’une communauté dépend de son type.
-*'''Les objets de faible/intermédiaire/forte puissance.''' Cette ligne indique le nombre d’objets magiques qui dépassent la valeur de base de la communauté que l’on peut acheter en ville. Dans certains profils de ville, le nom des objets est indiqué entre parenthèses, après la fourchette de valeurs obtenues au dé pour connaître les objets disponibles. Dans ce cas, vous pouvez utiliser les ressources que vous aurez tirées au dé au préalable comme seuls objets disponibles à la vente quand les PJ arrivent en ville. Si les PJ retournent dans cette ville à une date ultérieure, vous pourrez relancer les dés pour leur proposer de nouveaux objets. Vous pouvez utiliser la section [Règles relatives aux objets magiques#ACHETER|Acheter des objets magiques] pour déterminer le nombre d’objets disponibles dans une communauté.
-
-====Les modificateurs de communauté====
-La vie dans une communauté est représentée par six modificateurs qui influent tous sur l’utilisation de certaines compétences au sein de la cité.{br}
-<div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
-<div style="border: 1px solid #4b3124; padding: 4px">
-<center>
-{| CLASS="tablo"
-|+ A la garde ! A la garde !
-|- CLASS="alt"
-| Tôt ou tard, vos PJ finiront inévitablement par appeler la{br} garde de la ville ou par provoquer une situation où les{br} habitants s’en chargeront. Pour cela, il faut faire un test de{br} Diplomatie avec le modificateur de loi de la ville. Il suffit{br} de réussir un test DD 5 pour appeler la garde. En cas de{br} succès, les gardes arrivent sur les lieux en 1d6 minutes. Pour{br} chaque tranche de 5 points au‑dessus du DD (arrondi à{br} l’inférieur), réduisez le délai d’arrivée de 1 minute. Si le{br} délai tombe en‑dessous d’une minute, les diminutions suivantes{br} sont appliquées par tranche de 1 round. Par exemple, Ezren{br} se fait agresser par des malandrins et appelle la garde. Il fait{br} 23 au test de Diplomatie et le MJ fait 2 au d6 pour{br} déterminer le temps que les gardes mettent à arriver. Comme{br} Ezren a fait trois fois plus que le score nécessaire, les 2 minutes{br} d’attente se réduisent à 8 rounds.
-|}
-</center></div></div>
-*'''La corruption.''' La corruption mesure la propension des fonctionnaires à accepter les pots de vin, l’honnêteté générale des habitants et la probabilité que quelqu’un dénonce un crime. Une faible corruption indique des citoyens très honnêtes. La corruption modifie les tests de Bluff contre les fonctionnaires ou les gardes et tous les tests de Discrétion en extérieur (mais pas dans un bâtiment ni sous terre).{br}
-*'''La criminalité.''' Le crime donne la mesure du chaos qui règne en ville. Une communauté qui dispose d’un faible modificateur de criminalité est relativement sûre, les crimes violents y sont rares voire inconnus alors qu’une ville avec un important modificateur de criminalité abrite probablement une puissante guilde de voleurs et aura de gros problèmes de violence. L’atmosphère générée par le niveau de criminalité d’une ville se ressent au niveau des tests de Psychologie destinés à éviter de se faire Bluffer et aux tests d’Escamotage des pickpockets.{br}
-*'''L’économie.''' Le modificateur d’économie d’une communauté indique l’état de son commerce et la richesse de ses habitants les plus prospères. Un faible modificateur ne veut pas dire que la ville souffre de pauvreté, simplement que le commerce est presque inexistant ou que la ville est relativement autonome. Les communautés qui possèdent un important modificateur d’économie ont toujours de grands marchés et de nombreuses boutiques. L’économie de la ville aide ses habitants à gagner de l’argent et son modificateur s’applique donc aux tests d’Artisanat, de Représentation et de Profession destinés à générer des revenus.{br}
-*'''Les lois.''' Les lois et édits mesurent le degré de rigidité d’une communauté. Une ville qui possède un faible modificateur de loi n’est pas forcément infestée par le crime, cela indique juste qu’elle n’a pas besoin d’une grosse protection car les crimes sont rares. Un modificateur de loi important indique que les gardes de la communauté sont particulièrement vigilants, alertes et bien organisés. Plus un village est fortement soumis à ses lois, plus ses habitants se montreront hésitants à céder aux démonstrations de force. Le modificateur de loi de la ville s’applique aux tests d’Intimidation destinés à obliger un adversaire à réagir de façon amicale, aux tests de Diplomatie contre les fonctionnaires du gouvernement et aux tests de Diplomatie pour appeler la garde de la ville (voir l’encart).{br}
-
-{s:Reference|Les profils des communautés}<div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
-<div style="border: 1px solid #4b3124; padding: 4px">
-<center>
-{| CLASS="tablo"
-|+ Les profils des communautés
+{| CLASS="tablo" WIDTH="80%"
+|+ {s:Reference|Les profils des communautés}Les profils des communautés
 |- CLASS="titre"
 | Type || Modificateur || Avantages || Danger || Valeur de base || Limite d’achat || Incantations
 |- CLASS="premier"
@@ -137,8 +76,64 @@ La vie dans une communauté est représentée par six modificateurs qui influent
 |- CLASS="alt"
 | Métropole || +4 || 6 || 10 || 16 000 po || 100 000 po || 8
 |}
-</center></div></div>
+</center>
+====Le profil d’une communauté====
+<div style="float:right; background-color: #fff; padding: 0 0 8px 16px">
+<div style="border: 1px solid #4b3124; padding: 4px; max-width: 300px;">
+<center>
+{| CLASS="tablo"
+|+ {s:Reference|Fourchette de population des communautés}Fourchette de population des communautés
+|- CLASS="alt"
+| COLSPAN="2" | C’est au MJ de décider de la population de sa ville mais il peut utiliser le type de communauté pour l’aider à déterminer le nombre de gens qui y vivent. Comme le nombre précis d’habitants n’a pas d’impact sur le jeu, il reste un ajout cosmétique ; libre à vous d’ajuster les valeurs proposées pour qu’elles correspondent au mieux à votre campagne.
+|- CLASS="titre"
+| Type de communauté || Fourchette de population
+|- CLASS="premier"
+| Lieu‑dit || moins de 20
+|- CLASS="alt"
+| Hameau || 21-60
+|-
+| Village || 61-200
+|- CLASS="alt"
+| Petite bourgade || 201-2 000
+|-
+| Grosse bourgade || 2 001-5 000
+|- CLASS="alt"
+| Petite ville || 5 001-10 000
+|-
+| Grande ville || 10 001-25 000
+|- CLASS="alt"
+| Métropole || plus de 25 000
+|}
+</center></div></div>Voici comment s’organise le profil d’une ville.
+*'''Nom.''' Le nom de la communauté est présenté en premier.
+*'''Alignement et type.''' L’alignement de la ville représente l’alignement le plus représenté dans sa population et au sein de son gouvernement. Ses habitants peuvent avoir un alignement différent mais la grande majorité ne devrait pas s’éloigner de l’alignement de la ville de plus d’un cran. L’alignement influe sur les modificateurs de la ville ([Villes#L’alignement_de_la_communauté_3|L’alignement de la communauté]). Le type de ville représente la catégorie de taille de la communauté : lieu‑dit, hameau, village, bourgade (petite ou grande), ville (petite ou grande) et métropole. En général, les règles se basent sur le type de communauté plutôt que sur le nombre exact d’habitants. Le type de communauté définit bon nombre de statistiques (voir la table [Villes#Les profils des communautés|Les profils des communautés]).
+*'''Les modificateurs.''' Les communautés possèdent six modificateurs qui s’appliquent à des tests de compétence spécifiques au sein de la ville. Les valeurs de départ sont fixées par le type de communauté. Elles sont ensuite modifiées en fonction de l’alignement, du gouvernement, des avantages et des inconvénients. N’oubliez pas que, si vous introduisez des modificateurs de communauté dans votre jeu, vous allez compliquer les tests de compétence en ajoutant une nouvelle variable à chaque fois que vos PJ se rendent dans une nouvelle agglomération. Vous pouvez donc traiter ces modificateurs comme une règle optionnelle. Consultez [Villes#Les_modificateurs_de_communauté_2|Les modificateurs de communauté] pour avoir une liste de modificateurs.
+*'''Les avantages.''' Chaque communauté possède un certain nombre de qualités qui influent sur ses statistiques. Considérez les avantages comme l’équivalent de don pour les villes. Le type de communauté détermine le nombre d’avantages qu’elle peut avoir. Vous en trouverez une liste au paragraphe [Villes#Les_avantages_de_la_ville_5|Les avantages de la ville].
+*'''Les dangers.''' La valeur de danger d’une communauté donne une idée du risque général qu’il y a à y habiter. Si vous utilisez la table des rencontres urbaines --des pages 212 et 213-- (ou toute autre table de monstres errants qui utilise un d% et classe ses rencontres du plus faible FP au plus fort), vous pouvez utiliser le modificateur de danger associé à votre communauté pour ajuster la valeur de votre jet. La valeur de danger de base d’une communauté dépend de son type.
+*'''Les inconvénients.''' Cette entrée indique tous les inconvénients dont souffre la communauté, qui peut en avoir autant que vous souhaitez lui en infliger même si la plupart des agglomérations n’en ont pas. Vous trouverez une liste d’inconvénients possibles au paragraphe[Villes#Les_inconvénients_de_la_communauté_6|Les inconvénients de la communauté].
+*'''Le gouvernement.''' Cette section indique qui dirige la ville et comment. Le type de gouvernement influe sur le profil de la communauté ([Villes##Le_gouvernement_de_la_communauté_4|Le gouvernement de la communauté]).
+*'''La population.''' Ce chiffre représente la population de la ville. Notez que le nombre exact n’est pas fixe, la population peut enfler les jours de marché et chuter en hiver, ce nombre indique seulement la population moyenne de l’agglomération. À noter que ce nombre sert juste de décoration, comme la population réelle varie, il est inutile de lier des règles à ce nombre. La répartition des races est indiquée entre parenthèses après le total d’habitants.
+*'''Les PNJ importants.''' Cette section indique tout PJ important qui habite en ville. Ils sont triés en fonction du rôle qu’ils occupent, suivi de leur nom et de leur alignement, de leur sexe, de leur race, de leur classe et de leur niveau, entre parenthèses.
+*'''Valeur de base et limite d’achat.''' Cette section indique, en po, la valeur de base des objets magiques disponibles en ville ([Règles relatives aux objets magiques#ACHETER|Acheter des objets magiques]). Un personnage a 75% de chances de pouvoir acheter n’importe quel objet de cette valeur ou moins sans se donner de mal. Si l’objet n’est pas disponible, un nouveau test effectué la semaine suivante permet de savoir s’il est à présent proposé à la vente. La limite d’achat d’une communauté représente le prix maximal qu’une boutique peut mettre dans l’achat d’un objet unique auprès des PJ. Si les PJ veulent vendre un objet qui dépasse la limite d’achat de la communauté, ils devront se mettre d’accord sur un tarif moindre, se rendre dans une ville plus importante ou (avec la permission du MJ) se mettre en quête d’un acheteur spécifique aux coffres mieux remplis. C’est le type de communauté qui détermine la limite d’achat.
+*'''Les incantations.''' Contrairement aux objets magiques, les sorts à louer sont indiqués dans une liste indépendante de la valeur de base de la communauté car ils sont limités par le niveau du lanceur de sorts présent. Cette ligne indique le sort de plus haut niveau que l’on peut acheter en ville. Le prix de son lancer apparaît dans la section [[Lancement de sort (objet)|Hébergement et services]]. Le niveau d’incantation de base d’une communauté dépend de son type.
+*'''Les objets de faible/intermédiaire/forte puissance.''' Cette ligne indique le nombre d’objets magiques qui dépassent la valeur de base de la communauté que l’on peut acheter en ville. Dans certains profils de ville, le nom des objets est indiqué entre parenthèses, après la fourchette de valeurs obtenues au dé pour connaître les objets disponibles. Dans ce cas, vous pouvez utiliser les ressources que vous aurez tirées au dé au préalable comme seuls objets disponibles à la vente quand les PJ arrivent en ville. Si les PJ retournent dans cette ville à une date ultérieure, vous pourrez relancer les dés pour leur proposer de nouveaux objets. Vous pouvez utiliser la section [Règles relatives aux objets magiques#ACHETER|Acheter des objets magiques] pour déterminer le nombre d’objets disponibles dans une communauté.
 
+====Les modificateurs de communauté====
+La vie dans une communauté est représentée par six modificateurs qui influent tous sur l’utilisation de certaines compétences au sein de la cité.
+*'''La corruption.''' La corruption mesure la propension des fonctionnaires à accepter les pots de vin, l’honnêteté générale des habitants et la probabilité que quelqu’un dénonce un crime. Une faible corruption indique des citoyens très honnêtes. La corruption modifie les tests de Bluff contre les fonctionnaires ou les gardes et tous les tests de Discrétion en extérieur (mais pas dans un bâtiment ni sous terre).
+*'''La criminalité.''' Le crime donne la mesure du chaos qui règne en ville. Une communauté qui dispose d’un faible modificateur de criminalité est relativement sûre, les crimes violents y sont rares voire inconnus alors qu’une ville avec un important modificateur de criminalité abrite probablement une puissante guilde de voleurs et aura de gros problèmes de violence. L’atmosphère générée par le niveau de criminalité d’une ville se ressent au niveau des tests de Psychologie destinés à éviter de se faire Bluffer et aux tests d’Escamotage des pickpockets.{br}
+*'''L’économie.''' Le modificateur d’économie d’une communauté indique l’état de son commerce et la richesse de ses habitants les plus prospères. Un faible modificateur ne veut pas dire que la ville souffre de pauvreté, simplement que le commerce est presque inexistant ou que la ville est relativement autonome. Les communautés qui possèdent un important modificateur d’économie ont toujours de grands marchés et de nombreuses boutiques. L’économie de la ville aide ses habitants à gagner de l’argent et son modificateur s’applique donc aux tests d’Artisanat, de Représentation et de Profession destinés à générer des revenus.
+
+<div style="float:right; background-color: #fff; padding: 0 0 8px 16px">
+<div style="border: 1px solid #4b3124; padding: 4px; max-width: 300px;">
+<center>
+{| CLASS="tablo"
+|+ À la garde ! À la garde !
+|- CLASS="alt"
+| Tôt ou tard, vos [[PJ]] finiront inévitablement par appeler la garde de la ville ou par provoquer une situation où les habitants s’en chargeront. Pour cela, il faut faire un test de [[Diplomatie]] avec le modificateur de loi de la ville. Il suffit de réussir un test [[DD]] 5 pour appeler la garde. En cas de succès, les gardes arrivent sur les lieux en 1d6 minutes. Pour chaque tranche de 5 points au‑dessus du DD (arrondi à l’inférieur), réduisez le délai d’arrivée de 1 minute. Si le délai tombe en‑dessous d’une minute, les diminutions suivantes sont appliquées par tranche de 1 round. Par exemple, Ezren se fait agresser par des malandrins et appelle la garde. Il fait 23 au test de Diplomatie et le MJ fait 2 au d6 pour déterminer le temps que les gardes mettent à arriver. Comme Ezren a fait trois fois plus que le score nécessaire, les 2 minutes d’attente se réduisent à 8 rounds.
+|}
+</center></div></div>
+*'''Les lois.''' Les lois et édits mesurent le degré de rigidité d’une communauté. Une ville qui possède un faible modificateur de loi n’est pas forcément infestée par le crime, cela indique juste qu’elle n’a pas besoin d’une grosse protection car les crimes sont rares. Un modificateur de loi important indique que les gardes de la communauté sont particulièrement vigilants, alertes et bien organisés. Plus un village est fortement soumis à ses lois, plus ses habitants se montreront hésitants à céder aux démonstrations de force. Le modificateur de loi de la ville s’applique aux tests d’Intimidation destinés à obliger un adversaire à réagir de façon amicale, aux tests de Diplomatie contre les fonctionnaires du gouvernement et aux tests de Diplomatie pour appeler la garde de la ville (voir l’encart).
 *'''Le folklore.''' Le modificateur de folklore d’une communauté mesure la propension des habitants à bavarder avec les visiteurs mais également la disponibilité et les facilités d’accès aux éventuelles bibliothèques et sages du coin. Un faible modificateur ne veut pas dire que les gens sont idiots, juste qu’ils refusent de parler ou ne disposent pas des ressources cognitives nécessaires. Le modificateur de communauté s’applique aux tests de Diplomatie pour rassembler des informations et aux tests de Connaissances qui utilisent les ressources de la ville pour faire des recherches dans une bibliothèque.
 *'''La société.''' La société mesure le degré de civilisation et l’ouverture d’esprit des habitants d’une ville. Un faible modificateur indique que la majorité des gens se montrent extrêmement suspicieux et plein de préjugés vis à vis des étrangers. Un important modificateur de société indique que les habitants sont habitués à la diversité et aux visiteurs hors du commun et qu’ils réagissent mieux aux tentatives de conversation bien tournées. Le modificateur de société d’une communauté s’applique à tous les tests de Déguisement, ainsi qu’aux tests de Diplomatie destinés à modifier l’attitude de tout fonctionnaire non‑gouvernemental.
 
@@ -183,8 +178,9 @@ Voici une liste d’inconvénients.
 *'''Terrain de chasse.''' La ville sert de terrain de chasse à un puissant groupe ou à des monstres. Les habitants vivent dans la peur et évitent de s’aventurer dans les rues à moins que ce ne soit strictement nécessaire. (''Économie, loi et société –4 ; danger +20 ; réduction de la valeur de base de 20%'').
 *'''Pauvreté.''' Quelles qu’en soient les raisons, la communauté vit dans le dénuement. La pauvreté, la faim et la maladie sont omniprésentes. (''Corruption et criminalité +1 ; diminution de la valeur de base et de la limite d’achat de 50% ; réduction de moitié du nombre d’objets disponible'').
 *'''Épidémie.''' La communauté souffre d’une maladie contagieuse. (''‑2 à tous les modificateurs ; réduction de la valeur de base de 20% ; choisissez une maladie contagieuse : chaque jour, il y a 5% de chances qu’un PJ soit exposé à la maladie et qu’il doive faire un test de Vigueur pour lui résister'').  
-*'''En ruine.''' La ville est dévastée : la plupart de des bâtiments sont endommagés et elle n'a plus assez d'habitants pour fonctionner à pleine capacité. (''Economie -6; limite d'achat de 60%, réduction de l'incantation de 2 niveaux, disponibilité des objets magiques réduite à celle d'une petite bourgade''). <sup>(source : Drézen, La colère des juste)</sup>
-* '''Dévastée.''' La moitié de la population (y compris la totalité de ses chefs les plus puissants) ont péri et nombre de ses bâtiments ont été détruits. (''Economie -6, Société  -4, danger +10, réduction de la valeur de base et de la limite d'achat de 60%, réduction de l'incantation de 3 niveaux, disponibilité des objets magiques réduite à celle d'un village''). <sup>(source : Kénabres, La colère des juste)</sup> 
+*'''En ruine.''' La plupart de des bâtiments sont endommagés et elle n'a plus assez d'habitants pour fonctionner à pleine capacité. (''Economie -6; limite d'achat de 60%, réduction de l'incantation de 2 niveaux, disponibilité des objets magiques réduite d'un rang''). <sup>(source : Drézen, La colère des juste)</sup>
+* '''Dévastée.''' La moitié de la population (y compris la totalité de ses chefs les plus puissants) ont péri et nombre de ses bâtiments ont été détruits. (''Economie -6, Société  -4, danger +10, réduction de la valeur de base et de la limite d'achat de 60%, réduction de l'incantation de 3 niveaux, disponibilité des objets magiques réduit de deux rangs''). <sup>(source : Kénabres, La colère des juste)</sup> 
+
 
 ====Exemples de communautés====
 C’est toujours agréable d’être bien préparé et la conception d’une ville peut être une activité passionnante en soi mais on ne peut pas toujours générer un profil pour chaque bourgade et chaque ville que les PJ sont susceptibles de visiter. Parfois, les PJ décident de quitter l’itinéraire prévu pour se procurer des provisions au lieu de continuer tout droit vers le prochain donjon et d’autres fois, ils font passer la vente de leur butin nouvellement acquis en tête de leurs priorités. Les exemples de communautés suivants sont faits pour répondre à ce genre de problèmes. Ces communautés n’ont pas de nom particulier et portent seulement un titre générique qui indique de quel type de communauté il s’agit ou de l’endroit où elles pourraient se situer.

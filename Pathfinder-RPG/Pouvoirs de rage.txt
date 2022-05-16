@@ -1,12 +1,12 @@
 ---
 Name: Pathfinder-RPG.Pouvoirs de rage
 Title: Les pouvoirs de rage
-LastModified: 2020-06-17 17:02
+LastModified: 2021-12-16 20:44
 Categories:
-  - 'Art de la guerre'
   - 'Classe'
-  - 'Manuel des joueurs'
-  - 'Manuel des joueurs, règles avancées'
+  - 'Src Art de la guerre'
+  - 'Src Manuel des joueurs'
+  - 'Src Manuel des joueurs - Règles avancées'
 ---
 {s:MenuClasses}
 En gagnant des niveaux, un [[barbare]] apprend à canaliser sa [[barbare#RAGEDEBERSERKER|rage]] sous diverses formes. Le barbare gagne un pouvoir de rage au niveau 2 et un autre pouvoir tous les deux niveaux de [[barbare]] suivants. 
@@ -17,67 +17,83 @@ Pour bénéficier des avantages octroyés par ses pouvoirs de rage, le barbare d
 
 {s:mca}Les pouvoirs de rage sanguine confèrent des pouvoirs thématiques. Ceux choisis par un barbare ne peuvent provenir que d’un seul groupe. Un barbare, quel que soit son niveau, peut prendre un pouvoir mineur de rage sanguine. Seuls les barbares de niveau 6 ou plus peuvent choisir le pouvoir intermédiaire de rage sanguine (un pouvoir dont le nom ne comporte ni « mineur » ni « majeur ») s’ils possèdent déjà le pouvoir mineur du même groupe. Seuls les barbares de niveau 10 ou plus peuvent choisir le pouvoir supérieur de rage sanguine s’ils possèdent déjà le pouvoir intermédiaire du même groupe.
 
-{| CLASS="tablo toutgauche centre autoalt" WIDTH="94%"
+{| CLASS="tablo toutgauche centre autoalt" WIDTH="100%"
 |+ Pouvoirs de rage du barbare 
 |- CLASS="titre"
-| Niveau<br>minimal
-| COLSPAN="4" | Pouvoirs de rage
+| Niv<br>min
+| COLSPAN="4" | Pouvoirs
 |- CLASS="premier"
-| '''1''' || [[pouvoirs de rage#ANIMALTOTEMMINEUR|Animal totem mineur]] || [[pouvoirs de rage#FEROCITEINSPIREE|Férocité inspirée]] || [[pouvoirs de rage#PASRAPIDES|Pas rapides]] || [[pouvoirs de rage#ROULEBOULE|Roulé-boulé]]
+| '''1''' || [[pouvoirs de rage#ANIMALTOTEMMINEUR|Animal totem mineur]] || [[pouvoirs de rage#FUREURANIMALE|Fureur animale]] || [[pouvoirs de rage#POURSUITE|Poursuite]] || [[pouvoirs de rage#SANGINFERNALMINEUR|Sang infernal mineur]]
 |-
-| &emsp; || [[pouvoirs de rage#AVANCEDOMINATRICE|Avance dominatrice]] || [[pouvoirs de rage#FRACASSEMENT|Fracassement]] || [[pouvoirs de rage#PERCUSSION|Percussion]] || [[pouvoirs de rage#SAUTENRAGE|Saut en rage]]
+| &emsp; || [[pouvoirs de rage#AVANCEDOMINATRICE|Avance dominatrice]] || [[pouvoirs de rage#IMPRUDENTEDESINVOLTURE|Imprudente désinvolture]] || [[pouvoirs de rage#PRECISIONETONNANTE|Précision étonnante]] || [[pouvoirs de rage#SAUTENRAGE|Saut en rage]]
 |-
-| &emsp; || [[pouvoirs de rage#BAGARREUR|Bagarreur]] || [[pouvoirs de rage#FUREURANIMALE|Fureur animale]] || [[pouvoirs de rage#PICDEFORCE|Pic de force]] || [[pouvoirs de rage#SUPERSTITION|Superstition]]
+| &emsp; || [[pouvoirs de rage#BAGARREUR|Bagarreur]] || [[pouvoirs de rage#IVRESSERUGISSANTE|Ivresse rugissante]] || [[pouvoirs de rage#PROJECTILEMINEUR|Projectile mineur]] || [[pouvoirs de rage#SUPERSTITION|Superstition]]
 |-
-| &emsp; || [[pouvoirs de rage#BAGARREURMAJEUR|Bagarreur majeur]] || [[pouvoirs de rage#IMPRUDENTEDESINVOLTURE|Imprudente désinvolture]] || [[pouvoirs de rage#POSTUREDEFENSIVE|Posture défensive]] || [[pouvoirs de rage#TOTEMDUCHAOSMINEUR|Totem du chaos mineur]]
+| &emsp; || [[pouvoirs de rage#BAGARREURMAJEUR|Bagarreur majeur]] || [[pouvoirs de rage#LUCIDITEPARFAITE|Lucidité parfaite]] || [[pouvoirs de rage#REFLEXESRAPIDES|Réflexes rapides]] || [[pouvoirs de rage#TOTEMDUCHAOSMINEUR|Totem du chaos mineur]]
 |-
-| &emsp; || [[pouvoirs de rage#BONPOURCEQUETUAS|Bon pour ce que tu as]] || [[pouvoirs de rage#IVRESSERUGISSANTE|Ivresse rugissante]] || [[pouvoirs de rage#POURSUITE|Poursuite]] || [[pouvoirs de rage#TOTEMDUSERPENTMONDE|Totem du serpent-monde]]
+| &emsp; || [[pouvoirs de rage#BONPOURCEQUETUAS|Bon pour ce que tu as]] || [[pouvoirs de rage#MARQUEPROMETTEUSE|Marque prometteuse]] || [[pouvoirs de rage#REGARDINTIMIDANT|Regard intimidant]] || [[pouvoirs de rage#TOTEMDUSERPENTMONDE|Totem du serpent-monde]]
 |-
-| &emsp; || [[pouvoirs de rage#BUVEURPRODIGIEUX|Buveur prodigieux]] || [[pouvoirs de rage#LUCIDITEPARFAITE|Lucidité parfaite]] || [[pouvoirs de rage#PRECISIONETONNANTE|Précision étonnante]] || [[pouvoirs de rage#TOTEMFIELONMINEUR|Totem fiélon mineur]]
+| &emsp; || [[pouvoirs de rage#BUVEURPRODIGIEUX|Buveur prodigieux]] || [[pouvoirs de rage#MOMENTDELUCIDITE|Moment de lucidité]] || [[pouvoirs de rage#REPOUSSERLENNEMI|Repousser l'ennemi]] || [[pouvoirs de rage#TOTEMFIELONMINEUR|Totem fiélon mineur]]
 |-
-| &emsp; || [[pouvoirs de rage#CHASSEURDESORCIERE|Chasseur de sorcière]] || [[pouvoirs de rage#MARQUEPROMETTEUSE|Marque prometteuse]] || [[pouvoirs de rage#PROJECTILEMINEUR|Projectile mineur]] || [[pouvoirs de rage#TOTEMSPIRITUELINFERIEUR|Totem spirituel inférieur]]
+| &emsp; || [[pouvoirs de rage#CHASSEURDESORCIERE|Chasseur de sorcière]] || [[pouvoirs de rage#MONTUREFEROCE|Monture féroce]] || [[pouvoirs de rage#RESISTANCEALENERGIE|Résistance à l'énergie]] || [[pouvoirs de rage#TOTEMSPIRITUELINFERIEUR|Totem spirituel inférieur]]
 |-
-| &emsp; || [[pouvoirs de rage#COLEREAUTOSUGGEREE|Colère autosuggérée]] || [[pouvoirs de rage#MOMENTDELUCIDITE|Moment de lucidité]] || [[pouvoirs de rage#REFLEXESRAPIDES|Réflexes rapides]] || [[pouvoirs de rage#VIEPRESERVEE|Vie préservée]]
+| &emsp; || [[pouvoirs de rage#COLEREAUTOSUGGEREE|Colère autosuggérée]] || [[pouvoirs de rage#NAGEENRAGE|Nage en rage]] || [[pouvoirs de rage#ROULEBOULE|Roulé-boulé]] || [[pouvoirs de rage#VIEPRESERVEE|Vie préservée]]
 |-
-| &emsp; || [[pouvoirs de rage#COUPPUISSANT|Coup puissant]] || [[pouvoirs de rage#MONTUREFEROCE|Monture Féroce]] || [[pouvoirs de rage#REGARDINTIMIDANT|Regard intimidant]] || [[pouvoirs de rage#VISIONDANSLANUIT|Vision dans la nuit]]
+| &emsp; || [[pouvoirs de rage#COUPPUISSANT|Coup puissant]] || [[pouvoirs de rage#ODORAT|Odorat]] || [[pouvoirs de rage#SANGCELESTEMINEUR|Sang céleste mineur]] || [[pouvoirs de rage#VISIONDANSLANUIT|Vision dans la nuit]]
 |-
-| &emsp; || [[pouvoirs de rage#COURAGELIQUIDE|Courage liquide]] || [[pouvoirs de rage#NAGEENRAGE|Nage en rage]] || [[pouvoirs de rage#REPOUSSERLENNEMI|Repousser l'ennemi]] || [[pouvoirs de rage#VISIONDANSLENOIR|Vision dans le noir]]
+| &emsp; || [[pouvoirs de rage#COURAGELIQUIDE|Courage liquide]] || [[pouvoirs de rage#PASRAPIDES|Pas rapides]] || [[pouvoirs de rage#SANGDEMORTVIVANTMINEUR|Sang de mort-vivant mineur]] || [[pouvoirs de rage#VISIONDANSLENOIR|Vision dans le noir]]
 |-
-| &emsp; || [[pouvoirs de rage#ESCALADEENRAGE|Escalade en rage]] || [[pouvoirs de rage#ODORAT|Odorat]] || [[pouvoirs de rage#RESISTANCEALENERGIE|Résistance à l'énergie]] || &emsp;
+| &emsp; || [[pouvoirs de rage#ESCALADEENRAGE|Escalade en rage]] || [[pouvoirs de rage#PERCUSSION|Percussion]] || [[pouvoirs de rage#SANGDRACONIQUEMINEUR|Sang draconique mineur]] || [[pouvoirs de rage#VIGUEURACHARNEE|Vigueur acharnée]]
 |-
-|- CLASS="premier"
-| '''4''' || [[pouvoirs de rage#NOUVELLEVIGUEUR|Nouvelle vigueur]] || [[pouvoirs de rage#RAGEELEMENTAIREMINEURE|Rage élémentaire mineure]] || [[pouvoirs de rage#TOTEMDELARUCHE|Totem de la ruche]] || &emsp;
+| &emsp; || [[pouvoirs de rage#FEROCITEINSPIREE|Férocité inspirée]] || [[pouvoirs de rage#PICDEFORCE|Pic de force]] || [[pouvoirs de rage#SANGELEMENTAIREMINEUR|Sang élémentaire mineur]] || &emsp;
 |-
-| &emsp; || [[pouvoirs de rage#PRECISIONMORTELLE|Précision mortelle]] || [[pouvoirs de rage#SPRINT|Sprint]] || [[pouvoirs de rage#VITALITERENOUVELEE|Vitalité renouvelée]] || &emsp;
-|-
-|- CLASS="premier"
-| '''6''' || [[pouvoirs de rage#ANIMALTOTEM|Animal totem]] || [[pouvoirs de rage#GRIMPEURBESTIAL|Grimpeur bestial]] || [[pouvoirs de rage#RESILIENCETOTEMIQUEDELARUCHE|Résilience totémique de la ruche]] || [[pouvoirs de rage#TOTEMSPIRITUEL|Totem spirituel]]
-|-
-| &emsp; || [[pouvoirs de rage#ATTAQUEDOMINATRICE|Attaque dominatrice]] || [[pouvoirs de rage#MONTURESPIRITUELLE|Monture spirituelle]] || [[pouvoirs de rage#SAUTEURBESTIAL|Sauteur bestial]] || [[pouvoirs de rage#VANTARDISE|Vantardise]]
-|-
-| &emsp; || [[pouvoirs de rage#BRISEROC|Brise roc]] || [[pouvoirs de rage#NAGEURBESTIAL|Nageur bestial]] || [[pouvoirs de rage#TOTEMDRACONIQUE|Totem draconique]] || [[pouvoirs de rage#VIEPRESERVEESUPERIEURE|Vie préservée supérieure]]
-|-
-| &emsp; || [[pouvoirs de rage#ESPRITDUSERPENTMONDE|Esprit du serpent-monde]] || [[pouvoirs de rage#PROJECTILEENCHARGE|Projectile en charge]] || [[pouvoirs de rage#TOTEMDUCHAOS|Totem du chaos]] || [[pouvoirs de rage#VIERENOUVELEE|Vie renouvelée]]
-|-
-| &emsp; || [[pouvoirs de rage#ESQUIVEREFLEXE|Esquive Réflexe]] || [[pouvoirs de rage#RAGEFANTOME|Rage fantôme]] || [[pouvoirs de rage#TOTEMFIELON|Totem fiélon]] || [[pouvoirs de rage#VIGUEURREGENERATRICE|Vigueur régénératrice]]
+| &emsp; || [[pouvoirs de rage#FRACASSEMENT|Fracassement]] || [[pouvoirs de rage#POSTUREDEFENSIVE|Posture défensive]] || [[pouvoirs de rage#SANGFEERIQUEMINEUR|Sang féerique mineur]] || &emsp;
 |-
 |- CLASS="premier"
-| '''8''' || [[pouvoirs de rage#BRISEROCSUPERIEUR|Brise roc supérieur]] || [[pouvoirs de rage#HURLEMENTTERRIFIANT|Hurlement terrifiant]] || [[pouvoirs de rage#PRECISIONAFFINEE|Précision affinée]] || [[pouvoirs de rage#RESISTANCEALENERGIEMAJEUR|Résistance à l'énergie majeur]]
+| '''4''' || [[pouvoirs de rage#MALEDICTIONMORTELLEDULINNORMDELATAIGA|Malédiction mortelle du linnorm de la taïga]] || [[pouvoirs de rage#MALEDICTIONMORTELLEDULINNORMDESGLACES|Malédiction mortelle du linnorm des glaces]] || [[pouvoirs de rage#PRECISIONMORTELLE|Précision mortelle]] || [[pouvoirs de rage#TOTEMDELARUCHE|Totem de la ruche]]
 |-
-| &emsp; || [[pouvoirs de rage#COUPHANDICAPANT|Coup handicapant]] || [[pouvoirs de rage#MONTUREFEROCEMAJEUR|Monture féroce majeur]] || [[pouvoirs de rage#PROJECTILE|Projectile]] || [[pouvoirs de rage#TOXICITEDELARUCHE|Toxicité de la ruche]]
+| &emsp; || [[pouvoirs de rage#MALEDICTIONMORTELLEDULINNORMDESFALAISES|Malédiction mortelle du linnorm des falaises]] || [[pouvoirs de rage#MALEDICTIONMORTELLEDULINNORMDESLACS|Malédiction mortelle du linnorm des lacs]] || [[pouvoirs de rage#RAGEELEMENTAIREMINEURE|Rage élémentaire mineure]] || [[pouvoirs de rage#VITALITERENOUVELEE|Vitalité renouvelée]]
 |-
-| &emsp; || [[pouvoirs de rage#COUPHEMORRAGIQUE|Coup hémorragique]] || [[pouvoirs de rage#ODORATPRIMITIF|Odorat primitif]] || [[pouvoirs de rage#RAGEELEMENTAIRE|Rage élémentaire]] || [[pouvoirs de rage#VIGUEURINTERNE|Vigueur interne]]
-|-
-| &emsp; || [[pouvoirs de rage#COUPINATTENDU|Coup inattendu]] || [[pouvoirs de rage#PIETINEMENTFEROCE|Piétinement féroce]] || [[pouvoirs de rage#REDUCTIONDEDEGATSACCRUE|Réduction de dégâts accrue]] || &emsp;
-|-
-| &emsp; || [[pouvoirs de rage#ESPRITVIDE|Esprit vide]] || [[pouvoirs de rage#POUVOIRDERAGEPERTURBATEUR|Perturbateur]] || [[pouvoirs de rage#RESILIENCETOTEMIQUEDRACONIQUE|Résilience totémique draconique]] || &emsp;
+| &emsp; || [[pouvoirs de rage#MALEDICTIONMORTELLEDULINNORMDESFJORDS|Malédiction mortelle du linnorm des fjords]] || [[pouvoirs de rage#NOUVELLEVIGUEUR|Nouvelle vigueur]] || [[pouvoirs de rage#SPRINT|Sprint]] || &emsp;
 |-
 |- CLASS="premier"
-| '''10''' || [[pouvoirs de rage#AILESTOTEMIQUESDRACONIQUES|Ailes totémiques draconiques]] || [[pouvoirs de rage#DEVOREURDEMAGIE|Dévoreur de magie]] || [[pouvoirs de rage#TOTEMDUCHAOSMAJEUR|Totem du chaos majeur]] || [[pouvoirs de rage#UNITEDUSERPENTMONDE|Unité du serpent-monde]]
+| '''6''' || [[pouvoirs de rage#ANIMALTOTEM|Animal totem]] || [[pouvoirs de rage#MONTURESPIRITUELLE|Monture spirituelle]] || [[pouvoirs de rage#SANGDEMORTVIVANT|Sang de mort-vivant]] || [[pouvoirs de rage#TOTEMFIELON|Totem fiélon]]
 |-
-| &emsp; || [[pouvoirs de rage#ANIMALTOTEMMAJEUR|Animal totem majeur]] || [[pouvoirs de rage#EGRATIGNURE|Égratignure]] || [[pouvoirs de rage#TOTEMFIELONMAJEUR|Totem fiélon majeur]] || &emsp;
+| &emsp; || [[pouvoirs de rage#ATTAQUEDOMINATRICE|Attaque dominatrice]] || [[pouvoirs de rage#NAGEURBESTIAL|Nageur bestial]] || [[pouvoirs de rage#SANGDRACONIQUE|Sang draconique]] || [[pouvoirs de rage#TOTEMSPIRITUEL|Totem spirituel]]
 |-
-| &emsp; || [[pouvoirs de rage#DESTRUCTIONDENCHANTEMENT|Destruction d’enchantement]] || [[pouvoirs de rage#MASSUEVIVANTE|Massue vivante]] || [[pouvoirs de rage#TOTEMSPIRITUELSUPERIEUR|Totem spirituel supérieur]] || &emsp;
+| &emsp; || [[pouvoirs de rage#BRISEROC|Brise roc]] || [[pouvoirs de rage#PROJECTILEENCHARGE|Projectile en charge]] || [[pouvoirs de rage#SANGELEMENTAIRE|Sang élémentaire]] || [[pouvoirs de rage#VANTARDISE|Vantardise]]
+|-
+| &emsp; || [[pouvoirs de rage#DESTRUCTIONDESORT|Destruction de sort]] || [[pouvoirs de rage#RAGEFANTOME|Rage fantôme]] || [[pouvoirs de rage#SANGFEERIQUE|Sang féerique]] || [[pouvoirs de rage#VIEPRESERVEESUPERIEURE|Vie préservée supérieure]]
+|-
+| &emsp; || [[pouvoirs de rage#ESPRITDUSERPENTMONDE|Esprit du serpent-monde]] || [[pouvoirs de rage#RESILIENCETOTEMIQUEDELARUCHE|Résilience totémique de la ruche]] || [[pouvoirs de rage#SANGINFERNAL|Sang infernal]] || [[pouvoirs de rage#VIERENOUVELEE|Vie renouvelée]]
+|-
+| &emsp; || [[pouvoirs de rage#ESQUIVEREFLEXE|Esquive réflexe]] || [[pouvoirs de rage#RUGISSEMENTDEGUERRE|Rugissement de guerre]] || [[pouvoirs de rage#SAUTEURBESTIAL|Sauteur bestial]] || [[pouvoirs de rage#VIGUEURREGENERATRICE|Vigueur régénératrice]]
+|-
+| &emsp; || [[pouvoirs de rage#GRIMPEURBESTIAL|Grimpeur bestial]] || [[pouvoirs de rage#SANGABYSSAL|Sang abyssal]] || [[pouvoirs de rage#TOTEMDRACONIQUE|Totem draconique]] || [[pouvoirs de rage#VOLENRAGE|Vol en rage]]
+|-
+| &emsp; || [[pouvoirs de rage#LUCIDITEULTIME|Lucidité ultime]] || [[pouvoirs de rage#SANGCELESTE|Sang céleste]] || [[pouvoirs de rage#TOTEMDUCHAOS|Totem du chaos]] || &emsp;
+|-
+|- CLASS="premier"
+| '''8''' || [[pouvoirs de rage#BRISEROCSUPERIEUR|Brise roc supérieur]] || [[pouvoirs de rage#HURLEMENTTERRIFIANT|Hurlement terrifiant]] || [[pouvoirs de rage#POUVOIRDERAGEPERTURBATEUR|Perturbateur]] || [[pouvoirs de rage#REDUCTIONDEDEGATSACCRUE|Réduction de dégâts accrue]]
+|-
+| &emsp; || [[pouvoirs de rage#COUPHANDICAPANT|Coup handicapant]] || [[pouvoirs de rage#MALEDICTIONMORTELLEDULINNORMDEROCHE|Malédiction mortelle du linnorm de roche]] || [[pouvoirs de rage#PIETINEMENTFEROCE|Piétinement féroce]] || [[pouvoirs de rage#RESILIENCETOTEMIQUEDRACONIQUE|Résilience totémique draconique]]
+|-
+| &emsp; || [[pouvoirs de rage#COUPHEMORRAGIQUE|Coup hémorragique]] || [[pouvoirs de rage#MALEDICTIONMORTELLEDULINNORMDESCAIRNS|Malédiction mortelle du linnorm des cairns]] || [[pouvoirs de rage#PRECISIONAFFINEE|Précision affinée]] || [[pouvoirs de rage#RESISTANCEALENERGIEMAJEUR|Résistance à l'énergie majeur]]
+|-
+| &emsp; || [[pouvoirs de rage#COUPINATTENDU|Coup inattendu]] || [[pouvoirs de rage#MONTUREFEROCEMAJEUR|Monture féroce majeur]] || [[pouvoirs de rage#PROJECTILE|Projectile]] || [[pouvoirs de rage#TOXICITEDELARUCHE|Toxicité de la ruche]]
+|-
+| &emsp; || [[pouvoirs de rage#ESPRITVIDE|Esprit vide]] || [[pouvoirs de rage#ODORATPRIMITIF|Odorat primitif]] || [[pouvoirs de rage#RAGEELEMENTAIRE|Rage élémentaire]] || [[pouvoirs de rage#VIGUEURINTERNE|Vigueur interne]]
+|-
+|- CLASS="premier"
+| '''10''' || [[pouvoirs de rage#AILESTOTEMIQUESDRACONIQUES|Ailes totémiques draconiques]] || [[pouvoirs de rage#MASSUEVIVANTE|Massue vivante]] || [[pouvoirs de rage#SANGELEMENTAIREMAJEUR|Sang élémentaire majeur]] || [[pouvoirs de rage#TOTEMSPIRITUELSUPERIEUR|Totem spirituel supérieur]]
+|-
+| &emsp; || [[pouvoirs de rage#ANIMALTOTEMMAJEUR|Animal totem majeur]] || [[pouvoirs de rage#SANGABYSSALMAJEUR|Sang abyssal majeur]] || [[pouvoirs de rage#SANGFEERIQUEMAJEUR|Sang féerique majeur]] || [[pouvoirs de rage#UNITEDUSERPENTMONDE|Unité du serpent-monde]]
+|-
+| &emsp; || [[pouvoirs de rage#DESTRUCTIONDENCHANTEMENT|Destruction d’enchantement]] || [[pouvoirs de rage#SANGCELESTEMAJEUR|Sang céleste majeur]] || [[pouvoirs de rage#SANGINFERNALMAJEUR|Sang infernal majeur]] || &emsp;
+|-
+| &emsp; || [[pouvoirs de rage#DEVOREURDEMAGIE|Dévoreur de magie]] || [[pouvoirs de rage#SANGDEMORTVIVANTMAJEUR|Sang de mort-vivant majeur]] || [[pouvoirs de rage#TOTEMDUCHAOSMAJEUR|Totem du chaos majeur]] || &emsp;
+|-
+| &emsp; || [[pouvoirs de rage#EGRATIGNURE|Égratignure]] || [[pouvoirs de rage#SANGDRACONIQUEMAJEUR|Sang draconique majeur]] || [[pouvoirs de rage#TOTEMFIELONMAJEUR|Totem fiélon majeur]] || &emsp;
 |-
 |- CLASS="premier"
 | '''12''' || [[pouvoirs de rage#ABSORPTIONENERGIE|Absorption d'énergie]] || [[pouvoirs de rage#COUPREDOUTABLE|Coup redoutable]] || [[pouvoirs de rage#PROJECTILEMAJEUR|Projectile majeur]] || &emsp;
@@ -270,9 +286,12 @@ Lorsque le [[barbare]] est en [[barbare#RAGEDEBERSERKER|rage]], il ajoute à tou
 {s:Reference|ESPRITVIDE}
 ====Esprit vide (Ext)====
 
+'''Prérequis :''' niveau 8
+
 Le [[barbare]] peut relancer un jet de [[Volonté]] qui a échoué. Ce pouvoir est utilisé sous la forme d’une [[action immédiate]] après le premier jet de sauvegarde mais avant que le [[MJ]] en révèle les conséquences. Le [[barbare]] doit accepter le second résultat même si celui-ci est moins bon que le premier. Ce pouvoir de rage n’est accessible qu’aux [[barbare|barbares]] de niveau 8 ou plus. Il ne peut être utilisé qu’une seule fois par [[barbare#RAGEDEBERSERKER|rage]].
 
 {s:uc}{s:Reference|ESQUIVEREFLEXE}
+
 ====Esquive réflexe (Ext)====
 '''Prérequis''' : Roulé-boulé, niveau 6
 
@@ -311,9 +330,10 @@ Le [[barbare]] peut utiliser une [[action simple]] pour pousser un hurlement ter
 
 ====Imprudente désinvolture (Ext)====
 
-Lorsqu’il entre en [[barbare#RAGEDEBERSERKER|rage]], le [[barbare]] peut choisir de subir un malus de -1 à sa [[CA]] pour bénéficier d’un bonus de +1 à ses jets d’attaque. Le malus à la CA et le bonus à l'attaque augmentent d'un point au niveau 4 puis tous les quatre niveaux par la suite.
+Pendant qu'il est en [[barbare#RAGEDEBERSERKER|rage]], le [[barbare]] peut choisir de subir un malus de -1 à sa [[CA]] pour bénéficier d’un bonus de +1 à ses jets d’attaque. Le malus à la CA et le bonus à l'attaque augmentent d'un point au niveau 4 puis tous les quatre niveaux par la suite.
 
 {s:APG}{s:Reference|IVRESSERUGISSANTE}
+
 ====Ivresse rugissante (Ext)====
 
 Lorsqu’il est en [[barbare#RAGEDEBERSERKER|rage]], le [[barbare]] bénéficie d’un bonus de moral de +1 sur les [[test|tests]] d’[[Intimidation]] et au [[DD]] du [[jet de sauvegarde]] sur tous les effets de [[terreur]] qu’il provoque, pour chaque dose d’alcool qu’il a ingurgitée durant sa [[barbare#RAGEDEBERSERKER|rage]]. Ce bonus ne peut dépasser +1 par tranche de quatre niveaux dans cette classe.
@@ -323,6 +343,61 @@ Lorsqu’il est en [[barbare#RAGEDEBERSERKER|rage]], le [[barbare]] bénéficie 
 '''Prérequis''' : Moment de lucidité
 
 Quand le barbare utilise son pouvoir moment de lucidité, il peut lancer les dés à deux reprises quand il a un risque de rater sa cible ou quand il fait un jet de [[Volonté]] pour dévoiler une [[Présentation des sorts#ILLUSION|illusion]]. Il conserve le meilleur résultat.
+
+{s:MCA}{s:Reference|LUCIDITEULTIME}
+====Lucidité ultime (Sur)====
+'''Prérequis :''' [[Pouvoirs de rage#LUCIDITEPARFAITE|Lucidité parfaite]], [[Pouvoirs de rage#MOMENTDELUCIDITE|moment de lucidité]], niveau 6
+
+Une fois par rage, le personnage peut aiguiser ses sens pour y voir normalement dans l’obscurité normale ou magique (ou repérer les créatures affectées par des effets magiques tels que ''[[flou]]'' et ''[[déplacement]]''), pour voir les créatures ou les objets [[invisible|invisibles]] et pour discerner les [[illusion|illusions]] ; il est également capable de repérer l’emplacement exact occupé par des créatures bénéficiant d’un [[camouflage]]. Ce pouvoir dure un [[round]]. Le personnage n’a pas besoin d’utiliser [[Pouvoirs de rage#MOMENTDELUCIDITE|moment de lucidité]] pour utiliser ce pouvoir de rage.
+
+{s:MCA}{s:Reference|MALEDICTIONMORTELLEDULINNORMDELATAIGA}
+====Malédiction mortelle du linnorm de la taïga (Sur)====
+'''Prérequis :''' Niveau 4
+
+Le personnage canalise le pouvoir d’un [[linnorm de la taïga]]. Ses attaques au corps à corps infligent 1 point de dégâts supplémentaire d’électricité. Si le personnage tombe dans l’inconscience ou est tué par une attaque ou un sort, l’attaquant subit la malédiction de l’électricité ([[Volonté]], annule).  
+''Malédiction d’électrocution'' : ''JdS'' [[Volonté]] [[DD]] 10 + 1/2 niveau du personnage + modificateur de [[Charisme]] du personnage ; ''effet'' la cible est affublée d’une [[Vulnérabilités (capacité)|vulnérabilité]] à l’électricité.
+
+{s:MCA}{s:Reference|MALEDICTIONMORTELLEDULINNORMDEROCHE}
+====Malédiction mortelle du linnorm de roche (Sur)====
+'''Prérequis :''' Niveau 8
+
+Le personnage canalise le pouvoir d’un [[linnorm de roche]]. Ses attaques au corps à corps infligent 1 point de dégâts supplémentaire de feu. Si le personnage tombe dans l’[[inconscient|inconscience]] ou est tué par une attaque ou un sort, l’attaquant subit la malédiction du sang bouillonant ([[Volonté]], annule).  
+''Malédiction du sang bouillonant'' : ''JdS'' [[Volonté]] [[DD]] 10 + 1/2 niveau du personnage + modificateur de [[Charisme]] du personnage ; ''effet'' la cible est affublée d’une [[Vulnérabilités (capacité)|vulnérabilité]] au feu et la douleur infligée par son sang brûlant la rend [[chancelant|chancelante]] de manière permanente (c’est un effet de [[regsitre|douleur]]).
+
+{s:MCA}{s:Reference|MALEDICTIONMORTELLEDULINNORMDESCAIRNS}
+====Malédiction mortelle du linnorm des cairns (Sur)====
+'''Prérequis :''' Niveau 8
+
+Le personnage canalise le pouvoir d’un [[linnorm des cairns]]. Ses attaques au corps à corps infligent 1 point de dégâts supplémentaire d’énergie négative. Si le personnage tombe dans l’inconscience ou est tué par une attaque ou un sort, l’attaquant subit la malédiction de décomposition ([[Volonté]], annule).  
+''Malédiction de décomposition'' : ''JdS'' [[Volonté]] [[DD]] 10 + 1/2 niveau du personnage + modificateur de [[Charisme]] du personnage ; ''effet'' la cible subit un [[Affaiblissement temporaire (capacité)|affaiblissement temporaire]] de 1 point de [[Con]] par jour et vieillit au rythme de 1 an par jour (et finit par subir tous les malus dus au [[État civil et mensurations#AGE|vieillissement]] sans bénéficier des bonus).
+
+{s:MCA}{s:Reference|MALEDICTIONMORTELLEDULINNORMDESFALAISES}
+====Malédiction mortelle du linnorm des falaises (Sur)====
+'''Prérequis :''' Niveau 4
+
+Le personnage canalise le pouvoir d’un [[linnorm des falaises]]. Ses attaques au corps à corps infligent 1 point de dégâts supplémentaire de feu. Si le personnage tombe dans l’[[inconscient|inconscience]] ou est tué par une attaque ou un sort, l’attaquant subit la malédiction du feu ([[Volonté]], annule).  
+''Malédiction du feu'' : ''JdS'' [[Volonté]] [[DD]] 10 + 1/2 niveau du personnage + modificateur de [[Charisme]] du personnage ; ''effet'' la cible est affublée d’une [[Vulnérabilités (capacité)|vulnérabilité]] au feu.
+
+{s:MCA}{s:Reference|MALEDICTIONMORTELLEDULINNORMDESFJORDS}
+====Malédiction mortelle du linnorm des fjords (Sur)====
+'''Prérequis :''' Niveau 4
+
+Le personnage canalise le pouvoir d’un [[linnorm des fjords]]. Ses attaques au corps à corps infligent 1 point de dégâts supplémentaire de froid. Si le personnage tombe dans l’[[inconscient|inconscience]] ou est tué par une attaque ou un sort, l’attaquant subit la malédiction de noyade ([[Volonté]], annule).  
+''Malédiction de noyade'' : ''JdS'' [[Volonté]] [[DD]] 10 + 1/2 niveau du personnage + modificateur de [[Charisme]] du personnage ; ''effet'' la cible ne peut plus respirer dans l’eau (même à l’aide de la magie). Elle peut [[Dangers naturels#ASPHYXIE|retenir sa respiration]] moitié moins longtemps qu’à l’ordinaire et devient [[fiévreux|fiévreuse]] à chaque fois qu’elle retient sa respiration.
+
+{s:MCA}{s:Reference|MALEDICTIONMORTELLEDULINNORMDESGLACES}
+====Malédiction mortelle du linnorm des glaces (Sur)====
+'''Prérequis :''' Niveau 4
+
+Le personnage canalise le pouvoir d’un [[linnorm des glaces]]. Ses attaques au corps à corps infligent 1 point de dégâts supplémentaire de froid. Si le personnage tombe dans l’[[inconscient|inconscience]] ou est tué par une attaque ou un sort, l’attaquant subit la malédiction du froid ([[Volonté]], annule).  
+''Malédiction du froid'' : ''JdS'' [[Volonté]] [[DD]] 10 + 1/2 niveau du personnage + modificateur de [[Charisme]] du personnage ; ''effet'' la cible est affublée d’une [[Vulnérabilités (capacité)|vulnérabilité]] au froid.
+
+{s:MCA}{s:Reference|MALEDICTIONMORTELLEDULINNORMDESLACS}
+====Malédiction mortelle du linnorm des lacs (Sur)====
+'''Prérequis :''' Niveau 4
+
+Le personnage canalise le pouvoir d’un [[linnorm des lacs]]. Ses attaques au corps à corps infligent 1 point de dégâts supplémentaire d’acide. Si le personnage tombe dans l’[[inconscient|inconscience]] ou est tué par une attaque ou un sort, l’attaquant subit la malédiction de la mort ([[Volonté]], annule).  
+''Malédiction de la mort'' : ''JdS'' [[Volonté]] [[DD]] 10 + 1/2 niveau du personnage + modificateur de [[Charisme]] du personnage ; ''effet'' la cible ne peut plus être affectée par des sorts de soins et ne peut plus guérir naturellement en se reposant.
 
 {s:uc}{s:Reference|MARQUEPROMETTEUSE}
 ====Marque prometteuse (Sur)====
@@ -423,7 +498,7 @@ Le [[barbare]] gagne un bonus d’esquive de +1 à la [[CA|classe d’armure]] c
 {s:Reference|POURSUITE}
 ====Poursuite (Ext)====
 
-Lorsqu’un adversaire situé à côté du [[barbare]] en [[barbare#RAGEDEBERSERKER|rage]] entreprend une [[retraite]] pour s’en éloigner, le [[barbare]] peut se déplacer du double de sa [[Valeurs de combat#VITESSEDEDEPLACEMENT|vitesse de déplacement]] normale par une [[action immédiate]]. Il doit alors terminer son mouvement à côté de l’ennemi qui a battu en [[retraite]]. Le déplacement du [[barbare]] est sujet aux [[attaque dopportunité|attaques d’opportunité]] normalement. Ce pouvoir ne peut être utilisé qu’une seule fois par [[barbare#RAGEDEBERSERKER|rage]].
+Lorsqu’un adversaire situé à côté du [[barbare]] en [[barbare#RAGEDEBERSERKER|rage]] entreprend une [[retraite (action)|retraite]] pour s’en éloigner, le [[barbare]] peut se déplacer du double de sa [[Valeurs de combat#VITESSEDEDEPLACEMENT|vitesse de déplacement]] normale par une [[action immédiate]]. Il doit alors terminer son mouvement à côté de l’ennemi qui a battu en retraite. Le déplacement du [[barbare]] est sujet aux [[attaque dopportunité|attaques d’opportunité]] normalement. Ce pouvoir ne peut être utilisé qu’une seule fois par [[barbare#RAGEDEBERSERKER|rage]].
 
 {s:uc}{s:Reference|PRECISIONAFFINEE}
 ====Précision affinée (Ext)====
@@ -529,14 +604,12 @@ Une fois par round, le [[barbare]] peut tenter une [[bousculade]] contre une cib
 Quand le barbare est enragé, il devient résistant au type d’énergie associé à son totem  : acide (noir, cuivre et vert), froid (argent et blanc), électricité (bleu et bronze) ou feu (airain, or et rouge). Cette résistance est égale au double de la [[RD]]/– dont le barbare bénéficie actuellement grâce à sa réduction de dégâts de classe. Cette RD augmente de 2 par totem draconique, y compris celui-ci.
 
 {s:UC}{s:Reference|RESILIENCETOTEMIQUEDELARUCHE}
-
 ====Résilience totémique de la ruche (Sur)====
 '''Prérequis''' : Totem de la ruche, niveau 6
 
 Quand le barbare est enragé, il ne subit plus de dégâts de la part des attaques de [[sous-type nuée|nuée]], ce qui le protège contre les effets secondaires néfastes comme le [[poison]] ou les [[saignement|saignements]]. Il gagne aussi un bonus de +1 aux tests de [[BMO|manœuvre offensive]] et au [[DMD]], quand il est en [[lutte]], pour chaque tranche de quatre niveaux de barbare (+5 au maximum).
 
 {s:APG}{s:Reference|RESISTANCEALENERGIE}
-
 ====Résistance à l’énergie (Ext)====
 Lorsqu’il est en [[barbare#RAGEDEBERSERKER|rage]], le personnage bénéficie d’une [[Capacités spéciales#Résistance_aux_énergies_destructrices_18|résistance à un type d’énergie]] (acide, froid, électricité, feu ou son) égale à la moitié de son niveau de [[barbare]] (minimum 1) dont la nature doit être sélectionnée définitivement au moment où le pouvoir de [[barbare#RAGEDEBERSERKER|rage]] est choisi. Il est possible de sélectionner ce pouvoir plusieurs fois, mais ses effets ne se cumulent pas, ils s’appliquent à un [[Capacités spéciales#Résistance_aux_énergies_destructrices_18|type d’énergie]] différent.
 
@@ -550,6 +623,12 @@ Une fois par [[barbare#RAGEDEBERSERKER|rage]], le [[barbare]] peut réduire de m
 ====Roulé-boulé (Ext)====
 
 Le [[barbare]] gagne un bonus d'esquive de +1 à la [[CA]] contre les attaques à distance pendant un nombre de rounds égal à son modificateur de Constitution actuel (au minimum 1 round). Ce bonus augmente de +1 par tranche de 6 niveaux de barbare. Cette capacité s'utilise en une [[action de mouvement]] qui ne provoque pas d'[[attaque dopportunité|attaque d'opportunité]].
+
+{s:MCA}{s:Reference|RUGISSEMENTDEGUERRE}
+====Rugissement de guerre (Sur)====
+'''Prérequis :''' Niveau 6, [[Pouvoirs de rage#REGARDINTIMIDANT|regard intimidant]]
+
+Quand le personnage démoralise avec succès un adversaire en utilisant [[Pouvoirs de rage#REGARDINTIMIDANT|regard intimidant]], il lui inflige également 1d6 points de dégâts de son.
 
 {s:mca}{s:Reference|SANGABYSSALMINEUR}
 ====Sang abyssal mineur (Sur)==== 
@@ -794,6 +873,12 @@ Quand le barbare est enragé, il ignore un niveau négatif temporaire par tranch
 
 Lorsqu’il est en [[barbare#RAGEDEBERSERKER|rage]] et par une action libre, le [[barbare]] peut délibérément ouvrir sa garde et préparer une contre-attaque dévastatrice. Ses adversaires gagnent un bonus de +4 à leurs jets d’attaque et de dégâts jusqu’au début du tour suivant. Cependant, chaque coup porté au [[barbare]] provoquera une [[attaque dopportunité|attaque d’opportunité]] qui sera résolue avant celles de ses adversaires.
 
+{s:MCA}{s:Reference|VIGUEURACHARNEE}
+====Vigueur acharnée (Ext)====
+'''Prérequis :''' 1 rang en [[Intimidation]]
+
+Le personnage gagne un bonus de +4 aux [[jds|jets de sauvegarde]] contre les maladies et les poisons.
+
 {s:Reference|VIGUEURINTERNE}
 ====Vigueur interne (Ext)====
 '''Prérequis''' :  niveau 8
@@ -822,4 +907,10 @@ Lorsque le [[barbare]] est en [[barbare#RAGEDEBERSERKER|rage]], ses sens devienn
 '''Prérequis''' : Nouvelle vigueur, niveau 4
 
 Quand le barbare est enragé, il ignore les effets de 1 point d’[[affaiblissement temporaire|affaiblissement]] ou de malus de caractéristique par tranche de deux niveaux de barbare (10 au maximum). Une fois par jour, quand un barbare victime d’un malus à ou d’un affaiblissement de caractéristique termine un accès de rage, il peut refaire un [[jet de sauvegarde]] (le cas échéant) contre un effet qui lui impose ces désagréments. S’il réussit, il se débarrasse d’un nombre de points d’affaiblissement ou de malus égal à celui qu’il peut ignorer quand il est enragé.
+
+{s:MCA}{s:Reference|VOLENRAGE}
+====Vol en rage (Sur)====
+'''Prérequis :''' Niveau 6, [[Pouvoirs de rage#SAUTENRAGE|saut en rage]]
+
+Une fois par rage, le personnage peut voler sur une distance égale à sa vitesse de déplacement de base par une [[action de mouvement]]. S’il [[charge]], il peut utiliser ce déplacement en vol durant la charge.
 </div>

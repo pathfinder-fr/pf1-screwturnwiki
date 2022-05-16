@@ -1,28 +1,21 @@
 ---
 Name: Pathfinder-RPG.Occultiste
-Title: Occultiste
-LastModified: 2020-03-20 17:54
+Title: L'occultiste
+LastModified: 2021-08-31 20:24
 Categories:
-  - 'Aventures occultes'
-  - 'Règles officielles'
+  - 'Règle officielle'
+  - 'Src Aventures occultes'
 ---
 {s:Menuclassesoccultes}
-<div class="fright">'''''Voir aussi les [[Écoles instrumentales|Écoles instrumentales]] de l'occultiste.''''' <br/>
-'''''Voir aussi la [[Sorts doccultiste|Liste des sorts de l'occultiste]].'''''<br/>
+<div class="fright">'''''Voir aussi les [[Écoles instrumentales|écoles instrumentales]].'''''  
+'''''Voir aussi les [[Instruments sacrés|instruments sacrés]].'''''  
+'''''Voir aussi la [[Sorts doccultiste|liste des sorts d'occultiste]].'''''  
 {s:PM0|occultiste}'''Voir les archétypes de l'occultiste'''&emsp;
-<ul ID="occultiste" CLASS="listecachée cadrebas">
-  <li>[[Dévoreur de livres (occultiste)|Dévoreur de livres]] (AO)</li>
-  <li>[[Hôte de guerre (occultiste)|Hôte de guerre]] (AO)</li>
-  <li>[[Nécroccultiste (occultiste)|Nécroccultiste]] (AO)</li>
-  <li>[[Shair (occultiste)|Sha'ir]] (AO)</li>
-</ul></div>
+  <li ID="occultiste" CLASS="listecachée" STYLE="display:none">{s:Menuarchétypeoccultiste}</li>
+</div>{s:AO}''L’occultiste se focalise sur le monde qui l’entoure et développe une conscience aiguë des énergies qui traversent son environnement. Il étudie la magie qui imprègne toute chose, depuis les résonances psychiques émises par les objets ordinaires jusqu’aux puissantes incantations nécessaires pour activer les sorts les plus redoutables. L’occultiste canalise sa force psychique au travers d’instruments : des objets qui lui permettent de concentrer son pouvoir et de produire d’incroyables effets. Pour lui, les instruments sont bien plus que de simples outils. Ce sont des témoignages et des objets liés aux événements du passé. L’occultiste les utilise pour influencer et modifier le présent en ajoutant sa légende aux leurs. Même si certains de ces instruments sont des objets magiques à part entière, la plupart sont des objets, certes simples, mais néanmoins importants pour l’occultiste sur le plan personnel ou historique.''
 
-{s:AO}''L’occultiste se focalise sur le monde qui l’entoure et développe une conscience aiguë des énergies qui traversent son environnement. Il étudie la magie qui imprègne toute chose, depuis les résonances psychiques émises par les objets ordinaires jusqu’aux puissantes incantations nécessaires pour activer les sorts les plus redoutables. L’occultiste canalise sa force psychique au travers d’instruments : des objets qui lui permettent de concentrer son pouvoir et de produire d’incroyables effets. Pour lui, les instruments sont bien plus que de simples outils. Ce sont des témoignages et des objets liés aux événements du passé. L’occultiste les utilise pour influencer et modifier le présent en ajoutant sa légende aux leurs. Même si certains de ces instruments sont des objets magiques à part entière, la plupart sont des objets, certes simples, mais néanmoins importants pour l’occultiste sur le plan personnel ou historique.''
-
-{s:Reference|TABLEOCCULTISTE}
-<center>
-{| CLASS="tablo"
-|+ L'occultiste
+{| CLASS="tablo centre"
+|+ {s:Reference|TABLEOCCULTISTE}L'occultiste
 |- CLASS="titre"
 | ROWSPAN="2" | Niveau
 | ROWSPAN="2" | BBA
@@ -44,7 +37,7 @@ Categories:
 | +2
 | +0
 | +2
-| CLASS="gauche" | [[Occultiste#ASTUCES|Astuces]], [[Occultiste#FOCALISATIONMENTALE|Focalisation mentale]], [[OCCULTISTE#INSTRUMENTS|Instruments 2]], [[Occultiste#POUVOIRDEFOCALISATION|Pouvoir de focalisation]]
+| CLASS="gauche" | [[Occultiste#ASTUCES|Astuces]], [[Occultiste#FOCALISATIONMENTALE|focalisation mentale]], [[OCCULTISTE#INSTRUMENTS|instruments 2]], [[Occultiste#POUVOIRDEFOCALISATION|pouvoir de focalisation]]
 | 1
 | -
 | -
@@ -57,7 +50,7 @@ Categories:
 | +3
 | +0
 | +3
-| CLASS="gauche" | [[Occultiste#EXPERTDESOBJETSMAGIQUES|Expert des objets magiques]], [[OCCULTISTE#INSTRUMENTS|Instruments 3]], [[Occultiste#LECTUREDOBJET|Lecture d'objet]]
+| CLASS="gauche" | [[Occultiste#EXPERTDESOBJETSMAGIQUES|Expert des objets magiques]], [[OCCULTISTE#INSTRUMENTS|instruments 3]], [[Occultiste#LECTUREDOBJET|lecture d'objet]]
 | 2
 | -
 | -
@@ -96,7 +89,7 @@ Categories:
 | +4
 | +1
 | +4
-| CLASS="gauche" | [[Occultiste#POUVOIRDEFOCALISATION|pouvoir de focalisation]], [[Occultiste#VISIONDESAURAS|Vision des auras]]
+| CLASS="gauche" | [[Occultiste#POUVOIRDEFOCALISATION|pouvoir de focalisation]], [[Occultiste#VISIONDESAURAS|vision des auras]]
 | 4
 | 2
 | -
@@ -135,7 +128,7 @@ Categories:
 | +6
 | +2
 | +6
-| CLASS="gauche" | [[Occultiste#APPELDEXTERIEUR|Appel d'Extérieur 1]], [[Occultiste#CERCLESMAGIQUES|Cercles magiques]]
+| CLASS="gauche" | [[Occultiste#APPELDEXTERIEUR|Appel d'Extérieur 1]], [[Occultiste#CERCLESMAGIQUES|cercles magiques]]
 | 4
 | 4
 | 2
@@ -187,7 +180,7 @@ Categories:
 | +8
 | +4
 | +8
-| CLASS="gauche" | [[Occultiste#APPELDEXTERIEUR|Appel d'Extérieur 2]], [[Occultiste#CERCLEDENTRAVE|Cercle d'entrave]]
+| CLASS="gauche" | [[Occultiste#APPELDEXTERIEUR|Appel d'Extérieur 2]], [[Occultiste#CERCLEDENTRAVE|cercle d'entrave]]
 | 5
 | 5
 | 4
@@ -239,7 +232,7 @@ Categories:
 | +10
 | +5
 | +10
-| CLASS="gauche" | [[Occultiste#APPELDEXTERIEUR|Appel d'Extérieur 3]], [[Occultiste#TRACAGEDESCERCLESACCÉLÉRÉ|Traçage des cercles accéléré]]
+| CLASS="gauche" | [[Occultiste#APPELDEXTERIEUR|Appel d'Extérieur 3]], [[Occultiste#TRACAGEDESCERCLESACCÉLÉRÉ|traçage des cercles accéléré]]
 | 5
 | 5
 | 5
@@ -291,7 +284,7 @@ Categories:
 | +12
 | +6
 | +12
-| CLASS="gauche" |  [[Occultiste#APPELDEXTERIEUR|Appel d'Extérieur 4]], [[Occultiste#MAITRISEDUNEECOLEINSTRUMENTALE|Maîtrise d'une école instrumentale]] 
+| CLASS="gauche" |  [[Occultiste#APPELDEXTERIEUR|Appel d'Extérieur 4]], [[Occultiste#MAITRISEDUNEECOLEINSTRUMENTALE|maîtrise d'une école instrumentale]] 
 | 5
 | 5
 | 5
@@ -299,7 +292,6 @@ Categories:
 | 5
 | 5
 |}
-</center>
 
 '''Rôle.''' Les occultistes sont toujours prêts à voyager en compagnie d’aventuriers, d’explorateurs et d’archéologues, car ces trois catégories d’individus ont un don pour trouver des objets d’une grande importance d’un point de vue historique.
 
@@ -307,7 +299,7 @@ Categories:
 
 '''Dés de vie.''' d8.
 
-'''Richesse de départ.''' 4d6×10 po (140 po en moyenne).
+'''Argent de départ.''' 4d6 x 10 po (moyenne 140 po).
 
 === Compétences de classe ===
 Les compétences de classe de l'occultiste sont les suivantes : [[Art de la magie]] (Int), [[Artisanat]] (Int),  [[Connaissances]] (histoire) (Int), [[Connaissances]] (ingénierie) (Int), [[Connaissances]] (mystères) (Int), [[Connaissances]] (plans) (Int), [[Connaissances]] (religion) (Int), [[Déguisement]] (Cha), [[Diplomatie]] (Cha), [[Escamotage]] (Dex), [[Estimation]] (Int), [[Linguistique]] (Int), [[Perception]] (Sag), [[Profession]] (Sag), [[Psychologie]] (Sag), [[Sabotage]] (Dex), [[Utilisation dobjets magiques|Utilisation d’objets magiques]] (Cha), [[Vol]] (Dex).
@@ -317,6 +309,7 @@ Les compétences de classe de l'occultiste sont les suivantes : [[Art de la magi
 === Descriptif de la classe ===
 Les aptitudes de l'occultiste sont décrites ci-dessous.
 
+{s:ImageDroite|Illustrations/PNJ/Mavaro.jpg|30%}
 ==== Armes et armures ====
 Les occultistes sont formés au maniement de toutes les armes courantes et de guerre, ainsi qu’au port des armures légères et intermédiaires. Ils sont également formés au maniement des boucliers (à l’exception des pavois).
 
@@ -328,10 +321,10 @@ Pour apprendre ou lancer un sort, l’occultiste doit avoir une valeur d’[[Int
 
 Un occultiste ne peut lancer qu’un certain nombre de sorts de chaque niveau chaque jour. Son quota quotidien d’emplacements de sort de base est indiqué dans la Table "[[occultiste#TABLEOCCULTISTE|L'occultiste]]". En plus de ce quota, il reçoit des sorts quotidiens en bonus si sa valeur d’[[Intelligence]] est suffisamment élevée (voir la Table "[[caractéristiques#TABLEAUCARACTERISTIQUES|Modificateurs de caractéristique et sorts en bonus]]"). 
 
-L’occultiste possède un répertoire de sorts limité. Pour chaque école instrumentale qu’il apprend à utiliser, il peut ajouter un sort par niveau qu’il est capable de lancer à son répertoire. Il les choisit dans la liste de sorts de cette école. S’il choisit la même école instrumentale plusieurs fois, il ajoute à chaque fois un sort de chaque niveau issu de la liste de cette école.<br>
+L’occultiste possède un répertoire de sorts limité. Pour chaque école instrumentale qu’il apprend à utiliser, il peut ajouter un sort par niveau qu’il est capable de lancer à son répertoire. Il les choisit dans la liste de sorts de cette école. S’il choisit la même école instrumentale plusieurs fois, il ajoute à chaque fois un sort de chaque niveau issu de la liste de cette école.  
 Quand l’occultiste apprend à lancer un nouveau niveau de sort, il ajoute immédiatement un sort de ce niveau à son répertoire pour chaque école instrumentale qu’il connaît (en plus des éventuels sorts supplémentaires conférés par les écoles sélectionnées plusieurs fois). 
 
-Lorsqu’il atteint le niveau 5 et tous les trois niveaux par la suite (aux niveaux 8, 11, et ainsi de suite), un occultiste peut apprendre un nouveau sort à la place d’un autre qu’il connaît déjà. {br}
+Lorsqu’il atteint le niveau 5 et tous les trois niveaux par la suite (aux niveaux 8, 11, et ainsi de suite), un occultiste peut apprendre un nouveau sort à la place d’un autre qu’il connaît déjà.  
 Dans les faits, l’occultiste perd l’ancien sort qu’il remplace par le nouveau. Le niveau de ce nouveau sort doit être identique à celui du sort remplacé et d’au moins un niveau inférieur au plus haut niveau de sorts que l’occultiste est capable de lancer. Le sort nouvellement appris doit faire partie de la même liste de sorts de l’école instrumentale à laquelle appartenait le sort perdu. L’occultiste ne peut échanger qu’un seul sort de cette façon et doit choisir s’il procède à un échange au moment où il apprend de nouveaux sorts lors du passage de niveau.
 
 Un occultiste n’a pas besoin de préparer ses sorts à l’avance. Il peut lancer n’importe quel sort de son répertoire quand il le souhaite, à condition qu’il lui reste encore les emplacements de sort quotidiens des niveaux appropriés.
@@ -359,6 +352,10 @@ Chaque fois qu’un occultiste lance un sort, il doit posséder l’instrument c
 Chaque école instrumentale confère également un pouvoir de focalisation de base. Ce pouvoir est ajouté à la liste de [[Occultiste#POUVOIRDEFOCALISATION|pouvoirs de focalisation]] possédés par l’occultiste (voir [[Occultiste#FOCALISATIONMENTALE|Focalisation mentale]], plus bas). En outre, chaque école instrumentale propose un certain nombre de pouvoirs de focalisation supplémentaires que l’occultiste peut sélectionner en utilisant son aptitude de classe de [[Occultiste#FOCALISATIONMENTALE|focalisation mentale]]. 
 
 Voir la section [[Écoles instrumentales]], pour obtenir la liste complète des instruments et des pouvoirs de focalisation qui leur sont associés.
+
+{s:cs}{s:OO}'''Les instruments sacrés.''' Les extérieurs et les serviteurs divins laissent des impressions particulièrement durables lorsqu'ils interagissent avec le Plan Matériel, et de nombreux occultistes recherchent les [[instruments sacrés]] qui en résultent pour augmenter leurs pouvoirs existants. Un instrument sacré est toujours un type spécifique d'objet, mais pas nécessairement unique.
+
+Un occultiste peut adopter un outil sacré chaque fois qu'il accède à une école instrumentale. Une fois choisi, l'instrument sacré est permanent et donne à l'occultiste accès à un pouvoir de focalisation particulier pour cette école instrumentale, mais l'occultiste subit un malus de -1 à son [[NLS|niveau de lanceur de sorts]] lorsqu'il utilise les sorts et les pouvoirs de focalisation associés à l'école de magie opposée aux objectifs de sa divinité. Un occultiste peut utiliser un instrument sacré même s'il ne vénère pas le dieu qui lui est associé.
 
 {s:Reference|ASTUCES}
 ====Astuces====

@@ -1,6 +1,180 @@
 ---
 Name: Pathfinder-RPG.Inductions
-Title: Induction (redirection)
-LastModified: 2017-05-21 16:27
+Title: Inductions d'hypnotiseur
+LastModified: 2021-08-31 20:00
+Categories:
+  - 'Classe'
+  - 'Src Aventures occultes'
 ---
->>> Induction
+{s:Menuclassesoccultes}{s:ao}Un hypnotiseur peut créer des liaisons hypnotiques vers ses alliés en implantant dans leur esprit des suggestions magiques qu’il peut activer ultérieurement. Chaque jour, il peut implanter un nombre d’inductions égal à la moitié de son niveau d’hypnotiseur (1 au minimum) plus son éventuel bonus de [[Charisme]]. Il ne peut maintenir qu’une seule induction implantée à la fois et l’implantation d’une nouvelle induction met fin à la précédente (l’hypnotiseur perd quand même l’utilisation de cette aptitude dépensée pour implanter l’induction précédente).
+ 
+L’hypnotiseur doit effectuer une [[action simple]] pour implanter une induction et soit toucher une créature consentante, soit l’implanter en lui-même. Une créature peut être le sujet d’une seule induction d’hypnotiseur en même temps.
+
+L’hypnotiseur peut activer l’induction par une [[action libre]] quand les conditions de déclenchement sont remplies (telles qu’elles sont définies dans la description de chaque induction) et ce, même en dehors de son tour. Le sujet doit être situé à une portée moyenne (30 mètres + 3 mètres par niveau) pour que l’hypnotiseur puisse la déclencher. L’hypnotiseur surveille les possibilités de déclenchement de l’induction par le biais d’une discrète liaison télépathique et n’a donc pas besoin d’avoir une ligne de mire sur son sujet. Toutefois, tout ce qui bloque la liaison télépathique l’empêche de déclencher ses inductions. Une induction implantée le reste jusqu’au prochain moment où l’hypnotiseur récupérera ses sorts.
+
+Une induction n’est plus implantée une fois déclenchée. Elle ne peut donc pas être déclenchée une deuxième fois tant que l’hypnotiseur ne l’a pas implantée à nouveau. La durée de l’effet produit par une induction déclenchée est soit instantanée soit indiquée dans sa description. Le [[DD]] pour résister à une induction d’hypnotiseur ou de maître hypnotiseur qui nécessite un jet de sauvegarde ou un test de compétence est égal à 10 + la moitié du niveau d’hypnotiseur + le modificateur de Charisme de l’hypnotiseur.
+
+L’hypnotiseur connaît une induction au niveau 1. Il en apprend une nouvelle au niveau 2 puis tous les 2 niveaux par la suite (jusqu’à un maximum de 11 inductions au niveau 20). Chaque utilisation quotidienne des inductions d’hypnotiseur peut être utilisée pour implanter une des inductions que le personnage connaît. Sauf indication clairement spécifiée dans la description, un hypnotiseur ne peut pas choisir plusieurs fois une même induction.
+
+{| CLASS="tablo toutgauche centre autoalt" WIDTH="80%"
+|+ Inductions d’hypnotiseur 
+|- CLASS="titre"
+| CLASS="centre" COLSPAN="3" | Inductions
+|- CLASS="premier"
+| [[inductions#APPARENCEDOCILE|Apparence docile]] || [[inductions#ECHARDEDOMBRE|Écharde d'ombre]] || [[Inductions#MESSAGERINVOLONTAIRE|Messager involontaire]]
+|-
+| [[inductions#APPARENCETERRIFIANTE|Apparence terrifiante]] || [[inductions#EVITEMENTSTUPEFIANT|Évitement stupéfiant]] || [[inductions#MIROIRHYPNOTIQUE|Miroir hypnotique]]
+|-
+| [[inductions#ATTENUATIONDELADOULEUR|Atténuation de la douleur]] || [[inductions#FAIBLESSEDUPLIQUEE|Faiblesse dupliquée]] || [[inductions#PANTOMIMEHYPNOTIQUE|Pantomime hypnotique]]
+|-
+| [[inductions#CELERITEINDUITE|Célérité induite]] || [[inductions#FEINTESOURNOISE|Feinte sournoise]] || [[inductions#REACTIONCONNEXE|Réaction connexe]]
+|-
+| [[Inductions#CHAINEDYEUX|Chaîne d'yeux]] || [[inductions#FUMEEFANTOMATIQUE|Fumée fantomatique]] || [[inductions#SOUTIENPSYCHOSOMATIQUE|Soutien psychosomatique]]
+|-
+| [[inductions#DISPARITIONDEPROJECTILE|Disparition de projectile]] || [[inductions#LEVITATIONPROTECTRICE|Lévitation protectrice]] || [[inductions#TENAILLETROMPEUSE|Tenaille trompeuse]]
+|-
+| [[inductions#DONDEVOLONTE|Don de volonté]] || [[Inductions#LIENSGLISSANTS|Liens glissants]] || &emsp;
+|- CLASS="titre"
+| &emsp;
+|- CLASS="titre"
+| CLASS="centre" COLSPAN="3" | Inductions de maître
+|- CLASS="premier"
+| [[inductions#ANTICIPATIONMAGIQUE|Anticipation magique]] || [[inductions#FUITEAVIAIRE|Fuite aviaire]] || [[inductions#RECOURSMENTAL|Recours mental]]
+|-
+| [[inductions#ATTENUATIONSUPREMEDELADOULEUR|Atténuation suprême de la douleur]] || [[Inductions#IGNORANCEDELIBEREE|Ignorance délibérée]] || [[inductions#SANCTIONMAUDITE|Sanction maudite]]
+|-
+| [[inductions#BLESSUREIMAGINAIRE|Blessure imaginaire]] || [[inductions#LIBERTEPSYCHIQUE|Liberté psychique]] || [[Inductions#VOILEDEDISSIMULATION|Voile de dissimulation]]
+|-
+| [[inductions#ECHANGEDEPOSITIONS|Échange de positions]] || [[inductions#MORTFACTICE|Mort factice]] || &emsp;
+|}
+
+===Inductions d'hypnotiseur===
+<div class="article_2col">{s:AO}{s:Reference|APPARENCEDOCILE}
+====Apparence docile====
+Grâce à la magie de cette induction, le sujet de l’hypnotiseur apparaît comme une cible facile qui incite un ennemi à l’agresser. L’hypnotiseur peut déclencher cette induction quand le sujet rate une attaque contre une créature (même si c’est l’une des attaques d’une attaque à outrance au cours de laquelle il réussit tout de même à toucher cette créature). L’ennemi doit alors attaquer le sujet exclusivement et ce dernier bénéficie d’un bonus d’esquive de +2 à sa CA contre les attaques de l’ennemi à l’origine du déclenchement de l’induction. Ces deux effets persistent pendant 1 round. Le bonus à la CA augmente de 1 tous les 5 niveaux d’hypnotiseur. C’est un effet mental de coercition.
+
+{s:AO}{s:Reference|APPARENCETERRIFIANTE}
+====Apparence terrifiante====
+Un voile d’illusion transforme l’apparence du sujet et lui permet de prendre celle d’un monstre hideux à un moment opportun. Une fois cette induction implantée, l’apparence du sujet change comme s’il utilisait déguisement. L’hypnotiseur peut déclencher cette induction quand son sujet attaque une créature. L’apparence illusoire change alors et fait apparaître le sujet sous les traits d’un monstre avant de prendre fin. L’hypnotiseur effectue un test d’Intimidation pour démoraliser la cible de l’attaque à l’origine du déclenchement. Les restrictions sur les tentatives pour démoraliser un adversaire (celui-ci doit voir, entendre et être situé à 9 mètres ou moins de la créature qui effectue le test d’Intimidation) s’appliquent au sujet de l’induction. C’est un effet d’illusion (hallucination).
+
+{s:AO}{s:Reference|ATTENUATIONDELADOULEUR}
+====Atténuation de la douleur====
+Le sujet peut atténuer pendant un court instant la douleur infligée par un état préjudiciable. L’hypnotiseur peut déclencher cette induction quand le sujet est affecté par un état préjudiciable mineur indiqué dans la description de l’aptitude de palpation curative. Le sujet ignore l’effet de cet état pendant 1d4 rounds, après quoi il subit de nouveau tous ses effets. L’aptitude ne produit aucun effet sur les états préjudiciables autres que celui à l’origine du déclenchement de l’induction, même si ces autres effets sont eux aussi indiqués dans la description de la palpation curative. Les rounds pendant lesquels le sujet ignore l’effet déclencheur sont défalqués de la durée de cet effet ; si la durée de l’atténuation de la douleur est plus longue que celle de l’effet, le sujet ignore alors complètement l’état préjudiciable. Si un effet qui inflige plusieurs états préjudiciables déclenche cette induction, le sujet ignore tous les états préjudiciables que cette induction peut atténuer. Si l’hypnotiseur est de niveau 6 ou plus, il ajoute la liste des états préjudiciables modérés à celle des états qu’il peut permettre d’ignorer avec cette induction. Celle-ci peut désormais éliminer complètement les états préjudiciables mineurs au lieu de les annuler temporairement. L’hypnotiseur n’a pas besoin de maîtriser la palpation curative pour choisir ou utiliser cette induction.
+
+{s:AO}{s:Reference|CELERITEINDUITE}
+====Célérité induite====
+Une soudaine injection de célérité mentale permet au sujet de dépasser ses limites physiques pour s’éloigner d’un ennemi. L’hypnotiseur peut déclencher cette induction quand son sujet commence son tour dans l’espace contrôlé par un ennemi. Le sujet peut se déplacer de 3 mètres par une action libre sans provoquer d’attaque d’opportunité. Cette distance de déplacement augmente de 1,50 mètre pour chaque tranche de 5 niveaux d’hypnotiseur, jusqu’à un maximum de 9 mètres au niveau 20. Quoi qu’il en soit, le sujet ne peut pas utiliser cette induction pour parcourir une distance supérieure à sa vitesse de déplacement. Le déplacement conféré par cette induction n’est pas défalqué de la vitesse de déplacement effectué par le sujet lors du round en cours.
+
+{s:cs}{s:OO}{s:Reference|CHAINEDYEUX}
+====Chaîne d’yeux====
+Le sujet peut partager ses sens avec l’hypnotiseur. L’hypnotiseur déclenche la chaîne d’yeux en fermant les yeux et en se concentrant sur la cible de l’induction, ce qui permet à l’hypnotiseur de voir et d'entendre tout ce que le sujet ressent avec ses propres sens de vue et d'ouïe (y compris les sens spéciaux ou les effets magiques). Une fois déclenchée, la chaîne d’yeux dure 1 minute par niveau d’hypnotiseur du personnage ou jusqu'à ce que l'hypnotiseur reprenne ses propres sens par une [[action libre]]. Tant qu’il utilise la chaîne d’yeux, l’hypnotiseur est [[pris au dépourvu]], même s'il peut se voir à travers les yeux du sujet.
+
+{s:AO}{s:Reference|DISPARITIONDEPROJECTILE}
+====Disparition de projectile====
+D’un geste ample, l’hypnotiseur arrache un projectile des mains d’un ennemi avant qu’il ne l’utilise. L’hypnotiseur peut déclencher cette induction quand son sujet est la cible d’une attaque d’arme à distance, avant que le jet d’attaque ne soit lancé. L’hypnotiseur effectue un test d’Escamotage opposé au test de Perception de l’attaquant. Si l’hypnotiseur réussit, l’attaque à distance est automatiquement ratée et le projectile réapparaît, rangé quelque part sur l’hypnotiseur. Si l’attaquant effectue une attaque à outrance, l’induction n’affecte qu’une seule de ses attaques, au choix de l’hypnotiseur. Si l’attaque est effectuée avec une javeline ou une autre arme de jet, l’attaquant bénéficie d’un bonus de +4 à son test de Perception. Les armes à distance réellement imposantes (telles que les rochers ou les carreaux de baliste) et les attaques à distance générées par des attaques naturelles ou des effets de sort ne sont pas affectées par cette induction.
+
+{s:AO}{s:Reference|DONDEVOLONTE}
+====Don de volonté====
+Une petite partie du vaste pouvoir mental dont est doté l’hypnotiseur vient soutenir l’esprit d’un de ses alliés. L’hypnotiseur peut déclencher cette induction quand le sujet effectue un jet de Volonté ou un test de Psychologie, ou s’il est la cible d’un test d’Intimidation effectué pour le démoraliser. Dans le cas d’un jet de sauvegarde, le sujet remplace son bonus de Volonté par celui de l’hypnotiseur. Dans le cas d’un test d’Intimidation ou de Psychologie, il ajoute le bonus de Charisme de l’hypnotiseur en bonus de moral au test ou au DD. L’hypnotiseur ne peut pas implanter cette induction en lui-même.
+
+{s:AO}{s:Reference|ECHARDEDOMBRE}
+====Écharde d’ombre====
+L’hypnotiseur protège son sujet contre une attaque et la redirige vers une autre créature. L’hypnotiseur peut déclencher cette induction quand son sujet subit les dégâts infligés par une attaque. Ces dégâts sont réduits d’un montant égal à 3 + le modificateur de Charisme de l’hypnotiseur (jusqu’à un maximum correspondant au montant des dégâts total infligé par l’attaque). Une autre créature à portée de l’attaque originale, mais pas l’attaquant, est affectée par une ombre illusoire qui prend l’apparence de l’attaquant en train de l’attaquer elle au lieu de sa cible réelle. Cette deuxième créature subit un montant de points de dégâts égal à la réduction prélevée sur le montant de points de dégâts infligé par la première attaque. Cette ombre n’a pas besoin d’effectuer de jet d’attaque pour toucher et ignore les abris et les camouflages, mais la cible peut effectuer un jet de Volonté pour dévoiler l’effet. Si elle réussit ce jet de sauvegarde, elle ne subit aucun dégât et ne croit pas que l’attaquant l’a agressée. L’hypnotiseur ne peut pas déclencher cette induction s’il n’y a aucune deuxième créature à portée susceptible d’encaisser les dégâts redirigés. C’est un effet d’illusion (ombre).
+
+{s:AO}{s:Reference|EVITEMENTSTUPEFIANT}
+====Évitement stupéfiant====
+Le sujet peut éviter les dégâts infligés par des attaques magiques ou inhabituelles. L’hypnotiseur peut déclencher cette induction juste avant que son sujet effectue un jet de sauvegarde contre une attaque ou un sort qui inflige normalement la moitié des dégâts seulement suite à un jet de sauvegarde réussi. Le sujet ne subit aucun dégât en cas de jet de sauvegarde réussi. Si l’hypnotiseur est de niveau 12 ou plus, son sujet subit la moitié des dégâts seulement en cas de jet de sauvegarde raté. Les avantages conférés par cette induction ne se cumulent pas avec ceux procurés par les aptitudes de classe esquive totale ou développement de la résistance.
+
+{s:AO}{s:Reference|FAIBLESSEDUPLIQUEE}
+====Faiblesse dupliquée====
+Le contrecoup psychique de l’hypnotiseur inflige l’affaiblissement qu’un ennemi vient d’infliger à son sujet. L’hypnotiseur peut déclencher cette induction quand une attaque ou un sort inflige à son sujet un affaiblissement temporaire de caractéristique, une diminution permanente de caractéristique ou un des états préjudiciables mineurs ou modérés indiqués dans la description de l’aptitude de classe palpation curative. Si un affaiblissement temporaire de caractéristique, une diminution permanente de caractéristique ou des dégâts de saignement ont déclenché l’induction, le montant de dégâts subis (ou de points de caractéristique perdus) par le sujet est réduit de 2 points (jusqu’à un minimum de 0 point) et la créature qui a effectué l’attaque ou lancé le sort subit un affaiblissement temporaire de 2 points d’une valeur de caractéristique choisie par l’hypnotiseur. La cible peut effectuer un jet de Volonté pour annuler cet affaiblissement temporaire. Cette induction peut également être utilisée si l’agresseur inflige une malédiction, une maladie ou du poison qui provoque un affaiblissement temporaire ou une diminution permanente de caractéristique, mais uniquement si les dégâts sont immédiatement infligés sans période d’incubation. Si l’induction est déclenchée parce que le sujet subit un état préjudiciable, celui-ci subit effectivement cet état mais son agresseur subit lui aussi un état préjudiciable choisi par l’hypnotiseur pendant 1 round. Cet état préjudiciable doit faire partie de la liste des états préjudiciables mineurs ou modérés indiqués dans la description de l’aptitude de classe palpation curative. L’ennemi peut effectuer un jet de Volonté pour ne pas subir cet état. L’hypnotiseur n’a pas besoin de posséder l’aptitude de palpation curative pour choisir ou utiliser cette induction.
+
+{s:AO}{s:Reference|FEINTESOURNOISE}
+====Feinte sournoise====
+Cette induction modifie la façon dont un ennemi perçoit une attaque, ce qui l’empêche de se défendre efficacement. L’hypnotiseur peut déclencher cette induction quand son sujet effectue une attaque ou utilise un sort nécessitant un jet d’attaque. L’hypnotiseur effectue un test de Bluff pour feinter contre une cible unique attaquée par son sujet. À la différence d’une feinte classique, cette induction peut être utilisée sur des attaques qui ne sont pas effectuées au corps à corps. Si la feinte réussit, la cible de l’attaque perd son bonus de Dextérité à la CA contre l’attaque qui a déclenché l’induction. La cible ne subit aucun des effets supplémentaires que l’hypnotiseur ou son sujet devrait normalement infliger avec un test de Bluff ou une feinte normale. C’est un effet d’illusion (hallucination).
+
+{s:AO}{s:Reference|FUMEEFANTOMATIQUE}
+====Fumée fantomatique====
+Un nuage de fumée se répand autour du sujet pour gêner les attaques dont il pourrait être la cible. L’hypnotiseur peut déclencher cette induction quand son sujet est la cible d’une attaque ou d’un sort qui nécessite un jet d’attaque. Un nuage de fumée apparaît dans la case occupée par le sujet et dans celles qui l’entourent sur un rayon de 3 mètres. Ce nuage reste en place pendant 1 round par niveau d’hypnotiseur. Le nuage agit comme une nappe de brouillard, mais c’est un effet d’illusion (chimère) qui ne peut pas être dispersé par le vent ni apparaître sous l’eau. Une créature qui interagit avec le nuage peut effectuer un jet de sauvegarde pour dévoiler l’effet. Le rayon du nuage augmente de 1,50 mètre par tranche de 5 niveaux de lanceur de sorts possédés par l’hypnotiseur, jusqu’à un maximum de 9 mètres au niveau 20.
+
+{s:AO}{s:Reference|LEVITATIONPROTECTRICE}
+====Lévitation protectrice====
+L’assaut télécinétique de l’hypnotiseur diminue la menace que représentent les ennemis autour de son sujet. L’hypnotiseur peut déclencher cette induction quand son sujet commence son tour avec un ou plusieurs ennemis adjacents à lui ou quand un ennemi se déplace dans une case adjacente à son sujet. L’hypnotiseur peut soulever légèrement tous les ennemis adjacents à son sujet dans les airs ou les repousser. Soulever les ennemis diminue de moitié leur vitesse de déplacement et leur impose un malus de -4 au DMD contre les manoeuvres offensives de bousculade, d’entraînement et de repositionnement pendant 1 round (Volonté, annule). La réduction de vitesse et le malus au DMD ne se cumulent pas avec ceux d’une lévitation hostile (L’art de la guerre Pathfinder JdR p. 234). Repousser les ennemis nécessite un test de manoeuvre offensive de bousculade en appliquant son niveau d’hypnotiseur + son modificateur de Charisme en guise de BMO. Un ennemi repoussé avec succès se déplace selon les règles d’une bousculade classique en s’éloignant du sujet de l’induction.
+
+{s:cs}{s:OO}{s:Reference|LIENSGLISSANTS}
+====Liens glissants====
+Tant qu’il est soumis à cette induction, le sujet gagne un bonus de circonstances de +2 à tous ses tests d’[[Évasion]]. Si le sujet est [[agrippé]], [[immobilisé]], [[enchevêtré]] ou autrement restreint, l’hypnotiseur peut déclencher cette induction et faire en sorte que le sujet devienne [[intangible]] juste assez longtemps pour se libérer de ses liens (à moins qu'ils ne puissent également restreindre une créature incorporelle). Cet effet ne dure pas assez longtemps pour que le sujet puisse traverser les murs ou d'autres barrières. Si l’hypnotiseur à atteint le niveau 12, le sujet reste intangible jusqu'au début du prochain tour de l'hypnotiseur.
+
+{s:cs}{s:OO}{s:Reference|MESSAGERINVOLONTAIRE}
+====Messager involontaire====
+L’hypnotiseur décrit un destinataire au sujet en implantant cette induction, puis récite un message verbal ne dépassant pas cinq mots par niveau d’hypnotiseur. La cible de cette induction n'a aucun souvenir du message ou du destinataire ciblé. Lorsque le sujet rencontre le destinataire, il répète le message mot pour mot, mais ne se souvient pas avoir parlé du message ou de son contenu. Le message reste enfoui dans le subconscient du sujet pendant 24 heures, après quoi il disparaît s'il n'est pas délivré. Le sujet de cette induction peut être trompé par des déguisements ou des illusions banales, l'amenant à livrer le message au mauvais destinataire.
+
+{s:AO}{s:Reference|MIROIRHYPNOTIQUE}
+====Miroir hypnotique====
+Une image illusoire apparaît près du sujet pour déstabiliser ses agresseurs. L’hypnotiseur peut déclencher cette induction quand son sujet est attaqué ou devient la cible d’un sort qui nécessite un jet d’attaque. Une réplique du sujet apparaît et l’attaquant doit désigner au hasard laquelle il touche (comme avec une image miroir). Pour chaque tranche de 5 niveaux d’hypnotiseur, une image supplémentaire apparaît, jusqu’à un maximum de cinq images au niveau 20. Chaque image dure 1 minute par niveau d’hypnotiseur ou jusqu’à sa destruction. C’est un effet d’illusion (chimère).
+
+{s:AO}{s:Reference|PANTOMIMEHYPNOTIQUE}
+====Pantomime hypnotique====
+En guidant les mouvements d’un de ses alliés, l’hypnotiseur lui transmet une partie de son propre talent pendant l’accomplissement d’une tâche physique. L’hypnotiseur peut déclencher cette induction quand le sujet effectue un test de compétence basé sur la Force ou la Dextérité. Le sujet remplace son bonus de compétence par celui de l’hypnotiseur ou bénéficie d’un bonus de moral sur le test égal au bonus de Charisme de l’hypnotiseur. Il choisit la possibilité qui lui confère le bonus le plus élevé. L’hypnotiseur ne peut pas implanter cette induction en lui-même.
+
+{s:AO}{s:Reference|REACTIONCONNEXE}
+====Réaction connexe====
+L’induction d’un esprit de ruche permet à l’hypnotiseur de bénéficier de la rapidité de réaction d’un allié, et vice-versa. L’hypnotiseur peut déclencher cette induction quand son sujet ou lui est surpris et que l’autre ne l’est pas (même si l’hypnotiseur est normalement incapable d’entreprendre la moindre action quand il est surpris). L’hypnotiseur et son sujet peuvent alors agir lors du round de surprise. L’hypnotiseur ne peut pas implanter cette induction en lui-même.
+
+{s:AO}{s:Reference|SOUTIENPSYCHOSOMATIQUE}
+====Soutien psychosomatique====
+La magie psychique de l’hypnotiseur apaise temporairement les blessures subies par son sujet. L’hypnotiseur peut déclencher cette induction quand le sujet subit des dégâts. Celui-ci gagne un nombre de points de vie temporaires égal à 1d8 + la moitié du niveau d’hypnotiseur. Si les dégâts infligés par l’attaque à l’origine du déclenchement réduisent les points de vie du sujet à 0 ou moins, cette induction confère au sujet 1d8 points de vie temporaires supplémentaires. Ces points de vie temporaires persistent une heure ou jusqu’à leur complète disparition.
+
+{s:AO}{s:Reference|TENAILLETROMPEUSE}
+====Tenaille trompeuse====
+Une illusion de l’hypnotiseur apparaît momentanément et combat aux côtés du sujet. L’hypnotiseur peut déclencher cette induction quand son sujet commence son tour ou se déplace dans une case où il menace un ennemi. L’image illusoire de l’hypnotiseur apparaît dans une case inoccupée adjacente à cet ennemi. On considère que l’illusion menace l’ennemi lorsqu’il s’agit de déterminer s’il est pris en tenaille mais elle n’effectue aucune attaque concrète. Elle disparaît à la fin du tour pendant lequel l’induction a été déclenchée. C’est un effet d’illusion (chimère) et une créature qui interagit avec l’illusion peut effectuer un jet de sauvegarde pour la dévoiler.
+</div>
+
+{s:Reference|INDUCTIONSDEMAÎTREHYPNOTISEUR}
+===Inductions de maître hypnotiseur===
+Au niveau 12, un hypnotiseur peut choisir une des inductions de maître hypnotiseur suivantes à la place d’une induction simple. Il obtient une induction de maître hypnotiseur supplémentaire tous les 2 niveaux par la suite. L’utilisation d’une induction de maître hypnotiseur dépense deux utilisations de l’aptitude d’induction d’hypnotiseur au lieu d’une seule.
+
+<div class="article_2col">{s:AO}{s:Reference|ANTICIPATIONMAGIQUE}
+====Anticipation magique====
+L’hypnotiseur peut choisir un sort qui rendra la pareille aux lanceurs de sorts ennemis. Quand il implante cette induction, il doit dépenser un emplacement de sort dont le niveau correspond à celui du sort de son répertoire associé à cette induction. Le temps d’incantation du sort choisi doit être une action simple ou moins et le sort doit pouvoir cibler une créature (les sorts comme domination, avec des conditions de ciblage plus restrictives, peuvent être choisis mais ne produiront aucun effet s’ils se déclenchent contre des créatures qu’il ne peut cibler). L’hypnotiseur peut déclencher cette induction quand son sujet est la cible d’un sort ennemi. Le sort de l’hypnotiseur se déclenche alors en affectant le lanceur de sorts ennemi uniquement. Le sort prend effet seulement si le lanceur de sorts ennemi se situe à portée du sort (en partant du sujet de l’induction) et fonctionne comme si l’hypnotiseur occupait la case de son sujet. Le sort de l’ennemi produit tout de même ses effets, même si le sort de l’hypnotiseur devrait normalement offrir une protection contre ce type de sorts ou empêcher l’incantation de l’ennemi.
+
+{s:AO}{s:Reference|ATTENUATIONSUPREMEDELADOULEUR}
+====Atténuation suprême de la douleur====
+Cette induction fonctionne comme une atténuation de la douleur mais elle peut également être utilisée pour soigner les états préjudiciables critiques. Un hypnotiseur doit posséder l’induction d’hypnotiseur atténuation de la douleur pour pouvoir choisir celle-ci.
+
+{s:AO}{s:Reference|BLESSUREIMAGINAIRE}
+====Blessure imaginaire====
+Quand un ennemi est frappé par le sujet, il croit que sa blessure est bien plus grave et le choc de cette vision le submerge. L’hypnotiseur peut déclencher cette induction quand son sujet touche un ennemi suite à une attaque avec une arme manufacturée, une arme naturelle ou à mains nues. La cible de cette attaque doit réussir un jet de Volonté pour ne pas être étourdie pendant 1 round. Si l’attaque à l’origine du déclenchement est un coup critique, la cible n’a droit à aucun jet de sauvegarde.
+
+{s:AO}{s:Reference|ECHANGEDEPOSITIONS}
+====Échange de positions====
+L’hypnotiseur peut échanger sa position physique avec celle d’un allié. Il peut déclencher cette induction quand un ennemi se déplace dans les cases adjacentes à l’hypnotiseur ou son sujet, ou attaque l’un ou l’autre, à condition que lui et son sujet soient situés à 30 mètres ou moins l’un de l’autre. L’hypnotiseur et son sujet échangent alors leur position. Si une attaque déclenche cette induction, l’échange advient avant de savoir si l’attaque touche. L’hypnotiseur ne peut pas implanter cette induction en lui-même. C’est un effet d’invocation (téléportation).
+
+{s:AO}{s:Reference|FUITEAVIAIRE}
+====Fuite aviaire====
+Le sujet change de forme pour échapper à une attaque ennemie. L’hypnotiseur peut déclencher cette induction quand le sujet subit les dégâts infligés par une attaque ennemie. Le sujet se transforme en oiseau (comme avec une forme bestiale III). Même si le sujet se transforme en oiseau de taille TP, il utilise le profil d’un corbeau (Bestiaire Pathfinder JdR p. 136). C’est un effet de métamorphose.
+
+{s:cs}{s:OO}{s:Reference|IGNORANCEDELIBEREE}
+====Ignorance délibérée====
+Le sujet devient capable de dire un mensonge indétectable. Lorsque le sujet tente de mentir, l’hypnotiseur peut déclencher cette induction. Cet unique mensonge résiste aux magies de détection de la vérité, et les créatures qui essaient d'utiliser une telle magie doivent réussir test de [[NLS|niveau de lanceur de sorts]] avec un [[DD]] égal à 15 + le niveau de classe de l'hypnotiseur pour réussir ; un échec signifie que la magie ne détecte pas le mensonge du sujet et ne la force pas à dire seulement la vérité.
+
+{s:AO}{s:Reference|LIBERTEPSYCHIQUE}
+====Liberté physique====
+Le sujet de cette induction peut aisément se débarrasser des entraves qui limitent ses mouvements. L’hypnotiseur peut déclencher cette induction quand le sujet commence son tour agrippé ou sous un effet qui restreint ses mouvements (y compris la paralysie, brouillard dense, lenteur ou toile d’araignée). Le sujet bénéficie alors des avantages conférés par une liberté de mouvement pendant 1 minute.
+
+{s:AO}{s:Reference|MORTFACTICE}
+====Mort factice====
+Le sujet semble mourir mais, en réalité, il peut discrètement s’éloigner de l’illusion de son cadavre. L’hypnotiseur peut déclencher cette induction quand le sujet subit les dégâts d’une attaque. Le sujet semble tomber mort (comme une image programmée) mais, en réalité, il devient invisible (comme avec invisibilité) pendant un nombre de rounds égal au niveau d’hypnotiseur ou jusqu’à ce qu’il attaque. Dès que le sujet redevient visible, son cadavre illusoire disparaît. Ce sont des effets d’illusion et une créature qui interagit avec le cadavre factice peut effectuer un jet de sauvegarde pour dévoiler l’effet. Le cadavre factice est une chimère ; l’invisibilité est une hallucination.
+
+{s:AO}{s:Reference|RECOURSMENTAL}
+====Recours mental====
+Les ordres mentaux profondément implantés dans l’esprit du sujet se déclenchent quand il tombe sous l’effet d’un contrôle mental, ce qui permet à l’hypnotiseur de le contrôler à la place. L’hypnotiseur peut déclencher cette induction quand le sujet est affecté par l’effet de charme ou de coercition d’un ennemi. Le sujet agit alors comme si l’hypnotiseur avait lancé le sort à la place de l’ennemi. Par exemple, si le sujet devrait être affecté par le charmemonstre lancé par un ennemi, cet ennemi ne peut pas tenter de lui donner des ordres mais l’hypnotiseur le peut. Si le charme ou la coercition inflige des malus ou des états préjudiciables (tels que ceux infligés par confusion, désespoir foudroyant ou immobilisation de personne), le sujet peut ignorer l’un d’eux au choix de l’hypnotiseur. Cette induction prend le dessus sur le charme ou la coercition pendant un nombre de rounds égal au niveau d’hypnotiseur ou jusqu’à la fin de la durée de l’effet déclencheur, selon ce qui se produit le premier. L’hypnotiseur ne peut pas implanter cette induction en lui-même.
+
+{s:AO}{s:Reference|SANCTIONMAUDITE}
+====Sanction maudite====
+Cette induction maudit un ennemi qui attaque le sujet. Tant qu’elle reste implantée, un symbole circulaire est visible sur le front du sujet. L’hypnotiseur peut déclencher cette induction quand son sujet est attaqué ou devient la cible d’un sort qui nécessite un jet d’attaque. L’attaquant subit un malus de -4 aux jets d’attaque, aux jets de sauvegarde, aux tests de caractéristique et aux tests de compétence pendant 1 minute par niveau d’hypnotiseur (Volonté, annule). Ce malus s’applique au jet d’attaque à l’origine du déclenchement. C’est un effet de malédiction.
+
+{s:cs}{s:OO}{s:Reference|VOILEDEDISSIMULATION}
+====Voile de dissimulation====
+Lorsque cette induction est déclenchée, le sujet est affecté par un sort d’''[[antidétection]]'' pendant 1 [[round]] par niveau de l’hypnotiseur qui l’a implantée.
+</div>

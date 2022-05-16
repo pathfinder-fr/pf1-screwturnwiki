@@ -1,17 +1,16 @@
 ---
 Name: Pathfinder-RPG.Sang sauvage (ensorceleur)
 Title: Sang sauvage
-LastModified: 2020-07-28 01:10
+LastModified: 2021-03-28 03:23
 Categories:
   - 'Archétype'
-  - 'Art de la Magie'
+  - 'Archétype ensorceleur'
   - 'Classe'
-  - 'Règles officielles'
+  - 'Règle officielle'
+  - 'Src Art de la magie'
 ---
-{s:um}
-''Un ensorceleur de sang sauvage possède une mutation d’un lignage plus ordinaire, avec un arcane et au moins un pouvoir de lignage différents par rapport à la version classique. Pour créer un ensorceleur au sang sauvage, il faut choisir un lignage existant puis choisir l’une des mutations de lignage associées à ce lignage. L’ensorceleur utilise les compétences de classe, les sorts supplémentaires et les dons supplémentaires associés au lignage et l’arcane de lignage muté. Il utilise les pouvoirs habituels de son lignage, sauf quand ils sont remplacés par ceux de lignage muté.''
+{s:Menuarchétypeensorceleur}{s:um}''Un ensorceleur de sang sauvage possède une mutation d’un lignage plus ordinaire, avec un arcane et au moins un pouvoir de lignage différents par rapport à la version classique. Pour créer un ensorceleur au sang sauvage, il faut choisir un lignage existant puis choisir l’une des mutations de lignage associées à ce lignage. L’ensorceleur utilise les compétences de classe, les sorts supplémentaires et les dons supplémentaires associés au lignage et l’arcane de lignage muté. Il utilise les pouvoirs habituels de son lignage, sauf quand ils sont remplacés par ceux de lignage muté.''
 
-{s:Menuarchétypeensorceleur}
 {s:UM}{s:Reference|AERIEN}
 ====Aérien====
 ''La magie du personnage se concentre plus sur la puissance de l’air et de la pluie que sur celle des éclairs et du tonnerre.''
@@ -100,8 +99,9 @@ distordue. Ce bonus persiste tant que la métamorphose affecte la cible.
 '''Pouvoirs de lignage.''' L’étrange sang du personnage fait ressortir ce qu’il y a de pire chez les autres.</br>
 ''__Toucher de distorsion (Mag).__'' À partir du niveau 1, le personnage crée un bref changement déroutant dans la forme physique d’une créature. Ce pouvoir affecte une créature située dans les 9 mètres (6{s:c}) qui est alors hébétée pendant 1 round ( jet de [[Vigueur]] pour [[Présentation des sorts#JETSDESAUVEGARDE|annuler]], [[DD]] 10 + 1/2 [[niveau]] d’[[ensorceleur]] + modificateur de [[Charisme]]). Chaque jour, le personnage peut utiliser ce pouvoir un nombre de fois égal à 3 + modificateur de [[Charisme]]. Ce pouvoir de lignage remplace [[lignage Aberrant|rayon acide]].
 
+{s:cs}
 ====Eau de vie====
-''Le personnage est imprégné par les pouvoirs guérisseurs de l'élément de l'eau.''
+<div class="description">'''Source :''' Blood of the Elements (BotE).</div>''Le personnage est imprégné par les pouvoirs guérisseurs de l'élément de l'eau.''
 
 '''Lignage associé.''' [[lignage élémentaire|élémentaire]] (Eau)
 
@@ -132,8 +132,9 @@ distordue. Ce bonus persiste tant que la métamorphose affecte la cible.
 '''Pouvoirs de lignage.''' La magie de l’ensorceleur est souillée de poison.</br>
 ''__Envenimer (Sur).__'' Au niveau 3, le personnage peut, par une [[action rapide]], lécher ou mordre une arme de corps à corps pour l’enduire d’une dose de [[Poisons#Venindevipèreàtêtenoire|venin de vipère à tête noire]]. Le [[DD]] du [[poison]] est égal à 10 + 1/2 [[niveau]] d’[[ensorceleur]] + modificateur de [[Charisme]]. Chaque jour, le personnage peut utiliser ce pouvoir une fois au niveau 3 et, par la suite, une fois de plus tous les trois niveaux. Il est impossible d’enlever ou de stocker ce [[poison]] et l’arme perd les avantages qu’il confère au bout d’une heure ou après la première attaque qui touche. Ce pouvoir de lignage remplace [[lignage Serpentin|ami des serpents]].
 
+{s:cs}
 ====Fée maléfique====
-''Les pouvoirs du personnage proviennent de malveillantes duperies et de sombres enchantements.''
+<div class="description">'''Source :''' People of the River (PotR).</div>''Les pouvoirs du personnage proviennent de malveillantes duperies et de sombres enchantements.''
 
 '''Lignage associé.''' [[lignage Féerique|Féerique]]
 
@@ -170,12 +171,13 @@ distordue. Ce bonus persiste tant que la métamorphose affecte la cible.
 
 '''Lignage associé.''' [[lignage Draconique|Draconique]]
 
-'''Arcane de lignage.''' Quand le personnage lance un sort du registre de l’énergie qui correspond à l’énergie associée à son lignage de linnorm, il gagne un bonus d’[[Valeurs de combat#CLASSEDARMURE|armure naturelle]] égal à son [[NLS|niveau de lanceur de sorts]] pendant 1d4 [[round|rounds]].
+'''Arcane de lignage.''' Quand le personnage lance un sort du registre de l’énergie qui correspond à l’énergie associée à son lignage de linnorm, il gagne un bonus d’[[Valeurs de combat#CLASSEDARMURE|armure naturelle]] égal au niveau du sort pendant 1d4 [[round|rounds]].
 
 '''Pouvoirs de lignage.''' Les véritables dragons annihilent leurs adversaires avec des rayons d’énergie.</br>
 ''__Esprit élémentaire (Sur).__'' À partir du [[niveau]] 1, l’ensorceleur peut lancer un rayon élémentaire qui s’accorde au type d’énergie de son lignage. C’est une [[attaque de contact à distance]] qui nécessite une [[action simple]] et permet de viser un ennemi situé dans les 9 mètres (6{s:c}). Le rayon inflige 1d6 points de dégâts + 1 par tranche de deux [[niveau|niveaux]] d’[[ensorceleur]]. Chaque jour, le personnage peut utiliser ce pouvoir un nombre de fois égal à 3 + modificateur de [[Charisme]]. Ce pouvoir de lignage remplace [[lignage Draconique|griffes]].
 
 {s:UM}{s:Reference|NEDUBOSQUET}
+
 ====Né du bosquet====
 ''La magie de certaines plantes est verdoyante et celle d’autres plus brune, comme du bois de feuillu.''
 
@@ -209,10 +211,12 @@ d’humanoïdes qui comprennent son langage.
 '''Pouvoirs de lignage.''' Le personnage peut imprégner les créatures qu’il convoque d’énergie brute.</br>
 ''__Convocation élémentaire (Sur).__'' Au [[niveau]] 9, quand le personnage convoque une créature, il lui octroie une [[RD|résistance]] de 10 contre le type d’énergie associé à son lignage élémentaire (si elle en possède déjà une, elle augmente de +5). Ses [[attaques naturelles]] infligent 1d6 de dégâts de ce même type d’énergie. Ce pouvoir de lignage remplace [[lignage Élémentaire|explosion élémentaire]].
 
+{s:cs}
 ====Rétribution====
+<div class="description">'''Source :''' People of the River (PotR).</div>
 ''L'ancêtre du personnage a été injustement condamné à mort, et son esprit vengeur hante le sang de ses descendants.''
 
-'''Lignage associé.''' [[lignage Martyre|Martyre]]
+'''Lignage associé.''' [[Lignage Martyre|Martyre]]
 
 '''Arcanes de lignage.''' Quand le personnage reçoit des dommages, le prochain sort qu'il lance contre la créature qui l'a blessé voit son niveau effectif diminué de 1 s'il est augmenté par un don de métamagie. Cet effet ne peut être appliqué qu'une fois par round.
 
@@ -252,8 +256,9 @@ d’humanoïdes qui comprennent son langage.
 '''Pouvoirs de lignage.''' Il faut parfois amener le froid à ses ennemis.</br>
 ''__Carreau glacé (Mag).__'' Au [[niveau]] 9, le personnage peut faire jaillir une averse de neige glaciale de l’air. Ce rayonnement de 3 mètres (2{s:c}) de rayon inflige 1d6 points de dégâts de froid par [[niveau]] d’[[ensorceleur]] ( jet de [[Réflexes]] 1/2 dégâts). Le [[DD]] de ce jet est de 1 + 1/2 [[niveau]] d’[[ensorceleur]] + modificateur de [[Charisme]]. Au [[niveau]] 9, le personnage peut utiliser ce sort une fois par jour, deux fois au [[niveau]] 17 et trois au [[niveau]] 20. Ce pouvoir a une portée de 18 mètres (12{s:c}) et remplace [[lignage Boréal|linceul de neige]].
 
+{s:cs}
 ====Shahzada====
-''L’héritage du personnage parvient de nobles marids, son sang non seulement magique mais également royal.''
+<div class="description">'''Source :''' Blood of the Elements (BotE).</div>''L’héritage du personnage parvient de nobles marids, son sang non seulement magique mais également royal.''
 
 '''Lignage associé.''' [[lignage Marid|Marid]]
 

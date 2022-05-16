@@ -1,13 +1,13 @@
 ---
 Name: Pathfinder-RPG.Elfe
 Title: Les elfes
-LastModified: 2020-08-07 14:01
+LastModified: 2020-08-22 01:28
 Categories:
-  - 'Manuel des joueurs'
-  - 'Manuel des joueurs, règles avancées'
-  - 'Manuel des races'
   - 'Race'
-  - 'Règles officielles'
+  - 'Règle officielle'
+  - 'Src Manuel des joueurs'
+  - 'Src Manuel des joueurs - Règles avancées'
+  - 'Src Manuel des races'
 ---
 {s:MenuRaces}
 ===Présentation===
@@ -200,27 +200,48 @@ internes comme externes. Les elfes qui gagnent des niveaux dans les [[Progressio
 ====Dons====
 Ces dons sont accessibles aux elfes :
 <center>
-{| CLASS="tablo autoalt toutgauche"
+{| CLASS="tablo autoalt toutgauche filtrable" WIDTH="100%"
 
 |- CLASS="titre"
-| WIDTH="25%" | Dons
-| WIDTH= "6%" | Source
-| WIDTH="25%" | Conditions
-| WIDTH="44%" | Avantages
+| WIDTH="30%" | Dons
+| WIDTH="3%" | Src
+| WIDTH="30%" | Conditions
+| WIDTH="37%" | Avantages
 
 |- CLASS="premier"
-| [[Entraînement guerrier elfique]]* || <sup>MR</sup> || [[Elfe]], [[BBA]]+1 || +2 au DMD contre les manoeuvres de désarmement et de destruction qui visent les armes elfiques
+| [[Chanteur de la nature]] || <sup>MJRA</sup> || [[Cha]] 13, capacité de classe [[représentation bardique]], [[elfe]] ou [[demi-elfe]] || Améliore les représentations en forêt et contre les fées
+
 |- CLASS="premier"
-| [[Harmonie Sauvage]] || <sup>MR</sup> || [[Elfe]] || Le personnage double sa guérison naturelle dans son environnement de prédilection
+| [[Coup de flèche]]* || <sup>MJRA</sup> || [[Tir rapide]], [[elfe]] || Utiliser une flèche comme arme de corps à corps pour repousser les ennemis
+
+|- CLASS="premier"
+| [[Entraînement guerrier elfique]]* || <sup>MR</sup> || [[BBA]] +1, [[elfe]] || Bonus avec les armes elfiques traditionnelles
+
+|- CLASS="premier"
+| [[Expériences variées]] || <sup>MJRA</sup> || [[Nain]], [[elfe]], ou [[gnome]]; 100 ans ou plus || +2 sur tous les tests de Connaissances ou de Profession
+
+|- CLASS="premier"
+| [[Harmonie sauvage]] || <sup>MR</sup> || [[Elfe]] || Régénération plus rapide dans l'environnement choisi
 |-
-| &emsp;[[Gardien des étendues sauvages]] || <sup>MR</sup> || [[Elfe]], [[Harmonie sauvage]] || Bonus d'esquive de +2 à la CA dans l'environnement de prédilection
+| &emsp;[[Gardien des étendues sauvages]] || <sup>MR</sup> || [[Harmonie sauvage]], [[elfe]] || +2 à la CA dans l'environnement choisi
 |-
-| &emsp;&emsp;[[Esprit des étendues sauvages]] || <sup>MR</sup> || [[Elfe]], [[Harmonie sauvage]], [[Gardien des étendues sauvages]] || +4 à la Perception durant le round de surprise dans l'environnement de prédilection
+| &emsp;&emsp;[[Esprit des étendues sauvages]] || <sup>MR</sup> || [[Harmonie sauvage]], [[Gardien des étendues sauvages]], [[elfe]] || Devient plus perceptif dans l'environnement choisi
 |-
-| &emsp;[[Mage des étendues sauvages]] || <sup>MR</sup> || [[Elfe]], [[Harmonie sauvage]] || +2 aux tests de NLS, de Concentration, de Connaissances(mystères) et d’Art de la magie dans l'environnement de prédilection
+| &emsp;[[Mage des étendues sauvages]] || <sup>MR</sup> || [[Harmonie sauvage]], [[elfe]] || Bonus aux tests pour incanter et analyser des propriétés magiques dans l'environnement choisi
+
+|- CLASS="premier"
+| [[Pas léger]] || <sup>MJRA</sup> || [[Déplacement acrobatique]], [[Aisance]], [[elfe]] || Se déplacer de sa Vitesse de déplacement normale sur un terrain difficile
+
+|- CLASS="premier"
+| [[Précision elfique]]* || <sup>MJRA</sup> || [[Elfe]] || Relancer le pourcentage d’échec à l’arc dû au camouflage
+
+|- CLASS="premier"
+| [[Regard perspicace]] || <sup>MR</sup> || [[Elfe]] ou [[demi-elfe]], trait racial sens aiguisés || +2 aux jets de sauvegarde contre les illusions et aux tests de Linguistique pour détecter les contrefaçons
+
+|- CLASS="premier"
+| [[Talent magique]] || <sup>MJRA</sup> || [[Cha]] 10; [[elfe]], [[demi-elfe]] ou [[gnome]] || Lancer un sort de niveau 0 trois par jour comme un pouvoir magique
 |}
 </center>
-
 {s:ligne}{s:col|6}
 ====Archétypes de classes====
 Ces archétypes raciaux sont accessibles aux elfes :
@@ -250,12 +271,12 @@ Les elfes ont accès à l’équipement suivant :
 {s:col-fin}{s:col|6}
 ====Objets magiques====
 Ces objets magiques sont spécifiques aux elfes :
-* [[Bracelets de la vengeance promise]]
+* [[Brassards de vengeance]]
 * [[Potions magiques#CUISINEMYSTIQUE|Chaussons au chéya]]
 * [[Potions magiques#CUISINEMYSTIQUE|Citrons-lanternes séchés au soleil]]
 * [[cristal vol-étincelle (propriété)|Cristal vol-étincelle (propriété d'arme)]]
 * [[Potions magiques#CUISINEMYSTIQUE|Filet de poisson-moineau au beurre]]
-* [[Gantelets du maître darmes|Gantelets du maître d'armes]]
+* [[Bracelets des hauts elfes]]
 * [[Gants elfiques]]
 * [[Potions magiques#CUISINEMYSTIQUE|Gâteau du sauteur]]
 * [[Potions magiques#CUISINEMYSTIQUE|Pain de route]]

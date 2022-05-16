@@ -1,11 +1,11 @@
 ---
 Name: Pathfinder-RPG.Diable des contrats
-Title: Diable des contrats
-LastModified: 2018-03-31 15:19
+Title: Diable, Diable des contrats (Phistophilius)
+LastModified: 2021-04-03 19:35
 Categories:
-  - 'Bestiaire 3'
   - 'Monstre'
-  - 'Règles officielles'
+  - 'Règle officielle'
+  - 'Src Bestiaire 3'
 ---
 <table class="Bestiaire"><tr><td>
 <div class="BD">
@@ -21,19 +21,19 @@ Categories:
 {s:BDTexte|'''[[Réduction de dégâts (capacité)|RD]]''' 10/Bien ; '''[[Immunité (capacité)|Immunité]]''' effets mentaux, feu, poison ; '''[[Résistance (capacité)|Résistance]]''' acide 10, froid 10 ; '''[[Résistance à la magie (capacité)|RM]]''' 21}
 {s:BDSousTitre|Attaque}
 {s:BDTexte|'''VD''' 9 m (6 {s:c})}
-{s:BDTexte|'''Corps à corps''' cornes, +11 (2d6+3) et entrave contractuelle (fouet), +20/+15/+10 (1d4+7 plus [[Saignement (capacité)|saignement]])}
+{s:BDTexte|'''Corps à corps''' cornes, +11 (2d6+1) et entrave contractuelle (fouet), +20/+15/+10 (1d4+7 plus [[Saignement (capacité)|saignement]] et [[étreinte (capacité)|étreinte]])}
 {s:BDTexte|'''Espace occupé''' 1,50 m (1 {s:c}); Allonge 1,50 m (1 {s:c}) (3 m (2 {s:c}) avec entrave contractuelle)}
 {s:BDTexte|'''Attaques spéciales''' empalement (2d8+4), entrave contractuelle, [[Saignement (capacité)|saignement]] (1d6)}
 {s:BDTexte|'''Pouvoirs magiques''' (NLS 13 ; concentration +19)}
 {s:BDSorts|Constant — ''[[don des langues]]''}
 {s:BDSorts|À volonté — ''[[communication à distance]]'', ''[[détection de pensées]]'' (DD 18), ''[[effacement]]'', ''[[flammes]]'', ''[[identification]]'', ''[[image accomplie]]'' (DD 19), ''[[malédiction]]'' (DD 20), ''[[porte dimensionnelle]]''}
-{s:BDSorts|3/jour — ''[[annulation denchantement|annulation d’enchantement]]'', ''[[immobilisation de personne]]'' (DD 18), ''[[localisation de créature]]'', ''[[oeil du mage]]'', ''[[rayon ardent]]'', ''[[sanctuaire secret]]'', ''[[silence]]'' (DD 18), ''[[téléportation suprême]]'' (personnelle plus 25 kilos d’objets uniquement), ''[[vision mystique]]''}
+{s:BDSorts|3/jour — ''[[annulation denchantement|annulation d’enchantement]]'', ''[[immobilisation de personne]]'' (DD 19), ''[[localisation de créature]]'', ''[[oeil du mage]]'', ''[[rayon ardent]]'', ''[[sanctuaire secret]]'', ''[[silence]]'' (DD 18), ''[[téléportation suprême]]'' (personnelle plus 25 kilos d’objets uniquement), ''[[vision mystique]]''}
 {s:BDSorts|1/jour — ''[[boule de feu à retardement]]'' (DD 23), ''[[changement de plan]]'' (DD 23), ''[[contact avec les plans]]'', ''[[convocation]]'' (niveau 4, 1d6 diables barbus ou 1 diable osseux 50%), ''[[renvoi]]'' (DD 21), ''[[symbole de douleur]]'' (DD 21)}
 {s:BDSousTitre|Caractéristiques}
 {s:BDTexte|'''For''' 17, '''Dex''' 25, '''Con''' 20, '''Int''' 24, '''Sag''' 23, '''Cha''' 22}
 {s:BDTexte|'''BBA''' +13 ; '''BMO''' +16 ; '''DMD''' 34}
 {s:BDTexte|'''Dons''' [[Esquive]], [[Fourberie]], [[Persuasion]], [[Science de linitiative|Science de l’initiative]], [[Souplesse du serpent]], [[Vigilance]], [[Volonté de fer]]}
-{s:BDTexte|'''Compétences''' [[Art de la magie]] +20, [[Bluff]] +26, [[Connaissances]] (mystères) +23, [[Connaissances]] (noblesse) +23, [[Connaissances]] (plans) +23, [[Connaissances]] (religion) +23, [[Déguisement]] +8, [[Diplomatie]] +26, [[Escamotage]] +20, [[Intimidation]] +26, [[Linguistique]] +20, [[Perception]] +26, [[Profession]] (scribe) +19, [[Psychologie]] +26}
+{s:BDTexte|'''Compétences''' [[Art de la magie]] +20, [[Bluff]] +26, [[Connaissances]] (mystères) +23, [[Connaissances]] (noblesse) +20, [[Connaissances]] (plans) +23, [[Connaissances]] (religion) +23, [[Déguisement]] +8, [[Diplomatie]] +26, [[Escamotage]] +20, [[Intimidation]] +26, [[Linguistique]] +20, [[Perception]] +26, [[Profession]] (scribe) +19, [[Psychologie]] +26}
 {s:BDTexte|'''Langues''' abyssal, aérien, aklo, aquatique, céleste, commun, commun des Profondeurs, draconique, elfique, géant, gnoll, gnome, gobelin, halfelin, igné, infernal, nain, orque, sylvestre, terreux ; ''[[don des langues]]'', [[télépathie]] 30 m (20 {s:c})}
 {s:BDTexte|'''Particularités''' contrat infernal, investissement infernal}
 {s:BDSousTitre|Écologie}
@@ -47,7 +47,8 @@ capacités et d’effets, comme précisé ci contre, mais pour recevoir ces bonu
 {s:BDTexte|'''Entrave contractuelle (Sur).''' Tous les diables des contrats portent de nombreux contrats très longs, drapés autour de leurs cornes ou rangés dans leurs multiples mallettes. Ils peuvent manier ces contrats comme des fouets qui infligent des dégâts létaux, peu importe le bonus d’armure de la cible. Lorsqu’il utilise ses entraves contractuelles, le diable des contrats ajoute son bonus d’Intelligence, et non de Force, à ses jets d’attaque et de dégâts (pour la plupart des diables des contrats, cela équivaut à un bonus de +7). Les blessures que causent ces entraves ressemblent à de profondes entailles faites par du papier et infligent 1d6 points de [[Saignement (capacité)|saignement]]. Le diable des contrats peut utiliser ses entraves contractuelles pour [[Tableau récapitulatif des armes#DESARMER|désarmer]] ses ennemis ou pour leur faire des [[Tableau récapitulatif des armes#CROCENJAMBE|crocs-en-jambe]], comme s’il s’agissait d’un fouet. Si lui-même se retrouve désarmé, le diable peut se réarmer avec un nouveau contrat par une [[action immédiate.]]}
 {s:BDTexte|'''Investissement infernal (Sur).''' Le diable des contrats peut utiliser, en tant que paragraphe du contrat infernal, le pouvoir scrutation ultime à volonté sur toutes les créatures qui lui sont liées. La créature ciblée échoue toujours à ses jets de sauvegarde contre les tentatives de scrutation du diable : cette capacité fonctionne avec un niveau de lanceur de sorts de 20.}
 </div>
-</td><td><div>''Ce diable musclé, à la peau couleur de rouille et couronné de cornes
+</td><td><div><ul style="margin: 0 0 -10 0;margin-top: 6px;margin-bottom: 12px;"><li>'''''Voir la description des [[diable|diables]].'''''</li></ul>
+''Ce diable musclé, à la peau couleur de rouille et couronné de cornes
 saillantes, est drapé d’interminables contrats.''
 
 Le diable des contrats, aussi appelé phistophilius, apparaît toujours séduisant et confiant, ses traits finement ciselés affichant un perpétuel sourire suffisant. Les diables des contrats ont la peau rouge et les cheveux noirs. Ils mesurent 1,95 mètre, sans compter les cornes. Le fourré de cornes qui se dresse autour de lui lui rajoute une trentaine de centimètres et fait monter son poids à 175 kilos.<br>

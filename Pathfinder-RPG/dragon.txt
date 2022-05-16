@@ -1,26 +1,78 @@
 ---
 Name: Pathfinder-RPG.dragon
-Title: Dragon
-LastModified: 2019-02-09 14:16
+Title: Les dragons véritables
+LastModified: 2021-07-15 16:47
 Categories:
-  - 'Bestiaire'
   - 'Monstre'
-  - 'Règles officielles'
+  - 'Règle officielle'
+  - 'Src Bestiaire'
 ---
-{toc}
-
-''Sources : Bestiaire, p.94 ; Bestiaire 2, p102''
+<div style="float:right; background-color: #fff; padding: 0 0 8px 10px">
+<div style="border: 1px solid #4b3124; padding: 4px; max-width: 240px;">
+{| CLASS="tablo centre autoalt"
+|+ Variantes de dragons véritables
+|- CLASS="titre"
+| Dragons chromatiques || FP*
+|- CLASS="premier"
+| [[Dragon blanc]] || 6, 10, 15
+|-
+| [[Dragon bleu]] || 9, 13, 18
+|-
+| [[Dragon noir]] || 7, 11, 16
+|-
+| [[Dragon rouge]] || 10, 14, 19
+|-
+| [[Dragon vert]] || 8, 12, 17
+|- CLASS="titre"
+| &emsp; || </sup>
+|- CLASS="titre"
+| Dragons métalliques || FP*
+|- CLASS="premier"
+| [[Dragon dairain|Dragon d'airain]] || 7, 11, 16
+|- CLASS="alt"
+| [[Dragon dargent|Dragon d'argent]] || 10, 14, 19
+|-
+| [[Dragon de bronze]] || 9, 13, 18
+|-
+| [[Dragon de cuivre]] || 8, 12, 17
+|-
+| [[Dragon dor|Dragon d'or]] || 11, 15, 20
+|- CLASS="titre"
+| &emsp; || </sup>
+|- CLASS="titre"
+| Dragons primaires || FP*
+|- CLASS="premier"
+| [[Dragon de cristal]] || 6, 10, 15
+|- CLASS="alt"
+| [[Dragon de magma]] || 8, 12, 17
+|-
+| [[Dragon de saumure]] || 7, 11, 16
+|-
+| [[Dragon des nuages]] || 9, 13, 18
+|-
+| [[Dragon umbral]] || 10, 14, 19
+|- CLASS="titre"
+| &emsp; || </sup>
+|- CLASS="titre"
+| COLSPAN="2" | Autres catégories de dragon
+|- CLASS="premier"
+| COLSPAN="2" | [[Dragon impérial|Dragons impériaux]]
+|-
+| COLSPAN="2" | [[Dragon sidéral|Dragons sidéraux]]
+|- CLASS="note"
+| COLSPAN="2" | ''(*) Les FP cités sont ceux des versions jeunes, adultes, et vénérables des dragons concernés.''
+|}
+</div></div><div style="float:right">{toc}</div><div class="description">'''Source :''' Bestiaire, p.94 ; Bestiaire 2, p102.</div>
+''Types/Sous-types associés : [[type Dragon|Dragon]].''
 
 Les véritables dragons se répartissent en deux grandes catégories : les chromatiques et les métalliques. Les dragons chromatiques, qui sont presque tous maléfiques, ne cherchent qu’à assouvir leur désir insatiable de nourriture, de trésor et de carnage. Les dragons métalliques, généralement bons, ont tendance à protéger les régions dont ils sont responsables.
 
 Les dragons chromatiques et métalliques sont les plus connus de leurs espèces, mais il existe d’autres catégories de dragons véritables, tels les dragons primaires, des créatures puissantes originaires des plans Élémentaires et du plan des Ombres.
 
-
 ===Catégories d'âge===
 Au fur et à mesure que les dragons véritables prennent de l'âge, leurs capacités, leurs attaques et un grand nombre d'autres caractéristiques s'améliorent. Cette évolution est divisée en 12 catégories d’âge. Lorsqu'un dragon change de catégorie d’âge, ses caractéristiques évoluent comme indiqué sur la table des catégories d’âges des dragons.
 
-<center>
-{| CLASS="tablo"
+{| CLASS="tablo centre autoalt"
 |+ Catégories d’âge des dragons
 |- CLASS="titre"
 | Catégorie d’âge
@@ -38,7 +90,7 @@ Au fur et à mesure que les dragons véritables prennent de l'âge, leurs capaci
 | Base
 | Base
 | Base
-|- CLASS="alt"
+|-
 | 2 Très jeune
 | 6–15
 | Base +2
@@ -54,7 +106,7 @@ Au fur et à mesure que les dragons véritables prennent de l'âge, leurs capaci
 | Base +4
 | Base +6
 | Base ×3
-|- CLASS="alt"
+|-
 | 4 Adolescent
 | 26–50
 | Base +5
@@ -70,7 +122,7 @@ Au fur et à mesure que les dragons véritables prennent de l'âge, leurs capaci
 | Base +8
 | Base +12
 | Base ×5
-|- CLASS="alt"
+|-
 | 6 Adulte
 | 101–200
 | Base +8
@@ -86,7 +138,7 @@ Au fur et à mesure que les dragons véritables prennent de l'âge, leurs capaci
 | Base +12
 | Base +18
 | Base ×7
-|- CLASS="alt"
+|-
 | 8 Vieux
 | 401–600
 | Base +11
@@ -102,7 +154,7 @@ Au fur et à mesure que les dragons véritables prennent de l'âge, leurs capaci
 | Base +16
 | Base +24
 | Base ×9
-|- CLASS="alt"
+|-
 | 10 Vénérable
 | 801–1 000
 | Base +13
@@ -118,7 +170,7 @@ Au fur et à mesure que les dragons véritables prennent de l'âge, leurs capaci
 | Base +20
 | Base +30
 | Base ×11
-|- CLASS="alt"
+|-
 | 12 Grand dracosire
 | 1 201+
 | Base +16
@@ -127,8 +179,6 @@ Au fur et à mesure que les dragons véritables prennent de l'âge, leurs capaci
 | Base +33
 | Base ×12
 |}
-</center>
-
 
 '''Catégorie d'âge.''' C'est le nom de la catégorie d'âge.
 
@@ -144,8 +194,7 @@ Au fur et à mesure que les dragons véritables prennent de l'âge, leurs capaci
 
 '''Souffle.''' Tous les dragons possèdent un [[souffle]] (voir Combat) qui inflige une certaine quantité de dégâts de base. Le facteur indiqué augmente le nombre de dés de dégâts infligés par le souffle du dragon. Par exemple, si le souffle inflige des dégâts de base de 2d6 points d’acide, un dragon d’âge mûr occasionnerait 14d6 points de dégâts d’acide (grâce au facteur ×7).
 
-<center>
-{| CLASS="tablo"
+{| CLASS="tablo centre autoalt"
 |+ Caractéristiques des dragons
 |- CLASS="titre"
 | Catégorie d’âge
@@ -163,7 +212,7 @@ Au fur et à mesure que les dragons véritables prennent de l'âge, leurs capaci
 | Base
 | Base
 | Base
-|- CLASS="alt"
+|-
 | 2 Très jeune
 | Base +4
 | Base –2
@@ -179,7 +228,7 @@ Au fur et à mesure que les dragons véritables prennent de l'âge, leurs capaci
 | Base +2
 | Base +2
 | Base +2
-|- CLASS="alt"
+|-
 | 4 Adolescent
 | Base +10
 | Base –2
@@ -195,7 +244,7 @@ Au fur et à mesure que les dragons véritables prennent de l'âge, leurs capaci
 | Base +4
 | Base +4
 | Base +4
-|- CLASS="alt"
+|-
 | 6 Adulte
 | Base +14
 | Base –4
@@ -211,7 +260,7 @@ Au fur et à mesure que les dragons véritables prennent de l'âge, leurs capaci
 | Base +6
 | Base +6
 | Base +6
-|- CLASS="alt"
+|-
 | 8 Vieux
 | Base +18
 | Base –6
@@ -227,7 +276,7 @@ Au fur et à mesure que les dragons véritables prennent de l'âge, leurs capaci
 | Base +8
 | Base +8
 | Base +8
-|- CLASS="alt"
+|-
 | 10 Vénérable
 | Base +22
 | Base –6
@@ -243,7 +292,7 @@ Au fur et à mesure que les dragons véritables prennent de l'âge, leurs capaci
 | Base +10
 | Base +10
 | Base +10
-|- CLASS="alt"
+|-
 | 12 Grand dracosire
 | Base +26
 | Base –8
@@ -252,18 +301,15 @@ Au fur et à mesure que les dragons véritables prennent de l'âge, leurs capaci
 | Base +12
 | Base +12
 |}
-</center>
-
 
 ===Combat===
 La table des attaques et vitesses des dragons indique les attaques dont un dragon dispose et les dégâts qu’elles infligent (un trait signifie qu'un dragon de cette taille ne peut pas utiliser l’attaque naturelle correspondante). Les dragons acquièrent les autres capacités décrites ci-dessous lorsqu'ils atteignent la catégorie d’âge mentionnée.
 
-<center>
-{| CLASS="tablo"
-|+ Attaques et vitesses des dragons
+{| CLASS="tablo centre autoalt"
+|+ Attaques et vitesses des dragons véritables
 |- CLASS="titre"
 | Taille
-| Vitesse de vol (manoeuvrabilité)
+| Vitesse de vol (manœuvrabilité)
 | 1 morsure
 | 2 griffes
 | 2 ailes 
@@ -283,7 +329,7 @@ La table des attaques et vitesses des dragons indique les attaques dont un drago
 | —
 | 9 m (6&nbsp;{s:c})
 | 4,50 m (3&nbsp;{s:c})
-|- CLASS="alt"
+|-
 | Petit
 | 45 m (30 {s:c}) (moyenne) 
 | 1d6
@@ -305,7 +351,7 @@ La table des attaques et vitesses des dragons indique les attaques dont un drago
 | —
 | 18 m (12&nbsp;{s:c})
 | 9 m (6&nbsp;{s:c})
-|- CLASS="alt"
+|-
 | Grand
 | 60 m (40 {s:c}) (médiocre) 
 | 2d6
@@ -327,7 +373,7 @@ La table des attaques et vitesses des dragons indique les attaques dont un drago
 | —
 | 30 m (20&nbsp;{s:c})
 | 15 m (10&nbsp;{s:c})
-|- CLASS="alt"
+|-
 | Gigantesque
 | 75 m (60 {s:c}) (déplorable) 
 | 4d6
@@ -350,7 +396,6 @@ La table des attaques et vitesses des dragons indique les attaques dont un drago
 | 42 m (28 {s:c})
 | 21 m (14 {s:c})
 |}
-</center>
 
 '''Vitesse de vol.''' La vitesse de vol du dragon augmente en fonction de sa taille, comme indiqué sur la table.
 
@@ -360,14 +405,11 @@ La table des attaques et vitesses des dragons indique les attaques dont un drago
 
 '''Ailes.''' Le dragon peut frapper ses ennemis à l’aide de ses ailes, même lorsqu'il vole. Les attaques d’ailes sont des attaques secondaires qui infligent les dégâts indiqués plus la moitié du bonus de Force du dragon.
 
-{s:Reference|COUPDEQUEUE}
-'''Coup de queue.''' Chaque round, la queue du dragon peut frapper un ennemi. Un coup de queue est une attaque secondaire qui inflige la quantité de dégâts indiquée plus 1,5 fois le bonus de Force du dragon (il s’agit d’une exception aux règles sur les attaques secondaires).
+{s:Reference|COUPDEQUEUE}'''Coup de queue.''' Chaque round, la queue du dragon peut frapper un ennemi. Un coup de queue est une attaque secondaire qui inflige la quantité de dégâts indiquée plus 1,5 fois le bonus de Force du dragon (il s’agit d’une exception aux règles sur les attaques secondaires).
 
-{s:Reference|ECRASEMENT}
-'''Écrasement (Ext).''' Lorsqu’un dragon de taille supérieure ou égale à TG vole ou saute, il peut atterrir sur ses ennemis par une [[action simple]] et utiliser son corps pour les écraser. Les attaques d’écrasement fonctionnent seulement contre des adversaires possédant au moins trois catégories de taille de moins que le dragon et affectent autant de créatures qu’il est possible d’en caser dans l’espace occupé par le dragon. Les créatures qui se trouvent dans la zone affectée doivent effectuer un jet de [[Réflexes]] (de DD égal à celui du souffle du dragon). En cas d’échec, elles sont [[immobilisé|immobilisées]] (comme s’il s’agissait d’une lutte) et subissent automatiquement des dégâts de type contondant au cours du round suivant (à moins que le dragon ne les libère en se déplaçant). Si le dragon choisit de continuer à les immobiliser (techniquement, de maintenir sa prise), il doit réussir un test de [[manoeuvre offensive|manoeuvre de combat]] conformément aux règles normales. Les ennemis immobilisés subissent les dégâts d’écrasement chaque round à moins de parvenir à se libérer. Une attaque d’écrasement inflige les dégâts indiqués plus 1,5 fois le bonus de Force du dragon.
+{s:Reference|ECRASEMENT}'''Écrasement (Ext).''' Lorsqu’un dragon de taille supérieure ou égale à TG vole ou saute, il peut atterrir sur ses ennemis par une [[action simple]] et utiliser son corps pour les écraser. Les attaques d’écrasement fonctionnent seulement contre des adversaires possédant au moins trois catégories de taille de moins que le dragon et affectent autant de créatures qu’il est possible d’en caser dans l’espace occupé par le dragon. Les créatures qui se trouvent dans la zone affectée doivent effectuer un jet de [[Réflexes]] (de DD égal à celui du souffle du dragon). En cas d’échec, elles sont [[immobilisé|immobilisées]] (comme s’il s’agissait d’une lutte) et subissent automatiquement des dégâts de type contondant au cours du round suivant (à moins que le dragon ne les libère en se déplaçant). Si le dragon choisit de continuer à les immobiliser (techniquement, de maintenir sa prise), il doit réussir un test de [[manoeuvre offensive|manoeuvre de combat]] conformément aux règles normales. Les ennemis immobilisés subissent les dégâts d’écrasement chaque round à moins de parvenir à se libérer. Une attaque d’écrasement inflige les dégâts indiqués plus 1,5 fois le bonus de Force du dragon.
 
-{s:Reference|BALAYAGEQUEUE}
-'''Balayage avec la queue (Ext).''' Cette attaque permet aux dragons Gigantesques ou Colossaux de balayer une zone avec leur queue par une [[action simple]]. Le balayage affecte un demi-cercle de 9 m (6 {s:c}) de rayon (12 m (8 {s:c}) dans le cas d’un dragon Colossal) centré sur n’importe quelle intersection située sur le bord de la zone occupée par le dragon. Seules les créatures qui se trouvent dans cette zone et qui ont au moins quatre catégories de taille de moins que le dragon sont affectées. Un balayage avec la queue inflige automatiquement les dégâts indiqués plus 1,5 fois le bonus de Force du dragon (en arrondissant vers le bas). Les créatures affectées peuvent effectuer un jet de [[Réflexes]] pour diminuer les dégâts de moitié (le DD est égal à celui du souffle du dragon).
+{s:Reference|BALAYAGEQUEUE}'''Balayage avec la queue (Ext).''' Cette attaque permet aux dragons Gigantesques ou Colossaux de balayer une zone avec leur queue par une [[action simple]]. Le balayage affecte un demi-cercle de 9 m (6 {s:c}) de rayon (12 m (8 {s:c}) dans le cas d’un dragon Colossal) centré sur n’importe quelle intersection située sur le bord de la zone occupée par le dragon. Seules les créatures qui se trouvent dans cette zone et qui ont au moins quatre catégories de taille de moins que le dragon sont affectées. Un balayage avec la queue inflige automatiquement les dégâts indiqués plus 1,5 fois le bonus de Force du dragon (en arrondissant vers le bas). Les créatures affectées peuvent effectuer un jet de [[Réflexes]] pour diminuer les dégâts de moitié (le DD est égal à celui du souffle du dragon).
 
 '''Souffle (Sur).''' Il faut une action simple pour utiliser un souffle. Un dragon ne peut souffler qu’une fois tous les 1d4 rounds, même s’il dispose de plusieurs souffles de types différents. Un souffle commence toujours à une intersection située sur le bord de la zone occupée par le dragon et s’étend dans la direction choisie par le dragon. Les souffles peuvent prendre la forme de lignes ou de cônes, dont la taille exacte dépend de la taille du dragon. Si un souffle inflige des dégâts, ceux qui se trouvent dans la zone affectée peuvent effectuer un jet de [[Réflexes]] pour les réduire de moitié. Le [[DD]] de ce [[jet de sauvegarde]] vaut 10 + la moitié du nombre de [[DV]] du dragon + son modificateur de [[Constitution]]. Les jets de sauvegarde associés aux autres types de souffle utilisent le même [[DD]] (le type du jet de sauvegarde est indiqué dans la description de chaque espèce de dragons). Un dragon peut utiliser son souffle lorsqu’il est en lutte (qu’il soit l’instigateur ou la victime de la lutte).
 
@@ -376,73 +418,13 @@ La table des attaques et vitesses des dragons indique les attaques dont un drago
 
 '''Pouvoirs magiques.''' Le [[NLS]] des pouvoirs magiques d’un dragon est égal à son nombre de [[DV]].
 
-{s:Reference|PRESENCETERRIFIANTE}
-'''Présence terrifiante (Ext).''' La présence terrifiante d’un dragon a une portée égale à 9 m (6 {s:c}) × la catégorie d’âge du dragon. À part cette différence, elle fonctionne comme indiqué [[présence terrifiante|ici]].
+{s:Reference|PRESENCETERRIFIANTE}'''Présence terrifiante (Ext).''' La présence terrifiante d’un dragon a une portée égale à 9 m (6 {s:c}) × la catégorie d’âge du dragon. À part cette différence, elle fonctionne comme indiqué [[présence terrifiante|ici]].
 
 '''Réduction de dégâts.''' Les dragons développent une capacité de [[RD|réduction de dégâts]] en vieillissant, comme indiqué dans les descriptions des espèces. Leurs attaques naturelles fonctionnent comme des armes magiques lorsqu’il 
 s’agit de déterminer si une [[RD]] s’applique.
 
 '''Résistance à la magie (Ext).''' En vieillissant, les dragons deviennent plus résistants aux sorts et aux pouvoirs magiques, comme indiqué dans leurs descriptions. La [[RM]] d’un dragon est égale à 11 + son [[FP]].
 
-{s:Reference|SENSDRACONIQUES}
-'''Sens draconiques (Ext).''' Les dragons possèdent les capacités de [[vision dans le noir]] à 36 m (24 {s:c}) et de [[perception aveugle]] à 18 m (12 {s:c}). Ils voient quatre fois plus loin que les humains sous une luminosité faible et deux fois plus loin sous une lumière normale.
+{s:Reference|SENSDRACONIQUES}'''Sens draconiques (Ext).''' Les dragons possèdent les capacités de [[vision dans le noir]] à 36 m (24 {s:c}) et de [[perception aveugle]] à 18 m (12 {s:c}). Ils voient quatre fois plus loin que les humains sous une luminosité faible et deux fois plus loin sous une lumière normale.
 
 '''Sorts.''' Un dragon connaît et lance des sorts profanes comme un [[ensorceleur]] du niveau indiqué dans sa description. Son [[NLS]] dépend de son âge et de son espèce.
-
-
-===Catégories de dragons===
-
-* Les dragons chromatiques
-** [[Dragon blanc]]
-** [[Dragon bleu]]
-** [[Dragon noir]]
-** [[Dragon rouge]]
-** [[Dragon vert]]
-* Les dragons métalliques
-** [[Dragon dairain|Dragon d'airain]]
-** [[Dragon dargent|Dragon d'argent]]
-** [[Dragon de bronze]]
-** [[Dragon de cuivre]]
-** [[Dragon dor|Dragon d'or]]
-* Les dragons primaires 
-** [[Dragon de cristal]] 
-** [[Dragon de magma]]
-** [[Dragon de saumure]] 
-** [[Dragon des nuages]] 
-** [[Dragon Umbral]] 
-* Les autres dragons
-** [[Dracolisque]]
-** [[Dragon dépines|Dragon d'épines]]
-** [[Dragon féerique]]
-** [[Dragon-tortue]]
-** [[Pseudo-dragon]]
-** [[Tatzlwyrm|Guivre]] (ou [[Tatzlwyrm]])
-** [[Kongamato]] 
-** [[Vouivre|Wyverne]] (ou [[Vouivre]])
-* Les [[Dragon impérial|dragons impériaux]]
-** [[Dragon impérial des forêts]]
-** [[Dragon impérial souverain]]
-** [[Dragon impérial du ciel]]
-** [[Dragon impérial des mers]]
-** [[Dragon impérial chtonien]]
-* Les [[Dragon sidéral|dragons sidéraux]]
-** [[Dragon du néant]]
-** [[Dragon du vortex]] 
-** [[Dragon lunaire]] 
-** [[Dragon solaire]] 
-** [[Dragon temporel]]
-** [[Dragon gardien]] 
-* Les Drakes
-** [[Drake d’ombre]] 
-** [[Drake de brume]]
-** [[Drake de lave]] 
-** [[Drake des crevasses]] 
-** [[Drake des rivières]] 
-** [[Drake des flammes]] 
-** [[Drake des forêts]] 
-** [[Drake des mers]] 
-** [[Drake des tertres]] 
-** [[Drake du désert]] 
-** [[Drake du froid]]
-
-

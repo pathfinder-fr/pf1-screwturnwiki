@@ -1,19 +1,26 @@
 ---
 Name: Pathfinder-RPG.Sort toxique
 Title: Sort toxique
-LastModified: 2017-08-05 18:45
+LastModified: 2020-09-03 18:49
+Categories:
+  - 'Contenu supplémentaire'
+  - 'Don'
+  - 'Don métamagie'
+  - 'Src Dirty Tactics Toolbox'
 ---
-{s:cs}''vous pouvez donner à l'un de vos sorts la puissance d'un poison''
+{s:cs|Dirty Tactics Toolbox}
 
-'''Catégorie''' Métamagie
+''vous pouvez donner à l'un de vos sorts la puissance d'un poison''
 
-'''Condition''' [[Artisanat]] (poison) 5 rangs, capacité à lancer des sorts de niveau 2, capacité ''utilisation du poison''
+'''Catégorie.''' [[dons#DONMETAMAGIE|métamagie]]
 
-'''Avantage''' Vous pouvez utiliser 1 dose d'un poison de contact, ingéré ou inhalé comme composante supplémentaire d'un sort que vous lancez. Ce sort obtient le descripteur poison. Choisissez une unique cible affectée par le sort. Si cette créature manque son jet de protection contre le sort, elle doit également tenter un jet de protection contre le poison utilisé comme composante supplémentaire. Si la cible manque le jet de protection contre le poison, celui-ci prend effet immédiatement, ignorant tout délai d'incubation. Le poison utilise son propre DD (plutôt que celui du sort) mais est modifié par tous les effets qui augmentent le DD du sort (comme École renforcée). 
+'''Conditions.''' 5 rangs en [[Artisanat]] (poison), capacité à lancer des sorts de niveau 2, capacité de classe [[Ninja#UTILISATIONDUPOISON|utilisation du poison]]
 
-Ce don ne fonctionne qu'avec les sorts dont les effets peuvent être annulés avec un jet de Vigueur réussi. 
+'''Avantage.''' Le personnage peut utiliser 1 dose d'un poison de contact, d'ingestion ou d'inhalation comme composante supplémentaire d'un sort qu'il lance. Ce sort obtient le [[registre]] poison. Le personnage choisit une unique cible affectée par le sort. Si cette créature rate son [[jds|jet de sauvegarde]] contre le sort, elle doit également tenter un [[jds|jet de sauvegarde]] contre le poison utilisé comme composante supplémentaire. Si la cible rate son [[jds|jet de sauvegarde]] contre le poison, celui-ci prend effet immédiatement, ignorant tout délai d'incubation. Le poison utilise son propre [[DD]] (plutôt que celui du sort) mais est modifié par tous les effets qui augmentent le [[DD]] du sort (comme [[École renforcée]]). 
 
-Un sort toxique utilise un emplacement de sort d'1 niveau supérieur que l'actuel niveau du sort.
+Ce don ne fonctionne qu'avec les sorts dont les effets peuvent être annulés avec un jet de [[Vigueur]] réussi. 
+
+Un sort toxique utilise un [[emplacement de sort]] d'un niveau de plus que le niveau réel du sort.
 
 (((Toxic Spell (Metamagic)
 
@@ -22,4 +29,3 @@ You can infuse a spell with the power of a poison.
 Prerequisites: Craft (poison) 5 ranks, ability to cast 2nd level spells, poison use class feature.
 
 Benefit: You can use 1 dose of contact, ingested, inhaled, or injury poison as an additional material component for a spell you cast. This spell gains the poison descriptor (Pathfinder RPG Ultimate Magic 138). Select a single creature affected by the spell. If that creature fails its saving throw against the spell, it must also attempt a saving throw against the poison used as a material component. If the target fails the save against the poison, the poison takes effect immediately, ignoring any onset time. The poison uses its save DC (rather than the save DC of the spell), but is modified by any effects that increase the spell’s DC (such as Spell Focus). This feat works only with spells whose effects can be negated by a successful Fortitude save. A toxic spell uses up a spell slot 1 level higher than the spell’s actual level.)))
-

@@ -1,32 +1,21 @@
 ---
 Name: Pathfinder-RPG.Enquêteur
-Title: Enquêteur
-LastModified: 2020-06-19 12:10
+Title: L'enquêteur
+LastModified: 2021-07-18 11:33
 Categories:
   - 'Classe'
-  - 'Manuel des Classes avancées'
-  - 'Règles officielles'
+  - 'Règle officielle'
+  - 'Src Manuel des joueurs - Classes avancées'
 ---
 {s:menuclasseshybrides}
-<div class="fright">'''''Voir aussi la [[Liste des formules dalchimiste|liste des formules d'alchimiste]].'''''<br/>'''''Voir aussi les [[talents (enquêteur)|talents d'enquêteur]]'''''<br/>
-{s:PM0|enquêteur}'''''Voir aussi les archétypes de l'enquêteur'''''&emsp;
-<ul ID="enquêteur" CLASS="listecachée cadrebas">
-  <li>[[Conspirateur (Enquêteur)|Conspirateur]] (MCA)</li>
-  <li>[[Détective psychique (Enquêteur)|Détective psychique]] (AO)</li>
-  <li>[[Empiriste (Enquêteur)|Empiriste]] (MCA)</li>
-  <li>[[Enquêteur infiltré (Enquêteur)|Enquêteur infiltré]] (MCA)</li>
-  <li>[[Harceleur dacier (Enquêteur)|Harceleur d'acier]] (MCA)</li>
-  <li>[[Inspecteur de Lepidstadt (enquêteur)|Inspecteur de la cité des sciences pragmatiques]] (MCA)</li>
-  <li>[[Limier (Enquêteur)|Limier]] (MCA)</li>
-  <li>[[Spiritualiste (Enquêteur)|Spiritualiste]] (MCA)</li>
-</ul></div>
+<div class="fright">'''''Voir aussi les [[talents (enquêteur)|talents d'enquêteur]].'''''  
+'''''Voir aussi la [[Liste des formules dalchimiste|liste des formules d'alchimiste]].'''''  
+{s:PM0|enquêteur}'''Voir les archétypes de l'enquêteur'''&emsp;
+  <li ID="enquêteur" CLASS="listecachée" STYLE="display:none">{s:Menuarchétypeenquêteur}</li>
+</div>{s:mca}''Que l’enquêteur soit sur la piste d’un fugitif, d’un trésor perdu ou d’un grand criminel, il est animé d’une immense curiosité vis-à-vis du monde et utilise ses connaissances comme une arme. Mêlant cran et érudition en une alchimie téméraire personnelle, il se montre plein de surprises. Il observe le monde qui l’entoure, en tire de précieuses informations sur sa situation actuelle, analyse ces éléments avec une dose d’inspiration et de déduction et s’attaque directement au coeur du sujet en prenant des raccourcis inattendus. Un enquêteur évalue toujours la situation actuelle, jauge ses adversaires potentiels et guette les dangers cachés, tout en mobilisant ses vastes connaissances et ses perceptions développées pour trouver une solution aux problèmes les plus complexes.''
 
-{s:mca}''Que l’enquêteur soit sur la piste d’un fugitif, d’un trésor perdu ou d’un grand criminel, il est animé d’une immense curiosité vis-à-vis du monde et utilise ses connaissances comme une arme. Mêlant cran et érudition en une alchimie téméraire personnelle, il se montre plein de surprises. Il observe le monde qui l’entoure, en tire de précieuses informations sur sa situation actuelle, analyse ces éléments avec une dose d’inspiration et de déduction et s’attaque directement au coeur du sujet en prenant des raccourcis inattendus. Un enquêteur évalue toujours la situation actuelle, jauge ses adversaires potentiels et guette les dangers cachés, tout en mobilisant ses vastes connaissances et ses perceptions développées pour trouver une solution aux problèmes les plus complexes.''
-
-{s:Reference|TABLEENQUETEUR}
-<center>
-{| CLASS="tablo"
-|+ L'Enquêteur
+{| CLASS="tablo centre"
+|+ {s:Reference|TABLEENQUETEUR}L'enquêteur
 |- CLASS="titre"
 | ROWSPAN="2" | Niveau
 | ROWSPAN="2" | BBA
@@ -43,7 +32,6 @@ Categories:
 | 5e
 | 6e
 |- CLASS="premier"
-
 | 1
 | +0
 | +2
@@ -56,7 +44,6 @@ Categories:
 | -
 | -
 | -
-
 |- CLASS="alt"
 | 2
 | +1
@@ -70,49 +57,45 @@ Categories:
 | -
 | -
 | -
-
 |-
 | 3
 | +2
 | +3
 | +1
 | +3
-| CLASS="gauche" | [[enquêteur#TALENT|Talent d’enquêteur]], [[enquêteur#SOUVENIRPRECIS|souvenir précis]], [[enquêteur#SENSDESPIEGES|sens des pièges]] +1
+| CLASS="gauche" | [[enquêteur#SENSDESPIEGES|Sens des pièges]] +1, [[enquêteur#SOUVENIRPRECIS|souvenir précis]], [[enquêteur#TALENT|talent d’enquêteur]]
 | 3
 | -
 | -
 | -
 | -
 | -
-
 |- CLASS="alt"
 | 4
 | +3
 | +4
 | +1
 | +4
-| CLASS="gauche" | [[enquêteur#COMBATETUDIE|Combat étudié]], [[enquêteur#FRAPPEETUDIEE|frappe étudiée]] +1d6, [[enquêteur#ALCHIMIERAPIDE|alchimie rapide]]
+| CLASS="gauche" | [[enquêteur#ALCHIMIERAPIDE|Alchimie rapide]], [[enquêteur#COMBATETUDIE|combat étudié]], [[enquêteur#FRAPPEETUDIEE|frappe étudiée]] +1d6
 | 3
 | 1
 | -
 | -
 | -
 | -
-
 |-
 | 5
 | +3
 | +4
 | +1
 | +4
-| CLASS="gauche" | [[enquêteur#TALENT|Talent d’enquêteur]], [[enquêteur#RESISTANCEAUPOISON|résistance aux poisons]] +4
+| CLASS="gauche" | [[enquêteur#RESISTANCEAUPOISON|Résistance aux poisons]] +4, [[enquêteur#TALENT|talent d’enquêteur]]
 | 4
 | 2
 | -
 | -
 | -
 | -
-
 |- CLASS="alt"
 | 6
 | +4
@@ -126,7 +109,6 @@ Categories:
 | -
 | -
 | -
-
 |-
 | 7
 | +5
@@ -140,63 +122,58 @@ Categories:
 | -
 | -
 | -
-
 |- CLASS="alt"
 | 8
 | +6/+1
 | +6
 | +2
 | +6
-| CLASS="gauche" | [[enquêteur#RESISTANCEAUXPOISONS|Résistance aux poisons]] +6, [[enquêteur#FRAPPEETUDIEE|frappe étudiée]] +3d6
+| CLASS="gauche" | [[enquêteur#FRAPPEETUDIEE|Frappe étudiée]] +3d6, [[enquêteur#RESISTANCEAUXPOISONS|résistance aux poisons]] +6
 | 4
 | 4
 | 2
 | -
 | -
 | -
-
 |-
 | 9
 | +6/+1
 | +6
 | +3
 | +6
-| CLASS="gauche" | [[enquêteur#TALENT|Talent d’enquêteur]], [[enquêteur#SENSDESPIEGES|sens des pièges]] +3
+| CLASS="gauche" | [[enquêteur#SENSDESPIEGES|Sens des pièges]] +3, [[enquêteur#TALENT|talent d’enquêteur]]
 | 5
 | 4
 | 3
 | -
 | -
 | -
-
 |- CLASS="alt"
 | 10
 | +7/+2
 | +7
 | +3
 | +7
-| CLASS="gauche" | [[enquêteur#FRAPPEETUDIEE|frappe étudiée]] +4d6
+| CLASS="gauche" | [[enquêteur#FRAPPEETUDIEE|Frappe étudiée]] +4d6
 | 5
 | 4
 | 3
 | 1
 | -
 | -
-
 |-
 | 11
 | +8/+3
 | +7
 | +3
 | +7
-| CLASS="gauche" | [[enquêteur#TALENT|Talent d’enquêteur]], [[enquêteur#IMMUNITEAUPOISON|immunité aux poisons]]
+| CLASS="gauche" | [[enquêteur#IMMUNITEAUPOISON|Immunité aux poisons]], [[enquêteur#TALENT|Talent d’enquêteur]]
 | 5
 | 4
 | 4
 | 2
 | -
 | -
-
 |- CLASS="alt"
 | 12
 | +9/+4
@@ -210,7 +187,6 @@ Categories:
 | 3
 | -
 | -
-
 |-
 | 13
 | +9/+4
@@ -224,7 +200,6 @@ Categories:
 | 3
 | 1
 | -
-
 |- CLASS="alt"
 | 14
 | +10/+5
@@ -238,21 +213,19 @@ Categories:
 | 4
 | 2
 | -
-
 |-
 | 15
 | +11/+6/+1
 | +9
 | +5
 | +9
-| CLASS="gauche" | [[enquêteur#TALENT|Talent d’enquêteur]], [[enquêteur#SENSDESPIEGES|sens des pièges]] +5
+| CLASS="gauche" | [[enquêteur#SENSDESPIEGES|Sens des pièges]] +5, [[enquêteur#TALENT|talent d’enquêteur]]
 | 5
 | 5
 | 5
 | 4
 | 3
 | -
-
 |- CLASS="alt"
 | 16
 | +12/+7/+2
@@ -267,7 +240,6 @@ Categories:
 | 3
 | 1
 |-
-
 | 17
 | +12/+7/+2
 | +10
@@ -280,7 +252,6 @@ Categories:
 | 4
 | 4
 | 2
-
 |- CLASS="alt"
 | 18
 | +13/+8/+3
@@ -294,7 +265,6 @@ Categories:
 | 5
 | 4
 | 3
-
 |-
 | 19
 | +14/+9/+4
@@ -308,7 +278,6 @@ Categories:
 | 5
 | 5
 | 4
-
 |- CLASS="alt"
 | 20
 | +15/+10/+5
@@ -323,27 +292,18 @@ Categories:
 | 5
 | 5
 |}
-</center>
 
 {s:ImageDroite|Illustrations/PNJ/Quinn.jpg|30%}
 
+'''Rôle.''' Les enquêteurs aiment résoudre des mystères et trouver des solutions inventives à leurs problèmes. Ils servent de conseillers et de soutiens au sein de leur groupe mais occupent le devant de la scène dès qu’il faut faire preuve de ruse ou d’érudition. Ils ne sont pas en reste lors des combats car ils sont particulièrement doués pour les attaques surprises et tirent parti de leur inspiration pour parvenir à toucher l’ennemi.
 
-
-
-'''Rôle.'''
-Les enquêteurs aiment résoudre des mystères et trouver
-des solutions inventives à leurs problèmes. Ils servent de
-conseillers et de soutiens au sein de leur groupe mais occupent
-le devant de la scène dès qu’il faut faire preuve de ruse ou d’érudition.
-Ils ne sont pas en reste lors des combats car ils sont particulièrement
-doués pour les attaques surprises et tirent parti
-de leur inspiration pour parvenir à toucher l’ennemi.
+'''Classes mères.''' [[Alchimiste]] et [[Roublard|roublard]].
 
 '''Alignement.''' Tous.
 
 '''Dé de vie.''' d8.
 
-'''Classes mères.''' Alchimiste et roublard.
+'''Argent de départ.''' 3d6 x 10 po (moyenne 105 po).
 
 ===compétences de classe===
 Voici les compétences de classe de l’enquêteur : [[Acrobaties]] (Dex), [[Art de la magie]] (Int), [[Artisanat]] (Int), [[Bluff]] (Cha), [[Connaissances]] (toutes) (Int), [[Déguisement]] (Cha), [[Diplomatie]] (Cha), [[Discrétion]] (Dex), [[Escalade]] (For), [[Escamotage]] (Dex), [[Estimation]] (Int), [[Évasion]] (Dex), [[Intimidation]] (Cha), [[Linguistique]] (Int), [[Perception]] (Sag), [[Premiers secours]] (Sag), [[Profession]] (Sag), [[Psychologie]] (Sag), [[Représentation]] (Cha), [[Sabotage]] (Dex) et [[Utilisation dObjets Magiques|Utilisation d’objets magiques]] (Cha).
@@ -351,7 +311,6 @@ Voici les compétences de classe de l’enquêteur : [[Acrobaties]] (Dex), [[Art
 '''Rangs de compétence par niveau.''' 6 + modificateur d’[[Intelligence]]
 
 ===descriptif de la classe===
-
 Voici les aptitudes de classe de l’enquêteur.
 
 ====Armes et armures====
@@ -394,7 +353,6 @@ Un enquêteur ajoute la moitié de son niveau aux tests de [[Perception]] pour r
 Un enquêteur connaît bien les [[poisons]]. Au niveau 2, il n’a aucun risque de s’empoisonner lui-même en appliquant un poison sur une arme. S’il passe une minute à examiner physiquement un poison, il a droit à un test de [[Connaissances]] (nature) pour identifier un poison naturel et à un test de [[Connaissances]] (mystères) pour identifier un poison magique. Le [[DD]] d’identification est égal au DD du jet de sauvegarde pour résister au poison. Enfin, une fois le poison identifié, il peut passer 1 minute à effectuer un test d’[[Artisanat]] (alchimie) (DD égal au DD du jet de sauvegarde contre le poison) pour neutraliser une dose de ce poison. En cas de succès, la dose de poison devient inoffensive. L’enquêteur ne court aucun risque de s’empoisonner quand il examine le poison ou tente de le neutraliser.
 
 {s:Reference|RESISTANCEAUPOISON}{s:Reference|IMMUNITEAUPOISON}{s:Reference|RESISTANCEAUXPOISONS}
-
 ====Résistance au poison (Ext)====
 Au niveau 2, l’enquêteur gagne un bonus de résistance de +2 aux jets de sauvegarde contre le poison. Ce bonus passe à +4 au niveau 5 et à +6 au niveau 8. Au niveau 11, l’enquêteur est complètement immunisé contre le poison.
 
@@ -429,7 +387,7 @@ Les dégâts de la frappe étudiée sont des dégâts de précision non multipli
 
 Les créatures immunisées contre les [[Roublard#ATTAQUESOURNOISE|attaques sournoises]] sont aussi immunisées contre la frappe étudiée.
 
-Si l’enquêteur attaque avec une arme qui inflige des dégâts [[non létal|non-létaux]] (comme une matraque, un fouet ou à mains nues), il peut convertir les dégâts supplémentaires de la frappe étudiée en dégâts non-létaux au lieu de létaux. Si l’enquêteur porte une attaque avec une arme létale mais choisit d’infliger des dégâts non-létaux (avec le malus habituel de –4), les dégâts de la frappe étudiée peuvent aussi être de type non-létaux. 
+Si l’enquêteur attaque avec une arme qui inflige des dégâts [[Blessures et mort#NONLETAL|non-létaux]] (comme une matraque, un fouet ou à mains nues), il peut convertir les dégâts supplémentaires de la frappe étudiée en dégâts non-létaux au lieu de létaux. Si l’enquêteur porte une attaque avec une arme létale mais choisit d’infliger des dégâts non-létaux (avec le malus habituel de –4), les dégâts de la frappe étudiée peuvent aussi être de type non-létaux. 
 
 L’enquêteur doit voir la cible assez clairement pour repérer un point vital et il doit être en mesure de l’atteindre.
 

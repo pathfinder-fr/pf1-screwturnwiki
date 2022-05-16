@@ -1,0 +1,100 @@
+<script>
+function titre(idx,elem) {
+    if ($(elem).text().trim() == "Non")
+        $(elem).hide();
+    else if ($(elem).text().trim() == "Oui") {
+        $(elem).text(elem.dataset.prefixe);
+    }
+}
+
+function hideIfEmpty(idx, elem) {
+    if ($(elem).text().trim() == "")
+        $(elem).hide();
+    else if (elem.dataset.prefixe !== undefined) {
+        $(elem).html(elem.dataset.prefixe + $(elem).html());
+        delete elem.dataset.prefixe;
+    }
+}
+
+$(() => {
+	$(".hideifempty").each(hideIfEmpty);
+	$(".titre").each(titre);
+	});
+</script>
+<table class="Bestiaire"><tr><td>
+	<div class="BD">
+		<div class="BDtitre">?2?<div style="float:right;" class="hideifempty" data-prefixe=" /RM ">?5?</div><div style="float:right;">FP ?4?</div>
+		</div>
+		<div style="float:right">
+			<img title="?7?" class="opachover" src="/Wiki/public/Upload/Projets/Puces pour monstres/?7?.png" style="opacity: 1" />
+			<img title="?8?" class="opachover" src="/Wiki/public/Upload/Projets/Puces pour monstres/?8?.png" style="opacity: 1" />
+			<img title="?9?" class="opachover" src="/Wiki/public/Upload/Projets/Puces pour monstres/?9?.png" style="opacity: 1" />
+		</div>
+		<div class="BDtexte">''Source : ?11?''</div>
+		<div class="BDtexte">'''PX''' ?13?</div>
+		<div class="BDtexte">?15?</div>
+		<div class="BDtexte">?17?</div>
+		<div class="BDtexte">'''Init''' ?19? ; '''Sens''' ?20? ; [[Perception]] ?21?</div>
+		<div class="BDtexte hideifempty" data-prefixe="'''Aura''' ">?23?</div>
+		<div class="BDsoustitre">Défense</div>
+		<div class="BDtexte">'''CA''' ?25?</div>
+		<div class="BDtexte">'''pv''' ?27?</div>
+		<div class="BDtexte">'''Réf''' ?29?, '''Vig''' ?30?, '''Vol''' ?31?</div>
+		<div class="BDtexte hideifempty">?33?</div>
+		<div class="BDsoustitre">Attaque</div>
+		<div class="BDtexte">'''VD''' ?35?</div>
+		<div class="BDtexte hideifempty" data-prefixe="'''Corps à corps''' ">?37?</div>
+		<div class="BDtexte hideifempty" data-prefixe="'''Distance''' ">?39?</div>
+		<div class="BDtexte hideifempty" data-prefixe="'''Espace''' " style="display:inline-block">?41?</div>
+		<div class="BDtexte hideifempty" data-prefixe=" ; '''Allonge''' " style="display:inline-block">?42?</div>
+		<div class="BDtexte hideifempty" data-prefixe="'''Attaques spéciales''' ">?44?</div>
+		<div class="BDtexte hideifempty" data-prefixe="'''Pouvoirs magiques''' ">?46?</div>
+		<div class="BDsorts hideifempty">?47?</div>
+		<div class="BDsorts hideifempty">?48?</div>
+		<div class="BDsorts hideifempty">?49?</div>
+		<div class="BDsorts hideifempty">?50?</div>
+		<div class="BDsorts hideifempty">?51?</div>
+		<div class="BDsorts hideifempty">?52?</div>
+		<div class="BDtexte hideifempty" data-prefixe="'''Sorts''' ">?54?</div>
+		<div class="BDsorts hideifempty">?55?</div>
+		<div class="BDsorts hideifempty">?56?</div>
+		<div class="BDsorts hideifempty">?57?</div>
+		<div class="BDsorts hideifempty">?58?</div>
+		<div class="BDsorts hideifempty">?59?</div>
+		<div class="BDsorts hideifempty">?60?</div>
+		<div class="BDsorts hideifempty">?61?</div>
+		<div class="BDsorts hideifempty">?62?</div>
+		<div class="BDsorts hideifempty">?63?</div>
+		<div class="BDsorts hideifempty">?64?</div>
+		<div class="BDtexte hideifempty">?66?</div>
+		<div class="BDsoustitre titre" data-prefixe="Tactique">?68?</div>
+		<div class="BDtexte hideifempty">?69?</div>
+		<div class="BDtexte hideifempty">?70?</div>
+		<div class="BDtexte hideifempty">?71?</div>
+		<div class="BDtexte hideifempty">?72?</div>
+		<div class="BDsoustitre">Caractéristiques</div>
+		<div class="BDtexte">'''For''' ?74?, '''Dex''' ?75?, '''Con''' ?76?, '''Int''' ?77?, '''Sag''' ?78?, '''Cha''' ?79?</div>
+		<div class="BDtexte">'''BBA''' ?81?, '''BMO''' ?82?, '''DMD''' ?83?</div>
+		<div class="BDtexte hideifempty" data-prefixe="'''Dons''' ">?85?</div>
+		<div class="BDtexte">'''Compétences''' ?87?</div>
+		<div class="BDtexte hideifempty" data-prefixe="'''Langues''' ">?89?</div>
+		<div class="BDtexte hideifempty" data-prefixe="'''Particularités''' ">?91?</div>
+		<div class="BDsoustitre">Écologie</div>
+		<div class="BDtexte hideifempty" data-prefixe="'''Environnement''' ">?93?</div>
+		<div class="BDtexte hideifempty" data-prefixe="'''Organisation sociale''' ">?95?</div>
+		<div class="BDtexte hideifempty" data-prefixe="'''Trésor''' ">?97?</div>
+		<div class="BDsoustitre titre" data-prefixe="Pouvoirs spéciaux">?99?</div>
+		<div class="BDtexte hideifempty">?100?</div>
+		<div class="BDtexte hideifempty">?101?</div>
+		<div class="BDtexte hideifempty">?102?</div>
+		<div class="BDtexte hideifempty">?103?</div>
+		<div class="BDtexte hideifempty">?104?</div>
+		<div class="BDtexte hideifempty">?105?</div>
+		<div class="BDsoustitre titre" data-prefixe="Équipement">?107?</div>
+		<div class="BDtexte hideifempty" style="display:inline-block">?108?</div>
+		<div class="BDtexte hideifempty" style="display:inline-block">?109?</div>
+	</div>
+</td><td>
+	<div class="hideifempty">?111?
+	</div>
+</td></tr></table>

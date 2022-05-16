@@ -1,10 +1,10 @@
 ---
 Name: Pathfinder-RPG.Engins de siège
 Title: Engins de siège
-LastModified: 2020-06-18 22:58
+LastModified: 2022-04-03 04:12
 Categories:
-  - 'Art de la guerre'
-  - 'Règles officielles'
+  - 'Règle officielle'
+  - 'Src Art de la guerre'
 ---
 <div style="float: right; padding: 0 0 8px 8px">{toc}</div>'''''Retour au [[tableau récapitulatif des engins de siège]].'''''
 
@@ -71,9 +71,9 @@ Voici l’explication des diverses entrées des tables d’équipement des engin
 
 {s:Reference|EQUIPE}'''Équipe.''' Cette colonne indique le nombre de créatures nécessaires pour utiliser l’engin de siège (en partant du principe qu’elles sont de [[taille]] M). On peut utiliser certains engins avec moins de monde mais il faut alors plus de temps pour viser, tirer et déplacer la machine.
 
-{s:Reference|VISER}'''Viser.''' Cette colonne indique le nombre d’[[action complexe|actions complexes]] nécessaires pour viser avec une arme de siège (ou d’[[action de mouvement|actions de mouvement]] si le chef d’équipe possède le don [[Ingénieur de siège]]). Si l’équipe qui s’occupe de l’engin est moins nombreuse que nécessaire, le nombre d’actions nécessaires double.
+{s:Reference|VISER}'''Viser.''' Cette colonne indique le nombre d’[[action complexe|actions complexes]] nécessaires pour viser avec une arme de siège (ou d’[[action de mouvement|actions de mouvement]] si le chef d’équipe possède le don [[Maître ingénieur de siège]]). Si l’équipe qui s’occupe de l’engin est moins nombreuse que nécessaire, le nombre d’actions nécessaires double.
 
-{s:Reference|CHARGEMENT}'''Chargement.''' Cette colonne indique le nombre d’[[action complexe|actions complexes]] nécessaires pour charger l’arme de siège (ou d’actions de mouvement si le chef d’équipe possède le don [[Ingénieur de siège]]).
+{s:Reference|CHARGEMENT}'''Chargement.''' Cette colonne indique le nombre d’[[action complexe|actions complexes]] nécessaires pour charger l’arme de siège (ou d’actions de mouvement si le chef d’équipe possède le don [[Maître ingénieur de siège]]).
 
 {s:Reference|VITESSE}'''Vitesse.''' C’est la vitesse de déplacement de l’arme quand toute son équipe fait une [[action de mouvement]]. 
 
@@ -81,9 +81,9 @@ Voici l’explication des diverses entrées des tables d’équipement des engin
 ===Engins de siège à distance===
 Un engin de siège à distance attaque les gens et les structures de loin, en projetant une munition. Il y a deux manières d’envoyer un projectile massif : directement ou indirectement et les deux demandent un certain nombre d’actions pour charger ou viser. Voici les règles de base.
 
-'''Charger des munitions.''' Pour tirer avec un engin de siège à distance, il faut charger des munitions, ce qui demande un nombre d’actions qui dépend de la machine (on peut réduire cette durée à des [[action de mouvement|actions de mouvement]] si le chef d’équipe possède le don [[Ingénieur de siège]]).
+'''Charger des munitions.''' Pour tirer avec un engin de siège à distance, il faut charger des munitions, ce qui demande un nombre d’actions qui dépend de la machine (on peut réduire cette durée à des [[action de mouvement|actions de mouvement]] si le chef d’équipe possède le don [[Maître ingénieur de siège]]).
 
-'''Viser avec une arme de siège.''' Pour attaquer une cible, il faut la viser (pour un engin de siège de tir direct) ou viser une case (pour un engin de siège de tir indirect). Pour viser, il faut un nombre d’[[action complexe|actions complexes]] qui dépend de la machine (on peut réduire cette durée à des [[action de mouvement|actions de mouvement]] si le chef d’équipe possède le don [[Ingénieur de siège]]). Si l’équipe de la machine n’est pas au complet, il lui faut deux fois plus longtemps pour viser. À chaque fois que l’équipe choisit une nouvelle cible ou une nouvelle case, il faut viser de nouveau.
+'''Viser avec une arme de siège.''' Pour attaquer une cible, il faut la viser (pour un engin de siège de tir direct) ou viser une case (pour un engin de siège de tir indirect). Pour viser, il faut un nombre d’[[action complexe|actions complexes]] qui dépend de la machine (on peut réduire cette durée à des [[action de mouvement|actions de mouvement]] si le chef d’équipe possède le don [[Maître ingénieur de siège]]). Si l’équipe de la machine n’est pas au complet, il lui faut deux fois plus longtemps pour viser. À chaque fois que l’équipe choisit une nouvelle cible ou une nouvelle case, il faut viser de nouveau.
 
 '''Engins de siège à distance à tir direct.''' Les armes de tir direct lancent leurs projectiles selon une trajectoire plus ou moins plane, ce qui leur permet de viser les créatures ou les barrières situées devant elles. Une arme de tir direct utilise un jet d’attaque normal, avec le malus habituel pour un utilisateur qui n’est pas formé.
 De plus, elle subit un malus de -2 au jet d’attaque à chaque fois qu’une catégorie de [[taille]] la sépare de la créature qui vise. Une créature qui possède des rangs en [[Connaissances]] (ingénierie) ou qui utilise une plate-forme de visée (voir plus bas) ne subit pas d’effet négatif quand elle tire avec un engin de siège de tir direct. On peut aussi compenser les malus de taille en augmentant la force de travail : une créature de plus dans l’équipe réduit le malus de [[taille]]. Tant que l’ouvrier supplémentaire n’est pas d’une catégorie de [[taille]] trois fois inférieure à celle de l’engin, il réduit le malus de taille de visée de 2. Par exemple, si une créature M tire avec une baliste TG en équipe de deux (la créature qui vise et celle qui aide à positionner la baliste), elle subit juste un malus de -2 au jet d’attaque.

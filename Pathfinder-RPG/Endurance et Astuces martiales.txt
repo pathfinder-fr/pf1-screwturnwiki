@@ -1,0 +1,1021 @@
+---
+Name: Pathfinder-RPG.Endurance et Astuces martiales
+Title: Endurance et Astuces martiales
+LastModified: 2022-02-28 18:46
+Categories:
+  - 'Src Pathfinder unchained'
+---
+<script>
+$(function () {
+  $("tr.cache").hide(); 
+  $("table.toggle caption").bind("click", toggleTable);
+});
+
+function toggleTable() {
+    $("tr.cache").toggle();
+}
+</script>{s:MenuPathfinderunchained}{toc}La magie s’occupe de formules complexes, de manipulations précises de composantes et de concentration intense alors que les disciplines martiales montrent leur plein potentiel dès lors que leurs pratiquants sont capables de saisir les bonnes opportunités et de pousser leur corps et leur esprit au-delà de leurs limites, afin d’arracher la victoire sur le champ de bataille. Ceux qui se taillent un nom à la force du bras savent que c’est la capacité à repousser les limites de leur endurance qui sépare souvent les vivants des morts et les vainqueurs des vaincus.
+
+L’endurance et les astuces martiales aident les personnages à refléter au mieux ce sens de l’adaptation opportuniste et les aléas des champs de bataille. Ce système permet à un personnage de puiser dans un réservoir de volonté et de courage afin de repousser ses limites en combat. Du moins pour une courte période. Avec un bon timing et un peu de chance, un personnage privilégiant les aptitudes martiales peut enlever la victoire alors que la situation semblait désespérée ou éliminer avec panache un méprisable scélérat.
+
+Voici plusieurs manières d’intégrer ce système à votre jeu.
+* '''Accès via un don.''' Pour introduire l’endurance et les astuces martiales dans votre jeu, le plus simple consiste à donner accès au don [[Endurance combative]]. Un personnage qui reçoit ce don se sert de ce système, obtient une réserve d’endurance et utilise cette dernière pour améliorer des dons de combat et des aptitudes de classe qu’il possède déjà ou qu’il acquerra par la suite. En règle générale, le don d’Endurance combative est très utile aux personnages martiaux possédant de nombreux dons de combat.
+
+* '''Accès gratuit aux guerriers.''' Si vous désirez apporter un avantage aux [[Guerrier|guerriers]], vous pouvez leur offrir le don [[Endurance combative]] comme don supplémentaire dès le niveau 1.
+
+* '''Don supplémentaire de guerrier uniquement.''' Si vous voulez apporter un avantage significatif aux [[Guerrier|guerriers]] par rapport aux autres classes, vous pouvez leur réserver ce mécanisme. Dans ce cas, ils sont les seuls à pouvoir choisir le don [[Endurance combative]] et à accéder aux dons utilisables avec l’endurance via les dons supplémentaire de guerrier seulement. Un guerrier multiclassé ne peut pas utiliser son endurance en conjonction avec des dons obtenus via une autre classe que guerrier, même si cette classe l’autorise à choisir des dons supplémentaires réservés aux guerriers (comme c’est le cas du [[prêtre combattant]] et du [[bretteur]]). Dans cette version, si un personnage veut absolument disposer de l’endurance de quelques dons essentiels, il devra diversifier sa formation martiale en prenant un niveau de guerrier.
+
+* '''Accès libre.''' Si vous comptez améliorer tous les personnages martiaux et que votre groupe est prêt à gérer l’endurance et les astuces martiales, vous pouvez accorder [[Endurance combative]] comme don supplémentaire à tous les personnages martiaux ou même à tous les personnages.
+
+===La réserve d'endurance===
+Quand le personnage dispose d’un pouvoir lui donnant des points d’endurance, il obtient une réserve d’endurance comprenant, au maximum, un nombre de points égal à son [[BBA|bonus de base à l’attaque]] + son modificateur de [[Constitution]]. Lors d’un combat, il peut dépenser les points d’endurance de cette réserve pour réaliser une astuce martiale dont les effets sont dictés par l’un de ses dons de combat. Il n’a pas besoin de dépenser d’action pour utiliser ainsi sa réserve d’endurance mais il ne peut pas le faire s’il est [[inconscient]], [[fatigué]] ou [[épuisé]]. Le personnage peut utiliser autant d’astuces martiales qu’il le désire au cours de la même action ou de la même attaque (tant qu’il est en mesure de dépenser les points d’endurance nécessaires), en revanche, il ne peut pas utiliser deux fois la même astuce au cours d’une même action ou attaque. Par exemple, si le personnage dispose d’une astuce martiale affectant une unique attaque, il ne peut l’utiliser qu’une fois par attaque.
+
+Une fois à 0 point d’endurance, le personnage est [[fatigué]] jusqu’à ce qu’il récupère au moins 1 point.
+
+Les augmentations de [[Constitution]] temporaires, comme celles de la [[Barbare#RAGE|rage de barbare]] ou de l’''[[endurance de lours|endurance de l’ours]]'', n’accroissent pas le nombre de points d’endurance de la réserve du personnage ni le maximum de points auxquels il a droit. Par contre, les augmentations permanentes (comme un [[Ceinturon de constitution de lours|ceinturon de constitution de l’ours]] porté plus de 24 heures) influent sur les points d’endurance.
+
+Un personnage récupère de l’endurance quand il se repose sur une courte période. Il n’est pas obligé de dormir pour cela mais il ne doit pas faire d’effort physique. Il ne récupère plus de points d’endurance s’il engage un combat, s’il effectue une action requérant un test de compétence ou de caractéristique basé sur la [[Force]], la [[Dextérité]] ou la [[Constitution]], ou encore s’il fait plus d’une [[action de mouvement]] ou d’une [[action simple]] dans un round (il a droit aux [[action libre|actions libres]], [[action immédiate|immédiates]] et [[action rapide|rapides]]). Cette réduction du nombre d’actions par round réduit sa vitesse de déplacement par voie de terre de moitié. Le personnage récupère un point d’endurance par minute passée à se reposer ainsi, en revanche, il ne récupère aucun point s’il souffre de l’un des effets suivants : [[confus]], [[recroquevillé|recroquevillé sur lui-même]], [[ébloui]], [[mort]], [[hors de combat]], [[épuisé]], [[fasciné]], [[effrayé]], [[sans défense]], [[nauséeux]], [[paniqué]], [[paralysé]], [[pétrifié]], [[secoué]], [[fiévreux]], [[chancelant]] ou [[étourdi]].
+
+===Les nouveaux dons===
+Les dons suivants fonctionnent avec le système d’endurance et d’astuces martiales. Le don de base, [[Endurance combative]], offre une réserve d’endurance et permet au personnage d’utiliser les astuces martiales basiques de ce système. Les dons [[Endurance supplémentaire]] et [[Repousser ses limites]] représentent des options pour optimiser l’endurance.
+
+===Les astuces martiales===
+Les dons de combat sont presque tous associés à des astuces martiales. Ce n’est pas le cas des dons basiques comme les dons liés aux armes et à leur maniement, ni des dons qui s’appuient déjà sur l’endurance et les astuces.
+
+<table width="100%"><tr><td width="50%">
+* {s:Reference|ATERREACHEVAL}'''[[À terre à cheval]].''' Quand le personnage effectue un test d’[[Acrobaties]] pour sauter lorsqu’il utilise son aptitude de classe de [[Dragon (guerrier)|bond du lancier]], il peut dépenser jusqu’à 5 points d’endurance pour bénéficier d’un bonus au test égal au nombre de points dépensés.
+
+* {s:Reference|ACROBATERUSE}'''[[Acrobate rusé]].''' Le personnage peut dépenser jusqu’à 5 points d’endurance juste avant de faire son [[jet dattaque|jet d’attaque]] avec le bonus de circonstances de +2 conféré par ce don. Dans ce cas, s’il touche, il gagne un bonus au [[Valeurs de combat#DEGATS|jet de dégâts]] d’un montant égal au double du nombre de points d’endurance dépensés.
+
+* {s:Reference|ADEPTEDELAMATRAQUE}'''[[Adepte de la matraque]].''' Quand le personnage utilise ce don, il peut dépenser un nombre de points d’endurance égal au nombre de dés de dégâts d’[[attaque sournoise]] qu’il lance pour augmenter les [[Blessures et mort#NONLETAL|dégâts non-létaux]] de son attaque du double du nombre de points d’endurance dépensés.
+
+* {s:Reference|ADEPTEDUFILET}'''[[Adepte du filet]].''' Le personnage peut dépenser 2 points d’endurance pour plier un [[filet (arme)|filet]] par une [[action simple]].
+
+* {s:Reference|AIDERAPIDE}'''[[Aide rapide]].''' Tant que le personnage possède encore au moins un point d’endurance dans sa réserve, il peut utiliser ce don pour [[aider qqn|aider quelqu’un]] par une [[action de mouvement]].
+
+* {s:Reference|AILEDELAGRUE}'''[[Aile de la grue]].''' Quand le personnage se [[combat sur la défensive|bat sur la défensive]] et dispose d’au moins une main libre, il peut dépenser 5 points d’endurance pour affecter un second adversaire avec l’aile de la grue. Il gagne également un bonus d’esquive de +2 à la [[CA]] contre ses attaques.
+
+* {s:cs}{s:WMH}'''[[Aplatissement]].''' Lorsque le personnage réussit une manœuvre de [[bousculade]], il peut dépenser 4 points d'endurance pour tenter une manœuvre de [[croc-en-jambe]] avec [[Aplatissement]] sans tenir compte du résultat du test de la manœuvre de bousculade.
+
+* {s:Reference|ARMEDELELU}'''[[Arme de lÉlu|Arme de l’Élu]].''' Quand le personnage utilise ce don, il peut dépenser jusqu’à 5 points d’endurance pour choisir une arme autre que l’arme de prédilection de son dieu. Il bénéficie des avantages de ce don avec cette arme jusqu’au début de son prochain tour.
+
+* {s:Reference|ARMEDELELUSUPERIEURE}'''[[Arme de lÉlu supérieure|Arme de l’Élu supérieure]].''' Quand le personnage effectue une attaque lors d’une [[attaque à outrance]] avec l’arme choisie pour le don [[Arme de lÉlu|Arme de l’Élu]], il peut dépenser 5 points d’endurance pour bénéficier des avantages de ce don lors de cette attaque.
+
+* {s:Reference|ARMEDEPREDILECTION}'''[[Arme de prédilection]].''' Une fois par [[round]], le personnage peut dépenser 2 points d’endurance pour bénéficier de son bonus d’Arme de prédilection sur les [[jet dattaque|jets d’attaque]] avec une arme pour laquelle il ne dispose pas de ce don. Ce bonus persiste jusqu’au début de son prochain tour.
+
+* {s:Reference|ARMEDEPREDILECTIONGNOME}'''[[Arme de prédilection gnome]].''' Le personnage peut dépenser jusqu’à 5 points d’endurance quand il réussit une attaque avec une arme gnome contre un adversaire d’une catégorie de taille de plus que lui. Il gagne alors un bonus au [[Valeurs de combat#DEGATS|jet de dégâts]] égal au double du nombre de points d’endurance dépensés.
+
+* {s:Reference|ARMEDEPREDILECTIONSUPERIEURE}'''[[Arme de prédilection supérieure]].''' Le personnage peut dépenser 2 points d’endurance une fois par [[round]] pour bénéficier de son bonus d’[[Arme de prédilection]] aux [[jet dattaque|jets d’attaque]] effectués avec une autre arme. Ce bonus persiste jusqu’au début de son prochain tour.
+
+* {s:Reference|ARMEENMAIN}'''[[Arme en main]].''' Tant que le personnage a au moins 1 point d’endurance dans sa réserve, il peut rengainer son arme par une [[action rapide]].
+
+* {s:Reference|ARMESARDENTES}'''[[Armes ardentes]].''' Quand le personnage utilise ce don pour chauffer à blanc une ou deux armes métalliques pendant 1 [[round]], il peut dépenser 2 points d’endurance pour augmenter les dégâts de feu supplémentaire de 2 points et les cumuler avec les autres effets ajoutant des dégâts de feu à une arme (comme la propriété spéciale d’arme de ''[[feu (propriété)|feu]]'').
+
+* {s:Reference|ARTDUBOUCLIER}'''[[Art du bouclier]].''' Le personnage peut dépenser jusqu’à 2 points d’endurance quand il est victime d’une attaque alors qu’il porte un bouclier. Son bonus de bouclier à la [[CA]] augmente alors contre cette attaque d’un montant égal au nombre de points d’endurance dépensés.
+
+* {s:Reference|ARTDUBOUCLIERSUPERIEUR}'''[[Art du bouclier supérieur]].''' Le personnage peut dépenser jusqu’à 4 points d’endurance quand quelqu’un l’attaque alors qu’il manie un bouclier. Lors de cette attaque, son bonus de bouclier augmente d’un montant équivalent au nombre de points d’endurance dépensés. Cette augmentation ne se cumule pas avec celle conférée par l’[[Endurance et Astuces martiales#ARTDUBOUCLIER|astuce martiale de l’Art du bouclier]].
+
+* {s:Reference|ASSAUTDEGNOMEHANTE}'''[[Assaut de gnome hanté]].''' Quand le personnage touche un adversaire lors d’une [[charge]] ou confirme un [[coup critique]], il peut dépenser 2 points d’endurance pour que sa cible soit [[secoué|secouée]] pendant un [[round]] sans pour autant dépenser d’utilisation d’''[[aspect de fée hantée]]''.
+
+* {s:Reference|ASSAUTETOURDISSANT}'''[[Assaut étourdissant]].''' Le personnage peut dépenser 2 points d’endurance pour mettre fin aux effets de ce don à la fin de son tour et non au début du prochain.
+
+* {s:Reference|ASSAUTHEBETANT}'''[[Assaut hébétant]].''' Après avoir touché un adversaire avec une attaque de corps à corps, le personnage peut dépenser 5 points d’endurance pour tenter d’[[hébété|hébéter]] sa cible comme s’il utilisait ce don.
+
+* {s:Reference|ASSAUTREPOUSSANT}'''[[Assaut repoussant]].''' Le personnage peut dépenser 5 points d’endurance pour bénéficier des effets de ce don et infliger tout de même des dégâts supplémentaires grâce à l’[[Attaque en puissance]].
+
+* {s:Reference|ASSAUTSANGLANT}'''[[Assaut sanglant]].''' À chaque fois que le personnage utilise ce don, il peut dépenser jusqu’à 5 points d’endurance. Dans ce cas et jusqu’à la fin de son prochain tour, il réduit le malus de tous ses [[jet dattaque|jets d’attaque]] d’un montant égal au nombre de points d’endurance dépensés.
+
+* {s:Reference|ASSOMMANT}'''[[Assommant]].''' Quand le personnage porte une attaque avec une arme contondante létale pour infliger des [[Blessures et mort#NONLETAL|dégâts non-létaux]], il peut dépenser 2 points d’endurance pour infliger les dégâts correspondant à son arme comme si elle était d’une catégorie de taille de plus. Cela ne se cumule pas avec d’autres effets modifiant les dégâts de l’arme comme si elle était d’une catégorie de taille supérieure.
+
+* {s:Reference|ASTUCEDEQUITATION}'''[[Astuce déquitation|Astuce d’équitation]].''' Tant que le personnage a encore un point d’endurance dans sa réserve, il bénéficie des effets de ce don quand il porte une armure intermédiaire.
+
+* {s:cs}{s:WMH}'''[[Attaque à contre-courant]].''' Lorsque le personnage réussit une manœuvre de [[croc-en-jambe]] en utilisant le don [[Attaque à contre-courant]], il peut dépenser 4 points d'endurance pour tenter une manœuvre d’[[entraînement]] par une [[action libre]] au lieu d'une [[action rapide]].
+
+* {s:Reference|ATTAQUEAUGALOP}'''[[Attaque au galop]].''' Une fois que le personnage a effectué une charge montée avec ce don, il peut dépenser 5 points d’endurance pour changer de direction au lieu de continuer son mouvement en ligne droite.
+
+* {s:Reference|ATTAQUEECLAIR}'''[[Attaque éclair]].''' Le personnage peut dépenser 5 points d’endurance pour utiliser ce don par une [[action simple]] au lieu d’une [[action complexe]].
+
+* {s:Reference|ATTAQUEENFINESSE}'''[[Attaque en finesse]].''' Le personnage peut dépenser 2 points d’endurance pour annuler le malus aux [[jet dattaque|jets d’attaque]] infligé par le malus aux tests de son bouclier jusqu’au début de son prochain tour.
+
+* {s:Reference|ATTAQUEENGROUPE}'''[[Attaque en groupe]].''' Le personnage peut choisir ce don même s’il ne remplit pas les conditions requises au niveau des caractéristiques ([[Intelligence]] 13). Il bénéficie du don tant qu’il lui reste au moins 1 point dans sa réserve d’endurance. S’il dépense 5 points d’endurance, il bénéficie de ses avantages quand il menace le même adversaire qu’un autre allié (au lieu de deux).
+
+* {s:Reference|ATTAQUERENMEUTE}'''[[Attaquer en meute]].''' Quand le personnage est adjacent à un allié qui possède aussi ce don, il peut dépenser 2 points d’endurance pour effectuer un [[pas de placement]] de 1,50 mètre par une [[action libre]] au lieu d’une [[action immédiate]]. Il ne peut utiliser ce pouvoir qu’une fois par [[round]].
+
+* {s:Reference|ATTAQUEENPUISSANCE}'''[[Attaque en puissance]].''' Quand le personnage utilise ce don, il peut dépenser 2 points d’endurance pour profiter des avantages et des inconvénients de ce don jusqu’à la fin de son tour et non jusqu’à son prochain tour.
+
+* {s:Reference|ATTAQUEENROTATION}'''[[Attaque en rotation]].''' Quand le personnage utilise ce don, il peut dépenser des points d’endurance pour recevoir des attaques supplémentaires via d’autres dons, sorts ou pouvoirs. Il doit dépenser 5 points d’endurance par attaque supplémentaire. Cette astuce martiale lui permet d’exécuter des attaques supplémentaires auxquelles il a accès et ne confère pas d’attaques supplémentaires par elle-même.
+
+* {s:Reference|ATTAQUESREFLEXES}'''[[Attaques réflexes]].''' Quand le personnage rate une [[AO|attaque d’opportunité]], il peut dépenser 5 points d’endurance pour porter une seconde attaque contre la cible ayant provoquée la première. Cette deuxième attaque d’opportunité s’accompagne d’un malus de –5 au [[jet dattaque|jet d’attaque]] et lui coûte une attaque d’opportunité pour le [[round]].
+
+* {s:Reference|ATTIRERRAPIDEMENT}'''[[Attirer rapidement]].''' Le personnage peut dépenser 2 points d’endurance pour transformer une attaque ne bénéficiant pas de son [[BBA|bonus de base à l’attaque]] le plus élevé en manœuvre d’[[entraînement]]. Il peut utiliser cette astuce martiale une fois par [[round]] et peut s’en servir même s’il a déjà transformé son attaque qui bénéficie du bonus de base à l’attaque le plus élevé en entraînement.
+
+* {s:Reference|AURAARDENTE}'''[[Aura ardente]].''' Quand le personnage crée une aura de chaleur avec ce don, il peut dépenser 5 points d’endurance pour augmenter les dégâts de feu qu’il inflige aux créatures qui débutent leur tour au sein de son aura. Elles subissent alors 2d6 points de dégâts de feu.
+
+* {s:Reference|AVANCEETFRAPPE}'''[[Avance et frappe]].''' Le personnage peut dépenser 5 points d’endurance pour effectuer l’attaque conférée par ce don sans la décompter de ses [[AO|attaques d’opportunité]] du [[round]].
+
+* {s:Reference|BALANCEMENTDUSERPENT}'''[[Balancement du serpent]].''' Quand le personnage obtient un [[coup critique|critique potentiel]] avec une attaque à mains nues alors qu’il utilise l’[[École du serpent]] et qu’il choisit de faire un test de [[Psychologie]] au lieu d’un jet de confirmation, il peut dépenser jusqu’à 5 points d’endurance pour gagner un bonus au test égal au nombre de points d’endurance dépensés.
+
+* {s:Reference|BALAYAGEAUBATON}'''[[Balayage au bâton]].''' Le personnage peut choisir ce don même s’il ne remplit pas les conditions requises au niveau des caractéristiques ([[Intelligence]] 13). Il bénéficie du don tant qu’il lui reste au moins 1 point dans sa réserve d’endurance.
+
+* {s:Reference|BECDESANG}'''[[Bec de sang]].''' Le personnage peut dépenser 1 point d’endurance quand il confirme un [[coup critique]] avec son bec pour augmenter les dégâts de [[saignement]] et les faire passer à 1d4.
+
+* {s:Reference|BENEDICTIONDUDESTRUCTEUR}'''[[Bénédiction du destructeur]].''' Le personnage peut dépenser 2 points d’endurance pour récupérer un [[round]] de [[Barbare#RAGE|rage]] après avoir réduit à moins de 0 [[pv]] un adversaire dont le [[FP]] est supérieur ou égal à son niveau de personnage au lieu de le récupérer seulement s’il réussit une [[destruction|destruction d’arme]] contre cette cible.
+
+* {s:Reference|BONDDUTIGRE}'''[[Bond du tigre]].''' Quand le personnage utilise l’[[École du tigre]], il peut dépenser 2 points d’endurance et une [[action rapide]] pour se rapprocher d’un ennemi qu’il a touché avec une attaque à mains nues ou contre qui il a réussi une manœuvre offensive à n’importe quel moment du combat au lieu de se cantonner aux adversaires qu’il a touchés lors de son tour précédent ou de celui en cours.
+
+* {s:Reference|BONDGRIFFU}'''[[Bond griffu]].''' Quand le personnage [[charge]], il peut dépenser 5 points d’endurance pour effectuer une deuxième attaque avec l’une de ses griffes.
+
+* {s:Reference|BOUCHERIEIMPITOYABLE}'''[[Boucherie impitoyable]].''' Quand le personnage utilise ce don, il peut dépenser 10 points d’endurance pour augmenter le multiplicateur de critique de son arme de 1 lors de son coup de grâce (×2 devient ×3 et ×3 devient ×4).
+
+* {s:Reference|BOUCLIERCONTRELESPROJECTILES}'''[[Bouclier contre les projectiles]].''' Tant que le personnage possède au moins un point d’endurance dans sa réserve, il peut utiliser ce don avec une [[targe (armure)|targe]]. Il peut dépenser 5 points d’endurance pour dévier un projectile alors qu’il est [[pris au dépourvu]] mais il doit tout de même être conscient de l’attaque.
+
+* {s:Reference|BOUCLIERCONTRELESRAYONS}'''[[Bouclier contre les rayons]].''' Le personnage peut dépenser 2 points d’endurance pour bénéficier des effets de ce don sans que le sort ou l’effet affecte son bouclier.
+
+* {s:Reference|BOUCLIERPOURLAMONTURE}'''[[Bouclier pour la monture]].''' Tant que le personnage a au moins un point d’endurance dans sa réserve, il peut ajouter le bonus d’altération de son bouclier à la [[CA]] de sa monture.
+
+* {s:Reference|BOUCLIERPROTECTEUR}'''[[Bouclier protecteur]].''' Le personnage peut dépenser 5 points d’endurance quand il se met en [[défense totale]]. Dans ce cas, son bouclier offre aussi un bonus d’abri aux jets de [[Réflexes]] de son allié.
+
+* {s:Reference|BOUCLIERSALVATEUR}'''[[Bouclier salvateur]].''' Quand le personnage utilise ce don, il peut dépenser 2 points d’endurance pour augmenter le bonus de bouclier conféré à son allié d’un montant égal au bonus d’altération du bouclier qu’il utilise.
+
+* {s:Reference|BOUCLIERVIVANT}'''[[Bouclier vivant]].''' Le personnage peut dépenser 5 points d’endurance pour utiliser ce don contre une créature qui l’[[agrippé|agrippe]].
+
+* {s:Reference|BOUSCULADERAPIDE}'''[[Bousculade rapide]].''' Le personnage peut dépenser 2 points d’endurance pour transformer une attaque ne bénéficiant pas de son [[BBA|bonus de base à l’attaque]] le plus élevé en manœuvre de [[bousculade]]. Il peut utiliser cette astuce martiale une fois par [[round]] et peut s’en servir même s’il a déjà transformé son attaque qui bénéficie du bonus de base à l’attaque le plus élevé en bousculade.
+
+* {s:Reference|BOUSCULADESUPERIEURE}'''[[Bousculade supérieure]].''' Le personnage peut dépenser 5 points d’endurance quand il [[bousculade|bouscule]] un adversaire pour que le déplacement de sa victime l’autorise lui aussi à effectuer une [[AO|attaque d’opportunité]].
+
+* {s:Reference|BOUSCULADETOURBILLONNANTE}'''[[Bousculade tourbillonnante]].''' Si le personnage réussit son test de [[bousculade]], il peut dépenser 2 points d’endurance pour repousser l’adversaire sur 1,50 mètre de plus ou 4 points pour le repousser sur 3 mètres de plus.
+
+* {s:Reference|BRETTEURAMATEUR}'''[[Bretteur amateur]].''' Le personnage choisit un deuxième [[Exploits (bretteur)|exploit de bretteur]] de niveau 1. Il peut dépenser du [[panache]] pour utiliser cet exploit ou dépenser 5 points d’endurance au lieu de son panache pour utiliser l’un ou l’autre de ses exploits. Si le personnage gagne des niveaux dans une classe qui accorde l’aptitude de panache, il peut dépenser 5 points d’endurance au lieu de son panache pour utiliser les exploits de niveau 1. Ce pouvoir devient une astuce martiale du don [[Panache supplémentaire]] (même si ce n’est pas un don de combat).
+
+* {s:Reference|BRISERLAGARDE}'''[[Briser la garde]].''' Le personnage dépense 5 points d’endurance pour attaquer l’adversaire qu’il a désarmé par une [[action libre]] au lieu d’une [[action rapide]].
+
+* {s:Reference|BRISERLAMACHOIRE}'''[[Briser la mâchoire]].''' Quand le personnage touche un adversaire en utilisant ce don, il peut dépenser 5 points d’endurance pour augmenter les dégâts de [[saignement]] de 1d6 points, faire passer le [[DD]] du test de [[Premiers secours]] pour arrêter le saignement à 20 et obliger l’utilisateur d’un sort ou d’un pouvoir qui permet de récupérer des points de vie à réussir un test de [[NLS|niveau de lanceur de sorts]] DD 15 pour arrêter l’effet de saignement.
+
+* {s:Reference|BRISERLATENAILLE}'''[[Briser la tenaille]].''' Le personnage peut dépenser 5 points d’endurance quand il utilise ce don. Dans ce cas, sa cible ne peut pas le [[prendre en tenaille]] avec ses alliés jusqu’au début du prochain tour du personnage.
+
+* {s:Reference|BRISERLECOU}'''[[Briser le cou]].''' Quand le personnage utilise ce don, il peut dépenser 10 points d’endurance pour infliger un [[affaiblissement temporaire (capacité)|affaiblissement temporaire]] de 1d6 points de [[Constitution]] au lieu de 2d6 points de [[Force]] ou de [[Dextérité]].
+
+* {s:Reference|BRISERLESDEFENSES}'''[[Briser les défenses]].''' Quand le personnage touche une créature [[pris au dépourvu|prise au dépourvu]] par son attaque grâce à ce don, il peut dépenser 5 points d’endurance pour faire en sorte qu’elle soit aussi prise au dépourvu face aux attaques d’un allié situé à 9 mètres ou moins d’elle et ce jusqu’au début du prochain tour du personnage.
+
+* {s:Reference|BRISERLESOS}'''[[Briser les os]].''' Quand le personnage réussit un [[Coup étourdissant]] contre une créature déjà [[hébété|hébétée]] ou [[chancelant|chancelante]], il peut dépenser 5 points d’endurance pour renoncer aux éventuels autres effets du Coup étourdissant et lui imposer à la place un [[affaiblissement temporaire (capacité)|affaiblissement temporaire]] de 1d6 points de [[Force]] ou de [[Dextérité]].
+
+* {s:Reference|BRISESORT}'''[[Brisesort]].''' Quand le personnage a dépensé toutes ses utilisations quotidiennes de ce don, il peut dépenser 5 points d’endurance pour l’utiliser une fois de plus.
+
+* {s:Reference|BRISEURDOBJETS}'''[[Briseur dobjets|Briseur d’objets]].''' Quand le personnage tente une manœuvre offensive de [[destruction|destruction d’arme]] ou attaque une créature artificielle dotée d’une [[solidité]], il peut dépenser 5 points d’endurance pour ignorer les 10 premiers points de solidité de la cible.
+
+* {s:Reference|BRISEURDESORTS}'''[[Briseur de sorts]].''' Quand le personnage touche un lanceur de sorts avec une [[AO|attaque d’opportunité]] déclenchée par un échec d’[[Lancer des sorts#INCANTATIONSURLADEFENSIVE|incantation sur la défensive]], il peut dépenser 5 points d’endurance pour [[hébété|hébéter]] le mage jusqu’à la fin de son prochain tour. Si le mage réussit un jet de [[Vigueur]] [[DD]] = 10 + bonus de base à l’attaque du personnage, il est juste [[chancelant]].
+
+* {s:Reference|CANALISATIONDEFORCE}'''[[Canalisation de force]].''' Quand le personnage réussit une attaque en utilisant ce don, il peut dépenser 5 points d’endurance afin qu’elle ne soit pas décomptée des 3 attaques auxquelles il a droit avec son arme imprégnée de force.
+
+* {s:Reference|CAPEDEDUEL}'''[[Cape de duel]].''' Quand le personnage utilise ce don pour [[enchevêtré|enchevêtrer]] un adversaire, il peut dépenser 5 points d’endurance au lieu d’un point de [[panache]].
+
+* {s:Reference|CAPTUREDEPROJECTILES}'''[[Capture de projectiles]].''' Quand le personnage attrape une [[arme de jet]] alors qu’il lui reste au moins un point dans sa réserve d’endurance, il peut effectuer une [[attaque à distance]] avec cette arme de jet contre n’importe quelle cible et pas seulement son assaillant.
+
+* {s:Reference|CARAPACEDELATORTUEALLIGATOR}'''[[Carapace de la tortue alligator]].''' Quand le personnage utilise l’[[École de la tortue alligator]] et qu’il est victime d’un [[coup critique|critique potentiel]], il peut dépenser jusqu’à 5 points d’endurance pour que son ennemi subisse un malus supplémentaire sur le jet de confirmation égal au nombre de points dépensés.
+
+* {s:Reference|CARESSEDELEFRIT}'''[[Caresse de lefrit|Caresse de l’efrit]].''' Au lieu de dépenser deux utilisations de [[Poing élémentaire]] pour projeter un cône de flammes, le personnage peut dépenser une seule utilisation et 2 points d’endurance.
+
+* {s:Reference|CARNAGEEFFROYABLE}'''[[Carnage effroyable]].''' Quand le personnage réduit un ennemi à 0 [[pv]] ou moins, il peut dépenser jusqu’à 6 points d’endurance pour accroître le rayon de l’effet de 1,50 mètre par point dépensé (pour un rayon maximum de 18 mètres).
+
+* {s:Reference|CASQUEBOSSELE}'''[[Casque bosselé]].''' Après que le personnage a utilisé ce don, il peut dépenser 5 points d’endurance pour être [[fiévreux]] au lieu de [[chancelant]] jusqu’à la fin de son prochain tour. Il ne peut pas utiliser ce pouvoir s’il est immunisé contre l’état préjudiciable fiévreux.
+
+* {s:Reference|CASQUEFENDU}'''[[Casque fendu]].''' Quand le personnage est victime d’un [[coup critique|critique potentiel]], il peut dépenser jusqu’à 5 points d’endurance pour gagner un bonus supplémentaire à la [[CA]] contre le jet de confirmation du critique égal au nombre de points d’endurance dépensés.
+
+* {s:Reference|CAVALERIEENFORMATION}'''[[Cavalerie en formation]].''' Au début de son tour, le personnage peut dépenser 2 points d’endurance pour empiéter sur l’[[espace contrôlé|espace occupé]] par des cavaliers alliés ne disposant pas de ce don. Ce pouvoir fonctionne jusqu’au début de son prochain tour.
+
+* {s:Reference|CERCLEDUMEURTRIER}'''[[Cercle du meurtrier]].''' Le personnage peut dépenser 2 points d’endurance pour utiliser ce don après avoir infligé des dégâts maximaux ou réussi une [[feinte]] contre une créature. Il doit être adjacent à la créature.
+
+* {s:Reference|CHARGECOORDONNEE}'''[[Charge coordonnée]].''' Quand un allié avec ce don [[charge]] une créature et que cette dernière se situe hors de portée du personnage s’il se déplace à sa vitesse, mais à portée s’il se déplace au double de cette vitesse, il peut dépenser 5 points d’endurance pour la charger. Il doit par ailleurs remplir toutes les conditions requises pour la charge.
+
+* {s:Reference|CHARGEDEDIVERSION}'''[[Charge de diversion]].''' Le personnage peut dépenser 1 point d’endurance quand un allié disposant de ce don [[charge]] mais rate son attaque en fin de charge. Dans ce cas, il bénéficie tout de même des avantages de ce don quand il charge à son tour.
+
+* {s:Reference|CHARGEDEVASTATRICE}'''[[Charge dévastatrice]].''' Quand le personnage [[charge]] sur sa monture, il peut dépenser un nombre de points d’endurance inférieur ou égal à son bonus de [[Force]]. S’il touche lors de son attaque de charge, il inflige un montant de dégâts supplémentaires égal au nombre de points d’endurance dépensés. Le don double ces dégâts (ou les triple si le personnage utilise une lance).
+
+* {s:Reference|CHARGEDUCOGNEUR}'''[[Charge du cogneur]].''' Quand le personnage effectue une Charge du cogneur, il peut dépenser 5 points d’endurance pour faire une unique attaque supplémentaire avec son bonus le plus élevé.
+
+* {s:cs}{s:WMH}'''[[Charge du vertueux]].''' Lorsque le personnage [[charge]] une créature d'[[Alignement|alignement mauvais]], il peut dépenser 2 points d'endurance afin d'ignorer le malus à la [[CA]] de -2 points imposé par la charge.
+
+* {s:Reference|CHARGERENVERSANTE}'''[[Charge renversante]].''' Quand le personnage tente une manœuvre de [[renversement]] contre une créature située sur la trajectoire de sa [[charge]] et échoue, il peut dépenser 5 points d’endurance pour terminer sa charge contre cette créature au lieu de la perdre.
+
+* {s:cs}{s:WMH}'''[[Chasseur de démons]].''' Lorsque le personnage parvient à identifier un démon avec [[Connaissances]] (plans), il peut dépenser jusqu'à 9 points d'endurance pour augmenter son bonus de moral aux [[jet dattaque|jets d'attaque]] et aux tests de [[nls|niveau de lanceur de sorts]] obtenus par le don [[Chasseur de démons]] de 1 par tranche de 3 points d'endurance dépensés.
+
+* {s:Reference|CHASSEURDESMERS}'''[[Chasseur des mers]].''' Quand le personnage réussit à déséquilibrer une cible grâce à ce don, il peut dépenser jusqu’à 5 points d’endurance pour lui infliger un malus aux tests de [[Natation]] effectués pour retrouver son équilibre égal au nombre de points d’endurance dépensés.
+
+* {s:Reference|CHATIMENTCANALISE}'''[[Châtiment canalisé]].''' Quand le personnage porte une attaque avec ce don, il peut dépenser un nombre de points d’endurance égal au nombre de dés de sa [[Prêtre#CANALISATIONDENERGIE|canalisation d’énergie]]. Il ajoute 1d6 points de dégâts d’énergie positive ou négative à son attaque de Châtiment canalisé pour chaque point d’endurance dépensé. Ces dégâts sont également réduits de moitié si la cible réussit son jet de [[Volonté]] contre l’attaque de Châtiment canalisé.
+
+* {s:Reference|CIBLEDOPPORTUNITE}'''[[Cible dopportunité|Cible d’opportunité]].''' Le personnage peut dépenser 5 points d’endurance pour effectuer l’attaque conférée par ce don comme une [[AO|attaque d’opportunité]] au lieu d’une [[action immédiate]]. Il ne peut utiliser cette astuce martiale qu’une seule fois par [[round]].
+
+* {s:Reference|COGNEURTYRANNIQUE}'''[[Cogneur tyrannique]].''' Quand le personnage touche sa cible avec une attaque de Cogneur tyrannique, il peut dépenser 2 points d’endurance pour effectuer une manœuvre de [[bousculade]] par une [[action libre]] au lieu de faire une tentative de [[repositionnement]].
+
+* {s:Reference|COINCER}'''[[Coincer]].''' Quand le personnage utilise ce don, il peut dépenser 5 points d’endurance pour bénéficier de ses avantages et infliger tout de même des dégâts avec l’[[AO|attaque d’opportunité]].
+
+* {s:Reference|COMBATADEUXARMES}'''[[Combat à deux armes]].''' Le personnage peut dépenser autant de points d’endurance qu’il le désire pour réduire le malus du Combat à deux armes sur les attaques de sa main directrice de 1 par tranche de 2 points d’endurance dépensés. Cet avantage perdure jusqu’au début de son tour suivant. Le malus ne peut pas descendre au-dessous de 0.
+
+* {s:Reference|COMBATADEUXARMESSUPERIEUR}'''[[Combat à deux armes supérieur]].''' Si le personnage touche avec la troisième attaque conférée par ce don et possède un [[BBA|bonus de base à l’attaque]] de +16 ou plus, il peut dépenser 2 points d’endurance pour effectuer une autre attaque avec sa main secondaire en appliquant un malus de –15.
+
+* {s:Reference|COMBATCHOREGRAPHIE}'''[[Combat chorégraphié]].''' Si le personnage possède encore au moins un point dans sa réserve d’endurance, il gagne un bonus de +2 aux [[jet dattaque|jets d’attaque]] effectués avec une arme pour laquelle il dispose du don [[Arme de prédilection]] quand il tente une attaque qui n’inflige pas de dégâts.
+
+* {s:Reference|COMBATENAVEUGLE}'''[[Combat en aveugle]].''' Une fois par [[round]], quand le personnage touche une cible qui bénéficie d’un [[camouflage]], il peut dépenser 2 points d’endurance pour ignorer les chances de rater à cause de ce camouflage jusqu’à la fin de son prochain tour.
+
+* {s:Reference|COMBATMONTE}'''[[Combat monté]].''' Quand le personnage a déjà utilisé ce don, il peut dépenser 5 points d’endurance pour s’en servir de nouveau au cours du même [[round]]. Il peut utiliser cette astuce martiale autant de fois qu’il le désire au cours du même round tant qu’il lui reste assez de points d’endurance à dépenser.
+
+* {s:Reference|COMBATTANTDESPECTACLE}'''[[Combattant de spectacle]].''' Quand le personnage utilise ce don, il peut dépenser jusqu’à 5 points d’endurance pour bénéficier d’un bonus au test de [[combat de spectacle]] égal au nombre de points dépensés.
+
+* {s:cs}{s:WMH}'''[[Combattant désespéré]].''' Le personnage peut dépenser 2 points d'endurance pour utiliser le don [[Combattant désespéré]] même si un allié se trouve à moins de 3 mètres de lui (sauf s'il bénéficie des effets de l'action [[aider qqn|aider quelqu'un]]).
+
+* {s:Reference|COMBATTANTPRUDENT}'''[[Combattant prudent]].''' Quand le personnage ne [[combat sur la défensive|combat pas sur la défensive]] et n’utilise pas la [[défense totale]], il peut dépenser 5 points d’endurance pour augmenter son bonus d’esquive de 2. Cet accroissement dure jusqu’au début de son prochain tour.
+
+* {s:Reference|COMMELECLAIR}'''[[Comme léclair|Comme l’éclair]].''' Quand le personnage n’effectue qu’une [[action de mouvement]] et ne se déplace pas d’une distance supérieure sa vitesse, il peut dépenser 5 points d’endurance pour que ses ennemis aient 50% de chances de le rater jusqu’au début de son prochain tour.
+
+* {s:Reference|COMMELEVENT}'''[[Comme le vent]].''' Quand le personnage utilise ce don, il peut dépenser 5 points d’endurance pour bénéficier d’un [[camouflage]] de 20% contre toutes les attaques (et pas seulement à distance) pendant 1 [[round]].
+
+* {s:Reference|CONCENTRATIONMALGRELAFUREUR}'''[[Concentration malgré la fureur]].''' Le personnage peut dépenser 5 points d’endurance quand il utilise l’[[Attaque en puissance]] en maniant une arme de corps à corps à deux mains ou une arme de corps à corps à une main qu’il tient à deux mains. Dans ce cas, chaque fois qu’il réussit une attaque contre une cible, le malus de l’Attaque en puissance diminue de 1 contre cette cible (jusqu’à un minimum de 0) jusqu’au début du prochain tour du personnage.
+
+* {s:Reference|CONTREDROITE}'''[[Contre-droite]].''' Le personnage peut dépenser 5 points d’endurance pour utiliser ce don une seconde fois au cours du même [[round]].
+
+* {s:Reference|CONTREREFLEXES}'''[[Contre-réflexes]].''' Quand un adversaire doté du don [[Souplesse du serpent]] entre ou sort de la zone de contrôle du personnage, ce dernier peut dépenser 2 points d’endurance pour gagner un bonus de +4 à son [[AO|attaque d’opportunité]].
+
+* {s:Reference|COUPBOULEVERSANT}'''[[Coup bouleversant]].''' Le personnage peut dépenser 5 points d’endurance pour annoncer qu’il utilise le Coup bouleversant après avoir touché sa cible avec une attaque à mains nues.
+
+* {s:Reference|COUPBOUSCULANT}'''[[Coup bousculant]].''' Quand le personnage rate sa confirmation de [[coup critique]] avec une attaque de corps à corps, il peut dépenser 2 points d’endurance pour tenter tout de même une [[bousculade]] contre sa cible. Dans ce cas, il relance le jet de confirmation pour savoir si la tentative de bousculade dépasse le [[DMD]] de l’adversaire. Ce deuxième jet vaut uniquement pour la manœuvre offensive de bousculade, il ne valide pas le critique. Le personnage ne peut pas faire cela si sa cible est immunisée contre les coups critiques.
+
+* {s:Reference|COUPDANSLOMBRE}'''[[Coup dans lombre|Coup dans l’ombre]].''' Le personnage peut dépenser 5 points d’endurance quand il touche une créature bénéficiant d’un [[camouflage total]] pour lui infliger des dégâts de précision.
+
+* {s:Reference|COUPDEBOUCLIEROPPORTUNISTE}'''[[Coup de bouclier opportuniste]].''' Quand le personnage rate sa confirmation de [[coup critique]] avec une arme, il peut dépenser 5 points d’endurance pour faire tout de même une attaque de coup de bouclier contre sa cible. Il ne peut pas le faire si sa cible est immunisée contre les coups critiques.
+
+* {s:Reference|COUPDEBRUTE}'''[[Coup de brute]].''' Le personnage peut dépenser 2 points d’endurance pour bénéficier des effets de ce don lors d’une unique attaque effectuée au cours d’une [[attaque à outrance]].
+
+* {s:Reference|COUPDEDEGAGEMENT}'''[[Coup de dégagement]].''' Le personnage peut choisir ce don même s’il ne remplit pas les conditions requises au niveau des caractéristiques ([[Intelligence]] 13). Il bénéficie des avantages de ce don seulement tant qu’il lui reste au moins un point d’endurance dans sa réserve. Il peut dépenser jusqu’à 5 points d’endurance juste avant d’effectuer son attaque au corps à corps gratuite grâce au don. Dans ce cas, il augmente les dégâts de l’attaque de 2 points par point d’endurance dépensé.
+
+* {s:Reference|COUPDEFLECHE}'''[[Coup de flèche]].''' Quand le personnage utilise ce don, il peut dépenser 2 points d’endurance pour annuler le malus de –2 sur toutes les attaques pendant 1 [[round]].
+
+* {s:Reference|COUPDEFOUETDEMORALISANT}'''[[Coup de fouet démoralisant]].''' Quand le personnage touche un adversaire démoralisé avec une arme du groupe des fléaux (voir l’aptitude [[Guerrier#ENTRAINEMENTAUXARMES|entraînement aux armes]] des guerriers), il peut dépenser 2 points d’endurance pour prolonger la durée de l’état préjudiciable [[secoué]] et le faire passer à 1d4 [[round|rounds]] au lieu de 1 round.
+
+* {s:Reference|COUPDELACOCKATRICE}'''[[Coup de la cockatrice]].''' Le personnage peut dépenser 5 points d’endurance pour effectuer un Coup de la cockatrice sur un adversaire qu’il [[prendre en tenaille|prend en tenaille]].
+
+* {s:Reference|COUPDESARMANT}'''[[Coup désarmant]].''' Quand le personnage rate une confirmation de [[coup critique]] avec une arme de corps à corps, il peut dépenser 2 points d’endurance pour tenter de [[désarmement|désarmer]] sa cible malgré tout. Dans ce cas, relancez le jet de confirmation pour déterminer si la tentative de désarmement dépasse le [[DMD]] de la cible. Cette relance sert uniquement à désarmer la cible, elle ne permet pas de confirmer le critique. Le personnage ne peut pas utiliser cette astuce si sa cible est immunisée contre les coups critiques.
+
+* {s:Reference|COUPDESEQUILIBRANT}'''[[Coup déséquilibrant]].''' Si le personnage rate une confirmation de [[coup critique]] avec une arme de corps à corps, il peut dépenser 2 points d’endurance pour tenter un [[croc-en-jambe]] à sa cible malgré tout. Dans ce cas, il relance le jet de confirmation pour déterminer si la tentative de croc-en-jambe dépasse le [[DMD]] de la cible. Cette relance sert uniquement à la manœuvre offensive, elle ne permet pas de confirmer le critique. Le personnage ne peut pas faire cela si sa cible est immunisée contre les coups critiques.
+
+* {s:Reference|COUPDESESPERE}'''[[Coup désespéré]].''' Le personnage peut dépenser 5 points d’endurance pour utiliser ce don une fois de plus dans la journée. Il doit dépenser 5 points d’endurance à chaque fois qu’il utilise cette astuce martiale.
+
+* {s:Reference|COUPDESTABILISANT}'''[[Coup déstabilisant]].''' Le personnage peut choisir ce don même s’il ne remplit pas les conditions requises au niveau des caractéristiques ([[Intelligence]] 13). Il bénéficie du don tant qu’il lui reste au moins 1 point dans sa réserve d’endurance. Il peut dépenser 5 points d’endurance pour effectuer le [[croc-en-jambe]] autorisé par le don par une [[action libre]] au lieu d’une [[action rapide]].
+
+* {s:Reference|COUPDESTRUCTEUR}'''[[Coup destructeur]].''' Quand le personnage rate son jet de confirmation de [[coup critique]] avec une attaque au corps à corps, il peut dépenser 2 points d’endurance pour tenter de [[destruction|détruire]] tout de même l’arme de son ennemi. Pour cela, il relance le jet de confirmation afin de déterminer si sa tentative de destruction dépasse le [[DMD]] de l’adversaire. Ce deuxième jet sert uniquement à la manœuvre offensive, il ne permet pas de confirmer le coup critique. Le personnage ne peut pas faire cela si sa cible est immunisée contre les coups critiques.
+
+* {s:Reference|COUPECRASANT}'''[[Coup écrasant]].''' Quand le personnage utilise ce don, il peut dépenser 2 ou 4 points d’endurance. Dans ce cas, le Coup écrasant réduit la [[CA]] de la cible d’un point de plus par tranche de 2 points d’endurance dépensés.
+
+* {s:Reference|COUPETOURDISSANT}'''[[Coup étourdissant]].''' Le personnage peut dépenser 5 points d’endurance pour annoncer qu’il utilise ce don après avoir touché son adversaire avec une attaque à mains nues.
+
+* {s:Reference|COUPFINALMORTEL}'''[[Coup final mortel]].''' Quand le personnage réduit un adversaire à 0 [[pv]], il peut dépenser 2 points d’endurance pour obliger sa cible à réussir son [[jds|jet de sauvegarde]] contre le don ou mourir.
+
+* {s:Reference|COUPFINALSANGLANT}'''[[Coup final sanglant]].''' Le personnage peut dépenser 5 points d’endurance quand il confirme un critique avec Coup final sanglant pour effectuer un test d’[[Intimidation]] afin de démoraliser tous les adversaires témoins de l’attaque situés à 9 mètres ou moins.
+
+* {s:Reference|COUPMEMORABLE}'''[[Coup mémorable]].''' Le personnage peut dépenser 5 points d’endurance pour annoncer qu’il utilise ce don après avoir réussi une attaque à mains nues.
+
+* {s:Reference|COUPODIEUX}'''[[Coup odieux]].''' Le personnage peut dépenser 10 points d’endurance pour porter un [[coup de grâce]] contre deux créatures [[sans défense]], [[recroquevillé|recroquevillées]] ou [[étourdi|étourdies]] à sa portée par une [[action complexe]]. Il déclenche deux fois des [[AO|attaques d’opportunité]], une fois par coup de grâce.
+
+* {s:Reference|COUPPARFAIT}'''[[Coup parfait]].''' Le personnage peut dépenser 5 points d’endurance pour utiliser Coup parfait une deuxième fois au cours du même [[round]].
+
+* {s:Reference|COUPPRECIS}'''[[Coup précis]].''' Quand le personnage inflige des dégâts de précision avec ce don, il peut dépenser 2 points d’endurance pour les faire passer à 2d6.
+
+* {s:Reference|COUPREPOSITIONNANT}'''[[Coup repositionnant]].''' Quand le personnage rate une confirmation de [[coup critique|critique]] avec une attaque au corps à corps, il peut dépenser 2 points d’endurance pour tenter de [[repositionnement|repositionner]] sa cible malgré tout. Il relance alors le jet de confirmation du critique pour savoir si sa tentative de repositionnement dépasse le [[DMD]] de son adversaire. Ce jet sert uniquement à la manœuvre offensive et ne permet pas de confirmer le critique. Le personnage ne peut pas faire cela si la cible est immunisée contre les coups critiques.
+
+* {s:Reference|COUPLEDOPPORTUNISTES}'''[[Couple dopportunistes|Couple d’opportunistes]].''' Tant que le personnage a un allié doté de ce don à portée d’[[allonge]], il peut dépenser 2 points d’endurance pour bénéficier des avantages de ce don jusqu’à la fin de son prochain tour.
+
+* {s:Reference|COUPSPROTECTEURS}'''[[Coups protecteurs]].''' Quand le personnage utilise ce don, il peut dépenser 2 points d’endurance pour réduire les dégâts qu’il inflige jusqu’à la fin de son tour seulement mais il gagne le bonus de bouclier de +4 à la [[CA]] seulement à partir de la fin de son tour jusqu’au début de son tour suivant.
+
+* {s:Reference|CRACHATVENIMEUX}'''[[Crachat venimeux (nagaji)|Crachat venimeux]].''' Quand le personnage crache du poison, il peut dépenser jusqu’à 5 points d’endurance. La portée de cette attaque augmente de 1,50 mètre par point dépensé.
+
+* {s:Reference|CRIDEGUERRE}'''[[Cri de guerre]].''' Le personnage peut dépenser 5 points d’endurance quand un allié affecté par son cri de guerre décide de relancer un [[jds|jet de sauvegarde]] contre un effet de terreur et met ainsi fin à l’effet du don. Dans ce cas, l’allié continue de bénéficier du Cri de guerre après son deuxième jet.
+
+* {s:Reference|CRITIQUEASSOURDISSANT}'''[[Critique assourdissant]].''' Quand le personnage confirme un [[coup critique]] et tente d’[[assourdi|assourdir]] son adversaire grâce à ce don, il peut dépenser jusqu’à 5 points d’endurance pour augmenter le [[DD]] du [[jds|jet de sauvegarde]] d’un montant égal au nombre de points dépensés.
+
+* {s:Reference|CRITIQUEAVEUGLANT}'''[[Critique aveuglant]].''' Quand le personnage confirme un [[coup critique]] et tente d’[[aveugle|aveugler]] son adversaire avec ce don, il peut dépenser jusqu’à 5 points d’endurance pour augmenter le [[DD]] du [[jds|jet de sauvegarde]] contre ce don d’un montant égal au nombre de points d’endurance dépensés.
+
+* {s:Reference|CRITIQUEDEMPALEMENT}'''[[Critique dempalement|Critique d’empalement]].''' Quand le personnage empale un adversaire grâce à ce don, il peut dépenser 5 points d’endurance pour qu’il faille dépenser une [[action simple]] (au lieu d’une [[action de mouvement]]) pour retirer son arme.
+
+* {s:Reference|CRITIQUEEPUISANT}'''[[Critique épuisant]].''' Quand le personnage réussit un [[coup critique|critique potentiel]] contre une cible [[épuisé|épuisée]] et décide de lui administrer un Critique épuisant, il peut dépenser jusqu’à 5 points d’endurance pour gagner un bonus de +2 par point dépensé au jet de confirmation du critique.
+
+* {s:Reference|CRITIQUEETOURDISSANT}'''[[Critique étourdissant]].''' Quand le personnage confirme un [[coup critique]] et tente d’[[étourdi|étourdir]] son adversaire, il peut dépenser jusqu’à 5 points d’endurance pour augmenter le [[DD]] du [[jds|jet de sauvegarde]] à effectuer contre le don d’un montant égal au nombre de points d’endurance dépensés.
+
+* {s:Reference|CRITIQUEFATIGANT}'''[[Critique fatigant]].''' Si le personnage réussit un [[coup critique|critique potentiel]] contre un adversaire [[fatigué]], il peut dépenser 5 points d’endurance avant de tenter le jet de confirmation pour que son ennemi soit [[épuisé]] s’il confirme le critique.
+
+* {s:Reference|CRITIQUEFEBRILE}'''[[Critique fébrile]].''' Quand le personnage obtient un [[coup critique|critique potentiel]] avec ce don, il peut dépenser 5 points d’endurance avant d’effectuer son jet de confirmation. Dans ce cas, s’il confirme son critique, la victime est [[nauséeux|nauséeuse]] pendant 1d4+1 [[round|rounds]] à moins de réussir un jet de [[Vigueur]] [[DD]] = 10 + le bonus de base à l’attaque du personnage. Si elle réussit son jet, elle est juste [[fiévreux|fiévreuse]], comme à l’accoutumée.
+
+* {s:Reference|CRITIQUEHANDICAPANT}'''[[Critique handicapant]].''' Quand le personnage confirme un [[coup critique]] et tente d’handicaper un adversaire grâce à ce don, il peut dépenser jusqu’à 5 points d’endurance pour augmenter le [[DD]] du [[jds|jet de sauvegarde]] d’un montant égal au nombre de points dépensés.
+
+* {s:Reference|CRITIQUERALENTISSANT}'''[[Critique ralentissant]].''' Quand le personnage confirme un [[coup critique]] et tente de faire [[chancelant|chanceler]] son adversaire, il peut dépenser jusqu’à 5 points d’endurance pour augmenter le [[DD]] du [[jds|jet de sauvegarde]] à effectuer contre le don d’un montant égal au nombre de points d’endurance dépensés.
+
+* {s:Reference|CRITIQUESANGLANT}'''[[Critique sanglant]].''' Quand le personnage inflige des dégâts de [[saignement]] avec ce don, il peut dépenser jusqu’à 3 points d’endurance pour augmenter les dégâts de saignement infligés du double du montant de points d’endurance dépensés.
+
+* {s:Reference|CRITIQUESDIVERS}'''[[Critiques divers]].''' Le personnage peut dépenser 5 points d’endurance pour utiliser ce don une deuxième fois par jour.
+
+* {s:Reference|CROCDUSERPENT}'''[[Croc du serpent]].''' Quand le personnage rate une [[AO|attaque d’opportunité]] obtenue grâce au don Croc du serpent, il peut dépenser 5 points d’endurance pour refaire son [[jet dattaque|jet d’attaque]]. Cette astuce martiale ne s’utilise qu’une seule fois par attaque d’opportunité.
+
+* {s:Reference|CROCENJAMBEAUBATON}'''[[Croc-en-jambe au bâton]].''' Le personnage peut choisir ce don même s’il ne remplit pas les conditions requises au niveau des caractéristiques ([[Intelligence]] 13). Il bénéficie du don tant qu’il lui reste au moins 1 point dans sa réserve d’endurance.
+
+* {s:Reference|CROCENJAMBESUPERIEUR}'''[[Croc-en-jambe supérieur]].''' Le personnage peut choisir ce don même s’il ne remplit pas les conditions requises au niveau des caractéristiques ([[Intelligence]] 13). Il bénéficie du don tant qu’il lui reste au moins 1 point dans sa réserve d’endurance. Il peut dépenser 2 points d’endurance après avoir réussi un [[croc-en-jambe]] contre un adversaire pour lui infliger 1d6 points de dégâts de [[Dangers naturels#CHUTE|chute]].
+
+* {s:Reference|DANSEDELAMOQUERIE}'''[[Danse de la moquerie]].''' Quand le personnage utilise ce don, il peut dépenser 5 points d’endurance pour se déplacer à la moitié de sa vitesse (au lieu de seulement 1,50 mètre) sans provoquer d’[[AO|attaque d’opportunité]].
+
+* {s:Reference|DANSEDUBOXEUR}'''[[Danse du boxeur]].''' Après que le personnage a utilisé [[École du boxeur]] pour se déplacer de 1,50 mètre sans provoquer d’[[AO|attaque d’opportunité]], il peut faire un [[pas de placement]] de 1,50 mètre au tour suivant, à condition qu’il lui reste au moins 1 point dans sa réserve d’endurance.
+
+* {s:cs}{s:WMH}'''[[Danseur de la lance]].''' Lorsque le personnage [[ébloui]] un adversaire en utilisant le don [[Danseur de la lance]], il peut dépenser jusqu'à 5 points d'endurance afin d'augmenter la durée de l'éblouissement de 1 round par point d'endurance dépensé.
+
+* {s:cs}{s:WMH}'''[[Dans le mille]].''' Le personnage peut dépenser 5 points d'endurance pour utiliser le don [[Dans le mille]] par une [[action rapide]].
+
+* {s:cs}{s:WMH}'''[[Dard du papillon]].''' Lorsque le personnage confirme un [[coup critique]], il peut dépenser 10 points d'endurance pour utiliser le don [[Dard du papillon]] sans abandonner les effets de son coup critique.
+
+* {s:Reference|DEBITERLESORQUES}'''[[Débiter les orques]].''' Tant que le personnage possède encore au moins un point d’endurance dans sa réserve, son bonus aux attaques d’[[Enchaînement]] contre les humanoïdes de sous-type [[sous-type Orque|orque]] passe à +4.
+
+* {s:Reference|DECHIQUETAGEDUSANGLIER}'''[[Déchiquetage du sanglier]].''' Le personnage peut dépenser 2 points d’endurance pour [[Intimidation|démoraliser]] son adversaire par une [[action rapide]].
+
+* {s:Reference|DEFENSEADEUXARMES}'''[[Défense à deux armes]].''' Une fois par [[round]], le personnage peut dépenser 2 points d’endurance pour doubler le bonus conféré par ce don jusqu’au début de son prochain tour.
+
+* {s:Reference|DEFENSEINSTINCTIVE}'''[[Défense instinctive]].''' Quand le personnage se [[combat sur la défensive|bat sur la défensive]] ou opte pour l’action de [[défense totale]], s’il tente un jet de [[Réflexes]] ou s’il est victime d’une manœuvre offensive, il peut dépenser un nombre de points d’endurance inférieur ou égal au montant de son bonus de [[Dextérité]] pour bénéficier d’un bonus au jet de Réflexes ou au [[DMD]] égal au nombre de points d’endurance dépensés.
+
+* {s:Reference|DEFENSEMALADROITE}'''[[Défense maladroite]].''' Le personnage peut dépenser 5 points d’endurance pour accorder les bénéfices de ce don à tous les alliés situés dans un rayon de 3 mètres et à portée d’allonge.
+
+* {s:Reference|DEFENSESCOORDONNEES}'''[[Défenses coordonnées]].''' Quand le personnage est la cible d’une manœuvre offensive alors qu’il est adjacent à un allié possédant aussi ce don, il peut dépenser 1 ou 2 points d’endurance. Son bonus au [[DMD]] contre cette manœuvre augmente alors d’un montant égal au nombre de points d’endurance dépensés.
+
+* {s:Reference|DEGAGEMENTFLAMBOYANT}'''[[Dégagement flamboyant]].''' Le personnage peut choisir ce don même s’il ne remplit pas les conditions requises au niveau des caractéristiques ([[Intelligence]] 13). Il bénéficie des avantages de ce don seulement tant qu’il lui reste au moins un point d’endurance dans sa réserve. Il peut dépenser 5 points d’endurance pour tenter un Dégagement flamboyant par une [[action de mouvement]] au lieu d’une [[action simple]].
+
+* {s:Reference|DELUGEDESTONNERRESJUMEAUX}'''[[Déluge des tonnerres jumeaux]].''' Le personnage peut dépenser 2 points d’endurance pour tenter une manœuvre de [[croc-en-jambe]] contre une créature de taille G dépourvue du sous-type [[sous-type Géant|géant]].
+
+* {s:Reference|DEMONSTRATION}'''[[Démonstration]].''' Quand le personnage manie une arme pour laquelle il dispose du don [[Arme de prédilection]], il peut porter une unique attaque de corps à corps (par une action simple) contre un adversaire. S’il touche, il choisit autant d’ennemis témoins de l’attaque et distants de 9 mètres ou moins qu’il le désire (y compris sa cible). Il dépense 2 points d’endurance par ennemi choisi et tente un test d’[[Intimidation]] contre chacun pour les démoraliser.
+
+* {s:Reference|DEMONSTRATIONDEMAITRE}'''[[Démonstration de maître]].''' Quand le personnage choisit les effets de deux [[Dons#DONSPECTACLE|dons de spectacle]] de sa connaissance, il peut dépenser 2 points d’endurance pour bénéficier des deux sur son test de combat de spectacle.
+
+* {s:Reference|DEMONSTRATIONDECOURAGEANTE}'''[[Démonstration décourageante]].''' Quand le personnage affecte une créature avec ce don, il peut dépenser 5 points d’endurance pour affecter cette créature avec ce don une deuxième fois au cours des 24 heures suivantes.
+
+* {s:Reference|DEMONSTRATIONDUHEROS}'''[[Démonstration du héros]].''' Quand le personnage utilise ce don, il peut dépenser jusqu’à 6 points d’endurance pour augmenter le rayon de l’effet de démoralisation de 1,50 mètre par point dépensé (jusqu’à un maximum de 18 mètres).
+
+* {s:Reference|DEMONSTRATIONFEROCE}'''[[Démonstration féroce]].''' Quand le personnage utilise ce don, il peut dépenser 2 points d’endurance pour gagner un bonus de +2d6 aux [[jet dattaque|jets d’attaque]] (au lieu de +1d6).
+
+* {s:Reference|DEMONSTRATIONTERRIFIANTE}'''[[Démonstration terrifiante]].''' Quand le personnage utilise ce don, il peut dépenser 5 points d’endurance pour affecter les alliés situés à 18 mètres ou moins et non à 9 mètres.
+
+* {s:Reference|DESARCONNER}'''[[Désarçonner]].''' Quand le personnage utilise ce don et parvient à désarçonner un adversaire, il peut dépenser 5 points d’endurance pour que le cavalier tombe dans un espace inoccupé adjacent à sa monture choisi par le personnage au lieu d’une case directement opposée au personnage.
+
+* {s:Reference|DESARMEMENTSUPERIEUR}'''[[Désarmement supérieur]].''' Le personnage peut choisir ce don même s’il ne remplit pas les conditions requises au niveau des caractéristiques ([[Intelligence]] 13). Il bénéficie du don tant qu’il lui reste au moins 1 point dans sa réserve d’endurance. Quand il parvient à [[désarmement|désarmer]] un adversaire, il peut dépenser 5 points d’endurance pour choisir l’endroit où l’arme atterrit en désignant une case dans un rayon de 4,50 mètres autour de son propriétaire. S’il choisit une case qu’il occupe et qu’il a une main libre, il peut se saisir de l’arme lors de la tentative de désarmement.
+
+* {s:Reference|DESTRUCTIONDARMESUPERIEURE}'''[[Destruction darme supérieure|Destruction d’arme supérieure]].''' Quand le personnage réussit une manœuvre de [[destruction]] d’arme, il peut dépenser un nombre de points d’endurance inférieur ou égal à son bonus de [[Force]]. Il inflige à sa cible un nombre de points de dégâts supplémentaires égal au double des points d’endurance dépensés. Les dégâts sont du même type que ceux de l’arme utilisée lors de la manœuvre.
+
+* {s:cs}{s:WMH}'''[[Destruction didentité|Destruction d'identité]].''' Lorsque le personnage confirme un [[coup critique]] contre un adversaire, il peut dépenser 4 points d'endurance pour augmenter l'[[Affaiblissement temporaire (capacité)|affaiblissement temporaire]] de [[Charisme]] infligés par le don [[Destruction didentité|Destruction d'identité]] de 1d3+1 points.
+
+* {s:cs}{s:WMH}'''[[Discipliné]].''' Le personnage peut dépenser 2 points d'endurance pour bénéficier des effets du don [[Discipliné]] pendant 1 round, comme s'il avait été ciblé par un effet de peur qui aurait échoué.
+
+* {s:Reference|DONPOURLESCRITIQUES}'''[[Don pour les critiques]].''' Si le personnage obtient un 19 ou un 20 naturel au jet de confirmation de son [[coup critique]], il peut dépenser 2 points d’endurance pour effectuer un second jet de confirmation. S’il réussit, son multiplicateur de critique augmente de 1 pour cette attaque et il peut relancer le dé. S’il obtient encore un 19 ou un 20 naturel, il peut dépenser d’autres points d’endurance pour effectuer des jets supplémentaires et augmenter encore le multiplicateur de critique.
+
+* {s:Reference|DOUBLECROCENJAMBE}'''[[Double croc-en-jambe]].''' Quand le personnage tente un [[croc-en-jambe]] sur un adversaire situé dans la [[espace contrôlé|zone contrôlée]] de l’un de ses alliés, il peut dépenser 2 points d’endurance pour bénéficier des avantages de ce don même si son allié ne le possède pas.
+
+* {s:Reference|DOUBLEFRAPPE}'''[[Double frappe]].''' Quand le personnage touche un adversaire avec une attaque de la main directrice et une attaque de la main secondaire alors qu’il utilise le [[Combat à deux armes]], il peut dépenser autant de points d’endurance qu’il le désire mais pas plus de la moitié de son bonus de [[Force]]. Dans ce cas, il ajoute un bonus aux dégâts du second jet égal au nombre de points d’endurance dépensés. Il peut utiliser cette astuce martiale seulement une fois par [[round]].
+
+* {s:cs}{s:WMH}'''[[Duelliste à la falcata]].''' Lorsque le personnage attaque avec une [[Falcata (arme)|falcata]] à deux mains alors qu'il porte une [[targe (armure)|targe]], il peut dépenser 3 points d'endurance afin d'ignorer le malus de -1 aux jets d'attaque lié à l'utilisation d'une arme à deux mains en portant une targe et de conserver le bonus de bouclier de la targe pendant 1 round.
+
+* {s:Reference|ECHANGEDEPLACE}'''[[Échange de place]].''' Le personnage peut dépenser 2 points d’endurance quand il utilise ce don pour que le déplacement qu’il effectue lors de l’échange de place ne provoque pas d’[[AO|attaque d’opportunité]].
+
+* {s:Reference|ECLATDUSINGE}'''[[Éclat du singe]].''' Après avoir utilisé ce don pour entrer dans l’espace d’un adversaire, le personnage peut dépenser des points d’endurance pour suivre cet adversaire s’il s’éloigne. Il doit dépenser 2 points pour parcourir 1,50 mètre. Le mouvement de l’adversaire ne provoque pas d’[[AO|attaque d’opportunité]] de la part du personnage si ce dernier se déplace avec lui et le personnage n’en provoque pas non plus quand il se déplace ainsi.
+
+* {s:Reference|ECOLEDELEFRIT}'''[[École de lefrit|École de l’efrit]].''' Quand le personnage effectue une attaque de [[Poing élémentaire]] pour infliger des dégâts de feu, il peut dépenser jusqu’à 5 points d’endurance pour infliger un montant de dégâts de feu supplémentaire égal au double du nombre de points d’endurance dépensés.
+
+* {s:Reference|ECOLEDELEMPOIGNEUR}'''[[École de lempoigneur|École de l’empoigneur]].''' Quand le personnage utilise cette école pour effectuer un test de [[lutte]] en utilisant ses deux mains, il peut dépenser un point d’endurance pour gagner un bonus de +2 au test.
+
+* {s:Reference|ECOLEDELENFANTDELATERRE}'''[[École de lenfant de la terre|École de l’enfant de la terre]].''' Quand le personnage réussit une attaque à mains nues contre une créature de sous-type [[sous-type Géant|géant]], il peut dépenser jusqu’à 5 points d’endurance pour gagner un bonus aux [[Valeurs de combat#DEGATS|jets de dégâts]] égal au double des points d’endurance dépensés.
+
+* {s:Reference|ECOLEDELAGRUE}'''[[École de la grue]].''' Quand le personnage utilise cette école et se [[combat sur la défensive|bat sur la défensive]] ou se met en [[défense totale]], il peut dépenser jusqu’à 3 points d’endurance lorsqu’il est la cible d’une attaque au corps à corps. Il peut alors effectuer une [[action immédiate]] pour augmenter son bonus d’esquive à la [[CA]] contre cette attaque d’un montant égal au nombre de points d’endurance dépensés.
+
+* {s:Reference|ECOLEDELAMANTE}'''[[École de la mante]].''' Quand le personnage utilise cette école, il peut dépenser 5 points d’endurance pour utiliser [[Coup étourdissant]] sans dépenser d’utilisation quotidienne de ce don.
+
+* {s:Reference|ECOLEDELAPANTHERE}'''[[École de la panthère]].''' Quand le personnage provoque une [[AO|attaque d’opportunité]], il peut dépenser 5 points d’endurance pour riposter par une [[action rapide]].
+
+* {s:Reference|ECOLEDELATORTUEALLIGATOR}'''[[École de la tortue alligator]].''' Quand le personnage utilise cette école, son bonus de bouclier à la [[CA]] augmente de 1 tant qu’il lui reste au moins un point dans sa réserve d’endurance.
+
+* {s:Reference|ECOLEDUBOXEUR}'''[[École du boxeur]].''' Quand le personnage inflige des dégâts supplémentaires grâce à ce don pour avoir touché une même cible avec deux attaques à mains nues ou plus, il peut dépenser 2 points d’endurance pour augmenter les dégâts supplémentaires de l’attaque à mains nues de 1d6.
+
+* {s:Reference|ECOLEDUCOGNEUR}'''[[École du cogneur]].''' Quand le personnage utilise cette école, il peut dépenser 5 points d’endurance pour rassembler toutes ses attaques par une [[action simple]] au lieu d’une [[action complexe]].
+
+* {s:Reference|ECOLEDUDJINN}'''[[École du djinn]].''' Quand le personnage effectue une attaque de [[Poing élémentaire]] pour infliger des dégâts d’électricité, il peut dépenser jusqu’à 5 points d’endurance et infliger un montant de dégâts d’électricité supplémentaires égal au double du nombre de points dépensés.
+
+* {s:Reference|ECOLEDUDRAGON}'''[[École du dragon]].''' A partir de la deuxième attaque du [[round]] et pour toutes les suivantes, le personnage peut dépenser 3 points d’endurance avant de porter l’attaque pour ajouter 1,5 × son bonus de [[Force]] à ses [[Valeurs de combat#DEGATS|jets de dégâts]].
+
+* {s:Reference|ECOLEDUJANN}'''[[École du jann]].''' Quand le personnage [[charge]] en utilisant cette école, il peut dépenser 2 points d’endurance pour ne pas subir de malus de charge à la [[CA]] et se déplacer de 3 mètres supplémentaires lors de la charge.
+
+* {s:Reference|ECOLEDUKIRIN}'''[[École du kirin]].''' Quand le personnage effectue un test de [[Connaissances]] pour identifier une créature, il peut dépenser jusqu’à 2 points d’endurance pour gagner un bonus au test égal au double du nombre de points dépensés.
+
+* {s:Reference|ECOLEDUMARID}'''[[École du marid]].''' Quand le personnage effectue une attaque de [[Poing élémentaire]] pour infliger des dégâts de froid, il peut dépenser jusqu’à 5 points d’endurance pour infliger un montant de dégâts de froid supplémentaire égal au double du nombre de points d’endurance dépensés.
+
+* {s:Reference|ECOLEDUSANGLIER}'''[[École du sanglier]].''' Quand le personnage utilise cette école, il peut dépenser 3 points d’endurance quand il touche une cible avec une attaque à mains nues seulement lors d’un [[round]] où il déchire ses chairs et lui infliger 2d6 points de dégâts. Il ne peut déchirer les chairs qu’une fois par round.
+
+* {s:Reference|ECOLEDUSCORPION}'''[[École du scorpion]].''' Quand le personnage touche son adversaire avec une attaque à mains nues en utilisant ce don mais que sa cible réussit ses [[jds|jets de sauvegarde]] contre l’effet, il peut dépenser 2 points d’endurance pour réduire la vitesse de déplacement de la cible de moitié pour un [[round]].
+
+* {s:Reference|ECOLEDUSERPENT}'''[[École du serpent]].''' Quand le personnage est victime d’une attaque à distance ou au corps à corps, il peut dépenser 5 points d’endurance pour tenter le test de [[Psychologie]] en dépensant une de ses [[AO|attaques d’opportunité]] du [[round]] au lieu d’une [[action immédiate]].
+
+* {s:Reference|ECOLEDUSHAITAN}'''[[École du shaitan]].''' Quand le personnage effectue une attaque de [[Poing élémentaire]] pour infliger des dégâts d’acide, il peut dépenser 5 points d’endurance pour infliger un montant de dégâts d’acide supplémentaire égal au double du nombre de points d’endurance dépensés.
+
+* {s:Reference|ECOLEDUSINGE}'''[[École du singe]].''' Quand le personnage utilise cette école, il peut dépenser 2 points d’endurance pour se relever par une [[action rapide]] sans avoir à réussir le test d’[[Acrobaties]] [[DD]] 20.
+
+* {s:Reference|ECOLEDUTIGRE}'''[[École du tigre]].''' Quand le personnage réussit un [[coup critique]] avec son attaque à mains nues tranchante, il peut dépenser 2 points d’endurance pour que les dégâts de [[saignement]] se poursuivent jusqu’à ce que la victime bénéficie de soins magiques ou d’un test de [[Premiers secours]] (au lieu de durer seulement 2 tours).
+
+* {s:Reference|EMBUSQUEURKOBOLD}'''[[Embusqueur kobold]].''' Quand le personnage utilise l’action de [[courir|course]] ou de [[charge]] et désire rester caché, il peut dépenser 2 points d’endurance pour réduire le malus associé à –5.
+
+* {s:Reference|EMPOISONNEURPRECIS}'''[[Empoisonneur précis]].''' Quand le personnage lance des fléchettes de sarbacane comme des shurikens avec ce don et se trouve à 3 mètres ou moins de sa cible, il peut dépenser 5 points d’endurance pour effectuer son [[jet dattaque|jet d’attaque]] contre la [[contact|CA de contact]] de sa cible.
+
+* {s:Reference|ENCHAINEMENT}'''[[Enchaînement]].''' Quand le personnage utilise Enchaînement ou [[Succession denchaînements|Succession d’enchaînements]], il peut dépenser 4 points d’endurance pour annuler le malus de –2 à la [[CA]] jusqu’à son prochain tour.
+
+* {s:Reference|ENCHAINEMENTELARGI}'''[[Enchaînement élargi]].''' Quand le personnage utilise ce don, il peut dépenser 5 points d’endurance pour faire un second [[pas de placement]] de 1,50 mètre par une [[action libre]] une fois par [[round]], quand il touche une créature lors d’un [[Enchaînement]]. Si ce mouvement place une créature dans sa [[espace contrôlé|zone contrôlée]], cette créature devient une cible autorisée pour de nouvelles attaques d’Enchaînement, tant que les autres conditions requises sont aussi remplies.
+
+* {s:Reference|ENCHAINEMENTFINAL}'''[[Enchaînement final]].''' Si le personnage fait passer une seconde cible au-dessous de 0 [[pv]] après un Enchaînement final et au cours du même [[round]], il peut dépenser 5 points d’endurance pour effectuer un autre Enchaînement final.
+
+* {s:Reference|ENCHAINEMENTSURPRISE}'''[[Enchaînement surprise]].''' Quand le personnage touche un ennemi privé de son bonus de [[Dextérité]] à la [[CA]] à cause de ce don, il peut dépenser 2 points d’endurance pour lui infliger 1d6 points de dégâts supplémentaires. Ce sont des dégâts de précision qui ne se multiplient pas en cas de [[coup critique]].
+
+* {s:Reference|ENCHAINERLESGOBELINS}'''[[Enchaîner les gobelins]].''' Tant que le personnage a au moins un point dans sa réserve d’endurance, le bonus aux attaques d’Enchaînement contre les gobelinoïdes passe à +4.
+
+* {s:cs}{s:WMH}'''[[Engagement ferme]].''' Lorsque le personnage effectue un test de [[Manœuvres offensives|manœuvre offensive]] dans le cadre du don [[Engagement ferme]], il peut dépenser jusqu'à 4 points d'endurance afin d'obtenir un bonus de +1 sur son test par point d'endurance dépensé.
+
+* {s:Reference|ENTRAINEMENTAUCOMBATFEROCE}'''[[Entraînement au combat féroce]].''' Au début de son tour, le personnage peut dépenser autant de points d’endurance qu’il le désire. Jusqu’au début de son prochain tour, il peut appliquer les effets de l’Entraînement au combat féroce à une attaque d’arme naturelle par tranche de 2 points d’endurance dépensés, à condition que cette attaque soit effectuée avec une arme naturelle autre que celle à laquelle s’applique le don.
+
+* {s:Reference|ENTRAINEMENTAUXARMURESRENFORCE}'''[[Entraînement aux armures renforcé]].''' Quand le personnage utilise ce don pour annuler un [[coup critique]], il peut dépenser 5 points d’endurance pour que son armure ou son bouclier ait 50 % de chances d’éviter de subir l’état préjudiciable [[brisé]].
+
+* {s:Reference|ENTRAINEMENTDEFENSIFAUXARMES}'''[[Entraînement défensif aux armes]].''' Le personnage peut dépenser 5 points d’endurance au début de son tour pour échanger le [[Groupe darmes|groupe d’armes]] de ce don contre un autre figurant sur la liste de l’aptitude [[Guerrier#ENTRAINEMENTAUXARMES|entraînement aux armes]] du guerrier. Cet avantage dure trois [[round|rounds]].
+
+* {s:Reference|ENTRAINEMENTGUERRIERELFIQUE}'''[[Entraînement guerrier elfique]].''' Quand le personnage manie une arme traditionnelle elfique (comme définie dans le don), il peut dépenser 5 points d’endurance pour effectuer une [[AO|attaque d’opportunité]] de plus avec cette arme. Elle se cumule avec les attaques d’opportunité conférées par ce don, par les [[Attaques réflexes]] et autres pouvoirs similaires.
+
+* {s:Reference|ENTRAINEMENTSUPERIEUR}'''[[Entraînement supérieur]].''' Le personnage peut dépenser 5 points d’endurance quand il réussit une manœuvre offensive d’[[entraînement]] pour gagner 3 mètres de mouvement lors de l’entraînement. Il peut utiliser ce mouvement à la place de son mouvement normal mais seulement pour entraîner un adversaire.
+
+* {s:Reference|ENTRAINERAUSOL}'''[[Entraîner au sol]].''' Le personnage peut choisir ce don même s’il ne remplit pas les conditions requises au niveau des caractéristiques ([[Intelligence]] 13). Il bénéficie du don tant qu’il lui reste au moins 1 point dans sa réserve d’endurance. S’il réussit sa manœuvre offensive de [[croc-en-jambe]] de 10 ou plus en riposte conférée par le don Entraîner au sol, il peut dépenser 5 points d’endurance pour se relever sans provoquer d’[[AO|attaque d’opportunité]] lors de l’action de croc-en-jambe.
+
+* {s:Reference|ENTRAVEADISTANCE}'''[[Entrave à distance]].''' Le personnage peut dépenser 1 point d’endurance pour gagner un bonus de +2 à un test de [[lutte]] effectué par une [[action rapide]] grâce à ce don.
+
+* {s:Reference|EPEEETPISTOLET}'''[[Épée et pistolet]].''' Quand le personnage utilise le [[Combat à deux armes]] alors qu’il manie une arme de corps à corps et une arbalète ou une arme à feu, il gagne un bonus de +1 sur tous les [[jet dattaque|jets d’attaque]] à l’arme à feu ou à l’arbalète tant qu’il lui reste au moins un point dans sa réserve d’endurance.
+
+* {s:Reference|ESPRITDUDJINN}'''[[Esprit du djinn]].''' Quand le personnage porte une attaque avec [[Poing élémentaire]], il peut dépenser jusqu’à 5 points d’endurance pour augmenter le [[DD]] du [[jds|jet de sauvegarde]] contre l’effet [[assourdi|assourdissant]] d’un montant égal au nombre de points dépensés.
+
+* {s:Reference|ESPRITDUMARID}'''[[Esprit du marid]].''' Quand une créature subit des dégâts de froid à cause de l’attaque de [[Poing élémentaire]] du personnage, ce dernier peut dépenser jusqu’à 5 points d’endurance pour augmenter le [[DD]] du [[jds|jet de sauvegarde]] contre l’[[enchevêtré|enchevêtrement]] d’un montant égal au nombre de points d’endurance dépensés.
+
+* {s:Reference|ESQUIVE}'''[[Esquive]].''' Quand le personnage se déplace à sa vitesse ou plus, il peut dépenser autant de points d’endurance qu’il le désire mais pas plus du double de son bonus de [[Dextérité]]. Ensuite et jusqu’au début de son prochain tour, le bonus d’esquive à la [[CA]] accordé par le don augmente de la moitié du nombre de points d’endurance dépensés.
+
+* {s:Reference|ESQUIVEANTICIPEE}'''[[Esquive anticipée]].''' Le personnage dépense 1 point d’endurance pour augmenter le bonus maximum de l’Esquive anticipée de 2 (mais le bonus d’esquive de la créature limite tout de même toujours ce dernier).
+
+* {s:Reference|ETOURDIRLIMMOBILE}'''[[Étourdir limmobile|Étourdir l’immobile]].''' Le personnage peut dépenser 5 points d’endurance pour utiliser Étourdir l’immobile par une [[action libre]] au lieu d’une [[action rapide]].
+
+* {s:Reference|ETREINTEDELATORTUEALLIGATOR}'''[[Étreinte de la tortue alligator]].''' Quand le personnage tente une manœuvre de [[lutte]] par une [[action immédiate]] grâce à ce don, il peut dépenser 2 points d’endurance pour annuler le malus de –2 au test de manœuvre offensive.
+
+* {s:Reference|ETREINTEETOUFFANTE}'''[[Étreinte étouffante]].''' Quand le personnage tente un étranglement, il peut dépenser 2 points d’endurance pour réduire le malus à –1.
+
+* {s:Reference|ETREINTEFATALE}'''[[Étreinte fatale]].''' Le personnage peut dépenser 2 points d’endurance pour [[agrippé|agripper]] une créature d’une catégorie de taille de plus que lui.
+
+* {s:Reference|EVENTRATIONADEUXARMES}'''[[Éventration à deux armes]].''' Le personnage peut dépenser 5 points d’endurance pour bénéficier des avantages de ce don une deuxième fois au cours d’un même [[round]].
+
+* {s:Reference|EVENTRATIONDELIMMOBILE}'''[[Éventration de limmobile|Éventration de l’immobile]].''' Quand le personnage inflige des dégâts de [[saignement]] avec ce don, il peut dépenser jusqu’à 5 points d’endurance pour augmenter ces dégâts d’un montant égal au nombre de points dépensés.
+
+* {s:Reference|EXPERTISEDUCOMBAT}'''[[Expertise du combat]].''' Le personnage peut choisir ce don même s’il ne remplit pas les conditions requises au niveau des caractéristiques ([[Intelligence]] 13). Il bénéficie du don tant qu’il lui reste au moins 1 point dans sa réserve d’endurance. S’il dépense des points d’endurance pour améliorer un [[jet dattaque|jet d’attaque]] utilisant le don [[Endurance combative]], il ignore une part du malus dû à l’Expertise du combat d’un montant égal au nombre de points d’endurance dépensés.
+
+* {s:Reference|EXPERTISEMARTIALEORQUE}'''[[Expertise martiale orque]].''' Quand le personnage utilise une arme dotée du mot « orque » dans son nom et au maniement de laquelle il est formé, il peut dépenser 5 points d’endurance pour bénéficier pendant une minute d’un des avantages de ce don qu’il ne possède pas encore.
+
+* {s:Reference|FAUSSEOUVERTURE}'''[[Fausse ouverture]].''' Quand le personnage utilise ce don, il peut dépenser 5 points d’endurance pour effectuer une [[AO|attaque d’opportunité]] contre un adversaire qui l’a raté lors de l’attaque provoquée (après avoir perdu son bonus de [[Dextérité]] à la [[CA]] contre lui).
+
+* {s:Reference|FEINTEADEUXARMES}'''[[Feinte à deux armes]].''' Le personnage peut choisir ce don même s’il ne remplit pas les conditions requises au niveau des caractéristiques ([[Intelligence]] 13). Il bénéficie du don tant qu’il lui reste au moins 1 point dans sa réserve d’endurance. Quand il utilise le [[Combat à deux armes]] pour effectuer une attaque au corps à corps, il peut dépenser 5 points d’endurance pour renoncer à une de ses attaques, n’importe laquelle (et non pas uniquement sa première attaque de la main directrice) pour tenter une [[feinte]] avec un test de [[Bluff]]. Cette feinte se produit avant la totalité des attaques du personnage, même s’il a sacrifié une attaque autre que la première.
+
+* {s:Reference|FEINTEBRULANTE}'''[[Feinte brûlante]].''' Quand le personnage tente une [[feinte]] alors qu’il manie une arme infligeant des dégâts de feu, il peut dépenser jusqu’à 5 points d’endurance pour gagner un bonus au test de [[Bluff]] égal au nombre de points d’endurance dépensés.
+
+* {s:Reference|FEINTEDEDEGAGEMENT}'''[[Feinte de dégagement]].''' Le personnage peut choisir ce don même s’il ne remplit pas les conditions requises au niveau des caractéristiques ([[Intelligence]] 13). Il bénéficie des avantages de ce don seulement tant qu’il lui reste au moins un point d’endurance dans sa réserve. Il peut dépenser 5 points d’endurance pour tenter une Feinte de dégagement par une [[action de mouvement]] au lieu d’une [[action simple]].
+
+* {s:Reference|FEINTEDUTRAQUEURAUCLAIRDELUNE}'''[[Feinte du traqueur au clair de lune]].''' Quand le personnage effectue un test de [[Bluff]] pour faire une [[feinte]] à l’attention d’un adversaire contre lequel il bénéficie d’un [[camouflage]], il peut dépenser jusqu’à 5 points d’endurance pour bénéficier d’un bonus au test égal au double du nombre de points d’endurance dépensés.
+
+* {s:Reference|FEINTEDUTUEUR}'''[[Feinte du tueur]].''' Quand le personnage tente une [[feinte]] avec un test d’[[Acrobaties]], il peut dépenser un nombre de points d’endurance inférieur ou égal à son bonus de [[Dextérité]]. Il gagne alors un bonus au test égal au nombre de points d’endurance dépensés.
+
+* {s:Reference|FEINTEINVERSEE}'''[[Feinte inversée]].''' Le personnage peut dépenser 2 points d’endurance pour effectuer l’attaque supplémentaire conférée par ce don par une [[action libre]] au lieu d’une [[action immédiate]]. Il ne peut toutefois effectuer cette attaque qu’une seule fois par utilisation de ce don.
+
+* {s:Reference|FEINTEJUMELEE}'''[[Feinte jumelée]].''' Quand le personnage utilise ce don, une fois qu’il a réussi sa première [[feinte]], il peut dépenser 2 points d’endurance pour effectuer la seconde contre n’importe quel adversaire à portée, même s’il n’est pas adjacent au premier.
+
+* {s:Reference|FEINTESUPERIEURE}'''[[Feinte supérieure]].''' Le personnage peut choisir ce don même s’il ne remplit pas les conditions requises au niveau des caractéristiques ([[Intelligence]] 13). Il bénéficie du don tant qu’il lui reste au moins 1 point dans sa réserve d’endurance. Si le personnage possède encore au moins 1 point dans sa réserve d’endurance, il peut effectuer une [[feinte]] par une [[action rapide]] mais, dans ce cas, son adversaire est [[pris au dépourvu]] lors de la prochaine attaque du personnage seulement et non pas pour toutes ses attaques jusqu’au début de son prochain tour.
+
+* {s:Reference|FENTE}'''[[Fente]].''' Quand le personnage utilise ce don, il peut dépenser 2 points d’endurance pour éviter de subir un malus de –2 à la [[CA]] pour cette Fente.
+
+* {s:Reference|FEROCITEDUDRAGON}'''[[Férocité du dragon]].''' Quand le personnage utilise ce don pour [[secoué|secouer]] un personnage suite à un [[coup critique]] ou à une tentative de [[Coup étourdissant]] réussie, il peut dépenser 5 points d’endurance pour que la victime soit aussi [[fiévreux|fiévreuse]] pendant 1d4 rounds.
+
+* {s:Reference|FEROCITEDUSANGLIER}'''[[Férocité du sanglier]].''' Si l’adversaire du personnage est démoralisé avant que ce dernier ne déchire ses chairs avec l’[[École du sanglier]], le personnage peut dépenser 5 points d’endurance pour le rendre [[fiévreux]] pendant 1 [[round]].
+
+* {s:Reference|FEUNOURRI}'''[[Feu nourri]].''' Quand le personnage utilise ce don, il peut dépenser 5 points d’endurance pour tirer deux flèches lors de sa dernière attaque itérative au cours d’une [[attaque à outrance]].
+
+* {s:Reference|FILETETTRIDENT}'''[[Filet et trident]].''' Quand le personnage utilise une arme de corps à corps légère ou à une main pour attaquer un adversaire [[enchevêtré]] dans son [[filet (arme)|filet]], il peut dépenser jusqu’à 5 points d’endurance quand il touche l’adversaire pour gagner un bonus au [[Valeurs de combat#DEGATS|jet de dégâts]] égal au double du nombre de points d’endurance dépensés.
+
+* {s:Reference|FLAMMEINTERIEURE}'''[[Flamme intérieure]].''' Quand le personnage rate un [[jds|jet de sauvegarde]] contre un effet du registre du [[registre|feu]] ou de la [[registre|lumière]], il peut dépenser 5 points d’endurance pour le refaire. Il doit conserver le deuxième résultat, même s’il est pire.
+
+* {s:Reference|FORCEINTIMIDANTE}'''[[Force intimidante]].''' Quand le personnage tente un test d’[[Intimidation]], il peut dépenser 2 points d’endurance pour chaque catégorie de taille de différence entre lui et une cible plus grande, afin d’ignorer le malus de différence de taille au test contre cette cible.
+
+* {s:cs}{s:WMH}'''[[Fossoyeur épineux]].''' Le personnage peut dépenser 4 points d'endurance après avoir réussi un test de manœuvre offensive de [[bousculade]] ou de [[renversement]] pour utiliser le don [[Fossoyeur épineux]] par une [[action libre]].
+
+* {s:Reference|FRAPPEAGRIPPANTE}'''[[Frappe agrippante]].''' Le personnage peut dépenser jusqu’à 5 points d’endurance quand il utilise ce don pour augmenter le [[DD]] de l’effet d’un montant égal au nombre de points d’endurance dépensés.
+
+* {s:Reference|FRAPPECHANCEUSE}'''[[Frappe chanceuse]].''' Le personnage peut dépenser 5 points d’endurance au lieu d’une utilisation de [[Halfelin#CHANCEADAPTABLE|chance adaptable]] pour relancer les dégâts d’une unique attaque.
+
+* {s:Reference|FRAPPEDECAUCHEMAR}'''[[Frappe de cauchemar]].''' Quand le personnage touche un adversaire avec une attaque de [[Coup étourdissant]] et que cet adversaire rate son [[jds|jet de sauvegarde]], le personnage peut dépenser 5 points d’endurance pour que son adversaire soit [[effrayé]] pendant 1d4 [[round|rounds]] au lieu d’être simplement [[secoué]].
+
+* {s:Reference|FRAPPEDEDOMAINE}'''[[Frappe de domaine]].''' Le personnage peut dépenser 2 points d’endurance pour appliquer les effets du pouvoir de [[Prêtre#DOMAINE|domaine]] qu’il a choisi par une [[action libre]] au lieu d’une [[action rapide]].
+
+* {s:Reference|FRAPPEDELECOLE}'''[[Frappe de lécole|Frappe de l’école]].''' Une fois que le personnage a réussi une attaque à mains nues, il peut dépenser 2 points d’endurance pour appliquer les effets du pouvoir de l’[[Magicien#ECOLEDEMAGIE|école de magie]] qu’il a choisi par une [[action libre]] au lieu d’une [[action rapide]].
+
+* {s:Reference|FRAPPEDELHIVER}'''[[Frappe de lhiver|Frappe de l’hiver]].''' Quand le personnage utilise ce don, il peut dépenser jusqu’à 5 points d’endurance pour augmenter le [[DD]] de l’effet d’un montant égal au nombre de points d’endurance dépensés.
+
+* {s:Reference|FRAPPEDELAVIPERE}'''[[Frappe de la vipère]].''' Par une [[action rapide]], le personnage dépense 2 points d’endurance pour appliquer un [[Poisons|poison]] sur une arme manufacturée.
+
+* {s:Reference|FRAPPEDECHIRANTE}'''[[Frappe déchirante]].''' Quand le personnage utilise ce don, il peut dépenser jusqu’à 3 points d’endurance pour augmenter la durée de l’effet d’un [[round]] par point d’endurance dépensé.
+
+* {s:Reference|FRAPPEDECISIVE}'''[[Frappe décisive]].''' Une fois que le personnage a lancé les dégâts de son attaque de Frappe décisive, il peut dépenser 2 points d’endurance pour relancer jusqu’à deux dés de dégâts de l’arme (pour les armes disposant de plusieurs dés de dégâts, considérez tous les dés de dégâts de base de l’arme comme un seul). Le personnage doit conserver le résultat du deuxième jet, même s’il est pire.
+
+* {s:Reference|FRAPPEDECISIVESUPERIEURE}'''[[Frappe décisive supérieure]].''' Quand le personnage utilise l’[[Endurance et Astuces martiales#FRAPPEDECISIVE|astuce martiale de Frappe décisive]], il peut dépenser 4 points d’endurance au lieu de 2 pour relancer quatre dés de dégâts.
+
+* {s:Reference|FRAPPEDEVASTATRICE}'''[[Frappe dévastatrice]].''' Quand le personnage utilise [[Frappe décisive]], [[Frappe décisive supérieure]] ou [[Science de la frappe décisive]], il peut dépenser 5 points d’endurance pour augmenter le bonus aux dégâts et le faire passer à +4 pour chaque dé de dégâts des armes supplémentaire. Pour les armes qui ont plus d’un dé de dégâts, considérez les dés de dégâts de base comme un ensemble.
+
+* {s:Reference|FRAPPEDRAINANTE}'''[[Frappe drainante]].''' Le personnage peut dépenser 5 points d’endurance pour annoncer qu’il utilise la Frappe drainante après avoir touché avec une attaque à mains nues.
+
+* {s:Reference|FRAPPEDUBOUCLIER}'''[[Frappe du bouclier]].''' Quand le personnage utilise ce don, il peut dépenser 2 points d’endurance pour tenter une manœuvre offensive de [[désarmement]], de [[repositionnement]], de [[croc-en-jambe]] ou de [[destruction]] d’arme au lieu d’une manœuvre de [[bousculade]]. Cette manœuvre ne provoque pas d’[[AO|attaque d’opportunité]] de la part de la cible.
+
+* {s:Reference|FRAPPEDUKIRIN}'''[[Frappe du kirin]].''' Tant que le personnage a encore au moins un point dans sa réserve d’endurance, quand il touche une créature qu’il a identifiée avec l’[[École du kirin]], il ajoute son modificateur d’[[Intelligence]] aux [[Valeurs de combat#DEGATS|jets de dégâts]] des attaques au corps à corps et à distance contre cette créature pendant 24 heures. Il peut toujours dépenser une [[action rapide]] pour ajouter le double de son modificateur d’Intelligence aux jets de dégâts mais ces dégâts supplémentaires ne se cumulent pas avec ceux de cette astuce de combat.
+
+* {s:Reference|FRAPPEENSORCELEE}'''[[Frappe ensorcelée]].''' Le personnage peut dépenser 2 points d’endurance après avoir touché une cible avec une attaque à mains nues pour lui appliquer les effets du pouvoir de [[Ensorceleur#LIGNAGE|lignage]] qu’il a choisi par une [[action libre]] au lieu d’une [[action simple]].
+
+* {s:Reference|FRAPPEFEERIQUE}'''[[Frappe féerique]].''' Quand le personnage utilise ce don, il peut dépenser jusqu’à 5 points d’endurance pour augmenter le [[DD]] de l’effet d’un montant égal au nombre de points dépensés.
+
+* {s:Reference|FRAPPELESTE}'''[[Frappe leste]].''' Quand le personnage utilise le don [[Enchaînement]] ou [[Fente]], ou quand il [[charge]], il peut dépenser 5 points d’endurance pour gagner un bonus d’esquive de +2 à la [[CA]]. Ce bonus persiste jusqu’au début de son prochain tour.
+
+* {s:Reference|FRAPPEMAGIQUE}'''[[Frappe magique]].''' Le personnage peut dépenser autant de points d’endurance qu’il le désire pour augmenter la durée des effets de ce don d’un [[round]] par point dépensé.
+
+* {s:Reference|FRAPPEMAGIQUESANGUINE}'''[[Frappe magique sanguine]].''' Quand le personnage imprègne son arme avec [[Frappe magique]], il peut dépenser 5 points d’endurance pour augmenter ses dégâts de 1 pendant toute la durée de l’effet de Frappe magique.
+
+* {s:Reference|FRAPPEMALEFIQUE}'''[[Frappe maléfique]].''' Le personnage peut dépenser 5 points d’endurance pour appliquer les effets du [[Sorcière#MALEFICE|maléfice]] choisi par une [[action libre]] au lieu d’une [[action rapide]].
+
+* {s:Reference|FRAPPEMORTELLE}'''[[Frappe mortelle]].''' Le personnage peut dépenser 5 points d’endurance pour porter une Frappe mortelle contre un adversaire [[étourdi]] ou 10 points pour la faire contre un adversaire qu’il [[prendre en tenaille|prend en tenaille]].
+
+* {s:Reference|FRAPPEOBSCURE}'''[[Frappe obscure]].''' Tant que le personnage a au moins 1 point d’endurance dans sa réserve, il bénéficie du bonus conféré par ce don tant qu’il se trouve dans une zone faiblement éclairée ou plongée dans l’obscurité, même si ce n’est pas le cas de la créature qu’il attaque.
+
+* {s:Reference|FRAPPEONDOYANTE}'''[[Frappe ondoyante]].''' Le personnage peut dépenser 2 points d’endurance pour utiliser ce don lors de son deuxième tour du combat ou ensuite. Il peut utiliser cette astuce martiale une seule fois par combat mais il peut le faire même s’il a déjà utilisé le don lors de son premier tour.
+
+* {s:Reference|FRAPPEPARALYSANTE}'''[[Frappe paralysante]].''' Le personnage peut dépenser 5 points d’endurance pour annoncer qu’il utilise ce don après avoir touché sa cible avec une attaque à mains nues.
+
+</td><td width="2%"></td><td width="49%">
+* {s:Reference|FRAPPEPUISSANTE}'''[[Frappe puissante]].''' Quand le personnage utilise les armes choisies pour infliger des dégâts à une créature dotée d’une [[RD|réduction de dégâts]], il peut dépenser 5 points d’endurance pour que tous les alliés (lui excepté) situés dans un rayon de 9 mètres autour d’elle ignorent 5 points de RD pendant 1 [[round]]. Ce pouvoir n’affecte pas les créatures dotées d’une réduction de dégâts sans type (comme une RD 10/—). Cet effet ne se cumule pas avec l’effet normal de la Frappe puissante mais permet au personnage de l’appliquer à ses autres armes pour toute sa durée.
+
+* {s:Reference|FRAPPEPUISSANTESUPERIEURE}'''[[Frappe puissante supérieure]].''' Quand le personnage utilise une arme pour laquelle il dispose du don [[Arme de prédilection]] et blesse une créature dotée d’une [[RD|réduction de dégâts]], il peut dépenser 5 points d’endurance pour que tous ses alliés dans un rayon de 9 mètres ignorent 10 points de réduction de dégâts possédés par cette créature pendant 1 [[round]]. Ce montant est réduit à 5 si la RD n’a pas de type (comme une RD 10/—). Cet effet ne se cumule pas avec les effets normaux de la Frappe puissante supérieure mais permet au personnage de les appliquer à ses autres armes pendant toute leur durée.
+
+* {s:Reference|FRAPPEREVELATRICE}'''[[Frappe révélatrice]].''' Une fois que le personnage a touché avec une attaque à mains nues, il peut dépenser 2 points d’endurance pour appliquer les effets de la [[Oracle#REVELATION|révélation]] choisie par une [[action libre]] au lieu d’une [[action rapide]]. Si la révélation choisie peut être utilisée un nombre illimité de fois par jour, cette astuce martiale coûte 5 points d’endurance.
+
+* {s:Reference|FRAPPERISQUEE}'''[[Frappe risquée]].''' Quand le personnage utilise ce don, il peut dépenser 5 points d’endurance pour bénéficier du bonus aux [[Valeurs de combat#DEGATS|jets de dégâts]] contre des créatures d’une ou plusieurs catégories de taille de plus que lui. Cet avantage se dissipe dès que le personnage cesse d’utiliser ce don ou au bout d’une minute, selon ce qui se produit en premier.
+
+* {s:Reference|FRAPPESURPRENANTE}'''[[Frappe surprenante]].''' Le personnage peut dépenser 5 points d’endurance après avoir utilisé ce don une première fois pour s’en servir une fois de plus dans la journée. Chaque utilisation quotidienne supplémentaire lui coûte 5 points d’endurance.
+
+* {s:Reference|FROIDDUMARID}'''[[Froid du marid]].''' Au lieu de dépenser deux utilisations de [[Poing élémentaire]] pour projeter une ligne d’eau glacée, le personnage peut dépenser une seule utilisation de Poing élémentaire et 2 points d’endurance.
+
+* {s:Reference|FUITERENVERSANTE}'''[[Fuite renversante]].''' Le personnage peut choisir ce don même s’il ne remplit pas les conditions requises au niveau des caractéristiques ([[Intelligence]] 13). Il bénéficie du don tant qu’il lui reste au moins 1 point dans sa réserve d’endurance. Il peut dépenser 5 points d’endurance pour effectuer le [[croc-en-jambe]] autorisé par le don par une [[action libre]] au lieu d’une [[action rapide]].
+
+* {s:Reference|FUREURDELAMEDUSE}'''[[Fureur de la méduse]].''' Quand le personnage utilise ce don, il peut dépenser 10 points d’endurance pour effectuer les attaques supplémentaires contre un ennemi qu’il [[prendre en tenaille|prend en tenaille]] au lieu d’un ennemi [[hébété]], [[pris au dépourvu]], [[paralysé]], [[chancelant]], [[étourdi]] ou [[inconscient]].
+
+* {s:Reference|GARDEDUCORPS}'''[[Garde du corps]].''' Quand le personnage utilise une [[AO|attaque d’opportunité]] pour effectuer l’action « [[aider qqn|aider quelqu’un]] » afin d’améliorer la [[CA]] d’un allié adjacent, il peut dépenser 1 ou 2 points d’endurance. Il augmente le bonus conféré à la CA de l’allié d’un montant égal au nombre de points d’endurance dépensés.
+
+* {s:Reference|GNOMEHANTE}'''[[Gnome hanté]].''' Le personnage peut dépenser 5 points d’endurance pour utiliser ''[[aspect de fée hantée]]'' une fois de plus par jour.
+
+* {s:Reference|GRACETRANCHANTE}'''[[Grâce tranchante]].''' Le personnage peut dépenser 2 points d’endurance pour choisir une autre arme tranchante légère ou à une main qu’il considère comme l’arme choisie pour la Grâce tranchante jusqu’au début de son prochain tour.
+
+* {s:Reference|GRANDEHAINE}'''[[Grande haine]].''' Quand le personnage touche un adversaire d’un sous-type affecté par son trait racial de haine, il peut dépenser jusqu’à 5 points d’endurance pour infliger un montant de dégâts supplémentaire égal au double du nombre de points d’endurance dépensés.
+
+* {s:Reference|GRANDETENAILLE}'''[[Grande tenaille]].''' Quand le personnage obtient un [[coup critique|critique potentiel]] contre une créature qu’il [[prendre en tenaille|prend en tenaille]] mais ne le confirme pas, il peut dépenser 5 points d’endurance pour qu’elle déclenche tout de même des [[AO|attaques d’opportunité]] de la part de tous les alliés dotés de ce don qui la prennent aussi en tenaille. Il ne peut pas utiliser ce pouvoir contre des créatures immunisées contre les coups critiques.
+
+* {s:Reference|GRIFFEDELAPANTHERE}'''[[Griffe de la panthère]].''' Quand le personnage riposte, il peut dépenser jusqu’à 5 points d’endurance pour gagner un bonus au [[Valeurs de combat#DEGATS|jet de dégâts]] égal au double du nombre de points dépensés.
+
+* {s:Reference|GRIFFETRANCHANTE}'''[[Griffe-tranchante]].''' Le personnage peut dépenser 2 points d’endurance pour transformer le dé de dégâts de son attaque de griffe en 1d6 jusqu’au début de son prochain tour.
+
+* {s:Reference|GRIFFESCOUPANTES}'''[[Griffes coupantes]].''' Quand le personnage effectue deux attaques de griffe et touche avec une seule, il peut dépenser 5 points d’endurance pour infliger malgré tout les dégâts de précision de ce don.
+
+* {s:Reference|GRIFFESDUTIGRE}'''[[Griffes du tigre]].''' Si le personnage réussit son test de manœuvre de [[bousculade]] avec ce don, il peut dépenser 2 points d’endurance pour se déplacer normalement avec sa cible.
+
+* {s:Reference|GRIFFESMAGIQUES}'''[[Griffes magiques]].''' Tant que le personnage a encore un point d’endurance dans sa réserve, ses griffes sont également considérées comme des armes en [[fer froid]] quand il s’agit d’ignorer la [[RD|réduction de dégâts]].
+
+* {s:Reference|GUERRIERRANCUNIER}'''[[Guerrier rancunier]].''' Quand le personnage touche une créature qui l’a attaqué lors du combat en cours, il peut dépenser jusqu’à 2 points d’endurance pour lui infliger un nombre de points de dégâts supplémentaires égal au double du nombre de points d’endurance dépensés.
+
+* {s:Reference|HAINECINGLANTE}'''[[Haine cinglante]].''' Le personnage peut dépenser 5 points d’endurance pour changer son type d’ennemi juré au profit d’un autre issu de la table des [[Rôdeur#ENNEMIJURE|ennemis jurés]] du rôdeur. Ce changement dure jusqu’au début de son prochain tour.
+
+* {s:cs}{s:WMH}'''[[Hamatulatsu]].''' Le personnage peut dépenser 5 points d'endurance pour considérer une attaque à mains nues réussie comme un [[coup critique]] dans le cadre des avantages offerts par [[Hamatulatsu]].
+
+* {s:Reference|HERITAGEMONASTIQUE}'''[[Héritage monastique]].''' Le personnage peut dépenser 5 points d’endurance au début de son tour pour considérer que son niveau de [[moine]] effectif est égal à son niveau de personnage en ce qui concerne la détermination de ses dégâts infligés à mains nues. Cet accroissement perdure jusqu’au début de son prochain tour.
+
+* {s:Reference|HOMMEDEMAIN}'''[[Homme de main]].''' Quand le personnage réussit un [[coup critique]] avec une arme infligeant des [[Blessures et mort#NONLETAL|dégâts non-létaux]], il peut dépenser 5 points d’endurance pour [[effrayé|effrayer]] sa cible pendant 1d4 [[round|rounds]] au lieu d’un seul.
+
+* {s:Reference|HORREURDELETREINTEFATALE}'''[[Horreur de létreinte fatale|Horreur de l’étreinte fatale]].''' Quand une créature est blessée par le pouvoir de constriction du personnage, ce dernier peut dépenser 5 points d’endurance pour la rendre [[fiévreux|fiévreuse]] jusqu’au début de son prochain tour.
+
+* {s:Reference|IMMENSEHAINE}'''[[Immense haine]].''' Le personnage peut dépenser 5 points d’endurance pour désigner un [[Types de créatures|type de créature]] (et un sous-type si nécessaire) issu de la table des [[Rôdeur#ENNEMIJURE|ennemis jurés]] du rôdeur. Le bonus racial de haine aux [[jet dattaque|jets d’attaque]] s’applique à ce type (ou sous-type) de créature jusqu’au début de son prochain tour.
+
+* {s:Reference|IMMOBILISER}'''[[Immobiliser]].''' Quand le personnage réussit un [[BMO|test de manœuvre offensive]] pour bloquer le mouvement d’une créature à l’aide de ce don, il peut dépenser 5 points d’endurance pour réduire la vitesse de sa cible de moitié à son prochain tour et l’empêcher de faire un [[pas de placement]] de 1,50 mètre.
+
+* {s:Reference|IMPACTDUTIRCRITIQUE}'''[[Impact du tir critique]].''' Quand le personnage confirme un [[coup critique]] et utilise ce don pour effectuer une manœuvre de [[bousculade]] ou de [[croc-en-jambe]], il peut dépenser 5 points d’endurance pour accomplir en même temps une autre manœuvre offensive. Le jet de confirmation du coup critique fait également office de test des deux manœuvres offensives.
+
+* {s:Reference|INGENIEURDESIEGE}'''[[Ingénieur de siège]].''' Tant que le personnage a au moins 1 point d’endurance dans sa réserve, il bénéficie d’un bonus de +1 aux [[jet dattaque|jets d’attaque]] avec toutes les armes de siège.
+
+* {s:Reference|INITIEDUREFUSDEMOURIR}'''[[Initié du refus de mourir]].''' Quand le personnage est à 0 [[pv|point de vie]] ou moins, il peut dépenser 2 points d’endurance pour éviter de subir des dégâts quand il effectue à la fois une [[action de mouvement]] et une [[action simple]] ou quand il effectue une [[action complexe]].
+
+* {s:Reference|INTERCEPTIONDECHARGE}'''[[Interception de charge]].''' Quand le personnage utilise ce don, il peut dépenser 5 points d’endurance pour que son déplacement ne soit pas décompté de son mouvement du tour suivant.
+
+* {s:Reference|INTERCEPTIONDECOUPS}'''[[Interception de coups]].''' Quand le personnage utilise ce don, il peut dépenser jusqu’à 5 points d’endurance pour réduire les dégâts de l’attaque interceptée d’un montant égal au double du nombre de points d’endurance dépensés. Ceci ne modifie pas les autres effets de l’attaque (tels que le saignement, le poison etc.) même si les dégâts tombent à 0.
+
+* {s:Reference|KOSURLIMMOBILE}'''[[KO sur limmobile|KO sur l’immobile]].''' Quand le personnage utilise ce don pour infliger des [[Blessures et mort#NONLETAL|dégâts non-létaux]] avec ses mains nues ou avec une arme légère ou à une main à une cible [[immobilisé|immobilisée]], il peut dépenser 5 points d’endurance pour tripler les dégâts au lieu de les doubler.
+
+* {s:Reference|LAMORTOULAGLOIRE}'''[[La mort ou la gloire]].''' Quand le personnage utilise ce don, il peut dépenser 5 points d’endurance pour annuler automatiquement l’attaque effectuée par une [[action immédiate]] à laquelle la cible a droit immédiatement après cette attaque mais avant qu’il effectue son jet.
+
+* {s:Reference|LACERATIONFURIEUSE}'''[[Lacération furieuse]].''' Le personnage peut dépenser jusqu’à 5 points d’endurance lors d’une attaque d’éventration pour infliger un montant de dégâts supplémentaires égal au double du nombre de points d’endurance dépensés.
+
+* {s:Reference|LACERATIONFURIEUSESUPERIEURE}'''[[Lacération furieuse supérieure]].''' Quand le personnage réussit une éventration, il peut dépenser 2 points d’endurance pour infliger 1d6+2 points de dégâts de [[saignement]] à son adversaire au lieu de 1d6.
+
+* {s:Reference|LANCERADEUXMAINS}'''[[Lancer à deux mains]].''' Quand le personnage lance une arme de jet à une main avec ses deux mains ou lance une arme de jet à deux mains, il peut dépenser 2 points d’endurance pour ajouter le double de son bonus de [[Force]] aux dégâts de son attaque au lieu de 1,5 fois ce bonus.
+
+* {s:Reference|LANCERIMPROVISE}'''[[Lancer improvisé]].''' Tant que le personnage a au moins un point dans sa réserve d’endurance, quand il utilise une arme de corps à corps comme [[arme de jet]] pour effectuer une attaque à distance avec une arme improvisée, il applique la zone de critique potentiel et le multiplicateur de critique de l’arme au lieu du 20/×2 des armes improvisées. Il peut dépenser 2 points d’endurance pour augmenter le facteur de portée des attaques à l’arme de jet (y compris les armes à distance improvisées) de 3 mètres jusqu’au début de son prochain tour.
+
+* {s:Reference|LANCERKI}'''[[Lancer ki]].''' Le personnage peut dépenser 5 points d’endurance pour lancer une créature d’une catégorie de taille de plus que lui.
+
+* {s:Reference|LANCERLORSDUNECHARGE}'''[[Lancer lors dune charge|Lancer lors d’une charge]].''' Quand le personnage utilise ce don, il peut dépenser 2 points d’endurance pour terminer son déplacement dans un rayon de 15 mètres autour de sa cible au lieu de 9.
+
+* {s:Reference|LANCEURACOURTEDISTANCE}'''[[Lanceur à courte distance]].''' Quand le personnage lance une [[arme de jet]], il peut dépenser 2 points d’endurance pour ne pas provoquer d’[[AO|attaque d’opportunité]].
+
+* {s:Reference|LANCEURADISTANCE}'''[[Lanceur à distance]].''' Quand le personnage effectue une attaque avec une arme de jet, il peut dépenser 2 points d’endurance pour réduire le malus au [[jet dattaque|jet d’attaque]] à distance dû à la portée de 4 points supplémentaires.
+
+* {s:Reference|LIENDELENFANTDELATERRE}'''[[Lien de lenfant de la terre|Lien de l’enfant de la terre]].''' Le personnage peut dépenser 5 points d’endurance pour utiliser le [[Coup étourdissant]] sans dépenser d’utilisation du don quand une créature de sous-type géant provoque une [[AO|attaque d’opportunité]] en se relevant.
+
+* {s:Reference|LINCEULDEGNOMEHANTE}'''[[Linceul de gnome hanté]].''' Quand une créature rate le personnage à cause des chances de rater dues au Linceul de gnome hanté, le personnage peut dépenser 5 points d’endurance pour lui imposer un malus de –2 aux [[jet dattaque|jets d’attaque]] effectués contre lui jusqu’à ce qu’elle parvienne à lui infliger des dégâts. Ce pouvoir ne se cumule pas avec lui-même.
+
+* {s:Reference|LUTTESUPERIEURE}'''[[Lutte supérieure]].''' Une fois que le personnage a dépensé une [[action de mouvement]] pour maintenir une [[lutte]] avec succès, il peut dépenser 5 points d’endurance avant la fin de son tour pour la maintenir par une [[action rapide]]. Cela lui permet d’effectuer jusqu’à trois tests de lutte pour maintenir sa prise au cours du même [[round]] mais il ne peut pas pour autant maintenir sa prise avant le round suivant celui pendant lequel il l’a initiée.
+
+* {s:Reference|LUTTEURDESBARS}'''[[Lutteur des bars]].''' Le personnage peut dépenser 5 points d’endurance pour utiliser ce don par une [[action rapide]] au lieu d’une [[action de mouvement]]. S’il dispose de l’aptitude de classe [[Lutteur#FLEXIBILITEMARTIALE|flexibilité martiale]], il peut dépenser 5 points d’endurance pour utiliser cette aptitude par une action rapide au lieu d’une action de mouvement ou par une [[action libre]] au lieu d’une action rapide.
+
+* {s:Reference|LUTTEURRAPIDE}'''[[Lutteur rapide]].''' Le personnage peut dépenser 2 points d’endurance pour gagner un bonus de +2 aux tests de [[lutte]] effectués par une [[action rapide]] à l’aide de ce don.
+
+* {s:Reference|MAINDEFEU}'''[[Main de feu]].''' Quand le personnage touche avec une attaque de torche, il peut dépenser un point d’endurance pour augmenter les dégâts de feu de l’attaque et les faire passer à 1d6.
+
+* {s:Reference|MAITREBOXEUR}'''[[Maître boxeur]].''' Quand le personnage obtient un [[coup critique|critique potentiel]] avec une attaque à mains nues en utilisant l’[[École du boxeur]], il peut dépenser 5 points d’endurance pour doubler les dégâts supplémentaires conférés par ce don contre sa cible. Il ne peut utiliser ce pouvoir qu’une fois par cible et par [[round]].
+
+* {s:Reference|MAITREDELETREINTEFATALE}'''[[Maître de létreinte fatale|Maître de l’étreinte fatale]].''' Chaque fois que le personnage réussit une constriction, il peut dépenser 5 points d’endurance pour tripler le nombre de dés de dégâts de son pouvoir de constriction au lieu de les doubler.
+
+* {s:Reference|MAITREDELAMATRAQUE}'''[[Maître de la matraque]].''' Le personnage peut dépenser 10 points d’endurance pour utiliser ce don lors d’une attaque sur un adversaire qu’il [[prendre en tenaille|prend en tenaille]] au lieu de se limiter aux adversaires [[pris au dépourvu]].
+
+* {s:Reference|MAITREDELATRAQUEAUCLAIRDELUNE}'''[[Maître de la traque au clair de lune]].''' Quand un adversaire attaque le personnage alors que ce dernier dispose d’un [[camouflage]], le personnage peut dépenser 5 points d’endurance pour augmenter les chances d’échec de l’attaque de 20% supplémentaires.
+
+* {s:Reference|MAITREDESBATONS}'''[[Maître des bâtons]].''' Quand le personnage utilise ce don pour manier un bâton comme une arme à une main, il peut dépenser 5 points d’endurance pour conserver la possibilité de le manier comme une arme double tout en gardant une main libre. Cet effet persiste jusqu’au début de son prochain tour.
+
+* {s:Reference|MAITREDESCHEVAUX}'''[[Maître des chevaux]].''' Le personnage peut dépenser 5 points d’endurance pour conférer à sa monture un nombre de points de vie temporaires égal à son niveau de personnage. Ces points de vie persistent pendant 1 minute.
+
+* {s:cs}{s:WMH}'''[[Maître des duels]].''' Au début de son tour, le personnage peut dépenser jusqu'à 6 points d'endurance pour augmenter le bonus de bouclier à la [[CA]] offert par le don [[Maître des duels]] de 1 par tranche de 2 points d'endurance dépensés, et ce jusqu'au début de son prochain tour.
+
+* {s:Reference|MAITREDESECOLESDECOMBAT}'''[[Maître des écoles de combat]].''' Le personnage peut dépenser 2 points d’endurance en dehors de son tour pour changer d’école par une [[action libre]].
+
+* {s:Reference|MAITREDESOPERATIONS}'''[[Maître des opérations]].''' Le personnage peut dépenser 5 points d’endurance pour utiliser ce don contre une créature dotée d’un maximum de 5 [[DV]] de plus que lui.
+
+* {s:Reference|MAITREDESTONNERRESJUMEAUX}'''[[Maître des tonnerres jumeaux]].''' Quand le personnage utilise les [[Tonnerres jumeaux]] pour infliger des dégâts supplémentaires à un adversaire, il peut dépenser 2 points d’endurance pour que cet adversaire soit [[secoué]] pendant 1d4 [[round|rounds]].
+
+* {s:Reference|MAITREDUCOMBATDESPECTACLE}'''[[Maître du combat de spectacle]].''' Quand le personnage effectue un test de [[combat de spectacle]], il peut dépenser jusqu’à 5 points d’endurance pour gagner un bonus au test égal au nombre de points dépensés.
+
+* {s:Reference|MAITREDUREFUSDEMOURIR}'''[[Maître du refus de mourir]].''' Quand le personnage est à 0 [[pv|point de vie]] ou moins, il peut dépenser 2 points d’endurance par une [[action simple]] au début de son tour pour gagner 2 points de vie temporaires. Ces points perdurent une minute.
+
+* {s:Reference|MAITREEMPOIGNEUR}'''[[Maître empoigneur]].''' Le personnage peut dépenser 5 points d’endurance quand il est en [[lutte]] contre un unique adversaire en utilisant l’[[École de lempoigneur|École de l’empoigneur]] pour continuer de contrôler la zone à portée d’allonge de sa main libre jusqu’au début de son prochain tour.
+
+* {s:Reference|MAITREINGENIEURDESIEGE}'''[[Maître ingénieur de siège]].''' Le personnage peut dépenser 5 points d’endurance pour réduire d’un le nombre d’actions dont il a besoin pour charger une arme de siège et viser avec (il lui faut tout de même une action au minimum). Cet avantage dure un [[round]] et, pour en bénéficier, le personnage doit être le chef d’équipe de l’engin de siège.
+
+* {s:Reference|MAITRISEDELARMUREMAGIQUE}'''[[Maîtrise de larmure magique|Maîtrise de l’armure magique]].''' Quand le personnage lance un sort alors qu’il porte une armure, il peut dépenser 1 point d’endurance pour activer la Maîtrise de l’armure magique par une [[action libre]] ou dépenser un nombre de points d’endurance égal au niveau du sort (1 au minimum) pour ignorer entièrement les risques d’échec du sort dus à l’armure lors de cette incantation seulement.
+
+* {s:Reference|MAITRISEDESARBALETES}'''[[Maîtrise des arbalètes]].''' Tant que le personnage possède au moins un point d’endurance dans sa réserve, il ne provoque pas d’[[AO|attaque d’opportunité]] quand il recharge une arbalète.
+
+* {s:Reference|MAITRISEDESARMESDESPECTACLE}'''[[Maîtrise des armes de spectacle]].''' Tant que le personnage possède au moins 1 point d’endurance dans sa réserve, il considère que toutes les armes (pas seulement celles qu’il sait manier) sont dotées de l’attribut de [[Caractéristiques des armes#SPECTACLE|spectacle]].
+
+* {s:Reference|MAITRISEDESARMESIMPROVISEES}'''[[Maîtrise des armes improvisées]].''' Quand le personnage effectue une attaque avec une arme improvisée, il peut dépenser 2 points d’endurance pour augmenter les dégâts de l’attaque d’un cran de plus (pour un maximum de 1d10 ou 2d8 si l’arme improvisée est à deux mains).
+
+* {s:Reference|MAITRISEDUBOUCLIER}'''[[Maîtrise du bouclier]].''' Le personnage peut dépenser 5 points d’endurance juste avant d’effectuer un jet de [[Vigueur]] ou de [[Réflexes]] pour ajouter le bonus d’altération de son bouclier au [[jds|jet de sauvegarde]].
+
+* {s:Reference|MAITRISEDUCOMBATDEFENSIF}'''[[Maîtrise du combat défensif]].''' Quand le personnage est victime d’une manœuvre offensive, il peut dépenser autant de points d’endurance qu’il le désire pour gagner un bonus au [[DMD]] égal au nombre de points d’endurance dépensés.
+
+* {s:Reference|MAITRISEDUCOMBATENAVEUGLE}'''[[Maîtrise du combat en aveugle]].''' Le personnage peut dépenser 5 points d’endurance quand il attaque une cible sous l’effet d’un ''[[clignotement]]''. Dans ce cas, la Maîtrise du combat en aveugle fonctionne contre elle jusqu’au début de son prochain tour : il traite la créature comme ayant un [[camouflage]] de 20% et a le droit de refaire un jet ou il ignore les risques d’échec dus au ''clignotement'' s’il est en capacité de voir ou de frapper les créatures éthérées.
+
+* {s:Reference|MAITRISEDUCRITIQUE}'''[[Maîtrise du critique]].''' Quand le personnage confirme un [[coup critique]], il peut dépenser 2 points d’endurance pour appliquer les effets d’un [[Dons de critique|don de critique]] qu’il ne possède pas (mais pour lequel il remplit les conditions requises) au lieu d’appliquer les effets de deux dons de critique de sa connaissance.
+
+* {s:Reference|MAITRISEDUFOUET}'''[[Maîtrise du fouet]].''' Quand le personnage utilise un [[fouet (arme)|fouet]] pour infliger des [[Blessures et mort#NONLETAL|dégâts non-létaux]], son arme inflige 1d8 points de dégâts non létaux (au lieu de 1d6) tant qu’il possède au moins un point dans sa réserve d’endurance. Au début de son tour, il peut dépenser 2 points d’endurance pour augmenter le dé de dégâts du fouet, comme si ce dernier était d’une catégorie de taille de plus qu’en réalité pour sa prochaine attaque, qu’il inflige des dégâts létaux ou non. Si l’attaque n’est pas létale, les deux augmentations se cumulent. Cet effet ne se cumule pas avec d’autres traitant l’arme comme si elle était d’une catégorie de taille de plus qu’en réalité.
+
+* {s:Reference|MAITRISEDUFOUETSUPERIEURE}'''[[Maîtrise du fouet supérieure]].''' Quand le personnage initie une [[lutte]] avec un [[fouet (arme)|fouet]], il peut dépenser 5 points d’endurance pour tenter un second test de lutte par une [[action rapide]] pour déplacer ou blesser la créature qu’il agrippe. Ce test ne sert pas à maintenir sa prise.
+
+* {s:Reference|MAITRISEDUTIRABOUTPORTANT}'''[[Maîtrise du tir à bout portant]].''' Quand un personnage tire avec une arme à projectiles ou une arme de jet, ou exécute une attaque de contact à distance, il peut dépenser 2 points d’endurance pour éviter de provoquer une [[AO|attaque d’opportunité]].
+
+* {s:Reference|MAITRISEMARTIALE}'''[[Maîtrise martiale]].''' Le personnage peut dépenser 5 points d’endurance au début de son tour pour appliquer ses dons à une arme appartenant à un autre [[Groupe darmes|groupe d’armes]]. Il profite de cet avantage jusqu’au début de son prochain tour.
+
+* {s:cs}{s:WMH}'''[[Manieur de torche]].''' Lorsque le personnage inflige des dégâts à un adversaire avec une torche, il peut dépenser 2 points d'endurance pour passer le nombre de points de dégâts de feu infligés par la torche à 1d4.
+
+* {s:Reference|MANOEUVRERLEFILET}'''[[Manoeuvrer le filet]].''' Tant que le personnage a au moins un point d’endurance dans sa réserve, il peut aussi utiliser le [[filet (arme)|filet]] pour [[entraînement|entraîner]] ou [[repositionnement|repositionner]] un adversaire.
+
+* {s:Reference|MANOEUVRESAGILES}'''[[Manoeuvres agiles]].''' Le personnage peut dépenser un nombre de points d’endurance égal à son bonus de [[Dextérité]] lorsqu’il tente un [[BMO|test de manœuvre offensive]]. À chaque fois qu’il dépense ainsi 2 points d’endurance, il est considéré comme étant d’une catégorie de taille de plus qu’en réalité quand il détermine s’il peut affecter une créature avec sa manœuvre offensive et quand il calcule le bonus de taille dont il bénéficie pour ce test.
+
+* {s:Reference|MANOEUVRESCOORDONNEES}'''[[Manoeuvres coordonnées]].''' Quand le personnage tente une manœuvre offensive alors qu’il est adjacent à un allié disposant aussi de ce don, il peut dépenser 1 point d’endurance pour augmenter le bonus conféré par le don de 2 pour ce test de manœuvre uniquement.
+
+* {s:Reference|MARTELERLAFAILLE}'''[[Marteler la faille]].''' Quand le personnage utilise ce don, il peut dépenser 5 points d’endurance pour augmenter le nombre de points de dégâts supplémentaires de 1 par attaque qui touche consécutivement.
+
+* {s:Reference|MASSACREEFFROYABLE}'''[[Massacre effroyable]].''' Quand le personnage utilise ce don, il peut dépenser jusqu’à 5 points d’endurance pour augmenter le [[DD]] de l’effet d’un montant égal au nombre de points d’endurance dépensés.
+
+* {s:Reference|MEURTRESILENCIEUX}'''[[Meurtre silencieux]].''' Quand le personnage utilise ce don, il peut dépenser un montant de points d’endurance inférieur ou égal à son bonus de [[Dextérité]]. Il gagne un bonus aux tests de [[Discrétion]] égal au nombre de points d’endurance dépensés.
+
+* {s:Reference|MONTUREDETAILLEINFERIEURE}'''[[Monture de taille inférieure]].''' Tant que le personnage possède encore au moins 1 point dans sa réserve d’endurance, le [[DD]] de ses tests d’[[Équitation]] pour sauter avec une monture de sa taille et pour monter ou descendre rapidement d’une telle monture est réduit de 5.
+
+* {s:Reference|MORTVENUEDUCIEL}'''[[Mort venue du ciel]].''' Quand le personnage [[charge]] un adversaire en partant d’une position surélevée ou depuis les hauteurs alors qu’il vole, il peut dépenser 4 points d’endurance pour gagner un bonus de +5 au [[Valeurs de combat#DEGATS|jet de dégâts]]. Il conserve par ailleurs le bonus dû à la charge et à la position surélevée.
+
+* {s:Reference|MOUVEMENTSDUSINGE}'''[[Mouvements du singe]].''' Au début de son tour, le personnage peut dépenser 5 points d’endurance pour acquérir une vitesse d’escalade égale à sa vitesse de déplacement de base jusqu’au début de son prochain tour.
+
+* {s:Reference|MURDEBOUCLIERS}'''[[Mur de boucliers]].''' Le personnage peut dépenser 2 points d’endurance pour augmenter le bonus conféré à son allié grâce à ce don de 1 jusqu’à la fin de son prochain tour.
+
+* {s:Reference|PARDESSUSETPARDESSOUS}'''[[Par-dessus et par-dessous]].''' Quand le personnage utilise ce don, il peut dépenser un nombre de points d’endurance inférieur ou égal au montant de son bonus de [[Dextérité]] pour augmenter le bonus de la tentative de [[croc-en-jambe]] de 2 par points d’endurance dépensé.
+
+* {s:Reference|PARADEDELAPANTHERE}'''[[Parade de la panthère]].''' Quand le personnage inflige des dégâts lors de sa riposte, il peut dépenser 5 points d’endurance pour augmenter le malus que la cible subit aux [[jet dattaque|jets d’attaque]] et [[Valeurs de combat#DEGATS|de dégâts]] et le faire passer à –4.
+
+* {s:Reference|PARADEDEPROJECTILES}'''[[Parade de projectiles]].''' Le personnage peut dépenser 5 points d’endurance pour dévier un projectile alors qu’il est [[pris au dépourvu]]. Il doit tout de même être conscient de l’attaque.
+
+* {s:Reference|PARTENAIREDEFEINTE}'''[[Partenaire de feinte]].''' Quand le personnage réussit une [[feinte]] contre un adversaire, il peut dépenser 5 points d’endurance, auquel cas cet adversaire perd son bonus de [[Dextérité]] à la [[CA]] contre la prochaine attaque de n’importe quel allié du personnage. Si l’allié suivant qui attaque cet adversaire dispose aussi de ce don, cette attaque ne compte pas comme « la prochaine attaque » vis-à-vis de cette astuce martiale, ce qui permet à un autre allié d’en bénéficier.
+
+* {s:Reference|PASDECOTE}'''[[Pas de côté]].''' Quand le personnage se déplace grâce à ce don, il peut dépenser 2 points d’endurance pour parcourir 3 mètres au lieu de 1,50. Il doit rester dans la [[espace contrôlé|zone de contrôle]] de son adversaire. Il perd tout de même son [[pas de placement]] 1,50 mètre ou son déplacement de 1,50 mètre, le mouvement perdu ne passant pas à 3 mètres.
+
+* {s:Reference|PATROUILLEENCOMBAT}'''[[Patrouille en combat]].''' Quand le personnage se déplace avant ou après une [[AO|attaque d’opportunité]] alors qu’il utilise le don Patrouille en combat, il peut dépenser 1 point d’endurance par tranche de 1,50 mètre parcouru. Dans ce cas, son déplacement ne provoque pas d’[[AO|attaque d’opportunité]].
+
+* {s:Reference|PEAUDUSHAITAN}'''[[Peau du shaitan]].''' Quand le personnage effectue une attaque de [[Poing élémentaire]], il peut dépenser jusqu’à 5 points d’endurance pour augmenter le [[DD]] du [[jds|jet de sauvegarde]] contre l’effet [[chancelant]] d’un montant égal au nombre de points d’endurance dépensés.
+
+* {s:Reference|PERTURBATEUR}'''[[Perturbateur]].''' Quand le personnage utilise la dernière [[AO|attaque d’opportunité]] à laquelle il a droit pour le [[round]], il peut dépenser 2 points d’endurance pour accroître la durée de l’augmentation du [[DD]] de ce don vis-à-vis des ennemis qui lancent des sorts [[Lancer des sorts#INCANTATIONSURLADEFENSIVE|sur la défensive]] dans sa [[espace contrôlé|zone de contrôle]] jusqu’au début de son prochain tour.
+
+* {s:Reference|PIEDSEMMELES}'''[[Pieds emmêlés]].''' Quand le personnage déséquilibre un adversaire grâce à ce don, il peut dépenser 2 points d’endurance pour augmenter le [[DD]] de son test d’[[Acrobaties]] pour éviter de tomber et le faire passer à 20.
+
+* {s:Reference|PIETINEMENT}'''[[Piétinement]].''' Quand le personnage en selle tente de renverser un adversaire mais rate sa manœuvre offensive, il peut dépenser 2 points d’endurance pour continuer son déplacement comme si sa cible s’était écartée de son chemin.
+
+* {s:Reference|PIETINEMENTVICIEUX}'''[[Piétinement vicieux]].''' Quand un adversaire provoque une [[AO|attaque d’opportunité]] à mains nues de la part du personnage parce qu’il est tombé [[à terre]], le personnage peut dépenser 2 points d’endurance pour lui infliger 1d6 points de dégâts de plus avec ses mains nues.
+
+* {s:Reference|PISTOLIERAMATEUR}'''[[Pistolier amateur]].''' Le personnage choisit un deuxième [[Exploits|exploit de pistolier]] de niveau 1. Il peut dépenser de l’audace pour utiliser cet exploit ou dépenser 5 points d’endurance au lieu de son [[audace]] pour utiliser l’un ou l’autre de ses exploits. Si le personnage gagne des niveaux dans une classe qui accorde l’aptitude d’audace, il peut dépenser 5 points d’endurance au lieu de son audace pour utiliser les exploits de niveau 1. Ce pouvoir devient une astuce martiale du don [[Audace supplémentaire]] (même si ce n’est pas un don de combat).
+
+* {s:Reference|PISTOLIERGOBELIN}'''[[Pistolier gobelin]].''' Quand le personnage réussit un [[coup critique|critique potentiel]] mais ne le confirme pas alors qu’il manie une arme à feu infligeant des dégâts de feu, il peut dépenser 5 points d’endurance pour récupérer un point d’[[audace]]. Il ne récupère pas de point d’audace si sa cible est immunisée contre les coups critiques.
+
+* {s:Reference|POINGDECAUCHEMAR}'''[[Poing de cauchemar]].''' Quand le personnage se bat au sein d’une zone de ténèbres magiques, il peut dépenser jusqu’à 5 points d’endurance pour augmenter le bonus conféré par le don sur un [[Valeurs de combat#DEGATS|jet de dégâts]] du double du nombre de points d’endurance dépensés.
+
+* {s:Reference|POINGDELAGORGONE}'''[[Poing de la gorgone]].''' Le personnage peut dépenser 5 points d’endurance pour porter une attaque de Poing de la gorgone à la place de l’une des attaques effectuées lors d’une [[attaque à outrance]].
+
+* {s:Reference|POINGDESTABILISANT}'''[[Poing déstabilisant]].''' Le personnage peut dépenser 5 points d’endurance pour annoncer qu’il utilise ce don après avoir touché sa cible avec une attaque à mains nues.
+
+* {s:Reference|POINGDUCROISE}'''[[Poing du croisé]].''' Quand le personnage utilise le Poing du croisé et confirme un critique, il peut dépenser 5 points d’endurance pour multiplier les dégâts supplémentaires de ce critique.
+
+* {s:Reference|POINGELEMENTAIRE}'''[[Poing élémentaire]].''' Le personnage peut dépenser 5 points d’endurance pour annoncer qu’il utilise le Poing élémentaire après avoir réussi son [[jet dattaque|jet d’attaque]].
+
+* {s:Reference|POINGHEBETANT}'''[[Poing hébétant]].''' Le personnage peut dépenser 5 points d’endurance pour annoncer qu’il utilise le Poing hébétant après avoir touché sa cible avec une attaque à mains nues.
+
+* {s:Reference|POLYVALENCEMARTIALE}'''[[Polyvalence martiale]].''' Le personnage peut dépenser 2 points d’endurance au début de son tour pour appliquer les effets du don choisi à une arme appartenant à un autre [[Groupe darmes|groupe d’armes]]. Il profite de cet avantage jusqu’au début de son prochain tour.
+
+* {s:Reference|PORTDELARMUREMAGIQUE}'''[[Port de larmure magique|Port de l’armure magique]].''' Quand le personnage lance un sort alors qu’il porte une armure, il peut dépenser 1 point d’endurance pour activer le Port de l’armure magique par une [[action libre]].
+
+* {s:cs}{s:WMH}'''[[Porte-étendard]].''' Lorsque le personnage peut voir son étendard mais qu'il ne le tient pas, il peut dépenser 1 point d'endurance pour bénéficier des avantages de [[Porte-étendard]] pendant 1 minute, comme s'il le tenait.
+
+* {s:Reference|POSTUREDELEFRIT}'''[[Posture de lefrit|Posture de l’efrit]].''' Quand le personnage effectue une attaque de [[Poing élémentaire]], il peut dépenser jusqu’à 5 points d’endurance pour augmenter le [[DD]] du [[jds|jet de sauvegarde]] pour éviter de [[prendre feu]] d’un montant égal au nombre de points d’endurance dépensés.
+
+* {s:Reference|POURSUITE}'''[[Poursuite]].''' Quand le personnage utilise ce don pour se déplacer, il peut dépenser 2 points d’endurance pour augmenter son déplacement jusqu’à 4,50 mètres.
+
+* {s:Reference|PRECISIONELFIQUE}'''[[Précision elfique]].''' Si le personnage rate une attaque à l’arc long ou court à cause du [[camouflage]], il peut dépenser 5 points d’endurance pour réussir automatiquement le deuxième jet pour ignorer les chances d’échec dues au [[camouflage]] effectué grâce à ce don.
+
+* {s:Reference|PREJUGEEXTREME}'''[[Préjugé extrême]].''' Quand le personnage réussit une [[attaque sournoise]] contre une créature qui n’est pas la cible de sa [[Haine cinglante]], il peut dépenser 5 points d’endurance pour considérer qu’elle est la cible de ce don lors de cette attaque.
+
+* {s:Reference|PREMIEREVOLEE}'''[[Première volée]].''' Quand le personnage inflige des dégâts avec une attaque à distance, il peut dépenser 2 points d’endurance pour gagner un bonus de circonstances de +4 aux deux prochains [[jet dattaque|jets d’attaque]] au corps à corps effectués contre un adversaire avant la fin de son prochain tour au lieu d’en bénéficier uniquement lors de sa prochaine attaque au corps à corps.
+
+* {s:Reference|PRENDRELAVANTAGE}'''[[Prendre lavantage|Prendre l’avantage]].''' Quand le personnage riposte en utilisant ce don, il peut dépenser jusqu’à 5 points d’endurance pour augmenter les dégâts de la riposte du double du nombre de points dépensés.
+
+* {s:Reference|PROFILBAS}'''[[Profil bas]].''' Quand le personnage est la cible d’une attaque à distance, il peut dépenser un nombre de points d’endurance inférieur ou égal à son bonus de [[Dextérité]]. Son bonus d’esquive à la [[CA]] contre cette attaque augmente de 1 par point d’endurance dépensé.
+
+* {s:Reference|QUEUEDETERREUR}'''[[Queue de terreur]].''' Au début de son tour, le personnage peut dépenser 5 points d’endurance pour traiter son attaque de queue comme une attaque naturelle primaire jusqu’au début de son prochain tour. La queue est considérée comme une attaque naturelle primaire même si le personnage manie en plus des armes lors d’une [[attaque à outrance]].
+
+* {s:Reference|RAGEEMPATHIQUE}'''[[Rage empathique]].''' Quand un allié enragé se trouve à 9 mètres ou moins du personnage, ce dernier peut dépenser 5 points d’endurance pour entrer en rage empathique même s’il n’est pas adjacent à son allié. Tant que la rage n’a pas pris fin, il lui suffit de rester dans un rayon de 9 mètres autour de l’allié en rage pour maintenir la rage empathique.
+
+* {s:Reference|RAMASSAGEACROBATIQUE}'''[[Ramassage acrobatique]].''' Le personnage peut dépenser 2 points d’endurance pour ramasser un objet abandonné dans une case adjacente occupée par un ennemi.
+
+* {s:cs}{s:WMH}'''[[Réaction pondérée]].''' Le personnage peut dépenser 5 points d'endurance avant d'effectuer une attaque au corps à corps ou à distance avec [[Réaction pondérée]] afin de considérer le résultat du dé de son jet d'attaque comme un 10.
+
+* {s:Reference|RECHARGEMENTRAPIDE}'''[[Rechargement rapide]].''' Le personnage peut dépenser 5 points d’endurance pour réduire le temps de rechargement d’une arbalète ou d’une arme à feu d’un cran : une [[action simple]] devient une [[action de mouvement]], une action de mouvement devient une [[action rapide]] et une action rapide devient une [[action libre]]. Cela fonctionne même pour les armes que le personnage n’a pas choisies d’attribuer à ce don. Si le temps de rechargement de l’arme est déjà d’une action libre, le personnage peut dépenser 2 points d’endurance quand il fait une [[attaque à outrance]] avec elle pour gagner un bonus de +1 sur tous les [[Valeurs de combat#DEGATS|jets de dégâts]] de l’arme lors de cette attaque.
+
+* {s:Reference|REDUCTIONAGRESSIVE}'''[[Réduction agressive]].''' Quand le personnage réussit une manœuvre offensive de [[bousculade]] grâce à ce don, il peut dépenser 2 points d’endurance pour se déplacer de 1,50 mètre avec sa cible.
+
+* {s:Reference|RENVERSEMENTDELENFANTDELATERRE}'''[[Renversement de lenfant de la terre|Renversement de l’enfant de la terre]].''' Quand le personnage réussit un [[croc-en-jambe]] contre une créature de sous-type [[sous-type Géant|géant]], il peut dépenser 3 points d’endurance pour lui infliger en plus 2d6 points de dégâts de chute.
+
+* {s:Reference|RENVERSEMENTSUPERIEUR}'''[[Renversement supérieur]].''' Si le personnage réussit un test de manœuvre offensive de [[renversement]] mais ne dépasse pas le [[DMD]] de son adversaire de 5 ou plus, il peut dépenser 2 points d’endurance pour le faire tomber malgré tout.
+
+* {s:Reference|REPOSITIONNEMENTRAPIDE}'''[[Repositionnement rapide]].''' Le personnage peut choisir ce don même s’il ne remplit pas les conditions requises au niveau des caractéristiques ([[Intelligence]] 13). Il bénéficie du don tant qu’il lui reste au moins 1 point dans sa réserve d’endurance. Il peut dépenser 2 points d’endurance pour transformer une attaque ne bénéficiant pas de son bonus à l’attaque le plus élevé en manœuvre de [[repositionnement]]. Il peut utiliser cette astuce martiale une fois par [[round]] et peut s’en servir même s’il a déjà transformé son attaque qui bénéficie du bonus de base à l’attaque le plus élevé en repositionnement.
+
+* {s:Reference|REPOSITIONNEMENTSUPERIEUR}'''[[Repositionnement supérieur]].''' Le personnage peut choisir ce don même s’il ne remplit pas les conditions requises au niveau des caractéristiques ([[Intelligence]] 13). Il bénéficie du don tant qu’il lui reste au moins 1 point dans sa réserve d’endurance. Il peut dépenser 5 points d’endurance quand il tente de [[repositionnement|repositionner]] un adversaire pour augmenter son allonge au corps à corps de 1,50 mètre lorsqu’il détermine où placer son ennemi.
+
+* {s:Reference|REPRESENTATIONTHEATRALE}'''[[Représentation théâtrale]].''' Quand le personnage utilise ce don, il peut dépenser 5 points d’endurance pour gagner en plus un bonus d’esquive de +2 à la [[CA]] jusqu’à la fin de son prochain tour.
+
+* {s:Reference|RESPONSABLEDUSIEGE}'''[[Responsable du siège]].''' Tant que le personnage a au moins un point dans sa réserve d’endurance, quand il dirige l’équipe de montage d’un engin de siège, même les membres de l’équipe qui ne sont pas formé dans la compétence [[Artisanat]] (engin de siège) peuvent faire 10 à leur test pour monter l’engin.
+
+* {s:Reference|RIPOSTE}'''[[Riposte]].''' Quand le personnage [[Actions modifiant linitiative#PREPARER|prépare une action]] pour attaquer une créature située hors de sa portée d’allonge, il peut dépenser 5 points d’endurance pour faire un [[pas de placement]] de 1,50 mètre à condition qu’il se rapproche de cette créature. Il peut faire ce pas de placement même si son action préparée comporte un tel pas.
+
+* {s:Reference|RIPOSTEDELAGRUE}'''[[Riposte de la grue]].''' Quand le personnage se [[combat sur la défensive|bat sur la défensive]], il peut dépenser 2 points d’endurance au début de son tour pour annuler le malus aux [[jet dattaque|jets d’attaque]] provenant du combat sur la défensive. Cet effet perdure jusqu’au début de son prochain tour.
+
+* {s:Reference|ROULADE}'''[[Roulade]].''' Quand le personnage utilise ce don, il peut dépenser 5 points d’endurance pour se relever lors de l’[[action immédiate]] effectuée après son déplacement. Il provoque des [[AO|attaques d’opportunité]] en se relevant.
+
+* {s:Reference|RUEEDUJANN}'''[[Ruée du jann]].''' Le personnage peut dépenser 5 points d’endurance pour multiplier les dés de dégâts supplémentaires conférés par ce don lors d’un [[coup critique]].
+
+* {s:Reference|RUGISSEMENTDUDRAGON}'''[[Rugissement du dragon]].''' Au lieu de dépenser deux utilisations de [[Coup étourdissant]] pour pousser un rugissement tonitruant, le personnage peut dépenser une unique utilisation et 5 points d’endurance.
+
+* {s:Reference|RUSEAUFILET}'''[[Ruse au filet]].''' Tant que le personnage a au moins un point d’endurance dans sa réserve, il peut rendre un adversaire [[fiévreux]] ou l’[[ébloui|éblouir]] avec une manœuvre offensive de [[sale coup]] au lieu de l’[[aveuglé|aveugler]].
+
+* {s:Reference|SAVANCER}'''[[Savancer|S’avancer]].''' Tant que le personnage possède encore au moins 1 point d’endurance dans sa réserve, il peut faire un [[pas de placement]] de 1,50 mètre au tour suivant celui lors duquel il a utilisé ce don. Il ne réduit pas sa vitesse s’il dépense une action pour se déplacer grâce à ce don.
+
+* {s:Reference|SAGESSEDELAMANTE}'''[[Sagesse de la mante]].''' Le personnage peut dépenser 2 points d’endurance et une [[action simple]] pour débarrasser une créature d’un effet de [[Coup étourdissant]] qu’il lui a lui-même infligé. Il n’a pas besoin de réussir d’attaque de contact pour ce faire et peut utiliser cette astuce quel que soit l’endroit où se trouve sa victime.
+
+* {s:cs}{s:WMH}'''[[Saignée]].''' Lorsque le personnage confirme un [[coup critique]] avec une arme perforante ou tranchante, il peut dépenser jusqu'à 2 points d'endurance pour augmenter les points de dégâts de [[saignement]] infligés par le don [[Saignée]] de 1 par point d'endurance dépensé.
+
+* {s:Reference|SAISIRSACHANCE}'''[[Saisir sa chance]].''' Quand un allié du personnage disposant de ce don obtient un [[coup critique|critique potentiel]] mais ne le confirme pas, le personnage peut dépenser 5 points d’endurance pour effectuer son [[AO|attaque d’opportunité]] malgré tout.
+
+* {s:Reference|SALECOUPRAPIDE}'''[[Sale coup rapide]].''' Le personnage peut choisir ce don même s’il ne remplit pas les conditions requises au niveau des caractéristiques ([[Intelligence]] 13). Il bénéficie du don tant qu’il lui reste au moins 1 point dans sa réserve d’endurance. Il peut dépenser 2 points d’endurance pour transformer une attaque ne bénéficiant pas de son [[BBA|bonus de base à l’attaque]] le plus élevé en manœuvre de [[sale coup]]. Il peut utiliser cette astuce martiale une fois par [[round]] et peut s’en servir même s’il a déjà transformé son attaque qui bénéficie du bonus de base à l’attaque le plus élevé en sale coup.
+
+* {s:Reference|SALECOUPSUPERIEUR}'''[[Sale coup supérieur]].''' Le personnage peut choisir ce don même s’il ne remplit pas les conditions requises au niveau des caractéristiques ([[Intelligence]] 13). Il bénéficie du don tant qu’il lui reste au moins 1 point dans sa réserve d’endurance. Quand il réussit une manœuvre de [[sale coup]], il peut dépenser 5 points d’endurance pour obliger la cible à dépenser une [[action complexe]] (au lieu d’une [[action simple]]) pour se débarrasser de l’état préjudiciable infligé.
+
+* {s:Reference|SCIENCEDELARMEDELELU}'''[[Science de larme de lÉlu|Science de l’arme de l’Élu]].''' Quand le personnage utilise ce don, il peut dépenser 2 points d’endurance à la fin de sa durée normale pour prolonger son effet jusqu’à la fin de son prochain tour.
+
+* {s:Reference|SCIENCEDELECHANGEDEPLACE}'''[[Science de léchange de place|Science de l’échange de place]].''' Quand le personnage tente une [[bousculade]] en utilisant ce don, il peut dépenser 2 points d’endurance pour déplacer la cible de cette manœuvre de plus de 1,50 mètre si besoin pour faire de la place à son allié (il doit tout même obtenir un résultat suffisant au test de bousculade pour déplacer la cible sur cette distance supplémentaire).
+
+* {s:Reference|SCIENCEDELENCHAINEMENTFINAL}'''[[Science de lenchaînement final|Science de l’enchaînement final]].''' Une fois par [[round]] quand le personnage confirme un [[coup critique]], il peut dépenser 5 points d’endurance pour considérer que cette attaque a réduit sa cible à 0 [[pv]] ou moins en ce qui concerne les conditions d’utilisation du don [[Enchaînement final]].
+
+* {s:Reference|SCIENCEDELENCHAINEMENTSURPRISE}'''[[Science de lenchaînement surprise|Science de l’enchaînement surprise]].''' Quand le personnage touche un adversaire privé de son bonus de [[Dextérité]] à la [[CA]] grâce à ce don et qu’il utilise l’[[Endurance et Astuces martiales#ENCHAINEMENTSURPRISE|astuce martiale d’Enchaînement surprise]] pour lui infliger des dégâts supplémentaires, ces dégâts supplémentaires passent à 1d6.
+
+* {s:Reference|SCIENCEDELENTRAINEMENT}'''[[Science de lentraînement|Science de l’entraînement]].''' Quand le personnage est victime d’une manœuvre d’[[entraînement]], il peut dépenser un nombre de points d’endurance inférieur ou égal à son bonus de [[Force]] ou de [[Dextérité]] (le plus élevé des deux). Son [[DMD]] contre cette manœuvre augmente d’un montant égal au nombre de points dépensés.
+
+* {s:Reference|SCIENCEDELINITIATIVE}'''[[Science de linitiative|Science de l’initiative]].''' Le personnage peut dépenser 10 points d’endurance avant d’effectuer son test d’[[initiative]] pour considérer qu’il a obtenu 20 au dé.
+
+* {s:Reference|SCIENCEDELABOUSCULADE}'''[[Science de la bousculade]].''' Quand le personnage est victime d’une manœuvre de [[bousculade]], il peut dépenser un nombre de points d’endurance inférieur ou égal à son bonus de [[Force]] ou de [[Dextérité]] (le plus élevé des deux). Son [[DMD]] augmente de ce montant contre cette tentative de bousculade.
+
+* {s:Reference|SCIENCEDELADESTRUCTION}'''[[Science de la destruction]].''' Quand le personnage est victime d’une manœuvre de [[destruction]] d’arme, il peut dépenser un nombre de points d’endurance inférieur ou égal à son bonus de [[Force]] ou de [[Dextérité]] (le plus élevé des deux). Son [[DMD]] contre cette manœuvre augmente d’un montant égal au nombre de points dépensés.
+
+* {s:Reference|SCIENCEDELAFEINTE}'''[[Science de la feinte]].''' Le personnage peut choisir ce don même s’il ne remplit pas les conditions requises au niveau des caractéristiques ([[Intelligence]] 13). Il bénéficie du don tant qu’il lui reste au moins 1 point dans sa réserve d’endurance. Il peut dépenser 5 points d’endurance pour effectuer une [[feinte]] par une [[action de mouvement]].
+
+* {s:Reference|SCIENCEDELAFEINTEADEUXARMES}'''[[Science de la feinte à deux armes]].''' Le personnage peut choisir ce don même s’il ne remplit pas les conditions requises au niveau des caractéristiques ([[Intelligence]] 13). Il bénéficie du don tant qu’il lui reste au moins 1 point dans sa réserve d’endurance. Il peut dépenser 5 points d’endurance pour prolonger la durée pendant laquelle l’adversaire est privé de son bonus de [[Dextérité]], à savoir jusqu’au début du prochain tour du personnage.
+
+* {s:Reference|SCIENCEDELAFRAPPEDECISIVE}'''[[Science de la frappe décisive]].''' Quand le personnage utilise l’[[Endurance et Astuces martiales#FRAPPEDECISIVE|astuce martiale de Frappe décisive]], il peut dépenser 3 points d’endurance au lieu de 2 pour relancer trois dés de dégâts.
+
+* {s:Reference|SCIENCEDELAFRAPPEDEVASTATRICE}'''[[Science de la frappe dévastatrice]].''' Quand le personnage utilise l’[[Endurance et Astuces martiales#FRAPPEDEVASTATRICE|astuce martiale de Frappe dévastatrice]], il augmente le bonus aux dégâts qui passe à +6 pour chaque ensemble supplémentaire de dés de dégâts des armes. Pour les armes qui ont plus d’un dé de dégâts, considérez les dés de dégâts de base comme un ensemble.
+
+* {s:Reference|SCIENCEDELALACERATIONFURIEUSE}'''[[Science de la lacération furieuse]].''' Tant que le personnage possède encore au moins un point dans sa réserve d’endurance, les dégâts supplémentaires liés à ce don sont multipliés en cas de [[coup critique]].
+
+* {s:Reference|SCIENCEDELALUTTE}'''[[Science de la lutte]].''' Quand le personnage est victime d’une manœuvre de [[lutte]] pour initier une lutte ou la poursuivre, il peut dépenser un nombre de points d’endurance inférieur ou égal à son bonus de [[Force]] ou de [[Dextérité]] (le plus élevé des deux). Son [[DMD]] contre cette manœuvre augmente d’un montant égal au nombre de points dépensés.
+
+* {s:Reference|SCIENCEDELAMAITRISEDUFOUET}'''[[Science de la maîtrise du fouet]].''' Le personnage peut dépenser 5 points d’endurance au début de son tour pour augmenter le rayon de la [[espace contrôlé|zone de contrôle]] qu’il exerce avec son fouet de 1,50 mètre jusqu’à ce qu’il effectue une attaque contre un adversaire situé dans la zone agrandie ou jusqu’au début de son prochain tour, selon ce qui se produit en premier.
+
+* {s:Reference|SCIENCEDELASECONDECHANCE}'''[[Science de la seconde chance]].''' Le personnage peut choisir ce don même s’il ne remplit pas les conditions requises au niveau des caractéristiques ([[Intelligence]] 13). Il bénéficie du don tant qu’il lui reste au moins 1 point dans sa réserve d’endurance. Il peut dépenser 5 points d’endurance pour utiliser la [[Seconde chance]] pour relancer un [[jet dattaque|jet d’attaque]] effectué après le premier lors d’une [[attaque à outrance]] en conservant le même bonus. S’il utilise Seconde chance plusieurs fois lors d’une même attaque à outrance, les malus se cumulent.
+
+* {s:Reference|SCIENCEDELASUBTILISATION}'''[[Science de la subtilisation]].''' Le personnage peut choisir ce don même s’il ne remplit pas les conditions requises au niveau des caractéristiques ([[Intelligence]] 13). Il bénéficie du don tant qu’il lui reste au moins 1 point dans sa réserve d’endurance. Quand le personnage est victime d’une manœuvre de [[subtilisation]], il peut dépenser un nombre de points d’endurance inférieur ou égal à son bonus de [[Force]] ou de [[Dextérité]] (le plus élevé des deux). Son [[DMD]] contre cette manœuvre augmente d’un montant égal au nombre de points dépensés.
+
+* {s:Reference|SCIENCEDUCOMBATADEUXARMES}'''[[Science du combat à deux armes]].''' Quand le personnage effectue une [[AO|attaque d’opportunité]], il peut dépenser 5 points d’endurance pour en effectuer une seconde avec son arme secondaire. Cette deuxième attaque subit un malus de –5.
+
+* {s:Reference|SCIENCEDUCOMBATAMAINSNUES}'''[[Science du combat à mains nues]].''' Quand le personnage inflige des [[Blessures et mort#NONLETAL|dégâts non-létaux]] à mains nues, il peut dépenser 5 points d’endurance pour infliger un montant de dégâts supplémentaires égal au double du nombre de points d’endurance dépensés.
+
+* {s:Reference|SCIENCEDUCOMBATENAVEUGLE}'''[[Science du combat en aveugle]].''' Quand le personnage attaque un adversaire qui bénéficie d’un [[camouflage total]], il peut dépenser 5 points d’endurance pour considérer que son camouflage est normal (20% de chances de rater au lieu de 50%).
+
+* {s:Reference|SCIENCEDUCOUPDEBOUCLIER}'''[[Science du coup de bouclier]].''' Quand le personnage tente un coup de bouclier, il peut dépenser 5 points d’endurance pour manier un [[écu (armure)|écu]] comme si c’était une arme légère ou pour gagner un bonus de +2 au jet de coup de bouclier avec une [[rondache (armure)|rondache]]. Quel que soit l’effet choisi, il perdure jusqu’au début du prochain tour du personnage.
+
+* {s:Reference|SCIENCEDUCOUPFABULEUX}'''[[Science du coup fabuleux]].''' Quand une créature tente une manœuvre de [[Coup fabuleux]] contre le personnage, ce dernier peut dépenser jusqu’à 3 points d’endurance pour augmenter son [[DMD]] contre cette manœuvre d’un montant égal au nombre de points dépensés. Ce bonus se cumule avec celui conféré par la Science du coup fabuleux.
+
+* {s:Reference|SCIENCEDUCOUPSOUSLACEINTURE}'''[[Science du coup sous la ceinture]].''' Le personnage peut dépenser 5 points d’endurance pour relancer un second jet de confirmation de [[coup critique]] au cours d’une même journée.
+
+* {s:Reference|SCIENCEDUCRITIQUE}'''[[Science du critique]].''' Quand l’attaque du personnage touche mais qu’il rate un [[coup critique|critique potentiel]] de 3 ou moins, il peut dépenser 5 points d’endurance pour tenter d’infliger tout de même des dégâts doublés. Il lance le dé comme pour confirmer un critique. S’il réussit, son attaque n’est pas un critique mais elle inflige des dégâts doublés.
+
+* {s:Reference|SCIENCEDUCRITIQUEDEMPALEMENT}'''[[Science du critique dempalement|Science du critique d’empalement]].''' Quand le personnage utilise ce don pour empaler un adversaire, il peut dépenser 5 points d’endurance pour immobiliser son adversaire dans l’espace qu’il occupe actuellement (au lieu de réduire son mouvement de moitié) tant qu’il [[agrippé|agrippe]] son ennemi et le maintient empalé. S’il lâche son arme, son adversaire peut se déplacer mais son mouvement est réduit de moitié.
+
+* {s:Reference|SCIENCEDUCROCENJAMBE}'''[[Science du croc-en-jambe]].''' Le personnage peut choisir ce don même s’il ne remplit pas les conditions requises au niveau des caractéristiques ([[Intelligence]] 13). Il bénéficie du don tant qu’il lui reste au moins 1 point dans sa réserve d’endurance. Quand le personnage est victime d’une manœuvre de [[croc-en-jambe]], il peut dépenser un nombre de points d’endurance inférieur ou égal à son bonus de [[Force]] ou de [[Dextérité]] (le plus élevé des deux). Son [[DMD]] contre cette manœuvre augmente d’un montant égal au nombre de points dépensés.
+
+* {s:Reference|SCIENCEDUDESARMEMENT}'''[[Science du désarmement]].''' Le personnage peut choisir ce don même s’il ne remplit pas les conditions requises au niveau des caractéristiques ([[Intelligence]] 13). Il bénéficie du don tant qu’il lui reste au moins 1 point dans sa réserve d’endurance. Quand il est victime d’une manœuvre de [[désarmement]], il peut dépenser un nombre de points d’endurance inférieur ou égal à son bonus de [[Force]] ou de [[Dextérité]] (le plus élevé des deux). Son [[DMD]] contre cette manœuvre augmente d’un montant égal au nombre de points dépensés.
+
+* {s:Reference|SCIENCEDULANCERKI}'''[[Science du lancer ki]].''' Quand le personnage utilise ce don pour projeter une cible dans l’espace d’une autre créature, il peut dépenser jusqu’à 6 points d’endurance pour réduire le malus sur la manœuvre de [[bousculade]] contre la cible secondaire d’un montant égal au nombre de points d’endurance dépensés.
+
+* {s:Reference|SCIENCEDULANCERLORSDUNECHARGE}'''[[Science du lancer lors dune charge|Science du lancer lors d’une charge]].''' Quand le personnage utilise Lancer lors d’une charge contre une cible située à 9 mètres ou moins, il peut dépenser jusqu’à 2 points d’endurance. Le bonus de son [[Valeurs de combat#DEGATS|jet de dégâts]] augmente du double du nombre de points dépensés.
+
+* {s:Reference|SCIENCEDUPARTENAIREDEFEINTE}'''[[Science du partenaire de feinte]].''' Quand le personnage effectue une [[feinte]], il peut dépenser 5 points d’endurance par allié supplémentaire pour conférer à chacun d’eux une [[AO|attaque d’opportunité]] supplémentaire (et non pas seulement à ceux qui disposent de ce don).
+
+* {s:Reference|SCIENCEDUPASDECOTE}'''[[Science du pas de côté]].''' Tant que le personnage a au moins 1 point d’endurance dans sa réserve, il peut utiliser [[Pas de côté]] par une [[action libre]], éventuellement lors du tour de son adversaire.
+
+* {s:Reference|SCIENCEDURENVERSEMENT}'''[[Science du renversement]].''' Quand le personnage est victime d’une manœuvre de [[renversement]], il peut dépenser un nombre de points d’endurance inférieur ou égal à son bonus de [[Force]] ou de [[Dextérité]] (le plus élevé des deux). Son [[DMD]] contre cette manœuvre augmente d’un montant égal au nombre de points dépensés.
+
+* {s:Reference|SCIENCEDUREPOSITIONNEMENT}'''[[Science du repositionnement]].''' Le personnage peut choisir ce don même s’il ne remplit pas les conditions requises au niveau des caractéristiques ([[Intelligence]] 13). Il bénéficie du don tant qu’il lui reste au moins 1 point dans sa réserve d’endurance. Quand il est victime d’une manœuvre de [[repositionnement]], il peut dépenser un nombre de points d’endurance inférieur ou égal à son bonus de [[Force]] ou de [[Dextérité]] (le plus élevé des deux). Son [[DMD]] contre cette manœuvre augmente d’un montant égal au nombre de points dépensés.
+
+* {s:Reference|SCIENCEDUSALECOUP}'''[[Science du sale coup]].''' Le personnage peut choisir ce don même s’il ne remplit pas les conditions requises au niveau des caractéristiques ([[Intelligence]] 13). Il bénéficie du don tant qu’il lui reste au moins 1 point dans sa réserve d’endurance. Quand il est victime d’une manœuvre de [[sale coup]], il peut dépenser un nombre de points d’endurance inférieur ou égal à son bonus de [[Force]] ou de [[Dextérité]] (le plus élevé des deux). Son [[DMD]] contre cette manœuvre augmente d’un montant égal au nombre de points dépensés.
+
+* {s:Reference|SCIENCEDUTIRDEPRECISION}'''[[Science du tir de précision]].''' Quand le personnage utilise l’[[Endurance et Astuces martiales#TIRDEPRECISION|astuce martiale du Tir de précision]], le bonus passe à +4.
+
+* {s:Reference|SCIENCEDUTIRSOUDAIN}'''[[Science du tir soudain]].''' À la fin de son tour, le personnage peut dépenser 5 points d’endurance pour menacer une zone de 4,50 mètres de plus (au lieu de 3) avec le [[Tir soudain]]. Cet effet persiste jusqu’à ce que le personnage fasse une [[AO|attaque d’opportunité]] contre un adversaire situé dans la [[espace contrôlé|zone de contrôle]] accrue ou jusqu’au début de son prochain tour, selon ce qui se produit en premier.
+
+* {s:Reference|SECONDECHANCE}'''[[Seconde chance]].''' Le personnage peut choisir ce don même s’il ne remplit pas les conditions requises au niveau des caractéristiques ([[Intelligence]] 13). Il bénéficie du don tant qu’il lui reste au moins 1 point dans sa réserve d’endurance. Une fois qu’il a utilisé Seconde chance, il peut dépenser 5 points d’endurance pour effectuer une attaque avec son deuxième [[BBA|bonus de base à l’attaque]] le plus élevé alors qu’il a relancé le dé pour sa première attaque.
+
+* {s:Reference|SEISMEDUSHAITAN}'''[[Séisme du shaitan]].''' Le personnage peut dépenser une utilisation de [[Poing élémentaire]] et 2 points d’endurance au lieu de deux utilisations de Poing élémentaire pour faire jaillir une colonne d’acide.
+
+* {s:Reference|SNIPERKOBOLD}'''[[Sniper kobold]].''' Quand le personnage utilise ce don, il peut dépenser 5 points d’endurance pour réduire le malus aux tests de [[Discrétion]] à –5 jusqu’au début de son prochain tour.
+
+* {s:Reference|SOUPLESSEDUSERPENT}'''[[Souplesse du serpent]].''' Le personnage double le bonus d’esquive à la [[CA]] conféré par l’[[Endurance et Astuces martiales#ESQUIVE|astuce martiale d’Esquive]] contre les [[AO|attaques d’opportunité]] provoquées par son déplacement. Il peut utilise l’astuce martiale de l’Esquive même s’il ne possède pas ce don.
+
+* {s:Reference|SOUSLESJAMBES}'''[[Sous les jambes]].''' Le personnage peut dépenser 2 points d’endurance pour bénéficier de ce don contre des adversaires de sa taille jusqu’à la fin de son tour.
+
+* {s:Reference|SPECIALISATIONAUBOUCLIER}'''[[Spécialisation au bouclier]].''' Quand le personnage est victime d’une manœuvre offensive, il peut dépenser 2 points d’endurance pour ajouter le bonus d’altération de son bouclier à son [[DMD]] pour contrer cette manœuvre.
+
+* {s:Reference|SPECIALISATIONMARTIALE}'''[[Spécialisation martiale]].''' Le personnage peut dépenser 2 points d’endurance une fois par [[round]] pour bénéficier du bonus aux [[Valeurs de combat#DEGATS|jets de dégâts]] de la Spécialisation martiale avec une arme qui ne bénéficie pas de ce don. Ce bonus dure jusqu’au début de son prochain tour.
+
+* {s:Reference|SPECIALISATIONMARTIALESUPERIEURE}'''[[Spécialisation martiale supérieure]].''' Une fois par [[round]], le personnage peut dépenser 2 points d’endurance pour bénéficier du bonus aux [[Valeurs de combat#DEGATS|jets de dégâts]] de la Spécialisation martiale supérieure aux [[Valeurs de combat#DEGATS|jets de dégâts]] infligés avec une autre arme. Ce bonus persiste jusqu’au début de son prochain tour.
+
+* {s:Reference|SPECIALISATIONSUPERIEUREAUXBOUCLIERS}'''[[Spécialisation supérieure aux boucliers]].''' Le personnage peut dépenser 5 points d’endurance pour utiliser le bouclier qu’il a choisi afin d’annuler un deuxième [[coup critique]] par jour.
+
+* {s:Reference|STRANGULATION}'''[[Strangulation]].''' Tant que le personnage possède encore au moins un point dans sa réserve d’endurance, il inflige automatiquement ses dégâts d’[[attaque sournoise]] aux créatures qu’il agrippe en situation de [[lutte]] quand il parvient à maintenir sa prise et n’a pas besoin de dépenser une [[action rapide]] pour cela.
+
+* {s:Reference|SUBTILISATIONRAPIDE}'''[[Subtilisation rapide]].''' Le personnage peut choisir ce don même s’il ne remplit pas les conditions requises au niveau des caractéristiques ([[Intelligence]] 13). Il bénéficie du don tant qu’il lui reste au moins 1 point dans sa réserve d’endurance. Il peut dépenser 2 points d’endurance pour transformer une attaque ne bénéficiant pas de son [[BBA|bonus de base à l’attaque]] le plus élevé en manœuvre de [[subtilisation]]. Il peut utiliser cette astuce martiale une fois par [[round]] et peut s’en servir même s’il a déjà transformé son attaque qui bénéficie du bonus de base à l’attaque le plus élevé en subtilisation.
+
+* {s:Reference|SUBTILISATIONSUPERIEURE}'''[[Subtilisation supérieure]].''' Le personnage peut choisir ce don même s’il ne remplit pas les conditions requises au niveau des caractéristiques ([[Intelligence]] 13). Il bénéficie du don tant qu’il lui reste au moins 1 point dans sa réserve d’endurance. Quand il tente une manœuvre de [[subtilisation]] avec un [[fouet (arme)|fouet]], il peut dépenser 2 points d’endurance pour annuler le malus de –4 au test.
+
+* {s:Reference|SUCCESSIONDENCHAINEMENTS}'''[[Succession denchaînements|Succession d’enchaînements]].''' Une fois par [[round]], quand le personnage rate un adversaire lors d’une attaque conférée par le don [[Enchaînement]], il peut dépenser 5 points d’endurance pour effectuer tout de même une autre attaque d’Enchaînement.
+
+* {s:Reference|SURPRISE}'''[[Surprise]].''' Quand le personnage utilise une [[arme improvisée]] pour attaquer un adversaire armé, il peut dépenser 5 points d’endurance. La cible est alors considérée comme [[pris au dépourvu|prise au dépourvu]] le temps de cette attaque. Une cible qui reconnaît le personnage et l’a déjà vu utiliser ce don de cette manière est immunisée contre cet effet.
+
+* {s:Reference|TACTICIENDELATELEPORTATION}'''[[Tacticien de la téléportation]].''' Quand le personnage touche sa cible avec une [[AO|attaque d’opportunité]] conférée par ce don, il peut dépenser 2 points d’endurance pour [[hébété|hébéter]] sa cible pendant un round. Cette dernière a droit à un jet de [[Vigueur]] [[DD]] = 10 + [[BBA|bonus de base à l’attaque]] du personnage pour annuler l’hébétement.
+
+* {s:cs}{s:WMH}'''[[Tacticien rusé]].''' Lorsque l'adversaire du personnage tente une [[feinte]] contre lui, il peut dépenser jusqu'à 5 points d'endurance pour augmenter le DD du [[Compétences#Tests_de_compétences_2|test de compétence]] effectuer pour le feinter de 1 par point d'endurance dépensé.
+
+* {s:Reference|TACTIQUEDELAILECASSEE}'''[[Tactique de laile cassée|Tactique de l’aile cassée]].''' Quand le personnage se fait attaquer par un adversaire bénéficiant du bonus de +2 aux [[jet dattaque|jets d’attaque]] conféré par ce don, il peut dépenser 5 points d’endurance pour que l’attaque de cet adversaire provoque aussi une [[AO|attaque d’opportunité]] de la part du personnage.
+
+* {s:Reference|TACTIQUEDELAPATTEBLESSEE}'''[[Tactique de la patte blessée]].''' Quand le personnage effectue une attaque à distance grâce à ce don, il peut dépenser 5 points d’endurance pour porter cette attaque via une [[AO|attaque d’opportunité]] et non par une [[action immédiate]]. Cela ne lui permet pas d’utiliser ce don pour faire plus d’une attaque supplémentaire par [[round]].
+
+* {s:Reference|TEMPETEDUJANN}'''[[Tempête du jann]].''' Quand le personnage touche un adversaire avec une attaque à mains nues alors qu’il utilise l’[[École du jann]], il peut dépenser 2 points d’endurance pour augmenter le bonus de ce don de 2. Il peut aussi dépenser 2 points d’endurance pour appliquer le bonus du don aux tests de manœuvres offensives d’[[entraînement]] et de [[repositionnement]] au lieu de [[bousculade]] ou de [[croc-en-jambe]].
+
+* {s:Reference|TENACITEFEROCE}'''[[Ténacité féroce]].''' Quand le personnage utilise ce don, il peut dépenser 2 points d’endurance au lieu d’un round de [[Barbare#RAGE|rage]] pour bénéficier des mêmes effets.
+
+* {s:Reference|TETEDURE}'''[[Tête dure]].''' Quand le personnage est la cible d’un sort ou d’un pouvoir spécial qui devrait le rendre [[chancelant]] ou [[étourdi]], il peut dépenser jusqu’à 2 points d’endurance avant d’effectuer son [[jds|jet de sauvegarde]] pour bénéficier d’un bonus à ce jet égal au nombre de points dépensés.
+
+* {s:Reference|TIRABOUTPORTANT}'''[[Tir à bout portant]].''' Le personnage peut dépenser jusqu’à 6 points d’endurance pour augmenter la portée du don de 1,50 mètre par point d’endurance dépensé.
+
+* {s:Reference|TIRAVECCONCENTRATION}'''[[Tir avec concentration]].''' Le personnage peut dépenser 2 points d’endurance pour effectuer une attaque de Tir avec concentration contre une cible se trouvant à une distance inférieure ou égale au premier facteur de portée de son arme.
+
+* {s:Reference|TIRCOORDONNE}'''[[Tir coordonné]].''' Quand le personnage effectue un [[jet dattaque|jet d’attaque]], il peut dépenser 2 points d’endurance pour ignorer l’[[abri]] conféré par un allié possédant aussi ce don.
+
+* {s:Reference|TIRDELOIN}'''[[Tir de loin]].''' Quand le personnage effectue une unique attaque à distance par une [[action simple]], il peut dépenser 5 points d’endurance pour ignorer tous les malus de distance lors de l’attaque.
+
+* {s:Reference|TIRDEPRECISION}'''[[Tir de précision]].''' Le personnage peut dépenser 2 points d’endurance par une [[action simple]] pour effectuer une attaque à distance contre un adversaire engagé au corps à corps avec un allié. Si le personnage touche, il n’inflige pas de dégâts mais il offre à son allié soit un bonus de +2 au prochain [[jet dattaque|jet d’attaque]] contre cet adversaire soit un bonus de +2 à la [[CA]] contre la prochaine attaque de cet adversaire (au choix du personnage). Ce bonus persiste jusqu’au début du prochain tour du personnage.
+
+* {s:Reference|TIRENENFILADE}'''[[Tir en enfilade]].''' Le personnage peut dépenser un point d’endurance avant de faire un [[jet dattaque|jet d’attaque]] à distance pour bénéficier des avantages de ce don contre une cible [[prendre en tenaille|prise en tenaille]] par deux alliés ou plus, même si ces alliés ne disposent pas de ce don.
+
+* {s:Reference|TIRENMOUVEMENT}'''[[Tir en mouvement]].''' Le personnage peut dépenser 5 points d’endurance pour utiliser ce don par une [[action simple]] au lieu d’une [[action complexe]].
+
+* {s:Reference|TIRENRETRAITE}'''[[Tir en retraite]].''' Le personnage peut dépenser 2 points d’endurance pour utiliser les avantages de ce don une deuxième fois au cours d’une même rencontre. Il ne peut utiliser cette astuce martiale qu’une seule fois par rencontre et ne peut donc pas effectuer plus de deux attaques de Tir en retraite par combat.
+
+* {s:Reference|TIRMONTE}'''[[Tir monté]].''' Quand le personnage effectue une attaque avec une arme à distance alors qu’il chevauche une monture, il peut dépenser 1 ou 2 points d’endurance pour réduire le malus au [[jet dattaque|jet d’attaque]] du double du nombre de points dépensés.
+
+* {s:Reference|TIROPTIMISE}'''[[Tir optimisé]].''' Le personnage peut dépenser 1 point d’endurance quand il effectue une attaque à la [[fronde (arme)|fronde]] ou avec un [[fustibale halfelin (arme)|fustibale]] pour bénéficier des avantages du [[Tir à bout portant]] s’il tire à une distance inférieure ou égale aux deux premiers facteurs de portée de ces armes.
+
+* {s:Reference|TIRPERTURBATEUR}'''[[Tir perturbateur]].''' Quand le personnage [[Actions modifiant linitiative#PREPARER|prépare une action]] pour tirer sur un adversaire en pleine incantation, il peut dépenser jusqu’à 3 points d’endurance. Il augmente la portée à laquelle il peut réussir son tir et bénéficie des avantages de ce don de 3 mètres par point dépensé (pour un maximum de 18 mètres).
+
+* {s:Reference|TIRRAPIDE}'''[[Tir rapide]].''' Quand le personnage utilise ce don, il peut dépenser le nombre de points d’endurance qu’il désire, sans dépasser le nombre de tirs effectués avec ce don. Il réduit le malus d’une unique attaque à distance de Tir rapide de 2 par point dépensé.
+
+* {s:Reference|TIRSOUDAIN}'''[[Tir soudain]].''' À la fin de son tour, le personnage peut dépenser 2 points d’endurance pour augmenter la distance de sa [[espace contrôlé|zone de contrôle]] avec ses armes à distance et la faire passer à 3 mètres jusqu’à ce qu’il fasse une [[AO|attaque d’opportunité]] contre un adversaire située dans la zone agrandie ou jusqu’au début de son prochain tour, selon ce qui se produit en premier.
+
+* {s:Reference|TIRSOUDAINSUPERIEUR}'''[[Tir soudain supérieur]].''' Le personnage peut dépenser 3 points d’endurance quand il effectue une [[AO|attaque d’opportunité]] à distance pour bénéficier de son bonus de tir soudain supérieur sur son [[jet dattaque|jet d’attaque]].
+
+* {s:Reference|TIRAILLEURMONTE}'''[[Tirailleur monté]].''' Quand la monture du personnage se déplace à sa vitesse ou moins, il peut dépenser 5 points d’endurance pour la pousser sur 3 mètres de plus. C’est un mouvement supplémentaire et le personnage peut tout de même effectuer une [[attaque à outrance]] lorsque sa monture l’utilise.
+
+* {s:Reference|TIREURALARMEDESIEGE}'''[[Tireur à larme de siège|Tireur à l’arme de siège]].''' Tant que le personnage a au moins 1 point d’endurance dans sa réserve, il bénéficie d’un bonus de +1 aux [[jet dattaque|jets d’attaque]] avec les armes de siège au maniement desquelles il a été formé.
+
+* {s:Reference|TIREURALAFRONDECOUCHE}'''[[Tireur à la fronde couché]].''' Tant que le personnage a au moins un point d’endurance dans sa réserve, il bénéficie d’un bonus de +2 aux [[jet dattaque|jets d’attaque]] quand il est couché et manie une fronde.
+
+* {s:Reference|TIREURCOUCHE}'''[[Tireur couché]].''' Tant que le personnage a au moins 1 point d’endurance dans sa réserve, il bénéficie des bonus de ce don même s’il n’est pas couché depuis la fin de son dernier tour.
+
+* {s:Reference|TIRSGROUPES}'''[[Tirs groupés]].''' Quand le personnage utilise ce don, il peut dépenser jusqu’à 2 points d’endurance par attaque qui touche la même cible. Il augmente les dégâts infligés d’un montant égal au nombre de points d’endurance dépensés.
+
+* {s:Reference|TISSEURDECAUCHEMAR}'''[[Tisseur de cauchemar]].''' Quand le personnage lance ''[[ténèbres]]'' par une [[action simple]], il peut dépenser 5 points d’endurance pour effectuer en plus un test d’[[Intimidation]] afin de démoraliser les adversaires situés dans la zone d’effet initiale du sort.
+
+* {s:Reference|TONNERRESJUMEAUX}'''[[Tonnerres jumeaux]].''' Le personnage peut dépenser 2 points d’endurance pour bénéficier de ce don contre une créature d’au moins une catégorie de taille de plus que lui mais dépourvue du sous-type [[sous-type Géant|géant]]. Il conserve cet avantage jusqu’au début de son prochain tour.
+
+* {s:Reference|TOUCHERDELASERENITE}'''[[Toucher de la sérénité]].''' Le personnage peut dépenser 5 points d’endurance pour annoncer qu’il utilise ce don après avoir réussi son [[jet dattaque|jet d’attaque]]. La cible a toujours droit à son [[jds|jet de sauvegarde]] pour résister aux effets du Toucher de la sérénité.
+
+* {s:Reference|TOURDEPASSEPASSE}'''[[Tour de passe-passe]].''' Le personnage peut dépenser 5 points d’endurance pour effectuer un test de [[Bluff]] par une [[action libre]] au lieu d’une [[action rapide]] quand il utilise ce don.
+
+* {s:Reference|TOURBILLONDUDJINN}'''[[Tourbillon du djinn]].''' Au lieu de dépenser deux utilisations du [[Poing élémentaire]] pour s’envelopper d’un tourbillon d’air électrifié, le personnage peut dépenser une seule utilisation de Poing élémentaire et 2 points d’endurance.
+
+* {s:Reference|TOURMENTDELAMANTE}'''[[Tourment de la mante]].''' Au lieu de dépenser deux utilisations de [[Coup étourdissant]] pour effectuer une attaque de Tourment de la mante à mains nues, le personnage peut dépenser 5 points d’endurance, ou une utilisation de Coup étourdissant et 2 points d’endurance.
+
+* {s:Reference|TRACTIONDELEMPOIGNEUR}'''[[Traction de lempoigneur|Traction de l’empoigneur]].''' Après avoir utilisé l’action de déplacement en [[lutte]] et s’être déplacé à sa vitesse, le personnage peut dépenser 5 points d’endurance pour se déplacer de nouveau à sa vitesse (au lieu de la moitié) sans avoir besoin d’effectuer un nouveau test de lutte.
+
+* {s:Reference|TRAPEZISTEDESARBRES}'''[[Trapéziste des arbres]].''' Quand le personnage saute en hauteur pour se pendre à un objet avec sa queue, il peut dépenser jusqu’à 5 points d’endurance pour bénéficier d’un bonus au test d’[[Acrobaties]] égal au nombre de points d’endurance dépensés.
+
+* {s:Reference|TRAQUEURAUCLAIRDELUNE}'''[[Traqueur au clair de lune]].''' Quand le personnage bénéficie d’un [[camouflage total]] par rapport à un adversaire, il peut dépenser 2 points d’endurance pour augmenter le bonus aux [[jet dattaque|jets d’attaque]] et de dégâts conféré par ce don et le faire passer à +4.
+
+* {s:Reference|TRAVAILENEQUIPE}'''[[Travail en équipe]].''' Quand le personnage et au moins deux de ses alliés sont adjacents à un adversaire, il peut dépenser 2 points d’endurance pour effectuer l’action [[aider qqn|aider quelqu’un]] par une [[action rapide]].
+
+* {s:Reference|TUERIEFRACASSANTE}'''[[Tuerie fracassante]].''' Quand le personnage confirme un [[coup critique]], il peut dépenser 5 points d’endurance et une [[action rapide]] pour tenter de démoraliser tous les adversaires témoins de l’attaque et situés à 9 mètres ou moins en effectuant un test d’[[Intimidation]].
+
+* {s:Reference|TUEURDEGEANTS}'''[[Tueur de géants]].''' Tant que le personnage a au moins 1 point d’endurance dans sa réserve, le bonus des attaques d’[[Enchaînement]] contre les humanoïdes de sous-type [[sous-type Géant|géant]] passe à +4.
+
+* {s:Reference|UNEFRONDEPOURFLEAU}'''[[Une fronde pour fléau]].''' Le personnage peut dépenser 2 points d’endurance pour augmenter les dégâts de son attaque au corps à corps avec une [[fronde (arme)|fronde]] chargée. Elle inflige alors les mêmes dégâts que ceux d’une fronde d’une catégorie de taille de plus. Par exemple, une fronde de taille P inflige 1d4 points de dégâts tandis qu’une de taille M en inflige 1d6. Cet avantage se prolonge jusqu’au début du prochain tour du personnage mais ne se cumule pas avec d’autres effets qui considèrent que la fronde est d’une catégorie de taille de plus qu’en réalité.
+
+* {s:Reference|VIGIE}'''[[Vigie]].''' Tant que le personnage a encore au moins un point d’endurance dans sa réserve, il bénéficie des avantages de ce don tant qu’il se trouve à 3 mètres ou moins d’un allié disposant aussi de ce don.
+
+* {s:Reference|VISER}'''[[Viser]].''' Quand le personnage utilise ce don, il peut dépenser 4 points d’endurance pour réduire le malus aux [[jet dattaque|jets d’attaque]] lié au don de 1 jusqu’au début de son prochain tour. Le malus ne peut pas passer au-dessous de 0.
+
+* {s:Reference|VISERJUSTE}'''[[Viser juste]].''' Quand le personnage utilise ce don, il peut dépenser des points d’endurance pour rester en mesure de se déplacer. S’il dépense 2 points d’endurance, il peut faire un [[pas de placement]] de 1,50 mètre après son attaque. S’il dépense 5 points, il peut se déplacer à la moitié de sa vitesse par une [[action de mouvement]].
+
+* {s:Reference|VOIEDUKIRIN}'''[[Voie du kirin]].''' Quand le personnage utilise l’[[École du kirin]], il peut dépenser 5 points d’endurance au lieu d’utiliser une [[AO|attaque d’opportunité]] pour parcourir une distance de 1, 50 m × son modificateur d’[[Intelligence]].
+
+* {s:Reference|ZELOTEDUREFUSDEMOURIR}'''[[Zélote du refus de mourir]].''' Quand une créature obtient un [[coup critique|critique potentiel]] contre le personnage mais rate ses jets de confirmation, le personnage peut dépenser 5 points d’endurance pour effectuer une [[AO|attaque d’opportunité]] contre elle.
+
+</td></tr></table>

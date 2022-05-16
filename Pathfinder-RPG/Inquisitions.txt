@@ -1,11 +1,11 @@
 ---
 Name: Pathfinder-RPG.Inquisitions
 Title: Inquisitions
-LastModified: 2020-06-17 22:41
+LastModified: 2021-03-28 03:55
 Categories:
-  - 'Art de la Magie'
   - 'Classe'
-  - 'Règles officielles'
+  - 'Règle officielle'
+  - 'Src Art de la magie'
 ---
 {s:Menuclassessupplémentaires}
 <div style="background-color: #fff; float: right; padding: 0 0 12px 12px">{toc}</div>
@@ -16,14 +16,14 @@ Si un pouvoir d’inquisition autorise un [[jet de sauvegarde]], le [[DD]] est �
 Un prêtre ou une classe avec un domaine peut choisir une inquisition à la place (en accord avec sa divinité) mais elle ne donne pas d’[[emplacement de sort]] de domaine ni de sort de domaine, les inquisitions sont donc un mauvais choix pour les autres classes. Celles-ci utilisent le niveau de classe adéquat comme niveau d’inquisiteur effectif en ce qui concerne les pouvoirs qu’accorde l’inquisition (les prêtres utilisent leur niveau de prêtre comme niveau d’inquisiteur etc.)
 
 ===Inquisition de bannissement===
-''La dévotion du personnage à sa divinité n'a d'égal que sa haine des fiélons, et il sait renvoyer les extérieurs malveillants à leurs plans d'origine.''
+{s:cs}<div class="description">'''Source :''' Blood of Angels (BoA).</div>''La dévotion du personnage à sa divinité n'a d'égal que sa haine des fiélons, et il sait renvoyer les extérieurs malveillants à leurs plans d'origine.''
 
 '''Juste colère (Sur).''' Lorsque le personnage fait une attaque de contact à mains nues contre une créature d'[[alignement]] Mauvais, elle doit faire un jet de [[Volonté]] ou être [[secoué|secouée]] pour 1d4 tours. Si la créature touchée est un extérieur, elle est [[effrayé|effrayée]] et non secouée. Le personnage peut utiliser ce pouvoir un nombre de fois par jour égal à 3 + son modificateur de [[Sagesse]].
 
 '''Toucher de renvoi (Sur).''' Au niveau 8, le personnage peut utiliser [[renvoi]] en tant que pouvoir magique une fois par jour en effectuant une attaque de contact à mains nues contre un Extérieur mauvais. Le [[DD]] de ce pouvoir est augmenté de 2. 
 
 ===Inquisition de cavalerie===
-''Le personnage suit la voie de la chevalerie, défendant son honneur et chevauchant un noble destrier.''
+{s:cs}<div class="description">'''Source :''' Magical Marketplace (MaM).</div>''Le personnage suit la voie de la chevalerie, défendant son honneur et chevauchant un noble destrier.''
 
 '''Monture (Ext).''' Ce pouvoir fonctionne comme celui du [[chevalier]].
 
@@ -46,7 +46,7 @@ Un prêtre ou une classe avec un domaine peut choisir une inquisition à la plac
 '''Parole convaincante (Mag).''' Au niveau 8, le personnage peut, une fois par jour, prononcer une parole inspirée par la sagesse divine et ainsi rallier une créature à sa cause. La cible doit se trouver dans sa ligne de mire et doit l’entendre. Si elle rate son [[jet de sauvegarde]], elle est affectée par une ''[[domination]]'' de personne d’une durée de 1 minute seulement.
 
 ===Inquisition de damnation===
-''La perspective d'un au-delà de tourments est capable de faire frisonner même les individus les plus endurcis - ne serait-ce qu'un moment.''
+{s:cs}<div class="description">'''Source :''' Blood of Fiends (BoF).</div>''La perspective d'un au-delà de tourments est capable de faire frisonner même les individus les plus endurcis - ne serait-ce qu'un moment.''
 
 '''Crainte des flammes (Sur).''' Le personnage peut donner à une créature dans un rayon de 15 mètres (12 {s:c}) une chance d'éviter une éternité de souffrance en lui ordonnant d'effectuer une action dont la durée ne dépasse pas un round. Les créatures d'[[alignement]] Bon ou Neutre qui refusent sont [[secoué|secouées]] pour un tour (un jet de [[Volonté]] annule cet effet) et les créatures d'alignement Mauvais qui obéissent reçoivent un bonus de morale de +2 à tous les tests et lancers de dé pour un tour. C'est un effet mental dépendant du langage. Le personnage peut utiliser ce pouvoir un nombre de fois par jour égal à 3 + son modificateur de [[Sagesse]].
 
@@ -69,7 +69,7 @@ Un prêtre ou une classe avec un domaine peut choisir une inquisition à la plac
 '''Prison divine.''' Au niveau 8, chaque jour, quand l’inquisiteur réussit une attaque de corps à corps, il peut affecter sa cible avec ''[[immobilisation de monstre]]'' ([[Volonté]] pour annuler).
 
 ===Inquisition d’excommunication===
-''Le personnage peut repousser l'influence de serviteurs divins égarés.''
+{s:cs}<div class="description">'''Source :''' Faiths and Philosophies (FaP).</div>''Le personnage peut repousser l'influence de serviteurs divins égarés.''
 
 '''Toucher de silence (Sur).''' Par une attaque de contact au corps à corps, le personnage peut rendre une créature silencieuse pour un tour, comme avec un sort de [[silence]]. Chaque jour, le personnage peut utiliser ce pouvoir un nombre de fois égal à 3 + modificateur de [[Sagesse]].
 
@@ -119,7 +119,7 @@ Si l’inquisiteur n’est ni Bon ni Mauvais, il doit décider si les flammes bl
 
 '''Chaînes de justice (Sur).''' Au niveau 6, une fois par jour, le personnage peut enchaîner un adversaire situé dans les 18 mètres (12 {s:c}) avec des chaînes spectrales (jet de [[Volonté]] pour annuler).
 
-Quand le personnage reçoit des dégâts de la part d’un ennemi, la cible enchaînée subit les mêmes dégâts. L’inquisiteur et sa cible ne sont pas physiquement attachés ensemble et ils peuvent tous deux mettre un terme à l’effet en brisant la ligne d’effet ou en sortant du rayon de portée du pouvoir. Le personnage peut renvoyer les chaînes par une [[action simple]].
+Quand le personnage reçoit des dégâts de la part d’un ennemi, la cible enchaînée subit les mêmes dégâts. Lorsque la cible enchaînée reçoit des dégâts d'un des alliés du personnage, celui-ci subit les mêmes dégâts. L’inquisiteur et sa cible ne sont pas physiquement attachés ensemble et ils peuvent tous deux mettre un terme à l’effet en brisant la ligne d’effet ou en sortant du rayon de portée du pouvoir. Le personnage peut renvoyer les chaînes par une [[action simple]].
 
 {s:UM}{s:Reference|ORDRE}
 ===Inquisition de l’ordre===
@@ -138,7 +138,7 @@ Quand le personnage reçoit des dégâts de la part d’un ennemi, la cible ench
 '''Yeux de l’oubli (Mag).''' Au niveau 8, le personnage peut utiliser ''[[débilité]]'' comme attaque de [[regard]] contre une créature ([[Volonté]] pour annuler). Cet effet dure 1d4 rounds. Au niveau 8, le personnage peut utiliser ce pouvoir une fois par jour et ensuite une fois de plus tous les quatre niveaux.
 
 ===Inquisition de péché===
-''Le personnage sait comment éveiller les sept péchés d'autrui et les manipuler pour satisfaire ses propres desseins.''
+{s:cs}<div class="description">'''Source :''' Blood of Fiends (BoF).</div>''Le personnage sait comment éveiller les sept péchés d'autrui et les manipuler pour satisfaire ses propres desseins.''
 
 '''Sens du péché (Ext).''' Par une [[action complexe]], le personnage peut déterminer quel péché influence plus fortement une cible en lisant son esprit. Il bénéficie alors d'un bonus de +4 au prochain test dépendant du [[Charisme]] envers cette personne pourvu qu'il y incorpore une tentation en lien avec ce péché. Chaque jour, le personnage peut utiliser ce pouvoir un nombre de fois égal à 3 + modificateur de [[Sagesse]] (1 au minimum).
 
@@ -153,7 +153,7 @@ Quand le personnage reçoit des dégâts de la part d’un ennemi, la cible ench
 '''Force intérieure (Sur).''' Au niveau 6, le personnage peut, une fois par jour, se soigner par une [[action rapide]]. Il récupère 1d6 [[pv|points de vie]] par tranche de deux niveaux d’inquisiteur. Quand il se sert de ce pouvoir, il peut également se débarrasser de l’une des conditions suivantes : [[aveugle]], [[chancelant]], [[confus]], [[effrayé]], [[étourdi]], [[fiévreux]], [[nauséeux]], [[secoué]] ou [[sourd]].
 
 ===Inquisition de possession===
-''Le personnage peut investir le corps d'êtres inférieurs et les plier à sa volonté.''
+{s:cs}<div class="description">'''Source :''' Blood of Fiends (BoF).</div>''Le personnage peut investir le corps d'êtres inférieurs et les plier à sa volonté.''
 
 '''Contrôle de soi (Ext).''' Le personnage possède un contrôle remarquable de lui-même et gagne un bonus de +2 aux jets de sauvegarde contre les effets de [[charme]] et de [[coercition]].
 
@@ -166,14 +166,14 @@ Quand le personnage reçoit des dégâts de la part d’un ennemi, la cible ench
 '''Pouvoirs accordés.''' L’inquisiteur gagne [[Maniement dune arme exotique|Maniement d'une arme exotique]] (armes à feu) et [[Création darmes à feu|Création d’armes à feu]] comme dons supplémentaires. Quand il utilise une [[arme à feu]] et touche un lanceur de sorts profane ou une créature qui utilise des pouvoirs magiques, la victime doit réussir un jet de [[Vigueur]]. Si elle échoue, elle reçoit un malus de -4 aux tests de [[Concentration]] pendant 1 round.
 
 ===Inquisition de récupération===
-''Là ou certains chassent les secrets, le personnage traque des objets plus tangibles.''
+{s:cs}<div class="description">'''Source :''' Champions of Purity (CoP).</div>''Là ou certains chassent les secrets, le personnage traque des objets plus tangibles.''
 
 '''Recherche concentrée (Ext).''' Le personnage peut, une fois par jour, choisir un personnage ou un objet comme objet de sa concentration. Ce pouvoir prend une minute de [[concentration]] pendant lequel il visualise l'objet ou la personne (s'il en est capable) ou médite sur sa description (dans le cas contraire). Jusqu'à ce qu'il ait choisi une nouvelle cible, il gagne un bonus égal à la moitié de son niveau d'[[inquisiteur]] sur ses tests de [[Perception]] pour le voir et l'entendre, et de [[Survie]] pour le pister, ou pister une créature en sa possession. Ce pouvoir se cumule avec les bonus de pistage de l'inquisiteur.
 
 '''Localiser la cible (Mag).''' Au niveau 8, une fois par jour, l'inquisiteur peut utiliser [[localisation dobjet|localisation d'objet]] ou [[localisation de créature]] en tant que pouvoir magique sur l'objet de sa concentration. La portée de cet effet est d'un kilomètre par niveau.
 
 ===Inquisition de rédemption===
-''Le personnage s'adresse à ses frères égarés et leur donne une chance de se racheter du conflit avec la véritable foi, même si ce différend passe par la violence.''
+{s:cs}<div class="description">'''Source :''' Faiths and Philosophies (FaP).</div>''Le personnage s'adresse à ses frères égarés et leur donne une chance de se racheter du conflit avec la véritable foi, même si ce différend passe par la violence.''
 
 '''Sensibilité patiente (Ext).''' Le personnage gagne un bonus de +2 aux tests de [[Diplomatie]], [[Psychologie]] et [[Perception]].
 
@@ -182,7 +182,7 @@ Quand le personnage reçoit des dégâts de la part d’un ennemi, la cible ench
 '''Seconde chance (Mag).''' Au niveau 8, une fois par jour, l'inquisiteur peut par une [[action simple]] lancer un sort de [[pénitence]], ciblant une unique créature ayant manqué à la foi d'une religion partagée avec l'inquisiteur, ou souhaitant prendre l'alignement du personnage. Si le sort de [[pénitence]] demandait normalement une offrande à cause d'une transgression volontaire, l'inquisiteur doit accepter à la place un niveau négatif permanent. En plus de l'effet d'un sort de [[pénitence]], la cible reçoit également l'effet d'un sort de [[soins intensifs]].
 
 ===Inquisition de réforme===
-''Le personnage parle avec une éloquence divine.''
+{s:cs}<div class="description">'''Source :''' Faiths and Philosophies (FaP).</div>''Le personnage parle avec une éloquence divine.''
 
 '''Rhétorique inspirée (Ext).''' Le personnage utilise sa [[Sagesse]] et non son [[Charisme]] pour ses tests de [[Diplomatie]], [[Intimidation]] et [[Représentation]] (Arts oratoires), et [[Représentation]] (Arts oratoires) est toujours une compétence de classe pour lui.
 
@@ -191,21 +191,21 @@ Quand le personnage reçoit des dégâts de la part d’un ennemi, la cible ench
 '''Eveiller le mécontentement (Sur).''' Au niveau 8, l'inquisiteur peut énoncer une intense tirade condamnant les erreurs des individus au pouvoir et réclamant une réforme, faisant subir à la cible du discours l'effet d'un [[charme-personne]] (DD 10 + 1/2 niveau d'[[Inquisiteur]] + modificateur de [[Sagesse]]). Il peut utiliser ce pouvoir un nombre de fois par jour égal à son modificateur de [[Sagesse]].
 
 ===Inquisition de repos éternel===
-''Les morts sont voués au repos - et les voir se déplacer est une aberration que rien n'excuse. Le personnage s'applique à protéger ce saint repos.''
+{s:cs}<div class="description">'''Source :''' Champions of Purity (CoP).</div>''Les morts sont voués au repos - et les voir se déplacer est une aberration que rien n'excuse. Le personnage s'applique à protéger ce saint repos.''
 
 '''Dissiper l'animation (Mag).'''Le personnage peut utiliser [[destruction de mort-vivant]] comme pouvoir magique, ajoutant son modificateur de [[Sagesse]] aux dégâts infligés. Chaque jour, le personnage peut utiliser ce pouvoir un nombre de fois égal à 3 + modificateur de [[Sagesse]] (minimum 1).
 
 '''Déchirer l'animation (Sur).''' Au niveau 8, quand l’inquisiteur ajoute à son arme la propriété tueuse de morts-vivants, il lui ajoute également la propriété [[destruction (propriété)|destruction]]. Le DD pour y résister est égal à 10 + 1/2 niveau d'[[inquisiteur]] + modificateur de [[Sagesse]]
 
 ===Inquisition de restauration===
-''Le personnage est un guérisseur, non seulement pour les individus mais aussi pour les sites sacrés souillés par la corruption.''
+{s:cs}<div class="description">'''Source :''' Magical Marketplace (MaM).</div>''Le personnage est un guérisseur, non seulement pour les individus mais aussi pour les sites sacrés souillés par la corruption.''
 
 '''Guérir les brisés (Sur).'''Le personnage peut toucher une créature ou un objet et la soigner de 1d4 points +1 pour chaque deux niveaux d'[[inquisiteur]]. Ce pouvoir ne peut être utilisé que sur un objet cassé ou un individu dont les points de vie sont inférieurs à la moitié des points de vie maximum. Chaque jour, le personnage peut utiliser ce pouvoir un nombre de fois égal à 3 + modificateur de [[Sagesse]] (minimum 1).
 
 '''Dissiper l'impureté (Sur).''' Au niveau 8, le personnage choisit un [[alignement]] opposé au sien, sur l'axe Bien/Mal ou Loi/Chaos. Une fois fait, ce choix ne peut plus être changé. Le personnage ajoute son bonus de [[Sagesse]] aux tests de lanceur de sort pour percer la [[RM]] de créatures avec cet alignement, dissiper les sorts avec cet alignement, et retirer les [[maladies]], [[malédictions]] et [[poisons]]. Un [[inquisiteur]] neutre ne bénéficie que de ce dernier bonus.
 
 ===Inquisition de révélation===
-''Le mal emprunte souvent le visage d'un saint. Le personnage est un expert dans l'art de déceler ceux dont l'apparence est trompeuse, et utilise ses pouvoirs pour révéler le véritable visage des indignes.''
+{s:cs}<div class="description">'''Source :''' Blood of Angels (BoA).</div>''Le mal emprunte souvent le visage d'un saint. Le personnage est un expert dans l'art de déceler ceux dont l'apparence est trompeuse, et utilise ses pouvoirs pour révéler le véritable visage des indignes.''
 
 '''Brûler le voile (Sur).''' Par une [[action simple]], le personnage peut effectuer une attaque de contact à mains nues envers une cible. Cette cible subit alors 1d4 points de dégâts de feu +1 par deux niveaux d'[[inquisiteur]]. Si la cible est sous un effet de [[métamorphose]] ou d'une illusion modifiant l'apparence, la elle subit à la place 1d6 points de dégâts de feu +1 par deux niveaux d'[[inquisiteur]].  Chaque jour, le personnage peut utiliser ce pouvoir un nombre de fois égal à 3 + modificateur de [[Sagesse]] (minimum 1).
 
@@ -254,7 +254,7 @@ Quand le personnage reçoit des dégâts de la part d’un ennemi, la cible ench
 '''Étreinte de l’honnêteté (Sur).''' Au niveau 8, toute créature en [[lutte]] contre l’inquisiteur ou [[immobilisé|immobilisée]] par ses soins est affectée par une ''[[zone de vérité]]'' ([[Volonté]] pour annuler). En dehors des combats, le personnage peut utiliser ce pouvoir en touchant sa cible des deux mains. Chaque jour, le personnage peut utiliser ce pouvoir un nombre de fois égal à son niveau d’inquisiteur. Ces rounds ne sont pas nécessairement consécutifs. L’effet se termine dès que le personnage arrête de lutter contre sa cible, de l’immobiliser ou de la toucher.
 
 ===Inquisition de vraie mort===
-''Le personnage voit les mort-vivants comme une perversion de l'ordre naturel, une insulte à la magie, ou un esclavage injuste du corps des défunts, et s'est juré de détruire ces abominations.''
+{s:cs}<div class="description">'''Source :''' Blood of Angels (BoA).</div>''Le personnage voit les mort-vivants comme une perversion de l'ordre naturel, une insulte à la magie, ou un esclavage injuste du corps des défunts, et s'est juré de détruire ces abominations.''
 
 '''Retour à la tombe (Sur).''' Lorsque le personnage lance des sorts de soins pour blesser un mort vivant, il ajoute 2 dommages par niveau d'[[inquisiteur]] au lieu d'un. La limite des dégâts infligés de la sorte n'est pas modifiée.
 

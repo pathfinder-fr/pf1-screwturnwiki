@@ -1,0 +1,93 @@
+---
+Name: Pathfinder-RPG.Phases dune bataille (guerre)
+Title: Les phases d'une bataille
+LastModified: 2021-01-05 18:40
+Categories:
+  - 'Règle officielle'
+  - 'Src Guide de campagne'
+---
+{s:MenuGC}{s:GC}{toc}Le combat de masse se déroule en trois phases : la phase tactique, la phase à distance et la phase au corps à corps. Une phase ne correspond pas à une durée déterminée, afin que le [[MJ]] puisse décider à sa guise de la durée de la bataille. Par exemple, un affrontement dans un champ boueux après une averse peut se prolonger pendant des heures et comporter plusieurs pauses qui permettent de sortir les morts du champ de bataille mais, au regard de ces règles, il sera traité comme une seule bataille continue. En cas d’interruption prolongée (si les combats s’arrêtent à la nuit tombée et reprennent au matin) ou si les conditions changent beaucoup (si un commandant se fait assassiner, si une nouvelle armée arrive sur le terrain, etc.) le MJ peut traiter chaque séquence de combat comme une bataille à part entière. Voici les différentes phases du combat de masse.
+* '''1. La phase tactique.''' Le [[MJ]] applique au combat les modificateurs qu’il estime appropriés. Les [[Combat de masse#COMMANDANT|commandants]] choisissent les [[Tactiques des armées (guerre)|tactiques]] de leurs armés.
+
+* '''2. La phase à distance.''' Les armées capables d’attaquer de loin font une attaque à distance contre leur adversaire. Cette phase dure généralement un round (une attaque) et correspond aux deux armées qui se tirent dessus pendant que la piétaille se rapproche, juste avant le corps à corps. Cette durée peut varier en fonction de la disposition des lieux et d’autres éléments. Si les deux armées sont capables de se battre à distance, elles peuvent décider de rester éloignées sans jamais venir au contact (du moins, jusqu’à ce qu’elles arrivent à court de munitions, même si le coût d’entretien de l’armée inclus dans la [[Combat de masse#CONSOMMATION|Consommation]] implique qu’elles ont assez de projectiles pour tirer à plusieurs reprises avant d’en arriver là). Les armées qui ne possèdent pas de combattants à distance sont incapables d’attaquer lors de cette phase mais cela ne les empêche pas de se ruer vers leur ennemi.
+
+* '''3. La phase au corps à corps.''' Les armées arrivent enfin au contact. Chaque [[Combat de masse#COMMANDANT|commandant]] choisit une stratégie (voir ci-dessous) avant que les deux armées ne fassent leur test d’attaque. Répétez la phase de corps à corps jusqu’à ce qu’une armée capitule ou s’enfuie ou qu’un autre événement ne vienne mettre un terme aux hostilités.
+
+====L'échelle de stratégie====
+<div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
+<div style="border: 1px solid #4b3124; padding: 4px; max-width: 260px;">
+{| CLASS="tablo centre autoalt"
+|- CLASS="titre"
+| Stratégie || VDÉF || MA || Dégâts infligés
+|- CLASS="premier"
+| Défensive || +4 || -4 || -6
+|-
+| Prudente || +2 || -2 || -3
+|-
+| Standard || +0 || +0 || +0
+|-
+| Agressive || -2 || +2 || +3
+|-
+| Téméraire || -4 || +4 || +6
+|}
+</div></div>Lors de la première phase de corps à corps, le commandant choisit une stratégie parmi les cinq proposées sur l’échelle de stratégie. Ces stratégies modifient la [[Combat de masse#VDEF|VDéf]], le [[Combat de masse#MA|MA]] et les modificateurs de dégâts de l’armée.
+
+Le commandant peut modifier sa stratégie à chaque phase de corps à corps après la première. Il n’a pas besoin de faire de test pour adopter une nouvelle stratégie située un cran au-dessus ou en dessous de celle qu’il utilise actuellement, il réussit automatiquement. En revanche, s’il veut modifier sa stratégie de plus d’un cran, son armée doit faire un test de [[Combat de masse#MORAL|moral]] de [[DD]] 20. Si elle réussit, elle adopte la stratégie voulue, sinon, elle continue de suivre sa stratégie actuelle.
+
+{s:ClearRight}{s:Reference|ATTAQUERETSUBIRDESDEGATS}{s:Reference|TESTDATTAQUE}
+===Attaquer et subir des dégâts===
+Lors d’un combat de masse, on assiste à des centaines d’attaques individuelles à chaque phase de combat. Elles se déroulent simultanément ou se chevauchent tant qu’il est impossible de savoir qui attaque en premier.
+
+Quand on assiste à un affrontement entre deux armées, chacune fait un test d’attaque (1d20 + [[Combat de masse#MA|MA]] de l’attaquant) et compare son résultat à la [[Combat de masse#VDEF|VDéf]] de sa cible.
+
+Si le test d’attaque est inférieur ou égal à la VDéf de la cible, l’armée n’inflige pas de dégâts pour cette phase.
+
+Si le test d’attaque est supérieur à la VDéf de la cible, cette dernière reçoit un montant de dégâts égal au résultat du test d’attaque de son assaillant – sa VDéf à elle. Par exemple, si l’attaquant fait 11 au test d’attaque et que sa cible a à une VDéf de 7, la cible reçoit 4 points de dégâts. Comme les deux attaques se déroulent et se résolvent simultanément, il se peut que les deux armées subissent des dégâts, voire qu’elles se détruisent mutuellement lors de la même phase.
+
+Si une armée fait un 20 naturel au test d’attaque mais que la VDéf de sa cible est supérieure au résultat qu’elle obtient, elle lui inflige tout de même 1 point de dégâts. Si une armée fait un 1 naturel lors d’un test d’attaque, elle ne peut pas faire de test d’attaque à la phase suivante car quelque chose s’est mal passé : un ordre a été mal transmis, les soldats sont coincés dans la boue, etc.
+
+====Plus de deux armées====
+Ces règles fonctionnent aussi s’il y a plus de deux armées en guerre. Dans ce cas, choisissez l’armée que vous souhaitez attaquer lors de votre test d’attaque (ou les armées si vous avez plusieurs armées sous vos ordres) et appliquez les dégâts en conséquence. Vous pouvez changer de cible à chaque phase. Si votre royaume engage plusieurs armées dans une même bataille, vous pouvez diviser les responsabilités et en confier certaines aux autres joueurs pour accélérer le rythme de jeu.
+
+{s:Reference|CONDITIONS}
+===Les conditions du champ de bataille===
+Les spécificités du champ de bataille n’auront parfois aucune incidence sur le déroulement du combat mais, d’autres fois, ce sont elles qui décideront du vainqueur. Les modificateurs qui suivent s’appliquent uniquement pour la durée de la bataille. Évidemment, au [[MJ]] de faire preuve de bon sens s’il remarque des conditions susceptibles d’influer sur une armée seulement (si le combat se déroule dans les ténèbres et qu’une armée dispose de la [[Vision dans le noir (capacité)|vision dans le noir]] ou s’il y a un brouillard à couper au couteau et qu’une armée possède le pouvoir [[Odorat (capacité)|odorat]].)
+
+Le MJ peut autoriser les armées ou les commandants à utiliser des sorts à large zone d’effet, comme ''[[glissement de terrain]]'' pour modifier la disposition du champ de bataille avant l’affrontement. Pour qu’un tel sort affecte le déroulement du combat, il doit faire effet pendant au moins une heure et affecter une zone d’au moins 50 m². De même, les objets magiques comme la ''[[Forteresse instantanée|forteresse instantanée]]'' ([[Communautés et quartiers#DEFENSE|Défense]] +2) et les sorts comme ''[[mur de pierre]]'' (Défense +1), permettent de créer des fortifications de base dont l’armée profite lors de la bataille.
+<table width="100%"><tr><td width="49%">
+* '''Terrain avantageux.''' Normalement, si une armée occupe un emplacement stratégique (le sommet d’une colline, le fond d’un canyon étroit ou la rive d’une profonde rivière), sa [[Combat de masse#VDEF|VDéf]] augmente de 2.
+
+* '''Embuscade.''' Pour tendre une embuscade, toute l’armée doit être camouflée. Elle tente alors un [[Phases dune bataille (guerre)#TESTDATTAQUE|test d’attaque]] contre la [[Combat de masse#VDEF|VDéf]] de sa cible. Si elle réussit, la bataille commence mais l’armée prise en embuscade ne peut pas agir pendant la phase tactique. En dehors de cela, le combat se déroule normalement.
+
+* '''Avantage du terrain.''' Si une armée connaît bien le champ de bataille, son [[Combat de masse#MA|MA]] et sa [[Combat de masse#VDEF|VDéf]] augmentent de 2.
+
+* '''Ténèbres.''' Les ténèbres réduisent le [[Combat de masse#MA|MA]] de toutes les armées de 2 et leur [[Combat de masse#VDEF|VDéf]] de 3.
+
+* '''Faible luminosité.''' Une faible luminosité réduit le [[Combat de masse#MA|MA]] de toutes les armées de 1.
+
+* '''Brouillard.''' Le brouillard réduit tous les dégâts de moitié et donne un bonus de moral de +2 aux armées qui utilisent la tactique [[Tactiques des armées (guerre)#BATTREENRETRAITE|battre en retraite]].
+
+</td><td width="2%">
+</td><td width="49%">
+* '''Fortifications.''' Si une armée est retranchée derrière des fortifications, elle ajoute leur [[Communautés et quartiers#DEFENSE|Défense]] à sa [[Combat de masse#VDEF|VDéf]]. La Défense d’une communauté dépend des bâtiments qu’elle possède, comme indiqué dans les règles de [[Royaumes et guerre|construction de royaume]]. Si vous n’utilisez pas les règles de construction de royaume, les fortifications de base augmentent la VDéf de 8.
+
+* '''Pluie.''' Lors de la phase à distance, la pluie affecte le [[Combat de masse#MA|MA]] comme un vent violent (voir la table "[[Vents#EFFETSDUVENT|Effets du vent]]").
+
+* '''Tempête de sable.''' Une tempête de sable fonctionne comme le brouillard mais inflige en plus 1 point de dégâts à toutes les armées lors des phases à distance et de corps à corps.
+
+* '''Neige.''' La neige affecte les attaques à distance comme la pluie et les dégâts comme le brouillard.
+
+* '''Vent.''' Les modificateurs dus au vent s’appliquent au [[Combat de masse#MA|MA]] lors de la phase à distance (voir la table "[[Vents#EFFETSDUVENT|Effets du vent]]").
+
+</td></tr></table>
+{s:Reference|RECUPERATION}
+===La récupération===
+Chaque fois qu’une armée passe une journée au repos (sans se déplacer ni combattre), elle guérit d’un montant de [[Combat de masse#PV|pv]] égal à son [[Combat de masse#FPA|FPA]]. Une fois par jour, vous pouvez tenter un test de [[Royaumes et guerre#LOYAUTE|Loyauté]] contre le [[Royaumes et guerre#DDDECONTROLE|DD de contrôle]] de votre royaume. Si vous réussissez, votre armée guérit de nouveau d’un montant de pv égal à son FPA. Une armée inactive récupère tous ses points de vie en un mois, quel que soit le nombre qu’elle a perdu.
+
+Les règles du combat de masse considèrent que cette guérison consiste à soigner les blessés mais aussi à remplacer les unités tuées par de nouvelles, ce qui veut dire que vous n’avez pas besoin de noter les pertes individuelles et d’ajuster la taille de votre armée. Ces unités peuvent venir de la population locale, de vos propres communautés ou d’une conscription forcée sur les terres conquises. Si, en raison des circonstances, l’armée n’a pas de telles possibilités ou qu’elles sont du domaine de l’improbable, le MJ peut réduire le taux de guérison de l’armée, en général jusqu’à la moitié de ses points de vie. Si vous voulez d’autres possibilités de guérison d’armée, reportez vous à la règle optionnelle [[Règles optionnelles du combat de masse (guerre)#REMODELERUNEARMEE|Remodeler une armée]].
+
+{s:Reference|PJDANSLESBATAILLES}
+===Les personnages joueurs dans les batailles===
+En plus de permettre à vos [[PJ]] de commander une armée, le [[MJ]] peut leur faire combattre de petits groupes d’ennemis avant ou pendant une bataille au cours de laquelle leur armée affronte celle d’un adversaire. Par exemple, vos PJ peuvent attaquer un nécromancien maléfique et se frayer un chemin dans sa tour pour aller l’affronter en personne tandis que, dehors, leurs armées luttent contre des hordes de morts-vivants. Vos PJ peuvent aussi utiliser de puissants sorts (comme ''[[brume mortelle]]'', ''[[contrôle du climat]]'' ou ''[[tremblement de terre]]'') pour transformer le champ de bataille en votre faveur. Cela vous permet d’utiliser vos personnages pour affecter directement le conflit sans pour autant renoncer à une aventure parce qu’ils ont pris la tête des armées.
+
+Si vos [[PJ]] remportent leur combat à petite échelle ou s’ils affectent fortement les conditions du champ de bataille avec leur magie, le [[MJ]] peut augmenter la [[Combat de masse#VDEF|VDéf]] et le [[Combat de masse#MA|MA]] de leur armée de 4 pour la durée de l’affrontement. En revanche, si les PJ échouent, leur armée risque d’être sanctionnée par un –4. Si le MJ le désire, il peut appliquer d’autres effets selon que les PJ sont vainqueurs ou non, comme accorder une tactique supplémentaire, modifier les points de vie d’une ou plusieurs armées ou encore donner ou annuler des pouvoirs spéciaux.

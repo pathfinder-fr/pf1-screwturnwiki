@@ -1,0 +1,138 @@
+---
+Name: Pathfinder-RPG.Incantation simplifiée
+Title: Incantation simplifiée
+LastModified: 2020-10-29 00:30
+Categories:
+  - 'Src Pathfinder unchained'
+---
+{s:MenuPathfinderunchained}{toc}Pour un magicien de niveau 1 qui ne connaît que quelques sorts, il n’est pas très difficile de décider quels sorts préparer chaque jour. Mais un magicien de niveau 20 dispose facilement d’une soixantaine de sorts parmi lesquels choisir, ce qui prend un certain temps pendant lequel les autres joueurs se tournent les pouces.
+
+Avec l’incantation simplifiée, le personnage ne doit faire des choix que pour ses trois niveaux de sorts les plus élevés tandis que tous les autres sont placés dans une réserve qu’il utilise en fonction de ses besoins. Le nombre de sorts dans cette réserve est moins élevé que celui que le personnage pourrait lancer normalement mais elle constitue une alternative plus souple à la préparation de tous les sorts et permet de réserver les décisions difficiles aux sorts les plus importants. Étant donné que ce système n’affecte que les sorts des trois plus hauts niveaux, il ne concerne pas les personnages qui ne sont pas encore en mesure de lancer des sorts de niveau 4.
+
+===Les règles de l'incantation simplifiée===
+Pour utiliser l’incantation simplifiée, vous devez consulter la [[Incantation simplifiée#TABLE|table de progression]] correspondant à la classe de votre personnage (ou la table d’une classe dont la progression des sorts correspond à celle de votre personnage), et plus particulièrement la ligne relative à son niveau de lanceur de sorts. Les trois plus hauts niveaux de sorts de cette ligne sont suivis d’un nombre de sorts par jour. Le personnage prépare normalement ces sorts tous les jours et gagne quand même le nombre de sorts supplémentaires par jour indiqué pour son niveau s’il possède une [[Caractéristiques#TABLEAUCARACTERISTIQUES|valeur de caractéristique suffisante]]. La lettre « R » apparaît dans les colonnes de tous les autres niveaux de sorts accessibles (sauf le niveau 0), indiquant quels sont les sorts de bas niveau que le personnage lance grâce à la réserve de sorts de sa classe.
+
+Tous les jours, le personnage peut lancer spontanément un nombre de sorts de bas niveau, issus de sa liste de classe, égal au nombre indiqué dans la colonne Réserve de la table pour son niveau de classe. Le niveau de sort n’a pas d’importance (tant qu’il s’agit d’un niveau de sort appartenant à sa réserve) : si le personnage peut lancer cinq sorts de sa réserve par jour, il peut lancer cinq sorts de niveau 1, cinq sorts de niveau 2, ou un mélange des deux. Quand le personnage lance un sort utilisant un emplacement grâce à sa réserve de sorts, ce sort doit apparaître sur sa liste de sorts ou dans son grimoire, exactement comme s’il le préparait. Le personnage doit également respecter toutes les autres restrictions que lui impose sa classe ou ses autres pouvoirs, comme les limites de lancement de sort d’alignement opposé. Les emplacements de la réserve de sorts se réinitialisent après huit heures de repos et tous les effets qui empêchent le personnage de préparer ses sorts l’empêchent également de réinitialiser sa réserve de sorts.
+
+La réserve du personnage augmente s’il possède un modificateur de [[Caractéristiques#TABLEAUCARACTERISTIQUES|caractéristique d’incantation élevé]], de la même manière qu’il gagne des sorts supplémentaires dans les emplacements qu’il prépare. Il ajoute à sa réserve un nombre de sorts égal à un quart du modificateur de caractéristique qu’il utilise normalement pour calculer son nombre de sorts supplémentaires par jour.
+
+Si sa classe lui accorde des sorts supplémentaires choisis parmi un nombre très limité d’options (comme les [[Prêtre#DOMAINE|sorts de domaine]], les [[Chaman#ESPRTI|esprits]] ou autres sorts supplémentaires similaires), le personnage gagne ces sorts indépendamment de sa réserve. Si sa classe lui accorde des sorts supplémentaires issus d’une liste restreinte (comme les [[Magicien#ECOLEDEMAGIE|sorts d’école spécialisée]] du magicien), le personnage gagne, en même temps que sa réserve de sorts, un emplacement de sort supplémentaire par jour au sein de sa réserve, qu’il ne peut utiliser que pour lancer des sorts de ce type tandis qu’au niveau 13, il gagne un deuxième emplacement de sort supplémentaire répondant aux mêmes limites.
+
+Par exemple, un nécromancien de niveau 13 avec une valeur d’[[Intelligence]] de 26 dispose d’une réserve de cinq sorts (3 parce que c’est un [[magicien]] de niveau 13 et 2 du fait de sa haute Intelligence, son modificateur de +8 étant divisé par 4), en ajoutant deux sorts supplémentaires par jour qui doivent obligatoirement appartenir à l’école de nécromancie. Le nécromancien peut utiliser sa réserve pour lancer ses sorts de niveau 1 à 4 mais il doit quand même préparer ses sorts de niveau 5 à 7.
+
+'''Dépense de plusieurs emplacements de sort.''' Si le personnage possède une aptitude de classe qui requiert la dépense de plusieurs emplacements de sort, comme la révélation du guérisseur combattant d’un [[Mystère des Batailles|oracle des batailles]] ou une école opposée à celle d’un [[Magicien#ECOLEDEMAGIE|magicien spécialiste]], il doit dépenser le nombre d’emplacements de sort adéquat de sa réserve de sorts pour utiliser l’aptitude en question. Par exemple, si l’école opposée à celle du nécromancien de niveau 13 mentionné plus haut est l’invocation, il peut dépenser deux emplacements de sorts de sa réserve de sorts pour lancer ''[[convocation de monstres II]]''.
+
+<table width="100%"><tr><td width="50%">
+{| CLASS="tablo centre autoalt" WIDTH="96%"
+|+ {s:Reference|TABLE}Magus ou prêtre combattant
+|- CLASS="titre"
+| ROWSPAN="2" | Niveau
+| COLSPAN="7" CLASS="avecsoustitre" | Sorts par jour
+| ROWSPAN="2" | Réserve
+|- CLASS="soustitre"
+| 0 || 1 || 2 || 3 || 4 || 5 || 6
+|- CLASS="premier"
+| 1 || 3 || 1 || — || — || — || — || — || —
+|-
+| 2 || 4 || 2 || — || — || — || — || — || —
+|-
+| 3 || 4 || 3 || — || — || — || — || — || —
+|-
+| 4 || 4 || 3 || 1 || — || — || — || — || —
+|-
+| 5 || 4 || 4 || 2 || — || — || — || — || —
+|-
+| 6 || 5 || 4 || 3 || — || — || — || — || —
+|-
+| 7 || 5 || 4 || 3 || 1 || — || — || — || —
+|-
+| 8 || 5 || 4 || 4 || 2 || — || — || — || —
+|-
+| 9 || 5 || 5 || 4 || 3 || — || — || — || —
+|-
+| 10 || 5 || R || 4 || 3 || 1 || — || — || 1
+|-
+| 11 || 5 || R || 4 || 4 || 2 || — || — || 1
+|-
+| 12 || 5 || R || 5 || 4 || 3 || — || — || 1
+|-
+| 13 || 5 || R || R || 4 || 3 || 1 || — || 3
+|-
+| 14 || 5 || R || R || 4 || 4 || 2 || — || 3
+|-
+| 15 || 5 || R || R || 5 || 4 || 3 || — || 3
+|-
+| 16 || 5 || R || R || R || 4 || 3 || 1 || 4
+|-
+| 17 || 5 || R || R || R || 4 || 4 || 2 || 4
+|-
+| 18 || 5 || R || R || R || 5 || 4 || 3 || 4
+|-
+| 19 || 5 || R || R || R || 5 || 5 || 4 || 4
+|-
+| 20 || 5 || R || R || R || 5 || 5 || 5 || 4
+|}
+</td><td width="50%">
+{| CLASS="tablo centre autoalt" WIDTH="94%"
+|+ Chamane, druide, magicien, prêtre ou sorcière
+|- CLASS="titre"
+| ROWSPAN="2" | Niveau
+| COLSPAN="10" CLASS="avecsoustitre" | Sorts par jour
+| ROWSPAN="2" | Réserve
+|- CLASS="soustitre"
+| 0 || 1 || 2 || 3 || 4 || 5 || 6 || 7 || 8 || 9
+|- CLASS="premier"
+| 1 || 3 || 1 || — || — || — || — || — || — || — || — || —
+|-
+| 2 || 4 || 2 || — || — || — || — || — || — || — || — || —
+|-
+| 3 || 4 || 2 || 1 || — || — || — || — || — || — || — || —
+|-
+| 4 || 4 || 3 || 2 || — || — || — || — || — || — || — || —
+|-
+| 5 || 4 || 3 || 2 || 1 || — || — || — || — || — || — || —
+|-
+| 6 || 4 || 3 || 3 || 2 || — || — || — || — || — || — || —
+|-
+| 7 || 4 || R || 3 || 2 || 1 || — || — || — || — || — || 1
+|-
+| 8 || 4 || R || 3 || 3 || 2 || — || — || — || — || — || 1
+|-
+| 9 || 4 || R || R || 3 || 2 || 1 || — || — || — || — || 2
+|-
+| 10 || 4 || R || R || 3 || 3 || 2 || — || — || — || — || 2
+|-
+| 11 || 4 || R || R || R || 3 || 2 || 1 || — || — || — || 2
+|-
+| 12 || 4 || R || R || R || 3 || 3 || 2 || — || — || — || 2
+|-
+| 13 || 4 || R || R || R || R || 3 || 2 || 1 || — || — || 3
+|-
+| 14 || 4 || R || R || R || R || 3 || 3 || 2 || — || — || 3
+|-
+| 15 || 4 || R || R || R || R || R || 3 || 2 || 1 || — || 4
+|-
+| 16 || 4 || R || R || R || R || R || 3 || 3 || 2 || — || 4
+|-
+| 17 || 4 || R || R || R || R || R || R || 3 || 2 || 1 || 5
+|-
+| 18 || 4 || R || R || R || R || R || R || 3 || 3 || 2 || 5
+|-
+| 19 || 4 || R || R || R || R || R || R || 4 || 3 || 3 || 5
+|-
+| 20 || 4 || R || R || R || R || R || R || 4 || 4 || 4 || 5
+|}
+</td></tr></table>
+
+===Les autres lanceurs de sorts===
+Bien que les lanceurs de sorts spontanés puissent utiliser ce système, ils n’en retirent pas de véritables bénéfices puisqu’ils n’ont pas besoin de choisir quels sorts préparer à l’avance et qu’ils disposent du même nombre d’emplacements de sort que celui dont ils disposeraient s’ils utilisaient une réserve de sorts.
+
+Ce système ne s’applique pas aux lanceurs de sorts tels que les [[Paladin|paladins]] et les [[Rôdeur|rôdeurs]], qui ne lancent que des sorts de niveau 1 à 4, car ils possèdent trop peu de sorts pour rencontrer les mêmes difficultés que les autres lanceurs de sorts.
+
+===La métamagie===
+Quand un lanceur de sorts utilise un [[Dons#DONMETAMAGIE|don de métamagie]] pour modifier un sort lancé depuis sa réserve de sorts, on considère qu’il lance ses sorts de manière spontanée (ce qui augmente le temps d’incantation à une [[action complexe]] quand c’est possible). Le sort doit quand même être d’un niveau que le personnage peut lancer avec sa réserve. Sinon, ce dernier doit dépenser l’un de ses emplacements de sort pour le préparer.
+
+Par exemple, le nécromancien de niveau 13 mentionné plus haut pourrait lancer une ''[[boule de feu]]'' à [[Extension de portée|extension de portée]] par une [[action complexe]] en utilisant sa réserve de sorts mais, pour lancer une ''[[boule de feu]]'' à [[Extension deffet|extension d’effet]], il lui faudrait dépenser un emplacement de sort de niveau 5 afin de la préparer parce que les sorts de niveau 5 ne font pas partie de sa réserve.
+
+===Les perles de thaumaturge===
+Une [[perle de thaumaturge]] ne peut servir qu’à récupérer un emplacement de sort d’un niveau que le personnage peut préparer, pas à récupérer des emplacements de sa réserve de sorts. À l’inverse, une [[rune de pouvoir]] permet au personnage de lancer un sort sans dépenser d’emplacement de sa réserve. Ce sort doit être à la fois d’un niveau que la rune de pouvoir peut restaurer et suffisamment bas pour appartenir à la réserve de sorts au lieu de nécessiter sa préparation.

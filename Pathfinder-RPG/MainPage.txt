@@ -1,14 +1,10 @@
 ---
 Name: Pathfinder-RPG.MainPage
 Title: Bienvenue sur le Wiki Pathfinder-RPG .
-LastModified: 2020-08-12 16:06
-Categories:
-  - 'Divers'
-  - 'Objet magique'
-  - 'Sort'
+LastModified: 2022-05-10 18:42
 ---
 <p class="description">Pathfinder JDR est un système de règles pour le jeu de rôle compatible avec l'édition 3.5 du jeu de rôle le plus connu au monde.
-<br/><b>Pour les ressources concernant Pathfinder 2, voir plutôt [[++Ressources.Pathfinder2|ici]].</b></p>
+<br/><b>Pour les ressources concernant Pathfinder 2, voir plutôt [[++Pathfinder2.MainPage|ici]].</b></p>
 <p class="descBlocMain">Pour les joueurs…</p>
 <div class="blocMain">
 <table class="page espace-col sansmodif" style="text-align: left">
@@ -24,7 +20,9 @@ Categories:
   <li>[[glossaire mythique|Vocabulaire mythique]]</li></ul>
 </li>
 <li>[[Créer un personnage]]</li>
-<li>Générateur d'historique</li>
+<li>[[Historique du personnage|L'historique du personnage]]</li>
+<ul><li>[[Générateur dhistorique|Générateur d'historique]]</li>
+    </ul>
 </ul>
 === Les personnages ===
 <ul>
@@ -101,7 +99,7 @@ Categories:
   <li>[[Barde|Le barde]] ''([[Représentations|représentations de barde]], [[Chefs doeuvre|chefs d'oeuvre]])''</li>
   <li>[[Druide|Le druide]] ''([[compagnons animaux]], [[domaines animaux et environnementaux]])''</li>
   <li>[[Ensorceleur|L'ensorceleur]] ''([[Lignages|lignages d'ensorceleur]])''</li>
-  <li>[[Guerrier|Le guerrier]] ''([[Groupe darmes|groupes d'armes]])''</li>
+  <li>[[Guerrier|Le guerrier]] ''([[Groupe darmes|groupes d'armes]], [[entraînements avancés]])''</li>
   <li>[[Magicien|Le magicien]] ''([[écoles de magie]], [[familiers]], [[découvertes arcaniques]])''</li>
   <li>[[Moine|Le moine]] ''([[voeux]])''</li>
   <li>[[Paladin|Le paladin]]</li>
@@ -144,7 +142,7 @@ Categories:
  </li>
 <li>{s:PM|CLASSESOCCULTES}[[Classes#CLASSESOCCULTES|Les classes occultes]]
   <ul ID="CLASSESOCCULTES" CLASS="listecachée cadrebas">
-  <li>[[Cinétiste|Le cinétiste]] ''([[talents sauvages]])''</li>
+  <li>[[Cinétiste|Le cinétiste]] ''([[éléments]], [[talents sauvages]])''</li>
   <li>[[Hypnotiseur|L'hypnotiseur]] ''([[inductions]])''</li>
   <li>[[Médium|Le médium]] ''([[Esprits (Médium)|esprits]])''</li>
   <li>[[Occultiste|L'occultiste]] ''([[Écoles instrumentales|écoles instrumentales]])''</li>
@@ -158,36 +156,72 @@ Categories:
 <ul>
 <li>{s:PM|PCLASSES}[[Classes de prestige|Les classes de prestige]]
   <ul ID="PCLASSES" CLASS="listecachée cadrebas">
-  <li>[[Archer-mage|L'archer-mage]]</li>
-  <li>[[Arpenteur dhorizon|L'arpenteur d'horizon]]</li>
-  <li>[[Assassin|L'assassin]]</li>
-  <li>[[Champion occultiste|Le champion occultiste]]</li>
-  <li>[[Chroniqueur|Le chroniqueur]]</li>
-  <li>[[Disciple draconien|Le disciple draconien]]</li>
-  <li>[[Duelliste|Le duelliste]]</li>
-  <li>[[Fidèle défenseur|Le fidèle défenseur]]</li>
-  <li>[[Gardien de la nature|Le gardien de la nature]]</li>
-  <li>[[Gardien du savoir|Le gardien du savoir]]</li>
-  <li>[[Héraut|Le héraut]]</li>
-  <li>[[Maître chymiste|Le maître chimiste]]</li>
-  <li>[[Maître des ombres|Le maître des ombres]]</li>
-  <li>[[Maître espion|Le maître espion]]</li>
-  <li>[[Mystificateur profane|Le mystificateur profane]]</li>
-  <li>[[Prophète enragé|Le prophète enragé]]</li>
-  <li>[[Théurge mystique|Le théurge mystique]]</li>
-  <li>[[Vengeur sacré|Le vengeur sacré]]</li>
-  
-  <li>[[Agent de terrain des Éclaireurs|L'agent de terrain explorateur]]</li>
-  <li>[[Assassin des mantes rouges|L'assassin pourpre]]</li>
-  <li>[[Enfant divin|L'Enfant divin]]</li>
-  <li>[[Éclaireur explorateur|L'Explorateur]]</li>
-  <li>[[Éclaireur savant|L'Explorateur savant]]</li>
-  <li>[[Étudiant de la guerre|L'Étudiant de la guerre]]</li>
-  <li>[[Légionnaire infernal|Le légionnaire infernal]]</li>
-  <li>[[Mage des glyphes|Le mage des glyphes]]</li>
-  <li>[[Pirate de la mer Intérieure|Le pirate de Haute mer]]</li>
-  <li>[[Liseuse de tourment|La voyante]]</li>
-  <li>[[Templier déchu|Le templier parjure]]</li>
+  <li>[[Acolyte de la Foi verte|Acolyte de la Nature]] (''PP'')</li>
+  <li>[[Adepte de la Flamme noire]] (''PP'')</li>
+  <li>[[Agent de la Cour des ombres|Agent de l'Ombre]] (''PP'')</li>
+  <li>[[Agent de terrain des Éclaireurs|Agent de terrain des Explorateurs]] (RSE)</li>
+  <li>[[Agent du Consortium de lAspis|Agent du consortium]] (''PP'')</li>
+  <li>[[Agent du Réseau Campanule|Agent du réseau]] (''PP'')</li>
+  <li>[[Arcaniste de Magaambya|Arcaniste de l'académie du Vieux-Mage]] (''PP'')</li>
+  <li>[[Archer-mage]]</li>
+  <li>[[Arpenteur dhorizon|Arpenteur d'horizon]] (MJRA)</li>
+  <li>[[Aspirant à lIllumination|Aspirant à l'Illumination]] (MR)</li>
+  <li>[[Assassin des mantes rouges|Assassin pourpre]] (CCMI)</li>
+  <li>[[Assassin]]</li>
+  <li>[[Attiseur de tempêtes]] (''PP'')</li>
+  <li>[[Jardinier gris|Bourreau gris]] (''PP'')</li>
+  <li>[[Champion dIrori|Champion de la perfection]] (''PP'')</li>
+  <li>[[Champion occultiste]]</li>
+  <li>[[Chevalier dOzem|Chevalier de la vie]] (''PP'')</li>
+  <li>[[Chevaucheur de mammouth]] (''PP'')</li>
+  <li>[[Chroniqueur]]</li>
+  <li>[[Daivrat]] (RSE)</li>
+  <li>[[Détective des Insomniaques]] (''PP'')</li>
+  <li>[[Prophète de Kalistrade|Disciple des Prophéties]] (''PP'')</li>
+  <li>[[Disciple draconien]]</li>
+  <li>[[Dissident de la Fleur de laube|Dissident de l'aube]] (''PP'')</li>
+  <li>[[Duelliste]]</li>
+  <li>[[Empoisonneur de Dague|Empoisonneur de la guilde]] (''PP'')</li>
+  <li>[[Enfant divin]] (MMI)</li>
+  <li>[[Estimateur dAbadar|Estimateur légal]] (CSU)</li>
+  <li>[[Étudiant de la guerre]] (RSE)</li>
+  <li>[[Éclaireur explorateur|Explorateur]] (RSE)</li>
+  <li>[[Éclaireur savant|Explorateur savant]] (RSE)</li>
+  <li>[[Prêtre razmirien|Faux prêtre]] (''PP'')</li>
+  <li>[[Fidèle défenseur]] (MJRA)</li>
+  <li>[[Frère du Sceau]] (''PP'')</li>
+  <li>[[Légionnaire doré|Garde de la liberté]] (''PP'')</li>
+  <li>[[Gardien de la nature]] (MJRA)</li>
+  <li>[[Gardien des failles]] (''PP'')</li>
+  <li>[[Gardien du savoir]]</li>
+  <li>[[Guerrier de la fosse]] (''PP'')</li>
+  <li>[[Héraut]] (MJRA)</li>
+  <li>[[Héritier noble]] (''PP'')</li>
+  <li>[[Illusionniste voilé]] (''PP'')</li>
+  <li>[[Lame des lions]] (RSE)</li>
+  <li>[[Chevalier infernal|Légionnaire infernal]] (CCMI)</li>
+  <li>[[Mage des glyphes]] (MMI)</li>
+  <li>[[Maître chymiste]] (MJRA)</li>
+  <li>[[Maître des ombres]]</li>
+  <li>[[Maître espion]] (MJRA)</li>
+  <li>[[Maréchal-bouclier]] (''PP'')</li>
+  <li>[[Faucon dacier|Missionnaire de la liberté]] (RSE)</li>
+  <li>[[Monolithe vivant]] (RSE)</li>
+  <li>[[Mystificateur profane]]</li>
+  <li>[[Mystique tatoué]] (''PP'')</li>
+  <li>[[Opportuniste halfelin]] (MR)</li>
+  <li>[[Pirate de la Mer intérieure|Pirate de Haute mer]] (PMI)</li>
+  <li>[[Porteur de lanterne]] (''PP'')</li>
+  <li>[[Prophète enragé]] (MJRA)</li>
+  <li>[[Prospecteur céleste]] (''PP'')</li>
+  <li>[[Seigneur de lArche du Nex|Seigneur de l'arche]] (''PP'')</li>
+  <li>[[Seigneur des épées aldori|Seigneur des épées]] (''PP'')</li>
+  <li>[[Signifer infernal]] (''PP'')</li>
+  <li>[[Sorcière de lhiver|Sorcière de l'hiver]] (''PP'')</li>
+  <li>[[Templier déchu|Templier parjure]] (CCMI)</li>
+  <li>[[Théurge mystique]]</li>
+  <li>[[Vengeur sacré]] (MJRA)</li>
+  <li>[[Liseuse de tourment|Voyante]] (CCMI)</li>
 </ul>
 </li>
 <li>{s:PM|VOIESMYTHIQUES}[[Création Personnage Mythique|Les voies mythiques]]
@@ -244,17 +278,23 @@ Categories:
   <li>''[[c:Pathfinder-RPG.Don|Dons par ordre alphabétique]]''</li>
   <li>Tableaux des dons</li>
      <ul>
-        <li>'''[[Tableau récapitulatif des dons|dons généraux]]'''</li>
-        <li>'''[[dons daudace|dons d'audace et de panache]]'''</li>
-        <li>'''[[dons de création dobjets|dons de création d'objets]]'''</li>
-        <li>'''[[dons décole|dons d'école]]'''</li>
-        <li>'''[[dons déquipe|dons d'équipe]]'''</li>
-        <li>'''[[dons de métamagie|dons de métamagie]]'''</li>
-        <li>'''[[dons de spectacle|dons de spectacle]]'''</li>
-        <li>'''[[Tableau récapitulatif des dons mythiques|dons mythiques]]'''</li>
+        <li>[[Tableau récapitulatif des dons|Dons généraux]]</li>
+        <li>[[Tableau récapitulatif des dons mythiques|Dons mythiques]]</li>
      </ul>
-    <li>''[[c:Pathfinder-RPG.Don combat|Les dons de combat]]''</li>
-    <li>''[[c:Pathfinder-RPG.Don critiques|Les dons de critique]]''</li>
+     <ul>
+        <li>[[dons daudace et de panache|Dons d'audace et de panache]]</li>
+        <li>[[Dons de combat]]</li>
+        <li>[[Dons de création dobjets|Dons de création d'objets]]</li>
+        <li>[[Dons de critique]]</li>
+        <li>[[Dons décole|Dons d'école]]</li>
+        <li>[[Dons déquipe|Dons d'équipe]]</li>
+        <li>[[Dons de maîtrise dobjets|Dons de maîtrise d'objets]]</li>
+        <li>[[Dons de maléfice sanglant]]</li>
+        <li>[[Dons de métamagie]]</li>
+        <li>[[Dons de regard]]</li>
+        <li>[[Dons de réussite]]</li>
+        <li>[[Dons de spectacle]]</li>
+     </ul>
     <li>[[GetFile.aspx?File=%2FADJ%2FPathfinder-RPG%2FArbresDonsUM.pdf|Guide des arbres de dons pour pathfinder (pdf)]]</li>
      <ul>
      <li>''[[dons issus du cadre de campagne|dons issus des suppléments officiels parus en vf]]''</li>
@@ -290,54 +330,62 @@ Categories:
 <td width="1%"></td>
 <td width="32%">
 === L'équipement ===
-<ul>
-<li>[[Poids transportable|Le poids transportable]]</li>
-<li>[[Argent et richesse]]</li>
-</ul><ul>
-<li>{s:PM|ARMES}[[Tableau récapitulatif des armes|Les armes]]
-  <ul ID="ARMES" CLASS="listecachée cadrebas">
-  <li>'''[[Tableau récapitulatif des armes]]'''</li>
-  <li>[[Caractéristiques des armes]]</li>
-  <li>[[Caractéristiques des armes#ARMESMAITRE|Armes de maître]]</li>
-  <li>[[Descriptions individuelles des armes]]</li>
-  <li>'''[[Tableau récapitulatif des armes à feu]]'''</li>
-  <li>[[Armes à feu|Caractéristiques des armes à feu]]</li>
-  <li>[[Description des armes à feu|Descriptions individuelles des armes à feu]]</li>
-  </ul>
-</li>
-<li>{s:PM|ARMURES}[[Tableau récapitulatif des armures|Les armures]]
-  <ul ID="ARMURES" CLASS="listecachée cadrebas">
-  <li>'''[[Tableau récapitulatif des armures]]'''</li>
-  <li>[[Caractéristiques des armures]]</li>
-  <li>[[Caractéristiques des armures#ARMURESMAITRE|Armures de maître]]</li>
-  <li>[[Caractéristiques des armures#ARMURESINHABITUELLES|Armures pour créatures inhabituelles]]</li>
-  <li>[[Caractéristiques des armures#ENFILEROTER|Enfiler ou ôter son armure]]</li>
-  <li>[[Descriptions individuelles des armures]]</li>
-  </ul>
-</li>
-<li>[[Matériaux spéciaux|Les matériaux spéciaux]]</li>
-</ul><ul>
-<li>{s:PM|MARCHANDISESSERVICES}[[Marchandises et services|Les marchandises et les services]]
-  <ul ID="MARCHANDISESSERVICES" CLASS="listecachée cadrebas">
-      <li>[[Équipement daventurier|Équipement d'aventurier]]</li>
-      <li>[[Trousses doutils et de compétences|Trousses d'outils et de compétences]]</li>
-      <li>[[Vêtements]]</li>
-      <li>[[Nourriture et Boissons]]</li>
-      <li>[[Animaux, montures et leur équipement]]</li>
-      <li>[[Moyens de transport]]</li>
-      <li>[[Jeux]]</li>
-      <li>[[Hébergement et services]]</li>
-      <li>[[Marchandises]]</li>
-  </ul></ul>
-  <ul>
-  <li>{s:PM|OBJETSALCHIMIQUES}Les objets alchimiques
-      <ul ID="OBJETSALCHIMIQUES" CLASS="listecachée cadrebas">
-      <li>[[Armes alchimiques]]</li>
-      <li>[[Outils alchimiques]]</li>
-      <li>[[Poisons]]</li>
-      <li>[[Remèdes alchimiques]]</li>
-  </ul>
-</li>
+<ul><li>[[Argent et richesse]]</li>
+    <li>[[Marchandises|Les marchandises]]</li>
+    <li>[[Poids transportable|Le poids transportable]]</li>
+</ul>
+<ul><li>{s:PM|ARMES}[[Tableau récapitulatif des armes|Les armes]]
+    <ul ID="ARMES" CLASS="listecachée cadrebas">
+        <li>'''[[Tableau récapitulatif des armes]]'''</li>
+        <li>[[Caractéristiques des armes]]</li>
+        <ul><li>[[Caractéristiques des armes#ARMESMAITRE|Armes de maître]]</li></ul>
+        <li>[[Descriptions individuelles des armes]]</li>
+    </ul>
+    </li>
+    <li>{s:PM|ARMESAFEU}[[Tableau récapitulatif des armes à feu|Les armes à feu]]
+    <ul ID="ARMESAFEU" CLASS="listecachée cadrebas">
+        <li>'''[[Tableau récapitulatif des armes à feu]]'''</li>
+        <li>[[Armes à feu|Caractéristiques des armes à feu]]</li>
+        <li>[[Descriptions individuelles des armes à feu]]</li>
+    </ul>
+    </li>
+    <li>{s:PM|ARMURES}[[Tableau récapitulatif des armures|Les armures]]
+    <ul ID="ARMURES" CLASS="listecachée cadrebas">
+        <li>'''[[Tableau récapitulatif des armures]]'''</li>
+        <li>[[Caractéristiques des armures]]</li>
+        <ul><li>[[Caractéristiques des armures#ARMURESMAITRE|Armures de maître]]</li>
+        <li>[[Caractéristiques des armures#ARMURESINHABITUELLES|Armures pour créatures inhabituelles]]</li>
+        <li>[[Caractéristiques des armures#ENFILEROTER|Enfiler ou ôter son armure]]</li></ul>
+        <li>[[Descriptions individuelles des armures]]</li>
+    </ul>
+    </li>
+    <li>[[Matériaux spéciaux|Les matériaux spéciaux]]</li>
+</ul>
+<ul><li>{s:PM|MARCHANDISESSERVICES}[[Marchandises et services|Les marchandises et les services]]
+    <ul ID="MARCHANDISESSERVICES" CLASS="listecachée cadrebas">
+        <li>[[Animaux, montures et leur équipement]]</li>
+        <li>[[Chroniques des Éclaireurs|Chroniques des Explorateurs]]</li>
+        <li>[[Équipement daventurier|Équipement d'aventurier]]</li>
+        <li>[[Focalisateurs de canalisation]]</li>
+        <li>[[Hébergement et services]]</li>
+        <li>[[Jeux]]</li>
+        <li>[[Marché noir]]</li>
+        <li>[[Moyens de transport]]</li>
+        <li>[[Nourriture et Boissons]]</li>
+        <li>[[Outils de compétences]]</li>
+        <li>[[Trousses déquipement|Trousses d'équipement]]</li>
+        <li>[[Vêtements]]</li>
+    </li>
+    </ul>
+    <li>{s:PM|OBJETSALCHIMIQUES}Les objets alchimiques
+    <ul ID="OBJETSALCHIMIQUES" CLASS="listecachée cadrebas">
+        <li>[[Armes alchimiques]]</li>
+        <li>[[Outils alchimiques]]</li>
+        <li>[[Poisons]]</li>
+
+        <li>[[Réactifs alchimiques|Les réactifs alchimiques]]</li>
+    </li>
+    </ul>
 </ul>
 === La magie ===
 <ul>
@@ -426,7 +474,7 @@ Categories:
 <li>{s:PM|ACTIONSSPECIALES}[[Actions spéciales]]
   <ul ID="ACTIONSSPECIALES" CLASS="listecachée cadrebas">
   <li>[[Actions spéciales#AIDERQQN|Aider quelqu'un]]</li>
-  <li>[[Actions spéciales#ARMEIMPACT|Armes à impact]]</li>
+  <li>[[Actions spéciales#ARMEASPERSION|Armes à aspersion]]</li>
   <li>[[Actions spéciales#CHARGE|Charge]]</li>
   <li>[[Actions spéciales#COMBAT2ARMES|Combat à deux armes]]</li>
   <li>[[Actions spéciales#COMBATMONTE|Combat monté]]</li>
@@ -452,12 +500,18 @@ Categories:
   <li>[[Points héroïques|Les points héroïques]]</li>
   <li>[[Duels|Les duels]]</li>
   <li>[[Combat de spectacle|Les combats de spectacle]]</li>
-<li>{s:PM|ENGINSDESIEGE}[[Engins de siège|Les engins de siège]]</li>
+<li>{s:PM|ENGINSDESIEGE}[[Tableau récapitulatif des engins de siège|Les engins de siège]]</li>
   <ul ID="ENGINSDESIEGE" CLASS="listecachée cadrebas">
-     <li>[[Descriptions individuelles des engins de siège]]</li>
-     <li>[[Munitions spéciales des engins de siège]]</li>
+     <li>[[Engins de siège|Caractéristiques des engins de siège]]</li>
      <li>[[Solidité et points de vie des structures]]</li>
-  </ul>  
+     <li>[[Descriptions individuelles des engins de siège]]</li>
+  </ul>
+<li>{s:PM|REGLESALTERNATIVES}[[Régles alternatives|Règles alternatives d'AG]]</li>
+  <ul ID="REGLESALTERNATIVES" CLASS="listecachée cadrebas">
+     <li>[[Larmure comme RD|L'armure comme réduction de dégâts]]</li>
+     <li>[[Frappes ciblées]]</li><li>[[Pièces darmures|Pièces d'armure]] ([[Description des pièces darmure|descriptions]])</li>
+     <li>[[Blessures et vitalité]]</li>
+  </ul>
 </ul>
 === Les objets magiques ===
 <ul>
@@ -491,7 +545,6 @@ Categories:
   <li>[[Objets intelligents|Les objets intelligents]]</li>
   <li>[[Objets maudits|Les objets maudits]]</li>
   <li>[[Artefacts|Les artefacts]]</li>
-  <li>[[Artefacts mythiques|Les artefacts mythiques]]</li>
   </ul>
 </li>
 <li>[[Création dobjets magiques|Création d'objets magiques]]</li>
@@ -508,13 +561,14 @@ Categories:
 <td style="width:32%">
 === Bestiaire ===
 <ul>
-  <li>[[Monstres|Les monstres (index)]]</li>
-  <li>{s:PM|LISTESMONSTRES}Listes de monstres
+  <li>{s:PM|LISTESMONSTRES}[[Liste alphabétique des monstres]]</li>
     <ul ID="LISTESMONSTRES" CLASS="listecachée cadrebas">
-    <li>[[Liste de monstres par milieu naturel]]</li>
-    <li>[[Liste de monstres par FP]]</li>
-    <li>[[Liste de monstres par type]]</li></ul></li>
+    <li>[[Liste des monstres par FP]] ([[Liste des monstres par FP avec familles|avec familles]])</li>
+    <li>[[Liste des monstres par milieu naturel]] ([[Liste des monstres par milieu naturel avec familles|avec familles]])</li>
+    <li>[[Liste des monstres par type]]</li></ul>
 </ul><ul>
+  <li>[[Profil des monstres|Lire le profil des monstres]]</li>
+  <ul><li>[[Familles de monstres|Les familles de monstres]]</li></ul>
   <li>[[Types de créatures|Les types et sous type de créatures]]</li>
   <li>[[Archétypes|Les archétypes des monstres]]</li>
 </ul><ul>
@@ -564,6 +618,7 @@ Categories:
     <li>''[[Poisons|Le poison]]''</li></ul>
   <li>[[Plaies|Les plaies]] ''([[Description des plaies magiques|La description des plaies magiques]])''</li>
   <li>[[Apparitions|Les apparitions]]</li>
+  <li>[[Courses poursuites|Les courses poursuites]]</li>
 </li>
 </ul><ul>
 <li>{s:PM|PNJ}[[Classes de PNJ|Les classes de PNJ]]
@@ -719,51 +774,132 @@ Categories:
   <li>[[Dangers naturels#GLACE|La glace]] - [[Dangers naturels#LAVE|La lave]] - [[Dangers naturels#NOYADE|La noyade]]</li>
   <li>[[Dangers naturels#OBSCURITE|L'obscurité]] - [[Dangers naturels#PRENDREFEU|Prendre feu]]</li>
   </ul>
-<li>[[Magie primordiale|La magie primordiale]]
-  </li>
+<li>[[Dangers|Les dangers inhabituels]]</li>
+<li>[[Catastrophes|Les catastrophes]]</li>
+<li>[[Magie primordiale|La magie primordiale]]</li>
 </ul>
 ===Gestion===
-<ul>
-  <li>
-    {s:PM0|tocintermèdes}[[Les intermèdes]]&emsp;
-    <ul ID="tocintermèdes" CLASS="listecachée cadrebas">
-      <li>Les [[Les intermèdes|intermèdes]] (Introduction)
-          <ul>
-              <li>L'[[Acquisition des capitaux|acquisition des capitaux]]</li>
-              <li>Les [[phases de intermède|phases d'intermède]]</li>
-          </ul>
-      </li>
-      <li>Les [[activités d’intermède]]</li>
-      <li>Les [[gestionnaires]]</li>
-      <li>Les [[Salles et employés|salles et employés]]</li>
-      <li>Les [[Bâtiments et organisations|bâtiments et organisations]]</li>
-      <li>Les [[évènements d’intermède]]</li>
-    </ul>
-  </li>
-  <li>{s:PM|SYSTÈMESDECAMPAGNE}systèmes de campagne</li>
-    <ul ID="SYSTÈMESDECAMPAGNE" CLASS="listecachée cadrebas">
-    <li>[[marchandage]], [[investissement]] et [[taxation]]</li>
-    <li>[[compagnons]]</li>
-    <li>[[contacts]] et [[relations]]</li>
-    <li>[[Honneur]], [[Réputation|Réputation et Renommée]]</li>
-    <li>[[Lignée]] et [[La retraite|retraite]]</li>
-    </ul>
-  <li>[[Les règles de royaumes|Règles de royaumes]]</li>
-  <li>Combat de masse</li>
-  <li>[[Coût de la vie|Le coût de la vie]]</li>
-  <li>[[Au-delà du niveau 20]]</li>
+<ul><li>{s:PM0|Intermèdes}[[Intermèdes|Les intermèdes]]
+        <ul ID="Intermèdes" CLASS="listecachée cadrebas">
+            <li>[[Acquisition des capitaux|L'acquisition des capitaux]]</li>
+            <li>[[Phases dintermède|Les phases d'intermède]]</li>
+            <li>[[Activités dintermède|Les activités d'intermède]]</li>
+            <li>[[Gestionnaires|Les gestionnaires]]</li>
+            <li>[[Salles et employés]]</li>
+            <li>[[Bâtiments et organisations]]</li>
+            <li>[[Évènements dintermède|Les évènements d'intermède]]</li>
+        </ul>
+    </li>
+    <li>{s:PM0|Systèmesdecampagne}[[Systèmes de campagne|Les systèmes de campagne]]
+        <ul ID="Systèmesdecampagne" CLASS="listecachée cadrebas">
+            <li>[[Alignement#Changer_d’alignement_13|L’alignement]]</li>
+            <li>[[Marchandage|Le marchandage]]</li>
+            <li>[[Compagnons|Les compagnons]]</li>
+            <li>[[Contacts|Les contacts]]</li>
+            <li>[[Exploration GC|L’exploration (GC)]]</li>
+            <li>[[Honneur|L’honneur]]</li>
+            <li>[[Investissement|L’investissement]]</li>
+            <li>[[Lignée|La lignée]]</li>
+            <li>[[Création dobjets magiques GC|La création d’objets magiques]]</li>
+            <li>[[Relations|Les relations]]</li>
+            <li>[[Réputation et renommée]]</li>
+            <li>[[Retraite|La retraite]]</li>
+            <li>[[Réapprentissage|Le réapprentissage]]</li>
+            <li>[[Taxation|La taxation]]</li>
+            <li>[[Jeunes personnages|Les jeunes personnages]]</li>
+        </ul>
+    </li>
+    <li>{s:PM0|Royaumesetguerre}[[Royaumes et guerre|Les royaumes et la guerre]]
+        <ul ID="Royaumesetguerre" CLASS="listecachée cadrebas">
+            <li>[[Fonder un royaume]]</li>
+            <li>[[Responsables gouvernementaux|Les responsables gouvernementaux]]</li>
+            <li>[[Points de construction (royaume)|Les points de construction]]</li>
+            <li>[[Tour de royaume|Un tour de royaume]]</li>
+            <li>[[Édits (royaume)|Les édits]]</li>
+            <li>[[Perte dhexagones (royaume)|La perte d'hexagones]]</li>
+            <li>[[Améliorations de terrain|Les améliorations de terrain]]</li>
+            <li>[[Communautés et quartiers|Les communautés et les quartiers]]</li>
+            <li>[[Communautés et quartiers#BATIMENTS|Les bâtiments]]</li>
+            <li>[[Évènements (royaume)|Les évènements]]</li>
+            <li>[[Règles de royaume optionnelles|Les règles de royaume optionnelles]]</li>
+            <ul><li>[[Bâtiments abandonnés (royaume)|Les bâtiments abandonnés]]</li>
+                <li>[[Divinités et sites sacrés (royaume)|Les divinités et les sites sacrés]]</li>
+                <li>[[Édits spéciaux (royaume)|Les édits spéciaux]]</li>
+                <li>[[Gloire et Infamie (royaume)|Gloire et Infamie]]</li>
+                <li>[[Différentes formes de gouvernement (royaume)|Les différentes formes de gouvernement]]</li>
+                <li>[[Indépendance et unification (royaume)|Indépendance et unification]]</li>
+                <li>[[Compétences des membres du gouvernement (royaume)|Les compétences des membres du gouvernement]]</li>
+                <li>[[Taille de la communauté (royaume)|Taille de la communauté]]</li>
+                <li>[[Divers types de relations diplomatiques (royaume)|Les divers types de relations diplomatiques]]</li>
+                <li>[[Développer les modificateurs de communauté (royaume)|Développer les modificateurs de communauté]]</li>
+            </ul>
+        </ul>
+     <li>{s:PM0|Combatdemasse}[[Combat de masse|Le combat de masse]]
+        <ul ID="Combatdemasse" CLASS="listecachée cadrebas">
+            <li>[[Phases dune bataille (guerre)|Les phases d'une bataille]]</li>
+            <ul><li>[[Phases dune bataille (guerre)#Léchelle_de_stratégie_0|L'échelle de stratégie]]</li>
+                <li>[[Phases dune bataille (guerre)#ATTAQUERETSUBIRDESDEGATS|Attaquer et subir des dégâts]]</li>
+                <li>[[Phases dune bataille (guerre)#CONDITIONS|Les conditions du champ de bataille]]</li>
+                <li>[[Phases dune bataille (guerre)#RECUPERATION|La récupération]]</li>
+                <li>[[Phases dune bataille (guerre)#PJDANSLESBATAILLES|Les personnages joueurs dans les batailles]]</li>
+            </ul>
+            <li>[[Tactiques des armées (guerre)|Les tactiques des armées]]</li>
+            <li>[[Victoire déroute et défaite (guerre)|La victoire, la déroute et la défaite]]</li>
+            <li>[[Commandants (guerre)|Les commandants]]</li>
+            <li>[[Ressources des armées (guerre)|Les ressources des armées]]</li>
+            <li>[[Pouvoirs spéciaux (guerre)|Les pouvoirs spéciaux]]</li>
+            <li>[[Exemples darmées (guerre)|Exemples d'armées]]</li>
+            <li>[[Règles optionnelles du combat de masse (guerre)|Les règles optionnelles du combat de masse]]</li>
+        </ul>
+    </li>
+    <li>[[Coût de la vie|Le coût de la vie]]</li>
+    <li>[[Au-delà du niveau 20]]</li>
 </ul>
 ===Partie mythique===
 <ul>
-  <li>{s:PM|PARTIEMYTHIQUE}[[Mener une partie Mythique]]</li>
-    <ul ID="PARTIEMYTHIQUE" CLASS="listecachée cadrebas">
-    <li>[[Thèmes mythiques]]</li>
-    <li>[[Épreuves mythiques]]</li>
-    <li>[[Faveurs mythiques]]</li>
-    <li>[[Défauts mythiques]]</li>
-    <li>[[Idées daventures mythiques|Idées d'aventures mythiques]]</li>
-    <li>[[Scélérats mythiques récurrents]]</li>
-    </ul>
+    <li>[[Règles mythiques|Présentation]] ([[glossaire mythique]])</li>
+    <li>{s:PM0|1}[[Mener une partie mythique]]&emsp;
+        <ul ID="1" CLASS="listecachée cadrebas">
+            <li>[[Structure du récit mythique|La structure du récit mythique]]</li>
+            <li>[[Thèmes mythiques|Les thèmes mythiques]]</li>
+            <li>[[Conception des rencontres mythiques|La conception des rencontres mythiques]]</li>
+            <li>[[Épreuves mythiques|Les épreuves mythiques]]</li>
+            <li>[[Faveurs mythiques|Les faveurs mythiques]]</li>
+            <li>[[Scélérats mythiques récurrents|Les scélérats mythiques récurrents]]</li>
+            <li>[[Défauts mythiques|Les défauts mythiques]]</li>
+            <li>[[Idées daventures mythiques|Idées d’aventures mythiques]]</li>
+        </ul>
+    </li>
+    <li>{s:PM0|2}[[Création personnage mythique|Création d'un personnage mythique]]&emsp;
+        <ul ID="2" CLASS="listecachée cadrebas">
+            <li>Voie de l'[[Archimage mythique|archimage]] ([[Aptitudes de voie de larchimage Mythique|aptitudes]])</li>
+            <li>Voie du [[Champion mythique|champion]] ([[Aptitudes de la voie du Champion Mythique|aptitudes]])</li>
+            <li>Voie du [[Filou mythique|filou]] ([[Aptitudes de la voie du Filou Mythique|aptitudes]])</li>
+            <li>Voie du [[Hiérophante mythique|hiérophante]] ([[Aptitudes de la voie du Hiérophante Mythique|aptitudes]])</li>
+            <li>Voie du [[Maréchal mythique|maréchal]] ([[Aptitudes de la voie du Maréchal Mythique|aptitudes]])</li>
+            <li>Voie du [[Protecteur mythique|protecteur]] ([[Aptitudes de la voie du Protecteur Mythique|aptitudes]])</li>
+            <li>[[Aptitudes de voie universelles]]</li>
+            <li>[[Aptitudes de la voie des enfants divins mythiques|Aptitudes de voie des enfants divins]]</li>
+        </ul>
+    </li>
+    <li>{s:PM0|3}Options de personnage mythiques&emsp;
+        <ul ID="3" CLASS="listecachée cadrebas">
+            <li>[[Dons mythiques|Les dons mythiques]] ([[Tableau récapitulatif des dons mythiques|tableau]])</li>
+            <li>[[Objets légendaires|Les objets légendaires]]</li>
+            <li>[[Objets magiques mythiques|Les objets magiques mythiques]]</li>
+            <li>[[Sorts mythiques|Les sorts mythiques]]</li>
+        </ul>
+    </li>
+    <li>{s:PM0|4}[[Monstres mythiques|Les monstres mythiques]]&emsp;
+        <ul ID="4" CLASS="listecachée cadrebas">
+            <li>[[Archétypes simples de créatures mythiques]]</li>
+            <li>[[Construire une créature mythique]]</li>
+            <li>[[sous-type Mythique|Le sous-type mythique]]</li>
+            <li>[[Règles de monstres mythiques universelles]]</li>
+            <li>[[Évaluer les statistiques des monstres]]</li>
+            <li>[[Liste alphabétique des monstres mythiques|Liste des monstres mythiques]]</li>
+        </ul>
+    </li>
 </ul>
 </td>
 </tr>
@@ -774,7 +910,7 @@ Categories:
 <td>
 === Pour préciser les règles ===
 <ul>
-<li>{s:PM|FAQ}[[FAQ|Foire aux questions]]
+<li>{s:PM|FAQ}[[FAQ|Foire aux questions non officielle]]
   <ul ID="FAQ" CLASS="listecachée cadrebas">
   <li>[[FAQ Races|Les races]]</li>
   <li>[[FAQ Classes|Les classes]]</li>
@@ -791,15 +927,17 @@ Categories:
 <li>Cartes Paizo : [[Fumbles]]</li>
 <li>Cartes Paizo : [[CoupsCritiques|Coups Critiques]]</li>
 <li>[[Abréviations|Liste des abréviations courantes]]</li>
-<li>[[Aventures Occultes]]
+<li>[[Aventures Occultes]]</li>
+<li>[[Règles alternatives unchained]]</li>
 </ul>
 
 === Glossaires (anglais/français) ===
 <ul>
+<li>[[https://docs.google.com/spreadsheets/d/1MZ5Nz424T1CRSNi00Ky7jG-TrcKZeCYgqoClRjTfaXQ/edit#gid=660929381|Glossaire à jour]] (archétypes de classe, armes, armures, classes de prestige, dons, équipement, monstres, monstres mythiques, objets merveilleux, PNJ, règles de monstres universelles, sorts et traits)</li>
 <li>[[Glossaire des dons|Glossaire des dons]]</li>
 <li>[[Glossaire des compétences|Glossaire des compétences]]</li>
 <li>[[Glossaire des sorts|Glossaire des sorts]]</li>
-<li>[[Glossaire des capacités, pouvoirs et aptitudes|Glossaire des capacités, pouvoirs et aptitudes]] anglais/français</li>
+<li>[[Glossaire des capacités, pouvoirs et aptitudes|Glossaire des capacités, pouvoirs et aptitudes]]</li>
 <li>[[Glossaire des monstres|Glossaire des monstres]]</li>
 </ul>
 </td>

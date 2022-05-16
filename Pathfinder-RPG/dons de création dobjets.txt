@@ -1,43 +1,99 @@
 ---
 Name: Pathfinder-RPG.dons de création dobjets
-Title: dons de création d'objets
-LastModified: 2017-04-03 21:54
+Title: Dons de création d'objets
+LastModified: 2020-10-12 16:58
 Categories:
   - 'Don'
-  - 'Don Création'
-  - 'Règles officielles'
+  - 'Don création'
+  - 'Liste de dons'
+  - 'Règle officielle'
 ---
+<script>
+$(function () {
+  $("tr.donprérequis0, tr.donprérequis1, tr.donprérequis2").hide();
+  $("tr.donprincipal").bind("click", togglePrereq);
+  $("tr.donprincipal").each(addPrereqIconIfNeeded);
+});
+
+function togglePrereq() {
+    let node = $(this).next();
+    while (node.length > 0 && !node.hasClass("donprincipal")) {
+      node.toggle();
+      node = node.next();
+    }
+}
+
+function addPrereqIconIfNeeded() {
+	let next = $(this).next();
+	if (next.length > 0 && !next.hasClass("donprincipal")) {
+	  let icon = document.createElement("img");
+	  icon.src = "/Forum/themes/v2/sort_down.gif"
+	  icon.style = "float:right;margin-top: 3px;";
+	  icon.title = "Cliquez pour afficher les dons qui découlent de celui-ci.";
+	  $(this).children("td").first().append($(icon));
+	}
+}
+</script>{s:MenuDons}Les dons de création d’objets permettent au personnage de créer des objets d’un type précis. Tous les dons de cette catégorie possèdent des points communs, quel que soit le type d’objet concerné.
+
+'''Coût des matières premières.''' Le coût de création d’un objet magique équivaut à la moitié du prix de base de l’objet.
+
+Pour pouvoir utiliser un don de création d’objet, il faut avoir accès à un laboratoire ou à un atelier de magie, aux ustensiles appropriés, etc. Le personnage possède généralement tout ce dont il a besoin, sauf circonstances exceptionnelles.
+
+'''Temps nécessaire.''' Le temps de création d’un objet magique dépend du don concerné et du coût de l’objet.
+
+'''Coût de l’objet.''' [[Création de baguettes magiques]], [[Création de bâtons magiques]], [[Écriture de parchemins]] et [[Préparation de potions]] permettent de fabriquer des objets qui reproduisent directement les effets d’un sort et dont la puissance dépend de leur [[NLS|niveau de lanceur de sorts]]. Donc, les sorts lancés par ces objets ont la même puissance que s’ils étaient directement lancés par un lanceur de sorts de ce niveau. Le prix de ces objets (et donc leur coût en matières premières) dépend lui aussi de leur [[NLS|niveau de lanceur de sorts]]. Le créateur doit avoir un niveau de lanceur de sorts suffisamment haut pour pouvoir jeter le sort correspondant sur son objet. Pour trouver le prix de base de l’objet, il suffit de multiplier le niveau du sort par le niveau de lanceur de sorts de l’objet et de multiplier le résultat obtenu par une constante, comme suit :
+* '''Parchemin''' : prix de base = niveau de sort x [[NLS]] x 25 po.
+* '''Potion''' : prix de base = niveau de sort x [[NLS]] x 50 po.
+* '''Baguette''' : prix de base = niveau de sort x [[NLS]] x 750 po.
+* '''Bâtons''' : Le prix des bâtons se calcule à l’aide d’une formule plus complexe (voir [[Création dobjets magiques#Création de bâtons magiques|ici]]).
+
+Pour ce calcul, les sorts du niveau 0 comptent comme des sorts de niveau 1/2.
+
+'''Coûts supplémentaires.''' Les potions, parchemins et baguettes qui stockent un sort nécessitant une [[composante matérielle]] coûteuse exigent une dépense supplémentaire, hors du prix de base. Pour une potion ou un parchemin, le personnage doit payer le prix indiqué dans la description du sort en composantes matérielles. Pour une baguette, il doit acquitter cinquante fois le prix exigé par le sort. Certains objets s’accompagnent également d’un coût supplémentaire, indiqué dans leur description.
+
+'''Test de compétence.''' Pour créer un objet magique, il faut réussir un test d’[[Art de la magie]] [[DD]] 5 + [[NLS|niveau de lanceur de sorts]] de l’objet. Le personnage peut également utiliser une compétence d’[[Artisanat]] ou de [[Profession]] adaptée à l’objet qu’il fabrique. Consultez la section sur la [[Création dobjets magiques|Création d'objets magiques]] pour plus de détails sur les tests d’[[Artisanat]] et de [[Profession]] qui peuvent remplacer le test d’[[Art de la magie]]. Le [[DD]] du test peut augmenter si l’artisan est pressé ou s’il ne remplit pas toutes les conditions. En cas d’échec, les composantes matérielles sont perdues, mais si le personnage échoue de cinq ou plus, il produit un [[objets maudits|objet maudit]].
+
 <center>
-{| CLASS="tablo autoalt toutgauche"
-|+ Tableau récapitulatif des dons
+{| CLASS="tablo toutgauche"
+|+ Tableau récapitulatif des dons de création d'objets
 |- CLASS="titre"
 | WIDTH="30%" | Dons
-| WIDTH= "3%" | Source
-| WIDTH="25%" | Conditions
-| WIDTH="42%" | Avantages
-|- CLASS="premier"
-| [[Création danneaux magiques|Création d’anneaux magiques]] || <sup>MJ</sup> || [[NLS]] 7 || [[Création dobjets magiques|Création d’anneaux magiques]]
-|- CLASS="lignesup"
-| [[Création darmes et armures magiques|Création d’armes et armures magiques]] || <sup>MJ</sup> || [[NLS]] 5 || [[Création dobjets magiques|Création d’armures, de boucliers et d’armes magiques]]
-|- CLASS="lignesup"
-| [[Création darmes à feu|Création d’armes à feu]] || <sup>AG</sup> || — || Peut créer, réparer et restaurer des armes à feu
-|- CLASS="lignesup"
-| [[Création dobjets merveilleux|Création d’objets merveilleux]] || <sup>MJ</sup> || [[NLS]] 3 || [[Création dobjets magiques|Création d’objets magiques merveilleux]]
-|- CLASS="lignesup"
-| [[Création de baguettes magiques]] || <sup>MJ</sup> || [[NLS]] 5 || [[Création dobjets magiques|Création de baguettes magiques]]
-|- CLASS="lignesup"
-| [[Création de bâtons magiques]] || <sup>MJ</sup> || [[NLS]] 11 || [[Création dobjets magiques|Création de bâtons magiques]]
-|- CLASS="lignesup"
-| [[Création de créatures artificielles]] || <sup>MJ</sup> || [[NLS]] 5, [[Création darmes et armures magiques|Création d'armes et armures magiques]], <br/>[[Création dobjets magiques|Créations d'objets merveilleux]] || [[Création de créatures artificielles]]
-|- CLASS="lignesup"
-| [[Création de reliques, armes ou boucliers|Création de reliques, armes ou boucliers]] || <sup>AM</sup> || [[Création darmes et armures magiques|Création d'armes et armures magiques]], capacité à lancer ''[[consécration]]'' ou ''[[profanation]]'' || L'arme ou le bouclier devient un symbole sacré
-|- CLASS="lignesup"
-| [[Création de sceptres magiques]] || <sup>MJ</sup> || [[NLS]] 9 || [[Création dobjets magiques|Création de sceptres magiques]]
-|- CLASS="lignesup"
-| [[Écriture de parchemins]]  || <sup>MJ</sup> || [[NLS]] 1 || [[Création dobjets magiques|Création de parchemins magiques]]
-|- CLASS="lignesup dernier"
-| [[Préparation de potions]] || <sup>MJ</sup> || [[NLS]] 3 || [[Création dobjets magiques|Création de potions magiques]]
-|-
-| &emsp;[[Création délixir sanguin|Création d’élixir sanguin]] || <sup>AM</sup> || [[Charisme|Cha]] 15, [[Préparation de potions]], 12 rangs en [[Artisanat]] (Alchimie), [[ensorceleur]] niv. 3 || Peut créer un élixir qui permet à autrui d’utiliser un pouvoir de [[lignages|lignage]]
+| WIDTH="3%" | Src
+| WIDTH="27%" | Conditions
+| WIDTH="40%" | Avantages
+
+|- CLASS="premier donprincipal"
+| [[Création danneaux magiques|Création d'anneaux magiques]] || <sup>MJ</sup> || [[NLS]] 7 || Création d’anneaux magiques
+
+|- CLASS="premier alt donprincipal"
+| [[Création darmes et armures magiques|Création d'armes et armures magiques]] || <sup>MJ</sup> || [[NLS]] 5 || Création d’armures, de boucliers et d’armes magiques
+|- CLASS="donprérequis0"
+| &emsp;[[Création de créatures artificielles]] || <sup>B1</sup> || [[NLS]] 5, [[Création darmes et armures magiques|Création d'armes et armures magiques]], [[Création dobjets merveilleux|Création d'objets merveilleux]] || Création de créatures artificielles
+
+|- CLASS="premier donprincipal"
+| [[Création de baguettes magiques]] || <sup>MJ</sup> || [[NLS]] 5 || Création de baguettes magiques
+
+|- CLASS="premier alt donprincipal"
+| [[Création de bâtons magiques]] || <sup>MJ</sup> || [[NLS]] 11 || Création de bâtons magiques
+
+|- CLASS="premier donprincipal"
+| [[Création de créatures artificielles]] || <sup>B1</sup> || [[NLS]] 5, [[Création darmes et armures magiques|Création d'armes et armures magiques]], [[Création dobjets merveilleux|Création d'objets merveilleux]] || Création de créatures artificielles
+
+|- CLASS="premier alt donprincipal"
+| [[Création de sceptres magiques]] || <sup>MJ</sup> || [[NLS]] 9 || Création de sceptres magiques
+
+|- CLASS="premier donprincipal"
+| [[Création de tatouages magiques]] || <sup>MMI</sup> || 5 rangs en [[Artisanat]] (calligraphie, peinture, ou tatouage), [[NLS]] 5 || Le personnage sait créer des tatouages magiques
+
+|- CLASS="premier alt donprincipal"
+| [[Création dobjets merveilleux|Création d'objets merveilleux]] || <sup>MJ</sup> || [[NLS]] 3 || Création d’objets magiques merveilleux
+|- CLASS="donprérequis0"
+| &emsp;[[Création de créatures artificielles]] || <sup>B1</sup> || [[NLS]] 5, [[Création darmes et armures magiques|Création d'armes et armures magiques]], [[Création dobjets merveilleux|Création d'objets merveilleux]] || Création de créatures artificielles
+
+|- CLASS="premier donprincipal"
+| [[Écriture de parchemins]] || <sup>MJ</sup> || [[NLS]] 1 || Création de parchemins magiques
+
+|- CLASS="premier alt donprincipal"
+| [[Préparation de potions]] || <sup>MJ</sup> || [[NLS]] 3 || Création de potions magiques
 |}
 </center>

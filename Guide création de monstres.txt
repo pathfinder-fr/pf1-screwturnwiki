@@ -1,0 +1,97 @@
+---
+Name: Guide création de monstres
+Title: Guide de création : Bloc descriptif de monstre
+LastModified: 2020-09-13 00:09
+---
+Construire les monstres ligne par ligne, c'est flexible, mais long et fastidieux, surtout pour gérer l'organisation des données dans l'ordre. Ainsi, le wiki propose maintenant un nouveau modèle plus clair pour mettre les monstres en page !
+
+===Modèle vierge===
+@@{s:Monstre|
+ Nom:
+   |
+|FP:
+   |
+|Icônes:
+   |||
+|Source:
+   |
+|PX:
+   |
+|Type/Taille/Alignement:
+   |
+|Init:
+   |
+|Sens:
+   |
+|Perception:
+   |
+|CA:
+   |
+|Pv:
+   |
+|Réf/Vig/Vol:
+   |||
+|Capacités défensives?
+   |
+|Vitesses:
+   |
+|Càc?
+   |
+|Distance?
+   |
+|Espace et allonge?
+   |
+|Attaques spéciales?
+   |
+|Pouvoirs magiques?|
+   ||||||
+|Sorts?|
+   ||||||||||
+|Tactique:|Oui/Non
+   ||||
+|Caractéristiques:
+   ||||||
+|BBA/BMO/DMD:
+   |||
+|Dons?
+   |
+|Compétences:
+   |
+|Langues?
+   |
+|Particularités?
+   |
+|Environnement:
+   |
+|Organisation sociale:
+   |
+|Trésor:
+   |
+|Pouvoirs spéciaux:|Oui/Non
+   ||||||
+|Équipement:|Oui/Non
+   ||
+|Cadre descriptif:
+   |}@@
+
+===Comment bien utiliser le modèle ?===
+====Quoi remplir et où ?====
+Tout d'abord, on remplit les données à la suite des barres verticales indentées, et elles contiennent ce qui concerne le titre juste au dessus d'elles. Comme vous pouvez le constater, il y a certains cas particuliers, sur lesquels on reviendra.
+
+====deux distinctions : les arguments ":" et les arguments "?"====
+* '''Les arguments ":"''' sont toujours affichés, et sont donc déjà mit en page. Par exemple, ''|FP:'' notera tout seul la mention "FP " avant votre donnée, et donc il vous suffit de mettre le nombre.
+* '''Les arguments "?"''' ne sont affichés que s'ils contiennent quelque chose, et ne sont pas mit en page automatiquement. Par exemple, ''|Langues?'' ne notera pas "<nowiki>'''Langues'''</nowiki> " seul, donc si le monstre en question possède une langue, il vous faudra noter "<nowiki>'''Langues'''</nowiki> donnée(s)".
+
+
+====Oui/Non ?====
+Les arguments suivit de la mention "Oui/Non" viennent gérer l'affichage d'un nouveau sous-titre. Si le monstre présente des données dans ces arguments, conservez "Oui", sinon, conservez "Non". Par exemple, un [[++Pathfinder-RPG.Cheval|cheval]] ne possède pas de pouvoirs spéciaux, on indique donc ''|Pouvoirs spéciaux:|Non'' et on laisse les barres indentées en dessous vides.
+
+====Plusieurs barres verticales sous le même argument ?====
+Il y a deux cas. Soit l'argument est décomposé, par exemple, ''|Réf/Vig/Vol:'' est décomposé en 3 données, donc on les renseigne simplement à la suite. Soit il peut s'agir d'un simple retour à la ligne, par exemple, ''|Tactique:Oui/Non'' peut présenter une ligne Avant le combat, une ligne Pendant le combat, une ligne Moral, une ligne Statistiques, etc. Par convention, on lui alloue 4 lignes potentielles, qui n'ont pas à être toutes remplies pour être éligibles.
+
+====Cas particuliers====
+* Les arguments ''|Sorts?|'' et ''|Pouvoirs magiques?|'' sont des arguments "?" spéciaux. Il est nécessaire d'indiquer, si le monstre en possède, le titre (<nowiki>'''Sorts''' / '''Pouvoirs magiques''' / '''Sorts connus''' / etc.</nowiki>), le NLS, et le bonus à la concentration (si le monstre en possède un) après la barre verticale qui suit directement le "?". Ensuite, comme vu plus haut, les multiples barres verticales servent à allouer des passages à la ligne. 10 pour les sorts (du niveau 0 au niveau 9 par exemple) et 6 pour les pouvoirs magiques (Constant, À volonté, 1/jour, 2/jour, 3/jour, 1/heure par exemple).
+* L'argument ''|Icônes:'' sert à afficher, comme son nom l'indique, les trois icônes qu'on affiche dans le coin supérieur droit du bloc. Voici une liste des mots fonctionnels ici :
+** '''1 ère (Type).''' Aberration, Animal, Créature artificielle, Créature magique, Dragon, Extérieur, Fée, Humanoïde monstrueux, Humanoïde, Mort-vivant, Plante, Vase, Vermine.
+** '''2 ème (Milieu naturel).''' Aquatique, Ciel, Collines, Désert, Forêt-Jungle, Marais, Montagnes, Plaines, Ruines-Donjons, Souterrain, Ville.
+** '''3 ème (Climat).''' Froid, Tempéré, Tropical.

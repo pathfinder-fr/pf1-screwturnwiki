@@ -1,13 +1,13 @@
 ---
 Name: Pathfinder-RPG.Demi-orque
 Title: Les demi-orques
-LastModified: 2020-08-07 12:37
+LastModified: 2022-02-28 14:55
 Categories:
-  - 'Manuel des joueurs'
-  - 'Manuel des joueurs, règles avancées'
-  - 'Manuel des races'
   - 'Race'
-  - 'Règles officielles'
+  - 'Règle officielle'
+  - 'Src Manuel des joueurs'
+  - 'Src Manuel des joueurs - Règles avancées'
+  - 'Src Manuel des races'
 ---
 {s:MenuRaces}
 ===Présentation===
@@ -50,7 +50,7 @@ Considérés comme des bâtards par les humains et des mauviettes par les orques
 </div>
 
 ===Traits raciaux alternatifs===
-En termes de culture et d’environnement, les demi-orques présentent un éventail aussi varié que les [[humain|humains]] et les [[orque|orques]]. Vous pouvez choisir les traits raciaux suivants au lieu des traits raciaux demi-orques standard mais consultez d’abord votre MJ. Un demi-orque peut aussi choisir le trait racial alternatif crasseux (voir page 313) au lieu de férocité orque.
+En termes de culture et d’environnement, les demi-orques présentent un éventail aussi varié que les [[humain|humains]] et les [[orque|orques]]. Vous pouvez choisir les traits raciaux suivants au lieu des traits raciaux demi-orques standard mais consultez d’abord votre MJ. Un demi-orque peut aussi choisir le trait racial alternatif [[orque (race)#Traits_raciaux_alternatifs_8|crasseux]] (voir page 313) au lieu de férocité orque.
 {s:Ligne}{s:Col|6}
 * {s:MR}'''Apprenti du chaman.''' Seuls les demi-orques les plus robustes survivent aux années de rude traitement qui accompagnent la formation de chaman. Ceux qui possèdent ce trait gagnent [[Endurance]] comme don supplémentaire. ''Ce trait remplace intimidant.''
 * {s:MR}'''Arpenteur des forêts.''' Ces demi-orques se sentent chez eux dans les forêts et les jungles et se sont adaptés à ce type d’environnement. Ceux qui possèdent ce trait racial ont [[vision nocturne]] et un bonus racial de +2 aux tests d’[[Escalade]]. ''Ce trait remplace vision dans le noir.''
@@ -178,7 +178,7 @@ généralement le développement des aptitudes de cinétiste. Les demi-orques
 qui gagnent des niveaux dans les [[Progression des personnages#CLASSEDEPREDILECTION|classes de prédilection]] indiquées ci-dessous peuvent choisir les options  suivantes :
 
 {s:Ligne}{s:Col|6}
-'''Cinétiste'''. le personnage inflige 1/3 point de dégâts de feu supplémentaires aux [[talents sauvages#TALENTSSAUVAGES|explosions de feu]] qui infligent des dégâts de feu.
+'''Cinétiste'''. le personnage inflige 1/3 point de dégâts de feu supplémentaires aux [[talents sauvages#TALENTSSAUVAGES|explosions de feu]] qui infligent des dégâts de feu et qui bénéficient du bonus conféré par l’aptitude de [[Cinétiste#BOUILLONNEMENTÉLÉMENTAIRE|bouillonnement élémentaire]] du [[cinétiste]].
 
 '''Hypnotiseur'''. le personnage augmente de 1/2 point les dégâts supplémentaires infligés par son [[hypnotiseur#REGARDDOULOUREUX|regard douloureux]].
 
@@ -197,42 +197,99 @@ qui gagnent des niveaux dans les [[Progression des personnages#CLASSEDEPREDILECT
 ====Dons====
 Ces dons sont accessibles aux demi-orques :
 <center>
-{| CLASS="tablo autoalt toutgauche"
+{| CLASS="tablo autoalt toutgauche filtrable" WIDTH="100%"
 
 |- CLASS="titre"
-| WIDTH="25%" | Dons
-| WIDTH= "6%" | Source
-| WIDTH="25%" | Conditions
-| WIDTH="44%" | Avantages
+| WIDTH="30%" | Dons
+| WIDTH="3%" | Src
+| WIDTH="30%" | Conditions
+| WIDTH="37%" | Avantages
 
 |- CLASS="premier"
-| [[Bénédiction du destructeur]]* || <sup>MR</sup> || [[Demi-orque]] ou [[orque (race)|orque]] || La manoeuvre de destruction entretient sa rage
+| [[Bénédiction du Destructeur]]* || <sup>MR</sup> || [[Demi-orque]] ou [[Orque (race)|orque]], capacité de classe [[Barbare#RAGE|rage de berserker]] || Récupère des rounds de rage et des points de vie en réussissant une manoeuvre de destruction
+
 |- CLASS="premier"
-| [[Brute résiliente]] || <sup>MR</sup> || [[Demi-orque]] ou [[orque (race)|orque]] || Le personnage transforme une partie des dégâts d'un coup critique en dégâts non-létaux une fois par jour
+| [[Bénédiction du Dieu du feu]] || <sup>MR</sup> || [[demi-orque]] ou [[Orque (race)|orque]], suivant du Dieu du feu || Récupère des points de vie en infligeant des dégâts de feu à un adversaire
+
 |- CLASS="premier"
-| [[Cavalier des bêtes]] || <sup>MR</sup> || [[Demi-orque]] ou [[orque (race)|orque]], capacité de classe compagnon animal ou monture, personnage de niveau 7 || Le personnage dispose d'un choix de montures supplémentaires
+| [[Boyaux dacier|Boyaux d'acier]] || <sup>MJRA</sup> || [[Con]] 13; [[nain]], [[demi-orque]], ou [[Orque (race)|orque]] || +2 aux Jets de sauvegarde contre les états nauséeux et fiévreux et les poisons ingérés
+
 |- CLASS="premier"
-| [[Charge de la horde]] || <sup>MR</sup> || [[Demi-orque]] ou [[orque (race)|orque]], [[BBA]]+1 || +2 supplémentaires aux jets d’attaque et de dégâts quand la charge est à plusieurs
+| [[Briseur dobjets|Briseur d'objets]]* || <sup>MJRA</sup> || [[Attaque en puissance]], [[demi-orque]] || Ignorer 5 points de solidité lorsqu’on brise un objet
+
 |- CLASS="premier"
-| [[Convocations féroces]] || <sup>MR</sup> || [[Demi-orque]] ou [[orque (race)|orque]], [[Amélioration des créatures convoquées]], [[École renforcée]] (invocation) || Les créatures convoquées obtiennent la capacité férocité
+| [[Brute résiliente]] || <sup>MR</sup> || [[Demi-orque]] ou [[Orque (race)|orque]] || La moitié des dégâts subits lors d'un coup critique deviennent non-létaux
+
 |- CLASS="premier"
-| [[Enchaînement surprise]]* || <sup>MR</sup> || [[Force|For]] 13, [[Attaque en puissance]], [[Enchaînement]], [[BBA]]+1 || Le deuxième adversaire du personnage est privé de son bonus de Dextérité
+| [[Cavalier des bêtes]] || <sup>MR</sup> || Capacité de classe [[Chasseur#COMPAGNONANIMAL|compagnon animal]] ou [[Chevalier#MONTURE|monture]], personnage de niveau 7, [[demi-orque]] ou [[Orque (race)|orque]] || Obtient les services d'un compagnon monstrueux ou d'une monture
+
+|- CLASS="premier"
+| [[Chanteur de guerre]] || <sup>MJRA</sup> || [[Cha]] 13, capacité de classe [[représentation bardique]], [[demi-orque]] ou [[Orque (race)|orque]] || Améliore les représentations sur les champs de bataille et contre les orques
+
+|- CLASS="premier"
+| [[Charge de la horde]] || <sup>MR</sup> || [[BBA]] +1, [[demi-orque]] ou [[Orque (race)|orque]] || +2 à l'attaque et aux dégâts lors d'une charge avec un allié
+
+|- CLASS="premier"
+| [[Combattre au-delà de la mort]] || <sup>MJRA</sup> || [[Con]] 13; [[nain]], [[demi-orque]], ou [[Orque (race)|orque]] || Gagner des points de vie temporaires une fois réduit à 0 point de vie
+
+|- CLASS="premier"
+| [[Convocations féroces]] || <sup>MR</sup> || [[Amélioration des créatures convoquées]], [[École renforcée]] (invocation), [[demi-orque]] ou [[Orque (race)|orque]] || Les créatures convoquées obtiennent la capacité férocité
+
+|- CLASS="premier"
+| [[Crocs acérés]] || <sup>MJRA</sup> || [[Demi-orque]] || Gagne une attaque de morsure
+
+|- CLASS="premier"
+| [[Enchaînement surprise]]* || <sup>MR</sup> || [[Demi-orque]] ou [[Orque (race)|orque]], [[For]] 13, [[Attaque en puissance]], [[Enchaînement]], [[BBA]]+1 || Fait perdre son bonus de Dextérité à la CA de la seconde cible pendant un enchaînement
 |-
-| &emsp;[[Science de lenchaînement surprise|Science de l'enchaînement surprise]] || <sup>MR</sup> || [[Demi-orque]] ou [[orque (race)|orque]], [[Force|For]] 13, [[Attaque en puissance]], [[Enchaînement]], [[Succession denchaînements|Succession d'enchaînements]], [[Enchaînement surprise]], [[BBA]]+8 || Tous les adversaires du personnage sauf le premier sont privés de leur bonus de Dextérité
+| &emsp;[[Science de lenchaînement surprise|Science de l'enchaînement surprise]] || <sup>MR</sup> || [[Demi-orque]] ou [[Orque (race)|orque]], [[For]] 13, [[Attaque en puissance]], [[Enchaînement]], [[Succession denchaînements|Succession d'enchaînements]], [[Enchaînement surprise]], [[BBA]]+8 || Fait perdre son bonus de Dextérité à la CA de toutes les cibles pendant un enchaînement
+
 |- CLASS="premier"
-| [[Fiélon sanguinaire]] || <sup>MR</sup> || [[Demi-orque]] ou [[orque (race)|orque]], capacité de rage || Les coups critiques portés ou subis par le personnage entretiennent sa rage
+| [[Fiélon sanguinaire]] || <sup>MR</sup> || [[demi-orque]] ou [[Orque (race)|orque]], capacité de classe [[Barbare#RAGE|rage de berserker]] || Récupère des rounds de rage en confirmant ou en subissant des coups critiques
+
 |- CLASS="premier"
-| [[Frisson de la mort]] || <sup>MR</sup> || [[Demi-orque]] ou [[orque (race)|orque]], capacité de rage || Le coup mortel porté à un ennemi entretient sa rage
+| [[Frisson de la mort]] || <sup>MR</sup> || [[Demi-orque]] ou [[Orque (race)|orque]], capacité de classe [[Barbare#RAGE|rage de berserker]] || Récupère des rounds de rage en tuant ou en rendant inconsciente une créature
+
 |- CLASS="premier"
-| [[Rage empathique]]* || <sup>MR</sup> || [[Demi-orque]] ou [[orque (race)|orque]], alignement non loyal || La rage des alliés du personnage déteint sur ce dernier
+| [[Initié du refus de mourir]]* || <sup>AG</sup> || [[For]] 13, [[Con]] 13, [[demi-orque]] ou [[Orque (race)|orque]], [[Dur à cuire]], [[Endurance]], [[BBA]] +6 || Le personnage n’est pas chancelant quand il utilise Dur à cuire ; +2 aux jets de dégâts au corps à corps
+|-
+| &emsp;[[Maître du refus de mourir]]* || <sup>AG</sup> || [[For]] 13, [[Con]] 15, [[demi-orque]] ou [[Orque (race)|orque]], [[Initié du refus de mourir]], [[Dur à cuire]], [[Endurance]], [[Peau de fer]], [[BBA]] +9 || Pas de perte de points sous Dur à cuire
+|-
+| &emsp;&emsp;[[Zélote du refus de mourir]]* || <sup>AG</sup> || [[For]] 13, [[Con]] 15, [[demi-orque]] ou [[Orque (race)|orque]], [[Initié du refus de mourir]], [[Maître du refus de mourir]], [[Dur à cuire]], [[Endurance]], [[Peau de fer]], [[BBA]] +12 || Les ennemis sont obligés de refaire les attaques de confirmation de coup critique réussies
+
 |- CLASS="premier"
-| [[Résolution féroce]] || <sup>MR</sup> || [[Demi-orque]], [[Constitution|Con]] 13, trait racial férocité orque || Le personnage peut se battre alors même qu'il est mourant
+| [[Lutteur brutal]]* || <sup>MR</sup> || [[Demi-orque]] ou [[Orque (race)|orque]] || Aide un allier à agripper une créature
+
 |- CLASS="premier"
-| [[Survivant tenace]] || <sup>MR</sup> || [[Demi-orque]] ou [[orque (race)|orque]], [[Constitution|Con]] 13, [[Dur à cuire]], [[Endurance]] || Peu de temps après la mort, les soins peuvent ramener le personnage à la vie
+| [[Odorat supérieur]] || <sup>MJRA</sup> || [[Sag]] 13, [[demi-orque]], ou [[Orque (race)|orque]] || Gagne la capacité spéciale d’odorat
+|-
+| &emsp;[[Perception de la peur]] || <sup>MJRA</sup> || [[Odorat supérieur]], [[demi-orque]] ou [[Orque (race)|orque]] || +4 aux tests de Perception pour détecter les créatures effrayés
+
 |- CLASS="premier"
-| [[Ténacité féroce]]* || <sup>MR</sup> || [[Demi-orque]] ou [[orque (race)|orque]], capacité de rage, trait racial férocité || Le personnage peut utiliser sa rage pour récupérer des dégâts qui l'auraient tué
+| [[Passer pour un humain]] || <sup>MJRA</sup> || [[Demi-elfe]], [[demi-orque]], ou [[halfelin]] (voir texte) || +10 aux tests de Déguisement pour ressembler à un humain
+
 |- CLASS="premier"
-| [[Vengeance sanguinaire]] || <sup>MR</sup> || [[Demi-orque]] ou [[orque (race)|orque]], alignement non loyal || La mort des alliés du personnage le met en rage
+| [[Peau de fer]] || <sup>MJRA</sup> || [[Con]] 13; [[nain]], [[demi-orque]], ou [[Orque (race)|orque]] || Bonus d’armure naturelle de +1 à la CA
+
+|- CLASS="premier"
+| [[Rage amplifiée]] || <sup>MR</sup> || [[Demi-orque]] ou [[Orque (race)|orque]], capacité de classe [[Barbare#RAGE|rage de berserker]] || La rage du personnage est plus puissante lorsqu’un allié proche est en rage
+
+|- CLASS="premier"
+| [[Rage du chef de guerre]] || <sup>MR</sup> || [[Cha]] 13, [[demi-orque]] ou [[Orque (race)|orque]], alignement non-Loyal || Les alliés du personnage continuent de profiter des rages mineures obtenues par la proximité avec le personnage à 9 m de distance
+
+|- CLASS="premier"
+| [[Rage empathique]]* || <sup>MR</sup> || [[Demi-orque]] ou [[Orque (race)|orque]], alignement non-Loyal || Entre dans une rage mineure lorsqu’il est près d’alliés enragés
+
+|- CLASS="premier"
+| [[Résolution féroce]] || <sup>MR</sup> || [[Con]] 13, [[demi-orque]], trait racial [[Demi-orque#Traits_raciaux_standards_6|férocité orque]] || Gain de la capacité férocité
+
+|- CLASS="premier"
+| [[Survivant tenace]] || <sup>MR</sup> || [[Con]] 13, [[Dur à cuire]], [[Endurance]], [[demi-orque]] ou [[Orque (race)|orque]] || Persiste pour être soigné même après la mort
+
+|- CLASS="premier"
+| [[Ténacité féroce]]* || <sup>MR</sup> || Trait racial [[Orque (race)#Traits_raciaux_standards_6|férocité]], [[demi-orque]] ou [[Orque (race)|orque]], capacité de classe [[Barbare#RAGE|rage de berserker]] || Dépense des rounds de rage pour absorber des dégâts mortels
+
+|- CLASS="premier"
+| [[Vengeance sanguinaire]] || <sup>MR</sup> || [[Demi-orque]] ou [[Orque (race)|orque]], alignement non-Loyal || Entre dans une rage mineure lorsqu’un allié est tué ou gravement blessé
 |}
 </center>
 {s:ligne}{s:col|6}

@@ -1,0 +1,33 @@
+<script>
+function hideIfEmpty(idx, elem) {
+    if ($(elem).text().trim() == "")
+        $(elem).hide();
+    else if (elem.dataset.prefixe !== undefined) {
+        $(elem).html(elem.dataset.prefixe + $(elem).html());
+        delete elem.dataset.prefixe;
+    }
+}
+
+$(() => {
+	$(".hideifempty").each(hideIfEmpty);
+	});
+</script>
+<div style="float: right; background-color: #fff; padding: 0 0 6px 12px; width: 280px">
+<div style="padding: 4px; border: 1px solid #4b3124">
+<table style="background-color: #f3efe2; width: 100%;">
+<tr><td style="background-color: #4b3124; color: #ffffff; text-align: center; font-size: 12pt; padding: 2pt; width: 100%">?1?</td></tr>
+<tr><td style="padding: 2px 4px 2px 4px">
+    <table STYLE="text-align: left; font-size: 90%; width: 100%">
+        <tr class="hideifempty" style="border-bottom:3px solid #f3efe2" data-prefixe="<td>'''Nation'''</td>"><td style="padding-left:4px">?2?</td></tr>
+        <tr class="hideifempty" style="border-bottom:3px solid #f3efe2" data-prefixe="<td>'''Région'''</td>"><td style="padding-left:4px">?3?</td></tr>
+        <tr class="hideifempty" style="border-bottom:3px solid #f3efe2" data-prefixe="<td>'''Alignement'''</td>"><td style="padding-left:4px">?4?</td></tr>
+        <tr class="hideifempty" style="border-bottom:3px solid #f3efe2" data-prefixe="<td>'''Gouvernement'''</td>"><td style="padding-left:4px">?5?</td></tr>
+        <tr class="hideifempty" style="border-bottom:3px solid #f3efe2" data-prefixe="<td>'''Limite de po'''</td>"><td style="padding-left:4px">?6?</td></tr>
+        <tr><td colspan="2" style="background-color: #4b3124; padding: 0.5px; border-bottom:3px solid #f3efe2"></td></tr>
+        <tr class="hideifempty" style="border-bottom:3px solid #f3efe2" data-prefixe="<td>'''Population'''</td>"><td style="padding-left:4px">?7?</td></tr>
+        <tr class="hideifempty" style="border-bottom:3px solid #f3efe2" data-prefixe="<td>'''Démographie'''</td>"><td style="padding-left:4px">?8?</td></tr>
+        <tr class="hideifempty" style="border-bottom:3px solid #f3efe2" data-prefixe="<td>'''Personnalités'''</td>"><td style="padding-left:4px">?9?</td></tr>
+    </table>
+</td></tr>
+</table>
+</div></div>

@@ -1,0 +1,114 @@
+---
+Name: Pathfinder-RPG.Création de monstres simplifiée, Étape 4
+Title: Création de monstres simplifiée, Étape 4 : La greffe d'archétype
+LastModified: 2020-11-13 21:40
+Categories:
+  - 'Src Pathfinder unchained'
+---
+{s:MenuPathfinderunchained}{s:PU}{toc}Ces greffes optionnelles imitent les archétypes de monstres les plus courants et s’ajoutent à la greffe de type ou de classe du monstre. La présentation des greffes d’archétype suit un format similaire à celui des greffes de type de créature.
+
+'''FP minimal ou maximal.''' Cette entrée indique les FP minimal et maximal possibles du monstre. Un en-tête marqué « FP 2+ » signifie que le FP du monstre doit être de 2 ou plus tandis que « FP 9- » signifie que son FP ne peut pas dépasser 9.
+
+'''Type ou sous-type de créature requis.''' Pour les archétypes qui changent le type ou le sous-type de la créature dans le système de création de monstres normal, cette entrée indique à quel [[Création de monstres simplifiée, Étape 2|type]] ou [[Création de monstres simplifiée, Étape 3|sous-type]] le monstre doit appartenir pour que l’on puisse lui appliquer la greffe d’archétype.
+
+'''Gamme suggérée.''' Cette section indique la [[Création de monstres simplifiée, Étape 1|gamme de monstre]] dont l’archétype est le plus proche, le cas échéant. Par exemple, les liches sont presque toujours des [[Création de monstres simplifiée, Étape 1#LANCEURDESORTS|lanceurs de sorts]].
+
+'''Traits automatiques.''' Toutes les créatures dotées de cette greffe gagnent les pouvoirs indiqués. Les traits automatiques peuvent rajouter des [[Création de monstres simplifiée, Étape 7|options de monstre]] ou des compétences particulières. Celles-ci comptent dans le nombre normal d’options, de compétences, etc. du monstre, les remplaçant (contrairement aux [[Création de monstres simplifiée, Étape 3|greffes de sous-type]], qui accordent des options et compétences gratuites). Cela dit, le monstre obtient ses traits automatiques même s’il dépasse son nombre maximum d’options et de compétences à cause d’eux. Si le monstre est doté d’une [[Création de monstres simplifiée, Étape 2#GREFFESDECLASSE|greffe de classe]], faites appel à votre bon sens quand vous remplacez les options, afin de conserver le caractère particulier de la classe et de l’archétype.
+
+'''Modificateurs de caractéristique suggérés.''' Cette section indique les caractéristiques du monstre auxquelles il est recommandé d’attribuer les modificateurs les plus élevés. Pour les chevaliers tombaux, il est par exemple indiqué « Force, Charisme, Sagesse, » ce qui signifie que, lorsque vous créez un chevalier tombal de FP 10, vous lui attribuerez un modificateur de +7 en Force, un modificateur de +5 en Charisme et un modificateur de +3 en Sagesse. Les entrées n’indiquent pas forcément tous les modificateurs de caractéristiques conseillés : pour le fantôme, par exemple, seul le Charisme est indiqué car les autres statistiques peuvent varier. Quand au demi-dragon, il ne présente pas du tout cette entrée parce que les demi-dragons sont des créatures très différentes les unes des autres.
+
+<table width="100%"><tr><td width="49%">
+====Chevalier tombal (FP 5+)====
+Cette créature morte-vivante est lourdement armée en plus d’être engoncée dans une armure lourde. Elle peut se reconstruire si elle est détruite.
+* '''Type de créature requis.''' [[Création de monstres simplifiée, Étape 2#MORTVIVANT|Mort-vivant]].
+* '''Gamme suggérée.''' [[Création de monstres simplifiée, Étape 1#COMBATTANT|Combattant]].
+* '''Traits automatiques.''' Augmentez la [[CA]] de 2 et la [[CA|CA au contact]] de 4, réduisez la CA [[pris au dépourvu]] de 6 ;
+** ''Options'' – [[Création de monstres simplifiée, Étape 7#Canal de destruction|canal de destruction]], [[Création de monstres simplifiée, Étape 7#Résistance à la canalisation|résistance à la canalisation]], explosion dévastatrice (comme l’option de [[Création de monstres simplifiée, Étape 7#Souffle|souffle]], dans un cône de 9 mètres infligeant des dégâts d’acide, d’électricité, de feu ou de froid), [[Création de monstres simplifiée, Étape 7#Réduction de dégâts|RD 10/magique]], [[Création de monstres simplifiée, Étape 7#Immunité|immunité]] (froid et électricité), [[Création de monstres simplifiée, Étape 7#Monture fantôme|monture fantôme]], [[Création de monstres simplifiée, Étape 7#Reconstruction|reconstruction]] (1d10 jours), [[Création de monstres simplifiée, Étape 7#Aura sacrilège|aura sacrilège]], [[Création de monstres simplifiée, Étape 7#Résistance à la magie|résistance à la magie]], [[Création de monstres simplifiée, Étape 7#Maîtrise des morts-vivants|maîtrise des morts-vivants]], une [[Création de monstres simplifiée, Étape 7#OPTIONSDECOMBAT|option de combat]] supplémentaire ;
+** ''Compétences'' – le monstre gagne [[Équitation]], [[Intimidation]] et [[Perception]] comme compétences maîtrisées.
+* '''Modificateurs de caractéristique suggérés.''' [[Force]], [[Charisme]].
+
+
+====Demi-céleste (FP 1+)====
+Cette créature est née de l’union d’un extérieur Bon avec un mortel ou a été créée par une infusion majeure d’énergie sacrée.
+* '''Type de créature requis.''' [[Création de monstres simplifiée, Étape 2#EXTERIEUR|Extérieur]].
+* '''Traits automatiques.''' Bonus de +4 aux [[jds|jets de sauvegarde]] contre le poison, le monstre gagne une vitesse de vol égale à deux fois sa vitesse de base (bonne) ;
+** ''Options'' – [[Création de monstres simplifiée, Étape 7#Réduction de dégâts|RD 5/magique]] (passez-la à RD 10/ magique au FP 12), [[Création de monstres simplifiée, Étape 7#Résistance aux énergies destructives|résistance aux énergies destructives]] 10 (acide, froid et électricité), [[Création de monstres simplifiée, Étape 7#Immunité|immunité]] (maladie), [[Création de monstres simplifiée, Étape 7#Magie secondaire|magie secondaire]] ([[Création de monstres simplifiée, Étape 6#Bien|Bien]]), [[Création de monstres simplifiée, Étape 7#Châtiment|châtiment]] (Mal) ;
+** ''Compétences'' – le monstre gagne une compétence maîtrisée supplémentaire.
+
+
+====Demi-dragon (FP 3+)====
+Cette créature est née de l’union d’un dragon avec une autre forme de créature. Elle présente des traits issus de ses deux parents.
+* '''Type de créature requis.''' [[Création de monstres simplifiée, Étape 2#DRAGON|Dragon]].
+* '''Traits automatiques.'''
+** ''Options'' – [[Création de monstres simplifiée, Étape 7#Souffle|souffle]] (utilisable 1/jour), [[Création de monstres simplifiée, Étape 7#Immunité|immunité]] (sommeil, paralysie et une énergie entre acide, froid, électricité ou feu) ;
+** ''Compétences'' – le monstre gagne une compétence maîtrisée supplémentaire.
+
+
+====Demi-fiélon (FP 1+)====
+Cette créature est fortement teintée d’une puissance maléfique, très certainement démoniaque ou infernale.
+* '''Type de créature requis.''' [[Création de monstres simplifiée, Étape 2#EXTERIEUR|Extérieur]].
+* '''Traits automatiques.''' Le monstre gagne une vitesse de vol égale à deux fois sa vitesse de base (bonne) ;
+** ''Options'' – [[Création de monstres simplifiée, Étape 7#Réduction de dégâts|RD 5/magique]] (passez la à RD 10/magique au FP 12), [[Création de monstres simplifiée, Étape 7#Résistance aux énergies destructives|résistance aux énergies destructives]] 10 (acide, froid, électricité et feu), [[Création de monstres simplifiée, Étape 7#Immunité|immunité]] (poison), [[Création de monstres simplifiée, Étape 7#Magie secondaire|magie secondaire]] ([[Création de monstres simplifiée, Étape 6#Mal|Mal]]), [[Création de monstres simplifiée, Étape 7#Châtiment|châtiment]] (Bien) ;
+** ''Compétences'' – le monstre gagne une compétence maîtrisée supplémentaire.
+
+
+====Fantôme (FP 2+)====
+Une âme incapable de trouver le repos se transforme en créature morte-vivante spectrale.
+* '''Type de créature requis.''' [[Création de monstres simplifiée, Étape 2#MORTVIVANT|Mort-vivant]].
+* '''Sous-type requis.''' [[Création de monstres simplifiée, Étape 3|Intangible]].
+* '''Traits automatiques.''' Vol à 9 mètres (parfaite) ; modificateurs de caractéristique – passez le modificateur de [[Force]] à —, augmentez le modificateur de [[Charisme]] de 2 ;
+** ''Options'' – [[Création de monstres simplifiée, Étape 7#Résistance à la canalisation|résistance à la canalisation]], [[Création de monstres simplifiée, Étape 7#Contact corrupteur|contact corrupteur]], [[Création de monstres simplifiée, Étape 7#Reconstruction|reconstruction]] (2d4 jours) ; un des pouvoirs suivants au FP 6, plus un pour chaque tranche de 3 FP au-delà de 6 : [[Création de monstres simplifiée, Étape 7#Magie à volonté|magie à volonté]] (''[[télékinésie]]''), [[Création de monstres simplifiée, Étape 7#Regard corrupteur|regard corrupteur]], [[Création de monstres simplifiée, Étape 7#Contact affaiblissant|contact affaiblissant]], [[Création de monstres simplifiée, Étape 7#Présence terrifiante|présence terrifiante]], [[Création de monstres simplifiée, Étape 7#Malveillance|malveillance]] ;
+** ''Compétences'' – le monstre gagne [[Discrétion]] et [[Perception]] comme compétences maîtrisées.
+* '''Modificateurs de caractéristique suggérés.''' [[Charisme]].
+
+</td><td width="2%"></td><td width="49%">
+====Liche (FP 2+)====
+Ce lanceur de sorts a conservé ses pouvoirs magiques après sa mort, quand il est revenu sous forme de mort-vivant.
+* '''Type de créature requis.''' [[Création de monstres simplifiée, Étape 2#MORTVIVANT|Mort-vivant]].
+* '''Gamme suggérée.''' [[Création de monstres simplifiée, Étape 1#LANCEURDESORTS|Lanceur de sorts]].
+* '''Traits automatiques.''' Augmentez la [[CA]] de 2 ;
+** ''Options'' – [[Création de monstres simplifiée, Étape 7#Résistance à la canalisation|résistance à la canalisation]], [[Création de monstres simplifiée, Étape 7#Réduction de dégâts|RD 15/contondant et magique]], [[Création de monstres simplifiée, Étape 7#Aura de terreur|aura de terreur]], [[Création de monstres simplifiée, Étape 7#Immunité|immunité]] (froid et électricité), [[Création de monstres simplifiée, Étape 7#Contact paralysant|contact paralysant]], [[Création de monstres simplifiée, Étape 7#Reconstruction|reconstruction]] (1d10 jours) ;
+** ''Compétences'' – le monstre gagne [[Discrétion]], [[Perception]] et [[Psychologie]] comme compétences maîtrisées.
+* '''Modificateurs de caractéristique suggérés.''' Le modificateur le plus élevé devrait aller à l’[[Intelligence]], la [[Sagesse]] ou le [[Charisme]], en fonction de la caractéristique que la liche utilise pour lancer ses sorts.
+
+
+====Lycanthrope (FP 1+)====
+Cet humanoïde peut se transformer en animal ou prendre une forme hybride à mi-chemin entre ses natures humanoïde et animale.
+* '''Type de créature requis.''' [[Création de monstres simplifiée, Étape 2#HUMANOIDE|Humanoïde]].
+* '''Sous-type requis.''' [[Création de monstres simplifiée, Étape 3|Métamorphe]].
+* '''Traits automatiques.'''
+** ''Options'' – [[Création de monstres simplifiée, Étape 7#Transmission de la lycanthropie|transmission de la lycanthropie]].
+* '''Modificateurs de caractéristique suggérés.''' [[Constitution]].
+
+
+====Squelette (FP 8-)====
+Les ossements animés d’un mort attaquent sous forme de squelette : il s’agit d’un soldat dénué d’intelligence au sein d’une armée de morts.
+* '''Type de créature requis.''' [[Création de monstres simplifiée, Étape 2#MORTVIVANT|Mort-vivant]].
+* '''Gamme suggérée.''' [[Création de monstres simplifiée, Étape 1#COMBATTANT|Combattant]].
+* '''Traits automatiques.'''
+** ''Modificateurs de caractéristique'' – passez le modificateur d’[[Intelligence]] à — ;
+** ''Options'' – [[Création de monstres simplifiée, Étape 7#Réduction de dégâts|RD 5/contondant]], [[Création de monstres simplifiée, Étape 7#Immunité|immunité]] (froid), [[Création de monstres simplifiée, Étape 7#Science de l'initiative|science de l’initiative]].
+* '''Modificateurs de caractéristique suggérés.''' [[Force]], [[Dextérité]].
+
+
+====Vampire (FP 5+)====
+Ce monstre mort-vivant charismatique se nourrit de sang et possède des pouvoirs surnaturels impressionnants.
+* '''Type de créature requis.''' [[Création de monstres simplifiée, Étape 2#MORTVIVANT|Mort-vivant]].
+* '''Gamme suggérée.''' Toutes : le vampire peut remplir n’importe quel rôle et s’appuyer sur n’importe quelle gamme. Il sait se battre, même s’il s’agit d’un [[Création de monstres simplifiée, Étape 1#EXPERT|expert]] ou d’un [[Création de monstres simplifiée, Étape 1#LANCEURDESORTS|lanceur de sorts]].
+* '''Traits automatiques.''' Augmentez la [[CA]] de 2 et la CA [[pris au dépourvu]] de 2, ''[[pattes daraignée|pattes d’araignée]]'' (constant), [[Vampire, archétype|faiblesses des vampires]] ;
+** ''Options'' – [[Création de monstres simplifiée, Étape 7#Magie à volonté|magie à volonté]] (''[[domination]]''), [[Création de monstres simplifiée, Étape 7#Absorption de sang|absorption de sang]], [[changement de forme (capacité)|changement de forme]] ([[chauve-souris]] ou [[loup sanguinaire]], comme ''[[forme bestiale II]]''), [[Création de monstres simplifiée, Étape 7#Résistance à la canalisation|résistance à la canalisation]], [[Création de monstres simplifiée, Étape 7#Créature des ténèbres|créature des ténèbres]], [[Création de monstres simplifiée, Étape 7#Création de rejetons|création de rejetons]], [[Création de monstres simplifiée, Étape 7#Réduction de dégâts|RD 10/argent et magique]], [[Création de monstres simplifiée, Étape 7#Absorption d'énergie|absorption d’énergie]], [[Création de monstres simplifiée, Étape 7#Résistance aux énergies destructives|résistance aux énergies destructives]] 10 (froid et électricité), [[Création de monstres simplifiée, Étape 7#Guérison accélérée|guérison accélérée 5]], [[Création de monstres simplifiée, Étape 7#Forme gazeuse|forme gazeuse]] ;
+** ''Compétences'' – le monstre gagne [[Bluff]], [[Discrétion]], [[Perception]] et [[Psychologie]] comme compétences maîtrisées.
+* '''Modificateurs de caractéristique suggérés.''' [[Force]], [[Dextérité]], [[Charisme]].
+
+
+====Zombi (FP 9-)====
+Un cadavre réanimé peut devenir un zombi apathique et dépourvu de conscience.
+* '''Type de créature requis.''' [[Création de monstres simplifiée, Étape 2#MORTVIVANT|Mort-vivant]].
+* '''Gamme suggérée.''' [[Création de monstres simplifiée, Étape 1#COMBATTANT|Combattant]].
+* '''Traits automatiques.''' Chancelant (le monstre ne peut effectuer qu’une seule [[action de mouvement]] ou une seule [[action simple]] par [[round]]) ;
+** ''Modificateurs de caractéristique'' – passez le modificateur d’[[Intelligence]] à — ;
+** ''Options'' – [[Création de monstres simplifiée, Étape 7#Réduction de dégâts|RD 5/tranchant]], [[Création de monstres simplifiée, Étape 7#Points de vie supplémentaires|points de vie supplémentaires]] ;
+** ''Compétences'' – aucune compétence maîtrisée ou profitable.
+* '''Modificateurs de caractéristique suggérés.''' [[Force]].
+
+</td></tr></table>
