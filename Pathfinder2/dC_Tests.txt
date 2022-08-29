@@ -1,0 +1,146 @@
+---
+Name: Pathfinder2.dC_Tests
+Title: dCouverte Pathfinder : tests et degrés de réussite
+LastModified: 2022-08-24 19:15
+---
+Chaque fois que votre PJ tente d’effectuer une action dont la réussite n’est pas garantie, vous devez effectuer un test basé sur ses capacités. Il peut s’agir d’une action volontaire (dérober discrètement le sceau qui se trouve sur le bureau du clerc, escalader une paroi rocheuse pour atteindre son sommet, toucher un adversaire avec un rayon magique…) ou d’une réaction involontaire (résister au poison du serpent qui vient de vous mordre, esquiver le souffle de la boule de feu lancée par un mage ennemi…).
+
+{s:Image|Illustrations/Wiki/PF2/dCouverte/PZO-Troll.webp|48%|fright}{s:Image|Illustrations/Wiki/PF2/dCouverte/PZO-Rooftop.webp|48%|fleft}
+{s:ClearBoth}
+
+{toc}
+
+==Comment faire un test ?==
+Dans tous les cas, le principe est le même (c’est le même principe de base dans tous les systèmes qu’on dit “basés sur un d20”).
+
+* 1. Vous lancez un dé à 20 faces (d20).
+* 2. Vous ajoutez au résultat du dé une valeur qui représente les capacités de votre PJ.
+* 3. Vous comparez le total à la valeur-cible qui représente la difficulté de l’action, qu'on appelle le Degré de Difficulté (ou DD - Difficulty Class ou DC en anglais).
+
+'''Exemple.''' Mérisiel la roublarde tente d’escalader une paroi rocheuse envahie d’épaisses racines qui offrent des prises assez nombreuses. La difficulté de l’escalade est fixée à 12.
+
+La personne qui joue Mérisiel lance un dé à 20 faces et obtient un résultat de 10. La fiche de personnage de Mérisiel indique qu’elle possède un modificateur de +4 pour les tests d’Athlétisme (la compétence qui permet, entre autres, de grimper).
+
+<center style="font-size: 300%; background-color: lemonchiffon">
+<img src="/Wiki/public/Upload/Illustrations/Wiki/PF2/dCouverte/d20-10.webp" style="width:70px; vertical-align:middle"/> + 4 = 14
+</center>
+
+Le résultat final du test de Mérisiel est donc 10 + 4 = 14. C’est suffisant pour battre le DD de 12, donc l’action est réussie.
+
+==Quel est le résultat du test ?==
+En Pathfinder 2, chaque test a 4 résultats possibles, appelés les degrés de réussite, qu’on identifie en comparant le résultat (d20 + modificateur) et le DD du test.
+
+{s:Image|Illustrations/Wiki/PF2/dCouverte/degrésRéussite.svg|96%|center}
+
+Si le résultat du test est au moins égal au DD, il s’agit d’une réussite. Si le résultat est au moins égal au DD + 10, il s’agit même d’une réussite critique (qui a souvent des effets avantageux supplémentaires par rapport à une réussite).
+
+Si le résultat du test est inférieur au DD, c’est par contre un échec. Et si le résultat est tellement faible qu’il est égal ou plus petit que le DD - 10, c’est un échec critique (qui correspond à un foirage monumental, parfois avec des effets négatifs supplémentaires).
+
+'''Exemple.''' Face au DD de 12 du test d’escalade, Mérisiel aurait obtenu une réussite critique si le dé était tombé sur 18 ou plus (vu que 18 + 4 = 22, dix de plus que le DD). Dans le cas d’une tentative d’escalade, une réussite critique signifie que Mérisiel parvient à grimper plus vite que la normale.
+
+Le diagramme et le tableau suivants reprennent tous les résultats possibles pour cet exemple.
+
+{s:Image|Illustrations/Wiki/PF2/dCouverte/degrésRéussite2.svg|96%|center}
+
+{| CLASS="tablo autoalt centre toutgauche"
+|- CLASS="titre"
+| Valeur sur le dé || Valeur du test || Résultat du test
+|- CLASS="premier"
+| 1 || 5 || échec critique (voir ci-dessous)
+|-
+| 2 à 7 || 6 à 11 || échec
+|-
+| 8 à 17 || 12 à 21 || réussite
+|-
+| 18 à 20 || 22 à 24 || réussite critique
+|}
+
+
+==Et les 1 et les 20 sont spéciaux ?===
+Oui, ils le sont. Quand le dé tombe sur 1 ou 20 (ce qu’on appelle un “1 naturel” ou un “20 naturel”), le degré de réussite du test est décalé d’un rang. Vers le bas / l’échec pour le 1 ; vers le haut / la réussite pour le 20.
+
+{s:Image|Illustrations/Wiki/PF2/dCouverte/d20-1.webp|80px|fright}'''Exemple.''' Mérisiel lance son dé et obtient un 1 naturel. Avec son modificateur, cela donne un résultat de 1 + 4 = 5, qui est normalement un échec contre un DD 12. Mais, dans ce cas-ci, le degré de réussite s’empire d’un cran, et cela devient un échec critique. Dans le cas d’une tentative d’escalade, un échec critique signifie qu’on perd prise et qu’on tombe, ce qui peut avoir de fâcheux résultats.
+
+{s:Image|Illustrations/Wiki/PF2/dCouverte/d20-20.webp|80px|fleft}Si le dé de Mérisiel avait indiqué 20, elle aurait obtenu un résultat de 20 + 4 = 24, une réussite critique (vu que cela dépasse le DD d’au moins 10 points). Le 20 naturel n’a pas vraiment d’effet supplémentaire dans ce cas-ci, vu que le degré de réussite (réussite critique) est déjà le plus haut possible. Mais, si le résultat avait indiqué une réussite, un échec ou un échec critique (respectivement), le 20 naturel aurait transformé le test en une réussite critique, une réussite ou un échec simple (respectivement).
+
+==Pour aller plus loin…==
+La suite de cette fiche dCouverte traite de questions plus avancées au sujet des tests et degrés de réussite.
+
+===Quels sont les différents types de tests qui existent ?===
+{s:Image|Illustrations/Wiki/PF2/dCouverte/PZO-Saloon.webp|32%|fright}
+La plupart des tests s’effectuent quand une créature réalise une action qui peut réussir ou échouer. Il pourrait par exemple s’agir d’une attaque (avec une arme ou avec un sort) ou encore d’une activité dépendant d’une compétence, comme par exemple :
+
+* analyser un objet magique pour en déterminer les capacités (avec une compétence telle que Arcanes, Nature, Occultisme ou Religion) ;
+* se faufiler entre les jambes d’un géant pour se retrouver derrière lui (avec la compétence d’Acrobaties) ;
+bousculer un adversaire pour se frayer un chemin ou le faire tomber dans une fosse (avec la compétence d’Athlétisme) ;
+* avancer dans l’entrepôt en se cachant derrière des piles de caisses sans se faire voir des gardes qui patrouillent (avec la compétence de Discrétion) ;
+* convaincre un ennemi de se rendre en le menaçant (avec la compétence d’Intimidation); …
+
+Une autre catégorie de tests fréquemment utilisée correspond aux jets de sauvegarde. Il y a trois types de jets de sauvegarde : Réflexes (testant l’agilité), Volonté (testant la force de caractère) et Vigueur (testant la robustesse). Ces tests permettent de voir si une créature parvient à résister à un effet (comme l’effet magique d’un sort) ou à certaines difficultés (comme rester debout sur un sol instable ou glissant).
+
+===Qu’est-ce qu’un test pur/nu ?===
+Le test pur/nu ressemble à un test normal mais n’ajoute aucune valeur au résultat du d20. Ce genre de tests est utilisé pour simuler les événements qui ont un certain pourcentage de chances fixe de se produire : par exemple, un test pur/nu contre un DD de 11 correspond à une réussite dans 50% des cas.
+
+Ce genre de tests est utilisé pour déterminer si on parvient à toucher un adversaire invisible, ou si on parvient à se stabiliser / récupérer quand on est mourant.
+
+===D’où vient le modificateur de +4 que Mérisiel utilise ?===
+Chaque PJ possède des capacités et des rangs de formation qui dépendent des choix qui ont été effectués lors de sa création. Par exemple, un guerrier, bénéficiant d’un solide entraînement martial, sera mieux formé au maniement des armes qu’un magicien, qui a sans doute passé une grande partie de son temps le nez plongé dans ses bouquins. De même, un personnage qui a travaillé plusieurs années au service d’un herboriste itinérant sera mieux formé qu’un citadin n’ayant jamais quitté sa ville lorsqu’il s’agira d’identifier des plantes sauvages. Et un magicien qui a passé de longues années à lire d'anciens grimoires écrits dans des langues obscures sera sans doute plus apte à déchiffrer le message gravé sur les murs d'une ruine antique.
+
+Toutes ces influences sur les talents et connaissances du PJ sont traduites par des rangs de formation qui permettent de déterminer le modificateur en question. Pour plus de détails, voir la fiche dCouverte Pathfinder sur les rangs de formation, modificateurs et DD.
+
+{s:Image|Illustrations/Wiki/PF2/dCouverte/PZO-magic.webp|96%|center}
+
+===D’où vient le DD de 12 ?===
+En fonction des actions, la valeur du DD peut être déterminée de différentes manières. Dans certains cas, il s’agit d’une valeur indiquée directement dans le scénario (par exemple le DD pour crocheter une serrure). Dans d’autres, c’est une valeur dépendant de la cible de l’action (par exemple, dans le cas d’une attaque, le DD à battre est la Classe d’Armure de l’adversaire, qui représente ses protections et son agilité à esquiver les coups).
+
+Le/la MJ dispose de tables pour déterminer les DD en fonction l’action tentée et pour éventuellement modifier ces valeurs en fonction des circonstances spécifiques. Pour en savoir plus sur le calcul des DD, voir la fiche dCouverte Pathfinder sur les rangs de formation, modificateurs et DD.
+
+===À quoi sert le degré de réussite concrètement ?===
+Les effets des différents degrés de réussite d’un test varie d’une action à l’autre, et toutes les actions n’ont pas forcément de conséquences spéciales dans le cas d’un échec ou d’une réussite critique. Voici deux exemples.
+
+Dans le cas d’une attaque, une réussite critique (appelé coup critique) double les dégâts infligés, et un échec critique a le même effet qu’un échec simple : l’adversaire n’est pas touché et ne subit aucun dégât. Notez toutefois que certaines capacités (du PJ ou de l’arme utilisée) peuvent modifier ces effets… ainsi, certains bretteurs peuvent profiter de l’ouverture créée quand un ennemi proche d’eux obtient un échec critique sur son attaque et leur porter une attaque d’opportunité.
+
+De nombreux sorts imposent à leur cible d’effectuer un jet de sauvegarde, dont le degré de réussite détermine l’effet exact. C’est même tellement courant qu’il y a un raccourci d’écriture permettant d’éviter de reproduire les mêmes explications dans de nombreux sorts (l’expression “jet de sauvegarde basique”, expliqué dans la fiche dCouverte Pathfinder sur la magie et les sorts).
+
+===À part les 1 et les 20 naturels, d’autres choses peuvent modifier le degré de réussite ?===
+Oui, ça peut être le cas de certaines capacités, qui viennent modifier le fonctionnement normal des choses. Par exemple, un guerrier de niveau 3 gagne la capacité de Bravoure, qui lui permet de traiter certaines réussites (dans le cas d’un jet de Volonté pour résister à un effet de terreur) comme s’il s’agissait de réussites critiques.
+
+{s:Image|Illustrations/Wiki/PF2/dCouverte/sort-paralysie.webp|27%|fright}{s:Image|Illustrations/Wiki/PF2/dCouverte/bravoure.webp|72%|}
+
+Le trait “Incapacitation” (ou Mise hors de combat) de certains sorts peut également modifier le degré de résultat d’un test. C’est principalement le cas des sorts et effets spéciaux qui pourraient mettre un adversaire hors combat juste à cause d’un lancer de dé malheureux, comme le sort de paralysie (voir ci-contre). Sans rentrer dans les détails, ce trait indique que, lorsque la cible de l’effet est d’un niveau suffisamment élevé, le degré de réussite du test est décalé d’un cran dans la direction la plus positive pour elle.
+
+===Qu’est-ce qu’un test secret et à quoi cela sert-il ?===
+Certains tests visant à obtenir des informations ont des effets spéciaux en cas d’échec ou d’échec critique. Par exemple, un test de Perception pour écouter à une porte et tenter de déterminer ce qui se trouve de l’autre côté pourrait ne révéler aucune information en cas d’échec (même s’il y a bel et bien quelqu’un de l’autre côté de la porte) et des informations fausses ou trompeuses en cas d’échec critique. Dans ce cas-là, le PJ ne sait bien sûr pas que les informations qu’il reçoit sont incomplètes ou fausses.
+
+Pour garder tout le mystère et éviter que le joueur derrière ce PJ ne sache par exemple que le d20 est tombé sur un 2 et qu’il y a de grandes chances pour que le test ait échoué (ou échoué de manière critique), ces jets sont généralement faits par le MJ quand on se trouve autour d’une table en présentiel. Sur table de jeu de rôle virtuelle, le jet peut être effectué par le joueur mais de manière à ce que le résultat ne soit affiché que pour le MJ.
+
+===Un test peut-il tenir compte de conditions favorables ou défavorables ?===
+Diverses choses peuvent influencer positivement ou négativement la tentative représentée par un test. Cela se traduit sous la forme de bonus et/ou de pénalités qui viennent s’ajouter au résultat du test. Pathfinder 2 propose un système équilibré permettant à plusieurs bonus (ou pénalités) compatibles de se combiner mais limitant le nombre de différents bonus (ou pénalités).
+
+Chaque test peut recevoir au plus un bonus et une pénalité de chacun des trois types suivants.
+
+* '''équipement''' : il s’agit d’un bonus ou d’une pénalité provenant d’un objet utilisé pour la tentative (comme une épée magique donnant un bonus à l’attaque, ou des outils de basse qualité imposant une pénalité) ;
+* '''statut''' : il s’agit d’un bonus ou d’une pénalité provenant d’un effet, qui peut être d’origine magique ou pas (comme le malus traduisant le fait qu’une créature est effrayée, ou le bonus octroyé par un sort de bénédiction)
+* '''circonstances''' : il s’agit d’un bonus ou d’une pénalité provenant du contexte dans lequel la tentative est réalisée (comme le malus imposé par des vents forts ou encore le bonus accordé par de larges piles de caisses dans le cas d’un test pour se cacher)
+
+Si plusieurs bonus (ou pénalités) d’un même type étaient applicables, seuls celui (ou celle) avec la valeur la plus forte compterait. Par exemple, si deux effets magiques apportaient des bonus de +1 et de +2, seul celui de +2 serait compté pour le test.
+
+Le dernier élément numérique qui peut rentrer en ligne de compte lors d’un test et se combine avec tous les autres est une pénalité sans type (c’est-à-dire une pénalité qui n’est pas d’équipement, de statut ni de circonstances). Les cas où une pénalité sans type apparaît sont rares, mais il en existe un qui concerne toutes les créatures : la pénalité d’attaque multiple, qui s’impose (et grandit) quand une créature porte plusieurs attaques au cours d’un même round (chaque attaque devenant plus difficile que la précédente).
+
+===Comment effectuer un test sous Foundry ?===
+Sous Foundry, la plupart des tests peuvent être effectués à partir de la feuille de personnage, en cliquant sur le nom d’une compétence, sur le bouton d’attaque correspondant à une arme ou sur un des dés correspondant aux jets de sauvegarde.
+
+{s:Image|Illustrations/Wiki/PF2/dCouverte/fdp-comp-jds.webp|48%|fleft}{s:Image|Illustrations/Wiki/PF2/dCouverte/fdp-attaques.webp|48%|fleft}
+{s:ClearBoth}
+
+Plutôt que de passer par la feuille de personnage, on peut aussi utiliser les nombreux boutons raccourcis proposés par le module '''Token Action Hud''' :
+
+{s:Image|Illustrations/Wiki/PF2/dCouverte/token-hud.webp|96%|center}
+
+En fonction de l’option choisie sous “PF2e player Settings” (dans l’onglet configuration), un simple clic permettra
+
+* soit de lancer directement le test,
+* soit d’ouvrir une fenêtre permettant de modifier les bonus et pénalités et d’indiquer si le test doit être secret (“Juste le MJ et moi”) ou pas.
+
+Shift/Maj + clic déclenchera l’autre de ces deux options (celle qui n’a pas été choisie par défaut).
+Si on appuie sur Ctrl en effectuant le clic (ou en effectuant le Shift/Maj + clic), le test sera configuré comme étant un jet secret.
