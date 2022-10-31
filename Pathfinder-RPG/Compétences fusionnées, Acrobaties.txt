@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Compétences fusionnées, Acrobaties
 Title: Compétences fusionnées, Acrobaties
-LastModified: 2021-09-26 19:31
+LastModified: 2022-10-24 18:53
 Categories:
   - 'Src Pathfinder unchained'
 ---
@@ -56,11 +56,28 @@ Cette fonction de la compétence Acrobaties s’utilise comme la compétence de 
 
 {s:Reference|GARDERLEQUILIBRE}
 ===Garder l’équilibre===
-Le personnage peut effectuer un test d’Acrobaties pour garder l’équilibre lorsqu’il se déplace sur une surface étroite ou sur un sol irrégulier. S’il rate son test, il chute et tombe [[à terre]]. Le personnage se déplace à mi-vitesse lorsqu’il tente de garder l’équilibre, mais il peut se déplacer à sa vitesse normale s’il augmente le [[DD]] de 5. Il est considéré comme [[pris au dépourvu]] quand il tente de garder l’équilibre. Un seul test de la sorte suffit chaque [[round]] mais, si le personnage subit des dégâts, il doit effectuer un autre test contre le même DD. Il n’a pas besoin d’effectuer un test si le DD est inférieur à 10 mais les modificateurs peuvent faire passer un petit DD au-delà de 9.
+<div style="float:right; background-color: #fff; padding: 0 0 4px 8px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+<center>
+{| CLASS="tablo autoalt"
+|- CLASS="titre"
+| Largeur de la<br/>surface || DD du test<br/>d’Acrobaties
+|- CLASS="premier"
+| Plus de 90 cm || 0
+|-
+| Entre 30 et 90 cm || 5
+|-
+| Entre 15 et 30 cm || 10
+|-
+| Entre 5 et 15 cm || 15
+|-
+| Moins de 5 cm || 20
+|}
+</center></div></div>Le personnage peut effectuer un test d’Acrobaties pour garder l’équilibre lorsqu’il se déplace sur une surface étroite ou sur un sol irrégulier. S’il rate son test, il chute et tombe [[à terre]]. Le personnage se déplace à mi-vitesse lorsqu’il tente de garder l’équilibre, mais il peut se déplacer à sa vitesse normale s’il augmente le [[DD]] de 5. Il est considéré comme [[pris au dépourvu]] quand il tente de garder l’équilibre. Un seul test de la sorte suffit chaque [[round]] mais, si le personnage subit des dégâts, il doit effectuer un autre test contre le même DD. Il n’a pas besoin d’effectuer un test si le DD est inférieur à 10 mais les modificateurs peuvent faire passer un petit DD au-delà de 9.
 
 '''Action.''' Aucune.
 
-{s:Reference|REALISERDESMANOEUVRESAERIENNES}
+{s:ClearRight}{s:Reference|REALISERDESMANOEUVRESAERIENNES}
 ===Réaliser des manœuvres aériennes===
 Cette fonction de la compétence Acrobaties s’utilise comme la compétence de base de [[Vol]]. Elle ne donne cependant pas au personnage la capacité de voler.
 
