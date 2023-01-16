@@ -1,0 +1,206 @@
+---
+Name: Pathfinder-RPG.Recherches
+Title: Les recherches
+LastModified: 2023-01-13 15:57
+Categories:
+  - 'Règle officielle'
+  - 'Src Ultimate Intrigue'
+---
+{s:MenuUI}{s:cs}{toc}Le savoir, c'est le pouvoir, et cela est tout aussi vrai dans un ancien donjon que dans la cour d'une reine. Dans Pathfinder-JdR, les différentes compétences de [[Connaissances]] représentent la familiarité d'un personnage avec différents domaines d'étude. Les tests de Connaissances permettent souvent de répondre à des questions spécifiques, mais il arrive qu'un personnage échoue ou n'ait aucune chance de réussir, par exemple lorsque le savoir qu'il recherche est oublié, caché ou suffisamment important pour l'histoire pour qu'il soit difficile de le découvrir avec un simple test de compétence.
+
+C'est là que la recherche entre en jeu. Grâce au système de règles suivant, les personnages peuvent visiter une bibliothèque et utiliser ses ressources pour découvrir de nouvelles informations. Alors que les questions simples (comme l'identification d'un monstre, la connaissance d'une rumeur locale ou la reconnaissance d'une divinité, de ses symboles et de son clergé) peuvent toujours être résolues par un simple test de [[Connaissances]] tel qu'il est présenté dans le ''Manuel des joueurs'', ce système aborde des questions plus complexes, comme l'apprentissage des détails d'un ancien pharaon dont le nom a été perdu dans l'histoire, l'interprétation d'un contrat infernal ou l'étude d'un livre complet sur les arcanes. De nombreux concepts de personnages se concentrent sur la recherche de la connaissance, et passer du temps à faire des recherches dans une bibliothèque en utilisant les règles suivantes peut être une façon amusante de laisser cet aspect d'un personnage ou d'un groupe prendre le devant de la scène.
+
+Ces règles peuvent représenter la recherche de n'importe quel dépôt d'informations ou de connaissances : une bibliothèque réelle, de vastes archives historiques, un contrat juridique compliqué, les archives d'une ville, un trésor de parchemins anciens, un tome magique de connaissances ésotériques, la collection personnelle de livres et de parchemins d'un magicien, ou même le palais mental d'un médium. Pour les besoins de ces règles, cependant, le terme « bibliothèque » est utilisé pour représenter toutes ces possibilités.
+
+===Utiliser une bibliothèque===
+Chaque bibliothèque possède deux statistiques principales : un facteur de Complexité, qui reflète la nature complexe ou déroutante du contenu de la bibliothèque, et des points de savoir (abrégés en ps), qui sont une représentation abstraite de la somme des informations contenues dans la bibliothèque.
+
+Pour rechercher un sujet ou une question spécifique dans une bibliothèque, un personnage doit réussir un test de Recherche, en utilisant l'une des compétences listées dans le profil de la bibliothèque. Les profils des bibliothèques types commencent à la [[Recherches#EXEMPLES|page 152]]. Un test de Recherche est similaire à un test de [[Connaissances]], bien que chaque profil de bibliothèque énumère les compétences spécifiques qui peuvent être utilisées pour les tests de Recherche en fonction de la nature des collections de cette bibliothèque. Le Facteur de Complexité d'une bibliothèque sert de DD pour les tests de Recherche qui tentent de démêler les indices de cette bibliothèque.
+
+Effectuer un test de Recherche nécessite une période ininterrompue de 8 heures de recherches, et un personnage ne peut pas [[faire 10|faire 10 ou 20] sur un test de Recherche. Chaque période de 8 heures de recherches accorde un bonus cumulatif de +1 aux tests de Recherche. Si un chercheur arrête de faire des recherches dans la même bibliothèque pendant un mois ou plus, il perd tous les bonus cumulatifs obtenus jusqu'à présent pour cette bibliothèque. Jusqu'à deux personnages supplémentaires peuvent utiliser l'action [[aider qqn|aider quelqu'un]] pour aider un chercheur principal. De plus, certaines bibliothèques accordent un Bonus de connaissance - un bonus sur des tests de Connaissances spécifiques (y compris les tests de Recherche) effectués dans cette bibliothèque - en raison de la profondeur et de l'exhaustivité de ses collections. Les tests de Recherche ne peuvent normalement pas être effectués dans formation, sauf si la Complexité de la bibliothèque est inférieure ou égale à 10, si le test de Recherche implique une compétence qui permet des tests sans formation, ou si la collection de la bibliothèque est suffisamment étendue pour permettre des tests sans formation, comme indiqué dans le profil de la bibliothèque.
+
+Réussir un test de Recherche réduit les points de savoir d'une bibliothèque, de la même façon que l'on inflige des dégâts aux points de vie d'une créature. Au fur et à mesure que ses points de savoir diminuent, une bibliothèque révèle ses secrets. Les personnages apprennent des informations lorsque les points de savoir d'une bibliothèque atteignent divers seuils de recherche, comme indiqué dans le profil de chaque bibliothèque. Le nombre de points de savoir réduits par un test de Recherche réussi dépend de la nature du chercheur principal et du type de bibliothèque. Il s'agit généralement d'une réflection de la formation et de la valeur d'Intelligence du personnage, représentée par un jet de dé altéré par le modificateur de caractéristique du personnage (voir Recherche par expertise, ci-dessous).
+
+En plus de ces montants de base, pour chaque tranche de 5 entre la Complexité de la bibliothèque et le résultat du test de Recherche, les points de savoir de la bibliothèque sont réduits d'un point supplémentaire. Obtenir un 20 naturel sur un test de Recherche agit comme un [[coup critique|critique potentiel]]. Si le chercheur confirme le résultat critique en réussissant un second test de Recherche avec les mêmes modificateurs (cela ne prend pas plus de temps), la réduction des points de savoir qui en résulte est doublée. Inversement, un 1 naturel sur un test de Recherche entraîne automatiquement un échec, et les points de savoir de la bibliothèque augmentent d'un montant égal au quart du nombre maximum de points de savoir de la bibliothèque, car la complexité de la bibliothèque pousse le chercheur à suivre une mauvaise piste d'investigation.
+
+Lorsque les points de savoir d'une bibliothèque sont réduits à 0, les personnages ont appris tout ce qu'ils pouvaient de cette bibliothèque, et gagnent des points d'expérience en fonction du FP de la bibliothèque. Pour apprendre des informations supplémentaires, ils doivent se rendre dans une autre bibliothèque et y poursuivre leurs recherches.
+
+====Recherche par expertise====
+Un test de Recherche réussi réduit les points de savoir d'une bibliothèque d'un certain montant, tout comme un jet d'attaque réussi en combat réduit les points de vie d'une créature, et ce montant dépend de l'entraînement du chercheur principal dans la compétence qu'il a utilisée pour le test de Recherche. Un chercheur principal réduit les ps d'une bibliothèque de 1d12 + son modificateur d'[[Intelligence]] s'il possède soit 10 rangs dans la compétence, soit [[Talent]] pour la compétence, soit à la fois 5 rangs dans la compétence et la compétence en tant que compétence de classe. Il réduit les ps d'une bibliothèque de 1d8 + son modificateur d'Intelligence s'il possède soit 5 rangs dans la compétence, soit la compétence en compétence de classe (mais pas les deux). Sinon, il réduit les ps d'une bibliothèque de 1d4 + son modificateur d'Intelligence.
+
+'''Valeurs de caractéristique alternatives.''' À la discrétion du MJ, un personnage doté d'une capacité qui remplace sa valeur d'[[Intelligence]] par une autre valeur de caractéristique pour les tests de [[Connaissances]] (comme un [[oracle]] ou un [[chaman]] [[Mystère du savoir|du savoir]]) peut également utiliser cette valeur de caractéristique au lieu de l'Intelligence pour déterminer la réduction des ps. Au-delà de cela, les personnages bien adaptés à la recherche dans une bibliothèque particulière peuvent modifier le résultat du jet de dé avec un modificateur de caractéristique différent. Par exemple, un [[guerrier]] ou un [[lutteur]] effectuant des recherches dans la bibliothèque d'une école de combat peut ajouter son modificateur de [[Force]] au lieu de son modificateur d'Intelligence au résultat. Avec la variété d'options disponibles pour les personnages sous la forme de classes de personnages, d'archétypes, de classes de prestige et d'autres sélections personnalisables, c'est finalement au MJ de décider quels personnages sont les mieux adaptés à la recherche dans une bibliothèque particulière.
+
+'''Variante classe de personnage.''' Dans cette variante, la réduction des ps d'une bibliothèque dépend de la classe du personnage chercheur, plutôt que de sa formation dans la compétence listée. Pour les besoins de cette variante, les classes de personnages peuvent être divisées en trois grandes catégories de chercheurs : polymathes, érudits et novices. Les polymathes sont des personnages ayant la capacité d'effectuer n'importe quel test de Connaissances sans formation, comme les [[Barde|bardes]], les [[Gardien du savoir|gardiens du savoir]] et les [[Scalde|scaldes]]. Un polymathe réduit les ps d'une bibliothèque de 1d12 + le modificateur d'[[Intelligence]] du personnage avec un test de Recherche réussi. Les érudits sont des personnages académiques, y compris les lanceurs de sorts basés sur l'Intelligence, les [[Alchimiste|alchimistes]], les [[Chaman|chamans]], les [[Enquêteur|enquêteurs]] et les [[Oracle|oracles]]. Un érudit réduit les ps d'une bibliothèque de 1d8 + le modificateur d'Intelligence du personnage s'il réussit un test de Recherche. Tous les autres personnages sont considérés comme des novices, c'est-à-dire qu'ils ne sont pas éduqués ou formés à la recherche académique. Un novice réduit les ps d'une bibliothèque de 1d4 + le modificateur d'Intelligence du personnage s'il réussit un test de Recherche.
+
+Cependant, certaines classes de personnages peuvent être mieux adaptées à la recherche dans des bibliothèques spécifiques qui ont des collections axées sur des domaines d'étude particulièrement pertinents pour ces classes et leurs capacités. Par exemple, un [[prêtre]] ou un [[inquisiteur]] faisant des recherches dans une bibliothèque religieuse liée à sa foi peut être considéré comme un érudit ou même un polymathe au lieu d'un novice, ou un [[chevalier]] ou un [[prêtre combattant]] entreprenant des recherches dans une célèbre école militaire peut être considéré comme un érudit alors que les [[Arcaniste|arcanistes]] et les [[Magicien|magiciens]] y sont traités comme des novices.
+
+===Concevoir une bibliothèque===
+Bien que quelques exemples de bibliothèques soient présentés à la fin de cette section, les règles de recherche sont plus gratifiantes lorsqu'elles sont utilisées en conjonction avec des bibliothèques spécifiquement conçues pour interagir avec l'histoire et les personnages d'une aventure. Vous pouvez utiliser les directives suivantes pour créer des bibliothèques adaptées aux besoins de votre campagne.
+
+'''Étape 1 : Déterminer la nature de la collection d'une bibliothèque.''' Commencez par vous faire une idée générale du type de bibliothèque que vous souhaitez créer et du type de connaissances qu'elle contient. S'agit-il de la bibliothèque d'un petit village ou de la vaste collection historique d'une capitale ? Les archives récemment redécouvertes d'une secte monastique oubliée ou les notes d'un auteur célèbre ? Peut-être s'agit-il d'un ancien dépôt de magie noire et de rituels inquiétants. Le type d'informations que les PJs peuvent apprendre en faisant des recherches dans cette bibliothèque dépend de son contenu - une bibliothèque contenant les ancêtres légitimes d'un prétendant au trône perdu est probablement différente d'une bibliothèque offrant des remèdes à la peste mortelle d'un nécromancien.
+
+'''Étape 2 : Déterminer les compétences du test de Recherche.''' Attribuez des compétences de [[Connaissances]] qui peuvent être utilisées pour les tests de Recherche. Ces compétences doivent être en rapport avec le thème général de la bibliothèque. Les bibliothèques ont généralement trois compétences de Connaissances adéquates pour les tests de recherche ; cependant, les petites bibliothèques peuvent n'avoir que deux compétences assignées, tandis que les collections exceptionnellement étendues peuvent avoir quatre compétences assignées ou plus. Si la bibliothèque autorise l'utilisation de l'une de ces compétences sans formation, vous devez également en décider.
+
+'''Étape 3 : Déterminer le Bonus de connaissance.''' Décidez si la bibliothèque accorde un bonus aux tests de [[Connaissances]] utilisés pour les tests de Recherche dans la bibliothèque. Toutes les bibliothèques n'accordent pas un bonus, mais une bibliothèque qui se concentre sur un domaine d'étude particulier accorde presque toujours un Bonus de connaissance à la compétence Connaissances associée. Une bibliothèque typique accorde un Bonus de connaissance de +2 à +5, selon la taille de la bibliothèque et la qualité de ses collections.
+
+<div style="float:right; background-color: #fff; padding: 0 0 4px 8px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+{| CLASS="tablo centre autoalt"
+|+ {s:Reference|COMPLEXITEPARFP}Complexité d'une bibliothèque par FP
+|- CLASS="titre"
+| FP || DD de base || FP || DD de base
+|- CLASS="premier"
+| 1 || 11 || 11 || 26
+|-
+| 2 || 13 || 12 || 27
+|-
+| 3 || 14 || 13 || 28
+|-
+| 4 || 15 || 14 || 30
+|-
+| 5 || 16 || 15 || 31
+|-
+| 6 || 18 || 16 || 33
+|-
+| 7 || 19 || 17 || 34
+|-
+| 8 || 20 || 18 || 36
+|-
+| 9 || 22 || 19 || 38
+|-
+| 10 || 24 || 20 || 40
+|}
+</div></div>'''Étape 4 : Déterminez le FP.''' Établissez le FP de la bibliothèque en fonction des besoins d'une aventure ou d'une campagne spécifique, en le basant généralement sur le niveau moyen du groupe (NMG) des personnages-joueurs. Plus le FP est élevé, plus il est difficile pour les personnages de mener à bien leurs recherches. Consultez le tableau "[[Rencontres#TABLENIVEAURENCONTRE|Niveau de la rencontre]]" du ''Manuel des joueurs'' pour déterminer le FP approprié pour votre groupe, en utilisant les mêmes directives de difficulté que pour les rencontres (facile, moyen, ardu, difficile, héroïque). Par exemple, pour un groupe de quatre PJs de niveau 6, une bibliothèque de FP 6 est de difficulté moyenne, de FP 5 est facile, de FP 7 est ardu, de FP 8 est difficile et de FP 9 est un défi héroïque. Gardez à l'esprit que le fait d'augmenter le FP d'une bibliothèque n'empêche pas une recherche réussie de se produire sans contrainte temporelle (voir l'étape 7) ou sans pénalités d'échec (voir [[Recherches#ELEMENTSSUPPLEMENTAIRES|Éléments supplémentaires]]). Si vous opposez une bibliothèque de FP extrêmement élevé à un groupe de bas niveau ne disposant d'aucun de ces éléments, déterminez l'XP qu'il recevra en conséquence (peu ou pas d'expérience), plutôt que comme pour un monstre de ce FP.
+
+'''Étape 5 : Déterminer la Complexité.''' La Complexité d'une bibliothèque devrait être assez difficile puisque les règles de recherche supposent que le meilleur chercheur est le chercheur principal, autorisent deux tests d'[[aider qqn|aider quelqu'un]], ajoutent souvent un bonus supplémentaire sur le test de Recherche, et offrent un bonus cumulatif sur les futurs tests de Recherche.
+
+Pour les bibliothèques simples, voir la table "[[Recherches#COMPLEXITEPARFP|Complexité d'une bibliothèque par FP]]" pour des exemples de DD de base. Pour une bibliothèque moyenne, ajoutez 5 au DD ; pour une bibliothèque difficile, ajoutez 10. Pour les bibliothèques extrêmement difficiles, vous pouvez augmenter la Complexité encore plus, mais sachez que la recherche dans une telle bibliothèque sera exceptionnellement difficile, il peut donc être plus judicieux d'augmenter le FP de la bibliothèque à la place.
+
+'''Étape 6 : Calculer les Points de savoir.''' Le nombre de points de savoir total d'une bibliothèque est souvent égal à trois fois le FP de la bibliothèque.
+
+'''Étape 7 : Déterminer la Contrainte temporelle.''' Grâce au bonus cumulatif sur les tests de Recherche, même un personnage de niveau 1 formé à l'une des compétences de recherche finira par faire des recherches complètes dans une bibliothèque de FP 20. S'il n'y a pas de sentiment de contrainte temporelle ou de pénalité d'échec (voir [[Recherches#ELEMENTSSUPPLEMENTAIRES|Éléments supplémentaires]]), le système de recherche devient simplement un retard inutile dans la progression de l'histoire puisque le résultat n'est pas remis en question. Pour cette raison, la plupart des tâches de recherche devraient inclure une limite stricte au nombre de jours dont disposent les PJs pour réussir. Comme la capacité des PJ à réduire les points de savoir d'une bibliothèque n'augmente pas aussi rapidement que les points de savoir de la bibliothèque, les bibliothèques de bas niveau ne nécessitent généralement qu'un ou deux tests de Recherche réussis pour atteindre 0 ps ; d'un autre côté, même le personnage le plus érudit ne peut espérer réduire une bibliothèque CR 20 à 0 ps qu'en 6 réussites (et un chercheur principal plus modeste aura probablement besoin d'au moins 12 succès). Ainsi, les bibliothèques à faible FP méritent une contrainte temporelle d'une semaine ou moins, alors que les bibliothèques à haut FP ont besoin d'au moins 2 semaines à un mois pour donner à la plupart des groupes suffisamment de temps pour les terminer. Comme toujours, il faut connaître son groupe lorsqu'on conçoit la contrainte temporelle. Si un groupe de haut niveau n'a personne avec plus de quelques rangs dans l'une des compétences associées, il aura besoin de plus de temps pour accumuler des bonus cumulatifs avant de pouvoir résoudre la bibliothèque.
+
+'''Étape 8 : Déterminer les Seuils de recherche.''' La dernière étape de la conception d'une bibliothèque consiste à créer ses seuils de recherche. En général, une bibliothèque de 25 ps ou moins a un seuil de recherche tous les 5 ps, révélé à intervalles de 5 ps, tandis qu'une bibliothèque de 30 ps ou plus a un seuil de recherche tous les 10 ps, révélé à intervalles de 10 ps. Cependant, il ne s'agit que d'une ligne directrice, et le nombre exact de seuils de recherche et leur fréquence doivent être déterminés par la quantité d'informations que la bibliothèque contient ou que l'intrigue requiert. Par exemple, une bibliothèque de 30 ps pourrait avoir des seuils de recherche à 20 ps, 10 ps et 0 ps, mais elle pourrait plutôt révéler des informations à 25 ps, 20 ps, 10 ps, 8 ps et 0 ps.
+
+Une fois que vous avez déterminé le nombre et la fréquence des seuils de recherche d'une bibliothèque, décidez de l'élément d'information spécifique révélé à chaque seuil de recherche. Chaque élément d'information acquis à un seuil de recherche doit être unique, en fonction de l'histoire que vous voulez raconter ou du sujet sur lequel les personnages font des recherches. Cependant, les nouvelles informations peuvent s'appuyer sur les anciennes, en les affinant par des détails plus spécifiques et des facettes utiles.
+
+{s:Reference|ELEMENTSSUPPLEMENTAIRES}
+====Éléments supplémentaires====
+Les bibliothèques peuvent être personnalisées davantage pour rendre la recherche plus difficile, plus gratifiante ou plus dangereuse en incorporant les éléments suivants.
+
+'''Langues supplémentaires.''' Une bibliothèque peut être entièrement constituée de volumes écrits dans des langues autres que le commun. Pour tenter un test de Recherche dans une telle bibliothèque, les personnages qui ne parlent pas la langue doivent réussir un test de [[Linguistique]] ou avoir accès à une magie telle que ''[[compréhension des langages]]'', et la magie doit être active pendant toute la session de recherche de 8 heures. Le DD du test de Linguistique dépend de la langue et du chercheur. Pour les langues humaines modernes, comme les langues ethniques ou nationales, ou les langues non-humaines qui sont incluses dans les langues supplémentaires raciales d'un personnage (comme un [[elfe]] qui tente de rechercher des écrits sylvestres), le DD est de 20. Pour les autres langues non-humaines qui ne font pas partie des langues supplémentaires raciales d'un personnage (comme un [[nain]] qui tente de faire des recherches dans une bibliothèque [[gnoll]]) ou les langues secrètes (comme le druidique), le DD est de 25. Pour les langues anciennes, archaïques, oubliées, d'un autre monde ou exceptionnellement rares, le DD est de 30. Un personnage utilisant la Linguistique pour traduire progresse à un tiers de la vitesse normale (il lui faut trois sessions de 8 heures au lieu d'une pour chaque test de Recherche et pour obtenir le bonus cumulatif de +1), et un personnage utilisant la Linguistique ou la magie subit un malus de -2 aux tests de Recherche en raison de la possibilité de perdre un contexte qui aurait été plus évident dans sa langue maternelle.
+
+'''Labyrinthes et chambres secrètes.''' Certaines bibliothèques sont labyrinthiques, soit tellement désorganisées qu'elles deviennent des puzzles, soit conçues à dessein pour cacher leurs plus grands secrets. D'autres bibliothèques peuvent être moins labyrinthiques, mais leurs secrets les plus profonds peuvent se trouver derrière des portes cachées ou dans des pièces dissimulées que seuls les plus déterminés peuvent découvrir.
+
+Dans le cas des labyrinthes, chaque seuil de recherche atteint entraîne le chercheur plus profondément dans les méandres déroutants de la bibliothèque. Trouver la sortie ou le chemin vers le prochain seuil de recherche nécessite soit une planification minutieuse (une piste d'objets, ou l'utilisation d'une ficelle pour retrouver le chemin), soit un test d'[[Intelligence]] réussi pour trouver le chemin. Le test d'Intelligence peut avoir un DD de 10, 15, ou même 20, et devrait prendre un temps approprié à la taille de la bibliothèque. Chaque tentative peut prendre des minutes, des heures, voire des jours si la bibliothèque est vraiment massive ou extradimensionnelle. Aucune autre recherche ne peut être menée tant que le chercheur ne trouve pas la sortie.
+
+Dans le cas des chambres secrètes, il faut généralement trouver les portes de ces lieux avant de pouvoir franchir un seuil de ps, ou bien ces chambres peuvent être plus symboliques, comme dans le cas de caractères écrits à l'encre invisible, cachés par une page secrète, ou nécessitant un [[Duels psychiques|duel psychique]] avant que les secrets ne soient révélés et que l'on puisse progresser dans la recherche.
+
+'''Rencontres de bibliothèque.''' Les livres et les parchemins ne sont pas les seules choses que l'on trouve dans les bibliothèques. Une bibliothèque peut être transformée en une aventure ou un donjon à part entière avec des chambres et des salles séparées servant de lieux de rencontre différents. Lorsque les PJs entreprennent leurs recherches dans la bibliothèque, ils peuvent combattre les monstres qui l'habitent, jouer un rôle avec des PNJs engagés dans leurs propres recherches, ou surmonter des dangers, des pièges et d'autres obstacles, comme des plafonds et des murs qui s'effondrent, des ''[[runes explosives]]'', des ''[[piège à feu|pièges à feu]]'', des ''[[glyphe de garde|glyphes de garde]]'', des pages secrètes, des symboles, ou simplement des échelles branlantes et des étagères instables. En outre, la recherche dans une pièce donnée de la bibliothèque peut permettre aux personnages de réduire les points de savoir de la bibliothèque d'un montant limité. Afin de réduire complètement les ps de la bibliothèque à 0, les PJs doivent peut-être visiter plusieurs collections de la bibliothèque, et rencontrer tous les dangers de ces pièces avant que leurs recherches ne soient terminées. Certaines bibliothèques peuvent générer des gardiens de façon régulière, forçant ainsi des rencontres quotidiennes ou hebdomadaires jusqu'à ce que les PJs parviennent à réduire le ps de la bibliothèque à 0.
+
+'''Pénalités d'échec.''' Certaines bibliothèques sont si alambiquées et déroutantes qu'échouer à un test de Recherche peut entraver la progression d'un chercheur, voire la contrecarrer entièrement. Cela peut être le résultat d'une organisation excessivement mauvaise, comme dans le fatras de livres accumulés pendant des décennies par un vieux magicien sénile, ou d'un obscurcissement délibéré, comme dans le cas des contrats infernaux. Dans de telles bibliothèques, diverses pénalités ou conséquences inhabituelles peuvent survenir après un certain nombre de tests de Recherche ou après un test de Recherche raté. Une telle bibliothèque peut ne pas autoriser le bonus cumulatif sur les tests de Recherche ultérieurs pour chaque période de 8 heures. De plus, l'échec de deux tests de Recherche consécutifs signifie que le chercheur est dans une impasse dans ses études et qu'il est incapable de diminuer davantage les points de savoir de la bibliothèque. Dans ce cas, les points de savoir de la bibliothèque reviennent au maximum et le chercheur ne peut plus tenter de faire des recherches dans cette bibliothèque particulière jusqu'à ce qu'il gagne un rang dans au moins une des compétences associées à la bibliothèque ou qu'il récupère une clé ou un indice pour l'aider à la déchiffrer.
+
+'''Récompenses de recherche.''' Les personnages peuvent acquérir plus que de simples connaissances dans les bibliothèques ; ils peuvent également y trouver des trésors de valeur. Vous pouvez placer des trésors dans une bibliothèque qui ne sont découverts que lorsque les ps de la bibliothèque sont réduits à des seuils de recherche spécifiques. Ces trésors prennent souvent la forme de [[Parchemins magiques|parchemins]], de [[grimoires]], de manuels et de tomes magiques, ou d'objets "intellectuels" tels qu'un ''[[bandeau dintelligence|bandeau d'intelligence]]'' ou un ''[[heaume de compréhension]]''. D'autres objets comme des [[Bâtons magiques|bâtons]], des [[Baguettes magiques|baguettes]], des [[Statuette merveilleuse|statuettes merveilleuses]], ou même des [[Boule de cristal|boules de cristal]] peuvent être enterrés ou cachés derrière de grandes piles de livres, n'attendant que d'être découverts par des chercheurs assidus.
+
+'''Compétences spécialisées.''' Au lieu d'assigner des compétences de [[Connaissances]] spécifiques au test de Recherche d'une bibliothèque, vous pouvez utiliser la [[Linguistique]] comme compétence de Recherche par défaut, et assigner des compétences spécialisées qui reflètent la nature spécifique des collections de la bibliothèque. Pour effectuer des recherches dans une telle bibliothèque, un personnage doit réussir un test de Linguistique ou l'un des tests de compétence spécialisée listés dans le profil de la bibliothèque. Le test de Linguistique suit toutes les règles normales des tests de Recherche, mais si un chercheur utilise le test le plus spécialisé pour effectuer ses recherches, il gagne un bonus de circonstances de +2 sur le test pour avoir utilisé précisément la compétence correcte pour cette bibliothèque, par opposition à l'utilisation plus générale de la Linguistique. Cet élément suit par ailleurs toutes les autres règles relatives aux tests de Recherche. Toute compétence, et pas seulement les compétences de Connaissances, peut être une compétence spécialisée. Par exemple, une bibliothèque militaire peut avoir la [[Profession]] (soldat) comme compétence spécialisée, des archives de pièces de théâtre célèbres peuvent utiliser la [[Représentation]] (scène), ou un tome de magie arcanique peut permettre la [[Art de la magie]] comme compétence spécialisée. Le bonus de circonstances des compétences spécialisées remplace le bonus général aux tests de Connaissances qu'une bibliothèque accorderait autrement ; ainsi, si la bibliothèque est particulièrement utile, elle peut accorder plus qu'un bonus de circonstances de +2.
+
+{s:Reference|EXEMPLES}
+===Exemples de bibliothèque===
+Les bibliothèques peuvent exister sous une grande variété de formes, depuis les collections de livres imprimés, de parchemins manuscrits et de volumes indexés jusqu'aux tomes encyclopédiques de sagesse abstruse ou aux contrats juridiques minutieusement détaillés et remplis d'un verbe impénétrable. Voici quelques exemples de bibliothèques que les personnages peuvent visiter pour effectuer des recherches. Plutôt qu'un nom spécifique, chacune de ces bibliothèques est désignée par un titre générique qui indique la nature de ses collections ou son emplacement. Les MJ peuvent s'inspirer de ces exemples pour créer leurs propres bibliothèques personnalisées.
+
+====Lire le profil d'une bibliothèque====
+Les bibliothèques présentées ici suivent le format suivant.
+
+'''Nom de la bibliothèque.''' Il s'agit du nom de la bibliothèque, des archives, du livre ou de tout autre dépôt de connaissances.
+
+'''FP.''' C'est le FP de la bibliothèque, qui représente sa complexité et les dangers possibles qu'elle recèle.
+
+'''PX.''' Cette entrée indique les points d'expérience gagnés en réduisant lla bibliothèque à 0 ps.
+
+'''Complexité.''' Cette valeur est le DD du test de Recherche nécessaire pour réduire le ps de la bibliothèque.
+
+'''Langues.''' Cette liste énumère les langues nécessaires pour naviguer dans la bibliothèque sans aide magique ni test de [[Linguistique]]. Si une bibliothèque possède plusieurs langues et que le chercheur ne possède pas la capacité de lire toutes les langues listées, il peut quand même tenter des tests, mais pour chaque langue qu'il ne connaît pas, il subit un malus de -2 aux tests de Recherche.
+
+'''Test de Recherche.''' Cette entrée liste les compétences (généralement des compétences de [[Connaissances]]) qui peuvent être utilisées pour effectuer des tests de Recherche. Si une bibliothèque autorise les tests de Connaissances sans formation en raison de l'étendue de ses collections, cela est également indiqué dans cette section.
+
+'''Bonus de connaissance.''' Cette entrée liste le bonus (s'il y en a un) qu'une bibliothèque accorde à des tests de [[Connaissances]] spécifiques. Ce bonus s'applique à toutes les compétences de Connaissances qui peuvent être utilisées pour les tests de Recherche dans cette bibliothèque, et affecte tous les tests de ce type tentés par un personnage à l'intérieur d'une bibliothèque ou étudiant son contenu, qu'il s'agisse de tests de Recherche ou de simples tests de Connaissances.
+
+'''ps.''' Cette entrée indique le nombre maximal de points de savoir de la bibliothèque.
+
+'''Seuils de recherche.''' Ces entrées énumèrent les seuils de recherche d'une bibliothèque, ainsi que l'élément d'information spécifique appris à chaque seuil.
+
+<table width="100%"><tr><td width="49%">
+====Bureau abandonné du sage local====
+Le sage du village a disparu depuis environ un mois. Non seulement les notes et les tomes de son bureau contiennent des secrets sur sa ville natale, mais une recherche minutieuse peut également permettre de découvrir des indices sur sa disparition.
+
+<div class="BD">
+{s:BDTitre|Bureau abandonné du sage local|FP 2}
+{s:BDTexte|'''PX 600'''}
+{s:BDTexte|'''Complexité''' 13 (facile)}
+{s:BDTexte|'''Langues''' commun}
+{s:BDTexte|'''Recherche''' [[Connaissances]] (folklore local) ou [[Connaissances]] (nature) ; '''Bonus de connaissance''' +0}
+{s:BDTexte|'''ps''' 6}
+{s:BDSoustitre|Seuils de recherche}
+{s:BDTexte|'''ps 3''' À marée basse, une entrée cachée de cavernes souterraines devient visible sous les quais de la ville. Selon un certain nombre de légendes locales, des pirates auraient caché leur butin dans ces grottes.}
+{s:BDTexte|'''ps 1''' La vendeuse de fleurs sur la place du village est la fille illégitime du prêtre local. Étant donné le vœu de chasteté du prêtre, si cette information était rendue publique, il pourrait perdre le respect des habitants et probablement son poste de prêtre de la ville.}
+{s:BDTexte|'''ps 0''' Le chef des bandits dans les bois à l'extérieur de la ville prétend être le seigneur déchu de la baronnie voisine, et veut lever une armée pour reprendre son titre et ses terres. Les notes du sage indiquent qu'il avait l'intention de rechercher ce seigneur bandit et d'utiliser ses archives pour aider à prouver la véracité de la revendication.}
+</div>
+
+====Bibliothèque arcanique du mage====
+Le cruel magicien ayant été vaincu, le seul indice du type de protection qu'il a placé sur son grimoire se trouve dans sa bibliothèque arcanique. La bibliothèque contient également d'autres secrets.
+
+<div class="BD">
+{s:BDTitre|Bibliothèque arcanique du mage|FP 6}
+{s:BDTexte|'''PX 2.400'''}
+{s:BDTexte|'''Complexité''' 18 (facile)}
+{s:BDTexte|'''Langues''' commun}
+{s:BDTexte|'''Recherche''' [[Connaissances]] (mystères, sans formation), [[Connaissances]] (plans) ou [[Connaissances]] (religion) ; '''Bonus de connaissance''' +2}
+{s:BDTexte|'''ps''' 18}
+{s:BDSoustitre|Seuils de recherche}
+{s:BDTexte|'''ps 15''' Le grimoire du mage est protégé par un ''[[piège à feu]]''.}
+{s:BDTexte|'''ps 10''' Le mot de passe pour désactiver le ''piège à feu'' du grimoire est « everiss ».}
+{s:BDTexte|'''ps 5''' Le fantôme que le magicien garde enfermé dans la tour ne peut être définitivement détruit que si son alliance est rendue à ses descendants. Le magicien a caché l'alliance dans sa forteresse extraplanaire.}
+{s:BDTexte|'''ps 0''' Le vénérable [[xorn]] Gissijaak a un goût prononcé pour les grenats, et peut être convaincu de guiderdes personnes vers la forteresse extraplanaire du magicien sur le plan de la Terre s'il est soudoyé avec une pierre particulièrement grosse.}
+</div>
+</td><td width="2%">
+</td><td width="49%">
+====École militaire impériale====
+Bien que cette vaste collection de traités, parchemins, schémas et plans de bataille ait tendance à traiter de stratégie militaire et de construction de fortifications, des secrets sont cachés parmi certains de ses ouvrages les plus obscurs. Ces secrets donnent un aperçu des hobgobelins qui se massent sur les terres frontalières du duché, ainsi que le sort d'un héritage disparu depuis longtemps et un possible moyen de le récupérer.
+
+<div class="BD">
+{s:BDTitre|École militaire impériale|FP 12}
+{s:BDTexte|'''PX 19.200'''}
+{s:BDTexte|'''Complexité''' 32 (moyenne)}
+{s:BDTexte|'''Langues''' commun}
+{s:BDTexte|'''Recherche''' [[Connaissances]] (ingénierie, sans formation), [[Connaissances]] (histoire) ou [[Profession]] (soldat, sans formation) ; '''Bonus de connaissance''' +4}
+{s:BDTexte|'''ps''' 36}
+{s:BDSoustitre|Seuils de recherche}
+{s:BDTexte|'''ps 30''' Le maître Saval de l'établissement Le Marteau et l'Enclume croit que les cheveux roux sont une bénédiction du Seigneur des Batailles, et offre fréquemment des réductions sur les armes de maître et magiques aux guerriers roux.}
+{s:BDTexte|'''ps 25''' Lorsque le duc de Gacy a été tué lors de la bataille des Cent Lances, son bouclier légendaire, Bastion, n'a jamais été retrouvé. On pense que le chef de guerre des hobgobelins, Klathuk l'Impitoyable, l'a pris comme trophée.}
+{s:BDTexte|'''ps 15''' Des plans détaillés illustrent les forces et les faiblesses de Fort Kallin. Tous les forts de la frontière nord ont été construits selon le même plan.}
+{s:BDTexte|'''ps 5''' Les rapports de reconnaissance mentionnent un bouclier correspondant à la description de Bastion dans les mains d'un seigneur de guerre hobgobelin qui rassemble actuellement une armée dans les Collines jaunes. La rumeur veut que ce nouveau chef de guerre soit le descendant de Klathuk l'Impitoyable ou qu'il ait vaincu le vieux seigneur de guerre au combat.}
+{s:BDTexte|'''ps 0''' Une poterne secrète dans le mur sud-est du château Daminal permet d'accéder à la caserne des gardes. Le château est tombé aux mains du seigneur de guerre hobgobelin il y a un mois, et on pense qu'il l'utilise comme base d'opérations.}
+</div>
+
+====Palais mental du dragon astral====
+Cette bibliothèque ésotérique est un [[Paysages mentaux|paysage mental immersif]] où un [[Dragon astral vénérable|dragon astral vénérable]] stocke ses connaissances et ses souvenirs dans un palais de nuage élaboré. Le paysage mental est évident et a une forme autonome. Sa réaction est inoffensive, et sa gravité, son temps et sa magie fonctionnent normalement en son sein.
+
+Le palais mental du dragon est extrêmement complexe et contient presque toutes les expériences qu'il a vécues au cours de ses millénaires d'existence, classées de manière très étrange. Ce qui rend la démarche encore plus difficile, c'est que les étrangers ne peuvent accéder au paysage mental que lorsque le dragon dort. Bien que le dragon ait tendance à s'assoupir pendant de longues périodes (généralement entre 7 et 13 jours), lorsqu'il se réveille, tout intrus est expulsé du paysage mental - à moins qu'il ne découvre le secret qui lui permet de rester dans le paysage mental pendant que le dragon est éveillé.
+
+<div class="BD">
+{s:BDTitre|Palais mental du dragon astral|FP 18}
+{s:BDTexte|'''PX 153.600'''}
+{s:BDTexte|'''Complexité''' 46 (difficile)}
+{s:BDTexte|'''Langues''' draconique}
+{s:BDTexte|'''Recherche''' [[Connaissances]] (mystères), [[Connaissances]] (histoire) ou [[Connaissances]] (plans) ; '''Bonus de connaissance''' +5}
+{s:BDTexte|'''ps''' 54}
+{s:BDSoustitre|Seuils de recherche}
+{s:BDTexte|'''ps 50''' Le dragon a sauvé un groupe de [[Shulsaga|shulsagas]] et, en échange de son aide, ces étranges humanoïdes lui ont donné un mot de passe qui permet au dragon ou à n'importe lequel de ses alliés de pénétrer sans entrave dans le territoire des shulsagas.}
+{s:BDTexte|'''ps 40''' Le mot de passe shulsaga est « kayith namast ».}
+{s:BDTexte|'''ps 30''' Dans une section particulièrement instable du plan Astral, les shulsagas construisent un grand vaisseau qu'ils prévoient d'utiliser pour faire des raids sur d'autres plans. Ils semblent particulièrement préoccupés par les raids sur le Cimetière, le plan de l'Énergie négative et le plan de l'Énergie positive.}
+{s:BDTexte|'''ps 20''' Il existe un moyen pour les intrus de rester dans le palais mental pendant que le dragon est éveillé. Ils doivent d'abord être la cible d'une ''[[ancre dimensionnelle]]'' en étant dans le palais mental du dragon et s'abstenir de manger, boire ou dormir pendant que le dragon est éveillé.}
+{s:BDTexte|'''ps 10''' Une carte planaire montre de nombreux portails dispersés dans le plan Astral qui permettent de passer dans la plupart des autres plans connus. Le dragon pense que ces portails ont été créés par des [[Manasaputra|manasaputras]], mais il n'a pas été en mesure d'apprendre pourquoi ils ont été créés ou quelles clés sont nécessaires pour les ouvrir.}
+{s:BDTexte|'''ps 5''' Le dragon astral a accumulé un trésor substantiel conservé sur le plan de l'Énergie positive aux soins d'un groupe de [[jyoti]]. Le dragon s'inquiète du fait que les jyoti n'ont pas l'intention de lui rendre son bien.}
+{s:BDTexte|'''ps 0''' Une carte et un rituel occulte trouvés dans la bibliothèque prétendent permettre aux créatures vivantes de pénétrer dans les Annales akashiques, un demi-plan du plan Astral lié au cœur de la philosophie occulte.}
+</div>
+</td></tr></table>
