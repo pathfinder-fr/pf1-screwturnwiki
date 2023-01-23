@@ -1,0 +1,36 @@
+---
+Name: Pathfinder-RPG.Interrogateur (alchimiste)
+Title: Interrogateur
+LastModified: 2023-01-18 15:05
+Categories:
+  - 'Archétype'
+  - 'Archétype alchimiste'
+  - 'Src Ultimate Intrigue'
+---
+{s:Menuarchétypealchimiste}{s:cs}{s:UI}''Un interrogateur extrait des informations vitales à partir d'individus réticents en utilisant des méthodes traditionnelles et alchimiques.''
+
+====Compétences de classe====
+Un interrogateur ajoute [[Intimidation]] et [[Psychologie]] à sa liste de compétences de classe. Cela modifie les compétences de classe de l'alchimiste.
+
+====Injections (Sur)====
+Au niveau 1, un interrogateur utilise son talent avec l'alchimie pour créer des injections. Chaque jour, un interrogateur peut créer un nombre d'injections égal à son niveau d'alchimiste + son modificateur d'[[Intelligence]]. Il faut 1 heure pour préparer les injections. Une injection est inerte jusqu'à ce que l'interrogateur tente de l'utiliser.
+
+Utiliser une injection est une [[action simple]] qui nécessite une [[contact|attaque de contact]] au corps à corps. Si l'attaque touche, la cible d'une injection subit un malus de -2 aux [[jds|jets de sauvegarde]] de [[Volonté]] pendant un nombre de minutes égal à la moitié du niveau de classe de l'interrogateur (minimum 1). Si l'interrogateur utilise un sérum avec cette injection, le malus aux jets de Volonté s'applique à tout jet de sauvegarde effectué contre le sérum.
+
+Si l'attaque échoue, l'injection n'est pas administrée mais peut être utilisée à nouveau - une fois activée, elle conserve sa puissance pendant 1 jour. Une injection qui n'a pas été administrée devient inerte si elle quitte l'interrogateur, et se réactive dès qu'il la récupère. Les malus de plusieurs injections ne se cumulent pas entre eux, ni avec ceux du [[Hypnotiseur#REGARDHYPNOTIQUE|regard hypnotique]] d'un hypnotiseur ou du maléfice [[Maléfices#Mauvaisœil|mauvais œil]] d'une sorcière. Les injections sont des [[registre|effets mentaux]] de [[registre|poison]]. Cette capacité remplace les [[Alchimiste#BOMBES|bombes]] de l'alchimiste.
+
+====Sérums (Sur)====
+Au niveau 1, un interrogateur augmente son pouvoir d'influence sur les autres grâce à des sérums complémentaires. Un interrogateur prépare ses sérums en même temps que ses injections et peut les appliquer à n'importe quelle injection par une [[action rapide]] avant d'effectuer le [[jet dattaque|jet d'attaque]] de l'injection. Un interrogateur connaît un sérum au niveau 1 et peut choisir un autre sérum à la place d'une [[Alchimiste#DECOUVERTES|découverte]]. Le [[DD]] des sérums est égal à 10 + la moitié du niveau d'alchimiste de l'interrogateur + son modificateur d'[[Intelligence]]. Une créature ne peut être sous l'effet que d'un seul sérum à la fois - à l'exception du sérum de modification de mémoire - et n'importe quel nouveau sérum administré à une créature remplace le précédent. Sauf précision contraire, une créature qui réussit son [[jds|jet de sauvegarde]] contre un sérum est immunisée aux effets de ce sérum pendant 24 heures. Un interrogateur ne peut jamais obtenir une quelconque sorte de mutagène ou de cognatogène, même grâce à une découverte ou une autre classe. Cette capacité remplace [[Alchimiste#MUTAGENES|mutagènes]] et [[Alchimiste#MUTAGENEPERSISTANT|mutagène persistant]].
+* '''''Charme.''''' La créature piquée doit réussir un jet de [[Volonté]] ou traiter l'interrogateur de façon favorable, comme si elle était affectée par un sort de ''[[charme-personne]]'' avec un [[NLS|niveau de lanceur de sorts]] égal au niveau d'alchimiste de l'interrogateur. Au niveau 8, ce sérum fonctionne comme ''[[charme-monstre]]''.
+
+* '''''Coopération.''''' Si elle rate son jet de [[Volonté]], la cible de cette injection est affectée par un sort de ''[[suggestion]]'' avec un [[NLS|niveau de lanceur de sorts]] égal au niveau d'alchimiste de l'interrogateur. Un alchimiste doit avoir atteint le niveau 8 avant de choisir ce sérum.
+
+* '''''Confusion.''''' Si elle rate son jet de [[Volonté]], la créature piquée est [[confus|confuse]] pendant 1 [[round]] par niveau d'alchimiste de l'interrogateur. Un alchimiste doit avoir atteint le niveau 6 avant de choisir ce sérum.
+
+* '''''Hypnose.''''' La créature piquée doit réussir un jet de [[Volonté]] ou devenir [[fasciné|fascinée]] pendant 1 [[round]] par niveau d'alchimiste de l'interrogateur.
+
+* '''''Modification de mémoire.''''' Si elle rate son jet de [[Volonté]], la cible de cette injection est affectée par un sort de ''[[modification de mémoire]]'' avec un [[NLS|niveau de lanceur de sorts]] égal au niveau d'alchimiste de l'interrogateur. Un alchimiste doit avoir atteint le niveau 12 avant de choisir ce sérum.
+
+* '''''Paralytique.''''' Si elle rate son jet de [[Volonté]], la créature piquée est affectée par un sort d' ''[[immobilisation de personne]]'' avec un [[NLS|niveau de lanceur de sorts]] égal au niveau d'alchimiste de l'interrogateur. Un alchimiste doit avoir atteint le niveau 8 avant de choisir ce sérum.
+
+* '''''Vérité.''''' Une créature piquée avec un sérum de vérité doit réussir un jet de [[Volonté]] ou être forcée de répondre honnêtement aux questions de l'interrogateur. L'interrogateur peut poser une question tous les 2 niveaux d'alchimiste (minimum 1). Les réponses peuvent être brèves, cryptiques ou répétitives, surtout si la créature piquée est inamicale, mais elles ne sont jamais fausses. Si une créature a été sujette à un sérum de vérité dans la semaine précédente, tout nouveau sérum reste sans effet, que la créature réussisse son jet de sauvegarde ou non.
