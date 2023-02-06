@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.dons décole
 Title: Dons d'école
-LastModified: 2022-02-28 17:41
+LastModified: 2023-02-01 14:58
 Categories:
   - 'Don école'
   - 'Liste de dons'
@@ -32,11 +32,10 @@ function addPrereqIconIfNeeded() {
 	  $(this).children("td").first().append($(icon));
 	}
 }
-</script>{s:MenuDons}{s:uc}Pendant des siècles, les plus grands combattants ont observé la nature et le multivers pour y puiser une inspiration guerrière. D’innombrables ordres monastiques et contemplatifs ont développé des écoles de combat à mains nues basées sur l’efficacité mortelle et la grâce de créatures naturelles ou non. Au départ, ces techniques étaient réservées à des ordres secrets mais, depuis, elles se sont répandues dans le monde entier.
+</script>{s:MenuDons}Pendant des siècles, les plus grands combattants ont observé la nature et le multivers pour y puiser une inspiration guerrière. D’innombrables ordres monastiques et contemplatifs ont développé des écoles de combat à mains nues basées sur l’efficacité mortelle et la grâce de créatures naturelles ou non. Au départ, ces techniques étaient réservées à des ordres secrets mais, depuis, elles se sont répandues dans le monde entier.
 
 Par une [[action rapide]], le personnage peut adopter la posture de référence de l’école liée au don. Il ne peut pas utiliser de don d’école avant le début du combat mais il conserve la posture choisie jusqu’à ce qu’il dépense une action rapide pour changer d’école. Si une école particulière figure dans les conditions requises d’un don, le personnage doit obligatoirement se trouver dans la posture de cette école pour l’utiliser.  
-''Par exemple, si le personnage connaît des dons liés à l’École de la mante et à celle du tigre, il peut utiliser une
-action rapide pour adopter l’École du tigre au début de son tour puis utiliser d’autres dons qui exigent l’École du tigre comme condition requise. Au début du tour suivant, il peut dépenser une nouvelle action rapide pour adopter l’École de la mante et utiliser des dons associés à cette école.''
+''Par exemple, si le personnage connaît des dons liés à l’École de la mante et à celle du tigre, il peut utiliser une action rapide pour adopter l’École du tigre au début de son tour puis utiliser d’autres dons qui exigent l’École du tigre comme condition requise. Au début du tour suivant, il peut dépenser une nouvelle action rapide pour adopter l’École de la mante et utiliser des dons associés à cette école.''
 
 ''Les dons marqués d'un astérisque (*) sont des dons de combat.''
 
@@ -50,60 +49,11 @@ action rapide pour adopter l’École du tigre au début de son tour puis utilis
 | WIDTH="36%" | Avantages
 
 |- CLASS="premier donprincipal"
-| [[École de la furie orque]]* || <sup>''WMH''</sup> || [[Coup de brute]], [[Force intimidante]], 3 rangs en [[Intimidation]], trait racial [[Orque (race)#Traits_raciaux_standards_7|apprentissage martial]] || Utilise Coup de brute sur la première attaque à chaque round
-|- CLASS="alt donprérequis0"
-| &emsp;[[Dévastation orque]]* || <sup>''WMH''</sup> || [[Coup de brute]], [[Force intimidante]], [[École de la furie orque]], 5 rangs en [[Intimidation]], trait racial [[Orque (race)#Traits_raciaux_standards_7|apprentissage martial]] || Bonus à l'attaque et aux dégâts contre les adversaires secoués
-|- CLASS="donprérequis1"
-| &emsp;&emsp;[[Grognement orque]]* || <sup>''WMH''</sup> || [[Coup de brute]], [[Force intimidante]], [[École de la furie orque]], [[Dévastation orque]], 7 rangs en [[Intimidation]], trait racial [[Orque (race)#Traits_raciaux_standards_7|apprentissage martial]] || +4 aux jets de sauvegarde contre les effets créés par des adversaires secoués
-
-|- CLASS="premier alt donprincipal"
-| [[École de la grue]]* || <sup>AG</sup> || [[Esquive]], [[Science du combat à mains nues]], [[BBA]] +2 ou [[moine]] de niveau 1 || Malus de -2 quand le personnage se bat sur la défensive
-|- CLASS="donprérequis0"
-| &emsp;[[Aile de la grue]]* || <sup>AG</sup> || [[École de la grue]], [[Esquive]], [[Science du combat à mains nues]], [[BBA]] +5 ou [[moine]] de niveau 5 || En cas de combat sur la défensive ou de défense totale, le personnage dévie une attaque par round
-|- CLASS="alt donprérequis1"
-| &emsp;&emsp;[[Riposte de la grue]]* || <sup>AG</sup> || [[École de la grue]], [[Aile de la grue]], [[Esquive]], [[Science du combat à mains nues]], [[BBA]] +8 ou [[moine]] de niveau 7 || Quand le personnage dévie une attaque, il peut faire une attaque d’opportunité
-
-|- CLASS="premier donprincipal"
-| [[École de la lance dansante]]* || <sup>''WMH''</sup> || [[Dex]] 13, [[Combat à deux armes]], [[Arme de prédilection]] avec l'arme choisie || Ajoute l'attribut double à un type d'arme d'hast
-|- CLASS="alt donprérequis0"
-| &emsp;[[Spirale de la lance dansante]]* || <sup>''WMH''</sup> || [[Dex]] 15, [[École de la lance dansante]], [[Attaque en finesse]], [[Combat à deux armes]], [[Arme de prédilection]] avec l'arme choisie || Avantages d'Attaque en finesse avec École de la lance dansante
-|- CLASS="donprérequis1"
-| &emsp;&emsp;[[Allonge de la lance dansante]]* || <sup>''WMH''</sup> || [[Dex]] 17, [[École de la lance dansante]], [[Spirale de la lance dansante]], [[Attaque en finesse]], [[Combat à deux armes]], [[Arme de prédilection]] avec l'arme choisie || Allonge augmentée avec École de la lance dansante
-
-|- CLASS="premier alt donprincipal"
-| [[École de la mante]]* || <sup>AG</sup> || [[Science du combat à mains nues]], [[Coup étourdissant]], 3 rangs en [[Premiers secours]] || 1 utilisation quotidienne de Coup étourdissant de plus, DD du Coup étourdissant augmenté de 2
-|- CLASS="donprérequis0"
-| &emsp;[[Sagesse de la mante]]* || <sup>AG</sup> || [[Science du combat à mains nues]], [[École de la mante]], [[Coup étourdissant]], 6 rangs en [[Premiers secours]] || Pour les effets du Coup étourdissant, le personnage compte la moitié de ses niveaux d’autres classes comme des niveaux de moine
-|- CLASS="alt donprérequis1"
-| &emsp;&emsp;[[Tourment de la mante]]* || <sup>AG</sup> || 9 rangs en [[Premiers secours]], [[Science du combat à mains nues]], [[École de la mante]], [[Sagesse de la mante]], [[Coup étourdissant]] || 1 utilisation quotidienne de Coup étourdissant de plus, possibilité d’éblouir l’adversaire et de le rendre chancelant avant de le fatiguer
-
-|- CLASS="premier donprincipal"
-| [[École de la panthère]]* || <sup>AG</sup> || [[Sag]] 13, [[Attaques réflexes]], [[Science du combat à mains nues]]. || Le personnage riposte contre un adversaire qui fait une attaque d’opportunité contre lui
-|- CLASS="alt donprérequis0"
-| &emsp;[[Griffe de la panthère]]* || <sup>AG</sup> || [[Sag]] 15, [[Attaques réflexes]], [[Science du combat à mains nues]], [[École de la panthère]] || La riposte est une action libre et non rapide
-|- CLASS="donprérequis1"
-| &emsp;&emsp;[[Parade de la panthère]]* || <sup>AG</sup> || [[Sag]] 15, [[Attaques réflexes]], [[Science du combat à mains nues]], [[Griffe de la panthère]], [[École de la panthère]] || La riposte se produit avant l’attaque qui l’a provoquée
-
-|- CLASS="premier alt donprincipal"
-| [[École de la tortue alligator]]* || <sup>AG</sup> || [[Science du combat à mains nues]], [[BBA]] +1 ou [[moine]] de niveau 1 || Quand le personnage a une main libre, il gagne un bonus de bouclier de +1 à la CA
-|- CLASS="donprérequis0"
-| &emsp;[[Étreinte de la tortue alligator]]* || <sup>AG</sup> || [[École de la tortue alligator]], [[Science de la lutte]], [[Science du combat à mains nues]], [[BBA]] +3 ou [[moine]] de niveau 3 || Le bonus de bouclier s’applique au DMD et à la CA au contact
-|- CLASS="alt donprérequis1"
-| &emsp;&emsp;[[Carapace de la tortue alligator]]* || <sup>AG</sup> || [[Étreinte de la tortue alligator]], [[École de la tortue alligator]], [[Science de la lutte]], [[Science du combat à mains nues]], [[BBA]] +5 ou [[moine]] de niveau 5 || Le bonus de CA augmente de 2 et les adversaires ont un malus de -4 aux confirmations de coup critique
-
-|- CLASS="premier donprincipal"
 | [[École de lascète|École de l'ascète]]* || <sup>''WMH''</sup> || [[Arme de prédilection]] avec l'arme de corps à corps choisie, [[BBA]] +1 ou [[moine]] de niveau 1  || Utilise des armes dans le cadre des capacités à mains nues
 |- CLASS="alt donprérequis0"
 | &emsp;[[Forme de lascète|Forme de l'ascète]]* || <sup>''WMH''</sup> || [[École de lascète|École de l'ascète]], [[Arme de prédilection]] avec l'arme de corps à corps choisie, [[BBA]] +5 ou [[moine]] de niveau 5 || Utilise une nouvelle arme de corps à corps dans le cadre des capacités à mains nues
 |- CLASS="donprérequis1"
 | &emsp;&emsp;[[Frappe de lascète|Frappe de l'ascète]]* || <sup>''WMH''</sup> || [[Forme de lascète|Forme de l'ascète]], [[École de lascète|École de l'ascète]], [[Arme de prédilection]] avec l'arme choisie, [[BBA]] +7 ou [[moine]] de niveau 7 || Utilise les dégâts à mains nues d'un moine de niveau inférieur à la place des dés de dégâts de l'arme
-
-|- CLASS="premier alt donprincipal"
-| [[École de la sentinelle]]* || <sup>''WMH''</sup> || [[Tir de précision]], [[Tir rapide]], [[Arme de prédilection]] avec l'arme choisie || Prépare deux attaques à distance
-|- CLASS="donprérequis0"
-| &emsp;[[Tactique de sentinelle]]* || <sup>''WMH''</sup> || [[École de la sentinelle]], [[Tir de précision]], [[Tir rapide]], [[Arme de prédilection]] avec l'arme choisie. || Prépare deux attaques à distance par une action simple au lieu d'une action complexe
-|- CLASS="alt donprérequis1"
-| &emsp;&emsp;[[Tourbillon de la sentinelle]]* || <sup>''WMH''</sup> || [[Tactique de la sentinelle]], [[École de la sentinelle]], [[Tir de précision]], [[Tir rapide]], [[Arme de prédilection]] avec l'arme choisie, [[BBA]] +11 || Prépare jusqu'à quatre attaques à distance au lieu de deux avec École de la sentinelle
 
 |- CLASS="premier alt donprincipal"
 | [[École de lefrit|École de l'efrit]]* || <sup>AG</sup> || [[Con]] 13, [[Sag]] 15, [[Poing élémentaire]], [[Science du combat à mains nues]], [[BBA]] +9 ou [[moine]] de niveau 5 || Une utilisation quotidienne de Poing élémentaire de plus et un bonus aux dégâts de feu
@@ -113,18 +63,18 @@ action rapide pour adopter l’École du tigre au début de son tour puis utilis
 | &emsp;&emsp;[[Caresse de lefrit|Caresse de l'efrit]]* || <sup>AG</sup> || [[Con]] 15, [[Sag]] 17, [[École de lefrit|École de l'efrit]], [[Posture de lefrit|Posture de l'efrit]], [[Poing élémentaire]], [[Science du combat à mains nues]], [[BBA]] +13 ou [[moine]] de niveau 11 || Le personnage projette un cône de feu qui peut enflammer ses adversaires
 
 |- CLASS="premier donprincipal"
-| [[École de lempoigneur|École de l'empoigneur]]* || <sup>MCA</sup> || [[Science de la lutte]]; [[BBA]] +6, capacité de classe [[Lutteur#DELUGEDECOUPSDULUTTEUR|déluge de coups du lutteur]] ou [[Moine#DELUGEDECOUPS|déluge de coups]] || Le personnage ne reçoit aucun malus lorsqu’il agrippe un ennemi à une main et conserve son bonus de Dex à la CA quand il l’immobilise
+| [[École de lempoigneur|École de l'empoigneur]]* || <sup>MCA</sup> || [[Science de la lutte]]; [[BBA]] +6, capacité de classe [[Lutteur#DELUGEDECOUPSDULUTTEUR|déluge de coups du lutteur]] ou [[Moine#DELUGEDECOUPS|déluge de coups]] || Le personnage ne reçoit aucun malus lorsqu'il agrippe un ennemi à une main et conserve son bonus de Dex à la CA quand il l'immobilise
 |- CLASS="alt donprérequis0"
-| &emsp;[[Traction de lempoigneur|Traction de l'empoigneur]]* || <sup>MCA</sup> || [[École de lempoigneur|École de l'empoigneur]], [[Science de la lutte]]; [[BBA]] +8, [[lutteur]] de niveau 4, ou [[moine]] de niveau 4 || Le personnage se déplace plus loin avec les ennemis qu’il traîne
+| &emsp;[[Traction de lempoigneur|Traction de l'empoigneur]]* || <sup>MCA</sup> || [[École de lempoigneur|École de l'empoigneur]], [[Science de la lutte]]; [[BBA]] +8, [[lutteur]] de niveau 4, ou [[moine]] de niveau 4 || Le personnage se déplace plus loin avec les ennemis qu'il traîne
 |- CLASS="donprérequis1"
-| &emsp;&emsp;[[Maître empoigneur]]* || <sup>MCA</sup> || [[Traction de lempoigneur|Traction de l'empoigneur]], [[École de lempoigneur|École de l'empoigneur]], [[Science de la lutte]]; [[BBA]] +12, [[lutteur]] de niveau 8, ou [[moine]] de niveau 8 || Le personnage agrippe deux ennemis au lieu d’un seul
+| &emsp;&emsp;[[Maître empoigneur]]* || <sup>MCA</sup> || [[Traction de lempoigneur|Traction de l'empoigneur]], [[École de lempoigneur|École de l'empoigneur]], [[Science de la lutte]]; [[BBA]] +12, [[lutteur]] de niveau 8, ou [[moine]] de niveau 8 || Le personnage agrippe deux ennemis au lieu d'un seul
 
 |- CLASS="premier alt donprincipal"
-| [[École de lenfant de la terre|École de l'enfant de la terre]]* || <sup>AG</sup> || [[Sag]] 13, [[nain]] ou [[gnome]], trait racial entraînement défensif, [[Science du combat à mains nues]], 3 rangs en [[Acrobaties]] || La CA de l’entraînement défensif passe à +6 contre les géants
+| [[École de lenfant de la terre|École de l'enfant de la terre]]* || <sup>AG</sup> || [[Sag]] 13, [[nain]] ou [[gnome]], trait racial entraînement défensif, [[Science du combat à mains nues]], 3 rangs en [[Acrobaties]] || La CA de l'entraînement défensif passe à +6 contre les géants
 |- CLASS="donprérequis0"
 | &emsp;[[Renversement de lenfant de la terre|Renversement de l'enfant de la terre]]* || <sup>AG</sup> || [[Sag]] 13, [[nain]] ou [[gnome]], trait racial entraînement défensif, [[École de lenfant de la terre|École de l'enfant de la terre]], [[Science du croc-en-jambe]], [[Science du combat à mains nues]], 6 rangs en [[Acrobaties]] || Le personnage peut faire un croc-en-jambe à un géant de taille TG au maximum
 |- CLASS="alt donprérequis1"
-| &emsp;&emsp;[[Lien de lenfant de la terre|Lien de l'enfant de la terre]]* || <sup>AG</sup> || [[Sag]] 13, [[nain]] ou [[gnome]], trait racial entraînement défensif, [[École de lenfant de la terre|École de l'enfant de la terre]], [[Renversement de lenfant de la terre|Renversement de l'enfant de la terre]], [[Croc-en-jambe supérieur]], [[Science du croc-en-jambe]], [[Science du combat à mains nues]], [[Coup étourdissant]], 9 rangs en [[Acrobaties]] || Le personnage peut faire un croc-en-jambe à un géant de n’importe quelle taille. Il peut décider d’appliquer le Coup étourdissant une fois qu’il sait que l’attaque d’opportunité portée contre un géant qui se relève a touché
+| &emsp;&emsp;[[Lien de lenfant de la terre|Lien de l'enfant de la terre]]* || <sup>AG</sup> || [[Sag]] 13, [[nain]] ou [[gnome]], trait racial entraînement défensif, [[École de lenfant de la terre|École de l'enfant de la terre]], [[Renversement de lenfant de la terre|Renversement de l'enfant de la terre]], [[Croc-en-jambe supérieur]], [[Science du croc-en-jambe]], [[Science du combat à mains nues]], [[Coup étourdissant]], 9 rangs en [[Acrobaties]] || Le personnage peut faire un croc-en-jambe à un géant de n'importe quelle taille. Il peut décider d'appliquer le Coup étourdissant une fois qu'il sait que l'attaque d'opportunité portée contre un géant qui se relève a touché
 
 |- CLASS="premier donprincipal"
 | [[École de lescrimeur|École de l'escrimeur]]* || <sup>''WMH''</sup> || [[Expertise du combat]], [[Arme de prédilection]] avec l'arme choisie, [[BBA]] +3 || Bonus de bouclier de +1 à la CA en combat sur la défensive, évite le malus d'Expertise du combat sur la première attaque à chaque round
@@ -134,9 +84,65 @@ action rapide pour adopter l’École du tigre au début de son tour puis utilis
 | &emsp;&emsp;[[Parade de lescrimeur|Parade de l'escrimeur]]* || <sup>''WMH''</sup> || [[Expertise du combat]], [[Science de la feinte]], [[École de lescrimeur|École de l'escrimeur]], [[Moquerie de lescrimeur|Moquerie de l'escrimeur]], [[Arme de prédilection]] avec l'arme choisie, [[BBA]] +7 || Abandonne une attaque pour perturber un adversaire
 
 |- CLASS="premier alt donprincipal"
-| [[École du boxeur]]* || <sup>MCA</sup> || [[Science du combat à mains nues]]; [[BBA]] +6, capacité de classe [[Lutteur#DELUGEDECOUPSDULUTTEUR|déluge de coups du lutteur]] ou [[Moine#DELUGEDECOUPS|déluge de coups]] || Gain d’un bonus aux dégâts quand deux attaques à mains nues ou plus touchent le même adversaire lors du tour
+| [[École de la furie orque]]* || <sup>''WMH''</sup> || [[Coup de brute]], [[Force intimidante]], 3 rangs en [[Intimidation]], trait racial [[Orque (race)#Traits_raciaux_standards_7|apprentissage martial]] || Utilise Coup de brute sur la première attaque à chaque round
 |- CLASS="donprérequis0"
-| &emsp;[[Danse du boxeur]]* || <sup>MCA</sup> || [[Esquive]], [[Science du combat à mains nues]], [[École du boxeur]], [[Souplesse du serpent]]; [[BBA]] +9, [[lutteur]] de nvieau 5, ou [[moine]] de niveau 5 || Le personnage se déplace de 1,50 mètre sans provoquer d’attaque d’opportunité chaque fois qu’il touche avec une attaque à mains nues
+| &emsp;[[Dévastation orque]]* || <sup>''WMH''</sup> || [[Coup de brute]], [[Force intimidante]], [[École de la furie orque]], 5 rangs en [[Intimidation]], trait racial [[Orque (race)#Traits_raciaux_standards_7|apprentissage martial]] || Bonus à l'attaque et aux dégâts contre les adversaires secoués
+|- CLASS="alt donprérequis1"
+| &emsp;&emsp;[[Grognement orque]]* || <sup>''WMH''</sup> || [[Coup de brute]], [[Force intimidante]], [[École de la furie orque]], [[Dévastation orque]], 7 rangs en [[Intimidation]], trait racial [[Orque (race)#Traits_raciaux_standards_7|apprentissage martial]] || +4 aux jets de sauvegarde contre les effets créés par des adversaires secoués
+
+|- CLASS="premier donprincipal"
+| [[École de la grue]]* || <sup>AG</sup> || [[Esquive]], [[Science du combat à mains nues]], [[BBA]] +2 ou [[moine]] de niveau 1 || Malus de -2 quand le personnage se bat sur la défensive
+|- CLASS="alt donprérequis0"
+| &emsp;[[Aile de la grue]]* || <sup>AG</sup> || [[École de la grue]], [[Esquive]], [[Science du combat à mains nues]], [[BBA]] +5 ou [[moine]] de niveau 5 || En cas de combat sur la défensive ou de défense totale, le personnage dévie une attaque par round
+|- CLASS="donprérequis1"
+| &emsp;&emsp;[[Riposte de la grue]]* || <sup>AG</sup> || [[École de la grue]], [[Aile de la grue]], [[Esquive]], [[Science du combat à mains nues]], [[BBA]] +8 ou [[moine]] de niveau 7 || Quand le personnage dévie une attaque, il peut faire une attaque d'opportunité
+
+|- CLASS="premier alt donprincipal"
+| [[École de la lance dansante]]* || <sup>''WMH''</sup> || [[Dex]] 13, [[Combat à deux armes]], [[Arme de prédilection]] avec l'arme choisie || Ajoute l'attribut double à un type d'arme d'hast
+|- CLASS="donprérequis0"
+| &emsp;[[Spirale de la lance dansante]]* || <sup>''WMH''</sup> || [[Dex]] 15, [[École de la lance dansante]], [[Attaque en finesse]], [[Combat à deux armes]], [[Arme de prédilection]] avec l'arme choisie || Avantages d'Attaque en finesse avec École de la lance dansante
+|- CLASS="alt donprérequis1"
+| &emsp;&emsp;[[Allonge de la lance dansante]]* || <sup>''WMH''</sup> || [[Dex]] 17, [[École de la lance dansante]], [[Spirale de la lance dansante]], [[Attaque en finesse]], [[Combat à deux armes]], [[Arme de prédilection]] avec l'arme choisie || Allonge augmentée avec École de la lance dansante
+
+|- CLASS="premier donprincipal"
+| [[École de la mante]]* || <sup>AG</sup> || [[Science du combat à mains nues]], [[Coup étourdissant]], 3 rangs en [[Premiers secours]] || 1 utilisation quotidienne de Coup étourdissant de plus, DD du Coup étourdissant augmenté de 2
+|- CLASS="alt donprérequis0"
+| &emsp;[[Sagesse de la mante]]* || <sup>AG</sup> || [[Science du combat à mains nues]], [[École de la mante]], [[Coup étourdissant]], 6 rangs en [[Premiers secours]] || Pour les effets du Coup étourdissant, le personnage compte la moitié de ses niveaux d'autres classes comme des niveaux de moine
+|- CLASS="donprérequis1"
+| &emsp;&emsp;[[Tourment de la mante]]* || <sup>AG</sup> || 9 rangs en [[Premiers secours]], [[Science du combat à mains nues]], [[École de la mante]], [[Sagesse de la mante]], [[Coup étourdissant]] || 1 utilisation quotidienne de Coup étourdissant de plus, possibilité d'éblouir l'adversaire et de le rendre chancelant avant de le fatiguer
+
+|- CLASS="premier alt donprincipal"
+| [[École de la panthère]]* || <sup>AG</sup> || [[Sag]] 13, [[Attaques réflexes]], [[Science du combat à mains nues]]. || Le personnage riposte contre un adversaire qui fait une attaque d'opportunité contre lui
+|- CLASS="donprérequis0"
+| &emsp;[[Griffe de la panthère]]* || <sup>AG</sup> || [[Sag]] 15, [[Attaques réflexes]], [[Science du combat à mains nues]], [[École de la panthère]] || La riposte est une action libre et non rapide
+|- CLASS="alt donprérequis1"
+| &emsp;&emsp;[[Parade de la panthère]]* || <sup>AG</sup> || [[Sag]] 15, [[Attaques réflexes]], [[Science du combat à mains nues]], [[Griffe de la panthère]], [[École de la panthère]] || La riposte se produit avant l'attaque qui l'a provoquée
+
+|- CLASS="premier donprincipal"
+| [[École de la rue]]* || <sup>''UI''</sup> || [[For]] 15, [[Attaque en puissance]], [[Science de la bousculade]], [[Science du combat à mains nues]], [[BBA]] +4 ou [[moine]] de niveau 3 || Inflige des dégâts supplémentaires et bouscule facilement en milieu urbain
+|- CLASS="alt donprérequis0"
+| &emsp;[[Balayage de la rue]]* || <sup>''UI''</sup> || [[For]] 15, [[Attaque en puissance]], [[École de la rue]], [[Science de la bousculade]], [[Science du combat à mains nues]], [[BBA]] +6 ou [[moine]] de niveau 5 || Attaquer un adversaire bousculé le fait tomber
+|- CLASS="donprérequis1"
+| &emsp;&emsp;[[Tuerie de la rue]]* || <sup>''UI''</sup> || [[For]] 15, [[Attaque en puissance]], [[Balayage de la rue]], [[École de la rue]], [[Science de la bousculade]], [[Science du combat à mains nues]], [[BBA]] +8 ou [[moine]] de niveau 7 || Le facteur de critique des attaques à mains nues passe à ×3
+
+|- CLASS="premier alt donprincipal"
+| [[École de la sentinelle]]* || <sup>''WMH''</sup> || [[Tir de précision]], [[Tir rapide]], [[Arme de prédilection]] avec l'arme choisie || Prépare deux attaques à distance
+|- CLASS="donprérequis0"
+| &emsp;[[Tactique de sentinelle]]* || <sup>''WMH''</sup> || [[École de la sentinelle]], [[Tir de précision]], [[Tir rapide]], [[Arme de prédilection]] avec l'arme choisie. || Prépare deux attaques à distance par une action simple au lieu d'une action complexe
+|- CLASS="alt donprérequis0"
+| &emsp;[[Tourbillon de la sentinelle]]* || <sup>''WMH''</sup> || [[Tactique de la sentinelle]], [[École de la sentinelle]], [[Tir de précision]], [[Tir rapide]], [[Arme de prédilection]] avec l'arme choisie, [[BBA]] +11 || Prépare jusqu'à quatre attaques à distance au lieu de deux avec École de la sentinelle
+
+|- CLASS="premier donprincipal"
+| [[École de la tortue alligator]]* || <sup>AG</sup> || [[Science du combat à mains nues]], [[BBA]] +1 ou [[moine]] de niveau 1 || Quand le personnage a une main libre, il gagne un bonus de bouclier de +1 à la CA
+|- CLASS="alt donprérequis0"
+| &emsp;[[Étreinte de la tortue alligator]]* || <sup>AG</sup> || [[École de la tortue alligator]], [[Science de la lutte]], [[Science du combat à mains nues]], [[BBA]] +3 ou [[moine]] de niveau 3 || Le bonus de bouclier s'applique au DMD et à la CA au contact
+|- CLASS="donprérequis1"
+| &emsp;&emsp;[[Carapace de la tortue alligator]]* || <sup>AG</sup> || [[Étreinte de la tortue alligator]], [[École de la tortue alligator]], [[Science de la lutte]], [[Science du combat à mains nues]], [[BBA]] +5 ou [[moine]] de niveau 5 || Le bonus de CA augmente de 2 et les adversaires ont un malus de -4 aux confirmations de coup critique
+
+|- CLASS="premier alt donprincipal"
+| [[École du boxeur]]* || <sup>MCA</sup> || [[Science du combat à mains nues]]; [[BBA]] +6, capacité de classe [[Lutteur#DELUGEDECOUPSDULUTTEUR|déluge de coups du lutteur]] ou [[Moine#DELUGEDECOUPS|déluge de coups]] || Gain d'un bonus aux dégâts quand deux attaques à mains nues ou plus touchent le même adversaire lors du tour
+|- CLASS="donprérequis0"
+| &emsp;[[Danse du boxeur]]* || <sup>MCA</sup> || [[Esquive]], [[Science du combat à mains nues]], [[École du boxeur]], [[Souplesse du serpent]]; [[BBA]] +9, [[lutteur]] de nvieau 5, ou [[moine]] de niveau 5 || Le personnage se déplace de 1,50 mètre sans provoquer d'attaque d'opportunité chaque fois qu'il touche avec une attaque à mains nues
 |- CLASS="alt donprérequis1"
 | &emsp;&emsp;[[Maître boxeur]]* || <sup>MCA</sup> || [[Esquive]], [[Science du combat à mains nues]], [[Danse du boxeur]], [[École du boxeur]], [[Souplesse du serpent]], [[Attaque en puissance]]; [[BBA]] +12, [[lutteur]] de niveau 8, ou [[moine]] de niveau 8 || Augmente les dégâts infligés avec École du boxeur
 
@@ -159,10 +165,10 @@ action rapide pour adopter l’École du tigre au début de son tour puis utilis
 |- CLASS="alt donprérequis0"
 | &emsp;[[Esprit du djinn]]* || <sup>AG</sup> || [[Con]] 15, [[Sag]] 15, [[École du djinn]], [[poing élémentaire]], [[Science du combat à mains nues]], [[BBA]] +11 ou [[moine]] de niveau 9 || 1 utilisation quotidienne de Poing élémentaire de plus et résistance aux dégâts électriques
 |- CLASS="donprérequis1"
-| &emsp;&emsp;[[Tourbillon du djinn]]* || <sup>AG</sup> || [[Con]] 15, [[Sag]] 17, [[École du djinn]], [[Esprit du djinn]], [[Poing élémentaire]], [[Science du combat à mains nues]], [[BBA]] +13 ou [[moine]] de niveau 11 || Le Poing élémentaire permet au personnage de s’entourer d’un halo d’électricité
+| &emsp;&emsp;[[Tourbillon du djinn]]* || <sup>AG</sup> || [[Con]] 15, [[Sag]] 17, [[École du djinn]], [[Esprit du djinn]], [[Poing élémentaire]], [[Science du combat à mains nues]], [[BBA]] +13 ou [[moine]] de niveau 11 || Le Poing élémentaire permet au personnage de s'entourer d'un halo d'électricité
 
 |- CLASS="premier alt donprincipal"
-| [[École du dragon]]* || <sup>AG</sup> || [[For]] 15, [[Science du combat à mains nues]], 3 rangs en [[Acrobaties]] || Bonus de +2 contre le sommeil, la paralysie et l’étourdissement. Peut ignorer le terrain difficile
+| [[École du dragon]]* || <sup>AG</sup> || [[For]] 15, [[Science du combat à mains nues]], 3 rangs en [[Acrobaties]] || Bonus de +2 contre le sommeil, la paralysie et l'étourdissement. Peut ignorer le terrain difficile
 |- CLASS="donprérequis0"
 | &emsp;[[Férocité du dragon]]* || <sup>AG</sup> || [[For]] 15, [[Science du combat à mains nues]], [[École du dragon]], [[Coup étourdissant]], 5 rangs en [[Acrobaties]] || Bonus aux attaques à mains nues et adversaires secoués
 |- CLASS="alt donprérequis0"
@@ -184,9 +190,9 @@ action rapide pour adopter l’École du tigre au début de son tour puis utilis
 
 |- CLASS="premier donprincipal"
 | [[École du frondeur-disperseur]]* || <sup>''WMH''</sup> || [[Arme de prédilection]] (fronde) ou capacité de classe [[Guerrier#ENTRAINEMENTAUXARMES|entraînement aux armes]] (armes de jet), trait racial [[Halfelin#Traits_raciaux_alternatifs_7|guerrier à la fronde]] || +1 aux dégâts avec les frondes, ne provoque pas d'attaque d'opportunité en les rechargeant
-|- CLASS="alt donprérequis0"
+|- CLASS="donprérequis0"
 | &emsp;[[Grenadier frondeur-disperseur]]* || <sup>''WMH''</sup> || [[École du frondeur-disperseur]], [[Lancer improvisé]], [[Arme de prédilection]] (fronde) ou capacité de classe [[Guerrier#ENTRAINEMENTAUXARMES|entraînement aux armes]] (armes de jet), trait racial [[Halfelin#Traits_raciaux_alternatifs_7|guerrier à la fronde]] || Utilise la fronde pour lancer des armes alchimiques à aspersion
-|- CLASS="donprérequis1"
+|- CLASS="alt donprérequis1"
 | &emsp;&emsp;[[Bombardement du frondeur-disperseur]]* || <sup>''WMH''</sup> || [[Arme en main]], [[Grenadier frondeur-disperseur]], [[École du frondeur-disperseur]], [[Lancer improvisé]], [[Arme de prédilection]] (fronde) ou capacité de classe [[Guerrier#ENTRAINEMENTAUXARMES|entraînement aux armes]] (armes de jet), trait racial [[Halfelin#Traits_raciaux_alternatifs_7|guerrier à la fronde]] || Utilise la fronde pour lancer plusieurs armes alchimiques
 
 |- CLASS="premier alt donprincipal"
@@ -204,42 +210,56 @@ action rapide pour adopter l’École du tigre au début de son tour puis utilis
 | &emsp;&emsp;[[Torrent du guerrier elfique]]* || <sup>''WMH''</sup> || [[Int]] 13, [[Entraînement guerrier elfique]], [[Concentration du guerrier elfique]], [[École du guerrier elfique]], [[Attaque en finesse]], [[BBA]] +10, trait racial d'[[Elfe#Traits_raciaux_standards_6|armes familières]] || Les adversaires provoquent des attaques d'opportunité quand le personnage se bat sur la défensive
 
 |- CLASS="premier alt donprincipal"
-| [[École du jann]]* || <sup>AG</sup> || [[Science du combat à mains nues]], 3 rangs en [[Acrobaties]], 3 rangs en [[Représentation]] (danse) || -1 à la CA du personnage lorsqu’il charge et bonus de +1 seulement aux jets d’attaque des adversaires quand ils le prennent en tenaille
+| [[École du hibou]]* || <sup>''UI''</sup> || [[Dex]] 13, [[Talent]] (Discrétion), 1 rang en [[Discrétion]] || Base la Discrétion sur l'entraînement martial et charge avec Discrétion
 |- CLASS="donprérequis0"
-| &emsp;[[Tempête du jann]]* || <sup>AG</sup> || [[Science du combat à mains nues]], [[École du jann]], 5 rangs en [[Acrobaties]], 5 rangs en [[Représentation]] (danse) || Après une attaque à mains nues réussie, le personnage gagne +4 aux tests de bousculade ou de croc-en-jambe
+| &emsp;[[Piqué du hibou]]* || <sup>''UI''</sup> || [[Dex]] 15, [[École du hibou]], [[Talent]] (Discrétion), 1 rang en [[Acrobaties]], 1 rang en [[Discrétion]] || Base Acrobaties sur l'entraînement martial et charge avec Acrobaties
 |- CLASS="alt donprérequis1"
-| &emsp;&emsp;[[Ruée du jann]]* || <sup>AG</sup> || [[Science du combat à mains nues]], [[École du jann]], [[Tempête du jann]], 8 rangs en [[Acrobaties]], 8 rangs en [[Représentation]] (danse) || Quand le personnage saute, on considère toujours qu’il a fait une course d’élan, dégâts doublés s’il saute lors d’une charge
+| &emsp;&emsp;[[Plongeon du hibou]]* || <sup>''UI''</sup> || [[Dex]] 17, [[École du hibou]], [[Piqué du hibou]], [[Talent]] (Discrétion), [[BBA]] +7 ou [[moine]] de niveau 5, 1 rang en [[Acrobaties]], 1 rang en [[Discrétion]], 1 rang en [[Vol]] || Base le Vol sur l'entraînement martial et charge à travers une créature
 
 |- CLASS="premier donprincipal"
-| [[École du kirin]]* || <sup>AG</sup> || [[Science du combat à mains nues]], 6 rangs en [[Connaissances]] (Mystères), 1 rang en [[Connaissances]] (exploration souterraine, folklore local, nature, plans, ou religion) || Le personnage peut faire des tests de Connaissances par une action rapide pour gagner un bonus contre un adversaire
+| [[École du jann]]* || <sup>AG</sup> || [[Science du combat à mains nues]], 3 rangs en [[Acrobaties]], 3 rangs en [[Représentation]] (danse) || -1 à la CA du personnage lorsqu'il charge et bonus de +1 seulement aux jets d'attaque des adversaires quand ils le prennent en tenaille
 |- CLASS="alt donprérequis0"
-| &emsp;[[Frappe du kirin]]* || <sup>AG</sup> || [[Int]] 13, [[École du kirin]], [[Science du combat à mains nues]], 9 rangs en [[Connaissances]] (Mystères), 3 rangs en [[Connaissances]] (exploration souterraine, folklore local, nature, plans, ou religion) || Bonus d’intuition de +2 pour identifier une créature
+| &emsp;[[Tempête du jann]]* || <sup>AG</sup> || [[Science du combat à mains nues]], [[École du jann]], 5 rangs en [[Acrobaties]], 5 rangs en [[Représentation]] (danse) || Après une attaque à mains nues réussie, le personnage gagne +4 aux tests de bousculade ou de croc-en-jambe
 |- CLASS="donprérequis1"
+| &emsp;&emsp;[[Ruée du jann]]* || <sup>AG</sup> || [[Science du combat à mains nues]], [[École du jann]], [[Tempête du jann]], 8 rangs en [[Acrobaties]], 8 rangs en [[Représentation]] (danse) || Quand le personnage saute, on considère toujours qu'il a fait une course d'élan, dégâts doublés s'il saute lors d'une charge
+
+|- CLASS="premier alt donprincipal"
+| [[École du kirin]]* || <sup>AG</sup> || [[Science du combat à mains nues]], 6 rangs en [[Connaissances]] (Mystères), 1 rang en [[Connaissances]] (exploration souterraine, folklore local, nature, plans, ou religion) || Le personnage peut faire des tests de Connaissances par une action rapide pour gagner un bonus contre un adversaire
+|- CLASS="donprérequis0"
+| &emsp;[[Frappe du kirin]]* || <sup>AG</sup> || [[Int]] 13, [[École du kirin]], [[Science du combat à mains nues]], 9 rangs en [[Connaissances]] (Mystères), 3 rangs en [[Connaissances]] (exploration souterraine, folklore local, nature, plans, ou religion) || Bonus d'intuition de +2 pour identifier une créature
+|- CLASS="alt donprérequis1"
 | &emsp;&emsp;[[Voie du kirin]]* || <sup>AG</sup> || [[Int]] 13, [[Frappe du kirin]], [[École du kirin]], [[Science du combat à mains nues]], 12 rangs en [[Connaissances]] (Mystères), 5 rangs en [[Connaissances]] (exploration souterraine, folklore local, nature, plans, ou religion) || Le personnage peut faire 10 à un test de Connaissances (folklore local, nature, plans ou religion) pour identifier
 
-|- CLASS="premier alt donprincipal"
+|- CLASS="premier donprincipal"
 | [[École du kitsune]]* || <sup>''DTT''</sup> || [[Int]] 13, [[Expertise du combat]], [[Science du sale coup]] || Effectue un sale coup après une charge
-|- CLASS="donprérequis0"
+|- CLASS="alt donprérequis0"
 | &emsp;[[Tours du kitsune]]* || <sup>''DTT''</sup> || [[Int]] 13; [[Expertise du combat]]; [[Science du sale coup]], [[École du kitsune]]; [[BBA]] +3 ou [[moine]] de niveau 3 || Applique deux états préjudiciables en utilisant l'école du kitsune
-|- CLASS="alt donprérequis1"
+|- CLASS="donprérequis1"
 | &emsp;&emsp;[[Vengeance du kitsune]]* || <sup>''DTT''</sup> || [[Int]] 13; [[Expertise du combat]]; [[Science du sale coup]]; [[École du kitsune]]; [[Tours du kitsune]]; [[BBA]] +6 ou [[moine]] de niveau 6 || Effecue un sale coup à la place d'une attaque d'opportunité
 
-|- CLASS="premier donprincipal"
+|- CLASS="premier alt donprincipal"
 | [[École du lancer détoile|École du lancer d'étoile]]* || <sup>''WMH''</sup> || [[Dex]] 13, [[Tir à bout portant]], [[Arme de prédilection]] avec l'arme choisie || Gain de bonus aux dégâts avec un type d'armes de jet
-|- CLASS="alt donprérequis0"
+|- CLASS="donprérequis0"
 | &emsp;[[Comète du lancer détoile|Comète du lancer d'étoile]]* || <sup>''WMH''</sup> || [[Dex]] 13, [[Tir à bout portant]], [[École du lancer détoile|École du lancer d'étoile]], [[Arme de prédilection]] avec l'arme choisie || Attaque supplémentaire avec une arme de jet par une action simple
-|- CLASS="donprérequis1"
+|- CLASS="alt donprérequis1"
 | &emsp;&emsp;[[Pluie du lancer détoile|Pluie du lancer d'étoile]]* || <sup>''WMH''</sup> || [[Dex]] 13, [[Tir à bout portant]], [[BBA]] +4, [[Comète du lancer détoile|Comète du lancer d'étoile]], [[École du lancer détoile|École du lancer d'étoile]], [[Arme de prédilection]] avec l'arme choisie || Attaque d'autres adversaires proches de la cible initiale avec École du lancer d'étoile
 
-|- CLASS="premier alt donprincipal"
+|- CLASS="premier donprincipal"
 | [[École du marid]]* || <sup>AG</sup> || [[Con]] 13, [[Sag]] 15, [[Poing élémentaire]], [[Science du combat à mains nues]], [[BBA]] +9 ou [[moine]] de niveau 5 || 1 utilisation quotidienne du Poing élémentaire de plus et inflige des dégâts de froid
-|- CLASS="donprérequis0"
+|- CLASS="alt donprérequis0"
 | &emsp;[[Esprit du marid]]* || <sup>AG</sup> || [[Con]] 15, [[Sag]] 15, [[Poing élémentaire]], [[École du marid]], [[Science du combat à mains nues]], [[BBA]] +11 ou [[moine]] de niveau 9 || 1 utilisation quotidienne du Poing élémentaire de plus et une résistance au froid
+|- CLASS="donprérequis1"
+| &emsp;&emsp;[[Froid du marid]]* || <sup>AG</sup> || [[Con]] 15, [[Sag]] 17, [[Poing élémentaire]], [[Esprit du marid]], [[École du marid]], [[Science du combat à mains nues]], [[BBA]] +13 ou [[moine]] de niveau 11 || Projette un jet d'eau glacée sur une ligne de 9 m
+
+|- CLASS="premier alt donprincipal"
+| [[École du renard]]* || <sup>''UI''</sup> || [[Int]] 13 || Feinte et distrait les adversaires grâce à un entraînement martial
+|- CLASS="donprérequis0"
+| &emsp;[[Intuition du renard]]* || <sup>''UI''</sup> || [[Int]] 13, [[École du renard]] || Le personnage est plus difficile à feinter et à démoraliser
 |- CLASS="alt donprérequis1"
-| &emsp;&emsp;[[Froid du marid]]* || <sup>AG</sup> || [[Con]] 15, [[Sag]] 17, [[Poing élémentaire]], [[Esprit du marid]], [[École du marid]], [[Science du combat à mains nues]], [[BBA]] +13 ou [[moine]] de niveau 11 || Projette un jet d’eau glacée sur une ligne de 9 m
+| &emsp;&emsp;[[Tromperie du renard]]* || <sup>''UI''</sup> || [[Int]] 13, [[École du renard]], [[Expertise du combat]], [[Intuition du renard]], [[Science du sale coup]] || Fait des manœuvres de sale coup comme attaque d'opportunité
 
 |- CLASS="premier donprincipal"
-| [[École du sanglier]]* || <sup>AG</sup> || [[Science du combat à mains nues]], 3 rangs en [[Intimidation]] || Les attaques à mains nues infligent des dégâts contondants ou tranchants
+| [[École du sanglier]]* || <sup>AG</sup> || [[Science du combat à mains nues]], 3 rangs en [[Intimidation]] || Les attaques à mains nues infligent des dégâts contondants ou perforants
 |- CLASS="alt donprérequis0"
 | &emsp;[[Férocité du sanglier]]* || <sup>AG</sup> || [[Science du combat à mains nues]], [[École du sanglier]], 6 rangs en [[Intimidation]] || Ajoute des dégâts perforants aux attaques à mains nues et démoralise les adversaires
 |- CLASS="donprérequis1"
@@ -250,19 +270,19 @@ action rapide pour adopter l’École du tigre au début de son tour puis utilis
 |- CLASS="donprérequis0"
 | &emsp;[[Balancement du serpent]]* || <sup>AG</sup> || [[Science du combat à mains nues]], [[École du serpent]], 3 rangs en [[Acrobaties]], 6 rangs en [[Psychologie]] || Bonus pour ne pas tomber à terre, test de psychologie pour confirmer un coup critique
 |- CLASS="alt donprérequis1"
-| &emsp;&emsp;[[Croc du serpent]]* || <sup>AG</sup> || [[Attaques réflexes]], [[Science du combat à mains nues]], [[Balancement du serpent]], [[École du serpent]], 6 rangs en [[Acrobaties]], 9 rangs en [[Psychologie]] || Si l’adversaire rate le personnage, ce dernier a droit à une attaque d’opportunité par une action immédiate
+| &emsp;&emsp;[[Croc du serpent]]* || <sup>AG</sup> || [[Attaques réflexes]], [[Science du combat à mains nues]], [[Balancement du serpent]], [[École du serpent]], 6 rangs en [[Acrobaties]], 9 rangs en [[Psychologie]] || Si l'adversaire rate le personnage, ce dernier a droit à une attaque d'opportunité par une action immédiate
 
 |- CLASS="premier donprincipal"
-| [[École du shaitan]]* || <sup>AG</sup> || [[Con]] 13, [[Sag]] 15, [[Poing élémentaire]], [[Science du combat à mains nues]], [[BBA]] +9 ou [[moine]] de niveau 5 || 1 utilisation quotidienne du Poing élémentaire de plus et inflige des dégâts d’acide
+| [[École du shaitan]]* || <sup>AG</sup> || [[Con]] 13, [[Sag]] 15, [[Poing élémentaire]], [[Science du combat à mains nues]], [[BBA]] +9 ou [[moine]] de niveau 5 || 1 utilisation quotidienne du Poing élémentaire de plus et inflige des dégâts d'acide
 |- CLASS="alt donprérequis0"
-| &emsp;[[Peau du shaitan]]* || <sup>AG</sup> || [[Con]] 15, [[Sag]] 15, [[Poing élémentaire]], [[Science du combat à mains nues]], [[École du shaitan]], [[BBA]] +11 ou [[moine]] de niveau 9 || 1 utilisation quotidienne du Poing élémentaire de plus et une résistance à l’acide
+| &emsp;[[Peau du shaitan]]* || <sup>AG</sup> || [[Con]] 15, [[Sag]] 15, [[Poing élémentaire]], [[Science du combat à mains nues]], [[École du shaitan]], [[BBA]] +11 ou [[moine]] de niveau 9 || 1 utilisation quotidienne du Poing élémentaire de plus et une résistance à l'acide
 |- CLASS="donprérequis1"
-| &emsp;&emsp;[[Séisme du shaitan]]* || <sup>AG</sup> || [[Con]] 15, [[Sag]] 17, [[Poing élémentaire]], [[Science du combat à mains nues]], [[Peau du shaitan]], [[École du shaitan]], [[BBA]] +13 ou [[moine]] de niveau 11 || Fait jaillir une colonne d’acide de 6 m
+| &emsp;&emsp;[[Séisme du shaitan]]* || <sup>AG</sup> || [[Con]] 15, [[Sag]] 17, [[Poing élémentaire]], [[Science du combat à mains nues]], [[Peau du shaitan]], [[École du shaitan]], [[BBA]] +13 ou [[moine]] de niveau 11 || Fait jaillir une colonne d'acide de 6 m
 
 |- CLASS="premier alt donprincipal"
-| [[École du singe]]* || <sup>AG</sup> || [[Sag]] 13, [[Science du combat à mains nues]], 5 rangs en [[Acrobaties]], 5 rangs en [[Escalade]] || Le personnage ajoute son bonus de Sagesse aux tests d’Acrobatie et n’a pas de malus quand il attaque couché
+| [[École du singe]]* || <sup>AG</sup> || [[Sag]] 13, [[Science du combat à mains nues]], 5 rangs en [[Acrobaties]], 5 rangs en [[Escalade]] || Le personnage ajoute son bonus de Sagesse aux tests d'Acrobatie et n'a pas de malus quand il attaque couché
 |- CLASS="donprérequis0"
-| &emsp;[[Mouvements du singe]]* || <sup>AG</sup> || [[Sag]] 13, [[Science du combat à mains nues]], [[École du singe]], 8 rangs en [[Acrobaties]], 8 rangs en [[Escalade]] || Le personnage ajoute son bonus de Sagesse aux tests d’Escalade. Il grimpe et rampe à la moitié de sa vitesse
+| &emsp;[[Mouvements du singe]]* || <sup>AG</sup> || [[Sag]] 13, [[Science du combat à mains nues]], [[École du singe]], 8 rangs en [[Acrobaties]], 8 rangs en [[Escalade]] || Le personnage ajoute son bonus de Sagesse aux tests d'Escalade. Il grimpe et rampe à la moitié de sa vitesse
 |- CLASS="alt donprérequis1"
 | &emsp;&emsp;[[Éclat du singe]]* || <sup>AG</sup> || [[Sag]] 13, [[Science du combat à mains nues]], [[Mouvements du singe]], [[École du singe]], [[Coup étourdissant]], 11 rangs en [[Acrobaties]], 11 rangs en [[Escalade]] || Le personnage peut entrer dans une case adjacente après un Coup étourdissant
 
@@ -271,7 +291,7 @@ action rapide pour adopter l’École du tigre au début de son tour puis utilis
 |- CLASS="alt donprérequis0"
 | &emsp;[[Griffes du tigre]]* || <sup>AG</sup> || [[Science du combat à mains nues]], [[École du tigre]], [[BBA]] +6 ou [[moine]] de niveau 5 || Le personnage porte une seule attaque avec les deux mains et additionne le résultat des deux
 |- CLASS="donprérequis1"
-| &emsp;&emsp;[[Bond du tigre]]* || <sup>AG</sup> || [[Science du combat à mains nues]], [[Attaque en puissance]], [[Griffes du tigre]], [[École du tigre]], [[BBA]] +9 ou [[moine]] de niveau 8 || Peut appliquer le malus de l’Attaque en puissance à la CA
+| &emsp;&emsp;[[Bond du tigre]]* || <sup>AG</sup> || [[Science du combat à mains nues]], [[Attaque en puissance]], [[Griffes du tigre]], [[École du tigre]], [[BBA]] +9 ou [[moine]] de niveau 8 || Peut appliquer le malus de l'Attaque en puissance à la CA
 
 |- CLASS="premier alt donprincipal"
 | [[École haineuse naine]]* || <sup>''WMH''</sup> || [[BBA]] +1, traits raciaux [[Nain#Traits_raciaux_standards_6|entraînement défensif]] et [[Nain#Traits_raciaux_standards_6|haine]], taille M || Applique la haine aux jets d'attaque et de dégâts, et son bonus passe à +2

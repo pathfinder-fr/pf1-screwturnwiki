@@ -90,13 +90,13 @@ function addPrereqIconIfNeeded1() {
 	  $(this).children("td").first().append($(icon));
 	}
 	if (next.length > 0 && next.hasClass("donprérequis0")) {
-	  $(this).children("td").first().css("border-bottom", "1px solid black");
+	  $(this).children("td").css("border-bottom", "1px solid black");
 	}
 }
 
 function addPrereqIconIfNeeded2() {
 	if (next.length > 0 && next.hasClass("donprérequis0") || next.hasClass("donprérequis1")) {
-	  $(this).children("td").first().css("border-bottom", "1px solid black");
+	  $(this).children("td").css("border-bottom", "1px solid black");
 	}
 }
 </script>

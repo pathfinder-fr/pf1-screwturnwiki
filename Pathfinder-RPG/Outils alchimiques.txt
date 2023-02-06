@@ -1,11 +1,15 @@
 ---
 Name: Pathfinder-RPG.Outils alchimiques
 Title: Outils alchimiques
-LastModified: 2021-12-06 18:51
+LastModified: 2023-02-01 15:15
 Categories:
   - 'Src Armes et équipement'
 ---
 {s:MenuEquipement}Les outils alchimiques sont des objets conçus pour les aventuriers qui peuvent s’avérer extrêmement utiles dans de nombreuses situations, y compris au cours d’un combat, lors de l’exploration d’un donjon ou pour fabriquer d’autres objets alchimiques. Un personnage ayant la compétence [[Artisanat]] (alchimie) peut fabrique tous ces outils. Le [[DD]] de fabrication est précisé dans la table ci-dessous.
+
+{s:cs}{s:UI}{s:Reference|BRULURE}'''Brûlure alchimique.''' Certains objets alchimiques permettent au personnage d'accepter une brûlure alchimique. Pour ce faire, le personnage doit volontairement subir 1 point de dégât [[Blessures et mort#NONLETAL|non létal]] par niveau de personnage lorsqu'il utilise l'objet afin de bénéficier de ses avantages. Ces dégâts ne peuvent être soignés par aucun moyen excepté une nuit de repos complète, qui retire toutes les brûlures alchimiques et les dégâts non létaux associés. Les dégâts non létaux provoqués par une brûlure alchimique ne peuvent être ni réduits ni redirigés, et si le personnage est incapable de subir des dégâts non létaux, il ne peut pas profiter des objets alchimiques qui infligent une brûlure alchimique. Un personnage ne peut accepter qu'une brûlure alchimique à chaque round, et il ne peut pas accepter une brûlure alchimique et une [[Cinétiste#BRÛLURE|brûlure]] causée par la classe de [[Cinétiste|cinétiste]] dans le même round, mais un cinétiste peut utiliser sa [[Cinétiste#RÉSERVEINTERNE|réserve interne]] pour éviter d'avoir à accepter une brûlure alchimique. Si un personnage a accepté une brûlure alchimique, il ne peut plus profiter des capacités qui permettent d'ignorer ou de modifier les effets imposés par les dégâts non létaux. Un personnage ne peut profiter des effets que d'un objet qui inflige une brûlure alchimique à la fois, et s'il en utilise un autre, le second objet n'a aucun effet.
+
+{s:cs}{s:UI}{s:Reference|INSPIRATION}'''Inspiration alchimique.''' Les objets qui offrent une inspiration alchimique fonctionnent de la même façon que la capacité de classe [[Enquêteur#INSPIRATION|inspiration]] de l'[[Enquêteur|enquêteur]]. Un tel objet alchimique offre généralement un nombre d'utilisations d'inspiration alchimique qui peut être utilisé pendant qu'il fait effet. Par une [[action libre]], un personnage peut dépenser une utilisation d'inspiration alchimique pour ajouter 1d6 au résultat d'un test du type précisé dans la description de l'objet (en tant que bonus alchimique). Cela peut être utilisé même si le personnage [[faire 10|fait 10 ou 20]]. Ce choix est fait après que le test soit lancé mais avant que le résultat ne soit révélé. Un personnage ne peut utiliser l'inspiration alchimique qu'une fois par test ou jet, et il ne peut pas utiliser l'inspiration et l'inspiration alchimique sur le même test ou jet. De plus, si le personnage possède la capacité de classe inspiration, il ajoute un bonus supplémentaire de +1 lorsqu'il utilise l'inspiration sur le type de test approprié, que cette inspiration provienne de sa capacité de classe ou de l'inspiration alchimique. Un personnage ne peut profiter des effets que d'un objet qui offre une inspiration alchimique à la fois, et s'il en utilise un autre alors que la durée du premier n'est pas terminée, le second objet n'a aucun effet, même si le personnage a dépensé toutes les inspirations alchimiques offertes par le premier.
 
 <div class="article_2col">
 {| CLASS="tablo centre autoalt toutgauche" WIDTH="100%"
@@ -16,6 +20,8 @@ Categories:
 | [[Outils alchimiques#Accélérateur instable|↓]] [[Accélérateur instable (objet)|Accélérateur instable]] || 50 po || 0,25 kg || 25
 |-
 | [[Outils alchimiques#Allume-feu|↓]] [[Allume-feu (objet)|Allume-feu]] || 1 po || — || 25
+|-
+| [[Outils alchimiques#Ami de limprudent|↓]] [[Ami de limprudent (objet)|Ami de l'imprudent]] || 120 po || — || 15
 |-
 | [[Outils alchimiques#Appât à bêtes|↓]] [[Appât à bêtes (objet)|Appât à bêtes]] || 30 po || 0,25 kg || 20
 |-
@@ -59,6 +65,8 @@ Categories:
 |-
 | [[Outils alchimiques#Corde de vigne-sang|↓]] [[Corde de vigne-sang (objet)|Corde de vigne-sang]] || 200 po || 2,5 kg || 30
 |-
+| [[Outils alchimiques#Cordon éfrit|↓]] [[Cordon éfrit (objet)|Cordon éfrit]] || 50 po || — || 10
+|-
 | [[Outils alchimiques#Cristaux dair|↓]] [[Cristaux dair (objet)|Cristaux d'air]] || 50 po || — || —
 |-
 | [[Outils alchimiques#Défoliant|↓]] [[Défoliant (objet)|Défoliant]] || 30 po || — || 25
@@ -89,6 +97,8 @@ Categories:
 |-
 | [[Outils alchimiques#Encre sympathique|↓]] [[Encre sympathique (objet)|Encre sympathique (supérieure)]] || 75 po || — || 25
 |-
+| [[Outils alchimiques#Épithète du poète|↓]] [[Épithète du poète (objet)|Épithète du poète]] || 120 po || — || 15
+|-
 | [[Outils alchimiques#Éponge à potion|↓]] [[Éponge à potion (objet)|Éponge à potion]] || 2 po || — || 15
 |-
 | [[Outils alchimiques#Éponge filtrante|↓]] [[Éponge filtrante (objet)|Éponge filtrante]] || 25 po || 0,5 kg || 15
@@ -97,15 +107,21 @@ Categories:
 |-
 | [[Outils alchimiques#Feuilles dérable doré|↓]] [[Feuilles dérable doré (objet)|Feuilles d'érable doré]] || 50 po || 0,25 kg || —
 |-
+| [[Outils alchimiques#Film de fraternité|↓]] [[Film de fraternité (objet)|Film de fraternité]] || 190 po || — || 15
+|-
 | [[Outils alchimiques#Fusée de signalisation|↓]] [[Fusée de signalisation (objet)|Fusée de signalisation]] || 100 po || 1,5 kg || 15
 |-
 | [[Outils alchimiques#Galets du petit Poucet|↓]] [[Galets du petit Poucet (objet)|Galets du petit Poucet]] || 50 po || 0,5 kg || 25
+|-
+| [[Outils alchimiques#Graines à flash|↓]] [[Graines à flash (objet)|Graines à flash]] || 35 po || 0,25 kg || 15
 |-
 | [[Outils alchimiques#Graisse tue-lumière|↓]] [[Graisse tue-lumière (objet)|Graisse tue-lumière]] || 25 po || — || 15
 |-
 | [[Outils alchimiques#Huile des maîtres|↓]] [[Huile des maîtres (objet)|Huile des maîtres]] || 50 po || 0,25 kg || 25
 |-
 | [[Outils alchimiques#Huile sainte|↓]] [[Huile sainte (objet)|Huile sainte]] || 25 po || 0,5 kg || 20
+|-
+| [[Outils alchimiques#Interrupteur éfrit|↓]] [[Interrupteur éfrit (objet)|Interrupteur éfrit]] || 25 po || — || 10
 |-
 | [[Outils alchimiques#Jus de ferveur|↓]] [[Jus de ferveur (objet)|Jus de ferveur]] || 50 po || — || 20
 |-
@@ -125,13 +141,19 @@ Categories:
 |-
 | [[Outils alchimiques#Masque-odeur|↓]] [[Masque-odeur (objet)|Masque-odeur (humanoïde)]] || 50 po || — || 25
 |-
+| [[Outils alchimiques#Mensonge pétillant|↓]] [[Mensonge pétillant (objet)|Mensonge pétillant]] || 190 po || — || 15
+|-
 | [[Outils alchimiques#Mousse amortissante|↓]] [[Mousse amortissante (objet)|Mousse amortissante]] || 25 po || 0,5 kg || 20
+|-
+| [[Outils alchimiques#Mugissement de sanglier|↓]] [[Mugissement de sanglier (objet)|Mugissement de sanglier]] || 190 po || — || 15
 |-
 | [[Outils alchimiques#Musc des terres sanglantes|↓]] [[Musc des terres sanglantes (objet)|Musc des terres sanglantes]] || 40 po || 0,25 kg || 20
 |-
 | [[Outils alchimiques#Nushadir|↓]] [[Nushadir (objet)|Nushadir]] || 10 po || 0,5 kg || 20
 |-
 | [[Outils alchimiques#Odeur de bête|↓]] [[Odeur de bête (objet)|Odeur de bête]] || 75 po || 0,25 kg || 25
+|-
+| [[Outils alchimiques#Onguent anti-âge|↓]] [[Onguent anti-âge (objet)|Onguent anti-âge]] || 80 po || — || 15
 |-
 | [[Outils alchimiques#Onguent darmure|↓]] [[Onguent darmure (objet)|Onguent d'armure]] || 30 po || 0,5 kg || 15
 |-
@@ -146,6 +168,8 @@ Categories:
 | [[Outils alchimiques#Pastels de guède|↓]] [[Pastels de guède (objet)|Pastels de guède (1 bâtonnet)]] || 60 po || — || 30
 |-
 | [[Outils alchimiques#Pastels de guède|↓]] [[Pastels de guède (objet)|Pastels de guède (trousse)]] || 300 po || 0,5 kg || 30
+|-
+| [[Outils alchimiques#Pastille de précision|↓]] [[Pastille de précision (objet)|Pastille de précision]] || 330 po || — || 25
 |-
 | [[Outils alchimiques#Pastille du rossignol|↓]] [[Pastille du rossignol (objet)|Pastille du rossignol]] || 50 po || — || 25
 |-
@@ -169,15 +193,19 @@ Categories:
 |-
 | [[Outils alchimiques#Remède miracle|↓]] [[Remède miracle (objet)|Remède miracle]] || 20 po || — || 20
 |-
+| [[Outils alchimiques#Résine didactique|↓]] [[Résine didactique (objet)|Résine didactique]] || 410 po || — || 25
+|-
 | [[Outils alchimiques#Rôdeur mécanique|↓]] [[Rôdeur mécanique (objet)|Rôdeur mécanique (élaboré)]] || 1.500 po || 15 kg || —
 |-
 | [[Outils alchimiques#Rôdeur mécanique|↓]] [[Rôdeur mécanique (objet)|Rôdeur mécanique (standard)]] || 500 po || 12,5 kg || —
 |-
-| [[Outils alchimiques#Sang de molosse|↓]] [[Sang de molosse (objet)|Sang de molosse]] || 110 po || — || 20
-|-
 | [[Outils alchimiques#Sang difrit|↓]] [[Sang difrit (objet)|Sang d'ifrit]] || 50 po || 0,5 kg || 20
 |-
+| [[Outils alchimiques#Sang de molosse|↓]] [[Sang de molosse (objet)|Sang de molosse]] || 110 po || — || 20
+|-
 | [[Outils alchimiques#Sèche-colle alchimique|↓]] [[Sèche-colle alchimique (objet)|Sèche-colle alchimique]] || 25 po || — || 25
+|-
+| [[Outils alchimiques#Sérum dintuition|↓]] [[Sérum dintuition (objet)|Sérum d'intuition]] || 190 po || — || 15
 |-
 | [[Outils alchimiques#Solution adhésive|↓]] [[Solution adhésive (objet)|Solution adhésive]] || 25 po || 0,5 kg || 20
 |-
@@ -193,9 +221,15 @@ Categories:
 |-
 | [[Outils alchimiques#Tonique caverneux|↓]] [[Tonique caverneux (objet)|Tonique caverneux]] || 50 po || — || 25
 |-
+| [[Outils alchimiques#Tonique de mains rapides|↓]] [[Tonique de mains rapides (objet)|Tonique de mains rapides]] || 250 po || — || 20
+|-
+| [[Outils alchimiques#Tonique du harceleur nocturne|↓]] [[Tonique du harceleur nocturne (objet)|Tonique du harceleur nocturne]] || 200 po || — || 20
+|-
 | [[Outils alchimiques#Tonique infectieux|↓]] [[Tonique infectieux (objet)|Tonique infectieux]] || 150 po || 0,5 kg || 20
 |-
 | [[Outils alchimiques#Trousse de marquage olfactif|↓]] [[Trousse de marquage olfactif (objet)|Trousse de marquage olfactif]] || 10 po || 2,5 kg || 25
+|-
+| [[Outils alchimiques#Trousse de teintures alchimiques|↓]] [[Trousse de teintures alchimiques (objet)|Trousse de teintures alchimiques]] || 160 po || 3 kg || 20
 |-
 |}
 </div>
@@ -213,6 +247,13 @@ Mélange volatile d’agents réactifs inflammables, l’accélérateur instable
 '''Prix''' 1 po ; '''Poids''' — ; '''DD d'Artisanat (alchimie)''' 25  
 <hr>
 La substance alchimique qui enrobe le bout de ces petits bâtonnets en bois s’enflamme lorsqu’on les gratte contre une surface rugueuse (une [[action de mouvement]]). C’est beaucoup plus rapide de créer une flamme avec un allume-feu qu’avec du petit bois, une [[Silex et amorce (objet)|amorce et un silex]] ou une loupe. Il faut une [[action simple]] pour allumer une [[Torche (objet)|torche]] avec un allume-feu, non pas une [[action complexe]], et il faut juste une action simple pour allumer n’importe quel autre feu. L’allume-feu brûle pendant 1d2 [[round|rounds]] et émet la même lumière qu’une [[Bougie (objet)|bougie]]. Les allume-feu résistent à l’eau mais il faut les sécher avant de les gratter.
+
+
+{s:cs}{s:UI}{s:Reference|Ami de limprudent}
+====Ami de l'imprudent====
+'''Prix''' 120 po ; '''Poids''' — ; '''DD d'Artisanat (alchimie)''' 15  
+<hr>
+Le personnage peut accepter une [[Outils alchimiques#BRULURE|brûlure alchimique]] après avoir consommé ce brouet pour récupérer 1 point d'[[Pistolier#AUDACE|audace]] ou 1 point de [[Bretteur#PANACHE|panache]]. Les effets de l'ami de l'imprudent durent une heure, et si le point récupéré n'est pas dépensé dans cette heure, il est perdu. L'ami de l'imprudent n'a aucun effet si le personnage est incapable d'utiliser de l'audace ou du panache.
 
 
 {s:cs}{s:AA}{s:Reference|Appât à bêtes}
@@ -341,6 +382,13 @@ Cette colle se présente sous la forme de deux flasques de liquide sirupeux. Qua
 Cette corde légère et résistante de 15 mètres de long est faite de vigne-sang traitée alchimiquement, une forme de liane rare de couleur écarlate qui ne pousse que dans les jungles chaudes. Quoique prisée par les grimpeurs pour sa longévité, la vigne-sang peut également servir à attacher des créatures. Une corde de vigne-sang a une [[solidité]] de 5 et 10 points de vie. Il est possible de la rompre en réussissant un test de [[Force]] [[DD]] 30. Une créature attachée avec une corde de vigne-sang peut se libérer en réussissant un test d’[[Évasion]] DD 35 ou un test de Force DD 30.
 
 
+{s:cs}{s:UI}{s:Reference|Cordon éfrit}
+====Cordon éfrit====
+'''Prix''' 50 po ; '''Poids''' — ; '''DD d'Artisanat (alchimie)''' 10  
+<hr>
+D'abord découverte par des alchimistes [[Nain|nains]] travaillant avec de la poussière d'[[adamantium]], le cordon éfrit est une longueur de fil visqueux d'environ 45 centimètres de long et de couleur bleu-gris. Il peut être acheté en longueurs plus importantes en multipliant le prix pour chaque tranche de 45 centimètres ou fraction supplémentaires. Souple et collante, une longueur de cordon éfrit peut être soigneusement façonnée selon n'importe quel motif, drapée sur un objet ou enroulée autour d'un luminaire, et restera en place jusqu'à son activation. Une fois activé (à l'aide d'un [[Interrupteur éfrit (objet)|interrupteur éfrit]]), le cordon éfrit se réchauffe rapidement et, après un round, devient un cordon de feu chauffé à blanc. Au premier round, la corde inflige 3d6 points de dégâts de feu à un objet. Ces dégâts ignorent toute [[solidité]] inférieure à 10, et ne sont pas divisés par deux sur les objets. Le cordon continue de brûler pendant 2 rounds supplémentaires, infligeant 2d6 points de dégâts de feu au deuxième round et 1d6 points au troisième.
+
+
 {s:RSE}{s:Reference|Cristaux dair}
 ====Cristaux d'air====
 '''Prix''' 50 po ; '''Poids''' — ; '''DD d'Artisanat (alchimie)''' —  
@@ -418,6 +466,13 @@ L’encre nauséabonde est une encre spéciale et âcre à base de musc qui perm
 L’encre sympathique est un outil de base pour les espions, les rebelles et les sociétés secrètes du monde entier. Les messages écrits à l’encre invisible se lisent uniquement dans des circonstances spécifiques. Il faut une [[action complexe]] par page pour révéler le message secret avec le bon agent révélateur. Un test d’[[Artisanat]] (alchimie) réussi révèle le message sans avoir besoin de l’agent révélateur et prend une heure (le [[DD]] varie en fonction de la qualité de l’encre).<br/>* ''Simple.'' Cette encre n’est liée qu’à un seul agent révélateur assez courant comme la chaleur ou le vinaigre (DD 20 pour la révéler sans l’agent).<br/>* ''Moyenne.'' Cette encre est liée à deux agents révélateurs courants ou à un agent inhabituel comme le sang ou l’acide (DD 25 pour la révéler sans l’agent).<br/>* ''Bonne.'' Cette encre est liée à deux agents révélateurs inhabituels ou à un agent révélateur rare comme un millésime de vin spécifique ou le sang d’un type de monstre spécifique (DD 30 pour la révéler sans l’agent).<br/>* ''Supérieure.'' Cette encre est liée à deux agents révélateurs rares ou à un révélateur unique comme le sang d’une personne spécifique (DD 35 pour la révéler sans l’agent).
 
 
+{s:cs}{s:UI}{s:Reference|Épithète du poète}
+====Épithète du poète====
+'''Prix''' 120 po ; '''Poids''' — ; '''DD d'Artisanat (alchimie)''' 15  
+<hr>
+Lorsque le personnage consomme ce potage, il peut accepter une [[Outils alchimiques#BRULURE|brûlure alchimique]] pour gagner 4 rounds de [[Barde#REPRESENTATIONBARDIQUE|représentation bardique]] ou de [[Scalde#CHANTDERAGE|chant de rage]] quotidiens supplémentaires. Les effets de l'épithète du poète durent 1 heure, et s'ils ne sont pas utilisés dans cette heure, ces rounds supplémentaires sont perdus. L'épithète du poète n'a aucun effet si le personnage ne possède pas la capacité de classe représentation bardique ou chant de rage.
+
+
 {s:racial|Ondin (race)|ondins|Illustrations/PNJ/Ondin.jpg}{s:MR}{s:Reference|Éponge à potion}
 ====Éponge à potion====
 '''Prix''' 2 po ; '''Poids''' — ; '''DD d'Artisanat (alchimie)''' 15  
@@ -446,6 +501,13 @@ Les peuples claniques des terres cendrées combinent du citron vert, des feuille
 On recueille ces puissants additifs sur une espèce d’érable très rare qui pousse uniquement dans les zones urbaines. Ces petits arbres biscornus grandissent très lentement (leurs feuilles mettent 3 ans pour atteindre la maturité). Ce sont presque toujours des [[Demi-elfe|demi-elfes]] qui en prennent soin. De plus, les demi-elfes ont une conscience aiguë de l’effort que l’arbre fait pour développer ses feuilles et réservent généralement ses produits aux gens de leur espèce uniquement. On peut couper et faire sécher les feuilles de l’érable quand elles prennent la jolie couleur dorée qui lui vaut son nom. On les réduit ensuite en poudre lors d’un processus qui demande un test de [[Connaissances]] (nature) ou de [[Profession]] (herboriste) [[DD]] 15. Quand on utilise cette poudre pour créer une substance ou un objet spécial qui demande un test d’[[Artisanat]] (alchimie), comme de la [[Graisse alchimique (objet)|graisse alchimique]] ou une [[Sacoche immobilisante (objet)|sacoche immobilisante]], elle réduit le [[DD]] du test de 5 et ajoute un bonus de +1 au [[DD]] de l’objet (s’il en a un). Une dose de poudre de feuille d’érable doré suffit à améliorer la fabrication de trois objets alchimiques.
 
 
+{s:cs}{s:UI}{s:Reference|Film de fraternité}
+====Film de fraternité====
+'''Prix''' 190 po ; '''Poids''' — ; '''DD d'Artisanat (alchimie)''' 15  
+<hr>
+Manger cette fine feuille de gélatine luisante accorde 1d4 utilisations d'[[Outils alchimiques#INSPIRATION|inspiration alchimique]] qui ne peuvent être dépensées que sur les tests de [[Diplomatie]]. Les avantages du film de fraternité durent 1 heure ; pendant cette durée, le personnage doit lancer deux fois tous les tests d'[[Intimidation]] et conserver le pire résultat.
+
+
 {s:racial|Hobgobelin (race)|hobgobelins|Illustrations/PNJ/Hobgobelin.jpg}{s:CM}{s:Reference|Fusée de signalisation}
 ====Fusée de signalisation====
 '''Prix''' 100 po ; '''Poids''' 1,5 kg ; '''DD d'Artisanat (alchimie)''' 15  
@@ -458,6 +520,13 @@ Le personnage peut utiliser cette fusée pour envoyer des signaux visuels et aud
 '''Prix''' 50 po ; '''Poids''' 0,5 kg ; '''DD d'Artisanat (alchimie)''' 25  
 <hr>
 Semblables à des [[Bâton éclairant (objet)|bâtons éclairants]], ces petits galets blancs sont traités alchimiquement pour diffuser une faible lueur quand on les active en les frappant les uns contre les autres. Cette lueur est à peine suffisante pour illuminer la pierre. Bien qu’ils ne brillent pas assez pour faire une source de lumière efficace, il est possible de les placer de manière à former des messages ou de les disposer le long d’un chemin afin de marquer la route pour d’autres.
+
+
+{s:cs}{s:UI}{s:Reference|Graines à flash}
+====Graines à flash====
+'''Prix''' 35 po ; '''Poids''' 0,25 kg ; '''DD d'Artisanat (alchimie)''' 15  
+<hr>
+Ces perles alchimiques sont similaires aux [[Graines sentinelles (objet)|graines sentinelles]], mais sont également remplies d'un gaz alchimique qui explose au contact de l'air. L'explosion est bien plus bruyante et voyante que le bruit provoqué par des graines sentinelles normales ([[Perception]] [[DD]] 0). Les créatures dans un rayon de 1,5 m des perles lorsqu'elles se brisent doivent réussir un jet de [[Vigueur]] [[DD]] 11 ou être [[aveuglé|aveuglées]] pendant 1 round.
 
 
 {s:racial|Drow (race)|drows|Illustrations/PNJ/Drow.jpg}{s:CM}{s:Reference|Graisse tue-lumière}
@@ -479,6 +548,13 @@ Cette huile dorée a l’odeur des copeaux de bois. Quand le personnage l’appl
 '''Prix''' 25 po ; '''Poids''' 0,5 kg ; '''DD d'Artisanat (alchimie)''' 20  
 <hr>
 Cette huile sacrée, infusée avec des épices aromatiques et de l’eau bénite distillée, peut être appliquée sur une créature tandis qu’elle lance un sort divin inoffensif ayant une portée de contact. Ceci augmente le temps d’incantation à une [[action complexe]], mais accroît également le [[NLS|niveau de lanceur de sorts]] effectif du lanceur de +1 pour ce sort.
+
+
+{s:cs}{s:UI}{s:Reference|Interrupteur éfrit}
+====Interrupteur éfrit====
+'''Prix''' 25 po ; '''Poids''' — ; '''DD d'Artisanat (alchimie)''' 10  
+<hr>
+L'interrupteur éfrit est l'outil d'activation d'un [[Cordon éfrit (objet)|cordon éfrit]] ; il mesure approximativement 15 centimètres de long et est fait d'un composé alchimique souple de couleur rouge-brun. Il n'est pas consommé lors de l'activation d'une longueur de cordon et peut être utilisé avec n'importe quelle longueur de cordon éfrit. Il est possible d'associer des longueurs de cordon éfrit à un interrupteur spécifique, mais cela double le prix des deux objets.
 
 
 {s:racial|Hobgobelin (race)|hobgobelins|Illustrations/PNJ/Hobgobelin.jpg}{s:CM}{s:Reference|Jus de ferveur}
@@ -530,11 +606,25 @@ Ces lunettes non-magiques sont taillées dans de la pierre semblable à de l’o
 Cet objet se décline en différentes odeurs (correspondant à un [[type Animal|animal]], un [[type Humanoïde|humanoïde]] ou une [[type Créature magique|créature magique]]). Une fiole appliquée sur une créature de taille M permet à celle-ci d’échanger son odeur contre celle de la créature à laquelle correspond le masque-odeur pendant 8 heures.
 
 
+{s:cs}{s:UI}{s:Reference|Mensonge pétillant}
+====Mensonge pétillant====
+'''Prix''' 190 po ; '''Poids''' — ; '''DD d'Artisanat (alchimie)''' 15  
+<hr>
+Lorsqu'il est ingéré, ce liquide trouble de couleur rose accorde 1d4 utilisations d'[[Outils alchimiques#INSPIRATION|inspiration alchimique]] qui ne peuvent être dépensées que sur les tests de [[Bluff]] pour mentir ou transmettre des messages secrets. De plus, il peut dépenser deux utilisations d'inspiration alchimique pour gagner l'inspiration sur un [[jds|jet de sauvegarde]] contre une magie de détection de la vérité ou qui contraint à dire la vérité (comme ''[[détection des mensonges]]'' ou ''[[zone de vérité]]'').</br></br>Les avantages du mensonge pétillant durent 1 heure ; pendant cette durée, le personnage doit lancer deux fois tous les tests de [[Psychologie]] et conserver le pire résultat.
+
+
 {s:AE}{s:Reference|Mousse amortissante}
 ====Mousse amortissante====
 '''Prix''' 25 po ; '''Poids''' 0,5 kg ; '''DD d'Artisanat (alchimie)''' 20  
 <hr>
 Quand on jette ce liquide blanc laiteux au sol, il bouillonne et se transforme en un voile de mousse semi-solide d’une épaisseur de 30 centimètres. Le personnage peut passer une minute à appliquer une flasque de mousse amortissante sur une zone de 3 mètres de rayon ou la lancer comme une [[arme à aspersion]]. La mousse ne gêne pas les mouvements mais réagit fortement à une brusque pression. Une créature qui tombe sur un voile de mousse amortissante ignore les premiers 1d6 points de dégâts de la [[Dangers naturels#CHUTE|chute]] et convertit les seconds 1d6 points de la chute en dégâts [[Blessures et mort#NONLETAL|non létaux]]. Un voile de mousse amortissante se dissout au bout de 10 minutes ou lorsqu’il est exposé à au moins 4,5 litres d’eau.
+
+
+{s:cs}{s:UI}{s:Reference|Mugissement de sanglier}
+====Mugissement de sanglier====
+'''Prix''' 190 po ; '''Poids''' — ; '''DD d'Artisanat (alchimie)''' 15  
+<hr>
+Lorsqu'elle est ingérée, cette concoction amère d'une teinte cuivrée accorde 1d4 utilisations d'[[Outils alchimiques#INSPIRATION|inspiration alchimique]] qui ne peuvent être dépensées que sur les tests d'[[Intimidation]]. Les avantages du mugissement de sanglier durent 1 heure ; pendant cette durée, le personnage doit lancer deux fois tous les tests de [[Diplomatie]] et conserver le pire résultat.
 
 
 {s:cs}{s:AA}{s:Reference|Musc des terres sanglantes}
@@ -556,6 +646,13 @@ Ce réactif se présente souvent sous forme de petites billes salées conservée
 '''Prix''' 75 po ; '''Poids''' 0,25 kg ; '''DD d'Artisanat (alchimie)''' 25  
 <hr>
 Ceci est une mixture d’extraits de glandes olfactives et d’herbes aromatiques qui sert à la fois d’attracteur et de camouflage olfactif. Il remplace l’odeur naturelle d’une créature par un musc attirant quoique fort qui est attractif pour la plupart des animaux. L’odeur de bête procure un bonus de circonstances de +2 pour les tests de [[Dressage]] et d’[[Druide#EMPATHIESAUVAGE|empathie sauvage]] et une pénalité de -5 pour tenter de trouver une cible parfumée de cette mixture grâce à son odeur naturelle. Si celui qui essaie de localiser cette même cible la cherche en suivant l’odeur de bête, il obtient un bonus de +10.<br/><br/>Une unique fiole d’odeur de bête masque celle d’une créature de taille M ou de deux créatures plus petites ; les plus grandes créatures ont besoin d’une quantité supplémentaire proportionnelle pour que la mixture fasse effet. L’odeur de bête devient inerte après une heure d’exposition à l’air. Appliquer le contenu d’une fiole est une [[action complexe]] qui provoque des [[AO|attaques d’opportunité]].
+
+
+{s:cs}{s:UI}{s:Reference|Onguent anti-âge}
+====Onguent anti-âge====
+'''Prix''' 80 po ; '''Poids''' — ; '''DD d'Artisanat (alchimie)''' 15  
+<hr>
+Cette pommade blanche et cireuse permet au personnage de paraître plus vieux ou plus jeune, et est utile à la fois aux personnes qui ont besoin de se déguiser qu'aux vaniteux. Mélangée à une quantité égale de [[Cire à cacheter (objet)|cire à cacheter]], elle forme une pâte grise qui décolore et détend la peau du personnage, réduisant de 2 le malus aux tests de [[Déguisement]] pour paraître plus vieux qu'il ne l'est. Mélangée à une quantité égale de [[Savon (objet)|savon]], elle forme une pâte rosée qui clarifie et resserre la peau du personnage, réduisant de 2 le malus aux tests de Déguisement pour paraître plus jeune qu'il ne l'est. Une application d'onguent anti-âge dure 1d4+1 jours. L'onguent anti-âge ne peut être utilisé qu'une seule fois, et le prix comprend les quantités requises de cire et de savon.
 
 
 {s:AE}{s:Reference|Onguent darmure}
@@ -598,6 +695,13 @@ Ce bout de papier permet d’identifier les liquides. Sa couleur change en fonct
 '''Prix''' 60 po (1 bâtonnet), 300 po (trousse) ; '''Poids''' — (1 bâtonnet), 0,5 kg (trousse) ; '''DD d'Artisanat (alchimie)''' 30 (1 bâtonnet), 30 (trousse)  
 <hr>
 ''Trousse à pastels de guède.'' Bien qu'associé à des pastels de guède, les ingrédients alchimiques de cette pâte bleue peuvent varier considérablement. Quand vous préparez un sort, vous pouvez réduire les [[composantes|composantes matérielles]] du sort en poussières et les mélanger à cette pâte pour ensuite l'utiliser pour peindre directement sur votre corps, ce qui vous permet de lancer le sort comme si vous bénéficiez des effets de [[Dispense de composantes matérielles]].<br/><br/>De plus, en peignant des motifs complexes représentant les [[composantes|composantes somatiques]] pendant 10 minutes, ce qui prend 10 minutes, et en réussissant un test d'[[Art de la magie]] contre un [[DD]] égal à 15 + le niveau du sort, vous pouvez également lancer le sort comme si vous bénéficiez d'[[Incantation statique]].<br/><br/>Vous ne pouvez jamais avoir plus d'un sort peint sur votre corps et, si vous lancez le sort ainsi préparé ou si la peinture est enlevée pour une raison ou pour une autre, la peinture n'a plus d'effet.<br/><br/>''Bâtonnets de pastels de guède''. Les pastels de guède se présentent sous forme solide, en petits blocs concentrés (coûtant 60 po chacun) qui doivent être mélangés à un peu d'eau et aux [[composantes|composantes matérielles]] puis écrasés en une pâte sur une palette en bois ou en pierre. Une trousse standard contient une palette 5 blocs de peinture. Un bloc produit suffisamment de peintures pour 10 motifs incluant des composantes matérielles ou 1 motif de sort statique. Les pastels à guède ne présentent aucun intérêt pour les individus qui ne lancent pas de sorts.
+
+
+{s:cs}{s:UI}{s:Reference|Pastille de précision}
+====Pastille de précision====
+'''Prix''' 330 po ; '''Poids''' — ; '''DD d'Artisanat (alchimie)''' 25  
+<hr>
+Les effets de cette pilule verte grisâtre dure pendant 5 minutes après sa consommation. Pendant cette durée, lorsque le personnage effectue une [[attaque à outrance]], il peut accepter une [[Outils alchimiques#BRULURE|brûlure alchimique]] afin d'appliquer son [[BBA|bonus de base à l'attaque]] maximum à la place de son bonus d'attaque normal sur sa seconde attaque. Une pastille de précision n'accorde aucun avantage au delà de la deuxième attaque, et n'offre pas non plus de seconde attaque si le personnage n'en a pas déjà.
 
 
 {s:MCA}{s:Reference|Pastille du rossignol}
@@ -677,18 +781,18 @@ Les [[Orque (race)|orques]] appliquent souvent cette pâte noire sur leurs armes
 Cet onguent légèrement toxique insensibilise l’épiderme et apaise les blessures. Même si la teinture est effectivement nocive, la personne qui en bénéficie et qui résiste au poison peut soigner ses blessures mineures.<br/>'''Remède miracle.''' ''type'' poison (contact) ; ''jet de sauvegarde'' Vigueur DD 12 ; ''incubation'' 1 round ; ''fréquence'' 1/minute pendant 5 minutes ; ''effet'' en cas de [[jds|jet de sauvegarde]] raté, le remède miracle inflige 1 point de dégâts [[Blessures et mort#NONLETAL|non létal]]. Toutefois, en cas de jet de sauvegarde réussi, la toxine soigne 1d6 points de dégâts non létaux ; ''guérison'' 1 JS réussi.
 
 
+{s:cs}{s:UI}{s:Reference|Résine didactique}
+====Résine didactique====
+'''Prix''' 410 po ; '''Poids''' — ; '''DD d'Artisanat (alchimie)''' 25  
+<hr>
+Mâcher cette substance gommeuse accorde 1d4 utilisations d'[[Outils alchimiques#INSPIRATION|inspiration alchimique]] qui ne peuvent être dépensées que sur les tests de compétence basés sur le [[Charisme]]. Les avantages de la résine didactique durent 1 heure ; pendant cette durée, le personnage doit lancer deux fois tous les tests de compétence basés sur la [[Sagesse]] et conserver le pire résultat.
+
+
 {s:RSE}{s:Reference|Rôdeur mécanique}
 ====Rôdeur mécanique====
 '''Prix''' 500 po (standard), 1.500 po (élaboré) ; '''Poids''' 12,5 kg (standard), 15 kg (élaboré) ; '''DD d'Artisanat (alchimie)''' — (standard), — (élaboré)  
 <hr>
 Cet automate mécanique en bois de soixante centimètres de haut ressemble vaguement à une chaise roulante à dossier court. Lorsqu’il est remonté à l’aide d’une manivelle placée sur le côté de l’engin, le rôdeur roule lentement en ligne droite à une vitesse de 4,50 mètres par [[round]] pendant un maximum de deux minutes. Le rôdeur mécanique ne peut traverser des [[terrain difficile|terrains difficiles]]. Chaque [[round]] passé à remonter vigoureusement la machine lui permet de se déplacer pendant deux rounds. Si le frein n’est pas immédiatement levé après le remontage, le rôdeur perd un round de déplacement par tranche de deux rounds pendant lesquels il reste immobile. Le rôdeur mécanique peut transporter jusqu’à dix kilogrammes tout en se déplaçant à sa vitesse normale et jusqu’à vingt-cinq kilogrammes en réduisant sa vitesse de déplacement à trois mètres. Il ne peut se déplacer s’il porte des charges plus lourdes. Il possède une [[solidité]] de 5, 90 [[Exploration#POINTDERESISTANCE|points de résistance]] et une [[CA]] de 12 lorsqu’il se déplace (CA 5 s’il est immobile).<br/><br/>''Rôdeur mécanique élaboré.'' Version élaborée du rôdeur mécanique, cet engin est en métal et non en bois. Il se déplace à une vitesse de 6 mètres et peut être programmé pour effectuer jusqu’à quatre virages à angle droit. Chaque virage nécessite un [[round]] de programmation ainsi qu’un test de [[Sabotage]] [[DD]] 15. En cas d’échec, lancez 1d100 à chaque fois que le rôdeur tente de virer. Sur un résultat de 1 à 10, il ne parvient pas à virer. Sur un résultat de 11 à 20, il vire mais au prochain round seulement. Un rôdeur mécanique élaboré peut transporter jusqu’à trente kilogrammes et se déplacer normalement, et jusqu’à soixante kilogrammes à une vitesse de trois mètres. Il possède une [[solidité]] de 10, 150 [[Exploration#POINTDERESISTANCE|points de résistance]] et une [[CA]] de 15 lorsqu’il se déplace (CA 8 s’il est immobile).
-
-
-{s:racial|Gnome|gnomes|Illustrations/PNJ/Gnome.jpg}{s:MR}{s:Reference|Sang de molosse}
-====Sang de molosse====
-'''Prix''' 110 po ; '''Poids''' — ; '''DD d'Artisanat (alchimie)''' 20  
-<hr>
-Si un personnage applique cette épaisse pâte rouge, que l’on appelle le sang de molosse, sur son nez ou sa lèvre supérieure, son odorat s’améliore. La pâte donne un bonus alchimique de +2 aux tests de [[Perception]] pendant 1 heure à la plupart des créatures, mais, chez les [[Gnome|gnomes]], il décuple les capacités olfactives et le bénéficiaire dispose pendant 5 minutes du pouvoir [[Odorat (capacité)|odorat]] avant de n’avoir plus qu’un bonus de circonstances de +2 aux tests de [[Perception]] pendant 1 heure de plus.
 
 
 {s:racial|Ifrit (race)|ifrits|Illustrations/PNJ/Ifrit.jpg}{s:MR}{s:Reference|Sang difrit}
@@ -698,11 +802,25 @@ Si un personnage applique cette épaisse pâte rouge, que l’on appelle le sang
 Les [[Alchimiste|alchimistes]] [[Ifrit (race)|ifrits]] prétendent fabriquer cette épaisse huile rouge à partir de leur propre sang (d’où son nom morbide), mais il est presque certain que c’est faux. Le sang d’ifrit s’enflamme au contact de l’air, mais brûle lentement et ne peut pas être utilisé comme [[arme à aspersion]]. Une créature peut appliquer une fiole de sang d’ifrit à une arme par une [[action simple]], ce qui l’enveloppe de flammes rouge qui brillent pendant 1 minute. L’huile inflige 1 point de dégâts de feu à chaque attaque réussie portée avec cette arme et inflige 1 point de dégâts de feu à l’arme elle-même, passant sa [[solidité]] si l’une des parties qui la composent est en bois. Si l’huile est appliquée aux [[Attaques naturelles (capacité)|armes naturelles]] ou aux coups [[mains nues (arme)|à mains nues]] d’une créature, la créature reçoit 1 point de dégâts de feu par [[round]] (mais son [[Immunité (capacité)|immunité]] ou sa [[Résistance (capacité)|résistance]] au feu s’applique toujours).
 
 
+{s:racial|Gnome|gnomes|Illustrations/PNJ/Gnome.jpg}{s:MR}{s:Reference|Sang de molosse}
+====Sang de molosse====
+'''Prix''' 110 po ; '''Poids''' — ; '''DD d'Artisanat (alchimie)''' 20  
+<hr>
+Si un personnage applique cette épaisse pâte rouge, que l’on appelle le sang de molosse, sur son nez ou sa lèvre supérieure, son odorat s’améliore. La pâte donne un bonus alchimique de +2 aux tests de [[Perception]] pendant 1 heure à la plupart des créatures, mais, chez les [[Gnome|gnomes]], il décuple les capacités olfactives et le bénéficiaire dispose pendant 5 minutes du pouvoir [[Odorat (capacité)|odorat]] avant de n’avoir plus qu’un bonus de circonstances de +2 aux tests de [[Perception]] pendant 1 heure de plus.
+
+
 {s:AE}{s:Reference|Sèche-colle alchimique}
 ====Sèche-colle alchimique====
 '''Prix''' 25 po ; '''Poids''' — ; '''DD d'Artisanat (alchimie)''' 25  
 <hr>
 Ce tout petit compte-goutte contient un liquide qui accélère le temps de séchage de la [[Colle alchimique (objet)|colle alchimique]]. L’application de sèche-colle coûte une [[action simple]]. La colle qui en bénéficie adhère au bout d’un [[round]] et sèche complètement au bout d’une minute. Le compte-goutte contient 20 doses. Chacune suffit à accélérer le séchage d’une petite application de colle alchimique. Il faut vider l’intégralité du compte goutte pour faire sécher une surface encollée de 30 centimètres de côté.
+
+
+{s:cs}{s:UI}{s:Reference|Sérum dintuition}
+====Sérum d'intuition====
+'''Prix''' 190 po ; '''Poids''' — ; '''DD d'Artisanat (alchimie)''' 15  
+<hr>
+Boire ce liquide clair et pétillant accorde 1d4 utilisations d'[[Outils alchimiques#INSPIRATION|inspiration alchimique]] qui ne peuvent être dépensées que sur les tests de [[Psychologie]]. Les avantages du sérum d'intuition durent 1 heure ; pendant cette durée, le personnage doit lancer deux fois tous les tests d'[[Bluff]] et conserver le pire résultat.
 
 
 {s:MCA}{s:Reference|Solution adhésive}
@@ -754,6 +872,20 @@ Cette teinture (existant en plusieurs couleurs) crée une tache visible où qu�
 Ce tonique vaseux a une odeur piquante similaire à celle de la limaille de fer. Quand le personnage boit un tonique caverneux, sa voix prend un timbre plus grave et devient plus rauque pendant 1 heure, lui donnant un bonus alchimique de +5 aux tests d’[[Intimidation]].
 
 
+{s:cs}{s:UI}{s:Reference|Tonique de mains rapides}
+====Tonique de mains rapides====
+'''Prix''' 250 po ; '''Poids''' — ; '''DD d'Artisanat (alchimie)''' 20  
+<hr>
+Lorsqu'elle est ingérée, cette concoction amère de couleur rouille accorde 1d4 utilisations d'[[Outils alchimiques#INSPIRATION|inspiration alchimique]] qui ne peuvent être dépensées que sur les tests d'[[Escamotage]] et de [[Sabotage]]. Les avantages du tonique de mains rapides durent 1 heure ; pendant cette durée, le personnage doit lancer deux fois tous les tests d'[[Acrobaties]] et d'[[Évasion]] et conserver le pire résultat.
+
+
+{s:cs}{s:UI}{s:Reference|Tonique du harceleur nocturne}
+====Tonique du harceleur nocturne====
+'''Prix''' 200 po ; '''Poids''' — ; '''DD d'Artisanat (alchimie)''' 20  
+<hr>
+Une fois que le personnage consomme ce liquide au goût métallique, ses effets durent 1 heure. Pendant cette durée, le personnage peut accepter une [[Outils alchimiques#BRULURE|brûlure alchimique]] afin d'augmenter ses dégâts d'[[Roublard#ATTAQUESOURNOISE|attaque sournoise]] de 1d6 ou ses dégâts de [[Justicier#SPÉCIALISATIONDEJUSTICIER|frappe cachée]] de 1d4 ou 1d8 (selon le plus approprié) pendant 1 round. S'il ne possède ni attaque sournoise, ni frappe cachée, consommer ce tonique n'a aucun effet.
+
+
 {s:racial|Homme-rat (race)|h-rats|Illustrations/PNJ/Homme-rat.jpg}{s:MR}{s:Reference|Tonique infectieux}
 ====Tonique infectieux====
 '''Prix''' 150 po ; '''Poids''' 0,5 kg ; '''DD d'Artisanat (alchimie)''' 20  
@@ -766,3 +898,10 @@ Le tonique infectieux accroît l’efficacité d’une attaque infectieuse dont 
 '''Prix''' 10 po ; '''Poids''' 2,5 kg ; '''DD d'Artisanat (alchimie)''' 25  
 <hr>
 Cette petite boîte de phéromones d’[[Homme-félin (race)|hommes-félins]] spécialement préparées et de réactifs alchimiques peut être utilisée pour laisser des odeurs subtiles, mais tenaces que seuls les hommes-félins peuvent sentir et déchiffrer. S’il prend une minute, l’homme-félin peut créer une fragrance à appliquer sur un objet solide comme un arbre, un mur ou même un objet plus petit, comme une arme ou une fiole de [[Potions magiques|potion]]. Lorsqu’il fait cela, l’homme-félin laisse une de ces impressions derrière lui : danger, nourriture, abri ou propriété. L’impression de propriété est toujours liée à l’homme-félin particulier qui utilise la trousse et signifie que le territoire ou l’objet lui appartient. D’autres races peuvent tenter d’utiliser cette trousse pour créer une impression de danger, de nourriture ou d’abri, mais pour cela, elles doivent réussir un test d’[[Artisanat]] (alchimie) [[DD]] 20. Un homme-félin peut détecter une odeur particulière générée grâce à une trousse de marquage olfactif dans un rayon de 9 mètres. Si l’odeur est charriée par le vent, la portée à laquelle l’homme-félin peut la repérer passe à 18 mètres ; si elle est sous le vent, la portée tombe à 4,5 mètres. Un homme-félin ayant le trait racial [[Homme-félin (race)#Traits_raciaux_alternatifs_8|odorat]] double ces distances. Une impression odorante dure un an ou jusqu’à ce que l’objet soit nettoyé. Chaque trousse est prévue pour 10 utilisations.
+
+
+{s:cs}{s:UI}{s:Reference|Trousse de teintures alchimiques}
+====Trousse de teintures alchimiques====
+'''Prix''' 160 po ; '''Poids''' 3 kg ; '''DD d'Artisanat (alchimie)''' 20  
+<hr>
+Cette trousse contient une variété de liquides crémeux dans des bocaux en verre, qui permettent au personnage de changer temporairement la couleur de ses cheveux ou de sa peau pour correspondre à celles d'une créature de n'importe quelle race humanoïde. Cela inclut les teintes exotiques et inhabituelles, comme la couleur de cheveux des gnomes.<br/><br/>Si elle est utilisée dans le cadre d'un test de [[Déguisement]], cette trousse réduit le temps nécessaire pour créer le déguisement de 1d6 minutes (jusqu'à un minimum d'une [[action complexe]]), et diminue de moitié le malus du au fait de se déguiser en une race différente si la recoloration est pertinente. Chaque utilisation de cette trousse change soit la couleur des cheveux, soit la couleur de peau. Si le personnage doit changer les deux, il doit dépenser deux utilisations de cette trousse pour bénéficier de ses avantages.<br/><br/>Chaque teinture prend 1 minute à appliquer (donc 2 minutes s'il faut teindre les cheveux et la peau). Une fois appliquée, la teinture est imperméable, et ne peut pas être retirée par frottement ou brûlure. Une application de teinture s'efface après 1d4+1 jours, sauf si elle est retirée par magie plus tôt. Appliquer une nouvelle couche de teinture alchimique recouvre et remplace l'application précédente. Une trousse de teintures alchimiques est épuisée après 10 utilisations.

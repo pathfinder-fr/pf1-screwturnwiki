@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Descriptions individuelles des propriétés spéciales des armes
 Title: Descriptions individuelles des propriétés spéciales des armes
-LastModified: 2022-02-28 18:24
+LastModified: 2023-02-01 15:56
 ---
 {s:MenuObjetsMagiques}
 <div style="float: right; padding: 0 0 8px 8px">{toc}</div>''Les propriétés décrites ci-dessous sont celles présentées dans les [[armes magiques]].''
@@ -415,6 +415,16 @@ Cette arme réagit à la canalisation d’énergie positive ou négative. Quand 
 '''Conditions''' [[Création darmes et armures magiques|Création d’armes et armures magiques]],  [[Châtiment canalisé]], ''[[arme alignée]]'' ; '''Coût''' Bonus de +1
 </div>
 
+{s:Reference|Flexible}
+<div class="BD">
+{s:BDTitre|Flexible|{s:UI}}
+'''Aura''' [[Transmutation]] modérée ; '''NLS''' 11 ; '''Emplacement''' aucun ; '''Prix''' Bonus de +1 ; '''Poids''' —
+(((Caractéristiques)))
+{s:cs}Cette propriété s'applique uniquement aux armes de corps à corps. Une arme ''flexible'' peut se plier et se tordre lorsqu'elle est brandie contre une cible, ce qui lui permet de se faufiler à travers les espaces étroits et les angles désavantageux avec beaucoup plus d'aisance et d'être plus difficile à frapper directement. Lorsqu'une arme ''flexible'' est utilisée pour attaquer une créature qui bénéficie d'un [[abri]], son bonus d'abri à la [[CA]] est réduit de moitié. De plus, le porteur gagne un bonus égal au bonus d'altération de l'arme au [[DMD]] contre les manœuvres de [[désarmement]] ou de [[destruction]] qui ciblent l'arme ''flexible''. Si le porteur [[se serrer|se serre]] dans un espace étroit, il ne subit que la moitié du malus habituel aux [[jet dattaque|jets d'attaque]] avec l'arme ''flexible''.
+(((Fabrication)))
+'''Conditions''' [[Création darmes et armures magiques|Création d'armes et armures magiques]], ''[[forme liquide]]'' ; '''Coût''' Bonus de +1
+</div>
+
 {s:Reference|Focalisation ki}
 <div class="BD">
 {s:BDTitre|Focalisation ki|{s:AE}}
@@ -524,7 +534,8 @@ Cette propriété s’applique seulement aux armes de corps à corps qui acquiè
 (((Fabrication)))
 '''Conditions''' [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[pierre magique]]'' ; '''Coût''' Bonus de +1
 </div>
-
+</td>
+<td>
 {s:Reference|Leste}
 <div class="BD">
 {s:BDTitre|Leste|{s:RSE}}
@@ -534,8 +545,7 @@ Les armes ''lestes'' sont étonnement bien équilibrées et réactives aux mouve
 (((Fabrication)))
 '''Conditions''' [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[grâce féline]]'' ; '''Coût''' Bonus de +1
 </div>
-</td>
-<td>
+
 {s:Reference|Longue portée}
 <div class="BD">
 {s:BDTitre|Longue portée|{s:AE}}
@@ -1137,8 +1147,7 @@ Plus le possesseur d’une arme de filature passe du temps à observer une créa
 (((Fabrication)))
 '''Conditions''' [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[œil du chasseur]]'', ''[[coup au but]]'' ; '''Coût''' Bonus de +2
 </div>
-</td>
-<td>
+
 {s:Reference|Foudre intense}
 <div class="BD">
 {s:BDTitre|Foudre intense|{s:AE}}
@@ -1178,7 +1187,8 @@ Une arme ''impie'' est alimentée directement par l’énergie Mauvaise. Cela en
 (((Fabrication)))
 '''Conditions''' [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[ténèbres maudites]]'', le créateur doit être d’alignement Mauvais ; '''Coût''' Bonus de +2
 </div>
-
+</td>
+<td>
 {s:Reference|Inamovible}
 <div class="BD">
 {s:BDTitre|Inamovible|{s:AE}}
@@ -1189,6 +1199,18 @@ Cette propriété spéciale s’applique uniquement aux armes de corps à corps 
 '''Conditions''' [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[lévitation]]'' ; '''Coût''' Bonus de +2
 </div>
 
+{s:Reference|Infaillible}
+<div class="BD">
+{s:BDTitre|Infaillible|{s:UI}}
+'''Aura''' [[Abjuration]] modérée ; '''NLS''' 11 ; '''Emplacement''' aucun ; '''Prix''' Bonus de +2 ; '''Poids''' —
+(((Caractéristiques)))
+{s:cs}Cette propriété s'applique uniquement aux armes de corps à corps. Une arme ''infaillible'' perce les camouflages offerts par les illusions, ce qui permet au porteur d'ignorer les chances de rater imposées par les illusions telles que ''[[flou]]'', ''[[déplacement]]'' et ''[[invisibilité]]''. Les attaques portées avec une arme ''infaillible'' contre une créature affectée par ''[[image miroir]]'' ou une [[branche chimère|chimère]] similaire attaque toujours la véritable cible. Cependant, le porteur doit toujours localiser une créature invisible pour pouvoir l'attaquer.
+
+En plus de ses autres capacités, une arme ''infaillible'' fonctionne comme une sorte d'arme de ''[[dissipation (propriété)|dissipation]]'' contre les effets de [[branche chimère|chimère]] et de convocation d'ombres ; si le porteur porte une attaque contre un tel effet, l'arme tente automatiquement d'utiliser la ''[[dissipation de la magie]]'' stockée contre l'illusion. Si la tentative échoue, le porteur n'est pas conscient qu'elle a eu lieu, et sauf s'il dévoile l'illusion ou si la durée de celle-ci se termine, l'arme semble encore contenir une ''dissipation de la magie'' (mais il est libre de la lancer à nouveau sur l'arme s'il a une autre raison de croire qu'elle a été dépensée et a échoué à dévoiler une illusion).
+(((Fabrication)))
+'''Conditions''' [[Création darmes et armures magiques|Création d'armes et armures magiques]], greater dispel magic, true strike ; '''Coût''' Bonus de +2
+</div>
+
 {s:Reference|Intensification ki}
 <div class="BD">
 {s:BDTitre|Intensification ki|{s:AE}}
@@ -1197,6 +1219,16 @@ Cette propriété spéciale s’applique uniquement aux armes de corps à corps 
 Une arme d’''intensification ki'' permet à son porteur de canaliser et d’amplifier son énergie ki. Le personnage peut ainsi utiliser ses attaques spéciales ki via cette arme, comme s’il se battait à mains nues. Cela affecte les aptitudes de moine de [[moine#RESERVEDEKI|frappe ki]] et de [[moine#PAUMEVIBRATOIRE|paume vibratoire]], ainsi que le don [[Coup étourdissant]]. Le [[DD]] du [[jds|jet de sauvegarde]] contre les aptitudes ki augmente de la moitié du bonus d’altération de l’arme (minimum 1). Suite à un coup réussi avec une arme d’''intensification ki'', le possesseur peut dépenser 1 point de [[moine#RESERVEDEKI|ki]] par une [[action rapide]] pour accomplir une manœuvre de [[bousculade]], de [[désarmement]], de [[repositionnement]] ou de [[croc-en-jambe]] par une [[action libre]] sans provoquer d’[[valeurs de combat#ATTAQUEDOPPORTUNITE|attaque d’opportunité]]. Les bonus et les malus qui s’appliquent normalement au [[jet dattaque|jet d’attaque]] s’appliquent également au [[BMO|test de manœuvre de combat]]. Le possesseur de l’arme ne pas peut sortir de sa case lors de la manœuvre choisie. Cette propriété s’applique seulement aux armes de corps à corps. Elle ne q’applique pas à une [[amulette des poings invincibles]] ou tout autre objet similaire qui n’est pas une arme. On peut améliorer les armes possédant la propriété de ''[[focalisation ki (propriété)|focalisation ki]]'' pour en faire des armes d’''intensification ki''.
 (((Fabrication)))
 '''Conditions''' [[Création darmes et armures magiques|Création d’armes et armures magiques]], le créateur doit être [[moine]] ; '''Coût''' Bonus de +2
+</div>
+
+{s:Reference|LibératriceUI}
+<div class="BD">
+{s:BDTitre|Libératrice (UI)|{s:UI}}
+'''Aura''' [[Abjuration]] puissante ; '''NLS''' 12 ; '''Emplacement''' aucun ; '''Prix''' Bonus de +2 ; '''Poids''' —
+(((Caractéristiques)))
+{s:cs}Cette propriété s'applique uniquement aux armes de corps à corps. Le porteur d'une arme ''libératrice'' gagne un bonus de compétence égal au bonus d'altération de l'arme aux tests de [[Psychologie]], et ce bonus est doublé afin de percevoir les enchantements (voir [[Psychologie]]). Ce bonus augmenté s'applique également aux tests d'[[Art de la magie]] pour identifier un sort d'[[enchantement]] alors qu'il est lancé. Lorsqu'une arme ''libératrice'' est utilisée pour attaquer une créature sous l'effet d'un contrôle mental direct, comme par ''[[possession spirituelle]]'', des effets de [[branche charme|charme]], ou des effets de [[branche coercition|coercition]] comme ''[[injonction]]'' ou ''[[domination]]'', l'arme inflige des dégâts [[Blessures et mort#NONLETAL|non létaux]] et autorise un nouveau [[jds|jet de sauvegarde]] contre l'effet à la cible, avec un bonus de moral égal au bonus d'altération de l'arme. Si ce jet de sauvegarde est réussi, l'effet est suspendu pendant 10 minutes. Si la cible est soumise à plusieurs effets de ce genre, le porteur de l'arme choisi contre quel effet la cible a droit à un nouveau jet de sauvegarde. Si la cible rate ce jet, l'effet n'est pas suspendu et la cible devient immunisée contre la capacité de suspension de cette arme ''libératrice'' pendant 24 heures.
+(((Fabrication)))
+'''Conditions''' [[Création darmes et armures magiques|Création d'armes et armures magiques]], ''[[annulation denchantement|annulation d'enchantement]]'', ''[[dissipation suprême]]'' ; '''Coût''' Bonus de +2
 </div>
 
 {s:Reference|Marquage}
@@ -1227,6 +1259,28 @@ Une arme de ''moissonnage'' détourne le [[pouvoir mythique]] d’une créature 
 Seuls les arcs et les arbalètes peuvent profiter de cette propriété, pas les armes à feu ni autres armes à projectiles. À chaque fois que l’on bande une arme à ''munitions inépuisables'', une flèche ou un carreau non-magique apparaît spontanément et magiquement sur la corde. Le tireur n’a donc jamais besoin de prévoir de munitions pour cette arme. Si le porteur tente d’utiliser des munitions différentes, la flèche ou le carreau créé disparaît immédiatement pour qu’il puisse utiliser l’arme normalement. Cette propriété ne réduit pas la durée requise pour charger ou tirer avec l’arme. La munition créée disparaît si elle est éloignée de l’arme, elle perdure uniquement si elle est tirée. À la différence des munitions d’arcs et d’arbalètes ordinaires, ces munitions sont systématiquement détruites lorsqu’elles sont tirées.
 (((Fabrication)))
 '''Conditions''' [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[création mineure]]'' ; '''Coût''' Bonus de +2
+</div>
+
+{s:Reference|Muselante}
+<div class="BD">
+{s:BDTitre|Muselante|{s:UI}}
+'''Aura''' [[Illusion]] modérée ; '''NLS''' 8 ; '''Emplacement''' aucun ; '''Prix''' Bonus de +2 ; '''Poids''' —
+(((Caractéristiques)))
+{s:cs}Une arme ''muselante'' ne fait aucun bruit lorsqu'elle est dégainée ou utilisée pour attaquer. De plus, après avoir touché une créature, le porteur peut l'envelopper d'une aura qui étouffe tous les sons qu'elle produit jusqu'au début du prochain tour du porteur. La cible peut toujours écouter et parler (y compris prononcer des mots de commande ou lancer des sorts à composante verbale), mais est bien plus difficile à entendre. Le [[DD]] des tests de [[Perception]] visant à entendre les bruits d'un combat passe de -10 à 10, tant que les seuls combattants sont le porteur de l'arme ''muselante'' et la cible affectée par sa capacité d'étouffement des sons.
+
+Si le porteur confirme un [[coup critique]] avec une arme ''muselante'', la cible est également enfermée dans une aura mobile de ''[[silence]]'' magique ([[Volonté]] [[DD]] 13 annule), qui dure un nombre de rounds égal au facteur de critique de l'arme. Le DD du [[jds|jet de sauvegarde]] augmente de 2 pour chaque facteur de critique de l'arme supérieur à ×2. Ce silence englobe l'espace occupé par la cible mais ne s'étend pas au-delà.
+(((Fabrication)))
+'''Conditions''' [[Création darmes et armures magiques|Création d'armes et armures magiques]], ''[[silence]]'' ; '''Coût''' Bonus de +2
+</div>
+
+{s:Reference|Pacifique}
+<div class="BD">
+{s:BDTitre|Pacifique|{s:UI}}
+'''Aura''' [[Enchantement]] modérée  ; '''NLS''' 8 ; '''Emplacement''' aucun ; '''Prix''' Bonus de +2 ; '''Poids''' —
+(((Caractéristiques)))
+{s:cs}Une créature qui subit des dégâts [[Blessures et mort#NONLETAL|non létaux]] d'une arme ''pacifique'' est [[secoué|secouée]] pendant 1 [[round]] à chaque fois qu'elle inflige des dégâts létaux à une autre créature vivante. La durée se cumule à chaque attaque, mais cet effet ne peut pas rendre la créature [[effrayé|effrayée]] (même si elle est soumise à d'autres effets de peur). Si les dégâts non létaux subis par la créature affectée sont complètements soignés, les attaques ultérieures n'étendent plus la durée de l'état secoué, mais sa durée actuelle persiste.
+(((Fabrication)))
+'''Conditions''' [[Création darmes et armures magiques|Création d'armes et armures magiques]], ''[[apaisement des émotions]]'', ''[[soins légers]]'' ; '''Coût''' Bonus de +2
 </div>
 
 {s:Reference|Percutante}
@@ -1287,6 +1341,16 @@ Une arme ''sainte'' est alimentée directement par l’énergie Bonne. Cela en f
 Cette propriété s’applique seulement aux armes de corps à corps. Une arme ''sanglante'' inflige 1 point de dégâts de [[saignement]] supplémentaire à chaque fois qu’elle touche une créature. Si la victime reçoit plusieurs coups d’une arme ''sanglante'', les dégâts dus à l’hémorragie se cumulent. Ces dégâts prennent effet au début du prochain tour de la victime. On peut arrêter cette hémorragie en réussissant un test de [[Premiers secours]] ([[DD]] 15) ou en lançant sur le blessé un sort de soins. Un coup critique n’augmente pas la valeur de cet affaiblissement. Les créatures immunisées contre les coups critiques sont également immunisées contre les effets de cette propriété spéciale.
 (((Fabrication)))
 '''Conditions''' [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[sort saignement|saignement]]'' ; '''Coût''' Bonus de +2
+</div>
+
+{s:Reference|Secrète}
+<div class="BD">
+{s:BDTitre|Secrète|{s:UI}}
+'''Aura'''[[Illusion]] modérée ; '''NLS''' 7 ; '''Emplacement''' aucun ; '''Prix''' Bonus de +2 ; '''Poids''' —
+(((Caractéristiques)))
+{s:cs}Cette propriété s'applique uniquement aux armes de corps à corps. Une commande, une arme ''secrète'' peut devenir invisible, incluant son fourreau, sa gaine ou tout accessoire similaire utilisé pour tenir l'arme. Un examen minutieux révèle sa présence, mais pas une inspection purement visuelle. Tant qu'elle est invisible, une arme ''secrète'' impose à son manieur un malus de -1 aux [[jet dattaque|jets d'attaque]], sauf s'il possède le don [[Combat en aveugle]] ou qu'il est capable de voir les objets invisibles. La cible de la première attaque portée avec une arme ''secrète'' lors d'un combat est privée de son bonus de [[Dextérité]] à la [[CA]] sauf si elle possède le don [[Combat en aveugle]], est capable de voir les objets invisibles ou est clairement consciente que le manieur utilise une arme ''secrète''. Une arme ''secrète'' est considérée comme bénéficiant d'un [[camouflage total]] contre les attaques ou les effets qui la ciblent directement, comme les manœuvres de [[désarmement]], de [[destruction]] ou de [[subtilisation]], ''[[désintégration]]'' ou ''[[rouille]]''.
+(((Fabrication)))
+'''Conditions''' [[Création darmes et armures magiques|Création d'armes et armures magiques]], ''[[invisibilité suprême]]'' ; '''Coût''' Bonus de +2
 </div>
 
 {s:Reference|Sismique}
@@ -1351,8 +1415,7 @@ Cette propriété s’applique seulement aux armes à feu qui ont alors moins de
 (((Fabrication)))
 '''Conditions''' [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[réparation intégrale]]'' ; '''Coût''' Bonus de +3
 </div>
-</td>
-<td>
+
 {s:Reference|Flamboyante supérieure}
 <div class="BD">
 {s:BDTitre|Flamboyante supérieure|{s:MCA}}
@@ -1362,7 +1425,8 @@ Cette propriété spéciale d’arme ne peut être appliquée qu’aux armes per
 (((Fabrication)))
 '''Conditions''' [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[héroïsme suprême]]'', le créateur doit être un utilisateur de [[bretteur#PANACHE|panache]] ; '''Coût''' Bonus de +3
 </div>
-
+</td>
+<td>
 {s:Reference|Rapide}
 <div class="BD">
 {s:BDTitre|Rapide|{s:AE}}
@@ -1381,6 +1445,18 @@ Lorsqu’il effectue une [[Actions complexes#ATTAQUEAOUTRANCE|attaque à outranc
 Cette propriété s’applique seulement aux armes de corps à corps. Une arme ''repositionnante'' octroie à son possesseur un bonus d’altération de +2 aux tests de manœuvre de [[repositionnement]]. Si le possesseur confirme un coup critique avec cette arme, il peut tenter de repositionner son adversaire par une [[action libre]]. Ces tentatives de [[repositionnement]] provoquent toujours des [[valeurs de combat#ATTAQUEDOPPORTUNITE|attaques d’opportunité]], comme à l’accoutumée. Une arme ne peut pas être à la fois ''[[inamovible (propriété)|inamovible]]'' et ''repositionnante''.
 (((Fabrication)))
 '''Conditions''' [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[télékinésie]]'' ; '''Coût''' Bonus de +3
+</div>
+
+{s:Reference|Umbrale}
+<div class="BD">
+{s:BDTitre|Umbrale|{s:UI}}
+'''Aura''' [[Évocation]] modérée ; '''NLS''' 9 ; '''Emplacement''' aucun ; '''Prix''' Bonus de +3 ; '''Poids''' —
+(((Caractéristiques)))
+{s:cs}Cette propriété s'applique uniquement aux armes de corps à corps avec une poignée ou un manche. Une arme ''umbrale'' ne reflète pas les sources de lumière et est enveloppée dans une ombre perpétuelle. Elle est considérée comme bénéficiant d'un [[camouflage]] contre les attaques ou les effets qui la ciblent directement, comme les manœuvres de [[désarmement]], de [[destruction]] ou de [[subtilisation]], ''[[désintégration]]'' ou ''[[rouille]]''. Le porteur gagne la [[Vision dans le noir (capacité)|vision dans le noir]] à 18 m tant qu'il tient la poignée ou le manche de l'arme, même si elle n'est pas dégainée.
+
+Sur [[mot de commande|commande]], une arme ''umbrale'' projette des ténèbres dans un rayon de 6 m, réduisant le niveau de luminosité de la zone d'une catégorie (de lumière vive à lumière normale, de lumière normale à lumière faible, et de lumière faible à ténèbres). Grâce à la [[Vision dans le noir (capacité)|vision dans le noir]] offerte par l'arme, le porteur n'est pas handicapé par les ténèbres créés par une arme ''umbrale''. Ces ténèbres sont considérées comme un effet de sort de 2e niveau dans le cadre des intéractions entre les effets de lumière et de ténèbres. Ces ténèbres répriment les sorts de ''[[lumière]]'', mais ne peuvent pas être utiliser pour les [[contresort|contrer]] ou les [[dissipation de la magie|dissiper]]. L'arme doit être dégainée et entre les mains du porteur pour projeter des ténèbres. Les ténèbres disparaissent immédiatement si l'arme est lâchée, désarmée, rengainée ou autrement rangée.
+(((Fabrication)))
+'''Conditions''' [[Création darmes et armures magiques|Création d'armes et armures magiques]], ''[[ténèbres]]'', ''[[sort Vision dans le noir|vision dans le noir]]'' ; '''Coût''' Bonus de +3
 </div>
 
 {s:Reference|Voleuse de magie}

@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.dons déquipe
 Title: Dons d'équipe
-LastModified: 2021-01-04 20:16
+LastModified: 2023-02-01 14:57
 Categories:
   - 'Don'
   - 'Don équipe'
@@ -10,11 +10,11 @@ Categories:
   - 'Src Art de la guerre'
   - 'Src Art de la magie'
 ---
-{s:MenuDons}{s:TableauDons}{s:apg}Les dons d’équipe offrent des bonus importants, mais ils ne fonctionnent que sous certaines conditions. Dans la plupart des cas, ils nécessitent la présence d’un allié possédant également le don en question et sa présence à un endroit précis du champ de bataille. Les dons d’équipe ne donnent aucun bonus si les conditions précisées ne sont pas remplies. Notez que les alliés qui sont [[paralysé|paralysés]], [[étourdi|étourdis]], [[inconscient|inconscients]] ou incapables d’agir pour une raison ou une autre ne permettent pas de remplir les conditions de ces dons. 
+{s:MenuDons}{s:TableauDons}Les dons d’équipe offrent des bonus importants, mais ils ne fonctionnent que sous certaines conditions. Dans la plupart des cas, ils nécessitent la présence d’un allié possédant également le don en question et sa présence à un endroit précis du champ de bataille. Les dons d’équipe ne donnent aucun bonus si les conditions précisées ne sont pas remplies. Notez que les alliés qui sont [[paralysé|paralysés]], [[étourdi|étourdis]], [[inconscient|inconscients]] ou incapables d’agir pour une raison ou une autre ne permettent pas de remplir les conditions de ces dons.
 
 Les chevaliers, les chasseurs et les inquisiteurs possèdent des pouvoirs de classe spéciaux qui leur permettent d’utiliser les dons de travail en équipe même si leurs alliés ne les possèdent pas.
 
-''Les dons marqués d'un astérisque (*) sont des [[Dons#DONCOMBAT|dons de combat]].''
+''Les dons marqués d'un astérisque (*) sont des dons de combat.''
 <center>
 {| CLASS="tablo toutgauche"
 |+ Tableau récapitulatif des dons d'équipe
@@ -25,10 +25,12 @@ Les chevaliers, les chasseurs et les inquisiteurs possèdent des pouvoirs de cla
 | WIDTH="38%" | Avantages
 
 |- CLASS="premier donprincipal"
-| [[À labri|À l'abri]] || <sup>MJRA</sup> || — || Utiliser le résultat d’un allié pour son propre jet de sauvegarde
+| [[À labri|À l'abri]] || <sup>MJRA</sup> || — || Utiliser le résultat d'un allié pour son propre jet de sauvegarde
+|- CLASS="alt donprérequis0"
+| &emsp;[[Science de labri|Science de l'abri]] || <sup>MCA</sup> || À l'abri || Quand le personnage utilise À l'abri, un allié possédant esquive totale ou esquive surnaturelle reçoit une partie des dégâts
 
 |- CLASS="premier alt donprincipal"
-| [[Attaque dencerclement|Attaque d'encerclement]]* || <sup>MPNJ</sup> || [[Esquive]], [[Souplesse du serpent]], [[BBA]] +3 || Aux côtés d’un allié, le personnage sait engager le combat contre des ennemis de grande taille qui éprouveront alors des difficultés à répliquer contre ces deux assaillants.
+| [[Attaque dencerclement|Attaque d'encerclement]]* || <sup>MPNJ</sup> || [[Esquive]], [[Souplesse du serpent]], [[BBA]] +3 || Aux côtés d'un allié, le personnage sait engager le combat contre des ennemis de grande taille qui éprouveront alors des difficultés à répliquer contre ces deux assaillants.
 
 |- CLASS="premier donprincipal"
 | [[Attaquer en meute]]* || <sup>AG</sup> || [[BBA]] +1 || Une attaque alliée permet au personnage de faire un pas de 1,50 m
@@ -37,31 +39,37 @@ Les chevaliers, les chasseurs et les inquisiteurs possèdent des pouvoirs de cla
 | [[Cachette commune]] || <sup>CM</sup> || [[Arme en main]], [[BBA]] +1, 1 rang en [[Escamotage]], trait racial [[Homme-rat (race)#Traits_raciaux_standards_7|regroupement]] || Récupère rapidement des objets portés par les alliés
 
 |- CLASS="premier donprincipal"
-| [[Cavalerie en formation]]* || <sup>AG</sup> || [[Combat monté]] || Le personnage partage sa case avec d’autres montures et peut charger à travers une case occupée par une monture alliée
+| [[Cavalerie en formation]]* || <sup>AG</sup> || [[Combat monté]] || Le personnage partage sa case avec d'autres montures et peut charger à travers une case occupée par une monture alliée
 
 |- CLASS="premier alt donprincipal"
 | [[Charge coordonnée]]* || <sup>AG</sup> || Deux [[dons#DONEQUIPE|dons d'équipe]], [[BBA]] +10 || Le personnage peut charger le même adversaire que son allié
 
 |- CLASS="premier donprincipal"
-| [[Charge de diversion]]* || <sup>MCA</sup> || — || Quand un allié possédant ce don charge, le personnage gagne un bonus de +2 aux jets d’attaque contre la créature chargée
+| [[Charge de diversion]]* || <sup>MCA</sup> || — || Quand un allié possédant ce don charge, le personnage gagne un bonus de +2 aux jets d'attaque contre la créature chargée
 
 |- CLASS="premier alt donprincipal"
 | [[Charge de la horde]] || <sup>MR</sup> || [[BBA]] +1, [[demi-orque]] ou [[Orque (race)|orque]] || +2 à l'attaque et aux dégâts lors d'une charge avec un allié
 
 |- CLASS="premier donprincipal"
-| [[Cible dopportunité|Cible d'opportunité]]* || <sup>AG</sup> || [[Tir à bout portant]], [[BBA]] +6 || Quand un allié réussit une attaque à distance, le personnage peut faire une attaque par une action immédiate
+| [[Cible dopportunité|Cible d'opportunité]]* || <sup>AG</sup> || [[Tir à bout portant]], [[BBA]] +6 || Quand un allié réussit une attaque de corps à corps, le personnage peut faire une attaque par une action immédiate
 
 |- CLASS="premier alt donprincipal"
+| [[Coordination opportune]] || <sup>''UI''</sup> || — || +1 aux jets d'attaque et aux tests de compétence des actions préparées déclenchées par des alliés
+
+|- CLASS="premier donprincipal"
 | [[Coup de focalisation]] || <sup>MR</sup> || [[Discipline hobgobeline]], [[Hobgobelin (race)|hobgobelin]] || Inflige des dégâts pour libérer un allié d'un effet mental
 
-|- CLASS="premier donprincipal"
+|- CLASS="premier alt donprincipal"
 | [[Coup précis]]* || <sup>MJRA</sup> || [[Dex]] 13, [[BBA]] +1 || Inflige +1d6 points de précision avec les attaques au corps à corps
 
+|- CLASS="premier donprincipal"
+| [[Couple dopportunistes|Couple d'opportunistes]]* || <sup>MJRA</sup> || — || Bonus de +4 aux attaques d'opportunité
+
 |- CLASS="premier alt donprincipal"
-| [[Couple dopportunistes|Couple d'opportunistes]]* || <sup>MJRA</sup> || — || Bonus de +4 aux attaques d’opportunité
+| [[Défenses coordonnées]]* || <sup>MJRA</sup> || — || Bonus de +2 au DMD
 
 |- CLASS="premier donprincipal"
-| [[Défenses coordonnées]]* || <sup>MJRA</sup> || — || Bonus de +2 au DMD
+| [[Désamorçage coopératif]] || <sup>''UI''</sup> || 1 rang en [[Sabotage]], capacité de classe [[Roublard#RECHERCHEDESPIEGES|recherche des pièges]] || Un allié adjacent peut faire un second test de Sabotage par une action immédiate
 
 |- CLASS="premier alt donprincipal"
 | [[Dos à dos]] || <sup>AG</sup> || 3 rangs en [[Perception]] || +2 à la CA contre les adversaires qui prennent le personnage en tenaille
@@ -74,10 +82,10 @@ Les chevaliers, les chasseurs et les inquisiteurs possèdent des pouvoirs de cla
 |- CLASS="premier alt donprincipal"
 | [[Échange de place]]* || <sup>MJRA</sup> || — || Changer de place avec un allié adjacent
 |- CLASS="donprérequis0"
-| &emsp;[[Science de léchange de place|Science de l'échange de place]]* || <sup>MCA</sup> || Échange de place || Quand le personnage utilise Échange de place, son allié peut être plus petit ou plus grand que lui et son déplacement ne provoque pas d’attaque d’opportunité
+| &emsp;[[Science de léchange de place|Science de l'échange de place]]* || <sup>MCA</sup> || Échange de place || Quand le personnage utilise Échange de place, son allié peut être plus petit ou plus grand que lui et son déplacement ne provoque pas d'attaque d'opportunité
 
 |- CLASS="premier donprincipal"
-| [[Échappatoire]] || <sup>AG</sup> || — || Le personnage ne provoque pas d’attaque d’opportunité quand il passe dans une case adjacente à un allié
+| [[Échappatoire]] || <sup>AG</sup> || — || Le personnage ne provoque pas d'attaque d'opportunité quand il passe dans une case adjacente à un allié
 
 |- CLASS="premier alt donprincipal"
 | [[Ensemble]] || <sup>AM</sup> || 5 rangs en [[Représentation]] || Les artistes voisins peuvent aider le personnage à faire son test de Représentation
@@ -98,7 +106,7 @@ Les chevaliers, les chasseurs et les inquisiteurs possèdent des pouvoirs de cla
 | [[Frénésie martiale]]* || <sup>MCA</sup> || [[Cha]] 13, capacité de classe [[Barbare#RAGE|rage de berserker]] || Quand un allié est proche du personnage, le malus à la CA de sa rage est réduit de 2.
 
 |- CLASS="premier alt donprincipal"
-| [[Grande tenaille]]* || <sup>MJRA</sup> || [[BBA]] +4 || Bonus de +4 aux jets d’attaque en cas de prise en tenaille
+| [[Grande tenaille]]* || <sup>MJRA</sup> || [[BBA]] +4 || Bonus de +4 aux jets d'attaque en cas de prise en tenaille
 
 |- CLASS="premier donprincipal"
 | [[Guérison partagée]] || <sup>MCA</sup> || Capacité à obtenir un [[Druide#PACTEAVECLANATURE|compagnon animal]], un [[Conjurateur#EIDOLON|eidolon]], un [[MAGICIEN#PACTEMAGIQUE|familier]] ou une [[Chevalier#MONTURE|monture spéciale]] || Le personnage partage sa guérison avec son compagnon
@@ -119,92 +127,95 @@ Les chevaliers, les chasseurs et les inquisiteurs possèdent des pouvoirs de cla
 | [[Lutteur brutal]]* || <sup>MR</sup> || [[Demi-orque]] ou [[Orque (race)|orque]] || Aide un allier à agripper une créature
 
 |- CLASS="premier donprincipal"
+| [[Ma lame est vôtre]]* || <sup>''UI''</sup> || [[Int]] 13, [[Expertise du combat]], 3 rangs en [[Psychologie]] || Utilise un des attributs spéciaux de l'arme d'un allié adjacent
+
+|- CLASS="premier alt donprincipal"
 | [[Manoeuvres coordonnées]]* || <sup>MJRA</sup> || — || Bonus de +2 aux tests de manoeuvres de combat.
 
-|- CLASS="premier alt donprincipal"
-| [[Médecin de guerre]] || <sup>AG</sup> || 5 rangs en [[Premiers secours]] || Le personnage peut faire 10 à un test de Premiers secours et ne provoque pas d’attaque d’opportunité
-
 |- CLASS="premier donprincipal"
+| [[Médecin de guerre]] || <sup>AG</sup> || 5 rangs en [[Premiers secours]] || Le personnage peut faire 10 à un test de Premiers secours et ne provoque pas d'attaque d'opportunité
+
+|- CLASS="premier alt donprincipal"
 | [[Mémoire collective]] || <sup>RSE</sup> || — || Utilise l'action aider quelqu'un sur les tests de Connaissances d'un allié
 
-|- CLASS="premier alt donprincipal"
+|- CLASS="premier donprincipal"
 | [[Mur de boucliers]]* || <sup>MJRA</sup> || [[Maniement des boucliers]] || Augmenter le bonus de bouclier à la CA
 
-|- CLASS="premier donprincipal"
+|- CLASS="premier alt donprincipal"
 | [[Partenaire de désarmement]]* || <sup>CM</sup> || [[BBA]] +1 || Tente une manoeuvre de désarmement lorsqu'un allié en rate une
-|- CLASS="alt donprérequis0"
+|- CLASS="donprérequis0"
 | &emsp;[[Science du partenaire de désarmement]]* || <sup>CM</sup> || Partenaire de désarmement, BBA +5 || Fait des attaques d'opportunité et des manoeuvres de désarmement lorsqu'un allié rate une tentative de désarmement
 
-|- CLASS="premier alt donprincipal"
-| [[Partenaire de feinte]]* || <sup>AG</sup> || 1 rang en [[Bluff]] || Quand un allié réussit une feinte, son adversaire perd son bonus de Dextérité contre la prochaine attaque du personnage
-|- CLASS="donprérequis0"
-| &emsp;[[Science du partenaire de feinte]]* || <sup>AG</sup> || 1 rang en Bluff, Attaques réflexes, Partenaire de feinte, BBA +6 || Quand un allié réussit une feinte, le personnage a droit à une attaque d’opportunité contre son adversaire
-
 |- CLASS="premier donprincipal"
+| [[Partenaire de feinte]]* || <sup>AG</sup> || 1 rang en [[Bluff]] || Quand un allié réussit une feinte, son adversaire perd son bonus de Dextérité contre la prochaine attaque du personnage
+|- CLASS="alt donprérequis0"
+| &emsp;[[Science du partenaire de feinte]]* || <sup>AG</sup> || 1 rang en Bluff, Attaques réflexes, Partenaire de feinte, BBA +6 || Quand un allié réussit une feinte, le personnage a droit à une attaque d'opportunité contre son adversaire
+
+|- CLASS="premier alt donprincipal"
 | [[Placage]]* || <sup>MPNJ</sup> || [[Expertise du combat]], [[Science du croc-en-jambe]] || Les alliés du personnage l'aident à faire tomber un adversaire plus grand que lui
 
-|- CLASS="premier alt donprincipal"
-| [[Rage amplifiée]] || <sup>MR</sup> || [[Demi-orque]] ou [[Orque (race)|orque]], capacité de classe [[Barbare#RAGE|rage de berserker]] || La rage du personnage est plus puissante lorsqu’un allié proche est en rage
-
 |- CLASS="premier donprincipal"
+| [[Rage amplifiée]] || <sup>MR</sup> || [[Demi-orque]] ou [[Orque (race)|orque]], capacité de classe [[Barbare#RAGE|rage de berserker]] || La rage du personnage est plus puissante lorsqu'un allié proche est en rage
+
+|- CLASS="premier alt donprincipal"
 | [[Repositionnement coordonné]] || <sup>CM</sup> || [[Savancer|S'avancer]] || Pas de placement gratuit quand les alliés en font
 
-|- CLASS="premier alt donprincipal"
+|- CLASS="premier donprincipal"
 | [[Reprends-toi]] || <sup>AG</sup> || — || +1 aux jets de sauvegarde par allié adjacent
 
-|- CLASS="premier donprincipal"
-| [[Saisir sa chance]]* || <sup>AG</sup> || [[Attaques réflexes]], [[Science du critique]] || Quand un allié confirme un coup critique, le personnage a droit à une attaque d’opportunité
-
 |- CLASS="premier alt donprincipal"
-| [[Science de labri|Science de l'abri]] || <sup>MCA</sup> || [[À labri|À l’abri]] || Quand le personnage utilise À l’abri, un allié possédant esquive totale ou esquive surnaturelle reçoit une partie des dégâts
+| [[Saisir sa chance]]* || <sup>AG</sup> || [[Attaques réflexes]], [[Science du critique]] || Quand un allié confirme un coup critique, le personnage a droit à une attaque d'opportunité
 
 |- CLASS="premier donprincipal"
-| [[Science de léchange de place|Science de l'échange de place]]* || <sup>MCA</sup> || [[Échange de place]] || Quand le personnage utilise Échange de place, son allié peut être plus petit ou plus grand que lui et son déplacement ne provoque pas d’attaque d’opportunité
+| [[Science de labri|Science de l'abri]] || <sup>MCA</sup> || [[À labri|À l'abri]] || Quand le personnage utilise À l'abri, un allié possédant esquive totale ou esquive surnaturelle reçoit une partie des dégâts
 
 |- CLASS="premier alt donprincipal"
+| [[Science de léchange de place|Science de l'échange de place]]* || <sup>MCA</sup> || [[Échange de place]] || Quand le personnage utilise Échange de place, son allié peut être plus petit ou plus grand que lui et son déplacement ne provoque pas d'attaque d'opportunité
+
+|- CLASS="premier donprincipal"
 | [[Science du combat dos à dos]] || <sup>AG</sup> || [[Dos à dos]], 5 rangs en [[Perception]] || Donne un bonus de +2 à la CA à un allié adjacent contre les adversaires qui le prennent en tenaille
 
-|- CLASS="premier donprincipal"
-| [[Science du partage de sorts]] || <sup>MCA</sup> || Capacité à obtenir un [[Druide#PACTEAVECLANATURE|compagnon animal]], un [[Conjurateur#EIDOLON|eidolon]], un [[MAGICIEN#PACTEMAGIQUE|familier]] ou une [[Chevalier#MONTURE[monture spéciale]] || Le personnage divise la durée des sorts entre son compagnon et lui
-
 |- CLASS="premier alt donprincipal"
+| [[Science du partage de sorts]] || <sup>MCA</sup> || Capacité à obtenir un [[Druide#PACTEAVECLANATURE|compagnon animal]], un [[Conjurateur#EIDOLON|eidolon]], un [[MAGICIEN#PACTEMAGIQUE|familier]] ou une [[Chevalier#MONTURE|monture spéciale]] || Le personnage divise la durée des sorts entre son compagnon et lui
+
+|- CLASS="premier donprincipal"
 | [[Science du partenaire de désarmement]]* || <sup>CM</sup> || [[Partenaire de désarmement]], [[BBA]] +5 || Fait des attaques d'opportunité et des manoeuvres de désarmement lorsqu'un allié rate une tentative de désarmement
 
-|- CLASS="premier donprincipal"
-| [[Science du partenaire de feinte]]* || <sup>AG</sup> || 1 rang en [[Bluff]], [[Attaques réflexes]], [[Partenaire de feinte]], [[BBA]] +6 || Quand un allié réussit une feinte, le personnage a droit à une attaque d’opportunité contre son adversaire
-
 |- CLASS="premier alt donprincipal"
+| [[Science du partenaire de feinte]]* || <sup>AG</sup> || 1 rang en [[Bluff]], [[Attaques réflexes]], [[Partenaire de feinte]], [[BBA]] +6 || Quand un allié réussit une feinte, le personnage a droit à une attaque d'opportunité contre son adversaire
+
+|- CLASS="premier donprincipal"
 | [[Science du travail en équipe sournois]]* || <sup>RSE</sup> || [[Expertise du combat]], [[Science du sale coup]], [[Travail en équipe sournois]], [[BBA]] +6 || Fait un sale coup lorsqu'un allié proche le fait
 
-|- CLASS="premier donprincipal"
+|- CLASS="premier alt donprincipal"
 | [[Synergie de la discrétion]] || <sup>AG</sup> || — || Le personnage et ses alliés prennent le meilleur jet de Discrétion du groupe
 
-|- CLASS="premier alt donprincipal"
-| [[Tactique de la patte blessée]]* || <sup>MCA</sup> || [[Tactique de laile cassée|Tactique de l'aile cassée]], 5 rangs en [[Bluff]] || Quand le personnage utilise Tactique de l’aile cassée, les alliés alentour peuvent tenter une attaque à distance contre l’assaillant
-
 |- CLASS="premier donprincipal"
-| [[Tactique de laile cassée|Tactique de l'aile cassée]]* || <sup>AG</sup> || 5 rangs en [[Bluff]] || Donne un bonus au jet d’attaque de l’adversaire mais ce dernier provoque des attaques d’opportunité
+| [[Tactique de laile cassée|Tactique de l'aile cassée]]* || <sup>AG</sup> || 5 rangs en [[Bluff]] || Donne un bonus au jet d'attaque de l'adversaire mais ce dernier provoque des attaques d'opportunité
 |- CLASS="alt donprérequis0"
-| &emsp;[[Tactique de la patte blessée]]* || <sup>MCA</sup> || Tactique de l'aile cassée, 5 rangs en Bluff || Quand le personnage utilise Tactique de l’aile cassée, les alliés alentour peuvent tenter une attaque à distance contre l’assaillant
+| &emsp;[[Tactique de la patte blessée]]* || <sup>MCA</sup> || Tactique de l'aile cassée, 5 rangs en Bluff || Quand le personnage utilise Tactique de l'aile cassée, les alliés alentour peuvent tenter une attaque à distance contre l'assaillant
 
 |- CLASS="premier alt donprincipal"
-| [[Tenaille de meute]] || <sup>MCA</sup> || [[Int]] 13, [[Expertise du combat]], capacité à obtenir un [[compagnon animal]] || Le personnage et son compagnon prennent l’adversaire en tenaille quelle que soit leur position
+| [[Tactique de la patte blessée]]* || <sup>MCA</sup> || [[Tactique de laile cassée|Tactique de l'aile cassée]], 5 rangs en [[Bluff]] || Quand le personnage utilise Tactique de l'aile cassée, les alliés alentour peuvent tenter une attaque à distance contre l'assaillant
 
 |- CLASS="premier donprincipal"
+| [[Tenaille de meute]] || <sup>MCA</sup> || [[Int]] 13, [[Expertise du combat]], capacité à obtenir un [[compagnon animal]] || Le personnage et son compagnon prennent l'adversaire en tenaille quelle que soit leur position
+
+|- CLASS="premier alt donprincipal"
 | [[Tenaille mordeuse]]* || <sup>CM</sup> || [[BBA]] +9, attaque de morsure || Attaque de morsure rapide en prenant un adversaire en tenaille
 
+|- CLASS="premier donprincipal"
+| [[Tir coordonné]]* || <sup>MCA</sup> || [[Tir à bout portant]] || Quand un allié possédant ce don menace un ennemi, le personnage gagne un bonus de +1 aux jets d'attaque à distance ou de +2 si cet allié prend l'ennemi en tenaille
+
 |- CLASS="premier alt donprincipal"
-| [[Tir coordonné]]* || <sup>MCA</sup> || [[Tir à bout portant]] || Quand un allié possédant ce don menace un ennemi, le personnage gagne un bonus de +1 aux jets d’attaque à distance ou de +2 si cet allié prend l’ennemi en tenaille
+| [[Tir en enfilade]]* || <sup>AG</sup> || [[Tir à bout portant]], [[Tir de précision]], un [[dons#DONEQUIPE|don d'équipe]] || Quand un allié prend un adversaire en tenaille, le personnage gagne un bonus de +2 aux jets d'attaque à distance contre lui
 
 |- CLASS="premier donprincipal"
-| [[Tir en enfilade]]* || <sup>AG</sup> || [[Tir à bout portant]], [[Tir de précision]], un [[dons#DONEQUIPE|don d'équipe]] || Quand un allié prend un adversaire en tenaille, le personnage gagne un bonus de +2 aux jets d’attaque à distance contre lui
-
-|- CLASS="premier alt donprincipal"
 | [[Travail en équipe sournois]]* || <sup>RSE</sup> || [[Expertise du combat]], [[Science du sale coup]] || Augmente la durée d'un état préjudiciable imposé par le sale coup d'un allié
-|- CLASS="donprérequis0"
+|- CLASS="alt donprérequis0"
 | &emsp;[[Science du travail en équipe sournois]]* || <sup>RSE</sup> || Expertise du combat, Science du sale coup, Travail en équipe sournois, BBA +6 || Fait un sale coup lorsqu'un allié proche le fait
 
-|- CLASS="premier donprincipal"
+|- CLASS="premier alt donprincipal"
 | [[Vigie]]* || <sup>MJRA</sup> || — || Agir lors du round de surprise si un allié le peut
 |}
 </center>

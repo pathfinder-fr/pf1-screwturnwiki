@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Vêtements
 Title: Vêtements
-LastModified: 2021-10-25 15:38
+LastModified: 2023-02-01 15:14
 Categories:
   - 'Règle officielle'
   - 'Src Armes et équipement'
@@ -103,6 +103,12 @@ Tous les personnages commencent le jeu avec une tenue d’une valeur de 10 po ou
 |-
 | [[Vêtements#Tenue dartisan|↓]] [[Tenue dartisan (objet)|Tenue d'artisan]] || 1 po || 2 kg<sup>[[Vêtements#1|1]]</sup>
 |-
+| [[Vêtements#Tenue dérudit|↓]] [[Tenue dérudit (objet)|Tenue d'érudit]] || 5 po || 3 kg<sup>[[Vêtements#1|1]]</sup>
+|-
+| [[Vêtements#Tenue dexplorateur|↓]] [[Tenue dexplorateur (objet)|Tenue d'explorateur]] || 10 po || 4 kg<sup>[[Vêtements#1|1]]</sup>
+|-
+| [[Vêtements#Tenue de changement rapide|↓]] [[Tenue de changement rapide (objet)|Tenue de changement rapide]] || variable || 2,5 kg
+|-
 | [[Vêtements#Tenue de courtisan|↓]] [[Tenue de courtisan (objet)|Tenue de courtisan]] || 8 po || 2 kg<sup>[[Vêtements#1|1]]</sup>
 |-
 | [[Vêtements#Tenue de noble|↓]] [[Tenue de noble (objet)|Tenue de noble]] || 75 po || 5 kg<sup>[[Vêtements#1|1]]</sup>
@@ -114,10 +120,6 @@ Tous les personnages commencent le jeu avec une tenue d’une valeur de 10 po ou
 | [[Vêtements#Tenue de pirate|↓]] [[Tenue de pirate (objet)|Tenue de pirate (simple)]] || 1 pa || 1 kg<sup>[[Vêtements#1|1]]</sup>
 |-
 | [[Vêtements#Tenue de voyageur|↓]] [[Tenue de voyageur (objet)|Tenue de voyageur]] || 1 po || 2,5 kg<sup>[[Vêtements#1|1]]</sup>
-|-
-| [[Vêtements#Tenue dérudit|↓]] [[Tenue dérudit (objet)|Tenue d'érudit]] || 5 po || 3 kg<sup>[[Vêtements#1|1]]</sup>
-|-
-| [[Vêtements#Tenue dexplorateur|↓]] [[Tenue dexplorateur (objet)|Tenue d'explorateur]] || 10 po || 4 kg<sup>[[Vêtements#1|1]]</sup>
 |-
 | [[Vêtements#Tenue royale|↓]] [[Tenue royale (objet)|Tenue royale]] || 200 po || 7,5 kg<sup>[[Vêtements#1|1]]</sup>
 |-
@@ -416,6 +418,27 @@ Cette tenue est prévue pour les excursions en montagne et pour les voyages ou l
 Les vêtements d’artisan sont faits de tissus simples mais résistants convenant à ceux dont le métier implique un travail spécialisé et souvent manuel comme la cuisine, la charpenterie et les autres professions des classes moyennes. Cette tenue comprend une chemise boutonnée, une jupe ou un pantalon retenu par un cordon, des chaussures et, éventuellement, une casquette ou un chapeau. Elle peut également inclure une ceinture ou un tablier en cuir ou en tissu pour porter des outils.
 
 
+{s:AE}{s:Reference|Tenue dérudit}
+====Tenue d'érudit====
+'''Prix''' 5 po ; '''Poids''' 3 kg<sup>[[Vêtements#1|1]]</sup>  
+<hr>
+Parfaite pour l’érudit, cette tenue inclut une robe, une ceinture, une casquette, des chaussures souples et, éventuellement, une écharpe.
+
+
+{s:AE}{s:Reference|Tenue dexplorateur}
+====Tenue d'explorateur====
+'''Prix''' 10 po ; '''Poids''' 4 kg<sup>[[Vêtements#1|1]]</sup>  
+<hr>
+Ces vêtements sont idéaux pour celui qui ne sait jamais ce qui l’attend. Ils comprennent des bottes résistantes, un pantalon ou une jupe en cuir, une ceinture, une chemise (avec éventuellement une veste ou un gilet), des gants et une cape. On peut porter une tunique en cuir pardessus une jupe en tissu plutôt qu’une jupe en cuir. Ces vêtements ont de nombreuses poches (notamment la cape). Cette tenue inclut également tous les accessoires supplémentaires dont le personnage pourrait avoir besoin, comme une écharpe ou un chapeau à large bord.
+
+
+{s:cs}{s:UI}{s:Reference|Tenue de changement rapide}
+====Tenue de changement rapide====
+'''Prix''' variable ; '''Poids''' 2,5 kg  
+<hr>
+Une tenue de changement rapide est en fait constituée deux tenues différentes cousues ensemble, l'une dans l'autre. La tenue de changement rapide permet à celui qui la porte de passer rapidement d'une tenue à une autre en retournant l'ensemble de la tenue. Il faut une [[action complexe]] pour se glisser hors de la tenue de changement rapide, la retourner et la remettre. Les deux tenues différentes peuvent sembler être de n'importe quelle variété, comme une [[Tenue de noble (objet)|tenue de noble]] d'un côté et un [[Costume de moine (objet)|costume de moine]] de l'autre. L'apparence n'étant que superficielle, les tenues ne confèrent aucun bonus spécial (comme les avantages d'une [[Tenue adaptée au froid (objet)|tenue adaptée au froid]] contre l'exposition au froid). Toute personne portant une attention particulière à la tenue peut remarquer des anomalies (comme des coutures étranges ou un rembourrage anormalement épais) en réussissant un test de [[Perception]] [[DD]] 20. Le prix de la tenue est égal au double du prix de la plus chère des deux tenues qu'elle imite.
+
+
 {s:AE}{s:Reference|Tenue de courtisan}
 ====Tenue de courtisan====
 '''Prix''' 8 po ; '''Poids''' 2 kg<sup>[[Vêtements#1|1]]</sup>  
@@ -449,20 +472,6 @@ Les pirates portent toutes sortes de vêtements mais la plupart préfèrent les 
 '''Prix''' 1 po ; '''Poids''' 2,5 kg<sup>[[Vêtements#1|1]]</sup>  
 <hr>
 Cette tenue comprend des bottes, une jupe ou un pantalon en laine, une ceinture solide, une chemise (avec éventuellement une veste ou un veston) et une large cape à capuche.
-
-
-{s:AE}{s:Reference|Tenue dérudit}
-====Tenue d'érudit====
-'''Prix''' 5 po ; '''Poids''' 3 kg<sup>[[Vêtements#1|1]]</sup>  
-<hr>
-Parfaite pour l’érudit, cette tenue inclut une robe, une ceinture, une casquette, des chaussures souples et, éventuellement, une écharpe.
-
-
-{s:AE}{s:Reference|Tenue dexplorateur}
-====Tenue d'explorateur====
-'''Prix''' 10 po ; '''Poids''' 4 kg<sup>[[Vêtements#1|1]]</sup>  
-<hr>
-Ces vêtements sont idéaux pour celui qui ne sait jamais ce qui l’attend. Ils comprennent des bottes résistantes, un pantalon ou une jupe en cuir, une ceinture, une chemise (avec éventuellement une veste ou un gilet), des gants et une cape. On peut porter une tunique en cuir pardessus une jupe en tissu plutôt qu’une jupe en cuir. Ces vêtements ont de nombreuses poches (notamment la cape). Cette tenue inclut également tous les accessoires supplémentaires dont le personnage pourrait avoir besoin, comme une écharpe ou un chapeau à large bord.
 
 
 {s:AE}{s:Reference|Tenue royale}

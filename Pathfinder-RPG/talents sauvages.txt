@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.talents sauvages
 Title: Les talents sauvages
-LastModified: 2021-09-01 12:34
+LastModified: 2023-02-01 16:35
 ---
 {s:menuclassesoccultes}<div style="background-color: #fff; float: right; padding: 0 0 12px 12px">{toc}</div>{s:AO}
 Les talents sauvages des cinétistes sont l’expression de leurs pouvoirs.
@@ -846,6 +846,12 @@ __'''Furie ardente'''__
 '''Élément''' [[Éléments#FEU|Feu]] ; '''Type''' utilitaire (Sur) ; '''Niveau''' 1 ; '''Brûlure''' -
 Quand il utilise des [[talents sauvages#EXPLOSIONDEFEU|explosions de feu]] ou des explosions composites composées de feu, le personnage ajoute le bonus de son [[cinétiste#BOUILLONNEMENTÉLÉMENTAIRE|bouillonnement élémentaire]] aux dégâts infligés. Si l’explosion cinétique ajoute normalement le double du bonus de son [[cinétiste#BOUILLONNEMENTÉLÉMENTAIRE|bouillonnement élémentaire]] aux dégâts, ces effets se cumulent.
 
+{s:cs}{s:UI}{s:Reference|FUSIONTELLURIQUE}
+__'''Fusion tellurique'''__  
+'''Élément''' [[Éléments#TERRE|Terre]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 4 ; '''Brûlure''' 0  
+'''Condition''' [[Talents sauvages#ESCALADEDELATERRE|Escalade de la terre]]  
+Le personnage fusionne une créature dans la pierre, où elle peut écouter des conversations sans être détectée. Ce talent fonctionne comme le sort ''[[fusion dans la pierre]]'', sauf qu'il peut fonctionner sur n'importe quelle créature consentante, pas seulement le personnage, et qu'il dure 10 minutes par niveau de cinétiste ou jusqu'à ce que le personnage utilise à nouveau fusion tellurique. C'est la créature fusionnée, et non le personnage, qui décide du moment où elle sort de la pierre. Le personnage peut accepter 1 point de brûlure pour augmenter la durée d'une fusion tellurique jusqu'au prochain moment où sa brûlure sera retirée. Ces fusions telluriques améliorées ne se terminent pas s'il utilise ce talent à nouveau, ce qui lui permet de maintenir plusieurs fusions telluriques à la fois.
+
 {s:Reference|GÉOCINETIQUESIMPLE}
 __'''Géocinétiste simple'''__  
 '''Élément''' [[Éléments#TERRE|Terre]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 1 ; '''Brûlure''' 0  
@@ -1008,6 +1014,12 @@ __'''Perception aquatique'''__
 '''Élément''' [[Éléments#EAU|Eau]] ; '''Type''' utilitaire (Sur) ; '''Niveau''' 4 ; '''Brûlure''' -
 Le personnage obtient la [[perception des vibrations]] sur une distance de 9 mètres, qui lui permet de détecter toute chose en contact avec la même étendue d’eau que celle dans laquelle il évolue. Tant qu’il bénéficie de cette perception, ses [[talents sauvages#EXPLOSIONDEAU|explosions d’eau]] et ses explosions composites composées d’eau n’ont aucune chance de rater les créatures détectées grâce à ce pouvoir et qui bénéficient d’un camouflage normal ou total.
 
+{s:cs}{s:UI}{s:Reference|PERCEPTIONAQUATIQUESUPRÊME}
+__'''Perception aquatique suprême'''__  
+'''Élément''' [[Éléments#EAU|Eau]] ; '''Type''' utilitaire (Sur) ; '''Niveau''' 5 ; '''Brûlure''' 0  
+'''Condition''' [[Talents sauvages#PERCEPTIONAQUATIQUE|Perception aquatique]]  
+Le personnage projette sa perception aquatique vers l'extérieur pour atteindre les marées et autres étendues d'eau autour de lui, ce qui lui permet d'espionner n'importe qui à grande distance. Le personnage peut consacrer 10 minutes à la projection de ses sens et choisir une destination dans un rayon de 144 m qui est connectée à l'endroit où il se trouve par un corps d'eau continu, ou y consacrer 1 heure afin de tenter d'espionner une créature spécifique à 1.5 km par niveau de cinétiste qui est visible depuis un lieu connecté à sa position actuelle par le même corps d'eau continu. Dans le second cas, la créature a droit à un jet de [[Volonté]] comme contre ''[[scrutation]]'' (avec les mêmes bonus et malus dépendant de la connaissance et du lien qui les unis) ; une réussite immunise la cible contre la perception aquatique suprême du personnage pendant 24 heures. Dans les deux cas, un canal d'eau extrêmement fin, qui dure 1 minute par niveau de cinétiste, transmet la lumière et le son jusqu'à la position du personnage, où les alentours de sa cible apparaissent dans l'eau près de lui comme s'il regardait à travers un capteur de scrutation, qui permet donc au personnage de voir et d'entendre l'environnement proche à l'autre bout du canal. Dans le cas d'une distance supérieure à 144 m, le son arrive 1 round après l'information visuelle qui l'accompagne pour chaque tranche de 1.5 km qui sépare le personnage de sa cible (par exemple, s'il est à 7.5 km de distance, il verrait la cible parler 5 rounds avant d'entendre ce qu'elle dit). Lorsque le personnage traque ainsi une créature, le canal se déplace du mieux qu'il peut pour la suivre, à une vitesse de 45 m par round, mais la cible peut y échapper simplement en s'éloignant de l'eau. Si le personnage possède également le talent sauvage [[Talents sauvages#VENTDEMURMURES|vent de murmures]], il peut utiliser l'effet de transmission de message pour projeter sa voix à travers le canal avec un délai de 1 round par tranche de 1.5 km. Ce talent est un effet de [[école Divination|divination]] et de [[branche scrutation|scrutation]].
+
 {s:Reference|PERCEPTIONARDENTE}
 __'''Perception ardente'''__  
 '''Élément''' [[Éléments#FEU|Feu]] ; '''Type''' utilitaire (Sur) ; '''Niveau''' 3 ; '''Brûlure''' -
@@ -1028,6 +1040,11 @@ Le personnage peut passer 10 minutes à étendre la portée de sa [[perception d
 __'''Phytocinétique simple'''__  
 '''Élément''' [[Éléments#BOIS|Bois]] ; '''Type''' utilitaire (Sur) ; '''Niveau''' 1 ; '''Brûlure''' —  
 Le personnage peut tailler et entretenir les plantes à 9 m ou moins sans utiliser d'outils de jardinage. Il peut également fouiller les zones boisées et où la végétation est dense à distance comme s'il utilisait le tour de magie ''[[inspection]]''. En se concentrant, le personnage peut détecter les plantes dans un rayon de 32 m comme avec ''[[détection de la faune ou de la flore]]''.
+
+{s:cs}{s:UI}{s:Reference|PIEGEDEFLAMMES}
+__'''Piège de flammes'''__  
+'''Élément''' [[Éléments#FEU|Feu]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 2 ; '''Brûlure''' 0  
+Le personnage place un piège ardent sur un contenant, assurant la destruction de documents sensibles et sanctionnant quiconque tente de voler ses secrets. Pour déployer le piège, le personnage doit passer 10 minutes en contact avec le contenant qu'il souhaite piéger. Après cette durée, le contenant est piégé jusqu'à ce qu'il utilise ce talent sauvage à nouveau ou qu'il se déclenche. Toute créature autre que le personnage qui tente d'ouvrir le contenant subit des dégâts comme si elle avait été la cible de son [[Talents sauvages#EXPLOSIONDEFEU|explosion de feu]] (ou son [[Talents sauvages#EXPLOSIONDEFLAMMESBLEUES|explosion de flammes bleues]], s'il est capable de l'utiliser). La créature est automatiquement touchée si elle touche le contenant, elle a droit à un jet de [[Réflexes]] pour annuler les dégâts si elle se trouve à 9 m ou moins, et ne subit aucun dégâts si elle se trouve plus loin. Que la créature qui a ouvert le contenant ait subit des dégâts ou non, les dégâts de l'explosion cinétique s'appliquent également à tous les objets choisis présents dans le contenant, ainsi qu'au contenant en lui-même si le personnage le souhaite, mais laisse les autres objets intacts. Ce talent compte comme un [[Pièges#TYPES|piège magique]] avec un [[DD]] de [[Perception]] et de [[Sabotage]] égal à 10 + le niveau de cinétiste du personnage + son modificateur de [[Dextérité]]. Le personnage peut accepter 1 point de brûlure lorsqu'il utilise piège de flammes pour déployer un nouveau piège sans annuler les précédents. S'il le fait, le piège dure jusqu'au prochain moment où sa brûlure sera retirée.
 
 {s:Reference|PORTEEAÉRIENNE}
 __'''Portée aérienne'''__  
@@ -1158,10 +1175,22 @@ __'''Vent de murmures'''__
 '''Jet de sauvegarde''' aucun ; '''Résistance à la magie''' oui  
 Quand le personnage murmure, il peut faire en sorte que le vent porte son message aux oreilles d’une créature située à 36 mètres ou moins et qu’il peut voir, comme si cette créature était la cible d’un message lancé par le personnage. Par ailleurs, le personnage peut murmurer un message vers une destination lointaine comme s’il utilisait le sort [[vent de murmures]].
 
+{s:cs}{s:UI}{s:Reference|VENTDEMURMURESSUPRÊME}
+__'''Vent de murmures suprême'''__  
+'''Élément''' [[Éléments#AIR|Air]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 2 ; '''Brûlure''' 0  
+'''Condition''' [[Talents sauvages#VENTDEMURMURES|Vent de murmures]]  
+La capacité vent de murmures du personnage gagne en puissance et en précision. Le personnage peut utiliser [[Talents sauvages#VENTDEMURMURES|vent de murmures]] pour créer des sons inhabituels comme avec ''[[son imaginaire]]'', pour projeter sa voix comme avec ''[[ventriloquie]]'', et même modifier son timbre comme avec ''[[altération vocale]]''. Il peut envoyer des messages à plus grande distance et le faire plus rapidement. Lorsqu'il utilise ce talent comme ''[[vent de murmures]]'', il peut choisir de déployer le souffle haut dans le ciel, où il peut atteindre une vitesse de 75 km par heure, avant de redescendre pour délivrer le message. Bien que le souffle reste réduit, des vents anormaux qui se déplacent aussi vite sont facilement remarquables, contrairement au doux zéphyr manifesté par les ''vents de murmures'' classiques. Si le personnage utilise le souffle plus rapide, il peut délivrer un message à une distance de 75 km par niveau de cinétiste, au lieu de 1.5 km par niveau de cinétiste.
+
 {s:Reference|VISIONTACTILE}
 __'''Vision tactile'''__  
 '''Élément''' [[Éléments#ÉTHER|Éther]] ; '''Type''' utilitaire (Sur) ; '''Niveau''' 3 ; '''Brûlure''' 0  
 Le personnage attache des filaments d’éther à toute chose frôlée par sa télécinétique. Chaque fois qu’il inflige des dégâts à une créature avec son [[talents sauvages#EXPLOSIONTÉLÉCINÉTIQUE|explosion télécinétique]] et tant que cette créature n’utilise aucun effet de téléportation, le personnage peut la voir, quelle que soit la distance qui les sépare, comme s’il disposait de la [[vision aveugle]] et ce, jusqu’à la fin de son prochain tour. Immédiatement après avoir blessé une créature, le personnage peut accepter 1 point de brûlure pour renforcer les filaments d’éther attachés à cette créature, ce qui augmente la durée de la vision tactile sur cette créature à 1 round par niveau de cinétiste.
+
+{s:cs}{s:UI}{s:Reference|VISIONTACTILEÉPIANTE}
+__'''Vision tactile épiante'''__  
+'''Élément''' [[Éléments#ÉTHER|Éther]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 4 ; '''Brûlure''' 0  
+'''Condition''' [[Talents sauvages#VISIONTACTILE|Vision tactile]]  
+Le personnage attache un filament d'éther adhésif et invisible sur une cible puis projette ses sens sur ce filament, ce qui lui permet d'espionner la cible. Attacher le filament d'éther nécessite un [[jet dattaque|jet d'attaque]] de contact à distance, mais si le personnage active cette capacité alors qu'il est sous l'effet de [[Talents sauvages#VISIONTACTILE|vision tactile]], il peut utiliser ces filaments à la place. Une fois la vision tactile épiante activée, le personnage peut se concentrer dessus afin d'espionner la cible avec n'importe lequel de ses cinq sens (son propre corps ne reçoit alors plus d'information de ce sens) ; le filament persiste tant qu'il se concentre, mais il peut changer le sens projeté à chaque round. Une créature soumise à ''[[détection de linvisibilité|détection de l'invisibilité]]'' ou un effet similaire peut suivre la trace des filaments jusqu'au personnage. Une créature peut briser la vision tactile épiante du personnage en la dissipant, mais le seul autre moyen de briser les filaments est d'utiliser un effet de téléportation, se déplacer à plus de 1.5 km l'un de l'autre, ou d'être complètement isolé dans toutes les directions (comme en étant à l'intérieur d'une ''[[sphère téléguidée]]'').
 
 {s:Reference|VISIONTACTILERÉACTIVE}
 __'''Vision tactile réactive'''__  
