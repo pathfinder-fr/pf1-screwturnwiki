@@ -1,0 +1,111 @@
+---
+Name: Pathfinder-RPG.Créature empaillée, archétype
+Title: Créature empaillée, archétype
+LastModified: 2023-02-11 19:01
+Categories:
+  - 'Archétype'
+  - 'Src Bestiaire 5'
+---
+<table class="Bestiaire"><tr><td>
+<div class="BD">
+{s:BDTitre|Créer une Créature empaillée|}
+{s:BDTexte|''Source : Bestiaire 5 p.68''}
+« Créature empaillée » est un archétype acquis qui peut s’ajouter sur n’importe quelle créature tangible (autre que les [[type Mort-vivant|morts-vivants]] et les [[type Créature artificielle|créatures artificielles]]). Cette créature tangible est ensuite appelée créature de base.
+* '''FP.''' Cette valeur dépend du nombre de dés de vie initial de la créature, comme indiqué dans la table suivante. Elle est également modifiée par la taille, comme indiqué dans le paragraphe [[DV]].
+
+{| CLASS="tablo centre toutgauche autoalt"
+|- CLASS="titre"
+| Dés de vie || FP
+|- CLASS="premier"
+| 1 || 1/4
+|-
+| 2 || 1/2
+|-
+| 3-4 || 1
+|-
+| 5-6 || 2
+|-
+| 7-8 || 3
+|-
+| 9-10 || 4
+|-
+| 11-12 || 5
+|-
+| 13-16 || 6
+|-
+| 17-20 || 7
+|-
+| 21-24 || 8
+|-
+| 25-28 || 9
+|}
+* '''Alignement.''' Toujours Neutre.
+* '''Type.''' La créature devient de type [[type Créature artificielle|créature artificielle]] mais conserve ses sous-types, à l’exception des sous-types d’alignement (comme [[sous-type Bon|Bon]]) et des sous-types indiquant une espèce. Elle n’acquiert pas le sous-type [[sous-type Altéré|altéré]] et conserve les statistiques et les pouvoirs spéciaux de la créature de base, en dehors de ce qui suit.
+* '''Sens.''' La créature obtient la [[Vision dans le noir (capacité)|vision dans le noir]] à 18 m et la [[Vision nocturne (capacité)|vision nocturne]], à moins qu’elle n’en dispose déjà.
+* '''Classe d’armure.''' Le bonus d’armure naturelle de la créature empaillée dépend de sa taille.
+
+{| CLASS="tablo centre toutgauche autoalt"
+|- CLASS="titre"
+| Taille || Bonus d’armure naturelle
+|- CLASS="premier"
+| TP ou inférieure || +0
+|-
+| P || +1
+|-
+| M || +2
+|-
+| G || +3
+|-
+| TG || +4
+|-
+| Gig || +7
+|-
+| C || +11
+|}
+* '''Dés de vie.''' Supprimez tous les [[DV]] issus de niveaux de classe (sans descendre au-dessous de 1 DV) et remplacez tous les DV raciaux par des d10. Comme les créatures empaillées sont des [[type Créature artificielle|créatures artificielles]], elles gagnent un nombre de points de vie supplémentaires dépendant de leur taille, comme indiqué dans la table suivante. Elles gagnent également des DV supplémentaires en fonction de leur taille, comme indiqué dans la table suivante.
+
+{| CLASS="tablo centre toutgauche autoalt"
+|- CLASS="titre"
+| Taille || DV<br/>supplémentaires || pv</br>supplémentaires || Augmentation</br>du FP
+|- CLASS="premier"
+| TP ou inférieure || — || — || —
+|-
+| P || — || +10 || —
+|-
+| M || — || +20 || —
+|-
+| G || +1 DV || +30 || +1
+|-
+| TG || +2 DV || +40 || +1
+|-
+| Gig || +3 DV || +60 || +1
+|-
+| C || +4 DV || +80 || +2
+|}
+* '''Jets de sauvegarde.''' Voici les bonus de base de la créature pour les [[jds|jets de sauvegarde]] : Réf +1/3 DV, Vig +1/3 DV, Vol +1/3 DV.
+* '''Capacités défensives.''' Les créatures empaillées perdent leurs capacités défensives et gagnent les pouvoirs et immunités associés au type [[type Créature artificielle|créature artificielle]].
+* '''Faiblesses.''' Une créature empaillée acquiert les faiblesses suivantes.
+** ''Défaut (Ext).'' Chaque créature empaillée a un défaut majeur qui se manifeste sous forme de faiblesse unique basée sur sa méthode de conception. Choisissez l’un des défauts suivants.
+*** ''Armature en bois.'' Le corps de cette créature empaillée est soutenu par des planches de bois. Elle est donc vulnérable au feu et compte comme du bois vis-à-vis des sorts et pouvoirs affectant cette matière (comme ''[[distorsion du bois]]'').
+*** ''Armature métallique.'' D’épaisses tiges de fer soutiennent la carcasse de cette créature empaillée. Cette dernière est donc vulnérable à l’électricité et compte comme du métal vis-à-vis des sorts et pouvoirs affectant cette matière (comme ''[[métal gelé]]'' ou ''[[décharge électrique]]'').
+*** ''Coutures grossières.'' D’énormes coutures bien visibles déparent cette créature empaillée et la rendent vulnérable aux dégâts tranchants.
+*** ''Garniture insuffisante.'' Réduisez de moitié le nombre de points de vie supplémentaires que la créature empaillée reçoit grâce à sa nature de créature artificielle. Ce défaut s’applique uniquement aux créatures de taille M ou inférieure.
+*** ''Yeux défectueux.'' Les yeux de cette créature empaillée sont endommagés, soit parce qu’il s’agit de billes de verre malencontreusement rayées, soient parce qu’ils sont couverts d’un voile laiteux parce que les agents de conservation ont été appliqués trop tard. À chaque fois que la créature attaque, au corps à corps ou à distance, elle a 10% de chances de rater sa cible.
+* '''Vitesse.''' Réduisez la vitesse de base de la créature empaillée de 3 mètres, sans la réduire à moins de 6 mètres. Les créatures empaillées ailées peuvent voler mais leur manœuvrabilité devient déplorable. Si la créature de base vole par magie, sa version empaillée perd ce pouvoir. Les autres types de déplacement ne changent pas.
+* '''Attaques.''' Une créature empaillée conserve les armes naturelles, les attaques avec des armes manufacturées et la maîtrise des armes de la créature de base. Elle acquiert en plus une attaque de [[Attaques naturelles (capacité)|coup]] qui inflige des dégâts basés sur sa taille.
+* '''Attaques spéciales.''' Une créature empaillée perd toutes les attaques spéciales de la créature de base.
+* '''Valeurs de caractéristique.''' [[Force]] -2, [[Dextérité]] –2. Une créature empaillée n’a pas de valeur de [[Constitution]] ni d’[[Intelligence]]. Sa [[Sagesse]] est de 10 et son [[Charisme]] de 3.
+* '''BBA.''' Le bonus de base à l’attaque de la créature empaillée est égal aux 3/4 de ses [[DV]], même si la plupart des [[type Créature artificielle|créatures artificielles]] ont un bonus de base à l’attaque égal à leurs DV.
+* '''Compétences.''' Une créature empaillée n’a pas de rangs de compétence et perd tous les bonus raciaux aux tests de compétence qui ne découlent pas directement de sa forme physique.
+* '''Dons.''' Une créature empaillée perd tous les dons de la créature de base et n’en gagne pas quand son nombre de dés de vie augmente.
+* '''Pouvoirs spéciaux.''' Une créature empaillée perd la plupart des pouvoirs spéciaux de la créature de base et conserve seulement les pouvoirs extraordinaires qui améliorent ses attaques au corps à corps ou à distance.
+
+</div></td>
+<td><div>Voir un exemple : le [[grizzly empaillé]].
+
+Les créatures empaillées sont l’oeuvre d’individus obsédés par le besoin de préserver et de réanimer des êtres privés de vie grâce à leurs talents occultes ou alchimiques. Les aptitudes des créatures empaillées ne sont souvent qu’un pâle reflet de celles de leurs équivalents vivants car elles ne possèdent pas leur intelligence et n’ont pas de force vitale pour les guider. En revanche, elles sont dotées d’une sorte d’instinct rudimentaire et sont à même d’obéir aux ordres basiques émanant de leur créateur.
+
+La création de créatures empaillées est, au mieux, une science inexacte, bien moins raffinée que la magie permettant d’animer les morts, les golems et autres créatures artificielles. Il n’y a pas de méthode particulière pour créer une créature empaillée, le résultat est donc toujours unique. Une créature conçue ainsi souffre de défauts inhérents à ses matériaux de construction ou aux raccourcis empruntés lors de sa confection. Il se peut même que cela l’empêche de se plier convenablement aux ordres de son créateur. Comme la créature empaillée dispose de facultés mentales extrêmement limitées, son créateur doit être très prudent quand il donne un ordre et veiller à le présenter de la manière la plus littérale possible.
+
+Une créature empaillée livrée à elle-même reste sur place et n’a pas besoin de boire, manger ni dormir. Ses actions sont imprévisibles, à moins qu’elle n’ait reçu un ordre. Chaque créature empaillée présente un comportement qui lui est propre et qui dépend des bizarreries de sa construction. Certaines se déplacent et agissent comme des animaux nés pour la traque, d’autres présentent la rigidité de mouvement et le comportement répétitif propre aux objets animés. Certains taxidermistes pervers sont allés jusqu’à empailler ainsi des humanoïdes, des aberrations et des fées.
+</div></td></tr></table>
