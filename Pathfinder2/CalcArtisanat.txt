@@ -1,8 +1,11 @@
 ---
 Name: Pathfinder2.CalcArtisanat
 Title: Calculette pour l'artisanat PF2
-LastModified: 2023-02-13 03:34
+LastModified: 2023-02-13 17:50
 ---
+• [[MainPage|Retour à la page principale pour Pathfinder 2]] <br/>
+• [[ADJ|Retour aux aides de jeu pour Pathfinder 2]]
+
 <nowiki>
 <style>
 fieldset {background-color: #f3efe2; border: 1px solid #002564; margin-bottom: 12px; padding-bottom: 0; padding-top: 0;}
@@ -21,6 +24,7 @@ input:checked+label {background-color: lemonchiffon;}
 .resultDie1 {background-color: orange;}
 .resultDie2 {background-color: lightgreen;}
 .resultDie3 {background-color: blue; color: white;}
+#error {color: red;}
 </style>
 <form>
  <fieldset>
@@ -40,15 +44,20 @@ input:checked+label {background-color: lemonchiffon;}
  <fieldset>
   <legend>Objet créé</legend>
   <p>Niveau : <input id="iLvlI" type="number" min="0" max="20" value="0" /> &nbsp; &nbsp;
-   Prix (en pc) : <input id="iPrice" type="number" min="0" value="100" /> &nbsp; &nbsp;
+   Prix : <input id="iPrice" type="number" min="0" value="1" />
+   <select id="sPriceUnit">
+    <option value="100" selected>po</option>
+    <option value="10">pa</option>
+    <option value="1">pc</option>
+   </select> &nbsp; &nbsp;
    Quantité : <input id="iBatchSize" type="number" min="1" value="1" />
   </p>
   </p>
   <p>Rareté :
-   <input type="radio" id="bRarity0" name="bRarity" value="0" checked><label for="bRarity0">Commun</label>
-   <input type="radio" id="bRarity1" name="bRarity" value="1"><label for="bRarity0">Peu commun</label>
-   <input type="radio" id="bRarity2" name="bRarity" value="2"><label for="bRarity0">Rare</label>
-   <input type="radio" id="bRarity3" name="bRarity" value="3"><label for="bRarity0">Unique</label> &nbsp; &nbsp;
+   <input type="radio" id="bRarity0" name="bRarity" value="0" checked><label for="bRarity0">Courant</label>
+   <input type="radio" id="bRarity1" name="bRarity" value="1"><label for="bRarity1">Peu commun</label>
+   <input type="radio" id="bRarity2" name="bRarity" value="2"><label for="bRarity2">Rare</label>
+   <input type="radio" id="bRarity3" name="bRarity" value="3"><label for="bRarity3">Unique</label> &nbsp; &nbsp;
   Type :
    <input type="radio" id="bType0" name="bType" value="0" checked><label for="bType0">Consommable</label>
    <input type="radio" id="bType1" name="bType" value="1"><label for="bType1">Permanent</label>
@@ -152,7 +161,9 @@ input:checked+label {background-color: lemonchiffon;}
   const lvlI = Number(document.getElementById("iLvlI").value);
   const rarity = Number(document.querySelector("input[name='bRarity']:checked").value);
   const batchSize = Number(document.getElementById("iBatchSize").value);
-  const price = Number(document.getElementById("iPrice").value) * batchSize;
+  let price = Number(document.getElementById("iPrice").value) * batchSize;
+  const priceUnit = Number(document.getElementById("sPriceUnit").value);
+  price *= priceUnit;
   const isPermanent = document.querySelector("input[name='bType']:checked").value == "1";
 
   const optTV = Number(document.querySelector("input[name='bTV']:checked").value);
@@ -172,7 +183,7 @@ input:checked+label {background-color: lemonchiffon;}
    dcOutput += " (réussite automatique avec Assurance)";
   }
 
-  let outputDie = '<table class="resultDie"><tr>';
+  let outputDie = '<p><strong>Résultats en fonction du lancer de dé :</strong></p><table class="resultDie"><tr>';
   let statDie = [0, 0, 0, 0];
   for (let dieResult = 1 ; dieResult <= 20 ; dieResult++) {
    let res;
@@ -222,7 +233,25 @@ input:checked+label {background-color: lemonchiffon;}
    summary += `<br/><strong>Test nu en fin de création</strong> : DD ${10+lvlI-(prof == 0 ? 0 : lvlC+2*prof)}`;
   }
   summary += "</p>" + outputDie;
-  document.getElementById("dSummary").innerHTML = summary;
+
+  let errors = "";
+  if (lvlC < lvlI)
+   errors += "Erreur : le niveau du personnage est inférieur au niveau de l'objet !<br/>";
+  if (prof == 3 && lvlC < 7)
+    errors += "Erreur : un personnage doit être de niveau 7 ou plus pour être maître !<br/>";
+  else if (prof == 4 && lvlC < 13)
+    errors += "<p>Erreur : un personnage doit être de niveau 13 ou plus pour être légendaire !<br/>";
+  if (rush == 1 && prof < 2)
+    errors += "Erreur : un personnage doit être expert pour pouvoir accélérer la création initiale de 1 jour !<br/>";
+  else if (rush == 2 && prof < 3)
+    errors += "Erreur : un personnage doit être maître pour pouvoir accélérer la création initiale de 2 jours !<br/>";
+  else if (rush == 3 && prof < 4)
+    errors += "Erreur : un personnage doit être légendaire pour pouvoir accélérer la création initiale de 3 jours !<br/>";
+  if (optTV == 2 && prof < 3)
+    errors += "Erreur : un personnage doit être maître pour pouvoir bénéficier du don Quick Setup !<br/>";
+  if (rushFinish && prof < 2)
+    errors += "Erreur : un personnage doit être expert pour pouvoir accélérer la création secondaire !<br/>";
+  document.getElementById("dSummary").innerHTML = `${summary}<p id="error">${errors}</p>`;
 
   let remainingCost = price - setupCost;
   let remainingCostCrit = remainingCost;
@@ -235,13 +264,13 @@ input:checked+label {background-color: lemonchiffon;}
     remainingCostCrit = 0;
     if (remainingCost < 0) remainingCost = 0;
    }
-   details += `<tr><td>4 + ${nbDays}</td><td>${costToString(remainingCost)}</td><td>${costToString(remainingCostCrit)}</td></tr>`;
+   details += `<tr><td>${outputSetup} + ${nbDays}</td><td>${costToString(remainingCost)}</td><td>${costToString(remainingCostCrit)}</td></tr>`;
    nbDays++;
   }
   while (remainingCost > 0) {
    remainingCost -= redPerDay;
    if (remainingCost < 0) remainingCost = 0;
-   details += `<tr><td>4 + ${nbDays}</td><td>${costToString(remainingCost)}</td></td><td></tr>`;
+   details += `<tr><td>${outputSetup} + ${nbDays}</td><td>${costToString(remainingCost)}</td></td><td></tr>`;
    nbDays++;
   }
   details += "</table>";
@@ -253,7 +282,7 @@ input:checked+label {background-color: lemonchiffon;}
   update();
   for (const id of [
    "iLvlC", "bProf0", "bProf1", "bProf2", "bProf3", "bProf4", "iSkillMod",
-   "iLvlI", "bRarity0", "bRarity1", "bRarity2", "bRarity3", "iPrice", "bType0", "bType1",
+   "iLvlI", "bRarity0", "bRarity1", "bRarity2", "bRarity3", "iPrice", "sPriceUnit", "bType0", "bType1",
    "bTV0", "bTV1", "bTV2", "bRush0", "bRush1", "bRush2", "bRush3", "bRushFinish", "iMod", "iBatchSize",
    ])
    document.getElementById(id).addEventListener("change", update);
