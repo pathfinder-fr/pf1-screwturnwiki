@@ -1,81 +1,68 @@
 ---
 Name: Pathfinder-RPG.Mégaprimate
 Title: Singe, Mégaprimate
-LastModified: 2020-09-21 18:42
+LastModified: 2023-02-24 14:40
 Categories:
   - 'Monstre'
   - 'Src Bestiaire 5'
 ---
-{s:Monstre|Nom:
-  |Singe mégaprimate
-|FP/RM:
-  |8|
-|Icônes:
-  |Animal|Forêt-Jungle|Tropical
-|Source:
-  |Bestiaire 5 p.246
-|PX:
-  |4 800
-|Classe:
-  |
-|Type, Taille, Alignement:
-  |[[type Animal|Animal]] de taille Gig, N
-|Init/Sens/Perception:
-  |+2|[[odorat (capacité)|odorat]], [[vision nocturne (capacité)|vision nocturne]]|+11
-|Aura:
-  |
-|CA:
-  |21, contact 8, pris au dépourvu 19 (Dex +2, naturelle +13, taille -4)
-|Pv:
-  |105 (10d8+60)
-|Réf/Vig/Vol:
-  |+9|+13|+6
-|Capacités défensives:
-  |
-|Vitesses:
-  |9 m (6 {s:c}), escalade 9 m (6 {s:c})
-|Càc:
-  |2 coups, +13 (1d8+9) et morsure, +12 (2d6+9)
-|Distance:
-  |
-|Espace/Allonge:
-  |6 m (4 {s:c})|6 m (4 {s:c})
-|Attaques spéciales:
-  |[[éventration (capacité)|éventration]] (2 coups, 1d8+13), éventration et broyage, traversée fracassante
-|Pouvoirs magiques:|
-  ||||||
-|Sorts:|
-  ||||||||||
-|Notes sur la magie:
-  |
-|Tactique:|Non
-  ||||
-|Caractéristiques:
-  |29|15|22|2|12|15
-|BBA/BMO/DMD:
-  |+7|+20|32
-|Dons:
-  |[[Arme de prédilection]] (coup), [[Attaques réflexes]], [[Capture]], [[Talent]] (Perception), [[Volonté de fer]]
-|Compétences:
-  |[[Acrobaties]] +10, [[Escalade]] +21, [[Perception]] +11
-|Langues:
-  |
-|Particularités:
-  |
-|Environnement:
-  |collines, forêts ou montagnes chaudes
-|Organisation sociale:
-  |solitaire ou couple
-|Trésor:
-  |aucun
-|Pouvoirs spéciaux:|Oui
-  |'''Éventration et broyage (Ext).''' Quand un mégaprimate [[éventration (capacité)|éventre]] une créature ou parvient à utiliser son don de [[Capture]] pour [[agrippé|agripper]] une créature en situation de lutte, la cible subit également 1d6 points de dégâts de [[saignement]] et voit sa vitesse de déplacement réduite de moitié pendant 1 minute. Le singe peut décider de ne pas appliquer cet effet pour mettre hors d’usage une des armes naturelles de la cible pendant 1 minute. Le cas échéant, les attaques effectuées avec cette arme subissent un malus de -4 aux [[jet dattaque|jets d’attaques]] et infligent la moitié de ses dégâts.
-  |'''Traversée fracassante (Ext).''' Le déplacement d’un mégaprimate n’est pas ralenti par les broussailles, les arbres, les décombres et les terrains difficiles similaires ; par les créatures de taille M ou plus petites ; ou par ses alliées, quelle que soit leur taille. Un mégaprimate peut effectuer un test de manœuvre offensive pour renverser un adversaire de taille Gig ou plus petit, par une [[action rapide]] qui ne provoque pas d’[[AO|attaque d’opportunité]].||||
-|Équipement:|Non
-  ||
-|Cadre descriptif:
-  |<div style="float:right; background-color: #fff; padding: 0 0 0 0; margin: 0 0 4px 8px">
-<table class="tablo autoalt"><caption>Variantes de singe</caption><tbody><tr class="titre"><td>Nom</td><td>FP</td></tr><tr class="premier"><td>Familier, <a class="pagelink" href="Pathfinder-RPG.Singe.ashx" title="Singe">Singe</a></td><td>1/4</td></tr><tr><td><a class="pagelink" href="Pathfinder-RPG.Gorille.ashx" title="Singe, Gorille">Gorille</a></td><td>2</td></tr><tr><td><a class="pagelink" href="Pathfinder-RPG.Gorille%20sanguinaire.ashx" title="Singe, Gorille sanguinaire (Gigantopithèque)">Gorille sanguinaire</a></td><td>3</td></tr><tr><td><a class="pagelink" href="Pathfinder-RPG.M%c3%a9gaprimate.ashx" title="Singe, Mégaprimate">Mégaprimate</a></td><td>8</td></tr></tbody></table>
+<table class="Bestiaire"><tr><td>
+<div class="BD">
+{s:BDTitre|Mégaprimate|FP 8}
+{s:pucem|Animal|Forêt-Jungle|Tropical}
+{s:BDTexte|''Source : [[Bestiaire 5 (contenu)|Bestiaire 5 p.246]]''}
+{s:BDTexte|'''PX''' 4 800}
+{s:BDTexte|[[type Animal|Animal]] de taille Gig, N}
+{s:BDTexte|'''Init''' +2 ; '''Sens''' [[Odorat (capacité)|odorat]], [[Vision nocturne (capacité)|vision nocturne]] ; [[Perception]] +11}
+{s:BDSousTitre|Défense}
+{s:BDTexte|'''CA''' 21, contact 8, pris au dépourvu 19 (Dex +2, naturelle +13, taille -4)}
+{s:BDTexte|'''pv''' 105 (10d8+60)}
+{s:BDTexte|'''Réf''' +9, '''Vig''' +13, '''Vol''' +6}
+{s:BDSousTitre|Attaque}
+{s:BDTexte|'''VD''' 9 m, escalade 9 m}
+{s:BDTexte|'''Corps à corps''' 2 coups, +13 (1d8+9) et morsure, +12 (2d6+9)}
+{s:BDTexte|'''Espace occupé''' 6 m ; '''Allonge''' 6 m}
+{s:BDTexte|'''Attaques spéciales''' [[Éventration (capacité)|éventration]] (2 coups, 1d8+13), éventration et broyage, traversée fracassante}
+{s:BDSousTitre|Caractéristiques}
+{s:BDTexte|'''For''' 29, '''Dex''' 15, '''Con''' 22, '''Int''' 2, '''Sag''' 12, '''Cha''' 15}
+{s:BDTexte|'''BBA''' +7 ; '''BMO''' +20 ; '''DMD''' 32}
+{s:BDTexte|'''Dons''' [[Arme de prédilection]] (coup), [[Attaques réflexes]], [[Capture]], [[Talent]] (Perception), [[Volonté de fer]]}
+{s:BDTexte|'''Compétences''' [[Acrobaties]] +10, [[Escalade]] +21, [[Perception]] +11}
+{s:BDSousTitre|Écologie}
+{s:BDTexte|'''Environnement''' collines, forêts ou montagnes chaudes}
+{s:BDTexte|'''Organisation''' solitaire ou couple}
+{s:BDTexte|'''Trésor''' aucun}
+{s:BDSousTitre|Pouvoirs spéciaux}
+{s:BDTexte|'''Éventration et broyage (Ext).''' Quand un mégaprimate [[Éventration (capacité)|éventre]] une créature ou parvient à utiliser son don de [[Capture]] pour agripper une créature en situation de [[lutte]], la cible subit également 1d6 points de dégâts de [[saignement]] et voit sa vitesse de déplacement réduite de moitié pendant 1 minute. Le singe peut décider de ne pas appliquer cet effet pour mettre hors d’usage une des armes naturelles de la cible pendant 1 minute. Le cas échéant, les attaques effectuées avec cette arme subissent un malus de -4 aux [[jet dattaque|jets d'attaque]] et infligent la moitié de ses dégâts.}
+{s:BDTexte|'''Traversée fracassante (Ext).''' Le déplacement d’un mégaprimate n’est pas ralenti par les broussailles, les arbres, les décombres et les [[terrain difficile|terrains difficiles]] similaires ; par les créatures de taille M ou plus petites ; ou par ses alliées, quelle que soit leur taille. Un mégaprimate peut effectuer un test de manœuvre offensive pour [[renversement|renverser]] un adversaire de taille Gig ou plus petit, par une [[action rapide]] qui ne provoque pas d’[[AO|attaque d’opportunité]].}
+
+</div></td>
+<td><div><div style="float:right; background-color: #fff; padding: 0 0 0 0; margin: 0 0 4px 8px">
+{| CLASS="tablo autoalt"
+|+ Variantes de singe
+|- CLASS="titre"
+| Nom || FP
+|- CLASS="premier"
+| Familier, [[Singe]] || 1/4
+|-
+| [[Gorille]] || 2
+|-
+| [[Gorille sanguinaire]] || 3
+|-
+| [[Mégaprimate]] || 8
+|}
 </div>''La majeure partie du corps de ce singe titanesque au cuir épais est recouvert d’une abondante fourrure grise et brune.''
 
-Les prédateurs dominants appelés mégaprimates règnent sans pratiquement aucune concurrence sur les bêtes préhistoriques des royaumes oubliés et perdus. Très territoriaux, ils tentent d’intimider toutes les autres grandes créatures menaçantes pour les pousser à fuir le domaine qu’ils se sont octroyé et les affrontent si elles refusent de partir. Dès qu’un mégaprimate a recours à la violence, il ne fait preuve d’aucune pitié et ses ennemis n’ont d’autre choix que de fuir ou mourir.}
+Les prédateurs dominants appelés mégaprimates règnent sans pratiquement aucune concurrence sur les bêtes préhistoriques des royaumes oubliés et perdus. Très territoriaux, ils tentent d’intimider toutes les autres grandes créatures menaçantes pour les pousser à fuir le domaine qu’ils se sont octroyé et les affrontent si elles refusent de partir. Dès qu’un mégaprimate a recours à la violence, il ne fait preuve d’aucune pitié et ses ennemis n’ont d’autre choix que de fuir ou mourir.
+
+Les mégaprimates se nourrissent de viande et de plantes, surtout des fruits et des melons en grandes quantités. Les gros dinosaures et divers animaux de la mégafaune sont les proies favorites du mégaprimate qui aime autant les combattre que les dévorer.
+
+Les créatures qui ne représentent, de toute évidence, aucun danger pour un mégaprimate, comme les petits dinosaures ou même les humanoïdes, peuvent normalement cohabiter dans son domaine. Des dinosaures en troupeau ou une communauté d’humanoïdes peuvent prospérer dans le territoire d’un mégaprimate qui préfère prendre les dinosaures géants en chasse. Les gens qui vivent dans ces circonstances peuvent récupérer d’importantes quantités de fruits et les offrir au singe pour éviter que sa faim ne le plonge dans un accès de violence durant lequel il pourrait détruire leurs demeures par inadvertance.
+
+Sa tendance à ignorer les créatures plus petites que lui peut mener un mégaprimate à sa perte, car il est peu préparé à gérer l’ingéniosité des humanoïdes et de leurs instruments de guerre suffisamment puissants pour abattre une créature aussi redoutable que lui.
+
+====Le mégaprimate comme [[Liste des compagnons animaux|compagnon animal]]====
+'''Caractéristiques de départ :''' '''Taille''' M ; '''Vitesse''' 9 m (6 {s:c}), escalade 9 m (6 {s:c}) ; '''CA''' armure naturelle +1 ; '''Attaque''' morsure (1d4), 2 griffes (1d4) ; '''Caractéristiques''' For 13, Dex 17, Con 10, Int 2, Sag 12, Cha 7 ; '''Particularités''' [[odorat]], [[vision nocturne]].
+
+'''Développement au niveau 4 :''' '''Taille''' G ; '''CA''' armure naturelle +2 ; '''Attaque''' morsure (1d6), 2 griffes (1d6) ; '''Caractéristiques''' For +8, Dex -2, Con +4.
+</div></td></tr></table>
