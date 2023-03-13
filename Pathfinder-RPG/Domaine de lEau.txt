@@ -1,10 +1,14 @@
 ---
 Name: Pathfinder-RPG.Domaine de lEau
 Title: Domaine de l'Eau
-LastModified: 2022-08-06 17:34
+LastModified: 2023-03-10 00:16
 Categories:
   - 'Classe'
   - 'Domaine'
+  - 'Src Book of the Damned'
+  - 'Src Manuel des joueurs'
+  - 'Src Manuel des joueurs - Règles avancées'
+  - 'Src Manuel des races'
 ---
 {s:MenuDomaines}<p style="text-align: right">''Ce domaine peut également être choisi dans le cadre du Pacte avec la Nature des [[Domaines animaux et environnementaux|druides]].''</p>
 ===Pouvoirs accordés===
@@ -17,6 +21,7 @@ Le personnage peut manipuler l’eau, la brume et la glace et conjurer des créa
 {s:APG}
 ===Sous-domaines===
 Au lieu du domaine, un personnage peut choisir d'adopter un des [[sous-domaines]] suivants.
+
 <table class="page espace-col troiscol"><tr style="vertical-align: top"><td>
 <div class="presentation arrondi">
 ===Sous-domaine de la Glace===
@@ -30,9 +35,7 @@ Au lieu du domaine, un personnage peut choisir d'adopter un des [[sous-domaines]
 </td><td>
 <div class="presentation arrondi">
 ===Sous-domaine des Rivières===
-{s:cs}<div class="description">'''Source :''' Book of the Damned (BD).</div>
-
-'''Affluence (Sur).''' ''(remplace trait de glace)'' Par une [[action libre]], le personnage peut augmenter sa vitesse de déplacement sur terre ou dans l'eau de 3 mètres (2 {s:c}). Si c'est dans l'eau, il gagne un bonus aux tests de [[Natation]] égal à la moitié de son niveau de [[prêtre]] (minimum 1). Ces effets durent un nombre de tours égal au modificateur de [[Sagesse]] du personnage. Le prêtre peut utiliser cette capacité un nombre de fois par jour égal à 3 + son modificateur de [[Sagesse]].
+{s:cs}{s:BotD}'''Affluence (Sur).''' ''(remplace trait de glace)'' Par une [[action libre]], le personnage peut augmenter sa vitesse de déplacement sur terre ou dans l'eau de 3 mètres (2 {s:c}). Si c'est dans l'eau, il gagne un bonus aux tests de [[Natation]] égal à la moitié de son niveau de prêtre (minimum 1). Ces effets durent un nombre de tours égal au modificateur de [[Sagesse]] du personnage. Le prêtre peut utiliser cette capacité un nombre de fois par jour égal à 3 + son modificateur de Sagesse.
 </div>
 </td></tr></table>
 
@@ -46,9 +49,9 @@ Au lieu du domaine, un personnage peut choisir d'adopter un des [[sous-domaines]
 </div>
 </td><td>
 <div class="presentation arrondi">
-{s:racial|Gobelin (race)|gobelins|Illustrations/PNJ/Gobelin.jpg}{s:MR}
+{s:racial|Gobelin (race)|gobelins|Illustrations/PNJ/Gobelin.jpg}{s:MR}{s:BotD}
 ===Sous-domaine des Épaves===
-'''Trésor à la dérive (Sur).''' ''(remplace résistance au froid)'' Au niveau 6, une fois par jour, le personnage peut mettre la main dans l'eau par une [[action simple]] et en extraire un objet d'une valeur maximale de 50 PO par niveau de [[prêtre]]. Cet objet est toujours cassé. Au niveau 12, les objets extraits ne sont plus cassés. Au niveau 20, la valeur maximale des objets est de 5000 PO. Si l'objet ne flotte pas, on peut le supposer coincé au milieu de débris qui, eux, flottent.
+'''Trésor à la dérive (Sur).''' ''(remplace résistance au froid)'' Au niveau 6 et une fois par jour, le personnage peut mettre la main dans l'eau par une [[action simple]] et en extraire un objet d'une valeur maximale de 50 po par niveau de prêtre. Cet objet est toujours [[brisé]], et l'étendue d'eau dans laquelle le personnage plonge la main doit être suffisamment profond pour qu'il puisse s'immerger complètement. Au niveau 12, les objets extraits ne sont plus brisés. Au niveau 20, la valeur maximale des objets extraits est de 5 000 po. Si le personnage récupère un objet qui ne devrait normalement pas flotter, on admet qu'il se trouve sur ou est emmêlé dans des débris qui flottent. Les objets extraits de cette manière disparaissent après 24 heures s'ils ne sont pas utilisés ou autrement détruits plus tôt.
 </div>
 </td></tr></table>
 

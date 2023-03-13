@@ -1,12 +1,15 @@
 ---
 Name: Pathfinder-RPG.Diaboliste
 Title: Diaboliste
-LastModified: 2023-02-28 16:15
+LastModified: 2023-03-08 15:36
+Categories:
+  - 'Classe de prestige'
+  - 'Src Book of the Damned'
+  - 'Src Livre des damnés'
 ---
-{s:MenuClassesDePrestige}''Bien que les diabolistes cherchent à asservir les forces de l'Enfer et à les tourner vers d'autres buts que la corruption, seuls les plus vaillants des diabolistes peuvent résister aux tentations de la Fosse.''
+{s:MenuClassesDePrestige}{s:cs}{s:BotD}''Bien que les diabolistes cherchent à asservir les forces de l'Enfer et à les tourner vers d'autres buts que la corruption, seuls les plus vaillants des diabolistes peuvent résister aux tentations de la Fosse.''
 
-<center>
-{| CLASS="tablo"
+{| CLASS="tablo centre autoalt"
 |+ Le Diaboliste
 |- CLASS="titre"
 | Niveau || BBA || Réflexes || Vigueur || Volonté
@@ -14,46 +17,45 @@ LastModified: 2023-02-28 16:15
 | CLASS="gauche" | Sorts par jour
 |- CLASS="premier"
 | 1 || +0 || +0 || +0 || +1
-| CLASS="gauche" | [[Diaboliste#DAMNE|Damné]], [[Diaboliste#FAMILIERDIABLOTIN|familier diablotin]], [[Diaboliste#CHARISMEINFERNAL|charisme infernal +2]],  [[Diaboliste#OBEDIENCE|Obédience]]
+| CLASS="gauche" | [[Diaboliste#CHARISMEINFERNAL|Charisme infernal +2]], [[Diaboliste#DAMNE|damné]], [[Diaboliste#FAMILIERDIABLOTIN|familier diablotin]], [[Diaboliste#OBEDIENCE|obédience]]
 | CLASS="gauche" | -
-|- CLASS="alt"
+|-
 | 2 || +1 || +1 || +1 || +1
-| CLASS="gauche" | [[Diaboliste#CANALISATIONFEUINFERNAL|Cannalisation de feu infernal]], [[Diaboliste#MARCHEINFERNAL|  marché infernal]]
+| CLASS="gauche" | [[Diaboliste#CANALISATIONFEUINFERNAL|Canalisation de feu infernal]], [[Diaboliste#MARCHEINFERNAL|marché infernal]]
 | CLASS="gauche" | [[Classes de prestige#SORTSPARJOUR|+1 niveau dans une classe de lanceur de sorts existante]]
 |-
 | 3 || +1 || +1 || +1 || +2
-| CLASS="gauche" | [[Diaboliste#AMELIORATIONCREATURECONVOQUEES|Amélioration des créatures convoquées]], [[Diaboliste#FAVEURDIABOLIQUE|Faveur diabolique 1]], [[Diaboliste#HERESIE|Hérésie +2]]
+| CLASS="gauche" | [[Diaboliste#AMELIORATIONCREATURECONVOQUEES|Amélioration des créatures convoquées]], [[Diaboliste#FAVEURDIABOLIQUE|faveur diabolique 1]], [[Diaboliste#HERESIE|hérésie +2]]
 | CLASS="gauche" | [[Classes de prestige#SORTSPARJOUR|+1 niveau dans une classe de lanceur de sorts existante]]
-|- CLASS="alt"
+|-
 | 4 || +2 || +1 || +1 || +2
-| CLASS="gauche" | [[Diaboliste#CHARISMEINFERNAL|charisme infernal +4]]
+| CLASS="gauche" | [[Diaboliste#CHARISMEINFERNAL|Charisme infernal +4]]
 | CLASS="gauche" | [[Classes de prestige#SORTSPARJOUR|+1 niveau dans une classe de lanceur de sorts existante]]
 |-
 | 5 || +2 || +2 || +2 || +3
-| CLASS="gauche" | [[Diaboliste#AMEINFERNAL|âme infernal]], [[Diaboliste#FAMILIERDIABLOTIN|pouvoirs magiques du diablotin]]
+| CLASS="gauche" | [[Diaboliste#AMEINFERNAL|Âme infernal]], [[Diaboliste#FAMILIERDIABLOTIN|pouvoirs magiques du diablotin]]
 | CLASS="gauche" | [[Classes de prestige#SORTSPARJOUR|+1 niveau dans une classe de lanceur de sorts existante]]
-|- CLASS="alt"
+|-
 | 6 || +3 || +2 || +2 || +3
 | CLASS="gauche" | [[Diaboliste#FAVEURDIABOLIQUE|Faveur diabolique 2]], [[Diaboliste#TRANSPORTINFERNAL|transport infernal]]
 | CLASS="gauche" | [[Classes de prestige#SORTSPARJOUR|+1 niveau dans une classe de lanceur de sorts existante]]
 |-
 | 7 || +3 || +2 || +2 || +4
-| CLASS="gauche" | [[Diaboliste#CHARISMEINFERNAL|charisme infernal +6]]
+| CLASS="gauche" | [[Diaboliste#CHARISMEINFERNAL|Charisme infernal +6]]
 | CLASS="gauche" | [[Classes de prestige#SORTSPARJOUR|+1 niveau dans une classe de lanceur de sorts existante]]
-|- CLASS="alt"
+|-
 | 8 || +4 || +3 || +3 || +4
-| CLASS="gauche" | [[Diaboliste#RAYONDEFEUINFERNAL|rayon de feu infernal]], [[Diaboliste#FAMILIERDIABLOTIN|pouvoirs magiques du diablotin]]
+| CLASS="gauche" | [[Diaboliste#RAYONDEFEUINFERNAL|Rayon de feu infernal]], [[Diaboliste#FAMILIERDIABLOTIN|pouvoirs magiques du diablotin]]
 | CLASS="gauche" | [[Classes de prestige#SORTSPARJOUR|+1 niveau dans une classe de lanceur de sorts existante]]
-|-CLASS="alt"
+|-
 | 9 || +4 || +3 || +3 || +5
-| CLASS="gauche" | [[Diaboliste#FAVEURDIABOLIQUE|Faveur diabolique 3]], [[Diaboliste#HERESIE|Hérésie +4]]
+| CLASS="gauche" | [[Diaboliste#FAVEURDIABOLIQUE|Faveur diabolique 3]], [[Diaboliste#HERESIE|hérésie +4]]
 | CLASS="gauche" | [[Classes de prestige#SORTSPARJOUR|+1 niveau dans une classe de lanceur de sorts existante]]
 |-
 | 10 || +5 || +3 || +3 || +5
 | CLASS="gauche" | [[Diaboliste#MAITREINVOCATEUR|Maître invocateur]]
 | CLASS="gauche" | [[Classes de prestige#SORTSPARJOUR|+1 niveau dans une classe de lanceur de sorts existante]]
 |}
-</center>
 
 '''Dés de vie.''' d6. 
 
@@ -68,60 +70,54 @@ Pour pouvoir devenir diaboliste, le personnage doit satisfaire aux conditions su
 
 '''Langue.''' Infernal
 
-'''Sorts.''' Capacité de lancer 2 sort d'invocation de deux niveaux différents.
+'''Sorts.''' Capacité de lancer au moins deux sorts d'[[invocation]] de deux niveaux différents.
 
-'''Spécial.''' Doit vénérer un archidémon, un duc infernal ou une malebranche ; doit avoir conjuré un diable à l'aide de ''[[contrat]]'' (ou un sort similaire) et lui ordonner avec succès d'accomplir une tâche qui prend au minimum 1 jour.
-
+'''Spécial.''' Le personnage doit vénérer un archidémon, un duc infernal ou une malebranche ; doit avoir conjuré un diable à l'aide d’''[[allié doutreplan|allié d'outreplan]]'' ou de ''[[contrat]]'' (ou un sort similaire) et réussir à lui ordonner d'accomplir une tâche qui prend au minimum 1 jour.
 
 ===Compétences de classe===
-Les compétences de classe du diaboliste sont : [[Art de la magie]] (Int), [[Bluff]] (Cha), [[Connaissances]] (mystère) (Int), [[Connaissances]] (religion) (Int), [[Connaissances]] (plans) (Int), [[Diplomatie]] (Cha), [[Intimidation]] (Cha) et [[Psychologie]] (Sag).
+Les compétences de classe du diaboliste sont : [[Art de la magie]] (Int), [[Bluff]] (Cha), [[Connaissances]] (mystères) (Int), [[Connaissances]] (religion) (Int), [[Connaissances]] (plans) (Int), [[Diplomatie]] (Cha), [[Intimidation]] (Cha) et [[Psychologie]] (Sag).
 
 '''Rangs de compétence par niveau.''' 2 + modificateur d'[[Intelligence]].
 
 ===Capacités de classe===
-
-====Sorts====
-A chaque fois que le personnage gagne un niveau de diaboliste, il gagne également de nouveaux sorts quotidiens, comme s'il avait gagné un niveau dans la classe de lanceur de sorts qui était la sienne avant de devenir diaboliste. Il ne gagne cependant pas les autres avantages fournis par ce gain de niveau, seulement le nombre de sorts par jour, de sorts connus ( dans le cas d'un lanceur de sorts spontanés) et l'augmentation de son niveau de lanceur de sorts. Si le personnage possédait plus d'une classe de lanceur de sorts avant de devenir diaboliste, il doit choisir à quelle classe il ajoute ce nouveau niveau pour ce qui est de déterminer ses sorts quotidiens.
+====Sorts par jour/Sorts connus====
+Aux niveaux indiqués, un diaboliste gagne de nouveaux sorts par jour comme s'il avait gagné un niveau dans la classe de lanceur de sorts qui était la sienne avant de devenir un diaboliste. Il ne gagne cependant pas les autres avantages fournis par ce gain de niveau, excepté le nombre de sorts par jour, de sorts connus (dans le cas d'un lanceur de sorts spontanés) et l'augmentation de son niveau de lanceur de sorts. Si le personnage possédait plus d'une classe de lanceur de sorts avant de devenir un diaboliste, il doit choisir à quelle classe il ajoute ce nouveau niveau pour ce qui est de déterminer ses sorts par jour.
 
 {s:reference|DAMNE}
 ====Damné (Ext)==== 
-Lorsqu'un diaboliste se fait tuer, son âme est instantanément envoyé aux Enfers. Tout personnage qui tente de le ressuciter doit réussir un test de niveau de lanceur de sorts égal à 10 + le niveau du diaboliste, sans quoi son sort échoue. Ce personnage ne peut pas tenter à nouveau de ressusciter le diaboliste avant le jour suivant mais d'autres personnages peuvent le faire s'ils le souhaitent.
+Lorsqu'un diaboliste meurt, son âme est instantanément revendiquée par l'Enfer. Un personnage qui tente de ressusciter un diaboliste tué doit réussir un test de niveau de lanceur de sorts avec un DD égal à 10 + le niveau de personnage du diaboliste ou perdre le sort. En cas d'échec, il doit attendre 24 heures avant de pouvoir tenter une nouvelle résurrection, mais d'autres personnages peuvent tenter leur chance si elles le souhaitent.
 
 {s:reference|FAMILIERDIABLOTIN}
 ====Familier diablotin (Ext)====
-Un diaboliste forme un lien étroit avec un diablotin particulier, de la même manière qu'un magicien acquiert un [[familier]]. Cela fonctionne comme la capacité de classe de classe de magicien pact magique, mais comme si le diaboliste avait le don [[Familier supérieur]]. Si un diaboliste a des niveaux de classe dans une autre classe qui accorde un familier, les niveaux de cette classe et les niveaux de classe du diaboliste s'additionnent pour déterminer les capacités globales de son familier diablotin. Le familier diablotin peut communiquer avec son maître par télépathie tant que le diablotin est en contact physique avec lui.
+Un diaboliste forme un lien étroit avec un [[diablotin]] particulier, de la même manière qu'un magicien acquiert un [[familier]]. Cela fonctionne comme la capacité de classe de classe de magicien [[Magicien#PACTEMAGIQUE|pacte magique]], mais comme si le diaboliste avait le don [[Familier supérieur]]. Si un diaboliste a des niveaux de classe dans une autre classe qui accorde un familier, les niveaux de cette classe et les niveaux de diaboliste s'additionnent pour déterminer les capacités globales de son familier diablotin. Le familier diablotin peut communiquer avec son maître par télépathie tant que le diablotin est en contact physique avec lui.
 
-Au niveau 5, le familier diablotin  du diaboliste peut choisir n'importe lequel des sorts suivants pour l'ajouter à sa liste de pouvoirs magiques à volonté : ''[[saignement]]'', ''[[Perception de la mort]]'', ''[[détection du mal]]'', ''[[détection de la loi]]'', ''[[Anathème]]'', ''[[son imaginaire]]'', ''[[Manipulation à distance]]'', ''[[message]]'', ''[[Ouverturefermeture|Ouverture/fermeture]]'' ou ''[[prestidigitation]]''. Le diablotin peut également ajouter n'importe lequel des sorts suivants à sa liste de pouvoirs magiques 1/jour : ''[[malédiction de leau|malédiction de l'eau]]'', ''[[disque flottant]]'', ''[[graisse]]'', ''[[verrouillage ]]'', ''[[identification]]'', ''[[image silencieuse]]'', ''[[serviteur invisible]]'' ou ''[[ventriloquie]]''. La portée de la télépathie du diablotin avec le diaboliste passe à 18 m.
+Au niveau 5, le familier diablotin du diaboliste peut choisir n'importe lequel des sorts suivants pour l'ajouter à sa liste de pouvoirs magiques utilisables à volonté : ''[[anathème]]'', ''[[détection de la Loi]]'', ''[[détection du Mal]]'', ''[[manipulation à distance]]'', ''[[message]]'', ''[[perception de la mort]]'', ''[[Ouverturefermeture|ouverture/fermeture]]'', ''[[prestidigitation]]'', ''[[saignement]]'' ou ''[[son imaginaire]]''. Le diablotin peut également ajouter n'importe lequel des sorts suivants à sa liste de pouvoirs magiques utilisables 1 fois par jour : ''[[disque flottant]]'', ''[[graisse]]'', ''[[identification]]'', ''[[image silencieuse]]'', ''[[malédiction de leau|malédiction de l'eau]]'', ''[[serviteur invisible]]'', ''[[ventriloquie]]'' ou ''[[verrouillage]]''. La portée de la télépathie du diablotin avec le diaboliste passe à 18 m.
 
-Au niveau 8, le diablotin peut choisir deux pouvoirs magiques supplémentaires à volonté dans la liste correspondante ci-dessus, et il peut choisir un pouvoirs magiques supplémentaire 1/jour dans la liste correspondante ci-dessus. La portée de la télépathie du diablotin avec le diaboliste passe à 1,5 km.
+Au niveau 8, le diablotin peut choisir deux pouvoirs magiques supplémentaires utilisables à volonté dans la liste correspondante ci-dessus, et il peut choisir un pouvoir magique supplémentaire utilisable une fois par jour dans la liste correspondante ci-dessus. La portée de la télépathie du diablotin avec le diaboliste passe à 1,5 km.
 
 {s:reference|CHARISMEINFERNAL}
 ====Charisme infernal (Ext)====
-Un diaboliste gagne un bonus de +2 à tous ses test de Charisme lorsqu'il interagit avec des diables. Ce bonus passe à +4 au niveau 4 et à +6 au niveau 7.
+Un diaboliste gagne un bonus de +2 à tous ses tests de [[Charisme]] lorsqu'il interagit avec des diables. Ce bonus passe à +4 au niveau 4 et à +6 au niveau 7.
 
 {s:reference|OBEDIENCE}
 ====Obédience (Ext)====
-Pour pouvoir conserver ses aptitudes de diaboliste (y compris l'ensemble des capacités de lanceur de sorts augmentées grâce à cette classe de prestige), le personnage doit réaliser une obédience quotidienne en l'honneur de son patron. Cette cérémonie fait intégralement partie de la méthode appliqué par le diaboliste pour récupérer ses sorts quotidiens (telles que la prière envers un seigneur démon, la méditation ou l'étude d'un grimoire). Lorsqu'un personnage passe son premier niveau de diaboliste, il doit décider s'il est un évangéliste, un exalté ou une sentinelle de son patron diabolique. Ce choix détermine la catégorie d'avantages qu'elle gagne au fur et à mesure qu'elle gagne des niveaux, et une fois fait, il ne peut plus être changé par la suite.
+Pour pouvoir conserver ses aptitudes de diaboliste (y compris l'ensemble des capacités de lancement de sorts améliorées grâce à cette classe de prestige), le personnage doit réaliser une obédience quotidienne en l'honneur de son patron. Cette cérémonie fait partie intégrante de la méthode utilisée par le diaboliste pour récupérer ses sorts (comme méditer, prier un archidiable, ou étudier un grimoire). Lorsqu'un personnage prend son premier niveau de diaboliste, il doit décider s'il est un évangéliste, un exalté, ou une sentinelle de son patron diabolique. Ce choix détermine la catégorie des faveurs qu'ils obtient quand il prend des niveaux, et une fois fait, il ne peut pas être changé.
 
 {s:reference|CANALISATIONFEUINFERNAL}
-
-
 ====Canalisation de feu infernal (Sur)====
-Au niveau 2, un diaboliste peut modifier les sorts qui infligent des dommages d'énergie pour qu'ils infligent plutôt des dommages de [[feu infernal]]. Il peut le faire en tant qu'action libre, un nombre de fois par jour égal à son modificateur de Charisme (minimum 1). Les sorts modifié pour utiliser du feu infernal gagnent les registres Loyal et Mauvais. 
+Au niveau 2, un diaboliste peut modifier les sorts qui infligent des dégâts d'énergie destructive pour qu'ils infligent plutôt des dégâts de [[feu infernal]]. Il peut le faire par une [[action libre]] un nombre de fois par jour égal à son modificateur de [[Charisme]] (minimum 1). Les sorts modifiés de cette façon gagnent les [[registre|registres]] Loi et Mal. 
 
 {s:reference|MARCHEINFERNAL}
-
 ====Marché infernal (Ext)====
-Au niveau 2, un diaboliste utilisant ''[[allié majeur doutreplan|allié majeur d'outreplan]]'' (ou un sort similaire) peut faire un test de Charisme opposé à celui du diable appelé (mais pas invoqué). S'il réussit, le diable réduit de moitié le prix qu'il demande pour un service.
+Au niveau 2, un diaboliste utilisant ''[[allié majeur doutreplan|allié majeur d'outreplan]]'' (ou un sort similaire) peut faire un test de [[Charisme]] opposé à celui d'un diable [[branche appel|appelé]] (mais pas [[branche convocation|convoqué]]). S'il réussit, le diable réduit de moitié le prix qu'il demande pour un service.
 
 {s:reference|AMELIORATIONCREATURECONVOQUEES}
 ====Amélioration des créatures convoquées (Ext)====
 Au niveau 3, un diaboliste gagne le don [[Amélioration des créatures convoquées]] même s'il ne remplit pas les conditions requises.
 
 {s:reference|FAVEURDIABOLIQUE}
-
-====Faveur diabolique====
-A chaque fois que le personnage gagne un nouveau niveau de diaboliste, son patron diabolique lui offre des faveurs au fur et à mesure que les énergies démoniaques imprègnent de plus en plus profondément son corps et son âme. La nature de ces faveurs peut varier en fonction du patron choisi. Chaque patron offre trois faveurs, par ordre croissant de puissance. Au niveau 3, le diaboliste obtient la première faveur ; au niveau 6, la deuxième et au niveau 9 la troisième et dernière faveur. (Voir [[Obédience fiélonne]] et la description de votre patron pour plus d'information sur les faveurs). Lorsqu'une faveur diabolique permet d'utiliser un pouvoir magique, le niveau de lanceur de sort de ce pouvoir est égal au niveau total du personnage. Cette aptitude permet à un diaboliste d'obtenir ces faveurs plus tôt qu'à l'accoutumée ; elle ne permet cependant pas d'en utiliser plus lorsque le personnage atteint le nombre de DV normalement requis pour les obtenir.
+====Faveur diabolique (Ext, Mag ou Sur)====
+Quand un diaboliste prend des niveaux, il obtient des faveurs de son protecteur diabolique. La nature de ces faveurs peut varier en fonction du protecteur choisi. Chaque protecteur diabolique offre trois faveurs, chacune plus puissante que la précédente. Au niveau 3, le diaboliste obtient la première faveur. Au niveau 6, il obtient la deuxième faveur, et au niveau 9 la troisième et dernière faveur. (Voir [[Obédience fiélonne]] et la description de l'archidiable, du duc infernal ou de la malebranche pour plus d'informations sur ces faveurs). Lorsqu'une faveur diabolique permet d'utiliser un pouvoir magique, le [[NLS|niveau de lanceur de sorts]] du diaboliste pour ce pouvoir est égal à son niveau de personnage total. Cette capacité permet à un diaboliste d'obtenir ces faveurs plus tôt qu'à l'accoutumée ; elle ne permet cependant pas d'en utiliser plus lorsque le personnage atteint le nombre de DV normalement requis pour les obtenir.
 
 {s:reference|HERESIE}
 ====Hérésie (Ext)====
@@ -129,19 +125,16 @@ Au niveau 3, un diaboliste gagne un bonus de +2 à tous ses tests pour recherche
 
 {s:reference|AMEINFERNAL}
 ====Âme infernal (Ext)====
-Au niveau 5, un diaboliste est estimé suffisamment utile à la cause des Enfers pour se voir accorder un bref répit vis-à-vis de la damnation. S'il est tué par quelque moyen que ce soit en dehors de la volonté du [[Asmodéus|prince des Ténèbres]], des archidiables ou d'un autres force influente des Enfers, le diaboliste peut-être ressuscité normalement.
+Au niveau 5, un diaboliste est estimé suffisamment utile à la cause de l'Enfer pour se voir accorder un bref répit vis-à-vis de la damnation. S'il est tué par quelque moyen que ce soit en dehors de la volonté du [[Asmodéus|prince des Ténèbres]], des archidiables ou d'une autre force influente de l'Enfer, le diaboliste peut-être ressuscité normalement.
 
 {s:reference|TRANSPORTINFERNAL}
-
-
 ====Transport infernal (Mag)====
-Au niveau 6, un diaboliste peut se transporter lui-même à travers les Enfers dans un éclat de soufre. Il peut utiliser cette capacité deux fois par jour comme dans ''[[porte dimensionnelle]]''; il peut également dépenser ses deux utilisation quotidienne pour voyager comme s'il utilisait ''[[téléportation]]''. Il ne peut pas utiliser cette capacité pour entrer ou sortir de zones protégées contre les créatures Mauvaises.
+Au niveau 6, un diaboliste peut se transporter lui-même à travers l'Enfer dans un éclat de soufre. Il peut utiliser cette capacité deux fois par jour comme une ''[[porte dimensionnelle]]'' ; il peut également dépenser ces deux utilisations quotidienne pour voyager comme s'il utilisait ''[[téléportation]]''. Il ne peut pas utiliser cette capacité pour entrer ou sortir de zones protégées contre les créatures Mauvaises.
 
 {s:reference|RAYONDEFEUINFERNAL}
 ====Rayon de feu infernal (Mag)====
-Au niveau 8, un diaboliste peut utiliser ''[[rayon de feu infernal]]'' deux fois par jour.
+Au niveau 8, un diaboliste peut lancer ''[[rayon de feu infernal]]'' deux fois par jour comme un [[Pouvoirs magiques (capacité)|pouvoir magique]].
 
 {s:reference|MAITREINVOCATEUR}
 ====Maître invocateur (Ext)====
-Au niveau 10, lorsqu'un diaboliste appelle un diable dont il connait le nom, il peut lancer le sort d'appel par une action simple et négocier avec lui par une action de mouvement. Il n'ajoute que la moitié de son modificateur de Bluff, Diplomatie ou Intimidation à ses tests de Charisme pour négocier (le cas échéant). 
-
+Au niveau 10, lorsqu'un diaboliste appelle un diable dont il connait le nom, il peut lancer le sort d'[[branche appel|appel]] par une [[action simple]] et négocier avec lui par une [[action de mouvement]]. Il n'ajoute que la moitié de son modificateur de [[Bluff]], [[Diplomatie]] ou [[Intimidation]] à ses tests de [[Charisme]] pour négocier de cette façon (le cas échéant). 

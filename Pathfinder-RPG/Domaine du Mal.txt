@@ -1,18 +1,20 @@
 ---
 Name: Pathfinder-RPG.Domaine du Mal
 Title: Domaine du Mal
-LastModified: 2022-12-10 22:00
+LastModified: 2023-03-10 00:09
 Categories:
   - 'Classe'
   - 'Domaine'
+  - 'Src Book of the Damned'
+  - 'Src Champions of Corruption'
+  - 'Src Manuel des joueurs'
+  - 'Src Manuel des joueurs - Règles avancées'
 ---
 {s:MenuDomaines}'''Pouvoirs accordés.''' Le personnage est sinistre et cruel. Il a vendu son âme à la cause du Mal.
 
-{s:Reference|TOUCHERMALEFIQUE}
-'''Toucher maléfique (Mag).''' Le personnage peut rendre une créature [[fiévreux|fiévreuse]] en lui portant une [[attaque de contact au corps à corps]]. Les créatures affectées par ce toucher sont considérées comme étant d’alignement Bon lorsqu’il s’agit de déterminer les effets qu’ont les sorts du registre Mal sur elles. L’effet du toucher maléfique persiste pendant un nombre de rounds égal à la moitié du niveau de [[prêtre]] du personnage (au minimum 1 round). Chaque jour, le personnage peut utiliser ce pouvoir un nombre de fois égal à 3 + son modificateur de [[Sagesse]].
+{s:Reference|TOUCHERMALEFIQUE}'''Toucher maléfique (Mag).''' Le personnage peut rendre une créature [[fiévreux|fiévreuse]] en lui portant une [[attaque de contact au corps à corps]]. Les créatures affectées par ce toucher sont considérées comme étant d’alignement Bon lorsqu’il s’agit de déterminer les effets qu’ont les sorts du registre Mal sur elles. L’effet du toucher maléfique persiste pendant un nombre de rounds égal à la moitié du niveau de [[prêtre]] du personnage (au minimum 1 round). Chaque jour, le personnage peut utiliser ce pouvoir un nombre de fois égal à 3 + son modificateur de [[Sagesse]].
 
-{s:Reference|FAUXMALEFIQUE}
-'''Faux maléfique (Sur).''' Au niveau 8, le personnage peut accorder à une arme, par le toucher, la propriété [[impie (propriété)|impie]] pour un nombre de rounds égal à la moitié de son niveau de [[prêtre]]. Il peut utiliser ce pouvoir une fois par jour au niveau 8 et une fois de plus par jour tous les quatre niveaux par la suite.
+{s:Reference|FAUXMALEFIQUE}'''Faux maléfique (Sur).''' Au niveau 8, le personnage peut accorder à une arme, par le toucher, la propriété [[impie (propriété)|impie]] pour un nombre de rounds égal à la moitié de son niveau de [[prêtre]]. Il peut utiliser ce pouvoir une fois par jour au niveau 8 et une fois de plus par jour tous les quatre niveaux par la suite.
 
 {s:APG}
 ===Sous-domaines===
@@ -38,12 +40,14 @@ Au lieu du domaine, un personnage peut choisir d'adopter un des [[sous-domaines]
 <table class="page espace-col troiscol"><tr style="vertical-align: top"><td>
 <div class="presentation arrondi">{s:Reference|SOUSDOMAINEPEUR}
 ===Sous-domaine de la Peur===
-{s:cs}<div class="description">'''Source :''' Book of the Damned (BD).</div>'''Se nourrir de la peur (Sur).''' ''(remplace faux maléfique)'' Au niveau 8 par une [[action immédiate]], lorsqu'il touche une créature qui est déjà sous un effet de [[peur]] avec une attaque au corps à corps, le [[prêtre]] inflige 2d6 dégâts supplémentaires et regagne autant de [[points de vie temporaires]]. Ces points de vie temporaires ont une durée de 24 heures. Le personnage peut utiliser ce pouvoir une fois par jour au niveau 8, et une fois supplémentaires à tous les quatre niveaux après celui-ci.
+{s:cs}{s:BotD}'''Se nourrir de la peur (Sur).''' ''(remplace faux maléfique)'' Au niveau 8, par une [[action immédiate]] lorsqu'il touche une créature qui est déjà sous un effet de [[registre|peur]] avec une attaque au corps à corps, le personnage inflige 2d6 points de dégâts supplémentaires et regagne autant de [[points de vie temporaires]]. Ces points de vie temporaires persistent pendant 24 heures. Le personnage peut utiliser ce pouvoir une fois par jour au niveau 8, et une fois de plus à tous les 4 niveaux après celui-ci.
 </div>
 </td><td>
 <div class="presentation arrondi">{s:Reference|SOUSDOMAINECORRUPTION}
 ===Sous-domaine de la Corruption===
-{s:cs}<div class="description">'''Source :''' Champions of Corruption (CoC).</div>'''Eveiller la malveillance (Sur).''' ''(remplace faux maléfique)'' Au niveau 8 par une attaque de contact à distance, le [[prêtre]] peut éveiller les désirs coupables d'une créature dans un rayon de 9 mètres (6 {s:c}). La créature est alors dévorée par la culpabilité et est [[fiévreux|fiévreuse]] pour un nombre de tours égal à la moitié du niveau du [[prêtre]]. Pour mettre fin à l'effet, la créature peut commettre volontairement un acte mauvais (si elle est d'[[alignement]] Bon) ou tenter un jet de Volonté (DD 10+ 1/2 niveau de [[prêtre]] + modificateur de [[Sagesse]]) à chaque round. Une créature réussissant ce jet de volonté est immunisé contre ce pouvoir pendant 24 heures. Le personnage peut utiliser ce pouvoir une fois par jour au niveau 8, et une fois supplémentaires à tous les quatre niveaux après celui-ci.
+{s:cs}<div class="description">'''Source :''' Champions of Corruption (CoC).</div>
+
+'''Eveiller la malveillance (Sur).''' ''(remplace faux maléfique)'' Au niveau 8 par une attaque de contact à distance, le [[prêtre]] peut éveiller les désirs coupables d'une créature dans un rayon de 9 mètres (6 {s:c}). La créature est alors dévorée par la culpabilité et est [[fiévreux|fiévreuse]] pour un nombre de tours égal à la moitié du niveau du [[prêtre]]. Pour mettre fin à l'effet, la créature peut commettre volontairement un acte mauvais (si elle est d'[[alignement]] Bon) ou tenter un jet de Volonté (DD 10+ 1/2 niveau de [[prêtre]] + modificateur de [[Sagesse]]) à chaque round. Une créature réussissant ce jet de volonté est immunisé contre ce pouvoir pendant 24 heures. Le personnage peut utiliser ce pouvoir une fois par jour au niveau 8, et une fois supplémentaires à tous les quatre niveaux après celui-ci.
 </div>
 </td><td>
 <div class="presentation arrondi">{s:Reference|SOUSDOMAINECANNIBALISME}
@@ -55,12 +59,16 @@ Au lieu du domaine, un personnage peut choisir d'adopter un des [[sous-domaines]
 <table class="page espace-col deuxcol"><tr style="vertical-align: top"><td>
 <div class="presentation arrondi">{s:Reference|SOUSDOMAINEDEMODANDE}
 ===Sous-domaine des Démodandes===
-{s:cs}<div class="description">'''Source :''' Champions of Corruption (CoC).</div>'''Attaque voleuse de foi (Sur).''' ''(remplace toucher maléfique)'' Le prêtre peut infliger une unique attaque au corps à corps en utilisant son [[BBA|bonus de base à l'attaque]] le plus élevé à une créature capable de lancer des sorts divins. Si elle reçoit des dommages, elle doit faire un jet de [[Volonté]] (DD 10+ 1/2 niveau de [[prêtre]] + modificateur de [[Sagesse]]) ou être incapable de lancer des sorts divins pour un tour. Le personnage peut utiliser cette capacité un nombre de fois par jour égal à 3 + son modificateur de [[Sagesse]].
+{s:cs}<div class="description">'''Source :''' Champions of Corruption (CoC).</div>
+
+'''Attaque voleuse de foi (Sur).''' ''(remplace toucher maléfique)'' Le prêtre peut infliger une unique attaque au corps à corps en utilisant son [[BBA|bonus de base à l'attaque]] le plus élevé à une créature capable de lancer des sorts divins. Si elle reçoit des dommages, elle doit faire un jet de [[Volonté]] (DD 10+ 1/2 niveau de [[prêtre]] + modificateur de [[Sagesse]]) ou être incapable de lancer des sorts divins pour un tour. Le personnage peut utiliser cette capacité un nombre de fois par jour égal à 3 + son modificateur de [[Sagesse]].
 </div>
 </td><td>
 <div class="presentation arrondi">{s:Reference|SOUSDOMAINEKYTON}
 ===Sous-domaine des Kytons===
-{s:cs}<div class="description">'''Source :''' Champions of Corruption (CoC).</div>'''La douleur, c'est la force (Sur).''' ''(remplace faux maléfique)'' Au niveau 8, lorsque le prêtre subit des dommages, il peut tenter un test de [[Concentration]] (DD 25) par une [[action immédiate]]. S'il réussit, il bénéficie des effets d'une [[bénédiction de ferveur]] pour un nombre de rounds égal à la moitié de son niveau de prêtre. S'il échoue, l'utilisation du pouvoir est consommée quand même. Il peut utiliser ce pouvoir une fois par jour au niveau 8, et une fois supplémentaires à tous les quatre niveaux après celui-ci.
+{s:cs}<div class="description">'''Source :''' Champions of Corruption (CoC).</div>
+
+'''La douleur, c'est la force (Sur).''' ''(remplace faux maléfique)'' Au niveau 8, lorsque le prêtre subit des dommages, il peut tenter un test de [[Concentration]] (DD 25) par une [[action immédiate]]. S'il réussit, il bénéficie des effets d'une [[bénédiction de ferveur]] pour un nombre de rounds égal à la moitié de son niveau de prêtre. S'il échoue, l'utilisation du pouvoir est consommée quand même. Il peut utiliser ce pouvoir une fois par jour au niveau 8, et une fois supplémentaires à tous les quatre niveaux après celui-ci.
 </div>
 </td></tr></table>
 

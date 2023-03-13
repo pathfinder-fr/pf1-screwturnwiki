@@ -1,13 +1,17 @@
 ---
 Name: Pathfinder-RPG.Domaine des Reptiles
 Title: Domaine des Reptiles
-LastModified: 2023-01-27 23:03
+LastModified: 2023-03-09 18:00
+Categories:
+  - 'Domaine'
+  - 'Src Book of the Damned'
+  - 'Src La mer Intérieure'
 ---
 {s:MenuDomaines}{s:CCMI}'''Pouvoirs accordés.''' Le personnage est capable de communiquer avec les créatures écailleuses et d'utiliser leurs pouvoirs.
 
-'''Regard venimeux (Sur).''' Le personnage est un véritable seigneur des reptiles, capable d'infliger douleur, confusion et fascination d'un seul regard hypnotique, et un simple regard lui permet de faire sombrer les plus faibles dans l'inconscience. Par une [[action simple]], il peut activer une attaque de [[regard]] avec une portée de 6 mètres (4{s:c}). La cible de cette attaque doit faire un jet de [[Volonté]] (DD 10 + 1/2 niveau de [[prêtre]] + modificateur de [[Sagesse]]). Si elle échoue, elle subit 1d6 points de dégâts non-létaux + 1 point par tranche de deux niveaux de prêtre et est [[fasciné|fascinée]] jusqu'au début de votre prochain tour. Le personnage peut utiliser ce pouvoir un nombre de fois par jour égal à 3 + son modificateur de [[Sagesse]]. C'est un [[effet mental]].
+'''Regard venimeux (Mag).''' Le personnage est un véritable seigneur des reptiles, capable d'infliger douleur, confusion et fascination d'un seul regard hypnotique, et un simple regard lui permet de faire sombrer les plus faibles dans l'inconscience. Par une [[action simple]], il peut activer une [[Regard (capacité)|attaque de regard]] avec une portée de 9 mètres (6 {s:c}) contre une unique cible. La cible de cette attaque doit faire un jet de [[Volonté]] (DD 10 + 1/2 niveau de [[prêtre]] du personnage + son modificateur de [[Sagesse]]). Si elle échoue, elle subit 1d6 points de dégâts [[Blessures et mort#NONLETAL|non létaux]] + 1 point par tranche de deux niveaux de prêtre du personnage et est [[fasciné|fascinée]] jusqu'au début du prochain tour de ce dernier. Le personnage peut utiliser ce pouvoir un nombre de fois par jour égal à 3 + son modificateur de [[Sagesse]]. C'est un [[effet mental]].
 
-'''Compagnon serpent (Ext).''' Au niveau 4, le personnage acquiert les services d’un [[compagnon animal]]. Pour déterminer les caractéristiques du compagnon animal, on considère que le personnage possède un niveau effectif de [[druide]] égal à son niveau de [[prêtre]] -2 (les [[druide|druides]] qui choisissent ce pouvoir dans le cadre de leur aptitude de classe de [[druide#PACTEAVECLANATURE|pacte avec la nature]] utilisent leur niveau de [[druide]] -2 pour déterminer les capacités de leur compagnon animal). Il doit s'agir d'une vipère ou d'un serpent constricteur
+'''Compagnon serpent (Ext).''' Au niveau 4, le personnage acquiert les services d’un [[compagnon animal]]. Pour déterminer les caractéristiques du compagnon animal, on considère que le personnage possède un niveau effectif de [[druide]] égal à son niveau de [[prêtre]] -2. Il doit s'agir d'une [[vipère]] ou d'un [[serpent constricteur]].
 
 ===Sous-domaines===
 Au lieu du domaine, un personnage peut choisir d'adopter un des [[sous-domaines]] suivants.
@@ -15,23 +19,19 @@ Au lieu du domaine, un personnage peut choisir d'adopter un des [[sous-domaines]
 <table class="page espace-col troiscol"><tr style="vertical-align: top"><td>
 <div class="presentation arrondi">
 ===Sous-domaine des Dragons===
-{s:cs}<div class="description">'''Source :''' Book of the Damned (BD).</div>
-
-'''Souffle de dragon (Sur).''' ''(remplace compagnon serpent)'' Par une [[action simple]], une fois par jour, le prêtre peut effectuer une attaque de [[souffle]]. Lorsqu'il gagne cette capacité, il choisit si son souffle inflige des dommages de feu, de froid, d'électricité ou d'acide. Ce choix ne peut plus être modifié par la suite. L'attaque inflige 3d6 dommages dans cône de 9 m (6 {s:c}), et 1d6 dommages de plus à chaque niveau impair gagné après le niveau 4. Une créature subissant cette attaque peut faire un jet de [[Réflexes]] (DD 10 + 1/2 niveau de [[prêtre]] + modificateur de [[Sagesse]]) pour réduire les dégâts de moitié. Au niveau 9, il peut utiliser ce pouvoir deux fois par jour, et trois fois par jour au niveau 14.
+{s:cs}{s:BotD}'''Souffle de dragon (Sur).''' ''(remplace compagnon serpent)'' Une fois par jour et par une [[action simple]], le prêtre peut effectuer une attaque de [[Souffle (capacité)|souffle]]. Lorsqu'il gagne cette capacité, il choisit si son souffle inflige des dégâts d'acide, d'électricité, de feu ou de froid. Ce choix ne peut plus être modifié par la suite. L'attaque inflige 3d6 points de dégâts dans [[cône]] de 9 m (6 {s:c}), et 1d6 points de dégâts supplémentaires à chaque niveau impair après le niveau 4. Une créature touchée par cette attaque peut faire un jet de [[Réflexes]] (DD 10 + 1/2 niveau de [[prêtre]] du personnage + son modificateur de [[Sagesse]]) pour réduire les dégâts de moitié. Au niveau 9, il peut utiliser ce pouvoir deux fois par jour, puis trois fois par jour au niveau 14.
 </div>
 </td><td>
 <div class="presentation arrondi">
 === Sous-domaine des Sauriens===
-{s:cs}<div class="description">'''Source :''' Book of the Damned (BD).</div>
-
-'''Compagnon dinosaure (Ext).''' ''(remplace compagnon sepent)'' Au niveau 4, le personnage acquiert les services d’un [[compagnon animal]]. Pour déterminer les caractéristiques du compagnon animal, on considère que le personnage possède un niveau effectif de [[druide]] égal à son niveau de [[prêtre]] -2 (les [[druide|druides]] qui choisissent ce pouvoir dans le cadre de leur aptitude de classe de [[druide#PACTEAVECLANATURE|pacte avec la nature]] utilisent leur niveau de [[druide]] -2 pour déterminer les capacités de leur compagnon animal). Il doit s'agir d'un dinosaure.
+{s:cs}{s:BotD}'''Compagnon dinosaure (Ext).''' ''(remplace compagnon serpent)'' Au niveau 4, le personnage acquiert les services d’un [[compagnon animal]]. Pour déterminer les caractéristiques du compagnon animal, on considère que le personnage possède un niveau effectif de [[druide]] égal à son niveau de [[prêtre]] -2. Il doit s'agir d'un [[Dinosaure|dinosaure]].
 </div>
 </td><td>
 <div class="presentation arrondi">
 === Sous-domaine du Venin===
-{s:cs}<div class="description">'''Source :''' Book of the Damned (BD).</div>
+{s:cs}{s:BotD}'''Salive venimeuse (Sur).''' ''(remplace regard venimeux)'' À la manière dont les serpents peuvent projeter du poison depuis leurs crocs, le personnage peut cracher du venin affaiblissant sur une arme qu'il tient en main par une [[action rapide]]. Le poison dure une minute ou jusqu'à ce qu'il blesse un adversaire avec l'arme. Le personnage peut utiliser ce pouvoir un nombre de fois par jour égal à 3 + son modificateur de [[Sagesse]].
 
-'''Salive venimeuse (Sur).''' ''(remplace regard venimeux)'' Le personnage peut cracher du venin voleur de vie sur une arme qu'il tient en main par une [[action rapide]]. Le poison dure une minute, ou jusqu'à ce que l'arme touche une cible. Le personnage peut utiliser ce pouvoir un nombre de fois par jour égal à 3 + son modificateur de [[Sagesse]]. Le poison inflige 1 point d’affaiblissement temporaire de Constitution par round pendant 3 rounds. Une créature empoisonnée a droit à un jet de [[Vigueur]] (DD 10 + 1/2 niveau de [[prêtre]] + modificateur de [[Sagesse]]) par round pour annuler les dégâts et se débarrasser du poison.
+''Venin affaiblissant'' — blessure ; ''JdS'' [[Vigueur]] DD 10 + 1/2 niveau de prêtre du personnage + son modificateur de [[Sagesse]] ; ''fréquence'' 1/round pendant 3 rounds ; ''effet'' 1 point d’[[Affaiblissement temporaire (capacité)|affaiblissement temporaire]] de [[Constitution]] ; ''guérison'' 1 réussite.
 </td></tr></table>
 
 <center>
@@ -50,13 +50,13 @@ Au lieu du domaine, un personnage peut choisir d'adopter un des [[sous-domaines]
 |-
 | 3e || ''[[morsure magique suprême]]'' || ''[[réservoir draconique]]'' || ''idem'' || ''idem''
 |- CLASS="alt"
-| 4e || ''[[empoisonnement]]'' || ''[[souffle de dragon]]'' || ''[[convocation dalliés naturels IV|convocation d'alliés naturels IV]]''<br/>([[Déinonychus]] et [[Ptéranodon]] seulement) || ''idem''
+| 4e || ''[[empoisonnement]]'' || ''[[souffle de dragon]]'' || ''[[convocation dalliés naturels IV|convocation d'alliés naturels IV]]''<br/>([[déinonychus]] et [[ptéranodon]] uniquement) || ''idem''
 |-
 | 5e || ''[[croissance animale]]''<br/>(serpents constricteurs et vipères seulement) || ''idem'' || ''[[forme bestiale III]]'' || ''idem''
 |- CLASS="alt"
 | 6e || ''[[mauvais oeil]]'' || ''[[forme draconique I]]'' || ''idem'' || ''[[brume mortelle]]''
 |-
-| 7e || ''[[mort rampante]]''<br/>(nuée de serpents) || ''idem'' || ''[[convocation dalliés naturels VII|convocation d'alliés naturels VII]]''<br/>([[Brachiosaure]] et [[Tyrannosaure]] seulement) || ''idem''
+| 7e || ''[[mort rampante]]''<br/>(nuée de serpents) || ''idem'' || ''[[convocation dalliés naturels VII|convocation d'alliés naturels VII]]''<br/>([[brachiosaure]] et [[tyrannosaure]] uniquement) || ''idem''
 |- CLASS="alt"
 | 8e || ''[[métamorphose animale]]''<br/>(serpents constricteurs et vipères seulement) || ''idem'' || ''idem'' || ''idem''
 |-

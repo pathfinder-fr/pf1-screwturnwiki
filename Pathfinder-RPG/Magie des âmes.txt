@@ -1,25 +1,24 @@
 ---
 Name: Pathfinder-RPG.Magie des âmes
 Title: Magie des âmes
-LastModified: 2021-07-29 12:54
+LastModified: 2023-03-10 16:37
+Categories:
+  - 'Don'
+  - 'Src Book of the Damned'
 ---
-{s:cs}
-'''Source: Book of the Damned'''
-
-Vous pouvez utiliser les âmes capturées comme composants matériels.
+{s:cs}{s:BotD}''Vous pouvez utiliser les âmes capturées comme composants matériels.''
 
 '''Conditions.''' alignement Mauvais, [[NLS|niveau de lanceur de sorts]] 5.
 
-'''Avantage.''' Lorsque le lancement d'un sort nécessite un composant matériel coûteux, vous pouvez substituer une âme capturée à sa place. L'âme peut être capturée de n'importe quelle manière (les sorts ''[[Création de gemme spirituelle]]'', ''[[soul trap]]'' et ''[[Séquestration]]'' sont les méthodes les plus courantes), mais vous devez pouvoir toucher l'âme ou l'objet dans lequel elle est piégée (généralement un cristal ou une gemme) pour l'utiliser comme composant matériel. L'utilisation d'une âme de cette manière n'endommage pas l'objet dans lequel elle a été piégée. L'[[gemme spirituelle|âme]] elle-même doit avoir une valeur au moins égale au coût en po du composant matériel que vous remplacez (tout excédent de valeur en po est perdu).
+'''Avantage.''' Lorsque le personnage lance un sort qui nécessite une [[composantes|composante matérielle]] coûteuse, il peut la remplacer une âme capturée. L'âme peut être capturée de n'importe quelle manière (les sorts ''[[capture dâme|capture d'âme]]'', ''[[création de gemme spirituelle]]'' et ''[[séquestration]]'' sont les méthodes les plus courantes), mais le personnage doit pouvoir toucher l'âme ou l'objet dans lequel elle est piégée (généralement un cristal ou une gemme) pour l'utiliser comme composante matérielle. L'utilisation d'une âme de cette manière n'endommage pas l'objet dans lequel elle a été piégée. L'âme elle-même doit avoir une valeur au moins égale au coût en po de la composante matérielle remplacée (tout excédent de valeur en po est perdu).
 
-Une âme utilisée comme composant matériel est endommagée mais pas détruite. Une fois utilisée, une telle âme n'est plus piégée et ne peut plus être utilisée comme composant matériel. Une créature dont l'âme a été utilisée comme composant matériel ne peut pas être ramenée à la vie avec ''[[Rappel à la vie]]''. ''[[Réincarnation]]'' , ''[[Résurrection]]'' et ''[[Résurrection suprême]]'' peuvent ramener une telle créature à la vie si le lanceur de sorts réussit un test de niveau de lanceur de sorts DD 20. ''[[Miracle]]'' et ''[[souhait]]'' peuvent ramener la créature à la vie sans nécessiter de test de [[NLS|niveau de lanceur de sorts]]. L'utilisation de la magie des âmes est un acte maléfique.
+Une âme utilisée comme composante matérielle est endommagée mais pas détruite. Une fois utilisée, une telle âme n'est plus piégée et ne peut plus être utilisée comme composante matérielle. Une créature dont l'âme a été utilisée comme composante matérielle ne peut pas être ramenée à la vie avec ''[[rappel à la vie]]''. ''[[Réincarnation]]'', ''[[résurrection]]'' et ''[[résurrection suprême]]'' peuvent ramener une telle créature à la vie si le lanceur de sorts réussit un test de [[NLS|niveau de lanceur de sorts]] de DD 20. ''[[Miracle]]'' et ''[[souhait]]'' peuvent ramener la créature à la vie sans nécessiter de test de niveau de lanceur de sorts. L'utilisation de la magie des âmes est un acte maléfique.
 
-(((Soul-Powered Magic
+===La valeur des âmes===
+Les âmes piégées sont l'une des monnaies fondamentales d'Abaddon, des Abysses et de l'Enfer. Trois facteurs clés influencent la valeur d'une âme dans le commerce des âmes : la force vitale de l'âme (qui est directement liée au [[FP]] de la créature sur laquelle l'âme a été prélevée), l'âge de l'âme (Si l'âme à été réincarné un grand nombre de fois, ce qui est directement lié à la sapience de la créature sur laquelle l'âme a été prélevée), et la saveur de l'âme (qui est déterminée par des facteurs tels que l'alignement, la personnalité et la religion de la créature sur laquelle l'âme a été prélevée). Bien entendu, il convient de noter que si le commerce des âmes peut s'avérer lucratif, cette pratique est indéniablement maléfique et constitue un affront à l'ordre naturel. Elle est donc considérée comme un acte maléfique, à moins que le commerce des âmes n'ait un but altruiste (par exemple, briser ces prisons achetées et libérer les âmes qui y sont enfermées).
 
-You can use captured souls as material components.
+'''Force vitale.''' La force vitale d'une âme détermine sa valeur de base en po. Celle-ci est égale au [[FP]] de la créature sur laquelle l'âme a été prélevée × 1 000. Ainsi, la valeur de base de l'âme d'une créature FP 1 est de 1 000 po, tandis que la valeur de base de l'âme d'une créature FP 20 est de 20 000 po.
 
-Prerequisites: Any evil alignment, caster level 5th.
+'''Âge.''' L'âme d'une créature qui, de son vivant, avait une valeur d'[[Intelligence]], de [[Sagesse]] ou de [[Charisme]] de 2 ou moins (y compris l'absence de valeur dans l'une de ces catégories, et quel que soit le niveau des autres valeurs de caractéristique) est moins raffinée et plus jeune, et vaut donc la moitié de sa valeur de base. Ainsi, l'âme d'un [[type Animal|animal]] de [[FP]] 1 avec une Intelligence de 1 vaut 500 po, tandis que l'âme d'une [[type Vermine|vermine]] FP 20 dénuée d'intelligence vaudrait 10 000 po.
 
-Benefit: When casting a spell would require an expensive material component, you can substitute a captured soul in its place. The soul can be captured in any way (the spells create soul gem, soul trap, and trap the soul are the most common methods), but you must be able to touch the soul or the object in which it is trapped (usually a crystal or gem) to use it as a material component. Using a soul in this way does not harm the object in which it was trapped. The soul itself must be at least equal in value to the gp cost of the material component you are replacing (any excess gp value is lost).
-
-A soul used as a material component is damaged but not destroyed. Once used, such a soul is no longer trapped and cannot be used as a material component again. A creature whose soul has been used as a material component cannot be restored to life via raise dead. Reincarnate, resurrection, and true resurrection can restore such a creature to life if the caster succeeds at a DC 20 caster level check. Miracle and wish can restore the creature to life without requiring a caster level check. Using Soul-Powered Magic is an evil act.)))
+'''Saveur.''' En règle générale, la saveur d'une âme n'a pas d'impact direct sur sa valeur en po pour fonctionner en tant que [[composantes|composante matérielle]] ou de matériau pour la [[Création dobjets magiques|création d'objets magiques]], mais dans certaines circonstances soumises à l'appréciation du [[MJ]], la saveur de l'âme peut diviser par deux ou multiplier par deux sa valeur finale. Par exemple, l'âme d'un [[paladin]] peut avoir une valeur double de sa valeur normale pour un [[sous-type daémon|daémon]] qui trouve que les âmes Loyales Bonnes particulièrement délicieuses, tandis que l'âme d'un dévot adorateur de la déesse des étoiles peut avoir une valeur deux fois moindre lorsqu'elle est utilisée pour créer un objet magique conçu pour être particulièrement mortel lorsqu'il est utilisé contre des créatures Chaotiques Bonnes, car une telle âme résisterait par nature à une telle utilisation.

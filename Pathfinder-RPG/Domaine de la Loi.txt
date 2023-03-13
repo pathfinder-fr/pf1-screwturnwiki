@@ -1,10 +1,14 @@
 ---
 Name: Pathfinder-RPG.Domaine de la Loi
 Title: Domaine de la Loi
-LastModified: 2021-03-28 18:15
+LastModified: 2023-03-10 00:23
 Categories:
   - 'Classe'
   - 'Domaine'
+  - 'Src Book of the Damned'
+  - 'Src Manuel des joueurs'
+  - 'Src Manuel des joueurs - Règles avancées'
+  - 'Src Manuel des races'
 ---
 {s:MenuDomaines}
 ===Pouvoirs accordés===
@@ -60,16 +64,14 @@ Au lieu du domaine, un personnage peut choisir d'adopter un des [[sous-domaines]
 
 <table class="page espace-col troiscol"><tr style="vertical-align: top"><td>
 <div class="presentation arrondi">
-{s:racial|Gobelin (race)|gobelins|Illustrations/PNJ/Gobelin.jpg}{s:MR}
+{s:racial|Gobelin (race)|gobelins|Illustrations/PNJ/Gobelin.jpg}{s:MR}{s:BotD}
 ===Sous-domaine de l'Esclavage===
-'''Joug du maître (Sur).''' ''(remplace bâton de la Loi)'' Au niveau 8, le personnage peut tenter d'imposer son joug à une créature dans un rayon de 9 mètres (6 {s:c}) en déclarant la cible comme sa propriété. La cible peut résister à l'effet par un jet de [[Volonté]] (DD 10 + 1/2 niveau de [[prêtre]] + modificateur de [[Sagesse]]). En cas d'échec, la cible subit l'effet d'une [[domination]] pour un nombre de tours égal à la moitié du niveau du [[prêtre]], si ce n'est qu'elle peut ignorer l'effet pour un tour en subissant deux points de dégâts de [[Constitution]] et en étant [[chancelant|chancelante]] pour un tour. Il peut utiliser ce pouvoir une fois par jour au niveau 8, et une fois supplémentaires à tous les quatre niveaux après celui-ci.
+'''Joug du maître (Sur).''' ''(remplace bâton de la Loi)'' Au niveau 8, le personnage peut tenter d'imposer son joug à une créature dans un rayon de 9 mètres (6 {s:c}) en déclarant la cible comme sa propriété. La cible peut résister à l'effet en réussissant un jet de [[Volonté]] (DD 10 + 1/2 niveau de prêtre du personnage + son modificateur de [[Sagesse]]). En cas d'échec, la cible subit l'effet d'une ''[[domination universelle]]'' pendant un nombre de rounds égal à la moitié du niveau de classe du personnage. La cible peut décider d'ignorer les ordres prononcés par le personnage, subissant 2 points d'[[Affaiblissement temporaire (capacité)|affaiblissement temporaire]] de [[Constitution]] et devenant [[chancelant|chancelante]] pendant 1 round. Le personnage peut utiliser ce pouvoir une fois par jour au niveau 8, et une fois de plus à tous les 4 niveaux après celui-ci.
 </div>
 </td><td>
 <div class="presentation arrondi">
 === Sous-domaine de la Tyrannie===
-{s:cs}<div class="description">'''Source :''' Book of the Damned (BD).</div>
-
-'''Frappe du tyran (Sur).''' ''(remplace bâton de la Loi)'' Au niveau 8, après avoir porté une attaque, par une [[action immédiate]], le personnage peut substituer les dommages de l'attaque par un effet d'[[injonction suprême]], avec un [[NLS]] égal à son niveau de [[prêtre]]. Il peut utiliser ce pouvoir une fois par jour au niveau 8, et une fois supplémentaire à tous les quatre niveaux après celui-ci.
+{s:cs}{s:BotD}'''Frappe du tyran (Sur).''' ''(remplace bâton de la Loi)'' Au niveau 8, par une [[action immédiate]] lorsqu'il touche une créature avec une attaque au corps à corps, le personnage peut substituer les dégâts de l'attaque (mais pas ses autres effets) par un effet d’''[[injonction suprême]]'', avec un [[NLS]] égal à son niveau de classe. Il peut utiliser ce pouvoir une fois par jour au niveau 8, et une fois de plus à tous les 4 niveaux après celui-ci.
 </div>
 </td></tr></table>
 
