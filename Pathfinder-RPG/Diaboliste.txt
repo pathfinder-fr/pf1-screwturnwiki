@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Diaboliste
 Title: Diaboliste
-LastModified: 2023-03-08 15:36
+LastModified: 2023-03-16 17:38
 Categories:
   - 'Classe de prestige'
   - 'Src Book of the Damned'
@@ -101,11 +101,15 @@ Un diaboliste gagne un bonus de +2 à tous ses tests de [[Charisme]] lorsqu'il i
 
 {s:reference|OBEDIENCE}
 ====Obédience (Ext)====
-Pour pouvoir conserver ses aptitudes de diaboliste (y compris l'ensemble des capacités de lancement de sorts améliorées grâce à cette classe de prestige), le personnage doit réaliser une obédience quotidienne en l'honneur de son patron. Cette cérémonie fait partie intégrante de la méthode utilisée par le diaboliste pour récupérer ses sorts (comme méditer, prier un archidiable, ou étudier un grimoire). Lorsqu'un personnage prend son premier niveau de diaboliste, il doit décider s'il est un évangéliste, un exalté, ou une sentinelle de son patron diabolique. Ce choix détermine la catégorie des faveurs qu'ils obtient quand il prend des niveaux, et une fois fait, il ne peut pas être changé.
+Pour pouvoir conserver ses aptitudes de diaboliste (y compris l'ensemble des capacités de lancement de sorts améliorées grâce à cette classe de prestige), le personnage doit réaliser une obédience quotidienne en l'honneur de son protecteur. Cette cérémonie fait partie intégrante de la méthode utilisée par le diaboliste pour récupérer ses sorts (comme méditer, prier un archidiable, ou étudier un grimoire). Lorsqu'un personnage prend son premier niveau de diaboliste, il doit décider s'il est un évangéliste, un exalté, ou une sentinelle de son patron diabolique. Ce choix détermine la catégorie des faveurs qu'ils obtient quand il prend des niveaux, et une fois fait, il ne peut pas être changé.
 
-{s:reference|CANALISATIONFEUINFERNAL}
+<div style="float: right; margin-left: 10px; margin-right: -10px; max-width: 320px;" class="presentation recentre">{s:BotD}
+=====Le feu infernal=====
+Le feu infernal prend de nombreuses formes, la plupart empestant le soufre et émettant un crépitement d'un écarlate furieux ou d'un vert nauséabond. Comme il n'a pas besoin de combustible, toute terre, air ou eau peut brûler sous l'effet de cette flamme mortelle. Les dégâts infligés par le feu infernal sont connus sous le nom de dégâts de feu infernal ; ils sont traités comme du feu normal mais infligent une moitié de dégâts de feu et l'autre moitié de dégâts dus à l'énergie impie inhérente aux Enfers. Les créatures d'alignement Mauvais et les créatures de sous-type [[sous-type Mal|Mal]] ne subissent aucun dégât de l'énergie impie, mais les créatures d'alignement Bon et celles de sous-type [[sous-type Bien|Bien]] subissent le double des dégâts normaux. Les créatures sous l'effet de sorts tels que ''[[protection contre le Mal]]'' ne sont pas affectées par cette énergie impie, bien qu'elles puissent toujours subir des dégâts de feu.
+
+</div>{s:reference|CANALISATIONFEUINFERNAL}
 ====Canalisation de feu infernal (Sur)====
-Au niveau 2, un diaboliste peut modifier les sorts qui infligent des dégâts d'énergie destructive pour qu'ils infligent plutôt des dégâts de [[feu infernal]]. Il peut le faire par une [[action libre]] un nombre de fois par jour égal à son modificateur de [[Charisme]] (minimum 1). Les sorts modifiés de cette façon gagnent les [[registre|registres]] Loi et Mal. 
+Au niveau 2, un diaboliste peut modifier les sorts qui infligent des dégâts d'énergie destructive pour qu'ils infligent plutôt des dégâts de feu infernal. Il peut le faire par une [[action libre]] un nombre de fois par jour égal à son modificateur de [[Charisme]] (minimum 1). Les sorts modifiés de cette façon gagnent les [[registre|registres]] Loi et Mal. 
 
 {s:reference|MARCHEINFERNAL}
 ====Marché infernal (Ext)====
@@ -117,7 +121,7 @@ Au niveau 3, un diaboliste gagne le don [[Amélioration des créatures convoqué
 
 {s:reference|FAVEURDIABOLIQUE}
 ====Faveur diabolique (Ext, Mag ou Sur)====
-Quand un diaboliste prend des niveaux, il obtient des faveurs de son protecteur diabolique. La nature de ces faveurs peut varier en fonction du protecteur choisi. Chaque protecteur diabolique offre trois faveurs, chacune plus puissante que la précédente. Au niveau 3, le diaboliste obtient la première faveur. Au niveau 6, il obtient la deuxième faveur, et au niveau 9 la troisième et dernière faveur. (Voir [[Obédience fiélonne]] et la description de l'archidiable, du duc infernal ou de la malebranche pour plus d'informations sur ces faveurs). Lorsqu'une faveur diabolique permet d'utiliser un pouvoir magique, le [[NLS|niveau de lanceur de sorts]] du diaboliste pour ce pouvoir est égal à son niveau de personnage total. Cette capacité permet à un diaboliste d'obtenir ces faveurs plus tôt qu'à l'accoutumée ; elle ne permet cependant pas d'en utiliser plus lorsque le personnage atteint le nombre de DV normalement requis pour les obtenir.
+Quand un diaboliste prend des niveaux, il obtient des faveurs de son protecteur diabolique. La nature de ces faveurs varie en fonction du protecteur et de la catégorie des faveurs choisis. Chaque protecteur diabolique offre trois faveurs, chacune plus puissante que la précédente. Au niveau 3, le diaboliste obtient la première faveur. Au niveau 6, il obtient la deuxième faveur, et au niveau 9 la troisième et dernière faveur. (Voir [[Obédience fiélonne]] et la description de l'archidiable, du duc infernal ou de la malebranche pour plus d'informations sur ces faveurs). Lorsqu'une faveur diabolique permet d'utiliser un pouvoir magique, le [[NLS|niveau de lanceur de sorts]] du diaboliste pour ce pouvoir est égal à son niveau de personnage total. Cette capacité permet à un diaboliste d'obtenir ces faveurs plus tôt qu'à l'accoutumée ; elle ne permet cependant pas d'en utiliser plus lorsque le personnage atteint le nombre de DV normalement requis pour les obtenir.
 
 {s:reference|HERESIE}
 ====Hérésie (Ext)====
@@ -137,4 +141,4 @@ Au niveau 8, un diaboliste peut lancer ''[[rayon de feu infernal]]'' deux fois p
 
 {s:reference|MAITREINVOCATEUR}
 ====Maître invocateur (Ext)====
-Au niveau 10, lorsqu'un diaboliste appelle un diable dont il connait le nom, il peut lancer le sort d'[[branche appel|appel]] par une [[action simple]] et négocier avec lui par une [[action de mouvement]]. Il n'ajoute que la moitié de son modificateur de [[Bluff]], [[Diplomatie]] ou [[Intimidation]] à ses tests de [[Charisme]] pour négocier de cette façon (le cas échéant). 
+Au niveau 10, lorsqu'un diaboliste appelle un diable dont il connait le nom, il peut lancer le sort d'[[branche appel|appel]] par une [[action simple]] et négocier avec lui par une [[action de mouvement]]. Il ajoute la moitié de son modificateur de [[Bluff]], [[Diplomatie]] ou [[Intimidation]] à ses tests de [[Charisme]] pour négocier de cette façon (le cas échéant). 
