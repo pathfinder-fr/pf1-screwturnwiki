@@ -1,9 +1,9 @@
 <style>
-    td.Oui {
-        background-color: #ffc;
-    }
     td.Non {
         background-color: #f3efe2;
+    }
+    td.Oui {
+        background-color: #ffc;
     }
     td.Oui, td.Non {
         text-align:center; padding: 1px; border: 1px solid #c7b9b3;
@@ -14,16 +14,40 @@
     table.descdivinité tr:first-child {
         padding: 0 4px 0 0;
     }
-</style><div style="float: right; background-color: #fff; padding: 0 0 6px 12px; width: 260px">
+</style><script>
+$(function () {
+  let image = "?3?";
+  if(image == "" || image == " ") { $('#symbole').html("<i>Aucun symbole connu</i>"); }
+
+  let align = "?5?";
+  if(align == "Loyal Bon") { highlight("LB"); highlight("NB"); highlight("LN"); };
+  if(align == "Loyal Neutre") { highlight("LB"); highlight("LN"); highlight("N"); highlight("LM"); };
+  if(align == "Loyal Mauvais") { highlight("LN"); highlight("LM"); highlight("NM"); };
+  if(align == "Neutre Bon") { highlight("LB"); highlight("NB"); highlight("CB"); highlight("N"); };
+  if(align == "Neutre") { highlight("NB"); highlight("LN"); highlight("N"); highlight("CN"); highlight("NM"); };
+  if(align == "Neutre Mauvais") { highlight("N"); highlight("LM"); highlight("NM"); highlight("CM"); };
+  if(align == "Chaotique Bon") { highlight("NB"); highlight("CB"); highlight("CN"); };
+  if(align == "Chaotique Neutre") { highlight("CB"); highlight("N"); highlight("CN"); highlight("CM"); };
+  if(align == "Chaotique Mauvais") { highlight("CN"); highlight("NM"); highlight("CM"); };
+});
+
+function highlight(value) {
+  let abbr = value;
+  $('#' + abbr).removeClass("Non").addClass("Oui");
+};
+</script><div style="float: right; background-color: #fff; padding: 0 0 6px 12px; width: 260px; max-width:260px">
 <div style="padding: 4px; border: 1px solid #4b3124">
 <table style="background-color: #f3efe2; width: 100%;">
 <tr><td style="background-color: #4b3124; color: #ffffff; text-align: center; font-size: 12pt; padding: 2pt; width: 100%">?2?</td></tr>
-<tr><td style="text-align: center"><IMG WIDTH="85%" SRC="/wiki/public/upload/?3?" STYLE="padding: 5px 0 5px 0;" /></td></tr>
+<tr><td id="symbole" style="text-align: center"><IMG WIDTH="85%" SRC="/wiki/public/upload/?3?" STYLE="padding: 5px 0 5px 0;" /></td></tr>
 <tr><td style="background-color: #4b3124; padding: 1px"></td></tr>
 <tr><td style="padding: 2px 4px 2px 4px">
 <table class="descdivinité" STYLE="text-align: left; font-size: 90%; width: 100%">
-    <tr><td><b>Alignement</b></td>
+    <tr><td><b>Panthéon</b></td>
         <td>?4?</td>
+    </tr>
+    <tr><td><b>Alignement</b></td>
+        <td>?5?</td>
     </tr>
     <tr><td><b>Alignements de prêtre</b></td>
         <td>
@@ -31,19 +55,19 @@
                 <div style="border: 1px solid #4b3124">
                     <table style="width: 100%;">
                         <tr>
-                            <td class="?5?">[[LB]]</td>
-                            <td class="?6?">[[NB]]</td>
-                            <td class="?7?">[[CB]]</td>
+                            <td id="LB" class="Non">[[LB]]</td>
+                            <td id="NB" class="Non">[[NB]]</td>
+                            <td id="CB" class="Non">[[CB]]</td>
                         <tr>
                         <tr>
-                            <td class="?8?">[[LN]]</td>
-                            <td class="?9?">[[N]]</td>
-                            <td class="?10?">[[CN]]</td>
+                            <td id="LN" class="Non">[[LN]]</td>
+                            <td id="N" class="Non">[[N]]</td>
+                            <td id="CN" class="Non">[[CN]]</td>
                         <tr>
                         <tr>
-                            <td class="?11?">[[LM]]</td>
-                            <td class="?12?">[[NM]]</td>
-                            <td class="?13?">[[CM]]</td>
+                            <td id="LM" class="Non">[[LM]]</td>
+                            <td id="NM" class="Non">[[NM]]</td>
+                            <td id="CM" class="Non">[[CM]]</td>
                         </tr>
                     </table>
                 </div>
@@ -51,25 +75,25 @@
         </td>
     </tr>
     <tr><td><b>Thèmes</b></td>
-        <td>?14?</td>
+        <td>?6?</td>
     </tr>
     <tr><td><b>Suivants</b></td>
-        <td>?15?</td>
+        <td>?7?</td>
     </tr>
     <tr><td><b>Animal sacré</b></td>
-        <td>?16?</td>
+        <td>?8?</td>
     </tr>
     <tr><td><b>Arme de prédilection</b></td>
-        <td>?17?</td>
+        <td>?9?</td>
     </tr>
     <tr><td><b>Domaines</b></td>
-        <td>?18?</td>
+        <td>?10?</td>
     </tr>
     <tr><td><b>Sous-domaines</b></td>
-        <td>?19?</td>
+        <td>?11?</td>
     </tr>
     <tr><td><b>Inquisitions</b></td>
-        <td>?20?</td>
+        <td>?12?</td>
     </tr>
 </table></td></tr>
 <tr style="vertical-align: top"><td style="background-color: #4b3124; padding: 1px"></td></tr>

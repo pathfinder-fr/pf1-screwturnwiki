@@ -1,14 +1,16 @@
 ---
 Name: Pathfinder-RPG.Entraînements avancés
 Title: Les entraînements avancés
-LastModified: 2022-06-22 19:52
+LastModified: 2023-03-26 16:52
 Categories:
+  - 'Src Armor Masters Handbook'
   - 'Src Weapon Masters Handbook'
 ---
-{s:MenuClasses}{s:cs}{s:WMH}''Les guerriers les plus qualifiés et expérimentés peuvent bénéficier d'un entraînement plus poussé aux armes et armures qu'ils ont appris à manier qui leur donne des avantages particuliers à la place des améliorations de capacités traditionnellement apprises. Les options de formation avancée en matière d'armure ne fonctionnent que lorsque le guerrier utilise l'équipement correspondant, sauf indication contraire. Un guerrier avec un archétype qui remplace l'entraînement aux armes ou armures ne peut pas sélectionner les options d'entraînement avancé correspondantes. Certaines options d'entraînement avancé aux armes et aux armures ne peuvent être sélectionnées que si le guerrier remplit les conditions préalables de l'option.
+{s:MenuClasses}{s:cs}{s:WMH}{s:AMH}''Les guerriers les plus qualifiés et expérimentés peuvent bénéficier d'un entraînement plus poussé aux armes et armures qu'ils ont appris à manier qui leur donne des avantages particuliers à la place des améliorations de capacités traditionnellement apprises. Les options de formation avancée en matière d'armure ne fonctionnent que lorsque le guerrier utilise l'équipement correspondant, sauf indication contraire. Un guerrier avec un archétype qui remplace l'entraînement aux armes ou armures ne peut pas sélectionner les options d'entraînement avancé correspondantes. Certaines options d'entraînement avancé aux armes et aux armures ne peuvent être sélectionnées que si le guerrier remplit les conditions préalables de l'option.
 
 La partie qui suit présente les différentes capacités que les guerriers peuvent apprendre à développer au cours de ces entraînement.''
 
+{s:Reference|ARMES}
 ===Entraînement aux armes avancé===
 À partir du niveau 9, au lieu de sélectionner un [[groupe darmes|groupe d’armes]] supplémentaire, un guerrier peut choisir une option d'entraînement avancé pour un groupe d’armes qu'il a précédemment sélectionné avec la capacité de classe d'[[guerrier#ENTRAINEMENTAUXARMES|entraînement aux armes]]. Il peut aussi obtenir ces options d'entraînement avancé grâce au don [[Entraînement aux armes avancé]].
 
@@ -56,7 +58,7 @@ Tant qu'il manie une arme du groupe d'armes associé ou qu'il est capable de dé
 
 </td><td width="2%">
 </td><td width="49%">
-{s:WMH}{s:Reference|nspirer confiance}
+{s:WMH}{s:Reference|Inspirer confiance}
 ====Inspirer confiance (Ext)====
 Un nombre de fois par jour égal à son bonus d'[[Guerrier#ENTRAINEMENTAUXARMES|entraînement aux armes]] le plus élevé et par une [[action rapide]], le guerrier peut permettre à un allié dans un rayon de 9m de tenter un nouveau [[jds|jet de sauvegarde]] contre un effet de peur l'affectant qui le fait se replier ou le rend [[effrayé]], [[paniqué]] ou [[secoué]]. Si l'allié réussit son jet de sauvegarde, l'effet s'arrête. Un guerrier peut utiliser cette option même s'il ne manie pas une arme du groupe d'armes associé.
 
@@ -94,8 +96,120 @@ Tous les alliés du guerrier sont traités comme s'ils avaient les mêmes dons d
 </td>
 </tr></table>
 
-
+{s:Reference|ARMURES}
 ===Entraînement aux armures avancé===
-Au lieu de réduire le malus d'armure aux tests de compétence et d'augmenter le bonus de Dextérité maximal, un guerrier peut choisir une option d'entraînement avancé.
+A partir du niveau 7, au lieu de réduire le malus d'armure aux tests de compétence et d'augmenter le bonus de Dextérité maximal octroyé par son [[guerrier#ENTRAINEMENTAUXARMURES|entraînement aux armures]], un guerrier peut choisir une option d'entraînement avancé aux armures. S’il choisit une option, le guerrier gagne quand même la capacité de se déplacer à sa vitesse normale en armure intermédiaire au niveau 3, et en armure lourde au niveau 7. Il peut aussi obtenir ces options d'entraînement avancé grâce au don [[Entraînement aux armures avancé]].
 
-''À venir (Armor Master's Handbook)''
+Le bonus d'entraînement aux armures du guerrier fonctionne uniquement si le guerrier porte une armure ou un bouclier adéquat, sauf s’il est indiqué le contraire. Un guerrier avec un archétype qui n’a pas la capacité de classe [[guerrier#ENTRAINEMENTAUXARMURES|entraînement aux armures]] ne peut choisir une option d’entraînement aux armures avancé.
+
+(((Beginning at 7th level, instead of increasing the benefits provided by armor training (reducing his armor’s check penalty by 1 and increasing its maximum Dexterity bonus by 1), a fighter can choose an advanced armor training option. If the fighter does so, he still gains the ability to move at his normal speed while wearing medium armor at 3rd level, and while wearing heavy armor at 7th level.
+
+Advanced armor training options function only when the fighter is wearing appropriate armor or using a shield, unless otherwise noted. A fighter with an archetype that replaces armor training cannot select advanced armor training options.)))
+
+<table width="100%"><tr>
+<td width="49%">
+{s:AMH}{s:Reference|Confiance en armure}
+====Confiance en armure (Ext)====
+Tant que le guerrier porte une armure, il gagne un bonus aux tests d’[[Intimidation]] basé sur le type d’armure qu’il porte : +1 pour les armures légères, +2 pour les armures intermédiaires, ou +3 pour les armures lourdes. Ce bonus augmente de 1 au niveau 7 et tous les quatre niveaux suivants, jusqu’à un maximum de +4 au niveau 19. De plus, le guerrier ajoute la moitié de son bonus de confiance en armure aux DD des tests d’[[Intimidation]] pour le démoraliser.
+
+(((Armored Confidence (Ex) : While wearing armor, the fighter gains a bonus on Intimidate checks based upon the type of armor he is wearing: +1 for light armor, +2 for medium armor, or +3 for heavy armor. This bonus increases by 1 at 7th level and every 4 fighter levels thereafter, to a maximum of +4 at 19th level. In addition, the fighter adds half his armored confidence bonus to the DC of Intimidate checks to demoralize him.)))
+
+{s:AMH}{s:Reference|Course en armure}
+====Course en armure (Ext)====
+Le guerrier obtient [[Course]] comme don supplémentaire. Si le guerrier est formé au port des armure lourde, il traite les armures lourdes comme étant d’une catégorie plus légère pour déterminer sa vitesse de course en armure.
+
+(((Armored Sprint (Ex) : The fighter gains Run as a bonus feat. If the fighter is proficient with heavy armor, he treats heavy armor as if it were one category lighter for the purpose of determining how fast he can move while running in armor.)))
+
+{s:AMH}{s:Reference|Déviation critique}
+====Déviation critique (Ext)====
+Tant que le guerrier porte une armure ou un bouclier, il gagne un bonus de +2 à la [[CA]] contre les [[jet dattaque|jets d’attaque]] destinés à confirmer un [[coup critique]]. Ce bonus augmente de 1 au niveau 7 et tous les 4 niveaux de guerrier par la suite, jusqu’à un maximum de +6 au niveau 19.
+
+(((Critical Deflection (Ex) : While wearing armor or using a shield, the fighter gains a +2 bonus to his AC against attack rolls made to confirm a critical hit. This bonus increases by 1 at 7th level and every 4 fighter levels thereafter, to a maximum of +6 at 19th level.)))
+
+{s:AMH}{s:Reference|Enfilage rapide}
+====Enfilage rapide (Ext)====
+Quand le guerrier [[Caractéristiques des armures#ENFILEROTER|retire, enfile normalement ou dans la hâte son armure]], le temps nécessaire est réduit, voir le tableau ci-dessous. D’autres personnages peuvent toujours aider le guerrier à enfiler son armure.
+
+{| CLASS="tablo"
+|- CLASS="titre"
+| Armure || Enfiler || Enfiler à la hâte || Retirer
+|- CLASS="premier"
+| Armure légère || 5 rounds || 1 round || 5 rounds
+|- CLASS="alt"
+| Armure intermédiaire || 1 minute || 5 rounds || 1 minute
+|-
+| Armure lourde || 2 minutes || 1 minute || 1d4 minutes
+|}
+
+De plus, quand il enfile à la hâte une armure, le guerrier peut par une action complexe, tenter un test de Force ou de Dextérité afin d’enfiler son armure à la hâte sans malus (DD = 10 + le bonus d’armure de base). S’il réussit le test, le guerrier considère qu’il a enfiler son armure normalement.
+Cette option permet aussi au guerrier de prendre autant de temps à retirer son amure que pour l’enfiler à la hâte. Il peut même retirer certaines parties de son amure afin d’échapper à des luttes et autres effets contraignant. Quand le guerrier réalise une [[manœuvre offensive|manœuvre de combat]], un test d'[[Évasion]] ou un test de [[Force]] afin de s’extirper d’un effet qui le restreint dans ses mouvements ou ses actions, il peut réduire le bonus de l’armure qu’il porte jusqu’à la moitier de son bonus d’armure de base. Cela lui octroie un bonus sur un test égale à la valeur de réduction à l’armure. Cette capacité peut etre utilisé plusieurs fois mais le bonus de l’armure ne peut pas etre inférieur à la moitier du bonus de base de l’armure, et la réduction à l’armure dure jusqu’à ce que le guerrier récupère et enfile les parties détachées de son armure.
+
+(((Quick Donning (Ex) : The fighter can don armor in a hurry without reducing its effectiveness, and remove it quickly when it becomes a hindrance. When the fighter dons or removes his armor or dons it hastily, the amount of time needed to do so is reduced, as noted on the table below. Other characters can still help the fighter don his armor as normal.
+
+{| CLASS="tablo"
+|- CLASS="titre"
+| Armor Type|| Don	|| Don Hastily || Remove
+|- CLASS="premier"
+| Light armor || 5 rounds || 1 round || 5 rounds
+|- CLASS="alt"
+| Medium armor || 1 minute || 5 rounds || 1 minute
+|-
+| Heavy armor || 2 minutes || 1 minute || 1d4 minutes
+|}
+
+Additionally, when wearing hastily donned armor, the fighter can attempt a Strength or Dexterity check as a full-round action to remove the penalties associated with wearing hastily donned armor (DC = 10 + his armor’s unmodified armor bonus). If he succeeds at the check, he is treated as having properly donned his armor rather than having hastily donned it.
+
+The fighter can also remove his armor in the same amount of time that it takes him to don his armor hastily. He can even remove sections of armor to escape grapples and similar grasping hindrances. Whenever the fighter attempts a combat maneuver check, an Escape Artist check, or a Strength check to escape from an effect that reduces or restricts his ability to move or act, he can reduce the armor bonus of any armor that he is wearing by up to half his armor’s base armor bonus. If he does so, he gains a bonus on his check equal to the amount by which he reduced his armor’s armor bonus. Multiple uses of this ability cannot reduce the armor’s armor bonus below half its base armor bonus, and the reduction to the armor’s armor bonus lasts until the fighter recovers and dons the removed pieces of armor.)))
+
+{s:AMH}{s:Reference|Entraînement adaptable}
+====Entraînement adaptable (Ext)====
+Le guerrier peut utiliser son [[BBA|Bonus de base à l’attaque]] au lieu de son rang dans l’une des compétences de son choix parmi : [[Acrobaties]], [[Connaissances]] (ingénierie), [[Déguisement]], [[Équitation]], [[Escalade]], [[Évasion]], [[Intimidation]], [[Profession]] (soldat). Le guerrier n’a pas besoin de porter une armure ou un bouclier pour utiliser cette option. Quand le guerrier utilise entraînement adaptable, il substitue son rang dans la compétence choisie par son [[BBA|Bonus de base à l’attaque]] total (cela inclus les bonus de base à l’attaque obtenu par d’autres classes), cependant il ajoute toujours son modificateur de caractéristique associé à la compétence et tous autres bonus ou malus qui s’appliquerai normalement. Une fois une compétence choisie, le guerrier ne peut plus la changer, de plus, il peut récupérer tous les rangs investis dans cette compétence sans coût monétaire ou temporelle supplémentaire. Toutes les compétences choisies dans le cadre de cette option deviennent des compétences de classe. Un guerrier peut choisir cette capacité jusqu’à 4 fois.
+
+(((Adaptable Training (Ex) : The fighter can use his base attack bonus in place of his ranks in one skill of his choice from the following list: Acrobatics, Climb, Disguise, Escape Artist, Intimidate, Knowledge (engineering), Profession (soldier), Ride, or Swim. The fighter need not be wearing armor or using a shield to use this option. When using adaptable training, the fighter substitutes his total base attack bonus (including his base attack bonus gained through levels in other classes) for his ranks in this skill, but adds the skill’s usual ability score modifier and any other bonuses or penalties that would modify that skill. Once a skill has been selected, it cannot be changed and the fighter can immediately retrain all of his ranks in the selected skill at no additional cost in money or time. In addition, the fighter adds all skills chosen with this option to his list of class skills. A fighter can choose this option up to four times.)))
+
+{s:AMH}{s:Reference|Inébranlable}
+====Inébranlable (Ext)====
+Le guerrier choisit une [[manœuvre offensive|manœuvre de combat]] (excepté la destruction). Il peut alors utiliser efficacement son armure pour se protéger de la manœuvre choisie. Tant qu’il porte une armure ou un bouclier, le guerrier gagne un bonus à son [[DMD]] contre la manœuvre choisie. Ce bonus dépend de l’armure qu’il porte, +1 pour une armure légère, +2 pour une armure intermédiaire et +3 pour une armure lourde. Ce bonus augmente de 1 au niveau 7 et tous les 4 niveaux par la suite, jusqu’à un maximum de +5 pour les armures légères, +6 pour les armures intermédiaires, et +7 pour les armures lourdes au niveau 19. Les armures en [[Matériaux spéciaux#MITHRAL|mithral]] réduisent ce bonus de 1.
+
+(((Unmoving (Ex) : Select one combat maneuver (except sunder). Whether using his armor as leverage against a grappling foe or using its weight to help him stop a bull rush, a fighter can use his armor to protect him from the chosen combat maneuver. While wearing armor or wielding a shield, the fighter gains a bonus to his CMD against the chosen combat maneuver. The bonus is +1 if he’s wearing light armor, +2 if he’s wearing medium armor, and +3 if he’s wearing heavy armor. This bonus increases by 1 at 7th level and every 4 fighter levels thereafter, to a maximum at 19th level of +5 for light armor, +6 for medium armor, and +7 for heavy armor. Mithral armor provides a bonus 1 lower than normal for armor of its type.)))
+
+</td><td width="2%">
+</td><td width="49%">
+{s:AMH}{s:Reference|Juggernaut blindé}
+====Juggernaut blindé (Ext)====
+Quand le guerrier porte une armure lourde, il gagne une [[RD]] 1/—. Au niveau 7, le guerrier gagne une [[RD]] 1/— quand il porte une armure intermédiaire, et une [[RD]] 2/— quand il porte une armure lourde. Au niveau 11, le guerrier gagne une [[RD]] 1/— quand il porte une armure légère, une [[RD]] 2/— quand il porte une armure intermédiaire, et une [[RD]] 3/— quand il porte une armure lourde. Si le guerrier est au niveau 19 et possède la capacité de classe [[Guerrier#MAITRISEDESARMURES|Maîtrise des armures]], ces valeurs de [[RD]] augmentent de 5. La [[RD]] de cette capacité se cumule avec celle d’une armure en adamantium, mais pas avec d’autres sources de réduction de dégats. Cette réduction de dégats ne s’applique pas si le guerrier est [[sans défense]], [[étourdi]], ou [[inconscient]].
+
+(((Armored Juggernaut (Ex) : When wearing heavy armor, the fighter gains DR 1/—. At 7th level, the fighter gains DR 1/— when wearing medium armor, and DR 2/— when wearing heavy armor. At 11th level, the fighter gains DR 1/— when wearing light armor, DR 2/— when wearing medium armor, and DR 3/— when wearing heavy armor. If the fighter is 19th level and has the armor mastery class feature, these DR values increase by 5. The DR from this ability stacks with that provided by adamantine armor, but not with other forms of damage reduction. This damage reduction does not apply if the fighter is helpless, stunned, or unconscious.)))
+
+{s:AMH}{s:Reference|Maître armurier}
+====Maître armurier (Ext)====
+Le guerrier peut utiliser son [[BBA|bonus de base à l’attaque]] à la place de son rang dans la compétence d’[[Artisanat]] (armures). Le guerrier n’a pas besoin de porter une armure ou un bouclier pour utiliser cette option. Le guerrier remplace son rang dans cette compétence par son [[BBA|bonus de base à l’attaque]] total (cela inclus les bonus de base à l’attaque obtenu par d’autres classes), cependant il ajoute toujours son modificateur de caractéristique associé à la compétence et tous autres bonus ou malus qui s’appliquerai normalement. De plus, le guerrier considère qu’il possède les dons [[Création darmes et armures magiques|Création d'armes et armures magiques]] et [[Maître artisan]], mais uniquement pour créer des armures magiques. Le guerrier n’a pas besoin de satisfaire aux conditions de ces dons.
+
+(((Master Armorer (Ex) : The fighter can use his base attack bonus in place of his ranks in the Craft (armor) skill. The fighter need not be wearing armor or using a shield to use this option. The fighter substitutes his total base attack bonus (including his base attack bonus gained through levels in other classes) for his ranks in this skill, but adds the skill’s usual ability score modifier and any other bonuses or penalties that would modify that skill. Additionally the fighter is treated as having the Craft Magic Arms and Armor and Master Craftsman feats, but only for the purpose of making magic armor. The fighter does not need to meet these feats’ prerequisites.)))
+
+{s:AMH}{s:Reference|Maîtrise des armures}
+
+====Maîtrise des armures====
+Le guerrier obtient un don supplémentaire de [[Maîtrise d'armures]] ou de [[Maitrîse des boucliers]]. Il doit satisfaire à toutes les conditions de ce don.
+
+(((Armored Master : The fighter gains an armor mastery feat (see pages 16–17) or a shield mastery feat (see pages 18–19) as a bonus feat. He must meet all of the feat’s prerequisites.)))
+
+{s:AMH}{s:Reference|Sacrifice d’armure}
+====Sacrifice d’armure (Ext)====
+Lorsque des dégâts devraient rendre [[inconscient]] ou provoquer la [[mort]] du guerrier ou d'un allié adjacent, le guerrier peut, par une action immédiate, diriger les dégâts sur son armure ou bouclier. La cible initiale ne subit aucun dommage, mais l’armure ou le bouclier ne bénéficie que de la moitié de sa [[Exploration#DESTRUCTIONOBJET|solidité]] normale. Le guerrier peut utiliser cette option une fois par jour, il gagne une utilisation supplémentaire au niveau 11 et tous les huit niveaux de guerrier par la suite, jusqu’à un maximum de 3 fois au niveau 19.
+
+(((Armored Sacrifice (Ex) : When damage would cause the fighter or an adjacent ally to be knocked unconscious or killed, the fighter can instead direct the damage to a suit of armor that he is wearing or a shield he is using as an immediate action. The original target takes no damage, but the armor or shield is treated as if it had only half its normal hardness. The fighter can use this option once per day, plus one additional time each day at 11th level and every 8 fighter levels thereafter, to a maximum of three times per day at 19th level.)))
+
+{s:AMH}{s:Reference|Spécialisation d’armure}
+====Spécialisation d’armure (Ext)====
+Le guerrier peut choisir une armure spécifique dont il est formé, comme la chemise de mailles ou l’armure d’écailles. Tant qu’il porte l’armure choisie, le guerrier ajoute le quart de ses niveaux de guerrier à son bonus d’armure, jusqu’à un maximum de +3 pour les armures légères, +4 pour les armures intermédiaires, ou +5 pour les armures lourdes. Cette augmentation du bonus d’armure n’augmente pas les effets des dons, capacités de classe, ou autres effets qui sont déterminés par le bonus de base à l’armure, cela inclus les autres options d’entraînement aux armures avancé. Un guerrier peut choisir cette option à plusieurs reprises, mais il s’applique à chaque fois à une armure différente.
+
+(((Armor Specialization (Ex) : The fighter selects one specific type of armor with which he is proficient, such as chain shirts or scale mail. While wearing the selected type of armor, the fighter adds one-quarter of his fighter level to the armor’s armor bonus, up to a maximum bonus of +3 for light armor, +4 for medium armor, or +5 for heavy armor. This increase to the armor bonus doesn’t increase the benefit that the fighter gains from feats, class abilities, or other effects that are determined by his armor’s base armor bonus, including other advanced armor training options. A fighter can choose this option multiple times. Each time he chooses it, he applies its benefit to a different type of armor.)))
+
+{s:AMH}{s:Reference|Tête d’acier}
+====Tête d’acier (Ext)====
+Tant que le guerrier porte une armure intermédiaire ou lourde, il peut effectuer une attaque de coup avec sa tête pendant une [[attaque à outrance]]. Cette attaque de coup est en supplément de ses attaques normales, et le jet est effectué avec le [[BBA|bonus de base à l’attaque]] -5. Un coup de tête inflige 1d3 points de dégats si le guerrier est en armure intermédiaire, ou 1d4 points de dégats s’il est en armure lourde (respectivement 1d2 et 1d3 pour les créatures de taille P), plus la moitié de son modificateur de [[Force]]. Cette attaque est considérée comme une attaque d’arme constitué du même matériau que l’armure. Le bonus d’altération de l’armure ne s’applique pas à cette attaque, mais le casque de l’armure peut etre enchanté comme une arme séparée.
+
+(((Steel Headbutt (Ex) : While wearing medium or heavy armor, a fighter can deliver a headbutt with his helm as part of a full attack action. This headbutt is in addition to his normal attacks, and is made using the fighter’s base attack bonus – 5. A helmet headbutt deals 1d3 points of damage if the fighter is wearing medium armor, or 1d4 points of damage if he is wearing heavy armor (1d2 and 1d3, respectively, for Small creatures), plus an amount of damage equal to 1/2 the fighter’s Strength modifier. Treat this attack as a weapon attack made using the same special material (if any) as the armor. The armor’s enhancement bonus does not modify the headbutt attack, but the helm can be enchanted as a separate weapon.)))
+</td>
+</tr></table>
