@@ -1,0 +1,117 @@
+---
+Name: Pathfinder2.FVTT boutons gabarit
+Title: Boutons inline pour les gabarits sur Foundry VTT
+LastModified: 2023-04-09 22:21
+---
+• [[MainPage|Retour à la page principale pour Pathfinder 2]] <br/>
+• Autres types de boutons inline : [[FVTT boutons jets|Boutons de jets de dés]] - [[FVTT boutons tests|Boutons de tests]] - [[FVTT boutons gabarit|Boutons de gabarit]]
+
+<nowiki><style>
+#content #PageContentDiv code {
+  background-color: #e7dfc6;padding: 2px 5px 4px 5px;border-radius:6px;font-family:Consolas;font-weight: bold;
+}
+#content #PageContentDiv .example {
+  margin-left: auto; margin-right: auto; width: 98%;margin-top: 4px;
+}
+#content #PageContentDiv .example tr {
+  background-color: #f3efe2;
+}
+#content #PageContentDiv .example td {
+  padding: 8px;
+  border: 2px solid #e7dfc6;
+  text-align: left;
+}
+#content #PageContentDiv .example tr td:nth-of-type(2) {
+  width: 280px;
+  text-align: center;
+}
+#content #PageContentDiv .example tr td:nth-of-type(2) img {
+  width: 280px;
+}
+</style></nowiki>
+{toc}
+
+===Syntaxe de base===
+Pour créer un bouton de gabarit, il faut utiliser le code {{<nowiki>@Template</nowiki>}}, préciser le type de zone et sa taille (en pieds). Les types de zone reconnues sont {{emanation}}, {{burst}}, {{cone}} et {{line}}.
+
+En cliquant le texte principal du bouton, le curseur prend la forme du gabarit en question, permettant de placer celui-ci sur le canevas. En cliquant sur la bulle qui se trouve à droite du bouton, on crée dans le chat un message contenant un bouton qui permet à un autre utilisateur de placer le gabarit.
+
+<table class="example">
+<tr>
+<td>'''Code'''<br/>
+{{<nowiki>@Template[type:emanation|distance:15]</nowiki>}}</td>
+<td rowspan="2"><img src="/Wiki/public/Upload/ADJ/PF2/FVTT/biga1b.webp"/></td>
+</tr>
+<tr><td>
+'''Affichage'''<br/><img src="/Wiki/public/Upload/ADJ/PF2/FVTT/biga1.webp"/>
+</td></tr>
+</table>
+<table class="example">
+<tr>
+<td>'''Code'''<br/>
+{{<nowiki>@Template[type:burst|distance:25]</nowiki>}}</td>
+<td rowspan="2"><img src="/Wiki/public/Upload/ADJ/PF2/FVTT/biga2b.webp"/></td>
+</tr>
+<tr><td>
+'''Affichage'''<br/><img src="/Wiki/public/Upload/ADJ/PF2/FVTT/biga2.webp"/>
+</td></tr>
+<tr>
+</table>
+<table class="example">
+<td>'''Code'''<br/>
+{{<nowiki>@Template[type:cone|distance:20]</nowiki>}}</td>
+<td rowspan="2"><img src="/Wiki/public/Upload/ADJ/PF2/FVTT/biga3b.webp"/></td>
+</tr>
+<tr><td>
+'''Affichage'''<br/><img src="/Wiki/public/Upload/ADJ/PF2/FVTT/biga3.webp"/>
+</td></tr>
+<tr>
+</table>
+<table class="example">
+<td>'''Code'''<br/>
+{{<nowiki>@Template[type:line|distance:20]</nowiki>}}</td>
+<td rowspan="2"><img src="/Wiki/public/Upload/ADJ/PF2/FVTT/biga4b.webp"/></td>
+</tr>
+<tr><td>
+'''Affichage'''<br/><img src="/Wiki/public/Upload/ADJ/PF2/FVTT/biga4.webp"/>
+</td></tr>
+</table>
+
+===Libellé===
+Comme pour les boutons précédents, on peut ajouter un libellé entre accolades pour remplacer le texte affiché par défaut.
+
+<table class="example">
+<tr>
+<td>'''Code'''<br/>
+{{<nowiki>un cône de @Template[type:cone|distance:15]{3 cases}</nowiki>}}</td>
+<td rowspan="2"><img src="/Wiki/public/Upload/ADJ/PF2/FVTT/biga5b.webp"/></td>
+</tr>
+<tr><td>
+'''Affichage'''<br/><img src="/Wiki/public/Upload/ADJ/PF2/FVTT/biga5.webp"/>
+</td></tr>
+</table>
+
+===Lignes de largeur non standard===
+Par défaut, les lignes ont une largeur de 1 case (1,50 mètre). On peut préciser une largeur différente grâce à l'attribut {{width}} (qui doit également être indiqué en pieds). Cela permet également de créer des zones rectangulaires ou carrées.
+
+<table class="example">
+<tr>
+<td>'''Code'''<br/>
+{{<nowiki>@Template[type:line|distance:30|width:15]</nowiki>}}</td>
+<td rowspan="2"><img src="/Wiki/public/Upload/ADJ/PF2/FVTT/biga6b.webp"/></td>
+</tr>
+<tr><td>
+'''Affichage'''<br/><img src="/Wiki/public/Upload/ADJ/PF2/FVTT/biga6.webp"/>
+</td></tr>
+</table>
+<table class="example">
+<tr>
+<td>'''Code'''<br/>
+{{<nowiki>carré de @Template[type:line|distance:20|width:20]{4 × 4 cases}</nowiki>}}</td>
+<td rowspan="2"><img src="/Wiki/public/Upload/ADJ/PF2/FVTT/biga7b.webp"/></td>
+</tr>
+<tr><td>
+'''Affichage'''<br/><img src="/Wiki/public/Upload/ADJ/PF2/FVTT/biga7.webp"/>
+</td></tr>
+</table>
+

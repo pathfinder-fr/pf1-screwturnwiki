@@ -1,0 +1,254 @@
+---
+Name: Pathfinder2.FVTT boutons tests
+Title: Boutons inline pour les tests sur Foundry VTT
+LastModified: 2023-04-10 01:20
+---
+• [[MainPage|Retour à la page principale pour Pathfinder 2]] <br/>
+• Autres types de boutons inline : [[FVTT boutons jets|Boutons de jets de dés]] - [[FVTT boutons tests|Boutons de tests]] - [[FVTT boutons gabarit|Boutons de gabarit]]
+
+<nowiki><style>
+#content #PageContentDiv code {
+  background-color: #e7dfc6;padding: 2px 5px 4px 5px;border-radius:6px;font-family:Consolas;font-weight: bold;
+}
+#content #PageContentDiv .example {
+  margin-left: auto; margin-right: auto; width: 98%;margin-top: 4px;
+}
+#content #PageContentDiv .example tr {
+  background-color: #f3efe2;
+}
+#content #PageContentDiv .example td {
+  padding: 8px;
+  border: 2px solid #e7dfc6;
+  text-align: left;
+}
+#content #PageContentDiv .example tr td:nth-of-type(2) {
+  width: 280px;
+  text-align: center;
+}
+#content #PageContentDiv .example tr td:nth-of-type(2) img {
+  width: 280px;
+}
+</style></nowiki>
+{toc}
+
+===Syntaxe de base===
+Pour créer un bouton de test, il faut utiliser le code {{<nowiki>@Check</nowiki>}} et préciser le type du test à effectuer. En cliquant sur la partie principale du bouton, on peut effectuer le test en question. En cliquant sur la bulle à droite du bouton, on ajoute sur le chat un message contenant un bouton que les joueurs peuvent cliquer pour effectuer le test avec leur personnage associé.
+
+<table class="example">
+<tr>
+<td>'''Code'''<br/>{{<nowiki>@Check[type:nature]</nowiki>}}</td>
+<td rowspan="2"><img src="/Wiki/public/Upload/ADJ/PF2/FVTT/bich1a.webp"/></td>
+</tr>
+<tr><td>
+'''Affichage'''<br/><img src="/Wiki/public/Upload/ADJ/PF2/FVTT/bich1.webp"/>
+</td></tr>
+</table>
+<table class="example">
+<tr>
+<td>'''Code'''<br/>{{<nowiki>@Check[type:will]</nowiki>}}</td>
+<td rowspan="2"><img src="/Wiki/public/Upload/ADJ/PF2/FVTT/bich2a.webp"/></td>
+</tr>
+<tr><td>
+'''Affichage'''<br/><img src="/Wiki/public/Upload/ADJ/PF2/FVTT/bich2.webp"/>
+</td></tr>
+</table>
+
+Les types reconnus sont les suivants :
+
+{| CLASS="tablo autoalt centre toutgauche"
+|- CLASS="titre"
+| Type || Signification
+|-
+| {{flat}} || test nu
+|-
+| {{perception}} || Perception
+|-
+| {{fortitude}} || Vigueur
+|-
+| {{reflex}} || Réflexes
+|-
+| {{will}} || Volonté
+|-
+| {{acrobatics}} ou {{acr}} || Acrobaties
+|-
+| {{arcana}} ou {{arc}} || Arcanes
+|-
+| {{athletics}} ou {{ath}} || Athlétisme
+|-
+| {{crafting}} ou {{cra}} || Artisanat
+|-
+| {{deception}} ou {{dec}} || Duperie
+|-
+| {{diplomacy}} ou {{dip}} || Diplomatie
+|-
+| {{intimidation}} ou {{itm}} (!!) || Intimidation
+|-
+| {{medicine}} ou {{med}} || Médecine
+|-
+| {{nature}} ou {{nat}} || Nature
+|-
+| {{occultism}} ou {{occ}} || Occultisme
+|-
+| {{performance}} ou {{prf}} (!!) || Représentations
+|-
+| {{religion}} ou {{rel}} || Religion
+|-
+| {{society}} ou {{soc}} || Société
+|-
+| {{stealth}} ou {{ste}} || Discrétion
+|-
+| {{survival}} ou {{sur}} || Survie
+|-
+| {{thievery}} ou {{thi}} || Art du voleur
+|}
+
+===DD des tests===
+On peut préciser le DD du test avec l'attribut {{dc}}. Quand un test précisant le DD est envoyé vers le chat, seuls les utilisateurs propriétaires voient le DD. Dans la plupart des cas, cela signifie que, si le test envoyé par le MJ, les joueurs ne verront pas le DD. Quand un test précisant le DD est effectué, Foundry précise automatiquement le degré de réussite du test.
+
+<table class="example">
+<tr>
+<td>'''Code'''<br/>{{<nowiki>@Check[type:reflex|dc:17]</nowiki>}}</td>
+<td rowspan="2"><img src="/Wiki/public/Upload/ADJ/PF2/FVTT/bich3a.webp"/></td>
+</tr>
+<tr><td>
+'''Affichage'''<br/><img src="/Wiki/public/Upload/ADJ/PF2/FVTT/bich3.webp"/>
+</td></tr>
+</table>
+
+On peut modifier la visibilité du DD en utilisant l'attribut {{showDC}}. Par défaut, le test fonctionne en mode {{showDC:owner}}, mais on peut utiliser {{showDC:gm}} pour ne rendre le DD visible que du MJ ou {{showDC:all}} pour qu'il soit visible de tous.
+
+<table class="example">
+<tr>
+<td>'''Code'''<br/>{{<nowiki>@Check[type:reflex|dc:17|showDC:all]</nowiki>}}</td>
+<td rowspan="2"><img src="/Wiki/public/Upload/ADJ/PF2/FVTT/bich13a.webp"/></td>
+</tr>
+<tr><td>
+'''Affichage'''<br/><img src="/Wiki/public/Upload/ADJ/PF2/FVTT/bich13.webp"/>
+</td></tr>
+</table>
+
+===Libellé===
+Comme pour les autres types de boutons inline, on peut préciser un libellé en l'indiquant entre accolades après le test. Le libellé est alors utilisé comme titre lors de l'affichage dans le chat.
+
+<table class="example">
+<tr>
+<td>'''Code'''<br/>{{<nowiki>@Check[type:athletics|dc:15]{Escalader la paroi}</nowiki>}}</td>
+<td rowspan="2"><img src="/Wiki/public/Upload/ADJ/PF2/FVTT/bich4a.webp"/></td>
+</tr>
+<tr><td>
+'''Affichage'''<br/><img src="/Wiki/public/Upload/ADJ/PF2/FVTT/bich4.webp"/>
+</td></tr>
+</table>
+
+===Tests basiques===
+On peut préciser qu'un test est basique en ajoutant la mention {{basic:true}}. Seuls les tests relatifs à un jet de sauvegarde peuvent être basiques. Le mot "basique" apparaît dans le libellé par défaut du bouton.
+
+Préciser qu'un test est basique permet de déclencher certains effets liés aux capacités spéciales des personnages ou à l'équipement. Dans le premier exemple ci-dessous, comme le test de Vigueur est basique, la réussite de Valéros devient automatiquement une réussite critique grâce à sa capacité de Juggernaut. Comme les tests basiques sont automatiquement considérés comme liés à des effets qui infligent des dégâts, dans le second exemple, le test de Réflexes basique déclenche la capacité de Rempart du harnois que porte Valéros.
+
+<table class="example">
+<tr>
+<td>'''Code'''<br/>{{<nowiki>@Check[type:fortitude|dc:20|basic:true]</nowiki>}}</td>
+<td rowspan="2"><img src="/Wiki/public/Upload/ADJ/PF2/FVTT/bich5a.webp"/></td>
+</tr>
+<tr><td>
+'''Affichage'''<br/><img src="/Wiki/public/Upload/ADJ/PF2/FVTT/bich5.webp"/>
+</td></tr>
+</table>
+<table class="example">
+<tr>
+<td>'''Code'''<br/>{{<nowiki>@Check[type:reflex|dc:20|basic:true]</nowiki>}}</td>
+<td rowspan="2"><img src="/Wiki/public/Upload/ADJ/PF2/FVTT/bich6a.webp"/></td>
+</tr>
+<tr><td>
+'''Affichage'''<br/><img src="/Wiki/public/Upload/ADJ/PF2/FVTT/bich6.webp"/>
+</td></tr>
+</table>
+
+===Traits===
+Un test peut porter un ou plusieurs traits permettant de savoir si une capacité (de classe, d'équipement ou de statut) s'applique ou comment le test doit s'effectuer. On peut également préciser plusieurs traits en les séparant par des virgules.
+
+Le premier exemple ci-dessous utilise le trait {{damaging-effect}} qui permet de préciser que le test est associé à un effet qui inflige des dégâts (un trait qui est automatiquement ajouté aux tests basiques - voir ci-dessus) : même si le test de Réflexes n'est pas déclaré comme basique, la capacité de Rempart est tout de même activée. Le second exemple utilise le trait {{secret}} : tout clic sur le bouton placé dans le chat va générer automatiquement un lancer secret visible seulement du MJ. Le troisième exemple utilise le trait {{fear}} pour indiquer un effet de terreur, ce qui déclenche la capacité de Bravoure de Valéros.
+
+<table class="example">
+<tr>
+<td>'''Code'''<br/>
+{{<nowiki>@Check[type:reflex|dc:20|traits:damaging-effect]</nowiki>}}</td>
+<td rowspan="2"><img src="/Wiki/public/Upload/ADJ/PF2/FVTT/bich7a.webp"/></td>
+</tr>
+<tr><td>
+'''Affichage'''<br/><img src="/Wiki/public/Upload/ADJ/PF2/FVTT/bich7.webp"/>
+</td></tr>
+</table>
+<table class="example">
+<tr>
+<td>'''Code'''<br/>{{<nowiki>@Check[type:perception|dc:15|traits:secret]</nowiki>}}</td>
+<td rowspan="2"><img src="/Wiki/public/Upload/ADJ/PF2/FVTT/bich8a.webp"/></td>
+</tr>
+<tr><td>
+'''Affichage'''<br/><img src="/Wiki/public/Upload/ADJ/PF2/FVTT/bich8.webp"/>
+</td></tr>
+</table>
+<table class="example">
+<tr>
+<td>'''Code'''<br/>{{<nowiki>@Check[type:will|dc:18|traits:fear]</nowiki>}}</td>
+<td rowspan="2"><img src="/Wiki/public/Upload/ADJ/PF2/FVTT/bich9a.webp"/></td>
+</tr>
+<tr><td>
+'''Affichage'''<br/><img src="/Wiki/public/Upload/ADJ/PF2/FVTT/bich9.webp"/>
+</td></tr>
+</table>
+
+Voici quelques autres exemples utilisant des traits permettant de préciser le type de Perception ou l'action associée au test (pour déclencher les modificateurs qui s'appliquent dans ces cas-là).
+
+<table class="example">
+<tr>
+<td>'''Code'''<br/>{{<nowiki>@Check[type:perception|dc:19|traits:auditory]</nowiki>}}</td>
+</tr>
+<tr><td>
+'''Affichage'''<br/><img src="/Wiki/public/Upload/ADJ/PF2/FVTT/bich10.webp"/>
+</td></tr>
+</table>
+<table class="example">
+<tr>
+<td>'''Code'''<br/>{{<nowiki>@Check[type:perception|dc:17|traits:action:search]</nowiki>}}
+</td>
+</tr>
+<tr><td>
+'''Affichage'''<br/><img src="/Wiki/public/Upload/ADJ/PF2/FVTT/bich11.webp"/>
+</td></tr>
+</table>
+<table class="example">
+<tr>
+<td>'''Code'''<br/>{{<nowiki>@Check[type:athletics|dc:18|traits:action:long-jump]</nowiki>}}</td>
+</tr>
+<tr><td>
+'''Affichage'''<br/><img src="/Wiki/public/Upload/ADJ/PF2/FVTT/bich12.webp"/>
+</td></tr>
+</table>
+
+===Traits hérités===
+Quand le bouton inline se trouve dans la description d'une capacité de créature ou de PJ ou encore dans la description d'un objet, le test hérite automatiquement des traits de cette capacité, cet acteur et cet objet. Par exemple, si une capacité de créature porte le trait Poison, tout jet effectué à partir d'un bouton placé dans la description de cette capacité recevra également le trait {{poison}}, ce qui déclenchera par exemple le bonus d'un personnage qui porte une arme fournissant un bonus de +1 aux jets de sauvegarde contre le poison.
+
+Dans les cas (a priori très rares) où on ne voudrait pas que le test hérite de ces traits, on peut ajouter la mention {{overrideTraits:true}} dans le code du test.
+
+===DD de niveau===
+On peut créer un test donc le DD sera automatiquement ajusté à la valeur standard pour le niveau de l'acteur qui lance le test en utilisant {{<nowiki>dc:@self.level</nowiki>}}.
+
+<table class="example">
+<tr>
+<td>'''Code'''<br/>{{<nowiki>@Check[type:crafting|dc:@self.level]</nowiki>}}</td>
+<td rowspan="2"><img src="/Wiki/public/Upload/ADJ/PF2/FVTT/bich15a.webp"/></td>
+</tr>
+<tr><td>
+'''Affichage'''<br/><img src="/Wiki/public/Upload/ADJ/PF2/FVTT/bich15.webp"/>
+</td></tr>
+</table>
+
+L'exemple ci-dessus correspond à un test d'Artisanat de DD correspondant au niveau des PJ. Pour Valéros, de niveau 5, le DD est fixé à 20 alors que, pour Ezren, de niveau 10, il monte à 27. Si on veut ajuster ce DD de niveau, on peut utiliser l'attribut {{adjustment}}.
+
+Par exemple, {{<nowiki>@Check[type:crafting|dc:@self.level|adjustment:5]</nowiki>}} pour simuler un test d'Artisanat de difficulté Très difficile (+5).
+
+Si on désire calculer le DD du test pas en fonction de l'acteur qui effectue le test mais plutôt en fonction de l'acteur à l'origine du test (par exemple, si le test se trouve dans la description d'une capacité d'une créature, de cette créature), on peut utiliser la "fonction" {{resolve}}. Celle-ci permet d'effectuer des calculs à partir de valeurs correspondant à la créature-origine (via {{<nowiki>@actor...value</nowiki>}}) ou à l'objet-origine (via {{<nowiki>@item.data.data...value</nowiki>}}).
+
+Par exemple : {{<nowiki>dc:resolve(@actor.attributes.classDC.value)</nowiki>}} pour utiliser le DD de classe de la créature-origine. Pour plus de détails sur ces utilisations avancées, voir le [[https://github.com/foundryvtt/pf2e/wiki/Style-Guide#in-line-rollable-buttons|guide anglophone]].
+
