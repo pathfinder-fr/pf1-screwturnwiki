@@ -2,6 +2,7 @@
 	$(function(){
 		let cases = ?1?;
 		let mètres = cases * 1.5;
-		$('.mc?1?').html('<abbr title="' + cases + ' cases">' + mètres + ' m</abbr>');
+		let pieds = cases * 5;
+		$('.mc?1?').html('<abbr title="' + cases + ' cases, ' + mètres + ' mètres, ' + pieds + ' pieds">' + mètres + ' m</abbr>');
 	});
 </script><span class="mc?1?"></span>

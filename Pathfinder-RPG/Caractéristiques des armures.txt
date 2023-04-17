@@ -1,11 +1,11 @@
 ---
 Name: Pathfinder-RPG.Caractéristiques des armures
 Title: Caractéristiques des armures
-LastModified: 2020-04-27 18:17
+LastModified: 2023-04-11 16:39
 Categories:
-  - 'Armes et équipement'
-  - 'Manuel des joueurs'
-  - 'Règles officielles'
+  - 'Règle officielle'
+  - 'Src Armes et équipement'
+  - 'Src Manuel des joueurs'
 ---
 {s:MenuEquipement}
 {s:ae}''Pour la plupart des gens, les armures restent le meilleur moyen de se protéger contre les dangers de ce monde. Beaucoup de personnages doivent se limiter aux armures les plus simples et ils ne savent pas tous manier un bouclier. Pour profiter pleinement de la protection accordée par des armures plus lourdes, le personnage peut choisir un du don de Port d’armure mais la plupart des classes savent automatiquement utiliser l’armure la plus adaptée à leurs besoins.''
@@ -20,9 +20,9 @@ Voici le modèle des entrées concernant les armures (données comme titres de c
 
 : Pour les autres créatures, voir [[Caractéristiques des armures#ARMURESINHABITUELLES|ci-dessous]].
 
-{s:Reference|BONUSARMUREBOUCLIER}'''Bonus d'armure de bouclier.''' Chaque type d’armure accorde un bonus d’armure à la Classe d’armure (CA), tandis que les boucliers accordent un bonus de bouclier à la CA. Le bonus d’armure d’une armure ne se cumule pas avec les autres effets ou objets accordant un bonus d’armure. De la même manière, le bonus de bouclier d’un bouclier ne se cumule pas avec les autres effets ou objets accordant un bonus de bouclier. Pour chaque catégorie d’armure (légère, intermédiaire ou lourde), les armures sont listées par ordre croissant, du bonus de CA le plus bas au bonus de CA le plus haut.
+{s:Reference|BONUSARMUREBOUCLIER}'''Bonus d'armure et de bouclier.''' Chaque type d’armure accorde un bonus d’armure à la Classe d’armure (CA), tandis que les boucliers accordent un bonus de bouclier à la CA. Le bonus d’armure d’une armure ne se cumule pas avec les autres effets ou objets accordant un bonus d’armure. De la même manière, le bonus de bouclier d’un bouclier ne se cumule pas avec les autres effets ou objets accordant un bonus de bouclier. Pour chaque catégorie d’armure (légère, intermédiaire ou lourde), les armures sont listées par ordre croissant, du bonus de CA le plus bas au bonus de CA le plus haut.
 
-{s:Reference|BONUSDEXMAX}'''Bonus maximum de dextérité.''' Ce chiffre indique le bonus de [[Dextérité]] maximal à la [[CA]] qu’autorise le type d’armure. Les bonus de Dextérité dépassant ce nombre sont réduits à ce nombre quand il s’agit de déterminer la CA du porteur. Les armures lourdes limitent la mobilité, réduisant la capacité du porteur à esquiver les coups. Cette restriction n’affecte pas les autres capacités basées sur la Dextérité. Un tiret indique que l’armure n’affecte pas le bonus de Dextérité maximal du personnage.
+{s:Reference|BONUSDEXMAX}'''Bonus maximum de Dextérité.''' Ce chiffre indique le bonus de [[Dextérité]] maximal à la [[CA]] qu’autorise le type d’armure. Les bonus de Dextérité dépassant ce nombre sont réduits à ce nombre quand il s’agit de déterminer la CA du porteur. Les armures lourdes limitent la mobilité, réduisant la capacité du porteur à esquiver les coups. Cette restriction n’affecte pas les autres capacités basées sur la Dextérité. Un tiret indique que l’armure n’affecte pas le bonus de Dextérité maximal du personnage.
 
 Même si le bonus de Dextérité du personnage à la CA tombe en dessous de 0 à cause de l’armure, cette situation ne compte pas comme une perte du bonus de Dextérité à la CA.
 
@@ -51,15 +51,14 @@ sorts profanes pour obtenir un seul pourcentage de risque d’échec.
 indiqué dans le [[tableau récapitulatif des armures]] correspond à la vitesse du personnage lorsqu’il porte une armure. 
 
 : Les humains, les elfes, les demi-elfes et les demi-orques ont une vitesse sans encombrement de 9 mètres (6 {s:c}). Ils utilisent la première colonne.
-: Les nains, les gnomes et les halfelins ont une vitesse sans encombrement de 6 mètres (4 {s:c}). Ils utilisent la
-deuxième colonne. Mais n’oubliez pas que la vitesse au sol d’un nain reste de 6 mètres, même avec une armure intermédiaire ou
-lourde ou lorsqu’il porte une charge moyenne ou lourde.
+: Les nains, les gnomes et les halfelins ont une vitesse sans encombrement de 6 mètres (4 {s:c}). Ils utilisent la deuxième colonne. Mais n’oubliez pas que la vitesse au sol d’un nain reste de 6 mètres, même avec une armure intermédiaire ou lourde ou lorsqu’il porte une charge moyenne ou lourde.
 
 :: ''Boucliers.'' Les boucliers n’affectent pas la vitesse du personnage.
 
 {s:Reference|POIDS}'''Poids.''' Cette colonne indique le poids de l’armure pour un porteur de taille M. Les armures prévues pour les personnages de taille P pèsent deux fois moins lourd et les armures pour les personnages de taille G pèsent deux fois plus lourd.
 
 {s:Reference|PROPRIETESSPECIALESDARMURE}
+
 === Propriétés spéciales d'armure ===
 Certaines armures, notamment celles qui sont faites de [[Matériaux spéciaux#Matériaux primaires|matériaux primaires]], sont d’une qualité inférieure à l’équipement standard. Elles ont la propriété spéciale fragile.
 
