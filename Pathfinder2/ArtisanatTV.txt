@@ -1,0 +1,447 @@
+---
+Name: Pathfinder2.ArtisanatTV
+Title: Règles et variantes sur l'artisanat
+LastModified: 2023-04-30 17:10
+---
+<div class="topmenu"><div class="topmenutitre">
+<p>Règles et variantes sur l'artisanat</p>
+<a href="/Wiki/Pathfinder2.ADJ.ashx" title="Retour aux aides de jeu pour PF2">
+<i class="fa fa-arrow-left" aria-hidden="true"></i> ADJ PF2</a>
+</div>
+<div class="contenumenuPF2">
+[[ArtisanatCR|Règles de base (WIP)]]
+[[ArtisanatTV|Variante Treasure Vault]]
+[[CalcArtisanat|Calculette]]
+[[ArtisanatTVN|Artisanat naturel]]
+[[ArtisanatTVS|Artisanat narratif (WIP)]]
+</div>
+</div>
+
+{toc}
+
+===Artisanat complexe===
+
+L’action Fabriquer (Craft) telle que présentée dans le livre de base se base sur une progression simple : vous pouvez Fabriquer n’importe quel objet, quel que soit son niveau, en exactement 4 jours, puis utiliser du temps supplémentaire pour réduire le coût final de l’objet. Ce système, bien qu’assez aisé à utiliser lors des parties, vise avant tout la simplicité et est relativement rigide. Par exemple, les objets de niveau maximal (votre propre niveau) vous fournissent un gain bien plus significatif pour cet investissement de 4 jours que les objets de plus bas niveaux. De plus, ce système ne propose guère d’options aux joueurs qui voudraient tenter de fabriquer un objet rapidement, quitte à prendre le risque d’échouer. La variante d’artisanat complexe convient aux groupes qui considèrent que la fabrication d’objets est un élément central de leurs parties. Pour la plupart des groupes, le système d’artisanat simple est sans doute suffisant s’il ne s’agit que de créer un objet de temps en temps.
+
+Cette variante ajoute une option au système d’artisanat, qui permet aux personnages de choisir la manière dont ils désirent réaliser la fabrication, en utilisant une approche lente et méthodique ou en accélérant le processus et en risquant de perdre les matières premières ou même de créer un objet maudit ! Ce système englobe également des modifications du temps nécessaire en fonction du niveau de l’objet et selon qu’il s’agit d’un consommable ou d’un objet permanent.
+
+Tout d’abord, vous devez remplir toutes les conditions citées dans l’action Fabriquer de la compétence d’Artisanat. Au début du processus, vous devez déterminer le temps de préparation en fonction du type de l’objet et de son niveau par rapport au vôtre, puis décider de la manière dont vous allez réaliser le travail parmi les options accessibles selon votre niveau de compétence. Le MJ déterminer le DD de base selon les règles normales, sur base du niveau de l’objet, de sa rareté et d’autres circonstances.
+
+Pour déterminer le temps de préparation, vérifiez le niveau de l’objet et déterminez s’il s’agit d’un consommable ou d’un objet permanent. Comparez le niveau de l’objet au vôtre et recherchez le nombre sur la table ci-dessous. Le temps de préparation est le nombre de jours de base qui seront nécessaires à la création de l’objet. Si vous décidez d’adopter l’approche lente et méthodique, vous passez ce nombre-là de jours, puis réalisez un test d’Artisanat pour déterminer si la fabrication réussit (voir Terminer l’objet).
+
+Vous pouvez également précipiter le processus et réduire le nombre de jours pour la préparation tout en acceptant un risque d’échec plus grand. Si vous êtes au moins Expert en Artisanat, vous pouvez réduire le temps de préparation de 1 jour en augmentant le DD de 5. Si vous êtes au moins Maître, vous pouvez réduire le temps de préparation de 2 jours en augmentant le DD de 10. Si vous êtes Légendaire en Artisanat, vous pouvez réduire le temps de préparation de 3 jours en augmentant le DD de 15. Si vous fabriquez un consommable et que cette réduction amène le nombre de jours à 0 ou moins, la préparation prend 4 heures.
+
+{| CLASS="tablo centre autoalt"
+|+ Nombre de jours pour la préparation
+|- CLASS="titre"
+| Niveau de l'objet || Consommable || Permanent
+|- CLASS="premier"
+| Égal au niveau de l'artisan || 4 || 6
+|-
+| niveau de l'artisan -1 ou -2 || 3 || 5
+|-
+| Niveau de l'artisan -3 ou moins || 2 || 4
+|}
+
+===Terminer l’objet===
+
+Une fois le temps de préparation passé, vous devez réaliser un test d’Artisanat pour déterminer la réussite du processus de création. Si vous obtenez une réussite, vous dépensez les matières premières et vous pouvez terminer l’objet immédiatement en payant la portion restante du Prix de l’objet en matières premières. Ou, au lieu de cela, vous pouvez dépenser des jours de temps libre supplémentaires pour continuer à travailler sur l’objet.
+
+Pour chaque jour supplémentaire que vous passez, réduisez la valeur des matières premières qu’il vous reste à fournir afin de terminer l’objet. Cette réduction est déterminée via la table Gagner de l’argent (Earn Income) en utilisant votre degré de compétence en Artisanat et votre propre niveau en tant que niveau de la tâche (voir table ci-dessous). Après n’importe lequel de ces jours de temps libre, vous pouvez décider de terminer l’objet en dépensant la portion restante de son Prix en matières premières. Si le processus de création est interrompu, vous pouvez reprendre là où vous vous étiez arrêté plus tard pour terminer l’objet.
+
+{| CLASS="tablo centre autoalt toutgauche"
+|+ Réduction par jour d'artisanat supplémentaire
+|- CLASS="titre"
+| ROWSPAN="2" | Niveau de l'artisan
+| COLSPAN="4" CLASS="centre avecsoustitre" | Degré de maîtrise de l'artisan
+|- CLASS="soustitre"
+| Entraîné || Expert || Maître || Légendaire
+|- CLASS="premier"
+|-
+| 0 || 5pc || 5pc || 5pc || 5pc
+|-
+| 1 || 2pa || 2pa || 2pa || 2pa
+|-
+| 2 || 3pa || 3pa || 3pa || 3pa
+|-
+| 3 || 5pa || 5pa || 5pa || 5pa
+|-
+| 4 || 7pa || 8pa || 8pa || 8pa
+|-
+| 5 || 9pa || 1po || 1po || 1po
+|-
+| 6 || 15pa || 2po || 2po || 2po
+|-
+| 7 || 2po || 25pa || 25pa || 25pa
+|-
+| 8 || 25pa || 3po || 3po || 3po
+|-
+| 9 || 3po || 4po || 4po || 4po
+|-
+| 10 || 4po || 5po || 6po || 6po
+|-
+| 11 || 5po || 6po || 8po || 8po
+|-
+| 12 || 6po || 8po || 10po || 10po
+|-
+| 13 || 7po || 10po || 15po || 15po
+|-
+| 14 || 8po || 15po || 20po || 20po
+|-
+| 15 || 10po || 20po || 28po || 28po
+|-
+| 16 || 13po || 25po || 36po || 40po
+|-
+| 17 || 15po || 30po || 45po || 55po
+|-
+| 18 || 20po || 45po || 70po || 90po
+|-
+| 19 || 30po || 60po || 100po || 130po
+|-
+| 20 || 40po || 75po || 150po || 200po
+|-
+| 20 (réussite critique) || 50po || 90po || 175po || 300po
+|}
+
+Vous pouvez également décider d’accélérer ce processus. Si vous êtes au moins Expert en Artisanat, vous pouvez accélérer ce processus et réduire la valeur des matières premières qu’il vous reste à dépenser pour terminer l’objet de deux fois le nombre indiqué sur la table Gagner de l’argent (Earn Income). Cela comporte toutefois un risque : à la fin du processus de création, une fois que l’objet est terminé, vous devez réaliser un test nu. Le DD de ce test nu est égal à 10 + le niveau de l’objet – votre bonus de compétence d’Artisanat. Si le test est une réussite ou une réussite critique, l’objet est terminé et fonctionne parfaitement. Si c’est un échec, l’objet est terminé mais il possède un défaut (voir Bizarrerie dans le Guide de maîtrise ou le tableau ci-dessous). Si c’est un échec critique, l’objet est détruit ou pourrait devenir un objet maudit (au choix du MJ).
+
+{| CLASS="tablo centre autoalt toutgauche" STYLE="width:90%"
+|+ Défauts / bizarreries
+|- CLASS="titre"
+| d100 || Défaut || Description
+|- CLASS="premier"
+|-
+| 01 || Mélodique || Une musique à peine perceptible est jouée lors de son utilisation.
+|-
+| 02 || Altérant la peau || La couleur de la peau de l'utilisateur change pour adopter une couleur vive comme le bleu ou le vert.
+|-
+| 03 || Chœur || Répète tout ce que l'utilisateur dit d'une voix chantante.
+|-
+| 04 || Couleur de l'humeur || L'humeur de l'utilisateur affecte la couleur de l'objet.
+|-
+| 05 || Bavard || S'engage joyeusement en bavardage.
+|-
+| 06 || Gâcheur || La nourriture dans les 30 cm se gâche à deux fois le rythme habituel.
+|-
+| 07 || Amical || Sollicite d'être présenté à quiconque rencontre l'utilisateur.
+|-
+| 08 || Sourdine || Les sons proches sont légèrement plus silencieux.
+|-
+| 09 || Runique || Des runes apparaissent sur la peau de l'utilisateur.
+|-
+| 10 || Confortable || Peut servir de coussin ou de couverture.
+|-
+| 11 || Imperméable || L'utilisateur reste au sec sous la pluie.
+|-
+| 12 || Maladroit || Lorsqu'il n'est pas tenu, renverse des petits objets dans les 30 cm.
+|-
+| 13 || Apparence élémentaire || Semble être faite de flammes, d'eau ou de tout autre matériau élémentaire.
+|-
+| 14 || Magnétique || Les petits objets métalliques d'Encombrement léger ou moins y adhèrent.
+|-
+| 15 || Aberrant || Possède des tentacules, des dents ou d'autres caractéristiques rebutantes.
+|-
+| 16 || Mangeuse de rêves || Les créatures endormies à moins de 3 m ne rêvent pas.
+|-
+| 17 || Propre || Reste immaculé malgré la saleté.
+|-
+| 18 || Affamé || A besoin de repas quotidiens, souvent des choses bizarres comme des copeaux de bois.
+|-
+| 19 || Odorante || Sent comme la dernière nourriture que l'utilisateur a mangé.
+|-
+| 20 || Flamboyant || Des éclairs de lumière, des étincelles de couleur et d'autres effets en jaillissent.
+|-
+| 21 || Piste verdoyante || De petites plantes poussent là où l'utilisateur marche, en restant 1 heure.
+|-
+| 22 || Plaintif || Grommelle lorsqu'il n'est pas utilisé.
+|-
+| 23 || Detecteur || Conscient d'une plante ou un animal spécifique, comme les écureuils ou le lierre empoisonné, dans les 9 m.
+|-
+| 24 || Menteur || Raconte des mensonges évidents et grandiloquents.
+|-
+| 25 || Compressif || L'utilisateur est légèrement plus court.
+|-
+| 26 || Attentif || Se préoccupe de la dernière créature qui l'a touché.
+|-
+| 27 || Soprano || La voix de l'utilisateur augmente d'un ton.
+|-
+| 28 || Rétréci || Décroît en taille lorsqu'il est utilisé.
+|-
+| 29 || Aromatique || L'air alentour sent plaisamment.
+|-
+| 30 || Tempéré || Une légère chaleur sort de l'objet.
+|-
+| 31 || Piste de bave || L'utilisateur laisse une trace de bave partout où il marche, qui reste pendant 1 heure.
+|-
+| 32 || Tetrachromatique || Les couleurs semblent plus vives pour l'utilisateur.
+|-
+| 33 || Résonnant || Les sons à proximité sont légèrement plus forts.
+|-
+| 34 || Attirant les insectes || Des groupes d'insectes inoffensifs tournent autour de lui.
+|-
+| 35 || Ancien langage || Parle dans langue oubliée.
+|-
+| 36 || Assoiffé de sang || La vision du sang le fait frémir d'impatience.
+|-
+| 37 || Poli || Hautement réfléchissant.
+|-
+| 38 || Écriture || Absorbe de l'encre pendant 1 heure, permettant à ses pointes d'être utilisés comme des plumes.
+|-
+| 39 || Sale || Une couche de salissure persiste toujours.
+|-
+| 40 || Altérant les yeux || La couleur des yeux de l'utilisateur se modifie.
+|-
+| 41 || Préservatrice || La nourriture dans les 30 cm ne pourrit qu'à moitié du rythme habituel.
+|-
+| 42 || Feuillu || De petites plantes poussent sur ou à partir de lui.
+|-
+| 43 || Humide || Lui et son utilisateur sont toujours trempés.
+|-
+| 44 || Encourageant || Offre ses encouragements lorsque l'utilisateur échoue sur un test.
+|-
+| 45 || Loyal || Reste dans les 1,5 m de son utilisateur, comme s'il avait une laisse.
+|-
+| 46 || Ritualiste || Demande à ce que l'utilisateur accomplisse un acte simple chaque matin.
+|-
+| 47 || Sans repos || Bouge lentement et s'agite.
+|-
+| 48 || Déplacé || Apparaît en décalage de l'endroit où il se trouve.
+|-
+| 49 || Attentionné || Fournit conseils et rappels.
+|-
+| 50 || Projecteur || La lumière crée un effet kaléidoscopique.
+|-
+| 51 || Altérant les cheveux || La couleur de cheveux de son utilisateur change.
+|-
+| 52 || Vigilant || Des yeux vifs le couvrent.
+|-
+| 53 || Généreux || Produit de petits cadeaux symboliques.
+|-
+| 54 || Basse || La voix de l'utilisateur est plus basse.
+|-
+| 55 || Fuyard || Sécrète un liquide inoffensif.
+|-
+| 56 || Altérant le goût || La nourriture prend un goût différent, tel qu'un goût plus sucré ou plus salé.
+|-
+| 57 || Rebondissant || rebondit lors d'une collision.
+|-
+| 58 || Lucide || Les créatures endormies dans les 3 m voient l'objet dans leurs rêves.
+|-
+| 59 || Politesse || Insiste pour que l'utilisateur utilise les formules de politesse.
+|-
+| 60 || Délabré || Apparaît de mauvaise qualité ou fait de rebuts.
+|-
+| 61 || Cabriolant || Danse sur place lorsqu'il n'est pas utilisé.
+|-
+| 62 || En fourrure || Recouvert par une fine couche de fourrure.
+|-
+| 63 || Inhabituellement coloré || Une couleur excentrique comme une armure violette.
+|-
+| 64 || Sonore || Fait entendre un son pur lorsqu'il est frappé.
+|-
+| 65 || Étoilé || Semble être fait de ciel nocturne.
+|-
+| 66 || Compact || Se range proprement sous une forme plus petite.
+|-
+| 67 || Brumeux || Fuite constante de brume ou de vapeur.
+|-
+| 68 || Gazouillis || Cliquette et grince lors de son utilisation.
+|-
+| 69 || Équilibré || Reste toujours complètement droit.
+|-
+| 70 || Bloquant le soleil || L'utilisateur ne reçoit jamais de coup de soleil.
+|-
+| 71 || Attirant les animaux || Les animaux inoffensifs suivent l'utilisateur.
+|-
+| 72 || Théâtral || Force l'utilisateur à se déplacer de façon spectaculaire.
+|-
+| 73 || Traçant || Suivi par de fines traces de couleur.
+|-
+| 74 || Monologuant || Récite de longues conférences ou discours.
+|-
+| 75 || Prédictions || FAit des prédictions mystérieuses.
+|-
+| 76 || Adhésif || Colle légèrement à n'importe quelle surface.
+|-
+| 77 || Lévitant || Flotte légèrement au-dessus d'une surface.
+|-
+| 78 || Gluant || Couvert d'une fine couche gluante.
+|-
+| 79 || Commentateur || Fait des remarques sur son environnement.
+|-
+| 80 || Engourdissant || L'utilisateur est moins sensible à la douleur.
+|-
+| 81 || horloge parlante || Annonce l'heure actuelle.
+|-
+| 82 || Impressionnant || L'utilisateur est légèrement plus grand.
+|-
+| 83 || Absorbant || Absorbe jusqu'à un demi litre de liquide.
+|-
+| 84 || À facettes || Semble fait de cristal ou de gemmes.
+|-
+| 85 || À bulles || Crée des bulles lorsqu'il est utilisé.
+|-
+| 86 || Retournement de l'image || L'utilisateur apparaît être inversé.
+|-
+| 87 || Croissance des cheveux || Les cheveux de l'utilisateur grandissent au double du rythme habituel.
+|-
+| 88 || Alternance || Apparence change lentement.
+|-
+| 89 || Transpirant || Devient humide et âcre lorsqu'il est utilisé de manière intensive.
+|-
+| 90 || Scintillant || Brille et scintille à la lumière.
+|-
+| 91 || Muant || Laisse une pellicule épaisse chaque matin.
+|-
+| 92 || Écho || Les sons autour de l'utilisateur forment un écho.
+|-
+| 93 || Sans ombre || L'objet et l'utilisateur ne projettent pas d'ombre.
+|-
+| 94 || Raconteur d'histoire || Est gravé d'une histoire ou connaît un contequ'il peut réciter sur demande.
+|-
+| 95 || Refroidi || Légèrement frais au contact.
+|-
+| 96 || Délavé || La vision de l'utilisateur change pour une couleur donnée, comme le sépia ou le noir et blanc.
+|-
+| 97 || Grandissant || Augmente en taille lorsqu'il est utilisé.
+|-
+| 98 || Flottant || Descend doucement lorsqu'il est lâché.
+|-
+| 99 || Deux bizarreries || Lancez les jets deux fois sur la table et appliquez les deux anomalies à l'objet. relancez tout résultat de 99 ou 100.
+|-
+| 100 || Trois bizarreries || Lancez les jets trois fois sur la table et appliquez les trois anomalies à l'objet. relancez tout résultat de 99 ou 100.
+|}
+
+====Fabriquer des objets avec des ajustements====
+
+Les ajustements sont des modifications qui peuvent fournir des capacités spéciales spécifiques à un certain type d’objets. Au lieu de créer les ajustements séparément de l’armure à laquelle ils s’appliquent, vous pouvez simplement fabriquer l’armure avec l’ajustement en ajoutant le prix de l’ajustement au coût de fabrication total de l’armure de base et gérer le reste du processus de fabrication normalement.
+
+====Dons de compétence====
+
+Lorsque vous utilisez cette variante, envisagez d’autoriser le don de compétence suivant pour permettre aux personnages de Fabriquer des objets de très bas niveaux encore plus rapidement. Ce don de compétence est étiqueté "rare" et n’est disponible qu’aux personnages qui utilisent cette variante. Avec cette forme d’artisanat rapide, vos joueurs pourraient se retrouver avec des valeurs de trésor plus élevées ou avec plus d’objets que ce que les aventures prévoient ; montrez-vous donc prudents quand vous songez à introduire ce don dans une campagne qui autorise déjà de larges portions de temps libre.
+
+<div class="blocPF2">
+{s:titrePF2|Préparation rapide|Don 7}
+{s:traitRareté|Rare} {s:trait|Général} {s:trait|Compétence}
+
+'''Prérequis''' Maître en Artisanat
+
+Vous avez appris à réaliser rapidement les préparations pour les travaux de fabrication simples. Votre temps de préparation pour les consommables qui sont d'au moins 6 niveaux inférieurs au vôtre est réduit à 1 jour et votre temps de préparation pour les objets permanents de 6 niveaux inférieurs au vôtre est de 3 jours.
+
+Si vous accélérez la préparation et réduisez le temps de préparation pour les consommables d'au moins 6 niveaux inférieurs au vôtre à moins de 1 jour, vous pouvez à la place les préparer en juste 2 heures (ce qui vous permet de le faire au cours d'une journée d'aventure si vous avez accès à vos outils et aux matériaux). Si vous accélérez la préparation d'un objet permanent d'au moins 6 niveaux inférieurs au vôtre et réduisez le temps de préparation à moins de 1 jour, vous pouvez le préparer en 4 heures.
+
+</div>
+
+===Évènements lors de l’artisanat===
+
+Bon nombre de choses peuvent se produire pendant le temps libre et perturber vos efforts ou compliquer vos plans. Lorsque vous fabriquez un objet, il est généralement facile d’interrompre la création et de gérer un problème mais, parfois, les événements qui se produisent touchent directement votre projet d’artisanat. Le Guide de maîtrise donne trois exemples d’événements relatifs à l’artisanat : une livraison de matériaux en retard, une œuvre exceptionnelle qui attire l’attention des collectionneurs ou la découverte d’une nouvelle technique d’artisanat efficace. Même en ajoutant ces événements à ceux qui correspondent à l’activité Gagner de l’argent (Earn Income), un groupe qui consacre une grande partie de son temps à fabriquer des objets pourrait trouver la chose assez répétitive. Les événements suivants sont liés au processus d’artisanat et devraient être utilisés en compléments de ceux proposés par le Guide de maîtrise (qui sont repris comme les trois premières options du tableau ci-dessous).
+
+{| CLASS="tablo centre autoalt toutgauche" STYLE="width:90%"
+|+ Événements de temps libre pour l'artisanat
+|- CLASS="titre"
+| d20 || Événement
+|- CLASS="premier"
+| 1 || {s:Expandable|'''Livraison en retard'''|Une livraison d’importants matériaux est retardée et le PJ doit trouver pourquoi.}
+|-
+| 2 || {s:Expandable|'''Œuvre exceptionnelle'''|Le PJ crée une œuvre nettement supérieure, ce qui attire l’attention d’un collectionneur ou d’un musée.}
+|-
+| 3 || {s:Expandable|'''Nouvelle technique'''|Le PJ découvre une technique plus efficace pour travailler un matériau et doit décider de la partager ou de la garder secrète.}
+|-
+| 4 || {s:Expandable|'''Gêneur ennuyant'''|Qu’il s’agisse d’un parent curieux, d’un ami bavard, d’un inspecteur de sécurité tatillon ou d’un invité d’un autre genre, l’atelier de l’artisan a attiré l’attention d’un gêneur ennuyant. Et il s’agit d’une personne que l’artisan ne peut pas simplement jeter dehors. La situation pourrait nécessiter du roleplay, ainsi qu’un test de Diplomatie, d’Intimidation ou d’une autre compétence, avant que l’artisan ne puisse se remettre au travail.}
+|-
+| 5 || {s:Expandable|'''Ingrédient interdit'''|L’artisan réalise que l’un des ingrédients dont il a besoin pour l’objet qu’il fabrique est interdit ou fortement contrôlé dans la zone où il se trouve. S’il a déjà fabriqué le même objet sans problème avant, peut-être qu’il s’agit d’une nouvelle loi, ou qu’il a dû refaire son stock de cet ingrédient problématique (ou vous pouvez tout simplement relancer pour obtenir un autre événement et conserver celui-ci pour le moment où il fabrique un nouvel objet). Pour résoudre ce problème, l’artisan pourrait être contraint de réaliser des transactions louches au marché noir, de faire pression pour que l’interdiction soit levée (tout particulièrement si celle-ci est suspecte ou empêche le public de fabriquer un objet important comme des potions de guérison), voyager vers un endroit où l’interdiction n’est pas de mise ou tenter de trouver un substitut.}
+|-
+| 6 || {s:Expandable|'''Composantes délicates'''|C’est peut-être tout simplement la nature de l’une ou de plusieurs des composantes qui constituent l’objet fabriqué, ou l’artisan a peut-être reçu un stock particulièrement fragile, mais certaines des composantes que l’artisan utilise sont tout incroyablement délicates. Il va peut-être devoir utiliser Art du voleur / Vol (Thievery) pour manipuler précautionneusement les composantes délicates ou trouver une manière de renforcer l’ingrédient ou l’équipement qui le contient pour pouvoir continuer à l’utiliser.}
+|-
+| 7 || {s:Expandable|'''Contradictions dans la formule'''|L’artisan rencontre un problème dans la formule de l’objet. Elle comporte deux (ou plusieurs) instructions contradictoires, ce qui l’oblige à interrompre son travail jusqu’à ce que ce problème soit résolu. Quelle version est correcte ? Ou est-ce qu’aucune n’est correcte ? Ou peut-être sont-elles toutes correctes et l’artisan doit affiner sa compréhension du processus de création ? Cet événement pourrait impliquer des recherches ou des expérimentations dangereuses.}
+|-
+| 8 || {s:Expandable|'''Infestation'''|Une infestation de vermines, de spores ou d’un autre élément contaminant menace le projet d’artisanat ainsi que, peut-être, d’autres parties de l’atelier de l’artisan. Il va non seulement devoir protéger son projet en cours et éviter qu’il ne soit endommagé, mais aussi découvrir la source de l’infestation et y mettre un terme. Était-ce une simple coïncidence, ou quelqu’un a-t-il utilisé de moyens magiques ou conventionnels pour déclencher volontairement ce problème ?}
+|-
+| 9 || {s:Expandable|'''Instabilité intrinsèque'''|La magie ou la mécanique intrinsèque à l’objet a vu sa puissance et son instabilité s’accroître et l’artisan ne sait pas exactement pourquoi. La cause pourrait être une simple erreur, ou une instabilité dans la magie de l’artisan lui-même, ou bien juste une coïncidence. Dans tous les cas, l’artisan doit découvrir l’origine de ce problème afin de pouvoir le résoudre voire, peut-être, en tirer avantage.}
+|-
+| 10 || {s:Expandable|'''Mutation'''|L’objet a subi une mutation et est sur le point de devenir un objet différent, peut-être même un objet de plus haut niveau que ce que l’artisan peut normalement fabriquer, ou un objet peu commun, rare, intelligent ou normalement hors de portée de l’artisan en temps normal. Soyez prudents quand vous choisissez cet événement ; idéalement, en tant que MJ, vous devriez opter pour un objet mutant choisi parce qu’il est intéressant plutôt qu’un objet déterminé aléatoirement (vu qu’on peut supposer que l’artisan cherchait à créer le meilleur objet qu’il pouvait concevoir). L’artisan peut soit trouver une méthode pour mettre fin au processus de mutation ou le laisser prendre cours et voir ce que l’objet devient !}
+|-
+| 11 || {s:Expandable|'''Nom requis'''|Le processus de création de l’objet est au point mort parce que la magie nécessite qu’il ait un nom, et pas juste n’importe quel sobriquet qui passe par la tête de l’artisan ! L’artisan doit se lancer dans une profonde réflexion pour choisir un nom qui convient à l’objet, car il lui sera attaché à tout jamais. Une fois le nom choisi, si l’objet l’accepte, le processus de création peut reprendre. Le choix du nom pourrait avoir également d’autres implications : par exemple, si l’objet est activé par ordre vocal (command), il pourrait être nécessaire de crier son nom.}
+|-
+| 12 || {s:Expandable|'''Désastre naturel'''|Un énorme désastre naturel est sur le point de toucher l’atelier. Qu’il s’agisse d’un tsunami, d’une tornade, d’un tremblement de terre, d’une éruption volcanique ou d’autre chose, cela représente un grand danger pour le processus de création, voire peut-être aussi pour la vie de l’artisan. D’un autre côté, cela pourrait également être une opportunité pour canaliser la puissance du désastre naturel au sein de l’objet ! Envisagez de permettre à l’artisan d’effectuer un test de Se souvenir (Recall Knowledge) pour se souvenir de formules qui abordent les bienfaits hors du commun que la capture de l’énergie d’un désastre naturel peut apporter et proposez-lui une récompense (progression accrue sur l’objet, objet amélioré ou quelque chose d’autre) pour qu’il soit tenté de s’exposer au danger.}
+|-
+| 13 || {s:Expandable|'''Interférence depuis un autre monde'''|Avec les divinités, les célestes, les fiélons, les moniteurs et les autres entités extraplanaires, le monde est rempli d’un nombre surprenant de créatures provenant d’autres mondes et tentant de causer du grabuge, de semer le chaos ou de proposer de l’aide à ses habitants. L’artisan est l’un de ces mortels chanceux ou malchanceux qui doivent désormais faire avec cette interférence provenant d’ailleurs. Même si la créature extraplanaire désire aider, elle pourrait bien ne pas comprendre suffisamment les mortels pour pouvoir y parvenir. Cela pourrait même créer plus de problème qu’une entité qui tenterait de saboter la création vu que, dans ce cas, l’artisan a au moins la possibilité de chasser l’intru et de l’arrêter de manière définitive.}
+|-
+| 14 || {s:Expandable|'''Énergie écrasante'''|Il y a tout simplement trop d’énergie magique ou mécanique à l’intérieur de l’objet. Cela pourrait être une bonne chose, qui dotera au final l’objet de plus de puissance ou permettra de progresser plus rapidement dans sa création, mais cela peut aussi s’avérer extrêmement dangereux, car l’énergie menace de surcharger l’objet et de le faire exploser, détruisant ainsi l’investissement initial de l’artisan. Il devra donc trouver méthodiquement une manière d’utiliser l’énergie (ou, tout du moins, de lui permettre de s’échapper sans dégâts) pour protéger l’objet.}
+|-
+| 15 || {s:Expandable|'''Convergence planaire'''|De nombreux plans d’existence coexistent avec le plan Matériel en certains endroits. Parfois, ces points de contact se déplacent en suivant les mouvements et les transformations des plans, ce qui conduit à des convergences planaires où le voile entre les deux plans devient extrêmement fin. Malheureusement (ou peut-être heureusement) pour l’artisan, une de ces convergences planaires passe sur l’emplacement de son atelier. S’il fabrique un objet qui correspond à cette convergence, il pourrait bien être capable de tirer un avantage de celle-ci mais, dans les autres cas, il va devoir isoler l’objet de ses effets ou faire ses valises et déménager suffisamment loin pour l’éviter. Pour éliminer complètement les énergies de cette convergence, il pourrait même être nécessaire de trouver un emplacement coïncidant avec une convergence vers un plan opposé.}
+|-
+| 16 || {s:Expandable|'''Résonance magique'''|Quand plusieurs sources de magie sont concentrées, une résonance magique se produit, en bien ou en mal. Le processus de fabrication est interrompu par les résonances magiques produites dans l’atelier entre l’objet en cours de création et d’autres objets magiques ou sorts. L’artisan peut tenter d’éliminer ou de repositionner les sources de magie qui ont causé la résonance ou bien encore d’étudier la résonance afin d’essayer de doter l’objet d’un nouveau pouvoir qui apparaît uniquement lorsque l’objet est affecté par les autres objets ou sorts qui ont causé la résonnance ; dans ce cas, envisagez d’utiliser les règles pour les panoplies d’objets XXX page 200 ou quelque chose de similaire.}
+|-
+| 17 || {s:Expandable|'''Aimant à esprits'''|L’objet est devenu un aimant pour des entités incorporelles mineures – des esprits (créatures formées d’essence spirituelle) ou des vitae (créatures constituées d’énergie vitale naturelle et parfois appelées "esprits de la nature"). Ce n’est pas forcément une mauvaise chose mais, dans tous les cas, c’est dérangeant car les esprits interfèrent avec le processus de création et pourraient finir par posséder l’objet ou se combiner avec lui d’une autre manière. L’artisan doit trouver une méthode pour communiquer avec ces entités et les tenir à l’écart, ou bien collaborer avec elles pour améliorer encore plus les qualités conductives de l’objet envers les esprits. Dans le pire des cas, cela pourrait gâcher l’objet mais, dans le meilleur des cas, les esprits pourraient accorder à l’objet des pouvoirs spéciaux voire même le rendre intelligent.}
+|-
+| 18 || {s:Expandable|'''Proposition suspecte'''|Un individu douteux offre à l’artisan des ingrédients spéciaux ou une technique supposée raccourcir le temps de création tout en permettant d’obtenir des matières premières nécessaires à bien moindre prix. Mais quelque chose dans cette offre – en fait, tout dans cette offre – semble trop beau pour être vrai. L’artisan pourrait refuser ou accepter l’offre directement, mais il pourrait également tenter de déterminer la véracité des propos de l’individu, soit en comprenant ce qui le motive soit en réalisant un test. Dans tous les cas, si l’artisan décide d’accepter l’offre de l’individu mystérieux, vous pouvez décider des conséquences que cela va avoir. Qui sait ? Peut-être était-ce même une proposition honnête ?}
+|-
+| 20 || {s:Expandable|'''Défi technique'''|Une interaction inhabituelle au cours du processus de création donne lieu à un défi technique significatif. L’artisan va devoir s’interrompre et déterminer comment le gérer avant de continuer. Il pourrait exister plusieurs approches possibles à ce problème, chacune avec différents avantages et inconvénients.}
+20 Défaut imprévu
+Quelque chose ne fonctionne pas correctement dans l’objet, et l’artisan doit tout d’abord identifier ce qui est parti de travers et pourquoi. Certaines composantes étaient-elles défectueuses ? Quelqu’un est-il venu saboter l’objet ? L’artisan a-t-il commis une petite erreur qui a eu de grandes conséquences ? Une fois qu’il a pu identifier le défaut et réalisé comment empêcher que cela ne se reproduise dans le futur, il devra déterminer la manière la plus rapide pour l’éliminer et reprendre la création de l’objet.
+|}
+
+===Critiques lors de l’artisanat===
+
+Les réussites et échecs critiques lors de l’activité Fabriquer entraînent des effets qui sont bénins et raisonnables chaque fois qu’un personnage désire créer un objet : en cas de réussite critique, il gagne plus d’argent par jour passé à Fabriquer et, en cas d’échec critique, il détruit 10% des matières premières de l’objet. Mais ces récompenses et pénalités monétaires ne sont pas les seules conséquences possibles des critiques en cas d’artisanat. Avec cette variante, vous pouvez envisager d’appliquer occasionnellement des récompenses (pour les réussites critiques) et des pénalités (pour les échecs critiques) pertinentes pour la situation. Il vaut cependant mieux ne pas le faire trop souvent, tout particulièrement dans le cas d’un artisan de haut niveau qui fabrique un grand nombre d’objets de bas niveau et qui va obtenir des réussites critiques assez régulièrement. Si l’artisanat est une partie importante de votre campagne, vous pourriez limiter ces effets spéciaux aux 1 et 20 naturels et, même dans ce cas, uniquement lors de la création d’objets spéciaux.
+
+La plupart du temps, les effets d’une réussite ou d’un échec critique seront quelque chose d’original et d’approprié pour la situation spécifique dans votre campagne. Par exemple, si un PJ Fabrique spécialement une épée pour un dirigeant fier et obsédé par un ancêtre héroïque, en cas de réussite critique, l’objet pourrait être capable d’appeler l’esprit de cet ancêtre, qui hoche la tête de manière solennelle et appréciative en observant l’épée. En cas d’échec critique, le PJ termine l’épée mais y incorpore accidentellement une partie du blason d’une famille noble qui a assassiné l’ancêtre par traîtrise, ce qui déclenche la colère du monarque. Comme cet exemple le montre, l’effet d’un échec critique peut parfois mener à une situation où l’objet est créé malgré l’échec mais sa réalisation crée un problème grave qui doit être résolu. Quand vous utilisez ce système, envisagez de lancer les tests d’Artisanat en secret pour éviter que les connaissances du joueur n’influencent ses décisions.
+
+Il vaut généralement mieux inventer vos propres effets en cas d’échec ou de réussite critique mais voici quelques exemples qui peuvent être utilisés dans de nombreuses circonstances.
+
+====Réussite critique====
+* La réussite éclatante et la passion de l’artisan font qu’il insère dans l’objet une partie de lui, ce qui le transforme en un objet intelligent.
+* Si l’artisan créait un objet de niveau maximum, il peut augmenter son investissement pour créer un objet qui dépasse son niveau et qu’il ne pourrait normalement pas fabriquer. Par exemple, en tant de Fabriquer une baguette de boules de feu (un objet de niveau 7), un magicien de niveau 7 pourrait être capable de créer une baguette de boules de feu de niveau 4 (un objet de niveau 9).
+* L’objet possède une capacité spéciale positive mineure en plus de ses capacités normales. Vous pouvez choisir la capacité que vous voulez mais il s’agit généralement d’une autre activation mineure avec une fréquence quotidienne. L’avantage devrait être meilleur qu’un défaut / bizarrerie (vu que les bizarreries sont supposées être neutres).
+* L’objet est si bien fait qu’il est quasiment impossible de l’endommager. Sa Solidité est doublée ou son total de Points de vie est grandement accru. L’objet pourrait être résistant à la saleté, à l’oxydation ou à d’autres changements cosmétiques.
+* L’objet est si beau qu’il donne un bonus aux tests de Diplomatie et d’Intimidation quand il est visible ou utilisé au cours du test. Au lieu de cela, il pourrait aussi valoir plus que la normale en tant qu’objet d’art.
+* L’objet est si conçu de manière si détaillée qu’il détourne l’attention des adversaires lorsqu’il est manié en combat, ce qui donne un bonus aux tests pour Feinter ou Créer une diversion quand il est utilisé au cours du test.
+* L’artisan est en accord parfait avec l’objet, ses pouvoirs et ses possibilités, ce qui le transforme en une relique. En plus de ses capacités de base, l’artisan peut choisir d’autres pouvoirs que l’objet acquiert au fil du temps (voir Guide de maîtrise).
+
+====Échec critique====
+* L’artisan Fabrique l’objet mais, sans qu’il ne le sache, celui-ci est maudit.
+* L’artisan Fabrique l’objet mais celui-ci absorbe de manière permanente une partie de l’énergie vitale de son créateur et résiste toute tentative visant à le détruire, ce qui réduit de manière permanente le nombre de Points de vie de l’artisan jusqu’à ce qu’il mène à bien une quête permettant de détruire l’objet.
+* L’objet explose, ou son processus de création expose l’artisan à des blessures significatives avec un effet à long terme dont la guérison nécessite certains efforts. Il n’est guère utile d’infliger des dégâts sous forme de Points de vie pendant le temps libre, car il est trivial de les guérir avant de repartir à l’aventure.
+* Le processus de fabrication est parsemé de tellement de défauts qu’il attire une entité malveillante qui choisit de terminer l’objet et de l’habiter. L’intelligence de l’objet est opposée à celle de l’artisan et tente secrètement de saboter ce qu’il entreprend chaque fois que c’est possible.
+* L’objet semble parfaitement normal et tout à fait fonctionnel mais, quand quelqu’un tente d’utiliser ses pouvoirs, cela échoue. Par exemple, une armure pourrait tomber, une arme pourrait se briser, et une baguette pourrait juste émettre une odeur acide et irritante au lieu du sort désiré.
+* L’artisan est maudit par son propre échec et subit une pénalité à tous les futurs tests d’Artisanat jusqu’à ce qu’il obtienne une réussite critique ou reçoive une délivrance de la malédiction (remove curse) pour mettre un terme à cet effet.
+* Le processus de création se déroule si mal qu’il pollue les environs proches. Cela pourrait signifier que l’atelier doit être nettoyé de fonds en combles avant de pouvoir être utilisé à nouveau, ou cela pourrait être bien pire, comme polluer la réserve d’eau locale et rendre gravement malades ceux qui y habitent.
+
+===Convertir des objets magiques===
+De nombreux objets magiques trouvés par des personnages de haut niveau ne sont jamais utilisés en jeu mais plutôt condamnés à passer le reste de leur vie au fond d’un sac à dos, oubliés et délaissés. D’autres sont rapidement vendus pour obtenir les fonds nécessaires à l’achat d’objets plus appropriés. D’autres encore sont si profondément maléfiques que leur vente est un acte qui pose un problème de conscience, et finissent détruits. Toutes ces situations peuvent rendre ardu le travail du MJ qui cherche à calculer soigneusement et à équilibrer les richesses du groupe, ce qui peut mener à des rencontres inégales et d’autres problèmes autour de la table de jeu.
+
+Cette variante simplifie ce problème en offrant aux joueurs d’autres options pour les objets qu’ils ne comptent pas utiliser en leur permettant de démanteler un objet et de recycler ses composantes pour créer d’autres objets.
+
+Quand un objet est démantelé, vous pouvez choisir comment procéder. Vous pouvez utiliser immédiatement ses composantes pour créer un objet de thème similaire à celui qui a été déconstruit ou vous pouvez mettre ces composantes de côté pour une utilisation future lors de la fabrication d’un autre objet. Quand vous choisissez de créer un objet similaire, comme par exemple démanteler une arme magique pour créer un autre type d’arme magique (similaire mais différent), vous pouvez récolter plus de composantes et de magie résiduelle que si vous vous contentiez d’obtenir les meilleures parties de l’objet.
+
+Le MJ détermine si le nouvel objet est suffisamment similaire pour obtenir cet avantage, mais le nouvel objet devrait être similaire soit par ses capacités soit par son thème général. Par exemple, démanteler une cape de la chauve-souris (cape of the bat) pour créer des bottes ailées (winged boots) remplit certainement les conditions, tout comme démanteler un anneau d’escalade pour fabriquer des chaussons de l’araignée. Des objets appartenant au même type général pourraient également remplir la condition de similarité, mais seulement si leurs capacités tiennent du même thème.
+
+Les composantes génériques peuvent être mises de côté pour plus tard, mais elles ne peuvent pas être combinées avec d’autres composantes provenant d’un autre objet démantelé. S’il reste une certaine valeur en excès après la création d’un nouvel objet, ce reste est perdu, car il s’agit principalement de déchets vu que les meilleures parties ont été utilisées dans la fabrication du nouvel objet. Un objet démantelé a le même Encombrement que l’objet d’origine. Les MJ peuvent attribuer une date de péremption aux objets démantelés pour éviter qu’ils soient trop nombreux à s’accumuler dans les inventaires des personnages mais, à moins que les joueurs ne démantèlent les objets constamment, cela ne devrait pas être un problème.
+
+<div class="blocPF2">
+{s:titrePF2|Démanteler|}
+{s:traitRareté|Rare} {s:trait|Temps libre}
+
+Vous démantelez un objet pour fournir la base nécessaire en vue de le convertir en un nouvel objet. Vous avez besoin du don de compétence Artisanat alchimique pour démanteler les objets alchimiques et le don de compétence Artisanat magique pour démanteler les objets magiques.
+
+Pour Démanteler un objet, vous devez remplir les conditions suivantes.
+
+* L'objet est de votre niveau ou inférieur. Un objet qui n'indique pas un niveau est de niveau 0. Si l'objet est de niveau 9 ou supérieur, vous devez être maître en Artisanat et s'il est de niveau 16 ou supérieur, vous devez être légendaire.
+* L'objet n'est pas un objet maudit, un artefact ou un autre objet qui soit similairement difficile à détruire. * L'objet n'est pas un objet consommable.
+* L'objet possède un prix indiqué.
+* Vous devez avoir un jeu d'outils approprié et dans de nombreux cas, un atelier. Par exemple, vous avez besoin d'avoir accès à une forge pour démanteler un bouclier en métal ou un laboratoire d'alchimie pour démanteler les objets alchimiques.
+
+Au début de ce processus, vous devez décider si vous utilisez l'objet démantelé pour fabriquer un nouvel objet similaire ou si vous le détruisez simplement pour récupérer les matériaux bruts qui seront utilisés à une date ultérieure pour un autre objet. Dans les deux cas, il faut passer 1 jour pour que cette activité soit accomplie mais, si vous utilisez l'objet pour créer un nouvel objet similaire, ce jour peut être décompté de l'un des jours de fabrication du nouvel objet.
+
+À la fin de l'activité, vous devez effectuer un test d'Artisanat. Le MJ fixe le DD de ce test en fonction du niveau de l'objet que vous tentez de démanteler, de sa rareté et d'autres circonstances.
+
+'''Réussite critique''' Si vous démantelez l'objet pour faire un nouvel objet similaire, vous pouvez appliquer 80% du coût de l'objet démantelé pour le nouvel objet. Si vous avez démantelé l'objet pour n'en récupérer que les matériaux bruts, vous pouvez appliquer 55% des coûts de l'objet démantelé pour fabriquer un unique objet nouveau. Dans les deux cas, si le résultat excède les besoins liés au nouvel objet, le reste est gâché.
+
+'''Succès''' Comme pour une réussite critique, mais vous pouvez seulement appliquer 75% du coût de l'objet démantelé au nouvel objet similaire et 50% des coûts de l'objet démantelé pour fabriquer un autre objet par la suite.
+
+'''Échec''' Vous ne parvenez pas à démanteler l'objet, perdant votre temps. Vous pouvez essayer de nouveau.
+
+'''Échec critique''' Vous ne parvenez pas à démanteler l'objet et vous l'endommagez au cours du processus. Vous devez soit le réparer avant de retenter de le démanteler nouveau, soit tenter de le démanteler de nouveau, mais en perdant 5% de la valeur de l'objet.
+
+</div>
