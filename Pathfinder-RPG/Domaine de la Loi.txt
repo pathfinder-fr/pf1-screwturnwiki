@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Domaine de la Loi
 Title: Domaine de la Loi
-LastModified: 2023-03-10 00:23
+LastModified: 2023-05-10 14:35
 Categories:
   - 'Classe'
   - 'Domaine'
@@ -44,7 +44,7 @@ Au lieu du domaine, un personnage peut choisir d'adopter un des [[sous-domaines]
 ===Sous-domaine du Jugement===
 {s:cs}<div class="description">'''Source :''' Inner Sea Gods (ISG).</div>
 
-'''Réprimande (Sur).''' ''(remplace toucher de la Loi)'' Le personnage peut lancer un sort plus puissant contre une créature qui lui a infligé des dégâts au tour précédent. Le sort lancé doit cibler la créature pour bénéficier de cet effet, et est lancé avec un [[NLS]] accru de 1. Le [[prêtre]] peut utiliser cette capacité un nombre de fois par jour égal à 3 + son modificateur de [[Sagesse]]
+'''Réprimande (Sur).''' ''(remplace toucher de la Loi)'' Le personnage peut lancer un sort plus puissant contre une créature qui lui a infligé des dégâts depuis son dernier tour. Le sort doit cibler la créature qui a blessé le personnage, et est alors lancé avec un [[NLS]] accru de 1. Les sorts qui ciblent plusieurs créatures peuvent bénéficier de ce pouvoir, mais pas  les sorts à zone d'effet. Le [[prêtre]] peut utiliser cette capacité un nombre de fois par jour égal à 3 + son modificateur de [[Sagesse]].
 </div>
 </td><td>
 <div class="presentation arrondi">
@@ -58,7 +58,7 @@ Au lieu du domaine, un personnage peut choisir d'adopter un des [[sous-domaines]
 === Sous-domaine de la Fidélité===
 {s:cs}<div class="description">'''Source :''' Inner Sea Gods (ISG).</div>
 
-'''Toucher de la Fidélité (Sur).''' ''(remplace toucher de la Loi)'' Le personnage peut donner à une créature consentante par une [[action simple]] de contact un bonus sacré de +4 pour résister aux effets de [[charme]], de [[coercition]] et de [[peur]] pour une heure. Le [[prêtre]] peut utiliser cette capacité un nombre de fois par jour égal à 3 + son modificateur de [[Sagesse]], mais il ne peut cibler la même créature plus d’une fois par jour.
+'''Toucher de fidélité (Sur).''' ''(remplace toucher de la Loi)'' Par une [[action simple]], le personnage peut toucher une créature consentante et lui accorder un bonus de sainteté de +4 aux [[jds|jets de sauvegarde]] contre les effets de [[branche charme|charme]], de [[branche coercition|coercition]] et de [[registre|peur]] pendant une heure. Le [[prêtre]] peut utiliser cette capacité un nombre de fois par jour égal à 3 + son modificateur de [[Sagesse]].
 </div>
 </td></tr></table>
 
@@ -66,12 +66,12 @@ Au lieu du domaine, un personnage peut choisir d'adopter un des [[sous-domaines]
 <div class="presentation arrondi">
 {s:racial|Gobelin (race)|gobelins|Illustrations/PNJ/Gobelin.jpg}{s:MR}{s:BotD}
 ===Sous-domaine de l'Esclavage===
-'''Joug du maître (Sur).''' ''(remplace bâton de la Loi)'' Au niveau 8, le personnage peut tenter d'imposer son joug à une créature dans un rayon de 9 mètres (6 {s:c}) en déclarant la cible comme sa propriété. La cible peut résister à l'effet en réussissant un jet de [[Volonté]] (DD 10 + 1/2 niveau de prêtre du personnage + son modificateur de [[Sagesse]]). En cas d'échec, la cible subit l'effet d'une ''[[domination universelle]]'' pendant un nombre de rounds égal à la moitié du niveau de classe du personnage. La cible peut décider d'ignorer les ordres prononcés par le personnage, subissant 2 points d'[[Affaiblissement temporaire (capacité)|affaiblissement temporaire]] de [[Constitution]] et devenant [[chancelant|chancelante]] pendant 1 round. Le personnage peut utiliser ce pouvoir une fois par jour au niveau 8, et une fois de plus à tous les 4 niveaux après celui-ci.
+'''Joug du maître (Sur).''' ''(remplace bâton de la Loi)'' Au niveau 8, le personnage peut tenter d'imposer son joug à une créature dans un rayon de 9 mètres (6 {s:c}) en la déclarant comme sa propriété. La cible peut résister à l'effet en réussissant un jet de [[Volonté]] (DD 10 + 1/2 niveau de prêtre du personnage + son modificateur de [[Sagesse]]). En cas d'échec, la cible subit l'effet d'une ''[[domination universelle]]'' pendant un nombre de rounds égal à la moitié du niveau de prêtre du personnage. La cible peut décider d'ignorer les ordres prononcés par le personnage, subissant 2 points d'[[Affaiblissement temporaire (capacité)|affaiblissement temporaire]] de [[Constitution]] et devenant [[chancelant|chancelante]] pendant 1 round. Le personnage peut utiliser ce pouvoir une fois par jour au niveau 8, et une fois de plus par jour tous les 4 niveaux après le niveau 8. C'est un effet [[registre|mental]] [[registre|dépendant du langage]].
 </div>
 </td><td>
 <div class="presentation arrondi">
 === Sous-domaine de la Tyrannie===
-{s:cs}{s:BotD}'''Frappe du tyran (Sur).''' ''(remplace bâton de la Loi)'' Au niveau 8, par une [[action immédiate]] lorsqu'il touche une créature avec une attaque au corps à corps, le personnage peut substituer les dégâts de l'attaque (mais pas ses autres effets) par un effet d’''[[injonction suprême]]'', avec un [[NLS]] égal à son niveau de classe. Il peut utiliser ce pouvoir une fois par jour au niveau 8, et une fois de plus à tous les 4 niveaux après celui-ci.
+{s:cs}{s:BotD}'''Frappe du tyran (Sur).''' ''(remplace bâton de la Loi)'' Au niveau 8, par une [[action immédiate]] lorsqu'il touche une créature avec une attaque au corps à corps, le personnage peut substituer les dégâts de l'attaque (mais pas ses autres effets) par un effet d’''[[injonction suprême]]'', avec un [[NLS]] égal à son niveau de prêtre. Il peut utiliser ce pouvoir une fois par jour au niveau 8, et une fois de plus par jour tous les 4 niveaux après le niveau 8.
 </div>
 </td></tr></table>
 
