@@ -1,0 +1,136 @@
+---
+Name: Pathfinder2.RE intro
+Title: Rule Elements sur Foundry - introduction
+LastModified: 2023-05-25 16:27
+---
+C'est grâce aux "rule elements" (lit. morceaux de règles) que le système PF2 sur Foundry automatise les effets mécaniques associés à plusieurs types d'éléments tels que :
+* les dons,
+* les capacités de classe,
+* les capacités et dons d'ascendance,
+* l'équipement,
+* les effets applicables indépendamment des choses précédentes.
+
+<nowiki><style>
+#content #PageContentDiv code {
+  background-color: #e7dfc6;padding: 2px 5px 4px 5px;border-radius:6px;font-family:Consolas;font-weight: bold;
+}
+#content #PageContentDiv .example {
+  margin-left: auto; margin-right: auto; width: 98%;margin-top: 4px;
+}
+#content #PageContentDiv .example tr {
+  background-color: #f3efe2;
+}
+#content #PageContentDiv .example td {
+  padding: 8px;
+  border: 2px solid #e7dfc6;
+  text-align: left;
+}
+#content #PageContentDiv .example tr td:nth-of-type(2) {
+  width: 280px;
+  text-align: center;
+}
+#content #PageContentDiv .example tr td:nth-of-type(2) img {
+  width: 280px;
+}
+</style></nowiki>
+{toc}
+
+===Visibilité des rules elements===
+
+Les rule elements d'un item Foundry (c'est-à-dire d'un don, d'un objet, d'une capacité...) sont visibles dans l'onglet Règles de sa description.
+
+{s:Image|ADJ/PF2/FVTT/rei2.webp|80%|centre cadre}
+
+Par défaut, tous les MJ ont accès à cet onglet. Pour permettre aux joueurs de voir et de modifier les rule elements, il faut activer l'option "Accès du joueur aux Éléments de Règles" dans la configuration du système PF2.
+
+{s:Image|ADJ/PF2/FVTT/rei1.webp|80%|centre cadre}
+
+===Un aperçu du format JSON===
+
+Comme on peut le voir sur l'exemple de la torche ci-dessus, les rule elements sont écrits dans un code spécifique qui suit les conventions du format JSON (JavaScript Object Notation). Comme chaque accolade, crochet, guillemet et virgule a de l'importance pour que le système puisse comprendre le code, il peut être intéressant de connaître, dans les grandes lignes, les conventions propres au format JSON.
+
+Le code JSON peut être écrit indifféremment sur une seule ligne (texte en continu) ou sur plusieurs lignes mais, pour mieux en comprendre la structure, on peut formater le code du premier rule element de la torche comme ceci :
+
+{s:Image|ADJ/PF2/FVTT/rei3.webp|60%|centre cadre}
+
+====Clefs et valeurs====
+
+Le format JSON sert à présenter des informations qui sont structurées sous la forme de paires clefs/valeurs.
+
+Pour prendre un exemple plus concret, il pourrait s'agir d'une fiche d'identité qui reprendrait le nom, la date de naissance etc. d'une personne. L'information relative au nom serait vue comme une paire constituée de la clef "nom" et de la valeur "Valéros" par exemple.
+
+En JSON, cela s'écrirait comme ceci : <code>{ "nom" : "Valéros" }</code>
+
+Chaque clef JSON est écrite entre guillemets. Elle est suivie d'un caractère deux-points, puis de la valeur associée. Dans le cas du nom, la valeur est un texte, mais il existe d'autres types de valeurs. S'il y a plusieurs paires clefs/valeurs, on les sépare par des virgules.
+
+====Les accolades====
+
+En JSON, les accolades permettent de regrouper toutes les informations qui correspondent à un objet (un mot un peu passe-partout qui désigne ici le rassemblement de toutes les informations relatives à un même élément).
+
+Comme chaque rule element est un objet, le code doit être emballé dans des accolades. Le premier et le dernier caractère d'une rule element sera donc <code>{</code> et <code>}</code>.
+
+L'utilisation des accolades n'est toutefois pas limité à ces deux caractères. Plus haut, on a indiqué que, dans une paire clef/valeur, la valeur pouvait parfois être autre chose qu'un texte. Une valeur peut être elle aussi un objet, qui contient plusieurs informations structurées.
+
+Si on reprend l'exemple de la fiche d'identité, à côté du nom de l'individu, on pourrait trouver sa date de naissance, avec le jour de naissance, le mois de naissance et l'année de naissance. Dans ce cas-ci, la valeur associée à la clef "date de naissance" est elle-même une information composée de plusieurs éléments. Cela pourrait donner quelque chose comme ceci :
+
+<pre>{
+  "nom" : "Valéros",
+  "date de naissance" : {
+    "jour" : 25,
+    "mois" : 12,
+    "année" : 4694
+  }
+}</pre>
+
+On a à nouveau utilisé des accolades à l'intérieur du code pour emballer les 3 paires clef/valeur qui composent la date de naissance. On peut aussi noter au passage que, dans le cas du jour, du mois et de l'année, comme il s'agit de valeurs numériques plutôt que de texte, on n'a pas utilisé de guillemets.
+
+Si on reprend l'exemple de la torche, on constate que, à l'intérieur du rule element, on a deux objets composés de plusieurs informations. En fait, l'un de ces objets - celui qui se rapporte à l'animation de la lumière - est lui-même une des informations situées à l'intérieur de l'autre - celui qui se rapporte aux valeurs décrivant la lumière. Pour mettre la structure en évidence, sur l'image suivante, on a utilisé des traits bleus pour représenter les "boîtes" que les accolades forment.
+
+{s:Image|ADJ/PF2/FVTT/rei4.webp|60%|centre cadre}
+
+Il faut être très attentif aux accolades et à leur placement, surtout quand on écrit un rule element de manière "plate" (sur une seule ligne) : c'est facile de mal placer ou d'en oublier une, et cela risque de changer complètement la signification du code ou de le rendre incompréhensible pour le système.
+
+====Listes de valeurs====
+
+Certaines clefs (disons par exemple la liste des compagnons de Valéros pour continuer l'exemple développé ci-dessus) attendent une valeur qui est composée de plusieurs éléments. Pour écrire ces listes d'éléments en JSON, on utilise des crochets.
+
+Par exemple :
+
+<nowiki><pre>{
+  "nom" : "Valéros",
+  "date de naissance" : {
+    "jour" : 25,
+    "mois" : 12,
+    "année" : 4694
+  },
+  "compagnons" : ["Kyra", "Mérisiel", "Ezren"]
+}</pre></nowiki>
+
+Tout comme les paires clefs/valeurs, les éléments d'une liste sont séparés par des virgules.
+
+Dans l'exemple de la torche, on peut voir le code <nowiki><code>"predicate": ["lit-torch"]</code></nowiki>. Même s'il n'y a qu'un seul élément cité dans la liste, il s'agit tout de même d'une liste. Et la rule element ne fonctionnerait pas si on supprimait les crochets, parce que le système s'attend à trouver à côté de la clef "predicate" une liste de conditions nécessaires à l'activation de la lumière. Même quand il n'y a qu'une seule condition, les crochets sont nécessaires.
+
+====Différents types de valeurs====
+
+On a vu plus haut que le principe fondamental du format JSON était d'associer une valeur à chacune des clefs. Il existe plusieurs types de valeurs, chacun avec sa syntaxe propre (on en a déjà croisé plusieurs). En voici une liste.
+
+* '''Texte''' : à placer entre guillemets (ou apostrophes) ; ex : <code>"nom": "Valéros"</code>
+* '''Nombre''' : à écrire directement ; ex : <code>"shadows": 0.2</code>
+* '''Booléen''' : true (vrai) ou false (faux) ; ex : <code>"critical": true</code>
+* '''Liste''' : à écrire entre crochets ; ex : <nowiki><code>"compagnons" : ["Kyra", "Mérisiel", "Ezren"]</code></nowiki>
+* '''Objet''' : à écrire entre accolades ; ex : voir la date de naissance plus haut
+
+Le seul type qui n'a pas vraiment été abordé plus haut est celui des valeurs booléennes. Derrière ce mot peut-être un peu étrange se cache un concept assez simple : il n'existe que deux valeurs booléennes, qui sont vrai et faux. Le code <code>"critical": true</code> permet par exemple de préciser qu'une rule element ajoutant 1d6 aux dégâts ne s'applique que dans le cas d'une attaque critique.
+
+Pour être complet, il faut préciser qu'à partir des 5 types de valeur cités ci-dessus, on peut en fait en construire bien d'autres. Comme on l'a vu plus haut, on peut avoir une valeur qui est un objet dont l'un des éléments est lui-même un objet. On pourrait aussi avoir une liste dont les éléments sont objets, ou une liste dont les éléments sont des listes de nombre, etc. mais tous ces types plus complexes suivent les mêmes règles d'écriture.
+
+====Guillemets au sein d'un texte====
+Une dernière précision sur un cas particulier : comme les textes doivent être encadrés de guillemets, comment faire si on veut utiliser le caractère "guillemet" ''dans'' un texte ?
+
+Il y a deux manières de procéder.
+
+La première méthode consiste à "échapper" le caractère guillemet, c'est-à-dire à indiquer qu'on désire bien le caractère guillemet et pas simplement indiquer la fin du texte. Cela se fait en ajoutant un slash inverse <code>\</code> juste avant le guillemet. Par exemple : <code>"Tar Baphon, dit \"le Tyran qui Murmure\""</code> (le tout dernier guillemet termine le texte mais celui qui est juste avant est un "vrai" caractère guillemet faisant partie du texte).
+
+Notez que, vu que le slash inverse est utilisé pour "échapper" le caractère qui le suit, si on veut utiliser le caractère <code>\</code> à l'intérieur d'un texte, il faut lui aussi l'échapper : <code>"Mais qui va utiliser \\ dans un texte ?"</code> correspond au texte <code>Mais qui va utiliser \ dans un texte ?</code>.
+
+La seconde méthode, potentiellement plus simple, consiste à encadrer le texte avec des apostrophes plutôt que des guillemets. Par exemple : <code>'Tar Baphon, dit "Le Tyran qui Murmure"'</code>. Mais, dans ce cas-là, c'est l'utilisation d'apostrophes à l'intérieur du texte qui devient problématique. Là aussi, on peut simplement échapper les apostrophes qu'on désire garder telles quelles : <code>'L\'éveil des "Seigneurs" des Runes'</code>
