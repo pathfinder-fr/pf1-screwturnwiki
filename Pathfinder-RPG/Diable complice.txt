@@ -1,11 +1,16 @@
 ---
 Name: Pathfinder-RPG.Diable complice
-Title: Diable complice (Hespérian)
-LastModified: 2023-08-02 20:35
+Title: Diable complice (Hespérien)
+LastModified: 2023-08-10 12:45
+Categories:
+  - 'Monstre'
+  - 'Src Inner Sea Gods'
 ---
 <table class="Bestiaire"><tr><td>
 <div class="BD">
-{s:BDTitre|Accomplice Devil (Hesperian)|FP 4}
+{s:BDTitre|Diable complice (Hespérien)|FP 4}
+{s:pucem|Extérieur|Ville|Extraplanaire}
+{s:BDTexte|''Source : [[Dieux de la mer Intérieure (Contenu)|Dieux de la mer Intérieure p.279]]''}
 {s:BDTexte|'''PX''' 1 200}
 {s:BDTexte|[[type Extérieur|Extérieur]] ([[sous-type diable|diable]], [[sous-type extraplanaire|extraplanaire]], [[sous-type Loi|Loi]], [[sous-type Mal|Mal]], [[sous-type métamorphe|métamorphe]]) de taille M, LM}
 {s:BDTexte|'''Init''' +4 ; '''Sens''' ''[[détection du Bien]]'', [[Vision dans le noir (capacité)|vision dans le noir]] à 18 m, [[Vision dans les ténèbres (capacité)|vision dans les ténèbres]] ; [[Perception]] +10}
@@ -16,11 +21,11 @@ LastModified: 2023-08-02 20:35
 {s:BDTexte|'''Capacités défensives''' [[Vision à 360° (capacité)|vision à 360°]] ; '''Immunités''' feu, poison ; '''RD''' 5/Bien ; '''Résistances''' acide 10, froid 10 ; '''RM''' 15}
 {s:BDSousTitre|Attaque}
 {s:BDTexte|'''VD''' 9 m, escalade 6 m, nage 6 m}
-{s:BDTexte|'''Corps à corps''' 2 morsures, +7 (amphisbaena form only) ou masse d'armes lourde, +7/+2 (natural form only)}
+{s:BDTexte|'''Corps à corps''' 2 morsures, +7 (forme d'amphisbène uniquement) ou masse d'armes lourde, +7/+2 (forme naturelle uniquement)}
 {s:BDTexte|'''Pouvoirs magiques''' ([[NLS]] 6 ; [[concentration]] +8)}
 {s:BDSorts|Constant — ''[[détection du bien]]''}
 {s:BDSorts|À volonté — ''[[assistance divine]]'', ''[[hypnose]]'' (DD 13), ''[[lecture de la magie]]'', ''[[lumière]]'', ''[[message]]'', ''[[prestidigitation]]''}
-{s:BDSorts|3/jour — ''[[charmant cadeau]]'' (DD 13), ''[[lumière du jour]]'', ''[[mains brûlantes]]'' (DD 13), ''[[téléportation suprême]]'' (self plus 50 lbs. of objects only), ''[[ténèbres]]''}
+{s:BDSorts|3/jour — ''[[charmant cadeau]]'' (DD 13), ''[[lumière du jour]]'', ''[[mains brûlantes]]'' (DD 13), ''[[téléportation suprême]]'' (lui-même plus 25 kg d'objets uniquement), ''[[ténèbres]]''}
 {s:BDSorts|1/jour — ''[[charme-personne]]'' (DD 13), ''[[splendeur de laigle|splendeur de l'aigle]]'', ''[[suggestion]]'' (DD 15)}
 {s:BDSousTitre|Caractéristiques}
 {s:BDTexte|'''For''' 13, '''Dex''' 10, '''Con''' 11, '''Int''' 14, '''Sag''' 13, '''Cha''' 14}
@@ -28,22 +33,23 @@ LastModified: 2023-08-02 20:35
 {s:BDTexte|'''Dons''' [[Magie de guerre]], [[Science de linitiative|Science de l'initiative]], [[Volonté de fer]]}
 {s:BDTexte|'''Compétences''' [[Bluff]] +15, [[Connaissances]] (folklore local) +11, [[Connaissances]] (plans) +11, [[Connaissances]] (religion) +11, [[Diplomatie]] +15, [[Escalade]] +9, [[Intimidation]] +11, [[Natation]] +9, [[Perception]] +10, [[Psychologie]] +10 ; '''Modificateurs raciaux''' +4 en Bluff, +4 en Diplomatie}
 {s:BDTexte|'''Langues''' céleste, draconien, infernal ; [[Télépathie (capacité)|télépathie]] à 30 m}
-{s:BDTexte|'''Particularités''' [[changement de forme (capacité)|changement de forme]] (any Medium humanoid or Medium amphisbaena ; ''[[modification dapparence|modification d'apparence]]'' ou ''[[forme bestiale III]]'')}
+{s:BDTexte|'''Particularités''' [[changement de forme (capacité)|changement de forme]] (n'importe quel [[type Humanoïde|humanoïde]] de taille M ou amphisbène de taille M ; ''[[modification dapparence|modification d'apparence]]'' ou ''[[forme bestiale III]]'')}
 {s:BDSousTitre|Écologie}
-{s:BDTexte|'''Environnement''' any (Hell)}
-{s:BDTexte|'''Organisation''' solitary, pair, or cabal (3–5)}
+{s:BDTexte|'''Environnement''' tous (Enfers)}
+{s:BDTexte|'''Organisation''' solitaire, paire, ou cabale (3–5)}
 {s:BDTexte|'''Trésor''' standard}
 {s:BDSousTitre|Pouvoirs spéciaux}
-{s:BDTexte|'''All-Around Vision (Ext).''' A hesperian has all-around vision only in amphisbaena form.}
-{s:BDTexte|'''Poison (Ext).''' Bite—injury; save Fort DC 13; frequency 1/round for 4 rounds; effect 1d2 Con; cure 1 save. The save DC is Constitution-based.}
+{s:BDTexte|'''Vision à 360° (Ext).''' Un hespérian ne possède la [[Vision à 360° (capacité)|vision à 360°]] que lorsqu'il adopte une forme d'amphisbène.}
+{s:BDTexte|'''Poison (Ext).''' Morsure - blessure ; ''jds'' Vigueur DD 13 ; ''fréquence'' 1/round pendant 4 rounds ; ''effet'' 1d2 Constitution ; ''guérison'' 1 réussite. Le DD du jet de sauvegarde est basé sur la Constitution.}
 </div>
-</td><td><div>''This robed figure appears human except for snakelike eyes, a pair of devilish horns, and the occasional dart of a forked tongue.''
+</td><td><div><ul style="margin: 0 0 -10 0;margin-top: 6px;margin-bottom: 12px;"><li>'''''Voir la description des [[diable|diables]].'''''</li></ul>
+''Cette silhouette vêtue d'une robe semble humaine, à l'exception de ses yeux en forme de serpent, d'une paire de cornes diaboliques et des quelques apparitions d'une langue fourchue frappant l'air.''
 
-Servitors of Asmodeus, hesperians—also known as accomplice devils—come to the Material Plane to help guide inf luential individuals and their followers into Hell’s grasp. Once a hesperian finds a suitable target for his clever wiles, he tells his victims that the greatest of Hell’s devils sent him, and that his diabolical masters have recognized the individual’s talents and potential. The hesperian goes on to claim that he has come to the mortal world in order to guide the creature as a chosen prodigy of Hell, and promises to carry the individual past the threshold of greatness. It’s all a tangled lie, of course, but the best lies are the ones that at some point can be made into truths. A hesperian encourages envy, overreaching, pride, and ultimately hubris in his targets, urging his victims to strive toward ever bolder and more grandiose destinies. A hesperian dedicates himself to a mortal’s service, assisting his victim in amassing power, wealth, prestige—all the while inf lating her ego and cultivating her belief in her own worthiness and infallibility. Once fully convinced of her own incontrovertible position, a hesperian’s victim is usually only a gentle push from Hell’s threshold.
+Serviteurs d'[[Asmodéus (technique)|Asmodéus]], les hespériens, également connus sous le nom de diables complices, viennent sur le plan Matériel pour aider à guider les individus influents et leurs disciples vers la soumission aux Enfers. Une fois qu'un hespérien a trouvé une cible convenable pour ses ruses, il dit à ses victimes que le plus grand des diables des Enfers l'a envoyé et que ses maîtres diaboliques ont reconnu les talents et le potentiel de l'individu. L'hespérien poursuit en affirmant qu'il est venu dans le monde des mortels pour guider la créature en tant que prodige choisi par les Enfers, et promet d'amener l'individu à franchir le seuil de la grandeur. Tout cela n'est bien sûr qu'un tissu de mensonges, mais les meilleurs mensonges sont ceux qui, à un moment ou à un autre, peuvent devenir des vérités. L'hespérien encourage l'envie, la démesure, la convoitise et, en fin de compte, l'orgueil chez ses cibles, poussant ses victimes à s'efforcer d'atteindre des sommets toujours plus audacieux et plus grandioses. L'hespérien se met au service d'un mortel, aidant sa victime à acquérir pouvoir, richesse et prestige, tout en gonflant son ego et en cultivant sa croyance en sa propre valeur et en son infaillibilité. Une fois pleinement convaincue de sa position incontestable, la victime d'un hespérien n'est généralement plus qu'à une faible distance du seuil des Enfers.
 
-Always serving themselves and their dark god, hesperians are careful to not show too much of their hand, preferring to beguile and manipulate from the shadows. They cunningly alter their inhuman features to resemble attractive humanoids to mingle with mortals, appear more convincing in negotiations, and to not draw too much attention to their devilish natures.
+Toujours au service d'eux-mêmes et de leur sinistre dieu, les hespériens prennent soin de ne pas trop montrer leur jeu, préférant tromper et manipuler dans l'ombre. Ils modifient astucieusement leurs traits inhumains pour ressembler à de séduisants humanoïdes afin de se mêler aux mortels, de paraître plus convaincants dans les négociations et de ne pas trop attirer l'attention sur leur nature diabolique.
 
-A hesperian often establishes Asmodean cults, then elevates one chosen mortal to a position of leadership within the group. He advises this leader, all the while manipulating other cultists—even sacrificing them if necessary—to help this mortal leader’s ascendance without her having any direct accountability. A single hesperian typically has several mortals whom he calls master and advises in this way. Rotating his attention between these masters, the hesperian enjoys appearing for a while and then unexpectedly vanishing for periods like some dark muse.
+Un hespérien crée souvent des cultes à Asmodéus, puis élève un mortel choisi à un poste de direction au sein du groupe. Il conseille ce chef, tout en manipulant les autres cultistes, jusqu'à les sacrifier si nécessaire, pour favoriser l'ascension de ce chef mortel sans qu'il ait à en rendre compte directement. Un hespérien a généralement plusieurs mortels qu'il appelle maîtres et qu'il conseille de cette manière. Faisant tourner son attention entre ces maîtres, l'hespérien aime apparaître pendant un certain temps, puis disparaître inopinément pendant des périodes, comme une muse obscure.
 
-In his true form, a hesperian looks like a devilishly handsome human male with devilish horns, a forked tongue, and eyes reminiscent of snake’s, but he can make himself a perfect imitation of any humanoid or even take the form of a long snake with a head on each end. Hesperians stand just under 7 feet tall and weigh approximately 180 pounds.
+Sous sa véritable forme, l'hespérien ressemble à un homme diablement beau, avec des cornes diaboliques, une langue fourchue et des yeux rappelant ceux d'un serpent, mais il peut imiter à la perfection n'importe quel humanoïde ou même prendre la forme d'un long serpent avec une tête à chaque extrémité. Les hespériens mesurent un peu moins de 2 mètres et pèsent environ 90 kilos.
 </div></td></tr></table>
