@@ -1,9 +1,9 @@
 ---
 Name: Pathfinder-RPG.Potions magiques
 Title: Les potions magiques
-LastModified: 2020-08-02 19:26
+LastModified: 2023-08-14 15:25
 Categories:
-  - 'Potion magique'
+  - 'Objet mag potion'
 ---
 {s:MenuObjetsMagiques}
 Les potions sont des breuvages magiques qui produisent leur effet quand elles sont bues. Leur apparence varie grandement. Les huiles magiques sont de même nature, mais il convient d’en enduire un objet au lieu de les avaler. Les potions et les huiles ne peuvent servir qu’une fois chacune. Elles reproduisent les effets d’un sort du 3e niveau ou inférieur dont le temps d’incantation est inférieur à une minute et dont la cible peut être une ou plusieurs créatures ou un ou plusieurs objets. Les sorts dont la portée est « personnelle » ne peuvent pas être faits en potions. Le prix d’une potion est égal au niveau de lanceur de sorts du créateur x le niveau du sort x 50 po. Dans le cas où le sort inclut une [[composante matérielle]] coûteuse, son prix s’ajoute au prix de base de la potion et à son prix de création. La Table "[[Potions magiques#DETERMINATION|Coût des potions]]" donne des exemples de prix pour un niveau de lanceur de sorts minimum. Certains sorts apparaissent à des niveaux différents pour différents types de lanceurs de sorts. Le niveau de ces sorts dépend du niveau du personnage qui a concocté la potion.
@@ -168,81 +168,67 @@ Un elfe, doté de 5 rangs au moins en [[Profession]] (cuisinier) et du don [[Pr�
 Un elfe qui tente de cuisiner un plat magique doit réussir un test de [[Profession]] (cuisinier). Le [[DD]] de ce test est égal à 20 + le niveau du sort le plus puissant qui a été lancé lors de la confection du plat. Un succès signifie que l’elfe crée un plat suffisamment riche pour rassasier une créature de taille M ou plus petite. Cuisiner un plat magique pour une créature de taille G ou plus augmente le [[DD]] du test de [[Profession]] (cuisinier) de 5 pour chaque catégorie de taille au-dessus de M, et double la quantité de nourriture et d’ingrédients nécessaires. La première créature qui mange un plat magique gagne les avantages que sa magie procure ; partager les plats n’affecte pas plusieurs participants au dîner, quelle que soit la façon dont les portions sont déterminées.
 
 <table class="page espace-col deuxcol"><tr><td>
-{s:OM|Filet de poisson-moineau au beurre
-|{s:MR}
-|[[Évocation]] faible
-|5
-|aucun
-|900 po
-|500 g
-|Le poisson-moineau est un nageur à la chair fade natif des rivières et des ruisseaux du Royaume des elfes, surtout connu pour son impressionnante vitesse et sa capacité à sauter hors de l’eau et à s’attacher aux branches basses des arbres pour éviter les prédateurs. Sa chair a la couleur du saumon et possède une certaine saveur lorsqu’elle est cuisinée avec du beurre, des herbes et du sel ; il est préférable de la consommer fraîche, mais si elle est séchée de manière appropriée après préparation elle conserve sa saveur, qu’elle soit consommée froide ou chaude. Manger le filet magique procure au personnage un bonus de +10 aux tests de compétence d’[[Acrobaties]], d’[[Escalade]] et de [[Natation]] pendant 1 heure.
-|[[Préparation de potions]], 5 rangs en [[Profession]] (cuisinier), le fabricant doit posséder 5 rangs en [[Acrobaties]], [[Escalade]] et [[Natation]]
-|450 po}
+<div class="BD">
+{s:BDTitre|Filet de poisson-moineau au beurre|{s:MR}}
+'''Aura''' [[Évocation]] faible ; '''NLS''' 5 ; '''Emplacement''' aucun ; '''Prix''' 900 po ; '''Poids''' 500 g
+(((Description)))
+Le poisson-moineau est un nageur à la chair fade natif des rivières et des ruisseaux du Royaume des elfes, surtout connu pour son impressionnante vitesse et sa capacité à sauter hors de l’eau et à s’attacher aux branches basses des arbres pour éviter les prédateurs. Sa chair a la couleur du saumon et possède une certaine saveur lorsqu’elle est cuisinée avec du beurre, des herbes et du sel ; il est préférable de la consommer fraîche, mais si elle est séchée de manière appropriée après préparation elle conserve sa saveur, qu’elle soit consommée froide ou chaude. Manger le filet magique procure au personnage un bonus de +10 aux tests de compétence d’[[Acrobaties]], d’[[Escalade]] et de [[Natation]] pendant 1 heure.
+(((Fabrication)))
+'''Conditions''' [[Préparation de potions]], 5 rangs en [[Profession]] (cuisinier), le fabricant doit posséder 5 rangs en [[Acrobaties]], [[Escalade]] et [[Natation]] ; '''Coût''' Filet de poisson-moineau au beurre0
+</div>
 
-{s:OM|Chaussons au chéya
-|{s:MR}
-|[[Transmutation]] modérée
-|10
-|aucun
-|300 po
-|500 g
-|Le chéya est une sous-espèce immobile et plus petite de la liane meurtrière native du Royaume des elfes (certains elfes pensent que les plants de liane meurtrière mobiles et agressives sont l’une des conséquences du développement du chéya). La plupart du temps inoffensif, sauf envers les plus petits animaux, certains elfes cultivent le chéya pour ses racines, ses feuilles et ses baies. Les racines sont broyées en une sorte de purée puis mélangées à de l’eau ou du lait pour obtenir une pâte à chou. On y ajoute les épaisses feuilles de chéya coupées en dés, puis l’on ébouillante ou l’on cuit à l’étouffée, en ayant au préalable badigeonné les chaussons avec une gelée sucrée préparée avec les baies de chéya. Riches, savoureux et facilement transportables, les chaussons sont d’excellents atouts pour améliorer magiquement les capacités d’un personnage. Un chausson au chéya typique procure au personnage un bonus de +2 en [[Constitution]] pendant 1 heure, même si d’autres recettes peuvent améliorer d’autres caractéristiques.
-|[[Préparation de potions]], 5 rangs en [[Profession]] (cuisinier), ''[[endurance de lours|endurance de l’ours]]''
-|150 po}
+<div class="BD">
+{s:BDTitre|Chaussons au chéya|{s:MR}}
+'''Aura''' [[Transmutation]] modérée ; '''NLS''' 10 ; '''Emplacement''' aucun ; '''Prix''' 300 po ; '''Poids''' 500 g
+(((Description)))
+Le chéya est une sous-espèce immobile et plus petite de la liane meurtrière native du Royaume des elfes (certains elfes pensent que les plants de liane meurtrière mobiles et agressives sont l’une des conséquences du développement du chéya). La plupart du temps inoffensif, sauf envers les plus petits animaux, certains elfes cultivent le chéya pour ses racines, ses feuilles et ses baies. Les racines sont broyées en une sorte de purée puis mélangées à de l’eau ou du lait pour obtenir une pâte à chou. On y ajoute les épaisses feuilles de chéya coupées en dés, puis l’on ébouillante ou l’on cuit à l’étouffée, en ayant au préalable badigeonné les chaussons avec une gelée sucrée préparée avec les baies de chéya. Riches, savoureux et facilement transportables, les chaussons sont d’excellents atouts pour améliorer magiquement les capacités d’un personnage. Un chausson au chéya typique procure au personnage un bonus de +2 en [[Constitution]] pendant 1 heure, même si d’autres recettes peuvent améliorer d’autres caractéristiques.
+(((Fabrication)))
+'''Conditions''' [[Préparation de potions]], 5 rangs en [[Profession]] (cuisinier), ''[[endurance de lours|endurance de l’ours]]'' ; '''Coût''' Chaussons au chéya0
+</div>
 
-{s:OM|Gâteau du sauteur
-|{s:MR}
-|[[Transmutation]] faible
-|5
-|aucun
-|500 po
-|500 g
-|Ce gâteau brun et spongieux semble léger en main, mais il est incroyablement dur à mâcher. L’ingérer renforce les muscles des jambes et l’élasticité de leurs tendons (en émettant des bruits d’étirements secs quelques secondes après l’ingestion), ce qui améliore la capacité du personnage à sauter et à chuter sans encombre. Pendant les 10 prochaines minutes, le personnage gagne un bonus de +20 sur ses tests d’[[Acrobaties]] pour sauter. S’il saute délibérément d’une certaine hauteur et réussit un test d’[[Acrobaties]] [[DD]] 15, il encaisse des dégâts de chute comme s’il chutait d’une hauteur inférieure de 6 mètres (au lieu de la réduction habituelle de 3 mètres). S’il chute, il peut ajouter les bonus dont il profite lorsqu’il saute délibérément pour traiter la chute comme si elle s’effectuait d’une hauteur réduite de 3 mètres.
-|[[Préparation de potions]], 5 rangs en [[Profession]] (cuisinier), ''[[feuille morte]]''
-|250 po}
+<div class="BD">
+{s:BDTitre|Gâteau du sauteur|{s:MR}}
+'''Aura''' [[Transmutation]] faible ; '''NLS''' 5 ; '''Emplacement''' aucun ; '''Prix''' 500 po ; '''Poids''' 500 g
+(((Description)))
+Ce gâteau brun et spongieux semble léger en main, mais il est incroyablement dur à mâcher. L’ingérer renforce les muscles des jambes et l’élasticité de leurs tendons (en émettant des bruits d’étirements secs quelques secondes après l’ingestion), ce qui améliore la capacité du personnage à sauter et à chuter sans encombre. Pendant les 10 prochaines minutes, le personnage gagne un bonus de +20 sur ses tests d’[[Acrobaties]] pour sauter. S’il saute délibérément d’une certaine hauteur et réussit un test d’[[Acrobaties]] [[DD]] 15, il encaisse des dégâts de chute comme s’il chutait d’une hauteur inférieure de 6 mètres (au lieu de la réduction habituelle de 3 mètres). S’il chute, il peut ajouter les bonus dont il profite lorsqu’il saute délibérément pour traiter la chute comme si elle s’effectuait d’une hauteur réduite de 3 mètres.
+(((Fabrication)))
+'''Conditions''' [[Préparation de potions]], 5 rangs en [[Profession]] (cuisinier), ''[[feuille morte]]'' ; '''Coût''' Gâteau du sauteur0
+</div>
 </td>
 <td>
-{s:OM|Soupe de vie temporaire
-|{s:MR}
-|[[Invocation]] modérée
-|10
-|aucun
-|1 500 po
-|500 g
-|Les légères ondulations de chaude lumière qui s’entrecroisent à la surface de ce bouillon couleur d’ambre semblent rehausser le fumet alléchant et brûlant qui se dégage de ses vapeurs. Cette soupe améliore les connexions du corps avec l’esprit, ce qui permet de brièvement revenir à la vie si l’on est tué. Si le personnage meurt 1 heure ou moins après avoir avalé un bol de soupe de vie temporaire, il se relève lors son prochain tour, bien vivant comme si quelqu’un venait de lui lancer un sort de ''[[rappel à la vie]]'', sauf qu’il ne perd pas un niveau et qu’il dispose de la moitié de son total normal de points de vie. Le personnage est vivant (et non mort-vivant) pendant 10 minutes et peut être soigné normalement pendant ce laps de temps. Quoi qu’il en soit, une fois ces 10 minutes écoulées, il retombe mort. Le sort ''[[rappel à la vie]]'' ou les sorts aux effets similaires ne peuvent rendre permanents les effets de vie temporaire dont bénéficie le personnage ; pour revenir d’entre les morts, il faut d’abord attendre que les pouvoirs de la soupe se dissipent. Chaque bol de soupe de vie temporaire peut faire revenir une unique fois un personnage d’entre les morts.
-|[[Préparation de potions]], 5 rangs en [[Profession]] (cuisinier), ''[[rappel à la vie]]'' ou ''[[résurrection]]''
-|750 po}
+<div class="BD">
+{s:BDTitre|Soupe de vie temporaire|{s:MR}}
+'''Aura''' [[Invocation]] modérée ; '''NLS''' 10 ; '''Emplacement''' aucun ; '''Prix''' 1 500 po ; '''Poids''' 500 g
+(((Description)))
+Les légères ondulations de chaude lumière qui s’entrecroisent à la surface de ce bouillon couleur d’ambre semblent rehausser le fumet alléchant et brûlant qui se dégage de ses vapeurs. Cette soupe améliore les connexions du corps avec l’esprit, ce qui permet de brièvement revenir à la vie si l’on est tué. Si le personnage meurt 1 heure ou moins après avoir avalé un bol de soupe de vie temporaire, il se relève lors son prochain tour, bien vivant comme si quelqu’un venait de lui lancer un sort de ''[[rappel à la vie]]'', sauf qu’il ne perd pas un niveau et qu’il dispose de la moitié de son total normal de points de vie. Le personnage est vivant (et non mort-vivant) pendant 10 minutes et peut être soigné normalement pendant ce laps de temps. Quoi qu’il en soit, une fois ces 10 minutes écoulées, il retombe mort. Le sort ''[[rappel à la vie]]'' ou les sorts aux effets similaires ne peuvent rendre permanents les effets de vie temporaire dont bénéficie le personnage ; pour revenir d’entre les morts, il faut d’abord attendre que les pouvoirs de la soupe se dissipent. Chaque bol de soupe de vie temporaire peut faire revenir une unique fois un personnage d’entre les morts.
+(((Fabrication)))
+'''Conditions''' [[Préparation de potions]], 5 rangs en [[Profession]] (cuisinier), ''[[rappel à la vie]]'' ou ''[[résurrection]]'' ; '''Coût''' Soupe de vie temporaire0
+</div>
 
-{s:OM|Poivrons épicés aux baies des neiges
-|{s:MR}
-|[[Abjuration]] faible
-|6
-|aucun
-|600 po
-|500 g
-|Les baies croquantes d’un blanc crémeux servent de garniture au poivron rouge sombre en forme de larme. Cette délicatesse relevée permet au personnage d’absorber sans crainte les dégâts de feu et de froid, mais, dans ce cas, le goût épicé lui revient en bouche à chaque fois et immédiatement. Il gagne une résistance contre le feu de 10 pendant 1 heure. À chaque fois que cet effet annule au moins 10 points de dégâts de feu, le personnage doit effectuer un jet de [[Vigueur]] ([[DD]] 15 + dégâts de feu encaissés) pour ne pas être [[hébété]] pendant 1 [[round]] par les épices qui troublent ses sens.
-|[[Préparation de potions]], 5 rangs en [[Profession]] (cuisinier), ''[[résistance aux énergies destructives]]''
-|3 000 po}
+<div class="BD">
+{s:BDTitre|Poivrons épicés aux baies des neiges|{s:MR}}
+'''Aura''' [[Abjuration]] faible ; '''NLS''' 6 ; '''Emplacement''' aucun ; '''Prix''' 600 po ; '''Poids''' 500 g
+(((Description)))
+Les baies croquantes d’un blanc crémeux servent de garniture au poivron rouge sombre en forme de larme. Cette délicatesse relevée permet au personnage d’absorber sans crainte les dégâts de feu et de froid, mais, dans ce cas, le goût épicé lui revient en bouche à chaque fois et immédiatement. Il gagne une résistance contre le feu de 10 pendant 1 heure. À chaque fois que cet effet annule au moins 10 points de dégâts de feu, le personnage doit effectuer un jet de [[Vigueur]] ([[DD]] 15 + dégâts de feu encaissés) pour ne pas être [[hébété]] pendant 1 [[round]] par les épices qui troublent ses sens.
+(((Fabrication)))
+'''Conditions''' [[Préparation de potions]], 5 rangs en [[Profession]] (cuisinier), ''[[résistance aux énergies destructives]]'' ; '''Coût''' Poivrons épicés aux baies des neiges0
+</div>
 
-{s:OM|Citrons-lanternes séchés au soleil
-|{s:MR}
-|[[Évocation]] faible
-|6
-|aucun
-|900 po
-|500 g
-|Cette sucrerie moelleuse et acide semble regorger de vitalité et d’énergie. Après avoir mangé l’un de ces citrons-lanternes séchés au soleil de la taille d’une main, le personnage se met à luire pendant 1 heure aussi vivement qu’un sort de lumière du jour. La lumière jaillit de sa peau et, s’il peut se couvrir pour réduire la luminosité à celle d’un sort de lumière ou même à celle émise par une bougie, seule une obscurité magique ou une couverture totale (si le personnage parvient à s’envelopper de la tête aux pieds de plusieurs couches de vêtements ou de cuir) peuvent complètement bloquer la luminosité. Des versions moins puissantes de ces sucreries existent ; elles permettent de diffuser une lumière moins forte pendant des périodes plus courtes. Les comédiens elfes ingurgitent parfois ces versions plus légères avant de monter sur scène pour incarner des rôles d’ange.
-|[[Préparation de potions]], 5 rangs en [[Profession]] (cuisinier), ''[[lumière du jour]]''
-|450 po}
+<div class="BD">
+{s:BDTitre|Citrons-lanternes séchés au soleil|{s:MR}}
+'''Aura''' [[Évocation]] faible ; '''NLS''' 6 ; '''Emplacement''' aucun ; '''Prix''' 900 po ; '''Poids''' 500 g
+(((Description)))
+Cette sucrerie moelleuse et acide semble regorger de vitalité et d’énergie. Après avoir mangé l’un de ces citrons-lanternes séchés au soleil de la taille d’une main, le personnage se met à luire pendant 1 heure aussi vivement qu’un sort de lumière du jour. La lumière jaillit de sa peau et, s’il peut se couvrir pour réduire la luminosité à celle d’un sort de lumière ou même à celle émise par une bougie, seule une obscurité magique ou une couverture totale (si le personnage parvient à s’envelopper de la tête aux pieds de plusieurs couches de vêtements ou de cuir) peuvent complètement bloquer la luminosité. Des versions moins puissantes de ces sucreries existent ; elles permettent de diffuser une lumière moins forte pendant des périodes plus courtes. Les comédiens elfes ingurgitent parfois ces versions plus légères avant de monter sur scène pour incarner des rôles d’ange.
+(((Fabrication)))
+'''Conditions''' [[Préparation de potions]], 5 rangs en [[Profession]] (cuisinier), ''[[lumière du jour]]'' ; '''Coût''' Citrons-lanternes séchés au soleil0
+</div>
 
-{s:OM|Pain de route
-|{s:MR}
-|[[Invocation]] faible
-|6
-|aucun
-|50 po
-|500 g
-|Également appelé pain de marche ou pain qui marche, ces délicieux biscuits bruns et dorés de forme ovale sont remarquablement rassasiants pour leur taille. L’un de ces biscuits suffit pour remplir le ventre d’un personnage pendant toute une journée. Il coupe également la soif pendant cette même période.
-|[[Préparation de potions]], 5 rangs en [[Profession]] (cuisinier), ''[[création de nourriture et deau|création de nourriture et d'eau]]''
-|25 po}
+<div class="BD">
+{s:BDTitre|Pain de route|{s:MR}}
+'''Aura''' [[Invocation]] faible ; '''NLS''' 6 ; '''Emplacement''' aucun ; '''Prix''' 50 po ; '''Poids''' 500 g
+(((Description)))
+Également appelé pain de marche ou pain qui marche, ces délicieux biscuits bruns et dorés de forme ovale sont remarquablement rassasiants pour leur taille. L’un de ces biscuits suffit pour remplir le ventre d’un personnage pendant toute une journée. Il coupe également la soif pendant cette même période.
+(((Fabrication)))
+'''Conditions''' [[Préparation de potions]], 5 rangs en [[Profession]] (cuisinier), ''[[création de nourriture et deau|création de nourriture et d'eau]]'' ; '''Coût''' Pain de route0
+</div>
 </td></tr></table>
