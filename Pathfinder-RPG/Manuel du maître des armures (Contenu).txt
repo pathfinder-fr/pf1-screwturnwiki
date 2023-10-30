@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Manuel du maître des armures (Contenu)
 Title: Manuel du maître des armures (Contenu)
-LastModified: 2023-10-20 16:26
+LastModified: 2023-10-27 00:43
 Categories:
   - 'Src Armor Masters Handbook'
 ---
@@ -27,9 +27,9 @@ __Attention aux sources des dons associés !__
 
 [[?]] (Ambush Awareness),  
 [[Armure de prédilection]] (Armor Focus),  
-[[Expert des matériaux d’armure]] (Armor Material Expertise),  
-[[Maîtrise des matériaux d’armure]] (Armor Material Mastery),  
-[[?]] (Armor Trick),  
+[[Expert des matériaux darmure|Expert des matériaux d’armure]] (Armor Material Expertise),  
+[[Maîtrise des matériaux darmure|Maîtrise des matériaux d’armure]] (Armor Material Mastery),  
+[[Combines darmure|Combines d'armure]] (Armor Trick),  
 [[?]] (Armored Athlete),  
 [[?]] (Artful Dodge),  
 [[?]] (Covering Shield),  
@@ -67,11 +67,11 @@ __Attention aux sources des dons associés !__
 ===Dons / х (incomplet)===
 [[Entraînement aux armures avancé]] (Advanced Armor Training),  
 [[Armure de prédilection]] (Armor Focus),  
-[[Expert des matériaux d’armure]] (Armor Material Expertise),  
-[[Maîtrise des matériaux d’armure]] (Armor Material Mastery),  
-[[?]] (Armor Trick (heavy)),  
-[[?]] (Armor Trick (light)),  
-[[?]] (Armor Trick (medium)),  
+[[Expert des matériaux darmure|Expert des matériaux d’armure]] (Armor Material Expertise),  
+[[Maîtrise des matériaux darmure|Maîtrise des matériaux d’armure]] (Armor Material Mastery),  
+[[Combines darmure|Combines d'armure (armure lourde)]] (Armor Trick (heavy)),  
+[[Combines darmure|Combines d'armure (armure légère)]] (Armor Trick (light)),  
+[[Combines darmure|Combines d'armure (armure intermédiaire)]] (Armor Trick (medium)),  
 [[?]] (Bulette Charge Style),  
 [[?]] (Bulette Leap),  
 [[?]] (Bulette Rampage),  
@@ -134,6 +134,9 @@ __Attention aux sources des dons associés !__
 | [[Armure de prédilection supérieure]] || <sup>AMH</sup> || [[Armure de prédilection]], [[BBA]] +6, formation au port de l’armure choisie || Réduit le malus d'armure aux tests d'une armure spécifique de 1
 
 |- CLASS="premier donprincipal"
+| [[Combines darmure|Combines d'armure]] || <sup>AMH</sup> || [[BBA]] +1 || Apprend des combines avec une catégorie d'armure spécifique
+
+|- CLASS="premier donprincipal"
 | [[Entraînement aux armures avancé]] || <sup>AMH</sup> || [[Guerrier]] de [[niveau]] 3, capacité de classe [[Guerrier#ENTRAINEMENTAUXARMURES|entraînement aux armures]] || Gain d'une option d'entraînement aux armures avancé
 
 |}
@@ -169,7 +172,7 @@ Vous bénéficiez des effets d’un don de maîtrise d’armure uniquement lorsq
 | [[Armure leste]] || <sup>AMH</sup> || Dex 13, [[BBA]] +11 ou [[guerrier]] de niveau 8, capacité de classe [[Guerrier#ENTRAINEMENTAUXARMURES|entrainement aux armures]], formation au port des armures légères || Gain d’un bonus à l’initiative égale au bonus d’altération de l’armure
 
 |- CLASS="premier donprincipal"
-| [[Expert des matériaux d’armure]] || <sup>AMH</sup> || [[BBA]] +6 ou [[guerrier]] de niveau 4, capacité de classe [[Guerrier#ENTRAINEMENTAUXARMURES|entraînement aux armures]] || Gain d’une capacité en fonction du matériau de l’armure
+| [[Expert des matériaux darmure|Expert des matériaux d’armure]] || <sup>AMH</sup> || [[BBA]] +6 ou [[guerrier]] de niveau 4, capacité de classe [[Guerrier#ENTRAINEMENTAUXARMURES|entraînement aux armures]] || Gain d’une capacité en fonction du matériau de l’armure
 
 |- CLASS="premier donprincipal"
 | [[Frappes déstabilisantes]] || <sup>AMH</sup> || For 13, [[Frappes intenses]], [[Attaque en puissance]], [[BBA]] +11 ou [[guerrier]] de niveau 8, capacité de classe [[Guerrier#ENTRAINEMENTAUXARMURES|entrainement aux armures]], formation au port des armures lourdes || Les créatures attaquées avec une Attaque en puissance subissent un malus au DMD
@@ -178,15 +181,16 @@ Vous bénéficiez des effets d’un don de maîtrise d’armure uniquement lorsq
 | [[Frappes intenses]] || <sup>AMH</sup> || For 13, [[Attaque en puissance]], [[BBA]] +6 ou [[guerrier]] de niveau 4, capacité de classe [[Guerrier#ENTRAINEMENTAUXARMURES|entrainement aux armures]], formation au port des armures lourdes || Gain d’un bonus au DMD pendant le tour d’une attaque en puissance
 
 |- CLASS="premier donprincipal"
-| [[Maîtrise des matériaux d’armure]] || <sup>AMH</sup> || [[Expert des matériaux d’armure]], [[BBA]] +11 ou [[guerrier]] de [[niveau]] 8, capacité de classe [[Guerrier#ENTRAINEMENTAUXARMURES|entraînement aux armures]] || Gain de 2 utilisations supplémentaires d'[[expert des matériaux d’armure]]
+| [[Maîtrise des matériaux darmure|Maîtrise des matériaux d’armure]] || <sup>AMH</sup> || [[Expert des matériaux d’armure]], [[BBA]] +11 ou [[guerrier]] de [[niveau]] 8, capacité de classe [[Guerrier#ENTRAINEMENTAUXARMURES|entraînement aux armures]] || Gain de 2 utilisations supplémentaires d'[[Expert des matériaux d’armure]]
 
 |- CLASS="premier donprincipal"
-| [[Réactivité à toute épreuve]] || <sup>AMH</sup> || [[BBA]] +6 ou [[guerrier]] de niveau 4, capacité de classe [[Guerrier#ENTRAINEMENTAUXARMURES|entrainement aux armures]], formation au port des armures intermédiaires || Faire un pas de placement apres une attaque d’opportunité ennemi réussi
+| [[Réactivité à toute épreuve]] || <sup>AMH</sup> || [[BBA]] +6 ou [[guerrier]] de niveau 4, capacité de classe [[Guerrier#ENTRAINEMENTAUXARMURES|entrainement aux armures]], formation au port des armures intermédiaires || Faire un pas de placement après une attaque d’opportunité ennemi réussi
 
 |- CLASS="premier donprincipal"
 | [[Réactivité à toute épreuve supérieure]] || <sup>AMH</sup> || [[Attaques réflexes]], [[Réactivité à toute épreuve]], [[BBA]] +11 ou [[guerrier]] de niveau 8, capacité de classe [[Guerrier#ENTRAINEMENTAUXARMURES|entrainement aux armures]], formation au port des armures intermédiaires || [[Réactivité à toute épreuve]] n'est plus limité à une utilisation par tour
 
 |}
+
 
 ====Dons de maîtrise de bouclier====
 Pour certains combattant, les boucliers sont tout aussi, si ce n’est plus, important que les armes ou armures. Les boucliers sont polyvalents, unissant l’attaque à la défense. Beaucoup plus adaptable que les armures, ils permettent aux aventuriers de changer de tactique en plein combat.
@@ -206,28 +210,28 @@ A handful of specialists train to maximize a shield’s use in battle. Presented
 | WIDTH="37%" | Avantages
 
 |- CLASS="premier donprincipal"
-| [[Appui protégé]] || <sup>AMH</sup> || [[Art du bouclier]], [[BBA]] +3 ou [[guerrier]] de [[niveau]] 1 || Protéger un allié ou soi-même d’une attaque d’opportunité quand le personnage se relève
+| [[Appui protégé]] || <sup>AMH</sup> || [[Art du bouclier]], [[BBA]] +3 ou [[guerrier]] de [[niveau]] 1 || Protéger un allié ou le personnage d’une attaque d’opportunité en se relevant
 
 |- CLASS="premier donprincipal"
 | [[Bouclier amorti]] || <sup>AMH</sup> || [[Art du bouclier]], [[BBA]] +6 ou [[guerrier]] de [[niveau]] 4 || Transfert de la moitié des dégâts de chute au bouclier
 
 |- CLASS="premier donprincipal"
-| [[Bouclier contre les rayons supérieur]] || <sup>AMH</sup> || Dex 17, [[Bouclier contre les projectiles]], [[Bouclier contre les rayons]], [[Briseur de sorts]] || Votre bouclier n’est pas affecté quand vous utilisez bouclier contre les rayons
+| [[Bouclier contre les rayons supérieur]] || <sup>AMH</sup> || Dex 17, [[Bouclier contre les projectiles]], [[Bouclier contre les rayons]], [[Briseur de sorts]] || Le bouclier du personnage n’est pas affecté quand il utilise Bouclier contre les rayons
 
 |- CLASS="premier donprincipal"
-| [[Bouclier leste]] || <sup>AMH</sup> || [[Art du bouclier]], [[BBA]] +6 ou [[guerrier]] de [[niveau]] 4, maniement des targes || Considérer la main portant une targe comme libre
+| [[Bouclier leste]] || <sup>AMH</sup> || [[Art du bouclier]], [[BBA]] +6 ou [[guerrier]] de [[niveau]] 4, maniement des targes || Considère la main portant une targe comme libre
 
 |- CLASS="premier donprincipal"
-| [[Charge protégée]] || <sup>AMH</sup> || [[Art du bouclier]], [[BBA]] +6 ou [[guerrier]] de [[niveau]] 4 || Vous ne provoquez plus d’attaques d’opportunité à la fin de votre charge quand vous effectuez une bousculade ou un renversement
+| [[Charge protégée]] || <sup>AMH</sup> || [[Art du bouclier]], [[BBA]] +6 ou [[guerrier]] de [[niveau]] 4 || Le personnage ne provoque plus d’attaques d’opportunité à la fin de sa charge quand il effectue une bousculade ou un renversement
 
 |- CLASS="premier donprincipal"
-| [[Coup de bouclier déstabilisant]] || <sup>AMH</sup> || [[Science du coup de bouclier]], [[Art du bouclier]], [[BBA]] +6 ou [[guerrier]] de [[niveau]] 4 || Les créatures touchées par vos coups de bouclier subissent un malus à la CA pendant 1 tour
+| [[Coup de bouclier déstabilisant]] || <sup>AMH</sup> || [[Science du coup de bouclier]], [[Art du bouclier]], [[BBA]] +6 ou [[guerrier]] de [[niveau]] 4 || Les créatures touchées par les coups de bouclier du personnage subissent un malus à la CA pendant 1 tour
 
 |- CLASS="premier donprincipal"
 | [[Coup de bouclier renversant]] || <sup>AMH</sup> || [[Science du coup de bouclier]], [[Coup de bouclier déstabilisant]], [[Art du bouclier]], [[BBA]] +11 ou [[guerrier]] de [[niveau]] 8 || Effectuer un croc-en-jambe en action rapide après un coup de bouclier réussi
 
 |- CLASS="premier donprincipal"
-| [[Défenseur attentif]] || <sup>AMH</sup> || [[Art du bouclier]], [[BBA]] +6 ou [[guerrier]] de [[niveau]] 4, 1 rang en [[Psychologie]] || Augmente le DD pour vous feinter
+| [[Défenseur attentif]] || <sup>AMH</sup> || [[Art du bouclier]], [[BBA]] +6 ou [[guerrier]] de [[niveau]] 4, 1 rang en [[Psychologie]] || Augmente le DD pour feinter le personnage
 
 |- CLASS="premier donprincipal"
 | [[Expert des matériaux de bouclier]] || <sup>AMH</sup> || [[Art du bouclier]], [[BBA]] +6 ou [[guerrier]] de [[niveau]] 4 || Gain d’une capacité en fonction du matériau du bouclier
@@ -239,7 +243,7 @@ A handful of specialists train to maximize a shield’s use in battle. Presented
 | [[Mage au bouclier]] || <sup>AMH</sup> || [[Art du bouclier]], [[BBA]] +3 ou [[guerrier]] de [[niveau]] 1 || Lancer des sorts avec un bouclier
 
 |- CLASS="premier donprincipal"
-| [[Maîtrise des matériaux de bouclier]] || <sup>AMH</sup> || [[Art du bouclier]], [[Expert des matériaux de bouclier]], [[BBA]] +11 ou [[guerrier]] de [[niveau]] 8 || Gain de 2 utilisations supplémentaires d’expert des matériaux de bouclier
+| [[Maîtrise des matériaux de bouclier]] || <sup>AMH</sup> || [[Art du bouclier]], [[Expert des matériaux de bouclier]], [[BBA]] +11 ou [[guerrier]] de [[niveau]] 8 || Gain de 2 utilisations supplémentaires d’Expert des matériaux de bouclier
 
 |- CLASS="premier donprincipal"
 | [[Mouvement protégé]] || <sup>AMH</sup> || [[Art du bouclier]], [[BBA]] +6 ou [[guerrier]] de [[niveau]] 4 || Gain de +2 à la CA contre les attaques d’opportunités
@@ -248,6 +252,8 @@ A handful of specialists train to maximize a shield’s use in battle. Presented
 | [[Spécialiste du pavois]] || <sup>AMH</sup> || [[Art du bouclier]], [[Maniement du pavois]], [[BBA]] +11 ou [[guerrier]] de [[niveau]] 8 || Réduit le malus d’armure des pavois
 
 |}
+
+
 
 
 ===Matériaux spéciaux / √ (complet ; relu)===
@@ -328,7 +334,7 @@ Le verre du vide a 30 [[pv|points de vie]] par section de 2,5 centimètres d’�
 {s:BDTitre|Aile d'effroi|{s:AMH}}
 '''Aura''' [[Transmutation]] puissante ; '''NLS''' 15 ; '''Prix''' Bonus de +5
 (((Description)))
-Par une [[Types dactions#IMMEDIATE|action immédiate]], le porteur d’une armure d<nowiki>'</nowiki>''ailes d'effroi'' peut lui ordonner de se démonter et de se reconfigurer en une paire d'immenses ailes de dragon. Ces ailes confèrent au porteur de l'armure une vitesse de vol de 18 m (maniabilité moyenne) et peuvent être utilisées comme armes naturelles secondaires. Ces ailes tranchantes infligent chacune 1d6 points de dégâts pour un porteur M (1d4 points de dégâts pour un porteur P). Les ailes sont traitées comme le même type de matériau que le blindage de base dans le but de réduire les dégâts pénétrants. Pendant que les ailes sont déployées, le bonus d’armure total d'une armure d<nowiki>'</nowiki>''ailes d'effroi'' diminue de moitié. La propriété spéciale de l<nowiki>'</nowiki>''ailes d'effroi'' ne peut être appliquée qu'aux ''[[harnois (armure)|harnois]]'' ou aux ''[[Armure de Légionnaire infernal (armure)|armure de Légionnaire infernal]]''.
+Par une [[action immédiate]], le porteur d'une armure d’''ailes d'effroi'' peut lui ordonner de se démonter et de se reconfigurer en une paire d'immenses ailes de dragon. Ces ailes confèrent au porteur de l'armure une vitesse de vol de 18 m (maniabilité moyenne) et peuvent être utilisées comme armes naturelles secondaires. Ces ailes tranchantes infligent chacune 1d6 points de dégâts pour un porteur M (1d4 points de dégâts pour un porteur P). Les ailes sont traitées comme le même type de matériau que l'armure de base dans le calcul de la [[RD|réduction de dégâts]]. Pendant que les ailes sont déployées, le bonus d'armure total d'une armure d’''ailes d'effroi'' diminue de moitié. La propriété spéciale de l<nowiki>'</nowiki>''ailes d'effroi'' ne peut être appliquée qu'aux ''[[harnois (armure)|harnois]]'' ou aux ''[[Armure de Légionnaire infernal (armure)|armure de Légionnaire infernal]]''.
 (((Fabrication)))
 '''Conditions''' [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[vol]]'', ''[[corps de fer]]'' ; '''Coût''' Bonus de +5
 </div>
@@ -550,6 +556,7 @@ Sur commande, le porteur d'une armure de ''vol radieux'' peut faire apparaître 
 
 
 
+
 ===Options de classe / √ (complet ; relu)===
 ====Entraînements aux armures avancés du guerrier====
 [[Entraînements avancés#Entraînement adaptable|Entraînement adaptable]] (Adaptable Training),  
@@ -589,7 +596,7 @@ Sur commande, le porteur d'une armure de ''vol radieux'' peut faire apparaître 
 
 <hr>
 {s:AMH}{s:Reference|CAVALIERENARMURE}'''Cavalier en armure'''  
-Le gagne un bonus de trait de +1 aux tests d’[[Équitation]], qui devient une compétence de classe pour lui. Le personnage ne subit pas de malus d'armure aux tests d'[[Équitation]] lorsqu'il porte une [[armure légère]] ou [[armure intermédiaire|intermédiaire]].
+Le personnage gagne un bonus de trait de +1 aux tests d’[[Équitation]], qui devient une compétence de classe pour lui. Le personnage ne subit pas de malus d'armure aux tests d'[[Équitation]] lorsqu'il porte une [[armure légère]] ou [[armure intermédiaire|intermédiaire]].
 
 <hr>
 {s:AMH}{s:Reference|AMEBLINDEE}'''Âme blindée'''  
