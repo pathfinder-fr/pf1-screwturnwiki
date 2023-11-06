@@ -1,11 +1,11 @@
 ---
 Name: Pathfinder-RPG.Armures magiques
 Title: Les armures et boucliers magiques
-LastModified: 2021-04-23 11:04
+LastModified: 2023-10-30 15:52
 Categories:
-  - 'Armure magique'
-  - 'Manuel des joueurs, règles avancées'
-  - 'Manuel des races'
+  - 'Objet mag armure'
+  - 'Src Manuel des joueurs - Règles avancées'
+  - 'Src Manuel des races'
 ---
 {s:MenuObjetsMagiques}{s:Reference|BONUSALTERATION}{s:Desambi|Les [[armes magiques]] possèdent également un [[armes magiques#BONUSALTERATION|bonus d'altération]].}{toc}Les armures et boucliers magiques offrent à leur utilisateur une protection supplémentaire, sous la forme d’un bonus d’altération (de +5 au maximum) qui s’ajoute au bonus à la [[CA]] de l’objet lui-même. Les bonus d’une armure, d’un bouclier et de leur magie respective sont cumulatifs. Toutes les armures et tous les boucliers magiques sont des versions [[armure de maître|de maître]], leur malus d’armure aux tests est ainsi réduit de 1.
 
@@ -141,7 +141,7 @@ Une armure ou un bouclier ayant une propriété spéciale doit posséder un bonu
 | ''[[sans trace (propriété)|Sans trace]]'' || <sup>MCA</sup> || Armures en cuir, armures en peau || Confère un bonus de compétence de +5 aux tests de [[Discrétion]]. Les tests de [[Survie]] visant à pister le porteur subissent un malus de -5. || +7 500 po
 
 |- CLASS="premier"
-| ''[[éclatante (propriété)|Éclatante]]'' || <sup>A&E</sup> || — || Peut émettre la même lumière qu’une [[matériel daventurier#Torche|torche]], à volonté. Une fois par jour, peut émettre une lumière de la même intensité que la lumière du jour pendant 1 heure maximum. || +7 500 po
+| ''[[éclatante (propriété)|Éclatante]]'' || <sup>A&E</sup> || — || Peut émettre la même lumière qu’une [[Torche (objet)|torche]], à volonté. Une fois par jour, peut émettre une lumière de la même intensité que la lumière du jour pendant 1 heure maximum. || +7 500 po
 
 |- CLASS="premier"
 | ''[[fouisseuse (propriété)|Fouisseuse]]'' || <sup>A&E</sup> || Armures || Confère une vitesse de creusement de 3m dans n’importe quel type de sol. Confère un bonus de +4 aux [[jds|jets de sauvegarde]] contre les glissements de terrain, les avalanches, les effondrements de tunnels ou tout effet similaire. || +10 000 po
@@ -199,6 +199,7 @@ Une armure ou un bouclier ayant une propriété spéciale doit posséder un bonu
 |}
 </center>
 
+
 ====Propriétés ajoutant un bonus de +1====
 <center>
 {| CLASS="tablo autoalt toutgauche" WIDTH="100%"
@@ -209,9 +210,6 @@ Une armure ou un bouclier ayant une propriété spéciale doit posséder un bonu
 | WIDTH="11%" | Restrictions
 | WIDTH="61%" | Capacités
 | WIDTH="13%" | Modificateur au prix de base
-
-|- CLASS="premier"
-| ''[[soutien (propriété armure)|Soutien]]'' || <sup>A&E</sup> || Armures || Ajoute le bonus d’altération de l’armure au bonus conféré par l’action [[actions spéciales#AIDERQQN|aider quelqu’un]] lorsqu’elle est utilisée pour améliorer la [[CA]]. || bonus de +1
 
 |- CLASS="premier"
 | ''[[amertume (propriété)|Amertume]]'' || <sup>A&E</sup> || Armures || Peut faire lâcher prise aux créatures qui [[agrippé|agrippent]] le porteur avec une attaque de morsure, de bouche ou de gueule. Peut rendre [[nauséeux|nauséeuses]] les créatures qui [[engloutissement (capacité)|engloutissent]] le porteur. || bonus de +1
@@ -286,9 +284,13 @@ Une armure ou un bouclier ayant une propriété spéciale doit posséder un bonu
 | ''[[solide (propriété armure)|Solide]]'' || <sup>A&E</sup> || — || Ajoute le double du bonus d’altération de l’objet à sa solidité et à ses points de résistance. Confère un bonus du même montant au [[DD]] pour briser l’objet et aux [[jds|jets de sauvegarde]] contre les attaques portées à l’objet. || bonus de +1
 
 |- CLASS="premier"
+| ''[[soutien (propriété armure)|Soutien]]'' || <sup>A&E</sup> || Armures || Ajoute le bonus d’altération de l’armure au bonus conféré par l’action [[actions spéciales#AIDERQQN|aider quelqu’un]] lorsqu’elle est utilisée pour améliorer la [[CA]]. || bonus de +1
+
+|- CLASS="premier"
 | ''[[stockage de sort (propriété armure)|Stockage de sort]]'' || <sup>A&E</sup> || Armures || L’armure peut stocker un sort du 3e niveau ou moins que le porteur peut livrer dès qu’il est touché par une attaque au corps à corps ou au contact. || bonus de +1
 |}
 </center>
+
 
 ====Propriétés ajoutant un bonus de +2====
 <center>
