@@ -1,79 +1,43 @@
 ---
 Name: Pathfinder-RPG.cheval pestiféré
-Title: Cheval pestiféré
-LastModified: 2021-04-03 09:31
+Title: Bête pestiférée, Cheval pestiféré
+LastModified: 2023-12-20 16:55
 Categories:
-  - 'Bestiaire 5'
   - 'Monstre'
+  - 'Src Bestiaire 5'
 ---
-{s:Monstre|Nom:
-  |Cheval pestiféré
-|FP/RM:
-  |2|
-|Icônes:
-  |Mort-vivant|Plaines|Tempéré
-|Source:
-  |Bestiaire 5 p.46, Source dépréciée (Coursier pesteux) Guide de la Plaie du Monde p.43
-|PX:
-  |600
-|Classe:
-  |
-|Type, Taille, Alignement:
-  |[[type mort-vivant|Mort-vivant]] ([[type Animal|animal]] [[sous-type altéré|altéré]]) de taille G, NM
-|Init/Sens/Perception:
-  |+3|[[vision dans le noir]] 18 m, [[vision nocturne]]|+6
-|Aura:
-  |
-|CA:
-  |14, contact 12, pris au dépourvu 11 (Dex +3, naturelle +2, taille -1)
-|Pv:
-  |16 (2d8+7)
-|Réf/Vig/Vol:
-  |+6|+5|+1
-|Capacités défensives:
-  |'''Capacités défensives''' résistance à la canalisation +2 ; '''RD''' 5/tranchant ; '''Immunités''' froid, traits des morts-vivants
-|Vitesses:
-  |15 m
-|Càc:
-  |morsure, +5 (1d8+5 plus maladie) et 2 sabots, +0
-(1d4+2)
-|Distance:
-  |
-|Espace/Allonge:
-  |3 m|3 m
-|Attaques spéciales:
-  |maladie ([[Maladies#DEMONITE|Peste démoniaque]] DD 13)
-|Pouvoirs magiques:|
-  ||||||
-|Sorts:|
-  ||||||||||
-|Notes sur la magie:
-  |
-|Tactique:|Non
-  ||||
-|Caractéristiques:
-  |20|16|—|2|13|15
-|BBA/BMO/DMD:
-  |+1|+7|20 (24 contre les [[croc-en-jambe|crocs-en-jambe]])
-|Dons:
-  |[[Course]], [[Endurance]], [[Robustesse]]
-|Compétences:
-  |[[Perception]] +6
-|Langues:
-  |
-|Particularités:
-  |[[cheval|docile]]
-|Environnement:
-  |tous
-|Organisation sociale:
-  |solitaire, paire ou troupeau (3-30)
-|Trésor:
-  |aucun
-|Pouvoirs spéciaux:|Oui
-  |'''Maladie (Ext).''' ''Peste démoniaque'' : morsure — blessure ; ''[[jet de sauvegarde]]'' [[Vigueur]] [[DD]] 13 ; ''incubation'' 1 jour ; ''fréquence'' 1/jour ; ''effet'' affaiblissement temporaire de 1d3 [[Constitution]] et 1d6 [[Sagesse]], la victime est [[fatigué|fatiguée]] si elle subit un affaiblissement temporaire de caractéristique des suites de la maladie, et certaines créatures qui meurent des suites de la peste démoniaque se relèvent d’entre les morts en tant que bêtes pestiférées ; ''guérison'' 3 [[jet de sauvegarde|jets de sauvegarde]] consécutifs.|||||
-|Équipement:|Non
-  ||
-|Cadre descriptif:
-  |<ul style="margin: 0 0 -10 0;margin-top: 6px;margin-bottom: 12px;"><li>'''''Voir l'archétype [[Bête pestiférée, archétype|Bête pestiférée]].'''''</li></ul>''Les muscles et les os pourrissants de ce cadavre de cheval en décomposition semblent sur le point de s’effondrer. Cette créature est dotée de longs crocs.''
+<table class="Bestiaire"><tr><td>
+<div class="BD">
+{s:BDTitre|Cheval pestiféré|FP 2}
+{s:pucem|Mort-vivant|Plaines|Tempéré}
+{s:BDTexte|''Source : Bestiaire 5 p.46, Source dépréciée (Coursier pesteux) Guide de la Plaie du Monde p.43''}
+{s:BDTexte|'''PX''' 600}
+{s:BDTexte|[[type Mort-vivant|Mort-vivant]] (animal [[sous-type altéré|altéré]]) de taille G, NM}
+{s:BDTexte|'''Init''' +3 ; '''Sens''' [[Vision dans le noir (capacité)|vision dans le noir]] à 18 m, [[Vision nocturne (capacité)|vision nocturne]] ; [[Perception]] +6}
+{s:BDSousTitre|Défense}
+{s:BDTexte|'''CA''' 14, contact 12, pris au dépourvu 11 (Dex +3, naturelle +2, taille -1)}
+{s:BDTexte|'''pv''' 16 (2d8+7)}
+{s:BDTexte|'''Réf''' +6, '''Vig''' +5, '''Vol''' +1}
+{s:BDTexte|'''Capacités défensives''' [[résistance à la canalisation (capacité)|résistance à la canalisation]] +2 ; '''RD''' 5/tranchant ; '''Immunités''' froid, [[Traits des morts-vivants (capacité)|traits des morts-vivants]]}
+{s:BDSousTitre|Attaque}
+{s:BDTexte|'''VD''' 15 m}
+{s:BDTexte|'''Corps à corps''' morsure, +5 (1d8+5 plus maladie) et 2 sabots, +0 (1d4+2)}
+{s:BDTexte|'''Espace occupé''' 3 m ; '''Allonge''' 3 m}
+{s:BDTexte|'''Attaques spéciales''' maladie}
+{s:BDSousTitre|Caractéristiques}
+{s:BDTexte|'''For''' 20, '''Dex''' 16, '''Con''' —, '''Int''' 2, '''Sag''' 13, '''Cha''' 15}
+{s:BDTexte|'''BBA''' +1 ; '''BMO''' +7 ; '''DMD''' 20 (24 contre les crocs-en-jambe)}
+{s:BDTexte|'''Dons''' [[Course]]<sup>S</sup>, [[Endurance]], [[Robustesse]]<sup>S</sup>}
+{s:BDTexte|'''Compétences''' [[Perception]] +6}
+{s:BDTexte|'''Particularités''' [[Cheval|docile]]}
+{s:BDSousTitre|Écologie}
+{s:BDTexte|'''Environnement''' tous}
+{s:BDTexte|'''Organisation''' solitaire, paire ou troupeau (3-30)}
+{s:BDTexte|'''Trésor''' aucun}
+{s:BDSousTitre|Pouvoirs spéciaux}
+{s:BDTexte|'''Maladie (Ext).''' ''Peste démoniaque'' : morsure — blessure ; ''[[jet de sauvegarde]]'' [[Vigueur]] [[DD]] 13 ; ''incubation'' 1 jour ; ''fréquence'' 1/jour ; ''effet'' affaiblissement temporaire de 1d3 [[Constitution]] et 1d6 [[Sagesse]], la victime est [[fatigué|fatiguée]] si elle subit un affaiblissement temporaire de caractéristique des suites de la maladie, et certaines créatures qui meurent des suites de la peste démoniaque se relèvent d’entre les morts en tant que bêtes pestiférées ; ''guérison'' 3 [[jet de sauvegarde|jets de sauvegarde]] consécutifs.}
+</div></td>
+<td><div><ul style="margin: 0 0 -10 0;margin-top: 6px;margin-bottom: 12px;"><li>'''''Voir l'archétype [[Bête pestiférée, archétype|Bête pestiférée]].'''''</li></ul>''Les muscles et les os pourrissants de ce cadavre de cheval en décomposition semblent sur le point de s’effondrer. Cette créature est dotée de longs crocs.''
 
-Quand des animaux attrapent la peste démoniaque, il est possible qu’ils ressuscitent sous la forme de morts-vivants et propagent à leur tour la maladie. Certains démons et cultistes apprécient d’avoir un cheval pestiféré comme coursier pesteux.}
+Quand des animaux attrapent la peste démoniaque, il est possible qu’ils ressuscitent sous la forme de morts-vivants et propagent à leur tour la maladie. Certains démons et cultistes apprécient d’avoir un cheval pestiféré comme coursier pesteux.
+</div></td></tr></table>
