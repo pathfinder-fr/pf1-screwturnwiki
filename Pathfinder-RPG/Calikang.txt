@@ -1,85 +1,54 @@
 ---
 Name: Pathfinder-RPG.Calikang
 Title: Calikang
-LastModified: 2020-10-18 23:29
+LastModified: 2023-12-28 17:05
 Categories:
-  - 'Cadre de campagne La Mer intérieure'
   - 'Monstre'
+  - 'Src La mer Intérieure'
 ---
-{s:Monstre|Nom:
-  |Calikang
-|FP/RM:
-  |12|
-|Icônes:
-  |Humanoïde monstrueux|Collines|Tropical
-|Source:
-  |La Mer Intérieure p.308
-|PX:
-  |19 200
-|Classe:
-  |
-|Type, Taille, Alignement:
-  |[[type Humanoïde monstrueux|Humanoïde monstrueux]] de taille G, LN
-|Init/Sens/Perception:
-  |+6|[[vision dans le noir (capacité)|vision dans le noir]] (18 m), ''[[vision lucide]]''|+20
-|Aura:
-  |
-|CA:
-  |27, contact 11, pris au dépourvu 25 (+2 Dex, +12 naturelle, +4 bouclier, -1 taille)
-|Pv:
-  |157 (15d10+75) ; [[guérison accélérée (capacité)|guérison accélérée]] 5
-|Réf/Vig/Vol:
-  |+11|+12|+11
-|Capacités défensives:
-  |'''Capacités défensives''' absorption d’énergie, animation suspendue, coup défensif ; '''Immunité''' effets mentaux, électricité, énergie négative ; '''RM''' 23
-|Vitesses:
-  |9 m (6 {s:c})
-|Càc:
-  |''épée longue +1'', +18/+13/+8 (2d6+8/17-20), ''épée longue +1'', +18 (2d6+8/17-20), 4 coups +16 (1d6+3)
-|Distance:
-  |
-|Espace/Allonge:
-  |3 m (2 {s:c})|3 m (2 {s:c})
-|Attaques spéciales:
-  |souffle (ligne de 18 m, 14d6 points de dégâts d’énergie, jet de Réflexes DD 22, 1/2 dégâts, utilisable 1/jour)
-|Pouvoirs magiques:|([[NLS]] 12 ; [[Lancer des sorts#CONCENTRATION|concentration]] +15)
-  |Constant — ''[[arme magique]]'', ''[[marche dans les airs]]'', ''[[marche sur londe|marche sur l’onde]]'', ''[[vision lucide]]''
-  |3/jour — ''[[éclair]]'' (DD 16)
-  |1/jour — ''[[éclair multiple]]'' (DD 19)|||
-|Sorts:|
-  ||||||||||
-|Notes sur la magie:
-  |
-|Tactique:|Non
-  ||||
-|Caractéristiques:
-  |25|15|20|8|14|17
-|BBA/BMO/DMD:
-  |+15|+23|35
-|Dons:
-  |[[Combat à deux armes]], [[Critique ralentissant]], [[Don pour les critiques]], [[Double frappe]], [[Frappe décisive]], [[Science de linitiative|Science de l’initiative]], [[Science du critique]] (épée longue), [[Vigueur surhumaine]]
-|Compétences:
-  |[[Intimidation]] +21, [[Perception]] +20, [[UOM|Utilisation d’objets magiques]] +18
-|Langues:
-  |commun, géant
-|Particularités:
-  |
-|Environnement:
-  |collines tempérées ou tropicales
-|Organisation sociale:
-  |solitaire, groupe (2-4) ou tribu (5-12)
-|Trésor:
-  |standard (2 ''[[épée longue (arme)|épées longues]] +1'' et autres trésors)
-|Pouvoirs spéciaux:|Oui
-  |'''Absorption d’énergie (Sur).''' Un sort qui inflige des dégâts d’énergie et n’arrive pas à passer la [[RM|résistance à la magie]] du calikang ou son immunité contre l’électricité est absorbée dans le corps de la créature et la soigne pour une quantité de dégâts égale au [[NLS|niveau de lanceur de sorts]] de la magie absorbée. Ceci lui permet aussi de se servir de son souffle une fois de plus dans la journée.
-  |'''Animation suspendue (Sur).''' Par une action complexe, un calikang peut entrer dans un état d’animation suspendue. Il se fige alors et ne bouge absolument plus mais il reste conscient de ce qui l’entoure. Il est alors immunisé contre les maladies, les toxines inhalées, le poison, la faim et la soif, il reçoit un bonus de +4 à tous les jets de [[Vigueur]]. Il peut mettre fin à cet état par une [[action immédiate]] : s’il le fait pour attaquer un ennemi ou engager un combat, il gagne un bonus d’intuition de +4 au test d’[[initiative]].
-  |'''Coup défensif (Ext).''' Un calikang gagne un bonus cumulable de bouclier de +1 à la [[CA]] par bras qui ne manie pas une arme manufacturée, avec un maximum de +4 pour quatre bras libres. Il peut faire des attaques de coup avec ces bras sans perdre son bonus à la CA.
-  |'''Souffle (Sur).''' Le calikang peut choisir le type de dégâts d’énergie infligés par son souffle : acide, électricité, feu, froid ou son. Les calikangs sont particulièrement doués pour utiliser l’électricité de cette manière et infligent 1 point de dégâts supplémentaires par dé (+14 pour la plupart d’entre eux) quand ils choisissent de faire des dégâts électriques.||
-|Équipement:|Non
-  ||
-|Cadre descriptif:
-  |''Ce géant bleu à six bras s’anime soudain, son armure et ses épées jumelles scintillent comme des joyaux.''
+<table class="Bestiaire"><tr><td>
+<div class="BD">
+{s:BDTitre|Calikang|FP 12}
+{s:pucem|Humanoïde monstrueux|Collines|Tropical}
+{s:BDTexte|''Source : La Mer Intérieure p.308''}
+{s:BDTexte|'''PX''' 19 200}
+{s:BDTexte|[[type Humanoïde monstrueux|Humanoïde monstrueux]] de taille G, LN}
+{s:BDTexte|'''Init''' +6 ; '''Sens''' [[Vision dans le noir (capacité)|vision dans le noir]] à à 18 m, ''[[vision lucide]]'' ; [[Perception]] +20}
+{s:BDSousTitre|Défense}
+{s:BDTexte|'''CA''' 27, contact 11, pris au dépourvu 25 (+2 Dex, +12 naturelle, +4 bouclier, -1 taille)}
+{s:BDTexte|'''pv''' 157 (15d10+75); [[Guérison accélérée (capacité)|guérison accélérée]] 5}
+{s:BDTexte|'''Réf''' +11, '''Vig''' +12, '''Vol''' +11}
+{s:BDTexte|'''Capacités défensives''' [[Absorption dénergie (capacité)|absorption d'énergie]], animation suspendue, coup défensif ; '''Immunités''' effets mentaux, électricité, énergie négative ; '''RM''' 23}
+{s:BDSousTitre|Attaque}
+{s:BDTexte|'''VD''' 9 m}
+{s:BDTexte|'''Corps à corps''' épée longue +1, +18/+13/+8 (2d6+8/17-20), épée longue +1, +18 (2d6+8/17-20), 4 coups +16 (1d6+3)}
+{s:BDTexte|'''Espace occupé''' 3 m ; '''Allonge''' 3 m}
+{s:BDTexte|'''Attaques spéciales''' [[Souffle (capacité)|souffle]] (ligne de 18 m, 14d6 points de dégâts d’énergie, jet de Réflexes DD 22, 1/2 dégâts, utilisable 1/jour)}
+{s:BDTexte|'''Pouvoirs magiques''' ([[NLS]] 12 ; [[concentration]] +15)}
+{s:BDSorts|Constant — ''[[arme magique]]'', ''[[marche dans les airs]]'', ''[[marche sur londe|marche sur l'onde]]'', ''[[vision lucide]]''}
+{s:BDSorts|3/jour — ''[[éclair]]'' (DD 16)}
+{s:BDSorts|1/jour — ''[[éclair multiple]]'' (DD 19)}
+{s:BDSousTitre|Caractéristiques}
+{s:BDTexte|'''For''' 25, '''Dex''' 15, '''Con''' 20, '''Int''' 8, '''Sag''' 14, '''Cha''' 17}
+{s:BDTexte|'''BBA''' +15 ; '''BMO''' +23 ; '''DMD''' 35}
+{s:BDTexte|'''Dons''' [[Combat à deux armes]], [[Critique ralentissant]], [[Double frappe]], [[Frappe décisive]], [[Science de linitiative|Science de l'initiative]], [[Science du critique]], [[Science du critique]] (épée longue), [[Vigueur surhumaine]],}
+{s:BDTexte|'''Compétences''' [[Intimidation]] +21, [[Perception]] +20, Utilisation d’objet magique +18,}
+{s:BDTexte|'''Langues''' commun, géant}
+{s:BDTexte|'''Particularités''' pistage +1, empathie sauvage +1}
+Équipement de combat feu grégeois (2) ; Équipement divers armure
+{s:BDSousTitre|Écologie}
+{s:BDTexte|'''Environnement''' collines tempérées ou tropicales}
+{s:BDTexte|'''Organisation''' solitaire, groupe (2-4) ou tribu (5-12)}
+{s:BDTexte|'''Trésor''' standard (2 ''[[épée longue (arme)|épées longues]] +1'' et autres trésors)}
+{s:BDSousTitre|Pouvoirs spéciaux}
+{s:BDTexte|'''Absorption d’énergie (Sur).''' Un sort qui inflige des dégâts d’énergie et n’arrive pas à passer la [[RM|résistance à la magie]] du calikang ou son immunité contre l’électricité est absorbée dans le corps de la créature et la soigne pour une quantité de dégâts égale au [[NLS|niveau de lanceur de sorts]] de la magie absorbée. Ceci lui permet aussi de se servir de son souffle une fois de plus dans la journée.}
+{s:BDTexte|'''Animation suspendue (Sur).''' Par une action complexe, un calikang peut entrer dans un état d’animation suspendue. Il se fige alors et ne bouge absolument plus mais il reste conscient de ce qui l’entoure. Il est alors immunisé contre les maladies, les toxines inhalées, le poison, la faim et la soif, il reçoit un bonus de +4 à tous les jets de [[Vigueur]]. Il peut mettre fin à cet état par une [[action immédiate]] : s’il le fait pour attaquer un ennemi ou engager un combat, il gagne un bonus d’intuition de +4 au test d’[[initiative]].}
+{s:BDTexte|'''Coup défensif (Ext).''' Un calikang gagne un bonus cumulable de bouclier de +1 à la [[CA]] par bras qui ne manie pas une arme manufacturée, avec un maximum de +4 pour quatre bras libres. Il peut faire des attaques de coup avec ces bras sans perdre son bonus à la CA.}
+{s:BDTexte|'''Souffle (Sur).''' Le calikang peut choisir le type de dégâts d’énergie infligés par son souffle : acide, électricité, feu, froid ou son. Les calikangs sont particulièrement doués pour utiliser l’électricité de cette manière et infligent 1 point de dégâts supplémentaires par dé (+14 pour la plupart d’entre eux) quand ils choisissent de faire des dégâts électriques.}
+</div></td>
+<td><div>''Ce géant bleu à six bras s’anime soudain, son armure et ses épées jumelles scintillent comme des joyaux.''
 
 Les calikangs sont très recherchés comme gardiens de trésors, de harems ou de fortifications. Une légende dit qu’il y a une éternité, l’un des milliers de dieux vudrains échoua dans sa tâche et que les premiers calikangs naquirent de ses doigts tranchés. Les calikangs sont habités par un puissant sentiment de honte et de culpabilité à cause de l’échec de leur ancêtre divin et pensent que, s’ils sont assez nombreux à protéger les domaines de ce monde contre le vol et la destruction, ils parviendront un jour à se débarrasser des péchés dont ils ont hérité.
 
-Les calikangs mesurent 4,50 mètres et pèsent 2 tonnes. Ils vivent jusqu’à 200 ans, mais beaucoup prolongent leur existence grâce à l’animation suspendue.}
+Les calikangs mesurent 4,50 mètres et pèsent 2 tonnes. Ils vivent jusqu’à 200 ans, mais beaucoup prolongent leur existence grâce à l’animation suspendue.
+</div></td></tr></table>
