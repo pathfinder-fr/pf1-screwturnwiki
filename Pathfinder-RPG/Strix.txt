@@ -1,89 +1,54 @@
 ---
 Name: Pathfinder-RPG.Strix
 Title: Strix
-LastModified: 2020-12-10 16:08
+LastModified: 2024-01-06 15:55
 Categories:
   - 'Monstre'
   - 'Src La mer Intérieure'
 ---
-{s:Monstre|Nom:
-  |Strix
-|FP/RM:
-  |1/3|
-|Icônes:
-  |Humanoïde|Montagnes|Tempéré
-|Source:
-  |La Mer Intérieure p.313
-|PX:
-  |135
-|Classe:
-  |Strix [[Homme darme|homme d'arme]] 1
-|Type, Taille, Alignement:
-  |[[type Humanoïde|Humanoïde]] (strix) de taille M, N
-|Init/Sens/Perception:
-  |+6|[[vision dans le noir (capacité)|vision dans le noir]] (18 m), [[vision nocturne (capacité)|vision nocturne]]|+0
-|Aura:
-  |
-|CA:
-  |12, contact 12, pris au dépourvu 10 (+2 Dex)
-|Pv:
-  |5 (1d10)
-|Réf/Vig/Vol:
-  |+2|+2|+0 ; +2 contre les illusions
-|Capacités défensives:
-  |
-|Vitesses:
-  |9 m (6 {s:c}), vol 18 m (moyenne)
-|Càc:
-  |lance, +2 (1d8+1/x3)
-|Distance:
-  |
-|Espace/Allonge:
-  ||
-|Attaques spéciales:
-  |haine
-|Pouvoirs magiques:|
-  ||||||
-|Sorts:|
-  ||||||||||
-|Notes sur la magie:
-  |
-|Tactique:|Non
-  ||||
-|Caractéristiques:
-  |12|15|10|8|11|7
-|BBA/BMO/DMD:
-  |+1|+2|14
-|Dons:
-  |[[Science de linitiative|Science de l’initiative]]
-|Compétences:
-  |[[Vol]] +6 ; '''Modificateurs raciaux''' +2 en [[Perception]] et en [[Discrétion]] dans une faible lumière ou dans le noir
-|Langues:
-  |commun, strix
-|Particularités:
-  |nocturne
-|Environnement:
-  |montagnes tempérées
-|Organisation sociale:
-  |solitaire, groupe de chasseurs (3-6), groupe de guerriers (5-12) ou tribu (22 plus 100% de non-combattants plus 1 champion de niveau 2 pour 10 adultes, 1 ou 2 oracle(s) de niveau 3 ou 4 et 1 chef de niveau 5-7)
-|Trésor:
-  |équipement de PNJ
-|Pouvoirs spéciaux:|Oui
-  |'''Haine (Ext).''' Les strix reçoivent un bonus de +1 aux [[jet dattaque|jets d’attaque]] contre les créatures humanoïdes de sous-type humain car ils sont spécialement entraînés à combattre ces ennemis qu’ils détestent.
-  |'''Nocturne (Ext).''' La nuit, les strix reçoivent un bonus racial de +2 aux tests de [[Perception]] et de [[Discrétion]].||||
-|Équipement:|Non
-  ||
-|Cadre descriptif:
-  |{s:cs}''Cet humanoïde mince et musculeux à la peau d’onyx est enveloppé d’immenses ailes aux plumes noires.''
+<table class="Bestiaire"><tr><td>
+<div class="BD">
+{s:BDTitre|Strix|FP 1/3}
+{s:pucem|Humanoïde|Montagnes|Tempéré}
+{s:BDTexte|''Source : La mer Intérieure p.313''}
+{s:BDTexte|'''PX''' 135}
+Strix guerrier 1
+{s:BDTexte|[[type Humanoïde|Humanoïde]] (strix) de taille M, N}
+{s:BDTexte|'''Init''' +6 ; '''Sens''' [[Vision dans le noir (capacité)|vision dans le noir]] à à 18 m, [[Vision nocturne (capacité)|vision nocturne]] ;}
+Perception +0 (+2 de nuit)
+{s:BDSousTitre|Défense}
+{s:BDTexte|'''CA''' 12, contact 12, pris au dépourvu 10 (+2 Dex)}
+{s:BDTexte|'''pv''' 5 (1d10)}
+{s:BDTexte|'''Réf''' +2, '''Vig''' +2, '''Vol''' +0 (+2 contre illusion)}
+{s:BDSousTitre|Attaque}
+{s:BDTexte|'''VD''' 9 m, [[Vol (capacité)|vol]] 18 m (moyenne)}
+{s:BDTexte|'''Corps à corps''' lance, +2 (1d8+1/x3)}
+{s:BDTexte|'''Attaques spéciales''' haine}
+{s:BDSousTitre|Caractéristiques}
+{s:BDTexte|'''For''' 12, '''Dex''' 15, '''Con''' 10, '''Int''' 8, '''Sag''' 11, '''Cha''' 7}
+{s:BDTexte|'''BBA''' +1 ; '''BMO''' +2 ; '''DMD''' 14}
+{s:BDTexte|'''Dons''' [[Science de linitiative|Science de l'initiative]]}
+{s:BDTexte|'''Compétences''' [[Vol]] +6}
+Modificateurs raciaux +2 en Perception et en Discrétion dans une faible lumière ou dans le noir
+{s:BDTexte|'''Langues''' commun, strix}
+{s:BDTexte|'''Particularités''' nocturne}
+{s:BDSousTitre|Écologie}
+{s:BDTexte|'''Environnement''' montagnes tempérées}
+{s:BDTexte|'''Organisation''' solitaire, groupe de chasseurs (3-6), groupe de guerriers (5-12) ou tribu (22 plus 100% de non-combattants plus 1 champion de niveau 2 pour 10 adultes, 1 ou 2 oracle(s) de niveau 3 ou 4 et 1 chef de niveau 5-7)}
+{s:BDTexte|'''Trésor''' équipement de PNJ}
+{s:BDSousTitre|Pouvoirs spéciaux}
+{s:BDTexte|'''Haine (Ext).''' Les strix reçoivent un bonus de +1 aux [[jet dattaque|jets d'attaque]] contre les créatures humanoïdes de sous-type humain car ils sont spécialement entraînés à combattre ces ennemis qu’ils détestent.}
+{s:BDTexte|'''Nocturne (Ext).''' La nuit, les strix reçoivent un bonus racial de +2 aux tests de [[Perception]] et de [[Discrétion]].}
+</div></td>
+<td><div>''Cet humanoïde mince et musculeux à la peau d’onyx est enveloppé d’immenses ailes aux plumes noires.''
 
-Dans leurs domaines montagneux, les strix défendent farouchement leurs territoires, sur terre comme dans les airs. Très dangereux mais pleins de sagesse, ils préfèreraient vivre tranquillement dans les tours du perchoir du Diable, à l'Empire diabolique, mais le temps et les traditions leur ont appris qu’ils ne peuvent pas faire confiance aux habitants sans ailes des côtes et des plaines. Seuls le sang et la peur peuvent protéger leurs foyers. Heureusement, ce sont deux domaines dans lesquels les strix excellent.
+Dans leurs domaines montagneux, les strix défendent farouchement leurs territoires, sur terre comme dans les airs. Très dangereux mais pleins de sagesse, ils préfèreraient vivre tranquillement dans les tours du perchoir du Diable, au Chéliax, mais le temps et les traditions leur ont appris qu’ils ne peuvent pas faire confiance aux habitants sans ailes des côtes et des plaines. Seuls le sang et la peur peuvent protéger leurs foyers. Heureusement, ce sont deux domaines dans lesquels les strix excellent.
 
 Ils ont appris à haïr les humains. Même si l’origine de cette haine reste floue pour tout le monde sauf pour eux, elle découle sûrement des siècles d’effusions de sang qui ont résulté des invasions répétées de leurs terres, de premières rencontres désastreuses ou d’une rancune encore plus ancienne.
 
 En moyenne, les strix mesurent dans les 1,90 mètre, les hommes étant à peu près de la même taille que les femmes. Cette race se distingue par ses oreilles très pointues, ses yeux sans pupilles et son nez uniquement formé de deux fentes. Cependant, ce sont les ailes de près de 4 mètres d’envergure que l’on remarque le plus. Un adulte pèse environ 85 kilos. La plupart des strix vivent une quarantaine d’années mais les plus vieux atteignent soixante ans.
 
-
-====Les strixs en tant que PJ====
+===Les personnages strix===
 Les strix sont définis par leurs niveaux de classe, ils ne possèdent pas de dés de vie raciaux. Ils ont tous les caractéristiques raciales suivantes.
 * '''+2 Dextérité, -2 Charisme.''' Les strix sont rapides et insaisissables mais ils ont tendance à être bornés et irritables.
 * '''Vol''' Les strix possèdent une vitesse de vol de 18 m (moyenne).
@@ -93,5 +58,4 @@ Les strix sont définis par leurs niveaux de classe, ils ne possèdent pas de d�
 * '''Nocturne.''' Voir ci-contre.
 * '''Suspicieux.''' Les strix gagnent un bonus racial de +2 aux [[jds|jets de sauvegarde]] contre les sorts et effets d’illusion.
 * '''Langues.''' En début de jeu, les strix parlent le strix. Ceux qui possèdent une valeur d’Intelligence supérieure peuvent également parler l’aérien, l’azlant, le commun, le draconique, le géant, le gnome, le gobelin et l’infernal.
-
-{s:VoirAussiAvant}La page de la race [[Strix (race)|Strix]]{s:VoirAussiAprès}}
+</div></td></tr></table>

@@ -1,83 +1,50 @@
 ---
 Name: Pathfinder-RPG.Diable de Pointesable
-Title: Destrier diabolique
-LastModified: 2020-12-10 16:07
+Title: Diable de Pointesable
+LastModified: 2024-01-06 15:42
 Categories:
   - 'Monstre'
   - 'Src La mer Intérieure'
 ---
-{s:Monstre|Nom:
-  |Destrier diabolique
-|FP/RM:
-  |8|
-|Icônes:
-  |Extérieur|Ville|Tempéré
-|Source:
-  |La Mer Intérieure p.310
-|PX:
-  |4 800
-|Classe:
-  |
-|Type, Taille, Alignement:
-  |[[type Extérieur|Extérieur]] ([[sous-type Natif|natif]]) de taille G, NM
-|Init/Sens/Perception:
-  |+3|[[vision dans le noir (capacité)|vision dans le noir]] (18 m), [[vision nocturne (capacité)|vision nocturne]], [[odorat (capacité)|odorat]]|+18
-|Aura:
-  |
-|CA:
-  |22, contact 13, pris au dépourvu 18 (+3 Dex, +1 esquive, +9 naturelle, ‑1 taille)
-|Pv:
-  |114 (12d10+48)
-|Réf/Vig/Vol:
-  |+7|+12|+11
-|Capacités défensives:
-  |'''RD''' 5/fer froid ; '''Immunités''' feu, effet de peur ; '''RM''' 19
-|Vitesses:
-  |12 m (8 {s:c}), vol 18 m (médiocre)
-|Càc:
-  |morsure, +17 (2d6+6/19-20), 2 coups de sabot, +17 (1d8+6)
-|Distance:
-  |
-|Espace/Allonge:
-  |3 m (2 {s:c})|1,5 m (1 {s:c})
-|Attaques spéciales:
-  |feu infernal, piétinement (2d6+9, DD 22), ruade
-|Pouvoirs magiques:|([[NLS]] 10 ; [[Lancer des sorts#CONCENTRATION|concentration]] +13)
-  |À volonté — ''[[bourrasque]]'' (DD 15), ''[[nappe de brouillard]]'' (DD 15), ''[[pyrotechnie]]'' (DD 15)
-  |3/jour — ''[[assassin imaginaire]]'' (DD 17), ''[[porte dimensionnelle]]'' (DD 17)||||
-|Sorts:|
-  ||||||||||
-|Notes sur la magie:
-  |
-|Tactique:|Non
-  ||||
-|Caractéristiques:
-  |22|17|19|8|17|16
-|BBA/BMO/DMD:
-  |+12|+19|33 (37 contre [[croc-en-jambe]])
-|Dons:
-  |[[Attaque éclair]], [[Esquive]], [[Frappe décisive]], [[Science de la frappe décisive]], [[Souplesse du serpent]], [[Vol stationnaire]]
-|Compétences:
-  |[[Connaissances]] (géographie) +5, [[Discrétion]] +14, [[Intimidation]] +12, [[Perception]] +18, [[Survie]] +18, [[Vol]] +12
-|Langues:
-  |abyssal, langue des Terres sauvages
-|Particularités:
-  |
-|Environnement:
-  |tous (Terres sauvages)
-|Organisation sociale:
-  |solitaire
-|Trésor:
-  |mineur
-|Pouvoirs spéciaux:|Oui
-  |'''Aboiement (Sur).''' Quand le destrier diabolique hurle, par une [[action simple]], toutes les créatures situées dans un rayon de 90 mètres doivent réussir un jet de [[Volonté]] [[DD]] 19 ou être [[paniqué|paniquées]] pendant 2d4 [[round|rounds]]. C’est un effet de peur sonore et mental. Que la créature ait réussi son jet ou non, elle est ensuite immunisée contre le hurlement du diable pendant 24 heures. Le [[DD]] du [[jds|jet de sauvegarde]] est basé sur le [[Charisme]].
-  |'''Feu infernal (Sur).''' Le destrier diabolique peut cracher un cône de feu infernal de 9 mètres une fois tous les 1d4 rounds (10d6 points de dégâts de feu, jet de [[Réflexes]] [[DD]] 20 pour réduire les dégâts de moitié). Toute créature qui subit des dégâts à cause de cette attaque doit également faire un jet de [[Volonté]] [[DD]] 20 ou être maudite par les flammes infernales (ce qui équivaut à un malus de -4 aux [[jet dattaque|jets d’attaque]], [[jds|de sauvegarde]] et aux tests de compétence pendant un nombre de jours égal aux dégâts reçus). Pendant toute cette période, la peau de la victime est marquée d’horribles brûlures, quels que soient les soins prodigués. Cette malédiction fonctionne avec un [[NLS|niveau de lanceur de sorts]] de 12. Le [[DD]] du [[jds|jet de sauvegarde]] est basé sur la [[Constitution]].
-  |'''Ruade (Ext).''' Les sabots du destrier diabolique sont considérés comme une attaque primaire et infligent des dégâts contondants et tranchants.|||
-|Équipement:|Non
-  ||
-|Cadre descriptif:
-  |{s:cs}''Cette bête galeuse aux allures de cheval se déplace d’une manière aberrante, debout. Des ailes, une queue de dragon et une gueule garnie de crocs viennent compléter cette immonde silhouette.''
+<table class="Bestiaire"><tr><td>
+<div class="BD">
+{s:BDTitre|Diable de Pointesable|FP 8}
+{s:pucem|Extérieur|Ville|Tempéré}
+{s:BDTexte|''Source : La mer Intérieure p.310''}
+{s:BDTexte|'''PX''' 4 800}
+{s:BDTexte|[[type Extérieur|Extérieur]] ([[sous-type natif|natif]]) de taille G, NM}
+{s:BDTexte|'''Init''' +3 ; '''Sens''' [[Odorat (capacité)|odorat]], [[Vision dans le noir (capacité)|vision dans le noir]] à 18 m, [[Vision nocturne (capacité)|vision nocturne]] ; [[Perception]] +18}
+{s:BDSousTitre|Défense}
+{s:BDTexte|'''CA''' 22, contact 13, pris au dépourvu 18 (+3 Dex, +1 esquive, +9 naturelle, ‑1 taille)}
+{s:BDTexte|'''pv''' 114 (12d10+48)}
+{s:BDTexte|'''Réf''' +7, '''Vig''' +12, '''Vol''' +11}
+{s:BDTexte|'''RD''' 5/fer froid ; '''Immunités''' feu, effet de peur ; '''RM''' 19}
+{s:BDSousTitre|Attaque}
+{s:BDTexte|'''VD''' 12 m, [[Vol (capacité)|vol]] 18 m (médiocre)}
+{s:BDTexte|'''Corps à corps''' morsure, +17 (2d6+6/19-20), 2 coups de sabot, +17 (1d8+6)}
+{s:BDTexte|'''Espace occupé''' 3 m allonge 1,50 m}
+{s:BDTexte|'''Attaques spéciales''' aboiement, feu infernal, [[Piétinement (capacité)|piétinement]] (2d6+9, DD 22), ruade}
+Pouvoir magique (NLS 10 ; concentration +13)
+{s:BDSorts|À volonté — ''[[bourrasque]]'' (DD 15), ''[[nappe de brouillard]]'' (DD 15), ''[[pyrotechnie]]'' (DD 15)}
+{s:BDSorts|3/jour — ''[[assassin imaginaire]]'' (DD 17), ''[[porte dimensionnelle]]'' (DD 17)}
+{s:BDSousTitre|Caractéristiques}
+{s:BDTexte|'''For''' 22, '''Dex''' 17, '''Con''' 19, '''Int''' 8, '''Sag''' 17, '''Cha''' 16}
+{s:BDTexte|'''BBA''' +12 ; '''BMO''' +19 ; '''DMD''' 33 (37 contre [[croc-en-jambe]])}
+{s:BDTexte|'''Dons''' [[Attaque éclair]], [[Esquive]], [[Frappe décisive]], [[Souplesse du serpent]], [[Vol stationnaire]],}
+{s:BDTexte|'''Compétences''' [[Connaissances]] (géographie) +5, [[Discrétion]] +14, [[Intimidation]] +12, [[Perception]] +18, [[Survie]] +18, [[Vol]] +12,}
+{s:BDTexte|'''Langues''' abyssal, varisien}
+{s:BDSousTitre|Écologie}
+{s:BDTexte|'''Environnement''' tous (Varisie)}
+{s:BDTexte|'''Organisation''' sociale solitaire}
+{s:BDTexte|'''Trésor''' mineur}
+{s:BDSousTitre|Pouvoirs spéciaux}
+{s:BDTexte|'''Aboiement (Sur).''' Quand le destrier diabolique hurle, par une [[action simple]], toutes les créatures situées dans un rayon de 90 mètres doivent réussir un jet de [[Volonté]] [[DD]] 19 ou être [[paniqué|paniquées]] pendant 2d4 [[round|rounds]]. C’est un effet de peur sonore et mental. Que la créature ait réussi son jet ou non, elle est ensuite immunisée contre le hurlement du diable pendant 24 heures. Le [[DD]] du [[jds|jet de sauvegarde]] est basé sur le [[Charisme]].}
+{s:BDTexte|'''Feu infernal (Sur).''' Le destrier diabolique peut cracher un cône de feu infernal de 9 mètres une fois tous les 1d4 rounds (10d6 points de dégâts de feu, jet de [[Réflexes]] [[DD]] 20 pour réduire les dégâts de moitié). Toute créature qui subit des dégâts à cause de cette attaque doit également faire un jet de [[Volonté]] [[DD]] 20 ou être maudite par les flammes infernales (ce qui équivaut à un malus de -4 aux [[jet dattaque|jets d’attaque]], [[jds|de sauvegarde]] et aux tests de compétence pendant un nombre de jours égal aux dégâts reçus). Pendant toute cette période, la peau de la victime est marquée d’horribles brûlures, quels que soient les soins prodigués. Cette malédiction fonctionne avec un [[NLS|niveau de lanceur de sorts]] de 12. Le [[DD]] du [[jds|jet de sauvegarde]] est basé sur la [[Constitution]].}
+{s:BDTexte|'''Ruade (Ext).''' Les sabots du destrier diabolique sont considérés comme une attaque primaire et infligent des dégâts contondants et tranchants.}
+</div></td>
+<td><div>''Cette bête galeuse aux allures de cheval se déplace d’une manière aberrante, debout. Des ailes, une queue de dragon et une gueule garnie de crocs viennent compléter cette immonde silhouette.''
 
-Le légendaire destrier diabolique hante les terres qui entourent le Phare de la côte oubliée depuis plus de dix ans. Il apparaît en général par une nuit brumeuse sans lune et laisse parfois derrière lui des indices de son passage, comme des empreintes de sabots qui empestent le soufre, à des endroits bizarres (sur un avant-toit par exemple).
+Le légendaire diable de Pointesable hante les terres qui entourent la région à laquelle il doit son nom depuis plus de dix ans. Il apparaît en général par une nuit brumeuse sans lune et laisse parfois derrière lui des indices de son passage, comme des empreintes de sabots qui empestent le soufre, à des endroits bizarres (sur un avant-toit par exemple).
 
-Voleur de bétail, kidnappeur d’enfants et héraut de nombreux maux, on raconte d’innombrables histoires sur son compte. Certaines expliquent que c’est une antique créature venue d’un âge oublié et transformée par un magicien, d’autres disent qu’il est né d’une sorcière maudite qui brisa un pacte passé avec un diable. Mais les rumeurs les plus inquiétantes sont sûrement celles qui évoquent la possibilité que cette créature ne soit que l’une des nombreuses qui vivent dans les étendues sauvages.}
+Voleur de bétail, kidnappeur d’enfants et héraut de nombreux maux, on raconte d’innombrables histoires sur son compte. Certaines expliquent que c’est une antique créature venue d’un âge oublié et transformée par un magicien, d’autres disent qu’il est né d’une sorcière maudite qui brisa un pacte passé avec un diable. Mais les rumeurs les plus inquiétantes sont sûrement celles qui évoquent la possibilité que cette créature ne soit que l’une des nombreuses qui vivent dans les étendues sauvages.
+</div></td></tr></table>
