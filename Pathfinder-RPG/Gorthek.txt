@@ -1,79 +1,41 @@
 ---
 Name: Pathfinder-RPG.Gorthek
 Title: Gorthek
-LastModified: 2020-10-08 18:38
+LastModified: 2024-01-14 23:37
 Categories:
   - 'Monstre'
   - 'Src Codex monstrueux'
 ---
-{s:Monstre|Nom:
-  |Gorthek
-|FP/RM:
-  |7|
-|Icônes:
-  |Animal|Collines|Tempéré
-|Source:
-  |Codex monstrueux p.196
-|PX:
-  |3 200
-|Classe:
-  |
-|Type, Taille, Alignement:
-  |[[type Animal|Animal]] de taille G, N
-|Init/Sens/Perception:
-  |-1|[[vision dans le noir (capacité)|vision dans le noir]] (18 m), [[vision nocturne (capacité)|vision nocturne]]|+12
-|Aura:
-  |
-|CA:
-  |18, contact 8, pris au dépourvu 18 (-1 Dex, +10 naturelle, -1 taille)
-|Pv:
-  |85 (9d8+45)
-|Réf/Vig/Vol:
-  |+5|+13|+3
-|Capacités défensives:
-  |'''RD''' 5/—
-|Vitesses:
-  |12 m (8 {s:c})
-|Càc:
-  |corne, +16 (2d6+16)
-|Distance:
-  |
-|Espace/Allonge:
-  |3 m (2 {s:c})|1,5 m (1 {s:c})
-|Attaques spéciales:
-  |[[charge puissante (capacité)|charge puissante]] (corne, 4d6+22), [[piétinement (capacité)|piétinement]] (2d6+16, DD 25)
-|Pouvoirs magiques:|
-  ||||||
-|Sorts:|
-  ||||||||||
-|Notes sur la magie:
-  |
-|Tactique:|Non
-  ||||
-|Caractéristiques:
-  |32|9|21|2|10|5
-|BBA/BMO/DMD:
-  |+6|+18 (+20 en [[bousculade]] et en [[destruction]])|27 (29 contre la [[bousculade]] et la [[destruction]], 31 contre le [[croc-en-jambe]])
-|Dons:
-  |[[Attaque en puissance]], [[Coup fabuleux]], [[Science de la bousculade]], [[Science de la destruction]], [[Vigueur surhumaine]]
-|Compétences:
-  |[[Perception]] +12
-|Langues:
-  |
-|Particularités:
-  |
-|Environnement:
-  |collines et plaines tempérées
-|Organisation sociale:
-  |solitaire, couple ou troupeau (3-12)
-|Trésor:
-  |aucun
-|Pouvoirs spéciaux:|Non
-  ||||||
-|Équipement:|Non
-  ||
-|Cadre descriptif:
-  |'''Ces créatures accompagnent souvent les [[Orque|orques]].'''
+<table class="Bestiaire"><tr><td>
+<div class="BD">
+{s:BDTitre|Gorthek|FP 7}
+{s:pucem|Animal|Collines|Tempéré}
+{s:BDTexte|''Source : [[Codex monstrueux (Contenu)|Codex monstrueux p.196]]''}
+{s:BDTexte|'''PX''' 3 200}
+{s:BDTexte|[[type Animal|Animal]] de taille G, N}
+{s:BDTexte|'''Init''' -1 ; '''Sens''' [[Vision dans le noir (capacité)|vision dans le noir]] à 18 m, [[Vision nocturne (capacité)|vision nocturne]] ; [[Perception]] +12}
+{s:BDSousTitre|Défense}
+{s:BDTexte|'''CA''' 18, contact 8, pris au dépourvu 18 (-1 Dex, +10 naturelle, -1 taille)}
+{s:BDTexte|'''pv''' 85 (9d8+45)}
+{s:BDTexte|'''Réf''' +5, '''Vig''' +13, '''Vol''' +3}
+{s:BDTexte|'''RD''' 5/—}
+{s:BDSousTitre|Attaque}
+{s:BDTexte|'''VD''' 12 m}
+{s:BDTexte|'''Corps à corps''' corne, +16 (2d6+16)}
+{s:BDTexte|'''Espace occupé''' 3 m ; '''Allonge''' 1,5 m}
+{s:BDTexte|'''Attaques spéciales''' [[Charge puissante (capacité)|charge puissante]] (corne, 4d6+22), [[Piétinement (capacité)|piétinement]] (2d6+16, DD 25)}
+{s:BDSousTitre|Caractéristiques}
+{s:BDTexte|'''For''' 32, '''Dex''' 9, '''Con''' 21, '''Int''' 2, '''Sag''' 10, '''Cha''' 5}
+{s:BDTexte|'''BBA''' +6 ; '''BMO''' +18 (+20 pour la [[bousculade]] ou la [[destruction]]) ; '''DMD''' 27 (29 contre la [[bousculade]] ou la [[destruction]], 31 contre le [[croc-en-jambe]])}
+{s:BDTexte|'''Dons''' [[Attaque en puissance]], [[Coup fabuleux]], [[Science de la bousculade]], [[Science de la destruction]], [[Vigueur surhumaine]]}
+{s:BDTexte|'''Compétences''' [[Perception]] +12}
+{s:BDSousTitre|Écologie}
+{s:BDTexte|'''Environnement''' collines et plaines tempérées}
+{s:BDTexte|'''Organisation''' solitaire, couple ou troupeau (3-12)}
+{s:BDTexte|'''Trésor''' aucun}
+
+</div></td>
+<td><div>'''Ces créatures accompagnent souvent les [[Orque|orques]].'''
 
 ''Cet énorme quadrupède est couvert d’une peau épaisse et toute ridée en plus d’arborer des cornes incurvées. Son visage léonin est encadré d’une crinière hirsute.''
 
@@ -89,4 +51,5 @@ Un gorthek mâle adulte mesure environ deux mètres dix au garrot et pèse près
 ====Le gorthek comme compagnon animal====
 '''Caractéristiques de départ.''' '''Taille''' M ; '''Vitesse''' 12 m (8 {s:c}); '''CA''' armure naturelle +4 ; '''Attaque''' corne (1d8) ; '''Caractéristiques''' For 16, Dex 11, Con 13, Int 2, Sag 12, Cha 5 ; '''Particularités''' [[vision dans le noir (capacité)|vision dans le noir]] (18 m), [[vision nocturne]].
 
-'''Développement au niveau 7.''' '''Taille''' G ; '''CA''' armure naturelle +3 ; '''Attaque''' corne (2d6) ; '''Caractéristiques''' For +8, Dex -2, Con +4 ; '''Attaques spéciales''' [[charge puissante (capacité)|charge puissante]] (corne, 4d6 + deux fois le modificateur de [[Force]]).}
+'''Développement au niveau 7.''' '''Taille''' G ; '''CA''' armure naturelle +3 ; '''Attaque''' corne (2d6) ; '''Caractéristiques''' For +8, Dex -2, Con +4 ; '''Attaques spéciales''' [[charge puissante (capacité)|charge puissante]] (corne, 4d6 + deux fois le modificateur de [[Force]]).
+</div></td></tr></table>
