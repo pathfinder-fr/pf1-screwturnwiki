@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Empyréen
 Title: Ange, Empyréen
-LastModified: 2023-12-20 17:08
+LastModified: 2024-04-16 19:15
 Categories:
   - 'Monstre'
   - 'Src Bestiaire 5'
@@ -13,7 +13,7 @@ Categories:
 {s:BDTexte|''Source : Bestiaire 5 p.26''}
 {s:BDTexte|'''PX''' 307 200}
 {s:BDTexte|[[type Extérieur|Extérieur]] ([[sous-type ange|ange]], [[sous-type Bien|Bien]], [[sous-type extraplanaire|extraplanaire]]) de taille G, NB}
-{s:BDTexte|'''Init''' +12 ; '''Sens''' détection des collets et des fosses, ''[[détection du Mal]]'', [[Vision dans le noir (capacité)|vision dans le noir]] à 18 m, ''[[vision lucide]]'', [[Vision nocturne (capacité)|vision nocturne]] ; [[Perception]] +38}
+{s:BDTexte|'''Init''' +12 ; '''Sens''' ''[[détection des collets et des fosses]]'', ''[[détection du Mal]]'', [[Vision dans le noir (capacité)|vision dans le noir]] à 18 m, ''[[vision lucide]]'', [[Vision nocturne (capacité)|vision nocturne]] ; [[Perception]] +38}
 {s:BDTexte|'''Aura''' aura de protection}
 {s:BDSousTitre|Défense}
 {s:BDTexte|'''CA''' 38, contact 38, pris au dépourvu 30 (Dex +8, intuition +7, sainteté +14, taille -1 ; parade +4 contre le Mal)}
@@ -25,11 +25,11 @@ Categories:
 {s:BDTexte|'''Corps à corps''' hallebarde miséricordieuse et sainte +1, +36/+31/+26/+21 (2d8+16/19-20/×3) ou coup, +34 (2d8+15)}
 {s:BDTexte|'''Distance''' arc long composite miséricordieux et saint +1, +33/+28/+23/+18 (2d6+11/×3)}
 {s:BDTexte|'''Espace occupé''' 3 m ; '''Allonge''' 3 m}
-{s:BDTexte|'''Pouvoirs magiques''' ([[NLS]] 20 ; [[concentration]] +27)}
-{s:BDSorts|Constant — détection des ''[[collet]]''s et des fosses, détection des mensonges (DD 21), ''[[détection du Mal]]'', ''[[vision lucide]]''}
+{s:BDTexte|'''Pouvoirs magiques''' ([[NLS]] 20 ; [[concentration]] +30)}
+{s:BDSorts|Constant — ''[[détection des collets et des fosses]]'', ''[[détection du mensonge]]'' (DD 21), ''[[détection du Mal]]'', ''[[vision lucide]]''}
 {s:BDSorts|À volonté — ''[[aide]]'', ''[[ancre dimensionnelle]]'', ''[[annulation denchantement|annulation d'enchantement]]'', ''[[communication avec les morts]]'', ''[[communion]]'', ''[[délivrance des malédictions]]'', ''[[dissipation suprême]]'', ''[[flamme éternelle]]'', ''[[guérison des maladies]]'', ''[[marque de la justice]]'', ''[[neutralisation du poison]]'', ''[[pénitence]]'', ''[[regain dassurance|regain d'assurance]]'', ''[[résistance aux énergies destructives]]'', ''[[restauration partielle]]''}
-{s:BDSorts|3/jour — ''[[attirance]]'' (DD 25), ''[[barrière de lames]]'' (DD 23), charmemonstre de groupe (DD 25), ''[[guérison suprême]]'' (DD 23), ''[[permanence]]'', ''[[rejet du Mal]]'' (DD 22), ''[[résurrection]]''}
-1/jour —mot de pouvoir étourdissant, restauration suprême, souhait
+{s:BDSorts|3/jour — ''[[attirance]]'' (DD 25), ''[[barrière de lames]]'' (DD 23), ''[[charme-monstre de groupe]]'' (DD 25), ''[[guérison suprême]]'' (DD 23), ''[[permanence]]'', ''[[rejet du Mal]]'' (DD 22), ''[[résurrection]]''}
+{s:BDSorts|1/jour — ''[[mot de pouvoir étourdissant]]'', ''[[restauration suprême]]'', ''[[souhait]]''}
 {s:BDTexte|'''Sorts de prêtre préparés''' ([[NLS]] 20 ; [[concentration]] +30)}
 {s:BDSorts|9e — ''[[force du colosse]]'' à incantation rapide ''[[guérison suprême de groupe]]'' (DD 29), ''[[miracle]]'', ''[[portail]]'', ''[[présence écrasante]]'' (DD 29)}
 {s:BDSorts|8e — ''[[aura sacrée]]'' (DD 28), ''[[immunité contre les sorts suprême]]'', ''[[localisation suprême]]'', ''[[puissance divine]]'' à incantation rapide, ''[[zone dantimagie|zone d'antimagie]]''}
@@ -46,8 +46,8 @@ Categories:
 {s:BDTexte|'''BBA''' +25 ; '''BMO''' +36 ; '''DMD''' 75}
 {s:BDTexte|'''Dons''' [[Arme de prédilection]] (hallebarde), [[Assaut hébétant]]<sup>M</sup>dR-RA, [[Attaque en puissance]], [[Attaques réflexes]], [[Concentration malgré la fureur]], [[Feu nourri]], [[Incantation rapide]], [[Réflexes surhumains]], [[Science de linitiative|Science de l'initiative]], [[Science du critique]] (hallebarde), [[Tir à bout portant]], [[Tir rapide]], [[Viser]]}
 {s:BDTexte|'''Compétences''' [[Art de la magie]] +31, [[Artisanat]] (un au choix) +34, [[Connaissances]] (histoire, plans, religion) +34, [[Déguisement]] +15, [[Diplomatie]] +35, [[Discrétion]] +32, [[Perception]] +38, [[Premiers secours]] +17, [[Psychologie]] +38, [[Représentation]] (une au choix) +35, [[Utilisation dobjets magiques|Utilisation d'objets magiques]] +32, [[Vol]] +23}
-{s:BDTexte|'''Langues''' céleste, draconique, infernal ; langage universel}
-{s:BDTexte|'''Particularités''' armes lumineuses, [[Changement de forme (capacité)|changement de forme]] (modification d’apparence), corps lumineux, intuition empyréenne}
+{s:BDTexte|'''Langues''' céleste, draconique, infernal ; [[Sous-type ange#LANGAGEUNIVERSEL|langage universel]]}
+{s:BDTexte|'''Particularités''' armes lumineuses, [[Changement de forme (capacité)|changement de forme]] (''[[modification dapparence|modification d'apparence]]''), corps lumineux, intuition empyréenne}
 {s:BDSousTitre|Écologie}
 {s:BDTexte|'''Environnement''' plans alignés sur le Bien}
 {s:BDTexte|'''Organisation''' solitaire}

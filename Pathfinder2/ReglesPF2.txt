@@ -1,0 +1,65 @@
+---
+Name: Pathfinder2.ReglesPF2
+Title: Règles PF2
+LastModified: 2024-04-21 20:55
+---
+<nowiki>
+<script src="/scripts/ListePagesRegle.ashx" type="text/javascript"></script>
+<script>
+  const urlPages = "/Wiki/public/Upload/PF2/ReglesPF2/Contenu/";
+  let selectListePages;
+  let divPageAffichee;
+  window.onload = async () => {
+    selectListePages = document.getElementById("choixPage");
+    divPageAffichee= document.getElementById("contenuAffiche");
+    pages.Contenu.sort(ordrePrefixeNum).forEach(titre => {
+      const page = document.createElement("option");
+      page.innerHTML = titre;
+      page.value = titre;
+      selectListePages.appendChild(page);
+    });
+    selectListePages.onchange = majContenuAffiche;
+    await majContenuAffiche();
+  }
+  majContenuAffiche = async () => {
+    const contenu = await fetch(`${urlPages}${selectListePages.value}.htm`);
+    divPageAffichee.innerHTML = await contenu.text();
+  };
+  function ordrePrefixeNum (str1, str2) {
+    const regPrefixe = /^\d*/;
+    const pref1 = str1.match(regPrefixe)[0];
+    const pref2 = str2.match(regPrefixe)[0];
+    if (pref1 != "" && pref2 != "") return Number(pref1) - Number(pref2);
+    return str1.localeCompare(str2);
+  }
+</script>
+<style>
+  @font-face {
+    font-family: pf2symbols;
+    src: url(/Wiki/public/Upload/PF2/ReglesPF2/Pathfinder2eActions.ttf);
+  }
+  #choixPage {
+    width: 99%;
+  }
+  #contenuAffiche {
+    box-sizing: border-box;
+    width: 99%;
+    height: auto;
+  }
+  .action-glyph {
+    font-family: pf2symbols;
+  }
+  hr {
+    margin: 2px 0;
+    border: 1px solid lightgrey;
+  }
+  hr ~ p {
+    margin-top: 0;
+  }
+  p:has(~ hr) {
+    margin-bottom: 0;
+  }
+</style>
+<select id="choixPage"></select>
+<div id="contenuAffiche"></div>
+</nowiki>
