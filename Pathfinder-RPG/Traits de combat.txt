@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Traits de combat
 Title: Les traits de combat
-LastModified: 2022-02-28 18:30
+LastModified: 2024-05-17 22:46
 ---
 {s:MenuTraits}''Ces traits sont liés aux batailles, au combat et aux prouesses physiques. Ils donnent des bonus mineurs en combat et représentent les conflits et les luttes physiques de votre passé.''
 
@@ -14,12 +14,20 @@ Vous avez grandi dans un environnement ou un quartier dangereux qui vous a oblig
 Plus vos adversaires sont grands et plus ils ont de mal à vous toucher. Vous gagnez un bonus d’esquive de +1 à la [[CA]] contre vos [[Rôdeur#ENNEMIJURE|ennemis jurés]] quand ils sont d’au moins deux catégories de taille de plus que vous.
 
 <hr>
+{s:cs}{s:AMH}{s:Reference|AMEBLINDEE}'''Âme blindée'''  
+Quand le personnage porte une [[Tableau récapitulatif des armures|armure]] ou utilise un [[Tableau récapitulatif des armures|bouclier]], il gagne un bonus de trait de +1 aux [[jds|jets de sauvegarde]] contre les sorts divins qui infligent des dégâts.
+
+<hr>
 {s:APG}{s:GC}{s:Reference|ANATOMISTE}'''Anatomiste'''  
 Vous avez étudié l’anatomie, soit en tant qu’étudiant à l’université soit en tant qu’apprenti croquemort ou nécromancien. Vous savez où viser pour toucher des organes vitaux et gagnez donc un bonus de trait de +1 sur tous les [[coup critique|jets de confirmation critique]].
 
 <hr>
 {s:GC}{s:Reference|ARMECACHEE}'''Arme cachée'''  
 Vous savez vous battre avec des objets qui, d’ordinaire, ne sont pas considérés comme des armes. Vous gagnez un bonus de trait de +2 aux [[jet dattaque|jets d’attaque]] avec des [[arme improvisée|armes improvisées]].
+
+<hr>
+{s:cs}{s:AMH}{s:Reference|ARMUREDRACONIQUE}'''Armure draconique'''  
+Les combattants d’élite du Xa Hoi sont entraînés pour contrer les attaques d'énergie. Choisissez un type d'énergie destructive (acide, électricité, feu, froid, son) quand vous obtenez ce trait. Quand le personnage porte une [[armure intermédiaire]] ou [[armure lourde|lourde]], il gagne un bonus de trait de +2 aux jets de [[Réflexes]] contre les sorts et effets du type d'énergie choisi.
 
 <hr>
 {s:GC}{s:Reference|ARTISTEDESARTSMARTIAUX}'''Artiste des arts martiaux'''  
@@ -54,6 +62,14 @@ Le personnage sait comment boire efficacement une potion, par exemple sans se se
 Vous êtes si doué avec les armes à feu que vous savez les réparer plus vite que les autres. Vous gagnez un bonus de trait de +1 aux tests d’[[Artisanat]] (alchimie) et Artisanat (armes). Il vous suffit de 30 minutes pour débarrasser une arme à feu de la condition [[brisé|brisée]].
 
 <hr>
+{s:cs}{s:AMH}{s:Reference|CARAPACECRAMOISIE}'''Carapace cramoisie'''  
+La combinaison d’armure et d’agilité protège le personnage des attaques mortelles. Quand le personnage porte une [[armure légère]] et qu'il [[Actions simples#Combattre_sur_la_défensive_lors_d’une_action_simple_5|combat sur la défensive]] ou utilise [[Expertise du combat]], il gagne un bonus de trait de +2 à la [[CA]] contre les jets d'attaque destinés à confirmer un [[coup critique]].
+
+<hr>
+{s:cs}{s:AMH}{s:Reference|CAVALIERENARMURE}'''Cavalier en armure'''  
+Le personnage gagne un bonus de trait de +1 aux tests d’[[Équitation]], qui devient une compétence de classe pour lui. Le personnage ne subit pas de malus d'armure aux tests d'[[Équitation]] lorsqu'il porte une [[armure légère]] ou [[armure intermédiaire|intermédiaire]].
+
+<hr>
 {s:cs}{s:WMH}{s:Reference|CHAMPIONHONORABLE}'''Champion honorable'''  
 Le personnage puise sa force au combat en suivant le code d'honneur des samouraïs. Une fois par jour, si un effet le force à blesser un allier, où à rompre sa parole, le personnage peut tenter une jet de [[Volonté]] contre le [[DD]] normal de l'effet pour y mettre fin. Si l'effet autorise normalement un jet de Volonté dans ces conditions, le personnage peut lancer deux fois ce jet et conserver le meilleur résultat.
 
@@ -62,8 +78,16 @@ Le personnage puise sa force au combat en suivant le code d'honneur des samoura�
 Quand vous avez un pistolet en main, vous ne craignez presque rien. Tant que vous maniez une arme à feu, vous gagnez un bonus de trait de +2 à tous les [[jds|jets de sauvegarde]] contre les effets de malédiction, de terreur et d’émotion.
 
 <hr>
+{s:cs}{s:AMH}{s:Reference|CHASSEURDEDIABLES}'''Chasseur de diables'''  
+Apprendre la manière de penser des diables aide le personnage à résister à leurs subterfuges. Le personnage gagne un bonus de trait de +1 à la [[CA]] contre les attaques des [[type Extérieur|extérieurs]] loyaux.
+
+<hr>
 {s:GC}{s:Reference|CHASSEURDEVOT}'''Chasseur dévot'''  
 Une puissance divine vous sourit à chaque fois que vous blessez grièvement un de vos ennemis jurés. Quand vous confirmez un [[coup critique]] contre un [[Rôdeur#ENNEMIJURE|ennemi juré]], vous pouvez étendre la durée d’un sort divin vous affectant d’un [[round]]. Vous pouvez cumuler les avantages liés à plusieurs coups critiques. Vous ne pouvez pas prolonger ainsi des sorts divins instantanés.
+
+<hr>
+{s:cs}{s:AMH}{s:Reference|CICATRICESPERMANENTES}'''Cicatrices permanentes'''  
+Le personnage porte des balafres physiques et émotionnelles de son initiation de Dame Grise comme une armure mentale. Il gagne un bonus de trait de +2 aux [[jds|jets de sauvegarde]] contre les effets de [[registre|douleur]] et d'[[registre|émotion]].
 
 <hr>
 {s:cs}{s:WMH}{s:Reference|CIMETERREMISERICORDIEUX}'''Cimeterre miséricordieux'''  
@@ -122,6 +146,10 @@ La famille du personnage a noué des liens étroits avec un ordre de Légionnair
 Vous avez un don pour aider vos alliés sur le champ de bataille. Vous gagnez un bonus de trait de +2 aux tests de [[Premiers secours]] pour stabiliser une créature à l’agonie. De plus, quand vous arrivez à utiliser l’action [[aider qqn|aider quelqu’un]] en plein combat pour donner un bonus au prochain [[jet dattaque|jet d’attaque]] d’un allié, ce bonus augmente de 1.
 
 <hr>
+{s:cs}{s:AMH}{s:Reference|ENTRAINEMENTALAVESTE}'''Entraînement à la veste'''  
+Le personnage considère les [[Veste renforcée (armure)|vestes renforcées]] comme des [[armure légère|armures légères]]. Ce choix doit être fait au moment où il enfile l’armure et ne peut être changé tant qu'il ne l'enlève pas pour la remettre plus tard. Le personnage doit toujours être formé au port des [[armure intermédiaire|armures intermédiaires]] pour éviter le malus d'armure aux [[jet dattaque|jets d'attaque]] aux tests de [[Compétences|compétence]] impliquant un déplacement.
+
+<hr>
 {s:cs}{s:WMH}{s:Reference|ENTRAINEMENTPRECAUTIONNEUX}'''Entraînement précautionneux'''  
 Le personnage a appris des mouvements défensifs de la part de ses entraîneurs. Il obtient un bonus d'esquive de +1 supplémentaire à la [[CA]] lorsqu'il [[combat sur la défensive]] ou qu'il se met en [[défense totale]].
 
@@ -174,6 +202,10 @@ Votre connaissance de la nature influe sur votre style de combat et ce style vou
 Les récits relatifs aux Chevaliers de la vie ont inspiré le personnage depuis l'enfance à punir instinctivement les morts-vivants. Il gagne un bonus de trait de +1 aux [[jet dattaque|jets d'attaque]] et [[Valeurs de combat#DEGATS|de dégâts]] lorsqu'il porte une [[AO|attaque d'opportunité]] contre les [[type Mort-vivant|morts-vivants]]. Lorsqu'il manie un bouclier, le bonus de bouclier à la [[CA]] du personnage augmente de +1 contre les attaques d'opportunité portées par les morts-vivants.
 
 <hr>
+{s:cs}{s:AMH}{s:Reference|JUSQUALAFIN}'''Jusqu'à la fin'''  
+Choisissez un type d’[[armure intermédiaire]] ou [[armure lourde|lourde]] spécifique (tel que la [[cotte de mailles (armure)|cotte de mailles]] ou l'[[armure de plaques (armure)|armure de plaques]]). Si le personnage n'a pas d'alliés dans un rayon de 18 m et qu'il porte ce type d’armure, il gagne une [[RD]] 1/-. Ce bonus se cumule avec tout autres source de [[réduction de dégâts]] que le personnage possède.
+
+<hr>
 {s:GC}{s:Reference|MAINCACHEE}'''Main cachée'''  
 Vous frappez vite et fort avec les armes que vous dissimulez. Vous gagnez un bonus de trait de +1 aux tests d’[[Escamotage]] pour dissimuler une arme légère et un bonus de trait de +1 au [[jet dattaque|jet d’attaque]] quand vous utilisez une arme légère lors d’un [[round de surprise]].
 
@@ -201,6 +233,10 @@ Quand vous tenez une arme à feu en main, vous êtes vraiment terrifiant. Si vou
 <hr>
 {s:cs}{s:WMH}{s:Reference|PORTEEETENDUE}'''Portée vagabonde'''  
 Le personnage a appris des pirates à tirer le meilleur des attaques à distance lorsqu'il se rapproche de ses cibles. Augmentez le [[facteur de portée]] des armes à distance (mais pas des armes de jet) que le personnage manie de 1,5 m.
+
+<hr>
+{s:cs}{s:AMH}{s:Reference|PROMETTEUR}'''Prometteur'''  
+Les supérieurs du personnage l'ont repérés en tant que candidat des chevaliers de l’aigle, et leurs éloges l'encouragent à répondre à leurs attentes. Chaque jour après avoir eu une nuit de repos complète, le personnage gagne un bonus de trait de +1 à la [[CA]] quand quand il porte une armure ou un bouclier. Ce bonus dure jusqu'à la prochaine attaque réussie contre le personnage dans les 24 heures suivantes.
 
 <hr>
 {s:GC}{s:Reference|PROTECTEURDELAFAMILLE}'''Protecteur de la famille'''  
