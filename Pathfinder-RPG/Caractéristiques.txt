@@ -1,9 +1,7 @@
 ---
 Name: Pathfinder-RPG.Caractéristiques
 Title: Les caractéristiques
-LastModified: 2019-08-31 17:55
-Categories:
-  - 'Caractéristique'
+LastModified: 2024-06-23 16:37
 ---
 {toc}
 
@@ -13,7 +11,6 @@ Il est rare qu’un personnage doive faire un jet en utilisant uniquement la val
 
 {s:Reference|DETERMINER}
 === Déterminer les caractéristiques ===
-
 Il existe plusieurs méthodes pour déterminer les valeurs des caractéristiques, chacune rendant la création de personnage plus ou moins flexible ou sujette au hasard.
 
 Les modificateurs raciaux (les ajustements des valeurs des caractéristiques dépendant de la [[races|race]] du personnage) entrent en jeu après que les valeurs des caractéristiques ont été déterminées.
@@ -99,128 +96,96 @@ Les modificateurs raciaux (les ajustements des valeurs des caractéristiques dé
 Le nombre de points dont le personnage dispose pour cette méthode dépend du type de campagne. La valeur standard est de 15 points. Les personnages non-joueurs (PNJ) moyens sont généralement créés avec pas plus de 3 points. Le tableau ci-contre indique le nombre de points à accorder selon le type de campagne. Cette méthode accorde une grande importance aux choix du joueur et permet de créer des personnages équilibrés. C’est ce système qui est généralement utilisé dans les rencontres organisées comme celles de la Pathfinder Society (visitez [[http://paizo.com/pathfinderSociety|Paizo]] ou [[http://www.black-book-editions.fr/index.php?site_id=146|Black Book Editions]] pour plus de détails).
 
 {s:Reference|DETERMINERLESMODIFICATEURS}
-
 === Déterminer les modificateurs ===
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Races et classes)#33|→]] Sorts en bonus grâce à un score de caractéristique élevé : Puis-je en bénéficier même si mon niveau de classe de lanceur de sorts n'est pas assez élevé pour me donner accès à ces niveaux de sorts ?'''''
 
-Une fois que les ajustements dépendant de la [[races|race]] ont été effectués, chacune des caractéristiques se voit associer un modificateur entre -5 et +5 déterminé comme indiqué dans le Tableau ci-après. Ce modificateur est le nombre que vous ajoutez ou retranchez au résultat du dé lorsque votre personnage tente d’accomplir une action liée à la caractéristique en question. Il possède également d’autres utilisations qui ne se rapportent pas à des lancers de dés. Un modificateur positif est un bonus et un modificateur négatif un malus ou une pénalité. 
+Non. Vous ne gagnez des __[[Caractéristiques#DETERMINER|sorts en bonus]]__ que si votre niveau de classe vous donne accès aux niveaux de sorts considérés.  Vous ne pouvez même pas les utiliser pour lancer ses sorts de niveau inférieur. Voyez le ''Manuel des joueurs'' page 16, section [[Caractéristiques#CARACTERISTIQUESETLANCEURSDESORTS|Caractéristiques et lanceurs de sorts]] : « Pour pouvoir jeter des sorts d’un niveau donné, un lanceur de sorts doit posséder une valeur de caractéristique et un niveau de classe suffisamment élevés. »
 
-{s:Desambi|Votre personnage obtient le sort en bonus lorsque sa classe lui permet d'avoir accès à ce niveau de sort}
+Par exemple, un magicien de niveau 1 avec une Intelligence de 18 a, d'après la table 1-3 : Modificateurs de caractéristique et sorts en bonus, un sort en bonus aux niveaux de sorts 1, 2, 3 et 4. Cependant, il ne peut bénéficier que du sort en bonus de niveau 1 parce que, en tant que magicien de niveau 1, il n'a accès qu'aux sorts de niveau 1 (d'après la table de progression du magicien, son nombre de sorts de niveau 2, 3 et 4 est "—", ce qui signifie "pas d'accès aux sorts de ce niveau"). Dès qu'il devient un magicien de niveau 3, il accède à ses emplacements de sorts de niveau 2 et peut donc utiliser l'emplacement de sort en bonus de niveau 2 obtenu grâce à sa haute Intelligence. Il pourra faire de même pour les emplacements de sorts et le sort en bonus de niveau 3 lorsqu'il deviendra un magicien de niveau 5.
+
+En résumé, ignorez les colonnes des sorts sur la table 1-3 : Modificateurs de caractéristique et sorts en bonus jusqu'à ce que votre niveau de classe vous donne accès à ces niveaux de sorts.}Une fois que les ajustements dépendant de la [[races|race]] ont été effectués, chacune des caractéristiques se voit associer un modificateur entre -5 et +5 déterminé comme indiqué dans le Tableau ci-après. Ce modificateur est le nombre que vous ajoutez ou retranchez au résultat du dé lorsque votre personnage tente d’accomplir une action liée à la caractéristique en question. Il possède également d’autres utilisations qui ne se rapportent pas à des lancers de dés. Un modificateur positif est un bonus et un modificateur négatif un malus ou une pénalité. 
+
 Le tableau vous indique également les sorts en bonus, un élément important pour les personnages qui peuvent lancer des sorts.
 
 {s:Reference|TABLEAUCARACTERISTIQUES}
-<center>
-{| CLASS="tablo"
+{| CLASS="tablo centre autoalt"
 |+ Modificateurs de caractéristique et sorts en bonus
 |- CLASS="titre"
 | COLSPAN="2" CLASS="avecsoustitre" | Caractéristiques
 | COLSPAN="10" CLASS="avecsoustitre" | Sorts en bonus par jour (et par niveau de sorts)
 |- CLASS="soustitre"
-| Valeur
-| Modificateur
-| 0
-| 1er
-| 2e
-| 3e
-| 4e
-| 5e
-| 6e
-| 7e
-| 8e
-| 9e
+| Valeur || Modificateur
+| 0 || 1er || 2e || 3e || 4e || 5e || 6e || 7e || 8e || 9e
 |- CLASS="premier"
-| 1
-| –5
-| COLSPAN="10" | impossible de lancer des sorts liés à cette caractéristique
-|- CLASS="alt"
-| 2–3
-| –4
+| 1 || –5
 | COLSPAN="10" | impossible de lancer des sorts liés à cette caractéristique
 |-
-| 4–5
-| –3
-| COLSPAN="10" | impossible de lancer des sorts liés à cette caractéristique
-|- CLASS="alt"
-| 6–7
-| –2
+| 2–3 || –4
 | COLSPAN="10" | impossible de lancer des sorts liés à cette caractéristique
 |-
-| 8–9
-| –1
+| 4–5 || –3
 | COLSPAN="10" | impossible de lancer des sorts liés à cette caractéristique
-|- CLASS="alt"
-| 10–11
-| 0
+|-
+| 6–7 || –2
+| COLSPAN="10" | impossible de lancer des sorts liés à cette caractéristique
+|-
+| 8–9 || –1
+| COLSPAN="10" | impossible de lancer des sorts liés à cette caractéristique
+|-
+| 10–11 || 0
 | — || — || — || — || — || — || — || — || — || —
 |-
-| 12–13
-| +1
+| 12–13 || +1
 | — || 1 || — || — || — || — || — || — || — || —
-|- CLASS="alt"
-| 14–15
-| +2
+|-
+| 14–15 || +2
 | — || 1 || 1 || — || — || — || — || — || — || —
 |-
-| 16–17
-| +3
+| 16–17 || +3
 | — || 1 || 1 || 1 || — || — || — || — || — || —
-|- CLASS="alt"
-| 18–19
-| +4
+|-
+| 18–19 || +4
 | — || 1 || 1 || 1 || 1 || — || — || — || — || —
 |-
-| 20–21
-| +5
+| 20–21 || +5
 | — || 2 || 1 || 1 || 1 || 1 || — || — || — || —
-|- CLASS="alt"
-| 22–23
-| +6
+|-
+| 22–23 || +6
 | — || 2 || 2 || 1 || 1 || 1 || 1 || — || — || —
 |-
-| 24–25
-| +7
+| 24–25 || +7
 | — || 2 || 2 || 2 || 1 || 1 || 1 || 1 || — || —
-|- CLASS="alt"
-| 26–27
-| +8
+|-
+| 26–27 || +8
 | — || 2 || 2 || 2 || 2 || 1 || 1 || 1 || 1 || —
 |-
-| 28–29
-| +9
+| 28–29 || +9
 | — || 3 || 2 || 2 || 2 || 2 || 1 || 1 || 1 || 1
-|- CLASS="alt"
-| 30–31
-| +10
+|-
+| 30–31 || +10
 | — || 3 || 3 || 2 || 2 || 2 || 2 || 1 || 1 || 1
 |-
-| 32–33
-| +11
+| 32–33 || +11
 | — || 3 || 3 || 3 || 2 || 2 || 2 || 2 || 1 || 1
-|- CLASS="alt"
-| 34–35
-| +12
+|-
+| 34–35 || +12
 | — || 3 || 3 || 3 || 3 || 2 || 2 || 2 || 2 || 1
 |-
-| 36–37
-| +13
+| 36–37 || +13
 | — || 4 || 3 || 3 || 3 || 3 || 2 || 2 || 2 || 2
-|- CLASS="alt"
-| 38–39
-| +14
+|-
+| 38–39 || +14
 | — || 4 || 4 || 3 || 3 || 3 || 3 || 2 || 2 || 2
 |-
-| 40–41
-| +15
+| 40–41 || +15
 | — || 4 || 4 || 4 || 3 || 3 || 3 || 3 || 2 || 2
-|- CLASS="alt"
-| 42–43
-| +16
+|-
+| 42–43 || +16
 | — || 4 || 4 || 4 || 4 || 3 || 3 || 3 || 3 || 2
 |-
-| 44–45
-| +17
+| 44–45 || +17
 | — || 5 || 4 || 4 || 4 || 4 || 3 || 3 || 3 || 3
 |}
-</center>
 
 {s:Reference|CARACTERISTIQUESETLANCEURSDESORTS}
 ==== Caractéristiques et lanceurs de sorts ====
@@ -228,13 +193,13 @@ Le tableau vous indique également les sorts en bonus, un élément important po
 La caractéristique dont dépendent les sorts varie selon les types de lanceurs de sorts : il s’agit de l’Intelligence pour les [[alchimiste|alchimistes]], les [[magicien|magiciens]], les [[magus|magi]] et les [[sorcière|sorcières]] de la Sagesse pour les [[prêtre|prêtres]], les [[druide|druides]], les [[inquisiteur|inquisiteurs]] et les [[rôdeur|rôdeurs]], et du Charisme pour les [[barde|bardes]], les [[conjurateur|conjurateurs]], les [[oracle|oracles]], les [[paladin|paladins]] et les [[ensorceleur|ensorceleurs]]. Pour pouvoir jeter des sorts d’un niveau donné, un lanceur de sorts doit posséder une valeur de caractéristique et un niveau de classe suffisamment élevés. Consultez les descriptions des classes pour plus de détails.
 
 
-=== Les caractéristiques ===
+{s:Reference|DESCRIPTION}
 
+=== Les caractéristiques ===
 Chacune des caractéristiques décrit un aspect de votre personnage et conditionne certaines de ses actions.
 
 {s:Reference|FORCE}
 ==== La Force (For) ====
-
 ''La Force représente la puissance musculaire et physique.'' 
 
 Cette caractéristique est importante pour les combattants au corps à corps comme les [[guerrier|guerriers]], les [[moine|moines]], les [[paladin|paladins]] et certains [[rôdeur|rôdeurs]]. La Force indique également le [[Poids transportable|poids maximal]] que votre personnage peut porter. Un personnage avec une valeur de Force de 0 est trop faible pour se mouvoir ; il est [[inconscient]]. Certaines créatures ne possèdent pas de valeur de Force et n’appliquent aucun modificateur aux [[compétences]] et aux jets basés sur la Force.
@@ -246,9 +211,7 @@ On applique le modificateur de Force
 * aux tests de Force (pour forcer une porte par exemple).
 
 {s:Reference|DEXTERITE}
-
 ==== La Dextérité (Dex) ====
-
 ''La Dextérité représente l’agilité, les réflexes et l’équilibre.''
 
 Cette caractéristique est surtout importante pour les [[roublard|roublards]] mais elle est également utile pour les personnages qui ne portent que des [[armure légère|armures légères]] ou [[armure intermédiaire|intermédiaires]] ou aucune armure du tout. C’est une caractéristique vitale pour les personnages qui désirent exceller au combat avec des [[arme à distance|armes à distance]] comme les arcs et les frondes. Un personnage avec une valeur de Dextérité de 0 est incapable de se mouvoir ; il est immobile (mais pas inconscient).
@@ -261,7 +224,6 @@ On applique le modificateur de Dextérité
 
 {s:Reference|CONSTITUTION}
 ==== La Constitution (Con) ====
-
 ''La Constitution représente la santé et l’endurance de votre personnage.''
 
 Le bonus lié à la Constitution augmente les [[point de vie|points de vie]] du personnage, ce qui rend cette caractéristique importante pour toutes les [[classes]]. Certaines créatures, comme les [[type mort-vivant|morts-vivants]] et les [[type créature artificielle|créatures artificielles]], ne possèdent pas de valeur de Constitution. Leur modificateur pour tous les jets basés sur la Constitution est de +0. Un personnage avec une valeur de Constitution de 0 est [[mort]].
@@ -274,10 +236,12 @@ Si la valeur de Constitution d’un personnage change suffisamment pour que son 
 
 {s:Reference|INTELLIGENCE}
 ==== L'Intelligence (Int) ====
-
 ''L’Intelligence détermine la capacité d’apprentissage et de raisonnement de votre personnage.''
 
-Cette caractéristique est importante pour les [[magicien|magiciens]] car elle influence leur aptitude à lancer des [[sort|sorts]] de nombreuses manières. L’instinct animal correspond à une Intelligence de 1 ou 2 ; les créatures qui peuvent comprendre un langage parlé possèdent une Intelligence d’au moins 3. Un personnage avec une valeur d’Intelligence de 0 est comateux. Certaines créatures ne possèdent pas de valeur d’Intelligence ; leur modificateur pour les compétences et les jets basés sur l’Intelligence est de +0.
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Races et classes)#18|→]] Intelligence : Si mon modificateur d’Intelligence augmente, puis-je choisir une nouvelle langue supplémentaire ?'''''
+
+Oui. Par exemple, si l’Int du personnage est 13, et qu’en arrivant au niveau 4 il applique son accroissement de __[[Caractéristiques#DESCRIPTION|caractéristique]]__ à l’Int, cela passera son bonus d’Int de +1 à +2, lui offrant une nouvelle langue supplémentaire.  
+Techniquement, les objets qui améliorent l’Int comme un ''[[Bandeau dintelligence|bandeau d’intelligence]]'' devrait conférer un nombre spécifique de langues (comme ils le font pour les rangs de compétence).}Cette caractéristique est importante pour les [[magicien|magiciens]] car elle influence leur aptitude à lancer des [[sort|sorts]] de nombreuses manières. L’instinct animal correspond à une Intelligence de 1 ou 2 ; les créatures qui peuvent comprendre un langage parlé possèdent une Intelligence d’au moins 3. Un personnage avec une valeur d’Intelligence de 0 est comateux. Certaines créatures ne possèdent pas de valeur d’Intelligence ; leur modificateur pour les compétences et les jets basés sur l’Intelligence est de +0.
 
 On applique le modificateur d’Intelligence
 * au nombre de [[Linguistique|langues supplémentaires]] que le personnage connaît lorsqu’il entre en jeu. Ces langues viennent s’ajouter aux langues [[races|raciales]] initiales et au langage commun que le personnage connaît automatiquement. Les créatures qui possèdent un malus d’Intelligence restent quand même capables de lire et d’écrire leurs langues raciales, pour autant qu’elles possèdent une valeur d’Intelligence d’au moins 3.
@@ -289,7 +253,6 @@ L’Intelligence des [magicien|magiciens], des [alchimiste|alchimistes], des [so
 {s:Reference|SAGESSE}
 
 ==== La Sagesse (Sag) ====
-
 ''La Sagesse mesure la volonté, le bon sens, la capacité de percevoir et l’intuition du personnage.''
 
 C’est une caractéristique essentielle pour les [[prêtre|prêtres]] et les [[druide|druides]] et importante pour les [[paladin|paladins]], les [[rôdeur|rôdeurs]] et les [[inquisiteur|inquisiteurs]]. Placez une valeur élevée en Sagesse si vous voulez que votre personnage possède des sens aiguisés. Toutes les créatures possèdent une valeur de Sagesse. Un personnage avec une valeur de Sagesse de 0 est incapable de penser de manière rationnelle ; il est [[inconscient]].
@@ -303,7 +266,6 @@ La Sagesse des [[prêtre|prêtres]], [[druide|druides]] et [[rôdeur|rôdeurs]] 
 {s:Reference|CHARISME}
 
 ==== Le Charisme (Cha) ====
-
 ''Le Charisme représente la personnalité, le magnétisme personnel, la capacité à diriger et l’apparence du personnage.''
 
 C’est une caractéristique essentielle pour les [[paladin|paladins]], les [[ensorceleur|ensorceleurs]] et les [[barde|bardes]], et importante pour les [[prêtre|prêtres]] (car elle conditionne leur capacité à [[canalisation dénergie|canaliser de l’énergie]]). Dans le cas des créatures [[type mort-vivant|mortes-vivantes]], le Charisme représente la force vitale surnaturelle qui les anime. Toutes les créatures possèdent une valeur de Charisme. Un personnage avec une valeur de Charisme de 0 est incapable de prendre la décision de faire quoi que ce soit ; il est [[inconscient]].

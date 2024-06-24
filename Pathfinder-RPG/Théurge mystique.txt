@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Théurge mystique
 Title: Le théurge mystique
-LastModified: 2011-06-02 19:38
+LastModified: 2024-06-23 16:42
 Categories:
   - 'Classe de prestige'
 ---
@@ -83,13 +83,25 @@ Le théurge mystique n’est pas formé au maniement des armes ni au port des ar
 
 {s:Reference|SORTS}
 ==== Sorts ====
-À chaque niveau, un théurge mystique gagne de nouveaux sorts quotidiens de la même manière que s’il avait gagné un niveau dans une classe de lanceur de sorts profanes et dans une classe de lanceur de sorts divins qui étaient siennes avant de devenir théurge mystique. Cela signifie essentiellement qu’il ajoute son niveau de mystique théurge à une classe de lanceur de sorts profanes et à une classe de lanceurs divins qu’il possède, puis détermine les sorts quotidiens, les sorts connus, et le niveau de lanceur de sorts. Si le personnage possédait plus d’une classe de lanceur de sorts profanes ou de lanceur de sorts divins avant de devenir théurge mystique, il doit choisir à quelle classe il ajoute ce nouveau niveau obtenu en tant que théurge mystique pour ce qui est de déterminer les sorts quotidiens. 
+À chaque niveau, un théurge mystique gagne de nouveaux sorts quotidiens de la même manière que s’il avait gagné un niveau dans une classe de lanceur de sorts profanes et dans une classe de lanceur de sorts divins qui étaient siennes avant de devenir théurge mystique. Cela signifie essentiellement qu’il ajoute son niveau de théurge mystique à une classe de lanceur de sorts profanes et à une classe de lanceurs divins qu’il possède, puis détermine les sorts quotidiens, les sorts connus, et le niveau de lanceur de sorts. Si le personnage possédait plus d’une classe de lanceur de sorts profanes ou de lanceur de sorts divins avant de devenir théurge mystique, il doit choisir à quelle classe il ajoute ce nouveau niveau obtenu en tant que théurge mystique pour ce qui est de déterminer les sorts quotidiens. 
 
 {s:Reference|SORTSCOMBINES}
 ==== Sorts combinés (Sur) ====
-Le théurge mystique peut préparer et lancer des sorts de magie profane ou divine en utilisant indifféremment ses niveaux de sorts dans les deux classes. Les sorts préparés de la sorte sont considérés comme étant d'un niveau supérieur à leur niveau effectif. Ce pouvoir ne peut servir à lancer de sort à un niveau inférieur à son niveau réel, s'il existe dans les deux listes de sorts. Au niveau 1, il peut donc préparer des sorts de 1<sup>er</sup> niveau de l'une de ses classes de lanceur de sorts, en utilisant les [[emplacement de sort|emplacements de sorts]] de 2<sup>e</sup> niveau de son autre classe. Le niveau des sorts qui peuvent être lancés de cette façon augmente de 1 tous les niveaux impairs, et ce jusqu'à atteindre le 5<sup>e</sup> niveau au niveau 9 (ces sorts utilisent des [[emplacement de sort|emplacements de sorts]] de 6<sup>e</sup> niveau). Les composantes de ces sorts ne changent pas, mais elles suivent les règles applicables au lancement des sorts de la classe utilisée.
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Races et classes)#34|→]] Théurge mystique, Sorts combinés : Comment le second paragraphe affecte-t-il les lanceurs de sorts doublement spontanés, comme un ensorceleur/oracle/théurge mystique ?'''''
 
-Les lanceurs de sorts spontanés ne peuvent lancer de cette manière que des sorts qu’ils ont préparés avec une classe de lanceur de sorts non spontanés, et ce même si le sort a déjà été utilisé. Par exemple, un [[prêtre]]/[[ensorceleur]]/[[théurge mystique]] peut lancer un sort de ''[[bénédiction]]'' en utilisant un [[emplacement de sort]] d’[[ensorceleur]] de 2<sup>e</sup> niveau seulement s'il a préparé un sort de ''[[bénédiction]]'' en utilisant un sort de 1<sup>er</sup> niveau, et ce même s'il l'a déjà utilisé.
+Le texte en question est :
+« Les lanceurs de sorts spontanés ne peuvent lancer de cette manière que des sorts qu’ils ont préparés avec une classe de lanceur de sorts non spontanés, et ce même si le sort a déjà été utilisé. »
+
+Le but de ce texte est en fait d’imposer une limitation aux classes de lanceurs de sorts préparés, pas aux classes de lanceurs de sorts spontanés ; la limitation n’est pas quels sorts la classe de lanceur de sorts spontanés peut utiliser avec la capacité __[[Théurge mystique#SORTSCOMBINES|sorts combinés]]__, c’est plutôt quels sorts la classe de lanceur de sorts préparés peut apporter à la capacité sorts combinés.
+
+Par exemple, si un ensorceleur/prêtre/théurge mystique n’a préparé aucune ''restauration partielle'' aujourd’hui, il ne peut pas utiliser ses emplacements de sort d’ensorceleur pour lancer ''restauration partielle'' (parce qu’il ne peut utiliser cette capacité que pour accéder à des sorts de prêtre qu’il a préparé aujourd’hui). En revanche, rien dans la description de la capacité ne l’empêche d’utiliser ses emplacements de sort (qui doivent être préparés) de prêtre pour préparer des sorts (spontanés) d’ensorceleur qu’il connaît.
+
+De même, un ensorceleur/oracle/théurge mystique peut utiliser ses emplacements de sort d’ensorceleur pour lancer des sorts d’oracle, ou des emplacements de sort d’oracle pour lancer des sorts d’ensorceleur, tant que les augmentations de niveau et les limites de niveau décrites dans la capacité sorts combinés sont implémentées. Aucune des deux classes n’est affectée par la règle « que des sorts qu’ils ont préparés » parce que cette règle ne s’applique qu’aux théurges mystiques qui ont des niveaux dans une classe de lanceur de sorts non-spontanés.
+
+Une version plus claire de la règle citée plus haut serait :
+Si l’une des classes de lanceur de sorts du théurge est une classe de lanceur de sorts non-spontanés (comme le prêtre) et que l’autre est une classe de lanceur de sorts spontanés (comme l’ensorceleur), il ne peut spontanément lancer un sort de la classe non-spontanée que s’il l’a préparé ce jour là (qu’il ait déjà lancé ou non ce sort préparé).}Le théurge mystique peut préparer et lancer des sorts de magie profane ou divine en utilisant indifféremment ses niveaux de sorts dans les deux classes. Les sorts préparés de la sorte sont considérés comme étant d'un niveau supérieur à leur niveau effectif. Ce pouvoir ne peut servir à lancer de sort à un niveau inférieur à son niveau réel, s'il existe dans les deux listes de sorts. Au niveau 1, il peut donc préparer des sorts de 1er niveau de l'une de ses classes de lanceur de sorts, en utilisant les [[emplacement de sort|emplacements de sorts]] de 2e niveau de son autre classe. Le niveau des sorts qui peuvent être lancés de cette façon augmente de 1 tous les niveaux impairs, et ce jusqu'à atteindre le 5e niveau au niveau 9 (ces sorts utilisent des [[emplacement de sort|emplacements de sorts]] de 6e niveau). Les composantes de ces sorts ne changent pas, mais elles suivent les règles applicables au lancement des sorts de la classe utilisée.
+
+Les lanceurs de sorts spontanés ne peuvent lancer de cette manière que des sorts qu’ils ont préparés avec une classe de lanceur de sorts non spontanés, et ce même si le sort a déjà été utilisé. Par exemple, un [[prêtre]]/[[ensorceleur]]/[[théurge mystique]] peut lancer un sort de ''[[bénédiction]]'' en utilisant un [[emplacement de sort]] d’[[ensorceleur]] de 2e niveau seulement s'il a préparé un sort de ''[[bénédiction]]'' en utilisant un sort de 1er niveau, et ce même s'il l'a déjà utilisé.
 
 {s:Reference|SYNTHESEDESORTILEGES}
 ==== Synthèse de sortilèges (Sur) ====

@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Paladin
 Title: Le paladin
-LastModified: 2022-12-14 20:41
+LastModified: 2024-06-23 15:43
 Categories:
   - 'Classe'
   - 'Règle officielle'
@@ -279,11 +279,15 @@ Un paladin génère une aura de Bien (voir le sort ''[[détection|détection du 
 
 {s:Reference|DETECTIONDUMAL}
 ====Détection du Mal (Mag)====
-Un paladin peut détecter le Mal à volonté, comme par le sort de ''[[détection|détection du Mal]]''. Par une [[action de mouvement]], le paladin peut se concentrer sur un objet ou un individu unique distant de 18 m (12 cases) ou moins pour déterminer s’il est d’[[alignement]] Mauvais et pour connaître la puissance de son aura comme s’il l’avait étudié pendant trois rounds. Lorsqu’il se concentre sur un objet ou un individu, le paladin ne détecte pas le Mal sur les autres objets ou individus à proximité.
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Races et classes)#25|→]] Paladin, Détection du Mal : Un paladin doit-il dépenser une action simple pour activer sa détection du Mal avant de dépenser une action de mouvement pour se concentrer sur une créature ou un objet ?'''''
+
+Non, la première phrase est distincte du reste de la capacité, et offre une option alternative pour utiliser la __[[Paladin#DETECTIONDUMAL|détection du Mal]]__. Un paladin peut utiliser l’action de mouvement sur une créature ou un objet à la place de l’action simple nécessaire à l’activation d’une ''[[détection du Mal]]'' normale.}Un paladin peut détecter le Mal à volonté, comme par le sort de ''[[détection|détection du Mal]]''. Par une [[action de mouvement]], le paladin peut se concentrer sur un objet ou un individu unique distant de 18 m (12 cases) ou moins pour déterminer s’il est d’[[alignement]] Mauvais et pour connaître la puissance de son aura comme s’il l’avait étudié pendant trois rounds. Lorsqu’il se concentre sur un objet ou un individu, le paladin ne détecte pas le Mal sur les autres objets ou individus à proximité.
 
 {s:Reference|CHATIMENTDUMAL}
 ====Châtiment du Mal (Sur)====
-Une fois par jour, un paladin peut faire appel aux pouvoirs du bien dans son combat contre le mal. Par une [[action rapide]], le paladin désigne comme cible de son châtiment du Mal un ennemi qu’il peut voir. Si la cible est d’alignement Mauvais, le paladin ajoute son bonus de [[Charisme]] (s’il en a un) à ses jets d’attaque et son niveau de paladin à tous les jets de dégâts à l’encontre de sa cible. Si la cible est un [[type Extérieur|Extérieur]] du sous-type [[sous-type Mal|Mal]], un dragon d’alignement Mauvais ou un [[type Mort-vivant|mort-vivant]], le bonus aux dégâts passe à 2 points de dégâts par niveau du paladin pour la première attaque qui touche l'adversaire. Dans tous les cas, le châtiment du mal ignore toutes les [[RD|réductions de dégâts]] de la cible.
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Races et classes)#24|→]] Paladin, Châtiment du Mal : Le châtiment du Mal ignore-t-il les défenses du pouvoir spécial intangible ?'''''
+
+Le châtiment n’est pas un effet sur l’arme, c’est un effet sur le __[[Paladin#CHATIMENTDUMAL|paladin]]__. L’arme a toujours besoin d’être magique pour blesser la créature [[Intangible (capacité)|intangible]], et même une arme magique ne lui inflige que la moitié de ses dégâts.}Une fois par jour, un paladin peut faire appel aux pouvoirs du bien dans son combat contre le mal. Par une [[action rapide]], le paladin désigne comme cible de son châtiment du Mal un ennemi qu’il peut voir. Si la cible est d’alignement Mauvais, le paladin ajoute son bonus de [[Charisme]] (s’il en a un) à ses jets d’attaque et son niveau de paladin à tous les jets de dégâts à l’encontre de sa cible. Si la cible est un [[type Extérieur|Extérieur]] du sous-type [[sous-type Mal|Mal]], un dragon d’alignement Mauvais ou un [[type Mort-vivant|mort-vivant]], le bonus aux dégâts passe à 2 points de dégâts par niveau du paladin pour la première attaque qui touche l'adversaire. Dans tous les cas, le châtiment du mal ignore toutes les [[RD|réductions de dégâts]] de la cible.
 
 De plus, lorsqu’un châtiment du Mal est en cours, le paladin gagne un bonus de parade à sa [[CA]] égal à son bonus de [[Charisme]] (s’il en a un) contre les attaques portées par la cible du châtiment du Mal. Si le paladin désigne une créature qui n’est pas d’alignement Mauvais, le châtiment est dépensé mais n’a aucun effet.
 
@@ -295,7 +299,9 @@ Un paladin de niveau 2 ou plus bénéficie d’un bonus à tous ses [[jet de sau
 
 {s:Reference|IMPOSITIONDESMAINS}
 ====Imposition des mains (Sur)====
-À partir du niveau 2, un paladin peut soigner ses blessures ou celles de ses camarades d’un simple toucher. Il peut utiliser ce pouvoir un nombre de fois par jour égal à la moitié de son niveau de paladin + son modificateur de [[Charisme]]. Chaque utilisation permet de soigner 1d6 points de vie par tranche de deux niveaux de paladin et nécessite une [[action simple]] (sauf si le paladin soigne ses propres blessures, auquel cas une [[action rapide]] suffit). Contrairement à ce que son nom pourrait laisser penser, cette capacité ne nécessite qu’une seule main de libre pour être utilisée.
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Races et classes)#26|→]] Paladin, Imposition des mains : L’imposition des mains du paladin utilise-t-elle de l’énergie positive ?'''''
+
+Oui. ''(Retour à la __[[Paladin|capacité]]__)''}À partir du niveau 2, un paladin peut soigner ses blessures ou celles de ses camarades d’un simple toucher. Il peut utiliser ce pouvoir un nombre de fois par jour égal à la moitié de son niveau de paladin + son modificateur de [[Charisme]]. Chaque utilisation permet de soigner 1d6 points de vie par tranche de deux niveaux de paladin et nécessite une [[action simple]] (sauf si le paladin soigne ses propres blessures, auquel cas une [[action rapide]] suffit). Contrairement à ce que son nom pourrait laisser penser, cette capacité ne nécessite qu’une seule main de libre pour être utilisée.
 
 Le paladin peut également utiliser ce pouvoir de guérison pour infliger des blessures aux [[type Mort-vivant|morts-vivants]], à hauteur de 1d6 points de dégâts par tranche de deux niveaux de paladin. Cette utilisation du pouvoir nécessite un jet d’[[attaque de contact]] au corps à corps et ne provoque pas d’[[attaque dopportunité|attaque d’opportunité]]. Les morts-vivants ne bénéficient d’aucun jet de sauvegarde contre ces dégâts.
 
@@ -305,7 +311,9 @@ Un paladin de niveau 3 est immunisé contre la [Terreur (capacité)|terreur] (ma
 
 {s:Reference|SANTEDIVINE}
 ====Santé divine (Ext)====
-Un paladin de niveau 3 est immunisé contre toutes les [[maladies]], y compris celles qui sont d’origine magique ou surnaturelle comme la putréfaction de la momie.
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Races et classes)#28|→]] Paladin, Santé divine : Si je suis immunisé aux maladies, suis-je immunisé à la putréfaction de la momie, qui est à la fois une maladie et une malédiction ?'''''
+
+Oui. ''(Retour à la __[[Paladin|capacité]]__)''}Un paladin de niveau 3 est immunisé contre toutes les [[maladies]], y compris celles qui sont d’origine magique ou surnaturelle comme la putréfaction de la momie.
 
 {s:Reference|GRACE}{s:Desambi|Grâce est également le nom d'un [[Grâce (sort)|sort]].}
 ====Grâce (Sur)====
@@ -367,7 +375,9 @@ Jusqu’au niveau 3, le paladin n’a pas de niveau de lanceur de sorts. À part
 
 {s:Reference|PACTEDIVIN}
 ====Pacte divin (Mag)====
-Lorsque le paladin atteint le niveau 5, un lien divin se tisse entre lui et son dieu. Celui-ci peut prendre une des deux formes suivantes. Une fois qu’une forme a été choisie, ce choix ne peut plus être modifié.
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Races et classes)#27|→]] Paladin, Pacte divin : Puis-je dépenser deux utilisations de cette capacité pour altérer deux de mes armes ou les deux extrémités d’une arme double ?'''''
+
+Oui. ''(Retour à la [[Paladin|classe]])''}Lorsque le paladin atteint le niveau 5, un lien divin se tisse entre lui et son dieu. Celui-ci peut prendre une des deux formes suivantes. Une fois qu’une forme a été choisie, ce choix ne peut plus être modifié.
 * '''''Arme sacrée.''''' La première forme de lien permet à un paladin d’enchanter son arme par une [[action simple]] en faisant appel à un esprit céleste qui lui accorde son aide pendant une minute par niveau de paladin. Lorsqu’il est appelé, l’esprit fait briller l’arme comme une torche. Au niveau 5, cet esprit donne à l’arme un bonus d’altération de +1. Tous les trois niveaux suivants, l’arme gagne un bonus d’altération de +1 supplémentaire, jusqu’à un maximum de +6 au niveau 20. Ces bonus peuvent être ajoutés directement à l’arme et cumulés avec les bonus qu’elle possède déjà et ce jusqu’à un maximum de +5. Ces bonus peuvent également être utilisés pour ajouter l’une des propriétés suivantes à l’arme : [[armes magiques#Acérée|acérée]], [[armes magiques#Axiomatique|axiomatique]], de [[armes magiques#Destruction|destruction]], de [[armes magiques#Feu|feu]], de [[armes magiques#Feuintense|feu intense]], de [[armes magiques#Lumière|lumière]], de [[armes magiques#Rapidité|rapidité]], [[armes magiques#Gardienne|gardienne]], [[armes magiques#Miséricordieuse|miséricordieuse]] ou [[armes magiques#Sainte|sainte]]. Ajouter une de ces propriétés coûte une quantité de bonus équivalente au coût de la propriété (voir [[Armes magiques#DTMSPECIALECAC|ici]]). Ces propriétés s’ajoutent à celles que l’arme possède déjà mais les propriétés en double ne se cumulent pas. Si l’arme n’est pas magique, il faut lui ajouter un bonus d’altération d’au moins +1 avant de pouvoir lui conférer des propriétés. Les bonus et les propriétés donnés par l’esprit sont déterminés lorsqu’il est appelé et ne peuvent donc être modifiés que lorsque l’esprit est appelé à nouveau. L’esprit céleste n’accorde aucun bonus si quelqu’un d’autre que le paladin tient l’arme, mais les bonus réapparaissent si l’arme revient dans la main du paladin. Ces bonus ne s’appliquent qu’à une seule tête si l’arme est une arme double. Un paladin peut utiliser cette capacité une fois par jour au niveau 5 et une fois de plus par jour tous les quatre niveaux suivants, pour un total de quatre utilisations quotidiennes au niveau 17.
 
 : Si une arme est détruite alors qu’elle est liée à un esprit céleste, le paladin doit attendre de gagner un niveau ou que trente jours se soient écoulés avant de pouvoir utiliser cette capacité à nouveau. Pendant cette période d’attente, le paladin subit un malus de -1 à tous les jets d’attaque et de dégâts lorsqu’il combat avec une arme.
@@ -411,7 +421,6 @@ Cette aptitude fonctionne tant que le paladin est conscient, mais pas s’il est
 {s:Reference|CHAMPIONSACRE}
 ====Champion sacré (Sur)====
 Au niveau 20, un paladin devient un véritable réceptacle de la puissance de son dieu. Sa RD augmente jusqu’à 10/Mal. Chaque fois qu’il utilise un [[paladin#CHATIMENTDUMAL|châtiment du Mal]] et frappe un [[type Extérieur|Extérieur]] d’alignement Mauvais, celui-ci est également soumis à un bannissement dont le NLS est égal au niveau du paladin (l’arme et le symbole sacré du paladin comptent automatiquement comme objets que la cible hait). Le [[paladin#CHATIMENTDUMAL|châtiment du Mal]] se termine immédiatement après que l’effet de bannissement et les dégâts de l’attaque ont été appliqués. De plus, chaque fois que le paladin [[paladin#CANALISATIONDENERGIEPOSITIVE|canalise de l’énergie positive]] ou utilise une [[paladin#IMPOSITIONDESMAINS|imposition des mains]] pour guérir une créature, il soigne toujours le maximum de points de vie.
-
 ===Code de conduite===
 Le paladin est obligatoirement [[alignement|Loyal Bon]]. S’il commet sciemment un acte maléfique, il perd aussitôt son statut et ses pouvoirs, en dehors des compétences de maniement d’armes, de port d’armures et d’utilisation de boucliers.
 

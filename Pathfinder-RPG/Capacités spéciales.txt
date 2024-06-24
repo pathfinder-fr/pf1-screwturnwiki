@@ -1,36 +1,37 @@
 ---
 Name: Pathfinder-RPG.Capacités spéciales
 Title: Les capacités spéciales
-LastModified: 2020-04-03 13:47
+LastModified: 2024-06-23 16:23
 ---
 {toc}
 
 {s:Reference|TYPES}
 === Types de capacités spéciales ===
-
 ''Les capacités spéciales suivantes incluent les règles communément appliquées à un certain nombre de créatures, de sorts et de pièges.''
 
 '''Pouvoirs extraordinaires (Ext).''' Les pouvoirs extraordinaires ne sont pas magiques, mais ils sont si spécialisés qu’on ne peut pas les maîtriser sans avoir suivi la formation appropriée. Ces pouvoirs ne sont en rien affectés par les sorts ou effets interdisant l’usage de la magie.
 
-'''Pouvoirs magiques (Mag).''' Les pouvoirs magiques agissent comme des sorts. Ils sont assujettis à la [[RM|résistance à la magie]] et à une éventuelle ''[[dissipation de la magie]]''. Ils ne fonctionnent pas là où la magie est supprimée ou réprimée (comme dans une ''[[zone dantimagie|zone d’antimagie]]''). Les pouvoirs magiques ne peuvent être [[contresort|contrés]] et ne peuvent servir à [[contresort|contrer]] d'autres sorts.
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Races et classes)#30|→]] Pouvoirs magiques et niveau de sort : Les domaines de prêtre, les lignages d'ensorceleur, les écoles de magicien et certaines autres capacités de classe confèrent des pouvoirs magiques qui ne sont pas basés sur les sorts. Quel est le niveau de sort effectif de ces pouvoirs ?'''''
+
+Le niveau de sort effectif de ces __[[Capacités spéciales#TYPES|pouvoirs magiques]]__ est égal à celui du sort de plus haut niveau qu'un personnage de la classe peut normalement lancer au niveau où le pouvoir est acquis. 
+
+Par exemple, un ensorceleur de lignage élémentaire de niveau 1 a Rayon élémentaire en tant que pouvoir magique. Le plus haut niveau de sort accessible à un ensorceleur de niveau 1 étant le niveau 1, ce pouvoir magique compte comme un sort de niveau 1. Un ensorceleur de lignage élémentaire de niveau 9 a Explosion élémentaire en tant que pouvoir magique. Le plus haut niveau de sort accessible à un ensorceleur de niveau 9 étant le niveau 4, ce pouvoir magique compte comme un sort de niveau 4.}'''Pouvoirs magiques (Mag).''' Les pouvoirs magiques agissent comme des sorts. Ils sont assujettis à la [[RM|résistance à la magie]] et à une éventuelle ''[[dissipation de la magie]]''. Ils ne fonctionnent pas là où la magie est supprimée ou réprimée (comme dans une ''[[zone dantimagie|zone d’antimagie]]''). Les pouvoirs magiques ne peuvent être [[contresort|contrés]] et ne peuvent servir à [[contresort|contrer]] d'autres sorts.
 
 '''Pouvoirs surnaturels (Sur).''' Les pouvoirs surnaturels sont magiques mais n’agissent pas comme des sorts. Ces pouvoirs ne sont pas soumis à la [[RM|résistance à la magie]] mais ne fonctionnent pas au sein d’une ''[[zone dantimagie|zone d’antimagie]]'' ou dans tout autre endroit où la magie est supprimée ou réprimée. Les effets d’un pouvoir surnaturel ne peuvent pas être dissipés et ils ne peuvent pas être affectés par un [[contresort]]. Voir la Table ci-après pour un résumé des pouvoirs spéciaux.
 
-<center>
-{| CLASS="tablo"
+{| CLASS="tablo centre autoalt"
 |+ Les types de pouvoirs spéciaux
 |- CLASS="titre"
 | &emsp; || Extraordinaire || Magique || Surnaturel
 |- CLASS="premier"
 | [[attaque dopportunité|Attaque d’opportunité]] || Non || Oui || Non
-|- CLASS="alt"
+|-
 | ''[[Dissipation de la magie]]'' || Non || Oui || Non
 |-
 | [[RM|Résistance à la magie]] || Non || Oui || Non
-|- CLASS="alt"
+|-
 | ''[[Zone dantimagie|Zone d’antimagie]]'' || Non || Oui || Oui
 |}
-</center>
 
 ''Attaque d’opportunité'' : l’utilisation de ce type de pouvoir provoque-t-elle une [[attaque dopportunité|attaque d’opportunité]], au même titre que le fait de lancer un sort ?
 
@@ -41,13 +42,24 @@ LastModified: 2020-04-03 13:47
 ''Zone d’antimagie'' : est-ce qu’une ''[[zone dantimagie|zone d’antimagie]]'' réprime ce type de pouvoir ?
 
 {s:Reference|CARACTERISTIQUES}
-
 === Modification des caractéristiques ===
-
 {s:Reference|BONUSCARAC}
 ==== Les bonus aux valeurs de caractéristique ====
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Générale)#1|→]] Augmentations temporaires de caractéristiques et capacités de monstres : ces augmentations affectent-elles le DD des capacités surnaturelles des monstres et des PJ basées sur la caractéristique concernée ?'''''
 
-''Certains sorts et pouvoirs améliorent les valeurs de caractéristique. Les augmentations de caractéristique sont temporaires quand elles ont une durée de moins de vingt-quatre heures et permanentes au-delà.''
+Bien que la description des bonus temporaires aux caractéristiques ne mentionne que l'augmentation du DD des sorts, c'est une formulation héritée d'un jeu plus ancien dont la terminologie n'a pas été mise à jour quand de nouvelles notions ont été ajoutées aux règles. Les augmentations temporaires de caractéristiques devraient affecter le DD des capacités surnaturelles basées sur ces caractéristiques, telles que l'attaque de [[Regard (capacité)|regard]] de la [[méduse]] ou les [[Sorcière#MALEFICE|maléfices]] de la sorcière.
+<hr>
+'''''[[FAQ- Manuel des joueurs (Générale)#2|→]] Augmentations temporaires et permanentes de caractéristiques : pourquoi les bonus temporaires s'appliquent-ils seulement à certaines choses ?'''''
+
+Les bonus temporaires à une caractéristique devraient s'appliquer à tout ce qui relève de cette caractéristique, exactement comme les bonus permanents le font. Il n'y avait pas assez d'espace dans la section dédiée du glossaire et il n'a pas été possible de lister tout ce qu'un bonus de caractéristique peut affecter dans le jeu. 
+
+L'objectif de la règle sur les valeurs temporaires de caractéristiques est de permettre au joueur de ne pas avoir à tout recalculer pour son personnage à chaque fois que ce dernier bénéficie d'une ''[[force de taureau]]'' ou d'un sort similaire ; la règle se contente de résumer les effets les plus communs associés aux caractéristiques.
+
+Par exemple, quand un personnage bénéficie d'une ''force de taureau'', il l'utilise la plupart du temps pour le combat, donc le glossaire mentionne les tests de compétences basées sur la Force, les jets d'attaque au corps-à-corps, les jets de dégâts des armes basés sur la Force, le BMO et le DMD. Il ne mentionne pas les jets d'attaque au corps-à-corps qui utilisent la Dextérité à la place de la Force (comme lorsqu'on utilise [[Attaque en finesse]]) ou les situations dans lesquelles le bonus de Force devrait être divisé par deux ou multiplié (comme avec les armes tenues dans la main non-directrice ou à deux mains). On ne se sert généralement pas de ce sort pour une augmentation de 1 min/niveau du poids transportable, et donc ce dernier n'est pas mentionné, mais le bonus s'y applique bien, de même qu'aux tests de Force pour enfoncer des portes.
+
+Il faut voir la chose avec la même optique qu'un archétype de créature qui a des « règles rapides » et des « règles de reconstruction » ; elles sont censées créer des monstres à peu près équivalents en termes de statistiques, mais les règles rapides opèrent un raccourci qui néglige certains détails par rapport aux règles de reconstruction. De la même façon, la règle sur les valeurs de caractéristiques temporaires est prévue pour être un raccourci destiné à accélérer le jeu, pas comme la manière la plus précise d'appliquer le bonus.
+
+Un bonus de caractéristique temporaire devrait affecter tous les jets et statistiques de jeu qu'un bonus permanent affecte.}''Certains sorts et pouvoirs améliorent les valeurs de caractéristique. Les augmentations de caractéristique sont temporaires quand elles ont une durée de moins de vingt-quatre heures et permanentes au-delà.''
 
 Pour chaque tranche de deux points dans une caractéristique, appliquez un bonus de +1 aux [[compétences]] et aux statistiques dépendant de cette [[caractéristique]].
 
@@ -65,17 +77,14 @@ Pour chaque tranche de deux points dans une caractéristique, appliquez un bonus
 
 '''Les bonus permanents.''' Les bonus aux caractéristiques dont la durée est supérieure à un jour augmentent la caractéristique à laquelle ils s’appliquent au bout de vingt-quatre heures. Ce bonus s’applique aux [[compétences]] et aux statistiques dépendant de cette caractéristique. Il est possible d’ainsi obtenir, entre autres, des [[rang|rangs]] de compétence et des [[pv|points de vie]] supplémentaires. Ces bonus devront être notés séparément, au cas où ils viendraient à disparaître.
 
-==== Les affaiblissements temporaires et diminutions permanentes de caractéristiques ====
-
+====Les affaiblissements temporaires et diminutions permanentes de caractéristiques====
 Voir [[affaiblissement temporaire|la section dédiée]].
 
-=== Les afflictions ===
-
+===Les afflictions===
 Voir [[Afflictions|la page dédiée]]
 
 {s:Reference|ATTAQUESMORT}
 === Les attaques de mort ===
-
 Dans la plupart des cas, ce type d’attaque autorise un jet de [[Vigueur]]. Si celui-ci est raté, la victime meurt immédiatement.
 * ''[[Rappel à la vie]]'' ne fonctionne pas sur une personne tuée par une attaque de mort.
 * Les attaques de mort tuent immédiatement. Il est impossible de [[stabilisation|stabiliser]] l’état de la victime pour la maintenir en vie.
@@ -84,7 +93,6 @@ Dans la plupart des cas, ce type d’attaque autorise un jet de [[Vigueur]]. Si 
 
 {s:Reference|CHARMECOERCITION}
 === Charme et coercition ===
-
 ''Nombre de sorts et d’effets magiques embrument l’esprit du sujet, qui se retrouve incapable de faire la différence entre ses alliés et ses adversaires, quand il n’est pas purement et simplement convaincu que ses meilleurs amis sont devenus ses pires ennemis. Les enchantements sont divisés en deux catégories : les charmes et les coercitions.''
 
 '''Charme.''' Un enchantement de type charme permet de se faire un ami de la créature affectée et de lui suggérer comment se comporter, mais la domination exercée sur elle n’est pas totale et la victime ne sert pas aveuglément le lanceur de sorts. Cette branche comprend les divers sorts de charme. La victime est libre d’agir comme elle le souhaite, mais ses perceptions sont modifiées par le sort.
@@ -102,7 +110,6 @@ Que le personnage soit sous l’influence d’un sort de charme ou de coercition
 
 {s:Reference|INVISIBILITE}
 === L'invisibilité ===
-
 ''La faculté de se déplacer sans être vu confère un avantage important, mais qui est loin d’être déterminant. Les créatures invisibles ne peuvent pas être vues, mais rien n’empêche de les entendre, de les sentir, ou tout simplement d’avoir la sensation qu’il y a quelqu’un à proximité.''
 
 Ni le sens de la vue, ni la vision dans le noir ne permettent de détecter une créature invisible.
@@ -111,33 +118,31 @@ L’invisibilité ne confère pas en soi l’immunité contre les [[coup critiqu
 
 En général, on peut repérer une créature invisible en mouvement et distante de moins de 9 m pour peu que l’on réussisse un test de [[Perception]] ([[DD]] 20). L’observateur éprouve la sensation qu’il y a quelqu’un (ou quelque chose) à proximité, mais sans savoir exactement où se trouve la créature en question. Si la créature invisible est immobile (ou ne bouge presque pas), il est bien plus difficile de la détecter ([[DD]] +20). Localiser précisément la créature ou l’objet est presque impossible (+20 au [[DD]] du test de [[Perception]]) et, même si le personnage réussit ce test, la créature invisible bénéficie toujours d’un [[camouflage]] total (50% de risque de rater). Certains modificateurs s’appliquent au [[DD]] si la créature est en train de bouger ou fait quelque chose de bruyant.
 
-<center>
-{| CLASS="tablo"
+{| CLASS="tablo centre autoalt"
 |- CLASS="titre"
 | La créature invisible... || Mod. au DD du test de Perception
 |- CLASS="premier"
 | Se bat ou parle || -20
-|- CLASS="alt"
+|-
 | Se déplace à la moitié de sa vitesse || -5
 |-
 | Se déplace à sa vitesse normale || -10
-|- CLASS="alt"
+|-
 | Court ou charge || -20
 |-
 | Ne bouge pas || +20 (*)
-|- CLASS="alt"
+|-
 | Utilise sa Discrétion || Jet de discrétion +20
 |-
 | Est éloignée || +1 par tranche de 3 m
-|- CLASS="alt"
+|-
 | Derrière un obstacle (porte) || +5
 |-
 | Derrière un obstacle (mur de pierre) || +15
-|- CLASS="alt"
+|-
 | Localiser précisément la créature invisible || +20
 |
 |}
-</center>
 
 Le personnage peut tâtonner à sa recherche, c’est-à-dire user d’une [[action simple]] pour effectuer une attaque à mains nues ou avec une arme, dans une zone équivalente à deux pas de déplacement. Si une créature invisible s’y trouve, il a toujours 50% de chance de la manquer. S’il réussit, il ne fait aucun dégât mais parvient à localiser sa position avec précision. Si cette créature se déplace et quitte l’endroit où elle était, le personnage devra recommencer.
 
@@ -173,8 +178,5 @@ On peut détecter et même voir des créatures invisibles. Il est donc conseill�
 
 {s:Reference|VISIONDANSLENOIR}
 === La vision dans le noir ===
-
 {s:Desambi|Vision dans le noir est également le nom d'un [[sort vision dans le noir|sort]].}
 La vision dans le noir est un pouvoir extraordinaire offrant la possibilité de voir en l’absence de source de lumière. La portée est indiquée dans la description de chaque créature. La vision dans le noir se fait uniquement en noir et blanc (elle ne permet pas de distinguer les couleurs). Il est impossible de percevoir ce que l’on ne verrait pas sous un éclairage normal: les objets invisibles le restent et les illusions ne disparaissent pas. Elle rend vulnérable aux agressions de type attaques de [[regard]]. La présence de lumière n’entrave pas la vision dans le noir.
-
-
