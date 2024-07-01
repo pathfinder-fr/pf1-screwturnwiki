@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Vol
 Title: Vol
-LastModified: 2014-08-31 01:03
+LastModified: 2024-06-29 01:34
 Categories:
   - 'Compétence'
 ---
@@ -17,8 +17,13 @@ Categories:
 ''Lorsque le personnage vole (grâce à des ailes ou par magie), il sait le faire avec agilité. Il peut réaliser des manœuvres aériennes complexes ou dangereuses. Cette compétence ne lui donne cependant pas la capacité de voler.''
 
 ===Test de compétence===
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Dons et compétences)#32|→]] Vol : Lorsqu’un personnage ou une créature vole, et que cette créature décide d’aller vers le haut à un angle de 45°, les règles stipulent qu’il doit se déplacer à mi-vitesse. Les règles pour compter les cases en diagonale continuent-elles à s’appliquer quand on vole en diagonale de cette façon ?'''''
 
-En règle générale, un test de Vol n’est requis que pour des manœuvres complexes. Une créature volante ne doit pas faire de test pour rester en vol à la fin de son tour, pour autant qu’elle se soit déplacée d’une distance au moins égale à la moitié de sa vitesse. Elle peut également virer à 45° en sacrifiant 1,50 m de mouvement, voler vers le haut selon un angle de 45° à la moitié de sa vitesse ou voler vers le bas (selon n’importe quel angle) à sa vitesse normale. Ces restrictions s’appliquent uniquement aux déplacements effectués au cours d’un tour en combat. Dès le début du tour suivant, la créature peut se déplacer dans une direction différente de celle suivie lors du tour précédent sans devoir faire un test de compétence. Toutes les actions qui violent ces règles nécessitent un test de Vol. Le DD de ce test dépend de la manœuvre que la créature volante tente, comme indiqué dans la table suivante.
+Non. Puisque le jeu est généralement supposé être joué en deux dimensions, même quand on représente un combat en trois dimensions, les règles pour aller vers le haut en __[[Vol|volant]]__ sont basées sur cette réduction de vitesse pour éviter d’imposer aux joueurs et aux MJs de vérifier les diagonales des mouvements verticaux.
+<hr>
+'''''[[FAQ- Manuel des joueurs (Dons et compétences)#33|→]] Vol et vol magique : Une créature paralysée ou étourdie peut-elle continuer de voler avec un vol magique ? Une créature avec un vol magique doit-elle ignorer les bonus ou malus aux tests de Vol puisqu’elle n’a pas une vitesse de vol « naturelle » ? Est-ce que voler immunise une créature à l’état pris au dépourvu ?'''''
+
+Non, n’importe qu’elle créature qui perd toutes ses actions est incapable d’entreprendre une action pour tenter un test de __[[Vol]]__ afin de rester en vol stationnaire et tombe donc automatiquement. Cela inclut les créatures [[paralysé|paralysées]], [[étourdi|étourdies]], et [[hébété|hébétées]]. Le vol magique n’agit pas différemment, même avec la paralysie, puisque ce n’est pas une action purement mentale. Une créature avec 0 en Dextérité ne peut pas voler, et la paralysie passe la Dextérité d’une créature à 0. Bien que la compétence Vol mentionne que les bonus et les malus de manœuvrabilité s’appliquent aux créatures avec une vitesse de vol naturelle, ils s’appliquent à tout type de vitesse de vol. S’ils ne s’appliquaient pas aux créatures qui gagnent la capacité de voler artificiellement ou par magie, alors ces manœuvrabilités (comme la manœuvrabilité bonne listée dans le sort ''[[sort vol|vol]]'') n’aurait aucun effet en jeu. Enfin, la phrase « le personnage n’est pas considéré comme pris au dépourvu lorsqu’il vole » signifie que voler (contrairement à se tenir en équilibre avec Acrobaties ou escalader) ne rend pas le personnage automatiquement [[pris au dépourvu]] et ne le force pas à être privé de son bonus de Dextérité à la CA ; il ne veut pas dire que voler immunise le personnage à l’état pris au dépourvu.}En règle générale, un test de Vol n’est requis que pour des manœuvres complexes. Une créature volante ne doit pas faire de test pour rester en vol à la fin de son tour, pour autant qu’elle se soit déplacée d’une distance au moins égale à la moitié de sa vitesse. Elle peut également virer à 45° en sacrifiant 1,50 m de mouvement, voler vers le haut selon un angle de 45° à la moitié de sa vitesse ou voler vers le bas (selon n’importe quel angle) à sa vitesse normale. Ces restrictions s’appliquent uniquement aux déplacements effectués au cours d’un tour en combat. Dès le début du tour suivant, la créature peut se déplacer dans une direction différente de celle suivie lors du tour précédent sans devoir faire un test de compétence. Toutes les actions qui violent ces règles nécessitent un test de Vol. Le DD de ce test dépend de la manœuvre que la créature volante tente, comme indiqué dans la table suivante.
 
 <center>
 {| CLASS="tablo"
@@ -52,9 +57,8 @@ En règle générale, un test de Vol n’est requis que pour des manœuvres comp
 
 '''Vents forts.''' Les vents forts imposent des malus aux tests de Vol, comme indiqué dans la table ci-dessous. Les créatures dont la taille est inférieure ou égale à celle indiquée dans la colonne « Créatures stoppées » doivent réussir un test de Vol (DD 20) pour pouvoir se déplacer et ce aussi longtemps que les vents persistent. Les créatures dont la taille est inférieure ou égale à celle indiquée dans la colonne « Créatures emportées » doivent réussir un test de Vol (DD 25) pour éviter d’être emportées par le vent sur 2d6 × 3 m et de subir 2d6 points de dégâts non-létaux. Ces tests se répètent chaque round où la créature reste en vol. Une créature qui est emportée doit également réussir un test de Vol (DD 20) pour éviter d’être stoppée par le vent.
 
-<center>
-{| CLASS="tablo"
-|+ Effet du vent sur les creatures volantes
+{| CLASS="tablo centre autoalt"
+|+ Effet du vent sur les créatures volantes
 |- CLASS="titre"
 | Force du vent
 | Vitesse du vent
@@ -67,7 +71,7 @@ En règle générale, un test de Vol n’est requis que pour des manœuvres comp
 | —
 | —
 | —
-|- CLASS="alt"
+|-
 | modéré
 | 15–30 km/h
 | —
@@ -79,7 +83,7 @@ En règle générale, un test de Vol n’est requis que pour des manœuvres comp
 | TP
 | —
 | -2
-|- CLASS="alt"
+|-
 | violent
 | 50–80 km/h
 | P
@@ -91,7 +95,7 @@ En règle générale, un test de Vol n’est requis que pour des manœuvres comp
 | M
 | P
 | -8
-|- CLASS="alt"
+|-
 | ouragan
 | 120–280 km/h
 | G
@@ -104,7 +108,6 @@ En règle générale, un test de Vol n’est requis que pour des manœuvres comp
 | G
 | -16
 |}
-</center>
 
 ===Action===
 

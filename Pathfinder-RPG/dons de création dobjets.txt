@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.dons de création dobjets
 Title: Dons de création d'objets
-LastModified: 2020-10-12 16:58
+LastModified: 2024-06-29 01:04
 Categories:
   - 'Don'
   - 'Don création'
@@ -33,7 +33,9 @@ function addPrereqIconIfNeeded() {
 	  $(this).children("td").first().append($(icon));
 	}
 }
-</script>{s:MenuDons}Les dons de création d’objets permettent au personnage de créer des objets d’un type précis. Tous les dons de cette catégorie possèdent des points communs, quel que soit le type d’objet concerné.
+</script>{s:MenuDons}{s:FAQ|'''''[[FAQ- Manuel des joueurs (Dons et compétences)#12|→]] Dons de création d’objet : Avoir un niveau de lanceur de sort par un pouvoir magique remplit-il le prérequis de NLS des dons de création d’objet ?'''''
+
+Non. ''(Retour à la __[[Dons#DONCREATION|règle]]__)''}Les dons de création d’objets permettent au personnage de créer des objets d’un type précis. Tous les dons de cette catégorie possèdent des points communs, quel que soit le type d’objet concerné.
 
 '''Coût des matières premières.''' Le coût de création d’un objet magique équivaut à la moitié du prix de base de l’objet.
 
