@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Matériaux spéciaux
 Title: Les matériaux spéciaux
-LastModified: 2024-05-17 22:53
+LastModified: 2024-07-07 23:50
 Categories:
   - 'Règle officielle'
   - 'Src Armes et équipement'
@@ -84,23 +84,38 @@ L’acier vivant a 35 [[pv|points de vie]] par section de 2,5 centimètres d’�
 === Adamantium ===
 <div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
 <div style="border: 1px solid #4b3124; padding: 4px">
-<center>
-{| CLASS="tablo"
+{| CLASS="tablo centre autoalt"
 |- CLASS="titre"
 | Type d’objet en<br>adamantium || Modif. au <br/>prix de l'objet
 |- CLASS="premier"
 | Munitions (pièce) || +60 po
-|- CLASS="alt"
+|-
 | Arme (ou bouclier) || +3 000 po
 |-
 | Armure légère || +5 000 po
-|- CLASS="alt"
+|-
 | Armure intermédiaire || +10 000 po
 |-
 | Armure lourde || +15 000 po
-|}
-</center></div></div>
-{s:Desambi|Plus à ce sujet : la carbauxine (Source. Campagne : Le retour des ténèbres) permet de chauffer suffisamment l'adamantium pour pouvoir le travailler.}Ce métal d’une dureté exceptionnelle, issu des roches tombées du ciel, permet de fabriquer armes et des armures. Les armes en adamantium ont la faculté d’ignorer jusqu’à 20 points de [[solidité]] lorsqu’on les utilise pour [[destruction|détruire l’arme d’un adversaire ou pour briser un objet]]. Les armures en adamantium confèrent à leur propriétaire une [[RD|réduction de dégâts]] dont la valeur dépend du type d’[[tableau récapitulatif des armures|armure]] : 1/– pour les [[armure légère|armures légères]], 2/– pour les [[armure intermédiaire|armures intermédiaires]] et 3/– pour les [[armure lourde|armures lourdes]]. L’adamantium est une matière si coûteuse que les armes, armures et boucliers en adamantium sont forcément des [[arme de maître|armes de maîtres]] ou des [[armure de maître|armures de maître]]. Le coût de cette qualité supérieure est déjà compris dans les prix fournis dans la table ci-contre. Les armes et munitions en adamantium bénéficient donc d’un bonus d’altération de +1 aux [[jet dattaque|jets d’attaque]], tandis que les armures et boucliers en adamantium imposent un malus d’armure aux tests réduit de 1 point par rapport à leur équivalent ordinaire. Seuls les armes, les armures et les boucliers qui possèdent des parties métalliques peuvent contenir de l’adamantium. Par exemple, on peut fabriquer des flèches en adamantium, mais pas des bâtons.
+|}</div></div>
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Équipement et objets magiques)#1|→]] Adamantium : L’adamantium indique qu’il ignore les solidités inférieures à 20, mais la solidité indique que l’adamantium ignore les solidités de 20 ou moins. Quelle règle dois-je utiliser ?'''''
+
+Utilisez « inférieures à 20 » de la description sur l’__[[adamantium]]__. L’adamantium, qui a une solidité de 20, est assez résistant pour tenir contre de l’adamantium (c’est aussi pour ça qu’une armure en adamantium confère une RD/— plutôt qu’une RD/adamantium).
+<hr>
+'''''[[FAQ- Manuel des joueurs (Équipement et objets magiques)#1|→]] Adamantium : Quelle est la solidité d’une arme en métal faite d’adamantium ?'''''
+
+La réponse est différente si l’arme est entièrement en __[[adamantium]]__, ou faite en partie d’adamantium et en partie d’un autre matériau.
+
+La [[Exploration#POINTDERESISTANCE|table 7-12]] à la page 175 du Manuel des joueurs liste la [[solidité]] et les [[Exploration#POINTDERESISTANCE|points de résistance]] des armes ordinaires. La table part du principe que l’arme en question est faite de cuir, de bois et/ou d’acier, suivant le plus approprié.  
+Selon la [[Exploration#TABSOLIDITEMATIERES|table 7-13]], l’acier a une solidité de 10, ce qui justifie qu’une arme entièrement faite d’acier ait une solidité de 10.
+
+Les armes avec un manche ont habituellement un manche en bois plutôt qu’en métal. Même une arme avec une tête en acier comme une [[hache darmes (arme)|hache d’armes]] a un manche en bois, donc même si sa tête est faite d’un matériau avec une solidité de 10, sa partie la plus faible est le manche, qui a une solidité de 5, l’arme est donc listée dans la table 7-12 comme ayant une solidité de 5 (parce qu’on part du principe qu’un personnage vise les parties plus vulnérables quand il tente de détruire un objet).
+
+Pour une arme entièrement faite d’un matériau (comme une lame à une main), si ce matériau n’est pas celui habituel pour cette arme, on utilise la solidité de ce matériau dans la table 7-13 plutôt que la solidité par défaut de la table 7-12. Par exemple, une épée longue en bois a une solidité de 5, une épée longue en verre a une solidité de 1, et une épée longue en [[adamantium]] a une solidité de 20.
+
+Pour une arme qui n’est pas entièrement faite d’un seul matériau (comme une arme avec un manche en bois et une tête en métal), si ce matériau n’est pas celui habituel pour cette arme, on utilise la solidité du matériau le plus faible présent dans l’arme dans la table 7-13 plutôt que la solidité par défaut de la table 7-12. Par exemple, une hache d’armes avec un manche en glace (solidité 0) et une tête en acier (solidité 10) a une solidité globale de 0 parce qu’elle est aussi élevée que sa partie la plus faible. De même, une hache d’armes avec un manche en glace et une tête en adamantium a une solidité de 0, comme son équivalent de glace. (« On utilise la solidité du matériau le plus faible » est une formulation relative, puisqu’une hache d’armes inclut probablement un minimum de cuir, mais ses matériaux principaux sont le bois et l’acier, donc le bois est son matériau le plus faible).
+
+Notez que le « point faible » d’une arme avec un manche n’affecte pas les propriétés du matériau dont sa tête est faite. Une hache d’armes avec un manche en bois et une tête en adamantium compte toujours comme de l’adamantium dans le cadre de ses attaques, est toujours une arme de maître et a toujours un bonus d’altération de +1 aux jets d’attaque, même s’il est aussi simple de la détruire qu’une hache d’armes en acier classique. Le MJ est toujours libre de décider que les dégâts infligés à la tête d’une arme (en la plongeant dans une mare d’acide par exemple) utilisent la solidité de la tête plutôt que la solidité du manche.}Ce métal d’une dureté exceptionnelle, issu des roches tombées du ciel, permet de fabriquer armes et des armures. Les armes en adamantium ont la faculté d’ignorer jusqu’à 20 points de [[solidité]] lorsqu’on les utilise pour [[destruction|détruire l’arme d’un adversaire ou pour briser un objet]]. Les armures en adamantium confèrent à leur propriétaire une [[RD|réduction de dégâts]] dont la valeur dépend du type d’[[tableau récapitulatif des armures|armure]] : 1/– pour les [[armure légère|armures légères]], 2/– pour les [[armure intermédiaire|armures intermédiaires]] et 3/– pour les [[armure lourde|armures lourdes]]. L’adamantium est une matière si coûteuse que les armes, armures et boucliers en adamantium sont forcément des [[arme de maître|armes de maîtres]] ou des [[armure de maître|armures de maître]]. Le coût de cette qualité supérieure est déjà compris dans les prix fournis dans la table ci-contre. Les armes et munitions en adamantium bénéficient donc d’un bonus d’altération de +1 aux [[jet dattaque|jets d’attaque]], tandis que les armures et boucliers en adamantium imposent un malus d’armure aux tests réduit de 1 point par rapport à leur équivalent ordinaire. Seuls les armes, les armures et les boucliers qui possèdent des parties métalliques peuvent contenir de l’adamantium. Par exemple, on peut fabriquer des flèches en adamantium, mais pas des bâtons.
 
 Les armes et les armures d'adamantium qui sont normalement fabriquées en acier voient leur nombre de points de vie augmenté d'un tiers en plus de la normale. L'adamantium possède 40 points de vie par 2,50 cm d'épaisseur et une solidité de 20.
 
@@ -263,7 +278,21 @@ Le fer froid a 30 points de vie par section de 2,5 centimètres d’épaisseur e
 | Autre objet || +1 000 po/kg
 |}
 </center></div></div>
-Le mithral est un métal rare et argenté plus léger que l’acier mais tout aussi solide. Lorsqu’il est forgé comme l’acier, il peut servir à créer des armures exceptionnelles. Il sert parfois à fabriquer d’autres objets. 
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Équipement et objets magiques)#13|→]] Armure en mithral : De quoi est-il question quand le texte indique qu’une armure en mithral est comptée comme d’une catégorie plus légère dans le cadre d’« autres limitations » ?'''''
+
+Cela signifie qu’une armure en __[[mithral]]__ permet à son porteur de l’utiliser quand ses propres capacités spéciales ou de classe lui imposent de porter une armure légère ; autrement dit, le personnage portant l’armure est moins limité. Par exemple, un [[barde]] peut lancer des sorts dans une [[cuirasse (armure)|cuirasse]] en mithral sans [[Caractéristiques des armures#RISQUEECHECPROFANE|risque d’échec des sorts profanes]], un barbare peut utiliser son [[Barbare#DEPLACEMENTACCELERE|déplacement accéléré]] dans un [[harnois (armure)|harnois]] en mithral, un rôdeur peut utiliser son [[Rôdeur#DONDESTYLEDECOMBAT|style de combat]] dans un harnois en mithral, les [[Lutteur|lutteurs]], [[Bretteur|bretteurs]] et [[Pistolier|pistoliers]] peuvent conserver leur bonus d’esquive dans une cuirasse en mithral, un roublard conserve son [[Roublard#ESQUIVETOTALE|esquive totale]] dans une cuirasse en mithral, un lutteur peut utiliser son [[Lutteur#DELUGEDECOUPSDULUTTEUR|déluge]] dans une cuirasse en mithral, les personnages sans [[Endurance]] peuvent dormir dans une cuirasse en mithral sans être fatigués, etc. Cela ne change pas la véritable catégorie de l’armure, ce qui implique qu’on peut toujours stocker une créature d’une catégorie de taille supérieure dans un harnois ''[[niche (propriété)|niche]]'' en mithral, et qu’il est impossible d’altérer une cuirasse en mithral avec une propriété spéciale réservée aux armures légères, comme ''[[pugilat (propriété)|pugilat]]'' (bien qu’il soit possible de l’altérer avec une propriété spéciale réservée aux armures intermédiaires), etc.
+<hr>
+'''''[[FAQ- Manuel des joueurs (Équipement et objets magiques)#27|→]] Mithral : Quel poids utiliser pour déterminer le prix d’une arme en mithral ou d’un objet qui n’est pas une armure ?'''''
+
+Pour déterminer le prix supplémentaire du __[[mithral]]__ (comparé au prix normal de l’objet), on utilise le poids de l’objet original n’étant pas en mithral et on le multiplie par 500 po tous les 500 grammes.
+
+Par exemple, une [[dague (arme)|dague]] en acier pèse 500 grammes pour une créature de taille M. Pour avoir son équivalent en mithral, on multiplie ce poids (500 g) par 500 po/500g, ou +500 po. Lorsqu’on ajoute le prix de l’objet original (2 po), le prix total d’une dague en mithral est de 502 po.
+
+Il y a probablement quelques prix d’objets en mithral incohérents dans les manuels, et ils seront traités dans de futurs impressions de ces ouvrages, le cas échéant.
+<hr>
+'''''[[FAQ- lArt de la guerre#27|→]] Armes : Il y a des armes de corps à corps dans l’Art de la guerre (pages 131 à 132) avec un poids de « — ». Si ces armes sont principalement faites de métal (comme le kerambit), comment calculer le coût de la version mithral de ces armes ?'''''
+
+Traitez ces armes comme pesant 0,25 kg dans le cadre de la création d’une version __[[mithral]]__ de l’arme.}Le mithral est un métal rare et argenté plus léger que l’acier mais tout aussi solide. Lorsqu’il est forgé comme l’acier, il peut servir à créer des armures exceptionnelles. Il sert parfois à fabriquer d’autres objets. 
 
 La plupart des armures en mithral sont une catégorie en dessous de la normale en termes de poids en ce qui concerne le déplacement et les autres limitations. Les armures lourdes sont traitées comme des armures intermédiaires et les armures intermédiaires sont traitées comme des armures légères mais les armures légères restent des armures légères. Cette réduction ne s’applique pas à la formation au port de l’armure concernée. Un personnage portant un harnois en mithral doit être formé au port des armures lourdes, sinon, il a un malus d’armure à tous ses jets d’attaque et ses tests de compétence impliquant un déplacement. Les chances d’échec des sorts pour les armures et les boucliers en mithral sont réduites de 10%. Le bonus de Dextérité maximum est augmenté de 2 et le malus d’armure est réduit de 3 (jusqu’à un minimum de 0, cette réduction comprend celle due en tant qu'objet de maître).
 

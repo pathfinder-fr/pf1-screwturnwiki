@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Caractéristiques des armes
 Title: Caractéristiques des armes
-LastModified: 2024-06-22 14:23
+LastModified: 2024-07-03 18:36
 Categories:
   - 'Règle officielle'
   - 'Src Armes et équipement'
@@ -68,7 +68,18 @@ Certaines armes infligent des dégâts de deux types. Par exemple, la morgenster
 D’autres armes peuvent infliger deux types de dégâts en fonction de la manière dont on les utilise. Si le personnage se trouve dans une situation où le type de dégâts de l’arme est important, il peut choisir entre les deux types de dégâts.
 
 ===Attributs Spéciaux===
-Certaines armes ont des attributs spéciaux.
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Équipement et objets magiques)#8|→]] Armes de croc-en-jambe : Si un personnage veut faire une manœuvre de croc-en-jambe, doit-il utiliser une arme avec l’attribut spécial croc-en-jambe ?'''''
+
+Non. Lorsqu’il fait une manœuvre de [[croc-en-jambe]], le personnage n’est pas obligé d’utiliser une arme avec l’attribut spécial __[[Caractéristiques des armes#CROCENJAMBE|croc-en-jambe]]__ – il peut utiliser n’importe quelle arme. Par exemple, il peut tenter un croc-en-jambe avec une épée longue ou une attaque à mains nues, même si ces armes n’ont pas l’attribut spécial croc-en-jambe.  
+Notez qu’il y a un avantage à utiliser une arme avec cet attribut spécial (a.k.a. une « arme de croc-en-jambe ») lorsqu’on fait une manœuvre de croc-en-jambe : si l’attaque de croc-en-jambe rate de 10 ou plus, le personnage peut lâcher l’arme de croc-en-jambe plutôt que tomber à terre.
+
+Sur une note similaire, un personnage n’est pas obligé d’utiliser une arme avec l’attribut spécial [[Caractéristiques des armes#DESARMEMENT|désarmement]] (a.k.a. une « arme de désarmement ») lorsqu’il fait une manœuvre de [[désarmement]] – il peut utiliser n’importe quelle arme.
+
+Note : Il s’agit d’une révision de cette FAQ basée sur un [[http://paizo.com/paizo/blog/v5748dyo5lcom|Paizo blog]] à propos des manœuvres offensives avec les armes. La version antérieure de cette FAQ indiquait qu’utiliser une arme de croc-en-jambe était le seul moyen d’appliquer le bonus d’altération de l’arme utilisée, les bonus d’Arme de prédilection, et les bonus similaires aux tests de manœuvres offensive de croc-en-jambe. La clarification de ce blog implique que toute arme utilisée pour tenter un croc-en-jambe applique ces bonus lors d’une manœuvre offensive de croc-en-jambe, donc cette FAQ a été mise à jour pour retirer la limitation « seule les armes de croc-en-jambe peuvent appliquer ces bonus ».
+<hr>
+'''''[[FAQ- Manuel des joueurs (Équipement et objets magiques)#9|→]] Armes de moine : Les moines sont-ils automatiquement formés au maniement de toutes les armes avec l’attribut spécial « moine » ?'''''
+
+Comme c’est écrit, non – l’attribut spécial « __[[Caractéristiques des armes#MOINE|moine]]__ » indique qu’un [[moine]] peut utiliser l’arme dans le cadre d’un [[Moine#DELUGEDECOUPS|déluge de coups]], mais il n’offre pas le maniement de ladite arme.}Certaines armes ont des attributs spéciaux.
 * {s:Reference|ALLONGE}'''Allonge.''' Une arme à allonge permet à un personnage (de taille P ou M) de frapper un adversaire qui se trouve à 3 m (2 cases) de distance. Par contre, elle ne permet pas d'attaquer les adversaires adjacents.
 
 * {s:Reference|CROCENJAMBE}'''Croc-en-jambe.''' le personnage peut utiliser une arme pour faire un croc-en-jambe. S’il est victime d’un croc-en-jambe pendant sa propre tentative, il peut lâcher son arme pour éviter de tomber.
@@ -96,14 +107,18 @@ Certaines armes ont des attributs spéciaux.
 * {s:Reference|SPECTACLE}'''Spectacle'''. Quand le personnage manie une arme de spectacle, il gagne un bonus de +2 aux tests de [[combat de spectacle]] liés à une attaque ou une manœuvre.
 
 Dans le cas ou le tableau vous renvoie au texte, référez-vous à la description de l’arme.
+
 == Catégories ==
 Les armes sont réparties en plusieurs catégories qui dépendent de la formation nécessaire pour les manier (courante, de guerre, exotique), de l’utilité de l’arme en combat rapproché (corps à corps) ou à distance (armes à distance, incluant les
 armes de jet et les armes à projectiles), de son encombrement relatif (légère, à une main ou à deux mains), et de sa taille (P, M ou G).
 
 {s:Reference|ARMECOURANTE}{s:Reference|ARMEDEGUERRE}{s:Reference|ARMEEXOTIQUE}
 === Armes courantes, de guerre ou exotiques ===
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Équipement et objets magiques)#10|→]] Armes exotiques et mains : Si une arme est maniée à deux mains comme une arme de guerre et à une main avec une formation au maniement des armes exotiques, puis-je la manier à une main sans formation exotique avec un malus de -4 ?'''''
 
-La plupart des classes de personnage sont formées au maniement des armes courantes. Les classes orientées vers le combat, comme le [[barbare]], le [[chevalier]] et le [[guerrier]], sont formées au maniement des armes courantes et de guerre. Les personnages ayant d’autres classes sont formés à un assortiment d’armes courantes et, parfois, de quelques armes de guerre, voire même d’armes exotiques. 
+Non.  
+Notez qu’un personnage ne peut normalement pas manier une arme à deux mains dans une seule main. L’[[épée bâtarde (arme)|épée bâtarde]] est une exception à cette règle précisant qu’on ne peut manier une arme à deux mains dans une seule main, mais un personnage a besoin d’une formation particulière pour pouvoir utiliser l’épée bâtarde de cette façon. Sans cette formation spéciale, manier une épée bâtarde à une main est aussi impossible que de manier une [[épée à deux mains (arme)|épée à deux mains]] dans une seule main.  
+(La même chose s’applique pour les autres armes avec cette exception à une main __[[Caractéristiques des armes#ARMEEXOTIQUE|exotique]]__, comme la [[hache darmes naine (arme)|hache d'armes naine]].)}La plupart des classes de personnage sont formées au maniement des armes courantes. Les classes orientées vers le combat, comme le [[barbare]], le [[chevalier]] et le [[guerrier]], sont formées au maniement des armes courantes et de guerre. Les personnages ayant d’autres classes sont formés à un assortiment d’armes courantes et, parfois, de quelques armes de guerre, voire même d’armes exotiques. 
 
 Tous les personnages sont formés au combat à mains nues et au maniement des armes naturelles qu’ils reçoivent de leur [[races|race]]. Un personnage qui utilise une arme pour laquelle il n’est pas formé reçoit un malus de -4 à tous ses jets d’attaque avec cette arme.
 
@@ -113,14 +128,15 @@ Voir aussi :
 * le [[Tableau récapitulatif des armes#TABEXOTIQUES|tableau des armes exotiques]]
 
 {s:Reference|ARMEDECORPSACORPS}{s:Reference|ARMEADISTANCE}
-
 === Armes de corps à corps et armes à distance ===
 
 Les armes de corps à corps sont utilisées pour porter des attaques de corps à corps mais certaines se lancent aussi. Les armes à distance incluent les [[arme de jet|armes de jet]] ou les armes à projectiles qui ne fonctionnent pas au corps à corps.
 
 {s:Reference|ARMEAALLONGE}
 ==== Armes à allonge ====
-Les coutilles, les guisarmes, les lances, les piques, les corsèques et les fouets sont des exemples d’armes à allonge. L’arme à allonge est une arme de corps à corps qui permet au porteur de frapper des cibles qui ne lui sont pas adjacentes. La plupart des armes à allonge doublent l’[[allonge]] naturelle du porteur, ce qui signifie qu’un personnage de taille P ou M peut attaquer une créature située à 3 mètres (2 {s:c}) de lui mais pas une créature située sur une case adjacente. 
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Combat)#32|→]] Pique : Puis-je utiliser ma pique pour attaquer à 3 m aussi bien qu’à 1,5 m ? Je sais que les règles pour les armes à allonge ne leur permettent pas d’attaquer les créatures adjacentes, mais est-ce que je peux utiliser les règles sur les armes improvisées pour dire que l’extrémité émoussée de ma pique ressemble à un gourdin et donc l’utiliser pour attaquer des cibles adjacentes ? Les règles sur les armes improvisées disent qu’elles concernent les objets qui ne sont pas conçus pour être des armes, mais l’extrémité émoussée de ma pique n’est pas conçue pour être une arme, n’est-ce pas ?'''''
+
+Un personnage peut choisir de manier sa __[[Caractéristiques des armes#ARMEAALLONGE|pique]]__ comme une [[arme improvisée]] contondante. Dans ce cas, elle menace uniquement les cases adjacentes, et pas les suivantes. En revanche, si le personnage la manie comme une pique pour menacer les cases suivantes, alors sa prise empêche l’utilisation de l’arme comme une arme improvisée contondante. Les règles n’évoquent pas le temps qu’il faudrait pour passer d’un maniement à l’autre, mais passer d’une main à deux mains avec une arme à une main comme une [[épée longue (arme)|épée longue]] est une action libre (et ne peut donc être effectuée que pendant le tour du personnage), donc cela devrait prendre au moins autant de temps, empêchant donc au personnage de menacer simultanément toutes les cases à la fois. Par ailleurs, utiliser la pique comme une arme improvisée de cette façon ne permettrait pas au personnage de bénéficier de toute altération magique qu’elle possède, ni de profiter des avantages qu’il a en attaquant avec une pique (comme [[Arme de prédilection]] <nowiki>[</nowiki>pique<nowiki>]</nowiki>), mais cela lui permettrait de profiter des avantages conférés par l'utilisation d'une arme improvisée (comme avec [[Surprise]]).}Les [[coutille (arme)|coutilles]], les [[guisarme (arme)|guisarmes]], les [[lance (arme)|lances]], les [[pique (arme)|piques]], les [[corsèque (arme)|corsèques]] et les [[fouet (arme)|fouets]] sont des exemples d’armes à allonge. L’arme à allonge est une arme de corps à corps qui permet au porteur de frapper des cibles qui ne lui sont pas adjacentes. La plupart des armes à allonge doublent l’[[allonge]] naturelle du porteur, ce qui signifie qu’un personnage de taille P ou M peut attaquer une créature située à 3 mètres (2 {s:c}) de lui mais pas une créature située sur une case adjacente. 
 
 Un personnage normal de taille G maniant une arme à allonge de taille adaptée peut attaquer une créature située à 4,5 ou 6 mètres (3 ou 4 {s:c}) de lui mais pas les créatures adjacentes ou les créatures situées à 3 mètres ou moins de lui.
 
@@ -153,8 +169,15 @@ Si les shurikens sont des armes de jet, ils sont traités comme des munitions qu
 
 {s:Reference|ARMELEGERE}{s:Reference|ARMEAUNEMAIN}{s:Reference|ARMEADEUXMAINS}
 === Armes de corps à corps légères, à une main ou à deux mains ===
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Équipement et objets magiques)#6|→]] Armes à deux mains dans une main : Lorsqu’un don ou une autre capacité indique de traiter une arme normalement maniée à deux mains comme une arme à une main, elle est considérée comme étant une arme à une ou deux mains dans le cadre de l’application du modificateur de Force ou du don Attaque en puissance ?'''''
 
-Cette appellation renseigne sur l’effort nécessaire au maniement de l’arme. Elle indique si une arme de corps à corps, quand elle est maniée par un personnage correspondant à la catégorie de taille de l’arme, est considérée comme une arme légère, à une main ou à deux mains.
+Si le personnage la manie à une main (même si c’est normalement une __[[Caractéristiques des armes#ARMEADEUXMAINS|arme à deux mains]]__), il la traite comme une arme à une main pour déterminer la quantité de [[Force]] à appliquer, le bonus aux dégâts d’[[Attaque en puissance]], etc.
+<hr>
+'''''[[FAQ- Manuel des joueurs (Combat)#9|→]] Armes à deux mains : Quel genre d’action coûte le fait de lâcher d’une main une arme à deux mains ou de la ressaisir avec les deux mains ?'''''
+
+Les deux sont des actions libres. Par exemple, un magicien qui manie un [[bâton (arme)|bâton]] peut le lâcher d’une main par une action libre, lancer un sort par une action simple, puis le saisir à nouveau avec cette main par une action libre ; cela signifie que le magicien est toujours capable de faire des attaques d’opportunité avec l’__[[Caractéristiques des armes#ARMEADEUXMAINS|arme]]__ (qui nécessite d’utiliser deux mains).
+
+Comme pour n’importe quelle action libre, c’est le MJ qui décide d’un nombre de fois raisonnable par round où le personnage peut lâcher et ressaisir l’arme (pouvoir lâcher et ressaisir une fois par round est acceptable).}Cette appellation renseigne sur l’effort nécessaire au maniement de l’arme. Elle indique si une arme de corps à corps, quand elle est maniée par un personnage correspondant à la catégorie de taille de l’arme, est considérée comme une arme légère, à une main ou à deux mains.
 
 '''Légère.''' Une arme légère se manie à une main. Elle est plus facile à manier de la main non-directrice qu’une arme à une main et elle peut être utilisée en [[lutte]]. Ajoutez le modificateur de [[Force]] de l’utilisateur aux jets de dégâts pour les attaques de corps à corps portées avec une arme légère si elle est utilisée avec la [[Actions spéciales#COMBAT2MAINS|main directrice]] ou la moitié du modificateur de Force du porteur s’il l’utilise avec sa main non-directrice. Si un personnage manie une arme légère à deux mains, il ne gagne aucun avantage aux dégâts, le modificateur de Force s’applique juste comme s’il tenait l’arme dans sa main directrice.
 
@@ -168,7 +191,6 @@ Si une arme à une main est maniée avec les deux mains en combat au corps à co
 
 {s:Reference|TAILLEARME}
 == Taille de l’arme ==
-
 <div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
 <div style="border: 1px solid #4b3124; padding: 4px">
 {| CLASS="tablo"
@@ -199,14 +221,25 @@ Si une arme à une main est maniée avec les deux mains en combat au corps à co
 | 2d8 || 1d10 || 3d8
 |-
 | 2d10 || 2d6 || 4d8
-|}</div></div>
-Chaque arme a une catégorie de taille. Cette appellation renseigne sur la taille de la créature pour laquelle l’arme a été conçue. La catégorie de taille d’une arme ne correspond pas à sa taille en tant qu’objet. En général, une arme légère est un objet plus petit de deux catégories de taille que le porteur, une arme à une main est un objet plus petit d’une catégorie de taille que le porteur et une arme à deux mains est un objet de la même catégorie de taille que le porteur.
+|}
+</div></div>
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Combat)#30|→]] Modifications de taille, modifications effectives de la taille, et progression des dés de dégâts : Je suis perdu quant à l’augmentation et la diminution des catégories de dés de dégâts des armes manufacturées et naturelles quand la taille de l’arme ou sa taille effective change. Il y a plusieurs tableaux, et je ne suis pas sûr du quel utiliser.'''''
+
+Quand les dégâts infligés par les __[[Caractéristiques des armes#TAILLEARME|armes]]__ ou les __[[Attaques naturelles (capacité)|attaques naturelles]]__ d’une créature changent à cause d’une modification de sa taille (ou de la taille de son arme), utilisez les règles suivantes pour déterminer les nouveaux dégâts.
+* Si la taille augmente d’une catégorie, trouvez les dégâts originaux sur le tableau et augmentez-les de deux niveaux. Si la taille initiale est P ou moins (ou est traitée comme de taille P ou moins) ou que les dégâts initiaux sont 1d6 ou moins, augmentez les dégâts d’un seul niveau.
+* Si la taille diminue d’une catégorie, trouvez les dégâts originaux sur le tableau et diminuez-les de deux catégories. Si la taille initiale est M ou moins (ou est traitée comme de taille M ou moins) ou que les dégâts initiaux sont 1d8 ou moins, diminuez les dégâts d’un seul niveau.
+* Si le nombre exact de dés originaux ne se trouve pas sur le tableau, appliquez ce qui suit avant d’ajuster les dés de dégâts : si les dégâts sont un nombre de d6, trouvez le nombre de d6 inférieur suivant dans le tableau et utilisez ce nombre en d8 comme dégâts originaux (par exemple, 10d6 seraient traités comme 8d8). Si les dégâts sont un nombre de d8, trouvez le nombre de d8 supérieur suivant dans le tableau et utilisez ce nombre en d6 comme dégâts originaux (par exemple, 5d8 seraient traités comme 6d6). Une fois la nouvelle valeur de dégâts définie, ajustez le nombre de niveaux à passer comme noté ci-dessus.
+* Si le type de dé n’est pas référencé dans le tableau, appliquez les règles suivantes avant d’ajuster les dés de dégâts. 2d4 comptent comme 1d8 dans le tableau, 3d4 comptent comme 2d6 dans le tableau, et ainsi de suite pour les nombres de d4 supérieurs. 1d12 comptent comme 2d6 dans le tableau, et ainsi de suite pour les nombres de d12 supérieurs.
+* Enfin, 2d10 augmentent à 4d8 et diminuent à 2d8, quelque soit la taille initiale, et ainsi de suite pour les nombres de d10 supérieurs.
+
+'''Tableau de progression des dés de dégâts'''  
+1 → 1d2 → 1d3 → 1d4 →1d6 → 1d8 → 1d10 → 2d6 → 2d8 → 3d6 → 3d8 → 4d6 → 4d8 → 6d6 → 6d8 → 8d6 → 8d8 → 12d6 → 12d8 → 16d6}Chaque arme a une catégorie de taille. Cette appellation renseigne sur la taille de la créature pour laquelle l’arme a été conçue. La catégorie de taille d’une arme ne correspond pas à sa taille en tant qu’objet. En général, une arme légère est un objet plus petit de deux catégories de taille que le porteur, une arme à une main est un objet plus petit d’une catégorie de taille que le porteur et une arme à deux mains est un objet de la même catégorie de taille que le porteur.
 
 '''Arme d’une taille inappropriée.''' Une créature ne peut pas utiliser une arme dont la taille ne lui convient pas parfaitement au maximum de ses capacités. Un malus cumulatif de -2 s’applique aux [[jet dattaque|jets d’attaque]] pour chaque catégorie qui sépare la taille réelle du porteur de la taille prévue pour le propriétaire de l’arme. Si la créature n’est pas formée au maniement de l’arme, elle subit en outre un malus de -4 pour non-maîtrise de l’arme.
 
 Qu’une arme soit prévue pour être une arme légère, à une main ou à deux mains pour un porteur particulier, l’effort nécessaire pour la manier change d’un niveau pour chaque catégorie qui sépare la taille réelle du porteur de la taille prévue pour le propriétaire de l’arme. Par exemple, une créature de taille P manie une arme à une main de taille M comme une arme à deux mains (et subit quand même un malus de -2 pour l’utilisation d’une arme de taille inappropriée). Si, suite à cette modification, l’arme devient autre chose que légère, à une ou deux mains, la créature ne peut tout simplement pas la manier.
 
-{s:Reference|ARMESIMPROVISEES}
+{s:ClearRight}{s:Reference|ARMESIMPROVISEES}
 == Armes improvisées ==
 Parfois, les objets qui ne sont pas fabriqués pour être des armes peuvent néanmoins servir en combat (il s’agit généralement des bouteilles, des pieds de chaise, d’un fémur perdu, ce genre de choses…). Ces objets n’étant pas prévus pour cet usage, toute créature qui utilise une arme improvisée en combat est considérée comme ne maîtrisant pas l’arme et reçoit un malus de -4 à ses [[jet dattaque|jets d’attaque]] avec cet objet. 
 

@@ -1,13 +1,13 @@
 ---
 Name: Pathfinder-RPG.Descriptions individuelles des propriétés spéciales des armes
 Title: Descriptions individuelles des propriétés spéciales des armes
-LastModified: 2024-06-02 18:43
+LastModified: 2024-07-05 23:03
 ---
 {s:MenuObjetsMagiques}
 <div style="float: right; padding: 0 0 8px 8px">{toc}</div>''Les propriétés décrites ci-dessous sont celles présentées dans les [[armes magiques]].''
 
 ===Propriétés ajoutant un prix spécifique===
-<table class="page espace-col deuxcol"><tr><td>
+<table width="100%"><tr><td width="49%">
 {s:Reference|Charge étanche}
 <div class="BD">
 {s:BDTitre|Charge étanche|{s:AE}}
@@ -67,8 +67,8 @@ Cette propriété s’applique seulement aux armes de corps à corps. Une arme '
 (((Création)))
 '''Conditions''' [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[création majeure]]'' ; '''Coût''' 5.000 po
 </div>
-</td>
-<td>
+</td><td width="2%">
+</td><td width="49%">
 {s:Reference|Polyvalente}
 <div class="BD">
 {s:BDTitre|Polyvalente|{s:AE}}
@@ -132,7 +132,7 @@ Cette propriété spéciale d’arme ne peut être appliquée qu’aux armes de 
 
 
 ===Propriétés ajoutant un bonus de +1===
-<table class="page espace-col deuxcol"><tr><td>
+<table width="100%"><tr><td width="49%">
 {s:Reference|Acérée}
 <div class="BD">
 {s:BDTitre|Acérée|{s:AE}}
@@ -268,7 +268,11 @@ Sur commande, une arme ''corrosive'' s’enduit de graisse acide qui inflige 1d6
 {s:BDTitre|Courageuse|{s:AE}}
 '''Aura''' [[Enchantement]] faible ; '''NLS''' 3 ; '''Emplacement''' [[Armes magiques|propriété d'arme]] ; '''Prix''' Bonus de +1 ; '''Poids''' —
 (((Description)))
-Cette propriété spéciale s’applique uniquement aux armes de corps à corps. Une arme courageuse renforce le courage et le moral de son propriétaire qui bénéficie d’un bonus de moral aux jets de sauvegarde contre la terreur égal au bonus d’altération de l’arme. De plus, à chaque fois qu’il gagne un bonus de moral aux jets de sauvegarde contre la terreur par une autre source, ce bonus augmente de la moitié du bonus d’altération de l’arme (minimum 1).
+{s:FAQ|'''''__Ce texte a été modifié suite à la FAQ suivante :__
+
+[[FAQ- Armes et équipement#6|→]] Propriété d’arme ''courageuse'' : La propriété d’arme ''courageuse'' est-elle prévue seulement pour aider aux jets de sauvegarde contre la peur ? Le texte à l’air d’améliorer l’intégralité des bonus de moral, ce qui est hors norme pour une propriété d’arme équivalente à un bonus de +1.'''''
+
+Une arme __''[[courageuse (propriété)|courageuse]]''__ était prévu pour n’aider qu’aux jets de sauvegarde contre la peur (en ajoutant soit son bonus d’altération en tant que bonus de moral aux jets de sauvegarde contre la peur, soit la moitié de ce bonus d’altération au bonus de moral existant aux jets de sauvegarde contre la peur, suivant le plus avantageux pour le personnage). En revanche, la formulation actuelle est fausse. La dernière phrase devrait indiquer « aux jets de sauvegarde contre la terreur » après « un bonus de moral ». Ce changement sera reflété dans le prochain errata.}Cette propriété spéciale s’applique uniquement aux armes de corps à corps. Une arme courageuse renforce le courage et le moral de son propriétaire qui bénéficie d’un bonus de moral aux jets de sauvegarde contre la terreur égal au bonus d’altération de l’arme. De plus, à chaque fois qu’il gagne un bonus de moral aux jets de sauvegarde contre la terreur par une autre source, ce bonus augmente de la moitié du bonus d’altération de l’arme (minimum 1).
 (((Création)))
 '''Conditions''' [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[héroïsme]]'', ''[[regain dassurance|regain d’assurance]]'' ; '''Coût''' Bonus de +1
 </div>
@@ -480,7 +484,11 @@ Cette propriété s’applique uniquement aux armes de corps à corps. Une arme 
 {s:BDTitre|Gardienne|{s:AE}}
 '''Aura''' [[Abjuration]] modérée ; '''NLS''' 8 ; '''Emplacement''' [[Armes magiques|propriété d'arme]] ; '''Prix''' Bonus de +1 ; '''Poids''' —
 (((Description)))
-Une arme ''gardienne'' permet à son possesseur d’utiliser tout ou partie de son bonus d’altération comme bonus à la [[CA]], lequel peut se cumuler avec tous les autres types de bonus à la [[CA]]. Par une [[action libre]] au début de son tour de jeu, le personnage choisit la façon dont il repartit son bonus et sa [[CA]] est modifiée en conséquence jusqu’à son prochain tour de jeu. Cette propriété s’applique uniquement aux armes de corps à corps.
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Magie et sorts)#30|→]] Propriété spéciale d’arme ''gardienne'' : Dois-je faire un jet d’attaque avec l’arme pour gagner son bonus à la CA ?'''''
+
+Oui. Simplement tenir une arme __''[[gardienne (propriété)|gardienne]]''__ ne suffit pas. Sauf précision contraire, le personnage doit utiliser un objet magique pour accomplir ce pourquoi il a été conçu (utiliser une arme pour faire des attaques, porter un bouclier sur son bras pour se défendre avec, etc) afin de profiter de ses avantages.  
+Ainsi, si le personnage ne fait pas de jet d’attaque avec une arme ''gardienne'' à son tour, il ne bénéficie pas de ses avantages défensifs.  
+De même, si le personnage peut ajouter la propriété ''gardienne'' à un bouclier (après lui avoir ajouté un [[Armes magiques|bonus d’altération]] de +1 à l’attaque, bien entendu), il n’obtiendra pas le bonus à la CA de la propriété sauf s’il utilise le bouclier pour porter un coup de bouclier à ce round – autrement dit, si le personnage n’utilise pas le bouclier comme une arme (pour porter un coup de bouclier), la propriété spéciale d’arme ''gardienne'' n’a pas d’effet.}Une arme ''gardienne'' permet à son possesseur d’utiliser tout ou partie de son bonus d’altération comme bonus à la [[CA]], lequel peut se cumuler avec tous les autres types de bonus à la [[CA]]. Par une [[action libre]] au début de son tour de jeu, le personnage choisit la façon dont il repartit son bonus et sa [[CA]] est modifiée en conséquence jusqu’à son prochain tour de jeu. Cette propriété s’applique uniquement aux armes de corps à corps.
 (((Création)))
 '''Conditions''' [[Création darmes et armures magiques|Création d’armes et armures magiques]], soit ''[[bouclier]]'', soit ''[[bouclier de la foi]]'' ; '''Coût''' Bonus de +1
 </div>
@@ -534,8 +542,8 @@ Cette propriété s’applique seulement aux armes de corps à corps qui acquiè
 (((Création)))
 '''Conditions''' [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[pierre magique]]'' ; '''Coût''' Bonus de +1
 </div>
-</td>
-<td>
+</td><td width="2%">
+</td><td width="49%">
 {s:Reference|Leste}
 <div class="BD">
 {s:BDTitre|Leste|{s:RSE}}
@@ -795,32 +803,30 @@ Cette propriété spéciale peut uniquement être placée sur les armes de corps
 '''Aura''' [[Invocation]] modérée ; '''NLS''' 8 ; '''Emplacement''' [[Armes magiques|propriété d'arme]] ; '''Prix''' Bonus de +1 ; '''Poids''' —
 (((Description)))
 Une arme ''traque-esprits'' excelle contre les ennemis possédant le pouvoir de classe [[chaman#ESPRIT|esprit]] ou [[oracle#MYSTERE|mystère]] (mais elle n’a aucun effet contre un [[chaman]] ayant un lien temporaire avec l’esprit approprié grâce au pouvoir de classe [[chaman#ESPRITERRANT|esprit errant]] ou un effet similaire). Contre un ennemi désigné, le bonus d’altération de l’arme est augmenté de 2. Elle inflige également 2d6 points de dégâts supplémentaires contre ces ennemis. Quand l’arme est combinée à des pouvoirs comme [[Descriptions individuelles des propriétés spéciales des armes#Tueuse|tueuse]] ou [[Descriptions individuelles des propriétés spéciales des armes#Traque-sang|traque-sang]], l’augmentation du bonus d’altération apportée par ces pouvoirs ne se cumule pas mais le personnage rajoute 1d6 points de dégâts de plus aux dégâts supplémentaires de chaque pouvoir au-delà du premier. (Par exemple, une arme ''tueuse traque-esprits'' inflige 3d6 points de dégâts supplémentaires tandis qu’une arme ''tueuse traque-esprits traque-sang'' inflige 4d6 points de dégâts supplémentaires.) Pour déterminer aléatoirement l’ennemi désigné d’une arme, faites un jet dans la table qui suit. Il est possible de désigner d’autres ennemis mais la plupart de ces armes sont harmonisées contre les créatures ayant les mystères ou les esprits suivants. 
-<center>
-{| CLASS="tablo"
+{| CLASS="tablo centre autoalt"
 |- CLASS="titre"
 | 1d100 || Esprit ou mystère désigné
 |- CLASS="premier"
 | 01–10 || Batailles
-|- CLASS="alt"
+|-
 | 11–20 || Os
 |- 
 | 21–30 || Flammes
-|- CLASS="alt"
+|-
 | 31-40 || Cieux
 |- 
 | 41-50 || Vie
-|- CLASS="alt"
+|-
 | 51–60 || Savoir
 |- 
 | 61-70 || Nature
-|- CLASS="alt"
+|-
 | 71-80 || Pierre
 |- 
 | 81-90 || Vagues
-|- CLASS="alt"
+|-
 | 91-100 || Vent
 |}
-</center>
 (((Création)))
 '''Conditions''' [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[convocation dalliés naturels I|convocation d’alliés naturels I]]'' ; '''Coût''' Bonus de +1
 </div>
@@ -831,36 +837,34 @@ Une arme ''traque-esprits'' excelle contre les ennemis possédant le pouvoir de 
 '''Aura''' [[Invocation]] modérée ; '''NLS''' 8 ; '''Emplacement''' [[Armes magiques|propriété d'arme]] ; '''Prix''' Bonus de +1 ; '''Poids''' —
 (((Description)))
 Une arme traque-sang excelle contre les ennemis possédant le pouvoir de classe [[ensorceleur#LIGNAGE|lignage]]. Contre un ennemi désigné, le bonus d’altération de l’arme est augmenté de 2. Elle inflige également 2d6 points de dégâts supplémentaires contre ces ennemis. Quand l’arme est combinée à des pouvoirs comme [[Descriptions individuelles des propriétés spéciales des armes#Tueuse|tueuse]] ou [[Descriptions individuelles des propriétés spéciales des armes#Traque-esprits|traque-esprits]], l’augmentation du bonus d’altération apportée par ces pouvoirs ne se cumule pas mais le personnage rajoute 1d6 points de dégâts de plus aux dégâts supplémentaires de chaque pouvoir au-delà du premier. (Par exemple, une arme ''tueuse traque-sang'' inflige 3d6 points de dégâts supplémentaires tandis qu’une arme ''tueuse traque-esprits traque-sang'' inflige 4d6 points de dégâts supplémentaires.) Pour déterminer aléatoirement l’ennemi désigné d’une arme, faites un jet dans la table qui suit. Il est possible de désigner d’autres ennemis mais la plupart de ces armes sont harmonisées contre les créatures ayant les lignages suivants. 
-<center>
-{| CLASS="tablo"
+{| CLASS="tablo centre autoalt"
 |- CLASS="titre"
 | 1d100 || Lignage désigné
 |- CLASS="premier"
 | 01–05 || Aberrant
-|- CLASS="alt"
+|-
 | 06–15 || Abyssal
 |- 
 | 16–30 || Profane
-|- CLASS="alt"
+|-
 | 31–35 || Céleste
 |- 
 | 36-40 || Voué à un grand destin
-|- CLASS="alt"
+|-
 | 41–50 || Draconique
 |- 
 | 51-60 || Élémentaire
-|- CLASS="alt"
+|-
 | 61-70 || Féerique
 |- 
 | 71-80 || Infernal
-|- CLASS="alt"
+|-
 | 81-90 || Mort-vivant
 |- 
 | 91-95 || Autre
-|- CLASS="alt"
+|-
 | 96-100 || Tous
 |}
-</center>
 (((Création)))
 '''Conditions''' [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[convocation de monstres I|convocation de monstres I]]'' ; '''Coût''' Bonus de +1
 </div>
@@ -891,39 +895,43 @@ Une arme ''trompeuse'' devient floue et se tord de manière imprévisible. Quand
 {s:BDTitre|Tueuse|{s:AE}}
 '''Aura''' [[Invocation]] modérée ; '''NLS''' 8 ; '''Emplacement''' [[Armes magiques|propriété d'arme]] ; '''Prix''' Bonus de +1 ; '''Poids''' —
 (((Description)))
-Une arme ''tueuse'' est particulièrement efficace contre un type ou un sous-type de créature donné. Contre ses adversaires désignés, son bonus d’altération augmente de +2. De plus, lors d’une attaque réussie, l’arme inflige 2d6 points de dégâts supplémentaires contre ses adversaires désignés. Pour déterminer aléatoirement le type de créatures désigné d’une arme ''tueuse'', jetez 1d100 et consultez la table suivante. 
-<center>
-{| CLASS="tablo"
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Équipement et objets magiques)#34|→]] ''Tueuse'' : Puis-je appliquer plusieurs propriétés spéciales ''tueuse'' à la même arme ? Si oui, leurs effets se cumulent-ils ?'''''
+
+Un personnage peut appliquer plusieurs propriétés spéciales __''[[tueuse (propriété)|tueuse]]''__ à la même arme. Par exemple, il peut avoir une ''épée longue tueuse de dragons et de fées +1'', ce qui augmente le bonus d’altération et les dégâts contre les dragons et contre les fées.
+
+Si un personnage a plusieurs effets ''tueur'' sur une arme et attaque une créature contre laquelle plusieurs ''tueurs'' s’appliquent (comme une arme ''tueuse d’extérieurs chaotiques et mauvais'' utilisée contre un démon), les effets ne se cumulent pas : le bonus d’altération de l’arme est seulement supérieur de +2 par rapport à son bonus d’altération réel, et elle n’inflige que +2d6 points de dégâts supplémentaires contre cet adversaire.  
+
+(Comparez cela à l’[[Guerrier#ENTRAINEMENTAUXARMES|entraînement aux armes]] du guerrier ou les bonus d’[[Rôdeur#ENNEMIJURE|ennemis jurés]] du rôdeur, les deux indiquent que le personnage utilise le bonus le plus élevé si plusieurs bonus s’appliquent.)}Une arme ''tueuse'' est particulièrement efficace contre un type ou un sous-type de créature donné. Contre ses adversaires désignés, son bonus d’altération augmente de +2. De plus, lors d’une attaque réussie, l’arme inflige 2d6 points de dégâts supplémentaires contre ses adversaires désignés. Pour déterminer aléatoirement le type de créatures désigné d’une arme ''tueuse'', jetez 1d100 et consultez la table suivante. 
+{| CLASS="tablo centre autoalt"
 |- CLASS="titre"
 | 1d100 || Type désigné
 |- CLASS="premier"
 | 01–05 || Aberrations
-|- CLASS="alt"
+|-
 | 06–09 || Animaux 
 |- 
 | 10–16 || Créatures artificielles
-|- CLASS="alt"
+|-
 | 17–22 || Dragons
 |- 
 | 23–27 || Fées 
-|- CLASS="alt"
+|-
 | 28–60 || Humanoïdes (choisir un sous-type)
 |- 
 | 61–65 || Créatures magiques
-|- CLASS="alt"
+|-
 | 66-70 || Humanoïdes monstrueux
 |- 
 | 71-72 || Vases
-|- CLASS="alt"
+|-
 | 73-88 || Extérieurs (choisir un sous-type)
 |- 
 | 89-90 || Plantes
-|- CLASS="alt"
+|-
 | 91-98 || Morts-vivants
 |- 
 | 99-100 || Vermines
 |}
-</center>
 (((Création)))
 '''Conditions''' [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[convocation de monstres I]]'' ; '''Coût''' Bonus de +1
 </div>
@@ -993,7 +1001,7 @@ Cette propriété spéciale d’arme ne peut être appliquée qu’aux armes de 
 
 
 ===Propriétés ajoutant un bonus de +2===
-<table class="page espace-col deuxcol"><tr><td>
+<table width="100%"><tr><td width="49%">
 {s:Reference|Anarchique}
 <div class="BD">
 {s:BDTitre|Anarchique|{s:AE}}
@@ -1187,8 +1195,8 @@ Une arme ''impie'' est alimentée directement par l’énergie Mauvaise. Cela en
 (((Création)))
 '''Conditions''' [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[ténèbres maudites]]'', le créateur doit être d’alignement Mauvais ; '''Coût''' Bonus de +2
 </div>
-</td>
-<td>
+</td><td width="2%">
+</td><td width="49%">
 {s:Reference|Inamovible}
 <div class="BD">
 {s:BDTitre|Inamovible|{s:AE}}
@@ -1288,7 +1296,9 @@ Si le porteur confirme un [[coup critique]] avec une arme ''muselante'', la cibl
 {s:BDTitre|Percutante|{s:AE}}
 '''Aura''' [[Transmutation]] modérée ; '''NLS''' 9 ; '''Emplacement''' [[Armes magiques|propriété d'arme]] ; '''Prix''' Bonus de +2 ; '''Poids''' —
 (((Description)))
-Cette propriété spéciale s’applique uniquement aux armes de corps à corps, à l’exception des armes légères. Une arme percutante produit un choc puissant lors de l’impact, infligeant des dégâts équivalents à ceux d’une arme plus grande d’une catégorie de taille. De plus, à chaque fois que le personnage tente une [[bousculade]], il bénéficie d’un bonus égal au bonus d’altération de l’arme. Tous les types de [[bousculade]] sont concernés, pas seulement celles qui utilisent l’arme, comme avec les dons [[Coup bousculant]], [[Frappe du bouclier]] ou [[Désarçonner]].
+{s:FAQ|'''''[[FAQ- Armes et équipement#7|→]] Propriété spéciale d’arme, ''percutante'' : Se cumule-t-elle avec le sort ''lames de plomb'' ?'''''
+
+Non. La __[[percutante (propriété)|propriété spéciale d’arme]]__ et le [[lames de plomb|sort]] sont des effets similaires ; notez que ''percutante'' liste ''lames de plomb'' comme condition de création.}Cette propriété spéciale s’applique uniquement aux armes de corps à corps, à l’exception des armes légères. Une arme percutante produit un choc puissant lors de l’impact, infligeant des dégâts équivalents à ceux d’une arme plus grande d’une catégorie de taille. De plus, à chaque fois que le personnage tente une [[bousculade]], il bénéficie d’un bonus égal au bonus d’altération de l’arme. Tous les types de [[bousculade]] sont concernés, pas seulement celles qui utilisent l’arme, comme avec les dons [[Coup bousculant]], [[Frappe du bouclier]] ou [[Désarçonner]].
 (((Création)))
 '''Conditions''' [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[force de taureau]]'', ''[[lames de plomb]]'', et soit ''[[force du colosse]]'', soit ''[[forme de géant I]]'' ; '''Coût''' Bonus de +2
 </div>
@@ -1375,7 +1385,7 @@ Cette propriété spéciale s’applique uniquement aux armes de corps à corps.
 
 
 ===Propriétés ajoutant un bonus de +3===
-<table class="page espace-col deuxcol"><tr><td>
+<table width="100%"><tr><td width="49%">
 {s:Reference|Affaiblissement magique}
 <div class="BD">
 {s:BDTitre|Affaiblissement magique|{s:AE}}
@@ -1425,14 +1435,16 @@ Cette propriété spéciale d’arme ne peut être appliquée qu’aux armes per
 (((Création)))
 '''Conditions''' [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[héroïsme suprême]]'', le créateur doit être un utilisateur de [[bretteur#PANACHE|panache]] ; '''Coût''' Bonus de +3
 </div>
-</td>
-<td>
+</td><td width="2%">
+</td><td width="49%">
 {s:Reference|Rapide}
 <div class="BD">
 {s:BDTitre|Rapide|{s:AE}}
 '''Aura''' [[Transmutation]] modérée ; '''NLS''' 7 ; '''Emplacement''' [[Armes magiques|propriété d'arme]] ; '''Prix''' Bonus de +3 ; '''Poids''' —
 (((Description)))
-Lorsqu’il effectue une [[Actions complexes#ATTAQUEAOUTRANCE|attaque à outrance]], le possesseur d’une arme ''rapide'' peut effectuer une attaque supplémentaire avec cette arme. Il bénéficie de son [[BBA|bonus de base à l’attaque]] complet, auquel on ajoute tous les bonus appropriés à la situation (cet avantage ne se cumule pas avec des effets similaires, tels que ceux d’un sort de ''[[rapidité]]'').
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Équipement et objets magiques)#11|→]] Armes ''rapides'' : Puis-je porter deux attaques supplémentaires par round si je manie deux armes ''rapides'' en même temps ?'''''
+
+Non. L’avantage de la propriété __''[[rapide (propriété)|rapide]]''__ ne se cumule pas avec les effets similaires, et « une seconde arme ''rapide'' » est un effet similaire.}Lorsqu’il effectue une [[Actions complexes#ATTAQUEAOUTRANCE|attaque à outrance]], le possesseur d’une arme ''rapide'' peut effectuer une attaque supplémentaire avec cette arme. Il bénéficie de son [[BBA|bonus de base à l’attaque]] complet, auquel on ajoute tous les bonus appropriés à la situation (cet avantage ne se cumule pas avec des effets similaires, tels que ceux d’un sort de ''[[rapidité]]'').
 (((Création)))
 '''Conditions''' [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[rapidité]]'' ; '''Coût''' Bonus de +3
 </div>
@@ -1471,7 +1483,7 @@ Cette propriété s’applique seulement aux armes de corps à corps. Une arme '
 
 
 ===Propriétés ajoutant un bonus de +4===
-<table class="page espace-col deuxcol"><tr><td>
+<table width="100%"><tr><td width="49%">
 {s:Reference|Dansante}
 <div class="BD">
 {s:BDTitre|Dansante|{s:AE}}
@@ -1491,8 +1503,8 @@ Cette propriété s’applique seulement aux arcs. Une fois par [[round]], lorsq
 (((Création)))
 '''Conditions''' [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[tir par ricochet]]'' ; '''Coût''' Bonus de +4
 </div>
-</td>
-<td>
+</td><td width="2%">
+</td><td width="49%">
 {s:Reference|Lumière}
 <div class="BD">
 {s:BDTitre|Lumière|{s:AE}}
@@ -1525,7 +1537,7 @@ Cette propriété s’applique seulement aux armes à distance qui ne provoquent
 
 
 ===Propriétés ajoutant un bonus de +5===
-<table class="page espace-col deuxcol"><tr><td>
+<table width="100%"><tr><td width="49%">
 {s:Reference|Perce-cœur}
 <div class="BD">
 {s:BDTitre|Perce-cœur|{s:WMH}}
@@ -1545,8 +1557,8 @@ Cette propriété spéciale d’arme ne peut être appliquée qu’aux armes de 
 (((Création)))
 '''Conditions''' [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[animation dobjets|animation d’objets]]'' ; '''Coût''' Bonus de +5
 </div>
-</td>
-<td>
+</td><td width="2%">
+</td><td width="49%">
 {s:Reference|Vorpale}
 <div class="BD">
 {s:BDTitre|Vorpale|{s:AE}}

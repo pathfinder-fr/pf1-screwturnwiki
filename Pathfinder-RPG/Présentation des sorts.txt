@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Présentation des sorts
 Title: Présentation des sorts
-LastModified: 2022-09-13 15:15
+LastModified: 2024-07-04 16:10
 Categories:
   - 'Magie'
   - 'Règle officielle'
@@ -237,7 +237,13 @@ Le personnage doit choisir l’endroit où les objets ou créatures sont sensés
 
 {s:Reference|ETENDUE} '''Étendue.''' Certains sorts, notamment les nuages et les brumes, s’étendent à partir d’un point d’origine, qui doit se situer à une intersection sur la grille de jeu. Ils peuvent alors franchir les angles et atteindre des endroits que le personnage est incapable de voir. Lorsqu’on calcule les distances pour un sort à effet d’étendue, contournez les murs, ne les traversez pas. De la même manière que pour un déplacement, on ne peut avancer en diagonale au niveau d’un angle. Le personnage choisit normalement le point d’origine du sort, mais rien ne l’oblige à voir l’ensemble de la zone d’effet (voir ci-dessous).
 
-{s:Reference|RAYON}'''Rayon.''' Certains sorts se traduisent par un rayon d’énergie. Le personnage choisit sa cible comme s’il utilisait une arme à distance, mais il fait généralement une attaque de contact à distance plutôt qu’une attaque à distance normale. Comme avec une arme à distance, le personnage peut tirer dans le noir ou sur un adversaire invisible dans l’espoir de toucher quelque chose. Il n’est pas obligé de voir la créature qu’il souhaite atteindre, contrairement aux sorts à cible. Par contre, un obstacle ou un individu interposé entre le personnage et sa cible peut bloquer son champ de vision ou offrir un abri à sa cible.
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Magie et sorts)#34|→]] Rayons : Est-ce que les rayons comptent comme des armes dans le cadre de sorts et d’effets qui affectent les armes ?'''''
+
+Oui. (Voir également [[FAQ- Manuel des joueurs (Dons et compétences)#30|cette autre FAQ]] pour une question similaire à propos des rayons et des dons affectant les armes.)
+
+Par exemple, l’[[Représentations#INSPIRATIONVAILLANTE|inspiration vaillante]] d’un barde indique qu’elle affecte « les jets de dégâts des armes », et est écrite de cette façon pour qu’on évite d’y inclure un sort comme ''[[boule de feu]]''. En revanche, les __[[Présentation des sorts#RAYON|rayons]]__ sont traités comme des armes, qu’ils proviennent d’un sort, d’une capacité de monstre, d’une capacité de classe, ou de toute autre source, donc le bonus d’inspiration vaillante s’applique aux jets d’attaque et de dégâts des rayons.
+
+La même règle s’applique aux sorts similaires à des armes comme ''[[lame de feu]]'', ''[[épée de force]]'', et ''[[arme spirituelle]]'' – les effets qui affectent les armes fonctionnent sur ces sorts.}{s:Reference|RAYON}'''Rayon.''' Certains sorts se traduisent par un rayon d’énergie. Le personnage choisit sa cible comme s’il utilisait une arme à distance, mais il fait généralement une attaque de contact à distance plutôt qu’une attaque à distance normale. Comme avec une arme à distance, le personnage peut tirer dans le noir ou sur un adversaire invisible dans l’espoir de toucher quelque chose. Il n’est pas obligé de voir la créature qu’il souhaite atteindre, contrairement aux sorts à cible. Par contre, un obstacle ou un individu interposé entre le personnage et sa cible peut bloquer son champ de vision ou offrir un abri à sa cible.
 
 Si le rayon s’accompagne d’une durée, il s’agit du temps pendant lequel l’effet se produit, pas de celle durant laquelle le rayon reste actif.
 
@@ -251,7 +257,9 @@ Quelle que soit la forme que prend la zone d’effet, le personnage choisit son 
 
 Vous pouvez compter les cases en diagonales mais n’oubliez pas qu’une diagonale sur deux compte pour 2 cases. Si le bord le plus éloigné d’une case se trouve dans la zone d’effet, tout ce qui se trouve dans cette case est affecté par le sort. Par contre, si l’effet ne touche que le bord le plus proche de la case, le sort n’affecte rien de ce qui se trouve dedans.
 
-'''Rayonnement, émanation ou étendue.''' La plupart des sorts qui affectent une zone fonctionnent comme un rayonnement, une émanation ou une étendue. Dans chacun des cas, vous déterminez le point d’origine du sort et mesurez son effet en vous en éloignant.
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Magie et sorts)#12|→]] Grandes créatures et effets centrés : Si une créature de taille G ou plus déclenche un effet « centré sur le lanceur », est-ce que l’émanation peut ne pas affecter l’espace entier de la créature, ou même quoi que ce soit d’autre ?'''''
+
+Non, quand une telle créature utilise __[[Présentation des sorts#ZONEDEFFET|une émanation ou un rayonnement]]__ dont la portée est « centrée sur le lanceur », on traite l’espace entier de la créature comme point d’origine, et on mesure la zone d’effet du sort ou du pouvoir depuis les bords de l’espace occupé par la créature. Par exemple, une ''[[zone dantimagie|zone d’antimagie]]'' lancée par un grand dracosire rouge s’étendrait de 3 m au-delà de son espace de 9*9 m, pour un diamètre total de 15 mètres.}'''Rayonnement, émanation ou étendue.''' La plupart des sorts qui affectent une zone fonctionnent comme un rayonnement, une émanation ou une étendue. Dans chacun des cas, vous déterminez le point d’origine du sort et mesurez son effet en vous en éloignant.
 
 {s:Reference|DEFRAYONNEMENT}Un ''rayonnement'' affecte tout ce qui se trouve dans la zone d’effet, y compris les créatures que le lanceur de sorts ne peut voir. En revanche, il n’affecte pas les créatures qui bénéficient d’un abri total vis-à-vis du point d’origine (en d’autres termes, il ne franchit pas les angles). Par défaut, un rayonnement prend la forme d’une sphère, mais certains ressemblent à un cône. Tout sort de ce type s’accompagne d’un rayon qui délimite la zone d’effet du sort.
 
@@ -280,7 +288,6 @@ Nombre de sorts affectent seulement les « créatures vivantes », ce qui exclut
 {s:Reference|DEFFACONNABLE}'''(F) Façonnable.''' Lorsque les indications données dans « Zone d’effet » se terminent par (F), le personnage peut façonner son sort. Dans ce cas, aucune des dimensions du sort ne peut être inférieure à trois mètres. Nombre de zones d’effet sont exprimées en cubes afin de faciliter leur réarrangement en formes irrégulières. Il est bien souvent indispensable d’utiliser des volumes pour définir la zone d’effet d’un sort lancé sous l’eau ou dans les airs.
 
 {s:Reference|LIGNEDEFFET}
-
 ==== Ligne d’effet ====
 Une ligne d’effet est une ligne droite ininterrompue qui détermine tout ce que le sort peut affecter. Elle s’interrompt dès qu’elle rencontre un obstacle solide. Elle ressemble à la ligne de mire des armes à distance mais elle n’est pas bloquée par le brouillard, l’obscurité ou tout autre facteur gênant la vision.
 

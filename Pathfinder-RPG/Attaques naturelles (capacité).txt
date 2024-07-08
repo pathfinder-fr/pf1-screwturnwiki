@@ -1,10 +1,21 @@
 ---
 Name: Pathfinder-RPG.Attaques naturelles (capacité)
 Title: Attaques naturelles
-LastModified: 2017-07-18 17:45
+LastModified: 2024-07-03 18:22
+Categories:
+  - 'Règle de monstres universelle'
 ---
-La plupart des créatures possèdent une ou plusieurs attaques naturelles (c’est-à-dire des attaques effectuées sans l’aide d’une arme fabriquée). Ces attaques sont regroupées en deux catégories : les attaques primaires et les attaques secondaires.
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Combat)#30|→]] Modifications de taille, modifications effectives de la taille, et progression des dés de dégâts : Je suis perdu quant à l’augmentation et la diminution des catégories de dés de dégâts des armes manufacturées et naturelles quand la taille de l’arme ou sa taille effective change. Il y a plusieurs tableaux, et je ne suis pas sûr du quel utiliser.'''''
 
+Quand les dégâts infligés par les __[[Caractéristiques des armes#TAILLEARME|armes]]__ ou les __[[Attaques naturelles (capacité)|attaques naturelles]]__ d’une créature changent à cause d’une modification de sa taille (ou de la taille de son arme), utilisez les règles suivantes pour déterminer les nouveaux dégâts.
+* Si la taille augmente d’une catégorie, trouvez les dégâts originaux sur le tableau et augmentez-les de deux niveaux. Si la taille initiale est P ou moins (ou est traitée comme de taille P ou moins) ou que les dégâts initiaux sont 1d6 ou moins, augmentez les dégâts d’un seul niveau.
+* Si la taille diminue d’une catégorie, trouvez les dégâts originaux sur le tableau et diminuez-les de deux catégories. Si la taille initiale est M ou moins (ou est traitée comme de taille M ou moins) ou que les dégâts initiaux sont 1d8 ou moins, diminuez les dégâts d’un seul niveau.
+* Si le nombre exact de dés originaux ne se trouve pas sur le tableau, appliquez ce qui suit avant d’ajuster les dés de dégâts : si les dégâts sont un nombre de d6, trouvez le nombre de d6 inférieur suivant dans le tableau et utilisez ce nombre en d8 comme dégâts originaux (par exemple, 10d6 seraient traités comme 8d8). Si les dégâts sont un nombre de d8, trouvez le nombre de d8 supérieur suivant dans le tableau et utilisez ce nombre en d6 comme dégâts originaux (par exemple, 5d8 seraient traités comme 6d6). Une fois la nouvelle valeur de dégâts définie, ajustez le nombre de niveaux à passer comme noté ci-dessus.
+* Si le type de dé n’est pas référencé dans le tableau, appliquez les règles suivantes avant d’ajuster les dés de dégâts. 2d4 comptent comme 1d8 dans le tableau, 3d4 comptent comme 2d6 dans le tableau, et ainsi de suite pour les nombres de d4 supérieurs. 1d12 comptent comme 2d6 dans le tableau, et ainsi de suite pour les nombres de d12 supérieurs.
+* Enfin, 2d10 augmentent à 4d8 et diminuent à 2d8, quelque soit la taille initiale, et ainsi de suite pour les nombres de d10 supérieurs.
+
+'''Tableau de progression des dés de dégâts'''  
+1 → 1d2 → 1d3 → 1d4 →1d6 → 1d8 → 1d10 → 2d6 → 2d8 → 3d6 → 3d8 → 4d6 → 4d8 → 6d6 → 6d8 → 8d6 → 8d8 → 12d6 → 12d8 → 16d6}La plupart des créatures possèdent une ou plusieurs attaques naturelles (c’est-à-dire des attaques effectuées sans l’aide d’une arme fabriquée). Ces attaques sont regroupées en deux catégories : les attaques primaires et les attaques secondaires.
 * {s:Reference|PRINCIPALE}Les attaques primaires utilisent le [[BBA|bonus d’attaque de base]] maximum de la créature et lui permettent d’ajouter son bonus de [[Force]] aux [[jet de dégâts|jets de dégâts]].
 * {s:Reference|SECONDAIRE}Les attaques secondaires utilisent le bonus d’attaque de base de la créature –5 et ne lui permettent d’ajouter que la moitié de son bonus de Force aux dégâts.
 * Si une créature ne possède qu’une seule attaque naturelle, celle-ci utilise toujours le bonus d’attaque de base maximum de la créature et lui permet d’ajouter 1,5 fois son bonus de Force aux dégâts. Cette règle ne s’applique pas si la créature dispose de plusieurs attaques mais n’en effectue qu’une seule.

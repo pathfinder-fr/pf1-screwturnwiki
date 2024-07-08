@@ -1,14 +1,19 @@
 ---
 Name: Starfinder.Mécano
 Title: Mécano
-LastModified: 2021-08-02 16:41
+LastModified: 2024-07-04 14:53
 ---
 ''Vous êtes un maître des machines, que cela soit des superordinateurs ultramodernes ou de simples générateurs magnétiques. En comprenant comment marchent ces appareils, vous percevez mieux le monde autour de vous, ce qui vous permet de tirer le meilleur profit de vos équipements, de contourner les protections renforcées et même de prendre le contrôle des systèmes à distance. Vos compétences de programmation vous donnent la possibilité de vous fabriquer un puissant allié, soit une intelligence artificielle intégrée, soit un drone, qui peut vous assister dans différents domaines.
 Si un appareil ou un ordinateur a besoin d’être réparé, piraté ou détruit, c’est à vous qu’on fait appel. Que vous soyez un talentueux scientifique, un ingénieur spécialisé dans les vaisseaux spatiaux ou un technicien de terrain, le combat ne vous est pas étranger mais vous considérez qu’il est beaucoup plus raisonnable que votre IA ou que votre drone combatte à votre place.''
 
+<div class="fright">'''''Voir aussi les [Astuces de mécano|astuces de mécano].'''''<br/>
+'''''Voir aussi les [[Les Drones|les drones]] et [[Les Exocortex|l'Exocortex]].'''''<br/>
+</ul></div>
+<br/>
+
 <center>
 {| CLASS="tablo autoalt"
-|+ L'Émissaire
+|+ Le Mécano
 |- CLASS="titre"
 | Niveau
 | BBA
@@ -22,7 +27,7 @@ Si un appareil ou un ordinateur a besoin d’être réparé, piraté ou détruit
 | +2
 | +2
 | +0
-| CLASS="gauche" | [[Mécano#INTELLIGENCEARTIFICIELLE|Intelligence artificielle]], [[Mécano#INTRUSION|intrusion]] +1, [[Mécano#INTERFACEPERSONNALISÉE|interface personnalisée]]
+| CLASS="gauche" | [[Mécano#INTELLIGENCEARTIFICIELLE|Intelligence artificielle]], [[Mécano#INTRUSION|Intrusion]] +1, [[Mécano#INTERFACEPERSONNALISÉE|Interface personnalisée]]
 |- CLASS="alt"
 | 2
 | +1
@@ -50,7 +55,7 @@ Si un appareil ou un ordinateur a besoin d’être réparé, piraté ou détruit
 | +4
 | +4
 | +1
-| CLASS="gauche" | [[Mécano#INTRUSION|intrusion]] +2, [[Mécano#PIRATAGEÀDISTANCE|piratage à distance]]
+| CLASS="gauche" | [[Mécano#INTRUSION|Intrusion]] +2, [[Mécano#PIRATAGEÀDISTANCE|Piratage à distance]]
 |- CLASS="alt"
 | 6
 | +4
@@ -64,7 +69,7 @@ Si un appareil ou un ordinateur a besoin d’être réparé, piraté ou détruit
 | +5
 | +5
 | +2
-| CLASS="gauche" | [[Mécano#INTERFACESPÉCIALISÉE|Interface spécialisée]], [[Mécano#PRODIGE|prodige]] 1/jour
+| CLASS="gauche" | [[Mécano#INTERFACESPÉCIALISÉE|Interface spécialisée]], [[Mécano#PRODIGE|Prodige]] 1/jour
 |- CLASS="alt"
 | 8
 | +6
@@ -78,7 +83,7 @@ Si un appareil ou un ordinateur a besoin d’être réparé, piraté ou détruit
 | +6
 | +6
 | +3
-| CLASS="gauche" | [[Mécano#INTRUSION|intrusion]] +3, [[Mécano#FORÇAGE|forçage]]
+| CLASS="gauche" | [[Mécano#INTRUSION|Intrusion]] +3, [[Mécano#FORÇAGE|Forçage]]
 |- CLASS="alt"
 | 10
 | +7
@@ -92,7 +97,7 @@ Si un appareil ou un ordinateur a besoin d’être réparé, piraté ou détruit
 | +7
 | +7
 | +3
-| CLASS="gauche" | [[Mécano#ASSAUTCOORDONÉ|Assaut coordonné]] +1, [[Mécano#PRODIGE|prodige]] 2/jour
+| CLASS="gauche" | [[Mécano#ASSAUTCOORDONÉ|Assaut coordonné]] +1, [[Mécano#PRODIGE|Prodige]] 2/jour
 |- CLASS="alt"
 | 12
 | +9
@@ -106,7 +111,7 @@ Si un appareil ou un ordinateur a besoin d’être réparé, piraté ou détruit
 | +8
 | +8
 | +4
-| CLASS="gauche" | [[Mécano#INTERFACEÉVOLUÉE|Interface évoluée]], [[Mécano#INTRUSION|intrusion]] +4
+| CLASS="gauche" | [[Mécano#INTERFACEÉVOLUÉE|Interface évoluée]], [[Mécano#INTRUSION|Intrusion]] +4
 |- CLASS="alt"
 | 14
 | +10
@@ -120,7 +125,7 @@ Si un appareil ou un ordinateur a besoin d’être réparé, piraté ou détruit
 | +9
 | +9
 | +5
-| CLASS="gauche" | [[Mécano#PRODIGE|prodige]] 3/jour
+| CLASS="gauche" | [[Mécano#PRODIGE|Prodige]] 3/jour
 |- CLASS="alt"
 | 16
 | +12
@@ -134,7 +139,7 @@ Si un appareil ou un ordinateur a besoin d’être réparé, piraté ou détruit
 | +10
 | +10
 | +5
-| CLASS="gauche" | [[Mécano#INTRUSION|intrusion]] +5, [[Mécano#RÉSEAUDECONTRÔLE|réseau de contrôle]], [[Mécano#ASSAUTCOORDONÉ|Assaut coordonné]] +2
+| CLASS="gauche" | [[Mécano#INTRUSION|Intrusion]] +5, [[Mécano#RÉSEAUDECONTRÔLE|Réseau de contrôle]], [[Mécano#ASSAUTCOORDONÉ|Assaut coordonné]] +2
 |- CLASS="alt"
 | 18
 | +13
@@ -148,14 +153,14 @@ Si un appareil ou un ordinateur a besoin d’être réparé, piraté ou détruit
 | +11
 | +11
 | +6
-| CLASS="gauche" | [[Mécano#FANTÔMEDANSLAMACHINE|Fantôme dans la machine]], [[Mécano#PRODIGE|prodige]] 4/jour, [[Mécano#INTERFACESUPÉRIEURE|interface supérieure]]
+| CLASS="gauche" | [[Mécano#FANTÔMEDANSLAMACHINE|Fantôme dans la machine]], [[Mécano#PRODIGE|Prodige]] 4/jour, [[Mécano#INTERFACESUPÉRIEURE|Interface supérieure]]
 |- CLASS="alt"
 | 20
 | +15
 | +12
 | +12
 | +6
-| CLASS="gauche" | [[Mécano#INTRUSION|intrusion]] +6, [[Mécano#ASTUCEDEMÉCANO|Astuce de mécano]], [[Mécano#MAÎTRISETOTALE|Maîtrise totale]]
+| CLASS="gauche" | [[Mécano#INTRUSION|Intrusion]] +6, [[Mécano#ASTUCEDEMÉCANO|Astuce de mécano]], [[Mécano#MAÎTRETECHNITIEN|Maître technicien]]
 |}
 </center>
 
@@ -183,46 +188,106 @@ Les aptitudes du Mécano sont décrites ci-dessous.
 '''Maniement des armes :''' Armes de corps à corps simples, grenades, armes légères
 
 
-====Intelligence artificielle (EXT)- Niveau 1====
+===={s:Reference|INTELLIGENCEARTIFICIELLE}Intelligence artificielle (EXT)- Niveau 1====
 Vous confectionnez une intelligence artificielle (ou IA), un programme perfectionné aux codes autonomes auquel vous pouvez accéder pour vous aider dans différentes tâches. Cette IA est le produit de votre propre génie, bien plus évoluée et complexe que celles que l’on trouve sur le marché (bien qu’il ne s’agisse pas d’une entité pleinement consciente) et seul vous connaissez les secrets de sa création et de son fonctionnement. Votre IA peut prendre une des deux formes
 suivantes : un drone ou un exocortex. Vous devez choisir une de ces formes dès votre premier niveau de mécano et une fois que ce choix est fait, il est irrévocable.
 
-*Drone
+*[Les drones|Drone]
 Vous commencez le jeu avec un puissant drone robotique qui abrite votre IA. Vous construisez et contrôlez le drone qui vous accompagne au cours de vos aventures et qui est capable de combattre, d’espionner ou d’effectuer d’autres tâches spécialisées. En gagnant des niveaux, votre drone devient plus sophistiqué et obtient de nouveaux pouvoirs.
 Bien que votre drone ait une immense valeur, vous êtes le seul qui ait les connaissances suffisantes de ses particularités et des mesures de sécurité qui le protègent pour pouvoir vous en servir ou pour le réparer. 
 
-*Exocortex
+*[Les Exocortex|Exocortex]
 Vous commencez le jeu avec un exocortex, un processeur artificiel qui interagit avec les fonctions cognitives de votre cerveau biologique et les amplifie. Ceci vous aide dans différents domaines, allant du combat à l’infiltration numérique. À l’instar d’un implant cybernétique, votre exocortex est implanté dans votre corps ou dans votre cerveau, ce qui permet à votre IA d’avoir accès à votre esprit et de vous transmettre des informations. En gagnant des niveaux, votre exocortex
-devient plus sophistiqué et gagne en puissance de calcul.Vous êtes le seul à pouvoir accéder et interagir avec votre exocortex.
+devient plus sophistiqué et gagne en puissance de calcul. Vous êtes le seul à pouvoir accéder et interagir avec votre exocortex.
 
-====Interface personnalisée (EXT) - Niveau 1====
+
+===={s:Reference|INTERFACEPERSONNALISÉE}Interface personnalisée (EXT) - Niveau 1====
 Vous avez conçu un outil personnalisé que vous pouvez utiliser pour pirater un système ou un appareil. Votre interface personnalisée peut être configurée pour être installée sur un emplacement d’amélioration de votre armure ou pour être installée comme un système d’augmentation cybernétique dans votre cerveau (bien qu’on puisse la combiner avec un datajack au même coût que l’installation d’un datajack normal), dans vos yeux ou sur un bras. Vous pouvez aussi la configurer pour qu’elle soit un petit appareil, ce qui implique que vous devez vous en équiper et le tenir en main pour l’utiliser efficacement.
 En utilisant cette interface, on considère que vous avez toujours les bons outils ou le kit de base pour tous les tests d’Informatique ou d’Ingénierie que vous tentez. Certaines astuces de mécano et certains modules de drones nécessitent l’utilisation d’une interface personnalisée. De plus, vous pouvez utiliser votre interface personnalisée comme un communicateur individuel. Enfin, si vous avez un drone, vous pouvez utiliser votre interface personnalisée pour communiquer avec lui sur un canal crypté, afin de donner des instructions à son IA ou pour le contrôler directement sur une portée de 760 mètres.
 Si votre interface personnalisée est endommagée, détruite, perdue ou volée, vous pouvez en bricoler une nouvelle à partir de n’importe quelle trousse d’ingénierie, de piratage ou d’autres trousses à outils technologiques. En une heure de travail, vous reconfigurez le matériel en une nouvelle interface personnalisée. Vous ne pouvez disposer que d’une seule interface personnalisée à la fois. Si vous en créez une nouvelle, l’ancienne fonctionne comme une trousse à outils normale du type utilisé pour la fabriquer et elle ne peut plus être utilisée avec vos astuces de mécano.
 
-====Intrusion (EXT) - Niveau 1====
+===={s:Reference|INTRUSION}Intrusion (EXT) - Niveau 1====
 Vous êtes doué pour vous infiltrer dans les systèmes informatiques et électroniques. Au niveau 1, vous gagnez un bonus d’intuition de +1 pour vos tests d’Informatique et d’Ingénierie. Au niveau 5, puis tous les 4 niveaux supplémentaires ainsi qu’au niveau 20, ce bonus augmente de 1 point.
 
-====Astuce de mécano - Niveau 2====
+===={s:Reference|ASTUCEDEMÉCANO}Astuce de mécano - Niveau 2====
 En gagnant de l’expérience, vous apprenez des astuces qui vous permettent d’accomplir des merveilles d’ingénierie, de vous aider à pénétrer les systèmes électroniques et à optimiser vos équipements.
 Bien que certaines de ces astuces soient des choses que vous apprenez, d’autres sont des petites améliorations cybernétiques que vous vous fabriquez (aucune n’a un coût ou ne compte pour votre limite d’augmentations). Certaines astuces nécessitent l’utilisation d’une interface personnalisée ou d’autres outils.
-Vous apprenez votre première astuce de mécano au niveau 2 et vous en apprenez une de plus au niveau 4 puis tous les 2 niveaux
-suivants. Si une astuce de mécano autorise un jet de sauvegarde pour qu’un adversaire résiste à ses effets, le DD est égal à 10 + la moitié de votre niveau de mécano + votre modificateur d’Intelligence. Si une astuce de mécano nécessite que votre adversaire effectue un test de compétence, le DD est égal à 10 + 1,5 × votre niveau de classe + votre modificateur d’Intelligence.
+Vous apprenez votre première [[Astuces de mécano|astuce de mécano]] au niveau 2 et vous en apprenez une de plus au niveau 4 puis tous les 2 niveaux
+suivants. Si une [[Astuces de mécano|astuce de mécano]] autorise un jet de sauvegarde pour qu’un adversaire résiste à ses effets, le DD est égal à 10 + la moitié de votre niveau de mécano + votre modificateur d’Intelligence. Si une [[Astuces de mécano|astuce de mécano]] nécessite que votre adversaire effectue un test de compétence, le DD est égal à 10 + 1,5 × votre niveau de classe + votre modificateur d’Intelligence.
 
 À moins que le contraire ne soit précisé, vous ne pouvez apprendre la même astuce plus d’une fois.
 
-====SPÉCIALISATION MARTIALE (EXT) Niveau 3====
+
+===={s:Reference|SPECIALISATIONMARTIALE}Spécialisation martiale (EXT) Niveau 3====
 Vous obtenez le don bonus de Spécialisation martiale pour chaque type d’armes que vous savez manier grâce à cette classe.
 
-====Surcharge (EXT) Niveau 3====
+===={s:Reference|SURCHARGE}Surcharge (EXT) Niveau 3====
 En tant qu’action simple, vous pouvez court-circuiter un appareil électronique, ce qui inclut la plupart des armes de tir à énergie, les armes de corps à corps avec la propriété spéciale alimentée ou une amélioration d’armure. L’appareil tombe en panne pendant 1 round.
 Une surcharge ne permet pas d’ouvrir une porte verrouillée, un coffre ou à un autre appareil mais cet effet empêche qu’on puisse l’ouvrir pendant 1 round. Vous devez être adjacent à l’appareil pour utiliser ce pouvoir. Si vous disposez d’un drone, vous pouvez utiliser ce pouvoir sur un appareil électronique adjacent au drone. Si vous avez un exocortex avec la capacité piratage sans fil, vous pouvez l’utiliser sur n’importe quel appareil électronique à portée de ce pouvoir. Si vous utilisez surcharge sur un objet ou une amélioration d’armure de quelqu’un, le propriétaire peut tenter un jet de Réflexes pour en annuler les effets (DD = 10 + la moitié de votre niveau de mécano + votre modificateur d’Intelligence). Surcharge n’affecte pas les androïdes, les appareils cybernétiques, les drones, les armures assistées, les robots ou les créatures avec le sous-type technologique (qui disposent tous d’une protection contre ce type d’attaque) ou des objets plus grands qu’une taille M. Une fois qu’un appareil a été surchargé avec succès, une charge statique résiduelle l’empêche d’être de nouveau surchargé pendant 1 minute.
 
-====Piratage À distance (EXT) Niveau 5====
+===={s:Reference|PIRATAGEÀDISTANCE}Piratage À distance (EXT) Niveau 5====
 Vous pouvez utiliser votre interface personnalisée pour tenter des tests d’Informatique ou d’Ingénierie à une distance de 6 mètres. Au niveau 7 puis tous les 2 niveaux supplémentaires, cette portée augmente de 3 mètres. La cible de ce pouvoir (ou une créature observant ou s’occupant de votre cible) peut tenter un test de Perception ou de Psychologie (DD = 10 + 1,5 × votre niveau de mécano + votre modificateur d’Intelligence) pour savoir que vous êtes à l’origine de cette activité.
 
-====Interface spécialisée (EXT) Niveau 7====
+===={s:Reference|INTERFACESPÉCIALISÉE}Interface spécialisée (EXT) Niveau 7====
 Votre interface personnalisée est améliorée. À chaque fois que vous l’utilisez pour pirater un ordinateur, vous pouvez également désactiver une des contre-mesures installées dans le système (sauf les pare-feu).
 De plus, votre interface personnalisée peut désormais être utilisée comme n’importe quelle trousse d’ingénierie ou de piratage avec un niveau d’objet de niveau 6 ou moins. De plus, elle dispose des caractéristiques d’un ordinateur d’un échelon égal à la moitié de votre niveau avec les modules d’amélioration personnalité artificielle, blindage ou sécurité I. Elle est également dotée d’un enregistreur vidéo et audio.
 Vous pouvez ajouter des modules ou des contre-mesures supplémentaires au prix normal.
 Vous pouvez également utiliser votre interface personnalisée pour communiquer sur une distance de 8 km avec votre vaisseau par le biais d’un canal crypté, ce qui vous permet d’avoir accès aux bases de données de votre vaisseau et à son transpondeur. Si vous avez un drone, vous lui donnez des ordres ou vous le commandez directement sur la même distance.
+
+===={s:Reference|PRODIGE}Prodige (EXT) Niveau 7====
+En tant qu’action de mouvement, vous pouvez réparer les dommages infligés aux systèmes d’un vaisseau spatial ou faire en sorte qu’une armure, ou qu’une arme fonctionne mieux. Pour utiliser ce pouvoir, vous devez pouvoir avoir accès à l’équipement sans entrave. Vous pouvez utiliser ce pouvoir une fois par jour au niveau 7, plus une fois supplémentaire tous les 4 niveaux de mécano supérieurs à 7. L’effet exact de ce pouvoir dépend de l’objet ou du système que vous tentez de modifier.
+*Armure : bonus d’altération de +2 à la CAE et à la CAC d’une armure pendant 1 minute.
+*Arme : bonus d’altération de +2 aux jets d’attaque et de dégâts d’une arme pendant 1 minute.
+*Vaisseau endommagé : vous pouvez réparer un nombre de points de structure égal au facteur de PS de l’armature de base du vaisseau. Si cela augmente les PS du vaisseau à une valeur multiple de son Seuil critique, vous pouvez réparer les dégâts critiques d’un système pour chaque multiple en réduisant leur sévérité d’un cran.
+Par exemple, si le Seuil critique de votre vaisseau est de 8 et que vous réparez 10 PS, réduisant les dommages infligés à sa structure de 17 à 7, vous pouvez modifier l’état d’un système de « détruit » à « dysfonctionnement ». Utiliser ce pouvoir au cours d’un combat spatial est votre action du tour et vous ne pouvez l’effectuer qu’au cours de la phase d’ingénierie. Voir page 292 pour plus d’informations sur la construction des vaisseaux et page 320 pour les dégâts infligés aux vaisseaux.
+
+===={s:Reference|FORÇAGE}Forçage (EXT) Niveau 9====
+Votre aptitude surcharge affecte désormais les androïdes, les drones, les robots et les créatures avec le sous-type technologique. Ils doivent donc réussir un jet de Volonté (DD = 10 + la moitié de votre niveau de mécano + votre modificateur d’Intelligence) ou être hébétés pendant 1 round. Si la cible rate son jet de sauvegarde d’au moins 10 points, elle n’est pas hébétée et vous pouvez contrôler ses actions pendant 1 round. Vous ne pouvez cependant pas lui demander de faire
+quelque chose qui est, de toute évidence, suicidaire. Une fois qu’une créature a tenté un jet de sauvegarde contre cette attaque (quel que soit le résultat), elle ne peut plus y être soumise avant 24 heures.
+
+===={s:Reference|ASSAUTCOORDONÉ}Assaut coordonné (EXT) Niveau 11====
+Si vous avez un drone, quand vous attaquez la même cible, vous bénéficiez tous les deux d’un bonus de circonstances de +1 à vos jets d’attaque. Si vous avez un exocortex, quand vous tentez de pirater un système ensemble, vous bénéficiez chacun d’un bonus de circonstances de +1 à vos tests pour y accéder. Dans les deux cas, ce bonus passe à +2 au niveau 17.
+
+===={s:Reference|INTERFACEÉVOLUÉE}Interface évoluée (EXT) Niveau 13====
+La fonction ordinateur de votre interface personnalisée est dotée d’une contre-mesure bonus sous la forme d’un pare-feu (voir page 217). Ce pare-feu ne vous coûte rien, ne compte pas dans le nombre maximum de contre-mesures que peut posséder votre interface et peut protéger un module ou un groupe de modules déjà protégés par un pare-feu.
+Vous pouvez également utiliser votre interface personnalisée pour communiquer sur une distance de 80 km avec votre vaisseau par le biais d’un canal crypté, ce qui vous permet d’avoir accès aux détecteurs de votre vaisseau, de contrôler ses systèmes de sécurité et de le préparer au décollage (en plus de pouvoir utiliser les fonctions de communications cryptées de votre interface évoluée). Si vous avez un drone, vous lui donnez des ordres ou vous le commandez directement par le biais d’un canal crypté à la même portée.
+
+===={s:Reference|RÉSEAUDECONTRÔLE}Réseau de contrôle (EXT) Niveau 17====
+<div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+<center>
+{| CLASS="tablo"
+|- CLASS="titre"
+| '''NIVEAUX ASSIGNÉS'''
+| '''BONUS DE BASE À L’ATTAQUE'''
+|- CLASS="premier"
+| 1–4
+| +1
+|- CLASS="alt"
+| 5-8
+| +2
+|- 
+| 9–12
+| +3
+|- CLASS="alt"
+| 13–16
+| +4
+|- 
+| 17–20
+| +5
+|}
+</center>
+</div></div>
+Vous êtes capable d’utiliser plusieurs IA, une dans un [Les drones|drone] et une dans un [Les Exocortex|exocortex]. Vous devez répartir vos niveaux de mécano entre ces différentes IA et chacune d’elles gagne des capacités en fonction du niveau assigné. À chaque fois que vous gagnez un niveau de mécano, vous pouvez modifier la répartition des niveaux entre les IA en utilisant votre interface personnalisée et en y travaillant sans interruption pendant 24 heures. Bien que les IA puissent agir de manière autonome, dans la limite de leurs possibilités, vous pouvez les contrôler normalement (bien que vous ne puissiez contrôler directement
+qu’une seule IA à la fois). Si le niveau assigné à votre exocortex est inférieur à votre niveau de mécano, le bonus de base à l’attaque en utilisant verrouillage de cible (voir page 87) accordé par votre exocortex est réduit comme cela est indiqué dans le tableau ci-dessous. Comme d’habitude, vous gagnez de nouveaux pouvoirs pour votre [Les Exocortex|exocortex], telles que piratage sans fil et multitâches, en vous basant sur le niveau que vous lui avez assigné.
+
+
+===={s:Reference|FANTÔMEDANSLAMACHINE}Fantôme dans la machine (EXT) Niveau 19====
+Quand vous utilisez votre aptitude forçage pour affecter un androïde, un drone, un robot ou une créature avec le sous-type technologique, si votre cible rate son jet de sauvegarde elle n’est pas hébétée mais vous pouvez contrôler ses actions au round suivant. Ces actions ne peuvent être spécifiquement suicidaires. Une fois qu’une créature a tenté un jet de sauvegarde contre cette attaque (quel que soit le résultat), elle ne peut plus y être soumise avant 24 heures, à moins que vous ne dépensiez 1 point de persévérance. Vous pouvez continuer de dépenser des points de persévérance de cette manière une fois par round pour que la créature soit de nouveau vulnérable à l’aptitude forçage.
+
+===={s:Reference|INTERFACESUPÉRIEURE}Interface supérieure (EXT) Niveau 19====
+La fonction ordinateur de votre interface personnalisée est désormais gratuitement dotée des contre-mesures verrouillage et purge. Vous pouvez utiliser votre interface personnalisée normalement, même quand son verrouillage est actif (vous avez un accès spécial que personne d’autre ne peut utiliser dans aucune circonstance) et alors qu’aucune donnée effacée ne peut être récupérée par quiconque (puisque les modules de données ont été détruits), vous pouvez les récupérer en y travaillant pendant 8 heures.  Ces contre-mesures ne vous coûtent rien et ne comptent pas dans le nombre maximum de contre-mesures que peut posséder votre interface. Vous pouvez également utiliser votre interface personnalisée pour communiquer avec votre vaisseau par le biais d’un canal crypté, à l’échelle d’une planète et de son orbite proche, ce qui vous permet de le piloter à distance sur cette planète ou à partir de son orbite (en plus de pouvoir utiliser les fonctions de communications cryptées de votre interface spécialisée ou évoluée sur la même portée). Si vous avez un drone, vous lui donnez des ordres ou vous le commandez directement par le biais d’un canal crypté sur la même distance.
+
+===={s:Reference|MAÎTRETECHNITIEN}Maître technicien (EXT) Niveau 20====
+Vous être un maître de la technologie. Vous pouvez dépenser 1 point de persévérance pour bricoler n’importe quelle arme, armure ou objet technologique en 1 minute par niveau de l’objet. Vous pouvez aussi dépenser 1 point de persévérance pour convertir une arme ou une armure technologique existante en une autre armure ou une autre arme d’une valeur égale ou inférieure, en 1 minute par niveau de l’objet. On utilise pour cela les règles normales de fabrication présentées page 235 mais l’objet converti compte à sa pleine valeur pour déterminer le coût des composants de fabrication. Vous ne pouvez convertir une arme à une main en une arme à deux mains. Quand vous convertissez un objet en un objet moins coûteux, vous ne récupérez pas la différence du coût qui est perdu même quand vous le reconvertissez dans sa forme d’origine.
+

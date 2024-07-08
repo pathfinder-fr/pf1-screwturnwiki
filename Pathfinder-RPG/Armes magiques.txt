@@ -1,19 +1,17 @@
 ---
 Name: Pathfinder-RPG.Armes magiques
 Title: Les armes magiques
-LastModified: 2023-10-30 12:07
+LastModified: 2024-07-01 17:52
 Categories:
   - 'Objet mag arme'
   - 'Src Armes et équipement'
   - 'Src Manuel des joueurs - Règles avancées'
   - 'Src Manuel des races'
 ---
-{s:MenuObjetsMagiques}{s:Reference|BONUSALTERATION}{s:Desambi|Les [[armures magiques|armures et boucliers magiques]] possèdent également un bonus d'altération.}{toc}Une arme magique sert à atteindre plus souvent sa cible et à lui infliger plus de dommages. Les armes magiques sont dotées d’un bonus d’altération allant de +1 à +5, bonus qui s’ajoute aux [[jet dattaque|jets d’attaque]] et de dégâts de leur utilisateur. Elles sont également toutes des armes [[Armes de maître|de maître]], mais le bonus que cette qualité leur fournit ne s’ajoute pas à leur bonus d’altération.
-
+{s:MenuObjetsMagiques}{toc}
 <div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
 <div style="border: 1px solid #4b3124; padding: 4px">
-<center>
-{| CLASS="tablo centre"
+{| CLASS="tablo centre autoalt"
 |+ {s:Reference|PRIXBONUSDALTERATION} Prix des bonus d'altération des armes
 |- CLASS="titre"
 | Bonus d'altération
@@ -21,31 +19,31 @@ Categories:
 |- CLASS="premier"
 | +1 
 | 2 000 po
-|- CLASS="alt"
+|-
 | +2 
 | 8 000 po
 |-
 | +3 
 | 18 000 po
-|- CLASS="alt"
+|-
 | +4 
 | 32 000 po
 |-
 | +5 
 | 50 000 po
-|- CLASS="alt"
+|-
 | +6<sup>[[armes magiques#NOTE2|2]]</sup> 
 | 72 000 po
 |-
 | +7<sup>[[armes magiques#NOTE2|2]]</sup> 
 | 98 000 po
-|- CLASS="alt"
+|-
 | +8<sup>[[armes magiques#NOTE2|2]]</sup> 
 | 128 000 po
 |-
 | +9<sup>[[armes magiques#NOTE2|2]]</sup> 
 | 162 000 po
-|- CLASS="alt"
+|-
 | +10<sup>[[armes magiques#NOTE2|2]]</sup> 
 | 200 000 po
 |- CLASS="note"
@@ -53,7 +51,21 @@ Categories:
 |- CLASS="note" 
 | COLSPAN="2" | {s:Reference|NOTE2}''(2) Le bonus numérique effectif de l’arme ne peut être supérieur à +5. <br> Utilisez ces lignes pour déterminer le prix des armes possédant des <br> propriétés spéciales.''
 |}
-</center></div></div>
+</div></div>
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Équipement et objets magiques)#7|→]] Armes à distance magiques et munitions : Lorsqu’une arme à distance transmet son bonus d’altération à ses munitions, est-ce qu’il compte comme un « vrai » bonus d’altération ou plus comme un bonus temporaire similaire à celui d’''arme magique suprême'' ? Autrement dit, est-ce que le bonus d’altération transmit permet à la flèche d’ignorer la réduction de dégâts comme si elle était en fer froid, en argent, en adamantium, et alignée ?'''''
+
+Non, au-delà des moyens décrits dans le ''Manuel des joueurs'' (si l’arme à distance est au moins +1, les munitions comptent comme étant magiques, et si l’arme à distance est alignée elles comptent comme étant de cet alignement aussi) le __[[Armes magiques|bonus d’altération]]__ transmit par l’arme à distance aux munitions ne les aident pas à ignorer tout autre type de réduction de dégâts. Les archers et les personnages similaires peuvent acheter plusieurs sortes de munitions ou des munitions avec un bonus d’altération plus élevé pour surpasser les différents types de réductions de dégâts.
+<hr>
+'''''[[FAQ- Manuel des joueurs (Équipement et objets magiques)#16|→]] Bonus aux armes : Est-ce que les propriétés spéciales d’arme (comme ''tueuse'') ou les capacités de classe (comme le pacte divin du paladin) permettent de dépasser le bonus d’altération limite de +5 et la limitation de bonus équivalent à +10 ?'''''
+
+Pour la limitation du __[[Armes magiques|bonus d’altération]]__, cela dépend de l’effet spécifique ou de la capacité qui modifie l’arme.
+
+''[[tueuse (propriété)|Tueuse]]'' : Elle permet à l’arme de dépasser la limite de +5, mais uniquement contre le type de créature choisi. Par exemple, une ''épée longue tueuse de dragons +5'' est normalement une arme +5, mais a un bonus d’altération de +7 contre les dragons et inflige +2d6 points de dégâts contre les dragons.
+
+Paladin : La capacité [[Paladin#PACTEDIVIN|pacte divin]] dit « Ces bonus peuvent être ajoutés directement à l’arme et cumulés avec les bonus qu’elle possède déjà et ce jusqu’à un maximum de +5. ». Cela signifie que si un paladin possède une ''épée longue +5'', il ne peut pas utiliser son pacte divin pour passer le bonus d’altération à +6 ou plus (mais il peut utiliser ces bonus pour ajouter des propriétés spéciales comme ''[[feu (propriété)|feu]]'' à l’arme).
+
+La limitation de bonus équivalent à +10 est un cap définitif pour toutes les armes ; il est impossible de le dépasser même avec des capacités de classes ou d’autres pouvoirs inhabituelles.}Une arme magique sert à atteindre plus souvent sa cible et à lui infliger plus de dommages. Les armes magiques sont dotées d’un bonus d’altération allant de +1 à +5, bonus qui s’ajoute aux [[jet dattaque|jets d’attaque]] et de dégâts de leur utilisateur. Elles sont également toutes des armes [[Armes de maître|de maître]], mais le bonus que cette qualité leur fournit ne s’ajoute pas à leur bonus d’altération.
+
 On trouve deux catégories d’armes : celles de corps à corps et celles à distance (comprenant les armes de jet et les armes à projectiles). Certaines armes de corps à corps peuvent également être utilisées en tant qu’armes à distance. Dans ce cas, leur bonus d’altération compte, quel qu’en soit l’usage.
 
 Une arme peut, en plus de son bonus d’altération, posséder certaines propriétés. Celles-ci sont considérées comme un bonus supplémentaire pour ce qui est du prix de l’arme, mais elles ne modifient pas son bonus à l’attaque ou aux dégâts (sauf indication contraire). Aucune arme ne peut avoir un bonus total (bonus d’altération plus équivalences dues aux propriétés, y compris celles qui proviennent des aptitudes du personnage et des sorts) supérieur à +10. Toute arme ayant une propriété spéciale doit avoir au moins un bonus d’altération de +1. Les armes ne peuvent posséder la même propriété spéciale plus d'une fois.

@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Artisanat
 Title: Artisanat
-LastModified: 2024-02-08 16:50
+LastModified: 2024-07-01 18:33
 Categories:
   - 'Compétence'
 ---
@@ -20,10 +20,11 @@ alchimie, arcs, armes, armures, bijoux, calligraphie, constructions en bois (ou 
 Chaque forme de la compétence d’Artisanat vise à créer quelque chose. Si un travail n’a pas pour résultat final la production de quelque chose, c’est sans doute plutôt une forme de Profession.
 
 ===Test de compétence===
-
 Le personnage peut vivre de son artisanat, auquel cas il gagne un nombre de pièces d’or égal à la moitié du résultat de son [[test de compétence]] pour chaque semaine entièrement consacrée au travail. Il sait comment utiliser au mieux les outils de sa spécialité, accomplir les tâches habituelles, superviser le travail de la main-d’œuvre et régler les problèmes courants (les assistants et ouvriers non-qualifiés sont payés en moyenne 1 pa par jour).
 
-Mais l’utilité principale de cette compétence est de permettre au personnage de fabriquer un objet correspondant à la branche d’artisanat choisie. Le [[DD]] dépend de la complexité de l’objet créé. Le temps nécessaire à la fabrication est déterminé par le [[DD]], le résultat du test de compétence et le prix de l’objet (ce dernier indique également le prix des matières premières nécessaires à la fabrication de l’objet).
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Équipement et objets magiques)#28|→]] Multiplicateurs de coût pour les objets : Lorsqu’un objet a un multiplicateur de coût, par exemple pour sa taille, sa forme inhabituelle, ou sa composition, est-ce qu’il s’applique avant ou après les coûts additionnels comme celui d’un objet de maître ou de l’utilisation d’un matériau spécial ?'''''
+
+On ajoute d’abord le coût total de l’objet de base, en incluant tout matériau spécial. Puis on le multiplie par tout multiplicateur impliquant la taille et la forme inhabituelle sur la [[Caractéristiques des armures#ARMURESINHABITUELLES|table 6-8]]. Ensuite, on ajoute le coût additionnel d’un objet de maître, s’il ne fait pas déjà partie du matériau spécial. Enfin, on applique tout multiplicateur pour la réduction de prix comme le multiplicateur de coût de 1/3 d’une fabrication d’objet. Par exemple, une [[chemise de mailles (armure)|chemise de mailles]] coûte 100 po et une chemise de mailles en [[mithral]] coûte 1.100 po après l’ajout de +1.000 po pour le mithral. Si on applique le multiplicateur de coût de 1/3 d’une fabrication d’objet avec la compétence __[[Artisanat]]__, le multiplicateur de coût de la table 6-8 basé sur la taille et le type de carrure, ou les deux, on applique ces multiplicateurs au coût total de 1.100 po de la chemise de mailles en mithral. Cela signifie qu’une chemise de mailles en mithral fabriquée pour un géant des runes coûte 8.800 po et une chemise de mailles en mithral fabriquée pour la tarasque coûte 35.200 po. D’autre part, une [[épée à deux mains (arme)|épée à deux mains]] de taille G de maître en [[fer froid]] coûte 500 po (50 po pour l’épée à deux mains, doublé pour le fer froid, doublé à nouveau pour la taille G, puis additionné au coût d’une arme de maître en dernier puisqu’il n’est pas inclus dans le fer froid).}Mais l’utilité principale de cette compétence est de permettre au personnage de fabriquer un objet correspondant à la branche d’artisanat choisie. Le [[DD]] dépend de la complexité de l’objet créé. Le temps nécessaire à la fabrication est déterminé par le [[DD]], le résultat du test de compétence et le prix de l’objet (ce dernier indique également le prix des matières premières nécessaires à la fabrication de l’objet).
 
 Dans certains cas, il est possible d’utiliser le sort ''[[fabrication]]'' pour obtenir le même résultat que si on avait utilisé la compétence d’Artisanat, mais sans qu’aucun test soit nécessaire. Dans le cas d’objets requérant une grande maîtrise, il reste cependant nécessaire de réussir un test d’Artisanat.
 
@@ -53,48 +54,47 @@ Pour déterminer le temps et le coût de fabrication d’un objet, il faut suivr
 {s:Reference|REPARATIONDOBJET}
 '''Réparation d’objets.''' En règle générale, on répare un objet en réussissant un [[test de compétence]] dont le [[DD]] est le même que celui de la fabrication. Le coût de la réparation se monte à un cinquième du prix de l’objet.
 
-<center>
-{| CLASS="tablo"
+{| CLASS="tablo centre autoalt"
 |+ Formes d’Artisanat
 |- CLASS="titre"
 | Objet || Forme d’artisanat || DD du test d’Artisanat
 |- CLASS="premier"
 | [[Armes alchimiques#Acide|acide]] || alchimie || 15
-|- CLASS="alt"
+|-
 | [[Outils alchimiques#Allume-feu|allume-feu]], [[Outils alchimiques#Bâton fumigène|bâton fumigène]] ou [[Armes alchimiques#Feu grégeois|feu grégeois]] || alchimie || 20
 |-
 | [[Remèdes alchimiques#Antitoxine|antitoxine]], [[Outils alchimiques#Bâton éclairant|bâton éclairant]], [[Armes alchimiques#Pierre tonnerre|pierre tonnerre]] ou [[Armes alchimiques#Sacoche immobilisante|sacoche immobilisante]] || alchimie || 25
-|- CLASS="alt"
+|-
 | [[tableau récapitulatif des armures|armure ou bouclier]] || armures || 10 + bonus de [[CA]]
 |-
 | [[tableau récapitulatif des armes|arc long, arc court ou flèches]] || arcs || 12
-|- CLASS="alt"
+|-
 | [[tableau récapitulatif des armes|arc long composite ou arc court composite]] || arcs || 15
 |-
 | [[tableau récapitulatif des armes|arc long composite ou arc court composite avec une limite de Force]] || arcs || 15 + (2 × limite)
-|- CLASS="alt"
+|-
 | [[Conception de pièges|piège mécanique]] || pièges || variable*
 |-
 | [[tableau récapitulatif des armes|arbalète ou carreaux]] || armes || 15
-|- CLASS="alt"
+|-
 | [[tableau récapitulatif des armes|arme courante]] (corps à corps ou à distance) || armes || 12
 |-
 | [[tableau récapitulatif des armes|arme de guerre]] (corps à corps ou à distance) || armes || 15
-|- CLASS="alt"
+|-
 | [[tableau récapitulatif des armes|arme exotique]] (corps à corps ou à distance) || armes || 18
 |-
 | objet très simple (cuillère en bois) || variable || 5
-|- CLASS="alt"
+|-
 | objet courant (pot de fer) || variable || 10
 |-
 | objet de qualité (cloche) || variable || 15
-|- CLASS="alt"
+|-
 | objet complexe ou de qualité supérieure (serrure) || variable || 20
 |-
 | Arme fragile 
 | Arme ou arc normal
 | -5
-|- CLASS="alt"
+|-
 | Arme à feu à une main 
 | Arme à feu 
 | 20
@@ -102,7 +102,7 @@ Pour déterminer le temps et le coût de fabrication d’un objet, il faut suivr
 | Arme à feu à deux mains 
 | Arme à feu
 | 20
-|- CLASS="alt"
+|-
 | Arme à feu de siège lourde
 | Arme à feu
 | 25
@@ -110,7 +110,7 @@ Pour déterminer le temps et le coût de fabrication d’un objet, il faut suivr
 | Arme à feu de siège intermédiaire
 | Arme à feu
 | 30
-|- CLASS="alt"
+|-
 | Arme à feu de siège légère
 | Arme à feu
 | 35
@@ -118,7 +118,7 @@ Pour déterminer le temps et le coût de fabrication d’un objet, il faut suivr
 | Engin de siège à distance lourd
 | Engin de siège
 | 20
-|- CLASS="alt"
+|-
 | Engin de siège à distance intermédiaire
 | Engin de siège
 | 25
@@ -129,7 +129,6 @@ Pour déterminer le temps et le coût de fabrication d’un objet, il faut suivr
 |-
 | COLSPAN="3" CLASS="note" | ''(*) Des règles spécifiques régissent la création des [[Conception de pièges|pièges]].''
 |}
-</center>
 
 ===Action===
 

@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Actions spéciales
 Title: Actions spéciales
-LastModified: 2021-09-01 13:38
+LastModified: 2024-07-03 17:36
 Categories:
   - 'Combat'
 ---
@@ -18,7 +18,15 @@ Cette [[action simple]] permet également d’aider un ami différemment, par ex
 
 {s:Reference|ARMEASPERSION}
 === Lancer une arme à aspersion ===
-On appelle arme à aspersion toute arme à distance qui se brise ou se déchire au moindre choc, pour répandre son contenu sur sa cible et les créatures ou objets alentours. Le résultat du lancer est déterminé par une [[attaque de contact à distance]] contre la cible. Les armes à aspersion ne nécessitent aucune formation et le personnage ne subit donc jamais de malus de -4 pour non-formation. Si le coup touche, l’arme à aspersion inflige les dégâts d’un coup au but à la cible et des dégâts d’aspersion à toutes les créatures distantes de moins de 1,50 mètre. Si la cible est de taille G ou supérieure, il faut choisir une de ses cases et les dégâts d'aspersion affectent les créatures qui sont à 1,5 m de cette case. Les armes à aspersion ne peuvent pas infliger de dégâts de précision (comme les dégâts d’une [[roublard#ATTAQUESOURNOISE|attaque sournoise]] de [[roublard]]).
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Combat)#8|→]] Armes à aspersion : L’action complexe « se préparer à lancer une arme à aspersion » (page 183) s’applique-t-elle à toutes les armes à aspersion ?'''''
+
+Non. __[[Actions spéciales#ARMEASPERSION|Lancer une arme à aspersion]]__ est une attaque, et la plupart des armes à aspersion n’ont besoin d’aucune préparation avant leur utilisation, puisqu’elles explosent ou s’activent à l’impact (et tout ce dont le personnage a besoin est de la récupérer depuis l'endroit où il la stocke, puis de la lancer, en dépensant les actions appropriées pour le faire).
+
+La ligne « se préparer à lancer une arme à aspersion » dans le tableau se réfère uniquement au fait de préparer une flasque d’huile pour l’utiliser comme une arme à aspersion. La description de l’[[Huile (objet)|huile]] dit :
+
+Huile : Une flasque de 0,5 litre d'huile permet de faire brûler une lanterne ou une lampe pendant 6 heures. Le personnage peut également utiliser la flasque d'huile comme une arme à aspersion, à la seule différence qu'il faut une action complexe pour la doter d'une mèche. Une fois la flasque lancée, il y a 50% de chances qu'elle s'enflamme correctement.
+
+Ainsi, l’action complexe listée dans le tableau est l’action requise pour ajouter une mèche à la flaque d’huile et pour l’allumer afin de pouvoir l’utiliser comme une arme à aspersion. (« Préparer » la flasque n’inclut pas de la lancer, qui est une action d’attaque distincte.)}On appelle arme à aspersion toute arme à distance qui se brise ou se déchire au moindre choc, pour répandre son contenu sur sa cible et les créatures ou objets alentours. Le résultat du lancer est déterminé par une [[attaque de contact à distance]] contre la cible. Les armes à aspersion ne nécessitent aucune formation et le personnage ne subit donc jamais de malus de -4 pour non-formation. Si le coup touche, l’arme à aspersion inflige les dégâts d’un coup au but à la cible et des dégâts d’aspersion à toutes les créatures distantes de moins de 1,50 mètre. Si la cible est de taille G ou supérieure, il faut choisir une de ses cases et les dégâts d'aspersion affectent les créatures qui sont à 1,5 m de cette case. Les armes à aspersion ne peuvent pas infliger de dégâts de précision (comme les dégâts d’une [[roublard#ATTAQUESOURNOISE|attaque sournoise]] de [[roublard]]).
 
 Le personnage peut viser l’intersection de plusieurs cases au lieu d’une créature. Dans ce cas, il fait une attaque à distance contre une [[CA]] de 5. Cependant, aucune créature ne reçoit les dégâts d’un coup au but bien que toutes les créatures des cases adjacentes à l’intersection subissent les dégâts d’aspersion. Il est impossible de viser une intersection si elle est occupée par une créature, comme une créature de [[taille G]] ou plus, dans ce cas, il faut viser la créature elle-même.
 
@@ -56,7 +64,26 @@ Certaines armes perforantes, telles que la lance et le trident, infligent des d�
 
 {s:Reference|COMBAT2ARMES}
 === Combat à deux armes ===
-Si, en plus de l’arme principale tenue dans la main directrice, un personnage manie une arme secondaire dans sa main non-directrice, celle-ci lui permet de porter une attaque supplémentaire par round. Il subit un malus au [[jet dattaque|jet d’attaque]] de -6 à sa ou ses attaques principales et de -10 à l’attaque secondaire. Il peut réduire ces malus de deux manières. D’une part, s’il utilise une arme secondaire légère, les malus baissent de 2 points chacun (une attaque à mains nues est toujours considérée comme une arme légère). D’autre part, le don [[Combat à deux armes]] réduit le malus de la main directrice de 2 points et celui de la main non-directrice de 6 points.
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Combat)#10|→]] Armes multiples, attaques supplémentaires, et combat à deux armes : Si j’ai droit à des attaques supplémentaires grâce à un BBA élevé, puis-je porter des attaques avec des armes différentes sans subir un malus de combat à deux armes ?'''''
+
+Oui. En fait, un personnage ne subit des malus de __[[Actions spéciales#COMBAT2ARMES|combat à deux armes]]__ que s’il essaie d’obtenir une attaque supplémentaire par [[round]].  
+Admettons que le personnage soit un [[guerrier]] de niveau 6 (BBA +6/+1) qui manie une [[épée longue (arme)|épée longue]] dans une main et une [[masse darmes légère (arme)|masse d’armes légère]] dans l’autre. Ses combinaisons d’attaque à outrance sans utiliser le combat à deux armes sont :  
+(A) épée longue à +6, épée longue à +1  
+(B) masse d’armes légère à +6, à masse d’armes légère +1  
+(C) épée longue à +6, masse d’armes légère à +1  
+(D) masse d’armes légère à +6, masse d’armes légère à +1  
+Toutes ces combinaisons résulteraient en deux attaques portées, une à +6 et une à +1. Le personnage n’obtient pas d’attaques supplémentaires, il n’utilise pas la règle de combat à deux armes et ne subit donc pas les malus de combat à deux armes.  
+S’il possède le don [[Arme en main]], le personnage pourrait même commencer le round en maniant une seule arme, faire son attaque principale avec, dégainer l’autre arme par une action libre après sa première attaque, et utiliser cette autre arme pour faire son attaque itérative (« attaque itérative » est un terme informel qui signifie « attaque supplémentaire obtenue grâce à un BBA élevé »). Tant qu’il utilise correctement sa valeur de BBA pour ses attaques itératives, et tant qu’il ne dépasse pas le nombre d’attaques par round permis par son BBA, le personnage n’est pas considéré comme utilisant le combat à deux armes et ne subit donc pas les malus de combat à deux armes.  
+L’option de combat à deux armes dans le Manuel des joueurs se réfère spécifiquement au fait d’obtenir une attaque supplémentaire en utilisant une arme dans la main non-directrice du personnage. Dans les quatre exemples ci-dessus, il n’y a pas d’attaque supplémentaire, donc le combat à deux armes n’est pas utilisé.  
+En suivant l’exemple épée longue/masse d’armes, un personnage qui utilise le combat à deux armes a moins d’options que s’il ne le faisait pas. Ses options sont (en ignorant les malus de main directrice/non-directrice) :  
+(A’) épée longue directrice à +6, épée longue directrice à +1, masse d’armes non-directrice à +6  
+(B’) masse d’armes directrice à +6, masse d’armes directrice à +1, épée longue non-directrice à +6  
+Autrement dit, une fois que le personnage décide d’utiliser le combat à deux armes pour obtenir une attaque supplémentaire dans son tour (décision qu’il doit prendre avant de porter toute attaque à son tour), cette décision le bloque dans la combinaison « l’arme de ma main directrice porte mon attaque principale et mon attaque itérative, tandis que l’arme dans ma main non-directrice porte uniquement l’attaque supplémentaire, et j’applique les malus de combat à deux armes ».
+<hr>
+'''''[[FAQ- Manuel des joueurs (Combat)#18|→]] Combat à deux armes : Si un personnage utilise cette option à son tour pour attaquer avec deux armes, est-ce qu’il subit aussi son malus sur les attaques d’opportunité portées avant le début de son prochain tour ?'''''
+
+Non. Les malus se terminent dès que l’action d’[[attaque à outrance]] qui a permis au personnage d’__[[Actions spéciales#COMBAT2ARMES|attaquer avec les deux armes]]__ est résolue. Toute attaque d’opportunité que le personnage porte est faite avec son bonus à l’attaque normal. De façon générale, les malus aux attaques portées pendant le tour du personnage ne se répercutent pas sur les attaques d’opportunité sauf précision contraire (comme le malus imposé par [[Attaque en puissance]] ou [[Expertise du combat]].)  
+Cette réponse est d’abord apparue dans le [[https://paizo.com/community/blog/v5748dyo5ldx5?FAQs-of-Life|Paizo blog du 25/9/2012]].}Si, en plus de l’arme principale tenue dans la main directrice, un personnage manie une arme secondaire dans sa main non-directrice, celle-ci lui permet de porter une attaque supplémentaire par round. Il subit un malus au [[jet dattaque|jet d’attaque]] de -6 à sa ou ses attaques principales et de -10 à l’attaque secondaire. Il peut réduire ces malus de deux manières. D’une part, s’il utilise une arme secondaire légère, les malus baissent de 2 points chacun (une attaque à mains nues est toujours considérée comme une arme légère). D’autre part, le don [[Combat à deux armes]] réduit le malus de la main directrice de 2 points et celui de la main non-directrice de 6 points.
 
 Les diverses combinaisons possibles sont résumées ci-dessous :
 
@@ -82,7 +109,13 @@ Les diverses combinaisons possibles sont résumées ci-dessous :
 
 {s:Reference|COMBATMONTE}
 === Combat monté ===
-Ces règles parlent du combat à [[cheval]] mais elles s’appliquent aussi à des montures plus inhabituelles, comme des [[griffon|griffons]] ou des [[dragon|dragons]].
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Combat)#19|→]] Combat monté : Lorsqu’on charge en étant monté, quelle créature charge ? Le cavalier ou la monture ?'''''
+
+Les deux chargent à l’unisson, souffrent du même malus à la CA, obtiennent le même bonus aux jets d’attaque et suivent toutes les autres règles d’une [[charge]]. Les règles sur le __[[Actions spéciales#COMBATMONTE|combat monté]]__ sont floues sur ce point. Remplacez le troisième paragraphe sous la section « Combat en selle » à la page 201 avec le paragraphe suivant. Notez qu’une « charge montée » est synonyme de « charger en étant monté », et que quand une [[lance darçon (arme)|lance d’arçon]] est « utilisée depuis le dos d’une monture qui charge », il est bien question d’une charge montée, il ne suffit pas que la monture charge.
+
+Une charge montée est une charge effectuée par le personnage et sa monture. Pendant une charge montée, le personnage inflige le double des dégâts avec sa première attaque au corps à corps portée avec une [[lance darçon (arme)|lance d’arçon]] ou tout autre arme s’il possède le don [[Charge dévastatrice]] (ou un effet similaire), ou le triple des dégâts avec une lance d’arçon et Charge dévastatrice.
+
+Ce changement sera reflété dans les futures impressions du ''Manuel des joueurs''.}Ces règles parlent du combat à [[cheval]] mais elles s’appliquent aussi à des montures plus inhabituelles, comme des [[griffon|griffons]] ou des [[dragon|dragons]].
 
 '''Les montures au combat.''' On peut utiliser des [[cheval|chevaux]] et des [[poney|poneys]] ainsi que les [[chien de selle|chiens de selle]] comme montures de combat. Les montures qui ne sont pas entraînées au combat (voir la compétence [[Dressage]]) sont effrayées par la bataille. Si le personnage décide de rester en selle, il doit faire un test d’[[Équitation]] [[DD]] 20 au début de chaque round pour contrôler sa monture, ce qui demande une [[action de mouvement]]. En cas de succès, il peut exécuter une [[action simple]] après son [[action de mouvement]], sinon, l’[[action de mouvement]] se transforme en [[action complexe]], ce qui signifie que le personnage ne peut rien faire d’autre avant son tour de jeu suivant.
 

@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Descriptions individuelles des propriétés spéciales des armures et des boucliers
 Title: Descriptions des propriétés spéciales des armures et des boucliers
-LastModified: 2024-06-02 18:52
+LastModified: 2024-07-01 17:37
 Categories:
   - 'Objet mag armure'
   - 'Src Armes et équipement'
@@ -11,7 +11,7 @@ Categories:
 <div style="float: right; padding: 0 0 8px 8px">{toc}</div>''Les propriétés décrites ci-dessous sont celles présentées dans les [[armures magiques]].''
 
 ===Propriétés ajoutant un prix spécifique===
-<table class="page espace-col deuxcol"><tr><td>
+<table width="100%"><tr><td width="49%">
 {s:Reference|Adhésive}
 <div class="BD">
 {s:BDTitre|Adhésive|{s:AE}}
@@ -241,8 +241,8 @@ Les armures qui possèdent cette propriété sont souvent gravées ou émaillée
 (((Création)))
 '''Conditions''' [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[empoisonnement]]'', ''[[ralentissement du poison]]'' ; '''Coût''' 7 500 po
 </div>
-</td>
-<td>
+</td><td width="2%">
+</td><td width="49%">
 {s:Reference|Martyr}
 <div class="BD">
 {s:BDTitre|Martyr|{s:AE}}
@@ -466,7 +466,7 @@ Les armures qui possèdent cette propriété sont souvent gravées ou émaillée
 
 
 ===Propriétés ajoutant un bonus de +1===
-<table class="page espace-col deuxcol"><tr><td>
+<table width="100%"><tr><td width="49%">
 {s:Reference|Amertume}
 <div class="BD">
 {s:BDTitre|Amertume|{s:AE}}
@@ -646,8 +646,8 @@ L’armure d’''immortalité'' protège son porteur contre l’énergie nuisibl
 (((Création)))
 '''Conditions''' [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[protection contre la mort]]'' ; '''Coût''' Bonus de +1
 </div>
-</td>
-<td>
+</td><td width="2%">
+</td><td width="49%">
 {s:Reference|Interception de projectile}
 <div class="BD">
 {s:BDTitre|Interception de projectile|{s:AE}}
@@ -811,7 +811,7 @@ Un lanceur de sorts peut placer un unique sort de contact du 3ème niveau ou moi
 
 
 ===Propriétés ajoutant un bonus de +2===
-<table class="page espace-col deuxcol"><tr><td>
+<table width="100%"><tr><td width="49%">
 {s:Reference|Animée}
 <div class="BD">
 {s:BDTitre|Animée|{s:AE}}
@@ -864,8 +864,8 @@ Un bouclier de ''fusion'' peut fusionner avec une arme tenue en main. Celle-ci d
 (((Création)))
 '''Conditions''' [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[arme polyvalente]]'' ; '''Coût''' Bonus de +2
 </div>
-</td>
-<td>
+</td><td width="2%">
+</td><td width="49%">
 {s:Reference|Imaginaire}
 <div class="BD">
 {s:BDTitre|Imaginaire|{s:AMH}}
@@ -929,7 +929,7 @@ Une armure ou un bouclier doté(e) de cette propriété génère des vibrations 
 
 
 ===Propriétés ajoutant un bonus de +3===
-<table class="page espace-col deuxcol"><tr><td>
+<table width="100%"><tr><td width="49%">
 {s:Reference|Collecte-flèche}
 <div class="BD">
 {s:BDTitre|Collecte-flèche|{s:AMH}}
@@ -965,7 +965,9 @@ Trois fois par jour, le porteur d’un bouclier pourvu de cette propriété peut
 {s:BDTitre|Forme animale|{s:AE}}
 '''Aura''' [[Transmutation]] modérée ; '''NLS''' 9 ; '''Emplacement''' [[Armures magiques|propriété d'armure]] ; '''Prix''' Bonus de +3 ; '''Poids''' —
 (((Description)))
-Une armure ou un bouclier de ''forme animale'' est décoré de motifs représentant des feuilles et semble fabriqué à partir de peaux animales bouillies. Le porteur de cet objet conserve son bonus d’armure (et tout bonus d’altération) lorsqu’il prend une [[druide#FORMEANIMALE|forme animale]]. Dans ce cas, l’armure (ou le bouclier) n’est pas visible.
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Équipement et objets magiques)#12|→]] Armure de ''forme animale'' et autres armures transformables : Lorsque j’utilise une armure de ''forme animale'' et bénéficie de ses avantages, quelles restrictions, le cas échéant, me sont imposées ? En général, quand je me transforme avec un effet de métamorphose et que certains de mes objets fusionnent avec la forme, quelles restrictions le fait de fusionner avec une grande quantité d’équipement lourd m’impose-t-il ? Qu’en est-il des autres types d’armures transformables ?'''''
+
+Si le personnage portait une [[Poids transportable|charge intermédiaire ou lourde]] à cause de son encombrement avant de se transformer, il continue à subir ces malus dans sa forme fusionnée. Sinon, il ignore le poids des objets fusionnés et calcule son encombrement dans sa forme métamorphosée en se basant uniquement sur les objets non-fusionnés. Lorsque le personnage porte un bouclier et/ou une armure fusionné(s), s’il ne bénéficie d’aucun avantage grâce à l’armure fusionnée, il compte tout de même comme portant une armure de cette catégorie, mais ne subit pas son malus d’armure aux tests, sa réduction de vitesse, et son risque d’échec des sorts profanes. S’il bénéficie de ses avantages (et avec la propriété __''[[forme animale (propriété)|forme animale]]''__), il subit alors son malus d’armure aux tests, sa réduction de vitesse, et son risque d’échec des sorts profanes. Cela s’applique à toutes les autres situations où le personnage ou une armure se transforme : le personnage compte toujours comme portant une armure de cette catégorie, et s’il bénéficie de quelconque avantage apporté par l’armure (comme avec ''[[maillebrume]]''), il applique le malus d’armure aux tests, la réduction de vitesse, et le risque d’échec des sorts profanes de l’armure.}Une armure ou un bouclier de ''forme animale'' est décoré de motifs représentant des feuilles et semble fabriqué à partir de peaux animales bouillies. Le porteur de cet objet conserve son bonus d’armure (et tout bonus d’altération) lorsqu’il prend une [[druide#FORMEANIMALE|forme animale]]. Dans ce cas, l’armure (ou le bouclier) n’est pas visible.
 (((Création)))
 '''Conditions''' [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[métamorphose funeste]]'' ; '''Coût''' Bonus de +3
 </div>
@@ -979,8 +981,8 @@ Une armure d’''invulnérabilité'' confère à son porteur une [[RD|réduction
 (((Création)))
 '''Conditions''' [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[peau de pierre]]'', et soit ''[[souhait]]'', soit ''[[miracle]]'' ; '''Coût''' Bonus de +3
 </div>
-</td>
-<td>
+</td><td width="2%">
+</td><td width="49%">
 {s:Reference|Perception}
 <div class="BD">
 {s:BDTitre|Perception|{s:MCA}}
@@ -1034,7 +1036,7 @@ Une armure ''titanesque'' est presque surdimensionnée mais cela ne gène pas so
 
 
 ===Propriétés ajoutant un bonus de +4===
-<table class="page espace-col deuxcol"><tr><td>
+<table width="100%"><tr><td width="49%">
 {s:Reference|Négation}
 <div class="BD">
 {s:BDTitre|Négation|{s:CMy}}
@@ -1044,8 +1046,8 @@ Une fois par jour, quand le porteur de cette armure reçoit un [[coup critique]]
 (((Création)))
 '''Conditions''' [[Création darmes et armures magiques|Création d’armes et armures magiques]], [[Artisan mythique (mythique)|Artisan mythique]], ''[[souhait limité]]'' ou ''[[miracle]]'' ; '''Coût''' Bonus de +4
 </div>
-</td>
-<td>
+</td><td width="2%">
+</td><td width="49%">
 {s:Reference|Rempart}
 <div class="BD">
 {s:BDTitre|Rempart|{s:AMH}}
@@ -1069,7 +1071,7 @@ Une armure ou un bouclier de ''résistance à la magie'' confère à son porteur
 
 
 ===Propriétés ajoutant un bonus de +5===
-<table class="page espace-col deuxcol"><tr><td>
+<table width="100%"><tr><td width="49%">
 {s:Reference|Aile d'effroi}
 <div class="BD">
 {s:BDTitre|Aile d'effroi|{s:AMH}}
@@ -1099,8 +1101,8 @@ Une armure ou un bouclier de ''défense'' crée un champ de force protégeant pl
 (((Création)))
 '''Conditions''' [[Création darmes et armures magiques|Création d’armes et armures magiques]], ''[[fracassement]]'', ''[[souffle de vie]]'' ; '''Coût''' Bonus de +5
 </div>
-</td>
-<td>
+</td><td width="2%">
+</td><td width="49%">
 {s:Reference|Réfléchissante}
 <div class="BD">
 {s:BDTitre|Réfléchissante|{s:AE}}

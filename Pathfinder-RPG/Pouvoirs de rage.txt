@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Pouvoirs de rage
 Title: Les pouvoirs de rage
-LastModified: 2023-07-05 16:20
+LastModified: 2024-07-06 17:12
 Categories:
   - 'Classe'
   - 'Src Art de la guerre'
@@ -104,8 +104,9 @@ Pour bénéficier des avantages octroyés par ses pouvoirs de rage, le barbare d
 | '''16''' || [[pouvoirs de rage#ERUPTIONDENERGIE|Éruption d'énergie]] || [[pouvoirs de rage#PRECISIONLETALE|Précision létale]] || &emsp; || &emsp;
 |}
 
-===Description des pouvoirs de rage===
-<div class="article_2col">{s:APG}{s:Reference|ABSORPTIONENERGIE}
+===Description des pouvoirs de rage du barbare===
+<table width="100%"><tr><td width="49%">
+{s:APG}{s:Reference|ABSORPTIONENERGIE}
 ====Absorption d’énergie (Sur)====
 '''Prérequis''' : Résistance à l’énergie, majeur, niveau 12
 
@@ -495,9 +496,10 @@ Le [[barbare]] gagne un bonus d’esquive de +1 à la [[CA|classe d’armure]] c
 
 {s:Reference|POURSUITE}
 ====Poursuite (Ext)====
-
 Lorsqu’un adversaire situé à côté du [[barbare]] en [[barbare#RAGEDEBERSERKER|rage]] entreprend une [[retraite (action)|retraite]] pour s’en éloigner, le [[barbare]] peut se déplacer du double de sa [[Valeurs de combat#VITESSEDEDEPLACEMENT|vitesse de déplacement]] normale par une [[action immédiate]]. Il doit alors terminer son mouvement à côté de l’ennemi qui a battu en retraite. Le déplacement du [[barbare]] est sujet aux [[attaque dopportunité|attaques d’opportunité]] normalement. Ce pouvoir ne peut être utilisé qu’une seule fois par [[barbare#RAGEDEBERSERKER|rage]].
-
+</td><td width="1%">
+<td style="border-left:1px solid #4b3124;width=" width="1%"></td>
+</td><td width="49%">
 {s:uc}{s:Reference|PRECISIONAFFINEE}
 ====Précision affinée (Ext)====
 '''Prérequis''' : Précision étonnante, niveau 8
@@ -597,9 +599,13 @@ Une fois par round, le [[barbare]] peut tenter une [[bousculade]] contre une cib
 
 {s:UC}{s:Reference|RESILIENCETOTEMIQUEDRACONIQUE}
 ====Résilience totémique draconique (Sur)====
-'''Prérequis''' : Totem draconique, niveau 8
+{s:FAQ|'''''__Ce texte a été modifié suite à la FAQ suivante :__
 
-Quand le barbare est enragé, il devient résistant au type d’énergie associé à son totem  : acide (noir, cuivre et vert), froid (argent et blanc), électricité (bleu et bronze) ou feu (airain, or et rouge). Cette résistance est égale au double de la [[RD]]/– dont le barbare bénéficie actuellement grâce à sa réduction de dégâts de classe. Cette RD augmente de 2 par totem draconique, y compris celui-ci.
+[[FAQ- lArt de la guerre#4|→]] Résilience totémique draconique : Résilience totémique draconique indique que j’obtiens une résistance à l’énergie égale au double de ma RD de barbare, mais dit ensuite « cette RD augmente de 2 pour chaque pouvoir de rage totémique draconique que le personnage possède ». Vu le contexte, il semble que c’est la résistance à l’énergie qui devrait augmenter. Qui a raison ?'''''
+
+__[[Pouvoirs de rage#RESILIENCETOTEMIQUEDRACONIQUE|Il]]__ devrait indiquer que la résistance à l’énergie augmente de 2 pour chaque pouvoir de rage totémique draconique. Ce sera reflété dans le prochain errata.}'''Prérequis''' : Totem draconique, niveau 8
+
+Quand le barbare est enragé, il devient résistant au type d’énergie associé à son totem  : acide (noir, cuivre et vert), froid (argent et blanc), électricité (bleu et bronze) ou feu (airain, or et rouge). Cette [[Résistance (capacité)|résistance]] est égale au double de la [[RD]]/– dont le barbare bénéficie actuellement grâce à sa [[Barbare#REDUCTIONDEDEGATS|réduction de dégâts]] de classe. Cette résistance augmente de 2 par totem draconique, y compris celui-ci.
 
 {s:UC}{s:Reference|RESILIENCETOTEMIQUEDELARUCHE}
 ====Résilience totémique de la ruche (Sur)====
@@ -911,4 +917,4 @@ Quand le barbare est enragé, il ignore les effets de 1 point d’[[affaiblissem
 '''Prérequis :''' Niveau 6, [[Pouvoirs de rage#SAUTENRAGE|saut en rage]]
 
 Une fois par rage, le personnage peut voler sur une distance égale à sa vitesse de déplacement de base par une [[action de mouvement]]. S’il [[charge]], il peut utiliser ce déplacement en vol durant la charge.
-</div>
+</td></tr></table>

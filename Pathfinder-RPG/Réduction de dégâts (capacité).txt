@@ -1,9 +1,15 @@
 ---
 Name: Pathfinder-RPG.Réduction de dégâts (capacité)
 Title: Réduction de dégâts (Ext ou Sur)
-LastModified: 2020-04-13 02:25
+LastModified: 2024-07-03 18:41
+Categories:
+  - 'Règle de monstres universelle'
 ---
-''Certaines créatures possèdent un pouvoir surnaturel leur permettant d’ignorer les coups ou grâce auquel les blessures infligées par la plupart des armes se referment instantanément.''
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Combat)#34|→]] Réduction de dégâts : Comment la RD interagit avec les effets magiques qui infligent des dégâts contondants, perforants, ou tranchants ?'''''
+
+Bien que la définition de la __[[Réduction de dégâts (capacité)|Réduction de dégâts]]__ du Bestiaire (page 304) indique « La créature subit des dégâts normaux de la part des attaques d’énergie destructive (même non-magiques), des sorts, des pouvoirs magiques et des pouvoirs surnaturels », cela ne fait référence qu’aux dégâts dont le type (comme "dégâts de feu" ou "dégâts perforants"), n’est pas explicitement indiqué. Autrement dit, la RD ne protège pas contre les « dégâts non-typés » des attaques magiques.  
+En revanche, si une attaque magique indique spécifiquement qu’elle inflige des dégâts contondants, perforants, ou tranchants, la RD affecte ces dégâts normalement, comme s’il provenaient d’une arme physique. (Sinon les attaques magiques n’auraient simplement pas de type de dégâts, puisqu’elles n’interagiraient avec les dégâts C/P/T que dans de très rares cas, comme pour définir si une vase se sépare ou non après une attaque.)  
+Par exemple, le sort ''[[tempête de grêle]]'' inflige 3d6 points de dégâts contondants et 2d6 points de dégâts de froid. Si un personnage lance ''tempête de grêle'' sur un groupe de [[Zombi humain|zombis]], la RD 5/tranchant des zombis les protègerait contre 5 points des dégâts contondants du sort. Leur RD ne les aide pas contre les dégâts de froid du sort puisqu’elle ne s’applique pas aux attaques d’énergie.}''Certaines créatures possèdent un pouvoir surnaturel leur permettant d’ignorer les coups ou grâce auquel les blessures infligées par la plupart des armes se referment instantanément.''
 
 Le chiffre ou nombre se trouvant à gauche de la barre de fraction indique combien de points de dégâts la créature ignore à chaque attaque. Dans la majorité des cas, certaines armes peuvent ignorer cette réduction. Cette information apparait à la droite de la barre de fraction. Par exemple, une RD 5/magie signifie que la créature subit 5 points de dégâts de moins de toutes les armes non-magiques. Si la barre de fraction est suivie d’un tiret, la réduction des dégâts s’applique contre toutes les attaques, excepté celles qui sont spécifiquement indiquées comme ne tenant pas compte de la réduction des dégâts adverse.
 
@@ -23,20 +29,18 @@ Les munitions lancées par une [[arme à projectiles]] ayant d’un bonus d’al
 
 Les armes dont le bonus d’altération est égal ou supérieur à +3 sont capables de surpasser certains types de réduction des dégâts, et ce quel que soit le matériau dans lequel elles sont faites ou leur alignement. La table ci-dessous indique le bonus d’altération nécessaire en fonction du type de réduction des dégâts.
 
-<center>
-{| CLASS="tablo"
+{| CLASS="tablo centre autoalt"
 |- CLASS="titre"
 | Type de RD || Bonus d’altération équivalent
 |- CLASS="premier"
 | Argent, fer froid || +3
-|- CLASS="alt"
+|-
 | Adamantium* || +4
 |-
 | Alignée || +5
 |-
 | COLSPAN="2" CLASS="note" | ''(*) Ne permet pas d’ignorer la [[solidité]], contrairement à une arme en adamantium.''
 |}
-</center>
 
 ==== Capacité de monstre ====
 

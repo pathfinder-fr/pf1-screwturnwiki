@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Valeurs de combat
 Title: Valeurs de combat
-LastModified: 2022-10-02 16:30
+LastModified: 2024-07-03 18:15
 Categories:
   - 'Combat'
   - 'Règle officielle'
@@ -13,7 +13,9 @@ Cette section résume les statistiques déterminantes du combat et la manière d
 
 {s:Reference|JETDATTAQUE}
 === Jet d’attaque ===
-Un jet d’attaque représente la tentative que fait le personnage pour frapper son adversaire lors de son tour de jeu dans le round. Pour ce faire, il jette 1d20 auquel il ajoute son [[Valeurs de combat#BONUSDATTAQUE|bonus d’attaque]] (de nombreux modificateurs peuvent s’appliquer à ce jet). Si le résultat final égale ou dépasse la [[Valeurs de combat#CA|CA]] de l’adversaire, le coup touche et inflige des dégâts.
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Combat)#1|→]] 20 naturel et 1 naturel : Sur les jets d’attaque et de sauvegarde, un 20 naturel est une réussite automatique et un 1 naturel est un échec automatique. Mais devrais-je les considérer différemment des autres résultats dans le cadre d’un échec ou d’une réussite de 5 ou plus, d’une comparaison entre deux jets d’attaque pour voir qui a le résultat le plus élevé, ou d’autres situations similaires ?'''''
+
+Non, sauf si une règle indique explicitement le contraire, le résultat d’un 20 naturel ou d’un 1 naturel sur un __[[jet dattaque|jet d’attaque]]__ ou __[[jds|de sauvegarde]]__ est traité de la même façon que tout autre résultat dans le cadre d’une comparaison entre deux nombres. Par exemple, si un guerrier fait un 1 naturel pour un total de 31 contre la CA de 33 d’un magicien, l’attaque rate de 5 ou moins et détruit une des ''[[image miroir|images miroirs]]'' du magicien.}Un jet d’attaque représente la tentative que fait le personnage pour frapper son adversaire lors de son tour de jeu dans le round. Pour ce faire, il jette 1d20 auquel il ajoute son [[Valeurs de combat#BONUSDATTAQUE|bonus d’attaque]] (de nombreux modificateurs peuvent s’appliquer à ce jet). Si le résultat final égale ou dépasse la [[Valeurs de combat#CA|CA]] de l’adversaire, le coup touche et inflige des dégâts.
 
 '''Coup automatiquement réussi ou raté.''' On rate automatiquement son coup sur un 1 naturel (c’est-à-dire un 1 au dé) au jet d’attaque. De la même manière, l’attaque réussit toujours sur un 20 naturel (c’est à dire un 20 au dé). Le 20 naturel est également un [[Actions simples#COUPCRITIQUE|coup critique]] possible (voir l’[[Actions simples#ATTAQUE|action d’attaque]]).
 
@@ -130,8 +132,14 @@ Au cours de ce combat, le guerrier et l'ensorceleur combattent un ogre et son so
 '''Cas #3''' : L'ensorceleur bat en [[retraite (action)|retraite]]. La case qu’il abandonne n’est pas contrôlée et elle peut donc s’éloigner du gobelin en toute sécurité, mais quand il quitte la case suivante, il provoque une attaque d’opportunité de la part de l’ogre (qui a une allonge de 3 m (2 {s:c})). Il peut à la place se limiter à un déplacement de 1,50 m (1 {s:c}), par une [[action libre]], et, dans ce cas, ne pas provoquer d’attaque d’opportunité.
 </div></td></tr></table>
 
-{s:Reference|ESPACECONTROLE}
-'''Espace contrôlé.''' Un personnage contrôle la zone (ou l’espace) dans laquelle il est capable de porter des attaques de corps à corps et ce même si ce n’est pas à son tour d’agir. En règle générale, l’espace contrôlé se compose des cases adjacentes au personnage (ce qui comprend les diagonales). Si l’un des adversaires du personnage accomplit certaines actions dans cette zone, il s’expose à une attaque d’opportunité de la part du personnage. Un personnage ne portant pas d’arme ne peut normalement pas contrôler les cases adjacentes et ne peut donc pas porter d’attaques d’opportunité.
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Combat)#6|→]] Allonge de 3m et diagonales : Je suis confus par rapport à l’allonge et aux diagonales. J’ai entendu quelque part en ligne qu’un personnage ne menace pas la seconde diagonale avec une allonge de 3 mètres mais qu’il peut d’une façon ou d’une autre porter une attaque d’opportunité quand un adversaire se déplace hors de cette case, à côté de ça les Rule Reference Cards montrent que le personnage menace la seconde diagonale. Qui a raison ?'''''
+
+Les cartes sont correctes. À titre d’exception par rapport au fonctionnement normal des diagonales, une créature avec une __[[Valeurs de combat#ESPACECONTROLE|allonge]]__ de 3 mètres menace la seconde diagonale. Ces changements seront reflétés dans le prochain errata.
+<hr>
+'''''[[FAQ- Manuel des joueurs (Combat)#7|→]] Allonge et objets : un personnage peut-il ramasser ou manipuler un objet dans sa portée d’allonge ? Cela provoque-t-il une AO ? Est-ce que ça en provoque même si la cible peut atteindre l’objet, mais pas l’espace occupé par le personnage ?'''''
+
+Les règles sont un peu vagues sur ce point, mais pour faire simple, un personnage peut affecter les objets et les créatures dans son __[[Valeurs de combat#ESPACECONTROLE|allonge]]__. Lorsqu’il ramasse ou manipule un objet, un personnage provoque généralement une [[AO|attaque d’opportunité]], mais uniquement contre les cibles qui peuvent atteindre l’espace qu’il occupe. Il ne provoque pas d’attaques d’opportunité des cibles qui ne peuvent pas l’atteindre, quelque soit l’action qu’il entreprend, même si elle inclut une interaction avec une zone contrôlée. Bien qu’il paraisse réaliste d’autoriser une attaque dans un tel cas, cela rendrait le jeu beaucoup trop compliqué.  
+Cette réponse est d’abord apparue dans le [[https://paizo.com/community/blog/v5748dyo5ldx5?FAQs-of-Life|Paizo blog du 25/9/2012]].}{s:Reference|ESPACECONTROLE}'''Espace contrôlé.''' Un personnage contrôle la zone (ou l’espace) dans laquelle il est capable de porter des attaques de corps à corps et ce même si ce n’est pas à son tour d’agir. En règle générale, l’espace contrôlé se compose des cases adjacentes au personnage (ce qui comprend les diagonales). Si l’un des adversaires du personnage accomplit certaines actions dans cette zone, il s’expose à une attaque d’opportunité de la part du personnage. Un personnage ne portant pas d’arme ne peut normalement pas contrôler les cases adjacentes et ne peut donc pas porter d’attaques d’opportunité.
 
 :: ''Armes à allonge.'' La plupart des créatures de taille M ou plus petites ont une allonge de 1,50 m (1 {s:c}) seulement. Cela signifie qu’elles peuvent frapper leurs ennemis uniquement s’ils se trouvent à 1,50 m (1 {s:c})) ou moins d’eux. Néanmoins, une créature de taille P ou M qui utilise une arme à allonge contrôle plus de cases. De plus, la plupart des créatures de taille G ou plus ont une allonge de 3 m (2 {s:c}) ou plus.
 
@@ -163,7 +171,13 @@ Si un personnage effectue deux [[action de mouvement|actions de mouvement]] dans
 {s:Reference|JETDESAUVEGARDE}
 
 === Jets de sauvegarde ===
-En règle générale, lorsque le personnage est victime d’une attaque magique ou inhabituelle, il a droit à un jet de sauvegarde pour l’annuler, ou du moins pour en amoindrir les effets. Tout comme le [[Valeurs de combat#JETDATTAQUE|jet d’attaque]], le jet de sauvegarde se joue avec 1d20, auquel on ajoute un bonus dépendant de la [[classes|classe du personnage]] et de son niveau ainsi qu’un modificateur de caractéristique. Le modificateur au jet de sauvegarde est égal à :
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Combat)#1|→]] 20 naturel et 1 naturel : Sur les jets d’attaque et de sauvegarde, un 20 naturel est une réussite automatique et un 1 naturel est un échec automatique. Mais devrais-je les considérer différemment des autres résultats dans le cadre d’un échec ou d’une réussite de 5 ou plus, d’une comparaison entre deux jets d’attaque pour voir qui a le résultat le plus élevé, ou d’autres situations similaires ?'''''
+
+Non, sauf si une règle indique explicitement le contraire, le résultat d’un 20 naturel ou d’un 1 naturel sur un __[[jet dattaque|jet d’attaque]]__ ou __[[jds|de sauvegarde]]__ est traité de la même façon que tout autre résultat dans le cadre d’une comparaison entre deux nombres. Par exemple, si un guerrier fait un 1 naturel pour un total de 31 contre la CA de 33 d’un magicien, l’attaque rate de 5 ou moins et détruit une des ''[[image miroir|images miroirs]]'' du magicien.
+<hr>
+'''''[[FAQ- Manuel des joueurs (Combat)#27|→]] Jets de Réflexes : Si je suis paralysé, maintenu, mourant, ou autrement complètement immobilisé ou inanimé, puis-je quand même tenter un jet de Réflexes ?'''''
+
+Oui, un personnage peut toujours tenter un jet de __[[Réflexes]]__, mais puisque sa Dextérité est ici réduite à 0, il doit remplacer son bonus de Dextérité par un malus de -5, donc il a peu de chances de réussir. S’il réussit, c’est peut-être grâce au pouvoir de sa ''[[cape de résistance]]'', à un bon angle de couverture, ou même à la chance. Dans tous les cas, suivez les règles du sort sur un jet de Réflexes réussit, même si cela devrait déplacer le personnage, comme ''[[création de fosse]]''. En revanche, le personnage perd l’[[Roublard#ESQUIVETOTALE|esquive totale]] dans ces circonstances. S’il est sous l’influence d’un effet particulier qui le rend immobilisé ou inanimé et qui permet des jets de Réflexes continus pour y échapper, au titre d'exception à la règle, il peut utiliser son bonus de Dextérité complet (plutôt qu’un malus de -5) uniquement pour effectuer ces jets de sauvegarde continus, puisque sa Dextérité est mise à l’épreuve dans le cadre du sort, afin de s’en libérer.}En règle générale, lorsque le personnage est victime d’une attaque magique ou inhabituelle, il a droit à un jet de sauvegarde pour l’annuler, ou du moins pour en amoindrir les effets. Tout comme le [[Valeurs de combat#JETDATTAQUE|jet d’attaque]], le jet de sauvegarde se joue avec 1d20, auquel on ajoute un bonus dépendant de la [[classes|classe du personnage]] et de son niveau ainsi qu’un modificateur de caractéristique. Le modificateur au jet de sauvegarde est égal à :
 
 <div class="presentation arrondi recentre ombre"><center>'''Modificateur du jet de sauvegarde'''<br/>=<br/>Bonus de base au jet de sauvegarde + modificateur de caractéristique.</center></div>
 

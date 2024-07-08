@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Actions simples
 Title: Actions simples
-LastModified: 2024-06-22 14:24
+LastModified: 2024-07-04 16:17
 Categories:
   - 'Combat'
   - 'Règle officielle'
@@ -20,7 +20,14 @@ La plupart des armes de corps à corps permettent de frapper un adversaire dista
 
 {s:Reference|ATTAQUEMAINSNUES}
 ==== Attaques à mains nues==== 
-Frapper des poings, des pieds ou de la tête revient à faire une [[Actions simples#ATTAQUECORPSACORPS|attaque de corps à corps]] à quelques exceptions près.
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Équipement et objets magiques)#14|→]] Attaques à mains nues : Dans le cadre de ''morsure magique'' et d’autres sorts, une attaque à mains nues est-elle le corps entier du personnage, ou est-ce une partie de son corps (comme un poing ou un pied) ?'''''
+
+Comme c’est écrit, le texte n’est pas aussi clair qu’il pourrait l’être. Puisque ''[[morsure magique]]'' nécessite que le lanceur choisisse une arme naturelle spécifique à affecter, on pourrait interpréter qu’il implique de le faire pour chaque partie du corps qu’il veut altérer avec le sort (poing, coude, pied, genou, tête, etc). En revanche, aucune mécanique de jeu ne précise quelle partie du corps un moine doit utiliser pour porter une __[[Actions simples#ATTAQUEMAINSNUES|attaque à mains nues]]__ (autre que si le moine tient un objet dans ses mains, il ne peut probablement pas les utiliser pour porter une attaque à mains nues), donc un moine pourrait simplement choisir une partie du corps à altérer avec le sort et constamment utiliser celle-ci, surtout depuis la révision des règles sur le déluge de coups du 4/12/2012 qui permet à un moine d’utiliser son déluge avec la même arme (dans ce cas, une attaque à mains nues) pour toutes les attaques du déluge. Cela signifie qu’il n’existe pas de raison technique qui imposerait à ''morsure magique'' et aux sorts similaires de cibler précisément une partie du corps pour améliorer les attaques à mains nues. Ainsi, l’attaque à mains nues d’une créature est son corps entier, et une ''morsure magique'' (ou un sort similaire) lancé sur l’attaque à mains nues d’une créature affecte toutes les attaques à mains nues que la créature porte.  
+La description de ''morsure magique'' sera légèrement mise à jour dans la prochaine version du ''Manuel des joueurs'' pour prendre cette règle en compte.
+<hr>
+'''''[[FAQ- Manuel des joueurs (Combat)#12|→]] Attaques à mains nues : Puis-je utiliser le combat à deux armes pour porter deux attaques à mains nues dans le même round ?'''''
+
+Oui. ''(Retour à la __[[Actions simples#ATTAQUEMAINSNUES|règle]]__)''}Frapper des poings, des pieds ou de la tête revient à faire une [[Actions simples#ATTAQUECORPSACORPS|attaque de corps à corps]] à quelques exceptions près.
 
 {s:Reference|ATTAQUEOPPORTUNITEMAINSNUES}'''Attaques d’opportunité.''' L’attaque à mains nues provoque une [[attaque dopportunité|attaque d’opportunité]] de la part de la cible à condition qu’elle soit armée. Cette [[attaque dopportunité|attaque d’opportunité]] a lieu avant l’attaque qui la provoque. Une attaque à mains nues ne provoque pas d’[[attaque dopportunité|attaque d’opportunité]] de la part des autres adversaires contrairement au tir à l’arc. Il n’y a aucun risque à attaquer à mains nues un adversaire qui ne porte pas d’arme de corps à corps. Un personnage ne peut pas porter d’[[attaque dopportunité|attaques d’opportunité]] à mains nues (mais voir « [[actions simples#ETREARMEAMAINSNUES|Être armé à mains nues]] », ci-dessous).
 
@@ -44,8 +51,9 @@ Si la créature ciblée par le personnage (ou la partie de la créature qu’il 
 
 {s:Reference|ATTAQUENATURELLE}
 ==== Attaques naturelles====
-{s:Desambi|Voir aussi [[Attaques naturelles (capacité)|ici]].}
-Les attaques portées avec des armes naturelles, comme les crocs ou les griffes, sont considérées comme des [[Actions simples#ATTAQUECORPSACORPS|attaques de corps à corps]] que la créature peut faire contre n’importe quel ennemi à portée (généralement à 1,50 m). Ces attaques emploient le bonus d’[[attaque à outrance]] et infligent des dégâts en fonction de leur type (plus le modificateur de [[Force]], comme à l’accoutumée). Le personnage ne bénéficie pas d’une attaque naturelle supplémentaire quand il a un [[bonus de base à lattaque|bonus de base à l’attaque]] élevé. Par contre, il a droit à des jets d’attaque supplémentaires s’il peut attaquer avec d’autres membres ou parties de son corps (ce qui est indiqué dans les caractéristiques de la race ou de l’aptitude qui permet l’attaque). Si le personnage n’a qu’une attaque (comme une morsure mais pas deux attaques de griffes) il peut ajouter 1,5 fois son bonus de [[Force]] aux jets de dégâts pour cette attaque.
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Combat)#14|→]] Attaques naturelles : Suis-je formé au maniement de mes attaques naturelles ?'''''
+
+Oui. Qu’il obtienne ces __[[Actions simples#ATTAQUENATURELLE|attaques naturelles]]__ de sa race (comme indiqué dans les règles sur les [[Attaques naturelles (capacité)|attaques naturelles]] du Bestiaire), de sa classe (comme indiqué dans la liste de [[Druide#Armes_et_armures_2|formations du druide]]), d’un effet de métamorphose (comme indiqué dans le [[branche métamorphose|chapitre Magie]]), ou de toute autre source (comme le [[Découvertes#MUTAGENESAUVAGE|mutagène sauvage]] d’un alchimiste), le personnage est formé au maniement de ses attaques naturelles.}{s:Desambi|Voir aussi [[Attaques naturelles (capacité)|ici]].}Les attaques portées avec des armes naturelles, comme les crocs ou les griffes, sont considérées comme des [[Actions simples#ATTAQUECORPSACORPS|attaques de corps à corps]] que la créature peut faire contre n’importe quel ennemi à portée (généralement à 1,50 m). Ces attaques emploient le bonus d’[[attaque à outrance]] et infligent des dégâts en fonction de leur type (plus le modificateur de [[Force]], comme à l’accoutumée). Le personnage ne bénéficie pas d’une attaque naturelle supplémentaire quand il a un [[bonus de base à lattaque|bonus de base à l’attaque]] élevé. Par contre, il a droit à des jets d’attaque supplémentaires s’il peut attaquer avec d’autres membres ou parties de son corps (ce qui est indiqué dans les caractéristiques de la race ou de l’aptitude qui permet l’attaque). Si le personnage n’a qu’une attaque (comme une morsure mais pas deux attaques de griffes) il peut ajouter 1,5 fois son bonus de [[Force]] aux jets de dégâts pour cette attaque.
 
 Certaines attaques naturelles, comme les coups de queue ou d’ailes, sont considérées comme des attaques naturelles secondaires. Ces attaques secondaires fonctionnent avec un bonus de base à l’attaque maximal réduit de 5 points. Elles infligent des dégâts qui dépendent de leur nature et qui ne prennent en compte que la moitié du modificateur de [[Force]] pour les jets de dégâts.
 
@@ -61,7 +69,14 @@ Un personnage peut choisir de combattre sur la défensive lorsqu'il attaque. Dan
 
 {s:Reference|COUPCRITIQUE}
 ==== Coups critiques====
-Quand un personnage obtient un 20 naturel (c’est-à-dire un 20 au dé), il touche automatiquement, quelle que soit la [[classe darmure|classe d’armure]] de son adversaire, et il y a également possibilité de coup critique. Dans ce cas, on effectue aussitôt un jet de confirmation du coup critique, c’est-à-dire un nouveau jet d’attaque qui bénéficie des mêmes modificateurs que le précédent. Si ce second jet égale ou dépasse la [[CA]] de la cible, l’attaque est un critique. Il suffit de toucher l’adversaire pour parvenir à ce résultat ; il n’est pas nécessaire de faire à nouveau 20. Si le second jet rate, l’attaque est juste un coup normal.
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Combat)#22|→]] Coups critiques : Y a-t-il une différence entre « réussir/infliger un coup critique » et « confirmer un coup critique » ?'''''
+
+Non, ces expressions signifient la même chose. En revanche, la formulation « confirmer un coup critique » est préférable. (De même, la formulation préférable quand on menace de faire un [[coup critique]] est « obtenir un critique potentiel »)
+<hr>
+'''''[[FAQ- Manuel des joueurs (Combat)#24|→]] Dés bonus : Les dés bonus du Châtiment canalisé ou de sorts comme ''caresse élémentaire'' ou ''flèches enflammées'' sont-ils multipliés sur un coup critique ?'''''
+
+Non. La [[Valeurs de combat#DEGATS|page 179 du ''Manuel des joueurs'']] indique dans la section Multiplication des dégâts : « Les bonus aux dégâts exprimés sous la forme de dés supplémentaires ne sont pas multipliés en cas de coup critique. »  
+La règle générale stipule que les seuls dés multipliés en cas de __[[coup critique]]__ sont les dommages de base de l’arme (1d8 pour une épée longue, 2d6 pour une épée à deux mains, etc).}Quand un personnage obtient un 20 naturel (c’est-à-dire un 20 au dé), il touche automatiquement, quelle que soit la [[classe darmure|classe d’armure]] de son adversaire, et il y a également possibilité de coup critique. Dans ce cas, on effectue aussitôt un jet de confirmation du coup critique, c’est-à-dire un nouveau jet d’attaque qui bénéficie des mêmes modificateurs que le précédent. Si ce second jet égale ou dépasse la [[CA]] de la cible, l’attaque est un critique. Il suffit de toucher l’adversaire pour parvenir à ce résultat ; il n’est pas nécessaire de faire à nouveau 20. Si le second jet rate, l’attaque est juste un coup normal.
 
 Lorsque le personnage réussit un coup critique, il relance les dés de dégâts en ajoutant à chaque fois le bonus normal aux dégâts et additionne le tout. Sauf indication contraire, la zone de critique possible d’une arme est de 20 et le facteur de critique est de 2.
 
@@ -72,7 +87,6 @@ Lorsque le personnage réussit un coup critique, il relance les dés de dégâts
 '''Facteur de critique plus élevé.''' Certaines armes infligent des dégâts plus importants que x2 en cas de critique réussi (voir le"[[Tableau récapitulatif des armes]]").
 
 '''Sorts et coups critiques.''' Les sorts qui nécessitent un jet d’attaque pour atteindre leur cible peuvent donner un coup critique, ce qui n’est pas le cas de ceux qui touchent automatiquement. Si le sort provoque un [[affaiblissement temporaire]] ou une [[diminution permanente]] de caractéristique (voir la section "[[Capacités spéciales#CARACTERISTIQUES|Modification des caractéristiques]]"), l’affaiblissement ou la diminution est doublé en cas de critique.
-
 
 {s:Reference|ACTIVEROBJETMAGIQUE}
 === Activer un objet magique ===
@@ -104,13 +118,27 @@ Enfin, pour jeter un sort nécessitant une ou plusieurs [[composante matérielle
 
 '''Incantation sur la défensive.''' Lancer un sort sur la défensive ne provoque pas d’[[attaque dopportunité|attaque d’opportunité]]. Par contre, cela nécessite un [[Lancer des sorts#TESTCONCENTRATION|test de Concentration]] (DD 15 + niveau du sort x2). Si le personnage le rate, le sort est perdu.
 
-'''Sorts de contact en situation de combat.''' Beaucoup de sorts ont une portée dite « de contact ». Pour s’en servir, le personnage récite son incantation et touche sa cible. Par une [[action libre]], il peut toucher le sujet (ou du moins, d’essayer de le faire) lors du round où il lance le sort. Au choix, le personnage peut se déplacer avant l’incantation, après avoir touché le sujet ou entre les deux. Le personnage peut automatiquement se toucher ou toucher un allié, mais il doit réussir un jet d’attaque de contact pour toucher un adversaire.
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Magie et sorts)#36|→]] Sorts de contact : Dans les chapitres Combat et Magie, il est dit que je ne peux toucher qu’un seul allié par une action simple ou jusqu’à six alliés par une action complexe et que je peux combiner délivrer un sort de contact avec une attaque naturelle ou une attaque à mains nues. Mais qu’en est-il si je veux délivrer un sort de contact sur un ennemi ? Il est uniquement dit que je peux le faire « round après round ».'''''
+
+Faire une attaque de contact contre un ennemi en le touchant, au-delà de l’[[action libre]] offerte par l’incantation du sort, est une [[action simple]]. Il est impossible de le faire lors d’une [[attaque à outrance]]. ''(Retour à la __[[Actions simples#LANCERSORT|règle]]__)''
+<hr>
+'''''[[FAQ- Manuel des joueurs (Magie et sorts)#37|→]] Sorts de contact : Porter un gantelet, un ceste, ou une autre arme semblable à un gant compte-t-il comme « toucher quelque chose » dans le cadre du déchargement accidentel d’un sort retenu ?'''''
+
+Non. ''(Retour à la __[[Actions simples#LANCERSORT|règle]]__)''
+<hr>
+'''''[[FAQ- Manuel des joueurs (Magie et sorts)#38|→]] Sorts de contact : Si un sort permet plusieurs contacts, le personnage est-il considéré comme retenant les charges tant qu’elles ne sont pas toutes dépensées ?'''''
+
+Oui. ''(Retour à la __[[Actions simples#LANCERSORT|règle]]__)''}'''Sorts de contact en situation de combat.''' Beaucoup de sorts ont une portée dite « de contact ». Pour s’en servir, le personnage récite son incantation et touche sa cible. Par une [[action libre]], il peut toucher le sujet (ou du moins, d’essayer de le faire) lors du round où il lance le sort. Au choix, le personnage peut se déplacer avant l’incantation, après avoir touché le sujet ou entre les deux. Le personnage peut automatiquement se toucher ou toucher un allié, mais il doit réussir un jet d’attaque de contact pour toucher un adversaire.
 
 ''Attaque de contact.'' Attaquer un adversaire pour porter un sort de contact est considéré comme une attaque armée et ne provoque pas d’une [[attaque dopportunité|attaque d’opportunité]]. En revanche, l’incantation provoque une [[attaque dopportunité|attaque d’opportunité]], aussi est-il recommandé de lancer son sort loin de l’ennemi avant de s’approcher. Les attaques de contact peuvent se faire au corps au corps ou à distance. Dans les deux cas, on peut obtenir un coup critique si le sort inflige des dégâts. La [[CA]] de l’adversaire ne prend pas en compte le [[Caractéristiques des armures#BONUSARMUREBOUCLIER|bonus d’armure]], ni du [[Caractéristiques des armures#BONUSARMUREBOUCLIER|bonus de bouclier]] ni d’un éventuel bonus d'armure naturelle. En revanche, le bonus de parade et les modificateurs de taille et de [[Dextérité]] s’appliquent normalement (le cas échéant).
 
 ''Retenir un sort de contact.'' Si le personnage ne veut pas décharger le sort au cours du round où il a prononcé l’incantation, il peut le retenir indéfiniment. Il peut tenter une nouvelle attaque de contact à chaque round. S’il touche quelqu’un ou quelque chose, même par inadvertance, le sort se décharge automatiquement. Si le personnage entame une nouvelle incantation, le sort de contact se dissipe sans effet. Il suffit d’une action simple pour toucher un ami et une [[action complexe]] permet d’en toucher jusqu’à six. Le personnage peut aussi porter des [[Actions simples#ATTAQUEAMAINSNUES|attaques à mains nues]] (ou à l’aide d’une [[Actions simples#ATTAQUENATURELLE|arme naturelle]]) alors qu’il retient un sort de contact. Dans ce cas, il n’est pas considéré comme armé et provoque les [[attaque dopportunité|attaques d’opportunité]] habituelles, à moins qu’il ne soit par ailleurs considéré comme armé même à mains nues. Si le personnage réussit son attaque, il inflige les dégâts de son [[Actions simples#ATTAQUEMAINSNUES|attaque à mains nues]] ou de son [[Actions simples#ATTAQUENATURELE|arme naturelle]] et décharge le sort. Si l’attaque échoue, le personnage retient toujours la charge de son sort.
 
-'''Sorts de contact à distance en situation de combat.''' Certains sorts demandent au personnage de faire des attaques de contact à distance. Ces attaques font partie du sort et ne demandent pas d’action séparée. Les attaques de contact à distance provoquent une [[attaque dopportunité|attaque d’opportunité]], même si le sort qui provoque cette attaque est un sort qui a été lancé sur la défensive. À moins qu’il en soit précisé autrement, on ne peut pas retenir un sort de contact à distance.
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Combat)#37|→]] Sorts de contact à distance et AO : Quand il lance un sort qui lui permet de faire un attaque de contact à distance (comme ''rayon ardent''), et qu’un ennemi est à portée d’allonge, est-ce que le personnage provoque une attaque d’opportunité ?'''''
+
+Oui, le personnage provoque deux [[AO|attaques d’opportunité]] : une pour l’__[[Actions simples#LANCERSORT|incantation du sort]]__ et une pour l’action d’attaque à distance, puisque les deux sont des événements séparés.  
+(Notez qu’un sort qui tire plusieurs rayons simultanés, comme ''[[rayon ardent]]'', ne provoque qu’une seule AO pour l’action d’attaque à distance plutôt qu’une AO pour chaque attaque à distance. Il en provoque toujours pour l’incantation du sort.)  
+Cette réponse est d’abord apparue dans le [[http://paizo.com/paizo/blog/v5748dyo5ldw0?The-FAQ-That-Time-Forgot|Paizo blog du 11/9/2012]].}'''Sorts de contact à distance en situation de combat.''' Certains sorts demandent au personnage de faire des attaques de contact à distance. Ces attaques font partie du sort et ne demandent pas d’action séparée. Les attaques de contact à distance provoquent une [[attaque dopportunité|attaque d’opportunité]], même si le sort qui provoque cette attaque est un sort qui a été lancé sur la défensive. À moins qu’il en soit précisé autrement, on ne peut pas retenir un sort de contact à distance.
 
 '''Mettre un terme à un sort.''' Mettre un terme à un sort actif est une action simple qui ne provoque pas d’[[attaque dopportunité|attaque d’opportunité]].
 

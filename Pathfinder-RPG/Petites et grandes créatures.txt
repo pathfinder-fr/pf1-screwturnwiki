@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Petites et grandes créatures
 Title: Créatures de taille inférieure ou supérieure à la moyenne
-LastModified: 2010-07-18 17:24
+LastModified: 2024-07-03 17:37
 Categories:
   - 'Combat'
 ---
@@ -9,7 +9,9 @@ Des règles spéciales s’appliquent aux créatures d’une taille supérieure 
 
 {s:Reference|TAILLETPMINI}
 === Créatures de taille TP, Min et I. ===
-Les créatures de taille très réduite occupent moins d’une case. Cela signifie que plusieurs d’entre elles peuvent tenir dans la même case. Une créature de taille TP occupe un espace de 75 cm de côté, quatre d’entre elles peuvent donc occuper une même case. Vingt-cinq créatures de taille Min ou cent de taille I peuvent se tenir sur une même case. 
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Combat)#20|→]] Créatures de taille TP et inférieures : Dans la section Créatures de taille TP et inférieures, il est dit qu’entrer dans l’espace occupé d’une créature provoque une attaque d’opportunité, mais en général les pas de placement n’en provoquent pas. Si une créature de taille TP ou moins fait un pas de placement dans l’espace occupé d’une créature, est-ce qu’elle provoquerait une attaque d’opportunité ?'''''
+
+Oui. Même avec un [[pas de placement]], une __[[Petites et grandes créatures#TAILLETPMINI|créature de taille TP ou moins]]__ qui entre dans l’espace occupé d’une créature provoque une attaque d’opportunité (sauf si elle utilise une capacité spécifique pour éviter l’attaque d’opportunité comme le don [[Éclat du singe]]). Cela ne veut pas dire qu’une créature de taille TP ou moins qui entre dans l’espace occupé d’une créature et se déplace hors d’une case contrôlée par une action de mouvement provoquent deux attaques d’opportunité de la part de cette créature, pour la même raison que se déplacer hors de plusieurs cases contrôlées par une créature dans la même action de mouvement ne provoque pas deux attaques d’opportunité.}Les créatures de taille très réduite occupent moins d’une case. Cela signifie que plusieurs d’entre elles peuvent tenir dans la même case. Une créature de taille TP occupe un espace de 75 cm de côté, quatre d’entre elles peuvent donc occuper une même case. Vingt-cinq créatures de taille Min ou cent de taille I peuvent se tenir sur une même case. 
 
 Les créatures qui occupent un espace inférieur à une case ont généralement une allonge naturelle de 0 mètre et ne peuvent atteindre un ennemi qui se trouve sur une case adjacente. Pour se battre, elles doivent impérativement pénétrer dans l’espace occupé par leur adversaire, ce qui les expose automatiquement à une [[attaque dopportunité|attaque d’opportunité]] de sa part. 
 
@@ -17,7 +19,9 @@ Un personnage peut attaquer ces créatures si besoin et peut donc les attaquer n
 
 {s:Reference|TAILLEGTGGIGC}
 === Créatures de taille G, TG, Gig et C. ===
-Les créatures de taille très supérieure à la moyenne occupent plusieurs cases.
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Combat)#16|→]] Augmentations d’allonge et de taille : La description des créatures de taille G et plus avec des armes à allonge indique qu’elles peuvent frapper jusqu’au double de leur allonge naturelle mais ne peuvent pas frapper dans leur allonge naturelle ou plus proche. Comment calculer ce doublement avant ou après les effets qui modifient mon allonge comme Fente ou ''bras long'' ?'''''
+
+Doublez l’allonge de base pour une __[[Petites et grandes créatures#TAILLEGTGGIGC|créature]]__ de la taille du personnage, puis ajoutez toutes les autres capacités. Donc par exemple, un [[ogre]] avec un sort de ''[[bras long]]'' qui manie une [[pique (arme)|pique]] et qui utilise le don [[Fente]] serait capable d’attaquer les créatures distantes de 4,5m, 6m, 7,5m, ou 9m mais pas les créatures distantes de 0m, 1,5m, ou 3m.}Les créatures de taille très supérieure à la moyenne occupent plusieurs cases.
 
 Les créatures qui occupent plus d’une case ont généralement une allonge naturelle de 3 m ou plus, ce qui signifie qu’elles peuvent atteindre des ennemis qui ne sont pas adjacents.
 
@@ -27,38 +31,36 @@ Les créatures de taille G ou plus qui utilisent une arme à allonge peuvent att
 
 {s:Reference|TABLEAUTAILLES}
 {s:Desambi|Voir aussi le [[Valeurs de combat#TABMODTAILLE|tableau des modificateurs de taille à la CA]].}
-<center>
-{| CLASS="tablo"
+{| CLASS="tablo centre autoalt"
 |+ Taille des créatures et échelle
 |- CLASS="titre"
 | Taille de créature || Espace occupé* || Allonge*
 |- CLASS="premier"
 | Infime (I) || 15 cm || 0
-|- CLASS="alt"
+|-
 | Minuscule (Min) || 30 cm || 0
 |-
 | Très petite (TP) || 75 cm || 0
-|- CLASS="alt"
+|-
 | Petite (P) || 1,50 m || 1,50 m
 |-
 | Moyenne (M) || 1,50 m || 1,50 m
-|- CLASS="alt"
+|-
 | Grande (G) (haute) || 3 m || 3 m
 |-
 | Grande (G) (longue) || 3 m || 1,50 m
-|- CLASS="alt"
+|-
 | Très grande (TG) (haute) || 4,50 m || 4,50 m
 |-
 | Très grande (TG) (longue) || 4,50 m || 3 m
-|- CLASS="alt"
+|-
 | Gigantesque (Gig) (haute) || 6 m || 6 m
 |-
 | Gigantesque (Gig) (longue) || 6 m || 4,50 m
-|- CLASS="alt"
+|-
 | Colossale (C) (haute) || 9 m || 9 m
 |-
 | Colossale (C) (longue) || 9 m || 6 m
 |-
 | CLASS="note" COLSPAN="3" | ''(*) Ce sont les valeurs types pour des créatures de la taille indiquée. Des exceptions sont possibles.''
 |}
-</center>

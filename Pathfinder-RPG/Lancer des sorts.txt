@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Lancer des sorts
 Title: Lancer des sorts
-LastModified: 2021-10-06 00:25
+LastModified: 2024-07-04 16:32
 Categories:
   - 'Magie'
 ---
@@ -66,43 +66,47 @@ Quand un personnage se trouve sur un cheval lancé au galop, à bord d’un char
 ==== Sort ====
 Si le personnage est la cible d’un sort alors que lui-même tente d’en lancer un, il doit réussir un [[lancer des sorts#TESTCONCENTRATION|test de Concentration]] afin de terminer son incantation. Si le sort qui l’agresse lui inflige des dégâts, le [[DD]] passe à 10 + points de dégâts subis + niveau du sort qu’il tente de jeter. Si le sort adverse sert juste à le distraire, le [[DD]] est égal au [[DD]] du jet de sauvegarde du sort de l’agresseur + le niveau du sort que le personnage essaie de lancer. Pour les sorts n’autorisant pas de jet de sauvegarde, on prend en compte le [[DD]] que son jet de sauvegarde devrait avoir s’il en permettait un (10 + niveau du sort + valeur de caractéristique du lanceur de sorts).
 
-{s:Reference|TABLEDDTESTSCONCENTRATION}
-<center>
-{| CLASS="tablo"
-|+ DD des tests de concentration
+{| CLASS="tablo centre autoalt"
+|+ {s:Reference|TABLEDDTESTSCONCENTRATION}DD des tests de concentration
 |- CLASS="titre"
 | Situation || DD du test de concentration
 |- CLASS="premier"
 | [[lancer des sorts#INCANTATIONSURLADEFENSIVE|Incantation sur la défensive]] || 15 + niveau du sort x2
-|- CLASS="alt"
+|-
 | [[lancer des sorts#BLESSURE|Blessé pendant l’incantation]] || 10 + dégâts reçus + niveau du sort
 |-
 | [[lancer des sorts#BLESSURE|Dégâts continus pendant l’incantation]] || 10 + 1/2 dégâts reçus + niveau du sort
-|- CLASS="alt"
+|-
 | [[lancer des sorts#SORT|Affecté par un sort qui ne blesse pas pendant l’incantation]] || DD du sort + niveau du sort
 |-
 | [[lancer des sorts#LUTTEETIMMOBILISATION|Agrippé ou immobilisé pendant l’incantation]] || 10 + BMO de l’adversaire + niveau du sort
-|- CLASS="alt"
+|-
 | [[lancer des sorts#MOUVEMENTVIOLENT|Mouvement violent pendant l’incantation]] || 10 + niveau du sort
 |-
 | [[lancer des sorts#MOUVEMENTTRESVIOLENT|Mouvement très violent pendant l’incantation]] || 15 + niveau du sort
-|- CLASS="alt"
+|-
 | [[lancer des sorts#MOUVEMENTTRESVIOLENT|Mouvement extrêmement violent pendant l’incantation]] || 20 + niveau du sort
 |-
 | [[lancer des sorts#INTEMPERIES|Vent et pluie ou neige fondue pendant l’incantation]] || 5 + niveau du sort
-|- CLASS="alt"
+|-
 | [[lancer des sorts#INTEMPERIES|Vent et grêle ou débris pendant l’incantation]] || 10 + niveau du sort
 |-
 | [[lancer des sorts#INTEMPERIES|Intempérie causée par un sort]] || voir le sort
-|- CLASS="alt"
+|-
 | [[lancer des sorts#ENCHEVETREMENT|Enchevêtré pendant l’incantation]] || 15 + niveau du sort
 |}
-</center>
 
 {s:Reference|CONTRESORT}
-
 === Les contresorts ===
-Un personnage peut utiliser n’importe quel sort comme contresort. Dans ce cas, le personnage utilise son énergie magique pour empêcher quelqu’un d’autre de se servir du même sort. Cette technique fonctionne même si un sort appartient à la magie profane et l’autre à la magie divine.
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Magie et sorts)#7|→]] Dissipation : Si j’utilise un sort « diamétralement opposé » pour contrer ou dissiper un autre sort (''bénédiction'' contre ''imprécation'', ''rapidité'' contre ''lenteur'', etc), est-ce que mon sort a un effet autre que la dissipation ?'''''
+
+Cela dépend si le sort est utilisé comme un __[[Lancer des sorts#CONTRESORT|contresort]]__ ou comme une __[[Lancer des sorts#COMBINAISON|dissipation]]__.
+
+S’il est utilisé comme un contresort, le sort n’a pas d’autre effet que de contrer le sort ciblé. S’il est utilisé comme une dissipation, il peut rester des « résidus » du sort ciblé ou de celui du personnage, selon qu’il affecte plus ou moins de cibles que le sort de son adversaire.
+
+Exemple de contresort : Le personnage est un magicien de niveau 5, son adversaire est un ensorceleur de niveau 6. À son tour, le personnage prépare une action de contresort. L’ensorceleur commence à incanter ''[[lenteur]]''. Le personnage réussit son test d’Art de la magie pour identifier le sort et lance ''[[rapidité]]'' comme contresort contre lui. La ''rapidité'' contre la ''lenteur'', et aucun des deux sorts n’a d’effet.
+
+Exemple de dissipation : Le personnage est un magicien de niveau 5, son adversaire est un ensorceleur de niveau 6. À son tour, l’ensorceleur lance ''[[lenteur]]'' et cible 6 alliés du personnage ; les 6 ratent leur jet de sauvegarde et sont ralentis. À son tour, le personnage lance ''[[rapidité]]'' et cible 5 de ses alliés ; cela dissipe automatiquement (sans test de niveau de lanceur de sorts requis) le sort de ''lenteur'' sur ces alliés, les laissant sans effet de ''lenteur'' ou de ''rapidité'' (le 6ème allié est toujours affecté par la ''lenteur''). Notez que cela ne supprime pas seulement l’effet de ''lenteur'' pendant la durée de la ''rapidité'' du personnage – l’effet est complètement dissipé sur ces 5 alliés. Notez qu’il importe peu que la cible ait normalement un [[jds|jet de sauvegarde]] ou une [[RM|résistance à la magie]] pour annuler ou éviter le sort utilisé lors de la dissipation (comme quand ''lenteur'' est lancé pour dissiper une ''rapidité'' déjà active) ; pour accélérer le jeu et empêcher des applications déséquilibrées de cette méthode de dissipation, le sort « diamétralement opposé » dissipe automatiquement son contraire, que la créature affectée par ce contraire le veuille ou non.}Un personnage peut utiliser n’importe quel sort comme contresort. Dans ce cas, le personnage utilise son énergie magique pour empêcher quelqu’un d’autre de se servir du même sort. Cette technique fonctionne même si un sort appartient à la magie profane et l’autre à la magie divine.
 
 ==== Comment marchent les contresorts ? ====
 Pour utiliser un contresort, le personnage doit choisir sa cible en [[action préparée|préparant son action]]. Il attend donc que son adversaire commence à lancer un sort (il peut tout de même se déplacer, le fait de préparer un contresort étant une [[action simple]]).
@@ -209,7 +213,15 @@ Les sorts et effets magiques fonctionnent généralement comme indiqué dans leu
 '''Effets multiples de contrôle mental.''' Il arrive qu'un sort de contrôle mental en rende un autre inutile, comme un sort qui empêche la cible d’agir. Si le contrôle mental ne prive pas la cible de sa capacité d’action, il n’interfère habituellement pas avec les autres. Quand une créature se retrouve sous le contrôle de deux lanceurs de sorts, elle fait de son mieux pour obéir aux deux, à condition que les instructions qu’elle reçoit de part et d’autre le lui permettent. Si elle reçoit simultanément des ordres contradictoires, les lanceurs de sorts en compétition doivent faire un test de [[Charisme]] opposé pour déterminer à qui la cible obéit.
 
 ==== Sorts à effets opposés ====
-Les sorts ayant des effets opposés fonctionnent normalement et totalement, leurs bonus, malus et autres s’appliquent dans l’ordre où les sorts prennent effet. Certains sorts s’annulent ou se contrent réciproquement. Dans ce cas, la description de chacun le précise.
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Magie et sorts)#7|→]] Dissipation : Si j’utilise un sort « diamétralement opposé » pour contrer ou dissiper un autre sort (''bénédiction'' contre ''imprécation'', ''rapidité'' contre ''lenteur'', etc), est-ce que mon sort a un effet autre que la dissipation ?'''''
+
+Cela dépend si le sort est utilisé comme un __[[Lancer des sorts#CONTRESORT|contresort]]__ ou comme une __[[Lancer des sorts#COMBINAISON|dissipation]]__.
+
+S’il est utilisé comme un contresort, le sort n’a pas d’autre effet que de contrer le sort ciblé. S’il est utilisé comme une dissipation, il peut rester des « résidus » du sort ciblé ou de celui du personnage, selon qu’il affecte plus ou moins de cibles que le sort de son adversaire.
+
+Exemple de contresort : Le personnage est un magicien de niveau 5, son adversaire est un ensorceleur de niveau 6. À son tour, le personnage prépare une action de contresort. L’ensorceleur commence à incanter ''[[lenteur]]''. Le personnage réussit son test d’Art de la magie pour identifier le sort et lance ''[[rapidité]]'' comme contresort contre lui. La ''rapidité'' contre la ''lenteur'', et aucun des deux sorts n’a d’effet.
+
+Exemple de dissipation : Le personnage est un magicien de niveau 5, son adversaire est un ensorceleur de niveau 6. À son tour, l’ensorceleur lance ''[[lenteur]]'' et cible 6 alliés du personnage ; les 6 ratent leur jet de sauvegarde et sont ralentis. À son tour, le personnage lance ''[[rapidité]]'' et cible 5 de ses alliés ; cela dissipe automatiquement (sans test de niveau de lanceur de sorts requis) le sort de ''lenteur'' sur ces alliés, les laissant sans effet de ''lenteur'' ou de ''rapidité'' (le 6ème allié est toujours affecté par la ''lenteur''). Notez que cela ne supprime pas seulement l’effet de ''lenteur'' pendant la durée de la ''rapidité'' du personnage – l’effet est complètement dissipé sur ces 5 alliés. Notez qu’il importe peu que la cible ait normalement un [[jds|jet de sauvegarde]] ou une [[RM|résistance à la magie]] pour annuler ou éviter le sort utilisé lors de la dissipation (comme quand ''lenteur'' est lancé pour dissiper une ''rapidité'' déjà active) ; pour accélérer le jeu et empêcher des applications déséquilibrées de cette méthode de dissipation, le sort « diamétralement opposé » dissipe automatiquement son contraire, que la créature affectée par ce contraire le veuille ou non.}Les sorts ayant des effets opposés fonctionnent normalement et totalement, leurs bonus, malus et autres s’appliquent dans l’ordre où les sorts prennent effet. Certains sorts s’annulent ou se contrent réciproquement. Dans ce cas, la description de chacun le précise.
 
 ==== Effets instantanés ====
 Les sorts à effet instantané s’ajoutent lorsqu’ils visent simultanément une même cible.
