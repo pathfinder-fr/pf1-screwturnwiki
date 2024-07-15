@@ -1,16 +1,82 @@
 ---
 Name: Pathfinder-RPG.Synthétiseur (conjurateur)
 Title: Synthétiseur
-LastModified: 2020-05-19 15:11
+LastModified: 2024-07-09 00:01
 Categories:
-  - 'Art de la Magie'
+  - 'Archétype'
+  - 'Archétype conjurateur'
   - 'Classe'
-  - 'Règles officielles'
+  - 'Règle officielle'
+  - 'Src Art de la magie'
 ---
 {s:Menuarchétypeconjurateur}{s:um}''Au lieu de convoquer un eidolon à ses côtés, le synthétiseur fusionne avec lui. Ce ne sont plus deux créatures mais une fusion entre le synthétiseur et l’eidolon, qui deviennent un être unique.''
 
 ====Fusion avec l’eidolon====
-Le synthétiseur convoque l’essence d’un puissant extérieur et la mêle à la sienne. Le synthétiseur porte l'eidolon comme une armure vivante et translucide. L'eidolon mime tous les mouvements du synthétiseur qui perçoit le monde à travers ses sens et parle par sa bouche, car les deux ne font plus qu’un.
+{s:FAQ|'''''[[FAQ- lArt de la magie#6|→]] Conjurateur : Comment un synthétiseur (page 56) peut-il soigner les dégâts subits par son eidolon ?'''''
+
+Puisque l'eidolon confère des points de vie temporaires au __[[Synthétiseur (conjurateur)|synthétiseur]]__ plutôt que d'avoir sa propre réserve de points de vie classiques, les effets qui soignent les dégâts subits ne restaurent pas les points de vie temporaires de l'eidolon. Cela implique techniquement qu'un personnage est incapable de soigner l'eidolon. Pour remédier à cela, les effets qui soignent spécifiquement les eidolons (comme ''[[régénération deidolon|régénération d'eidolon]]'') restaurent les points de vie temporaires de l'eidolon d'un synthétiseur. Comprenez que cette restriction ne fait pas de ces sorts une « taxe » obligatoire pour les synthétiseurs, mais un avantage qui leur permet d'utiliser les points de vie de leur eidolon comme tampon entre eux et les dégâts qu'ils subissent, contrairement aux autres conjurateurs qui peuvent être ciblés séparément de leur eidolon.
+
+Même l'évolution [[Eidolon#GUERISONACCELEREE|guérison accélérée]], ou d'autres effets de guérison accélérée ou de régénération, restaurent des points de vie et non des points de vie temporaires, donc ils soignent le conjurateur, pas les points de vie temporaires conférés par l'eidolon.
+<hr>
+'''''[[FAQ- lArt de la magie#7|→]] Conjurateur : Est-ce qu'un synthétiseur (page 56) conserve quelconque bonus d'armure ou autre avantage de son armure lorsqu'il est fusionné avec son eidolon ?'''''
+
+Non. L'eidolon est, dans les faits, l'armure du __[[Synthétiseur (conjurateur)|synthétiseur]]__, et toute autre armure que le synthétiseur porte ne fonctionne pas tant que l'eidolon est présent. Heureusement, cela ne signifie pas que le synthétiseur doit retirer son armure lorsqu'il porte l'eidolon, et lorsque l'eidolon est banni/renvoyé/tué, l'amure que portait le conjurateur refait immédiatement effet.
+<hr>
+'''''[[FAQ- lArt de la magie#8|→]] Conjurateur : Est-ce qu'un synthétiseur (page 56) peut porter des attaques avec son propre corps (grâce à des armes manufacturées, des attaques à mains nues ou des attaques naturelles) et des attaques de son eidolon fusionné dans le même round ?'''''
+
+Oui, mais les attaques naturelles du personnage fusionné sont toujours sujettes à la colonne Attaques max du tableau pour un eidolon de son niveau. Par exemple, un __[[Synthétiseur (conjurateur)|synthétiseur]]__ de niveau 1 est limité à 3 attaques naturelles par round, qu'elles proviennent de l'eidolon, du synthétiseur ou d'une combinaison des deux.
+
+Si le synthétiseur souhaite utiliser les attaques naturelles de son eidolon et utiliser ses propres armes manufacturées ou naturelles dans le même round, son eidolon doit avoir suffisamment de membres pour supporter toutes ces attaques. Par exemple, un gnome synthétiseur fusionné avec un eidolon bipède avec deux bras a accès à deux bras pour porter des attaques ; si le synthétiseur souhaite porter deux attaques de griffe avec les griffes de son eidolon et également porter des attaques d'arme (comme avec une dague ou un bâton), il doit alouer plus d'évolutions de bras à son eidolon pour tenir ces armes (comme une extension des bras du conjurateur) ; un eidolon avec deux bras ne peut pas porter deux attaques de griffe et porter une attaque de dague ou de bâton dans un même round.
+
+N'oubliez pas que le synthétiseur est toujours soumis aux règles relatives à la combinaison d'attaques d'arme manufacturées et naturelles lors d'un même round (ce qui implique que les attaques naturelles sont toujours considérées comme secondaires et subissent donc un malus de -5 à l'attaque).
+
+N'oubliez pas non plus que le conjurateur porte l'eidolon comme un « costume » biologique et englobant, et que la forme de l'eidolon limite ce que le conjurateur peut faire. Si l'eidolon n'a pas de bras, le conjurateur ne peut pas utiliser ses propres bras pour manipuler des objets, porter des attaques, lancer des sorts à composante gestuelle, ou toute autre chose nécessitant des bras - pendant la fusion, les membres du conjurateur sont piégés dans le costume-eidolon sans bras, et il ne peut pas les utiliser pour manipuler des objets. Le conjurateur n'est pas capable d'étendre les parties de son corps en dehors du costume-eidolon ; s'il veut pouvoir manipuler des objets avec des bras, l'eidolon a besoin de bras (bien que les tentacules conviennent pour les tâches simples).
+
+(Note : C'est une question d'ambiance et de préférence du joueur si le synthétiseur flotte immobile dans le costume-eidolon et que ses membres bougent à son commandement mental, si le synthétiseur bouge ses propres bras et que les bras du costume-eidolon répètent ce mouvement, ou si le costume-eidolon est plus serré et que les membres enveloppant la chair bougent en réponse directe aux propres mouvements du synthétiseur).
+
+Note : Cela clarifie une FAQ précédente où les attaques d'arme du conjurateur comptaient dans le nombre d'attaques du tableau.
+<hr>
+'''''[[FAQ- lArt de la magie#9|→]] Conjurateur : Que se passe-t-il lorsqu'un synthétiseur (page 56) subit un affaiblissement ou une diminution de caractéristique alors que l'eidolon est présent ?'''''
+
+L'eidolon subit les affaiblissements et les diminutions de For, de Dex et de Con, tandis que le __[[Synthétiseur (conjurateur)|conjurateur]]__ subit les affaiblissements et les diminutions d'Int, de Sag et de Cha. Si ces malus amènent la For ou la Dex de l'eidolon à 0, le conjurateur/eidolon fusionné est sans défense (mais il peut toujours le renvoyer). Si ces malus amènent la Con de l'eidolon à 0, il meurt et retourne sur son plan d'origine. Si l'eidolon part (qu'il soit banni, renvoyé ou tué), le conjurateur reprend immédiatement ses propres valeurs de For, de Dex et de Con.
+
+Il n'y a pas de « débordement » si un affaiblissement ou une diminution de caractéristique devrait amener une valeur à moins de 0 ; si un eidolon avec une Constitution de 1 subit 3 points d'affaiblissement de Con et meurt, le conjurateur ne subit pas les 2 points d'affaiblissement de Con « excédentaires ». Cependant, les effets continus (comme l'affaiblissement d'un poison actif) affecteraient le conjurateur (non-fusionné) après la disparition de l'eidolon.
+
+Aussi, n'oubliez pas que l'eidolon ne guérit pas naturellement. Comme les dégâts aux points de vie, tout affaiblissement ou diminution de caractéristique subits par l'eidolon persistent lorsqu'il est banni/renvoyé/tué et qu'il est réinvoqué. L'exception étant un eidolon tué par un affaiblissement de Con (qui, au moment d'être réinvoqué, serait toujours à 0 Con et disparaîtrait immédiatement) ; dans cette situation, l'eidolon réinvoqué est soigné de 1 point d'affaiblissement ou de diminution afin que son nombre d'affaiblissement ou de diminution soit de 1 inférieur à sa valeur totale de Constitution, lui permettant de survivre.
+
+Les effets qui soignent les affaiblissements et les diminutions fonctionnent sur les caractéristiques de l'eidolon lorsqu'il est présent.
+<hr>
+'''''[[FAQ- lArt de la magie#10|→]] Conjurateur : Que se passe-t-il lorsqu'un synthétiseur (page 56) subit un malus, contracte une affliction, ou est soumis à un effet continu lorsque l'eidolon disparaît ?'''''
+
+Ces effets persistent sur le __[[Synthétiseur (conjurateur)|conjurateur]]__ après le départ de l'eidolon. Par exemple, un ''[[rayon affaiblissant]]'' ciblant le personnage fusionné continue d'affecter le conjurateur après le départ de l'eidolon, comme le ferait un sort de ''[[sort Malédiction|malédiction]]'' ou de ''[[flèche acide]]'', ou même les effets d'un poison actif. Ces effets s'appliquent au personnage dans sa globalité, et le fait que l'eidolon disparaîsse ne signifie pas que le conjurateur est libéré de l'effet (les affaiblissements de caractéristique sont comptés séparément, comme décrit dans [[#9|une autre FAQ]], car s'agit d'une statistique différente que le conjurateur « emprunte » à l'eidolon). Si l'état ou l'effet se termine (parce qu'il est arrivé au terme de sa durée, qu'il a été dissipé/neutralisé/soigné, etc) pendant que l'eidolon est absent, il ne refait pas surface lorsque l'eidolon est réinvoqué. Cela s'applique aussi bien aux effets hostiles que bénéfiques - un conjurateur invisible n'est pas soudainement rendu visible si son eidolon disparaît, et il ne redevient pas invisible si la durée s'est terminée pendant que l'eidolon était absent.
+<hr>
+'''''[[FAQ- lArt de la magie#11|→]] Conjurateur : Un synthétiseur (page 56) peut-il utiliser des sorts qui n'affectent pas les extérieurs sur lui-même, même s'il est considéré comme de son type ou de type extérieur, « en tenant compte du type le plus désavantageux » ?'''''
+
+Oui, car la capacité tranfert des sorts de l'eidolon normal indique « Le conjurateur peut lui lancer un sort même si, normalement, il ne devrait pas affecter les créatures de type Extérieur. », et l'archétype __[[Synthétiseur (conjurateur)|synthétiseur]]__ ne la modifie pas.
+
+Note : Il s'agit d'une révision d'une question précédente qui utilisait ''agrandissement'' comme extemple. FAQ en attente sur la magie de changement de taille et le synthétiseur (à cause de la limitation de la règle « l'eidolon doit être au moins de la même taille que le synthétiseur »).
+<hr>
+'''''[[FAQ- lArt de la magie#12|→]] Conjurateur : Un synthétiseur (page 56) peut-il utiliser la capacité aspect pour appliquer l'évolution armure naturelle améliorée sur lui-même ? Est-ce qu'elle se cumulerait avec l'armure naturelle améliorée du costume-eidolon ?'''''
+
+Un __[[Synthétiseur (conjurateur)|synthétiseur]]__ peut utiliser [[Conjurateur#ASPECT|aspect]] pour augmenter sa propre armure naturelle. Cependant, lorsqu'il est fusionné, il obtient le bonus d'armure naturelle de l'eidolon, donc cette augmentation ne se cumule pas avec son propre bonus d'armure naturelle.
+
+(Utiliser la capacité de cette façon reste utile lorsque l'eidolon est banni, mort ou renvoyé.)
+<hr>
+'''''[[FAQ- lArt de la magie#13|→]] Conjurateur : Un synthétiseur (page 56) profite-t-il de l'évolution compétent même si l'eidolon n'a pas de compétences propres ? Qu'en est-il de l'évolution augmentation de caractéristique appliquée à une caractéristique mentale ?'''''
+
+Si l'eidolon du __[[Synthétiseur (conjurateur)|synthétiseur]]__ possède l'évolution [[Eidolon#COMPETENT|compétent]], le synthétiseur obtient le bonus à cette compétence.
+
+Si le synthétiseur applique l'évolution [[Eidolon#AUGMENTATIONDECARACTERISTIQUE|augmentation de caractéristique]] à l'une des caractéristiques mentales de l'eidolon, elle n'a aucun effet sur le synthétiseur puisqu'il utilise ses propres valeurs de caractéristiques mentales.
+<hr>
+'''''[[FAQ- lArt de la magie#14|→]] Conjurateur : Un synthétiseur (page 56) utilise-t-il son propre nombre de Dés de vie ou celui de son eidolon dans le cadre des évolutions basées sur le nombre de DV, comme souffle et toile ? Qu'en est-il de son BBA dans le cadre des attaques ?'''''
+
+Le __[[Synthétiseur (conjurateur)|synthétiseur]]__ utilise les DV de l'eidolon pour déterminer les effets des évolutions, et pas son nombre de DV de conjurateur ou son nombre total de DV.
+
+Lorsqu'il est fusionné, le conjurateur utilise le BBA de l'eidolon à la place de son BBA de classe, et ajoute le BBA offert par d'autres sources normalement. Par exemple, un guerrier 19/conjurateur 1 a un BBA total de +19 (+19 du guerrier, +0 du conjurateur), qui passe à +20 lorsqu'il est fusionné avec son eidolon (+19 du guerrier, +1 de l'eidolon de niveau 1).
+<hr>
+'''''[[FAQ- lArt de la magie#15|→]] Conjurateur : Un synthétiseur (page 56) qui choisit l'évolution engloutissement utilise-t-il ses propres points de vie ou les points de vie temporaires de l'eidolon pour déterminer les pvs de l'« estomac » ?'''''
+
+On utilise les points de vie du __[[Synthétiseur (conjurateur)|conjurateur]]__ pour déterminer cela. Évidemment, ce n'est pas le conjurateur qui englouti la cible, elle est simplement contenue dans le costume-eidolon, mais les pvs de l'« estomac » sont basés sur des pvs réels, pas des pvs temporaires, donc il est plus facile d'utiliser ceux du conjurateur plutôt que de créer une exception spécifique pour qu'ils soient basés sur les points de vie temporaires du costume-eidolon. Par ailleurs, cela signifie que les effets qui augmentent les points de vie du conjurateur (comme ''[[endurance de lours|endurance de l'ours]]'') augmentent aussi les pvs de l'« estomac ».}Le synthétiseur convoque l’essence d’un puissant extérieur et la mêle à la sienne. Le synthétiseur porte l'eidolon comme une armure vivante et translucide. L'eidolon mime tous les mouvements du synthétiseur qui perçoit le monde à travers ses sens et parle par sa bouche, car les deux ne font plus qu’un.
 
 Tant qu’ils fusionnent, le synthétiseur  utilise les caractéristiques physiques de l’eidolon ([[Force]], [[Dextérité]] et [[Constitution]]) mais conserve ses caractéristiques mentales ([[Intelligence]], [[Sagesse]] et [[Charisme]]).
 

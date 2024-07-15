@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Sorcière
 Title: La sorcière
-LastModified: 2022-02-04 19:05
+LastModified: 2024-07-13 17:48
 Categories:
   - 'Classe'
   - 'Règle officielle'
@@ -410,7 +410,10 @@ La sorcière peut préparer un certain nombre de [[Liste des sorts de sorcière#
 
 {s:Reference|MALEFICE}{s:Reference|MALEFICEMAJEUR}{s:Reference|GRANDMALEFICE}
 ==== Maléfices ====
-Les sorcières apprennent un certain nombre de sortilèges, appelés des maléfices, qui améliorent leurs pouvoirs ou affaiblissent leurs ennemis. 
+{s:FAQ|'''''[[FAQ- Manuel des joueurs - Règles avancées#56|→]] Sorcière, Maléfices : Si un maléfice indique qu'il ne peut affecter une créature qu'une fois toutes les 24 heures, cela implique-t-il qu'une autre sorcière ne peut pas l'utiliser sur cette cible ?'''''
+
+Non, la restriction ne s'applique qu'à la sorcière qui a utilisé le __[[Sorcière#MALEFICE|maléfice]]__, et n'empêche pas d'autres sorcières d'utiliser leur propre maléfice du même nom sur cette cible.  
+Par exemple, si Esmeralda utilise son maléfice de [[Maléfices#Guérison|guérison]] sur Gustave, elle ne peut plus l'utiliser sur lui pendant 24 heures. Morda peut toujours utiliser son maléfice de guérison sur Gustave pendant la période d'attente d'Esmeralda (et le faire empêcherait Morda de l'utiliser à nouveau sur lui pendant 24 heures). Répétez ad infinitum pour toute autre sorcière utilisant le maléfice de guérison.}Les sorcières apprennent un certain nombre de sortilèges, appelés des maléfices, qui améliorent leurs pouvoirs ou affaiblissent leurs ennemis. 
 
 Au niveau 1, la sorcière gagne un maléfice de son choix, un autre au niveau 2 et ensuite un de plus tous les deux niveaux, comme indiqué dans la [[Sorcière#TABLESORCIERE|table]]. 
 
@@ -425,9 +428,18 @@ Sauf indication, pour lancer un maléfice, la sorcière doit utiliser une [[acti
 Voir la [[maléfices|liste des maléfices]], la [[maléfices#MALEFICEMAJEUR|liste des maléfices majeurs]] et [[maléfices#GRANDMALEFICE|la liste des grands maléfices]]
 
 {s:Reference|FAMILIER}
-==== Familier de la sorcière (Ext) ====
-Au [[niveau]] 1, la sorcière forge un lien étroit avec un familier, une créature qui lui enseigne la magie et la guide. Il l’aide également en lui accordant des bonus de [[compétences|compétence]], des sorts supplémentaires et l’assiste pour certains types de magie. Ce pouvoir fonctionne comme le [[magicien#Pacte_magique_Ext_ou_Mag_3|pacte magique]] du familier, à l’exception de ce qui est indiqué dans la section du familier.
+==== Familier de la sorcière (Ext ====
+Au niveau 1, la sorcière forge un lien étroit avec un familier, une créature qui lui enseigne la magie et la guide. Il l’aide également en lui accordant des bonus de [[compétences|compétence]], des sorts supplémentaires et l’assiste pour certains types de magie. Ce pouvoir fonctionne comme le [[magicien#PACTEMAGIQUE|pacte magique]] du familier, à l’exception de ce qui est indiqué dans la section [[Sorcière#FAMILIERDELASORCIERE|familier de la sorcière]].
 
+{s:Reference|SORTSDEPROTECTEUR}
+==== Sorts de protecteur ====
+{s:FAQ|'''''[[FAQ- Manuel des joueurs - Règles avancées#57|→]] Sorcière, Sorts de protecteur : Si je prends des niveaux dans une classe de prestige qui fait progresser ma capacité d'incantation, est-ce que je continue à obtenir des sorts bonus grâce à mon protecteur en gagnant des niveaux ?'''''
+
+Non. Il s'agit d'une __[[Sorcière#Sorts_de_protecteur_10|capacité de classe]]__, et la capacité « +1 niveau de lancement de sorts » des classes de prestige n'affecte que les sorts connus, les sorts par jour, et le niveau de lanceur de sorts effectif. (Le personnage conserve cependant les sorts de protecteur offerts par son familier suivant son véritable niveau de sorcière, bien sûr.)}Au [[niveau]] 1, quand la sorcière obtient son [[Familiers|familier]], elle doit également se choisir un protecteur. C’est une force vague et mystérieuse qui lui donne des pouvoirs pour des raisons qu’elle ne comprend pas forcément entièrement. Cette force n’a pas besoin de recevoir un nom mais elle influe sur l’un des domaines suivants. Au [[niveau]] 2 et, par la suite, tous les deux niveaux, le protecteur de la sorcière ajoute de nouveaux sorts à sa liste de sorts connus. Ils s’ajoutent automatiquement à la liste de sorts stockés par le [[Familiers|familier]]. Les sorts acquis dépendent du protecteur de la sorcière. Ils sont tous regroupés par thème, leur véritable nom dépendant du [[MJ]] et de la sorcière.
+
+Voir la [[Protecteurs|liste des sorts de protecteur]] de sorcière.
+
+{s:Reference|FAMILIERDELASORCIERE}
 === Le familier de la sorcière ===
 En forgeant d’étranges liens avec des êtres innommables, les sorcières s’attachent les services d’un conseiller mystique, un [[Familiers|familier]] qui les sert et leur révèle des secrets inconnus de la plupart des mortels. Un [[Familiers|familier]] est un animal que la sorcière choisit pour l’aider dans ses incantations et pour obtenir des pouvoirs spéciaux. Ceci fonctionne comme le [[magicien#PACTEMAGIQUE|pacte magique]] du magicien, sauf en ce qui concerne les indications suivantes. La sorcière utilise son [[niveau]] de classe comme [[niveau]] de magicien effectif pour déterminer les pouvoirs de son [[Familiers|familier]]. Elle peut choisir n’importe quel [[Familiers|familier]] accessible aux magiciens en plus des nouveaux présentés ci-dessous.
 
@@ -475,8 +487,3 @@ En plus des [[Familiers|familiers]] présentés dans le Manuel des joueurs Pathf
 | Araignée
 | CLASS="gauche" | Le maître obtient un bonus de +3 aux tests d’[[Escalade]].
 |}
-
-=== Sorts de protecteur ===
-Au [[niveau]] 1, quand la sorcière obtient son [[Familiers|familier]], elle doit également se choisir un protecteur. C’est une force vague et mystérieuse qui lui donne des pouvoirs pour des raisons qu’elle ne comprend pas forcément entièrement. Cette force n’a pas besoin de recevoir un nom mais elle influe sur l’un des domaines suivants. Au [[niveau]] 2 et, par la suite, tous les deux niveaux, le protecteur de la sorcière ajoute de nouveaux sorts à sa liste de sorts connus. Ils s’ajoutent automatiquement à la liste de sorts stockés par le [[Familiers|familier]]. Les sorts acquis dépendent du protecteur de la sorcière. Ils sont tous regroupés par thème, leur véritable nom dépendant du [[MJ]] et de la sorcière.
-
-Voir la [[Protecteurs|liste des sorts de protecteur]].

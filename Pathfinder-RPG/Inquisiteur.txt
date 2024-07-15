@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Inquisiteur
 Title: L'inquisiteur
-LastModified: 2024-07-06 17:29
+LastModified: 2024-07-13 16:48
 Categories:
   - 'Classe'
   - 'Src Manuel des joueurs - Règles avancées'
@@ -431,7 +431,9 @@ Au niveau 2, l'inquisiteur ajoute la moitié de son niveau aux tests de [[Survie
 
 {s:Reference|TACTIQUESOLITAIRE}
 ====Tactique solitaire (Ext)====
-Au niveau 3, tous les alliés de l'inquisiteur sont considérés comme possédant le même don de travail en équipe que lui quand il s'agit de déterminer s'il reçoit un bonus grâce à ses dons de travail en équipe. Les alliés ne reçoivent pas le moindre bonus associé à ces dons, à moins qu'ils ne les possèdent eux-mêmes. Le placement et les actions des alliés doivent tout de même remplir les conditions requises par le don pour que l'inquisiteur puisse en profiter.
+{s:FAQ|'''''[[FAQ- Manuel des joueurs - Règles avancées#27|→]] Inquisiteur, Tactique solitaire : Si un inquisiteur utilise tactique solitaire (page 40) avec le don Grande tenaille (page 163), est-ce que l'ennemi provoque une attaque d'opportunité lorsqu'il est touché par un coup critique ?'''''
+
+Oui, mais uniquement lorsque les alliés de l'__[[Inquisiteur#TACTIQUESOLITAIRE|inquisiteur]]__ obtiennent un [[coup critique]] contre l'adversaire qu'ils prennent tous les deux en tenaille. Dans ce cas, l'ennemi provoque une [[AO|attaque d'opportunité]] de la part de l'inquisiteur. L'inverse n'est pas vrai, puisque ses alliés ne bénéficient des dons de travail d'équipe que s'ils les possèdent eux-mêmes.}Au niveau 3, tous les alliés de l'inquisiteur sont considérés comme possédant le même don de travail en équipe que lui quand il s'agit de déterminer s'il reçoit un bonus grâce à ses dons de travail en équipe. Les alliés ne reçoivent pas le moindre bonus associé à ces dons, à moins qu'ils ne les possèdent eux-mêmes. Le placement et les actions des alliés doivent tout de même remplir les conditions requises par le don pour que l'inquisiteur puisse en profiter.
 
 {s:Reference|DONDETRAVAILENEQUIPE}
 ====Don de travail en équipe====
@@ -441,7 +443,10 @@ Par une action simple, l'inquisiteur peut choisir un nouveau don de travail en �
 
 {s:Reference|TUEUR}
 ====Tueur (Sur)====
-Au niveau 5, l'inquisiteur peut appliquer la propriété ''[[tueuse (propriété)|tueuse]]'' à son arme par une [[action rapide]]. Il choisit le [[Types de créatures|type de créature]] visé quand il utilise le pouvoir (et le [[Sous-types de créatures|sous-type]] si le type est humanoïde ou extérieur). Une fois le type choisi, il peut en changer par une [[action rapide]]. Ce pouvoir fonctionne tant que l'inquisiteur tient son arme. S'il la lâche ou se la fait prendre, elle ne reprend cette propriété qu'une fois de retour dans les mains de l'inquisiteur, si sa durée n'a pas expirée. Chaque jour, ce pouvoir dure un nombre de rounds égal au niveau de l'inquisiteur. Ces rounds ne sont pas forcément consécutifs.
+{s:FAQ|'''''[[FAQ- Manuel des joueurs - Règles avancées#28|→]] Inquisiteur, Tueur : La capacité tueur de l'inquisiteur (page 40) affecte-t-elle les deux extrémités d'une arme double ?'''''
+
+Non. En règle générale, le jeu considère les [[Caractéristiques des armes#DOUBLE|armes doubles]] comme s'il s'agissait de deux armes différentes, et une capacité, un sort ou un effet qui modifie ou améliore « une arme » ne s'applique qu'à une extrémité d'une arme double.  
+Parfois les règles sont redondantes et précisent explicitement qu'une capacité qui affecte « une arme » (comme le [[Paladin#PACTEDIVIN|pacte divin]] du paladin) n'affecte qu'une seule extrémité d'une arme double. D'autres fois les règles ne sont pas redondantes (comme le sort ''[[arme magique]]'' ou la capacité __[[Inquisiteur#TUEUR|tueur]]__ de l'inquisiteur), mais la règle générale s'applique toujours : l'arme double est traitée comme deux armes séparées.}Au niveau 5, l'inquisiteur peut appliquer la propriété ''[[tueuse (propriété)|tueuse]]'' à son arme par une [[action rapide]]. Il choisit le [[Types de créatures|type de créature]] visé quand il utilise le pouvoir (et le [[Sous-types de créatures|sous-type]] si le type est humanoïde ou extérieur). Une fois le type choisi, il peut en changer par une [[action rapide]]. Ce pouvoir fonctionne tant que l'inquisiteur tient son arme. S'il la lâche ou se la fait prendre, elle ne reprend cette propriété qu'une fois de retour dans les mains de l'inquisiteur, si sa durée n'a pas expirée. Chaque jour, ce pouvoir dure un nombre de rounds égal au niveau de l'inquisiteur. Ces rounds ne sont pas forcément consécutifs.
 
 {s:Reference|DETECTIONDESMENSONGES}
 ====Détection des mensonges (Mag)====

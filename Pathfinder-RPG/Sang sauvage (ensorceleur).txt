@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Sang sauvage (ensorceleur)
 Title: Sang sauvage
-LastModified: 2021-03-28 03:23
+LastModified: 2024-07-09 00:31
 Categories:
   - 'Archétype'
   - 'Archétype ensorceleur'
@@ -9,13 +9,17 @@ Categories:
   - 'Règle officielle'
   - 'Src Art de la magie'
 ---
-{s:Menuarchétypeensorceleur}{s:um}''Un ensorceleur de sang sauvage possède une mutation d’un lignage plus ordinaire, avec un arcane et au moins un pouvoir de lignage différents par rapport à la version classique. Pour créer un ensorceleur au sang sauvage, il faut choisir un lignage existant puis choisir l’une des mutations de lignage associées à ce lignage. L’ensorceleur utilise les compétences de classe, les sorts supplémentaires et les dons supplémentaires associés au lignage et l’arcane de lignage muté. Il utilise les pouvoirs habituels de son lignage, sauf quand ils sont remplacés par ceux de lignage muté.''
+{s:Menuarchétypeensorceleur}{s:FAQ|'''''[[FAQ- lArt de la magie#33|→]] Ensorceleur, Sang mêlé et Sang sauvage : Puis-je choisir les deux archétypes sur un même personnage ?'''''
+
+Non, car les règles relatives aux archétypes indiquent qu'aucune des capacités de classe alternatives ne peut remplacer ou modifier la même capacité de classe qu'une autre capacité de classe alternative. Puisque les archétypes d'ensorceleur __[[Sang mêlé (ensorceleur)|sang mêlé]]__ et __[[Sang sauvage (ensorceleur)|sang sauvage]]__ remplace tous les deux l'arcane de lignage et les pouvoirs de lignage, ils ne sont pas compatibles.
+
+Notez que le MJ a toute latitude pour autoriser cette combinaison. Seulement, le personnage ne devrait pas pouvoir utiliser la capacité de l'archétype sang mêlé à choisir un pouvoir de lignage de niveau inférieur s'il a été remplacé par l'archétype sang sauvage. Par exemple, un ensorceleur de sang sauvage brutal ([[Lignage Abyssal|abyssal]]) remplace « force de l'Abysse » par « ailes des Abysses » au niveau 9 ; le personnage « paye » pour l'archétype sang sauvage en perdant « force de l'Abysse », et ne peut donc pas utiliser son lignage sauvage pour choisir « force de l'Abysse » comme pouvoir de lignage de niveau 15 ou 20.}{s:um}''Un ensorceleur de sang sauvage possède une mutation d’un lignage plus ordinaire, avec un arcane et au moins un pouvoir de lignage différents par rapport à la version classique. Pour créer un ensorceleur au sang sauvage, il faut choisir un lignage existant puis choisir l’une des mutations de lignage associées à ce lignage. L’ensorceleur utilise les compétences de classe, les sorts supplémentaires et les dons supplémentaires associés au lignage et l’arcane de lignage muté. Il utilise les pouvoirs habituels de son lignage, sauf quand ils sont remplacés par ceux de lignage muté.''
 
 {s:UM}{s:Reference|AERIEN}
 ====Aérien====
 ''La magie du personnage se concentre plus sur la puissance de l’air et de la pluie que sur celle des éclairs et du tonnerre.''
 
-'''Lignage associé.''' Lignage des [[lignage des Tempêtes|tempêtes]]
+'''Lignage associé.''' [[lignage des Tempêtes|Tempêtes]]
 
 '''Arcane de lignage.''' Si le personnage se trouve à l’extérieur alors qu’il pleut, peu importe le type de pluie, son [[NLS|niveau de lanceur de sorts]] effectif augmente de 2.
 
@@ -103,7 +107,7 @@ distordue. Ce bonus persiste tant que la métamorphose affecte la cible.
 ====Eau de vie====
 <div class="description">'''Source :''' Blood of the Elements (BotE).</div>''Le personnage est imprégné par les pouvoirs guérisseurs de l'élément de l'eau.''
 
-'''Lignage associé.''' [[lignage élémentaire|élémentaire]] (Eau)
+'''Lignage associé.''' [[lignage élémentaire|Élémentaire]] (Eau)
 
 '''Arcane de lignage.''' Quand le personnage lance un sort avec le descriptif du froid ou de l'eau, il gagne un nombre de points de vie temporaires égal au niveau du sort. Il peut conférer la moitié de ces points de vie à un allié adjacent, auquel cas il gagne le reste normalement.
 
@@ -243,7 +247,10 @@ d’humanoïdes qui comprennent son langage.
 '''Arcane de lignage.''' Contrairement à la plupart des ensorceleurs dont la magie innée vient de leur forte personnalité, le sage se repose sur son [[intelligence]] pour comprendre et maîtriser ses pouvoirs mystiques. Il utilise son [[Intelligence]] et non son [[Charisme]] pour déterminer toutes ses capacités de classe et les effets liés comme les [[Caractéristiques#DETERMINERLESMODIFICATEURS|sorts supplémentaires quotidiens]], le niveau de sort maximal qu’il peut lancer et le [[DD]] des [[jet de sauvegarde|jets de sauvegarde]] contre ses sorts. Il gagne un bonus de +2 à tous les tests de [[Connaissances]] (mystères) et d’[[Art de la magie]].
 
 '''Pouvoirs de lignage.''' L’ensorceleur a une préférence pour les décharges d’énergie spirituelle.</br>
-''__Carreau arcanique (Mag).__'' À partir du [[niveau]] 1, le personnage peut, par une [[action simple]], lancer un rayon de force magique sur un ennemi situé à moins de 9 mètres (6{s:c}), comme avec une [[attaque de contact à distance]]. Ce rayon inflige 1d4 points de dégâts + 1 par tranche de deux [[niveau|niveaux]] d’[[ensorceleur]]. Ces dégâts sont considérés comme résultant d’un sort d’un niveau égal à la moitié du niveau de l’ensorceleur. C’est un effet de force. Chaque jour, le personnage peut utiliser ce pouvoir un nombre de fois égal à 3 + modificateur d’[[Intelligence]]. Ce pouvoir de lignage remplace [[lignage Profane|pacte magique]].
+{s:FAQ|'''''[[FAQ- lArt de la magie#29|→]] Ensorceleur : Un ensorceleur de lignage sage (page 42) utilise-t-il son Int ou son Cha pour déterminer son nombre d'utilisations quotidiennes de carreau magique ?'''''
+
+Un ensorceleur __[[Lignage Profane|sage]]__ utilise son Int pour déterminer le nombre d'utilisations quotidiennes de ses pouvoirs de lignage, ce qui inclut carreau magique. Ainsi, que le carreau magique indique l'Int ou le Cha, l'ensorceleur sage doit se baser sur son Int.  
+Le pouvoir de lignage indique le Cha parce qu'il s'agit de la terminologie standard pour les pouvoirs de lignage (car tous les autres ensorceleurs se basent sur leur Cha), et parce qu'il existe peut-être un moyen pour un non-ensorceleur d'avoir accès à ce pouvoir de lignage, auquel cas il devrait être basé sur le Cha (comme les autres pouvoirs de lignage d'ensorceleur) et non l'Int.}''__Carreau arcanique (Mag).__'' À partir du [[niveau]] 1, le personnage peut, par une [[action simple]], lancer un rayon de force magique sur un ennemi situé à moins de 9 mètres (6{s:c}), comme avec une [[attaque de contact à distance]]. Ce rayon inflige 1d4 points de dégâts + 1 par tranche de deux [[niveau|niveaux]] d’[[ensorceleur]]. Ces dégâts sont considérés comme résultant d’un sort d’un niveau égal à la moitié du niveau de l’ensorceleur. C’est un effet de force. Chaque jour, le personnage peut utiliser ce pouvoir un nombre de fois égal à 3 + modificateur d’[[Intelligence]]. Ce pouvoir de lignage remplace [[lignage Profane|pacte magique]].
 
 {s:UM}{s:Reference|SANGGIVRE}
 ====Sang givré====

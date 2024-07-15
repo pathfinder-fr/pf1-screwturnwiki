@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Talents
 Title: Les talents de roublard
-LastModified: 2021-01-07 15:33
+LastModified: 2024-07-13 17:20
 Categories:
   - 'Classe'
 ---
@@ -58,7 +58,8 @@ Les talents marqués d’un astérisque ajoutent un effet aux [[attaque sournois
 |}
 
 ===Description des talents de roublard===
-<div class="article_2col">{s:APG}{s:Reference|ACROBATEINEGALABLE}
+<table width="100%"><tr><td width="49%">
+{s:APG}{s:Reference|ACROBATEINEGALABLE}
 ====Acrobate inégalable (Ext)====
 Une fois par jour, un roublard disposant de ce talent peut lancer deux dés lors d’un test d’[[Acrobaties]] et choisir le résultat le plus avantageux. Il doit décider d’utiliser cette capacité avant le test. Il peut utiliser cette capacité une fois de plus par jour par tranche de 5 niveaux de roublard.
 
@@ -134,7 +135,7 @@ Un roublard qui dispose de ce talent peut faire un test de [[Connaissances]], un
 
 {s:UC}{s:Reference|CONTACTSAUMARCHENOIR}
 ====Contacts au marché noir (Ext)====
-<div style="float: right; margin-left: 10px; margin-right: -5px; max-width: 300px;" class="presentation recentre">{| class="tablo toutgauche autoalt" id="marcheNoirTableau" 
+<div style="float: right; margin-left: 10px; margin-right:0px; max-width: 300px;" class="presentation recentre">{| class="tablo toutgauche autoalt" id="marcheNoirTableau" 
 |+ Marché noir
 |- 
 | '''Taille de la communauté'''
@@ -188,7 +189,11 @@ Un roublard disposant de ce talent peut utiliser une [[action rapide]] pour déc
 
 {s:APG}{s:Reference|DEFENSEOFFENSIVE}
 ====Défense offensive* (Ext)====
-Lorsqu’un roublard disposant de ce talent porte contre une créature une attaque de corps à corps qui inflige des dégâts d’[[attaque sournoise]], il gagne un bonus d’esquive de +1 à la [[CA]] pour chaque dé d’attaque sournoise utilisé contre cette créature pendant 1 [[round]].
+{s:FAQ|'''''[[FAQ- Manuel des joueurs - Règles avancées#44|→]] Roublard, Défense offensive : Le bonus d'esquive du talent de roublard « défense offensive » (page 142) se cumule-t-il avec lui-même ? S'applique-t-il à tout le monde, ou seulement la cible que j'attaque ?'''''
+
+Il y a deux problèmes concernant ce __[[Talents#DEFENSEOFFENSIVE|talent de roublard]]__.  
+Premièrement, dans la première impression il accordait un bonus de circonstances de +1 contre la cible attaquée, ce qui en faisait une capacité très faible. La mise à jour de la seconde impression a remplacé le bonus de circonstances par un bonus d'esquive, mais a accidentellement omis le texte « contre cette créature », ce qui en faisait une capacité très puissante.  
+Deuxièmement, elle ne précise pas si le bonus d'esquive se cumule avec lui-même, et cela crée un paradoxe dans les règles puisque d'une part les bonus d'une même source ne se cumulent pas mais que d'autre part les bonus d'esquive se cumulent toujours. Bien que nous n'ayons pas tranché sur le futur de ce talent, nous tendons vers cette solution : ''le bonus d'esquive ne s'applique que contre la créature sur laquelle le personnage a utilisé l'attaque sournoise, et le bonus d'esquive ne se cumule pas avec lui-même.'' Cela empêche le personnage d'obtenir un bonus d'esquive à la CA contre une créature puissante en utilisant son attaque sournoise sur une créature faible, et d'atteindre une CA absurdement élevée en utilisant l'attaque sournoise à répétition lors d'un même round.}Lorsqu’un roublard disposant de ce talent porte contre une créature une attaque de corps à corps qui inflige des dégâts d’[[attaque sournoise]], il gagne un bonus d’esquive de +1 à la [[CA]] pour chaque dé d’attaque sournoise utilisé contre cette créature pendant 1 [[round]].
 
 {s:Reference|DEBOUT}
 ====Debout (Ext)====
@@ -249,7 +254,9 @@ Un roublard qui dispose de ce talent obtient [[Maniement dune arme exotique|Mani
 {s:Reference|EQUILIBRISTE}
 ====Équilibriste (Ext)====
 Ce talent permet au roublard d’utiliser la compétence d’[[Acrobaties]] pour se mouvoir sur des surfaces étroites à sa vitesse normale (non réduite) sans pénalité. De plus, le roublard n’est pas [[pris au dépourvu]] s’il est attaqué alors qu’il se déplace sur une surface étroite.
-
+</td><td width="1%">
+<td style="border-left:1px solid #4b3124;width=" width="1%"></td>
+</td><td width="49%">
 {s:racial|Homme-félin (race)|h-félins|Illustrations/PNJ/Homme-félin.jpg}{s:MR}{s:Reference|EVALUATEURACHARNE}
 ====Évaluateur acharné (Ext)====
 L’homme-félin roublard ayant ce talent est doué pour déterminer la valeur des objets qui brillent. Il peut toujours décider de faire 10 quand il estime des gemmes et des bijoux. 
@@ -543,4 +550,5 @@ Lorsqu’un roublard disposant de ce talent utilise sa compétence de [[Discrét
 
 {s:APG}{s:Reference|UNJOURDEPLUS}
 ====Un jour de plus (Ext)====
-Une fois par jour, lorsque le roublard devrait être réduit à 0 [[pv|point de vie]] ou moins par une [[attaque au corps à corps]], il peut effectuer un [[pas de placement]] de 1,50 m par une [[action immédiate]]. Si ce mouvement lui permet de sortir de la zone contrôlée par l’attaquant, il ne subit aucun dégât pour cette attaque. Le roublard est [[chancelant]] pendant 1 round au cours de son prochain tour.</div>
+Une fois par jour, lorsque le roublard devrait être réduit à 0 [[pv|point de vie]] ou moins par une [[attaque au corps à corps]], il peut effectuer un [[pas de placement]] de 1,50 m par une [[action immédiate]]. Si ce mouvement lui permet de sortir de la zone contrôlée par l’attaquant, il ne subit aucun dégât pour cette attaque. Le roublard est [[chancelant]] pendant 1 round au cours de son prochain tour.
+</td></tr></table>

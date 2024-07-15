@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Oracle
 Title: L'oracle
-LastModified: 2023-07-02 15:08
+LastModified: 2024-07-13 17:08
 Categories:
   - 'Classe'
   - 'Règle officielle'
@@ -427,8 +427,16 @@ Voici les compétences de classe de l’oracle : [[Artisanat]] (Int), [[Art de l
 | 20 || 9 || 5 || 5 || 4 || 4 || 4 || 3 || 3 || 3 || 3
 |}
 </div></div>
+{s:Reference|SORTS}
 ====Sorts====
-L’oracle lance des sorts divins tirés de la [[liste des sorts de prêtres|liste de sorts de prêtre]]. Il peut lancer tout sort de sa connaissance sans avoir besoin de le préparer à l’avance. Pour apprendre ou lancer un sort, l’oracle doit avoir une valeur de [[Charisme]] au moins égale à 10 + niveau du sort. 
+{s:FAQ|'''''[[FAQ- Manuel des joueurs - Règles avancées#32|→]] Oracle : Quel type de RD un oracle obtient-il grâce au sort ''force du colosse'' ?'''''
+
+Si l'__[[Oracle#SORTS|oracle]]__ choisi l'option « tous les sorts de soins » comme sorts connus, on considère cela comme « canalise de l'énergie positive » dans le cadre de ''[[force du colosse]]''. S'il a choisi l'option « tous les sorts de blessure », on considère cela comme « canalise de l'énergie négative » dans le cadre de ''force du colosse''.
+<hr>
+'''''[[FAQ- Manuel des joueurs - Règles avancées#40|→]] Oracle, Sorts : Puis-je utiliser mon modificateur de Charisme pour les sorts de prêtre et les effets qui dépendent de la Sagesse, comme ''arme spirituelle'' ?'''''
+
+Tels qu'écrits, ces effets mentionnent la « Sagesse » car ils ont été conçus avant l'idée d'une classe d'oracle qui serait un lanceur de sorts basé sur le Charisme, donc un __[[Oracle#SORTS|oracle]]__ doit effectivement utiliser son modificateur de Sagesse.  
+Cependant, il est tout à fait raisonnable d'autoriser un oracle à utiliser son modificateur (ou bonus) de Charisme dans le cadre des sorts de prêtre qui dépendent du modificateur (ou bonus) de Sagesse du lanceur.}L’oracle lance des sorts divins tirés de la [[liste des sorts de prêtres|liste de sorts de prêtre]]. Il peut lancer tout sort de sa connaissance sans avoir besoin de le préparer à l’avance. Pour apprendre ou lancer un sort, l’oracle doit avoir une valeur de [[Charisme]] au moins égale à 10 + niveau du sort. 
 '''Le DD des jets de sauvegarde contre les sorts de l’oracle est de 10 + niveau du sort + modificateur de Charisme de l’oracle.'''
 Comme les autres lanceurs de sorts, l’oracle ne peut en lancer qu’un certain nombre de chaque niveau par jour. De plus, il reçoit des sorts supplémentaires s’il possède une importante valeur de [[Charisme]].
 
@@ -451,12 +459,17 @@ Voir [[mystères|les mystères d'oracle]].
 Au niveau 2, et par la suite tous les niveaux pairs, l’oracle apprend de nouveaux sorts issus de son mystère. Il est impossible de les échanger contre d’autres sorts en atteignant un niveau supérieur. 
 
 {s:Reference|REVELATION}
-====Révélation==== Au niveau 1, 3 et ensuite tous les quatre niveaux (7, 11, etc.), l’oracle découvre un nouveau secret sur le [[mystères|mystère]] qui lui accorde ses pouvoirs et ses aptitudes. Il doit choisir une révélation dans la liste de celles disponibles pour son mystère. S’il choisit une révélation à un niveau supérieur, il gagne toutes les aptitudes et tous les bonus associés en fonction de son niveau actuel. Sauf indication contraire, il faut une [[action simple]] pour activer les pouvoirs d’une révélation.
+====Révélation====
+{s:FAQ|'''''[[FAQ- Manuel des joueurs - Règles avancées#39|→]] Oracle, Révélations : Un oracle peut-il sélectionner une révélation plusieurs fois ?'''''
+
+Non, sauf si la __[[Oracle#REVELATION|révélation]]__ précise le contraire.}Au niveau 1, 3 et ensuite tous les quatre niveaux (7, 11, etc.), l’oracle découvre un nouveau secret sur le [[mystères|mystère]] qui lui accorde ses pouvoirs et ses aptitudes. Il doit choisir une révélation dans la liste de celles disponibles pour son mystère. S’il choisit une révélation à un niveau supérieur, il gagne toutes les aptitudes et tous les bonus associés en fonction de son niveau actuel. Sauf indication contraire, il faut une [[action simple]] pour activer les pouvoirs d’une révélation.
 
 {s:Reference|REVELATIONFINALE}
-====Révélation finale==== Au niveau 20, l’oracle découvre la révélation finale de son [[mystères|mystère]], ce qui lui donne des pouvoirs prodigieux. La nature de ces bonus dépend de son mystère.
+====Révélation finale====
+Au niveau 20, l’oracle découvre la révélation finale de son [[mystères|mystère]], ce qui lui donne des pouvoirs prodigieux. La nature de ces bonus dépend de son mystère.
 
 {s:Reference|MALEDICTIONDELORACLE}
-====Malédiction de l’oracle (Ext)==== Chaque oracle est maudit, mais cette malédiction apporte des avantages aussi bien que des handicaps. Ce choix se fait au niveau 1 et il est impossible d’en changer par la suite. Il est impossible de délivrer l’oracle de sa malédiction sans l’aide d’une divinité. Cette malédiction est basée sur le niveau de l’oracle plus un par tranche de deux niveaux ou deux DV d’autre chose qu’oracle. Chaque oracle doit choisir une malédiction.
+====Malédiction de l’oracle (Ext)====
+Chaque oracle est maudit, mais cette malédiction apporte des avantages aussi bien que des handicaps. Ce choix se fait au niveau 1 et il est impossible d’en changer par la suite. Il est impossible de délivrer l’oracle de sa malédiction sans l’aide d’une divinité. Cette malédiction est basée sur le niveau de l’oracle plus un par tranche de deux niveaux ou deux DV d’autre chose qu’oracle. Chaque oracle doit choisir une malédiction.
 
 Voir les [[malédictions doracle|malédictions d'oracle]].

@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.eidolon
 Title: L'éidolon du conjurateur
-LastModified: 2024-06-06 16:19
+LastModified: 2024-07-13 02:54
 Categories:
   - 'Classe'
   - 'Src Manuel des joueurs - Règles avancées'
@@ -235,8 +235,8 @@ La taille de départ des profils taurin et aérien est toujours P, sauf si le co
 * griffes, membres (bras), membres (jambes) (2)
 
 </div></td></tr></table>
-{s:Reference|EVOLUTIONS}
 
+{s:Reference|EVOLUTIONS}
 === Évolutions ===
 Chaque eidolon reçoit un nombre de points d’évolution à dépenser de manière à gagner de nouvelles aptitudes, de nouveaux pouvoirs et autres améliorations. Le [[conjurateur]] peut changer ces nouvelles aptitudes, appelées évolutions, à chaque fois qu’il gagne un niveau mais en dehors de cela, elles sont constantes. 
 
@@ -249,11 +249,19 @@ Les évolutions sont regroupées selon leur coût. Il est impossible de stocker 
 {s:Reference|EVOLUTIONSA1POINT}
 ==== Évolutions à 1 point ====
 Les évolutions suivantes coûtent 1 point tiré de la réserve d’évolution de l’eidolon.
-<table width="100%"><tr>
-<td width="49%">
-{s:APG}{s:Reference|ALLONGE}'''Allonge (Ext).''' L’une des attaques de l’eidolon est capable de frapper les ennemis à distance. Le conjurateur choisit une attaque pour laquelle l’allonge de l’eidolon augmente de 1,50 m.
+<table width="100%"><tr><td width="49%">
+{s:FAQ|'''''[[FAQ- Manuel des joueurs - Règles avancées#17|→]] Conjurateur, Évolution allonge : Si je sélectionne l'évolution allonge pour mon eidolon, combien d'attaque bénéficient d'une allonge améliorée ?'''''
 
-{s:APG}{s:Reference|ARMURENATURELLEAMELIOREE}'''Armure naturelle améliorée (Ext).''' Une épaisse fourrure, des écailles rigides ou des plaques osseuses poussent sur la peau de l’eidolon et lui donnent un bonus de +2 à l’armure naturelle. Le conjurateur peut choisir cette évolution une fois au niveau 1, et une fois de plus aux niveaux 5, 10, 15 et 20.
+La description de la capacité indique de « choisir une attaque », et pas de « choisir un type d'attaque ». Donc si l'eidolon du personnage possède deux griffes et qu'il choisit « griffe » pour l'évolution __[[Eidolon#ALLONGE|allonge]]__, seule l'une des deux griffes bénéficie d'une allonge améliorée. (L'évolution allonge est pensée pour permettre d'émuler un dragon-eidolon, puisque l'attaque de morsure d'un dragon a une meilleur allonge que ses griffes.)}{s:APG}{s:Reference|ALLONGE}'''Allonge (Ext).''' L’une des attaques de l’eidolon est capable de frapper les ennemis à distance. Le conjurateur choisit une attaque pour laquelle l’allonge de l’eidolon augmente de 1,50 m.
+
+{s:FAQ|'''''__Ce texte a été modifié suite à la FAQ suivante :__
+
+[[FAQ- Manuel des joueurs - Règles avancées#18|→]] Conjurateur, Évolution armure naturelle améliorée : Quel est le niveau minimum nécessaire pour sélectionner l'évolution armure naturelle améliorée (page 48) pour mon eidolon ?'''''
+
+La description de l'__[[Eidolon#ARMURENATURELLEAMELIOREE|évolution]]__ indique : « Le conjurateur peut choisir cette évolution une fois tous les cinq niveaux. ». Malheureusement, ce texte n'est pas clair.  
+Un conjurateur peut sélectionner cette évolution une fois des niveaux 1 à 4, puis une fois de plus des niveaux 5 à 9, puis une troisième fois des niveaux 10 à 14,  puis une quatrième fois des niveaux 15 à 19, et enfin une cinquième fois au niveau 20. Cette formulation sera clarifiée dans le prochain document de mise à jour et l'impression à venir du MRA.  
+Mise à jour : Page 48 : Remplacez la description de l'évolution armure naturelle améliorée par :  
+« Armure naturelle améliorée (Ext). Une épaisse fourrure, des écailles rigides ou des plaques osseuses poussent sur la peau de l'eidolon et lui donnent un bonus de +2 à l'armure naturelle. Le conjurateur peut choisir cette évolution une fois au niveau 1, et une fois de plus aux niveaux 5, 10, 15 et 20. »}{s:APG}{s:Reference|ARMURENATURELLEAMELIOREE}'''Armure naturelle améliorée (Ext).''' Une épaisse fourrure, des écailles rigides ou des plaques osseuses poussent sur la peau de l’eidolon et lui donnent un bonus de +2 à l’armure naturelle. Le conjurateur peut choisir cette évolution une fois au niveau 1, et une fois de plus aux niveaux 5, 10, 15 et 20.
 
 {s:APG}{s:Reference|ATTAQUESMAGIQUES}'''Attaques magiques (Sur).''' L’eidolon est imprégné de magie, ce qui lui permet de considérer toutes ses attaques naturelles comme étant magiques quand il s’agit d’ignorer la [[RD|réduction des dégâts]]. Si le conjurateur est de niveau 10 ou plus, toutes les armes de l’eidolon sont considérées comme étant du même alignement que lui quand il s’agit d’ignorer la [[RD|réduction des dégâts]].
 
@@ -286,8 +294,9 @@ Les évolutions suivantes coûtent 1 point tiré de la réserve d’évolution d
 {s:APG}{s:Reference|GRIFFES}'''Griffes (Ext).''' L’eidolon possède une paire de griffes vicieuses au bout de chaque membre, ce qui lui donne deux attaques de griffes. Ce sont des attaques primaires qui infligent 1d4 points de dégâts (1d6 si grand, 1d8 si très grand). L’eidolon doit avoir l’évolution « membres » pour choisir celle‑ci. Cette évolution ne s’applique à l’évolution membre (jambes) qu’une fois. Le conjurateur peut la choisir à plusieurs reprises mais l’eidolon doit disposer d’un nombre de membres adéquat.
 
 {s:um}{s:Reference|MAGIEBASIQUE}'''Magie basique (Mag).''' L’eidolon apprend à lancer un sort de base comme un pouvoir magique. Le conjurateur choisit un sort dans la liste suivante : ''[[aspersion acide]]'', ''[[détection de la magie]]'', ''[[fatigue]]'', ''[[hébétement]]'', ''[[illumination]]'', ''[[lumière]]'', ''[[lumières dansantes]]'', ''[[manipulation à distance]]'', ''[[rayon de givre]]'', ''[[son imaginaire]]'' ou ''[[stabilisation]]''. Il peut le lancer une fois par jour, comme un pouvoir magique. Au niveau 4, il peut le faire trois fois si le conjurateur dépense 2 points d’évolution de plus. Le [[NLS|niveau de lanceur de sorts]] de cette évolution est égal aux [[DV]] de l’eidolon. Le [[DD]] du [[jet de sauvegarde]] de ce sort est de 10 + modificateur de [[Charisme]] de l’eidolon. Ce dernier doit avoir une valeur de [[Charisme]] de 10, au minimum, pour pouvoir choisir cette évolution. Il peut la prendre à plusieurs reprises mais elle s’applique à chaque fois à un nouveau sort.
-
-</td><td width="2%"></td><td width="49%">
+</td><td width="1%">
+<td style="border-left:1px solid #4b3124;width=" width="1%"></td>
+</td><td width="49%">
 {s:APG}{s:Reference|MONTURE}'''Monture (Ext).''' Un eidolon est apte à servir de monture de combat et il est entraîné pour. Il doit être au moins d’une catégorie de taille de plus que son cavalier. Cette évolution est disponible pour les formes de base quadrupèdes et serpentines seulement.
 
 {s:APG}{s:Reference|MORSURE}'''Morsure (Ext).''' La gueule de l’eidolon est pleine de dents acérées comme des rasoirs, ce qui lui permet de faire une attaque de morsure. C’est une attaque primaire qui inflige 1d6 points de dégâts (1d8 si grand, 2d6 si très grand). Si l’eidolon a déjà une attaque de morsure, cette évolution lui permet d’infliger 1,5 × modificateur de Force aux jets de dégâts.
@@ -350,7 +359,9 @@ Les évolutions suivantes coûtent 2 points tirés de la réserve d’évolution
 {s:racial|Fetchelin (race)|fetchelins|Illustrations/PNJ/Fetchelin.jpg}{s:Reference|FUSIONAVECLESOMBRES}{s:mr}'''Fusion avec les ombres (Sur).''' Dans toutes les conditions de luminosité autres que la pleine lumière, l’eidolon disparaît dans les ombres qui lui accordent un camouflage (20 % de chances de rater). S’il a l’évolution forme d’ombre, il gagne à la place [[camouflage total]] (50 % de chances de rater). L’eidolon peut interrompre ou reprendre cette capacité par une [[action libre]].
 
 {s:APG}{s:Reference|IMMUNITE}'''Immunité (Sur).''' L’eidolon devient résistant à un type d’énergie. Le conjurateur choisit un type d’énergie (acide, froid, électricité, feu ou sonore) contre lequel son eidolon devient [[immunisé]]. Le conjurateur peut choisir cette évolution à plusieurs reprises mais ses effets ne se cumulent pas, ils s’appliquent à chaque fois à un type d’énergie différent. Le conjurateur doit être au moins de niveau 7 avant de choisir cette évolution.
-</td><td width="2%"></td><td width="49%">
+</td><td width="1%">
+<td style="border-left:1px solid #4b3124;width=" width="1%"></td>
+</td><td width="49%">
 {s:Reference|LIENDUCAVALIER}'''Lien du cavalier (Ext).''' L'eidolon partage un lien avec le conjurateur lorsque ce dernier le chevauche. Le conjurateur gagne un bonus à ses tests d'[[Équitation]] égal à la moitié de son niveau et obtient [[combat monté]] comme don bonus lorsqu'il chevauche son eidolon. Il doit posséder l'évolution monture avant de choisir celle-ci.
 
 {s:Reference|MAGIEMINEURE}{s:um}'''Magie mineure (Mag).''' L’eidolon apprend à lancer un sort mineur comme un pouvoir magique. Le conjurateur choisit un sort dans la liste suivante : ''[[brume de dissimulation]]'', ''[[compréhension des langages]]'', ''[[détection du Chaos]]''/''[[détection du Mal|du Mal]]''/''[[détection du Bien|du Bien]]''/''[[détection de la Loi|de la Loi]]'', ''[[disparition]]'' (sur lui uniquement), ''[[image silencieuse]]'', ''[[mains brûlantes]]'', ''[[projectile magique]]'', ''[[soins légers]]'' ou ''[[ventriloquie]]''. Il peut le lancer une fois par jour, comme un pouvoir magique. Au niveau 7, il peut le faire trois fois si le conjurateur dépense 2 points d’évolution de plus. Le [[NLS|niveau de lanceur de sorts]] de cette évolution est égal aux [[DV]] de l’eidolon -2. Le [[DD]] du [[jet de sauvegarde]] de ce sort est de 10 + 1/2 [[DV]] de l’eidolon + modificateur de [[Charisme]] de l’eidolon. Ce dernier doit avoir une valeur de Charisme de 11, au minimum et posséder l’évolution magie basique avant de choisir celle-ci. Le conjurateur doit avoir atteint le niveau 4 avant de choisir cette évolution. Il peut la prendre à plusieurs reprises mais elle s’applique à chaque fois à un nouveau sort.
@@ -398,8 +409,9 @@ Les évolutions suivantes coûtent 3 points tirés de la réserve d’évolution
 {s:APG}{s:Reference|ENGLOUTISSEMENT}'''Engloutissement (Ext).''' Un eidolon gagne le pouvoir engloutissement qui lui permet d’avaler ses adversaires. Si l’eidolon commence son tour avec une créature agrippée en utilisant son attaque de morsure (voir l’évolution étreinte), il peut faire une manœuvre de combat pour l’engloutir. Cette créature peut faire jusqu’à une [[catégorie de taille]] de moins que l’eidolon. À chaque round, les créatures avalées reçoivent des dégâts égaux aux dégâts de morsure de l’eidolon plus 1d6 points de dégâts contondants. Une créature engloutie conserve la condition [[agrippé|agrippée]] mais elle peut essayer de s’ouvrir un passage vers l’extérieur avec une [[arme légère]] tranchante ou perforante. Le montant de dégâts nécessaire pour sortir est égale à 1/10 des [[pv|points de vie]] de l’eidolon. Contre ces attaques, la [[CA]] de l’eidolon est égale à 10 + 1/2 bonus d’armure naturelle. Si une créature avalée tranche l’estomac de l’eidolon pour sortir, il ne peut plus utiliser ce pouvoir tant qu’il n’a pas soigné ces dégâts. Sinon, la créature avalée peut tenter d’échapper à la lutte comme d’habitude. En cas de succès, elle parvient à regagner la gueule de l’eidolon d’où elle peut tenter de fuir, à moins d’être avalée de nouveau. L’eidolon doit posséder l’évolution étreinte liée à son attaque de morsure pour choisir celle-ci. Le conjurateur doit être au moins de niveau 9 avant de choisir cette évolution.
 
 {s:Reference|MAGIEMAJEURE}{s:um}'''Magie majeure (Mag).''' L’eidolon apprend à lancer un sort majeur comme un pouvoir magique. Le conjurateur choisit un sort dans la liste suivante : ''[[détection de linvisibilité|détection de l’invisibilité]]'', ''[[flèche acide]]'', ''[[hébétement de monstre]]'', ''[[image imparfaite]]'', ''[[invisibilité]]'' (sur lui uniquement), ''[[lévitation]]'', ''[[pattes daraignée|pattes d’araignée]]'', ''[[planer]]'', ''[[rayon ardent]]'', ''[[restauration partielle]]'', ''[[soins modérés]]'' ou ''[[ténèbres]]''. Il peut le lancer une fois par jour, comme un pouvoir magique. Au niveau 10, il peut le faire trois fois si le conjurateur dépense 2 points d’évolution de plus. Le [[NLS|niveau de lanceur de sorts]] de cette évolution est égal aux [[DV]] de l’eidolon -2. Le [[DD]] du [[jet de sauvegarde]] de ce sort est de 10 + 1/2 [[DV]] de l’eidolon + modificateur de [[Charisme]] de l’eidolon. Ce dernier doit avoir une valeur de Charisme de 12 au minimum et posséder l’évolution magie mineure avant de choisir celle-ci. Le conjurateur doit avoir atteint le niveau 7 avant de choisir cette évolution. Il peut la prendre à plusieurs reprises mais elle s’applique à chaque fois à un nouveau sort.
-
-</td><td width="2%"></td><td width="49%">
+</td><td width="1%">
+<td style="border-left:1px solid #4b3124;width=" width="1%"></td>
+</td><td width="49%">
 {s:APG}{s:Reference|PERCEPTIONAVEUGLE}'''Perception aveugle (Ext).''' Les sens de l’eidolon deviennent incroyablement aiguisés, ce qui lui permet de bénéficier de [[perception aveugle]] dans un rayon de 9 mètres (6 cases). Ce  pouvoir lui permet de localiser des créatures qu’il ne voit pas sans avoir besoin de faire de test de [[Perception]] mais ces créatures bénéficient tout de même toujours d’un [[camouflage]] total contre l’eidolon. Les mouvements de l’eidolon sont toujours affectés par la visibilité et il ne profite toujours pas de son bonus de [[Dextérité]] à l’armure contre les attaques des créatures qu’il ne voit pas. Le conjurateur doit être au moins de niveau 9 avant de choisir cette évolution.
 
 {s:APG}{s:Reference|PRESENCETERRIFIANTE}'''Présence terrifiante (Ext).''' L’eidolon inquiète beaucoup ses ennemis et gagne le pouvoir [[présence terrifiante]]. Il peut l’activer lors d’une action offensive, comme une charge ou une attaque. Les adversaires qui se trouvent à moins de 9 mètres (6 cases) de l’eidolon doivent réussir un jet de [[Volonté]] ou être [[secoué|secoués]] pendant 3d6 rounds. Le [[DD]] de ce [[jet de sauvegarde]] est égal à 10 + 1/2 [[DV]] de l’eidolon + modificateur de [[Charisme]] de l’eidolon. Si l’eidolon a au moins 4 DV de plus que son adversaire, ce dernier est effrayé s'il manque son [[jet de sauvegarde]]. Les adversaires qui possèdent plus de [[DV]] que l’eidolon sont [[immunisé|immunisés]] contre cet effet. Le conjurateur doit être au moins de niveau 11 avant de choisir cette évolution.
@@ -431,7 +443,9 @@ L'évolution augmentation de caractéristique coûte deux fois plus cher (4 poin
 {s:APG}{s:Reference|GUERISONACCELEREE}'''Guérison accélérée (Sur).''' Le corps de l’eidolon se régénère très rapidement et gagne [[guérison accélérée]] 1. Il guérit de 1 point de dégâts par round, comme avec une guérison naturelle. La guérison accélérée ne soigne pas les [[pv|points de vie]] perdus à cause de la faim, de la soif ou de la suffocation et ne permet pas non plus à l’eidolon de faire repousser des morceaux perdus (ni de rattacher des morceaux coupés). La guérison accélérée fonctionne tant que l’eidolon est en vie mais pas s’il ne se trouve pas sur le même plan que son conjurateur. La guérison peut augmenter d’un point par round par tranche de 2 points d’évolution dépensés (5 au maximum). Le conjurateur doit être au moins de niveau 11 avant de choisir cette évolution.
 
 {s:Reference|MAGIEULTIME}{s:um}'''Magie ultime (Mag).''' L’eidolon apprend à lancer un sort puissant comme un pouvoir magique. Le conjurateur choisit un sort dans la liste suivante : ''[[boule de feu]]'', ''[[création de nourriture et deau|création de nourriture et d’eau]]'', ''[[don des langues]]'', ''[[éclair]]'', ''[[état gazeux]]'', ''[[image accomplie]]'', ''[[lumière du jour]]'', ''[[nuage nauséabond]]'', ''[[respiration aquatique]]'', ''[[soins importants]]'',''[[ vision magique]]'' ou ''[[sort vol|vol]]''. Il peut le lancer une fois par jour, comme un pouvoir magique. Le [[NLS|niveau de lanceur de sorts]] de cette évolution est égal aux [[DV]] de l’eidolon -2. Le [[DD]] du [[jet de sauvegarde]] de ce sort est de 10 + 1/2 [[DV]] de l’eidolon + modificateur de [[Charisme]] de l’eidolon. Ce dernier doit avoir une valeur de [[Charisme]] de 13 au minimum et posséder l’évolution magie majeure avant de choisir celle-ci. Le conjurateur doit avoir atteint le niveau 11 avant de choisir cette évolution. Il peut la prendre à plusieurs reprises mais elle s’applique à chaque fois à un nouveau sort.
-</td><td width="2%"></td><td width="49%">
+</td><td width="1%">
+<td style="border-left:1px solid #4b3124;width=" width="1%"></td>
+</td><td width="49%">
 {s:Reference|NERESPIREPAS}{s:um}'''Ne respire pas (Ext).''' L’eidolon n’a pas besoin de respirer, il est donc immunisé contre les effets qui résultent d’une inhalation (comme les [[poisons]] inhalés). Ceci ne l’immunise pas contre les nuages ou les attaques de gaz qui ne nécessitent pas d’inhalation. Le conjurateur doit être de niveau 11 avant de choisir cette évolution.
 
 {s:Reference|PERCEPTIONDELAVIE}{s:um}'''Perception de la vie (Sur).''' L’eidolon repère facilement les créatures vivantes. Il les remarque et les localise dans un rayon de 18 mètres (12 {s:c}), comme s’il possédait l’évolution vision aveugle. L’eidolon doit avoir l’évolution apparence de mort-vivant pour choisir celle-ci. Le conjurateur doit être de niveau 11 avant de choisir cette évolution.

@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.talents sauvages
 Title: Les talents sauvages
-LastModified: 2023-04-17 21:18
+LastModified: 2024-07-15 00:49
 ---
 {s:menuclassesoccultes}<div style="background-color: #fff; float: right; padding: 0 0 12px 12px">{toc}</div>{s:AO}
 Les talents sauvages des cinétistes sont l’expression de leurs pouvoirs.
@@ -600,7 +600,11 @@ __'''Terre mortelle'''__
 '''Jet de sauvegarde''' aucun  
 Le personnage affecte une surface composée de terre sur un rayon de 6 mètres où il le souhaite à 36 mètres ou moins de lui (s’il produit une [[talents sauvages#EXPLOSIONDÉMETAL|explosion de métal]], cette injection affecte à la place une surface métallique). Le sol se met alors à trembler et à se déformer dans la zone affectée. Toutes les créatures et les objets en contact avec le sol situés dans la zone au moment de sa création subissent automatiquement (sans pouvoir faire de jet de sauvegarde) le quart du montant de dégâts normalement infligés par son explosion. Dès qu’une créature pénètre dans la zone, elle subit la moitié du montant de dégâts normalement infligés par son explosion. C’est également le cas des créatures qui terminent leur tour dans la zone. La zone dans son ensemble est considérée comme un [[terrain difficile]]. L’injection reste en place pendant un nombre de rounds égal au modificateur de [[Constitution]] du personnage ou jusqu’à ce qu’il l’utilise à nouveau.
 
-{s:Reference|TORRENT}  
+{s:FAQ|'''''__Ce texte a été modifié suite à la FAQ suivante :__
+
+[[FAQ- Aventures occultes#3|→]] Cinétiste, Injection torrent : Cette injection semble ne pas avoir l'explosion d'éclair comme explosion associée. Est-ce intentionnel ?'''''
+
+L'[[Talents sauvages#EXPLOSIONDÉCLAIR|explosion d'éclair]] devrait être incluse. Cela sera reflété dans le prochain errata. ''(Retour à la __[[Talents sauvages#TORRENT|capacité]]__)''}{s:Reference|TORRENT}  
 __'''Torrent'''__  
 '''Élément''' [[Éléments#AIR|Air]], [[Éléments#EAU|Eau]] ou [[Éléments#FEU|Feu]] ; '''Type''' injection de forme ; '''Niveau''' 3 ; '''Brûlure''' 2  
 '''Explosions associées''' [[talents sauvages#EXPLOSIONDAIR|Air]], [[talents sauvages#EXPLOSIONDEBLIZZARD|Blizzard]], [[talents sauvages#EXPLOSIONDEBOUE|Boue]], [[talents sauvages#EXPLOSIONDEAU|Eau]], [[talents sauvages#EXPLOSIONDEAUÉLECTRIFIÉE|Eau éléctrifiée]], [[talents sauvages#EXPLOSIONDÉCLAIR|Éclair]], [[talents sauvages#EXPLOSIONDEFEU|Feu]], [[talents sauvages#EXPLOSIONDEFLAMMESBLEUES|Flammes bleues]], [[talents sauvages#EXPLOSIONDEMAGMA|Magma]], [[talents sauvages#EXPLOSIONDEPLASMA|Plasma]], [[talents sauvages#EXPLOSIONDESABLE|Sable]], [[talents sauvages#EXPLOSIONDEVAPEUR|Vapeur]]  
@@ -866,7 +870,9 @@ __'''Hydrocinétique simple'''__
 '''Élément''' [[Éléments#EAU|Eau]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 1 ; '''Brûlure''' 0  
 Le personnage peut créer de l’eau comme avec le tour de magie [[création deau|création d’eau]], purifier de l’eau comme avec le sort [[purification de nourriture et deau|purification de nourriture et d’eau]] et sécher des créatures et des objets humides comme s’il utilisait une [[prestidigitation]]. Même si le personnage ne peut pas soulever de l’eau dans les airs grâce à ce talent, il peut tout de même créer des courants modérés dans une étendue d’eau en se concentrant. Ces courants sont suffisamment puissants pour faire tourner la roue d’un moulin comme si celle-ci était physiquement tournée par une créature dont la valeur de [[Force]] est égale à la valeur de [[Constitution]] du personnage.
 
-{s:Reference|INVISIBILITÉTÉLÉCINÉTIQUE}  
+{s:FAQ|'''''[[FAQ- Aventures occultes#4|→]] Cinétiste, Invisibilité télécinétique : Plusieurs détails dans la description de ce talent suggèrent que je ne peux l'utiliser que sur moi-même, mais d'un autre côté, il dit fonctionner comme ''invisibilité'', qui n'est pas un sort à portée personnelle. Qu'est ce qui est correct ?'''''
+
+Un personnage ne peut utiliser le talent __[[Talents sauvages#INVISIBILITÉTÉLÉCINÉTIQUE|invisibilité télécinétique]]__ que sur lui-même.}{s:Reference|INVISIBILITÉTÉLÉCINÉTIQUE}  
 __'''Invisibilité télécinétique'''__  
 '''Élément''' [[Éléments#ÉTHER|Éther]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 3 ; '''Brûlure''' 0  
 Le personnage tisse des filaments d’éther pour réfracter la lumière et amoindrir les sons. Ce talent sauvage fonctionne comme l’[[invisibilité]] sauf que la réfraction éthérée est plus facile à repérer que l’invisibilité normale. Par conséquent, le bonus du personnage aux tests de [[Discrétion]] est diminué de moitié (+10 quand il se déplace et +20 s’il reste immobile). Toutefois, la réduction des sons permet au personnage d’éviter la détection automatique des créatures dotées de la vision aveugle et de la perception aveugle, mais le personnage ne bénéficie d’aucun bonus aux tests de [[Discrétion]] grâce à ce talent vis-à-vis d’une créature dotée de ces pouvoirs spéciaux.
@@ -1204,4 +1210,3 @@ Le personnage peut voir à travers les obstacles végétaux comme avec la règle
 __'''Voile de brume'''__
 '''Élément''' [[Éléments#EAU|Eau]] ; '''Type''' utilitaire (Sur) ; '''Niveau''' 2 ; '''Brûlure''' 0
 Le personnage enveloppe son corps d’un voile de brume qui déguise son aspect, comme avec un ''[[sort déguisement|déguisement]]'', pendant un nombre de minutes égal à son modificateur de [[Constitution]]. S’il accepte 1 point de brûlure, jusqu’au moment où sa brûlure sera retirée, chaque utilisation de ce talent sauvage persiste jusqu’à ce qu’il décide de l’annuler.
-

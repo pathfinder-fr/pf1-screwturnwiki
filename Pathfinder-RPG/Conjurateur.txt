@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Conjurateur
 Title: Le conjurateur (aussi appelé invocateur)
-LastModified: 2024-06-06 16:23
+LastModified: 2024-07-13 02:44
 Categories:
   - 'Classe'
   - 'Règle officielle'
@@ -386,7 +386,12 @@ réutilisables. Les tours de magie qui utilisent d’autres emplacements de sort
 
 {s:reference|EIDOLON}
 ==== Eidolon ====
-Le conjurateur commence le jeu avec le pouvoir d’invoquer un puissant [[type Extérieur|Extérieur]] appelé un [[eidolon]]. Ce dernier forge un lien avec son conjurateur qui, par la suite, invoquera toujours un aspect de cette même créature. L’eidolon a le même [[alignement]] que le conjurateur qui l’appelle et parle les mêmes [[Linguistique|langues]] que lui. Les eidolons sont considérés comme des créatures invoquées, mais on ne peut pas les renvoyer dans leur plan à moins de réduire leur nombre de [[pv|points de vie]] à une valeur négative égale ou inférieure à leur valeur de [[Constitution]]. De plus, grâce à leur lien avec leur conjurateur, les eidolons peuvent toucher et attaquer des créatures protégées par une ''[[protection contre le mal]]'' et autres effets similaires qui empêchent tout contact avec des créatures invoquées.
+{s:FAQ|'''''__Ce texte a été modifié suite à la FAQ suivante :__
+
+[[FAQ- Manuel des joueurs - Règles avancées#16|→]] Conjurateur, Eidolon : Lorsque j'invoque mon eidolon après qu'il ait été banni ou renvoyé, combien de points de vie a-t-il au moment de réapparaître ?'''''
+
+Quelque soit le nombre de points de vie qu'il avait avant d'être banni ou renvoyé (mais pas tué), il revient avec le même montant au moment de réapparaître.  
+Mise à jour : MRA page 43, dans la description de la capacité __[[Conjurateur#EIDOLON|eidolon]]__, 2e paragraphe, 2e phrase, remplacez « le même nombre de points de vie que la dernière fois où il a été appelé » par « le même nombre de points de vie que la dernière où il a été renvoyé ou banni. »}Le conjurateur commence le jeu avec le pouvoir d’invoquer un puissant [[type Extérieur|Extérieur]] appelé un [[eidolon]]. Ce dernier forge un lien avec son conjurateur qui, par la suite, invoquera toujours un aspect de cette même créature. L’eidolon a le même [[alignement]] que le conjurateur qui l’appelle et parle les mêmes [[Linguistique|langues]] que lui. Les eidolons sont considérés comme des créatures invoquées, mais on ne peut pas les renvoyer dans leur plan à moins de réduire leur nombre de [[pv|points de vie]] à une valeur négative égale ou inférieure à leur valeur de [[Constitution]]. De plus, grâce à leur lien avec leur conjurateur, les eidolons peuvent toucher et attaquer des créatures protégées par une ''[[protection contre le mal]]'' et autres effets similaires qui empêchent tout contact avec des créatures invoquées.
 
 Le conjurateur appelle son [[eidolon]] à l’aide d’un rituel durant une minute. Quand l’eidolon est invoqué, il a le même nombre de [[pv|points de vie]] que la dernière où il a été renvoyé ou banni. La seule exception, c’est s’il s’est fait tuer, auquel cas il revient avec la moitié de ses points de vie. Un eidolon ne guérit pas naturellement. Il reste avec son conjurateur jusqu’à ce que celui‑ci le renvoie (par une [[action simple]]). Si l’eidolon retourne dans son plan d’origine parce qu’il s’est fait tuer, il est impossible de l’invoquer avant le lendemain. On ne peut pas renvoyer un eidolon avec une dissipation de la magie mais les sorts comme ''[[renvoi]]'' et ''[[bannissement]]'' fonctionnent normalement. L’eidolon est automatiquement banni si le conjurateur tombe [[inconscient]], s’endort ou meurt.
 
@@ -396,12 +401,16 @@ L’apparence physique de l’eidolon dépend du conjurateur mais il apparaît t
 
 {s:reference|LIENVITAL}
 ==== Lien vital (Sur) ====
-À partir du niveau 1, le conjurateur tisse un lien étroit avec son eidolon. A chaque fois que l'eidolon reçoit assez de dégâts pour être obligé de retourner dans son plan d'origine, l'invocateur peut sacrifier le nombre de [[pv|points de vie]] qu'il désire. Chaque point sacrifié empêche l'eidolon de recevoir 1 point de dégâts, ce qui peut lui éviter de retourner dans son plan d'origine.
+{s:FAQ|'''''__Ce texte a été modifié suite à la FAQ suivante :__
+
+[[FAQ- Manuel des joueurs - Règles avancées#19|→]] Conjurateur, Lien vital : Puis-je utiliser lien vital en dehors de mon tour, si je suis paralysé, ou si je ne peux autrement entreprendre aucune action ?'''''
+
+Bien que la __[[Conjurateur#LIENVITAL|capacité]]__ se rapporte à une action libre, il s'agit d'une chose qu'un conjurateur devrait pouvoir faire à chaque fois que l'eidolon subit suffisamment de dégâts pour être renvoyé sur son plan d'origine, même si ce n'est pas son tour (ce qui est normalement le cas lorsqu'il est attaqué), s'il est sans défense à cause d'un poison visant la Force ou la Dextérité, s'il est sous l'effet d'un sort d’''[[immobilisation de personne]]'', etc. Autrement dit, ce n'est pas une action du tout, et ne devrait pas être qualifié comme tel.  
+Mise à jour : MRA page 44, dans la description de lien vital, 1er paragraphe, 2e phrase, supprimez « par une action libre ».}À partir du niveau 1, le conjurateur tisse un lien étroit avec son eidolon. A chaque fois que l'eidolon reçoit assez de dégâts pour être obligé de retourner dans son plan d'origine, l'invocateur peut sacrifier le nombre de [[pv|points de vie]] qu'il désire. Chaque point sacrifié empêche l'eidolon de recevoir 1 point de dégâts, ce qui peut lui éviter de retourner dans son plan d'origine.
 
 De plus, l'eidolon et son invocateur doivent rester à moins de 30m l'un de l'autre, sans quoi l'eidolon ne dispose pas de toute sa puissance. Si l’eidolon est à plus de 30 mètres (20 cases) de son conjurateur mais à moins de 300, ses totaux de [[pv|points de vie]] actuels et maximums sont réduits de 50%. Si l’eidolon se trouve à plus de 300 mètres de son conjurateur mais à moins de 3 kilomètres, ces totaux sont réduits de 75%. Si l’eidolon dépasse les 3 kilomètres, il est immédiatement renvoyé dans son plan d’origine. Les points de vie actuels de l’eidolon ne remontent pas quand il se rapproche de son conjurateur, mais son total maximum revient à la normale.
 
 {s:reference|CONVOCATIONDEMONSTRES}{s:Reference|PORTAIL}
-
 ==== Convocation de monstres/Portail (Mag) ====
 Chaque jour, à partir du niveau 1, un conjurateur peut lancer ''[[convocation de monstres I]]'' comme un pouvoir magique un nombre de fois égal à 3 + modificateur de [[Charisme]]. Pour utiliser ce pouvoir, le conjurateur doit puiser dans la même puissance que celle qui lui permet d’invoquer son eidolon, il ne peut donc pas se servir de ce pouvoir si son eidolon est présent. Il lance ce sort par une [[action simple]] et les créatures restent avec lui une minute par niveau (au lieu d’un round par niveau).
 
@@ -438,7 +447,11 @@ Au niveau 12, quand un allié se trouve à portée de son eidolon, il reçoit un
 
 {s:reference|VIESLIEES}
 ==== Vies liées (Sur) ====
-Au niveau 14, la vie du conjurateur se lie à celle de son eidolon. Tant que ce dernier a 1 [[pv|point de vie]]
+{s:FAQ|'''''__Ce texte a été modifié suite à la FAQ suivante :__
+
+[[FAQ- Manuel des joueurs - Règles avancées#20|→]] Conjurateur, Vies liées : Comment fonctionne la capacité vies liées (page 45) d'un conjurateur ? L'eidolon est renvoyé lorsque le conjurateur tombe inconscient, donc il y a très peu de chances que cette capacité se déclenche.'''''
+
+La __[[Conjurateur#VIESLIEES|capacité]]__ devrait être déclenchée lorsque des dégâts infligés au conjurateur devraient le réduire à moins de 0 point de vie, pas seulement lorsqu'ils devraient le tuer. (La seconde impression du MRA inclut ces nouvelles informations.)}Au niveau 14, la vie du conjurateur se lie à celle de son eidolon. Tant que ce dernier a 1 [[pv|point de vie]]
 ou plus, il est impossible de tuer le conjurateur. Les dégâts qui dépassent le montant qui devrait réduire le conjurateur à moins de 0 point de vie sont transférés à son eidolon. Ils se transmettent 1 point par 1 point, ce qui veut dire que, dès que l’eidolon est réduit à un nombre de points de vie négatif égal à sa valeur de [[Constitution]], tous les dégâts en excès sont appliqués au conjurateur et le tuent. Ce pouvoir n’affecte pas les effets qui provoquent la mort sans causer de dégâts. Il n’affecte pas non plus les sorts comme ''[[métamorphose funeste]]'', ''[[pétrification]]'', ''[[emprisonnement]]'' ou autre sort qui ne cause pas de dégâts à proprement parler.
 
 {s:reference|FUSIONDESFORMES}

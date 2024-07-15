@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Créatures artificielles
 Title: Créatures artificielles
-LastModified: 2023-10-22 19:25
+LastModified: 2024-07-09 17:57
 Categories:
   - 'Règle officielle'
   - 'Src Art de la magie'
@@ -94,7 +94,7 @@ d’améliorer celles qu’elle possède déjà en leur ajoutant des [[armes mag
 ====Les modifications complexes====
 Ces modifications représentent des changements complexes apportés à la structure et au fonctionnement de la créature artificielle. Elles valent « niveau minimum pour lancer le sort × niveau du sort × 250 po. »
 
-<table class="page espace-col deuxcol"><tr><td>
+<table width="100%"><tr><td width="49%">
 <div class="BD">
 {s:BDTitre|Modification de créatures artificielle biologique}
 {s:BDTexte|'''Conditions requises.''' [[Création de créatures artificielles]], ''[[régénération]]'' ; '''Augmentation de FP.''' +1 ; '''Prix.''' 22 750 po}
@@ -108,11 +108,24 @@ Toutes les créatures artificielles biologiques ont la même faiblesse : elles s
 <div class="BD">
 {s:BDTitre|Une créature pour armure}
 {s:BDTexte|'''Conditions requises.''' [[Création darmes et armures magiques|Création d’armes et armures magiques]],[[Création de créatures artificielles]], ''[[animation dobjets|animation d’objets]]'' ; '''Augmentation de FP.''' +1 ; '''Prix.''' 35 000 po}
-{s:BDTexte|Cette modification permet au créateur de la créature artificielle de la revêtir comme une armure. Tant qu’il la porte, elle ne peut pas entreprendre d’action indépendante et reste sous son contrôle. Toute attaque directe contre lui inflige des dégâts à la créature artificielle. Quand une créature artificielle est détruite alors qu’elle sert d’armure, son porteur perd tous les avantages qu’elle apportait mais conserve les inconvénients jusqu’à ce qu’il l’enlève, ce qui lui prend autant de temps que pour une [[Caractéristiques des armures#ENFILEROTER|cuirasse]]. Si la créature artificielle est encore active, son créateur peut lui ordonner de se retirer par une [[action rapide]]. La créature quitte alors la case de son créateur et entre dans une adjacente. Il faut une [[action complexe]] pour revêtir une créature artificielle comme une armure si elle est active. C’est impossible si elle a été détruite.</br>
+{s:BDTexte|{s:FAQ|'''''[[FAQ- lArt de la magie#47|→]] Une créature pour armure (page 114) : Comment les attaques peuvent-elles cibler une créature-armure ? Est-ce que je bénéficie de ses résistances, immunités et autres défenses ? Quels sont les « avantages » et les « inconvénients » mentionnés dans cette section ? La porter affecte-t-il ma vitesse ?'''''
+
+La __[[Créatures artificielles#Les_modifications_complexes_4|créature pour armure]]__ est traitée comme une [[cuirasse (armure)|cuirasse]] en terme de CA. Si quelque chose cible le personnage, il doit d’abord atteindre sa CA. Si cette chose le touche, l’attaque doit passer outre la RD, la solidité et les points de vie de la créature artificielle. Dans les faits, la créature-armure agit comme une réserve de points de vie temporaires : le personnage ne subit aucun dégât des attaques qui ciblent sa CA jusqu’à ce que la créature artificielle soit détruite.
+
+Les attaques qui ignorent la CA ignorent aussi sa protection et affectent le personnage normalement (ce qui inclut la plupart des zones d’effet). Si la créature artificielle est résistante ou immunisée à une attaque en particulier, l’attaque ignore sa protection et affecte le personnage normalement. Concrètement, la créature-armure est utile pour mitiger les dégâts des attaques au corps à corps et à distance, mais ne protège pas un personnage comme s’il était véritablement la créature artificielle qu’il porte.
+
+Par exemple, un [[golem de bois]] est immunisé à et est soignée par le froid ; si un personnage porte un golem de bois comme armure, le toucher avec un ''[[rayon de givre]]'' ne blesse pas l’armure, soigne l’armure si l’attaque inflige au moins 3 points de dégâts de froid, et inflige 1d3 points de dégâts de froid au personnage. Pour les mêmes raisons, le personnage ne gagne pas les faiblesses de la créature artificielle ; ce n’est pas parce qu’un golem de bois est vulnérable au feu que le personnage subit 150% de dégâts de feu lorsqu’il porte un golem de bois comme armure.
+
+Les « avantages » font références au fait que la créature-armure est traitée comme une cuirasse et qu’elle agit comme une réserve de points de vie contre les attaques au corps à corps et à distance. Les « inconvénients » font référence au fait que la créature-armure est traitée comme une cuirasse.
+
+Étant donné que la section « compte comme une cuirasse » n’indique pas qu’elle affecte la vitesse du personnage (vraisemblablement parce que la créature artificielle est partiellement animée et capable de l’aider à se mouvoir), elle ne l’affecte pas.
+
+Mise à jour : Page 114 — Dans la modification Une créature pour armure, dans le premier paragraphe, dans la deuxième phrase, remplacez « touche d’abord la créature » par « inflige des dégâts à la créature ». Dans la troisième phrase, remplacez « récupère les inconvénients » par « conserve les inconvénients ».}Cette modification permet au créateur de la créature artificielle de la revêtir comme une armure. Tant qu’il la porte, elle ne peut pas entreprendre d’action indépendante et reste sous son contrôle. Toute attaque directe contre lui inflige des dégâts à la créature artificielle. Quand une créature artificielle est détruite alors qu’elle sert d’armure, son porteur perd tous les avantages qu’elle apportait mais conserve les inconvénients jusqu’à ce qu’il l’enlève, ce qui lui prend autant de temps que pour une [[Caractéristiques des armures#ENFILEROTER|cuirasse]]. Si la créature artificielle est encore active, son créateur peut lui ordonner de se retirer par une [[action rapide]]. La créature quitte alors la case de son créateur et entre dans une adjacente. Il faut une [[action complexe]] pour revêtir une créature artificielle comme une armure si elle est active. C’est impossible si elle a été détruite.</br>
 Celui qui porte une créature artificielle comme armure conserve son [[BBA|bonus de base à l’attaque]] et ses [[jet de sauvegarde|jets de sauvegarde]]. La créature artificielle compte comme une [[Tableau récapitulatif des armures|cuirasse]] en ce qui concerne la CA, le poids, les modificateurs de Dextérité à la CA et les risques d’échec des sorts profanes.}
 </div>
-
-</div></td><td>
+</td><td width="1%">
+<td style="border-left:1px solid #4b3124;width=" width="1%"></td>
+</td><td width="49%">
 <div class="BD">
 {s:BDTitre|Les yeux du créateur}
 {s:BDTexte|'''Conditions requises.''' [[Création de créatures artificielles]], ''[[scrutation]]'' ; '''Augmentation de FP.''' Aucune ; '''Prix.''' 8 000 po}
