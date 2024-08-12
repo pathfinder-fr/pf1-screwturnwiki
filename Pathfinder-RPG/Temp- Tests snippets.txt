@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Temp- Tests snippets
 Title: Temp- Tests snippets
-LastModified: 2024-07-24 19:18
+LastModified: 2024-08-08 17:47
 ---
 ==Snippets règles==
 Tests pour mettre en place de snippets pour faciliter la navigation dans les règles. Quoi séparer, quoi rassembler, quoi mettre en avant et quoi ranger dans des menus déroulants... En réflexion.
@@ -67,6 +67,77 @@ Tests pour mettre en place de snippets pour faciliter la navigation dans les rè
 {s:ClearRight}
 ==Mètres en cases ?==
 Test: {s:mc|24}, {s:mc|12}, {s:mc|6}, {s:mc|24}
+
+
+{s:ClearRight}
+==Affichage par source==
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).on('change', 'select, input', 'keyup', function() {
+  if ($('#APG').is(':checked')) {
+    $('.APG').show();
+  } else {
+    $('.APG').hide();
+  }
+  if ($('#ACG').is(':checked')) {
+    $('.ACG').show();
+  } else {
+    $('.ACG').hide();
+  }
+  if ($('#UI').is(':checked')) {
+    $('.UI').show();
+  } else {
+    $('.UI').hide();
+  }
+});
+</script>
+
+'''Afficher les sources :'''
+* <input id="APG" type="checkbox" checked><label for="APG" style="font-size:14px">Manuel des joueurs - Règles avancées</label>
+* <input id="ACG" type="checkbox" checked><label for="ACG" style="font-size:14px">Manuel des joueurs - Classes avancées</label>
+* <input id="UI" type="checkbox" checked><label for="UI" style="font-size:14px">L'Art de l'intrigue</label>
+
+====Évocation====
+<ul>
+<li>'''''[[Cri perçant]]''''' ''(AM)''. Inflige des dégâts sonores et hébète la cible.</li>
+<li>'''''[[Décharge électrique]] (Y)'''''. 1d6 points de dégâts d'électricité/niveau (max. 5d6).</li>
+<li>'''''[[Disque flottant]] (Y)'''''. Disque horizontal de 90 cm de diamètre portant 50 kg/niveau.</li>
+<span class="APG"><li>'''''[[Grandes illuminations]]''''' ''(MJRA)''. Comme ''illumination'' mais touche toutes les créatures dans un rayon de 3 m.</li></span>
+<li>'''''[[Halo indésirable]] ([[Sarenraé (technique)|Sarenraé]])''''' ''(ISG)''. Manifeste un halo autour d'une cible, l'empêchant de se cacher dans l'obscurité.</li>
+<li>'''''[[Mains brûlantes]] (Y)'''''. 1d4 points de dégâts de feu/niveau (max. 5d4).</li>
+<span class="ACG"><li>'''''[[Petite brise]]''''' ''(MCA)''. Vent léger qui protège une cible des nuages, des gaz, de la chaleur et des vapeurs.</li></span>
+<span class="APG"><li>'''''[[Poussée hydraulique]] (Y)''''' ''(MJRA)''. Vague d’eau qui bouscule un ennemi.</li></span>
+<li>'''''[[Projectile magique]] (Y)'''''. 1d4+1 points de dégâts, +1 projectile tous les 2 niveaux au-delà de 1 (max. 5).</li>
+<span class="ACG"><li>'''''[[Sabot du tonnerre]]''''' ''(MCA)''. Fait un croc-en-jambe à une créature à portée.</li></span>
+<li>'''''[[Toucher de combustion]] ([[Ifrit (race)|Ifrit]])''''' ''(MR)''. Le personnage porte une attaque qui inflige 1d6 points de dégâts et qui risque d'enflammer son adversaire.</li>
+</ul>
+
+====Style de combat (Ext)====
+Au niveau 2, un rôdeur choisit de se spécialiser dans un des styles de combat suivants. Cette spécialisation se traduit par des dons supplémentaires gagnés aux niveaux 2, 6, 10, 14 et 18. Le rôdeur choisit ces dons supplémentaires dans la liste appropriée. Il peut sélectionner un don même s’il ne remplit pas les conditions qui lui sont associées.
+
+Si le rôdeur choisit le style de combat '''''à distance''''', il peut choisir un des dons suivants chaque fois qu’il gagne un don de style de combat : [[Tir avec concentration]], [[Tir à bout portant]], [[Tir de loin]], [[Tir de précision]] et [[Tir rapide]]. Au niveau 6, les dons [[Feu nourri]], [[Maîtrise des arbalètes]], [[Maîtrise du tir à bout portant]]  et [[Science du tir de précision]] s’ajoutent à la liste. Au niveau 10, les dons [[Tir en mouvement]] et [[Viser juste]] s’ajoutent à la liste.
+
+Si le rôdeur choisit le style de combat '''''à deux armes''''', il peut choisir un des dons suivants chaque fois qu’il gagne un don de style de combat : [[Arme en main]], [[Combat à deux armes]], [[Double frappe]] et [[Science du coup de bouclier]]. Au niveau 6, les dons [[Défense à deux armes]] et [[Science du combat à deux armes]] s’ajoutent à la liste. Au niveau 10, les dons [[Éventration à deux armes]] et [[Combat à deux armes supérieur]] viennent s’ajouter à la liste.</span><span class="APG">
+
+{s:apg} Si le rôdeur choisit le style de combat '''''arbalète''''', il peut choisir un des dons suivants chaque fois qu’il gagne un don de style de combat : [[Rechargement rapide]], [[Tir avec concentration]], [[Tir de précision]] ou [[Viser]]. Au niveau 6, les dons [[Maîtrise des arbalètes]] et [[Science du tir de précision]] s'ajoutent à la liste. Au niveau 10, les dons [[Tir en mouvement]] et [[Viser juste]] viennent s'ajouter à la liste.</span><span class="APG">
+
+{s:apg}Si le rôdeur choisit le style de combat '''''arme à deux mains''''', il peut choisir un des dons suivants chaque fois qu’il gagne un don de style de combat : [[Assaut repoussant]], [[Attaque en puissance]], [[Coups protecteurs]] ou [[Enchaînement]]. Au niveau 6, les dons [[Concentration malgré la fureur]] et [[Succession denchaînements|Succession d’enchaînements]] s'ajoutent à la liste. Au niveau 10, les dons [[Carnage effroyable]] et [[Science de la destruction]] viennent s'ajouter à la liste.</span><span class="ACG">
+
+{s:MCA}Si le rôdeur choisit le style de combat '''''arme de jet''''', il peut choisir les dons de la liste suivante à chaque fois qu’il gagne un don de style de combat : [[Arme en main]], [[Combat à deux armes]], [[Lanceur à distance]], [[Tir de précision]]. Au niveau 6, il ajoute [[Lanceur à courte distance]] et [[Fausse ouverture]] à la liste. Au niveau 10, il ajoute [[Viser juste]] et [[Tir en mouvement]] à la liste.</span><span class="APG">
+
+{s:apg}Si le rôdeur choisit le style de combat '''''arme et bouclier''''', il peut choisir un des dons suivants chaque fois qu’il gagne un don de style de combat : [[Art du bouclier]], [[Frappe du bouclier]], [[Combat à deux armes]] ou [[Science du coup de bouclier]]. Au niveau 6, les dons [[Bouclier salvateur]] et [[Maîtrise du bouclier]] s'ajoutent à la liste. Au niveau 10, les dons [[Art du bouclier supérieur]] et [[Coup de bouclier opportuniste]] viennent s'ajouter à la liste.</span><span class="APG">
+
+{s:apg}Si le rôdeur choisit le style de combat '''''arme naturelle''''', il peut choisir un des dons suivants chaque fois qu’il gagne un don de style de combat : [[Arme de prédilection]], [[Arme naturelle supérieure]], [[Aspect bestial]] ou [[Griffes coupantes]]. Au niveau 6, les dons [[Frappe décisive]] et [[Griffes magiques]] s'ajoutent à la liste. Au niveau 10, les dons [[Attaques multiples]] et [[Science de la frappe décisive]] viennent s'ajouter à la liste. </span><span class="UI">
+
+{s:cs}{s:UI}Si le rôdeur choisit le style de combat '''''astucieux''''', il peut choisir un des dons suivants chaque fois qu'il gagne un don de style de combat, et s'il choisit Expertise du combat, il compte comme ayant une valeur d'Intelligence de 13 afin de choisir des dons qui ont Expertise du combat comme condition : [[Esquive]], [[Expertise du combat]], [[Science de la subtilisation]] et [[Science du sale coup]]. Au niveau 6, les dons [[Sale coup supérieur]] et [[Subtilisation supérieure]] s'ajoutent à la liste. Au niveau 10, les dons [[Sale coup rapide]] et [[Subtilisation rapide]] s'ajoutent à la liste.</span><span class="APG">
+
+{s:apg}Si le rôdeur choisit le style de combat '''''combat monté''''', il peut choisir un des dons suivants chaque fois qu’il gagne un don de style de combat : [[Astuce déquitation|Astuce d’équitation]], [[Attaque au galop]], [[Combat monté]] ou [[Tir monté]]. Au niveau 6, les dons [[Bouclier pour la monture]] et [[Charge dévastatrice]] s'ajoutent à la liste. Au niveau 10, les dons [[Désarçonner]] et [[Tirailleur monté]] viennent s'ajouter à la liste.</span><span class="UI">
+
+{s:cs}{s:UI}Si le rôdeur choisit le style de combat '''''menaçant''''', il peut choisir un des dons suivants chaque fois qu'il gagne un don de style de combat : [[Coup final sanglant]], [[Démonstration]], [[Force intimidante]] et [[Homme de main]]. Au niveau 6, les dons [[Briser les défenses]], [[Domination martiale]] s'ajoutent à la liste. Au niveau 10, les dons [[Carnage effroyable]] et [[Science du critique]] s'ajoutent à la liste.</span><span class="UI">
+
+{s:cs}{s:UI}Si le rôdeur choisit le style de combat '''''trompeur''''', il peut choisir un des dons suivants chaque fois qu'il gagne un don de style de combat : [[Feinte à distance]], [[Feinte de dégagement]], [[Science de la feinte]] et [[Feinte à deux armes]]. Au niveau 6, les dons [[Détournement tactique]] et [[Feinte supérieure]] s'ajoutent à la liste. Au niveau 10, les dons [[Coup de dégagement]] et [[Tour de passe-passe]] s'ajoutent à la liste.</span>
+
+Le rôdeur ne bénéficie de ses dons de style de combat que s’il porte une armure légère, une armure intermédiaire ou s’il ne porte aucune armure. Il perd leurs avantages s’il porte une armure lourde. Une fois qu’un rôdeur a opté pour un style de combat, ce choix ne peut plus être modifié.
 
 
 {s:ClearRight}
