@@ -1,0 +1,71 @@
+---
+Name: Pathfinder-RPG.Aventures nautiques
+Title: Les aventures nautiques
+LastModified: 2024-08-25 16:21
+---
+{s:MenuEnvironnement}L’eau peut aussi servir de décor à une expérience de jeu unique : les aventures nautiques. Dans un scénario de ce type, les effets et les dangers liés à l’environnement aquatique sont remplacés par des périls de surface, alors que les PJ et leurs adversaires se déplacent à bord de navires et de petites embarcations.  Dans l’ensemble, les aventures nautiques se déroulent normalement, un combat naval fonctionnant presque comme un combat terrestre. Si la bataille a lieu pendant une tempête ou par gros temps, traitez le pont du navire comme un [[terrain difficile]]. N’oubliez pas de prendre en compte les effets qu’ont le temps et les mouvements du bateau sur les lanceurs de sorts ([[lancer des sorts#TESTCONCENTRATION|test de concentration]]).
+
+===Les combats navals rapides===
+Quand les bateaux font partie intégrante du combat, les choses sortent de l’ordinaire. Les règles suivantes n’ont pas pour but de simuler avec réalisme la complexité d’un affrontement entre deux bâtiments, seulement de vous fournir une méthode simple et rapide pour résoudre ces situations qui se produisent immanquablement lors de toute aventure nautique, qu’il s’agisse d’une bataille entre deux bateaux ou entre un navire et un monstre marin.
+
+'''La préparation.''' Décidez du [[Aventures nautiques#PROFILBATEAUX|type de bateau]] impliqué dans le combat. Utilisez une vaste grille de combat vierge pour représenter les eaux dans lesquelles il se déroule. Une case correspond alors à 9 mètres de distance. Représentez chaque bateau par un marqueur qui occupe le nombre de cases appropriées (des bateaux miniatures font d’excellents marqueurs et vous en trouverez dans bien des boutiques de loisir).
+
+'''Entamer le combat.''' Quand le combat commence, faites faire un test d’[[Initiative]] aux PJ (et aux importants PNJ alliés) comme d’habitude. Le bateau se déplace et attaque selon l’[[initiative]] du capitaine. Si l’un des bateaux navigue à la voile, déterminez aléatoirement la direction du vent en lançant 1d8 et suivez les indications données pour les [[Actions spéciales#ARMEASPERSION|armes à aspersion]] qui ratent leur cible. 
+
+'''Les déplacements.''' Quand c’est au tour du capitaine, le vaisseau peut couvrir sa vitesse de déplacement actuelle en un [[round]] par une [[action de mouvement]] de la part du capitaine (ou doubler cette vitesse par une [[action complexe]]), tant qu’il dispose de l’équipage minimum nécessaire. À chaque [[round]], il peut augmenter ou réduire sa vitesse de 9 mètres, jusqu’à atteindre sa vitesse maximale. Sinon, le capitaine peut changer de direction (d’un côté de carré au maximum à chaque fois) par une [[action simple]]. Le bateau ne peut changer de direction qu’au début du tour.
+
+'''Les attaques.''' Les membres d’équipage en excès par rapport au minimum requis peuvent s’occuper des [[engin de siège|engins de sièges]]. Les machines de guerre attaquent avec l’[[initiative]] du capitaine.
+ 
+Un navire qui dispose d’un équipage minimum peut également tenter d’éperonner sa cible. Pour ce faire, il doit se déplacer à 9 mètres au minimum et terminer son mouvement avec la proue dans une case adjacente à la cible. Le capitaine fait alors un test de [[Profession]] (marin). S’il égale ou dépasse la [[CA]] de l’adversaire, le navire touche la cible et lui inflige les dégâts indiqués dans la table de profils du bateau mais subit aussi des dégâts minimum. Un bateau équipé d’un véritable éperon inflige 3d6 points de dégâts supplémentaires à la cible (et n’en subit pas en plus).
+
+====Le naufrage====
+Le navire coule si ses [[pv|points de vie]] tombent à 0 ou moins. Un navire qui fait naufrage ne peut pas se déplacer ni attaquer et disparaît sous les flots 10 [[round|rounds]] après le début du naufrage. Tout dégâts infligé à un navire qui coule réduit le temps qu’il met à s’enfoncer, à raison de 1 [[round]] par tranche de 25 points de dégâts. Les sorts comme ''[[réparation intégrale]]'' restaurent un navire en perdition s’ils remontent son total de points de vie au‑dessus de 0. Dans ce cas, le navire ne coule plus. En général, les réparations ordinaires sont trop lentes pour sauver un navire une fois qu’il a commencé à couler.
+
+{s:Reference|PROFILBATEAUX}
+====Les profils des bateaux====
+{s:Desambi|L’''Art de la guerre'' introduit des règles avancées relatives aux [[Véhicules aquatiques (véhicules)|véhicules aquatiques]].}Dans le monde réel, il existe une grande variété de navires, des petits radeaux aux drakkars en passant par les intimidants galions et les rapides galères. Pour représenter les nombreuses variations de forme et de taille qui existent entre les embarcations aquatiques, la table ci-dessous donne sept catégories de taille standard ainsi que leurs profils respectifs.
+
+Mais tout comme les différentes cultures du monde réel ont conçu et adapté des centaines de types de navires marins, les races des mondes fantastiques peuvent créer leurs propres vaisseaux aux caractéristiques étranges. Les MJ peuvent utiliser ou modifier les profils donnés plus haut pour les adapter aux besoins de leur création et décrire leurs bâtiments comme ils le souhaitent. Tout bateau possède les particularités suivantes.
+
+'''Le type de bateau'''. Catégorie générale qui indique le type basique du vaisseau.
+
+'''CA.''' Classe d’armure de base du bateau. Pour calculer la CA réelle du navire, ajoutez le modificateur de [[Profession]] (marin) du capitaine à la CA de base. Les attaques de contact portées contre le navire ne tiennent pas compte de ce modificateur. Un bateau n’est jamais pris au dépourvu.
+
+'''pv.''' Total de points de vie du bateau. De plus, tous les navires ont une solidité basée sur leur matériau ([[solidité]] 5 pour la plupart des bateaux de bois). Un bateau commence à couler comme indiqué plus haut quand il tombe à 0 point de vie ou moins.
+
+'''Jet de sauvegarde de base.''' Modificateur de base aux [[jet de sauvegarde|jets de sauvegarde]] du navire. Tous
+les jets ([[Vigueur]], [[Réflexes]] et [[Volonté]]) ont la même valeur. Pour déterminer les modificateurs réels du
+bateau, ajoutez le modificateur de [[Profession]] (marin) du capitaine à la valeur.
+
+'''Vitesse maximum.''' Vitesse tactique maximum du navire en combat. Un astérisque indique que le navire a des voiles et peut se déplacer deux fois plus vite quand il se déplace dans le même sens que le vent. Un navire qui se meut seulement grâce à ses voiles ne peut pas avancer s’il n’y a pas de vent.
+
+'''Armes.''' Nombre d’[[engin de siège|engins de siège]] que l’on peut monter sur le navire. Un éperon utilise l’un de ces emplacements et l’on ne peut en monter qu’un seul par bateau.
+
+'''Éperon.''' Montant de dégâts infligés lorsque le bateau éperonne un navire adverse (sans éperon).
+
+'''Cases.''' Nombre de cases que le bateau occupe sur la grille de combat. On considère toujours qu’un bateau fait une case de large.
+
+'''Équipage.''' Le premier nombre indique le nombre minimum de membres d’équipage requis pour que le bateau fonctionne normalement, sans compter ceux qu’il faut pour manier les armes du navire. La seconde valeur indique le maximum de membres d’équipage et de passagers et soldats supplémentaires transportables. Un navire qui ne dispose pas d’un équipage minimum se déplace, change de vitesse ou de direction et éperonne un adversaire uniquement si le capitaine réussit un test de [[Profession]] (marin) [[DD]] 20. Les membres d’équipage en surplus par rapport au minimum n’ont aucune influence sur le mouvement mais ils peuvent remplacer des marins tombés au combat ou manier
+des armes.
+
+{| CLASS="tablo centre autoalt"
+|+ Les profils des bateaux
+|- CLASS="titre"
+| Type de bateau || CA || PV || Jet de sauvegarde || Vitesse max || Armes || Éperon || Cases || Équipage
+|- CLASS="premier"
+| Radeau || 9 || 10 || +0 || 4.5 m (3 {s:c}) || 0 || 1D6 || 1 || 1/4
+|-
+| Barque || 9 || 20 || +2 || 9 m (6 {s:c}) || 1 || 2D6 || 1 || 1/3
+|-
+| Péniche || 8 || 60 || +4 || 9 m* (6 {s:c}) || 1 || 2D6+6 || 2 || 4/15+100
+|-
+| Drakkar || 6 || 75 || +2 || 18 m* (12 {s:c}) || 1 || 4D6+18 || 3 || 50-75+100
+|-
+| Voilier || 2 || 125 || +6 || 18 m* (12 {s:c}) || 2 || 3D6+12 || 4 || 60/80+160
+|-
+| Navire de guerre || 2 || 175 || +7 || 18 m* (12 {s:c}) || 3 || 3D6+12 || 4 || 60/80+160
+|-
+| Galère || 2 || 200 || +8 || 21 m* (14 {s:c}) || 2 || 6d6+24 || 4 || 200/250+200
+|- CLASS="note"
+| COLSPAN="9" | ''(*) voiles uniquement.''
+|}

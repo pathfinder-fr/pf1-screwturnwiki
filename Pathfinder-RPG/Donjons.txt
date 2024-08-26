@@ -1,24 +1,228 @@
 ---
 Name: Pathfinder-RPG.Donjons
 Title: Les donjons
-LastModified: 2016-12-26 18:19
+LastModified: 2024-08-21 16:55
 Categories:
   - 'Maitre du jeu'
-  - 'Manuel des joueurs'
-  - 'Règles officielles'
+  - 'Règle officielle'
+  - 'Src Manuel des joueurs'
 ---
-{s:MenuEnvironnement}
+{s:MenuEnvironnement}<div style="float: right; padding: 0 0 8px 8px">{toc}</div>De tous les lieux étranges que des aventuriers puissent explorer, il n’en existe pas de plus mortel que les donjons. Ces labyrinthes remplis de pièges meurtriers, de monstres affamés et de trésors inestimables mettent à l’épreuve la moindre compétence du personnage. Les règles ci-dessous s’appliquent à tous les types de donjons, de l’épave d’un navire englouti à un vaste complexe de cavernes.
 
-De tous les lieux étranges que des aventuriers puissent explorer, il n’en existe pas de plus mortel que les donjons. Ces labyrinthes remplis de pièges meurtriers, de monstres affamés et de trésors inestimables mettent à l’épreuve la moindre compétence du personnage. Les règles ci-dessous s’appliquent à tous les types de donjons, de l’épave d’un navire englouti à un vaste complexe de cavernes.
+===Les différents types de donjons===
+Les quatre types de donjons sont définis en fonction de leur état et de leurs occupants actuels. La plupart des donjons combinent plusieurs types, surtout quand ils sont très étendus. Il arrive qu’un vieux donjon soit réutilisé par de multiples occupants successifs dans des buts divers.
 
-Pour en savoir plus :
-<ul>
-<li>[[Types de donjons|Les types de donjons]]</li>
-<li>[[Murs|Les murs des donjons]]</li>
-<li>[[Sols|Les sols des donjons]]</li>
-<li>[[Portes|Les portes des donjons]]</li>
-<li>[[Escaliers|Les escaliers]]</li>
-<li>[[Éboulements|Les éboulements]]</li>
-<li>[[Champignons, moisissures et limons]]</li>
-<li>[[La boîte à outils des donjons]]</li>
-</ul>
+'''Structure en ruine.''' Autrefois occupé, ce site a depuis longtemps été abandonné (complètement ou en partie) par son ou ses créateur(s) originaux et d’autres créatures sont venues s’y installer. La plupart des monstres souterrains aiment s’installer dans ce genre d’endroit. Les [[Pièges|pièges]] installés à l’origine ont sans doute été déclenchés depuis longtemps mais il se peut que les monstres errants y soient monnaie courante.
+
+'''Structure occupée.''' Ce donjon est toujours utilisé. Il est occupé par des créatures (souvent intelligentes) qui ne sont pas forcément ses créateurs. Ce peut être une maison, une forteresse, un temple, une mine en activité, une prison ou encore le quartier général d’une armée. On a moins de chances d’y trouver des [[Pièges|pièges]] ou des monstres errants mais, en revanche, il dispose souvent d’une garde organisée (à savoir des sentinelles et des patrouilles). S’il y a tout de même des pièges et des monstres errants, ceux-ci ont généralement été installés (ou amenés) par les principaux habitants du donjon. Les structures occupées sont meublées selon les goûts de leurs habitants. De plus, ces derniers peuvent se déplacer comme bon leur semble à l’intérieur de leur donjon : les portes s’ouvrent, les couloirs sont assez larges pour eux, etc. Peut-être ont-ils conçu un système de communication interne et ils contrôlent presque certainement une sortie vers l’extérieur.
+
+Certains donjons sont partiellement occupés et partiellement en ruines ou vides. Dans ce cas, les occupants ne sont pas les constructeurs d’origine mais plutôt des créatures intelligentes et opportunistes qui ont décidé d’installer leur base, leur antre ou leur forteresse dans un donjon abandonné.
+
+'''Site d’entreposage.''' Lorsque les gens souhaitent protéger quelque chose, ils le cachent parfois sous terre. Que ce trésor prenne la forme d’une montagne de pièces d’or, d’un artefact interdit ou de la dépouille d’un personnage important, il est dissimulé au cœur du donjon et entouré de [[pièges]], barrières et autres gardiens.
+
+Ce donjon entrepôt est celui qui a le plus de chances d’être piégé ; en revanche, les monstres errants y sont nettement moins nombreux. Normalement, ce donjon privilégie le côté fonctionnel plutôt que les apparences mais on trouve parfois quelques ornements, tels des statues ou des fresques, surtout dans les tombes des gens importants.
+
+Il arrive qu’une crypte ou une construction similaire soit faite pour abriter des gardes vivants. La difficulté consiste alors à maintenir ces créatures en vie en leur fournissant l’eau et la nourriture dont elles ont besoin. La magie est souvent le meilleur moyen de subvenir à leurs besoins. Les concepteurs des caveaux et des tombes utilisent souvent des [[type mort-vivant|morts-vivants]] ou des [[type créature artificielle|créatures artificielles]] qui n’ont pas besoin de se nourrir ni de se reposer pour garder le donjon. Il existe également des [[pièges]] qui [[invocation|convoquent]] des monstres qui disparaissent dès qu’ils ont accompli leur tâche.
+
+'''Complexe de cavernes naturelles.''' Les cavernes naturelles abritent toutes sortes de monstres souterrains. Elles sont de formation naturelle et sont reliées par un système de tunnels labyrinthiques dépourvu d’ordre, de plan ou de toute décoration. Ces cavernes n’ont pas été construites par une espèce intelligente, ce sont donc les donjons qui risquent le moins d’être piégés ou de comporter des portes.
+
+Les [[Champignons, moisissures et limons|champignons]] de toutes sortes prolifèrent dans ce genre d’environnement, à tel point qu’on en trouve parfois d’immenses forêts. Les prédateurs souterrains rôdent dans ces bois, prêts à bondir sur les créatures qui se nourrissent des champignons. Certaines variétés de champignons sont phosphorescentes et éclairent un peu les cavernes où elles poussent. Dans d’autres zones, des sorts tels que lumière du jour prodiguent suffisamment de lumière pour faire pousser des plantes vertes.
+
+Bien souvent, les complexes naturels sont reliés à d’autres types de donjons, généralement parce qu’ils ont été découverts accidentellement quand le donjon artificiel fut construit. Ils peuvent même relier deux donjons n’ayant rien à voir entre eux, créant ainsi un environnement pour le moins hétéroclite. Dans ce cas, les créatures souterraines passent souvent par les cavernes naturelles pour peupler le donjon artificiel.
+
+===L'intérieur du donjon===
+Les règles suivantes décrivent les terrains de base que l’on trouve dans un donjon.
+
+====Les murs====
+Les pièces et les couloirs sont séparés par des murs faits de blocs de pierre disposés les uns sur les autres, parfois fixés à l’aide de mortier. Mais certaines parois peuvent également être taillées dans la pierre, ce qui leur donne un aspect brut. Les murs des donjons sont épais et difficiles à défoncer mais il est très facile de les escalader.
+
+'''Ouvrage de maçonnerie.''' Ce mur fait au moins trente centimètres d’épaisseur et c’est celui que l’on rencontre le plus communément dans un donjon. Bien souvent, il est creusé de fissures et de crevasses et parfois, des vases ou des monstres de petite taille s’y cachent, à l’affût d’une proie. Ce mur bloque tous les sons sauf les plus forts. Pour se déplacer sur ce type de mur, il faut réussir un test d’[[Escalade]] [[DD]] 20.
+
+'''Ouvrage de maçonnerie de qualité supérieure.''' Parfois, les murs sont mieux construits (ils sont plus lisses, les pierres sont mieux ajustées et ils comptent moins de fissures) et sont recouverts de plâtre ou de stuc. Les murs ainsi enduits sont souvent ornés de fresques, de gravures et d’autres décorations. Ces murs ne sont pas plus solides que les murs de maçonnerie ordinaires mais ils sont plus difficiles à escalader ([[DD]] 25).
+
+'''Ouvrage de maçonnerie renforcé.''' Ce mur est renforcé à l’aide de barres de fer placées d’un côté du mur ou des deux voire même à l’intérieur de la paroi. La solidité du mur reste la même mais son nombre de points de vie est doublé et le [[DD]] du test de [[Force]] nécessaire pour le défoncer augmentent de +10.
+
+'''Paroi de pierre taillée.''' Ces murs vont souvent de paire avec des chambres ou des passages creusés à même la roche. Sa surface rugueuse abrite de petites corniches sur lesquelles poussent des champignons et où vivent également des vermines, des chauve-souris et des serpents souterrains. Quand une telle paroi a “un verso” (ce qui veut dire qu’elle sépare deux pièces du donjon), elle mesure au moins quatre-vingt-dix centimètres d’épaisseur. Si elle était plus mince, elle risquerait de s’effondrer sous le poids de la roche qu’elle supporte. Le [[DD]] du test d’[[Escalade]] est de 25.
+
+'''Paroi de pierre brute.''' Cette paroi est inégale et rarement plane. Elle est souvent lisse au toucher mais parsemée à diverses hauteurs de petits trous, d’alcôves cachées et de corniches. Elle est souvent mouillée, ou du moins humide, car c’est généralement l’eau qui creuse ces cavernes naturelles. Quand ce mur a un « verso », il mesure au moins un mètre cinquante d’épaisseur. Pour escalader un mur de pierre brute, il faut réussir un test d’[[Escalade]] [[DD]] 15.
+
+'''Mur de fer.''' Ces murs entourent les pièces importantes, comme les caveaux.
+
+'''Mur de papier.''' Les murs de papier servent à bloquer le champ de vision mais rien de plus.
+
+'''Mur de bois.''' Les murs de bois sont souvent des ajouts récents à des donjons bien plus anciens qui servent à créer des enclos à animaux, des compartiments de stockage et des structures temporaires ou encore pour diviser une grande salle en plusieurs petites.
+
+'''Mur renforcé par magie.''' Ces murs sont plus résistants que la normale : ils sont plus solides, ils ont davantage de points de vie et un [[DD]] augmenté quand il s’agit de les défoncer. Généralement, la magie double la valeur de solidité et le nombre de points de vie du mur tout en augmentant le [[DD]] d’[[Caractéristiques#FORCE|Enfoncer]] d’un maximum de 20. Un mur renforcé par magie bénéficie également d’un bonus de 2 + 1/2 [[NLS|niveau de lanceur de sorts]] de son créateur lorsqu’il doit faire un [[jet de sauvegarde]] contre les sorts. Pour créer un mur magique, il faut disposer du [[Dons|don]] [[Création dobjets merveilleux|Création d’objets merveilleux]] et dépenser 1 500 po par section de trois mètres sur trois.
+
+'''Mur doté de meurtrières.''' Ce type de mur se taille dans n’importe matériau solide, le plus souvent dans un mur de maçonnerie, en pierre brute ou en bois. Ce mur permet aux défenseurs cachés derrière de tirer à l’arc ou à l’arbalète tout en bénéficiant d’un [[abri]] supérieur (bonus de +8 à la [[CA]], bonus de +4 aux [[jet de sauvegarde|jets de Réflexes]]) et de l’aptitude de classe [[esquive extraordinaire]].
+
+{| CLASS="tablo centre autoalt"
+|+ Les murs
+|- CLASS="titre"
+| Type de mur<sup>&ensp;</sup> || Épaisseur<sup>&ensp;</sup> || DD pour<br/>défoncer<sup>&ensp;</sup> || Solidité<sup>&ensp;</sup> || Points <br/>de vie<sup>[[Donjons#NOTE1|1]]</sup> || DD <br>d'[[Escalade]]<sup>&ensp;</sup>
+|- CLASS="premier"
+| Maçonnerie || 30 cm || 35 || 8 || 90 || 15
+|-
+| Maçonnerie de qualité supérieure || 30 cm || 35 || 8 || 90 || 20
+|-
+| Maçonnerie renforcée || 30 cm || 45 || 8 || 180 || 15
+|-
+| Pierre taillée || 90 cm || 50 || 8 || 540 || 22
+|-
+| Pierre brute || 1,50 m || 65 || 8 || 900 || 20
+|-
+| Fer || 7,5 cm || 30 || 10 || 90 || 25
+|-
+| Papier || Négligeable || 1 || — || 1 || 30
+|-
+| Bois || 15 cm || 20 || 5 || 60 || 21
+|-
+| Renforcé par magie<sup>[[Donjons#NOTE2|2]]</sup> || — || +20<sup>&ensp;</sup> || ×2<sup>&ensp;</sup> || ×2<sup>[[Donjons#NOTE3|3]]</sup> || —
+|- CLASS="note"
+| COLSPAN="6" | {s:Reference|NOTE1}''(1) Pour une section de 3 m de côté.''
+|- CLASS="note"
+| COLSPAN="6" | {s:Reference|NOTE2}''(2) Ces modificateurs peuvent s’appliquer à n’importe quel autre type de mur.''
+|- CLASS="note"
+| COLSPAN="6" | {s:Reference|NOTE3}''(3) Ou 50 points de vie supplémentaires (on prend systématiquement le meilleur résultat).''
+|}
+
+====Les sols====
+Tout comme pour les murs, il existe différents types de sol dans un donjon.
+
+'''Sol dallé.''' Comme les murs de maçonnerie, les sols dallés sont faits de blocs de pierre bien ajustés. Ils sont souvent craquelés et modérément plats et des vases comme des champignons en profitent pour pousser dans leurs fissures. Parfois, de l’eau s’écoule entre les dalles ou forme de petites mares stagnantes. C’est le type de sol que l’on rencontre le plus communément dans les donjons.
+
+'''Sol dallé inégal.''' Au fil du temps, le sol devient si inégal qu’il faut réussir un test d’[[Acrobaties]] [[DD]] 10 pour le traverser en courant ou en chargeant. En cas d’échec, le personnage ne peut pas se déplacer pendant ce round. Un sol aussi traître est extrêmement rare et constitue une exception.
+
+'''Sol de pierre taillée.''' Rugueux et inégal, les sols de pierre brute sont couverts de pierres branlantes, de terre, de cailloux et d’autres débris. Il faut réussir un test d’[[Acrobaties]] [[DD]] 10 pour le traverser en courant ou en chargeant. En cas d’échec, le personnage peut agir mais il ne peut courir ni charger pour le round.
+
+'''Légers décombres.''' De petits débris parsèment le sol. Ils ajoutent 2 points au [[DD]] des tests d’[[Acrobaties]].
+
+'''Nombreux décombres.''' Le sol est couvert de débris de toutes tailles. Entrer dans une telle case demande 2 cases de déplacement. Ces décombres ajoutent 5 points au [[DD]] des tests d’[[Acrobaties]] et 2 points au [[DD]] des tests de [[Discrétion]].
+
+'''Sol de pierre polie.''' Ce sol bien fignolé et parfois poli se trouve uniquement dans les donjons construits par des bâtisseurs expérimentés.
+
+'''Sol de pierre naturelle.''' Le sol des cavernes est tout aussi irrégulier que leurs parois. Les grottes disposent rarement de grandes surfaces planes et se composent généralement de sols sur plusieurs niveaux. Certaines surfaces planes adjacentes ont seulement quelques centimètres de décalage en hauteur et il est aussi facile de passer de l’une à l’autre que de monter une marche d’escalier mais d’autres descendent ou s’élèvent brusquement de plusieurs mètres et nécessitent un test d’[[Escalade]] pour passer d’un niveau à l’autre. À moins qu’un sentier n’ait été creusé dans la roche par le passage de nombreuses créatures, il faut utiliser 2 cases de déplacement pour entrer dans une case de sol de pierre naturelle. Le [[DD]] des tests d’[[Acrobaties]] augmente de 5 points et il est impossible de courir ou de charger dans un tel environnement, hormis sur les sentiers.
+
+'''Sol glissant.''' Les surfaces décrites précédemment deviennent traîtres si elles sont couvertes d’eau, de glace, de vase ou de sang. Le [[DD]] des tests d’[[Acrobaties]] des surfaces glissantes augmente de 5.
+
+'''Grille.''' Les grilles servent à couvrir les fosses ou les zones plus basses que le sol. Elles sont souvent en fer, mais les plus grandes peuvent également être en bois renforcé de fer. La plupart des grilles sont montées sur gonds afin d’accéder à ce qu’elles cachent (on peut les fermer à clef) mais d’autres sont permanentes et ne sont pas prévues pour bouger. Une grille de fer type de deux centimètres et demi d’épaisseur a 25 points de vie, 10 en [[solidité]] et il faut réussir un test de [[Force]] de [[DD]] 27 pour l’enfoncer ou l’arracher.
+
+'''Corniche.''' Les corniches permettent de se déplacer en surplomb. Elles contournent souvent des fosses, longent des cours d’eau souterrains ou constituent des balcons ou de véritables galeries depuis lesquelles des archers peuvent tirer sur les créatures au-dessous. Si la corniche est étroite (moins de trente centimètres de large) les personnages qui l’utilisent doivent réussir un test d’[[Acrobaties]]. En cas d’échec, ils tombent. Les corniches disposent parfois d’une rambarde. Dans ce cas, les personnages bénéficient d’un bonus de circonstances de +5 aux tests d’[[Acrobaties]] visant à s’y déplacer. Un personnage qui se tient près d’une rambarde bénéficie d’un bonus de circonstances de +2 au test de [[Force]] opposé quand il résiste à une bousculade qui risque de le faire basculer par-dessus bord.
+
+Une corniche peut aussi disposer d’un muret de soixante à quatre-vingt-dix centimètres de haut. Il procure un abri contre les attaquants situés à neuf mètres ou moins de l’autre côté du mur, tant que la cible en est plus proche du mur que lui.
+
+'''Plancher transparent.''' Un plancher transparent est fait de verre renforcé ou de matériaux magiques (comme un ''[[mur de force]]'') permet de regarder un spectacle dangereux du dessus, en toute sécurité. Il surplombe parfois un lac de lave, une arène, une chambre de torture ou l’antre d’un monstre. Les défenseurs du donjon peuvent s’en servir pour recueillir des informations clefs sur d’éventuels intrus.
+
+'''Plancher coulissant.''' Ce sol est souvent conçu comme une trappe faite pour dévoiler ce qui se trouve au-dessous. Il s’ouvre si lentement que toute personne qui se trouve dessus n’a aucun mal à éviter de tomber dans le trou qui s’ouvre, à condition de pouvoir disposer d’un endroit où se replier. Si un plancher coulissant s’ouvre si vite que les personnages qui se trouvent dessus risquent de tomber dans ce qui se trouve au-dessous (une fosse hérissée de pieux, un chaudron d’huile bouillante ou un bassin plein de requins), il est considéré comme un [[Pièges|piège]].
+
+'''Plancher piégé.''' Ce plancher est conçu pour se transformer soudain en un dangereux [[Pièges|piège]]. Il suffit qu’un personnage applique malencontreusement un certain poids en un point donné ou tire sur un levier voisin pour que des pointes jaillissent du sol, que des orifices dissimulés libèrent des jets de flammes ou que toute la salle entière bascule. On trouve parfois ce type de plancher dans les arènes où il rend les combats plus excitants et plus dangereux. Ces planchers se construisent comme des [[pièges]].
+
+====Les portes====
+Dans un donjon, les portes sont bien plus que de simples entrées ou sorties. Bien souvent, elles deviennent des rencontres à part entière. Il existe trois types de portes : en bois, en pierre ou en fer.
+
+<div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
+<div style="border: 1px solid #4b3124; padding: 4px">
+{| CLASS="tablo centre"
+|+ Les portes
+|- CLASS="titre"
+| ROWSPAN="2" | Type de porte
+| ROWSPAN="2" | Épaisseur
+| ROWSPAN="2" | [[Solidité]]
+| ROWSPAN="2" | Points <br/>de vie
+| COLSPAN="2" CLASS="avecsoustitre" | DD pour enfoncer
+|- CLASS="soustitre"
+| coincée || verrouillée
+|- CLASS="premier"
+| Bois, normale || 2,5 cm || 5 || 10 || 13 || 15
+|- CLASS="alt"
+| Bois, solide || 4 cm || 5 || 15 || 16 || 18
+|-
+| Bois, épaisse || 5 cm || 5 || 20 || 23 || 25
+|- CLASS="alt"
+| Pierre || 10 cm || 8 || 60 || 28 || 28
+|-
+| Fer || 5 cm || 10 || 60 || 28 || 28
+|- CLASS="alt"
+| Herse, bois || 7,5 cm || 5 || 30 || 25* || 25*
+|-
+| Herse, fer || 5 cm || 10 || 60 || 25* || 25*
+|- CLASS="alt"
+| Serrure || — || 15 || 30 || &nbsp; || &nbsp;
+|-
+| Gond || — || 10 || 30 || &nbsp; || &nbsp;
+|-
+| COLSPAN="6" CLASS="note" | ''(*) [[DD]] pour soulever. Utilisez le DD du type de porte correspondant<br/> au matériau de construction de la herse pour l’enfoncer.''
+|}
+</div></div>'''Porte en bois.''' Les portes en bois sont faites d’épaisses planches de bois clouées ensemble, parfois renforcées de fer (ce qui limite la déformation du bois issue de l’humidité souterraine). C’est le type de porte le plus courant. Ces portes se déclinent selon leur qualité : normale, solide ou épaisse. Les premières ne sont pas faites pour empêcher un intrus déterminé d’entrer (test de [[Force]] de [[DD]] 15). Les portes solides sont plus résistantes ([[DD]] 18) et plus solides mais elles ne sont pas faites pour subir une grande quantité de dégâts. Les portes épaisses ([[DD]] 25) sont renforcées par des ferrures et opposent un obstacle bien plus résistant à ceux qui voudraient les franchir. La porte est reliée au chambranle par des gonds de fer et, la plupart du temps, elle est dotée d’un anneau de fer placé au centre en guise de poignée. Parfois, l’anneau est remplacé par une barre de fer (d’un côté ou des deux) qui sert de poignée. Dans les donjons habités, les portes sont souvent bien entretenues (et donc jamais coincées) et généralement ouverte bien qu’elles puissent être verrouillées si elle débouchent sur des zones importantes.
+
+'''Porte en pierre.''' Taillées à même un grand bloc de pierre, ces portes extrêmement lourdes sont souvent montées sur pivot, même si les nains et les autres artisans de talent savent façonner des gonds assez solides pour soutenir une porte de pierre. Les passages secrets qui s’ouvre dans un mur de pierre sont souvent des portes en pierre. Sinon, ces portes servent à protéger ce qui se trouve derrière, ce qui explique qu’elles soient souvent verrouillées ou fermées par une barre.
+
+'''Porte en fer.''' Rouillées mais solides, les portes en fer des donjons sont montées sur gonds, comme les portes en bois. Il n’existe pas de porte non-magique plus solide. Elles sont souvent fermées à clef ou à l’aide d’une barre.
+
+'''Enfoncer une porte.''' Les portes d’un donjon peuvent être fermées à clef, piégées, renforcées, fermées à l’aide d’une barre, scellées par magie ou tout simplement coincées. N’importe quel personnage hormis les plus faibles devrait pouvoir défoncer une porte à l’aide d’une lourde masse. De plus, certains sorts ou objets magiques permettent aux personnages de franchir sans peine une porte verrouillée.
+
+Si les personnages essayent de taillader littéralement la porte à l’aide d’une arme tranchante ou contondante, utilisez la [[solidité]] et les points de vie donnés dans la table ci-dessus. Quand vous devez assigner un [[DD]] pour d’enfoncer une porte, utilisez les indications suivantes.
+* ''DD 10 ou moins'' : porte ordinaire que n’importe qui peut enfoncer.
+* ''DD 11-15'' : porte qu’un homme fort peut enfoncer du premier coup et qu’une personne normale a une petite chance d’enfoncer aussi du premier coup.
+* ''DD 16-20'' : porte que la plupart des gens peuvent enfoncer à condition d’y mettre le temps.
+* ''DD 21-25'' : porte que seul un homme fort a une chance d’enfoncer et probablement pas du premier coup.
+* ''DD 26 ou plus'' : porte que seul un individu doté d’une force exceptionnelle a une maigre chance d’enfoncer.
+
+'''Serrure.''' La plupart des portes de donjon sont fermées à clef, ce qui rend la compétence [[Sabotage]] particulièrement utile. La serrure est souvent directement intégrée à la porte, soit sur le bord opposé aux gonds, soit en plein milieu du battant. Elle contrôle soit une targette métallique qui vient s’encastrer dans une cavité murale prévue à cet effet, soit une barre de fer ou de bois massif, plus large que le battant, fixée au mur des deux côtés. À l’inverse, le cadenas n’est pas intégré à la porte. On le glisse généralement dans deux anneaux, l’un sur la porte, l’autre sur le mur, avant de le fermer. Les serrures les plus complexes, comme les serrures à combinaison, sont presque toujours intégrées au battant. Elles fonctionnent sans clef et sont extrêmement onéreuses, on les trouve donc principalement sur les portes les plus solides (les épaisses portes en bois, les portes en pierre ou les portes en fer).
+
+Selon le type de serrure, le [[DD]] du test de [[Sabotage]] est souvent compris entre 20 et 30, même s’il est tout à fait possible de trouver une valeur plus faible ou plus élevée. Une porte peut avoir plus d’une serrure, qu’il faut crocheter séparément. Nombre de serrures sont piégées, souvent à l’aide d’aiguilles empoisonnées qui viennent piquer les doigts de l’intrus.
+
+Il est parfois plus rapide de forcer une serrure que d’enfoncer la porte qui l’entoure. Si un personnage veut briser une serrure à l’aide de son arme, considérez qu’une serrure normale a 30 points de vie et 15 en [[solidité]]. On peut la casser seulement si l’on peut l’attaquer séparément du battant, ce qui signifie que l’on ne peut pas utiliser cette méthode pour détruire une serrure intégrée. N’oubliez pas que, dans un donjon habité, toute porte verrouillée a forcément une clef quelque part.
+
+Une porte spéciale peut être dotée d’une serrure à combinaison, c’est à dire qu’elle ne requiert pas de clef. Dans ce cas, il faut abaisser plusieurs leviers pour trouver la bonne combinaison, ou encore presser les bons symboles sur un panneau de commande pour que le battant s’ouvre.
+
+'''Porte coincée.''' Une grande humidité règne dans la plupart des donjons et il arrive que certaines portes se coincent, surtout si elles sont en bois. Partez du principe que 10 % des portes en bois et 5 % des autres portes sont coincées. On peut doubler ces pourcentages (donc 20 % et 10 % respectivement) si le donjon est mal entretenu ou abandonné depuis longtemps.
+
+'''Porte barrée.''' Quand un personnage tente d’enfoncer une porte barrée, on applique la résistance de la barre, quel que soit le matériau qui compose la porte. Dans le cas d’une barre en bois, le [[DD]] du test de [[Force]] visant à enfoncer la porte est de 25 ; si elle en fer, le [[DD]] passe à 30 mais rien n’empêche les personnage de démolir la porte et de laisser la barre en place.
+
+'''Sceaux magiques.''' Des sorts tels que ''[[verrou du mage]]'' sont souvent très dissuasifs. Une porte dotée d’un verrou du mage est considérée comme verrouillée même si elle ne dispose pas de serrure physique. Pour l’ouvrir, il faut donc utiliser un sort de ''[[déblocage]]'', de ''[[dissipation de la magie]]'' ou un test de [[Force]].
+
+'''Gonds.''' La plupart des portes sont munies de gonds, sauf les portes coulissantes. Elles sont souvent montées sur rails ou dans des ornières qui leur permettent de glisser aisément sur le côté.
+* ''Gonds normaux.'' Ces gonds de métal assurent la jonction entre le bord de la porte et le chambranle ou le mur. N’oubliez pas que le battant s’ouvre vers le côté où se trouvent les gonds (donc, si les gonds sont du côté des PJ ils doivent tirer la porte pour l’ouvrir, sinon, ils doivent la pousser.). Les personnages peuvent démonter les gonds un par un à l’aide d’un test de [[Sabotage]] (si les gonds sont du même côté qu’eux bien sûr). Le [[DD]] du test est de 20 car la majorité des gonds sont rouillés ou coincés. Il est difficile de les détruire car ils ont souvent 30 points de vie et une [[solidité]] de 10. Le [[DD]] requis pour briser les gonds est égal au [[DD]] requis pour enfoncer la porte.
+* ''Gonds gigognes.'' Ces gonds sont bien plus complexes que les autres et on ne les trouve donc que dans les donjons d’excellente facture. Ils sont intégrés au mur et permettent à la porte de s’ouvrir dans les deux sens. Les personnages ne peuvent pas atteindre les gonds et les malmener à moins de détruire le mur ou le chambranle. Ces gonds sont généralement réservés aux portes en pierre, bien qu’on en trouve aussi sur des portes de bois ou de fer.
+* ''Pivot.'' Ce système de balancier ne fonctionne pas à l’aide de gonds mais de dents (ou de protubérances) intégrées dans le battant (une en haut, une en bas, sur l’axe autour duquel tourne la porte) et qui viennent s’encastrer dans des trous prévus à cet effet dans le sol et le chambranle. L’avantage de ce système, c’est qu’il est plus simple que les précédents et qu’on ne peut pas casser les dents ni les démonter, à l’inverse des gonds. L’inconvénient, c’est que la porte pivote autour de son centre de gravité et que celui-ci se trouve généralement en son milieu : la largeur du passage est donc réduite de moitié (même si l’on peut passer des deux côtés du battant, la largeur utile est forcément réduite). Les portes pivotantes sont souvent en pierre et très larges, afin de compenser cet inconvénient. On peut aussi placer les pivots près de l’un des bords mais ce dernier doit être bien plus épais à cette extrémité et bien plus mince à l’autre. Dans ce cas, le battant s’ouvre comme une porte normale. Les portes des passages secrets sont souvent des murs pivotants car l’absence de gonds permettant de les dissimuler plus facilement. Ce système permet aussi de placer un passage secret derrière un objet tel qu’une bibliothèque.
+
+'''Passages secrets.''' On peut dissimuler un passage secret dans un mur, un plafond ou un plancher mais aussi à l’intérieur dans une bibliothèque, une fontaine ou un âtre. Parfois, on peut le découvrir en examinant minutieusement l’endroit où il se trouve (test de [[Perception]] de [[DD]] 20 pour un passage secret normal et de [[DD]] 30 pour un passage particulièrement bien dissimulé).
+
+La plupart des passages secrets de ce type fonctionnent grâce à un mécanisme (par exemple un poussoir ou une plaque de pression). Ils peuvent s’ouvrir telles des portes normales ou pivoter autour d’un axe central, s’enfoncer dans le sol, se replier dans le plafond ou dans un mur ou s’abaisser comme un pont-levis. Certains constructeurs installent leurs passages secrets en hauteur ou au ras du sol, ce qui les rend plus difficiles à détecter. Notez que les magiciens et les ensorceleurs ont accès à un sort appelé ''[[porte de phase]]'' qui leur permet de créer une sorte de passage secret qu’ils sont les seuls à pouvoir utiliser.
+
+'''Porte magique.''' Une porte enchantée par les constructeurs du donjon peut s’adresser aux intrus pour leur dire de s’en aller. Elle peut aussi être renforcée, ce qui augmente son nombre de points de vie, sa [[solidité]] et son bonus au jet de sauvegarde contre des sorts tels que ''[[désintégration]]''. Il se peut que la porte magique ne débouche pas sur l’espace situé derrière elle mais se comporte comme un portail conduisant en un autre lieu ou même un autre plan. D’autres portes magiques peuvent nécessiter un mot de passe ou une clef spéciale.
+
+'''Herse.''' Cette barrière d’un genre particulier prend la forme d’un mur de barreaux métalliques ou de pieux de bois renforcés de fer qui s’abaissent depuis un renfoncement spécialement creusé dans le plafond. Parfois, l’ensemble est renforcé de barres horizontales. Une herse se soulève à l’aide d’un treuil mais on peut la baisser rapidement. Ses barreaux ou ses pieux forgés ou taillés en pointe découragent quiconque voudrait plonger sous elle en la voyant tomber. Une fois abaissée, une herse se bloque automatiquement, à moins qu’elle soit si massive qu’aucun individu normal ne puisse la soulever. On peut soulever une herse normale avec un test de [[Force]] [[DD]] 25.
+
+====Les murs, les portes et la détection des sorts====
+Les murs de pierre, de fer et les portes en fer sont généralement assez épais pour bloquer la plupart des sorts de détection comme ''[[détection de pensées]]''. Les murs et les portes de bois ainsi que les portes de pierre ne sont pas assez épais pour faire de même. Une porte secrète construite dans un mur est aussi épaisse que lui (au moins trente centimètres) et bloque la plupart des sorts.
+
+====Les escaliers====
+Les escaliers représentent la méthode la plus utilisée pour se rendre d’un étage à l’autre au sein d’un donjon. Un personnage peut les monter ou les descendre sans malus mais ne peut pas les parcourir en courant. Le [[DD]] des tests d’[[Acrobaties]] réalisés dans un escalier augmente de 4. Certains escaliers sont si raides qu’on les considère comme un [[terrain difficile]].
+
+====Les éboulements====
+Les éboulements de cavernes et de galeries sont extrêmement dangereux. Les intrépides explorateurs risquent de se faire tuer par plusieurs tonnes de pierre et de terre et, même s’ils survivent, ils risquent encore de se retrouver bloqués sous les décombres ou de voir leur unique issue bloquée. L’éboulement ensevelit quiconque se trouve au centre de la zone affectée et inflige des dégâts aux créatures proches. Un couloir touché par ce phénomène est enseveli sous les gravats dans un rayon de quatre mètres cinquante et les créatures qui se trouvent à moins de trois mètres de chaque côté de cette zone subissent des dégâts bien qu’elles ne soient pas englouties sous les décombres. Un test de [[Connaissances]] (architecture et ingénierie) ou [[Artisanat]] (maçonnerie) de [[DD]] 20 permet de repérer un plafond fragilisé. N’oubliez pas que l’[[Artisanat]] peut être utilisé comme une [[Format de description des compétences#UTILISABLESANSFORMATION|compétence innée]], tout comme les tests d’[[Intelligence]]. Un nain qui passe à moins de trois mètres d’un tel plafond a automatiquement droit à un test.
+
+Un plafond fragilisé peut s’effondrer en cas de choc violent. Un aventurier peut provoquer un éboulement en détruisant la moitié des piliers de soutènement.
+
+Les personnages ensevelis subissent 8d6 points de dégâts, réduits de moitié s’ils réussissent un [[Jet de sauvegarde|jet de Réflexes]] [[DD]] 15. Ils sont ensuite immobilisés. Ceux qui se trouvent en bordure de l’effondrement perdent seulement 3d6 points de vie, voire aucun s’ils réussissent leur jet de Réflexes. S’ils ratent ce jet, ils sont ensevelis.
+
+Les personnages ensevelis subissent 1d6 points de dégâts non-létaux par minute. S’ils perdent connaissance, ils doivent faire un test de [[Constitution]] [[DD]] 15 par minute. En cas d’échec, ils perdent 1d6 points de vie par minute jusqu’à ce qu’on les libère ou qu’ils périssent étouffés.
+
+Les personnages libres peuvent déterrer leurs amis. Un personnage qui déblaye les décombres à mains nues peut, chaque minute, dégager un poids correspondant à cinq fois sa [[Poids transportable|charge maximale autorisée]]. On considère qu’il y a une tonne de gravats dans une zone d’un mètre cinquante de côté. Un personnage équipé d’un outil tel qu’une pelle, une pioche ou même une barre de fer peut déblayer deux fois plus de décombres que s’il travaille à mains nues. Un personnage enseveli peut tenter de se dégager à l’aide d’un test de [[Force]] [[DD]] 25.
+
+====Champignons, moisissures et limons====
+Les champignons et les moisissures prospèrent dans les recoins humides des donjons. En ce qui concerne les sorts, les champignons, les moisissures et les limons sont assimilés à des plantes. De même que les pièges, ces créatures ont un [[FP]] quand elles représentent un danger et les aventuriers qui parviennent à les vaincre gagnent des [[PX]] en conséquence.
+
+Une forme de vase organique luisante recouvre presque tout ce qui reste trop longtemps dans le noir et l’humidité. Ce genre de vase est inoffensif bien que répugnant. Les moisissures et les champignons abondent dans les lieux sombres, frais et humides. La plupart sont inoffensifs mais d’autres peuvent s’avérer redoutables. La majorité des espèces de champignons (vesses-de-loup, levures et autres moisissures) poussent dans les donjons. Ils sont généralement inoffensifs et certains sont même comestibles (bien qu’ils soient peu appétissants et possèdent un goût étrange).
+
+'''Champignons phosphorescents.''' Ces étranges champignons souterrains émettent une lueur violette qui illumine les cavernes et les galeries comme autant de chandelles. De rares plaques offrent une luminosité équivalente à celle d’une torche.
+
+'''Criard.''' Ce champignon violet de taille humaine pousse un cri perçant pendant 1d3 rounds dès qu’il perçoit un mouvement ou une source de lumière dans un rayon de trois mètres. Ce hurlement couvre tout autre son dans un rayon de quinze mètres. Il attire aussi toute créature proche encline à venir voir ce qui se passe. Certaines créatures vivant à côté de ces champignons ont appris que leur hurlement est synonyme de nourriture ou d’intrus.
+
+{s:Reference|LIMONVERT}'''Limon vert (FP 4).''' C’est une variété de vase très dangereuse. Il dévore la chair et les matières organiques et peut même dissoudre le métal. D’un vert vif, luisant et collant, ce limon s’accroche par plaques aux murs, au sol et au plafond. Il se reproduit au fur et à mesure qu’il ingère des matières organiques. Il se laisse tomber dès qu’il détecte un mouvement (et donc une source de nourriture potentielle) en dessous de lui. Une plaque de limon vert (1,50 m x 1,50 m) dévore la chair de sa proie en lui infligeant 1d6 points d’[[affaiblissement temporaire]] de [[Constitution]] par round. Lors du premier round, on peut détacher le limon en raclant l’endroit où il est tombé (ce qui a de fortes chances de détruire l’objet utilisé) mais, par la suite, on ne peut s’en débarrasser qu’en le brûlant, en le gelant ou en l’excisant, ce qui inflige des dégâts équivalents à sa victime. Les dégâts de feu ou de froid, la lumière du soleil et le sort ''[[guérison des maladies]]'' peuvent détruire une plaque de limon vert. Ce dépôt organique inflige 2d6 points de dégâts par round au métal et au bois (on ne tient pas compte de la [[solidité]] du métal mais on applique celle du bois). En revanche, il ne fait aucun mal à la pierre.
+
+'''Moisissure brune (FP 2).''' Cette moisissure se nourrit de la chaleur qu’elle vole à tout ce qui l’entoure. Chaque plaque mesure généralement un mètre cinquante de diamètre et irradie le froid dans un rayon de neuf mètres. Les créatures vivantes distantes de moins d’un mètre cinquante subissent 3d6 points de dégâts de froid [[Blessures et mort#NONLETAL|non-létaux]] par round. Si on approche une flamme à moins d’un mètre cinquante de la plaque de moisissure, cette dernière double de volume. Le froid magique, comme celui généré par un ''[[cône de froid]]'', détruit instantanément la moisissure.
+
+'''Moisissure jaune (FP 6).''' Lorsqu’on dérange une plaque de 1,50 m x 1,50 m de moisissure jaune, elle laisse échapper un nuage de spores vénéneuses. Toutes les créatures distantes de moins de trois mètres doivent réussir un [[Jet de sauvegarde|jet de Vigueur]] [[DD]] 15 ou subir un [[affaiblissement temporaire]] de 1d3 points de [[Constitution]]. Elles doivent refaire ce jet une fois par round pendant 5 rounds pour ne pas subir 1d3 points d’[[affaiblissement temporaire]] de [[Constitution]] supplémentaire par round. Il suffit de réussir un [[jet de sauvegarde]] pour mettre fin à cet effet. La moisissure jaune est détruite par le feu tandis que la lumière du jour la plonge en hibernation. 

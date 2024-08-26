@@ -1,22 +1,20 @@
 ---
 Name: Pathfinder-RPG.Déplacements
 Title: Les déplacements
-LastModified: 2020-03-28 16:46
+LastModified: 2024-08-19 17:57
 Categories:
-  - 'Manuel des joueurs'
-  - 'Règles officielles'
+  - 'Règle officielle'
+  - 'Src Manuel des joueurs'
 ---
-{toc}
-
-On distingue trois types de déplacement :
+<div style="float: right; padding: 0 0 8px 8px">{toc}</div>On distingue trois types de déplacement :
 * Tactique, pour le combat, mesuré en mètres (ou en cases) par round.
 * Sur courte distance, pour explorer un secteur, en mètres par minute.
 * Sur longue distance, pour se rendre d’un endroit à un autre, en kilomètres par heure ou par jour.
 
+{s:ClearRight}
 <div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
 <div style="border: 1px solid #4b3124; padding: 4px">
-<center>
-{| CLASS="tablo"
+{| CLASS="tablo centre"
 |+ Déplacements et distance
 |- CLASS="titre"
 | [[vitesse de déplacement|VD]] || 4,50 m (3 cases) || 6 m (4 cases) || 9 m (6 cases) || 12 m (8 cases)
@@ -48,30 +46,26 @@ On distingue trois types de déplacement :
 | &emsp;[[Déplacements#LONGUEFOOTING|Footing]] || 4,5 km / — || 6 km / — || 9 km / — || 12 km / —
 |-
 | &emsp;[[Déplacements#LONGUECOURSE|Course]] || — / — || — / — || — / — || — / —
+|- CLASS="note"
+| COLSPAN="5" | ''(*) Les mouvements tactiques sont souvent mesurés en cases plutôt qu’en mètres. Une case fait 1,50 mètre de côté.''
 |}
-</center></div></div>
+</div></div>
 '''Modes de déplacement.''' La marche, le footing et la course représentent les trois cadences de mouvement le plus communément adoptées.
 
-{s:Reference|MARCHE}
-:: ''Marche.'' En se déplaçant normalement et sans s’arrêter, un [[humain]] non chargé parcourt généralement 4,5 km en une heure.
+{s:Reference|MARCHE}''Marche.'' En se déplaçant normalement et sans s’arrêter, un [[humain]] non chargé parcourt généralement 4,5 km en une heure.
 
-{s:Reference|FOOTING}
-:: ''Footing.'' Le footing est un déplacement en petites foulées qui permet à un [[humain]] de parcourir de 9 km/h quand il n’est pas chargé. Il équivaut à un personnage se déplaçant deux fois dans le même [[round]], ou effectuant une autre [[Actions au combat|action]] (attaque, incantation ou autre action de mouvement), puis se déplaçant dans le même [[round]].
+{s:Reference|FOOTING}''Footing.'' Le footing est un déplacement en petites foulées qui permet à un [[humain]] de parcourir de 9 km/h quand il n’est pas chargé. Il équivaut à un personnage se déplaçant deux fois dans le même [[round]], ou effectuant une autre [[Actions au combat|action]] (attaque, incantation ou autre action de mouvement), puis se déplaçant dans le même [[round]].
 
-{s:Reference|COURSE}
-:: ''Course (x3).'' Se déplacer à trois fois sa vitesse de déplacement est le rythme de course pour un personnage en [[armure lourde]]. Cela correspond environ à 10,5 km/h pour un [[humain]] en [[Tableau récapitulatif des armures|harnois]].
+{s:Reference|COURSE}''Course (x3).'' Se déplacer à trois fois sa vitesse de déplacement est le rythme de course pour un personnage en [[armure lourde]]. Cela correspond environ à 10,5 km/h pour un [[humain]] en [[Tableau récapitulatif des armures|harnois]].
 
-:: ''Course (x4).'' Cette cadence plus rapide est réservée aux personnages sans armure ou en [[armure légère]] ou [[armure intermédiaire|intermédiaire]]. Elle correspond environ à 18 km/h pour un [[humain]] non chargé, et à 13,5 km/h pour un [[humain]] en [[Tableau récapitulatif des armures|cotte de mailles]]. Référez-vous à la table ci-contre pour plus de détails.
-
-''(*) Les mouvements tactiques sont souvent mesurés en cases plutôt qu’en mètres. Une case fait 1,50 mètre de côté.''
+''Course (x4).'' Cette cadence plus rapide est réservée aux personnages sans armure ou en [[armure légère]] ou [[armure intermédiaire|intermédiaire]]. Elle correspond environ à 18 km/h pour un [[humain]] non chargé, et à 13,5 km/h pour un [[humain]] en [[Tableau récapitulatif des armures|cotte de mailles]]. Référez-vous à la table ci-contre pour plus de détails.
 
 === Déplacement tactique ===
-
 On utilise ce déplacement lors d’un combat. Dans cette situation, il est évident que les personnages ne marchent pas, ils courent ou se déplacent en petites foulées. Un personnage qui se déplace normalement avant d’accomplir une autre [[Actions au combat|action]] trottine pendant la première moitié du [[round]] puis fait autre chose pendant l’autre moitié.
 
 <div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
 <div style="border: 1px solid #4b3124; padding: 4px">
-{| CLASS="tablo"
+{| CLASS="tablo centre"
 |+  Déplacements contrariés
 |- CLASS="titre"
 | Condition || Coût supplémentaire <br/>du déplacement
@@ -83,12 +77,11 @@ On utilise ce déplacement lors d’un combat. Dans cette situation, il est évi
 | Mauvaise visibilité || ×2
 |- CLASS="alt"
 | Infranchissable || —
+|- CLASS="note"
+| COLSPAN="2" | ''(*) Peut nécessiter un test de compétence.''
 |}
-
-''(*) Peut nécessiter un test de compétence.''
-</center></div></div>
-{s:Reference|TERRAINDIFFICILE}
-'''Déplacements contrariés.''' Un terrain difficile, des obstacles ou une mauvaise visibilité ralentissent les déplacements (voir le tableau ci-contre). Dans ce cas, chaque case de mouvement compte généralement comme deux cases de déplacement, ce qui réduit de moitié la [[Valeurs de combat#VITESSEDEDEPLACEMENT|vitesse]] des personnages.
+</div></div>
+{s:Reference|TERRAINDIFFICILE}'''Déplacements contrariés.''' Un terrain difficile, des obstacles ou une mauvaise visibilité ralentissent les déplacements (voir le tableau ci-contre). Dans ce cas, chaque case de mouvement compte généralement comme deux cases de déplacement, ce qui réduit de moitié la [[Valeurs de combat#VITESSEDEDEPLACEMENT|vitesse]] des personnages.
 
 Lorsque plusieurs conditions s’appliquent, il faut multiplier entre eux les différents coûts de déplacement (c’est une exception à la règle générale sur les multiplicateurs multiples).
 
@@ -97,7 +90,6 @@ Il arrive que le terrain soit si encombré et si difficile qu’une [[action de 
 Il est impossible de courir ou de [[Charge|charger]] à travers une case où les mouvements du personnage sont contrariés.
 
 === Déplacement sur courte distance ===
-
 Les personnages explorant un secteur utilisent le déplacement sur courte distance, qui s’exprime en mètres par minute.
 
 {s:Reference|COURTEMARCHE}'''Marche.''' Le personnage peut marcher sans difficulté sur courte distance.
@@ -108,7 +100,6 @@ Les personnages explorant un secteur utilisent le déplacement sur courte distan
 
 {s:Reference|LONGUEDISTANCE}
 === Déplacement sur longue distance ===
-
 Les personnages utilisent ce type de déplacement pour parcourir la campagne. Les déplacements sur longue distance s’expriment en kilomètres par heure ou en kilomètres par jour. Une journée correspond à 8 heures de trajet effectif. La journée passe à 10 heures pour une embarcation à rames et à vingt-quatre pour un navire à voiles.
 
 {s:Reference|LONGUEMARCHE}'''Marche.''' Un personnage peut sans problème marcher huit heures par jour. Il peut continuer plus longtemps mais il risque de s’épuiser (voir Marche forcée, ci-dessous).
@@ -121,31 +112,29 @@ Un personnage [[fatigué]] ne peut ni [[courir]] ni [[charge|charger]] et subit 
 
 '''Terrain.''' La nature du terrain traversé affecte la distance que l’on peut parcourir en une heure ou une journée (voir le tableau ci-dessous). Une grand-route est une artère principale droite et pavée, une route est en général une piste de terre battue et un sentier ressemble à une route qui permet seulement de voyager en file indienne, sans véhicule. Enfin, un terrain vierge n’offre pas la moindre piste.
 
-<center>
-{| CLASS="tablo"
+{| CLASS="tablo centre autoalt"
 |+ Terrain et déplacements sur longue distance
 |- CLASS="titre"
 | Terrain || Grande route || Chemin ou route || Terrain vierge
-|- CLASS="alt"
+|- CLASS="premier"
 | Broussailles || ×1 || ×1 || ×3/4
 |-
 | Collines || ×1 || ×3/4 || ×1/2
-|- CLASS="alt"
+|-
 | Désert de sable || ×1 || ×1/2 || ×1/2
 |-
 | Forêt || ×1 || ×1 || ×1/2
-|- CLASS="alt"
+|-
 | Jungle || ×1 || ×3/4 || ×1/4
 |-
 | Marais || ×1 || ×3/4 || ×1/2
-|- CLASS="alt"
+|-
 | Montagnes || ×3/4 || ×3/4 || ×1/2
 |-
 | Plaine || ×1 || ×1 || ×3/4
-|- CLASS="alt"
+|-
 | Toundra gelée || ×1 || ×3/4 || ×3/4
 |}
-</center>
 
 {s:Reference|MARCHEFORCEE}'''Marche forcée.''' Au cours d’une journée normale, le personnage marche 8 heures durant. Le reste du temps, il monte le campement pour la nuit (ou replie les tentes le matin venu), se repose et mange.
 
@@ -155,8 +144,7 @@ Mais il est possible de continuer son chemin en ayant recours à la marche forc�
 
 '''Déplacement en bateau.''' Voir la table ci-dessous pour la vitesse des diverses embarcations.
 
-<center>
-{| CLASS="tablo"
+{| CLASS="tablo centre"
 |+ Montures et véhicules
 |- CLASS="titre"
 | Monture/véhicule || Par heure || Par jour
@@ -197,15 +185,12 @@ Mais il est possible de continuer son chemin en ayant recours à la marche forc�
 |-
 | &emsp;Trirème (voiles ou rames) || 6 km || 144 km
 |}
-</center>
 
 {s:Reference|NOTE1}''(1) Les quadrupèdes, comme les chevaux, peuvent transporter une charge plus importante qu’un personnage. Voir les règles sur les [[Poids transportable|charges transportables]].''
 
 {s:Reference|NOTE1}''(2) Radeaux, barges, bateaux à fond plat et barques ne s’utilisent que sur les lacs et les cours d’eau. S’ils descendent le courant, on ajoute la vitesse de ce dernier (généralement 5 km/h). Un personnage peut ramer dix heures durant mais il peut laisser dériver l’embarcation pendant les quatorze heures restantes si quelqu’un la guide. Ce système permet d’augmenter la distance parcourue de soixante-trois kilomètres par jour. Ces frêles esquifs ne permettent pas de remonter le courant, par contre, des animaux de trait peuvent les hâler depuis la berge.''
 
-
 === Évasion et poursuite ===
-
 Dans un déplacement au [[round]] par [[round]], quand on se contente de compter les cases, un personnage lent ne peut pas échapper à un personnage rapide et déterminé sans recourir à un concours de circonstances. De même, un personnage rapide n’a aucun mal à échapper à un personnage plus lent.
 
 Quand les deux personnages se déplacent à la même [[vitesse de déplacement|vitesse]], la chasse est très simple : si une créature en poursuit une autre et qu’elles se déplacent toutes deux à la même [[vitesse de déplacement|vitesse]], la poursuite continue sur quelques [[round|rounds]] avant qu’elles fassent des [[test|tests]] de [[Dextérité]] opposés pour savoir laquelle s’est déplacée le plus rapidement pendant ces quelques [[round|rounds]]. Si la créature pourchassée gagne, elle parvient à s’enfuir, sinon, son poursuivant la rattrape.

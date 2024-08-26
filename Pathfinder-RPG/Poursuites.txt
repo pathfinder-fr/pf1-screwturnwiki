@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Poursuites
 Title: Les poursuites
-LastModified: 2023-01-13 15:45
+LastModified: 2024-08-25 16:08
 Categories:
   - 'Règle officielle'
   - 'Src Ultimate Intrigue'
@@ -50,7 +50,7 @@ Le groupe de poursuivants a un pisteur principal, mais d'autres membres peuvent 
 ====Encadré : Intempéries====
 Le mauvais temps, en particulier les précipitations, peut affecter à la fois la progression d'un groupe et les DD des tests de [[Survie]] requis pendant les poursuites.
 
-'''Progression.''' De fortes [[Pluie, neige, neige fondue et grêle|précipitations]], des [[Vents|vents forts]] et d'autres facteurs environnementaux peuvent entraver la progression d'un groupe. Pour les tempêtes brèves qui durent une ou deux phases de poursuite, réduisez la progression commune de 1 à chaque phase de poursuite. Si une tuile de terrain entière est soumise à des conditions météorologiques particulièrement mauvaises (comme une haute montagne balayée par les vents ou une jungle pendant une mousson), ajoutez plutôt entre 4 et 8 à la progression de la tuile à compléter, en fonction de la gravité des conditions météorologiques. Augmentez le nombre d'avantages maximums de la tuile de 1 pour que les voyageurs aient la possibilité de trouver un moyen de surmonter le mauvais temps.
+'''Progression.''' De fortes [[Climat#Pluie_neige_neige_fondue_et_grêle_1|précipitations]], des [[Climat#Vents_4|vents forts]] et d'autres facteurs environnementaux peuvent entraver la progression d'un groupe. Pour les tempêtes brèves qui durent une ou deux phases de poursuite, réduisez la progression commune de 1 à chaque phase de poursuite. Si une tuile de terrain entière est soumise à des conditions météorologiques particulièrement mauvaises (comme une haute montagne balayée par les vents ou une jungle pendant une mousson), ajoutez plutôt entre 4 et 8 à la progression de la tuile à compléter, en fonction de la gravité des conditions météorologiques. Augmentez le nombre d'avantages maximums de la tuile de 1 pour que les voyageurs aient la possibilité de trouver un moyen de surmonter le mauvais temps.
 
 '''Pistage.''' S'il pleut pendant une poursuite directe, augmentez le DD du test de [[Survie]] de 1 pour chaque phase de poursuite où il a plu. S'il a neigé, augmentez le DD de 10 à la place. Pour suivre la durée de la précipitation pendant une poursuite directe, notez la tuile où se trouvent les proies et la quantité de progression qu'elles ont fait quand la précipitation commence, puis notez la progression qu'elles avaient fait quand la précipitation se termine. Lorsque les poursuivants se trouvent sur cette tuile et qu'ils ont progressé d'une quantité égale ou supérieure à la valeur de progression la plus basse, utiliser les DD de Survie augmentés. Une fois que les poursuivants ont dépassé la valeur de progression supérieure, les DD de Survie redeviennent normaux. Si les précipitations se produisent avant l'entrée des proies dans une zone, les DD de Survie pour suivre la piste peuvent être réduits car le sol devient de la boue très molle ou est couvert de neige.
 
@@ -83,21 +83,21 @@ Le profil de chaque tuile de terrain indique la quantité de progression qu'un g
 {s:BDTitre|Désert}
 {s:BDTexte|'''Progression à réaliser''' 16}
 {s:BDTexte|'''Sol''' très mou (DD 5), mou (DD 10) ou ferme (DD 15) ; '''Avantages maximum.''' 3}
-{s:BDTexte|Le terrain [[Déserts|désertique]] comprend des zones chaudes et sablonneuses. Les règles relatives aux [[Dangers naturels#CHALEUR|dangers naturels de la chaleur]] s'appliquent dans la plupart des cas, et peuvent affecter les deux groupes.}
+{s:BDTexte|Le terrain [[Aventures en extérieur#Déserts_9|désertique]] comprend des zones chaudes et sablonneuses. Les règles relatives aux [[Dangers naturels#CHALEUR|dangers naturels de la chaleur]] s'appliquent dans la plupart des cas, et peuvent affecter les deux groupes.}
 </div>
 
 <div class="BD">
 {s:BDTitre|Forêt}
 {s:BDTexte|'''Progression à réaliser''' 16}
 {s:BDTexte|'''Sol''' ferme (DD 15) ; '''Avantages maximum.''' 3}
-{s:BDTexte|Le terrain [[Forêts|forestier]] comprend les forêts de feuillus et de conifères, mais pas les jungles denses ni les forêts tropicales.}
+{s:BDTexte|Le terrain [[Aventures en extérieur#Forêts_5|forestier]] comprend les forêts de feuillus et de conifères, mais pas les jungles denses ni les forêts tropicales.}
 </div>
 
 <div class="BD">
 {s:BDTitre|Colline}
 {s:BDTexte|'''Progression à réaliser''' 16}
 {s:BDTexte|'''Sol''' ferme (DD 15) ; '''Avantages maximum.''' 3}
-{s:BDTexte|Le terrain [[Collines|vallonné]] comprend des zones avec beaucoup de montées et de descentes, mais pas de montagnes.}
+{s:BDTexte|Le terrain [[Aventures en extérieur#Collines_7|vallonné]] comprend des zones avec beaucoup de montées et de descentes, mais pas de montagnes.}
 </div>
 
 <div class="BD">
@@ -111,7 +111,7 @@ Le profil de chaque tuile de terrain indique la quantité de progression qu'un g
 {s:BDTitre|Montagne}
 {s:BDTexte|'''Progression à réaliser''' }
 {s:BDTexte|'''Sol''' ferme (DD 15) ou dur (DD 20) ; '''Avantages maximum.''' 6}
-{s:BDTexte|Un terrain montagneux contient des zones qui nécessitent de l'escalade, ainsi que le potentiel de falaises abruptes et de chutes précipitées. Si la nécessité de grimper est particulièrement omniprésente ou si les personnages grimpent au-dessus de la limite des arbres (utilisez les règles pour les [[Dangers naturels#FROID|dangers naturels du froid]]), une tuile de [[Montagne|montagne]] peut avoir plus d'avantages maximums et demander plus de progrès pour être complétée.}
+{s:BDTexte|Un terrain montagneux contient des zones qui nécessitent de l'escalade, ainsi que le potentiel de falaises abruptes et de chutes précipitées. Si la nécessité de grimper est particulièrement omniprésente ou si les personnages grimpent au-dessus de la limite des arbres (utilisez les règles pour les [[Dangers naturels#FROID|dangers naturels du froid]]), une tuile de [[Aventures en extérieur#Montagnes_8|montagne]] peut avoir plus d'avantages maximums et demander plus de progrès pour être complétée.}
 </div>
 
 <div class="BD">
@@ -140,7 +140,7 @@ Le profil de chaque tuile de terrain indique la quantité de progression qu'un g
 {s:BDTitre|Marécages}
 {s:BDTexte|'''Progression à réaliser''' 16}
 {s:BDTexte|'''Sol''' très mou (DD 5) ou mou (DD 10) ; '''Avantages maximum.''' 3}
-{s:BDTexte|Le terrain marécageux comprend les tourbières, les marais et les fagnes, ainsi que toute autre sorte de zones humides. Une tuile [[Marécages|marécageuse]] avec un nombre important de zones profondes, de sables mouvants ou plus peut facilement avoir plus d'avantages maximums et nécessiter plus de progression.}
+{s:BDTexte|Le terrain marécageux comprend les tourbières, les marais et les fagnes, ainsi que toute autre sorte de zones humides. Une tuile [[Aventures en extérieur#Marécages_6|marécageuse]] avec un nombre important de zones profondes, de sables mouvants ou plus peut facilement avoir plus d'avantages maximums et nécessiter plus de progression.}
 </div>
 
 <div class="BD">

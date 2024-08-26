@@ -1,18 +1,15 @@
 ---
 Name: Pathfinder-RPG.État civil et mensurations
 Title: État civil et mensurations
-LastModified: 2022-01-13 14:04
+LastModified: 2024-08-19 17:43
 Categories:
   - 'Règle officielle'
   - 'Src Manuel des joueurs'
 ---
-{toc}
-
-La section suivante détermine l’âge, le poids et la taille de départ du personnage. La [[race]] et la [[classe]] influent sur ces éléments. Consultez votre [[MJ]] avant de faire un personnage qui ne se conforme pas à ces statistiques.
+<div style="float: right; padding: 0 0 8px 8px">{toc}</div>La section suivante détermine l’âge, le poids et la taille de départ du personnage. La [[race]] et la [[classe]] influent sur ces éléments. Consultez votre [[MJ]] avant de faire un personnage qui ne se conforme pas à ces statistiques.
 
 {s:Reference|AGE}
 === L’âge ===
-
 Vous pouvez choisir l’âge de votre personnage, ou au contraire le déterminer aléatoirement. Si vous le choisissez, il ne peut pas être inférieur au minimum requis par sa [[race]] et sa [[classe]] (voir ci-dessous le tableau "détermination aléatoire de l'âge de départ"). Vous pouvez aussi le déterminer en lançant le nombre de dés indiqués dans le même tableau et en ajoutant à ce résultat l’âge minimum pour être adulte dans la [[race]] de votre personnage.
 
 Au fur et à mesure que votre personnage vieillit, ses [[caractéristique|caractéristiques]] physiques s’affaiblissent, tandis que ses [[caractéristique|caractéristiques]] mentales s’améliorent (voir les notes concernant le tableau ci-dessous "effets du vieillissement"). Tous ces effets sont cumulatifs, mais aucune [[caractéristique]] ne peut descendre en dessous de 1.
@@ -23,93 +20,7 @@ L’âge maximal concerne surtout les [[PJ|personnages-joueurs]], la plupart des
 
 <table width="100%"><tr style="vertical-align: top"><td width="50%">
 <center>
-{| CLASS="tablo"
-|+ Effets du vieillissement
-|- CLASS="titre"
-| Race || Âge mûr* || Grand âge* || Âge vénérable* || Âge maximal
-|- CLASS="premier"
-| [[Demi-elfe]] || 62 ans || 93 ans || 125 ans || 125 + 3d20 ans
-|- CLASS="alt"
-| [[Demi-orque]] || 30 ans || 45 ans || 60 ans || 60 + 2d10 ans
-|-
-| [[Elfe]] || 175 ans || 263 ans || 350 ans || 350 + 4d100 ans
-|- CLASS="alt"
-| [[Gnome]] || 100 ans || 150 ans || 200 ans || 200 + 3d100 ans
-|-
-| [[Halfelin]] || 50 ans || 75 ans || 100 ans || 100 + 5d20 ans
-|- CLASS="alt"
-| [[Humain]] || 35 ans || 53 ans || 70 ans || 70 + 2d20 ans
-|-
-| [[Nain]] || 125 ans || 188 ans || 250 ans || 250 + 2d100 ans
-|- CLASS="premier"
-| [[Aasimar (race)|Aasimar]] || 35 ans || 53 ans || 70 ans || 70 + 2d20 ans
-|- CLASS="alt"
-| [[Dhampir (race)|Dhampir]] || 35 ans || 53 ans || 70 ans || 70 + 2d20 ans
-|-
-| [[Drow (race)|Drow]] || 175 ans || 263 ans || 350 ans || 350 + 4d100 ans
-|- CLASS="alt"
-| [[Fetchelin (race)|Fetchelin]] || 62 ans || 93 ans || 125 ans || 125 + 3d20 ans
-|-
-| [[Gobelin (race)|Gobelin]] || 20 ans || 30 ans || 40 ans || 40 + 1d20 ans
-|- CLASS="alt"
-| [[Hobgobelin (race)|Hobgobelin]] || 30 ans || 45 ans || 60 ans || 60 + 2d10 ans
-|-
-| [[Homme-félin (race)|Homme-félin]] || 35 ans || 53 ans || 70 ans || 70 + 2d20 ans
-|- CLASS="alt"
-| [[Homme-rat (race)|Homme-rat]] || 20 ans || 30 ans || 40 ans || 40 + 1d20 ans
-|-
-| [[Ifrit (race)|Ifrit]] || 150 ans || 200 ans || 250 ans || 250 + 6d100 ans
-|- CLASS="alt"
-| [[Kobold (race)|Kobold]] || 20 ans || 30 ans || 40 ans || 40 + 1d20 ans
-|-
-| [[Ondin (race)|Ondin]] || 150 ans || 200 ans || 250 ans || 250 + 6d100 ans
-|- CLASS="alt"
-| [[Oréade (race)|Oréade]] || 150 ans || 200 ans || 250 ans || 250 + 6d100 ans
-|-
-| [[Orque (race)|Orque]] || 20 ans || 30 ans || 40 ans || 40 + 1d20 ans
-|- CLASS="alt"
-| [[Sylphe (race)|Sylphe]] || 150 ans || 200 ans || 250 ans || 250 + 6d100 ans
-|-
-| [[Tengu (race)|Tengu]] || 35 ans || 53 ans || 70 ans || 70 + 2d20 ans
-|- CLASS="alt"
-| [[Tieffelin (race)|Tieffelin]] || 35 ans || 53 ans || 70 ans || 70 + 2d20 ans
-|- CLASS="premier"
-| [[Aquatique (race)|Aquatique]] || 62 ans || 93 ans || 125 ans || 125 + 3d20 ans
-|- CLASS="alt"
-| [[Changelin (race)|Changelin]] || 35 ans || 53 ans || 70 ans || 70 + 2d20 ans
-|-
-| [[Duergar (race)|Duergar]] || 125 ans || 188 ans || 250 ans || 250 + 2d100 ans
-|- CLASS="alt"
-| [[Grippli (race)|Grippli]] || 20 ans || 30 ans || 40 ans || 40 + 1d20 ans
-|-
-| [[Homme-poisson (race)|Homme-poisson]] || 35 ans || 53 ans || 70 ans || 70 + 2d20 ans
-|- CLASS="alt"
-| [[Kitsune (race)|Kitsune]] || 32 ans || 50 ans || 65 ans || 65 + 3d12 ans
-|-
-| [[Nagaji (race)|Nagaji]] || 60 ans || 90 ans || 120 ans || 120 + 3d20 ans
-|- CLASS="alt"
-| [[Samsaran (race)|Samsaran]] || 150 ans || 200 ans || 250 ans || 250 + 6d100 ans
-|-
-| [[Strix (race)|Strix]] || 20 ans || 30 ans || 40 ans || 40 + 1d20 ans
-|- CLASS="alt"
-| [[Suli (race)|Suli]] || 35 ans || 53 ans || 70 ans || 70 + 2d20 ans
-|-
-| [[Svirfneblin (race)|Svirfneblin]] || 100 ans || 150 ans || 200 ans || 200 + 3d100 ans
-|- CLASS="alt"
-| [[Vanara (race)|Vanara]] || 30 ans || 45 ans || 60 ans || 60 + 2d10 ans
-|-
-| [[Vishkanya (race)|Vishkanya]] || 35 ans || 53 ans || 70 ans || 70 + 2d20 ans
-|- CLASS="alt"
-| [[Wayang (race)|Wayang]] || 100 ans || 150 ans || 200 ans || 200 + 3d100 ans
-|}
-
-''(*) À un âge mûr : -1 en [[For]], [[Dex]] et [[Constitution|Con]] ; +1 en [[Int]], [[Sag]] et [[Cha]].<br/>
-À un grand âge : -2 en [[For]], [[Dex]] et [[Constitution|Con]] ; +1 en [[Int]], [[Sag]] et [[Cha]].<br/>
-À un âge vénérable : -3 en [[For]], [[Dex]] et [[Constitution|Con]] ; +1 en [[Int]], [[Sag]] et [[Cha]].''
-</center>
-</td><td width="50%">
-<center>
-{| CLASS="tablo"
+{| CLASS="tablo" WIDTH="96%"
 |+ Détermination aléatoire de l’âge de départ
 |- CLASS="titre"
 | Race || Âge <br/>adulte || Intuitif<sup>1</sup> || Autodidacte<sup>2</sup> || Érudit<sup>3</sup> 
@@ -195,16 +106,101 @@ L’âge maximal concerne surtout les [[PJ|personnages-joueurs]], la plupart des
   
 (**) La détermination aléatoire de l'âge de départ des aasimars, des dhampirs et des tieffelins [[https://paizo.com/threads/rzs2spht?Why-edit-the-age-of-Aasimar-Dhampir-and#38|a été prévue]] pour être semblable à celle des demi-elfes. Consultez malgré tout votre MJ puisqu'il s'agit d'une information venant directement du directeur créatif et non d'un ouvrage publié officiellement.''
 </center>
+</td><td width="50%">
+<center>
+{| CLASS="tablo" WIDTH="96%"
+|+ Effets du vieillissement
+|- CLASS="titre"
+| Race || Âge mûr* || Grand âge* || Âge vénérable* || Âge maximal
+|- CLASS="premier"
+| [[Demi-elfe]] || 62 ans || 93 ans || 125 ans || 125 + 3d20 ans
+|- CLASS="alt"
+| [[Demi-orque]] || 30 ans || 45 ans || 60 ans || 60 + 2d10 ans
+|-
+| [[Elfe]] || 175 ans || 263 ans || 350 ans || 350 + 4d100 ans
+|- CLASS="alt"
+| [[Gnome]] || 100 ans || 150 ans || 200 ans || 200 + 3d100 ans
+|-
+| [[Halfelin]] || 50 ans || 75 ans || 100 ans || 100 + 5d20 ans
+|- CLASS="alt"
+| [[Humain]] || 35 ans || 53 ans || 70 ans || 70 + 2d20 ans
+|-
+| [[Nain]] || 125 ans || 188 ans || 250 ans || 250 + 2d100 ans
+|- CLASS="premier"
+| [[Aasimar (race)|Aasimar]] || 35 ans || 53 ans || 70 ans || 70 + 2d20 ans
+|- CLASS="alt"
+| [[Dhampir (race)|Dhampir]] || 35 ans || 53 ans || 70 ans || 70 + 2d20 ans
+|-
+| [[Drow (race)|Drow]] || 175 ans || 263 ans || 350 ans || 350 + 4d100 ans
+|- CLASS="alt"
+| [[Fetchelin (race)|Fetchelin]] || 62 ans || 93 ans || 125 ans || 125 + 3d20 ans
+|-
+| [[Gobelin (race)|Gobelin]] || 20 ans || 30 ans || 40 ans || 40 + 1d20 ans
+|- CLASS="alt"
+| [[Hobgobelin (race)|Hobgobelin]] || 30 ans || 45 ans || 60 ans || 60 + 2d10 ans
+|-
+| [[Homme-félin (race)|Homme-félin]] || 35 ans || 53 ans || 70 ans || 70 + 2d20 ans
+|- CLASS="alt"
+| [[Homme-rat (race)|Homme-rat]] || 20 ans || 30 ans || 40 ans || 40 + 1d20 ans
+|-
+| [[Ifrit (race)|Ifrit]] || 150 ans || 200 ans || 250 ans || 250 + 6d100 ans
+|- CLASS="alt"
+| [[Kobold (race)|Kobold]] || 20 ans || 30 ans || 40 ans || 40 + 1d20 ans
+|-
+| [[Ondin (race)|Ondin]] || 150 ans || 200 ans || 250 ans || 250 + 6d100 ans
+|- CLASS="alt"
+| [[Oréade (race)|Oréade]] || 150 ans || 200 ans || 250 ans || 250 + 6d100 ans
+|-
+| [[Orque (race)|Orque]] || 20 ans || 30 ans || 40 ans || 40 + 1d20 ans
+|- CLASS="alt"
+| [[Sylphe (race)|Sylphe]] || 150 ans || 200 ans || 250 ans || 250 + 6d100 ans
+|-
+| [[Tengu (race)|Tengu]] || 35 ans || 53 ans || 70 ans || 70 + 2d20 ans
+|- CLASS="alt"
+| [[Tieffelin (race)|Tieffelin]] || 35 ans || 53 ans || 70 ans || 70 + 2d20 ans
+|- CLASS="premier"
+| [[Aquatique (race)|Aquatique]] || 62 ans || 93 ans || 125 ans || 125 + 3d20 ans
+|- CLASS="alt"
+| [[Changelin (race)|Changelin]] || 35 ans || 53 ans || 70 ans || 70 + 2d20 ans
+|-
+| [[Duergar (race)|Duergar]] || 125 ans || 188 ans || 250 ans || 250 + 2d100 ans
+|- CLASS="alt"
+| [[Grippli (race)|Grippli]] || 20 ans || 30 ans || 40 ans || 40 + 1d20 ans
+|-
+| [[Homme-poisson (race)|Homme-poisson]] || 35 ans || 53 ans || 70 ans || 70 + 2d20 ans
+|- CLASS="alt"
+| [[Kitsune (race)|Kitsune]] || 32 ans || 50 ans || 65 ans || 65 + 3d12 ans
+|-
+| [[Nagaji (race)|Nagaji]] || 60 ans || 90 ans || 120 ans || 120 + 3d20 ans
+|- CLASS="alt"
+| [[Samsaran (race)|Samsaran]] || 150 ans || 200 ans || 250 ans || 250 + 6d100 ans
+|-
+| [[Strix (race)|Strix]] || 20 ans || 30 ans || 40 ans || 40 + 1d20 ans
+|- CLASS="alt"
+| [[Suli (race)|Suli]] || 35 ans || 53 ans || 70 ans || 70 + 2d20 ans
+|-
+| [[Svirfneblin (race)|Svirfneblin]] || 100 ans || 150 ans || 200 ans || 200 + 3d100 ans
+|- CLASS="alt"
+| [[Vanara (race)|Vanara]] || 30 ans || 45 ans || 60 ans || 60 + 2d10 ans
+|-
+| [[Vishkanya (race)|Vishkanya]] || 35 ans || 53 ans || 70 ans || 70 + 2d20 ans
+|- CLASS="alt"
+| [[Wayang (race)|Wayang]] || 100 ans || 150 ans || 200 ans || 200 + 3d100 ans
+|}
+
+''(*) À un âge mûr : -1 en [[For]], [[Dex]] et [[Constitution|Con]] ; +1 en [[Int]], [[Sag]] et [[Cha]].<br/>
+À un grand âge : -2 en [[For]], [[Dex]] et [[Constitution|Con]] ; +1 en [[Int]], [[Sag]] et [[Cha]].<br/>
+À un âge vénérable : -3 en [[For]], [[Dex]] et [[Constitution|Con]] ; +1 en [[Int]], [[Sag]] et [[Cha]].''
+</center>
 </td></tr></table>
 
 {s:Reference|TAILLEPOIDS}
-
 === La taille et le poids ===
 Afin de déterminer la taille d’un personnage, lancez les dés de modificateur, comme indiqué sur le tableau ci-dessous, et ajoutez le résultat, multiplié par 2,5, à la taille de base du personnage, laquelle dépend de sa [[race]] et de son sexe. Afin de déterminer son poids, multipliez le résultat du jet par le modificateur de poids et ajoutez ce résultat au poids de base du personnage, lequel dépend de sa [[race]] et de son sexe. .
 
-<table width="100%"><tr style="vertical-align: top"><td width="50%">
+<div class="article_2col">
 <center>
-{| CLASS="tablo"
+{| CLASS="tablo" WIDTH="100%"
 |+ Détermination aléatoire de la taille et du poids
 |- CLASS="titre"
 | Race || Taille</br>de base || Poids</br>de base || Modificateur || Modificateur</br>de poids
@@ -280,16 +276,7 @@ Afin de déterminer la taille d’un personnage, lancez les dés de modificateur
 | [[Ondin (race)|Ondins]] (m) || 1,45 cm || 60 kg || 2d10 || × 2,5 kg
 |- CLASS="alt"
 | [[Ondin (race)|Ondins]] (f) || 1,33 m || 42,5 kg || 2d10 || × 2,5 kg
-|}
-</center>
-
-</td><td width="50%">
-<center>
-{| CLASS="tablo"
-|+ Détermination aléatoire de la taille et du poids
-|- CLASS="titre"
-| Race || Taille</br>de base || Poids</br>de base || Modificateur || Modificateur</br>de poids
-|- CLASS="premier"
+|-
 | [[Oréade (race)|Oréades]] (m) || 1,20 m || 75 kg || 2d6 || × 3,5 kg
 |- CLASS="alt"
 | [[Oréade (race)|Oréades]] (f) || 1,13 m || 60 kg || 2d6 || × 3,5 kg
@@ -365,4 +352,4 @@ Afin de déterminer la taille d’un personnage, lancez les dés de modificateur
 | [[Wayang (race)|Wayangs]] (f) || 85 cm || 15 kg || 2d4 || × 0,5 kg
 |}
 </center>
-</td></tr></table>
+</div>
