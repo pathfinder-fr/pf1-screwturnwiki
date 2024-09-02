@@ -1,13 +1,11 @@
 ---
 Name: Pathfinder-RPG.Types dactions
-Title: Les types d'actions
-LastModified: 2024-07-03 16:52
+Title: Les actions en combat
+LastModified: 2024-08-29 15:23
 Categories:
   - 'Combat'
 ---
-{toc}
-
-Pendant un tour, le personnage peut accomplir tout un éventail d’actions, qu’il s’agisse de frapper avec son épée ou de lancer un sort.
+{s:MenuCombat}<div style="float: right; padding: 0 0 8px 8px">{toc}</div>Pendant un tour, le personnage peut accomplir tout un éventail d’actions, qu’il s’agisse de frapper avec son épée ou de lancer un sort.
 
 Chaque type d’action définit le temps requis pour l’effectuer (dans le cadre des 6 secondes du round de combat) et comment gérer le déplacement. Il y a six types d’actions : l’[[Types dactions#SIMPLE|action simple]], l’[[Types dactions#MOUVEMENT|action de mouvement]], l’[[Types dactions#COMPLEXE|action complexe]], l’[[Types dactions#LIBRE|action libre]], l’[[Types dactions#RAPIDE|action rapide]] et l’[[Types dactions#IMMEDIATE|action immédiate]].
 
@@ -15,15 +13,114 @@ Au cours d’un round ordinaire, un personnage peut effectuer une [[Types dactio
 
 Dans certaines situations, comme pendant le [[Déroulement dun combat#SURPRISE|round de surprise]], l’activité d’un personnage peut être restreinte. Celui-ci ne peut alors effectuer qu’une [[Types dactions#SIMPLE|action simple]] ou une [[Types dactions#MOUVEMENT|action de mouvement]].
 
+'''Notes des tableaux.'''  
+{s:Reference|NOTE1}''(1) Quelle que soit l’action entreprise, le fait de sortir d’une case contrôlée provoque généralement une [[attaque dopportunité|attaque d’opportunité]]. Cette colonne indique si l’action elle-même (et non le déplacement) déclenche une [[attaque dopportunité|attaque d’opportunité]].''
+
+{s:Reference|NOTE2}''(2) Si le personnage aide quelqu’un à faire une action qui provoque normalement une [[attaque dopportunité|attaque d’opportunité]], il provoque lui aussi une [[attaque dopportunité|attaque d’opportunité]].''
+
+{s:Reference|NOTE3}''(3) Si le personnage bénéficie d’un [[bonus de base à lattaque|bonus de base à l’attaque]] de +1 ou plus, il peut combiner cette action avec un déplacement normal. S’il dispose du don [[Combat à deux armes]], il peut dégainer deux armes légères ou à une main aussi rapidement que s’il sortait une seule arme.''
+
+{s:Reference|NOTE4}''(4) Cette action peut devenir une [[action simple]] dans le cas particulier d’un personnage à l’activité restreinte à une [[action simple]] par round.''
+
+{s:Reference|NOTE5}''(5) À moins que la composante ne soit particulièrement encombrante ou difficile à utiliser.''
+
+{s:Reference|NOTE6}''(6) Certaines [[manœuvre de combat|manœuvres de combat]] remplacent une attaque de corps à corps au lieu d’une action. Le personnage peut donc tenter de les exécuter une fois lors d’une action d’attaque ou de [[charge]], plusieurs fois dans le cadre d’une [[attaque à outrance]] ou lors d’une [[attaque dopportunité|attaque d’opportunité]]. D’autres sont considérés comme des actions séparées.''
+
+{s:Reference|NOTE7}''(7) Voir la description du [[tableau récapitulatif des dons|don concerné]].''
+
 {s:Reference|SIMPLE}
 === Action simple ===
 Une action simple permet d’accomplir quelque chose, comme attaquer ou lancer un sort. Voir la [[Actions simples|liste des actions simples]].
+
+{| CLASS="tablo centre autoalt"
+|+ Actions simples en combat
+|- CLASS="titre"
+| [[Actions simples]] || [[Attaque dopportunité|Attaque d'opportunité]]<sup>[[Types dactions#NOTE1|1]]</sup>
+|- CLASS="premier"
+| [[Actions simples#ATTAQUECORPSACORPS|Attaque au corps à corps]] || Non
+|-
+| [[Actions simples#ATTAQUEDISTANCE|Attaque à distance]] || Oui
+|-
+| [[Actions simples#ATTAQUEMAINSNUES|Attaque à mains nues]] || Oui
+|-
+| Abaisser sa [[Résistance à la magie|résistance à la magie]] || Non
+|-
+| Activer un [[Règles relatives aux objets magiques#UTILISER|objet magique]] autre qu’une [[Potions magiques|potion]] ou une [[Potions magiques|huile]] || Non
+|-
+| [[aider qqn|Aider quelqu’un]] || Possible<sup>[[Types dactions#NOTE2|2]]</sup>
+|-
+| Allumer une [[Torche (objet)|torche]] à l’aide d’un [[Allume-feu (objet)|allume-feu]] || Oui
+|-
+| Boire une [[Potions magiques|potion]] ou appliquer une [[Potions magiques|huile]] || Oui
+|-
+| Utiliser la [[prêtre#CANALISATIONDENERGIE|canalisation d’énergie]] || Non
+|-
+| Dégainer une arme dissimulée (voir la compétence [[Escamotage]]) || Non
+|-
+| Échapper à une situation de [[lutte]] || Non
+|-
+| Exécuter une [[feinte]] || Non
+|-
+| [[Actions simples#LANCERSORT|Lancer un sort]] (temps d’incantation de 1 action simple) || Oui
+|-
+| Lire un [[Parchemins magiques|parchemin]] || Oui
+|-
+| [[Actions simples#LANCERSORT|Mettre un terme à un sort]] || Non
+|-
+| [[Actions modifiant linitiative#PREPARER|Préparation]] (déclenche une action simple) || Non
+|-
+| Prodiguer les [[premiers secours]] à un ami mourant || Oui
+|-
+| [[Actions simples#LANCERSORT|Se concentrer pour maintenir un sort actif]] || Non
+|-
+| Se mettre en [[défense totale]] || Non
+|-
+| [[Actions simples#UTILISERPOUVOIRSPECIAL|Utiliser un pouvoir extraordinaire]] || Non
+|-
+| [[Actions simples#UTILISERPOUVOIRSPECIAL|Utiliser un pouvoir magique]] || Oui
+|-
+| [[Actions simples#UTILISERPOUVOIRSPECIAL|Utiliser un pouvoir surnaturel]] || Non
+|-
+| [[Actions diverses#UTILISERCOMPETENCE|Utiliser une compétence]] exigeant 1 action || En général oui
+|}
 
 {s:Reference|MOUVEMENT}
 === Action de mouvement ===
 L’action de mouvement permet au personnage de se déplacer sur une distance égale ou inférieure à sa vitesse de base ou d’accomplir une action demandant le même temps. Voir la [[Actions de mouvement|liste des actions de mouvement]].
 
 On peut faire une action de mouvement au lieu d’une [[Types dactions#SIMPLE|action simple]]. Si un personnage ne se déplace pas au cours du round (souvent parce qu’il a troqué son déplacement contre une ou plusieurs actions équivalentes), il peut tout de même accomplir un pas de placement de 1,50 m, pendant, avant ou après son action.
+
+{| CLASS="tablo centre autoalt"
+|+ Actions de mouvement en combat
+|- CLASS="titre"
+| [[Actions de mouvement]] || [[Attaque dopportunité|Attaque d'opportunité]]<sup>[[Types dactions#NOTE1|1]]</sup>
+|- CLASS="premier"
+| [[Actions de mouvement#DEPLACEMENT|Se déplacer]] || Oui
+|-
+| [[Équitation|Calmer une monture effrayée]] || Oui
+|-
+| [[Actions de mouvement#DEGAINERRENGAINERARME|Charger une arbalète légère ou de poing]] || Oui
+|-
+| [[Actions de mouvement#DEGAINERRENGAINERARME|Dégainer une arme]]<sup>[[Types dactions#NOTE3|3]]</sup> || Non
+|-
+| [[Actions de mouvement#MANIPULERUNOBJET|Déplacer un objet lourd]] || Oui
+|-
+| [[Actions de mouvement#DIRIGERREDIRIGERSORT|Diriger ou rediriger un sort actif]] || Non
+|-
+| [[Actions de mouvement#MONTERDESCENDREDESELLE|Monter en selle ou descendre de selle]] || Non
+|-
+| [[Actions de mouvement#MANIPULERUNOBJET|Ouvrir ou fermer une porte]] || Non
+|-
+| [[Actions de mouvement#MANIPULERUNOBJET|Prendre un objet porté sur soi]] || Oui
+|-
+| [[Actions de mouvement#PREPARERBOUCLIER|Préparer ou détacher son bouclier]]<sup>[[Types dactions#NOTE3|3]]</sup> || Non
+|-
+| [[Actions de mouvement#MANIPULERUNOBJET|Ramasser un objet]] || Oui
+|-
+| [[Actions de mouvement#DEGAINERRENGAINERARME|Rengainer une arme]] || Oui
+|-
+| [[Actions de mouvement#SERELEVER|Se relever quand on est à terre]] || Oui
+|}
 
 {s:Reference|COMPLEXE}
 === Action complexe ===
@@ -32,6 +129,38 @@ Une action complexe demande un round entier. Le déplacement du personnage se li
 Certaines actions complexes ne laissent pas de temps pour un pas de placement.
 
 Le personnage peut effectuer certaines actions complexes en tant qu’[[Types dactions#SIMPLE|actions simples]], mais uniquement s’il réduit son activité à une seule [[types dactions#SIMPLE|action simple]] par round. La [[Actions complexes|description des actions complexes]] indique si cela est possible.
+
+{| CLASS="tablo centre autoalt"
+|+ Actions complexes en combat
+|- CLASS="titre"
+| [[Actions complexes]] || [[Attaque dopportunité|Attaque d'opportunité]]<sup>[[Types dactions#NOTE1|1]]</sup>
+|- CLASS="premier"
+| [[Attaque à outrance]] || Non
+|-
+| Accrocher une arme à un [[Gantelet darmes (armure)|gantelet d’armes]] (ou la décrocher) || Oui
+|-
+| Allumer une [[Torche (objet)|torche]] || Oui
+|-
+| [[Charge]]<sup>[[Types dactions#NOTE4|4]]</sup> || Non
+|-
+| Charger une [[Arbalète lourde (arme)|arbalète lourde]] ou [[Arbalète lourde à répétition (arme)|à répétition]] || Oui
+|-
+| [[actions complexes#COURIR|Courir]] || Oui
+|-
+| Donner le [[coup de grâce]] || Oui
+|-
+| Éteindre des flammes || Non
+|-
+| [[Actions simples#LANCERSORT|Lancer un sort de contact]] sur un maximum de six alliés || Oui
+|-
+| [[Actions complexes#RETRAITE|Retraite]]<sup>[[Types dactions#NOTE4|4]]</sup> || Non
+|-
+| Se dégager d’un [[Filet (arme)|filet]] || Oui
+|- CLASS="alt"
+| Se préparer à [[Actions spéciales#ARMEASPERSION|lancer une arme à aspersion]] || Oui
+|-
+| [[Actions diverses#UTILISERCOMPETENCE|Utiliser une compétence]] exigeant 1 round || En général oui
+|}
 
 {s:Reference|LIBRE}
 === Action libre ===
@@ -48,16 +177,69 @@ Le ''Manuel des joueurs'' [[Actions libres|page 188]] indique,
 
 Autrement dit, le [[MJ]] peut autoriser plus ou moins d’actions libres selon ce qui lui paraît approprié en fonction des circonstances.}Les actions libres prennent un temps négligeable et ne demandent presque aucun effort. Le personnage peut en accomplir une ou plusieurs tout en exécutant l’action qu’il a choisie. On peut effectuer plusieurs actions libres au cours d’un round, dans les limites du raisonnable et avec l’accord du [[MJ]]. Voir la [[actions libres|liste des actions libres]].
 
+{| CLASS="tablo centre autoalt"
+|+ Actions libres en combat
+|- CLASS="titre"
+| [[Actions libres]] || [[Attaque dopportunité|Attaque d'opportunité]]<sup>[[Types dactions#NOTE1|1]]</sup>
+|- CLASS="premier"
+| [[Actions libres#CESSERCONCENTRATION|Cesser de se concentrer sur un sort]] || Non
+|-
+| [[Actions libres#LACHEROBJET|Lâcher un objet]] || Non
+|-
+| [[Actions libres#PARLER|Parler]] || Non
+|-
+| [[Actions libres#PLONGERAUSOL|Plonger au sol]] || Non
+|-
+| Préparer ses [[composantes]] pour lancer un sort<sup>[[Types dactions#NOTE5|5]]</sup> || Non
+|}
+
 {s:Reference|RAPIDE}
 === Action rapide ===
 Une action rapide demande peu de temps mais représente une dépense d’énergie ou un effort plus important qu’une [[Types dactions#LIBRE|action libre]]. On ne peut accomplir qu’une action rapide par tour. Voir la [[actions rapides|liste des actions rapides]].
+
+{| CLASS="tablo centre autoalt"
+|+ Actions rapides en combat
+|- CLASS="titre"
+| [[Actions rapides]] || [[Attaque dopportunité|Attaque d'opportunité]]<sup>[[Types dactions#NOTE1|1]]</sup>
+|- CLASS="premier"
+| [[Actions rapides#LANCERSORT|Lancer un sort à incantation rapide]] || Non
+|}
 
 {s:Reference|IMMEDIATE}
 === Action immédiate ===
 Une action immédiate ressemble fort à une [[Types dactions#RAPIDE|action rapide]], si ce n’est qu’elle peut être accomplie à n’importe quel moment, même si ce n’est pas le tour du personnage. Voir la [[actions immédiates|liste des actions immédiates]].
 
+{| CLASS="tablo centre autoalt"
+|+ Actions immédiates en combat
+|- CLASS="titre"
+| [[Actions immédiates]] || [[Attaque dopportunité|Attaque d'opportunité]]<sup>[[Types dactions#NOTE1|1]]</sup>
+|- CLASS="premier"
+| Lancer ''[[feuille morte]]'' || Non
+|}
+
 === Ne compte pas comme une action ===
 Certaines activités mineures ne comptent même pas comme des [[Types dactions#LIBRE|actions libres]]. Elles ne prennent pas de temps et on les considère comme partie inhérente d’autre chose, comme encocher une flèche lors d’une attaque à l’arc.
+
+{| CLASS="tablo centre autoalt"
+|+ Non-actions en combat
+|- CLASS="titre"
+| Pas d'action || [[Attaque dopportunité|Attaque d'opportunité]]<sup>[[Types dactions#NOTE1|1]]</sup>
+|- CLASS="premier"
+| [[Pas de placement]] de 1,50 m || Non
+|- CLASS="alt"
+| [[Actions modifiant linitiative#RETARDER|Retardement]] || Non
+|}
+
+=== Actions de type variable en combat ===
+{| CLASS="tablo centre autoalt"
+|+ Actions de type variable en combat
+|- CLASS="titre"
+| Actions de type variable || [[Attaque dopportunité|Attaque d'opportunité]]<sup>[[Types dactions#NOTE1|1]]</sup>
+|- CLASS="premier"
+| Faire une [[Manœuvres offensives|manœuvre offensive]]<sup>[[Types dactions#NOTE6|6]]</sup> || Oui
+|-
+| [[Actions diverses#UTILISERDON|Utiliser un don]]<sup>[[Types dactions#NOTE7|7]]</sup> || Variable
+|}
 
 === Activité restreinte ===
 Dans certains cas, l’activité d’un personnage au cours du round peut être limitée. Dans ce cas, le personnage ne peut effectuer qu’une [[Types dactions#SIMPLE|action simple]] ou une [[Types dactions#MOUVEMENT|action de mouvement]] dans le round (en plus des [[Types dactions#LIBRE|actions libres]] et [[Types dactions#RAPIDE|rapides]] ordinaires). Le personnage ne peut pas entreprendre une [[Types dactions#COMPLEXE|action complexe]] dans cette situation, mais il peut en commencer une ou la terminer à l’aide d’une [[Types dactions#SIMPLE|action simple]].

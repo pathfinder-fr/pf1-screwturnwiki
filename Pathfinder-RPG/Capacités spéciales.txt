@@ -1,11 +1,9 @@
 ---
 Name: Pathfinder-RPG.Capacités spéciales
 Title: Les capacités spéciales
-LastModified: 2024-08-25 22:33
+LastModified: 2024-08-27 22:03
 ---
-{s:MenuOpposition}<div style="float: right; padding: 0 0 8px 8px">{toc}</div>{s:Reference|TYPES}
-=== Types de capacités spéciales ===
-''Les capacités spéciales suivantes incluent les règles communément appliquées à un certain nombre de créatures, de sorts et de pièges.''
+{s:MenuCombat}<div style="float: right; padding: 0 0 8px 8px; max-width:300px">{toc}</div>{s:Reference|TYPES}Les capacités spéciales suivantes incluent les règles communément appliquées à un certain nombre de créatures, de sorts et de pièges.
 
 '''Pouvoirs extraordinaires (Ext).''' Les pouvoirs extraordinaires ne sont pas magiques, mais ils sont si spécialisés qu’on ne peut pas les maîtriser sans avoir suivi la formation appropriée. Ces pouvoirs ne sont en rien affectés par les sorts ou effets interdisant l’usage de la magie.
 
@@ -34,7 +32,7 @@ Par exemple, un démon avec le don [[Création darmes et armures magiques|Créat
 <hr>
 '''''[[FAQ- Manuel des joueurs (Magie et sorts)#28|→]] Pouvoirs magiques, incantation, et prérequis : Est-ce qu’une créature avec un pouvoir magique compte comme étant capable de lancer ce sort dans le cadre de prérequis ou de conditions ?'''''
 
-Uniquement si le prérequis cite explicitement le nom d’un sort. Par exemple, le don [[Agilité dimensionnelle]] a « Capacité de classe pas chassé ou capacité à lancer ''porte dimensionnelle'' » comme prérequis ; un [[barghest]] possède ''porte dimensionnelle'' comme [[Pouvoirs magiques (capacité)|pouvoir magique]], donc le barghest remplit le prérequis « capacité à lancer ''porte dimensionnelle'' » pour ce don. En revanche, la ''porte dimensionnelle'' du barghest ne remplit pas les prérequis comme « capacité à lancer des sorts de niveau 4 » ou « capacité à lancer des sorts profanes ». ''(Retour à la __[[Capacités spéciales#TYPES|règle]]__)''}'''Pouvoirs magiques (Mag).''' Les pouvoirs magiques agissent comme des sorts. Ils sont assujettis à la [[RM|résistance à la magie]] et à une éventuelle ''[[dissipation de la magie]]''. Ils ne fonctionnent pas là où la magie est supprimée ou réprimée (comme dans une ''[[zone dantimagie|zone d’antimagie]]''). Les pouvoirs magiques ne peuvent être [[contresort|contrés]] et ne peuvent servir à [[contresort|contrer]] d'autres sorts.
+Uniquement si le prérequis cite explicitement le nom d’un sort. Par exemple, le don [[Agilité dimensionnelle]] a « Capacité de classe pas chassé ou capacité à lancer ''porte dimensionnelle'' » comme prérequis ; un [[barghest]] possède ''porte dimensionnelle'' comme [[Pouvoirs magiques (capacité)|pouvoir magique]], donc le barghest remplit le prérequis « capacité à lancer ''porte dimensionnelle'' » pour ce don. En revanche, la ''porte dimensionnelle'' du barghest ne remplit pas les prérequis comme « capacité à lancer des sorts de niveau 4 » ou « capacité à lancer des sorts profanes ». ''(Retour à la __[[Capacités spéciales#TYPES|règle]]__)''}'''Pouvoirs magiques (Mag).''' Les pouvoirs magiques agissent comme des sorts. Ils sont assujettis à la [[RM|résistance à la magie]] et à une éventuelle ''[[dissipation de la magie]]''. Ils ne fonctionnent pas là où la magie est supprimée ou réprimée (comme dans une ''[[zone dantimagie|zone d’antimagie]]''). Les pouvoirs magiques ne peuvent être [[contresort|contrés]] et ne peuvent servir à [[contresort|contrer]] d'autres sorts. Voir aussi la [[Pouvoirs magiques (capacité)|règle universelle de monstre]] associée.
 
 '''Pouvoirs surnaturels (Sur).''' Les pouvoirs surnaturels sont magiques mais n’agissent pas comme des sorts. Ces pouvoirs ne sont pas soumis à la [[RM|résistance à la magie]] mais ne fonctionnent pas au sein d’une ''[[zone dantimagie|zone d’antimagie]]'' ou dans tout autre endroit où la magie est supprimée ou réprimée. Les effets d’un pouvoir surnaturel ne peuvent pas être dissipés et ils ne peuvent pas être affectés par un [[contresort]]. Voir la Table ci-après pour un résumé des pouvoirs spéciaux.
 
@@ -60,10 +58,8 @@ Uniquement si le prérequis cite explicitement le nom d’un sort. Par exemple, 
 
 ''Zone d’antimagie'' : est-ce qu’une ''[[zone dantimagie|zone d’antimagie]]'' réprime ce type de pouvoir ?
 
-{s:Reference|CARACTERISTIQUES}
-=== Modification des caractéristiques ===
-{s:Reference|BONUSCARAC}
-==== Les bonus aux valeurs de caractéristique ====
+{s:Reference|CARACTERISTIQUES}{s:Reference|BONUSCARAC}
+===Les bonus aux valeurs de caractéristique===
 {s:FAQ|'''''[[FAQ- Manuel des joueurs (Générale)#1|→]] Augmentations temporaires de caractéristiques et capacités de monstres : ces augmentations affectent-elles le DD des capacités surnaturelles des monstres et des PJ basées sur la caractéristique concernée ?'''''
 
 Bien que la description des bonus temporaires aux caractéristiques ne mentionne que l'augmentation du DD des sorts, c'est une formulation héritée d'un jeu plus ancien dont la terminologie n'a pas été mise à jour quand de nouvelles notions ont été ajoutées aux règles. Les augmentations temporaires de caractéristiques devraient affecter le DD des capacités surnaturelles basées sur ces caractéristiques, telles que l'attaque de [[Regard (capacité)|regard]] de la [[méduse]] ou les [[Sorcière#MALEFICE|maléfices]] de la sorcière.
@@ -96,14 +92,17 @@ Pour chaque tranche de deux points dans une caractéristique, appliquez un bonus
 
 '''Les bonus permanents.''' Les bonus aux caractéristiques dont la durée est supérieure à un jour augmentent la caractéristique à laquelle ils s’appliquent au bout de vingt-quatre heures. Ce bonus s’applique aux [[compétences]] et aux statistiques dépendant de cette caractéristique. Il est possible d’ainsi obtenir, entre autres, des [[rang|rangs]] de compétence et des [[pv|points de vie]] supplémentaires. Ces bonus devront être notés séparément, au cas où ils viendraient à disparaître.
 
-====Les affaiblissements temporaires et diminutions permanentes de caractéristiques====
-Voir [[affaiblissement temporaire|la section dédiée]].
+===Affaiblissements temporaires, pénalité et diminutions permanentes de caractéristiques===
+Ce texte a été reporté sur la [[Affaiblissement temporaire (capacité)|règle universelle de monstre]] associée.
 
 ===Les afflictions===
-Voir [[Afflictions|la page dédiée]]
+Voir la [[Afflictions|page dédiée]].
+
+===Absorption d’énergie et niveaux négatifs===
+Ce texte a été reporté sur la [[Absorption dénergie (capacité)|règle universelle de monstre]] associée.
 
 {s:Reference|ATTAQUESMORT}
-=== Les attaques de mort ===
+===Attaques de mort===
 Dans la plupart des cas, ce type d’attaque autorise un jet de [[Vigueur]]. Si celui-ci est raté, la victime meurt immédiatement.
 * ''[[Rappel à la vie]]'' ne fonctionne pas sur une personne tuée par une attaque de mort.
 * Les attaques de mort tuent immédiatement. Il est impossible de [[stabilisation|stabiliser]] l’état de la victime pour la maintenir en vie.
@@ -111,7 +110,7 @@ Dans la plupart des cas, ce type d’attaque autorise un jet de [[Vigueur]]. Si 
 * Le sort ''[[protection contre la mort]]'' protège le sujet contre ce type d’agression.
 
 {s:Reference|CHARMECOERCITION}
-=== Charme et coercition ===
+===Charme et coercition===
 ''Nombre de sorts et d’effets magiques embrument l’esprit du sujet, qui se retrouve incapable de faire la différence entre ses alliés et ses adversaires, quand il n’est pas purement et simplement convaincu que ses meilleurs amis sont devenus ses pires ennemis. Les enchantements sont divisés en deux catégories : les charmes et les coercitions.''
 
 '''Charme.''' Un enchantement de type charme permet de se faire un ami de la créature affectée et de lui suggérer comment se comporter, mais la domination exercée sur elle n’est pas totale et la victime ne sert pas aveuglément le lanceur de sorts. Cette branche comprend les divers sorts de charme. La victime est libre d’agir comme elle le souhaite, mais ses perceptions sont modifiées par le sort.
@@ -123,13 +122,17 @@ Dans la plupart des cas, ce type d’attaque autorise un jet de [[Vigueur]]. Si 
 * Si le charmeur lui donne un ordre auquel elle est farouchement opposée, elle a droit à un nouveau [[jet de sauvegarde]]. Si c’est un succès, elle se libère de l’emprise de son maître.
 * Tout individu charmé se faisant attaquer par son maître ou les alliés de celui-ci est automatiquement libéré des effets du charme.
 
-'''Coercition.''' La coercition est une influence autrement plus puissante, puisqu’elle neutralise purement et simplement le libre arbitre de la victime ou change sa façon de penser. Un sort de charme fait que le sujet prend le lanceur de sorts pour son ami ; avec un sort de coercition, il ne peut que lui obéir et devient son esclave.
+La coercition est une influence autrement plus puissante, puisqu’elle neutralise purement et simplement le libre arbitre de la victime ou change sa façon de penser. Un sort de charme fait que le sujet prend le lanceur de sorts pour son ami ; avec un sort de coercition, il ne peut que lui obéir et devient son esclave.
 
 Que le personnage soit sous l’influence d’un sort de charme ou de coercition, il ne révèle rien à son maître de sa propre initiative.
 
+===Immunité et vulnérabilité aux énergies===
+Ce texte a été reporté sur les règles universelles de monstre [[Immunité (capacité)|immunité]] et [[Vulnérabilités (capacité)|vulnérabilité]].
+
 {s:Reference|INVISIBILITE}
-=== L'invisibilité ===
-''La faculté de se déplacer sans être vu confère un avantage important, mais qui est loin d’être déterminant. Les créatures invisibles ne peuvent pas être vues, mais rien n’empêche de les entendre, de les sentir, ou tout simplement d’avoir la sensation qu’il y a quelqu’un à proximité.''
+===L'invisibilité===
+<div style="float:right; margin:8px 6px 0px 10px">'''''Voir aussi le sort [[invisibilité]].  
+Voir aussi l'état préjudiciable [[invisible]].'''''</div>La faculté de se déplacer sans être vu confère un avantage important, mais qui est loin d’être déterminant. Les créatures invisibles ne peuvent pas être vues, mais rien n’empêche de les entendre, de les sentir, ou tout simplement d’avoir la sensation qu’il y a quelqu’un à proximité.
 
 Ni le sens de la vue, ni la vision dans le noir ne permettent de détecter une créature invisible.
 
@@ -193,9 +196,30 @@ Elles ne peuvent pas non plus empêcher les sorts de [[divination]].
 
 On peut détecter et même voir des créatures invisibles. Il est donc conseillé d’être discret, même si l’on est invisible.
 
-(*) NdT: On se reportera utilement à la description du sort [[Invisibilité]]: Une créature [[invisible]] et immobile bénéficie d’un bonus de +40 aux tests de [[Discrétion]]. Ce bonus est réduit à +20 si la créature se déplace (ce qui n'est d'ailleurs pas cohérent avec le malus de -10 mentionné dans la table).
+===Odorat===
+Ce texte a été reporté sur la [[Odorat (capacité)|règle universelle de monstre]] associée.
+
+===Paralysie===
+Ce texte a été reporté sur la [[Paralysie (capacité)|règle universelle de monstre]] associée.
+
+===Peur===
+Ce texte a été reporté sur la [[Terreur (capacité)|règle universelle de monstre]] associée.
+
+===Réduction de dégâts===
+Ce texte a été reporté sur la [[Réduction de dégâts (capacité)|règle universelle de monstre]] associée.
+
+===Résistance à la canalisation===
+Ce texte a été reporté sur la [[Résistance à la canalisation (capacité)|règle universelle de monstre]] associée.
+
+===Résistance à la magie===
+Ce texte a été reporté sur la [[Résistance à la magie (capacité)|règle universelle de monstre]] associée.
 
 {s:Reference|VISIONDANSLENOIR}
-=== La vision dans le noir ===
-{s:Desambi|Vision dans le noir est également le nom d'un [[sort vision dans le noir|sort]].}
-La vision dans le noir est un pouvoir extraordinaire offrant la possibilité de voir en l’absence de source de lumière. La portée est indiquée dans la description de chaque créature. La vision dans le noir se fait uniquement en noir et blanc (elle ne permet pas de distinguer les couleurs). Il est impossible de percevoir ce que l’on ne verrait pas sous un éclairage normal: les objets invisibles le restent et les illusions ne disparaissent pas. Elle rend vulnérable aux agressions de type attaques de [[regard]]. La présence de lumière n’entrave pas la vision dans le noir.
+===Vision dans le noir===
+Ce texte a été reporté sur la [[Vision dans le noir (capacité)|règle universelle de monstre]] associée.
+
+===Vision et perception aveugle===
+Ce texte a été reporté sur les règles universelles de monstre [[Vision aveugle (capacité)|vision aveugle]] et [[Perception aveugle (capacité)|perception aveugle]].
+
+===Vision nocturne===
+Ce texte a été reporté sur la [[Vision nocturne (capacité)|règle universelle de monstre]] associée.

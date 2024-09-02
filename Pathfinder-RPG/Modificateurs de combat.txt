@@ -1,85 +1,80 @@
 ---
 Name: Pathfinder-RPG.Modificateurs de combat
 Title: Modificateurs de combat
-LastModified: 2024-07-03 17:32
+LastModified: 2024-08-27 21:50
 Categories:
   - 'Combat'
 ---
-{toc}
+{s:MenuCombat}<div style="float: right; padding: 0 0 8px 8px">{toc}</div>Un certain nombre de facteurs et de conditions peuvent influencer un [[jet dattaque|jet d’attaque]]. La majorité de ces situations fournissent un bonus ou un malus au jet en lui-même ou bien à la [[CA]] de la cible.
 
-Un certain nombre de facteurs et de conditions peuvent influencer un [[jet dattaque|jet d’attaque]]. La majorité de ces situations fournissent un bonus ou un malus au jet en lui-même ou bien à la [[CA]] de la cible.
-
-<table width="100%"><tr style="vertical-align: top"><td width="45%">
-<center>
-{| CLASS="tablo"
+{s:ClearRight}
+<table width="100%"><tr style="vertical-align: top"><td width="50%">
+{| CLASS="tablo centre autoalt" WIDTH="96%"
 |+ Modificateurs au jet d’attaque
 |- CLASS="titre"
 | L’attaquant… || Corps à corps || À distance
-|- CLASS="alt"
+|- CLASS="premier"
 | … est [[à terre]] ou à plat ventre || –4 || —<sup>[[Modificateurs de combat#NOTE1|1]]</sup>
 |-
 | … est [[ébloui]] || -1 || -1
-|- CLASS="alt"
+|-
 | … est en position surélevée || +1 || +0
 |-
 | … est [[enchevêtré]] || –2<sup>[[Modificateurs de combat#NOTE2|2]]</sup> || –2<sup>[[Modificateurs de combat#NOTE2|2]]</sup>
-|- CLASS="alt"
+|-
 | … est [[invisible]] || +2<sup>[[Modificateurs de combat#NOTE3|3]]</sup> || +2<sup>[[Modificateurs de combat#NOTE3|3]]</sup>
 |-
 | … est [[secoué]] ou [[effrayé]] || -2 || -2
-|- CLASS="alt"
+|-
 | … [[pris en tenaille|prend le défenseur en tenaille]] || +2 || —
 |-
 | … [[Déplacement et position#SESERRER|se serre dans un espace étroit]] || -4 || -4
-|-
-| COLSPAN="3" CLASS="note" | {s:Reference|NOTE1}''(1) La plupart des armes à distance ne peuvent être utilisées par un personnage [[à terre]], sauf les arbalètes et les shuriken qui sont utilisables sans aucun malus.''
-|-
-| COLSPAN="3" CLASS="note" | {s:Reference|NOTE2}''(2) Un personnage [[enchevêtré]] subit également un malus de -4 en [[Dextérité]], ce qui peut affecter son [[jet dattaque|jet d’attaque]].''
-|-
-| COLSPAN="3" CLASS="note" | {s:Reference|NOTE3}''(3) Le défenseur perd son éventuel bonus de [[Dextérité]] à la [[CA]].''
+|- CLASS="note"
+| COLSPAN="3" | {s:Reference|NOTE1}''(1) La plupart des armes à distance ne peuvent être utilisées par un personnage [[à terre]], sauf les arbalètes et les shuriken qui sont utilisables sans aucun malus.''
+|- CLASS="note"
+| COLSPAN="3" | {s:Reference|NOTE2}''(2) Un personnage [[enchevêtré]] subit également un malus de -4 en [[Dextérité]], ce qui peut affecter son [[jet dattaque|jet d’attaque]].''
+|- CLASS="note"
+| COLSPAN="3" | {s:Reference|NOTE3}''(3) Le défenseur perd son éventuel bonus de [[Dextérité]] à la [[CA]].''
 |}
-</center>
-</td><td width="2%"></td><td width="53%" style="padding: 0 4px 0 4px">
-<center>
-{| CLASS="tablo"
+</td><td width="50%">
+{| CLASS="tablo centre autoalt" WIDTH="96%"
 |+ Modificateurs à la CA
 |- CLASS="titre"
 | Le défenseur… || Corps à corps || À distance
-|- CLASS="alt"
+|- CLASS="premier"
 | … est [[abri|à couvert]] || +4 || +4
 |-
 | … est assis ou agenouillé || -2 || +2
-|- CLASS="alt"
+|-
 | … est [[à terre]] || -4 || +4
 |-
 | … est [[aveuglé|aveugle]] || –2<sup>[[Modificateurs de combat#NOTE4|4]]</sup> || –2<sup>[[Modificateurs de combat#NOTE4|4]]</sup>
-|- CLASS="alt"
+|-
 | … est [[camouflage|camouflé]] ou [[invisible]]
 | COLSPAN="2" | Voir [[Modificateurs de combat#CAMOUFLAGE|Camouflage]]
 |-
 | … est enchevêtré || +0<sup>[[Modificateurs de combat#NOTE5|5]]</sup> || +0<sup>[[Modificateurs de combat#NOTE5|5]]</sup>
-|- CLASS="alt"
+|-
 | … est en situation de [[lutte]] (pas l’attaquant) || +0 || +0
 |-
 | … est [[étourdi]] || -2<sup>[[Modificateurs de combat#NOTE4|4]]</sup> || –2<sup>[[Modificateurs de combat#NOTE4|4]]</sup>
-|- CLASS="alt"
+|-
 | … est [[immobilisé]] en situation de [[lutte]] || -4<sup>[[Modificateurs de combat#NOTE6|6]]</sup> || +0<sup>[[Modificateurs de combat#NOTE6|6]]</sup>
 |-
 | … est [[pris au dépourvu]] || +0<sup>[[Modificateurs de combat#NOTE4|4]]</sup> || +0<sup>[[Modificateurs de combat#NOTE4|4]]</sup>
-|- CLASS="alt"
+|-
 | … est [[recroquevillé]] || -2<sup>[[Modificateurs de combat#NOTE4|4]]</sup> || -2<sup>[[Modificateurs de combat#NOTE4|4]]</sup>
 |-
 | … est [[sans défense]] || -4<sup>[[Modificateurs de combat#NOTE6|6]]</sup> || +0<sup>[[Modificateurs de combat#NOTE6|6]]</sup>
-|- CLASS="alt"
+|-
 | … [[Déplacement et position#SESERRER|se serre dans un espace étroit]] || -4 || -4
-|-
-| COLSPAN="3" CLASS="note" | {s:Reference|NOTE4}''(4) Le défenseur perd son bonus de [[Dextérité]] à la [[CA]].''
-|-
-| COLSPAN="3" CLASS="note" | {s:Reference|NOTE5}''(5) Un personnage [[enchevêtré]] subit également un malus de -4 en [[Dextérité]].''
-|-
-| COLSPAN="3" CLASS="note" | {s:Reference|NOTE6}''(6) Le défenseur perd son éventuel bonus de [[Dextérité]] à la [[CA]].''
+|- CLASS="note"
+| COLSPAN="3" | {s:Reference|NOTE4}''(4) Le défenseur perd son bonus de [[Dextérité]] à la [[CA]].''
+|- CLASS="note"
+| COLSPAN="3" | {s:Reference|NOTE5}''(5) Un personnage [[enchevêtré]] subit également un malus de -4 en [[Dextérité]].''
+|- CLASS="note"
+| COLSPAN="3" | {s:Reference|NOTE6}''(6) Le défenseur perd son éventuel bonus de [[Dextérité]] à la [[CA]].''
 |}
-</center>
 </td></tr></table>
 
 {s:Reference|ABRI}
@@ -123,7 +118,6 @@ Cas #4 : L'[[ensorceleur]] attaque aussi à distance mais ses lignes indiquent q
 </div></td></tr></table>
 
 {s:Reference|CAMOUFLAGE}
-
 === Camouflage ===
 {s:FAQ|'''''[[FAQ- Manuel des joueurs (Combat)#17|→]] Camouflage et dégâts de précision : Le camouflage (celui de 20 %, pas le camouflage total) annule-t-il toute forme de dégâts de précision ? Il y a quelques zones floues sur les différents textes où des dégâts de précision apparaissent.'''''
 
@@ -170,7 +164,6 @@ Cas #3 : Le [[gobelin]] et l’[[ogre]] prennent l'[[ensorceleur]] en tenaille c
 </div></td></tr></table>
 
 {s:Reference|SANSDEFENSE}
-
 === Cible sans défense ===
 {s:Desambi|Voir aussi l'état préjudiciable [[sans défense]].}
 Un adversaire peut être sans défense parce qu’il est [[immobilisé|ligoté]], endormi, [[paralysé]], [[inconscient]] ou à la merci du personnage pour une autre raison.
