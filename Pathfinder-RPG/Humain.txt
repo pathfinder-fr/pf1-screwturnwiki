@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Humain
 Title: Les humains
-LastModified: 2024-08-25 15:54
+LastModified: 2024-09-04 22:43
 Categories:
   - 'Race'
   - 'Règle officielle'
@@ -9,209 +9,192 @@ Categories:
   - 'Src Manuel des joueurs - Règles avancées'
   - 'Src Manuel des races'
 ---
-{s:MenuRaces}
-===Présentation===
-<div style="background-color: #fff; float: right; padding: 0 0 12px 12px">{toc}</div> ''Les humains possèdent un dynamisme exceptionnel ainsi qu’une grande capacité à surmonter les difficultés et à se multiplier, ce qui explique sans doute pourquoi il s’agit de la race dominante. Leurs empires et leurs nations s’étendent sur de larges territoires et les membres de ces sociétés se forgent un nom à la pointe de leur épée ou grâce à la puissance de leur magie. Les humains se démarquent également par leur agitation permanente et leur grande diversité. Leurs sociétés sont très variées, allant des tribus sauvages dont la culture est basée sur l’honneur jusqu’aux familles nobles et décadentes des cités cosmopolites dont les membres vénèrent des entités infernales. La curiosité et l’ambition des humains prennent souvent le pas sur leur goût pour un mode de vie sédentaire. Beaucoup d’entre eux quittent leur demeure pour aller explorer les innombrables recoins oubliés du monde ou pour prendre la tête de puissantes armées et conquérir les territoires voisins, simplement parce que ces possibilités s’offrent à eux.''
+{s:MenuRaces}<div style="background-color: #fff; float: right; padding: 0 0 8px 8px">{toc}</div>{s:MR}Les humains possèdent un dynamisme exceptionnel et une immense capacité à survivre et à se reproduire, c’est pourquoi ils sont à présent la race dominante de Golarion. Leurs empires et leurs nations sont de vastes entités tentaculaires, où les gens se font un nom à la force de leur bras armé et de leurs sorts. Tumulte et diversité, voilà ce qui qualifie le mieux la race humaine. Les cultures humaines couvrent un vaste éventail, depuis les nobles sociétés tribales jusqu’aux familles nobles et décadentes adoratrices de diables qui vivent dans les cités les plus cosmopolites. La curiosité et l’ambition des humains triomphent souvent de leur penchant pour la vie sédentaire et beaucoup quittent leur maison pour aller explorer les recoins oubliés du monde ou pour aller conquérir leurs voisins à la tête de puissantes armées. Juste parce qu’ils en sont capables.
 
-{br}
-<div class="presentation arrondi" style="clear:right">
+La société humaine est construite sur un étrange amalgame de nostalgie et de futurisme. Les humains sont très attachés à leur gloire passée et se souviennent avec mélancolie d’un « âge d’or », mais ils sont aussi prompts à tourner le dos à leurs traditions et à leur histoire pour partir en quête de nouveaux horizons. Les humains aiment les collections (de reliques inanimées, mais aussi de créatures vivantes) et ils conservent de précieux éléments de leur passé, comme des pièces de musée qu’ils mettent en vitrine pour leur bon plaisir ou qu’ils gardent à leurs côtés comme serviteurs. Les autres races pensent que ce comportement est dû à un besoin profondément ancré dans la psyché humaine : celui de dominer et de prouver sa puissance, un besoin qui les pousse à s’approprier les créatures et les étendues sauvages, à les piller et à les domestiquer. D’autres âmes plus charitables pensent que les humains sont juste des gens qui aiment collectionner les expériences et que, s’ils prennent et gardent des choses vivantes, mortes ou inanimées, c’est juste pour avoir un souvenir des endroits où ils se sont rendus, des choses qu’ils ont vues et des exploits qu’ils ont accomplis. Leur valeur passée et présente n’est qu’un bonus, leur véritable but est de rappeler constamment l’inévitable progression de l’humanité.
+
+En bien des lieux, les humains sont fascinés par les races et les cultures plus anciennes qu’eux, même si les traditions ancestrales et, selon eux, démodées, les frustrent parfois et qu’il leur arrive de les mépriser. Les humains considèrent les autres races avec un étrange mélange d’exotisme et de fétichisme, mais, en général, ils ne les comprennent et ne les apprécient que très superficiellement : leur arrogance est si profondément ancrée qu’ils ont beaucoup de mal à admettre qu’ils ne sont pas forcément la société standard par défaut. Quand il s’agit de franchir le fossé social qui sépare les races, les érudits humains spécialisés dans ce genre d’études (qui devraient donc être les individus les plus ouverts et les plus au fait de la nature et de la culture des étrangers) ne valent pas mieux que le reste de leur peuple. Les humains sont une espèce grégaire, souvent amicale et désireuse d’interagir avec autrui, mais qui ne se rend pas compte qu’elle marginalise les autres races, ce qui chagrine beaucoup ces dernières.
+
+Évidemment, ce n’est pas seulement à cause des bonnes intentions, de l’ignorance maladroite et de la supériorité numérique des humains que les autres races se méfient d’eux. Bien trop souvent, la xénophobie et l’intolérance humaines ont débouché sur l’isolationnisme social, l’oppression, les purges sanglantes, l’inquisition, la violence urbaine et les guerres ouvertes. Les humains ne sont pas les seuls à haïr ce qui est différent, mais ils semblent posséder une capacité spéciale pour soupçonner les autres et propager la peur, qu’il s’agisse de race, de religion, de classe, de sexe ou autre. Beaucoup d’humains modérés se contentent généralement de regarder passivement leurs compatriotes plus extrémistes tenir le devant de la scène politique et culturelle, mais il en est aussi qui s’opposent à ces gens et qui incarnent l’unité malgré les différences. Ceux-là transcendent les barrières et forment des alliances et des liens durables, à grande ou à petite échelle, en dépit des couleurs, des croyances, des pays et des espèces.
+
+<div class="presentation arrondi">
 {s:APG}L’ambition et l’imagination sans fin des humains les poussent à l’adaptation et à l’expansion. Ces traits leur ont permis de se répandre à travers toute la surface du monde, de s’habituer à une large variété de contrées et de conquérir toujours plus de terrain. Les races qui pensent à plus longue échéance les considèrent souvent comme des créatures agressives et destructrices, mais la plupart des humains ne cherchent qu’à utiliser le temps limité dont ils disposent pour mener des existences aussi remplies que possible. Les peuples victimes de l’avancée inéluctable de l’humanité sont souvent assimilés par cette race très habile pour négocier et pour s’adapter ; ils deviennent alors de nouvelles ressources pour les incessantes explorations culturelles des humains.
 
-On trouve chez les humains une immense diversité d’apparences physiques avec des peaux allant des teintes sombres jusqu’au blanc laiteux et des cheveux recouvrant toute la gamme entre la couleur du lin et celle de l’ébène. Les lieux qu’ils habitent sont également très variés : les colons et les explorateurs ambitieux se fraient un passage jusqu’au cœur des déserts les plus arides, jusqu’aux côtes gelées des mers glaciales ou même jusque dans les profondeurs brûlantes de la terre, tous apparemment unis dans une même quête impossible et sans fin, celle de cartographier ce qui se trouve à chaque fois au-delà de l’horizon. La diversité humaine s’étend aussi aux domaines qu’ils étudient, car leur curiosité les pousse à s’efforcer de maîtriser des connaissances toujours de plus en plus vastes.
+On trouve chez les humains une immense diversité d’apparences physiques avec des peaux allant des teintes sombres jusqu’au blanc laiteux et des cheveux recouvrant toute la gamme entre la couleur du lin et celle de l’ébène. Les lieux qu’ils habitent sont également très variés : les colons et les explorateurs ambitieux se fraient un passage jusqu’au coeur des déserts les plus arides, jusqu’aux côtes gelées des mers glaciales ou même jusque dans les profondeurs brûlantes de la terre, tous apparemment unis dans une même quête impossible et sans fin, celle de cartographier ce qui se trouve à chaque fois au-delà de l’horizon. La diversité humaine s’étend aussi aux domaines qu’ils étudient, car leur curiosité les pousse à s’efforcer de maîtriser des connaissances toujours de plus en plus vastes.
 </div>
 
-'''Description physique.'''
-Les caractéristiques physiques des humains sont aussi variées que les régions du monde. On trouve une grande diversité de couleurs de peau, de morphologies et de caractéristiques faciales, allant des tribus à la peau sombre des continents du sud jusqu’aux pillards pâles et violents des terres du nord. En général, plus les humains vivent près de l’équateur, plus leur couleur de peau est sombre.
+'''Description physique.''' Les caractéristiques physiques des humains sont aussi variées que les climats du monde. Des tribus à la peau sombre des continents méridionaux aux pâles pillards barbares du nord, les humains couvrent tout un éventail de couleurs de peau, de carrure et de traits. En règle générale, leur peau s’assombrit au fur et à mesure que l’on s’approche de l’équateur. En revanche, leur structure osseuse, la couleur et la texture de leurs cheveux, la couleur de leurs yeux et nombre de phénotypes faciaux et corporels changent beaucoup d’un endroit à l’autre. Les humains ont des pommettes hautes ou larges, un nez aquilin ou aplati, des lèvres minces ou charnues, la couleur de leurs yeux couvrent un large spectre et certains sont profondément enfoncés dans les orbites tandis que d’autres possèdent un épicanthus. Évidemment, leur apparence ne doit rien au hasard : les caractéristiques familiales, tribales ou nationales permettent souvent d’identifier l’origine d’un humain au premier coup d’oeil, ou du moins de la deviner. L’origine des humains transparaît aussi au niveau de leur style vestimentaire traditionnel, pas seulement au niveau des habits et des bijoux, mais aussi dans les coiffures, les piercings, les tatouages ou les scarifications.
 
-'''Société.'''
-La société humaine regroupe un grand nombre de types de gouvernements, d’attitudes et de modes de vie. Les cultures humaines les plus anciennes possèdent une histoire qui remonte à des milliers d’années dans le passé mais, par rapport aux sociétés elfiques ou naines, la société des humains semble être dans un état de changement perpétuel, avec des empires qui se divisent sans arrêt puis se rassemblent en nouveaux royaumes. Les humains sont généralement réputés pour leur flexibilité, leur ingéniosité et leur ambition.
+'''Société.''' La société humaine regroupe de nombreux gouvernements, attitudes et styles de vie. Les cultures humaines les plus anciennes ont des milliers d’années, mais, comparée aux sociétés naines ou elfiques, la leur semble toujours être en train de changer, alors que les empires se fragmentent et que de nouveaux royaumes conquièrent les anciens. Les humains sont connus pour leur flexibilité, leur ingénuité et leur ambition. D’autres races leur envient parfois leur adaptabilité sans limite, pas en terme de biologie, mais de volonté à aller toujours plus loin, à la découverte de tout ce qui les attend.
 
-'''Relations.'''
-Les humains sont féconds. Et comme ils sont dynamiques et nombreux, ils entrent souvent en contact avec d’autres races lorsqu’ils étendent leurs territoires ou colonisent de nouvelles terres. Ces rencontres conduisent souvent à la violence et à la guerre mais les humains pardonnent rapidement et forgent facilement des alliances avec les races qui ne se montrent pas plus violentes qu’eux. Les humains, souvent fiers, voire arrogants, pourraient considérer les [[nain|nains]] comme de pauvres soulards, les [[elfe|elfes]] comme des dandys frivoles, les [[halfelin|halfelins]] comme de lâches voleurs, les [[gnome|gnomes]] comme des maniaques dérangés et les [[demi-elfe|demi-elfes]] et les [[demi-orque|demi-orques]] comme des cousins embarrassants. Heureusement, leur propre diversité les aide à accepter les autres races telles qu’elles sont.
+En tant qu’individus, beaucoup d’humains, voire la majorité, sont ravis de rester dans leur routine confortable, mais l’espèce humaine abrite un esprit de découverte indomptable, qui la pousse à chercher sans cesse de nouvelles possibilités.
 
-'''Alignement et religion.'''
-Les humains forment sans doute la plus hétérogène de toutes les races les plus courantes, avec une capacité à faire le plus grand bien comme le pire mal. Certains humains se réunissent en de vastes hordes barbares alors que d’autres construisent de grandes cités qui s’étendent sur des kilomètres. Les humains sont globalement d’[[alignement]] [[N|Neutre]] mais ils ont tendance à se rassembler en nations ou en civilisations de même [[alignement]]. On trouve également chez les humains une grande diversité de [[++Golarion.religions et philosophies|dieux et de religions]] : ils ne sont pas liés aux traditions comme les autres races, et ils n’hésitent pas à se tourner vers tous ceux qui leur promettent gloire ou protection. Ils ont même adopté des [[++Golarion.religions et philosophies|dieux]] qui sont restés associés à d’autres races pendant des millénaires. Et, alors que l’humanité continue de croître et de prospérer, de nouveaux [[++Golarion.religions et philosophies|dieux]] commencent à émerger des légendes humaines toujours plus nombreuses.
+'''Relations.''' Les humains sont une race féconde que les inclinaisons et le nombre font souvent entrer en contact avec d’autres races, lors de tentatives d’expansions territoriales ou de colonisations, ce qui débouche fréquemment sur des guerres et des explosions de violence. Cependant ils ne sont pas rancuniers et sont prêts à forger des alliances avec les races qui ne tentent pas d’égaler leur violence ou de la dépasser. La fierté des humains frise souvent l’arrogance et en pousse beaucoup à considérer les nains comme des ivrognes avares, les elfes comme des dandys écervelés, les halfelins comme de lâches voleurs, les gnomes comme des déments pervers et les demi-elfes et les demi-orques comme des sources d’embarras. La diversité de la race humaine aide cependant beaucoup d’humains à accepter les autres tels qu’ils sont. Il arrive qu’ils se laissent tellement absorber par leurs propres affaires qu’ils ignorent tout du langage et de la culture de leurs voisins. Certains poussent cette ignorance jusqu’à une horrible intolérance, de l’oppression et, parfois, des tentatives d’extermination des étrangers qu’ils perçoivent comme dangereux, bizarres ou « impurs ». Pour certains, ces incidents et ces attitudes entachent l’humanité tout entière, mais, heureusement, ce sont plus des exceptions que la règle.
 
-'''Aventuriers.'''
-Un grand nombre d’humains est motivé par l’ambition. Beaucoup d’entre eux considèrent la vie d’aventurier comme un moyen pour obtenir ce qu’ils désirent, qu’il s’agisse de fortune, de gloire, de statut social ou de connaissances magiques. Quelques-uns partent également à l’aventure juste pour le frisson du danger. Les aventuriers humains peuvent venir de tous horizons et donc remplir n’importe quel rôle au sein d’un groupe.
+'''Alignement et religion.''' L’humanité est peut-être la race de base la plus diversifiée : les humains sont capables de se montrer incroyablement maléfiques ou de faire preuve d’une immense bienveillance. Certains se regroupent en vastes hordes barbares alors que d’autres se rassemblent dans des villes tentaculaires qui s’étendent sur des kilomètres. Dans son ensemble, l’humanité est Neutre mais ses membres tendent à se rassembler en pays et en civilisations du même alignement. Les humains vénèrent également un vaste éventail de dieux, car ils ne possèdent pas les traditions des autres races et se tournent volontiers vers tous ceux qui leur promettent gloire et protection.
+
+'''Aventuriers.''' Beaucoup d’humains se laissent uniquement guider par leur ambition et, pour nombre d’entre eux, les aventures sont un bon moyen d’arriver à leurs fins, qu’il s’agisse d’accumuler des richesses, des louanges, des connaissances magiques ou d’améliorer leur statut social. Certains embrassent la carrière d’aventurier par simple goût du risque. Les humains viennent de toutes sortes de régions et de contextes, ils sont donc susceptibles de remplir n’importe quel rôle.
+
+'''Noms.''' Contrairement aux autres races qui s’en tiennent à leurs traditions et leur histoire, l’humanité est si diverse qu’elle comprend une infinité de noms. Les sonorités des noms des barbares des tribus du nord diffèrent de celles de ceux des marins et des commerçants des pays subtropicaux. Même les humains qui parlent la même langue ont parfois des noms aussi variés que leurs croyances et leur apparence, cela dépend de la région.
 
 ===Traits raciaux standards===
-<div class="presentation arrondi ombre espaceliste">
-<table class="page espace-col deuxcol"><tr><td>
-* '''+2 à une caractéristique.''' Les personnages humains obtiennent un bonus de +2 à une [[caractéristiques|caractéristique]] choisie lors de la création (ce bonus représente la diversité de leur race).
-* '''Taille moyenne.''' Les humains sont des créatures de [[taille M]], ce qui ne leur apporte aucun bonus ni malus de taille.
-* '''Vitesse normale.''' Les humains possèdent une [[vitesse de déplacement]] de base de 9 mètres (6 cases).
-* '''Don en bonus.''' Les humains choisissent un [[dons|don]] supplémentaire au niveau 1.
-
-</td>
-<td>
-* '''Compétent.''' Les humains obtiennent un [[point de compétence]] supplémentaire au niveau 1 et un [[point de compétence]] en plus chaque fois qu’ils gagnent un niveau.
-* '''Langues supplémentaires.''' Les humains connaissent automatiquement le [[Linguistique|commun]]. Les humains qui possèdent une [[Intelligence]] élevée peuvent choisir n’importe quelle [[Linguistique|autre langue]] (à l’exception des langages secrets comme la langue des druides).
-
-</td></tr></table>
-</div>
-{s:FAQ|'''''[[FAQ- Manuel des joueurs (Races et classes)#17|→]] Humain : Pour un humain avec une Intelligence basse, le nombre minimum de rangs de compétence par niveau est de 1 ou 2 ?'''''
+<div class="presentation arrondi ombre espaceliste">{s:FAQ|'''''[[FAQ- Manuel des joueurs (Races et classes)#17|→]] Humain : Pour un humain avec une Intelligence basse, le nombre minimum de rangs de compétence par niveau est de 1 ou 2 ?'''''
 
 C’est 1, mais le personnage ajoute son rang bonus d’__[[Humain|humain]]__ ensuite, donc il termine avec 2 rangs au total.  
 Par exemple, un humain guerrier 1 avec Int 6 devrait commencer avec 2 rangs, ajouter le -2 de son malus d’Int (pour un total de 0 rangs), appliquer la règle du « minimum 1 » (pour un total ajusté de 1 rang), puis ajouter 1 rang d’humain (pour un total de 2 rangs).
 
 Autrement dit, un humain devrait toujours terminer avec plus de rangs de compétence qu’un autre personnage équivalent d’une race différente.}
+* '''+2 à une valeur de caractéristique.''' Lors de leur création, les humains gagnent un bonus de +2 à la valeur de [[Caractéristiques|caractéristique]] de leur choix, afin de représenter leur diversité.
+* '''Taille M.''' Les humains sont des créatures de [[taille M]] qui ne reçoivent ni malus ni bonus liés à la taille.
+* '''Vitesse normale.''' Les humains ont une [[VD|vitesse de base]] de 9 mètres.
+* '''Don supplémentaire.''' Les humains choisissent un [[Dons|don]] supplémentaire au niveau 1.
+* '''Compétent.''' Les humains gagnent un [[Compétences#ACQUERIR|rang de compétence]] supplémentaire au niveau 1 et un de plus à chaque fois qu’ils prennent un niveau.
+* '''Langues.''' Les humains commencent le jeu en parlant le commun et leur langue ethnique. Les humains dont la langue ethnique est le commun (ou le taldorien, dans les cas des cheliaxiens ou des taldoriens) ne recoivent pas de langue ethnique supplémentaire. Ceux qui possèdent une valeur d’[[Intelligence]] élevée peuvent apprendre d’autres langues de leur choix (sauf les langues secrètes comme celle des [[Druide#LANGUESSUPPLEMENTAIRES|druides]]).
+
+</div>
 
 ===Traits raciaux alternatifs===
-Les humains ont des caractéristiques variées et une grande faculté d’adaptation. Les règles suivantes reflètent cette flexibilité et conviennent à n’importe quel personnage humain. Vous pouvez choisir les traits raciaux suivants au lieu des traits raciaux humains standard mais consultez d’abord votre MJ. 
-{s:ligne}{s:col|6}
-* {s:MR}'''À l’affût du talent.''' Les humains ont une bonne intuition quand il s’agit de repérer un potentiel caché. Ils gagnent un bonus racial de +2 aux tests de [[Psychologie]]. De plus, s’ils acquièrent un [[Compagnons animaux|compagnon animal]], une [[Chevalier#MONTURE|monture]] liée, un [[Prestige|compagnon d’armes]] ou un [[familiers|familier]], cette créature gagne un bonus de +2 à une valeur de caractéristique choisie par le personnage. ''Ce trait racial remplace le don supplémentaire de niveau 1.''
-* {s:MR}'''Cœur des bas-fonds.''' Les humains qui survivent dans les bas-fonds des grandes villes sont vifs et rusés. Ils gagnent un bonus racial de +2 aux tests d’[[Escamotage]] et de [[Discrétion]] et un bonus racial de +4 aux tests de [[Survie]] en milieu urbain et sous terre. De plus, quand ils font un jet de sauvegarde contre la [[maladie]], ils lancent deux fois le dé et conservent le meilleur résultat. ''Ce trait racial remplace compétent.'' 
-* {s:MR}'''Cœur des étendues sauvages.''' Les humains nés dans la nature apprennent à la dure que seuls les forts survivent. Ils gagnent un bonus racial égal à la moitié de leur niveau de personnage aux tests de [[Survie]] et un bonus racial de +5 aux tests de Constitution pour se stabiliser quand ils [[états préjudiciables#Mourant_22|agonisent]]. Ils ajoutent la moitié de leur niveau à leur valeur de Constitution quand ils déterminent le montant de points de vie négatifs qui permet de les [[états préjudiciables#Mort_21|tuer]]. ''Ce trait racial remplace compétent.'' 
-* {s:MR}'''Cœur des montagnes.''' Les humains nés dans les montagnes savent gérer les hauteurs et les précipices. Ils gagnent un bonus racial de +2 aux tests d’[[Escalade]] et d’[[Acrobaties]] pour se déplacer sur une surface étroite ou inégale. De plus, on considère qu’ils sont [[Aventures en extérieur#ALTITUDE|acclimatés à l’altitude]]. ''Ce trait racial remplace compétent.''
-* {s:MR}'''Cœur de la mer.''' La mer attire toujours les humains nés près d’elle. Ils gagnent un bonus racial de +2 aux tests de [[Profession|Profession (marin)]] et de [[Natation]] et considèrent toujours ces deux compétences comme des compétences de classe. Ils [[Dangers naturels#ASPHYXIE|retiennent leur souffle]] deux fois plus longtemps que la normale et, s’ils sont lanceurs de sorts, ils gagnent un bonus racial de +4 aux tests de [[Milieu aquatique#RÈGLESSOUSLEAU|Concentration]] pour lancer des sorts sous l’eau. ''Ce trait racial remplace compétent.'' 
-* {s:MR}'''Cœur des neiges.''' Les humains nés sous les climats glacés considèrent le [[Dangers naturels#FROID|froid]] comme une catégorie moins sévère qu’en réalité. Ils gagnent un bonus racial de +2 aux jets de [[Vigueur]] contre les effets de froid liés au climat, aux tests ou aux jets de sauvegarde pour éviter de glisser et de tomber et au [[DMD]] contre les manoeuvres de [[Manoeuvres offensives#CROCENJAMBE|croc-en-jambe]]. Ce bonus s’applique aux tests d’[[Acrobaties]] et d’[[Escalade]] sur terrain glissant. ''Ce trait racial remplace compétent.'' 
-* {s:MR}'''Cœur des plaines.''' Les humains nés dans les zones rurales sont habitués à travailler dur. Ils gagnent un bonus racial égal à la moitié de leur niveau de personnage dans une compétence d’[[Artisanat]] ou de [[Profession]]. Une fois par jour, ils peuvent ignorer un effet qui devrait les [[états préjudiciables#Fatigué_13|fatiguer]] ou les [[états préjudiciables#Épuisé_10|épuiser]]. ''Ce trait racial remplace compétent.'' 
+Les humains ont des caractéristiques variées et une grande faculté d’adaptation. Les règles suivantes reflètent cette flexibilité et conviennent à n’importe quel personnage humain. Vous pouvez choisir les traits raciaux suivants au lieu des traits raciaux humains standard mais consultez d’abord votre MJ.
 
-{s:col-fin}{s:col|6}
-* {s:MR}'''Cœur des rues.''' Les humains qui vivent dans les villes très peuplées savent utiliser la foule. Ils gagnent un bonus racial de +1 aux jets de [[Réflexes]] et un bonus d’esquive à la [[CA]] quand ils sont adjacents à deux alliés minimum. Ils ne considèrent pas la foule comme un [[terrain difficile]]. ''Ce trait racial remplace compétent.'' 
-* {s:MR}'''Cœur du soleil.''' Les humains nés sous un climat tropical considèrent la [[Dangers naturels#CHALEUR|chaleur]] comme une catégorie moins sévère qu’en réalité. Ils gagnent un bonus racial de +2 aux jets de [[Vigueur]] contre les effets de chaleur liés au climat et contre les pouvoirs de poison et de distraction des [[sous-type nuée|nuées]] et de la [[type Vermine|vermine]]. ''Ce trait racial remplace compétent.'' 
-* {s:MR}'''Double talent.''' Certains humains possèdent un don inné pour optimiser leurs capacités naturelles. Ils choisissent deux [[caractéristique|caractéristiques]] et gagnent un bonus racial de +2 pour chacune. ''Ce trait remplace le bonus racial de +2 à une caractéristique, le don supplémentaire et le trait compétent.'' 
-* {s:MR}'''Études spécialisées.''' Tous les humains sont compétents, mais certains se spécialisent plutôt que de se diversifier. Aux niveaux 1, 8 et 16, ils reçoivent [[Talent]] dans une compétence de leur choix, comme don supplémentaire. ''Ce trait racial remplace le don supplémentaire de niveau 1.'' 
-* {s:MR}'''Héritage mixte.''' Souvent, il faut plusieurs caractéristiques pour définir une civilisation humaine. Un humain qui possède ce trait a droit à un deuxième trait racial « coeur de. ». ''Ce trait remplace le don supplémentaire de niveau 1.'' 
-* {s:MR}'''Héroïque.''' Certains humains sont des héros nés. Dans les campagnes qui utilisent le système de [[points héroïques]], ils gagnent 2 points héroïques au lieu de 1 à chaque fois qu’ils montent d’un niveau. S’ils prennent le don [[Points héroïques#Dons_liés_aux_points_héroïques_5|Étoffe des héros]], ils gagnent 3 points héroïques par niveau au lieu de 2. ''Ce trait remplace le don supplémentaire de niveau 1.'' 
-* {s:MR}'''Langue dorée.''' Les humains sont doués pour manipuler les gens avec subtilité et mettre même leurs pires ennemis à l’aise. Ceux qui possèdent ce trait gagnent un bonus de +2 aux tests de [[Diplomatie]] et de [[Bluff]]. De plus, quand ils usent de Diplomatie pour modifier l’attitude d’une créature, ils peuvent la faire évoluer de trois crans au lieu de deux. ''Ce trait remplace compétent.'' 
-* {s:MR}'''Parents adoptifs.''' Il arrive que des enfants humains abandonnés se fassent adopter par une autre race. Choisissez une race humanoïde qui ne soit pas de [[sous-type humain]]. Quand le personnage commence le jeu, il parle les [[Linguistique|langues]] de cette race et possède son trait armes familières (le cas échéant). Si la race choisie ne possède pas ce trait, le personnage gagne [[Talent]] ou [[Arme de prédilection]] comme don supplémentaire, en fonction de ce qui convient à la race adoptive. ''Ce trait racial remplace le don supplémentaire de niveau 1.'' 
+__''Remplace « +2 à une valeur de caractéristique », « compétent » et « don supplémentaire » :''__
+* '''Double talent.''' Certains humains possèdent un don inné pour optimiser leurs capacités naturelles. Ils choisissent deux [[caractéristique|caractéristiques]] et gagnent un bonus racial de +2 pour chacune. Ce trait remplace le bonus racial de +2 à une caractéristique, le don supplémentaire et le trait compétent.
 
-{s:col-fin}{s:ligne-fin}
-===Sous-types raciaux===
+__''Remplace « compétent » :''__
+* '''Cœur des bas-fonds.''' Les humains qui survivent dans les bas-fonds des grandes villes sont vifs et rusés. Ils gagnent un bonus racial de +2 aux tests d’[[Escamotage]] et de [[Discrétion]], ainsi qu'un bonus racial de +4 aux tests de [[Survie]] en milieu urbain et souterrain. De plus, quand ils font un [[jds|jet de sauvegarde]] contre une [[Maladies|maladie]], ils lancent deux fois le dé et conservent le meilleur résultat. Ce trait racial remplace compétent.
+* '''Cœur des étendues sauvages.''' Les humains nés dans la nature apprennent à la dure que seuls les forts survivent. Ils gagnent un bonus racial égal à la moitié de leur niveau de personnage aux tests de [[Survie]] et un bonus racial de +5 aux tests de [[Constitution]] pour se [[Blessures et mort#STABLE|stabiliser]] quand ils sont [[mourant|mourants]]. Ils ajoutent la moitié de leur niveau à leur valeur de Constitution quand ils déterminent le montant de points de vie négatifs qui permet de les [[mort|tuer]]. Ce trait racial remplace compétent.
+* '''Cœur des montagnes.''' Les humains nés dans les montagnes savent gérer les hauteurs et les précipices. Ils gagnent un bonus racial de +2 aux tests d’[[Escalade]] ainsi qu'aux tests d’[[Acrobaties]] pour se déplacer sur une surface étroite ou inégale. De plus, on considère qu’ils sont [[Aventures en extérieur#ALTITUDE|acclimatés à l’altitude]]. Ce trait racial remplace compétent.
+* '''Cœur de la mer.''' La mer attire toujours les humains nés près d’elle. Ils gagnent un bonus racial de +2 aux tests de [[Profession]] (marin) et de [[Natation]] et considèrent toujours ces deux compétences comme des compétences de classe. Ils oeuvent [[Dangers naturels#ASPHYXIE|retenir leur souffle]] deux fois plus longtemps que la normale et, s’ils sont lanceurs de sorts, bénéficient d'un bonus racial de +4 aux tests de [[concentration]] pour lancer des sorts [[Milieu aquatique|sous l’eau]]. Ce trait racial remplace compétent.
+* '''Cœur des neiges.''' Les humains nés sous les climats glacés considèrent le [[Dangers naturels#FROID|froid]] comme une catégorie moins sévère qu’en réalité. Ils gagnent un bonus racial de +2 aux jets de [[Vigueur]] contre les effets liés au climat froid, aux tests et aux jets de sauvegarde pour éviter de glisser et de tomber, ainsi qu'au [[DMD]] contre les manoeuvres de [[croc-en-jambe]]. Ce bonus s’applique aux tests d’[[Acrobaties]] et d’[[Escalade]] sur un terrain glissant. Ce trait racial remplace compétent.
+* '''Cœur des plaines.''' Les humains nés dans les zones rurales sont habitués à travailler dur. Ils gagnent un bonus racial égal à la moitié de leur niveau de personnage dans une compétence d’[[Artisanat]] ou de [[Profession]]. Une fois par jour, ils peuvent ignorer un effet qui devrait les [[fatigué|fatiguer]] ou les [[épuisé|épuiser]]. Ce trait racial remplace compétent.
+* '''Cœur des rues.''' Les humains qui vivent dans les villes très peuplées savent utiliser la foule. Ils gagnent un bonus racial de +1 aux jets de [[Réflexes]] et un bonus d’esquive de +1 à la [[CA]] quand ils sont adjacents à deux alliés ou plus. Ils ne considèrent pas la foule comme un [[terrain difficile]]. Ce trait racial remplace compétent.
+* '''Cœur du soleil.''' Les humains nés sous un climat tropical considèrent la [[Dangers naturels#CHALEUR|chaleur]] comme une catégorie moins sévère qu’en réalité. Ils gagnent un bonus racial de +2 aux jets de [[Vigueur]] contre les effets liés au climat chaud et contre les pouvoirs de [[Poison (capacité)|poison]] et de [[Distraction (capacité)|distraction]] des [[sous-type nuée|nuées]] et des [[type Vermine|vermines]]. Ce trait racial remplace compétent.
+* '''Langue dorée.''' Les humains sont doués pour manipuler les gens avec subtilité et mettre même leurs pires ennemis à l’aise. Ceux qui possèdent ce trait gagnent un bonus de +2 aux tests de [[Diplomatie]] et de [[Bluff]]. De plus, quand ils usent de Diplomatie pour modifier l’attitude d’une créature, ils peuvent la faire évoluer de trois crans au lieu de deux. Ce trait remplace compétent.
+
+__''Remplace « don supplémentaire » :''__
+* '''À l’affût du talent.''' Les humains ont une bonne intuition quand il s’agit de repérer un potentiel caché. Ils gagnent un bonus racial de +2 aux tests de [[Psychologie]]. De plus, s’ils acquièrent un [[Compagnons animaux|compagnon animal]], une [[Chevalier#MONTURE|monture]] liée, un [[Prestige|compagnon d’armes]] ou un [[familiers|familier]], cette créature gagne un bonus de +2 à une valeur de caractéristique choisie par le personnage. Ce trait racial remplace le don supplémentaire de niveau 1.
+* '''Études spécialisées.''' Tous les humains sont compétents, mais certains se spécialisent plutôt que de se diversifier. Aux niveaux 1, 8 et 16, ils reçoivent [[Talent]] dans une compétence de leur choix, comme don supplémentaire. Ce trait racial remplace le don supplémentaire de niveau 1.
+* '''Héritage mixte.''' Souvent, il faut plusieurs caractéristiques pour définir une civilisation humaine. Un humain qui possède ce trait a droit à un deuxième trait racial « coeur de. ». Ce trait remplace le don supplémentaire de niveau 1.
+* '''Héroïque.''' Certains humains sont des héros nés. Dans les campagnes qui utilisent le système de [[points héroïques]], ils gagnent 2 points héroïques au lieu de 1 à chaque fois qu’ils montent d’un niveau. S’ils prennent le don [[Étoffe des héros]], ils gagnent 3 points héroïques par niveau au lieu de 2. Ce trait remplace le don supplémentaire de niveau 1.
+* '''Parents adoptifs.''' Il arrive que des enfants humains abandonnés se fassent adopter par une autre race. Choisissez une race humanoïde qui ne soit pas de sous-type [[sous-type humain|humain]]. Quand le personnage commence le jeu, il parle les [[Linguistique|langues]] de cette race et possède son trait racial armes familières (le cas échéant). Si la race choisie ne possède pas ce trait, le personnage gagne [[Talent]] ou [[Arme de prédilection]] comme don supplémentaire, en fonction de ce qui convient le mieux à la race adoptive. Ce trait racial remplace le don supplémentaire de niveau 1.
+
+====Sous-types raciaux====
 Vous pouvez combiner plusieurs traits raciaux alternatifs pour créer une sous-race humaine ou une variante raciale, comme suit.
-{s:Ligne}{s:Col|6}
-* {s:MR}'''Campagnard.''' Ces humains sont faits pour vivre à la campagne. Ils remplacent ''compétent'' par ''coeur des plaines'' et le ''don supplémentaire racial'' par ''études spécialisées''. 
-* {s:MR}'''Cosmopolite.''' Ces humains adeptes de la vie citadine savent se faufiler dans la foule et pourvoir aux besoins en artisans de leur communauté. Ils remplacent ''compétent'' par ''coeur des rues'' et ''le don supplémentaire racial'' par ''études spécialisées''. 
-* {s:MR}'''Humain impérial.''' Ces humains originaires d’un empire, d’une nation émergente ou d’une puissante cité-état sont d’arrogants expansionnistes, qui absorbent les autres au sein de leur culture et de leur cause. Ils remplacent ''compétent'' par ''langue dorée'' et le ''don supplémentaire racial'' par ''à l’affût du talent''. 
+* '''Campagnard.''' Ces humains sont faits pour vivre à la campagne. Ils remplacent compétent par coeur des plaines et le don supplémentaire racial par études spécialisées. 
+* '''Cosmopolite.''' Ces humains adeptes de la vie citadine savent se faufiler dans la foule et pourvoir aux besoins en artisans de leur communauté. Ils remplacent compétent par coeur des rues et le don supplémentaire racial par études spécialisées. 
+* '''Humain impérial.''' Ces humains originaires d’un empire, d’une nation émergente ou d’une puissante cité-état sont d’arrogants expansionnistes, qui absorbent les autres au sein de leur culture et de leur cause. Ils remplacent compétent par langue dorée et le don supplémentaire racial par à l’affût du talent. 
+* '''Humain polyvalent.''' Les humains polyvalents ne sont pas aussi bien entraînés que les autres, mais ils compensent cela par leurs talents innés. Ils remplacent le bonus de +2 à une valeur de caractéristique, le trait compétent et le don supplémentaire racial par double talent. 
+* '''Pionnier.''' Ces humains inventifs ont un esprit vif, une grande capacité d’adaptation et de meilleures chances de survivre dans la région qu’ils ont choisie. Ils remplacent compétent par coeur des étendues sauvages et le don supplémentaire racial par héroïque. Avec l’accord du MJ, ils peuvent opter pour coeur des montagnes, coeur des neiges, coeur de la mer ou coeur du soleil à la place de coeur des étendues sauvages, selon l’endroit où ils vivent. 
+* '''Rat d’égout.''' Ces citadins de seconde zone vivent dans des ghettos et des bas-fonds, ils travaillent dur pour gagner leur maigre pitance. Ils remplacent compétent par coeur des bas-fonds et le don supplémentaire racial par héritage mixte (coeur des rues).
 
-{s:Col-Fin}{s:Col|6}
-* {s:MR}'''Humain polyvalent.''' Les humains polyvalents ne sont pas aussi bien entraînés que les autres, mais ils compensent cela par leurs talents innés. Ils remplacent le bonus de ''+2 à une valeur de caractéristique'', ''le trait compétent'' et ''le don supplémentaire racial'' par ''double talent''. 
-* {s:MR}'''Pionnier.''' Ces humains inventifs ont un esprit vif, une grande capacité d’adaptation et de meilleures chances de survivre dans la région qu’ils ont choisie. Ils remplacent ''compétent'' par ''coeur des étendues sauvages'' et le ''don supplémentaire racial'' par ''héroïque''. Avec l’accord du MJ, ils peuvent opter pour ''coeur des montagnes'', ''coeur des neiges'', ''coeur de la mer'' ou ''coeur du soleil'' à la place de ''coeur des étendues sauvages'', selon l’endroit où ils vivent. 
-* {s:MR}'''Rat d’égout.''' Ces citadins de seconde zone vivent dans des ghettos et des bas-fonds, ils travaillent dur pour gagner leur maigre pitance. Ils remplacent ''compétent'' par ''coeur des bas-fonds'' et le ''don supplémentaire racial'' par ''héritage mixte (coeur des rues)''. 
 
-{s:Col-Fin}{s:Ligne-Fin}
 ===Bonus alternatifs de classe de prédilection===
-{s:MR}{s:APG}Toutes les carrières sont représentées chez les aventuriers humains. Leur talent et leur ambition ne les incitent pas seulement à réussir mais aussi à dépasser les autres et à fonder des héritages qui perdureront bien longtemps après la fin de leur courte vie.
+{s:MCA}Chacune de ces récompenses remplace celle que les joueurs obtenaient normalement en gagnant un niveau dans une [[Progression des personnages#CLASSEDEPREDILECTION|classe de prédilection]], à savoir 1 point de vie supplémentaire ou 1 rang de compétence supplémentaire. Contrairement à ces récompenses d’ordre générique, les récompenses alternatives se focalisent sur les spécificités de la classe et sur les tendances générales d’une race.
 
-Plutôt que de gagner un point de vie ou un point de compétence supplémentaire lorsqu’il acquiert un niveau dans une [[Progression des personnages#CLASSEDEPREDILECTION|classe de prédilection]], un humain peut choisir entre un certain nombre d’autres avantages dépendant de sa [[Progression des personnages#CLASSEDEPREDILECTION|classe de prédilection]]. Les options qui suivent sont disponibles à tous les humains qui possèdent la classe citée comme [[Progression des personnages#CLASSEDEPREDILECTION|classe de prédilection]] et, sauf mention contraire, le bonus s’applique chaque fois qu’il choisit l’avantage en question.
+Le personnage choisit son option de classe de prédilection quand il gagne un niveau. Ces avantages se cumulent toujours, sauf indication contraire.
 
-{s:Ligne}{s:Col|6}
-'''Alchimiste.''' Certains les considèrent parfois comme des excentriques ou des amateurs touchant à des arts dangereux, mais les aptitudes pratiques des [[alchimiste|alchimistes]] humains leur permettent toujours de trouver un emploi parfois à bonne distance de leur employeur.\
-''Bonus de classe de prédilection alternatif.'' Ajouter une formule d’[[alchimiste#EXTRAITS|extrait]] issue de la [[liste des formules dalchimiste|liste des formules d’alchimiste]] au livre de formules du personnage. Cette formule doit être d’au moins un niveau de moins que la formule la plus puissante qu’il connaît. 
+Enfin, à chaque fois que le personnage les choisit, nombre d’avantages alternatifs ajoutent seulement +1/2, +1/3, +1/4 ou +1/6 (au lieu de +1) à un jet ou à une aptitude de classe (comme un ajout au nombre de rages sanguines quotidiennes du sanguin ou au total de points de panache du bretteur). Quand le personnage applique cet avantage à un jet de dé, il arrondit toujours à l’inférieur (0 au minimum). Il devra donc en choisir certains à plusieurs reprises avant d’en tirer le moindre bénéfice.
 
-'''Arcaniste.''' Ajout d’un sort de la liste de l’[[arcaniste]] au grimoire de l’arcaniste. Ce sort doit être d’au moins un niveau de moins que le sort de plus haut niveau de l’arcaniste.
+Certaines options s’accompagnent d’une limite numéraire fixe, une fois cette limite atteinte, il ne sert plus à rien de choisir l’option qui n’a pas d’effet supplémentaire. Le personnage peut toujours choisir une récompense ordinaire quand il gagne un niveau dans sa classe de prédilection (à savoir 1 point de vie ou 1 rang de compétence supplémentaire).
 
-'''Barbare.''' Des jungles torrides aux steppes désertiques, les [[barbare|barbares]] évitent la société « civilisée » et gagnent l’estime des autres grâce à leur robustesse, leur assurance sans faille et leurs prouesses impressionnantes. Mais, même dans ces cultures brutales, l’inventivité de la race humaine fait des merveilles : elle  pousse les [[barbare|barbares]] humains à créer et à apprendre à manipuler toute une variété d’armes et de styles de combat peut-être primitifs mais néanmoins dangereux.\
-''Bonus de classe de prédilection alternatif.'' Ajouter un bonus de +1/2 au bonus de [[barbare#SENSDESPIEGES|sens des pièges]] et +1/3 au bonus donné par le pouvoir de rage [[Pouvoirs de rage#SUPERSTITION|Superstition]].
+{s:APG}'''Les aventuriers humains.''' Toutes les carrières sont représentées chez les aventuriers humains. Leur talent et leur ambition ne les incitent pas seulement à réussir mais aussi à dépasser les autres et à fonder des héritages qui perdureront bien longtemps après la fin de leur courte vie.
 
-'''Barde.''' Les [[barde|bardes]] humains possèdent un vaste éventail de talents artistiques qu’ils expriment de manière plutôt libre. Ils sont souvent extrêmement curieux et collectionnent les histoires et les récits afin de forger leur propre légende tout en racontant les aventures des autres.\
-''Bonus de classe de prédilection alternatif.'' Le barde apprend un sort de [[liste des sorts de bardes|la liste de bardes]] de plus. Ce sort doit être d’au moins un niveau de moins que le plus puissant qu’il connaît. 
+{s:AO}'''Les humains occultes.''' Sans véritables traditions sur lesquelles baser leur compréhension de l’occulte, les humains dotés de talents psychiques rejoignent souvent des cultes étranges pour développer leur don. D’autres se plongent seuls dans l’étude, rassemblant des écrits à la véracité discutable sur divers sujets occultes. Un grand nombre d’humains sont fascinés par le thème occulte même s’ils ne s’avèrent pas particulièrement sensibles aux phénomènes psychiques et ils peuvent rapidement respecter et suivre quiconque maîtrise même le plus simple des pouvoirs de magie psychique.
 
-'''Bretteur.''' Augmente le total des points de [[bretteur#PANACHE|panache]] du [[bretteur]] de 1/4.
+<table width="100%"><tr><td width="49%">
+{s:APG}'''[[Alchimiste]].''' Ajouter une formule d’[[alchimiste#EXTRAITS|extrait]] issue de la [[liste des formules dalchimiste|liste des formules d’alchimiste]] au livre de formules du personnage. Cette formule doit être d’au moins un niveau de moins que la formule la plus puissante qu’il connaît.  
+Certains les considèrent parfois comme des excentriques ou des amateurs touchant à des arts dangereux, mais les aptitudes pratiques des alchimistes humains leur permettent toujours de trouver un emploi parfois à bonne distance de leur employeur.
 
-'''Chaman.''' Ajout d’un sort de la [[Liste des sorts de prêtres|liste de prêtre]] ne se trouvant pas sur la liste du chaman à la liste des sorts connus de celui-ci. Ce sort doit être d’au moins un niveau de moins que le sort de plus haut niveau qu’il connaît.
+{s:MCA}'''[[Arcaniste]].''' Ajout d’un sort de la [[Liste des sorts densorceleursmagiciens|liste de l’arcaniste]] au grimoire de l’arcaniste. Ce sort doit être d’au moins un niveau de moins que le sort de plus haut niveau de l’arcaniste.
 
-'''Chasseur.''' Le [[compagnon animal]] gagne 1 [[rang]] de [[compétences|compétence]]. Si le chasseur le remplace, le nouveau compagnon bénéficie
-aussi de ce bonus.
+{s:APG}'''[[Barbare]].''' Ajouter un bonus de +1/2 au bonus de [[barbare#SENSDESPIEGES|sens des pièges]] et +1/3 au bonus donné par le pouvoir de rage [[Pouvoirs de rage#SUPERSTITION|Superstition]].  
+Des jungles torrides aux steppes désertiques, les [[barbare|barbares]] évitent la société « civilisée » et gagnent l’estime des autres grâce à leur robustesse, leur assurance sans faille et leurs prouesses impressionnantes. Mais, même dans ces cultures brutales, l’inventivité de la race humaine fait des merveilles : elle  pousse les [[barbare|barbares]] humains à créer et à apprendre à manipuler toute une variété d’armes et de styles de combat peut-être primitifs mais néanmoins dangereux.
 
-'''Chevalier.''' Les humains constituent la majeure partie de la plupart des [[ordres|ordres de chevalerie]]. Ils combinent les bonnes manières de l’aristocratie avec la dévotion au service de leur seigneur et de leur idéal chevaleresque afin d’obtenir l’estime des gens du peuple et des nobles.\
-''Bonus de classe de prédilection alternatif.'' Ajouter +1/4 au bonus de [[Chevalier#BANNIERE|bannière]] du [[chevalier]].
+{s:APG}'''[[Barde]].''' Le barde apprend un sort de [[liste des sorts de bardes|la liste de bardes]] de plus. Ce sort doit être d’au moins un niveau de moins que le plus puissant qu’il connaît.  
+Les bardes humains possèdent un vaste éventail de talents artistiques qu’ils expriment de manière plutôt libre. Ils sont souvent extrêmement curieux et collectionnent les histoires et les récits afin de forger leur propre légende tout en racontant les aventures des autres.
 
-'''Conjurateur.''' Les [[conjurateur|conjurateurs]] humains façonnent la vie et dirigent d’une simple parole des créatures terrifiantes. Ils laissent libre cours aux pouvoirs de la création. Les [[eidolon|eidolons]] qu’ils contrôlent peuvent prendre des formes très variées. Ils incarnent souvent les espoirs les plus profonds ou les cauchemars les plus sombres de leur maître.\
-''Bonus de classe de prédilection alternatif.'' Ajouter +1 point de vie ou +1 point de compétence à l’[[eidolon]] du [[conjurateur]].
+{s:MCA}'''[[Bretteur]].''' Augmente le total des points de [[bretteur#PANACHE|panache]] du bretteur de 1/4.
 
-'''Druide.''' De nombreux humains considèrent le druidisme comme un « culte ancien »,  aussi éternel et vaste que le monde lui-même. Certains voient les druides comme de simples ermites dégénérés qui s’opposent au progrès mais ceux-ci suscitent bien souvent un certain sentiment de respect, de méfiance et de crainte.\
-''Bonus de classe de prédilection alternatif.'' Ajouter +1/2 aux tests de [[Diplomatie]] et d’[[Intimidation]] visant à modifier l’attitude d’une créature.
+{s:MCA}'''[[Chaman]].''' Ajout d’un sort de la [[Liste des sorts de prêtres|liste de prêtre]] ne se trouvant pas sur la liste du chaman à la liste des sorts connus de celui-ci. Ce sort doit être d’au moins un niveau de moins que le sort de plus haut niveau qu’il connaît.
 
-'''Ensorceleur.''' Grâce aux nombreux mélanges qu’on retrouve dans leurs arbres généalogiques, on trouve fréquemment des pouvoirs magiques latents chez les humains. Les [[ensorceleur|ensorceleurs]], qui sont considérés tantôt comme des aberrations, tantôt comme des merveilles de la nature, ne doivent bien souvent leur survie qu’à leur force de caractère.\
-''Bonus de classe de prédilection alternatif.'' Ajouter un sort connu issu de la [[Liste des sorts densorceleursmagiciens|liste des sorts d’ensorceleur]]. Ce sort doit être d’au moins un niveau de moins que le plus puissant qu’il connaît. 
+{s:MCA}'''[[Chasseur]].''' Le [[compagnon animal]] gagne 1 [[Compétences#ACQUERIR|rang de compétence]]. Si le chasseur le remplace, le nouveau compagnon bénéficie aussi de ce bonus.
 
-'''Enquêteur.''' L’enquêteur ajoute la formule d’un extrait issu de la liste de l’enquêteur à son livre de formules. Elle doit être d’au moins un niveau de moins que la formule de plus haut niveau qu’il connaît.
+{s:APG}'''[[Chevalier]].''' Ajouter +1/4 au bonus de [[Chevalier#BANNIERE|bannière]] du chevalier.  
+Les humains constituent la majeure partie de la plupart des ordres de chevalerie. Ils combinent les bonnes manières de l’aristocratie avec la dévotion au service de leur seigneur et de leur idéal chevaleresque afin d’obtenir l’estime des gens du peuple et des nobles.
 
-'''Guerrier.''' On retrouve des [[guerrier|guerriers]] humains dans toutes les professions, des voyageurs aux soldats en passant par les bretteurs et les boxeurs, mais aucun d’entre eux n’est à prendre à la légère.\
-''Bonus de classe de prédilection alternatif.'' Ajouter +1 au [[DMD]] du [[guerrier]] contre deux [[manœuvres offensives|manœuvres de combat]] choisies par le personnage.
+{s:AO}'''[[Cinétiste]].''' Le personnage acquiert 1/6 du don [[Talent sauvage supplémentaire]].
 
-'''Inquisiteur.''' Si les humains peuvent avoir la foi et faire confiance, ils sont tout aussi susceptibles de faire preuve de paranoïa et de suspicion. Des ordres entiers d’[[inquisiteur|inquisiteurs]] quasiment tous humains sont devenus célèbres (pour le meilleur ou pour le pire) en réalisant des « purges » contre des créatures dangereuses ou en s’entêtant à mener des chasses aux sorcières.\
-''Bonus de classe de prédilection alternatif.'' Ajouter un sort connu issu de la [[liste des sorts dinquisiteur|liste de sorts d’inquisiteur]]. Ce sort doit être d’au moins un niveau de moins que le plus puissant qu’il connaît.
+{s:APG}'''[[Conjurateur]].''' Ajouter +1 [[pv|point de vie]] ou +1 [[Compétences#ACQUERIR|rang de compétence]] à l’[[Conjurateur#EIDOLON|eidolon]] du conjurateur.  
+Les conjurateurs humains façonnent la vie et dirigent d’une simple parole des créatures terrifiantes. Ils laissent libre cours aux pouvoirs de la création. Les [[eidolon|eidolons]] qu’ils contrôlent peuvent prendre des formes très variées. Ils incarnent souvent les espoirs les plus profonds ou les cauchemars les plus sombres de leur maître.
 
-{s:Col-Fin}{s:Col|6}
-{s:cs}{s:UI}'''Justicier'''. Augmente de +1/2 au bonus de [[Déguisement]] de la capacité [[Justicier#APPARENCETRANSPARENTE|apparence transparente]].
+{s:APG}'''[[Druide]].''' Ajouter +1/2 aux tests de [[Diplomatie]] et d’[[Intimidation]] visant à modifier l’attitude d’une créature.  
+De nombreux humains considèrent le druidisme comme un « culte ancien »,  aussi éternel et vaste que le monde lui-même. Certains voient les druides comme de simples ermites dégénérés qui s’opposent au progrès mais ceux-ci suscitent bien souvent un certain sentiment de respect, de méfiance et de crainte.
 
-'''Lutteur.''' Ajoute 1 au [[DMD]] du [[lutteur]] pour résister à deux manoeuvres offensives de son choix.
+{s:MCA}'''[[Enquêteur]].''' L’enquêteur ajoute la formule d’un extrait issu de la [[liste des formules dalchimiste|liste de l’enquêteur]] à son livre de formules. Elle doit être d’au moins un niveau de moins que la formule de plus haut niveau qu’il connaît.
 
-'''Magicien.''' De nombreux humains désirent percer les secrets de la création et ont soif de pouvoir et de connaissances, ce qui pousse les [[magicien|magiciens]] humains à s’intéresser tant aux anciens mystères qu’aux nouvelles innovations en matière de magie. Les humains excellent tant dans l’apprentissage de chacune des [[écoles de magie|écoles de sorts]] que dans l’étude globale de la magie.\
-''Bonus de classe de prédilection alternatif.'' Ajouter un sort issu de la [[liste des sorts densorceleursmagiciens|liste des sorts de magicien]] au [[magicien#GRIMOIRE|grimoire du magicien]]. Ce sort doit être d’au moins un niveau de moins que le plus puissant qu’il connaît. 
+{s:APG}'''[[Ensorceleur]].''' Ajouter un sort connu issu de la [[Liste des sorts densorceleursmagiciens|liste des sorts d’ensorceleur]]. Ce sort doit être d’au moins un niveau de moins que le plus puissant qu’il connaît.  
+Grâce aux nombreux mélanges qu’on retrouve dans leurs arbres généalogiques, on trouve fréquemment des pouvoirs magiques latents chez les humains. Les ensorceleurs, qui sont considérés tantôt comme des aberrations, tantôt comme des merveilles de la nature, ne doivent bien souvent leur survie qu’à leur force de caractère.
 
-'''Magus.''' ''Bonus de classe de prédilection alternatif.'' Le [[magus]] ajoute 1/4 de point à sa [[Magus#RESERVEMAGIQUE|réserve magique]]. 
+{s:APG}'''[[Guerrier]].''' Ajouter +1 au [[DMD]] du guerrier contre deux [[manœuvres offensives]] choisies par le personnage.  
+On retrouve des guerriers humains dans toutes les professions, des voyageurs aux soldats en passant par les bretteurs et les boxeurs, mais aucun d’entre eux n’est à prendre à la légère.
 
-'''Moine.''' Les [[moine|moines]] humains, qui recherchent la paix et la discipline parfaite, se tiennent souvent à l’écart de la société. Beaucoup les admirent mais seuls les plus dévoués possèdent assez de lucidité d’esprit et de sang froid pour maîtriser leurs techniques.\
-''Bonus de classe de prédilection alternatif.'' Ajouter +1/4 à la [[Moine#RESERVEDEKI|réserve de ki]] du [[moine]].
+{s:AO}'''[[Hypnotiseur]].''' Le personnage augmente de 1/3 point son bonus d’[[hypnotiseur#EGOIMPOSANT|ego imposant]] (jusqu’à une augmentation maximale de +2).
 
-'''Oracle.''' Les [[oracle|oracles]] humains utilisent diverses méthodes religieuses pour faire connaître la nature de leur mystère et le regard qu’ils portent sur le monde. Pour accomplir leur art, ils font parfois appel à des agents choisis en fonction de vérités mystérieuses.\
-''Bonus de classe de prédilection alternatif.'' L’[[oracle]] apprend un [[liste des sorts de prêtres|sort d’oracle]] de plus. Ce sort doit être d’au moins un niveau de moins que le plus puissant qu’il connaît. 
+{s:APG}'''[[Inquisiteur]].''' Ajouter un sort connu issu de la [[liste des sorts dinquisiteur|liste de sorts d’inquisiteur]]. Ce sort doit être d’au moins un niveau de moins que le plus puissant qu’il connaît.  
+Si les humains peuvent avoir la foi et faire confiance, ils sont tout aussi susceptibles de faire preuve de paranoïa et de suspicion. Des ordres entiers d’[[inquisiteur|inquisiteurs]] quasiment tous humains sont devenus célèbres (pour le meilleur ou pour le pire) en réalisant des « purges » contre des créatures dangereuses ou en s’entêtant à mener des chasses aux sorcières.
+</td><td width="1%">
+<td style="border-left:1px solid #4b3124" width="1%"></td>
+</td><td width="49%">
+{s:cs}{s:UI}'''[[Justicier]].''' Augmente de +1/2 au bonus de [[Déguisement]] de la capacité [[Justicier#APPARENCETRANSPARENTE|apparence transparente]].
 
-'''Paladin''' Les humains qui aspirent à des idéaux héroïques, ceux qui désirent défendre leurs pairs de manière noble et ceux qui sont simplement exaltés par les valeurs de l’honneur et de la justice se tournent souvent vers la classe de [[paladin]]. Bien qu’il s’agisse d’une voie difficile, qui se termine souvent par un sacrifice de soi, les [[paladin|paladins]] humains chargent toujours en première ligne lors de quasiment toutes les croisades à l’encontre des forces du mal.\
-''Bonus de classe de prédilection alternatif.'' Ajouter +1 à la résistance aux énergies du [[paladin]] pour un type d’énergie (maximum +10).
+{s:MCA}'''[[Lutteur]].''' Ajoute 1 au [[DMD]] du lutteur pour résister à deux [[manœuvres offensives]] de son choix.
 
-'''Pistolier.''' ''Bonus de classe de prédilection alternatif.'' Le pistolier gagne 1/4 de [[Pistolier#AUDACE|point d’audace]] de plus. 
+{s:APG}'''[[Magicien]].''' Ajouter un sort issu de la [[liste des sorts densorceleursmagiciens|liste des sorts de magicien]] au [[magicien#GRIMOIRE|grimoire]] du magicien. Ce sort doit être d’au moins un niveau de moins que le plus puissant qu’il connaît.  
+De nombreux humains désirent percer les secrets de la création et ont soif de pouvoir et de connaissances, ce qui pousse les magiciens humains à s’intéresser tant aux anciens mystères qu’aux nouvelles innovations en matière de magie. Les humains excellent tant dans l’apprentissage de chacune des écoles de sorts que dans l’étude globale de la magie.
 
-'''Prêtre.''' Les humains croient facilement en des idéaux qui les dépassent et se rassemblent en des religions de toutes tailles. Ils développent souvent des connexions personnelles avec les [[++Golarion.religions et philosophies|divinités]] et incarnent les traits et les puissances qu’ils idéalisent.\
-''Bonus de classe de prédilection alternatif.'' Ajouter +1 aux tests de [[NLS]] visant à percer la [[RM|résistance à la magie]] des [[type extérieur|Extérieurs]].
+'''[[Magus]].''' Le magus ajoute 1/4 de point à sa [[Magus#RESERVEMAGIQUE|réserve magique]].
 
-'''Prêtre combattant.''' Ajout de 1/6 d’un nouveau [[Dons#DONCOMBAT|don de combat]] supplémentaire.
+{s:AO}'''[[Médium]].''' Quand il acquiert un [[médium#TABOU|tabou]], le médium peut utiliser l’[[médium#ACCÈSDEPUISSANCESPIRITUELLE|accès de puissance spirituelle]] sans subir d’[[médium#ESPRIT|influence]] 1/4 fois de plus par jour.
 
-'''Psychiste.''' Ajoutez un sortilège connu de la liste des sortilèges psychiques. Ce sort doit être d'au moins 1 niveau inférieur au niveau de sortilège le plus élevé possible
+{s:APG}'''[[Moine]].''' Ajouter +1/4 à la [[Moine#RESERVEDEKI|réserve de ki]] du moine.  
+Les moines humains, qui recherchent la paix et la discipline parfaite, se tiennent souvent à l’écart de la société. Beaucoup les admirent mais seuls les plus dévoués possèdent assez de lucidité d’esprit et de sang froid pour maîtriser leurs techniques.
 
-'''Rôdeur.''' Les humains se donnent pour défi de vaincre toutes sortes de proies, ce qui conduit bon nombre d’entre eux à devenir des chasseurs expérimentés et des traqueurs de bêtes ou d’autres cibles encore plus dangereuses. Avec le temps, de nombreux [[rôdeur|rôdeurs]] humains en viennent à préférer la compagnie des animaux à celle des autres humains.\
-''Bonus de classe de prédilection alternatif.'' Ajouter +1 point de vie ou +1 point de [[compagnons animaux#COMPETENCES|compétence]] au [[compagnons animaux|compagnon animal]] du [[rôdeur]]. S’il change de compagnon, le nouveau bénéficie aussi de ces points supplémentaires. 
+{s:AO}'''[[Occultiste]].''' Le personnage gagne 1/6 d’un nouveau [[occultiste#POUVOIRSDEFOCALISATION|pouvoir de focalisation]].
 
-'''Roublard.''' Les [[roublard|roublards]] humains, à l’ambition souvent démesurée, viennent à bout de tous les obstacles pour obtenir ce qu’ils désirent. Qu’il s’agisse d’assassins sans scrupules ou de gentlemen cambrioleurs, rares sont ceux qui peuvent résister aux charmes et aux mensonges de ces [[roublard|roublards]] bien déterminés.\
-''Bonus de classe de prédilection alternatif.'' L’humain obtient +1/6 d’un nouveau [[talents|talent]].
+{s:APG}'''[[Oracle]].''' L’oracle apprend un [[liste des sorts de prêtres|sort d’oracle]] de plus. Ce sort doit être d’au moins un niveau de moins que le plus puissant qu’il connaît.  
+Les oracles humains utilisent diverses méthodes religieuses pour faire connaître la nature de leur mystère et le regard qu’ils portent sur le monde. Pour accomplir leur art, ils font parfois appel à des agents choisis en fonction de vérités mystérieuses.
+ 
+{s:APG}'''[[Paladin]].''' Ajouter +1 à la [[Résistance (capacité)|résistance]] aux énergies du [[paladin]] pour un type d’énergie (maximum +10).  
+Les humains qui aspirent à des idéaux héroïques, ceux qui désirent défendre leurs pairs de manière noble et ceux qui sont simplement exaltés par les valeurs de l’honneur et de la justice se tournent souvent vers la classe de [[paladin]]. Bien qu’il s’agisse d’une voie difficile, qui se termine souvent par un sacrifice de soi, les [[paladin|paladins]] humains chargent toujours en première ligne lors de quasiment toutes les croisades à l’encontre des forces du mal.
 
-'''Sanguin.''' Augmente le nombre de rounds de rage sanguine quotidiens de 1.
+'''[[Pistolier]].''' Le pistolier gagne 1/4 de point d’[[Pistolier#AUDACE|audace]] de plus.
 
-'''Scalde.''' Ajout d’un sort de la [[Liste des sorts de bardes|liste de scalde]] aux sorts connus de celui-ci. Ce sort doit être d’au moins un niveau de moins que le sort de plus niveau qu’il connaît.
+{s:APG}'''[[Prêtre]].''' Ajouter +1 aux tests de [[NLS]] visant à percer la [[RM|résistance à la magie]] des [[type extérieur|Extérieurs]].  
+Les humains croient facilement en des idéaux qui les dépassent et se rassemblent en des religions de toutes tailles. Ils développent souvent des connexions personnelles avec les [[++Golarion.religions et philosophies|divinités]] et incarnent les traits et les puissances qu’ils idéalisent.
 
-'''Sorcière.''' Le désir de contrôle des humains sur le monde qui les entoure peut parfois les mener sur des voies mystérieuses et potentiellement dangereuses, comme celle de la [[sorcière]] recluse.\
-''Bonus de classe de prédilection alternatif.'' Ajouter un sort issu de la [[liste des sorts de sorcière]] au [[familiers|familier]] de la [[sorcière]]. Ce sort ne peut pas appartenir au plus haut niveau de sorts auquel la sorcière a accès. Si la sorcière vient à remplacer son familier, le nouveau familier connaît ces sorts en bonus.
+{s:MCA}'''[[Prêtre combattant]].''' Ajout de 1/6 d’un nouveau [[Dons#DONCOMBAT|don de combat]] supplémentaire.
 
-'''Tueur.''' Ajout de 1/6 d’un nouveau [[Talents (tueur)|talent]] de [[tueur]].
+{s:AO}'''[[Psychiste]].''' Le personnage ajoute un sort de la [[Sorts de psychiste|liste de sort de psychiste]] à son répertoire de sorts connus. Ce sort doit être au minimum, d’un niveau de moins que le niveau de sort de psychiste le plus élevé qu’il est capable de lancer.
 
-{s:Col-Fin}{s:Ligne-Fin}
+{s:APG}'''[[Rôdeur]].''' Ajouter +1 [[pv|point de vie]] ou +1 [[Compétences#ACQUERIR|rang de compétence]] au [[compagnons animaux|compagnon animal]] du rôdeur. S’il change de compagnon, le nouveau bénéficie aussi de ces points supplémentaires.  
+Les humains se donnent pour défi de vaincre toutes sortes de proies, ce qui conduit bon nombre d’entre eux à devenir des chasseurs expérimentés et des traqueurs de bêtes ou d’autres cibles encore plus dangereuses. Avec le temps, de nombreux [[rôdeur|rôdeurs]] humains en viennent à préférer la compagnie des animaux à celle des autres humains.
 
-===Bonus alternatifs de classe de prédilection des classes occultes===
-{s:AO}
-Sans véritables traditions sur lesquelles baser leur compréhension de
-l’occulte, les humains dotés de talents psychiques rejoignent souvent des
-cultes étranges pour développer leur don. D’autres se plongent seuls dans
-l’étude, rassemblant des écrits à la véracité discutable sur divers sujets
-occultes. Un grand nombre d’humains sont fascinés par le thème occulte
-même s’ils ne s’avèrent pas particulièrement sensibles aux phénomènes
-psychiques et ils peuvent rapidement respecter et suivre quiconque maîtrise
-même le plus simple des pouvoirs de magie psychique. Les humains qui
-gagnent des niveaux dans les [[Progression des personnages#CLASSEDEPREDILECTION|classes de prédilection]] indiquées ci-dessous
-peuvent choisir les options suivantes :
+{s:APG}'''[[Roublard]].''' L’humain obtient +1/6 d’un nouveau [[talents|talent]].  
+Les roublards humains, à l’ambition souvent démesurée, viennent à bout de tous les obstacles pour obtenir ce qu’ils désirent. Qu’il s’agisse d’assassins sans scrupules ou de gentlemen cambrioleurs, rares sont ceux qui peuvent résister aux charmes et aux mensonges de ces roublards bien déterminés.
 
-{s:Ligne}{s:Col|6}
-'''Cinétiste'''. le personnage acquiert 1/6 du don [[Talent sauvage supplémentaire]].
+{s:MCA}'''[[Sanguin]].''' Augmente le nombre de rounds de [[Sanguin#RAGESANGUINE|rage sanguine]] quotidiens de 1.
 
-'''Hypnotiseur'''. le personnage augmente de 1/3 point son bonus d’[[hypnotiseur#EGOIMPOSANT|ego imposant]] (jusqu’à une augmentation maximale de +2).
+{s:MCA}'''[[Scalde]].''' Ajout d’un sort de la [[Liste des sorts de bardes|liste de scalde]] aux sorts connus de celui-ci. Ce sort doit être d’au moins un niveau de moins que le sort de plus niveau qu’il connaît.
 
-'''Médium'''. quand il acquiert un [[médium#TABOU|tabou]], le [[médium]] peut utiliser l’[[médium#ACCÈSDEPUISSANCESPIRITUELLE|accès de puissance spirituelle]] sans subir d’[[médium#ESPRIT|influence]] 1/4 fois de plus par jour.
+{s:APG}'''[[Sorcière]].''' Ajouter un sort issu de la [[liste des sorts de sorcière]] au [[familiers|familier]] de la sorcière. Ce sort ne peut pas appartenir au plus haut niveau de sorts auquel la sorcière a accès. Si la sorcière vient à remplacer son familier, le nouveau familier connaît ces sorts en bonus.  
+Le désir de contrôle des humains sur le monde qui les entoure peut parfois les mener sur des voies mystérieuses et potentiellement dangereuses, comme celle de la sorcière recluse.
 
-{s:Col-fin}{s:Col|6}
-'''Occultiste'''. le personnage gagne 1/6 d’un nouveau [[occultiste#POUVOIRSDEFOCALISATION|pouvoir de focalisation]].
+{s:AO}'''[[Spirite]].''' Le personnage octroie un [[Compétences#ACQUERIR|rang de compétence]] ou un [[pv|point de vie]] à son [[Fantômes (Spirite)|fantôme]].
 
-'''Psychiste'''. le personnage ajoute un sort de la [[Sorts de psychiste|liste de sort de psychiste]] à son répertoire de sorts connus. Ce sort doit être, au minimum, d’un niveau de moins que le niveau de sort de psychiste le plus élevé qu’il est capable de lancer.
-
-'''Spirite'''. le personnage octroie un rang de [[compétences|compétence]] ou un point de vie à son [[Fantômes (Spirite)|fantôme]].
-
-{s:Col-Fin}{s:Ligne-Fin}
+{s:MCA}'''[[Tueur]].''' Ajout de 1/6 d’un nouveau [[Talents (tueur)|talent de tueur]].
+</td></tr></table>
 
 ===Nouvelles règles raciales===
-{s:mr}Voici les options accessibles aux humains, d’autres races adaptées peuvent s’en servir si le MJ donne son accord.
+{s:MR}Voici les options accessibles aux humains, d’autres races adaptées peuvent s’en servir si le MJ donne son accord.
 ====Dons====
 Ces dons sont accessibles aux humains :
 <center>
@@ -277,8 +260,8 @@ Ces archétypes raciaux sont accessibles aux humains :
 
 ====Équipement====
 Les humains ont accès à l’équipement suivant :
-* [[Animaux, montures et leur équipement#Fouet de dressage|Fouet de dressage]]
-* [[Animaux, montures et leur équipement#Harnachement de dressage|Harnachement de dressage]]
+* [[Fouet de dressage (objet)|Fouet de dressage]]
+* [[Harnachement de dressage (objet)|Harnachement de dressage]]
 
 {s:col-fin}{s:col|6}
 ====Objets magiques====
@@ -298,4 +281,5 @@ Ces sorts sont réservés aux humains :
 * '''''[[Malédiction du vieux loup de mer]]''''' ''(MR)'' ([[Druide|Dru 5]], [[Hypnotiseur|Hyp 4]], [[Sorcière|Sor 5]]). Maudit une créature qui devient alors fiévreuse en permanence et chancelante si elle est proche de l'eau.
 * '''''[[Sphère de protection]] (M)''''' ''(MR)'' ([[Ensorceleur|Ens]]/[[Magicien|Mag 3]]). Créé une sphère protectrice autour du personnage, lui conférant un abri amélioré.
 * '''''[[Tâche noire]] (Y)''''' ''(MR)'' ([[Druide|Dru 7]], [[Sorcière|Sor 7]]). Marque la cible qui a alors peur de l'eau et attire la haine des créatures aquatiques.
+
 {s:col-fin}{s:ligne-fin}

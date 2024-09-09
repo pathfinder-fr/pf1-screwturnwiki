@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Gnome
 Title: Les gnomes
-LastModified: 2023-02-01 17:52
+LastModified: 2024-09-04 22:41
 Categories:
   - 'Race'
   - 'Règle officielle'
@@ -9,203 +9,208 @@ Categories:
   - 'Src Manuel des joueurs - Règles avancées'
   - 'Src Manuel des races'
 ---
-{s:MenuRaces}
-===Présentation===
-<div style="background-color: #fff; float: right; padding: 0 0 12px 12px">{toc}</div> ''L’histoire des gnomes commence dans le mystérieux royaume des créatures féeriques, un endroit où les couleurs sont plus vives, les étendues naturelles plus sauvages et les émotions plus primaires. Pour des raisons inconnues, les anciens gnomes ont dû fuir ce royaume il y a bien longtemps et sont venus se réfugier dans ce monde. Malgré cet exode, les gnomes n’ont jamais complètement renoncé à leurs racines féeriques et ne se sont jamais adaptés entièrement à la société des mortels. 
+{s:MenuRaces}<div style="background-color: #fff; float: right; padding: 0 0 8px 8px">{toc}</div>{s:MR}Les gnomes sont de lointains cousins des fées et l’histoire dit qu’à une époque, ils vivaient dans leur mystérieux royaume, un endroit où les couleurs sont plus vives, la nature plus sauvage et les émotions plus primitives. Des forces inconnues ont chassé leurs ancêtres de ce monde il y a bien longtemps et les ont obligés à chercher refuge sur Golarion mais, malgré tout, les gnomes n’ont jamais vraiment abandonné leurs racines et ne sont pas tout à fait adaptés à la culture des mortels. Ce ne sont plus vraiment des fées, mais leur héritage transparaît dans leurs pouvoirs magiques innés, leur nature capricieuse et leur vision du monde et de la vie.
 
-C’est sans doute pour cela qu’aux yeux des autres races, ils restent des étrangers des plus étranges.''
+Les gnomes ont les mêmes soucis et les mêmes motivations que les individus des autres races, mais ils se laissent souvent aller à des désirs et des passions que les autres trouvent, au Gnomes mieux, excentriques, au pire complètement absurdes. Un gnome est capable de risquer sa vie pour goûter la nourriture posée sur la table d’un géant, de descendre au fond d’un puits juste parce que ce sera l’endroit le plus profond qu’il n’a jamais atteint ou d’aller raconter une blague à un dragon. Et pour lui, ce sont des objectifs aussi nobles que de chercher à créer un nouveau sort, d’amasser des richesses ou d’éradiquer des forces maléfiques. Ces actes, apparemment impulsifs et irréfléchis, ne sont pas une norme universelle chez les gnomes, mais ils sont assez courants pour que tout le monde considère leur race comme impétueuse et un peu dérangée.
 
-<div class="presentation arrondi" style="clear: right">
-{s:APG}
-Les gnomes sont des individus excentriques. Commettre des bêtises fait partie de leur mode de vie, ce qui leur
-permet d’utiliser la dérision pour déclencher l’hilarité et de désarçonner leurs adversaires suffisamment longtemps pour
-pouvoir leur jouer de drôles de tours. Les gnomes adorent la magie et la musique mais aussi l’artisanat, les mécanismes
-complexes et le fait de créer des choses de leurs propres mains. Chaque gnome, quelle que soit sa passion, s’y investit
-corps et âme. Un gnome obsédé et absorbé par un sujet parvient rarement à penser à autre chose, qu’il préfère vivre
-de nouvelles expériences chez lui ou en parcourant dans le vaste monde.
+Comme les gnomes sont en plus tout petits, qu’ils ont des cheveux aux couleurs éclatantes et qu’ils se moquent de l’opinion des autres races, ces dernières les considèrent comme des êtres étranges. Et les gnomes s’étonnent aussi de l’attitude des autres races civilisées. Les gnomes sont aussi étonnés de voir que les humains et les elfes partagent de nombreux points communs que de remarquer qu’eux présentent beaucoup de différences avec ces deux races. D’ailleurs, les gnomes surprennent souvent leurs alliés en traitant tous ceux qui ne sont pas des gnomes comme une même race générique de non-gnomes.
 
-Mus par leur héritage féerique, de nombreux gnomes aiment les endroits sauvages où leurs cousins fées se
-rassemblent. Cependant, de plus en plus de gnomes quittent ces lieux pour les villes où leur curiosité innée
-et leur amour de la création les incitent à s’intéresser au commerce, à l’artisanat et aux ateliers où ils peuvent étudier et promouvoir leurs dernières découvertes. Ces gnomes-là possèdent généralement des traits raciaux bien différents de ceux qui ont été élevés au milieu des rochers et des arbres.
+<div class="presentation arrondi">
+{s:APG}Les gnomes sont des individus excentriques. Commettre des bêtises fait partie de leur mode de vie, ce qui leur permet d’utiliser la dérision pour déclencher l’hilarité et de désarçonner leurs adversaires suffisamment longtemps pour pouvoir leur jouer de drôles de tours. Les gnomes adorent la magie et la musique mais aussi l’artisanat, les mécanismes complexes et le fait de créer des choses de leurs propres mains. Chaque gnome, quelle que soit sa passion, s’y investit corps et âme. Un gnome obsédé et absorbé par un sujet parvient rarement à penser à autre chose, qu’il préfère vivre de nouvelles expériences chez lui ou en parcourant dans le vaste monde.
+
+Mus par leur héritage féerique, de nombreux gnomes aiment les endroits sauvages où leurs cousins fées se rassemblent. Cependant, de plus en plus de gnomes quittent ces lieux pour les villes où leur curiosité innée et leur amour de la création les incitent à s’intéresser au commerce, à l’artisanat et aux ateliers où ils peuvent étudier et promouvoir leurs dernières découvertes. Ces gnomes-là possèdent généralement des traits raciaux bien différents de ceux qui ont été élevés au milieu des rochers et des arbres.
 </div>
 
-'''Description physique.''' Les gnomes figurent parmi les races de base les plus petites : ils ne font généralement pas beaucoup plus d’un mètre de hauteur. La majorité des gnomes ont des cheveux de couleur vive ; on y retrouve l’orange flamboyant des feuilles automnales, le vert foncé des forêts printanières et les teintes riches, rouges et pourpres, des fleurs sauvages. Leur couleur de peau varie du brun terreux au rose, apparemment sans tenir compte des liens familiaux. Les gnomes possèdent des muscles faciaux très élastiques et beaucoup d’entre eux ont des bouches et des yeux extrêmement grands, ce qui leur donne parfois une apparence effrayante ou étonnante, c’est selon.
+'''Description physique.''' Les gnomes font partie des races communes les plus petites et ne mesurent généralement pas plus de 90 centimètres. Mais en dépit de leur petite taille, ils sont très résistants et bien moins faibles que ne le croient bon nombre de leurs ennemis. Leur stature réduite les empêche de se déplacer rapidement, mais ils s’entraînent de manière à en tirer parti quand ils affrontent des créatures bien plus grandes qu’eux.
 
-'''Société.''' À l’inverse des autres races, les gnomes ne s’organisent généralement pas en structures sociales classiques. Ces créatures fondamentalement fantasques voyagent souvent seules ou avec des compagnons de passage et cherchent sans cesse à vivre de nouvelles expériences, toujours plus excitantes. Les relations qu’ils forment durent rarement, que ce soit entre gnomes ou avec des individus d’une autre race. Cependant, c’est avec une grande passion, voire avec une grande dévotion, qu’ils s’adonnent à un artisanat, à une profession ou encore à une collection. Les gnomes masculins éprouvent un étrange attrait pour les chapeaux et autres couvre-chefs inhabituels alors que les femmes gnomes arborent fièrement des coiffures complexes et excentriques.
+La pigmentation des gnomes varie tellement que beaucoup de gens pensent qu’ils utilisent des teintures et des illusions pour changer la couleur de leur peau et de leurs cheveux. Pourtant, même s’ils ne rechignent pas à faire usage des produits cosmétiques (et cherchent parfois à changer leur apparence, juste pour voir à quel point ils ont l’air différent), leurs teintes naturelles couvrent tout le spectre de l’arc-enciel. Leurs cheveux ont souvent des couleurs vives comme l’orange flamboyant des feuilles d’automne, le vert vif d’une forêt au printemps ou les rouges et violets profonds des fleurs sauvages. De même, leur peau va du brun terreux au rose floral et il existe des gnomes à la peau noire, bleu pastel ou même verte. La couleur d’un gnome ne dépend pas de son ascendance, les teintes des parents et de la famille n’ayant aucune influence sur celle du gnome.
 
-'''Relations.''' Les gnomes éprouvent quelques difficultés à établir des relations avec les autres races, à la fois sur le plan émotionnel et sur le plan physique. L’humour gnome ne passe pas bien à la traduction et semble méchant ou dénué de sens aux autres races. De leur côté, les gnomes ont tendance à voir les individus des races plus grandes comme des géants stupides et lents. Ils s’entendent assez bien avec les halfelins et les humains mais adorent jouer des tours aux nains et aux demi-orques qui, selon eux, ont vraiment besoin de se dérider un peu. Ils éprouvent du respect pour les elfes mais la lenteur avec laquelle les individus de cette race prennent des décisions les exaspère. Selon les gnomes, l’action vaut toujours mieux que l’inaction. La plupart d’entre eux emportent plusieurs longs projets inachevés au cours de chacun de leurs voyages, histoire de ne pas s’ennuyer pendant les moments creux.
+Les caractéristiques faciales des gnomes sont très variables et leurs proportions correspondent rarement aux normes des autres races humanoïdes. Beaucoup ont des yeux et une bouche disproportionnés, ce qui est déroutant ou époustouflant, selon les individus. D’autres ont des traits minuscules, perdus dans le vide qui constitue le reste de leur visage, et d’autres encore ont une toute petite bouche pincée et un minuscule nez retroussé surmonté d’yeux d’une largeur effarante. Les gnomes sont rarement fiers ou honteux de leur physique, mais les individus des autres races se concentrent souvent sur leur caractéristique la plus remarquable quand ils les insultent ou les flattent.
 
-'''Alignement et religion.''' Les gnomes sont des plaisantins impulsifs dont il est parfois difficile de comprendre les buts ou les méthodes, mais ils ont généralement bon cœur. Ils laissent souvent éclater leurs émotions de manière vive mais ils retrouvent facilement leur calme au sein de la nature. Les gnomes sont généralement d’[[alignement]] [[NB|Neutre Bon]] et se tournent souvent vers les divinités qui accordent de l’importance à l’individualisme et à la nature.
+'''Société.''' Contrairement à la majorité des races, les gnomes ne possèdent pas de structure sociale classique. Il est très rare de trouver une ville gnome et les royaumes gnomes sont presque inconnus. De plus, les gnomes ne se regroupent pas entre eux dans un même quartier, même quand ils sont nombreux à vivre parmi d’autres races. Il arrive que l’on promulgue des lois qui exigent la création d’un « quartier gnome » pour contrer leur impact potentiel sur la société ou que les pressions sociales poussent tous les non gnomes à déménager à l’écart d’une zone à forte concentration gnome, mais, si on les laisse faire, les gnomes se répartissent de façon homogène dans les sociétés qui le leur permettent.
 
-'''Aventuriers.''' Leur passion pour les voyages pousse naturellement les gnomes à partir à l’aventure, ce qu’ils font généralement pour vivre de nouvelles expériences : rien n’est plus excitant que les innombrables dangers auxquels les aventuriers doivent faire face. Les gnomes compensent leur faiblesse physique par un penchant marqué pour la magie des [[ensorceleur|ensorceleurs]] ou la musique des [[barde|bardes]].
+Pourtant, même si les gnomes deviennent des membres ordinaires d’une communauté, ce n’est qu’en tant que groupe, chaque individu étant toujours en mouvement. Ce sont des créatures volages qui voyagent seules ou avec des compagnons temporaires, toujours en quête de nouvelles expériences plus excitantes les unes que les autres. Ils tissent rarement des relations durables, que ce soit avec des gnomes ou avec les membres des autres races, et préfèrent s’adonner à un artisanat, une profession ou une collection avec une passion qui frise le zèle religieux. Quand un gnome s’installe dans une région ou reste longtemps avec un groupe, c’est presque toujours parce que cela lui donne un avantage dans l’exercice de sa vocation ou de son obsession.
+
+Même si les gnomes ont un background très varié et n’ont pas de foyer unificateur, ils possèdent certaines caractéristiques culturelles communes. Les hommes sont curieusement attirés par les chapeaux et les couvre-chefs les plus étranges et portent souvent les plus chers et les plus insolites qu’ils puissent s’offrir (et qu’ils peuvent porter sans rencontrer trop de problèmes dans l’exercice de leur métier). Les femmes se couvrent rarement la tête, mais portent fièrement des coiffures élaborées et extravagantes, qui incluent des peignes incrustés de pierreries et des tiares.
+
+'''Relations.''' Les gnomes ont du mal à interagir avec les autres races, que ce soit sur le plan émotionnel ou physique. Ce qu’ils trouvent étrange chez les autres races, c’est qu’elles les trouvent étranges, eux, ce qui les empêche de trouver un terrain d’entente sur lequel bâtir des relations et une compréhension mutuelle. Quand deux gnomes se rencontrent, ils partent généralement du principe qu’ils peuvent arriver à un accord mutuellement bénéfique, même si leurs croyances et leurs traditions sont très différentes. Et même s’ils n’y parviennent pas, ils continuent à se chercher des points communs. Comme les membres des autres races n’arrivent pas à faire le même effort vis-à-vis des gnomes ou ne veulent pas le faire, ceux-ci sont frustrés ou confus.
+
+Ce sont souvent les liens très étroits que les gnomes entretiennent avec un vaste éventail d’idées apparemment sans rapport entre elles qui empêchent les autres races de bâtir de bonnes relations avec eux. Par exemple, l’humour gnome se compose de blagues physiques, de surnoms qui riment, mais n’ont aucun sens et de tentatives visant à convaincre quelqu’un de la véracité d’un mensonge éhonté qui défie toute crédibilité. Les gnomes trouvent tout cela incroyablement drôle, mais les autres races estiment souvent que leurs farces sont méchantes ou dépourvues de sens, ainsi les gnomes considèrent à leur tour les autres comme des géants mornes et ennuyeux.
+
+Les gnomes s’entendent relativement bien avec les halfelins et les humains qui, eux au moins, ont un certain humour traditionnel qui ressemble un peu au leur. Ils pensent que les nains et les demi-orques ont besoin d’un peu de légèreté et tentent de la leur apporter avec des farces, des blagues et des histoires invraisemblables que ces races maussades ne comprennent pas. Les gnomes respectent les elfes, mais ils sont frustrés de voir à quel point cette race à la longue espérance de vie est lente à prendre une décision. Pour les gnomes, il vaut toujours mieux agir que rester passif et beaucoup emportent avec eux de quoi travailler sur des projets essentiels pour s’occuper pendant les périodes de repos.
+
+'''Alignement et religion.''' Les gnomes sont des escrocs impulsifs aux motivations parfois insondables et aux méthodes tout aussi opaques, mais ils ont généralement le coeur bon. Ce qu’un non gnome peut assimiler à un acte maléfique n’est souvent qu’un effort pour faire découvrir de nouvelles expériences à des amis, même si ces expériences sont désagréables. Les gnomes sont sujets aux émotions poignantes et trouvent la paix dans le monde naturel. Ils sont généralement Neutres Bons et préfèrent vénérer les divinités qui privilégient la nature et l’individualisme comme Cayden Cailéan, Desna, Gozreh et Shélyn.
+
+'''Aventuriers.''' L’amour que les gnomes portent aux voyages, leur immense curiosité et leur désir de maîtriser des compétences et des langues étranges ou ésotériques en font des aventuriers nés. Ils partent souvent en exploration pour découvrir de nouveaux aspects de la vie, car rien n’est plus inattendu que les innombrables dangers qui guettent les aventuriers. Beaucoup de gnomes considèrent les aventures comme le seul objectif digne d’intérêt et cherchent à entreprendre toutes sortes d’expéditions pour le simple plaisir d’y participer. D’autres veulent découvrir des connaissances ou des objets perdus en rapport avec leur vocation et ils sont persuadés qu’ils se trouvent seulement dans les trésors des dragons ou les vieilles ruines, c’est pourquoi des gnomes qui se disent boulangers ou tisserands sont parfois des aventuriers aussi chevronnés que les gens qui se présentent comme mages ou comme éclaireurs.
+
+Les gnomes ont une force physique bien inférieure à celle de nombreuses races. Ils considèrent cet aspect comme un simple élément qu’il leur faut prendre en compte. La plupart des aventuriers gnomes compensent par leur penchant pour la sorcellerie ou la musique des bardes, tandis que d’autres se tournent vers l’alchimie ou les armes exotiques pour gagner un léger avantage lors d’un conflit.
+
+'''Noms masculins.''' Abroshtor, Bastargre, Halungalom, Korlmnite, Poshment, Zarzuket, Zatqualmie.  
+'''Noms féminins.''' Besh, Fijit, Lini, Majet, Neji, Pai, Queck, Trig.
 
 ===Traits raciaux standards===
 <div class="presentation arrondi ombre espaceliste">
-{s:ligne}{s:col|6}
-* '''+2 [[Constitution]], +2 [[Charisme]], -2 [[Force]].''' Les gnomes sont faibles physiquement mais étonnamment résistants et leur attitude les rend agréables à côtoyer.
-* '''Petite taille.''' Les gnomes sont des créatures de [[taille P]]. Ils gagnent donc un bonus de taille de +1 à leur [[CA|classe d’armure]] et aux jets d’attaque, un malus de -1 à leur bonus de manœuvres offensives ([[BMO]]) et à leur degré de manœuvres défensives ([[DMD]]), ainsi qu’un bonus de taille de +4 aux tests de [[Discrétion]].
-* '''Vitesse lente.''' Les gnomes possèdent une [[vitesse de déplacement]] de base de 6 mètres (4 cases).
-* '''[[Vision nocturne]].''' Les gnomes peuvent voir deux fois plus loin que les humains dans des conditions de faible éclairage.
-* '''Entraînement défensif.''' Les gnomes reçoivent un bonus d’esquive de +4 à la [[CA]] contre les monstres du [[sous-type géant]].
-* '''Haine.''' {s:REFERENCE|HAINE}Les gnomes reçoivent un bonus de +1 aux [[jet dattaque|jets d'attaque]] contre les [[type humanoïde|humanoïdes]] des sous-types [[sous-type reptilien|reptilien]] et [[sous-type gobelinoïde|gobelinoïde]] grâce à un entraînement spécial contre ces ennemis qu'ils haïssent.
-
-{s:col-fin}{s:col|6}
-* '''Magie gnome.''' {s:REFERENCE|MAGIEGNOME}Les gnomes ajoutent +1 aux [[DD]] des [[jet de sauvegarde|jets de sauvegarde]] des sorts d'[[illusion|illusion]] qu’ils lancent. Les gnomes qui possèdent un [[Charisme]] égal ou supérieur à 11 possèdent également les pouvoirs magiques suivants : 1/jour – ''[[communication avec les animaux]]'', ''[[lumières dansantes]]'', ''[[prestidigitation]]'', et ''[[son imaginaire]]''. Le [[NLS|niveau de lanceur de sorts]] de ces pouvoirs est égal au niveau du gnome et leur [[DD]] est égal à 10 + le [[niveau de sort|niveau du sort]] + le modificateur de [[Charisme]] du gnome.
-* '''Obsession.''' {s:REFERENCE|OBSESSION}Les gnomes reçoivent un bonus racial de +2 à une compétence d’[[Artisanat]] ou de [[Profession]] de leur choix.
-* '''Résistance aux illusions.''' {s:REFERENCE|RESISTANCEAUXILLUSIONS}Les gnomes reçoivent un bonus racial de +2 aux [[jet de sauvegarde|jets de sauvegarde]] contre les sorts et les effets de type [[Illusion|illusion]].
+* '''+2 [[Constitution]], +2 [[Charisme]], -2 [[Force]].''' Les gnomes manquent de force physique, mais sont dotés d’une robustesse étonnante et possèdent une attitude naturellement agréable.
+* '''Taille P.''' Les gnomes sont des créatures de [[taille P]] et gagnent un bonus de taille de +1 à la [[CA]], un bonus de taille de +1 aux [[jet dattaque|jets d’attaque]], un malus de -1 au [[BMO]] et au [[DMD]] et un bonus de taille de +4 aux tests de [[Discrétion]].
+* '''Vitesse lente.''' Les gnomes ont une [[VD|vitesse de base]] de 6 mètres.
+* '''Vision nocturne.''' Les gnomes [[Vision nocturne (capacité)|voient deux fois plus loin]] que les humains en cas de faible luminosité.
+* '''Entraînement défensif.''' Les gnomes gagnent un bonus d’esquive de +4 à la [[CA]] contre les monstres de sous-type [[sous-type géant|géant]].
+* '''Magie gnome.''' Les gnomes ajoutent +1 au [[DD]] du [[jds|jet de sauvegarde]] de tous les sorts d’[[illusion]] qu’ils lancent. Les gnomes qui possèdent un [[Charisme]] de 11 ou plus gagnent les [[Pouvoirs magiques (capacité)|pouvoirs magiques]] suivants : ''[[communication avec les animaux]]'', ''[[lumières dansantes]]'', ''[[prestidigitation]]'', ''[[son imaginaire]]''. Le [[NLS]] de ces effets est égal au niveau de personnage du gnome. Leur DD est égal à 10 + niveau du sort + modificateur de Charisme du gnome.
+* '''Haine.''' Les gnomes reçoivent un bonus de +1 aux [[jet dattaque|jets d’attaque]] contre les créatures humanoïdes de sous-type [[sous-type reptilien|reptilien]] et [[sous-type gobelinoïde|gobelinoïde]] en raison de l’entraînement spécial qu’ils reçoivent contre ces ennemis haïs.
+* '''Résistance aux illusions.''' Les gnomes gagnent un bonus racial de +2 aux [[jds|jets de sauvegarde]] contre les sorts et effets d’[[illusion]].
 * '''Sens aiguisés.''' Les gnomes reçoivent un bonus racial de +2 aux tests de [[Perception]].
-* '''Armes familières.''' Les gnomes considèrent toutes les armes dont le nom comporte le mot « gnome » comme des [[arme de guerre|armes de guerre]].
-* '''Langues supplémentaires.''' Les gnomes connaissent automatiquement le [[Linguistique|commun]], le [[Linguistique|gnome]] et le [[Linguistique|sylvestre]]. Les gnomes qui possèdent une [[Intelligence]] élevée peuvent choisir d’[[Linguistique|autres langues]] parmi la liste suivante : [[Linguistique|draconien]], [[Linguistique|elfe]], [[Linguistique|géant]], [[Linguistique|gobelin]], [[Linguistique|nain]] et [[Linguistique|orque]].
+* '''Obsession.''' Les gnomes reçoivent un bonus racial de +2 aux tests d’un type d'[[Artisanat]] ou de [[Profession]] de leur choix.
+* '''Armes familières.''' Les gnomes considèrent toute arme qui porte la mention « gnome » dans son nom comme une [[arme de guerre]].
+* '''Langues.''' Les gnomes commencent le jeu en parlant le commun, le gnome et le sylvestre. Ceux qui possèdent une valeur d’[[Intelligence]] élevée peuvent apprendre d’autres langues tirées de la liste suivante : draconique, elfique, géant, gobelin, nain et orque.
 
-{s:col-fin}{s:ligne-fin}
 </div>
-
-
 
 ===Traits raciaux alternatifs===
 Les gnomes forment une race très diversifiée et très indépendante, c’est pourquoi ils montrent une grande variété au niveau de leurs capacités, de leurs opinions et de leurs styles. Les règles suivantes représentent un échantillon des traits qu’ils manifestent, souvent sans rapport avec leur héritage ou leur entraînement. Vous pouvez choisir les traits raciaux suivants au lieu des traits raciaux gnomes standards, mais consultez d’abord votre MJ.
-{s:Ligne}{s:Col|6}
-* {s:MR}'''Académicien.''' Certains gnomes sont plus attirés par les études académiques que les autres. Ceux qui possèdent ce trait gagnent un bonus de +2 à une unique compétence de [[Connaissances|Connaissances]]. ''Ce trait remplace obsession. ''
-* {s:MR}'''Don pour les poisons.''' Certains gnomes comprennent instinctivement le fonctionnement et l’usage des poisons. Ils gagnent un bonus racial de +2 aux jets de [[Vigueur]] contre les [[poisons]] et un bonus de +2 aux tests d’[[Artisanat|Artisanat (alchimie)]] pour en fabriquer. Le bonus aux jets de sauvegarde passe à +4 si le gnome s’empoisonne accidentellement en appliquant un [[poison]] ou en le préparant. ''Ce trait remplace résistance aux illusions et obsession.''
-* {s:MR}'''Espoir éternel.''' Les gnomes perdent rarement espoir et sont toujours persuadés qu’ils finiront par se tirer des situations les plus désespérées. Ceux qui possèdent ce trait racial reçoivent un bonus racial de +2 aux [[jet de sauvegarde|jets de sauvegarde]] contre les effets de [[peur]] et de désespoir. Une fois par jour, après avoir obtenu un 1 sur un d20, le gnome peut refaire son jet et utiliser le second résultat. ''Ce trait remplace entraînement défensif et haine.''
-* {s:MR}'''Explorateur.''' Beaucoup de gnomes sont bien plus désireux d’explorer le monde que de se perfectionner dans un talent ou de développer une vocation particulière. Ils gagnent un bonus racial de +2 aux tests d’[[Escalade|Escalade]] et aux tests avec une unique compétence de [[Connaissances|Connaissances]] de leur choix. ''Ce trait remplace haine et obsession.''
-* {s:MR}'''Gardien du monde naturel'''. Les gnomes doivent souvent protéger leur foyer contre des infestations surnaturelles ou pestilentielles. Grâce à leur entraînement spécial, ceux qui possèdent ce trait gagnent un bonus d’esquive à la [[CA]] de +2 contre les [[type aberration|aberrations]], les [[type vase|vases]] et les [[type vermine|vermines]] et un bonus de +1 aux [[jet dattaque|jets d’attaques]] contre ces mêmes créatures. ''Ce trait remplace entraînement défensif et haine.''
-* {s:MR}'''Ignoble magie.''' Les gnomes ajoutent +1 au [[DD]] du jet de sauvegarde de leurs sorts de [[nécromancie]]. Ceux qui possèdent une Sagesse de 11 ou plus gagnent aussi les pouvoirs magiques suivants : 1/jour – ''[[contact glacial]]'', ''[[détection du poison]]'', ''[[fatigue]]'' et [[sort Saignement|saignement]]. Le [[NLS]] de ces effets est égal au niveau du gnome et leur [[DD]] à 10 + niveau du sort + modificateur de Sagesse du gnome. ''Ce trait remplace magie gnome.''
-* {s:MR}'''Lié à la terre.''' Certains gnomes forgent des liens étroits avec un environnement, vestige de leurs origines féeriques. Ils gagnent un bonus d’esquive de +2 à la [[CA]] quand ils se trouvent dans un environnement spécifique choisi dans la liste des [[Rôdeur#ENVIRONEMENTDEPREDILECTION|environnements de prédilection du rôdeur]]. Il faut faire ce choix à la création du personnage et il est impossible d’en changer par la suite. ''Ce trait remplace entraînement défensif et haine.''
 
-{s:Col-Fin}{s:Col|6}
-* {s:MR}'''Linguiste magique.''' Les gnomes étudient les langues d’un point de vue ordinaire, mais aussi magique. Ceux qui possèdent ce trait racial gagnent un bonus de +1 au [[DD]] des jets de sauvegarde de leurs sorts du [[registre]] du langage et de ceux qui créent des glyphes, des symboles ou d’autres écrits magiques. Ils gagnent un bonus racial de +2 aux [[jet de sauvegarde|jets de sauvegarde]] contre ces mêmes sorts. Les gnomes qui possèdent un Charisme de 11 ou plus gagnent aussi les pouvoirs magiques suivants : 1/jour – ''[[compréhension des langages]]'', ''[[lecture de la magie]]'', ''[[message]]'' et ''[[signature magique]]''. Le [[NLS]] de ces effets est égal au niveau du gnome. ''Ce trait remplace magie gnome et résistance aux illusions.''
-* {s:MR}'''Maître rétameur.''' Les gnomes font des expériences avec toutes sortes d’objets mécaniques. Ceux qui possèdent ce trait racial gagnent un bonus de +1 aux tests de [[Sabotage]] et de [[Connaissances|Connaissances (ingénierie)]]. On considère qu’ils sont formés au maniement de toutes les armes qu’ils fabriquent eux-mêmes. ''Ce trait remplace entraînement défensif et haine.''
-* {s:MR}'''Polyglotte.''' Les gnomes adorent les langues et ils aiment apprendre toutes celles qu’ils découvrent. Ceux qui possèdent ce trait racial gagnent un bonus de +1 aux tests de [[Bluff]] et de [[Diplomatie]] et apprennent une langue de plus à chaque fois qu’ils gagnent un rang en [[Linguistique]]. ''Ce trait remplace entraînement défensif et haine.''
-* {s:MR}'''Pyromane.''' On considère que les gnomes qui possèdent ce trait sont d’un niveau de plus que la réalité quand ils lancent des sorts du [[registre|registre du feu]], quand ils utilisent des pouvoirs du [[domaine du Feu]], quand ils utilisent des pouvoirs du [[lignage élémentaire|lignage élémentaire de Feu]], quand ils utilisent une [[Mystère des flammes|révélation d’oracle des flammes]] ou quand ils déterminent les dégâts d’une [[Alchimiste#BOMBES|bombe d’alchimiste]] qui fait des dégâts de feu. Ce trait ne permet pas à un gnome d’accéder plus tôt que prévu à un pouvoir accordé à un niveau donné, il affecte seulement les pouvoirs dont le gnome dispose déjà sans lui. Les gnomes qui possèdent un Charisme de 11 ou plus gagnent aussi les pouvoirs magiques suivants : 1/jour – ''[[flammes]]'', ''[[illumination]]'', ''[[lumières dansantes]]'', ''[[prestidigitation]]''. Le [[NLS]] de ces effets est égal au niveau du gnome, les [[DD]] sont basés sur le Charisme. ''Ce trait remplace magie gnome et résistance aux illusions.''
-* {s:MR}'''Vision dans le noir.''' Certaines familles gnomes vivent dans les entrailles de la terre depuis si longtemps qu’elles ont complètement renoncé à la lumière et gagné la [[vision dans le noir]] à 18 mètres (12 {s:c}). ''Ce trait racial remplace vision nocturne et sens aiguisés.''
+__''Remplace « entraînement défensif » et « haine » :''__
+* '''Espoir éternel.''' Les gnomes perdent rarement espoir et sont toujours persuadés qu’ils finiront par se tirer des situations les plus désespérées. Ceux qui possèdent ce trait racial reçoivent un bonus racial de +2 aux [[jet de sauvegarde|jets de sauvegarde]] contre les effets de peur et de désespoir. Une fois par jour, après avoir obtenu un 1 sur un d20, le gnome peut refaire son jet et conserver le second résultat. Ce trait remplace entraînement défensif et haine.
+* '''Gardien du monde naturel.''' Les gnomes doivent souvent protéger leur foyer contre des infestations surnaturelles ou pestilentielles. Grâce à leur entraînement spécial, ceux qui possèdent ce trait gagnent un bonus d’esquive à la [[CA]] de +2 contre les [[type aberration|aberrations]], les [[type vase|vases]] et les [[type vermine|vermines]], ainsi qu'un bonus de +1 aux [[jet dattaque|jets d’attaque]] contre ces mêmes créatures. Ce trait remplace entraînement défensif et haine.
+* '''Lié à la terre.''' Certains gnomes forgent des liens étroits avec un environnement, vestige de leurs origines féeriques. Ils gagnent un bonus d’esquive de +2 à la [[CA]] quand ils se trouvent dans un environnement spécifique choisi dans la liste des [[Rôdeur#ENVIRONEMENTDEPREDILECTION|environnements de prédilection]] du rôdeur. Il faut faire ce choix à la création du personnage et il est impossible d’en changer par la suite. Ce trait remplace entraînement défensif et haine.
+* '''Maître rétameur.''' Les gnomes font des expériences avec toutes sortes d’objets mécaniques. Ceux qui possèdent ce trait racial gagnent un bonus de +1 aux tests de [[Connaissances]] (ingénierie) et de [[Sabotage]]. On considère qu’ils sont formés au maniement de toutes les armes qu’ils fabriquent eux-mêmes. Ce trait remplace entraînement défensif et haine.
+* '''Polyglotte.''' Les gnomes adorent les langues et ils aiment apprendre toutes celles qu’ils découvrent. Ceux qui possèdent ce trait racial gagnent un bonus de +1 aux tests de [[Bluff]] et de [[Diplomatie]] et apprennent une langue de plus à chaque fois qu’ils investissent un rang en [[Linguistique]]. Ce trait remplace entraînement défensif et haine.
 
-{s:Col-Fin}{s:Ligne-Fin}
-===Sous-types raciaux===
+__''Remplace « haine » et « obsession » :''__
+* '''Explorateur.''' Beaucoup de gnomes sont bien plus désireux d’explorer le monde que de se perfectionner dans un talent ou de développer une vocation particulière. Ils gagnent un bonus racial de +2 aux tests d’[[Escalade|Escalade]] et aux tests avec une unique compétence de [[Connaissances|Connaissances]] de leur choix. Ce trait remplace haine et obsession.
+
+__''Remplace « magie gnome » :''__
+* '''Ignoble magie.''' Les gnomes ajoutent +1 au [[DD]] du [[jds|jet de sauvegarde]] de leurs sorts de [[nécromancie]]. Ceux qui possèdent une [[Sagesse]] de 11 ou plus gagnent aussi les [[Pouvoirs magiques (capacité)|pouvoirs magiques]] suivants : 1/jour – ''[[contact glacial]]'', ''[[détection du poison]]'', ''[[fatigue]]'' et [[sort Saignement|saignement]]. Le [[NLS]] de ces effets est égal au niveau de personnage du gnome et leur DD à 10 + niveau du sort + modificateur de Sagesse du gnome. Ce trait remplace magie gnome.
+
+__''Remplace « magie gnome » et « résistance aux illusions » :''__
+* '''Linguiste magique.''' Les gnomes étudient les langues d’un point de vue ordinaire, mais aussi magique. Ceux qui possèdent ce trait racial gagnent un bonus de +1 au [[DD]] des [[jds|jets de sauvegarde]] de leurs sorts du [[registre]] du langage et de ceux qui créent des glyphes, des symboles ou d’autres écrits magiques. Ils gagnent un bonus racial de +2 aux jets de sauvegarde contre ces mêmes sorts. Les gnomes qui possèdent un [[Charisme]] de 11 ou plus gagnent aussi les [[Pouvoirs magiques (capacité)|pouvoirs magiques]] suivants : 1/jour – ''[[compréhension des langages]]'', ''[[lecture de la magie]]'', ''[[message]]'' et ''[[signature magique]]''. Le [[NLS]] de ces effets est égal au niveau de personnage du gnome. Ce trait remplace magie gnome et résistance aux illusions.
+* '''Pyromane.''' On considère que les gnomes qui possèdent ce trait sont d’un niveau de plus que la réalité quand ils lancent des sorts du [[registre]] du feu, quand ils utilisent des pouvoirs du [[domaine du Feu]], quand ils utilisent des pouvoirs du [[lignage élémentaire|lignage élémentaire du Feu]], quand ils utilisent une révélation du [[mystère des flammes]] ou quand ils déterminent les dégâts d’une [[Alchimiste#BOMBES|bombe d’alchimiste]] qui inflige des dégâts de feu. Ce trait ne permet pas à un gnome d’accéder plus tôt que prévu à un pouvoir accordé à un niveau donné, il affecte seulement les pouvoirs dont le gnome dispose déjà sans lui. Les gnomes qui possèdent un [[Charisme]] de 11 ou plus gagnent aussi les [[Pouvoirs magiques (capacité)|pouvoirs magiques]] suivants : 1/jour – ''[[flammes]]'', ''[[illumination]]'', ''[[lumières dansantes]]'', ''[[prestidigitation]]''. Le [[NLS]] de ces effets est égal au niveau de personnage du gnome, les [[DD]] sont basés sur le Charisme. Ce trait remplace magie gnome et résistance aux illusions.
+
+__''Remplace « obsession » :''__
+* '''Académicien.''' Certains gnomes sont plus attirés par les études académiques que les autres. Ceux qui possèdent ce trait gagnent un bonus de +2 à une unique compétence de [[Connaissances|Connaissances]]. Ce trait remplace obsession.
+
+__''Remplace « obsession » et « résistance aux illusions » :''__
+* '''Don pour les poisons.''' Certains gnomes comprennent instinctivement le fonctionnement et l’usage des poisons. Ils gagnent un bonus racial de +2 aux jets de [[Vigueur]] contre les [[poisons]] et un bonus de +2 aux tests d’[[Artisanat]] (alchimie) pour en fabriquer. Le bonus aux jets de sauvegarde passe à +4 si le gnome s’empoisonne accidentellement en appliquant un poison ou en le préparant. Ce trait remplace résistance aux illusions et obsession.
+
+__''Remplace « sens aiguisés » et « vision nocturne » :''__
+* '''Vision dans le noir.''' Certaines familles gnomes vivent dans les entrailles de la terre depuis si longtemps qu’elles ont complètement renoncé à la lumière et gagné la [[Vision dans le noir (capacité)|vision dans le noir]] à 18 mètres (12 {s:c}). Ce trait racial remplace vision nocturne et sens aiguisés.
+
+====Sous-types raciaux====
 Vous pouvez combiner plusieurs traits raciaux alternatifs pour créer une sous-race gnome ou une variante raciale, comme suit.
-{s:Ligne}{s:Col|6}
-* {s:MR}'''Gnomes de lave.''' Les gnomes de lave sont fascinés par la puissance du magma et vivent dans de grandes cavernes au coeur des volcans actifs. Même les autres gnomes les considèrent comme des gens dangereux, instables et colériques. Ils ont les traits alternatifs ''vision dans le noir'' et ''pyromane''.
-* {s:MR}'''Gnome mécanicien.''' Parfois, un gnome n’est pas le seul à se laisser obséder par un projet et il arrive que des familles entières se consacrent à un dessein si énorme qu’il faut plusieurs générations d’artisans pour le mener à bien. Ces projets prennent souvent la forme d’objets au mécanisme complexe ou parfois de bâtiments mécaniques entiers. Les gnomes nés dans les familles qui dédient leur vie à ces travaux sont appelés des gnomes mécaniciens. Ils ont les traits alternatifs ''académicien'' et ''maître rétameur''.
+* '''Gnomes de lave.''' Les gnomes de lave sont fascinés par la puissance du magma et vivent dans de grandes cavernes au coeur des volcans actifs. Même les autres gnomes les considèrent comme des gens dangereux, instables et colériques. Ils ont les traits alternatifs vision dans le noir et pyromane.
+* '''Gnome mécanicien.''' Parfois, un gnome n’est pas le seul à se laisser obséder par un projet et il arrive que des familles entières se consacrent à un dessein si énorme qu’il faut plusieurs générations d’artisans pour le mener à bien. Ces projets prennent souvent la forme d’objets au mécanisme complexe ou parfois de bâtiments mécaniques entiers. Les gnomes nés dans les familles qui dédient leur vie à ces travaux sont appelés des gnomes mécaniciens. Ils ont les traits alternatifs académicien et maître rétameur.
+* ''' Gnome sinistre'''. Les gnomes sinistres sont plus lunatiques, moins indulgents et souvent plus cruels que les autres. Leur lignée descend de souches féeriques inquiétantes et sanguinaires. Ils ne sont pas tous maléfiques, mais ils trouvent tous drôle de voir les autres souffrir et ils se désintéressent des activités joyeuses et colorées de leurs cousins plus enjoués. Les gnomes sinistres ont ignoble magie et don pour les poisons comme traits alternatifs.
+* '''Gnome voyageur.''' Ces gnomes sont nés lors d’un voyage, alors que leur famille vivait dans un chariot ou sur un bateau. Ils ont les traits alternatifs linguiste magique et soit explorateur, soit polyglotte.
 
-{s:Col-Fin}{s:Col|6}
-* {s:MR}''' Gnome sinistre'''. Les gnomes sinistres sont plus lunatiques, moins indulgents et souvent plus cruels que les autres. Leur lignée descend de souches féeriques inquiétantes et sanguinaires. Ils ne sont pas tous maléfiques, mais ils trouvent tous drôle de voir les autres souffrir et ils se désintéressent des activités joyeuses et colorées de leurs cousins plus enjoués. Les gnomes sinistres ont ''ignoble magie'' et ''don pour les poisons'' comme traits alternatifs.
-* {s:MR}'''Gnome voyageur.''' Ces gnomes sont nés lors d’un voyage, alors que leur famille vivait dans un chariot ou sur un bateau. Ils ont les traits alternatifs ''linguiste magique'' et soit ''explorateur'', soit ''polyglotte''.
 
-{s:Col-Fin}{s:Ligne-Fin}
 ===Bonus alternatifs de classe de prédilection===
-{s:MR}{s:APG}Les gnomes tirent parti de leur intelligence et de leur force de caractère pour surmonter les obstacles. Même s’ils sont généralement d’humeur joviale et d’un naturel tolérant, ils peuvent rapidement faire preuve de férocité si on les y pousse. ''Bonus de classe de prédilection alternatif.'' Au lieu de gagner un point de compétence ou un point de vie supplémentaire lorsqu'il gagne un nouveau niveau dans une [[Progression des personnages#CLASSEDEPREDILECTION|classe de prédilection]], un gnome peut choisir un autre avantage en fonction de sa [[Progression des personnages#CLASSEDEPREDILECTION|classe de prédilection]]. Les options qui suivent sont disponibles pour tous les gnomes ayant opté pour la classe indiquée comme [[Progression des personnages#CLASSEDEPREDILECTION|classe de prédilection]]. Sauf mention contraire, les bonus se cumulent à chaque niveau gagné dans la [[Progression des personnages#CLASSEDEPREDILECTION|classe de prédilection]].
+{s:MCA}Chacune de ces récompenses remplace celle que les joueurs obtenaient normalement en gagnant un niveau dans une [[Progression des personnages#CLASSEDEPREDILECTION|classe de prédilection]], à savoir 1 point de vie supplémentaire ou 1 rang de compétence supplémentaire. Contrairement à ces récompenses d’ordre générique, les récompenses alternatives se focalisent sur les spécificités de la classe et sur les tendances générales d’une race.
 
-{s:Ligne}{s:Col|6}
-'''Alchimiste.''' L'alchimie est l'une des vocations les plus respectées pour un gnome. En mêlant leur amour pour la magie et leur pratique à la théorie appliquée, cette carrière enveloppe tout un champ d'opportunité quotidienne s'ouvrant sur le domaine de la découverte.
-''Bonus de classe de prédilection alternatif.'' L’[[alchimiste]] ajoute +1/2 au nombre de [[alchimiste#BOMBES|bombes]] qu’il peut créer chaque jour. 
+Le personnage choisit son option de classe de prédilection quand il gagne un niveau. Ces avantages se cumulent toujours, sauf indication contraire.
 
-'''Arcaniste.''' Ajoute 1/6 au nombre de points que l’[[arcaniste]] obtient chaque jour dans son [[Arcaniste#RESERVOIRARCANIQUE | réservoir arcanique]].
+Enfin, à chaque fois que le personnage les choisit, nombre d’avantages alternatifs ajoutent seulement +1/2, +1/3, +1/4 ou +1/6 (au lieu de +1) à un jet ou à une aptitude de classe (comme un ajout au nombre de rages sanguines quotidiennes du sanguin ou au total de points de panache du bretteur). Quand le personnage applique cet avantage à un jet de dé, il arrondit toujours à l’inférieur (0 au minimum). Il devra donc en choisir certains à plusieurs reprises avant d’en tirer le moindre bénéfice.
 
-'''Barbare.''' Les [[barbare|barbares]] gnomes sont généralement associés à ceux ayant vécu depuis longtemps parmi les tribus de fées sauvages que tout aussi bien avec les bêtes féroces du règne animal, étant pour ainsi dire l'incarnation des esprits de la nature.
-''Bonus de classe de prédilection alternatif.'' Le [[barbare]] ajoute +1/2 à son [[Barbare#SENSDESPIEGES|sens des pièges]]. 
+Certaines options s’accompagnent d’une limite numéraire fixe, une fois cette limite atteinte, il ne sert plus à rien de choisir l’option qui n’a pas d’effet supplémentaire. Le personnage peut toujours choisir une récompense ordinaire quand il gagne un niveau dans sa classe de prédilection (à savoir 1 point de vie ou 1 rang de compétence supplémentaire).
 
-'''Barde.''' De nombreux gnomes sont des collectionneurs obsessifs d'histoires, de chansons et de blagues ; faisant d'eux des [[barde|bardes]] réputés pour leur vaste répertoire, leur énergétique prestation et ainsi que leur tissage de la magie dans leurs performances.
-''Bonus de classe de prédilection alternatif.'' Le [[barde]] ajoute +1 à son nombre quotidien de rounds de [[barde#REPRESENTATIONBARDIQUE|représentations bardiques]]. 
+{s:APG}'''Les aventuriers gnomes.''' Les gnomes tirent parti de leur intelligence et de leur force de caractère pour surmonter les obstacles. Même s’ils sont généralement d’humeur joviale et d’un naturel tolérant, ils peuvent rapidement faire preuve de férocité si on les y pousse.
 
-'''Bretteur.''' Chaque jour, le bretteur peut utiliser charmante vie 1/4 de fois de plus.
+{s:AO}'''Les gnomes occultes.''' Les supercheries mentales sont pratiquées de manière naturelle par les gnomes. Leur nature même de gnome les incite à apprécier la magie psychique et ses pratiques obscures et décalées. Chaque classe occulte possède des qualités qui plaisent aux gnomes, que ce soit le don inné des cinétistes pour la magie ou la fascination des occultistes pour les colifichets.
 
-'''Chaman.''' Gain de 1/6 d’un nouveau maléfice de [[chaman]].
+<table width="100%"><tr><td width="49%">
+{s:APG}'''[[Alchimiste]].''' L’alchimiste ajoute +1/2 au nombre de [[alchimiste#BOMBES|bombes]] qu’il peut créer chaque jour.  
+L'alchimie est l'une des vocations les plus respectées pour un gnome. En mêlant leur amour pour la magie et leur pratique à la théorie appliquée, cette carrière enveloppe tout un champ d'opportunité quotidienne s'ouvrant sur le domaine de la découverte.
 
-'''Chasseur.''' Confère une RD 1/magie au [[compagnon animal]] du [[chasseur]]. À chaque fois que le chasseur gagne un niveau, la [[RD]] augmente de 1/2 (pour un maximum de RD 10/magie). Si le chasseur remplace son compagnon animal, le nouveau bénéficie de cette RD.
+{s:MCA}'''[[Arcaniste]].''' Ajoute 1/6 au nombre de points que l’arcaniste obtient chaque jour dans son [[Arcaniste#RESERVOIRARCANIQUE | réservoir arcanique]].
 
-'''Chevalier.''' Bien que les [[chevalier|chevaliers]] gnomes sont rares, certains d'entre eux prêtent serment sous leur honneur et peuvent ainsi maîtriser un large éventail de tactiques pour défendre le peuple et les terres qu'ils aiment.
-''Bonus de classe de prédilection alternatif.'' Le chevalier ajoute 30 centimètres à sa [[VD|vitesse de base]] montée, ce qui n’a aucun effet au niveau des options de combat tant qu’il n’a pas choisi cette option à 5 reprises (ou un autre multiple de 5). S’il remplace sa monture, la nouvelle bénéficie aussi de ce bonus. 
+{s:APG}'''[[Barbare]].''' Le barbare ajoute +1/2 à son [[Barbare#SENSDESPIEGES|sens des pièges]].  
+Les barbares gnomes sont généralement associés à ceux ayant vécu depuis longtemps parmi les tribus de fées sauvages que tout aussi bien avec les bêtes féroces du règne animal, étant pour ainsi dire l'incarnation des esprits de la nature.
 
-'''Conjurateur.'''Les gnomes, ces bricoleurs invétérés à la créativité sans borne, prennent grand plaisir à concevoir et à façonner leur [[eidolon]]. Les serviteurs des [[conjurateur|conjurateurs]] gnomes ressemblent souvent à des constructions mécaniques ou à des créatures féeriques.
-''Bonus de classe de prédilection alternatif.'' Le [[conjurateur]] ajoute +1 pv à son [[eidolon]]. 
+{s:APG}'''[[Barde]].''' Le barde ajoute +1 à son nombre quotidien de rounds de [[barde#REPRESENTATIONBARDIQUE|représentations bardiques]].  
+De nombreux gnomes sont des collectionneurs obsessifs d'histoires, de chansons et de blagues ; faisant d'eux des bardes réputés pour leur vaste répertoire, leur énergétique prestation et ainsi que leur tissage de la magie dans leurs performances.
 
-'''Druide.''' Maintes gnomes sont intimement reliés à la terre et les forêts, revêtant ainsi le manteau druidique afin de rester en étroite communion avec les animaux et les esprits de la nature.
-''Bonus de classe de prédilection alternatif.'' Le [[druide]] gagne une [[résistance (capacité)|résistance élémentaire]] de 1 contre l’acide, le froid, l’électricité ou le feu. À chaque fois que le druide choisit cette récompense, sa résistance augmente de 1 pour le type d’énergie choisi (avec un maximum de +10 dans chaque type). 
+{s:MCA}'''[[Bretteur]].''' Chaque jour, le bretteur peut utiliser [[Bretteur#CHARMANTEVIE|charmante vie]] 1/4 de fois de plus.
 
-'''Enquêteur.''' L’enquêteur ajoute la formule d’un extrait issu de la liste de l’enquêteur à son livre de formules. Elle doit être d’au moins un niveau de moins que la formule de plus haut niveau qu’il connaît.
+{s:MCA}'''[[Chaman]].''' Gain de 1/6 d’un nouveau [[Chaman#MALEFICES|maléfice]] de chaman.
 
-'''Ensorceleur.''' Les pouvoirs profanes du [[lignage féerique]] apparaissent dans de nombreuses familles gnomes, même si on peut également rencontrer d’autres [[lignages]] chez les gnomes. La plupart des [[ensorceleur|ensorceleurs]] gnomes sont acceptés comme des êtres tout à fait normaux au sein de leur société mais ceux qui tirent leurs pouvoirs de sources maléfiques suscitent souvent la méfiance et le mépris.
-''Bonus de classe de prédilection alternatif.'' L’[[ensorceleur]] choisit un pouvoir de [[lignages]] accessible au niveau 1 et utilisable 3 fois par jour + modificateur de Charisme. Il peut l’utiliser 1/2 fois de plus par jour. 
+{s:MCA}'''[[Chasseur]].''' Confère une [[RD]] 1/magie au [[compagnon animal]] du [[chasseur]]. À chaque fois que le chasseur gagne un niveau, la RD augmente de 1/2 (pour un maximum de RD 10/magie). Si le chasseur remplace son compagnon animal, le nouveau bénéficie de cette RD.
 
-'''Guerrier.''' Les gnomes combattants sont extrêmement tenaces, désireux de prouver que même le plus petit combattant peut être un titan sur le champ de bataille.
-''Bonus de classe de prédilection alternatif.'' Le [[guerrier]] gagne un bonus de +1 au [[DMD]] quand il résiste à un [[Manoeuvres offensives#SALECOUP|sale coup]] ou une [[Manoeuvres offensives#SUBTILISATION|subtilisation]].
+{s:APG}'''[[Chevalier]].''' Le chevalier ajoute 30 centimètres à sa [[VD|vitesse de base]] montée, ce qui n’a aucun effet au niveau des options de combat tant qu’il n’a pas choisi cette option à 5 reprises (ou un autre multiple de 5). S’il remplace sa monture, la nouvelle bénéficie aussi de ce bonus.  
+Bien que les chevaliers gnomes sont rares, certains d'entre eux prêtent serment sous leur honneur et peuvent ainsi maîtriser un large éventail de tactiques pour défendre le peuple et les terres qu'ils aiment.
 
-'''Inquisiteur.''' Certains gnomes font un jour ou l'autre la rencontre avec l'hostilité du monde extérieur, spécialement celle venant des races impitoyables envers eux. De ce fait, certains choisissent d'enfiler le manteau de l'[[inquisiteur]] pour défendre leur peuple et de protéger leurs terres contre les âmes insensibles.
-''Bonus de classe de prédilection alternatif.'' L’[[inquisiteur]] ajoute un bonus de +1 à ses tests de [[Concentration]] quand il lance un sort d’inquisiteur. 
+{s:AO}'''[[Cinétiste]].''' Le personnage bénéficie d’un bonus de +1/2 aux tests de [[Bluff]], [[Diplomatie]], [[Intimidation]] et [[Psychologie]] effectués contre des créatures dont le [[Types de créatures|sous-type]] correspond à l’[[cinétiste#ÉLÉMENTDEPRÉDILECTION|élément de prédilection]] du cinétiste.
 
-{s:cs}{s:UI}'''Justicier'''. Gagne un bonus de +1/2 aux tests de [[Bluff]] pour proférer un mensonge qui serait vrai du point de vue de l'[[Justicier#DOUBLEIDENTITE|identité actuelle]] du justicier.
+{s:APG}'''[[Conjurateur]].''' Le conjurateur ajoute +1 [[pv]] à son [[Conjurateur#EIDOLON|eidolon]].  
+Les gnomes, ces bricoleurs invétérés à la créativité sans borne, prennent grand plaisir à concevoir et à façonner leur eidolon. Les serviteurs des conjurateurs gnomes ressemblent souvent à des constructions mécaniques ou à des créatures féeriques.
 
-'''Lutteur.''' Augmente d’1/4 le nombre de fois où le lutteur peut, chaque jour, utiliser flexibilité martiale.
+{s:APG}'''[[Druide]].''' Le druide gagne une [[Résistance (capacité)|résistance]] de 1 contre l’acide, le froid, l’électricité ou le feu. À chaque fois que le druide choisit cette récompense, sa résistance augmente de 1 pour le type d’énergie choisi (avec un maximum de +10 dans chaque type).  
+Maintes gnomes sont intimement reliés à la terre et les forêts, revêtant ainsi le manteau druidique afin de rester en étroite communion avec les animaux et les esprits de la nature.
 
-{s:Col-Fin}{s:Col|6}
-'''Magicien.'''La longue tradition magique des gnomes les amène souvent à se spécialiser dans les royaumes de l’illusion ou de la magie élémentaire. Les gnomes sont des historiens, des chercheurs et des savants respectés bien déterminés à repousser les limites des possibilités magiques et parvenant bien souvent à réaliser des avancées inédites.
-''Bonus de classe de prédilection alternatif.'' Le [[magicien]] choisit un pouvoir d’[[écoles de magie]] accessible au niveau 1 et utilisable 3 fois par jour + modificateur d’[[Intelligence]]. Il peut l’utiliser 1/2 fois de plus par jour. 
+{s:MCA}'''[[Enquêteur]].''' L’enquêteur ajoute la formule d’un extrait issu de la [[Liste des formules dalchimiste|liste de l’enquêteur]] à son livre de formules. Elle doit être d’au moins un niveau de moins que la formule de plus haut niveau qu’il connaît.
 
-'''Magus.''' ''Bonus de classe de prédilection alternatif.'' Le [[magus]] ajoute l’une des propriétés spéciales suivantes à la liste de celles qu’il peut donner à son arme en utilisant sa [[Magus#RESERVEMAGIQUE|réserve magique]] : [[gardienne (propriété)|gardienne]], [[spectrale (propriété)|spectrale]], [[miséricordieuse (propriété)|miséricordieuse]], [[enchaînement (propriété)|d’enchaînement]], [[vicieuse (propriété)|vicieuse]]; [[alliance (propriété)|d’alliance]], [[conductrice (propriété)|conductrice]], [[corrosive (propriété)|corrosive]], [[explosion corrosive (propriété)|d’explosion corrosive]], [[menaçante (propriété)|menaçante]]. Impossible de changer une propriété obtenue grâce à cette récompense. 
+{s:APG}'''[[Ensorceleur]].''' L’ensorceleur choisit un pouvoir de [[Ensorceleur#LIGNAGE|lignages]] accessible au niveau 1 et utilisable 3 fois par jour + modificateur de [[Charisme]]. Il peut l’utiliser 1/2 fois de plus par jour.  
+Les pouvoirs profanes du lignage féerique apparaissent dans de nombreuses familles gnomes, même si on peut également rencontrer d’autres lignages chez les gnomes. La plupart des ensorceleurs gnomes sont acceptés comme des êtres tout à fait normaux au sein de leur société mais ceux qui tirent leurs pouvoirs de sources maléfiques suscitent souvent la méfiance et le mépris.
 
-'''Moine.''' Les gnomes sont des individus hauts en couleurs, passionnés et flamboyants par nature. Ces traits de caractère transparaissent dans leur vision de la perfection physique et naturelle. Bon nombre d’entre eux utilisent donc des styles martiaux imprévisibles qui ressemblent plus à des danses improvisées qu’à des techniques maîtrisées à force de pratique.
-''Bonus de classe de prédilection alternatif.'' Le [[moine]] gagne un bonus de +1 aux tests d’[[Acrobaties]] qu’il peut faire en dépensant un point de [[Moine#RESERVEDEKI|réserve de ki]]. Le moine doit être au moins de niveau 5 avant de choisir cette récompense. 
+{s:APG}'''[[Guerrier]].''' Le guerrier gagne un bonus de +1 au [[DMD]] quand il résiste à un [[Manoeuvres offensives#SALECOUP|sale coup]] ou une [[Manoeuvres offensives#SUBTILISATION|subtilisation]].  
+Les gnomes combattants sont extrêmement tenaces, désireux de prouver que même le plus petit combattant peut être un titan sur le champ de bataille.
 
-'''Oracle.''' Les gnomes descendent d’anciens esprits féeriques, ce qui les prédispose naturellement aux dévotions oraculaires, à l’interprétation des signes venant de l’au-delà et à l’écoute des murmures des forces naturelles.
-''Bonus de classe de prédilection alternatif.'' L’[[oracle]] ajoute +1/2 à son niveau quand il détermine les effets de sa [[Oracle#MALEDICTIONDELORACLE|malédiction d’oracle]].
+{s:AO}'''[[Hypnotiseur]].''' Le personnage augmente de 1/3 le nombre d'[[hypnotiseur#INDUCTIONSDHYPNOTISEUR|inductions d’hypnotiseur]] qu’il peut utiliser chaque jour.
 
-'''Paladin.''' Les gnomes dotés d’un zèle religieux exceptionnel ou de la passion de protéger ceux qui les entourent deviennent parfois des [[paladin|paladins]]. La plupart d’entre eux trouvent leur aptitude à parler avec les animaux très utile, à la fois pour communiquer avec leur monture et pour pourchasser les mécréants.
-''Bonus de classe de prédilection alternatif.'' Le [[paladin]] ajoute +1/2 point de vie à son [[Paladin#IMPOSITIONDESMAINS|imposition des mains]], qu’il l’utilise pour soigner ou pour blesser.
+{s:APG}'''[[Inquisiteur]].''' L’inquisiteur ajoute un bonus de +1 à ses tests de [[concentration]] quand il lance un sort d’inquisiteur.  
+Certains gnomes font un jour ou l'autre la rencontre avec l'hostilité du monde extérieur, spécialement celle venant des races impitoyables envers eux. De ce fait, certains choisissent d'enfiler le manteau de l'inquisiteur pour défendre leur peuple et de protéger leurs terres contre les âmes insensibles.
 
-'''Pistolier.''' ''Bonus de classe de prédilection alternatif.'' Le [[pistolier]] met 5 minutes de moins (50 minutes de moins au maximum) pour réparer une arme à feu cassée grâce au don [[Création darmes à feu|Création d’armes à feu]]. 
+{s:cs}{s:UI}'''[[Justicier]].''' Gain d'un bonus de +1/2 aux tests de [[Bluff]] pour proférer un mensonge qui serait vrai du point de vue de l'[[Justicier#DOUBLEIDENTITE|identité actuelle]] du justicier.
 
-'''Prêtre.''' Les gnomes deviennent souvent les serviteurs des [[++Golarion.religions et philosophies|dieux]], en particulier envers les divinités de l'art, de la musique, de l'exploration,  de la découverte, et de la gaieté, témoignant leur ferveur pour la création avec un véritable zèle religieux.
-''Bonus de classe de prédilection alternatif.'' Le [[prêtre]] ajoute +1/2 point à sa [[Prêtre#CANALISATIONDENERGIE|canalisation d’énergie]] quand il soigne des créatures [[type animal|animales]], [[type fée|féeriques]] ou [[type plante|végétales]]. 
+{s:MCA}'''[[Lutteur]].''' Augmente d’1/4 le nombre de fois où le lutteur peut, chaque jour, utiliser [[Lutteur#FLEXIBILITEMARTIALE|flexibilité martiale]].
+</td><td width="1%">
+<td style="border-left:1px solid #4b3124" width="1%"></td>
+</td><td width="49%">
+{s:APG}'''[[Magicien]].''' Le magicien choisit un pouvoir d’[[Magicien#ECOLEDEMAGIE|écoles de magie]] accessible au niveau 1 et utilisable 3 fois par jour + modificateur d’[[Intelligence]]. Il peut l’utiliser 1/2 fois de plus par jour.  
+La longue tradition magique des gnomes les amène souvent à se spécialiser dans les royaumes de l’illusion ou de la magie élémentaire. Les gnomes sont des historiens, des chercheurs et des savants respectés bien déterminés à repousser les limites des possibilités magiques et parvenant bien souvent à réaliser des avancées inédites.
 
-'''Prêtre combattant.''' Ajoute 1/2 au résultat de la canalisation d’énergie du prêtre combattant quand il soigne des créatures de type animal, fée ou plante.
+'''[[Magus]].''' Le [[magus]] ajoute l’une des propriétés spéciales suivantes à la liste de celles qu’il peut donner à son arme en utilisant sa [[Magus#RESERVEMAGIQUE|réserve magique]] : ''[[alliance (propriété)|d’alliance]]'', ''[[conductrice (propriété)|conductrice]]'', ''[[corrosive (propriété)|corrosive]]'', ''[[explosion corrosive (propriété)|d’explosion corrosive]]'', ''[[enchaînement (propriété)|d’enchaînement]]'', ''[[menaçante (propriété)|menaçante]]'', ''[[gardienne (propriété)|gardienne]]'', ''[[miséricordieuse (propriété)|miséricordieuse]]'', ''[[spectrale (propriété)|spectrale]]'', ''[[vicieuse (propriété)|vicieuse]]''. Impossible de changer une propriété obtenue grâce à cette récompense.
 
-'''Rôdeur.''' Les gnomes qui décident de prendre les armes deviennent le plus souvent des [[rôdeur|rôdeurs]], ce qui leur permet de tirer parti de la relation innée qui les lie à la nature et de leur capacité à communiquer avec ses créations.
-''Bonus de classe de prédilection alternatif.'' Le [[compagnon animal]] du [[rôdeur]] gagne une [[RD]] 1/ magie. Cette RD augmente de +1/2 à chaque fois que le rôdeur choisit de nouveau cette récompense (avec un maximum de RD 10/magie). Si le rôdeur remplace son compagnon animal, le nouveau gagne la même RD que l’ancien. 
+{s:AO}'''[[Médium]].''' Le personnage bénéficie d’un bonus de +1/2 aux tests de [[Bluff]], [[Diplomatie]], [[Intimidation]] et [[Psychologie]] effectués contre les esprits, les [[type Mort-vivant|morts-vivants]], les [[Fantômes (Spirite)|fantômes de spirite]] et les créatures natives du [[plans ésotériques#PLANASTRAL|plan Astral]].
 
-'''Roublard.''' Les roublards gnomes maîtrisent généralement une large variété de compétences. Ils jouent de leur personnalité charismatique dans leurs relations avec les 
-autres et ajoutent même une touche de magie pour améliorer leurs talents lors de la création et de la manipulation de serrures et de pièges.
-''Bonus de classe de prédilection alternatif.'' Le [[roublard]] gagne un bonus de +1/2 aux tests de [[Sabotage]] et d’
-[[Utilisation dObjets Magiques|Utilisation d’objets magiques]] liés aux glyphes, aux symboles, aux parchemins et autres écrits magiques.
+{s:APG}'''[[Moine]].''' Le moine gagne un bonus de +1 aux tests d’[[Acrobaties]] qu’il peut faire en dépensant un point de [[Moine#RESERVEDEKI|réserve de ki]]. Le moine doit être au moins de niveau 5 avant de choisir cette récompense.  
+Les gnomes sont des individus hauts en couleurs, passionnés et flamboyants par nature. Ces traits de caractère transparaissent dans leur vision de la perfection physique et naturelle. Bon nombre d’entre eux utilisent donc des styles martiaux imprévisibles qui ressemblent plus à des danses improvisées qu’à des techniques maîtrisées à force de pratique.
 
-'''Sanguin.''' Ajoute 1/4 au niveau de classe effectif du [[sanguin]] quand il détermine la puissance de ses pouvoirs de lignage.
+{s:AO}'''[[Occultiste]].''' Le personnage augmente d’une minute la durée de ses [[écoles instrumentales#ILLUSIONFOCALISATIONDEBASE|chimères mineures]]. Il augmente également de 2 % les chances de rater engendrées par le [[Modificateurs de combat#CAMOUFLAGETOTAL|camouflage total]] de son [[Écoles instrumentales#ILLUSIONRESONANCE|pouvoir de résonance de distorsion]]. Cette option n’augmente pas la limite maximale des chances de rater.
 
-'''Scalde.''' Bonus de +1 aux tests de concentration pour lancer un sort de [[scalde]].
+{s:APG}'''[[Oracle]].''' L’oracle ajoute +1/2 à son niveau quand il détermine les effets de sa [[Oracle#MALEDICTIONDELORACLE|malédiction d’oracle]].  
+Les gnomes descendent d’anciens esprits féeriques, ce qui les prédispose naturellement aux dévotions oraculaires, à l’interprétation des signes venant de l’au-delà et à l’écoute des murmures des forces naturelles.
+ 
+{s:APG}'''[[Paladin]].''' Le paladin ajoute +1/2 point de vie à son [[Paladin#IMPOSITIONDESMAINS|imposition des mains]], qu’il l’utilise pour soigner ou pour blesser.  
+Les gnomes dotés d’un zèle religieux exceptionnel ou de la passion de protéger ceux qui les entourent deviennent parfois des paladins. La plupart d’entre eux trouvent leur aptitude à parler avec les animaux très utile, à la fois pour communiquer avec leur monture et pour pourchasser les mécréants.
 
-'''Sorcière.'''. Les gnomes n’hésitent pas à faire appel à des pouvoirs étranges et anciens, ce qui en fait des [[sorcière|sorcières]] étonnamment douées. La plupart des 
-[[sorcière|sorcières]] gnomes adoptent des [[familiers]] étranges ou exotiques qui correspondent bien à leur personnalité.
-''Bonus de classe de prédilection alternatif.'' La [[sorcière]] gagne 1/6 d’un nouveau [[Sorcière#MALEFICE|maléfice]].
+'''[[Pistolier]].''' Le pistolier met 5 minutes de moins (50 minutes de moins au maximum) pour réparer une arme à feu cassée grâce au don [[Création darmes à feu|Création d’armes à feu]].
 
-'''Tueur.''' Gain de 1/6 d’un nouveau talent de tueur.
+{s:APG}'''[[Prêtre]].''' Le prêtre ajoute +1/2 point à sa [[Prêtre#CANALISATIONDENERGIE|canalisation d’énergie]] quand il soigne des créatures de type [[type animal|animal]], [[type fée|fée]] ou [[type plante|plante]].  
+Les gnomes deviennent souvent les serviteurs des [[++Golarion.religions et philosophies|dieux]], en particulier envers les divinités de l'art, de la musique, de l'exploration,  de la découverte, et de la gaieté, témoignant leur ferveur pour la création avec un véritable zèle religieux.
 
-{s:Col-Fin}{s:Ligne-Fin}
-===Bonus alternatifs de classe de prédilection des classes occultes===
-{s:AO}
-Les supercheries mentales sont pratiquées de manière naturelle par
-les gnomes. Leur nature même de gnome les incite à apprécier la magie
-psychique et ses pratiques obscures et décalées. Chaque classe occulte
-possède des qualités qui plaisent aux gnomes, que ce soit le don inné des
-cinétistes pour la magie ou la fascination des occultistes pour les colifichets.
-Les gnomes qui gagnent des niveaux dans les [[Progression des personnages#CLASSEDEPREDILECTION|classes de prédilection]] 
-indiquées ci-dessous peuvent choisir les options suivantes :
+{s:MCA}'''[[Prêtre combattant]].''' Ajoute 1/2 au résultat de la [[Prêtre combattant#CANALISATIONDENERGIE|canalisation d’énergie]] du prêtre combattant quand il soigne des créatures de type [[type animal|animal]], [[type fée|fée]] ou [[type plante|plante]].
 
-{s:Ligne}{s:Col|6}
-'''Cinétiste'''. le personnage bénéficie d’un bonus de +1/2 aux tests de [[Bluff]], [[Diplomatie]], [[Intimidation]] et [[Psychologie]] effectués contre des créatures dont le [[Types de créatures|sous-type]] correspond à l’[[cinétiste#ÉLÉMENTDEPRÉDILECTION|élément de prédilection]] du [[cinétiste]].
+{s:AO}'''[[Psychiste]].''' Le personnage augmente de 1/3 point le nombre total de points que contient sa [[psychiste#RESERVEPHRENIQUE|réserve phrénique]].
 
-'''Hypnotiseur'''. le personnage augmente de 1/3 le nombre d’[[hypnotiseur#INDUCTIONSDHYPNOTISEUR|inductions d’hypnotiseur]] qu’il peut utiliser chaque jour.
+{s:APG}'''[[Rôdeur]].''' Le [[compagnon animal]] du rôdeur gagne une [[RD]] 1/ magie. Cette RD augmente de +1/2 à chaque fois que le rôdeur choisit de nouveau cette récompense (avec un maximum de RD 10/magie). Si le rôdeur remplace son compagnon animal, le nouveau gagne la même RD que l’ancien.  
+Les gnomes qui décident de prendre les armes deviennent le plus souvent des [[rôdeur|rôdeurs]], ce qui leur permet de tirer parti de la relation innée qui les lie à la nature et de leur capacité à communiquer avec ses créations.
 
-'''Médium'''. le personnage bénéficie d’un bonus de +1/2 aux tests de [[Bluff]], [[Diplomatie]], [[Intimidation]] et [[Psychologie]] effectués contre les esprits, les [[type Mort-vivant|morts-vivants]], les [[Fantômes (Spirite)|fantômes de spirite]] et les créatures natives du [[plans ésotériques#PLANASTRAL|plan Astral]].
+{s:APG}'''[[Roublard]].''' Le roublard gagne un bonus de +1/2 aux tests de [[Sabotage]] et d’
+[[Utilisation dObjets Magiques|Utilisation d’objets magiques]] liés aux glyphes, aux symboles, aux parchemins et autres écrits magiques.  
+Les roublards gnomes maîtrisent généralement une large variété de compétences. Ils jouent de leur personnalité charismatique dans leurs relations avec les autres et ajoutent même une touche de magie pour améliorer leurs talents lors de la création et de la manipulation de serrures et de pièges.
 
-{s:Col-fin}{s:Col|6}
-'''Occultiste'''. le personnage augmente d’une minute la durée de ses [[écoles instrumentales#ILLUSIONFOCALISATIONDEBASE|chimères mineures]]. Il augmente également de 2 % les chances de rater engendrées par le [[Modificateurs de combat#CAMOUFLAGETOTAL|camouflage total]] de son [[Écoles instrumentales#ILLUSIONRESONANCE|pouvoir de résonance de distorsion]]. Cette option n’augmente pas la limite maximale des chances de rater.
+{s:MCA}'''[[Sanguin]].''' Ajoute 1/4 au niveau de classe effectif du sanguin quand il détermine la puissance de ses pouvoirs de [[Sanguin#LIGNAGE|lignage]].
 
-'''Psychiste'''. le personnage augmente de 1/3 point le nombre total de points que contient sa [[psychiste#RESERVEPHRENIQUE|réserve phrénique]].
+{s:MCA}'''[[Scalde]].''' Bonus de +1 aux tests de [[concentration]] pour lancer un sort de scalde.
 
-'''Spirite'''. le personnage ajoute 1/6 au bonus de bouclier dont il bénéficie quand il est sous l’effet d’une [[spirite#INTERFERENCESPIRITUELLE|interférence spirituelle normale]] ou [[spirite#INTERFERENCESPIRITUELLESUPERIEURE|supérieure]].
+{s:APG}'''[[Sorcière]].''' La sorcière gagne 1/6 d’un nouveau [[Sorcière#MALEFICE|maléfice]].  
+Les gnomes n’hésitent pas à faire appel à des pouvoirs étranges et anciens, ce qui en fait des sorcières étonnamment douées. La plupart des sorcières gnomes adoptent des familiers étranges ou exotiques qui correspondent bien à leur personnalité.
 
-{s:Col-Fin}{s:Ligne-Fin}
+{s:AO}'''[[Spirite]].''' Le personnage ajoute 1/6 au bonus de bouclier dont il bénéficie quand il est sous l’effet d’une [[spirite#INTERFERENCESPIRITUELLE|interférence spirituelle normale]] ou [[spirite#INTERFERENCESPIRITUELLESUPERIEURE|supérieure]].
+
+{s:MCA}'''[[Tueur]].''' Gain de 1/6 d’un nouveau [[Tueur#TALENTDETUEUR|talent de tueur]].
+</td></tr></table>
 
 ===Nouvelles règles raciales===
-{s:mr}Voici les options accessibles aux gnomes, d’autres races adaptées peuvent s’en servir si le MJ donne son accord.
+{s:MR}Voici les options accessibles aux gnomes, d’autres races adaptées peuvent s’en servir si le MJ donne son accord.
 ====Dons====
 Ces dons sont accessibles aux gnomes :
 <center>
