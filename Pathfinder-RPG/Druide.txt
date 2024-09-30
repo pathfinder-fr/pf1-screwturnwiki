@@ -1,12 +1,12 @@
 ---
 Name: Pathfinder-RPG.Druide
 Title: Le druide
-LastModified: 2024-07-04 15:32
+LastModified: 2024-09-29 16:01
 Categories:
   - 'Classe'
 ---
 {s:MenuClasses}
-<div class="fright">'''''Voir aussi le [[Compagnons animaux|profil]] et la [[Liste des compagnons animaux|liste]] des compagnons animaux.'''''  
+<div class="fright" style="max-width:300px">'''''Voir aussi le [[Compagnons animaux|profil]] et la [[Liste des compagnons animaux|liste des compagnons animaux]] et [[Compagnons vermines|des compagnons vermines]].'''''  
 '''''Voir aussi les [[domaines animaux et environnementaux]].'''''  
 '''''Voir aussi la [[Liste des sorts de druides|liste des sorts de druide]].'''''  
 {s:PM0|druide}'''Voir les archétypes du druide'''&emsp;
@@ -437,23 +437,21 @@ Le druidique possède son propre alphabet.
 ====Pacte avec la nature (Ext)====
 Au niveau 1, un lien se crée entre le druide et la nature, lien qui peut prendre une des deux formes suivantes. 
 
-=====Domaine de druide=====
-Dans la première forme, le druide devient si intime avec la nature qu’il acquiert l’un des [[Domaines|domaines de prêtre]] suivants : [[Domaine de lAir|Air]], [[domaine du climat|Climat]], [[domaine de leau|Eau]], [[domaine de la faune|Faune]], [[domaine du feu|Feu]], [[domaine de la flore|Flore]] ou [[domaine de la terre|Terre]]. Pour toutes les capacités et les sorts en bonus donnés par ce [[domaines|domaine]], on considère que le niveau de [[prêtre]] du personnage est égal à son niveau de druide. Comme les [[prêtre|prêtres]], les druides qui choisissent cette option reçoivent des emplacements de sorts de [[domaine]] qu’ils ne peuvent utiliser que pour préparer les sorts de leur [[domaine]] et qu’ils ne peuvent pas employer pour une [[druide#INCANTATIONSPONTANEE|incantation spontanée]].
+=====Domaine=====
+Dans la première forme, le druide devient si intime avec la nature qu’il acquiert l’un des domaines de prêtre suivants : [[Domaine de lAir|Air]], [[domaine du climat|Climat]], [[domaine de leau|Eau]], [[domaine de la faune|Faune]], [[domaine du feu|Feu]], [[domaine de la flore|Flore]] ou [[domaine de la terre|Terre]]. Pour toutes les capacités et les sorts en bonus donnés par ce domaine, on considère que le niveau de [[prêtre]] du personnage est égal à son niveau de druide. Comme les prêtres, les druides qui choisissent cette option reçoivent des emplacements de sorts de domaine qu’ils ne peuvent utiliser que pour préparer les sorts de leur domaine et qu’ils ne peuvent pas employer pour une [[druide#INCANTATIONSPONTANEE|incantation spontanée]].
 
-{s:um}En plus de ces domaines communs avec les prêtres, un [[druide]] peut choisir un [[Pathfinder-RPG.domaines animaux et environnementaux|domaine animal ou environnemental]] au lieu de l’un des domaines précité.
+{s:um}'''Les domaines animaux et environnementaux.''' Un druide qui possède la capacité pacte avec la nature peut choisir un [[Domaines animaux et environnementaux|domaine animal ou environnemental]] au lieu de l’un des domaines habituels. Tout comme les domaines de prêtre, ceux du druide lui donnent des pouvoirs et des sorts de domaine. Un druide qui choisit un domaine animal ou environnemental gagne un emplacement de sort de domaine par niveau. Un druide qui vénère un [[Divinités|dieu]] (et non la nature en général) ne peut pas choisir un domaine animal ou environnemental qui entre en contradiction avec les thèmes associés à sa divinité ou qui sort de sa juridiction
 
-Tout comme les [[domaines]] de [[prêtre]], ceux du druide lui donnent des pouvoirs et des sorts de domaine. Un druide qui choisit un domaine animal ou environnemental gagne un [[emplacement de sort]] de domaine par niveau. 
-
-Un druide qui vénère un dieu (et non la nature en général) ne peut pas choisir un domaine animal ou environnemental qui entre en contradiction avec les thèmes associés à sa divinité ou qui sort de sa juridiction.
-
-Si un pouvoir de domaine animal ou environnement autorise un [[jet de sauvegarde]], le [[DD]] du jet est égal à 10 + 1/2 du niveau du druide + modificateur de [[Sagesse]].
+Si un pouvoir de domaine animal ou environnement autorise un [[jds|jet de sauvegarde]], le [[DD]] du jet est égal à 10 + 1/2 du niveau du druide + son modificateur de [[Sagesse]].
 
 Les autres classes basées sur la nature qui donnent accès à des domaines peuvent choisir un domaine animal ou environnemental au lieu d’un domaine ordinaire.
 
 =====Compagnon animal=====
-La seconde forme consiste en un lien étroit entre le druide et un [[compagnons animaux|compagnon animal ou vermine]]. Le druide peut commencer sa carrière en étant accompagné d’un des animaux ou une des vermines cités dans la [[Liste des compagnons animaux|liste des compagnons animaux et vermines]]. Le compagnon est loyal et accompagne le druide lors de ses aventures.
+La seconde forme consiste en un lien étroit entre le druide et un compagnon animal. Le druide peut commencer sa carrière en étant accompagné d’un des animaux cités dans la [[Liste des compagnons animaux|liste des compagnons animaux]]. Le compagnon est loyal et accompagne le druide lors de ses aventures.
 
-Contrairement aux animaux normaux, le [[compagnons animaux|compagnon animal ou vermine]] évolue (en [[DV|dés de vie]], en [[caractéristiques]], en [[compétences]] et en [[dons]]) lorsque le druide gagne des niveaux. Si le personnage possède plusieurs classes offrant un [[compagnons animaux|compagnon animal]], ses niveaux dans ces différentes classes se cumulent pour déterminer les caractéristiques de son compagnon. La taille de la plupart des [[compagnons animaux]] s’accroît lorsque le druide atteint le niveau 4 ou 7 (selon le compagnon). Si le druide décide de se séparer de son compagnon, il peut en obtenir un autre en accomplissant un rituel qui nécessite vingt-quatre heures de prières ininterrompues au sein d’un environnement de vie typique pour le nouveau [[compagnons animaux|compagnon animal]]. Cette cérémonie peut également être utilisée pour remplacer un [[compagnons animaux|compagnon animal]] qui est mort.
+Contrairement aux animaux normaux, le [[compagnons animaux|compagnon animal]] évolue (en [[DV|dés de vie]], en [[caractéristiques]], en [[compétences]] et en [[dons]]) lorsque le druide gagne des niveaux. Si le personnage possède plusieurs classes offrant un compagnon animal, ses niveaux dans ces différentes classes se cumulent pour déterminer les caractéristiques de son compagnon. La taille de la plupart des compagnons animaux s’accroît lorsque le druide atteint le niveau 4 ou 7 (selon le compagnon). Si le druide décide de se séparer de son compagnon, il peut en obtenir un autre en accomplissant un rituel qui nécessite vingt-quatre heures de prières ininterrompues au sein d’un environnement de vie typique pour le nouveau compagnon animal. Cette cérémonie peut également être utilisée pour remplacer un compagnon animal qui est mort.
+
+{s:UM}'''Les compagnons vermines.''' En plus des choix habituels de compagnons animaux, le druide qui ressent une affinité particulière avec les vermines peut en adopter une. Les compagnons vermines suivent les mêmes règles que les autres compagnons animaux. Leurs [[DV]] et leurs pouvoirs évoluent comme indiqué sur la Table "[[Compagnons animaux#PROGRESSION|Caractéristiques de base des compagnons animaux]]". Le druide peut entraîner sa vermine à l’aide de la compétence [[Dressage]] comme n’importe quel autre animal.
 
 {s:Reference|INSTINCTNATUREL}
 ====Instinct naturel (Ext)====

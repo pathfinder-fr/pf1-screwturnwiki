@@ -1,12 +1,12 @@
 ---
 Name: Pathfinder-RPG.Rôdeur
 Title: Le rôdeur
-LastModified: 2024-05-16 21:52
+LastModified: 2024-09-29 15:58
 Categories:
   - 'Classe'
 ---
 {s:MenuClasses}
-<div class="fright">'''''Voir aussi le [[Compagnons animaux|profil]] des compagnons animaux.'''''  
+<div class="fright">'''''Voir aussi le [[Compagnons animaux|profil]] et la [[Liste des compagnons animaux|liste des compagnons animaux]].'''''  
 '''''Voir aussi les [[pièges de rôdeur]].'''''  
 '''''Voir aussi la [[Liste des sorts de rôdeurs|liste des sorts de rôdeur]].'''''  
 {s:PM0|rôdeur}'''Voir les archétypes du rôdeur'''&emsp;
@@ -272,7 +272,7 @@ Les aptitudes du rôdeur sont décrites ci-dessous.
 ====Armes et armures====
 Le rôdeur est formé au maniement de toutes les [[arme courante|armes courantes]] et de [[arme de guerre|guerre]], ainsi qu’au port des [[armure légère|armures légères]] et [[armure intermédiaire|intermédiaires]] et à l’utilisation des boucliers (à l’exception des pavois).
 
-{s:Reference|ENNEMIJURE}
+{s:Reference|ENNEMIJURE}{s:Reference|TABLEENNEMISJURES}
 ====Ennemis jurés (Ext)====
 Au niveau 1, le rôdeur choisit un type de créatures sur la [[rôdeur#TABLEENNEMISJURES|table des ennemis jurés du rôdeur]]. Il bénéficie d’un bonus de +2 aux tests de [[Bluff]], [[Connaissances]], [[Perception]], [[Psychologie]] et [[Survie]] lorsqu’il les utilise contre des créatures de ce type. Il bénéficie également d’un bonus de +2 aux [[jet dattaque|jets d’attaque]] et de [[jet de dégâts|dégâts]] lorsqu’il utilise une arme contre elles. Enfin, il peut tenter d’utiliser la compétence de [[Connaissances]] pour identifier ces créatures et ce, même s’il ne possède aucun rang dans celle-ci.
 
@@ -280,30 +280,74 @@ Au niveau 5 et tous les cinq niveaux par la suite (aux niveaux 10, 15 et 20), le
 
 Lorsqu’un rôdeur choisit les [[type Extérieur|Extérieurs]] ou les [[type humanoïde|humanoïdes]] comme ennemis jurés, il doit aussi sélectionner un sous-type associé, comme l’indique la table (notez que les sous-types d’humanoïdes cités dans la table ne sont que les plus communs, d’autres sous-types, que le rôdeur peut également choisir, sont présentés dans le ''Bestiaire Pathfinder''). Si une créature appartient à deux familles d’ennemis jurés, les bonus ne se cumulent pas : le rôdeur ne profite que du plus élevé des deux.
 
-{| CLASS="tablo centre autoalt toutgauche"
-|+ {s:Reference|TABLEENNEMISJURES}Choix d'ennemis jurés du rôdeur
+<div class="article_3col">
+{| CLASS="tablo centre autoalt toutgauche" WIDTH="100%"
+|- Class="titre"
+| Ennemis jurés du rôdeur
 |- CLASS="premier"
-| WIDTH="25%" | [[type Aberration|Aberration]]
-| WIDTH="25%" | [[type Extérieur|Extérieur]] ([[sous-type Air|Air]])
-| WIDTH="25%" | [[type Humanoïde|Humanoïde]] (autre sous-type)
-| WIDTH="25%" |  [[type Humanoïde|Humanoïde]] ([[sous-type humain|humain]])
+| [[type Aberration|Aberration]]
 |-
-| [[type Animal|Animal]] || [[type Extérieur|Extérieur]] ([[sous-type Bien|Bien]]) || [[type Humanoïde monstrueux|Humanoïde monstrueux]] || [[type Humanoïde|Humanoïde]] ([[sous-type nain|nain]])
+| [[type Animal|Animal]]
 |-
-| [[type Créature artificielle|Créature artificielle]] || [[type Extérieur|Extérieur]] ([[sous-type Eau|Eau]]) || [[type Humanoïde|Humanoïde]] ([[sous-type aquatique|aquatique]]) || [[type Humanoïde|Humanoïde]] ([[sous-type géant|géant]])
+| [[type Créature artificielle|Créature artificielle]]
 |-
-| [[type Créature magique|Créature magique]] || [[type Extérieur|Extérieur]] ([[sous-type Chaos|Chaos]]) || [[type Humanoïde|Humanoïde]] ([[sous-type elfe|elfe]]) || [[type Humanoïde|Humanoïde]] (orque)
+| [[type Créature magique|Créature magique]]
 |-
-| [[type Dragon|Dragon]] || [[type Extérieur|Extérieur]] ([[sous-type Feu|Feu]]) || [[type Humanoïde|Humanoïde]] (gnoll) || [[type Humanoïde|Humanoïde]] ([[sous-type gobelinoïde|gobelinoïde]])
+| [[type Dragon|Dragon]]
 |-
-| [[type Fée|Fée]] || [[type Extérieur|Extérieur]] ([[sous-type Loi|Loi]]) || [[type Humanoïde|Humanoïde]] ([[sous-type gnome|gnome]]) || [[type Humanoïde|Humanoïde]] ([[sous-type reptilien|reptilien]])
+| [[type Extérieur|Extérieur]] ([[sous-type Air|Air]])
 |-
-| [[type Mort-vivant|Mort-vivant]] || [[type Extérieur|Extérieur]] ([[sous-type natif|natif]]) || [[type Humanoïde|Humanoïde]] ([[sous-type halfelin|halfelin]]) || &emsp;
+| [[type Extérieur|Extérieur]] ([[sous-type Bien|Bien]])
 |-
-| [[type Plante|Plante]] || [[type Extérieur|Extérieur]] ([[sous-type Mal|Mal]]) || &emsp; || &emsp;
+| [[type Extérieur|Extérieur]] ([[sous-type Chaos|Chaos]])
 |-
-| [[type Vermine|Vermine]] || [[type Extérieur|Extérieur]] ([[sous-type Terre|Terre]]) || &emsp; || &emsp;
+| [[type Extérieur|Extérieur]] ([[sous-type Eau|Eau]])
+|-
+| [[type Extérieur|Extérieur]] ([[sous-type Feu|Feu]])
+|-
+| [[type Extérieur|Extérieur]] ([[sous-type Loi|Loi]])
+|-
+| [[type Extérieur|Extérieur]] ([[sous-type Mal|Mal]])
+|-
+| [[type Extérieur|Extérieur]] ([[sous-type natif|natif]])
+|-
+| [[type Extérieur|Extérieur]] ([[sous-type Terre|Terre]])
+|-
+| [[type Fée|Fée]]
+|-
+| [[type Humanoïde|Humanoïde]] (autre sous-type)
+|-
+| [[type Humanoïde|Humanoïde]] ([[sous-type aquatique|aquatique]])
+|-
+| [[type Humanoïde|Humanoïde]] ([[sous-type elfe|elfe]])
+|-
+| [[type Humanoïde|Humanoïde]] ([[sous-type géant|géant]])
+|-
+| [[type Humanoïde|Humanoïde]] (gnoll)
+|-
+| [[type Humanoïde|Humanoïde]] ([[sous-type gnome|gnome]])
+|-
+| [[type Humanoïde|Humanoïde]] ([[sous-type gobelinoïde|gobelinoïde]])
+|-
+| [[type Humanoïde|Humanoïde]] ([[sous-type halfelin|halfelin]])
+|-
+| [[type Humanoïde|Humanoïde]] ([[sous-type humain|humain]])
+|-
+| [[type Humanoïde|Humanoïde]] ([[sous-type nain|nain]])
+|-
+| [[type Humanoïde|Humanoïde]] (orque)
+|-
+| [[type Humanoïde|Humanoïde]] ([[sous-type reptilien|reptilien]])
+|-
+| [[type Humanoïde monstrueux|Humanoïde monstrueux]]
+|-
+| [[type Mort-vivant|Mort-vivant]]
+|-
+| [[type Plante|Plante]]
+|-
+| [[type Vermine|Vermine]]
 |}
+</div>
 
 {s:Reference|PISTAGE}
 ====Pistage (Ext)====
@@ -350,16 +394,21 @@ Si le rôdeur choisit le style de combat '''''à deux armes''''', il peut choisi
 Le rôdeur ne bénéficie de ses dons de style de combat que s’il porte une armure légère, une armure intermédiaire ou s’il ne porte aucune armure. Il perd leurs avantages s’il porte une armure lourde. Une fois qu’un rôdeur a opté pour un style de combat, ce choix ne peut plus être modifié.
 
 {s:Reference|ENDURANCE}
-
 ====Endurance====
 Un rôdeur de niveau 3 reçoit gratuitement le don [[Endurance]] en tant que don supplémentaire.
 
 {s:Reference|ENVIRONNEMENTDEPREDILECTION}
 ====Environnements de prédilection (Ext)====
-<div style="float:right; background-color: #fff; padding: 0 0 8px 10px">
-<div style="border: 1px solid #4b3124; padding: 4px; max-width: 260px;">
-{| CLASS="tablo centre autoalt"
-|+ {s:Reference|TABLEENVIRONNEMENTDEPREDILECTION}Environnements de prédilection du rôdeur
+Au niveau 3, un rôdeur choisit un type d’environnement sur la [[rôdeur#TABLEENVIRONNEMENTDEPREDILECTION|table des environnements de prédilection du rôdeur]]. Il bénéficie d’un bonus de +2 aux jets d’[[initiative]] et aux tests de [[Connaissances]] (géographie), [[Discrétion]], [[Perception]] et [[Survie]] lorsqu’il se trouve dans cet environnement. De plus, lorsqu’il voyage dans son environnement de prédilection, le rôdeur ne laisse aucune trace et ne peut être suivi (il peut cependant laisser des traces s’il le désire).
+
+Au niveau 8 et tous les cinq niveaux par la suite, le rôdeur peut choisir un nouvel environnement de prédilection. En même temps, il peut augmenter de +2 le bonus dont il bénéficie dans l’un de ses environnements de prédilection (y compris celui qu’il vient de choisir, s’il le désire).
+
+Si l’endroit où le rôdeur se trouve entre dans plusieurs catégories d’environnements de prédilection, les bonus ne se cumulent pas : le rôdeur ne bénéficie que du bonus le plus élevé.
+
+<div class="article_2col">
+{| CLASS="tablo centre autoalt" WIDTH="100%"
+|- CLASS="titre"
+| {s:Reference|TABLEENVIRONNEMENTDEPREDILECTION}Environnements de prédilection du rôdeur
 |- CLASS="premier"
 | Aquatique (sur et sous la surface)
 |-
@@ -383,11 +432,7 @@ Un rôdeur de niveau 3 reçoit gratuitement le don [[Endurance]] en tant que don
 |-
 | Urbain (bâtiments, rues et égouts)
 |}
-</div></div>Au niveau 3, un rôdeur choisit un type d’environnement sur la [[rôdeur#TABLEENVIRONNEMENTDEPREDILECTION|table des environnements de prédilection du rôdeur]]. Il bénéficie d’un bonus de +2 aux jets d’[[initiative]] et aux tests de [[Connaissances]] (géographie), [[Discrétion]], [[Perception]] et [[Survie]] lorsqu’il se trouve dans cet environnement. De plus, lorsqu’il voyage dans son environnement de prédilection, le rôdeur ne laisse aucune trace et ne peut être suivi (il peut cependant laisser des traces s’il le désire).
-
-Au niveau 8 et tous les cinq niveaux par la suite, le rôdeur peut choisir un nouvel environnement de prédilection. En même temps, il peut augmenter de +2 le bonus dont il bénéficie dans l’un de ses environnements de prédilection (y compris celui qu’il vient de choisir, s’il le désire).
-
-Si l’endroit où le rôdeur se trouve entre dans plusieurs catégories d’environnements de prédilection, les bonus ne se cumulent pas : le rôdeur ne bénéficie que du bonus le plus élevé.
+</div>
 
 {s:Reference|PACTEDUCHASSEUR}
 ====Pacte du chasseur (Ext)====

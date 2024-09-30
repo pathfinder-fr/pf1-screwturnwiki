@@ -1,11 +1,11 @@
 ---
 Name: Pathfinder-RPG.lignage Élémentaire
 Title: Lignage Élémentaire
-LastModified: 2021-03-28 03:25
+LastModified: 2024-09-28 16:15
 Categories:
   - 'Lignage'
 ---
-{s:MenuLignages}''Le pouvoir des éléments coule dans les veines du personnage qui, parfois, a bien de la peine à en contrôler la fureur. Cette influence provient d’un [[type Extérieur|Extérieur]] [[sous-type élémentaire|élémentaire]] qui s’est mêlé à l’histoire de la famille de l’[[ensorceleur]] ou d’une époque où celui-ci (ou un de ses parents) s’est retrouvé exposé à une puissante force élémentaire.''
+{s:MenuLignages}''Le pouvoir des éléments coule dans les veines du personnage qui, parfois, a bien de la peine à en contrôler la fureur. Cette influence provient d’un [[type Extérieur|Extérieur]] [[sous-type élémentaire|élémentaire]] qui s’est mêlé à l’histoire de la famille de l’ensorceleur ou d’une époque où celui-ci (ou un de ses parents) s’est retrouvé exposé à une puissante force élémentaire.''
 
 '''Compétence de classe.''' [[Connaissances]] (plans)
 
@@ -31,43 +31,36 @@ Au niveau 1, le personnage choisit un élément parmi Air, Eau, Feu et Terre. Un
 
 '''Mouvement élémentaire (Sur).''' Au niveau 15, le personnage acquiert un mode de déplacement spécial ou un bonus à sa [[vitesse de déplacement]] de base. Ce pouvoir dépend de l’élément choisi, comme indiqué dans la table ci-dessous.
 
-<center>
-{| CLASS="tablo"
+{| CLASS="tablo centre autoalt toutgauche"
 |+ Table des éléments et des énergies associées
 |- CLASS="titre"
-| Élément || Type d'énergie
-| CLASS="gauche" | Mode de déplacement
-|- premier
-| Air || électricité
-| CLASS="gauche" | vol 18 m (12 cases) (manœuvrabilité moyenne)
-|- CLASS="alt"
-| Eau || froid
-| CLASS="gauche" | nage 18 m (12 cases)
+| Élément || Type d'énergie |Mode de déplacement
+|- CLASS="premier"
+| Air || électricité || vol 18 m (12 cases) (manœuvrabilité moyenne)
 |-
-| Feu || feu
-| CLASS="gauche" | [[vitesse de déplacement]] augmentée de 9 m (6 cases)
-|- CLASS="alt"
-| Terre || acide
-| CLASS="gauche" | creusement 9 m (6 cases)
+| Eau || froid || nage 18 m (12 cases)
+|-
+| Feu || feu || [[vitesse de déplacement]] augmentée de 9 m (6 cases)
+|-
+| Terre || acide || creusement 9 m (6 cases)
 |}
-</center>
 
 '''Corps élémentaire (Sur).''' Au niveau 20, le pouvoir des éléments se répand dans tout le corps du personnage. Celui-ci développe une immunité aux [[attaque sournoise|attaques sournoises]], aux [[coup critique|coups critiques]] et aux dégâts du type d’énergie associé à l’élément choisi.
 
 {s:um}
-===Lignage sauvage Primitif===
+==Lignage sauvage Primitif==
 ''Les pouvoirs de l’ensorceleur s’accordent selon l’essence concentrée d’un plan élémentaire.''
 
 Certains ensorceleurs de [[sang sauvage (ensorceleur)|sang sauvage]] possèdent des mutations qui leur donnent des pouvoirs alternatifs qui remplacent, aux niveaux donnés, ceux du lignage originel.
 
 '''Arcane de lignage.''' Quand le personnage lance un sort du [[registre]] de l’énergie de même type que celui de son lignage élémentaire, il inflige 1 point de dégâts de plus par dé lancé.
 
-====Pouvoirs de lignage.====
+===Pouvoirs de lignage===
 Le personnage peut imprégner les créatures qu’il convoque d’énergie brute.
 
 '''Convocation élémentaire (Sur).''' Au [[niveau]] 9, quand le personnage convoque une créature, il lui octroie une [[RD|résistance]] de 10 contre le type d’énergie associé à son lignage élémentaire (si elle en possède déjà une, elle augmente de +5). Ses [[attaques naturelles]] infligent 1d6 de dégâts de ce même type d’énergie. Ce pouvoir de lignage remplace explosion élémentaire.
 
-===Lignage sauvage Eau de vie===
+==Lignage sauvage Eau de vie==
 {s:cs}<div class="description">'''Source :''' Blood of the Elements (BotE).</div>''Le personnage est imprégné par les pouvoirs guérisseurs de l'élément de l'eau.''
 
 (Ce lignage sauvage est réservée à ceux qui choisissent le lignage élémentaire de l'eau)
@@ -78,7 +71,7 @@ Certains ensorceleurs de [[sang sauvage (ensorceleur)|sang sauvage]] possèdent 
 
 Ces points de vie temporaire durent une minute.
 
-====Pouvoirs de lignage.====
-Les pouvoirs du personnage guérissent plutôt que détruire
+===Pouvoirs de lignage===
+Les pouvoirs du personnage guérissent plutôt que détruire.
 
 '''Torrent d'eau vitale (Sur).''' Au [[niveau]] 9, le personnage peut émettre de sa paume dans une ligne de 9 mètres (6 {s:c}) un torrent d'eau pure guérisseuse pour aider ses alliés. Choisissez [[fatigué]], [[secoué]] ou [[fiévreux]]. Les créatures affectées ne sont plus affectées par cet état préjudiciable, et si elles subissaient un état plus grave ([[épuisé]] pour [[fatigué]], [[effrayé]] pour [[secoué]] et [[nauséeux]] pour [[fiévreux]]), leur état préjudiciable est atténué et passe à sa forme plus légère. Au niveau 17, il peut utiliser ce pouvoir deux fois par jour, et guérir des conditions [[aveuglé]], [[assourdi]], [[chancelant]] et [[hébété]]. Au niveau 20, il peut utiliser ce pouvoir trois fois par jour. Ce pouvoir de lignage remplace explosion élémentaire.

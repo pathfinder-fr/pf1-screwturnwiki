@@ -1,14 +1,13 @@
 ---
 Name: Pathfinder-RPG.Découvertes arcaniques
-Title: Découvertes arcaniques
-LastModified: 2024-01-31 18:01
+Title: Les découvertes arcaniques du magicien
+LastModified: 2024-09-28 17:20
 Categories:
   - 'Classe'
   - 'Règle officielle'
   - 'Src Art de la magie'
 ---
-{s:MenuClasses}
-{s:um}''Les magiciens passent une grande partie de leur existence à chercher de grandes vérités et à traquer les connaissances comme si leur vie en dépendait. Le pouvoir du magicien ne réside pas forcément dans ses sorts, ce ne sont que des manifestations extérieures visibles de ce pouvoir. La véritable puissance du magicien réside dans son intelligence indomptable, dans sa dévotion à son art et dans ses capacités à dépasser les vérités superficielles pour comprendre les fondements cachés de l’existence. Un magicien passe une grande partie de son temps à faire des recherches sur les sorts et préfère découvrir une bibliothèque inconnue plutôt qu’une salle pleine de pièces d’or. Les magiciens ne sont pas forcément des rats de bibliothèque reclus mais ils brûlent de curiosité face à l’inconnu. Les découvertes arcaniques résultent de cette obsession pour la magie. Le magicien peut apprendre une découverte magique au lieu de choisir un don normal ou un don de magicien supplémentaire.''
+{s:MenuClasses}{s:um}''Les magiciens passent une grande partie de leur existence à chercher de grandes vérités et à traquer les connaissances comme si leur vie en dépendait. Le pouvoir du magicien ne réside pas forcément dans ses sorts, ce ne sont que des manifestations extérieures visibles de ce pouvoir. La véritable puissance du magicien réside dans son intelligence indomptable, dans sa dévotion à son art et dans ses capacités à dépasser les vérités superficielles pour comprendre les fondements cachés de l’existence. Un magicien passe une grande partie de son temps à faire des recherches sur les sorts et préfère découvrir une bibliothèque inconnue plutôt qu’une salle pleine de pièces d’or. Les magiciens ne sont pas forcément des rats de bibliothèque reclus mais ils brûlent de curiosité face à l’inconnu. Les découvertes arcaniques résultent de cette obsession pour la magie. Le magicien peut apprendre une découverte magique au lieu de choisir un don normal ou un don de magicien supplémentaire.''
 
 {| CLASS="tablo toutgauche centre autoalt" WIDTH="70%"
 |+ Découvertes arcaniques de magicien 
@@ -52,7 +51,7 @@ Categories:
 |}
 
 ===Découvertes arcaniques du magicien===
-<div class="article_2col">
+<table width="100%"><tr><td width="49%">
 {s:Reference|Affinitéaveclalchimie}
 ====Affinité avec l'alchimie====
 {s:cs}<div class="description">'''Source :''' Magical Marketplace (MaM).</div>
@@ -121,7 +120,9 @@ Lorsqu'il lance ''[[forme bestiale IV]]'', ou ''[[changement de forme]]'' sur sa
 {s:cs}<div class="description">'''Source :''' Champions of Purity (CoP).</div>
 
 Si une créature devait être convoquée ou se téléporter à moins de 9 mètres (6 {s:c}) du magicien, il peut choisir de tenter de s'y opposer. Il fait alors un test de lanceur de sort par une [[action immédiate]] opposé à celui de la téléportation ou convocation. Si le test réussit, alors la téléportation ou convocation est annulée et son utilisation dépensée. Ce pouvoir peut être utilisé une fois par jour au niveau 9, et une fois de plus par tranche de 5 niveaux après le 10ème.  Le magicien doit être au moins de niveau 9 avant de faire cette découverte.
-
+</td><td width="1%">
+<td style="border-left:1px solid #4b3124;width=" width="1%"></td>
+</td><td width="49%">
 {s:Reference|Idéalisation}
 ====Idéalisation (Sur)====
 {s:cs}<div class="description">'''Source :''' Champions of Balance (CoB).</div>
@@ -172,11 +173,11 @@ Le magicien se lie par son pacte magique à une [[pierre ioun]]. Il obtient grat
 
 {s:UM}{s:Reference|Véritablenom}
 ====Véritable nom (Mag)====
-Le magicien a fait des recherches dans d’anciens ouvrages et ses études sur les esprits liés lui ont permis de découvrir l’un des secrets les mieux cachés du multivers : le véritable nom d’un [[Type extérieur|extérieur]], le nom qui définit son essence et permet à celui qui le prononce de le contrôler. Cet [[Type extérieur|extérieur]] ne peut pas avoir plus de 12 [[DV]]. Une fois par jour, le personnage peut prononcer le nom par lequel on connaît cet [[Type extérieur|extérieur]] qui se rend alors auprès de lui, comme si le magicien avait lancé ''[[contrat intermédiaire]]''. Il fait de son mieux pour obéir au magicien, sans marchander ses services ni demander de paiement tant il a peur que le magicien ne révèle son véritable nom au monde entier. Même les [[Type extérieur|extérieurs]] les plus récalcitrants courbent alors l’échine.</br>
+Le magicien a fait des recherches dans d’anciens ouvrages et ses études sur les esprits liés lui ont permis de découvrir l’un des secrets les mieux cachés du multivers : le véritable nom d’un [[Type extérieur|extérieur]], le nom qui définit son essence et permet à celui qui le prononce de le contrôler. Cet [[Type extérieur|extérieur]] ne peut pas avoir plus de 12 [[DV]]. Une fois par jour, le personnage peut prononcer le nom par lequel on connaît cet [[Type extérieur|extérieur]] qui se rend alors auprès de lui, comme si le magicien avait lancé ''[[contrat intermédiaire]]''. Il fait de son mieux pour obéir au magicien, sans marchander ses services ni demander de paiement tant il a peur que le magicien ne révèle son véritable nom au monde entier. Même les [[Type extérieur|extérieurs]] les plus récalcitrants courbent alors l’échine.
 
-Si la créature se trouve dans les 30 mètres (20{s:c}), le magicien peut la punir par une [[action de mouvement]] en se trompant délibérément dans la prononciation de son véritable nom. Il sème alors le désordre dans son essence même et le rend [[fiévreux]] et [[chancelant]] pendant 1 [[round]] (même s’il est normalement [[immunisé]] contre ces conditions). Le magicien ne peut pas utiliser le pouvoir du véritable nom dans une ''[[zone de silence]]'' mais la créature n’a pas besoin de l’entendre pour être blessée.</br>
+Si la créature se trouve dans les 30 mètres (20{s:c}), le magicien peut la punir par une [[action de mouvement]] en se trompant délibérément dans la prononciation de son véritable nom. Il sème alors le désordre dans son essence même et le rend [[fiévreux]] et [[chancelant]] pendant 1 [[round]] (même s’il est normalement [[immunisé]] contre ces conditions). Le magicien ne peut pas utiliser le pouvoir du véritable nom dans une ''[[zone de silence]]'' mais la créature n’a pas besoin de l’entendre pour être blessée.
 
-Dans son propre intérêt, le magicien ne devrait faire que rarement appel à l’[[Type extérieur|extérieur]] et le récompenser à l’occasion, afin d’apaiser sa colère. S’il ne lui offre pas de récompense associée à son type et à son éthique, la créature risque de se mettre à chercher un moyen de détruire le lien qui les unit, soit en créant un incident qui devrait anéantir le souvenir de son nom, soit en s’employant à rendre la vie du magicien impossible, jusqu’à ce qu’il jure de ne plus jamais faire appel à elle, soit en cherchant activement à le tuer par ses propres moyens ou via ses sbires. Si la créature est [[Alignement|Loyale]] et que le magicien viole ses principes, ses supérieurs peuvent décider de la détruire ou de détruire le magicien plutôt que de le laisser contaminer leur serviteur. Pire, ils peuvent provoquer des situations dans lesquelles le magicien aura besoin d’invoquer l’[[Type extérieur|extérieur]] afin d’ouvrir des portails laissant passer des interférences angéliques ou infernales, afin d’avoir un pied dans le [[plans|monde Matériel]].</br>
+Dans son propre intérêt, le magicien ne devrait faire que rarement appel à l’[[Type extérieur|extérieur]] et le récompenser à l’occasion, afin d’apaiser sa colère. S’il ne lui offre pas de récompense associée à son type et à son éthique, la créature risque de se mettre à chercher un moyen de détruire le lien qui les unit, soit en créant un incident qui devrait anéantir le souvenir de son nom, soit en s’employant à rendre la vie du magicien impossible, jusqu’à ce qu’il jure de ne plus jamais faire appel à elle, soit en cherchant activement à le tuer par ses propres moyens ou via ses sbires. Si la créature est [[Alignement|Loyale]] et que le magicien viole ses principes, ses supérieurs peuvent décider de la détruire ou de détruire le magicien plutôt que de le laisser contaminer leur serviteur. Pire, ils peuvent provoquer des situations dans lesquelles le magicien aura besoin d’invoquer l’[[Type extérieur|extérieur]] afin d’ouvrir des portails laissant passer des interférences angéliques ou infernales, afin d’avoir un pied dans le [[plans|monde Matériel]].
 
 Le personnage peut choisir cette découverte à plusieurs reprises. Elle s’applique à chaque fois à un [[Type extérieur|extérieur]] différent. Le magicien doit être au moins de niveau 11 avant de faire cette découverte. S’il la choisit au niveau 15 ou plus, la créature peut avoir jusqu’à 18 [[DV]] et ce pouvoir fonctionne comme ''[[contrat suprême]]'' au lieu de ''[[contrat intermédiaire]]''.
-</div>
+</td></tr></table>

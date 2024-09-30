@@ -1,18 +1,16 @@
 ---
 Name: Pathfinder-RPG.Compagnons animaux
-Title: Les compagnons animaux
-LastModified: 2021-12-31 14:56
+Title: Les compagnons animaux du druide
+LastModified: 2024-09-27 16:33
 Categories:
   - 'Classe'
 ---
-{s:MenuClasses}
-<div class="right">Voir aussi la [[liste des compagnons animaux]] et les [[compagnons végétaux]].</div>{TOC}
+{s:MenuClasses}<div style="background-color: #fff; float: right; padding: 0 0 8px 8px">{toc}</div>'''''Voir aussi la [[liste des compagnons animaux]] et [[Compagnons vermines|des compagnons vermines]].'''''
 
 Les capacités des compagnons animaux dépendent du niveau du [[druide]] et des traits raciaux de l’animal. Le tableau suivant indique la plupart des caractéristiques de base des compagnons animaux. Ceux-ci sont considérés comme des créatures de type [[type animal|animal]] lorsqu’il s’agit de déterminer si un sort les affecte ou non.
 
-<center>
-{| CLASS="tablo"
-|+ Caractéristiques de base des compagnons animaux
+{| CLASS="tablo centre"
+|+ {s:Reference|PROGRESSION}Caractéristiques de base des compagnons animaux
 |- CLASS="titre"
 | Niveau <br/>de <br/>classe
 | DV
@@ -287,7 +285,6 @@ Les capacités des compagnons animaux dépendent du niveau du [[druide]] et des 
 | 7
 | CLASS="gauche" | [[Compagnons animaux#ACCROISSEMENTCARACTERISTIQUE|accroissement d'une caractéristique]]
 |}
-</center>
 
 '''Niveau de classe.''' Il s’agit du niveau du [[druide]]. Pour déterminer les caractéristiques du compagnon, les niveaux de druide se cumulent avec les niveaux de toutes les autres classes octroyant un compagnon animal.
 
@@ -309,31 +306,24 @@ Les capacités des compagnons animaux dépendent du niveau du [[druide]] et des 
 
 '''Spécial.''' Cette colonne reprend les diverses capacités que les compagnons animaux gagnent lorsqu’ils évoluent. Ces capacités sont décrites ci-dessous.
 
-::{s:Reference|LIEN}''Lien (Ext).'' Un [[druide]] peut donner un ordre ou déplacer son compagnon animal par une [[action libre]] et ce, même s’il ne possède aucun degré de maîtrise dans la compétence [[Dressage]]. Le druide obtient un bonus de circonstances de +4 à tous les tests d’[[empathie sauvage]] et de [[Dressage]] relatifs à son compagnon animal.
+:{s:Reference|LIEN}''Lien (Ext).'' Un [[druide]] peut donner un ordre ou déplacer son compagnon animal par une [[action libre]] et ce, même s’il ne possède aucun degré de maîtrise dans la compétence [[Dressage]]. Le druide obtient un bonus de circonstances de +4 à tous les tests d’[[empathie sauvage]] et de [[Dressage]] relatifs à son compagnon animal.
 
-::{s:Reference|TRANSFERTDESORTS}''Transfert de sorts (Ext).'' Lorsque le [[druide]] lance un sort dont la cible est « le jeteur de sorts », il peut choisir de cibler son compagnon animal plutôt que lui-même, comme s’il s’agissait d’un sort de contact. Cette aptitude fonctionne même pour les sorts qui ne s’appliquent normalement pas aux créatures de type [[type animal|animal]], mais ne peut être utilisée que pour les sorts associés à une classe donnant un compagnon animal. Cette aptitude ne permet pas de transférer d’autres capacités que les sorts, même celles qui fonctionnent comme des sorts.
+:{s:Reference|TRANSFERTDESORTS}''Transfert de sorts (Ext).'' Lorsque le [[druide]] lance un sort dont la cible est « le jeteur de sorts », il peut choisir de cibler son compagnon animal plutôt que lui-même, comme s’il s’agissait d’un sort de contact. Cette aptitude fonctionne même pour les sorts qui ne s’appliquent normalement pas aux créatures de type [[type animal|animal]], mais ne peut être utilisée que pour les sorts associés à une classe donnant un compagnon animal. Cette aptitude ne permet pas de transférer d’autres capacités que les sorts, même celles qui fonctionnent comme des sorts.
 
-::{s:Reference|ESQUIVETOTALE}''Esquive totale (Ext).'' Lorsque le compagnon animal est soumis à un effet qui autorise un jet de [[Réflexes]] pour réduire les dégâts de moitié, il ne subit aucun dégât s’il réussit son [[jet de sauvegarde]].
+:{s:Reference|ESQUIVETOTALE}''Esquive totale (Ext).'' Lorsque le compagnon animal est soumis à un effet qui autorise un jet de [[Réflexes]] pour réduire les dégâts de moitié, il ne subit aucun dégât s’il réussit son [[jet de sauvegarde]].
 
-::{s:Reference|ACCROISSEMENTCARACTERISTIQUE}''Accroissement d’une caractéristique (Ext).'' Le compagnon animal augmente une de ses caractéristiques d’un point.
+:{s:Reference|ACCROISSEMENTCARACTERISTIQUE}''Accroissement d’une caractéristique (Ext).'' Le compagnon animal augmente une de ses caractéristiques d’un point.
 
-::{s:Reference|DEVOTION}''Dévotion (Ext).'' La dévotion du compagnon animal pour son maître est telle qu’il obtient un bonus de moral de +4 sur ses [[jet de sauvegarde|jets de sauvegarde]] contre les sorts et les effets de type [[enchantement]].
+:{s:Reference|DEVOTION}''Dévotion (Ext).'' La dévotion du compagnon animal pour son maître est telle qu’il obtient un bonus de moral de +4 sur ses [[jet de sauvegarde|jets de sauvegarde]] contre les sorts et les effets de type [[enchantement]].
 
-::{s:Reference|ATTAQUESMULTIPLES}''Attaques multiples (Ext).'' Le compagnon animal obtient automatiquement le don [[Attaques multiples]] comme don supplémentaire, à condition d’avoir au moins trois attaques naturelles et de ne pas déjà le posséder. Si l’animal ne remplit pas la condition des trois attaques naturelles, il obtient à la place de ce don la possibilité de porter une seconde attaque à l’aide de son arme naturelle principale, mais avec un malus de -5.
+:{s:Reference|ATTAQUESMULTIPLES}''Attaques multiples (Ext).'' Le compagnon animal obtient automatiquement le don [[Attaques multiples]] comme don supplémentaire, à condition d’avoir au moins trois attaques naturelles et de ne pas déjà le posséder. Si l’animal ne remplit pas la condition des trois attaques naturelles, il obtient à la place de ce don la possibilité de porter une seconde attaque à l’aide de son arme naturelle principale, mais avec un malus de -5.
 
-::{s:Reference|ESQUIVEEXTRAORDINAIRE}''Esquive extraordinaire (Ext).'' Lorsque le compagnon animal est soumis à une attaque qui autorise un jet de [[Réflexes]] pour réduire les dégâts de moitié, il ne subit aucun dégât s’il réussit son [[jet de sauvegarde]] et seulement la moitié des dégâts dans le cas contraire.
+:{s:Reference|ESQUIVEEXTRAORDINAIRE}''Esquive extraordinaire (Ext).'' Lorsque le compagnon animal est soumis à une attaque qui autorise un jet de [[Réflexes]] pour réduire les dégâts de moitié, il ne subit aucun dégât s’il réussit son [[jet de sauvegarde]] et seulement la moitié des dégâts dans le cas contraire.
 
 {s:Reference|COMPETENCES}
 === Compétences des animaux ===
-
-Les compagnons animaux peuvent investir des points de compétences dans les compétences suivantes : [[Acrobaties]]* (Dex), [[Discrétion]]* (Dex), [[Escalade]]* (For), [[Évasion]] (Dex), [[Intimidation]] (Cha), [[Natation]]* (For), [[Perception]]* (Sag), [[Survie]] (Sag) et [[Vol]]* (Dex). Les Modificateurs raciaux de l'espèce en revanche sont gagnés automatiquement (étant par définition indissociables de l'animal).
-
-Les compétences marquées d’un astérisque (*) sont des compétences de classe pour les compagnons animaux. Les compagnons animaux qui possèdent une valeur d’[[Intelligence]] égale ou supérieure à 3 peuvent investir des points de compétence dans n’importe quelle compétence.
+Les compagnons animaux peuvent investir des points de compétences dans les compétences suivantes : [[Acrobaties]]* (Dex), [[Discrétion]]* (Dex), [[Escalade]]* (For), [[Évasion]] (Dex), [[Intimidation]] (Cha), [[Natation]]* (For), [[Perception]]* (Sag), [[Survie]] (Sag) et [[Vol]]* (Dex). Les Modificateurs raciaux de l'espèce en revanche sont gagnés automatiquement (étant par définition indissociables de l'animal). Les compétences marquées d’un astérisque (*) sont des compétences de classe pour les compagnons animaux. Les compagnons animaux qui possèdent une valeur d’[[Intelligence]] égale ou supérieure à 3 peuvent investir des points de compétence dans n’importe quelle compétence.
 
 {s:Reference|DONS}
 === Dons des animaux ===
-
-Les compagnons animaux peuvent choisir des dons parmi les suivants : [[Arme de prédilection]], [[Arme naturelle supérieure]], [[Armure naturelle supérieure]], [[Athlétisme]], [[Attaque éclair]], [[Attaque en finesse]], [[Attaque en puissance]], [[Attaques réflexes]], [[Combat en aveugle]], [[Course]], [[Discret]], [[Dur à cuire]], [[Endurance]], [[Esquive]], [[Manœuvres agiles]], [[Port des armures intermédiaires]], [[Port des armures légères]], [[Port des armures lourdes]], [[Force intimidante]], [[Réflexes surhumains]], [[Robustesse]], [[Science de linitiative|Science de l’initiative]], [[Science de la bousculade]], [[Science du renversement]], [[Souplesse du serpent]], [[Talent]], [[Vigueur surhumaine]], [[Volonté de fer]] et [[Voltigeur]].
-
-Les compagnons animaux possédant une [[Intelligence]] égale ou supérieure à 3 peuvent choisir n’importe quel don adapté à leurs capacités physiques. Les MJ peuvent compléter cette liste avec des dons provenant d’autres sources.
-
+Les compagnons animaux peuvent choisir des dons parmi les suivants : [[Arme de prédilection]], [[Arme naturelle supérieure]], [[Armure naturelle supérieure]], [[Athlétisme]], [[Attaque éclair]], [[Attaque en finesse]], [[Attaque en puissance]], [[Attaques réflexes]], [[Combat en aveugle]], [[Course]], [[Discret]], [[Dur à cuire]], [[Endurance]], [[Esquive]], [[Manœuvres agiles]], [[Port des armures intermédiaires]], [[Port des armures légères]], [[Port des armures lourdes]], [[Force intimidante]], [[Réflexes surhumains]], [[Robustesse]], [[Science de linitiative|Science de l’initiative]], [[Science de la bousculade]], [[Science du renversement]], [[Souplesse du serpent]], [[Talent]], [[Vigueur surhumaine]], [[Volonté de fer]] et [[Voltigeur]]. Les compagnons animaux possédant une [[Intelligence]] égale ou supérieure à 3 peuvent choisir n’importe quel don adapté à leurs capacités physiques. Les MJ peuvent compléter cette liste avec des dons provenant d’autres sources.
