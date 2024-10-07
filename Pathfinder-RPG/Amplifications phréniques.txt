@@ -1,17 +1,13 @@
 ---
 Name: Pathfinder-RPG.Amplifications phréniques
-Title: Amplifications phréniques de psychiste
-LastModified: 2021-08-31 19:38
+Title: Les amplifications phréniques du psychiste
+LastModified: 2024-10-03 15:38
 Categories:
   - 'Src Aventures occultes'
 ---
-{s:Menuclassesoccultes}Un [[psychiste]] développe des techniques particulières, appelées amplifications phréniques, pour amplifier ses incantations. Il peut activer une amplification phrénique uniquement quand il lance un sort de magie psychique et celle-ci modifie alors les effets du sort ou l’incantation elle même.
+{s:Menuclassesoccultes}{s:AO}Un [[psychiste]] développe des techniques particulières, appelées amplifications phréniques, pour amplifier ses incantations. Il peut activer une amplification phrénique uniquement quand il lance un sort de magie psychique et celle-ci modifie alors les effets du sort ou l’incantation elle même.
 
-Le sort en cours d’incantation est appelé sort lié. Le psychiste peut activer une seule amplification à chaque incantation et cette activation est incluse dans l’action effectuée pour lancer le sort. Il peut utiliser n’importe quelle amplification de son répertoire avec n’importe quel sort psychique. Certaines amplifications restreignent toutefois leur application à certains types de sorts. Un psychiste apprend une amplification phrénique au niveau 1 qu’il choisit dans la liste des améliorations phréniques. Au niveau 3 et tous les 4 niveaux par la suite, le psychiste apprend une nouvelle amplification phrénique.
-
-Il n’est pas possible de choisir plusieurs fois une même amplification phrénique.
-
-Le choix d’une amplification phrénique est définitif et il est impossible d’en changer. Le psychiste doit dépenser un ou plusieurs points de sa [[Psychiste#RESERVEPHRENIQUE|réserve phrénique]] pour activer ses amplifications.
+Le sort en cours d’incantation est appelé sort lié. Le psychiste peut activer une seule amplification à chaque incantation et cette activation est incluse dans l’action effectuée pour lancer le sort. Il peut utiliser n’importe quelle amplification de son répertoire avec n’importe quel sort psychique. Certaines amplifications restreignent toutefois leur application à certains types de sorts. Un psychiste apprend une amplification phrénique au niveau 1 qu’il choisit dans la liste des améliorations phréniques. Au niveau 3 et tous les 4 niveaux par la suite, le psychiste apprend une nouvelle amplification phrénique. Il n’est pas possible de choisir plusieurs fois une même amplification phrénique. Le choix d’une amplification phrénique est définitif et il est impossible d’en changer. Le psychiste doit dépenser un ou plusieurs points de sa [[Psychiste#RESERVEPHRENIQUE|réserve phrénique]] pour activer ses amplifications.
 
 {| CLASS="tablo toutgauche centre autoalt" WIDTH="94%"
 |+ Amplifications phréniques de psychistes 
@@ -41,28 +37,29 @@ Le choix d’une amplification phrénique est définitif et il est impossible d�
 | [[Amplifications phréniques#CHOCSYNAPTIQUE|Choc synaptique]] || [[Amplifications phréniques#DOUBLEAMPLIFICATION|Double amplification]] || [[Amplifications phréniques#SORTSUBORDONNÉ|Sort subordonné]]
 |}
 
-===Amplifications phréniques===
-<div class="article_2col">{s:AO}{s:Reference|ARMUREINVOQUÉE}
+===Description des amplifications phréniques===
+<table width="100%"><tr><td width="49%">
+{s:Reference|ARMUREINVOQUÉE}
 ====Armure invoquée (Sur)====
 En dépensant 1 point de sa [Psychiste#RESERVEPHRENIQUE|réserve phrénique], le psychiste confère un bonus de parade de +2 à la [CA] d’une créature qu’il appelle ou convoque avec le sort lié. Ce bonus dure 1 round par niveau de lanceur de sorts ou jusqu’à la disparition de la créature, selon ce qui se produit en premier. Cette amplification peut uniquement être liée aux sorts d’invocation (appel) ou d’invocation (convocation). Le bonus s’élève à +3 au niveau 8 et à +4 au niveau 15.
 
-{s:AO}{s:Reference|CONTREMESURECOMPLEXE}
+{s:Reference|CONTREMESURECOMPLEXE}
 ====Contre-mesure complexe (Ext)====
 Le psychiste peut dépenser 1 point de sa [Psychiste#RESERVEPHRENIQUE|réserve phrénique] pour augmenter de 2 le DD des tests de concentration ou de niveau de lanceur de sorts effectués par les ennemis vis-à-vis du sort lié. Par exemple, si le sort lié est une antidétection, le [DD] du test de niveau de lanceur de sorts effectué pour utiliser un sort de divination sur la créature ou l’objet protégé est augmenté. Cette augmentation complique également les tests de dissipation, les [Lancer des sorts#CONTRESORT|contresorts] ou les tentatives d’identification du sort lié. Le bonus s’applique au moment de l’incantation du sort et persiste pendant toute sa durée (le cas échéant), jusqu’à un maximum de 24 heures. Le psychiste peut dépenser 2 points de sa [Psychiste#RESERVEPHRENIQUE|réserve phrénique] pour augmenter de 4 au lieu de 2 les [DD] du sort lié.
 
-{s:AO}{s:Reference|DÉFENSEPERSISTANTE}
+{s:Reference|DÉFENSEPERSISTANTE}
 ====Défense persistante (Sur)====
 Le psychiste peut augmenter la durée des sorts qui améliorent ses défenses psychiques. Il peut dépenser 1 point de sa [Psychiste#RESERVEPHRENIQUE|réserve phrénique] quand il lance un sort de forteresse intellectuelle, de barrière mentale, de bouclier des pensées ou de tour de volonté de fer pour rallonger la durée du sort d’un round.
 
-{s:AO}{s:Reference|ESPRITDOMINANT}
+{s:Reference|ESPRITDOMINANT}
 ====Esprit dominant (Ext)====
 Le psychiste peut dépenser 2 points de sa [Psychiste#RESERVEPHRENIQUE|réserve phrénique] pour augmenter de 1 le [DD] des jets de Volonté du sort lié. Au niveau 8, il peut dépenser 4 points au lieu de 2 pour augmenter le [DD] de 2. Au niveau 15, il peut dépenser 6 points au lieu de 4 ou 2 pour augmenter le [DD] de 3. Cette amplification peut être liée uniquement aux sorts du registre mental qui autorisent un jet de Volonté.
 
-{s:AO}{s:Reference|FOCALISATIONINTENSIFIÉE}
+{s:Reference|FOCALISATIONINTENSIFIÉE}
 ====Focalisation intensifiée (Ext)====
 Le psychiste peut dépenser 1 point de sa [Psychiste#RESERVEPHRENIQUE|réserve phrénique] pour bénéficier d’un bonus de +2 aux éventuels [Lancer des sorts#TESTCONCENTRATION|tests de concentration] effectués lors de l’incantation du sort lié. Il peut dépenser 2 points de sa réserve phrénique au lieu d’un seul pour bénéficier d’un bonus de +4.
 
-{s:AO}{s:Reference|FORCEINTENSIFIÉE}
+{s:Reference|FORCEINTENSIFIÉE}
 ====Force intensifiée (Sur)====
 Quand il lance un sort de force, le psychiste peut augmenter les dégâts du sort en dépensant 1 point de sa [Psychiste#RESERVEPHRENIQUE|réserve phrénique]. Augmentez d’une catégorie le dé lancé pour déterminer les dégâts du sort (de 1d4 à 1d6, de 1d6 à 1d8, de 1d8 à 1d10 ou de 1d10 à 1d12). L’utilisation de cette amplification augmente la catégorie de chaque dé lancé ; ainsi, un sort qui inflige 4d6+3 points de dégâts de force infligera 4d8+3 points de dégâts de force si cette amplification lui est liée. Elle peut être liée uniquement aux sorts qui infligent des dégâts de force et seulement si ces dégâts sont déterminés par le lancer d‘un ou plusieurs dés. Un sort dont les dégâts sont déterminés par le lancer d’un ou plusieurs d12 ne peut pas être amplifié de cette façon.
 
@@ -70,15 +67,17 @@ Quand il lance un sort de force, le psychiste peut augmenter les dégâts du sor
 ====Frappe phrénique (Sur)====
 Tant que le psychiste a encore 1 point dans sa [[Psychiste#RESERVEPHRENIQUE|réserve phrénique]], il peut tenter une manœuvre de [[désarmement]] à la place d'une attaque de contact pour toucher avec un sort. Cette manœuvre de désarmement provoque des [[AO|attaques d'opportunité]] comme à l’accoutumée sauf si le psychiste peut porter des attaques à mains nues sans provoquer d'attaque d'opportunité.
 
-{s:AO}{s:Reference|INCANTATIONIMPLACABLE}
+{s:Reference|INCANTATIONIMPLACABLE}
 ====Incantation implacable (Sur)====
 Le psychiste peut dépenser 1 point de sa [Psychiste#RESERVEPHRENIQUE|réserve phrénique] pour effectuer deux tests de niveau de lanceur de sorts afin d’ignorer la résistance à la magie des cibles du sort lié et conserver le meilleur résultat. Le psychiste doit décider s’il dépense des points de sa [Psychiste#RESERVEPHRENIQUE|réserve phrénique] dès qu’il commence l’incantation du sort et s’il utilise ou non cette amplification avant que le MJ ne réclame un test de niveau de lanceur de sorts.
 
-{s:AO}{s:Reference|PRÉDICTIONDÉFENSIVE}
+{s:Reference|PRÉDICTIONDÉFENSIVE}
 ====Prédiction défensive (Sur)====
 Quand il lance un sort de divination, le psychiste a une brève vision de son avenir. En dépensant 1 point de sa [Psychiste#RESERVEPHRENIQUE|réserve phrénique] lors de l’incantation d’un sort de divination, il bénéficie d’un bonus d’intuition de +2 à la [CA] pendant un nombre de rounds égal au niveau du sort lié. Il peut dépenser 2 points au lieu d’un pour que le bonus passe à +4. Cette amplification peut uniquement être liée aux sorts de divination.
-
-{s:AO}{s:Reference|PROTECTIONMENTALE}
+</td><td width="1%">
+<td style="border-left:1px solid #4b3124;width=" width="1%"></td>
+</td><td width="49%">
+{s:Reference|PROTECTIONMENTALE}
 ====Protection mentale (Sur)====
 Le psychiste peut dépenser 1 point de sa [Psychiste#RESERVEPHRENIQUE|réserve phrénique] pour conférer à une cible du sort lié un bonus de moral de +2 aux jets de Volonté pendant 1 round par niveau de psychiste (jusqu’à un maximum de 10 rounds). Le psychiste peut dépenser 2 points au lieu d’un seul pour conférer un bonus de +4. Si le sort lié affecte plusieurs créatures, le psychiste peut dépenser le même nombre de points pour chaque créature supplémentaire qu’il souhaite affecter avec cette amplification. Il doit choisir s’il dépense 1 ou 2 points par créature ; il ne peut pas conférer des bonus différents à différentes créatures.
 
@@ -86,7 +85,7 @@ Le psychiste peut dépenser 1 point de sa [Psychiste#RESERVEPHRENIQUE|réserve p
 ====Psycho-réaction (Sur)====
 Le psychiste peut dépenser 2 points de sa [[Psychiste#RESERVEPHRENIQUE|réserve phrénique]] pour sacrifier un sort lié de niveau 2 ou plus. Ce faisant, le psychiste obtient un bonus d'altération de +1 à la [[Force]], la [[Dextérité]] ou la [[Constitution]] par niveau du sort sacrifié. Ce bonus dure pendant 1 minute par niveau de psychiste du personnage.
 
-{s:AO}{s:Reference|RENFORCEMENTDESINCANTATIONSRÉDUITES}
+{s:Reference|RENFORCEMENTDESINCANTATIONSRÉDUITES}
 ====Renforcement des incantations réduites (Sur)====
 Quand le psychiste lance une version réduite d’un sort , il peut dépenser des points de sa [Psychiste#RESERVEPHRENIQUE|réserve phrénique] pour augmenter le niveau effectif du sort. Ainsi, dans les faits, il utilise un emplacement desort de niveau inférieur pour lancer une version du sort de niveau supérieur. La dépense est égale à 2 points par niveau de sort en plus. Le personnage ne peut pas utiliser cette amplification pour lancer une version supérieure à celle qu’il connaît. Par exemple, un psychiste qui connaît coup mental III mais pas coup mental IV peut lancer coup mental II et dépenser 2 points pour le considérer comme un coup mental III, mais il ne peut pas dépenser 4 points pour le considérer comme un sort de coup mental IV. Cette amplification ne peut être liée qu’aux sorts dont il est possible de lancer une version réduite.
 
@@ -98,7 +97,7 @@ Lorsque le psychiste lance le sort ''[[lien télépathique]]'', il peut dépense
 ====Soins biocinétiques (Sur)====
 Lorsque le psychiste lance un sort lié de l'école de la [[transmutation]], il peut dépenser 1 point de sa [[Psychiste#RESERVEPHRENIQUE|réserve phrénique]] pour récupérer 2 [[pv|points de vie]] par niveau du sort lié.
 
-{s:AO}{s:Reference|SONDEMENTALE}
+{s:Reference|SONDEMENTALE}
 ====Sonde mentale (Sur)====
 Le psychiste peut dépenser 1 point de sa [Psychiste#RESERVEPHRENIQUE|réserve phrénique] pour sonder l’esprit d’une cible si celle-ci est affectée par le sort lié. Si la cible du sort lié rate son jet de sauvegarde ou est touchée par le sort, le psychiste détecte ses pensées superficielles (comme l’effet produit lors du troisième round d’utilisation d’une détection de pensées). Si le sort n’autorise normalement aucun jet de sauvegarde ou ne nécessite aucun jet d’attaque, la cible peut effectuer un jet de Volonté uniquement pour éviter l’effet de détection de pensées ; le [DD] est calculé en appliquant le niveau du sort lié (et tous les autres bonus qui devraient s’appliquer si le sort lié autorisait un jet de Volonté). Cette amplification peut uniquement être liée aux sorts qui affectent une zone ou une cible.
 
@@ -112,13 +111,17 @@ Le psychiste peut dépenser 2 points de sa [[Psychiste#RESERVEPHRENIQUE|réserve
 ====Transférer la peur (Sur)====
 Lorsque le psychiste réussit à imposer un effet de peur à une créature, il peut dépenser 1 point de sa [[Psychiste#RESERVEPHRENIQUE|réserve phrénique]] pour annuler un effet de peur dont lui ou un de ses alliés avec qui il est en contact télépathique souffre.
 
-{s:AO}{s:Reference|VOLONTÉDESMORTS}
+{s:Reference|VOLONTÉDESMORTS}
 ====Volonté des morts (Sur)====
 Mêmes les morts-vivants peuvent être affectés par les sorts mentaux du psychiste. Celui-ci peut dépenser 2 points de sa [Psychiste#RESERVEPHRENIQUE|réserve phrénique] pour ignorer l’immunité d’un mort-vivant aux effets mentaux en ce qui concerne le sort lié. Cette amplification fonctionne même sur un mort-vivant dénué d’intelligence mais reste inefficace contre les créatures qui ne sont pas des morts-vivants. Elle peut être liée aux sorts du registre mental seulement.
-</div>
+</td></tr></table>
 
-===Amplifications majeures===
-<div class="article_2col">{s:AO}{s:Reference|BOUCLIERDERENVOIDESSORTS}
+{s:Reference|AMPLIFICATIONSMAJEURES}
+===Description des amplifications majeures===
+Au niveau 11 et tous les 4 niveaux par la suite, un psychiste choisit l’une des amplifications majeures à la place d’une amplification phrénique.
+
+<table width="100%"><tr><td width="49%">
+{s:Reference|BOUCLIERDERENVOIDESSORTS}
 ====Bouclier de renvoi des sorts (Sur)====
 Le psychiste peut transformer son surplus d’énergie magique en une protection qui détourne les sorts moins puissants. Il peut dépenser un nombre de points de sa [Psychiste#RESERVEPHRENIQUE|réserve phrénique] égal au niveau du sort lié pour bénéficier des effets d’un renvoi des sorts pendant 1 round par niveau de psychiste. Le nombre de niveaux de sort qu’il peut renvoyer est égal au niveau du sort lié.
 
@@ -126,7 +129,7 @@ Le psychiste peut transformer son surplus d’énergie magique en une protection
 ====Champ de parade (Sur)====
 Chaque fois que le psychique lance un sort lié qui lui accorde un bonus de parade à la [[CA]], il peut dépenser 2 points de sa [[Psychiste#RESERVEPHRENIQUE|réserve phrénique]] pour refléter automatiquement la première attaque à distance qui la rate (tant que le sort lié reste actif) sur son lanceur. Cette attaque réfléchie utilise le [[jet dattaque|jet d'attaque]] original plus un bonus de circonstances égal au [[NLS|niveau de lanceur de sorts]] du psychiste.
 
-{s:AO}{s:Reference|CHOCSYNAPTIQUE}
+{s:Reference|CHOCSYNAPTIQUE}
 ====Choc synaptique (Sur)====
 Le psychiste brutalise l’esprit d’un ennemi pour le blesser en plus des effets produits par son sort lié. Il peut dépenser 1 point de sa [Psychiste#RESERVEPHRENIQUE|réserve phrénique] quand il lance un sort mental lié pour désigner une des cibles du sort. Si le sort lié affecte la cible désignée, celle-ci est confuse pendant 1 round une fois la durée du sort terminée (ou immédiatement si la durée du sort est instantanée). Si la cible réussit son jet de sauvegarde contre le sort lié, elle est immédiatement confuse pendant 1 round à la place. Pour chaque point supplémentaire de sa réserve phrénique dépensé par le psychiste, il peut plonger une cible supplémentaire du sort lié dans la confusion. Cette amplification peut uniquement
 être appliquée à un sort mental qui affecte un certain nombre de cibles ou une zone d’effet. Elle ne produit aucun effet sur les créatures immunisées aux effets mentaux, à moins que le sort lié puisse affecter ce type de créatures (tel qu’un sort qui bénéficie à lafois de la volonté des morts et du choc synaptique appliqués grâce à la double amplification).
@@ -135,15 +138,17 @@ Le psychiste brutalise l’esprit d’un ennemi pour le blesser en plus des effe
 ====Ciblage télépathique (Sur)====
 En dépensant 2 points de sa [[Psychiste#RESERVEPHRENIQUE|réserve phrénique]], le psychiste peut cibler toute créature avec laquelle il est en communication télépathique (via sa capacité [[Psychiste#LIENTELEPATHIQUE|lien télépathique]], la capacité [[Télépathie (capacité)|télépathie]] d'une créature, ou un autre effet) avec le sort lié, même si la créature est hors de portée du sort. Le sort lié doit être un effet mental avec une portée de contact ou supérieure.
 
-{s:AO}{s:Reference|DISTORSIONDESDISTANCES}
+{s:Reference|DISTORSIONDESDISTANCES}
 ====Distorsion des distances (Sur)====
 Le psychiste peut plier et distordre l’espace par la seule force de son esprit afin de se téléporter quand il lance le sort lié. Il se téléporte sur une distance de 3 mètres (comme avec une porte dimensionnelle) par point dépensé de sa [Psychiste#RESERVEPHRENIQUE|réserve phrénique]. Le nombre maximum de points qu’il peut dépenser de cette façon est égal au niveau du sort lié.
 
-{s:AO}{s:Reference|DOUBLEAMPLIFICATION}
+{s:Reference|DOUBLEAMPLIFICATION}
 ====Double amplification (Ext)====
 Quand le psychiste utilise cette amplification majeure, il choisit deux autres amplifications simples ou majeures de son répertoire et les lie au même sort. Il doit dépenser 1 point de sa [Psychiste#RESERVEPHRENIQUE|réserve phrénique] pour ce faire, plus le coût des deux amplifications. Il ne peut pas appliquer plusieurs fois la même amplification au sort lié, même s’il peut utiliser cette amplification pour produire plusieurs effets différents.
-
-{s:AO}{s:Reference|IMITATIONDELAMÉTAMAGIE}
+</td><td width="1%">
+<td style="border-left:1px solid #4b3124;width=" width="1%"></td>
+</td><td width="49%">
+{s:Reference|IMITATIONDELAMÉTAMAGIE}
 ====Imitation de métamagie (Ext)====
 Le psychiste choisit deux [dons de métamagie|dons de métamagie] (il n’a pas besoin de les posséder déjà) quand il acquiert cette amplification.
 
@@ -152,11 +157,11 @@ modifié en conséquence. Le psychiste peut toujours appliquer les [dons de mét
 
 Par exemple, un psychiste de niveau 11 pourrait dépenser 8 points pour appliquer l’Incantation rapide sur un sort de niveau 1 mais il ne pourrait pas appliquer ce même don sur un sort de niveau 2 car il n’est pas encore capable de lancer des sorts de niveau 6. Toutefois, l’utilisation de cette amplification n’oblige pas le psychiste à posséder des emplacements de sort libres du niveau approprié et le psychiste de l’exemple ci-dessus pourrait ainsi appliquer l’Incantation rapide sur un sort de niveau 1, même s’il avait déjà lancé tous ses sorts de niveau 5 de la journée. Un psychiste peut choisir cette amplification plusieurs fois, en ajoutant à chaque fois deux [dons de métamagie|dons de métamagie] supplémentaires à la liste de ceux qu’il peut appliquer en utilisant cette amplification.
 
-{s:AO}{s:Reference|PULSATIONDISSIPATRICE}
+{s:Reference|PULSATIONDISSIPATRICE}
 ====Pulsation dissipatrice (Sur)====
 Le psychiste peut dépenser 3 points de sa [Psychiste#RESERVEPHRENIQUE|réserve phrénique] pour injecter de la magie de dissipation dans un sort. Si la cible est touchée par ce sort lié ou rate son jet de sauvegarde, on considère que le psychiste lui a également lancé une dissipation de la magie ciblée. Cet effet peut uniquement dissiper les sorts de niveau égal ou inférieur au sort lié. Si le sort lié ne nécessite aucun jet d’attaque ou n’autorise aucun jet de sauvegarde, la cible peut effectuer un jet de Volonté pour éviter l’effet de dissipation seulement ; on calcule le [DD] en appliquant le niveau du sort lié (et tous les autres bonus qui devraient normalement s’appliquer si le sort lié autorisait un jet de Volonté). Cette amplification ne peut être liée qu’à des sorts qui ciblent une créature ou un objet.
 
-{s:AO}{s:Reference|SORTSUBORDONNÉ}
+{s:Reference|SORTSUBORDONNÉ}
 ====Sort subordonné (Ext)====
 Le psychiste peut fractionner son esprit pour lancer un sort de moindre puissance sur lui-même en même temps que le sort lié. Le niveau du sort lié ne peut être inférieur à 5 et son temps d’incantation ne peut être inférieur à une action simple. Cette restriction concerne le temps d’incantation éventuellement modifié et le psychiste ne peut donc pas ajouter un sort subordonné à un sort à incantation rapide. Le temps d’incantation du sort subordonné doit être égal ou inférieur à une action simple et son niveau ne peut être supérieur à celui du sort lié - 5. Le sort subordonné doit cibler le psychiste uniquement (même s’il peut normalement affecter d’autres cibles ou plusieurs cibles). Le psychiste doit dépenser un nombre de points de sa [Psychiste#RESERVEPHRENIQUE|réserve phrénique] égal à 3 + deux fois le niveau du sort subordonné. Le sort subordonné fonctionne comme si le sort avait été effectivement lancé et dépense une utilisation de sort du niveau correspondant que le psychiste peut lancer chaque jour. Les effets des deux sorts sont séparés et chacun peut donc nécessiter des tests de concentration distincts.
-</div>
+</td></tr></table>

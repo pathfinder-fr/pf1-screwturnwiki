@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.arcanes
-Title: Les arcanes de magus
-LastModified: 2023-08-29 17:09
+Title: Les arcanes du magus
+LastModified: 2024-10-05 16:33
 Categories:
   - 'Classe'
   - 'Règle officielle'
@@ -72,7 +72,7 @@ Les arcanes de magus suivants sont accessibles à tous les magi qui remplissent 
 |}
 
 ===Arcanes de magus===
-<div class="article_2col">
+<table width="100%"><tr><td width="49%">
 {s:uc}{s:Reference|AFFUTAGEARCANIQUE}
 ====Affûtage arcanique (Sur)====
 Le magus peut dépenser 1 point de sa réserve magique par une [[action immédiate]], juste après avoir touché une cible avec une arme tranchante ou perforante. Il lui inflige alors un montant de points de [[saignement]] égal à son modificateur d’[[Intelligence]] (0 au minimum). Il doit avoir atteint le niveau 9 avant de choisir cet arcane.
@@ -214,7 +214,9 @@ Le magus peut utiliser sa frappe magique à distance pour des sorts de portée c
 Le magus peut utiliser sa frappe magique à distance en considérant les sorts comme ayant une portée égale à la portée maximale de l'arc.
  	
 Le magus doit être au moins de niveau 12 et disposer de la frappe magique à distance avant de choisir cet arcane.
-
+</td><td width="1%">
+<td style="border-left:1px solid #4b3124;width=" width="1%"></td>
+</td><td width="49%">
 {s:uc}{s:Reference|LAMEDEDIEE}
 ====Lame dédiée (Sur)====
 Quand le magus améliore son arme à l’aide de sa [[réserve magique]], il peut dépenser un point de plus pour ajouter les propriétés ''[[anarchique (propriété)|anarchique]]'', ''[[axiomatique (propriété)|axiomatique]]'', ''[[impie (propriété)|impie]]'' ou ''[[sainte (propriété)|sainte]]'' à la liste disponible. La propriété choisie doit correspondre à son propre alignement. Le magus doit avoir atteint le niveau 12 avant de choisir cet arcane.
@@ -353,7 +355,7 @@ Au niveau 6 et, par la suite, tous les trois niveaux, la quantité des dégâts 
 ====Sombre altération (Sur)==== 	
 {s:cs}<div class="description">'''Source :''' Ranged Tactics Toolbox (RTT).</div>
 
-Le magus peut dépenser 1 point ou plus de sa [[réserve magique]] par une [[action de mouvement]] pour déplacer la zone d'effet d'un sort avec le descriptif de l'ombre. Le nouvel emplacement doit être inclus dans la zone d'effet du sort, et le personnage utilise son niveau de magus comme [[NLS]] pour déterminer la distance maximale de déplacement. Si l'effet provient d'une autre source que du magus, ce dernier a droit à un test de lanceur de sorts pour déplacer l'effet (DD 11 + [[NLS]] de l'effet). En cas d'échec, l'action est perdue, mais pas le point de la réserve.
+Le magus peut dépenser 1 point ou plus de sa [[réserve magique]] par une [[action de mouvement]] pour déplacer la zone d'effet d'un sort avec le [[registre]] de l'ombre. Le nouvel emplacement doit être inclus dans la zone d'effet du sort, et le personnage utilise son niveau de magus comme [[NLS]] pour déterminer la distance maximale de déplacement. Si l'effet provient d'une autre source que du magus, ce dernier a droit à un test de lanceur de sorts pour déplacer l'effet (DD 11 + [[NLS]] de l'effet). En cas d'échec, l'action est perdue, mais pas le point de la réserve.
 
 Le magus doit être au moins de niveau 6 avant de choisir cet arcane.
 
@@ -364,4 +366,4 @@ Quand le magus touche sa cible avec une arme, il peut dépenser 1 point de sa [[
 {s:UM}{s:Reference|SPECIALISTEDESBAGUETTES}
 ====Spécialiste des baguettes (Sur)====
 Le magus peut activer une [[baguettes magiques|baguette]] ou un [[bâtons magiques|bâton]] au lieu de lancer un sort quand il utilise [[Magus#COMBATMAGIQUE|combat magique]].
-</div>
+</td></tr></table>

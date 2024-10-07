@@ -1,216 +1,216 @@
 ---
 Name: Pathfinder-RPG.talents sauvages
-Title: Les talents sauvages
-LastModified: 2024-07-15 00:49
+Title: Les talents sauvages du cinétiste
+LastModified: 2024-10-02 18:57
 ---
 {s:menuclassesoccultes}<div style="background-color: #fff; float: right; padding: 0 0 12px 12px">{toc}</div>{s:AO}
 Les talents sauvages des cinétistes sont l’expression de leurs pouvoirs.
 
-===Explosions cinétiques===  
+===Explosions cinétiques===
 Les explosions cinétiques comprennent les explosions simples et composites.
 
-{s:Reference|EXPLOSIONSSIMPLES}  
-====Explosions simples====  
+{s:Reference|EXPLOSIONSSIMPLES}
+====Explosions simples====
 Un cinétiste acquiert une explosion simple au niveau 1 par le biais de son [[cinétiste#ÉLÉMENTDEPRÉDILECTION|élément de prédilection]]. Certains éléments offrent plusieurs options. Quand un cinétiste choisit un nouvel élément grâce à l’aptitude de classe [[cinétiste#EXTENSIONÉLÉMENTAIRE|extension élémentaire]], il obtient également une explosion simple de cet élément. Chaque explosion simple est soit une explosion physique soit une explosion d’énergie destructive. Les explosions physiques sont des [[valeurs de combat#JETDATTAQUE|attaques à distance]] qui infligent un nombre de points de dégâts égal à 1d6+1 + le modificateur de [[Constitution]] du cinétiste. Ces dégâts augmentent de 1d6+1 tous les 2 niveaux de cinétiste après le premier. La [[résistance à la magie (capacité)|résistance à la magie]] ne s’applique pas contre les explosions physiques. Les explosions d’énergie destructive sont des [[valeurs de combat#ATTAQUESDECONTACT|attaques de contact à distance]] qui infligent un nombre de points de dégâts égal à 1d6 + la moitié du modificateur de [[Constitution]] du cinétiste. Ces dégâts augmentent de 1d6 tous les 2 niveaux de cinétiste après le premier.
 
-{s:Reference|EXPLOSIONDAIR}  
+{s:Reference|EXPLOSIONDAIR}
 __'''Explosion d’air'''__  
 '''Élément''' [[Éléments#AIR|Air]] ; '''Type''' explosion simple (Mag) ; '''Niveau''' - ; '''Brûlure''' 0  
 '''Type d’explosion''' physique ; '''Dégâts''' contondants  
 Le personnage projette une violente bourrasque de vent sur un unique adversaire.
 
-{s:Reference|EXPLOSIONDEAU}  
+{s:Reference|EXPLOSIONDEAU}
 __'''Explosion d’eau'''__  
 '''Élément''' [[Éléments#EAU|Eau]] ; '''Type''' explosion simple (Mag) ; '''Niveau''' - ; '''Brûlure''' 0  
 '''Type d’explosion''' physique ; '''Dégâts''' contondants  
 Le personnage projette un puissant flot d’eau sur un unique adversaire.
 
-{s:cs}{s:OO}{s:Reference|EXPLOSIONDEBOIS}  
+{s:cs}{s:OO}{s:Reference|EXPLOSIONDEBOIS}
 __'''Explosion de bois'''__  
 '''Élément''' [[Éléments#BOIS|Bois]] ; '''Type''' explosion simple (Mag) ; '''Niveau''' — ; '''Brûlure''' 0  
 '''Type d'explosion''' physique ; '''Dégâts''' contondants, tranchants ou perforants  
 Le personnage déchaîne une tempête de branches, de plantes, ou un déluge de fleurs piquantes.
 
-{s:Reference|EXPLOSIONDEFEU}  
+{s:Reference|EXPLOSIONDEFEU}
 __'''Explosion de feu'''__  
 '''Élément''' [[Éléments#FEU|Feu]] ; '''Type''' explosion simple (Mag) ; '''Niveau''' - ; '''Brûlure''' 0  
 '''Type d’explosion''' énergie destructive ; '''Dégâts''' feu  
 Le personnage produit une déflagration de flammes vacillantes pour incinérer un unique adversaire.
 
-{s:Reference|EXPLOSIONDEFROID}  
+{s:Reference|EXPLOSIONDEFROID}
 __'''Explosion de froid'''__  
 '''Élément''' [[Éléments#EAU|Eau]] ; '''Type''' explosion simple (Mag) ; '''Niveau''' - ; '''Brûlure''' 0  
 '''Type d’explosion''' énergie destructive ; '''Dégâts''' froid  
 Le personnage émet un rayon de froid extrême pour glacer les os d’un unique adversaire.
 
-{s:cs}{s:OO}{s:Reference|EXPLOSIONDEGRAVITÉ}  
+{s:cs}{s:OO}{s:Reference|EXPLOSIONDEGRAVITÉ}
 __'''Explosion de gravité'''__  
 '''Élément''' [[Éléments#VIDE|Vide]] ; '''Type''' explosion simple (Mag) ; '''Niveau''' — ; '''Brûlure''' 0  
 '''Type d'explosion''' physique ; '''Dégâts''' contondants  
 Le personnage manipule la gravité pour distordre et tourmenter le corps de sa cible.
 
-{s:Reference|EXPLOSIONDETERRE}  
+{s:Reference|EXPLOSIONDETERRE}
 __'''Explosion de terre'''__  
 '''Élément''' [[Éléments#TERRE|Terre]] ; '''Type''' explosion simple (Mag) ; '''Niveau''' - ; '''Brûlure''' 0  
 '''Type d’explosion''' physique ; '''Dégâts''' contondants, perforants ou tranchants  
 Le personnage donne à la terre la forme de mottes ou d’éclats et les projette sur un adversaire.
 
-{s:Reference|EXPLOSIONÉLECTRIQUE}  
+{s:Reference|EXPLOSIONÉLECTRIQUE}
 __'''Explosion électrique'''__  
 '''Élément''' [[Éléments#AIR|Air]] ; '''Type''' explosion simple (Mag) ; '''Niveau''' - ; '''Brûlure''' 0  
 '''Type d’explosion''' énergie destructive ; '''Dégâts''' électricité  
 Le personnage projette un arc électrique pour foudroyer un unique adversaire.
 
-{s:cs}{s:OO}{s:Reference|EXPLOSIONNÉGATIVE}  
+{s:cs}{s:OO}{s:Reference|EXPLOSIONNÉGATIVE}
 __'''Explosion négative'''__  
 '''Élément''' [[Éléments#VIDE|Vide]] ; '''Type''' explosion simple (Mag) ; '''Niveau''' — ; '''Brûlure''' 0  
 '''Type d'explosion''' énergie destructive ; '''Dégâts''' énergie négative  
 Le personnage surmène sa cible avec de l'énergie négative. Cette explosion et ses explosions composites ne soignent jamais les créatures, même si elles devraient êtres soignées par l'énergie négative (bien que ces créatures n'en subissent pas les dégâts).
 
-{s:Reference|EXPLOSIONTÉLÉCINÉTIQUE}  
+{s:Reference|EXPLOSIONTÉLÉCINÉTIQUE}
 __'''Explosion télécinétique'''__  
 '''Élément''' [[Éléments#ÉTHER|Éther]] ; '''Type''' explosion simple (Mag) ; '''Niveau''' - ; '''Brûlure''' 0  
 '''Type d’explosion''' physique ; '''Dégâts''' contondants, perforants ou tranchants  
 Le personnage lance un objet proche ni porté, ni transporté, sur un unique adversaire en effectuant une attaque à distance. L’objet ne doit pas peser plus de 2,5 kilos par niveau de cinétiste. Si l’attaque touche, la cible et l’objet lancé subissent chacun les dégâts de l’explosion. Puisque des filaments d’éther enveloppent l’objet, même si le personnage utilise ce pouvoir sur une arme magique ou un autre objet peu courant, l’attaque n’applique aucun des bonus ou effets de l’arme magique ; elle inflige simplement les dégâts de l’explosion. Par ailleurs, le personnage peut délier les filaments d’éther afin d’infliger des dégâts à la fois à l’objet et à la cible comme s’il avait lui-même lancé l’objet (au lieu d’infliger les dégâts normaux de l’explosion). Le personnage remplace son modificateur de [[Constitution]] par son modificateur de [[Force]] si celui-ci s’ajoute aux [[valeurs de combat#DEGATS|jets de dégâts]] infligés par le lancement normal de cet objet. De plus, le personnage ne subit pas le malus de -4 au [[valeurs de combat#JETDATTAQUE|jet d’attaque]] s’il lance un objet qui n’est pas conçu pour ça. Dans ce cas, les effets spéciaux de l’objet s’appliquent (y compris ceux occasionnés par les [[Matériaux spéciaux|matériaux spéciaux]] qui le composent) et, si l’objet est une arme, le personnage doit être formé à son maniement et capable de le tenir dans une main ; sinon, l’objet inflige des dégâts équivalents à ceux d’une [[arme improvisée]] à une main pour une créature de la taille du personnage.
 
-{s:Reference|EXPLOSIONSCOMPOSITES}  
-====Explosions composites====  
+{s:Reference|EXPLOSIONSCOMPOSITES}
+====Explosions composites====
 Les explosions composites combinent plusieurs éléments pour former une nouvelle explosion. Quand un cinétiste obtient un nouvel élément grâce à l’[[cinétiste#EXTENSIONÉLÉMENTAIRE|extension élémentaire]], il accède à toutes les explosions composites dont il satisfait les conditions d’acquisition. La plupart des explosions composites sont soit des explosions physiques, soit des explosions d’énergie destructive, comme les [[talents sauvages#EXPLOSIONSSIMPLES|explosions simples]]. Les explosions composites physiques infligent un nombre de points de dégâts égal à 2d6+2 + le modificateur de [[Constitution]] du cinétiste. Ces dégâts augmentent de 2d6+2 tous les 2 niveaux de cinétiste après le premier. Les explosions composites d’énergie destructive infligent un nombre de points de dégâts égal à 2d6 + la moitié du modificateur de [[Constitution]] du cinétiste. Ces dégâts augmentent de 2d6 tous les 2 niveaux de cinétiste après le premier.
 
-{s:cs}{s:OO}{s:Reference|ADJUVANTNÉGATIF}  
+{s:cs}{s:OO}{s:Reference|ADJUVANTNÉGATIF}
 __'''Adjuvant négatif'''__  
 '''Élément''' [[Éléments#VIDE|Vide]] ; '''Type''' explosion composite (Mag) ; '''Niveau''' — ; '''Brûlure''' 2  
 '''Conditions''' [[talents sauvages#EXPLOSIONNÉGATIVE|explosion négative]], une autre explosion d'[[talents sauvages#EXPLOSIONSSIMPLES|énergie destructive simple]]  
 '''Type d'explosion''' énergie destructive ; '''Dégâts''' voir texte  
 Le personnage choisit une autre [[talents sauvages#EXPLOSIONSSIMPLES|explosion d'énergie destructrice simple]] qu’il connaît. Les dégâts de l'Adjuvant négatif sont à moitié d’énergie négative et à moitié du type de l'explosion choisie.
 
-{s:cs}{s:OO}{s:Reference|EXPLOSIONAUTOMNALE}  
+{s:cs}{s:OO}{s:Reference|EXPLOSIONAUTOMNALE}
 __'''Explosion automnale'''__  
 '''Élément''' [[Éléments#TERRE|Terre]] et [[Éléments#BOIS|Bois]] ; '''Type''' explosion composite (Mag) ; '''Niveau''' — ; '''Brûlure''' 2  
 '''Conditions''' [[talents sauvages#EXPLOSIONDEBOIS|explosion de bois]], [[talents sauvages#EXPLOSIONDETERRE|explosion de terre]]  
 '''Type d'explosion''' physique; '''Dégâts''' 2 au choix parmi contondants, tranchants et perforants (la moitié chacun)  
 Une rafale de feuilles mortes et de terre délabrée s’abat sur un ennemi.
 
-{s:Reference|EXPLOSIONDEAUÉLECTRIFIÉE}  
+{s:Reference|EXPLOSIONDEAUÉLECTRIFIÉE}
 __'''Explosion d’eau électrifiée'''__  
 '''Élément''' [[Éléments#AIR|Air]] et [[Éléments#EAU|Eau]] ; '''Type''' explosion composite (Mag) ; '''Niveau''' - ; '''Brûlure''' 2  
 '''Conditions''' [[talents sauvages#EXPLOSIONDEAU|Explosion d'eau]], [[talents sauvages#EXPLOSIONÉLECTRIQUE|Explosion électrique]]  
 '''Type d’explosion''' physique ; '''Dégâts''' mi-contondants, mi-électricité  
 Le personnage projette un flot d’eau chargée en électricité sur un unique adversaire.
 
-{s:Reference|EXPLOSIONDÉCLAIR}  
+{s:Reference|EXPLOSIONDÉCLAIR}
 __'''Explosion d’éclair'''__  
 '''Élément''' [[Éléments#AIR|Air]] ; '''Type''' explosion composite (Mag) ; '''Niveau''' - ; '''Brûlure''' 2  
 '''Conditions''' [[cinétiste#ÉLÉMENTDEPRÉDILECTION|élément de prédilection]] ([[Éléments#AIR|Air]]), [[cinétiste#EXTENSIONÉLÉMETAIRE|extension élémentaire]] ([[Éléments#AIR|Air]])  
 '''Type d’explosion''' physique ; '''Dégâts''' mi-contondants, mi-électricité  
 Le personnage frappe un unique adversaire avec une bourrasque d’air chargée d’électricité crépitante.
 
-{s:Reference|EXPLOSIONDEBLIZZARD}  
+{s:Reference|EXPLOSIONDEBLIZZARD}
 __'''Explosion de blizzard'''__  
 '''Élément''' [[Éléments#AIR|Air]] et [[Éléments#EAU|Eau]] ; '''Type''' explosion composite (Mag) ; '''Niveau''' - ; '''Brûlure''' 2  
 '''Conditions''' [[talents sauvages#EXPLOSIONDAIR|Explosion d'air]], [[talents sauvages#EXPLOSIONDEFROID|Explosion de froid]]  
 '''Type d’explosion''' physique ; '''Dégâts''' mi-perforants, mi-froid  
 Le personnage projette un blizzard glacé sur un adversaire unique.
 
-{s:Reference|EXPLOSIONDEBOUE}  
+{s:Reference|EXPLOSIONDEBOUE}
 __'''Explosion de boue'''__  
 '''Élément''' [[Éléments#EAU|Eau]] et [[Éléments#TERRE|Terre]] ; '''Type''' explosion composite (Mag) ; '''Niveau''' - ; Brûlure 2  
 '''Conditions''' [[talents sauvages#EXPLOSIONDEAU|Explosion d'eau]], [[talents sauvages#EXPLOSIONDETERRE|Explosion de terre]]  
 '''Type d’explosion''' physique ; '''Dégâts''' contondants  
 Le personnage imprègne la terre de son eau pour créer une redoutable sphère de boue qu’il projette sur un unique adversaire.
 
-{s:Reference|EXPLOSIONDEFLAMMESBLEUES}  
+{s:Reference|EXPLOSIONDEFLAMMESBLEUES}
 __'''Explosion de flammes bleues'''__  
 '''Élément''' [[Éléments#FEU|Feu]] ; '''Type''' explosion composite (Mag) ; '''Niveau''' - ; '''Brûlure''' 2  
 '''Conditions''' [[cinétiste#ÉLÉMENTDEPRÉDILECTION|élément de prédilection]] ([[Éléments#FEU|Feu]]), [[cinétiste#EXTENSIONÉLÉMETAIRE|extension élémentaire]] ([[Éléments#FEU|Feu]])  
 '''Type d’explosion''' énergie destructive ; '''Dégâts''' feu  
 Le personnage projette une explosion concentrée de flammes bleues et brûlantes.
 
-{s:Reference|EXPLOSIONDEFORCE}  
+{s:Reference|EXPLOSIONDEFORCE}
 __'''Explosion de force'''__  
 '''Élément''' [[Éléments#ÉTHER|Éther]] ; '''Type''' explosion composite (Mag) ; '''Niveau''' - ; '''Brûlure''' 2  
 '''Conditions''' [[cinétiste#ÉLÉMENTDEPRÉDILECTION|élément de prédilection]] ([[Éléments#ÉTHER|Éther]]), [[cinétiste#EXTENSIONÉLÉMETAIRE|extension élémentaire]] ([[Éléments#ÉTHER|Éther]])  
 '''Type d’explosion''' énergie destructive ; '''Dégâts''' force (voir description)  
 Le personnage projette une rafale de force sur un adversaire. L’explosion de force inflige des dégâts équivalents à une explosion d’énergie destructive simple au lieu de ceux d’une explosion d’énergie destructive composite.
 
-{s:Reference|EXPLOSIONDEGLACE}  
+{s:Reference|EXPLOSIONDEGLACE}
 __'''Explosion de glace'''__  
 '''Élément''' [[Éléments#EAU|Eau]] ; '''Type''' explosion composite (Mag) ; '''Niveau''' - ; '''Brûlure''' 2  
 '''Conditions''' [[cinétiste#ÉLÉMENTDEPRÉDILECTION|élément de prédilection]] ([[Éléments#EAU|Eau]]), [[cinétiste#EXTENSIONÉLÉMETAIRE|extension élémentaire]] ([[Éléments#EAU|Eau]])  
 '''Type d’explosion''' physique ; '''Dégâts''' mi-perforants, mi-froid  
 Le personnage lance une stalactite de glace acérée sur un unique adversaire.
 
-{s:Reference|EXPLOSIONDEMAGMA}  
+{s:Reference|EXPLOSIONDEMAGMA}
 __'''Explosion de magma'''__  
 '''Élément''' [[Éléments#FEU|Feu]] et [[Éléments#TERRE|Terre]] ; '''Type''' explosion composite (Mag) ; '''Niveau''' - ; '''Brûlure''' 2  
 '''Conditions''' [[talents sauvages#EXPLOSIONDEFEU|Explosion de feu]], [[talents sauvages#EXPLOSIONDETERRE|Explosion de terre]]  
 '''Type d’explosion''' physique ; '''Dégâts''' mi-contondants, mi-feu  
 Le personnage utilise son feu pour surchauffer la terre et la transformer en une coulée de magma qu’il projette contre un unique adversaire.
 
-{s:Reference|EXPLOSIONDÉMETAL}  
+{s:Reference|EXPLOSIONDÉMETAL}
 __'''Explosion de métal'''__  
 '''Élément''' [[Éléments#TERRE|Terre]] ; '''Type''' explosion composite (Mag) ; '''Niveau''' - ; '''Brûlure''' 2  
 '''Conditions''' [[cinétiste#ÉLÉMENTDEPRÉDILECTION|élément de prédilection]] ([[Éléments#TERRE|Terre]]), [[cinétiste#EXTENSIONÉLÉMETAIRE|extension élémentaire]] ([[Éléments#TERRE|Terre]])  
 '''Type d’explosion''' physique ; '''Dégâts''' contondants, perforants ou tranchants  
 Le personnage façonne des boules, des éclats ou des lames métalliques qu’il projette sur un adversaire.
 
-{s:Reference|EXPLOSIONDEPLASMA}  
+{s:Reference|EXPLOSIONDEPLASMA}
 __'''Explosion de plasma'''__  
 '''Élément''' [[Éléments#AIR|Air]] et [[Éléments#FEU|Feu]] ; '''Type''' explosion composite (Mag) ; '''Niveau''' - ; '''Brûlure''' 2  
 '''Conditions''' [[talents sauvages#EXPLOSIONDAIR|Explosion d'air]], [[talents sauvages#EXPLOSIONDEFEU|Explosion de feu]]  
 '''Type d’explosion''' physique ; '''Dégâts''' mi-contondants, mi-feu  
 Le personnage projette une bourrasque d’air et la surchauffe ensuite de son feu pour la transformer en plasma au moment où elle frappe un unique adversaire.
 
-{s:Reference|EXPLOSIONDESABLE}  
+{s:Reference|EXPLOSIONDESABLE}
 __'''Explosion de sable'''__  
 '''Élément''' [[Éléments#AIR|Air]] et [[Éléments#TERRE|Terre]] ; '''Type''' explosion composite (Mag) ; '''Niveau''' - ; '''Brûlure''' 2  
 '''Conditions''' [[talents sauvages#EXPLOSIONDAIR|Explosion d'air]], [[talents sauvages#EXPLOSIONDETERRE|Explosion de terre]]  
 '''Type d’explosion''' physique ; '''Dégâts''' perforants et tranchants  
 Le personnage utilise son air pour soulever du sable qu’il projette en rafale sur un adversaire afin de le dépecer.
 
-{s:Reference|EXPLOSIONDEVAPEUR}  
+{s:Reference|EXPLOSIONDEVAPEUR}
 __'''Explosion de vapeur'''__  
 '''Élément''' [[Éléments#EAU|Eau]] et [[Éléments#FEU|Feu]] ; '''Type''' explosion composite (Mag) ; '''Niveau''' - ; '''Brûlure''' 2  
 '''Conditions''' [[talents sauvages#EXPLOSIONDEAU|Explosion d'eau]], [[talents sauvages#EXPLOSIONDEFEU|Explosion de feu]]  
 '''Type d’explosion''' physique ; '''Dégâts''' mi-contondants, mi-feu  
 Le personnage utilise son feu pour surchauffer de l’eau qu’il transforme en vapeur au moment où elle frappe un adversaire.
 
-{s:cs}{s:OO}{s:Reference|EXPLOSIONDEVIDE}  
+{s:cs}{s:OO}{s:Reference|EXPLOSIONDEVIDE}
 __'''Explosion de vide'''__  
 '''Élément''' [[Éléments#VIDE|Vide]] ; '''Type''' explosion composite (Mag) ; '''Niveau''' — ; '''Brûlure''' 2  
 '''Conditions''' [[Cinétiste#ÉLÉMENTDEPRÉDILECTION|élément de prédilection]] ([[Éléments#VIDE|vide]]), [[Cinétiste#EXTENSIONÉLÉMENTAIRE|extension élémentaire]] ([[Éléments#VIDE|vide]])  
 '''Type d'explosion''' physique ; '''Dégâts''' mi-contondants, mi-énergie négative  
 Le personnage en appelle au pouvoir du vide pour anéantir sa cible.
 
-{s:cs}{s:OO}{s:Reference|EXPLOSIONESTIVALE}  
+{s:cs}{s:OO}{s:Reference|EXPLOSIONESTIVALE}
 __'''Explosion estivale'''__  
 '''Élément''' [[Éléments#FEU|Feu]] et [[Éléments#BOIS|Bois]] ; '''Type''' explosion composite (Mag) ; '''Niveau''' — ; '''Brûlure''' 2  
 '''Conditions''' [[talents sauvages#EXPLOSIONDEFEU|explosion de feu]], [[talents sauvages#EXPLOSIONDEBOIS|explosion de bois]]  
 '''Type d'explosion''' physique ; '''Dégâts''' mi-feu et mi-contondants, tranchants ou perforants  
 Une explosion de chaleur brûlante et de feuillages séchés par le soleil jaillit sur la cible du personnage.
 
-{s:cs}{s:OO}{s:Reference|EXPLOSIONHIVERNALE}  
+{s:cs}{s:OO}{s:Reference|EXPLOSIONHIVERNALE}
 __'''Explosion hivernale'''__  
 '''Élément''' [[Éléments#EAU|Eau]] et [[Éléments#BOIS|Bois]] ; '''Type''' explosion composite (Mag) ; '''Niveau''' — ; '''Brûlure''' 2  
 '''Conditions''' [[talents sauvages#EXPLOSIONDEFROID|explosion de froid]], [[talents sauvages#EXPLOSIONDEBOIS|explosion de bois]]  
 '''Type d'explosion''' physique ; '''Dégâts''' mi-froid mi-contondants, tranchants ou perforants  
 Le personnage libère une explosion de froid glacial et de branches dentelées sur sa cible.
 
-{s:cs}{s:OO}{s:Reference|EXPLOSIONPRINTANIÈRE}  
+{s:cs}{s:OO}{s:Reference|EXPLOSIONPRINTANIÈRE}
 __'''Explosion printanière'''__  
 '''Élément''' [[Éléments#AIR|Air]] et [[Éléments#BOIS|Bois]] ; '''Type''' explosion composite (Mag) ; '''Niveau''' — ; '''Brûlure''' 2  
 '''Conditions''' [[talents sauvages#EXPLOSIONDEBOIS|explosion de bois]], [[talents sauvages#EXPLOSIONDAIR|explosion d’air]]  
 '''Type d'explosion''' physique ; '''Dégâts''' mi-contondants et mi-tranchants ou perforants  
 Des bourgeons pointus et des graines dures martèlent la cible du personnage.
 
-{s:Reference|IMPREGNATIONÉTHÉRÉE}  
+{s:Reference|IMPREGNATIONÉTHÉRÉE}
 __'''Imprégnation éthérée'''__  
 '''Élément''' [[Éléments#ÉTHER|Éther]] ; '''Type''' explosion composite (Mag) ; '''Niveau''' - ; '''Brûlure''' 2  
 '''Conditions''' [[talents sauvages#EXPLOSIONTÉLÉCINÉTIQUE|Explosion télécinétique]], extension élémentaire (tous)  
 '''Type d’explosion''' spécial ; '''Dégâts''' voir description  
 Le personnage imprègne d’éther une explosion simple qu’il sait produire. Cette explosion inflige alors 1 point de dégâts supplémentaire du même type par dé de dégâts lancés ; elle fonctionne par ailleurs comme une [[talents sauvages#EXPLOSIONSSIMPLES|explosion simple]]. Au niveau 15, le personnage peut également imprégner d’éther une explosion composite. Pour imprégner une explosion composite de cette façon, le personnage doit accepter 1 point de brûlure supplémentaire.
 
-{s:cs}{s:OO}{s:Reference|STIMULATIONGRAVITATIONNELLE}  
+{s:cs}{s:OO}{s:Reference|STIMULATIONGRAVITATIONNELLE}
 __'''Stimulation gravitationnelle'''__  
 '''Élément''' [[Éléments#VIDE|Vide]] ; '''Type''' explosion composite (Mag) ; '''Niveau''' — ; '''Brûlure''' 2  
 '''Conditions''' [[talents sauvages#EXPLOSIONDEGRAVITÉ|explosion de gravité]], une autre [[talents sauvages#EXPLOSIONSSIMPLES|explosion physique simple]]  
@@ -218,51 +218,51 @@ __'''Stimulation gravitationnelle'''__
 Le personnage injecte une importante force gravitationnelle dans une explosion physique simple, augmentant d'une catégorie ses dés de dégâts (les d6 deviennent des d8) ; elle inflige en revanche autant de dégâts qu'une [[talents sauvages#EXPLOSIONSSIMPLES|explosion simple]]. Au niveau 15, le personnage peut aussi injecter de la gravité dans une [[talents sauvages#EXPLOSIONSCOMPOSITES|explosion composite]], mais doit pour se faire accepter 1 point de brûlure supplémentaire.
 
 
-{s:Reference|TALENTSSAUVAGESDEDÉFENSE}  
-===Talents sauvages de défense===  
+{s:Reference|TALENTSSAUVAGESDEDÉFENSE}
+===Talents sauvages de défense===
 Un cinétiste de niveau 2 obtient le talent sauvage de défense correspondant à son [[cinétiste#ÉLÉMENTDEPRÉDILECTION|élément de prédilection]].
 
-{s:Reference|CORPSBRULANT}  
+{s:Reference|CORPSBRULANT}
 __'''Corps brûlant'''__  
 '''Élément''' [[Éléments#FEU|Feu]] ; '''Type''' défense (Sur) ; '''Niveau''' - ; '''Brûlure''' 0  
 Le corps du personnage devient extrêmement chaud. Chaque fois qu’une créature le touche avec une attaque naturelle ou à mains nues, elle subit un point de dégâts de feu par tranche de 4 niveaux de cinétiste (1 point de dégâts de feu au minimum). Une créature en [[manoeuvres offensives#LUTTE|situation de lutte]] avec le personnage subit le double de ce montant à la fin de chacun de ses tours. Les armes qui frappent le personnage subissent également ces dégâts, même s’il est peu probable qu’ils pénètrent la solidité de l’arme. En acceptant 1 point de brûlure, le personnage peut augmenter les dégâts de 1 point par tranche de 4 niveaux de cinétiste. Il conserve cette augmentation jusqu’au prochain moment où sa brûlure sera retirée. Le personnage peut augmenter jusqu’à sept fois les dégâts de cette façon. Chaque fois qu’il accepte une brûlure en utilisant un talent sauvage du [[Éléments#FEU|Feu]], la vague de flammes qui le traverse double le montant actuel de dégâts qu’inflige son corps brûlant pendant 1 round (une créature en [[manoeuvres offensives#LUTTE|situation de lutte]] avec le personnage subit un total quatre fois supérieur à celui normalement infligé). Le personnage peut activer ou désactiver cet effet par une [[Types dactions#IMMEDIATE|action immédiate]].
 
-{s:Reference|MANTEAUDEAU}  
+{s:Reference|MANTEAUDEAU}
 __'''Manteau d’eau'''__  
 '''Élément''' [[Éléments#EAU|Eau]] ; '''Type''' défense (Sur) ; '''Niveau''' - ; '''Brûlure''' 0  
 Une couche d’eau, de glace ou de ces deux éléments combinés entoure le personnage et le protège des coups. Le manteau peut soit recouvrir son corps pour le protéger comme une armure, soit flotter autour de lui pour bloquer les attaques comme un bouclier. Il confère un bonus d’armure de +4 à la [[CA]] ou un bonus de bouclier de +2 à la [[CA]] et le personnage peut changer le type de bonus par une [[Types dactions#SIMPLE|action simple]]. Ce bonus augmente de 1 par tranche de 4 niveaux de cinétiste au-delà du deuxième. En acceptant 1 point de brûlure, le personnage peut augmenter le bonus de 1 jusqu’au prochain moment où sa brûlure sera retirée. Il peut augmenter le bonus plusieurs fois de cette façon mais celui-ci ne peut dépasser sa valeur de départ augmentée de 50 %. Quand il modifie le manteau pour qu’il lui confère un bonus de bouclier, les bonus en plus de cette limite ne s’appliquent pas mais le personnage les conserve s’il change à nouveau le type de bonus. Chaque fois qu’il accepte une brûlure en utilisant un talent sauvage d’[[Éléments#EAU|Eau]], l’eau agglomérée autour de lui permet à son manteau de lui conférer le bonus d’armure et de bouclier en même temps pendant 1 round. Le personnage peut activer ou désactiver cet effet par une [[Types dactions#IMMEDIATE|action immédiate]].
 
-{s:cs}{s:OO}{s:Reference|PEAUDEBOIS}  
+{s:cs}{s:OO}{s:Reference|PEAUDEBOIS}
 __'''Peau de bois'''__  
-'''Élément''' [[Éléments#BOIS|Bois]] ; '''Type''' défense (Sur) ; '''Niveau''' — ; '''Brûlure''' 0 <br/>  
+'''Élément''' [[Éléments#BOIS|Bois]] ; '''Type''' défense (Sur) ; '''Niveau''' — ; '''Brûlure''' 0  
 La peau du personnage devient aussi dure que du bois et amortit l'impact de certaines attaques. Le personnage obtient un bonus d'altération de +1 à son [[CA|armure naturelle]] existante. En acceptant 1 point de brûlure, il peut augmenter ce bonus de 1. Tous les 3 niveaux après le niveau 2, il peut accepter 1 point de brûlure supplémentaire pour augmenter ce bonus d’altération de 1 (jusqu'à un maximum de +7 au niveau 17). Lorsqu'il accepte un point de brûlure en utilisant un talent sauvage du bois, le pouvoir phytocinétique du personnage permet à son bonus d'armure naturelle de s’appliquer à sa [[CA|CA au contact]] pendant 1 [[round]]. Le personnage peut activer et désactiver cet effet par une [[action immédiate]].
 
-{s:Reference|PEAUDEPIERRE}  
+{s:Reference|PEAUDEPIERRE}
 __'''Peau de pierre'''__  
 '''Élément''' [[Éléments#TERRE|Terre]] ; '''Type''' défense (Sur) ; '''Niveau''' - ; '''Brûlure''' 0  
 La peau du personnage devient aussi dure que la pierre et amortit l’impact de la plupart des attaques. Le personnage gagne une [[RD]] 1/adamantium. Cette [[RD]] augmente de 1 par tranche de 2 niveaux de cinétiste au-delà du deuxième. En acceptant 1 point de brûlure, le personnage peut augmenter la [[RD]] de 1, jusqu’à une [[RD]] maximale égale à son niveau de cinétiste. Il conserve cette augmentation jusqu’au prochain moment où sa brûlure sera retirée. Chaque fois que le personnage accepte une brûlure en utilisant un talent sauvage de la [[Éléments#TERRE|Terre]], l’énergie qui le traverse transforme sa [[RD]]/adamantium en [[RD]]/- pendant 1 round. Le personnage peut désactiver ou activer cet effet par une [[Types dactions#IMMEDIATE|action immédiate]].
 
-{s:Reference|PROTECTIONDEFORCE}  
+{s:Reference|PROTECTIONDEFORCE}
 __'''Protection de force'''__  
 '''Élément''' [[Éléments#ÉTHER|Éther]] ; '''Type''' défense (Sur) ; '''Niveau''' - ; '''Brûlure''' 0  
 Le personnage bénéficie en permanence d’une protection de force. Il gagne un nombre de points de vie temporaires égal à son niveau de cinétiste. Il perd toujours ces points de vie temporaires en premier, même avant ceux conférés par d’autres sources. Si une attaque lui inflige un nombre de points de dégâts inférieur au nombre de points de vie temporaires qu’il lui reste grâce à la protection de force, il réduit toujours ces points temporaires mais on considère par ailleurs que l’attaque est un échec dans le cadre des aptitudes ou pouvoirs qui se déclenchent en cas de réussite ou d’échec. Ces points de vie temporaires se régénèrent au rythme de 1 point par minute. En acceptant 1 point de brûlure par une [[Types dactions#SIMPLE|action simple]], le personnage peut augmenter le nombre maximum de points de vie temporaires conférés par sa protection de force d’un montant égal à la moitié de son niveau de cinétiste. Il conserve cette augmentation jusqu’au prochain moment où sa brûlure sera retirée. Les augmentations se cumulent s’il utilise ce pouvoir plusieurs fois. Pour chaque tranche de 2 points de brûlure acceptés de cette façon, le rythme de régénération de sa protection de force augmente de 1 point de vie par minute. Chaque fois qu’il accepte une brûlure en utilisant un talent sauvage de l’[[Éléments#ÉTHER|Éther]], le personnage siphonne une partie de l’énergie de cet élément qui le traverse et sa protection de force récupère un nombre de points de vie temporaires égal à son niveau de personnage, jusqu’à son maximum actuel. Le personnage peut activer ou désactiver sa protection de force par une [[Types dactions#IMMEDIATE|action immédiate]] mais cela ne change pas le nombre de points de vie temporaires disponibles et ceux-ci ne se régénèrent pas tant que ce pouvoir est désactivé.
 
-{s:cs}{s:OO}{s:Reference|VACUITÉ}  
+{s:cs}{s:OO}{s:Reference|VACUITÉ}
 __'''Vacuité'''__  
-'''Élément''' [[Éléments#VIDE|Vide]] ; '''Type''' défense (Sur) ; Niveau —; '''Brûlure''' 0 <br/>  
+'''Élément''' [[Éléments#VIDE|Vide]] ; '''Type''' défense (Sur) ; Niveau —; '''Brûlure''' 0  
 Le corps du personnage devient une enveloppe creuse, alimentée par un vide interne. Le personnage obtient une [[Résistance (capacité)|résistance]] à l’énergie négative de 2, 5% de chances d'ignorer les dégâts des [[coup critique|coups critiques]] et des [[Roublard#ATTAQUESOURNOISE|attaques sournoises]], ainsi qu’un bonus de +1 aux jets de [[Volonté]] contre les effets d'[[registre|émotion]]. En acceptant 1 point de brûlure, le personnage peut augmenter la résistance à l’énergie négative de 2, la chance d'ignorer les dégâts des coups critiques et des attaques sournoises de 5%, et le bonus aux jets de Volonté contre les effets d'émotion de 1 jusqu'au prochain moment où sa brûlure sera retirée. La chance d'ignorer les dégâts des coups critiques et des attaques sournoises accordée par ce talent sauvage se cumule avec celle accordée par le [[Cinétiste#BOUILLONNEMENTÉLÉMENTAIRE|bouillonnement élémentaire]] jusqu'à un maximum de 100%. Lorsque le personnage accepte des points de brûlure en utilisant un talent sauvage du vide, son bonus aux jets de Volonté s'applique contre tous les [[registre|effets mentaux]] pendant 1 [[round]]. Le personnage peut activer et désactiver cet effet par une [[action immédiate]].
 
-{s:Reference|VENTSPROTECTEURS}  
+{s:Reference|VENTSPROTECTEURS}
 __'''Vents protecteurs'''__  
 '''Élément''' [[Éléments#AIR|Air]] ; '''Type''' défense (Sur) ; '''Niveau''' - ; '''Brûlure''' 0  
 Une trombe d’air tourbillonnant parcourue d’arcs électriques enveloppe le personnage en permanence et le protège des attaques à distance. Toutes les attaques de ce type effectuées avec des armes physiques contre lui ont 20 % de chances de rater, à l’exception des attaques effectuées avec des armes massives comme un rocher lancé par un géant ou le carreau d’une baliste. Ce pouvoir n’a aucun effet sur les attaques de rayon. Les chances de rater augmentent de 5 % par tranche de 5 niveaux de cinétiste au-delà du deuxième. En acceptant 1 point de brûlure, le personnage peut augmenter de 5 % les chances de rater et conserve cette augmentation jusqu’au prochain moment où sa brûlure sera retirée. Il peut continuer à accepter des points de brûlure pour augmenter davantage les chances de rater, jusqu’à un maximum de 75 %. Chaque fois que le personnage accepte une brûlure en utilisant un talent sauvage de l’[[Éléments#AIR|Air]], l’énergie qui le traverse incite les vents protecteurs à le protéger contre les attaques à distance non physiques, comme les attaques de rayon, pendant 1 round. Le personnage peut désactiver ou activer cet effet par une [[Types dactions#IMMEDIATE|action immédiate]].
 
 
-{s:Reference|TALENTSSAUVAGESDINJECTION}  
-===Talents sauvages d’injection===  
+{s:Reference|TALENTSSAUVAGESDINJECTION}
+===Talents sauvages d’injection===
 Les talents sauvages d’injection modifient la façon dont les cinétistes utilisent leurs explosions cinétiques.
 
-{s:Reference|ARMECINÉTIQUE}  
+{s:Reference|ARMECINÉTIQUE}
 __'''Arme cinétique'''__  
 '''Élément''' [[Éléments#UNIVERSEL|Universel]] ; '''Type''' injection de forme ; '''Niveau''' 1 ; '''Brûlure''' 1  
 '''Explosions associées''' toutes  
@@ -270,14 +270,14 @@ __'''Arme cinétique'''__
 Le personnage crée une arme en utilisant ses pouvoirs cinétiques. Il crée une arme d’énergie pure ou de matière élémentaire, sans allonge et légère ou à une main, qui apparaît directement dans sa main. Si le personnage est [[talents sauvages#ÉTHER|télécinétiste]], il transfère à la place le pouvoir de son [[talents sauvages#EXPLOSIONTÉLÉCINÉTIQUE|explosion télécinétique]] vers un objet qu’il tient dans une main. La forme de l’arme cinétique est purement cosmétique et n’affecte pas les dés de dégâts, le facteur de critique ou le multiplicateur de critique de l’arme cinétique. Elle ne lui confère aucune caractéristique spéciale d’arme non plus. L’objet tenu en main par un [[talents sauvages#ÉTHER|télécinétique]] qui utilise cette injection de forme ne l’empêche pas d’utiliser l’accumulation de pouvoir.  
 Le personnage peut utiliser cette injection de forme une fois au cours d’une action d’attaque, de charge ou d’attaque à outrance afin d’effectuer des attaques au corps à corps avec son arme cinétique. Puisqu’elle fait partie d’une autre action (et n’est pas elle-même une action), l’utilisation de ce talent sauvage ne provoque aucune attaque d’opportunité supplémentaire. L’arme cinétique inflige les dégâts de l’explosion cinétique du personnage sur chaque coup réussi (en appliquant tous les modificateurs appropriés aux dégâts de l’explosion cinétique comme à l’accoutumée, mais pas le modificateur de Force du personnage). La lame disparaît à la fin du tour du personnage. L’arme inflige le même type de dégâts que celui de l’explosion cinétique et interagit avec la [[CA|Classe d’Armure]] et la [[résistance à la magie]] comme d’habitude pour une explosion de son type. Même si un [[talents sauvages#ÉTHER|télécinétiste]] utilise ce pouvoir sur une arme magique ou un autre objet inhabituel, l’attaque n’applique aucun des bonus ou effets de l’arme magique et inflige simplement les dégâts de l’explosion du [[talents sauvages#ÉTHER|télécinétiste]]. L’arme cinétique n’ajoute pas le bonus aux dégâts conféré par le [[cinétiste#BOUILLONNEMENTÉLÉMENTAIRE|bouillonnement élémentaire]].
 
-{s:Reference|CYCLONE}  
+{s:Reference|CYCLONE}
 __'''Cyclone'''__  
 '''Élément''' [[Éléments#AIR|Air]] ; '''Type''' injection de forme ; '''Niveau''' 4 ; '''Brûlure''' 3  
 '''Explosions associées''' [[talents sauvages#EXPLOSIONDAIR|Air]], [[talents sauvages#EXPLOSIONDEBLIZZARD|Blizzard]], [[talents sauvages#EXPLOSIONDÉCLAIR|Éclair]], [[talents sauvages#EXPLOSIONDESABLE|Sable]]  
 '''Jet de sauvegarde''' Réflexes, annule  
 Le personnage crée un afflux de vent circulaire. Toutes les créatures et les objets à l’intérieur d’un rayonnement de 6 mètres de rayon centré sur le personnage subissent la moitié du montant de dégâts normalement infligés par son explosion. Le DD des jets de sauvegarde est basé sur la [[Dextérité]].
 
-{s:Reference|DÉFLAGRATION}  
+{s:Reference|DÉFLAGRATION}
 __'''Déflagration'''__  
 '''Élément''' [[Éléments#FEU|Feu]] ; '''Type''' injection de forme ; '''Niveau''' 7 ; '''Brûlure''' 4  
 '''Condition''' [[talents sauvages#EXTENSIONDEPORTÉE|extension de portée]]  
@@ -285,7 +285,7 @@ __'''Déflagration'''__
 '''Jet de sauvegarde''' Réflexes, 1/2 dégâts  
 Le personnage focalise son énergie sur un point dans l’espace et crée une déflagration contrôlée. Il peut centrer la déflagration où il le souhaite à 36 mètres ou moins de lui et peut choisir le rayon de l’étendue : 1,50 mètre, 3 mètres, 4,50 mètres ou 6 mètres. La totalité des créatures et des objets situés dans la déflagration subissent les dégâts de l’explosion. Le DD du jet de sauvegarde est basé sur la [[Dextérité]].
 
-{s:Reference|DÉLUGEDEXPLOSIONS}  
+{s:Reference|DÉLUGEDEXPLOSIONS}
 __'''Déluge d’explosions'''__  
 '''Élément''' [[Éléments#UNIVERSEL|Universel]] ; '''Type''' injection de forme ; '''Niveau''' 3 ; '''Brûlure''' 2  
 '''Condition''' [[talents sauvages#EXTENSIONDEPORTÉE|extension de portée]]  
@@ -294,21 +294,21 @@ __'''Déluge d’explosions'''__
 Au lieu d’une seule explosion cinétique, le personnage en produit deux qu’il tire sur des cibles situées à 36 mètres ou moins. Chacune inflige des dégâts équivalents à ceux d’un cinétiste de niveau 1 (les effets ou les aptitudes qui augmentent les dégâts de son explosion cinétique ne s’appliquent pas). Au niveau 10, le personnage peut tirer trois explosions grâce au déluge d’explosions, puis quatre au niveau 16 et cinq au niveau 20. S’il est sous l’effet d’un sort de rapidité ou d’une magie similaire qui augmente le nombre de ses attaques quand il effectue une action complexe, le nombre d’explosions cinétiques de son déluge d’explosions augmente de 1.  
 Toutes les cibles doivent se trouver à 9 mètres les unes des autres. Le personnage doit désigner les cibles de toutes ses explosions avant d’effectuer les [[valeurs de combat#JETDATTAQUE|jets d’attaque]]. Toute explosion après la première qui touche une même cible inflige 1d6 points de dégâts ; les bonus et malus aux dégâts ne s’appliquent pas. Si le personnage utilise une injection de substance qui nécessite un jet de sauvegarde, une cible n’effectue son jet de sauvegarde qu’une seule fois (même si elle a été touchée plusieurs fois) mais elle subit un malus à ce jet égal au nombre de fois où elle a été touchée après la première. Si le personnage utilise une injection de substance qui nécessite un test de [[NLS|niveau de lanceur de sorts]] ou de [[BMO|manoeuvre offensive]], il n’effectue le test qu’une seule fois contre chaque cible mais il bénéficie d’un bonus à ce test égal au nombre de fois où la cible a été touchée après la première. S’il utilise l’injection de substance de bousculade, la distance maximale de la bousculade augmente de 1,50 mètre pour chaque explosion qui a touché la cible après la première.
 
-{s:Reference|EMPALEMENT}  
+{s:Reference|EMPALEMENT}
 __'''Empalement'''__  
 '''Élément''' [[Éléments#BOIS|Bois]], [[Éléments#EAU|Eau]] ou [[Éléments#TERRE|Terre]] ; '''Type''' injection de forme ; '''Niveau''' 3 ; '''Brûlure''' 2  
 '''Explosions associées''' [[talents sauvages#EXPLOSIONDEGLACE|Glace]], [[talents sauvages#EXPLOSIONDÉMETAL|Métal]], [[talents sauvages#EXPLOSIONDETERRE|Terre]]  
 '''Jet de sauvegarde''' aucun  
 Le personnage crée une longue pointe aiguisée de matière élémentaire qu’il étend afin d’empaler plusieurs adversaires alignés. Il effectue un unique [[valeurs de combat#JETDATTAQUE|jet d’attaque]] contre chacun des objets ou chacune des créatures situés sur une ligne de 9 mètres, en commençant par la cible la plus proche. Si le résultat aboutit à une probabilité de critique, il effectue le jet de confirmation contre la première cible touchée seulement. Il détermine les dégâts contre chaque cible touchée, en commençant par la plus proche. Si son attaque touche une cible mais ne lui inflige aucun dégât physique, la pointe ne parvient pas à la transpercer et l’explosion injectée s’arrête là. Une explosion qui bénéficie de l’injection d’empalement peut traverser des obstacles solides mais elle doit infliger suffisamment de dégâts pour détruire un obstacle afin de prolonger son extension. Les [[talents sauvages#EXPLOSIONDETERRE|explosions de terre]] et [[talents sauvages#EXPLOSIONDÉMETAL|de métal]] injectées infligent toujours des dégâts perforants.
 
-{s:Reference|ENCHAÎNEMENT}  
+{s:Reference|ENCHAÎNEMENT}
 __'''Enchaînement'''__  
 '''Élément''' [[Éléments#AIR|Air]] ; '''Type''' injection de forme ; '''Niveau''' 5 ; '''Brûlure''' 3  
 '''Explosions associées''' [[talents sauvages#EXPLOSIONÉLECTRIQUE|Électrique]]  
 '''Jet de sauvegarde''' aucun  
 L’[[talents sauvages#EXPLOSIONÉLECTRIQUE|explosion électrique]] du personnage bondit de cible en cible. Quand il touche une cible avec son explosion injectée, le personnage peut effectuer une [[valeurs de combat#ATTAQUESDECONTACT|attaque de contact à distance]] contre une cible supplémentaire située à 9 mètres ou moins de la première. Chaque attaque supplémentaire part de la cible précédente, ce qui peut modifier les conditions d’abri ou d’autres circonstances. Chaque cible supplémentaire subit 1d6 points de dégâts de moins que la précédente (par exemple, 3d6 devient 2d6) et le personnage ne peut frapper deux fois une même cible avec son explosion. Il peut continuer ses explosions en série jusqu’à ce que l’une d’elles rate ou n’inflige aucun dégât, ou jusqu’à ce que les dégâts de son explosion soient réduits à un unique dé.
 
-{s:Reference|ÉRUPTION}  
+{s:Reference|ÉRUPTION}
 __'''Éruption'''__  
 '''Élément''' [[Éléments#FEU|Feu]] ; '''Type''' injection de forme ; '''Niveau''' 3 ; '''Brûlure''' 2  
 '''Condition''' [[talents sauvages#EXTENSIONDEPORTÉE|extension de portée]]  
@@ -316,28 +316,28 @@ __'''Éruption'''__
 '''Jet de sauvegarde''' Réflexes, 1/2 dégâts  
 L’explosion cinétique du personnage surgit du sol sous la forme d’un pilier centré où il veut à 36 mètres ou moins de lui. Le pilier affecte l’ensemble des créatures et des objets dans un cylindre de 3 mètres de rayon et de 12 mètres de haut. Une explosion d’énergie destructive augmentée par l’injection d’éruption inflige ses dégâts normaux à chaque cible, tandis qu’une explosion physique inflige la moitié de ses dégâts seulement. Le DD du jet de sauvegarde est basé sur la [[Dextérité]].
 
-{s:Reference|ÉVENTAILDEFLAMMES}  
+{s:Reference|ÉVENTAILDEFLAMMES}
 __'''Éventail de flammes'''__  
 '''Élément''' [[Éléments#FEU|Feu]] ; '''Type''' injection de forme ; '''Niveau''' 1 ; '''Brûlure''' 1  
 '''Explosions associées''' [[talents sauvages#EXPLOSIONDEFEU|Feu]], [[talents sauvages#EXPLOSIONDEFLAMMESBLEUES|Flammes bleues]]  
 '''Jet de sauvegarde''' Réflexes, 1/2 dégâts  
 L’explosion cinétique prend la forme d’un éventail de flammes qui inflige des dégâts à l’ensemble des créatures et des objets situés dans un cône de 4,50 mètres. Le DD du jet de sauvegarde est basé sur la [[Dextérité]].
 
-{s:Reference|EXPLOSIONMOBILE}  
+{s:Reference|EXPLOSIONMOBILE}
 __'''Explosion mobile'''__  
 '''Élément''' [[Éléments#UNIVERSEL|Universel]] ; '''Type''' injection de forme ; '''Niveau''' 3 ; '''Brûlure''' 2  
 '''Explosions associées''' toutes  
 '''Jet de sauvegarde''' Réflexes, annule  
 Le personnage envoie une masse élémentaire, une boule d’énergie ou un objet dans une case en particulier située à 9 mètres ou moins. Le projectile inflige le quart du montant normal de dégâts (ou la moitié dans le cas d’une explosion d’énergie destructive) à toutes les créatures présentes dans cette case. L’explosion mobile dure jusqu’à ce que le personnage la dissipe par une [[Types dactions#LIBRE|action libre]], tombe inconscient ou s’éloigne à plus de 9 mètres d’elle. Chaque round lors de son tour et par une [[Types dactions#MOUVEMENT|action de mouvement]], le personnage peut déplacer l’explosion mobile vers une autre case à portée ; déplacée ou non, elle continue d’infliger des dégâts à toutes les créatures situées dans la case dans laquelle elle termine son déplacement chaque round et si elles ratent leur jet de sauvegarde. Le personnage ne peut faire apparaître qu’une seule explosion mobile en même temps. Si le coût de brûlure total de l’explosion mobile avant l’application d’une éventuelle réduction conférée par l’accumulation de pouvoir est égal à 0, la durée de l’explosion n’est plus limitée. Sinon, elle dure un nombre maximum de rounds égal au modificateur de [[Constitution]] du personnage, après quoi, le personnage ne peut pas en créer une nouvelle avant qu’un nombre de minutes égal au nombre de rounds pendant lequel la dernière a duré ne se soit écoulé. Une explosion mobile est toujours extrêmement bruyante et visible. Le DD du jet de sauvegarde est basé sur la [[Dextérité]].
 
-{s:Reference|EXTENSIONDEPORTÉE}  
+{s:Reference|EXTENSIONDEPORTÉE}
 __'''Extension de portée'''__  
 '''Élément''' [[Éléments#UNIVERSEL|Universel]] ; '''Type''' injection de forme ; '''Niveau''' 1 ; '''Brûlure''' 1  
 '''Explosions associées''' toutes  
 '''Jet de sauvegarde''' aucun  
 L’explosion cinétique du personnage peut frapper une cible située à 36 mètres ou moins.
 
-{s:Reference|FAUFILEMENT}  
+{s:Reference|FAUFILEMENT}
 __'''Faufilement'''__  
 '''Élément''' [[Éléments#UNIVERSEL|Universel]] ; '''Type''' injection de forme ; '''Niveau''' 3 ; '''Brûlure''' 2  
 '''Condition''' [[talents sauvages#EXTENSIONDEPORTÉE|extension de portée]]  
@@ -345,7 +345,7 @@ __'''Faufilement'''__
 '''Jet de sauvegarde''' aucun  
 Le personnage contrôle avec précision le déplacement de son explosion cinétique, ce qui lui permet de modifier sa trajectoire pour éviter les obstacles. Il peut définir la trajectoire de son explosion sur une distance maximale de 36 mètres et éviter ainsi les éventuels abris (même les abris totaux) dont pourraient bénéficier ses cibles. Le personnage peut définir une trajectoire qui traverse des cases hors de sa ligne de mire.
 
-{s:Reference|FOUETCINÉTIQUE}  
+{s:Reference|FOUETCINÉTIQUE}
 __'''Fouet cinétique'''__  
 '''Élément''' [[Éléments#UNIVERSEL|Universel]] ; '''Type''' injection de forme ; '''Niveau''' 3 ; '''Brûlure''' 2  
 '''Condition''' [[talents sauvages#ARMECINÉTIQUE|arme cinétique]]  
@@ -353,7 +353,7 @@ __'''Fouet cinétique'''__
 '''Jet de sauvegarde''' aucun  
 Le personnage crée une longue vrille d’énergie ou de matière élémentaire. La vrille fonctionne comme une [[talents sauvages#ARMECINÉTIQUE|arme cinétique]] mais elle est considérée comme une [[caractéristiques des armes#ARMEAALLONGE|arme à allonge]] adaptée à la taille du personnage. À la différence de la plupart des [[caractéristiques des armes#ARMEAALLONGE|armes à allonge]], le fouet cinétique peut également frapper des créatures adjacentes. Le fouet cinétique disparaît au début du prochain tour du personnage mais, entre temps, il contrôle toutes les cases qu’il peut atteindre avec son allonge, ce qui permet au personnage d’effectuer des attaques d’opportunité qui infligent les dégâts habituels du fouet.
 
-{s:Reference|FRAGMENTATION}  
+{s:Reference|FRAGMENTATION}
 __'''Fragmentation'''__  
 '''Élément''' [[Éléments#EAU|Eau]] ou [[Éléments#TERRE|Terre]] ; '''Type''' injection de forme ; '''Niveau''' 7 ; '''Brûlure''' 4  
 '''Condition''' [[talents sauvages#EXTENSIONDEPORTÉE|extension de portée]]  
@@ -361,70 +361,70 @@ __'''Fragmentation'''__
 '''Jet de sauvegarde''' aucun ou Réflexes, 1/2 dégâts ; voir description  
 Le personnage propulse une sphère de matière solide et explosive qui éclate en milliers de morceaux. Il effectue un [[valeurs de combat#JETDATTAQUE|jet d’attaque à distance]] contre une cible située à 36 mètres ou moins. S’il touche, la cible subit les dégâts de l’explosion cinétique et n’a droit à aucun jet de sauvegarde. Tous les autres objets et créatures situés dans un rayonnement de 6 mètres subissent la moitié des dégâts normaux et peuvent effectuer un jet de Réflexes pour réduire encore une fois ces dégâts de moitié. Si l’attaque rate sa cible, l’explosion ne produit aucun effet. Le DD du jet de sauvegarde est basé sur la [[Dextérité]].
 
-{s:Reference|GRAPPINDEFORCE}  
+{s:Reference|GRAPPINDEFORCE}
 __'''Grappin de force'''__  
 '''Élément''' [[Éléments#ÉTHER|Éther]] ; '''Type''' injection de forme ; '''Niveau''' 3 ; '''Brûlure''' 2  
 '''Explosions associées''' force  
 '''Jet de sauvegarde''' aucun  
 L’[[talents sauvages#EXPLOSIONDEFORCE|explosion de force]] du personnage agrippe sa cible et l’attire vers un emplacement adjacent à lui. Cet effet fonctionne comme un crochet de force (AM), sauf qu’il applique la portée et les dégâts de l’[[talents sauvages#EXPLOSIONDEFORCE|explosion de force]].
 
-{s:Reference|INJECTIONDABSORPTION}  
+{s:Reference|INJECTIONDABSORPTION}
 __'''Injection d’absorption'''__  
 '''Élément''' [[Éléments#UNIVERSEL|Universel]] ; '''Type''' injection de substance ; '''Niveau''' 1 ; '''Brûlure''' 1  
 '''Explosions associées''' n’importe quelle [[talents sauvages#EXPLOSIONSSIMPLES|explosion simple]]  
 '''Jet de sauvegarde''' Vigueur, partiel ; voir description  
 Le personnage peut absorber l’énergie et la matière élémentaires de ses adversaires pour renforcer sa prochaine attaque. Quand il utilise cette injection, son explosion cinétique affecte uniquement les créatures dont le sous-type correspond à l’élément de l’explosion cinétique utilisée (par exemple, une [[talents sauvages#EXPLOSIONDEFEU|explosion de feu]] inflige des dégâts aux créatures de sous-type feu uniquement). Contre de telles créatures, son explosion s’effectue contre la [[valeurs de combat#ATTAQUESDECONTACT|CA au contact]] (si un jet d’attaque est nécessaire) et la [[résistance à la magie]] s’applique toujours. Étant donné que le personnage absorbe l’énergie de la cible, son explosion n’applique pas les bonus conférés par sa surcharge élémentaire ou son modificateur de [[Constitution]]. La cible peut effectuer un jet de Vigueur pour subir un quart seulement du montant des dégâts normalement infligés. L’injection d’absorption ignore les [[RD|réductions des dégâts]], les résistances et les immunités éventuellement possédées par la créature. Si une créature au moins rate son jet de sauvegarde contre l’injection d’absorption, le personnage peut réduire de 1 point le coût total de brûlure de n’importe quel talent sauvage d’explosion utilisé avant la fin de son prochain tour, ou de 2 points s’il possède l’aptitude de surcharge. S’il utilise à nouveau l’injection d’absorption avant l’application de cette réduction, il inflige toujours les dégâts de cette injection mais les réductions du coût de brûlure ne se cumulent pas.
 
-{s:Reference|INJECTIONDAGRIPPEMENT}  
+{s:Reference|INJECTIONDAGRIPPEMENT}
 __'''Injection d’agrippement'''__  
 '''Élément''' [[Éléments#UNIVERSEL|Universel]] ; '''Type''' injection de substance ; '''Niveau''' 5 ; '''Brûlure''' 3  
 '''Explosions associées''' toutes  
 '''Jet de sauvegarde''' aucun  
 Des vrilles capables d’immobiliser les adversaires surgissent de l’[[talents sauvages#EXPLOSIONDENUAGE|explosion de nuage]], de [[talents sauvages#TERREMORTELLE|terre mortelle]] ou de [[talents sauvages#MUR|mur]] du personnage. Quand une créature subit les dégâts de l’explosion injectée, le personnage peut effectuer un [[BMO|test de manoeuvre offensive]] pour que l’explosion engage une [[manoeuvres offensives#LUTTE|lutte]] contre elle. Son bonus sur ce test est égal à 2 + son niveau de cinétiste + son modificateur de [[Constitution]] (considérez l’explosion comme une créature de taille G). L’explosion peut seulement lutter; elle ne peut pas accomplir d’autres mouvements de lutte comme l’immobilisation ou le déplacement de l’adversaire. Si l’explosion est déjà en train de lutter contre un adversaire, elle reçoit un bonus de +5 à son [[BMO|test de manoeuvre offensive]] pour maintenir sa prise, comme à l’accoutumée. Le personnage peut utiliser cette injection uniquement s’il utilise aussi l’injection de forme de mur, de [[talents sauvages#TERREMORTELLE|terre mortelle]] ou de [[talents sauvages#NUAGE|nuage]].
 
-{s:Reference|INJECTIONDENCHEVÊTREMENT}  
+{s:Reference|INJECTIONDENCHEVÊTREMENT}
 __'''Injection d’enchevêtrement'''__  
 '''Élément''' [[Éléments#BOIS|Bois]], [[Éléments#EAU|Eau]] ou [[Éléments#TERRE|Terre]] ; '''Type''' injection de substance ; '''Niveau''' 2 ; '''Brûlure''' 2  
 '''Explosions associées''' [[talents sauvages#EXPLOSIONDEBLIZZARD|Blizzard]], [[talents sauvages#EXPLOSIONDEBOUE|Boue]], [[talents sauvages#EXPLOSIONDEFROID|Froid]], [[talents sauvages#EXPLOSIONDEGLACE|Glace]], [[talents sauvages#EXPLOSIONDEMAGMA|Magma]], [[talents sauvages#EXPLOSIONDÉMETAL|Métal]], [[talents sauvages#EXPLOSIONDESABLE|Sable]], [[talents sauvages#EXPLOSIONDETERRE|Terre]]  
 '''Jet de sauvegarde''' Réflexes, annule  
 L’explosion cinétique du personnage cerne ses adversaires de matière élémentaire. Chaque fois qu’une explosion qui bénéficie de cette injection inflige des dégâts à un adversaire, celui-ci devient [[enchevêtré]] pendant 1 minute. L’adversaire peut supprimer cet état préjudiciable par une [[types dactions#SIMPLE|action simple]] en réussissant un test d’[[Évasion]] ou de [[Force]] (contre le même DD que celui du jet de sauvegarde de son explosion cinétique) ou en infligeant un nombre de points de dégâts à la matière enchevêtrante égal au double de son niveau de cinétiste (la matière possède une solidité de 0). Si l’adversaire était déjà [[enchevêtré]] par cette injection et rate son jet de sauvegarde contre une deuxième possibilité d’enchevêtrement provoquée par cette injection, la masse accumulée de matière élémentaire fusionne avec le sol et bloque l’adversaire sur place comme s’il était attaché à un objet immobile.
 
-{s:cs}{s:OO}{s:Reference|INJECTIONDÉNERGIENÉGATIVE}  
+{s:cs}{s:OO}{s:Reference|INJECTIONDÉNERGIENÉGATIVE}
 __'''Injection d'énergie négative'''__  
 '''Élément''' [[Éléments#VIDE|Vide]] ; '''Type''' injection de substance ; '''Niveau''' 7 ; '''Brûlure''' 4  
 '''Explosions associées''' [[talents sauvages#EXPLOSIONÉGATIVE|négative]], [[talents sauvages#EXPLOSIONDEVIDE|vide]]  
 '''Jets de sauvegarde''' Vigueur, annule  
 L’explosion cinétique du personnage draine la force vitale. Les créatures qui subissent des dégâts de son explosion injectée prennent également 1 [[niveau négatif]] temporaire. Les niveaux négatifs engendrés par cette injection disparaissent au bout de 24 heures et ne peuvent pas devenir permanents.
 
-{s:cs}{s:OO}{s:Reference|INJECTIONDENTRAÎNEMENT}  
+{s:cs}{s:OO}{s:Reference|INJECTIONDENTRAÎNEMENT}
 __'''Injection d'entraînement'''__  
 '''Élément''' [[Éléments#VIDE|Vide]] ; '''Type''' injection de substance ; '''Niveau''' 1 ; '''Brûlure''' 1  
 '''Explosions associées''' [[talents sauvages#EXPLOSIONDEGRAVITÉ|gravité]], [[talents sauvages#EXPLOSIONDEVIDE|vide]]  
 '''Jet de sauvegarde''' aucun  
 L’explosion cinétique du personnage entraîne sa cible vers lui. Le personnage effectue un test de manœuvre offensive d'[[entraînement]] contre chaque cible ayant reçu des dégâts de son explosion injectée (l'explosion entraîne toujours la cible vers lui), ajoutant son modificateur de [[Constitution]] plutôt que celui de [[Force]] pour déterminer son [[BMO]]. Cette injection peut entraîner une cible jusqu'à un maximum de 1,5 m. Le personnage peut augmenter cette distance maximum en acceptant 1 point de brûlure par 1,5 m supplémentaire.
 
-{s:Reference|INJECTIONDEXTINCTION}  
+{s:Reference|INJECTIONDEXTINCTION}
 __'''Injection d’extinction'''__  
 '''Élément''' [[Éléments#EAU|Eau]] ; '''Type''' injection de substance ; '''Niveau''' 1 ; '''Brûlure''' 1  
 '''Explosions associées''' [[talents sauvages#EXPLOSIONDEAU|Eau]], [[talents sauvages#EXPLOSIONDEAUÉLECTRIFIÉE|Eau éléctrifiée]]  
 '''Jet de sauvegarde''' aucun  
 L’explosion du personnage étouffe les feux non magiques comme si on avait déversé de l’eau élémentaire dessus. Si le personnage accepte 2 points de brûlure ou s’il réduit les dégâts de l’explosion à 0, celle-ci dissipe également les feux magiques comme si le personnage était un élémentaire de l’Eau doté d’un nombre de Dés de Vie égal à son niveau de cinétiste.
 
-{s:Reference|INJECTIONDEBOURRASQUE}  
+{s:Reference|INJECTIONDEBOURRASQUE}
 __'''Injection de bourrasque'''__  
 '''Élément''' [[Éléments#AIR|Air]] ; '''Type''' injection de substance ; '''Niveau''' 1 ; '''Brûlure''' 1  
 '''Explosions associées''' [[talents sauvages#EXPLOSIONDAIR|Air]], [[talents sauvages#EXPLOSIONDEBLIZZARD|Blizzard]], [[talents sauvages#EXPLOSIONDÉCLAIR|Éclair]], [[talents sauvages#EXPLOSIONDESABLE|Sable]]  
 '''Jet de sauvegarde''' Vigueur, annule  
 Le vent injecté par le personnage affecte son explosion qui produit les mêmes effets qu’une [[bourrasque]] instantanée. Si la trajectoire de l’explosion est dégagée, le personnage peut accepter 2 points de brûlure supplémentaires ou réduire les dégâts à 0 pour que l’effet de la bourrasque persiste pendant 1 round le long de cette trajectoire.
 
-{s:Reference|INJECTIONDEBOUSCULADE}  
+{s:Reference|INJECTIONDEBOUSCULADE}
 __'''Injection de bousculade'''__  
 '''Élément''' [[Éléments#AIR|Air]], [[Éléments#BOIS|Bois]], [[Éléments#EAU|Eau]], [[Éléments#ÉTHER|Éther]], [[Éléments#TERRE|Terre]] ou [[Éléments#VIDE|Vide]] ; '''Type''' injection de substance ; '''Niveau''' 1 ; Brûlure 1  
 '''Explosions associées''' [[talents sauvages#EXPLOSIONDAIR|Air]], [[talents sauvages#EXPLOSIONDEBLIZZARD|Blizzard]], [[talents sauvages#EXPLOSIONDEBOUE|Boue]], [[talents sauvages#EXPLOSIONDEAU|Eau]], [[talents sauvages#EXPLOSIONDEAUÉLECTRIFIÉE|Eau éléctrifiée]], [[talents sauvages#EXPLOSIONDEMAGMA|Magma]], [[talents sauvages#EXPLOSIONDÉMETAL|Métal]], [[talents sauvages#EXPLOSIONDESABLE|Sable]], [[talents sauvages#EXPLOSIONTÉLÉCINÉTIQUE|Télécinétique]], [[talents sauvages#EXPLOSIONDETERRE|Terre]], [[talents sauvages#EXPLOSIONDEVAPEUR|Vapeur]]  
 '''Jet de sauvegarde''' aucun  
 La vitesse à laquelle est propulsée l’explosion cinétique du personnage repousse ses adversaires. Le personnage effectue un [[BMO|test de manoeuvre offensive]] de [[manoeuvres offensives#BOUSCULADE|bousculade]] contre chaque cible blessée par son explosion injectée, en appliquant son modificateur de [[Constitution]] à la place de son modificateur de [[Force]] pour déterminer son bonus. Cette injection peut bousculer un adversaire sur 1,50 mètre au maximum. Le personnage peut augmenter le coût en brûlure de cette injection pour augmenter de 1,50 mètre par point de brûlure accepté la distance maximale de bousculade. Il ne peut pas utiliser cette injection avec une injection de forme telle que celle du [[talents sauvages#NUAGE|nuage]], car ce type d’explosion cinétique ne suit pas une trajectoire et ne peut donc pas pousser dans une direction donnée.
 
-{s:Reference|INJECTIONDEBRILLANCE}  
+{s:Reference|INJECTIONDEBRILLANCE}
 __'''Injection de brillance'''__  
 '''Élément''' [[Éléments#FEU|Feu]] ; '''Type''' injection de substance ; '''Niveau''' 6 ; '''Brûlure''' 4  
 '''Condition''' [[talents sauvages#INJECTIONDELUMIÈREAVEUGLANTE|Injection de lumière aveuglante]]  
@@ -432,77 +432,77 @@ __'''Injection de brillance'''__
 '''Jet de sauvegarde''' aucun  
 L’explosion cinétique du personnage laisse une traînée lumineuse qui dissipe l’obscurité. Il considère chaque case située sur la trajectoire de son attaque d’explosion cinétique à distance, la case ciblée par son attaque d’explosion cinétique au corps à corps, ou la zone de son explosion cinétique à zone d’effet comme le centre d’un effet de [[flamme éternelle]] qui persiste jusqu’à la fin de son prochain tour. Cet effet est considéré comme un sort de niveau 6 du registre de la lumière.
 
-{s:Reference|INJECTIONDECROCENJAMBE}  
+{s:Reference|INJECTIONDECROCENJAMBE}
 __'''Injection de croc-en-jambe'''__  
 '''Élément''' [[Éléments#ÉTHER|Éther]] ou [[Éléments#TERRE|Terre]] ; '''Type''' injection de substance ; '''Niveau''' 2 ; '''Brûlure''' 2  
 '''Explosions associées''' [[talents sauvages#EXPLOSIONDEBOUE|Boue]], [[talents sauvages#EXPLOSIONDÉMETAL|Métal]], [[talents sauvages#EXPLOSIONDEMAGMA|Magma]], [[talents sauvages#EXPLOSIONTÉLÉCINÉTIQUE|Télécinétique]], [[talents sauvages#EXPLOSIONDETERRE|Terre]]  
 '''Jet de sauvegarde''' aucun  
 Le personnage fait trébucher ses adversaires grâce au violent déferlement de son explosion cinétique. Il effectue un [[BMO|test de manoeuvre offensive]] de [[manoeuvres offensives#CROCENJAMBE|croc-en-jambe]] contre chaque cible blessée par son explosion injectée, en appliquant son modificateur de [[Constitution]] à la place de celui de [[Force]] pour déterminer son [[BMO|Bonus de Manoeuvre Offensive]].
 
-{s:Reference|INJECTIONDEDÉSINTÉGRATION}  
+{s:Reference|INJECTIONDEDÉSINTÉGRATION}
 __'''Injection de désintégration'''__  
 '''Élément''' [[Éléments#ÉTHER|Éther]] ; '''Type''' injection de substance ; '''Niveau''' 6 ; '''Brûlure''' 4  
 '''Explosions associées''' [[talents sauvages#EXPLOSIONDEFORCE|Force]]  
 '''Jet de sauvegarde''' Vigueur, partiel ; voir description  
 Le personnage peut injecter de la force dans ses explosions cinétiques pour déchiqueter ses adversaires. Contre des créatures, son explosion cinétique inflige le double du montant normal de dégâts, mais les cibles peuvent effectuer un jet de sauvegarde pour réduire de moitié le montant des dégâts normalement infligés par l’explosion (ce qui réduit le montant à un quart des dégâts normalement infligés par l’explosion). Une créature dont le nombre de points de vie tombe à 0 ou moins à cause de l’explosion est désintégrée, comme avec une désintégration. Le personnage peut utiliser l’explosion injectée pour détruire des effets de force ou des objets comme avec la désintégration mais, pour chaque effet de force ou cube de 3 mètres d’arête de matière non vivante que le personnage détruit de cette façon, il doit accepter 1 point de brûlure. Ce coût en brûlure ne peut être réduit par des effets tels que spécialiste des injections ou accumulation de pouvoir.
 
-{s:Reference|INJECTIONDEDISSIPATION}  
+{s:Reference|INJECTIONDEDISSIPATION}
 __'''Injection de dissipation'''__  
 '''Élément''' [[Éléments#FEU|Feu]] ; '''Type''' injection de substance ; '''Niveau''' 5 ; '''Brûlure''' 3  
 '''Explosions associées''' [[talents sauvages#EXPLOSIONDEFEU|Feu]], [[talents sauvages#EXPLOSIONDEFLAMMESBLEUES|Flammes bleues]]  
 '''Jet de sauvegarde''' aucun  
 La chaleur émise par l’explosion cinétique du personnage est si élevée qu’elle fait fondre les effets magiques d’un adversaire. Quand son explosion injectée touche un adversaire et ignore sa [[résistance à la magie]], le personnage peut effectuer un test de [[NLS|niveau de lanceur de sorts]], comme s’il utilisait une dissipation de la magie ciblée, avant de déterminer si l’adversaire subit les dégâts de l’explosion. Le personnage peut décider de réduire de moitié les dégâts de l’explosion pour ajouter un bonus de +2 à son test de [[NLS|niveau de lanceur de sorts]]. S’il ne désigne aucun effet de sort particulier qu’il souhaite dissiper, il tente automatiquement de dissiper les éventuels effets qui protègent la cible contre les dégâts de feu avant tout autre sort.
 
-{s:Reference|INJECTIONDEFEU}  
+{s:Reference|INJECTIONDEFEU}
 __'''Injection de feu'''__  
 '''Élément''' [[Éléments#FEU|Feu]] ; '''Type''' injection de substance ; '''Niveau''' 1 ; '''Brûlure''' 1  
 '''Explosions associées''' [[talents sauvages#EXPLOSIONDEFEU|Feu]], [[talents sauvages#EXPLOSIONDEFLAMMESBLEUES|Flammes bleues]], [[talents sauvages#EXPLOSIONDEMAGMA|Magma]], [[talents sauvages#EXPLOSIONDEPLASMA|Plasma]]  
 '''Jet de sauvegarde''' Réflexes, annule  
 L’explosion cinétique du personnage met le feu à ses ennemis. Chaque fois qu’une explosion injectée touche un adversaire et ignore sa [[résistance à la magie]], celui-ci [[Dangers naturels#PRENDREFEU|prend feu]], qu’il ait subi des dégâts ou non. Un adversaire qui [[Dangers naturels#PRENDREFEU|prend feu]] subit 1d6 points de dégâts de feu chaque round tant que le feu n’est pas éteint. Toutes les explosions cinétiques de feu bénéficient d’un bonus de +2 aux [[valeurs de combat#JETDATTAQUE|jets d’attaque]], aux DD et aux tests de [[NLS]] pour ignorer la [[résistance à la magie]] lorsqu’elles ciblent une créature en feu à cause de cette injection.
 
-{s:Reference|INJECTIONDEFLAMMESPURES}  
+{s:Reference|INJECTIONDEFLAMMESPURES}
 __'''Injection de flammes pures'''__  
 '''Élément''' [[Éléments#FEU|Feu]] ; '''Type''' injection de substance ; '''Niveau''' 7 ; '''Brûlure''' 4  
 '''Explosions associées''' flamme bleue  
 '''Jet de sauvegarde''' aucun  
 Le personnage ouvre une vanne du feu élémentaire le plus pur qu’il propulse devant lui. Son explosion injectée ignore toute [[résistance à la magie]].
 
-{s:Reference|INJECTIONDEFROID}  
+{s:Reference|INJECTIONDEFROID}
 __'''Injection de froid'''__  
 '''Élément''' [[Éléments#EAU|Eau]] ; '''Type''' injection de substance ; '''Niveau''' 5 ; '''Brûlure''' 3  
 '''Explosions associées''' [[talents sauvages#EXPLOSIONDEBLIZZARD|Blizzard]], [[talents sauvages#EXPLOSIONDEFROID|Froid]], [[talents sauvages#EXPLOSIONDEGLACE|Glace]]  
 '''Jet de sauvegarde''' Vigueur, annule  
 L’explosion cinétique du personnage glace ses adversaires jusqu’aux os et ralentit leurs mouvements. Chaque fois qu’une explosion injectée inflige des dégâts de froid à un adversaire, celui-ci est [[chancelant]] pendant 1 round.
 
-{s:Reference|INJECTIONDELUMIÈREAVEUGLANTE}  
+{s:Reference|INJECTIONDELUMIÈREAVEUGLANTE}
 __'''Injection de lumière aveuglante'''__  
 '''Élément''' [[Éléments#FEU|Feu]] ; '''Type''' injection de substance ; '''Niveau''' 4 ; '''Brûlure''' 3  
 '''Explosions associées''' [[talents sauvages#EXPLOSIONDEFEU|Feu]], [[talents sauvages#EXPLOSIONDEFLAMMESBLEUES|Flammes bleues]], [[talents sauvages#EXPLOSIONDEPLASMA|Plasma]]  
 '''Jet de sauvegarde''' Volonté, annule  
 L’explosion cinétique du personnage est si lumineuse qu’elle aveugle ses adversaires. Quand une explosion injectée touche un adversaire et ignore sa [[résistance à la magie]], celui-ci doit réussir un jet de Volonté pour ne pas être [[aveuglé]] pendant 1 round et ce, qu’il ait subi des dégâts ou non. Le personnage peut réduire les dégâts de l’explosion de moitié pour augmenter de 2 le DD de ce jet de sauvegarde.
 
-{s:Reference|INJECTIONDEMAGNÉTISME}  
+{s:Reference|INJECTIONDEMAGNÉTISME}
 __'''Injection de magnétisme'''__  
 '''Élément''' [[Éléments#AIR|Air]] ou [[Éléments#TERRE|Terre]] ; '''Type''' injection de substance ; '''Niveau''' 3 ; '''Brûlure''' 2  
 '''Explosions associées''' [[talents sauvages#EXPLOSIONDEAUÉLECTRIFIÉE|Eau éléctrifiée]], [[talents sauvages#EXPLOSIONDÉCLAIR|Éclair]], [[talents sauvages#EXPLOSIONÉLECTRIQUE|Électrique]], [[talents sauvages#EXPLOSIONDÉMETAL|Métal]], [[talents sauvages#EXPLOSIONDEPLASMA|Plasma]]  
 '''Jet de sauvegarde''' aucun  
 Les adversaires frappés par l’explosion cinétique du personnage deviennent légèrement magnétiques. Quand une explosion injectée inflige des dégâts à un adversaire, les attaques effectuées avec des armes métalliques (y compris des [[talents sauvages#EXPLOSIONDÉMETAL|explosions cinétiques de métal]]) contre lui bénéficient d’un bonus de +4 jusqu’à la fin du prochain tour du personnage. Pour sa part, l’adversaire subit un malus de -4 aux jets de Réflexes effectués pour éviter les objets métalliques.
 
-{s:Reference|INJECTIONDEMÉTALRARE}  
+{s:Reference|INJECTIONDEMÉTALRARE}
 __'''Injection de métal rare'''__  
 '''Élément''' [[Éléments#TERRE|Terre]] ; '''Type''' injection de substance ; '''Niveau''' 3 ; '''Brûlure''' 2  
 '''Explosions associées''' [[talents sauvages#EXPLOSIONDÉMETAL|Métal]]  
 '''Jet de sauvegarde''' aucun  
 Le personnage peut contrôler les propriétés du métal, ce qui permet à son [[talents sauvages#EXPLOSIONDÉMETAL|explosion de métal]] d’ignorer les [[RD|réductions de dégâts]] comme si elle était composée d’adamantium, de fer froid ou d’argent (au choix du personnage). Si sa cible bénéficie d’une [[RD|réduction de dégâts]] d’un type inhabituel qui peut être ignorée avec un type de métal très particulier (telle que RD/or), le personnage peut également sélectionner ce métal. Le métal créé par cette injection tombe en fragments inutiles et sans valeur aussitôt après l’explosion.
 
-{s:cs}{s:OO}{s:Reference|INJECTIONDETÉNÈBRES}  
+{s:cs}{s:OO}{s:Reference|INJECTIONDETÉNÈBRES}
 __'''Injection de ténèbres'''__  
 '''Élément''' [[Éléments#VIDE|Vide]] ; '''Type''' injection de substance ; '''Niveau''' 3 ; '''Brûlure''' 2  
 '''Explosions associées''' [[talents sauvages#EXPLOSIONDEGRAVITÉ|gravité]], [[talents sauvages#EXPLOSIONÉGATIVE|négative]], [[talents sauvages#EXPLOSIONDEVIDE|vide]]  
 '''Jet de sauvegarde''' aucun  
 L’explosion cinétique du personnage crée des ténèbres. Toute case traversée par l’explosion cinétique à distance, la case de la cible de l’explosion cinétique au corps à corps, ou la zone d'effet de l’explosion cinétique compte comme le centre d'un effet de ''[[ténèbres]]'' qui dure jusqu'à la fin du prochain tour du personnage. Cet effet compte comme un sort de ténèbres de niveau 3.
 
-{s:cs}{s:OO}{s:Reference|INJECTIONDETÉNÈBRESSUPRÊME}  
+{s:cs}{s:OO}{s:Reference|INJECTIONDETÉNÈBRESSUPRÊME}
 __'''Injection de ténèbres suprême'''__  
 '''Élément''' [[Éléments#VIDE|Vide]] ; '''Type''' injection de substance ; '''Niveau''' 6 ; '''Brûlure''' 4  
 '''Conditions''' [[talents sauvages#INJECTIONDETÉNÈBRES|injection de ténèbres]]  
@@ -510,21 +510,21 @@ __'''Injection de ténèbres suprême'''__
 '''Jet de sauvegarde''' aucun  
 L’explosion du personnage créé des ténèbres surnaturelles, comme avec l’[[talents sauvages#INJECTIONDETÉNÈBRES|injection de ténèbres]], sauf qu'elle produit l'effet d'un sort de ''[[ténèbres profondes]]'' et compte comme un sort de ténèbres de niveau 6.
 
-{s:Reference|INJECTIONDETONNERRE}  
+{s:Reference|INJECTIONDETONNERRE}
 __'''Injection de tonnerre'''__  
 '''Élément''' [[Éléments#AIR|Air]] ; '''Type''' injection de substance ; '''Niveau''' 1 ; '''Brûlure''' 1  
 '''Explosions associées''' [[talents sauvages#EXPLOSIONDÉCLAIR|Éclair]], [[talents sauvages#EXPLOSIONÉLECTRIQUE|Électrique]]  
 '''Jet de sauvegarde''' Vigueur, annule  
 Le personnage agrémente les éclairs qu’il crée d’un grondement de tonnerre. Quand son explosion injectée touche un adversaire et ignore sa [[résistance à la magie]], cet adversaire devient [[assourdi]], même si l’explosion n’inflige aucun dégât.
 
-{s:cs}{s:OO}{s:Reference|INJECTIONDETOXINE}  
+{s:cs}{s:OO}{s:Reference|INJECTIONDETOXINE}
 __'''Injection de toxine'''__  
 '''Élément''' [[Éléments#BOIS|Bois]] ; '''Type''' injection de substance ; '''Niveau''' 4 ; '''Brûlure''' 3  
 '''Explosions associées''' [[talents sauvages#EXPLOSIONAUTOMNALE|Explosion automnale]], [[talents sauvages#EXPLOSIONDEBOIS|bois]], [[talents sauvages#EXPLOSIONESTIVALE|Explosion estivale]], [[talents sauvages#EXPLOSIONHIVERNALE|Explosion hivernale]], [[talents sauvages#EXPLOSIONPRINTANIÈRE|Explosion printanière]]  
 '''Jet de sauvegarde''' Vigueur, annule  
 Les végétaux de l'explosion du personnage sont légèrement toxiques. Toutes les créatures qui subissent des dégâts tranchants ou perforants par l’explosion injectée sont [[fiévreux|fiévreuses]] pendant 1 [[round]].
 
-{s:cs}{s:OO}{s:Reference|INJECTIONDETOXINESUPRÊME}  
+{s:cs}{s:OO}{s:Reference|INJECTIONDETOXINESUPRÊME}
 __'''Injection de toxine suprême'''__  
 '''Élément''' [[Éléments#BOIS|Bois]] ; '''Type''' injection de substance ; '''Niveau''' 4 ; '''Brûlure''' 3  
 '''Conditions''' [[talents sauvages#INJECTIONTOXIQUE|injection toxique]]  
@@ -533,7 +533,7 @@ __'''Injection de toxine suprême'''__
 Les toxines des plantes du personnage sont plus virulentes. Chaque fois qu'il utilise cette injection, il choisit une caractéristique physique. Les créatures qui subissent des dégâts tranchants ou perforants par l’explosion injectée sont explosées à son [[Poisons|poison]].  
 ''Explosion''— blessure ; ''jds'' [[Vigueur]] ; ''fréquence'' 1/[[round]] pendant 6 rounds ; ''effet'' 1d2 [[Force]] ou [[Dextérité]], ou [[Constitution]] ; ''guérison'' 2 réussites consécutives.
 
-{s:Reference|LANCERSMULTIPLES}  
+{s:Reference|LANCERSMULTIPLES}
 __'''Lancers multiples'''__  
 '''Élément''' [[Éléments#ÉTHER|Éther]] ; '''Type''' injection de forme ; '''Niveau''' 8 ; '''Brûlure''' 4  
 '''Condition''' [[talents sauvages#EXTENSIONDEPORTÉE|extension de portée]]  
@@ -548,7 +548,7 @@ __'''Mur'''__
 '''Jet de sauvegarde''' aucun
 Le personnage crée un mur d’éléments, d’énergie ou de débris bringuebalés et acérés. Le mur apparaît à 9 mètres ou moins du personnage et peut faire jusqu’à 3 mètres de haut et 36 mètres de long ou jusqu’à 6 mètres de haut et 18 mètres de long. L’ensemble des créatures et des objets situés dans les cases occupées par le mur au moment de son apparition subissent un quart des dégâts normalement infligés par l’explosion sans pouvoir faire de jet de sauvegarde (ou la moitié des dégâts dans le cas d’une explosion d’énergie destructive). Chaque fois qu’une créature traverse le mur, elle subit la moitié des dégâts normalement infligés par l’explosion (ou les dégâts normaux dans le cas d’une explosion d’énergie destructive). Le mur n’est pas complètement solide mais il fournit un abri contre les attaques effectuées depuis l’autre côté. Le mur reste en place pendant un nombre de rounds égal au modificateur de [[Constitution]] du personnage ou jusqu’à ce qu’il utilise à nouveau cette injection.
 
-{s:Reference|NUAGE}  
+{s:Reference|NUAGE}
 __'''Nuage'''__  
 '''Élément''' [[Éléments#AIR|Air]] ou [[Éléments#EAU|Eau]] ; '''Type''' injection de forme ; '''Niveau''' 7 ; '''Brûlure''' 4  
 '''Condition''' [[talents sauvages#EXTENSIONDEPORTÉE|extension de portée]]  
@@ -556,14 +556,14 @@ __'''Nuage'''__
 '''Jet de sauvegarde''' aucun  
 Le personnage transforme son pouvoir en un nuage diffus. Il peut centrer cette étendue de 6 mètres de rayon où il le souhaite à 36 mètres ou moins. Toutes les créatures et les objets à l’intérieur du nuage au moment de son apparition subissent automatiquement (sans pouvoir faire de jet de sauvegarde) un quart du montant de dégâts normalement infligés par l’explosion du personnage. Dès qu’une créature pénètre dans le nuage, elle subit la moitié du montant de dégâts normalement infligés par l’explosion. C’est également le cas des créatures qui terminent leur tour dans le nuage. Le nuage gêne la vision comme une [[brume de dissimulation]]. Il reste en place pendant un nombre de rounds égal au modificateur de [[Constitution]] du personnage ou jusqu’à ce qu’il utilise à nouveau l’injection de nuage.
 
-{s:Reference|POINGCINÉTIQUE}  
+{s:Reference|POINGCINÉTIQUE}
 __'''Poing cinétique'''__  
 '''Élément''' [[Éléments#UNIVERSEL|Universel]] ; '''Type''' injection de forme ; '''Niveau''' 1 ; '''Brûlure''' 1  
 '''Explosions associées''' toutes  
 '''Jet de sauvegarde''' aucun  
 Le personnage entoure son corps d’énergie ou de matière élémentaire grâce à ses pouvoirs cinétiques. Il peut utiliser cette injection de forme au cours d’une action d’attaque, de charge ou d’attaque à outrance pour ajouter des dégâts à chacune de ses attaques naturelles et frappes à mains nues jusqu’au début de son prochain tour. Puisqu’elle fait partie d’une autre action, l’utilisation de ce talent sauvage ne provoque aucune attaque d’opportunité supplémentaire. Le personnage inflige 1d6 points de dégâts par tranche de 3 dés de dégâts de son explosion cinétique (1d6 au minimum), et ces dégâts sont du même type que ceux de l’explosion cinétique. Ces dégâts supplémentaires ignorent la [[résistance à la magie]] et n’appliquent aucun modificateur aux dégâts de l’explosion cinétique, comme le modificateur de [[Constitution]], par exemple.
 
-{s:Reference|PORTEEEXTRÊME}  
+{s:Reference|PORTEEEXTRÊME}
 __'''Portée extrême'''__  
 '''Élément''' [[Éléments#UNIVERSEL|Universel]] ; '''Type''' injection de forme ; '''Niveau''' 3 ; '''Brûlure''' 2  
 '''Condition''' [[talents sauvages#EXTENSIONDEPORTÉE|extension de portée]]  
@@ -571,28 +571,28 @@ __'''Portée extrême'''__
 '''Jet de sauvegarde''' aucun  
 L’explosion cinétique du personnage peut frapper une cible située à 144 mètres ou moins.
 
-{s:Reference|PROJECTIONDENNEMI}  
+{s:Reference|PROJECTIONDENNEMI}
 __'''Projection d’ennemi'''__  
 '''Élément''' [[Éléments#ÉTHER|Éther]] ; '''Type''' injection de forme ; '''Niveau''' 3 ; '''Brûlure''' 2  
 '''Explosions associées''' [[talents sauvages#EXPLOSIONTÉLÉCINÉTIQUE|Télécinétique]]  
 '''Jet de sauvegarde''' Vigueur, annule ; voir description  
 L’[[talents sauvages#EXPLOSIONTÉLÉCINÉTIQUE|explosion télécinétique]] du personnage peut projeter une créature de taille G ou inférieure au lieu d’un objet ni porté, ni transporté. Le personnage peut augmenter le coût en brûlure d’un point pour affecter une créature plus grande d’une catégorie de taille. Si la créature que le personnage tente de lancer réussit un jet de Vigueur, elle annule l’explosion dans sa totalité. Sinon, si l’explosion touche, la créature lancée et la cible subissent toutes deux les dégâts normaux de l’[[talents sauvages#EXPLOSIONTÉLÉCINÉTIQUE|explosion télécinétique]]. De plus, la créature lancée tombe [[à terre]] dans le dernier emplacement inoccupé de la trajectoire de l’explosion. Si l’explosion du personnage rate sa cible, la créature lancée choisit une case située à 9 mètres ou moins de la cible dans laquelle il atterrit, elle ne tombe pas [[à terre]] et subit la moitié seulement des dégâts normaux infligés par l’explosion. Le déplacement ne provoque pas d’attaque d’opportunité.
 
-{s:Reference|PULVÉRISATION}  
+{s:Reference|PULVÉRISATION}
 __'''Pulvérisation'''__  
 '''Élément''' [[Éléments#EAU|Eau]] ; '''Type''' injection de forme ; '''Niveau''' 4 ; '''Brûlure''' 3  
 '''Explosions associées''' [[talents sauvages#EXPLOSIONDEAU|Eau]], [[talents sauvages#EXPLOSIONDEAUÉLECTRIFIÉE|Eau éléctrifiée]]  
 '''Jet de sauvegarde''' Réflexes, 1/2 dégâts  
 Le personnage modifie son explosion cinétique qui se manifeste sous forme de violente pulvérisation. L’ensemble des créatures et des objets situés dans un cône de 9 mètres subissent la moitié du montant de dégâts normalement infligés par l’explosion. Le DD du jet de sauvegarde est basé sur la [[Dextérité]].
 
-{s:cs}{s:OO}{s:Reference|SINGULARITÉ}  
+{s:cs}{s:OO}{s:Reference|SINGULARITÉ}
 __'''Singularité'''__  
 '''Élément''' [[Éléments#VIDE|Vide]] ; '''Type''' injection de forme ; '''Niveau''' 4 ; '''Brûlure''' 3  
 '''Explosions associées''' [[talents sauvages#EXPLOSIONDEGRAVITÉ|gravité]], [[talents sauvages#EXPLOSIONNÉGATIVE|négative]], [[talents sauvages#EXPLOSIONDEVIDE|vide]]  
 '''Jet de sauvegarde''' Réflexes, 1/2 dégâts  
 Le personnage crée une singularité grandissante. Il choisit une intersection de cases à une distance maximale de 9 m. Toutes les créatures et les objets dans un rayon de 1,5 m centré sur l'intersection subissent 1/4 des dégâts normaux de son explosion (ou la moitié des dégâts dans le cas d’une [[talents sauvages#EXPLOSIONNÉGATIVE|explosion négative]]). Au prochain tour du personnage, la singularité inflige des dégâts dans un rayon de 3 m, puis le tour suivant, dans un rayon de 4,5 m. Le [[DD]] du jet de sauvegarde est basé sur la [[Dextérité]].
 
-{s:Reference|TERREMORTELLE}  
+{s:Reference|TERREMORTELLE}
 __'''Terre mortelle'''__  
 '''Élément''' [[Éléments#BOIS|Bois]] ou [[Éléments#TERRE|Terre]] ; '''Type''' injection de forme ; '''Niveau''' 6 ; '''Brûlure''' 4  
 '''Condition''' [[talents sauvages#EXTENSIONDEPORTÉE|extension de portée]]  
@@ -604,7 +604,7 @@ Le personnage affecte une surface composée de terre sur un rayon de 6 mètres o
 
 [[FAQ- Aventures occultes#3|→]] Cinétiste, Injection torrent : Cette injection semble ne pas avoir l'explosion d'éclair comme explosion associée. Est-ce intentionnel ?'''''
 
-L'[[Talents sauvages#EXPLOSIONDÉCLAIR|explosion d'éclair]] devrait être incluse. Cela sera reflété dans le prochain errata. ''(Retour à la __[[Talents sauvages#TORRENT|capacité]]__)''}{s:Reference|TORRENT}  
+L'[[Talents sauvages#EXPLOSIONDÉCLAIR|explosion d'éclair]] devrait être incluse. Cela sera reflété dans le prochain errata. ''(Retour à la __[[Talents sauvages#TORRENT|capacité]]__)''}{s:Reference|TORRENT}
 __'''Torrent'''__  
 '''Élément''' [[Éléments#AIR|Air]], [[Éléments#EAU|Eau]] ou [[Éléments#FEU|Feu]] ; '''Type''' injection de forme ; '''Niveau''' 3 ; '''Brûlure''' 2  
 '''Explosions associées''' [[talents sauvages#EXPLOSIONDAIR|Air]], [[talents sauvages#EXPLOSIONDEBLIZZARD|Blizzard]], [[talents sauvages#EXPLOSIONDEBOUE|Boue]], [[talents sauvages#EXPLOSIONDEAU|Eau]], [[talents sauvages#EXPLOSIONDEAUÉLECTRIFIÉE|Eau éléctrifiée]], [[talents sauvages#EXPLOSIONDÉCLAIR|Éclair]], [[talents sauvages#EXPLOSIONDEFEU|Feu]], [[talents sauvages#EXPLOSIONDEFLAMMESBLEUES|Flammes bleues]], [[talents sauvages#EXPLOSIONDEMAGMA|Magma]], [[talents sauvages#EXPLOSIONDEPLASMA|Plasma]], [[talents sauvages#EXPLOSIONDESABLE|Sable]], [[talents sauvages#EXPLOSIONDEVAPEUR|Vapeur]]  
@@ -613,366 +613,366 @@ Un torrent d’énergie vient frapper ou brûler tous les adversaires situés su
 Le DD du jet de sauvegarde est basé sur la [[Dextérité]].
 
 
-{s:Reference|TALENTSSAUVAGESUTILITAIRES}  
-===Talents sauvages utilitaires===  
+{s:Reference|TALENTSSAUVAGESUTILITAIRES}
+===Talents sauvages utilitaires===
 Un cinétiste peut choisir un des talents sauvages de la liste suivante à chaque niveau pair, à condition qu’il satisfasse les conditions d’acquisition.
 
-{s:Reference|ABRICINÉTIQUE}  
+{s:Reference|ABRICINÉTIQUE}
 __'''Abri cinétique'''__  
 '''Élément''' [[Éléments#BOIS|Bois]], [[Éléments#EAU|Eau]], [[Éléments#ÉTHER|Éther]] ou [[Éléments#TERRE|Terre]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 1 ; '''Brûlure''' 0  
 Le personnage fait apparaître de la matière élémentaire pour se protéger et protéger ses alliés pendant les combats. Par une [[types dactions#SIMPLE|action simple]], il peut sélectionner la face d’une case située à 9 mètres ou moins de lui et faire apparaître de la matière élémentaire sur cette face de case afin de fournir un abri total. La face de la case doit être en contact avec le sol et l’abri cinétique ne peut supporter un poids supérieur à 2,5 kilos. L’eau, la glace et la force télécinétique sont translucides mais la terre, le métal, la boue et les matières similaires sont opaques et bloquent la ligne de mire. Une créature qui frappe l’abri peut aisément le détruire. Quelle que soit sa composition, l’abri possède une solidité de 0, une [[CA]] de 5 et 2 points de résistance par niveau de cinétiste possédé. Le personnage peut maintenir actif un nombre d’abris cinétiques égal à son modificateur de [[Constitution]] + la moitié de son niveau de cinétiste.
 
-{s:Reference|ACCLIMATATIONÀLAIR}  
+{s:Reference|ACCLIMATATIONÀLAIR}
 __'''Acclimatation à l’air'''__  
 '''Élément''' [[Éléments#AIR|Air]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 1 ; '''Brûlure''' 0  
 Le personnage est immunisé au mal des hauteurs et acquiert une résistance à l’électricité d’un montant égal à deux fois son nombre actuel de brûlures.
 
-{s:Reference|ACCLIMATATIONÀLACHALEUR}  
+{s:Reference|ACCLIMATATIONÀLACHALEUR}
 __'''Acclimatation à la chaleur'''__  
 '''Élément''' [[Éléments#EAU|Eau]] ou [[Éléments#FEU|Feu]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 1 ; '''Brûlure''' 0  
 Le personnage bénéficie d’un effet permanent d’[[endurance aux énergies destructives]] contre les températures chaudes seulement. Il bénéficie d’une résistance au feu égale à deux fois son montant actuel de brûlures.
 
-{s:Reference|ACCLIMATATIONAUFROID}  
+{s:Reference|ACCLIMATATIONAUFROID}
 __'''Acclimatation au froid'''__  
 '''Élément''' [[Éléments#EAU|Eau]] ou [[Éléments#FEU|Feu]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 1 ; '''Brûlure''' 0  
 Le personnage est protégé par un effet permanent d’[[endurance aux énergies destructives]] contre le froid seulement. Il obtient une résistance au froid égale à deux fois son montant actuel de brûlures.
 
-{s:Reference|AÉROCINETIQUESIMPLE}  
+{s:Reference|AÉROCINETIQUESIMPLE}
 __'''Aérocinetique simple'''__  
 '''Élément''' [[Éléments#AIR|Air]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 1 ; '''Brûlure''' 0  
 Le personnage crée une brise légère qui souffle sur une créature ou un objet depuis la direction de son choix et qui suit la cible où qu’elle aille. La brise confère au bénéficiaire un bonus de +2 aux jets de sauvegarde effectués contre des températures ou des conditions climatiques extrêmement chaudes, contre les attaques de souffle et contre les gaz ou les fumées (tels qu’une brume mortelle, un nuage nauséabond ou des poisons inhalés). Ce talent sauvage ne fonctionne pas sans présence d’air ou sous l’eau. Le personnage ne peut maintenir qu’une seule brise active en même temps.  
 Le personnage peut également utiliser son aérocinétique pour compliquer la tâche des créatures qui tentent de le détecter lui ou autrui par l’odorat. Le personnage peut désigner un nombre de créatures ou d’objets égal à son modificateur de [[Constitution]]. Ces créatures et objets sont toujours considérés comme étant dans le sens du vent lorsqu’il s’agit de déterminer la distance à laquelle il est possible de les détecter grâce à l’odorat. Cet effet dure une heure ou jusqu’à ce que le personnage utilise à nouveau l’aérocinétique simple, selon ce qui se produit en premier.
 
-{s:Reference|AILESDAIR}  
+{s:Reference|AILESDAIR}
 __'''Ailes d’air'''__  
 '''Élément''' [[Éléments#AIR|Air]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 3 ; '''Brûlure''' 0  
 '''Condition''' [[talents sauvages#BONDAÉRIEN|Bond aérien]] ou [[Talents sauvages#COUSSINDAIR|Coussin d’air]]  
 Le personnage soumet l’air à sa volonté, ce qui lui permet de s’envoler très haut. Il est sous l’effet permanent d’un sort de [[sort vol|vol]]. Si cet effet est dissipé, il peut le réactiver par une [[types dactions#SIMPLE|action simple]].
 
-{s:Reference|ASPHYXIE}  
+{s:Reference|ASPHYXIE}
 __'''Asphyxie'''__  
 '''Élément''' [[Éléments#AIR|Air]], [[Éléments#EAU|Eau]], [[Éléments#ÉTHER|Éther]] ou [[Éléments#VIDE|Vide]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 6 ; '''Brûlure''' 0  
 '''Jet de sauvegarde''' Vigueur, partiel ; '''Résistance à la magie''' oui  
 Le personnage manipule l’éther pour asphyxier une créature située à 36 mètres ou moins, l’air pour créer une zone d’air irrespirable autour d’elle, ou l’eau pour remplir sa gorge de liquide. Si la respiration est une nécessité pour la créature ciblée, elle doit la retenir aussi longtemps que le personnage reste concentré. À chacun de ses tours, elle peut effectuer un jet de Vigueur pour parvenir à parler, mais elle peut se remettre à respirer uniquement si la concentration du personnage est interrompue, si le personnage s’éloigne à plus de 36 mètres ou s’il n’a plus de ligne de mire sur elle. Le personnage peut accepter 1 point de brûlure quand il active ce talent sauvage afin d’expulser l’air des poumons de sa cible. Le cas échéant, et si la cible rate son premier jet de Vigueur, elle devient hors de combat, ses points de vie tombent à 0 et, si elle rate son deuxième jet de Vigueur, elle tombe inconsciente et ses points de vie sont réduits à -1.
 
-{s:Reference|AUTOTÉLÉCINÉTIQUE}  
+{s:Reference|AUTOTÉLÉCINÉTIQUE}
 __'''Autotélécinétique'''__  
 '''Élément''' [[Éléments#ÉTHER|Éther]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 3 ; '''Brûlure''' 0  
 Le personnage exploite ses pouvoirs télécinétiques pour se déplacer. Ce talent sauvage fonctionne comme la [[talents sauvages#PROPULSIONPARLESFLAMMES|propulsion par les flammes]].
 
-{s:Reference|AUTOTÉLÉCINÉTIQUESUPRÊME}  
+{s:Reference|AUTOTÉLÉCINÉTIQUESUPRÊME}
 __'''Autotélécinétique suprême'''__  
 '''Élément''' [[Éléments#ÉTHER|Éther]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 5 ; '''Brûlure''' 0  
 '''Condition''' [[talents sauvages#AUTOTÉLÉCINÉTIQUE|Autotélécinétique]]  
 Le personnage améliore sa maîtrise de l’[[talents sauvages#AUTOTÉLÉCINÉTIQUE|autotélécinétique]]. Ce talent sauvage fonctionne comme la [[talents sauvages#PROPULSIONPARLESFLAMMESSUPRÊME|propulsion par les flammes suprême]].
 
-{s:Reference|BARRIÈREDEFORCE}  
+{s:Reference|BARRIÈREDEFORCE}
 __'''Barrière de force'''__  
 '''Élément''' [[Éléments#ÉTHER|Éther]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 5 ; '''Brûlure''' 0  
 '''Condition''' [[talents sauvages#PROTECTIONDEFORCE|Protection de force]]  
 Le personnage crée une sphère ou un hémisphère de force immobile autour de la ou des cases qu’il occupe. La barrière de force fonctionne par ailleurs en tous points comme un [[mur de force]]. Il faut accomplir une [[types dactions#SIMPLE|action simple]] pour activer ce pouvoir et la barrière persiste jusqu’au début du prochain tour du personnage. Chaque round, juste avant la disparition de la barrière, le personnage peut prolonger sa durée en acceptant 1 point de brûlure. Si une attaque parvient à détruire la barrière de force, le personnage subit immédiatement 1 point de brûlure.
 
-{s:Reference|BARRIEREDUVENT}  
+{s:Reference|BARRIEREDUVENT}
 __'''Barrière du vent'''__  
 '''Élément''' [[Éléments#AIR|Air]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 3 ; '''Brûlure''' 0  
 '''Condition''' [[talents sauvages#VENTSPROTECTEURS|Vents protecteurs]]  
 Le personnage soumet ses vents pour former une barrière impressionnante. Jusqu’au début de son prochain tour, il perd les avantages conférés par ses [[talents sauvages#VENTSPROTECTEURS|vents protecteurs]] mais peut créer un [[mur de vent]] comme le sort du même nom. Il peut prolonger la durée du mur à 1 round par niveau de cinétiste en acceptant 1 point de brûlure.
 
-{s:Reference|BONDAÉRIEN}  
+{s:Reference|BONDAÉRIEN}
 __'''Bond aérien'''__  
 '''Élément''' [[Éléments#AIR|Air]] ; '''Type''' utilitaire (Sur) ; '''Niveau''' 1 ; '''Brûlure''' 0  
 Le personnage est toujours considéré comme ayant pris son élan quand il saute. Il ajoute un bonus égal à son niveau de cinétiste aux tests d’[[Acrobaties]] effectués pour sauter. Il multiplie par deux la distance en longueur ou en hauteur déterminée par le résultat de ses tests d’[[Acrobaties]] quand il saute et il peut accepter un point de brûlure quand il saute pour doubler une fois de plus sa distance de saut (pour une distance totale multipliée par quatre).
 
-{s:cs}{s:OO}{s:Reference|BRACHIATION}  
+{s:cs}{s:OO}{s:Reference|BRACHIATION}
 __'''Brachiation'''__  
 '''Élément''' [[Éléments#BOIS|Bois]] ; '''Type''' utilitaire (Sur) ; '''Niveau''' 3 ; '''Brûlure''' —  
 Le personnage obtient une vitesse d'escalade équivalente à sa [[VD|vitesse de déplacement]] de base dans les zones de forêts denses.
 
-{s:Reference|CALCINATION}  
+{s:Reference|CALCINATION}
 __'''Calcination'''__  
 '''Élément''' [[Éléments#FEU|Feu]] ; '''Type''' utilitaire (Sur) ; '''Niveau''' 2 ; '''Brûlure''' –  
 '''Condition''' [[talents sauvages#INJECTIONDEFEU|Injection de feu]]  
 L’[[talents sauvages#INJECTIONDEFEU|injection de feu]] du personnage calcine peu à peu la résistance au feu de son adversaire. Quand le personnage effectue son jet pour infliger des dégâts de feu à un adversaire grâce à l’[[talents sauvages#INJECTIONDEFEU|injection de feu]], il réduit sa résistance au feu d’un montant égal aux points de dégâts de feu non modifiés, sans appliquer la résistance au feu sur ce jet lorsqu’il détermine cette réduction. La réduction persiste pendant un nombre de rounds égal à la moitié du niveau de cinétiste du personnage. Ces réductions se cumulent entre elles, jusqu’à une résistance minimale de 0.
 
-{s:Reference|CÉLÉRITE}  
+{s:Reference|CÉLÉRITE}
 __'''Célérité'''__  
 '''Élément''' [[Éléments#AIR|Air]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 3 ; '''Brûlure''' 0  
 Le personnage peut galvaniser le fluide électrique qui circule dans le corps de ses alliés afin d’augmenter leur vitesse. Ce pouvoir fonctionne comme un sort de [[rapidité]] sauf qu’il ne dure qu’un round. Le personnage peut accepter 1 point de brûlure pour augmenter la durée de 1 round par niveau de cinétiste.
 
-{s:cs}{s:OO}{s:Reference|CHAOCINÉTIQUESIMPLE}  
+{s:cs}{s:OO}{s:Reference|CHAOCINÉTIQUESIMPLE}
 __'''Chaocinétique simple'''__  
 '''Élément''' [[Éléments#VIDE|Vide]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 1 ; '''Brûlure''' 0  
 Le personnage peut créer une ombre qui protège une cible de la [[Exploration#VISIONLUMIERE|lumière vive]]. Il peut également modifier la gravité pour doubler le [[poids transportable]] d'une créature ou accorder à une créature un bonus de +4 à ses tests d'[[Acrobaties]] pour sauter. Chaque avantage dure 1 heure ou jusqu'à la prochaine utilisation de chaocinétique simple.
 
-{s:Reference|CHEVAUCHÉEEXPLOSIVE}  
+{s:Reference|CHEVAUCHÉEEXPLOSIVE}
 __'''Chevauchée explosive'''__  
 '''Élément''' [[Éléments#UNIVERSEL|Universel]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 6 ; '''Brûlure''' 0  
 Le personnage peut utiliser ce talent sauvage au moment où il déclenche une explosion cinétique autre qu’une [[talents sauvages#EXPLOSIONTÉLÉCINÉTIQUE|explosion télécinétique]]. Il se fond dans son élément ou son énergie pour se déplacer avec son explosion cinétique et réapparaître à l’extrémité de sa trajectoire, sur une case adjacente à la cible (ou à la dernière cible si des injections de forme telles que l’[[talents sauvages#ENCHAÎNEMENT|enchaînement]] sont utilisées) ou au centre du rayonnement ou de l’étendue dans le cas des injections de forme telles que la [[talents sauvages#DÉFLAGRATION|déflagration]]. Ce pouvoir ne fonctionne pas avec les injections de forme qui nécessitent des attaques au corps à corps (comme l’[[talents sauvages#ARMECINÉTIQUE|arme cinétique]]) ou qui prennent la forme de cône (comme la [[talents sauvages#PULVÉRISATION|pulvérisation]]).
 
-{s:Reference|CINÉTISTETALENTUEUX}  
+{s:Reference|CINÉTISTETALENTUEUX}
 __'''Cinétiste talentueux'''__  
 '''Élément''' [[Éléments#UNIVERSEL|Universel]] ; '''Type''' utilitaire (Sur) ; '''Niveau''' 1 ; '''Brûlure''' -  
 Le personnage bénéficie d’un bonus égal à la moitié de son niveau de cinétiste aux [[compétences#TESTSDECOMPETENCES|tests des compétences]] ajoutées à sa liste de compétences de classe par le biais de son [[cinétiste#ÉLÉMENTDEPRÉDILECTION|élément de prédilection]]. De plus, il peut utiliser la compétence de [[Connaissances]] associée à son [[cinétiste#ÉLÉMENTDEPRÉDILECTION|élément de prédilection]] pour identifier les élémentaires dont le sous-type correspond à son [[cinétiste#ÉLÉMENTDEPRÉDILECTION|élément de prédilection]].
 
-{s:Reference|CINÉTISTETALENTUEUXSUPRÊME}  
+{s:Reference|CINÉTISTETALENTUEUXSUPRÊME}
 __'''Cinétiste talentueux suprême'''__  
 '''Élément''' [[Éléments#UNIVERSEL|Universel]] ; '''Type''' utilitaire (Sur) ; '''Niveau''' 2 ; Brûlure –  
 '''Condition''' [[talents sauvages#CINÉTISTETALENTUEUX|Cinétiste talentueux]]  
 En approfondissant ses connaissances sur le plan Éthéré et les plans Élémentaires, le personnage a appris à exploiter son [[cinétiste#ÉLÉMENTDEPRÉDILECTION|élément de prédilection]] pour utiliser ses compétences de manière surprenante. Il ajoute [[Connaissances]] (plans) à sa liste de compétences de classe. Il choisit l’une de ses compétences de classe de cinétiste qui n’a pas été ajoutée à sa liste par le biais de son [[cinétiste#ÉLÉMENTDEPRÉDILECTION|élément de prédilection]] pour bénéficier également du bonus conféré par le talent sauvage de [[talents sauvages#CINÉTISTETALENTUEUX|Cinétiste talentueux]].
 
-{s:cs}{s:OO}{s:Reference|CONTRÔLEDELAGRAVITÉ}  
+{s:cs}{s:OO}{s:Reference|CONTRÔLEDELAGRAVITÉ}
 __'''Contrôle de la gravité'''__  
 '''Élément''' [[Éléments#VIDE|Vide]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 3 ; '''Brûlure''' 0  
 Le personnage utilise ses capacités gravitationnelles pour se déplacer, comme avec [[talents sauvages#PROPULSIONPARLESFLAMMES|Propulsion par les flammes]].
 
-{s:cs}{s:OO}{s:Reference|CONTRÔLEDELAGRAVITÉSUPRÊME}  
+{s:cs}{s:OO}{s:Reference|CONTRÔLEDELAGRAVITÉSUPRÊME}
 __'''Contrôle de la gravité suprême'''__  
 '''Élément''' [[Éléments#VIDE|Vide]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 5 ; '''Brûlure''' 0  
 '''Conditions''' [[talents sauvages#CONTRÔLEDELAGRAVITÉ|contrôle de la gravité]]  
 Le personnage a un meilleur contrôle sur la gravité, comme avec [[talents sauvages#PROPULSIONPARLESFLAMMESSUPRÊME|Propulsion par les flammes suprême]].
 
-{s:Reference|COUSSINDAIR}  
+{s:Reference|COUSSINDAIR}
 __'''Coussin d’air'''__  
 '''Élément''' [[Éléments#AIR|Air]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 1 ; '''Brûlure''' 0  
 Le personnage amortit une chute depuis n’importe quelle hauteur. Il est sous l’effet permanent d’un sort de [[feuille morte]] et considère que sa taille est supérieure d’une catégorie lorsqu’il s’agit de déterminer la façon dont le vent l’affecte.
 
-{s:cs}{s:OO}{s:Reference|CROISSANCESAUVAGE}  
+{s:cs}{s:OO}{s:Reference|CROISSANCESAUVAGE}
 __'''Croissance sauvage'''__  
 '''Élément''' [[Éléments#BOIS|Bois]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 5 ; '''Brûlure''' 0  
 Le personnage peut insuffler de l'énergie vitale dans une plante, entravant ses ennemis ou aidant les fermiers locaux. Ce talent sauvage fonctionne comme le sort ''[[croissance végétale]]''.
 
-{s:Reference|DANSEURAQUATIQUE}  
+{s:Reference|DANSEURAQUATIQUE}
 __'''Danseur aquatique'''__  
 '''Élément''' [[Éléments#EAU|Eau]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 3 ; '''Brûlure''' 0  
 Le personnage produit un courant aquatique pour augmenter sa vitesse et son aisance lorsqu’il nage, comme s’il était sous l’effet permanent d’un sort de [[vague]].
 
-{s:Reference|DANSEURAQUATIQUESUPRÊME}  
+{s:Reference|DANSEURAQUATIQUESUPRÊME}
 __'''Danseur aquatique suprême'''__  
 '''Élément''' [[Éléments#EAU|Eau]] ; '''Type''' utilitaire (Sur) ; '''Niveau''' 5 ; '''Brûlure''' 0  
 '''Condition''' [[talents sauvages#DANSEURAQUATIQUE|Danseur aquatique]]  
 Le personnage se déplace sur l’eau (comme avec une [[marche sur londe|marche sur l’onde]]) à volonté et respire dans l’eau. Quand il combat sous l’eau, ses attaques effectuées avec des armes perforantes et contondantes ne subissent pas les malus habituels.
 
-{s:Reference|DÉCALAGEDETERRE}  
+{s:Reference|DÉCALAGEDETERRE}
 __'''Décalage de terre'''__  
 '''Élément''' [[Éléments#TERRE|Terre]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 4 ; '''Brûlure''' 0  
 '''Condition''' [[talents sauvages#ABRICINÉTIQUE|abri cinétique]]  
 '''Jet de sauvegarde''' voir description ; '''Résistance à la magie''' non  
 Par une [[types dactions#SIMPLE|action simple]], le personnage peut pousser ou tirer un cube de 1,50 mètre de côté de terre ou de pierre brute situé à 9 mètres ou moins. Il déplace ce cube sur une distance de 1,50 mètre dans la direction de son choix. Il peut créer des plates-formes le long d’une paroi rocheuse, des marches le long d’une falaise, des trous ou d’autres éléments utiles. Toutefois, ce talent sauvage ne permet pas à la terre de flotter dans les airs mais, dans les zones riches en terre, le personnage peut déplacer un cube vers le haut pour créer un pilier de taille réduite. S’il déplace la terre située sous les pieds d’une créature, celle-ci peut effectuer un jet de Réflexes DD 20 pour bondir sur le côté et éviter de se déplacer avec le cube de terre.
 
-{s:Reference|DÉCALAGEDETERRESUPRÊME}  
+{s:Reference|DÉCALAGEDETERRESUPRÊME}
 __'''Décalage de terre suprême'''__  
 '''Élément''' [[Éléments#TERRE|Terre]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 7 ; '''Brûlure''' 0  
 '''Conditions''' [[talents sauvages#ABRICINÉTIQUE|abri cinétique]], [[talents sauvages#DÉCALAGEDETERRE|Décalage de terre]]  
 Le personnage peut déplacer un volume de terre plus important, comme avec un glissement de terrain.
 
-{s:Reference|DÉFENSEAMELIORÉE}  
+{s:Reference|DÉFENSEAMELIORÉE}
 __'''Défense améliorée'''__  
 '''Élément''' [[Éléments#UNIVERSEL|Universel]] ; '''Type''' utilitaire (Sur) ; '''Niveau''' 4 ; '''Brûlure''' -  
 Le personnage choisit un élément sélectionné avec l’[[cinétiste#EXTENSIONÉLÉMENTAIRE|extension élémentaire]]. Il obtient le talent sauvage de défense lié à cet élément. Le personnage peut prendre ce talent sauvage plusieurs fois en choisissant à chaque fois un élément différent.
 
-{s:cs}{s:OO}{s:Reference|DÉGUISEMENTVÉGÉTAL}  
+{s:cs}{s:OO}{s:Reference|DÉGUISEMENTVÉGÉTAL}
 __'''Déguisement végétal'''__  
 '''Élément''' [[Éléments#BOIS|Bois]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 4 ; '''Brûlure''' 0  
 Le personnage peut prendre la forme d'une plante immobile, comme avec le sort ''[[forme darbre|forme d'arbre]]'' mais pour se transformer en n'importe quelle plante ordinaire de taille P ou M.
 
-{s:cs}{s:OO}{s:Reference|DÉPLACEMENTFACILITÉ}  
+{s:cs}{s:OO}{s:Reference|DÉPLACEMENTFACILITÉ}
 __'''Déplacement facilité'''__  
 '''Élément''' [[Éléments#BOIS|Bois]] ; '''Type''' utilitaire (Sur) ; '''Niveau''' 1 ; '''Brûlure''' 0  
 Le personnage obtient la capacité de druide [[Druide#DEPLACEMENTFACILITE|déplacement facilité]]. Grâce à son habileté à manipuler les plantes, il peut effectuer un test de [[NLS|niveau de lanceur de sorts]] ([[DD]] 11 + le NLS du sort) par une [[action simple]] pour ignorer les malus de déplacement causés par des plantes manipulées magiquement (mais pas par la présence de créatures de type [[type Plante|plante]]).
 
-{s:cs}{s:OO}{s:Reference|DÉPLACEMENTFACILITÉSUPRÊME}  
+{s:cs}{s:OO}{s:Reference|DÉPLACEMENTFACILITÉSUPRÊME}
 __'''Déplacement facilité suprême'''__  
 '''Élément''' [[Éléments#BOIS|Bois]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 5 ; '''Brûlure''' 0  
 '''Conditions''' [[talents sauvages#DÉPLACEMENTFACILITÉ|déplacement facilité]]  
 Les plantes assistent activement le personnage et ses alliés. Le personnage et les alliés situés à une distance maximum de 9 m bénéficient du sort ''[[ami de la forêt]]''.
 
-{s:Reference|DÉVIATIONDELAMAGIE}  
+{s:Reference|DÉVIATIONDELAMAGIE}
 __'''Déviation de la magie'''__  
 '''Élément''' [[Éléments#ÉTHER|Éther]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 7 ; '''Brûlure''' 0  
 Le personnage tisse des filaments d’éther autour de lui afin de renvoyer les sorts qui le prennent pour cible vers ceux qui les ont lancés. Jusqu’au début de son prochain tour, chaque fois qu’il est la cible d’un sort qu’un renvoi des sorts peut affecter, il lance 1d10-1 et détermine les effets du sort comme s’il avait utilisé un renvoi des sorts avec un nombre de niveaux de sort restants égal au résultat de son jet. Le personnage peut accepter 1 point de brûlure pour augmenter la durée à 10 minutes par niveau de cinétiste mais, dans ce cas, l’effet renvoie 10 niveaux de sort au total (il faut toujours lancer 1d10-1 pour chaque sort ciblé) avant de prendre fin prématurément.
 
-{s:Reference|DÉVIATIONTELECINETIQUE}  
+{s:Reference|DÉVIATIONTELECINETIQUE}
 __'''Déviation télécinétique'''__  
 '''Élément''' [[Éléments#ÉTHER|Éther]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 8 ; '''Brûlure''' 0  
 Le personnage peut dévier les attaques de ses adversaires, comme avec une [[déviation]] et ce, pendant 1 round. Il peut accepter 1 point de brûlure pour augmenter la durée à 1 round par niveau de cinétiste.
 
-{s:cs}{s:OO}{s:Reference|DISTORSIONDUBOIS}  
+{s:cs}{s:OO}{s:Reference|DISTORSIONDUBOIS}
 __'''Distorsion du bois'''__  
 '''Élément''' [[Éléments#BOIS|Bois]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 3 ; '''Brûlure''' 0  
 Le personnage peut déformer les végétaux et les objets en bois, comme avec ''[[distorsion du bois]]''.
 
-{s:Reference|ENFUMAGE}  
+{s:Reference|ENFUMAGE}
 __'''Enfumage'''__  
 '''Élément''' [[Éléments#FEU|Feu]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 3 ; '''Brûlure''' 0  
 '''Jet de sauvegarde''' Vigueur, annule ; voir description ; '''Résistance à la magie''' non  
 Le personnage transforme la source d’un feu ou d’une flamme non protégée et située à 36 mètres ou moins en un nuage de fumée suffocante qui envahit une étendue de 6 mètres de rayon et obscurcit la vision de la même façon qu’un bâton fumigène. Toutes les créatures qui commencent leur tour à l’intérieur de la zone enfumée deviennent [[Fiévreux|fiévreuses]] et le restent tant qu’elles demeurent à l’intérieur de la zone, et pendant 1d4+1 rounds par la suite (Vigueur, annule).
 
-{s:Reference|ESCALADEDELATERRE}  
+{s:Reference|ESCALADEDELATERRE}
 __'''Escalade de la terre'''__  
 '''Élément''' [[Éléments#TERRE|Terre]] ; '''Type''' utilitaire (Sur) ; '''Niveau''' 2 ; '''Brûlure''' 0  
 Le personnage exploite son affinité avec la terre pour légèrement fusionner dans les surfaces rocheuses ou terreuses, ce qui lui confère une vitesse d’escalade égale à sa vitesse de base au sol quand il escalade ce type de surface.
 
-{s:Reference|ESQUIVEAÉRIENNE}  
+{s:Reference|ESQUIVEAÉRIENNE}
 __'''Esquive aérienne'''__  
 '''Élément''' [[Éléments#AIR|Air]] ; '''Type''' utilitaire (Sur) ; '''Niveau''' 3 ; '''Brûlure''' 1  
 '''Condition''' [[talents sauvages#VENTSPROTECTEURS|vents protecteurs]]  
 Le personnage manipule les vents pour sauter à l’écart des attaques de zone. Il obtient l’[[roublard#ESQUIVETOTALE|esquive totale]], identique à l’aptitude du roublard, jusqu’au prochain moment où sa brûlure sera retirée.
 
-{s:Reference|ÉTINCELLEDEVIE}  
+{s:Reference|ÉTINCELLEDEVIE}
 __'''Étincelle de vie'''__  
 '''Élément''' [[Éléments#UNIVERSEL|Universel]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 5 ; '''Brûlure''' 0  
 Le personnage souffle un semblant de vie dans de la matière élémentaire qui prend alors la forme d’un élémentaire de taille M de l’un des éléments du personnage, comme s’il l’avait convoqué à l’aide d’une [[convocation de monstres IV]] dont le [[NLS|niveau de lanceur de sorts]] est égal à son niveau de cinétiste. L’élémentaire ainsi convoqué est toutefois affublé du trait dénué d’intelligence. Chaque round, lors du tour du personnage, celui-ci doit effectuer une [[types dactions#MOUVEMENT|action de mouvement]] pour guider l’élémentaire ou ce dernier s’effondre et reprend la forme de son élément d’origine. En acceptant 1 point de brûlure, le personnage peut transférer un fragment de sa propre conscience vers l’élémentaire, ce qui retire son trait dénué d’intelligence et lui permet de rester pendant un round par niveau de cinétiste sans que le personnage n’ait à effectuer d’action. Au niveau 12, le personnage peut créer un élémentaire de taille G comme avec une [[convocation de monstres V]] ; au niveau 14, il peut créer un élémentaire de taille TG comme avec une [[convocation de monstres VI]] ; au niveau 16, il peut créer un élémentaire noble comme avec une [[convocation de monstres VII]] ; et au niveau 18, il peut créer un seigneur élémentaire comme avec une [[convocation de monstres VIII]].
 
-{s:cs}{s:OO}{s:Reference|FAÇOINNAGEDUBOIS}  
+{s:cs}{s:OO}{s:Reference|FAÇOINNAGEDUBOIS}
 __'''Façonnage du bois'''__  
 '''Élément''' [[Éléments#BOIS|Bois]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 4 ; '''Brûlure''' 0  
 Le personnage remodèle le bois comme il le souhaite, comme avec ''[[façonnage du bois]]''.
 
-{s:cs}{s:OO}{s:Reference|FEUILLAGEMISÉRICORDIEUX}  
+{s:cs}{s:OO}{s:Reference|FEUILLAGEMISÉRICORDIEUX}
 __'''Feuillage miséricordieux'''__  
 '''Élément''' [[Éléments#BOIS|Bois]] ; '''Type''' utilitaire (Sur) ; '''Niveau''' 2 ; '''Brûlure''' —  
 Le Monde féérique est un lieu emplit de vie, et le personnage peut utiliser une partie de son énergie pour rendre ses attaques moins dangereuses. Le personnage peut infliger des dégâts [[Blessures et mort#NONLETAL|non létaux]] sans subir de malus aux [[jet dattaque|jets d'attaque]] avec les [[talents sauvages#EXPLOSIONDEBOIS|explosions de bois]] et les [[talents sauvages#EXPLOSIONSCOMPOSITES|explosions composites]] incluant du bois.
 
-{s:Reference|FINESSETÉLÉCINÉTIQUE}  
+{s:Reference|FINESSETÉLÉCINÉTIQUE}
 __'''Finesse télécinétique'''__  
 '''Élément''' [[Éléments#ÉTHER|Éther]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 1 ; '''Brûlure''' 0  
 Le personnage peut accomplir toutes sortes de manipulations exigeant de la précision à courte portée, même s’il doit pour cela effectuer des tests de [[Sabotage]] ou d’[[Escamotage]].
 
-{s:Reference|FORMECINÉTIQUE}  
+{s:Reference|FORMECINÉTIQUE}
 __'''Forme cinétique'''__  
 '''Élément''' [[Éléments#UNIVERSEL|Universel]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 5 ; '''Brûlure''' 1  
 Le personnage peut suspendre son corps dans une importante masse de matière élémentaire. Jusqu’au prochain moment où sa brûlure sera retirée, il peut modifier sa taille pour devenir un individu de taille G ou reprendre sa taille d’origine par une [[types dactions#SIMPLE|action simple]]. Cette modification de taille ne change en aucun cas ses valeurs de caractéristique. Au niveau 16, il peut accepter 1 point de brûlure supplémentaire pour prendre la taille d’une créature de taille TG. Le personnage ne peut pas utiliser la forme cinétique pour diminuer sa taille.
 
-{s:Reference|FURIEARDENTE}  
+{s:Reference|FURIEARDENTE}
 __'''Furie ardente'''__  
 '''Élément''' [[Éléments#FEU|Feu]] ; '''Type''' utilitaire (Sur) ; '''Niveau''' 1 ; '''Brûlure''' -  
 Quand il utilise des [[talents sauvages#EXPLOSIONDEFEU|explosions de feu]] ou des explosions composites composées de feu, le personnage ajoute le bonus de son [[cinétiste#BOUILLONNEMENTÉLÉMENTAIRE|bouillonnement élémentaire]] aux dégâts infligés. Si l’explosion cinétique ajoute normalement le double du bonus de son [[cinétiste#BOUILLONNEMENTÉLÉMENTAIRE|bouillonnement élémentaire]] aux dégâts, ces effets se cumulent.
 
-{s:cs}{s:UI}{s:Reference|FUSIONTELLURIQUE}  
+{s:cs}{s:UI}{s:Reference|FUSIONTELLURIQUE}
 __'''Fusion tellurique'''__  
 '''Élément''' [[Éléments#TERRE|Terre]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 4 ; '''Brûlure''' 0  
 '''Condition''' [[Talents sauvages#ESCALADEDELATERRE|Escalade de la terre]]  
 Le personnage fusionne une créature dans la pierre, où elle peut écouter des conversations sans être détectée. Ce talent fonctionne comme le sort ''[[fusion dans la pierre]]'', sauf qu'il peut fonctionner sur n'importe quelle créature consentante, pas seulement le personnage, et qu'il dure 10 minutes par niveau de cinétiste ou jusqu'à ce que le personnage utilise à nouveau fusion tellurique. C'est la créature fusionnée, et non le personnage, qui décide du moment où elle sort de la pierre. Le personnage peut accepter 1 point de brûlure pour augmenter la durée d'une fusion tellurique jusqu'au prochain moment où sa brûlure sera retirée. Ces fusions telluriques améliorées ne se terminent pas s'il utilise ce talent à nouveau, ce qui lui permet de maintenir plusieurs fusions telluriques à la fois.
 
-{s:Reference|GÉOCINETIQUESIMPLE}  
+{s:Reference|GÉOCINETIQUESIMPLE}
 __'''Géocinétiste simple'''__  
 '''Élément''' [[Éléments#TERRE|Terre]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 1 ; '''Brûlure''' 0  
 Par une [[types dactions#MOUVEMENT|action de mouvement]], le personnage peut déplacer jusqu’à 2,5 kilos par niveau de cinétiste de rochers, de terre meuble, de glaise, d’argile ou de matériaux similaires sur une distance maximale de 4,50 mètres. Il peut également examiner à distance des zones rocheuses ou terreuses comme s’il utilisait le tour de magie [[inspection]].
 
-{s:Reference|GLOBETÉLÉCINÉTIQUE}  
+{s:Reference|GLOBETÉLÉCINÉTIQUE}
 __'''Globe télécinétique'''__  
 '''Élément''' [[Éléments#ÉTHER|Éther]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 8 ; '''Brûlure''' 0  
 '''Conditions''' [[talents sauvages#BARRIÈREDEFORCE|Barrière de force]], [[talents sauvages#PROTECTIONDEFORCE|Protection de force]]  
 Le personnage peut créer un globe de force, similaire à une sphère téléguidée, qui dure tant qu’il se concentre par une [[types dactions#SIMPLE|action simple]], et qu’il peut déplacer par une [[types dactions#MOUVEMENT|action de mouvement]]. Il peut accepter 1 point de brûlure pour augmenter la durée à 1 minute par niveau de cinétiste et supprimer la nécessité de se concentrer pour maintenir le globe.
 
-{s:Reference|HYDROCINÉTIQUESIMPLE}  
+{s:Reference|HYDROCINÉTIQUESIMPLE}
 __'''Hydrocinétique simple'''__  
 '''Élément''' [[Éléments#EAU|Eau]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 1 ; '''Brûlure''' 0  
 Le personnage peut créer de l’eau comme avec le tour de magie [[création deau|création d’eau]], purifier de l’eau comme avec le sort [[purification de nourriture et deau|purification de nourriture et d’eau]] et sécher des créatures et des objets humides comme s’il utilisait une [[prestidigitation]]. Même si le personnage ne peut pas soulever de l’eau dans les airs grâce à ce talent, il peut tout de même créer des courants modérés dans une étendue d’eau en se concentrant. Ces courants sont suffisamment puissants pour faire tourner la roue d’un moulin comme si celle-ci était physiquement tournée par une créature dont la valeur de [[Force]] est égale à la valeur de [[Constitution]] du personnage.
 
 {s:FAQ|'''''[[FAQ- Aventures occultes#4|→]] Cinétiste, Invisibilité télécinétique : Plusieurs détails dans la description de ce talent suggèrent que je ne peux l'utiliser que sur moi-même, mais d'un autre côté, il dit fonctionner comme ''invisibilité'', qui n'est pas un sort à portée personnelle. Qu'est ce qui est correct ?'''''
 
-Un personnage ne peut utiliser le talent __[[Talents sauvages#INVISIBILITÉTÉLÉCINÉTIQUE|invisibilité télécinétique]]__ que sur lui-même.}{s:Reference|INVISIBILITÉTÉLÉCINÉTIQUE}  
+Un personnage ne peut utiliser le talent __[[Talents sauvages#INVISIBILITÉTÉLÉCINÉTIQUE|invisibilité télécinétique]]__ que sur lui-même.}{s:Reference|INVISIBILITÉTÉLÉCINÉTIQUE}
 __'''Invisibilité télécinétique'''__  
 '''Élément''' [[Éléments#ÉTHER|Éther]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 3 ; '''Brûlure''' 0  
 Le personnage tisse des filaments d’éther pour réfracter la lumière et amoindrir les sons. Ce talent sauvage fonctionne comme l’[[invisibilité]] sauf que la réfraction éthérée est plus facile à repérer que l’invisibilité normale. Par conséquent, le bonus du personnage aux tests de [[Discrétion]] est diminué de moitié (+10 quand il se déplace et +20 s’il reste immobile). Toutefois, la réduction des sons permet au personnage d’éviter la détection automatique des créatures dotées de la vision aveugle et de la perception aveugle, mais le personnage ne bénéficie d’aucun bonus aux tests de [[Discrétion]] grâce à ce talent vis-à-vis d’une créature dotée de ces pouvoirs spéciaux.
 
-{s:cs}{s:OO}{s:Reference|LANGUEVERTE}  
+{s:cs}{s:OO}{s:Reference|LANGUEVERTE}
 __'''Langue verte'''__  
 '''Élément''' [[Éléments#BOIS|Bois]] ; '''Type''' utilitaire (Sur) ; '''Niveau''' 6 ; '''Brûlure''' —  
 Le personnage est capable de communiquer avec les plantes et d'entendre leurs murmures, comme s'il était constamment sous l'effet d'un sort de ''[[communication avec les plantes]]''.
 
-{s:cs}{s:OO}{s:Reference|MAÎTREDELAGRAVITÉ}  
+{s:cs}{s:OO}{s:Reference|MAÎTREDELAGRAVITÉ}
 __'''Maître de la gravité'''__  
 '''Élément''' [[Éléments#VIDE|Vide]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 9 ; '''Brûlure''' 0  
 '''Conditions''' [[talents sauvages#CONTRÔLEDELAGRAVITÉ|contrôle de la gravité]], [[talents sauvages#CONTRÔLEDELAGRAVITÉSUPRÊME|contrôle de la gravité suprême]]  
 Le personnage peut créer des zones où la gravité est altérée. Ce talent sauvage fonctionne comme ''[[inversion de la gravité]]'', mais le personnage peut choisir n'importe quelle direction d'attraction (pas uniquement vers le haut). Quand le personnage utilise ce talent sauvage, toute autre zone de gravité altérée créée par celui-ci expire immédiatement.
 
-{s:Reference|MAÎTREDESSÉISMES}  
+{s:Reference|MAÎTREDESSÉISMES}
 __'''Maître des séismes'''__  
 '''Élément''' [[Éléments#TERRE|Terre]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 9 ; '''Brûlure''' 0  
 Le personnage peut se focaliser sur son lien avec la Terre pour créer un séisme localisé, comme avec le sort [[tremblement de terre]].
 
-{s:Reference|MAÎTREDUCLIMAT}  
+{s:Reference|MAÎTREDUCLIMAT}
 __'''Maître du climat'''__  
 '''Élément''' [[Éléments#AIR|Air]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 8 ; '''Brûlure''' 0  
 En se focalisant sur son lien avec l’air et en ensemençant l’air qui l’entoure pendant 10 minutes, le personnage peut créer de puissants effets climatiques similaires à ceux d’un [[contrôle du climat]]. Il peut créer des tornades ou des ouragans en fonction de la saison. S’il a accès à l’[[talents sauvages#FEU|élément du Feu]], il peut créer un temps chaud, une vague de chaleur, une fonte des neiges ou un printemps précoce. S’il a accès à l’[[talents sauvages#EAU|élément de l’Eau]], il peut créer tous les autres climats indiqués dans la description du sort de [[contrôle du climat]].
 
-{s:Reference|MANIPULATIONDELEAU}  
+{s:Reference|MANIPULATIONDELEAU}
 __'''Manipulation de l’eau'''__  
 '''Élément''' [[Éléments#EAU|Eau]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 3 ; '''Brûlure''' 0  
 '''Condition''' [[talents sauvages#ABRICINÉTIQUE|abri cinétique]]  
 '''Jet de sauvegarde''' aucun, voir description ; '''Résistance à la magie''' non  
 Le personnage peut manipuler de grandes quantités d’eau. Par une [[types dactions#SIMPLE|action simple]], il peut lever ou baisser le niveau d’une étendue d’eau comme s’il utilisait [[Contrôle de leau|contrôle de l’eau]], ou déplacer une quantité d’eau égale à un millième de la quantité contrôlée par ce sort vers un autre emplacement à portée. L’eau reste là où le personnage la positionne aussi longtemps qu’il demeure immobile et accomplit une [[types dactions#SIMPLE|action simple]] chaque round pour se concentrer sur cet effet. Ce talent sauvage applique un effet de [[lenteur]], comme celui de [[Contrôle de leau|contrôle de l’eau]] (Volonté, annule) sur les créatures composées d’eau. Quand le personnage cesse de se concentrer, l’eau se déverse normalement, à moins qu’il n’accepte 1 point de brûlure pour prolonger la durée et maintenir l’eau dans sa position actuelle pendant 10 minutes par niveau de cinétiste.
 
-{s:Reference|MANIPULATIONDUVENT}  
+{s:Reference|MANIPULATIONDUVENT}
 __'''Manipulation du vent'''__  
 '''Élément''' [[Éléments#AIR|Air]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 6 ; '''Brûlure''' 0  
 '''Condition''' [[talents sauvages#BARRIEREDUVENT|Barrière du vent]]  
 Le personnage lève des vents puissants dans une zone extrêmement grande. Par une [[types dactions#SIMPLE|action simple]], il peut modifier le vent qui souffle autour de lui comme s’il utilisait [[contrôle des vents]] mais la modification persiste uniquement s’il continue d’accomplir une [[types dactions#SIMPLE|action simple]] pour rester concentré sur cet effet. S’il accepte 1 point de brûlure, il peut prolonger la durée à 10 minutes par niveau de cinétiste sans avoir à se concentrer.
 
-{s:Reference|MANOEUVRESTÉLÉCINÉTIQUES}  
+{s:Reference|MANOEUVRESTÉLÉCINÉTIQUES}
 __'''Manoeuvres télécinétiques'''__  
 '''Élément''' [[Éléments#ÉTHER|Éther]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 4 ; '''Brûlure''' 0  
 '''Jet de sauvegarde''' aucun ; '''Résistance à la magie''' oui  
 Le personnage peut accomplir des [[manoeuvres offensives]], comme avec la [[télékinésie]], mais il applique son modificateur de [[Constitution]] pour déterminer son [[BMO|Bonus de Manoeuvre Offensive]] au lieu de son modificateur de [[Charisme]] ou d’[[Intelligence]]. S’il possède le talent sauvage de [[talents sauvages#FINESSETÉLÉCINÉTIQUE|finesse télécinétique]], il ajoute les manoeuvres de [[manoeuvres offensives#SALECOUP|sale coup]] et de [[manoeuvres offensives#SUBTILISATION|subtilisation]] à la liste de manoeuvres offensives qu’il peut accomplir. Quand il accomplit ces manoeuvres, il détermine son [[BMO|Bonus de Manoeuvre Offensive]] en appliquant son modificateur de [[Dextérité]] à la place de son modificateur de [[Constitution]].
 
-{s:Reference|MANTEAUDAIR}  
+{s:Reference|MANTEAUDAIR}
 __'''Manteau d’air'''__  
 '''Élément''' [[Éléments#AIR|Air]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 1 ; '''Brûlure''' 0  
 Le personnage est constamment entouré d’air, comme avec un sort de bulle d’air AG. Par une action simple, il peut accepter un point de brûlure pour conférer l’effet à un nombre de créatures supplémentaires égal à son modificateur de Constitution pendant une minute par niveau de cinétiste.
 
-{s:Reference|MANTEAUDAIRSUPRÊME}  
+{s:Reference|MANTEAUDAIRSUPRÊME}
 __'''Manteau d’air suprême'''__  
 '''Élément''' Air ; '''Type''' utilitaire (Mag) ; '''Niveau''' 5 ; '''Brûlure''' 0  
 '''Condition''' [[talents sauvages#MANTEAUDAIR|manteau d’air]]  
 L’efficacité du [[talents sauvages#MANTEAUDAIR|manteau d’air]] augmente et confère au personnage les avantages d’un sort de [[bulle de vie]] . Quand il accepte une brûlure pour conférer les avantages de cet effet à autrui, ceux-ci persistent jusqu’au prochain moment où sa brûlure sera retirée.
 
-{s:Reference|MANUTENTIONTÉLÉCINÉTIQUE}  
+{s:Reference|MANUTENTIONTÉLÉCINÉTIQUE}
 __'''Manutention télécinétique'''__  
 '''Élément''' [[Éléments#ÉTHER|Éther]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 2 ; '''Brûlure''' 0  
 '''Condition''' [[talents sauvages#TÉLÉCINÉTIQUESIMPLE|Télécinétique simple]]  
 Quand il utilise la [[talents sauvages#TÉLÉCINÉTIQUESIMPLE|télécinétique simple]], le personnage peut déplacer un objet d’un poids maximum de 50 kilos par niveau de cinétiste. Quand il utilise son [[talents sauvages#EXPLOSIONTÉLÉCINÉTIQUE|explosion télécinétique]], il peut lancer un objet d’un poids maximum de 50 kilos par niveau de cinétiste, mais les dégâts n’augmentent pas pour autant. S’il accepte 1 point de brûlure, le poids maximum passe à 500 kilos par niveau de cinétiste et la durée à 1 minute par niveau de cinétiste possédé.
 
-{s:Reference|MARCHEDELATERRE}  
+{s:Reference|MARCHEDELATERRE}
 __'''Marche de la terre'''__  
 '''Élément''' [[Éléments#TERRE|Terre]] ; '''Type''' utilitaire (Sur) ; '''Niveau''' 1 ; '''Brûlure''' -  
 Le personnage fusionne très légèrement avec la terre, voilà pourquoi il ignore les [[terrain difficile|terrains difficiles]] occasionnés par les rochers, la terre ou la boue lorsqu’il se tient sur une surface en terre. De plus, il ajoute son bonus de [[cinétiste#BOUILLONNEMENTÉLÉMENTAIRE|bouillonnement élémentaire]] à son [[DMD]] quand on tente de le déplacer ou de lui faire des [[manoeuvres offensives#CROCENJAMBE|crocs-en-jambe]], ainsi qu’aux tests d’[[Acrobaties]] effectués pour garder l’équilibre.
 
-{s:Reference|MARCHESURLAGLACE}  
+{s:Reference|MARCHESURLAGLACE}
 __'''Marche sur la glace'''__  
 '''Élément''' [[Éléments#EAU|Eau]] ; '''Type''' utilitaire (Sur) ; '''Niveau''' 1 ; '''Brûlure''' -  
 Le personnage peut traverser des surfaces glissantes ou humides, y compris des zones sous l’effet du talent sauvage de [[talents sauvages#NAPPEGRAISSEUSE|nappe graisseuse]], sans avoir à effectuer de test d’[[Acrobaties]]. De plus, il est immunisé au mal de mer.
 
-{s:Reference|MARIONNETTEDÉTHER}  
+{s:Reference|MARIONNETTEDÉTHER}
 __'''Marionnette d’éther'''__  
 '''Élément''' [[Éléments#ÉTHER|Éther]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 5 ; '''Brûlure''' 0  
 Le personnage tisse des filaments d’éther pour animer un objet. Il peut animer un objet de taille M ou inférieure comme un [[objet animé]] (Bestiaire Pathfinder JdR p. 229) sans aucune aptitude conférée par des points de construction (à l’exception de la pierre ou du métal ordinaire si l’objet est composé de l’un de ces matériaux). Chaque round, pendant son tour, le personnage doit réaliser une [[types dactions#MOUVEMENT|action de mouvement]] pour guider l’objet. Dans le cas contraire, celui-ci retourne à sa nature d’objet inerte. En acceptant 1 point de brûlure, le personnage peut transférer un fragment de sa conscience vers la marionnette d’éther, ce qui permet à l’effet de persister pendant 1 round par niveau de cinétiste sans que le personnage n’ait à effectuer les actions supplémentaires nécessaires à la manipulation de la marionnette. Au niveau 12, le personnage peut animer un objet de taille G ou inférieure qui obtient tous les pouvoirs d’un [[objet animé]] de taille M, plus celui d’attaque supplémentaire. Au niveau 14, le personnage peut animer un objet de taille TG ou inférieure qui obtient tous les pouvoirs d’un [[objet animé]] de taille G. Au niveau 16, le personnage peut animer un objet de taille Gig ou inférieure qui obtient tous les pouvoirs d’un [[objet animé]] de taille TG, ainsi que le pouvoir de métal (mithral) si l’objet est composé de mithral. Au niveau 18, le personnage peut animer un objet de taille C ou inférieure qui obtient tous les pouvoirs d’un [[objet animé]] de taille Gig, ainsi que le pouvoir de métal (adamantium) si l’objet est composé d’adamantium.
 
-{s:cs}{s:OO}{s:Reference|MARIONNETTEVÉGÉTALE}  
+{s:cs}{s:OO}{s:Reference|MARIONNETTEVÉGÉTALE}
 __'''Marionnette végétale'''__  
 '''Élément''' [[Éléments#BOIS|Bois]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 5 ; '''Brûlure''' 0  
 Le personnage peut contrôler les plantes, les amenant à attaquer ses adversaires. Ce talent sauvage fonctionne comme celui de [[talents sauvages#MARIONNETTEDÉTHER|marionnette d'éther]], sauf qu'il permet de contrôler des plantes plutôt que des objets. Au niveau 12, le personnage confère une [[solidité]] de 5 aux plantes animées de taille G ou plus.
 
-{s:Reference|MIRAGEMIROITANT}  
+{s:Reference|MIRAGEMIROITANT}
 __'''Mirage miroitant'''__  
 '''Élément''' [[Éléments#EAU|Eau]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 5 ; '''Brûlure''' 1  
 '''Condition''' [[talents sauvages#MANTEAUDEAU|Manteau d’eau]]  
 Le [[talents sauvages#MANTEAUDEAU|manteau d’eau]] du personnage réfracte la lumière pour créer un mirage miroitant. Tant que le [[talents sauvages#MANTEAUDEAU|manteau d’eau]] du personnage est actif, les attaques effectuées contre lui ont 20 % de chances de rater à cause du camouflage jusqu’au prochain moment où sa brûlure sera retirée.
 
-{s:Reference|NAGEDANSLATERRE}  
+{s:Reference|NAGEDANSLATERRE}
 __'''Nage dans la terre'''__  
 '''Élément''' [[Éléments#TERRE|Terre]] ; '''Type''' utilitaire (Sur) ; '''Niveau''' 5 ; '''Brûlure''' 0  
 '''Condition''' [[talents sauvages#ESCALADEDELATERRE|Escalade de la terre]]  
 Le personnage peut nager dans la terre, comme avec le pouvoir du même nom possédé par les [[Élémentaire de la Terre|élémentaires de la Terre]]. Sa vitesse de creusement est égale à sa vitesse de base au sol.
 
-{s:Reference|NAPPEGRAISSEUSE}  
+{s:Reference|NAPPEGRAISSEUSE}
 __'''Nappe graisseuse'''__  
 '''Élément''' [[Éléments#EAU|Eau]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 1 ; '''Brûlure''' 0  
 '''Jet de sauvegarde''' Réflexes, annule ; '''Résistance à la magie''' non  
 Par une [[types dactions#SIMPLE|action simple]], le personnage fait apparaître de l’eau ou de la glace glissante pour produire les mêmes effets qu’un sort de [[graisse]] pendant 1 round. Il peut accepter 1 point de brûlure au début de son prochain tour pour prolonger la durée à 1 minute par niveau de cinétiste.
 
-{s:Reference|PARALYSIEÉLÉMENTAIRE}  
+{s:Reference|PARALYSIEÉLÉMENTAIRE}
 __'''Paralysie élémentaire'''__  
 '''Élément''' [[Éléments#UNIVERSEL|Universel]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 3 ; '''Brûlure''' 0  
 '''Jet de sauvegarde''' Volonté, annule ; '''Résistance à la magie''' oui  
@@ -984,224 +984,224 @@ __'''Pas de respiration'''__
 '''Conditions''' [[talents sauvages#VACUITÉ|vacuité]]  
 Le personnage obtient [[Ne respire pas (capacité)|ne   respire pas]], comme la règle de monstre universelle, et il peut survivre dans le vide spatial.
 
-{s:Reference|PASSERELLEDEGLACE}  
+{s:Reference|PASSERELLEDEGLACE}
 __'''Passerelle de glace'''__  
 '''Élément''' [[Éléments#EAU|Eau]] ; '''Type''' utilitaire (Sur) ; '''Niveau''' 6 ; '''Brûlure''' 0  
 '''Condition''' [[talents sauvages#MARCHESURLAGLACE|Marche sur la glace]]  
 Le personnage gèle l’humidité dans l’air, ce qui lui permet de marcher sur la glace au-dessus du sol, comme avec un sort de [[marche dans les airs]]. Le personnage laisse derrière lui un chemin de glace qui reste en place pendant 1 round avant de fondre.
 
-{s:Reference|PEAUDEPIERRESACÉRÉES}  
+{s:Reference|PEAUDEPIERRESACÉRÉES}
 __'''Peau de pierres acérées'''__  
 '''Élément''' [[Éléments#TERRE|Terre]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 3 ; '''Brûlure''' 1  
 '''Condition''' [[talents sauvages#PEAUDEPIERRE|Peau de pierre]]  
 Le personnage provoque la croissance douloureuse de morceaux de roche acérés au travers de son épiderme. Jusqu’au prochain moment où sa brûlure sera retirée et tant que sa [[talents sauvages#PEAUDEPIERRESACÉRÉES|peau de pierre]] est active, les créatures qui luttent avec le personnage ou qui le frappent à mains nues ou avec des armes naturelles subissent 1d6 points de dégâts perforants. Les armes utilisées pour le frapper subissent également ces dégâts, même s’il est peu probable qu’ils soient suffisants pour pénétrer leur solidité.
 
-{s:cs}{s:OO}{s:Reference|PEAUDÉPINES}  
+{s:cs}{s:OO}{s:Reference|PEAUDÉPINES}
 __'''Peau d’épines'''__  
 '''Élément''' [[Éléments#BOIS|Bois]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 3 ; '''Brûlure''' 1  
 '''Conditions''' [[talents sauvages#PEAUDEBOIS|peau de bois]]  
 Le personnage recouvre son corps d’épines barbelées qui blessent les ennemis qui le touchent. Ce talent sauvage fonctionne [[talents sauvages#PEAUDEPIERRESACÉRÉES|peau de pierres acérées]].
 
-{s:Reference|PERCEPTIONAÉRIENNE}  
+{s:Reference|PERCEPTIONAÉRIENNE}
 __'''Perception aérienne'''__  
 '''Élément''' [[Éléments#AIR|Air]] ; '''Type''' utilitaire (Sur) ; '''Niveau''' 3 ; '''Brûlure''' -  
 Le personnage peut voir à travers la brume et le brouillard (y compris à travers une nappe de brouillard ou une magie similaire). Dans des zones balayées par des vents modérés ou forts, il peut voir et entendre tout ce qui se trouve autour de lui, mais également tout ce qui se trouve aux alentours d’un endroit situé à une distance dans la direction du vent égale à la vitesse du vent en kilomètre/heure, ce qui lui permet de voir et d’entendre en se jouant des éventuels obstacles.
 
-{s:Reference|PERCEPTIONAÉRIENNESUPRÊME}  
+{s:Reference|PERCEPTIONAÉRIENNESUPRÊME}
 __'''Perception aérienne suprême'''__  
 '''Élément''' [[Éléments#AIR|Air]] ; '''Type''' utilitaire (Sur) ; '''Niveau''' 5 ; '''Brûlure''' 0  
 '''Condition''' [[talents sauvages#PERCEPTIONAÉRIENNE|Perception aérienne]]  
 Le personnage peut souffler une brise légère sur une trajectoire longue de 144 mètres qui revient ensuite vers la position du personnage en attente. Ceci lui permet d’utiliser son talent sauvage de perception aérienne pour jeter un rapide coup d’oeil et entendre d’infimes bribes de son depuis n’importe quel endroit que le vent peut atteindre jusqu’à cette distance (le vent ne peut pas passer au travers d’ouvertures dont le diamètre est inférieur à 2,5 centimètres). La brise se déplace de 30 mètres par round. Par conséquent, le personnage entend et voit avec un délai de 1 round par tranche de 15 mètres de distance. Si le personnage consacre 10 minutes à la création d’un vent stable et continu, il peut se concentrer pendant un maximum de 1 minute par niveau de cinétiste pour obtenir des informations visuelles et auditives tant qu’il reste concentré, avec un délai de 1 round pour chaque tranche de 30 mètres de distance entre le personnage et l’endroit visionné (car le vent continu a simplement besoin d’atteindre le point de destination sans avoir à revenir). Ce talent ne crée aucun capteur invisible mais les créatures situées sur la trajectoire suivie par la brise peuvent remarquer un vent léger, même s’il paraît tout à fait ordinaire.
 
-{s:Reference|PERCEPTIONAQUATIQUE}  
+{s:Reference|PERCEPTIONAQUATIQUE}
 __'''Perception aquatique'''__  
 '''Élément''' [[Éléments#EAU|Eau]] ; '''Type''' utilitaire (Sur) ; '''Niveau''' 4 ; '''Brûlure''' -  
 Le personnage obtient la [[perception des vibrations]] sur une distance de 9 mètres, qui lui permet de détecter toute chose en contact avec la même étendue d’eau que celle dans laquelle il évolue. Tant qu’il bénéficie de cette perception, ses [[talents sauvages#EXPLOSIONDEAU|explosions d’eau]] et ses explosions composites composées d’eau n’ont aucune chance de rater les créatures détectées grâce à ce pouvoir et qui bénéficient d’un camouflage normal ou total.
 
-{s:cs}{s:UI}{s:Reference|PERCEPTIONAQUATIQUESUPRÊME}  
+{s:cs}{s:UI}{s:Reference|PERCEPTIONAQUATIQUESUPRÊME}
 __'''Perception aquatique suprême'''__  
 '''Élément''' [[Éléments#EAU|Eau]] ; '''Type''' utilitaire (Sur) ; '''Niveau''' 5 ; '''Brûlure''' 0  
 '''Condition''' [[Talents sauvages#PERCEPTIONAQUATIQUE|Perception aquatique]]  
 Le personnage projette sa perception aquatique vers l'extérieur pour atteindre les marées et autres étendues d'eau autour de lui, ce qui lui permet d'espionner n'importe qui à grande distance. Le personnage peut consacrer 10 minutes à la projection de ses sens et choisir une destination dans un rayon de 144 m qui est connectée à l'endroit où il se trouve par un corps d'eau continu, ou y consacrer 1 heure afin de tenter d'espionner une créature spécifique à 1.5 km par niveau de cinétiste qui est visible depuis un lieu connecté à sa position actuelle par le même corps d'eau continu. Dans le second cas, la créature a droit à un jet de [[Volonté]] comme contre ''[[scrutation]]'' (avec les mêmes bonus et malus dépendant de la connaissance et du lien qui les unis) ; une réussite immunise la cible contre la perception aquatique suprême du personnage pendant 24 heures. Dans les deux cas, un canal d'eau extrêmement fin, qui dure 1 minute par niveau de cinétiste, transmet la lumière et le son jusqu'à la position du personnage, où les alentours de sa cible apparaissent dans l'eau près de lui comme s'il regardait à travers un capteur de scrutation, qui permet donc au personnage de voir et d'entendre l'environnement proche à l'autre bout du canal. Dans le cas d'une distance supérieure à 144 m, le son arrive 1 round après l'information visuelle qui l'accompagne pour chaque tranche de 1.5 km qui sépare le personnage de sa cible (par exemple, s'il est à 7.5 km de distance, il verrait la cible parler 5 rounds avant d'entendre ce qu'elle dit). Lorsque le personnage traque ainsi une créature, le canal se déplace du mieux qu'il peut pour la suivre, à une vitesse de 45 m par round, mais la cible peut y échapper simplement en s'éloignant de l'eau. Si le personnage possède également le talent sauvage [[Talents sauvages#VENTDEMURMURES|vent de murmures]], il peut utiliser l'effet de transmission de message pour projeter sa voix à travers le canal avec un délai de 1 round par tranche de 1.5 km. Ce talent est un effet de [[école Divination|divination]] et de [[branche scrutation|scrutation]].
 
-{s:Reference|PERCEPTIONARDENTE}  
+{s:Reference|PERCEPTIONARDENTE}
 __'''Perception ardente'''__  
 '''Élément''' [[Éléments#FEU|Feu]] ; '''Type''' utilitaire (Sur) ; '''Niveau''' 3 ; '''Brûlure''' -  
 Le personnage voit à travers les flammes et la fumée comme si elles étaient transparentes. Les créatures en feu ou de sous-type feu ne peuvent pas profiter d’un camouflage normal ou total vis-à-vis du personnage.
 
-{s:Reference|PERCEPTIONDESVIBRATIONS}  
+{s:Reference|PERCEPTIONDESVIBRATIONS}
 __'''Perception des vibrations'''__  
 '''Élément''' [[Éléments#TERRE|Terre]] ; '''Type''' utilitaire (Sur) ; '''Niveau''' 3 ; '''Brûlure''' 0  
 Le personnage peut accomplir une [[types dactions#MOUVEMENT|action de mouvement]] pour obtenir la [[perception des vibrations]] pendant 1 round sur une distance de 9 mètres et sur toute surface en terre ou en pierre avec laquelle il est en contact. Il peut accepter 1 point de brûlure pour augmenter la durée à 1 round par niveau de cinétiste. Tant qu’il bénéficie de la [[perception des vibrations]], ses [[talents sauvages#EXPLOSIONDETERRE|explosions de terre]] et ses explosions composites composées de terre n’ont aucune chance de rater les créatures détectées grâce à ce pouvoir et qui bénéficient d’un camouflage partiel, normal ou total.
 
-{s:Reference|PERCEPTIONDESVIBRATIONSSUPRÊME}  
+{s:Reference|PERCEPTIONDESVIBRATIONSSUPRÊME}
 __'''Perception des vibrations suprême'''__  
 '''Élément''' [[Éléments#TERRE|Terre]] ; '''Type''' utilitaire (Sur) ; '''Niveau''' 5 ; '''Brûlure''' 0  
 '''Condition''' [[talents sauvages#PERCEPTIONDESVIBRATIONS|Perception des vibrations]]  
 Le personnage peut passer 10 minutes à étendre la portée de sa [[perception des vibrations]] quand il se trouve dans un environnement souterrain naturel, ce qui lui permet d’apprendre trois informations comme s’il utilisait une [[communion avec la nature]], sauf que sa [[perception des vibrations]] ne peut lui révéler si une créature est une créature des bois ou une puissante créature surnaturelle.
 
-{s:cs}{s:OO}{s:Reference|PHYTOCINÉTIQUESIMPLE}  
+{s:cs}{s:OO}{s:Reference|PHYTOCINÉTIQUESIMPLE}
 __'''Phytocinétique simple'''__  
 '''Élément''' [[Éléments#BOIS|Bois]] ; '''Type''' utilitaire (Sur) ; '''Niveau''' 1 ; '''Brûlure''' —  
 Le personnage peut tailler et entretenir les plantes à 9 m ou moins sans utiliser d'outils de jardinage. Il peut également fouiller les zones boisées et où la végétation est dense à distance comme s'il utilisait le tour de magie ''[[inspection]]''. En se concentrant, le personnage peut détecter les plantes dans un rayon de 32 m comme avec ''[[détection de la faune ou de la flore]]''.
 
-{s:cs}{s:UI}{s:Reference|PIEGEDEFLAMMES}  
+{s:cs}{s:UI}{s:Reference|PIEGEDEFLAMMES}
 __'''Piège de flammes'''__  
 '''Élément''' [[Éléments#FEU|Feu]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 2 ; '''Brûlure''' 0  
 Le personnage place un piège ardent sur un contenant, assurant la destruction de documents sensibles et sanctionnant quiconque tente de voler ses secrets. Pour déployer le piège, le personnage doit passer 10 minutes en contact avec le contenant qu'il souhaite piéger. Après cette durée, le contenant est piégé jusqu'à ce qu'il utilise ce talent sauvage à nouveau ou qu'il se déclenche. Toute créature autre que le personnage qui tente d'ouvrir le contenant subit des dégâts comme si elle avait été la cible de son [[Talents sauvages#EXPLOSIONDEFEU|explosion de feu]] (ou son [[Talents sauvages#EXPLOSIONDEFLAMMESBLEUES|explosion de flammes bleues]], s'il est capable de l'utiliser). La créature est automatiquement touchée si elle touche le contenant, elle a droit à un jet de [[Réflexes]] pour annuler les dégâts si elle se trouve à 9 m ou moins, et ne subit aucun dégâts si elle se trouve plus loin. Que la créature qui a ouvert le contenant ait subit des dégâts ou non, les dégâts de l'explosion cinétique s'appliquent également à tous les objets choisis présents dans le contenant, ainsi qu'au contenant en lui-même si le personnage le souhaite, mais laisse les autres objets intacts. Ce talent compte comme un [[Pièges#TYPES|piège magique]] avec un [[DD]] de [[Perception]] et de [[Sabotage]] égal à 10 + le niveau de cinétiste du personnage + son modificateur de [[Dextérité]]. Le personnage peut accepter 1 point de brûlure lorsqu'il utilise piège de flammes pour déployer un nouveau piège sans annuler les précédents. S'il le fait, le piège dure jusqu'au prochain moment où sa brûlure sera retirée.
 
-{s:Reference|PORTEEAÉRIENNE}  
+{s:Reference|PORTEEAÉRIENNE}
 __'''Portée aérienne'''__  
 '''Élément''' [[Éléments#AIR|Air]] ; '''Type''' utilitaire (Sur) ; '''Niveau''' 1 ; '''Brûlure''' -  
 Quand il utilise des [[talents sauvages#EXPLOSIONDAIR|explosions d’air]], des talents sauvages d’air ou des explosions composites composées d’air, le personnage double la portée effective de l’explosion. Cet effet s’applique après les modifications de portée conférées par des effets tels que l’injection d’[[talents sauvages#EXTENSIONDEPORTÉE|extension de portée]]. Ce talent double la portée effective de l’explosion seulement, et non la zone d’effet des injections telles que [[talents sauvages#NUAGE|nuage]] ou [[talents sauvages#CYCLONE|cyclone]].
 
-{s:Reference|PROPULSIONPARLESFLAMMES}  
+{s:Reference|PROPULSIONPARLESFLAMMES}
 __'''Propulsion par les flammes'''__  
 '''Élément''' [[Éléments#FEU|Feu]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 3 ; '''Brûlure''' 0  
 Le personnage produit une irruption de flammes derrière lui par une [[types dactions#SIMPLE|action simple]], ce qui le propulse tout droit sur une distance de 18 mètres, y compris en l’air. Tout déplacement vers le haut coûte le double. Si le personnage termine son tour dans les airs, il tombe lors de son prochain tour, à moins qu’il n’utilise à nouveau la propulsion par les flammes.
 
-{s:Reference|PROPULSIONPARLESFLAMMESSUPRÊME}  
+{s:Reference|PROPULSIONPARLESFLAMMESSUPRÊME}
 __'''Propulsion par les flammes suprême'''__  
 '''Élément''' [[Éléments#FEU|Feu]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 5 ; '''Brûlure''' 0  
 '''Condition''' [[talents sauvages#PROPULSIONPARLESFLAMMES|Propulsion par les flammes]]  
 Le personnage peut utiliser la propulsion par les flammes par une [[types dactions#MOUVEMENT|action de mouvement]] et peut produire une légère irruption de flammes qui lui permet de rester en l’air sans effectuer d’action.
 
-{s:Reference|PROTECTIONPARLEFEU}  
+{s:Reference|PROTECTIONPARLEFEU}
 __'''Protection par le feu'''__  
 '''Élément''' [[Éléments#FEU|Feu]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 5 ; '''Brûlure''' 1  
 '''Condition''' [[talents sauvages#CORPSBRULANT|Corps brûlant]]  
 Des flammes vacillantes protègent le personnage jusqu’au prochain moment où sa brûlure sera retirée. Tant que sa défense de [[talents sauvages#CORPSBRULANT|corps brûlant]] est active, les créatures qui le frappent en effectuant une attaque au corps à corps subissent un montant de dégâts de feu égal à la moitié du niveau de cinétiste du personnage, sauf si elles manient des armes à allonge. Si une créature subit également des dégâts infligés par le [[talents sauvages#CORPSBRULANT|corps brûlant]] du personnage, son éventuelle résistance au feu s’applique une seule fois contre les dégâts totaux infligés par les deux effets. Le personnage obtient également la protection contre le froid d’un bouclier de feu chaud. Une attaque qui inflige un montant de dégâts de froid au moins égal au double du niveau de cinétiste du personnage (avant l’application de la protection) gèle et détruit la protection par le feu du personnage après l’application de sa protection, ce qui met prématurément fin à ses effets.
 
-{s:Reference|PYROCINÉTIQUESIMPLE}  
+{s:Reference|PYROCINÉTIQUESIMPLE}
 __'''Pyrocinétique simple'''__  
 '''Élément''' [[Éléments#FEU|Feu]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 1 ; '''Brûlure''' 0  
 Le personnage peut utiliser sa flamme intérieure pour reproduire les effets des tours de magie suivants : [[illumination]], [[lumière]] ou [[étincelles]]. Toutefois, la lumière créée avec le tour de magie [[lumière]] émet la chaleur d’une flamme ordinaire et l’utilisation de l’un de ces trois pouvoirs met fin à l’effet de lumière précédemment créé grâce à ce talent sauvage.
 
-{s:cs}{s:OO}{s:Reference|RACINES}  
+{s:cs}{s:OO}{s:Reference|RACINES}
 __'''Racines'''__  
 '''Élément''' [[Éléments#BOIS|Bois]] ; '''Type''' utilitaire (Sur) ; '''Niveau''' 1 ; '''Brûlure''' —  
 Le corps du personnage s’enracine dans les surfaces molles, le rendant plus difficile à déplacer. Ce talent sauvage fonctionne comme [[talents sauvages#MARCHEDELATERRE|marche de la terre]], sauf qu'il fonctionne uniquement sur les surfaces molles (comme la terre ou la neige) et pas la pierre. Si le personnage possède les deux talents sauvages, les bonus se cumulent lorsqu’il se trouve sur de la terre molle.
 
-{s:Reference|RAZDEMARÉE}  
+{s:Reference|RAZDEMARÉE}
 __'''Raz de marée'''__  
 '''Élément''' [[Éléments#EAU|Eau]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 9 ; '''Brûlure''' 1  
 Le personnage produit un redoutable raz de marée similaire à un tsunami.
 
-{s:cs}{s:OO}{s:Reference|REGARDDUVIDE}  
+{s:cs}{s:OO}{s:Reference|REGARDDUVIDE}
 __'''Regard du vide'''__  
 '''Élément''' [[Éléments#VIDE|Vide]] ; '''Type''' utilitaire (Sur) ; '''Niveau''' 2 ; '''Brûlure''' —  
 Le personnage obtient la [[Vision dans le noir (capacité)|vision dans le noir]] à 18 m (S’il possède déjà la vision dans le noir, sa portée est augmentée de 9 m).
 
-{s:cs}{s:OO}{s:Reference|REGARDDUVIDESUPRÊME}  
+{s:cs}{s:OO}{s:Reference|REGARDDUVIDESUPRÊME}
 __'''Regard du vide suprême'''__  
 '''Élément''' [[Éléments#VIDE|Vide]] ; '''Type''' utilitaire (Sur) ; '''Niveau''' 5 ; '''Brûlure''' —  
 '''Conditions''' [[talents sauvages#REGARDDUVIDE|regard du vide]]  
 Le personnage obtient la [[Vision dans les ténèbres (capacité)|vision dans les ténèbres]], comme le pouvoir spécial de monstre.
 
-{s:Reference|RENAISSANCEDESCENDRES}  
+{s:Reference|RENAISSANCEDESCENDRES}
 __'''Renaissance des cendres'''__  
 '''Élément''' [[Éléments#FEU|Feu]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 9 ; '''Brûlure''' 2  
 Quand le personnage est sur le point de tomber inconscient ou de mourir suite à une perte de points de vie, il peut, par une [[types dactions#IMMÉDIATE|action immédiate]], s’immoler brusquement pour ne laisser derrière lui que des cendres. La plupart des attaques ou des effets ne peuvent affecter de façon appréciable ces cendres, mais un sort de [[désintégration]] ou une magie similaire peut les annihiler. Au début de son prochain tour, si les cendres n’ont pas été complètement détruites, le personnage renaît dans la case où la plupart des cendres sont situées, après avoir subi les dégâts infligés par l’effet déclencheur mais après avoir également soigné 5 points de dégâts par niveau de cinétiste.
 
-{s:Reference|SCULPTEURDEFEU}  
+{s:Reference|SCULPTEURDEFEU}
 __'''Sculpteur de feu'''__  
 '''Élément''' [[Éléments#FEU|Feu]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 1 ; '''Brûlure''' 0  
 Le personnage peut sculpter des formes à partir de flammes ou modifier l’étendue d’un feu. Par une [[types dactions#SIMPLE|action simple]], il peut déplacer une case de 1,50 mètre de côté dans laquelle brûle un feu par niveau de cinétiste vers une case contiguë à ce feu. Par exemple, un cinétiste de niveau 4 peut déplacer 4 cases contiguës situées au centre d’un feu de 6 mètres sur 6 vers sa bordure afin de ménager un passage pour en sortir. Le feu continue de s’étendre normalement après l’intervention du personnage.
 
-{s:Reference|SCULPTEURSURGLACE}  
+{s:Reference|SCULPTEURSURGLACE}
 __'''Sculpteur sur glace'''__  
 '''Élément''' [[Éléments#EAU|Eau]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 4 ; '''Brûlure''' 0  
 Le personnage peut sculpter la glace et la neige pour leur donner des formes nouvelles, comme avec le sort [[façonnage de la pierre]], mais dont les effets affectent la glace et la neige au lieu de la pierre.
 
-{s:Reference|SCULPTEURSURPIERRE}  
+{s:Reference|SCULPTEURSURPIERRE}
 __'''Sculpteur sur pierre'''__  
 '''Élément''' [[Éléments#TERRE|Terre]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 5 ; '''Brûlure''' 0  
 Le personnage peut sculpter la pierre en n’importe quelle forme, comme avec le sort [[façonnage de la pierre]].
 
-{s:cs}{s:OO}{s:Reference|SIÈGEDELAFORÊT}  
+{s:cs}{s:OO}{s:Reference|SIÈGEDELAFORÊT}
 __'''Siège de la forêt'''__  
 '''Élément''' [[Éléments#BOIS|Bois]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 9 ; '''Brûlure''' 0  
 Le personnage peut transformer toute forme de vie végétale accessible en une armée de siège. Ce talent sauvage fonctionne comme le sort ''[[arbres de siège supérieur]]'', sauf que le personnage doit rester concentrer pour maintenir l’effet actif, et que le changement de cible se fait par une [[action libre]]. En acceptant 1 point de brûlure, le personnage peut prolonger l'effet sans avoir besoin de se concentrer jusqu'au prochain moment où sa brûlure sera retirée, mais il a alors besoin d'une [[action simple]] pour changer la cible de l'armée.
 
-{s:Reference|SOIGNEURCINÉTIQUE}  
+{s:Reference|SOIGNEURCINÉTIQUE}
 __'''Soigneur cinétique'''__  
 '''Élément''' [[Éléments#EAU|Eau]] ou [[Éléments#ÉTHER|Éther]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 1 ; '''Brûlure''' 1 ; voir description  
 '''Jet de sauvegarde''' aucun ; '''Résistance à la magie''' oui  
 D’un simple contact, le personnage peut soigner une créature vivante et consentante d’un montant de points de dégâts égal aux dégâts qu’inflige son explosion cinétique. Au lieu de régler le coût en brûlure lui-même, le personnage peut obliger le bénéficiaire à accepter 1 point de brûlure. Dans ce cas, et comme à l’accoutumée en ce qui concerne les brûlures, le bénéficiaire subit 1 point de dégât non létal par Dé de Vie qu’il possède ; ces dégâts ne peuvent être soignés par aucun moyen tant que le bénéficiaire n’a pas pris une bonne nuit de repos.
 
-{s:cs}{s:OO}{s:Reference|SOIGNEURDUVIDE}  
+{s:cs}{s:OO}{s:Reference|SOIGNEURDUVIDE}
 __'''Soigneur du vide'''__  
 '''Élément''' [[Éléments#VIDE|Vide]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 1 ; '''Brûlure''' 1  
 Ce talent sauvage fonctionne comme [[talents sauvages#SOIGNEURCINÉTIQUE|soigneur cinétique]], sauf qu'il soigne les [[type Mort-vivant|morts-vivants]] (et les autres créatures soignées par l'énergie négative).
 
-{s:cs}{s:OO}{s:Reference|SOLDATSDEBOIS}  
+{s:cs}{s:OO}{s:Reference|SOLDATSDEBOIS}
 __'''Soldats de bois'''__  
 '''Élément''' [[Éléments#BOIS|Bois]] ; '''Type''' utilitaire (Sur) ; '''Niveau''' 8 ; '''Brûlure''' 1  
 La présence du personnage anime toute la vie végétale alentour et la fait combattre pour lui. Chaque fois que le personnage récupère ses points de brûlure, il utilise automatiquement ce talent sauvage en ignorant son coût en brûlure. Ce talent sauvage fonctionne comme le sort ''[[phalange de bois]]'', sauf que le personnage anime toujours 4 golems, et qu'il dure jusqu'au prochain moment où sa brûlure sera retirée. Si le personnage possède le talent sauvage [[talents sauvages#EXPLOSIONPRINTANIÈRE|explosion printanière]], l'un de ses golems gagne une vitesse de vol de 9 m (manœuvrabilité moyenne). Si le personnage possède le talent sauvage [[talents sauvages#EXPLOSIONESTIVALE|explosion estivale]], l'un de ses golems est soigné par les dégâts de feu, est [[Vulnérabilités (capacité)|vulnérable]] au froid et inflige 1d6 dégâts de feu supplémentaires à chaque attaque de coup ou d'éclatement. Si le personnage possède le talent sauvage [[talents sauvages#EXPLOSIONAUTOMNALE|explosion automnale]], l'un de ses golems gagne une vitesse de creusement de 6 m. Si le personnage possède le talent sauvage [[talents sauvages#EXPLOSIONHIVERNALE|explosion hivernale]], l'un de ses golemS inflige 1d6 points de dégâts de froid supplémentaires à chaque attaque de coup ou d'éclatement. Chacune de ces modifications doit être appliquée à un golem différent.
 
-{s:Reference|TÉLÉCINÉTIQUESIMPLE}  
+{s:Reference|TÉLÉCINÉTIQUESIMPLE}
 __'''Télécinétique simple'''__  
 '''Élément''' [[Éléments#ÉTHER|Éther]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 1 ; '''Brûlure''' 0  
 Ce pouvoir est similaire au sort de [[manipulation à distance]], sauf que le personnage peut déplacer un objet, y compris un objet magique, dont le poids ne dépasse pas 2,5 kilos par tranche de 2 niveaux de cinétiste possédés (2,5 kilos au minimum). De plus, le personnage peut créer un récipient composé de filaments d’éther amalgamés qui peut contenir des liquides ou plusieurs petits objets d’un poids total équivalent. Le personnage peut manipuler le récipient pour le remplir ou le vider d’un liquide par une [[types dactions#MOUVEMENT|action de mouvement]]. S’il maîtrise le talent sauvage [[talents sauvages#EXTENSIONDEPORTÉE|extension de portée]], il peut augmenter la portée de la télécinétique simple qui devient moyenne et la vitesse de déplacement à 9 mètres par round. S’il maîtrise le talent sauvage [[talents sauvages#PORTÉEEXTRÊME|portée extrême]], il peut augmenter la portée de la télécinétique simple qui devient longue et la vitesse de déplacement à 18 mètres par round. Le personnage peut également utiliser sa télécinétique simple pour reproduire les effets du tour de magie ouverture/fermeture.
 
-{s:Reference|TERREPERSISTANTE}  
+{s:Reference|TERREPERSISTANTE}
 __'''Terre persistante'''__  
 '''Élément''' [[Éléments#TERRE|Terre]] ; '''Type''' utilitaire (Sur) ; '''Niveau''' 4 ; '''Brûlure''' -  
 Quand il utilise des [[talents sauvages#EXPLOSIONDETERRE|explosions de terre]], des talents sauvages de terre ou des explosions composites composées de terre, le personnage double la durée si celle-ci est supérieure à 1 round.
 
-{s:Reference|TRAINÉESDEFEU}  
+{s:Reference|TRAINÉESDEFEU}
 __'''Traînées de feu'''__  
 '''Élément''' [[Éléments#FEU|Feu]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 5 ; '''Brûlure''' 0  
 '''Jet de sauvegarde''' aucun ; '''Résistance à la magie''' oui  
 Quand il effectue l’action courir ou retraite, le personnage peut laisser derrière lui un [[mur de feu]] dans toutes les cases qu’il quitte. Le mur reste en place pendant 1 round.
 
-{s:Reference|TRANSPOSITIONVERSLÉTHER}  
+{s:Reference|TRANSPOSITIONVERSLÉTHER}
 __'''Transposition vers l’éther'''__  
 '''Élément''' [[Éléments#UNIVERSEL|Universel]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 8 ; '''Brûlure''' 0  
 Le personnage inverse le flot de son lien vers les plans et envoie son corps dans le plan Éthéré, comme avec le sort forme éthérée. Tant qu’il se concentre sur la transposition vers l’Éther, le personnage reste sur le plan Éthéré mais, suite à un nombre de rounds consécutifs passés sur le plan Éthéré égal à son niveau de cinétiste (et à la fin de chacun de ces intervalles de durée par la suite), le personnage doit accepter 1 point de brûlure. Une fois de retour sur le plan Matériel, le personnage ne peut pas utiliser de nouveau la transposition vers l’Éther avant un nombre de rounds égal à celui passé sur le plan Éthéré.
 
-{s:Reference|VAGUEDECHALEUR}  
+{s:Reference|VAGUEDECHALEUR}
 __'''Vague de chaleur'''__  
 '''Élément''' [[Éléments#FEU|Feu]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 3 ; '''Brûlure''' 1  
 '''Conditions''' [[talents sauvages#ACCLIMATATIONÀLACHALEUR|acclimatation à la chaleur]], [[talents sauvages#CORPSBRULANT|Corps brûlant]]  
 Le personnage crée une aura de chaleur chatoyante qui voile la zone autour de lui. Jusqu’au prochain moment où sa brûlure sera retirée, il peut activer ou désactiver l’aura de chaleur par une action rapide. La température sur un rayon de 9 mètres autour de lui augmente de 3 °C par niveau de cinétiste possédé pour atteindre une température maximale modifiée de 50 °C. Si l’effet augmente la température à 32 °C au moins, toutes les attaques effectuées par les créatures situées à 1,50 mètre ou moins du personnage ont 20 % de chances de rater à cause du camouflage. Le personnage est immunisé aux effets de ce talent sauvage, tout comme les créatures immunisées au feu ou qui bénéficient d’une endurance aux énergies destructives.
 
-{s:Reference|VAGUEDEFROID}  
+{s:Reference|VAGUEDEFROID}
 __'''Vague de froid'''__  
 '''Élément''' [[Éléments#EAU|Eau]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 3 ; '''Brûlure''' 1  
 '''Conditions''' [[talents sauvages#ACCLIMATATIONAUFROID|Acclimatation au froid]], [[talents sauvages#MANTEAUDEAU|Manteau d’eau]]  
 Le personnage refroidit son [[talents sauvages#MANTEAUDEAU|manteau d’eau]] et diffuse la froideur autour de lui afin de créer une aura de froid qui engourdit les créatures proches. Jusqu’au prochain moment où sa brûlure sera retirée, le personnage peut activer ou désactiver l’aura de froid à volonté par une [[types dactions#RAPIDE|action rapide]]. La température dans un rayon de 9 mètres autour de lui baisse de 3 °C par niveau de cinétiste, jusqu’à une température minimale modifiée de -23 °C. Si la température dans la zone descend en dessous de 4 °C, toutes les créatures situées à 1,50 mètre ou moins du personnage subissent un malus de -4 à leur valeur de [[Dextérité]]. Le personnage est immunisé à ces effets, tout comme les créatures immunisées au froid ou qui bénéficient d’effets protecteurs contre les températures tels qu’[[endurance aux énergies destructives]].
 
-{s:Reference|VENTDEMURMURES}  
+{s:Reference|VENTDEMURMURES}
 __'''Vent de murmures'''__  
 '''Élément''' [[Éléments#AIR|Air]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 1 ; '''Brûlure''' 0  
 '''Jet de sauvegarde''' aucun ; '''Résistance à la magie''' oui  
 Quand le personnage murmure, il peut faire en sorte que le vent porte son message aux oreilles d’une créature située à 36 mètres ou moins et qu’il peut voir, comme si cette créature était la cible d’un message lancé par le personnage. Par ailleurs, le personnage peut murmurer un message vers une destination lointaine comme s’il utilisait le sort [[vent de murmures]].
 
-{s:cs}{s:UI}{s:Reference|VENTDEMURMURESSUPRÊME}  
+{s:cs}{s:UI}{s:Reference|VENTDEMURMURESSUPRÊME}
 __'''Vent de murmures suprême'''__  
 '''Élément''' [[Éléments#AIR|Air]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 2 ; '''Brûlure''' 0  
 '''Condition''' [[Talents sauvages#VENTDEMURMURES|Vent de murmures]]  
 La capacité vent de murmures du personnage gagne en puissance et en précision. Le personnage peut utiliser [[Talents sauvages#VENTDEMURMURES|vent de murmures]] pour créer des sons inhabituels comme avec ''[[son imaginaire]]'', pour projeter sa voix comme avec ''[[ventriloquie]]'', et même modifier son timbre comme avec ''[[altération vocale]]''. Il peut envoyer des messages à plus grande distance et le faire plus rapidement. Lorsqu'il utilise ce talent comme ''[[vent de murmures]]'', il peut choisir de déployer le souffle haut dans le ciel, où il peut atteindre une vitesse de 75 km par heure, avant de redescendre pour délivrer le message. Bien que le souffle reste réduit, des vents anormaux qui se déplacent aussi vite sont facilement remarquables, contrairement au doux zéphyr manifesté par les ''vents de murmures'' classiques. Si le personnage utilise le souffle plus rapide, il peut délivrer un message à une distance de 75 km par niveau de cinétiste, au lieu de 1.5 km par niveau de cinétiste.
 
-{s:Reference|VISIONTACTILE}  
+{s:Reference|VISIONTACTILE}
 __'''Vision tactile'''__  
 '''Élément''' [[Éléments#ÉTHER|Éther]] ; '''Type''' utilitaire (Sur) ; '''Niveau''' 3 ; '''Brûlure''' 0  
 Le personnage attache des filaments d’éther à toute chose frôlée par sa télécinétique. Chaque fois qu’il inflige des dégâts à une créature avec son [[talents sauvages#EXPLOSIONTÉLÉCINÉTIQUE|explosion télécinétique]] et tant que cette créature n’utilise aucun effet de téléportation, le personnage peut la voir, quelle que soit la distance qui les sépare, comme s’il disposait de la [[vision aveugle]] et ce, jusqu’à la fin de son prochain tour. Immédiatement après avoir blessé une créature, le personnage peut accepter 1 point de brûlure pour renforcer les filaments d’éther attachés à cette créature, ce qui augmente la durée de la vision tactile sur cette créature à 1 round par niveau de cinétiste.
 
-{s:cs}{s:UI}{s:Reference|VISIONTACTILEÉPIANTE}  
+{s:cs}{s:UI}{s:Reference|VISIONTACTILEÉPIANTE}
 __'''Vision tactile épiante'''__  
 '''Élément''' [[Éléments#ÉTHER|Éther]] ; '''Type''' utilitaire (Mag) ; '''Niveau''' 4 ; '''Brûlure''' 0  
 '''Condition''' [[Talents sauvages#VISIONTACTILE|Vision tactile]]  
 Le personnage attache un filament d'éther adhésif et invisible sur une cible puis projette ses sens sur ce filament, ce qui lui permet d'espionner la cible. Attacher le filament d'éther nécessite un [[jet dattaque|jet d'attaque]] de contact à distance, mais si le personnage active cette capacité alors qu'il est sous l'effet de [[Talents sauvages#VISIONTACTILE|vision tactile]], il peut utiliser ces filaments à la place. Une fois la vision tactile épiante activée, le personnage peut se concentrer dessus afin d'espionner la cible avec n'importe lequel de ses cinq sens (son propre corps ne reçoit alors plus d'information de ce sens) ; le filament persiste tant qu'il se concentre, mais il peut changer le sens projeté à chaque round. Une créature soumise à ''[[détection de linvisibilité|détection de l'invisibilité]]'' ou un effet similaire peut suivre la trace des filaments jusqu'au personnage. Une créature peut briser la vision tactile épiante du personnage en la dissipant, mais le seul autre moyen de briser les filaments est d'utiliser un effet de téléportation, se déplacer à plus de 1.5 km l'un de l'autre, ou d'être complètement isolé dans toutes les directions (comme en étant à l'intérieur d'une ''[[sphère téléguidée]]'').
 
-{s:Reference|VISIONTACTILERÉACTIVE}  
+{s:Reference|VISIONTACTILERÉACTIVE}
 __'''Vision tactile réactive'''__  
 '''Élément''' [[Éléments#ÉTHER|Éther]] ; '''Type''' utilitaire (Sur) ; '''Niveau''' 5 ; '''Brûlure''' 0  
 '''Condition''' [[talents sauvages#VISIONTACTILE|Vision tactile]]  
 Des filaments d’éther entourent le personnage pour qu’aucun mouvement violent ne puisse le prendre au dépourvu, tant que ce mouvement provient d’un endroit à portée de ce pouvoir. S’il est pris au dépourvu ou si son agresseur n’est pas visible ou invisible, le personnage ne perd jamais son bonus de Dextérité à la CA contre les attaques effectuées à 9 mètres ou moins de lui. Il réussit toujours ses tests de [[Perception]] effectués pour agir lors d’un round de surprise contre des adversaires situés à 9 mètres ou moins.
 
-{s:cs}{s:OO}{s:Reference|VISIONVÉGÉTALE}  
+{s:cs}{s:OO}{s:Reference|VISIONVÉGÉTALE}
 __'''Vision végétale'''__  
 '''Élément''' [[Éléments#BOIS|Bois]] ; '''Type''' utilitaire (Sur) ; '''Niveau''' 4 ; '''Brûlure''' —  
 Le personnage peut voir à travers les obstacles végétaux comme avec la règle de monstre universelle [[Vision végétale (capacité)|vision végétale]] avec une portée de 18 m.

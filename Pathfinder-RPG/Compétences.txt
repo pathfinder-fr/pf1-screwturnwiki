@@ -1,23 +1,17 @@
 ---
 Name: Pathfinder-RPG.Compétences
 Title: Les compétences
-LastModified: 2020-03-26 17:12
+LastModified: 2024-10-03 18:45
 Categories:
   - 'Compétence'
 ---
-{s:MenuCompétences}
+{s:MenuCompétences}<div style="float: right; padding: 0 0 8px 8px">{toc}</div>Les compétences représentent certaines des capacités les plus basiques – et les plus fondamentales – de votre personnage. En gagnant des [[niveau|niveaux]], il peut obtenir de nouvelles compétences et améliorer grandement celles qu’il possède déjà.
 
-{toc}
-
-Les compétences représentent certaines des capacités les plus basiques – et les plus fondamentales – de votre personnage. En gagnant des [[niveau|niveaux]], il peut obtenir de nouvelles compétences et améliorer grandement celles qu’il possède déjà.
-
-{s:Reference|ACQUERIR}
+{s:ClearRight}{s:Reference|ACQUERIR}
 === Acquérir des compétences ===
-
 <div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
 <div style="border: 1px solid #4b3124; padding: 4px">
-<center>
-{| CLASS="tablo"
+{| CLASS="tablo centre autoalt"
 |+ Points de compétence
 |- CLASS="titre"
 | Classe
@@ -143,7 +137,6 @@ Les compétences représentent certaines des capacités les plus basiques – et
 | [[Tueur]]<sup>ACG</sup>
 | 6 + [[Caractéristiques#TABLEAUCARACTERISTIQUES|modificateur]] d'[[Intelligence]]
 |}
-</center>
 </div></div>
 Chaque fois qu’il gagne un [[niveau]], le personnage reçoit un nombre de points de compétence qui dépend de sa [[classes|classe]] et de son [[Caractéristiques#TABLEAUCARACTERISTIQUES|modificateur]] d'[[Intelligence]]. Chaque point investi dans une compétence représente une certaine formation, un entraînement dans l’utilisation de cette compétence. Le nombre de points investis dans une compétence (le '''rang''' ou '''degré de maîtrise''' de cette compétence) ne peut jamais dépasser le nombre total de [[dés de vie]] du personnage.
 
@@ -152,17 +145,14 @@ Chaque fois qu’il gagne un [[niveau]], le personnage reçoit un nombre de poin
 Le nombre de points de compétence que le personnage reçoit lorsqu’il gagne un [[niveau]] dans l’une des [[classes]] de base est indiqué dans le tableau ci-contre. Les [[Humain|humains]] disposent d’un point de compétence supplémentaire chaque fois qu’ils ajoutent un nouveau [[niveau]] de [[classes|classe]]. Les personnages qui gagnent un [[niveau]] dans leur classe de prédilection peuvent choisir de recevoir un point de compétence ou un [[points de vie|point de vie]] supplémentaire. Si le personnage acquiert un [[niveau]] dans une nouvelle [[classes|classe]], toutes les [[Tableau récapitulatif des compétences|compétences de classe]] de celle-ci sont automatiquement ajoutées à la liste de [[Tableau récapitulatif des compétences|compétences de classe]] du personnage et toutes celles où le personnage possède un rang non nul reçoivent un bonus de +3.
 
 {s:Reference|TESTSDECOMPETENCES}
-
 === Tests de compétences ===
-
 Lorsque votre personnage utilise une compétence, rien ne garantit que son action sera couronnée de succès. Pour savoir si c’est le cas, chaque fois que vous tentez d’utiliser une compétence, vous devez faire un [[test]] de compétence.
 
 Chaque point de compétence investi dans une compétence donne un bonus de +1 aux tests relatifs à cette compétence. Pour faire un [[test]] de compétence, lancez 1d20 puis ajoutez au résultat votre rang et le [[Caractéristiques#TABLEAUCARACTERISTIQUES|modificateur de la caractéristique]] associée à la compétence. S’il s’agit d’une compétence de [[classes|classe]] (et que vous y avez investi au moins un point), vous gagnez un [[bonus]] supplémentaire de +3 au jet. Si vous n’avez aucune formation dans cette compétence (c’est-à-dire si vous n’y avez investi aucun point de compétence) et que la compétence peut être utilisée sans formation, vous pouvez quand même tenter le coup mais, dans ce cas, seul le [[Caractéristiques#TABLEAUCARACTERISTIQUES|modificateur de la caractéristique]] associée s’ajoute au résultat du d20. Le résultat du [[test]] peut également être modifié par des ajustements provenant de diverses sources : votre [[races|race]], une capacité de [[classes|classe]], votre équipement, des effets de [[sort|sorts]] ou des objets magiques par exemple. Le tableau ci-dessous présente un résumé des bonus associés aux [[test|tests]] de compétence.
 
 Si le résultat du [[test]] de compétence est égal ou supérieur au [[degré de difficulté]] (ou [[DD]]) de la tâche que vous tentez d’accomplir, c’est une réussite. S’il est inférieur au [[DD]], c’est un échec. Certaines tâches peuvent se solder par différents niveaux de réussite ou d’échec selon la différence entre le résultat de votre test et le [[DD]]. Parfois, le résultat du [[test]] n’est pas comparé à un [[DD]] fixé mais au résultat d’un autre [[test]] de compétence. Ces « [[test|tests]] de compétence opposés » se soldent par une réussite si le résultat de votre [[test]] dépasse celui de la cible.
 
-<center>
-{| CLASS="tablo"
+{| CLASS="tablo centre autoalt"
 |+ Bonus des tests de compétence
 |- CLASS="titre"
 | Compétence
@@ -170,7 +160,7 @@ Si le résultat du [[test]] de compétence est égal ou supérieur au [[degré d
 |- CLASS="premier"
 | sans formation
 | CLASS="gauche" | 1d20 + modificateur de caractéristique + modificateur racial
-|- CLASS="alt"
+|-
 | avec formation, hors classe
 | CLASS="gauche" | 1d20 + rang + modificateur de caractéristique + modificateur racial
 |-
@@ -179,26 +169,23 @@ Si le résultat du [[test]] de compétence est égal ou supérieur au [[degré d
 |-
 | COLSPAN="3" CLASS="note" | ''(*) La pénalité d'armure s'applique à tous les tests de compétence associés à la Force ou à la Dextérité.''
 |}
-</center>
 
 {s:Reference|FAIRE10}
 ==== Faire 10 ou faire 20 ====
-
 Un [[test]] de compétence correspond généralement à une tentative visant un certain but et se déroulant dans des conditions de stress et de distraction. Parfois, cependant, un personnage peut utiliser une compétence dans de meilleures conditions et bénéficier de meilleures chances de succès.
 
-:'''Faire 10.''' Lorsqu’aucun danger manifeste ne menace le personnage et qu’aucune distraction ne le trouble, vous pouvez choisir de « faire 10 ». Au lieu de lancer 1d20 pour le [[test]] de compétence, vous calculez le résultat comme si le dé avait indiqué 10. Faire 10 peut permettre de réussir automatiquement des tâches routinières. La présence de distractions ou de menaces (comme un combat par exemple) fait qu’il est impossible de faire 10. Dans la plupart des cas, choisir de faire 10 est une mesure de sécurité : vous savez (ou supposez) qu’un [[jets|jet]] moyen résultera en une réussite mais vous craignez qu’un mauvais [[jets|jet]] mène à un échec et vous décidez donc de vous contenter d’un résultat moyen (un 10). C’est tout spécialement utile dans les situations où un résultat plus élevé n’apporterait rien de plus.
+'''Faire 10.''' Lorsqu’aucun danger manifeste ne menace le personnage et qu’aucune distraction ne le trouble, vous pouvez choisir de « faire 10 ». Au lieu de lancer 1d20 pour le [[test]] de compétence, vous calculez le résultat comme si le dé avait indiqué 10. Faire 10 peut permettre de réussir automatiquement des tâches routinières. La présence de distractions ou de menaces (comme un combat par exemple) fait qu’il est impossible de faire 10. Dans la plupart des cas, choisir de faire 10 est une mesure de sécurité : vous savez (ou supposez) qu’un [[jets|jet]] moyen résultera en une réussite mais vous craignez qu’un mauvais [[jets|jet]] mène à un échec et vous décidez donc de vous contenter d’un résultat moyen (un 10). C’est tout spécialement utile dans les situations où un résultat plus élevé n’apporterait rien de plus.
 
-:'''Faire 20.''' Lorsque vous disposez de suffisamment de temps, qu’aucune menace ou distraction ne vient vous troubler et qu’un échec dans l’action tentée n’entraînerait aucune conséquence négative, vous pouvez « faire 20 ». Ce choix correspond à la constatation suivante : si on lance un d20 un grand nombre de fois, on finit par obtenir un 20. Au lieu de lancer 1d20 pour le [[test]] de compétence, calculez simplement le résultat comme si le dé avait indiqué 20.
+'''Faire 20.''' Lorsque vous disposez de suffisamment de temps, qu’aucune menace ou distraction ne vient vous troubler et qu’un échec dans l’action tentée n’entraînerait aucune conséquence négative, vous pouvez « faire 20 ». Ce choix correspond à la constatation suivante : si on lance un d20 un grand nombre de fois, on finit par obtenir un 20. Au lieu de lancer 1d20 pour le [[test]] de compétence, calculez simplement le résultat comme si le dé avait indiqué 20.
 
-:Faire 20 signifie que vous tentez l’action jusqu’à ce que vous la réussissiez et suppose que vous échouerez plusieurs fois avant de finalement réussir. Faire 20 prend vingt fois plus de temps qu’une seule tentative (deux minutes dans le cas d’une compétence qui prend normalement un [[round]] ou moins).
+Faire 20 signifie que vous tentez l’action jusqu’à ce que vous la réussissiez et suppose que vous échouerez plusieurs fois avant de finalement réussir. Faire 20 prend vingt fois plus de temps qu’une seule tentative (deux minutes dans le cas d’une compétence qui prend normalement un [[round]] ou moins).
 
-:Comme on suppose que le personnage va échouer plusieurs fois avant de finalement réussir, si vous tentez de faire 20 pour une tâche où un échec entraîne certaines conséquences négatives, votre personnage subira automatiquement ces conséquences avant d’accomplir la tâche en question. Parmi les compétences pour lesquelles on choisit souvent de faire 20, on trouve [[Évasion]], [[Perception]] (pour déceler un piège) et [[Sabotage]] (lorsqu’il s’agit de crocheter une serrure).
+Comme on suppose que le personnage va échouer plusieurs fois avant de finalement réussir, si vous tentez de faire 20 pour une tâche où un échec entraîne certaines conséquences négatives, votre personnage subira automatiquement ces conséquences avant d’accomplir la tâche en question. Parmi les compétences pour lesquelles on choisit souvent de faire 20, on trouve [[Évasion]], [[Perception]] (pour déceler un piège) et [[Sabotage]] (lorsqu’il s’agit de crocheter une serrure).
 
-:'''Tests de caractéristiques et tests de niveau de lanceur de sorts.''' Les règles décrites ci-dessus pour faire 10 et faire 20 s’appliquent également pour les [[test|tests]] de [[caractéristiques]] mais pas pour les [[test de concentration|tests de concentration]] ou les [[test de niveau de lanceur de sorts|tests de niveau de lanceur de sorts]].
+'''Tests de caractéristiques et tests de niveau de lanceur de sorts.''' Les règles décrites ci-dessus pour faire 10 et faire 20 s’appliquent également pour les [[test|tests]] de [[caractéristiques]] mais pas pour les [[test de concentration|tests de concentration]] ou les [[test de niveau de lanceur de sorts|tests de niveau de lanceur de sorts]].
 
 {s:Reference|AIDER}
 === Aider quelqu’un ===
-
 {s:Desambi|Voir aussi [[aider quelquun|Aider quelqu'un]] en tant qu'action au combat.}
 Vous pouvez aider un allié à utiliser une compétence et combiner vos efforts en faisant le même type de [[test]] de compétence que lui. Si le résultat de votre [[test]] est 10 ou plus, le personnage auquel vous prêtez main forte reçoit un bonus de +2 à son [[test]] (vous ne pouvez pas choisir de [[Compétences#FAIRE10|faire 10]] sur un [[test]] visant à aider quelqu’un). Il existe de nombreuses situations où il est impossible d’aider quelqu’un de cette manière ou bien où le nombre de personnes pouvant donner un coup de main est limité.
 

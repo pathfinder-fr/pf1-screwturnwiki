@@ -1,28 +1,26 @@
 ---
 Name: Pathfinder-RPG.Fantômes (Spirite)
-Title: Fantômes (Spirite)
-LastModified: 2021-08-31 19:50
+Title: Le fantôme du spirite
+LastModified: 2024-10-03 18:42
 ---
-{s:Menuclassesoccultes}
-{toc}
-{s:AO}Les capacités du fantôme dépendent du niveau du spirite et de la manifestation choisie lorsqu’il effectue le rituel correspondant. La table suivante indique la plupart des caractéristiques de base du fantôme. Celui-ci est considéré comme un extérieur lorsqu'il s'agit de déterminer si un sort l'affecte ou non.
+{s:Menuclassesoccultes}{s:AO}Les capacités du fantôme dépendent du niveau du spirite et de la manifestation choisie lorsqu’il effectue le rituel correspondant. La table suivante indique la plupart des caractéristiques de base du fantôme. Celui-ci est considéré comme un extérieur lorsqu'il s'agit de déterminer si un sort l'affecte ou non.
 
-<center>
-{| CLASS="tablo"
+{| CLASS="tablo centre"
 |+ Caractéristique de base du fantôme {s:Reference|TABLEFANTOMESPIRITE}
 |- CLASS="titre"
-| Niveau de classe
-| DV
-| BBA
-| Jet de sauvegarde fort
-| Jet de sauvegarde faible
-| Compétences
-| Dons
-| Bonus d'armure
-| Bonus de Dex/Cha
-| Dégâts
-| CLASS="gauche" | Spécial
+| ROWSPAN="2" | Niveau<br/>de classe
+| ROWSPAN="2" | DV
+| ROWSPAN="2" | BBA
+| COLSPAN="2" CLASS="avecsoustitre" | Jets de sauvegarde
+| ROWSPAN="2" | Compétences
+| ROWSPAN="2" | Dons
+| ROWSPAN="2" | Bonus<br/>d'armure
+| ROWSPAN="2" | Bonus<br/>de Dex/Cha
+| ROWSPAN="2" | Dégâts
+| ROWSPAN="2" CLASS="gauche" | Spécial
 |- CLASS="soustitre"
+| forts
+| faibles
 |- CLASS="premier"
 | 1
 | 1
@@ -264,38 +262,37 @@ LastModified: 2021-08-31 19:50
 | 2d8
 | CLASS="gauche" | —
 |}
-</center>
 
-'''Niveau de classe'''. C’est le niveau de spirite du personnage.
+'''Niveau de classe.''' C’est le niveau de spirite du personnage.
 
-'''DV'''. C’est le nombre total de dés à dix faces (d10) que le fantôme possède. Son modificateur de [[Constitution]] s’applique à chacun de ces dés, conformément à la règle normale.
+'''DV.''' C’est le nombre total de dés à dix faces (d10) que le fantôme possède. Son modificateur de [[Constitution]] s’applique à chacun de ces dés, conformément à la règle normale.
 
-'''BBA'''. C’est le bonus de base à l’attaque du fantôme. Il est égal à son nombre de DV. Un bonus de base à l’attaque élevé ne confère pas d’attaque supplémentaire au fantôme qui utilise son arme naturelle.
+'''BBA.''' C’est le bonus de base à l’attaque du fantôme. Il est égal à son nombre de DV. Un bonus de base à l’attaque élevé ne confère pas d’attaque supplémentaire au fantôme qui utilise son arme naturelle.
 
-'''Sauvegarde favorables/défavorables'''. Ce sont les bonus de base des jets de sauvegarde du fantôme. Un fantôme possède 2 jets de sauvegarde forts et un faible. Ceux-ci sont déterminés par l’[[Fantômes (Spirite)#EMOTIONDOMINANTE|émotion dominantes]] du fantôme.
+'''Jets de sauvegarde forts/faibles.''' Ce sont les bonus de base des jets de sauvegarde du fantôme. Un fantôme possède 2 jets de sauvegarde forts et un faible. Ceux-ci sont déterminés par l’[[Fantômes (Spirite)#EMOTIONDOMINANTE|émotion dominantes]] du fantôme.
 
-'''Compétences'''. Il s’agit du nombre total de rangs de compétence dont le fantôme dispose. Le fantôme peut investir des rangs dans n’importe quelle compétence mais certaines ne sont utilisables que s’il possède les membres corporels appropriés. Le fantôme qui bénéficie d’une valeur d’[[Intelligence]] supérieure à la moyenne modifie ces totaux conformément à la règle normale (un fantôme gagne un nombre de rangs de compétence égal à 2 + son modificateur d’[[Intelligence]] par Dés de Vie). Le fantôme ne peut pas posséder plus de de rangs dans une compétence que son nombre de Dés de Vie. Une fois investis, les rangs de compétence du fantôme ne peuvent plus être assignés ailleurs.
+'''Compétences.''' Il s’agit du nombre total de rangs de compétence dont le fantôme dispose. Le fantôme peut investir des rangs dans n’importe quelle compétence mais certaines ne sont utilisables que s’il possède les membres corporels appropriés. Le fantôme qui bénéficie d’une valeur d’[[Intelligence]] supérieure à la moyenne modifie ces totaux conformément à la règle normale (un fantôme gagne un nombre de rangs de compétence égal à 2 + son modificateur d’[[Intelligence]] par Dés de Vie). Le fantôme ne peut pas posséder plus de de rangs dans une compétence que son nombre de Dés de Vie. Une fois investis, les rangs de compétence du fantôme ne peuvent plus être assignés ailleurs.
 
-'''Dons'''. Il s’agit du nombre total de dons possédés par le fantôme. Un fantôme peut choisir n’importe quel don pour lequel il satisfait les conditions mais il doit posséder les membres corporels appropriés afin de pouvoir en utiliser certains. Une fois le choix d’un don effectué, il est impossible d’en changer.
+'''Dons.''' Il s’agit du nombre total de dons possédés par le fantôme. Un fantôme peut choisir n’importe quel don pour lequel il satisfait les conditions mais il doit posséder les membres corporels appropriés afin de pouvoir en utiliser certains. Une fois le choix d’un don effectué, il est impossible d’en changer.
 
-'''Bonus d’armure'''. Le nombre indiqué dans cette colonne vient augmenter le bonus d’armure naturelle du fantôme quand il se manifeste sous forme ectoplasmique et le bonus de parade quand il se manifeste sous forme intangible. Un fantôme manifesté sous forme ectoplasmique ou intangible ne peut pas porter d’armure car celles-ci interfèrent avec le lien existant entre lui et son spirite. L’aspect d’un fantôme peut faire croire qu’il porte une armure mais celle-ci n’est qu’illusoire.
+'''Bonus d’armure.''' Le nombre indiqué dans cette colonne vient augmenter le bonus d’armure naturelle du fantôme quand il se manifeste sous forme ectoplasmique et le bonus de parade quand il se manifeste sous forme intangible. Un fantôme manifesté sous forme ectoplasmique ou intangible ne peut pas porter d’armure car celles-ci interfèrent avec le lien existant entre lui et son spirite. L’aspect d’un fantôme peut faire croire qu’il porte une armure mais celle-ci n’est qu’illusoire.
 
-'''Bonus de Dex/Cha'''. Ce modificateur s’ajoute aux valeurs de [[Dextérité]] et de [[Charisme]] du fantôme.<br>
+'''Bonus de Dex/Cha.''' Ce modificateur s’ajoute aux valeurs de [[Dextérité]] et de [[Charisme]] du fantôme.
+
 <div style="float:right; background-color: #fff; padding: 0 0 16px 16px">
 <div style="border: 1px solid #4b3124; padding: 4px">
-<center>
-{| CLASS="tablo"
+{| CLASS="tablo centre autoalt"
 |+ Dégâts des coups de fantôme petit ou grand {s:Reference|Dégâts des coups des petits ou grand fantôme}
 |- CLASS="titre"
 | ROWSPAN="2" | Niveau
-| ROWSPAN="2" | Dégâts (Fantôme de taille P)
-| ROWSPAN="2" | Dégâts (Fantôme de taille G)
+| ROWSPAN="2" | Dégâts (Fantôme<br/>de taille P)
+| ROWSPAN="2" | Dégâts (Fantôme<br/>de taille G)
 |- CLASS="soustitre"
 |- CLASS="premier"
 | 1 - 4
 | 1d4
 | 1d8
-|- CLASS="alt"
+|-
 | 5 - 8
 | 1d6
 | 2d6
@@ -303,7 +300,7 @@ LastModified: 2021-08-31 19:50
 | 9 - 12
 | 1d8
 | 2d8
-|- CLASS="alt"
+|-
 | 13 - 16
 | 1d10
 | 3d6
@@ -312,58 +309,51 @@ LastModified: 2021-08-31 19:50
 | 2d6
 | 3d8
 |}
-</center></div></div>
+</div></div>'''Dégâts des coups.''' Les fantômes effectuent deux attaques naturelles de coup. Les dégâts de base de ces attaques dépendent de la taille du fantôme et sont parfois modifiés par les spécificités de l’[[Fantômes (Spirite)#EMOTIONDOMINANTE|émotion dominantes]] du fantôme. La Table ci-contre indique les dégâts en fonction de la taille et du niveau du fantôme. L’apparence d’un fantôme peut souvent faire croire qu’il manie des armes ou attaque avec des armes naturelles différentes. Quelle que soit son apparence, les attaques de coup d’un fantôme infligent toujours les dégâts indiqués dans les Tables "[[fantômes (spirite)#TABLEFANTOMESPIRITE|Caractéristique de base du fantôme]] ou "[[fantômes (spirite)#Dégâts des coups des petits ou grand fantôme|Dégâts des coups de fantôme petit ou grand]]" ci-dessous.
 
-'''Dégâts des coups'''. Les fantômes effectuent deux attaques naturelles de coup. Les dégâts de base de ces attaques
-dépendent de la taille du fantôme et sont parfois modifiés par les spécificités de l’[[Fantômes (Spirite)#EMOTIONDOMINANTE|émotion dominantes]] du fantôme. La Table ci-contre indique les dégâts en fonction de la taille et du niveau du fantôme. L’apparence d’un fantôme peut souvent faire croire qu’il manie des armes ou attaque avec des armes naturelles différentes. Quelle que soit son apparence, les attaques de coup d’un fantôme infligent toujours les dégâts indiqués dans les Tables "[[fantômes (spirite)#TABLEFANTOMESPIRITE|Caractéristique de base du fantôme]] ou "[[fantômes (spirite)#Dégâts des coups des petits ou grand fantôme|Dégâts des coups de fantôme petit ou grand]]" ci-dessous.<br>
+'''Spécial.''' Cette colonne indique les diverses capacités que les fantômes acquièrent au fil de leur évolution. Ces capacités sont décrites ci-dessous.
 
-'''Spécial'''. Cette colonne indique les diverses capacités que les fantômes acquièrent au fil de leur évolution. Ces capacités sont décrites ci-dessous.
+: {s:Reference|LIEN}''Lien (Sur).'' Un lien mental relie le spirite à son fantôme et leur permet de communiquer à distance (tant qu’ils se trouvent sur le même plan). Cette communication est une [[action libre]] qui peut être accomplie même en dehors du tour du spirite mais lui et son fantôme doivent tout deux être conscients pour communiquer de cette façon. Le lien permet au spirite de donner des ordres à son fantôme dès qu’il le souhaite. Les objets magiques perturbent le lien du spirite avec son fantôme. Par conséquent, lui et son fantôme partagent les mêmes emplacements d’objets magiques. Par exemple, si le spirite porte un anneau magique, son fantôme ne peut en porter qu’un seul. En cas de conflit, les objets portés par le spirite restent actifs et ceux portés par le fantôme sont temporairement désactivés. Le fantôme doit posséder les membres corporels appropriés pour utiliser certains objets magiques.
 
-{s:Reference|LIEN}''Lien (Sur)''. Un lien mental relie le spirite à son fantôme et leur permet de communiquer à distance (tant qu’ils se trouvent sur le même plan). Cette communication est une [[action libre]] qui peut être accomplie même en dehors du tour du spirite mais lui et son fantôme doivent tout deux être conscients pour communiquer de cette façon. Le lien permet au spirite de donner des ordres à son fantôme dès qu’il le souhaite. Les objets magiques perturbent le lien du spirite avec son fantôme. Par conséquent, lui et son fantôme partagent les mêmes emplacements d’objets magiques. Par exemple, si le spirite porte un anneau magique, son fantôme ne peut en porter qu’un seul. En cas de conflit, les objets portés par le spirite restent actifs et ceux portés par le fantôme sont temporairement désactivés. Le fantôme doit posséder les membres corporels appropriés pour utiliser certains objets magiques.
+: {s:Reference|PARTAGEDESORTS}''Transfert de sorts (Sur).'' Lorsque le spirite lance un sort dont la cible est « le lanceur de sorts », il peut choisir de cibler son fantôme plutôt que lui-même, comme s’il s’agissait d’un sort de contact. Un spirite peut lancer les sorts de la liste des spirites sur son fantôme même s’ils n’affectent pas les créatures de type extérieur. Ce pouvoir ne permet pas de transférer des capacités autres que les sorts, même s’ils fonctionnent comme des sorts.
 
-{s:Reference|PARTAGEDESORTS}''Transfert de sorts (Sur)''. Lorsque le spirite lance un sort dont la cible est « le lanceur de sorts », il peut choisir de cibler son fantôme plutôt que lui-même, comme s’il s’agissait d’un sort de contact. Un spirite peut lancer les sorts de la liste des spirites sur son fantôme même s’ils n’affectent pas les créatures de type extérieur. Ce pouvoir ne permet pas de transférer des capacités autres que les sorts, même s’ils fonctionnent comme des sorts.
+: {s:Reference|VISIONDANSLENOIR}''Vision dans le noir (Ext).'' Le fantôme possède la vision dans le noir jusqu’à 18 mètres.
 
-{s:Reference|VISIONDANSLENOIR}''Vision dans le noir (Ext)''. Le fantôme possède la vision dans le noir jusqu’à 18 mètres.
+: {s:Reference|TOUCHSPELLS}''Livrer un sort de contact (Sur).'' Un fantôme manifesté sous forme ectoplasmique ou intangible peut placer les sorts de contact à la place de son spirite. Le spirite et le fantôme n’ont pas besoin d’être en contact pour utiliser ce pouvoir mais le fantôme doit se trouver à 9 mètres ou moins du spirite et celui-ci doit voir son fantôme. Si le spirite est de niveau 12 au moins, son fantôme peut placer des sorts de contact s’il se trouve à 15 mètres ou moins de lui. Le spirite peut lancer le sort et son fantôme peut ensuite effectuer le contact par une [[action immédiate]]. Si le sort de contact inflige des dégâts, c’est le fantôme qui effectue le jet d’attaque. Le fantôme ne peut pas retenir la charge d’un sort de contact lancé par son spirite par le biais de ce pouvoir. Si le sort est placé par le fantôme, celui-ci doit toucher une cible ou le sort est perdu. Si le sort permet au personnage de toucher jusqu’à six cibles consentantes, le fantôme peut le faire à sa place par une action immédiate mais toutes les cibles consentantes doivent se situer dans sa zone d’allonge au corps à corps.
 
-{s:Reference|TOUCHSPELLS}''Livrer un sort de contact (Sur)''. Un fantôme manifesté sous forme ectoplasmique ou intangible peut placer les sorts de contact à la place de son spirite. Le spirite et le fantôme n’ont pas besoin d’être en contact pour utiliser ce pouvoir mais le fantôme doit se trouver à 9 mètres ou moins du spirite et celui-ci doit voir son fantôme. Si le spirite est de niveau 12 au moins, son fantôme peut placer des sorts de contact s’il se trouve à 15 mètres ou moins de lui. Le spirite peut lancer le sort et son fantôme peut ensuite effectuer le contact par une [[action immédiate]]. Si le sort de contact inflige des dégâts, c’est le fantôme qui effectue le jet d’attaque. Le fantôme ne peut pas retenir la charge d’un sort de contact lancé par son spirite par le biais de ce pouvoir. Si le sort est placé par le fantôme, celui-ci doit toucher une cible ou le sort est perdu. Si le sort permet au personnage de toucher jusqu’à six cibles consentantes, le fantôme peut le faire à sa place par une action immédiate mais toutes les cibles consentantes doivent se situer dans sa zone d’allonge au corps à corps.
+: {s:Reference|ATTAQUEMAGIQUE}''Attaques magiques (Sur).'' Un fantôme manifesté sous forme ectoplasmique traite toutes ses attaques de coup comme si elles étaient magiques lorsqu’il s’agit d’ignorer la [[Réduction de dégâts (capacité)|réduction des dégâts]]. Si le spirite est de niveau 10 ou plus, toutes les armes du fantôme sont considérées comme alignées sur le même alignement que le fantôme lorsqu’il s’agit d’ignorer la [[Réduction de dégâts (capacité)|réduction des dégâts]].
 
-{s:Reference|ATTAQUEMAGIQUE}''Attaques magiques (Sur)''. Un fantôme manifesté sous forme ectoplasmique traite toutes ses attaques de coup comme si elles étaient magiques lorsqu’il s’agit d’ignorer la [[Réduction de dégâts (capacité)|réduction des dégâts]]. Si le spirite est de niveau 10 ou plus, toutes les armes du fantôme sont considérées comme alignées sur le même alignement que le fantôme lorsqu’il s’agit d’ignorer la [[Réduction de dégâts (capacité)|réduction des dégâts]].
+: {s:Reference|AUGMENTATIONCARAC}''Accroissement d'une caractéristique (Ext).'' Le fantôme augmente une de ses valeurs de caractéristique d’un point.
 
-{s:Reference|AUGMENTATIONCARAC}''Accroissement d'une caractéristique (Ext)''. Le fantôme augmente une de ses valeurs de caractéristique d’un point.
+: {s:Reference|DEVOTION}''Dévotion (Ext).'' Le fantôme bénéficie d’un bonus de moral de +4 aux jets de [[Volonté]] contre les sorts et effets d’enchantement.
 
-{s:Reference|DEVOTION}''Dévotion (Ext)''. Le fantôme bénéficie d’un bonus de moral de +4 aux jets de [[Volonté]] contre les sorts et effets d’enchantement.
-
-{s:Reference|VOLINTANGIBLE}''Vol sous forme intangible (Sur)''. Un fantôme manifesté sous forme intangible possède une vitesse de déplacement en vol de 12 mètres (bonne).
+: {s:Reference|VOLINTANGIBLE}''Vol sous forme intangible (Sur).'' Un fantôme manifesté sous forme intangible possède une vitesse de déplacement en vol de 12 mètres (bonne).
 
 ===Profil des fantômes===
 La taille d’un fantôme est le plus souvent identique à celle de son spirite. Celui-ci peut toutefois posséder un fantôme d’une catégorie de taille inférieure d’un cran à la sienne et, s’il est de taille P ou moins, il peut posséder un fantôme d’une catégorie de taille supérieure d’un cran à la sienne. Un fantôme est toujours une créature de forme humanoïde. Lorsqu’il est manifesté, son apparence est à peu près semblable à celle qu’il avait de son vivant, même si le traumatisme émotionnel de son existence déforme souvent, d’une façon ou d’une autre, son aspect. Tous les fantômes ont le profil de base suivant. Il faut ensuite modifier ce profil en fonction de la taille et de l’émotion dominante de chaque fantôme.
 
-=====Profil de départ=====
-<ul><li>'''Type.''' Extérieur (fantôme)</li> 	
-<li>'''Taille.''' identique à celle du spirite ou plus petit d’une catégorie (ou plus grand d’une catégorie si le spirite est de taille P ou moins) </li> 	
-<li>'''[[VD]].''' 9 m</li> 	
-<li>'''CA.''' +2 esquive (sous forme intangible) ou +2 armure naturelle (sous forme ectoplasmique)</li> 	
-<li>'''Attaque.''' 2 coups (1d6 ou 1d4 si taille P)</li> 	
-<li>'''Caractéristiques.''' [[Force|For]] 12, [[Dextérité|Dex]] 14, [[Constitution|Con]] 13, [[Intelligence|Int]] 7, [[Sagesse|Sag]] 10, [[Charisme|Cha]] 13.</li></ul>
-===Compétences des fantômes===
+====Profil de départ====
+* '''Type.''' Extérieur (fantôme)
+* '''Taille.''' identique à celle du spirite ou plus petit d’une catégorie (ou plus grand d’une catégorie si le spirite est de taille P ou moins)
+* '''[[VD]].''' 9 m
+* '''CA.''' +2 esquive (sous forme intangible) ou +2 armure naturelle (sous forme ectoplasmique)
+* '''Attaque.''' 2 coups (1d6 ou 1d4 si taille P)
+* '''Caractéristiques.''' [[Force|For]] 12, [[Dextérité|Dex]] 14, [[Constitution|Con]] 13, [[Intelligence|Int]] 7, [[Sagesse|Sag]] 10, [[Charisme|Cha]] 13.
+
+===Les compétences des fantômes===
 Voici la liste de compétences de classe des fantômes : [[Artisanat]] (Int), [[Bluff]] (Cha), [[Connaissances]] (plans) (Int), [[Discrétion]] (Dex), [[Intimidation]] (Cha), [[Perception]] (Sag), [[Psychologie]] (Sag) et [[Vol]] (Dex). De plus, dès le niveau 1, le spirite peut choisir une compétence supplémentaire en guise de compétence de classe pour son fantôme. Le fantôme acquiert également deux compétences de classe en fonction de l’émotion qui le domine. Il gagne automatiquement des rangs supplémentaires dans ces deux compétences au fur et à mesure que le spirite monte en niveaux. Ce nombre de rangs est toujours égal à son nombre de Dés de Vie.
 
 {s:Reference|FORMEDEMANIFESTATIONCOMPLETE}
 ===Formes de manifestation complète===
 Chaque fois qu’il manifeste son fantôme de manière complète, le spirite doit décider s’il lui octroie une forme ectoplasmique ou intangible. Le fantôme acquiert les caractéristiques indiquées dans la Table 1-11 : Caractéristiques de base des fantômes manifestés, modifiées par son émotion dominante et par le type de manifestation choisie par le spirite.
+* '''Ectoplasmique.''' Quand le spirite manifeste son fantôme sous forme ectoplasmique, celui-ci obtient les pouvoirs suivants.
+** ''Réduction des dégâts.'' un fantôme manifesté sous forme ectoplasmique possède une [[RD]] 5/tranchant. Quand le spirite atteint le niveau 5, son fantôme obtient une [[RD]] 5/magie. Au niveau 10, la réduction passe à 10/magie. Au niveau 15, elle passe à 15/magie et, au niveau 20, à 15/-.
+** ''Vacillement de phase (Sur).'' Un fantôme sous forme ectoplasmique peut traverser les murs et les obstacles solides. Pour pouvoir utiliser ce pouvoir, il doit commencer et terminer son tour en dehors des murs ou des obstacles à travers lesquels il se déplace. Ce pouvoir ne permet pas à un fantôme ectoplasmique de traverser des créatures tangibles et sa vitesse de déplacement est diminuée de moitié s’il traverse un mur ou un obstacle. Toute surface qu’il traverse est recouverte d’une fine couche de mucus argenté qui s’évapore au bout d’une minute.
 
-=====Ectoplasmique=====
-Quand le spirite manifeste son fantôme sous forme ectoplasmique, celui-ci obtient les pouvoirs suivants. 
-
-''Réduction des dégâts.'' un fantôme manifesté sous forme ectoplasmique possède une [[RD]] 5/tranchant. Quand le spirite atteint le niveau 5, son fantôme obtient une [[RD]] 5/magie. Au niveau 10, la réduction passe à 10/magie. Au niveau 15, elle passe à 15/magie et, au niveau 20, à 15/-.
-
-''Vacillement de phase (Sur).'' Un fantôme sous forme ectoplasmique peut traverser les murs et les obstacles solides. Pour pouvoir utiliser ce pouvoir, il doit commencer et terminer son tour en dehors des murs ou des obstacles à travers lesquels il se déplace. Ce pouvoir ne permet pas à un fantôme ectoplasmique de traverser des créatures tangibles et sa vitesse de déplacement est diminuée de moitié s’il traverse un mur ou un obstacle. Toute surface qu’il traverse est recouverte d’une fine couche de mucus argenté qui s’évapore au bout d’une minute.
-
-=====Intangible=====
-Quand le spirite manifeste son fantôme sous forme intangible, celui-ci apparaît à 9 mètres ou moins de lui en adoptant une apparence spectrale. Il acquiert le sous-type [[sous-type intangible|intangible]], en ajoutant un bonus de parade à la [[CA]] égal à son modificateur de [[Charisme]]. Il n’est pas un mort-vivant et ne subit donc pas les dégâts infligés par l’eau bénite ou l’énergie positive. À la différence des autres créatures intangibles, un fantôme intangible ne peut pas attaquer des créatures tangibles, sauf s’il place des sorts d’attaque de contact en utilisant le pouvoir [[fantômes (spirite)#TOUCHSPELLS|livrer un sort de contact]]. Un fantôme manifesté sous forme intangible peut effectuer des attaques de coup contre d’autres créatures elles aussi intangibles comme s’il était sous forme ectoplasmique.
+* '''Intangible.''' Quand le spirite manifeste son fantôme sous forme intangible, celui-ci apparaît à 9 mètres ou moins de lui en adoptant une apparence spectrale. Il acquiert le sous-type [[sous-type intangible|intangible]], en ajoutant un bonus de parade à la [[CA]] égal à son modificateur de [[Charisme]]. Il n’est pas un mort-vivant et ne subit donc pas les dégâts infligés par l’eau bénite ou l’énergie positive. À la différence des autres créatures intangibles, un fantôme intangible ne peut pas attaquer des créatures tangibles, sauf s’il place des sorts d’attaque de contact en utilisant le pouvoir [[fantômes (spirite)#TOUCHSPELLS|livrer un sort de contact]]. Un fantôme manifesté sous forme intangible peut effectuer des attaques de coup contre d’autres créatures elles aussi intangibles comme s’il était sous forme ectoplasmique.
 
 {s:Reference|EMOTIONDOMINANTE}
-===Émotion dominante===
+===Les émotions dominantes===
 Chaque fantôme est dominé par une émotion : un sentiment puissant né d’une expérience vécue de son vivant et qui le maintient ancré aux plans Matériel et Éthéré. Cette émotion dominante lui confère également des pouvoirs qu’il peut utiliser une fois manifesté. Le type et la puissance de chaque pouvoir dépend du niveau de spirite du personnage.
 
 L’émotion dominante détermine les compétences et les rangs supplémentaires que le fantôme obtient, ainsi que les compétences pour lesquelles s’applique le don de Talent acquis par son maître-spirite. Elle détermine également les jets de sauvegarde forts du fantôme manifesté et les pouvoirs spéciaux que le fantôme acquiert au fur et à mesure que son maître gagne des niveaux.
