@@ -1,14 +1,13 @@
 ---
 Name: Pathfinder-RPG.Domaine de lArtisanat
 Title: Domaine de l'Artisanat
-LastModified: 2021-03-28 18:07
+LastModified: 2024-11-27 01:12
 Categories:
   - 'Classe'
   - 'Domaine'
 ---
 {s:MenuDomaines}
 === Pouvoirs accordés ===
-
 Le personnage peut réparer les objets endommagés, animer les objets ou même créer des objets à partir de rien.
 
 '''Toucher de l’artisan (Mag).''' Le personnage peut lancer ''[[réparation]]'' à volonté, avec un niveau de lanceur de sorts égal à son niveau de [[prêtre]]. Il peut également endommager les objets et les créatures artificielles en leur portant une [[attaque de contact au corps à corps]] qui inflige 1d6 points de dégâts + 1 par deux niveaux de [[prêtre]]. Cette attaque ignore la [[réduction de dégâts]] et la [[solidité]] à concurrence d’un nombre de points égal au niveau du [[prêtre]]. Ce pouvoir peut être utilisé chaque jour un nombre de fois égal à 3 + le modificateur de [[Sagesse]] du prêtre.
@@ -16,10 +15,8 @@ Le personnage peut réparer les objets endommagés, animer les objets ou même c
 '''Armes dansantes (Sur).''' Au niveau 8, le personnage peut accorder par le toucher la propriété [[dansante (propriété)|dansant]] pendant quatre rounds à une arme. Il peut utiliser cette capacité une fois par jour au niveau 8 et une fois de plus par jour tous les quatre niveaux par la suite.
 
 {s:APG}
-===Sous-domaines===
-Au lieu du domaine, un personnage peut choisir d'adopter un des [[sous-domaines]] suivants.
-
-<table class="page espace-col troiscol"><tr style="vertical-align: top"><td>
+===Sous-domaines associés===
+<table class="espace-col deuxcol"><tr><td>
 <div class="presentation arrondi">
 ===Sous-domaine de la Construction===
 '''Serviteur animé (Sur).''' ''(remplace armes dansantes)'' Au niveau 8, le personnage peut donner la vie à des objets inanimés en une [[action simple]]. Cette capacité fonctionne comme [[animation dobjets|animation d'objets]] lancé à un [[NLS]] égal au niveau du prêtre. Il peut l'utiliser une fois par jour au niveau 8 et une fois de plus par tranche de 4 niveaux au-delà du niveau 8.
@@ -29,7 +26,8 @@ Au lieu du domaine, un personnage peut choisir d'adopter un des [[sous-domaines]
 === Sous-domaine du Labeur===
 '''Aura de répétition (Sur).''' ''(remplace armes dansantes)'' Au niveau 8, le personnage peut émettre une aura de répétition de 6 cases de rayon pendant un nombre de rounds par jour égal à son niveau de prêtre. Tous les ennemis au sein de cette aura doivent faire un [[jet de sauvegarde|jet de Volonté]] chaque round ou répéter l'action du round précédent (si possible). Les créatures qui ont attaqué au cours du round précédent attaquent à nouveau ce round-là (mais elles peuvent changer de cible) ; celles qui se sont déplacées doivent se déplacer à nouveau (mais peuvent changer de trajectoire) ; celles qui ont bu une potion doivent le faire à nouveau, même si elles boivent une bouteille déjà vide. Les actions qui ne peuvent pas être répétées sont perdues. Les rounds ne doivent pas forcément être consécutifs.
 </div>
-</td><td>
+</td></tr><tr><td>
+
 <div class="presentation arrondi">
 === Sous-domaine des Pièges===
 {s:cs}<div class="description">'''Source :''' Kobolds of Golarion (KoG).</div>
@@ -38,33 +36,28 @@ Au lieu du domaine, un personnage peut choisir d'adopter un des [[sous-domaines]
 </div>
 </td></tr></table>
 
-<center>
-{| CLASS="tablo toutgauche"
-|+ Sorts de domaine
+===Sorts de domaine===
+{| CLASS="tablo centre autoalt toutgauche" WIDTH="100%"
 |- CLASS="titre"
 | WIDTH="4%" | Niv
-| WIDTH="24%" | Domaine de l'artisanat
-| WIDTH="24%" | Sous-domaine de la Construction
-| WIDTH="24%" | Sous-domaine du Labeur
-| WIDTH="24%" | Sous-domaine des Pièges
+| WIDTH="26%" | Domaine de l'Artisanat
+| Sous-domaine de la Construction || Sous-domaine du Labeur || Sous-domaine des Pièges
 |- CLASS="premier"
 | 1er || ''[[corde animée]]'' || ''idem'' || ''[[injonction]]'' || ''idem'' 
-|- CLASS="alt"
+|-
 | 2e || ''[[façonnage du bois]]'' || ''idem'' || ''idem'' || ''[[collet]]'' 
 |-
 | 3e || ''[[façonnage de la pierre]]'' || ''idem'' || ''idem'' || ''[[amélioration de piège]]'' 
-|- CLASS="alt"
+|-
 | 4e || ''[[création mineure]]'' || ''idem'' || ''idem'' || ''idem'' 
 |-
 | 5e || ''[[fabrication]]'' || ''idem'' || ''[[vagues de fatigue]]'' || ''idem'' 
-|- CLASS="alt"
+|-
 | 6e || ''[[création majeure]]'' || ''idem'' || ''idem'' || ''idem'' 
 |-
 | 7e || ''[[mur de fer]]'' || ''[[souhait limité]]'' || ''[[vagues dépuisement|vagues d'épuisement]]'' || ''[[piège de téléportation]]'' 
-|- CLASS="alt"
+|-
 | 8e || ''[[statue]]'' || ''[[métamorphose universelle]]'' || ''idem'' || ''idem'' 
 |-
 | 9e || ''[[sphère prismatique]]'' || ''idem'' || ''idem'' || ''idem'' 
 |}
-</center>
-
