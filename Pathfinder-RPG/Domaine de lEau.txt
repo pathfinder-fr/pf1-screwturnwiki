@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Domaine de lEau
 Title: Domaine de l'Eau
-LastModified: 2023-05-10 14:22
+LastModified: 2024-12-04 00:00
 Categories:
   - 'Classe'
   - 'Domaine'
@@ -10,7 +10,7 @@ Categories:
   - 'Src Manuel des joueurs - Règles avancées'
   - 'Src Manuel des races'
 ---
-{s:MenuDomaines}<p style="text-align: right">''Ce domaine peut également être choisi dans le cadre du Pacte avec la Nature des [[Domaines animaux et environnementaux|druides]].''</p>
+{s:MenuDomaines}
 ===Pouvoirs accordés===
 Le personnage peut manipuler l’eau, la brume et la glace et conjurer des créatures de l’Eau. Il acquiert également une certaine résistance au froid.
 
@@ -18,98 +18,57 @@ Le personnage peut manipuler l’eau, la brume et la glace et conjurer des créa
 
 '''Résistance au froid (Ext).''' Au niveau 6, le [[prêtre]] gagne une résistance au froid de 10. Cette résistance passe à 20 au niveau 12. Au niveau 20, elle se transforme en [[immunité]].
 
-{s:APG}
-===Sous-domaines===
-Au lieu du domaine, un personnage peut choisir d'adopter un des [[sous-domaines]] suivants.
+===Sous-domaines associés===
+<table width="100%"><tr><td width="49%">
+<div class="presentation arrondi">{s:MR}{s:BotD}
+===Sous-domaine des Épaves===
+{s:racial|Gobelin (race)|gobelins|Illustrations/PNJ/Gobelin.jpg}'''Trésor à la dérive (Sur).''' ''(remplace résistance au froid)'' Au niveau 6 et une fois par jour, le personnage peut mettre la main dans l'eau par une [[action simple]] et en extraire un objet d'une valeur maximale de 50 po par niveau de prêtre. Cet objet est toujours [[brisé]], et l'étendue d'eau dans laquelle le personnage plonge la main doit être suffisamment profonde pour qu'il puisse s'immerger complètement. Au niveau 12, les objets extraits ne sont plus brisés. Au niveau 20, la valeur maximale des objets extraits est de 5 000 po. Si le personnage récupère un objet qui ne devrait normalement pas flotter, on admet qu'il se trouve sur ou est emmêlé dans des débris qui flottent. Les objets extraits de cette manière disparaissent après 24 heures s'ils ne sont pas utilisés ou autrement détruits plus tôt.
+</div>
 
-<table class="page espace-col troiscol"><tr style="vertical-align: top"><td>
 <div class="presentation arrondi">
+===Sous-domaine du Flux===
+{s:cs}<div class="description">'''Source :''' Champions of Balance (CoB).</div>'''Suivre le courant (Mag).''' ''(remplace trait de glace)'' Le prêtre peut toucher une créature par une action simple pour apaiser ses émotions violentes. Ce pouvoir fonctionne comme [[apaisement des émotions]], mais la cible peut toujours entreprendre des actions violentes, et une action violente à son égard n'interrompt pas l'effet. Le prêtre peut utiliser cette capacité un nombre de fois par jour égal à 3 + son modificateur de [[Sagesse]].
+</div>
+</td><td width="2%">
+</td><td width="49%">
+<div class="presentation arrondi">{s:APG}
 ===Sous-domaine de la Glace===
 '''Corps de glace (Sur).''' ''(remplace résistance au froid)'' Au niveau 8, le personnage peut transformer son corps et son équipement en glace pendant un certain laps de temps. Il faut une [[action simple]] pour prendre cette forme de glace, mais il peut mettre un terme à la transformation en une [[action libre]] au cours de son tour. Sous la forme de glace, le [[prêtre]] est immunisé au froid et possède une [[RD]] 5/— mais les dégâts de feu qu'il subit sont doublés. Le [[prêtre]] peut prendre cette forme pendant un nombre de [[round|rounds]] par jour égal à son niveau de [[prêtre]]. Ces [[round|rounds]] ne doivent pas forcément être consécutifs.
 </div>
-</td><td>
-<div class="presentation arrondi">
+
+<div class="presentation arrondi">{s:APG}
 ===Sous-domaine des Océans===
 '''Vague géante (Sur).''' ''(remplace trait de glace)'' En une [[action simple]], le personnage peut faire apparaître une puissante vague qui repousse ou attire vers lui une unique créature. Le [[prêtre]] effectue un test de [[manoeuvres offensives|manœuvre]] contre la cible en utilisant son niveau de [[prêtre]] + son modificateur de [[Sagesse]] comme [[BMO]]. En cas de réussite, il peut attirer ou repousser la cible comme s'il pratiquait une manœuvre de [[bousculade]] ou d'attraction. Le prêtre peut utiliser cette capacité un nombre de fois par jour égal à 3 + son modificateur de [[Sagesse]].
 </div>
-</td><td>
-<div class="presentation arrondi">
+
+<div class="presentation arrondi">{s:BotD}
 ===Sous-domaine des Rivières===
-{s:cs}{s:BotD}'''Affluence (Sur).''' ''(remplace trait de glace)'' Par une [[action libre]], le personnage peut augmenter sa vitesse de base ou de nage de 3 mètres (2 {s:c}). Lorsque le personnage nage sous l'effet de ce pouvoir, il gagne un bonus aux tests de [[Natation]] égal à la moitié de son niveau de prêtre (minimum 1). Ces effets durent un nombre de rounds égal au modificateur de [[Sagesse]] du personnage. Le prêtre peut utiliser cette capacité un nombre de fois par jour égal à 3 + son modificateur de Sagesse.
+{s:cs}'''Affluence (Sur).''' ''(remplace trait de glace)'' Par une [[action libre]], le personnage peut augmenter sa vitesse de base ou de nage de 3 mètres (2 {s:c}). Lorsque le personnage nage sous l'effet de ce pouvoir, il gagne un bonus aux tests de [[Natation]] égal à la moitié de son niveau de prêtre (minimum 1). Ces effets durent un nombre de rounds égal au modificateur de [[Sagesse]] du personnage. Le prêtre peut utiliser cette capacité un nombre de fois par jour égal à 3 + son modificateur de Sagesse.
 </div>
 </td></tr></table>
 
-<table class="page espace-col deuxcol"><tr style="vertical-align: top"><td>
-<div class="presentation arrondi">
-===Sous-domaine du Flux===
-{s:cs}<div class="description">'''Source :''' Champions of Balance (CoB).</div>
-
-'''Suivre le courant (Mag).''' ''(remplace trait de glace)'' Le prêtre peut toucher une créature par une action simple pour apaiser ses émotions violentes. Ce pouvoir fonctionne comme [[apaisement des émotions]], mais la cible peut toujours entreprendre des actions violentes, et une action violente à son égard n'interrompt pas l'effet. Le prêtre peut utiliser cette capacité un nombre de fois par jour égal à 3 + son modificateur de [[Sagesse]].
-</div>
-</div>
-</td><td>
-<div class="presentation arrondi">
-{s:racial|Gobelin (race)|gobelins|Illustrations/PNJ/Gobelin.jpg}{s:MR}{s:BotD}
-===Sous-domaine des Épaves===
-'''Trésor à la dérive (Sur).''' ''(remplace résistance au froid)'' Au niveau 6 et une fois par jour, le personnage peut mettre la main dans l'eau par une [[action simple]] et en extraire un objet d'une valeur maximale de 50 po par niveau de prêtre. Cet objet est toujours [[brisé]], et l'étendue d'eau dans laquelle le personnage plonge la main doit être suffisamment profonde pour qu'il puisse s'immerger complètement. Au niveau 12, les objets extraits ne sont plus brisés. Au niveau 20, la valeur maximale des objets extraits est de 5 000 po. Si le personnage récupère un objet qui ne devrait normalement pas flotter, on admet qu'il se trouve sur ou est emmêlé dans des débris qui flottent. Les objets extraits de cette manière disparaissent après 24 heures s'ils ne sont pas utilisés ou autrement détruits plus tôt.
-</div>
-</td></tr></table>
-
-<center>
-{| CLASS="tablo toutgauche"
-|+ Sorts de domaine
+===Sorts de domaine===
+{| CLASS="tablo centre autoalt toutgauche" WIDTH="100%"
 |- CLASS="titre"
 | WIDTH="4%" | Niv
-| WIDTH="24%" | Domaine de l'Eau
-| WIDTH="24%" | Sous-domaine de la Glace
-| WIDTH="24%" | Sous-domaine des Océans
-| WIDTH="24%" | Sous-domaine des Rivières
+| WIDTH="26%" | Domaine de l'Eau
+| Sous-domaine des Épaves || Sous-domaine du Flux || Sous-domaine de la Glace || Sous-domaine des Océans || Sous-domaine des Rivières
 |- CLASS="premier"
-| 1er || ''[[brume de dissimulation]]'' || ''idem'' || ''idem'' || ''[[poussée hydraulique]]''
-|- CLASS="alt"
-| 2e || ''[[nappe de brouillard]]'' || ''idem'' || ''[[vague]]'' || ''idem''
+| 1er || ''[[brume de dissimulation]]'' || ''idem'' || ''idem'' || ''idem'' || ''idem'' || ''[[poussée hydraulique]]''
 |-
-| 3e || ''[[respiration aquatique]]'' || ''idem'' || ''[[marche sur londe|marche sur l'onde]]'' || ''idem''
-|- CLASS="alt"
-| 4e || ''[[contrôle de leau|contrôle de l’eau]]'' || ''idem'' || ''idem'' || ''idem''
+| 2e || ''[[nappe de brouillard]]'' || ''[[réparation intégrale]]'' || ''[[grâce féline]]'' || ''idem'' || ''[[vague]]'' || ''idem''
 |-
-| 5e || ''[[tempête de grêle]]'' || ''idem'' || ''idem'' || ''[[corps élémentaire II]]''<br/>(créature de l’Eau seulement)
-|- CLASS="alt"
-| 6e || ''[[cône de froid]]'' || ''idem'' || ''idem'' || ''[[forme liquide]]''
+| 3e || ''[[respiration aquatique]]'' || ''idem'' || ''idem'' || ''idem'' || ''[[marche sur londe|marche sur l'onde]]'' || ''idem''
 |-
-| 7e || ''[[corps élémentaire IV]]''<br/>(créature de l’Eau seulement) || ''[[sphère glaciale]]'' || ''idem'' || ''idem''
-|- CLASS="alt"
-| 8e || ''[[flétrissure]]'' || ''idem'' || ''idem'' || ''idem''
+| 4e || ''[[contrôle de leau|contrôle de l’eau]]'' || ''idem'' || ''[[liberté de mouvement]]'' || ''idem'' || ''idem'' || ''idem''
 |-
-| 9e || ''[[nuée délémentaires|nuée d’élémentaires]]''<br/>(lancé comme un sort de l’Eau seulement) || ''[[rayon polaire]]'' || ''[[tsunami]]'' || ''idem''
+| 5e || ''[[tempête de grêle]]'' || ''[[création majeure]]'' || ''idem'' || ''idem'' || ''idem'' || ''[[corps élémentaire II]]'' (créature de l’Eau uniquement)
+|-
+| 6e || ''[[cône de froid]]'' || ''[[animation dobjets|animation d'objets]]'' || ''[[forme liquide]]'' || ''idem'' || ''idem'' || ''[[forme liquide]]''
+|-
+| 7e || ''[[corps élémentaire IV]]'' (créature de l’Eau uniquement) || ''idem'' || ''idem'' || ''[[sphère glaciale]]'' || ''idem'' || ''idem''
+|-
+| 8e || ''[[flétrissure]]'' || ''idem'' || ''[[esprit impénétrable]]'' || ''idem'' || ''idem'' || ''idem''
+|-
+| 9e || ''[[nuée délémentaires|nuée d’élémentaires]]'' (lancé comme un sort de l’Eau uniquement) || ''idem'' || ''idem'' || ''[[rayon polaire]]'' || ''[[tsunami]]'' || ''idem''
 |}
-</center>
-
-<center>
-{| CLASS="tablo toutgauche"
-|+ Sorts de domaine
-|- CLASS="titre"
-| WIDTH="4%" | Niv
-| WIDTH="32%" | Domaine de l'Eau
-| WIDTH="32%" | Sous-domaine du Flux
-| WIDTH="32%" | Sous-domaine des Épaves
-|- CLASS="premier"
-| 1er || ''[[brume de dissimulation]]'' || ''idem'' || ''idem''
-|- CLASS="alt"
-| 2e || ''[[nappe de brouillard]]'' || ''[[grâce féline]]'' || ''[[réparation intégrale]]''
-|-
-| 3e || ''[[respiration aquatique]]'' || ''idem'' || ''idem''
-|- CLASS="alt"
-| 4e || ''[[contrôle de leau|contrôle de l’eau]]'' || ''[[liberté de mouvement]]'' || ''idem''
-|-
-| 5e || ''[[tempête de grêle]]'' || ''idem'' || ''[[création majeure]]''
-|- CLASS="alt"
-| 6e || ''[[cône de froid]]'' || ''[[forme liquide]]'' || ''[[animation dobjets|animation d'objets]]''
-|-
-| 7e || ''[[corps élémentaire IV]]''<br/>(créature de l’Eau seulement) || ''idem'' || ''idem''
-|- CLASS="alt"
-| 8e || ''[[flétrissure]]'' || ''[[esprit impénétrable]]'' || ''idem''
-|-
-| 9e || ''[[nuée délémentaires|nuée d’élémentaires]]''<br/>(lancé comme un sort de l’Eau seulement) || ''idem'' || ''idem''
-|}
-</center>
