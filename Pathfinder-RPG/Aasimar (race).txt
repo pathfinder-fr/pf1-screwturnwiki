@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Aasimar (race)
 Title: Les aasimars
-LastModified: 2024-11-26 21:30
+LastModified: 2025-01-12 15:14
 Categories:
   - 'Race'
   - 'Src Manuel des races'
@@ -34,6 +34,7 @@ Il convient de noter que si toute créature se reproduisant avec un céleste peu
 
 Les aasimars non-humains ont les mêmes statistiques que les aasimars humains, à l'exception de la taille. Ainsi, un aasimar halfelin est de [[taille P]] mais possède les mêmes statistiques et capacités qu'un aasimar humain - la différence est purement cosmétique. Les aasimars non-humains ne possèdent aucun des traits raciaux de leur race de base. Cependant, ils sont généralement élevés dans le même contexte culturel que les autres membres de leur race de base, et adoptent donc généralement le même style de combat que leurs pairs, utilisent les mêmes types d'armes et d'armures, et étudient les mêmes compétences.
 
+{s:Reference|TRAITSSTANDARDS}
 ===Traits raciaux standards===
 <div class="presentation arrondi ombre espaceliste">
 * '''+2 en [[Sagesse]], +2 en [[Charisme]].''' Les aasimars sont perspicaces, confiants et charmants.
@@ -48,6 +49,7 @@ Les aasimars non-humains ont les mêmes statistiques que les aasimars humains, �
 
 </div>
 
+{s:Reference|TRAITSALTERNATIFS}
 ===Traits raciaux alternatifs===
 Vous pouvez choisir les traits raciaux suivants à la place des traits raciaux aasimars standard, mais consultez d’abord votre MJ.
 
@@ -56,6 +58,7 @@ __''Remplace « compétent » :''__
 
 __''Remplace « compétent » et « pouvoir magique » :''__
 * '''Étincelle immortelle.''' Les aasimars ayant ce trait racial défient les pouvoirs de mort. Ils gagnent un bonus de +2 à leurs tests de [[Connaissances]] (histoire) et à leurs [[jds|jets de sauvegarde]] contre les effets de mort, et peuvent utiliser ''[[Résistance à lâge mineure|résistance à l’âge mineure]]'' comme un [[Pouvoirs magiques (capacité)|pouvoir magique]] une fois par jour. Ce trait racial remplace ceux de compétent et de pouvoir magique.
+* {s:cs}{s:ISR}'''Magie des croisades.''' De nombreux aasimars considèrent comme un devoir de s'entraîner à défendre le monde contre les fiélons tels que ceux qui envahissent la Plaie du monde. Ces aasimars bénéficient d'un bonus racial de +2 aux tests de [[NLS|niveau de lanceur de sorts]] pour vaincre la [[RM|résistance à la magie]] ainsi qu'aux tests de [[Connaissances]] (plans). Ce trait racial remplace compétent et pouvoir magique.
 * '''Né dans les cieux.''' Nés dans les royaumes célestes, les aasimars ayant ce trait racial gagnent un bonus de +2 à leurs tests de [[Connaissances]] (plans) et lancent les sorts du [[registre]] Bien ou de la lumière avec un [[NLS|niveau de lanceur de sorts]] augmenté de +1. Ce trait racial remplace ceux de compétent et de pouvoir magique.
 
 __''Remplace « compétent » et « résistance céleste » :''__
@@ -66,6 +69,7 @@ __''Remplace « extérieur natif » et « langue céleste » :''__
 
 __''Remplace « pouvoir magique » :''__
 * '''Incorruptible.''' Parfois, certains aasimars développent la capacité à repousser le Mal toujours plus loin. Ceux qui ont ce trait racial peuvent utiliser ''[[résistance à la corruption]]'' contre le Mal comme un [[Pouvoirs magiques (capacité)|pouvoir magique]] une fois par jour. Si un aasimar utilise cette capacité sur lui-même, la durée passe à 1 heure par niveau. Ce trait racial remplace celui de pouvoir magique.
+* {s:cs}{s:ISR}'''Promesse oubliée.''' Même si beaucoup considèrent la beauté et les pouvoirs célestes des aasimars comme un cadeau, certaines communautés les persécutent pour leur simple différence jusqu'à ce qu'ils sombrent dans les ténèbres. Les forces du mal se réjouissent d'une telle perversion des dons de leur homologue céleste. Tant que l'aasimar reste d'alignement Mauvais, il obtient le trait racial alternatif [[Tieffelin (race)|tieffelin]] la gueule ou la griffe. Ce trait racial remplace pouvoir magique.
 
 __''Remplace « résistance céleste » :''__
 * '''Esprit immortel.''' Les aasimars à la volonté particulièrement forte ont un esprit céleste capable de résister aux pouvoirs de mort. Ils bénéficient d’une [[Résistance (capacité)|résistance]] de 5 contre les dégâts d’énergie négative. Ils ne perdent pas de points de vie lorsqu’ils gagnent des [[niveau négatif|niveaux négatifs]], et bénéficient d’un bonus racial de +2 à leurs [[jds|jets de sauvegarde]] contre les effets de mort, l’[[Absorption dénergie (capacité)|absorption d’énergie]], l’énergie négative et les sorts ou pouvoirs magiques de [[nécromancie]]. Ce trait racial remplace résistance céleste.
@@ -142,14 +146,12 @@ Certaines options s’accompagnent d’une limite numéraire fixe, une fois cett
 
 ===Nouvelles règles raciales===
 {s:MR}Voici les options accessibles aux aasimars, d’autres races adaptées peuvent s’en servir si le MJ donne son accord.
-====Dons====
-Ces dons sont accessibles aux aasimars :
 
-<center>
-{| CLASS="tablo autoalt toutgauche"
+====Dons====
+{| CLASS="tablo centre autoalt toutgauche"
 
 |- CLASS="titre"
-| WIDTH="25%" | &nbsp;
+| WIDTH="25%" | Dons
 | WIDTH= "6%" | Source
 | WIDTH="25%" | Conditions
 | WIDTH="44%" | Avantages
@@ -160,8 +162,13 @@ Ces dons sont accessibles aux aasimars :
 | &emsp;[[Science de la canalisation de force|Science de la canalisation de force]] || <sup>MR</sup> || [[Canalisation de force]], [[aasimar (race)|Aasimar]], [[Prêtre#CANALISATIONDENERGIE|canalisation d’énergie]] 4d6 || L'utilisation de Canalisation de force affecte un cône de 9 m (6 {s:c}) ou une ligne de 18 m (12 {s:c})
 |-
 | &emsp;&emsp;[[Canalisation de force supérieure|Canalisation de force supérieure]] || <sup>MR</sup> || [[Canalisation de force]], [[Science de la canalisation de force]], [[aasimar (race)|Aasimar]], [[Prêtre#CANALISATIONDENERGIE|canalisation d’énergie]] 6d6 || L'utilisation de Canalisation de force affecte toutes les créatures dans un rayon de 9 m (6 {s:c})
+
+|- CLASS="premier"
+| [[Éclat amplifié]] || <sup>''ISR''</sup> || [[Aasimar (race)|Aasimar]], pouvoir magique racial ''[[lumière du jour]]'' || Émet une aura de lumière à proximité d'un allié qui possède ce don
+
 |- CLASS="premier"
 | [[Rayonnement divin]] || <sup>MR</sup> || [[aasimar (race)|Aasimar]], ''[[lumière du jour]]'' pouvoir magique, niveau suffisamment élevé (voir description) || une utilisation supplémentaire du pouvoir lumière du jour avec des effets supérieurs 
+
 |- CLASS="premier"
 | [[Sang angélique]] || <sup>MR</sup> || [[Constitution|Con]] 13, [[aasimar (race)|Aasimar]] || Le personnage est plus difficile à tuer et résistant au Mal
 |-
@@ -170,35 +177,35 @@ Ces dons sont accessibles aux aasimars :
 | &emsp;[[Chair angélique]] || <sup>MR</sup> || [[Sang angélique]], [[aasimar (race)|Aasimar]] || La peau étincelante du personnage lui offre des effets bénéfiques
 |-
 | &emsp;&emsp;[[Ailes métalliques]] || <sup>MR</sup> || [[Sang angélique]], [[chair angélique]], [[ailes d’ange]], [[aasimar (race)|Aasimar]], niveau de personnage 11 || Le personnage obtient deux attaques d'aile
+
 |- CLASS="premier"
 | [[Serviteur céleste]] || <sup>MR</sup> || [[aasimar (race)|Aasimar]], [[compagnon animal]], [[familier]] ou aptitude de classe monture || Le compagnon animal, son familier ou la monture du personnage devient une créature magique céleste
 |}
-</center>
-{s:ligne}{s:col|6}
+
+<table width="100%"><tr><td width="49%">
 ====Archétypes de classes====
-Ces archétypes raciaux sont accessibles aux aasimars :
-* [[Purificateur (oracle)]]
-* [[Sage gardien (paladin)]]
+* [[Purificateur (oracle)]] ''(MR)''
+* [[Sage gardien (paladin)]] ''(MR)''
 
 ====Équipement====
-Les aasimars ont accès à l’équipement suivant :
-* [[Ambroisie (objet)|Ambroisie]]
-* [[Encens (objet)|Encens]]
-* [[Encensoir céleste (objet)|Encensoir céleste]]
-* [[Huile sainte (objet)|Huile sainte]] 
-* [[Lampe céleste (objet)|Lampe céleste]]
+* [[Ambroisie (objet)|Ambroisie]] ''(MR)''
+* [[Encens (objet)|Encens]] ''(MR)''
+* [[Encensoir céleste (objet)|Encensoir céleste]] ''(MR)''
+* [[Huile sainte (objet)|Huile sainte]]  ''(MR)''
+* [[Lampe céleste (objet)|Lampe céleste]] ''(MR)''
 
-{s:col-fin}{s:col|6}
+</td><td width="1%">
+<td style="border-left:1px solid #4b3124;width=" width="1%"></td>
+</td><td width="49%">
 ====Objets magiques====
-Ces objets magiques sont spécifiques aux aasimars :
-* [[Auréole de menace]]
-* [[Bouclier céleste]]
-* [[Bouclier de lÉlysée|Bouclier de l'Élysée]]
+* [[Auréole de menace]] ''(MR)''
+* [[Bouclier céleste]] ''(MR)''
+* [[Bouclier de lÉlysée|Bouclier de l'Élysée]] ''(MR)''
+* [[Étendard de lhéritier céleste|Étendard de l'héritier céleste]] ''(ISR)''
 
 ====Sorts====
-Ces sorts sont réservés aux aasimars :
-* '''''[[Espace sacré]]''''' ''(MR)'' ([[Paladin|Pal 2]], [[Prêtre|Prê 2]]). Crée une zone de pouvoir divin contrant les pouvoirs des extérieurs Mauvais.
-* '''''[[Vérité]]''''' ''(MR)'' ([[Barde|Bard 4]], [[Hypnotiseur|Hyp 4]], [[Ensorceleur|Ens]]/[[Magicien|Mag 5]], [[Prêtre|Prê 6]], [[Psychiste|Psy 5]], [[Sorcière|Sor 5]]). Le lanceur peut communiquer avec toutes les créatures intelligentes.
-* '''''[[Voile du paradis]]''''' ''(MR)'' ([[Paladin|Pal 1]]). Crée un voile de protection contre les extérieurs Mauvais sur le lanceur.
+* [[Espace sacré]] ''(MR)''
+* [[Vérité]] ''(MR)''
+* [[Voile du paradis]] ''(MR)''
 
-{s:col-fin}{s:ligne-fin}
+</td></tr></table>

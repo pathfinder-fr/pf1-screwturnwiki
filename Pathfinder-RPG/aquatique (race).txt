@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.aquatique (race)
 Title: Les aquatiques
-LastModified: 2024-09-23 17:33
+LastModified: 2025-01-12 15:45
 Categories:
   - 'Règle officielle'
   - 'Src Manuel des races'
@@ -10,6 +10,7 @@ Categories:
 
 Les aquatiques sont les derniers survivants d’une race d’humanoïdes de la surface dont la terre natale fut noyée lors d’un grand cataclysme que l’on doit aux aboleths. Ces derniers secoururent les quelques survivants, les transformant en une race amphibie dont les membres devinrent leurs émissaires sur le monde de la surface. Les aquatiques contemporains demeurent solitaires et méfiants, marqués par la perte de leur ancien héritage et la certitude que les aboleths ne font rien sans attendre quelque profit en retour. Physiquement, les aquatiques ont des sourcils expressifs, la peau pâle, les cheveux sombres et des yeux d’un mauve éclatant. Trois petites branchies marquent chacun des côtés de leur cou, près de l’épaule, mais, en outre, ils ressemblent suffisamment aux humains pour apparaître comme tels (pendant un temps) sans craindre d’être découverts.
 
+{s:Reference|TRAITSSTANDARDS}
 ===Traits raciaux standards===
 <div class="presentation arrondi ombre espaceliste">
 * '''+2 [[Constitution]], +2 [[Charisme]], -2 [[Sagesse]].''' Les aquatiques sont beaux et vigoureux, mais la domination qu’exercent les aboleths sur eux a affaibli leur volonté.
@@ -23,11 +24,15 @@ Les aquatiques sont les derniers survivants d’une race d’humanoïdes de la s
 
 </div>
 
+{s:Reference|TRAITSALTERNATIFS}
 ===Traits raciaux alternatifs===
 {s:MR}Il est possible de choisir les traits raciaux suivants à la place des traits raciaux existants des aquatiques. Consultez votre MJ avant de prendre ces options.
 
 __''Remplace « amphibie » et « dépendant de l'eau », modifie « aquatique » et « vitesse normale » :''__
 * '''Rescapé.''' Certains aquatiques sont des survivants directs de leurs ancêtres humains de la terre. Les aquatiques possédant ce trait racial n’ont pas le trait amphibie, ont le sous-type [[sous-type humain|humain]] au lieu du sous-type aquatique, n’ont pas de vitesse de nage ni de bonus de [[Natation]], ne peuvent pas respirer sous l’eau et n’ont pas le trait racial dépendant de l’eau.
+
+__''Remplace « amphibie » et « résistance à l'enchantement » :''__
+* {s:cs}{s:ISR}'''Aquatique des profondeurs.''' Certains aquatiques vivent dans les océans les plus profonds et ne visitent presque jamais la surface au-delà des mers. Ces aquatiques obtiennent la [[Vision dans le noir (capacité)|vision dans le noir]] à 18 mètres ainsi qu'une [[Résistance (capacité)|résistance]] au froid de 5, afin de survivre aux profondeurs dépourvues de lumière. Ce trait racial remplace amphibie et résistance à l'enchantement.
 
 __''Remplace « dépendant de l'eau » :''__
 * '''Riviérain.''' Certains groupes d’aquatiques vivent en colonies le long de grandes rivières et se sont adaptés pour vivre sur la terre plus longtemps. Les aquatiques ayant ce trait sont recouverts d’une fine couche d’huile naturelle qui empêche leur peau de se craqueler, même sans eau. Néanmoins, cette huile naturelle les rend particulièrement sensibles aux flammes, et ils reçoivent [[Vulnérabilités (capacité)|vulnérabilité]] au feu. Ce trait racial remplace dépendant de l’eau.
@@ -46,31 +51,35 @@ Enfin, à chaque fois que le personnage les choisit, nombre d’avantages altern
 Certaines options s’accompagnent d’une limite numéraire fixe, une fois cette limite atteinte, il ne sert plus à rien de choisir l’option qui n’a pas d’effet supplémentaire. Le personnage peut toujours choisir une récompense ordinaire quand il gagne un niveau dans sa classe de prédilection (à savoir 1 point de vie ou 1 rang de compétence supplémentaire).
 
 <table width="100%"><tr><td width="49%">
-'''[[Ensorceleur]].''' Ajoutez un sort connu de la [[Liste des sorts densorceleursmagiciens|liste des sorts d’ensorceleur]]. Ce sort doit être inférieur d’au moins un niveau au plus haut niveau de sort que l’ensorceleur peut lancer.
+{s:MR}'''[[Ensorceleur]].''' Ajoutez un sort connu de la [[Liste des sorts densorceleursmagiciens|liste des sorts d’ensorceleur]]. Ce sort doit être inférieur d’au moins un niveau au plus haut niveau de sort que l’ensorceleur peut lancer.
 
-'''[[Guerrier]].''' Ajoutez +1 au [[DMD]] du guerrier pour résister à deux manoeuvres offensives choisies par le personnage.
+{s:MR}'''[[Guerrier]].''' Ajoutez +1 au [[DMD]] du guerrier pour résister à deux manoeuvres offensives choisies par le personnage.
 </td><td width="1%">
 <td style="border-left:1px solid #4b3124" width="1%"></td>
 </td><td width="49%">
-'''[[Magicien]].''' Ajoutez un sort de la [[Liste des sorts densorceleursmagiciens|liste des sorts de magicien]]. Ce sort doit être inférieur d’au moins un niveau au plus haut niveau de sort qu’il peut lancer.
+{s:MR}'''[[Magicien]].''' Ajoutez un sort de la [[Liste des sorts densorceleursmagiciens|liste des sorts de magicien]]. Ce sort doit être inférieur d’au moins un niveau au plus haut niveau de sort qu’il peut lancer.
 
-'''[[Roublard]].''' Le roublard gagne 1/6 d’un nouveau [[Roublard#TALENTDEROUBLARD|talent de roublard]].
+{s:MR}'''[[Roublard]].''' Le roublard gagne 1/6 d’un nouveau [[Roublard#TALENTDEROUBLARD|talent de roublard]].
 </td></tr></table>
 
 ===Nouvelles règles raciales===
-{s:MR}Voici les options accessibles aux aquatiques, d’autres races adaptées peuvent s’en servir si le MJ donne son accord.
-{s:ligne}{s:col|6}
-====Archétypes de classes====
-Ces archétypes raciaux sont accessibles aux aquatiques :
-* [[Pilleur occulte (roublard)]]
+Voici les options accessibles aux aquatiques, d’autres races adaptées peuvent s’en servir si le MJ donne son accord.
+
+<table width="100%"><tr><td width="49%">
+====Archétypes de classe====
+* [[Pilleur occulte (roublard)]] ''(MR)''
 
 ====Équipement====
-Les aquatiques ont accès à l’équipement suivant :
-* [[couteau de mer (arme)|Couteau de mer]]
+* [[couteau de mer (arme)|Couteau de mer]] ''(MR)''
 
-{s:col-fin}{s:col|6}
+</td><td width="1%">
+<td style="border-left:1px solid #4b3124;width=" width="1%"></td>
+</td><td width="49%">
+====Objets magiques====
+* [[Errani kamaki]] ''(ISR)''
+* [[Masque des identités volées]] ''(ISR)''
+
 ====Sorts====
-Les aquatiques ont accès à ce sort :
-* '''''[[Poumons dAboleth|Poumons d'Aboleth]]''''' ''(MR)'' ([[Druide|Dru 3]], [[Ensorceleur|Ens]]/[[Magicien|Mag 2]], [[Prêtre|Prê 2]], [[Sorcière|Sor 2]]). La cible peut respirer dans l'eau mais plus dans l'air.
+* [[Poumons dAboleth|Poumons d'aboleth]] ''(MR)''
 
-{s:col-fin}{s:ligne-fin}
+</td></tr></table>

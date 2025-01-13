@@ -1,12 +1,13 @@
 ---
 Name: Pathfinder-RPG.changelin (race)
 Title: Les changelins
-LastModified: 2024-09-23 17:33
+LastModified: 2025-01-12 15:43
 ---
 {s:menuracesextraordinaires}<div style="background-color: #fff; float: right; padding: 0 0 8px 8px">{toc}</div>{s:MR}'''''Voir aussi la [[Changelin|fiche de créature]] d'un changelin standard.'''''
 
 Les changelins sont le fruit des amours des guenaudes et de leurs amants, contraints par la magie ou par la folie. Abandonnées sur le seuil de potentiels parents de substitution, les changelins sont élevées par des étrangers. Généralement grandes et minces, les cheveux sombres, les changelins, séduisantes, ressemblent davantage à la race de leur père. Elles sont toujours de sexe féminin et leurs yeux vairons et leur peau anormalement pâle trahissent leur véritable héritage. À la puberté, les changelins perçoivent « l’appel », une voix spirituelle et hypnotique les enjoignant à voyager et à découvrir leurs véritables origines. Les changelins qui ignorent cet appel choisissent leur propre destin ; celles qui y répondent découvrent leur « mère » et peuvent atteindre une grande puissance en se transformant elles-mêmes en guenaudes.
 
+{s:Reference|TRAITSSTANDARDS}
 ===Traits raciaux standards===
 <div class="presentation arrondi ombre espaceliste">
 * '''+2 [[Sagesse]], +2 [[Charisme]], -2 [[Constitution]].''' Les changelins sont frêles, mais intelligentes et avenantes.
@@ -29,11 +30,15 @@ Les changelins sont le fruit des amours des guenaudes et de leurs amants, contra
 
 </div>
 
+{s:Reference|TRAITSALTERNATIFS}
 ===Traits raciaux alternatifs===
 {s:MR}Il est possible de choisir les traits raciaux qui suivent à la place des traits raciaux existants des changelins. Consultez votre MJ avant de prendre ces nouvelles options.
 
+__''Remplace « armure naturelle » :''__
+* {s:cs}{s:ISR}'''Magie guenaude.''' Certaines changelins ont un talent naturel pour la magie. Elles peuvent choisir un sort de niveau 0 ou 1 de la [[liste des sorts de sorcière]] qui n'a pas de [[composantes|composante matérielle]] d'un coût supérieur à 1 po. Elles peuvent utiliser le sort choisit comme un [[Pouvoirs magiques (capacité)|pouvoir magique]] une fois par jour s'il s'agit d'un sort de 1er niveau ou trois fois par jour s'il s'agit d'un sort de niveau 0 ([[NLS|niveau de lanceur de sorts]] égal au niveau de personnage de la changelin). Ce trait racial remplace armure naturelle.
+
 __''Modifie « caractéristiques » :''__
-* '''Sorcière née.''' La changelin est née pour être une sorcière. Elle gagne +2 à l'[[Intelligence]] et au [[Charisme]] et non à la [[Sagesse]] et au [[Charisme]]. Ce trait racial modifie les caractéristiques de la changelin. 
+* {s:cs}{s:ISR}'''Sorcière née.''' La plupart des changelins sont des sorcières de talent. Elles bénéficient d'un bonus de +2 à l'[[Intelligence]] et au [[Charisme]] plutôt qu'un bonus de +2 à la [[Sagesse]] et au Charisme. Ce trait racial modifie les modificateurs habituels des changelins aux caractéristiques.
 
 __''Remplace « trait racial de guenaude » :''__
 * '''Enfant de la brume (guenaude annis).''' Quand la changelin bénéficie d’un [[camouflage]] ou d’un [[camouflage total]], les chances de rater ses attaques contre elle augmentent de 5 %. Ce trait racial remplace trait racial de guenaude.
@@ -51,41 +56,42 @@ Enfin, à chaque fois que le personnage les choisit, nombre d’avantages altern
 Certaines options s’accompagnent d’une limite numéraire fixe, une fois cette limite atteinte, il ne sert plus à rien de choisir l’option qui n’a pas d’effet supplémentaire. Le personnage peut toujours choisir une récompense ordinaire quand il gagne un niveau dans sa classe de prédilection (à savoir 1 point de vie ou 1 rang de compétence supplémentaire).
 
 <table width="100%"><tr><td width="49%">
-'''[[Oracle]].''' Ajoutez +1/2 au niveau de l’oracle quand il s’agit de déterminer les effets de sa capacité [[Oracle#MALEDICTIONDELORACLE|malédiction]].
+{s:MR}'''[[Oracle]].''' Ajoutez +1/2 au niveau de l’oracle quand il s’agit de déterminer les effets de sa capacité [[Oracle#MALEDICTIONDELORACLE|malédiction]].
 
-'''[[Roublard]].''' La roublarde gagne 1/6 d’un nouveau [[Roublard#TALENTDEROUBLARD|talent de roublard]].
+{s:MR}'''[[Roublard]].''' La roublarde gagne 1/6 d’un nouveau [[Roublard#TALENTDEROUBLARD|talent de roublard]].
 </td><td width="1%">
 <td style="border-left:1px solid #4b3124" width="1%"></td>
 </td><td width="49%">
-'''[[Sorcière]].''' Ajoutez un sort de la [[Liste des sorts de sorcière|liste des sorts de sorcière]] au [[Sorcière#FAMILIERDELASORCIERE|familier de la sorcière]]. Ce sort doit être inférieur d’au moins un niveau au sort de plus haut niveau qu’elle puisse lancer. Si jamais la sorcière remplace son familier, le nouveau familier connaît ces sorts supplémentaires.
+{s:MR}'''[[Sorcière]].''' Ajoutez un sort de la [[Liste des sorts de sorcière|liste des sorts de sorcière]] au [[Sorcière#FAMILIERDELASORCIERE|familier de la sorcière]]. Ce sort doit être inférieur d’au moins un niveau au sort de plus haut niveau qu’elle puisse lancer. Si jamais la sorcière remplace son familier, le nouveau familier connaît ces sorts supplémentaires.
 </td></tr></table>
 
 ===Nouvelles règles raciales===
-{s:MR}Voici les options accessibles aux changelins, d’autres races adaptées peuvent s’en servir si le MJ donne son accord.
-====Dons====
-Ces dons sont accessibles aux changelins :
+Voici les options accessibles aux changelins, d’autres races adaptées peuvent s’en servir si le MJ donne son accord.
 
-<center>
-{| CLASS="tablo autoalt toutgauche"
+====Dons====
+{| CLASS="tablo centre autoalt toutgauche"
 
 |- CLASS="titre"
-| WIDTH="25%" | &nbsp;
+| WIDTH="25%" | Dons
 | WIDTH= "6%" | Source
 | WIDTH="25%" | Conditions
 | WIDTH="44%" | Avantages
 
 |- CLASS="premier"
-| [[Don de la mère]] || <sup>MR</sup> || [[Changelin (race)|Changelin]] || Voir description du don
+| [[Don de la mère]] || <sup>MR</sup> || [[Changelin (race)|Changelin]] || Améliore l'héritage que sa mère guenaude a légué au personnage
 |}
-</center>
-{s:ligne}{s:col|6}
-====Archétypes de classes====
-Ces archétypes raciaux sont accessibles aux changelins :
-* [[Tisseuse de rêves (sorcière)]]
 
-{s:col-fin}{s:col|6}
+<table width="100%"><tr><td width="49%">
+====Archétypes de classe====
+* [[Tisseuse de rêves (sorcière)]] ''(MR)''
+
+====Objets magiques====
+* [[Bonnet des rêves sinistres]] ''(ISR)''
+
+</td><td width="1%">
+<td style="border-left:1px solid #4b3124;width=" width="1%"></td>
+</td><td width="49%">
 ====Sorts====
-Les changelins ont accès à ce sort :
-* '''''[[Implantation de pensées]]''''' ''(MR)'' ([[Barde|Apal 1]], [[Hypnotiseur|Hyp 1]], [[Ensorceleur|Ens]]/[[Magicien|Mag 1]], [[Psychiste|Psy 1]], [[Sorcière|Sor 1]]). Implante des idées dans l'esprit de la cible.
+* [[Implantation de pensées]] ''(MR)''
 
-{s:col-fin}{s:ligne-fin}
+</td></tr></table>
