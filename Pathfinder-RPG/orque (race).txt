@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.orque (race)
 Title: Les orques
-LastModified: 2025-01-11 14:41
+LastModified: 2025-01-15 18:02
 Categories:
   - 'Race'
 ---
@@ -69,42 +69,40 @@ Enfin, à chaque fois que le personnage les choisit, nombre d’avantages altern
 Certaines options s’accompagnent d’une limite numéraire fixe, une fois cette limite atteinte, il ne sert plus à rien de choisir l’option qui n’a pas d’effet supplémentaire. Le personnage peut toujours choisir une récompense ordinaire quand il gagne un niveau dans sa classe de prédilection (à savoir 1 point de vie ou 1 rang de compétence supplémentaire).
 
 <table width="100%"><tr><td width="49%">
-'''[[Alchimiste]].''' L’alchimiste rajoute +10 minutes à la durée de ses [[Alchimiste#MUTAGENES|mutagènes]].
+{s:MR}'''[[Alchimiste]].''' L’alchimiste rajoute +10 minutes à la durée de ses [[Alchimiste#MUTAGENES|mutagènes]].
 
-'''[[Barbare]].''' Le barbare rajoute +1 à son nombre total de rounds de [[Barbare#RAGE|rage]] par jour.
+{s:MR}'''[[Barbare]].''' Le barbare rajoute +1 à son nombre total de rounds de [[Barbare#RAGE|rage]] par jour.
 
-'''[[Chevalier]].''' Le chevalier rajoute +1 à son [[BMO]] lorsqu’il effectue une manœuvre offensive de [[bousculade]] ou de [[renversement]] contre une cible [[Chevalier#DEFI|défiée]].
+{s:MR}'''[[Chevalier]].''' Le chevalier rajoute +1 à son [[BMO]] lorsqu’il effectue une manœuvre offensive de [[bousculade]] ou de [[renversement]] contre une cible [[Chevalier#DEFI|défiée]].
 
-'''[[Druide]].''' Le druide rajoute +1/2 aux dégâts des attaques naturelles qu’inflige son [[Druide#PACTEAVECLANATURE|compagnon animal]].
+{s:MR}'''[[Druide]].''' Le druide rajoute +1/2 aux dégâts des attaques naturelles qu’inflige son [[Druide#PACTEAVECLANATURE|compagnon animal]].
 </td><td width="1%">
 <td style="border-left:1px solid #4b3124" width="1%"></td>
 </td><td width="49%">
-'''[[Guerrier]].''' Le guerrier rajoute +2 à sa valeur de [[Constitution]] pour déterminer le moment où il meurt de ses [[pv|points de vie]] négatifs.
+{s:MR}'''[[Guerrier]].''' Le guerrier rajoute +2 à sa valeur de [[Constitution]] pour déterminer le moment où il meurt de ses [[pv|points de vie]] négatifs.
 
-'''[[Rôdeur]].''' Le rôdeur rajoute +1 [[pv|point de vie]] à son [[Rôdeur#PACTEDUCHASSEUR|compagnon animal]]. Si jamais il remplace son compagnon animal, le nouveau bénéficie de ces points de vie supplémentaires.
+{s:MR}'''[[Rôdeur]].''' Le rôdeur rajoute +1 [[pv|point de vie]] à son [[Rôdeur#PACTEDUCHASSEUR|compagnon animal]]. Si jamais il remplace son compagnon animal, le nouveau bénéficie de ces points de vie supplémentaires.
 
-'''[[Sorcière]].''' La sorcière rajoute un sort de sa liste à son [[Sorcière#FAMILIERDELASORCIERE|familier]]. Ce sort doit être inférieur d’au moins un niveau au plus haut niveau de sort qu’elle peut lancer. Si jamais la sorcière remplace son familier, le nouveau bénéficie de ces sorts supplémentaires.
+{s:MR}'''[[Sorcière]].''' La sorcière rajoute un sort de sa liste à son [[Sorcière#FAMILIERDELASORCIERE|familier]]. Ce sort doit être inférieur d’au moins un niveau au plus haut niveau de sort qu’elle peut lancer. Si jamais la sorcière remplace son familier, le nouveau bénéficie de ces sorts supplémentaires.
 </td></tr></table>
 
 ===Nouvelles règles raciales===
-{s:MR}Voici les options accessibles aux orques, d’autres races adaptées peuvent s’en servir si le MJ donne son accord.
-====Dons====
-Ces dons sont accessibles aux orques :
+Voici les options accessibles aux orques, d’autres races adaptées peuvent s’en servir si le MJ donne son accord.
 
-<center>
-{| CLASS="tablo autoalt toutgauche"
+====Dons====
+{| CLASS="tablo centre autoalt toutgauche"
 
 |- CLASS="titre"
-| WIDTH="25%" | &nbsp;
+| WIDTH="25%" | Dons
 | WIDTH= "6%" | Source
 | WIDTH="25%" | Conditions
 | WIDTH="44%" | Avantages
 
 |- CLASS="premier"
-| [[Action féroce]] || <sup>MR</sup> || [[orque (race)|Orque]],  trait racial férocité || voir description
+| [[Action féroce]] || <sup>MR</sup> || [[orque (race)|Orque]],  trait racial férocité || Empêche d'être chancelant avec des points de vie négatifs aux prix de les perdre plus vite
 
 |- CLASS="premier"
-| [[Agitation du sang]] || <sup>MR</sup> || [[orque (race)|Orque]], aptitude de classe Canalisation d’énergie || voir description
+| [[Agitation du sang]] || <sup>MR</sup> || [[orque (race)|Orque]], aptitude de classe Canalisation d’énergie || Confère un bonus aux jets de dégâts et de confirmation critique des orques au lieu de les affecter normalement avec une canalisation d'énergie
 
 |- CLASS="premier"
 | [[Bénédiction du Destructeur]]* || <sup>MR</sup> || [[orque (race)|Orque]] ou [[demi-orque]], aptitude de classe de [[barbare#RAGEDEBERSERKER|rage de berserker]], fidèle du Destructeur || Récupère des rounds de rage et des points de vie en réussissant des manœuvres de destruction
@@ -121,19 +119,25 @@ Ces dons sont accessibles aux orques :
 | &emsp;[[Charge du chevaucheur de cornes]]* || <sup>CM</sup> || [[Chevaucheur de cornes]], [[BBA]] +1 || Utilise l'élan de la monture pendant les attaques
 
 |- CLASS="premier"
-| [[Coup de brute]] || <sup>MR</sup> || [[orque (race)|Orque]], 1 rang en [[Intimidation]] || voir description
+| [[Coup de brute]] || <sup>MR</sup> || [[orque (race)|Orque]], 1 rang en [[Intimidation]] || Intimide les créaures en attaquant
+|-
+| &emsp;[[École de la furie orque]]* || <sup>''WMH''</sup> || [[Coup de brute]], [[Force intimidante]], 3 rangs en [[Intimidation]], trait racial [[Orque (race)#Traits_raciaux_standards_7|apprentissage martial]] || Utilise Coup de brute sur la première attaque à chaque round
+|-
+| &emsp;&emsp;[[Dévastation orque]]* || <sup>''WMH''</sup> || [[Coup de brute]], [[Force intimidante]], [[École de la furie orque]], 5 rangs en [[Intimidation]], trait racial [[Orque (race)#Traits_raciaux_standards_7|apprentissage martial]] || Bonus à l'attaque et aux dégâts contre les adversaires secoués
+|-
+| &emsp;&emsp;&emsp;[[Grognement orque]]* || <sup>''WMH''</sup> || [[Coup de brute]], [[Force intimidante]], [[École de la furie orque]], [[Dévastation orque]], 7 rangs en [[Intimidation]], trait racial [[Orque (race)#Traits_raciaux_standards_7|apprentissage martial]] || +4 aux jets de sauvegarde contre les effets créés par des adversaires secoués
 
 |- CLASS="premier"
-| [[Démolisseur de pièges]] || <sup>MR</sup> || [[orque (race)|Orque]],  [[attaque en puissance]], 1 rang en [[Sabotage]] || voir description
+| [[Démolisseur de pièges]] || <sup>MR</sup> || [[orque (race)|Orque]],  [[attaque en puissance]], 1 rang en [[Sabotage]] || Détruit les pièges au lieu de les désarmer
 
 |- CLASS="premier"
-| [[Enragé inflexible]] || <sup>MR</sup> || [[orque (race)|Orque]], aptitude de classe rage || voir description
+| [[Enragé inflexible]] || <sup>MR</sup> || [[orque (race)|Orque]], aptitude de classe rage || Résiste à la peur pendant une rage
 
 |- CLASS="premier"
-| [[Expertise martiale orque]] || <sup>MR</sup> || [[orque (race)|Orque]], BBA +1 || voir description
+| [[Expertise martiale orque]] || <sup>MR</sup> || [[orque (race)|Orque]], BBA +1 || Gain de capacités uniques avec les armes orques
 
 |- CLASS="premier"
-| [[Feinte inversée]] || <sup>MR</sup> || [[orque (race)|Orque]], BBA +1 || voir description
+| [[Feinte inversée]] || <sup>MR</sup> || [[orque (race)|Orque]], BBA +1 || Laisse un adversaire toucher le personnage pour qu'il lui rende le coup
 
 |- CLASS="premier"
 | [[Fiélon sanguinaire]] || <sup>MR</sup> || [[orque (race)|Orque]] ou [[demi-orque]], aptitude de classe de [[barbare#RAGE|rage de berserker]] || Récupère des rounds de rage en confirmant ou en subissant un coup critique
@@ -142,10 +146,13 @@ Ces dons sont accessibles aux orques :
 | [[Frisson de la mort]] || <sup>MR</sup> || [[orque (race)|Orque]] ou [[demi-orque]], aptitude de classe de [[barbare#RAGE|rage de berserker]] || Récupère des rounds de rage en tuant ou en réduisant un adversaire à moins de 0 points de vie
 
 |- CLASS="premier"
-| [[Guerrier rancunier]] || <sup>MR</sup> || [[orque (race)|Orque]] || voir description
+| [[Guerrier rancunier]] || <sup>MR</sup> || [[orque (race)|Orque]] || +1 à l'attaque et aux dégâts contre les créatures qui ont attaquées le personnage
 
 |- CLASS="premier"
 | [[Haine réciproque]]* || <sup>CM</sup> || — || Bonus à l'attaque et aux dégâts contre les créatures qui haïssent le personnage
+
+|- CLASS="premier"
+| [[Horde féroce]] || <sup>''ISR''</sup> || [[Orque (race)|Orque]], trait racial férocité || Bonus de moral de +2 aux jets d'attaque lorsque le personnage et un allié avec ce don sont à la moitié de leurs pvs ou moins
 
 |- CLASS="premier"
 | [[Légion balafrée]]<sup>E</sup> || <sup>CM</sup> || — || +2 aux tests d'Intimidation et aux jets de Volonté près d'un allié avec ce don; bonus conservés pendant 1 round après une charge
@@ -154,7 +161,7 @@ Ces dons sont accessibles aux orques :
 | [[Lutteur brutal]]*<sup>E</sup> || <sup>MR</sup> || [[orque (race)|Orque]] ou [[demi-orque]] || Aide un allier à agripper une créature
 
 |- CLASS="premier"
-| [[Naissance solitaire]] || <sup>MR</sup> || [[orque (race)|Orque]] || voir description
+| [[Naissance solitaire]] || <sup>MR</sup> || [[orque (race)|Orque]] || Gagne des points de vie temporaires en tuant ou en rendant inconsciente une créature
 
 |- CLASS="premier"
 | [[Rage amplifiée]]<sup>E</sup> || <sup>MR</sup> || [[orque (race)|Orque]] ou [[demi-orque]], aptitude de classe de [[barbare#RAGE|rage de berserker]] || La rage du personnage est plus puissante lorsqu’un allié proche est en rage
@@ -171,45 +178,47 @@ Ces dons sont accessibles aux orques :
 |- CLASS="premier"
 | [[Vengeance sanguinaire]] || <sup>MR</sup> || [[orque (race)|Orque]] ou [[demi-orque]], non-Loyal || Le personnage peut entrer dans une rage mineure lorsqu’un allié est tué ou gravement blessé
 |}
-</center>
-{s:ligne}{s:col|6}
-====Archétypes de classes====
-Ces archétypes raciaux sont accessibles aux :
-* [[Combattant déloyal (guerrier)]]
-* [[Guérisseuse balafrée (sorcière)]]
+
+<table width="100%"><tr><td width="49%">
+====Archétypes de classe====
+* [[Combattant déloyal (guerrier)]] ''(MR)''
+* [[Guérisseuse balafrée (sorcière)]] ''(MR)''
 
 ====Équipement====
-Les orques ont accès à l’équipement suivant :
-* [[Besace desprit guerrier (objet)|Besace d’esprit guerrier]]
-* [[Étendard tribal (objet)|Étendard tribal]]
-* [[Harnais à corne (objet)|Harnais à corne]]
-* [[Masque de guerre (objet)|Masque de guerre]]
-* [[Selle de gorthek (objet)|Selle de gorthek]]
+* [[Besace desprit guerrier (objet)|Besace d’esprit guerrier]] ''(MR)''
+* [[Étendard tribal (objet)|Étendard tribal]] ''(MR)''
+* [[Harnais à corne (objet)|Harnais à corne]] ''(CM)''
+* [[Masque de guerre (objet)|Masque de guerre]] ''(MR)''
+* [[Selle de gorthek (objet)|Selle de gorthek]] ''(CM)''
 
+</td><td width="1%">
+<td style="border-left:1px solid #4b3124;width=" width="1%"></td>
+</td><td width="49%">
 ====Objets magiques====
-Les orques ont accès aux propriétés spéciales d’arme et aux objets magiques suivants :
-* [[Bannière de la horde déferlante]]
-* [[Bottes de collision]]
-* [[Chaudron dembuscade|Chaudron d'embuscade]]
-* [[entêtée (propriété)|Entêtée (propriété d'arme)]]
-* [[Gantelets briseurs dos|Gantelets briseurs d’os]]
-* [[Masques gortheks]]
-* [[Ossépines]]
-* [[Tambour de guerre de la sauvagerie]]
+* [[Armure du triomphe lugubre]] ''(ISR)''
+* [[Bannière de la horde déferlante]] ''(CM)''
+* [[Bottes de collision]] ''(CM)''
+* [[Chaudron dembuscade|Chaudron d'embuscade]] ''(CM)''
+* [[entêtée (propriété)|Entêtée (propriété d'arme)]] ''(A&E, MR)''
+* [[Étendard de guerre du Belkzen]] ''(ISR)''
+* [[Gantelets briseurs dos|Gantelets briseurs d’os]] ''(MR)''
+* [[Masques gortheks]] ''(CM)''
+* [[Ossépines]] ''(CM)''
+* [[Tambour de guerre de la sauvagerie]] ''(CM)''
 
-{s:col-fin}{s:col|6}
 ====Sorts====
-Les orques ont accès aux sorts suivants :
-* '''''[[Cœur de lennemi|Cœur de l'ennemi]]''''' ''(MR)'' ([[Antipaladin|Apal 2]], [[Prêtre|Prê 2]], [[Sorcière|Sor 2]]). Dévore le cœur d'un adversaire sans défense pour gagner en puissance.
-* '''''[[Crâne de sentinelle]]''''' ''(MR)'' ([[Antipaladin|Apal 1]], [[Ensorceleur|Ens]]/[[Magicien|Mag 2]], [[Prêtre|Prê 2]], [[Sorcière|Sor 2]]). Créé une sentinelle macabre à partir de la tête coupée d'un humanoïde ou d'un humanoïde monstrueux.
-* '''''[[Flambée de sang]]''''' ''(MR)'' ([[Alchimiste|Alch 2]], [[Antipaladin|Apal 1]], [[Ensorceleur|Ens]]/[[Magicien|Mag 2]], [[Magus|Magus 2]], [[Prêtre|Prê 2]], [[Psychiste|Psy 2]], [[Sanguin|San 2]], [[Sorcière|Sor 2]]). Enflamme le sang de ceux qui s'approchent du personnage.
-* '''''[[Immolation spontanée]]''''' ''(AG)'' ([[Ensorceleur|Ens]]/[[Magicien|Mag 2]], [[Psychiste|Psy 2]]). La cible subit 3d6 points de dégâts de feu et s’enflamme.
-* '''''[[Loup fantomatique]]''''' ''(MR)'' ([[Conjurateur|Con 2]], [[Ensorceleur|Ens]]/[[Magicien|Mag 4]], [[Psychiste|Psy 4]], [[Sanguin|San 4]]). Appel une monture loup sanguinaire faite de fumée noire dont émane une aura de peur.
-* '''''[[Perception du sang]]''''' ''(MR)'' ([[Alchimiste|Alch 3]], [[Antipaladin|Apal 2]], [[Druide|Dru 3]], [[Inquisiteur|Inq 3]], [[Ensorceleur|Ens]]/[[Magicien|Mag 3]], [[Prêtre|Prê 3]], [[Psychiste|Psy 3]], [[Rôdeur|Rôd 2]], [[Sanguin|San 3]], [[Sorcière|Sor 3]]). Améliore la capacité de la cible à sentir la présence de sang.
-* '''''[[Protection de la bannière]]''''' ''(MR)'' ([[Prêtre|Prê 1]]). Protège la bannière de la tribu du personnage comme avec sanctuaire.
-* '''''[[Rage sanguinaire]]''''' ''(MR)'' ([[Barde|Apal 2]], [[Ensorceleur|Ens]]/[[Magicien|Mag 3]], [[Prêtre|Prê 3]]). Les cibles entrent dans une rage qui s’intensifie avec les dégâts qu’ils subissent, augmentant leur Force et baissant leur CA.
-* '''''[[Vigueur]]''''' ''(MR)'' ([[Prêtre|Prê 0]]). +1 sur le prochain jet de dégâts au corps à corps.
-{s:col-fin}{s:ligne-fin}
+* [[Cœur de lennemi|Cœur de l'ennemi]] ''(MR)''
+* [[Corbeau meurtrier]] ''(ISR)''
+* [[Crâne de sentinelle]] ''(MR)''
+* [[Flambée de sang]] ''(MR)''
+* [[Immolation spontanée]] ''(AG, MR)''
+* [[Loup fantomatique]] ''(MR)''
+* [[Perception du sang]] ''(MR)''
+* [[Protection de la bannière]] ''(MR)''
+* [[Rage sanguinaire]] ''(MR)''
+* [[Vigueur]] ''(MR)''
+
+</td></tr></table>
 
 {s:CM}
 ====Écologie====
