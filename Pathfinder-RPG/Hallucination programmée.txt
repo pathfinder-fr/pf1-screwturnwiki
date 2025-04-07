@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Hallucination programmée
 Title: Hallucination programmée
-LastModified: 2023-01-25 14:45
+LastModified: 2025-04-05 20:15
 Categories:
   - 'Sort barde 6'
   - 'Sort hypnotiseur 6'
@@ -12,10 +12,44 @@ Categories:
   - 'Src Ultimate Intrigue'
 ---
 {s:cs}{s:UI}'''École'''  [[Illusion]] ([[branche fantasme|fantasme]]) <nowiki>[</nowiki>[[registre|effet mental]]<nowiki>]</nowiki> ; '''Niveau''' [[Barde|Bard]] 6, [[Ensorceleur|Ens]]/[[Magicien|Mag]] 6, [[Hypnotiseur|Hyp]] 6, [[Magus]] 6, [[Occultiste|Occ]] 6, [[Psychiste|Psy]] 6  
+'''Temps d'incantation''' 1 [[action simple]]  
 '''Composantes''' [[composantes|V, G, M]] (poudre de jade d'une valeur de 25 po)  
+'''Portée''' longue (120 m + 12 m/[[niveau]]) (80 {s:c} + 8 {s:c}/[[niveau]])  
 '''Cibles''' une créature  
 '''Durée''' permanente jusqu'à déclenchement, puis 1 minute/niveau
-
+'''Jet de sauvegarde''' [[Volonté]], [[Présentation des sorts#JETSDESAUVEGARDE|dévoile]] ; '''Résistance à la magie''' oui
+<hr>
 Ce sort fonctionne comme ''[[hallucination audiovisuelle]]'', excepté que le fantasme de ce sort n'a pas d'effet apparent jusqu'à ce qu'une condition spécifique se produise. Le personnage doit vaincre la [[RM|résistance à la magie]] de la cible pour implanter une ''hallucination programmée'', mais la cible n'a droit à un jet de [[Volonté]] pour dévoiler l'illusion qu'une fois la condition déclenchée (auquel cas elle a droit à un jet de Volonté automatique, comme avec ''hallucination audiovisuelle''). Le fantasme peut inclure des éléments auditifs, olfactifs, visuels, tactiles et thermaux, y compris des paroles intelligibles.
 
 Le personnage défini la condition de déclenchement (comme entendre un certain mot ou voir un type de créature) au moment de lancer le sort. L'évènement qui active l'illusion peut être aussi détaillé ou aussi vague que souhaité, mais doit être basé sur un déclencheur auditif, tactile, olfactif ou visuel. Le déclencheur ne peut pas être basé sur un élément qui n'est pas évident pour des sens normaux, comme un alignement. ''Hallucination programmée'' utilise les sens de la cible pour détecter les déclencheurs.
+
+
+
+(((
+==Hallucination audiovisuelle==
+{s:cs}{s:UI}'''École'''  [[Illusion]] ([[branche fantasme|fantasme]]) <nowiki>[</nowiki>[[registre|effet mental]]<nowiki>]</nowiki> ; '''Niveau''' [[Barde|Bard]] 3, [[Ensorceleur|Ens]]/[[Magicien|Mag]] 3, [[Hypnotiseur|Hyp]] 3, [[Magus]] 3, [[Médium|Méd]] 2, [[Occultiste|Occ]] 3, [[Psychiste|Psy]] 3  
+'''Temps d'incantation''' 1 [[action simple]]  
+'''Composantes''' [[composantes|G]]  
+'''Portée''' longue (120 m + 12 m/[[niveau]]) (80 {s:c} + 8 {s:c}/[[niveau]])  
+'''Cibles''' une créature/niveau, chacune se trouvant à 9 m ou moins l'une de l'autre  
+'''Durée''' [[Présentation des sorts#DUREE|concentration]] + 3 rounds ([[Présentation des sorts#DUREE|T]])  
+'''Jet de sauvegarde''' [[Volonté]], [[Présentation des sorts#JETSDESAUVEGARDE|dévoile]] ; '''Résistance à la magie''' oui
+<hr>
+Ce sort fonctionne comme ''[[hallucination auditive]]'', excepté que le personnage peut inclure l'image de n'importe quel objet, créature ou force qu'il imagine ou identifie pour que les cibles l'imaginent aussi. Le personnage peut déplacer l'image tant qu'il se concentre. Après avoir cessé de se concentrer, il peut définir des mouvements ou changements simples que le fantasme exécutera et qui peuvent être expliqués en 25 mots ou moins.
+
+L'image disparaît dès qu'elle est frappée sauf si le personnage fait en sorte que l'illusion réagisse à l'attaque ou lui ordonne de le faire. Elle a une [[CA]] de 10 + le niveau de ce sort.
+
+
+
+(((
+==Hallucination auditive==
+{s:cs}{s:UI}'''École'''  [[Illusion]] ([[branche fantasme|fantasme]]) <nowiki>[</nowiki>[[registre|effet mental]]<nowiki>]</nowiki> ; '''Niveau''' [[Barde|Bard]] 1, [[Ensorceleur|Ens]]/[[Magicien|Mag]] 1, [[Hypnotiseur|Hyp]] 1, [[Magus]] 1, [[Médium|Méd]] 1, [[Occultiste|Occ]] 1, [[Psychiste|Psy]] 1  
+'''Temps d'incantation''' 1 [[action simple]]  
+'''Composantes''' [[composantes|G]]  
+'''Portée''' longue (120 m + 12 m/[[niveau]]) (80 {s:c} + 8 {s:c}/[[niveau]])  
+'''Cibles''' une créature/niveau, chacune se trouvant à 9 m ou moins l'une de l'autre  
+'''Durée''' [[Présentation des sorts#DUREE|concentration]]  
+'''Jet de sauvegarde''' [[Volonté]], [[Présentation des sorts#JETSDESAUVEGARDE|dévoile]] ; '''Résistance à la magie''' oui
+<hr>
+Le personnage pousse les cibles à croire qu'elles entendent un son qu'il imagine. Le son peut inclure des paroles intelligibles. Plutôt que d'imaginer précisément un son, le personnage peut identifier un son que les cibles connaissent et l'imaginent alors en train de faire ce que le personnage décrit en lançant le sort. Par exemple, il pourrait lancer ce sort sur des combattants orques et leur faire imaginer le son de leur chef appelant à l'aide, même s'il n'a jamais entendu leur chef et même s'il parle une langue que le personnage ne comprend pas. Toutes les cibles entendent la même hallucination. Le personnage peut modifier le son lorsqu'il se concentre sur le sort.
+))))))
