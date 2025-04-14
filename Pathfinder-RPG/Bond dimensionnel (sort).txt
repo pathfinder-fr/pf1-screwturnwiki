@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Bond dimensionnel (sort)
 Title: Bond dimensionnel
-LastModified: 2024-06-08 16:11
+LastModified: 2025-04-09 23:01
 Categories:
   - 'Règle officielle'
   - 'Sort'
@@ -10,12 +10,38 @@ Categories:
   - 'Sort sorcière 7'
   - 'Src Manuel des joueurs - Classes avancées'
 ---
-{s:Desambi|Il existe un mot effet intitulé ''[[Bond dimensionnel]]'' issu d'Art de la Magie}{s:mca}'''École''' [[invocation]] ([[branche téléportation|téléportation]]) ; '''Niveau''' [[Conjurateur|Con]] 6, [[Conjurateur unchained|ConU]] 6, [[Ensorceleur|Ens]]/[[Magicien|Mag]] 7, [[Psychiste|Psy]] 7, [[Sorcière|Sor]] 7<br/>
-'''Temps d’incantation''' 1 [[action simple]]<br/>
-'''Composantes''' [[composantes|V, G]]<br/>
-'''Portée''' courte (7,5 m + 1,5 m/2 [[niveau|niveaux]]) (5 {s:c} + 1 {s:c}/2 [[niveau|niveaux]])<br/>
-'''Cible''' le lanceur de sorts et les objets touchés ou les autres créatures volontaires touchées <br/>
-'''Durée''' 1 round/niveau ou jusqu’à déchargement<br/>
+{s:Desambi|Il existe un mot effet intitulé ''[[Bond dimensionnel]]'' issu d'Art de la Magie}{s:mca}'''École''' [[invocation]] ([[branche téléportation|téléportation]]) ; '''Niveau''' [[Conjurateur|Con]] 6, [[Conjurateur unchained|ConU]] 6, [[Ensorceleur|Ens]]/[[Magicien|Mag]] 7, [[Psychiste|Psy]] 7, [[Sorcière|Sor]] 7  
+'''Temps d’incantation''' 1 [[action simple]]  
+'''Composantes''' [[composantes|V, G]]  
+'''Portée''' courte (7,5 m + 1,5 m/2 [[niveau|niveaux]]) (5 {s:c} + 1 {s:c}/2 [[niveau|niveaux]])  
+'''Cible''' le lanceur de sorts et les objets touchés ou les autres créatures volontaires touchées  
+'''Durée''' 1 round/niveau ou jusqu’à déchargement  
 '''Jet de sauvegarde''' aucun et [[Volonté]], [[Présentation des sorts#JETSDESAUVEGARDE|annule]] (objet) ; '''Résistance à la magie''' non et oui (objet)
+<hr>
+Le personnage désigne deux endroits à portée et crée un lien dimensionnel entre eux : il doit disposer d’une ligne d’effet vers les deux endroits quand il lance ce sort. Par une [[action rapide]], il peut se téléporter de sa position actuelle à l’un des endroits désignés comme s’il avait lancé ''[[porte dimensionnelle]]''. Le sort est déchargé quand le personnage l’a utilisé pour se téléporter un nombre de fois égal à un quart de son niveau de lanceur (5 fois au maximum).
 
-Le personnage désigne deux endroits à portée et crée un lien dimensionnel entre eux : il doit disposer d’une ligne d’effet vers les deux endroits quand il lance ce sort. Par une [[action rapide]], il peut se téléporter de sa position actuelle à l’un des endroits désignés comme s’il avait lancé porte dimensionnelle. Le sort est déchargé quand le personnage l’a utilisé pour se téléporter un nombre de fois égal à un quart de son niveau de lanceur (5 fois au maximum).
+
+
+(((
+==Porte dimensionnelle==
+'''École''' [[Invocation]] ([[téléportation]]) ; '''Niveau''' [[Barde|Bard]] 4, [[Conjurateur|Con]] 3, [[Conjurateur unchained|ConU]] 4, [[Hypnotiseur|Hyp]] 4, [[Ensorceleur|Ens]]/[[Magicien|Mag]] 4, [[Magus]] 4, [[Médium|Méd]] 3, [[Occultiste|Occ]] 4, [[Psychiste|Psy]] 4, [[Sorcière|Sor]] 4, [[Spirite|Spi]] 4  
+'''Temps d'incantation''' 1 [[action simple]]  
+'''Composantes''' [[composantes|V]]  
+'''Portée''' longue (120 m + 12 m/[[niveau]]) (80 {s:c} + 8 {s:c}/[[niveau]])  
+'''Cibles''' le jeteur de sorts et les créatures consentantes ou les objets touchés  
+'''Durée''' [[instantanée]]  
+'''Jet de sauvegarde''' aucun ou [[Volonté]], [[Présentation des sorts#JETSDESAUVEGARDE|annule]] (objet) ; '''Résistance à la magie''' oui ou non (objet)
+<hr>
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Magie et sorts)#24|→]] ''Porte dimensionnelle'' : Si le lanceur amène d’autres créatures avec lui quand il incante ce sort, les passagers sont-ils incapables d’entreprendre une autre action jusqu’à leur prochain tour, ou est-ce uniquement le cas pour le lanceur ?'''''
+
+Cette restriction ne s’applique qu’au lanceur. ''(Retour au __[[Porte dimensionnelle|sort]]__)''}Cette incantation permet de se déplacer instantanément jusqu’à un point situé à portée. Le personnage arrive toujours à l’endroit choisi, soit en le visualisant, soit en indiquant ses coordonnées. Après avoir utilisé ce sort, le personnage ne peut rien faire avant son prochain tour de jeu. Il peut emporter des objets si leur poids total ne dépasse pas sa [[charge maximale]]. Il peut aussi emmener une créature consentante de [[taille M]] ou inférieure (qui porte un équipement ou des objets qui ne dépassent pas sa [[charge maximale]]) ou son équivalent par tranche de trois [[NLS|niveaux de lanceur de sorts]]. Une créature de [[taille G]] compte comme deux créatures de [[taille M]], une créature de [[taille TG]] comme deux de [[taille G]], etc. Toutes les créatures transportées doivent être en contact les unes avec les autres et l'une d’elles au moins doit toucher le personnage.
+
+Si le personnage et les créatures se matérialisent en un point déjà occupé par un solide, ils subissent 1d6 points de dégâts et sont expulsés vers une surface inoccupée située dans un rayon de trente mètres.
+
+S’il n’y a pas le moindre endroit propice à la matérialisation dans un rayon de trente mètres, le personnage et les créatures qui l’accompagnant subissent 2d6 points de dégâts supplémentaires et sont expulsés vers un espace inoccupé situé dans un rayon de trois cents mètres. Si un tel endroit n’existe pas, ils subissent 4d6 points de dégâts de plus et le sort échoue.
+
+===Version mythique===
+{s:CMy}La durée de ce sort change et s’élève à 1 round par tranche de 2 [[NLS|niveaux de lanceur de sorts]]. Il crée une porte à sens unique, invisible et temporaire dans l’emplacement occupé par le personnage qui le mène vers la destination choisie. Le personnage peut immédiatement passer au travers de la porte et arriver à destination, mais il ne peut emmener d’autres créatures avec lui.
+
+Lorsqu’il lance ce sort, le personnage peut désigner un nombre de créatures égal à son [[NLS|niveau de lanceur de sorts]]. Ces créatures peuvent voir et emprunter la porte pour arriver à destination (ce n’est pas une action). Une créature qui emprunte la porte ne peut entreprendre aucune autre action jusqu’à son prochain tour.
+)))

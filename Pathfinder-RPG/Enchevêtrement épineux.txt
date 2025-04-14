@@ -1,17 +1,39 @@
 ---
 Name: Pathfinder-RPG.Enchevêtrement épineux
 Title: Enchevêtrement épineux
-LastModified: 2022-01-14 17:54
+LastModified: 2025-04-10 16:34
 Categories:
   - 'Sort chaman 3'
   - 'Sort druide 3'
   - 'Sort rôdeur 3'
   - 'Sort sorcière 3'
 ---
-{s:MCA}'''École''' [[Transmutation]] ; '''Niveau''' [[Chaman|Cham]] 3, [[druide|Dru]] 3, [[rôdeur|Rôd]] 3, [[sorcière|Sor]] 3 <br/>
-'''Temps d'incantation''' 1 [[action simple]]<br/>
-'''Composantes''' [[composantes|V, G, FD]]<br/>
-'''Jet de sauvegarde''' [[Réflexes]] pour dégâts partiels (cf. texte); '''Résistance à la magie''' non
+{s:MCA}'''École''' [[Transmutation]] ; '''Niveau''' [[Chaman|Cham]] 3, [[druide|Dru]] 3, [[rôdeur|Rôd]] 3, [[sorcière|Sor]] 3   
+'''Temps d'incantation''' 1 [[action simple]]  
+'''Composantes''' [[composantes|V, G, FD]]  
+'''Portée''' longue (120 m + 12 m/[[niveau]]) (80 {s:c} + 8 {s:c}/[[niveau]])  
+'''Zone d'effet''' toute la végétation sur une étendue de 12 m (8 {s:c}) de rayon  
+'''Durée''' 1 minute/[[niveau]] ([[Présentation des sorts#DUREE|T]])  
+'''Jet de sauvegarde''' [[Réflexes]], [[Présentation des sorts#JETSDESAUVEGARDE|partiel]] (voir description) ; '''Résistance à la magie''' non
+<hr>
+Ce sort fonctionne comme ''[[enchevêtrement]]'', à la seule différence que les plantes sont également pourvues d’épines qu’elles peuvent projeter jusqu’à 4,5 mètres. Toute créature située à moins de 4,5 mètres de la zone d’effet du sort se fait attaquer, à son tour, par les plantes animées. Ces plantes utilisent le niveau de lanceur du personnage comme bonus de base à l’attaque et ajoutent le modificateur de sa valeur de caractéristique de lancement de sorts ([[Intelligence]] pour les sorcières ; [[Sagesse]] pour les chamans, les druides et les rôdeurs) au jet d’attaque. Une volée d’épines compte comme une arme de jet infligeant 2d6 points de dégâts perforants sur une attaque réussie. Une créature qui entre ou termine son tour dans la zone du sort reçoit  automatiquement 2d6 points de dégâts perforants.
 
-Ce sort fonctionne comme ''[[enchevêtrement]]'', à la seule différence que les plantes sont également pourvues d’épines qu’elles peuvent projeter jusqu’à 4,5 mètres. Toute créature située à moins de 4,5 mètres de la zone d’effet du sort se fait attaquer, à son tour, par les plantes animées. <br/>
-Ces plantes utilisent le niveau de lanceur du personnage comme bonus de base à l’attaque et ajoutent le modificateur de sa valeur de caractéristique de lancement de sorts ([[Intelligence]] pour les sorcières ; [[Sagesse]] pour les chamans, les druides et les rôdeurs) au jet d’attaque. Une volée d’épines compte comme une arme de jet infligeant 2d6 points de dégâts perforants sur une attaque réussie. Une créature qui entre ou termine son tour dans la zone du sort reçoit  automatiquement 2d6 points de dégâts perforants.
+
+
+(((
+==Enchevêtrement==
+'''École''' [[Transmutation]] ; '''Niveau''' [[Chaman|Cham]] 1, [[Druide|Dru]] 1, [[Rôdeur|Rôd]] 1  
+'''Temps d'incantation''' 1 [[action simple]]  
+'''Composantes''' [[composantes|V, G, FD]]  
+'''Portée''' longue (120 m + 12 m/[[niveau]]) (80 {s:c} + 8 {s:c}/[[niveau]])  
+'''Zone d'effet''' toute la végétation sur une étendue de 12 m (8 {s:c}) de rayon  
+'''Durée''' 1 minute/[[niveau]] ([[Présentation des sorts#DUREE|T]])  
+'''Jet de sauvegarde''' [[Réflexes]], [[Présentation des sorts#JETSDESAUVEGARDE|partiel]] (voir description) ; '''Résistance à la magie''' non
+<hr>
+Les herbes, les plantes, les buissons et les arbres se déforment et s’entortillent autour des créatures qui se trouvent dans la [[zone deffet|zone d’effet]] ou qui y pénètrent. Les créatures qui ratent leur [[jet de sauvegarde]] sont [[enchevêtré|enchevêtrées]]. Celles qui réussissent se déplacent normalement mais doivent faire un nouveau jet à la fin de leur tour. Les créatures qui pénètrent dans la zone doivent faire ce jet immédiatement. En cas d’échec, la créature ne peut plus se déplacer et reste [[enchevêtré|enchevêtrée]]. Elle peut se libérer si elle réussit un test de [[Force]] ou d’[[Évasion]], par une [[action de mouvement]]. Le [[DD]] du test est égal au [[DD]] du sort. Tant que le sort fait effet, la zone qu’il affecte est considérée comme un [[terrain difficile]].
+
+Si les plantes locales sont couvertes d’épines, les créatures présentes dans la [[zone deffet|zone d’effet]] du sort reçoivent 1 point de dégâts à chaque fois qu’elles ratent leur [[jet de sauvegarde]] contre le sort ou ratent un test pour se libérer. On peut appliquer d’autres effets liés à la flore locale, à la discrétion du [[MJ]].
+
+===Version mythique===
+{s:CMy}Le sort fonctionne dans les zones dénuées de végétation et provoque la poussée soudaine de plantes. Celles-ci peuvent atteindre des créatures situées à 3 mètres au-dessus du sol. Les plantes affectées ou créées par ce sort sont garnies d’épines infligeant 1d6 points de dégâts chaque round aux créatures situées dans la zone d’effet.
+)))
