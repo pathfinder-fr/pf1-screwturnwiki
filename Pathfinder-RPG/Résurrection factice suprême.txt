@@ -1,15 +1,74 @@
 ---
 Name: Pathfinder-RPG.Résurrection factice suprême
 Title: Résurrection factice suprême
-LastModified: 2023-01-25 15:25
+LastModified: 2025-06-22 19:46
 Categories:
   - 'Sort prêtre 9'
   - 'Src Ultimate Intrigue'
 ---
-{s:cs}{s:UI}'''École'''  [[Invocation]] ([[branche appel|appel]]) <nowiki>[</nowiki>[[registre|Mal, Loi, ruse]]<nowiki>]</nowiki> ; '''Niveau''' [[Prêtre|Prê]] 9  
-'''Composantes''' [[composantes|V, G, M]] (diamant d'une valeur de 25 000 po), FD  
-'''Durée''' permanente
-
+{s:UI}'''École'''  [[Invocation]] ([[branche appel|appel]]) <nowiki>[</nowiki>[[registre|Mal, Loi, ruse]]<nowiki>]</nowiki> ; '''Niveau''' [[Prêtre|Prê]] 9  
+'''Temps d'incantation''' 1 minute  
+'''Composantes''' [[composantes|V, G, M]] (diamant d'une valeur de 25 000 po), [[composantes|FD]]  
+'''Portée''' [[contact]]  
+'''Cibles''' créature morte touchée  
+'''Durée''' permanente  
+'''Jet de sauvegarde''' aucun ; '''Résistance à la magie''' oui (inoffensif)
+<hr>
 Ce sort fonctionne comme ''[[résurrection factice]]'' excepté qu'il appel un [[diable trompeur]] avec l'archétype simple [[Archétypes#CERATUREJEUNE|jeune]] à posséder le corps et que tous les aspects de ''résurrection factice'' qui fonctionnent comme ''[[résurrection]]'' fonctionnent à la place comme ''[[résurrection suprême]]''.
 
 Toute tentative visant à identifier ''résurrection factice suprême'' avec un test de compétence l'identifie à tort comme ''[[résurrection suprême]]'' (voir le registre de la [[registre|ruse]]). Un observateur trompé confond l'aura de ''résurrection factice suprême'' avec l'aura persistante d'un effet d'[[invocation]] instantané.
+
+(((
+==Résurrection factice==
+{s:UI}'''École'''  [[Invocation]] ([[branche appel|appel]]) <nowiki>[</nowiki>[[registre|Chaos, Mal, ruse]]<nowiki>]</nowiki> ; '''Niveau''' [[Chaman|Cham]] 8, [[Prêtre|Prê]] 7, [[Sorcière|Sor]] 8  
+'''Temps d'incantation''' 1 minute  
+'''Composantes''' [[composantes|V, G, M]] (diamant d'une valeur de 10 000 po), [[composantes|FD]]  
+'''Portée''' [[contact]]  
+'''Cibles''' créature morte touchée  
+'''Durée''' 1 jour/niveau  
+'''Jet de sauvegarde''' aucun ; '''Résistance à la magie''' oui (inoffensif)
+<hr>
+Ce sort fonctionne comme ''[[résurrection]]'' excepté qu'au lieu de ramener l'âme du défunt à la vie, le sort appel un [[démon des ombres]] avec l'archétype simple [[Archétypes#CREATUREEVOLUEE|évolué]] à posséder le corps. Si le personnage ne parvient pas à passer la [[RM|résistance à la magie]] de la cible, son âme peut annuler l'appel et peut revenir à la vie (comme avec ''résurrection'') dans le corps restauré. Autrement, la possession fonctionne comme ''[[possession spirituelle]]'' excepté que l'âme du sujet n'est plus présente pour y résister. Lorsque ''résurrection factice'' se termine ou que le démon est extrait du sujet, le démon retourne aux Abysses, laissant le corps vivant mais sans âme (comme celui créé par ''[[clone]]'') derrière lui. Si l'âme n'est pas encore revenue à la vie, elle peut le faire dans le corps maintenant inerte s'il est encore en vie (comme avec ''résurrection''). Si le corps est tué, le démon est renvoyé dans les Abysses mais le sujet reste mort.
+
+Toute tentative visant à identifier ''résurrection factice'' avec un test de compétence l'identifie à tort comme ''[[résurrection]]'' (voir le registre de la [[registre|ruse]]). Un observateur trompé confond l'aura de ''résurrection factice'' avec l'aura persistante d'un effet d'[[invocation]] instantané.
+
+
+
+(((
+==Résurrection==
+'''École''' [[Invocation]] ([[branche guérison|guérison]]) ; '''Niveau''' [[Chaman|Cham]] 8, [[Prêtre|Prê]] 7, [[Sorcière|Sor]] 8  
+'''Temps d'incantation''' 1 minute  
+'''Composantes''' [[composantes|V, G, M]] (diamant 10 000 po), [[composantes|FD]]  
+'''Portée''' [[Présentation des sorts#PORTEE|contact]]  
+'''Cible''' créature morte touchée  
+'''Durée''' [[instantanée]]  
+'''Jet de sauvegarde''' aucun (voir texte) ; '''Résistance à la magie''' oui ([[Présentation des sorts#JETSDESAUVEGARDE|inoffensif]])
+<hr>
+Ce sort ressemble à ''[[rappel à la vie]]'' mais la créature ressuscitée se réveille en pleine possession de ses moyens.
+
+Peu importe l’état de la dépouille, du moment qu’il reste ne serait-ce qu’une partie du corps, le défunt peut être ressuscité (les cendres laissées par une créature désintégrée suffisent pour la ramener à la vie). L’individu doit pas être mort depuis moins de dix ans par [[NLS|niveau de lanceur de sorts]].
+
+Au terme de l’incantation, le sujet se réveille en parfaite santé avec la totalité de ses sorts préparés. En revanche, il reçoit un [[niveau négatif]] [[diminution permanente|permanent]], comme si une créature avait absorbé son énergie. Si le personnage est de [[niveau]] 1, il perd 2 points de [[Constitution]]. Si cela devait réduire sa [[Constitution]] à 0 ou moins, ''résurrection'' ne fonctionne pas.
+
+On peut ressusciter quelqu’un tué par un sort de [[registre|mort]] ou transformé en [[type mort-vivant|mort-vivant]] puis détruit. Par contre, même ''résurrection'' ne peut rien pour quelqu’un qui est mort de vieillesse. On ne peut pas ressusciter de [[type créature artificielle|créatures artificielles]], d’[[sous-type élémentaire|élémentaires]], d’[[type extérieur|Extérieurs]] ni de [[type mort-vivant|morts-vivants]].
+
+
+
+(((
+==Rappel à la vie==
+'''École''' [[Invocation]] ([[branche guérison|guérison]]) ; '''Niveau''' [[Chaman|Cham]] 6, [[Prêtre|Prê]] 5, [[Sorcière|Sor]] 6, [[Spirite|Spi]] 5  
+'''Temps d'incantation''' 1 minute  
+'''Composantes''' [[composantes|V, G, M]] (diamant 5 000 po), [[composantes|FD]]  
+'''Portée''' [[Présentation des sorts#PORTEE|contact]]  
+'''Cible''' créature morte touchée  
+'''Durée''' [[instantanée]]  
+'''Jet de sauvegarde''' aucun (voir texte) ; '''Résistance à la magie''' oui ([[Présentation des sorts#JETSDESAUVEGARDE|inoffensif]])
+<hr>
+Ce sort rend la vie au défunt. Il fonctionne uniquement sur les créatures mortes depuis peu (au maximum un jour par [[NLS|niveau de lanceur de sorts]]). De plus, l’âme concernée doit être libre et désireuse de revenir à la vie. Si elle refuse, le sort échoue automatiquement (c’est pourquoi il n’y a pas de [[jet de sauvegarde]]).
+
+Le retour à la vie est un véritable traumatisme. Le bénéficiaire du sort [[niveau négatif|perd automatiquement deux niveaux]] quand il revient à la vie, comme s’il avait été victime d’une [[absorption dénergie|absorption d’énergie]]. S’il est [[niveau]] 1, il perd 2 points de [[Constitution]] à la place. Si sa [[Constitution]] est alors censée tomber à 0 ou moins, il ne peut être rappelé d’entre les morts. Un personnage tué alors qu’il disposait encore de sorts préparés a 50 % de chances de conserver chacun d’eux. Les créatures qui ne préparent pas leurs sorts (comme les [[ensorceleur|ensorceleurs]]) ont 50 % de chances de perdre le bénéfice des emplacements de sorts inutilisés avant leur mort.
+
+Une créature revient à la vie avec un nombre de [[points de vie]] égal à ses [[DV|dés de vie]] actuels. Les valeurs de caractéristiques qui ont été affaiblies de manière à chuter à 0 remontent aussitôt à 1. La créature est guérie de tout empoisonnement ou maladie naturelle mais pas des maladies magiques ni des malédictions. Même si le sort referme la plupart des blessures, le corps à ranimer doit être intact : on ne peut pas récupérer un membre perdu avec un ''rappel à la vie''. L’équipement et les possessions matérielles du bénéficiaire ne sont pas affectés par le sort.
+
+Ce sort ne permet pas de ramener à la vie une créature transformée en [[type mort-vivant|mort-vivant]] ou tuée par un [[registre|sort de mort]], pas plus que les [[type créature artificielle|créatures artificielles]], les [[sous-type élémentaire|élémentaires]], les [[type extérieur|Extérieurs]] et les [[type mort-vivant|morts-vivants]]. Enfin, ''rappel à la vie'' n’a aucun effet sur quelqu’un mort de vieillesse.
+)))))))))

@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Aura magique suprême
 Title: Aura magique suprême
-LastModified: 2023-01-24 19:29
+LastModified: 2025-06-19 17:09
 Categories:
   - 'Sort barde 3'
   - 'Sort hypnotiseur 3'
@@ -10,16 +10,35 @@ Categories:
   - 'Sort psychiste 4'
   - 'Src Ultimate Intrigue'
 ---
-{s:cs}{s:UI}'''École''' [[Illusion]] ([[branche hallucination|hallucination]]) ; '''Niveau''' [[Barde|Bard]] 3, [[Ensorceleur|Ens]]/[[Magicien|Mag]] 4, [[Hypnotiseur|Hyp]] 3, [[Occultiste|Occ]] 3, [[Psychiste|Psy]] 4  
+{s:UI}'''École''' [[Illusion]] ([[branche hallucination|hallucination]]) ; '''Niveau''' [[Barde|Bard]] 3, [[Ensorceleur|Ens]]/[[Magicien|Mag]] 4, [[Hypnotiseur|Hyp]] 3, [[Occultiste|Occ]] 3, [[Psychiste|Psy]] 4  
 '''Temps d'incantation''' 1 [[action simple]]  
 '''Composantes''' [[composantes|V, G, F]] (un mouchoir de poche en laine)  
 '''Portée''' courte (7,50 m + 1,50 m/2 [[niveau|niveaux]]) (5 {s:c} + 1 {s:c}/2 [[niveau|niveaux]])  
 '''Cibles''' une créature, ou un objet ne pesant pas plus de 10 kg/niveau  
-'''Durée''' 1 jour/niveau (T)  
-'''Jet de sauvegarde''' aucun (voir description) ; '''Résistance à la magie''' non
-
+'''Durée''' 1 jour/niveau ([[Présentation des sorts#DUREE|T]])  
+'''Jet de sauvegarde''' aucun (voir texte) ; '''Résistance à la magie''' non
+<hr>
 S'il est lancé sur un objet, ce sort fonctionne comme ''[[aura magique]]'', excepté que si le personnage a identifié la signature magique unique d'un individu grâce à ''[[détection de la magie suprême]]'' ou un sort similaire, il peut faire en sorte que l’''aura magique'' semble avoir été créée par cet individu. Sinon, il peut simplement dissimuler tous les repères uniques, rendant plus difficile l'identification du lanceur. Dans les deux cas, si l'objet est soumis à une ''détection de la magie suprême'', tout test d'[[Art de la magie]] effectué pour identifier les repères uniques de l'aura révèle les informations choisies par le personnage sauf si le lanceur dévoile l'illusion grâce à un jet de [[Volonté]] réussit (cependant, comme avec ''aura magique'', les autres sorts de détection n'autorisent pas de jet de sauvegarde pour la dévoiler).
 
 S'il est lancé sur une créature, le personnage peut choisir autant de sorts qu'il le souhaite et faire en sorte que cette créature semble être sous leurs effets lorsqu'elle est soumise à des sorts de détection. Sinon, il peut faire en sorte que la créature semble non-magique, dissimulant tous les effets de sorts qui l'affectent lorsqu'elle est la cible de telles inspections. Si le personnage choisi de faire apparaître la cible comme étant sous l'effet d'un ou plusieurs sorts, il peut modifier la signature magique unique des auras de ces sorts de la même manière que lorsqu'il cible un objet.
 
 Si la cible est une créature, le personnage est également capable de modifier la façon dont ''[[vision magique]]'' la perçoit, afin qu'elle semble avoir ou non des capacités d'incantation ou des pouvoirs magiques, qu'ils soient d'origine divine, profane ou psychique, ainsi que l'intensité du sort ou du pouvoir magique le plus puissant qu'elle peut actuellement utiliser. De même, le personnage peut modifier la façon dont un examen avec ''[[détection de la magie suprême]]'' révèle la cible, remplaçant le dernier sort qu'elle a lancé par un autre de son choix.
+
+
+
+(((
+==Aura magique==
+'''École''' [[Illusion]] ([[hallucination]]) ; '''Niveau''' [[Barde|Bard]] 1, [[Hypnotiseur|Hyp]] 1, [[Ensorceleur|Ens]]/[[Magicien|Mag]] 1, [[Occultiste|Occ]] 1, [[Psychiste|Psy]] 1  
+'''Temps d'incantation''' 1 [[action simple]]  
+'''Composantes''' [[COMPOSANTES|V, G, F]] (un petit carré de soie à passer au-dessus de l’objet qui recevra l’aura)  
+'''Portée''' [[Présentation des sorts#PORTEE|contact]]  
+'''Cible''' objet touché (2,5 kg/[[niveau]] maximum)  
+'''Durée''' 1 jour/[[niveau]] ([[Présentation des sorts#DUREE|T]])  
+'''Jet de sauvegarde''' aucun (voir description) ; '''Résistance à la magie''' non
+<hr>
+Le lanceur de sort altère l’aura d’un objet afin qu’une ''[[détection]]'' (et tout sort disposant d’une aptitude similaire) le définisse soit comme non-magique, soit comme un objet magique doué de propriétés choisie par le personnage ou comme un objet affecté par un sort choisi par le personnage. Si l’objet protégé par ''aura magique'' est soumis à ''[[identification]]'' ou à un examen semblable, le lanceur de sorts décèle la tromperie et parvient à découvrir les propriétés de l’objet en réussissant un jet de [[Volonté]]. Sinon, il croit ce que lui révèle l’aura, et ce quels que soient les tests auxquels il se livre sur l’objet.
+
+''Aura magique'' est sans effet si l’aura naturelle de l’objet est particulièrement puissante (comme c’est le cas pour les [[artefacts]]).
+
+''Note.'' Armes, armures et boucliers magiques sont nécessairement des objets de maître, ce qui signifie qu’une épée grossièrement forgée dégageant une aura magique est pour le moins suspecte.
+)))

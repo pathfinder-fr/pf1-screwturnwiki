@@ -1,23 +1,38 @@
 ---
 Name: Pathfinder-RPG.Venin latent
 Title: Venin latent
-LastModified: 2023-01-25 15:53
+LastModified: 2025-06-17 20:32
 Categories:
   - 'Sort alchimiste 2'
   - 'Sort chaman 2'
   - 'Sort magicien 2'
   - 'Src Ultimate Intrigue'
 ---
-{s:cs}{s:UI}'''École'''  [[Nécromancie]] <nowiki>[</nowiki>[[registre|poison]]<nowiki>]</nowiki> ; '''Niveau''' [[Alchimiste|Alch]] 2, [[Chaman|Cham]] 2, [[Ensorceleur|Ens]]/[[Magicien|Mag]] 2  
+{s:UI}'''École'''  [[Nécromancie]] <nowiki>[</nowiki>[[registre|poison]]<nowiki>]</nowiki> ; '''Niveau''' [[Alchimiste|Alch]] 2, [[Chaman|Cham]] 2, [[Ensorceleur|Ens]]/[[Magicien|Mag]] 2  
 '''Temps d'incantation''' 1 [[action simple]]  
 '''Composantes''' [[composantes|V, G, M]] (herbes utilisées dans l'antitoxine d'une valeur de 25 po)  
 '''Portée''' [[contact]]  
 '''Cibles''' une dose de poison ou une créature venimeuse  
-'''Durée''' permanente jusqu'à déchargement (T)  
-'''Jet de sauvegarde''' Vigueur, annule ; '''Résistance à la magie''' oui
-
+'''Durée''' permanente jusqu'à déchargement ([[Présentation des sorts#DUREE|T]])  
+'''Jet de sauvegarde''' [[Vigueur]], [[Présentation des sorts#JETSDESAUVEGARDE|annule]] ; '''Résistance à la magie''' oui
+<hr>
 Le personnage étend la période nécessaire pour que le poison touché s'active, lui ajoutant un temps d'incubation d'un maximum de 1 heure par niveau (il touche le contenant du poison plutôt que la substance en elle même, il ne risque donc pas de s'exposer à un poison de contact). La cible n'effectue pas de jet de sauvegarde lorsqu'elle est exposée au ''venin latent'', mais le fait normalement après son temps d'incubation. Si le poison est neutralisé ou autrement soigné avant la fin de son temps d'incubation, il est rendu inoffensif. Rater des jets de sauvegardes contre plusieurs doses de ''venin latent'' a le même effet cumulatif que pour les autres [[Poisons|poisons]].
 
 ''Venin latent'' est difficile à détecter et identifier. ''[[Détection du poison]]'' et les effets similaires ne détectent ''venin latent'' que si le lanceur réussit un test de [[NLS|niveau de lanceur de sorts]] contre un [[DD]] égal à 11 + le niveau de lanceur de sorts du personnage (lancé secrètement par le [[MJ]]). Même si le poison est détecté, le DD d'[[Artisanat]] (alchimie) ou de [[Sagesse]] pour l'identifier est augmenté de 10. Si un poison est soumis à un autre effet qui nécessite un test de niveau de lanceur de sorts pour être détecté ou qui augmente le DD pour l'identifier (comme ''[[poison masqué]]''), ces effets ne se cumulent pas. On conserve alors le test de niveau de lanceur de sorts avec le plus haut DD et la plus grande augmentation du DD d'identification.
 
 S'il est lancé sur une créature venimeuse, ''venin latent'' ne retarde le temps d'incubation du poison de cette créature que la prochaine fois qu'elle l'administrera.
+
+
+
+((({s:sortssimilaires|venin latent}
+==[[Venin conditionné]]==
+{s:UI}'''École'''  [[Nécromancie]] <nowiki>[</nowiki>[[registre|poison]]<nowiki>]</nowiki> ; '''Niveau''' [[Chaman|Cham]] 4, [[Ensorceleur|Ens]]/[[Magicien|Mag]] 4  
+'''Temps d'incantation''' 1 [[action simple]]  
+'''Composantes''' [[composantes|V, G, M]] (herbes utilisées dans l'antitoxine d'une valeur de 100 po)  
+'''Portée''' [[contact]]  
+'''Cibles''' une dose de poison ou une créature venimeuse  
+'''Durée''' permanente jusqu'à déchargement ([[Présentation des sorts#DUREE|T]])  
+'''Jet de sauvegarde''' [[Vigueur]], [[Présentation des sorts#JETSDESAUVEGARDE|annule]] ; '''Résistance à la magie''' oui
+<hr>
+Ce sort fonctionne comme ''[[venin latent]]'', mais le personnage peut énoncer une condition ou des circonstances spécifiques sous lesquelles le temps d'incubation du poison se termine immédiatement, déclenchant ses effets. La condition de déclenchement peut être aussi vague ou aussi détaillée que le personnage le souhaite, mais le déclencheur doit être visuel ou auditif (comme avec ''[[bouche magique]]'') ou autrement basé sur un contact physique ou la consommation d'un objet, d'une substance ou d'une créature spécifique. Cette condition de déclenchement peut soit mener à l'incubation immédiate du poison, soit à l'incubation du poison après une période choisie jusqu'à un maximum de 1 round par [[NLS|niveau de lanceur de sorts]]. Le personnage doit prendre toutes les décisions relatives au déclenchement lorsqu'il lance ''venin conditionné'', et il ne peut pas les modifier par la suite.
+)))

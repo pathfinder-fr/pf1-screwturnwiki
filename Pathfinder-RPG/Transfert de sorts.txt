@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Transfert de sorts
 Title: Transfert de sorts
-LastModified: 2022-07-05 21:39
+LastModified: 2025-06-17 18:00
 Categories:
   - 'Règle officielle'
   - 'Sort'
@@ -10,28 +10,26 @@ Categories:
   - 'Sort spirite 4'
   - 'Src Manuel des joueurs'
 ---
-'''École''' [[Évocation]] ; '''Niveau''' [[Chaman|Cham]] 4, [[Prêtre|Prê]] 4, [[Spirite|Spi]] 4<br/>
-'''Temps d'incantation''' 10 minutes<br/>
-'''Composantes''' [[composantes|V, G, FD]]<br/>
-'''Portée''' [[présentation des sorts#PORTEE|contact]]<br/>
-'''Cible''' créature touchée (voir description)<br/>
-'''Durée''' permanente jusqu’à utilisation (T)<br/>
+'''École''' [[Évocation]] ; '''Niveau''' [[Chaman|Cham]] 4, [[Prêtre|Prê]] 4, [[Spirite|Spi]] 4  
+'''Temps d'incantation''' 10 minutes  
+'''Composantes''' [[composantes|V, G, FD]]  
+'''Portée''' [[présentation des sorts#PORTEE|contact]]  
+'''Cible''' créature touchée (voir description)  
+'''Durée''' permanente jusqu’à utilisation ([[Présentation des sorts#DUREE|T]])  
 '''Jet de sauvegarde''' [[Volonté]], [[Présentation des sorts#JETSDESAUVEGARDE|annule]] ([[Présentation des sorts#JETSDESAUVEGARDE|inoffensif]]) ; '''Résistance à la magie''' oui ([[Présentation des sorts#JETSDESAUVEGARDE|inoffensif]])
-
+<hr>
 Au terme de l’incantation, le [[prêtre]] transfère à la créature de son choix un ou plusieurs sorts qu’il a préparés. Le bénéficiaire, qui doit avoir un minimum de 5 en [[Intelligence]] et de 9 en [[Sagesse]], peut alors lancer ces sorts comme s’il les avait préparés normalement. Le lanceur ne peut transmettre que des [[abjuration|abjurations]], des [[divination|divinations]] et des [[invocation|invocations]] ([[guérison]]) de cette manière. Le nombre de sorts transférés (et leur niveau) dépend uniquement du nombre de [[DV]] de la créature ; Le lanceur de sorts aura beau lancer ''transfert de sorts'' à plusieurs reprises il ne pourra pas dépasser cette limite.
 
-<center>
-{| CLASS="tablo"
+{| CLASS="tablo centre autoalt"
 |- CLASS="titre"
 | DV du bénéficiaire || Sorts transférés
 |- CLASS="premier"
 | 2 ou moins || 1 sort du 1er [[niveau de sort|niveau]]
-|- CLASS="alt"
+|-
 | 3–4 || 1 ou 2 sorts du 1er [[niveau de sort|niveau]]
 |-
 | 5+ || 1 ou 2 sorts du 1er [[niveau de sort|niveau]] et 1 du 2e [[niveau de sort|niveau]]
 |}
-</center>
 
 Les caractéristiques variables du sort (portée, durée, zone d’effet, etc.) sont calculées à partir du [[NLS|niveau du lanceur de sorts]], pas du nombre de [[DV]] de la créature qui le reçoit.
 
@@ -39,3 +37,16 @@ Dès que le personnage a lancé ''transfert de sorts'', il perd un sort du 4e [[
 
 Pour lancer un sort accompagné d’une [[composante verbale]], le bénéficiaire doit pouvoir parler. Si le sort nécessite une [[composante gestuelle]], il doit avoir des mains [[type humanoïde|humanoïdes]]. Enfin, s’il requiert une [[composante matérielle]] ou un [[focaliseur]], il doit en avoir un à disposition.
 
+
+
+((({s:sortssimilaires|transfert de sorts}
+==[[Transfert de puissance élémentaire]]==
+{s:racial|Suli (race)|sulis|Illustrations/PNJ/Suli.jpg}{s:MR}
+'''École''' [[Évocation]] (voir description) ; '''Niveau''' [[Chaman|Cham]] 2, [[Ensorceleur|Ens]]/[[Magicien|Mag]] 2, [[Magus]] 2, [[Prêtre|Prê]] 2, [[Sanguin|San]] 2  
+'''Temps d'incantation''' 1 [[action simple]]  
+'''Composantes''' [[composantes|V, G]]  
+'''Durée''' 24 heures ou fin de la durée ([[Présentation des sorts#DUREE|T]])  
+'''Jet de sauvegarde''' [[Volonté]], [[Présentation des sorts#JETSDESAUVEGARDE|annule]] ([[Présentation des sorts#JETSDESAUVEGARDE|inoffensif]]) ; '''Résistance à la magie''' oui ([[Présentation des sorts#JETSDESAUVEGARDE|inoffensif]])
+<hr>
+Ce sort fonctionne comme ''[[transfert de sorts]]'', à la seule différence que le personnage transfère l’utilisation de sa capacité [[suli (race)|assaut élémentaire]] à la cible. La cible doit avoir un score d’[[Intelligence]] d’au moins 5 pour utiliser cette capacité. L’[[suli (race)|assaut élémentaire]] transféré fonctionne exactement comme celui du personnage, à la seule différence que la durée de la capacité est basée sur le [[niveau]] ou les [[dés de vie]] de la cible. Une fois que le personnage a [[Lancer des sorts|lancé ce sort]], il ne peut plus utiliser sa capacité [[suli (race)|assaut élémentaire]] tant que la durée du sort n’est pas terminée.
+)))

@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Réincarnation
 Title: Réincarnation
-LastModified: 2025-06-11 23:15
+LastModified: 2025-06-22 19:54
 Categories:
   - 'Règle officielle'
   - 'Sort'
@@ -11,14 +11,14 @@ Categories:
   - 'Sort sorcière 5'
   - 'Src Manuel des joueurs'
 ---
-'''École''' [[Transmutation]] ; '''Niveau''' [[Chaman|Cham]] 4, [[Druide|Dru]] 4, [[Médium|Méd]] 4, [[Sorcière|Sor]] 5<br/>
-'''Temps d'incantation''' 10 minutes<br/>
-'''Composantes''' [[composantes|V, G, FD, M]] (huiles (1 000 po)) <br/>
-'''Portée''' [[Présentation des sorts#PORTEE|contact]]<br/>
-'''Cible''' créature morte touchée<br/>
-'''Durée''' [[instantanée]]<br/>
-'''Jet de sauvegarde''' aucun (voir description) ; '''Résistance à la magie''' oui ([[Présentation des sorts#JETSDESAUVEGARDE|inoffensif]])
-
+'''École''' [[Transmutation]] ; '''Niveau''' [[Chaman|Cham]] 4, [[Druide|Dru]] 4, [[Médium|Méd]] 4, [[Sorcière|Sor]] 5  
+'''Temps d'incantation''' 10 minutes  
+'''Composantes''' [[composantes|V, G, FD, M]] (huiles (1 000 po))  
+'''Portée''' [[Présentation des sorts#PORTEE|contact]]  
+'''Cible''' créature morte touchée  
+'''Durée''' [[instantanée]]  
+'''Jet de sauvegarde''' aucun (voir texte) ; '''Résistance à la magie''' oui ([[Présentation des sorts#JETSDESAUVEGARDE|inoffensif]])
+<hr>
 Ce sort permet de ramener un mort à la vie, mais dans un autre corps. Le décès ne doit pas être antérieur à une semaine et le sujet doit être désireux de revenir à la vie. Dans le cas contraire, le sort échoue automatiquement, d’où l’absence de [[jet de sauvegarde]].
 
 Comme le défunt adopte un nouveau corps, tous les problèmes physiques dont il souffrait (maladie, etc.) disparaissent. L’état de ses restes n’entre pas en ligne de compte. On peut réincarner un mort avec ''réincarnation'' tant qu’il reste un infime élément du corps. Toutefois, les éléments en question devaient faire partie de son corps au moment de la mort. La magie du sort crée un corps de jeune adulte à partir des éléments naturels disponibles. Ce processus demande une heure entière. Une fois le corps achevé, le sujet se réincarne dedans.
@@ -31,47 +31,58 @@ Pour un [[type humanoïde|humanoïde]], la nouvelle incarnation est déterminée
 
 Ce sort ne permet de pas de ramener à la vie une créature transformée en [[type mort-vivant|mort-vivant]] ou tuée par un sort de [[registre|mort]], pas plus que les [[type Créature artificielle|créatures artificielles]] , les [[sous-type élémentaire|élémentaires]], les [[type extérieur|Extérieurs]] et les [[type mort-vivant|morts-vivants]]. Ce sort peut ramener à la vie une créature morte de vieillesse.
 
-
-<center>
-{| CLASS="tablo"
+{| CLASS="tablo centre autoalt"
 |- CLASS="titre"
 | 1d100 || Incarnation || For || Dex || Con
 |- CLASS="premier"
 | 01 || [[Gobelours]] || +4 || +2 || +2
-|- CLASS="alt"
+|-
 | 02–13 || [[Nain]] || +0 || +0 || +2
 |-
 | 14–25 || [[Elfe]] || +0 || +2 || -2
-|- CLASS="alt"
+|-
 | 26 || [[Gnoll]] || +4 || +0 || +2
 |-	
 | 27–38 || [[Gnome]] || -2 || +0 || +2
-|- CLASS="alt"
+|-
 | 39–42 || [[Gobelin]] || -2 || +2 || +0
 |-
 | 43–52 || [[Demi-elfe]] || +0 || +2 || +0
-|- CLASS="alt"
+|-
 | 53–62 || [[Demi-orque]] || +2 || +0 || +0
 |-
 | 63–74 || [[Halfelin]] || -2 || +2 || +0
-|- CLASS="alt"
+|-
 | 75–89 || [[Humain]] || +0 || +0 || +2
 |-
 | 90–93 || [[Kobold]] || -4 || +2 || -2
-|- CLASS="alt"
+|-
 | 94 || [[Homme-lézard]] || +2 || +0 || +2
 |-
 | 95–98 || [[Orque]] || +4 || +0 || +2
-|- CLASS="alt"
+|-
 | 99 || [[Troglodyte]] || +0 || -2 || +4
 |-
 | 100 || Autre (au choix du [[MJ]]) || ? || ? || ?
 |}
- 	
-</center>
- 	
- 	
+
 La créature réincarnée acquiert tous les pouvoirs de sa nouvelle forme, dont ses modes et [[vitesse de déplacement|vitesses de déplacement]], son armure naturelle, ses [[attaque naturelle|attaques naturelles]], ses [[pouvoirs extraordinaires]], etc., mais elle ne parle pas automatiquement la langue de sa nouvelle forme.
- 	
- 	
-Un ''[[souhait]]'' ou un ''[[miracle]]'' peut rendre à un personnage réincarné sa forme d’origine. 
+
+Un ''[[souhait]]'' ou un ''[[miracle]]'' peut rendre à un personnage réincarné sa forme d’origine.
+
+
+
+((({s:sortssimilaires|réincarnation}
+==[[Réincarnation despion|Réincarnation d'espion]]==
+{s:cs}{s:UI}'''École'''  [[Invocation]] ([[branche guérison|guérison]]) ; '''Niveau''' [[Chaman|Cham]] 6, [[Druide|Dru]] 6, [[Sorcière|Sor]] 7  
+'''Temps d'incantation''' 10 minutes  
+'''Composantes''' [[composantes|V, G, FD, M]] (huiles d'une valeur de 2 500 po et une possession ou partie du corps de la créature à imiter)  
+'''Portée''' [[contact]]  
+'''Cibles''' créature morte touchée  
+'''Durée''' instantanée  
+'''Jet de sauvegarde''' aucun (voir texte) ; '''Résistance à la magie''' oui
+<hr>
+Ce sort fonctionne comme ''[[réincarnation]]'' excepté que le personnage fait en sorte que le nouveau corps ressemble à une créature spécifique, imitant sa catégorie d'âge, son sexe, et relançant le dé de race jusqu'à ce qu'il donne la bonne catégorie de taille. Le sujet obtient alors un bonus de +5 aux tests de [[Déguisement]] pour se faire passer pour la créature choisie grâce à ses traits fidèles, bien qu'il pourrait subir un malus dû au fait d'être d'une race différente.
+
+Ce sort laisse au personnage une petite partie du nouveau corps de la créature, généralement une mèche de cheveux (utile pour la ''[[scrutation]]'' et d'autres sorts similaires).
+)))

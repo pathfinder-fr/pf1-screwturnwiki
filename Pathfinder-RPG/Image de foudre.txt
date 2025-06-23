@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Image de foudre
 Title: Image de foudre
-LastModified: 2022-06-14 20:19
+LastModified: 2025-06-20 21:11
 Categories:
   - 'Règle officielle'
   - 'Sort'
@@ -12,13 +12,40 @@ Categories:
   - 'Sort sanguin 4'
   - 'Src Art de la guerre'
 ---
-{s:UC}
-'''École''' [[Illusion]] ([[Branche chimère|chimère]]) <nowiki>[</nowiki>[[registre|électricité]]<nowiki>]</nowiki>; '''Niveau''' [[Barde|Bard]] 4, [[Hypnotiseur|Hyp]] 4, [[Ensorceleur|Ens]]/[[Magicien|Mag]] 4, [[Occultiste|Occ]] 4, [[Sanguin|San]] 4</br>
-'''Temps d’incantation''' 1 [[action simple]]</br>
-'''Composantes''' [[Composantes|V, G]]</br>
-'''Portée''' personnelle</br>
-'''Cible''' lanceur de sorts</br>
-'''Durée''' 1 minute/[[niveau]]</br>
+{s:UC}'''École''' [[Illusion]] ([[Branche chimère|chimère]]) <nowiki>[</nowiki>[[registre|électricité]]<nowiki>]</nowiki>; '''Niveau''' [[Barde|Bard]] 4, [[Hypnotiseur|Hyp]] 4, [[Ensorceleur|Ens]]/[[Magicien|Mag]] 4, [[Occultiste|Occ]] 4, [[Sanguin|San]] 4  
+'''Temps d’incantation''' 1 [[action simple]]  
+'''Composantes''' [[Composantes|V, G]]  
+'''Portée''' [[personnelle]]  
+'''Cible''' le lanceur de sorts  
+'''Durée''' 1 minute/[[niveau]]  
 '''Jet de sauvegarde''' non ; '''Résistance à la magie''' voir texte
-
+<hr>
 Ce sort fonctionne comme ''[[image miroir]]'' mais le double illusoire envoie une décharge électrique quand on le détruit. Si un adversaire utilise une attaque de corps à corps pour détruire une image, il subit 2d6 points de dégâts d’électricité. Le personnage doit franchir la résistance à la magie de la cible quand il tente de lui infliger des dégâts d’électricité pour la première fois. En cas d’échec, la cible est immunisée contre les dégâts de ce sort.
+
+
+
+(((
+==Image miroir==
+'''École''' [[Illusion]] ([[Présentation des sorts#CHIMERE|chimère]]) ; '''Niveau''' [[Barde|Bard]] 2, [[Hypnotiseur|Hyp]] 2, [[Ensorceleur|Ens]]/[[Magicien|Mag]] 2, [[Magus]] 2, [[Médium|Méd]] 2, [[Occultiste|Occ]] 2, [[Psychiste|Psy]] 2, [[Sanguin|San]] 2  
+'''Temps d'incantation''' 1 [[action simple]]  
+'''Composantes''' [[composantes|V, G]]  
+'''Portée''' [[personnelle]]  
+'''Cible''' le jeteur de sorts  
+'''Durée''' 1 minute/[[niveau]]
+<hr>
+{s:FAQ|'''''[[FAQ- Manuel des joueurs (Magie et sorts)#14|→]] ''Image miroir'' : Puis-je utiliser ''projectile magique'' pour détruire une ou plusieurs images d’un sort d’''image miroir'' ?'''''
+
+Non. ''[[projectile magique]]'' cible une créature et n’impose pas de jet d’attaque, donc il ignore toutes les __[[image miroir|images]]__ et touche toujours la vraie créature.
+<hr>
+'''''[[FAQ- Manuel des joueurs (Magie et sorts)#15|→]] ''Image miroir'' et chance d’échec au toucher : Si j’ai une chance d’échec au toucher et une image miroir, comment je les combine ?'''''
+
+Les chances d’échec au toucher ne s’appliquent généralement que quand l’attaque réussit. Pour la plupart des chances d’échec au toucher, comme ''[[flou]]'', il est inutile de les lancer si une attaque devrait toucher une __''[[image miroir]]''__ puisqu’un toucher et un échec de 5 ou moins détruiraient tout deux l’image. La seule exception à cette règle est ''[[clignotement]]'' et les effets similaires, qui impliquent d’autres exceptions par rapport aux chances d’échec au toucher dues au déplacement dans un autre plan (par exemple, contrairement aux autres chances d’échec au toucher, ''clignotement'' protège le personnage contre les effets ciblés). Les 50 % de chances d’être sur le Plan Éthéré protègent autant le lanceur que les images.}Ce sort fait apparaître plusieurs copies illusoires du personnage dans l’espace qu’il occupe. À cause de la présence de ces sosies, ses ennemis éprouvent des difficultés à le localiser précisément.
+
+''Image miroir'' crée 1d4 doubles, +1 tous les trois [[niveau|niveaux]] (jusqu’à un maximum de huit images). Ces [[Présentation des sorts#CHIMERE|chimères]] restent toujours dans la case du lanceur de sorts et se déplacent en même temps que lui. Elles reproduisent ses mouvements, ses bruits et ses actes à la perfection. Quand le personnage est attaqué ou victime d’un sort qui nécessite un [[jet dattaque|jet d’attaque]], il y a des chances qu’une image soit touchée au lieu du personnage. Si l’attaque touche, il faut lancer un dé pour déterminer si l’attaque touche le personnage ou une de ses images. Une attaque réussie contre une [[Présentation des sorts#CHIMERE|chimère]] la fait disparaître instantanément. Si une attaque rate le personnage de 5 ou moins, elle détruit une [[Présentation des sorts#CHIMERE|chimère]] au passage. Les sorts de zone affectent le personnage normalement et n’abîment pas ses [[Présentation des sorts#CHIMERE|chimères]]. De même, les sorts et les effets qui ne nécessitent pas de [[jet dattaque|jet d’attaque]] affectent le personnage normalement et ne détruisent pas ses images. Un sort qui nécessite une [[attaque de contact]] se décharge sans effet si on l’utilise sur une [[Présentation des sorts#CHIMERE|chimère]] (qui est alors détruite).
+
+Les images illusoires ne peuvent tromper que les adversaires qui les voient. Si le personnage est [[invisible]] ou si son adversaire ferme les yeux, les images n’ont aucun effet (mais les règles imposant une chance de rater aux attaques effectuées dans une telle situation s’appliquent normalement).
+
+===Version mythique===
+{s:CMy}
+Le nombre maximum d’images générées par ce sort s’élève à 12. La destruction d’une image crée un soudain éclat lumineux. Une créature qui détruit une image doit réussir un jet de Volonté pour ne pas être éblouie pendant un round.
+)))

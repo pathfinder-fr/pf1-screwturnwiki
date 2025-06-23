@@ -5,7 +5,7 @@
 <table><tr style="vertical-align: top"><td>
 ?1?
 </td></tr></table></td>
-<td><img style="width:50px" src="/wiki/public/upload/Illustrations/Wiki/faqbase1.png" title="Cliquez pour afficher/cacher l'information" alt="Cliquez pour afficher/cacher l'information" onclick="
+<td><img style="width:50px; cursor:pointer" src="/wiki/public/upload/Illustrations/Wiki/faqbase1.png" title="Cliquez pour afficher/cacher une FAQ officielle relative à ce texte" alt="Cliquez pour afficher/cacher l'information" onclick="
 var cible = this.parentNode.previousSibling.previousSibling;
 if (cible.style.display=='none') {
   $(cible).show('slide');

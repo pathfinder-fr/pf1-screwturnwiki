@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.loup fantomatique
 Title: Loup fantomatique
-LastModified: 2022-06-15 20:01
+LastModified: 2025-06-21 17:08
 Categories:
   - 'Règle officielle'
   - 'Sort'
@@ -17,9 +17,38 @@ Categories:
 '''Composantes''' [[Composantes|V, G, F]] (croc d’un loup sanguinaire)  
 '''Portée''' 0 m  
 '''Cible''' une créature quasi réelle ressemblant à un loup sanguinaire  
-'''Durée''' 1 heure/niveau (T) ou 1 round/niveau ; voir description  
-'''Jet de sauvegarde''' aucun (voir description) ; '''Résistance à la magie''' non
-
+'''Durée''' 1 heure/niveau ([[Présentation des sorts#DUREE|T]]) ou 1 round/niveau (voir texte)  
+'''Jet de sauvegarde''' aucun (voir texte) ; '''Résistance à la magie''' non
+<hr>
 Ce sort convoque une créature quasi réelle qui ressemble à un loup sanguinaire de taille G fait de fumée noire tourbillonnante. Cette créature est similaire au ''[[coursier fantôme]]'', excepté les indications ci-dessus. De plus, la créature émet une aura de peur. Une créature possédant moins de 6 [[DV]] et située à 9 mètres ou moins du loup (excepté le chevaucheur du loup) doit réussir un [[jds|jet de sauvegarde]] de [[Volonté]] pour ne pas être secouée pendant 1d4 [[round|rounds]] (c’est un effet de peur de type mental). Une créature qui réussit son jet de sauvegarde de Volonté ne peut plus être affectée par l’aura de peur de la monture pendant 24 heures.
 
 Le loup fantôme peut également combattre. Une fois par [[round]], le chevaucheur peut le diriger pour qu’il attaque en combat par une [[action libre]] (morsure +10, dégâts 1d8+6) ; à la différence d’une monture animale, ceci n’exige aucun test d’[[Équitation]] ni dressage particulier. Une fois que le loup fantôme attaque, le sort prend fin au bout de 1 round par niveau.
+
+
+
+(((
+==Coursier fantôme==
+'''École''' [[Invocation]] ([[branche création|création]]) ; '''Niveau''' [[Barde|Bard]] 3, [[Conjurateur|Con]] 2, [[Conjurateur unchained|ConU]] 2, [[Ensorceleur|Ens]]/[[Magicien|Mag]] 3, [[Magus]] 3, [[Occultiste|Occ]] 3, [[Sanguin|San]] 3, [[Spirite|Spi]] 3  
+'''Temps d'incantation''' 10 minutes  
+'''Composantes''' [[composantes|V, G]]  
+'''Portée''' 0 m  
+'''Effet''' 1 équidé quasi réel  
+'''Durée''' 1 heure/[[niveau]] ([[Présentation des sorts#DUREE|T]])  
+'''Jet de sauvegarde''' aucun ; '''Résistance à la magie''' non
+<hr>
+Cette [[invocation]] fait apparaître une créature quasi-réelle ayant la forme d’un cheval de [[taille G]]. Seul le personnage (ou celui pour qui il a lancé le sort) peut la chevaucher. Le ''coursier fantôme'' a une tête et un corps noirs, des crins gris, et des sabots translucides et [[intangible|intangibles]] qui ne font pas le moindre bruit. Il est harnaché de ce qui s’apparente à une selle, un mors et des rênes. Il ne combat jamais, mais terrifie les [[type animal|animaux]] normaux, qui se retrouvent dans l’incapacité de l’attaquer.
+
+Le destrier a une [[CA]] de 18 (-1 taille, +4 armure naturelle, +5 [[Dextérité|Dex]]) et 7 points de vie +1 par [[NLS|niveau de lanceur de sorts]]. Il se dissipe dès qu’il perd tous ses points de vie. Il se déplace à une vitesse de 6 m tous les deux [[NLS|niveaux de lanceur de sorts]], jusqu’à un maximum de 30 m au [[NLS|niveau]] 10. Il peut transporter son cavalier plus 5 kg par [[NLS|niveau de lanceur de sorts]].
+
+Le coursier hérite de certains pouvoirs en fonction du niveau de lanceur de sorts, toutes les facultés qui suivent étant cumulatives.
+* '''Niveau 8.''' le cheval peut avancer dans le sable, la boue ou les marécages sans que sa [[vitesse de déplacement]] n’en soit affectée.
+* '''Niveau 10.''' il utilise ''[[marche sur londe|marche sur l’onde]]'' à volonté (comme le sort du même nom, inutile d’entreprendre une action pour activer ce pouvoir).
+* '''Niveau 12.''' il utilise ''[[marche dans les airs]]'' à volonté (comme le sort du même nom, inutile d’entreprendre une action pour activer ce pouvoir). Après 1 [[round]] de déplacement aérien, il chute.
+* '''Niveau 14.''' le coursier peut voler en conservant la même [[vitesse de déplacement]]. Il dispose d’un bonus à la compétence [[Vol]] égal au [[NLS|niveau de lanceur de sorts]] du personnage.
+
+===Version mythique===
+{s:CMy}
+La créature qui chevauche le coursier réussit automatiquement ses tests d’[[Équitation]] pour rester en selle. Les points de vie du coursier s’élèvent à 10 plus 2 par [[NLS|niveau de lanceur de sorts]] et sa vitesse à 9 mètres par tranche de 2 niveaux de lanceur de sorts (45 mètres maximum).
+
+'''[[Amplifié]] (3ème).''' Si le personnage dépense deux utilisations de [[pouvoir mythique]], le coursier fantôme est intangible, mais son cavalier peut interagir normalement avec lui.
+)))
