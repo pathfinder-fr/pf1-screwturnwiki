@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Symbole de scrutation
 Title: Symbole de scrutation
-LastModified: 2022-06-26 11:40
+LastModified: 2025-06-24 16:37
 Categories:
   - 'Règle officielle'
   - 'Sort'
@@ -11,18 +11,33 @@ Categories:
   - 'Sort sorcière 5'
   - 'Src Art de la magie'
 ---
-{s:UM}
-'''École''' [[école Divination|Divination]] ([[branche scrutation|scrutation]]) ; '''Niveau''' [[Ensorceleur|Ens]]/[[Magicien|Mag]] 5, [[Occultiste|Occ]] 4, [[Prêtre|Prê]] 5, [[Sorcière|Sor]] 5<br>
-'''Temps d’incantation''' 10 minutes<br>
-'''Composantes''' [[Composantes|V, G, M]] (mercure et phosphore plus poudre de diamant et d'opale pour une valeur de 1 000 po)<br>
-'''Portée''' 0 m (voir description)<br>
-'''Cible''' 1 symbole<br>
-'''Durée''' (voir description)<br>
+{s:UM}'''École''' [[école Divination|Divination]] ([[branche scrutation|scrutation]]) ; '''Niveau''' [[Ensorceleur|Ens]]/[[Magicien|Mag]] 5, [[Occultiste|Occ]] 4, [[Prêtre|Prê]] 5, [[Sorcière|Sor]] 5  
+'''Temps d’incantation''' 10 minutes  
+'''Composantes''' [[Composantes|V, G, M]] (mercure et phosphore plus poudre de diamant et d'opale pour une valeur de 1 000 po)  
+'''Portée''' 0 m (voir texte)  
+'''Cible''' 1 symbole  
+'''Durée''' voir texte  
 '''Jet de sauvegarde''' non ; '''Résistance à la magie''' non
+<hr>
+Ce sort fonctionne comme ''[[symbole de mort]]'' mais quand il se déclenche, il crée un capteur sensoriel de scrutation relié au personnage et centré sur le symbole, même si le personnage et le symbole se trouvent sur des [[plans]] différents. Si le personnage est conscient, il sait immédiatement que quelqu’un a déclenché le symbole et, s’il dort d’un sommeil normal, il se réveille instantanément. Le symbole ne perturbe pas sa [[concentration]]. Le personnage peut observer la zone à travers son symbole comme s’il utilisait un sort de ''[[scrutation]]'' dont la cible serait le capteur. Une fois le symbole déclenché il reste actif pendant 10 minutes par [[NLS|niveau de lanceur de sorts]].
 
-Ce sort permet de tracer une puissante rune. Quand il se déclenche, il crée un capteur sensoriel de scrutation relié au personnage et centré sur le symbole, même si le personnage et le symbole se trouvent sur des [[plans]] différents. Si le personnage est conscient, il sait immédiatement que quelqu’un a déclenché le symbole et, s’il dort d’un sommeil normal, il se réveille instantanément. Le symbole ne perturbe pas sa [[concentration]]. Le personnage peut observer la zone à travers son symbole comme s’il utilisait un sort de ''[[scrutation]]'' dont la cible serait le capteur. Une fois le symbole déclenché il reste actif pendant 10 minutes par [[NLS|niveau de lanceur de sorts]].
+Contrairement au ''[[symbole de mort]]'', celui-ci n’est pas assimilé à un piège magique. On peut rendre le ''symbole de scrutation'' permanent à l’aide d’un sort de ''[[permanence]]'' si le lanceur de sorts est de [[NLS|niveau]] 13 ou plus et s’il paie 10 000 po.
 
-Tant qu’il n’est pas déclenché, le ''symbole de scrutation'' demeure inactif (bien qu’on le voit nettement à dix-huit mètres (12 {s:c})). Pour être vraiment efficace, un symbole doit être bien en vue. Si la rune est masquée, le sort cesse temporairement de faire effet.
+
+
+(((
+==Symbole de mort==
+'''École''' [[Nécromancie]] <nowiki>[</nowiki>[[registre|mort]]<nowiki>]</nowiki> ; '''Niveau''' [[Ensorceleur|Ens]]/[[Magicien|Mag]] 8, [[Occultiste|Occ]] 6, [[Prêtre|Prê]] 8, [[Sorcière|Sor]] 8  
+'''Temps d'incantation''' 10 minutes  
+'''Composantes''' [[composantes|V, G, M]] (du mercure et du phosphore ainsi qu’un diamant et une opale en poudre d’une valeur de 5 000 chacun)  
+'''Portée''' 0 m (voir texte)  
+'''Cible''' 1 symbole  
+'''Durée''' voir texte  
+'''Jet de sauvegarde''' [[Vigueur]], [[Présentation des sorts#JETSDESAUVEGARDE|annule]] ; '''Résistance à la magie''' oui
+<hr>
+Ce sort permet de tracer une puissante rune. Les créatures comprises dans un [[rayonnement]] de 18 m (12 {s:c}) de rayon et dont les [[points de vie]] actuels combinés ne dépassent pas 150 meurent si elles ratent leur jet de [[Vigueur]]. Les créatures les plus proches sont affectées les premières et le sort ignore celles qui ont trop de [[points de vie]] pour être affectées. Une fois le symbole activé, il se met à luire et persiste pendant dix minutes par [[NLS|niveau de lanceur de sorts]] ou jusqu’à avoir tué un nombre de créatures dont le total de [[points de vie]] ne dépasse pas 150. Toute créature qui entre dans la zone est soumise à l’effet du symbole. Tant qu’elle reste dans la zone, elle ne doit faire qu’un seul [[jet de sauvegarde]], par contre, si elle la quitte et y revient ensuite, elle doit en faire un nouveau.
+
+Tant qu’il n’est pas déclenché, le ''symbole de mort'' demeure inactif (bien qu’on le voie nettement à dix-huit mètres (12 {s:c})). Pour être vraiment efficace, un symbole doit être bien en vue. Si la rune est masquée, le sort cesse temporairement de faire effet.
 
 Par défaut, le symbole se déclenche lorsqu’une créature se livre à l’une des activités suivantes (au choix du lanceur de sorts) : regarder le symbole, le lire, le toucher, passer dessus (s’il a été tracé au sol), ou franchir une porte (une arche, etc.) arborant la rune. Pour déclencher l’effet d’un symbole, il faut se trouver à dix-huit mètres (12 {s:c}) ou moins. Une fois le sort lancé, il est impossible de modifier les conditions de déclenchement.
 
@@ -34,12 +49,11 @@ Quand le personnage trace le symbole avec soin, il peut lui associer un mot de p
 
 Le personnage peut également immuniser plusieurs créatures, mais cela augmente le temps d’incantation. Pour une ou deux créatures, le temps supplémentaire est négligeable, mais pour un petit groupe (dix personnes), le temps d’incantation augmente d’une heure. Pour un groupe plus important (vingt-cinq créatures), l’incantation dure un jour. Pour les groupes plus importants encore, la durée augmente de façon proportionnelle. Les intéressés ne déclenchent pas le symbole et ils sont immunisés, même s’ils se trouvent dans son rayon d’effet quand il est activé. Le personnage n’est jamais affecté par ses propres symboles et il ne risque pas de les activer, même par accident.
 
-''[[Lecture de la magie]]'' permet d’identifier un ''symbole de scrutation'' en réussissant un test d’[[Art de la magie]] (DD 10 + [[niveau du sort]]). Si le symbole se déclenche sur simple lecture, il s’active alors.
+''[[Lecture de la magie]]'' permet d’identifier un ''symbole de mort'' en réussissant un test d’[[Art de la magie]] (DD 10 + [[niveau du sort]]). Si le symbole se déclenche sur simple lecture, il s’active alors.
 
 La rune peut être effacée par une ''[[dissipation de la magie]]'' la prenant spécifiquement pour cible. ''[[Effacement]]'' reste sans effet sur un symbole. Détruire la surface sur laquelle le symbole est tracé détruit également ce dernier, tout en déclenchant ses effets.
 
-On peut rendre le ''symbole de scrutation'' permanent à l’aide d’un sort de ''[[permanence]]'' si le lanceur de sorts est de [[NLS|niveau]] 13 ou plus et s’il paie 10 000 po. S’il est désactivé ou s’il a affecté son nombre maximum de [[points de vie]], il reste inactif pendant dix minutes, après quoi on peut le déclencher à nouveau.
+On peut user de ''[[permanence]]'' sur le sort ''symbole de mort''. S’il est désactivé ou s’il a affecté son nombre maximum de [[points de vie]], il reste inactif pendant dix minutes, après quoi on peut le déclencher à nouveau.
 
-(((Ce sort fonctionne comme ''[[symbole de mort]]'' mais quand il se déclenche, il crée un capteur sensoriel de scrutation relié au personnage et centré sur le symbole, même si le personnage et le symbole se trouvent sur des [[plans]] différents. Si le personnage est conscient, il sait immédiatement que quelqu’un a déclenché le symbole et, s’il dort d’un sommeil normal, il se réveille instantanément. Le symbole ne perturbe pas sa [[concentration]]. Le personnage peut observer la zone à travers son symbole comme s’il utilisait un sort de ''[[scrutation]]'' dont la cible serait le capteur. Une fois le symbole déclenché il reste actif pendant 10 minutes par [[NLS|niveau de lanceur de sorts]].
-
-Contrairement au ''[[symbole de mort]]'', celui-ci n’est pas assimilé à un piège magique. On peut rendre le ''symbole de scrutation'' permanent à l’aide d’un sort de ''[[permanence]]'' si le lanceur de sorts est de [[NLS|niveau]] 13 ou plus et s’il paie 10 000 po.)))
+''Note.'' Les pièges magiques tels que ''symbole de mort'' sont extrêmement difficiles à détecter et à désamorcer. Un [[roublard]] (et lui seul) peut utiliser sa compétence de [[Perception]] pour les repérer, puis de [[Sabotage]] pour les mettre hors d’état. Pour chacun des deux tests, le [[DD]] s’élève à 25 + [[niveau du sort]], soit 33 pour ''symbole de mort''.
+)))

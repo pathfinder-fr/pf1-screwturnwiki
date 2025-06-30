@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Message suggestif
 Title: Message suggestif
-LastModified: 2023-01-25 15:06
+LastModified: 2025-06-24 18:56
 Categories:
   - 'Sort barde 3'
   - 'Sort hypnotiseur 3'
@@ -12,8 +12,27 @@ Categories:
   - 'Sort sorcière 4'
   - 'Src Ultimate Intrigue'
 ---
-{s:cs}{s:UI}'''École'''  [[Enchantement]] ([[branche coercition|coercition]]) <nowiki>[</nowiki>[[registre|langage, effet mental]]<nowiki>]</nowiki> ; '''Niveau''' [[Barde|Bard]] 3, [[Ensorceleur|Ens]]/[[Magicien|Mag]] 4, [[Hypnotiseur|Hyp]] 3, [[Médium|Méd]] 3, [[Occultiste|Occ]] 4, [[Psychiste|Psy]] 3, [[Sorcière|Sor]] 4  
-'''Durée''' 10 minutes/niveau, puis 1 heure/niveau ou jusqu'à accomplissement (T) ; voir description  
-'''Jet de sauvegarde''' Volonté, annule (voir description) ; '''Résistance à la magie''' oui ; voir description
-
+{s:UI}'''École'''  [[Enchantement]] ([[branche coercition|coercition]]) <nowiki>[</nowiki>[[registre|langage, effet mental]]<nowiki>]</nowiki> ; '''Niveau''' [[Barde|Bard]] 3, [[Ensorceleur|Ens]]/[[Magicien|Mag]] 4, [[Hypnotiseur|Hyp]] 3, [[Médium|Méd]] 3, [[Occultiste|Occ]] 4, [[Psychiste|Psy]] 3, [[Sorcière|Sor]] 4  
+'''Temps d'incantation''' 1 [[action simple]]  
+'''Composantes''' [[composantes|V, G, F]] (un petit morceau de fil de cuivre)  
+'''Portée''' moyenne (30 m + 3 m/[[niveau]]) (20 {s:c} + 2 {s:c}/[[niveau]])  
+'''Cibles''' 1 créature/[[niveau]]  
+'''Durée''' 10 minutes/niveau, puis 1 heure/niveau ou jusqu'à accomplissement ([[Présentation des sorts#DUREE|T]]) ; voir texte  
+'''Jet de sauvegarde''' [[Volonté]], [[Présentation des sorts#JETSDESAUVEGARDE|annule]] (voir texte) ; '''Résistance à la magie''' oui (voir texte)
+<hr>
 Ce sort fonctionne d'abord comme ''[[message]]'' (sans autoriser de jet de sauvegarde ou de résistance à la magie). Une fois que le ''message'' est actif, le personnage peut se concentrer par une [[action simple]] afin d'émettre une ''[[suggestion]]'' à une cible dans le cadre du message envoyé. La [[RM|résistance à la magie]] et le jet de [[Volonté]] s'appliquent à la ''suggestion'', et elle dure pendant 1 heure par niveau ou jusqu'à son accomplissement.
+
+
+
+(((
+==Message==
+'''École''' [[Transmutation]] <nowiki>[</nowiki>[[registre|langage]]<nowiki>]</nowiki> ; '''Niveau''' [[Barde|Bard]] 0, [[Conjurateur|Con]] 0, [[Conjurateur unchained|ConU]] 0, [[Hypnotiseur|Hyp]] 0, [[Ensorceleur|Ens]]/[[Magicien|Mag]] 0, [[Médium|Méd]] 0, [[Occultiste|Occ]] 0, [[Psychiste|Psy]] 0, [[Sorcière|Sor]] 0, [[Spirite|Spi]] 0  
+'''Temps d'incantation''' 1 [[action simple]]  
+'''Composantes''' [[composantes|V, G, F]] (un petit morceau de fil de cuivre)  
+'''Portée''' moyenne (30 m + 3 m/[[niveau]]) (20 {s:c} + 2 {s:c}/[[niveau]])  
+'''Cibles''' 1 créature/[[niveau]]  
+'''Durée''' 10 minutes/[[niveau]]  
+'''Jet de sauvegarde''' aucun ; '''Résistance à la magie''' non
+<hr>
+Cette incantation permet de chuchoter des messages. Les personnes alentour discernent le message si elles réussissent un test de [[Perception]] [[DD]] 25. Le personnage commence par indiquer du doigt toutes les créatures à inclure dans le sort. Par la suite, dès qu’il murmure, le message est entendu par tous les destinataires désignés, à condition qu’ils se trouvent dans les limites de portée. L’effet du sort est bloqué par un silence d’origine magique, 30 cm de pierre, 2,5 cm de métal, une feuille de plomb, ou 90 cm de bois ou de terre. Le message n’a pas besoin de se déplacer en ligne droite. Il peut contourner un obstacle physique, à condition que le chemin qu’il emprunte reste à l’intérieur des limites de portée. Les créatures recevant le message peuvent à leur tour chuchoter une réponse, que le personnage entend. Le sort transmet les sons, pas le sens ; il ne permet donc pas de franchir la barrière du langage. Pour énoncer un message, il est nécessaire de le prononcer très bas.
+)))

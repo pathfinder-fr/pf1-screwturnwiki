@@ -1,18 +1,40 @@
 ---
 Name: Pathfinder-RPG.Œil vigilant
 Title: Œil vigilant
-LastModified: 2020-07-28 19:34
+LastModified: 2025-06-23 18:40
 Categories:
-  - 'Manuel des races'
   - 'Sort'
   - 'Sort paladin 1'
   - 'Sort prêtre 1'
+  - 'Src Manuel des races'
 ---
-{s:racial|Nain|nains|Illustrations/PNJ/Nain.jpg}{s:MR}'''École''' [[Abjuration]] ; '''Niveau''' [[paladin|Pal]] 1, [[prêtre|Prê]] 1  
+{s:racial|Nain|nains|Illustrations/PNJ/Nain.jpg}{s:divin|Folgrit|}{s:MR}'''École''' [[Abjuration]] ; '''Niveau''' [[paladin|Pal]] 1, [[prêtre|Prê]] 1  
 '''Temps d'incantation''' 1 [[action simple]]  
 '''Composantes''' [[composantes|V, G, F]] (une paire d’anneaux en argent ou en or d’une valeur de 10 po, portés par le lanceur de sorts et la cible)  
-'''Durée''' 1 minute/niveau
-
-''Ce sort est réservé aux personnages qui vénèrent la déesse mère naine.''
-
+'''Portée''' courte (7,50 m + 1,50 m/2 [[niveau|niveaux]]) (5 {s:c} + 1 {s:c}/2 [[niveau|niveaux]])  
+'''Cible''' 1 créature  
+'''Durée''' 1 minute/niveau  
+'''Jet de sauvegarde''' [[Volonté]], [[Présentation des sorts#JETSDESAUVEGARDE|annule]] ([[Présentation des sorts#JETSDESAUVEGARDE|inoffensif]]) ; '''Résistance à la magie''' oui ([[Présentation des sorts#JETSDESAUVEGARDE|inoffensif]])
+<hr>
 Ce sort reproduit la protection maternelle dont fait preuve la déesse mère naine. Il fonctionne comme ''[[protection dautrui|protection d’autrui]]'', sauf exception indiquées ci-dessus, et le personnage doit maintenir une ligne d’effet avec la cible.
+
+
+
+(((
+==Protection d’autrui==
+'''École''' [[Abjuration]] ; '''Niveau''' [[Inquisiteur|Inq]] 2, [[Paladin|Pal]] 2, [[Prêtre|Prê]] 2, [[Psychiste|Psy]] 2  
+'''Temps d'incantation''' 1 [[action simple]]  
+'''Composantes''' [[composantes|V, G, F]] (deux anneaux en platine (valeur minimale 50 po chacun) devant être portés, l’un par le bénéficiaire, l’autre par le lanceur de sorts)  
+'''Portée''' courte (7,50 m + 1,50 m/2 [[niveau|niveaux]]) (5 {s:c} + 1 {s:c}/2 [[niveau|niveaux]])  
+'''Cible''' 1 créature  
+'''Durée''' 1 heure/[[niveau]] ([[Présentation des sorts#DUREE|T]])  
+'''Jet de sauvegarde''' [[Volonté]], [[Présentation des sorts#JETSDESAUVEGARDE|annule]] ([[Présentation des sorts#JETSDESAUVEGARDE|inoffensif]]) ; '''Résistance à la magie''' oui ([[Présentation des sorts#JETSDESAUVEGARDE|inoffensif]])
+<hr>
+Cette incantation protège la cible et crée un lien entre elle et le lanceur de sorts, qui récupère une partie des blessures infligées à l’individu protégé. Ce dernier gagne un bonus de parade de +1 à la [[CA]] et un bonus de résistance de +1 aux [[jet de sauvegarde|jets de sauvegarde]]. De plus, les attaques et sorts (ou pouvoirs, etc.) lui infligent deux fois moins de dégâts qu’ils ne devraient car c’est le lanceur de sorts qui subit l’autre moitié. Les attaques ne faisant pas perdre de points de vie (effets de [[charme]], [[affaiblissement temporaire|affaiblissements temporaires]] de caractéristique, [[absorption dénergie|absorption d’énergie]], effets de [[registre|mort]], etc.) affectent normalement la cible. Si la cible perd des points de vie à cause d’une perte de points de [[Constitution]], elle ne partage pas ces dégâts qui ne découlent pas d’une attaque directe. Quand le sort s’achève, l’individu protégé encaisse de nouveau normalement les blessures, mais celles absorbées par le lanceur de sorts ne lui sont pas transmises à retardement.
+
+Le sort cesse immédiatement si les deux personnages liés s’écartent trop l’un de l’autre et dépassent les limites de portée.
+
+===Version mythique===
+{s:CMy}
+La portée du sort s’élève à longue (120 mètres + 12 mètres par [[niveau de lanceur de sorts]]). Soustrayez le [[grade]] du personnage aux dégâts qui lui sont transférés par le biais du lien mystique avant de les appliquer (1 point de dégâts minimum). Lorsqu’il utilise son aptitude de montée en puissance pour modifier un jet de sauvegarde contre un effet qui affecte également l’allié connecté, ce dernier applique également le résultat du dé bonus de montée en puissance du personnage à son jet de sauvegarde. Si l’allié utilise également sa propre aptitude de [[montée en puissance]], il conserve le meilleur résultat entre le sien et celui obtenu par le personnage.
+)))

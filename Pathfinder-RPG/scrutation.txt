@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.scrutation
 Title: Scrutation
-LastModified: 2022-11-23 14:34
+LastModified: 2025-06-23 18:11
 Categories:
   - 'Règle officielle'
   - 'Sort'
@@ -18,45 +18,44 @@ Categories:
   - 'Src Manuel des joueurs'
 ---
 {s:Desambi|Il s'agit aussi d'une [[branche scrutation|branche]] de l'école de [[Divination]].}
-'''École''' [[Divination]] ([[branche scrutation|scrutation]]) ; '''Niveau''' [[Barde|Bard]] 3, [[Chaman|Cham]] 4, [[Druide|Dru]] 4, [[Hypnotiseur|Hyp]] 3, [[Ensorceleur|Ens]]/[[Magicien|Mag]] 4, [[Médium|Méd]] 3, [[Occultiste|Occ]] 4, [[Prêtre|Prê]] 5, [[Psychiste|Psy]] 4, [[Sorcière|Sor]] 4, [[Spirite|Spi]] 5<br/>
-'''Temps d'incantation''' 1 heure<br/>
-'''Composantes''' [[composantes|V, G, M/FD]] (un bassin d’eau claire)[[composantes|, F]](un miroir en argent (1 000 po))<br/>
-'''Portée''' voir description<br/>
-'''Effet''' capteur magique<br/>
-'''Durée''' 1 minute/[[niveau]]<br/>
+'''École''' [[Divination]] ([[branche scrutation|scrutation]]) ; '''Niveau''' [[Barde|Bard]] 3, [[Chaman|Cham]] 4, [[Druide|Dru]] 4, [[Hypnotiseur|Hyp]] 3, [[Ensorceleur|Ens]]/[[Magicien|Mag]] 4, [[Médium|Méd]] 3, [[Occultiste|Occ]] 4, [[Prêtre|Prê]] 5, [[Psychiste|Psy]] 4, [[Sorcière|Sor]] 4, [[Spirite|Spi]] 5  
+'''Temps d'incantation''' 1 heure  
+'''Composantes''' [[composantes|V, G, M/FD]] (un bassin d’eau claire), [[composantes|F]](un miroir en argent (1 000 po))  
+'''Portée''' voir description  
+'''Effet''' capteur magique  
+'''Durée''' 1 minute/[[niveau]]  
 '''Jet de sauvegarde''' [[Volonté]], [[Présentation des sorts#JETSDESAUVEGARDE|annule]] ; '''Résistance à la magie''' oui
-
+<hr>
 Ce sort permet d’espionner une créature qui peut se trouver à n’importe quelle distance. Si la cible réussit un jet de [[Volonté]], le sort échoue. La difficulté dépend de la connaissance que le lanceur de sorts a du sujet et des liens qui les unissent. Si la cible se trouve dans un autre plan d’existence, elle bénéficie d'un bonus de +5 à son jet de [[Volonté]].
 
-<center>
-{| CLASS="tablo"
+<table width="100%"><tr><td width="49%">
+{| CLASS="tablo centre autoalt"
 |- CLASS="titre"
-| Connaissance || Modificateur du jet de Volonté
+| Connaissance || Modificateur du<br/>jet de Volonté
 |- CLASS="premier"
 | Aucune* || +10
-|- CLASS="alt"
+|-
 | Rapportée (le personnage a seulement entendu parler du sujet) || +5
 |-
 | Personnelle (le personnage a déjà rencontré le sujet) || +0
-|- CLASS="alt"
+|-
 | Grande (le personnage connaît bien le sujet) || -5
+|- CLASS="note"
+| COLSPAN="2" | ''(*) Pour pouvoir l’espionner, le lanceur de sorts doit posséder un lien le rapprochant d’une créature qu’il ne connaît pas (voir ci-dessous).''
 |}
-</center>
-
-''(*) Pour pouvoir l’espionner, le lanceur de sorts doit posséder un lien le rapprochant d’une créature qu’il ne connaît pas (voir ci-dessous).''
-
-<center>
-{| CLASS="tablo"
+</td><td width="2%">
+</td><td width="49%">
+{| CLASS="tablo centre autoalt"
 |- CLASS="titre"
-| Lien || Modificateur du jet de Volonté
+| Lien || Modificateur du<br/>jet de Volonté
 |- CLASS="premier"
 | Esquisse ou portrait || -2
-|- CLASS="alt"
+|-
 | Possession matérielle ou vêtement || -4
 |-
 | Partie du corps (mèche de cheveux, rognures d’ongles, etc.) || -10
 |}
-</center>
+</td></tr></table>
 
 En cas d’échec au [[jet de sauvegarde]], le personnage voit et entend le sujet et ses environs immédiats (trois mètres dans toutes les directions). Si le sujet se déplace, le capteur le suit à une vitesse allant jusqu’à 45 m par round.
 
@@ -64,3 +63,17 @@ Comme pour tous les sorts de [[Divination]] ([[branche scrutation|scrutation]]),
 
 Si la cible réussit son [[jet de sauvegarde]], le personnage ne peut pas essayer de la scruter à nouveau avant vingt-quatre heures.
 
+
+
+((({s:sortssimilaires|scrutation}
+==[[Scrutation suprême]]==
+'''École''' [[Divination]] ([[branche scrutation|scrutation]]) ; '''Niveau''' [[Barde|Bard]] 6, [[Chaman|Cham]] 7, [[Druide|Dru]] 7, [[Hypnotiseur|Hyp]] 6, [[Ensorceleur|Ens]]/[[Magicien|Mag]] 7, [[Occultiste|Occ]] 6, [[Prêtre|Prê]] 7, [[Psychiste|Psy]] 7, [[Sorcière|Sor]] 7  
+'''Temps d'incantation''' 1 [[action simple]]  
+'''Composantes''' [[composantes|V, G]]  
+'''Portée''' voir description  
+'''Effet''' capteur magique  
+'''Durée''' 1 heure/[[niveau]]  
+'''Jet de sauvegarde''' [[Volonté]], [[Présentation des sorts#JETSDESAUVEGARDE|annule]] ; '''Résistance à la magie''' oui
+<hr>
+Ce sort ressemble à ''[[scrutation]]'', sauf pour ce qui est des détails indiqués ci-dessus. De plus, les sorts suivants peuvent être lancés par l’intermédiaire du capteur sans risque d’échec : ''[[détection de la Loi]]'', ''[[détection du Bien]]'', ''[[détection du Chaos]]'', ''[[détection du Mal]]'', ''[[don des langues]]'', ''[[lecture de la magie]]'' et ''[[message]]''.
+)))
