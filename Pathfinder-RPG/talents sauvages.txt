@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.talents sauvages
 Title: Les talents sauvages du cinétiste
-LastModified: 2024-10-02 18:57
+LastModified: 2026-02-04 17:49
 ---
 {s:menuclassesoccultes}<div style="background-color: #fff; float: right; padding: 0 0 12px 12px">{toc}</div>{s:AO}
 Les talents sauvages des cinétistes sont l’expression de leurs pouvoirs.
@@ -297,7 +297,7 @@ Toutes les cibles doivent se trouver à 9 mètres les unes des autres. Le person
 {s:Reference|EMPALEMENT}
 __'''Empalement'''__  
 '''Élément''' [[Éléments#BOIS|Bois]], [[Éléments#EAU|Eau]] ou [[Éléments#TERRE|Terre]] ; '''Type''' injection de forme ; '''Niveau''' 3 ; '''Brûlure''' 2  
-'''Explosions associées''' [[talents sauvages#EXPLOSIONDEGLACE|Glace]], [[talents sauvages#EXPLOSIONDÉMETAL|Métal]], [[talents sauvages#EXPLOSIONDETERRE|Terre]]  
+'''Explosions associées''' [[talents sauvages#EXPLOSIONAUTOMNALE|Automnale]], [[talents sauvages#EXPLOSIONDEBOIS|Bois]], [[talents sauvages#EXPLOSIONESTIVALE|Estivale]], [[talents sauvages#EXPLOSIONDEGLACE|Glace]], [[talents sauvages#EXPLOSIONHIVERNALE|Hivernale]], [[talents sauvages#EXPLOSIONDÉMETAL|Métal]], [[talents sauvages#EXPLOSIONPRINTANIÈRE|Printanière]], [[talents sauvages#EXPLOSIONDETERRE|Terre]]  
 '''Jet de sauvegarde''' aucun  
 Le personnage crée une longue pointe aiguisée de matière élémentaire qu’il étend afin d’empaler plusieurs adversaires alignés. Il effectue un unique [[valeurs de combat#JETDATTAQUE|jet d’attaque]] contre chacun des objets ou chacune des créatures situés sur une ligne de 9 mètres, en commençant par la cible la plus proche. Si le résultat aboutit à une probabilité de critique, il effectue le jet de confirmation contre la première cible touchée seulement. Il détermine les dégâts contre chaque cible touchée, en commençant par la plus proche. Si son attaque touche une cible mais ne lui inflige aucun dégât physique, la pointe ne parvient pas à la transpercer et l’explosion injectée s’arrête là. Une explosion qui bénéficie de l’injection d’empalement peut traverser des obstacles solides mais elle doit infliger suffisamment de dégâts pour détruire un obstacle afin de prolonger son extension. Les [[talents sauvages#EXPLOSIONDETERRE|explosions de terre]] et [[talents sauvages#EXPLOSIONDÉMETAL|de métal]] injectées infligent toujours des dégâts perforants.
 
@@ -385,7 +385,7 @@ Des vrilles capables d’immobiliser les adversaires surgissent de l’[[talents
 {s:Reference|INJECTIONDENCHEVÊTREMENT}
 __'''Injection d’enchevêtrement'''__  
 '''Élément''' [[Éléments#BOIS|Bois]], [[Éléments#EAU|Eau]] ou [[Éléments#TERRE|Terre]] ; '''Type''' injection de substance ; '''Niveau''' 2 ; '''Brûlure''' 2  
-'''Explosions associées''' [[talents sauvages#EXPLOSIONDEBLIZZARD|Blizzard]], [[talents sauvages#EXPLOSIONDEBOUE|Boue]], [[talents sauvages#EXPLOSIONDEFROID|Froid]], [[talents sauvages#EXPLOSIONDEGLACE|Glace]], [[talents sauvages#EXPLOSIONDEMAGMA|Magma]], [[talents sauvages#EXPLOSIONDÉMETAL|Métal]], [[talents sauvages#EXPLOSIONDESABLE|Sable]], [[talents sauvages#EXPLOSIONDETERRE|Terre]]  
+'''Explosions associées''' [[talents sauvages#EXPLOSIONAUTOMNALE|Automnale]], [[talents sauvages#EXPLOSIONDEBLIZZARD|Blizzard]], [[talents sauvages#EXPLOSIONDEBOIS|Bois]], [[talents sauvages#EXPLOSIONDEBOUE|Boue]], [[talents sauvages#EXPLOSIONESTIVALE|Estivale]], [[talents sauvages#EXPLOSIONDEFROID|Froid]], [[talents sauvages#EXPLOSIONDEGLACE|Glace]], [[talents sauvages#EXPLOSIONHIVERNALE|Hivernale]], [[talents sauvages#EXPLOSIONDEMAGMA|Magma]], [[talents sauvages#EXPLOSIONDÉMETAL|Métal]], [[talents sauvages#EXPLOSIONPRINTANIÈRE|Printanière]], [[talents sauvages#EXPLOSIONDESABLE|Sable]], [[talents sauvages#EXPLOSIONDETERRE|Terre]]  
 '''Jet de sauvegarde''' Réflexes, annule  
 L’explosion cinétique du personnage cerne ses adversaires de matière élémentaire. Chaque fois qu’une explosion qui bénéficie de cette injection inflige des dégâts à un adversaire, celui-ci devient [[enchevêtré]] pendant 1 minute. L’adversaire peut supprimer cet état préjudiciable par une [[types dactions#SIMPLE|action simple]] en réussissant un test d’[[Évasion]] ou de [[Force]] (contre le même DD que celui du jet de sauvegarde de son explosion cinétique) ou en infligeant un nombre de points de dégâts à la matière enchevêtrante égal au double de son niveau de cinétiste (la matière possède une solidité de 0). Si l’adversaire était déjà [[enchevêtré]] par cette injection et rate son jet de sauvegarde contre une deuxième possibilité d’enchevêtrement provoquée par cette injection, la masse accumulée de matière élémentaire fusionne avec le sol et bloque l’adversaire sur place comme s’il était attaché à un objet immobile.
 
@@ -420,7 +420,7 @@ Le vent injecté par le personnage affecte son explosion qui produit les mêmes 
 {s:Reference|INJECTIONDEBOUSCULADE}
 __'''Injection de bousculade'''__  
 '''Élément''' [[Éléments#AIR|Air]], [[Éléments#BOIS|Bois]], [[Éléments#EAU|Eau]], [[Éléments#ÉTHER|Éther]], [[Éléments#TERRE|Terre]] ou [[Éléments#VIDE|Vide]] ; '''Type''' injection de substance ; '''Niveau''' 1 ; Brûlure 1  
-'''Explosions associées''' [[talents sauvages#EXPLOSIONDAIR|Air]], [[talents sauvages#EXPLOSIONDEBLIZZARD|Blizzard]], [[talents sauvages#EXPLOSIONDEBOUE|Boue]], [[talents sauvages#EXPLOSIONDEAU|Eau]], [[talents sauvages#EXPLOSIONDEAUÉLECTRIFIÉE|Eau éléctrifiée]], [[talents sauvages#EXPLOSIONDEMAGMA|Magma]], [[talents sauvages#EXPLOSIONDÉMETAL|Métal]], [[talents sauvages#EXPLOSIONDESABLE|Sable]], [[talents sauvages#EXPLOSIONTÉLÉCINÉTIQUE|Télécinétique]], [[talents sauvages#EXPLOSIONDETERRE|Terre]], [[talents sauvages#EXPLOSIONDEVAPEUR|Vapeur]]  
+'''Explosions associées''' [[talents sauvages#EXPLOSIONDAIR|Air]], [[talents sauvages#EXPLOSIONAUTOMNALE|Automnale]], [[talents sauvages#EXPLOSIONDEBLIZZARD|Blizzard]], [[talents sauvages#EXPLOSIONDEBOIS|Bois]], [[talents sauvages#EXPLOSIONDEBOUE|Boue]], [[talents sauvages#EXPLOSIONDEAU|Eau]], [[talents sauvages#EXPLOSIONDEAUÉLECTRIFIÉE|Eau éléctrifiée]], [[talents sauvages#EXPLOSIONESTIVALE|Estivale]], [[talents sauvages#EXPLOSIONHIVERNALE|Hivernale]], [[talents sauvages#EXPLOSIONDEMAGMA|Magma]], [[talents sauvages#EXPLOSIONDÉMETAL|Métal]], [[talents sauvages#EXPLOSIONPRINTANIÈRE|Printanière]], [[talents sauvages#EXPLOSIONDESABLE|Sable]], [[talents sauvages#EXPLOSIONTÉLÉCINÉTIQUE|Télécinétique]], [[talents sauvages#EXPLOSIONDETERRE|Terre]], [[talents sauvages#EXPLOSIONDEVAPEUR|Vapeur]]  
 '''Jet de sauvegarde''' aucun  
 La vitesse à laquelle est propulsée l’explosion cinétique du personnage repousse ses adversaires. Le personnage effectue un [[BMO|test de manoeuvre offensive]] de [[manoeuvres offensives#BOUSCULADE|bousculade]] contre chaque cible blessée par son explosion injectée, en appliquant son modificateur de [[Constitution]] à la place de son modificateur de [[Force]] pour déterminer son bonus. Cette injection peut bousculer un adversaire sur 1,50 mètre au maximum. Le personnage peut augmenter le coût en brûlure de cette injection pour augmenter de 1,50 mètre par point de brûlure accepté la distance maximale de bousculade. Il ne peut pas utiliser cette injection avec une injection de forme telle que celle du [[talents sauvages#NUAGE|nuage]], car ce type d’explosion cinétique ne suit pas une trajectoire et ne peut donc pas pousser dans une direction donnée.
 
@@ -520,15 +520,15 @@ Le personnage agrémente les éclairs qu’il crée d’un grondement de tonnerr
 {s:cs}{s:OO}{s:Reference|INJECTIONDETOXINE}
 __'''Injection de toxine'''__  
 '''Élément''' [[Éléments#BOIS|Bois]] ; '''Type''' injection de substance ; '''Niveau''' 4 ; '''Brûlure''' 3  
-'''Explosions associées''' [[talents sauvages#EXPLOSIONAUTOMNALE|Explosion automnale]], [[talents sauvages#EXPLOSIONDEBOIS|bois]], [[talents sauvages#EXPLOSIONESTIVALE|Explosion estivale]], [[talents sauvages#EXPLOSIONHIVERNALE|Explosion hivernale]], [[talents sauvages#EXPLOSIONPRINTANIÈRE|Explosion printanière]]  
+'''Explosions associées''' [[talents sauvages#EXPLOSIONAUTOMNALE|Automnale]], [[talents sauvages#EXPLOSIONDEBOIS|Bois]], [[talents sauvages#EXPLOSIONESTIVALE|Estivale]], [[talents sauvages#EXPLOSIONHIVERNALE|Hivernale]], [[talents sauvages#EXPLOSIONPRINTANIÈRE|Printanière]]  
 '''Jet de sauvegarde''' Vigueur, annule  
 Les végétaux de l'explosion du personnage sont légèrement toxiques. Toutes les créatures qui subissent des dégâts tranchants ou perforants par l’explosion injectée sont [[fiévreux|fiévreuses]] pendant 1 [[round]].
 
 {s:cs}{s:OO}{s:Reference|INJECTIONDETOXINESUPRÊME}
 __'''Injection de toxine suprême'''__  
 '''Élément''' [[Éléments#BOIS|Bois]] ; '''Type''' injection de substance ; '''Niveau''' 4 ; '''Brûlure''' 3  
-'''Conditions''' [[talents sauvages#INJECTIONTOXIQUE|injection toxique]]  
-'''Explosions associées''' [[talents sauvages#EXPLOSIONAUTOMNALE|Explosion automnale]], [[talents sauvages#EXPLOSIONDEBOIS|bois]], [[talents sauvages#EXPLOSIONESTIVALE|Explosion estivale]], [[talents sauvages#EXPLOSIONHIVERNALE|Explosion hivernale]], [[talents sauvages#EXPLOSIONPRINTANIÈRE|Explosion printanière]]  
+'''Conditions''' [[talents sauvages#INJECTIONDETOXINE|injection de toxine]]  
+'''Explosions associées''' [[talents sauvages#EXPLOSIONAUTOMNALE|Automnale]], [[talents sauvages#EXPLOSIONDEBOIS|Bois]], [[talents sauvages#EXPLOSIONESTIVALE|Estivale]], [[talents sauvages#EXPLOSIONHIVERNALE|Hivernale]], [[talents sauvages#EXPLOSIONPRINTANIÈRE|Printanière]]  
 '''Jet de sauvegarde''' Vigueur, annule  
 Les toxines des plantes du personnage sont plus virulentes. Chaque fois qu'il utilise cette injection, il choisit une caractéristique physique. Les créatures qui subissent des dégâts tranchants ou perforants par l’explosion injectée sont explosées à son [[Poisons|poison]].  
 ''Explosion''— blessure ; ''jds'' [[Vigueur]] ; ''fréquence'' 1/[[round]] pendant 6 rounds ; ''effet'' 1d2 [[Force]] ou [[Dextérité]], ou [[Constitution]] ; ''guérison'' 2 réussites consécutives.
@@ -596,7 +596,7 @@ Le personnage crée une singularité grandissante. Il choisit une intersection d
 __'''Terre mortelle'''__  
 '''Élément''' [[Éléments#BOIS|Bois]] ou [[Éléments#TERRE|Terre]] ; '''Type''' injection de forme ; '''Niveau''' 6 ; '''Brûlure''' 4  
 '''Condition''' [[talents sauvages#EXTENSIONDEPORTÉE|extension de portée]]  
-'''Explosions associées''' [[talents sauvages#EXPLOSIONDEBOUE|Boue]], [[talents sauvages#EXPLOSIONDEMAGMA|Magma]], [[talents sauvages#EXPLOSIONDÉMETAL|Métal]], [[talents sauvages#EXPLOSIONDETERRE|Terre]]  
+'''Explosions associées''' [[talents sauvages#EXPLOSIONAUTOMNALE|Automnale]], [[talents sauvages#EXPLOSIONDEBOIS|Bois]], [[talents sauvages#EXPLOSIONDEBOUE|Boue]], [[talents sauvages#EXPLOSIONESTIVALE|Estivale]], [[talents sauvages#EXPLOSIONHIVERNALE|Hivernale]], [[talents sauvages#EXPLOSIONDEMAGMA|Magma]], [[talents sauvages#EXPLOSIONDÉMETAL|Métal]], [[talents sauvages#EXPLOSIONPRINTANIÈRE|Printanière]], [[talents sauvages#EXPLOSIONDETERRE|Terre]]  
 '''Jet de sauvegarde''' aucun  
 Le personnage affecte une surface composée de terre sur un rayon de 6 mètres où il le souhaite à 36 mètres ou moins de lui (s’il produit une [[talents sauvages#EXPLOSIONDÉMETAL|explosion de métal]], cette injection affecte à la place une surface métallique). Le sol se met alors à trembler et à se déformer dans la zone affectée. Toutes les créatures et les objets en contact avec le sol situés dans la zone au moment de sa création subissent automatiquement (sans pouvoir faire de jet de sauvegarde) le quart du montant de dégâts normalement infligés par son explosion. Dès qu’une créature pénètre dans la zone, elle subit la moitié du montant de dégâts normalement infligés par son explosion. C’est également le cas des créatures qui terminent leur tour dans la zone. La zone dans son ensemble est considérée comme un [[terrain difficile]]. L’injection reste en place pendant un nombre de rounds égal au modificateur de [[Constitution]] du personnage ou jusqu’à ce qu’il l’utilise à nouveau.
 
