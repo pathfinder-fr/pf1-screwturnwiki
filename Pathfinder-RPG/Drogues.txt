@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Drogues
 Title: Les drogues et la dépendance
-LastModified: 2023-03-21 17:24
+LastModified: 2026-06-07 01:50
 Categories:
   - 'Règle officielle'
   - 'Src Guide du maître'
@@ -80,7 +80,7 @@ Il existe de nombreuses drogues, dans le monde réel comme dans les mondes fanta
 
 <table width="100%"><tr><td width="49%">
 <div class="BD">
-{s:BDTitre|{s:Reference|ABSINTHEELFIQUE}Absinthe elfique}
+{s:Reference|ABSINTHEELFIQUE}{s:BDTitre|Absinthe elfique}
 * '''Type''' ingestion ; '''Dépendance''' modérée, '''[[Vigueur]]''' [[DD]] 16
 * '''Prix''' 500 po
 * '''Effet''' 1 heure ; +1d4 [[Charisme]]
@@ -89,7 +89,7 @@ Il existe de nombreuses drogues, dans le monde réel comme dans les mondes fanta
 </div>
 
 <div class="BD">
-{s:BotD}{s:BDTitre|{s:Reference|ADYTON}Adyton}
+{s:Reference|ADYTON}{s:BDTitre|Adyton|{s:BotD}}
 * '''Type''' contact; '''Dépendance''' sévère, '''[[Vigueur]]''' [[DD]] 20
 * '''Prix''' 2 000 po
 * '''Effet''' Une créature affectée qui réussit un jet de sauvegarde de [[Volonté]] [[DD]] 20 supplémentaire voit sa conscience transportée dans le [[paysages mentaux|paysage mental]] appelé Adyton, où elle peut s'attarder aussi longtemps qu'elle le souhaite et revenir par une [[action complexe]] quand elle le veut. Ceux qui échouent à ce second jet de sauvegarde dorment profondément pendant 2d4 heures et se réveillent en se souvenant de bribes de rêves surréalistes.
@@ -99,7 +99,7 @@ L'adyton est au cœur du culte de la demi-déesse infernale du destin, et de la 
 </div>
 
 <div class="BD">
-{s:BDTitre|{s:Reference|BIEREDEFEUNAINE}Bière de feu naine}
+{s:Reference|BIEREDEFEUNAINE}{s:BDTitre|Bière de feu naine}
 * '''Type''' ingestion ; '''Dépendance''' modérée, '''[[Vigueur]]''' [[DD]] 20
 * '''Prix''' 50 po
 * '''Effet''' 1d4 rounds ; ''[[rage]]'' comme avec le sort
@@ -109,7 +109,7 @@ L'adyton est au cœur du culte de la demi-déesse infernale du destin, et de la 
 </div>
 
 <div class="BD">
-{s:CSU|1}{s:BDTitre|{s:Reference|CHIQUEDESINFIDELES}Chique des infidèles}
+{s:CSU|1}{s:Reference|CHIQUEDESINFIDELES}{s:BDTitre|Chique des infidèles}
 * '''Type''' poison, ingestion ; '''JDS''' Vigueur (DD 13)
 * '''Fréquence''' 1/heure pendant 4 heures
 * '''Effet initial''' Don [[Supporter la douleur]] pendant une heure ; '''Effet secondaire''' 1 [[Con]] ; '''Guérison''' 1 réussite
@@ -120,7 +120,7 @@ Si quelqu’un prend de la chique des infidèles, il doit réussir un [[jds|jet 
 </div>
 
 <div class="BD">
-{s:BDTitre|{s:MPNJ}{s:Reference|DOUCEURSDELACATIN}Douceurs de la catin}
+{s:Reference|DOUCEURSDELACATIN}{s:BDTitre|Douceurs de la catin|{s:MPNJ}}
 * '''Type''' ingestion ; '''Dépendance''' modérée, '''[[Vigueur]]''' [[DD]] 18
 * '''Prix''' 60 po
 * '''Effet''' 1 heure ; +1d4 points de [[Charisme]] et +1 point de [[Dextérité]]
@@ -130,7 +130,7 @@ Ces pastilles ambrées augmentent légèrement l’agilité, ainsi que la beaut�
 </div>
 
 <div class="BD">
-{s:BDTitre|{s:Reference|ECORCHEFEUILLE}Écorchefeuille}
+{s:Reference|ECORCHEFEUILLE}{s:BDTitre|Écorchefeuille}
 * '''Type''' inhalation ou ingestion ; '''Dépendance''' mineure, '''[[Vigueur]]''' [[DD]] 12
 * '''Prix''' 10 po
 * '''Effet''' 1 heure ; bonus alchimique de +2 aux jets de sauvegarde contre les [[effet mental|effets mentaux]] et la fatigue
@@ -139,7 +139,7 @@ Ces pastilles ambrées augmentent légèrement l’agilité, ainsi que la beaut�
 </div>
 
 <div class="BD">
-{s:BDTitre|{s:Reference|ETHER}Éther}
+{s:Reference|ETHER}{s:BDTitre|Éther}
 * '''Type''' inhalation ; '''Dépendance''' modérée, '''[[Vigueur]]''' [[DD]] 16
 * '''Prix''' 20 po
 * '''Effet''' 1 heure ; +1 [[NLS]]
@@ -149,7 +149,7 @@ Ces pastilles ambrées augmentent légèrement l’agilité, ainsi que la beaut�
 </div>
 
 <div class="BD">
-{s:BDTitre|{s:Reference|FRISSON}Frisson}
+{s:Reference|FRISSON}{s:BDTitre|Frisson}
 * '''Type''' blessure ou ingestion ; '''Dépendance''' sévère, '''[[Vigueur]]''' [[DD]] 18
 * '''Prix''' 500 po
 * '''Effet''' variable ; 50% de chances de dormir pendant 1d4 heures ou d’être immunisé contre la peur pendant 1d4 minutes
@@ -159,7 +159,7 @@ Ces pastilles ambrées augmentent légèrement l’agilité, ainsi que la beaut�
 </td><td width="2%">
 </td><td width="49%">
 <div class="BD">
-{s:BDTitre|{s:Reference|GRAINEDEDAEMON}{s:BotD}Graine de daémon}
+{s:Reference|GRAINEDEDAEMON}{s:BDTitre|Graine de daémon|{s:BotD}}
 * '''Type''' ingestion ou inhalation ; '''Dépendance''' majeure, '''[[Vigueur]]''' [[DD]] 20 (non-[[sous-type daémon|daémon]] uniquement)
 * '''Prix''' 1 000 po
 * '''Effet''' 1 heure ; bonus de malfaisance de +1d4 aux [[jds|jets de sauvegarde]] et aux tests de [[Compétences|compétence]], bonus de malfaisance de +1d6 à une compétence
@@ -175,7 +175,7 @@ Les [[sous-type daémon|daémons]] sont immunisés aux effets négatifs de la gr
 </div>
 
 <div class="BD">
-{s:BDTitre|{s:MPNJ}{s:Reference|LARMESDELESCLAVAGISTE}Larmes de l’esclavagiste}
+{s:MPNJ}{s:Reference|LARMESDELESCLAVAGISTE}{s:BDTitre|Larmes de l’esclavagiste}
 * '''Type''' ingestion ; '''Dépendance''' mineure, '''[[Vigueur]]''' [[DD]] 13
 * '''Prix''' 20 po
 * '''Effet''' 3 heures ; -3 aux jets de [[Volonté]], +3 aux tests de [[Perception]]
@@ -185,7 +185,7 @@ Appliqué sur les yeux, ce liquide clair éveille les sens mais rend l’utilisa
 </div>
 
 <div class="BD">
-{s:BDTitre|{s:Reference|OPIUM}Opium}
+{s:Reference|OPIUM}{s:BDTitre|Opium}
 * '''Type''' inhalation, ingestion ou blessure ; '''Dépendance''' sévère, '''[[Vigueur]]''' [[DD]] 20
 * '''Prix''' 25 po
 * '''Effet''' 1 heure ; +1d8 points de vie temporaires, bonus alchimique de +2 aux jets de [[Vigueur]] et aux [[jet de sauvegarde|jets de sauvegarde]] contre la fatigue
@@ -194,7 +194,7 @@ Appliqué sur les yeux, ce liquide clair éveille les sens mais rend l’utilisa
 </div>
 
 <div class="BD">
-{s:BDTitre|{s:Reference|PESH}Pesh}
+{s:Reference|PESH}{s:BDTitre|Pesh}
 * '''Type''' ingestion ou inhalation ; '''Dépendance''' modérée, '''[[Vigueur]]''' [[DD]] 20
 * '''Prix''' 15 po
 * '''Effet''' 1 heure ; bonus alchimique +1d2 [[Force]], malus de –2 aux [[jet de sauvegarde|jets de sauvegarde]] contre les [[illusion|illusions]] et [[effet mental|effets mentaux]]
@@ -203,7 +203,7 @@ Appliqué sur les yeux, ce liquide clair éveille les sens mais rend l’utilisa
 </div>
 
 <div class="BD">
-{s:BDTitre|{s:Reference|PURGE}Purge}
+{s:Reference|PURGE}{s:BDTitre|Purge}
 * '''Type''' ingestion ou inhalation ; '''Dépendance''' sévère, '''[[Vigueur]]''' [[DD]] 24
 * '''Prix''' 45 po
 * '''Effet''' 3 heures ; bonus alchimique +1d4 à la [[Dextérité]], malus de –1d4 à la [[Sagesse]]
@@ -212,8 +212,7 @@ Appliqué sur les yeux, ce liquide clair éveille les sens mais rend l’utilisa
 </div>
 
 <div class="BD">
-{s:BDTitre|{s:MPNJ}{s:Reference|SEVEDESANG}Sève de sang}
-{s:cs}
+{s:MPNJ}{s:Reference|SEVEDESANG}{s:BDTitre|Sève de sang}
 * '''Type''' ingestion ; '''Dépendance''' modérée, '''[[Vigueur]]''' [[DD]] 20
 * '''Prix''' 150 po
 * '''Effet''' 30 minutes ; +1d4 points de [[Force]] et +1d3 points de [[Dextérité]], puis ralenti (comme avec le sort ''[[lenteur]]'') pendant 3 heures
@@ -223,8 +222,7 @@ La sève de sang est distillée à partir de la sève écarlate extraite d’une
 </div>
 
 <div class="BD">
-{s:BDTitre|{s:MPNJ}{s:Reference|THEDESSONGES}Thé des songes}
-{s:cs}
+{s:MPNJ}{s:Reference|THEDESSONGES}{s:BDTitre|Thé des songes}
 * '''Type''' ingestion ; '''Dépendance''' modérée, '''[[Vigueur]]''' [[DD]] 20
 * '''Prix''' 120 po
 * '''Effet''' 2d12 minutes ; inconscient, le personnage fait des rêves frappants qui fonctionnent comme le sort ''[[augure]]'', mais avec seulement 60% de chances de recevoir une réponse significative
@@ -234,7 +232,7 @@ Ce thé diffuse un arôme complexe, mélange improbable entre les agrumes et le 
 </div>
 
 <div class="BD">
-{s:BDTitre|{s:Reference|ZERK}Zerk}
+{s:Reference|ZERK}{s:BDTitre|Zerk}
 * '''Type''' blessure ; '''Dépendance''' mineure, '''[[Vigueur]]''' [[DD]] 18
 * '''Prix''' 50 po
 * '''Effet''' 1 heure ; bonus alchimique de +1 à l’[[initiative]]. En cas de dépendance, le consommateur gagne également un bonus alchimique de +1d4 à la [[Force]] tant qu’il est dépendant
@@ -242,3 +240,4 @@ Ce thé diffuse un arôme complexe, mélange improbable entre les agrumes et le 
 
 </div>
 </td></tr></table>
+

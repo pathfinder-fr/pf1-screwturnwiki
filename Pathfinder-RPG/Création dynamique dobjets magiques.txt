@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Création dynamique dobjets magiques
 Title: Création dynamique d'objets magiques
-LastModified: 2020-10-31 08:25
+LastModified: 2026-06-01 22:49
 Categories:
   - 'Src Pathfinder unchained'
 ---
@@ -77,7 +77,7 @@ Voici deux défis qui encadrent le processus de création dynamique d’objets m
 
 <table width="100%"><tr><td width="50%">
 <div class="BD">
-{s:BDTitre|{s:Reference|Préparation de réceptacle}Préparation de réceptacle}
+{s:BDTitre|Préparation de réceptacle|{s:Reference|Préparation de réceptacle}}
 Le personnage doit créer ou préparer un objet qui puisse contenir la magie que le créateur a l’intention de lui conférer.
 (((Tâches)))
 * '''Forger un nouveau réceptacle.''' [[Artisanat]] (type de l’objet) [[DD]] 15 + [[NLS|niveau de lanceur de sorts]] de l’objet.
@@ -91,7 +91,7 @@ Le personnage doit créer ou préparer un objet qui puisse contenir la magie que
 </div>
 </td><td width="50%">
 <div class="BD">
-{s:BDTitre|{s:Reference|Achèvement de l'objet}Achèvement de l'objet}
+{s:BDTitre|Achèvement de l'objet|{s:Reference|Achèvement de l'objet}}
 Le personnage apporte les touches finales à l’objet.
 (((Tâches)))
 * '''Improvisation.''' [[UOM|Utilisation d’objets magique]] [[DD]] 15 + [[NLS|niveau de lanceur de sorts]] de l’objet.
@@ -163,7 +163,7 @@ Le [[MJ]] doit effectuer un jet et consulter la table ci-dessous pour détermine
 
 <table width="100%"><tr><td width="49%">
 <div class="BD">
-{s:BDTitre|{s:Reference|Composantes fragiles}Composantes fragiles}
+{s:BDTitre|Composantes fragiles|{s:Reference|Composantes fragiles}}
 Certaines des composantes les plus importantes de l’objet sont extrêmement fragiles.
 (((Tâches)))
 * '''Renforcement de la conception.''' [[Artisanat]] (type de l’objet) [[DD]] 15 + [[NLS|niveau de lanceur de sorts]] de l’objet.
@@ -178,7 +178,7 @@ Certaines des composantes les plus importantes de l’objet sont extrêmement fr
 </div>
 
 <div class="BD">
-{s:BDTitre|{s:Reference|Construction difficile}Construction difficile}
+{s:BDTitre|Construction difficile|{s:Reference|Construction difficile}}
 Un ou plusieurs éléments de la conception de l’objet sont particulièrement difficiles à mettre en œuvre.
 (((Tâches)))
 * '''Projet et plan.''' [[Connaissances]] (ingénierie) [[DD]] 25.
@@ -193,7 +193,7 @@ Un ou plusieurs éléments de la conception de l’objet sont particulièrement 
 </div>
 
 <div class="BD">
-{s:BDTitre|{s:Reference|Convergence de lignes telluriques}Convergence de lignes telluriques}
+{s:BDTitre|Convergence de lignes telluriques|{s:Reference|Convergence de lignes telluriques}}
 La création de l’objet dépend de l’énergie générée par le croisement de lignes telluriques ou d’un lieu magique.
 (((Tâches)))
 * '''Ajuster en conséquence.''' [[Connaissances]] (mystères) [[DD]] 20 + [[NLS|niveau de lanceur de sorts]] de l’objet.
@@ -208,7 +208,7 @@ La création de l’objet dépend de l’énergie générée par le croisement d
 </div>
 
 <div class="BD">
-{s:BDTitre|{s:Reference|Défaut structurel}Défaut structurel}
+{s:BDTitre|Défaut structurel|{s:Reference|Défaut structurel}}
 À mi-chemin du processus de création, le personnage remarque un défaut dans la conception physique de l’objet.
 (((Tâches)))
 * '''Désassemblage et ajustement.''' [[Sabotage]] [[DD]] 30.
@@ -223,7 +223,7 @@ La création de l’objet dépend de l’énergie générée par le croisement d
 </div>
 
 <div class="BD">
-{s:BDTitre|{s:Reference|Élucidation sesquipédalienne}Élucidation sesquipédalienne}
+{s:BDTitre|Élucidation sesquipédalienne|{s:Reference|Élucidation sesquipédalienne}}
 Les instructions concernant la composante suivante de son objet sont pratiquement impossibles à comprendre pour le personnage, en raison d’un langage abscons.
 (((Tâches)))
 * '''Consulter un dictionnaire.''' [[Linguistique]] [[DD]] 15 + [[NLS|niveau de lanceur de sorts]] de l’objet.
@@ -238,7 +238,7 @@ Les instructions concernant la composante suivante de son objet sont pratiquemen
 </div>
 
 <div class="BD">
-{s:BDTitre|{s:Reference|Esprit intrusif}Esprit intrusif}
+{s:BDTitre|Esprit intrusif|{s:Reference|Esprit intrusif}}
 La création de l’objet attire l’attention d’un esprit errant attiré par l’objet.
 (((Tâches)))
 * '''Exorciser l’esprit.''' [[Connaissances]] (religion) [[DD]] 25.
@@ -253,7 +253,7 @@ La création de l’objet attire l’attention d’un esprit errant attiré par 
 </div>
 
 <div class="BD">
-{s:BDTitre|{s:Reference|Exigence émotionnelle}Exigence émotionnelle}
+{s:BDTitre|Exigence émotionnelle|{s:Reference|Exigence émotionnelle}}
 Pour créer l’objet, le personnage a besoin de canaliser une émotion forte particulière.
 (((Tâches)))
 * '''Réaction par l’action.''' [[Représentation]] (toutes) [[DD]] 20 + [[NLS|niveau de lanceur de sorts]] de l’objet.
@@ -268,7 +268,7 @@ Pour créer l’objet, le personnage a besoin de canaliser une émotion forte pa
 </div>
 
 <div class="BD">
-{s:BDTitre|{s:Reference|Ingrédients illégaux}Ingrédients illégaux}
+{s:BDTitre|Ingrédients illégaux|{s:Reference|Ingrédients illégaux}}
 Un ou plusieurs des ingrédients nécessaires sont complètement illégaux et le personnage doit se les procurer par des moyens illicites.
 (((Tâches)))
 * '''Quémander au marché noir.''' [[Connaissances]] (folklore local) [[DD]] 25.
@@ -283,7 +283,7 @@ Un ou plusieurs des ingrédients nécessaires sont complètement illégaux et le
 </div>
 
 <div class="BD">
-{s:BDTitre|{s:Reference|Ingrédients infestés}Ingrédients infestés}
+{s:BDTitre|Ingrédients infestés|{s:Reference|Ingrédients infestés}}
 Des ingrédients essentiels sont infectés par un champignon exotique ou infestés par une colonie de vermines, ce qui les rend inutilisables.
 (((Tâches)))
 * '''Se procurer des ingrédients de substitution bon marché.''' [[Estimation]] [[DD]] 25.
@@ -298,7 +298,7 @@ Des ingrédients essentiels sont infectés par un champignon exotique ou infest�
 </div>
 
 <div class="BD">
-{s:BDTitre|{s:Reference|Ingrédients quasi-conscients}Ingrédients quasi-conscients}
+{s:BDTitre|Ingrédients quasi-conscients|{s:Reference|Ingrédients quasi-conscients}}
 D’une certaine manière, une ou plusieurs des composantes de l’objet ont développé une intelligence limitée.
 (((Tâches)))
 * '''Pousser les ingrédients à un meilleur résultat.''' [[Dressage]] [[DD]] 30.
@@ -313,7 +313,7 @@ D’une certaine manière, une ou plusieurs des composantes de l’objet ont dé
 </div>
 
 <div class="BD">
-{s:BDTitre|{s:Reference|Inspiration soudaine}Inspiration soudaine}
+{s:BDTitre|Inspiration soudaine|{s:Reference|Inspiration soudaine}}
 Le personnage est frappé par un soudain éclair de génie et altère le processus de création.
 (((Tâches)))
 * '''Amélioration de l’objet.''' [[Art de la magie]] [[DD]] 20 + [[NLS|niveau de lanceur de sorts]] de l’objet.
@@ -328,7 +328,7 @@ Le personnage est frappé par un soudain éclair de génie et altère le process
 </div>
 
 <div class="BD">
-{s:BDTitre|{s:Reference|Instructions contradictoires}Instructions contradictoires}
+{s:BDTitre|Instructions contradictoires|{s:Reference|Instructions contradictoires}}
 Deux autorités respectées sont en violent désaccord sur l’étape suivante du processus.
 (((Tâches)))
 * '''Discerner le choix le plus pertinent.''' [[Connaissances]] (mystères) [[DD]] 15 + [[NLS|niveau de lanceur de sorts]] de l'objet.
@@ -343,7 +343,7 @@ Deux autorités respectées sont en violent désaccord sur l’étape suivante d
 </div>
 </td><td width="2%"></td><td width="49%">
 <div class="BD">
-{s:BDTitre|{s:Reference|Mutation aberrante}Mutation aberrante}
+{s:BDTitre|Mutation aberrante|{s:Reference|Mutation aberrante}}
 Les composants de l’objet ont muté, tout comme l’objet du personnage, qui évolue d’une manière étrange et nouvelle.
 (((Tâches)))
 * '''Altération de la mutation.''' [[Art de la magie]] [[DD]] 15 + [[NLS|niveau de lanceur de sorts]] de l'objet.
@@ -358,7 +358,7 @@ Les composants de l’objet ont muté, tout comme l’objet du personnage, qui �
 </div>
 
 <div class="BD">
-{s:BDTitre|{s:Reference|Obstacle historique}Obstacle historique}
+{s:BDTitre|Obstacle historique|{s:Reference|Obstacle historique}}
 Les techniques de création du personnage se heurtent à un problème de taille que de nombreux artisans ont déjà rencontré auparavant.
 (((Tâches)))
 * '''Tirer des leçons de l’histoire.''' [[Connaissances]] (histoire) [[DD]] 25.
@@ -373,7 +373,7 @@ Les techniques de création du personnage se heurtent à un problème de taille 
 </div>
 
 <div class="BD">
-{s:BDTitre|{s:Reference|Offre alléchante}Offre alléchante}
+{s:BDTitre|Offre alléchante|{s:Reference|Offre alléchante}}
 Un individu louche approche le personnage pour lui faire une offre qui lui permettrait d’achever la création de son objet plus rapidement pour un coût réduit.
 (((Tâches)))
 * '''Discerner la vérité.''' [[Psychologie]] [[DD]] 20.
@@ -388,7 +388,7 @@ Un individu louche approche le personnage pour lui faire une offre qui lui perme
 </div>
 
 <div class="BD">
-{s:BDTitre|{s:Reference|Pénurie de réactif}Pénurie de réactif}
+{s:BDTitre|Pénurie de réactif|{s:Reference|Pénurie de réactif}}
 Le personnage réalise soudainement qu’il n’a pas la quantité suffisante d’un ingrédient important.
 (((Tâches)))
 * '''Improvisation d’un substitut.''' [[Artisanat]] (alchimie) [[DD]] 30.
@@ -403,7 +403,7 @@ Le personnage réalise soudainement qu’il n’a pas la quantité suffisante d�
 </div>
 
 <div class="BD">
-{s:BDTitre|{s:Reference|Prérequis royal}Prérequis royal}
+{s:BDTitre|Prérequis royal|{s:Reference|Prérequis royal}}
 L’objet du personnage nécessite le cheveu d’un roi, le baiser d’un prince ou quelque autre participation d’un membre de la haute-noblesse.
 (((Tâches)))
 * '''Exploiter ses contacts avec la noblesse.''' [[Connaissances]] (noblesse) [[DD]] 25.
@@ -418,7 +418,7 @@ L’objet du personnage nécessite le cheveu d’un roi, le baiser d’un prince
 </div>
 
 <div class="BD">
-{s:BDTitre|{s:Reference|Référence rare}Référence rare}
+{s:BDTitre|Référence rare|{s:Reference|Référence rare}}
 Le personnage découvre une référence selon laquelle un ouvrage rare conservé dans une grande bibliothèque pourrait l’aider à créer son objet.
 (((Tâches)))
 * '''Vérification du catalogue de la bibliothèque.''' [[Linguistique]] [[DD]] 20.
@@ -433,7 +433,7 @@ Le personnage découvre une référence selon laquelle un ouvrage rare conservé
 </div>
 
 <div class="BD">
-{s:BDTitre|{s:Reference|Références croisées cryptiques}Références croisées cryptiques}
+{s:BDTitre|Références croisées cryptiques|{s:Reference|Références croisées cryptiques}}
 Le personnage a du mal à déterminer où trouver les informations dont il a besoin dans les multiples ouvrages dont il dispose.
 (((Tâches)))
 * '''Suivre les notes de bas de page.''' [[Linguistique]] [[DD]] 20.
@@ -448,7 +448,7 @@ Le personnage a du mal à déterminer où trouver les informations dont il a bes
 </div>
 
 <div class="BD">
-{s:BDTitre|{s:Reference|Résonance magique}Résonance magique}
+{s:BDTitre|Résonance magique|{s:Reference|Résonance magique}}
 Les auras magiques de diverses composantes vibrent d’un étrange écho chaque fois qu’elles sont proches les unes des autres.
 (((Tâches)))
 * '''Analyse des causes.''' [[Art de la magie]] DD]] 15 + [[NLS|niveau de lanceur de sorts]] de l'objet.
@@ -463,7 +463,7 @@ Les auras magiques de diverses composantes vibrent d’un étrange écho chaque 
 </div>
 
 <div class="BD">
-{s:BDTitre|{s:Reference|Singularité planaire}Singularité planaire}
+{s:BDTitre|Singularité planaire|{s:Reference|Singularité planaire}}
 Le personnage réalise que la création de son objet est sous l’influence de convergences planaires ou d’autres singularités.
 (((Tâches)))
 * '''Étude d’un planétaire.''' [[Connaissances]] (plans) [[DD]] 25.
@@ -478,7 +478,7 @@ Le personnage réalise que la création de son objet est sous l’influence de c
 </div>
 
 <div class="BD">
-{s:BDTitre|{s:Reference|Surcharge d'énergie}Surcharge d'énergie}
+{s:BDTitre|Surcharge d'énergie|{s:Reference|Surcharge d'énergie}}
 Un pic d’énergie soudain s’accumule au sein de l’objet, menaçant de l’endommager ou de le détruire.
 (((Tâches)))
 * '''Canalisation au sein de son propre corps.''' [[Vigueur]] [[DD]] 20 + [[NLS|niveau de lanceur de sorts]] de l'objet.
@@ -493,7 +493,7 @@ Un pic d’énergie soudain s’accumule au sein de l’objet, menaçant de l’
 </div>
 
 <div class="BD">
-{s:BDTitre|{s:Reference|Visiteur impromptu}Visiteur impromptu}
+{s:BDTitre|Visiteur impromptu|{s:Reference|Visiteur impromptu}}
 Un invité inopportun fait irruption alors que le personnage essaye de travailler. Il lui est donc particulièrement difficile de se concentrer.
 (((Tâches)))
 * '''Ignorer la gêne.''' [[Lancer des sorts#CONCENTRATION|Concentration]] [[DD]] 15 + [[NLS|niveau de lanceur de sorts]] de l'objet.
@@ -535,7 +535,7 @@ Pour générer un défi de classe, vous devez déterminer lequel des défis suiv
 
 <table width="100%"><tr><td width="49%">
 <div class="BD">
-{s:BDTitre|{s:Reference|Aide surnaturelle}Aide surnaturelle}
+{s:BDTitre|Aide surnaturelle|{s:Reference|Aide surnaturelle}}
 Des êtres d’un autre monde s’amusent lors de la création de l’objet du personnage dans le but de l’aider.
 (((Tâches)))
 * '''Altérer la construction en conséquence.''' [[Artisanat]] (type de l’objet) [[DD]] 20 + [[NLS|niveau de lanceur de sorts]] de l'objet.
@@ -549,7 +549,7 @@ Des êtres d’un autre monde s’amusent lors de la création de l’objet du p
 </div>
 
 <div class="BD">
-{s:BDTitre|{s:Reference|Catastrophe naturelle}Catastrophe naturelle}
+{s:BDTitre|Catastrophe naturelle|{s:Reference|Catastrophe naturelle}}
 Lors d’une étape de la création de l’objet dans un environnement naturel, une catastrophe naturelle inattendue se produit.
 (((Tâches)))
 * '''Canaliser l’énergie.''' [[UOM|Utilisation d’objets magiques]] [[DD]] 20 + [[NLS|niveau de lanceur de sorts]] de l’objet.
@@ -563,7 +563,7 @@ Lors d’une étape de la création de l’objet dans un environnement naturel, 
 </div>
 
 <div class="BD">
-{s:BDTitre|{s:Reference|Crise de foi}Crise de foi}
+{s:BDTitre|Crise de foi|{s:Reference|Crise de foi}}
 Pendant le processus de création, le personnage reçoit quelques mauvais augures de sa divinité protectrice, ce qui le pousse à remettre sa foi en question.
 (((Tâches)))
 * '''Persévérer.''' [[Volonté]] [[DD]] 20 + [[NLS|niveau de lanceur de sorts]] de l'objet.
@@ -577,7 +577,7 @@ Pendant le processus de création, le personnage reçoit quelques mauvais augure
 </div>
 
 <div class="BD">
-{s:BDTitre|{s:Reference|Élan personnel}Élan personnel}
+{s:BDTitre|Élan personnel|{s:Reference|Élan personnel}}
 Un élan de puissance bénéfique surgit des profondeurs insoupçonnées du personnage.
 (((Tâches)))
 * '''Embrasser la puissance.''' [[UOM|Utilisation d’objets magiques]] [[DD]] 20 + [[NLS|niveau de lanceur de sorts]] de l'objet.
@@ -591,7 +591,7 @@ Un élan de puissance bénéfique surgit des profondeurs insoupçonnées du pers
 </div>
 </td><td width="2%"></td><td width="49%">
 <div class="BD">
-{s:BDTitre|{s:Reference|Instabilité intérieure}Instabilité intérieure}
+{s:BDTitre|Instabilité intérieure|{s:Reference|Instabilité intérieure}}
 Quelque chose, à l’intérieur du personnage, fait irruption à un moment inopportun et menace la création de son objet.
 (((Tâches)))
 * '''Expliquer l’instabilité.''' [[Connaissances]] (mystères) [[DD]] 15 + [[NLS|niveau de lanceur de sorts]] de l'objet.
@@ -605,7 +605,7 @@ Quelque chose, à l’intérieur du personnage, fait irruption à un moment inop
 </div>
 
 <div class="BD">
-{s:BDTitre|{s:Reference|Interférence surnaturelle}Interférence surnaturelle}
+{s:BDTitre|Interférence surnaturelle|{s:Reference|Interférence surnaturelle}}
 Des êtres d’un autre monde interfèrent avec la création de l’objet, qu’ils soient tout près ou très loin.
 (((Tâches)))
 * '''Les convaincre d’arrêter.''' [[Diplomatie]] [[DD]] 20 + [[NLS|niveau de lanceur de sorts]] de l'objet.
@@ -619,7 +619,7 @@ Des êtres d’un autre monde interfèrent avec la création de l’objet, qu’
 </div>
 
 <div class="BD">
-{s:BDTitre|{s:Reference|Merveille naturelle}Merveille naturelle}
+{s:BDTitre|Merveille naturelle|{s:Reference|Merveille naturelle}}
 Lors d’une étape de la création de l’objet dans un environnement naturel, une rare merveille de la nature se manifeste.
 (((Tâches)))
 * '''Reproduire la beauté de la nature.''' [[Artisanat]] (type de l’objet) [[DD]] 20 + [[NLS|niveau de lanceur de sorts]] de l'objet.
@@ -633,7 +633,7 @@ Lors d’une étape de la création de l’objet dans un environnement naturel, 
 </div>
 
 <div class="BD">
-{s:BDTitre|{s:Reference|Signe des dieux}Signe des dieux}
+{s:BDTitre|Signe des dieux|{s:Reference|Signe des dieux}}
 Lors du processus de création, le personnage reçoit des signes lui indiquant la faveur de son protecteur.
 (((Tâches)))
 * '''Don pour la foi.''' Offrande d’un montant égal à 5% ou plus du prix de vente de l’objet en faveur des intérêts du protecteur.
@@ -1021,3 +1021,4 @@ Lors du processus de création, le personnage reçoit des signes lui indiquant l
 * '''Vulnérable.''' L’objet a une [[Exploration#SOLIDITE|solidité]] inférieure de 5 points à la normale (0 au minimum).
 
 * '''Zélé.''' L’objet ne fonctionne que pour les disciples de la divinité protectrice du créateur. Si plus d’un créateur entre en jeu, déterminez au hasard laquelle de leurs divinités protectrices est concernée.
+
