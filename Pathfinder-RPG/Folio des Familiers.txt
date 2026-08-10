@@ -1,7 +1,7 @@
 ---
 Name: Pathfinder-RPG.Folio des Familiers
 Title: Folio des Familiers (Familiar Folio)
-LastModified: 2026-08-03 03:43
+LastModified: 2026-08-04 03:16
 Categories:
   - 'Archétype'
   - 'Archétype barde'
@@ -124,6 +124,18 @@ Les nouvelles options de règles suivantes sont présentées dans le Folio des F
 Bien qu’il existe déjà de nombreux types de familiers, il arrive que les options disponibles ne correspondent pas exactement à l’idée que vous vous faites du compagnon magique de votre personnage. Avec l’accord de votre maître du jeu, vous pouvez toutefois réutiliser le profil d’un familier existant afin de représenter approximativement le familier idéal pour votre personnage.
 
 [Creer des familiers|Consulter les règles de création de familiers.]
+
+
+{br}[anchor|#familiers_inhabituels]
+====Familiers inhabituels====
+
+Bien que la plupart des familiers soient des animaux de taille Très Petite (TP) ou des créatures magiques, les lanceurs de sorts peuvent acquérir des créatures plus grandes ou inhabituelles au cours de leurs voyages. Cela implique certains effets de règles dont il faut tenir compte à la table de jeu.
+
+Les familiers de taille P contrôlent les cases adjacentes comme le font les autres créatures de petite taille. Ils peuvent être prendre des ennemis en tenaille, bien que leurs maîtres soient généralement peu enclins à employer de telles tactiques qui sont souvent mortelles pour leur familier. Les familiers de taille P sont également plus difficiles à transporter sur soi que les familiers de taille TP ou inférieure ; un objet magique, comme un sac sans fond, est généralement nécessaire.
+
+Les familiers de type créature artificielle, plante et vermine acquièrent une valeur d'[[intelligence]] et perdent le trait [Dénué dintelligence|dénué d'intelligence] s'ils le possédaient. Si ces familiers ne parlent aucune langue, ils communiquent avec leur maître et les autres créatures de leur espèce (un scorpion vert avec d'autres scorpions, des plantes mobiles avec d'autres plantes mobiles, etc.) au moyen d'un étrange mélange de comportements, de légers changements de coloration, et parfois même par la sécrétion d'odeurs ou de phéromones. Les autres types de créatures ne peuvent pas comprendre cette communication sans l'aide de la magie.
+
+Les extraplanaires et les créatures morts-vivantes ne sont normalement accessibles qu'avec le don Familier supérieur et ne nécessitent aucune autre règle spéciale.
 
 ====Archétypes de personnages====
 
@@ -311,15 +323,15 @@ Bien qu’il existe déjà de nombreux types de familiers, il arrive que les opt
 {| CLASS="tablo centre autoalt toutgauche" WIDTH="60%"
 |+ FAMILIERS TRES PETITS
 |- CLASS="titre"
-| NOM || TYPE
+| NOM || BONUS
 |- CLASS="premier"
-| [Poulet|Poulet] || Général
+| [Poulet|Poulet] || Le maître obtient +3 [[points de vie]].
 |-
-| [Kakapo|Kakapo] || Général
+| [Kakapo|Kakapo] || Le maître obtient +3 aux tests de [[Escalade]].
 |-
-| [Taupe|Taupe] || Familier
+| [Taupe|Taupe] || Le maître obtient un bonus de +3 aux tests de [[Perception]]{br}basés sur le touché, l'odorat, et le goût.
 |-
-| [Tetraodon|Tétraodon] || Familier
+| [Tetraodon|Tétraodon] || Le maître obtient +2 aux jets de [[Vigueur]]
 |}
 
 ====Nouveaux familiers de taille P====
@@ -328,17 +340,17 @@ Bien qu’il existe déjà de nombreux types de familiers, il arrive que les opt
 {| CLASS="tablo centre autoalt toutgauche" WIDTH="60%"
 |+ FAMILIERS PETITS
 |- CLASS="titre"
-| NOM || TYPE
+| NOM || BONUS
 |- CLASS="premier"
-| [Dauphin popoto|Dauphin Popoto] || Général
+| [Dauphin popoto|Dauphin Popoto] || Le maître obtient +3 aux tests de [[Natation]].
 |-
-| [Koala|Koala] || Général
+| [Koala|Koala] || Le maître obtient +3 aux tests de [[Escalade]].
 |-
-| [Paon|Paon] || Familier
+| [Paon|Paon] || Le maître obtient +3 aux tests de [[Intimidation]].
 |-
-| [Wallaby|Wallaby] || Familier
+| [Wallaby|Wallaby] || Le maître obtient +3 aux tests de [[Acrobaties]].
 |-
-| [Pinguoin|Pingouin] || Familier
+| [Manchot|Manchot] || Le maître obtient +3 aux tests de [[Natation]].
 |}
 
 ====Nouveaux familiers supérieurs====
@@ -349,11 +361,11 @@ Bien qu’il existe déjà de nombreux types de familiers, il arrive que les opt
 |- CLASS="titre"
 | NOM || TYPE || NLS
 |- CLASS="premier"
-| [Chat féérique|Chat féérique] || Général || 7
+| [Chat féérique|Chat féérique] || Créature magique || 7
 |-
-| [Chiot de Cayden|Chiot de Cayden] || Familier || 7
+| [Chiot de Cayden|Chiot de Cayden] || Extraplanaire (natif) || 7
 |-
-| [Pseudosphinx|Pseudosphinx] || Général || 7
+| [Pseudosphinx|Pseudosphinx] || Créature magique || 7
 |}
 
 ====Nouveaux familiers inhabituels====
@@ -364,7 +376,7 @@ Bien qu’il existe déjà de nombreux types de familiers, il arrive que les opt
 |- CLASS="titre"
 | NOM || BONUS
 |- CLASS="premier"
-| [Esprit dIoun|Esprit d'Ioun] || Général
+| [Wyrd Ioun|Wyrd Ioun] || Général
 |-
 | [Limace léopard|Limace léopard] || Général
 |-
