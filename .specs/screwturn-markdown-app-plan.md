@@ -1,66 +1,106 @@
 # Plan — App .NET Core de conversion ScrewTurn Wiki vers Markdown
 
-## 1) Cadre de travail
-- Créer une branche dédiée pour ce chantier.
-- Créer l’application dans le dossier **`.app/`** du dépôt.
-- Initialiser une application console .NET Core dans ce dossier.
-- Utiliser `Spectre.Console` et `Spectre.Console.Cli` comme base de l’interface CLI.
-- Conserver le dépôt actuel comme source de données d’entrée (fichiers `.txt` exportés).
-
-## 2) Entrées / sorties
-- **Entrée** : fichiers texte du wiki contenant :
+## 1) Contexte et domaine
+- Ce dépôt contient un export brut du wiki pathfinder-fr.org.
+- Les pages sont majoritairement des fichiers `.txt` avec :
   - un en-tête délimité par `---`,
-  - un corps en syntaxe ScrewTurn Wiki (proche MediaWiki).
-- **Sortie** : fichiers Markdown dans une arborescence miroir (ou configurable), avec nommage stable.
-- Définir un mode de traitement :
-  - fichier unique,
-  - dossier,
-  - traitement global.
+  - un contenu en syntaxe ScrewTurn Wiki (proche MediaWiki).
+- Des snippets partagés sont appelés via `{s:...}` et référencés dans `_Snippet`.
+- Objectif produit : générer des fichiers Markdown exploitables à partir de cet export.
 
-## 3) Pipeline de conversion
-- Lire et séparer en-tête / contenu.
-- Parser les constructions ScrewTurn prioritaires :
-  - titres, listes, emphases, liens internes/externes,
-  - snippets `{s:...}`,
-  - éléments non convertibles directement.
-- Appliquer des règles de transformation vers Markdown.
-- Produire un rapport des éléments partiellement convertis (pour itérations futures).
+## 2) Contraintes de cadrage
+- Travailler sur une branche dédiée.
+- Héberger l’application dans le dossier **`.app/`**.
+- Construire une application console .NET Core.
+- Utiliser `Spectre.Console` et `Spectre.Console.Cli` pour l’interface CLI.
+- Conserver les fichiers `.txt` du dépôt comme source de référence.
 
-## 4) Règles de mapping (version initiale)
-- Définir une table de correspondance ScrewTurn -> Markdown.
-- Implémenter d’abord les structures à fort volume (titres, listes, liens, paragraphes).
-- Ajouter une stratégie explicite pour les snippets :
-  - substitution quand une règle existe,
-  - marquage clair quand la conversion est inconnue.
-- Prévoir un mécanisme de règles extensibles (fichier de configuration ou couche dédiée).
+## 3) Livrables testables (grandes étapes)
 
-## 5) Architecture de l’app
-- Organiser le code en composants séparés :
-  - lecture des sources,
-  - parsing,
-  - conversion,
-  - écriture des sorties,
-  - reporting.
-- Structurer les commandes avec `Spectre.Console.Cli` et le rendu terminal avec `Spectre.Console`.
-- Prévoir des options CLI minimales :
-  - chemin source,
-  - chemin destination,
-  - mode dry-run,
-  - niveau de verbosité.
+### Livrable 1 — Squelette d’application CLI opérationnel
+**But**
+- Disposer d’une base exécutable prête à accueillir la conversion.
 
-## 6) Validation
-- Constituer un jeu d’échantillons représentatifs (pages simples + pages riches en snippets).
-- Vérifier la stabilité du rendu Markdown sur ces échantillons.
-- Ajouter des tests unitaires sur les règles de transformation critiques.
-- Prévoir une vérification manuelle ciblée des pages complexes.
+**Contenu**
+- Projet console .NET Core dans `.app/`.
+- Wiring `Spectre.Console.Cli` avec au moins une commande racine.
+- Paramètres CLI minimum (source, destination, dry-run, verbosité).
 
-## 7) Évolution progressive
-- Livrer une première version utilisable avec un sous-ensemble de la syntaxe.
-- Itérer ensuite par enrichissement des règles (snippets, cas limites, liens spécifiques).
-- Documenter les limitations connues et la roadmap de conversion.
+**Critères de validation**
+- La commande d’aide s’affiche correctement.
+- La commande accepte les arguments attendus.
+- Un mode dry-run s’exécute sans écrire de fichiers.
 
-## 8) Points à enrichir avec tes prochaines consignes
-- Priorisation des syntaxes ScrewTurn à supporter en premier.
-- Convention de sortie Markdown attendue (style, front matter, chemins).
-- Politique de gestion des snippets métier spécifiques au wiki Pathfinder-fr.
-- Critères d’acceptation pour déclarer la conversion “suffisante”.
+### Livrable 2 — Lecture des sources et séparation en-tête/corps
+**But**
+- Charger les fichiers wiki et structurer les données d’entrée.
+
+**Contenu**
+- Parcours des fichiers ciblés (fichier unique, dossier, global).
+- Extraction robuste en-tête / contenu.
+- Modèle interne minimal représentant une page source.
+
+**Critères de validation**
+- Un lot d’échantillons est lu sans erreur bloquante.
+- Les métadonnées d’en-tête sont récupérées correctement.
+- Le contenu brut ScrewTurn est conservé sans altération.
+
+### Livrable 3 — Conversion Markdown de base
+**But**
+- Produire un premier rendu Markdown utile sur les cas fréquents.
+
+**Contenu**
+- Règles de mapping initiales (titres, paragraphes, listes, emphases, liens).
+- Stratégie explicite pour les éléments non supportés.
+
+**Critères de validation**
+- Les pages simples produisent un Markdown lisible.
+- Les liens internes/externes restent exploitables.
+- Les éléments non convertis sont signalés clairement.
+
+### Livrable 4 — Gestion des snippets ScrewTurn
+**But**
+- Traiter les `{s:...}` de manière contrôlée.
+
+**Contenu**
+- Résolution des snippets supportés.
+- Marquage des snippets inconnus pour enrichissements ultérieurs.
+- Rapport de couverture des snippets rencontrés.
+
+**Critères de validation**
+- Les snippets supportés sont convertis de manière reproductible.
+- Les snippets non supportés sont listés et traçables.
+
+### Livrable 5 — Génération des sorties et reporting
+**But**
+- Écrire les fichiers Markdown et fournir un bilan d’exécution.
+
+**Contenu**
+- Écriture vers une arborescence cible stable.
+- Nommage cohérent et reproductible.
+- Résumé de conversion (succès, avertissements, erreurs).
+
+**Critères de validation**
+- Les fichiers sont générés aux emplacements attendus.
+- Deux exécutions identiques produisent le même résultat.
+- Le rapport final permet d’identifier les points à corriger.
+
+### Livrable 6 — Qualité et validation continue
+**But**
+- Sécuriser les évolutions par une validation testable.
+
+**Contenu**
+- Jeu d’échantillons représentatifs (simples + riches en snippets).
+- Tests unitaires sur les règles de conversion critiques.
+- Revue manuelle ciblée des pages complexes.
+
+**Critères de validation**
+- Les tests passent sur les cas nominaux ciblés.
+- Les régressions de mapping sont détectables rapidement.
+- Les limites connues sont documentées et priorisées.
+
+## 4) Backlog d’enrichissement
+- Prioriser les syntaxes ScrewTurn à supporter en premier.
+- Fixer la convention de sortie Markdown (style, front matter, chemins).
+- Définir la politique de traitement des snippets métier Pathfinder-fr.
+- Formaliser les critères d’acceptation de “conversion suffisante”.
