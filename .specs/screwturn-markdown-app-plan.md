@@ -2,8 +2,9 @@
 
 ## 1) Cadre de travail
 - Créer une branche dédiée pour ce chantier.
-- Créer un **second dossier applicatif** dans le dépôt (ex. `tools/screwturn-markdown-exporter/`).
+- Créer l’application dans le dossier **`.app/`** du dépôt.
 - Initialiser une application console .NET Core dans ce dossier.
+- Utiliser `Spectre.Console` et `Spectre.Console.Cli` comme base de l’interface CLI.
 - Conserver le dépôt actuel comme source de données d’entrée (fichiers `.txt` exportés).
 
 ## 2) Entrées / sorties
@@ -40,6 +41,7 @@
   - conversion,
   - écriture des sorties,
   - reporting.
+- Structurer les commandes avec `Spectre.Console.Cli` et le rendu terminal avec `Spectre.Console`.
 - Prévoir des options CLI minimales :
   - chemin source,
   - chemin destination,
