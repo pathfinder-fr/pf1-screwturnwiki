@@ -6,7 +6,7 @@
   - un en-tête délimité par `---`,
   - un contenu en syntaxe ScrewTurn Wiki (proche MediaWiki).
 - Des snippets partagés sont appelés via `{s:...}` et référencés dans `_Snippet`.
-- Objectif produit : générer des fichiers Markdown exploitables à partir de cet export.
+- Objectif produit : générer des fichiers Markdown exploitables par **Markdig** pour alimenter la génération d’un site statique.
 
 ## 2) Contraintes de cadrage
 - Travailler sur une branche dédiée.
@@ -14,6 +14,7 @@
 - Construire une application console .NET Core.
 - Utiliser `Spectre.Console` et `Spectre.Console.Cli` pour l’interface CLI.
 - Conserver les fichiers `.txt` du dépôt comme source de référence.
+- Générer la sortie dans un dossier **`.out/`** conçu pour pouvoir devenir un repository Git versionnable et pushable.
 
 ## 3) Livrables testables (grandes étapes)
 
@@ -47,10 +48,11 @@
 
 ### Livrable 3 — Conversion Markdown de base
 **But**
-- Produire un premier rendu Markdown utile sur les cas fréquents.
+- Produire un premier rendu Markdown compatible Markdig sur les cas fréquents.
 
 **Contenu**
-- Règles de mapping initiales (titres, paragraphes, listes, emphases, liens).
+- Règles de mapping initiales (titres, paragraphes, listes, emphases, liens) en privilégiant le Markdown le plus simple à rendre ensuite.
+- Analyse et heuristiques de conversion pour choisir la forme Markdown la plus stable selon les cas ScrewTurn rencontrés.
 - Stratégie explicite pour les éléments non supportés.
 
 **Critères de validation**
@@ -64,6 +66,7 @@
 
 **Contenu**
 - Résolution des snippets supportés.
+- Possibilité d’introduire une balise/extension Markdown dédiée et un plugin Markdig pour conserver le comportement des snippets quand la conversion directe n’est pas suffisante.
 - Marquage des snippets inconnus pour enrichissements ultérieurs.
 - Rapport de couverture des snippets rencontrés.
 
@@ -76,27 +79,31 @@
 - Écrire les fichiers Markdown et fournir un bilan d’exécution.
 
 **Contenu**
-- Écriture vers une arborescence cible stable.
+- Écriture vers le dossier `.out/` avec une arborescence cible stable.
 - Nommage cohérent et reproductible.
 - Résumé de conversion (succès, avertissements, erreurs).
+- Préparation du répertoire `.out/` pour un usage Git (structure propre, fichiers versionnables, régénération déterministe).
 
 **Critères de validation**
 - Les fichiers sont générés aux emplacements attendus.
 - Deux exécutions identiques produisent le même résultat.
 - Le rapport final permet d’identifier les points à corriger.
 
-### Livrable 6 — Qualité et validation continue
+### Livrable 6 — Validation finale orientée site statique Markdig (dernière étape)
 **But**
-- Sécuriser les évolutions par une validation testable.
+- Valider que la sortie Markdown `.out/` est directement exploitable pour une génération de site statique basée sur Markdig.
 
 **Contenu**
 - Jeu d’échantillons représentatifs (simples + riches en snippets).
 - Tests unitaires sur les règles de conversion critiques.
 - Revue manuelle ciblée des pages complexes.
+- Vérification de rendu via Markdig (extensions/plugins retenus, y compris plugin snippet si implémenté).
 
 **Critères de validation**
 - Les tests passent sur les cas nominaux ciblés.
 - Les régressions de mapping sont détectables rapidement.
+- Le rendu Markdig des pages testées est exploitable pour le site statique cible.
+- Le dossier `.out/` peut être versionné et poussé comme repository dédié.
 - Les limites connues sont documentées et priorisées.
 
 ## 4) Backlog d’enrichissement
